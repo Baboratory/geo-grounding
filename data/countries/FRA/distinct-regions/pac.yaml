@@ -1,0 +1,81 @@
+code: FR-PAC
+name:
+  eng: Provence-Alpes-Côte d'Azur
+  local:
+    - languageCode: fra
+      value: Provence-Alpes-Côte d'Azur
+climates:
+  - koppenCode: Csa
+    description: Mediterranean climate, hot dry summers and mild winters along the coast.
+  - koppenCode: Dfb
+    description: Alpine/continental climate in the Alps in the region's northeast.
+landmarks:
+  - name: Calanques National Park
+  - name: Pont du Gard (Roman aqueduct)
+    unescoWorldHeritage: true
+  - name: Palais des Papes, Avignon
+    unescoWorldHeritage: true
+culturalTraits:
+  - Provençal language and lavender-growing tradition
+  - Strong association with Impressionist and Post-Impressionist painters (Cézanne, Van Gogh)
+prideOf:
+  - Lavender fields and perfume industry (Grasse)
+  - Mediterranean coastline and Côte d'Azur glamour
+animals:
+  popular:
+    - Pink flamingo (Camargue)
+    - Camargue horse
+  unique:
+    - Camargue bull (breed used in course camarguaise)
+industries:
+  - Tourism
+  - Perfume and cosmetics (Grasse)
+  - Aerospace (Cannes/Toulon area)
+sports:
+  - Pétanque
+  - Sailing
+# religions intentionally omitted: France does not officially collect religion
+# statistics (see data/countries/FRA/country.yaml for the legal basis), and no
+# region-level breakdown exists even in the unofficial research surveys (e.g.
+# INSEE/INED's TeO survey) that cover this topic at the national level only.
+entertainment:
+  - season: summer
+    items:
+      - Cannes area beach festivals
+      - Festival d'Avignon (theatre)
+  - season: winter
+    items:
+      - Nice Carnival (Carnaval de Nice, Feb)
+traditionalDishes:
+  - season: summer
+    items:
+      - Ratatouille
+      - Salade niçoise
+  - season: allYear
+    items:
+      - Bouillabaisse
+      - Pastis (aperitif)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Provençal print dress (robe provençale)
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  notes: "Runs opposite the national August-shutdown pattern (see FRA WHOLE): this is one of France's peak tourist regions, so hospitality/retail businesses are at their busiest, not closed, in July-August. Nice and Cannes are among the designated 'zones touristiques' (ZT) where retail is legally authorized to open on Sundays, an exception to the national Sunday-rest default."
+  restDays:
+    - sunday
+sources:
+  - id: fr-code-travail-l3132-2
+    name: "Code du travail, Article L3132-2 (repos dominical) and related guidance on exceptions"
+    publisher: "Ministère du Travail (code.travail.gouv.fr)"
+    url: "https://code.travail.gouv.fr/fiche-ministere-travail/le-travail-du-dimanche"
+    accessedDate: "2026-09-02"
+    note: "The basis for noting Nice and Cannes as designated 'zones touristiques' authorized for Sunday trading, an exception to the region's usual Sunday rest day."

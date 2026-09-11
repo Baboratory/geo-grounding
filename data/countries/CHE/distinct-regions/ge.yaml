@@ -1,0 +1,80 @@
+code: CH-GE
+name:
+  eng: Geneva
+  local:
+    - languageCode: fra
+      value: Genève
+climates:
+  - koppenCode: Cfb
+    description: Oceanic/temperate climate, moderated by Lake Geneva (Léman).
+landmarks:
+  - name: Jet d'Eau
+    description: Iconic 140m fountain on Lake Geneva.
+  - name: CERN
+    description: European Organization for Nuclear Research, headquartered just outside the city.
+  - name: St. Pierre Cathedral
+    description: Old Town cathedral associated with John Calvin and the Reformation.
+culturalTraits:
+  - International-diplomacy hub — host to the UN's European headquarters, the ICRC/Red Cross, and the WHO, among many others
+  - Watchmaking heritage, historically certified by the Geneva Seal (Poinçon de Genève)
+  - Calvinist Reformation history
+prideOf:
+  - Status as a global center of diplomacy and international organizations
+  - Precision watchmaking and the Geneva Seal
+  - Lake Geneva and its waterfront
+animals:
+  popular:
+    - Swans and other waterfowl on Lake Geneva
+industries:
+  - International organizations and diplomacy
+  - Private banking and wealth management
+  - Watchmaking and luxury goods
+  - Scientific research (CERN and related institutions)
+sports:
+  - Football (Servette FC)
+  - Sailing on Lake Geneva
+# religions intentionally omitted: no canton-level official religion
+# breakdown was found to cite separately from the national CHE WHOLE figure
+# (see data/countries/CHE/distinct-regions/whole.yaml).
+entertainment:
+  - season: summer
+    items:
+      - "Fêtes de Genève (August): lakeside festival with fireworks"
+  - season: winter
+    items:
+      - "L'Escalade (December): festival commemorating the repelled 1602 siege of Geneva"
+      - Christmas market in the Old Town
+traditionalDishes:
+  - season: allYear
+    items:
+      - Longeole (Geneva-style pork sausage)
+  - season: winter
+    items:
+      - "Chocolate 'marmite' (cauldron-shaped chocolate filled with marzipan vegetables, traditionally smashed during L'Escalade)"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Shops without a derogation must close on Sundays and public holidays under the canton's Loi sur les heures d'ouverture des magasins (LHOM); a 2026 popular vote (over 53% in favor) added 2 extra Sunday-opening days a year on top of the existing 31 December exception, with staff able to work only on a voluntary basis and with compensation. Independently, shops staffed only by their owner/manager/family (no employees on duty) fall outside LHOM's hours restrictions altogether."
+sources:
+  - id: ge-lhom
+    name: "Horaires de fermeture des magasins (Store closing hours)"
+    publisher: "République et canton de Genève"
+    url: "https://www.ge.ch/exercer-activite-commerciale-conforme/horaires-fermeture-magasins"
+    accessedDate: "2026-09-11"
+    note: "The Sunday-closure default under LHOM and the exception for shops staffed only by their owner/family."
+  - id: ge-dimanches-2026
+    name: "Ouverture des magasins le dimanche: le Conseil d'Etat salue le soutien de la population aux commerces locaux"
+    publisher: "République et canton de Genève"
+    url: "https://www.ge.ch/document/ouverture-magasins-dimanche-conseil-etat-salue-soutien-population-aux-commerces-locaux"
+    year: 2026
+    accessedDate: "2026-09-11"
+    note: "The 2026 popular vote adding 2 extra Sunday-opening days per year, and the voluntary/compensated basis for staff working those days."

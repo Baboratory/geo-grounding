@@ -1,0 +1,206 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://baboratory.com/schema/geo-grounding/region.schema.json",
+  "title": "Region",
+  "description": "A region within a country (real ISO 3166-2 subdivision) or, for countries without subdivisions, the single synthetic whole-country entry with code 'WHOLE'.",
+  "type": "object",
+  "required": ["code", "name"],
+  "additionalProperties": false,
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "ISO 3166-2 subdivision code (e.g. FR-BRE) when the parent country has real subdivisions, otherwise the literal 'WHOLE'."
+    },
+    "name": {
+      "type": "object",
+      "required": ["eng", "local"],
+      "additionalProperties": false,
+      "properties": {
+        "eng": { "type": "string" },
+        "local": {
+          "type": "array",
+          "description": "The region's name in the language(s) actually local to it — not necessarily every official language of the parent country. E.g. CH-ZH (German-speaking) has one entry (deu); the CHE WHOLE fallback, representing the whole multilingual country, has all four (deu/fra/ita/roh). Mirrors country.schema.json's name.local[] shape for the same reason: some regions (federal-country subdivisions especially) can legitimately have more than one locally-used name.",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["languageCode", "value"],
+            "additionalProperties": false,
+            "properties": {
+              "languageCode": { "type": "string", "pattern": "^[a-z]{3}$", "description": "ISO 639-3 code, e.g. fra, deu, tah" },
+              "value": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "climates": {
+      "type": "array",
+      "description": "Köppen climate classes present in this region, with a short description.",
+      "items": {
+        "type": "object",
+        "required": ["koppenCode", "description"],
+        "additionalProperties": false,
+        "properties": {
+          "koppenCode": { "type": "string", "description": "e.g. Cfb, Csa, Aw" },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "landmarks": {
+      "type": "array",
+      "description": "Notable sights / landmarks.",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "unescoWorldHeritage": { "type": "boolean" }
+        }
+      }
+    },
+    "culturalTraits": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "prideOf": {
+      "type": "array",
+      "description": "What locals are most proud of.",
+      "items": { "type": "string" }
+    },
+    "animals": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "popular": { "type": "array", "items": { "type": "string" } },
+        "unique": {
+          "type": "array",
+          "description": "Endemic or otherwise distinctive species.",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "industries": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "sports": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "religions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "percent", "sourceId"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "percent": { "type": "number", "minimum": 0, "maximum": 100 },
+          "sourceId": { "$ref": "#/definitions/sourceIdRef" }
+        }
+      }
+    },
+    "entertainment": { "$ref": "#/definitions/seasonalList" },
+    "traditionalDishes": { "$ref": "#/definitions/seasonalList" },
+    "traditionalClothing": { "$ref": "#/definitions/seasonalList" },
+    "seasonCalendar": {
+      "type": "array",
+      "description": "Maps each non-'allYear' season label used anywhere in this file's entertainment/traditionalDishes/traditionalClothing to the calendar month(s) it covers HERE — this is what makes 'what season is it right now in this region' computable from today's date (see usage_examples/python/get_data_by_ip.py). Required (checked by scripts/validate.py, not JSON Schema alone) whenever any seasonal field in this file uses a season other than 'allYear'. Together the months[] across all entries here must partition the year exactly (each of 1-12 appears in exactly one entry) — also checked by scripts/validate.py.",
+      "items": {
+        "type": "object",
+        "required": ["season", "months"],
+        "additionalProperties": false,
+        "properties": {
+          "season": {
+            "type": "string",
+            "enum": ["spring", "summer", "autumn", "winter", "dry", "wet"],
+            "description": "Never 'allYear' — allYear content applies regardless of season and needs no calendar entry."
+          },
+          "months": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "integer", "minimum": 1, "maximum": 12 },
+            "description": "Calendar months (1=January .. 12=December) belonging to this season in this region. Reversed vs. the Northern-Hemisphere-typical assumption for Southern-Hemisphere regions (e.g. 'summer' = Dec-Feb there)."
+          }
+        }
+      }
+    },
+    "businessRhythm": {
+      "type": "object",
+      "description": "Work/rest rhythm and business seasonality for this region — deliberately region-level (not country-level), because it genuinely varies by region even within one country (e.g. Paris's touristic zones have Sunday-trading exemptions the rest of France doesn't). Legally-mandated facts (e.g. 'shops must close Sundays') belong in the parent country.yaml's legalConstraints[] with a sourceId if they're national law; use the 'notes' field here for region-specific exceptions/nuance to that national picture. restDays/typicalWorkHours/lunchBreakTiming are customary description, not required to cite a source.",
+      "additionalProperties": false,
+      "properties": {
+        "restDays": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"] },
+          "description": "Which weekdays are widely treated as non-working days here."
+        },
+        "typicalWorkHours": { "type": "string" },
+        "lunchBreakTiming": { "type": "string" },
+        "notableShutdownPeriods": {
+          "type": "array",
+          "description": "Recurring periods when business activity noticeably slows/stops (e.g. August in much of France/Italy).",
+          "items": {
+            "type": "object",
+            "required": ["period", "description"],
+            "additionalProperties": false,
+            "properties": {
+              "period": { "type": "string", "description": "e.g. 'August', 'two weeks around Easter'." },
+              "description": { "type": "string" },
+              "sourceId": { "$ref": "#/definitions/sourceIdRef" }
+            }
+          }
+        },
+        "notes": { "type": "string", "description": "Region-specific nuance/exceptions to the country's general legal picture, e.g. a touristic-zone trading exemption." }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "description": "Registry of official sources backing the statistical fields in this file (religions, businessRhythm.notableShutdownPeriods when sourced). Every sourceId used below must have a matching entry here — checked by scripts/validate.py, not by JSON Schema alone.",
+      "items": { "$ref": "#/definitions/source" }
+    }
+  },
+  "definitions": {
+    "source": {
+      "type": "object",
+      "required": ["id", "name", "publisher", "url", "note"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Unique within this file. Referenced by sourceId fields elsewhere in the same file." },
+        "name": { "type": "string", "description": "Title of the specific document/dataset/page." },
+        "publisher": { "type": "string", "description": "The official body, e.g. a national statistics office." },
+        "url": { "type": "string", "format": "uri" },
+        "year": { "type": "integer", "description": "Year the underlying data refers to (not necessarily the access date)." },
+        "accessedDate": { "type": "string", "format": "date", "description": "Date this source was consulted, YYYY-MM-DD." },
+        "note": { "type": "string", "description": "Exactly what in this file was taken from this source." }
+      }
+    },
+    "sourceIdRef": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Must match a sources[].id declared in this same file."
+    },
+    "seasonalList": {
+      "type": "array",
+      "description": "Grouped by season. A closed enum rather than free text, so consumers can reliably filter by the visitor's current season — but it deliberately covers more than the four-season model: tropical/equatorial regions use dry/wet instead of spring/summer/autumn/winter (see PYF), and regions without meaningful seasonality use a single 'allYear' entry. Note: 'summer'/'winter' etc. are calendar-month-agnostic labels — this schema does not encode which months they cover or reconcile Southern-Hemisphere season timing against Northern-Hemisphere labels; a consumer mapping 'current date' to 'current season' must handle that itself (e.g. via the country/region's approximate latitude or climates[].koppenCode).",
+      "items": {
+        "type": "object",
+        "required": ["season", "items"],
+        "additionalProperties": false,
+        "properties": {
+          "season": {
+            "type": "string",
+            "enum": ["spring", "summer", "autumn", "winter", "dry", "wet", "allYear"],
+            "description": "spring/summer/autumn/winter for temperate regions, dry/wet for tropical/equatorial regions, allYear for content with no meaningful seasonality."
+          },
+          "items": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

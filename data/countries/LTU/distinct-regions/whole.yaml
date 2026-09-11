@@ -1,0 +1,92 @@
+code: WHOLE
+name:
+  eng: Lithuania
+  local:
+    - languageCode: lit
+      value: Lietuva
+climates:
+  - koppenCode: Dfb
+    description: Humid continental climate with warm summers and cold, snowy winters.
+landmarks:
+  - name: Vilnius Old Town
+    description: Largest surviving medieval old town in Northern/Eastern Europe.
+    unescoWorldHeritage: true
+  - name: Curonian Spit
+    description: Sand dune peninsula shared with Kaliningrad Oblast.
+    unescoWorldHeritage: true
+  - name: Trakai Island Castle
+culturalTraits:
+  - Song and dance festival tradition (Dainų šventė)
+  - Strong basketball culture
+prideOf:
+  - Being one of the first countries to declare independence from the USSR (1990)
+  - Basketball achievements
+animals:
+  popular:
+    - White stork
+    - European bison
+  unique:
+    - European mink
+industries:
+  - Biotechnology
+  - Laser technology
+  - Furniture manufacturing
+  - IT / fintech services
+sports:
+  - Basketball
+  - Athletics
+religions:
+  - name: Roman Catholic
+    percent: 74.2
+    sourceId: lt-census-2021
+  - name: Orthodox Christian
+    percent: 4.4
+    sourceId: lt-census-2021
+  - name: No religion
+    percent: 6.3
+    sourceId: lt-census-2021
+  - name: Not stated
+    percent: 13.7
+    sourceId: lt-census-2021
+entertainment:
+  - season: summer
+    items:
+      - Song and Dance Celebration (Dainų šventė, every 4 years)
+      - Rasos/Joninės (Midsummer festival)
+  - season: winter
+    items:
+      - Kalėdos (Christmas market season)
+      - Užgavėnės (winter-chasing carnival)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Cepelinai
+      - Šaltibarščiai
+  - season: winter
+    items:
+      - Kūčiukai (Christmas Eve)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Tautinis kostiumas (national folk costume, worn on festive occasions)
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: []
+  notes: "No law currently restricts which days of the week retail may trade — unlike France's default Sunday-rest rule. Supermarkets and shopping centres commonly operate all 7 days, typically around 10:00am-9:00pm on weekdays/Saturday (some grocery stores open earlier and close later, roughly 8:00am-10:00pm or midnight) and slightly shorter hours on Sunday (often closing by 5:00-6:00pm). A ban on large retail chains trading on Sundays has been repeatedly proposed in the Seimas (Lithuania's parliament) since at least 2018 but has not been enacted as of 2026 — so restDays is deliberately empty here rather than omitted, reflecting a real 'no restriction' state rather than an unresearched gap."
+  typicalWorkHours: "Standard office hours are typically around 8:00/9:00am-5:00/6:00pm, Monday-Friday."
+sources:
+  - id: lt-census-2021
+    name: "2021 m. gyventojų ir būstų surašymas: Tautybė, gimtoji kalba ir tikyba (Nationality, native language and religion)"
+    publisher: "Lietuvos statistikos departamentas (Statistics Lithuania)"
+    url: "https://osp.stat.gov.lt/en/2021-gyventoju-ir-bustu-surasymo-rezultatai/tautybe-gimtoji-kalba-ir-tikyba"
+    year: 2021
+    accessedDate: "2026-09-02"
+    note: "The religious-affiliation percentages (Roman Catholic 74.2%, Orthodox 4.4%, No religion 6.3%, Not stated 13.7%; the remaining ~1.5% is split across smaller groups — Lutheran, other Christian, other religion — omitted here for brevity)."

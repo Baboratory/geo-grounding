@@ -1,0 +1,8 @@
+code: eng
+name:
+  eng: English
+  local: English
+commonPhrases:
+  hello: Hello
+  thankYou: Thank you
+  goodbye: Goodbye

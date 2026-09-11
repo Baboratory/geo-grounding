@@ -1,0 +1,70 @@
+code: CH-TI
+name:
+  eng: Ticino
+  local:
+    - languageCode: ita
+      value: Ticino
+climates:
+  - koppenCode: Cfa
+    description: Humid subtropical-leaning microclimate around Lugano/Locarno — noticeably milder and more Mediterranean than the rest of Switzerland, thanks to the lakes and the Alps sheltering the area from the north. Palm trees grow outdoors here.
+landmarks:
+  - name: Lake Lugano
+  - name: Lake Maggiore
+    description: Shared with neighboring Italy.
+  - name: Piazza Grande, Locarno
+    description: Main square, home to the open-air screenings of the Locarno Film Festival.
+culturalTraits:
+  - Switzerland's only canton where Italian is the sole official language
+  - Mediterranean-influenced lifestyle and cuisine relative to the rest of the country
+  - History as a 19th/20th-century emigration region (Ticinesi craftsmen — stonemasons, terrazzo/stucco workers — emigrated worldwide, notably to California and Australia)
+prideOf:
+  - The Locarno Film Festival's international standing
+  - Being the sunniest, most Mediterranean-feeling part of Switzerland
+  - A distinct Italian-Swiss identity
+industries:
+  - Tourism
+  - Cross-border private/regional banking (with nearby Italy)
+  - Logistics (Gotthard transit corridor)
+sports:
+  - Football (FC Lugano)
+# religions intentionally omitted: no canton-level official religion
+# breakdown was found to cite separately from the national CHE WHOLE figure
+# (see data/countries/CHE/distinct-regions/whole.yaml). Ticino is, however,
+# widely understood to be one of Switzerland's more heavily Catholic cantons.
+entertainment:
+  - season: summer
+    items:
+      - "Locarno Film Festival (August): major international film festival with open-air screenings on Piazza Grande"
+traditionalDishes:
+  - season: allYear
+    items:
+      - Risotto ticinese
+      - Polenta e brasato (polenta with braised beef)
+      - "Meals at a 'grotto' — a traditional rustic stone tavern, often built into a hillside for natural cooling"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Legal weekday retail window is roughly Mon-Wed/Fri 6:00am-7:00pm, Thursday 6:00am-9:00pm (the canton's designated late-shopping evening), and Saturday 6:00am-6:30pm."
+  notes: "Shops are closed by default on Sundays and public holidays, with exceptions for bakeries, pastry/confectionery/ice-cream shops, florists, art galleries, and ateliers (6:00am-6:00pm). Ordinary shops of any kind may additionally open 10:00am-7:00pm on the Sundays right before Christmas (from after 8 December) and on weekday holidays not treated like a Sunday (excluding 1 May), and the cantonal Department can authorize general Sunday opening for up to 4 Sundays a year."
+sources:
+  - id: ti-apertura-domeniche
+    name: "Domeniche e giorni festivi (Sundays and public holidays)"
+    publisher: "Repubblica e Cantone Ticino, Ufficio dell'ispettorato del lavoro (UIL)"
+    url: "https://www4.ti.ch/dfe/de/uil/apertura-negozi/domeniche-e-giorni-festivi"
+    accessedDate: "2026-09-11"
+    note: "The Sunday/holiday closure default, its category-specific exceptions, the pre-Christmas Sunday exception, and the up-to-4-Sundays-a-year general opening rule."
+  - id: ti-orari-feriali
+    name: "Orari d'apertura nei giorni feriali (Weekday opening hours)"
+    publisher: "Repubblica e Cantone Ticino, Ufficio dell'ispettorato del lavoro (UIL)"
+    url: "https://www4.ti.ch/dfe/de/uil/apertura-negozi/giorni-feriali"
+    accessedDate: "2026-09-11"
+    note: "The legal weekday/Saturday opening-hours window, including Thursday's extended evening hours."

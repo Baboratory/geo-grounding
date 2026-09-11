@@ -1,0 +1,122 @@
+code: WHOLE
+name:
+  eng: France
+  local:
+    - languageCode: fra
+      value: France
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO
+# 3166-2 subdivision isn't one of the curated regions below
+# FRA/distinct-regions/ (e.g. no FR-IDF file yet). Content here is
+# deliberately national/symbolic rather than tied to one region.
+climates:
+  - koppenCode: Cfb
+    description: Oceanic climate across most of the country (dominant type).
+  - koppenCode: Csa
+    description: Mediterranean climate along the southern coast.
+  - koppenCode: Dfc
+    description: Mountain/alpine climate in the Alps and Pyrenees.
+landmarks:
+  - name: Eiffel Tower
+    description: Paris.
+  - name: Louvre Museum
+    description: Paris.
+  - name: Palace of Versailles
+    unescoWorldHeritage: true
+  - name: Loire Valley châteaux
+    unescoWorldHeritage: true
+culturalTraits:
+  - Café and bistro culture
+  - Gastronomy and wine as a defining part of national identity (French gastronomic meal is UNESCO intangible heritage)
+  - Laïcité (strict state secularism) as a foundational civic value
+  - Académie française and formal protection of the French language
+prideOf:
+  - Culinary and wine heritage
+  - Fashion and luxury goods (haute couture, LVMH)
+  - Artistic and cinematic influence (Impressionism, Nouvelle Vague)
+  - Declaration of the Rights of Man and of the Citizen (1789) as part of the national self-image
+animals:
+  popular:
+    - Gallic rooster (coq gaulois, unofficial national symbol)
+    - Red deer
+    - Wild boar (sanglier)
+industries:
+  - Aerospace (Airbus)
+  - Luxury goods
+  - Nuclear energy
+  - Tourism (most-visited country in the world by international arrivals)
+  - Automotive (Renault, Peugeot-Citroën/Stellantis)
+sports:
+  - Football
+  - Rugby union
+  - Cycling (Tour de France)
+  - Tennis (Roland-Garros)
+religions:
+  - name: Roman Catholic
+    percent: 29.0
+    sourceId: insee-teo2-religion-2023
+  - name: No religion
+    percent: 51.0
+    sourceId: insee-teo2-religion-2023
+  - name: Muslim
+    percent: 10.0
+    sourceId: insee-teo2-religion-2023
+  - name: Other Christian
+    percent: 9.0
+    sourceId: insee-teo2-religion-2023
+entertainment:
+  - season: summer
+    items:
+      - Tour de France (July)
+      - Fête de la Musique (21 June)
+      - Bastille Day fireworks (14 July)
+  - season: winter
+    items:
+      - Christmas markets nationwide
+      - New Year's Eve on the Champs-Élysées
+traditionalDishes:
+  - season: allYear
+    items:
+      - Baguette
+      - Cheese and wine
+      - Croissant
+  - season: winter
+    items:
+      - Galette des Rois (January)
+      - Raclette / fondue
+traditionalClothing:
+  - season: allYear
+    items:
+      - Beret (internationally recognized symbol of French identity, historically regional)
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours are typically around 9:00am-6:00pm; the legal full-time workweek is capped at 35 hours, with extra hours usually compensated as additional time off (RTT) rather than just overtime pay."
+  lunchBreakTiming: "A long midday break, often close to two hours around 12:00-2:00pm, is a strong cultural norm — many shops and small businesses close during it, and lunch is treated as a proper sit-down meal rather than eaten at the desk. Dinner is later than in Northern Europe, typically starting from 7:30-8:00pm onward; restaurants commonly serve dinner 7:00-10:00pm."
+  notableShutdownPeriods:
+    - period: August
+      description: "Over 60% of employees take at least three consecutive weeks off in summer; August accounts for 62% of holiday bookings vs. 38% for July. Small businesses, family-owned shops, bakeries, and local banks/post offices commonly close with 'Fermé pour congés annuels' signs — though large retailers and international/tourism-facing business continue operating."
+      sourceId: connexion-france-summer-holidays
+sources:
+  - id: insee-teo2-religion-2023
+    name: "Religious diversity in France: intergenerational transmissions and practices by origins (Trajectoires et Origines 2, TeO2 survey, 2019-2020 data)"
+    publisher: "INSEE (Institut national de la statistique et des études économiques), jointly with INED"
+    url: "https://www.insee.fr/en/statistiques/7342918?sommaire=7344042"
+    year: 2020
+    accessedDate: "2026-09-02"
+    note: "The religious-affiliation percentages, national level, population aged 18-59 in metropolitan France (Roman Catholic 29%, No religion 51%, Muslim 10%, Other Christian 9%). This is the only officially-published French religion statistic found during verification — it exists because it comes from a dedicated INSEE/INED research survey (TeO2), not the census (which by law does not ask about religion). No region-level breakdown from this or any other official source was found, which is why FR-BRE and FR-PAC omit religion figures entirely rather than reuse this national figure as if it were region-specific."
+  - id: connexion-france-summer-holidays
+    name: "Understanding the French summer: the juilletistes and aoûtiens phenomenon (reporting on Ministère du Travail research)"
+    publisher: "Ministère du Travail, via The Connexion (connexionfrance.com)"
+    url: "https://www.connexionfrance.com/practical/frances-summer-holiday-habits-more-aotiens-than-juilletistes/210161"
+    accessedDate: "2026-09-02"
+    note: "The share of employees taking 3+ consecutive weeks off in summer, and the July/August holiday-booking split. Accessed via secondary reporting rather than a direct Ministère du Travail publication URL."

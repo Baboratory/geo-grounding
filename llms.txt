@@ -1,0 +1,24 @@
+# GeoGrounding
+
+> Structured, source-cited geographic and cultural data (countries, regions, languages, seasons) for grounding AI/LLM applications — every statistic is tied to an official source, every intentional data gap is documented rather than guessed.
+
+Data lives under `data/` as YAML validated against JSON Schema in `schema/`. Coverage is currently partial (4 of 249 ISO 3166-1 entries curated as reference implementations).
+
+## Core
+
+- [README.md](README.md): quick orientation — structure, example entries, how to consume the data
+- [DESIGN.md](DESIGN.md): full design rationale — country/region model, IP geolocation mapping, season calendar, language modeling, sourcing rules
+- [VERSIONING.md](VERSIONING.md): what a version number means (schema compatibility, not content volume), which changes are breaking, how to pin a reference for reproducibility vs. freshness
+- [schema/country.schema.json](schema/country.schema.json): country-level fields (languages, ethnic groups, timezones, regions)
+- [schema/region.schema.json](schema/region.schema.json): region-level fields (climate, landmarks, cuisine, sports, religion, seasonal content)
+- [schema/language.schema.json](schema/language.schema.json): global per-language reference (name, basic phrases)
+
+## Examples
+
+- [usage_examples/python/get_data_by_ip.py](usage_examples/python/get_data_by_ip.py): reference implementation — IP-derived location + current date → the relevant region file and its currently-applicable content
+
+## Contributing
+
+- [CONTRIBUTING.md](CONTRIBUTING.md): data-sourcing rules, naming conventions, how to add a country
+- [LICENSE](LICENSE): code (MIT)
+- [LICENSE-DATA.md](LICENSE-DATA.md): data (CC BY 4.0)

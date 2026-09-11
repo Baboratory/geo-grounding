@@ -1,0 +1,78 @@
+code: CH-ZH
+name:
+  eng: Zurich
+  local:
+    - languageCode: deu
+      value: Zürich
+climates:
+  - koppenCode: Cfb
+    description: Oceanic/temperate climate, moderated somewhat by Lake Zurich.
+landmarks:
+  - name: Grossmünster
+    description: Twin-towered church where Huldrych Zwingli launched the Swiss Reformation in the 1520s.
+  - name: Bahnhofstrasse
+    description: One of the world's most expensive shopping streets, and a symbol of Zurich's banking district nearby.
+  - name: Lake Zurich (Zürichsee)
+culturalTraits:
+  - Switzerland's largest city and its main financial/banking center
+  - Birthplace of the Dada art movement (Cabaret Voltaire, 1916)
+  - Sechseläuten spring guild festival, including the burning of the Böögg snowman effigy
+prideOf:
+  - Status as a leading global financial center
+  - Dada's art-historical legacy
+animals:
+  popular:
+    - Waterfowl on Lake Zurich (swans, various duck species)
+industries:
+  - Banking, finance, and insurance
+  - Technology and startups
+  - Life sciences
+sports:
+  - Ice hockey (ZSC Lions)
+  - Football (FC Zürich, Grasshopper Club)
+# religions intentionally omitted: no canton-level official religion
+# breakdown was found to cite separately from the national CHE WHOLE figure
+# (see data/countries/CHE/distinct-regions/whole.yaml).
+entertainment:
+  - season: spring
+    items:
+      - "Sechseläuten (April): guild parade and the burning of the Böögg"
+  - season: summer
+    items:
+      - Zürich Openair (music festival)
+      - Street Parade (techno/electronic music parade, August)
+  - season: winter
+    items:
+      - Christmas markets (e.g. at the main railway station)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Zürcher Geschnetzeltes (veal in cream sauce, typically served with Rösti)
+  - season: winter
+    items:
+      - Tirggel (thin, spiced honey biscuit, traditionally made around Christmas)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Zunft (guild) costumes worn during Sechseläuten
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Retail hours in the canton are generally within a legal window of roughly 6am-10pm on weekdays/Saturday; specific store hours vary by municipality within that window."
+  notes: "Shops must generally stay closed on Sundays/public rest days (§5 Abs. 1 RLG), with cantonal exceptions for public-transport hubs, pharmacies, dairy/milk shops, bakeries, flower shops, kiosks, and small shops (§5 Abs. 2 RLG, §3 VRLG). Municipalities may additionally designate up to 4 'shopping Sundays' a year on which staff can work without a special permit (§5 Abs. 3 RLG) — the canton has repeatedly debated raising that to 12, but as of verification this remained a proposal without a majority, not enacted law."
+sources:
+  - id: zh-ladenoeffnung-ruhetage
+    name: "Ladenöffnungszeiten & Ruhetage (Shop opening hours & rest days)"
+    publisher: "Kanton Zürich, Amt für Wirtschaft und Arbeit"
+    url: "https://www.zh.ch/de/wirtschaft-arbeit/arbeitsbedingungen/arbeitsssicherheit-gesundheitsschutz/arbeits-ruhezeiten/ladenoeffnung-ruhetage.html"
+    accessedDate: "2026-09-11"
+    note: "The Sunday-closure default, its cantonal-law exceptions, and the 4-shopping-Sundays-per-year rule referenced in businessRhythm.notes above."

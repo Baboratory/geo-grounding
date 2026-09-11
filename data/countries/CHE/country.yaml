@@ -1,0 +1,201 @@
+alpha3: CHE
+alpha2: CH
+name:
+  eng: Switzerland
+  local:
+    - languageCode: deu
+      value: Schweiz
+    - languageCode: fra
+      value: Suisse
+    - languageCode: ita
+      value: Svizzera
+    - languageCode: roh
+      value: Svizra
+flagEmoji: "🇨🇭"
+# capital: Bern is the de facto seat of the federal government ("Bundesstadt")
+# but Switzerland has no constitutionally designated capital city.
+capital: Bern
+isSovereign: true
+governanceType: federal
+iso3166_2_prefix: CH
+hasSubdivisions: true
+languageUsage:
+  - languageCode: deu
+    domain: official
+    speakersShare: 1.0
+    sourceId: che-constitution-art4-70
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: che-constitution-art4-70
+  - languageCode: ita
+    domain: official
+    speakersShare: 1.0
+    sourceId: che-constitution-art4-70
+  - languageCode: roh
+    domain: official
+    speakersShare: 1.0
+    # Romansh has narrower official status than the other three: Art. 70
+    # makes it official only "in dealings with persons who speak Romansh" —
+    # still a de jure official language nationally (hence 1.0, same as the
+    # others, per this dataset's rule that 'official' is a legal-status flag
+    # not a population measure), just with a constitutionally narrower scope
+    # than deu/fra/ita. See sources[].note for the exact wording.
+    sourceId: che-constitution-art4-70
+  - languageCode: deu
+    domain: locallySpoken
+    speakersShare: 0.620
+    sourceId: bfs-languages-2021
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.228
+    sourceId: bfs-languages-2021
+  - languageCode: ita
+    domain: locallySpoken
+    speakersShare: 0.079
+    sourceId: bfs-languages-2021
+  - languageCode: roh
+    domain: locallySpoken
+    speakersShare: 0.005
+    sourceId: bfs-languages-2021
+# eng foreign-language usage intentionally omitted: found figures (e.g.
+# "~60% can speak some English") trace back to private/academic surveys
+# (language-barometer-style polling), not an official government statistic
+# comparable to Eurobarometer (FRA) or Statistics Lithuania's press-reported
+# release (LTU) — left out rather than cite a softer source than this
+# dataset's usual bar.
+# ethnicGroups intentionally omitted: Switzerland's official statistics
+# report population by citizenship/migration background (resident foreigners
+# were roughly a quarter to a third of the population depending on
+# definition, per BFS) and by language region, not by an 'ethnic group'
+# breakdown comparable to e.g. LTU's census table — no official
+# ethnic-composition figure was found to cite here.
+timezones:
+  - name: Europe/Zurich
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October — Switzerland is not an EU member but aligns its clock changes with the EU-wide schedule by long-standing practice."
+currency:
+  code: CHF
+  symbol: "CHF"
+  name: Swiss franc
+legalConstraints:
+  - topic: "data protection (FADP/nDSG)"
+    description: "Collecting or processing personal data requires a lawful basis, must be limited to a stated purpose, and grants individuals rights including access, correction, and deletion — Switzerland's own Federal Act on Data Protection (revised version in force since 1 September 2023), broadly aligned with but legally distinct from the EU's GDPR (Switzerland is not an EU member)."
+    sourceId: che-ndsg
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown inclusive of VAT and other mandatory surcharges, in Swiss francs."
+    sourceId: che-pbv
+  - topic: "consumer withdrawal right"
+    description: "Unlike the EU's blanket 14-day distance-selling withdrawal right, Switzerland has no general statutory right to return non-defective goods bought online. A narrower 7-day withdrawal right (Art. 40a ff. of the Code of Obligations) exists only for door-to-door/canvassing sales and similar off-premises or telephone contracts over CHF 100 — it does not, by default, cover an ordinary online purchase. Many Swiss online retailers offer a voluntary return policy, but it is a business choice, not a legal requirement."
+    sourceId: che-or-40a-withdrawal
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a 2-year limitation period for defect claims from delivery (Art. 210 of the Code of Obligations) — similar in length to the EU's minimum guarantee, but governed by Swiss law's own (and, as of a partial revision entered into force 1 January 2026, recently updated) rules on remedies, not the EU consumer-guarantee directive."
+    sourceId: che-or-210-warranty
+  - topic: "Sunday trading"
+    description: "Employing retail staff between Saturday 11pm and Sunday 11pm is prohibited by default under the federal Labour Act (Art. 18); cantons may each designate up to 4 exceptional Sundays per year (Art. 19a) on which shops may open without a special permit. Beyond that federal baseline, actual shop opening hours (including further Sunday/holiday exceptions for e.g. train-station shops, bakeries, or kiosks) are set by each canton's own law — see the FR-ZH/FR-GE/FR-TI region files for concrete examples of how this plays out differently canton by canton."
+    sourceId: che-arg-18-19a
+paymentMethodShares:
+  - method: "debit card, not via a mobile wallet (share of in-person/face-to-face payment transactions)"
+    percent: 30.1
+    sourceId: swiss-payment-monitor-2024
+  - method: "cash (share of in-person/face-to-face payment transactions)"
+    percent: 29.2
+    sourceId: swiss-payment-monitor-2024
+  - method: "TWINT linked directly to a bank account (share of in-person/face-to-face payment transactions)"
+    percent: 7.2
+    sourceId: swiss-payment-monitor-2024
+paymentCulture:
+  popularMethods:
+    - "TWINT (Swiss mobile-payment app, widely used and accepted even at small/independent merchants and market stalls)"
+    - "Debit cards (Maestro/Debit Mastercard/Visa Debit, commonly tied to a Swiss bank/PostFinance account)"
+    - Visa and Mastercard credit cards
+    - "Cash — still culturally significant and widely used/accepted, unlike some more strongly cashless neighboring countries"
+  tipping:
+    expected: false
+    autoIncludedInBill: true
+    typicalAmount: "Service has been legally/contractually included in the bill since a 1974 hospitality-sector collective labor agreement still in force today — additional tipping is a polite gesture, not an obligation; rounding up or leaving 5-10% for good service is common but never expected."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Formal and reserved until explicitly invited to be otherwise; use titles/surnames, dress conservatively, avoid humor with people you don't know well. German-speaking Switzerland (the majority) tends to be the most formal/direct/structured; French-speaking Switzerland (Romandie) is somewhat more relaxed and relationship-oriented; Italian-speaking Ticino has a warmer, more expressive style closer to Italy's — hence 'mixed' rather than a single national label."
+  greetingNorms: "A firm, brief handshake with eye contact is standard in business; among people who know each other socially in the French/Italian-speaking regions, cheek kisses are common (as in France/Italy), which is much less the case in the German-speaking regions."
+  meetingEtiquette: "Punctuality is taken very seriously — arriving even a few minutes late without prior notice is a real breach of etiquette; aim to arrive 5-10 minutes early. Meetings are well-prepared, structured, and fact-based, with decisions generally following careful deliberation rather than being made on the spot."
+  topicsToAvoid:
+    - "Personal wealth, salary, age, or family details, especially before a personal relationship has developed"
+    - "Casual/uninformed remarks about Swiss neutrality, the World Wars, or the Swiss militia army — these carry more weight locally than outsiders often expect"
+  giftGivingNotes: "Not expected at a first business meeting; when given, gifts are modest (quality chocolate, wine, flowers, or something representative of your home country) rather than expensive, since an overly lavish gift can feel inappropriate. Avoid knives/scissors (symbolically 'cutting' the relationship) and, when giving flowers, avoid red roses/carnations (romantic connotations) and white lilies/chrysanthemums (funerals)."
+distinct-regions:
+  - code: CH-ZH
+    file: distinct-regions/zh.yaml
+    adminUnitCodes: [CH-ZH]
+  - code: CH-GE
+    file: distinct-regions/ge.yaml
+    adminUnitCodes: [CH-GE]
+  - code: CH-TI
+    file: distinct-regions/ti.yaml
+    adminUnitCodes: [CH-TI]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: che-constitution-art4-70
+    name: "Federal Constitution of the Swiss Confederation, Art. 4 (National Languages) and Art. 70 (Languages)"
+    publisher: "Fedlex (Swiss Confederation)"
+    url: "https://www.fedlex.admin.ch/eli/cc/1999/404/en"
+    year: 1999
+    accessedDate: "2026-09-11"
+    note: "The legal basis for German, French, Italian, and Romansh all being official languages. Art. 4 names all four as national languages; Art. 70 para. 1 names German/French/Italian as 'official languages of the Confederation' and adds that 'Romansh is an official language for communicating with persons who speak Romansh' — the narrower scope reflected in the languageUsage roh entry's comment above."
+  - id: bfs-languages-2021
+    name: "Languages (main language of the permanent resident population, by structural survey)"
+    publisher: "Federal Statistical Office (FSO/BFS/OFS/UST)"
+    url: "https://www.bfs.admin.ch/bfs/en/home/statistics/population/languages-religions/languages.html"
+    year: 2021
+    accessedDate: "2026-09-11"
+    note: "The locallySpoken main-language shares (German 62.0%, French 22.8%, Italian 7.9%, Romansh 0.5%). Respondents could name more than one main language, so shares reflect that rather than a strict 100%-partition."
+  - id: che-religion-2019-2021
+    name: "2023 Report on International Religious Freedom: Switzerland (citing Federal Statistical Office structural-survey data)"
+    publisher: "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor — citing the Swiss Federal Statistical Office (BFS/OFS/UST)"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/switzerland/"
+    year: 2021
+    accessedDate: "2026-09-11"
+    note: "The religious-affiliation percentages used in distinct-regions/whole.yaml (Roman Catholic 33.7%, Reformed Protestant 21.8%, Muslim 5.5%, other religious groups 7.2%, no affiliation 30.9%, unknown 0.9%), pooled over the BFS structural survey's 2019-2021 period. Accessed via this secondary report rather than a directly-fetchable BFS breakdown page/PDF, which returned unreadable/truncated content during verification."
+  - id: che-ndsg
+    name: "Bundesgesetz über den Datenschutz (Federal Act on Data Protection, revised version, SR 235.1)"
+    publisher: "Fedlex (Swiss Confederation)"
+    url: "https://www.fedlex.admin.ch/eli/cc/2022/491/de"
+    year: 2020
+    accessedDate: "2026-09-11"
+    note: "The legal basis for Switzerland's own data-protection regime, in force since 1 September 2023."
+  - id: che-pbv
+    name: "Verordnung über die Bekanntgabe von Preisen (Price Indication Ordinance, PBV, SR 942.211)"
+    publisher: "Fedlex (Swiss Confederation)"
+    url: "https://www.fedlex.admin.ch/eli/cc/1978/2081_2081_2081/en"
+    year: 1978
+    accessedDate: "2026-09-11"
+    note: "The legal basis for consumer prices needing to be shown inclusive of VAT and other mandatory charges."
+  - id: che-or-40a-withdrawal
+    name: "Federal Act on the Amendment of the Swiss Civil Code (Code of Obligations), Art. 40a-40f (Right of withdrawal for door-to-door and similar contracts, SR 220)"
+    publisher: "Fedlex (Swiss Confederation)"
+    url: "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/en"
+    accessedDate: "2026-09-11"
+    note: "The legal basis for the narrower, 7-day, CHF-100-threshold withdrawal right that applies to door-to-door/telephone sales — and the reason a general EU-style 14-day online-purchase withdrawal right does not exist in Swiss law."
+  - id: che-or-210-warranty
+    name: "Federal Act on the Amendment of the Swiss Civil Code (Code of Obligations), Art. 210 (Limitation of warranty claims for defects, SR 220)"
+    publisher: "Fedlex (Swiss Confederation)"
+    url: "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/en"
+    accessedDate: "2026-09-11"
+    note: "The legal basis for the 2-year limitation period on defect/warranty claims from delivery."
+  - id: che-arg-18-19a
+    name: "Bundesgesetz über die Arbeit in Industrie, Gewerbe und Handel (Labour Act, ArG, SR 822.11), Art. 18 and Art. 19a"
+    publisher: "Fedlex (Swiss Confederation)"
+    url: "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/en"
+    year: 1964
+    accessedDate: "2026-09-11"
+    note: "The federal baseline prohibiting Sunday retail work (Art. 18) and letting cantons designate up to 4 exception Sundays/year without a special permit (Art. 19a) — the starting point that each canton's own shop-opening law then builds on."
+  - id: swiss-payment-monitor-2024
+    name: "Swiss Payment Monitor 2024 (Issue 2024-1)"
+    publisher: "ZHAW School of Management and Law, in cooperation with the University of St. Gallen"
+    url: "https://www.zhaw.ch/storage/hochschule/medien/news/2024/Bericht_Swiss_Payment_Monitor_2024-1.pdf"
+    year: 2024
+    accessedDate: "2026-09-11"
+    note: "The in-person/face-to-face payment method shares (non-mobile debit card 30.1%, cash 29.2%, TWINT linked to a bank account 7.2%). Not a government statistic (no equivalent to Banque de France's payment-statistics releases was found for Switzerland) — the recurring academic Swiss Payment Monitor survey is the standard, most-cited source for this kind of data."

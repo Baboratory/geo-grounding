@@ -1,0 +1,96 @@
+alpha3: PYF
+alpha2: PF
+name:
+  eng: French Polynesia
+  local:
+    - languageCode: fra
+      value: Polynésie française
+    - languageCode: tah
+      value: Pōrīnetia Farāni
+flagEmoji: "🇵🇫"
+capital: Papeete
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: pf-statute-2004-art57
+  # Tahitian is NOT an official language: under the 2004 autonomy statute
+  # French is the sole official language; Tahitian and other Polynesian
+  # languages are legally recognized/protected as cultural heritage, not
+  # co-official. (Corrected — an earlier draft of this file incorrectly
+  # listed Tahitian as official.)
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.947
+    sourceId: ispf-census-2007-languages
+  - languageCode: tah
+    domain: locallySpoken
+    speakersShare: 0.746
+    sourceId: ispf-census-2007-languages
+# ethnicGroups intentionally omitted: ISPF sources describe French Polynesia as
+# home to three main population groups (Polynesian, Chinese, European) but no
+# officially published percentage breakdown was found during verification.
+# None of French Polynesia's timezones observe DST — it never has. Near the
+# equator, day length barely varies across the year, so there's no seasonal
+# reason to shift clocks the way higher-latitude countries do.
+timezones:
+  - name: Pacific/Tahiti
+    standardUtcOffset: "UTC-10"
+    observesDst: false
+  - name: Pacific/Marquesas
+    standardUtcOffset: "UTC-9:30"
+    observesDst: false
+  - name: Pacific/Gambier
+    standardUtcOffset: "UTC-9"
+    observesDst: false
+# Uses its own currency, not the euro, despite being a French territory --
+# pegged to the euro since 1999 at 1 EUR = 119.3317 XPF, managed by the
+# Institut d'émission d'outre-mer (IEOM).
+currency:
+  code: XPF
+  symbol: "₣"
+  name: CFP franc
+legalConstraints:
+  - topic: "separate local tax system (TVA polynésienne)"
+    description: "French Polynesia runs its own autonomous tax administration (Direction des impôts et des contributions publiques), independent from mainland France/the EU. Its own VAT-equivalent (TVA) has different rates from mainland French VAT — standard rate 16% (vs. 20% in mainland France), with reduced rates of 5%/8%/13% depending on the source. Mainland France's income and corporate tax do not apply here either."
+    sourceId: pf-ade-taxation
+# paymentMethodShares and communicationStyle intentionally omitted: only
+# qualitative tourism-guide descriptions were found during verification (card
+# acceptance varies by island, no official adoption percentage; no reliably
+# sourced description of Polynesian communication norms specifically, as
+# opposed to generic travel-guide etiquette tips) — not solid enough to meet
+# this dataset's sourcing bar, so left out rather than approximated.
+paymentCulture:
+  popularMethods:
+    - Visa and Mastercard (widely accepted in hotels, restaurants, boutiques, supermarkets on main islands)
+    - American Express (less consistently accepted)
+  # tipping intentionally omitted from paymentCulture.tipping: no reliable
+  # source found for Polynesian tipping norms during verification.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: pf-statute-2004-art57
+    name: "Loi organique n° 2004-192 du 27 février 2004 portant statut d'autonomie de la Polynésie française, Article 57"
+    publisher: "Légifrance (République française)"
+    url: "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006399388"
+    year: 2004
+    accessedDate: "2026-09-02"
+    note: "Legal basis: French is the sole official language of French Polynesia; Tahitian and other Polynesian languages are recognized and protected as part of cultural identity, but are not co-official."
+  - id: ispf-census-2007-languages
+    name: "Recensement de la population 2007 (language skills of the population aged 15+)"
+    publisher: "Institut de la Statistique de la Polynésie Française (ISPF)"
+    url: "https://www.ispf.pf"
+    year: 2007
+    accessedDate: "2026-09-02"
+    note: "The share of the population aged 15+ able to speak, read and write French (94.7%), and the share able to speak, read and write one of the Polynesian languages (74.6%, reported by ISPF as an aggregate of Polynesian languages rather than Tahitian specifically). This is the most recent officially sourced figure found; the 2022 ISPF census report (ispf.pf/publication/1396) likely has newer numbers but its detailed tables were not accessible during verification — flagged for a follow-up update."
+  - id: pf-ade-taxation
+    name: "Taxation: a simple and unique system"
+    publisher: "Agence de Développement de la Polynésie française (ADE), official territorial investment agency"
+    url: "https://www.service-public.pf/ade/en/invest/taxation-a-simple-and-unique-system/"
+    accessedDate: "2026-09-02"
+    note: "The basis for French Polynesia running its own autonomous tax administration and its own TVA rates, distinct from mainland France."

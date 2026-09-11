@@ -1,0 +1,159 @@
+alpha3: LTU
+alpha2: LT
+name:
+  eng: Lithuania
+  local:
+    - languageCode: lit
+      value: Lietuva
+flagEmoji: "🇱🇹"
+capital: Vilnius
+isSovereign: true
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: lit
+    domain: official
+    speakersShare: 1.0
+    sourceId: lrs-constitution-art14
+  - languageCode: lit
+    domain: locallySpoken
+    speakersShare: 0.853
+    sourceId: lt-census-2021
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.046
+    sourceId: lt-census-2021
+  - languageCode: pol
+    domain: locallySpoken
+    speakersShare: 0.051
+    sourceId: lt-census-2021
+  - languageCode: rus
+    domain: foreign
+    speakersShare: 0.606
+    sourceId: lt-foreign-languages-2021
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.311
+    sourceId: lt-foreign-languages-2021
+    # variant intentionally omitted: unlike France (where official curriculum
+    # texts specify British English), no equivalent authoritative statement
+    # of which English variant Lithuanian schools teach as standard was found
+    # during verification — left unset rather than guessed.
+ethnicGroups:
+  - group: Lithuanians
+    percent: 84.6
+    sourceId: lt-census-2021
+  - group: Poles
+    percent: 6.5
+    sourceId: lt-census-2021
+  - group: Russians
+    percent: 5.0
+    sourceId: lt-census-2021
+  - group: Belarusians
+    percent: 1.0
+    sourceId: lt-census-2021
+  - group: Ukrainians
+    percent: 0.5
+    sourceId: lt-census-2021
+timezones:
+  - name: Europe/Vilnius
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer, not a pre-tax figure)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data (names, emails, browsing/behavioral data, etc.) requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure ('right to be forgotten') — the EU-wide GDPR, directly applicable in Lithuania."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge — independent of and in addition to any commercial/manufacturer warranty."
+    sourceId: eu-directive-2019-771
+paymentMethodShares:
+  - method: "contactless card (among cardholders)"
+    percent: 81.0
+    sourceId: lb-payments-contactless
+paymentCulture:
+  popularMethods:
+    - "Visa and Mastercard-branded cards — Lithuania has no domestic card scheme of its own (unlike e.g. France's Carte Bancaire), so bank-issued cards are one or the other international network"
+    - Contactless debit/credit cards
+    - Mobile payment apps
+  # tipping intentionally omitted: no official or otherwise reliable source
+  # found for a typical Lithuanian tipping percentage during verification —
+  # left out rather than guessed, per this project's sourcing rule.
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Conservative and formal in business settings; address by surname/title until invited to move to first names. Hierarchy and modesty are valued."
+  greetingNorms: "Firm handshake, direct eye contact (seen as a sign of respect, not confrontation)."
+  meetingEtiquette: "Punctuality is expected and valued — aim to arrive slightly early rather than exactly on time. Business cards are exchanged after the initial greeting. Decision-making authority sits with senior/top management, so involving them early speeds things up; decisions are often not rushed and may require approval through multiple organizational levels. Communication in meetings is direct and to the point, with little small talk once business starts."
+  topicsToAvoid:
+    - "Overly personal questions early in a relationship — Lithuanians tend not to share personal matters or uncertainty until trust has developed"
+  giftGivingNotes: "Not expected at a first business meeting, but a small gift (e.g. a branded item, or something representative of your own country) is welcome once a relationship develops. If bringing flowers to someone's home, give an odd number — even numbers are associated with funerals — and avoid white flowers and chrysanthemums, which are used for funerals/mourning."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: lrs-constitution-art14
+    name: "Lietuvos Respublikos Konstitucijos 14 straipsnis"
+    publisher: "Lietuvos Respublikos Seimas"
+    url: "https://www.lrs.lt/home/Konstitucija/Konstitucija.htm"
+    accessedDate: "2026-09-02"
+    note: "Legal basis for Lithuanian being the country's sole official language: 'Valstybinė kalba – lietuvių kalba' (the state language is Lithuanian)."
+  - id: lt-census-2021
+    name: "2021 m. gyventojų ir būstų surašymas: Tautybė, gimtoji kalba ir tikyba (Nationality, native language and religion)"
+    publisher: "Lietuvos statistikos departamentas (Statistics Lithuania)"
+    url: "https://osp.stat.gov.lt/en/2021-gyventoju-ir-bustu-surasymo-rezultatai/tautybe-gimtoji-kalba-ir-tikyba"
+    year: 2021
+    accessedDate: "2026-09-02"
+    note: "The ethnic composition percentages, and the share of the total population who speak Lithuanian as their native language (85.3%). The native-language shares for Russian and Polish speakers are derived, not directly published: each ethnic group's population share multiplied by that group's own native-language retention rate reported in the same census table (Russians 5.0% x 91.8% retention = 4.6%; Poles 6.5% x 78.7% retention = 5.1%)."
+  - id: lt-foreign-languages-2021
+    name: "2021 census: population's command of foreign languages"
+    publisher: "Lietuvos statistikos departamentas (Statistics Lithuania), release reported via press coverage"
+    url: "https://madeinvilnius.lt/en/news/Lithuanian-news/the-statistics-department-speaks-Russian-to-60%25-of-the-Lithuanian-population-in-English-every-third/"
+    year: 2021
+    accessedDate: "2026-09-02"
+    note: "The share of the population who speak Russian and English as a foreign language (Russian 60.6%, English 31.1%). The primary osp.stat.gov.lt page for this specific table returned HTTP 403 on direct fetch during verification; figures are corroborated via this press report of the official statistics release and match figures independently cited by the Lithuanian embassy in India (in.mfa.lt)."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-02"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Lithuania as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-02"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Lithuania as an EU member state."
+  - id: lb-payments-contactless
+    name: "Lithuanians use contactless payment cards more often than an average European consumer, yet cash remains predominant"
+    publisher: "Bank of Lithuania (Lietuvos bankas)"
+    url: "https://www.lb.lt/en/news/lithuanians-use-contactless-payment-cards-more-often-than-an-average-european-consumer-yet-cash-remains-predominant"
+    accessedDate: "2026-09-02"
+    note: "The share of cardholders who use contactless card payments (81%)."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-11"
+    note: "The legal basis for the GDPR data-protection rules applying to personal-data collection/processing in Lithuania as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-11"
+    note: "The legal basis for the EU-wide minimum 2-year consumer guarantee on goods, replacing Directive 1999/44/EC, in force since 1 January 2022."

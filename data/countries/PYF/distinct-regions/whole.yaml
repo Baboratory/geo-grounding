@@ -1,0 +1,83 @@
+code: WHOLE
+name:
+  eng: French Polynesia
+  local:
+    - languageCode: fra
+      value: Polynésie française
+    # tah included alongside fra even though only fra is 'official' here
+    # (see country.yaml's languageUsage) — 'local' means locally used, not
+    # official-only, and Tahitian has a real, commonly-used name for the
+    # territory (verified via secondary sourcing, not just transliteration).
+    - languageCode: tah
+      value: Porinetia Farani
+climates:
+  - koppenCode: Af
+    description: Tropical rainforest climate, warm and humid year-round.
+landmarks:
+  - name: Bora Bora lagoon
+  - name: Marae Taputapuātea
+    description: Ancient Polynesian religious site on Raiatea.
+    unescoWorldHeritage: true
+  - name: Tahiti's Mount Orohena
+culturalTraits:
+  - Polynesian navigation and outrigger canoe tradition
+  - Tattoo art (tatau) as a cultural marker
+prideOf:
+  - Traditional wayfinding/navigation heritage
+  - Black pearl cultivation
+animals:
+  popular:
+    - Humpback whale (seasonal migration)
+    - Green sea turtle
+  unique:
+    - Tahitian black pearl oyster (Pinctada margaritifera)
+industries:
+  - Pearl farming
+  - Tourism
+  - Fishing
+sports:
+  - Va'a (outrigger canoe racing)
+  - Surfing
+# religions intentionally omitted: the last French Polynesian census to record
+# religious affiliation was in 1971 (Catholic 34.5%, Protestant/Église
+# évangélique 50.5%, per secondary reporting) — no official figure has been
+# published since, and no verifiable ISPF source with a citable URL was found
+# during verification. Frequently-cited modern estimates (~38% Catholic / ~38%
+# Église protestante ma'ohi) trace back to a researcher interview (religion.info,
+# 2007), not an official statistical publication, so they were not included.
+entertainment:
+  - season: dry
+    items:
+      - Heiva i Tahiti festival (July, dance and sports competitions)
+  - season: wet
+    items:
+      - Indoor va'a training season
+traditionalDishes:
+  - season: allYear
+    items:
+      - Poisson cru (raw fish in coconut milk)
+      - Fafaru
+traditionalClothing:
+  - season: allYear
+    items:
+      - Pareo
+      - Flower crowns (hei)
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  lunchBreakTiming: "Long midday closure is typical, roughly 11:30am-2pm — some shops stay open through it, but most businesses close. Friday lunches tend to run longer."
+  typicalWorkHours: "Weekday flex hours around 8:00am-11:30am and 1:30/2:00pm-5:00/5:30pm, staggered to ease Tahiti's traffic."
+  restDays:
+    - saturday
+    - sunday
+  notes: "Le Marché (the main public market in Papeete) is an exception, open daily 5am-6pm including Sunday, when it's a popular local outing."
+sources:
+  - id: tahiti-tourisme-seasons
+    name: "Best Times to Visit Tahiti and Bora Bora"
+    publisher: "Tahiti Tourisme (French Polynesia's official tourism board)"
+    url: "https://www.tahititourisme.com/preparing-you-trip/when-to-visit-the-islands-of-tahiti/"
+    accessedDate: "2026-09-02"
+    note: "The month ranges used for the dry season (May-October) and the wet/rainy season (November-April)."

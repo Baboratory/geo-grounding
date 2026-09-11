@@ -1,0 +1,11 @@
+extends: default
+
+rules:
+  # Prose fields (source notes, descriptions) legitimately run long --
+  # wrapping them arbitrarily doesn't improve readability, and URLs can't
+  # be wrapped at all. Correctness is validate.py's job, not line width.
+  line-length: disable
+  # Every data file already declares its schema by directory location
+  # (data/countries/*/country.yaml vs. distinct-regions/*.yaml) --- an
+  # explicit "---" document-start marker adds nothing here.
+  document-start: disable

@@ -1,0 +1,263 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://baboratory.com/schema/geo-grounding/country.schema.json",
+  "title": "Country",
+  "description": "One ISO 3166-1 entry (sovereign state or dependent territory). Region-level content (climate, cuisine, sports, etc.) never lives here — it always lives in distinct-regions/*.yaml, even for countries with a single synthetic whole-country region.",
+  "type": "object",
+  "required": ["alpha3", "alpha2", "name", "flagEmoji", "isSovereign", "hasSubdivisions", "languageUsage", "timezones", "distinct-regions", "sources", "currency"],
+  "additionalProperties": false,
+  "properties": {
+    "alpha3": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$",
+      "description": "ISO 3166-1 alpha-3 code. Primary key of this entry."
+    },
+    "alpha2": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "ISO 3166-1 alpha-2 code. Also the namespace prefix used by ISO 3166-2 subdivision codes."
+    },
+    "name": {
+      "type": "object",
+      "required": ["eng", "local"],
+      "additionalProperties": false,
+      "properties": {
+        "eng": { "type": "string" },
+        "local": {
+          "type": "array",
+          "description": "The country's name, one entry per language that has a languageUsage[] row with domain: official (e.g. CHE has 4: deu/fra/ita/roh; LTU has 1: lit). Not a place to force every language baboratory.com might translate the site into; that's a separate concern from this core dataset. See region.schema.json's name.local[] for the same field at region level, where it means something narrower (locally used there specifically, not every official language of the whole country).",
+          "items": {
+            "type": "object",
+            "required": ["languageCode", "value"],
+            "additionalProperties": false,
+            "properties": {
+              "languageCode": { "type": "string", "pattern": "^[a-z]{3}$", "description": "ISO 639-3 code, e.g. fra, tah, mri" },
+              "value": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "flagEmoji": { "type": "string" },
+    "capital": { "type": "string" },
+    "isSovereign": {
+      "type": "boolean",
+      "description": "false for dependent territories / special administrative regions (e.g. PYF, HKG, GRL)."
+    },
+    "governanceType": {
+      "type": "string",
+      "enum": ["federal", "unitary-large", "unitary-small", "dependent-territory"],
+      "description": "Drives the region-splitting rule: federal and unitary-large countries have real ISO 3166-2 subdivisions in distinct-regions[]; unitary-small and dependent-territory countries have exactly one synthetic whole-country region."
+    },
+    "iso3166_2_prefix": {
+      "type": ["string", "null"],
+      "pattern": "^[A-Z]{2}$",
+      "description": "Equals alpha2 when this country has real subdivisions (hasSubdivisions=true). Null otherwise. Kept as an explicit field rather than re-deriving from alpha2, so consumers don't need to know the governanceType rule to build a subdivision code."
+    },
+    "hasSubdivisions": {
+      "type": "boolean",
+      "description": "true only for federal and unitary-large countries with real ISO 3166-2 regions. false means distinct-regions[] holds a single synthetic whole-country entry."
+    },
+    "languageUsage": {
+      "type": "array",
+      "description": "Flat (languageCode, domain, speakersShare) rows describing a country's language situation. One language can appear multiple times with different domains (e.g. an official language that is also widely locally spoken). Per-language display name / basic phrases live in data/languages/<code>.yaml, not here.",
+      "items": {
+        "type": "object",
+        "required": ["languageCode", "domain", "speakersShare", "sourceId"],
+        "additionalProperties": false,
+        "properties": {
+          "sourceId": { "$ref": "#/definitions/sourceIdRef" },
+          "languageCode": {
+            "type": "string",
+            "pattern": "^[a-z]{3}$",
+            "description": "ISO 639-3 code. Must have a matching data/languages/<code>.yaml entry."
+          },
+          "domain": {
+            "type": "string",
+            "enum": ["official", "locallySpoken", "foreign"],
+            "description": "official = de jure official languages. locallySpoken = languages spoken by the local/resident population (native + minority languages). foreign = languages spoken as a learned second/foreign language."
+          },
+          "speakersShare": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Meaning depends on domain. For 'official': always 1.0 for every de jure official language, regardless of how many the country has — this is a legal-status flag, not a population measurement, so it is never split across co-official languages (e.g. a country with 4 official languages lists all 4 at 1.0, not 0.25 each). Actual usage of an official language is captured separately via a 'locallySpoken' entry for the same languageCode. For 'locallySpoken'/'foreign': true proportion of the relevant population who speaks the language; entries need not sum to 1 across a domain (bilingualism, rounding)."
+          },
+          "variant": {
+            "type": "string",
+            "pattern": "^[a-z]{2,3}-[A-Z]{2}$",
+            "description": "Optional BCP47-style region subtag (base language ISO 639-1/2 code, not the ISO 639-3 languageCode above, since that's the established regional-variant convention — e.g. 'fr-FR' vs 'fr-CA', 'es-ES' vs 'es-AR') when it matters which regional variant is meant. Deliberately narrow: this is a variant *label*, not a catalog of slang/idiom/taboo-word differences between variants — that's a much bigger, harder-to-verify undertaking and out of scope here."
+          }
+        }
+      }
+    },
+    "currency": {
+      "type": "object",
+      "required": ["code", "symbol", "name"],
+      "additionalProperties": false,
+      "description": "The country's currency. One currency object per entry — territories that informally circulate a second currency (e.g. USD alongside a local currency) note that in a free-text way isn't modeled here yet; add a note to 'name' if it matters until this needs to become an array.",
+      "properties": {
+        "code": { "type": "string", "pattern": "^[A-Z]{3}$", "description": "ISO 4217 code, e.g. EUR, USD, XPF." },
+        "symbol": { "type": "string", "description": "e.g. €, $, ₤" },
+        "name": { "type": "string", "description": "e.g. Euro, CFP franc." }
+      }
+    },
+    "legalConstraints": {
+      "type": "array",
+      "description": "Regulatory/legal facts relevant to an AI agent doing e-commerce, marketing, data-collection, or consulting tasks for this country — data-collection restrictions (e.g. why ethnicGroups/religions might be absent here), consumer-rights basics, price-display rules (VAT-inclusive vs. exclusive), trading-hours restrictions, etc. Each entry needs an official legal source, same as any other statistical/factual claim in this dataset.",
+      "items": {
+        "type": "object",
+        "required": ["topic", "description", "sourceId"],
+        "additionalProperties": false,
+        "properties": {
+          "topic": { "type": "string", "description": "Short label, e.g. 'ethnicity/religion data collection', 'VAT price display', 'Sunday trading'." },
+          "description": { "type": "string" },
+          "sourceId": { "$ref": "#/definitions/sourceIdRef" }
+        }
+      }
+    },
+    "paymentMethodShares": {
+      "type": "array",
+      "description": "Statistical adoption/usage share of payment methods, in percent. Like other statistical fields, requires an official source (central bank, national payment association) per entry.",
+      "items": {
+        "type": "object",
+        "required": ["method", "percent", "sourceId"],
+        "additionalProperties": false,
+        "properties": {
+          "method": { "type": "string", "description": "e.g. 'debit/credit card', 'cash', 'iDEAL', 'Girocard'." },
+          "percent": { "type": "number", "minimum": 0, "maximum": 100 },
+          "sourceId": { "$ref": "#/definitions/sourceIdRef" }
+        }
+      }
+    },
+    "paymentCulture": {
+      "type": "object",
+      "description": "Qualitative payment/financial customs — deliberately no sourceId requirement (these are customary norms, not census-style statistics; cite a sourceId on a field only when a specific claim genuinely has an authoritative source behind it).",
+      "additionalProperties": false,
+      "properties": {
+        "popularMethods": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Locally prominent payment brands/rails worth knowing about even without a hard percentage, e.g. specific card networks or local payment apps."
+        },
+        "tipping": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "expected": { "type": "boolean" },
+            "typicalAmount": { "type": "string", "description": "Free text, e.g. '5-10%', 'round up the bill'." },
+            "autoIncludedInBill": { "type": "boolean", "description": "Whether a service charge is customarily/legally already added to the bill." },
+            "note": { "type": "string" }
+          }
+        }
+      }
+    },
+    "communicationStyle": {
+      "type": "object",
+      "description": "Qualitative communication/social-etiquette notes. No sourceId requirement — these are cultural generalizations (with the usual caveat that any national-level generalization is an approximation, not a rule every individual follows), not statistics.",
+      "additionalProperties": false,
+      "properties": {
+        "contextLevel": {
+          "type": "string",
+          "enum": ["low-context", "high-context", "mixed"],
+          "description": "Hall's framework: low-context = direct, explicit communication is the norm (e.g. Germany); high-context = meaning relies more on shared context, indirectness, reading between the lines (e.g. Japan). A simplification, not a strict rule."
+        },
+        "formalityNorms": { "type": "string", "description": "Address forms, titles, when/whether to move to a first-name basis." },
+        "greetingNorms": { "type": "string" },
+        "meetingEtiquette": { "type": "string", "description": "Punctuality expectations, who speaks/decides, business-card exchange, pace of decision-making." },
+        "topicsToAvoid": { "type": "array", "items": { "type": "string" } },
+        "giftGivingNotes": { "type": "string" }
+      }
+    },
+    "ethnicGroups": {
+      "type": "array",
+      "description": "National minorities / ethnic composition, in percent.",
+      "items": {
+        "type": "object",
+        "required": ["group", "percent", "sourceId"],
+        "additionalProperties": false,
+        "properties": {
+          "group": { "type": "string" },
+          "percent": { "type": "number", "minimum": 0, "maximum": 100 },
+          "sourceId": { "$ref": "#/definitions/sourceIdRef" }
+        }
+      }
+    },
+    "timezones": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "standardUtcOffset", "observesDst"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string", "description": "IANA tz database name, e.g. Europe/Paris" },
+          "standardUtcOffset": {
+            "type": "string",
+            "pattern": "^UTC[+-]\\d{1,2}(:\\d{2})?$",
+            "description": "UTC offset outside daylight saving time (standard/winter time)."
+          },
+          "observesDst": {
+            "type": "boolean",
+            "description": "Whether this timezone shifts for daylight saving time at all — many do not (most of the tropics, some entire countries like Japan or China)."
+          },
+          "dstUtcOffset": {
+            "type": "string",
+            "pattern": "^UTC[+-]\\d{1,2}(:\\d{2})?$",
+            "description": "UTC offset while daylight saving time is in effect. Required (checked by scripts/validate.py, not JSON Schema alone) when observesDst=true; must be absent when observesDst=false."
+          },
+          "dstPeriod": {
+            "type": "string",
+            "description": "Roughly when DST applies, in plain terms (e.g. 'Last Sunday of March to last Sunday of October, EU-wide schedule'). Required (checked by scripts/validate.py) when observesDst=true. Deliberately free text rather than exact dates — the rule (not the specific date) is usually what's stable, and DST start/end dates shift yearly (last-Sunday-of-month style) or even get abolished by legislation."
+          }
+        }
+      }
+    },
+    "distinct-regions": {
+      "type": "array",
+      "minItems": 1,
+      "description": "References to files under distinct-regions/. Not an exhaustive list of the country's administrative subdivisions — only the ones curated in this dataset (e.g. FRA currently documents 2 of its ~18 regions). Every country's list contains exactly one entry with code 'WHOLE' (checked by scripts/validate.py, not JSON Schema alone) — for hasSubdivisions=false countries it is the only entry; for hasSubdivisions=true countries it sits alongside the real ISO 3166-2 entries as the generic country-wide fallback content used when a visitor's specific subdivision isn't curated (see usage_examples/python/get_data_by_ip.py).",
+      "items": {
+        "type": "object",
+        "required": ["code", "file"],
+        "additionalProperties": false,
+        "properties": {
+          "code": { "type": "string", "description": "ISO 3166-2 subdivision code, or the synthetic value 'WHOLE' for the always-present generic/country-wide entry." },
+          "file": { "type": "string", "description": "Relative path to the region YAML file." },
+          "adminUnitCodes": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" },
+            "description": "ISO 3166-2 subdivision code(s) this curated region maps to, for IP-geolocation-based region lookup (most IP geolocation databases — MaxMind GeoIP2, DB-IP, IP2Location — report a subdivision's ISO 3166-2 code; MaxMind's raw 'iso_code' field omits the country prefix, e.g. 'BRE', so prefix it with alpha2 to get 'FR-BRE'). Required (checked by scripts/validate.py, not JSON Schema) on every non-WHOLE entry of a hasSubdivisions=true country — normally the same single value as 'code', list more than one only if this curated region's boundary spans multiple official ISO 3166-2 subdivisions. Always omitted on the WHOLE entry (in every country, regardless of hasSubdivisions) — WHOLE is the generic/country-wide fallback, it does not represent one specific admin unit, so there is nothing to match against."
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "description": "Registry of official sources backing the statistical fields in this file (ethnicGroups, languageUsage, legalConstraints, paymentMethodShares). Every sourceId used below must have a matching entry here — checked by scripts/validate.py, not by JSON Schema alone.",
+      "items": { "$ref": "#/definitions/source" }
+    }
+  },
+  "definitions": {
+    "source": {
+      "type": "object",
+      "required": ["id", "name", "publisher", "url", "note"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Unique within this file. Referenced by sourceId fields elsewhere in the same file." },
+        "name": { "type": "string", "description": "Title of the specific document/dataset/page, e.g. '2021 Population and Housing Census'." },
+        "publisher": { "type": "string", "description": "The official body, e.g. 'Statistics Lithuania (Valstybės duomenų agentūra)', 'CIA World Factbook'." },
+        "url": { "type": "string", "format": "uri" },
+        "year": { "type": "integer", "description": "Year the underlying data refers to (not necessarily the access date)." },
+        "accessedDate": { "type": "string", "format": "date", "description": "Date this source was consulted, YYYY-MM-DD." },
+        "note": { "type": "string", "description": "Exactly what in this file was taken from this source, e.g. 'ethnicGroups percentages' or 'languageUsage locallySpoken shares for lit/rus/pol'." }
+      }
+    },
+    "sourceIdRef": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Must match a sources[].id declared in this same file."
+    }
+  }
+}

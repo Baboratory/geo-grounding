@@ -1,0 +1,66 @@
+code: FR-BRE
+name:
+  eng: Brittany
+  local:
+    - languageCode: fra
+      value: Bretagne
+climates:
+  - koppenCode: Cfb
+    description: Oceanic climate, mild and wet with strong Atlantic influence.
+landmarks:
+  - name: Mont Saint-Michel (bay side)
+  - name: Carnac stones
+  - name: Fort la Latte
+culturalTraits:
+  - Breton language and Celtic heritage
+  - Strong maritime and fishing tradition
+  - Fest-noz (traditional dance gatherings), UNESCO intangible heritage
+prideOf:
+  - Distinct Celtic identity within France
+  - Seafood and cider culture
+animals:
+  popular:
+    - Atlantic puffin (Sept-Îles)
+    - Breton horse
+  unique:
+    - Ormer (sea snail, Breton coastal specialty)
+industries:
+  - Fishing and seafood
+  - Agriculture (dairy, pork)
+  - Tourism
+sports:
+  - Sailing
+  - Breton wrestling (Gouren)
+# religions intentionally omitted: France does not officially collect religion
+# statistics (see data/countries/FRA/country.yaml for the legal basis), and no
+# region-level breakdown exists even in the unofficial research surveys (e.g.
+# INSEE/INED's TeO survey) that cover this topic at the national level only.
+entertainment:
+  - season: summer
+    items:
+      - Festival Interceltique de Lorient
+      - Fest-noz gatherings
+  - season: winter
+    items:
+      - Christmas markets in Rennes and Vannes
+traditionalDishes:
+  - season: allYear
+    items:
+      - Galettes (buckwheat crêpes)
+      - Kouign-amann
+  - season: winter
+    items:
+      - Cotriade (Breton fish stew)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Coiffe bigoudène (traditional lace headdress, ceremonial)
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]

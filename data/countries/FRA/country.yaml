@@ -1,0 +1,160 @@
+alpha3: FRA
+alpha2: FR
+name:
+  eng: France
+  local:
+    - languageCode: fra
+      value: France
+flagEmoji: "🇫🇷"
+capital: Paris
+isSovereign: true
+governanceType: unitary-large
+iso3166_2_prefix: FR
+hasSubdivisions: true
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: fr-constitution-art2
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.39
+    sourceId: eurobarometer-languages-2024
+    # variant: official Éducation nationale curricula and school textbooks use
+    # British English (Standard Southern British English) as the reference
+    # accent/spelling — American English is common in everyday media exposure
+    # but isn't the taught standard, hence en-GB rather than en-US here.
+    variant: en-GB
+  - languageCode: spa
+    domain: foreign
+    speakersShare: 0.13
+    sourceId: eurobarometer-languages-2024
+# ethnicGroups intentionally omitted — the legal reason is now a structured
+# fact in legalConstraints[] below ('ethnicity/religion data collection')
+# rather than only a comment.
+# fra locallySpoken intentionally omitted: no official percentage found for
+# "share of population who speaks French" as a distinct locallySpoken metric
+# (it is treated as near-universal but not published as a single official figure).
+timezones:
+  - name: Europe/Paris
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "ethnicity/religion data collection"
+    description: "The state, and by extension any organization, is in principle prohibited from collecting or holding personal data revealing racial/ethnic origin or religion without explicit consent — punishable by up to 5 years' imprisonment and a €300,000 fine. This is why INSEE's census carries no ethnicity or religion question, and why this dataset has no ethnicGroups field for France (see also the region files' omitted religions field)."
+    sourceId: fr-loi-78-17-art6
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive."
+    sourceId: eu-directive-98-6-ec
+  - topic: "Sunday trading"
+    description: "Sunday rest (repos dominical) is the default for employees (Code du travail, Art. L3132-2); retail generally must close, with permanent exceptions for certain sectors (food shops, cultural/leisure sites) and geographic exceptions for designated tourist zones (ZT/ZTI) and specific train stations, where Sunday trading is authorized."
+    sourceId: fr-code-travail-l3132-2
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data (names, emails, browsing/behavioral data, etc.) requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure ('right to be forgotten') — the EU-wide GDPR, directly applicable in France."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge — independent of and in addition to any commercial/manufacturer warranty."
+    sourceId: eu-directive-2019-771
+paymentMethodShares:
+  - method: "card payment (share of non-cash payment transactions)"
+    percent: 56.0
+    sourceId: banque-france-payments-2024
+paymentCulture:
+  popularMethods:
+    - "Carte Bancaire (CB) — France's domestic debit/credit card network; the large majority of French-issued cards are co-badged CB + Visa or CB + Mastercard, so they work as CB domestically and as the international scheme abroad"
+    - Visa
+    - Mastercard
+    - "American Express (accepted far less widely than CB/Visa/Mastercard, mainly at larger/tourist-facing merchants)"
+  tipping:
+    expected: false
+    autoIncludedInBill: true
+    typicalAmount: "Service is legally included in cafés/brasseries/restaurants (~15%, built into the displayed price) — additional tipping is not expected, but rounding up or leaving a few euros for good service is common."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Vous/tu distinction matters; move to tu and first names only when invited. Titles and correct forms of address are noticed."
+  greetingNorms: "Handshake in business contexts; cheek kisses (la bise) among people who know each other socially — norms and kiss count vary by region."
+  meetingEtiquette: "Arriving 5-10 minutes late in Paris is commonly tolerated, but notify ahead if delayed further; business cards are exchanged without much ceremony, often at the meeting's start or end. First meetings are typically for discussion, not decisions — French business culture is hierarchical, decisions are usually made afterward by senior management, and debate/questioning of ideas is treated as a normal intellectual exercise rather than a challenge to the person."
+  topicsToAvoid:
+    - "Personal income, salary, or the price paid for one's house — discussing money is broadly considered private"
+    - "Unprompted questions about religion or politics with new acquaintances"
+  giftGivingNotes: "Not expected at a first business meeting; small, thoughtful gifts (not cash) are welcome once a relationship is established. If invited to a French home, bring something for the host (flowers, chocolates) rather than wine, since the host has typically already chosen wine to match the meal. Avoid chrysanthemums/white lilies (funerals) and yellow roses (associated with infidelity)."
+distinct-regions:
+  - code: FR-BRE
+    file: distinct-regions/bre.yaml
+    adminUnitCodes: [FR-BRE]
+  - code: FR-PAC
+    file: distinct-regions/pac.yaml
+    adminUnitCodes: [FR-PAC]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: fr-constitution-art2
+    name: "Constitution du 4 octobre 1958, Article 2"
+    publisher: "Légifrance (République française)"
+    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006527453/"
+    accessedDate: "2026-09-02"
+    note: "Legal basis for French being the country's sole official language: 'La langue de la République est le français' (the language of the Republic is French)."
+  - id: eurobarometer-languages-2024
+    name: "Special Eurobarometer: Europeans and their Languages (May 2024 wave)"
+    publisher: "European Commission (Eurobarometer)"
+    url: "https://europa.eu/eurobarometer/surveys/detail/2979"
+    year: 2024
+    accessedDate: "2026-09-02"
+    note: "The share of the population in France who can speak English and Spanish as a foreign/learned language (English 39%, Spanish 13%)."
+  - id: fr-loi-78-17-art6
+    name: "Loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, Article 6"
+    publisher: "Légifrance (République française); explanatory analysis via Les Surligneurs"
+    url: "https://lessurligneurs.eu/peut-on-faire-des-statistiques-ethniques-en-france/"
+    year: 1978
+    accessedDate: "2026-09-02"
+    note: "The legal basis for why the state can't collect ethnicity/religion data, and the reason this file has no ethnic-composition breakdown. The law text itself is Article 6 of Loi n° 78-17; this URL is an accessible legal-explainer (staffed by law academics) analyzing that article, used because a direct Légifrance article-level URL was not confirmed during verification."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-02"
+    note: "The legal basis for requiring consumer prices to be shown VAT-inclusive."
+  - id: fr-code-travail-l3132-2
+    name: "Code du travail, Article L3132-2 (repos dominical) and related guidance on exceptions"
+    publisher: "Ministère du Travail (code.travail.gouv.fr)"
+    url: "https://code.travail.gouv.fr/fiche-ministere-travail/le-travail-du-dimanche"
+    accessedDate: "2026-09-02"
+    note: "The general rule requiring Sunday as employees' rest day, and its permanent-sector and geographic-zone exceptions."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-02"
+    note: "The legal basis for the 14-day consumer withdrawal right on distance sales."
+  - id: banque-france-payments-2024
+    name: "Payments statistics: first half of 2024"
+    publisher: "Banque de France"
+    url: "https://www.banque-france.fr/en/press-release/payments-statistics-first-half-2024"
+    year: 2024
+    accessedDate: "2026-09-02"
+    note: "The share of non-cash payments made by card (56%)."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-11"
+    note: "The legal basis for the GDPR data-protection rules applying to personal-data collection/processing in France as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-11"
+    note: "The legal basis for the EU-wide minimum 2-year consumer guarantee on goods, replacing Directive 1999/44/EC, in force since 1 January 2022."

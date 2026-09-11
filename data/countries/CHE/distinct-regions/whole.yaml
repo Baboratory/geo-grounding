@@ -1,0 +1,115 @@
+code: WHOLE
+name:
+  eng: Switzerland
+  local:
+    - languageCode: deu
+      value: Schweiz
+    - languageCode: fra
+      value: Suisse
+    - languageCode: ita
+      value: Svizzera
+    - languageCode: roh
+      value: Svizra
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO
+# 3166-2 subdivision isn't one of the curated regions below
+# CHE/distinct-regions/ (e.g. no CH-GR file yet, despite Graubünden being
+# Switzerland's main Romansh-speaking canton). Content here is deliberately
+# national/symbolic rather than tied to one canton.
+climates:
+  - koppenCode: Cfb
+    description: Oceanic/temperate climate across the Swiss Plateau, where most of the population lives.
+  - koppenCode: ET
+    description: Alpine tundra climate at high elevation in the Alps.
+landmarks:
+  - name: Matterhorn
+    description: Iconic pyramidal peak near Zermatt, on the border with Italy.
+  - name: Jungfrau-Aletsch
+    description: Includes the Aletsch Glacier, the largest glacier in the Alps.
+    unescoWorldHeritage: true
+  - name: Rhine Falls
+    description: Largest plain waterfall in Europe, near Schaffhausen.
+culturalTraits:
+  - Direct democracy with frequent nationwide and cantonal referendums
+  - Precision and reliability as a national self-image (watchmaking, engineering)
+  - Long-standing armed neutrality
+  - Official multilingualism as a lived, everyday reality rather than a formality
+animals:
+  popular:
+    - Alpine ibex (Steinbock/bouquetin/stambecco)
+    - St. Bernard dog (breed developed in the Swiss Alps)
+  unique:
+    - Alpine marmot
+industries:
+  - Banking and finance
+  - Precision instruments and watchmaking
+  - Pharmaceuticals (Basel-area life-sciences cluster)
+  - Machinery and engineering
+  - Tourism (winter and mountain tourism)
+sports:
+  - Alpine skiing and winter sports
+  - Ice hockey
+  - Football
+  - Mountaineering and hiking
+religions:
+  - name: Roman Catholic
+    percent: 33.7
+    sourceId: che-religion-2019-2021
+  - name: Reformed Protestant
+    percent: 21.8
+    sourceId: che-religion-2019-2021
+  - name: No religious affiliation
+    percent: 30.9
+    sourceId: che-religion-2019-2021
+  - name: Muslim
+    percent: 5.5
+    sourceId: che-religion-2019-2021
+  - name: Other religion
+    percent: 7.2
+    sourceId: che-religion-2019-2021
+  - name: Unknown
+    percent: 0.9
+    sourceId: che-religion-2019-2021
+entertainment:
+  - season: winter
+    items:
+      - Ski and snowboard resort season across the Alps
+      - Christmas markets (e.g. Basel, Montreux)
+  - season: summer
+    items:
+      - Swiss National Day (1 August), fireworks and bonfires nationwide
+      - Hiking season in the Alps and Pre-Alps
+traditionalDishes:
+  - season: allYear
+    items:
+      - Chocolate
+      - Cheese (Gruyère, Emmentaler, and many others)
+  - season: winter
+    items:
+      - Fondue
+      - Raclette
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Tracht/costume traditionnel/costume tradizionale (traditional folk costume — patterns and styles vary significantly by canton, worn at festivals)"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday is the default non-working day for retail nationwide (see country.yaml's 'Sunday trading' legalConstraints entry for the federal Art. 18/19a baseline) — but the specific exceptions (which shops, how many extra Sundays per year, what weekday hours look like) are set canton by canton. See the CH-ZH/CH-GE/CH-TI region files for concrete, sourced examples of how that plays out differently in practice."
+sources:
+  - id: che-religion-2019-2021
+    name: "2023 Report on International Religious Freedom: Switzerland (citing Federal Statistical Office structural-survey data)"
+    publisher: "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor — citing the Swiss Federal Statistical Office (BFS/OFS/UST)"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/switzerland/"
+    year: 2021
+    accessedDate: "2026-09-11"
+    note: "The religious-affiliation percentages above, pooled over the BFS structural survey's 2019-2021 period. Accessed via this secondary report rather than a directly-fetchable BFS breakdown page/PDF, which returned unreadable/truncated content during verification."
