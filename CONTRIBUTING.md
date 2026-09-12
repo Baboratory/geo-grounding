@@ -58,11 +58,25 @@ below — each one is enforced there).
   `businessRhythm.notableShutdownPeriods[]` (when sourced) each require a
   `sourceId` pointing to an entry in that file's own `sources[]`. Each
   source needs `id`, `name`, `publisher`, `url`, and a `note` saying
-  *exactly* what was taken from it. No official source, no field — see the
-  next rule. `paymentCulture` and `communicationStyle` are the deliberate
-  exception — they're modeled as qualitative/customary, not statistical, so
-  no `sourceId` is required (cite one informally in prose if you have a good
+  *exactly* what was taken from it, and `sources[].id` must be unique
+  within the file — a duplicate would make `sourceId` references
+  ambiguous. No authoritative source, no field — see the next rule.
+  Primary official sources (a national statistics office, a government
+  ministry, a central bank, the legal text itself) are preferred, but a
+  reliable academic, institutional, or secondary source is fine when it's
+  genuinely the best one available, as long as `source.note` says so
+  plainly (see `CHE`'s payment-method-share source, a university payment
+  study, because no equivalent central-bank breakdown was found).
+  `paymentCulture` and `communicationStyle` are the deliberate exception —
+  they're modeled as qualitative/customary, not statistical, so no
+  `sourceId` is required (cite one informally in prose if you have a good
   one, but don't force a field to exist just to satisfy this rule).
+  `businessRhythm.sourceIds[]` is similar but narrower: most
+  `businessRhythm` content is customary description and doesn't need one,
+  but when a region's law genuinely differs from the rest of the country
+  (a federal country's canton/state having its own trading-hours law, say)
+  and `notes`/`restDays`/etc. state that as a specific legal fact, cite it
+  there — see `CHE`'s `CH-ZH`/`CH-GE`/`CH-TI` for the pattern.
 - **Write `note` (and YAML comments) in plain language, not schema jargon.**
   A `note` should read clearly to someone who has never seen this schema —
   don't write "paymentMethodShares — card payments as 56%...", write "the
@@ -103,12 +117,27 @@ below — each one is enforced there).
   locally spoken) — a language only needs to be locally used, not legally
   official, to belong here.
 - **Every `distinct-regions[]` entry's `code` must match the `code` field
-  inside the file it points to.**
+  inside the file it points to**, and no two entries in the same
+  `distinct-regions[]` may share a `code`.
+- **When `hasSubdivisions: false`, `distinct-regions[]` must contain
+  *exactly* `WHOLE` — nothing else.** A country with no real subdivisions
+  doesn't get to also list a non-`WHOLE` region alongside it.
+- **A non-`WHOLE` region's `code`, and every one of its `adminUnitCodes`,
+  must start with that country's own `alpha2` prefix** (`FR-*` for `FRA`,
+  never a code that belongs to a different country's ISO 3166-2
+  namespace) — easy to get wrong when copying one country's region file as
+  a starting point for another's. `adminUnitCodes` also can't repeat
+  across two different regions in the same country: `resolve_region()`
+  (see `usage_examples/python/get_data_by_ip.py`) returns whichever region
+  it finds the match in first, so a duplicate would make the result depend
+  on YAML ordering rather than being well-defined.
 - **`seasonCalendar` months must partition the year exactly** (each of 1-12
   in exactly one season, no gaps, no overlaps) whenever a region uses any
   season other than `allYear`.
 - **Language codes are ISO 639-3** (`lit`, `fra`, not `lt`, `fr`) everywhere,
-  matching baboratory.com's existing convention for this data format.
+  matching baboratory.com's existing convention for this data format. A
+  `data/languages/<code>.yaml` file's internal `code` field must match its
+  own filename — the code is both the file's identifier and its content.
 - **`governanceType`/`hasSubdivisions`/`iso3166_2_prefix` must agree.**
   `federal`/`unitary-large` requires `hasSubdivisions: true` and
   `iso3166_2_prefix` equal to `alpha2`; `unitary-small`/`dependent-territory`

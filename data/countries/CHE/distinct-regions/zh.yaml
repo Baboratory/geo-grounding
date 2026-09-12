@@ -69,6 +69,7 @@ businessRhythm:
     - sunday
   typicalWorkHours: "Retail hours in the canton are generally within a legal window of roughly 6am-10pm on weekdays/Saturday; specific store hours vary by municipality within that window."
   notes: "Shops must generally stay closed on Sundays/public rest days (§5 Abs. 1 RLG), with cantonal exceptions for public-transport hubs, pharmacies, dairy/milk shops, bakeries, flower shops, kiosks, and small shops (§5 Abs. 2 RLG, §3 VRLG). Municipalities may additionally designate up to 4 'shopping Sundays' a year on which staff can work without a special permit (§5 Abs. 3 RLG) — the canton has repeatedly debated raising that to 12, but as of verification this remained a proposal without a majority, not enacted law."
+  sourceIds: [zh-ladenoeffnung-ruhetage]
 sources:
   - id: zh-ladenoeffnung-ruhetage
     name: "Ladenöffnungszeiten & Ruhetage (Shop opening hours & rest days)"

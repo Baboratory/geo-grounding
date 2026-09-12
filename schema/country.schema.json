@@ -4,7 +4,7 @@
   "title": "Country",
   "description": "One ISO 3166-1 entry (sovereign state or dependent territory). Region-level content (climate, cuisine, sports, etc.) never lives here — it always lives in distinct-regions/*.yaml, even for countries with a single synthetic whole-country region.",
   "type": "object",
-  "required": ["alpha3", "alpha2", "name", "flagEmoji", "isSovereign", "hasSubdivisions", "languageUsage", "timezones", "distinct-regions", "sources", "currency"],
+  "required": ["alpha3", "alpha2", "name", "flagEmoji", "isSovereign", "governanceType", "hasSubdivisions", "languageUsage", "timezones", "distinct-regions", "sources", "currency"],
   "additionalProperties": false,
   "properties": {
     "alpha3": {
@@ -104,7 +104,7 @@
     },
     "legalConstraints": {
       "type": "array",
-      "description": "Regulatory/legal facts relevant to an AI agent doing e-commerce, marketing, data-collection, or consulting tasks for this country — data-collection restrictions (e.g. why ethnicGroups/religions might be absent here), consumer-rights basics, price-display rules (VAT-inclusive vs. exclusive), trading-hours restrictions, etc. Each entry needs an official legal source, same as any other statistical/factual claim in this dataset.",
+      "description": "Regulatory/legal facts relevant to an AI agent doing e-commerce, marketing, data-collection, or consulting tasks for this country — data-collection restrictions (e.g. why ethnicGroups/religions might be absent here), consumer-rights basics, price-display rules (VAT-inclusive vs. exclusive), trading-hours restrictions, etc. Each entry needs an authoritative legal source, same as any other statistical/factual claim in this dataset.",
       "items": {
         "type": "object",
         "required": ["topic", "description", "sourceId"],
@@ -118,7 +118,7 @@
     },
     "paymentMethodShares": {
       "type": "array",
-      "description": "Statistical adoption/usage share of payment methods, in percent. Like other statistical fields, requires an official source (central bank, national payment association) per entry.",
+      "description": "Statistical adoption/usage share of payment methods, in percent. Like other statistical fields, requires an authoritative source (central bank, national payment association, or a reputable study when no official breakdown exists) per entry.",
       "items": {
         "type": "object",
         "required": ["method", "percent", "sourceId"],
@@ -235,7 +235,7 @@
     },
     "sources": {
       "type": "array",
-      "description": "Registry of official sources backing the statistical fields in this file (ethnicGroups, languageUsage, legalConstraints, paymentMethodShares). Every sourceId used below must have a matching entry here — checked by scripts/validate.py, not by JSON Schema alone.",
+      "description": "Registry of authoritative sources backing the statistical fields in this file (ethnicGroups, languageUsage, legalConstraints, paymentMethodShares). Every sourceId used below must have a matching entry here — checked by scripts/validate.py, not by JSON Schema alone.",
       "items": { "$ref": "#/definitions/source" }
     }
   },
@@ -247,7 +247,7 @@
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Unique within this file. Referenced by sourceId fields elsewhere in the same file." },
         "name": { "type": "string", "description": "Title of the specific document/dataset/page, e.g. '2021 Population and Housing Census'." },
-        "publisher": { "type": "string", "description": "The official body, e.g. 'Statistics Lithuania (Valstybės duomenų agentūra)', 'CIA World Factbook'." },
+        "publisher": { "type": "string", "description": "The authoritative body, e.g. 'Statistics Lithuania (Valstybės duomenų agentūra)', 'CIA World Factbook'." },
         "url": { "type": "string", "format": "uri" },
         "year": { "type": "integer", "description": "Year the underlying data refers to (not necessarily the access date)." },
         "accessedDate": { "type": "string", "format": "date", "description": "Date this source was consulted, YYYY-MM-DD." },

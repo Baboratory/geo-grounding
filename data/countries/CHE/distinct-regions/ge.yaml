@@ -64,6 +64,7 @@ businessRhythm:
   restDays:
     - sunday
   notes: "Shops without a derogation must close on Sundays and public holidays under the canton's Loi sur les heures d'ouverture des magasins (LHOM); a 2026 popular vote (over 53% in favor) added 2 extra Sunday-opening days a year on top of the existing 31 December exception, with staff able to work only on a voluntary basis and with compensation. Independently, shops staffed only by their owner/manager/family (no employees on duty) fall outside LHOM's hours restrictions altogether."
+  sourceIds: [ge-lhom, ge-dimanches-2026]
 sources:
   - id: ge-lhom
     name: "Horaires de fermeture des magasins (Store closing hours)"

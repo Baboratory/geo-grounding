@@ -30,6 +30,12 @@ The question is never "how big is this change" — it's always: **would code tha
 | Previously-empty optional field filled in with real sourced data | No | PATCH |
 | Change to `scripts/`, `usage_examples/`, docs | No — not part of the data contract at all | PATCH |
 
+## Before there's anyone to break
+
+The table above is what a bump *should* be, given a schema change. Before `v1.0.0` — or more precisely, before anyone outside this project actually depends on a specific version — the maintainer may deliberately release a MAJOR- or MINOR-worthy schema change under a smaller bump than the table calls for. This isn't a loophole in the compatibility promise; it's an acknowledgment that the promise itself (`v1.4.27` always means the same bytes) only matters once someone is relying on it not changing under them. Once that's no longer true — a real `v1.0.0`, or a known external consumer, whichever comes first — this stops, and every bump follows the table exactly, no exceptions.
+
+Concretely: `tag_release.sh` always *proposes* the version the table calls for, computed from the actual schema diff. Overriding it downward during this pre-adoption period is a manual, deliberate choice made at the confirmation prompt each time — never something the tool decides on its own.
+
 ## Three ways to reference this project, for three different needs
 
 | Reference | Example | Guarantees | Use it when |

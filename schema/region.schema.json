@@ -129,7 +129,7 @@
     },
     "businessRhythm": {
       "type": "object",
-      "description": "Work/rest rhythm and business seasonality for this region — deliberately region-level (not country-level), because it genuinely varies by region even within one country (e.g. Paris's touristic zones have Sunday-trading exemptions the rest of France doesn't). Legally-mandated facts (e.g. 'shops must close Sundays') belong in the parent country.yaml's legalConstraints[] with a sourceId if they're national law; use the 'notes' field here for region-specific exceptions/nuance to that national picture. restDays/typicalWorkHours/lunchBreakTiming are customary description, not required to cite a source.",
+      "description": "Work/rest rhythm and business seasonality for this region — deliberately region-level (not country-level), because it genuinely varies by region even within one country (e.g. Paris's touristic zones have Sunday-trading exemptions the rest of France doesn't). When the underlying rule is national law, that fact belongs in the parent country.yaml's legalConstraints[] with a sourceId, and this block is just customary description/regional nuance on top of it (no source needed). But when the law genuinely varies by region — most commonly in federal countries, where e.g. shop-opening hours are the *canton's* own law, not the federal government's — this block itself can carry a sourced legal fact, via the optional sourceIds field below. Most businessRhythm content is still qualitative/customary and doesn't need a source; only add sourceIds when a specific claim here genuinely has one.",
       "additionalProperties": false,
       "properties": {
         "restDays": {
@@ -153,12 +153,17 @@
             }
           }
         },
-        "notes": { "type": "string", "description": "Region-specific nuance/exceptions to the country's general legal picture, e.g. a touristic-zone trading exemption." }
+        "notes": { "type": "string", "description": "Region-specific nuance/exceptions to the country's general legal picture, e.g. a touristic-zone trading exemption." },
+        "sourceIds": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/sourceIdRef" },
+          "description": "Optional. Set this when notes/restDays/typicalWorkHours/lunchBreakTiming state a specific, sourceable legal or factual claim (e.g. a canton's own trading-hours law) rather than general customary description — an array, not a single value, because a region's businessRhythm text can legitimately draw on more than one source (e.g. the general closure rule plus a later amendment). Leave unset for purely qualitative/customary content, which is most businessRhythm content."
+        }
       }
     },
     "sources": {
       "type": "array",
-      "description": "Registry of official sources backing the statistical fields in this file (religions, businessRhythm.notableShutdownPeriods when sourced). Every sourceId used below must have a matching entry here — checked by scripts/validate.py, not by JSON Schema alone.",
+      "description": "Registry of authoritative sources backing the statistical/factual fields in this file (religions, businessRhythm.notableShutdownPeriods and businessRhythm.sourceIds when sourced). Every sourceId used below must have a matching entry here — checked by scripts/validate.py, not by JSON Schema alone.",
       "items": { "$ref": "#/definitions/source" }
     }
   },
@@ -170,7 +175,7 @@
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Unique within this file. Referenced by sourceId fields elsewhere in the same file." },
         "name": { "type": "string", "description": "Title of the specific document/dataset/page." },
-        "publisher": { "type": "string", "description": "The official body, e.g. a national statistics office." },
+        "publisher": { "type": "string", "description": "The authoritative body, e.g. a national statistics office." },
         "url": { "type": "string", "format": "uri" },
         "year": { "type": "integer", "description": "Year the underlying data refers to (not necessarily the access date)." },
         "accessedDate": { "type": "string", "format": "date", "description": "Date this source was consulted, YYYY-MM-DD." },

@@ -3,17 +3,66 @@
 ![License: MIT](https://img.shields.io/badge/code%20license-MIT-yellow.svg)
 ![Data: CC BY 4.0](https://img.shields.io/badge/data%20license-CC%20BY%204.0-blue.svg)
 
-A structured dataset of cultural and statistical data about countries and their regions (JSON Schema + YAML), designed to be used as **grounding** context for AI/LLM applications — every statistical claim is tied to an official source, giving an AI an auditable, checkable basis instead of hallucinating. Built and maintained by [baboratory.com](https://baboratory.com); see `usage_examples/` for one reference way to consume it (IP → region + season/content selection) — the data structure itself isn't tied to any one integration, it's meant for any AI/LLM context that needs auditable geographic/cultural facts.
+**GeoGrounding is a structured geographic and cultural context layer for AI-powered applications.**
+
+It provides machine-readable context about a user's location and the linguistic, cultural, and commercial environment associated with it.
+
+The goal is not to build a database about countries. GeoGrounding provides context that AI can use to understand **how a user's geographic context may affect their digital experience**.
+
+This context can be used to adapt:
+
+* language and communication style
+* UI and content presentation
+* visual and cultural elements
+* sales and marketing communication
+* payment and purchasing experiences
+* seasonal and regional content
+
+For example, an AI-powered application can use GeoGrounding to generate different UI, copy, calls to action, or promotional content for users in different geographic and cultural contexts.
+
+This makes GeoGrounding particularly relevant to **AI-powered personalization and e-commerce**, where geographically adapted experiences can be evaluated through experiments such as A/B testing.
+
+## Example
+
+A typical flow can look like:
+
+```text
+User location
+      ↓
+GeoGrounding
+      ↓
+Geographic & cultural context
+      ↓
+AI
+      ↓
+Personalized UI / content / communication
+      ↓
+User experience
+      ↓
+A/B testing & business metrics
+```
+
+## What GeoGrounding is not
+
+GeoGrounding is not a general-purpose knowledge source. It does not replace RAG, general-purpose knowledge bases, or geographic databases. Its purpose is narrower:
+
+> **Provide the geographic and cultural context an AI system can use to adapt a digital experience to the user.**
+
+## Part of Baboratory
+
+GeoGrounding is a project of [Baboratory](https://baboratory.com/) — a creative laboratory for experimenting with AI, automation, software, and unconventional ideas. We release what we build publicly, failures included.
+
+The project is developed as both reusable infrastructure and an experimental foundation for exploring whether geographic and cultural context can measurably improve AI-driven digital experiences.
+
+## GeoGrounding, technically
+
+Under the hood, this context is implemented as a structured, source-cited dataset (JSON Schema + YAML) covering countries and their regions. Every statistical claim is tied to an authoritative source, giving an AI an auditable, checkable basis instead of hallucinating. See `usage_examples/` for one reference way to consume it (IP → region → season/content selection) — the data itself isn't tied to any one integration or use case.
+
+This project leans heavily on AI. Schema design, sourcing research, data curation, and even parts of this documentation were developed with AI doing much of the heavy lifting, while humans direct the process, review the results, and make the final decisions.
+
+The goal is not to claim that AI-generated data is automatically correct. Instead, the project is designed to make the data auditable and checkable: statistical claims are linked to sources, deliberate gaps are documented, and `scripts/validate.py` mechanically checks structural and cross-file rules.
 
 See [LICENSE](LICENSE) (code, MIT) and [LICENSE-DATA.md](LICENSE-DATA.md) (data, CC BY 4.0). To contribute — [CONTRIBUTING.md](CONTRIBUTING.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). For the full design rationale — [DESIGN.md](DESIGN.md). For what a version number means and how to pin to one — [VERSIONING.md](VERSIONING.md).
-
-## About Baboratory
-
-GeoGrounding is a project of [Baboratory](https://baboratory.com/) — a creative technology laboratory where we experiment with AI, automation, software and unconventional ideas, and release what we build publicly, failures included.
-
-In that spirit: this project leans on AI heavily. Schema design, sourcing research behind every statistical claim, even the documentation you're reading — a lot of it happened with AI doing the heavy lifting, with a human reviewing, directing and making the final decisions.
-
-Why trust the data anyway? Not because a human typed every word — because of the discipline, not the authorship: every statistic cites an official source, every gap is a documented choice instead of a silent guess, and `scripts/validate.py` checks the rules mechanically, not on anyone's say-so. AI helped build the process. The process is designed to make the data auditable and help keep it consistent — not a guarantee that every fact is correct, but a guarantee that you can check where it came from.
 
 ## Structure
 
@@ -49,7 +98,7 @@ The short version — see [DESIGN.md](DESIGN.md) for the full rationale and edge
 - **`governanceType` drives region-splitting**: `federal`/`unitary-large` countries get real ISO 3166-2 regions; `unitary-small`/`dependent-territory` get a single synthetic region.
 - **Every country always has a `WHOLE` fallback region**, even ones with real curated regions — so a consumer never needs "does this country have regions?" branching logic, and an uncurated subdivision never gets silently mapped to the wrong curated one.
 - **IP→region resolution and season-calendar lookups never guess** — an unrecognized location or a missing season calendar raises a typed error (`UnknownLocationError`/`NoSeasonCalendarError`) rather than returning a plausible-looking wrong answer.
-- **Every statistical claim needs an official `sourceId`**; a field left out for lack of one gets a YAML comment explaining why, so "no source exists" reads differently from "not curated yet."
+- **Every statistical claim needs an authoritative `sourceId`**; a field left out for lack of one gets a YAML comment explaining why, so "no source exists" reads differently from "not curated yet."
 
 ## Example entries
 
