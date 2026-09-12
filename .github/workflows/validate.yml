@@ -1,0 +1,28 @@
+name: Validate
+
+# Runs the exact same checks CONTRIBUTING.md asks a human to run before
+# proposing a change (black, ruff, mypy, codespell, yamllint, and
+# scripts/validate.py's schema + cross-file rules, all via pre-commit)
+# -- so a contributor gets automatic feedback on a PR even if they
+# forgot to install/run the pre-commit hooks locally.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      # pre-commit's own hooks (black/ruff/mypy/codespell/yamllint) manage
+      # their own pinned environments, but the local validate-data hook
+      # runs scripts/validate.py directly against this job's Python, so
+      # its dependencies (pyyaml, jsonschema) need to be installed here.
+      - name: Install dependencies
+        run: pip install -e ".[dev]"
+      - uses: pre-commit/action@v3.0.1
