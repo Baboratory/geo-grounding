@@ -1,0 +1,32 @@
+name: Report
+description: Bug, missing data, inaccurate data, feature request, or question
+title: "[Report]: "
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Bug
+        - Missing data
+        - Inaccurate data
+        - Feature request
+        - Question
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: textarea
+    id: inaccurate-data-details
+    attributes:
+      label: If reporting inaccurate data
+      description: >-
+        Which file (data/countries/<ALPHA3>/...), what's wrong, and -- if you
+        have one -- a better official source than what's currently cited in
+        that file's sources[].
+    validations:
+      required: false

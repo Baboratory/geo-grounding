@@ -1,5 +1,9 @@
 [project]
 name = "geo-grounding"
+# Not the dataset's authoritative version -- this repo isn't distributed
+# as a PyPI package, this field only exists because [project] requires
+# one. The real version (SemVer over the schema, see VERSIONING.md) lives
+# in git tags, not here; don't bump this to track that.
 version = "0.1.0"
 description = "Structured, source-cited geographic and cultural data for grounding AI/LLM applications"
 license = "MIT"
@@ -13,7 +17,7 @@ Issues = "https://github.com/baboratory/geo-grounding/issues"
 [project.optional-dependencies]
 dev = [
   "pyyaml",
-  "jsonschema",
+  "jsonschema[format]",
   "black",
   "ruff",
   "mypy",

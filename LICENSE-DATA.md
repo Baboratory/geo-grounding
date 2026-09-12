@@ -1,9 +1,8 @@
 # Data license
 
 The data in this repository — everything under `data/` (country, region, and
-language YAML files) and the generated artifacts under `exports/` — is
-licensed under the **Creative Commons Attribution 4.0 International License
-(CC BY 4.0)**, copyright (c) 2026 baboratory.com.
+language YAML files) — is licensed under the **Creative Commons Attribution
+4.0 International License (CC BY 4.0)**, copyright (c) 2026 baboratory.com.
 
 You are free to:
 

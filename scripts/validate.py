@@ -18,8 +18,16 @@ cross-references:
   usage_examples/python/get_data_by_ip.py to work.
 - every timezone entry with observesDst=true has both dstUtcOffset and
   dstPeriod set, and every entry with observesDst=false has neither.
+- governanceType/hasSubdivisions/iso3166_2_prefix agree with each other:
+  federal/unitary-large implies hasSubdivisions=true and iso3166_2_prefix
+  equal to alpha2; unitary-small/dependent-territory implies
+  hasSubdivisions=false and iso3166_2_prefix=null. DESIGN.md and the
+  schema document this as the rule, not just a convention some countries
+  happen to follow -- this is what actually enforces it.
 
-Requires: pyyaml, jsonschema (pip install pyyaml jsonschema)
+Requires: pyyaml, jsonschema[format] (pip install pyyaml "jsonschema[format]"
+-- the [format] extra is what makes the schemas' declared "uri"/"date"
+formats actually get checked, not just accepted as valid strings).
 """
 
 import glob
@@ -28,9 +36,15 @@ import sys
 from pathlib import Path
 
 import yaml
-from jsonschema import Draft7Validator
+from jsonschema import Draft7Validator, FormatChecker
 
 ROOT = Path(__file__).resolve().parent.parent
+
+# Needed for the "uri"/"date" formats declared in the schemas to actually be
+# checked -- jsonschema silently treats a format as always-valid if the
+# optional package backing it (rfc3987, for "uri") isn't installed, rather
+# than erroring. Install with `jsonschema[format]`, not bare `jsonschema`.
+FORMAT_CHECKER = FormatChecker()
 
 
 def load_schema(name: str) -> dict:
@@ -41,10 +55,11 @@ def load_schema(name: str) -> dict:
 
 
 def validate_glob(pattern: str, schema: dict, error_count: int) -> int:
+    validator = Draft7Validator(schema, format_checker=FORMAT_CHECKER)
     for path in sorted(glob.glob(str(ROOT / pattern))):
         with open(path) as f:
             data = yaml.safe_load(f)
-        errs = list(Draft7Validator(schema).iter_errors(data))
+        errs = list(validator.iter_errors(data))
         if errs:
             error_count += len(errs)
             print(f"FAIL {path}")
@@ -135,6 +150,31 @@ def validate_all() -> int:
                     f"FAIL {path}: timezone '{tz.get('name')}' has observesDst=false but "
                     f"sets dstUtcOffset/dstPeriod anyway — remove them or set observesDst=true"
                 )
+
+    subdivided_types = {"federal", "unitary-large"}
+    for path in sorted(glob.glob(str(ROOT / "data/countries/*/country.yaml"))):
+        with open(path) as f:
+            data = yaml.safe_load(f)
+        governance_type = data.get("governanceType")
+        if governance_type is None:
+            continue  # optional field; nothing to cross-check against
+        has_subdivisions = data.get("hasSubdivisions")
+        prefix = data.get("iso3166_2_prefix")
+        alpha2 = data.get("alpha2")
+        should_have_subdivisions = governance_type in subdivided_types
+        if has_subdivisions != should_have_subdivisions:
+            error_count += 1
+            print(
+                f"FAIL {path}: governanceType '{governance_type}' implies "
+                f"hasSubdivisions={should_have_subdivisions}, but it's {has_subdivisions}"
+            )
+        expected_prefix = alpha2 if should_have_subdivisions else None
+        if prefix != expected_prefix:
+            error_count += 1
+            print(
+                f"FAIL {path}: governanceType '{governance_type}' implies "
+                f"iso3166_2_prefix={expected_prefix!r}, but it's {prefix!r}"
+            )
 
     for path in sorted(glob.glob(str(ROOT / "data/countries/*/country.yaml"))):
         with open(path) as f:

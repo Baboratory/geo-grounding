@@ -8,14 +8,21 @@ pre-commit install     # do this once per clone -- without it, nothing below run
 python3 scripts/validate.py
 ```
 
-**Every change must pass the full toolchain again before it's committed** —
-`black`, `ruff`, `mypy`, `codespell`, `yamllint`, and `scripts/validate.py`.
+**Every applicable check must pass before a change is committed** —
+`black`, `ruff`, `mypy`, `codespell`, and `yamllint` run on every commit;
+`scripts/validate.py` runs too, but only when a commit actually touches
+`data/` or `schema/` (see `.pre-commit-config.yaml`'s `files:` scoping —
+no point re-validating the dataset for a docs-only change).
 `pre-commit install` makes this automatic on every `git commit`, but that's
 a per-clone opt-in, not something that follows the repo itself — a fresh
-clone runs nothing until someone runs that command. There is no CI yet
-enforcing this server-side regardless of local setup; until there is,
-don't treat "I forgot to run pre-commit install" as an excuse —
-run `pre-commit run --all-files` by hand if you're not sure it's wired up.
+clone runs nothing until someone runs that command, so don't treat
+"I forgot to run pre-commit install" as an excuse — run
+`pre-commit run --all-files` by hand if you're not sure it's wired up.
+
+A GitHub Actions workflow (`.github/workflows/validate.yml`) runs the same
+checks on every push and PR, so a forgotten local install still gets
+caught — but that's a safety net, not a substitute for running it
+yourself and seeing the result before you push.
 
 `scripts/validate.py` specifically checks JSON Schema conformance plus a
 set of cross-file rules JSON Schema alone can't express (see the rules
@@ -102,6 +109,11 @@ below — each one is enforced there).
   season other than `allYear`.
 - **Language codes are ISO 639-3** (`lit`, `fra`, not `lt`, `fr`) everywhere,
   matching baboratory.com's existing convention for this data format.
+- **`governanceType`/`hasSubdivisions`/`iso3166_2_prefix` must agree.**
+  `federal`/`unitary-large` requires `hasSubdivisions: true` and
+  `iso3166_2_prefix` equal to `alpha2`; `unitary-small`/`dependent-territory`
+  requires `hasSubdivisions: false` and `iso3166_2_prefix: null`. See
+  DESIGN.md's "Core design decisions" for why.
 
 ## Naming conventions
 

@@ -2,6 +2,19 @@
 
 The deep-dive companion to [README.md](README.md): why the schema and tooling work the way they do, the edge cases that shaped each decision, and the cross-file rules `scripts/validate.py` enforces that JSON Schema alone can't express. README.md covers *what's here and how to use it*; this file covers *why it's built this way* — useful when you're adding a country/region yourself, extending the schema, or want to understand a design decision well enough to reuse or challenge it (including as context for an AI agent working on this dataset).
 
+## If documents disagree, who's authoritative?
+
+Wording drifts out of sync sometimes; when it does, this is the order to trust, most authoritative first:
+
+1. `schema/*.schema.json` — the structural contract. If data validates against it, the shape is correct, full stop.
+2. `scripts/validate.py` — the cross-file/semantic rules a JSON Schema can't express (source-reference resolution, the `WHOLE` invariant, season-calendar coverage, the `governanceType` invariant, etc.).
+3. This file — the intended data model and the reasoning behind it, including cases the schema/validator can't enforce.
+4. `CONTRIBUTING.md` — the contributor workflow built on top of 1-3.
+5. `README.md` — a user-facing summary; if it ever describes the model differently from this file, this file wins.
+6. `llms.txt` — pure navigation for an AI agent orienting itself, not an independent source of rules.
+
+Not worth repeating this list elsewhere — one clear place beats a stale copy in five files.
+
 ## Core design decisions
 
 **Country list — full ISO 3166-1 (249 entries), not just the 195 sovereign states.**
@@ -16,6 +29,8 @@ Dependent territories (French Polynesia `PYF`, Puerto Rico `PRI`, Greenland `GRL
 | `dependent-territory` | None — a single synthetic region | all 54 non-sovereign ISO 3166-1 entries (no exceptions) |
 
 A country is classified "unitary-large" when it meets at least 2 of 3 criteria: population >20-25M, officially recognized regional/minority languages, or a widely recognized cultural-historical regional identity.
+
+This is a real invariant, not just a convention some countries happen to follow: `federal`/`unitary-large` always means `hasSubdivisions: true` and `iso3166_2_prefix` equal to `alpha2`; `unitary-small`/`dependent-territory` always means `hasSubdivisions: false` and `iso3166_2_prefix: null`. `scripts/validate.py` checks all four fields agree with each other on every country file.
 
 **Every country always has a `distinct-regions[]` array with exactly one `code: WHOLE` entry** — even countries with real, curated regions (e.g. `FRA` has `FR-BRE`, `FR-PAC` **and** `WHOLE`). The `WHOLE` file holds generic, national/symbolic-level content (not tied to a specific region) and is used as the fallback when the admin unit found by IP geolocation isn't one of the curated ones (e.g. a visitor from Île-de-France, before an `FR-IDF` file exists) — so the site always has something to show, instead of misassigning the visitor to an arbitrary curated region. This way every region-level field (climate, landmarks, cuisine, sports, religion, clothing, entertainment) is always read from the same path — the consumer (the site) never needs separate logic for "does this country have regions or not." The name `distinct-regions` (rather than just `regions`) deliberately emphasizes that this is **not** a complete list of the country's administrative units, only the curated, documented ones — e.g. `FRA` currently has 2 of ~18 real French regions filled in (plus `WHOLE`).
 
