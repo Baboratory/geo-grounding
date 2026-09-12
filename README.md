@@ -7,6 +7,14 @@ A structured dataset of cultural and statistical data about countries and their 
 
 See [LICENSE](LICENSE) (code, MIT) and [LICENSE-DATA.md](LICENSE-DATA.md) (data, CC BY 4.0). To contribute — [CONTRIBUTING.md](CONTRIBUTING.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). For the full design rationale — [DESIGN.md](DESIGN.md). For what a version number means and how to pin to one — [VERSIONING.md](VERSIONING.md).
 
+## About Baboratory
+
+GeoGrounding is a [Baboratory](https://baboratory.com/) project — a creative technology laboratory where we experiment with AI, automation, software and unconventional ideas, and release what we build publicly, failures included.
+
+In that spirit: this project leans on AI heavily. Schema design, sourcing research behind every statistical claim, even the documentation you're reading — a lot of it happened with AI doing the heavy lifting, with a human reviewing, directing and making the final decisions.
+
+Why trust the data anyway? Not because a human typed every word — because of the discipline, not the authorship: every statistic cites an official source, every gap is a documented choice instead of a silent guess, and `scripts/validate.py` checks the rules mechanically, not on anyone's say-so. AI helped build the process. The process is what makes the data reliable.
+
 ## Structure
 
 ```
