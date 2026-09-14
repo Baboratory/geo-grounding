@@ -51,11 +51,11 @@ Practical flow: IP → geolocation DB returns `{countryCode, subdivisionCode}` �
 
 The project is set up to work with geolocation sources that (a) give region/subdivision level for free (not just country) and (b) allow commercial use without an extra paid license for a site's own internal use:
 
-| Source | Cost | How to use | Region (ISO 3166-2)? | License |
+| Source | Cost | How to use | Region field | License |
 |---|---|---|---|---|
-| **MaxMind GeoLite2 City** | Free | `.mmdb` file, read locally | Yes | Requires a free account + license key; free for commercial use for a site's own internal purposes, just not for reselling/repackaging the DB itself |
-| **DB-IP Lite (City)** | Free | `.mmdb`/CSV, updated monthly | Yes (lower accuracy than the paid tier) | CC BY 4.0 — commercial use allowed, attribution required |
-| **IP2Location LITE (DB3)** | Free | CSV/BIN, local | Yes (DB3 = IP-COUNTRY-REGION-CITY) | Its own LITE license, commercial use allowed |
+| **MaxMind GeoLite2 City** | Free | `.mmdb` file, read locally | ISO 3166-2 subdivision code — but bare, missing the country prefix (e.g. `BRE`, not `FR-BRE`; see `adminUnitCodes`'s schema description) | Requires a free account + license key; free for commercial use for a site's own internal purposes, just not for reselling/repackaging the DB itself |
+| **DB-IP Lite (City)** | Free | `.mmdb`/CSV, updated monthly | Region **name** only (e.g. "Massachusetts"), not a code — DB-IP's paid "IP to Location" tier adds a `stateprov_code` column; the free Lite tier doesn't have one, in either format | CC BY 4.0 — commercial use allowed, attribution required |
+| **IP2Location LITE (DB3)** | Free | CSV/BIN, local | Region **name** only (e.g. "Massachusetts"), same normalization need as DB-IP Lite | Its own LITE license, commercial use allowed |
 
 Deliberately **not included**: `ip-api.com` (free tier is non-commercial use only) and `ipinfo.io` Lite (free, but country-level only — region requires the paid Core plan).
 
@@ -68,7 +68,7 @@ Recommended layered strategy before hitting `UnknownLocationError`:
 2. If that DB doesn't find the IP, or only returns a country with no region — try the **`GeoLite2-Country`** (not City) database: since it needs less precision, its IP block coverage is broader than the City version. If you're behind Cloudflare, their `CF-IPCountry` HTTP header is an even simpler, zero-dependency option for the same purpose.
 3. If even that fails — `resolve_region()` raises `UnknownLocationError`, and the site decides for itself.
 
-All three supported sources return a subdivision code, either directly or easily converted to the full ISO 3166-2 format (`{alpha2}-{subdivisionCode}`) — exactly what's needed for `adminUnitCodes` matching. MaxMind and DB-IP both use the `.mmdb` format (different content schemas though: MaxMind needs the `geoip2` library, DB-IP needs a more generic `.mmdb` reader, e.g. Python's `maxminddb`, not `geoip2`); IP2Location uses its own CSV/BIN format with its own reader library (an `IP2Location` package for the relevant language). `usage_examples/python/get_data_by_ip.py` currently accepts an already-parsed `{countryCode, subdivisionCode}` pair — the actual DB-reading layer (MaxMind/DB-IP/IP2Location specific) isn't wired in yet; we'll add it once you decide which of the three to use first.
+Only MaxMind hands back something that's already a code — prefix it with `alpha2` and you have the full ISO 3166-2 value `adminUnitCodes` expects. DB-IP Lite and IP2Location LITE both give a region **name** instead (verified against their actual CSV specs, not just their marketing pages — this is a real difference in implementation cost, not a detail to gloss over): matching that to an ISO 3166-2 code needs a name→code lookup table (e.g. `pycountry`'s subdivision data, or a small hand-built map for the countries this dataset actually curates), not just a string prefix. MaxMind and DB-IP both use the `.mmdb` format (different content schemas though: MaxMind needs the `geoip2` library, DB-IP needs a more generic `.mmdb` reader, e.g. Python's `maxminddb`, not `geoip2`); IP2Location uses its own CSV/BIN format with its own reader library (an `IP2Location` package for the relevant language). `usage_examples/python/get_data_by_ip.py` currently accepts an already-parsed `{countryCode, subdivisionCode}` pair — the actual DB-reading (and, for two of the three sources, name-to-code normalizing) layer isn't wired in yet; we'll add it once you decide which of the three to use first.
 
 ## Determining the current season (`seasonCalendar`)
 

@@ -1,0 +1,80 @@
+code: CH-GR
+name:
+  eng: Grisons
+  local:
+    - languageCode: deu
+      value: Graubünden
+    - languageCode: roh
+      value: Grischun
+    - languageCode: ita
+      value: Grigioni
+climates:
+  - koppenCode: Cfb
+    description: Temperate climate in the populated valleys (Chur, Prättigau, the lower Engadine) — but Switzerland's most elevation-extreme canton by far (roughly 260m to 4,049m), so this single code covers only the inhabited valley floor; high-alpine areas stay snow-covered year-round while the southern valleys are mild enough for vineyards and even olives.
+landmarks:
+  - name: Swiss National Park
+    description: Switzerland's only national park, established 1914, in the canton's southeast.
+  - name: Rhaetian Railway (Albula/Bernina lines)
+    description: UNESCO World Heritage-listed scenic railway, including the Bernina line's crossing of the Alps without a rack system.
+  - name: Tarasp Castle
+    description: Medieval hilltop castle in the Engadine.
+  - name: St. Moritz and Davos
+    description: World-famous winter-sports resorts; St. Moritz hosted the Winter Olympics in 1928 and 1948.
+culturalTraits:
+  - Switzerland's only trilingual canton (German, Romansh, Italian) and home to most of the country's remaining Romansh speakers
+  - World-famous alpine winter-sports tourism (St. Moritz, Davos) alongside a working mountain-agriculture and dairy/alpine-cheese tradition
+  - Romansh folk culture (wood carving, embroidery, its own literature and folk music) actively maintained as a living minority language, not treated as historical/heritage-only
+prideOf:
+  - Being home to Switzerland's only national park and the country's Romansh-language heartland
+  - St. Moritz's Winter Olympics legacy (1928, 1948) and the resort's continued international prestige
+  - The UNESCO-listed Rhaetian Railway's Alpine crossings
+industries:
+  - Tourism (winter sports and wellness/spa resorts)
+  - Mountain agriculture and alpine dairy/cheese production
+  - Hydroelectric power
+  - Viticulture in the Bündner Herrschaft (chiefly Pinot Noir)
+sports:
+  - Alpine skiing and winter sports (St. Moritz, Davos)
+  - Ice hockey (HC Davos)
+# religions intentionally omitted: no canton-level official religion
+# breakdown was found to cite separately from the national CHE WHOLE figure
+# (see data/countries/CHE/distinct-regions/whole.yaml).
+entertainment:
+  - season: winter
+    items:
+      - "Spengler Cup (late December): international ice hockey tournament in Davos, one of the oldest club tournaments in the sport"
+      - "White Turf (February): horse racing on the frozen lake at St. Moritz"
+traditionalDishes:
+  - season: allYear
+    items:
+      - Bündnerfleisch (air-dried beef)
+      - Capuns (chard-wrapped dumplings)
+      - Maluns (grated-and-fried potato dish)
+      - Bündner Nusstorte (walnut-and-honey pastry)
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Unlike CH-ZH/CH-GE/CH-TI, Graubünden has no single canton-wide shop-hours schedule of its own — the canton's Gesetz über die öffentlichen Ruhetage (BR 520.100) sets which days count as public rest days, but concrete opening windows are fixed municipality by municipality. Chur, the cantonal capital and largest town, is a representative example: shops may open Mon-Fri 6:00am-8:00pm and Saturday 6:00am-6:00pm under the city's own Gesetz über die Ladenöffnungszeiten, closed by default on Sundays and public holidays — with up to 4 exceptional Sunday-opening days a year permitted (Chur designated 13 and 20 December 2026), the same federal-baseline ceiling as CH-ZH/CH-GE/CH-TI. The cantonal government has publicly backed a pending federal bill (LadÖG) to raise that ceiling to 12 Sundays nationwide; not yet in force as of the access date below."
+  sourceIds: [gr-chur-ladenoeffnungszeiten, gr-sonntagsverkauf-liberalisierung]
+sources:
+  - id: gr-chur-ladenoeffnungszeiten
+    name: "Ladenöffnungszeiten (Shop opening hours)"
+    publisher: "Stadt Chur"
+    url: "https://www.chur.ch/gewerbeinchur/331"
+    accessedDate: "2026-09-14"
+    note: "Chur's weekday (6:00am-8:00pm) and Saturday (6:00am-6:00pm) shop-hours window, the default Sunday/holiday closure, and the two designated 2026 shopping Sundays (13 and 20 December)."
+  - id: gr-sonntagsverkauf-liberalisierung
+    name: "Sonntagsverkauf, Sonntagsbrötchen und mehr: Die Regierung nimmt Stellung zu flexibleren Ladenöffnungszeiten"
+    publisher: "Südostschweiz"
+    url: "https://www.suedostschweiz.ch/graubuenden/sonntagsverkauf-sonntagsbroetchen-und-mehr-die-regierung-nimmt-stellung-zu-flexibleren-ladenoeffnungszeiten"
+    accessedDate: "2026-09-14"
+    note: "The canton currently permits up to 4 exceptional Sunday-opening days a year (same federal-baseline number as CH-ZH/CH-GE/CH-TI); the cantonal government's public support for a pending federal bill (LadÖG) to raise that ceiling to 12, with final say resting with the federal Parliament."

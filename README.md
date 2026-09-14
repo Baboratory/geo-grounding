@@ -95,17 +95,17 @@ Naming convention (why `validate.py` but `distinct-regions/`): see [CONTRIBUTING
 The short version — see [DESIGN.md](DESIGN.md) for the full rationale and edge cases behind each of these:
 
 - **Full ISO 3166-1 coverage (249 entries)**, dependent territories included as their own entries (e.g. `PYF` separate from `FRA`).
-- **`governanceType` drives region-splitting**: `federal`/`unitary-large` countries get real ISO 3166-2 regions; `unitary-small`/`dependent-territory` get a single synthetic region.
-- **Every country always has a `WHOLE` fallback region**, even ones with real curated regions — so a consumer never needs "does this country have regions?" branching logic, and an uncurated subdivision never gets silently mapped to the wrong curated one.
+- **`governanceType` drives region-splitting**: `federal`/`unitary-large` countries get real, curated distinct regions (ISO 3166-2 codes); `unitary-small`/`dependent-territory` get a single synthetic `WHOLE` region.
+- **Every country always has a `WHOLE` fallback region**, even ones with curated distinct regions — so a consumer never needs "does this country have distinct regions?" branching logic, and an uncurated subdivision never gets silently mapped to the wrong curated one.
 - **IP→region resolution and season-calendar lookups never guess** — an unrecognized location or a missing season calendar raises a typed error (`UnknownLocationError`/`NoSeasonCalendarError`) rather than returning a plausible-looking wrong answer.
 - **Every statistical claim needs an authoritative `sourceId`**; a field left out for lack of one gets a YAML comment explaining why, so "no source exists" reads differently from "not curated yet."
 
 ## Example entries
 
-- `LTU` — a small sovereign country, no regions.
-- `PYF` — a dependent territory (of France), no regions, but with its own flag/languages/time zones.
-- `FRA` — a large unitary country with real cultural regions (currently only 2 of ~18 regions filled in as an example: Brittany `FR-BRE`, Provence-Alpes-Côte d'Azur `FR-PAC`).
-- `CHE` — a federal country with 4 co-official national languages (German, French, Italian, Romansh — all `domain: official` at `1.0`, per this dataset's "official is a legal-status flag, not split across co-official languages" rule); currently 3 of 26 cantons filled in (`CH-ZH`, `CH-GE`, `CH-TI`), chosen to cover 3 of the 4 language regions. Also the first example where `legalConstraints`/`paymentCulture` stay country-level while `businessRhythm` genuinely differs canton by canton — Switzerland regulates shop-opening hours at the cantonal, not federal, level, so `CH-ZH`/`CH-GE`/`CH-TI` each cite their own cantonal law for a concretely different answer to "can this shop open on Sunday?".
+- `LTU` — a small sovereign country; no distinct regions curated. Lithuania has well-known historical/ethnographic regions, but the goal here is the opposite of cataloging heritage — a region only gets curated when it genuinely diverges *today* in something a consumer would act on, and this dataset would rather under-split than draw a distinction that doesn't actually change anything.
+- `PYF` — a dependent territory (of France); no distinct regions curated, but with its own flag/languages/time zones.
+- `FRA` — a large unitary country with real, present-day-distinct cultural regions (currently only 2 of ~18 distinct regions curated as an example: Brittany `FR-BRE`, Provence-Alpes-Côte d'Azur `FR-PAC`).
+- `CHE` — a federal country with 4 co-official national languages (German, French, Italian, Romansh — all `domain: official` at `1.0`, per this dataset's "official is a legal-status flag, not split across co-official languages" rule); currently 4 of 26 cantons curated (`CH-ZH`, `CH-GE`, `CH-TI`, `CH-GR`), covering all 4 language regions (`CH-GR`, Graubünden, is Switzerland's only trilingual canton and the Romansh one). Also the first example where `legalConstraints`/`paymentCulture` stay country-level while `businessRhythm` genuinely differs canton by canton — Switzerland regulates shop-opening hours at the cantonal, not federal, level, so each canton cites its own law (or, for `CH-GR`, its own municipality-by-municipality pattern) for a concretely different answer to "can this shop open on Sunday?".
 
 ## Data sources
 

@@ -58,12 +58,22 @@ languageUsage:
     domain: locallySpoken
     speakersShare: 0.005
     sourceId: bfs-languages-2021
-# eng foreign-language usage intentionally omitted: found figures (e.g.
-# "~60% can speak some English") trace back to private/academic surveys
-# (language-barometer-style polling), not an official government statistic
-# comparable to Eurobarometer (FRA) or Statistics Lithuania's press-reported
-# release (LTU) — left out rather than cite a softer source than this
-# dataset's usual bar.
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.06
+    sourceId: srf-english-main-language-2023
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.52
+    # 52% is specifically the share of 15-64-year-olds *without* English as
+    # their main language who rate their own active English skills as good
+    # or very good — an ESRK-specific, narrower population than the
+    # deu/fra/ita/roh entries above, which cover the whole permanent
+    # resident population. Supersedes an earlier omission here: previously
+    # found English-proficiency figures traced to private/academic surveys,
+    # not an official statistic — BFS's own periodic ESRK survey now covers
+    # this directly.
+    sourceId: bfs-esrk-english-2024
 # ethnicGroups intentionally omitted: Switzerland's official statistics
 # report population by citizenship/migration background (resident foreigners
 # were roughly a quarter to a third of the population depending on
@@ -135,6 +145,9 @@ distinct-regions:
   - code: CH-TI
     file: distinct-regions/ti.yaml
     adminUnitCodes: [CH-TI]
+  - code: CH-GR
+    file: distinct-regions/gr.yaml
+    adminUnitCodes: [CH-GR]
   - code: WHOLE
     file: distinct-regions/whole.yaml
 sources:
@@ -192,6 +205,20 @@ sources:
     year: 1964
     accessedDate: "2026-09-11"
     note: "The federal baseline prohibiting Sunday retail work (Art. 18) and letting cantons designate up to 4 exception Sundays/year without a special permit (Art. 19a) — the starting point that each canton's own shop-opening law then builds on."
+  - id: srf-english-main-language-2023
+    name: "Nicht-Landessprachen auf dem Vormarsch"
+    publisher: "SRF (Schweizer Radio und Fernsehen), citing the Federal Statistical Office (BFS)"
+    url: "https://www.srf.ch/news/schweiz/englisch-als-arbeitssprache-nicht-landessprachen-auf-dem-vormarsch"
+    year: 2023
+    accessedDate: "2026-09-14"
+    note: "6% of the permanent resident population reported English as their main language in 2023 (up from 4% in 2010) -- the locallySpoken share used above. Also reports 23% of the employed population usually speaking English at work in 2023, not separately modeled here."
+  - id: bfs-esrk-english-2024
+    name: "Vielsprachige Schweiz: Die Mehrheit der Bevölkerung verwendet regelmässig mehrere Sprachen"
+    publisher: "SRF (Schweizer Radio und Fernsehen), citing the Federal Statistical Office's Erhebung zur Sprache, Religion und Kultur (ESRK) 2024"
+    url: "https://www.srf.ch/news/schweiz/vielsprachige-schweiz-mehrheit-der-bevoelkerung-verwendet-regelmaessig-mehrere-sprachen"
+    year: 2024
+    accessedDate: "2026-09-14"
+    note: "52% of 15-64-year-olds without English as their main language rate their own active English skills as good or very good, per BFS's ESRK 2024 survey (published 2025) -- the foreign-domain share used above. Also names English 'die am meisten verbreitete Nicht-Landessprache' (the most widespread non-national language) in Switzerland."
   - id: swiss-payment-monitor-2024
     name: "Swiss Payment Monitor 2024 (Issue 2024-1)"
     publisher: "ZHAW School of Management and Law, in cooperation with the University of St. Gallen"
