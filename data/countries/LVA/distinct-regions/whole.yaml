@@ -1,0 +1,118 @@
+code: WHOLE
+name:
+  eng: Latvia
+  local:
+    - languageCode: lav
+      value: Latvija
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py for the whole country, since Latvia
+# is classified unitary-small (single synthetic region, like LTU).
+climates:
+  - koppenCode: Dfb
+    description: Humid continental climate with cool-to-warm summers and cold, snowy winters.
+landmarks:
+  - name: Historic Centre of Riga
+    description: Largest collection of Art Nouveau (Jugendstil) architecture in Europe, plus the medieval Old Town.
+    unescoWorldHeritage: true
+  - name: Old town of Kuldīga
+    description: Well-preserved historic centre from the late 16th to 18th centuries, centre of the former Duchy of Courland.
+    unescoWorldHeritage: true
+  - name: Gauja National Park
+    description: Oldest and largest national park in Latvia, with sandstone cliffs, castles (Turaida, Sigulda) and the Gauja river valley.
+  - name: Rundāle Palace
+    description: Baroque and Rococo palace, one of Latvia's finest, built for the Dukes of Courland.
+culturalTraits:
+  - Strong choral singing and the Baltic Song and Dance Celebration (Dziesmu un deju svētki) — part of UNESCO intangible cultural heritage
+  - Līgo/Jāņi (Midsummer) celebrated on the night of 23-24 June as a national holiday
+  - Sauna culture
+  - Deep-rooted folk-tale, folksong (dainas) and ethnography tradition
+prideOf:
+  - Singing Revolution and peaceful restoration of independence in 1991
+  - Baltic Way (1989), the human chain across the three Baltic states
+  - Historical cultural heritage, including the Latvian Song and Dance Celebration
+animals:
+  popular:
+    - White stork
+    - European beaver
+    - Elk
+  unique:
+    - Black stork
+industries:
+  - Wood processing and forestry products (timber is Latvia's top export)
+  - Information technology / electronics
+  - Pharmaceuticals (e.g. Grindeks, Olainfarm)
+  - Transport and logistics (Riga as a Baltic transit hub)
+  - Food production and dairy
+sports:
+  - Ice hockey
+  - Basketball
+  - Football
+  - Athletics
+# Religions sourced from the Ministry of Justice's annual report of religious
+# organizations, as reported by the U.S. State Department — Latvia has no
+# census question on religion, so this institutional report is the authoritative
+# (and effectively the only) officially published national breakdown.
+religions:
+  - name: Lutheran
+    percent: 37.0
+    sourceId: lv-moj-religion-2021
+  - name: Roman Catholic
+    percent: 19.0
+    sourceId: lv-moj-religion-2021
+  - name: Latvian Orthodox Christian
+    percent: 14.0
+    sourceId: lv-moj-religion-2021
+  - name: No religion / unaffiliated
+    percent: 29.0
+    sourceId: lv-moj-religion-2021
+# The remaining ~1% is split across smaller groups (Old Believers, Baptists,
+# Pentecostals, etc.) — omitted here for brevity.
+entertainment:
+  - season: summer
+    items:
+      - Līgo/Jāņi (Midsummer night, 23-24 June)
+      - Baltic Song and Dance Celebration (held every ~5 years)
+      - Positivus Festival (Salacgrīva)
+  - season: winter
+    items:
+      - Christmas market season (Tirgus)
+      - New Year celebrations in Riga
+      - Winter solstice (Ziemassvētki) traditions
+traditionalDishes:
+  - season: allYear
+    items:
+      - Rupjmaize (dark rye bread)
+      - Pelēkie zirņi ar speķi (grey peas with bacon)
+      - Kartupeļu pankūkas (potato pancakes)
+  - season: summer
+    items:
+      - Jāņu siers (Midsummer caraway cheese, eaten at Līgo/Jāņi)
+  - season: winter
+    items:
+      - Piparkūkas (spiced gingerbread cookies, Christmas)
+      - Ziemassvētku kūka (Christmas cake)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Tautas tērps (Latvian national folk costume, worn on festive occasions)
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: []
+  notes: "No law currently restricts which days of the week retail may trade — unlike France's default Sunday-rest rule. Shops and shopping centres commonly operate all 7 days, with supermarkets and malls typically open roughly 9:00am-9:00pm on weekdays/Saturday and shorter hours (often closing around 6:00pm) on Sunday. Office work follows a standard Monday-Friday schedule."
+  typicalWorkHours: "Standard office hours are typically around 8:30/9:00am-5:30/6:00pm, Monday-Friday."
+sources:
+  - id: lv-moj-religion-2021
+    name: "Annual Report of Religious Organizations and their Activities (2021 data), as reported in the U.S. State Department's 2022 Report on International Religious Freedom: Latvia"
+    publisher: "Ministry of Justice of Latvia (Tieslietu ministrija), via the U.S. Department of State"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/latvia"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "The religious-affiliation proportions from the Latvian Ministry of Justice's annual report (Lutheran 37%, Roman Catholic 19%, Latvian Orthodox 14%, no religion/unaffiliated 29%). Latvia has no religion question in its census, so this institutional report is the authoritative national breakdown; U.S. State Department reporting is used as the accessible secondary source because the ministry's own English page publishes congregation counts rather than population shares."
