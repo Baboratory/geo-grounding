@@ -30,6 +30,13 @@ below — each one is enforced there).
 
 ## Adding or editing a country
 
+The simplest full worked example is `LTU` (`data/countries/LTU/`) — a
+`unitary-small` country with just a `WHOLE` region, no real subdivisions.
+Copy its shape as your starting point rather than a more complex one like
+`CHE` (federal, multiple regions, a hybrid region-level sourcing model) or
+`FRA` (real regions) — those show what to do once you actually need the
+extra structure, not what a first country should look like.
+
 1. Decide `governanceType` first (`federal` / `unitary-large` / `unitary-small`
    / `dependent-territory`) — see DESIGN.md's "Core design decisions" for the
    criteria. This decides whether you need real regions or just `WHOLE`.
@@ -49,6 +56,15 @@ below — each one is enforced there).
    referenced in `country.yaml`'s `distinct-regions[]` with matching
    `adminUnitCodes[]`.
 5. Run `python3 scripts/validate.py` and fix everything it flags.
+
+## After you open a PR
+
+If your change gets accepted, expect your PR to end up **closed, not
+merged** — the maintainers apply it and the closing comment references the
+commit that actually incorporated it. That's the normal outcome here, not
+a rejection; check the linked commit for exactly what landed. Your own
+authorship isn't affected by this — the commit that lands keeps you as its
+author, so it still counts as your contribution.
 
 ## Hard rules (enforced by `scripts/validate.py`)
 
