@@ -1,0 +1,163 @@
+alpha3: LVA
+alpha2: LV
+name:
+  eng: Latvia
+  local:
+    - languageCode: lav
+      value: Latvija
+flagEmoji: "🇱🇻"
+capital: Riga
+isSovereign: true
+# Classified unitary-small, not unitary-large: population ~1.86 million is far
+# below the unitary-large population threshold, and while Latvia has four
+# historical regions (Kurzeme, Zemgale, Vidzeme, Latgale) recognized by law,
+# the Law on Historical Regions is a cultural-identity statute, not a basis for
+# the kind of real administrative subdivisions unitary-large countries get ISO
+# 3166-2 regions for. Latgalian is legally recognized only as a "historic
+# variant" of Latvian, not a co-official language. This matches how LTU (a
+# comparable small Baltic sovereign state) is classified, so Latvia follows the
+# same single-WHOLE-region pattern.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: lav
+    domain: official
+    speakersShare: 1.0
+    sourceId: lv-constitution-art4
+  - languageCode: lav
+    domain: locallySpoken
+    speakersShare: 0.621
+    sourceId: lv-census-language-at-home
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.372
+    sourceId: lv-census-language-at-home
+# foreign-domain rows intentionally omitted: no authoritative official source
+# was found for the share of the population who speak English (or another
+# language) as a learned foreign language. The 2011 census measured language
+# spoken AT HOME, not command of foreign languages, so it cannot support a
+# foreign-domain figure; the 2021 register-based census did not collect this at
+# all. Left out rather than guessed, per this project's sourcing rule.
+ethnicGroups:
+  - group: Latvians
+    percent: 62.7
+    sourceId: lv-census-2021-ethnicity
+  - group: Russians
+    percent: 24.5
+    sourceId: lv-census-2021-ethnicity
+  - group: Belarusians
+    percent: 3.1
+    sourceId: lv-census-2021-ethnicity
+  - group: Ukrainians
+    percent: 2.2
+    sourceId: lv-census-2021-ethnicity
+  - group: Poles
+    percent: 2.0
+    sourceId: lv-census-2021-ethnicity
+  - group: Lithuanians
+    percent: 1.1
+    sourceId: lv-census-2021-ethnicity
+timezones:
+  - name: Europe/Riga
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer, not a pre-tax figure)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data (names, emails, browsing/behavioral data, etc.) requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure ('right to be forgotten') — the EU-wide GDPR, directly applicable in Latvia."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge — independent of and in addition to any commercial/manufacturer warranty."
+    sourceId: eu-directive-2019-771
+paymentMethodShares:
+  - method: "non-cash payments (card, mobile, online)"
+    percent: 79.0
+    sourceId: lv-bank-payment-radar-2026
+paymentCulture:
+  popularMethods:
+    - "Visa and Mastercard-branded cards — Latvia has no domestic card scheme, so bank-issued cards are one or the other international network"
+    - Contactless cards (used daily by ~55% of the population)
+    - Smartphone payments (used daily by ~32%, fastest-growing and most popular among under-34s)
+  tipping:
+    expected: false
+    typicalAmount: "Round up the bill or leave ~5-10% in a restaurant if service was good"
+    autoIncludedInBill: false
+    note: "Tipping is appreciated but not expected; a service charge is not customarily added to the bill. Locals typically round up or leave a small tip for good restaurant service."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Formal and reserved in business; use surname/title until invited to move to first names. Politeness, discretion and restraint are valued — loud or emotionally expressive behaviour in meetings reads as excessive."
+  greetingNorms: "Firm handshake with direct eye contact (sign of trust and credibility). Women may be greeted with a handshake or a slight nod. Avoid over-expressive gestures."
+  meetingEtiquette: "Punctuality is important — arrive on time, as lateness is seen as disrespectful. Business is direct and to the point with little small talk; brief formalities precede the agenda. Decisions tend to be made by senior management and may take time to progress through organizational levels. Transferring business cards is normal after the initial greeting."
+  topicsToAvoid:
+    - "Bringing up the Soviet period or discussing sensitive political history unless a Latvian counterpart raises it first"
+  giftGivingNotes: "Not expected at a first business meeting. When invited to a home, a small gift (flowers or good-quality chocolate) is appreciated; give flowers in odd numbers and avoid white/yellow blooms, which are associated with funerals."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: lv-constitution-art4
+    name: "Satversme (Constitution of the Republic of Latvia), Article 4, and the Official Language Law"
+    publisher: "Saeima (Parliament of Latvia), via the Ministry of Education and Science"
+    url: "https://www.izm.gov.lv/en/state-language"
+    accessedDate: "2026-09-14"
+    note: "Legal basis for Latvian being the country's sole official language: Article 4 of the Satversme stipulates that the official language in the Republic of Latvia is the Latvian language, with regulation set out in the Official Language Law."
+  - id: lv-census-language-at-home
+    name: "At home Latvian is spoken by 62% of Latvian population (2011 Population and Housing Census)"
+    publisher: "Central Statistical Bureau of Latvia (CSP)"
+    url: "https://stat.gov.lv/en/statistics-themes/education/level-education/press-releases/4645-home-latvian-spoken-62-latvian"
+    year: 2011
+    accessedDate: "2026-09-14"
+    note: "The share of the population who most commonly speak Latvian at home (62.1%) and Russian at home (37.2%). This is from the 2011 census, the most recent census where language-spoken-at-home was directly surveyed (the 2021 register-based census did not collect it) — flagged so its vintage is clear."
+  - id: lv-census-2021-ethnicity
+    name: "Population and Housing Census 2021: ethnic composition; and 'More rapid decline in population' (CSP release RIR2102)"
+    publisher: "Central Statistical Bureau of Latvia (CSP)"
+    url: "https://stat.gov.lv/en/statistics-themes/population/population/press-releases/6935-number-population-latvia-2020"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "The ethnic-composition percentages. Latvians 62.7% at the start of 2021 is directly stated in the CSP release; the full national breakdown (Russians 24.5%, Belarusians 3.1%, Ukrainians 2.2%, Poles 2.0%, Lithuanians 1.1%, the remainder ~4.4% split across other groups) is taken from the CIA World Factbook's Latvia people section, whose figures reflect the same 2021 CSP census data. The two sources agree on the Latvian share."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-14"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Latvia as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-14"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Latvia as an EU member state."
+  - id: lv-bank-payment-radar-2026
+    name: "Payment radar (spring 2026): 'The share of non-cash payments in Latvia reaches a historical high – 79%'"
+    publisher: "Latvijas Banka (Bank of Latvia)"
+    url: "https://www.bank.lv/en/news-and-events/news-and-articles/news/17570-the-share-of-non-cash-payments-in-latvia-reaches-a-historical-high-79"
+    accessedDate: "2026-09-14"
+    note: "The ratio of non-cash to cash payments in February 2026 (79% to 21%), and the shares of the population using contactless cards (~55%) and smartphone payments (~32%) on a daily basis. Based on a public survey by SIA Latvijas Fakti commissioned by Latvijas Banka."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-14"
+    note: "The legal basis for the GDPR data-protection rules applying to personal-data collection/processing in Latvia as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-14"
+    note: "The legal basis for the EU-wide minimum 2-year consumer guarantee on goods, replacing Directive 1999/44/EC, in force since 1 January 2022."
