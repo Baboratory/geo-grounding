@@ -1,0 +1,134 @@
+code: WHOLE
+name:
+  eng: Norway
+  local:
+    - languageCode: nob
+      value: Norge
+    - languageCode: nno
+      value: Noreg
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO 3166-2
+# county isn't one of the curated files (NO-56/NO-46/NO-18), via the
+# 'whole-country-fallback' path. It carries the full country-level bilingual
+# name (both official written standards of Norwegian), matching CHE's WHOLE
+# pattern.
+climates:
+  - koppenCode: Cfb
+    description: "Temperate oceanic along the west coast and in Oslo: mild for the latitude (Gulf Stream warmth), wet on western slopes."
+  - koppenCode: Dfc
+    description: "Subarctic and polar north of the Arctic Circle: long cold winters, polar night, midnight sun, short cool summers; colder, drier inland east."
+landmarks:
+  - name: Bryggen (Bergen) and the West Norwegian Fjords
+    description: "UNESCO World Heritage sites: the Hanseatic Harbour in Bergen and the Geirangerfjord/Nærøyfjord."
+    unescoWorldHeritage: true
+  - name: Laponian Area and Rock Art of Alta
+    description: "UNESCO sites in Sami country and Arctic prehistory."
+    unescoWorldHeritage: true
+  - name: Trolltunga, Preikestolen and the Lofoten fishing villages
+    description: "Iconic Norwegian cliff ledges and coastal scenery."
+  - name: Nordkapp (North Cape)
+    description: "Europe's northernmost point."
+culturalTraits:
+  - "Egalitarian, low power-distance society"
+  - "Strong outdoor (friluftsliv) ethos of spending time in nature"
+  - "Coffee culture and Friday 'fredagskos'; Saturday sweets"
+  - "Dugnad (voluntary community work) and a strong social-welfare model"
+  - "Sami culture and rights prominent in the north; dialects spoken openly as identity"
+prideOf:
+  - "The natural landscapes: fjords, mountains, northern lights, midnight sun"
+  - "Egalitarianism and trust in institutions"
+  - "The sovereign management of oil wealth through the world's largest sovereign wealth fund"
+  - "Winter-sports heritage and the coastal fishing/maritime tradition"
+animals:
+  popular:
+    - Norwegian elkhound and the Lundehund (puffin dog)
+    - Reindeer (Sami herded, in the north)
+    - Brown bear, wolverine and Eurasian lynx
+    - White-tailed (sea) eagle
+  unique:
+    - "The Lundehund — a six-toed puffin dog, an indigenous breed"
+    - "The Norwegian fjord horse (fjordhest), one of the world's oldest breeds"
+    - Polar bears (only on the Arctic islands of Svalbard)
+industries:
+  - Oil and gas (offshore petroleum; managed through the Government Pension Fund Global)
+  - Fisheries and aquaculture (salmon)
+  - Maritime transport and shipping
+  - Hydroelectric power and renewables
+  - Tourism (fjords, northern lights, winter sports)
+  - Technology and life sciences
+sports:
+  - Cross-country and alpine skiing (the national passion)
+  - Ski jumping and biathlon
+  - Handball and football
+  - Athletics (long-distance)
+  - Sailing and winter sports
+religions:
+  - name: Church of Norway (Evangelical Lutheran)
+    percent: 60.9
+    sourceId: nor-ssb-church-2025
+  - name: Other religious and life-stance communities
+    percent: 16.5
+    sourceId: nor-ssb-church-2025
+# The remaining ~22.6% is not affiliated with any registered community — a
+# computed residuum (not an official SSB statistic), noted at the country level.
+# It is deliberately not modelled as a 'no religion' row because no official
+# 'no affiliation' figure exists.
+entertainment:
+  - season: summer
+    items:
+      - "Fjord cruises and coastal voyages (Hurtigruten)"
+      - "Hiking and mountaineering (Preikestolen, Trolltunga, the national parks)"
+      - "Midnight sun festivals north of the Arctic Circle"
+      - "Berry and mushroom picking; cabin (hytte) life"
+  - season: winter
+    items:
+      - "Cross-country and alpine skiing; winter resorts (Hemsedal, Trysil)"
+      - "Northern lights (aurora) viewing in the north"
+      - "The Christmas season (julebord) and New Year celebrations"
+  - season: allYear
+    items:
+      - "Coffee culture and café life"
+      - "Museums, the new National Museum in Oslo and the Munch Museum"
+      - "The Constitution Day (17 May) national celebration"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Fresh seafood: salmon, shrimps, cod and haddock"
+      - "Strawberries and summer berries; grilling season"
+  - season: winter
+    items:
+      - "Pinnekjøtt (Christmas ribs) and lutefisk"
+      - "Multekrem (cloudberry cream dessert)"
+      - "Kjøttkaker (meatballs) and varmrøkt laks (warm-smoked salmon)"
+  - season: allYear
+    items:
+      - "Brunost (brown goat cheese) on waffles and bread"
+      - "Røykd laks (smoked salmon) and fiskekaker (fish cakes)"
+      - "Brød and skolebrød (cream-filled buns)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The bunad — Norwegian regional folk costume, worn on Constitution Day (17 May), weddings and festivals; each region has a distinctive design"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard office hours roughly 8/9am-4/5pm, Monday-Friday, with a short lunch break. Annual leave is around 5 weeks; the universal summer vacation in July is widespread."
+  notes: "July is broad summer-holiday season — many Norwegian businesses run reduced staffing and it is hard to get decisions before late August. Meetings are punctual and consensus-oriented."
+sources:
+  - id: nor-ssb-church-2025
+    name: "Statistics Norway — Church of Norway membership and religious communities statistics"
+    publisher: "Statistics Norway (SSB)"
+    url: "https://www.ssb.no/en/kultur-og-fritid/religion-og-livssyn/statistikk/den-norske-kirke"
+    year: 2025
+    accessedDate: "2026-09-14"
+    note: "Church of Norway membership ~60.9% of the population (2025, official SSB figure); members of other religious and life-stance communities ~16.5%. No official consolidated 'no religion' national figure exists; the residual ~22.6% is a computed estimate noted above."

@@ -1,0 +1,155 @@
+alpha3: EST
+alpha2: EE
+name:
+  eng: Estonia
+  local:
+    - languageCode: est
+      value: Eesti
+flagEmoji: "🇪🇪"
+capital: Tallinn
+isSovereign: true
+# Classified unitary-small: population ~1.36M is far below the unitary-large
+# threshold, and while Estonia is administratively divided into maakonnad
+# (counties), none carries legislative/autonomous status. Latvian/LTU and the
+# other Baltic states follow the same single-WHOLE pattern.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: est
+    domain: official
+    speakersShare: 1.0
+    sourceId: est-constitution-art6
+  - languageCode: est
+    domain: locallySpoken
+    speakersShare: 0.84
+    sourceId: est-census-2021-lang
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.29
+    sourceId: est-census-2021-lang
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.5
+    sourceId: est-census-2021-lang
+ethnicGroups:
+  - group: Estonians
+    percent: 68.5
+    sourceId: est-ethnic-2026
+  - group: Russians
+    percent: 20.2
+    sourceId: est-ethnic-2026
+  - group: Other ethnic nationalities (incl. Ukrainians, Belarusians, Finns, Latvians)
+    percent: 10.8
+    sourceId: est-ethnic-2026
+timezones:
+  - name: Europe/Tallinn
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Last Sunday in March to last Sunday in October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer, not a pre-tax figure)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data (names, emails, browsing/behavioral data, etc.) requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure ('right to be forgotten') — the EU-wide GDPR, directly applicable in Estonia."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge — independent of and in addition to any commercial/manufacturer warranty."
+    sourceId: eu-directive-2019-771
+paymentMethodShares:
+  - method: "digital (bank cards, mobile and smart devices)"
+    percent: 57.0
+    sourceId: est-pay-survey-2024
+  - method: "cash"
+    percent: 39.0
+    sourceId: est-pay-survey-2024
+paymentCulture:
+  popularMethods:
+    - Contactless bank cards (tap-to-pay)
+    - Mobile and smart-device payments and wallets
+    - Online banking and instant bank transfers
+    - Cash (declining, used mostly by older generations)
+  tipping:
+    expected: false
+    typicalAmount: "Round up the bill or leave ~5-10% for good service"
+    autoIncludedInBill: false
+    note: "Tipping is minimal and never mandatory; a small gratuity (rounding up, or ~5-10% at a restaurant) is appreciated for genuinely good service, but service is already included."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Formal 'Teie' (you) in official and business contexts, moving to the informal 'sina' as a relationship develops. Titles and surnames used in formal written correspondence; first names become common quickly in relaxed work environments."
+  greetingNorms: "A firm, brief handshake with direct eye contact is standard; 'Tere' (hello). Men often wait for a woman or senior person to extend the hand first. Hugs and cheek-kissing are reserved for close friends."
+  meetingEtiquette: "Meetings start on time — punctuality is expected and lateness is poorly regarded. Communication is businesslike, factual and to the point, with minimal small talk; interruptions are frowned upon. Decisions tend to follow analysis rather than improvisation; follow-up in writing (email) is standard."
+  topicsToAvoid:
+    - "Soviet-era history and Russian-Estonian relations (sensitive historical/political topics)"
+    - "Ethnic tensions between Estonians and Russian-speakers"
+    - "Comparisons with other Baltic states that imply Estonia is inferior"
+  giftGivingNotes: "Restrained — gift giving is not central to business culture. When invited to a home, a modest gift (flowers, good chocolate, wine or spirits) is appropriate; give an odd number of flowers (even numbers are for funerals). Avoid expensive or elaborate gifts."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: est-constitution-art6
+    name: "Constitution of the Republic of Estonia, Article 6 (and Language Act, Section 3)"
+    publisher: "Riigi Teataja (State Gazette of Estonia)"
+    url: "https://riigiteataja.ee/en/eli/530102013003/consolide"
+    year: 1992
+    accessedDate: "2026-09-14"
+    note: "Legal basis for Estonian being the country's sole official language: Article 6 states 'The official language of Estonia is Estonian.'"
+  - id: est-census-2021-lang
+    name: "Population and Housing Census 2021 — Demographic and ethno-cultural characteristics of the population"
+    publisher: "Statistics Estonia"
+    url: "https://rahvaloendus.ee/en/results/demographic-and-ethno-cultural-characteristics-of-the-population"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "The language-command shares: Estonian spoken by 84% of the population (locallySpoken), Russian as mother tongue by ~29% (Russian is spoken in total by ~67% including as a foreign language, but the locallySpoken figure here uses the mother-tongue share), and English as the most widely spoken foreign language (~50%, an approximate share as the census does not publish a single headcount for second-language speakers)."
+  - id: est-ethnic-2026
+    name: "There are people of 224 different ethnic nationalities living in Estonia"
+    publisher: "Statistics Estonia"
+    url: "https://stat.ee/en/news/there-are-people-of-224-different-ethnic-nationalities-living-in-estonia"
+    year: 2026
+    accessedDate: "2026-09-14"
+    note: "Ethnic composition as at 1 January 2026: Estonians 68.5%, Russians 20.2%, other nationalities 10.8% (incl. Ukrainians, Belarusians, Finns, Latvians)."
+  - id: est-pay-survey-2024
+    name: "Survey shows that digital means of payment are used most for paying in Estonia (ECB SPACE 2024)"
+    publisher: "Eesti Pank (Bank of Estonia)"
+    url: "https://www.eestipank.ee/en/press/survey-shows-digital-means-payment-are-used-most-paying-estonia-14012025"
+    year: 2025
+    accessedDate: "2026-09-14"
+    note: "Payment-method shares from the ECB Study on the payment attitudes of consumers (SPACE 2024), reported by Estonia's central bank: 57% of payments made by bank card/mobile/smart device, 39% by cash."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-14"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Estonia as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-14"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Estonia as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-14"
+    note: "The legal basis for the GDPR data-protection rules applying to personal-data collection/processing in Estonia as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-14"
+    note: "The legal basis for the EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."

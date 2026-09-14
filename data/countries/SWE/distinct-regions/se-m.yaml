@@ -1,0 +1,46 @@
+code: SE-M
+name:
+  eng: Skåne (Scania) County
+  local:
+    - languageCode: swe
+      value: Skåne län
+climates:
+  - koppenCode: Cfb
+    description: "The mildest of Sweden's counties: maritime temperate influence, cool summers and relatively mild, snow-scarce winters."
+landmarks:
+  - name: Lund University
+    description: "One of Scandinavia's oldest (founded 1666) and largest universities."
+  - name: Öresund Bridge
+    description: "The fixed link to Copenhagen, making Malmö part of a cross-border Øresund economic zone."
+  - name: Falsterbo and Österlen
+    description: "Long sandy beaches and the fertile, culturally-distinct southeast coast."
+culturalTraits:
+  - "Distinct regional Scanian dialect and identity"
+  - "Breadbasket of Sweden — fertile agricultural plains and beech forests"
+  - "Integrated cross-border Nordic culture with Denmark (Øresund region)"
+prideOf:
+  - "The Øresund gateway to continental Europe and Denmark"
+  - "Lund University and a strong academic tradition"
+  - "Agricultural and culinary heritage"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Scanian specialties: spettekaka (egg cake), fresh local fruits and vegetables"
+  - season: allYear
+    items:
+      - "Regional Scanian dishes: e.g. patch bygga (barley porridge) and local produce"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard Swedish office hours; Malmö functions in close symbiosis with Copenhagen work patterns."
+  notes: "Southernmost, one of the most populous counties (~1.43M). Malmo's proximity to Denmark means cross-border commuting is common; Denmark colleagues follow similar Nordic working norms."

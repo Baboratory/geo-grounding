@@ -1,0 +1,65 @@
+code: PL-12
+name:
+  eng: Lesser Poland
+  local:
+    - languageCode: pol
+      value: Małopolskie
+climates:
+  - koppenCode: Dfb
+    description: "Continental climate: cold winters, warm summers."
+  - koppenCode: Dfc
+    description: "Subarctic montane climate at high elevations in the Tatra Mountains."
+landmarks:
+  - name: Historic Centre of Kraków
+    description: "The historic royal capital's medieval old town, Wawel Castle, and Cloth Hall."
+    unescoWorldHeritage: true
+  - name: Wieliczka Salt Mine
+    description: "UNESCO-listed underground salt mine."
+    unescoWorldHeritage: true
+  - name: Auschwitz-Birkenau
+    description: "Holocaust memorial museum near Oświęcim."
+    unescoWorldHeritage: true
+  - name: Wooden Churches of Southern Little Poland
+    description: "UNESCO-listed Gothic wooden churches."
+    unescoWorldHeritage: true
+  - name: Tatra Mountains and Zakopane
+    description: "Poland's highest mountains; the winter-sports and highlander (Góral) heartland."
+culturalTraits:
+  - "Distinctive highlander (Góral) culture of Podhale — music, embroidery, dialect"
+  - "Kraków's academic, artistic and café-intellectual identity; a major student city"
+  - "Deep historic significance as the historic capital and coronation site"
+  - "Strong Catholic and pilgrimage tradition (Kalwaria Zebrzydowska, UNESCO)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Obwarzanek krakowski (braided ring bread)"
+      - "Oscypek (smoked sheep cheese)"
+      - "Kwaśnica (highlander sauerkraut soup)"
+      - "Pierogi and regional sausages"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The colourful Góral (highlander) costume of Podhale with the parzenica chest embroidery; Kraków-region folk dress"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices ~8:00/9:00am-4:00/5:00pm; tourism-driven businesses peak in summer and winter."
+  notes: "Heavy tourism seasonality: peak summer (July-August) and the winter ski season (December-March). The national Sunday trading ban applies, with tourist-area nuances."
+  sourceIds: [pol-act-2018-sunday-trading]
+sources:
+  - id: pol-act-2018-sunday-trading
+    name: "Act of 10 January 2018 on the restriction of trade on Sundays and public holidays"
+    publisher: "Ministry of Family, Labour and Social Policy (Republic of Poland)"
+    url: "https://www.gov.pl/web/family/trade-on-sundays"
+    year: 2018
+    accessedDate: "2026-09-14"
+    note: "The general Sunday-trading prohibition, applying across Lesser Poland with tourist-area nuances."

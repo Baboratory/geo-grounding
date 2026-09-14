@@ -1,0 +1,43 @@
+code: FI-18
+name:
+  eng: Uusimaa
+  local:
+    - languageCode: fin
+      value: Uusimaa
+    - languageCode: swe
+      value: Nyland
+climates:
+  - koppenCode: Dfb
+    description: "Hemiboreal/temperate climate: cold winters, mild summers, moderated somewhat by the Baltic coast."
+landmarks:
+  - name: Helsinki (state capital)
+    description: "Seat of government and the country's largest city, with the distinctive 20th-century architecture of the centre."
+  - name: Suomenlinna Fortress
+    description: "UNESCO-listed sea fortress on islands off Helsinki."
+    unescoWorldHeritage: true
+  - name: Espoo and Vantaa
+    description: "The other cities of the Helsinki metropolitan area."
+culturalTraits:
+  - "National capital and economic engine; the most internationally connected corner of Finland"
+  - "Bilingual (Finnish majority, but the coastal Swedish-speaking minority is visible — e.g. in coastal Espoo and Hanko)"
+prideOf:
+  - "Hosting the capital and the country's business, finance and universities"
+  - "A modern, design-forward and digitally advanced metropolis"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "The full breadth of Finnish cuisine available in restaurants — from Karelian pies to salmon dishes"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Standard office hours roughly 8/9am-4/5pm, Monday-Friday; the seat of most national corporate and government business."
+  notes: "The commercial and administrative heart of Finland. Bilingual in practice — government and major corporate communications commonly appear in both Finnish and Swedish."

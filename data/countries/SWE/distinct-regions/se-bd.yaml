@@ -1,0 +1,57 @@
+code: SE-BD
+name:
+  eng: Norrbotten County
+  local:
+    # Norrbotten is the core of Sweden's Sami country, where the Sami languages
+    # and Meänkieli/Finnish hold official recognition in several municipalities;
+    # its local name is given in Swedish plus the most prominent officially
+    # recognized local language, Northern Sami, alongside it.
+    - languageCode: swe
+      value: Norrbottens län
+    - languageCode: sme
+      value: Norrbotten (Sápmi)
+climates:
+  - koppenCode: Dfc
+    description: "Subarctic: long, harsh, snowy winters; polar night north of the Arctic Circle; short cool summers with midnight sun; winter lasts ~6 months."
+landmarks:
+  - name: Laponian Area
+    description: "UNESCO mixed cultural/natural site at the heart of Sami reindeer-herding country."
+    unescoWorldHeritage: true
+  - name: Church Town of Gammelstad (Luleå)
+    description: "The best-preserved church town in Scandinavia, UNESCO-listed."
+    unescoWorldHeritage: true
+  - name: Kiruna
+    description: "Europe's northernmost significant town and the site of the world's largest underground iron-ore mine."
+  - name: Riksgränsen
+    description: "The northernmost ski resort in Sweden, at the Norwegian border."
+culturalTraits:
+  - "Core of Sami indigenous territory and reindeer herding"
+  - "Sami, Meänkieli and Finnish are official in several municipalities (Kiruna, Gällivare, Jokkmokk, Luleå, etc.)"
+  - "Arctic frontier identity: mining, hydro, the far north"
+prideOf:
+  - "Sami heritage and rights"
+  - "The Arctic wilderness: polar night, midnight sun and northern lights"
+  - "The iron-ore mining industry (Kiruna and Gällivare)"
+traditionalDishes:
+  - season: winter
+    items:
+      - "Reindeer dishes from Sami herding culture"
+      - "The traditional Luleå 'pjältar' and other northern Swedish staples"
+  - season: allYear
+    items:
+      - "Arctic fish and game; cloudberries"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard Swedish office hours; mining operates around the clock."
+  notes: "Sweden's northernmost county (~25% of national area, only ~2.5% of population). The Sami administrative area and minority-language official status make bilingual (Swedish/Sami/Meänkieli) communication relevant in several municipalities. Winter tourism and mining are the economic drivers."

@@ -1,0 +1,94 @@
+code: NO-18
+name:
+  eng: Nordland
+  local:
+    - languageCode: nob
+      value: Nordland
+    - languageCode: nno
+      value: Nordland
+climates:
+  - koppenCode: Dfc
+    description: "Ocean-influenced subarctic: mild-for-latitude, wet and windy along the coast with cool summers; more continental and colder inland; midnight sun/polar night north of the Arctic Circle."
+landmarks:
+  - name: Lofoten and Vesterålen archipelagos
+    description: "Iconic peaked mountains, fishing villages (Reine, Å, Henningsvær) and white beaches."
+  - name: Vegaøyan (Vega archipelago)
+    description: "UNESCO cultural landscape of islands and coastal farming."
+    unescoWorldHeritage: true
+  - name: The Atlantic Ocean Road (Atlanterhavsveien)
+    description: "An iconic coastal road curving over small islands and bridges."
+  - name: Svartisen glacier and Saltstraumen maelstrom
+    description: "The largest glacier in mainland Norway and the world's strongest tidal current."
+culturalTraits:
+  - "Island and coastal seafaring culture with deep fishing traditions"
+  - "Direct, dialect-proud northern Norwegian ('nordlending') manner and humour"
+  - "Dugnad (community volunteering) and a strong winter-outdoor, ocean identity"
+  - "Sami (Lule/South Sami) presence in parts of the county"
+prideOf:
+  - "The unmatched Lofoten/Vesterålen scenery and the stockfish (klippfisk/tørrfisk) trade that built European markets"
+  - "The Atlantic Road engineering feat"
+  - "Membership at the heart of Norway's Norwegian-Sea maritime culture"
+animals:
+  popular:
+    - White-tailed (sea) eagle
+    - North Atlantic cod, haddock and saithe
+    - Salmon (farmed and wild)
+    - Minke and killer whales in the Vestfjord
+  unique:
+    - "White-tailed sea eagles flying in numbers around fishing boats"
+    - "Cod spawning in the Lofoten Vestfjord — one of the world's great fish migrations"
+industries:
+  - "Fisheries (especially the winter Lofoten cod fishery)"
+  - Fisheries/aquaculture (salmon)
+  - Tourism (Lofoten, midnight sun, northern lights)
+  - Hydroelectric power
+  - Transport and maritime services
+sports:
+  - Sea kayaking and coastal sailing
+  - Hiking and mountaineering (Lofoten peaks, Helgeland)
+  - Surfing and winter outdoor sports
+# religions deliberately omitted at region level: no reliable county-level
+# religious breakdown for Nordland exists; left out rather than reusing the
+# national figure as if local.
+entertainment:
+  - season: summer
+    items:
+      - "Lofoten fishing-village tourism, kayaking and hiking"
+      - "The midnight sun (north of the Arctic Circle)"
+      - "Cod fisheries and the annual Lofoten stockfish market"
+  - season: winter
+    items:
+      - "Northern lights (aurora) viewing"
+      - "Whale-watching from Andenes (Vesterålen)"
+      - "Winter surf culture at Unstad"
+  - season: allYear
+    items:
+      - "The Lofotr Viking Museum and coastal culture centres"
+traditionalDishes:
+  - season: winter
+    items:
+      - "Tørrfisk (stockfish) and klippfisk (dried salt cod)"
+      - "Fresh cod and halibut"
+  - season: allYear
+    items:
+      - "Farmed Atlantic salmon"
+      - "Local lamb and northern berries"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The Nordland bunad (folk costume) worn at festivals and Constitution Day (17 May)"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard Norwegian office hours; fisheries follow the seasonal cod cycle."
+  notes: "The seasonal rhythm is tied to the famous winter cod fishery (Jan-April) and summer tourism. Lofoten's fishing villages have long since pivoted largely to tourism alongside the continuing stockfish trade; Bodø (the county capital) is a transport and services hub."

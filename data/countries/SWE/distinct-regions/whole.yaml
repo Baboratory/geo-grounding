@@ -1,0 +1,149 @@
+code: WHOLE
+name:
+  eng: Sweden
+  local:
+    - languageCode: swe
+      value: Sverige
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO 3166-2
+# county isn't one of the curated files (SE-M/SE-I/SE-BD), via the
+# 'whole-country-fallback' path.
+climates:
+  - koppenCode: Cfb
+    description: "Temperate oceanic in the south: milder winters, cooler summers."
+  - koppenCode: Dfb
+    description: "Humid continental across the central and northern interior: cold, snowy winters; warm summers."
+  - koppenCode: Dfc
+    description: "Subarctic in Norrbotten/Arctic Lapland: long severe winters, short cool summers, polar night and midnight sun."
+landmarks:
+  - name: Royal Domain of Drottningholm
+    description: "The private residence of the Swedish royal family, a UNESCO World Heritage palace."
+    unescoWorldHeritage: true
+  - name: Hanseatic Town of Visby (Gotland)
+    description: "UNESCO-listed medieval Hanseatic town on Gotland."
+    unescoWorldHeritage: true
+  - name: Laponian Area (Norrbotten)
+    description: "UNESCO mixed cultural/natural site in Sami reindeer-herding country."
+    unescoWorldHeritage: true
+  - name: Stockholm archipelago
+    description: "Vast archipelago of tens of thousands of islands around the capital."
+  - name: Öresund Bridge
+    description: "The fixed link between Malmö and Copenhagen, a symbol of cross-border Nordic integration."
+culturalTraits:
+  - "Lagom — moderation / 'just enough' — as a core value"
+  - "Fika (coffee-and-pastry break) culture"
+  - "Egalitarianism, consensus and modesty"
+  - "Strong nature connection and allemansrätten (right to roam)"
+  - "Midsummer and Lucia as key holidays"
+prideOf:
+  - "Innovation and design (Spotify, IKEA, Ericsson, Volvo, H&M)"
+  - "The egalitarian social model and gender equality"
+  - "The Nobel Prize and cultural icons (ABBA)"
+  - "Wilderness, forest and sustainability"
+animals:
+  popular:
+    - Moose (älg) — the iconic national animal
+    - Reindeer (semi-domesticated, herded by the Sami in the north)
+    - Brown bear
+    - Eurasian lynx
+    - Wolf (recovering)
+  unique:
+    - "Reindeer herding by the Sami, unique to northern Fennoscandia"
+    - Arctic fox (conservation stronghold)
+    - Wolverine and Eurasian lynx
+industries:
+  - Forestry and wood products
+  - Mining and ore (iron ore at Kiruna/Gällivare)
+  - Automotive (Volvo, heavy trucks)
+  - ICT/telecom (Ericsson, Spotify) and tech startups
+  - Engineering, steel, paper/pulp
+  - Clean tech and renewables (hydropower)
+  - Life sciences and design/furniture (IKEA)
+sports:
+  - Football (most popular; Zlatan Ibrahimović)
+  - Ice hockey
+  - Cross-country and alpine skiing
+  - Bandy and floorball
+  - Handball
+  - Athletics
+religions:
+  # Sweden has no religious/ethnic census. The Church of Sweden membership share
+  # is an official registry figure; the other rows are estimates (no official
+  # source exists for a full religious breakdown), flagged in the source note.
+  - name: Church of Sweden (Evangelical Lutheran)
+    percent: 50.6
+    sourceId: swe-church-sweden
+  - name: No religious affiliation
+    percent: 35.0
+    sourceId: swe-religion-estimate
+  - name: Islam
+    percent: 8.0
+    sourceId: swe-religion-estimate
+entertainment:
+  - season: summer
+    items:
+      - "Midsummer (Midsommar) — the biggest holiday, with flower crowns, maypole dancing, herring and new potatoes"
+      - "Archipelago boat trips (Stockholm, Gothenburg, Gotland)"
+      - "Crayfish parties (kräftskiva) in August"
+      - "Outdoor concerts and festivals; hiking and lake swimming in long daylight"
+  - season: winter
+    items:
+      - "Lucia (13 December) candlelight processions"
+      - "Christmas (jul) with the julbord smorgasbord"
+      - "Downhill and cross-country skiing"
+      - "Northern lights and dog-sledding in Lapland; sauna culture"
+  - season: allYear
+    items:
+      - "Fika — coffee and cinnamon buns at any time of day"
+      - "Film, music and a strong cafe culture"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Fresh herring (sill) with new potatoes, chives, sour cream and dill"
+      - "Strawberries and cream"
+      - "Crayfish (kräftor) at the August kräftskiva"
+      - "Pickled and grilled fish; gravlax"
+  - season: winter
+    items:
+      - "Julbord (Christmas smorgasbord): gravlax, herring, meatballs (köttbullar), Jansson's temptation, Christmas ham"
+      - "Saffron buns (lussekatter) at Lucia"
+      - "Pea soup and pancakes (ärtsoppa och pannkakor) on Thursdays"
+      - "Mulled wine (glögg)"
+  - season: allYear
+    items:
+      - "Köttbullar (meatballs with lingonberry jam and gravy)"
+      - "Gravlax and crispbread (knäckebröd)"
+      - "Cinnamon buns (kanelbullar) for fika"
+      - "Pickled herring"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Folkdräkt — Swedish folk/regional costume, worn on ceremonial occasions (Midsummer, National Day 6 June, weddings); each region has specific colours and patterns"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard ~40h/week, typically ~8:00/9:00am-5:00pm with flex-time. Lunch ~30-60 min around noon; fika breaks mid-morning and mid-afternoon. Fridays often end early (~3:00-4:00pm). Statutory minimum 25 vacation days plus public holidays."
+  notes: "The last weeks of July are effectively dead for business due to collective summer closures; seasonal planning favours January-June and September-December for meetings. Meetings start and end on time in a flat-hierarchy culture. Avoid scheduling important meetings in the last two weeks of July."
+sources:
+  - id: swe-church-sweden
+    name: "Svenska kyrkan i siffror — Church of Sweden membership statistics"
+    publisher: "Svenska kyrkan (Church of Sweden)"
+    url: "https://www.svenskakyrkan.se/statistik"
+    accessedDate: "2026-09-14"
+    note: "Official membership statistics: ~5.4 million members, ~50.6% of the population, and steadily declining."
+  - id: swe-religion-estimate
+    name: "Religious composition estimate (no official Swedish census of religion)"
+    publisher: "Composite estimate; no single authoritative national source"
+    url: "https://en.wikipedia.org/wiki/Religion_in_Sweden"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: Sweden keeps no religious census. 'No religious affiliation' and 'Islam' shares are composite estimates derived from Church of Sweden membership against population and independent estimates (~6-8% Muslim, ~35% unaffiliated). Treated as indicative only."

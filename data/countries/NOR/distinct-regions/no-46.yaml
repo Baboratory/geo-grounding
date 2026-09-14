@@ -1,0 +1,100 @@
+code: NO-46
+name:
+  eng: Vestland
+  local:
+    # Vestland is the heartland of Nynorsk, where many municipalities use
+    # Nynorsk as their official written standard, so both written standards of
+    # Norwegian are given as local names (region-local rule).
+    - languageCode: nob
+      value: Vestland
+    - languageCode: nno
+      value: Vestland
+climates:
+  - koppenCode: Cfb
+    description: "Temperate oceanic: mild, wet winters and cool summers along the coast (Bergen is among Europe's wettest cities); drier, more continental fjord interiors; cold, snow-rich mountains."
+landmarks:
+  - name: Bryggen (Bergen)
+    description: "The Hanseatic harbour wharf, a UNESCO World Heritage site."
+    unescoWorldHeritage: true
+  - name: Geirangerfjord and Nærøyfjord
+    description: "The West Norwegian Fjords, a UNESCO natural World Heritage site."
+    unescoWorldHeritage: true
+  - name: Urnes Stave Church
+    description: "The oldest stave church in Norway, UNESCO-listed."
+    unescoWorldHeritage: true
+  - name: Sognefjord
+    description: "Norway's longest and deepest fjord."
+  - name: Trolltunga and Hardangervidda
+    description: "Iconic cliff-ledge and high plateau hiking destinations."
+culturalTraits:
+  - "Deep maritime and Hanseatic trading heritage (Bergen/Bryggen)"
+  - "The language stronghold of Nynorsk — many municipalities use it as their official written standard"
+  - "Fierce local pride in the fjord landscape and a strong folk-music tradition (Edvard Grieg, the Harding fiddle)"
+prideOf:
+  - "The world-famous fjords and the Sognefjord"
+  - "Bergen's Hanseatic heritage and the stave churches"
+  - "Nynorsk writing culture"
+animals:
+  popular:
+    - Atlantic salmon (wild, in the fjords)
+    - White-tailed sea eagle
+    - Cod, mackerel and herring
+  unique:
+    - "Wild mountain reindeer of the Hardangervidda high plateau"
+    - White-tailed sea eagle nesting on the coastal cliffs
+industries:
+  - "Tourism (fjord cruises, Bergen, active outdoor holidays)"
+  - Fisheries and aquaculture (salmon farming)
+  - Maritime transport and offshore/shipping services
+  - Renewable hydroelectric power
+sports:
+  - "Fjord cruising and sea kayaking"
+  - Hiking and via ferrata (Trolltunga, the fjord trails)
+  - Skiing and mountaineering (Jotunheimen area)
+# religions deliberately omitted at region level: no reliable county-level
+# religious breakdown for Vestland exists; church membership is published
+# nationally. Left out rather than reusing the national figure as if local.
+entertainment:
+  - season: summer
+    items:
+      - "Fjord cruises and the Hurtigruten coastal route"
+      - "Hiking to Trolltunga and on Hardangervidda"
+      - "Bergen's festivals (incl. the Bergen International Festival) and the Fish Market"
+  - season: winter
+    items:
+      - "Alpine and cross-country skiing in the mountain resorts"
+      - "Winter fjord cruise season and Bergen's Christmas market"
+  - season: allYear
+    items:
+      - "Stave churches and Bergen's museums (Troldhaugen — Edvard Grieg's home)"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Fresh Atlantic fish and seafood from the fjords"
+      - "Raspberry and cloudberry desserts"
+  - season: winter
+    items:
+      - "Lutefisk and pinnekjøtt (Christmas lamb ribs, a Vestland tradition)"
+  - season: allYear
+    items:
+      - "Bergen fish soup and fresh seafood"
+      - "Svele (fried pancake) and local bakery traditions"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Norwegian regional folk costume (bunad) from Vestland, worn at festivals, weddings and Constitution Day (17 May)"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard Norwegian office hours; Bergen is a major maritime/services centre."
+  notes: "Bergen is the region's largest city and a major cruise, offshore and research hub. Tourism drives much seasonal activity (summer fjord season); the city does not broadly shut down in the way some European capitals do, but July sees reduced staffing in line with Norwegian summer-holiday norms."

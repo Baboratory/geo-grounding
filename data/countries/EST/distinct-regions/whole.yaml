@@ -1,0 +1,143 @@
+code: WHOLE
+name:
+  eng: Estonia
+  local:
+    - languageCode: est
+      value: Eesti
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Estonia is classified
+# unitary-small (single synthetic region, like LTU/LVA).
+climates:
+  - koppenCode: Dfb
+    description: Humid continental/hemiboreal interior with cold winters and mild-to-warm summers.
+  - koppenCode: Cfb
+    description: Oceanic influence along the coast and on the islands, with milder winters and cooler summers.
+landmarks:
+  - name: Tallinn Old Town
+    description: Notably intact medieval Hanseatic city, with Gothic spires, city walls and town-hall square.
+    unescoWorldHeritage: true
+  - name: Struve Geodetic Arc (Tartu Observatory point)
+    description: One of the original 19th-century meridian-arc triangulation points; a multinational UNESCO site.
+    unescoWorldHeritage: true
+  - name: Lahemaa National Park
+    description: Estonia's largest national park on the north coast, with manor estates, bogs, forests and coastline.
+  - name: Saaremaa and Kuressaare Castle
+    description: Estonia's largest island, famous for the medieval Kuressaare bishop's castle and the Kaali meteorite crater.
+  - name: Tartu Old Town and University
+    description: Estonia's intellectual capital and a European Capital of Culture, home to the University of Tartu.
+culturalTraits:
+  - Deep tradition of song rooted in the 'Singing Revolution' — song festivals are a national institution
+  - "Strong nature reverence: forests, bogs and the four seasons are central to identity"
+  - World-leading digital society (e-Residency, digital IDs, e-voting)
+  - Value placed on peace, quiet, privacy and personal space
+prideOf:
+  - Restoring independence in 1991 and the peaceful Singing Revolution
+  - Being one of the world's most digitalised nations (e-government, e-Residency)
+  - Preserved nature, vast forests, bogs and 2,000+ islands
+  - The UNESCO-recognised Estonian song tradition
+animals:
+  popular:
+    - Brown bear
+    - Eurasian moose
+    - Eurasian lynx
+    - European wolf
+    - White stork
+  unique:
+    - Flying squirrel (Estonia is a key Baltic breeding area)
+    - Estonian hound and Estonian spitz (locally bred dog breeds)
+    - Estonian native horse
+industries:
+  - Information technology and software (startups, e-Residency)
+  - Fintech and financial technology
+  - Forestry and wood products
+  - Machinery and metalworking
+  - Electronics and electrical equipment
+  - Transport and transit logistics (Port of Tallinn)
+  - Tourism (Tallinn Old Town, islands, wellness)
+sports:
+  - Basketball
+  - Volleyball
+  - Football
+  - Cross-country skiing
+  - Biathlon
+  - Cycling
+religions:
+  - name: No religious affiliation
+    percent: 58.0
+    sourceId: est-census-2021-religion
+  - name: Eastern Orthodox Christianity
+    percent: 16.0
+    sourceId: est-census-2021-religion
+  - name: Lutheranism
+    percent: 8.0
+    sourceId: est-census-2021-religion
+  - name: Other religious affiliations (Islam, other Christian/non-Christian)
+    percent: 5.0
+    sourceId: est-census-2021-religion
+# A further ~13% did not wish to answer and are therefore not counted in the
+# denominational shares above (2021 census).
+entertainment:
+  - season: summer
+    items:
+      - Music festivals and open-air concerts (incl. Õllesummer, Viljandi Folk Music Festival)
+      - "Summer-cottage life: swimming in lakes and the Baltic"
+      - Berry and mushroom picking in forests
+      - Cycling and long walks on nature trails
+  - season: winter
+    items:
+      - Cross-country skiing and winter sauna
+      - Ice-fishing and walks on frozen lakes/sea
+      - Christmas markets and winter city breaks (esp. Tallinn)
+      - Winter swimming in ice holes
+  - season: allYear
+    items:
+      - Sauna (a central part of Estonian culture year-round)
+      - Café culture and museum visits (KUMU, Estonian National Museum)
+traditionalDishes:
+  - season: summer
+    items:
+      - New potatoes with sour cream and dill
+      - Fresh pickled and smoked Baltic herring
+      - Summer soups and salads with local berries
+  - season: winter
+    items:
+      - Verivorst (blood sausage/black pudding, a Christmas staple)
+      - Sauerkraut and pork dishes
+      - Gingerbread (piparkoogid)
+      - Smoked and salted fish
+  - season: allYear
+    items:
+      - Rukkileib (rye bread) — a national staple
+      - Kama (roasted-grain flour mixture eaten with buttermilk)
+      - Mulgipuder (potato-barley porridge with pork)
+      - Baltic sprats and herring dishes
+      - Kohuke (chocolate-covered curd dessert)
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Regional folk costumes: white linen shirts, woven striped woollen skirts (women), dark wool jackets (men)"
+      - Silver brooches (hõbenõelad) and distinctive jewellery
+      - Knitted mittens and stockings with geometric patterns, traditionally given as gifts
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard full-time office hours are typically around 9:00am-5:00pm, Monday-Friday, with a lunch break around 12:00-1:00pm."
+  notes: "Punctuality is strictly observed. Weekend (Saturday-Sunday) is the rest period; most businesses close on Midsummer (Jaaniõhtu, late June) and across national holidays. Estonian retail is notably digital-first — card and mobile payment dominate."
+sources:
+  - id: est-census-2021-religion
+    name: "Population census: the proportion of people with a religious affiliation remains stable, Orthodox Christianity is still the most widespread"
+    publisher: "Statistics Estonia"
+    url: "https://www.stat.ee/en/news/population-census-proportion-people-religious-affiliation-remains-stable-orthodox-christianity-still-most-widespread"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "Religious-affiliation shares from the 2021 census (people aged 15+): no affiliation 58%, Eastern Orthodox 16%, Lutheran 8%, other religious affiliations 5%; the remaining share (~13%) declined to answer."

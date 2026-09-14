@@ -1,0 +1,166 @@
+alpha3: NOR
+alpha2: "NO"
+name:
+  eng: Norway
+  local:
+    - languageCode: nob
+      value: Norge
+    - languageCode: nno
+      value: Noreg
+flagEmoji: "🇳🇴"
+capital: Oslo
+isSovereign: true
+# Classified unitary-large: Norway meets two of the three criteria — it has
+# officially recognized indigenous languages (Sami, with official status in the
+# Sami administrative area) and a widely recognized cultural-historical regional
+# identity across its 15 counties (fylker). So real ISO 3166-2 county files are
+# curated (a subset) alongside WHOLE. Note the 15-county set in effect since
+# 1 January 2024 (after the 2020 mergers and 2024 splits); only current codes
+# are used.
+governanceType: unitary-large
+iso3166_2_prefix: "NO"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: nob
+    domain: official
+    speakersShare: 1.0
+    sourceId: nor-language-act
+  - languageCode: nno
+    domain: official
+    speakersShare: 1.0
+    sourceId: nor-language-act
+  - languageCode: nob
+    domain: locallySpoken
+    speakersShare: 0.91
+    sourceId: nor-ntnu-now
+  - languageCode: nno
+    domain: locallySpoken
+    speakersShare: 0.12
+    sourceId: nor-ntnu-now
+  - languageCode: sme
+    domain: locallySpoken
+    speakersShare: 0.004
+    sourceId: nor-ssb-sami
+# Both written standards (Bokmål nob, Nynorsk nno) are official and get 1.0
+# (legal status). Real usage is in the locallySpoken rows (Bokmål-based speech is
+# the de-facto majority; Nynorsk is dominant in ~16% of municipalities). Sami is
+# indigenously recognized with official status in the six Sami language-
+# administration municipalities. Norwegian is a spoken dialect continuum; there
+# is no one 'spoken standard' corresponding to the two written forms.
+ethnicGroups:
+  # Norway does NOT record ethnicity in national registries; SSB publishes
+  # immigrant-background data instead, used here as the official proxy.
+  - group: Native-born without immigrant background
+    percent: 79.2
+    sourceId: nor-ssb-imm
+  - group: Persons with immigrant background
+    percent: 20.8
+    sourceId: nor-ssb-imm
+  - group: Foreign-born (immigrants)
+    percent: 16.9
+    sourceId: nor-ssb-imm
+# The Sami are indigenous (~50,000-65,000 people, ~0.9-1.2%), but ethnicity
+# registration is prohibited by law, so there is no official count — the Sami
+# share is noted at the region level that matters most (Finnmark, Nordland)
+# rather than listed as a country-level ethnic row.
+timezones:
+  - name: Europe/Oslo
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (Central European Time, aligned with the EU summer-time regime through the EEA)."
+currency:
+  code: NOK
+  symbol: "kr"
+  name: Norwegian krone
+legalConstraints:
+  # Norway is NOT an EU member — it is in the European Economic Area (EEA). The
+  # EU legal acts below therefore apply ONLY insofar as they are incorporated
+  # into the EEA Agreement and transposed into Norwegian law, not as direct EU
+  # law. This is flagged rather than implying EU membership.
+  - topic: "EU/EEA legal status"
+    description: "Norway is a member of the European Economic Area (EEA) but NOT an EU member state. EU regulations and directives are not directly applicable; they are incorporated into the EEA Agreement and transposed into Norwegian law (typically by the Storting), with carve-outs for agriculture, fisheries, energy and natural resources."
+    sourceId: nor-eea
+  - topic: "data protection (GDPR via EEA)"
+    description: "The EU General Data Protection Regulation (GDPR) applies in Norway because it was incorporated into the EEA Agreement (adopted July 2018) and transposed into Norwegian law, enforced by the Norwegian data-protection authority (Datatilsynet). Anyone processing personal data of people in Norway must comply."
+    sourceId: nor-eea-gdpr
+  - topic: "consumer price display and withdrawal right"
+    description: "EU consumer-protection rules (VAT-inclusive price display and the 14-day distance-sale withdrawal right) apply in Norway via EEA incorporation and the Norwegian Consumer Purchases Act / Marketing Control Act. Prices shown to consumers must include all taxes and charges."
+    sourceId: nor-eea
+# paymentMethodShares omitted here (country level) because Norway's near-cashless
+# split is reported qualitatively by Norges Bank; the specific POS shares (cash
+# ~3%, cards ~59%, mobile ~37%) are most citable at the WHOLE/region level where
+# they are included with their source.
+paymentCulture:
+  popularMethods:
+    - "Visa/Mastercard debit and credit cards (contactless dominant; the BankAxept domestic network)"
+    - "Vipps — the Norwegian mobile-payment app (instant, used for person-to-person and merchant)"
+    - "Mobile/phone NFC wallets (Apple Pay, Google Pay)"
+    - "Bank transfers and e-invoices (eFaktura) for bills"
+    - "Cash (legal tender but a tiny minority practice; many shops rarely give change)"
+  tipping:
+    expected: false
+    typicalAmount: "Optional rounding up, or leaving a few kroner, for excellent restaurant service"
+    autoIncludedInBill: false
+    note: "Not expected and generally not practised; service is included. Rounding up for good restaurant service is optional and appreciated, but there is no tipping culture and no obligation to tip taxis or hotels."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "First-name basis is the norm in nearly all professional and social settings, including with senior colleagues; Norwegian egalitarianism means titles are rarely used. Direct, plain, factual speech is valued."
+  greetingNorms: "'Hei'/'Hallo' are the standard greetings; a handshake with eye contact is the norm on a first business introduction. Address people by first name immediately. 'God dag' is polite-formal."
+  meetingEtiquette: "Meetings start on time (punctuality is a strong norm); agendas are followed fairly loosely, everyone is expected to contribute candidly, and decisions are consensus-oriented after open discussion. Rank is downplayed — the junior person may speak first. Silence/thinking before answering is normal."
+  topicsToAvoid:
+    - "Boastful personal wealth and loud self-promotion"
+    - "Exact income and personal finances"
+    - "Loud confrontation or aggressive sales pressure"
+    - "Patronising attitudes toward the north or the Sami"
+  giftGivingNotes: "Understated. A modest gift (wine, flowers, chocolate, or something from your home region) when invited to someone's home is appreciated but not obligatory; recipients open gifts immediately. Business gifts are uncommon and should stay small and neutral — over-gifting feels embarrassing."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: NO-56
+    file: distinct-regions/no-56.yaml
+    adminUnitCodes: [NO-56]
+  - code: NO-46
+    file: distinct-regions/no-46.yaml
+    adminUnitCodes: [NO-46]
+  - code: NO-18
+    file: distinct-regions/no-18.yaml
+    adminUnitCodes: [NO-18]
+sources:
+  - id: nor-language-act
+    name: "Act relating to Language (Language Act, språklova), LOV-2021-05-21-42"
+    publisher: "Lovdata (unofficial English translation of the Norwegian Act)"
+    url: "https://lovdata.no/dokument/NLE/lov/2021-05-21-42"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Bokmål (nob) and Nynorsk (nno) being the two equal official written standards of Norwegian (sections 1 and 4), and for Sami being indigenously recognized with equal standing in the Sami administrative area (section 5)."
+  - id: nor-ntnu-now
+    name: "NTNU Norwegian on the Web (NoW) — The Norwegian Language"
+    publisher: "Norwegian University of Science and Technology (NTNU)"
+    url: "https://www.ntnu.edu/now/info/norwegian"
+    accessedDate: "2026-09-14"
+    note: "RELIABLE SECONDARY source (no official census records language/ethnicity): ~85-90% of Norwegians write Bokmål, ~10-15% (dominant in ~16% of municipalities) write Nynorsk. Used for the locallySpoken shares (Bokmål 0.91 working figure, Nynorsk 0.12)."
+  - id: nor-ssb-sami
+    name: "Statistics Norway — minority/immigrant background statistics; NTNU NoW Sami figure"
+    publisher: "Statistics Norway (SSB), with secondary corroboration"
+    url: "https://www.ssb.no/en/befolkning/innvandrere"
+    accessedDate: "2026-09-14"
+    note: "The ~20,000 people (~0.4%) with Sami as their mother tongue. Ethnicity is prohibited from registration in Norwegian registries, so no official count exists; the figure is an estimate."
+  - id: nor-ssb-imm
+    name: "Immigrants and Norwegian-born to immigrant parents"
+    publisher: "Statistics Norway (SSB)"
+    url: "https://www.ssb.no/en/befolkning/innvandrere/statistikk/innvandrere-og-norskfodte-med-innvandrerforeldre"
+    accessedDate: "2026-09-14"
+    note: "Population composition at 1 January 2024, used as the ethnicity proxy (Norway records no ethnicity): native-born without immigrant background ~79.2%, persons with immigrant background ~20.8%, foreign-born immigrants ~16.9%."
+  - id: nor-eea
+    name: "EFTA — the EEA Agreement (Norway's legal relationship to the EU)"
+    publisher: "European Free Trade Association (EFTA)"
+    url: "https://www.efta.int/"
+    accessedDate: "2026-09-14"
+    note: "The basis for the EU/EEA legal-status constraint: Norway is EEA-not-EU, and EU legal acts apply only through EEA incorporation and transposition."
+  - id: nor-eea-gdpr
+    name: "EFTA — The General Data Protection Regulation incorporated into the EEA Agreement"
+    publisher: "European Free Trade Association (EFTA)"
+    url: "https://www.efta.int/media-resources/news/general-data-protection-regulation-incorporated-eea-agreement"
+    accessedDate: "2026-09-14"
+    note: "The basis for the GDPR applying in Norway via the EEA Agreement (adopted 6 July 2018)."

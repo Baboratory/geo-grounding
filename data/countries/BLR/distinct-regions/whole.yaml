@@ -1,0 +1,146 @@
+code: WHOLE
+name:
+  eng: Belarus
+  local:
+    - languageCode: bel
+      value: Беларусь (Bielaruś)
+    - languageCode: rus
+      value: Беларусь (Belarus')
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Belarus is classified
+# unitary-small (single synthetic region).
+climates:
+  - koppenCode: Dfb
+    description: Humid continental climate with cold, snowy winters and warm summers, frequently cloudy with moderate year-round precipitation.
+landmarks:
+  - name: Mir Castle Complex
+    description: Gothic-Renaissance fortified castle near Mir, a prime example of Belarusian aristocratic architecture.
+    unescoWorldHeritage: true
+  - name: Nesvizh Castle (Architectural, Residential and Cultural Complex of the Radziwills)
+    description: 16th-century Radziwill palace-residence with surrounding park.
+    unescoWorldHeritage: true
+  - name: Belovezhskaya Pushcha / Białowieża Forest
+    description: Primeval European forest shared with Poland; home of the European bison (zubr).
+    unescoWorldHeritage: true
+  - name: Brest Fortress (Hero Fortress)
+    description: Major memorial of the defence of the Soviet western border in 1941.
+culturalTraits:
+  - Borderland heritage shaped by Slavic, Baltic, Polish and Lithuanian influences
+  - "Deep folk craft tradition: weaving, embroidered linen, woodcarving, folk singing and dance"
+  - Warm hospitality paired with a stoic, understated manner
+  - Orthodox and Catholic traditions meeting along a west-east cultural gradient
+prideOf:
+  - National resilience and survival through wars (WWII cost roughly a quarter of the population)
+  - Literature and iconic figures (poet Yanka Kupala; Nobel laureate Svetlana Alexievich)
+  - The natural heritage of Belovezhskaya Pushcha and the European bison
+  - Castles and historic towns (Mir, Nesvizh)
+animals:
+  popular:
+    - European bison (zubr)
+    - Elk
+    - Red deer
+    - Wild boar
+    - Brown bear
+    - Wolf
+    - Black stork
+  # The European bison is the national symbol of Belarus, central to its
+  # natural identity; the 'unique' slot reserved for it as a distinctive species.
+  unique:
+    - European bison (the national symbol; Belarus holds a significant share of the world population)
+industries:
+  - Machinery and tractors (MAZ, MTZ/Belarus)
+  - Potash and fertilizers (Belaruskali)
+  - Oil refining and petrochemicals
+  - Food processing and dairy
+  - IT/software development (the Hi-Tech Park near Minsk)
+  - Timber and textiles
+sports:
+  - Ice hockey (the national passion; Dynamo Minsk plays in the KHL)
+  - Football
+  - Biathlon and other winter sports
+  - Weightlifting and athletics
+  - Rhythmic gymnastics and wrestling
+religions:
+  # Belarus does NOT collect religion in its census. These percentages come from
+  # the most recent (2016) state survey, as relayed by the U.S. State Department's
+  # 2020 International Religious Freedom report. No officially published national
+  # breakdown exists; treat them as indicative, and see the source note.
+  - name: Belarusian Orthodox Church (Eastern Orthodox)
+    percent: 53.0
+    sourceId: us-state-irf-2020
+  - name: Roman Catholic Church
+    percent: 6.0
+    sourceId: us-state-irf-2020
+  - name: Atheist / no religion
+    percent: 8.0
+    sourceId: us-state-irf-2020
+  - name: Uncertain / no answer
+    percent: 22.0
+    sourceId: us-state-irf-2020
+# The remaining ~11% accounts for other religious groups (Jews, Muslims,
+# Protestants, Greek Catholics, Old Believers) plus survey response gaps.
+entertainment:
+  - season: summer
+    items:
+      - Open-air and folk-song festivals
+      - Lakeside beaches and water sports (Belarus is often called 'the land of lakes')
+      - Hiking and cycling trails
+      - Dazhynki harvest festival
+  - season: winter
+    items:
+      - Ice hockey matches
+      - Cross-country skiing and skiing near Minsk (Raubichi, Silichi)
+      - Banya (sauna) culture
+  - season: allYear
+    items:
+      - Museums of Minsk, Grodno, Vitebsk and Brest
+      - National Opera and Ballet
+      - Theatres, spas and sanatoriums
+      - Gastronomic tourism
+traditionalDishes:
+  - season: summer
+    items:
+      - Khaladnik (cold beetroot soup)
+      - Fresh vegetables, mushrooms, berries and fruit
+      - River-fish dishes
+  - season: winter
+    items:
+      - Draniki (potato pancakes)
+      - Babka (baked potato casserole)
+      - Machanka (pork gravy with pancakes)
+      - Kolduny (stuffed potato dumplings)
+  - season: allYear
+    items:
+      - Potato-based staples (draniki, babka) — the potato is central to the table ('Bulba')
+      - Thick rye bread
+      - Sausages and kielbasa
+      - Kvass and compote
+traditionalClothing:
+  - season: allYear
+    items:
+      - Linen and hemp costumes with characteristic white-on-red geometric embroidery
+      - Woven belts (pojas) and embroidered shirts
+      - Women's long embroidered skirts, aprons and headscarves
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard office hours are typically around 9:00am-6:00pm, Monday-Friday, with a mid-day break (often ~1:00-2:00pm)."
+  notes: "Saturday-Sunday is the weekend. Business Russian is the working language; contracts are usually in Russian with Belarusian law governing. Belarus is on UTC+3 year-round (no DST), so scheduling calls with Western Europe requires care in winter (a 1-2 hour gap)."
+sources:
+  - id: us-state-irf-2020
+    name: "Belarus 2020 International Religious Freedom Report"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/wp-content/uploads/2021/05/240282-BELARUS-2020-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
+    year: 2020
+    accessedDate: "2026-09-14"
+    note: "Religious-affiliation shares per the 2016 state survey by the Information and Analytical Center of the Presidential Administration, relayed by the State Department: Belarusian Orthodox ~53%, Roman Catholic ~6%, atheist ~8%, uncertain ~22%, plus smaller religious groups. The Belarusian census collects no religion data; figures are the only officially-cited national breakdown and are indicative only."
