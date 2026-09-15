@@ -1,0 +1,153 @@
+alpha3: MDA
+alpha2: MD
+name:
+  eng: Moldova
+  local:
+    - languageCode: ron
+      value: Republica Moldova
+flagEmoji: "🇲🇩"
+capital: Chisinau
+isSovereign: true
+# Classified unitary-small: a small unitary state (~2.4M, 2024 census) with a
+# single official language (Romanian) and one national market/territory, no
+# regional governance fragmentation — a single synthetic WHOLE region. NOTE on
+# data scope: the breakaway Transnistrian region (PMR) lies outside effective
+# government control since the 1992 war; Moldovan census/payment/economic
+# statistics cover the Chisinau-controlled territory only (as does this file).
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: ron
+    domain: official
+    speakersShare: 1.0
+    sourceId: mda-constitution
+  - languageCode: ron
+    domain: locallySpoken
+    speakersShare: 0.786
+    sourceId: mda-census-2014
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.145
+    sourceId: mda-census-2014
+  - languageCode: ukr
+    domain: locallySpoken
+    speakersShare: 0.027
+    sourceId: mda-census-2014
+  - languageCode: gag
+    domain: locallySpoken
+    speakersShare: 0.027
+    sourceId: mda-census-2014
+  - languageCode: bul
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: mda-census-2014
+# Romanian is the sole official language (renamed from 'Moldovan' by Law 52/2023;
+# linguistically identical). Russian is a lingua franca for minorities and widely
+# spoken; Gagauz is official in the autonomous Gagauzia region. English is a
+# growing foreign language but no census figure exists — deliberately not given
+# a numeric share.
+ethnicGroups:
+  - group: Moldovans
+    percent: 75.1
+    sourceId: mda-census-2014
+  - group: Romanians
+    percent: 7.0
+    sourceId: mda-census-2014
+  - group: Ukrainians
+    percent: 6.6
+    sourceId: mda-census-2014
+  - group: Gagauz
+    percent: 4.6
+    sourceId: mda-census-2014
+  - group: Russians
+    percent: 4.1
+    sourceId: mda-census-2014
+  - group: Bulgarians
+    percent: 1.9
+    sourceId: mda-census-2014
+  - group: Roma
+    percent: 0.3
+    sourceId: mda-census-2014
+timezones:
+  - name: Europe/Chisinau
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Last Sunday in March to last Sunday in October (EET/EEST)."
+currency:
+  code: MDL
+  symbol: "L"
+  name: Moldovan leu
+legalConstraints:
+  - topic: "EU membership status"
+    description: "Moldova is an EU candidate country (candidate status 23 June 2022; accession negotiations opened December 2023), NOT a member. EU directives do not apply directly, though Moldova is progressively aligning national law with the EU acquis."
+    sourceId: mda-eu-status
+  - topic: "official language"
+    description: "Romanian is the state language (Constitution Article 13; 'Moldovan' formally replaced by 'Romanian' by Law 52/2023). The 2020 Law on the Functioning of Languages guarantees minority-language rights, including Russian; Gagauz is official in the autonomous Gagauzia region."
+    sourceId: mda-constitution
+  - topic: "currency"
+    description: "The Moldovan leu (MDL) is the sole legal tender; prices are displayed in lei."
+    sourceId: mda-nbm
+paymentMethodShares:
+  - method: "card payments (share of total transaction value)"
+    percent: 50.3
+    sourceId: mda-nbm-payments
+  - method: "cash withdrawals from cards (share of transaction value)"
+    percent: 41.7
+    sourceId: mda-nbm-payments
+paymentCulture:
+  popularMethods:
+    - "Bank cards and mobile/contactless payments (mainstream in cities, for wages, utilities, transport)"
+    - Cash (still common for daily spending, street markets, tips, and older/rural consumers)
+    - Instant P2P transfers via phone number (MIA), cheap/free and widely used
+    - E-commerce (growing fast, much via foreign platforms)
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up, or ~5-10%, in restaurants for good service"
+    autoIncludedInBill: false
+    note: "Cash is common for tips; a modest tip for good restaurant service is appreciated but not obligatory."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Direct but warm and hospitable; Romanians and Moldovans value personal rapport before business. Formality in writing and official settings; punctuality for business, more relaxed socially."
+  greetingNorms: "Handshakes are common; address people by first name after a first meeting. A modest amount of small talk (family, home, wine, food) builds trust."
+  meetingEtiquette: "Relationship-driven; deal-making can move slowly, with trust built over meals and wine. Expect handshakes, business cards and hospitality."
+  topicsToAvoid:
+    - "Domestic politics around EU/Russia orientation and Transnistria, until trust is established"
+    - "Ethnic and linguistic sensitivities (Moldovan vs Romanian identity)"
+  giftGivingNotes: "A modest gift (wine — proudly Moldovan, or chocolates/flowers) is appreciated when visiting a home; not obligatory in business."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: mda-constitution
+    name: "Constitution of the Republic of Moldova, Article 13 (state language) and Law No. 52/2023"
+    publisher: "Constitutional Court of the Republic of Moldova / Parliament"
+    url: "https://constcourt.md/public/files/file/Baza%20legala/Constitutia_RM_EN.pdf"
+    accessedDate: "2026-09-14"
+    note: "Legal basis: Romanian is the official/state language (Article 13); Law 52/2023 replaced the term 'Moldovan' with 'Romanian' in the Constitution and legislation."
+  - id: mda-census-2014
+    name: "2014 Population and Housing Census — ethnicity, language, religion (National Bureau of Statistics of Moldova)"
+    publisher: "National Bureau of Statistics of Moldova (NBS)"
+    url: "https://statistica.gov.md/en/key-results-of-the-2014-population-and-housing-census-34_2854.html"
+    year: 2014
+    accessedDate: "2026-09-14"
+    note: "Ethnic shares: Moldovans 75.1%, Romanians 7.0%, Ukrainians 6.6%, Gagauz 4.6%, Russians 4.1%, Bulgarians 1.9%, Roma 0.3%. Language usually spoken: Romanian/Moldovan ~78.6% (locallySpoken 0.786), Russian 14.5%, Ukrainian 2.7%, Gagauz 2.7%, Bulgarian 1.0%. The 2024 census confirms ~2.4M population; Transnistria is not enumerated."
+  - id: mda-eu-status
+    name: "European Commission — Enlargement: Moldova (candidate status)"
+    publisher: "European Commission"
+    url: "https://enlargement.ec.europa.eu/countries/moldova_en"
+    accessedDate: "2026-09-14"
+    note: "Confirms candidate status (June 2022) and that Moldova is not an EU member, so EU directives do not apply directly."
+  - id: mda-nbm
+    name: "National Bank of Moldova (NBM) — monetary and payment statistics"
+    publisher: "National Bank of Moldova"
+    url: "https://www.bnm.md/en"
+    accessedDate: "2026-09-14"
+    note: "Background on the leu as legal tender and the payment market."
+  - id: mda-nbm-payments
+    name: "National Bank of Moldova payment statistics (2025), via Infomarket summary"
+    publisher: "National Bank of Moldova (via Infomarket reporting)"
+    url: "https://infomarket.md/en/news/cards-outnumbered-cash-in-terms-of-the-number-of-transactions-in-terms-of-total-amount-it-was-almost-a-tie"
+    accessedDate: "2026-09-14"
+    note: "By transaction value (2025): card payments 50.3% of total transaction value, cash withdrawals from cards 41.7%; by number of card transactions, ~90.9% of card usage was non-cash."

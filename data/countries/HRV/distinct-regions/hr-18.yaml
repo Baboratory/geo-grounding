@@ -1,0 +1,57 @@
+code: HR-18
+name:
+  eng: Istria
+  local:
+    - languageCode: hrv
+      value: Istarska županija
+    # Italian is co-official in Istria, so the region-level local name carries
+    # both Croatian and Italian (region-local rule).
+    - languageCode: ita
+      value: Regione istriana
+climates:
+  - koppenCode: Csa
+    description: "Mediterranean coastal climate with hot dry summers and mild rainy winters; inland Istria is somewhat cooler and hillier."
+landmarks:
+  - name: Euphrasian Basilica (Poreč)
+    description: "UNESCO-listed Byzantine-era basilica complex."
+    unescoWorldHeritage: true
+  - name: Roman Arena of Pula
+    description: "One of the best-preserved Roman amphitheatres in the world."
+  - name: Rovinj Old Town
+    description: "Picturesque Venetian-influenced hilltop town."
+  - name: Brijuni islands
+    description: "Archipelago national park off the coast."
+culturalTraits:
+  - "Historic Italian/Croatian bilingual heritage — Italian is co-official"
+  - "Truffle and olive-oil culture; slower, relaxed pace"
+  - "Strong gastronomic pride"
+prideOf:
+  - "Istrian olive oil and truffles"
+  - "Roman heritage (the Pula Arena)"
+  - "Being the most bilingual, Italian-influenced region"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Grilled fish and fresh seafood"
+      - "Istrian prosciutto (pršut) and asparagus"
+  - season: winter
+    items:
+      - "Boškarin beef stew"
+      - "Truffle pasta (fuži with truffles)"
+  - season: allYear
+    items:
+      - "Olive oil, fuži pasta with truffles, vlastelinski stew"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Typically 8:00am-4:00pm; the long summer tourism season dominates activity."
+  notes: "Summer (July-August) is dominated by tourism; many businesses close mid-to-early-afternoon and are heavily oriented to the coastal season."

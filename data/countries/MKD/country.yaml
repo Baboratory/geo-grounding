@@ -1,0 +1,159 @@
+alpha3: MKD
+alpha2: MK
+name:
+  eng: North Macedonia
+  local:
+    - languageCode: mkd
+      value: Северна Македонија (Severna Makedonija)
+    - languageCode: sqi
+      value: Maqedonia e Veriut
+flagEmoji: "🇲🇰"
+capital: Skopje
+isSovereign: true
+# Classified unitary-small: of the three unitary-large criteria, only one is
+# clearly met (recognized minority languages). Population ~1.84M is small/at
+# threshold and regional identity is weak-to-moderate, so it does not cross the
+# unitary-large threshold — a single synthetic WHOLE region, with the significant
+# ethnic/linguistic heterogeneity (Albanian co-official; Albanian-majority west)
+# handled at the population level rather than by administrative regions.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: mkd
+    domain: official
+    speakersShare: 1.0
+    sourceId: mkd-constitution
+  - languageCode: sqi
+    domain: official
+    speakersShare: 1.0
+    sourceId: mkd-language-law-2019
+  - languageCode: mkd
+    domain: locallySpoken
+    speakersShare: 0.614
+    sourceId: mkd-census-2021
+  - languageCode: sqi
+    domain: locallySpoken
+    speakersShare: 0.243
+    sourceId: mkd-census-2021
+  - languageCode: tur
+    domain: locallySpoken
+    speakersShare: 0.034
+    sourceId: mkd-census-2021
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.3
+    sourceId: mkd-eng-est
+# Macedonian (Cyrillic) and Albanian are both official — Albanian nationwide since
+# the 2019 Law on the Use of Languages (both get 1.0). Turkish, Romani, Serbian,
+# Bosnian and Aromanian are recognized minority languages; Turkish (~3.4%) is the
+# largest, captured as locallySpoken.
+ethnicGroups:
+  - group: Macedonians
+    percent: 58.44
+    sourceId: mkd-census-2021
+  - group: Albanians
+    percent: 24.30
+    sourceId: mkd-census-2021
+  - group: Turks
+    percent: 3.86
+    sourceId: mkd-census-2021
+  - group: Roma
+    percent: 2.53
+    sourceId: mkd-census-2021
+  - group: Serbs
+    percent: 1.30
+    sourceId: mkd-census-2021
+  - group: Bosniaks
+    percent: 0.87
+    sourceId: mkd-census-2021
+  - group: Aromanians/Vlachs
+    percent: 0.47
+    sourceId: mkd-census-2021
+timezones:
+  - name: Europe/Skopje
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (CET/CEST)."
+currency:
+  code: MKD
+  symbol: "ден"
+  name: Macedonian denar
+legalConstraints:
+  - topic: "EU membership status"
+    description: "North Macedonia is an EU candidate country (since 2005; accession negotiations opened July 2022), NOT a member. EU directives do not apply directly; national law governs."
+    sourceId: mkd-eu-council
+  - topic: "official languages"
+    description: "Macedonian is the first official language (Constitution Article 7); Albanian has been co-official nationwide since the 2019 Law on the Use of Languages (under the Ohrid Framework Agreement of 2001). Turkish, Romani, Serbian, Bosnian and Aromanian are recognized minority languages."
+    sourceId: mkd-language-law-2019
+  - topic: "currency"
+    description: "The Macedonian denar (MKD) is the sole legal tender; the euro is not legal tender (the denar is pegged to the euro de facto, and euro is widely accepted in cash in some localities)."
+    sourceId: mkd-nbrm
+paymentCulture:
+  popularMethods:
+    - Cash (still expected and widely used, esp. at markets, kiosks, cafes and smaller merchants)
+    - Cards (accepted at most larger shops, supermarkets, hotels, restaurants)
+    - Mobile banking and instant payment apps (growing fast, esp. in Skopje)
+    - Contactless and e-commerce
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up, or ~10%, in restaurants when there is no service charge"
+    autoIncludedInBill: false
+    note: "Tipping is appreciated but not obligatory; ~10% in restaurants where no service charge is added. An ID card is commonly requested for larger card/bank transactions."
+# paymentMethodShares omitted: no single official cash-vs-card percentage split
+# is published by the National Bank, so the field is deliberately left out
+# rather than guessed (the cash-strong-but-digitalizing picture is captured in
+# paymentCulture).
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Business values personal trust, politeness and a degree of formality in first encounters (titles and surnames until invited to first names)."
+  greetingNorms: "Handshakes are the standard greeting. English is the practical business language; some German and French among older cohorts."
+  meetingEtiquette: "Relationship-driven; people often mix personal talk with business before specifics. Direct but tactful — an indirect 'no' is common to avoid confrontation. Conversations can become animated."
+  topicsToAvoid:
+    - "Ethnic and religious-sensitive topics between communities"
+    - "The name dispute history (Greece/Prespa) and its sensitivities"
+    - "Overly critical political commentary in first meetings"
+  giftGivingNotes: "A small thoughtful gift when visiting a home is appreciated (quality wine, a local specialty); not obligatory in business."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: mkd-constitution
+    name: "Constitution of the Republic of North Macedonia, Article 7 (official language)"
+    publisher: "Republic of North Macedonia (via secondary legal reference)"
+    url: "https://en.wikipedia.org/wiki/Constitution_of_North_Macedonia"
+    accessedDate: "2026-09-14"
+    note: "Establishes Macedonian (in Cyrillic) as the official language throughout the country."
+  - id: mkd-language-law-2019
+    name: "Law on the Use of Languages (2019) and the Ohrid Framework Agreement (2001)"
+    publisher: "Republic of North Macedonia"
+    url: "https://en.wikipedia.org/wiki/Languages_of_North_Macedonia"
+    year: 2019
+    accessedDate: "2026-09-14"
+    note: "Made Albanian a second official language nationwide (previously co-official only where Albanian speakers formed >=20% of a municipality under the 2008 law); basis for the sqi official-domain row and minority-language rights."
+  - id: mkd-census-2021
+    name: "Census 2021 (State Statistical Office) — population, ethnic composition, language used in household"
+    publisher: "State Statistical Office of the Republic of North Macedonia"
+    url: "https://www.stat.gov.mk/PrikaziSoopstenie_en.aspx?rbrtxt=146"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "Population 1,836,713. Ethnic shares (Macedonians 58.44%, Albanians 24.30%, Turks 3.86%, Roma 2.53%, Serbs 1.30%, Bosniaks 0.87%, Vlachs 0.47%); language spoken in household (Macedonian 61.4%, Albanian 24.3%, Turkish 3.4%). Religious shares per the 2021 census (see WHOLE file)."
+  - id: mkd-eng-est
+    name: "English proficiency in North Macedonia (widely reported; no official census figure)"
+    publisher: "Composite estimate"
+    url: "https://www.stat.gov.mk/"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: English is the most widely studied/practical foreign language, especially among the young and in business; ~30% is an approximation as no official figure exists."
+  - id: mkd-eu-council
+    name: "European Commission — Enlargement: North Macedonia (candidate status)"
+    publisher: "European Commission"
+    url: "https://enlargement.ec.europa.eu/countries/north-macedonia_en"
+    accessedDate: "2026-09-14"
+    note: "Confirms candidate status (2005) and that North Macedonia is not an EU member, so EU directives do not apply directly."
+  - id: mkd-nbrm
+    name: "National Bank of the Republic of North Macedonia (NBRM) — payments"
+    publisher: "National Bank of the Republic of North Macedonia"
+    url: "https://www.nbrm.mk/platiezhna_statistika-en.nspx"
+    accessedDate: "2026-09-14"
+    note: "Background on the cash-strong-but-digitalizing payment market and the denar as legal tender; no single official cash-vs-card percentage split is published, so paymentMethodShares are omitted."

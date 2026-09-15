@@ -1,0 +1,182 @@
+alpha3: ALB
+alpha2: AL
+name:
+  eng: Albania
+  local:
+    - languageCode: sqi
+      value: Shqipëria
+flagEmoji: "🇦🇱"
+capital: Tirana
+isSovereign: true
+# Classified unitary-large: population ~2.4M fails the population criterion, but
+# Albania meets two of the three — officially recognized regional/minority
+# languages (Greek, Macedonian, Aromanian, Romani protected by law; Greek in the
+# south) and a widely recognized cultural-historical regional identity (Gheg/Tosk
+# north-south divide, the Albanian Riviera). So it gets real ISO 3166-2 county
+# region files (a curated subset) alongside WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: AL
+hasSubdivisions: true
+languageUsage:
+  - languageCode: sqi
+    domain: official
+    speakersShare: 1.0
+    sourceId: alb-constitution-art14
+  - languageCode: sqi
+    domain: locallySpoken
+    speakersShare: 0.91
+    sourceId: alb-census-2023
+  - languageCode: ell
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: alb-census-2023
+  - languageCode: mkd
+    domain: locallySpoken
+    speakersShare: 0.004
+    sourceId: alb-census-2023
+  - languageCode: ita
+    domain: foreign
+    speakersShare: 0.4
+    sourceId: alb-foreign-est
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.3
+    sourceId: alb-foreign-est
+ethnicGroups:
+  - group: Albanians
+    percent: 91.0
+    sourceId: alb-census-2023
+  - group: Greeks
+    percent: 0.98
+    sourceId: alb-census-2023
+  - group: Other recognized minorities (Macedonian, Aromanian, Romani, Egyptian)
+    percent: 1.5
+    sourceId: alb-census-2023
+  - group: Not declared / refused
+    percent: 6.5
+    sourceId: alb-census-2023
+timezones:
+  - name: Europe/Tirane
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (CET/CEST, aligned with the EU switch dates)."
+currency:
+  code: ALL
+  symbol: "L"
+  name: Albanian lek
+legalConstraints:
+  - topic: "EU membership status"
+    description: "Albania is an EU candidate country (since 2014), NOT a member. EU directives and regulations do not apply directly; national law governs. Accession negotiations on the fundamentals cluster opened in October 2024."
+    sourceId: alb-council-eu
+  - topic: "official language"
+    description: "Albanian is the sole official language (Constitution Article 14)."
+    sourceId: alb-constitution-art14
+  - topic: "price display in lek"
+    description: "Prices are legally displayed in Albanian lek (ALL), the sole legal tender. EU VAT-inclusive price-display rules do not apply to Albania as a non-member."
+    sourceId: alb-consumer-law
+  - topic: "consumer protection (national law)"
+    description: "Consumer protection is governed by national legislation (Law No. 9902/2008 on Consumer Protection), not the EU consumer directives, which do not apply to non-members."
+    sourceId: alb-consumer-law
+  - topic: "data protection (national law)"
+    description: "Personal data is protected under national law (Law No. 9887/2008), aligned with Council of Europe Convention 108 — not the EU GDPR, which does not apply directly."
+    sourceId: alb-data-law
+  - topic: "minority language rights"
+    description: "Law No. 96/2017 on the Protection of National Minorities guarantees Greek, Macedonian, Aromanian and other recognized minorities the right to use their languages where they live."
+    sourceId: alb-minority-law
+paymentMethodShares:
+  - method: "cash (point-of-sale)"
+    percent: 80.0
+    sourceId: alb-bank-cash-estimate
+  - method: "payment cards (point-of-sale)"
+    percent: 15.0
+    sourceId: alb-bank-cash-estimate
+  - method: "other electronic / mobile / online"
+    percent: 5.0
+    sourceId: alb-bank-cash-estimate
+paymentCulture:
+  popularMethods:
+    - Cash (lek) — the default for everyday purchases, dominant overall
+    - Cards (debit/credit, increasingly contactless) and mobile payments, growing fast in Tirana and tourist areas
+    - Bank transfers and instant mobile payments for larger sums and bills
+    - ATM withdrawal is common; many small rural shops remain cash-only
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up, or ~5-10%, for good service in restaurants, cafes and taxis"
+    autoIncludedInBill: false
+    note: "Tipping is not obligatory; a small cash tip for good service is appreciated, especially in tourist areas."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Business uses respectful address (Zoti/Zonja + surname, e.g. Zoti Gjoka); first names come as relationships warm. Titles (Prof., Dr.) are used respectfully."
+  greetingNorms: "A firm handshake with direct eye contact. 'Mirëdita' (good day), 'Mirëmëngjes' (good morning), 'Mirëmbrëma' (good evening); 'Tung' (hi/bye) is informal. Hospitality is central — expect offers of coffee or raki."
+  meetingEtiquette: "Punctuality is appreciated though flexibility is common. Building personal trust and rapport matters as much as the agenda; meetings often start with coffee/small talk before business. Decisions frequently hinge on relationships."
+  topicsToAvoid:
+    - "Sensitive wartime/communist-era history"
+    - "Ethnic and religious tensions in the region"
+    - "Border disputes with neighbours (Greece, North Macedonia)"
+    - "Overly critical comments about national pride or the double-headed eagle"
+  giftGivingNotes: "A small gift (quality local wine, raki, or a modest item) is appreciated when invited to a home; flowers for a host are fine (odd-numbered). Business gifts are small and appropriate."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: AL-11
+    file: distinct-regions/al-11.yaml
+    adminUnitCodes: [AL-11]
+  - code: AL-12
+    file: distinct-regions/al-12.yaml
+    adminUnitCodes: [AL-12]
+  - code: AL-10
+    file: distinct-regions/al-10.yaml
+    adminUnitCodes: [AL-10]
+sources:
+  - id: alb-constitution-art14
+    name: "Constitution of the Republic of Albania, Article 14"
+    publisher: "Republic of Albania (WIPO Lex)"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/21586"
+    accessedDate: "2026-09-14"
+    note: "Article 14(1): 'The official language in the Republic of Albania is Albanian.' Sole legal basis for sqi as official language."
+  - id: alb-census-2023
+    name: "Albanian Population and Housing Census 2023 — first results (population, ethnicity, religion)"
+    publisher: "Institute of Statistics of Albania (INSTAT)"
+    url: "https://www.instat.gov.al/en/publications/books/2024/albanian-population-and-housing-census-2023/"
+    year: 2023
+    accessedDate: "2026-09-14"
+    note: "Population 2,402,113. Ethnic self-identification: Albanians ~91.0%, Greeks ~0.98%, other recognized minorities ~1.5%, not-declared ~6.5%. Religion asked for the first time (see WHOLE file). Albanian locallySpoken 0.91 (ethnic proxy); Greek ~1% locallySpoken."
+  - id: alb-minority-law
+    name: "Law No. 96/2017 on the Protection of National Minorities in the Republic of Albania"
+    publisher: "Committee for National Minorities, Republic of Albania"
+    url: "https://pakicatkombetare.al/en/ligje"
+    accessedDate: "2026-09-14"
+    note: "Recognizes Greek, Macedonian, Aromanian/Vlach, Romani and other minorities; supports the recognized-minority-language criterion and the locallySpoken rows for ell/mkd."
+  - id: alb-council-eu
+    name: "EU Council — Albania policy page (candidate status)"
+    publisher: "Council of the European Union (Consilium)"
+    url: "https://www.consilium.europa.eu/en/policies/albania/"
+    accessedDate: "2026-09-14"
+    note: "Confirms Albania is an EU candidate (since 2014), not a member, so EU directives do not apply."
+  - id: alb-consumer-law
+    name: "Law No. 9902 of 17 April 2008 on Consumer Protection"
+    publisher: "Republic of Albania (WIPO Lex)"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/46"
+    year: 2008
+    accessedDate: "2026-09-14"
+    note: "National consumer-protection law and the basis for the lek price-display constraint; EU consumer directives do not apply."
+  - id: alb-data-law
+    name: "Law No. 9887/2008 on the Protection of Personal Data"
+    publisher: "Republic of Albania / Council of Europe data-protection programme"
+    url: "https://www.coe.int/en/web/data-protection/albania"
+    year: 2008
+    accessedDate: "2026-09-14"
+    note: "National data-protection law aligned with Council of Europe Convention 108; the EU GDPR does not apply directly."
+  - id: alb-bank-cash-estimate
+    name: "Bank of Albania cash-transactions reporting (press coverage)"
+    publisher: "Bank of Albania (via Albanian Daily News / SCAN TV)"
+    url: "https://albaniandailynews.com/news/cash-continues-to-dominate-transactions-in-albania"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: Bank of Albania reports cash still dominates (~4 of 5 POS transactions by number). BoA publishes no clean official % split, so the 80/15/5 shares are a clearly-flagged composite estimate from its press reporting — not official figures."
+  - id: alb-foreign-est
+    name: "Foreign-language proficiency in Albania (English, Italian)"
+    publisher: "Composite estimate (no official census figure)"
+    url: "https://www.instat.gov.al/"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: Italian (~40%) and English (~30%) are the leading foreign languages among young people, tourism and business (Italian due to migration ties and TV exposure); no official percentage exists — disclosed as an estimate."

@@ -1,0 +1,150 @@
+alpha3: MNE
+alpha2: ME
+name:
+  eng: Montenegro
+  local:
+    - languageCode: cnr
+      value: Crna Gora
+flagEmoji: "🇲🇪"
+capital: Podgorica
+isSovereign: true
+# Classified unitary-small: a compact, unified state (~623,000 people, 2023
+# census) with a single tier of central government, 25 municipalities with
+# delegated local self-government (no federal structure), and one official
+# language. Single synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: cnr
+    domain: official
+    speakersShare: 1.0
+    sourceId: mne-constitution-art13
+  - languageCode: srp
+    domain: locallySpoken
+    speakersShare: 0.4318
+    sourceId: mne-census-2023
+  - languageCode: cnr
+    domain: locallySpoken
+    speakersShare: 0.3452
+    sourceId: mne-census-2023
+  - languageCode: bos
+    domain: locallySpoken
+    speakersShare: 0.0697
+    sourceId: mne-census-2023
+  - languageCode: sqi
+    domain: locallySpoken
+    speakersShare: 0.0525
+    sourceId: mne-census-2023
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.0236
+    sourceId: mne-census-2023
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.2
+    sourceId: mne-eng-est
+# Montenegrin is the sole official language; Serbian, Bosnian, Albanian and
+# Croatian are 'in official use' under the Constitution (Article 13) — captured
+# here as locallySpoken (only cnr is official, share 1.0). Serbian is actually
+# the most common mother tongue (43.2%). English figure is an estimate, flagged.
+ethnicGroups:
+  - group: Montenegrins
+    percent: 41.12
+    sourceId: mne-census-2023
+  - group: Serbs
+    percent: 32.93
+    sourceId: mne-census-2023
+  - group: Bosniaks
+    percent: 9.45
+    sourceId: mne-census-2023
+  - group: Albanians
+    percent: 4.97
+    sourceId: mne-census-2023
+  - group: Russians
+    percent: 2.06
+    sourceId: mne-census-2023
+  - group: Muslims (Slavic, by ethnicity)
+    percent: 1.63
+    sourceId: mne-census-2023
+timezones:
+  - name: Europe/Podgorica
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (CET/CEST)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "EU membership status"
+    description: "Montenegro is an EU candidate country, NOT a member. EU directives do not apply directly; national law governs."
+    sourceId: mne-eu-status
+  - topic: "unilateral euro use"
+    description: "Montenegro has used the euro unilaterally as its official means of payment since 1 January 2002 (under national legislation), but it is NOT an EU or formal euro-area member — it mints no euro coins and has no ECB seat."
+    sourceId: mne-cbcg-euro
+  - topic: "official language"
+    description: "The official language is Montenegrin; Cyrillic and Latin alphabets are equal. Serbian, Bosnian, Albanian and Croatian are also in official use (Constitution Article 13)."
+    sourceId: mne-constitution-art13
+# paymentMethodShares omitted: the Central Bank of Montenegro publishes no single
+# authoritative consumer payment method-share percentage (cash vs card vs other),
+# so the field is deliberately omitted rather than guessed (the picture is
+# captured in paymentCulture).
+paymentCulture:
+  popularMethods:
+    - Cash (very common at small merchants, markets, taxis and rural outlets)
+    - Cards and contactless (widely accepted on the tourist coast and in Podgorica hotels, restaurants, shops)
+    - Bank transfer (standard for salaries and bills)
+    - Mobile/instant payment apps (growing, incl. the new IPS instant system)
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up, or ~5-10%, at restaurants when no service charge is added"
+    autoIncludedInBill: false
+    note: "Tipping is appreciated but modest (~5-10% in restaurants). Carry cash for small transactions; foreign cards and ATMs dispensing euro work well for tourists."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Warm and hospitable but somewhat indirect initially; relationships and trust matter before business. Addressing by first name develops quickly."
+  greetingNorms: "Firm handshakes are the standard greeting; communication can be expressive and animated, with directness tempered by politeness and a sense of pride."
+  meetingEtiquette: "Punctuality is valued in formal business but social meetings are more relaxed. A degree of indirectness — strong sense of pride and honour; dress smartly for business."
+  topicsToAvoid:
+    - "Political topics around identity, the Church, and relations with Serbia"
+    - "The independence debate and sanctuary/citizenship politics"
+    - "Ethnic and religious tensions"
+  giftGivingNotes: "A small thoughtful gift when visiting a home is appreciated; not obligatory in business."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: mne-constitution-art13
+    name: "Constitution of Montenegro (2007), Article 13 (Language and alphabet)"
+    publisher: "Constituteproject Project / Official Gazette of Montenegro"
+    url: "https://www.constituteproject.org/constitution/Montenegro_2007"
+    year: 2007
+    accessedDate: "2026-09-14"
+    note: "'The official language in Montenegro shall be Montenegrin'; Cyrillic and Latin alphabets equal; Serbian, Bosnian, Albanian and Croatian in official use. Basis for cnr official=1.0 and the locallySpoken rows for the co-used languages."
+  - id: mne-census-2023
+    name: "Census of Population 2023 (MONSTAT) — ethnicity, religion, mother tongue and language usually spoken"
+    publisher: "Statistical Office of Montenegro (MONSTAT)"
+    url: "https://www.monstat.org/eng/novosti.php?id=4012"
+    year: 2023
+    accessedDate: "2026-09-14"
+    note: "Population 623,633. Ethnic shares: Montenegrins 41.12%, Serbs 32.93%, Bosniaks 9.45%, Albanians 4.97%, Russians 2.06%, Muslims 1.63%. Mother-tongue shares (locallySpoken): Serbian 43.18%, Montenegrin 34.52%, Bosnian 6.97%, Albanian 5.25%, Russian 2.36%. Religious shares (see WHOLE file)."
+  - id: mne-cbcg-euro
+    name: "Central Bank of Montenegro — Money in circulation (euro as official means of payment since 2002)"
+    publisher: "Central Bank of Montenegro (CBCG)"
+    url: "https://www.cbcg.me/en/currency/money-in-circulation"
+    accessedDate: "2026-09-14"
+    note: "Confirms Montenegro's unilateral euro use since 1 January 2002 (non-EU, non-formal-eurozone)."
+  - id: mne-eu-status
+    name: "European Commission — Montenegro enlargement status"
+    publisher: "European Commission"
+    url: "https://enlargement.ec.europa.eu/countries/montenegro_en"
+    accessedDate: "2026-09-14"
+    note: "Confirms Montenegro is an EU candidate, not a member, so EU directives do not apply directly."
+  - id: mne-eng-est
+    name: "English proficiency in Montenegro (widely reported; no official census figure)"
+    publisher: "Composite estimate"
+    url: "https://www.monstat.org/"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: English is the main foreign language, widely spoken in tourism and among younger people; ~20-30% approximation, no official figure exists."
