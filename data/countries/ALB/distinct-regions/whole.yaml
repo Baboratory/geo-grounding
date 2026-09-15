@@ -1,0 +1,161 @@
+code: WHOLE
+name:
+  eng: Albania
+  local:
+    - languageCode: sqi
+      value: Shqipëria
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO 3166-2
+# county isn't one of the curated files (AL-11/AL-12/AL-10), via the
+# 'whole-country-fallback' path.
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical along the coast and the Tirana plain: hot, humid summers and mild, wet winters."
+  - koppenCode: Cfb
+    description: "Oceanic/sub-Mediterranean in hilly and lower-mountain areas: mild summers, cool wet winters."
+  - koppenCode: Dfb
+    description: "Continental/alpine in the northern Albanian Alps and high mountains: cold, snowy winters and mild summers."
+landmarks:
+  - name: Butrint
+    description: "UNESCO-listed ancient city and archaeological park on a lagoon near the Greek border."
+    unescoWorldHeritage: true
+  - name: Historic Centres of Berat and Gjirokastra
+    description: "UNESCO-listed Ottoman-era towns — the 'city of a thousand windows' and a stone town."
+    unescoWorldHeritage: true
+  - name: Natural and Cultural Heritage of the Ohrid Region (Albanian part)
+    description: "UNESCO-listed transboundary site with North Macedonia around Lake Ohrid."
+    unescoWorldHeritage: true
+  - name: Primeval Beech Forests / Gashi River
+    description: "UNESCO-listed ancient beech forest reserve in northern Albania."
+    unescoWorldHeritage: true
+  - name: Albanian Riviera
+    description: "The southern Adriatic/Ionian coastline (Himara, Dhërmi, Ksamil) — turquoise water, coves and beaches."
+  - name: Valbona Valley and Theth (Albanian Alps)
+    description: "Dramatic 'Accursed Mountains' in the north — hiking, waterfalls and the Blue Eye spring."
+  - name: Krujë Castle & Skanderbeg Museum
+    description: "The fortress of national hero Skanderbeg."
+culturalTraits:
+  - "Besa — the 'word of honor'; keeping one's promise and protecting guests is a core value"
+  - "Mikpritja — exceptional hospitality toward guests, considered a sacred duty"
+  - "Religious tolerance and secular coexistence (Muslims, Orthodox, Catholics, Bektashi)"
+  - "The Gheg (north) vs Tosk (south) dialectal/cultural division with the old highland Kanun code"
+  - "Strong family ties and deep coffee culture"
+prideOf:
+  - "The red flag with the black double-headed eagle and the name 'Land of the Eagles'"
+  - "Resistance against the Ottomans under Skanderbeg (15th century)"
+  - "The ancient Illyrian heritage and independence in 1912"
+  - "Mother Teresa (of Albanian ethnicity) and the global Albanian diaspora"
+  - "Natural beauty — the Riviera, the Albanian Alps and Lake Ohrid"
+animals:
+  popular:
+    - Golden eagle (the national symbol)
+    - Balkan lynx (rare and endangered, in the northern mountains)
+    - Brown bear and grey wolf in the Alps
+    - Dalmatian pelican at Divjaka-Karavasta lagoon
+  unique:
+    - "The Balkan lynx (critically endangered, emblematic of the Albanian Alps)"
+    - "The Ohrid trout (Salmo letnica) — endemic to Lake Ohrid"
+industries:
+  - Tourism (Riviera, mountains, cultural heritage — rapidly growing)
+  - Hydropower and renewable energy
+  - Agriculture, olive oil and wine
+  - Mining (chrome, copper, nickel, bauxite) and hydrocarbons
+  - Construction and infrastructure
+  - BPO / IT services and outsourcing (growing)
+  - Textiles and garment manufacturing
+sports:
+  - Football (the most popular sport)
+  - Weightlifting and wrestling (traditional strength sports)
+  - Cycling and mountain trekking/hiking in the Alps
+  - Basketball, volleyball, boxing and martial arts
+  - Water sports and sailing along the Riviera
+religions:
+  - name: Sunni Islam
+    percent: 45.9
+    sourceId: alb-census-2023
+  - name: Bektashi Islam
+    percent: 4.81
+    sourceId: alb-census-2023
+  - name: Roman Catholic
+    percent: 8.38
+    sourceId: alb-census-2023
+  - name: Eastern Orthodox
+    percent: 7.22
+    sourceId: alb-census-2023
+  - name: Believer without denomination
+    percent: 13.8
+    sourceId: alb-census-2023
+  - name: Atheist / no religion
+    percent: 3.55
+    sourceId: alb-census-2023
+  - name: Evangelical
+    percent: 0.40
+    sourceId: alb-census-2023
+# Sunni + Bektashi = ~50.7% Muslim (narrow majority). The remaining ~15.8% is the
+# census 'undeclared/refused' share, not modelled as a religion row. Albania is a
+# secular state with strong interfaith coexistence; religious practice is
+# generally low even among identifiers.
+entertainment:
+  - season: summer
+    items:
+      - "Beach and Riviera tourism (Himara, Dhërmi, Ksamil, Saranda)"
+      - "Hiking and trekking in the Accursed Mountains / Valbona"
+      - "Open-air festivals and concerts along the coast"
+      - "Swimming, snorkelling and boat trips"
+  - season: winter
+    items:
+      - "Café culture and indoor socialising in Tirana"
+      - "Traditional restaurants and warm gatherings"
+      - "Mountain visits for winter scenery; limited skiing"
+  - season: allYear
+    items:
+      - "Tirana nightlife and café scene"
+      - "Traditional food and raki/wine socialising"
+      - "Museums, galleries and cultural festivals"
+      - "Football matches and sports events"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Fresh grilled fish and seafood along the coast"
+      - "Byrek (savory filled pie) — a national staple"
+      - "Fresh salads, tomatoes, olives and Albanian olive oil"
+      - "Local white wine and Korçë beer"
+  - season: winter
+    items:
+      - "Tavë kosi (baked lamb with yogurt-egg sauce)"
+      - "Fërgesë (peppers, tomatoes and cottage cheese)"
+      - "Fli (layered pancake dish, from the north)"
+      - "Rakia (fruit brandy)"
+  - season: allYear
+    items:
+      - "Byrek and qofte (grilled meatballs)"
+      - "Baklava and qumështor (baked custard)"
+      - "Albanian wines and rakia; grilled meats with skarë"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The qeleshe — the white felt skull-cap, iconic Albanian male headwear (esp. the north)"
+      - "Fustanella (pleated white kilt) on ceremonial occasions, esp. in the south"
+      - "Women's traditional dress with embroidered vests, aprons and headscarves; the northern xhubleta (dark wool dress)"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Standard office hours roughly 8:00-4:00/5:00pm with a long lunch break; shops typically 8:00/9:00am-7:00/8:00pm on weekdays, shorter on Saturday."
+  notes: "Sunday is the main rest day. Long coffee/lunch breaks are normal and relationship-building is key. Many businesses slow down or close in August (peak tourist/holiday period). Meetings often run long."
+sources:
+  - id: alb-census-2023
+    name: "Albanian Population and Housing Census 2023 — religion (first-results)"
+    publisher: "Institute of Statistics of Albania (INSTAT)"
+    url: "https://www.instat.gov.al/en/publications/books/2024/albanian-population-and-housing-census-2023/"
+    year: 2023
+    accessedDate: "2026-09-14"
+    note: "Religious affiliation asked for the first time since the 2011 census omitted it: Sunni Islam 45.9%, Bektashi 4.81%, Catholic 8.38%, Orthodox 7.22%, believer-without-denomination 13.8%, atheist 3.55%, Evangelical 0.40%, other 0.15%, undeclared 15.8%. Albania is a secular state; the Orthodox Church disputes some counts (per press), but INSTAT is the authoritative official result."

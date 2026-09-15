@@ -1,0 +1,137 @@
+code: WHOLE
+name:
+  eng: Croatia
+  local:
+    - languageCode: hrv
+      value: Hrvatska
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO 3166-2
+# county isn't one of the curated files (HR-18/HR-17/HR-14), via the
+# 'whole-country-fallback' path.
+climates:
+  - koppenCode: Csa
+    description: "Mediterranean along the Adriatic coast and islands: hot, dry summers and mild, wet winters."
+  - koppenCode: Cfb
+    description: "Oceanic in the inland south excluding the mountains: mild and somewhat wetter."
+  - koppenCode: Dfb
+    description: "Continental inland (and alpine-influenced in the Dinaric mountains): warm summers, cold winters, snowfall."
+landmarks:
+  - name: Old City of Dubrovnik
+    description: "The UNESCO-listed walled Adriatic city."
+    unescoWorldHeritage: true
+  - name: Historical Complex of Split with Diocletian's Palace
+    description: "Roman-era palace core of Split, UNESCO-listed."
+    unescoWorldHeritage: true
+  - name: Plitvice Lakes National Park
+    description: "UNESCO-listed terraced lakes and waterfalls."
+    unescoWorldHeritage: true
+  - name: Historic City of Trogir
+    description: "UNESCO-listed medieval Dalmatian town."
+    unescoWorldHeritage: true
+  - name: Euphrasian Basilica in Poreč (Istria)
+    description: "UNESCO-listed Byzantine-era basilica."
+    unescoWorldHeritage: true
+  - name: Zagreb Upper Town
+    description: "The medieval core of the capital."
+  - name: Krka and Kornati national parks
+    description: "Iconic river waterfalls and an Adriatic island archipelago."
+culturalTraits:
+  - "Strong regional identities — Dalmatia, Istria, Slavonia, Zagorje"
+  - "Coastal klapa (a cappella) singing and Slavonian kolo/tamburica traditions"
+  - "Mediterranean pace on the coast; deep Roman and Venetian heritage"
+  - "Roman Catholic cultural influence"
+prideOf:
+  - "The national football team and international footballers (e.g. Modrić)"
+  - "Plitvice Lakes, Dubrovnik and the Adriatic coast"
+  - "Wine and olive oil; resilience through the 1990s war"
+animals:
+  popular:
+    - "Cats and dogs (stray cats are common in coastal towns)"
+    - The Dalmatian (dog breed)
+  unique:
+    - "The Dalmatian (coonhound) dog breed"
+    - Brown bear, wolf, lynx, griffon vulture, white-tailed eagle
+    - Marine mammals including dolphins
+industries:
+  - Tourism (the dominant coastal sector)
+  - Shipbuilding
+  - Food and beverage (wine, olive oil)
+  - Chemicals and pharmaceuticals
+  - Metal and machinery, IT/software
+  - Agriculture
+sports:
+  - Football (the national sport; Hajduk Split, Dinamo Zagreb)
+  - Handball and basketball
+  - Water polo and tennis
+  - Sailing and winter sports (skiing in the mountains)
+religions:
+  - name: Roman Catholic
+    percent: 78.97
+    sourceId: hrv-census-2021
+  - name: Serbian Orthodox
+    percent: 3.32
+    sourceId: hrv-census-2021
+  - name: Muslim
+    percent: 1.32
+    sourceId: hrv-census-2021
+  - name: Not religious / atheist
+    percent: 4.71
+    sourceId: hrv-census-2021
+# The remaining ~11.7% is the census 'not stated / other' share, intentionally
+# not modelled as a religion row.
+entertainment:
+  - season: summer
+    items:
+      - "Beach and island tourism; sailing"
+      - "Annual festivals (Split Summer, Dubrovnik Summer, Ultra Europe)"
+      - "Open-air concerts along the coast"
+  - season: winter
+    items:
+      - "Skiing on Sljeme/Platak and interior trips"
+      - "Advent/Christmas markets (Zagreb Advent)"
+      - "Indoor concerts and cultural events"
+  - season: allYear
+    items:
+      - "Visiting UNESCO sites and national parks"
+      - "Wine and gastronomy tours"
+      - "Cafes and the strong coffee culture"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Grilled fish, shellfish and black risotto"
+      - "Fresh salads, Pag cheese and seasonal vegetables"
+  - season: winter
+    items:
+      - "Peka (meat/vegetables slow-cooked under a bell)"
+      - "Pasticada and goulash-style stews"
+      - "Kulen sausage, sarma and gibanica"
+  - season: allYear
+    items:
+      - "Prosciutto (pršut) and olive oil; ajvar and rakija"
+      - "Slavonian and Dalmatian wines; coffee and strudel"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Regional folk costumes (Dalmatian coastal, Istrian, Slavonian, Zagorje) worn at folklore festivals and national celebrations; everyday dress is fully modern/European"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Typically 8:00am-4:00pm (banks often 8:00am-4:00pm Monday-Friday); retail may open Saturday mornings and close earlier in winter."
+  notes: "Sunday is the main rest day. Coastal tourism dominates June-September and August is the peak holiday month; business slows on the coast in summer and picks up in autumn. Smaller coastal towns may close entirely in the winter off-season."
+sources:
+  - id: hrv-census-2021
+    name: "Census of Population 2021 — religion (final results)"
+    publisher: "Croatian Bureau of Statistics (DZS)"
+    url: "https://dzs.gov.hr/en/vijesti/objavljeni-konacni-rezultati-popisa-2021/1270"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "Religious-affiliation shares from the 2021 census: Roman Catholic 78.97%, Serbian Orthodox 3.32%, Muslim 1.32%, not religious/atheist 4.71%; the remainder is the census 'not stated/other' share, not modelled as a religion row."

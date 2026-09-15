@@ -1,0 +1,40 @@
+code: AL-11
+name:
+  eng: Tirana
+  local:
+    - languageCode: sqi
+      value: Tiranë
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical on the Tirana plain: hot, humid summers and mild, wet winters."
+landmarks:
+  - name: Skanderbeg Square
+    description: "The central square of the capital, with the Et'hem Bey Mosque and the Opera."
+  - name: Tirana's colourful street-art district (Blloku)
+    description: "The trendy former-communist-zone neighbourhood of cafes, bars and street art."
+  - name: Dajti Mountain
+    description: "A national park and cable-car ride overlooking the city."
+culturalTraits:
+  - "The national capital and political/economic hub"
+  - "A fast-transforming, colourful and youthful metropolis"
+prideOf:
+  - "Tirana's vibrant street-art and cafe culture"
+  - "Being the political and economic engine of Albania"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Byrek, qofte and the full range of Albanian restaurant cuisine centered in the capital"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Standard office hours roughly 8:00-4:00/5:00pm; the capital is the business centre."
+  notes: "The seat of government and business. Long coffee/lunch meetings are the norm and relationship-building is key."

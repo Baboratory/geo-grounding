@@ -1,0 +1,132 @@
+code: WHOLE
+name:
+  eng: North Macedonia
+  local:
+    - languageCode: mkd
+      value: Северна Македонија (Severna Makedonija)
+    - languageCode: sqi
+      value: Maqedonia e Veriut
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since North Macedonia is classified
+# unitary-small (single synthetic WHOLE region). It carries the full
+# country-level bilingual name (both official languages).
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical/continental in the Vardar valley and around Ohrid: hot, fairly dry summers and cold winters, with a Mediterranean influence in the south."
+  - koppenCode: Dfb
+    description: "Continental/mountain in the highlands (e.g. Mavrovo): cooler, with cold, snowy winters."
+landmarks:
+  - name: Lake Ohrid and the town of Ohrid
+    description: "One of Europe's oldest and deepest lakes, a UNESCO World Heritage site shared with Albania; ancient churches, the amphitheatre/fortress and St Naum monastery."
+    unescoWorldHeritage: true
+  - name: Old Bazaar of Skopje and the Stone Bridge
+    description: "The Ottoman-era bazaar and the landmark bridge across the Vardar."
+  - name: Matka Canyon
+    description: "A scenic gorge near Skopje."
+  - name: Mavrovo National Park and Korab mountain range
+    description: "The country's largest national park and its highest peaks."
+  - name: Kruševo
+    description: "Historic town of the 1903 Ilinden Uprising."
+  - name: Heraclea Lyncestis and Stobi
+    description: "Ancient Roman ruins at Bitola and near Negotino."
+culturalTraits:
+  - "Proud hospitality (gostoprimstvo)"
+  - "Folk music, the oro circle dances and zurla/tapan sounds"
+  - "Centuries of coexistence between Orthodox and Muslim communities"
+prideOf:
+  - "The Ohrid region (UNESCO) and the mountain landscape"
+  - "The ancient heritage (the 'Sun of Vergina' and Alexander-the-Great origins)"
+  - "The 1903 Ilinden/Kruševo Republic and Mother Teresa (born in Skopje)"
+  - "NATO membership (2020) and the EU accession path"
+animals:
+  popular:
+    - Balkan lynx (endemic to Mavrovo)
+    - Bears, wolves, chamois and wild boar
+    - Golden eagle
+  unique:
+    - "The Balkan lynx (endemic, in Mavrovo)"
+    - "The Ohrid trout (Salmo letnica), endemic to Lake Ohrid"
+industries:
+  - Steel and metal processing
+  - Chemicals and textiles
+  - Food processing, wine and tobacco
+  - Automotive components
+  - IT/software services and tourism
+  - Agriculture (wheat, grapes, fruits, tobacco)
+sports:
+  - Football (FK Vardar)
+  - Handball (a strong national tradition)
+  - Basketball (MZT Skopje)
+  - Wrestling and combat sports
+religions:
+  - name: Eastern Orthodox (Macedonian Orthodox Church)
+    percent: 46.14
+    sourceId: mkd-census-2021
+  - name: Islam (Sunni)
+    percent: 32.17
+    sourceId: mkd-census-2021
+  - name: Roman Catholic
+    percent: 0.37
+    sourceId: mkd-census-2021
+# The remainder is other Christian traditions, other beliefs, unaffiliated, and
+# administrative-source (non-respondent) data — intentionally not modelled as a
+# religion row. Both Orthodox (Easter, Christmas) and Muslim (Eid) holidays are
+# recognized.
+entertainment:
+  - season: summer
+    items:
+      - "Lake Ohrid and the Ohrid Summer Festival"
+      - "Folk festivals (e.g. the Galičnik wedding festival)"
+      - "Hiking in Mavrovo and the mountains; beach life at Ohrid"
+      - "Rock/alternative music scenes"
+  - season: winter
+    items:
+      - "Mavrovo ski season"
+      - "Indoor tavernas (kafanas) with live folk music"
+      - "New Year's and Orthodox Christmas (7 January) celebrations"
+  - season: allYear
+    items:
+      - "The Old Bazaar of Skopje and the Čaršija/Debar Maalo quarters"
+      - "Cafes and the nightlife of Skopje"
+      - "The wine region of Tikveš"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Shopska salad, fresh vegetables and grilled kebapi"
+      - "Ohrid trout (ohridska pastrmka)"
+  - season: winter
+    items:
+      - "Tavče gravče (baked beans, the national dish)"
+      - "Sarma and pastrmajlija"
+      - "Ajvar and warm stews (turlitava)"
+  - season: allYear
+    items:
+      - "Kebapi, ajvar and banitsa"
+      - "Rakija; Tikveš and Skopje wines"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Embroidered folk costumes differing by region (e.g. Mariovo, Skopska Crna Gora) — white blouses/shirts with rich geometric embroidery, sashes, veils/headgear for women, vests and opanci (leather shoes) for men; worn mainly at festivals"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Working week Monday-Friday; government/banks typically 8:00/9:00am-4:00/5:00pm with a lunch break (~1:00-3:00pm for officials). Shops often open weekends and until later."
+  notes: "Summer months (July-August) are slower for meetings; many close around public and religious holidays (Orthodox Easter, Eid). Relationship-driven; meetings may run long."
+sources:
+  - id: mkd-census-2021
+    name: "Census 2021 (State Statistical Office) — religious affiliation"
+    publisher: "State Statistical Office of the Republic of North Macedonia"
+    url: "https://www.stat.gov.mk/PrikaziSoopstenie_en.aspx?rbrtxt=146"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "Religious affiliation (2021 census): Eastern Orthodox 46.14%, Islam 32.17%, Roman Catholic 0.37%; remainder is other Christian traditions, other beliefs, unaffiliated and non-respondent administrative data."
