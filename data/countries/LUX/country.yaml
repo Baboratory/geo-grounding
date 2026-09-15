@@ -1,0 +1,198 @@
+alpha3: LUX
+alpha2: LU
+name:
+  eng: Luxembourg
+  local:
+    - languageCode: ltz
+      value: Lëtzebuerg
+    - languageCode: fra
+      value: Luxembourg
+    - languageCode: deu
+      value: Luxemburg
+flagEmoji: "🇱🇺"
+capital: Luxembourg
+isSovereign: true
+# Classified unitary-small: population ~0.67M is far below the unitary-large
+# threshold and the Grand Duchy is a single sovereign territory with no federal
+# subdivisions. Note: Luxembourgish, French and German are all official; each is
+# given domain 'official' with share 1.0 (legal status, never split), and real
+# everyday usage is captured in the locallySpoken rows.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: ltz
+    domain: official
+    speakersShare: 1.0
+    sourceId: lux-lang-law-1984
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: lux-lang-law-1984
+  - languageCode: deu
+    domain: official
+    speakersShare: 1.0
+    sourceId: lux-lang-law-1984
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.98
+    sourceId: lux-men-languages-2018
+  - languageCode: deu
+    domain: locallySpoken
+    speakersShare: 0.78
+    sourceId: lux-men-languages-2018
+  - languageCode: ltz
+    domain: locallySpoken
+    speakersShare: 0.77
+    sourceId: lux-men-languages-2018
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.8
+    sourceId: lux-men-languages-2018
+  # Portuguese uses the share of Portuguese residents (nationality proxy) since
+  # no official Portuguese-language proficiency figure was located — flagged in
+  # the source note.
+  - languageCode: por
+    domain: foreign
+    speakersShare: 0.14
+    sourceId: lux-in-figures-2024
+# French is the de-facto everyday language (98% speak it, dominant in
+# government/commerce), so it appears in both locallySpoken and official rows.
+ethnicGroups:
+  # STATEC publishes citizenship, not ethnicity — the population is highly
+  # multi-ethnic and these are nationality shares, flagged as the available proxy.
+  - group: Luxembourgish (nationality)
+    percent: 52.7
+    sourceId: lux-in-figures-2024
+  - group: Portuguese
+    percent: 13.5
+    sourceId: lux-in-figures-2024
+  - group: French
+    percent: 7.3
+    sourceId: lux-in-figures-2024
+  - group: Italian
+    percent: 3.7
+    sourceId: lux-in-figures-2024
+  - group: Other foreign nationalities
+    percent: 22.8
+    sourceId: lux-in-figures-2024
+# religions split between country and WHOLE: Luxembourg is a single-region
+# unitary-small country, so all region-level religion content is in the WHOLE
+# file, not here.
+timezones:
+  - name: Europe/Luxembourg
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (CET/CEST, EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer, all taxes and service charges included)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data requires a lawful basis, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure — the EU-wide GDPR, directly applicable in Luxembourg."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge."
+    sourceId: eu-directive-2019-771
+  - topic: "trilingual administrative language law"
+    description: "Under the 1984 Law on the language regime, citizens may address the administration in Luxembourgish, French or German, and officials must reply 'as far as possible' in the language used — a Luxembourg-specific legal constraint affecting all official communication. Luxembourgish is the national language; French is the usual language of administration/legislation."
+    sourceId: lux-lang-law-1984
+paymentMethodShares:
+  - method: "card (debit/credit, incl. contactless)"
+    percent: 49.0
+    sourceId: lux-ecb-space-2024
+  - method: "cash"
+    percent: 37.0
+    sourceId: lux-ecb-space-2024
+  - method: "other / mobile apps / online"
+    percent: 14.0
+    sourceId: lux-ecb-space-2024
+paymentCulture:
+  popularMethods:
+    - Contactless debit/credit cards (dominant)
+    - Cash (still a third of transactions, mainly small-value/cafes)
+    - Mobile wallet / phone contactless (growing)
+    - Instant/online payments and credit transfers (bills and B2B)
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up in cafes, or roughly 5-10% in restaurants for good service"
+    autoIncludedInBill: true
+    note: "Tipping is appreciated but not obligatory; prices already include service and all taxes. Card machines often lack a tip function, so tips are usually left in cash."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Formal in business: use titles (M./Mme, Dr.) and polite forms until invited to be informal. Punctuality is expected and professional dress is the norm."
+  greetingNorms: "A firm handshake with eye contact on meeting and leaving. 'Moien' (Luxembourgish hello) among locals; toasts with 'Santé' (French) or 'Prost' (German)."
+  meetingEtiquette: "Meetings are structured and punctual. Luxembourgish, French and German are all used; English is common in international firms. Agenda-driven, with decisions made by the decision-maker rather than by consensus."
+  topicsToAvoid:
+    - "Personal wealth or income (discretion is valued)"
+    - "Sensitive WWII-era and German-occupation history"
+    - "Trivialising Luxembourgish national identity or language"
+  giftGivingNotes: "When invited to a home, a modest gift is appreciated — good wine (ideally Luxembourgish Moselle wine), chocolates or flowers. Gifts should not be lavish; the host usually pays at business dinners."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: lux-lang-law-1984
+    name: "Loi du 24 février 1984 sur le régime des langues (Law on the language regime)"
+    publisher: "Legilux (Journal officiel du Grand-Duché de Luxembourg)"
+    url: "https://data.legilux.public.lu/eli/etat/leg/loi/1984/02/24/n1/jo/fr/pdf"
+    year: 1984
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Luxembourgish being the national language and Luxembourgish, French and German being the administrative/legal languages (all official-domain rows 1.0), and for the trilingual-administration legal constraint."
+  - id: lux-men-languages-2018
+    name: "About... Languages in Luxembourg (2018 Ministry of National Education study data)"
+    publisher: "Ministry of National Education, Luxembourg (via luxembourg.public.lu)"
+    url: "https://luxembourg.public.lu/en/society-and-culture/languages/languages-spoken-luxembourg.html"
+    year: 2018
+    accessedDate: "2026-09-14"
+    note: "Daily language-use shares from the 2018 Ministry of Education study: French 98%, English 80% (foreign), German 78%, Luxembourgish 77%. English defined as foreign because it has no official status."
+  - id: lux-in-figures-2024
+    name: "Luxembourg in Figures 2024 (population by nationality)"
+    publisher: "STATEC (Institut national de la statistique et des études économiques)"
+    url: "https://statistiques.public.lu/dam-assets/catalogue-publications/luxembourg-en-chiffres/2024/luxembourg-in-figures-2024.pdf"
+    year: 2024
+    accessedDate: "2026-09-14"
+    note: "Population by nationality at 1 January 2024 (used as the ethnicity proxy since STATEC does not publish ethnicity): Luxembourgish 52.7%, Portuguese 13.5%, French 7.3%, Italian 3.7%, all other foreign nationalities 22.8%."
+  - id: lux-ecb-space-2024
+    name: "ECB Study on the Payment Attitudes of Consumers in the Euro Area (SPACE) 2024, Luxembourg country figures"
+    publisher: "European Central Bank"
+    url: "https://www.ecb.europa.eu/stats/ecb_surveys/space/html/index.en.html"
+    year: 2024
+    accessedDate: "2026-09-14"
+    note: "Point-of-sale payment shares for Luxembourg: card 49%, cash 37%, other/mobile/online 14%. Card share is among the highest in the euro area."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-14"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Luxembourg as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-14"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Luxembourg as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-14"
+    note: "The GDPR data-protection rules, directly applicable in Luxembourg as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-14"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."

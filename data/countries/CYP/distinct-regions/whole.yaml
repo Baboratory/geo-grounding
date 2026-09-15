@@ -1,0 +1,141 @@
+code: WHOLE
+name:
+  eng: Cyprus
+  local:
+    - languageCode: ell
+      value: Κύπρος (Kýpros)
+    - languageCode: tur
+      value: Kıbrıs
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Cyprus is classified
+# unitary-small (single synthetic WHOLE region). It carries the full
+# country-level bilingual name (both official languages). Content reflects the
+# government-controlled area, consistent with the country file's data scope.
+climates:
+  - koppenCode: Csa
+    description: "Hot-summer Mediterranean: long, hot, dry summers and mild, wet winters. Interior Mesaoria is semi-arid; the Troodos mountains are cooler and wetter (occasionally snowy)."
+landmarks:
+  - name: Paphos archaeological sites
+    description: "Ancient city-kingdom with Roman mosaics (Dionysus House), UNESCO-listed."
+    unescoWorldHeritage: true
+  - name: Painted Churches in the Troodos Region
+    description: "Byzantine churches and monasteries with superb wall paintings, UNESCO-listed."
+    unescoWorldHeritage: true
+  - name: Neolithic settlement of Choirokoitia
+    description: "Well-preserved prehistoric settlement, UNESCO-listed."
+    unescoWorldHeritage: true
+  - name: Nicosia walled old city and the Green Line
+    description: "The last divided capital in Europe, within its Venetian walls."
+  - name: Kykkos Monastery
+    description: "One of the richest and most famous Orthodox monasteries on the island."
+  - name: Akamas Peninsula and Avakas Gorge
+    description: "Protected natural area on the west coast."
+culturalTraits:
+  - "Deep Orthodox Christian tradition"
+  - "Hospitality (philoxenia) central to Cypriot culture"
+  - "Strong family and community ties; a measured, slower pace of life"
+  - "Rich archaeological heritage tied to Aphrodite and the ancient city-kingdoms"
+prideOf:
+  - "Commandaria dessert wine (documented since the Crusader era, 1191)"
+  - "The ancient history and Paphos mosaics"
+  - "The endemic Cypriot mouflon (national animal)"
+  - "Beaches and tourism"
+animals:
+  popular:
+    - Cats (ubiquitous)
+    - Sheep and goats
+    - Donkeys
+  unique:
+    - "The Cypriot mouflon (agrino) — an endemic wild sheep, the national animal"
+    - Mediterranean monk seal (occasionally seen around the Akamas coast)
+industries:
+  - Tourism and hospitality
+  - Financial and professional services (accounting, legal, IT)
+  - Shipping and ship-management
+  - Real estate and construction
+  - Agriculture and food (halloumi/hellim, wine, citrus, potatoes)
+  - Pharmaceuticals
+sports:
+  - Football (the most popular sport)
+  - Basketball and tennis
+  - Shooting/trap
+  - Cycling and endurance events
+religions:
+  # Cyprus has no official religion census of the whole island; these are US
+  # State Dept figures from the 2011 census of the government-controlled area.
+  # Note: this reflects only the south (and the 2021 census recorded Orthodox at
+  # 74.5% with a large 17.3% 'not stated' share).
+  - name: Greek Orthodox (Church of Cyprus)
+    percent: 89.1
+    sourceId: cy-state-irf
+  - name: Roman Catholic
+    percent: 2.9
+    sourceId: cy-state-irf
+  - name: Muslim (predominantly Sunni)
+    percent: 1.8
+    sourceId: cy-state-irf
+  - name: Protestant / Anglican
+    percent: 2.0
+    sourceId: cy-state-irf
+# The residual share is other communities and unstated; the Muslim share above
+# reflects only the government-controlled south (the Turkish-Cypriot Muslim
+# community of the north is outside the census).
+entertainment:
+  - season: summer
+    items:
+      - "Beaches and water sports (Ayia Napa, Protaras, Paphos)"
+      - "Open-air seaside clubs and nightlife"
+      - "Summer festivals and village panigiria (feast days)"
+  - season: winter
+    items:
+      - "Skiing and snow sports at Troodos"
+      - "Cozy mountain villages; wine- and cheese-tasting"
+      - "Indoor tavernas with live music"
+  - season: allYear
+    items:
+      - "Tavernas with meze and live bouzouki music"
+      - "Archaeological sites, churches and monasteries"
+      - "Hiking in Troodos and the Akamas"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Grilled fish and seafood; horta (wild greens) and fresh salads"
+      - "Halloumi and souvlaki"
+      - "Chilled village-style watermelon and fruit"
+  - season: winter
+    items:
+      - "Slow-cooked kleftiko and stifado stews"
+      - "Soupa (lamb/vegetable soup)"
+      - "Oven-baked dishes; moussaka and pastitsio"
+  - season: allYear
+    items:
+      - "Halloumi/hellim cheese"
+      - "Souvla and souvlaki; sheftalia; meze (shared plates)"
+      - "Commandaria dessert wine and Cyprus coffee"
+      - "Loukoumi (Turkish delight)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Everyday dress is modern Western; traditional costume (worn at festivals) — women's 'foustani' embroidered dress with a 'sayia' jacket, men's 'vraka' baggy breeches with a woven shirt and sash"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically ~8:00am-5:00pm Monday-Friday, often with a lunch break; in high summer some businesses observe a long mid-day break and later evening hours."
+  notes: "Sunday is the main rest day. Banks/offices close on public and Orthodox religious holidays; expect a slower pace and longer lunches in summer."
+sources:
+  - id: cy-state-irf
+    name: "2023 Report on International Religious Freedom: Cyprus (2011 census of the government-controlled area)"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/cyprus/"
+    year: 2023
+    accessedDate: "2026-09-14"
+    note: "Religious-affiliation shares from the 2011 census of the government-controlled area: Greek Orthodox 89.1%, Roman Catholic 2.9%, Muslim 1.8%, Protestant/Anglican 2.0%. Covers the south only; the 2021 census recorded Orthodox at 74.5% with a large (17.3%) 'not stated' share."

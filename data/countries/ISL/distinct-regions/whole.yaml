@@ -1,0 +1,136 @@
+code: WHOLE
+name:
+  eng: Iceland
+  local:
+    - languageCode: isl
+      value: Ísland
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Iceland is classified
+# unitary-small (single synthetic WHOLE region).
+climates:
+  - koppenCode: Cfc
+    description: "Subpolar oceanic along the coast: cool summers and mild-but-windy winters, strong Atlantic influence, frequent rain and wind."
+  - koppenCode: ET
+    description: "Tundra/interior highlands: colder and drier, with glaciers and barren highland plateaus."
+landmarks:
+  - name: Þingvellir National Park
+    description: "UNESCO World Heritage site — the world's oldest parliament (Alþingi, 930 CE) and the visible mid-Atlantic rift."
+    unescoWorldHeritage: true
+  - name: Vatnajökull National Park
+    description: "The largest glacier in Europe, UNESCO World Heritage."
+    unescoWorldHeritage: true
+  - name: Surtsey
+    description: "A protected volcanic island, UNESCO World Heritage, formed in 1963-67."
+    unescoWorldHeritage: true
+  - name: Reykjavík
+    description: "The capital and cultural hub, with Hallgrímskirkja church and the Harpa concert hall."
+  - name: Geysir and the Golden Circle
+    description: "The geothermal geyser field and the classic Golden Circle route (geysers, Gullfoss waterfall, Þingvellir)."
+culturalTraits:
+  - "Strong literary heritage (Icelandic sagas) and near-universal literacy"
+  - "Deep folklore tradition — huldufólk (hidden people/elves) and the 13 Yule Lads of jól (Christmas)"
+  - "Celebration of independence, chess and outdoor life"
+  - "A near-cashless, modern society built on resilience"
+prideOf:
+  - "The Icelandic language and literature (sagas and the Edda)"
+  - "Independence and the world's oldest parliamentary tradition"
+  - "The natural landscape: volcanoes, glaciers, geysers, hot springs"
+  - "A modern, digital, near-cashless society"
+animals:
+  popular:
+    - "The Icelandic horse (a unique, gaited breed)"
+    - "The Arctic fox (the only native land mammal)"
+    - "Atlantic puffin (lundi)"
+    - "Icelandic sheep and cattle"
+  unique:
+    - "The Icelandic horse (tölt gait, small and hardy)"
+    - The Arctic fox
+    - The Atlantic puffin
+    - "The Icelandic sheepdog"
+industries:
+  - Fisheries and seafood processing
+  - Aluminum smelting powered by renewable (geothermal/hydro) energy
+  - Tourism
+  - IT/tech (gaming, fintech) and data centers
+  - Biotech and agriculture (sheep, dairy)
+sports:
+  - Handball (famously popular)
+  - Football (soccer)
+  - Basketball
+  - Rock climbing and hiking
+  - Winter and outdoor sports
+religions:
+  # Iceland's figures are official registry-based (religious registration) but
+  # include many non-practising members; no census of belief exists. Figures from
+  # Hagstofa's religious-life statistics, with the 'no religion / residual'
+  # being the balance of official membership.
+  - name: Church of Iceland (Evangelical Lutheran)
+    percent: 59.0
+    sourceId: isl-hagstofa-religion
+  - name: No religious affiliation / outside registered organizations
+    percent: 12.0
+    sourceId: isl-hagstofa-religion
+  - name: Lutheran Free Churches and other Christian denominations
+    percent: 5.0
+    sourceId: isl-hagstofa-religion
+# The residual ~24% is the balance of official church-membership statistics
+# (many self-identify as secular/atheist), not a registered-belief category.
+entertainment:
+  - season: summer
+    items:
+      - "Outdoor festivals (e.g. Þjóðhátíð in the Westman Islands in August)"
+      - "Camping, hiking and swimming in geothermal pools"
+      - "Midnight-sun outdoor events"
+  - season: winter
+    items:
+      - "Northern lights viewing"
+      - "Christmas markets and Yule Lads traditions"
+      - "Skiing and winter outdoor sports; thermal-pool socializing"
+  - season: allYear
+    items:
+      - "Geothermal pool (sundlaug) culture"
+      - "Museums (National Museum, saga museums)"
+      - "Concerts, cinema, chess clubs and cosy cafes"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Grilled lamb and fresh fish (char, cod, haddock)"
+      - "Wild berries; skyr with berries; outdoor barbeques"
+  - season: winter
+    items:
+      - "Hangikjöt (smoked lamb)"
+      - "Rúgbrauð (dense rye bread baked in the geothermal ground)"
+      - "Laufabrauð (fried leaf bread at Christmas)"
+      - "Game (ptarmigan) and the jól (Christmas) dishes"
+  - season: allYear
+    items:
+      - "Skyr (strainable dairy)"
+      - "Harðfiskur (dried fish)"
+      - "Kleinur (twisted doughnuts) and the famous hot dog (pylsa)"
+      - "Plokkfiskur (fish stew)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The Icelandic national costume, worn on national and ceremonial occasions, plus the distinctive lopapeysa — the hand-knit Icelandic wool sweater with a circular patterned yoke — worn widely every day, year-round"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard office hours roughly 8:00/9:00am-5:00pm, Monday-Friday, with short Friday afternoons common; banks close on public holidays."
+  notes: "Flat, informal hierarchy and direct communication; punctuality is respected. The heavy summer holiday period (especially July) can slow business."
+sources:
+  - id: isl-hagstofa-religion
+    name: "Statistics Iceland (Hagstofa) — religious life / registered organizations"
+    publisher: "Hagstofa Íslands (Statistics Iceland)"
+    url: "https://www.hagstofa.is/en/statistics/population/religious-life"
+    accessedDate: "2026-09-14"
+    note: "Official religious-registration data: Church of Iceland ~59% (declining), registered no-affiliation ~12%, Lutheran Free churches and other Christian ~5%; the residual ~24% is the balance of official membership figures (many secular/atheist in practice). Registry-based, not a belief census."

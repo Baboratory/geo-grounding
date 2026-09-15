@@ -1,0 +1,176 @@
+alpha3: CYP
+alpha2: CY
+name:
+  eng: Cyprus
+  local:
+    - languageCode: ell
+      value: Κύπρος (Kýpros)
+    - languageCode: tur
+      value: Kıbrıs
+flagEmoji: "🇨🇾"
+capital: Nicosia
+isSovereign: true
+# Classified unitary-small: a single synthetic WHOLE region. IMPORTANT caveat —
+# since 1974 the island has been de facto divided along the Green Line into the
+# government-controlled south (the internationally recognized Republic of Cyprus,
+# an EU member) and the northern one-third administered by a self-declared entity
+# recognized only by Turkey. All official statistics cited here (CYSTAT, State
+# Dept, ECB) cover the government-controlled area only. Greek and Turkish are
+# both de jure official (Constitution Art. 3); each is given domain 'official'
+# with share 1.0 (legal status), with real usage in locallySpoken rows.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: ell
+    domain: official
+    speakersShare: 1.0
+    sourceId: cy-constitution-art3
+  - languageCode: tur
+    domain: official
+    speakersShare: 1.0
+    sourceId: cy-constitution-art3
+  - languageCode: ell
+    domain: locallySpoken
+    speakersShare: 0.809
+    sourceId: cystat-2011-lang
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.025
+    sourceId: cystat-2011-lang
+  - languageCode: tur
+    domain: locallySpoken
+    speakersShare: 0.002
+    sourceId: cystat-2011-lang
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.73
+    sourceId: cy-eurobarometer-eng
+# Turkish is legally official (1.0) but spoken by only ~0.2% in the
+# government-controlled south (the Turkish-Cypriot community is concentrated in
+# the north) — captured in the locallySpoken row.
+ethnicGroups:
+  # CYSTAT's census of the government-controlled area does not publish a simple
+  # Greek/Turkish ethnic split; these are historical island-wide estimates
+  # (US State Dept Background Note), flagged given the de facto partition.
+  - group: Greek Cypriot community
+    percent: 78.0
+    sourceId: cy-state-bgn
+  - group: Turkish Cypriot community
+    percent: 18.0
+    sourceId: cy-state-bgn
+  - group: Armenian, Maronite and other communities
+    percent: 4.0
+    sourceId: cy-state-bgn
+# religions split between country and WHOLE: Cyprus is a single-region
+# unitary-small country, so all region-level religion content is in the WHOLE
+# file, not here.
+timezones:
+  - name: Asia/Nicosia
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EET/EEST)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "EU membership / data protection"
+    description: "Full EU member state since 1 May 2004 (the entire acquis applies, no EEA caveats). The GDPR (Regulation (EU) 2016/679) applies in full, transposed via the Processing of Personal Data (Protection of the Individual) Law. Note: the Republic's authorities and EU law apply in the government-controlled area; the unrecognized northern entity is outside effective government/EU enforcement."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer protection"
+    description: "The EU Consumer Rights Directive (2011/83/EU) — distance and off-premises contracts, withdrawal rights — and related consumer rules apply as an EU member state."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "VAT and price display"
+    description: "EU VAT rules apply; the standard VAT rate is 19%. Consumer-facing prices must be shown VAT-inclusive."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, EU-wide."
+    sourceId: eu-directive-2019-771
+# paymentMethodShares intentionally omitted at country level: no reliable
+# Cyprus-specific figure for the share of POS transactions by method was
+# extracted (the ECB SPACE report gives an 81% contactless share of card
+# payments and euro-area averages, not a clean Cyprus POS split). Rather than
+# assign a number the data doesn't support, the field is left out and the
+# strongly-cashless-but-card-dominant cultural picture is captured in
+# paymentCulture.
+paymentCulture:
+  popularMethods:
+    - Contactless cards (81% of in-store card payments are contactless)
+    - Cash (widely accepted, especially in tavernas, small shops and rural areas)
+    - Mobile wallets and JCC Pay (growing)
+    - Bank transfers and online banking
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up the bill, or ~5-10% at a restaurant for good service"
+    autoIncludedInBill: false
+    note: "Not mandatory but appreciated; small change for taxi drivers is common."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Business starts fairly formal (titles like Mr/Mrs/Kyrios/Kyria + surname) but quickly becomes personal once a relationship forms; Cypriots are generally warm and informal in social settings."
+  greetingNorms: "A handshake with eye contact; between friends, a light kiss on both cheeks. 'Yia sas' (formal hello) / 'Yia sou' (informal)."
+  meetingEtiquette: "Punctuality is appreciated but meetings often run over time. Expect hospitality (coffee) and personal small talk before business; decisions may take time and rely on personal networks."
+  topicsToAvoid:
+    - "The Cyprus problem, the 1974 partition and the Green Line"
+    - "Turkish-Greek relations and religion debates"
+    - "Overgeneralising the north/south situation"
+  giftGivingNotes: "Not expected in business. If invited to a home, bring sweets (loukoumi), wine (often local Commandaria), flowers or chocolates; gifts are opened immediately."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cy-constitution-art3
+    name: "Constitution of the Republic of Cyprus (1960), Article 3"
+    publisher: "Republic of Cyprus (text via WIPO Lex)"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/9823"
+    year: 1960
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Greek and Turkish both being official languages (Article 3(1)); both official-domain rows are 1.0."
+  - id: cystat-2011-lang
+    name: "Census of Population 2011, language figures (government-controlled area)"
+    publisher: "Statistical Service of Cyprus (CYSTAT)"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Cyprus"
+    year: 2011
+    accessedDate: "2026-09-14"
+    note: "Language shares in the government-controlled area: Greek 80.9%, Russian 2.5%, Turkish ~0.2%. Compiled via the referenced secondary page; primary figures are the CYSTAT 2011 census. Note the figures cover only the government-controlled area."
+  - id: cy-state-bgn
+    name: "US State Department Background Note: Cyprus (historical ethnic/language figures)"
+    publisher: "U.S. Department of State"
+    url: "https://2009-2017.state.gov/outofdate/bgn/cyprus/19449.htm"
+    accessedDate: "2026-09-14"
+    note: "Historical island-wide ethnic-community estimates: Greek ~78%, Turkish ~18%, Armenian/other ~4%. Flagged: not from the government-controlled census (which does not publish a simple split) and reflects the pre/post-partition island as a whole."
+  - id: cy-eurobarometer-eng
+    name: "Eurobarometer: English proficiency in Cyprus (~73%)"
+    publisher: "European Commission (via secondary reporting)"
+    url: "https://en.philenews.com/living-in-cyprus/do-you-need-to-speak-greek-to-live-in-cyprus/"
+    accessedDate: "2026-09-14"
+    note: "~73% of people in Cyprus can speak English as a foreign language; the most popular foreign language (British colonial heritage, widely used in business, tourism and signage). Secondary source."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-14"
+    note: "The GDPR data-protection rules, applicable in Cyprus as an EU member state (via national implementing law)."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-14"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Cyprus as an EU member state."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-14"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Cyprus as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-14"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."

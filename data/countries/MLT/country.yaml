@@ -1,0 +1,181 @@
+alpha3: MLT
+alpha2: MT
+name:
+  eng: Malta
+  local:
+    - languageCode: mlt
+      value: Malta
+    - languageCode: eng
+      value: Malta
+flagEmoji: "🇲🇹"
+capital: Valletta
+isSovereign: true
+# Classified unitary-small: the Republic of Malta (main island, Gozo, and minor
+# islets) is a single political-administrative whole with no devolved territorial
+# regions, and a small resident population (~0.56-0.59M). It therefore uses a
+# single synthetic WHOLE region. Maltese and English are both official; each is
+# given domain 'official' with share 1.0 (legal status, never split), with real
+# usage in the locallySpoken rows.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: mlt
+    domain: official
+    speakersShare: 1.0
+    sourceId: mlt-constitution
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: mlt-constitution
+  - languageCode: mlt
+    domain: locallySpoken
+    speakersShare: 0.97
+    sourceId: mlt-language-survey-2021
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.91
+    sourceId: mlt-eurobarometer-540
+  - languageCode: ita
+    domain: locallySpoken
+    speakersShare: 0.52
+    sourceId: mlt-eurobarometer-540
+  - languageCode: fra
+    domain: foreign
+    speakersShare: 0.15
+    sourceId: mlt-eurobarometer-540
+# English is legally official (hence an official row), but its real everyday
+# usage (91% conversational) is captured separately as locallySpoken; Italian is
+# a widely-understood second language, historically influential, here as
+# locallySpoken per the Eurobarometer proficiency figure.
+ethnicGroups:
+  - group: Maltese / White (Caucasian)
+    percent: 90.0
+    sourceId: mlt-census-2021
+  - group: Asian origin
+    percent: 5.2
+    sourceId: mlt-census-2021
+timezones:
+  - name: Europe/Malta
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (CET/CEST, EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data requires a lawful basis, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure — the EU-wide GDPR, directly applicable in Malta."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge."
+    sourceId: eu-directive-2019-771
+  - topic: "official languages"
+    description: "The Constitution establishes Maltese as the national language and both Maltese and English as official languages (Article 5). Government business is conducted bilingually; both are official EU languages."
+    sourceId: mlt-constitution
+  - topic: "state religion"
+    description: "The Constitution (Article 2) establishes the Roman Catholic apostolic faith as the religion of Malta, with the State guaranteeing its religious teaching; freedom of conscience and worship are also protected. This influences public holidays and schooling."
+    sourceId: mlt-constitution
+paymentMethodShares:
+  - method: "cash (point-of-sale)"
+    percent: 67.0
+    sourceId: mlt-ecb-space-2024
+  - method: "payment cards (POS, value basis)"
+    percent: 33.0
+    sourceId: mlt-ecb-space-2024
+paymentCulture:
+  popularMethods:
+    - "Cash (the most-used method at POS — 67% in 2024, one of the highest in the euro area), especially for small, everyday and person-to-person payments"
+    - Debit and credit cards (Visa/Mastercard, contactless) widely accepted
+    - Mobile banking apps, popular for P2P transfers among younger users
+    - Cards and online payments dominate e-commerce
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up, or ~5-10%, in restaurants when service is good"
+    autoIncludedInBill: false
+    note: "Tipping is optional but appreciated; small tips for taxi drivers and hotel porters are common but not obligatory."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Business communication in English is standard; use professional titles and surnames until invited to use first names. Manners and politeness are valued."
+  greetingNorms: "A warm handshake with eye contact. Common greetings: 'Bonġu'/'Bongu' (good morning) and 'Grazzi' (thank you), or 'Hello/Good morning' in English. Friends often greet with a kiss on both cheeks."
+  meetingEtiquette: "Punctuality is appreciated though Mediterranean flexibility is common; business cards are exchanged. Negotiations are personal and relationship-based, and decisions may require several meetings."
+  topicsToAvoid:
+    - "Domestic politics (governance, megaprojects, corruption debates)"
+    - "Religion sensitivity"
+    - "The sensitive migration and population-growth topic"
+    - "Personal income and finances"
+  giftGivingNotes: "Not obligatory in business; gifts are reserved for close relationships. If given (Christmas, Easter, festa), keep them modest — wine, pastizzi, chocolates or local crafts are welcome."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: mlt-constitution
+    name: "Constitution of Malta, Article 5 (official languages) and Article 2 (religion)"
+    publisher: "Laws of Malta (Government of Malta)"
+    url: "https://legislation.mt/eli/cap/1/eng"
+    accessedDate: "2026-09-14"
+    note: "Legal basis for Maltese (national + first official) and English (second official) languages and for the Roman Catholic faith as the established religion."
+  - id: mlt-language-survey-2021
+    name: "Survey on the State of the Maltese Language (NSO / National Council for the Maltese Language / University of Malta)"
+    publisher: "National Statistics Office Malta (NSO)"
+    url: "https://nso.gov.mt/"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "97% of Maltese citizens report Maltese as their first language (used as the locallySpoken share)."
+  - id: mlt-eurobarometer-540
+    name: "Special Eurobarometer 540: Europeans and their languages"
+    publisher: "European Commission, DG Education and Culture (Eurobarometer)"
+    url: "https://europokune.eu/dok/2024/EBSp540Lng/EBSpecial540_Langue2024.pdf"
+    year: 2024
+    accessedDate: "2026-09-14"
+    note: "Malta figures: ~91% can hold a conversation in English (locallySpoken), ~52% in Italian (locallySpoken), ~13-15% in French (foreign)."
+  - id: mlt-census-2021
+    name: "Census of Population and Housing 2021: Final Report (religious affiliation, racial origin)"
+    publisher: "National Statistics Office Malta (NSO)"
+    url: "https://nso.gov.mt/wp-content/uploads/Census-of-Population-2021-volume1-final.pdf"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "Ethnic/racial-origin shares used as the ethnicity proxy (White ~90%, Asian origin ~5.2%) — the first census to capture ethnicity formally."
+  - id: mlt-ecb-space-2024
+    name: "ECB Study on the Payment Attitudes of Consumers in the Euro Area (SPACE) 2024"
+    publisher: "European Central Bank"
+    url: "https://www.ecb.europa.eu/stats/ecb_surveys/space/html/ecb.space2024~19d46f0f17.en.html"
+    year: 2024
+    accessedDate: "2026-09-14"
+    note: "Cash was used in 67% of point-of-sale transactions in Malta — the highest cash share in the euro area (vs 52% average). Card/other share derived as the remainder (33% by value basis)."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-14"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Malta as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-14"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Malta as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-14"
+    note: "The GDPR data-protection rules, directly applicable in Malta as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-14"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."
