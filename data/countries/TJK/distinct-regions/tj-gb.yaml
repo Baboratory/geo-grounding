@@ -1,0 +1,41 @@
+code: TJ-GB
+name:
+  eng: Gorno-Badakhshan Autonomous Oblast (GBAO)
+  local:
+    - languageCode: tgk
+      value: Вилояти Мухтори Кӯҳистони Бадахшон (Viloyati Mukhtori Kuhistoni Badakhshon)
+climates:
+  - koppenCode: Dfc
+    description: "Extreme high-mountain alpine climate in the eastern Pamirs: cold, arid, high altitude (over 4,000 m), with severe winters."
+landmarks:
+  - name: The Pamir Highway
+    description: "One of the world's highest-altitude roads, crossing the Roof of the World."
+  - name: Lake Karakul and the eastern Pamir plateau
+    description: "High-altitude salt lake and desolate alpine plateau."
+  - name: The Wakhan Corridor
+    description: "A narrow strip between Afghanistan and Tajikistan, rich in ancient Silk Road sites."
+culturalTraits:
+  - "The heart of the Pamiri peoples (Shughni, Rushani, Wakhi and other Pamiri languages)"
+  - "A small Ismaili Shia community, concentrated here"
+  - "Remarkable high-altitude resilience and isolation"
+prideOf:
+  - "The remote, dramatic Pamir landscape and the endurance of its mountain peoples"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "High-altitude staples: qurutob, dried foods and hearty breads"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Subsistence and small-trade economy; limited formal office work."
+  notes: "High-altitude Pamir travel is largely limited to summer (June-September) due to snow cover; the region is sparsely populated and remote."

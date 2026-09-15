@@ -1,0 +1,38 @@
+code: TJ-KT
+name:
+  eng: Khatlon Region
+  local:
+    - languageCode: tgk
+      value: Вилояти Хатлон (Viloyati Khatlon)
+climates:
+  - koppenCode: Cfa
+    description: "Subtropical/continental in the southwest valleys: hot dry summers and mild winters — a major agricultural plain."
+landmarks:
+  - name: Bokhtar (Qurghonteppa)
+    description: "The regional capital in the fertile Vakhsh valley."
+  - name: The Vakhsh valley cotton fields
+    description: "One of the country's most productive agricultural regions."
+culturalTraits:
+  - "The agricultural heartland of Tajikistan (cotton, fruit)"
+  - "A mix of Tajik and Uzbek communities"
+prideOf:
+  - "The productive farmland and the Vakhsh valley"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Plov, fresh fruit and the produce of the southern valleys"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard office hours; strongly agrarian and seasonal."
+  notes: "Agriculture (cotton, fruit, vegetables) drives the economy; the harvest rhythm shapes the working year. A significant Uzbek-speaking minority lives in the region."

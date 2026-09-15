@@ -1,0 +1,41 @@
+code: TJ-SU
+name:
+  eng: Sughd Region
+  local:
+    - languageCode: tgk
+      value: Вилояти Суғд (Viloyati Sughd)
+climates:
+  - koppenCode: Dfb
+    description: "Continental in the northern Fergana valley: hot summers, cold winters."
+landmarks:
+  - name: Khujand
+    description: "One of Central Asia's oldest cities and the cultural centre of Sughd."
+  - name: Iskanderkul lake
+    description: "Alpine lake in the Fann Mountains."
+  - name: Penjikent and Sarazm
+    description: "Ancient Sogdian city and the UNESCO-listed Sarazm site."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "The historically rich northern region of ancient Sogdiana"
+  - "Strong Persian/Sogdian cultural heritage and markets"
+prideOf:
+  - "The ancient Sogdian heritage and Khujand's 2,500-year history"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Plov (osh) and the northern Tajik specialties of Khujand"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard office hours; Khujand is a major trading and industrial centre."
+  notes: "A significant Uzbek-speaking minority lives in the northern Fergana valley; the region has a strong market and cross-border trading tradition."
