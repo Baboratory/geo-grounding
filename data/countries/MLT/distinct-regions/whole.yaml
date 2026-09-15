@@ -1,0 +1,144 @@
+code: WHOLE
+name:
+  eng: Malta
+  local:
+    - languageCode: mlt
+      value: Malta
+    - languageCode: eng
+      value: Malta
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Malta is classified
+# unitary-small (single synthetic WHOLE region). It carries the full
+# country-level bilingual name (both official languages).
+climates:
+  - koppenCode: Csa
+    description: "Hot-summer Mediterranean: long, hot, dry summers (30-35°C) with a strong sea breeze, and mild, wetter winters (~10-16°C). Around 300 sunny days per year."
+landmarks:
+  - name: City of Valletta
+    description: "The baroque fortified capital, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Megalithic Temples of Malta
+    description: "Among the world's oldest free-standing stone structures (Ggantija, Hagar Qim, Mnajdra, Tarxien), UNESCO-listed."
+    unescoWorldHeritage: true
+  - name: Hal Saflieni Hypogeum
+    description: "A prehistoric underground burial complex, UNESCO-listed."
+    unescoWorldHeritage: true
+  - name: Mdina
+    description: "The 'Silent City', the medieval walled former capital."
+  - name: St John's Co-Cathedral
+    description: "Baroque cathedral in Valletta housing Caravaggio's works."
+  - name: Blue Lagoon (Comino)
+    description: "Crystal-clear inlet on the small island of Comino."
+culturalTraits:
+  - "Deep Roman Catholic heritage with the vibrant village festa tradition (patron-saint feasts with fireworks and street food)"
+  - "Long Mediterranean history shaped by Phoenician, Roman, Arab, Order of St John, French and British rule"
+  - "Strong family ties, community and island identity"
+  - "Bilingual Maltese-English; Maltese is the only Semitic language written in Latin script and an official EU language"
+prideOf:
+  - "The Maltese language — the only Semitic language written in Latin script and an official EU language"
+  - "The ancient megalithic temples and the Hal Saflieni Hypogeum"
+  - "Valletta's baroque grandeur and the festa tradition"
+  - "Amber limestone architecture and pastizzi"
+animals:
+  popular:
+    - The Maltese dog (national breed)
+    - The Maltese falcon (national bird, symbolic)
+    - Rabbits (fenek) — central to the national dish
+  unique:
+    - Endemic Maltese wall lizard
+    - The endangered Maltese honey bee (national insect)
+    - Maltese freshwater crab
+industries:
+  - Tourism (a top economic driver)
+  - Online gambling / iGaming (a regional hub)
+  - Financial services and fintech
+  - Construction, manufacturing (electronics, pharmaceuticals, plastics)
+  - English-language learning and film production
+sports:
+  - Football (the national sport)
+  - Water polo
+  - Rugby and sailing
+  - Athletics, cycling and padel
+  - Tennis
+religions:
+  - name: Roman Catholic
+    percent: 82.6
+    sourceId: mlt-census-2021
+  - name: No religion
+    percent: 5.1
+    sourceId: mlt-census-2021
+  - name: Islam
+    percent: 3.9
+    sourceId: mlt-census-2021
+  - name: Christian Orthodox
+    percent: 3.6
+    sourceId: mlt-census-2021
+  - name: Hinduism
+    percent: 1.4
+    sourceId: mlt-census-2021
+# The remaining ~3.4% is split across other small groups (Church of England 1.3%,
+# other Christian, Buddhist, Jewish, other), omitted for brevity. Catholic
+# affiliation among Maltese citizens alone is ~96.4%.
+entertainment:
+  - season: summer
+    items:
+      - "Village festas (patron-saint feasts with fireworks, band clubs, street food)"
+      - "Beach days at Golden Bay, the Blue Lagoon and Comino"
+      - "Sailing, boat trips and open-air dining"
+      - "Summer music festivals and outdoor concerts"
+  - season: winter
+    items:
+      - "Theatre at the Manoel Theatre and the indoor cultural season"
+      - "Museums (MUZA, Grandmaster's Palace, the Hypogeum)"
+      - "Carnival (February)"
+      - "Land-based sightseeing of Mdina, Valletta and villages"
+  - season: allYear
+    items:
+      - "Historic sites (Valletta, Mdina, the temples, the Hypogeum)"
+      - "Harbour and coastal walks; cafe and pastizzeria culture"
+      - "Dining at Marsaxlokk and St Julian's"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Lampuki (dorado) pie — torta tal-lampuki"
+      - "Aljotta (garlicky lemon fish soup)"
+      - "Hobz biz-zejt (Maltese bread with tomato and olive oil)"
+      - "Fresh fish at Marsaxlokk"
+  - season: winter
+    items:
+      - "Stuffat tal-fenek (rabbit stew, the national dish)"
+      - "Bragioli (beef olives braised in wine and tomato)"
+      - "Soppa tal-armla (widow's soup with gbejniet cheeselets)"
+      - "Timpana (baked macaroni pie) and imqaret (date pastries)"
+  - season: allYear
+    items:
+      - "Pastizzi (flaky pastry filled with ricotta or mushy peas)"
+      - "Ftira (ring-shaped sourdough salad sandwich)"
+      - "Bigilla (bean pate) and gbejniet (sheep's-milk cheeselets)"
+      - "Kinnie (Maltese bitter-orange soft drink) and Cisk lager"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The traditional ghonnella (faldetta) — a black hooded cloak for women, now mainly seen in folkloric displays; everyday dress is modern European/Western"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Private offices roughly Monday-Friday 9:00am-5:00pm; government offices ~7:30/8:00am-3:00/5:00pm; shops commonly 9:30am-1:00pm and 4:00-7:00pm in summer, with reduced afternoons in winter."
+  notes: "Sunday is the main rest day (and many offices close early on Saturday afternoons). The August (Santa Marija) summer season and the tourist season (June-September) extend resort hours; many firms close early on Friday afternoons."
+sources:
+  - id: mlt-census-2021
+    name: "Census of Population and Housing 2021: Final Report (religious affiliation)"
+    publisher: "National Statistics Office Malta (NSO)"
+    url: "https://nso.gov.mt/wp-content/uploads/Census-of-Population-2021-volume1-final.pdf"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "Religious-affiliation shares from the 2021 census (population aged 15+): Roman Catholic 82.6%, no religion 5.1%, Islam 3.9%, Christian Orthodox 3.6%, Hindu 1.4%; the remainder split across smaller groups."

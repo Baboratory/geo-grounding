@@ -1,0 +1,141 @@
+code: WHOLE
+name:
+  eng: Luxembourg
+  local:
+    - languageCode: ltz
+      value: Lëtzebuerg
+    - languageCode: fra
+      value: Luxembourg
+    - languageCode: deu
+      value: Luxemburg
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Luxembourg is classified
+# unitary-small (single synthetic WHOLE region). It carries the full
+# country-level trilingual name (all three official languages).
+climates:
+  - koppenCode: Cfb
+    description: "Temperate oceanic: mild summers, cool winters, year-round rainfall with no dry season. The Ardennes/Oesling north is cooler and hillier; the Moselle valley and the south (Gutland) are milder."
+landmarks:
+  - name: Old Quarters and Fortifications of the City of Luxembourg
+    description: "The historic old town and its massive fortifications ('Gibraltar of the North'), including the Bock casemates — underground tunnels carved into the rock."
+    unescoWorldHeritage: true
+  - name: Grand Ducal Palace
+    description: "The official residence of the Grand Duke in the old town."
+  - name: Notre-Dame Cathedral
+    description: "The principal Catholic church of Luxembourg City, built in the 17th century."
+  - name: Adolphe Bridge
+    description: "A landmark stone arch bridge over the Pétrusse valley."
+  - name: Mullerthal ('Little Switzerland')
+    description: "A scenic region of rock formations, gorges and forests popular for hiking."
+culturalTraits:
+  - "Trilingualism (Luxembourgish, French, German) as a core national identity, enshrined in law since 1984 and in the Constitution since 2023"
+  - "Cosmopolitan population — nearly half the residents are foreign nationals; over 170 nationalities represented"
+  - "Strong European-institution and international-finance presence (EU founding member)"
+  - "Politeness, discretion and a strong work ethic"
+prideOf:
+  - "The UNESCO-listed old town and fortifications of Luxembourg City"
+  - "Being a founding member of the European Union and home to major EU institutions"
+  - "The Luxembourgish language and culture (Lëtzebuergesch)"
+  - "A world-leading financial and private-banking centre"
+  - "Being the only Grand Duchy in the world"
+animals:
+  popular:
+    - Wild boar
+    - Red deer and roe deer
+    - Sheep and cattle (Ardennes livestock)
+  unique:
+    - "The Ardennes sheep ('mouton ardennais') — an indigenous hardy breed"
+    - Black stork (occasionally observed)
+    - Amphibians and bats in the Oesling's wetland habitats
+industries:
+  - Financial services and private banking
+  - Steel and metals (ArcelorMittal heritage)
+  - EU institutions and related services
+  - ICT and 'NewSpace' (satellites, space resources)
+  - Logistics and cross-border freight
+  - Brewing and winemaking (Moselle sparkling wines and crémant)
+sports:
+  - Cycling
+  - Football (most popular participation sport)
+  - Athletics
+  - Tennis, golf and water sports
+  - Basketball and handball
+religions:
+  # Luxembourg has no official census of religious affiliation — these are
+  # STATEC's analysis of the European Values Study (2021), flagged as survey-based.
+  - name: Roman Catholic
+    percent: 41.0
+    sourceId: lux-regards-religion
+  - name: No religion / atheist / agnostic
+    percent: 30.0
+    sourceId: lux-regards-religion
+  - name: Other Christian (Protestant, Orthodox)
+    percent: 6.0
+    sourceId: lux-regards-religion
+  - name: Muslim
+    percent: 2.0
+    sourceId: lux-regards-religion
+# Catholic is 85.3% of the religiously-affiliated, giving ~41% of the whole
+# population; the rest is other religions and the un-affiliated survey gap.
+entertainment:
+  - season: summer
+    items:
+      - "Hiking in the Ardennes/Oesling and the Mullerthal 'Little Switzerland'"
+      - "Open-air music festivals and the Schueberfouer funfair"
+      - "Moselle wine-tasting and river cruises"
+      - "Outdoor dining on terraces"
+  - season: winter
+    items:
+      - "Christmas markets (Luxembourg City and towns)"
+      - "Ice-skating rinks"
+      - "Cosy indoor dining (Judd mat Gaardebounen, Kachkéis)"
+      - "New Year celebrations and Carnival"
+  - season: allYear
+    items:
+      - "Museums (MUDAM, National Museum of History and Art)"
+      - "Theatre and classical concerts (Philharmonie Luxembourg)"
+      - "Café culture in the old town"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Gromperekichelcher (crispy fried potato fritters)"
+      - "Moselle river fish and wine-pairing dishes"
+      - "Quetschentaart (plum tart)"
+  - season: winter
+    items:
+      - "Judd mat Gaardebounen — smoked pork collar with broad beans and potatoes, the national dish"
+      - "Bouneschlupp (green-bean soup)"
+      - "Hearty stews and sausages"
+  - season: allYear
+    items:
+      - "Kachkéis (cooked cheese spread)"
+      - "Riesling and Moselle wines, crémant"
+      - "Bretzel and other Luxembourgish pastries"
+      - "Beer from local breweries"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Luxembourg has no widely-worn modern folk costume; regional folk dress survives mainly in historical displays and folklore groups rather than everyday use"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard office hours roughly 8:30/9:00am-5:30/6:00pm, Monday-Friday, with a midday lunch break. Shops may close early on weekdays and many are closed on Sundays."
+  notes: "Punctuality is expected; meetings are structured and agenda-driven. National day (23 June) and numerous EU/bank holidays close offices."
+sources:
+  - id: lux-regards-religion
+    name: "Regards 03/23: Sharp decline in religious practices and rise of alternative spiritualities in Luxembourg"
+    publisher: "STATEC"
+    url: "https://statistiques.public.lu/en/publications/series/regards/2023/regards-03-23.html"
+    year: 2023
+    accessedDate: "2026-09-14"
+    note: "STATEC's analysis of the European Values Study (2008 vs 2021): Catholic affiliation ~41% of the total population (Catholics 85.3% of the religiously-affiliated), no religion ~30% (over 20% atheist), other Christian ~6%, Muslim ~2%. No official census of religious affiliation exists; survey-based."

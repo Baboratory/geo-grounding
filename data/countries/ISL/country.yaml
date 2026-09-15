@@ -1,0 +1,123 @@
+alpha3: ISL
+alpha2: IS
+name:
+  eng: Iceland
+  local:
+    - languageCode: isl
+      value: Ísland
+flagEmoji: "🇮🇸"
+capital: Reykjavik
+isSovereign: true
+# Classified unitary-small: a sovereign republic with a single centralized
+# administration (municipalities are administrative, not autonomous regions),
+# population ~0.4M, and a single dominant official language (Icelandic). One
+# synthetic WHOLE region. Iceland is an EEA member through the EEA/EFTA
+# framework but NOT an EU member — EU consumer rules apply only as incorporated
+# into Icelandic law (see the legal constraints), and it keeps its own króna.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: isl
+    domain: official
+    speakersShare: 1.0
+    sourceId: isl-language-act
+  - languageCode: isl
+    domain: locallySpoken
+    speakersShare: 1.0
+    sourceId: isl-language-act
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.9
+    sourceId: isl-english-est
+# English (eng) has no official role in Iceland but is very widely spoken,
+# especially among younger people and in tourism/services — hence a foreign row.
+# Danish (dan) would be a heritage/foreign language but no authoritative
+# proficiency figure exists, so it is deliberately omitted rather than guessed.
+ethnicGroups:
+  # Hagstofa publishes population by background/citizenship, not ethnicity; these
+  # are the available proxy shares (interim estimates).
+  - group: Icelandic-born (of Icelandic background)
+    percent: 82.0
+    sourceId: isl-hagstofa-pop
+  - group: Foreign-born residents
+    percent: 18.0
+    sourceId: isl-hagstofa-pop
+timezones:
+  - name: Atlantic/Reykjavik
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+currency:
+  code: ISK
+  symbol: "kr"
+  name: Icelandic króna
+legalConstraints:
+  - topic: "EEA membership (not EU)"
+    description: "Iceland is a member of the European Economic Area (EEA) through the EEA/EFTA framework but is NOT an EU member state. EU regulations and directives are not directly applicable; most single-market legislation (including much EU consumer-protection law, e.g. the 14-day withdrawal right) is incorporated into Icelandic law via the EEA Agreement. EU rules outside the EEA scope (customs union, Common Agricultural/Fisheries Policy, the euro) do NOT apply. Iceland has its own króna and monetary policy under Seðlabanki (the Central Bank of Iceland)."
+    sourceId: isl-eea
+  - topic: "consumer price display and withdrawal right"
+    description: "Via the EEA-incorporated EU consumer framework, consumer-facing prices are expected to include VAT (VSK, currently 11% standard), and a right of withdrawal applies for distance/online contracts. These apply in Iceland as transposed into national law, not as direct EU law."
+    sourceId: isl-eea
+  - topic: "official language"
+    description: "Icelandic is the official and national language (Act No. 61/2011); consumer-facing legal/contract documents are expected in Icelandic, and the government must offer its services in Icelandic."
+    sourceId: isl-language-act
+paymentMethodShares:
+  - method: "cards and contactless (debit/credit)"
+    percent: 90.0
+    sourceId: isl-sedlabanki-payments
+paymentCulture:
+  popularMethods:
+    - Contactless debit/credit cards (Visa/Mastercard) — dominant
+    - Mobile/QR payment apps (growing)
+    - Apple Pay and Google Pay
+    - Cash (rarely used; many businesses prefer card-only)
+  tipping:
+    expected: false
+    typicalAmount: "A tip for exceptional service is appreciated but unnecessary (service is included)"
+    autoIncludedInBill: true
+    note: "Tipping is not customary or expected in Iceland; service charges are included. A small tip for genuinely exceptional service (restaurants, guides) is appreciated but never required."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Informal and egalitarian; first-name basis is standard even in business, and titles are rarely used. Low-hierarchy workplace culture."
+  greetingNorms: "A handshake on meeting; Icelanders use first names. A simple 'Góðan daginn' (good day) or 'Hæ/Halló' (hi/hello) suffices; kissing/hugging only among close friends."
+  meetingEtiquette: "Punctuality is expected; meetings are relatively informal and direct, consensus-oriented, with normal small talk before the agenda. The hierarchy is flat."
+  topicsToAvoid:
+    - "Personal income and questions about religion/wealth"
+    - "National stereotypes about Iceland"
+    - "Whaling disputes, EU-membership pros/cons and immigration politics (tread carefully, though debate is welcome)"
+  giftGivingNotes: "Small thoughtful gifts (wine, chocolates, flowers) are appreciated when visiting homes; gifts are not expected in business. Always modest, never lavish."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: isl-language-act
+    name: "Act No. 61/2011 on the Status of the Icelandic Language and Icelandic Sign Language"
+    publisher: "Alþingi (Parliament of Iceland)"
+    url: "https://www.althingi.is/lagas/nuna/2011061.html"
+    year: 2011
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Icelandic being the official and national language, and for government services being available in Icelandic. Also the basis for the locallySpoken share (~effectively all residents' first language)."
+  - id: isl-hagstofa-pop
+    name: "Population by background and citizenship (Statistics Iceland / Hagstofa Íslands)"
+    publisher: "Hagstofa Íslands (Statistics Iceland)"
+    url: "https://www.hagstofa.is/en/statistics/population"
+    accessedDate: "2026-09-14"
+    note: "Population-by-background shares used as the ethnicity proxy (Iceland publishes background/citizenship, not ethnicity): Icelandic background ~82%, foreign-born ~18%. Approximate/interim figures."
+  - id: isl-english-est
+    name: "English proficiency in Iceland (widely reported; no official census figure)"
+    publisher: "Composite estimate (trade literature / Eurobarometer-type)"
+    url: "https://www.hagstofa.is/"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: English is widely spoken in Iceland (~90% of the foreign-language-capable, especially among younger people and in tourism), but no official census of foreign-language proficiency exists; the 0.9 share is an approximation."
+  - id: isl-sedlabanki-payments
+    name: "Central Bank of Iceland (Seðlabanki) — payments statistics"
+    publisher: "Central Bank of Iceland (Seðlabanki Íslands)"
+    url: "https://www.cb.is/statistics/"
+    accessedDate: "2026-09-14"
+    note: "Iceland is characterized by the central bank and trade publications as near-cashless; card/contactless payments dominate (>90% of in-person transactions). Granular official percentage shares are not published in this breakdown; the 90% is an estimate from official characterization."
+  - id: isl-eea
+    name: "The EEA Agreement and Iceland's relationship to the EU (EFTA)"
+    publisher: "European Free Trade Association (EFTA)"
+    url: "https://www.efta.int/"
+    accessedDate: "2026-09-14"
+    note: "The basis for the EEA-not-EU legal-status constraint: EU consumer and single-market rules apply in Iceland only as incorporated into national law via the EEA Agreement, with carve-outs."

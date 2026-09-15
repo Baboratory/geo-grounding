@@ -1,0 +1,207 @@
+alpha3: SVN
+alpha2: SI
+name:
+  eng: Slovenia
+  local:
+    - languageCode: slv
+      value: Slovenija
+flagEmoji: "🇸🇮"
+capital: Ljubljana
+isSovereign: true
+# Classified unitary-small: single synthetic WHOLE region (population ~2.1M; no
+# separate region files in this dataset). The national official language is
+# Slovene; Italian and Hungarian have official status only in the municipalities
+# where the autochthonous Italian and Hungarian national communities reside
+# (locally co-official, not nationally), so only Slovene is a domain-'official'
+# row here — the local co-official languages appear as locallySpoken.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: slv
+    domain: official
+    speakersShare: 1.0
+    sourceId: svn-constitution-art11
+  - languageCode: slv
+    domain: locallySpoken
+    speakersShare: 0.88
+    sourceId: svn-surs-census-2002
+  - languageCode: ita
+    domain: locallySpoken
+    speakersShare: 0.003
+    sourceId: svn-surs-census-2002
+  - languageCode: hun
+    domain: locallySpoken
+    speakersShare: 0.006
+    sourceId: svn-surs-census-2002
+  - languageCode: srp
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: svn-surs-census-2002
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.5
+    sourceId: svn-eng-foreign
+  - languageCode: deu
+    domain: foreign
+    speakersShare: 0.42
+    sourceId: svn-deu-foreign
+  - languageCode: ita
+    domain: foreign
+    speakersShare: 0.12
+    sourceId: svn-ita-foreign
+# Italian and Hungarian are locally co-official in ethnically mixed municipalities
+# (Constitution Art. 11) — captured as locallySpoken here because they are not
+# national official languages. Serbian/Croatian/Bosnian are spoken among the
+# former-Yugoslav communities (not official).
+ethnicGroups:
+  # Last full ethnic breakdown is the 2002 census (the 2021 census did not record
+  # ethnicity) — flagged in the source note.
+  - group: Slovenes
+    percent: 83.1
+    sourceId: svn-surs-census-2002
+  - group: Serbs
+    percent: 2.0
+    sourceId: svn-surs-census-2002
+  - group: Croats
+    percent: 1.8
+    sourceId: svn-surs-census-2002
+  - group: Bosniaks (incl. Muslims)
+    percent: 1.6
+    sourceId: svn-surs-census-2002
+  - group: Hungarians
+    percent: 0.3
+    sourceId: svn-surs-census-2002
+  - group: Italians
+    percent: 0.1
+    sourceId: svn-surs-census-2002
+  - group: Other
+    percent: 2.2
+    sourceId: svn-surs-census-2002
+  - group: Unknown / undeclared
+    percent: 8.9
+    sourceId: svn-surs-census-2002
+timezones:
+  - name: Europe/Ljubljana
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (CET/CEST, EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data requires a lawful basis, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure — the EU-wide GDPR, directly applicable in Slovenia (via the national ZVOP-2 data-protection law)."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge."
+    sourceId: eu-directive-2019-771
+  - topic: "co-official local languages"
+    description: "In municipalities where the autochthonous Italian and Hungarian national communities reside, bilingual signage and services are legally required and Italian/Hungarian are co-official (Constitution Article 11; minority-protection legislation)."
+    sourceId: svn-constitution-art11
+paymentMethodShares:
+  - method: "cash (point-of-sale, physical payments)"
+    percent: 64.0
+    sourceId: svn-ecb-space-2024
+  - method: "payment cards (point-of-sale, physical payments)"
+    percent: 29.0
+    sourceId: svn-ecb-space-2024
+paymentCulture:
+  popularMethods:
+    - Cash (still the most-used at physical POS — 64%, one of the highest in the euro area)
+    - Cards (debit most used; contactless widely available, dominant for larger purchases and by value)
+    - Mobile apps and instant payments (growing)
+    - EFTPOS is widespread in urban centres
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up, or ~5-10%, for good service in restaurants, cafes and taxis"
+    autoIncludedInBill: false
+    note: "Tipping is not obligatory; a modest tip for good restaurant/cafe/taxi service is appreciated but smaller in scale than in the US."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Formal address with titles and surnames (gospod/gospa + surname) in business until invited to use first names; the formal 'Vi' switches to informal 'ti' among colleagues over time. Punctual."
+  greetingNorms: "A firm handshake with eye contact on greeting. 'Dober dan' (good day), 'Dobro jutro' (good morning), 'Dober večer' (good evening). Titles matter; use surname with title on first meeting."
+  meetingEtiquette: "Arrive on time; brief informal small talk before business. Agendas are usually followed; Slovenians value preparation and concise, factual presentations. Decisions may take a few meetings; consensus matters."
+  topicsToAvoid:
+    - "Comparisons to the former Yugoslavia made nostalgically or derogatorily"
+    - "Sensitive wartime (WWII) history"
+    - "Overly direct political opinions in first meetings"
+  giftGivingNotes: "Modest: a bottle of good local wine or a quality Slovenian food product is appreciated when invited to a home. Business gifts are small and brand-appropriate; flowers for a host should be odd-numbered."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: svn-constitution-art11
+    name: "Constitution of the Republic of Slovenia, Article 11"
+    publisher: "Republic of Slovenia (Constitutional Court)"
+    url: "https://www.us-rs.si/media/constitution.pdf"
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Slovene being the official language, with Italian and Hungarian locally co-official in the municipalities where the autochthonous communities reside."
+  - id: svn-surs-census-2002
+    name: "SURS 2002 population census (ethnic, religious and mother-tongue composition)"
+    publisher: "Statistical Office of the Republic of Slovenia (SURS)"
+    url: "https://www.stat.si/en"
+    year: 2002
+    accessedDate: "2026-09-14"
+    note: "The 2002 census — the last full ethnic/language/religion breakdown, since the 2021 census did not record ethnicity. Ethic shares (Slovenes 83.1%, Serbs 2.0%, Croats 1.8%, Bosniaks 1.6%, Hungarians 0.3%, Italians 0.1%, other 2.2%, undeclared 8.9%); mother-tongue shares used for the locallySpoken language rows (Slovene ~88%, Serbian ~4%, Hungarian ~0.6%, Italian ~0.3%)."
+  - id: svn-eng-foreign
+    name: "Foreign-language proficiency in Slovenia (English)"
+    publisher: "Composite estimate (SURS/Eurobarometer-type)"
+    url: "https://www.stat.si/en"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: English is the most widely known foreign language, especially among younger people and in business/tourism (~50%); no single official census figure exists."
+  - id: svn-deu-foreign
+    name: "Foreign-language proficiency in Slovenia (German)"
+    publisher: "Composite estimate (SURS/Eurobarometer-type)"
+    url: "https://www.stat.si/en"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: German is historically significant and spoken mainly in border and Alpine-orientated areas (~42%); a common second/third language."
+  - id: svn-ita-foreign
+    name: "Foreign-language proficiency in Slovenia (Italian)"
+    publisher: "Composite estimate (SURS/Eurobarometer-type)"
+    url: "https://www.stat.si/en"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: Italian is also learned as a border/western language (~12%)."
+  - id: svn-ecb-space-2024
+    name: "ECB SPACE 2024 study on payment attitudes, reported by Banka Slovenije"
+    publisher: "Banka Slovenije (Bank of Slovenia) / European Central Bank"
+    url: "https://www.bsi.si/en/media/posts/ecb-study-most-of-our-payments-are-made-with-cash-but-we-use-electronic-payments-when-making-larger-purchases"
+    year: 2024
+    accessedDate: "2026-09-14"
+    note: "Point-of-sale physical-payment shares for Slovenia: cash 64%, cards 29% (remainder online/mobile). Slovenia is among the highest-cash-use countries in the euro area."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-14"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Slovenia as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-14"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Slovenia as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-14"
+    note: "The GDPR data-protection rules, directly applicable in Slovenia as an EU member state (via the national ZVOP-2 implementing law)."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-14"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."

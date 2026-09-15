@@ -1,0 +1,154 @@
+code: WHOLE
+name:
+  eng: Slovenia
+  local:
+    - languageCode: slv
+      value: Slovenija
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Slovenia is classified
+# unitary-small (single synthetic WHOLE region).
+climates:
+  - koppenCode: Dfb
+    description: "Continental in central/eastern Slovenia (Ljubljana basin, Dolenjska, Štajerska, Prekmurje): warm summers, cold winters, moderate precipitation."
+  - koppenCode: Cfb
+    description: "Alpine in the Julian Alps and northern mountains: cold, snowy winters and mild summers with heavy snowfall."
+  - koppenCode: Csa
+    description: "Mediterranean/sub-Mediterranean on the Adriatic Littoral (coast, Kras/karst plateau): mild, wet winters and hot, dry summers."
+landmarks:
+  - name: Škocjan Caves
+    description: "UNESCO-listed karst cave system with an underground canyon, in the Kras region."
+    unescoWorldHeritage: true
+  - name: Heritage of Mercury (Idrija)
+    description: "UNESCO-listed Idrija mercury mine, part of a transnational mercury-heritage site with Almadén (Spain)."
+    unescoWorldHeritage: true
+  - name: Lake Bled
+    description: "Iconic alpine lake with an island church and Bled Castle."
+  - name: Postojna Cave
+    description: "World-famous show cave with an underground train and the olm (Proteus)."
+  - name: Predjama Castle
+    description: "A castle built into a cliff mouth."
+  - name: Triglav National Park and Lake Bohinj
+    description: "The country's only national park, dominated by Mt. Triglav (2,864 m), the national symbol."
+  - name: Ljubljana
+    description: "The capital, with Jože Plečnik's UNESCO-listed architecture, the Triple Bridge and Ljubljana Castle."
+culturalTraits:
+  - "Deep pride in the Slovenian language and literature (France Prešeren; Prešeren Day on 8 February is the national culture holiday)"
+  - "Strong Alpine/carstic identity and love of nature and the outdoors"
+  - "A beekeeping tradition (the Carniolan honey bee)"
+  - "Modesty, hard work and a strong sense of consensus and fairness"
+prideOf:
+  - "Being the first country to feature mountain peaks (Triglav) on its flag"
+  - "The Slovenian language, culture and literature"
+  - "The peaceful independence of 1991"
+  - "UNESCO heritage and a 'Green' country with forests on over half its territory"
+  - "The Lipizzaner horse and the honey/beekeeping tradition"
+animals:
+  popular:
+    - "The Carniolan honey bee (native/endemic, a national symbol)"
+    - "The olm/proteus ('human fish'), a cave salamander in Postojna"
+    - "Brown bear (one of the largest populations in Europe, in the Dinaric Alps)"
+    - "Alpine chamois and marmot; the reintroduced lynx"
+  unique:
+    - "The olm (Proteus anguinus) — a unique blind cave salamander"
+    - "The Carniolan honey bee (Apis mellifera carnica)"
+    - "The Dinaric-Alps brown bear population"
+industries:
+  - Automotive and auto parts (Revoz)
+  - Pharmaceuticals (Krka, Lek/Novartis)
+  - Electronics and electrical equipment
+  - Machinery and metal processing
+  - Wood/furniture and food & beverages (incl. wine)
+  - Tourism (alpine and coastal) and ICT/software
+  - Logistics (the port of Koper is the main sea port)
+sports:
+  - Alpine skiing and ski jumping (world-class athletes)
+  - Football, basketball and handball
+  - Cycling (road and mountain) and mountaineering/alpinism
+  - Ice hockey, volleyball and tennis
+religions:
+  # Last full religious breakdown is the 2002 census (flagged in the note).
+  - name: Roman Catholic
+    percent: 57.8
+    sourceId: svn-surs-census-2002
+  - name: Undeclared
+    percent: 15.7
+    sourceId: svn-surs-census-2002
+  - name: No religion (atheist / non-religious)
+    percent: 10.2
+    sourceId: svn-surs-census-2002
+  - name: Unknown
+    percent: 7.1
+    sourceId: svn-surs-census-2002
+  - name: Believer without a religion
+    percent: 3.5
+    sourceId: svn-surs-census-2002
+  - name: Islam
+    percent: 2.4
+    sourceId: svn-surs-census-2002
+  - name: Eastern Orthodox
+    percent: 2.3
+    sourceId: svn-surs-census-2002
+  - name: Evangelical / Lutheran (Protestant)
+    percent: 0.8
+    sourceId: svn-surs-census-2002
+entertainment:
+  - season: summer
+    items:
+      - "Hiking and mountaineering in the Alps"
+      - "Cycling and mountain biking; swimming and sailing on the Adriatic and alpine lakes"
+      - "Kayaking/rafting and rock climbing"
+      - "Outdoor festivals, concerts and wine tasting"
+  - season: winter
+    items:
+      - "Alpine and nordic skiing; ski-jumping events"
+      - "Snowboarding and ice skating; ice hockey"
+      - "Thermal/spa resorts and winter festivals"
+  - season: allYear
+    items:
+      - "Thermal and wellness spas (a strong tradition)"
+      - "Café culture in Ljubljana; museums and galleries"
+      - "Wine cellar visits and culinary festivals; live music and jazz"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Fresh lake/Adriatic fish and seafood"
+      - "Štruklji (rolled dumplings, sweet or savoury)"
+      - "Fresh salads, strawberries and cherries; wine"
+  - season: winter
+    items:
+      - "Jota (bean and sauerkraut stew from the Littoral/Karst)"
+      - "Kranjska klobasa (Carniolan sausage)"
+      - "Potica (nut-roll pastry, a festive staple)"
+      - "Game dishes and mulled wine"
+  - season: allYear
+    items:
+      - "Kranjska klobasa and potica"
+      - "Pršut (Karst dry-cured ham) and Idrija žlikrofi (dumplings)"
+      - "Prekmurska gibanica (layered pastry)"
+      - "Refošk/Teran and other Slovenian wines; honey and cheese"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional folk costumes (nošnja) worn at folk festivals and national holidays, with regional styles (Gorenjska, Dolenjska, Prekmurje, Bela krajina) featuring embroidered shirts, aprons, vests and headscarves for women and wide-brimmed hats/waistcoats for men"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Standard office hours roughly 8:00-4:00/5:00pm (government ~8:00-4:00pm), with a lunch break; shops usually 8:00/9:00am-7:00/8:00pm on weekdays and shorter on Saturday."
+  notes: "Sunday is the main rest day. Punctuality is expected; many businesses close for the summer holiday period (mainly July-August) and meetings are often scheduled in the morning."
+sources:
+  - id: svn-surs-census-2002
+    name: "SURS 2002 population census (religious composition) and 1991 comparison"
+    publisher: "Statistical Office of the Republic of Slovenia (SURS)"
+    url: "https://www.stat.si/en"
+    year: 2002
+    accessedDate: "2026-09-14"
+    note: "Religious-affiliation shares from the 2002 census (the last full breakdown): Roman Catholic 57.8% (down from 71.6% in 1991), undeclared 15.7%, no religion 10.2%, unknown 7.1%, believer-without-religion 3.5%, Islam 2.4%, Eastern Orthodox 2.3%, Evangelical/Lutheran 0.8%, other 0.2%."
