@@ -1,0 +1,171 @@
+alpha3: SWE
+alpha2: SE
+name:
+  eng: Sweden
+  local:
+    - languageCode: swe
+      value: Sverige
+flagEmoji: "🇸🇪"
+capital: Stockholm
+isSovereign: true
+# Classified unitary-large: Sweden meets two of the three criteria — it has
+# officially recognized national minority languages (Finnish, Sami, Meänkieli,
+# Romani, Yiddish) and a widely recognized cultural-historical regional identity
+# across its 21 counties (län). So real ISO 3166-2 county files are curated
+# (a subset) alongside WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: SE
+hasSubdivisions: true
+languageUsage:
+  - languageCode: swe
+    domain: official
+    speakersShare: 1.0
+    sourceId: swe-language-act
+  - languageCode: fin
+    domain: locallySpoken
+    speakersShare: 0.016
+    sourceId: swe-language-act
+  - languageCode: sme
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: swe-language-act
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.86
+    sourceId: swe-english-proficiency
+# Swedish became Sweden's only official language in 2009 (Language Act SFS
+# 2009:600). The five officially recognized national minority languages (Finnish,
+# Sami, Meänkieli fit, Romani rmy, Yiddish yid) enjoy special administrative-area
+# protections but NOT co-official status, so the locallySpoken shares here are
+# the recognized minority languages with the largest speaker bases (Finnish,
+# Sami); Meänkieli/Romani/Yiddish are not listed as separate rows to keep the
+# file focused. The foreign English share (~86% conversational proficiency) is
+# from a secondary source (see its note) — flagged accordingly.
+ethnicGroups:
+  # Sweden does NOT collect ethnicity/race data; SCB publishes country-of-birth
+  # and foreign-background measures instead, used here as the official proxy.
+  - group: Swedish background
+    percent: 72.3
+    sourceId: scb-population-2025
+  - group: Foreign background (born abroad OR both parents foreign-born)
+    percent: 27.7
+    sourceId: scb-population-2025
+  - group: Foreign-born (born outside Sweden)
+    percent: 20.8
+    sourceId: scb-population-2025
+# The Sami are indigenous (~20,000-40,000 people, ~0.2-0.4%); no official census
+# of Sami ethnicity exists (flagged as an estimate in the region files where it
+# matters most, e.g. Norrbotten).
+timezones:
+  - name: Europe/Stockholm
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (EU-wide schedule)."
+currency:
+  code: SEK
+  symbol: "kr"
+  name: Swedish krona
+legalConstraints:
+  - topic: "currency"
+    description: "The Swedish krona (SEK) is the sole legal tender. Sweden is an EU member (since 1995) but not in the eurozone — a 2003 referendum rejected adopting the euro. Prices on card terminals default to SEK unless the customer explicitly chooses another currency."
+    sourceId: riksbank-payments
+  - topic: "cash acceptance"
+    description: "Sweden is near-cashless: businesses may legally set their own payment policies and many small retailers no longer accept cash. Card and mobile (Swish) dominate; the Riksbank is investigating an e-krona and has proposed measures to guarantee cash access, but cash remains legal tender."
+    sourceId: riksbank-payments
+  - topic: "alcohol retail (Systembolaget)"
+    description: "Systembolaget, a state monopoly, is the ONLY legal retailer of beverages above 3.5% alcohol by volume. No private liquor stores; the age limit is 20 for in-store purchase of alcohol above 3.5% and 18 at licensed on-licence premises."
+    sourceId: systembolaget
+  - topic: "data protection (GDPR)"
+    description: "The EU GDPR applies in Sweden as an EU member state; personal-data collection/processing requires a lawful basis and grants individuals rights including access, correction and erasure."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "working hours and leave"
+    description: "The Working Time Act sets a standard ~40-hour week; employees have at least 25 statutory vacation days (5 weeks) per year. Collective agreements are widespread."
+    sourceId: swe-working-time
+# paymentMethodShares intentionally omitted: the Riksbank publishes qualitative
+# 'payment patterns' reporting rather than a single clean method-share table.
+# Cash is estimated at ~5-10% of recent in-store purchases (near-cashless), with
+# debit cards and Swish dominant — but without a citable official percentage
+# split, assigning exact shares would be guesswork, so the field is omitted.
+paymentCulture:
+  popularMethods:
+    - "Cards (debit/contactless) — dominant at point of sale"
+    - "Swish — the Swedish mobile instant-payment app, used for person-to-person, small retail and e-commerce"
+    - "Contactless mobile wallets (Apple Pay, Google Pay)"
+    - "Online bank transfers"
+    - "Cash (rarely used; may be refused by small shops)"
+  tipping:
+    expected: false
+    typicalAmount: "Optional rounding up or a ~5-10% tip for genuinely good table service"
+    autoIncludedInBill: false
+    note: "Tipping is NOT obligatory and not expected. Service charges are typically included; card terminals increasingly offer preset gratuity options (~5-20%), but a zero tip is fully accepted. Egalitarian culture discourages obligatory tipping."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Low formality and egalitarian. First names are used almost universally in business, academia and government; titles (Herr, Doktor) are obsolete outside rare ceremonial contexts. Direct, plain-spoken and professional."
+  greetingNorms: "A handshake with firm eye contact on meeting and leaving — both men and women. First-name introductions. 'Hej' (hello) is the standard greeting in all contexts."
+  meetingEtiquette: "Punctuality is essential and strictly observed. Meetings are efficient, well-structured and consensus-driven; decisions are often made by group consensus rather than top-down. Everyone is expected to speak and debate openly. Fika (the coffee break) is near-sacred — business is often discussed over coffee and cinnamon buns."
+  topicsToAvoid:
+    - "Personal wealth, income and salary"
+    - "Religion and personal political views (private matters)"
+    - "Stereotypes about Scandinavia/Nordics"
+    - "Hot-button immigration/politics unless raised by the other party"
+  giftGivingNotes: "Understated and restrained; a good-quality small token from your home country is appreciated but not expected. Avoid ostentatious or expensive gifts — moderation (lagom) is the cultural ideal. A nice bottle of wine/spirits for a host is acceptable; gifts are often opened after leaving or not at all."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: SE-M
+    file: distinct-regions/se-m.yaml
+    adminUnitCodes: [SE-M]
+  - code: SE-I
+    file: distinct-regions/se-i.yaml
+    adminUnitCodes: [SE-I]
+  - code: SE-BD
+    file: distinct-regions/se-bd.yaml
+    adminUnitCodes: [SE-BD]
+sources:
+  - id: swe-language-act
+    name: "Language Act (Språklag), SFS 2009:600"
+    publisher: "Ministry of Culture, Government of Sweden"
+    url: "https://government.se/contentassets/16ba706f40854a87b910941caf3891d1/language-act-in-english.pdf"
+    year: 2009
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Swedish being the country's principal/official language since 2009, and for the official recognition of the five national minority languages (Finnish, Sami, Meänkieli, Romany Chib, Yiddish) and Swedish Sign Language."
+  - id: scb-population-2025
+    name: "Sweden's population in summary 1960-2025 and population by region/foreign background"
+    publisher: "Statistics Sweden (Statistikmyndigheten SCB)"
+    url: "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/population-and-living-conditions/population-composition-and-development/population-statistics/pong/tables-and-graphs/swedens-population-in-summary-1960-2025-corrected-2026-06-18/"
+    year: 2025
+    accessedDate: "2026-09-14"
+    note: "Population and composition measures used as the ethnicity proxy, since Sweden does not collect ethnicity/race: Swedish background 72.3%, foreign background 27.7%, foreign-born 20.8%."
+  - id: swe-english-proficiency
+    name: "Languages of Sweden — English proficiency (cites Eurobarometer special survey)"
+    publisher: "Wikipedia (secondary source; primary Eurobarometer)"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Sweden"
+    year: 2012
+    accessedDate: "2026-09-14"
+    note: "The ~86% share of Swedish adults able to converse in English as a foreign language. FLAGGED as a secondary source: no official SCB measure of foreign-language proficiency exists, and the figure originates from a 2012 Eurobarometer special survey and is best treated as approximate."
+  - id: riksbank-payments
+    name: "Sveriges Riksbank — Payment patterns in Sweden and Payments Report"
+    publisher: "Sveriges Riksbank (Sweden's central bank)"
+    url: "https://www.riksbank.se/en-gb/statistics/payment-patterns/"
+    accessedDate: "2026-09-14"
+    note: "Basis for the currency and cash-acceptance legal constraints (SEK sole legal tender; near-cashless environment; businesses may set their own cash policy)."
+  - id: systembolaget
+    name: "Systembolaget — the Swedish alcohol retail monopoly"
+    publisher: "Systembolaget"
+    url: "https://www.systembolaget.se/"
+    accessedDate: "2026-09-14"
+    note: "The legal basis for the state monopoly on retail sales of beverages above 3.5% ABV and the applicable age limits."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-14"
+    note: "GDPR applies directly in Sweden as an EU member state."
+  - id: swe-working-time
+    name: "Working Time Act (Arbetstidslagen, SFS 1982:673) and annual leave"
+    publisher: "Government of Sweden"
+    url: "https://www.government.se/"
+    accessedDate: "2026-09-14"
+    note: "The basis for the standard ~40-hour week and 25 statutory vacation days."

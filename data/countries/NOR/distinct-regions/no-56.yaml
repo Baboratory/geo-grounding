@@ -1,0 +1,100 @@
+code: NO-56
+name:
+  eng: Finnmark
+  local:
+    # Finnmark is the core of Scandinavian Sápmi; Northern Sami has official
+    # status alongside Norwegian in the county's Sami language-administration
+    # municipalities, so both the Norwegian and the Northern Sami local name are
+    # given (the region-local rule).
+    - languageCode: nob
+      value: Finnmark
+    - languageCode: nno
+      value: Finnmark
+    - languageCode: sme
+      value: Finnmárku
+climates:
+  - koppenCode: Dfc
+    description: "Subarctic, ocean-influenced Arctic: long harsh winters with polar night, cool short summers with midnight sun; northern coast moderated by ocean currents."
+landmarks:
+  - name: Nordkapp (North Cape) plateau
+    description: "Europe's northernmost road-accessible point."
+  - name: Rock Art of Alta
+    description: "UNESCO-listed prehistoric rock carvings."
+    unescoWorldHeritage: true
+  - name: Sami Parliament (Sametinget) at Karasjok
+    description: "The seat of the Sami Parliament, at the heart of Sápmi."
+  - name: Kautokeino (Guovdageaidnu)
+    description: "Centre of Sami reindeer-herding culture and the Sami language-administration area."
+culturalTraits:
+  - "Sami culture and language (Northern Sami) are prominent: reindeer herding, joik singing, duodji handicraft, gákti dress"
+  - "Strong fishing and coastal culture along the Barents Sea"
+  - "Resilience and self-irony about Arctic life; Laestadian Lutheran heritage"
+prideOf:
+  - "Sami heritage and rights and the far-north identity"
+  - "Pristine Arctic nature and being above the Arctic Circle"
+  - "Reindeer husbandry"
+animals:
+  popular:
+    - Reindeer (semi-domesticated, herded)
+    - White-tailed (sea) eagle
+    - Atlantic puffin
+    - North Atlantic cod and halibut
+  unique:
+    - "Reindeer herding central to the Sami livelihood"
+    - White-tailed sea eagle — Europe's largest eagle
+    - Arctic fox (rare, protected flagship species)
+industries:
+  - "Sami reindeer husbandry"
+  - Fisheries and fish processing
+  - Mining (Kirkenes-area iron ore)
+  - Tourism (North Cape, northern lights, aurora)
+sports:
+  - Cross-country skiing and ski mountaineering
+  - Reindeer racing (traditional Sami sport)
+  - Fishing and outdoor Arctic recreation
+# religions deliberately omitted at region level: Norway publishes church
+# membership nationally, but no reliable county-level religious breakdown exists
+# for Finnmark, and the county's distinctive identity is cultural/indigenous
+# rather than denominational — leaving it out rather than reusing the national
+# figure as if it were region-specific.
+entertainment:
+  - season: summer
+    items:
+      - "Midnight sun festivals and outdoor events"
+      - "Fishing trips and coastal excursions in the Barents Sea"
+      - "Sami cultural events and the annual Sami Easter festival in Kautokeino and Karasjok"
+  - season: winter
+    items:
+      - "Northern lights (aurora) viewing"
+      - "Reindeer-sleigh rides and Sami winter festivals"
+      - "Winter fishing, snowmobiling and cross-country skiing"
+  - season: allYear
+    items:
+      - "Sami culture centres and duodji (Sami handicraft) shops"
+traditionalDishes:
+  - season: winter
+    items:
+      - "Sami reindeer dishes (bidos — reindeer stew)"
+      - "Smoked and salted Arctic fish"
+  - season: allYear
+    items:
+      - "Arctic fish, cloudberries and Sami-preserved meats"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The gákti — the colourful Sami traditional dress worn at festivals and celebrations"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard Norwegian office hours; public holidays and Sami cultural days shape the local calendar."
+  notes: "The northernmost county and the core of Norwegian Sápmi, where Sami official status in several municipalities makes bilingual (Norwegian/Sami) communication relevant in the public sector. Tourism and fisheries are seasonal."

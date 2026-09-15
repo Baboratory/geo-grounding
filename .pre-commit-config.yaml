@@ -31,3 +31,9 @@ repos:
         language: system
         pass_filenames: false
         files: ^(data|schema)/
+      - id: validate-tests
+        name: test scripts/validate.py itself
+        entry: python3 -m pytest tests/
+        language: system
+        pass_filenames: false
+        files: ^(scripts/validate\.py|tests/)

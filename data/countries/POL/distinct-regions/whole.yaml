@@ -1,0 +1,155 @@
+code: WHOLE
+name:
+  eng: Poland
+  local:
+    - languageCode: pol
+      value: Polska
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO 3166-2
+# voivodeship isn't one of the curated region files (PL-14/PL-22/PL-12), via the
+# 'whole-country-fallback' path.
+climates:
+  - koppenCode: Dfb
+    description: "Warm-summer humid continental, dominant across most of Poland: cold, snowy winters and warm summers."
+  - koppenCode: Cfb
+    description: "Temperate oceanic in the far northwest and along the Baltic coast: milder winters, cooler summers."
+landmarks:
+  - name: Historic Centre of Kraków
+    description: "One of Europe's best-preserved medieval old towns and historic royal seat."
+    unescoWorldHeritage: true
+  - name: Wieliczka and Bochnia Royal Salt Mines
+    description: "UNESCO-listed underground salt-mine complex near Kraków."
+    unescoWorldHeritage: true
+  - name: Historic Centre of Warsaw
+    description: "The reconstructed Old Town, a UNESCO-listed example of faithful post-war reconstruction."
+    unescoWorldHeritage: true
+  - name: Castle of the Teutonic Order in Malbork
+    description: "One of the largest brick castles in the world, UNESCO-listed."
+    unescoWorldHeritage: true
+  - name: Białowieża Forest
+    description: "Primeval forest shared with Belarus; home of the European bison (żubr)."
+    unescoWorldHeritage: true
+  - name: Tatra Mountains (Tatry)
+    description: "Poland's highest mountain range, a national park and winter/summer destination."
+culturalTraits:
+  - "Deep-rooted national and religious identity; Catholicism long intertwined with national history despite declining practice"
+  - "Strong family ties and hospitality toward guests"
+  - "Rich folk tradition: regional costumes, music, woodcarving, amber and glasswork"
+  - "Resistance and reconstruction symbolism, embodied in Warsaw's rebuilt Old Town"
+  - "Food culture built around pierogi, kiełbasa, cabbage and dairy"
+prideOf:
+  - "Playing a leading role in the fall of communism in 1989 via Solidarity"
+  - "Joining the EU (2004) and NATO (1999) after regaining sovereignty"
+  - "Natural heritage including the Białowieża bison forest and the Baltic coast"
+animals:
+  popular:
+    - "White stork (national symbol, nests on rooftops)"
+    - "European bison (żubr, Białowieża)"
+    - "Red fox"
+    - "Wild boar"
+  unique:
+    - "European bison (largest land mammal in Europe, Białowieża Forest)"
+    - "Tatra chamois and Tatra marmot (endemic to the Tatras)"
+    - "European pond turtle (rare, south-east)"
+industries:
+  - "Automotive manufacturing and auto parts"
+  - "IT, software services and business-process outsourcing (fast-growing)"
+  - "Electronics and white-goods production"
+  - "Machinery and metalworking"
+  - "Food processing and agriculture"
+  - "Shipbuilding and maritime logistics (Baltic)"
+  - "Chemicals and pharmaceuticals"
+sports:
+  - "Football (the national passion)"
+  - "Ski jumping and Nordic skiing (Tatra and Sudetes)"
+  - "Volleyball (consistently strong internationally)"
+  - "Athletics"
+  - "Speedway (motorcycle racing)"
+  - "Tennis"
+religions:
+  - name: Roman Catholic
+    percent: 71.3
+    sourceId: gus-census-2021
+  - name: No religion
+    percent: 6.9
+    sourceId: gus-census-2021
+  - name: Orthodox Christian
+    percent: 0.4
+    sourceId: gus-census-2021
+  - name: Jehovah's Witnesses
+    percent: 0.3
+    sourceId: gus-census-2021
+# A large 20.5% 'not stated / no answer' share in the 2021 census is
+# deliberately not modelled as a religion row (it's a survey response, not an
+# affiliation) — see the country.yaml source note.
+entertainment:
+  - season: summer
+    items:
+      - "Outdoor music festivals (e.g. Open'er, Pol'and'Rock)"
+      - "Baltic seaside beach life (Gdańsk, Kołobrzeg)"
+      - "Hiking in the Tatras and mountains"
+      - "Lake sailing in Masuria"
+  - season: winter
+    items:
+      - "Skiing and ski jumping in Zakopane and the Tatras"
+      - "Christmas markets in Kraków and Warsaw"
+      - "Indoor shopping centres as social hubs"
+  - season: allYear
+    items:
+      - "Theatre and classical music in Warsaw and Kraków (Chopin heritage)"
+      - "Cabaret culture (Kraków)"
+      - "Shopping and gastronomy in major city centres"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Chłodnik (chilled beet soup)"
+      - "Grilled kiełbasa (sausage)"
+      - "Fresh fruit pierogi (strawberry, bilberry)"
+  - season: winter
+    items:
+      - "Bigos (hunter's stew with sauerkraut and meat)"
+      - "Żurek (sour rye soup)"
+      - "Pierogi ruskie (potato-cheese dumplings)"
+      - "Barszcz czerwony (red beet borscht) with uszka"
+  - season: allYear
+    items:
+      - "Pierogi (dumplings, many fillings)"
+      - "Gołąbki (cabbage rolls)"
+      - "Kotlet schabowy (breaded pork cutlet)"
+      - "Sernik (Polish cheesecake)"
+      - "Makowiec (poppy-seed roll)"
+      - "Oscypek (smoked sheep cheese, Tatra region)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Regional folk dress (strój ludowy) worn at festivals — e.g. the Kraków (krakowiak) costume, the Łowicz costume, and the colourful Góral (highlander) dress of Podhale"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Standard office hours roughly 8:00/9:00am-4:00/5:00pm, Monday-Friday. Retail shops typically open around 9-10am and close 8-9pm on weekdays/Saturday; most retail is CLOSED on Sunday except the limited trading Sundays and exempt sectors."
+  notes: "The weekly rest rhythm is dominated by the Sunday trading ban — a major scheduling consideration. Exemptions (small owner-run shops, petrol stations, pharmacies) remain open Sunday. Cities do not broadly shut down in August as in France/Italy."
+  sourceIds: [pol-act-2018-sunday-trading]
+sources:
+  - id: pol-act-2018-sunday-trading
+    name: "Act of 10 January 2018 on the restriction of trade on Sundays and public holidays"
+    publisher: "Ministry of Family, Labour and Social Policy (Republic of Poland)"
+    url: "https://www.gov.pl/web/family/trade-on-sundays"
+    year: 2018
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Poland's Sunday-trading prohibition; drives businessRhythm.restDays."
+  - id: gus-census-2021
+    name: "National Population and Housing Census 2021 — religion results"
+    publisher: "Główny Urząd Statystyczny (GUS, Statistics Poland)"
+    url: "https://stat.gov.pl/en/national-census/national-population-and-housing-census-2021/final-results-of-the-national-population-and-housing-census-2021/"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "Religious-affiliation shares: Roman Catholic 71.3%, no religion 6.9%, Orthodox 0.4%, Jehovah's Witnesses 0.3%, Lutheran 0.2%; a further 20.5% did not state an answer and are not modelled as a religion row."

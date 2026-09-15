@@ -1,0 +1,119 @@
+alpha3: BLR
+alpha2: BY
+name:
+  eng: Belarus
+  local:
+    - languageCode: bel
+      value: Беларусь (Bielaruś)
+    - languageCode: rus
+      value: Беларусь (Belarus')
+flagEmoji: "🇧🇾"
+capital: Minsk
+isSovereign: true
+# Classified unitary-small: population ~9M and Belarusian/Russian both official,
+# but administratively it is a centralized republic whose six voblasts carry no
+# cultural/linguistic autonomy that would justify separate region files — so a
+# single synthetic WHOLE region, per the unitary-small pattern.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: bel
+    domain: official
+    speakersShare: 1.0
+    sourceId: blr-constitution-art17
+  - languageCode: rus
+    domain: official
+    speakersShare: 1.0
+    sourceId: blr-constitution-art17
+  - languageCode: bel
+    domain: locallySpoken
+    speakersShare: 0.541
+    sourceId: blr-census-2019
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.423
+    sourceId: blr-census-2019
+# The official-domain rows are both 1.0 by design (legal status, not usage);
+# real usage is in the locallySpoken rows. Russian dominates everyday urban and
+# business life in practice even though Belarusian is the historical language.
+ethnicGroups:
+  - group: Belarusians
+    percent: 84.9
+    sourceId: blr-census-2019
+  - group: Russians
+    percent: 7.5
+    sourceId: blr-census-2019
+  - group: Poles
+    percent: 3.1
+    sourceId: blr-census-2019
+  - group: Ukrainians
+    percent: 1.7
+    sourceId: blr-census-2019
+timezones:
+  - name: Europe/Minsk
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: BYN
+  symbol: "Br"
+  name: Belarusian ruble
+# EU-membership note (deliberately a comment, not a legalConstraints entry):
+# Belarus is NOT a member of the European Union, so EU directives and
+# regulations (VAT-inclusive price display, the 14-day distance withdrawal
+# right, GDPR, the 2-year consumer guarantee) do not apply here — requirements
+# rest on Belarusian national law, which is not enumerated in this file because
+# no single authoritative legal source states the whole set. Cross-border
+# sellers to Belarus should check Belarusian consumer and data-protection law
+# separately rather than assume EU rules.
+legalConstraints:
+  - topic: "official languages"
+    description: "Both Belarusian and Russian are official state languages (Constitution Article 17). State documents and signage generally appear in both; Russian dominates in practice."
+    sourceId: blr-constitution-art17
+# paymentMethodShares intentionally omitted: no single recent consolidated
+# figure on consumer payment-instrument shares by transaction volume is readily
+# citable from the National Bank of the Republic of Belarus. The NBRB highlights
+# a growing share of non-cash transactions in its annual reports, but without a
+# clean methodological breakdown it would be guesswork to assign percentages,
+# so the field is left out rather than estimated.
+paymentCulture:
+  popularMethods:
+    - "National Belkart / BELKART cards plus Visa, Mastercard and UnionPay"
+    - "Contactless cards (the norm in Minsk supermarkets, cafes and shops)"
+    - "Bank transfers via remote internet/mobile banking (standard for salaries, utilities, B2B)"
+    - "Local e-money and the ERIP settlement system for paying services"
+    - "Cash (still widely used in everyday retail, especially outside Minsk and for small amounts)"
+  tipping:
+    expected: false
+    typicalAmount: "Round up or leave roughly 5-10% for good restaurant service"
+    autoIncludedInBill: false
+    note: "Tipping is not mandatory nor a strong expectation; in cafes and restaurants it is common but optional to round up or leave ~5-10% for good service. Taxi drivers and delivery staff do not typically expect tips."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Fairly formal and hierarchical. Use first name + patronymic and formal address with elders and in formal settings; titles and positional respect are expected. Russian business etiquette largely applies."
+  greetingNorms: "A firm handshake with eye contact is standard for both men and women; 'Zdravstvuyte' (formal) or 'Pryvitanne' (Belarusian hello). Close acquaintances may greet with a nod or brief 'Privet'."
+  meetingEtiquette: "Punctuality is important. Meetings often begin with small talk and can be hierarchical — decisions frequently come from senior or state-level figures. Address people by surname and title until invited to do otherwise; business cards are exchanged on first meeting."
+  topicsToAvoid:
+    - "Domestic politics, especially the 2020 presidential election and protests"
+    - "Government criticism and EU/US sanctions"
+    - "Russia-Belarus relations framed in a loaded way"
+    - "Personal wealth"
+  giftGivingNotes: "Gift giving is common for hosts and business partners: good vodka, chocolates, flowers (odd numbers — even numbers are for funerals), books. Gifts are usually opened later, not immediately."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: blr-constitution-art17
+    name: "Constitution of the Republic of Belarus (1994, as amended), Article 17"
+    publisher: "Republic of Belarus"
+    url: "https://www.wipo.int/edocs/lexdocs/laws/en/by/by016en.pdf"
+    year: 1994
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Belarusian and Russian both being official state languages."
+  - id: blr-census-2019
+    name: "2019 Population Census of the Republic of Belarus — National composition and languages"
+    publisher: "National Statistical Committee of the Republic of Belarus (Belstat), UNECE presentation"
+    url: "https://unece.org/sites/default/files/2024-04/7.Census%20WP14%20BEL%20Vasilevskaya%20ENG.pdf"
+    year: 2019
+    accessedDate: "2026-09-14"
+    note: "Ethnic composition (Belarusians 84.9%, Russians 7.5%, Poles 3.1%, Ukrainians 1.7%) and native-language shares (Belarusian 54.1% locallySpoken, Russian 42.3% locallySpoken). Reliability of the ethnolinguistic census data has been questioned by some academics, flagged here for transparency."

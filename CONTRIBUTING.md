@@ -26,7 +26,12 @@ yourself and seeing the result before you push.
 
 `scripts/validate.py` specifically checks JSON Schema conformance plus a
 set of cross-file rules JSON Schema alone can't express (see the rules
-below — each one is enforced there).
+below — each one is enforced there). `tests/test_validate.py` is a pytest
+suite for `validate.py` *itself* — not the dataset — with a deliberately-
+broken fixture for each rule, so a regression in the validator gets caught
+even if the real data currently happens not to trigger it. Runs as its own
+pre-commit hook, scoped to changes touching `scripts/validate.py` or
+`tests/`; run it by hand with `python3 -m pytest`.
 
 ## Adding or editing a country
 

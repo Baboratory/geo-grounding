@@ -4,6 +4,7 @@ __pycache__/
 venv/
 .env
 .ruff_cache/
+.pytest_cache/
 .DS_Store
 /commit-message.txt
 /openrouter-requests.log

@@ -1,0 +1,142 @@
+code: WHOLE
+name:
+  eng: Finland
+  local:
+    - languageCode: fin
+      value: Suomi
+    - languageCode: swe
+      value: Finland
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO 3166-2
+# region isn't one of the curated files (FI-01/FI-10/FI-18), via the
+# 'whole-country-fallback' path. It carries the full country-level bilingual
+# name (both official languages), matching CHE's WHOLE pattern.
+climates:
+  - koppenCode: Dfb
+    description: "Hemiboreal/temperate climate across southern Finland: cold snowy winters, mild light-filled summers."
+  - koppenCode: Dfc
+    description: "Subarctic climate in Lapland: long cold winters, short cool summers, polar night and midnight sun."
+landmarks:
+  - name: Suomenlinna Fortress (Helsinki)
+    description: "Sea fortress on an island chain, a UNESCO-listed 18th-century bastion."
+    unescoWorldHeritage: true
+  - name: Old Rauma
+    description: "Well-preserved wooden old town, UNESCO-listed."
+    unescoWorldHeritage: true
+  - name: High Coast / Kvarken Archipelago
+    description: "UNESCO-listed natural site of post-glacial land uplift."
+    unescoWorldHeritage: true
+  - name: Northern Lights and the Lapland wilderness
+    description: "Iconic aurora borealis viewing in the far north."
+culturalTraits:
+  - "Sisu (stoic perseverance) and a deep connection to nature"
+  - "Sauna culture — a national institution"
+  - "Egalitarian, trust-based society with strong civic participation"
+  - "World-leading design (Alvar Aalto, Marimekko, Iittala)"
+prideOf:
+  - "Sauna, the education system and Nordic design"
+  - "Repeatedly ranked the world's happiest country"
+  - "Nokia and tech heritage"
+  - "Clean nature, lakes and forests"
+animals:
+  popular:
+    - Brown bear (national animal)
+    - Whooper swan (national bird)
+    - European elk / moose
+    - Reindeer (Sami herding culture in Lapland)
+    - Eurasian lynx
+  unique:
+    - "Reindeer herding culture of the Sami in Lapland"
+    - Brown bear, wolf and lynx as large predators
+industries:
+  - Forestry and paper/pulp
+  - Metals and engineering
+  - Electronics/ICT (Nokia heritage) and software/gaming (e.g. Supercell)
+  - Shipbuilding
+  - Tourism, renewable energy and cleantech
+  - Food, pharmaceuticals and biotech
+sports:
+  - Ice hockey (the national obsession)
+  - Cross-country skiing
+  - Ski jumping
+  - Motorsport (Formula 1)
+  - Athletics (javelin)
+  - Pesäpallo (Finnish baseball)
+religions:
+  - name: Evangelical Lutheran Church of Finland
+    percent: 62.2
+    sourceId: fin-religion-2024
+  - name: Finnish Orthodox Church
+    percent: 1.0
+    sourceId: fin-religion-2024
+  - name: No religious affiliation
+    percent: 34.9
+    sourceId: fin-religion-2024
+# The remaining ~1.8% is other religious communities (Muslim, Catholic, Jewish,
+# Buddhist, etc.), omitted for brevity.
+entertainment:
+  - season: summer
+    items:
+      - "Cottage (mökki) and lakeside living; sauna and swimming"
+      - "Midnight sun and outdoor festivals (Ruisrock, Flow)"
+      - "Berry and mushroom picking; sailing and boating"
+      - "Crayfish season (rapu) in August"
+  - season: winter
+    items:
+      - "Sauna and ice swimming"
+      - "Cross-country and downhill skiing; ice skating on lakes"
+      - "Snowmobiling and reindeer sleigh rides in Lapland"
+      - "Northern Lights (aurora) viewing; winter festivals"
+  - season: allYear
+    items:
+      - "Coffee culture and cinnamon buns (korvapuusti)"
+      - "Design and museum visits"
+      - "Salmiakki (salty liquorice) and rye bread as everyday staples"
+traditionalDishes:
+  - season: summer
+    items:
+      - "New potatoes with herring and dill"
+      - "Strawberries and Finnish berries (cloudberry, bilberry)"
+      - "Grilled sausage and new-season vegetables"
+  - season: winter
+    items:
+      - "Karjalanpiirakka (Karelian pie)"
+      - "Reindeer dishes (poronkäristys)"
+      - "Pea soup with pancakes (a Thursday tradition)"
+      - "Christmas ham and rosolli salad"
+  - season: allYear
+    items:
+      - "Salmon and Baltic herring"
+      - "Rye bread (ruisleipä)"
+      - "Kalakukko (fish pasty)"
+      - "Korvapuusti (cinnamon buns)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kansallispuku (Finnish national/folk costume), worn on festive occasions such as Independence Day and weddings"
+      - "Heavy wool and linen garments appropriate to the cold climate"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Standard office hours roughly 8/9am-4/5pm, Monday-Friday, with a standard lunch break around 11:30am-1pm. Strong work-life balance with at least 5 weeks of statutory annual leave."
+  notes: "Sunday is the main rest day; shops historically closed or limited on Sunday, though many stay open with shorter hours. Midsummer (Juhannus, late June) and Christmas (24-26 December) widely shut down business. Punctuality and short, decisive meetings prevail."
+  # no sourceId: the businessRhythm content is customary description, not a
+  # sourced legal claim (Finland's retail hours are not set by a country-wide ban
+  # comparable to Poland's Sunday-trading law).
+sources:
+  - id: fin-religion-2024
+    name: "Religious affiliation statistics (church membership) and 2023 International Religious Freedom Report: Finland"
+    publisher: "Statistics Finland / U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/finland/"
+    year: 2023
+    accessedDate: "2026-09-14"
+    note: "Religious-affiliation shares: Evangelical Lutheran Church of Finland ~62.2% of members (declining), Finnish Orthodox ~1%, unaffiliated ~34.9%. Membership figures are from Statistics Finland/church registries; the balance of other religions (~1.8%) is omitted for brevity."

@@ -1,0 +1,48 @@
+code: FI-10
+name:
+  eng: Lapland
+  local:
+    - languageCode: fin
+      value: Lappi
+    - languageCode: sme
+      value: Lappi (Sápmi)
+climates:
+  - koppenCode: Dfc
+    description: "Subarctic climate: long, cold, snowy winters; short, cool summers with polar night and midnight sun."
+landmarks:
+  - name: Rovaniemi and Santa Claus Village
+    description: "The 'official hometown of Santa Claus', on the Arctic Circle."
+  - name: Levi and Ylläs ski resorts
+    description: "Leading Lapland ski destinations."
+  - name: Urho Kekkonen National Park
+    description: "Vast fell wilderness and northern-lights territory."
+culturalTraits:
+  - "Sami indigenous culture — reindeer herding, duodji (handicraft), joik singing"
+  - "Reindeer herding is a living Sami economy and identity"
+  - "Polar night (kaamos) and midnight sun shape daily life"
+prideOf:
+  - "Sami heritage and rights (Sami homeland municipalities)"
+  - "The aurora borealis and pristine Arctic nature"
+  - "Reindeer husbandry"
+traditionalDishes:
+  - season: winter
+    items:
+      - "Reindeer dishes (poronkäristys — sautéed reindeer)"
+      - "Leipäjuusto (baked cheese) with cloudberry jam"
+  - season: allYear
+    items:
+      - "Smoked and pickled fish; Arctic berries (cloudberry, bilberry)"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Standard office hours; tourism-driven businesses (winter ski season and northern-lights months, summer aurora/nature tours) are highly seasonal."
+  notes: "Winter tourism (Dec-March) is the economic peak, plus a summer season of midnight-sun and nature travel. In the Sami homeland municipalities, Sami languages hold official status alongside Finnish."

@@ -1,0 +1,181 @@
+alpha3: FIN
+alpha2: FI
+name:
+  eng: Finland
+  local:
+    - languageCode: fin
+      value: Suomi
+    - languageCode: swe
+      value: Finland
+flagEmoji: "🇫🇮"
+capital: Helsinki
+isSovereign: true
+# Classified unitary-large: Finland meets two of the three criteria — it has
+# officially recognized national languages (Finnish and Swedish of equal status,
+# plus the Sami languages with official regional status) and a widely recognized
+# cultural-historical regional identity (19 real ISO 3166-2 regions, incl. the
+# autonomous Swedish-speaking Åland). So real region files are curated alongside
+# WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: FI
+hasSubdivisions: true
+languageUsage:
+  - languageCode: fin
+    domain: official
+    speakersShare: 1.0
+    sourceId: fin-constitution-s17
+  - languageCode: swe
+    domain: official
+    speakersShare: 1.0
+    sourceId: fin-constitution-s17
+  - languageCode: fin
+    domain: locallySpoken
+    speakersShare: 0.849
+    sourceId: fin-statistics-2024
+  - languageCode: swe
+    domain: locallySpoken
+    speakersShare: 0.049
+    sourceId: fin-statistics-2024
+  - languageCode: sme
+    domain: locallySpoken
+    speakersShare: 0.0004
+    sourceId: fin-statistics-2024
+# Both official rows are 1.0 (legal status, never split). Real usage is in the
+# locallySpoken rows. Northern Sami (sme) is official in the Sami homeland
+# municipalities, hence its locallySpoken entry; other Sami languages (Inari smn,
+# Skolt sms) are not listed separately to keep the file focused.
+ethnicGroups:
+  # Statistics Finland does NOT collect ethnicity data; it uses mother tongue
+  # and country of origin as proxies. The groups below are therefore defined by
+  # language background (the official proxy) — noted for transparency.
+  - group: Finnish-speaking population
+    percent: 84.9
+    sourceId: fin-statistics-2024
+  - group: Swedish-speaking Finns
+    percent: 4.9
+    sourceId: fin-statistics-2024
+  - group: Persons with foreign background
+    percent: 11.1
+    sourceId: fin-statistics-2024
+# Sami are indigenous (~10,000 people, of whom ~2,000 have a Sami mother tongue,
+# ~0.04%); not a large enough separate share to list as an ethnic row beyond the
+# languageUsage entry above.
+timezones:
+  - name: Europe/Helsinki
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Last Sunday in March to last Sunday in October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure — the EU-wide GDPR, directly applicable in Finland."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge."
+    sourceId: eu-directive-2019-771
+  - topic: "official languages"
+    description: "Under Section 17 of the Constitution, Finnish and Swedish are the two national languages of equal legal status. Products/services and government communications must generally support both; on the autonomous Åland Islands, Swedish is the sole official language."
+    sourceId: fin-constitution-s17
+paymentMethodShares:
+  - method: "card or mobile app (point-of-sale)"
+    percent: 72.0
+    sourceId: fin-ecb-space-2024
+  - method: "cash (point-of-sale)"
+    percent: 27.0
+    sourceId: fin-ecb-space-2024
+paymentCulture:
+  popularMethods:
+    - Debit cards (dominant)
+    - Contactless cards
+    - Mobile wallets and app payments (Apple Pay, Google Pay, MobilePay/Siirto)
+    - Online and mobile banking / SEPA instant transfers
+    - Cash (declining, ~27% of point-of-sale transactions but legal tender)
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up a small amount for good service is appreciated but entirely optional"
+    autoIncludedInBill: false
+    note: "No tipping expected or required; service charges are included in prices. Not customary in taxis or restaurants."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Straightforward and matter-of-fact. Finns value directness, honesty and efficiency over small talk or hierarchical formality. First names are used quickly, including in business; titles are reserved mostly for formal occasions."
+  greetingNorms: "A firm handshake with eye contact is standard for both men and women. Casual 'Moi'/'Hei' (hi). On Åland/in Swedish contexts 'Hej'. Direct address, no bowing or cheek-kissing."
+  meetingEtiquette: "Punctuality is essential — arriving late is rude. Meetings are structured, focused and to the point, with the agenda followed closely. Comfortable silences are normal and should not be filled. Decisions are pragmatic and consensus-oriented; first names are common among colleagues."
+  topicsToAvoid:
+    - "Personal income and finances"
+    - "Religion and party politics (sensitive)"
+    - "Topics around Russia/security, given Finland's history (sensitive)"
+    - "Being dismissive of Swedish — both national languages are respected"
+    - "Loud, boastful self-promotion (modesty is valued)"
+  giftGivingNotes: "Not required in business settings; if gifted, small, practical, high-quality items (Finnish design, chocolates, coffee) are appreciated. Gifts are opened on receipt. For personal visits, flowers, wine or chocolates are polite."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: FI-01
+    file: distinct-regions/fi-01.yaml
+    adminUnitCodes: [FI-01]
+  - code: FI-10
+    file: distinct-regions/fi-10.yaml
+    adminUnitCodes: [FI-10]
+  - code: FI-18
+    file: distinct-regions/fi-18.yaml
+    adminUnitCodes: [FI-18]
+sources:
+  - id: fin-constitution-s17
+    name: "Constitution of Finland (731/1999), Section 17"
+    publisher: "Finlex (Ministry of Justice, Finland)"
+    url: "https://www.finlex.fi/en/laki/kaannokset/1999/en19990731.pdf"
+    year: 1999
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Finnish and Swedish being the two national languages of equal status (Section 17), and for the official-language legal constraint."
+  - id: fin-statistics-2024
+    name: "Finland in Figures 2024 (population by mother tongue)"
+    publisher: "Statistics Finland"
+    url: "https://toolbox.finland.fi/wp-content/uploads/sites/2/2024/09/finland-in-figures-2024.pdf"
+    year: 2024
+    accessedDate: "2026-09-14"
+    note: "Mother-tongue shares at 31 Dec 2023: Finnish ~84.9%, Swedish ~4.9%, Sami ~0.04%; and the share of persons with foreign background ~11.1% (used as the ethnicity proxy, since Statistics Finland does not collect ethnicity)."
+  - id: fin-ecb-space-2024
+    name: "ECB SPACE study 2024, reported by the Bank of Finland — shift to digital payments"
+    publisher: "Bank of Finland / European Central Bank"
+    url: "https://data.europa.eu/fi/publications/datastories/shift-digital-payments-understanding-payment-behaviour-through-open-data"
+    year: 2024
+    accessedDate: "2026-09-14"
+    note: "Point-of-sale payment shares: ~72% by card or mobile app, ~27% by cash (Finland has one of the lowest cash shares in the euro area)."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-14"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Finland as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-14"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Finland as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-14"
+    note: "The GDPR data-protection rules, directly applicable in Finland as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-14"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."

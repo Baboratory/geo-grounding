@@ -1,0 +1,59 @@
+code: PL-22
+name:
+  eng: Pomerania
+  local:
+    - languageCode: pol
+      value: Pomorskie
+climates:
+  - koppenCode: Cfb
+    description: "Oceanic influence on the Baltic coast: milder winters, cooler summers."
+  - koppenCode: Dfb
+    description: "Continental climate inland from the coast."
+landmarks:
+  - name: Gdańsk Old Town
+    description: "Hanseatic port with the historic Long Market and medieval crane."
+  - name: Gdynia and Sopot
+    description: "The seaside tri-city; Sopot has Europe's longest wooden pier."
+  - name: Malbork Castle
+    description: "Castle of the Teutonic Order, UNESCO-listed."
+    unescoWorldHeritage: true
+  - name: Kashubian Lake District
+    description: "Scenic lakeland heartland of the Kashubian minority."
+culturalTraits:
+  - "Maritime, Hanseatic and shipbuilding identity centred on Gdańsk"
+  - "Birthplace of Solidarity (Gdańsk Shipyard) — a symbolically loaded region"
+  - "Kashubian ethnoregional identity: the Kashubian language (csb) is Poland's only statutorily recognized 'regional language', spoken in the rural north-west"
+  - "Strong coastal/beach and marine culture"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Smoked fish (e.g. herring, flounder) from the Baltic"
+      - "Ryba po kaszubsku (Kashubian-style fish)"
+      - "Kashubian soups"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kashubian folk costume, worn at Kashubian festivals and gatherings"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Standard office hours; port and logistics operate around the clock for shipping."
+  notes: "National Sunday trading ban applies. Kashubian-speaking pockets are mainly rural; Polish is universal in offices and the tri-city."
+  sourceIds: [pol-act-2018-sunday-trading]
+sources:
+  - id: pol-act-2018-sunday-trading
+    name: "Act of 10 January 2018 on the restriction of trade on Sundays and public holidays"
+    publisher: "Ministry of Family, Labour and Social Policy (Republic of Poland)"
+    url: "https://www.gov.pl/web/family/trade-on-sundays"
+    year: 2018
+    accessedDate: "2026-09-14"
+    note: "The general Sunday-trading prohibition, applying uniformly across Pomerania."

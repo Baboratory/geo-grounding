@@ -63,16 +63,16 @@ ROOT = Path(__file__).resolve().parent.parent
 FORMAT_CHECKER = FormatChecker()
 
 
-def load_schema(name: str) -> dict:
-    with open(ROOT / "schema" / name) as f:
+def load_schema(name: str, root: Path = ROOT) -> dict:
+    with open(root / "schema" / name) as f:
         schema = json.load(f)
     Draft7Validator.check_schema(schema)
     return schema
 
 
-def validate_glob(pattern: str, schema: dict, error_count: int) -> int:
+def validate_glob(pattern: str, schema: dict, error_count: int, root: Path = ROOT) -> int:
     validator = Draft7Validator(schema, format_checker=FORMAT_CHECKER)
-    for path in sorted(glob.glob(str(ROOT / pattern))):
+    for path in sorted(glob.glob(str(root / pattern))):
         with open(path) as f:
             data = yaml.safe_load(f)
         errs = list(validator.iter_errors(data))
@@ -86,19 +86,19 @@ def validate_glob(pattern: str, schema: dict, error_count: int) -> int:
     return error_count
 
 
-def validate_all() -> int:
-    country_schema = load_schema("country.schema.json")
-    region_schema = load_schema("region.schema.json")
-    language_schema = load_schema("language.schema.json")
+def validate_all(root: Path = ROOT) -> int:
+    country_schema = load_schema("country.schema.json", root)
+    region_schema = load_schema("region.schema.json", root)
+    language_schema = load_schema("language.schema.json", root)
 
     error_count = 0
-    error_count = validate_glob("data/countries/*/country.yaml", country_schema, error_count)
+    error_count = validate_glob("data/countries/*/country.yaml", country_schema, error_count, root)
     error_count = validate_glob(
-        "data/countries/*/distinct-regions/*.yaml", region_schema, error_count
+        "data/countries/*/distinct-regions/*.yaml", region_schema, error_count, root
     )
-    error_count = validate_glob("data/languages/*.yaml", language_schema, error_count)
+    error_count = validate_glob("data/languages/*.yaml", language_schema, error_count, root)
 
-    for path in sorted(glob.glob(str(ROOT / "data/languages/*.yaml"))):
+    for path in sorted(glob.glob(str(root / "data/languages/*.yaml"))):
         with open(path) as f:
             data = yaml.safe_load(f)
         expected_code = Path(path).stem
@@ -109,8 +109,8 @@ def validate_all() -> int:
                 f"says '{expected_code}' — these must match"
             )
 
-    known_language_codes = {Path(p).stem for p in glob.glob(str(ROOT / "data/languages/*.yaml"))}
-    for path in sorted(glob.glob(str(ROOT / "data/countries/*/country.yaml"))):
+    known_language_codes = {Path(p).stem for p in glob.glob(str(root / "data/languages/*.yaml"))}
+    for path in sorted(glob.glob(str(root / "data/countries/*/country.yaml"))):
         with open(path) as f:
             data = yaml.safe_load(f)
         for entry in data.get("languageUsage", []):
@@ -169,17 +169,17 @@ def validate_all() -> int:
             seen_business_rhythm_source_ids.add(source_id)
         return errs
 
-    for path in sorted(glob.glob(str(ROOT / "data/countries/*/country.yaml"))):
+    for path in sorted(glob.glob(str(root / "data/countries/*/country.yaml"))):
         with open(path) as f:
             data = yaml.safe_load(f)
         error_count += check_source_ids(path, data)
 
-    for path in sorted(glob.glob(str(ROOT / "data/countries/*/distinct-regions/*.yaml"))):
+    for path in sorted(glob.glob(str(root / "data/countries/*/distinct-regions/*.yaml"))):
         with open(path) as f:
             data = yaml.safe_load(f)
         error_count += check_source_ids(path, data)
 
-    for path in sorted(glob.glob(str(ROOT / "data/countries/*/country.yaml"))):
+    for path in sorted(glob.glob(str(root / "data/countries/*/country.yaml"))):
         with open(path) as f:
             data = yaml.safe_load(f)
         for tz in data.get("timezones", []):
@@ -198,7 +198,7 @@ def validate_all() -> int:
                 )
 
     subdivided_types = {"federal", "unitary-large"}
-    for path in sorted(glob.glob(str(ROOT / "data/countries/*/country.yaml"))):
+    for path in sorted(glob.glob(str(root / "data/countries/*/country.yaml"))):
         with open(path) as f:
             data = yaml.safe_load(f)
         governance_type = data.get("governanceType")
@@ -220,7 +220,7 @@ def validate_all() -> int:
                 f"iso3166_2_prefix={expected_prefix!r}, but it's {prefix!r}"
             )
 
-    for path in sorted(glob.glob(str(ROOT / "data/countries/*/country.yaml"))):
+    for path in sorted(glob.glob(str(root / "data/countries/*/country.yaml"))):
         with open(path) as f:
             data = yaml.safe_load(f)
         entries = data.get("distinct-regions", [])
@@ -313,7 +313,7 @@ def validate_all() -> int:
                     f"— these must match"
                 )
 
-    for path in sorted(glob.glob(str(ROOT / "data/countries/*/distinct-regions/*.yaml"))):
+    for path in sorted(glob.glob(str(root / "data/countries/*/distinct-regions/*.yaml"))):
         with open(path) as f:
             data = yaml.safe_load(f)
 

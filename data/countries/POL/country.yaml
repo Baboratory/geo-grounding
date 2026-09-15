@@ -1,0 +1,194 @@
+alpha3: POL
+alpha2: PL
+name:
+  eng: Poland
+  local:
+    - languageCode: pol
+      value: Polska
+flagEmoji: "🇵🇱"
+capital: Warsaw
+isSovereign: true
+# Classified unitary-large: population ~38M is well above the threshold and
+# Poland has 16 widely-recognized voivodeships (województwa) with a meaningful
+# cultural-historical regional identity, so real ISO 3166-2 region files are
+# curated (a subset) alongside the WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: PL
+hasSubdivisions: true
+languageUsage:
+  - languageCode: pol
+    domain: official
+    speakersShare: 1.0
+    sourceId: pol-constitution-art27
+  - languageCode: pol
+    domain: locallySpoken
+    speakersShare: 0.97
+    sourceId: gus-census-2021
+  - languageCode: deu
+    domain: locallySpoken
+    speakersShare: 0.0055
+    sourceId: gus-census-2021
+  - languageCode: ukr
+    domain: locallySpoken
+    speakersShare: 0.0012
+    sourceId: gus-census-2021
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.27
+    sourceId: eurobarometer-540-2024
+# Kashubian (csb) is Poland's only statutorily recognized 'regional language',
+# but it is not one of the ~1% home-language shares that reach the 0.5%+
+# locallySpoken threshold worth listing here — it is noted at the PL-22
+# (Pomerania) region level instead.
+ethnicGroups:
+  - group: Polish
+    percent: 98.8
+    sourceId: gus-census-2021
+  - group: Silesian
+    percent: 1.6
+    sourceId: gus-census-2021
+  - group: Kashubian
+    percent: 0.5
+    sourceId: gus-census-2021
+  - group: German
+    percent: 0.4
+    sourceId: gus-census-2021
+  - group: Ukrainian
+    percent: 0.2
+    sourceId: gus-census-2021
+  - group: Belarusian
+    percent: 0.1
+    sourceId: gus-census-2021
+timezones:
+  - name: Europe/Warsaw
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU-wide schedule)."
+currency:
+  code: PLN
+  symbol: "zł"
+  name: Polish złoty
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data (names, emails, behavioral data, etc.) requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure — the EU-wide GDPR, directly applicable in Poland."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge."
+    sourceId: eu-directive-2019-771
+  - topic: "Sunday trading restriction"
+    description: "Since the Act of 10 January 2018 (fully in effect from 2020), retail trade is generally prohibited on Sundays and public holidays. Only a limited number of 'trading Sundays' (~7 per year) are allowed. Exemptions include petrol stations, pharmacies, restaurants, souvenir/religious shops, airports/rail stations, and small owner-operated shops — highly relevant when scheduling outreach or deliveries."
+    sourceId: pol-act-2018-sunday-trading
+paymentMethodShares:
+  - method: "cash (point-of-sale retail)"
+    percent: 35.0
+    sourceId: cashless-poland-2023
+  - method: "card & mobile payment (point-of-sale retail)"
+    percent: 65.0
+    sourceId: cashless-poland-2023
+paymentCulture:
+  popularMethods:
+    - Visa and Mastercard-branded debit/credit cards
+    - Contactless card and NFC mobile/wearable payments (widely used)
+    - BLIK — Poland's mobile payment system, dominant in online/e-commerce
+    - Online bank transfers and payment links
+    - Cash (still used for ~a third of point-of-sale transactions, and small services/artisans)
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up or leaving ~5-10% at restaurants is appreciated but not expected"
+    autoIncludedInBill: false
+    note: "Service is not automatically added to the bill in Polish restaurants; cash tips are common for good service, but tipping is not obligatory."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Formal and fairly hierarchical in business. Use 'Pan' (Mr) / 'Pani' (Mrs) with the surname or title until invited to use first names — switching to first names happens fairly quickly in business but is always initiated, not assumed. Titles and degrees matter."
+  greetingNorms: "Firm handshake with direct eye contact, both on arriving and leaving. Among friends, two or three cheek kisses; in business, a handshake is standard."
+  meetingEtiquette: "Punctuality is expected. Business cards are commonly exchanged at first meetings. Meetings open with a little small talk before business; communication is direct and to the point — Poles value honesty over softened phrasing. Decision-making tends to be top-down and may require senior sign-off."
+  topicsToAvoid:
+    - "Religion and church-state politics (sensitive despite majority Catholic identification)"
+    - "Recent Polish political divisions and rule-of-law disputes"
+    - "Shared war-era history with Germany and Russia, beyond a respectful, neutral tone"
+    - "Personal income/salary"
+    - "Questioning Poland's EU membership or NATO alignment (settled matters)"
+  giftGivingNotes: "Not expected at a first business meeting; a small, tasteful gift is appreciated once a relationship develops. If invited to a home, bring flowers or chocolates; give an ODD number of flowers (even numbers are for funerals) and avoid chrysanthemums and red carnations (funeral flowers)."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: PL-14
+    file: distinct-regions/pl-14.yaml
+    adminUnitCodes: [PL-14]
+  - code: PL-22
+    file: distinct-regions/pl-22.yaml
+    adminUnitCodes: [PL-22]
+  - code: PL-12
+    file: distinct-regions/pl-12.yaml
+    adminUnitCodes: [PL-12]
+sources:
+  - id: pol-constitution-art27
+    name: "Konstytucja Rzeczypospolitej Polskiej (Constitution of the Republic of Poland), Article 27"
+    publisher: "Sejm Rzeczypospolitej Polskiej (Parliament of the Republic of Poland)"
+    url: "https://lexlege.pb.pl/konstytucja-rzeczypospolitej-polskiej/art-27/"
+    year: 1997
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Polish being the country's sole official language (Article 27), with an explicit carve-out preserving minority-language rights."
+  - id: gus-census-2021
+    name: "National Population and Housing Census 2021 — ethnicity, language and religion results"
+    publisher: "Główny Urząd Statystyczny (GUS, Statistics Poland)"
+    url: "https://stat.gov.pl/en/national-census/national-population-and-housing-census-2021/final-results-of-the-national-population-and-housing-census-2021/"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "Declared-nationality shares for ethnicGroups (Polish 98.8%, Silesian 1.6%, Kashubian 0.5%, German 0.4%, Ukrainian 0.2%, Belarusian 0.1% — note respondents could declare multiple nationalities, so shares can overlap); languages used at home (German ~0.55%, Ukrainian ~0.12%); and religious-affiliation shares (Roman Catholic 71.3%, no religion 6.9%, Orthodox 0.4%, Jehovah's Witnesses 0.3%, Lutheran 0.2%, not-stated 20.5%)."
+  - id: eurobarometer-540-2024
+    name: "Special Eurobarometer 540 — Europeans and their languages (2024)"
+    publisher: "European Commission (Eurobarometer)"
+    url: "https://europa.eu/eurobarometer/surveys/detail/2979"
+    year: 2024
+    accessedDate: "2026-09-14"
+    note: "The share of Poles able to hold a conversation in English as a foreign language (27%), among the EU's lowest figures."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-14"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Poland as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-14"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Poland as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-14"
+    note: "The legal basis for the GDPR data-protection rules applying to personal-data collection/processing in Poland as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-14"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."
+  - id: pol-act-2018-sunday-trading
+    name: "Act of 10 January 2018 on the restriction of trade on Sundays and public holidays and on certain other days"
+    publisher: "Ministry of Family, Labour and Social Policy (Republic of Poland)"
+    url: "https://www.gov.pl/web/family/trade-on-sundays"
+    year: 2018
+    accessedDate: "2026-09-14"
+    note: "The legal basis for the general Sunday-trading prohibition (fully effective 2020), the ~7 permitted trading Sundays per year, and the exempt sectors. Drives businessRhythm.restDays."
+  - id: cashless-poland-2023
+    name: "Cashless Poland case study — 65% of Polish point-of-sale transactions were cashless in 2023"
+    publisher: "Mastercard, in partnership with the Polish Bank Association and the Polish Ministry of Development & Technology (Cashless Poland program)"
+    url: "https://mastercard.com/content/dam/mccom/shared/news-and-trends/insights/2024/in-poland%2C-cashless-payments-at-businesses-have-nearly-doubled-through-the-cashless-poland-program/pdf/Cashless_Poland_case_study.pdf"
+    year: 2023
+    accessedDate: "2026-09-14"
+    note: "RELIABLE SECONDARY source (flagged: the National Bank of Poland publishes qualitative payment-habits reports but no single clean method-share table. The 65% cashless / 35% cash point-of-sale split is the most-cited figure and is corroborated by NBP-data-based reporting."

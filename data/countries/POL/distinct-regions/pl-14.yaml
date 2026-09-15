@@ -1,0 +1,54 @@
+code: PL-14
+name:
+  eng: Mazovia
+  local:
+    - languageCode: pol
+      value: Mazowieckie
+climates:
+  - koppenCode: Dfb
+    description: "Warm-summer humid continental: cold winters, warm summers."
+landmarks:
+  - name: Historic Centre of Warsaw
+    description: "UNESCO-listed reconstructed Old Town."
+    unescoWorldHeritage: true
+  - name: Royal Castle and Łazienki Palace (Warsaw)
+    description: "Historic royal and park ensemble."
+  - name: Wilanów Palace
+    description: "The 'Polish Versailles' in Warsaw."
+culturalTraits:
+  - "Cosmopolitan, fast-paced metropolis around Warsaw; the economic and political engine of Poland"
+  - "Historic flatland/plain region with a strong rural-palace and noble (szlachta) heritage"
+  - "Warsaw's wartime destruction and meticulous reconstruction is central to local identity"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kotlet schabowy (breaded pork cutlet)"
+      - "Pierogi"
+      - "Cebularz (onion flatbread)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Warsaw/Mazovia regional folk dress, worn mainly at festivals"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "9:00am-5:00pm typical for offices; retail follows national Sunday-trading rules."
+  notes: "Warsaw is the corporate/financial hub; most multinationals and agencies are here. The Sunday trading ban applies in full."
+  sourceIds: [pol-act-2018-sunday-trading]
+sources:
+  - id: pol-act-2018-sunday-trading
+    name: "Act of 10 January 2018 on the restriction of trade on Sundays and public holidays"
+    publisher: "Ministry of Family, Labour and Social Policy (Republic of Poland)"
+    url: "https://www.gov.pl/web/family/trade-on-sundays"
+    year: 2018
+    accessedDate: "2026-09-14"
+    note: "The general Sunday-trading prohibition, applying uniformly across Mazovia."

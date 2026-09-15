@@ -1,10 +1,11 @@
 name: Validate
 
 # Runs the exact same checks CONTRIBUTING.md asks a human to run before
-# proposing a change (black, ruff, mypy, codespell, yamllint, and
-# scripts/validate.py's schema + cross-file rules, all via pre-commit)
-# -- so a contributor gets automatic feedback on a PR even if they
-# forgot to install/run the pre-commit hooks locally.
+# proposing a change (black, ruff, mypy, codespell, yamllint,
+# scripts/validate.py's schema + cross-file rules, and
+# tests/test_validate.py's regression suite for validate.py itself, all
+# via pre-commit) -- so a contributor gets automatic feedback on a PR
+# even if they forgot to install/run the pre-commit hooks locally.
 
 on:
   push:
@@ -20,9 +21,10 @@ jobs:
         with:
           python-version: "3.11"
       # pre-commit's own hooks (black/ruff/mypy/codespell/yamllint) manage
-      # their own pinned environments, but the local validate-data hook
-      # runs scripts/validate.py directly against this job's Python, so
-      # its dependencies (pyyaml, jsonschema) need to be installed here.
+      # their own pinned environments, but the local validate-data/
+      # validate-tests hooks run scripts/validate.py and pytest directly
+      # against this job's Python, so their dependencies (pyyaml,
+      # jsonschema, pytest) need to be installed here.
       - name: Install dependencies
         run: pip install -e ".[dev]"
       - uses: pre-commit/action@v3.0.1

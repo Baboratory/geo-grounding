@@ -1,0 +1,43 @@
+code: FI-01
+name:
+  eng: Åland
+  local:
+    # Swedish is the sole official language of the autonomous Åland Islands, so
+    # the local name is given in Swedish only (not Finnish) — the region-local
+    # rule means only the language(s) actually used there, per CONTRIBUTING.md.
+    - languageCode: swe
+      value: Landskapet Åland
+climates:
+  - koppenCode: Cfb
+    description: "Oceanic/hemiboreal climate moderated by the Baltic: milder winters and cooler summers than the mainland."
+landmarks:
+  - name: Mariehamn
+    description: "The capital and ferry hub, with maritime museums and the Pommern sailing ship."
+  - name: Kastelholm Castle
+    description: "Medieval castle, the only one on the islands."
+culturalTraits:
+  - "Swedish-speaking island identity within an autonomous, demilitarized archipelago"
+  - "Strong maritime, seafaring and ferry tradition"
+  - "Self-government via its own parliament (Lagting)"
+prideOf:
+  - "Autonomy and a distinct Swedish-speaking culture"
+  - "The maritime heritage and large archipelago of ~6,700 islands"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Åland pancake (åländsk pannkaka) with plum jam"
+      - "Baltic herring and seafood dishes from the archipelago"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Standard Finnish office hours; summer tourism (ferries, cruising) peaks in June-August."
+  notes: "A major ferry hub between Finland and Sweden; seasonal summer tourism is the economic driver. Officially Swedish-language, so local business communication is commonly in Swedish."

@@ -1,0 +1,47 @@
+code: SE-I
+name:
+  eng: Gotland County
+  local:
+    - languageCode: swe
+      value: Gotlands län
+climates:
+  - koppenCode: Cfb
+    description: "One of the sunniest and driest of Sweden's counties, with a mild, maritime climate and a long coastal summer tourism season."
+landmarks:
+  - name: Hanseatic Town of Visby
+    description: "UNESCO World Heritage town with a 13th-century ring wall and well-preserved medieval streets."
+    unescoWorldHeritage: true
+  - name: Gotland raukar
+    description: "Unusual weathered limestone sea-stacks shaped by millennia of erosion."
+  - name: Fårö island
+    description: "The isolated northern island, beloved of filmmaker Ingmar Bergman."
+culturalTraits:
+  - "Distinct island identity and medieval heritage (over 90 medieval churches)"
+  - "Single county = single municipality (Region Gotland), unique in Sweden"
+  - "Rural, coastal community life with strong summer tourism"
+prideOf:
+  - "The UNESCO-listed town of Visby and medieval heritage"
+  - "Sunny limestone landscape and unique geology"
+  - "A strong archaeological and rural tradition"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Smoked/pickled seafood from the Baltic around the island"
+  - season: allYear
+    items:
+      - "Gotland-specific lamb dishes (the island is known for sheep farming) and local cheeses"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard Swedish office hours; the economy is strongly seasonal around summer tourism."
+  notes: "Sweden's smallest county by population (~60,000) but a major summer-tourism destination; many hospitality businesses scale up sharply from June-August and scale down over winter."

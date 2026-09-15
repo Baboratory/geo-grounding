@@ -26,6 +26,7 @@ dev = [
   "codespell",
   "yamllint",
   "pre-commit",
+  "pytest",
 ]
 
 [tool.black]
@@ -49,4 +50,4 @@ disallow_untyped_defs = true
 
 [tool.codespell]
 skip = "*.json,.git"
-ignore-words-list = "pont,gard,socio-economic,connexion,handel"
+ignore-words-list = "pont,gard,socio-economic,connexion,handel,sme,ore,claus,dokument"
