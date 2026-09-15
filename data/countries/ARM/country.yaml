@@ -1,0 +1,144 @@
+alpha3: ARM
+alpha2: AM
+name:
+  eng: Armenia
+  local:
+    - languageCode: hye
+      value: Հայաստան (Hayastan)
+flagEmoji: "🇦🇲"
+capital: Yerevan
+isSovereign: true
+# Classified unitary-small: a small parliamentary republic (~2.93M, 2022 census)
+# with a single official language (Armenian) and no federalism (10 marzes +
+# Yerevan). Single synthetic WHOLE region. NOTE: Nagorno-Karabakh/Artsakh is NOT
+# under Armenian control as of 2023; official statistics cover the Republic of
+# Armenia proper.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: hye
+    domain: official
+    speakersShare: 1.0
+    sourceId: arm-constitution
+  - languageCode: hye
+    domain: locallySpoken
+    speakersShare: 0.98
+    sourceId: arm-census-2022
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.45
+    sourceId: arm-russian-est
+  - languageCode: kmr
+    domain: locallySpoken
+    speakersShare: 0.011
+    sourceId: arm-census-2022
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.1
+    sourceId: arm-english-est
+# Armenian is the sole official language (its own unique alphabet). Russian is a
+# widely-understood second/lingua franca (estimate, no official census figure).
+# Kurmanji Kurdish (kmr) is spoken by the Yazidi community (~1.1%).
+ethnicGroups:
+  - group: Armenians
+    percent: 98.1
+    sourceId: arm-census-2022
+  - group: Yazidis
+    percent: 1.1
+    sourceId: arm-census-2022
+  - group: Russians
+    percent: 0.3
+    sourceId: arm-census-2022
+  - group: Other minorities (Assyrians, Kurds, Greeks, Jews, Ukrainians)
+    percent: 0.5
+    sourceId: arm-census-2022
+timezones:
+  - name: Asia/Yerevan
+    standardUtcOffset: "UTC+4"
+    observesDst: false
+currency:
+  code: AMD
+  symbol: "֏"
+  name: Armenian dram
+legalConstraints:
+  - topic: "EU membership status"
+    description: "Armenia is NOT an EU member and does not apply EU directives, the GDPR or PSD2. Payment, consumer and data-protection law are national (e.g. the 2015 Law on Personal Data Protection, Central Bank of Armenia regulations)."
+    sourceId: arm-eu-status
+  - topic: "official language"
+    description: "Armenian is the sole official/state language (Constitution Article 12 and the 1993 Law on Language), in its own unique alphabet."
+    sourceId: arm-constitution
+  - topic: "currency"
+    description: "The Armenian dram (AMD) is the sole legal tender; foreign-currency payments are restricted under Central Bank of Armenia currency-control rules."
+    sourceId: arm-cba
+paymentMethodShares:
+  - method: "cashless card transactions (share of card transaction volume)"
+    percent: 56.0
+    sourceId: arm-cba-payments
+paymentCulture:
+  popularMethods:
+    - Cash (widely used for small retail, street markets, taxis, tips)
+    - Cards (Visa/Mastercard) accepted in most shops, restaurants, supermarkets and hotels; contactless common in Yerevan
+    - ArCa, the domestic card scheme
+    - Digital/mobile wallets and apps (Idram, Telcell, bank apps) for utilities and P2P — growing fast
+  tipping:
+    expected: false
+    typicalAmount: "~10% at restaurants is customary but not mandatory"
+    autoIncludedInBill: false
+    note: "Keep some dram on hand for small purchases; rural areas and small merchants may be cash-only."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Business culture is relationship-driven — expect small talk and offered coffee/tea (often Armenian coffee) before discussions. Address elders/authorities formally."
+  greetingNorms: "Warm greetings with inquiries about health and family; handshakes standard; close acquaintances may kiss on the cheek."
+  meetingEtiquette: "Hospitality (hyurynkalutyun) is central; direct criticism is softened to avoid confrontation. Punctuality appreciated but social gatherings often start late."
+  topicsToAvoid:
+    - "Nagorno-Karabakh/Artsakh and relations with Turkey/Azerbaijan — sensitive"
+    - "The 1915 genocide narrative, unless raised by the other party"
+  giftGivingNotes: "Hospitality is a point of national pride; refusing food/drink can cause offense. Modest gifts appreciated when visiting a home."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: arm-constitution
+    name: "Constitution of the Republic of Armenia (Article 12) and Law 'On Language' (17.04.1993)"
+    publisher: "National Assembly of the Republic of Armenia"
+    url: "http://www.parliament.am/legislation.php?sel=show&ID=1&lang=eng"
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Armenian being the sole official/state language of the Republic of Armenia."
+  - id: arm-census-2022
+    name: "2022 Population Census of the Republic of Armenia (ARMSTAT)"
+    publisher: "Statistical Committee of the Republic of Armenia (ARMSTAT)"
+    url: "https://www.armstat.am/en?nid=20"
+    year: 2022
+    accessedDate: "2026-09-14"
+    note: "Permanent population 2,932,731. Ethnic shares (Armenians 98.1%, Yazidis 1.1%, Russians 0.3%, other 0.5%); Armenian spoken by ~98.06% (locallySpoken 0.98); Kurmanji/Yazidi ~1.1%."
+  - id: arm-russian-est
+    name: "Russian as a widely-spoken second language in Armenia (estimate)"
+    publisher: "Secondary estimate; no official census figure"
+    url: "https://www.armstat.am/"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: Russian is widely understood and used as a second language/lingua franca in business and media; ~45% is an approximation as no official figure exists."
+  - id: arm-english-est
+    name: "English proficiency in Armenia (estimate)"
+    publisher: "Secondary estimate; no official census figure"
+    url: "https://www.armstat.am/"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: English is growing among the young, the IT sector, tourism and business; ~10% is an approximation."
+  - id: arm-cba
+    name: "Central Bank of Armenia (CBA) — currency and payments"
+    publisher: "Central Bank of the Republic of Armenia"
+    url: "https://www.cba.am/"
+    accessedDate: "2026-09-14"
+    note: "Currency (dram) and payment-regulation source; basis for the currency-control legal constraint."
+  - id: arm-cba-payments
+    name: "Central Bank of Armenia payment statistics (via Finport/ArmInfo)"
+    publisher: "Central Bank of Armenia (via Finport reporting)"
+    url: "https://finport.am/full_news.php?id=55636&lang=3"
+    accessedDate: "2026-09-14"
+    note: "Cashless card transactions reached 56% of total card-transaction volume (2025 data). Cash remains significant for small payments."
+  - id: arm-eu-status
+    name: "Armenia-EU relations (enlargement status)"
+    publisher: "European Commission / national reporting"
+    url: "https://www.consilium.europa.eu/"
+    accessedDate: "2026-09-14"
+    note: "Armenia is not an EU member; EU directives do not apply directly. (Armenia is a member of the Eurasian Economic Union; its EU relationship is via the Comprehensive and Enhanced Partnership Agreement.)"

@@ -1,0 +1,175 @@
+alpha3: AZE
+alpha2: AZ
+name:
+  eng: Azerbaijan
+  local:
+    - languageCode: aze
+      value: Azərbaycan
+flagEmoji: "🇦🇿"
+capital: Baku
+isSovereign: true
+# Classified unitary-small: population ~10.4M is below the unitary-large
+# threshold, Azerbaijani is the sole official language statewide, and although
+# there are historical regions the state is strongly centralized around Baku with
+# no institutionalized regional identity meeting the criteria. Single synthetic
+# WHOLE region. NOTE: the disputed Nagorno-Karabakh area context is documented
+# in the sources; the 2019 census ethnic figures did not fully cover it.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: aze
+    domain: official
+    speakersShare: 1.0
+    sourceId: aze-constitution
+  - languageCode: aze
+    domain: locallySpoken
+    speakersShare: 0.925
+    sourceId: aze-census
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.014
+    sourceId: aze-census
+  - languageCode: lez
+    domain: locallySpoken
+    speakersShare: 0.017
+    sourceId: aze-census-2019
+  - languageCode: rus
+    domain: foreign
+    speakersShare: 0.05
+    sourceId: aze-russian-est
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.05
+    sourceId: aze-english-est
+# Azerbaijani is the sole official language. Lezgian is the largest minority
+# language (~1.7%); Russian is the widely-understood Soviet-era second language.
+ethnicGroups:
+  - group: Azerbaijanis
+    percent: 94.8
+    sourceId: aze-census-2019
+  - group: Lezgins
+    percent: 1.68
+    sourceId: aze-census-2019
+  - group: Talysh
+    percent: 0.9
+    sourceId: aze-census-2019
+  - group: Russians
+    percent: 0.71
+    sourceId: aze-census-2019
+  - group: Armenians
+    percent: 0.16
+    sourceId: aze-census-2019
+  - group: Others (Avars, Tsakhurs, Udis, Tat, etc.)
+    percent: 1.75
+    sourceId: aze-census-2019
+timezones:
+  - name: Asia/Baku
+    standardUtcOffset: "UTC+4"
+    observesDst: false
+currency:
+  code: AZN
+  symbol: "₼"
+  name: Azerbaijani manat
+legalConstraints:
+  - topic: "EU membership status"
+    description: "Azerbaijan is NOT an EU member state and is not subject to EU law. EU directives such as the GDPR do not apply directly; national law governs."
+    sourceId: aze-eu-status
+  - topic: "official language"
+    description: "Azerbaijani is the sole official/state language (Constitution Article 21 and the 2002 Law on the State Language)."
+    sourceId: aze-constitution
+  - topic: "currency"
+    description: "The Azerbaijani manat (AZN) is the sole legal tender; prices must be quoted in manat and are subject to Central Bank exchange controls."
+    sourceId: aze-cba
+  - topic: "data protection (national law)"
+    description: "Personal data is regulated by the national Law on Personal Data (2010), not the GDPR."
+    sourceId: aze-data-law
+paymentMethodShares:
+  - method: "cashless (cards, POS, e-commerce, transfers)"
+    percent: 62.0
+    sourceId: aze-cba-payments
+  - method: "cash (point-of-sale)"
+    percent: 38.0
+    sourceId: aze-cba-payments
+paymentCulture:
+  popularMethods:
+    - Cash (manat) — still common for small purchases, markets, taxis, rural areas
+    - Payment cards (Visa/Mastercard, largely contactless), QR codes and mobile banking apps
+    - National e-commerce payment rails
+  tipping:
+    expected: false
+    typicalAmount: "~5-10% in restaurants when service is good, or rounding up"
+    autoIncludedInBill: false
+    note: "Not obligatory but customary in hospitality; tips given in cash manat. USD/EUR are generally not accepted for retail — exchange at banks."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal on first encounters: use the polite 'Siz' (you) and title + surname; switch to informal 'Sen' only when invited. Deference to age and seniority matters."
+  greetingNorms: "Men typically greet with a firm handshake and eye contact; women often greet with a nod/smile (let her extend the hand first). 'Salam' is common; it is customary to ask about health and family."
+  meetingEtiquette: "Punctuality appreciated though some flexibility is tolerated; business often happens over tea or a meal. Hierarchy matters — address the most senior person first. Hospitality: expect offers of tea, fruit and sweets."
+  topicsToAvoid:
+    - "The Nagorno-Karabakh conflict and relations with Armenia — highly sensitive"
+    - "Criticizing the national leadership, politics, or national symbols"
+  giftGivingNotes: "Gifts appreciated when visiting a home — quality tea, sweets, fruit or a small memento; offer and accept with both hands. Hospitality offers should be politely declined at first and accepted when pressed."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: aze-constitution
+    name: "Constitution of the Republic of Azerbaijan (Article 21) and the 2002 Law on the State Language"
+    publisher: "Milli Majlis (Parliament) of the Republic of Azerbaijan"
+    url: "https://president.az/en/pages/view/azerbaijan/constitution"
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Azerbaijani being the sole official/state language, and for the state's secularity (Article 18)."
+  - id: aze-census
+    name: "Population census — distribution by native language (2009)"
+    publisher: "State Statistical Committee of the Republic of Azerbaijan (ARDSTAT)"
+    url: "https://www.stat.gov.az/source/demoqraphy/?lang=en"
+    year: 2009
+    accessedDate: "2026-09-14"
+    note: "Native-language shares: Azerbaijani 92.5% (locallySpoken 0.925), Russian 1.4% (locallySpoken). The most recent published native-language breakdown."
+  - id: aze-census-2019
+    name: "2019 Population Census — national (ethnic) composition"
+    publisher: "State Statistical Committee of the Republic of Azerbaijan (ARDSTAT)"
+    url: "https://www.stat.gov.az/source/demoqraphy/?lang=en"
+    year: 2019
+    accessedDate: "2026-09-14"
+    note: "Ethnic shares (Azerbaijanis 94.8%, Lezgins 1.68%, Talysh 0.9%, Russians 0.71%, Armenians 0.16%, others 1.75%). The 2019 census did not fully cover the then-Armenian-populated Karabakh area."
+  - id: aze-russian-est
+    name: "Russian as a second language in Azerbaijan (estimate)"
+    publisher: "Secondary synthesis of ARDSTAT census data (flagged as estimate)"
+    url: "https://www.stat.gov.az/source/demoqraphy/?lang=en"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: beyond the ~1.4% native Russian speakers, a notable further share (roughly 5%) use Russian as a practical second/foreign language. Exact figures not published."
+  - id: aze-english-est
+    name: "EF English Proficiency Index — Azerbaijan (secondary)"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    year: 2019
+    accessedDate: "2026-09-14"
+    note: "English proficiency is low-moderate (~estimate 5%); growing among the young, educated, IT and tourism sectors."
+  - id: aze-cba
+    name: "Central Bank of the Republic of Azerbaijan — currency and payments"
+    publisher: "Central Bank of the Republic of Azerbaijan (CBA)"
+    url: "https://www.cbar.az/"
+    accessedDate: "2026-09-14"
+    note: "Currency (manat) and payment-regulation source; basis for the currency-control legal constraint."
+  - id: aze-cba-payments
+    name: "Digital Payments Report 2023 (Central Bank of the Republic of Azerbaijan)"
+    publisher: "Central Bank of the Republic of Azerbaijan (CBA)"
+    url: "https://www.cbar.az/assets/PS%20annual%20report%20ENG.pdf"
+    year: 2024
+    accessedDate: "2026-09-14"
+    note: "Cashless operations accounted for 62% of total payment-card operations by number (66% by value) in 2023; cash ~38% (derived complement)."
+  - id: aze-data-law
+    name: "Law of the Republic of Azerbaijan on Personal Data (11 May 2010)"
+    publisher: "Milli Majlis (Parliament) of the Republic of Azerbaijan"
+    url: "https://president.az/"
+    year: 2010
+    accessedDate: "2026-09-14"
+    note: "National personal-data law; the EU GDPR does not apply directly."
+  - id: aze-eu-status
+    name: "Azerbaijan-EU relations"
+    publisher: "European Commission / national reporting"
+    url: "https://www.consilium.europa.eu/"
+    accessedDate: "2026-09-14"
+    note: "Azerbaijan is not an EU member; EU directives do not apply directly."
