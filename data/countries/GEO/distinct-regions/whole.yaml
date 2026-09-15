@@ -1,0 +1,137 @@
+code: WHOLE
+name:
+  eng: Georgia
+  local:
+    - languageCode: kat
+      value: საქართველო (Sakartvelo)
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Georgia is classified
+# unitary-small (single synthetic WHOLE region).
+climates:
+  - koppenCode: Cfa
+    description: "Subtropical humid along the Black Sea coast (Batumi, Adjara): mild, wet winters and warm, humid summers."
+  - koppenCode: Dfb
+    description: "Continental across the interior lowlands (Kartli, Kakheti): hot summers and cold winters."
+  - koppenCode: BSk
+    description: "Temperate steppe/arid conditions in the southeast (Kvemo Kartli)."
+  - koppenCode: Dfc
+    description: "Highland and alpine in the Greater and Lesser Caucasus (Svaneti, Tusheti, Kazbegi): long snowy winters."
+landmarks:
+  - name: Tbilisi Old Town
+    description: "The medieval-to-19th-century capital district with sulphur bathhouses, Narikala Fortress and eclectic architecture."
+  - name: Mtskheta
+    description: "The former capital, UNESCO World Heritage (Jvari Monastery, Svetitskhoveli Cathedral)."
+    unescoWorldHeritage: true
+  - name: Gelati Monastery
+    description: "UNESCO World Heritage medieval monastic complex near Kutaisi (Golden Age)."
+    unescoWorldHeritage: true
+  - name: Vardzia
+    description: "A cave-monastery complex carved into Erusheti Mountain."
+  - name: Upper Svaneti (Ushguli)
+    description: "UNESCO-listed high-mountain village with medieval defensive towers."
+    unescoWorldHeritage: true
+  - name: Kazbegi (Stepantsminda) and Gergeti Trinity Church
+    description: "The landmark church beneath Mount Kazbek."
+  - name: Kakheti wine region
+    description: "Georgia's principal winemaking region (Sighnaghi, Telavi, Alaverdi)."
+culturalTraits:
+  - "The supra — the traditional Georgian feast with a tamada (toastmaster) leading heartfelt toasts"
+  - "One of the world's oldest wine regions, with the 8,000-year-old qvevri (clay amphora) winemaking tradition (UNESCO Intangible Heritage)"
+  - "Georgia's legendary hospitality — guests are treated as a gift from God"
+  - "Polyphonic folk choral singing (UNESCO Intangible Cultural Heritage) and dance traditions"
+prideOf:
+  - "The unique Georgian alphabet (Mkhedruli) and language"
+  - "Early Christian heritage and monastic architecture"
+  - "8,000-year-old winemaking and the qvevri tradition"
+  - "Wrestling (chidaoba), rugby success, and the Caucasus peaks (Mt. Kazbek 5,033m)"
+animals:
+  popular:
+    - "The Caucasian leopard (rare, protected)"
+    - "Caucasian brown bear, wolf, lynx, chamois and East Caucasian tur"
+    - "Golden eagle and griffon vulture"
+  unique:
+    - "The Caucasian leopard (Panthera pardus tulliana)"
+    - "The Caucasian Shepherd Dog (domestic)"
+    - Bezoar ibex
+industries:
+  - Agriculture and wine (Kakheti vineyards, qvevri winemaking)
+  - Tourism and hospitality (Black Sea resorts, mountain and cultural tourism)
+  - Mining and minerals (manganese, copper, gold)
+  - Energy (hydroelectric power, incl. the Enguri Dam)
+  - Food processing, hazelnuts, tea, mineral waters (Borjomi)
+  - Financial services and the transit corridor between the Black Sea, Caucasus and Central Asia
+sports:
+  - Rugby union (the national passion; Georgia competes in World Cups)
+  - Wrestling (chidaoba folk wrestling and freestyle/Greco-Roman Olympic wrestling)
+  - Judo (multiple Olympic medals)
+  - Weightlifting and basketball
+  - Football and mountaineering
+religions:
+  - name: Orthodox Christian (Georgian Orthodox)
+    percent: 83.4
+    sourceId: geo-census-2014
+  - name: Muslim
+    percent: 10.7
+    sourceId: geo-census-2014
+  - name: Armenian Apostolic
+    percent: 2.9
+    sourceId: geo-census-2014
+# The remainder (Roman Catholic, Yazidi and others) is omitted for brevity.
+entertainment:
+  - season: summer
+    items:
+      - "Black Sea beach resorts (Batumi) and mountain trekking"
+      - "Supra feasts and wine tastings in Kakheti"
+      - "Sulphur baths (Abanotubani) and open-air festivals"
+  - season: winter
+    items:
+      - "Ski resorts (Gudauri, Bakuriani)"
+      - "Café culture and indoor music in Tbilisi"
+      - "New Year (the biggest celebration, Dec-Jan) and Orthodox Christmas (7 Jan)"
+  - season: allYear
+    items:
+      - "Wine and qvevri cellar tours in Kakheti"
+      - "Traditional dance performances (Sukhishvili ballet)"
+      - "Tbilisi's nightlife, jazz and rock scenes"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Fresh grilled mtsvadi (shashlik) and summer salads"
+      - "Adjarian boat-style khachapuri"
+  - season: winter
+    items:
+      - "Khinkali (soup dumplings) and hearty stews (lobio)"
+      - "Shkmeruli (garlic-baked chicken)"
+      - "Satsivi (cold chicken in walnut sauce)"
+  - season: allYear
+    items:
+      - "Khachapuri (cheese bread), the national comfort food"
+      - "Khinkali, badrijani nigvzit and pkhali"
+      - "Churchkhela, Saperavi/Rkatsiteli wines and chacha"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The chokha — the traditional woolen male coat, worn at celebrations and supra; women's ornate embroidered dresses with vests and belts; papakhi and regional hats — today mainly for folklore, weddings and dance"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Working week Monday-Friday, typically 10:00am-6:00/7:00pm; government and banks often open ~9:00/10:00am and may close early Friday."
+  notes: "Meeting culture is relationship-driven — expect social time before a formal agenda, with a shared meal or coffee common. Business slows during New Year, Orthodox Easter and the grape-harvest season."
+sources:
+  - id: geo-census-2014
+    name: "GEOSTAT 2014 Population Census — religion"
+    publisher: "National Statistics Office of Georgia (GEOSTAT)"
+    url: "https://geostat.ge/en/modules/categories/41/population"
+    year: 2014
+    accessedDate: "2026-09-14"
+    note: "Religious affiliation (2014 census): Orthodox Christian 83.4%, Muslim 10.7%, Armenian Apostolic 2.9%; the remainder is Roman Catholic, Yazidi and other groups, omitted for brevity. Figures exclude the occupied territories."

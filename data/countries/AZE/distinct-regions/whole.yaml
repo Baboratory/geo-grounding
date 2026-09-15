@@ -1,0 +1,133 @@
+code: WHOLE
+name:
+  eng: Azerbaijan
+  local:
+    - languageCode: aze
+      value: Azərbaycan
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Azerbaijan is classified
+# unitary-small (single synthetic WHOLE region).
+climates:
+  - koppenCode: BSk
+    description: "Semi-arid/subtropical dry on the Caspian coast and Baku: hot dry summers and mild winters."
+  - koppenCode: Cfa
+    description: "Humid subtropical in the Talysh/Lankaran region (southeast)."
+  - koppenCode: Dfb
+    description: "Temperate continental on the interior plains (Ganja); highland alpine in the Caucasus."
+landmarks:
+  - name: Walled City of Baku
+    description: "UNESCO World Heritage site with the Shirvanshah's Palace and the Maiden Tower."
+    unescoWorldHeritage: true
+  - name: Gobustan Rock Art Cultural Landscape
+    description: "UNESCO World Heritage site with over 6,000 prehistoric rock engravings."
+    unescoWorldHeritage: true
+  - name: Historic Centre of Sheki with the Khan's Palace
+    description: "UNESCO World Heritage site in the northwest."
+    unescoWorldHeritage: true
+  - name: Hyrcanian Forests
+    description: "UNESCO-listed transboundary natural forests."
+    unescoWorldHeritage: true
+  - name: Ateshgah Fire Temple
+    description: "The ancient 'Land of Fire' Zoroastrian fire temple near Baku."
+  - name: Flame Towers and Baku Boulevard
+    description: "Icons of modern Baku along the Caspian seafront."
+  - name: Mud volcanoes of Gobustan
+    description: "Concentrated mud-volcano field."
+culturalTraits:
+  - "A Turkic identity with deep Persian/Caucasian/Soviet influences"
+  - "Hospitality as a core virtue; a rich tea (çay) culture with teahouses (çayxana)"
+  - "Mugham music and Azerbaijani carpet-weaving (both UNESCO Intangible Cultural Heritage)"
+  - "Novruz (the Persian New Year, late March) is the biggest celebration"
+prideOf:
+  - "The 'Land of Fire' — ancient fire-worshipping and oil heritage"
+  - "Mugham music and carpet weaving"
+  - "Nizami Ganjavi, its literary heritage, and the resilient national identity"
+  - "Baku's Caspian waterfront and oil-boom architecture; UNESCO heritage sites"
+animals:
+  popular:
+    - "Caspian seal (the only marine mammal in the Caspian, endangered, endemic)"
+    - "The goitered (Caspian) gazelle — symbol of the steppes"
+    - "Caucasian leopard and mouflon"
+    - Flamingos and migratory birds of the Caspian wetlands
+  unique:
+    - "The Caspian seal (endemic to the Caspian)"
+    - "The Caspian tiger (historically present, extinct in the 20th century)"
+    - "The Karadag horse"
+industries:
+  - Oil and gas (the backbone of the economy — SOCAR, BTC/SCG pipelines, Shah Deniz gas)
+  - Petrochemicals and aluminum
+  - Agriculture (cotton, grapes, fruits, saffron, hazelnuts)
+  - Food processing, tourism (Caspian resorts, mud volcanoes, mountain towns)
+  - Construction, IT/digital services and textiles
+sports:
+  - Wrestling (the national passion — many Olympic and world medals)
+  - Judo, karate, boxing and weightlifting
+  - Chess (Garry Kasparov was born in Baku)
+  - Football (FK Qarabag, the national team) and rhythmic gymnastics
+religions:
+  - name: Islam (predominantly Shia)
+    percent: 96.0
+    sourceId: aze-religion-2022
+  - name: Christian (Russian Orthodox, Georgian Orthodox, Armenian Apostolic, Protestant, Catholic)
+    percent: 3.0
+    sourceId: aze-religion-2022
+# The remaining ~1% is Jews, Baha'is and other/unaffiliated. Religious
+# affiliation is largely cultural; the state is strictly secular.
+entertainment:
+  - season: summer
+    items:
+      - "Baku's Caspian seafront (Baku Boulevard) and Absheron beaches"
+      - "Open-air Mugham and music festivals; Novruz and summertime park life"
+      - "Outdoor teahouses"
+  - season: winter
+    items:
+      - "Mountain resort season (Qusar/Shahdag — skiing and snowboarding)"
+      - "Cozy teahouses; indoor Mugham concerts, opera and theatre in Baku"
+      - "Novruz baking and family gatherings"
+  - season: allYear
+    items:
+      - "Mugham and national-music performances; the National Carpet Museum"
+      - "The Heydar Aliyev Center and Baku old city (Icheri Sheher) walks"
+      - "Teahouse culture (çayxana) and chess clubs"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Grilled meats and kebabs; dolma (stuffed vine leaves/vegetables)"
+      - "Qutab (stuffed flatbread) and fresh salads with pomegranate"
+  - season: winter
+    items:
+      - "Piti (slow-cooked lamb and chickpea stew in a clay pot)"
+      - "Dushbara (tiny meat dumplings in broth) and hearty plovs"
+      - "Shekerbura and pakhlava sweets around Novruz"
+  - season: allYear
+    items:
+      - "Plov (pala plov) — the national rice dish with saffron, meat, chestnuts and dried fruit"
+      - "Dolma, kebab, qutab and grilled Caspian fish (baliq)"
+      - "Azerbaijani tea with jam; pomegranate and saffron specialties"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "National dress — men's chokha (long belted coat) and papakha (fur hat); women's ornamented long dresses and headscarves with embroidery — worn at weddings, Novruz and folklore festivals"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Approx 9:00am-6:00pm (public sector often 9:00am-6:00pm with a lunch break; many businesses 9/10:00am-6/7:00pm)."
+  notes: "Friday is a normal working day. Business is relationship-driven — first meetings often involve tea. Avoid scheduling around Novruz (late March) and the summer holiday season. Baku is the commercial hub."
+sources:
+  - id: aze-religion-2022
+    name: "2022 Report on International Religious Freedom: Azerbaijan (citing 2011 SCWRA data)"
+    publisher: "U.S. Department of State / State Committee on Work with Religious Organizations (SCWRA)"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/azerbaijan"
+    year: 2022
+    accessedDate: "2026-09-14"
+    note: "Religious composition per the most recent available SCWRA data (2011): ~96% Muslim (predominantly Shia, with a significant Sunni minority), ~3% Christian (mainly Russian Orthodox), remainder ~1% Jews/Baha'is/unaffiliated. Affiliation is largely cultural/nominal."

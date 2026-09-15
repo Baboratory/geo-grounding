@@ -1,0 +1,125 @@
+code: WHOLE
+name:
+  eng: Armenia
+  local:
+    - languageCode: hye
+      value: Հայաստան (Hayastan)
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Armenia is classified
+# unitary-small (single synthetic WHOLE region).
+climates:
+  - koppenCode: Dfb
+    description: "Highland continental: cold, snowy winters (frequently -10 to -15°C in Yerevan) and hot, dry summers (35-40°C in July/August), with sharp altitude variation from ~400 m (Ararat plain) to 4,090 m (Mt. Aragats)."
+landmarks:
+  - name: Etchmiadzin Cathedral
+    description: "UNESCO World Heritage site — the world's oldest cathedral, seat of the Armenian Apostolic Church (early 4th century)."
+    unescoWorldHeritage: true
+  - name: Geghard Monastery
+    description: "UNESCO World Heritage rock-cut medieval monastery in the Azat River gorge."
+    unescoWorldHeritage: true
+  - name: Garni Temple
+    description: "The only standing Greco-Roman colonnaded temple in the post-Soviet space."
+  - name: Khor Virap Monastery
+    description: "Panoramic view of Mount Ararat, where Gregory the Illuminator was imprisoned."
+  - name: Lake Sevan
+    description: "One of the largest high-altitude freshwater lakes in the world."
+  - name: Mount Ararat
+    description: "The national symbol (now in Turkey) visible from Yerevan, on the coat of arms."
+  - name: Tatev Monastery and the Wings of Tatev cable car
+    description: "A medieval monastery reached by the world's longest reversible aerial tramway."
+culturalTraits:
+  - "The first nation to adopt Christianity as its state religion (301 AD)"
+  - "Deep pride in a 2,500+ year history and the unique Armenian alphabet (created ~405 AD by Mesrop Mashtots)"
+  - "Ancient winemaking (Areni-1 cave, ~6,100 years old)"
+  - "Rich traditions: khachkars (cross-stones), the duduk, and lavash flatbread (all UNESCO Intangible Cultural Heritage)"
+prideOf:
+  - "Being the first Christian nation; the Armenian alphabet and language"
+  - "Chess mastery (multiple Olympiad titles; chess is a compulsory school subject)"
+  - "Armenian cognac, Mount Ararat and ancient winemaking"
+  - "Legendary hospitality and a resilient diaspora"
+animals:
+  popular:
+    - "The Armenian mouflon (endemic wild sheep, endangered)"
+    - Bezoar goat and Eurasian lynx
+    - Brown bear
+  unique:
+    - "The Armenian mouflon (endemic)"
+    - "The Caucasian leopard and Armenian viper"
+industries:
+  - IT/software and tech startups (Armenia is a growing tech hub)
+  - Mining and metallurgy (copper, molybdenum, gold)
+  - Agriculture (fruits, grapes, vegetables, livestock)
+  - Armenian cognac/brandy production
+  - Jewelry and diamond cutting, textile and tourism
+sports:
+  - Chess (a national obsession — compulsory in school since 2011)
+  - Weightlifting, wrestling, boxing and judo
+  - Football (soccer) and sambo
+religions:
+  - name: Armenian Apostolic Church
+    percent: 97.5
+    sourceId: arm-religion
+  - name: Other Christian groups (Catholic, Orthodox, Evangelical, Molokan)
+    percent: 1.8
+    sourceId: arm-religion
+  - name: Yazidis and others
+    percent: 0.7
+    sourceId: arm-religion
+# The remaining share is other small communities (Jews, Baha'is, Muslims).
+entertainment:
+  - season: summer
+    items:
+      - "Lake Sevan beaches and mountain trekking"
+      - "Khorovats gatherings (barbecue)"
+      - "Open-air festivals; cognac and wine tastings in the Areni wine region"
+  - season: winter
+    items:
+      - "Skiing at Tsaghkadzor"
+      - "Indoor culture, opera and chess cafes"
+      - "New Year and Apostolic Christmas (6 January) celebrations"
+  - season: allYear
+    items:
+      - "Opera (Yerevan Opera House) and classical/folk music with the duduk"
+      - "Cafés, nightlife and chess cafes in Yerevan"
+      - "Monasteries (Etchmiadzin, Geghard, Tatev), museums and wine routes"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Khorovats (skewered grilled meat, the national barbecue)"
+      - "Fresh salads, vegetables and fruits; dolma"
+  - season: winter
+    items:
+      - "Harissa (wheat and slow-cooked meat porridge)"
+      - "Khash (hearty tripe soup) and basturma"
+  - season: allYear
+    items:
+      - "Lavash (thin flatbread, UNESCO intangible heritage)"
+      - "Dolma, zhingyalov hats and gata sweet pastry"
+      - "Armenian cognac and wines; pomegranate juice"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The taraz — richly embroidered traditional Armenian dress, regionally distinct, worn at festivals and weddings; women's ornate silver jewelry, men's arkhalig/chorchapan coats and wool hats"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Working week Monday-Friday, roughly 9:00am-6:00pm (government offices often end earlier), with a lunch break."
+  notes: "Meetings may start a bit late; hospitality (coffee/tea) often precedes business. January and August can be slow due to holidays and vacations. Be mindful of Armenian national holidays (24 April Genocide Remembrance, 21 September Independence Day) and Apostolic Christmas (6 January)."
+sources:
+  - id: arm-religion
+    name: "2023 Report on International Religious Freedom: Armenia (religion from the 2022 census)"
+    publisher: "U.S. Department of State"
+    url: "https://am.usembassy.gov/2023-irf-report"
+    year: 2023
+    accessedDate: "2026-09-14"
+    note: "Religious affiliation (2022 census, per the State Dept IRF report): Armenian Apostolic Church ~97.5%, other Christian groups ~1.8%, Yazidis and others ~0.7%."
