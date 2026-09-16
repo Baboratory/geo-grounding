@@ -121,17 +121,17 @@ distinct-regions:
 sources:
   - id: mkd-constitution
     name: "Constitution of the Republic of North Macedonia, Article 7 (official language)"
-    publisher: "Republic of North Macedonia (via secondary legal reference)"
-    url: "https://en.wikipedia.org/wiki/Constitution_of_North_Macedonia"
+    publisher: "Assembly of the Republic of North Macedonia (via WIPO Lex)"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/10558"
     accessedDate: "2026-09-14"
-    note: "Establishes Macedonian (in Cyrillic) as the official language throughout the country."
+    note: "Establishes Macedonian (in Cyrillic) as the official language throughout the country (Article 7)."
   - id: mkd-language-law-2019
-    name: "Law on the Use of Languages (2019) and the Ohrid Framework Agreement (2001)"
-    publisher: "Republic of North Macedonia"
-    url: "https://en.wikipedia.org/wiki/Languages_of_North_Macedonia"
+    name: "Law on the Use of Languages (2019); Venice Commission Opinion CDL-AD(2019)033 on the Law on the Use of Languages"
+    publisher: "Republic of North Macedonia / Venice Commission (Council of Europe)"
+    url: "https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL-AD(2019)033-e"
     year: 2019
     accessedDate: "2026-09-14"
-    note: "Made Albanian a second official language nationwide (previously co-official only where Albanian speakers formed >=20% of a municipality under the 2008 law); basis for the sqi official-domain row and minority-language rights."
+    note: "Made Albanian a second official language nationwide (previously co-official only where Albanian speakers formed >=20% of a municipality under the 2008 law); basis for the sqi official-domain row and minority-language rights. The Venice Commission's opinion is used as the primary, linkable legal source for the 2019 law's substance, alongside the Ohrid Framework Agreement (2001)."
   - id: mkd-census-2021
     name: "Census 2021 (State Statistical Office) — population, ethnic composition, language used in household"
     publisher: "State Statistical Office of the Republic of North Macedonia"
