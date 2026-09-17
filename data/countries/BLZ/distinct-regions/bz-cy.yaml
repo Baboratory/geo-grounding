@@ -1,0 +1,82 @@
+code: BZ-CY
+name:
+  eng: Cayo District & western Maya highlands
+  local:
+    - languageCode: spa
+      value: Cayo
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry — hotter inland, cooler at night in the Maya Mountains."
+landmarks:
+  - name: San Ignacio
+    description: "Cayo's main town, gateway to the western Maya sites."
+  - name: Xunantunich and Cahal Pech
+    description: "Major Maya ceremonial centres overlooking the Belize River."
+  - name: Caracol
+    description: "The largest Maya site in Belize, deep in the Chiquibul forest."
+  - name: ATM Cave (Actun Tunichil Muknal)
+    description: "Famous Maya ceremonial cave with skeletal remains."
+  - name: Mountain Pine Ridge
+    description: "Highland scenery, waterfalls and natural pools."
+  - name: Belmopan
+    description: "The national capital (since 1970), in Cayo's east."
+culturalTraits:
+  - "Maya heritage heartland — Yucatec, Mopan and Q'eqchi' communities"
+  - "Mestizo/Spanish-speaking population alongside Maya villages"
+  - "Jungle, caves, rivers and adventure eco-tourism"
+prideOf:
+  - "Caracol and the western Maya sites"
+  - "Mountain Pine Ridge and the Maya Mountains"
+  - "A living Maya cultural heritage"
+animals:
+  popular:
+    - "Jaguar"
+    - "Baird's tapir"
+    - "Scarlet macaw"
+    - "Howler monkey"
+  unique:
+    - "Baird's tapir"
+    - "Central American spider monkey"
+industries:
+  - "Eco-tourism and archaeology"
+  - "Agriculture (citrus, cacao, livestock)"
+  - "Government (Belmopan)"
+  - "Forestry"
+sports:
+  - "Football (soccer)"
+  - "Basketball"
+  - "Volleyball"
+entertainment:
+  - season: allYear
+    items:
+      - "Maya-site tours and cave exploration"
+      - "Mountain Pine Ridge hikes and swimming holes"
+  - season: dry
+    items:
+      - "Best conditions for jungle treks and cave tours"
+  - season: wet
+    items:
+      - "Waterfalls at peak flow; indoor/cultural events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Mestizo cuisine — tamales, panades, escabeche"
+      - "Maya 'atole' and caldo"
+      - "Rice and beans; stewed chicken"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Mestizo campesino dress (huipil-style blouse, wide skirts)"
+      - "Maya woven textiles"
+      - "Western/outdoor attire for the jungle"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business ~08:30-17:00 Mon-Fri; tourism/cave operations run on weekend demand."
+  lunchBreakTiming: "A midday break is common."
+  notes: "Jungle access is easier in the dry season; wet-season rains can affect interior roads."

@@ -1,0 +1,80 @@
+code: BZ-SC
+name:
+  eng: Stann Creek District & southern coast
+  local:
+    - languageCode: eng
+      value: Stann Creek
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon — the southern coast is wet and humid, with one of the wettest climates in the country."
+landmarks:
+  - name: Dangriga
+    description: "The Garifuna cultural capital of Belize."
+  - name: Placencia Peninsula
+    description: "Famous beach peninsula with gardens, resorts and a lively village."
+  - name: Hopkins village
+    description: "Largely Garifuna coastal village."
+  - name: Cockscomb Basin Wildlife Sanctuary
+    description: "The world's first jaguar preserve."
+  - name: Tobacco Caye / Sittee River
+    description: "Caye and river eco-destinations."
+culturalTraits:
+  - "Garifuna heartland — language, punta music, drumming and Dugu ceremonies"
+  - "Afro-Caribbean coastal culture; strong drumming and dance traditions"
+  - "Maya communities to the south (Toledo border)"
+prideOf:
+  - "Garifuna culture and living heritage"
+  - "The Cockscomb jaguar preserve"
+  - "Placencia's beaches"
+animals:
+  popular:
+    - "Jaguar (Cockscomb)"
+    - "Scarlet macaw"
+    - "Howler monkey"
+    - "Sea turtle"
+  unique:
+    - "Jaguar — protected in the Cockscomb Basin sanctuary"
+industries:
+  - "Tourism (Placencia, Hopkins, eco-lodges)"
+  - "Banana production and citrus"
+  - "Fishing and aquaculture"
+  - "Cacao (southern highlands)"
+sports:
+  - "Football (soccer)"
+  - "Basketball"
+  - "Volleyball"
+entertainment:
+  - season: allYear
+    items:
+      - "Placencia/Hopkins beach and village life"
+      - "Garifuna drumming and cultural evenings"
+      - "Jaguar/bird-watching at Cockscomb"
+  - season: dry
+    items:
+      - "Peak beach season and diving"
+  - season: wet
+    items:
+      - "Garifuna Settlement Day (19 November) and cultural gatherings"
+      - "Indoor/covered cultural events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Hudut — coconut milk fish stew with mashed plantain (national Garifuna dish)"
+      - "Cassava bread and tapado-style coconut stews"
+      - "Fresh seafood and banana dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Garifuna madras and colourful cotton prints"
+      - "Light beachwear"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Tourism businesses run most days; offices ~08:30-17:00 Mon-Fri."
+  lunchBreakTiming: "A midday break is common."
+  notes: "Wet-season rainfall is heavy; hurricane-season (Jun-Nov) can disrupt the coast."

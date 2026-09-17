@@ -1,0 +1,136 @@
+code: WHOLE
+name:
+  eng: Guyana
+  local:
+    - languageCode: eng
+      value: Co-operative Republic of Guyana
+# Generic country-wide fallback content for Guyana (unitary-large). Used via the
+# 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py when a
+# visitor's specific region isn't one of the curated files (GY-GEO Georgetown &
+# Demerara, GY-ESS Essequibo & west coast, GY-HIN Hinterland & Rupununi).
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest along much of the wet windward coast and most of the interior."
+  - koppenCode: Am
+    description: "Tropical monsoon in the heaviest-rainfall belts (windward coast, lower slopes)."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) on the east/south coastal plain and the Rupununi savannah."
+landmarks:
+  - name: Kaieteur Falls
+    description: "One of the world's largest single-drop waterfalls (226 m) on the Potaro River — Guyana's most famous sight."
+  - name: Georgetown & St George's Cathedral
+    description: "One of the world's tallest all-timber churches; the sea-wall Esplanade and camoedan-lined avenues."
+  - name: Rupununi savannah
+    description: "Vast open savannah and wetlands with cattle ranches and Amerindian villages; giant otters and anteaters."
+  - name: Umana Yana
+    description: "Waiwai-style thatched Amerindian communal building in Georgetown ('meeting place of the people')."
+  - name: Fort Zeelandia
+    description: "17th-century Dutch fort on Fort Island in the Essequibo River."
+culturalTraits:
+  - "Land of Six Peoples — East Indian, African, Mixed, Amerindian, Chinese, Portuguese"
+  - "English-speaking oasis in South America with a strong Caribbean orientation (cricket, calypso, chutney)"
+  - "Guyanese Creole as the everyday vernacular across all ethnic groups"
+  - "Nine officially recognized Amerindian peoples and living languages"
+  - "Curry, roti, cook-up and Amerindian pepperpot food culture"
+  - "Festivals: Phagwah/Holi, Divali, Eid, Mashramani (Republic Day carnival), Christmas"
+  - "Large émigré diaspora (US, Canada, UK) feeding remittances"
+prideOf:
+  - "Kaieteur Falls and untouched rainforest"
+  - "Being the only English-speaking country in South America"
+  - "Ethnic diversity living side-by-side ('land of six peoples')"
+  - "Offshore oil (Stabroek block) transforming the economy"
+animals:
+  popular:
+    - "Giant river otter"
+    - "Harpy Eagle (national bird)"
+    - "Jaguar"
+    - "Giant anteater"
+    - "Sea turtles"
+  unique:
+    - "Giant river otter (world's largest otter species)"
+    - "Harpy Eagle"
+industries:
+  - "Offshore oil & gas (Stabroek block)"
+  - "Agriculture/agro-processing (rice, sugar, rum)"
+  - "Gold, bauxite and timber"
+  - "Fisheries"
+  - "Remittance-driven consumption; construction/services on the oil boom"
+sports:
+  - "Cricket"
+  - "Football"
+  - "Track & field"
+  - "Basketball and volleyball"
+religions:
+  - name: Christian (total of all branches)
+    percent: 63.9
+    sourceId: guy-census-2012
+  - name: Hindu
+    percent: 24.8
+    sourceId: guy-census-2012
+  - name: Muslim (predominantly Sunni)
+    percent: 6.8
+    sourceId: guy-census-2012
+  - name: None / other (incl. Rastafari, Baha'i)
+    percent: 4.5
+    sourceId: guy-census-2012
+entertainment:
+  - season: allYear
+    items:
+      - "Cricket and football"
+      - "Chutney/soca/calypso scene"
+      - "Georgetown lime (socializing) culture"
+      - "Rupununi wildlife and river trips"
+  - season: dry
+    items:
+      - "Mashramani carnival (~Feb 23)"
+      - "Phagwah/Holi (Feb/Mar)"
+      - "Overland excursions while rivers are lower"
+  - season: wet
+    items:
+      - "Kaieteur at peak flow"
+      - "Divali (Oct/Nov) and Eid season"
+      - "Christmas/New Year festivities"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pepperpot (cassareep stew — national dish)"
+      - "Cook-up rice"
+      - "Roti and curry"
+      - "Bake and shark"
+      - "Chow mein (Chinese influence)"
+      - "Metemgee and cassava dishes"
+  - season: wet
+    items:
+      - "Hot pepperpot and one-pot stews during rainy spells"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light tropical clothing"
+      - "Madras prints of the creole heritage"
+      - "Saree/lengha at Hindu festivals; kurta/shirt-jac formal wear"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 4, 9, 10, 11]
+  - season: wet
+    months: [1, 5, 6, 7, 8, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government ~08:00-16:30/17:00 Mon-Fri; private often 08:00-17:00 Mon-Fri; retail Mon-Sat, reduced Sunday."
+  lunchBreakTiming: "Midday break ~12:00-13:00 common."
+  notableShutdownPeriods:
+    - period: "Mashramani / Republic Day (~23 Feb)"
+      description: "National holiday marking the republic (1970) — reduced business."
+    - period: "Phagwah (Holi), Eid, Easter, Divali"
+      description: "Religious public holidays."
+    - period: "Christmas and New Year"
+      description: "Reduced business."
+  notes: "Wet-season rains (esp. May-Aug, Dec-Jan) can disrupt interior travel; hinterland access is easier in the Feb-Apr dry window."
+sources:
+  - id: guy-census-2012
+    name: "Final 2012 Population & Housing Census Compendium 2"
+    publisher: "Bureau of Statistics Guyana"
+    url: "https://statisticsguyana.gov.gy/wp-content/uploads/2019/10/Final_2012_Census_Compendium2.pdf"
+    year: 2012
+    accessedDate: "2026-09-17"
+    note: "Religious affiliation: Hindu 24.8%, Pentecostal 22.8%, Other Christian 20.8%, RC 7.1%, Anglican 5.2%, SDA 5.4%, Muslim 6.8%, Methodist 1.4%, JW 1.3%, Rastafari 0.5%, Baha'i 0.06%, None 3.1%. Christian total ~63.9%."

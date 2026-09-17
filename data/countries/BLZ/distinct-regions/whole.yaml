@@ -1,0 +1,147 @@
+code: WHOLE
+name:
+  eng: Belize
+  local:
+    - languageCode: eng
+      value: Belize
+# Generic country-wide fallback content for Belize (unitary-large). Used via the
+# 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py when a
+# visitor's specific district isn't one of the curated files (BZ-BZ Belize
+# District/coast, BZ-CY Cayo/west, BZ-SC Stann Creek/south).
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — hot year-round with a distinct dry season (~Dec-Apr) and wet season (~May-Nov), moderated by sea breezes on the coast."
+  - koppenCode: Am
+    description: "Tropical monsoon in the south (Toledo) — the wettest part of the country."
+landmarks:
+  - name: Belize Barrier Reef and the Great Blue Hole
+    description: "UNESCO World Heritage Site — the second-largest barrier reef system in the world."
+    unescoWorldHeritage: true
+  - name: Belize City
+    description: "The former capital and commercial hub, gateway to the cayes."
+  - name: Ambergris Caye / San Pedro & Caye Caulker
+    description: "The most popular caye (island) destinations."
+  - name: Xunantunich and Caracol
+    description: "Major Maya sites (Caracol is the largest in Belize, in Cayo)."
+  - name: ATM Cave (Actun Tunichil Muknal)
+    description: "Famous Maya ceremonial cave with skeletal remains."
+  - name: Cockscomb Basin Wildlife Sanctuary
+    description: "The world's first jaguar preserve, in Stann Creek."
+culturalTraits:
+  - "'Unity in diversity' national motto (Sub Umbra Floreo — 'Under the shade I flourish')"
+  - "Diverse Afro-Caribbean, Maya, Mestizo, Garifuna, East Indian and European (incl. Mennonite) heritage coexisting with mutual influence"
+  - "Garifuna heritage: language, punta music and dance, drumming, and Dugu ancestral ceremonies (UNESCO-listed)"
+  - "Carnival (Costa Maya festival in September), Garifuna Settlement Day (19 November), Maya harvest festivals"
+  - "Punta, punta rock, soca, reggae and Garifuna drumming; cricket, basketball and football"
+  - "Warm, hospitable Caribbean sociality; strong family and church-based community life"
+prideOf:
+  - "The Barrier Reef and Great Blue Hole (UNESCO)"
+  - "Ancient Maya heritage (Caracol, Xunantunich, Lamanai, Altun Ha)"
+  - "Cultural diversity living side-by-side"
+  - "Garifuna culture and the Maya living heritage"
+animals:
+  popular:
+    - "Jaguar (Cockscomb Basin)"
+    - "Scarlet macaw"
+    - "Baird's tapir"
+    - "Howler monkey"
+    - "Green sea turtle (reef/caye nesting)"
+  unique:
+    - "Jaguar — protected in the world's first jaguar preserve"
+    - "Baird's tapir"
+industries:
+  - "Tourism (reef, cayes, Maya sites, eco-tourism)"
+  - "Agriculture (sugar, bananas, citrus, papaya; cacao in the south)"
+  - "Aquaculture (shrimp) and fishing"
+  - "Offshore financial services"
+  - "Light manufacturing and food processing"
+sports:
+  - "Football (soccer)"
+  - "Basketball"
+  - "Cricket"
+  - "Volleyball"
+religions:
+  - name: Roman Catholic
+    percent: 40.6
+    sourceId: blz-census
+  - name: Protestant denominations (Pentecostal, Seventh-day Adventist, Anglican, Baptist, Methodist, Nazarene, etc.)
+    percent: 31.1
+    sourceId: blz-census
+  - name: No religion / not stated
+    percent: 15.6
+    sourceId: blz-census
+  - name: Jehovah's Witnesses
+    percent: 1.8
+    sourceId: blz-census
+  - name: Other (incl. Mennonite, Latter-day Saints, Hindu, Muslim, Rastafari, Maya spiritual traditions)
+    percent: 10.9
+    sourceId: blz-census
+entertainment:
+  - season: allYear
+    items:
+      - "Reef tours, diving and the Great Blue Hole"
+      - "Football, basketball and cricket"
+      - "Punta, soca and reggae music scene"
+      - "Caye island life and eco-tours"
+  - season: dry
+    items:
+      - "Peak tourist season — beach and caye weather"
+      - "Costa Maya Festival (September-adjacent cultural events)"
+      - "Easter-period festivals"
+  - season: wet
+    items:
+      - "Garifuna Settlement Day (19 November) and Maya ceremonies"
+      - "Indoor/covered and community events during heavy rain"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Rice and beans (with stewed chicken) — a staple national dish"
+      - "Hudut — coconut milk fish stew with mashed plantain (Garifuna)"
+      - "Garnaches — fried corn tortillas with beans, cheese and cabbage"
+      - "Panades and salbutes — fried corn pockets/topped tortillas"
+      - "Escabeche — onion-and-turmeric chicken soup"
+      - "Boil-up — boiled fish, eggs, plantain and cassava in seasoned broth (Creole)"
+      - "Conch fritters and fresh coastal seafood"
+      - "Marie Sharp's hot pepper sauce; Belikin beer; soursop and tamarind drinks"
+  - season: dry
+    items:
+      - "Gibnut (the 'royal rat' bush-meat delicacy) and armadillo preparations at festive seasons"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light tropical clothing; resort wear"
+      - "Garifuna madras and colourful prints at cultural events"
+      - "Maya woven textiles and huipil-style garments in communities"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business and offices roughly 08:30-17:00 weekdays; banks ~08:00-15:00; retail often open Mon-Sat, many closed Sunday."
+  lunchBreakTiming: "A midday break is common."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Reduced business around the holidays."
+    - period: "Garifuna Settlement Day (19 November)"
+      description: "National public holiday."
+    - period: "Hurricane season (Jun-Nov)"
+      description: "Severe weather can disrupt operations, especially on the cayes and coast."
+  notes: "Tourism drives a pronounced high season in the drier months (December-April). The coast/cayes are most exposed to hurricane-season disruption."
+sources:
+  - id: blz-census
+    name: "2022 Population and Housing Census — religion"
+    publisher: "Statistical Institute of Belize (SIB)"
+    url: "https://sib.org.bz/census-statistics/"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "Religious composition (approx): Roman Catholic 40.6%, Protestant ~31.1%, no religion ~15.6%, Jehovah's Witnesses 1.8%, other ~10.9%."
+  - id: unesco-reef
+    name: "Belize Barrier Reef Reserve System — UNESCO World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/764/"
+    year: 1996
+    accessedDate: "2026-09-17"
+    note: "Belize Barrier Reef Reserve System inscribed 1996 — basis for the unescoWorldHeritage flag on the reef landmark."

@@ -1,0 +1,75 @@
+code: BZ-BZ
+name:
+  eng: Belize District & coast
+  local:
+    - languageCode: eng
+      value: Belize District
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry — hot, humid and sea-breezy on the coast and cayes."
+landmarks:
+  - name: Belize City
+    description: "Former capital and commercial hub, gateway to the cayes."
+  - name: Ambergris Caye / San Pedro & Caye Caulker
+    description: "The most popular island (caye) destinations."
+  - name: Altun Ha
+    description: "Major Maya archaeological site north of Belize City."
+  - name: Turneffe Atoll / Glover's Reef
+    description: "Coral atolls of the Barrier Reef, prime diving."
+culturalTraits:
+  - "Commercial, port and tourism gateway to the cayes"
+  - "Cosmopolitan Creole/Mestizo urban culture"
+  - "Caye island life — fishing, sailing, beach tourism"
+prideOf:
+  - "Hosting the Barrier Reef and the cayes"
+  - "Altun Ha and a rich colonial/Maya heritage"
+animals:
+  popular:
+    - "Green sea turtle"
+    - "Nurse shark (caye waters)"
+    - "Manatee"
+  unique:
+    - "Elkhorn and staghorn reef corals"
+industries:
+  - "Tourism (Belize City gateway, cayes, diving)"
+  - "Port, commerce and logistics"
+  - "Aquaculture and fishing"
+  - "Government and services"
+sports:
+  - "Football (soccer)"
+  - "Basketball"
+  - "Cricket"
+entertainment:
+  - season: allYear
+    items:
+      - "Caye island life, sailing and diving"
+      - "Belize City nightlife and markets"
+  - season: dry
+    items:
+      - "Peak beach/tourism season on the cayes"
+  - season: wet
+    items:
+      - "Indoor/covered venues during heavy rain"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Conch fritters and ceviche"
+      - "Lobster (in season)"
+      - "Rice and beans with stewed chicken"
+      - "Grilled reef fish"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light tropical resort wear"
+      - "Caye casual beachwear"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business ~08:30-17:00 Mon-Fri; cayes tourism operations run weekends."
+  lunchBreakTiming: "A midday break is common."
+  notes: "Highly exposed to hurricane-season disruption; tourism peaks in the dry months."

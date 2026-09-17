@@ -1,0 +1,201 @@
+alpha3: GUY
+alpha2: GY
+name:
+  eng: Guyana
+  local:
+    - languageCode: eng
+      value: Co-operative Republic of Guyana
+flagEmoji: "🇬🇾"
+capital: Georgetown
+isSovereign: true
+# Classified unitary-large: Guyana fails the population criterion (~747k, 2012
+# census; ~800k recent estimate — far below the 20-25M threshold) but MEETS the
+# other two DESIGN.md criteria: (2) nine Amerindian languages (Akawaio, Lokono/
+# Arawak, Carib, Macushi, Patamona, Waiwai, Wapishana, Arekuna/Pemon, Warao) are
+# officially recognized as regional/minority languages, and Guyanese Creole is
+# the national vernacular; and (3) a widely recognized coast-vs-hinterland
+# cultural divide (narrow populous coastal plain versus the vast Amerindian
+# interior/Rupununi). Guyana is an indivisible unitary republic (Constitution
+# Article 1), so NOT federal. Curated regions: Georgetown & Demerara coast
+# (GY-GEO), Essequibo & west coast (GY-ESS), Hinterland & Rupununi
+# (GY-HIN) + WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: "GY"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: guy-ethnologue
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: guy-estimate
+  - languageCode: gyn
+    domain: locallySpoken
+    speakersShare: 0.85
+    sourceId: guy-estimate
+  - languageCode: hns
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: guy-estimate
+  - languageCode: wap
+    domain: locallySpoken
+    speakersShare: 0.013
+    sourceId: guy-estimate
+  - languageCode: mbc
+    domain: locallySpoken
+    speakersShare: 0.012
+    sourceId: guy-estimate
+  - languageCode: pbc
+    domain: locallySpoken
+    speakersShare: 0.012
+    sourceId: guy-estimate
+  - languageCode: car
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: guy-estimate
+  - languageCode: wba
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: guy-estimate
+  - languageCode: waw
+    domain: locallySpoken
+    speakersShare: 0.008
+    sourceId: guy-estimate
+  - languageCode: ake
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: guy-estimate
+  - languageCode: arw
+    domain: locallySpoken
+    speakersShare: 0.005
+    sourceId: guy-estimate
+  - languageCode: aoc
+    domain: locallySpoken
+    speakersShare: 0.005
+    sourceId: guy-estimate
+  - languageCode: spa
+    domain: foreign
+    speakersShare: 0.1
+    sourceId: guy-estimate
+# English is the sole official language (the only South-American country with
+# English official). Its status rests on being the language of the Constitution
+# and law plus pervasive practice (no explicit official-language clause in the
+# 1980 Constitution), cited via Ethnologue. Guyanese Creole (gyn) is the
+# widespread national vernacular (~0.85). The Amerindian languages are officially
+# recognized minority languages, captured as locallySpoken with small shares
+# (Amerindians ~10.5% of the population, and only ~20% of Amerindian households
+# fluent in their ancestral language per an IDB survey). All non-official shares
+# are ESTIMATES. Note: hns (Caribbean Hindustani) is retained by a minority of
+# Indo-Guyanese; ISO codes verified on iso639-3.sil.org (mbc=Macushi NOT mbz,
+# pbc=Patamona NOT pam).
+ethnicGroups:
+  # Bureau of Statistics Guyana, 2012 census.
+  - group: East Indian
+    percent: 39.8
+    sourceId: guy-census-2012
+  - group: African heritage
+    percent: 29.2
+    sourceId: guy-census-2012
+  - group: Mixed heritage
+    percent: 19.9
+    sourceId: guy-census-2012
+  - group: Amerindian
+    percent: 10.5
+    sourceId: guy-census-2012
+  - group: Other (White/Portuguese, Chinese, and others)
+    percent: 0.6
+    sourceId: guy-census-2012
+timezones:
+  - name: America/Guyana
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+currency:
+  code: GYD
+  symbol: "G$"
+  name: Guyanese dollar
+legalConstraints:
+  - topic: "not an EU member / Commonwealth republic"
+    description: "Guyana is a sovereign unitary republic within the Commonwealth (republic since 1970; Constitution adopted 1980). EU directives (GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee) do NOT apply directly; national law governs."
+    sourceId: guy-constitution
+  - topic: "constitutional state form"
+    description: "Article 1 of the 1980 Constitution: 'Guyana is an indivisible, secular, democratic sovereign state... shall be known as the Co-operative Republic of Guyana.' Confirms unitary (indivisible) republic status."
+    sourceId: guy-constitution
+paymentCulture:
+  popularMethods:
+    - "Cash — dominant for everyday retail and small merchants"
+    - "Debit cards / bank cards and bank transfers at larger retailers"
+    - "Money-transfer agencies (Western Union, MoneyGram) — the main rail for large diaspora remittance inflows"
+    - "Visa/Mastercard at larger merchants, hotels and e-commerce; cash preferred at smaller shops"
+    - "Mobile/internet banking — growing but modest; USD widely accepted alongside GYD in many commercial contexts"
+  tipping:
+    expected: true
+    typicalAmount: "Around 10% in restaurants where no service charge is included; small amounts for porters/guides"
+    autoIncludedInBill: false
+    note: "Tipping is customary rather than mandatory. Remittances are significant: World Bank put personal remittances at ~US$546M / ~3.3% of GDP in 2023, flowing mainly through formal channels and money-transfer agencies."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Business, official and written settings use Standard English with titles and formal address; everyday interaction is warm, relaxed and informal, and first names develop quickly. Guyanese Creole signals informality and in-group warmth."
+  greetingNorms: "Warm, friendly greeting with an enquiry after wellbeing ('How you doing?' / 'Alright?'); handshake in formal settings, cheek-kiss or nod among friends."
+  meetingEtiquette: "Relationships and rapport matter — expect lively, humorous small-talk before business. Punctuality is appreciated though relaxed timing is common; decisions sit with senior leadership. English is the working language."
+  topicsToAvoid:
+    - "Political partisanship and ethnic (Indo-/Afro-Guyanese) tensions"
+    - "The Venezuelan territorial claim to the Essequibo region"
+    - "Conflating Guyana with its Caribbean neighbors or oversimplifying its ethnic/religious diversity"
+  giftGivingNotes: "Not expected in business; a small thoughtful gift is well received once a relationship forms. Gift-giving centers on festivals (Phagwah/Holi, Divali, Eid, Christmas) and on food."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: GY-GEO
+    file: distinct-regions/gy-geo.yaml
+    adminUnitCodes: [GY-DE]
+  - code: GY-ESS
+    file: distinct-regions/gy-ess.yaml
+    adminUnitCodes: [GY-ES, GY-PM, GY-BA]
+  - code: GY-HIN
+    file: distinct-regions/gy-hin.yaml
+    adminUnitCodes: [GY-UT, GY-PT, GY-CU, GY-UD]
+sources:
+  - id: guy-census-2012
+    name: "Final 2012 Population & Housing Census Compendium 2"
+    publisher: "Bureau of Statistics Guyana"
+    url: "https://statisticsguyana.gov.gy/wp-content/uploads/2019/10/Final_2012_Census_Compendium2.pdf"
+    year: 2012
+    accessedDate: "2026-09-17"
+    note: "Ethnic composition (East Indian 39.8%, African 29.2%, Mixed 19.9%, Amerindian 10.5%) and religious affiliation; total population 746,955."
+  - id: guy-ethnologue
+    name: "Guyana — Languages, Literacy & Maps (Ethnologue country report GY)"
+    publisher: "SIL International, Ethnologue"
+    url: "https://www.ethnologue.com/country/GY/"
+    year: 2025
+    accessedDate: "2026-09-17"
+    note: "Confirms English as the sole official language and lists the living indigenous languages; population ~790-793k. Basis for the official eng row and the Amerindian locallySpoken set."
+  - id: guy-constitution
+    name: "Constitution of the Co-operative Republic of Guyana (1980, as amended)"
+    publisher: "Parliament of the Co-operative Republic of Guyana"
+    url: "https://www.constituteproject.org/constitution/Guyana_2016"
+    year: 1980
+    accessedDate: "2026-09-17"
+    note: "Article 1: 'Guyana is an indivisible, secular, democratic sovereign state... known as the Co-operative Republic of Guyana.' Supports the unitary-large classification and non-EU/Commonwealth constraint. No explicit official-language clause."
+  - id: guy-estimate
+    name: "Composite estimate (no official language-proficiency or payment-market census)"
+    publisher: "Composite estimate"
+    url: "https://statisticsguyana.gov.gy/"
+    year: 2025
+    accessedDate: "2026-09-17"
+    note: "ESTIMATE flag for all locallySpoken/foreign languageUsage shares and region-level religion splits. Amerindian heritage ~10.5% (2012 census)."
+  - id: guy-remittances
+    name: "Personal remittances, received — Guyana (World Bank WDI)"
+    publisher: "World Bank (World Development Indicators)"
+    url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT"
+    year: 2023
+    accessedDate: "2026-09-17"
+    note: "Remittances received ~US$546M / ~3.3% of GDP in 2023. Basis for the paymentCulture remittance note."
+  - id: guy-iso3166-2
+    name: "ISO 3166-2:GY — subdivisions of Guyana"
+    publisher: "ISO Maintenance Agency"
+    url: "https://en.wikipedia.org/wiki/ISO_3166-2:GY"
+    year: 2025
+    accessedDate: "2026-09-17"
+    note: "Confirms the 10 regional codes backing the three curated regions: GY-DE (Demerara-Mahaica incl. Georgetown), GY-ES/GY-PM/GY-BA (western/Essequibo coast), GY-UT (Rupununi)/GY-PT/GY-CU/GY-UD (interior)."
