@@ -1,0 +1,119 @@
+code: WHOLE
+name:
+  eng: Kyrgyzstan
+  local:
+    - languageCode: kir
+      value: Кыргыз Республикасы (Kyrgyz Respublikasy)
+    - languageCode: rus
+      value: Кыргызстан (Kyrgyzstan)
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO 3166-2
+# province isn't one of the curated files (KG-C/KG-Y/KG-O), via the
+# 'whole-country-fallback' path. It carries the full country-level bilingual
+# name (both official languages).
+climates:
+  - koppenCode: Dfb
+    description: "Continental with extreme highland variation: hot, dry summers and cold winters, with dramatic altitude differences from the Fergana valley plains (~500 m) to the Tien Shan peaks (alpine tundra and glaciers)."
+landmarks:
+  - name: Issyk-Kul lake
+    description: "The second-largest alpine lake in the world — 'the pearl of Kyrgyzstan'."
+  - name: The Tien Shan and Pamir/Alai ranges
+    description: "Massive mountain systems including Khan Tengri peak."
+  - name: Burana Tower
+    description: "Ancient tower of the medieval city of Balasagun."
+  - name: Tash Rabat caravanserai
+    description: "A well-preserved Silk Road stone caravanserai."
+  - name: Ala-Archa National Park
+    description: "Tien Shan alpine park near Bishkek."
+  - name: Osh and Suleiman-Too
+    description: "One of Central Asia's oldest cities, with the sacred-mountain peak of Suleiman-Too."
+culturalTraits:
+  - "Deep nomadic and yurt heritage; the great Manas epic and oral traditions"
+  - "Hospitality (konoktoi); eagle hunting (berkutchi)"
+  - "Felt-craft (shyrdak/ala-kiyiz carpets), horse culture and the annual horse games (kok boru)"
+  - "Traditional komuz music; pride in independence since 1991"
+prideOf:
+  - "Independence (1991) and national unity — 'Kyrgyz' from 'forty clans' (the 40-ray sun on the flag)"
+  - "The Manas epic and the revived nomadic traditions"
+  - "The natural beauty of Issyk-Kul and the high mountains"
+animals:
+  popular:
+    - Snow leopard (the national symbol)
+    - Marco Polo sheep (argali) and ibex
+    - Golden eagle (used in hunting)
+    - Tien Shan brown bear; horses and yaks in the high pastures
+  unique:
+    - "The snow leopard (national symbol)"
+    - "Marco Polo sheep (Ovis ammon polii)"
+industries:
+  - Mining and gold (the Kumtor mine — one of the world's largest open-pit gold mines)
+  - Hydroelectric power
+  - Agriculture (livestock, dairy, wool, cotton, tobacco)
+  - Textiles and garments; IT/outsourcing (the Kyrgyz IT Park)
+  - Tourism (Issyk-Kul, mountains) and a remittance-driven service economy
+sports:
+  - Wrestling (kuresh), judo, sambo and MMA
+  - The traditional horse game kok boru
+  - Football (soccer), boxing, weightlifting and winter sports
+religions:
+  - name: Islam (overwhelmingly Sunni Hanafi)
+    percent: 90.0
+    sourceId: kgz-religion
+  - name: Christianity (mostly Russian Orthodox)
+    percent: 7.0
+    sourceId: kgz-religion
+# The remaining ~3% is other (e.g. non-religious). The 2009 census recorded
+# ~80% Muslim / 17% Christian; recent estimates ~90% / 7% (see note).
+entertainment:
+  - season: summer
+    items:
+      - "Issyk-Kul resort and beach tourism"
+      - "Horse games (kok boru), folk festivals and felt-craft fairs"
+      - "Hiking and yurt-stay (jailoo) experiences in the high pastures"
+  - season: winter
+    items:
+      - "Skiing and winter mountain sports; cold-city cultural life"
+      - "New Year celebrations; komuz and folk-music evenings"
+  - season: allYear
+    items:
+      - "Komuz and Manas recitals; national-music and cinema scenes"
+      - "Issyk-Kul and mountain resort visits; tea (chi) culture"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Fresh grilled meats, plov and summer fruit"
+  - season: winter
+    items:
+      - "Beshbarmak (boiled meat over noodles), the national dish"
+      - "Kuurdak and shorpo (meat broth)"
+      - "Boorsok (fried dough) and chak-chak"
+  - season: allYear
+    items:
+      - "Beshbarmak, plov, manti (dumplings) and lagman"
+      - "Kymyz (fermented mare's milk) and bread (nan)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The white felt kalpak (men's headgear, a national symbol), the chapan (quilted robe), felt boots and coats; women's headscarves and ornamented vests — worn at festivals and celebrations"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Business hours roughly 9:00am-6:00pm, Monday-Friday, with a long midday lunch common in a traditional work culture."
+  notes: "Nowruz (March) and Independence Day (31 August) are observed; Ramadan and Kurman Ait (Eid al-Adha) shift annually and affect working rhythm. Summer vacations slow the pace."
+sources:
+  - id: kgz-religion
+    name: "Religious composition of Kyrgyzstan (National Statistical Committee; 2009 census baseline and recent estimates)"
+    publisher: "National Statistical Committee of the Kyrgyz Republic"
+    url: "https://stat.gov.kg/"
+    accessedDate: "2026-09-14"
+    note: "Islam (Sunni Hanafi) ~90%, Christianity (mostly Russian Orthodox) ~7%, other ~3%. The 2009 census recorded ~80% Muslim / 17% Christian; recent estimates are ~90% / 7% — figures are indicative given Kyrgyzstan does not publish a recent definitive religious census."

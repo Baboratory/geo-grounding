@@ -1,0 +1,143 @@
+alpha3: TJK
+alpha2: TJ
+name:
+  eng: Tajikistan
+  local:
+    - languageCode: tgk
+      value: Тоҷикистон (Tojikiston)
+flagEmoji: "🇹🇯"
+capital: Dushanbe
+isSovereign: true
+# Classified unitary-large: Tajikistan is a unitary republic (~10M population,
+# at/near the threshold) with well-defined regional divisions — Dushanbe city
+# plus four regions: Sughd, Khatlon, Gorno-Badakhshan (GBAO) and the Districts
+# of Republican Subordination. It gets real ISO 3166-2 region files (a curated
+# subset) alongside WHOLE. Tajik is the sole official state language; Russian is
+# the language of inter-ethnic communication (not co-official, so only tgk gets
+# domain 'official').
+governanceType: unitary-large
+iso3166_2_prefix: TJ
+hasSubdivisions: true
+languageUsage:
+  - languageCode: tgk
+    domain: official
+    speakersShare: 1.0
+    sourceId: tjk-constitution
+  - languageCode: tgk
+    domain: locallySpoken
+    speakersShare: 0.84
+    sourceId: tjk-census-2020
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: tjk-russian
+  - languageCode: uzb
+    domain: locallySpoken
+    speakersShare: 0.4
+    sourceId: tjk-census-2020
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.1
+    sourceId: tjk-english-est
+# Tajik is the sole official language (a Persian-descended language in Cyrillic
+# script, mutually intelligible with Persian/Dari). Russian is the official
+# 'language of inter-ethnic communication' and very widely used (~90% estimate);
+# Uzbek is spoken by the sizable Uzbek minority (~12%), mainly in Sughd/Khatlon.
+# The Russian and English locallySpoken/foreign shares are estimates, flagged.
+ethnicGroups:
+  - group: Tajiks
+    percent: 84.0
+    sourceId: tjk-census-2020
+  - group: Uzbeks
+    percent: 12.0
+    sourceId: tjk-census-2020
+  - group: Pamiris (Pamiri peoples, GBAO)
+    percent: 1.0
+    sourceId: tjk-census-2020
+  - group: Russians
+    percent: 0.5
+    sourceId: tjk-census-2020
+  - group: Other (Uyghurs, Kyrgyz, Turkmen, Tatars)
+    percent: 2.5
+    sourceId: tjk-census-2020
+timezones:
+  - name: Asia/Dushanbe
+    standardUtcOffset: "UTC+5"
+    observesDst: false
+currency:
+  code: TJS
+  symbol: "SM"
+  name: Tajikistani somoni
+legalConstraints:
+  - topic: "EU membership status"
+    description: "Tajikistan is NOT an EU member and is not subject to EU directives or the GDPR. National law applies (Civil Code, the Law on Personal Data, and National Bank of Tajikistan regulations)."
+    sourceId: tjk-eu-status
+  - topic: "official language"
+    description: "Tajik is the sole official/state language (Constitution Article 2); Russian is the language of inter-ethnic communication."
+    sourceId: tjk-constitution
+# paymentMethodShares omitted: no clean citable percentage split of consumer
+# payments by method is published by the NBT, so the field is deliberately left
+# out rather than guessed (see the paymentCulture text on the cash-heavy market).
+paymentCulture:
+  popularMethods:
+    - Cash (somoni) — the dominant method, including for services and smaller retail
+    - Cards (Korti Milli national card, MIR co-branding, Visa/Mastercard in banks) in Dushanbe and larger cities
+    - Mobile wallets (Alif, Eskhata) and bank-to-bank remittances, rising
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up, or ~5-10%, for good service in restaurants"
+    autoIncludedInBill: false
+    note: "A predominantly cash economy; plan for cash handling and confirmation of bank-transfer settlement times."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal and courteous in business, with respect for hierarchy and age. Business people often prefer face-to-face meetings."
+  greetingNorms: "Hospitality is culturally important — guests are offered green tea and bread. Both Tajik and Russian are commonly used in business."
+  meetingEtiquette: "Tajiks value indirectness, politeness and relationship-building before transactions; honour and reputation matter."
+  topicsToAvoid:
+    - "Inter-ethnic and regional sensitivities"
+    - "Overly direct political commentary in first meetings"
+  giftGivingNotes: "Modest gifts appreciated when visiting a home; hospitality is central and refusing offers of tea/bread can cause offense."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: TJ-SU
+    file: distinct-regions/tj-su.yaml
+    adminUnitCodes: [TJ-SU]
+  - code: TJ-GB
+    file: distinct-regions/tj-gb.yaml
+    adminUnitCodes: [TJ-GB]
+  - code: TJ-KT
+    file: distinct-regions/tj-kt.yaml
+    adminUnitCodes: [TJ-KT]
+sources:
+  - id: tjk-constitution
+    name: "Constitution of the Republic of Tajikistan, Article 2"
+    publisher: "Republic of Tajikistan (Parliament)"
+    url: "https://www.parlament.tj/legislation"
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Tajik as the state/official language, with Russian as the language of inter-ethnic communication."
+  - id: tjk-census-2020
+    name: "Population and Housing Census 2020 (Agency on Statistics under the President of Tajikistan)"
+    publisher: "Agency on Statistics under the President of the Republic of Tajikistan"
+    url: "https://www.stat.tj"
+    year: 2020
+    accessedDate: "2026-09-14"
+    note: "Population ~9.5M (2024 estimate ~10M). Ethnic shares: Tajiks ~84%, Uzbeks ~12%, Pamiris ~1%, Russians ~0.5%, other ~2.5%."
+  - id: tjk-russian
+    name: "Russian as the language of inter-ethnic communication in Tajikistan (estimate)"
+    publisher: "Contextual/secondary estimate"
+    url: "https://www.stat.tj"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: Russian is very widely spoken as the inter-ethnic and business language (~90% locallySpoken is an approximation); it is official for inter-ethnic communication but not the state language."
+  - id: tjk-english-est
+    name: "English proficiency in Tajikistan (estimate)"
+    publisher: "Secondary estimate"
+    url: "https://www.stat.tj"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: English is limited, mainly among youth and tourism/business (~10%)."
+  - id: tjk-eu-status
+    name: "Tajikistan's international status"
+    publisher: "Composite; no EU membership"
+    url: "https://www.consilium.europa.eu/"
+    accessedDate: "2026-09-14"
+    note: "Tajikistan is not an EU member; EU directives do not apply. National law and NBT regulations govern payments."

@@ -1,0 +1,146 @@
+alpha3: KGZ
+alpha2: KG
+name:
+  eng: Kyrgyzstan
+  local:
+    - languageCode: kir
+      value: Кыргыз Республикасы (Kyrgyz Respublikasy)
+    - languageCode: rus
+      value: Кыргызстан (Kyrgyzstan)
+flagEmoji: "🇰🇬"
+capital: Bishkek
+isSovereign: true
+# Classified unitary-large: Kyrgyzstan is a unitary republic organized into 7
+# provinces (oblasty) plus 2 cities of republic significance (Bishkek, Osh), with
+# a perceptible north/south regional identity and ~7M population. It gets real
+# ISO 3166-2 region files (a curated subset) alongside WHOLE. Both Kyrgyz and
+# Russian are official; each is given domain 'official' with share 1.0 (legal
+# status, never split).
+governanceType: unitary-large
+iso3166_2_prefix: KG
+hasSubdivisions: true
+languageUsage:
+  - languageCode: kir
+    domain: official
+    speakersShare: 1.0
+    sourceId: kgz-constitution
+  - languageCode: rus
+    domain: official
+    speakersShare: 1.0
+    sourceId: kgz-constitution
+  - languageCode: kir
+    domain: locallySpoken
+    speakersShare: 0.778
+    sourceId: kgz-census-2022
+  - languageCode: uzb
+    domain: locallySpoken
+    speakersShare: 0.14
+    sourceId: kgz-census-2022
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.10
+    sourceId: kgz-russian-est
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.05
+    sourceId: kgz-english-est
+# Both official rows are 1.0 (legal status). Real usage in locallySpoken: Kyrgyz
+# ~78% (ethnic proxy), Uzbek ~14% in the south (Fergana valley), Russian ~10% as
+# a lingua franca (estimate). English figure is an estimate, flagged.
+ethnicGroups:
+  - group: Kyrgyz
+    percent: 77.8
+    sourceId: kgz-census-2022
+  - group: Uzbeks
+    percent: 14.2
+    sourceId: kgz-census-2022
+  - group: Russians
+    percent: 3.8
+    sourceId: kgz-census-2022
+  - group: Dungans
+    percent: 1.0
+    sourceId: kgz-census-2022
+  - group: Uyghurs
+    percent: 0.5
+    sourceId: kgz-census-2022
+  - group: Other (Tajiks, Kazakhs, Turks, etc.)
+    percent: 2.7
+    sourceId: kgz-census-2022
+timezones:
+  - name: Asia/Bishkek
+    standardUtcOffset: "UTC+6"
+    observesDst: false
+currency:
+  code: KGS
+  symbol: "som"
+  name: Kyrgyzstani som
+legalConstraints:
+  - topic: "EU membership status"
+    description: "Kyrgyzstan is NOT an EU member state; no EU directives apply. Payment, data and consumer rules follow national law (NBKR regulations, the Law on Payments and Payment Systems, and the Law on Personal Data)."
+    sourceId: kgz-eu-status
+  - topic: "official languages"
+    description: "The Constitution (2021) establishes Kyrgyz as the state language and Russian as an official language. A three-language requirement applies to state materials and public signage (Kyrgyz, Russian; public information increasingly also expected in Uzbek in the south)."
+    sourceId: kgz-constitution
+paymentCulture:
+  popularMethods:
+    - Cash (KGS som) — still widely used, especially outside Bishkek
+    - Cards and contactless (the national 'ELSOOM' and Elcart payment systems; cards growing fast)
+    - Mobile banking (MBank, O!Dengi, Raskat) and QR payments, popular in cities
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up, or ~5-10%, for good service in restaurants"
+    autoIncludedInBill: false
+    note: "Prices are universally quoted in som; keep cash for small towns and markets, though ATMs and cards are reliable in Bishkek."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm, relationship-first and indirect in conflict — direct refusal is softened to preserve harmony. Older generations and state settings expect formality and respect for age/hierarchy."
+  greetingNorms: "Hospitality is central — guests are honored with food and tea (chi). Kyrgyz is a marker of national identity; Russian remains the default business lingua franca."
+  meetingEtiquette: "Business is relationship-driven; expect tea and food as part of the welcome. Respond to invitations with genuine warmth and modest gift-giving."
+  topicsToAvoid:
+    - "Ethnic and inter-community sensitivities, and politics around the north/south divide"
+  giftGivingNotes: "Modest gift-giving with genuine warmth is well received; hospitality is central."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: KG-C
+    file: distinct-regions/kg-c.yaml
+    adminUnitCodes: [KG-C]
+  - code: KG-Y
+    file: distinct-regions/kg-y.yaml
+    adminUnitCodes: [KG-Y]
+  - code: KG-O
+    file: distinct-regions/kg-o.yaml
+    adminUnitCodes: [KG-O]
+sources:
+  - id: kgz-constitution
+    name: "Constitution of the Kyrgyz Republic (2021), Article 5"
+    publisher: "Constitutional Chamber of the Kyrgyz Republic / official legal portal"
+    url: "https://cis-legislation.com/document.fwx?rgn=140216"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "The legal basis for Kyrgyz as the state language (Article 5(1)) and Russian as an official language (Article 5(2)); both official-domain rows are 1.0."
+  - id: kgz-census-2022
+    name: "Population and Housing Census of the Kyrgyz Republic 2022"
+    publisher: "National Statistical Committee of the Kyrgyz Republic"
+    url: "https://stat.gov.kg/en/publications/perepis-naseleniya-i-zhilishnogo-fonda-kyrgyzskoj-respubliki-2022-goda-kniga-i-osnovnye-socialno-demograficheskie-harakteristiki/"
+    year: 2022
+    accessedDate: "2026-09-14"
+    note: "Ethnic shares (Kyrgyz ~77.8%, Uzbeks 14.2%, Russians 3.8%, Dungans 1.0%, Uyghurs 0.5%), used for the locallySpoken rows (Kyrgyz 0.778, Uzbek 0.14)."
+  - id: kgz-russian-est
+    name: "Russian as a lingua franca in Kyrgyzstan (estimate)"
+    publisher: "Secondary estimate; contextual"
+    url: "https://stat.gov.kg/"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: Russian is widely used as an interethnic lingua franca in business and government beyond the ~4% ethnic-Russian share; ~10% locallySpoken is an approximation."
+  - id: kgz-english-est
+    name: "English proficiency in Kyrgyzstan (estimate)"
+    publisher: "Secondary estimate"
+    url: "https://stat.gov.kg/"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: English is taught in schools/universities and used in tourism, IT and international business; ~5% is an approximation."
+  - id: kgz-eu-status
+    name: "Kyrgyzstan's international status"
+    publisher: "Composite; no EU membership"
+    url: "https://www.consilium.europa.eu/"
+    accessedDate: "2026-09-14"
+    note: "Kyrgyzstan is not an EU member; EU directives do not apply. National law governs (NBKR for payments)."

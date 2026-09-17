@@ -1,0 +1,42 @@
+code: KG-C
+name:
+  eng: Chuy
+  local:
+    - languageCode: kir
+      value: Чүй облусу (Chüy oblasty)
+    - languageCode: rus
+      value: Чуйская область (Chuyskaya oblast)
+climates:
+  - koppenCode: Dfb
+    description: "Continental: hot dry summers and cold winters in the northern Chuy valley."
+landmarks:
+  - name: Bishkek
+    description: "The national capital, on the northern edge of the Chuy valley."
+  - name: Burana Tower
+    description: "Ancient minaret of the medieval city of Balasagun."
+  - name: Ala-Archa National Park
+    description: "Tien Shan alpine park, a short drive from Bishkek."
+culturalTraits:
+  - "The political and economic heartland, home to the capital"
+  - "Mix of Kyrgyz, Russian, Dungan and other communities"
+prideOf:
+  - "Hosting the capital Bishkek and the seat of national life"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Beshbarmak, plov and the full range of national cuisine centered in the capital region"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard office hours roughly 9:00am-6:00pm; the capital is the business centre."
+  notes: "Bishkek is the commercial hub; business language is commonly Russian with Kyrgyz increasingly used."

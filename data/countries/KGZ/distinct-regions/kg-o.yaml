@@ -1,0 +1,40 @@
+code: KG-O
+name:
+  eng: Osh
+  local:
+    - languageCode: kir
+      value: Ош облусу (Osh oblasty)
+    - languageCode: rus
+      value: Ошская область (Oshskaya oblast)
+climates:
+  - koppenCode: Dfb
+    description: "Continental in the southern Fergana valley: hot dry summers and mild winters."
+landmarks:
+  - name: Osh and Suleiman-Too
+    description: "One of Central Asia's oldest cities, dominated by the sacred mountain of Suleiman-Too."
+  - name: The Fergana valley
+    description: "The fertile southern lowlands, culturally shared with Uzbekistan and Tajikistan."
+culturalTraits:
+  - "The major city of the south; a strong Uzbek minority presence"
+  - "A bustling bazaar culture and the crossroads of the Fergana valley"
+prideOf:
+  - "Suleiman-Too, the sacred mountain above Osh"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Osh plov (one of Central Asia's most famous versions), lagman and kebabs"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard office hours; a strong market and trading rhythm."
+  notes: "Osh is the economic centre of the south; its bazaar is one of the oldest and busiest in Central Asia. Uzbek is widely spoken alongside Kyrgyz and Russian."

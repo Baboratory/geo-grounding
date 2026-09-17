@@ -1,0 +1,45 @@
+code: KG-Y
+name:
+  eng: Issyk-Kul
+  local:
+    - languageCode: kir
+      value: Ысык-Көл облусу (Ysyk-Köl oblasty)
+    - languageCode: rus
+      value: Иссык-Кульская область (Issyk-Kulskaya oblast)
+climates:
+  - koppenCode: Dfb
+    description: "Continental, moderated by the huge Issyk-Kul lake (which never freezes); cold winters and mild-to-warm summers."
+landmarks:
+  - name: Issyk-Kul lake
+    description: "The second-largest alpine lake in the world, ringed by the Tien Shan."
+  - name: Cholpon-Ata
+    description: "Resort town with ancient petroglyphs."
+  - name: Karakol
+    description: "Base for Tien Shan trekking and winter sports."
+culturalTraits:
+  - "The 'pearl of Kyrgyzstan' — a major lake-resort and tourist region"
+  - "Yurt-stay and high-pasture (jailoo) nomadic traditions"
+prideOf:
+  - "The immense Issyk-Kul lake and the alpine scenery"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Fresh fish from Issyk-Kul and grilled mountain cuisine"
+  - season: allYear
+    items:
+      - "Beshbarmak and kymyz (fermented mare's milk) in the high pastures"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard office hours; strongly tourism-seasonal."
+  notes: "Summer (June-August) is peak resort season at Issyk-Kul; winter draws skiers and trekkers to the Tien Shan."

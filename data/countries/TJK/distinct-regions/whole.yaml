@@ -1,0 +1,116 @@
+code: WHOLE
+name:
+  eng: Tajikistan
+  local:
+    - languageCode: tgk
+      value: Тоҷикистон (Tojikiston)
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO 3166-2
+# region isn't one of the curated files (TJ-SU/TJ-GB/TJ-KT), via the
+# 'whole-country-fallback' path.
+climates:
+  - koppenCode: Dfb
+    description: "Continental: hot summers and cold winters in the western valleys; high-mountain alpine climate in the Pamirs (extreme cold, arid, high altitude)."
+  - koppenCode: Cfa
+    description: "Subtropical valley microclimates in the Fergana and Vakhsh valleys, supporting cotton and fruit."
+landmarks:
+  - name: The Pamir Mountains
+    description: "The 'Roof of the World', including Ismoil Somoni Peak (7,495 m), the highest point in Tajikistan."
+  - name: Iskanderkul lake
+    description: "An alpine lake in the Fann (Fan) Mountains."
+  - name: Fann Mountains
+    description: "A popular trekking and alpine range."
+  - name: Dushanbe
+    description: "The capital, with the Somoni Monument, National Museum, Rudaki Park and the world's tallest flagpole."
+  - name: Ancient Panjakent and Sarazm
+    description: "Ancient Sogdian city and the UNESCO-listed site at Sarazm."
+  - name: Khujand
+    description: "An ancient city and cultural centre of Sughd."
+culturalTraits:
+  - "Persian/Central Asian heritage — a Persian literary tradition (Rudaki, Firdawsi influence), music and Silk Road culture"
+  - "Hospitality — guests are honoured with bread, green tea (choi) and abundant food"
+  - "Pride in the national symbols: the somoni currency (named after Ismail Samani) and the Samanid heritage"
+  - "Navruz (Persian New Year, 21 March) as a major national holiday"
+prideOf:
+  - "The Ismoil Somoni (Samanid) legacy"
+  - "The Pamir Mountains and alpine nature"
+  - "Persian-Tajik poetry and culture; independence since 1991"
+animals:
+  popular:
+    - Snow leopard (found in the Pamirs and western ranges)
+    - Marco Polo (argali) sheep and Siberian ibex
+    - Golden eagle (used in traditional hunting)
+  unique:
+    - "The snow leopard (national flagship species)"
+    - "Marco Polo sheep (Ovis ammon polii) in the Pamirs"
+industries:
+  - Cotton (a major agricultural export)
+  - Aluminum (Tajik Aluminium Company, TALCO)
+  - Hydropower (Rogun and Nurek plants; a major electricity exporter)
+  - Agriculture and fruit (apricots, grapes, walnuts)
+  - Gold and mining (one of the largest gold producers; antimony, silver)
+sports:
+  - Wrestling (the national sport, incl. freestyle) and judo/sambo
+  - Buzkashi (the traditional Central Asian horseback sport)
+  - Football (soccer)
+religions:
+  - name: Islam (Sunni Hanafi majority)
+    percent: 98.0
+    sourceId: tjk-religion
+  - name: Christianity (Russian Orthodox, small)
+    percent: 1.0
+    sourceId: tjk-religion
+# The remaining ~1% is other small communities and a tiny Ismaili Shia community
+# concentrated in GBAO. Tajikistan is constitutionally a secular state.
+entertainment:
+  - season: summer
+    items:
+      - "Pamir and Fann mountain trekking (peak season)"
+      - "Tea houses (choikhona) and Nowruz festivities"
+      - "Open-air music, Shashmaqam and falak performances"
+  - season: winter
+    items:
+      - "Cold-mountain culture; indoor gatherings and tea houses"
+      - "New Year and national-festival celebrations"
+  - season: allYear
+    items:
+      - "Tea-house culture as the central social gathering place"
+      - "National museums in Dushanbe; traditional music and dance"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Fresh fruit (apricots, grapes), plov and grilled shashlik"
+  - season: winter
+    items:
+      - "Plov (osh), the national dish"
+      - "Qurutob (flatbread in yogurt sauce) and warming stews"
+  - season: allYear
+    items:
+      - "Plov (osh), tandoor bread (non) and green tea (choi)"
+      - "Qurutob, shashlik/kebabs, sambusa and laghman"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional dress — the kurta (long shirt) and loose trousers for men, often with a toqi (skullcap); women's embroidered dresses and scarves; geometric and floral chakan embroidery — worn at festivals and celebrations"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Working week Monday-Friday, offices roughly 8:00/9:00am-5:00/6:00pm; government offices may have a half-day Friday in some periods."
+  notes: "Many enterprises pause during the summer holidays and around Navruz (mid-March); business hours shorten notably during Ramadan for the Muslim working public. Friday midday prayers may shift lunch."
+sources:
+  - id: tjk-religion
+    name: "Religious composition of Tajikistan (national estimates)"
+    publisher: "Composite (constitutional secular state; national estimates)"
+    url: "https://www.stat.tj"
+    accessedDate: "2026-09-14"
+    note: "The population is overwhelmingly Muslim (mostly Sunni Hanafi, ~98%), with a small Russian Orthodox minority (~1%) and a tiny Ismaili Shia community concentrated in GBAO. Tajikistan is constitutionally a secular state; figures are indicative national estimates."
