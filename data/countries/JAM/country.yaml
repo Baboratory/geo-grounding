@@ -1,0 +1,167 @@
+alpha3: JAM
+alpha2: JM
+name:
+  eng: Jamaica
+  local:
+    - languageCode: eng
+      value: Jamaica
+flagEmoji: "🇯🇲"
+capital: Kingston
+isSovereign: true
+# Classified unitary-small: Jamaica meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~2.8M (2022 census 2,774,538) — far below the
+# 20-25M threshold. (2) No officially recognized regional/minority or co-official
+# languages — English is the sole official language; Jamaican Patois ('jam') is a
+# distinct, respected creole and the de facto national vernacular but it is NOT
+# official. (3) No widely recognized cultural-historical federal/multi-region
+# identity — the 14 parishes are administrative units with no strong independent
+# regional identities worth curating. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: jam-official-language
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: jam-language-estimate
+  - languageCode: jam
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: jam-language-estimate
+# English is the sole official language (the Constitution has no explicit
+# official-language clause; its status rests on English being the language of the
+# Constitution, courts and government). Jamaican Patois (ISO 639-3 'jam') is the
+# de facto national vernacular and first language of most Jamaicans but is NOT
+# official (a push to make it so was ongoing). Both locallySpoken shares are
+# ESTIMATES — no official language-proficiency census exists.
+ethnicGroups:
+  # STATIN 2011 census self-identification.
+  - group: Black (African descent)
+    percent: 92.11
+    sourceId: jam-census-2011
+  - group: Mixed
+    percent: 6.06
+    sourceId: jam-census-2011
+  - group: East Indian
+    percent: 0.75
+    sourceId: jam-census-2011
+  - group: Chinese
+    percent: 0.19
+    sourceId: jam-census-2011
+  - group: White
+    percent: 0.16
+    sourceId: jam-census-2011
+  - group: Other / Not Reported
+    percent: 0.73
+    sourceId: jam-census-2011
+# STATIN notes responses reflect self-identification ('Out of Many One People').
+# A 2024 UWI ancestry study reports different admixture (African ~76.3%,
+# Afro-European ~15.1%) — a secondary estimate, NOT official census data.
+timezones:
+  - name: America/Jamaica
+    standardUtcOffset: "UTC-5"
+    observesDst: false
+currency:
+  code: JMD
+  symbol: "J$"
+  name: Jamaican dollar
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Jamaica is NOT an EU member or EEA state (a sovereign Commonwealth realm). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: jam-commonwealth
+  - topic: "data protection"
+    description: "The Data Protection Act, 2020 (Act 7 of 2020) governs the collection/use/storage/disclosure of personal data and establishes the Office of the Information Commissioner (OIC) as the national regulator; principal provisions in force 1 Dec 2021. National law, not GDPR."
+    sourceId: jam-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash — still widely used for small daily transactions and small merchants"
+    - "Debit/credit cards (Visa, Mastercard) — dominant for formal, hotel, retail and online purchases"
+    - "Bank transfers and direct deposit (ABM/ACH)"
+    - "Remittance services (Western Union, MoneyGram, JN Money) — remittances ~15.3% of GDP, exceeding tourism/FDI"
+    - "Mobile/digital wallets and fintech growing (incl. JAM-DEX CBDC pilot)"
+  tipping:
+    expected: true
+    typicalAmount: "10-15% in sit-down restaurants where no service charge is added"
+    autoIncludedInBill: false
+    note: "Customary for restaurant servers, hotel porters and taxi drivers around 10-15%; cash preferred. Cash is preferred at markets/small vendors; cards standard in hotels, larger restaurants and retail."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Formal Standard English with titles in business/government; daily/social interaction is warm, relaxed and informal. First names build quickly."
+  greetingNorms: "Friendly greeting; 'How yuh do?' / 'Wah gwaan?' (Patois) are common. Handshake in formal settings; warmth matters."
+  meetingEtiquette: "Personal connection is valued before business; relationships open doors. Reasonably punctual in formal business though a relaxed 'island time' reputation exists socially. Decisions often rest with senior leadership."
+  topicsToAvoid:
+    - "Conflating Jamaican Patois with 'broken English' — it is a distinct, respected creole language"
+    - "Casual ethnic/class stereotyping"
+    - "Reducing national identity to tourism imagery"
+    - "Overly blunt criticism delivered without warmth"
+  giftGivingNotes: "Not required at business meetings; a small thoughtful gesture is welcome once a relationship forms. Gift-giving centers on Christmas/festivals rather than business protocol."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: jam-official-language
+    name: "Constitution of Jamaica (Jamaica (Constitution) Order in Council 1962, as amended)"
+    publisher: "Government of Jamaica"
+    url: "https://pdba.georgetown.edu/Constitutions/Jamaica/jam62.html"
+    year: 1962
+    accessedDate: "2026-09-17"
+    note: "English is the sole official language. The Constitution has no explicit official-language clause; its legal status is that English is the language of the Constitution, courts and government. Basis for the eng official row."
+  - id: jam-language-estimate
+    name: "Jamaican Patois (jam) — ISO 639-3 / Glottolog / Ethnologue"
+    publisher: "SIL ISO 639-3 / Glottolog (Max Planck)"
+    url: "https://glottolog.org/resource/languoid/id/jama1262"
+    year: 2025
+    accessedDate: "2026-09-17"
+    note: "Confirms ISO 639-3 'jam' = Jamaican Patois/Creole English, status as de facto language of national identity; English remains the sole official language. eng/jam locallySpoken shares are ESTIMATES (no official proficiency census)."
+  - id: jam-census-2011
+    name: "Jamaica 2011 Population and Housing Census, General Report Vol. 1"
+    publisher: "Statistical Institute of Jamaica (STATIN)"
+    url: "https://census.statinja.gov.jm/wp-content/themes/futurio-child/Census2011Reports/Population%20and%20Housing%20Census%202011%20Jamaica%20General%20Report%20Vol%201.pdf"
+    year: 2011
+    accessedDate: "2026-09-17"
+    note: "Ethnic-origin composition: Black 92.11%, Mixed 6.06%, East Indian 0.75%, Chinese 0.19%, White 0.16%, Other 0.07%, Not Reported 0.66%. Self-identification."
+  - id: jam-population
+    name: "Population statistics (2022 Population & Housing Census; mid-year estimates)"
+    publisher: "Statistical Institute of Jamaica (STATIN)"
+    url: "https://statinja.gov.jm/demo_socialstats/populationstats.aspx"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "2022 census population 2,774,538; mid-year estimates ~2.8M. Well below the 20-25M unitary-large threshold."
+  - id: jam-timezone
+    name: "Time in Jamaica (America/Jamaica) — IANA tz database"
+    publisher: "IANA time zone database"
+    url: "https://data.iana.org/time-zones/tzdb/zonenow.tab"
+    year: 2026
+    accessedDate: "2026-09-17"
+    note: "America/Jamaica = UTC-05:00 (EST) year-round; no DST observed since 1983."
+  - id: jam-currency
+    name: "Currency — Banknotes & Coins"
+    publisher: "Bank of Jamaica (BOJ)"
+    url: "https://boj.org.jm/core-functions/currency/bank-notes/"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "Jamaican dollar (JMD), symbol J$; issued by the Bank of Jamaica."
+  - id: jam-commonwealth
+    name: "Jamaica — Commonwealth membership"
+    publisher: "The Commonwealth Secretariat"
+    url: "https://thecommonwealth.org/our-member-countries/jamaica"
+    accessedDate: "2026-09-17"
+    note: "Confirms Jamaica is a sovereign Commonwealth realm (constitutional monarchy). Supports the non-EU legal-status constraint."
+  - id: jam-data-protection
+    name: "Data Protection Act, 2020 (Act 7 of 2020)"
+    publisher: "Parliament of Jamaica / Office of the Information Commissioner (OIC)"
+    url: "https://japarliament.gov.jm/attachments/article/339/The%20Data%20Protection%20Act,%202020.pdf"
+    year: 2020
+    accessedDate: "2026-09-17"
+    note: "National law governing personal-data protection; establishes the OIC as regulator; in force since 1 Dec 2021. Not GDPR."
+  - id: jam-remittances
+    name: "Remittance Bulletin"
+    publisher: "Bank of Jamaica (BOJ)"
+    url: "https://boj.org.jm/wp-content/uploads/2025/09/Remittance-Bulletin-July-2025.pdf"
+    year: 2024
+    accessedDate: "2026-09-17"
+    note: "Remittances ~15.3% of GDP in 2024 (~US$3.3-3.5bn/yr), exceeding tourism receipts and FDI; largest source USA (~68%). Supports the paymentCulture remittance emphasis."
