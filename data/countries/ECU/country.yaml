@@ -180,7 +180,7 @@ sources:
     note: "BCE household survey of 7,526 banked households: cash is the preferred medium for most consumer payments (utilities ~95%, housing/rent ~66%, education/health ~83%, credit ~65%); ~89% of rural households have no nearby merchant accepting electronic payments. Context for the cash-dominant paymentCulture and why paymentMethodShares is omitted."
   - id: estimate-flag
     name: "Estimated / secondary figure — marked as non-primary"
-    publisher: "this factsheet"
+    publisher: "Composite estimate"
     url: "https://www.ecuadorencifras.gob.ec/"
     accessedDate: "2026-09-17"
     note: "Placeholder sourceId for values that are estimates or could not be verified against a directly-fetchable primary source: locallySpoken shares for spa (0.97), que (0.031), jiv (0.0035), eng foreign (0.1). Flagged as estimates in their notes."

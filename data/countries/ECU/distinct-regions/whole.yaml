@@ -174,7 +174,7 @@ sources:
     note: "Religions percentages. 2012 religion module of the integrated household survey (13,211 adults 16+, five cities); most recent official religion data, flagged as such (urban 5-city sample, 2012, never repeated)."
   - id: estimate-flag
     name: "Estimated / secondary figure — marked as non-primary"
-    publisher: "this factsheet"
+    publisher: "Composite estimate"
     url: "https://www.ecuadorencifras.gob.ec/"
     accessedDate: "2026-09-17"
     note: "businessRhythm notableShutdownPeriods, which are customary/estimated descriptions rather than primary-sourced statistics."

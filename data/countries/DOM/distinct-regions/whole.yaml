@@ -138,7 +138,7 @@ sources:
     note: "Religion survey estimates (based on Pew/Latinobarómetro, not ONE census): Catholics more than 50% (54.0 midpoint), evangelical Protestants 20-30% (25.0 midpoint), ~18% no declared religion. No official published ONE census religion percentage was found."
   - id: estimate-flag
     name: "Estimated / secondary figure — marked as non-primary"
-    publisher: "this factsheet"
+    publisher: "Composite estimate"
     url: "https://www.one.gob.do/"
     accessedDate: "2026-09-17"
     note: "Placeholder sourceId for businessRhythm shutdown periods, which are customary/estimated descriptions rather than primary-sourced statistics."

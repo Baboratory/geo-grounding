@@ -5,7 +5,7 @@ name:
   local:
     - languageCode: spa
       value: República Dominicana
-flagEmoji: "🇲🇴"
+flagEmoji: "🇩🇴"
 capital: Santo Domingo
 isSovereign: true
 # Classified unitary-small: population ~10.76M (ONE 2022 census) is far below the
@@ -166,7 +166,7 @@ sources:
     note: "Recommends strengthening targeted cash transfers — context for the ADESS social-subsidy payment rail."
   - id: estimate-flag
     name: "Estimated / secondary figure — marked as non-primary"
-    publisher: "this factsheet"
+    publisher: "Composite estimate"
     url: "https://www.one.gob.do/"
     accessedDate: "2026-09-17"
     note: "Placeholder sourceId for values that are estimates or could not be verified against a primary fetchable source: the hat and eng language shares. These fields ARE flagged as estimates in their YAML notes."
