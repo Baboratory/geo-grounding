@@ -1,0 +1,171 @@
+alpha3: TTO
+alpha2: TT
+name:
+  eng: Trinidad and Tobago
+  local:
+    - languageCode: eng
+      value: Republic of Trinidad and Tobago
+flagEmoji: "🇹🇹"
+capital: Port of Spain
+isSovereign: true
+# Classified unitary-small: a sovereign parliamentary republic (Commonwealth)
+# of ~1.37M people (CSO mid-2025 estimate), well below the unitary-large
+# threshold. English is the sole official language, with no officially
+# recognized regional/minority languages. While Trinidad and Tobago are two
+# islands and Tobago has a devolved House of Assembly (self-government since
+# 1980), that autonomy covers a single small island (~6% of the population) —
+# not the scale of the multi-region identity that warrants unitary-large.
+# One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: tto-factbook
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.96
+    sourceId: tto-factbook
+  - languageCode: trf
+    domain: locallySpoken
+    speakersShare: 0.75
+    sourceId: tto-ethnologue
+  - languageCode: hns
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: tto-ethnologue
+  - languageCode: tgh
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: tto-ethnologue
+  - languageCode: spa
+    domain: foreign
+    speakersShare: 0.15
+    sourceId: tto-factbook
+  - languageCode: hin
+    domain: foreign
+    speakersShare: 0.1
+    sourceId: tto-hindustani
+# NOTE: English is the de facto and de jure official language but the
+# Constitution contains no explicit 'official language' clause — so it is cited
+# via the CIA Factbook ('English (official)') and the fact that the Constitution
+# is enacted in English, to avoid a legal over-claim. The locallySpoken shares
+# for trf/hns/tgh and the spa/hin foreign shares are approximations (no official
+# language-proficiency census exists); only precise figures are treated as hard.
+ethnicGroups:
+  - group: East Indian
+    percent: 35.4
+    sourceId: tto-census-2011
+  - group: African descent (Afro-Trinidadian and Tobagonian)
+    percent: 34.2
+    sourceId: tto-census-2011
+  - group: Mixed — other
+    percent: 15.3
+    sourceId: tto-census-2011
+  - group: Mixed — African/East Indian (Dougla)
+    percent: 7.7
+    sourceId: tto-census-2011
+  - group: Other (incl. Chinese, White/Caucasian, Indigenous, Syrian/Lebanese)
+    percent: 1.3
+    sourceId: tto-census-2011
+  - group: Unspecified / not stated
+    percent: 6.2
+    sourceId: tto-census-2011
+timezones:
+  - name: America/Port_of_Spain
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+currency:
+  code: TTD
+  symbol: "TT$"
+  name: Trinidad and Tobago dollar
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Trinidad and Tobago is NOT an EU member or EEA state. EU directives (GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee) do NOT apply directly. It is a sovereign republic within the Commonwealth; national law governs."
+    sourceId: tto-commonwealth
+  - topic: "data protection"
+    description: "The Data Protection Act, 2011 (Act No. 13 of 2011) provides for the protection of personal privacy, governs cross-border disclosure of personal information, and grants data subjects rights of access/challenge; overseen by an Information Commissioner. National law, not GDPR."
+    sourceId: tto-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash — dominant, 'cash is king', especially among small merchants"
+    - "Debit cards — far outpace credit cards (held by ~88% of the banked)"
+    - "Linx (local debit/ATM network) and bank transfers"
+    - "E-money / mobile wallets — growing but small (Central Bank-registered EMI issuers)"
+    - "Visa/Mastercard branded cards; card acceptance limited at small merchants due to ~3-4% merchant fees"
+  tipping:
+    expected: true
+    typicalAmount: "Around 10% in restaurants where no service charge is added"
+    autoIncludedInBill: false
+    note: "Tipping is a customary norm, not a hard rule; around 10% in restaurants where service isn't already included, small amounts for porters/taxi. The Central Bank describes cash and cheques as dominating domestic financial transactions, with fintech impact still limited."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Business and official settings use Standard English with titles and formality; everyday interactions are warm, relaxed and informal. First-name basis develops quickly once acquaintance is established."
+  greetingNorms: "Warm, friendly greeting; casual 'Alright?' or 'How you going?' is common. Handshake in formal/business settings."
+  meetingEtiquette: "Relationships matter — Trinidadians value rapport and humour before diving into business. Punctuality is appreciated though 'Trini time' (slightly relaxed timing) is an acknowledged cultural quirk; better to arrive on time yourself. Decisions often made by senior leadership."
+  topicsToAvoid:
+    - "Sweeping assumptions that conflate Trinidadian and Tobagonian identity"
+    - "Overly blunt/heavy criticism delivered without warmth"
+    - "Casual stereotyping based on ethnicity/religion"
+  giftGivingNotes: "Not expected at business meetings; a small thoughtful gift is welcome once a relationship forms. Gift-giving centers on festivals (Eid, Divali, Christmas) more than business protocol."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: tto-factbook
+    name: "Trinidad and Tobago — The World Factbook"
+    publisher: "United States Central Intelligence Agency (CIA)"
+    url: "https://www.cia.gov/the-world-factbook/countries/trinidad-and-tobago/"
+    year: 2011
+    accessedDate: "2026-09-16"
+    note: "'English (official)' as the legal-source basis for the official language; English not explicitly declared official in the Constitution, so the Factbook/government-practice stance is used. Also the source for the locallySpoken/spa foreign language rows and religious composition summarising the 2011 census."
+  - id: tto-census-2011
+    name: "Trinidad and Tobago 2011 Population and Housing Census Demographic Report"
+    publisher: "Central Statistical Office of Trinidad and Tobago (CSO)"
+    url: "https://cso.gov.tt/wp-content/uploads/2020/01/2011-Demographic-Report.pdf"
+    year: 2011
+    accessedDate: "2026-09-16"
+    note: "Ethnic composition percentages (East Indian 35.4%, African descent 34.2%, Mixed-other 15.3%, Dougla 7.7%, other 1.3%, unspecified 6.2%) and religious composition; total population 1,328,019."
+  - id: tto-pop-estimate
+    name: "Population Statistics — Mid-Year Population Estimates"
+    publisher: "Central Statistical Office of Trinidad and Tobago"
+    url: "https://cso.gov.tt/subjects/population-and-vital-statistics/population"
+    year: 2025
+    accessedDate: "2026-09-16"
+    note: "Mid-year (30 June 2025) total population estimate of ~1.37M — supports the unitary-small population criterion."
+  - id: tto-ethnologue
+    name: "Trinidadian Creole English (ISO 639-3 trf) — Glottolog / Ethnologue"
+    publisher: "Glottolog (Max Planck Institute) / SIL Ethnologue"
+    url: "https://glottolog.org/resource/languoid/id/trin1276"
+    year: 2025
+    accessedDate: "2026-09-16"
+    note: "Confirms ISO 639-3 trf for Trinidadian Creole English, its status as the de facto language of national identity, and ~1M speakers; basis for the locallySpoken trf share and language file. tgh and hns codes corroborated via the Ethnologue country report."
+  - id: tto-hindustani
+    name: "Caribbean Hindustani (ISO 639-3 hns)"
+    publisher: "Wikipedia / SIL Ethnologue"
+    url: "https://en.wikipedia.org/wiki/Caribbean_Hindustani"
+    year: 2003
+    accessedDate: "2026-09-16"
+    note: "Confirms ISO 639-3 hns (Caribbean Hindustani), its declining heritage status (~1,600 fluent speakers by 2003), and Standard Hindi's influence via media. Basis for the hns locallySpoken and hin foreign rows and language files."
+  - id: tto-commonwealth
+    name: "Trinidad and Tobago — Commonwealth membership"
+    publisher: "The Commonwealth Secretariat"
+    url: "https://thecommonwealth.org/our-member-countries/trinidad-and-tobago"
+    accessedDate: "2026-09-16"
+    note: "Confirms Trinidad and Tobago is a sovereign republic and Commonwealth member (since 1962). Used only to support sovereignty/Commonwealth membership and the non-EU legal-status constraint."
+  - id: tto-data-protection
+    name: "The Data Protection Act, 2011 (Act No. 13 of 2011)"
+    publisher: "Parliament of the Republic of Trinidad and Tobago"
+    url: "https://www.ttparliament.org/wp-content/uploads/2022/01/a2011-13.pdf"
+    year: 2011
+    accessedDate: "2026-09-16"
+    note: "The national law governing personal-data protection (privacy principles, consent, cross-border disclosure, Information Commissioner). National law, not GDPR — non-EU."
+  - id: cbtt
+    name: "Journey into Fintech: The Central Bank of Trinidad & Tobago — Key Points"
+    publisher: "Central Bank of Trinidad and Tobago (Governor's presentation)"
+    url: "https://central-bank.org.tt/cbtt_storage/2025/06/presentation-journey-into-fintech-october-2024-June2025.pdf"
+    year: 2024
+    accessedDate: "2026-09-16"
+    note: "Central Bank statement that cash and cheques dominated domestic financial transactions and that fintech/e-money impact has so far been limited but encouraging; confirms currency context and supports the paymentCulture profile."

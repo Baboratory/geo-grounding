@@ -1,0 +1,131 @@
+code: WHOLE
+name:
+  eng: Costa Rica
+  local:
+    - languageCode: spa
+      value: República de Costa Rica
+# Generic country-wide fallback content for Costa Rica (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path in
+# usage_examples/python/get_data_by_ip.py.
+climates:
+  - koppenCode: Aw
+    description: "Tropical dry/savanna on the Pacific side: pronounced dry season ('verano', Dec-Apr) and rainy season ('invierno', May-Nov)."
+  - koppenCode: Af
+    description: "Tropical rainforest on the Caribbean coast and lower wet slopes: hot, humid, wet year-round with a brief drier spell Sept-Oct."
+  - koppenCode: Cwb
+    description: "Mild subtropical highland ('eternal spring') in the Central Valley and cloud forests (San José, Monteverde): cool nights, ~22-27°C days."
+landmarks:
+  - name: Arenal Volcano (near La Fortuna)
+    description: "Iconic perfectly-conical active volcano with former lava flows and hot springs."
+  - name: Monteverde Cloud Forest Reserve
+    description: "World-famous cloud forest with hanging bridges and extraordinary biodiversity."
+  - name: Tortuguero (Caribbean)
+    description: "Coastal canals and sea-turtle nesting grounds, reachable by boat."
+  - name: Corcovado (Osa Peninsula)
+    description: "Among the most biologically intense places on earth; jaguars, macaws, tapirs."
+  - name: Puerto Viejo & the Caribbean coast (Limón)
+    description: "Afro-Caribbean culture, reggae, beaches and surfing."
+  - name: Guanacaste beaches & the Nicoya Peninsula
+    description: "Dry tropical beaches (Tamarindo, Santa Teresa, Montezuma); a 'Blue Zone'."
+  - name: Rio Celeste (Tenorio)
+    description: "Striking turquoise river in the Tenorio Volcano National Park."
+culturalTraits:
+  - "'Pura vida' — a philosophy of easygoing optimism, friendliness and gratitude"
+  - "Deep ecological ethos — eco-tourism leader, ~25%+ of land protected, carbon-neutrality goals"
+  - "Ticos/Ticas — informal, egalitarian, peaceful, civil-society oriented"
+  - "Coffee heritage — highland arabica (Tarrazú, Heredia) world-renowned"
+  - "Biodiversity pride ('5-6% of the world's species on 0.03% of the land')"
+  - "No standing army since 1948 — resources to education and health"
+prideOf:
+  - "Abolishing its standing army in 1948 (Art. 12 of the Constitution)"
+  - "International environmental leadership — national parks, reforestation, eco-tourism pioneer"
+  - "'Pura vida' ethos and the image of the happiest/most peaceful nation in the region"
+  - "High literacy, life expectancy (~80y) and universal healthcare"
+  - "Renewable energy — ~98%+ of electricity from hydro, geothermal and wind"
+animals:
+  popular:
+    - "Sloths (two- and three-toed) — national icon of the rainforests"
+    - "Resplendent Quetzal — revered bird of the cloud forests"
+    - "Toucans (keel-billed and others)"
+    - "Howler, white-faced capuchin and spider monkeys"
+    - "Sea turtles (green, leatherback, hawksbill) — nesting on the Caribbean"
+  unique:
+    - "Scarlet macaws (Osa Peninsula) and poison-dart frogs"
+industries:
+  - "Eco-tourism and tourism — a leading driver (beaches, cloud forests, volcanoes, adventure tourism)"
+  - "Specialty coffee, bananas and pineapple exports"
+  - "Medical devices and precision instruments — a top export sector"
+  - "Technology / IT services — the 'Silicon Valley of Central America' hub"
+  - "Renewable energy generation (hydro, geothermal, wind)"
+sports:
+  - "Football (soccer) — the most popular sport; national team 'La Sele'"
+  - "Futsal — highly popular and competitive indoor football"
+  - "Surfing — world-class breaks (Salsa Brava at Puerto Viejo, Santa Teresa, Tamarindo)"
+  - "Cycling, swimming, marathons and outdoor/adventure sports"
+  - "Boxing, baseball (on the Caribbean coast), basketball and beach volleyball"
+religions:
+  - name: Roman Catholic
+    percent: 47.0
+    sourceId: cr-religion-ucr
+  - name: Evangelical Protestant
+    percent: 22.0
+    sourceId: cr-religion-ucr
+  - name: No religion / irreligious
+    percent: 27.0
+    sourceId: cr-religion-ucr
+  - name: Other (Methodist, LDS/Mormon, Jehovah's Witness, Jewish, Muslim, Buddhist, indigenous animism, etc.)
+    percent: 4.0
+    sourceId: cr-religion-ucr
+entertainment:
+  - season: allYear
+    items:
+      - "Cumbia, salsa, reggaetón and Latin pop; reggae on the Caribbean"
+      - "Marimba and folk music (Guanacaste)"
+      - "Cinema and nightlife in San José (Barrio Escalante, El Carmen), beach towns"
+      - "National-park excursions and eco-tourism as primary leisure"
+  - season: dry
+    items:
+      - "Carnival of Limón (October) and Zapote festivities (December)"
+      - "Beach life on the Pacific (Guanacaste, Nicoya)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Gallo pinto — rice and black beans, the national breakfast staple"
+      - "Casado — the classic lunch plate (rice, beans, plantain, salad, a meat/fish, tortilla)"
+      - "Olla de carne — hearty beef and vegetable soup/stew"
+      - "Arroz con pollo, arroz con mariscos (Caribbean coconut rice), ceviche, patacones"
+      - "Caribbean 'rice and beans' with coconut milk, 'rondón' fish stew, Johnny cakes"
+      - "Coffee ('chorreado'), 'agua dulce' (raw-sugar-cane water), guaro (cane liquor), 'frescos' (fruit agua)"
+  - season: dry
+    items:
+      - "Tamales (Christmas season) — corn dough filled with pork/veggies, wrapped in banana leaves"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern western/casual dress; 'pura vida' relaxed tropical style"
+      - "Traditional folk costume at festivals: long colorful skirt with embroidered blouse (women); white shirt, trousers, straw hat (men)"
+      - "Ox-cart painting ('carreta') — traditional painted oxcarts of Sarchí, a UNESCO Intangible Cultural Heritage and national symbol"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and stores typically Mon-Fri ~08:00-17:00/18:00; banks ~09:00-15:00/16:00. Many businesses open Saturday (half day); Sundays commonly closed except malls and tourism businesses."
+  lunchBreakTiming: "A midday break is common (many close ~noon-13:00 for lunch)."
+  notableShutdownPeriods:
+    - period: "Semana Santa (Easter week)"
+      description: "Widespread closures and a slower business week."
+    - period: "Christmas and New Year"
+      description: "Many close for the summer-vacation period around December-January ('veranillo')."
+  notes: "Punctuality is relaxed in social settings but expected (or negotiated) in formal business. Payment via cards/SINPE Móvil dominates; cash for small vendors. Everything negotiable with rapport; decisions are often relationship-driven."
+sources:
+  - id: cr-religion-ucr
+    name: "Encuesta de religión (University of Costa Rica CIEP surveys, 2007-2021)"
+    publisher: "Universidad de Costa Rica (UCR), Centro de Investigación y Estudios Políticos (CIEP)"
+    url: "https://www.ucr.ac.cr/"
+    year: 2021
+    accessedDate: "2026-09-16"
+    note: "Religious composition trending: Catholic ~47% (down from 70.5% in 2007), Evangelical ~22% (growing), no religion ~27% (rising strongly), other ~4%. Catholicism retains constitutional privilege (Art. 75) but shares are from UCR surveys."

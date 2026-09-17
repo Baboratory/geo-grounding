@@ -1,0 +1,143 @@
+alpha3: URY
+alpha2: UY
+name:
+  eng: Uruguay
+  local:
+    - languageCode: spa
+      value: República Oriental del Uruguay
+flagEmoji: "🇺🇾"
+capital: Montevideo
+isSovereign: true
+# Classified unitary-small: a sovereign unitary republic (19 administrative
+# departments) with a single centralized government, no federal/regional
+# autonomy, a single dominant official language (Spanish), and a small
+# population (~3.4M, 2023 census). One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: uy-constitution
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.97
+    sourceId: uy-constitution
+  - languageCode: por
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: uy-ine-2023
+  # Portuguese (incl. Uruguayan 'fronterizo'/'portuñol') is spoken natively along
+  # the northern border with Brazil (Rivera, Artigas, Chuy); the 0.03 share is an
+  # estimate. French has a minor historical/learned presence; no authoritative
+  # proficiency figure, so omitted as a locallySpoken row.
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.05
+    sourceId: uy-english-est
+# The 0.05 English foreign share is an estimate (growing bilingual-education
+# mandate since 2012); no official census of foreign-language proficiency exists.
+ethnicGroups:
+  # INE Uruguay publishes self-identified ancestry (not a race tally); shares are
+  # approximate and can exceed 100% due to multiple-ancestry self-identification.
+  - group: White / European descent (mostly Spanish, Italian)
+    percent: 86.0
+    sourceId: uy-ine-2023
+  - group: Afro-Uruguayan / Afro-descendant
+    percent: 10.6
+    sourceId: uy-ine-2023
+  - group: Indigenous descent (Charrúa, Chaná, Guaraní)
+    percent: 2.4
+    sourceId: uy-ine-2023
+  - group: East Asian descent
+    percent: 0.7
+    sourceId: uy-ine-2023
+timezones:
+  - name: America/Montevideo
+    standardUtcOffset: "UTC-3"
+    observesDst: false
+currency:
+  code: UYU
+  symbol: "$U"
+  name: Uruguayan peso
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Uruguay is not a member of the European Union or the EEA. EU directives (GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee) do not apply directly; commerce is governed by national law (Código de Comercio, Ley de Defensa del Consumidor 17.250), Mercosur norms, and the Banco Central del Uruguay (Ley de Inclusión Financiera)."
+    sourceId: uy-not-eu
+  - topic: "cannabis legalization"
+    description: "Uruguay was the first country in the world to fully legalize and regulate cannabis (Ley 19.172, 2013); a national registry-based regulated market operates through licensed pharmacies and clubs."
+    sourceId: uy-cannabis-law
+  - topic: "consumer price display / VAT"
+    description: "Consumer protection law (Ley 17.250) requires that advertised prices include VAT (IVA, 22% general rate) as a final price; this is customary practice rather than an EU-style single-price rule. Decimal-comma and thousand-dot formatting for UYU is customary but not legally mandated."
+    sourceId: uy-consumer-law
+paymentCulture:
+  popularMethods:
+    - "Debit cards — lead in-person transactions (large card scheme penetration under the 2014 Ley de Inclusión Financiera)"
+    - "Instant / electronic transfers (bank apps, QR, Toke/SIP rails) — dominate payment value"
+    - "Contactless (Apple Pay / Google Pay) — widely accepted"
+    - "Cash — declining, still used for small street purchases, ferias, tipping"
+  tipping:
+    expected: false
+    typicalAmount: "About 10% in restaurants when no service charge is included"
+    autoIncludedInBill: false
+    note: "Tipping is modest and not obligatory; service is often appreciated with ~10% in restaurants, rounding up in taxis, and a small amount for hotel staff. Uruguay is a strongly bankarized society where digital payments are the everyday norm."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Cordial and personable but comparatively egalitarian; use titles (Señor/Señora, licenciado/doctor for professionals) initially, and first names quickly after an acquaintance forms. Tone is understated and unpretentious ('tranquilo')."
+  greetingNorms: "A handshake on meeting; a friendly 'Buenas' / '¿Cómo estás?' (voseo). Men often a brief handshake; a light hug/kiss on the cheek among acquaintances, especially social."
+  meetingEtiquette: "Punctuality is expected in business though social punctuality is relaxed. Meetings are direct yet conflict-avoidant and relationship-based; small talk (family, mate, football) precedes the agenda. Decision-making can be methodical."
+  topicsToAvoid:
+    - "GDPR/EU-style legal expectations that do not apply here"
+    - "Treating Uruguay as a generic 'Latin American' market — secure the differences from its neighbors"
+  giftGivingNotes: "Gifts are not expected at business meetings. When invited to a home, a small gift of wine, mate or flowers is appreciated; mate-related gifts are a warmly received nod to national culture. Always modest, never lavish."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: uy-constitution
+    name: "Constitución de la República Oriental del Uruguay (1966, reinst. 1985, rev. 2004)"
+    publisher: "Poder Legislativo / General Assembly of Uruguay"
+    url: "https://biblioteca.parlamento.gub.uy/constitucion/"
+    year: 2004
+    accessedDate: "2026-09-16"
+    note: "Legal/governance basis for Spanish as the de facto sole official national language and for the unitary state structure; Article 5 separates church and state (religion shares). Spanish has no single explicit official-language clause; a bill to declare it official has been debated but not enacted."
+  - id: uy-ine-2023
+    name: "Censo 2023 — population and self-identified ancestry"
+    publisher: "Instituto Nacional de Estadística (INE) Uruguay"
+    url: "https://www.ine.gub.uy/"
+    year: 2023
+    accessedDate: "2026-09-16"
+    note: "Population ~3.4M; self-identified ancestral-origin shares (white ~86%, Afro-Uruguayan ~10.6%, indigenous ~2.4%, East Asian ~0.7%). INE does not publish a simple race/ethnicity tally; figures derive from self-identified origin and can exceed 100%."
+  - id: uy-not-eu
+    name: "EU member states and EEA membership"
+    publisher: "European Union"
+    url: "https://european-union.europa.eu/principles-countries-history/eu-countries_en"
+    accessedDate: "2026-09-16"
+    note: "Uruguay is not an EU/EEA member; EU consumer/data directives are not directly applicable and do not apply to Uruguayan commerce, which is governed by national law and Mercosur norms."
+  - id: uy-cannabis-law
+    name: "Ley 19.172 (2013) — legalización del cannabis"
+    publisher: "Poder Legislativo de Uruguay"
+    url: "https://www.impo.com.uy/bases/leyes/19172-2013"
+    year: 2013
+    accessedDate: "2026-09-16"
+    note: "First country to fully legalize and regulate cannabis; legal-use registry model through licensed pharmacies and clubs. Distinctive legal fact, irrelevant to general consumer law but contextually notable."
+  - id: uy-consumer-law
+    name: "Ley 17.250 de Relaciones de Consumo (Ley de Defensa del Consumidor)"
+    publisher: "Poder Legislativo de Uruguay"
+    url: "https://www.impo.com.uy/bases/leyes/17250-2000"
+    year: 2000
+    accessedDate: "2026-09-16"
+    note: "National consumer-protection law; requires advertised prices to include VAT (IVA, 22% general) as a final price and establishes consumer rights. Basis for the price-display legal constraint."
+  - id: bcu-payments
+    name: "Sistema de Pagos Minorista, Reporte Informativo del Banco Central del Uruguay"
+    publisher: "Banco Central del Uruguay (BCU)"
+    url: "https://www.bcu.gub.uy/Sistema-de-Pagos/"
+    accessedDate: "2026-09-09"
+    note: "Characterizes Uruguay as strongly digital/instant-payment oriented (electronic transfers dominate payment value, debit cards lead transaction counts), with cash declining but still present; basis for the paymentCulture profile. No single clean national percentage breakdown is published."
+  - id: uy-english-est
+    name: "English-language education and proficiency in Uruguay (no official census figure)"
+    publisher: "Composite estimate (primary-school English mandate since 2012)"
+    url: "https://www.ine.gub.uy/"
+    accessedDate: "2026-09-16"
+    note: "FLAGGED ESTIMATE: English is the main foreign language, growing through a bilingual-education mandate and IT/tourism sectors, but no authoritative national proficiency survey exists; the 0.05 foreign share is an approximation."

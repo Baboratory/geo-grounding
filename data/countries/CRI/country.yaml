@@ -1,0 +1,146 @@
+alpha3: CRI
+alpha2: CR
+name:
+  eng: Costa Rica
+  local:
+    - languageCode: spa
+      value: República de Costa Rica
+flagEmoji: "🇨🇷"
+capital: San José
+isSovereign: true
+# Classified unitary-small: a centralized but formally unitary republic (7
+# provinces are deconcentrated units of the central executive without elected
+# assemblies or taxing power; local autonomy is municipal at the canton level)
+# with a population of ~5.04M (INEC 2022). One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: cr-constitution
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.97
+    sourceId: cr-ine-census
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: cr-english-est
+  - languageCode: btd
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: cr-ine-census
+  - languageCode: jam
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: cr-ine-census
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.3
+    sourceId: cr-english-est
+# Spanish is the official language per Article 76 of the 1949 Constitution
+# (rev. 2011), which also obliges the State to maintain and cultivate indigenous
+# languages. Indigenous languages overall cover ~2.4% of the population; Bribri
+# (btd) is the largest. Limonese Creole (jam, 'Mekatelyu') is spoken by the
+# Afro-Caribbean community of Limón. The eng shares are estimates (no official
+# proficiency census; EF ranks Costa Rica highest in English in the region).
+ethnicGroups:
+  - group: White / Mestizo (European descent & mixed)
+    percent: 83.4
+    sourceId: cr-ine-census
+  - group: Afro-Caribbean / Black & Mulato
+    percent: 7.0
+    sourceId: cr-ine-census
+  - group: Indigenous (Amerindian)
+    percent: 2.4
+    sourceId: cr-ine-census
+  - group: Chinese / Asian
+    percent: 0.2
+    sourceId: cr-ine-census
+  - group: Other / none / not stated
+    percent: 7.0
+    sourceId: cr-ine-census
+# Ethnic shares are from the 2011 INEC census (white/mestizo ~83.4%, black &
+# mulato ~7%, indigenous 2.4%, Chinese/Asian ~0.2%; 'other/none' fills the
+# small remainder — the census self-identification categories do not sum cleanly
+# to 100% as reported, so the residual is treated as delimited).
+timezones:
+  - name: America/Costa_Rica
+    standardUtcOffset: "UTC-6"
+    observesDst: false
+currency:
+  code: CRC
+  symbol: "₡"
+  name: Costa Rican colón
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Costa Rica is not a member of the EU or EEA. EU directives (GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee) do NOT apply; regulation is national (1949 Political Constitution, Código Municipal Law 7794/1998, commercial codes)."
+    sourceId: cr-constitution
+  - topic: "no standing army"
+    description: "Article 12 of the 1949 Constitution abolished the standing army; resources are redirected to education and health. A contextually relevant national fact, though it has no direct bearing on consumer commerce."
+    sourceId: cr-constitution
+paymentCulture:
+  popularMethods:
+    - "Cards (esp. debit) — the everyday norm in cities, supermarkets, restaurants and tourism; contactless is common"
+    - "SINPE Móvil — free instant mobile transfer (launched 2015), key driver of financial inclusion (millions of active phone-linked accounts)"
+    - "International cards (Visa/Mastercard) widely accepted in major tourist areas"
+    - "Cash — still matters in rural areas, farmer's markets, small sodas and street stalls"
+  tipping:
+    expected: true
+    typicalAmount: "About 10% in restaurants (a service charge is often, but not always, added)"
+    autoIncludedInBill: true
+    note: "Many restaurants already include a ~10% service charge ('servicio'); when not, ~10% is customary. Tipping is modest otherwise. Costa Rica is moving decisively away from cash: cash in circulation fell to ~3.1% of GDP in 2025 (lowest on record); there are ~11.2M payment cards (7.8M debit + 3.4M credit) and over a billion card operations; SINPE Móvil has ~4.5M active phone-linked accounts. Shares are central-bank-informed directional estimates, not an official single-survey breakdown."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Famously warm, polite, informal and egalitarian ('pura vida' as greeting/thanks/farewell). Use titles and courtesy; personal rapport and trust matter before business."
+  greetingNorms: "A handshake on meeting; 'Pura vida' and '¡Hola! ¿Cómo estás?' are standard. Warm and friendly tone; first names once acquaintance forms."
+  meetingEtiquette: "Communication is indirect and harmony-seeking — avoid confrontation and direct criticism; soften requests ('con mucho gusto'). Punctuality is flexible/social (broadly accepted lateness); decisions may be relationship-driven."
+  topicsToAvoid:
+    - "Direct criticism or confrontation phrased bluntly"
+    - "Political comparisons that presume a regional stereotypes"
+  giftGivingNotes: "Gifts are not expected at business meetings; a small thoughtful gift is appreciated when visiting a home. 'Pura vida' relaxed etiquette prevails."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cr-constitution
+    name: "Costa Rica 1949 Political Constitution (rev. 2011), Article 76 (official language) and Article 12 (no army)"
+    publisher: "Constituent Assembly of Costa Rica"
+    url: "https://www.constituteproject.org/constitution/Costa_Rica_2011"
+    year: 1949
+    accessedDate: "2026-09-16"
+    note: "Article 76: 'Spanish is the official language of the Nation... the State will ensure the maintenance and cultivation of the national indigenous languages.' Basis for Spanish official (spa = 1.0) and the indigenous-language duty, and for the non-EU/unitary-small classification context."
+  - id: cr-ine-census
+    name: "Censo Nacional de Población y Vivienda 2011 and population estimates 2022"
+    publisher: "Instituto Nacional de Estadística y Censos (INEC) Costa Rica"
+    url: "https://inec.cr/"
+    year: 2011
+    accessedDate: "2026-09-16"
+    note: "Ethnic composition (white/mestizo ~83.4%, black ~7%, indigenous 2.4%, Chinese/Asian ~0.2%) and 2022 population estimate of ~5.04M. Basis for ethnicGroups and the population dimension of the unitary-small classification."
+  - id: cr-english-est
+    name: "English-language proficiency in Costa Rica (no official survey)"
+    publisher: "Secondary estimate (EF English Proficiency Index; tourism/business practice)"
+    url: "https://www.ef.com/wwen/epi/"
+    accessedDate: "2026-09-16"
+    note: "FLAGGED ESTIMATE: English is the leading foreign language (compulsory in schools, high in eco-tourism/tech sectors; EF ranks Costa Rica highest in English proficiency in Central/South America). No official census of proficiency exists, so the 0.05 locallySpoken and 0.3 foreign shares are directional estimates."
+  - id: cr-ine-constitution
+    name: "Population estimates 2022 (INEC)"
+    publisher: "Instituto Nacional de Estadística y Censos (INEC) Costa Rica"
+    url: "https://admin.inec.cr/sites/default/files/2023-10/rePoblacResultadosGenerales_Estimacion_poblacion_vivienda_2022_0.pdf"
+    year: 2022
+    accessedDate: "2026-09-16"
+    note: "INEC 2022 population estimate (~5.04M), used for the population dimension of the unitary-small classification."
+  - id: cr-bccr-payments
+    name: "Banco Central de Costa Rica payments data and BIS Paper 152 (SINPE Móvil)"
+    publisher: "Banco Central de Costa Rica (BCCR) / Bank for International Settlements (BIS)"
+    url: "https://www.bis.org/publ/bppdf/bispap152_d_rh.pdf"
+    accessedDate: "2026-09-09"
+    note: "Documents Costa Rica's decisive shift away from cash: record cashless use, cards dominant, SINPE Móvil as the driver of financial inclusion, cash at ~3.1% of GDP in 2025. Shares are central-bank-informed directional estimates, not an official single-survey breakdown."
+  - id: cr-not-eu
+    name: "EU membership status of Costa Rica"
+    publisher: "European Union / ISO"
+    url: "https://european-union.europa.eu/principles-countries-history/eu-countries_en"
+    accessedDate: "2026-09-16"
+    note: "Costa Rica is not an EU/EEA member; EU consumer/data directives do not apply, and regulation is governed by national law (Constitution, Código Municipal, commercial codes)."
