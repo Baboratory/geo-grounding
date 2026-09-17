@@ -1,0 +1,146 @@
+alpha3: GEO
+alpha2: GE
+name:
+  eng: Georgia
+  local:
+    - languageCode: kat
+      value: საქართველო (Sakartvelo)
+flagEmoji: "🇬🇪"
+capital: Tbilisi
+isSovereign: true
+# Classified unitary-small: population ~3.7M is far below the unitary-large
+# threshold, Georgian is the sole statewide official language (Abkhazian is
+# co-official only within the disputed breakaway Autonomous Republic of
+# Abkhazia), and there is no nationwide quasi-federal regional identity. Single
+# synthetic WHOLE region. NOTE: data scope covers the territory under central
+# government control — Abkhazia and South Ossetia (Tskhinvali Region) are
+# occupied/breakaway and outside government statistics.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: kat
+    domain: official
+    speakersShare: 1.0
+    sourceId: geo-constitution
+  - languageCode: kat
+    domain: locallySpoken
+    speakersShare: 0.84
+    sourceId: geo-census-2014
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.45
+    sourceId: geo-russian-est
+  - languageCode: aze
+    domain: locallySpoken
+    speakersShare: 0.06
+    sourceId: geo-census-2014
+  - languageCode: hye
+    domain: locallySpoken
+    speakersShare: 0.045
+    sourceId: geo-census-2014
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.2
+    sourceId: geo-english-est
+# Georgian is the sole official state language; aze (Azerbaijani) and hye
+# (Armenian) are the two largest minority languages (GEOSTAT census). Russian is
+# a widely-spoken lingua franca (estimate - no authoritative census share).
+ethnicGroups:
+  - group: Georgians
+    percent: 86.8
+    sourceId: geo-census-2014
+  - group: Azerbaijanis
+    percent: 6.3
+    sourceId: geo-census-2014
+  - group: Armenians
+    percent: 4.5
+    sourceId: geo-census-2014
+  - group: Russians
+    percent: 0.7
+    sourceId: geo-census-2014
+  - group: Ossetians
+    percent: 0.4
+    sourceId: geo-census-2014
+  - group: Yazidis
+    percent: 0.3
+    sourceId: geo-census-2014
+  - group: Other nationalities
+    percent: 1.2
+    sourceId: geo-census-2014
+timezones:
+  - name: Asia/Tbilisi
+    standardUtcOffset: "UTC+4"
+    observesDst: false
+currency:
+  code: GEL
+  symbol: "₾"
+  name: Georgian lari
+legalConstraints:
+  - topic: "EU membership status"
+    description: "Georgia is NOT an EU member and is not subject to EU directives. It holds EU candidate status (granted in 2023) and national law currently governs, with laws being progressively aligned toward EU standards."
+    sourceId: geo-eu-status
+  - topic: "official language"
+    description: "Georgian is the sole official state language (Constitution and the Organic Law on the Official Language), written in the unique Mkhedruli script; government documents and street signage are predominantly in Georgian."
+    sourceId: geo-constitution
+  - topic: "breakaway regions"
+    description: "Abkhazia and the Tskhinvali Region (South Ossetia) are outside effective central-government control — laws, taxes and services do not apply or are not enforced there, and travellers should treat them as restricted zones."
+    sourceId: geo-constitution
+# paymentMethodShares omitted: payment-instrument share figures were not
+# available from the NBG in a clean, citable form during research, so the field
+# is deliberately left out rather than guessed (see paymentCulture, which
+# captures the mixed cash-and-card picture).
+paymentCulture:
+  popularMethods:
+    - Cash (GEL) — king at bazaars, small cafes, marshrutkas/taxis, rural towns
+    - Cards and contactless/NFC (standard at hotels, restaurants, malls, larger shops in Tbilisi)
+    - Local instant-transfer apps (bank apps), growing
+  tipping:
+    expected: false
+    typicalAmount: "Often ~10% for good service at restaurants, appreciated but not mandatory"
+    autoIncludedInBill: false
+    note: "Tipping is appreciated but not obligatory; keep a supply of small GEL notes for local purchases."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Business is relationship-first: expect personal small talk, shared meals and frequent toasts before getting down to business. Directness is softened with politeness and warmth."
+  greetingNorms: "Warm greetings with genuine interest in the other's well-being; hospitality (supras) is deeply valued."
+  meetingEtiquette: "Building trust and rapport matters more than speed; expect a supra-style welcome with toasts. English is spoken mainly by younger generations and in Tbilisi tourism; Russian is a useful lingua franca for older and regional contacts."
+  topicsToAvoid:
+    - "The breakaway regions (Abkhazia, South Ossetia) and the 2008 war — sensitive"
+    - "Russia-Georgia relations framed casually"
+  giftGivingNotes: "Modest, thoughtful gifts (wine, chocolate, flowers) appreciated when visiting a home; gift giving is part of warm hospitality."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: geo-constitution
+    name: "Constitution of Georgia (Article 2) and Organic Law 'On the Official Language'"
+    publisher: "Parliament of Georgia / Matsne (Legislative Herald)"
+    url: "https://matsne.gov.ge/en/document/download/2931198/0/en/pdf"
+    accessedDate: "2026-09-14"
+    note: "Legal basis for Georgian being the sole official state language (Mkhedruli script), and for the breakaway-regions caveat (Abkhazian co-official only within the disputed Autonomous Republic of Abkhazia)."
+  - id: geo-census-2014
+    name: "GEOSTAT 2014 Population Census — nationality and religion"
+    publisher: "National Statistics Office of Georgia (GEOSTAT)"
+    url: "https://www.geostat.ge/en/modules/categories/41/population"
+    year: 2014
+    accessedDate: "2026-09-14"
+    note: "Ethnic shares (Georgians 86.8%, Azerbaijanis 6.3%, Armenians 4.5%, Russians 0.7%, Ossetians 0.4%, Yazidis 0.3%, other 1.2%); Georgian as first language of ~84%; religious shares (see WHOLE file). Figures exclude the occupied territories."
+  - id: geo-russian-est
+    name: "Russian as a lingua franca in Georgia (secondary estimate)"
+    publisher: "Secondary estimate; no authoritative census share"
+    url: "https://www.geostat.ge/"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: Russian was the lingua franca under Soviet rule and is still widely spoken/understood. No authoritative published share exists; ~45% is an approximation."
+  - id: geo-english-est
+    name: "English proficiency in Georgia (secondary estimate)"
+    publisher: "Secondary estimate; no authoritative census figure"
+    url: "https://www.geostat.ge/"
+    accessedDate: "2026-09-14"
+    note: "FLAGGED ESTIMATE: English is widely used among younger urban populations, tourism and business; ~20% is an approximation."
+  - id: geo-eu-status
+    name: "Georgia and the EU (enlargement status)"
+    publisher: "European Commission / national reporting"
+    url: "https://www.consilium.europa.eu/"
+    accessedDate: "2026-09-14"
+    note: "Georgia is not an EU member; it holds candidate status. National law governs; EU directives do not apply."
