@@ -231,7 +231,7 @@ sources:
     note: "35,000-50,000 L1 speakers of bzk across RACCN/RACCS/Managua/US diaspora. Basis for the bzk share (~0.006). ESTIMATE."
   - id: estimate-flag
     name: "Estimated / secondary figure — marked as non-primary"
-    publisher: "this factsheet"
+    publisher: "Composite estimate"
     url: "https://www.inide.gob.ni/"
     accessedDate: "2026-09-17"
     note: "Placeholder sourceId for estimates/unverifiable primary values: locallySpoken spa 0.96, yan 0.0002, rma 0.0001, eng 0.05, and the Mestizo-majority residual 91.37."

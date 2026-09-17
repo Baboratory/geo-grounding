@@ -191,7 +191,7 @@ sources:
     note: "America/Tegucigalpa = UTC-6, no daylight saving time observed; the sole timezone for Honduras."
   - id: estimate-flag
     name: "Estimated / secondary figures — marked as non-primary"
-    publisher: "this factsheet"
+    publisher: "Composite estimate"
     url: "https://ine.gob.hn/"
     accessedDate: "2026-09-17"
     note: "Placeholder sourceId for values that are estimates or could not be verified against a directly-fetchable primary source: the spa locallySpoken (~0.97) and eng locallySpoken (~0.002) shares."

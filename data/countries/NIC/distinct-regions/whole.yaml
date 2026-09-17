@@ -169,7 +169,7 @@ sources:
     note: "Religions percentages from the 2005 census religion variable (5+ years): Catholic 58.5%, Evangelical 21.6%. Transcribed via a secondary rendering (ARDA); the most recent official religion data. Religion not collected since 2005."
   - id: estimate-flag
     name: "Estimated / customary content"
-    publisher: "this factsheet"
+    publisher: "Composite estimate"
     url: "https://www.inide.gob.ni/"
     accessedDate: "2026-09-17"
     note: "businessRhythm shutdown periods and the residual 'no religion/other' religion percentage (19.9%) are customary/estimated."
