@@ -1,0 +1,118 @@
+code: WHOLE
+name:
+  eng: Bolivia
+  local:
+    - languageCode: spa
+      value: Estado Plurinacional de Bolivia
+    - languageCode: aym
+      value: Wuliwya Suyu
+    - languageCode: que
+      value: Buliwya Suyu
+# Generic country-wide fallback content for Bolivia (unitary-large). Used via the
+# 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py when
+# a visitor's specific department (e.g. BO-O Oruro, BO-P Potosí) isn't one of the
+# curated files (BO-L La Paz, BO-S Santa Cruz, BO-C Cochabamba).
+climates:
+  - koppenCode: BWh
+    description: "Hot arid/semi-arid lowlands in the southeast (Chaco) — dry with very hot temperatures."
+  - koppenCode: Af
+    description: "Tropical humid in the Amazon lowlands (north/east): hot, humid, rain year-round."
+  - koppenCode: Cwb
+    description: "Temperate Andean valleys (Cochabamba/Sucre): mild, with a marked wet/dry cycle."
+  - koppenCode: ET
+    description: "Cold highland on the Altiplano at 3,600-4,200m (La Paz/Potosí/Oruro): intense sun, thin air, cold nights."
+landmarks:
+  - name: Salar de Uyuni
+    description: "The world's largest salt flat (~10,582 km²), famous for the mirror effect in the rainy season."
+  - name: Lake Titicaca
+    description: "The highest navigable lake in the world (~3,812m), shared with Peru."
+  - name: La Paz
+    description: "The world's highest administrative capital (~3,640m), with the Mi Teleférico cable-car system."
+  - name: Sucre
+    description: "The constitutional (judicial) seat, a historic whitewashed colonial city, UNESCO-listed."
+  - name: Potosí and Cerro Rico
+    description: "Colonial silver mountain, a UNESCO World Heritage Site."
+  - name: Tiwanaku
+    description: "Pre-Inca archaeological site on Lake Titicaca, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Carnaval de Oruro
+    description: "UNESCO-listed festival blending Catholic and Andean ritual."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Andean-Amazonian mix with strong Quechua/Aymara indigenous heritage"
+  - "Plurinational identity ('Estado Plurinacional de Bolivia')"
+  - "Cholitas (Aymara women) in pollera skirts and bowler hats — a proud cultural symbol"
+  - "Rich festival calendar (Carnaval de Oruro, La Paz entrada) blending Catholic and Andean ritual"
+  - "Pachamama (Mother Earth) cosmology; collective community values (ayllu)"
+prideOf:
+  - "Salar de Uyuni — the world's largest salt flat"
+  - "Indigenous (Quechua/Aymara) heritage and plurinational identity"
+  - "Lake Titicaca and the Andes"
+  - "Tiwanaku civilization"
+  - "Carnaval de Oruro and Amazonian biodiversity"
+  - "Bolivia's lithium and natural gas resources"
+animals:
+  popular:
+    - "Andean condor (national symbol)"
+    - "Llama and alpaca"
+    - "Vicuña — protected, the world's finest wool"
+    - "Jaguar (Amazon/Chaco)"
+    - "Pink river dolphin (Amazon)"
+  unique:
+    - "Chilean flamingos on the Altiplano salt lakes"
+industries:
+  - "Lithium — Salar de Uyuni holds the world's largest lithium-brine reserves (strategic government priority)"
+  - "Natural gas — among the largest reserves in South America"
+  - "Mining — silver, tin, zinc, gold (Potosí)"
+  - "Agriculture — soy (Santa Cruz), quinoa, coffee/cocoa (Yungas)"
+  - "Eco- and community tourism; solar and hydro energy"
+sports:
+  - "Football (fútbol) — dominant, including high-altitude matches at La Paz/El Alto"
+  - "Racquetball — national sport, Bolivia's strongest internationally"
+  - "Cycling (the 'Death Road' and highland routes)"
+  - "Andean trekking and climbing (Huayna Potosí, Illimani)"
+religions:
+  - name: Roman Catholic
+    percent: 78.0
+    sourceId: bo-religion
+  - name: Protestant / Evangelical
+    percent: 16.0
+    sourceId: bo-religion
+  - name: Other Christian (Adventist, Mormon, etc.)
+    percent: 3.0
+    sourceId: bo-religion
+  - name: No religion / non-practicing
+    percent: 2.4
+    sourceId: bo-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Traditional Andean music and dance (morenada, caporal, saya, huayño; zampoña panpipes, charango)"
+      - "Folkloric dance troupes and carnival fraternities"
+      - "Cholitas wrestling (lucha libre) in El Alto"
+      - "Urban cinema, reggaeton, streaming; street food and markets as social hubs"
+  - season: wet
+    items:
+      - "Carnavales and festivals — Oruro's Carnaval and La Paz's entrada fall in the rainy months (Feb/Mar)"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 09:00-13:00 and 14:30-18:30/19:00 Monday-Friday with shorter Saturdays; a long midday (lunch) break is common outside large modern firms."
+  lunchBreakTiming: "A long midday/siesta break is standard outside modern urban firms."
+  notableShutdownPeriods:
+    - period: "Carnival week"
+      description: "Carnival and civic anniversaries can pause activity."
+  notes: "Festivals, civic anniversaries and carnival week can pause activity. High-altitude fatigue and acclimatization are real concerns for visitors in La Paz/Potosí. Digital/online commerce grows, but much purchasing still runs through cash and regulated channels."
+sources:
+  - id: bo-religion
+    name: "Censo 2001 religion (ethnic/religious composition, INE)"
+    publisher: "Instituto Nacional de Estadística (INE) Bolivia"
+    url: "https://www.opinion.com.bo/"
+    year: 2001
+    accessedDate: "2026-09-16"
+    note: "Religious composition from the 2001 census (religion was dropped from the 2012 census): ~78% Catholic, ~16% Protestant/Evangelical, ~3% other Christian, ~2.4% no religion. Andean/Catholic syncretic spirituality is widespread. 2001 vintage flagged."

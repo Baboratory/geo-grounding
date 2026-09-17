@@ -1,0 +1,48 @@
+code: BO-C
+name:
+  eng: Cochabamba
+  local:
+    - languageCode: spa
+      value: Cochabamba
+    - languageCode: que
+      value: Quchapampa
+climates:
+  - koppenCode: Cwb
+    description: "Temperate valley climate: mild 'eternal spring' weather with a rainy season (Nov-Mar) and a drier, cooler winter (May-Oct)."
+landmarks:
+  - name: Cochabamba city
+    description: "Known as the 'city of eternal spring', Bolivia's third-largest city in a fertile valley."
+  - name: Cristo de la Concordia
+    description: "One of the world's tallest statues of Christ, overlooking the city on Cerro San Pedro."
+  - name: Valle Alto / Torotoro National Park
+    description: "Dramatic canyon with dinosaur footprints and cave systems (Torotoro)."
+culturalTraits:
+  - "Quechua highland-valley heritage at the meeting of Andes and lowlands"
+  - "Famed for its cuisine — the gastronomic heart of Bolivia (silpancho, chicharrón, pampaku)"
+  - "Vibrant market and cholita culture; a friendly, family-oriented society"
+prideOf:
+  - "The 'eternal spring' climate and being the country's culinary capital"
+  - "Cristo de la Concordia and the Torotoro dinosaur site"
+  - "A bridge between Andean and eastern lowland Bolivia"
+animals:
+  popular:
+    - "Andean condor"
+    - "Vicuña and vizcacha in the high valleys"
+    - "Puma (in Torotoro's wilder reaches)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Silpancho — breaded beef cutlet with rice, potato, egg and tomato salsa"
+      - "Pampaku — meat and vegetables baked underground"
+      - "Chicharrón, humintas, mote (hominy) and api"
+      - "Chicha (traditional fermented corn drink at festive occasions)"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Generally 08:30-12:30 and 14:30-18:30 Monday-Friday, with Saturday mornings; a long midday break is common."
+  notes: "A relaxed, family-oriented business culture grounded in market and small-commerce tradition; gastronomy and local produce dominate. As in the rest of the highlands, acclimatization and a courteous, relationship-first pace matter."

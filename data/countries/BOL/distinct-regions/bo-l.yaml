@@ -1,0 +1,51 @@
+code: BO-L
+name:
+  eng: La Paz
+  local:
+    - languageCode: spa
+      value: La Paz
+    - languageCode: aym
+      value: Chuqiyapu
+climates:
+  - koppenCode: ET
+    description: "High Andean Altiplano: cold, arid, intense sun and thin air at ~3,600-4,200m; cool wetter summer (Nov-Mar) and dry winter (May-Oct)."
+landmarks:
+  - name: La Paz city
+    description: "The world's highest administrative capital (~3,640m), seat of government, in a dramatic canyon."
+  - name: Mi Teleférico
+    description: "The world's highest and one of the longest urban cable-car networks, linking La Paz with El Alto."
+  - name: Lake Titicaca
+    description: "The highest navigable lake in the world, with the islands of the Sun and the Moon; shared with Peru."
+  - name: Tiwanaku
+    description: "Pre-Inca archaeological site and UNESCO World Heritage Site near the lake."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Aymara heartland — strong indigenous presence, ayllu community values and Andean spirituality (Pachamama)"
+  - "Cholitas (Aymara women) in pollera skirts and bowler hats, central to the city's identity"
+  - "The 'entrada' folkloric festival of the Gran Poder blending Catholic and Andean ritual"
+prideOf:
+  - "Hosting the seat of government and the world's highest capital"
+  - "Vibrant Aymara culture and the world-famous Teleférico"
+  - "The nearby sacred Lake Titicaca and Tiwanaku heritage"
+animals:
+  popular:
+    - "Andean condor"
+    - "Llama and alpaca in the highlands"
+    - "Vicuña (protected) in the altiplano"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Salteñas — juicy baked empanadas with spicy filling"
+      - "Api — hot purple-corn drink, with buñuelos"
+      - "Charque (dried llama/beef) and chuño (freeze-dried potato)"
+      - "Pique macho, llajwa spicy salsa; coca tea (mate de coca) for altitude"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and commerce generally 09:00-13:00 and 14:30-18:30/19:00 Monday-Friday, with shorter Saturdays; a long midday break is common."
+  notes: "High-altitude fatigue and acclimatization are real for visitors; the pace can be relaxed. El Alto's markets and cholitas-wrestling are cultural landmarks; much commerce still runs through cash and regulated channels."

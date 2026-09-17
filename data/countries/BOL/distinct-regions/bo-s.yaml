@@ -1,0 +1,52 @@
+code: BO-S
+name:
+  eng: Santa Cruz
+  local:
+    - languageCode: spa
+      value: Santa Cruz de la Sierra
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry lowlands: hot year-round with a distinct wet season (Nov-Apr) and a drier, cooler winter (May-Oct) marked by 'surazos' (cold southern winds)."
+landmarks:
+  - name: Santa Cruz de la Sierra city
+    description: "Bolivia's largest and most economically dynamic city, an agribusiness and commercial hub."
+  - name: Samaipata (Fuerte de Samaipata)
+    description: "UNESCO-listed pre-Columbian archaeological site in the foothills."
+    unescoWorldHeritage: true
+  - name: Noel Kempff Mercado National Park
+    description: "Vast Amazonian biodiversity hotspot, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Chiquitos Jesuit Missions
+    description: "UNESCO-listed 18th-century mission towns (e.g. San Javier, Concepción) with distinctive baroque music tradition."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "The economic engine of Bolivia — a booming, entrepreneurial and outward-looking region"
+  - "Strong Camba identity (self-reliant, warm, with its own dialect of Spanish)"
+  - "Agribusiness culture around soy, cattle and sugar; cowboy (vaqueano) traditions"
+  - "Religious-music heritage of the Chiquitos missions (Festival de Música Renacentista y Barroca)"
+prideOf:
+  - "Driving Bolivia's economy and being the country's fastest-growing region"
+  - "Noel Kempff biodiversity and the Chiquitos baroque heritage"
+  - "An open, dynamic and immigrant-welcoming metropolis"
+animals:
+  popular:
+    - "Jaguar (Amazon/Chaco)"
+    - "Capybara and giant river otter"
+    - "Macaws and toucans"
+    - "Tapir"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Majao (rice with beef, egg, plantain) and locro carretero"
+      - "Cunapé (cheese bread), empanadas de arroz"
+      - "Chicharrón and asado; sweet 'zona' rum from local sugarcane"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Generally 08:30-12:30 and 14:30-18:30 Monday-Friday, with Saturday mornings; business culture is faster and more direct than the highlands."
+  notes: "Santa Cruz is Bolivia's most business-driven region — entrepreneurial, English-friendly in corporate circles, and the main gateway for foreign investment. Agribusiness and logistics run on a tight seasonal calendar tied to the soy harvest."
