@@ -1,0 +1,77 @@
+code: HN-GD
+name:
+  eng: Gracias a Dios Department (La Mosquitia)
+  local:
+    - languageCode: spa
+      value: Gracias a Dios
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest on the north coast of La Mosquitia; seasonally flooded savanna and pine inland."
+landmarks:
+  - name: Río Plátano Biosphere Reserve
+    description: "UNESCO World Heritage rainforest with Miskito/Pech/Tawahka lands."
+    unescoWorldHeritage: true
+  - name: Puerto Lempira
+    description: "Department capital and gateway to La Mosquitia."
+  - name: Laguna de Caratasca and the Mosquitia wetlands
+    description: "Expansive lagoon and wetland system."
+  - name: Miskitu territorial communities
+    description: "Self-governed Miskito villages with a strong cultural heritage."
+culturalTraits:
+  - "Miskito language (miq) and identity dominate — a self-governed Miskitu territory within Honduras"
+  - "Pech / Tawahka communities in the interior"
+  - "Subsistence fishing, agriculture and coastal ways of life"
+  - "Remote, river-and-lagoon transportation culture"
+prideOf:
+  - "Río Plátano and the unspoiled Mosquitia wilderness"
+  - "Miskitu cultural autonomy and heritage"
+animals:
+  popular:
+    - "Jaguar"
+    - "Scarlet macaw"
+    - "Tapir"
+    - "Howler monkey"
+  unique:
+    - "West Indian manatee"
+    - "Morelet's crocodile"
+industries:
+  - "Subsistence agriculture and fishing"
+  - "Pine/timber and agro (Patuca river zone)"
+  - "Ecotourism (Río Plátano), low-intensity"
+  - "Small trade via Puerto Lempira; air and river transport"
+sports:
+  - "Football (soccer)"
+  - "Traditional fishing and regatta culture"
+entertainment:
+  - season: dry
+    items:
+      - "Río Plátano and wilderness tours in the drier months"
+      - "River and lagoon boating"
+  - season: wet
+    items:
+      - "Community cultural gatherings and Miskito music"
+      - "Indoor/community cooking and storytelling"
+  - season: allYear
+    items:
+      - "Miskito heritage and craft"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fish stews and river/seafood dishes"
+      - "Cassava (yuca) and plantain staples"
+      - "Tapado-style coastal stews"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light tropical clothing"
+      - "Miskito crafted garments in communities"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Daily rhythms follow fishing, tides and river transport rather than fixed office hours; small trade runs through Puerto Lempira."
+  notes: "Remote frontier economy; ecotourism is low-intensity. Sunday rest day within the mostly Christian workforce."

@@ -1,0 +1,114 @@
+code: NI-AN
+name:
+  eng: Caribbean Coast Autonomous Regions (RACCN & RACCS)
+  local:
+    - languageCode: spa
+      value: Regiones Autónomas de la Costa Caribe de Nicaragua
+    - languageCode: miq
+      value: Likit tara / La Mosquitia
+    - languageCode: bzk
+      value: The Miskito Coast / Bluefields
+# This curated region represents BOTH autonomous Caribbean-coast regions: NI-AN
+# (Costa Caribe Norte, seat Puerto Cabezas/Bilwi) and NI-AS (Costa Caribe Sur,
+# seat Bluefields), created by the Constitution and Ley 28 Estatuto de Autonomía.
+# Home to the Miskito/Mayangna/Rama/Garifuna/Creole communities whose languages
+# hold regional official co-use status.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest on the southern/central coast around Bluefields and the Corn Islands."
+  - koppenCode: Am
+    description: "Tropical monsoon on the Miskito Coast — wet most months, with a short Feb-Apr dry window."
+landmarks:
+  - name: Corn Islands (Islas del Maíz)
+    description: "Caribbean islands with palm-fringed beaches, turtle-nesting and a Creole fishing culture."
+  - name: Bluefields & the Rio Escondido
+    description: "Historic Creole port capital of Costa Caribe Sur, gateway to Rama Cay."
+  - name: Rama Cay & Rio Indio Maíz Biosphere Reserve
+    description: "Home of the Rama people; the IUCN-recognized coastal lagoon reserve."
+  - name: Puerto Cabezas (Bilwi) & the Miskito Keys
+    description: "Seat of Costa Caribe Norte and the Miskito cay system."
+  - name: Rio Coco (Wangki) & the Mosquitia
+    description: "The great border river and largely roadless Miskito lowlands."
+culturalTraits:
+  - "Autonomous 'Comunidades de la Costa Caribe' — Miskito, Mayangna/Sumo, Rama, Garifuna, Creole, Mestizo — with elected Regional Councils (Ley 28)"
+  - "Palo de Mayo / Maypole (1 May, Bluefields) — the Caribbean Creole festival par excellence"
+  - "Rondón and coconut-based Caribbean cuisine"
+  - "Miskito drumming, Creole soca/reggae, Garifuna punta"
+  - "Moravian Church heritage and a strong evangelical presence — distinct from the Catholic Pacific"
+  - "English Creole (bzk) as a lingua franca alongside Miskito and Spanish; mother-tongue education (Ley 28)"
+prideOf:
+  - "Constitutional autonomy of the Caribbean Coast (RACCN/RACCS)"
+  - "The Miskito nation and language (miq) — the largest indigenous people"
+  - "Rama/Mayangna/Garifuna heritage and Nicaragua's only seafaring Creole culture"
+  - "The Corn Islands' untouched beaches"
+  - "A distinct two-century Atlantic identity"
+animals:
+  popular:
+    - "Green sea turtle"
+    - "West Indian manatee"
+    - "Howler monkey"
+    - "Coastal crocodile"
+  unique:
+    - "Manatee and tarpon of the Rio Indio Maíz lagoon"
+    - "Rama Cay island fauna"
+    - "Coastal dolphin pods off the Corn Islands"
+industries:
+  - "Seafood & fisheries (Caribbean lobster, shrimp)"
+  - "Smallholder coconut, plantain, palm"
+  - "Eco and community tourism (Corn Islands, Rio Indio Maíz, Miskito Keys)"
+  - "Artisanal fishing; remittance-supported economies"
+  - "Timber and (northern) small-scale mining"
+sports:
+  - "Cricket and baseball"
+  - "Football (fútbol)"
+  - "Swimming/kayaking and offshore fishing"
+entertainment:
+  - season: allYear
+    items:
+      - "Creole music and Miskito drumming"
+      - "Beach/island excursions (Corn Islands, Miskito cays)"
+      - "Baseball/cricket in Creole communities"
+  - season: dry
+    items:
+      - "Early-dry (Feb-Apr) is best for Corn-Island diving and the cays"
+      - "Dry-season beach weather and turtle-watching"
+  - season: wet
+    items:
+      - "Palo de Mayo (1 May) opens the wet"
+      - "Indoor cocoa/bread and rondón cooking gatherings"
+      - "Miskito/Garifuna cultural evenings in Bluefields/Puerto Cabezas"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Rondón (coconut-fish-plantain stew)"
+      - "Gullin/Buñuelos and pan dulce"
+      - "Fresh lobster, shrimp, grilled fish"
+      - "Wabul/honey and cocoa-tiste drinks"
+  - season: dry
+    items:
+      - "Corn-Island seafood feasts in the dry (Feb-Apr) tourism peak"
+  - season: wet
+    items:
+      - "Warm rondón and dulce de coco comfort food"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Creole and Miskito Caribbean apparel"
+      - "Urban Western dress"
+      - "Garifuna traditional dress in coastal communities"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 4]
+  - season: wet
+    months: [1, 5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government/offices 08:00-17:00 Mon-Fri; boat/fishery schedules follow tides and weather."
+  lunchBreakTiming: "Midday meal break common; fishing/ferries run to the tides."
+  notableShutdownPeriods:
+    - period: "Palo de Mayo (1 May)"
+      description: "The big regional festival closes much of Bluefields."
+    - period: "Wet/hurricane season (Sep-Oct)"
+      description: "Weather interruptions halt maritime and field work."
+  notes: "The autonomy statute (Ley 28) gives regional councils their own administrative calendar."

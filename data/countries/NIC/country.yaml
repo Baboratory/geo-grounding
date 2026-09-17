@@ -1,0 +1,237 @@
+alpha3: NIC
+alpha2: NI
+name:
+  eng: Nicaragua
+  local:
+    - languageCode: spa
+      value: Nicaragua
+    - languageCode: miq
+      value: Nikaragua / Yapti tãra
+    - languageCode: bzk
+      value: Nicaragua
+flagEmoji: "🇳🇮"
+capital: Managua
+isSovereign: true
+# Classified unitary-large: meets 2 of the 3 DESIGN.md criteria even though its
+# ~6.8M population (INIDE 2023 estimate) is below the >20-25M threshold.
+# (2) Officially recognized regional/minority languages: Spanish is the sole
+# official language of the State (Const. Art. 11), BUT the languages of the
+# Communities of the Atlantic Coast (Miskito, Sumo/Mayangna, Rama, Garifuna,
+# Creole English) have official use within the Autonomous Regions of the
+# Caribbean Coast as established by law (Ley 28 Estatuto de Autonomía 1987/2016;
+# 1993 law on official use of Atlantic-coast languages). (3) A widely recognized,
+# constitutionally-institutionalized cultural-historical regional divide: the
+# Caribbean/Autonomous Coast (RACCN + RACCS) vs Pacific. Curated regions: Managua
+# (NI-MN), the Caribbean Coast Autonomous Regions (NI-AN + NI-AS), León/Matagalpa
+# (NI-LE + NI-MT) + WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: "NI"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    variant: es-NI
+    sourceId: constitution-art11
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.96
+    variant: es-NI
+    sourceId: estimate-flag
+  - languageCode: miq
+    domain: locallySpoken
+    speakersShare: 0.022
+    sourceId: etnn-miq
+  - languageCode: bzk
+    domain: locallySpoken
+    speakersShare: 0.006
+    sourceId: apics-bzk
+  - languageCode: yan
+    domain: locallySpoken
+    speakersShare: 0.0002
+    sourceId: estimate-flag
+  - languageCode: rma
+    domain: locallySpoken
+    speakersShare: 0.0001
+    sourceId: estimate-flag
+  - languageCode: cab
+    domain: locallySpoken
+    speakersShare: 0.0005
+    sourceId: inide-censo-2005
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.05
+    sourceId: estimate-flag
+# Spanish (spa) is the sole official language of the State (Const. Art. 11). The
+# Atlantic/Caribbean Coast community languages — Miskito (miq), Mayangna/Sumo
+# (yan), Rama (rma), Garifuna (cab), Nicaragua Creole English (bzk) — have
+# official use ONLY within the Autonomous Regions of the Caribbean Coast as
+# established by law, so they are modeled as locallySpoken (regional shares),
+# not nationwide-official rows. NOTE on ISO codes: Miskito is 'miq' (NOT 'mis',
+# which is 'miscellaneous/uncoded'); Rama is 'rma' (NOT 'ram'/'rmc'); Sumo/
+# Mayangna is 'yan' (obsolete 'sum' was deprecated and split in 2010). Shares
+# are ESTIMATES (speakers / ~6.8M, 2023); mother-tongue data date to ~1995.
+ethnicGroups:
+  # INIDE/INEC VIII Censo 2005, Cuadro 8, ethnic self-identification, % of
+  # 5,142,098. Last full census; new IX Censo 2024 pending.
+  - group: Mestizo majority and other not enumerated
+    percent: 91.37
+    sourceId: inide-censo-2005
+  - group: Miskitu (Miskito)
+    percent: 2.35
+    sourceId: inide-censo-2005
+  - group: Mestizo de la Costa Caribe (Caribbean-coast Mestizo)
+    percent: 2.18
+    sourceId: inide-censo-2005
+  - group: Chorotega-Nahua-Mangue
+    percent: 0.89
+    sourceId: inide-censo-2005
+  - group: Xiu-Sutiaba
+    percent: 0.39
+    sourceId: inide-censo-2005
+  - group: Creole (Kriol)
+    percent: 0.39
+    sourceId: inide-censo-2005
+  - group: Cacaopera-Matagalpa
+    percent: 0.3
+    sourceId: inide-censo-2005
+  - group: Nahoas-Nicarao
+    percent: 0.22
+    sourceId: inide-censo-2005
+  - group: Mayagna-Sumu (Mayangna)
+    percent: 0.19
+    sourceId: inide-censo-2005
+  - group: Rama
+    percent: 0.08
+    sourceId: inide-censo-2005
+  - group: Garifuna
+    percent: 0.06
+    sourceId: inide-censo-2005
+  - group: Ulwa
+    percent: 0.01
+    sourceId: inide-censo-2005
+timezones:
+  - name: America/Managua
+    standardUtcOffset: "UTC-6"
+    observesDst: false
+currency:
+  code: NIO
+  symbol: "C$"
+  name: Córdoba
+legalConstraints:
+  - topic: "official languages"
+    description: "Spanish (castellano) is the sole official language of the State (Const. 1987 rev. Art. 11). The languages of the Communities of the Atlantic Coast (Miskito, Sumo/Mayangna, Rama, Garifuna, Creole English) 'will also have official use in the cases established by law' — regional co-official status within the Autonomous Regions of the Caribbean Coast (Ley 28 Estatuto de Autonomía 1987/2016; 1993 law on official use of Atlantic-coast languages). Mother-tongue/bilingual education is guaranteed for the Caribbean communities."
+    sourceId: constitution-art11
+  - topic: "currency / legal tender"
+    description: "The Córdoba (NIO, C$) is the monetary unit, 100 centavos; only the Banco Central de Nicaragua issues banknotes/coins, which have legal tender and full discharging power throughout the territory; foreign-currency clauses are void except enumerated exceptions. USD circulate widely by custom though they are not legal tender."
+    sourceId: bcn-ley-monetaria
+  - topic: "ethnicity / religion data collection"
+    description: "Ethnic self-identification was collected in the 2005 census (the last full census; a new IX Censo 2024 is pending). Religion was last collected in the 2005 census and NOT asked since — religion figures are the 2005 values, not current."
+    sourceId: inide-censo-2005
+paymentCulture:
+  popularMethods:
+    - "Cash (córdobas, with USD notes circulating informally) — dominant in retail/markets and the mass economy"
+    - "SINPE — the national electronic payments / real-time interbank and mobile-money network (Banco Central)"
+    - "Debit/credit cards (Visa, Mastercard) — common in supermarkets, malls, hotels, tourist zones"
+    - "Bank transfers / ACH and mobile banking — growing among the banked"
+    - "Western Union / remittance rails — large diaspora remittances"
+  tipping:
+    expected: true
+    typicalAmount: "About 10% in sit-down restaurants (a ~10% propina is often added); loose change in taxis/for guides"
+    autoIncludedInBill: true
+    note: "Qualitative and customary. The córdoba is the unit of account; USD is widely accepted (especially in tourist/border areas). No authoritative single consumer payment-method share exists (the BCN publishes monetary aggregates/SINPE volumes, not a household breakdown), so none are asserted."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Warm, polite, relationship-first. Spanish business uses professional honorifics (Licenciado/a, Ingeniero/a, Doctor/Doctora, Economista) at first contact, loosening to first names once rapport forms. Value respect, though less formal than Mexican/Spanish norms."
+  greetingNorms: "Firm handshake with eye contact in business; hug/kiss on the cheek among friends. 'Buenos días / buenas tardes' plus title; inquiry after family and well-being is expected first."
+  meetingEtiquette: "Relational — friendly small talk before the agenda. Punctuality is relaxed ('hora nica'); arrive on time but do not take lateness as disrespect. Decisions flow through senior relationship-based contacts; personal trust closes deals."
+  topicsToAvoid:
+    - "The current political situation and the Ortega government (deeply polarizing since 2018)"
+    - "The Somoza era and 1979 revolution history"
+    - "Personal wealth display / dwelling on poverty and hardship"
+    - "Sensitive ethnic/racial topics on the Caribbean coast without familiarity"
+  giftGivingNotes: "Not expected at a first business meeting. Once a relationship forms, a small tasteful gift (quality coffee, Flor de Caña rum, rosquillas/cacao, branded item) is welcome; at a home, flowers, fruit or dessert."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: NI-MN
+    file: distinct-regions/ni-mn.yaml
+    adminUnitCodes: [NI-MN]
+  - code: NI-AN
+    file: distinct-regions/ni-an.yaml
+    adminUnitCodes: [NI-AN, NI-AS]
+  - code: NI-LE
+    file: distinct-regions/ni-le.yaml
+    adminUnitCodes: [NI-LE, NI-MT]
+sources:
+  - id: constitution-art11
+    name: "Constitución Política de la República de Nicaragua (1987 rev.) — Art. 11"
+    publisher: "Asamblea Nacional (via OAS)"
+    url: "https://www.oas.org/juridico/spanish/mesicic3_nic_const.pdf"
+    year: 1987
+    accessedDate: "2026-09-17"
+    note: "Art. 11: Spanish is the sole official language of the State; the languages of the Communities of the Atlantic Coast 'will also have official use in the cases established by law'. Basis for the official row, the regional-official status, the language legal constraint, and the criterion-2 governance justification."
+  - id: ley-28-autonomia
+    name: "Ley No. 28 Estatuto de Autonomía de las Regiones de la Costa Caribe (1987/2016)"
+    publisher: "Asamblea Nacional (via FAOLEX)"
+    url: "https://faolex.fao.org/docs/pdf/nic163854-2016.pdf"
+    year: 2016
+    accessedDate: "2026-09-17"
+    note: "Creates RACCN (Costa Caribe Norte, seat Puerto Cabezas/Bilwi) and RACCS (Costa Caribe Sur, seat Bluefields); governs the Miskitos/Mayagnas/Ramas/Creoles/Garifunas/Mestizos; mother-tongue education. Basis for unitary-large (criterion 3), the Caribbean region, and the language constraint."
+  - id: ley-lenguas-1993
+    name: "Ley de uso oficial de las lenguas de las Comunidades de la Costa Atlántica (1993)"
+    publisher: "Asamblea Nacional (via UNESCO)"
+    url: "https://www.unesco.org/en/right-education/observatory/law-official-use-languages-communities-atlantic-coast-nicaragua-1993"
+    year: 1993
+    accessedDate: "2026-09-17"
+    note: "Implements Art. 11 regulating official use of Miskito/Sumo/Rama/Garifuna/Creole English. Basis for the regional co-official framework and criterion-2 justification."
+  - id: inide-censo-2005
+    name: "VIII Censo de Población y IV de Vivienda 2005 — Cuadro 8 (ethnic self-ID) and religion variable"
+    publisher: "INIDE (formerly INEC)"
+    url: "https://www.inide.gob.ni/docu/censos2005/ResumenCensal/Res_Anexos3.pdf"
+    year: 2005
+    accessedDate: "2026-09-17"
+    note: "Ethnic self-ID counts: Miskitu 120,817, Mestizo Costa Caribe 112,253, Chorotega-Nahua-Mangue 46,002, Xiu-Sutiaba 19,949, Creole 19,890, Cacaopera-Matagalpa 15,240, Nahoas-Nicarao 11,113, Mayagna-Sumu 9,756, Rama 4,185, Garifuna 3,271, Ulwa 698. Religion: Catholic 58.5%, Evangelical 21.6% (see arda-religion)."
+  - id: inide-poblacion
+    name: "Estimaciones y proyecciones de población (revisión dic 2023)"
+    publisher: "INIDE / BCN"
+    url: "https://www.bcn.gob.ni/sites/default/files/documentos/Nicaragua%20en%20cifras%202023.pdf"
+    year: 2023
+    accessedDate: "2026-09-17"
+    note: "INIDE 2023: ~6.8M (30-Jun-2023 estimate 6,803,886). Last actual census 2005 (5,142,098); new IX Censo 2024 pending. Basis for the population in the governance classification and locallySpoken denominators."
+  - id: bcn-ley-monetaria
+    name: "Ley Orgánica/Estatuto BCN — Capítulo VIII 'Unidad Monetaria' and 'Emisión de la Moneda'"
+    publisher: "Banco Central de Nicaragua (BCN)"
+    url: "https://bcn.gob.ni/capitulo-viii"
+    accessedDate: "2026-09-17"
+    note: "Art. 34: córdoba/córdobas, symbol C$, 100 centavos. Art. 35: only BCN emissions are legal tender. Arts. 101-102: exclusive issuance. Basis for the currency object and the currency constraint."
+  - id: iana-timezones
+    name: "IANA Time Zone Database — America/Managua"
+    publisher: "Internet Assigned Numbers Authority (IANA)"
+    url: "https://www.iana.org/time-zones"
+    accessedDate: "2026-09-17"
+    note: "America/Managua = UTC-6, no DST (stable since 2006). Single timezone."
+  - id: iso-639-3
+    name: "ISO 639-3 codes miq/yan/rma/bzk/cab + change 2009-037"
+    publisher: "SIL / ISO 639-3 RA"
+    url: "https://iso639-3.sil.org/code/miq"
+    accessedDate: "2026-09-17"
+    note: "Authoritative codes: miq=Miskito (NOT 'mis'), rma=Rama (NOT 'ram'/'rmc'), yan=Mayangna (deprecated 'sum' split in 2010 into yan+ulw), bzk=Nicaragua Creole English, cab=Garifuna."
+  - id: etnn-miq
+    name: "Ethnologue — Miskito (miq)"
+    publisher: "Ethnologue (SIL)"
+    url: "https://www.ethnologue.com/language/miq"
+    accessedDate: "2026-09-17"
+    note: "~150,000 Miskito speakers. Basis for the miq share (~0.022). ESTIMATE (secondary)."
+  - id: apics-bzk
+    name: "APiCS — Nicaraguan Creole English"
+    publisher: "APiCS"
+    url: "https://apics-online.info/surveys/11"
+    accessedDate: "2026-09-17"
+    note: "35,000-50,000 L1 speakers of bzk across RACCN/RACCS/Managua/US diaspora. Basis for the bzk share (~0.006). ESTIMATE."
+  - id: estimate-flag
+    name: "Estimated / secondary figure — marked as non-primary"
+    publisher: "Composite estimate"
+    url: "https://www.inide.gob.ni/"
+    accessedDate: "2026-09-17"
+    note: "Placeholder sourceId for estimates/unverifiable primary values: locallySpoken spa 0.96, yan 0.0002, rma 0.0001, eng 0.05, and the Mestizo-majority residual 91.37."

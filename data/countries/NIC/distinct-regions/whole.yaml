@@ -1,0 +1,175 @@
+code: WHOLE
+name:
+  eng: Nicaragua
+  local:
+    - languageCode: spa
+      value: Nicaragua
+    - languageCode: miq
+      value: Yapti tãra (Nikaragua)
+    - languageCode: bzk
+      value: Nicaragua
+# Generic country-wide fallback content for Nicaragua (unitary-large). Used via
+# the 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py
+# when a visitor's specific department isn't one of the curated files (NI-MN
+# Managua, NI-AN Caribbean coast, NI-LE León/Matagalpa).
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna — Pacific lowlands/west: warm year-round, dry Nov-Apr, rainy May-Oct."
+  - koppenCode: Am
+    description: "Tropical monsoon/rainforest on the Caribbean coast and Miskito Keys — wetter year-round, Sep-Oct peak."
+  - koppenCode: Cwb
+    description: "Subtropical highland in the interior (Estelí, Matagalpa, Jinotega, Nueva Segovia) — cool coffee country."
+landmarks:
+  - name: León Cathedral (Catedral de León)
+    description: "UNESCO World Heritage (2011); 18th-century baroque-neoclassical cathedral of the old colonial capital."
+    unescoWorldHeritage: true
+  - name: Masaya Volcano National Park
+    description: "Highly accessible active volcano with a glowing lava lake."
+  - name: Lake Nicaragua (Lago Cocibolca) & Ometepe Island
+    description: "Largest freshwater lake in Central America; Ometepe carries the twin volcanoes Concepción and Maderas."
+  - name: Colonial Granada & the Rio San Juan
+    description: "1524-founded colonial city; the Granada Islets and the Rio San Juan waterway to the Caribbean."
+  - name: Bosawas Biosphere Reserve
+    description: "UNESCO Biosphere; among the most biodiverse cloud/rainforest areas in the Americas."
+  - name: Corn Islands (Islas del Maíz) & the Miskito Keys
+    description: "Caribbean islands with white-sand beaches and a Creole/Miskito culture."
+  - name: Momotombo volcano & León Viejo
+    description: "Active volcano behind León; the León Viejo ruins are UNESCO World Heritage (2000)."
+    unescoWorldHeritage: true
+  - name: Somoto Canyon
+    description: "Limestone canyon carved by the Coco River near Somoto."
+culturalTraits:
+  - "Purísima & La Gritería (7-8 Dec) — the signature festival of altars, the 'Quién es tan pura...' chant, firecrackers and sweets"
+  - "El Güegüense — UNESCO Masterpiece masquerade dance-theater of colonial/revolutionary heritage"
+  - "Palo de Mayo / Maypole (1 May, Bluefields) — the Creole festival of the Atlantic coast"
+  - "Two coasts, two worlds: Pacific mestizo vs Caribbean Miskito-Creole-Garifuna maritime culture"
+  - "Baseball as the national sport — a US/Caribbean-influenced passion rare in Latin America"
+  - "Marimba and 'son nica' in the west; reggae, soca and Miskito drumming in the east"
+  - "Street-food culture: vigorón, baho, nacatamal; strong coffee culture"
+  - "Mestizo campesino dress, indigenous huipiles; Miskito and Creole attire on the coast"
+prideOf:
+  - "Lake Nicaragua (Cocibolca) — the largest lake in Central America"
+  - "Two UNESCO World Heritage sites: León Cathedral and León Viejo"
+  - "El Güegüense and the Purísima/La Gritería traditions"
+  - "Rubén Darío — the great modernist poet"
+  - "Baseball — the national sport"
+  - "The indigenous Caribbean heritage — Miskito, Mayangna, Rama, Garifuna, Creole"
+  - "Volcanic 'land of lakes and volcanoes' landscapes"
+animals:
+  popular:
+    - "Jaguar"
+    - "White-faced capuchin and howler monkeys"
+    - "Green sea turtle (Caribbean nesting)"
+    - "Baird's tapir"
+    - "Resplendent quetzal (Mokorón cloud forest)"
+  unique:
+    - "Two-toed sloths in the lowlands"
+    - "West Indian manatee of Lake Nicaragua / Rio San Juan"
+    - "Nicaraguan freshwater turtle and endemic Lake Cocibolca fish fauna"
+    - "Manatee/crocodile/tarpon of the coastal lagoons"
+industries:
+  - "Agriculture & agroindustry: coffee (Matagalpa/Jinotega/Segovias), maize, beans, sugarcane, bananas, plantains"
+  - "Gold mining — a top export (Bonanza, Siuna, Rosita)"
+  - "Livestock/beef and tobacco (premium Estelí cigars)"
+  - "Fisheries & Caribbean seafood (lobster, shrimp) from Bluefields/Corn Islands"
+  - "Tourism (Granada/León, volcanoes, Lake Nicaragua, islands) and large diaspora remittances"
+  - "Manufacturing/maquila and geothermal/hydroelectric energy"
+sports:
+  - "Baseball — the national sport"
+  - "Football (fútbol)"
+  - "Boxing"
+  - "Basketball and volleyball"
+  - "Surfing and sport fishing on the Pacific and Caribbean"
+religions:
+  - name: Roman Catholic
+    percent: 58.5
+    sourceId: inide-censo-2005
+  - name: Evangelical / Protestant Christian
+    percent: 21.6
+    sourceId: inide-censo-2005
+  - name: No religion / other / not declared (residual)
+    percent: 19.9
+    sourceId: inide-censo-2005
+entertainment:
+  - season: allYear
+    items:
+      - "Baseball and fútbol matches"
+      - "Artisan/coffee-shop culture and markets (Mercado Oriental, Granada)"
+      - "Volcano hikes (Masaya, Mombacho, Momotombo)"
+      - "Caribbean reggae/soca and Miskito drumming in Bluefields"
+  - season: dry
+    items:
+      - "Purísima & La Gritería (7-8 Dec)"
+      - "Christmas & New Year (Dec 31 'Año Viejo')"
+      - "Semana Santa (Mar/Apr) processions"
+      - "Dry-season beaches: San Juan del Sur, Poneloya, Corn Islands"
+  - season: wet
+    items:
+      - "Palo de Mayo (1 May) in Bluefields"
+      - "Independence Day (14-15 Sep) parades"
+      - "Indoor artisan/cooking classes; highland coffee-harvest tours begin"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Gallo pinto (national rice-and-beans)"
+      - "Nacatamal (large tamal)"
+      - "Vigorón (yuca + chicharrón + cabbage)"
+      - "Baho (banana-leaf stew)"
+      - "Quesillo"
+      - "Indio viejo (corn-meat porridge)"
+      - "Rondón (Caribbean coconut-fish stew)"
+      - "Pinolillo, tiste, cacao and Flor de Caña rum"
+  - season: dry
+    items:
+      - "Christmas/New Year: nacatamales, perrerreque, cajeta de leche"
+      - "Purísima sweets (rosquillas, gofio)"
+      - "Semana Santa tamales and sopa de queso"
+  - season: wet
+    items:
+      - "Fritanga and churrasco street food"
+      - "First-harvest coffee and cacao drinks in the highlands"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Mestizo campesino dress"
+      - "El Güegüense masks and León's colonial costume theater"
+      - "Miskito and Creole Caribbean apparel; urban Western dress"
+      - "Huipil-style blouse in some indigenous communities"
+  - season: dry
+    items:
+      - "Festival dress for La Gritería (Dec) and Semana Santa processions"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00/09:00-17:00/18:00 Mon-Fri; government runs a continuous day; retail open Saturday and (in malls/tourist areas) Sunday."
+  lunchBreakTiming: "Midday break ~12:00-14:00 in many services; larger firms run a continuous day."
+  notableShutdownPeriods:
+    - period: "Semana Santa (Mar/Apr)"
+      description: "National holiday; extensive closures."
+      sourceId: estimate-flag
+    - period: "Purísima & La Gritería (7-8 Dec)"
+      description: "Widespread closures on 8 Dec."
+      sourceId: estimate-flag
+    - period: "Christmas to New Year (24 Dec - 2 Jan)"
+      description: "Long year-end closures."
+      sourceId: estimate-flag
+  notes: "UTC-6 year-round (America/Managua)."
+sources:
+  - id: inide-censo-2005
+    name: "VIII Censo 2005 — religion variable"
+    publisher: "INIDE (formerly INEC)"
+    url: "https://www.inide.gob.ni/docu/censos2005/ResumenCensal/Res_Anexos3.pdf"
+    year: 2005
+    accessedDate: "2026-09-17"
+    note: "Religions percentages from the 2005 census religion variable (5+ years): Catholic 58.5%, Evangelical 21.6%. Transcribed via a secondary rendering (ARDA); the most recent official religion data. Religion not collected since 2005."
+  - id: estimate-flag
+    name: "Estimated / customary content"
+    publisher: "Composite estimate"
+    url: "https://www.inide.gob.ni/"
+    accessedDate: "2026-09-17"
+    note: "businessRhythm shutdown periods and the residual 'no religion/other' religion percentage (19.9%) are customary/estimated."

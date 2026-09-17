@@ -1,0 +1,99 @@
+code: NI-MN
+name:
+  eng: Managua (Department)
+  local:
+    - languageCode: spa
+      value: Managua
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna — hot, dry Nov-Apr, rainy May-Oct."
+landmarks:
+  - name: Plaza de la Revolución & the old cathedral ruins
+    description: "Symbolic heart of Managua beside Lake Managua (Lago Xolotlán)."
+  - name: Masaya Volcano National Park
+    description: "Active volcano a short drive south with a glowing lava crater."
+  - name: Mombacho volcano & coffee-farm trails
+    description: "Cloud-forested stratovolcano with coffee-finca and canopy tours."
+  - name: Mercado Roberto Huembes & Mercado Oriental
+    description: "Central America's biggest market district — trade, handicrafts, street food."
+  - name: Rubén Darío National Theatre & Puerto Salvador Allende
+    description: "Cultural landmarks on the lakefront."
+culturalTraits:
+  - "Cosmopolitan capital and political/business hub of the mestizo 'Sons of the Lake/Sons of the Volcano' culture"
+  - "Vigorón and fritanga street-food culture"
+  - "Baseball fields and strong civic identity in the surrounding villages"
+prideOf:
+  - "Seat of government and largest urban centre"
+  - "Masaya Volcano as a city landmark"
+  - "The street-food and artisan-market tradition"
+animals:
+  popular:
+    - "Jaguar (Masaya/Mombacho)"
+    - "White-faced capuchin"
+    - "Howler monkey"
+  unique:
+    - "Two-toed sloth in urban-edge rainforest"
+    - "Lake Managua/Nicaragua turtle fauna"
+industries:
+  - "Government and services"
+  - "Commerce (Mercado Oriental hub)"
+  - "Banking and finance"
+  - "Coffee (Mombacho)"
+  - "Manufacturing/maquila on the city edge"
+sports:
+  - "Baseball"
+  - "Football (fútbol)"
+  - "Basketball"
+entertainment:
+  - season: allYear
+    items:
+      - "Baseball, fútbol and basketball leagues"
+      - "Markets and artisan shopping"
+      - "Masaya/Mombacho day hikes"
+  - season: dry
+    items:
+      - "Purísima & La Gritería (Dec 7-8) in every barrio"
+      - "Lake causeway / Puerto Salvador Allende evenings"
+      - "Semana Santa processions"
+  - season: wet
+    items:
+      - "Indoor artisan/weaving workshops and cooking classes"
+      - "Independence Day (Sep 14-15) parades"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Vigorón"
+      - "Baho"
+      - "Quesillo"
+      - "Gallo pinto"
+      - "Fritanga"
+  - season: dry
+    items:
+      - "Nacatamales and cajeta de leche at Christmas"
+      - "Purísima sweets (rosquillas, gofio)"
+  - season: wet
+    items:
+      - "Churrasco street food in the rainy-season markets"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Mestizo campesino dress"
+      - "Urban Western/business attire"
+      - "Huipil-style blouse in some indigenous communities"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00/09:00-17:00/18:00 Mon-Fri; retail open Saturday, malls Sunday."
+  lunchBreakTiming: "Continuous day in banks/offices; short break in shops."
+  notableShutdownPeriods:
+    - period: "Semana Santa (Mar/Apr)"
+      description: "Widespread closures."
+    - period: "Purísima (8 Dec)"
+      description: "Celebrations and shortened hours."
+    - period: "Year-end (24 Dec - 2 Jan)"
+      description: "Holiday closures."

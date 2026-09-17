@@ -1,0 +1,76 @@
+code: HN-FM
+name:
+  eng: Francisco Morazán Department
+  local:
+    - languageCode: spa
+      value: Francisco Morazán
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-dry savanna, moderated by ~1,000m highland altitude in the capital valley (mild days, cooler nights)."
+landmarks:
+  - name: Tegucigalpa historical centre / National Palace of Honduras
+    description: "Seat of government in the capital's old quarter."
+  - name: Basilica of Our Lady of Suyapa
+    description: "National shrine; Suyapa pilgrimage on the first Sunday in February."
+  - name: El Picacho hill & Christ of the Picacho
+    description: "Landmark hilltop monument and park above the capital."
+  - name: La Tigra National Park
+    description: "Montane cloud forest near the city."
+culturalTraits:
+  - "Political-administrative hub; strong central Mestizo/Honduran national identity"
+  - "Contemporary museum and gastronomy scene"
+  - "Suyapa pilgrimage tradition"
+prideOf:
+  - "Hosting the seat of government"
+  - "The National Palace and central plaza heritage"
+animals:
+  popular:
+    - "White-faced monkeys"
+    - "Toucan"
+  unique: []
+industries:
+  - "Government and public administration"
+  - "Financial / banking services"
+  - "Commerce, construction, light manufacturing"
+  - "Coffee (surrounding highlands)"
+  - "Higher education (UNAH)"
+sports:
+  - "Football (soccer) — Olimpia and Motagua, the country's biggest clubs"
+  - "Basketball"
+  - "Futsal"
+entertainment:
+  - season: allYear
+    items:
+      - "Fútbol matches (Olimpia / Motagua)"
+      - "Urban cafés, museums and restaurants"
+  - season: dry
+    items:
+      - "Suyapa pilgrimage (first Sunday in February)"
+      - "National Palace and central plaza visits"
+      - "La Tigra forest hikes in dry weather"
+  - season: wet
+    items:
+      - "Museums and galleries"
+      - "Coffee shops"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Baleadas"
+      - "Carne asada"
+      - "Nacatamales"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Business attire in the capital"
+      - "Lenca traje típico among highland-origin residents"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00/18:00 Mon-Fri."
+  lunchBreakTiming: "12:00-14:00."
+  notes: "Capital business rhythm; Sunday rest day."

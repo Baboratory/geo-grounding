@@ -1,0 +1,74 @@
+code: GT-QZ
+name:
+  eng: Quetzaltenango (Western Highlands)
+  local:
+    - languageCode: spa
+      value: Quetzaltenango
+    - languageCode: quc
+      value: Xelajú
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland (tierra fría); cool nights, distinct dry/wet seasons."
+landmarks:
+  - name: Quetzaltenango historic city (Parque Centroamérica)
+    description: "Neoclassical town square with the Volcán de Santa María backdrop."
+  - name: Laguna Chicabal
+    description: "Sacred crater lake used for Maya ceremonies."
+  - name: Fuentes Georginas
+    description: "Volcanic hot springs in the mountains."
+culturalTraits:
+  - "Strong K'iche' and Mam Maya presence — textiles, language and ceremonies"
+  - "Second city of Guatemala; a university and cultural hub"
+  - "Epicentre of indigenous weaving cooperatives"
+prideOf:
+  - "Maya cultural vitality and the K'iche' language"
+  - "Cool highland landscapes and volcanoes"
+animals:
+  popular:
+    - "Resplendent quetzal"
+    - "Hummingbirds"
+  unique:
+    - "Horned guan (endangered highland bird)"
+industries:
+  - "Coffee highland fincas"
+  - "Textiles / weaving"
+  - "Education"
+  - "Tourism"
+sports:
+  - "Football (soccer)"
+  - "Basketball"
+  - "Cycling"
+entertainment:
+  - season: allYear
+    items:
+      - "K'iche' and Mam cultural events"
+      - "Highland coffee and atol culture"
+  - season: dry
+    items:
+      - "Fuentes Georginas hot springs"
+      - "Chicabal ceremony and trek"
+  - season: wet
+    items:
+      - "Weaving co-op workshops"
+      - "K'iche' language schools"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kak'ik variants"
+      - "Tamales"
+      - "Highland atol and coffee"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Distinctive Quetzaltenango Maya traje and huipil; woolen attire for the cold climate"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:30 Mon-Fri."
+  lunchBreakTiming: "12:00-14:00."
+  notes: "Sunday rest day; market-day tradition."

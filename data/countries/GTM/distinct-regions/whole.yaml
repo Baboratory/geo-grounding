@@ -1,0 +1,140 @@
+code: WHOLE
+name:
+  eng: Guatemala
+  local:
+    - languageCode: spa
+      value: Guatemala
+# Generic country-wide fallback content for Guatemala (unitary-large). Used via
+# the 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py
+# when a visitor's specific department (e.g. GT-QC El Quiché) isn't one of the
+# curated files (GT-GU Guatemala, GT-QZ Quetzaltenango, GT-PE Petén).
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna/wet-dry in the lowlands and Pacific slope."
+  - koppenCode: Cwb
+    description: "Subtropical highland (tierra fría) in the western highlands."
+  - koppenCode: Af
+    description: "Tropical rainforest in Petén and the Caribbean lowlands."
+landmarks:
+  - name: Tikal National Park
+    description: "Iconic ancient Maya city in Petén; UNESCO World Heritage."
+    unescoWorldHeritage: true
+  - name: Antigua Guatemala
+    description: "Colonial baroque city, former capital; UNESCO World Heritage."
+    unescoWorldHeritage: true
+  - name: Lake Atitlán
+    description: "Volcanic crater lake ringed by Tz'utujil/Kaqchikel Maya towns."
+  - name: Semuc Champey
+    description: "Natural limestone bridge with turquoise pools, Alta Verapaz."
+  - name: Quiriguá Archaeological Park
+    description: "Maya site famed for zoomorphic stelae; UNESCO World Heritage."
+    unescoWorldHeritage: true
+  - name: Río Dulce / Livingston
+    description: "Caribbean riverside gorge and Garifuna coastal town."
+culturalTraits:
+  - "Indigenous Maya linguistic/cultural plurality (22 Mayan languages) plus Garifuna and Xinca — strong ethnic identity, especially in the highlands"
+  - "Syncretic religious practice blending Catholic/Protestant faiths with Maya spirituality"
+  - "Vibrant textile tradition (woven huipiles/trajes típicos, each community with distinct patterns)"
+  - "Caribbean flavor brought by Garifuna culture around Livingston"
+  - "Maize-based cuisine and strong coffee culture"
+prideOf:
+  - "Ancient Maya civilization and monumental archaeology (Tikal)"
+  - "Resplendent quetzal — national bird"
+  - "Traditional handwoven textiles and craftsmanship"
+  - "Highland landscapes and volcanoes"
+  - "The resilience of diverse indigenous cultures"
+animals:
+  popular:
+    - "Resplendent quetzal (national bird)"
+    - "Jaguar"
+    - "Scarlet macaw"
+    - "Keel-billed toucan"
+    - "Howler monkey"
+  unique:
+    - "Resplendent quetzal (Pharomachrus mocinno)"
+    - "Central American tapir (Baird's tapir)"
+    - "White-nosed coati"
+    - "Motagua spiny-tailed iguana"
+industries:
+  - "Coffee"
+  - "Sugar"
+  - "Bananas"
+  - "Cardamom (world's largest exporter)"
+  - "Textiles & apparel (maquila)"
+  - "Tourism (archaeological & highland)"
+  - "Agro-exports and rubber"
+  - "Remittance-driven consumer economy"
+sports:
+  - "Football (soccer) — most popular"
+  - "Basketball"
+  - "Boxing"
+  - "Cycling"
+  - "Baseball (growing in some regions)"
+religions:
+  - name: Catholic
+    percent: 45.0
+    sourceId: usdos-irf-2018
+  - name: Protestant / Evangelical
+    percent: 42.0
+    sourceId: usdos-irf-2018
+  - name: No affiliation
+    percent: 11.0
+    sourceId: usdos-irf-2018
+  - name: Other (incl. indigenous practices)
+    percent: 2.0
+    sourceId: usdos-irf-2018
+entertainment:
+  - season: allYear
+    items:
+      - "Football (Liga Nacional) and fútbol culture"
+      - "Artisan and textile markets (Chichicastenango)"
+      - "Coffee culture and finca tours"
+  - season: dry
+    items:
+      - "Easter (Semana Santa) processions — Antigua's are world-famous"
+      - "Independence Day (Sept 15) parades and celebrations"
+      - "Outdoor feria and Holy Week carpet (alfombras) viewing"
+  - season: wet
+    items:
+      - "Indoor artisan/weaving workshops and cooking classes"
+      - "Maya cultural ceremonies and market visits (Chichicastenango)"
+      - "Coffee-tasting in highland fincas"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pepián (spicy Maya meat stew)"
+      - "Kak'ik (turkey/chicken Maya soup)"
+      - "Tamales and chuchitos (corn dough with meat)"
+      - "Hilachas (shredded beef in tomato sauce)"
+      - "Jocón (chicken in green tomatillo-cilantro sauce)"
+      - "Fiambre (traditional Nov 1 cold salad)"
+      - "Atol de elote and hot chocolate"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Maya traje típico: handwoven huipiles and cortes (skirts) with community-specific patterns"
+      - "Men's traje with woven trousers and sash in highland communities"
+      - "Western/business attire in urban and corporate settings"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Around 08:00/09:00 to 17:00/18:00, Mon-Fri; retail often open weekends and Saturdays."
+  lunchBreakTiming: "A midday break roughly 12:00-14:00 is common; lunch is the main meal of the day."
+  notableShutdownPeriods:
+    - period: "Holy Week (Semana Santa, ~late March)"
+      description: "Many businesses close or unwind for the Easter holidays; processions dominate."
+    - period: "Mid-December to early January"
+      description: "Year-end holiday slowdown and closures."
+sources:
+  - id: usdos-irf-2018
+    name: "2018 Report on International Religious Freedom: Guatemala"
+    publisher: "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://www.state.gov/wp-content/uploads/2019/05/GUATEMALA-2018-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
+    year: 2018
+    accessedDate: "2026-09-17"
+    note: "Religion survey estimates (ProDatos 2016): ~45% Catholic, ~42% Protestant/evangelical, ~11% no affiliation, combined <3% other. FLAGGED as estimates — Guatemala's census does not record religion."
