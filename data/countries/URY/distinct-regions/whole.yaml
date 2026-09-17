@@ -1,0 +1,121 @@
+code: WHOLE
+name:
+  eng: Uruguay
+  local:
+    - languageCode: spa
+      value: República Oriental del Uruguay
+# Generic country-wide fallback content for Uruguay (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path in
+# usage_examples/python/get_data_by_ip.py.
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical — mild, no extreme heat or cold; warm-hot summers (Dec-Mar), cool damp winters (Jun-Aug), rainfall fairly evenly distributed year-round."
+landmarks:
+  - name: Colonia del Sacramento
+    description: "UNESCO World Heritage colonial old town (Barrio Histórico), founded 1680, on the Río de la Plata."
+    unescoWorldHeritage: true
+  - name: Punta del Este
+    description: "Glamorous beach-resort peninsula on the Atlantic, with 'The Hand' (Mano) sculpture and the lighthouse."
+  - name: Montevideo (Ciudad Vieja)
+    description: "Capital: Independencia Square, Palacio Salvo, the Rambla coastline and the Estadio Centenario (1930 World Cup)."
+  - name: Cabo Polonio
+    description: "Remote coastal national park with sea lions, giant dunes and a famous lighthouse."
+  - name: Quebrada de los Cuervos
+    description: "Treasured inland canyon reserve in Treinta y Tres."
+culturalTraits:
+  - "The mate cult — sharing mate (yerba mate tea) is a daily social ritual and symbol of Uruguayan identity"
+  - "Laid-back, egalitarian, modest and anti-pretension national character ('tranquilo')"
+  - "Strong gaucho and rural-campo heritage, especially in the interior"
+  - "Football-obsessed culture; 'La Celeste' national pride"
+  - "Progressive, secular and socially liberal society (cannabis legal, same-sex marriage, euthanasia legalized)"
+prideOf:
+  - "Football — first FIFA World Cup winners (1930), the 1950 'Maracanazo', Copa América record holders"
+  - "Uruguayan beef and asado — world-class grass-fed beef the foundation of national cuisine"
+  - "The color 'celeste' (sky blue) of the flag and jersey"
+  - "Music traditions: candombe (UNESCO intangible heritage), tango, murga carnival, milonga"
+animals:
+  popular:
+    - "Capybara ('carpincho') — common in rivers and waterways"
+    - "Ñandú (Rhea americana) — large flightless bird of the pampas"
+    - "Andean condor — present in the north"
+    - "Pumas and vizcachas — fauna of campo and sierras"
+  unique:
+    - "Nutria / coipo (coypu) — semi-aquatic rodent of wetlands"
+industries:
+  - "Agriculture & livestock (cattle, sheep, soy, rice, dairy) — backbone of exports"
+  - "Beef and meat processing; wool and leather"
+  - "Forestry (eucalyptus/pine cellulose) and growing pulp mills (e.g. UPM)"
+  - "Dairy, wine (Tannat grape), tourism, financial/offshore services, software & IT"
+  - "Renewable energy — around 98% of electricity from renewables (wind, hydro, biomass)"
+sports:
+  - "Football — the national passion (Nacional, Peñarol; Forlán, Suárez, Cavani)"
+  - "Rugby and basketball — growing"
+  - "Cycling, rowing and polo"
+  - "Fishing, surfing and beach sports on the Atlantic coast"
+  - "Traditional gaucho sports: jineteada, doma"
+religions:
+  - name: Roman Catholic
+    percent: 44.8
+    sourceId: uy-religion-ine
+  - name: No religion (none/agnostic/atheist)
+    percent: 44.5
+    sourceId: uy-religion-ine
+  - name: Other Christian (Protestant/Evangelical, Adventist, etc.)
+    percent: 9.5
+    sourceId: uy-religion-ine
+  - name: Other (Jewish, Muslim, Umbanda/anims, etc.)
+    percent: 1.5
+    sourceId: uy-religion-ine
+entertainment:
+  - season: allYear
+    items:
+      - "Tango and milonga; candombe parades (Desfile de Llamadas in Montevideo)"
+      - "Mate, asado and 'buen comer' socializing; peñas"
+      - "Football matchdays and the fiercest derby (Nacional vs Peñarol)"
+      - "Music festivals and the indie/rock scene"
+  - season: summer
+    items:
+      - "Carnival — one of the world's longest (about 40 days) with murga, candombe drumming and humoristas"
+      - "Beach life in January (Punta del Este); Montevideo grows quiet during the summer vacation"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Asado / parrillada — fire-grilled beef, chorizo, morcilla, chinchulines"
+      - "Empanadas (meat, cheese, humita)"
+      - "Dulce de leche — ubiquitous dessert and spread"
+      - "Alfajores, milanesa, tortas fritas"
+  - season: summer
+    items:
+      - "Chivito — Uruguay's iconic steak sandwich, a beach-season staple"
+      - "Bizcochos with mate"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Gaucho attire in rural context: bombachas (baggy trousers), boina (beret), tirador (waist belt), facón (knife), rastra, alpargatas, poncho"
+      - "Modern urban wear is casual and understated"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00/18:00, Monday-Friday, with an extended lunch break; many small businesses close for a midday pause. Banking and government often run on appointment-based (trámite) processes."
+  lunchBreakTiming: "An extended midday break is common; lunch is the main social meal."
+  notableShutdownPeriods:
+    - period: "January (summer vacation)"
+      description: "A slow vacation period ('nadie hace nada en enero'); business and decision-making slow markedly."
+  notes: "Business is formal but warm and relationship-driven; mate breaks are a community ritual. Many December/January processes and deliveries slow down."
+sources:
+  - id: uy-religion-ine
+    name: "Encuesta Continua de Hogares — religion (2018)"
+    publisher: "Instituto Nacional de Estadística (INE) Uruguay"
+    url: "https://www.ine.gub.uy/"
+    year: 2018
+    accessedDate: "2026-09-16"
+    note: "Religious composition: Roman Catholic ~44.8%, no religion ~44.5%, other Christian ~9.5%, other ~1.5%. Uruguay is the most secular country in the Americas; shares are approximate from the official survey."

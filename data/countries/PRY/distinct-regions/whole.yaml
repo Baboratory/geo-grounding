@@ -1,0 +1,124 @@
+code: WHOLE
+name:
+  eng: Paraguay
+  local:
+    - languageCode: spa
+      value: República del Paraguay
+    - languageCode: grn
+      value: Paraguái Tavakuairetã
+# Generic country-wide fallback content for Paraguay (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path in
+# usage_examples/python/get_data_by_ip.py.
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical in the eastern 'Oriental' region: warm-to-hot humid summers and mild winters with year-round rainfall."
+  - koppenCode: BSh
+    description: "Hot semi-arid in the western 'Occidental' Gran Chaco: very hot temperatures with a marked wet/dry cycle."
+landmarks:
+  - name: Asunción
+    description: "One of the oldest cities in South America (1537), with a colonial old town, the Palacio de los López presidential palace and the Panteón Nacional de los Héroes."
+  - name: Jesuit Missions of La Santísima Trinidad de Paraná and Jesús de Tavarangue
+    description: "Remains of 17th-18th century Jesuit reductions, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Itaipu Dam
+    description: "On the Paraná River (binational with Brazil) — among the world's largest hydroelectric plants and a national point of pride."
+  - name: Gran Chaco
+    description: "Vast semi-arid lowland wilderness of scrub forest, estancias and indigenous communities, home to the jaguar."
+  - name: Ypacaraí Lake / San Bernardino
+    description: "Popular recreational lake and resort town near Asunción, linked to the famous song 'Recuerdos de Ypacaraí'."
+culturalTraits:
+  - "Guaraní language and heritage — one of the very few indigenous languages shared by a national non-indigenous majority"
+  - "Jopara — the everyday code-switched mix of Spanish and Guaraní"
+  - "Tereré — ice-cold yerba mate drunk from a guampa, the quintessential everyday social drink"
+  - "Paraguayan harp (arpa paraguaya) and traditional music (polka, guarania)"
+  - "Ñandutí — fine spider-web lace woven mainly in Itauguá"
+  - "Guaraní folklore and mythology (Pombero, Jasy Jatere)"
+prideOf:
+  - "The survival and everyday use of the Guaraní language"
+  - "One of the world's largest hydroelectric plants (Itaipu) and being a major electricity and food exporter"
+  - "Football and especially futsal success"
+  - "The beauty of its rivers, Jesuit heritage and the vast unspoiled Chaco"
+animals:
+  popular:
+    - "Jaguar (yaguareté) in the Chaco"
+    - "Capybara (carpincho)"
+    - "Puma"
+    - "Giant anteater"
+    - "Rhea (ñandú)"
+  unique:
+    - "Maned wolf"
+    - "Southern screamer"
+    - "Jaguarundi"
+industries:
+  - "Soybean production and export — among the world's top exporters"
+  - "Beef and cattle ranching"
+  - "Grain (corn, wheat) and other agricultural crops"
+  - "Hydroelectric power — a major electricity exporter (Itaipu, Yacyretá)"
+  - "Yerba mate, sugarcane/sugar, cotton"
+  - "Agribusiness and light manufacturing / maquiladora assembly"
+sports:
+  - "Football / soccer"
+  - "Futsal — Paraguay is a traditional futsal power and point of national pride"
+  - "Tennis, basketball, volleyball, rugby, golf"
+religions:
+  - name: Roman Catholic
+    percent: 88.0
+    sourceId: py-religion-state
+  - name: Evangelical Protestant
+    percent: 6.0
+    sourceId: py-religion-state
+  - name: Other (Latter-day Saints, Jehovah's Witnesses, Mennonites, indigenous beliefs, Muslims, Jews, Buddhists, Baha'is, nonbelievers, etc.)
+    percent: 6.0
+    sourceId: py-religion-state
+entertainment:
+  - season: allYear
+    items:
+      - "Traditional music and dance: Paraguayan polka, guarania, harp performances"
+      - "Football and futsal matches as a national pastime"
+      - "Tereré and mate social gatherings"
+      - "Fiestas patronales (patron-saint festivals) in every town"
+  - season: summer
+    items:
+      - "Carnaval Encarnaceno (Encarnación carnival)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sopa paraguaya — the national dish: a dense cheese-and-onion cornbread"
+      - "Chipa — cheesy manioc (cassava) bread rolls baked in adobe ovens"
+      - "Asado / roast beef (carne) — grilled meat is central to gatherings"
+      - "Mbejú — a starchy flatbread/griddle cake made from manioc starch"
+      - "Vori vori — chicken broth with cheesy cornmeal dumplings"
+      - "Mandioca (boiled cassava) as a side at most meals"
+      - "Payagua mascada — manioc and meat fritter"
+  - season: summer
+    items:
+      - "Tereré (iced yerba mate) — the daily summer drink"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Ao po'i — fine, delicately embroidered cotton shirt/blouse"
+      - "Ñandutí lace garments and accessories for festive dress"
+      - "Modern urban wear is casual"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Standard office hours roughly 08:00-17:00 or 08:30-17:30/18:00, Monday-Friday; shops and supermarkets commonly open ~09:00-21:00, including Saturdays and much of Sunday."
+  lunchBreakTiming: "Lunch breaks can be long."
+  notes: "Business is relationship-oriented; punctuality is relaxed ('hora paraguaya'), so allow some flexibility. A central square or patio culture of morning and afternoon breaks; tereré shared with colleagues is common."
+sources:
+  - id: py-religion-state
+    name: "2023 Report on International Religious Freedom: Paraguay"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/paraguay"
+    year: 2023
+    accessedDate: "2026-09-16"
+    note: "Religious demography: ~88% Roman Catholic, ~6% evangelical Protestant (Association of Evangelical Ministers estimates 9.6%), remainder spread across other groups and nonbelievers."

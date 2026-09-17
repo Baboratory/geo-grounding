@@ -1,0 +1,145 @@
+code: WHOLE
+name:
+  eng: Trinidad and Tobago
+  local:
+    - languageCode: eng
+      value: Republic of Trinidad and Tobago
+# Generic country-wide fallback content for Trinidad and Tobago (unitary-small,
+# single synthetic whole region). Used via the 'whole-country-fallback' path in
+# usage_examples/python/get_data_by_ip.py.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) climate on most of the two islands — hot year-round with a distinct drier season and a wetter season."
+  - koppenCode: Am
+    description: "Tropical monsoon in the wetter, higher-rainfall areas (e.g. windward sides and the Northern Range of Trinidad)."
+landmarks:
+  - name: Pitch Lake, La Brea
+    description: "The world's largest natural deposit of asphalt, a UNESCO-tentative natural wonder."
+  - name: Carnival in Port of Spain
+    description: "The world-famous pre-Lenten Carnival (Feb/Mar) — 'the greatest show on earth' — with mas bands, costumes, steelpan and calypso/soca."
+  - name: Mas camp / panyard
+    description: "Steelpan was born in Trinidad & Tobago — panyards (pan-yards) where steelbands practice, and 'mas camp' where Carnival costumes are made; integral to pre-Carnival culture."
+  - name: Caroni Bird Sanctuary
+    description: "Mangrove swamp sanctuary for the scarlet ibis (national bird), which roosts there at dusk."
+  - name: Temple in the Sea, Waterloo
+    description: "Offshore Hindu temple commemorating indentured labourers."
+  - name: Maracas Bay
+    description: "Trinidad's most famous beach, home of 'bake and shark'."
+culturalTraits:
+  - "Carnival — the defining national festival (mas, steelpan, calypso, soca)"
+  - "Steelpan — the only acoustic instrument invented in the 20th century, created here and the national instrument"
+  - "Calypso and soca music, both born in Trinidad & Tobago"
+  - "Rich multicultural blend of African, East Indian, European, Chinese and indigenous heritage"
+  - "Doubles, roti and other Afro-/Indo-Caribbean street food culture"
+  - "Chutney soca and the cultural crossover of Indian and Trinidadian traditions"
+  - "National passion for cricket and track & field"
+prideOf:
+  - "Carnival — the world's premier carnival"
+  - "Being the birthplace of the steelpan and pan music"
+  - "Olympic achievement (Hasely Crawford 1976, the 4x100m relay gold in London 2012, Keshorn Walcott javelin gold)"
+  - "Its diversity and harmonious multi-ethnic society ('all ah we is one')"
+  - "Natural wonders like the Pitch Lake and the scarlet ibis"
+animals:
+  popular:
+    - "Scarlet ibis (national bird)"
+    - "Cocrico (Tobago's national bird)"
+    - "Leatherback sea turtle (nests on Matura and Grande Riviere)"
+    - "Capuchin and howler monkeys"
+  unique:
+    - "Scarlet ibis (Caroni Swamp) — the iconic national bird of Trinidad and Tobago"
+industries:
+  - "Oil and gas — the largest economy in the English-speaking Caribbean, petroleum-driven"
+  - "Liquefied natural gas (LNG) and petrochemicals (methanol, ammonia)"
+  - "Energy-adjacent manufacturing and downstream petrochemicals"
+  - "Tourism (especially Tobago)"
+  - "Financial services (including the TT International Finance Centre)"
+sports:
+  - "Cricket — the national sport"
+  - "Track & field / athletics (numerous Olympic sprinters)"
+  - "Football (soccer)"
+  - "Netball and basketball"
+  - "Steelpan/pan competitions at Panorama (cultural-sport crossover)"
+religions:
+  - name: Protestant (Pentecostal/Evangelical, Anglican, Baptist, Seventh-Day Adventist, Presbyterian, etc.)
+    percent: 32.1
+    sourceId: tto-census-2011
+  - name: Roman Catholic
+    percent: 21.6
+    sourceId: tto-census-2011
+  - name: Hindu
+    percent: 18.2
+    sourceId: tto-census-2011
+  - name: Muslim
+    percent: 5.0
+    sourceId: tto-census-2011
+  - name: Jehovah's Witness
+    percent: 1.5
+    sourceId: tto-census-2011
+  - name: Other / unaffiliated / not stated
+    percent: 21.6
+    sourceId: tto-census-2011
+entertainment:
+  - season: allYear
+    items:
+      - "Panorama (national steelband competition)"
+      - "Calypso/soca and chutney soca music scene"
+      - "Cricket and football matches"
+      - "Beach life and parang (Indo-Caribbean Christmas music)"
+  - season: dry
+    items:
+      - "Carnival (the two days before Ash Wednesday, Feb/Mar) — the peak of national celebration"
+      - "Panorama final and Dimanche Gras"
+      - "Carnival 'fetes' and mas-camp preparations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Doubles (curried chickpea 'bara' sandwich — the national street food)"
+      - "Roti (curry wrapped in flatbread)"
+      - "Pelau (one-pot pigeon-peas-and-rice)"
+      - "Callaloo (dasheen-leaf soup)"
+      - "Stewed oxtail / stewed chicken"
+      - "Macaroni pie"
+      - "Pholourie and curried crab and dumpling"
+  - season: dry
+    items:
+      - "Bake and shark (fried dough with shark, a Maracas/Carnival-season favourite)"
+  - season: wet
+    items:
+      - "Soups and callaloo during the rainy season's cooler spells — heavy one-pot comfort food"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Carnival costumes (feathers, beads, wire, sequins) worn for mas on Carnival days"
+      - "Madras prints reflecting the mixed heritage"
+      - "Indo-Trinidadian dress (e.g. lehenga/sari) worn at Hindu festivals (Divali)"
+  - season: dry
+    items:
+      - "Carnival mas costumes and 'play' wear for the Carnival season (Feb/Mar)"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically 08:00-16:00, Mon-Fri; private businesses often 08:00/09:00-17:00. Retail often open Mon-Sat, with many (esp. smaller shops and supermarkets) closed or with shorter hours on Sunday."
+  lunchBreakTiming: "A standard midday break is common."
+  notableShutdownPeriods:
+    - period: "Carnival (Monday & Tuesday before Ash Wednesday)"
+      description: "Public holidays — most of the country shuts down; business resumes Ash Wednesday."
+    - period: "Easter weekend"
+      description: "Good Friday and Easter Monday public holidays; reduced trading."
+    - period: "Divali and Eid-ul-Fitr"
+      description: "Religious public holidays observed nation-wide."
+    - period: "Christmas and New Year"
+      description: "Reduced business over the Christmas season (with parang celebrations)."
+  notes: "Carnival is the peak seasonal business cycle — intense commercial activity in the months before, then a near-total two-day public holiday. Sunday is widely a rest day, especially outside major commercial areas."
+sources:
+  - id: tto-census-2011
+    name: "Trinidad and Tobago 2011 Population and Housing Census Demographic Report"
+    publisher: "Central Statistical Office of Trinidad and Tobago (CSO)"
+    url: "https://cso.gov.tt/wp-content/uploads/2020/01/2011-Demographic-Report.pdf"
+    year: 2011
+    accessedDate: "2026-09-16"
+    note: "Religious composition summarising the 2011 census (Protestant 32.1%, Roman Catholic 21.6%, Hindu 18.2%, Muslim 5%, Jehovah's Witness 1.5%, other/unaffiliated/not-stated 21.6%). Percentages as reported by the CIA Factbook summarising the 2011 census."

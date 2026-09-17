@@ -1,0 +1,153 @@
+alpha3: PRY
+alpha2: PY
+name:
+  eng: Paraguay
+  local:
+    - languageCode: spa
+      value: República del Paraguay
+    - languageCode: grn
+      value: Paraguái Tavakuairetã
+flagEmoji: "🇵🇾"
+capital: Asunción
+isSovereign: true
+# Classified unitary-small: a unitary republic (17 departments + Asunción
+# capital district, administrative subdivisions under national law) with a
+# population of ~6.1M (2022 census, below the unitary-large threshold), and
+# Spanish and Guaraní as co-official NATIONAL languages (not minority/regional
+# ones). One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: py-constitution
+  - languageCode: grn
+    domain: official
+    speakersShare: 1.0
+    sourceId: py-constitution
+  # Both Spanish and Guaraní are official NATIONAL languages per Article 140 of
+  # the 1992 Constitution, so both carry the 1.0 legal-status flag. Actual usage
+  # (below) is captured via separate locallySpoken rows.
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.616
+    sourceId: py-census-2012-language
+  - languageCode: grn
+    domain: locallySpoken
+    speakersShare: 0.803
+    sourceId: py-census-2012-language
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.05
+    sourceId: py-english-est
+# Spanish/Guaraní locallySpoken shares are from the 2012 census of languages
+# spoken in the home (46.3% Spanish+Guaraní bilingual, 34% only Guaraní, 15.3%
+# only Spanish — hence 61.6% Spanish-inclusive and 80.3% Guaraní-inclusive).
+# The ~5% English foreign figure is an order-of-magnitude estimate (no official
+# proficiency survey exists).
+ethnicGroups:
+  - group: Mestizo Paraguayan (mixed Spanish and Guaraní-Amerindian descent)
+    percent: 95.3
+    sourceId: py-censo-2022
+  - group: "Indigenous peoples (19 pueblos: Mbyá Guaraní, Ava Guaraní, Nivaclé, Enxet, Ayoreo, etc.)"
+    percent: 2.3
+    sourceId: py-censo-indigena-2022
+# The non-indigenous figure (95.3%) is derived from the 2022 census; the
+# overwhelming majority self-identify as Mestizo Paraguayans. Smaller European,
+# Asian and Arab-descended communities exist but no census percentage is
+# separately published, so they are deliberately omitted rather than guessed.
+timezones:
+  - name: America/Asunción
+    standardUtcOffset: "UTC-3"
+    observesDst: false
+currency:
+  code: PYG
+  symbol: "Gs"
+  name: Paraguayan guaraní
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Paraguay is not a member of the EU or EEA. EU-wide rules (VAT-inclusive price display per Directive 98/6/EC, the 14-day withdrawal right per Directive 2011/83/EU, the GDPR, and the 2-year consumer guarantee) do NOT apply; consumer protection comes from national law."
+    sourceId: py-not-eu
+  - topic: "national consumer protection law"
+    description: "Consumer protection is governed by Law No. 1,334/1998 'De Defensa del Consumidor y del Usuario' (as amended by Law No. 6,366/2019), enforced by SEDECO. It establishes rights to free choice, safety, information and protection against misleading advertising, but does not mandate the EU's 2-year guarantee."
+    sourceId: py-consumer-law
+paymentCulture:
+  popularMethods:
+    - "Cash — still common in the interior, informal trade and cash-on-delivery e-commerce"
+    - "Instant transfers (SPI/SIPAP) — grew ~4x since 2022, by volume now exceed ATM withdrawals"
+    - "QR payments — surged in recent years (~13M transactions in Mar 2025)"
+    - "Mobile wallets (Tigo Money, Billetera/Bancard, Mercado Pago)"
+    - "Visa/Mastercard cards — common for larger purchases and online shopping"
+  tipping:
+    expected: false
+    typicalAmount: "About 10% in restaurants where no service charge is included"
+    autoIncludedInBill: false
+    note: "Tipping is not obligatory; ~10% in sit-down restaurants is appreciated. Paraguay is traditionally cash-heavy with high transaction costs, but digital/instant payments are growing rapidly under Banco Central del Paraguay's modernization."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite and courteous; use titles (Señor/Señora, licenciado/doctor for professionals) until invited to first names. Directness is softened by warmth."
+  greetingNorms: "A warm handshake on meeting; a brief greeting in Guaraní is a welcome gesture. Paraguayans are bilingual and frequently code-switch into Jopara (the Spanish-Guaraní mix)."
+  meetingEtiquette: "Meetings open with convivial small talk (weather, family, tereré/mate) and tea breaks (tereré) are customary. Punctuality is relaxed ('hora paraguaya' — arriving a little late is common); relationship-first, personal trust before the agenda."
+  topicsToAvoid:
+    - "The Chaco War (1932-35) and the War of the Triple Alliance (1864-70) and their heavy casualties, unless a Paraguayan raises them"
+    - "Treating Guaraní as merely a rural/peasant language"
+  giftGivingNotes: "Not required at a first meeting. When invited to a home, a small gift (flowers, chocolate, wine or caña) is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: py-constitution
+    name: "Constitución de la República del Paraguay (1992), Article 140"
+    publisher: "Republic of Paraguay (National Constitution)"
+    url: "https://www.constituteproject.org/constitution/Paraguay_2011"
+    year: 1992
+    accessedDate: "2026-09-16"
+    note: "'Castilian and Guarani are official languages.' Establishes both as co-official national languages — the basis for the 1.0 official status of both spa and grn, and for the unitary-small classification."
+  - id: py-censo-2022
+    name: "Principales resultados finales del Censo Nacional de Población y Viviendas 2022"
+    publisher: "Instituto Nacional de Estadística (INE) Paraguay"
+    url: "https://www.ine.gov.py/noticias/2101/principales-resultados-finales-del-censo-2022"
+    year: 2022
+    accessedDate: "2026-09-16"
+    note: "Total population 6,109,903; departmental breakdown. Basis for the population dimension of the unitary-small classification and the 95.3% non-indigenous/mestizo figure."
+  - id: py-censo-indigena-2022
+    name: "IV Censo Nacional de Población y Viviendas para Pueblos Indígenas 2022 — Resultados Finales"
+    publisher: "Instituto Nacional de Estadística (INE) Paraguay"
+    url: "https://www.ine.gov.py/publicacion/31/poblacion-indigena"
+    year: 2022
+    accessedDate: "2026-09-16"
+    note: "140,049 indigenous people (2.3% of population) across 19 pueblos and 5 language families, concentrated in the Gran Chaco and Canindeyú."
+  - id: py-census-2012-language
+    name: "2012 census of languages spoken in the home (via 'Languages of Paraguay')"
+    publisher: "Dirección General de Estadística (now INE), secondary reporting"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Paraguay"
+    year: 2012
+    accessedDate: "2026-09-16"
+    note: "SECONDARY, FLAGGED: 2012 home-language shares (46.3% Spanish+Guaraní Jopara, 34% only Guaraní, 15.3% only Spanish). Basis for locallySpoken spa 61.6% and grn 80.3%. Most recent census measurement of home language; 2012 vintage."
+  - id: py-not-eu
+    name: "EU membership status of Paraguay"
+    publisher: "European Union / ISO"
+    url: "https://european-union.europa.eu/principles-countries-history/eu-countries_en"
+    accessedDate: "2026-09-16"
+    note: "Paraguay is not an EU/EEA member, so the four EU consumer/data directives do not apply."
+  - id: py-consumer-law
+    name: "Law No. 1,334/1998 'Defensa del Consumidor y del Usuario', amended by Law No. 6,366/2019"
+    publisher: "Congress of Paraguay; SEDECO"
+    url: "https://observatoriolegislativocele.com/en/paraguay-law-n1-334-consumer-and-user-defense-1998"
+    year: 1998
+    accessedDate: "2026-09-09"
+    note: "National consumer-protection law establishing consumer rights (free choice, safety, information, protection against misleading advertising), enforced by SEDECO. No EU-style mandatory 2-year guarantee."
+  - id: bcp-payments
+    name: "Payment and market infrastructure development in Paraguay"
+    publisher: "Banco Central del Paraguay / Central Banking"
+    url: "https://www.centralbanking.com/awards/7972499/payment-and-market-infrastructure-development-central-bank-of-paraguay"
+    accessedDate: "2026-09-16"
+    note: "Describes Paraguay's traditionally heavy cash reliance and the BCP's modernization: instant payments (SPI/SIPAP) grew ~4x since 2022 and now exceed ATM withdrawals by volume; QR payments surged. Basis for the paymentCulture profile. Law No. 7, current (2020s) oversight. Qualitative payment-culture support."
+  - id: py-english-est
+    name: "English-language proficiency in Paraguay (no official survey)"
+    publisher: "Secondary/estimate"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Paraguay"
+    accessedDate: "2026-09-16"
+    note: "FLAGGED ESTIMATE: no authoritative official survey of English proficiency exists; the ~0.05 foreign share is an explicit order-of-magnitude estimate reflecting English as a growing-but-minor foreign language among young urban/professional and tourism segments."
