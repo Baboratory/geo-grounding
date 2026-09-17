@@ -1,0 +1,170 @@
+alpha3: BOL
+alpha2: BO
+name:
+  eng: Bolivia
+  local:
+    - languageCode: spa
+      value: Estado Plurinacional de Bolivia
+    - languageCode: aym
+      value: Wuliwya Suyu
+    - languageCode: que
+      value: Buliwya Suyu
+flagEmoji: "🇧🇴"
+capital: Sucre (constitutional) / La Paz (seat of government)
+isSovereign: true
+# Classified unitary-large: Bolivia is a unitary plurinational state of ~12.4M
+# people (2024 census) with 36 constitutionally recognized indigenous languages
+# alongside Spanish (CPE 2009 Art. 5) and nine departmental political units with
+# directly elected governors and substantial — but constitutionally delimited —
+# autonomy (CPE 2009 Arts. 269-305). Three of the largest groups (Spanish,
+# Aymara, Quechua) are the principal official languages each listed at weight
+# 1.0; Guaraní is the principal eastern-lowlands language. Curated regions
+# (La Paz, Santa Cruz, Cochabamba) sit alongside the generic WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: "BO"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: bo-constitution
+  - languageCode: aym
+    domain: official
+    speakersShare: 1.0
+    sourceId: bo-constitution
+  - languageCode: que
+    domain: official
+    speakersShare: 1.0
+    sourceId: bo-constitution
+  # CPE 2009 Art. 5 declares Spanish and all 36 indigenous languages official.
+  # For GeoGrounding the three principal and most widely spoken co-official
+  # languages are listed at the 1.0 legal-status flag; Aymara and Quechua are also
+  # captured as locallySpoken below. Guaraní is official and the largest eastern
+  # lowlands language but is listed under locallySpoken rather than the official
+  # flag to keep the official set to the three nationally dominant ones.
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.7
+    sourceId: bo-ine-census
+  - languageCode: que
+    domain: locallySpoken
+    speakersShare: 0.17
+    sourceId: bo-ine-census
+  - languageCode: aym
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: bo-ine-census
+  - languageCode: grn
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: bo-ine-census
+# Spanish is the dominant national lingua franca (~3/4 of the population uses
+# it). Quechua (~17% first language) and Aymara (~10%) are concentrated in the
+# central/western highlands; Guaraní (~100k+ speakers) in the eastern lowlands.
+# Shares are from the 2012 census (INE) and are approximations.
+ethnicGroups:
+  - group: Quechua nation
+    percent: 17.0
+    sourceId: bo-ine-census
+  - group: Aymara nation
+    percent: 15.0
+    sourceId: bo-ine-census
+  - group: Chiquitana and other smaller indigenous nations/pueblos (incl. Afroboliviano)
+    percent: 30.0
+    sourceId: bo-ine-census
+  - group: Mestizo / non-indigenous self-identification
+    percent: 38.0
+    sourceId: bo-ine-census
+# Self-identification in the 2012 INEC census is complex: great majority of
+# Bolivians are of indigenous or mestizo descent (among the largest indigenous
+# shares in Latin America, ~62% per UNDP), with Quechua (1,837,105 declared) and
+# Aymara (1,598,807) the two largest nations across 119 recorded responses.
+# The percentages here are directional approximations from self-identification
+# and do not sum exactly; many people declare multiple or mestizo identity.
+timezones:
+  - name: America/La_Paz
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+currency:
+  code: BOB
+  symbol: "Bs"
+  name: Bolivian boliviano
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Bolivia is not a member of the EU, EEA or EFTA. EU directives (GDPR, PSD2, MiFID, VAT-inclusive display, the 14-day withdrawal right, the 2-year guarantee) do NOT apply. Commerce is governed by national law (Código Civil, Código de Comercio, Ley 393 de Servicios Financieros, Banco Central de Bolivia regulations)."
+    sourceId: bo-not-eu
+  - topic: "plurinational official languages"
+    description: "The 2009 Political Constitution (Arts. 3, 5, 30) recognizes 36/37 official languages and the cultural, territorial, symbolic and linguistic rights of indigenous nations/pueblos. Multilingual and culturally inclusive products are expected, and respect for indigenous worldviews is constitutionally grounded. Spanish is the working language of commerce; Aymara/Quechua familiarity matters in the highlands."
+    sourceId: bo-constitution
+paymentCulture:
+  popularMethods:
+    - "Cash — still common in everyday retail and outside major cities"
+    - "QR payments ('Pago con Código QR') and electronic transfer apps — fastest-growing, BCB- and government-promoted"
+    - "Electronic credit transfers — dominate large-value/institutional payments"
+    - "Debit/credit cards — accepted mainly in modern urban retail, tourism and travel"
+  tipping:
+    expected: false
+    typicalAmount: "Around 10% in nicer restaurants when no service charge is included"
+    autoIncludedInBill: false
+    note: "Tipping is modest and not obligatory; ~10% in sit-down restaurants and a little for guides is appreciated. Cash is common but digital payments (QR, transfers) are expanding rapidly under Banco Central de Bolivia's payment-system modernization. The BCB's Vigilancia del Sistema de Pagos reports that digital transfer/QR instruments are the fastest-growing while cash remains widely used; no single clean national payment-share percentage is published, so the payment profile is qualitative/report-based."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Direct but courteous and relationship-based; use the formal 'usted' at first contact and warm to more informal, trust-based exchange. Respect for indigenous language and culture matters, especially in the highlands."
+  greetingNorms: "A handshake on meeting; a friendly '¿Cómo estás?' A brief greeting in Aymara or Quechua is well received among highland interlocutors."
+  meetingEtiquette: "Punctuality is more relaxed than in northern Europe; patience and warmth are valued. Be mindful of the geographic/cultural divide between the lowland east (Santa Cruz) and highland west (La Paz), and of high-altitude effects on visitors."
+  topicsToAvoid:
+    - "Casual dismissal of Aymara/Quechua or the plurinational indigenous identity"
+    - "Geographic/cultural regional stereotypes between east and west"
+  giftGivingNotes: "Gifts are not expected at business meetings; when visiting a home, a small gift (wine, sweets, flowers) is appreciated. In indigenous highland contexts, reciprocity and respect (ayllu) matter more than material gifts."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: BO-L
+    file: distinct-regions/bo-l.yaml
+    adminUnitCodes: [BO-L]
+  - code: BO-S
+    file: distinct-regions/bo-s.yaml
+    adminUnitCodes: [BO-S]
+  - code: BO-C
+    file: distinct-regions/bo-c.yaml
+    adminUnitCodes: [BO-C]
+sources:
+  - id: bo-constitution
+    name: "Constitución Política del Estado Plurinacional de Bolivia, 2009, Art. 5 (lenguas oficiales)"
+    publisher: "Asamblea Constituyente de Bolivia"
+    url: "https://www.lexivox.org/norms/BO-CPE-20090207.html"
+    year: 2009
+    accessedDate: "2026-09-16"
+    note: "Article 5 declares Spanish (castellano) and all indigenous languages of the nations/pueblos indígena originario campesinos official; Arts. 3, 30 and 269-305 ground the plurinational identity, indigenous rights, department autonomy and the unitary state. Basis for all three official-language rows and the unitary-large classification."
+  - id: bo-ine-census
+    name: "Censo de Población y Vivienda 2012 and 2024 — lenguaje and autopertenencia indígena"
+    publisher: "Instituto Nacional de Estadística (INE) Bolivia"
+    url: "https://www.ine.gob.bo/index.php/estadisticas-sociales/idiomas/"
+    year: 2012
+    accessedDate: "2026-09-16"
+    note: "Language and self-identification data: ~3/4 use Spanish; Quechua ~17% and Aymara ~10% as first language (2012 census); indigenous self-identification totals ~62% (UNDP) with Quechua (1,837,105) and Aymara (1,598,807) declared nations. Basis for locallySpoken shares and ethnicGroups; 2012-vintage flagged."
+  - id: bo-ine-census-autopertenencia
+    name: "Autopertenencia a Naciones y Pueblos Indígena Originario Campesinos (Censo 2012)"
+    publisher: "Instituto Nacional de Estadística (INE) Bolivia"
+    url: "https://www.ine.gob.bo/index.php/descarga/373/boletines/42452/"
+    year: 2012
+    accessedDate: "2026-09-16"
+    note: "Self-identification counts: Quechua 1,837,105; Aymara 1,598,807; plus many smaller nations/pueblos across 119 recorded responses. Basis for the indigenous ethnic shares and plurinational framing."
+  - id: bo-not-eu
+    name: "EU membership status of Bolivia"
+    publisher: "European Union / ISO"
+    url: "https://european-union.europa.eu/principles-countries-history/eu-countries_en"
+    accessedDate: "2026-09-16"
+    note: "Bolivia is not an EU/EEA/EFTA member; EU consumer/data/financial directives do not apply and commerce is governed by Bolivian national law and Banco Central de Bolivia regulations."
+  - id: bo-bcb-payments
+    name: "Sistema de Pagos — Informe de Vigilancia del Sistema de Pagos"
+    publisher: "Banco Central de Bolivia (BCB)"
+    url: "https://www.bcb.gob.bo/?q=sistema-de-pagos"
+    accessedDate: "2026-09-16"
+    note: "BCB payment-infrastructure reports: electronic transfers and QR/digital payments are the fastest-growing instruments while cash remains widely used; basis for the qualitative paymentCulture profile (no single clean national share is published)."
+  - id: bo-bob-currency
+    name: "Bolivian boliviano (BOB) currency"
+    publisher: "Banco Central de Bolivia (BCB)"
+    url: "https://www.bcb.gob.bo/"
+    accessedDate: "2026-09-16"
+    note: "Currency code BOB, symbol Bs, issuer Banco Central de Bolivia; the boliviano trades on a managed peg in the ~6.9 BOB/USD range."
