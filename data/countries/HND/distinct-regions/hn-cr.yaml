@@ -1,0 +1,76 @@
+code: HN-CR
+name:
+  eng: Cortés Department
+  local:
+    - languageCode: spa
+      value: Cortés
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon on the lowland Caribbean plain — hot, humid, heavy wet-season rain."
+landmarks:
+  - name: San Pedro Sula — Museo de Antropología e Historia
+    description: "The city's main cultural museum."
+  - name: Puerto Cortés
+    description: "Caribbean port / north-coast shipping hub."
+  - name: Garifuna coastal towns
+    description: "Afro-Caribbean communities along the adjacent Atlántida/Colón shore."
+culturalTraits:
+  - "Industrial, commercially-driven 'north coast' identity"
+  - "Garifuna Afro-Caribbean influence on the adjacent coast"
+  - "Maquila textiles and agribusiness as the city's economic signature"
+prideOf:
+  - "Being the country's economic and manufacturing engine"
+  - "The north-coast port and trade gateway"
+animals:
+  popular:
+    - "Howler monkeys"
+    - "Toucans"
+  unique: []
+industries:
+  - "Maquila / textiles and apparel"
+  - "Agro-industry (sugar, palm oil, bananas)"
+  - "Coffee and logistics (Puerto Cortés)"
+  - "Brewing, plastics, consumer goods"
+  - "Regional commerce and distribution hubs"
+sports:
+  - "Football (soccer)"
+  - "Baseball and softball on the north coast"
+  - "Basketball"
+entertainment:
+  - season: dry
+    items:
+      - "Beach and coastal excursions (Puerto Cortés, nearby coves)"
+      - "Outdoor festivals and markets"
+  - season: wet
+    items:
+      - "Museums and indoor cafés (San Pedro Sula)"
+      - "Garifuna music and dance evenings"
+  - season: allYear
+    items:
+      - "Fútbol matches"
+      - "Regional gastronomy (baleadas, seafood)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Baleadas"
+      - "Sopa de caracol (conch soup)"
+      - "Caribbean seafood"
+  - season: dry
+    items:
+      - "Fresh coastal seafood and ceviche (peak)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Business attire in industrial/corporate settings"
+      - "Garifuna traditional dress in coastal communities"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri; maquila plants run shifts."
+  lunchBreakTiming: "12:00-14:00."
+  notes: "San Pedro Sula is punctuality-tighter and more business-paced than the capital; still relational. Sunday rest day."

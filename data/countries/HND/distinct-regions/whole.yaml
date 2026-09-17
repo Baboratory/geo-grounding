@@ -1,0 +1,147 @@
+code: WHOLE
+name:
+  eng: Honduras
+  local:
+    - languageCode: spa
+      value: Honduras
+# Generic country-wide fallback content for Honduras (unitary-large). Used via
+# the 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py
+# when a visitor's specific department (e.g. HN-AT Atlántida) isn't one of the
+# curated files (HN-FM Francisco Morazán, HN-CR Cortés, HN-GD Gracias a Dios).
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna / wet-dry across the interior highlands and south (Choluteca/Valle)."
+  - koppenCode: Am
+    description: "Tropical monsoon on the Caribbean north coast (Cortés, Atlántida)."
+  - koppenCode: Af
+    description: "Tropical rainforest in La Mosquitia (Gracias a Dios) northeast."
+landmarks:
+  - name: Copán
+    description: "Greatest Maya archaeological site in Honduras; UNESCO World Heritage."
+    unescoWorldHeritage: true
+  - name: Río Plátano Biosphere Reserve
+    description: "La Mosquitia rainforest, Miskito/Pech/Tawahka lands; UNESCO World Heritage."
+    unescoWorldHeritage: true
+  - name: Roatán (Bay Islands)
+    description: "Caribbean island reef tourism and diving; part of the Mesoamerican Barrier Reef."
+  - name: La Ceiba Carnival
+    description: "Largest street carnival in the country, held annually in May on the Caribbean coast."
+  - name: Comayagua
+    description: "Colonial city with historic churches and iconic Semana Santa alfombras."
+  - name: Lake Yojoa
+    description: "Largest lake, lowland wetlands and coffee highlands."
+culturalTraits:
+  - "Multicultural mosaic: Mestizo majority plus Lenca, Maya-Ch'orti', Tolupan/Jicaque, Pech, Tawahka, Nahua indigenous peoples, and Afro-Honduran Garifuna and Bay Island Creole communities"
+  - "Syncretic religious practice (Catholic/Evangelical Christianity blended with indigenous and Afro-Caribbean spirituality)"
+  - "Garifuna music and dance (yankunu, punta) along the Atlantic coast"
+  - "Strong coffee culture and maize/bean-based cuisine; the baleada as the de facto national dish"
+  - "Catracho national identity — proud, warm, family-centric"
+prideOf:
+  - "The Maya legacy of Copán"
+  - "The national bird (guara roja / scarlet macaw) and the white-tailed deer national mammal"
+  - "Garifuna heritage — Honduras as a cradle of Garifuna culture with a wide diaspora"
+  - "Coffee and mountain landscapes"
+  - "Resilience and warmth of the people"
+animals:
+  popular:
+    - "Scarlet macaw (guara roja, national bird)"
+    - "White-tailed deer (national mammal)"
+    - "Jaguar"
+    - "Howler monkey"
+    - "Toucan"
+    - "Baird's tapir"
+  unique:
+    - "Scarlet macaw (Ara macao)"
+    - "Central American / Baird's tapir (Tapirus bairdii)"
+    - "White-lipped peccary"
+    - "American crocodile and Morelet's crocodile (north coast)"
+    - "Green iguana"
+industries:
+  - "Coffee (leading export)"
+  - "Bananas and plantains"
+  - "Sugar"
+  - "Palm oil and agro-industry"
+  - "Maquila textiles and apparel"
+  - "Tourism (archaeological, beach/islands, eco)"
+  - "Fishing and aquaculture (shrimp)"
+  - "International remittances — a major share of the economy"
+sports:
+  - "Football (soccer) — by far the most popular"
+  - "Baseball (north coast and Bay Islands)"
+  - "Basketball"
+  - "Boxing"
+religions:
+  - name: Evangelical / Protestant
+    percent: 48.0
+    sourceId: usdos-irf-2023
+  - name: Roman Catholic
+    percent: 34.0
+    sourceId: usdos-irf-2023
+  - name: Other / unaffiliated / unstated
+    percent: 18.0
+    sourceId: usdos-irf-2023
+entertainment:
+  - season: allYear
+    items:
+      - "Fútbol culture (Liga Nacional de Honduras)"
+      - "Garifuna music and punta dance nights (north coast)"
+      - "Artisan and coffee-culture outings"
+      - "Diving/snorkelling Bay Islands reefs (year-round)"
+  - season: dry
+    items:
+      - "Semana Santa processions and alfombras (~late March-April)"
+      - "Coastal and island beach season — peak domestic tourism Dec-Apr"
+      - "Fishing-rodeo and river festivals"
+      - "Coffee-harvest-season tours (interior highlands)"
+  - season: wet
+    items:
+      - "La Ceiba Carnival (annual, in the early wet season)"
+      - "Indoor cafés, museums and galleries in the cities"
+      - "River/waterfall trips in the lush wet-season rainforest"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Baleadas (flour tortilla with beans, cream, cheese — the national street food)"
+      - "Sopa de caracol (conch soup, Caribbean coast)"
+      - "Carne asada / parrillada"
+      - "Nacatamales (tamales)"
+      - "Honduran breakfast (eggs, beans, fried plantain)"
+      - "Café Catracho and atol de elote"
+  - season: dry
+    items:
+      - "Tapado (Garifuna coconut-seafood stew)"
+      - "Semana Santa yuca/machuca and seafood-style festive dishes"
+      - "Fresh coastal seafood and ceviche (peak)"
+  - season: wet
+    items:
+      - "Cachapa (fresh corn fritter) at fiestas"
+      - "Maize/harvest dishes from new crops"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Lenca / indigenous traje típico in highland communities (woven huipil-style blouses, skirts)"
+      - "Garifuna traditional dress in coastal communities (and yankunu costume)"
+      - "Western/business attire in urban and corporate settings"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Around 08:00/09:00 to 17:00/18:00 Mon-Fri; retail and markets often open Saturdays and (partly) Sundays."
+  lunchBreakTiming: "A midday break roughly 12:00-14:00; lunch is typically the main meal."
+  notableShutdownPeriods:
+    - period: "Holy Week (Semana Santa, ~late March-April)"
+      description: "Many businesses close or unwind; processions nationwide."
+    - period: "Mid-December to early January"
+      description: "Year-end holiday slowdown and closures."
+sources:
+  - id: usdos-irf-2023
+    name: "2023 Report on International Religious Freedom: Honduras"
+    publisher: "U.S. Department of State, Office of International Religious Freedom"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/honduras/"
+    year: 2023
+    accessedDate: "2026-09-17"
+    note: "Religion estimates from a CID-Gallup 2020 poll as reported in the 2023 IRF: 48% evangelical Protestant, 34% Roman Catholic. FLAGGED as survey estimates — the census does not record religion."

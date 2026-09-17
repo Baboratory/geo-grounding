@@ -1,0 +1,110 @@
+code: NI-LE
+name:
+  eng: León & Matagalpa (colonial west & central highlands)
+  local:
+    - languageCode: spa
+      value: León y Matagalpa
+# This curated region pairs colonial-western Pacific León (NI-LE) with central
+# highland coffee Matagalpa (NI-MT): the historic 'Republic of the west' (León
+# was the colonial capital) plus the highland interior of Nicaragua's coffee
+# economy.
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna on the León/Chinandega Pacific lowlands — hot, dry Nov-Apr, rainy May-Oct."
+  - koppenCode: Cwb
+    description: "Subtropical highland in Matagalpa — mild, moist coffee country with a cooler dry season."
+landmarks:
+  - name: León Cathedral & the churches of León
+    description: "UNESCO World Heritage cathedral and heritage church ensemble of the old colonial capital."
+    unescoWorldHeritage: true
+  - name: León Viejo (Old León) ruins
+    description: "UNESCO World Heritage ruins of the 1524 city by Momotombo."
+    unescoWorldHeritage: true
+  - name: Momotombo volcano & Cerro Negro
+    description: "Active volcano behind León and the black cone famous for volcano boarding."
+  - name: Selva Negra & the Matagalpa coffee highlands
+    description: "Historic cloud-forest coffee estates."
+  - name: Somoto Canyon
+    description: "The limestone slot canyon of the Coco River."
+culturalTraits:
+  - "León — the 'capital of the spirit': the 1979 revolution, Nicaragua's first university, Rubén Darío, El Güegüense"
+  - "El Güegüense masquerade theater and strong Catholic Purísima devotion"
+  - "Matagalpa — coffee-and-rain capital with cold green highlands, Cacaopera-Matagalpa heritage, and a distinct 'departamento cafetalero' identity"
+  - "Pacific-west fritanga and vigorous street-food culture from León to Chinandega"
+prideOf:
+  - "León's two UNESCO sites (cathedral and León Viejo)"
+  - "Rubén Darío, a son of León"
+  - "Matagalpa coffee — among Central America's best Arabica"
+  - "El Güegüense — UNESCO Oral & Intangible Heritage"
+animals:
+  popular:
+    - "White-faced capuchin"
+    - "Howler monkey"
+    - "Baird's tapir"
+  unique:
+    - "Resplendent quetzal in the Matagalpa cloud forest"
+    - "Volcano-flank wildlife around Momotombo/Cerro Negro"
+industries:
+  - "Coffee (Matagalpa — a top growing department)"
+  - "Sugarcane and energy (bio-ethanol, geothermal)"
+  - "Tobacco/cigars and cattle (Segovias corridor)"
+  - "Tourism (León heritage, volcano boarding, Somoto)"
+  - "Light industry and construction in León city"
+sports:
+  - "Baseball"
+  - "Football (fútbol)"
+  - "Volcano boarding (Cerro Negro) and mountain biking"
+entertainment:
+  - season: allYear
+    items:
+      - "León's university-town nightlife and colonial architecture"
+      - "Matagalpa cloud-forest and coffee-finca hikes"
+      - "Baseball and fútbol"
+  - season: dry
+    items:
+      - "Semana Santa processions (León's are elaborate)"
+      - "Cerro Negro volcano boarding and Somoto in the dry"
+      - "Purísima & La Gritería (7-8 Dec)"
+  - season: wet
+    items:
+      - "Coffee-harvest-season farm tours begin in Matagalpa"
+      - "Indoor artisan/cooking and museum days"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Indio viejo"
+      - "Vigorón (Chinandega/León)"
+      - "Quesillo"
+      - "Gallo pinto and lomo de cerdo"
+      - "Coffee drinks and pinolillo"
+  - season: dry
+    items:
+      - "Nacatamales and perrerreque at Christmas"
+      - "Purísima sweets (rosquillas, gofio)"
+  - season: wet
+    items:
+      - "First-harvest highland coffee and rich fritanga dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Mestizo campesino dress"
+      - "El Güegüense masks and León's colonial costume theater"
+      - "Urban Western attire"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri offices/banks; Matagalpa coffee fincas run dawn-to-afternoon."
+  lunchBreakTiming: "A substantial midday lunch (12:00-14:00) is the norm."
+  notableShutdownPeriods:
+    - period: "Semana Santa (Mar/Apr)"
+      description: "Important closures; processions dominate."
+    - period: "Purísima (8 Dec)"
+      description: "Major celebration in León."
+    - period: "Year-end (24 Dec - 2 Jan)"
+      description: "Holiday closures."
+  notes: "Coffee harvest (~Oct-Mar) is Matagalpa's peak activity period."

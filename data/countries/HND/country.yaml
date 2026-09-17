@@ -1,0 +1,197 @@
+alpha3: HND
+alpha2: HN
+name:
+  eng: Honduras
+  local:
+    - languageCode: spa
+      value: Honduras
+flagEmoji: "🇭🇳"
+capital: Tegucigalpa
+isSovereign: true
+# Classified unitary-large: meets 2 of the 3 DESIGN.md criteria even though its
+# ~9.4M population (USDoS 2023) is below the >20-25M threshold. (2) The State
+# legally recognizes and protects the indigenous and Afro-Honduran communities
+# and their languages (Const. 1982 Art. 6 makes Spanish the SOLE official
+# language, so none are co-official; but recognition/protection is real — ILO
+# Convention 169 ratified 1995, and mother-tongue education on the Atlantic coast
+# and in La Mosquitia), and (3) widely recognized regional identities exist — the
+# Garifuna Caribbean north coast, the English-speaking Bay Islands, La Mosquitia
+# (Miskitu self-governed territory) and the Lenca highlands. The state is
+# constitutionally unitary (18 departments) so NOT federal. Curated regions:
+# Francisco Morazán (HN-FM), Cortés (HN-CR), Gracias a Dios (HN-GD) + WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: "HN"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitucion-1982
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.97
+    sourceId: estimate-flag
+  - languageCode: miq
+    domain: locallySpoken
+    speakersShare: 0.0096
+    sourceId: ine-censo-2013
+  - languageCode: cab
+    domain: locallySpoken
+    speakersShare: 0.0052
+    sourceId: ine-censo-2013
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.002
+    sourceId: estimate-flag
+# Spanish is the sole official language (Const. 1982 Art. 6). Indigenous and
+# Afro-Honduran languages are recognized/protected but NOT co-official, so they
+# appear as locallySpoken rows (never the 1.0 official flag). Miskito (miq, ISO
+# 639-3 'miq' — NOT 'mis', which is the 'miscellaneous/uncoded' special code)
+# ~80,007 / 8,303,771 per the 2013 census; Garifuna (cab) ~43,111 / 8,303,771.
+# English and Bay Islands Creole on the north coast are a small ESTIMATE (~0.002).
+# NOTE: the Lenca are the largest indigenous people (~5.46%) but the Lenca
+# language is EXTINCT with NO ISO 639-3 code, so they appear only as an ethnic
+# group and cultural trait, never as a language row.
+ethnicGroups:
+  # INE XVII Censo 2013 self-identification (pueblo de pertenencia), counts via a
+  # secondary tabulation of the primary census; percentages vs 8,303,771.
+  - group: Mestizo / other (mixed European-Amerindian, incl. unclassified)
+    percent: 91.36
+    sourceId: ine-censo-2013
+  - group: Lenca (indigenous)
+    percent: 5.46
+    sourceId: ine-censo-2013
+  - group: Miskito (indigenous)
+    percent: 0.96
+    sourceId: ine-censo-2013
+  - group: Garifuna (Afro-indigenous)
+    percent: 0.52
+    sourceId: ine-censo-2013
+  - group: Maya-Ch'orti' (indigenous)
+    percent: 0.4
+    sourceId: ine-censo-2013
+  - group: Tolupan / Jicaque (indigenous)
+    percent: 0.23
+    sourceId: ine-censo-2013
+  - group: Bay Island Creole / 'Negro de habla inglesa' (Afro-descendant)
+    percent: 0.15
+    sourceId: ine-censo-2013
+  - group: Nahua (indigenous)
+    percent: 0.08
+    sourceId: ine-censo-2013
+  - group: Pech / Paya (indigenous)
+    percent: 0.07
+    sourceId: ine-censo-2013
+  - group: Tawahka (indigenous)
+    percent: 0.03
+    sourceId: ine-censo-2013
+timezones:
+  - name: America/Tegucigalpa
+    standardUtcOffset: "UTC-6"
+    observesDst: false
+currency:
+  code: HNL
+  symbol: "L"
+  name: Lempira
+legalConstraints:
+  - topic: "official language"
+    description: "Spanish is the SOLE official language of Honduras (Constitución 1982 Art. 6: 'El idioma oficial de Honduras es el español. El Estado protegerá su pureza e incrementará su enseñanza.'). The State legally recognizes the indigenous and Afro-Honduran communities and protects their languages and education, but no indigenous language is co-official."
+    sourceId: constitucion-1982
+  - topic: "minority language rights"
+    description: "Honduras ratified ILO Convention No. 169 concerning Indigenous and Tribal Peoples (1995), which obliges recognition and protection of indigenous languages, cultures and territories. Honduran law/curricula mandate bilingual, mother-tongue education for indigenous peoples on the Atlantic coast and in La Mosquitia — recognition/protection, not official-language co-status."
+    sourceId: ilo-169
+  - topic: "currency / legal tender"
+    description: "The national currency is the Lempira (HNL), issued as legal tender solely by the Banco Central de Honduras. The US dollar is not legal tender, though it circulates informally in some trade sectors."
+    sourceId: bch
+  - topic: "ethnicity/religion data collection"
+    description: "The INE census collects ethnicity (pueblo de pertenencia) but does NOT record religion. Religion figures are survey estimates (CID-Gallup), not census statistics — do not present them as census data."
+    sourceId: usdos-irf-2023
+paymentCulture:
+  popularMethods:
+    - "Cash (lempira) — dominant for everyday retail, markets and the informal/mass economy"
+    - "Visa and Mastercard-branded debit/credit cards — no domestic card scheme"
+    - "Mobile money / digital wallets (e.g. Tigo Money, CHIP, banca móvil) — growing, low bank penetration"
+    - "Bank transfers / interbank rails (ACH-style settlement)"
+    - "International remittances — a major driver (cash pickup and mobile/digital rails)"
+  tipping:
+    expected: true
+    typicalAmount: "About 10% in nicer restaurants; a 10% 'propina' ('servicio') is commonly added to restaurant bills"
+    autoIncludedInBill: true
+    note: "Qualitative and customary — no official national payment-share study was located, so no paymentMethodShares are asserted. Cash remains most common in the mass economy; bank and mobile-money penetration is partial."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Warm, relational and polite. Business Spanish uses professional honorifics (Licenciado/a, Doctor/Doctora, Ingeniero/a); first names come once a trusting relationship forms. In indigenous communities (Lenca highlands, Miskito, Garifuna) extra warmth and respect for community elders is expected."
+  greetingNorms: "Firm handshake with eye contact in business; a hug or kiss on the cheek among friends and acquaintances. A friendly 'Buenos días / buenas tardes' and inquiry after family is normal."
+  meetingEtiquette: "Meetings are relational — expect warm small talk before the agenda. Punctuality is relaxed ('hora catracha'); arrive on time but do not take a late host as disrespect. Decisions flow through senior, personal relationships and take time."
+  topicsToAvoid:
+    - "The 2009 constitutional/political crisis and current polarized politics"
+    - "Political corruption and crime/insecurity discussions in casual settings"
+    - "Personal wealth or income display"
+    - "Speaking as an outsider about Miskitu/Garifuna/Lenca community struggles or the La Mosquitia land disputes, except with care"
+  giftGivingNotes: "Not expected at a first business meeting. When visiting a home, a modest gift (coffee, regional chocolate/cacao, fruit) is welcome. Avoid anything that could read as a bribe in a business context."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: HN-FM
+    file: distinct-regions/hn-fm.yaml
+    adminUnitCodes: [HN-FM]
+  - code: HN-CR
+    file: distinct-regions/hn-cr.yaml
+    adminUnitCodes: [HN-CR]
+  - code: HN-GD
+    file: distinct-regions/hn-gd.yaml
+    adminUnitCodes: [HN-GD]
+sources:
+  - id: constitucion-1982
+    name: "Constitución de la República de Honduras (1982, with reforms to 2004) — Artículo 6"
+    publisher: "Gobierno de Honduras (text hosted by Tribunal Superior de Cuentas / VERTIC)"
+    url: "https://tsc.gob.hn/web/leyes/Constitucion_de_la_republica.pdf"
+    year: 1982
+    accessedDate: "2026-09-17"
+    note: "Art. 6: 'El idioma oficial de Honduras es el español. El Estado protegerá su pureza e incrementará su enseñanza.' Basis for the spa official 1.0 row and the official-language legal constraint."
+  - id: ine-censo-2013
+    name: "XVII Censo de Población y VI de Vivienda 2013 — Resultados (pueblo de pertenencia)"
+    publisher: "Instituto Nacional de Estadística (INE) Honduras"
+    url: "https://ine.gob.hn/censo-de-poblacion-y-vivienda-2013"
+    year: 2013
+    accessedDate: "2026-09-17"
+    note: "Census base population 8,303,771. Self-identified indigenous/Afro-Honduran counts total ~717,618 (~8.6%): Lenca 453,672, Miskito 80,007, Garifuna 43,111, Maya-Ch'orti' 33,256, Tolupan 19,033, Bay Creoles 12,337, Nahua 6,339, Pech 6,024, Tawahka 2,690."
+  - id: ine-proyecciones-2022
+    name: "Principales Indicadores Demográficos 2022 (based on 2013 census projections)"
+    publisher: "Instituto Nacional de Estadística (INE) Honduras"
+    url: "https://temp.ine.gob.hn/wp-content/uploads/2025/05/Principales-Indicadores-Demograficos-2022.pdf"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "States the 2013 census total = 8.3M and gives projected 2022 total population 9,597,739. Used for the governance classification (population far below the >20-25M threshold) and projection-era denominators."
+  - id: usdos-irf-2023
+    name: "2023 Report on International Religious Freedom: Honduras"
+    publisher: "U.S. Department of State, Office of International Religious Freedom"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/honduras/"
+    year: 2023
+    accessedDate: "2026-09-17"
+    note: "US population estimate 9.4M (midyear 2023). Religion estimates from a CID-Gallup 2020 poll: 48% evangelical Protestant, 34% Catholic. FLAGGED as estimates — the census does not record religion."
+  - id: ilo-169
+    name: "ILO Convention No. 169 concerning Indigenous and Tribal Peoples (ratified by Honduras 1995)"
+    publisher: "International Labour Organization / Congress of Honduras"
+    url: "https://normlex.ilo.org/"
+    year: 1995
+    accessedDate: "2026-09-17"
+    note: "Ratification obliges recognition and protection of indigenous languages, cultures and territories. Basis for the minority-language legal constraint — recognition/protection, not official-language co-status."
+  - id: bch
+    name: "Lempira — national currency / Banco Central de Honduras"
+    publisher: "Banco Central de Honduras (BCH)"
+    url: "https://www.bch.hn/"
+    accessedDate: "2026-09-17"
+    note: "The Lempira (HNL) is the national legal tender, coined/issued solely by the BCH; the US dollar is not legal tender."
+  - id: iana-timezones
+    name: "IANA Time Zone Database"
+    publisher: "Internet Assigned Numbers Authority (IANA)"
+    url: "https://www.iana.org/time-zones"
+    accessedDate: "2026-09-17"
+    note: "America/Tegucigalpa = UTC-6, no daylight saving time observed; the sole timezone for Honduras."
+  - id: estimate-flag
+    name: "Estimated / secondary figures — marked as non-primary"
+    publisher: "this factsheet"
+    url: "https://ine.gob.hn/"
+    accessedDate: "2026-09-17"
+    note: "Placeholder sourceId for values that are estimates or could not be verified against a directly-fetchable primary source: the spa locallySpoken (~0.97) and eng locallySpoken (~0.002) shares."

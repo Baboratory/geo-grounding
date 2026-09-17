@@ -1,0 +1,77 @@
+code: GT-PE
+name:
+  eng: Petén (Northern Lowlands)
+  local:
+    - languageCode: spa
+      value: Petén
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest; hot and humid year-round, pronounced rainy season."
+landmarks:
+  - name: Tikal National Park
+    description: "Iconic Maya city, UNESCO World Heritage."
+    unescoWorldHeritage: true
+  - name: Uaxactún
+    description: "Older Maya ceremonial centre near Tikal."
+  - name: Flores / Lake Petén Itzá
+    description: "Island town and lake at the regional capital."
+  - name: Yaxhá
+    description: "Maya site on Laguna Yaxhá."
+culturalTraits:
+  - "Vast lowland rainforest, wildlife-rich"
+  - "Gateway to the Maya archaeological world"
+  - "Ecotourism and expedition trail to the north"
+prideOf:
+  - "Tikal and the Maya rainforest"
+  - "Biodiversity — jaguars and macaws"
+animals:
+  popular:
+    - "Jaguar"
+    - "Scarlet macaw"
+    - "Howler monkey"
+  unique:
+    - "Central American tapir"
+    - "Ocellated turkey"
+    - "Morelet's crocodile"
+industries:
+  - "Tourism / archaeology"
+  - "Cattle ranching"
+  - "Agriculture (corn, timber, extraction)"
+  - "Ecotourism"
+sports:
+  - "Football (soccer)"
+  - "Basketball"
+entertainment:
+  - season: allYear
+    items:
+      - "Archaeology and Maya heritage"
+      - "Rainforest exploration"
+  - season: dry
+    items:
+      - "Tikal sunrise tours"
+      - "Lake Petén Itzá boating"
+  - season: wet
+    items:
+      - "Rainforest/jungle lodge stays"
+      - "Maya archaeology by day"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pepián"
+      - "Tamales"
+      - "Local fish (Lake Petén Itzá)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light tropical clothing; some Q'eqchi' Maya traje in communities"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri."
+  lunchBreakTiming: "12:00-14:00."
+  notes: "Sunday rest day."

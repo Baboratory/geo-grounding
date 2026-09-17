@@ -1,0 +1,178 @@
+alpha3: GTM
+alpha2: GT
+name:
+  eng: Guatemala
+  local:
+    - languageCode: spa
+      value: Guatemala
+flagEmoji: "🇬🇹"
+capital: Ciudad de Guatemala
+isSovereign: true
+# Classified unitary-large: Guatemala meets 2 of the 3 DESIGN.md criteria even
+# though its ~14.9M population (INE 2018 census) is below the >20-25M threshold:
+# (1) officially recognized minority languages — Decreto 19-2003 (Ley de Idiomas
+# Nacionales) recognizes 22 Mayan languages plus Xinca and Garifuna as national
+# languages of the cultural heritage (Const. Art. 143), and (2) a widely
+# recognized cultural-historical regional identity — 41.7% Maya across 22
+# linguistic communities with strong department-level identity. The state is
+# constitutionally unitary (22 departments, 340 municipalities) so NOT federal.
+# Curated regions: Guatemala (GT-GU, capital), Quetzaltenango (GT-QZ, K'iche'/Mam
+# highlands), Petén (GT-PE, northern lowlands/Tikal) + the generic WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: "GT"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: decreto-19-2003
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.699
+    sourceId: ine-censo-2018
+  - languageCode: kek
+    domain: locallySpoken
+    speakersShare: 0.0831
+    sourceId: ine-censo-2018
+  - languageCode: quc
+    domain: locallySpoken
+    speakersShare: 0.0776
+    sourceId: ine-censo-2018
+  - languageCode: mam
+    domain: locallySpoken
+    speakersShare: 0.044
+    sourceId: ine-censo-2018
+  - languageCode: cak
+    domain: locallySpoken
+    speakersShare: 0.0303
+    sourceId: ine-censo-2018
+  - languageCode: cab
+    domain: locallySpoken
+    speakersShare: 0.0002
+    sourceId: ine-censo-2018
+  - languageCode: xin
+    domain: locallySpoken
+    speakersShare: 0.0002
+    sourceId: ine-censo-2018
+# Spanish is the sole official language (Const. Art. 143; Decreto 19-2003 Art. 1
+# — 'El idioma oficial de Guatemala es el español'). The national-language status
+# of the Maya/Xinca/Garifuna languages is honored here as locallySpoken rows
+# (they are recognized as national-language heritage but are NOT co-official,
+# so they do not carry the 1.0 official flag). Shares are % of total population
+# from the INE 2018 census language-of-learning tables (mother tongue). Note:
+# Q'eqchi' (kek, ~8.31%) is the LARGEST Mayan language, ahead of K'iche' (quc,
+# ~7.76%).
+ethnicGroups:
+  # Ethnic self-identification (pueblo de pertenencia), INE 2018 census.
+  - group: Ladino
+    percent: 56.0
+    sourceId: ine-censo-2018
+  - group: Maya
+    percent: 41.7
+    sourceId: ine-censo-2018
+  - group: Xinka
+    percent: 1.8
+    sourceId: ine-censo-2018
+  - group: Afrodescendant / Creole / Afromestizo
+    percent: 0.2
+    sourceId: ine-censo-2018
+  - group: Foreign-born
+    percent: 0.2
+    sourceId: ine-censo-2018
+  - group: Garifuna
+    percent: 0.1
+    sourceId: ine-censo-2018
+timezones:
+  - name: America/Guatemala
+    standardUtcOffset: "UTC-6"
+    observesDst: false
+currency:
+  code: GTQ
+  symbol: "Q"
+  name: Quetzal
+legalConstraints:
+  - topic: "official language"
+    description: "Spanish is the sole official language (Constitución Art. 143; Ley de Idiomas Nacionales Decreto 19-2003 Art. 1). The State recognizes and must use the languages of the Maya, Xinca and Garifuna peoples in services provided to their speakers, as part of the national cultural heritage."
+    sourceId: decreto-19-2003
+  - topic: "national currency / legal tender"
+    description: "The Quetzal (GTQ) is the national currency and, absent express agreement to the contrary, the unit of account and legally-binding means of payment for all monetary transactions, with full discharging power over debts. Only the Banco de Guatemala may issue banknotes and coins (Ley Monetaria Decreto 17-2002 Arts. 1-2, 6)."
+    sourceId: ley-monetaria-17-2002
+  - topic: "ethnicity/religion data collection"
+    description: "Ethnic self-identification (Maya/Ladino/Xinca/Garifuna/Afrodescendant) is collected in the census; religion is NOT asked in the census. Religion figures are therefore survey-derived estimates (see religions source notes) — do not present as census statistics."
+    sourceId: usdos-irf-2018
+paymentCulture:
+  popularMethods:
+    - "Cash — dominant, especially in retail, market stalls and the informal/mass economy"
+    - "Visa and Mastercard-branded debit/credit cards — no domestic card scheme of its own"
+    - "Bank transfers / national ACH and interbank rails (electronic funds transfer systems operated by the banking system)"
+    - "Mobile banking apps and digital wallets — growing but penetration is incomplete"
+  tipping:
+    expected: true
+    typicalAmount: "About 10% in nicer restaurants; a 10% propina is commonly added to restaurant bills"
+    autoIncludedInBill: true
+    note: "Qualitative and customary. Cash remains most common in the mass economy; some establishments include a 10% service charge. No authoritative national payment-method-share study was located, so no percentages are asserted here."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Warm and relational; Spanish business uses professional titles (Licenciado/a, Doctor/Doctora, Ingeniero/a). In Maya regions address with respect and allow for a formal-but-warm style; first names arrive once rapport/trust builds."
+  greetingNorms: "Firm handshake and direct eye contact in business; among acquaintances/friends a hug or kiss on the cheek. A warm, unhurried greeting and inquiry after well-being is normal."
+  meetingEtiquette: "Meetings are relational — expect warm small talk before the agenda. Punctuality is commonly relaxed ('hora chapina'); arrive on time but do not be offended by a host running late. Decisions flow through senior relationship-based contacts; patience expected."
+  topicsToAvoid:
+    - "Guatemala's 1960-1996 internal armed conflict and genocide/atrocity history — deeply sensitive, especially in Maya communities"
+    - "Ethnic/indigenous discrimination and racism — sensitive"
+    - "Direct criticism of the government or President in casual settings"
+    - "Personal wealth or income display"
+  giftGivingNotes: "Not expected at a first business meeting. When visiting a home, a modest gift (flowers, fruit, sweets, or regional artisan/coffee craft) is welcome. Avoid anything that could be read as a bribe in a business context."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: GT-GU
+    file: distinct-regions/gt-gu.yaml
+    adminUnitCodes: [GT-GU]
+  - code: GT-QZ
+    file: distinct-regions/gt-qz.yaml
+    adminUnitCodes: [GT-QZ]
+  - code: GT-PE
+    file: distinct-regions/gt-pe.yaml
+    adminUnitCodes: [GT-PE]
+sources:
+  - id: ine-censo-2018
+    name: "XII Censo Nacional de Población y VII de Vivienda 2018 — Resultados (pueblo de pertenencia & comunidades lingüísticas)"
+    publisher: "Instituto Nacional de Estadística (INE) Guatemala"
+    url: "https://censo2018.ine.gob.gt/archivos/resultados_censo2018.pdf"
+    year: 2018
+    accessedDate: "2026-09-17"
+    note: "Total population 14,901,286. Ethnic self-identification (pueblo de pertenencia): Maya 41.7% (6,207,503), Ladino 56.0% (8,346,120), Xinka 1.8% (264,167), Garifuna 0.1% (19,529), Afrodescendant/Creole/Afromestizo 0.2% (27,647), Foreign 0.2% (36,320). Language-of-learning shares: Spanish ~69.9%, Q'eqchi' ~8.31% (1,127,387), K'iche' ~7.76% (1,054,818), Mam ~4.4% (590,641), Kaqchikel ~3.03% (411,089)."
+  - id: decreto-19-2003
+    name: "Ley de Idiomas Nacionales, Decreto Número 19-2003 del Congreso"
+    publisher: "Congreso de la República de Guatemala (text via ACNUR mirror)"
+    url: "https://www.acnur.org/fileadmin/Documentos/BDL/2008/6731.pdf"
+    year: 2003
+    accessedDate: "2026-09-17"
+    note: "Art. 1: 'El idioma oficial de Guatemala es el español.' Recognizes the languages of the Maya, Xinca and Garifuna peoples as national languages forming part of the cultural heritage, and obliges the State to use them in services to speakers. Basis for the official-language row, the minority-language criterion, and the 'official language' legal constraint."
+  - id: constitucion-1985-art143
+    name: "Constitución Política de la República de Guatemala (1985, as amended) — Art. 143 (Idioma oficial)"
+    publisher: "Congreso de la República de Guatemala (text via Jurista legal database)"
+    url: "https://www.jurista.com.gt/laws/constitucion-politica"
+    year: 1985
+    accessedDate: "2026-09-17"
+    note: "Art. 143 ('Idioma oficial') establishes Spanish as the official language of Guatemala. Cited together with Decreto 19-2003."
+  - id: ley-monetaria-17-2002
+    name: "Ley Monetaria, Decreto Número 17-2002 (Arts. 1-2, 6)"
+    publisher: "Banco de Guatemala"
+    url: "https://banguat.gob.gt/sites/default/files/banguat/leyes/2013/ley_monetaria.pdf"
+    year: 2002
+    accessedDate: "2026-09-17"
+    note: "Art. 1: the monetary unit is the Quetzal, symbol 'Q', divided into 100 centavos. Art. 2: only the Banco de Guatemala may issue banknotes/coins. Art. 6: the Quetzal is the unit of account and means of payment absent express agreement otherwise. Basis for the currency object and the currency legal constraint."
+  - id: usdos-irf-2018
+    name: "2018 Report on International Religious Freedom: Guatemala"
+    publisher: "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://www.state.gov/wp-content/uploads/2019/05/GUATEMALA-2018-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
+    year: 2018
+    accessedDate: "2026-09-17"
+    note: "Religion survey estimates (ProDatos 2016): ~45% Catholic, ~42% Protestant/evangelical, ~11% no affiliation, combined <3% other. FLAGGED as estimates — Guatemala's census does not record religion."
+  - id: iana-timezone
+    name: "IANA Time Zone Database — America/Guatemala"
+    publisher: "Internet Assigned Numbers Authority (IANA)"
+    url: "https://www.iana.org/time-zones"
+    accessedDate: "2026-09-17"
+    note: "America/Guatemala = UTC-6, no daylight saving time observed; the sole timezone for the country."

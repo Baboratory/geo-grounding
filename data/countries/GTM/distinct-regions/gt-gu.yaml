@@ -1,0 +1,71 @@
+code: GT-GU
+name:
+  eng: Guatemala (Department)
+  local:
+    - languageCode: spa
+      value: Guatemala
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-dry, moderated by altitude in the capital valley."
+landmarks:
+  - name: Ciudad de Guatemala historical centre (Zona 1)
+    description: "Cathedral, National Palace and Central Park."
+  - name: Kaminaljuyú
+    description: "Ancient Maya ceremonial site within the modern city."
+  - name: Mixco Viejo ruins
+    description: "Post-classic Maya site at the department's edge."
+culturalTraits:
+  - "Cosmopolitan capital hub; majority Ladino with growing Kaqchikel/Maya populations; business and government centre"
+  - "Contemporary art and gastronomy scene"
+prideOf:
+  - "Capital's growth as a regional business gateway"
+  - "Colonial Plaza and National Palace history"
+animals:
+  popular:
+    - "Resplendent quetzal"
+    - "Toucan"
+  unique: []
+industries:
+  - "Services"
+  - "Finance / banking"
+  - "Government"
+  - "Manufacturing"
+  - "Logistics"
+sports:
+  - "Football (soccer)"
+  - "Basketball"
+  - "Tennis"
+entertainment:
+  - season: allYear
+    items:
+      - "Urban cafés, restaurants and galleries"
+      - "Fútbol matches and sports culture"
+  - season: dry
+    items:
+      - "Urban festivals and music events"
+      - "Independence Day (Sept 15) parades"
+  - season: wet
+    items:
+      - "Museums and galleries"
+      - "Coffee shops and restaurants"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pepián"
+      - "Chuchitos"
+      - "Guatemalan hot chocolate"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Business attire; some traditional huipil worn among highland-origin residents"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00/18:00 Mon-Fri."
+  lunchBreakTiming: "12:00-14:00."
+  notes: "Capital business rhythm; Sunday rest day."
