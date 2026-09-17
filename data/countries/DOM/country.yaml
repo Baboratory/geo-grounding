@@ -1,0 +1,172 @@
+alpha3: DOM
+alpha2: DO
+name:
+  eng: Dominican Republic
+  local:
+    - languageCode: spa
+      value: República Dominicana
+flagEmoji: "🇲🇴"
+capital: Santo Domingo
+isSovereign: true
+# Classified unitary-small: population ~10.76M (ONE 2022 census) is far below the
+# unitary-large threshold; Spanish is the single official language (Constitución
+# 2015 Art. 29) with no officially recognized regional/minority languages; the
+# state is constitutionally unitary (32 provinces + Distrito Nacional) with no
+# federal structure. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: dom-constitution-2015
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.96
+    sourceId: ethnologue-do
+  - languageCode: hat
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: estimate-flag
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.2
+    sourceId: estimate-flag
+# The hat (Haitian Creole, ~5-10%) and eng (foreign, ~20%) shares are ESTIMATES —
+# ONE publishes no official census of language proficiency. Haitian Creole is
+# spoken mainly by the Haitian-descent community (borders, sugar regions, Santo
+# Domingo); it has no official status and is treated locally as a minority /
+# community language, not a regional one. English is mandatory in schools and
+# common in tourism/services (EF EPI ranks DR 'moderate' proficiency).
+ethnicGroups:
+  # ONE 2022 census categories are ethno-racial SELF-IDENTIFICATION (perceived
+  # skin colour/phenotype), first asked since the 1960 census; population 12+.
+  - group: Indio/a (self-identified)
+    percent: 34.2
+    sourceId: one-census-2022
+  - group: Moreno/a (self-identified)
+    percent: 26.1
+    sourceId: one-census-2022
+  - group: White (Blanco/a)
+    percent: 18.7
+    sourceId: one-census-2022
+  - group: Mestizo/a
+    percent: 7.7
+    sourceId: one-census-2022
+  - group: Black (Negro/a)
+    percent: 7.5
+    sourceId: one-census-2022
+  - group: Mulato/a
+    percent: 3.8
+    sourceId: one-census-2022
+timezones:
+  - name: America/Santo_Domingo
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+currency:
+  code: DOP
+  symbol: "RD$"
+  name: Dominican peso (Peso dominicano)
+legalConstraints:
+  - topic: "official language"
+    description: "Spanish is the sole official language of the Republic (Constitución 2015, Art. 29) — legal documents, advertising and public-facing text are expected in Spanish."
+    sourceId: dom-constitution-2015
+  - topic: "national currency / legal tender"
+    description: "The Dominican Peso (DOP) is the only legal tender with full liberating effect for all public and private obligations nationwide; debts are settled in national currency absent an agreed currency. Issuance is the exclusive power of the Banco Central de la República Dominicana (Constitución 2015 Arts. 229-230; Ley 183-02 Arts. 24-25)."
+    sourceId: dom-constitution-2015
+  - topic: "targeted social cash-transfer payments"
+    description: "Social-subsidy benefits are delivered via ADESS-managed electronic debit cards (Tarjeta Solidaridad / Progresando con Solidaridad) spent within the Red de Abastecimiento Social (RAS) merchant network — a reference rail for e-commerce/retail players serving subsidized households. IMF 2024 Article IV recommends strengthening these targeted cash transfers."
+    sourceId: adess
+paymentCulture:
+  popularMethods:
+    - "Cash — dominant, especially in retail and the mass economy"
+    - "Visa and Mastercard-branded debit/credit cards (no domestic card scheme of its own)"
+    - "Red ATH — the interoperable national ATM / point-of-sale network and mobile-payments backbone"
+    - "Electronic / mobile payment platforms (Pagos al Instante real-time transfers; Tpago bill-pay)"
+    - "ADESS social-subsidy debit cards (Tarjeta Solidaridad / Progresando con Solidaridad) — the State's targeted electronic cash-transfer rail for low-income families over the Social Payments System (SPSS) and RAS network"
+  tipping:
+    expected: true
+    typicalAmount: "About 10% in restaurants; a 10% service charge (propina) is frequently added to restaurant bills"
+    autoIncludedInBill: true
+    note: "Cash is the dominant payment method, particularly in the retail economy and among the ~half of adults without formal bank accounts (Global Findex: ~51-56% account ownership). Card/electronic rails are growing but penetration is incomplete; the BCRD is in the exploration/research phase for a retail CBDC (no pilot or decision)."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Warm and personable; Spanish-language business uses professional titles (Doctor/Doctora, Licenciado/a, Ingeniero/a) at first contact. First names arrive quickly once a friendly rapport forms. Relationships and trust are central to doing business."
+  greetingNorms: "Friendly firm handshake in business; among friends/acquaintances a hug and/or kiss on the cheek. Direct eye contact and a smile are normal."
+  meetingEtiquette: "Meetings are relational and conversational before the business agenda; expect warm small talk. Punctuality is relaxed ('Dominican time') — arrive on time but do not be offended by a host running late. Decisions flow through relationship-based senior contacts; be patient."
+  topicsToAvoid:
+    - "Haiti / Haitian-descent relations — politically sensitive"
+    - "The Dominican Republic–Haiti border situation and migration"
+    - "Personal wealth display or direct criticism of the President/family in casual settings"
+  giftGivingNotes: "Not expected at a first business meeting. A modest branded gift is welcome once a relationship develops. When invited to a home, bringing flowers or a small gift (e.g. rum, coffee, dessert) is appreciated; avoid all-white flowers."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: dom-constitution-2015
+    name: "Constitución de la República Dominicana, proclamada 13 de junio de 2015 — Art. 29 (idioma oficial); Arts. 228-230 (moneda, Banco Central emisor)"
+    publisher: "República Dominicana (Gaceta Oficial), text hosted by Justia"
+    url: "https://republica-dominicana.justia.com/nacionales/constitucion-de-la-republica-dominicana/titulo-i/capitulo-vii/"
+    year: 2015
+    accessedDate: "2026-09-17"
+    note: "Art. 29: the sole official language is Spanish. Arts. 228-230: the Dominican Peso is the national unit of account and the only legal currency with full liberating force, and the BCRD is the sole issuer of notes/coins."
+  - id: one-census-2022
+    name: "X Censo Nacional de Población y Vivienda 2022 — Informe General"
+    publisher: "Oficina Nacional de Estadística (ONE)"
+    url: "https://www.one.gob.do/publicaciones/2024/informe-general-del-x-censo-nacional-de-poblacion-y-vivienda-2022"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "Total population 10,760,028. Ethno-racial self-identification (population 12+): Indio 34.2, Moreno 26.1, Blanco 18.7, Mestizo 7.7, Negro 7.5, Mulato 3.8 (self-perceived phenotype categories, not ancestry or foreign-born data)."
+  - id: bcrd-ley-monetaria
+    name: "Ley No. 183-02 Monetaria y Financiera, Arts. 24-25"
+    publisher: "Superintendencia de Bancos de la República Dominicana"
+    url: "https://www.sb.gob.do/media/c3hhtvb1/ley-no-183-02-monetaria-y-financiera.pdf"
+    year: 2002
+    accessedDate: "2026-09-17"
+    note: "National currency is the only legal tender with full liberating effect; issuance of banknotes/coins is an exclusive, non-delegable power of the BCRD. Corroborates the constitutional currency facts."
+  - id: iana-timezones
+    name: "IANA Time Zone Database — America/Santo_Domingo"
+    publisher: "Internet Assigned Numbers Authority (IANA)"
+    url: "https://www.iana.org/time-zones"
+    accessedDate: "2026-09-17"
+    note: "IANA zone America/Santo_Domingo = UTC-4, no DST (year-round), the sole zone for the country."
+  - id: usdos-irf-2023
+    name: "2023 Report on International Religious Freedom: Dominican Republic"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/dominican-republic"
+    year: 2023
+    accessedDate: "2026-09-17"
+    note: "Religion SURVEY estimates (based on Pew/Latinobarómetro, not ONE census): Catholics more than 50%, evangelical Protestants 20-30%, ~18% no declared religion. Used as the best available authoritative estimate; flagged."
+  - id: ethnologue-do
+    name: "Dominican Republic — Languages (Ethnologue country page)"
+    publisher: "Ethnologue (SIL)"
+    url: "https://www.ethnologue.com/country/DO/"
+    accessedDate: "2026-09-17"
+    note: "~96% of the population speaks Spanish; Spanish is the official language. Secondary source used for the locallySpoken Spanish share (0.96)."
+  - id: global-findex-2017
+    name: "Global Financial Inclusion (Global Findex) Database — Dominican Republic 2017 / 2021"
+    publisher: "World Bank"
+    url: "https://microdata.worldbank.org/catalog/3340"
+    accessedDate: "2026-09-17"
+    note: "Financial-inclusion context: account ownership 56.2% (2017) and 51.3% (2021) — implies a large cash-dependent population. Secondary corroboration for the cash-dominant payment culture."
+  - id: adess
+    name: "Administradora de Subsidios Sociales (ADESS) — Nuestra Historia / official portal"
+    publisher: "ADESS — Administradora de Subsidios Sociales"
+    url: "https://adess.gob.do/nosotros/nuestra-historia"
+    year: 2004
+    accessedDate: "2026-09-17"
+    note: "ADESS created by Decreto 1560-04 (16 Dec 2004); administers targeted social subsidies as electronic debit cards (Tarjeta Solidaridad / Progresando con Solidaridad, Incentivos Especiales) over the Social Payments System (SPSS) and RAS merchant network. Basis for the social-subsidy-card payment rail and the legal constraint."
+  - id: imf-article-iv-2024
+    name: "Dominican Republic: 2024 Article IV Consultation — Staff Report (IMF Country Report No. 24/294)"
+    publisher: "International Monetary Fund"
+    url: "https://www.imf.org/-/media/files/publications/cr/2024/english/1domea2024001-print-pdf.pdf"
+    year: 2024
+    accessedDate: "2026-09-17"
+    note: "Recommends strengthening targeted cash transfers — context for the ADESS social-subsidy payment rail."
+  - id: estimate-flag
+    name: "Estimated / secondary figure — marked as non-primary"
+    publisher: "this factsheet"
+    url: "https://www.one.gob.do/"
+    accessedDate: "2026-09-17"
+    note: "Placeholder sourceId for values that are estimates or could not be verified against a primary fetchable source: the hat and eng language shares. These fields ARE flagged as estimates in their YAML notes."

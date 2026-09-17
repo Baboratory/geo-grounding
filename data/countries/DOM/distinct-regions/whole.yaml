@@ -1,0 +1,144 @@
+code: WHOLE
+name:
+  eng: Dominican Republic
+  local:
+    - languageCode: spa
+      value: República Dominicana
+# Generic country-wide fallback content for the Dominican Republic
+# (unitary-small, single synthetic whole region). Used via the
+# 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) climate in most coastal and lowland areas: warm year-round (~26-29°C), with a distinct dry season (December-April) and wet season (May-November)."
+  - koppenCode: Af
+    description: "Tropical rainforest climate on some windward/northern slopes."
+  - koppenCode: Cfb
+    description: "Subtropical-highland (temperate) climate in the Cordillera Central, including Pico Duarte, the Caribbean's highest peak."
+landmarks:
+  - name: Colonial City of Santo Domingo
+    description: "Oldest continuously inhabited European-founded city in the Americas; first cathedral, fortaleza and university in the New World; UNESCO World Heritage Site since 1990."
+    unescoWorldHeritage: true
+  - name: Alcázar de Colón
+    description: "16th-century Governor's Palace in the Zona Colonial, residence of Diego Colón."
+  - name: Pico Duarte
+    description: "Highest peak in the Caribbean (3,098 m) in the Cordillera Central."
+  - name: Lake Enriquillo
+    description: "Largest lake in the Caribbean and deepest below sea level in the Americas (~-44 m); hypersaline, home to American crocodiles and flamingos."
+  - name: Los Haitises National Park
+    description: "Mangrove lagoons, caves and limestone mogotes on Samaná Bay."
+  - name: Punta Cana / Bávaro beaches
+    description: "The country's premier tourism coast on the eastern shore."
+  - name: Samaná Peninsula
+    description: "Prime winter humpback-whale watching (roughly January-March) in Samaná Bay."
+culturalTraits:
+  - "Merengue — national music & dance (UNESCO Intangible Cultural Heritage, 2016)"
+  - "Bachata — internationally popular genre born in the DR (UNESCO ICH, 2019)"
+  - "Carnival — held across towns through February (Carnaval Dominicano)"
+  - "Sancocho — the communal Sunday-stew tradition, a quintessential Dominican ritual"
+  - "Baseball (béisbol) — the national passion; strong MLB presence"
+  - "Mangú con los tres golpes — the signature breakfast (mashed plantains, eggs, salami, fried cheese)"
+  - "Strong coffee (café dominicano) and cocoa culture"
+prideOf:
+  - "Site of the first European city and Columbus legacy in the New World"
+  - "Merengue and bachata as globally recognized Dominican cultural exports"
+  - "The Caribbean's highest peak (Pico Duarte)"
+  - "Baseball success on the world stage"
+  - "Resilience and tropical hospitality"
+animals:
+  popular:
+    - "Hispaniolan parrot ('Cotorra', Amazona ventralis)"
+    - "Palmchat ('Cigua palmera') — the national bird"
+    - "West Indian manatee and humpback whale (winter months, Samaná)"
+    - "American flamingo and American crocodile (Lake Enriquillo)"
+  unique:
+    - "Hispaniolan solenodon (Solenodon paradoxus) — ancient endemic insectivorous mammal"
+    - "Hispaniolan hutia (Plagiodontia aedium) — endemic rodent"
+    - "Hispaniolan trogon and other endemic bird species of Hispaniola"
+industries:
+  - "Tourism (beach resorts, cruises, golf)"
+  - "Free-zone manufacturing (textiles, electronics, medical devices)"
+  - "Mining (gold — Pueblo Viejo; also silver, nickel; larimar gemstone)"
+  - "Agriculture & agroindustry (sugar cane, coffee, cocoa, plantain/banana, rice, rum)"
+  - "Remittances from the large Dominican diaspora"
+sports:
+  - "Baseball — the national pastime"
+  - "Basketball and volleyball"
+  - "Cricket (small but historic communities)"
+religions:
+  - name: Roman Catholic
+    percent: 54.0
+    sourceId: usdos-irf-2023
+  - name: Protestant / Evangelical Christian
+    percent: 25.0
+    sourceId: usdos-irf-2023
+  - name: No religion
+    percent: 18.0
+    sourceId: usdos-irf-2023
+entertainment:
+  - season: allYear
+    items:
+      - "Merengue and bachata — open-air festivals, concerts and dancing"
+      - "Sport as a national pastime — baseball (LIDOM league) and basketball"
+      - "Beach life and coastal resorts year-round"
+  - season: dry
+    items:
+      - "Carnaval Dominicano — February parades in La Vega, Santo Domingo, Santiago, Puerto Plata"
+      - "Samaná humpback-whale watching (roughly Jan-Mar)"
+      - "Peak tourism Dec-Apr (golf, beaches, resorts)"
+  - season: wet
+    items:
+      - "Hurricane-season short-rain afternoons; indoor entertainment (spas, casinos, cinema) more attractive"
+      - "Lower-season travel deals (May-Jun, Sep-Nov)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "La Bandera Dominicana — rice, red beans and stewed meat (the national lunch)"
+      - "Sancocho — hearty root-and-meat stew"
+      - "Mangú (mashed green plantains) — breakfast staple"
+      - "Mofongo — fried green-plantain mash with garlic and pork crackling"
+      - "Locrio — Dominican-style rice with meat/chicken"
+      - "Tostones / yuca (cassava) frita; chicharrón"
+      - "Morir soñando (orange-milk drink) and café dominicano"
+  - season: dry
+    items:
+      - "Christmas feast — puerco asado (roast pork), telera bread, moro de guandules (pigeon-pea rice), pasteles en hoja (Dec)"
+      - "Habichuelas con dulce — sweet bean dessert, traditional for Lent/Semana Santa (Mar-Apr)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Guayabera — the lightweight pleated linen shirt worn by men for warm-climate dress-casual wear"
+      - "Folk costume ('traje típico') at folkloric/Carnival performances rather than daily life"
+  - season: dry
+    items:
+      - "Carnival dress and masks ('diablo cojuelo', etc.) during February celebrations"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours typically ~8:00-9:00am to ~5:00-6:00pm Mon-Fri; retail commonly also open Saturdays. Many businesses close Sunday."
+  lunchBreakTiming: "Many businesses take a midday break (~12:00-1:30pm); government offices often run a continuous working day."
+  notableShutdownPeriods:
+    - period: "Semana Santa (Easter week)"
+      description: "Widespread national holiday closure; many offices/businesses shut for the week."
+      sourceId: estimate-flag
+    - period: "Hurricane season (Jun-Nov)"
+      description: "Activity slows during tropical-storm/hurricane alerts (peak Aug-Oct); not a scheduled closure, but weather-related disruption is common."
+      sourceId: estimate-flag
+sources:
+  - id: usdos-irf-2023
+    name: "2023 Report on International Religious Freedom: Dominican Republic"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/dominican-republic"
+    year: 2023
+    accessedDate: "2026-09-17"
+    note: "Religion survey estimates (based on Pew/Latinobarómetro, not ONE census): Catholics more than 50% (54.0 midpoint), evangelical Protestants 20-30% (25.0 midpoint), ~18% no declared religion. No official published ONE census religion percentage was found."
+  - id: estimate-flag
+    name: "Estimated / secondary figure — marked as non-primary"
+    publisher: "this factsheet"
+    url: "https://www.one.gob.do/"
+    accessedDate: "2026-09-17"
+    note: "Placeholder sourceId for businessRhythm shutdown periods, which are customary/estimated descriptions rather than primary-sourced statistics."
