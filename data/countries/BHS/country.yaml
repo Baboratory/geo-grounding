@@ -1,0 +1,113 @@
+alpha3: BHS
+alpha2: BS
+name:
+  eng: The Bahamas
+  local:
+    - languageCode: eng
+      value: The Bahamas
+flagEmoji: "🇧🇸"
+capital: Nassau
+isSovereign: true
+# Classified unitary-small: a small archipelagic state (~700 islands/cays, ~30
+# inhabited; ~412,000 population, far below the unitary-large threshold) that is
+# a unitary constitutional monarchy with a Westminster-style parliament — no
+# federal structure and a single dominant official language (English). One
+# synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: bs-constitution
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 1.0
+    sourceId: bs-constitution
+# English is the sole official and near-universal language, so a single English
+# row covers both the de jure official flag (1.0) and the de facto locally-spoken
+# share (effectively universal). No ISO 639-3 additions were needed.
+ethnicGroups:
+  # Estimates (Department of Statistics); census-derived, treat as approximate.
+  - group: Afro-Bahamian (African descent)
+    percent: 90.0
+    sourceId: bs-statistics
+  - group: White/European Bahamian
+    percent: 5.0
+    sourceId: bs-statistics
+  - group: Mixed and other
+    percent: 5.0
+    sourceId: bs-statistics
+timezones:
+  - name: America/Nassau
+    standardUtcOffset: "UTC-5"
+    observesDst: true
+    dstUtcOffset: "UTC-4"
+    dstPeriod: "Second Sunday of March (02:00) to first Sunday of November (02:00), the US/Eastern schedule."
+currency:
+  code: BSD
+  symbol: "$"
+  name: "Bahamian dollar (pegged 1:1 to the US dollar; USD also circulates)"
+legalConstraints:
+  - topic: "official language"
+    description: "English is the official language of The Bahamas, used for legislation, government and commerce. Public-facing and legal text is expected in English."
+    sourceId: bs-constitution
+  - topic: "currency / legal tender"
+    description: "The Bahamian dollar (BSD) is the national currency, pegged at par to the US dollar. US dollar notes and coins circulate widely alongside the BSD and are accepted for most transactions; both settle obligations in practice."
+    sourceId: bs-central-bank
+paymentCulture:
+  popularMethods:
+    - "Cash (Bahamian dollars, with US dollars accepted at par) — common in the local/street economy"
+    - "Visa and Mastercard — widely accepted across resorts, restaurants and retail"
+    - "Mobile/digital payments and bank transfers — growing; a well-developed banking sector driven by tourism and international finance"
+  tipping:
+    expected: true
+    typicalAmount: "About 15-20% in full-service restaurants; many tourist-facing venues add a gratuity"
+    autoIncludedInBill: true
+    note: "Tipping follows US-style conventions given heavy North American tourism. Many resorts and restaurants add a service charge; otherwise 15-20% is standard. Cash tips in USD are common."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Friendly, polite and relationship-oriented; titles and surnames in business until rapport builds, then first names. A relaxed, unhurried manner is valued; directness should be softened with courtesy."
+  greetingNorms: "A warm greeting — handshake with eye contact in business; 'good morning/afternoon' is expected when entering a shop, office or passing acquaintances."
+  meetingEtiquette: "Pace is relaxed; punctuality matters for business but patience is valued. Communication tends to be indirect and harmony-seeking over direct confrontation. Rapport and small talk precede the agenda."
+  topicsToAvoid:
+    - "Dwelling on the history of slavery or colonial-era legacies unless a Bahamian raises them"
+    - "Unfavourably comparing The Bahamas to other Caribbean islands"
+  giftGivingNotes: "Not expected at a first business meeting. When invited to a home, a small gift (good Bahamian rum, flowers, a dessert) is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: bs-constitution
+    name: "The Constitution of The Commonwealth of The Bahamas (1973) and official-language policy"
+    publisher: "Government of The Bahamas"
+    url: "https://www.bahamas.gov.bs/"
+    year: 1973
+    accessedDate: "2026-09-17"
+    note: "English is the official language used for legislation, government and public administration; sole official language of the state."
+  - id: bs-statistics
+    name: "Population and Housing Census / Estimates — ethnicity and religion"
+    publisher: "Department of Statistics of The Bahamas"
+    url: "https://www.bahamas.gov.bs/wps/portal/public/Department%20of%20Statistics/"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "Population ~412,000 (2022/2023 estimate). Ethnic composition ~90% Afro-Bahamian, ~5% European/white Bahamian, remainder mixed/other (estimates). Religion predominantly Christian (~96%). Estimates, not exact counts."
+  - id: bs-central-bank
+    name: "Bahamian dollar — currency and payments"
+    publisher: "Central Bank of The Bahamas"
+    url: "https://centralbankbahamas.com/"
+    accessedDate: "2026-09-17"
+    note: "The BSD is the national currency pegged 1:1 to the USD; US dollars circulate widely. Basis for the currency entry and the legal-tender constraint, and for the tourism-driven banking/payments picture."
+  - id: iana-timezones
+    name: "IANA Time Zone Database — America/Nassau"
+    publisher: "Internet Assigned Numbers Authority (IANA)"
+    url: "https://www.iana.org/time-zones"
+    accessedDate: "2026-09-17"
+    note: "America/Nassau = UTC-5 standard with DST to UTC-4 on the US/Eastern schedule. Sole timezone for the country."
+  - id: bs-meteorology
+    name: "Climate and seasons"
+    publisher: "Bahamas Department of Meteorology"
+    url: "https://www.bahamas.gov.bs/"
+    accessedDate: "2026-09-17"
+    note: "Tropical marine, two-season climate: drier winter (roughly Dec-Apr) and wetter summer (May-Nov); Atlantic hurricane season Jun-Nov. Basis for the seasonCalendar."
