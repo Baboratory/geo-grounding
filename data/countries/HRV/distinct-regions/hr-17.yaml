@@ -1,0 +1,54 @@
+code: HR-17
+name:
+  eng: Split-Dalmatia
+  local:
+    - languageCode: hrv
+      value: Splitsko-dalmatinska županija
+climates:
+  - koppenCode: Csa
+    description: "Mediterranean: hot, dry summers; mild winters. Hvar and the islands are very sunny."
+landmarks:
+  - name: Diocletian's Palace (Split)
+    description: "The UNESCO-listed Roman palace core of the city."
+    unescoWorldHeritage: true
+  - name: Historic City of Trogir
+    description: "UNESCO-listed medieval Dalmatian town."
+    unescoWorldHeritage: true
+  - name: Stari Grad Plain (Hvar)
+    description: "UNESCO-listed ancient Greek agricultural landscape."
+    unescoWorldHeritage: true
+  - name: Krka Waterfalls
+    description: "A national park of cascading waterfalls."
+culturalTraits:
+  - "Dalmatian pride and the klapa (a cappella) singing tradition"
+  - "Strong maritime identity"
+  - "Hospitality 'dalmatinski' warmth"
+prideOf:
+  - "The Roman heritage of Split"
+  - "Being the heart of Dalmatia and Croatian coastal tourism"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Grilled fish (orada, brancin), black risotto and fresh seafood"
+  - season: winter
+    items:
+      - "Peka (under-bell cloche roast)"
+      - "Soparnik and pasticada"
+  - season: allYear
+    items:
+      - "Dalmatian prosciutto, pasticada, Pag cheese and olive oil"
+      - "Plavac Mali wine"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Typically 8:00am-4:00pm; seasonal."
+  notes: "Peak season July-August; tourism businesses may close entirely November-March in smaller towns."

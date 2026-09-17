@@ -1,0 +1,175 @@
+alpha3: HRV
+alpha2: HR
+name:
+  eng: Croatia
+  local:
+    - languageCode: hrv
+      value: Hrvatska
+flagEmoji: "🇭🇷"
+capital: Zagreb
+isSovereign: true
+# Classified unitary-large: population ~3.87M is below the threshold (criterion 1
+# fails), but Croatia meets two of the three — officially recognized
+# regional/minority languages (Italian co-official in Istria; Serbian and others
+# officially used where a minority exceeds 1/3 of residents) and a widely
+# recognized cultural-historical regional identity (Dalmatia, Istria, Slavonia).
+# So it gets real ISO 3166-2 county region files (a curated subset) alongside WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: HR
+hasSubdivisions: true
+languageUsage:
+  - languageCode: hrv
+    domain: official
+    speakersShare: 1.0
+    sourceId: hrv-census-2021
+  - languageCode: srp
+    domain: locallySpoken
+    speakersShare: 0.0116
+    sourceId: hrv-census-2021
+  - languageCode: ita
+    domain: locallySpoken
+    speakersShare: 0.0036
+    sourceId: hrv-census-2021
+# Italian is co-official in Istria (captured at the HR-18 region level); Serbian
+# is officially used locally where the minority exceeds 1/3 of residents. Both
+# are locallySpoken at national level (Croatian is the sole national official
+# language). English is very widely spoken but no authoritative proficiency share
+# is published — so it is deliberately omitted rather than guessed (see note).
+ethnicGroups:
+  - group: Croats
+    percent: 91.63
+    sourceId: hrv-census-2021
+  - group: Serbs
+    percent: 3.2
+    sourceId: hrv-census-2021
+  - group: Bosniaks
+    percent: 0.62
+    sourceId: hrv-census-2021
+  - group: Roma
+    percent: 0.46
+    sourceId: hrv-census-2021
+  - group: Italians
+    percent: 0.36
+    sourceId: hrv-census-2021
+  - group: Albanians
+    percent: 0.36
+    sourceId: hrv-census-2021
+timezones:
+  - name: Europe/Zagreb
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (CET/CEST, EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data requires a lawful basis, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure — the EU-wide GDPR, directly applicable in Croatia."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge."
+    sourceId: eu-directive-2019-771
+  - topic: "euro adoption (2023)"
+    description: "Croatia adopted the euro on 1 January 2023 (fixed conversion rate 1 EUR = 7.53450 kuna), becoming the 20th euro-area member; prices, contracts and accounting are now in EUR. It joined the Schengen Area the same day, ending internal border controls."
+    sourceId: hrv-euro-adoption
+paymentMethodShares:
+  - method: "cash (point-of-sale)"
+    percent: 59.0
+    sourceId: hrv-ecb-space-2022
+  - method: "payment cards (point-of-sale)"
+    percent: 34.0
+    sourceId: hrv-ecb-space-2022
+  - method: "other (incl. mobile apps)"
+    percent: 7.0
+    sourceId: hrv-ecb-space-2022
+paymentCulture:
+  popularMethods:
+    - Debit/credit cards (widely used since euro adoption in Jan 2023)
+    - Contactless cards (common in tourist zones and larger cities)
+    - Cash (still preferred for small everyday purchases, cafes, markets, taxis)
+    - Digital/instant SEPA transfers (growing)
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up, or ~5-10%, at restaurants and cafes"
+    autoIncludedInBill: false
+    note: "Not obligatory but customary; rounding up or ~5-10% at restaurants/cafes; small change tips for taxi drivers and hotel staff are appreciated."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Moderately formal at first: use surname + title until invited to first names. 'Dobar dan' (good day) is formal; 'Bok'/'Zdravo' (hi) is common among peers."
+  greetingNorms: "A firm handshake with eye contact on meeting; among friends a kiss on each cheek. 'Dobro jutro' (morning), 'Dobar dan' (day), 'Dobra večer' (evening)."
+  meetingEtiquette: "Generally punctual for business, slightly more relaxed socially; arrive on time but allow flexibility. Small talk about family, weather and holidays is valued before business."
+  topicsToAvoid:
+    - "The 1991-1995 Homeland War and ethnic (Serb-Croat) tensions, especially with older generations"
+    - "Potentially divisive recent political topics"
+    - "Criticising Croatia's football team in mixed company"
+  giftGivingNotes: "Wine, chocolate, flowers or local specialties (olive oil, rakija) are appreciated when invited to a home; bring an odd number of flowers and give modest wrapping."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: HR-18
+    file: distinct-regions/hr-18.yaml
+    adminUnitCodes: [HR-18]
+  - code: HR-17
+    file: distinct-regions/hr-17.yaml
+    adminUnitCodes: [HR-17]
+  - code: HR-14
+    file: distinct-regions/hr-14.yaml
+    adminUnitCodes: [HR-14]
+sources:
+  - id: hrv-census-2021
+    name: "Census of Population, Households and Dwellings 2021 — final results (population, ethnicity, religion, mother tongue)"
+    publisher: "Croatian Bureau of Statistics (DZS)"
+    url: "https://dzs.gov.hr/en/vijesti/objavljeni-konacni-rezultati-popisa-2021/1270"
+    year: 2021
+    accessedDate: "2026-09-14"
+    note: "Primary source: total population 3,871,833; 95.25% declared Croatian mother tongue (official share 1.0); ethnic shares (Croats 91.63%, Serbs 3.2%, Bosniaks 0.62%, Roma 0.46%, Italians 0.36%, Albanians 0.36%); religious shares (see WHOLE file). Serbian locallySpoken 1.16%, Italian 0.36% (mother-tongue)."
+  - id: hrv-euro-adoption
+    name: "Croatia joins the euro area on 1 January 2023"
+    publisher: "European Central Bank (ECB)"
+    url: "https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.pr220712~b97dd38de3.en.html"
+    year: 2022
+    accessedDate: "2026-09-14"
+    note: "Confirms euro adoption (20th euro-area member, fixed rate 1 EUR = 7.53450 kuna) and the euro/Schengen legal-constraint entry."
+  - id: hrv-ecb-space-2022
+    name: "ECB Study on the Payment Attitudes of Consumers in the Euro Area (SPACE) 2022"
+    publisher: "European Central Bank (ECB)"
+    url: "https://www.ecb.europa.eu/stats/ecb_surveys/space/html/ecb.spacereport202212~783ffdf46e.en.html"
+    year: 2022
+    accessedDate: "2026-09-14"
+    note: "FLAGGED BENCHMARK: these are euro-area aggregate figures (cash 59%, cards 34%, other 7%), not a Croatia-specific breakdown — Croatia joined SPACE in the 2022 wave but the euro-area summary does not break out standalone national figures here. Croatia-specific national tables (HNB) should be used for precise figures; included as the best available reference."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-14"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Croatia as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-14"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Croatia as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-14"
+    note: "The GDPR data-protection rules, directly applicable in Croatia as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-14"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."

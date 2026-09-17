@@ -1,0 +1,43 @@
+code: AL-12
+name:
+  eng: Vlora
+  local:
+    - languageCode: sqi
+      value: Vlorë
+climates:
+  - koppenCode: Csa
+    description: "Mediterranean along the southern coast: hot, dry summers and mild, wet winters."
+landmarks:
+  - name: Albanian Riviera
+    description: "The scenic coastal stretch from Vlorë to the south — beaches, coves and turquoise water."
+  - name: Llogara Pass
+    description: "A dramatic mountain pass overlooking the Ionian Sea."
+  - name: Independence Monument
+    description: "Vlorë is the city where Albania declared independence in 1912."
+culturalTraits:
+  - "Traditional Tosk south; deep coastal and maritime identity"
+  - "Birthplace of the 1912 declaration of independence"
+prideOf:
+  - "The Albanian Riviera and Ionian coastline"
+  - "Declaring independence in 1912"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Grilled fish and fresh seafood along the coast"
+  - season: allYear
+    items:
+      - "Coastal olive oil, wines and traditional Tosk home cooking"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Standard office hours; tourism-driven in summer."
+  notes: "Summer tourism (June-September) dominates the Riviera; business slows in August with the peak holiday season."

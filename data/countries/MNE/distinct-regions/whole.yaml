@@ -1,0 +1,130 @@
+code: WHOLE
+name:
+  eng: Montenegro
+  local:
+    - languageCode: cnr
+      value: Crna Gora
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Montenegro is classified
+# unitary-small (single synthetic WHOLE region).
+climates:
+  - koppenCode: Csa
+    description: "Mediterranean along the 300 km Adriatic coast and Bay of Kotor: hot, dry summers and mild, wet winters."
+  - koppenCode: Dfb
+    description: "Continental-to-mountain in the interior and northern highlands (Durmitor, Bjelasica): cold, snowy winters and mild summers."
+landmarks:
+  - name: Bay of Kotor
+    description: "UNESCO-listed natural and cultural site with the fortified towns of Kotor, Perast and Risan."
+    unescoWorldHeritage: true
+  - name: Durmitor National Park and the Tara River Canyon
+    description: "UNESCO-listed national park containing one of the deepest river gorges in Europe."
+    unescoWorldHeritage: true
+  - name: Old towns of Kotor, Budva and Herceg Novi
+    description: "Historic fortified Adriatic towns."
+  - name: Lake Skadar
+    description: "The largest lake in the Balkans, shared with Albania."
+  - name: Ostrog Monastery
+    description: "A famous Orthodox monastery built into a cliff face."
+  - name: Sveti Stefan
+    description: "The iconic former fishing-village island resort."
+culturalTraits:
+  - "Deep pride and honour rooted in the historic warrior/tribal clans (plemena)"
+  - "Strong hospitality (gostoprimstvo) — guests treated generously"
+  - "Close family and clan bonds; the gusle one-stringed fiddle and epic singing"
+  - "Love of coffee culture, rakija and long socialising"
+prideOf:
+  - "Independence (2006) and the UNESCO sites (Bay of Kotor, Durmitor)"
+  - "The epic-poetry tradition and Njegoš (Prince-Bishop and poet)"
+  - "Military history and the rugged mountain homeland"
+  - "Water polo success"
+animals:
+  popular:
+    - Bears, wolves, chamois and wild boar
+    - Golden eagle and lynx
+    - Trout in the rivers and fish along the coast
+  unique:
+    - "The Balkan shepherd dog (Šarplaninac)"
+    - Lynx and brown bear in Durmitor and Biogradska Gora
+industries:
+  - Tourism (the largest sector, ~20-30% of GDP)
+  - Aluminum, steelmaking and metallurgy
+  - Electricity/hydropower and energy
+  - Agriculture (olives, wine, livestock)
+  - Food processing and growing services/finance
+sports:
+  - Water polo (the national passion; Olympic/European medallists)
+  - Football, basketball, handball and volleyball
+  - Skiing and outdoor sports in the mountains
+  - Sailing and coastal water sports
+religions:
+  - name: Eastern Orthodox
+    percent: 71.1
+    sourceId: mne-census-2023
+  - name: Islam
+    percent: 19.99
+    sourceId: mne-census-2023
+  - name: Catholic
+    percent: 3.27
+    sourceId: mne-census-2023
+  - name: Atheist / agnostic
+    percent: 2.29
+    sourceId: mne-census-2023
+# No state religion. Religious identity tracks ethnicity closely (Orthodox =
+# Montenegrins/Serbs; Islam = Bosniaks/Albanians; Catholic = Albanians/Croats).
+entertainment:
+  - season: summer
+    items:
+      - "Coastal beaches and the Bay of Kotor"
+      - "Budva's seaside nightlife and the Sea Dance Festival"
+      - "Sailing, swimming and boat trips; KotorArt festival"
+      - "Boating on Lake Skadar"
+  - season: winter
+    items:
+      - "Ski season at Kolašin and Žabljak (Durmitor)"
+      - "Mild wet coastal winters; indoor cultural events"
+      - "Ostrog Monastery and mountain sightseeing"
+  - season: allYear
+    items:
+      - "UNESCO sites and old towns"
+      - "Folk gusle and klapa singing; coffeehouse (kafana) culture"
+      - "Casinos (Budva) and wine/gastronomy tours"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Grilled fish and seafood from the Bay of Kotor (brodet)"
+      - "Fresh Mediterranean salads and coastal vegetables"
+  - season: winter
+    items:
+      - "Lamb under the bell (janjetina ispod sača)"
+      - "Kačamak (polenta) and boiled corn bread (proja)"
+  - season: allYear
+    items:
+      - "Njeguški pršut (smoked prosciutto) and Njeguški sir (smoked cheese)"
+      - "Kajmak, Montenegrin Vranac wine and rakija"
+      - "Priganice (fried dough)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The Montenegrin national costume — the iconic red cap with black crown (kapa), white/embroidered shirts, dark woolen trousers, opanci (shoes) and sako jacket; women's embroidered vests and white headscarves; worn on ceremonial occasions"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours roughly 8:00-4:00/5:00pm (banks often 8:30am-5:00pm Monday-Friday); shops often open until 8:00-10:00pm and on weekends."
+  notes: "Morning coffee culture persists and business lunches are long. Summer (June-September) is heavy with tourism and much business slows or shifts to the coast in August. Respect Orthodox Christmas (7 January), Ramadan/Eid and Catholic Easter."
+sources:
+  - id: mne-census-2023
+    name: "Census of Population 2023 (MONSTAT) — religious affiliation"
+    publisher: "Statistical Office of Montenegro (MONSTAT)"
+    url: "https://www.monstat.org/eng/novosti.php?id=4012"
+    year: 2023
+    accessedDate: "2026-09-14"
+    note: "Religious affiliation (2023 census): Eastern Orthodox 71.1%, Islam 19.99%, Catholic 3.27%, atheist/agnostic 2.29%; remainder other/undeclared. Most Orthodox adhere to the Serbian Orthodox Church; Islam is mainly among Bosniaks and Albanians."

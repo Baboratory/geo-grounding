@@ -1,0 +1,43 @@
+code: AL-10
+name:
+  eng: Shkodër
+  local:
+    - languageCode: sqi
+      value: Shkodër
+climates:
+  - koppenCode: Cfb
+    description: "Mediterranean/continental transition on the northern plain: mild wet winters, warm summers, cooler than the coast."
+landmarks:
+  - name: Shkodër Castle (Rozafa Fortress)
+    description: "A hilltop fortress overlooking the city and Lake Shkodër."
+  - name: Lake Shkodër
+    description: "The largest lake in the Balkans, shared with Montenegro."
+  - name: Theth and Valbona (Accursed Mountains)
+    description: "Gateway to the dramatic Albanian Alps and their hiking trails."
+culturalTraits:
+  - "Heart of the Gheg north; strong highland and Kanun customary heritage"
+  - "Significant Catholic community and a historic Catholic cultural centre"
+prideOf:
+  - "The Montenegrin borderland and Lake Shkodër scenery"
+  - "The Accursed Mountains (Albanian Alps) and hiking"
+traditionalDishes:
+  - season: winter
+    items:
+      - "Fli (layered pancake dish) and hearty northern dishes"
+  - season: allYear
+    items:
+      - "Northern Gheg stews, roasted meats and local dairy"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Standard office hours; an agrarian and trading rhythm in the north."
+  notes: "A regional city with strong trade ties to Montenegro; tourism to the Accursed Mountains peaks in summer."

@@ -1,0 +1,128 @@
+code: WHOLE
+name:
+  eng: Moldova
+  local:
+    - languageCode: ron
+      value: Republica Moldova
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Moldova is classified
+# unitary-small (single synthetic WHOLE region). Data scope excludes the
+# breakaway Transnistria region (outside Chisinau control).
+climates:
+  - koppenCode: Dfb
+    description: "Mid-latitude temperate continental: hot, fairly dry summers and cold-to-mild winters, with a hint of maritime influence from the Black Sea to the south."
+landmarks:
+  - name: Struve Geodetic Arc (Rudi station point)
+    description: "Moldova's only inscribed UNESCO World Heritage site — a transnational 19th-century geodetic survey arc."
+    unescoWorldHeritage: true
+  - name: Orheiul Vechi (Old Orhei) Archaeological Landscape
+    description: "A cave monastery and layered settlements on the Raut river."
+  - name: Cricova and Mileștii Mici underground wineries
+    description: "Among the world's largest underground wine-cellars; Mileștii Mici holds the Guinness record for the largest wine collection."
+  - name: Chisinau
+    description: "The capital — parks, the Metropolitan Cathedral, wine venues and a growing IT hub."
+  - name: Soroca Fortress
+    description: "A late 15th-century stone fortress on the Dniester."
+culturalTraits:
+  - "Latin Eastern-European identity with strong rural traditions and deep hospitality"
+  - "Wine and food at the centre of social life"
+  - "Close family ties; pride in the Romanian language and Latin roots"
+  - "Strong Orthodox faith; influences from both the Soviet period and Romania"
+  - "Lively folk tradition (doina singing), crafts, embroidery and the ie blouse"
+prideOf:
+  - "Wine heritage and award-winning wineries (the 'Wine of Moldova' brand)"
+  - "The Romanian language and culture; the UNESCO Struve Arc and Old Orhei"
+  - "The Mileștii Mici Guinness wine collection"
+  - "Scenic countryside and exceptional hospitality"
+animals:
+  popular:
+    - Wild boar, roe deer, foxes and hares
+    - The white stork (a beloved motif)
+    - Domestic sheep, goats and cattle
+  unique:
+    - "Codrii forest reserves sheltering deer and boar"
+    - The aurochs (zimbru), featured on the national coat of arms
+industries:
+  - "Wine and viticulture (one of the highest vineyard densities per capita in the world; ~60% of wine exports go to the EU)"
+  - Agriculture and horticulture (apples, plums, walnuts, sunflower)
+  - Food processing
+  - Textiles and apparel
+  - IT/software services and offshoring (fast-growing)
+  - Electronics assembly and construction materials
+sports:
+  - Football (the most popular sport)
+  - Wrestling/traditional trîntă, boxing and weightlifting
+  - Table tennis and athletics
+  - Cycling and chess
+religions:
+  - name: Eastern Orthodox
+    percent: 95.0
+    sourceId: mda-census-2014-religion
+  - name: Baptists (Evangelical Christian)
+    percent: 1.0
+    sourceId: mda-census-2014-religion
+  - name: Roman Catholic
+    percent: 0.1
+    sourceId: mda-census-2014-religion
+# The Orthodox majority is split between the Moldovan Orthodox Church (Moscow
+# Patriarchate) and the Metropolis of Bessarabia (Romanian Patriarchate). The
+# remaining ~3.8% covers Pentecostals, Adventists, Jehovah's Witnesses, atheists
+# and others, omitted for brevity.
+entertainment:
+  - season: summer
+    items:
+      - "Winery tours and wine festivals (National Wine Day, first weekend of October in Chisinau)"
+      - "Open-air markets, music and festivities"
+      - "Martișor spring festival (1 March) and summer village fairs"
+  - season: winter
+    items:
+      - "Indoor cultural events, theatre and opera in Romanian"
+      - "Orthodox Christmas (7 January) and civil New Year celebrations"
+      - "Church observances and cosy gatherings"
+  - season: allYear
+    items:
+      - "Folk music, doina singing and hora circle dances"
+      - "Wine and gastronomy tours; the Chisinau techno/electronic scene"
+      - "Museums, galleries and cultural festivals"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Grilled mici (minced-meat rolls) and fresh seasonal vegetables"
+      - "Brânză (fresh white cheese) with tomatoes and corn"
+  - season: winter
+    items:
+      - "Mămăligă (polenta, a national staple)"
+      - "Sarmale (cabbage/grape-leaf rolls with meat and rice)"
+      - "Zeamă (chicken soup with noodles and sour cream)"
+  - season: allYear
+    items:
+      - "Plăcinte (filled pastries: cheese, cabbage, potatoes, apple)"
+      - "Cozonac (sweet holiday bread)"
+      - "Moldovan wine and divin (local brandy)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The ie — the embroidered blouse (UNESCO-recognized, shared with Romania); full folk dress with embroidered shirts, vests, belts and headscarves worn at festivals and holidays"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Office hours roughly 9:00am-6:00pm Monday-Friday with a lunch break; punctuality respected in business."
+  notes: "Relationship-driven deal-making that can move slowly, with trust built over meals and wine. Business formal but personal — expect handshakes, business cards and hospitality. Banking and government increasingly digitalized."
+sources:
+  - id: mda-census-2014-religion
+    name: "2014 Population and Housing Census — religion (National Bureau of Statistics of Moldova)"
+    publisher: "National Bureau of Statistics of Moldova (NBS)"
+    url: "https://statistica.gov.md/en/the-population-of-the-republic-of-moldova-at-the-time-of-the-census-was-2-998-23-12_896.html"
+    year: 2014
+    accessedDate: "2026-09-14"
+    note: "Religious affiliation: ~95% Eastern Orthodox (96.8% of those declaring), Baptists ~1%, Roman Catholic ~0.1%; the remainder is Pentecostals, Adventists, Jehovah's Witnesses, atheists and others. The 2024 census similarly records ~95% Orthodox."

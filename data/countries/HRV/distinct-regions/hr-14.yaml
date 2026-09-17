@@ -1,0 +1,52 @@
+code: HR-14
+name:
+  eng: Osijek-Baranja
+  local:
+    - languageCode: hrv
+      value: Osječko-baranjska županija
+    # Baranja has a recognised Hungarian minority; the county name's Hungarian
+    # form is given alongside Croatian per the region-local rule.
+    - languageCode: hun
+      value: Eszék-Baranya megye
+climates:
+  - koppenCode: Dfb
+    description: "Continental climate with cold winters and warmer summers — the Pannonian plain."
+landmarks:
+  - name: Kopački Rit nature park
+    description: "A large Danube floodplain wetland."
+  - name: Osijek's Tvrđa fortress
+    description: "A well-preserved Baroque military fortress."
+  - name: Baranja countryside
+    description: "Rolling agricultural plains known for wine and hunting."
+culturalTraits:
+  - "Slavonian warmth and hospitality"
+  - "Tamburica (mandolin band) music and kolo dancing"
+  - "Strong local dialect and identity"
+prideOf:
+  - "Slavonian identity and kulen (smoked sausage)"
+  - "The plain/steppe landscape and the Danube"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Fish stews (riblja čorba) and grilled meat"
+  - season: winter
+    items:
+      - "Kulen, čobanac stew and čvarci (cracklings)"
+      - "Gibanica pastry"
+  - season: allYear
+    items:
+      - "Kulen sausage, ajvar, Slavonian wine and rakija"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Typically 7:00am-3:00pm; an agrarian rhythm in the countryside."
+  notes: "Osijek is the main urban centre; agriculture and food processing dominate. Less tourism-dependent than the coast."
