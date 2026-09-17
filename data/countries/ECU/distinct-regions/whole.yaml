@@ -1,0 +1,180 @@
+code: WHOLE
+name:
+  eng: Ecuador
+  local:
+    - languageCode: spa
+      value: Ecuador
+    - languageCode: que
+      value: Ecuador
+    - languageCode: jiv
+      value: Ecuador Nunka
+# Generic country-wide fallback content for Ecuador (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path in
+# usage_examples/python/get_data_by_ip.py. Note: mainland uses UTC-5 and the
+# Galapagos use UTC-6 (both in the parent country.yaml timezones[]).
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — the Amazon lowlands (Oriente): hot and humid, rain fairly evenly spread across the year."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) / Am tropical monsoon — coastal lowlands including Guayaquil: warm year-round (~25-29°C) with a wet season (roughly Dec-Apr) and a drier 'verano' (May-Nov)."
+  - koppenCode: Cfb
+    description: "Temperate highland (subtropical highland) — the Andean interandean valleys including Quito: mild spring-like temperatures year-round, rains mostly Oct-May with a drier Jun-Sep window."
+  - koppenCode: Csb
+    description: "Mild temperate highland on the higher Andean altiplano valleys and the Galapagos highlands."
+landmarks:
+  - name: Galapagos Islands (Archipiélago de Colón)
+    description: "Pacific archipelago ~1,000 km offshore whose endemic wildlife inspired Darwin's theory of evolution — giant tortoises, marine iguanas, blue-footed boobies."
+    unescoWorldHeritage: true
+  - name: Historic Centre of Quito
+    description: "One of the largest and best-preserved colonial historic centres in the Americas, at ~2,850 m on the slopes of the Pichincha volcano."
+    unescoWorldHeritage: true
+  - name: Historic Centre of Cuenca
+    description: "A 16th-century Spanish-planned colonial city in the southern Andes."
+    unescoWorldHeritage: true
+  - name: Sangay National Park
+    description: "Andean highland and Amazon rainforest park centred on the active Sangay volcano; habitat of the spectacled bear and mountain tapir."
+    unescoWorldHeritage: true
+  - name: Cotopaxi volcano
+    description: "One of the world's highest active volcanoes (5,897 m), the snow-capped emblem of the 'Avenue of the Volcanoes'."
+  - name: Chimborazo volcano
+    description: "At 6,263 m the highest point in Ecuador; because of the equatorial bulge its summit is the point farthest from the centre of the Earth."
+  - name: Mitad del Mundo (Middle of the World)
+    description: "The monument and equator line at 0 degrees latitude ~25 km north of Quito, marking the Equator the country is named after."
+  - name: Yasuní National Park
+    description: "An Ecuadorian-Amazon area of almost unmatched biodiversity in the far east."
+culturalTraits:
+  - "Sierra (highlands) vs Costa (coast) divide — two markedly different Ecuadorian cultures, food and music"
+  - "Pasillo — the melancholic traditional national music genre (alongside pasacalle and albazo)"
+  - "Carnaval (February) — the playful water-and-foam street festival, especially in Ambato and Guaranda"
+  - "Inti Raymi — the Andean summer-solstice festival (late June), with ritual music and dance"
+  - "Día de los Difuntos (2 November) — families share colada morada and guaguas de pan to remember the dead"
+  - "Otavalo — the largest indigenous artisan/textile market in South America"
+  - "Football (fútbol) passion around the national team and Liga Pro clubs"
+  - "Andean indigenous dress, Ecuadorian 'Panama' straw hats, and a modern mestizo cosmopolitan identity in Quito and Guayaquil"
+prideOf:
+  - "The Galapagos and Darwin's legacy"
+  - "Being among the world's megadiverse countries"
+  - "Chimborazo — the point farthest from the centre of the Earth"
+  - "UNESCO-listed historic centres of Quito and Cuenca"
+  - "Sumak kawsay ('buen vivir') — the Andean good-living concept enshrined in the 2008 Constitution"
+  - "The snow-capped volcanoes and the 'avenue of the volcanoes' landscape"
+animals:
+  popular:
+    - "Galapagos giant tortoises"
+    - "Galapagos marine iguanas and blue-footed boobies"
+    - "Andean condor"
+    - "Howler and spider monkeys, and pink (Amazon) river dolphins"
+  unique:
+    - "Galapagos mockingbirds and Darwin's finches"
+    - "Galapagos (Humboldt) penguin"
+    - "Spectacled bear ('oso de anteojos') — the only South American bear, in Andean cloud forest"
+    - "Amazon river dolphin ('delfín rosado') in the Oriente"
+industries:
+  - "Crude oil — the top export, extracted in the Amazon and moved by pipeline to the coast"
+  - "Agriculture & agroindustry — bananas (world's largest exporter), shrimp, cacao/cocoa, cut flowers, coffee, palm oil"
+  - "Shrimp fishing and aquaculture"
+  - "Mining and fisheries"
+  - "Manufacturing (food processing, textiles, plastics) centred on Quito and Guayaquil"
+  - "Tourism (Galapagos, Andes, Amazon) and large remittance inflows"
+sports:
+  - "Football (fútbol) — the national passion"
+  - "Track & field / racewalking (e.g. Jefferson Pérez) and weightlifting (e.g. Neisi Dajomes) — a strong Olympic tradition"
+  - "Mountain climbing of Andean volcanoes (Cotopaxi, Chimborazo, Cayambe)"
+  - "Volleyball, basketball and endurance/road running"
+religions:
+  - name: Roman Catholic
+    percent: 80.4
+    sourceId: inec-religion-2012
+  - name: Evangelical / Protestant Christian
+    percent: 11.3
+    sourceId: inec-religion-2012
+  - name: No religion / other beliefs
+    percent: 7.0
+    sourceId: inec-religion-2012
+  - name: Jehovah's Witnesses
+    percent: 1.3
+    sourceId: inec-religion-2012
+entertainment:
+  - season: allYear
+    items:
+      - "Fútbol — Liga Pro matches and the Selección (national team)"
+      - "Music and dance — pasillo, salsa, reggaeton, and 'peñas' with Andean folk music"
+      - "Indigenous artisan markets like Otavalo and craft shopping"
+      - "Volcano trekking, Amazon excursions, and Galapagos cruises"
+  - season: dry
+    items:
+      - "The cool drier 'verano' — the favoured window for climbing Andean volcanoes and high-altitude trekking (~Jun-Sep)"
+      - "Galapagos wildlife high season (cool, dry, clear water — excellent diving/snorkeling)"
+      - "Coastal dry-season beach weather on the Costa"
+      - "Inti Raymi summer-solstice music and dance in the Andes (late Jun)"
+  - season: wet
+    items:
+      - "Carnaval (Feb) — the water-and-foam street festival, especially in Ambato and Guaranda"
+      - "Semana Santa (Mar-Apr) — Holy Week processions in Quito and Cuenca"
+      - "End-of-year and New Year celebrations (Dec)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Encebollado — fish (albacora) and yuca stew with pickled onion, a Guayaquil breakfast staple"
+      - "Ceviche de camarón — coastal shrimp ceviche"
+      - "Locro de papa — Andean potato-and-cheese soup with avocado"
+      - "Llapingachos — fried potato-cheese patties with peanut sauce"
+      - "Bolón de verde — fried green-plantain ball with cheese or pork (Costa)"
+      - "Hornado — slow-roasted Andean pork with mote (hominy)"
+      - "Cuy asado — roasted guinea pig, an Andean (Sierra) ceremonial dish"
+      - "Churrasco ecuatoriano — grilled beef with rice, fries, fried egg and avocado"
+      - "Maito — Amazonian fish wrapped and grilled in a bijao leaf"
+      - "Empanadas de viento / de morocho, and canelazo (a hot cinnamon-and-sugar drink)"
+  - season: wet
+    items:
+      - "Fanesca — the rich Andean grain-and-saltfish stew of Lent, traditionally served at Holy Week (Mar-Apr)"
+      - "Coastal 'aguado' seafood stews as the coastal wet season opens"
+      - "Hornado and chicha at New Year gatherings (Dec)"
+  - season: dry
+    items:
+      - "Colada morada (thick spiced fruit drink) with 'guaguas de pan' (bread 'babies'), shared on Día de los Difuntos (2 Nov)"
+      - "Galapagos and coastal fresh local seafood in the dry-season 'verano'"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The Ecuadorian 'Panama' hat — a finely woven toquilla (paja toquilla) straw hat, a UNESCO-recognized craft of Manabí/Azuay"
+      - "Andean indigenous dress: the man's poncho and the woman's 'anaco' skirt and embroidered blouse, famously worn in Otavalo"
+      - "Mestizo urban dress; the poncho is also festive/symbolic wear across the Sierra"
+  - season: dry
+    items:
+      - "Festival Andean dress worn during Inti Raymi (late Jun) celebrations in the highlands"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10, 11]
+  - season: wet
+    months: [12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices roughly 8:00/9:00 to 17:00/18:00 Monday-Friday; government agencies run a 'continuous' working day; retail is often also open Saturday and (in malls/tourist areas) Sunday."
+  lunchBreakTiming: "A midday break (~13:00-15:00) is traditional in smaller shops and services; many urban businesses, banks and government offices now run a continuous working day."
+  notableShutdownPeriods:
+    - period: "Carnaval (2 days before Ash Wednesday, ~Feb/Mar)"
+      description: "National holiday plus long weekend; many offices and businesses close or shorten hours."
+      sourceId: estimate-flag
+    - period: "Semana Santa (Holy week before Easter, Mar/Apr)"
+      description: "Widespread closures on Maundy Thursday and Good Friday."
+      sourceId: estimate-flag
+    - period: "New Year (Dec 31 - Jan 1)"
+      description: "Universal holiday closure; the 'años viejos' effigy-burning tradition on Dec 31."
+      sourceId: estimate-flag
+  notes: "Mainland uses UTC-5; the Galapagos use UTC-6. Public holidays are declared by the State and mostly observed nationwide."
+sources:
+  - id: inec-religion-2012
+    name: "INEC presenta por primera vez estadísticas sobre religión"
+    publisher: "Instituto Nacional de Estadística y Censos (INEC)"
+    url: "https://www.ecuadorencifras.gob.ec/inec-presenta-por-primera-vez-estadisticas-sobre-religion"
+    year: 2012
+    accessedDate: "2026-09-17"
+    note: "Religions percentages. 2012 religion module of the integrated household survey (13,211 adults 16+, five cities); most recent official religion data, flagged as such (urban 5-city sample, 2012, never repeated)."
+  - id: estimate-flag
+    name: "Estimated / secondary figure — marked as non-primary"
+    publisher: "Composite estimate"
+    url: "https://www.ecuadorencifras.gob.ec/"
+    accessedDate: "2026-09-17"
+    note: "businessRhythm notableShutdownPeriods, which are customary/estimated descriptions rather than primary-sourced statistics."

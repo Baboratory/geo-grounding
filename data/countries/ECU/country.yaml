@@ -1,0 +1,186 @@
+alpha3: ECU
+alpha2: EC
+name:
+  eng: Ecuador
+  local:
+    - languageCode: spa
+      value: Ecuador
+    - languageCode: que
+      value: Ecuador
+    - languageCode: jiv
+      value: Ecuador Nunka
+flagEmoji: "🇪🇨"
+capital: Quito
+isSovereign: true
+# Classified unitary-small: population 16,938,986 (INEC 2022 census) is below the
+# unitary-large threshold; Kichwa and Shuar are co-official languages for
+# intercultural relations NATIONWIDE (2008 Constitucion Art. 2), not language-defined
+# regional structures; and the Costa/Sierra/Oriente identities are geographic
+# rather than a widely-recognized cultural-historical regional identity. One
+# synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    variant: es-EC
+    sourceId: ecu-constitution-2008
+  - languageCode: que
+    domain: official
+    speakersShare: 1.0
+    sourceId: ecu-constitution-2008
+  - languageCode: jiv
+    domain: official
+    speakersShare: 1.0
+    sourceId: ecu-constitution-2008
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.97
+    variant: es-EC
+    sourceId: estimate-flag
+  - languageCode: que
+    domain: locallySpoken
+    speakersShare: 0.031
+    sourceId: estimate-flag
+  - languageCode: jiv
+    domain: locallySpoken
+    speakersShare: 0.0035
+    sourceId: estimate-flag
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.1
+    sourceId: estimate-flag
+# NOTE on language codes: Ecuadorian Kichwa is covered by the ISO 639-3
+# macrolanguage 'que' (Quechua); 'shu' is NOT Shuar (it is Chadian Arabic) — the
+# correct Shuar code is 'jiv'. The official rows (spa/que/jiv) are legal-status
+# flags at 1.0 per Constitucion Art. 2. LocallySpoken shares are ESTIMATES: spa
+# 0.97 (near-universal, per 2010 census via secondary references); que 0.031
+# (527,333 Kichwa speakers / 16,938,986, 2022 census via secondary tabulation);
+# jiv 0.0035 (59,894 / 16,938,986); eng 0.1 (estimated low proficiency).
+ethnicGroups:
+  # 2022-census ethnic SELF-IDENTIFICATION as tabulated by the Secretaria de
+  # Pueblos y Nacionalidades (SGDPN); sums to 100.0.
+  - group: Mestizo
+    percent: 77.5
+    sourceId: inec-census-2022-sgdpn
+  - group: Indigena (Indigenous)
+    percent: 7.7
+    sourceId: inec-census-2022-sgdpn
+  - group: Montubio
+    percent: 7.7
+    sourceId: inec-census-2022-sgdpn
+  - group: Afroecuatoriano (Afro-Ecuadorian)
+    percent: 4.8
+    sourceId: inec-census-2022-sgdpn
+  - group: Blanco (White)
+    percent: 2.2
+    sourceId: inec-census-2022-sgdpn
+  - group: Otro (Other)
+    percent: 0.1
+    sourceId: inec-census-2022-sgdpn
+timezones:
+  - name: America/Guayaquil
+    standardUtcOffset: "UTC-5"
+    observesDst: false
+  - name: Pacific/Galapagos
+    standardUtcOffset: "UTC-6"
+    observesDst: false
+currency:
+  code: USD
+  symbol: "$"
+  name: "United States dollar (US dollar; sole legal tender since 2000, replacing the sucre)"
+legalConstraints:
+  - topic: "official languages"
+    description: "Spanish (castellano) is the official language of Ecuador; Spanish, Kichwa and Shuar are official languages for intercultural relations; other ancestral languages are official for the indigenous peoples in the zones where they live (2008 Constitucion Art. 2). Public-facing/government text is Spanish; Kichwa and Shuar have nationwide co-official intercultural status."
+    sourceId: ecu-constitution-2008
+  - topic: "currency / legal tender (dollarization)"
+    description: "The US dollar (USD) is the only legal tender with full power to liberate in Ecuador. Adopted January 2000 via the Ley de Transformacion Economica at S/25,000 per US$1; codified as the Republic's currency by Art. 94 of the Codigo Organico Monetario y Financiero (2014) and by 2008 Constitucion Art. 303. The Banco Central cannot print USD bills (it only supplies fractional centavo coins); all transactions and accounts are denominated in USD."
+    sourceId: bce-history
+paymentCulture:
+  popularMethods:
+    - "Cash in US dollars — still the default for everyday retail and bill payments, especially in rural areas"
+    - "SPI (Sistema de Pagos Interbancarios) — the BCE-run interbank credit-transfer system; the fastest-growing rail"
+    - "Debit and credit cards (Visa, Mastercard; also Amex/Diners) — significant and growing"
+    - "Prepaid cards — growing fast, still a small share"
+    - "Digital/mobile wallets and real-time credit transfers — adoption accelerating since the pandemic"
+  tipping:
+    expected: false
+    typicalAmount: "A 10% service charge (propina) is commonly added automatically to restaurant bills; an optional extra tip is small"
+    autoIncludedInBill: true
+    note: "No authoritative single consumer payment-method share exists: the BCE's published '97% electronic' figure counts only authorized electronic rails (dominated by interbank transfers) and excludes cash, which household surveys show remains the default for consumer payments (cash used for ~95% of utility, ~66% of housing/rent, ~83% of education/health payments). Bank-account ownership is only ~50-55% of adults. USD notes circulate; local centavo coins carry Ecuadorian designs."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Polite, respectful and relationship-first. Spanish-language business uses professional honorifics (Ingeniero/Ingeniera, Doctor/Doctora, Licenciado/Licenciada, Economista) at first contact, loosening to first names once a warm rapport forms. Personal trust is the currency of closing deals."
+  greetingNorms: "Firm handshake with eye contact in business; a light 'beso' (kiss on the cheek) among friends/acquaintances. 'Buenos dias / buenas tardes' with the person's title is standard."
+  meetingEtiquette: "Meetings are relational — expect friendly small talk before the agenda. Punctuality is relaxed ('hora ecuatoriana'), except in large banks/corporations; do not take a late start as disrespect. Decisions often run through trusted senior contacts and take time; patience pays."
+  topicsToAvoid:
+    - "Dwelling negatively on the country's institutions or current politics"
+    - "Openly displaying personal wealth"
+    - "Reopening the 1998-2000 banking/financial crisis or currency devaluation — politically sensitive"
+  giftGivingNotes: "Not expected at a first business meeting. Once a relationship forms, a small tasteful gift (quality Ecuadorian coffee or cacao, a branded item) is welcome. When invited to a home, flowers or a small dessert is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: ecu-constitution-2008
+    name: "Constitucion de la Republica del Ecuador 2008 (Registro Oficial 449, 20-oct-2008), text hosted by OAS"
+    publisher: "Asamblea Nacional / Republica del Ecuador (hosted by OAS)"
+    url: "https://www.oas.org/juridico/pdfs/mesicic4_ecu_const.PDF"
+    year: 2008
+    accessedDate: "2026-09-17"
+    note: "Art. 2: castellano is the official language; kichwa and shuar are co-official languages of intercultural relation; other ancestral languages official within their peoples' territories. Art. 303: monetary/credit/financial policy and currency. Source for the three official-language rows and the official-language legal constraint."
+  - id: bce-history
+    name: "Historia del Banco Central del Ecuador"
+    publisher: "Banco Central del Ecuador (BCE)"
+    url: "https://www.bce.fin.ec/banco-central-del-ecuador/historia"
+    year: 2000
+    accessedDate: "2026-09-17"
+    note: "The US dollar replaced the sucre in all legal-tender functions; the BCE can no longer issue currency except fractional coinage, converting sucres at a fixed rate. Basis for the currency object and the legal-tender constraint."
+  - id: imf-ecuador-2000
+    name: "Ecuador: Selected Issues and Statistical Annex (IMF Country Report No. 00/125)"
+    publisher: "International Monetary Fund"
+    url: "https://www.elibrary.imf.org/view/journals/002/2000/125/article-A004-en.xml"
+    year: 2000
+    accessedDate: "2026-09-17"
+    note: "Confirms the dollarization framework came from the Economic Transformation Law (Trole I) approved 13-Mar-2000 at S/25,000 per US$1. Corroborates bce-history."
+  - id: inec-census-2022-institutional
+    name: "Ecuador creció en 2.5 millones de personas entre 2010 y 2022 (Censo 2022)"
+    publisher: "Instituto Nacional de Estadística y Censos (INEC)"
+    url: "https://www.ecuadorencifras.gob.ec/institucional/ecuador-crecio-en-2-5-millones-de-personas-entre-2010-y-2022/"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "Official census result: total population 16,938,986. Primary source for the population figure used in governance classification and locallySpoken denominators."
+  - id: inec-census-2022-sgdpn
+    name: "Censo 2022 — Análisis preliminar en Pueblos y Nacionalidades (based on INEC 2022 census)"
+    publisher: "Secretaría de Pueblos y Nacionalidades del Ecuador (SGDPN) / INEC"
+    url: "https://www.secretariapueblosynacionalidades.gob.ec/wp-content/uploads/2023/12/Presentacion-CENSO-2022-Pueblos-y-Nacionalidades.pdf"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "Ethnic SELF-IDENTIFICATION from the 2022 INEC census: Mestizo 77.5%, Montubio 7.7%, Indigena 7.7%, Afroecuatoriano 4.8%, Blanco 2.2%, Otro 0.1% (sums to 100.0). Source for ethnicGroups percentages."
+  - id: inec-religion-2012
+    name: "INEC presenta por primera vez estadísticas sobre religión"
+    publisher: "Instituto Nacional de Estadística y Censos (INEC)"
+    url: "https://www.ecuadorencifras.gob.ec/inec-presenta-por-primera-vez-estadisticas-sobre-religion"
+    year: 2012
+    accessedDate: "2026-09-17"
+    note: "Most recent official religion statistics: within the 91.95% who declare a religion, Catholic 80.4%, Evangelical 11.3%, Jehovah's Witnesses 1.29%, other religions 6.96%. From a 2012 religion module of the integrated household survey (13,211 adults 16+, five cities) — flagged: urban 5-city sample, 2012, never repeated."
+  - id: iana-timezones
+    name: "IANA Time Zone Database"
+    publisher: "Internet Assigned Numbers Authority (IANA)"
+    url: "https://www.iana.org/time-zones"
+    accessedDate: "2026-09-17"
+    note: "America/Guayaquil = UTC-5, no DST ever observed (mainland, stable since 1993); Pacific/Galapagos = UTC-6, no DST."
+  - id: bce-payments
+    name: "Boletín informativo de medios de pago: preferencia de los hogares ecuatorianos"
+    publisher: "Banco Central del Ecuador (BCE)"
+    url: "https://contenido.bce.fin.ec/documentos/Administracion/boletinInfSNPV01.pdf"
+    accessedDate: "2026-09-17"
+    note: "BCE household survey of 7,526 banked households: cash is the preferred medium for most consumer payments (utilities ~95%, housing/rent ~66%, education/health ~83%, credit ~65%); ~89% of rural households have no nearby merchant accepting electronic payments. Context for the cash-dominant paymentCulture and why paymentMethodShares is omitted."
+  - id: estimate-flag
+    name: "Estimated / secondary figure — marked as non-primary"
+    publisher: "Composite estimate"
+    url: "https://www.ecuadorencifras.gob.ec/"
+    accessedDate: "2026-09-17"
+    note: "Placeholder sourceId for values that are estimates or could not be verified against a directly-fetchable primary source: locallySpoken shares for spa (0.97), que (0.031), jiv (0.0035), eng foreign (0.1). Flagged as estimates in their notes."

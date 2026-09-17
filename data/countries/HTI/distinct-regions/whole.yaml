@@ -1,0 +1,126 @@
+code: WHOLE
+name:
+  eng: Haiti
+  local:
+    - languageCode: fra
+      value: Haïti
+    - languageCode: hat
+      value: Ayiti
+# Generic country-wide fallback content for Haiti (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path in
+# usage_examples/python/get_data_by_ip.py.
+#
+# SCOPE NOTE: this content is a geographic/cultural baseline only. Widespread
+# insecurity has severely disrupted tourism, infrastructure and normal
+# operations; do not read stability normalcy into the landmarks/industry/
+# businessRhythm below. Much baseline content is aspirational or historical.
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna, dominant across lowland/leeward Haiti: warm year-round (~23-31°C) with a pronounced dry season (~Dec-Apr) and a wet season (Apr-Oct) with two rain peaks (May and Aug-Oct); in the Atlantic hurricane belt (peak Aug-Oct)."
+  - koppenCode: Cwb
+    description: "Tropical highland above ~1,000 m in the interior massifs (cooler, spring-like); oceanic/mountain-maritime variations on windward slopes."
+landmarks:
+  - name: National History Park — Citadelle Laferrière, Sans-Souci Palace, Ramiers
+    description: "18th-19th c. fortress and royal palace built by the newly independent Haitian state; the first monuments built by freed Black slaves, symbols of Haiti's independence. Haiti's only UNESCO World Heritage property (1982)."
+    unescoWorldHeritage: true
+  - name: Port-au-Prince (capital)
+    description: "Seat of government and largest city and cultural hub on the Gulf of Gonâve."
+  - name: Île de la Gonâve
+    description: "Offshore island in the Gulf of Gonâve."
+  - name: Jacmel
+    description: "Historic port town known for its 19th-century iron architecture and carnival."
+culturalTraits:
+  - "Vodou — a creolized West African-derived spiritual tradition with Roman Catholic overlay, practiced syncretically by many Haitians"
+  - "Kompa (compas) dance music; rara (street festival music) and twoubadou (troubadour)"
+  - "Haitian Creole oral literary tradition (proverbs, kreyòl storytelling) and Carnival (Kanaval)"
+  - "First independent Black republic (1804 revolution led from a slave revolt) — central to national identity"
+  - "Resilience and community solidarity ('lakou' extended-household sharing norm)"
+prideOf:
+  - "Being the world's first Black republic and first country to abolish slavery through revolution (1804)"
+  - "Haitian Creole as a living national language and Vodou heritage"
+  - "Kompa music and carnival culture"
+  - "The diaspora's economic lifeline (remittances) and cultural visibility"
+animals:
+  popular:
+    - "Caribbean flamingo"
+    - "Green sea turtle"
+    - "Hummingbirds"
+    - "Reef fish"
+  unique:
+    - "Hispaniolan solenodon (endemic insectivore)"
+    - "Hispaniolan hutia (endemic rodent)"
+industries:
+  - "Agriculture (coffee, cacao, mangoes, sugarcane) — employs the largest share of the labour force"
+  - "Apparel/textile assembly (historically the largest formal private employer)"
+  - "Remittances (~19% of GDP)"
+  - "Small-scale commerce; mining; tourism (severely depressed by insecurity)"
+sports:
+  - "Football (soccer)"
+  - "Basketball"
+  - "Athletics"
+  - "Combat sports (boxing, wrestling)"
+religions:
+  - name: Protestant / other Christian (incl. Baptist, Adventist, Pentecostal, Methodist)
+    percent: 52.0
+    sourceId: us-state-irf-2022
+  - name: Roman Catholic
+    percent: 35.0
+    sourceId: us-state-irf-2022
+  - name: No stated religious preference
+    percent: 11.0
+    sourceId: us-state-irf-2022
+  - name: Vodou (self-identified Vodouists only)
+    percent: 2.0
+    sourceId: us-state-irf-2022
+entertainment:
+  - season: allYear
+    items:
+      - "Kompa and konpa-direk dance music; twoubadou troubadour performances"
+      - "Beach and coastal life where security permits"
+  - season: dry
+    items:
+      - "Carnival (Kanaval) parades, especially in Jacmel and Port-au-Prince, in February"
+  - season: wet
+    items:
+      - "Rara band street-music processions (Lent to Easter, in the wet season)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Griot (fried pork) — national staple served with pikliz (pickled vegetables)"
+      - "Diri kole / diri ak pwa (rice with beans, especially red beans)"
+      - "Banan peze (fried green plantains)"
+      - "Akasan (cornmeal/maize drink)"
+  - season: dry
+    items:
+      - "Soup joumou (pumpkin soup), a New Year's / independence-day tradition (January 1)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Carnival costumes and masks (especially Jacmel's papier-mâché)"
+      - "Colorful cotton dresses and headwraps worn at festivals and church"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Generally Mon-Fri with a long midday break; many shops/markets open Saturday, most close Sunday. Hours run roughly 08:00-17:00 with a 12:00-14:00 lunch closure, though insecurity, fuel shortages and power cuts often disrupt operations."
+  lunchBreakTiming: "A widely observed long midday closure, roughly 12:00-14:00."
+  notes: "Operating reality: persistent gang violence/road blockades, fuel and electricity shortages, and bank cash-supply issues can shut businesses abruptly; plan for a fragile operating environment and cash availability limits. Sunday is the main rest day within the mostly Christian workforce."
+sources:
+  - id: us-state-irf-2022
+    name: "2022 Report on International Religious Freedom: Haiti"
+    publisher: "U.S. Department of State, Office of International Religious Freedom"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/haiti"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "Religion shares taken from the government's 2017 Survey on Mortality, Morbidity and Use of Services: Protestant/other Christian 52%, Catholic 35%, Vodou 2% (self-identified only — far more Haitians incorporate Vodou elements into other faiths), 11% no stated preference."
+  - id: unesco-nhp-180
+    name: "National History Park — Citadelle, Sans Souci, Ramiers (World Heritage List 180)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/180/"
+    year: 1982
+    accessedDate: "2026-09-17"
+    note: "Haiti's UNESCO World Heritage property (inscribed 1982); the basis for the landmarks entry and its unescoWorldHeritage flag, and for the 'first monuments built by freed Black slaves / first state from a slave revolt' framing."

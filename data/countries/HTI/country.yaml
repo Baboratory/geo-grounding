@@ -1,0 +1,169 @@
+alpha3: HTI
+alpha2: HT
+name:
+  eng: Haiti
+  local:
+    - languageCode: fra
+      value: République d'Haïti
+    - languageCode: hat
+      value: Repiblik d Ayiti
+flagEmoji: "🇭🇹"
+capital: Port-au-Prince
+isSovereign: true
+# Classified unitary-small: population ~11.7M (2023 World Bank estimate) is well
+# below the unitary-large threshold; the two official languages (French and
+# Haitian Creole) are co-official NATIONAL languages, neither with a distinct
+# regional status; and the 10 departments are purely administrative (no widely
+# recognized cultural-historical regional identity — Haiti's strong national
+# identity is not regional). One synthetic WHOLE region.
+#
+# SCOPE NOTE — deep-crisis situation handled honestly: as of the reference
+# context there are no democratically elected officials (parliament dissolved,
+# no elected national government since ~January 2023); since April 2024 a
+# nine-member Transitional Presidential Council (CPT) leads an interim
+# government charged with restoring stability and organizing elections. This
+# governance classification refers only to regional structure, NOT political
+# stability. Tourism and much infrastructure access are severely disrupted by
+# insecurity; the cultural/geographic baseline content is partly aspirational.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1987-art5
+  - languageCode: hat
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1987-art5
+  - languageCode: hat
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: constitution-1987-art5
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.22
+    sourceId: us-state-irf-2022
+# French and Haitian Creole are both official national languages per Article 5
+# of the 1987 Constitution ('Le Créole et le Français sont les langues
+# officielles de la République'), so both carry the 1.0 legal-status flag.
+# Creole is the everyday language of nearly all Haitians (0.95 estimate); French
+# is the language of administration/elite, spoken fluently by a minority (0.22
+# estimate — no census since 2003, so all shares here are flagged estimates).
+ethnicGroups:
+  # FLAGGED ESTIMATE: Haiti has had no national census since 2003 and publishes
+  # no official ethnicity figures; these are standard secondary estimates.
+  - group: Black / Afro-Haitian (of African descent)
+    percent: 95.0
+    sourceId: britannica-haiti
+  - group: Mixed / other (mulatto, European, Arab, Asian)
+    percent: 5.0
+    sourceId: britannica-haiti
+timezones:
+  - name: America/Port-au-Prince
+    standardUtcOffset: "UTC-5"
+    observesDst: true
+    dstUtcOffset: "UTC-4"
+    dstPeriod: "Second Sunday of March (02:00) to first Sunday of November (02:00), the US/Eastern schedule."
+currency:
+  code: HTG
+  symbol: "G"
+  name: Haitian gourde
+legalConstraints:
+  - topic: "statistical data availability (ethnicity/religion)"
+    description: "Haiti's most recent national census dates to 2003 and has never been fully published; no official ethnic-composition or religion statistics are collected. The ethnicGroups and religions percentages in this dataset are secondary estimates and must be read as such, not as official census data."
+    sourceId: wb-census-gap
+# No EU consumer/data directives apply (Haiti is not an EU/EEA member); only
+# sourced national facts are kept as legal constraints — EU analogues are
+# deliberately not copied here.
+paymentCulture:
+  popularMethods:
+    - "Cash (banknotes, transacting in gourdes and often informally in US dollars) — historically cash-dominant; large unbanked share (~80% of adults)"
+    - "Mobile money (MonCash by Digicel, Natcom/Cash, HaitiPay/TransFi) — the main digital rail, widely used for P2P, bill and merchant payments via a large agent network"
+    - "Remittances from the diaspora (~19% of GDP) — a defining feature of personal finance"
+    - "Bank cards — low acceptance and banking penetration"
+  tipping:
+    expected: false
+    typicalAmount: "About 10% in better restaurants; round up or leave small change is common"
+    autoIncludedInBill: false
+    note: "Haiti is largely a cash/remittance economy; remittances from the diaspora (overwhelmingly via the USA) are ~19% of GDP (World Bank FY2023). Mobile money (especially MonCash) is the leading digital rail. Currency negotiation (gourde vs USD) is normal in many transactions. No authoritative BRH payment-method shares table was verified, so percentage shares are omitted rather than guessed."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Use titles and surnames in formal/business settings (M./Mme, or Creole 'Msye/Madam'); respect for elders and for social status is important. Formality depends heavily on class/education and on whether the interaction is in French (formal) or Creole (more equal, everyday register)."
+  greetingNorms: "Handshake on meeting; among friends a more effusive greeting. Warmth and personal rapport matter before business."
+  meetingEtiquette: "Relationships and trust precede deals; expect personal conversation before business. Punctuality is looser than in North/West Europe. Decisions are often made at the senior level and can be slow; meetings may be interrupted by the reality of operating in a fragile/insecure environment (power/internet outages, transport disruption)."
+  topicsToAvoid:
+    - "Frivolously dismissive or outsider-toned comments about Haiti's political/security crisis, poverty, Vodou, or the specter of foreign intervention"
+    - "Drawing contrasts with the Dominican Republic"
+    - "Insensitive remarks about slavery or the country's history"
+  giftGivingNotes: "Not required for business; a small courtesy gift once a relationship forms is welcome, especially when visiting someone's home."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: constitution-1987-art5
+    name: "Constitution de la République d'Haïti de 1987, Article 5"
+    publisher: "République d'Haïti (1987 Constitution text, hosted by OAS)"
+    url: "http://www.oas.org/juridico/pdfs/mesicic4_hti_const.pdf"
+    year: 1987
+    accessedDate: "2026-09-17"
+    note: "Legal basis for both French and Haitian Creole as the two official languages ('Le Créole et le Français sont les langues officielles de la République') and for the Creole locallySpoken share ('Tous les Haïtiens sont unis par une langue commune : le créole')."
+  - id: wb-census-gap
+    name: "World Bank 'Count People — Strengthening Haiti's National Statistical Capacity through the Census' (P157531)"
+    publisher: "The World Bank"
+    url: "https://ewsdata.rightsindevelopment.org/files/documents/31/WB-P157531_OQ85lcA.pdf"
+    year: 2016
+    accessedDate: "2026-09-17"
+    note: "Confirms the most recent census dates to 2003, that only four censuses have ever been held in Haiti, and that a fifth has been delayed since 2013 for lack of financing. Basis for the scoping note that ethnic/religion figures are estimates, not census data."
+  - id: wb-cag-2023
+    name: "Haiti — Country at a Glance (World Bank), 2023"
+    publisher: "The World Bank"
+    url: "https://documents1.worldbank.org/curated/en/099647004042434537/pdf/IDU1d35a787018462142401a3f918b19f47e7923.pdf"
+    year: 2023
+    accessedDate: "2026-09-17"
+    note: "Population estimate 11.7 million (2023) and macro indicators. Supports the population size for the unitary-small classification."
+  - id: wb-mpo-2024
+    name: "Haiti Macro Poverty Outlook — Datasheet (Spring 2024)"
+    publisher: "The World Bank"
+    url: "https://haitidocs.org/doc/mpo-hti-2024-04-datasheet"
+    year: 2024
+    accessedDate: "2026-09-17"
+    note: "Remittances are the strongest external financing channel at 18.9% of GDP in FY2023. Basis for the payment-culture remittance point."
+  - id: us-state-irf-2022
+    name: "2022 Report on International Religious Freedom: Haiti"
+    publisher: "U.S. Department of State, Office of International Religious Freedom"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/haiti"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "The religion shares in whole.yaml, taken from the government's 2017 Survey on Mortality, Morbidity and Use of Services. Also the secondary basis for the French locallySpoken share (administration/elite language of a minority)."
+  - id: brh-currency
+    name: "Billets: Images et Caractéristiques (gourde banknotes)"
+    publisher: "Banque de la République d'Haïti (BRH)"
+    url: "https://www.brh.ht/billets-images-et-caracteristiques/"
+    accessedDate: "2026-09-17"
+    note: "Primary central-bank confirmation that the gourde (HTG) is the national currency issued by BRH. Symbol cited as 'G' per general usage (BRH uses the spelled 'gourde')."
+  - id: tz-haiti
+    name: "Time Zones in Haiti"
+    publisher: "timeanddate.com (corroborated by the IANA tz database America/Port-au-Prince)"
+    url: "https://www.timeanddate.com/time/zone/haiti"
+    accessedDate: "2026-09-17"
+    note: "Standard time UTC-5 (EST) with observed DST to UTC-4 (EDT) on the US/Eastern schedule. Haiti has flip-flopped on DST historically; the currently-active regime is UTC-5 with DST."
+  - id: britannica-haiti
+    name: "Haiti — People: Ethnic groups and languages"
+    publisher: "Encyclopaedia Britannica"
+    url: "https://britannica.com/place/Haiti"
+    accessedDate: "2026-09-17"
+    note: "SECONDARY source for the ethnic composition estimate: nearly all Haitians are of African origin; a small minority of mixed European/African descent ('mulattoes') form a wealthier elite. Explicitly flagged because Haiti publishes no official ethnicity census figures."
+  - id: cia-wfb-context
+    name: "Haiti — Government (World Factbook-derived profile)"
+    publisher: "CIA World Factbook (via openfactbook.org mirror)"
+    url: "https://openfactbook.org/countries/haiti"
+    accessedDate: "2026-09-17"
+    note: "Context for the scoping comments: no sitting elected officials since January 2023; a nine-member Transitional Presidential Council assumed control April 2024 charged with restoring stability and preparing elections. Used only for political-context scoping, not for any statistical field."
+  - id: cgap-moncash
+    name: "DIGICEL Mobile Money — MonCash case study"
+    publisher: "CGAP (Consultative Group to Assist the Poor, World Bank-affiliated)"
+    url: "https://www.cgap.org/sites/default/files/2025-09/CC-Guide/CGAP_Digicel-Case-Study.pdf.pdf"
+    accessedDate: "2026-09-17"
+    note: "Background for the payment-culture narrative: Haiti as a cash economy with low banking penetration; MonCash as the leading mobile-wallet rail with a nationwide agent network. Qualitative background, not a counted statistic."
