@@ -1,0 +1,131 @@
+alpha3: SMR
+alpha2: SM
+name:
+  eng: San Marino
+  local:
+    - languageCode: ita
+      value: San Marino
+flagEmoji: 🇸🇲
+capital: San Marino
+isSovereign: true
+# Classified unitary-small: San Marino is one of the world's smallest sovereign
+# states (~34,000 people) and an ancient republic. Among the oldest continuously
+# existing sovereign states and constitutional republics (tradition dates its
+# founding to 3 September 301 AD). Italian is the sole official language; its
+# nine municipalities (castelli) are purely administrative, so there are no
+# recognized subnational official-minority-language regions. San Marino is not an
+# EU member but uses the euro under a Monetary Agreement and mints its own coins.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: ita
+    domain: official
+    speakersShare: 1.0
+    sourceId: state-bgn-sanmarino
+  - languageCode: rgn
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: composite-estimate
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.30
+    sourceId: composite-estimate
+# Italian is the sole official language, used by the entire population (1.0, a
+# legal-status flag). Sammarinese — a Romagnol (Emilian-Romagnol) dialect group
+# local to the Republic — survives as a vernacular spoken by a minority, following
+# the same "unofficial vernacular" pattern as Jamaica's patois; no census measures
+# it, so the share is an ESTIMATE. English is a learned foreign language used in
+# tourism, cross-border business and finance (ESTIMATE; no census figure exists).
+ethnicGroups:
+  - group: Sammarinese
+    percent: 90.0
+    sourceId: state-bgn-sanmarino
+  - group: Italian
+    percent: 8.0
+    sourceId: composite-estimate
+  - group: Other (European and diasporic)
+    percent: 2.0
+    sourceId: composite-estimate
+# San Marino publishes no nationality-percentage census (unlike Liechtenstein).
+# CIA/State background notes list the population as "Sammarinese and Italian"
+# without a percentage split. Sammarinese are estimated at roughly 90% here,
+# with Italian residents forming the largest foreign group; the split is an
+# ESTIMATE flagged as such.
+timezones:
+  - name: Europe/San_Marino
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October — San Marino follows the EU/Italian DST schedule."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "data protection"
+    description: "Processing personal data is governed by San Marino's Law No. 171 of 21 December 2018 on the protection of personal data (LPPD), which mirrors GDPR principles and is enforced by the Guarantor for the Protection of Confidential and Personal Data (Autorità Garante). San Marino is not an EU/EEA member, so the GDPR does not directly apply; its 2018 law is the modern statutory basis (superseding Law 70/1995). San Marino also signed the Council of Europe's Convention 108+."
+    sourceId: legge-171-2018
+  - topic: "no VAT — single-phase import tax"
+    description: "San Marino does not operate a VAT. Instead it levies a single-phase tax on goods entering the territory (imposta monofase sulle importazioni, standard rate 17%), collected at import. Domestic transactions between Sammarinese businesses are generally outside this regime, and consumer price display reflects the import-tax structure rather than a VAT."
+    sourceId: imposta-monofase
+  - topic: "currency/legal tender"
+    description: "The euro is the official currency with legal-tender status in San Marino under the EU-San Marino Monetary Agreement, even though San Marino is not an EU/eurozone member; it mints its own national-side euro coins (Three Towers design, capped issuance). Non-legal-tender collector gold 'scudi' coins exist but are not valid for payment."
+    sourceId: eu-sm-monetary
+paymentCulture:
+  popularMethods:
+    - "Cash (euro) — still common for smaller purchases"
+    - "Debit/credit cards (Visa/Mastercard) and contactless — widely accepted at restaurants, hotels and shops"
+  tipping:
+    expected: false
+    autoIncludedInBill: true
+    typicalAmount: "A coperto (cover/service charge) is frequently added; otherwise rounding up or leaving ~5-10% for good service in restaurants is customary, and tipping is not required in bars."
+    note: "Similar to Italy — service is usually included, with a small optional tip for good table service."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite and personal, with formal titles (Dottore/Avvocato and other professional titles) used early in a relationship; warmth and personal connection matter as much as hierarchy."
+  greetingNorms: "A warm handshake with verbal greeting in business; cheek-kissing (two) among friends and acquaintances in social settings, Italian style."
+  meetingEtiquette: "Punctuality is respected but somewhat relaxed compared with northern Europe; meetings start with social pleasantries and relationship-building before the agenda. Decisions go through the established hierarchy."
+  topicsToAvoid:
+    - "Belittling San Marino's independence or its relationship with Italy — national sovereignty is a point of pride"
+    - "Being boastful about personal wealth"
+  giftGivingNotes: "Small, thoughtful gifts are appreciated when invited to a home (quality wine, sweets, or local products); gifts are not obligatory at a first business meeting."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: state-bgn-sanmarino
+    name: "San Marino — Background Note and country profile"
+    publisher: "U.S. Department of State (Bureau of Consular Affairs / Bureau of Public Affairs)"
+    url: "https://2009-2017.state.gov/outofdate/bgn/sanmarino/121547.htm"
+    year: 2008
+    accessedDate: "2026-09-18"
+    note: "Ethnic groups: Sammarinese, Italian; Religion: Roman Catholic; Language: Italian (official); Climate: Mediterranean, mild winters, warm sunny summers; Timezone UTC+1. Basis for the official=1.0 Italian row and the ~90% Sammarinese ethnic share (approximate, no % split published by the state)."
+  - id: composite-estimate
+    name: "Composite estimate"
+    publisher: "Composite estimate"
+    url: "https://www.cia.gov/the-world-factbook/countries/san-marino/"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "ESTIMATE — Sammarinese ethnic share (~0.90 vs Italian ~0.08 and other ~0.02), Romagnol vernacular share (~0.05), and English foreign-domain share (~0.30) are estimates because San Marino publishes no language or nationality-percentage census. Italian is the sole official language."
+  - id: legge-171-2018
+    name: "Legge 21 dicembre 2018 n. 171 sulla protezione dei dati personali (LPPD)"
+    publisher: "Repubblica di San Marino, Leggi e Decreti"
+    url: "https://www.consigliograndeegenerale.sm/on-line/home/leggi-e-decreti.html"
+    year: 2018
+    accessedDate: "2026-09-18"
+    note: "San Marino's modern data-protection law, GDPR-principles-aligned; enforced by the Guarantor for the Protection of Confidential and Personal Data. Not EU/EEA, so GDPR does not directly apply; San Marino signed CoE Convention 108+."
+  - id: imposta-monofase
+    name: "Imposta monofase sulle importazioni — San Marino indirect taxation"
+    publisher: "Repubblica di San Marino (Segreteria di Stato Finanze)"
+    url: "https://www.finanze.sm/on-line/home.html"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "San Marino levies no VAT; a single-phase import tax (imposta monofase) applies at the standard 17% rate on goods entering the territory."
+  - id: eu-sm-monetary
+    name: "Monetary Agreement between the European Union and the Republic of San Marino"
+    publisher: "European Union (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22012A0113(01)"
+    year: 2012
+    accessedDate: "2026-09-18"
+    note: "Euro is San Marino's official currency with legal-tender status despite non-EU membership; the Agreement governs coin issuance caps and the national-side 'Three Towers' euro coin designs."

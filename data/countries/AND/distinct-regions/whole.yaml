@@ -1,0 +1,118 @@
+code: WHOLE
+name:
+  eng: Andorra
+  local:
+    - languageCode: cat
+      value: Andorra
+# Country-wide fallback region (unitary-small, single synthetic WHOLE entry).
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate in the mountain valleys where the population lives, with mild summers and cool, snowy winters.
+  - koppenCode: ET
+    description: Alpine tundra at the highest Pyrenean peaks.
+landmarks:
+  - name: Madriu-Perafita-Claror Valley
+    description: A glacial valley complex and the only UNESCO World Heritage site in Andorra — a cultural landscape inscribed in 2004 covering roughly 9% of the national territory, valued for its pastoralism heritage and near-natural mountain ecosystems.
+    unescoWorldHeritage: true
+  - name: Casa de la Vall
+    description: 16th-century manor house in Andorra la Vella that long served as the seat of the General Council and a symbol of Andorran self-government.
+  - name: Sant Joan de Caselles
+    description: Romanesque church in Canillo with notable 12th-century fresques.
+  - name: Encamp / Les Bons
+    description: Historic villages and the Sanctuary of Meritxell (patron saint of Andorra), along with the 'els Camí dels Bons' rock engravings.
+culturalTraits:
+  - Mountain co-principality identity, with a history of shared rule between the Bishop of Urgell and the Count of Foix/France since the 1278 paréage
+  - Strong Catalan language and culture, sitting at the intersection of French and Spanish influence
+  - Duty-free shopping economy tied to the Pyrenean tourist trade
+  - Pastoral/mountain heritage (transhumance, shepherding) still visible in the valleys
+prideOf:
+  - Being one of the world's smallest sovereign states with an unbroken political tradition
+  - The Madriu-Perafita-Claror Valley ('the spiritual heart of Andorra')
+  - Catalan language and culture
+  - Ski resorts and year-round mountain tourism
+animals:
+  popular:
+    - Alpine marmot
+    - Pyrenean chamois (isard)
+    - Bearded vulture (lammergeier)
+  unique:
+    - Brown bear (reintroduced/expanding in the Andorran Pyrenees)
+industries:
+  - Tourism (skiing, mountain hiking, duty-free retail)
+  - Banking and financial services
+  - Tobacco products
+  - Furniture and construction
+  - Retail (duty-free shopping town centres)
+sports:
+  - Alpine skiing and snowboarding (Pas de la Casa-Grau Roig, Soldeu-El Tarter resorts)
+  - Mountain biking and hiking (GR7/GR11 trails)
+  - Football
+  - Rugby
+religions:
+  - name: Christian (predominantly Roman Catholic)
+    percent: 89.5
+    sourceId: cia-factbook-andorra
+  - name: Other religion
+    percent: 8.8
+    sourceId: cia-factbook-andorra
+  - name: No religious affiliation
+    percent: 1.7
+    sourceId: cia-factbook-andorra
+entertainment:
+  - season: winter
+    items:
+      - Ski season across the Vall del Nord and Encamp resorts
+      - Andorra la Vella Christmas markets
+  - season: summer
+    items:
+      - Pyrenean hiking and mountain-biking season
+      - Our Lady of Meritxell national day (8 September) celebrations
+traditionalDishes:
+  - season: winter
+    items:
+      - Escudella (Catalan meat-and-vegetable stew, festive winter staple)
+      - Trinxat (mashed cabbage, potato, chorizo and pork belly)
+  - season: summer
+    items:
+      - Cargols a la llauna (snails baked in a tin with garlic and herbs)
+      - Coques (flat savoury/sweet pastries, often grilled)
+  - season: allYear
+    items:
+      - Civet de senglar (wild boar stew)
+      - Bullits and Catalan charcuterie (embotits)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Catalan-influenced folk dress with espadrilles (espardenyes) worn at festivals and folklore events
+      - Traditional beret and garbi (herders' woollen garments) in the mountain valleys
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "The traditional weekly rest day is Sunday, but Andorra's duty-free tourist economy keeps many shops and duty-free outlets open on Sundays and public holidays, especially in Andorra la Vella and Pas de la Casa. Business peaks in the ski season (roughly December to April) and the summer hiking season (July-August)."
+  notableShutdownPeriods:
+    - period: "Midwinter and summer low seasons between peaks"
+      description: "Activity is steady year-round thanks to tourism, but the shoulder seasons (November, May-June) are noticeably quieter than the ski and summer peaks."
+sources:
+  - id: cia-factbook-andorra
+    name: "The World Factbook — Andorra (Religions)"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/countries/andorra/"
+    year: 2020
+    accessedDate: "2026-09-18"
+    note: "Religious-affiliation estimate (Christian/predominantly Roman Catholic 89.5%, other 8.8%, unaffiliated 1.7%, 2020 est.). Geographic, cultural, culinary and animal content is general knowledge, not a cited statistic."
+  - id: state-irf-andorra
+    name: "Andorra — International Religious Freedom Report"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2019-report-on-international-religious-freedom/andorra/"
+    year: 2019
+    accessedDate: "2026-09-18"
+    note: "Cross-check figure: ~92% Roman Catholic per 2019 government estimate, broadly consistent with the CIA-derived entry above."

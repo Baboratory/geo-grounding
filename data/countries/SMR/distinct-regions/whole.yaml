@@ -1,0 +1,109 @@
+code: WHOLE
+name:
+  eng: San Marino
+  local:
+    - languageCode: ita
+      value: San Marino
+# Country-wide fallback region (unitary-small, single synthetic WHOLE entry).
+climates:
+  - koppenCode: Cfa
+    description: Humid subtropical / Mediterranean-type climate on Monte Titano — mild, partly wet winters and warm to hot, sunny summers marking the peak tourist season.
+landmarks:
+  - name: Historic Centre of San Marino and Mount Titano
+    description: The UNESCO World Heritage Site (inscribed 2008) comprising the fortified medieval core — the Guaita, Cesta and Montale towers, the city walls, the Basilica of Saint Marinus and the Palazzo Pubblico.
+    unescoWorldHeritage: true
+  - name: Guaita (First Tower)
+    description: The oldest and best-known of the Three Towers, a fortress on the summit of Monte Titano dating from the 11th century.
+  - name: Palazzo Pubblico
+    description: The neo-Gothic government palace in the capital, seat of the Captains Regent and the Grand and General Council.
+  - name: Basilica of San Marino
+    description: Classical-style neoclassical basilica in the historic centre on Monte Titano.
+culturalTraits:
+  - One of the world's oldest sovereign states and constitutional republics (traditional founding 3 September 301 AD), with deep civic-republican identity and the motto 'Libertas'
+  - Co-heads of state (Captains Regent) elected every six months — a unique republican institution
+  - Independence and self-government fiercely maintained amid surrounding Italy
+  - Medieval festival and crossbow pageant traditions tied to civic pride
+prideOf:
+  - Being the oldest surviving sovereign republic and constitutional state
+  - The Three Towers, emblem of the nation on its flag, coat of arms and euro coins
+  - The UNESCO-listed historic centre on Monte Titano
+  - Long history of neutrality and independence
+animals:
+  popular:
+    - Peregrine falcon (distinctive bird of the Titano cliffs)
+  unique:
+    - "Little endemic fauna on the small mountain republic — wildlife is limited to the wooded slopes of Monte Titano and the Marano and Ausa valleys"
+industries:
+  - Finance and private banking
+  - Tourism and duty-free shopping
+  - Ceramics and craft products
+  - Philately and numismatics (stamp and coin collecting)
+  - Wine and agricultural products (Terra di San Marino)
+sports:
+  - Football (soccer), the most popular sport
+  - Crossbow (balestra) — a historic civic-practice competition with deep local tradition
+  - Motorcycle racing (historic San Marino Grand Prix association at nearby venues)
+  - Cycling and mountain biking on Monte Titano
+religions:
+  - name: Roman Catholic
+    percent: 90.0
+    sourceId: countryreports-smar
+  - name: Other religion / none
+    percent: 10.0
+    sourceId: countryreports-smar
+entertainment:
+  - season: summer
+    items:
+      - Peak tourist season with festivals and patron feasts across the castelli
+      - Grilling and outdoor summer events
+  - season: autumn
+    items:
+      - 3 September national day (Feast of San Marino) with a medieval banquet
+      - Grape and wine harvest (Terra di San Marino wines), truffle and mushroom season
+  - season: winter
+    items:
+      - Christmas and New Year season; quieter low season
+traditionalDishes:
+  - season: allYear
+    items:
+      - Piadina (thin flatbread, sand-marinese street food)
+      - Tagliatelle con ragù (egg pasta with meat ragù, Sunday dish)
+      - Torta Tre Monti (hazelnut-and-chocolate wafer layer cake, the recognisable dessert since 1942; 'Tre Monti' means 'three mountains' in Italian, a reference to Mount Titano's towers)
+  - season: winter
+    items:
+      - Cappelletti in brodo di cappone (pasta in capon broth, Christmas)
+      - Pasta e ceci (pasta and chickpea soup, Christmas Eve)
+  - season: spring
+    items:
+      - Roast lamb (traditional at Easter)
+  - season: autumn
+    items:
+      - Polenta sul tagliere with sausage (autumn fair staple)
+traditionalClothing:
+  - season: allYear
+    items:
+      - No distinct everyday folk costume (Medieval/Italian-style); historical and civic dress appears at pageants, the crossbow festivals and the 3 September medieval banquet
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday is the traditional rest day, though tourist-facing retail in the historic centre commonly trades on Sundays. Italian-style rhythm: a midday lunch break (shops often close 13:00-16:00) and late dinner. Business peaks in the summer tourist season and around the 3 September national day."
+  notableShutdownPeriods:
+    - period: "August"
+      description: "Many local businesses observe the traditional August break, as in Italy."
+sources:
+  - id: countryreports-smar
+    name: "San Marino — People (religion)"
+    publisher: "CountryReports (citing demographic sources)"
+    url: "https://www.countryreports.org/country/SanMarino/people"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "Religious-affiliation estimate (Roman Catholic ~90%, other ~10%). Geographic, cultural, culinary and animal content is general knowledge, not a cited statistic."

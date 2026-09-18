@@ -1,0 +1,158 @@
+alpha3: LIE
+alpha2: LI
+name:
+  eng: Liechtenstein
+  local:
+    - languageCode: deu
+      value: Liechtenstein
+flagEmoji: 🇱🇮
+capital: Vaduz
+isSovereign: true
+# Classified unitary-small: Liechtenstein is a small principality (~40,000
+# people) whose eleven communes are purely administrative. German (Standard) is
+# the sole official language; the everyday vernacular is a High Alemannic
+# dialect (Liechtensteiner Dialekt / Alemannisch), spoken at home by about 73%
+# of residents per the 2020 census — treated here the same way as Jamaica's
+# patois (an unofficial vernacular recorded as locallySpoken, not official).
+# Principality ruled by the House of Liechtenstein; EEA (EFTA) member, NOT an EU
+# member — EU law such as the GDPR applies via the EEA Agreement.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: deu
+    domain: official
+    speakersShare: 1.0
+    sourceId: census-2020
+  - languageCode: gsw
+    domain: locallySpoken
+    speakersShare: 0.73
+    sourceId: census-2020
+  - languageCode: ita
+    domain: foreign
+    speakersShare: 0.09
+    sourceId: census-2020
+  - languageCode: por
+    domain: foreign
+    speakersShare: 0.08
+    sourceId: census-2020
+  - languageCode: tur
+    domain: foreign
+    speakersShare: 0.07
+    sourceId: census-2020
+  - languageCode: srp
+    domain: foreign
+    speakersShare: 0.06
+    sourceId: census-2020
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.40
+    sourceId: census-2020
+# German (Standard) is the sole official language — 1.0, a legal-status flag.
+# Per the 2020 census, 92.4% give German as their main language and 73% speak
+# the Liechtensteiner Alemannic dialect at home (recorded above as locallySpoken
+# gsw, following the Jamaica-patois approach: widely used vernacular, not
+# official). Immigrant main-languages (Italian, Portuguese, Turkish,
+# Serbian/Croatian) each sit around 1% of the resident population; English is a
+# widespread learned foreign language in finance and cross-border business
+# (ESTIMATE ~0.40, no census figure — flagged below).
+ethnicGroups:
+  - group: Liechtensteiner
+    percent: 65.5
+    sourceId: census-2020
+  - group: Swiss
+    percent: 9.6
+    sourceId: census-2020
+  - group: Austrian
+    percent: 5.9
+    sourceId: census-2020
+  - group: German
+    percent: 4.5
+    sourceId: census-2020
+  - group: Italian
+    percent: 3.1
+    sourceId: census-2020
+  - group: Other nationalities
+    percent: 11.4
+    sourceId: census-2020
+# Official 2020 census (Amt für Statistik Liechtenstein, resident population
+# 39,055): Liechtensteiners ~65.5% (25,588) vs foreign nationals ~34.5%
+# (13,467). The foreign breakdown (Swiss ~9.6%, Austrian ~5.9%, German ~4.5%,
+# Italian ~3.1%, other ~11.4%) is approximate and derived from the official
+# foreign-nationality figures. Naturalisation is selective (blood-descent rule
+# plus long residence; dual citizenship only since 2003).
+timezones:
+  - name: Europe/Vaduz
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October — Liechtenstein follows the EU/EEA DST schedule."
+currency:
+  code: CHF
+  symbol: "CHF"
+  name: Swiss franc
+legalConstraints:
+  - topic: "data protection — GDPR applies via the EEA Agreement"
+    description: "Liechtenstein is an EEA EFTA State (joined the EEA on 1 May 1995), NOT an EU member — but the GDPR has applied here since 20 July 2018 because the EU data-protection rules were incorporated into the EEA Agreement (Annex XI) and implemented in national law (the Liechtenstein Datenschutzgesetz). In practice this dataset's EU-origin data-protection obligations (lawful basis, data-subject rights, breach notification) apply to Liechtenstein as to the EU single market."
+    sourceId: gdpr-eea
+  - topic: "consumer protection via the single market"
+    description: "Because Liechtenstein is part of the EEA/European single market, the main EU consumer-protection directives (distance selling, consumer rights) apply here, transposed into Liechtenstein law. An agent advising on e-commerce/consumer contracts for Liechtenstein should treat EU consumer-rights rules as broadly applicable."
+    sourceId: gdpr-eea
+  - topic: "VAT / customs"
+    description: "Liechtenstein is in a customs and currency union with Switzerland, so Swiss VAT (Mehrwertsteuer, MWST) rules apply — standard rate 8.1% since 1 January 2024 (raised from 7.7%), reduced rate 3.8%, special 2.6%. For EU VAT purposes supplies to Liechtenstein are treated as exports from the EU (it is EEA-but-not-EU). Prices are displayed Swiss-VAT-inclusive."
+    sourceId: swiss-vat
+  - topic: "Sunday and public-holiday rest / shop closing"
+    description: "The Ordinance of 10 March 1992 on Sunday and public-holiday rest and shop closing makes Sunday work cease in establishments subject to the Trade Act, with statutory exceptions (pharmacies, catering, transport, service-station shops, cinemas, sports schools). Stores may open Mon-Fri 06:00-21:00 and Sat 06:00-17:00, and on Sundays only with official authorisation — except 8 December and the three Sundays before 24 December, which are open 07:00-17:00 without a permit."
+    sourceId: sunday-closing-ordinance
+paymentCulture:
+  popularMethods:
+    - "Cash in Swiss francs (CHF) — common for small and everyday purchases"
+    - "Debit/credit cards and contactless (Maestro/debit, Visa/Mastercard) — standard at retail and restaurants"
+    - "Bank transfers and e-banking (wealth-management and cross-border context)"
+    - "Mobile payment apps (Swiss-style TWINT) in growing use"
+  tipping:
+    expected: false
+    autoIncludedInBill: true
+    typicalAmount: "Service is typically included in the bill; rounding up or leaving up to ~10% for excellent service in restaurants is customary, paid in cash."
+    note: "Euros are accepted in many places but at poor exchange rates — pay in francs."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Formal, reserved and restrained; use titles and surnames until invited otherwise. Directness and reliability are valued, and personal or financial matters are kept private."
+  greetingNorms: "A firm, polite handshake with eye contact is standard in business; among acquaintances, a brief German-style greeting with surnames is the norm."
+  meetingEtiquette: "Punctuality is taken seriously — arrive on time. Meetings are well-prepared, structured and efficient, with decisions made by capable, trusted people; the Alpine work ethic favours thoroughness."
+  topicsToAvoid:
+    - "Personal wealth or income — a sensitive, private subject in one of the world's wealthiest countries per capita"
+    - "Jokes or assumptions about the princely family or the principality's small size"
+  giftGivingNotes: "Gifts are not expected at a first business meeting; when invited to a home, a modest, tasteful gift (wine, flowers, chocolates) is well received."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: census-2020
+    name: "Hauptergebnisse der Volkszählung 2020 (Main results of the 2020 census)"
+    publisher: "Amt für Statistik Liechtenstein / liechtenstein.li"
+    url: "https://www.liechtenstein.li/liechtenstein_news/hauptergebnisse-der-volkszahlung-2020-veroffentlicht"
+    year: 2022
+    accessedDate: "2026-09-18"
+    note: "2020 census: 73% speak the Liechtensteiner Alemannic dialect at home; 92.4% give German as their main language; resident population 39,055, of whom Liechtensteiners ~66% and foreign nationals ~34.5% (the foreign breakdown approximate). Basis for the official deu row (1.0), the gsw locallySpoken row (0.73), and ethnic shares. Immigrant main-languages each ~1%; foreign-language rows are estimates."
+  - id: gdpr-eea
+    name: "The GDPR applies in the EEA EFTA States — Liechtenstein (EEA Agreement Annex XI)"
+    publisher: "EFTA / European Commission — EEA EFTA states implement the EU data-protection rules"
+    url: "https://www.efta.int/eea-lex/corporate/governance/GDPR"
+    year: 2018
+    accessedDate: "2026-09-18"
+    note: "Liechtenstein is an EEA (EFTA) member — NOT an EU member — and the GDPR has applied since 20 July 2018 via the EEA Agreement (Annex XI) and national implementation (Datenschutzgesetz). Consumer-protection directives also apply via the single market. This is the key differentiator: EU-origin rules apply to Liechtenstein through the EEA, not directly as a member."
+  - id: swiss-vat
+    name: "Swiss VAT (Mehrwertsteuer) — rates applicable in Liechtenstein; EU VAT treatment of supplies to Liechtenstein"
+    publisher: "European Commission / Swiss Federal Tax Administration (ESTV)"
+    url: "https://taxprosrated.com/global/jurisdictions/country/li"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Liechtenstein forms a customs and currency union with Switzerland, so Swiss VAT rules apply: standard 8.1% (since 1 Jan 2024), reduced 3.8%, special 2.6%. Supplies to Liechtenstein are exports for EU VAT purposes."
+  - id: sunday-closing-ordinance
+    name: "Verordnung vom 10. März 1992 über die Sonn- und Feiertagsruhe und den Ladenschluss (Ordinance on Sunday and public-holiday rest and shop closing)"
+    publisher: "Liechtensteinisches Landesgesetzblatt (LGBL), via gesetze.li"
+    url: "https://www.gesetze.li/ell/1992297"
+    year: 1992
+    accessedDate: "2026-09-18"
+    note: "Detailed statutory Sunday/public-holiday rest and weekday shop-opening hours for Liechtenstein, including the Christmas/8 December exceptions."
