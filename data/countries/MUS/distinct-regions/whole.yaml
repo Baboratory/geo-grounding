@@ -1,0 +1,152 @@
+code: WHOLE
+name:
+  eng: Mauritius
+  local:
+    - languageCode: mfe
+      value: Moris
+# Generic country-wide fallback content for Mauritius (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon - hot and humid year-round with heavy rainfall on the windward (south-east) slopes and the central-highlands districts."
+  - koppenCode: Aw
+    description: "Tropical savanna - hot with a distinct rainy summer (Nov-Apr) and drier winter (May-Oct), typical of lower coastal areas. Cyclone season runs roughly November to April."
+landmarks:
+  - name: Aapravasi Ghat
+    description: "UNESCO World Heritage Site in Port Louis where almost half a million indentured labourers from India arrived between 1834 and 1920 - considered the birthplace of the indentured-labour diaspora."
+    unescoWorldHeritage: true
+  - name: Le Morne Cultural Landscape
+    description: "UNESCO World Heritage Site - the rugged mountain in the south-west used as a refuge by runaway slaves (maroons), a symbol of the fight for freedom."
+    unescoWorldHeritage: true
+  - name: Black River Gorges National Park
+    description: "The largest national park, protecting endemic rainforest and habitat of the Mauritius kestrel, pink pigeon and echo parakeet."
+  - name: Chamarel Seven Coloured Earths
+    description: "Famous geologically coloured sand dunes (with the Chamarel waterfall) in the south-west."
+  - name: Sir Seewoosagur Ramgoolam Botanical Garden (Pamplemousses)
+    description: "Historic botanical garden famed for its giant Victoria amazonica water lilies and giant tortoises."
+  - name: Ganga Talao (Grand Bassin)
+    description: "Hindu sacred crater lake in the south-west and major Shiva temple, an important pilgrimage centre."
+culturalTraits:
+  - "Multi-ethnic mosaic - Indo-Mauritian, Creole, Sino-Mauritian and Franco-Mauritian communities living side by side"
+  - "Sega music and dance - the iconic Mauritian folk genre of African and Malagasy origin"
+  - "Mauritian Creole (Morisyen) as the everyday lingua franca uniting all communities"
+  - "Religious diversity and co-celebration - Maha Shivaratree, Divali, Cavadee, Eid, Christmas and Chinese New Year are all public festivals"
+  - "The dodo - the extinct flightless bird, a worldwide symbol of extinction and the national emblem"
+  - "A warm, hospitable, family-centred culture ('Moris')"
+prideOf:
+  - "Peaceful multi-ethnic coexistence, often cited as a model of 'unity in diversity'"
+  - "Dodo heritage and the hard-won conservation recovery of endemic species (Mauritius kestrel, pink pigeon)"
+  - "Sega and the island's unique fusion culture"
+  - "Rising from a sugar monoculture to a diversified, high-income financial-services hub"
+  - "UNESCO-listed heritage of migration and freedom - Aapravasi Ghat and Le Morne"
+animals:
+  popular:
+    - "Spinner dolphins - large resident pods off the south-west (Tamarin bay)"
+    - "Humpback and sperm whales - seasonally offshore"
+    - "Green and hawksbill sea turtles - nesting beaches"
+    - "Aldabra giant tortoises - at the Ile aux Aigrettes conservation centre"
+    - "Mauritian flying fox / fruit bat - the endemic bat"
+  unique:
+    - "Dodo (Raphus cucullatus) - endemic to Mauritius and famously EXTINCT (driven to extinction by the 1660s); it lives on as an enduring national symbol"
+    - "Pink pigeon - endemic, brought back from roughly ten wild birds to a recovering population"
+    - "Mauritius kestrel - endemic falcon recovered from a natural-history-record low of about four birds"
+    - "Echo parakeet - endemic and critically endangered, now slowly recovering"
+industries:
+  - "Sugar - the historic economic backbone and still a major crop and export"
+  - "Textiles and clothing (Export Processing Zone)"
+  - "Tourism - a major foreign-exchange earner"
+  - "Financial services (Global Business / offshore hub) and BPO/IT"
+  - "Fishing, food processing and emerging technology (ICT / fintech)"
+sports:
+  - "Football (soccer) - the most popular spectator sport"
+  - "Horse racing - the Champ de Mars in Port Louis, one of the world's oldest racecourses"
+  - "Athletics, boxing and karate (Mauritius wins medals at the Indian Ocean Island Games)"
+  - "Rugby union - growing, including an Africa Gold Cup title in 2019"
+  - "Watersports - snorkelling, diving, sailing and kite-surfing"
+religions:
+  # Shares from the 2011 census, as compiled in the CIA World Factbook 2022
+  # archive (Hindu 48.5%, Roman Catholic 26.3%, Muslim 17.3%, other Christian
+  # 6.4%, other 0.6%, none 0.7%, unspecified 0.1%).
+  - name: Hindu
+    percent: 48.5
+    sourceId: mus-religion-2011
+  - name: Roman Catholic
+    percent: 26.3
+    sourceId: mus-religion-2011
+  - name: Muslim
+    percent: 17.3
+    sourceId: mus-religion-2011
+  - name: Other Christian (incl. Protestant denominations)
+    percent: 6.4
+    sourceId: mus-religion-2011
+  - name: Other religion / No religion / Not stated
+    percent: 1.5
+    sourceId: mus-religion-2011
+entertainment:
+  - season: allYear
+    items:
+      - "Sega night shows and live Sega performance"
+      - "Festival calendar spread through the year - Maha Shivaratree (Feb/Mar), Cavadee, Divali, Eid, Chinese Spring Festival, Christmas"
+      - "Beach and resort activities (diving, boat trips, kite-surfing)"
+      - "Horse racing at the Champ de Mars and football matches"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Dholl puri - the national street-food flatbread filled with yellow split peas"
+      - "Mauritian curries (chicken, prawn, fish) served with rice"
+      - "Rougaille - the tomato-based Creole stew"
+      - "Vindaye - pungent mustard-and-vinegar pickled fish"
+      - "Briyani, mine frite (fried noodles) and farata"
+      - "Gateau piment (chilli fritters) and alouda (an ice-cream drink)"
+      - "Fresh tropical fruit and palm-heart salad"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light, breathable cotton and resort wear suited to the tropical climate"
+      - "Sari, salwar kameez and kurta worn by Indo-Mauritians, especially for Hindu ceremonies"
+      - "Festive cheongsam-style dress among Sino-Mauritians for Chinese New Year"
+      - "Colourful festival dress and creole costume for Sega performances"
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:30-17:00 (or 09:00-17:00) Monday-Friday; many shops open Saturday, and commercial/tourist areas are partly open on Sunday."
+  lunchBreakTiming: "A midday break is common; government offices typically pause around 12:00-13:00."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Reduced business and many closures over late December to early January."
+    - period: "Around Maha Shivaratree (Feb/Mar)"
+      description: "National holiday and celebratory pilgrimage period."
+    - period: "Divali (Oct/Nov)"
+      description: "National Hindu festival with reduced activity in the evening."
+    - period: "Eid and other religious public holidays"
+      description: "Public holidays across the year with reduced business."
+  notes: "Sunday is widely a rest day except in tourist zones and some retail. The tropical climate supports year-round tourism, with the high/tourist season roughly November to April."
+sources:
+  - id: mus-religion-2011
+    name: "Religions - Mauritius (2011 est.)"
+    publisher: "CIA World Factbook (2022 Archive), compiling Statistics Mauritius 2011 Housing and Population Census"
+    url: "https://www.cia.gov/the-world-factbook/about/archives/2022/field/religions"
+    year: 2011
+    accessedDate: "2026-09-18"
+    note: "Religious affiliation (2011): Hindu 48.5%, Roman Catholic 26.3%, Muslim 17.3%, other Christian 6.4%, other 0.6%, none 0.7%, unspecified 0.1%. Basis for the religions[] shares."
+  - id: mus-unesco-aapravasi
+    name: "Aapravasi Ghat - UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1227/"
+    year: 2006
+    accessedDate: "2026-09-18"
+    note: "Inscribed 2006 as the birthplace of the indentured-labour diaspora - basis for the Aapravasi Ghat landmark and related prideOf item."
+  - id: mus-unesco-morne
+    name: "Le Morne Cultural Landscape - UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1259/"
+    year: 2008
+    accessedDate: "2026-09-18"
+    note: "Inscribed 2008 as a symbol of the maroon struggle for freedom - basis for the Le Morne landmark and the freedom prideOf item."
+  - id: mus-kreol-mfe
+    name: "mfe - ISO 639-3 (Morisyen)"
+    publisher: "SIL International"
+    url: "https://iso639-3.sil.org/code/mfe"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "Confirms ISO 639-3 'mfe' = Morisyen (Mauritian Creole), the de facto national lingua franca spoken at home by ~86.5% (2011 est.), although it is not an official language."
