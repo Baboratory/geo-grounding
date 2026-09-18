@@ -1,0 +1,113 @@
+code: WHOLE
+name:
+  eng: Liechtenstein
+  local:
+    - languageCode: deu
+      value: Liechtenstein
+# Country-wide fallback region (unitary-small, single synthetic WHOLE entry).
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate in the Rhine valley — cool-to-mild with a wet, often snowy winter and warm-but-modest summer, with alpine climates rising into the mountains.
+landmarks:
+  - name: Vaduz Castle
+    description: The princely castle of the House of Liechtenstein, perched on a hillside above the capital and the country's emblem; official residence of the reigning Prince.
+  - name: Gutenberg Castle
+    description: Medieval castle in Balzers overlooking the Rhine valley, one of Liechtenstein's best-preserved historic fortresses.
+  - name: Old Rhine Bridge (Alte Rheinbrücke)
+    description: Historic wooden covered bridge over the Rhine linking Vaduz to Sevelen, Switzerland — the last of its kind on the upper Rhine.
+  - name: Malbun
+    description: The alpine plateau and principal ski/winter-sports resort of Liechtenstein, at around 1,600 m.
+culturalTraits:
+  - Hereditary principality of the House of Liechtenstein (principality since 1719) with a constitutional/semi-constitutional monarchy under a hereditary Prince
+  - Alpine work ethic and punctuality, in the tradition of the surrounding German-speaking Alpine region
+  - Discretion and formality, particularly around wealth in one of the world's highest-GDP-per-capita countries
+  - Strong manufacturing tradition (precision instruments, dental products) alongside a leading financial centre
+prideOf:
+  - One of the world's highest GDP per capita (~$230k+ nominal, often ranked first), built on industry and finance
+  - Unbroken princely monarchy and the House of Liechtenstein
+  - Precision manufacturing (Hilti, Ivoclar Vivadent) and the international financial centre
+  - Alpine landscape and small, well-managed, highly developed state
+animals:
+  popular:
+    - Chamois (alpine chamois in the mountains)
+    - Alpine marmot
+  unique:
+    - Golden eagle and bearded vulture in the high Alps above the Rhine valley
+industries:
+  - Manufacturing — the largest share of GDP (~40%), including power tools (Hilti), dental products (Ivoclar Vivadent) and precision engineering
+  - Financial services (private wealth management, asset structuring, funds and insurance)
+  - Precision instruments and machine/plant construction
+  - Tourism (winter sports at Malbun, hiking)
+sports:
+  - Alpine skiing and snowboarding (Malbun)
+  - Tobogganing and winter mountain sports
+  - Football (soccer)
+  - Ice hockey
+religions:
+  - name: Roman Catholic
+    percent: 69.6
+    sourceId: census-2020
+  - name: No religious affiliation
+    percent: 9.6
+    sourceId: census-2020
+  - name: Protestant (mostly evangelical-Reformed)
+    percent: 8.1
+    sourceId: census-2020
+  - name: Other (incl. Orthodox and Muslim)
+    percent: 12.7
+    sourceId: census-2020
+entertainment:
+  - season: winter
+    items:
+      - Ski and toboggan season at Malbun
+      - Fasnat (valley carnival in February) with Fasnachtsküchle pastries
+  - season: summer
+    items:
+      - Hiking and alpine-walking season
+      - Village festivals (Dorffest) and farmers' markets
+      - 15 August Assumption (bank holiday with retail opening)
+  - season: autumn
+    items:
+      - Grape and wine harvest along the Rhine valley (Balzers vineyards)
+      - Autumn larch colours in the Alps
+traditionalDishes:
+  - season: allYear
+    items:
+      - Käsknöpfle (spätzle-style pasta with Alpine cheese and caramelised onions, the national dish)
+      - Ribel (fried cornmeal/semolina crumble, a breakfast and side staple)
+  - season: winter
+    items:
+      - Hafalaab / Hafalääb (hearty barley-and-smoked-pork soup, an autumn/winter staple, especially in Balzers)
+      - Fasnachtsküchle (fried carnival pastries, at Fasnat in February)
+  - season: autumn
+    items:
+      - Torkarebl (corn/semolina dumpling dish) at harvest time
+      - Kratzer (pancake-style dessert) with autumn fruit
+traditionalClothing:
+  - season: allYear
+    items:
+      - Alpine Tracht (regional folk costume) worn at folk festivals and village events — not everyday dress
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday and public holidays are statutory rest days (work ceases in most Trade-Act establishments). Shops normally open Mon-Fri 06:00-21:00 and Sat 06:00-17:00, closed on Sundays except the statutory exceptions (see country.yaml legalConstraints). A lading midday lunch break is typical, Swiss-style. Winter sports season (Dec-Apr) and summer hiking season are the tourism peaks."
+  notableShutdownPeriods:
+    - period: "Winter ski season and summer hiking season low points between peaks"
+      description: "Tourism is concentrated around the Malbun winter season and the summer hiking months; the shoulder seasons are quieter."
+sources:
+  - id: census-2020
+    name: "Hauptergebnisse der Volkszählung 2020 — religion, language"
+    publisher: "Amt für Statistik Liechtenstein"
+    url: "https://www.liechtenstein.li/liechtenstein_news/hauptergebnisse-der-volkszahlung-2020-veroffentlicht"
+    year: 2020
+    accessedDate: "2026-09-18"
+    note: "2020 census religion shares: Roman Catholic 69.6%, no affiliation 9.6%, Protestant ~8.1%, all other denominations <6% each (pooled here as 'other ~12.7%'). Linguistic and cultural content is general knowledge, not a cited statistic."
