@@ -1,0 +1,150 @@
+code: WHOLE
+name:
+  eng: Jamaica
+  local:
+    - languageCode: eng
+      value: Jamaica
+# Generic country-wide fallback content for Jamaica (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — hot year-round with a distinct drier season (~Dec-Apr) and wetter season (~May-Nov); dominant for most of the island, especially the south coast."
+  - koppenCode: Am
+    description: "Tropical monsoon in wetter, higher-rainfall districts (windward/north coast)."
+  - koppenCode: Af
+    description: "Tropical rainforest in the wettest high-rainfall areas (e.g. the Blue Mountains' windward slopes)."
+landmarks:
+  - name: Blue and John Crow Mountains
+    description: "UNESCO World Heritage Site — Maroon heritage, endemic biodiversity and the Blue Mountain peak."
+    unescoWorldHeritage: true
+  - name: Dunn's River Falls, Ocho Rios
+    description: "Famous terraced waterfall cascading into the Caribbean; a signature attraction."
+  - name: Seven Mile Beach, Negril
+    description: "Jamaica's most famous white-sand beach on the west coast, famed for sunsets and cliff-diving."
+  - name: Bob Marley Museum, Kingston
+    description: "Home and studio of the reggae icon on Hope Road; a pilgrimage site of Jamaican music heritage."
+  - name: Blue Mountain coffee country
+    description: "World-renowned high-altitude coffee-growing region and mountain hiking."
+culturalTraits:
+  - "Reggae — born in Jamaica in the late 1960s; national music and global cultural export (Bob Marley, Peter Tosh, Toots & the Maytals)"
+  - "Dancehall — the dominant modern Jamaican genre"
+  - "Rastafari — spiritual/cultural movement founded in Jamaica in the 1930s; a deep broader cultural footprint"
+  - "Beach and carnival-type festival culture on the north coast"
+  - "'Out of Many, One People' — the national motto emphasising multi-ethnic unity"
+  - "Jerk — the iconic pimento-smoked cooking method and jerk cuisine"
+  - "Blue Mountain coffee — one of the world's most prized coffees"
+  - "Sprinting / track-and-field national pride (Usain Bolt)"
+prideOf:
+  - "Global musical legacy — reggae and Bob Marley; dancehall's worldwide reach"
+  - "World-dominating sprinting record (Usain Bolt, Shelly-Ann Fraser-Pryce)"
+  - "Jerk cuisine and Blue Mountain coffee as world-famous exports"
+  - "Rastafari heritage and the iconography of resistance and identity"
+  - "Beautiful beaches and the warmth of its people ('No problem' / 'Irie')"
+animals:
+  popular:
+    - "Doctor bird (Jamaican streamertail) — the national bird"
+    - "American crocodile"
+    - "Sea turtles (nesting beaches)"
+    - "Dolphins along the coast"
+  unique:
+    - "Jamaican swallowtail butterfly (Papilio homerus) — the largest butterfly in the Western Hemisphere, endemic"
+    - "Jamaican iguana (Cyclura collei) — critically endangered endemic"
+industries:
+  - "Tourism — the largest economic pillar"
+  - "Bauxite and alumina mining"
+  - "Agriculture — sugar, bananas, coffee (Blue Mountain), yam"
+  - "Remittance-driven services and business-process outsourcing"
+  - "Logistics and the Kingston port"
+sports:
+  - "Track & field / athletics — national obsession (Usain Bolt)"
+  - "Cricket — the traditional national sport (West Indies)"
+  - "Football (soccer)"
+  - "Netball and basketball"
+religions:
+  - name: Protestant (incl. Seventh-day Adventist, Pentecostal, Church of God, Baptist, Anglican)
+    percent: 66.7
+    sourceId: jam-religion-2011
+  - name: No religion / Not stated
+    percent: 23.6
+    sourceId: jam-religion-2011
+  - name: Roman Catholic
+    percent: 2.2
+    sourceId: jam-religion-2011
+  - name: Rastafari
+    percent: 1.1
+    sourceId: jam-religion-2011
+  - name: Other / unaffiliated
+    percent: 6.4
+    sourceId: jam-religion-2011
+entertainment:
+  - season: allYear
+    items:
+      - "Reggae and dancehall music — concerts, sound systems, street parties"
+      - "Beach and resort nightlife on the north coast (Negril, Montego Bay, Ocho Rios)"
+      - "Track & field meets, cricket and football"
+      - "Rastafari / 'Irie' culture tourism"
+  - season: dry
+    items:
+      - "Summer dry-season festivals and beach parties (e.g. Reggae Sumfest, July)"
+      - "Best months for outdoor beach/culture festivals (Jan-Apr)"
+  - season: wet
+    items:
+      - "Indoor sound-system/dancehall events during rainier spells"
+      - "Bob Marley exhibitions and music-museum visits"
+      - "Coffee/rainforest tourism in the Blue Mountains"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Jerk chicken / jerk pork — pimento-smoked, the iconic Jamaican dish"
+      - "Ackee and saltfish — the national dish"
+      - "Curry goat / curried chicken"
+      - "Rice and peas (with coconut)"
+      - "Fried dumplings and boiled food (yam, green banana, sweet potato)"
+      - "Escovitch fish, beef patty, callaloo"
+      - "Blue Mountain coffee"
+  - season: wet
+    items:
+      - "Hearty soups and stews (red pea soup, pumpkin soup) during cooler rainy months"
+      - "Ground-providence root-crop comfort food in the wet season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Bandana/madras cotton prints and traditional quadrille costuming (African heritage)"
+      - "Bright resort wear suited to the tropical climate"
+      - "Rastafari dress (dreadlocks, knitted tam, green/gold/red colours)"
+  - season: dry
+    items:
+      - "Light summer resort wear and swimwear for the Dec-Apr high/tourist season"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:30-16:30/17:00 Mon-Fri; retail often Mon-Sat."
+  lunchBreakTiming: "A standard midday break is common."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Reduced business over Christmas (late Dec-early Jan)."
+    - period: "Easter weekend"
+      description: "Good Friday and Easter Monday public holidays; reduced trading."
+    - period: "Emancipation / Independence (early August)"
+      description: "National holiday week (Aug 1 and Aug 6) with festivals; reduced business."
+  notes: "Sunday is widely a rest day, especially outside commercial/tourist zones. Tourism drives the peak seasonal cycle on the north coast."
+sources:
+  - id: jam-religion-2011
+    name: "Jamaica 2011 Population and Housing Census — Religious Affiliation"
+    publisher: "Statistical Institute of Jamaica (STATIN)"
+    url: "https://census.statinja.gov.jm/wp-content/themes/futurio-child/Census2011Reports/Population%20and%20Housing%20Census%202011%20Jamaica%20General%20Report%20Vol%201.pdf"
+    year: 2011
+    accessedDate: "2026-09-17"
+    note: "Religious affiliation (2011): Protestant denominations sum ~66.7%, no religion+not reported 23.6%, Roman Catholic 2.2%, Rastafari 1.1%, other/unaffiliated 6.4%."
+  - id: jam-unesco-mountains
+    name: "Blue and John Crow Mountains — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1356/"
+    year: 2015
+    accessedDate: "2026-09-17"
+    note: "Inscribed 2015 for Maroon heritage and endemic biodiversity — basis for the unescoWorldHeritage flag and Maroon prideOf reference."

@@ -1,0 +1,72 @@
+code: SR-NI
+name:
+  eng: West — Nickerie & Coronie
+  local:
+    - languageCode: nld
+      value: Nickerie en Coronie
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — hot and humid coastal climate."
+landmarks:
+  - name: Bigi Pan Nature Reserve
+    description: "West coast mangrove/wetland rich in birdlife (Nickerie)."
+  - name: Nieuw Nickerie
+    description: "The western coastal town on the Nickerie River."
+  - name: Wageningen and the rice belt
+    description: "The heart of Suriname's rice-producing polders."
+  - name: Coronie coastal district
+    description: "Coconut palms and the coastal coconut belt."
+culturalTraits:
+  - "Large Hindustani and Javanese communities — bilingual Dutch/Sarnami and Dutch/Javanese"
+  - "The rice-belt agricultural identity of the west"
+  - "Birdwatching and wetland ecology (Bigi Pan)"
+prideOf:
+  - "The rice belt and Bigi Pan wetlands"
+  - "A rich Hindustani/Javanese cultural heritage"
+animals:
+  popular:
+    - "Capybara"
+    - "Crab-eating raccoon"
+    - "Toucans and waterfowl"
+  unique:
+    - "Scarlet ibis (mangrove wetlands)"
+industries:
+  - "Rice cultivation and agriculture"
+  - "Fishing and shrimp"
+  - "Eco-tourism (Bigi Pan)"
+sports:
+  - "Football (soccer)"
+  - "Cricket"
+entertainment:
+  - season: allYear
+    items:
+      - "Bigi Pan birdwatching and boat tours"
+      - "Rice-belt community life"
+  - season: dry
+    items:
+      - "Post-harvest festivals and fairs"
+  - season: wet
+    items:
+      - "Indoor/community cultural events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Roti and curry (Hindustani)"
+      - "Javanese dishes (nasi goreng, satay)"
+      - "Fresh fish and shrimp"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Hindustani and Javanese festive dress at festivals"
+      - "Light tropical wear"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 8, 9, 10, 11]
+  - season: wet
+    months: [1, 4, 5, 6, 7, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Agriculture-dominated; markets/shops Mon-Sat."
+  lunchBreakTiming: "A midday break is common."
+  notes: "Rice-farming rhythms dominate; the wet season can affect coastal access."

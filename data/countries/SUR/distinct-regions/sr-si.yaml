@@ -1,0 +1,80 @@
+code: SR-SI
+name:
+  eng: Interior — Sipaliwini & Brokopondo
+  local:
+    - languageCode: nld
+      value: Binnenland
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — hot and humid in the forested interior."
+landmarks:
+  - name: Central Suriname Nature Reserve
+    description: "UNESCO World Heritage — vast primary rainforest (Raleighvallen, Voltzberg)."
+    unescoWorldHeritage: true
+  - name: Brownsberg Nature Park
+    description: "Interior park overlooking the Brokopondo reservoir."
+  - name: Brokopondo reservoir
+    description: "One of the world's largest artificial lakes."
+  - name: Maroon and indigenous villages
+    description: "Saramaccan, Ndyuka, Carib and Arawak communities of the interior."
+culturalTraits:
+  - "Maroon (Saramaccan, Ndyuka) and indigenous (Carib, Arawak, Trio, Wayana) homelands"
+  - "Communal lands with their own languages, governance and traditions"
+  - "Gold-mining and riverine economy"
+  - "Rainforest subsistence and eco-tourism"
+prideOf:
+  - "The Central Suriname Nature Reserve and pristine rainforest"
+  - "Maroon and indigenous heritage"
+  - "Self-reliant riverine communities"
+animals:
+  popular:
+    - "Jaguar"
+    - "Giant river otter"
+    - "Sloth"
+    - "Capybara"
+    - "Harpy eagle"
+  unique:
+    - "Giant armadillo"
+    - "Black caiman"
+    - "Goliath birdeater spider"
+industries:
+  - "Gold mining"
+  - "Timber"
+  - "Eco-tourism"
+  - "Subsistence agriculture and fishing"
+sports:
+  - "Football (soccer)"
+  - "Boat/river sports"
+entertainment:
+  - season: allYear
+    items:
+      - "Rainforest and river trips"
+      - "Maroon and indigenous heritage events"
+  - season: dry
+    items:
+      - "Best access to the interior and gold-mining areas"
+  - season: wet
+    items:
+      - "River travel and indoor/community events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Cassava and cassava bread (Maroon staple)"
+      - "River fish and game"
+      - "Saramaccan coconut stews"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kartya (Maroon headwrap) and woven textiles"
+      - "Light tropical wear"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 8, 9, 10, 11]
+  - season: wet
+    months: [1, 4, 5, 6, 7, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Mining/ranching around daylight; village life follows a relaxed rhythm."
+  lunchBreakTiming: "A midday break is common."
+  notes: "Interior access is strongly seasonal; wet-season rains can disrupt river and road travel."

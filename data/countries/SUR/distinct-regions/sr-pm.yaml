@@ -1,0 +1,73 @@
+code: SR-PM
+name:
+  eng: Paramaribo & north coast
+  local:
+    - languageCode: nld
+      value: Paramaribo
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — hot and humid year-round in the coastal capital belt."
+landmarks:
+  - name: Historic inner city of Paramaribo
+    description: "UNESCO World Heritage — preserved Dutch colonial wooden architecture."
+    unescoWorldHeritage: true
+  - name: Waterkant & Independence Square
+    description: "The riverside social heart of the capital."
+  - name: Marius Rust & Commewijne plantations
+    description: "Historic plantation district along the Suriname River mouth."
+culturalTraits:
+  - "Multi-ethnic capital and economic hub — home to roughly half the population"
+  - "Dutch and Sranan Tongo dominant; UNESCO-listed historic centre"
+  - "The riverside Waterkant social culture"
+prideOf:
+  - "The UNESCO-listed historic inner city"
+  - "Being the seat of government and the economic engine"
+animals:
+  popular:
+    - "Capybara (riverbanks)"
+    - "Sloth"
+  unique: []
+industries:
+  - "Government, finance and services"
+  - "Port and commerce (Paramaribo harbour)"
+  - "Food processing and light manufacturing"
+  - "Tourism"
+sports:
+  - "Football (soccer)"
+  - "Cricket"
+  - "Basketball"
+entertainment:
+  - season: allYear
+    items:
+      - "Waterkant riverside life and street markets"
+      - "Football and cricket"
+      - "Kaseko/kawina music scene"
+  - season: dry
+    items:
+      - "Carnival and street festivals (early year, dry season)"
+  - season: wet
+    items:
+      - "Indoor/cultural events during heavy rain"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Roti and bami"
+      - "Pom"
+      - "Moksi meti"
+      - "Fresh river/coconut dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Koto and angisa (Creole women's dress)"
+      - "Urban casual wear"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 8, 9, 10, 11]
+  - season: wet
+    months: [1, 4, 5, 6, 7, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government/offices ~07:30-15:30 or 08:00-16:00 Mon-Fri; retail Mon-Sat."
+  lunchBreakTiming: "A midday break is common."
+  notes: "The commercial and administrative heart of the country; Sunday rest day."

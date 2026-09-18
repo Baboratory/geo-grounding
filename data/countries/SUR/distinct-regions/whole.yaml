@@ -1,0 +1,128 @@
+code: WHOLE
+name:
+  eng: Suriname
+  local:
+    - languageCode: nld
+      value: Republiek Suriname
+# Generic country-wide fallback content for Suriname (unitary-large). Used via
+# the 'whole-country-fallback' path when a visitor's specific district isn't one
+# of the curated files (SR-PM Paramaribo, SR-NI West/Nickerie-Coronie, SR-SI
+# Interior/Sipaliwini-Brokopondo).
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate — hot and humid year-round (~27°C average), heavy rainfall (2000-2300 mm/yr)."
+landmarks:
+  - name: Historic inner city of Paramaribo
+    description: "UNESCO World Heritage Site — preserved Dutch colonial wooden architecture."
+    unescoWorldHeritage: true
+  - name: Central Suriname Nature Reserve
+    description: "UNESCO World Heritage — vast primary tropical rainforest (Raleighvallen, Voltzberg)."
+    unescoWorldHeritage: true
+  - name: Brownsberg Nature Park
+    description: "Interior park on the Mazaroni plateau overlooking the Brokopondo reservoir."
+  - name: Bigi Pan Nature Reserve
+    description: "West coast mangrove/wetland rich in birdlife (Nickerie)."
+culturalTraits:
+  - "One of the world's most ethnically diverse countries — no ethnic majority"
+  - "Proud 'multi-culti' coexistence (Hindustani, Maroon, Creole, Javanese, indigenous, Chinese, European)"
+  - "Fusion cuisine (roti, bami, moksi meti, pom, Javanese dishes)"
+  - "Music: kaseko, kawina, and festive street life"
+prideOf:
+  - "Ethnic harmony and diversity"
+  - "Amazon rainforest and natural heritage"
+  - "Independence (1975, the sole Dutch-speaking state in South America)"
+animals:
+  popular:
+    - "Capybara"
+    - "Jaguar"
+    - "Toucans"
+    - "Giant river otter"
+    - "Sloth"
+  unique:
+    - "Black caiman"
+    - "Giant anteater"
+    - "Harpy eagle"
+    - "Goliath birdeater spider"
+industries:
+  - "Gold mining"
+  - "Oil and petroleum"
+  - "Bauxite/alumina (legacy)"
+  - "Rice and agriculture (Nickerie)"
+  - "Timber"
+  - "Eco-tourism"
+sports:
+  - "Association football (soccer)"
+  - "Cricket"
+  - "Basketball"
+  - "Martial arts"
+religions:
+  - name: Christianity (Protestant ~26%, Roman Catholic ~22%)
+    percent: 48.4
+    sourceId: state-religious-freedom
+  - name: Hinduism
+    percent: 22.3
+    sourceId: state-religious-freedom
+  - name: Islam
+    percent: 13.9
+    sourceId: state-religious-freedom
+  - name: No religion / atheist-agnostic
+    percent: 7.5
+    sourceId: state-religious-freedom
+  - name: Winti (Afro-Surinamese spirit tradition)
+    percent: 1.8
+    sourceId: state-religious-freedom
+  - name: Javanese tradition (Kejawen)
+    percent: 0.8
+    sourceId: state-religious-freedom
+  - name: Other religion
+    percent: 0.9
+    sourceId: state-religious-freedom
+  - name: Not stated
+    percent: 3.2
+    sourceId: state-religious-freedom
+entertainment:
+  - season: allYear
+    items:
+      - "Kaseko and kawina music"
+      - "Street festivals"
+      - "Football matches"
+      - "Carnival (early year)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Roti (Hindustani)"
+      - "Bami"
+      - "Moksi meti"
+      - "Pom (Creole chicken/taro bake)"
+      - "Nasi goreng and Javanese dishes"
+      - "Cassava"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Koto and angisa (Creole women's dress)"
+      - "Kartya (Maroon headwrap)"
+      - "Sarafi/sarong (Javanese)"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 8, 9, 10, 11]
+  - season: wet
+    months: [1, 4, 5, 6, 7, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 07:30-15:30 or 08:00-16:00 Mon-Fri; retail often open Mon-Sat."
+  lunchBreakTiming: "A midday break is common."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Reduced business over the holidays."
+    - period: "Important public holidays"
+      description: "Independence Day (25 Nov), Keti Koti (1 Jul), and religious festivals (Divali, Eid)."
+  notes: "A largely cash-based economy with digitizing banking; Sunday is widely a rest day."
+sources:
+  - id: state-religious-freedom
+    name: "2022 Report on International Religious Freedom: Suriname"
+    publisher: "U.S. Department of State"
+    url: "https://2021-2025.state.gov/reports/2022-report-on-international-religious-freedom/suriname/"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "Religious composition from the 2012 census as reported: Christian 48.4%, Hindu 22.3%, Muslim 13.9%, no religion 7.5%, Winti 1.8%, Javanism 0.8%, other 0.9%, not stated 3.2%."

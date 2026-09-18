@@ -1,0 +1,181 @@
+alpha3: SUR
+alpha2: SR
+name:
+  eng: Suriname
+  local:
+    - languageCode: nld
+      value: Republiek Suriname
+flagEmoji: "🇸🇷"
+capital: Paramaribo
+isSovereign: true
+# Classified unitary-large: Suriname meets 2 of the 3 DESIGN.md criteria even
+# though its ~0.6M population is far below the 20-25M threshold. (2) Officially
+# recognized minority/heritage languages: Dutch is the sole de jure official
+# language, but the State recognizes numerous heritage minority languages of
+# distinct Maroon and indigenous communities (Saramaccan and other Maroon
+# creoles; Carib/Kari'nja and Arawak/Lokono), and Sranan Tongo serves as a
+# national lingua franca (SIL Suriname, Dutch Language Union). (3) A widely
+# recognized coast-vs-interior regional divide: the Maroon and indigenous peoples
+# of the forested interior (Sipaliwini, Brokopondo) with communal lands and
+# languages are culturally distinct from the multi-ethnic coastal population.
+# Curated regions: Paramaribo/north coast (SR-PM), West/Nickerie-Coronie (SR-NI),
+# Interior/Sipaliwini-Brokopondo (SR-SI) + WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: "SR"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: nld
+    domain: official
+    speakersShare: 1.0
+    sourceId: taalunie-constitution
+  - languageCode: nld
+    domain: locallySpoken
+    speakersShare: 0.6
+    sourceId: taalunie-constitution
+  - languageCode: srn
+    domain: locallySpoken
+    speakersShare: 0.8
+    sourceId: sil-suriname
+  - languageCode: hns
+    domain: locallySpoken
+    speakersShare: 0.15
+    sourceId: sil-suriname
+  - languageCode: jav
+    domain: locallySpoken
+    speakersShare: 0.14
+    sourceId: sil-suriname
+  - languageCode: srm
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: sil-suriname
+  - languageCode: car
+    domain: locallySpoken
+    speakersShare: 0.008
+    sourceId: sil-suriname
+  - languageCode: arw
+    domain: locallySpoken
+    speakersShare: 0.008
+    sourceId: sil-suriname
+# Dutch (nld) is the SOLE official language of the Republic (de jure) — used in
+# government, law, education and media. Sranan Tongo (srn) is the national
+# lingua franca spoken across all ethnic groups alongside Dutch. Sarnami
+# Hindustani (hns, ISO 639-3 shared with the Caribbean pool), Surinamese
+# Javanese (jav), Saramaccan (srm, a Maroon creole), Carib (car) and Arawak
+# (arw) are heritage minority languages. There is no language-proficiency census
+# in Suriname, so all locallySpoken shares are ESTIMATES (based on ethnic shares,
+# SIL data and linguistic literature).
+ethnicGroups:
+  # ABS Census 8 (2012) — total population 541,638.
+  - group: Hindustani (East Indian)
+    percent: 27.4
+    sourceId: abs-census-2012
+  - group: Maroon
+    percent: 21.7
+    sourceId: abs-census-2012
+  - group: Creole (Afro-Surinamese)
+    percent: 15.7
+    sourceId: abs-census-2012
+  - group: Javanese
+    percent: 13.7
+    sourceId: abs-census-2012
+  - group: Mixed (Gemengd)
+    percent: 13.4
+    sourceId: abs-census-2012
+  - group: Other (incl. Indigenous ~3.8%, Chinese ~1.5%, European ~0.3%)
+    percent: 7.6
+    sourceId: abs-census-2012
+  - group: Unknown / not stated
+    percent: 0.6
+    sourceId: abs-census-2012
+timezones:
+  - name: America/Paramaribo
+    standardUtcOffset: "UTC-3"
+    observesDst: false
+currency:
+  code: SRD
+  symbol: "SRD $"
+  name: Surinamese dollar
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Suriname is NOT an EU member or EEA state. EU directives (GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year consumer guarantee) do NOT apply directly; national law governs."
+    sourceId: constitution-sovereignty
+  - topic: "official language"
+    description: "Dutch is the sole official language of the Republic of Suriname — official documents, legislation and government business are conducted in Dutch."
+    sourceId: taalunie-constitution
+paymentCulture:
+  popularMethods:
+    - "Cash — still widely used for everyday retail and informal trade"
+    - "Debit cards / ATM (bank debit cards widely held)"
+    - "Local bank transfers and credit cards (Visa/Mastercard, limited merchant acceptance)"
+    - "Mobile and internet banking — growing; a largely cash-based but digitizing banking sector"
+    - "US dollars in circulation/used informally in parallel with SRD"
+  tipping:
+    expected: true
+    typicalAmount: "Around 10% in sit-down restaurants where no service charge is included"
+    autoIncludedInBill: false
+    note: "Tipping is customary but modest; round up for taxis and small services. No service charge is typically auto-added. USD is widely accepted informally alongside the SRD."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Dutch is used in official/business settings with titles and formality; everyday Surinamese interaction is warm, relaxed and informal (spoken in Sranan Tongo or Dutch). A first-name basis develops quickly once acquaintance is established."
+  greetingNorms: "Warm, friendly greeting and direct eye contact; handshake in formal settings. 'Fa waka' (Sranan) / 'Hoe gaat het?' (Dutch)."
+  meetingEtiquette: "Relationship- and trust-based; build rapport before diving into business. 'Suriname time' (relaxed punctuality) is a recognized cultural quirk — arrive on time yourself but expect some flexibility. Decisions often rest with senior figures and may take time."
+  topicsToAvoid:
+    - "Ethnic tensions / race-based generalizations"
+    - "Domestic politics and the 1980s military dictatorship"
+    - "Casual stereotyping of any ethnic group"
+  giftGivingNotes: "Not expected at business meetings; a small thoughtful gift is welcome once a relationship forms. Gift-giving centers on festivals (Divali, Eid, Christmas, Keti Koti) more than business protocol."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: SR-PM
+    file: distinct-regions/sr-pm.yaml
+    adminUnitCodes: [SR-PM]
+  - code: SR-NI
+    file: distinct-regions/sr-ni.yaml
+    adminUnitCodes: [SR-NI, SR-CR]
+  - code: SR-SI
+    file: distinct-regions/sr-si.yaml
+    adminUnitCodes: [SR-SI, SR-BR]
+sources:
+  - id: abs-census-2012
+    name: "Achtste Volks- en Woningtelling — Census 8, Volume 1 (2012 Census)"
+    publisher: "Algemeen Bureau voor de Statistiek Suriname (ABS)"
+    url: "https://statistics-suriname.org/wp-content/uploads/2019/05/Publicatie-Census-8-Volume-1-Demografische-en-Sociale-Karakteristieken-en-Migratie.pdf"
+    year: 2012
+    accessedDate: "2026-09-17"
+    note: "Ethnic composition (Hindustani 27.4%, Maroon 21.7%, Creole 15.7%, Javanese 13.7%, Mixed 13.4%, Other 7.6%, Unknown 0.6%) and religious composition (Christian 48.4%, Hindu 22.3%, Muslim 13.9%, no religion 7.5%, Winti 1.8%, Javanism 0.8%, other 0.9%, not stated 3.2%). Total enumerated population 541,638."
+  - id: taalunie-constitution
+    name: "Constitution of the Republic of Suriname (1987) & Dutch Language Union (Taalunie) research"
+    publisher: "Dutch Language Union (Taalunie) / Republic of Suriname"
+    url: "https://www.taalunie.org/over-de-taalunie/een-extra-nationale-taal-taalbeleid-in-suriname"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "Dutch as the sole official language of Suriname (only Dutch-speaking state in South America); Taalunie research that Dutch is the native/home language of ~60% of Surinamese. Supports the nld official 1.0 row and locallySpoken 0.6 estimate. Population ~632,638 (mid-2022) corroborates population figures."
+  - id: sil-suriname
+    name: "Languages of Suriname (SIL Suriname)"
+    publisher: "SIL International Suriname"
+    url: "https://suriname-languages.sil.org/"
+    year: 2026
+    accessedDate: "2026-09-17"
+    note: "Documents Sranan Tongo, Sarnami Hindustani, Saramaccan, Carib (Kari'nja) and Arawak/Lokono; Sranan as lingua franca; ISO 639-3 code verification (srn, hns, srm, car, arw). Shares are estimates."
+  - id: state-religious-freedom
+    name: "2022 Report on International Religious Freedom: Suriname"
+    publisher: "U.S. Department of State"
+    url: "https://2021-2025.state.gov/reports/2022-report-on-international-religious-freedom/suriname/"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "Population estimate ~633,000 (midyear 2022); religion overview; notes indigenous ~3% and Maroon religious traditions. Use for the whole.yaml religions and population context."
+  - id: cbvs-currency
+    name: "Central Bank of Suriname (Centrale Bank van Suriname, CBvS)"
+    publisher: "Centrale Bank van Suriname"
+    url: "https://www.cbvs.sr/"
+    year: 2026
+    accessedDate: "2026-09-17"
+    note: "Surinamese dollar (SRD) is the official currency and CBvS the monetary authority."
+  - id: constitution-sovereignty
+    name: "Constitution of the Republic of Suriname (1987, as amended)"
+    publisher: "Republic of Suriname (WIPO Lex / OAS)"
+    url: "https://www.oas.org/juridico/pdfs/mesicic4_sur_const.pdf"
+    year: 1987
+    accessedDate: "2026-09-17"
+    note: "Confirms Suriname is a sovereign, independent democratic republic with freedom of religion and non-discrimination. Basis for the non-EU legal constraint and sovereignty classification."
