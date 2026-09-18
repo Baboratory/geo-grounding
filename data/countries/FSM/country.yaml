@@ -1,0 +1,229 @@
+alpha3: FSM
+alpha2: FM
+name:
+  eng: Federated States of Micronesia
+  local:
+    # English is the common working name; there is no single indigenous endonym
+    # covering all four federated states, so only the English name is given.
+    - languageCode: eng
+      value: Federated States of Micronesia
+flagEmoji: "🇫🇲"
+capital: Palikir
+isSovereign: true
+# Classified federal: a constitutional federation of four states (Yap, Chuuk,
+# Pohnpei and Kosrae), each with its own elected government, legislature and
+# state constitution, under the national Constitution and in free association
+# (Compact of Free Association) with the United States. Real ISO 3166-2
+# subdivisions (FM-YAP/FM-CHU/FM-PON/FM-KOS) plus the WHOLE fallback.
+governanceType: federal
+iso3166_2_prefix: FM
+hasSubdivisions: true
+languageUsage:
+  # English is the working language of the national Government (Congress
+  # proceedings, FSM Constitution Art. IX s.19) and co-official in every state
+  # constitution; the four state languages are official at state level. All
+  # official rows carry the 1.0 legal-status flag per this dataset's rule.
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: fsm-constitution
+  - languageCode: chk
+    domain: official
+    speakersShare: 1.0
+    sourceId: chuuk-constitution
+  - languageCode: pon
+    domain: official
+    speakersShare: 1.0
+    sourceId: pohnpei-constitution
+  - languageCode: kos
+    domain: official
+    speakersShare: 1.0
+    sourceId: kosrae-constitution
+  - languageCode: yap
+    domain: official
+    speakersShare: 1.0
+    sourceId: yap-constitution
+  # Ulithian is one of the 'indigenous languages of the State' made official for
+  # Yap by Art. XIV s.5; listed as a locallySpoken indigenous language of the
+  # outer islands rather than a 1.0 national official to keep the official set
+  # meaningful (same narrowing philosophy applied to BOL's many official langs).
+  - languageCode: uli
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: yap-constitution
+  # LocallySpoken shares for the four state languages are census/ethnic-derived
+  # estimates (state populations / ethnic shares as a proxy for speaker counts).
+  - languageCode: chk
+    domain: locallySpoken
+    speakersShare: 0.45
+    sourceId: census-2023
+  - languageCode: pon
+    domain: locallySpoken
+    speakersShare: 0.34
+    sourceId: census-2023
+  - languageCode: kos
+    domain: locallySpoken
+    speakersShare: 0.07
+    sourceId: census-2023
+  - languageCode: yap
+    domain: locallySpoken
+    speakersShare: 0.14
+    sourceId: census-2023
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.65
+    sourceId: composite-estimate
+# ethnicGroups (CIA World Factbook 2010 estimate; the country's ethnic groups map
+# closely to its four states).
+ethnicGroups:
+  - group: Chuukese/Mortlockese
+    percent: 49.3
+    sourceId: world-factbook-ethnic
+  - group: Pohnpeian
+    percent: 29.8
+    sourceId: world-factbook-ethnic
+  - group: Kosraean
+    percent: 6.3
+    sourceId: world-factbook-ethnic
+  - group: Yapese
+    percent: 5.7
+    sourceId: world-factbook-ethnic
+  - group: Yap outer islanders
+    percent: 5.1
+    sourceId: world-factbook-ethnic
+  - group: Polynesian
+    percent: 1.6
+    sourceId: world-factbook-ethnic
+  - group: Asian
+    percent: 1.4
+    sourceId: world-factbook-ethnic
+  - group: Other
+    percent: 0.8
+    sourceId: world-factbook-ethnic
+timezones:
+  - name: Pacific/Chuuk
+    standardUtcOffset: "UTC+10"
+    observesDst: false
+  - name: Pacific/Guadalcanal
+    standardUtcOffset: "UTC+11"
+    observesDst: false
+currency:
+  code: USD
+  symbol: "$"
+  name: United States dollar
+legalConstraints:
+  - topic: "official languages"
+    description: "English is the working language of the national Government (FSM Constitution Art. IX s.19); each state constitution declares its own language(s) co-official with English — Chuukese, Pohnpeian, Kosraean and Yapese (Yap also makes the outer-island 'indigenous languages of the State' official, incl. Ulithian)."
+    sourceId: fsm-constitution
+  - topic: "land ownership (alien)"
+    description: "Land and waters are reserved to FSM citizens: non-citizens and corporations not wholly owned by citizens may not acquire title to land, and indefinite-term land leases to non-citizens/governments are constitutionally prohibited (FSM Constitution Art. XIII s.5)."
+    sourceId: fsm-constitution-land
+  - topic: "currency / monetary"
+    description: "The United States dollar is the official currency and Micronesia has no central bank; monetary data is compiled by the FSM Banking Board and there are only two commercial banks, so card/EFT coverage is limited and cash dominates."
+    sourceId: investment-climate
+paymentCulture:
+  popularMethods:
+    - "US-dollar cash — the everyday default, especially on outer islands where ATMs are scarce"
+    - "Cards and bank transfers — available through the two commercial banks mainly on the state capitals"
+    - "Government payroll and Compact-fund transfers are largely bank-mediated, but retail is cash-heavy"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary; a modest thank-you for guides and dive staff is appreciated but not expected"
+    autoIncludedInBill: false
+    note: "Card/ATM coverage is thin outside the state capitals; carry cash when traveling between islands."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Warm, community-based and respectful; deference to chiefs and elders. English is standard in government/education; each state's language anchors daily life."
+  greetingNorms: "Warm verbal greetings ('Alii', handshake or a nod); in villages, courtesy and offering food/hospitality matter more than formal titles."
+  meetingEtiquette: "Relationship- and trust-driven; build rapport before business. Punctuality is relaxed; consensus and respect for chieftaincy are valued."
+  topicsToAvoid:
+    - "Land title and ownership disputes"
+    - "The Compact of Free Association and US relations can be politically sensitive"
+    - "Sensitivities around nuclear-testing history and US base leases"
+  giftGivingNotes: "A small thoughtful gift is appreciated; traditional reciprocity and hospitality (sharing food) are central to community life."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: FM-YAP
+    file: distinct-regions/yap.yaml
+    adminUnitCodes: [FM-YAP]
+  - code: FM-CHK
+    file: distinct-regions/chuuk.yaml
+    adminUnitCodes: [FM-CHK]
+  - code: FM-PON
+    file: distinct-regions/pohnpei.yaml
+    adminUnitCodes: [FM-PON]
+  - code: FM-KOS
+    file: distinct-regions/kosrae.yaml
+    adminUnitCodes: [FM-KOS]
+sources:
+  - id: fsm-constitution
+    name: "Constitution of the Federated States of Micronesia"
+    publisher: "FSM Legal Information System"
+    url: "http://www.fsmlaw.org/fsm/constitution/constitution.htm"
+    year: 1979
+    accessedDate: "2026-09-18"
+    note: "Art. IX s.19 (English the working language of Congress); Art. XIII s.5 (land reserved to citizens). Basis for the eng official row and land constraint."
+  - id: chuuk-constitution
+    name: "Constitution of the State of Chuuk"
+    publisher: "FSM Legal Information System"
+    url: "https://fsmlaw.org/chuuk/constitution/entire.htm"
+    year: 1979
+    accessedDate: "2026-09-18"
+    note: "Art. III s.6 makes Chuukese and English the official languages of the State. Basis for the chk official row."
+  - id: pohnpei-constitution
+    name: "Constitution of the State of Pohnpei"
+    publisher: "FSM Legal Information System"
+    url: "https://fsmlaw.org/pohnpei/constitution/entire.htm"
+    year: 1979
+    accessedDate: "2026-09-18"
+    note: "Art. 13 s.1 makes Pohnpeian and English the official languages for the Pohnpei Government. Basis for the pon official row."
+  - id: kosrae-constitution
+    name: "Constitution of the State of Kosrae"
+    publisher: "FSM Legal Information System"
+    url: "https://fsmlaw.org/kosrae/constitution/a13.htm"
+    year: 1979
+    accessedDate: "2026-09-18"
+    note: "Art. XIII makes Kosraean the language of the State (with English used). Basis for the kos official row."
+  - id: yap-constitution
+    name: "Constitution of the State of Yap"
+    publisher: "FSM Legal Information System"
+    url: "https://www.fsmlaw.org/yap/constitution/article14.htm"
+    year: 1979
+    accessedDate: "2026-09-18"
+    note: "Art. XIV s.5 makes the indigenous languages of the State (incl. Yapese and Ulithian) and English official. Basis for the yap official row and the uli locallySpoken entry."
+  - id: fsm-constitution-land
+    name: "FSM Constitution Art. XIII s.5 (land)"
+    publisher: "FSM Legal Information System"
+    url: "http://www.fsmlaw.org/fsm/constitution/constitution.htm"
+    year: 1979
+    accessedDate: "2026-09-18"
+    note: "Prohibits non-citizen and non-wholly-citizen-owned acquisition of land title and indefinite land leases."
+  - id: census-2023
+    name: "2023 FSM National Population Census"
+    publisher: "FSM Division of Statistics"
+    url: "https://stats.gov.fm"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "Total population 75,817. State totals used as a proxy for the locallySpoken shares of the state languages: Chuuk 33,885; Pohnpei 26,102; Kosrae 5,092; Yap 10,739. Shares are estimates derived from state populations. (Figure is contested — US/IMF estimate ~71k — but the official census figure is used.)"
+  - id: world-factbook-ethnic
+    name: "CIA World Factbook — Micronesia, Federated States people and society (2010 estimate)"
+    publisher: "CIA World Factbook (archival copy)"
+    url: "https://worldfactbookarchive.org/archive/2024/FM"
+    year: 2010
+    accessedDate: "2026-09-18"
+    note: "Ethnic composition (Chuukese/Mortlockese 49.3%, Pohnpeian 29.8%, Kosraean 6.3%, Yapese 5.7%, Yap outer islanders 5.1%, Polynesian 1.6%, Asian 1.4%, other 0.8%)."
+  - id: investment-climate
+    name: "US State Dept Investment Climate Statement — FSM; FSM Code Title 57"
+    publisher: "US Department of State / FSM Code"
+    url: "http://www.fsmlaw.org/fsm/code/PDF/FSMCA2014Tit57.pdf"
+    year: 2014
+    accessedDate: "2026-09-18"
+    note: "US dollar is legal tender and official currency; no central bank (FSM Code Title 57 s.101); only two commercial banks; cash dominates because card/ATM coverage is thin."
+  - id: composite-estimate
+    name: "Composite estimate — English coverage in the FSM"
+    publisher: "Composite estimate"
+    url: "https://stats.gov.fm"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "No authoritative English-proficiency census exists; English is the lingua franca of government, education and cross-island communication, so the locallySpoken share is an ESTIMATE."

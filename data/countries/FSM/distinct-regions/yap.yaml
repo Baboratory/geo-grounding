@@ -1,0 +1,91 @@
+code: FM-YAP
+name:
+  eng: Yap
+  local:
+    - languageCode: yap
+      value: Yap
+    - languageCode: eng
+      value: Yap
+# Westernmost state of the federation; Yap proper plus the outer-island atolls
+# (Ulithi, Woleai, Satawal, Fais). UTC+10 (the other three states are UTC+11).
+climates:
+  - koppenCode: Af
+    description: "Tropical marine — warm and wet year-round; Yap proper receives heavy rain in most months."
+landmarks:
+  - name: Stone money (rai) of Yap
+    description: "The enormous disc-shaped stone currency, some weighing several tonnes, still a cultural icon of Yap."
+  - name: Bechiyal village and traditional men's houses (faluw)
+    description: "Best-preserved traditional village life with faluw and stone-money pathways."
+  - name: Yap's traditional dances
+    description: "Famed stick and lovers' dances performed during festivals; a point of pride."
+culturalTraits:
+  - "The rai stone money tradition — discs transferred by renown, not moved physically"
+  - "Faluw (men's houses) and the matrilineal clan system"
+  - "Village councils and the authority of chiefship"
+  - "Yapese language (yap) plus outer-island languages Ulithian (uli), Woleaian (woe), Satawalese (stw)"
+prideOf:
+  - "The stone money — one of the world's most famous traditional currencies"
+  - "Living traditional culture and strong clan identity"
+  - "Pristine outer-island reefs (Ulithi)"
+animals:
+  popular:
+    - "Reef sharks"
+    - "Manta rays"
+    - "Sea turtles"
+    - "Flying foxes"
+  unique:
+    - "Yap flying fox"
+    - "Yap monarch (bird) and other endemic island birds"
+industries:
+  - "Subsistence agriculture and fishing"
+  - "Tourism (diving and cultural visits)"
+  - "Public sector employment"
+sports:
+  - "Baseball"
+  - "Basketball"
+  - "Traditional sailing and canoe races"
+religions:
+  - name: Christianity — Catholic and Protestant
+    percent: 90.0
+    sourceId: religion-factbook-state
+entertainment:
+  - season: allYear
+    items:
+      - "Stone-money village tours"
+      - "Traditional dance performances and faluw visits"
+      - "Diving the outer-island atolls"
+  - season: wet
+    items:
+      - "Indoor cultural and handicraft activities"
+  - season: dry
+    items:
+      - "Peak diving and outer-island boat trips (Jan-Apr)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Taro, breadfruit and cassava"
+      - "Fresh reef fish and tuna"
+      - "Pandanus fruit and coconut preparations"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light island clothing; traditional wrap-around (sulu) on formal occasions"
+      - "Leaf/fibre and shell adornments for ceremonies"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and shops roughly Mon-Fri; much of Saturday is working and Sunday is a rest day."
+  notes: "Small cash-based island economy centered on the Yap proper municipality of Colonia."
+sources:
+  - id: religion-factbook-state
+    name: "CIA World Factbook state-level religion (estimate)"
+    publisher: "CIA World Factbook (archival copy)"
+    url: "https://worldfactbookarchive.org/archive/2024/FM"
+    year: 2010
+    accessedDate: "2026-09-18"
+    note: "State-level religious affiliation is overwhelmingly Christian (largely Protestant and Catholic); figure is an approximation reconciling the national estimate."

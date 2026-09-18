@@ -1,0 +1,87 @@
+code: FM-CHK
+name:
+  eng: Chuuk
+  local:
+    - languageCode: chk
+      value: Chuuk
+    - languageCode: eng
+      value: Chuuk
+# Most populous state of the federation; the Chuuk (Truk) Lagoon of WWII-wreck
+# fame. Includes the outer islands. UTC+11.
+climates:
+  - koppenCode: Af
+    description: "Tropical marine — warm and wet year-round; rainfall is heavy in most months."
+landmarks:
+  - name: Truk Lagoon wrecks
+    description: "Over 60 WWII Japanese shipwrecks lying in clear, calm lagoon waters — the world's premier wreck-diving site."
+  - name: Tonnachau and the Mount Tonaachau viewpoint
+    description: "Overlook across the lagoon from Chuuk's main volcanic island."
+  - name: Chuuk State Museum (Weno)
+    description: "Local history and WWII-era museum in the state capital."
+culturalTraits:
+  - "Chefchiefly authority and strong clan identity in the Chuukic matrilineal system"
+  - "Chuukese (chk) as the everyday language alongside English"
+  - "A wartime heritage that is deeply woven into local memory"
+prideOf:
+  - "Truk Lagoon — the wreck-diving capital of the world"
+  - "Warm hospitality and strong family/community bonds"
+animals:
+  popular:
+    - "Reef sharks"
+    - "Barracuda and large lagoon fish"
+    - "Sea turtles"
+    - "Flying foxes"
+  unique:
+    - "Chuuk monarch (endemic bird)"
+industries:
+  - "Fisheries"
+  - "Dive tourism (wrecks)"
+  - "Public sector employment"
+sports:
+  - "Baseball"
+  - "Basketball"
+  - "Soccer"
+religions:
+  - name: Christianity — Catholic and Protestant
+    percent: 90.0
+    sourceId: religion-factbook-state
+entertainment:
+  - season: allYear
+    items:
+      - "Wreck diving in Truk Lagoon"
+      - "Snorkelling and island picnics"
+      - "WWII heritage tours around Weno"
+  - season: wet
+    items:
+      - "Museum and cultural activities"
+  - season: dry
+    items:
+      - "Peak diving window (drier Jan-Apr)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Breadfruit, taro and cassava"
+      - "Fresh lagoon fish and tuna"
+      - "Coconut and pandanus preparations"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light island clothing; wrap-around garments for formal occasions"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and shops roughly Mon-Fri; Sunday is a rest day."
+  notes: "Small cash-based economy centered on Weno, the state capital."
+sources:
+  - id: religion-factbook-state
+    name: "CIA World Factbook state-level religion (estimate)"
+    publisher: "CIA World Factbook (archival copy)"
+    url: "https://worldfactbookarchive.org/archive/2024/FM"
+    year: 2010
+    accessedDate: "2026-09-18"
+    note: "State-level religious affiliation is overwhelmingly Christian; figure is an approximation reconciling the national estimate."

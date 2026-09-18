@@ -1,0 +1,153 @@
+alpha3: PLW
+alpha2: PW
+name:
+  eng: Palau
+  local:
+    - languageCode: eng
+      value: Palau
+    - languageCode: pau
+      value: Belau
+flagEmoji: "🇵🇼"
+capital: Ngerulmud
+isSovereign: true
+# Classified unitary-small: a very small island republic (~17.6k, 2020 census).
+# Its 16 states are geographic/administrative divisions of the archipelago, not
+# recognized cultural-historical regions, and Palauan and English are co-official
+# at NATIONAL level (Constitution Art. XIII Sec. 1) — a national-language
+# situation, not a region-bearing one. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  # Palauan and English are both de jure official (Constitution Art. XIII Sec. 1).
+  - languageCode: pau
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution
+  # Real usage: Palauan is the majority first language; English is the working
+  # language of government, law and commerce. Both are estimates (no
+  # language-proficiency census exists; ethical/ethnic and usage data are
+  # partial).
+  - languageCode: pau
+    domain: locallySpoken
+    speakersShare: 0.75
+    sourceId: composite-estimate
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.60
+    sourceId: composite-estimate
+# The small outer-island indigenous languages Sonsorolese ('sov') and Tobian
+# ('tox'), plus the historically significant Japanese second-language usage,
+# are deliberately NOT modeled as locallySpoken rows: no authoritative census
+# speakersShare exists for any of them, so adding shares would fabricate figures.
+# Per the source-grounding rule, they are omitted (see sources note).
+ethnicGroups:
+  # 2020 national census; the census aggregates all Asian nationalities into one
+  # 'Asian' bucket (the Filipino community is the largest part of it).
+  - group: Palauan (Micronesian)
+    percent: 70.6
+    sourceId: census-2020
+  - group: Asian (incl. Filipino, Chinese, Japanese, Vietnamese)
+    percent: 26.5
+    sourceId: census-2020
+  - group: Carolinian
+    percent: 1.2
+    sourceId: census-2020
+  - group: Other / unspecified
+    percent: 1.7
+    sourceId: census-2020
+timezones:
+  - name: Pacific/Palau
+    standardUtcOffset: "UTC+9"
+    observesDst: false
+currency:
+  code: USD
+  symbol: "$"
+  name: United States dollar
+legalConstraints:
+  - topic: "official languages"
+    description: "Palauan and English are the co-official languages (Constitution Art. XIII Sec. 1). English functions as the working/administrative language and the language of law."
+    sourceId: constitution
+  - topic: "land ownership (alien)"
+    description: "Only Palauan citizens and corporations wholly owned by citizens may acquire title to land or waters (Constitution Art. XIII Sec. 8). The 19th and 20th Amendments (2008) permit non-citizens to lease land for up to 99 years and allow foreign governments to acquire title for diplomatic purposes."
+    sourceId: constitution-land
+  - topic: "currency / monetary"
+    description: "Palau is fully dollarized — the US dollar is the official currency and the country has no central bank; the Palau Financial Institutions Commission is the financial regulator."
+    sourceId: investment-climate
+paymentCulture:
+  popularMethods:
+    - "US-dollar cash — common, especially in smaller/outlying areas"
+    - "Credit/debit cards — accepted at hotels, dive shops, restaurants and larger retailers"
+    - "Bank transfers from the FDIC-insured US-headquartered banks operating in Palau"
+  tipping:
+    expected: false
+    typicalAmount: "Not strongly customary; a 'thank you' tip for tour guides and dive staff is appreciated but not expected"
+    autoIncludedInBill: false
+    note: "Cash is expected in smaller/outlying settlements; cards work well in Koror and the main tourist areas. No foreign-exchange friction since the currency is USD."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Warm, respectful and community-centered; elders (including the traditional councils) are given deference. English is standard in government and tourism; Palauan anchors daily life."
+  greetingNorms: "'Alii' (Palauan for greeting) with a warm smile; a handshake is common in official settings. In villages, traditional courtesy and shared food/showing hospitality matter."
+  meetingEtiquette: "Relationship- and trust-driven; taking time to build rapport before business is expected. Punctuality is relaxed. The traditional council of chiefs (Rubekul beluu) carries real authority in community matters."
+  topicsToAvoid:
+    - "Land and title disputes"
+    - "The legacy of the Japanese mandate and WWII occupation"
+    - "Sensitivities around customary vs. foreign ownership of land"
+  giftGivingNotes: "A small thoughtful gift is welcome once a relationship forms; traditional reciprocity and showing mana (respect) through hospitality are valued over material gifts."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: constitution
+    name: "Constitution of the Republic of Palau (1992)"
+    publisher: "Constitute Project / Palau Constitution"
+    url: "https://constituteproject.org/constitution/Palau_1992"
+    year: 1992
+    accessedDate: "2026-09-18"
+    note: "Art. XIII Sec. 1 makes Palauan and English the official languages. Basis for the pau/eng official 1.0 rows."
+  - id: constitution-land
+    name: "Constitution of the Republic of Palau — land provisions and 2008 amendments"
+    publisher: "Pacific Islands Legal Information Institute (PacLII)"
+    url: "https://paclii.org/pw/constitution.html"
+    year: 2008
+    accessedDate: "2026-09-18"
+    note: "Art. XIII Sec. 8 (citizen-only land acquisition) and the 2008 amendments (99-year leases to non-citizens, diplomatic title)."
+  - id: census-2020
+    name: "2020 Census of Population, Housing and Agriculture"
+    publisher: "Republic of Palau, Ministry of Finance (population census)"
+    url: "https://www.palaugov.pw/wp-content/uploads/2022/09/2020-Census-of-Population-and-Housing.pdf"
+    year: 2020
+    accessedDate: "2026-09-18"
+    note: "Total enumerated population 17,614. Ethnic self-identification (Palauan 70.6%, combined Asian 26.5%, Carolinian 1.2%, other 1.7%). The 2020 tables aggregate all Asian nationalities into one bucket."
+  - id: iso-pau
+    name: "ISO 639-3 entry: pau — Palauan"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/pau"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Verifies ISO 639-3 code pau = Palauan. Sonsorol ('sov') and Tobian ('tox') are also active ISO codes but were not added as locallySpoken rows for lack of an authoritative speakersShare figure."
+  - id: investment-climate
+    name: "US State Dept Investment Climate Statement — Palau"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/wp-content/uploads/2025/09/638719_2025-Palau-Investment-Climate-Statement.pdf"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "Palau uses the US dollar and has no central bank; the Palau Financial Institutions Commission is the regulator; three FDIC-insured US banks operate there."
+  - id: religion-irf
+    name: "US State Dept 2023 Report on International Religious Freedom — Palau"
+    publisher: "US Department of State"
+    url: "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/palau"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "2020-census religious composition as reported in the IRF: ~47% Roman Catholic, 25% evangelical/other Christian, 5% Seventh-day Adventist, 5% Modekngei, 5% Muslim."
+  - id: composite-estimate
+    name: "Composite estimate — Palauan/English coverage"
+    publisher: "Composite estimate"
+    url: "https://constituteproject.org/constitution/Palau_1992"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "No language-proficiency census exists for Palau. Palauan is the majority first language and English the working language of government/commerce; locallySpoken shares are ESTIMATES."
