@@ -1,0 +1,163 @@
+alpha3: KIR
+alpha2: KI
+name:
+  eng: Kiribati
+  local:
+    - languageCode: eng
+      value: Republic of Kiribati
+    - languageCode: gil
+      value: Ribaberiki Kiribati
+flagEmoji: "🇰🇮"
+capital: South Tarawa
+isSovereign: true
+# Classified unitary-small: Kiribati does NOT meet the unitary-large criteria.
+# It is a small Micronesian atoll state (~115k, 2023 est.) with no federal
+# structure. Gilbertese and English are official national languages; the
+# Gilbert/Phoenix/Line island groups are geographic (and span three timezones),
+# not a widely recognized cultural-historical regional identity meriting
+# curation. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: gil
+    domain: official
+    speakersShare: 1.0
+    sourceId: cwf-languages
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: cwf-languages
+  - languageCode: gil
+    domain: locallySpoken
+    speakersShare: 0.96
+    sourceId: gil-usage
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.2
+    sourceId: eng-estimate
+# Gilbertese (I-Kiribati, 'gil') and English are both official. Gilbertese is the
+# everyday language of the vast majority (~96% locallySpoken); English is used in
+# government, law and education but does NOT dominate daily conversation (the
+# ~0.2 locallySpoken share is an ESTIMATE; literacy in English is higher ~80%).
+ethnicGroups:
+  # CIA World Factbook, 2020 est.
+  - group: I-Kiribati
+    percent: 95.78
+    sourceId: cwf-ethnic
+  - group: I-Kiribati / mixed
+    percent: 3.8
+    sourceId: cwf-ethnic
+  - group: Tuvaluan
+    percent: 0.2
+    sourceId: cwf-ethnic
+  - group: Other
+    percent: 1.7
+    sourceId: cwf-ethnic
+timezones:
+  - name: Pacific/Tarawa
+    standardUtcOffset: "UTC+12"
+    observesDst: false
+  - name: Pacific/Enderbury
+    standardUtcOffset: "UTC+13"
+    observesDst: false
+  - name: Pacific/Kiritimati
+    standardUtcOffset: "UTC+14"
+    observesDst: false
+# Kiribati has the largest longitudinal spread of any country (~4,000 km) and
+# spans three timezones: the Gilbert Islands (incl. capital, UTC+12, Pacific/
+# Tarawa), the Phoenix Islands (UTC+13, Pacific/Enderbury) and the Line Islands
+# incl. Kiritimati/Christmas Is. (UTC+14, Pacific/Kiritimati — the earliest
+# timezone on Earth). No part observes DST. In 1995 Kiribati moved the
+# International Date Line east so the whole country shares one calendar day.
+currency:
+  code: AUD
+  symbol: "$"
+  name: Australian dollar
+legalConstraints:
+  - topic: "official languages"
+    description: "Gilbertese (I-Kiribati) and English are both official languages (Constitution of Kiribati). Gilbertese is the language of daily life; English is used in government and the courts."
+    sourceId: cwf-languages
+  - topic: "customary land tenure"
+    description: "Foreigners CANNOT own land in Kiribati. Under the Native Lands Ordinance, native land may not be alienated (sale, gift, lease or otherwise) to a non-native; foreigners may only LEASE (commonly up to 30-99 years) with ministerial/Cabinet approval and registration."
+    sourceId: land-ordinance
+  - topic: "Sunday observance"
+    description: "Sunday is widely observed as a day of rest and church attendance across Kiribati (a strong Christian culture); businesses and villages slow down."
+    sourceId: cwf-languages
+  - topic: "data protection"
+    description: "No GDPR-equivalent omnibus data-protection law; census/statistics confidentiality governs official data handling."
+    sourceId: cwf-languages
+paymentCulture:
+  popularMethods:
+    - "Cash — the everyday default; 'cash and limited branch banking are still the most common ways to pay'"
+    - "ANZ is the principal major commercial bank; branch banking concentrated on South Tarawa; remote atolls are underserved"
+    - "Contactless tap-and-go (UnionPay, launched with ANZ) in urban centres"
+    - "Remittances from I-Kiribati seafarers and diaspora — a major household income support"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected or customary; no service-charge norm"
+    autoIncludedInBill: false
+    note: "Tipping is not customary in Kiribati."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Communal and relationship-first; politeness and respect are deeply valued. Direct confrontation or refusal is avoided in favour of indirect hints and saving face. Respect for elders (unimwane) and chiefs is central."
+  greetingNorms: "Greet with 'Mauri!' (hello/welcome). Respect elders and community leaders; build personal trust before business and let senior figures speak first."
+  meetingEtiquette: "The maneaba (community meeting house) is the traditional venue for discussion and decision-making, with protocol for speaking order. Arrive respectfully, defer to elders, and seek consensus rather than rushing decisions."
+  topicsToAvoid:
+    - "Criticism of indigenous culture, the maneaba, or religion"
+    - "Personal or family honour, and directly contradicting an elder in public"
+    - "Sensitive domestic politics"
+  giftGivingNotes: "Modest, thoughtful gifts and contributions of food/drink at community events are appreciated; avoid ostentatious giving, which can embarrass the recipient."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cwf-languages
+    name: "CIA World Factbook — Kiribati (People: Languages)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/kiribati/"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Official languages Gilbertese + English; basis for the official-domain 1.0 rows."
+  - id: gil-usage
+    name: "Gilbertese language usage (Wikipedia / I-Kiribati majority)"
+    publisher: "Wikipedia 'Gilbertese language' / composite"
+    url: "https://en.wikipedia.org/wiki/Gilbertese_language"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Over 96% of residents declare I-Kiribati and speak Gilbertese; the 0.96 locallySpoken share."
+  - id: eng-estimate
+    name: "Composite estimate — English daily use in Kiribati"
+    publisher: "Composite estimate (Wikipedia 'Gilbertese language')"
+    url: "https://en.wikipedia.org/wiki/Gilbertese_language"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "English is used in government/law/education but does not dominate daily conversation; ~0.2 locallySpoken share is an ESTIMATE (literacy in English higher, ~80%)."
+  - id: cwf-ethnic
+    name: "CIA World Factbook — Kiribati (People: ethnic groups, 2020 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/kiribati/"
+    year: 2020
+    accessedDate: "2026-09-18"
+    note: "I-Kiribati 95.78%, I-Kiribati/mixed 3.8%, Tuvaluan 0.2%, other 1.7%."
+  - id: cwf-geo
+    name: "CIA World Factbook — Kiribati (Geography: timezones, 1995 dateline move)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/kiribati/"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Three timezones (UTC+12/+13/+14); International Date Line moved east in 1995."
+  - id: land-ordinance
+    name: "Native Lands Ordinance (Kiribati Code 61) / FAO country profile"
+    publisher: "Government of Kiribati / FAO"
+    url: "https://www.fao.org/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Native land may not be alienated to a non-native; foreigners may only lease."
+  - id: iso-gil
+    name: "ISO 639-3 entry: gil — Gilbertese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/gil"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Verifies ISO 639-3 code gil = Gilbertese (Individual, Living)."

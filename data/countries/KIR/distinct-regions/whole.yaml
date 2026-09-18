@@ -1,0 +1,133 @@
+code: WHOLE
+name:
+  eng: Kiribati
+  local:
+    - languageCode: eng
+      value: Republic of Kiribati
+    - languageCode: gil
+      value: Ribaberiki Kiribati
+# Generic country-wide fallback content for Kiribati (unitary-small, single
+# synthetic whole region). The Gilbert / Phoenix / Line island groups span three
+# timezones but are geographic rather than a curated regional identity, so they
+# are folded here as the national character.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest / equatorial maritime climate across the Gilbert, Phoenix and Line islands — hot and humid year-round (~27-32°C), wet Nov-Apr and drier May-Oct."
+landmarks:
+  - name: Phoenix Islands Protected Area (PIPA)
+    description: "One of the largest marine protected areas on Earth (~408,250 km²), with uninhabited atolls, seabird colonies, seamounts and pristine reefs; Kiribati's only UNESCO World Heritage Site (inscribed 2010)."
+    unescoWorldHeritage: true
+  - name: Kiritimati (Christmas Island)
+    description: "The largest coral atoll in the world by land area, in the Line Islands (UTC+14)."
+  - name: Banaba (Ocean Island)
+    description: "One of the three great phosphate 'rock' islands of the Pacific (with Nauru and Makatea); a raised, higher island."
+  - name: South Tarawa
+    description: "The dense urban atoll capital, one of the most densely populated places on Earth."
+culturalTraits:
+  - "Maneaba (community meeting house) culture — the central institution for village governance, discussion and celebration"
+  - "Egalitarian, communal extended-family ('te mwenga') society; elders (unimwane) respected and consulted"
+  - "Strong oral tradition, traditional dancing (te mwaie) and woven pandanus handicrafts"
+  - "Deep Christian faith (Catholic and Protestant) overlaid on communal customs"
+prideOf:
+  - "Being the first nation in the world to greet each new day (Line Islands, UTC+14)"
+  - "The Phoenix Islands Protected Area, a global conservation flagship"
+  - "Ocean, seafaring and fishing heritage (a major tuna fishery, PNA member)"
+  - "National seafarer and regional labor-mobility achievements"
+animals:
+  popular:
+    - "Frigatebirds (featured on the national flag)"
+    - "Sea turtles"
+    - "Coconut crabs (Birgus latro)"
+    - "Dolphins, manta rays, boobies and noddies"
+  unique:
+    - "Giant clams and bumphead parrotfish at the Phoenix Islands Protected Area"
+    - "PIPA's 200 coral, 500 fish, 18 marine-mammal and 44 bird species"
+industries:
+  - "Commercial fishing and tuna licensing (skipjack, yellowfin) — the largest export; PNA member"
+  - "Copra (dried coconut) and coconut products; seaweed aquaculture"
+  - "Remittances from merchant seafarers and diaspora; regional labor mobility schemes"
+  - "Government services (public sector is the largest employer); small tourism"
+  - "Phosphate (on Banaba) historically important, now exhausted"
+sports:
+  - "Soccer (association football) — the most popular"
+  - "Rugby sevens (Oceania level)"
+  - "Volleyball"
+  - "Weightlifting and traditional dancing at community events"
+religions:
+  - name: Roman Catholic
+    percent: 58.9
+    sourceId: cwf-religion
+  - name: Kiribati Uniting Church
+    percent: 21.2
+    sourceId: cwf-religion
+  - name: Kiribati Protestant Church
+    percent: 8.4
+    sourceId: cwf-religion
+  - name: Church of Jesus Christ of Latter-day Saints
+    percent: 5.6
+    sourceId: cwf-religion
+  - name: Other Christian and minority faiths (SDA, Bahá'í, other)
+    percent: 5.9
+    sourceId: cwf-religion
+# Religion figures: 2020 census via CIA World Factbook / Wikipedia 'Religion in
+# Kiribati'. Christian groups together ~96% of the population; ~0.1% report no
+# religion. 'Other' is a residual to reach 100.
+entertainment:
+  - season: allYear
+    items:
+      - "Community feasts and gatherings at the maneaba"
+      - "Traditional dancing (te mwaie) and woven-craft workshops"
+      - "Ocean swimming, fishing and lagoon days"
+  - season: dry
+    items:
+      - "Inter-island festivals and games"
+      - "Peak laguna and reef activities (May-Oct)"
+  - season: wet
+    items:
+      - "Indoor and community cultural events; church-led activities"
+      - "National days: Independence Day (12 July), Gospel Day (10 July) with dancing and feasts"
+      - "New Year celebrations (Line Islands greet it first)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ika-mata — raw fish cured in coconut milk and lime"
+      - "Pulaka (swamp taro) and babai (giant swamp taro)"
+      - "Fresh reef fish and coconut crab"
+      - "Breadfruit and coconut-based dishes"
+      - "Te karewe — coconut sap (toddy) and palm-coconut desserts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Woven pandanus/coconut-fibre wrap skirts for women; wrap garments for men"
+      - "Sarong-style dress"
+      - "Elaborate pandanus and mat costumes for dances"
+      - "Modest, shoulder-covering clothing common"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government/office ~08:00-16:30 Mon-Fri; Saturdays partial; public-sector work concentrated on South Tarawa."
+  lunchBreakTiming: "Typically midday."
+  notableShutdownPeriods:
+    - period: "Public holidays and national days"
+      description: "Independence Day (12 July) and Gospel Day (10 July) with celebrations."
+  notes: "Sunday is widely observed as a rest/church day with reduced commercial activity. Cash is dominant; ANZ branch banking is concentrated on South Tarawa with remote atolls underserved."
+sources:
+  - id: cwf-religion
+    name: "CIA World Factbook — Kiribati (People: religion, 2020 est.)"
+    publisher: "CIA World Factbook / Wikipedia 'Religion in Kiribati'"
+    url: "https://www.cia.gov/the-world-factbook/countries/kiribati/"
+    year: 2020
+    accessedDate: "2026-09-18"
+    note: "Religion composition: Roman Catholic 58.9%, Kiribati Uniting 21.2%, Kiribati Protestant 8.4%, LDS 5.6%, plus residual categories."
+  - id: unesco-pipa
+    name: "Phoenix Islands Protected Area — UNESCO World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1325/"
+    year: 2010
+    accessedDate: "2026-09-18"
+    note: "PIPA inscribed 2010 (criteria vii & ix); ~408,250 km²; biodiversity figures (200 corals, 500 fish, 18 marine mammals, 44 birds)."

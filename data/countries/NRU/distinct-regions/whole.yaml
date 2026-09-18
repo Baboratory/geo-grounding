@@ -1,0 +1,96 @@
+code: WHOLE
+name:
+  eng: Nauru
+  local:
+    - languageCode: nau
+      value: Naoero
+    - languageCode: eng
+      value: Republic of Nauru
+# Generic country-wide fallback content for Nauru (unitary-small, single
+# synthetic whole region). Nauru is a single raised coral island; the WHOLE
+# region carries the full national character.
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna — hot and humid year-round (typically 24-33°C) with highly variable rainfall tied to the El Niño/La Niña cycle; wetter conditions Nov-Feb, with periodic droughts."
+landmarks:
+  - name: Anibare Bay
+    description: "The best-known beach on the island's northeast coast."
+  - name: Nauru Museum (Nibok coast)
+    description: "Museum chronicling the island's phosphate-mining heritage and history."
+  - name: Command Ridge
+    description: "WWII-era Japanese gun emplacements from the island's 1942-45 occupation."
+  - name: Buada Lagoon
+    description: "A small remnant inland lagoon amid the mined-out central plateau."
+culturalTraits:
+  - "World's smallest republic and one of the most remote inhabited islands"
+  - "'Eb' clan (tribe) system central to daily life and land tenure"
+  - "Strong phosphate-mining legacy and post-mining (Topside) recovery"
+  - "Community- and church-centred life; Sunday as a rest day"
+prideOf:
+  - "Independence and resilience as a sovereign micro-state"
+  - "A close-knit, family- and clan-based society"
+  - "Phosphate-driven past wealth and a distinctive Nauruan identity"
+animals:
+  popular:
+    - "Noddy and frigatebirds (seabird colonies)"
+    - "Green sea turtles"
+    - "Anibare reef fish"
+  unique:
+    - "Nauru reed-warbler"
+industries:
+  - "Phosphate mining (historically the core), with partial revival"
+  - "Fishing and fish processing"
+  - "Government, education and social services"
+  - "Regional-processing migration (RPC) centre work"
+sports:
+  - "Australian rules football"
+  - "Weightlifting (Nauru's national sport)"
+  - "Association football"
+  - "Volleyball"
+religions:
+  - name: Christianity (predominantly Protestant, with a sizeable Roman Catholic minority)
+    percent: 100.0
+    sourceId: estimate-flag
+entertainment:
+  - season: allYear
+    items:
+      - "Beach and reef days (Anibare, Buada Lagoon)"
+      - "Church and community gatherings"
+      - "Fishing"
+  - season: wet
+    items:
+      - "Indoor/community events during rain (Nov-Feb)"
+  - season: dry
+    items:
+      - "Coral-reef and beach days in clearer weather"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fresh fish and seafood (reef fish, coconut-based dishes)"
+      - "Coconut and palm products"
+      - "Taro and breadfruit (where grown)"
+      - "Australian-style store-bought staples"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light, casual tropical clothing"
+      - "Modest dress for church and formal occasions"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2]
+  - season: dry
+    months: [3, 4, 5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-16:30/17:00 Mon-Fri; Sunday is a rest and church day."
+  lunchBreakTiming: "A midday break is common."
+  notes: "A single commercial bank (Bendigo Bank) serves the island; cash is the everyday default. Cross-border digital payments are constrained by correspondent-banking limits."
+sources:
+  - id: estimate-flag
+    name: "Composite estimate (religious affiliation)"
+    publisher: "Composite estimate"
+    url: "https://www.cia.gov/the-world-factbook/countries/nauru/"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "Christianity is effectively universal in Nauru; no official breakdown of Protestant vs Catholic shares is published (predominantly Protestant tradition with a sizeable Roman Catholic minority)."
