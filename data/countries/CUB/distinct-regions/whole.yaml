@@ -1,0 +1,162 @@
+code: WHOLE
+name:
+  eng: Cuba
+  local:
+    - languageCode: spa
+      value: Cuba
+# Generic country-wide fallback content for Cuba (unitary-small, single synthetic
+# whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — hot year-round with wet and drier seasons; the dominant climate across most of the island, hottest in summer."
+  - koppenCode: Am
+    description: "Tropical monsoon in the wettest, higher-rainfall eastern areas (e.g. the Sierra Maestra and north-eastern mountains)."
+# Caribbean hurricane season runs roughly June to November (peak Aug-Oct), affecting
+# weather across the island.
+landmarks:
+  - name: Old Havana (La Habana Vieja)
+    description: "UNESCO World Heritage Site (1982) — the colonial heart of Havana with its Baroque and Neoclassical architecture and its ring of 16th-17th century fortifications."
+    unescoWorldHeritage: true
+  - name: Viñales Valley (Valle de Viñales)
+    description: "UNESCO World Heritage Site (1999) — Pinar del Río's dramatic karst 'mogote' limestone formations rising from traditional tobacco fields."
+    unescoWorldHeritage: true
+  - name: Trinidad and the Valley de los Ingenios
+    description: "UNESCO World Heritage Site (1988) — a well-preserved colonial town plus the valley that was the cradle of the Cuban sugar industry."
+    unescoWorldHeritage: true
+  - name: Varadero Beach
+    description: "Cuba's most famous white-sand beach resort on the Hicacos Peninsula (Matanzas province), a top tourist destination."
+  - name: Morro Castle, Santiago de Cuba (San Pedro de la Roca)
+    description: "UNESCO World Heritage fortress (1997) guarding the Bay of Santiago; the Morro at Havana harbor entrance is the other iconic castle of the same name."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Son, danzón and casino/mambo — the dance rhythms that fused into the 'Cuban sound' (Buena Vista Social Club, Benny Moré)"
+  - "Salsa and casino dancing — Cuban dance culture exported worldwide"
+  - "Afro-Cuban religious and musical heritage — Santería (Lucumí/Yoruba) and Palo Monte syncretized with Catholicism; clave, rumba and the bata drums"
+  - "1959 Revolution heritage — a defining national identity for many Cubans; 26 July and socialist symbols are everywhere"
+  - "Classic American cars — vintage 1950s Detroit autos kept running on Cuban ingenuity, an iconic street image of Havana"
+  - "Habanero street life — malecones (seafront walks), guayabera shirts, café cubano and rum (Havana Club)"
+prideOf:
+  - "Music and dance — son, mambo, salsa and world-famous Cuban artists"
+  - "Sports excellence, above all baseball and boxing and Olympic track & field and volleyball"
+  - "The resilience, warmth and improvisation ('inventiva') of its people through scarcity and the embargo"
+  - "World-famous cigars, rum and coffee; the craft of the tabacalero"
+  - "Natural beauty and Marine biodiversity — beaches, mogotes, and a uniquely endemic fauna"
+animals:
+  popular:
+    - "Cuban trogon (tocororo) — the national bird, with its red/white/blue plumage echoing the flag"
+    - "Bee hummingbird (zunzuncito) — the world's smallest bird"
+    - "Cuban crocodile — the island's famous endemic crocodile, best seen at Ciénaga de Zapata"
+    - "Jutía (hutia) — the endemic tree-dwelling rodent"
+    - "Sea turtles, flamingos and iguanas along the coast and keys"
+  unique:
+    - "Cuban crocodile (Crocodylus rhombifer) — endemic, endangered; known for leaping out of the water; ~6,000 wild individuals (Zapata swamp and Isla de la Juventud)"
+    - "Bee hummingbird (Mellisuga helenae) — the smallest bird species in the world, endemic to Cuba"
+    - "Polymita painted snails (Polymita picta) — brilliantly coloured land snails endemic to eastern Cuba"
+    - "Almiquí (Cuban solenodon) — a primitive, venomous insectivorous mammal found only in Cuba, critically endangered"
+    - "Cuban tody (cartacuba) and the Monte Iberia eleuth — one of the world's smallest frogs"
+industries:
+  - "Tobacco and hand-rolled cigars — world-renowned premium export (Pinar del Río leaf; Habanos)"
+  - "Sugar — historically the backbone of the economy, now a smaller but enduring sector"
+  - "Tourism — one of the largest sources of revenue and employment (beaches, culture, medical/sun&sand visitors)"
+  - "Nickel and cobalt mining — significant mineral exports (Moa)"
+  - "Pharmaceuticals and medical products — biotech exports and medical-services diplomacy (e.g. CubaMédicina vaccines like Soberana/Abdala)"
+sports:
+  - "Baseball — the national sport and national obsession (the Cuban national Series, and the team's storied international record)"
+  - "Boxing — Cuba is a world boxing power (amateur/Olympic dominance)"
+  - "Volleyball — very popular, with strong national teams"
+  - "Athletics/track & field and basketball"
+  - "Football (soccer) and, for women, a famously strong national team"
+religions:
+  - name: Roman Catholic
+    percent: 60
+    sourceId: cub-religion-state-dept
+  - name: Santería / Afro-Cuban religions (Lucumí-Yoruba, Palo Monte) — widely observed, often syncretized with Catholicism
+    percent: 70
+    sourceId: cub-religion-afrocuban
+  - name: Protestant (incl. Pentecostal, Baptist, Jehovah's Witnesses, Methodist, Seventh-day Adventist)
+    percent: 5
+    sourceId: cub-religion-state-dept
+# The US State Dept. notes there is 'no independent, authoritative source' on Cuba's
+# religious composition. The Catholic figure (60%) is the Catholic Church's own
+# estimate of self-identified Catholics; an estimated ~70% of Cubans observe some
+# form of Santería or other Afro-Cuban practice (per USCIRF) — these overlap heavily,
+# so the figures are not mutually exclusive and do not sum to 100%.
+entertainment:
+  - season: allYear
+    items:
+      - "Salsa, casino (Cuban hustle/salsa) and timba dancing at casas de la trova and night clubs"
+      - "Rumba and son jam sessions; Cuba Jazz Plaza and the Havana International Ballet Festival"
+      - "Live trova/bolero in bars and peñas; Buena Vista Social Club-inspired venues"
+      - "Baseball games (the Cuban national Series) and boxing cards"
+      - "Walking the Malecón and Old Havana; visiting museums and casas de la música"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ropa vieja — shredded beef stew, the unofficial national dish"
+      - "Arroz congrí / moros y cristianos — rice and black beans"
+      - "Ropa de cerdo and lechón asado (roast pork)"
+      - "Tostones, maduros and boniato (sweet plantain and yam)"
+      - "Tamarindo, guava paste (guayaba) and ajiaco (a hearty root-and-meat stew)"
+      - "Café cubano (strong espresso) and mojitos / daiquiris — the daiquiri and mojito were born in Cuba (La Bodeguita del Medio, El Floridita)"
+      - "Pan con lechón and medianoche sandwiches; yuca con mojo"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Guayabera / guayabera shirt — the classic collarless Cuban dress shirt worn by men for both business and casual occasions"
+      - "Light, breathable tropical attire (linen, cotton) suited to the year-round warm climate"
+      - "Colourful Caribbean resort wear; the distinctive white guayabera is a formal staple"
+      - "Dancewear and costume dress for rumba/casino folklórico performances; carnival costumes"
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "State offices typically ~08:30/09:00-17:00 Mon-Fri; many state workplaces run Mon-Sat with a lunch pausa. Shops may open Mon-Sat with shorter Sunday hours in tourist zones."
+  lunchBreakTiming: "A midday break (almuerzo) is common across the state sector."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year (late Dec-early Jan)"
+      description: "Reduced activity; 25-26 Dec (Christmas restored as a holiday in 2008) and New Year celebrations; many state offices close."
+    - period: "1-4 January (Triumph of the Revolution)"
+      description: "National holidays marking the 1959 revolution on 1 Jan; extended shutdown across the state sector."
+    - period: "May Day (1 May)"
+      description: "Labor Day national holiday; most businesses closed, with parades in Havana."
+    - period: "26-27 July (Revolution anniversary)"
+      description: "National holidays (Moncada assault anniversary + National Rebellion Day); reduced business."
+    - period: "Carnival season (summer, mainly in eastern cities like Santiago de Cuba)"
+      description: "Festive peak with parades; business continues but schedule shifts."
+  notes: "Sunday is widely a rest day for the state sector (saturdays often half-day). Tourism, agriculture (sugar/tobacco harvest) and retail drive seasonal cycles that differ from the state-administrative calendar."
+sources:
+  - id: cub-religion-state-dept
+    name: "2021 Report on International Religious Freedom: Cuba"
+    publisher: "U.S. Department of State — Bureau of Democracy, Human Rights, and Labor"
+    url: "https://www.state.gov/wp-content/uploads/2022/05/CUBA-2021-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "Catholic Church estimates ~60% of the population self-identifies as Catholic; Protestant membership estimated at ~5%. No independent authoritative figure exists for religious composition in Cuba. Basis for the Catholic and Protestant religion rows."
+  - id: cub-religion-afrocuban
+    name: "Factsheet: The Santería Tradition in Cuba"
+    publisher: "U.S. Commission on International Religious Freedom (USCIRF)"
+    url: "https://www.ecoi.net/en/file/local/2049973/2021+Factsheet+-+Santeria+in+Cuba.pdf"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "Estimates ~70% of Cubans observe one or more Santería or other Afro-Cuban religious practices, often syncretized with Catholicism. Basis for the Santería/Afro-Cuban religion row and its overlap with Catholic practice."
+  - id: cub-unesco
+    name: "Cuba — World Heritage properties (UNESCO World Heritage Centre)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/CU"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Lists Cuba's 9 World Heritage properties, incl. Old Havana (1982), Trinidad and the Valley de los Ingenios (1988), Viñales Valley (1999) and San Pedro de la Roca Castle / Morro, Santiago de Cuba (1997). Basis for the unescoWorldHeritage landmark flags."
+  - id: cub-baseball
+    name: "Baseball in Cuba — the national sport (background)"
+    publisher: "Cuban sports literature / Britannica 'Culture of Cuba'"
+    url: "https://www.britannica.com/place/Cuba/Sports-and-recreation"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Baseball is consistently described as Cuba's national sport, introduced by American soldiers in the 1860s; boxing is its most successful Olympic discipline. Basis for the sports list."
+  - id: cub-animals
+    name: "Wild Cuba — Wildlife Facts (Cuba's biodiversity and endemism)"
+    publisher: "PBS Nature / American Museum of Natural History"
+    url: "https://www.pbs.org/wnet/nature/blog/wild-cuba-fact-sheet/"
+    year: 2013
+    accessedDate: "2026-09-18"
+    note: "Documents Cuba's extreme endemism — the bee hummingbird (world's smallest bird), Cuban crocodile, and the painted polymita snails; over 90% of Cuba's mollusks are endemic. Basis for the animals popular/unique lists."
