@@ -1,0 +1,137 @@
+alpha3: BRB
+alpha2: BB
+name:
+  eng: Barbados
+  local:
+    - languageCode: eng
+      value: Barbados
+flagEmoji: "🇧🇧"
+capital: Bridgetown
+isSovereign: true
+# Classified unitary-small: a unitary parliamentary republic (no federal
+# structure) with a population of ~282,600, far below the unitary-large
+# threshold. The 11 parishes are functional districts, not an ISO 3166-2
+# subdivision layer that would drive region-bearing status — consistent with how
+# comparably-sized Caribbean sovereign states (TTO, CRI) are classified. One
+# synthetic WHOLE region.
+# GOVERNANCE NOTE — republic: Barbados became a republic on 30 November 2021 via
+# the Constitution (Amendment) (No. 2) Act, 2021, replacing the monarchy with a
+# President as Head of State (first: Sandra Mason). It remains a member of the
+# Commonwealth.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: bb-gov-demographics
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 1.0
+    sourceId: bb-gov-demographics
+  - languageCode: bjs
+    domain: locallySpoken
+    speakersShare: 0.92
+    sourceId: ethnologue-bajan-bjs
+# English is the sole official language (near-universally competent, so the
+# local spoken share is effectively 1.0 — qualitative, not a hard census
+# proportion). Bajan / Barbadian Creole English (ISO 639-3 'bjs' — NOT 'bzj',
+# which is Belize Kriol) is spoken by ~0.92 of the population (Ethnologue 2018
+# estimate of ~260,000 native speakers / ~282,600) — an ESTIMATE, flagged.
+ethnicGroups:
+  # Government of Barbados demographics (2010-census based).
+  - group: Black (Afro-Caribbean)
+    percent: 92.4
+    sourceId: bb-gov-demographics
+  - group: Mixed
+    percent: 3.1
+    sourceId: bb-gov-demographics
+  - group: White
+    percent: 2.7
+    sourceId: bb-gov-demographics
+  - group: South Asian (East Indian)
+    percent: 1.3
+    sourceId: bb-gov-demographics
+  - group: Other (East Asian, Middle Eastern, unspecified)
+    percent: 0.5
+    sourceId: bb-gov-demographics
+timezones:
+  - name: America/Barbados
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+currency:
+  code: BBD
+  symbol: "$"
+  name: "Barbadian dollar (pegged US$1 = BBD$2; USD also widely accepted, especially tourist-facing)"
+legalConstraints:
+  - topic: "data protection / personal data"
+    description: "Collecting, keeping, processing or disseminating personal data is regulated by the Data Protection Act, 2019 (Act 2019-29): processing must be fair and lawful with a lawful basis (e.g. consent), individuals have access/correction/erasure rights, and transfers of personal data outside Barbados generally require an adequate level of protection or appropriate safeguards."
+    sourceId: bb-data-protection-act
+# Barbados is not an EU member, so no GDPR/EU consumer-directive constraints
+# apply; a VAT price-display rule was not confirmed to a primary source, so it
+# is deliberately omitted rather than guessed.
+paymentCulture:
+  popularMethods:
+    - "Cash — still essential in the local/street economy (ZR vans and route taxis, rum shops, markets, roadside vendors), in BBD"
+    - "Visa and Mastercard — widely accepted at supermarkets, pharmacies, restaurants, hotels and most mid/higher-end shops"
+    - "Contactless and mobile wallets (Apple Pay, Google Pay) at most card terminals; Amex at hotels/larger establishments"
+    - "US dollars accepted for many tourist-facing transactions, with change often given in BBD at ~2:1"
+  tipping:
+    expected: true
+    typicalAmount: "A ~10% service charge is commonly auto-added in sit-down restaurants; if none, tip ~10-15%"
+    autoIncludedInBill: true
+    note: "Most sit-down restaurants automatically add a ~10% service charge (check the bill); otherwise 10-15% is standard. An extra cash tip for exceptional service is appreciated; round up at casual spots; ~10% for taxis/guides. US dollars are commonly used for tips."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm and polite. Titles/surnames are used in business until a personal relationship develops, then first names quickly become normal. Bajans value courtesy, friendliness and a relaxed manner; directness should be softened with politeness."
+  greetingNorms: "Warm and friendly — a firm handshake with eye contact in business; a nod, smile and 'good morning/afternoon' are expected basic etiquette when entering a shop, office or passing acquaintances."
+  meetingEtiquette: "Punctuality is expected for business, though daily life runs on 'island time' so patience is valued. Communication is polite and often indirect; avoid overly direct delivery. Rapport and small talk precede the agenda; decisions are often relationship-driven."
+  topicsToAvoid:
+    - "The history of slavery and colonial-era legacies unless a Barbadian raises them first"
+    - "Criticising local customs, or unfavourably comparing Barbados to another Caribbean island"
+  giftGivingNotes: "Not expected at a first business meeting. When invited to a Bajan home, a small gift — a bottle of good rum or wine, flowers, or a dessert — is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: bb-gov-demographics
+    name: "Demographics (Barbados Government Information Service)"
+    publisher: "Government of Barbados (GOV.BB)"
+    url: "https://www.gov.bb/Visit-Barbados/demographics"
+    accessedDate: "2026-09-17"
+    note: "States English is the official language and Bajan is spoken by most Barbadians in everyday life. Provides the ethnic composition (Black 92.4%, Mixed 3.1%, White 2.7%, South Asian 1.3%, Other 0.5%) and 2010-census population 277,821. Basis for languageUsage (official) and ethnicGroups."
+  - id: bb-constitution-republic-2021
+    name: "Constitution (Amendment) (No. 2) Act, 2021 — making Barbados a republic"
+    publisher: "Parliament of Barbados"
+    url: "https://www.barbadosparliament.com/uploads/sittings/attachments/f1ed5368533b00ed372d74a6aa96f0cb.pdf"
+    year: 2021
+    accessedDate: "2026-09-17"
+    note: "The constitutional amendment that replaced the monarchy with a President as Head of State, effective 30 November 2021. Basis for the governance-comment republic note."
+  - id: bb-cbb-exchange-rate
+    name: "The What, Why, and How of Maintaining Barbados' Exchange Rate"
+    publisher: "Central Bank of Barbados"
+    url: "https://www.centralbank.org.bb/news/general-press-release/the-what-why-and-how-of-maintaining-barbados-exchange-rate"
+    accessedDate: "2026-09-17"
+    note: "Confirms the BBD is pegged to the USD at US$1 = BBD$2, a fixed rate maintained for over 45 years. Basis for the currency entry."
+  - id: bb-world-bank-population
+    name: "Population, Total for Barbados (POPTOTBBA647NWDB)"
+    publisher: "World Bank (via FRED)"
+    url: "https://fred.stlouisfed.org/series/POPTOTBBA647NWDB"
+    year: 2025
+    accessedDate: "2026-09-17"
+    note: "Mid-year total population estimate of ~282,600 — supports the unitary-small classification. An estimate, not a census count."
+  - id: bb-data-protection-act
+    name: "Data Protection Act, 2019 (Act 2019-29)"
+    publisher: "Parliament of Barbados (text via Invest Barbados)"
+    url: "https://www.investbarbados.org/wp-content/uploads/dlm_uploads/2022/10/Data-Protection-Act-2019.pdf"
+    year: 2019
+    accessedDate: "2026-09-17"
+    note: "Regulates the collection, keeping, processing, use and dissemination of personal data; requires fair/lawful processing with a lawful basis, grants data-subject access/correction rights, and restricts transfers outside Barbados. Basis of the data-protection legal constraint."
+  - id: ethnologue-bajan-bjs
+    name: "Ethnologue — Bajan (bjs); ISO 639-3 code"
+    publisher: "SIL International (ISO 639-3 / Ethnologue)"
+    url: "https://iso639-3.sil.org/code/bjs"
+    year: 2018
+    accessedDate: "2026-09-17"
+    note: "Confirms ISO 639-3 'bjs' for Bajan/Barbadian Creole English (not 'bzj' = Belize Kriol) and ~260,000 native Bajan speakers (~0.92 of population). The share is an ESTIMATE derived from Ethnologue's speaker count."

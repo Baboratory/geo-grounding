@@ -1,0 +1,177 @@
+code: WHOLE
+name:
+  eng: Barbados
+  local:
+    - languageCode: eng
+      value: Barbados
+# Generic country-wide fallback content for Barbados (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path in
+# usage_examples/python/get_data_by_ip.py.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) climate — hot year-round with a distinct drier, cooler 'season' (roughly Dec-May) and a wetter season (roughly Jun-Nov)."
+  - koppenCode: Am
+    description: "Tropical monsoon climate on wetter, higher-rainfall parts of the island (e.g. the Scotland District and windward/east upper elevations)."
+landmarks:
+  - name: Historic Bridgetown and its Garrison
+    description: "The capital's well-preserved 17th-19th century old town with its serpentine street layout plus St. Ann's Garrison — the most complete 18th-19th century British colonial garrison ensemble in the Atlantic world."
+    unescoWorldHeritage: true
+  - name: Harrison's Cave
+    description: "A spectacular limestone cave system in the central uplands with flowing streams, pools and stalactites, toured by tram."
+  - name: Bathsheba
+    description: "East-coast fishing village famed for dramatic rock formations and Atlantic surf."
+  - name: Crane Beach
+    description: "One of the Caribbean's most celebrated pink-tinged sand beaches on the southeast coast."
+  - name: St. Nicholas Abbey
+    description: "17th-century Jacobean plantation great house, today a working rum distillery and heritage site."
+  - name: Oistins
+    description: "South-coast fishing town famous for its Friday-night fish fry."
+culturalTraits:
+  - "Crop Over — the national festival celebrating the end of the sugar-cane harvest (roughly June-August), climaxing in Grand Kadooment"
+  - "Flying fish and cou-cou — the national dish"
+  - "Rum heritage — Barbados claims the birthplace of rum (Mount Gay, world's oldest operative commercial rum distillery)"
+  - "Cricket as the national passion (Barbados has produced numerous West Indies greats)"
+  - "Calypso and soca music woven into Crop Over and everyday life"
+  - "Chattel houses (movable wooden houses) and distinctive Caribbean Georgian architecture"
+  - "Warm, polite Bajan hospitality"
+prideOf:
+  - "Becoming a republic in 2021 while remaining in the Commonwealth"
+  - "Rihanna — national hero and a source of enormous cultural pride"
+  - "The flying fish and the national dish cou-cou"
+  - "Historic Bridgetown's UNESCO World Heritage status"
+  - "The fame and craft of its rum industry"
+animals:
+  popular:
+    - "Flying fish (national symbol)"
+    - "Green monkey (introduced centuries ago, a familiar island sight)"
+    - "Loggerhead and green sea turtles"
+  unique:
+    - "Flying fish — the national symbol, celebrated in the national dish and featured on the currency"
+    - "Green monkey — introduced from West Africa, now distinctive island wildlife"
+industries:
+  - "Tourism — the principal economic driver"
+  - "International business and financial services (a leading Caribbean international financial centre)"
+  - "Rum production and light manufacturing"
+  - "Sugar — historically the island's lifeblood, now a small but iconic heritage sector"
+  - "Services, construction and renewable energy tied to tourism growth"
+sports:
+  - "Cricket — the national sport (a powerhouse of West Indies cricket)"
+  - "Track and field / athletics"
+  - "Football (soccer)"
+  - "Netball"
+  - "Surfing and water sports"
+religions:
+  - name: Anglican (Church in the Province of the West Indies)
+    percent: 23.9
+    sourceId: bb-gov-demographics
+  - name: Pentecostal
+    percent: 19.5
+    sourceId: bb-gov-demographics
+  - name: Seventh-day Adventist
+    percent: 5.9
+    sourceId: bb-gov-demographics
+  - name: Methodist
+    percent: 4.2
+    sourceId: bb-gov-demographics
+  - name: Roman Catholic
+    percent: 3.8
+    sourceId: bb-gov-demographics
+  - name: Other Christian
+    percent: 18.3
+    sourceId: bb-gov-demographics
+  - name: No religion
+    percent: 20.6
+    sourceId: bb-gov-demographics
+  - name: Rastafari
+    percent: 1.0
+    sourceId: bb-gov-demographics
+  - name: Muslim
+    percent: 0.7
+    sourceId: bb-gov-demographics
+  - name: Hindu
+    percent: 0.5
+    sourceId: bb-gov-demographics
+  - name: Other non-Christian (Jewish, Bahá'í, Buddhist, other)
+    percent: 0.4
+    sourceId: bb-gov-demographics
+entertainment:
+  - season: allYear
+    items:
+      - "Cricket and football matches"
+      - "Beach life — surfing at Bathsheba, snorkelling in Carlisle Bay, west-coast swimming"
+      - "Oistins Friday-night fish fry"
+      - "Rum-shop scene and calypso/soca nightlife"
+  - season: dry
+    items:
+      - "Christmas and New Year festivities (the drier, cooler months)"
+      - "Peak tourist 'season' (~December-April)"
+      - "Holetown Festival (mid-February)"
+      - "Easter-period events and regattas"
+  - season: wet
+    items:
+      - "Crop Over — the national festival season (June-August): calypso/soca competitions, Pic-o-de-Crop final, and the Grand Kadooment climax"
+      - "Crop Over fetes and costume bands"
+      - "Independence and national events building toward late November"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Flying fish and cou-cou (the national dish — cornmeal and okra with steamed/baked flying fish)"
+      - "Macaroni pie"
+      - "Pudding and souse (a weekend staple)"
+      - "Fish cakes and 'bakes' (fried dough)"
+      - "Cutters (soft bread rolls with savoury fillings)"
+      - "Rum punch and local rums (e.g. Mount Gay); Banks Beer"
+  - season: dry
+    items:
+      - "Christmas ham and black cake (fruit cake)"
+      - "Conkies (spiced cornmeal-and-coconut steamed parcels) around Independence/Christmas"
+      - "Flying-fish dishes when the fish run peaks in the drier months"
+  - season: wet
+    items:
+      - "Hearty one-pot and soup dishes during wetter, cooler spells"
+      - "Crop Over-season street food and festival fare (grilled fish at Oistins, rotis)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Bajan madras and colourful cotton prints"
+      - "Light, bright tropical resort wear"
+  - season: dry
+    items:
+      - "Festive/formal wear for Christmas and New Year"
+  - season: wet
+    items:
+      - "Crop Over mas/Carnival costumes (feathers, beads, sequins) for Grand Kadooment and festival fetes (July-August)"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically 08:00/08:30-16:00/16:30 weekdays; private businesses often 09:00-17:00; retail usually Mon-Sat with many closed (or shorter hours) Sunday."
+  lunchBreakTiming: "A standard midday break is common."
+  notableShutdownPeriods:
+    - period: "Crop Over / Grand Kadooment (first Monday of August)"
+      description: "National public holiday and festival climax — much of the island celebrates; activity adjusts heavily around the June-August festival season."
+    - period: "Easter weekend"
+      description: "Good Friday and Easter Monday public holidays; reduced trading."
+    - period: "Independence (30 November)"
+      description: "National public holiday marking independence (1966) and now republic day."
+    - period: "Christmas and New Year"
+      description: "Reduced business around the Christmas/New Year holidays."
+  notes: "Tourism drives a pronounced high season in the drier months (December-April). Sunday is widely a rest day."
+sources:
+  - id: bb-gov-demographics
+    name: "Demographics (Barbados Government Information Service)"
+    publisher: "Government of Barbados (GOV.BB)"
+    url: "https://www.gov.bb/Visit-Barbados/demographics"
+    accessedDate: "2026-09-17"
+    note: "2010-census religious composition: Christian 75.6% (Anglican 23.9%, Pentecostal 19.5%, SDA 5.9%, Methodist 4.2%, Roman Catholic 3.8%, other Christian ~18.3%), no religion 20.6%, non-Christian 2.6% (Rastafari 1.0%, Muslim 0.7%, Hindu 0.5%, other ~0.4%). Flagged as 2010-census vintage."
+  - id: bb-unesco-bridgetown
+    name: "Historic Bridgetown and its Garrison — UNESCO World Heritage Centre (list entry 1376)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1376/"
+    year: 2011
+    accessedDate: "2026-09-17"
+    note: "Confirms Historic Bridgetown and its Garrison was inscribed in 2011 — basis for the unescoWorldHeritage flag on that landmark."

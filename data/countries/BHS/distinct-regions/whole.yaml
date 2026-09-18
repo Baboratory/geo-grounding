@@ -1,0 +1,119 @@
+code: WHOLE
+name:
+  eng: The Bahamas
+  local:
+    - languageCode: eng
+      value: The Bahamas
+# Generic country-wide fallback content for The Bahamas (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path in
+# usage_examples/python/get_data_by_ip.py.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) marine climate — warm year-round with a drier, cooler 'winter' (roughly Dec-Apr) and a warmer, wetter 'summer' (roughly May-Nov)."
+landmarks:
+  - name: Nassau (New Providence)
+    description: "Capital; Parliament Square, the Queen's Staircase and Fort Charlotte."
+  - name: Atlantis Paradise Island
+    description: "Iconic resort-aquarium complex on Paradise Island."
+  - name: Blue Holes of Andros & Dean's Blue Hole (Long Island)
+    description: "Famous sinkhole/cave systems, including some of the world's deepest blue holes."
+  - name: Pink Sands Beach (Harbour Island)
+    description: "Renowned pink-tinged sand beach on Harbour Island (Bahamas)."
+  - name: Thunderball Grotto (Exuma)
+    description: "Famous snorkelling cave made known by the James Bond films."
+culturalTraits:
+  - "Junkanoo — the island's signature street festival (Boxing Day and New Year's), with colourful costumes, horns and drums"
+  - "Rake-and-scrape and goombay music"
+  - "Conch as the national staple — conch salad, cracked conch"
+  - "Straw market crafts"
+  - "Cricket and basketball popularity"
+prideOf:
+  - "Junkanoo and the islands' musical heritage"
+  - "The world-famous pink sands and blue holes"
+  - "A proud island nation with deep British and West African heritage"
+animals:
+  popular:
+    - "Caribbean flamingo"
+    - "Green sea turtle"
+    - "Reef and game fish (bonefish, grouper)"
+    - "Spotted eagle ray"
+  unique:
+    - "Hutia (historically) and endemic cave fauna of Andros"
+    - "The Exuma 'swimming pigs' (a tourism holding, not endemic wildlife)"
+industries:
+  - "Tourism — the dominant industry"
+  - "International financial services / offshore banking"
+  - "Fishing and aquaculture (conch, lobster locally)"
+  - "Construction tied to resort development"
+  - "Re-export and light commerce via the Freeport free-trade zone"
+sports:
+  - "Cricket"
+  - "Basketball — very popular"
+  - "Boxing"
+  - "Sailing and water sports"
+religions:
+  - name: Christian (Baptist, Anglican, Roman Catholic, Pentecostal and others)
+    percent: 96.0
+    sourceId: bs-statistics
+  - name: Other / none
+    percent: 4.0
+    sourceId: bs-statistics
+entertainment:
+  - season: allYear
+    items:
+      - "Beach life, diving and snorkelling across the islands"
+      - "Cricket and basketball"
+      - "Goombay music and rum-shop culture"
+  - season: dry
+    items:
+      - "Junkanoo parades (Boxing Day, 26 Dec, and New Year's Day)"
+      - "Peak winter tourist season Dec-Apr"
+      - "Christmas and New Year festivities"
+  - season: wet
+    items:
+      - "Indoor/marina-based activities during wetter spells"
+      - "Summer festivals and 'Rake 'n' Scrape' events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Conch salad and cracked conch"
+      - "Rock lobster"
+      - "Bahamian stew fish"
+      - "Peas 'n' rice"
+      - "Johnnycake"
+      - "Grouper fingers and switcha (lime drink)"
+  - season: dry
+    items:
+      - "Guava duff (traditional Christmas/New Year dessert)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light tropical resort wear; casual island dress"
+      - "Straw-market hats and woven beachwear"
+  - season: dry
+    items:
+      - "Junkanoo costumes worn for the Boxing Day and New Year parades"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically 09:00-17:00 weekdays; retail often open Mon-Sat, many closed or limited Sunday."
+  lunchBreakTiming: "A standard midday break is common."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Reduced business around the holidays, with Junkanoo parades on Boxing Day and New Year's Day."
+    - period: "Hurricane season (Jun-Nov)"
+      description: "Severe weather can disrupt operations during the Atlantic hurricane season."
+  notes: "Tourism drives a pronounced high season in the drier December-April months."
+sources:
+  - id: bs-statistics
+    name: "Population and Housing Census / Estimates — religion and ethnicity"
+    publisher: "Department of Statistics of The Bahamas"
+    url: "https://www.bahamas.gov.bs/wps/portal/public/Department%20of%20Statistics/"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "Religious composition predominan­tly Christian (~96%, largest Baptist, Anglican, Roman Catholic, Pentecostal). Estimate, not an exact count."
