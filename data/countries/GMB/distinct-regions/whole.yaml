@@ -1,0 +1,91 @@
+code: WHOLE
+name:
+  eng: The Gambia
+  local:
+    - languageCode: eng
+      value: The Gambia
+# Country-wide fallback region (unitary-small, single synthetic WHOLE entry).
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna climate with a pronounced dry season and a rainy season from roughly June to October.
+landmarks:
+  - name: Kunta Kinteh Island (James Island)
+    description: River island and former trading post on the Gambia River, associated with the transatlantic slave trade; a UNESCO World Heritage Site.
+  - name: Kuntaur / Bird Island and River Gambia
+    description: Section of the Gambia River celebrated for its birdlife (African pygmy goose, various herons and kingfishers).
+  - name: Abuko Nature Reserve
+    description: Small riverside reserve near Banjul with monkeys, crocodiles and a range of tropical forest species.
+  - name: Senegal–Gambia mangroves
+    description: Coastal and riverine mangroves across the lower river basin.
+culturalTraits:
+  - Griot storytelling and music, with the kora (a 21-string harp-lute) central to Mandinka culture
+  - The komo/masquerade traditions among the Jola and other groups
+  - Islamic-influenced family and community life, with local masquerades and rites
+  - Wrestling (traditional Gambian and Senegambian wrestling) and the wrestling season
+prideOf:
+  - Peaceful, stable democracy in West Africa
+  - Rich oral and musical heritage (kora music of the Mandinka)
+  - The "Smiling Coast" reputation for tourism along the Atlantic beaches
+animals:
+  popular:
+    - Western red colobus monkey
+    - Hippopotamus (Gambia River)
+    - African pygmy goose
+  unique:
+    - Chimpanzee
+industries:
+  - Agriculture (groundnuts/peanuts, rice, millet)
+  - Tourism along the Atlantic coast
+  - Fishing
+  - Re-export trade through the port of Banjul
+sports:
+  - Wrestling (traditional Senegambian wrestling)
+  - Football (soccer)
+  - Athletics
+religions:
+  - name: Islam (Sunni, predominantly Maliki)
+    percent: 96.4
+    sourceId: religion-estimate
+  - name: Christianity
+    percent: 3.5
+    sourceId: religion-estimate
+  - name: Other / indigenous beliefs
+    percent: 0.1
+    sourceId: religion-estimate
+entertainment:
+  - season: allYear
+    items:
+      - Kora music and griot storytelling
+      - Traditional wrestling competitions
+  - season: dry
+    items:
+      - International Oyster Festival and other coastal harvest events
+      - Root crop and groundnut harvest celebrations
+traditionalDishes:
+  - season: allYear
+    items:
+      - Domoda (groundnut-peanut stew)
+      - Benachin (Jollof rice)
+      - Yassa (marinated onion-and-citrus chicken or fish)
+      - Afra (spicy grilled meat)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Bubou / grand boubou robes for men and women on festive and religious occasions
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10]
+businessRhythm:
+  restDays: []
+  notes: "The working week is Monday-Friday (many institutions roughly 08:00-16:00), with some shops open Saturday mornings. Activity slows during Ramadan and around the two Eid observances and the Christmas/New Year period."
+  typicalWorkHours: "Standard office hours are roughly 08:00-16:00, Monday-Friday."
+sources:
+  - id: religion-estimate
+    name: "The Gambia — Religions (2021 estimate) and general facts"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/gambia-the/"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "Religious-affiliation estimate (Muslim 96.4%, Christian 3.5%, other/indigenous 0.1%). Coastal/geographic and cultural content is general knowledge, not a cited statistic."

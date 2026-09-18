@@ -1,0 +1,138 @@
+alpha3: GMB
+alpha2: GM
+name:
+  eng: The Gambia
+  local:
+    - languageCode: eng
+      value: The Gambia
+flagEmoji: "🇬🇲"
+capital: Banjul
+isSovereign: true
+# Classified unitary-small, not unitary-large: population ~2.5 million is below
+# the unitary-large threshold, and while The Gambia has two official languages
+# de facto (English is the sole legally-official language; Mandinka and other
+# vernaculars are widely spoken but have no official status), none of the
+# national languages is a recognized regional or minority official language
+# confined to a subnational territory, and its internal divisions are purely
+# administrative, not a widely recognized cultural-historical regional identity.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1997
+  - languageCode: mnk
+    domain: locallySpoken
+    speakersShare: 0.34
+    sourceId: composite-estimate
+  - languageCode: ful
+    domain: locallySpoken
+    speakersShare: 0.24
+    sourceId: composite-estimate
+  - languageCode: wol
+    domain: locallySpoken
+    speakersShare: 0.15
+    sourceId: composite-estimate
+  - languageCode: dyo
+    domain: locallySpoken
+    speakersShare: 0.11
+    sourceId: composite-estimate
+  - languageCode: srr
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: composite-estimate
+# locallySpoken shares are ESTIMATES: The Gambia's census measures ethnic
+# composition rather than language spoken at home, so the language shares are
+# proxied from the GBoS 2013 ethnic proportions (many Gambians are
+# multilingual). English is the sole legally official language; no separate
+# foreign-domain row is asserted because no authoritative figure for learned
+# English command exists.
+ethnicGroups:
+  - group: Mandinka/Jahanka
+    percent: 34.4
+    sourceId: gbos-2013
+  - group: Fula/Tukulor/Lorobo
+    percent: 24.1
+    sourceId: gbos-2013
+  - group: Wolof
+    percent: 14.8
+    sourceId: gbos-2013
+  - group: Jola/Karoninka
+    percent: 10.5
+    sourceId: gbos-2013
+  - group: Soninke (Sarahule)
+    percent: 8.2
+    sourceId: gbos-2013
+  - group: Serer
+    percent: 3.1
+    sourceId: gbos-2013
+  - group: Manjago
+    percent: 1.9
+    sourceId: gbos-2013
+  - group: Bambara
+    percent: 1.3
+    sourceId: gbos-2013
+  - group: Aku/Creole
+    percent: 0.5
+    sourceId: gbos-2013
+timezones:
+  - name: Africa/Banjul
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+currency:
+  code: GMD
+  symbol: "D"
+  name: Gambian dalasi
+legalConstraints:
+  - topic: "Secular republic / freedom of religion"
+    description: "Article 1(1) of the Constitution declares The Gambia a sovereign secular republic; Articles 25 and 32 guarantee freedom of conscience and religion, and Article 60 bars political parties founded on religious grounds."
+    sourceId: constitution-1997
+  - topic: "Non-discrimination (language/ethnicity)"
+    description: "The Constitution protects fundamental rights for all persons 'without distinction as to ethnic considerations, gender, language or religion' (Preamble and Chapter IV rights provisions)."
+    sourceId: constitution-1997
+paymentCulture:
+  popularMethods:
+    - "Cash (Gambian dalasi)"
+    - "Mobile money (e.g. QMoney)"
+    - "Bank transfer"
+    - "Cards accepted at larger hotels and airlines"
+  tipping:
+    expected: true
+    typicalAmount: "Approximately 5-10% at restaurants; gratuities appreciated for hotel staff and tour guides"
+    autoIncludedInBill: false
+    note: "Tipping is customary and appreciated in tourism; it is not normally expected in local markets."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal and respectful, particularly toward elders and in business; greet with titles and polite address."
+  greetingNorms: "A handshake and warm verbal greeting are standard; asking after the person's family/well-being precedes any business talk."
+  meetingEtiquette: "Relationship-building comes before the agenda; punctuality is expected but meetings may start and run informally. Decisions often go through senior figures."
+  topicsToAvoid:
+    - "Bringing up sensitive political history or ethnic tensions unless the counterpart raises them first"
+  giftGivingNotes: "Not expected at a first meeting; if invited to a home, a modest gift is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: gbos-2013
+    name: "2013 Population and Housing Census — Spatial Distribution of Population and Socio-Cultural Characteristics"
+    publisher: "Gambia Bureau of Statistics (GBoS)"
+    url: "https://www.gbosdata.org/downloads-file/213-census-2013-spatial-distribution-report"
+    year: 2013
+    accessedDate: "2026-09-18"
+    note: "Ethnic composition by percentage (Mandinka/Jahanka 34.4%, Fula/Tukulor 24.1%, Wolof 14.8%, Jola 10.5%, Soninke 8.2%, Serer 3.1%, Manjago 1.9%, Bambara 1.3%, Aku/Creole 0.5%)."
+  - id: constitution-1997
+    name: "Constitution of the Republic of The Gambia (1997, consolidated with amendments to 2018)"
+    publisher: "Republic of the Gambia, via WIPO Lex"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/21167"
+    year: 1997
+    accessedDate: "2026-09-18"
+    note: "Secular-republic and freedom-of-religion provisions (Arts 1(1), 25, 32, 60), and the non-discrimination clause covering ethnicity and language."
+  - id: composite-estimate
+    name: "Composite estimate"
+    publisher: "Composite estimate"
+    url: "https://www.gbosdata.org/downloads-file/213-census-2013-spatial-distribution-report"
+    year: 2013
+    accessedDate: "2026-09-18"
+    note: "ESTIMATE — languageUsage locallySpoken speaker shares proxied from GBoS 2013 ethnic proportions because no language-spoken-at-home census figures exist (many Gambians are bilingual/multilingual). Currency, timezone and payment customs are standard administrative facts."

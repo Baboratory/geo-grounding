@@ -1,0 +1,101 @@
+alpha3: STP
+alpha2: ST
+name:
+  eng: São Tomé and Príncipe
+  local:
+    - languageCode: por
+      value: São Tomé e Príncipe
+flagEmoji: "🇸🇹"
+capital: São Tomé
+isSovereign: true
+# Classified unitary-small, not unitary-large: population ~230,000 is far below
+# the unitary-large threshold, and Portuguese is the sole de jure official
+# language. Although Principe Island holds special-autonomous-region political
+# status, the split is geographic/administrative rather than a recognized
+# cultural-historical regional identity with its own official language, so the
+# state is treated as a single WHOLE region (consistent with the dataset's
+# treatment of other sub-250k two-island microstates).
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: por
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution
+  - languageCode: cri
+    domain: locallySpoken
+    speakersShare: 0.36
+    sourceId: census-2012-estimate
+  - languageCode: kea
+    domain: locallySpoken
+    speakersShare: 0.09
+    sourceId: census-2012-estimate
+  - languageCode: aoa
+    domain: locallySpoken
+    speakersShare: 0.07
+    sourceId: census-2012-estimate
+  - languageCode: pre
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: census-2012-estimate
+# The official-domain Portuguese row is a legal-status flag (1.0). The
+# locallySpoken shares are ESTIMATES derived from the 2012 national census, in
+# which respondents could report more than one language (so the shares need
+# not sum to 1); no machine-readable census language tables are published by
+# INE, so each figure is flagged as an estimate. Principense (pre) is moribund
+# (~200 elderly speakers) and included for completeness as an identity language.
+# No ethnic-group percentages are asserted: the CIA Factbook gives the group
+# names (Mestico, Forro, Angolar, Servicai, Tonga, European, Asian) with no
+# reliable official percentages, so they are left out rather than guessed.
+timezones:
+  - name: Africa/Sao_Tome
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+currency:
+  code: STN
+  symbol: "Db"
+  name: "São Tomé and Príncipe dobra"
+legalConstraints:
+  - topic: "Secular state / separation of religion"
+    description: "Art. 8 of the Constitution establishes a state of democratic law and the separation of the state from religious institutions; the republic guarantees fundamental rights including freedom of the press (Art. 29) and labour-union rights."
+    sourceId: constitution
+  - topic: "Not an EU/EEA member"
+    description: "São Tomé and Príncipe is not an EU or EEA member, so EU directives (including GDPR and the single-market consumer-rights rules) do not apply domestically."
+    sourceId: constitution
+paymentCulture:
+  popularMethods:
+    - "Cash (dobra, STN)"
+    - "Bank transfer"
+    - "Mobile money / informal channels"
+    - "Cards accepted mainly in the capital and larger hotels"
+  tipping:
+    expected: false
+    typicalAmount: "A small, optional gratuity in restaurants and for guides"
+    autoIncludedInBill: false
+    note: "The economy is predominantly cash-based on the dobra (pegged to the euro); formal banking is thin and card acceptance is limited outside São Tomé city."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm and informal; Portuguese is the working language, with French and English as widely taught second languages. Personal and network channels carry much daily communication."
+  greetingNorms: "A warm handshake and greeting are standard; asking after family/well-being precedes business."
+  meetingEtiquette: "Relationship-driven and relaxed; build rapport before the agenda. Decisions tend to flow through senior people and personal networks at a modest pace."
+  topicsToAvoid: []
+  giftGivingNotes: "Not expected at a first meeting; a small token is appreciated when hospitality is extended."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: constitution
+    name: "Constitution of the Democratic Republic of São Tomé and Príncipe (1990, revised)"
+    publisher: "Republic of São Tomé and Príncipe, via WIPO Lex and ILO NATLEX"
+    url: "https://www.wipo.int/wipolex/en/text/180006"
+    year: 1990
+    accessedDate: "2026-09-18"
+    note: "Secular state (Art 8), press freedom (Art 29), labour rights and sovereign-republic framework; basis for the non-EU classification."
+  - id: census-2012-estimate
+    name: "2012 national census language/religion composition, as reported by the CIA World Factbook"
+    publisher: "Composite estimate"
+    url: "https://www.cia.gov/the-world-factbook/countries/sao-tome-and-principe/"
+    year: 2012
+    accessedDate: "2026-09-18"
+    note: "ESTIMATE — locallySpoken language shares (Sãotomense ~36%, Kabuverdianu ~9%, Angolar ~7%, Principense ~1%) and religion shares from the 2012 census as reported by the Factbook; INE micro-tables are not machine-readable, so these are flagged as estimates. OECD/DAC population ~230,000 (2023) supports the unitary-small classification."

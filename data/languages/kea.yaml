@@ -1,0 +1,9 @@
+code: kea
+name:
+  eng: Kabuverdianu
+  local: Kabuverdianu
+# Kabuverdianu (Cape Verdean Creole/Kriolu) is the creole co-official language
+# of Cape Verde (with Portuguese), and also spoken by the Cape Verdean-descent
+# community in Sao Tome and Principe.
+# No commonPhrases block: no verified phrase set was available in a citable
+# source at authoring time; leaving it out rather than risking unverified text.

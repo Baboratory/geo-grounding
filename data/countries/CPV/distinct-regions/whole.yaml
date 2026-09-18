@@ -1,0 +1,92 @@
+code: WHOLE
+name:
+  eng: Cape Verde
+  local:
+    - languageCode: por
+      value: Cabo Verde
+    - languageCode: kea
+      value: Kabu Verdi
+# Country-wide fallback region (unitary-small, single synthetic WHOLE entry).
+climates:
+  - koppenCode: BSh
+    description: Hot semi-arid subtropical climate moderated by the Atlantic trade winds, with a short erratic wet season and a long dry season.
+landmarks:
+  - name: Pico do Fogo
+    description: Active stratovolcano on the island of Fogo, the archipelago's highest peak and a dramatic national landmark whose caldera is cultivated and inhabited.
+  - name: São Salvador (Old Town of Praia)
+    description: Historic heart of the capital on the island of Santiago, with Catedral de Nossa Senhora das Neves and the Palácio Presidencial on its colonial-era plateau.
+  - name: Historic town of Cidade de São Filipe
+    description: Colonial-era town on the island of Fogo, notable for its traditional 18th-19th century architecture.
+  - name: Playa de Santa Mónica
+    description: Notable black-sand beach on the island of Fogo, formed from the volcano's volcanic ash.
+culturalTraits:
+  - Strong musical heritage — morna and coladeira (ballad and dance genres), with the cavaquinho guitar
+  - Kriolu (Kabuverdianu) as the everyday spoken language alongside Portuguese
+  - Family and community bonds across the diaspora (emigration is a defining feature)
+  - Carnival (Carnaval de la Praia) celebrated before Lent
+prideOf:
+  - Deep-rooted music tradition (morna, coladeira)
+  - Diaspora and a welcoming, outward-looking culture
+  - Political stability and peaceful democracy in West Africa
+animals:
+  popular:
+    - Atlantic bottlenose dolphin
+    - Humpback whale (migration season)
+  unique:
+    - Endemic reptiles and the seabird colonies of the outer islands
+industries:
+  - Tourism
+  - Fishing (tuna)
+  - Agriculture (limited, rain-fed)
+  - Remittance-financed services
+sports:
+  - Football (soccer)
+  - Athletics
+  - Windsurfing and kitesurfing
+religions:
+  - name: Roman Catholic
+    percent: 78.0
+    sourceId: religion-estimate
+  - name: Protestant (Nazarene, Adventist and other)
+    percent: 10.0
+    sourceId: religion-estimate
+  - name: Muslim
+    percent: 2.0
+    sourceId: religion-estimate
+  - name: Other / no religion
+    percent: 10.0
+    sourceId: religion-estimate
+entertainment:
+  - season: allYear
+    items:
+      - Morna and coladeira music performances
+  - season: dry
+    items:
+      - Carnaval (pre-Lent carnival celebrations)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Caldo de cabra (goat stew)
+      - Cachupa (maize-based national dish, with fish or meat)
+      - Gato de botà / fresh fish and rice dishes
+      - Muzzarel / local lobster and seafood
+traditionalClothing:
+  - season: allYear
+    items:
+      - Modern casual wear; traditional colonial-era dress appears at festivals and folklore events
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10]
+businessRhythm:
+  restDays: []
+  notes: "Working week is Monday-Friday; some retail operates Saturday mornings. Business pace is relaxed and personal-network-driven, typical of a small island economy; some formal activity pauses around the summer holiday and Christmas/New Year."
+  typicalWorkHours: "Standard office hours are roughly 08:00-17:00, Monday-Friday."
+sources:
+  - id: religion-estimate
+    name: "Cape Verde — Religions and general facts"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/cabo-verde/"
+    accessedDate: "2026-09-18"
+    note: "Religious-affiliation estimate (Roman Catholic ~78%, other Christian 10%, none/other 10%, Muslim 2%). Geographic and cultural content is general knowledge, not a cited statistic."
