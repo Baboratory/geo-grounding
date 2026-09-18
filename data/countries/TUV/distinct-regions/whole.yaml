@@ -1,0 +1,123 @@
+code: WHOLE
+name:
+  eng: Tuvalu
+  local:
+    - languageCode: eng
+      value: Tuvalu
+    - languageCode: tvl
+      value: Tuvalu
+# Generic country-wide fallback content for Tuvalu (unitary-small, single
+# synthetic whole region). The nine-island/atoll split is geographic rather than
+# a curated regional identity, so all regional content is folded here as the
+# national character.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest / equatorial maritime climate — hot, humid and warm year-round (~27-31°C), with a wet/cyclone season Nov-Apr and a drier May-Oct."
+landmarks:
+  - name: Funafuti Conservation Area
+    description: "A protected lagoon, reef and uninhabited islets on Funafuti — a flagship marine conservation site with pristine coral reef and seabird habitat."
+  - name: Funafuti lagoon and islet sandbars
+    description: "The vast central lagoon bordered by sandbar islets; the focus of daily life and recreation."
+# Tuvalu is the world's lowest-lying country (highest point ~4.6 m, on
+# Niulakita) and has NO UNESCO World Heritage Sites — noted for accuracy.
+culturalTraits:
+  - "Falekaupule (island council of elders) tradition governing each island — central to governance and custom (Aganu)"
+  - "Fatele — rhythmic traditional song-and-dance, with each island's own version"
+  - "Strong extended-family (kaaiga) kinship and communal work obligations"
+  - "Deep Christian faith (Church of Tuvalu, EKT, is the state church) — prayer opens community and government events"
+prideOf:
+  - "Exceptional seafaring and wayfinding heritage of the Polynesian voyagers"
+  - "Being a 'most-at-risk' yet resilient low-lying nation advocating on climate change"
+  - "The fortuitous '.tv' domain income and the Tuvalu Trust Fund for fiscal security"
+  - "National motto 'Tuvalu mo te Atua' (Tuvalu for the Almighty)"
+animals:
+  popular:
+    - "Green sea turtles"
+    - "Seabirds (noddies, terns)"
+    - "Coconut crabs"
+    - "Reef fish and dolphins"
+  unique:
+    - "Rich marine life of the lagoon and EEZ (skipjack and yellowfin tuna)"
+    - "Limited native land fauna — no native terrestrial mammals"
+industries:
+  - "Fishing licence fees (tuna; PNA member) — a top revenue source"
+  - "Remittances from Tuvaluan seafarers and diaspora (regional labor schemes)"
+  - "Government services (~2/3 of formal employment)"
+  - "Tuvalu Trust Fund income, '.tv' domain lease, philately (stamps and collector coins)"
+  - "Copra and subsistence agriculture (coconut palms, pulaka)"
+sports:
+  - "Soccer (association football)"
+  - "Rugby sevens"
+  - "Volleyball"
+  - "Te Ano — a traditional Tuvaluan ball game played mainly in Funafuti"
+  - "Netball (women) and athletics"
+religions:
+  - name: Protestant (Congregational Christian Church of Tuvalu/EKT ~85.9%, Brethren 2.8%, SDA 2.5%, Assemblies of God 1.5%)
+    percent: 92.7
+    sourceId: cwf-religion
+  - name: Other Christian and minority faiths (incl. Bahá'í ~1.5%, Jehovah's Witness ~1.5%)
+    percent: 6.9
+    sourceId: cwf-religion
+  - name: None / refused
+    percent: 0.4
+    sourceId: cwf-religion
+# Religion figures: CIA World Factbook, 2017 est. The Church of Tuvalu (EKT) is
+# the established state church and Christianity ~96% overall (2022 census).
+# 'Other' is a residual to reach 100.
+entertainment:
+  - season: allYear
+    items:
+      - "Community and church/choral events including hymns"
+      - "Fatele performances at special occasions"
+      - "Lagoon swimming, fishing and reef days"
+  - season: dry
+    items:
+      - "Peak beach and fishing days (May-Oct)"
+  - season: wet
+    items:
+      - "Indoor and community cultural festivities"
+      - "Independence Day (1 October) and per-island national days"
+      - "Sunday dominated by church"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pulaka (giant swamp taro grown in compost pits below the water table)"
+      - "Raw or grilled reef fish with coconut cream (lolo) sauces"
+      - "Breadfruit and bananas"
+      - "Coconut toddy and fermented drinks"
+      - "Seafood, including sea cucumber"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Sarong-style wraps (lava-lava/sulu)"
+      - "Woven pandanus/palm clothing and dance costumes (te titi)"
+      - "Modest western-style dress for Sundays and church"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government ~08:00-16:00 Mon-Fri; office/community activity centred on Funafuti (Fongafale). Sunday trading prohibited by regulation."
+  lunchBreakTiming: "Typically midday."
+  notableShutdownPeriods:
+    - period: "Public holidays"
+      description: "Independence Day (1 October) and national celebrations."
+  notes: "Government regulations prohibit trading on Sundays. Funafuti also has a daily 15-minute pause for EKT evening prayer. The economy is small, cash-based and heavily reliant on the public sector, fishing licences, remittances and the trust fund."
+sources:
+  - id: cwf-religion
+    name: "CIA World Factbook — Tuvalu (People: religion, 2017 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/tuvalu/"
+    year: 2017
+    accessedDate: "2026-09-18"
+    note: "Protestant ~92.7% (EKT/Congregational ~85.9%), Bahá'í ~1.5%, JW ~1.5%, other ~3.9%, none ~0.4%."
+  - id: no-unesco
+    name: "Tuvalu — World Heritage status"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/tv"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Confirms Tuvalu has no inscribed UNESCO World Heritage Site."
