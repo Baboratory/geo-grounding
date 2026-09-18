@@ -1,0 +1,126 @@
+code: WHOLE
+name:
+  eng: Vanuatu
+  local:
+    - languageCode: bis
+      value: Ripablik blong Vanuatu
+    - languageCode: eng
+      value: Republic of Vanuatu
+    - languageCode: fra
+      value: République de Vanuatu
+# Generic country-wide fallback content for Vanuatu (unitary-large). Used via the
+# 'whole-country-fallback' path when a visitor's specific province isn't one of
+# the curated files (VT-SEE Efate, VT-SAN Espiritu Santo, VT-TAF Tanna).
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — hot and humid, moderated by trade winds; heavy rainfall, especially in the wet season (Nov-Apr)."
+landmarks:
+  - name: Port Vila waterfront and Parliament House
+    description: "The capital's harbour and seat of government on Efate."
+  - name: Mt. Yasur volcano (Tanna)
+    description: "One of the world's most accessible active volcanoes."
+  - name: Champagne Beach, Espiritu Santo
+    description: "Iconic white-sand beach in the north."
+  - name: Mele Cascades waterfall (Efate)
+    description: "A layered waterfall near Port Vila."
+  - name: Millennium Cave and Blue Holes (Efate/Santo)
+    description: "Cave and spring-tour swim destinations."
+culturalTraits:
+  - "Kastom (custom) traditions, rank-taking and chiefly systems, especially on Tanna, Ambrym and Malekula"
+  - "Nimangki/grade ceremonies; land-diving (nagol) on Pentecost; totem and mask rituals"
+  - "Strong village- and island-group identity; 100+ local languages"
+  - "Music, dance and sand-drawing traditions (UNESCO-listed sand drawing)"
+  - "Community church life centering villages"
+prideOf:
+  - "Rich kastom heritage and 100+ living languages"
+  - "Mt. Yasur and the tropical archipelago"
+  - "Proud independence (1980, from the Anglo-French condominium)"
+  - "Five UNESCO World Heritage/Intangible listings (sand drawing, etc.)"
+animals:
+  popular:
+    - "Flying foxes (fruit bats)"
+    - "Green sea turtles"
+    - "Dugongs (seagrass meadows)"
+    - "Reef fish"
+  unique:
+    - "Vanuatu megapode"
+    - "Santa Cruz ground-dove"
+industries:
+  - "Tourism (Port Vila, Santo, outer islands)"
+  - "Agriculture (copra, kava, cocoa, coconut products)"
+  - "Beef cattle and aquaculture"
+  - "Offshore financial services"
+  - "Fishing"
+sports:
+  - "Association football (soccer)"
+  - "Rugby"
+  - "Cricket"
+  - "Volleyball"
+religions:
+  - name: Presbyterian
+    percent: 28.0
+    sourceId: estimate-flag
+  - name: Roman Catholic
+    percent: 14.0
+    sourceId: estimate-flag
+  - name: Anglican
+    percent: 12.0
+    sourceId: estimate-flag
+  - name: Seventh-day Adventist
+    percent: 12.0
+    sourceId: estimate-flag
+  - name: Other Christian / customary (kastom) syncretism
+    percent: 34.0
+    sourceId: estimate-flag
+entertainment:
+  - season: allYear
+    items:
+      - "Beach and reef days; island boat tours"
+      - "Village kava (nakamal) gatherings"
+      - "Kastom dance and sand-drawing demonstrations"
+  - season: dry
+    items:
+      - "Peak diving, yachting and tourism season (May-Oct)"
+      - "Land-diving (nagol) ceremonies on Pentecost (April-June, historically)"
+  - season: wet
+    items:
+      - "Yasur volcano viewing on clearer cyclonic-window days"
+      - "Indoor/cultural events during heavy rain"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Lap lap (grated taro/yam/cassava baked with coconut cream and meat)"
+      - "Tuluk (baked manioc with pork)"
+      - "Flying fox curry; coconut crab in season"
+      - "Fresh reef fish and shellfish"
+      - "Kava (traditional ceremonial drink) — central to social/custom life"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light tropical clothing"
+      - "Kastom mats and woven garments at ceremonies"
+      - "Nambas/traditional dress in some custom villages"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 07:30-16:30/17:00 Mon-Fri; retail often Mon-Sat."
+  lunchBreakTiming: "A midday break is common."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Reduced business over the holidays."
+    - period: "Cyclone season (Nov-Apr)"
+      description: "Severe weather can disrupt operations, especially on outer islands."
+  notes: "Many villages close Sunday for church. Tourism peaks in the dry season (May-Oct)."
+sources:
+  - id: estimate-flag
+    name: "Composite estimate (religious affiliation estimates)"
+    publisher: "Composite estimate"
+    url: "https://vnso.gov.vu/"
+    year: 2016
+    accessedDate: "2026-09-18"
+    note: "Religious composition estimates (Presbyterian ~28%, Roman Catholic ~14%, Anglican ~12%, SDA ~12%, other Christian/customary syncretism ~34%)."
