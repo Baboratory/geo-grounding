@@ -1,0 +1,94 @@
+code: GY-ESS
+name:
+  eng: Essequibo & west coast
+  local:
+    - languageCode: eng
+      value: Essequibo coast & islands
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — hot and humid coastal climate."
+landmarks:
+  - name: Fort Zeelandia (Fort Island)
+    description: "17th-century Dutch fort in the Essequibo River."
+  - name: Baganara Island & river lodges
+    description: "Eco-lodges and river recreation on the Essequibo."
+  - name: Essequibo mangrove creeks
+    description: "Mangrove-lined creeks and turtle-nesting beaches."
+  - name: Mabaruma district
+    description: "Northwest Amerindian heartland (Barima-Waini)."
+culturalTraits:
+  - "Essequibo river culture — fishing, river trade, estuarine islands"
+  - "Agricultural coastal plain (rice, coconut, cocoa)"
+  - "Coastal Indo-/Afro-Guyanese and Amerindian communities; Amerindians more prominent northwest"
+  - "Turtle-nesting and eco-tourism"
+prideOf:
+  - "Fort Zeelandia and Dutch heritage"
+  - "Scenic Essequibo islands and mangroves"
+  - "Sea-turtle nesting beaches"
+animals:
+  popular:
+    - "Sea turtles (green, leatherback)"
+    - "Manatees"
+    - "River dolphins"
+  unique:
+    - "Giant river otter in Essequibo tributaries"
+industries:
+  - "Agriculture/agro-processing"
+  - "Fishing and seafood"
+  - "Eco-tourism and river lodges"
+  - "Light manufacturing"
+sports:
+  - "Cricket"
+  - "Football"
+  - "Regatta/river sports"
+religions:
+  - name: Christian (all branches)
+    percent: 55.0
+    sourceId: guy-census-2012
+  - name: Hindu
+    percent: 33.0
+    sourceId: guy-census-2012
+  - name: Muslim
+    percent: 7.0
+    sourceId: guy-census-2012
+entertainment:
+  - season: allYear
+    items:
+      - "River/island excursions on the Essequibo"
+      - "Fishing and northwest-coast beach life"
+  - season: dry
+    items:
+      - "Phagwah and coastal celebrations (Feb-Mar)"
+      - "Turtle-watching season kickoff"
+  - season: wet
+    items:
+      - "Divali, Eid and Christmas in coastal communities"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fresh seafood"
+      - "Pepperpot"
+      - "Cook-up and coconut-rice dishes"
+      - "Cassava and dasheen"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 4, 9, 10, 11]
+  - season: wet
+    months: [1, 5, 6, 7, 8, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Agriculture-dominated; markets/shops Mon-Sat, reduced Sunday."
+  lunchBreakTiming: "Midday break common."
+  notableShutdownPeriods:
+    - period: "National public holidays"
+      description: "Mashramani, Phagwah, Eid, Easter, Divali, Christmas/New Year."
+  notes: "River-island and northwest-coast access can be disrupted by wet-season flooding."
+sources:
+  - id: guy-census-2012
+    name: "Final 2012 Population & Housing Census Compendium 2"
+    publisher: "Bureau of Statistics Guyana"
+    url: "https://statisticsguyana.gov.gy/wp-content/uploads/2019/10/Final_2012_Census_Compendium2.pdf"
+    year: 2012
+    accessedDate: "2026-09-17"
+    note: "Regional religion splits are ESTIMATES of the Essequibo/west coast from the 2012 census religious composition (Christian ~55%, Hindu ~33%, Muslim ~7%)."

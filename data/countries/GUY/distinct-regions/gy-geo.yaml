@@ -1,0 +1,98 @@
+code: GY-GEO
+name:
+  eng: Georgetown & Demerara coast
+  local:
+    - languageCode: eng
+      value: Georgetown & Demerara coastline
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — hot and humid on the windward coast."
+landmarks:
+  - name: St George's Cathedral
+    description: "One of the world's tallest all-timber churches."
+  - name: Georgetown Esplanade & sea wall
+    description: "The capital's social heart and promenade."
+  - name: Umana Yana
+    description: "Waiwai-style thatched community building in central Georgetown."
+  - name: Stabroek Market
+    description: "Historic open-air market at the port."
+  - name: Guyana National Museum
+    description: "Museum of the country's natural and social history."
+culturalTraits:
+  - "National capital, main port and commercial/administrative centre"
+  - "Cosmopolitan mix of all six peoples; English and Creole dominant"
+  - "Camoedan-lined avenues and timber colonial architecture"
+  - "Caribbean-leaning urban culture — cricket, chutney/soca, lime culture"
+prideOf:
+  - "Timber Georgian architecture and the sea wall"
+  - "Seat of government and economic engine"
+  - "Umana Yana and Amerindian heritage in the capital"
+animals:
+  popular:
+    - "Sea turtles"
+    - "Manatees in the Demerara estuary"
+  unique: []
+industries:
+  - "Government, finance and banking"
+  - "Port, commerce, logistics"
+  - "Construction/services on the oil boom"
+  - "Rice/agro-processing"
+sports:
+  - "Cricket"
+  - "Football"
+  - "Basketball and volleyball"
+religions:
+  - name: Christian (all branches)
+    percent: 57.0
+    sourceId: guy-census-2012
+  - name: Hindu
+    percent: 30.0
+    sourceId: guy-census-2012
+  - name: Muslim
+    percent: 8.0
+    sourceId: guy-census-2012
+entertainment:
+  - season: allYear
+    items:
+      - "Georgetown nightlife and lime culture"
+      - "Cricket and football"
+      - "City markets and the sea wall"
+  - season: dry
+    items:
+      - "Mashramani carnival in Georgetown (Feb)"
+      - "Phagwah celebrations"
+  - season: wet
+    items:
+      - "Covered markets and indoor venues during heavy rains"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pepperpot"
+      - "Cook-up rice"
+      - "Bake and shark at the sea wall"
+      - "Curry and roti"
+      - "Daal and bara snacks"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 4, 9, 10, 11]
+  - season: wet
+    months: [1, 5, 6, 7, 8, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government/offices 08:00-16:30/17:00 Mon-Fri; retail Mon-Sat, reduced Sunday."
+  lunchBreakTiming: "Midday break ~12:00-13:00."
+  notableShutdownPeriods:
+    - period: "Mashramani / Republic Day"
+      description: "National holiday ~23 Feb."
+    - period: "Phagwah, Eid, Easter, Divali, Christmas/New Year"
+      description: "Nation-wide holidays."
+  notes: "Most national business activity clusters here; banks/ministries keep standard Mon-Fri hours."
+sources:
+  - id: guy-census-2012
+    name: "Final 2012 Population & Housing Census Compendium 2"
+    publisher: "Bureau of Statistics Guyana"
+    url: "https://statisticsguyana.gov.gy/wp-content/uploads/2019/10/Final_2012_Census_Compendium2.pdf"
+    year: 2012
+    accessedDate: "2026-09-17"
+    note: "Regional religion splits are ESTIMATES of the Georgetown/Demerara area from the 2012 census religious composition (Christian ~57%, Hindu ~30%, Muslim ~8%)."

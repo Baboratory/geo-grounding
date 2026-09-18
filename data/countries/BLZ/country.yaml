@@ -1,0 +1,188 @@
+alpha3: BLZ
+alpha2: BZ
+name:
+  eng: Belize
+  local:
+    - languageCode: eng
+      value: Belize
+flagEmoji: "🇧🇿"
+capital: Belmopan
+isSovereign: true
+# Classified unitary-large: Belize fails the population criterion (~397k, 2022
+# census — far below the 20-25M threshold) but MEETS the other two DESIGN.md
+# criteria: (2) the Mayan languages (Yucatec, Mopan, Q'eqchi') and Garifuna are
+# officially recognized as national/minority languages (Education Act 2000
+# amendments recognize three Mayan languages; Garifuna is UNESCO-listed living
+# heritage), and (3) a widely recognized cultural-regional divide exists between
+# the Caribbean coast/cays, the Maya hinterland (Cayo/west), and the southern
+# Garifuna/Spanish area (Stann Creek/Toledo). Single narrow state (constitutionally
+# unitary) so NOT federal. Curated regions: Belize District/coast (BZ-BZ), Cayo/
+# west (BZ-CY), Stann Creek/south (BZ-SC) + WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: "BZ"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: blz-constitution
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.62
+    sourceId: blz-census
+  - languageCode: bjz
+    domain: locallySpoken
+    speakersShare: 0.44
+    sourceId: estimate-flag
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.56
+    sourceId: blz-census
+  - languageCode: yua
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: estimate-flag
+  - languageCode: mop
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: estimate-flag
+  - languageCode: kek
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: estimate-flag
+  - languageCode: itz
+    domain: locallySpoken
+    speakersShare: 0.002
+    sourceId: estimate-flag
+  - languageCode: cab
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: estimate-flag
+  - languageCode: cmn
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: estimate-flag
+# English is the sole official language (medium of government, courts and
+# education), near-universally functionally competent. Belize Kriol (bjz) is the
+# de facto national vernacular, Spanish is widely spoken (esp. west/south, Central
+# American migrant communities), and the Mayan languages + Garifuna are
+# recognized national languages. All non-census shares are ESTIMATES (SIL/
+# community figures); the locale shares reflect language-in-common-use from the
+# 2010/2022 census (many Belizeans are bilingual, so locallySpoken splits can
+# overlap and are approximate).
+ethnicGroups:
+  # Statistical Institute of Belize, 2022 census.
+  - group: Mestizo/Latino (Spanish-speaking)
+    percent: 52.7
+    sourceId: blz-census
+  - group: Creole/Kriol (Afro-Belizean)
+    percent: 25.5
+    sourceId: blz-census
+  - group: Maya
+    percent: 9.9
+    sourceId: blz-census
+  - group: Garifuna
+    percent: 6.0
+    sourceId: blz-census
+  - group: East Indian
+    percent: 1.4
+    sourceId: blz-census
+  - group: Mennonite (German-speaking)
+    percent: 0.8
+    sourceId: blz-census
+  - group: Other (mixed 'Maya/Mestizo', Chinese, Lebanese, Caucasian)
+    percent: 3.7
+    sourceId: blz-census
+timezones:
+  - name: America/Belize
+    standardUtcOffset: "UTC-6"
+    observesDst: false
+currency:
+  code: BZD
+  symbol: "BZ$"
+  name: "Belize dollar (pegged BZD 2 = USD 1; USD widely accepted)"
+legalConstraints:
+  - topic: "official language"
+    description: "English is the sole official language of Belize (medium of government, courts and education). Public-facing and legal text is expected in English, though Kriol, Spanish and the Mayan/Garifuna languages are widely used in everyday life and recognized as part of the national heritage."
+    sourceId: blz-constitution
+  - topic: "currency / legal tender"
+    description: "The Belize dollar (BZD) is the national currency, pegged at BZD 2.00 = USD 1.00 by the Central Bank of Belize. US dollars are widely accepted in cash across the country, with change often given in BZD at the peg."
+    sourceId: blz-central-bank
+paymentCulture:
+  popularMethods:
+    - "Cash — dominant in rural and market settings; US dollars broadly accepted (change often given in BZD at the 2:1 peg)"
+    - "Debit/credit cards — accepted at larger hotels, restaurants and supermarkets (Belize City, San Ignacio, Placencia)"
+    - "ATMs ('ABMs') — dispense BZD"
+    - "Mobile/digital wallets and bank transfers — growing but limited relative to cash"
+  tipping:
+    expected: true
+    typicalAmount: "About 10-15% in restaurants where no service charge is included"
+    autoIncludedInBill: false
+    note: "Tipping is customary in tourism-facing service. Bargaining ('haggling') is expected at street/market stalls but not in stores. Bankers' hours are roughly Mon-Fri 08:00-15:00; no authoritative national payment-share study was located, so no percentages are asserted."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm, relaxed, friendly and indirect. Use titles and last names until invited to first names. Belizean English follows British spelling (colour, centre, honour) while everyday speech is heavily Kriol-influenced."
+  greetingNorms: "Friendly, courteous greeting; 'good morning/afternoon' expected when entering a shop or office. Handshake in business."
+  meetingEtiquette: "Relationship-first — establish trust and rapport before deals. Punctuality is interpreted loosely for social meetups ('plenty time') though expected for business. Directly confronting or 'fronting' someone is rude; criticism is softened. Negotiation is expected but polite."
+  topicsToAvoid:
+    - "Treating Belize as a mainland-Central-American market when its identity is distinctly Caribbean"
+    - "Unfavourable comparisons to other Caribbean or Central American countries"
+  giftGivingNotes: "Not expected at a first business meeting. When visiting a home, a small gift or invitation to share food is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: BZ-BZ
+    file: distinct-regions/bz-bz.yaml
+    adminUnitCodes: [BZ-BZ]
+  - code: BZ-CY
+    file: distinct-regions/bz-cy.yaml
+    adminUnitCodes: [BZ-CY]
+  - code: BZ-SC
+    file: distinct-regions/bz-sc.yaml
+    adminUnitCodes: [BZ-SC]
+sources:
+  - id: blz-census
+    name: "2022 Population and Housing Census — ethnicity and languages"
+    publisher: "Statistical Institute of Belize (SIB)"
+    url: "https://sib.org.bz/census-statistics/"
+    year: 2022
+    accessedDate: "2026-09-17"
+    note: "Total population ~397k. Ethnic self-identification: Mestizo/Latino 52.7%, Creole/Kriol 25.5%, Maya 9.9%, Garifuna 6.0%, East Indian 1.4%, Mennonite 0.8%, Other 3.7%. Language-in-common-use splits (approx): English 62%, Spanish 56%, Kriol 44%."
+  - id: blz-constitution
+    name: "The Constitution of Belize and official-language policy"
+    publisher: "Government of Belize"
+    url: "https://www.gov.bz/"
+    accessedDate: "2026-09-17"
+    note: "English is the sole official language and the medium of government, courts and education. Belizean official-language policy recognizes the importance of the national heritage languages."
+  - id: blz-central-bank
+    name: "Belize dollar — currency and peg"
+    publisher: "Central Bank of Belize (CBB)"
+    url: "https://www.centralbank.org.bz/"
+    accessedDate: "2026-09-17"
+    note: "The BZD is pegged to the US dollar at BZD 2.00 = USD 1.00; US dollars are widely accepted in cash. Basis for the currency entry and legal-tender constraint."
+  - id: blz-education-act
+    name: "Education Act 2000 amendments — recognition of Mayan languages"
+    publisher: "Government of Belize (National Assembly)"
+    url: "https://www.gov.bz/"
+    year: 2000
+    accessedDate: "2026-09-17"
+    note: "Recognizes Yucatec, Mopan and Q'eqchi' Mayan languages (and heritage languages generally) in education — the basis for their local-spoken status and the minority-language criterion."
+  - id: unesco-garifuna
+    name: "Garifuna language, dance and music — UNESCO Masterpiece of the Oral and Intangible Heritage"
+    publisher: "UNESCO"
+    url: "https://ich.unesco.org/"
+    year: 2001
+    accessedDate: "2026-09-17"
+    note: "Garifuna language, dance and music inscribed (2001) — basis for the recognition of Garifuna (cab) as a national heritage language and for the minority-language criterion."
+  - id: iana-timezones
+    name: "IANA Time Zone Database — America/Belize"
+    publisher: "Internet Assigned Numbers Authority (IANA)"
+    url: "https://www.iana.org/time-zones"
+    accessedDate: "2026-09-17"
+    note: "America/Belize = UTC-6, no daylight saving time; the sole timezone for the country."
+  - id: estimate-flag
+    name: "Estimated / secondary figures — marked as non-primary"
+    publisher: "Composite estimate"
+    url: "https://sib.org.bz/"
+    accessedDate: "2026-09-17"
+    note: "ESTIMATE flag for the non-census languageUsage shares: Kriol L1 (~44%), Mayan languages, Garifuna, Mandarin, and Itza — SIL/community figures, not census counts."

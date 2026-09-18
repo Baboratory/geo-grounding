@@ -1,0 +1,116 @@
+code: GY-HIN
+name:
+  eng: Hinterland & Rupununi (Amerindian)
+  local:
+    - languageCode: eng
+      value: Interior savannah & rainforest
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest over most of the forested interior."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) on the Rupununi — the driest part with a pronounced dry season."
+landmarks:
+  - name: Kaieteur Falls
+    description: "226 m waterfall on the Potaro River."
+  - name: Rupununi savannah
+    description: "Open grasslands, wetlands and ranches; giant otters, anteaters, capybaras."
+  - name: Lethem / Moco-Moco
+    description: "Border town on the Brazil frontier, gateway to the savannah."
+  - name: Linden (Arawak Town)
+    description: "The interior's main population centre, historically bauxite mining."
+  - name: Amerindian villages (Shero, Fairview, Paratula)
+    description: "Wapishana, Macushi and Waiwai communities of the Rupununi."
+culturalTraits:
+  - "Heartland of the nine recognized Amerindian peoples and their languages"
+  - "Cattle ranching, hunting and riverine livelihoods"
+  - "Small mining/river towns (Linden, Bartica, Mahdia)"
+  - "Largely Christianized with indigenous and syncretic traditions"
+  - "Very low density — most of the interior is uninhabited forest"
+prideOf:
+  - "Kaieteur Falls and untouched rainforest"
+  - "Amerindian identity and languages"
+  - "Rupununi wildlife and savannah"
+  - "Self-reliant riverine/ranching communities"
+animals:
+  popular:
+    - "Giant river otter"
+    - "Giant anteater"
+    - "Capybara"
+    - "Tapir and jaguar"
+    - "Harpy Eagle"
+  unique:
+    - "Giant river otter (world's largest)"
+    - "Macaws in the savannah gallery forests"
+industries:
+  - "Gold/diamond mining (Mahdia, Bartica)"
+  - "Bauxite (Linden) and timber"
+  - "Cattle ranching on the Rupununi"
+  - "Eco-tourism (Kaieteur, wildlife lodges)"
+  - "Subsistence agriculture/fishing"
+sports:
+  - "Football"
+  - "Cricket"
+  - "Boat/river sports"
+religions:
+  - name: Christian (all branches)
+    percent: 90.0
+    sourceId: guy-census-2012
+  - name: Other / indigenous beliefs (syncretic)
+    percent: 8.0
+    sourceId: guy-census-2012
+  - name: Hindu/Muslim (minority, mainly Linden)
+    percent: 2.0
+    sourceId: guy-census-2012
+entertainment:
+  - season: allYear
+    items:
+      - "River trips and wildlife-watching"
+      - "Amerindian festivals and heritage events"
+      - "Mining-town football/nightlife"
+  - season: dry
+    items:
+      - "Best overland travel and savannah safaris"
+      - "Amerindian Heritage Month (Sep)"
+  - season: wet
+    items:
+      - "Kaieteur at peak flow; savannah fishing seasons"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Cassava, sereeteh (kaieteur fish stew)"
+      - "Guyanese pepperpot"
+      - "Roast river fish"
+      - "Bitter cassava (metham)"
+  - season: dry
+    items:
+      - "Smoked/dried river fish and game (traditional fare)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light tropical clothing"
+      - "Traditional woven palmetto/cassava-fibre wear at festivals"
+      - "Madras ornamentation at heritage events"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 4, 9, 10, 11]
+  - season: wet
+    months: [1, 5, 6, 7, 8, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Mining/ranching around daylight; offices/shops ~08:00-16:00/17:00 Mon-Fri."
+  lunchBreakTiming: "Midday break common."
+  notableShutdownPeriods:
+    - period: "National public holidays"
+      description: "Mashramani, Phagwah, Eid, Easter, Divali, Christmas/New Year."
+    - period: "Amerindian Heritage Month (September)"
+      description: "Cultural celebration month with community events."
+  notes: "Access is strongly seasonal: wet-season rains (May-Aug, Dec-Jan) flood roads and river crossings; sites like Kaieteur and the deeper savannah are far more reachable in the Feb-Apr dry window."
+sources:
+  - id: guy-census-2012
+    name: "Final 2012 Population & Housing Census Compendium 2"
+    publisher: "Bureau of Statistics Guyana"
+    url: "https://statisticsguyana.gov.gy/wp-content/uploads/2019/10/Final_2012_Census_Compendium2.pdf"
+    year: 2012
+    accessedDate: "2026-09-17"
+    note: "Regional religion splits are ESTIMATES of the Amerindian hinterland / Rupununi from the 2012 census religious composition (Christian ~90%, other/indigenous beliefs ~8%, Hindu/Muslim ~2%)."
