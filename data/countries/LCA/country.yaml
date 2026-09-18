@@ -1,0 +1,149 @@
+alpha3: LCA
+alpha2: LC
+name:
+  eng: Saint Lucia
+  local:
+    - languageCode: eng
+      value: Saint Lucia
+flagEmoji: "🇱🇨"
+capital: Castries
+isSovereign: true
+# Classified unitary-small: Saint Lucia meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~180,000 (2022 census 172,948) — far below the
+# 20-25M threshold. (2) No officially recognized regional/minority or co-official
+# languages — English is the sole official language; Saint Lucian Creole French
+# (Kwéyòl, 'acf') is the de facto vernacular spoken by the majority but it is NOT
+# official. (3) No widely recognized cultural-historical federal/multi-region
+# identity — the 10 administrative districts have no strong independent regional
+# identities worth curating. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: lca-official-language
+  - languageCode: acf
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: lca-kweyol-language
+# English is the sole official language. Saint Lucian Creole French (Kwéyòl,
+# ISO 639-3 'acf') is a French-based creole — the de facto vernacular language of
+# the country, spoken by the large majority — but it is NOT official; Saint Lucia
+# and Dominica are the only two French-Creole-speaking territories where the
+# creole does not hold official status. The acf locallySpoken share is an
+# ESTIMATE: no official language-proficiency census exists.
+ethnicGroups:
+  # CIA World Factbook 2020 estimates, tracing to the national census-derived
+  # composition (2010 census base).
+  - group: Afro-Caribbean (Black / African descent)
+    percent: 85.3
+    sourceId: lca-ethnic-composition
+  - group: Mixed (African-European)
+    percent: 10.9
+    sourceId: lca-ethnic-composition
+  - group: Indian (East Indian)
+    percent: 2.2
+    sourceId: lca-ethnic-composition
+  - group: Other / unspecified
+    percent: 1.6
+    sourceId: lca-ethnic-composition
+timezones:
+  - name: America/St_Lucia
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+currency:
+  code: XCD
+  symbol: "EC$"
+  name: Eastern Caribbean dollar
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Saint Lucia is a sovereign state and NOT a member of the European Union or the EEA. EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national and regional (CARICOM/OECS) law governs."
+    sourceId: lca-not-eu
+  - topic: "data protection"
+    description: "The Privacy and Data Protection Act makes provision for the protection of individuals in relation to personal data and regulates the collection, holding, use, processing, correction and disclosure of personal information; it establishes a Data Protection Commissioner and registration obligations for data controllers. National law, not GDPR."
+    sourceId: lca-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash (EC$) — still essential for markets, small vendors, local transport and tipping"
+    - "Debit/credit cards (Visa, Mastercard) — standard at hotels, resorts and larger restaurants; contactless and chip+PIN growing"
+    - "Bank transfers and direct deposit"
+    - "Remittance services (Western Union, MoneyGram) — remittances to the Caribbean are significant"
+    - "Mobile/digital wallets growing, incl. DCash — the ECCB's CBDC pilot across the Eastern Caribbean Currency Union"
+  tipping:
+    expected: true
+    typicalAmount: "10-15% in restaurants when no service charge is included; many venues already add a ~10% service charge to the bill"
+    autoIncludedInBill: false
+    note: "Tipping is discretionary. Many restaurants and bars add a 10% service charge, after which any extra is optional; where none is included, 10-15% is customary for servers. A few EC$/USD notes are appreciated for guides, taxi drivers, hotel porters and housekeeping. Check the bill for a service charge before adding extra; cash tips reach staff most directly."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Formal Standard English with titles in government and business; daily social interaction is warm, relaxed and informal, and first names build quickly."
+  greetingNorms: "Friendly, warm greeting; a handshake in formal settings. Kwéyòl niceties ('Bonjou', 'Mèsi') are warmly received even by visitors."
+  meetingEtiquette: "Personal relationships open doors and are valued before business. Reasonably punctual in formal business settings, though a relaxed island pace applies socially. Decisions often rest with senior leadership; courtesy and consensus matter."
+  topicsToAvoid:
+    - "Belittling Kwéyòl/Patois as 'broken French' — it is a respected creole language and a point of national pride"
+    - "Reducing national identity to tourism imagery or clichés"
+    - "Casual ethnic/class stereotyping"
+    - "Overly blunt or confrontational criticism delivered without warmth"
+  giftGivingNotes: "Not required at business meetings; a small thoughtful gesture is welcomed once a relationship forms. Gift-giving centers on Christmas and festivals rather than business protocol."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: lca-official-language
+    name: "Saint Lucia — Languages (The World Factbook)"
+    publisher: "Central Intelligence Agency (CIA)"
+    url: "https://www.cia.gov/the-world-factbook/countries/saint-lucia/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "English is the sole official language; a French-based creole (Saint Lucian Creole French / Kwéyòl) is widely spoken as the vernacular. Basis for the eng official row."
+  - id: lca-kweyol-language
+    name: "Saint Lucian Creole French (acf) — ISO 639-3 code table"
+    publisher: "SIL International (ISO 639-3)"
+    url: "https://iso639-3.sil.org/code_tables/639/data/all"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Verifies ISO 639-3 'acf' = Saint Lucian Creole French (Kwéyòl), an individual living language. Saint Lucia and Dominica are the only French-Creole-speaking territories where it is not official. The acf locallySpoken share (majority, commonly ~95%) is a Composite estimate — no official proficiency census exists."
+  - id: lca-ethnic-composition
+    name: "Saint Lucia — People and Society (The World Factbook), 2020 estimates"
+    publisher: "Central Intelligence Agency (CIA)"
+    url: "https://www.cia.gov/the-world-factbook/countries/saint-lucia/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Ethnic composition (2020 est.): Afro-Caribbean 85.3%, Mixed 10.9%, Indian 2.2%, other/unspecified 1.6%. These trace to the composition established by the national census (2010 base)."
+  - id: lca-cso
+    name: "Central Statistical Office of Saint Lucia — Census 2022 Results"
+    publisher: "Central Statistical Office of Saint Lucia"
+    url: "https://www.stats.gov.lc/"
+    year: 2022
+    accessedDate: "2026-09-18"
+    note: "2022 census resident population 172,948 — modest, well below the 20-25M unitary-large threshold. Supports the unitary-small classification comment."
+  - id: lca-timezone
+    name: "Time zones — IANA tz database (America/St_Lucia)"
+    publisher: "IANA time zone database"
+    url: "https://data.iana.org/time-zones/tzdb/zone.tab"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "America/St_Lucia = UTC-04:00 (AST) year-round; Saint Lucia does not observe daylight saving time."
+  - id: lca-currency
+    name: "ECCB Celebrates 49 Years of Strength and Stability of EC Dollar Peg"
+    publisher: "Eastern Caribbean Central Bank (ECCB)"
+    url: "https://eccb-centralbank.org/news/eccb-celebrates-49-years-of-strength-and-stability-of-ec-dollar-peg"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "The Eastern Caribbean dollar (XCD) is the common currency of Saint Lucia and the other ECCU members, pegged at EC$2.70 = US$1.00 since 7 July 1976 and issued by the ECCB."
+  - id: lca-not-eu
+    name: "EU countries — European Union"
+    publisher: "European Union"
+    url: "https://european-union.europa.eu/principles-countries-history/eu-countries_en"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "The EU's own list of member countries confirms Saint Lucia is not an EU (or EEA) member — supporting the not-an-EU-member legal constraint."
+  - id: lca-data-protection
+    name: "Privacy and Data Protection Act (Cap 8.18) — Government of Saint Lucia"
+    publisher: "Government of Saint Lucia"
+    url: "https://www.govt.lc/news/tomorrow-is-world-consumer-rights-day"
+    year: 2011
+    accessedDate: "2026-09-18"
+    note: "The Privacy and Data Protection Act protects individuals in relation to personal data and regulates its collection, holding, use, processing, correction and disclosure, establishing a Data Protection Commissioner and registration obligations for data controllers. Enacted April 2011, amended March 2015; core data-protection provisions brought into force in January 2023. National law, not GDPR."

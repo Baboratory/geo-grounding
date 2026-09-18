@@ -1,0 +1,181 @@
+code: WHOLE
+name:
+  eng: Saint Lucia
+  local:
+    - languageCode: eng
+      value: Saint Lucia
+    - languageCode: acf
+      value: Sent Lisi
+# Generic country-wide fallback content for Saint Lucia (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path. The WHOLE
+# region carries the country-wide Kwéyòl name 'Sent Lisi' alongside the official
+# English name — Kwéyòl is locally used across the island even though it is not
+# official.
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon — hot year-round with a pronounced wet season (Jun-Nov, aligned with the Atlantic hurricane season) matched to the islands's trade-wind climate and lush interior rainforest; dominant over much of the island."
+  - koppenCode: Af
+    description: "Tropical rainforest in the wettest, mountainous interior and windward slopes."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) on the drier leeward coast, with a distinct drier season roughly Dec-Apr."
+landmarks:
+  - name: The Pitons (Gros Piton & Petit Piton)
+    description: "Twin volcanic spires rising to 770-777 m and 743 m from the sea near Soufrière — the island's iconic symbol and the centrepiece of the Pitons Management Area, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Soufrière Volcano (Sulphur Springs / Qualibou)
+    description: "The 'drive-in volcano' near Soufrière — the most active geothermal field in the Lesser Antilles, with steaming fumaroles, bubbling mud pools and hot springs within the Qualibou depression."
+  - name: Marigot Bay
+    description: "A scenic sheltered yacht haven on the west coast, famed as one of the Caribbean's most beautiful bays."
+  - name: Pigeon Island (Gros Islet)
+    description: "A historic island landmark linked to the shore by a causeway, with a restored 18th-century British fort (Fort Rodney) and sweeping coastal views."
+  - name: Castries Market
+    description: "The lively central market in the capital where fresh produce, spices, crafts and local life meet."
+  - name: Rodney Bay
+    description: "The island's main resort and nightlife hub on the northwest coast, at the northern end of Gros Islet."
+culturalTraits:
+  - "Creole / Kwéyòl heritage — a French-based creole language and culture at the heart of national identity, celebrated in literature, music and everyday speech"
+  - "La Woz (La Rose) and La Mas (La Marguerite) — the traditional flower-festival societies held in August and October, preserving African-derived song, dance and costume"
+  - "Carnival — the pre-Lenten street festival with mas bands, costumes, calypso and soca; plus a separate Jouvert-style celebration"
+  - "Saint Lucia Jazz & Arts Festival — the world-renowned music festival held each May in Rodney Bay"
+  - "Nobel laureates Derek Walcott (Literature, 1992) and W. Arthur Lewis (Economic Sciences, 1979) — the world's highest Nobel-laureates-per-capita count"
+  - "Kwéyòl music and drumming, incl. kadril/quadrille, belè and Pikante heritage"
+  - "Brother George Odlum — the legendary fiery orator and Labour politician, a beloved national icon of the bar and the platform"
+  - "Chocolate and cocoa heritage plus a strong banana/plantation colonial history"
+prideOf:
+  - "The two Nobel laureates (Derek Walcott and Sir Arthur Lewis) — the most per capita of any country"
+  - "The Pitons and spectacular natural beauty — rainforest, volcanic landscape and beaches ('The Helen of the West Indies')"
+  - "The warm, welcoming people and the hospitality culture"
+  - "Creole (Kwéyòl) language and cultural heritage, and the island's music and festivals"
+animals:
+  popular:
+    - "Saint Lucia amazon (Amazona versicolor) — the endemic national bird"
+    - "Leatherback sea turtles — large nesting beaches"
+    - "Hawksbill turtles and green sea turtles"
+    - "Dolphins and humpback whales along the coast"
+    - "Agouti (guinea pig-like rodent)"
+  unique:
+    - "Saint Lucia amazon parrot (Amazona versicolor) — endemic to Saint Lucia, the national bird, recovering from near-extinction"
+    - "Saint Lucia iguana (endemic lizard)"
+    - "Saint Lucia oriole (endemic bird)"
+    - "Leatherback sea turtles — among the largest; endangered species nesting on the island's beaches"
+industries:
+  - "Tourism — the largest economic pillar"
+  - "Agriculture — bananas, coconuts, mangoes, root crops (dasheen, sweet potato, yam) and cocoa"
+  - "Off-shore banking and international financial services (a recognised international financial centre)"
+  - "Manufacturing and assembly, and the rum/liquor trade"
+  - "Construction and the port of Castries"
+sports:
+  - "Cricket — a passion; Darren Sammy, a Saint Lucian, captained the West Indies to successive T20 World Cup titles"
+  - "Football (soccer)"
+  - "Athletics / track and field"
+  - "Netball"
+religions:
+  # CSO 2022 Population and Housing Census.
+  - name: Roman Catholic
+    percent: 50.6
+    sourceId: lca-religion-2022
+  - name: No religion
+    percent: 14.1
+    sourceId: lca-religion-2022
+  - name: Seventh-day Adventist
+    percent: 10.8
+    sourceId: lca-religion-2022
+  - name: Pentecostal
+    percent: 9.0
+    sourceId: lca-religion-2022
+  - name: Other Christian
+    percent: 5.6
+    sourceId: lca-religion-2022
+  - name: Other religions (incl. Hinduism, Islam, Baháʼí Faith, etc.)
+    percent: 2.6
+    sourceId: lca-religion-2022
+  - name: Rastafarian
+    percent: 1.4
+    sourceId: lca-religion-2022
+  - name: Not stated
+    percent: 4.1
+    sourceId: lca-religion-2022
+# Saint Lucia is a tropical island with two broad seasons (a wet June-November
+# hurricane-aligned season and a drier December-April spell), but rather than
+# partition dishes/entertainment/clothing by those seasons, the content below is
+# marked 'allYear' only — the seasons are mild and the national calendar is
+# festival-driven rather than weather-locked, so no seasonCalendar is needed.
+entertainment:
+  - season: allYear
+    items:
+      - "Saint Lucia Jazz & Arts Festival (May, Rodney Bay) — world-famous music festival"
+      - "Carnival — pre-Lenten street parade with mas bands, costumes, calypso and soca"
+      - "La Woz (La Rose) and La Mas (La Marguerite) flower-festival programmes (August and October)"
+      - "Jounen Kwéyòl — International Creole Day celebrations (last Sunday in October)"
+      - "Gros Islet Friday night street party and Rodney Bay resort nightlife"
+      - "Reggae, soca, calypso, zouk and Kwéyòl music nights; drumming and quadrille dance"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Green figs (unripe bananas) and saltfish — the national dish"
+      - "Callaloo soup"
+      - "Bouyon — a hearty broth/stew of roots, dumplings and meat or fish"
+      - "Pepperpot — a slow-cooked spicy stew"
+      - "Provision — root crops (dasheen, sweet potato, yam) and breadfruit, often baked or fried"
+      - "Bake and saltfish; stuffed crab backs; grilled and fried fish"
+      - "Roti (East Indian heritage) and curries"
+      - "Cocoa tea, tropical fruit (mango, banana, plantain) and sweets like tamarind balls"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The wob dwiyet — the traditional Creole dress and headtie, the national costume worn at festivals such as Jounen Kwéyòl and La Woz/La Mas"
+      - "The jip (petticoat) and madras cloth — elements of the traditional women's costume"
+      - "Light tropical resort wear and swimwear suited to the warm climate"
+      - "Rastafarian dress and colours"
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:30-12:30 and 13:30-16:30 Mon-Fri; banks 08:30-15:00 Mon-Thu and until 17:00 Fri; many shops open Saturday morning, supermarkets and shopping centres staying open later."
+  lunchBreakTiming: "A standard midday break (~12:30-13:30) is common in offices; a hot lunch is the norm."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Reduced business over the Christmas-New Year holiday period."
+    - period: "Carnival (mid-February, before Lent)"
+      description: "National public holiday and festival; much business shuts for the parade."
+    - period: "Independence Day (22 February), Jounen Kwéyòl and Easter"
+      description: "Public holidays with reduced trading; Jounen Kwéyòl (late October) brings a national Creole celebration."
+    - period: "Atlantic hurricane season (June-November)"
+      description: "Business continues, but severe-weather alerts and any landfall can disrupt flights and activity; travellers and operators plan accordingly."
+  notes: "Sunday is widely a rest day outside tourist zones, where resort and some retail trading continues. The tourism-driven peak season runs roughly December-April (drier, cooler)."
+sources:
+  - id: lca-religion-2022
+    name: "Census 2022 Results — Religious Affiliation (Population and Housing Census)"
+    publisher: "Central Statistical Office of Saint Lucia"
+    url: "https://prod.redatam.org/binlca/RpWebEngine.exe/Portal?BASE=PHC2022"
+    year: 2022
+    accessedDate: "2026-09-18"
+    note: "Religious affiliation from the 2022 Population and Housing Census: Roman Catholic 50.6%, no religion 14.1%, Seventh-day Adventist 10.8%, Pentecostal 9.0%, other Christian 5.6%, other religions 2.6%, Rastafarian 1.4%, not stated 4.1%."
+  - id: lca-unesco-pitons
+    name: "Pitons Management Area — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1161/"
+    year: 2004
+    accessedDate: "2026-09-18"
+    note: "The Pitons Management Area (near Soufrière) was inscribed on the World Heritage List in 2004 for its outstanding natural beauty and volcanic geology — basis for the Pitons landmark and unescoWorldHeritage flag, and the Soufrière volcano landmark."
+  - id: lca-national-bird
+    name: "The Saint Lucia Parrot (Amazona versicolor) — National Symbols"
+    publisher: "Government of Saint Lucia"
+    url: "https://www.govt.lc/nationalbird"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "The Saint Lucia amazon (Amazona versicolor), found only on Saint Lucia, is the national bird and was declared so in 1979; it is endemic and was brought back from near-extinction. Basis for the animal entries."
+  - id: lca-nobel
+    name: "Most Nobel Prize Laureates per capita — Guinness World Records"
+    publisher: "Guinness World Records"
+    url: "https://guinnessworldrecords.com/world-records/most-nobel-prize-laureates-per-capita"
+    year: 2015
+    accessedDate: "2026-09-18"
+    note: "Saint Lucia holds the world record for the most Nobel Prize laureates per capita (Sir Arthur Lewis, Economic Sciences 1979; Derek Walcott, Literature 1992) — basis for the Nobel-laureate cultural trait and prideOf entries."
+  - id: lca-soufriere-volcano
+    name: "Sulphur Springs — Soufrière's drive-in volcano"
+    publisher: "Saint Lucia Tourism Authority (stlucia.org)"
+    url: "https://stlucia.org/en/places-to-visit/sulphur-springs"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Sulphur Springs near Soufrière, the island's most active geothermal field within the Qualibou volcanic centre, is promoted by the national tourism authority as the Caribbean's only drive-in volcano. Basis for the Soufrière volcano landmark."
