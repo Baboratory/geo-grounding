@@ -1,0 +1,8 @@
+code: kxd
+name:
+  eng: Brunei Malay
+  local: Bahasa Melayu Brunei
+# Brunei Malay is the everyday vernacular of Brunei, distinct from Standard Malay;
+# the ISO 639-3 'msa' macrolanguage includes 'kxd' as its Brunei member. No
+# verified common-phrase set was available, so commonPhrases is omitted to avoid
+# unverified phrases.

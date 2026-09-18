@@ -1,0 +1,135 @@
+alpha3: BRN
+alpha2: BN
+name:
+  eng: Brunei
+  local:
+    - languageCode: msa
+      value: Brunei Darussalam
+flagEmoji: "🇧🇳"
+capital: Bandar Seri Begawan
+isSovereign: true
+# Classified unitary-small: Brunei meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~455,500 (2024 estimate) — far below the 20-25M
+# threshold. (2) Malay is the sole de jure official national language; the
+# indigenous minority languages (Brunei Malay kxd, Bisaya bsb, Tutong ttg, Belait
+# beg, Lundayeh lnd, Eastern Penan pez, Iban iba) are officially regarded as
+# dialects/varieties without territorial autonomy, and English has no official
+# status. (3) No cultural-historical federal/multi-region identity — the four
+# districts are purely administrative. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: msa
+    domain: official
+    speakersShare: 1.0
+    sourceId: brn-const-languages
+  - languageCode: kxd
+    domain: locallySpoken
+    speakersShare: 0.66
+    sourceId: brn-language-estimate
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.6
+    sourceId: brn-language-estimate
+# Malay (ISO 639-3 'msa') is the sole de jure official and national language per
+# the 1959 (rev. 2004) Constitution — the medium of government and the foundation
+# of the 'Malay Islamic Monarchy' (MIB) state ideology. English is a widely used
+# working/administrative language in government, business and higher education but
+# is NOT de jure official. Brunei Malay (ISO 639-3 'kxd', a member of the msa
+# macrolanguage) is the dominant everyday vernacular. No census collects
+# mother tongue data, so the locallySpoken shares are ESTIMATES.
+ethnicGroups:
+  # 2022 Annual Population Estimate (Ministry of Finance and Economy, Dept of
+  # Economic Planning & Statistics).
+  - group: Malay (incl. recognized indigenous 'Malay' groups)
+    percent: 73.5
+    sourceId: brn-pop-2022
+  - group: Chinese
+    percent: 9.5
+    sourceId: brn-pop-2022
+  - group: Other (indigenous minorities and foreign workers)
+    percent: 17.0
+    sourceId: brn-pop-2022
+timezones:
+  - name: Asia/Brunei
+    standardUtcOffset: "UTC+8"
+    observesDst: false
+currency:
+  code: BND
+  symbol: "B$"
+  name: Brunei dollar
+legalConstraints:
+  - topic: "official / national language"
+    description: "Malay is the sole official and national language under the Constitution; the official state ideology (MIB — 'Melayu Islam Beraja', Malay Islamic Monarchy) frames Malay, Islam and the monarchy as the pillars of national identity. English is widely used but has no constitutional official status."
+    sourceId: brn-const-languages
+  - topic: "state religion"
+    description: "The Constitution establishes Islam as the state religion (Sunni, Shafi'i) while guaranteeing freedom of religion to other communities; the Sultan is Head of State as well as religious leader. Religious harmony is legally protected but Islam's official status shapes public life."
+    sourceId: brn-const-religion
+paymentCulture:
+  popularMethods:
+    - "Cash (Brunei dollar B$) — still preferred for small everyday transactions"
+    - "Debit/credit cards (Visa, Mastercard) at shops, restaurants and hotels"
+    - "Bank transfers and online banking (Bank Islam Brunei Darussalam, Baiduri, etc.)"
+    - "Mobile wallets and QR payments (BIBD/PayNet-based e-wallets)"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary; ~10% service charge is often included"
+    autoIncludedInBill: true
+    note: "Tipping is not customary. A service charge of ~10% is frequently already added to restaurant bills; rounding up is appreciated but never expected. Cash remains useful for small vendors."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite, indirect and relationship-first. Formally address elders, officials and the royal family; avoid blunt 'no's. Conservatism and modesty in dress and behaviour are expected in business."
+  greetingNorms: "A light handshake may suffice, but for social greetings offer the Malaysian/Bruneian style — right hand raised or a smile and a slight bow when greeting a more senior or royal person. 'As-salamu alaykum' reflects the Islamic context."
+  meetingEtiquette: "Punctuality is valued. Decisions tend to rest with senior leadership, and building personal trust matters before commitments. Friday prayers and Islamic holidays affect scheduling."
+  topicsToAvoid:
+    - "Criticising the Sultan or the royal family (the monarchy is deeply revered)"
+    - "Religious matters or public criticism of Islam"
+    - "Casual ethnicity/politics or sensitive regional topics"
+    - "Showing the soles of the feet; using the left hand for eating or passing items"
+  giftGivingNotes: "A modest, quality gift is welcome once a relationship forms; avoid alcohol and pork products. Present and receive with the right hand."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: brn-pop-2022
+    name: "Annual Population Estimate 2022"
+    publisher: "Ministry of Finance and Economy, Brunei — Dept of Economic Planning & Statistics"
+    url: "https://mofe.gov.bn/Lists/News/NewDispForm.aspx?ID=498"
+    year: 2022
+    accessedDate: "2026-09-18"
+    note: "Population estimate 2022 (~445,400; 2024 estimate ~455,500); ethnic composition: Malay 73.5%, Chinese 9.5%, other 17.0%."
+  - id: brn-const-languages
+    name: "Constitution of Brunei Darussalam (1959, revised 2004)"
+    publisher: "Government of Brunei Darussalam / Attorney-General's Chambers"
+    url: "https://agc.gov.bn/"
+    year: 2004
+    accessedDate: "2026-09-18"
+    note: "Malay designated the official and national language; the basis for the msa official row and the MIB state-ideology legal note."
+  - id: brn-const-religion
+    name: "Constitution of Brunei Darussalam (1959, revised 2004) — religion provisions"
+    publisher: "Government of Brunei Darussalam / Attorney-General's Chambers"
+    url: "https://agc.gov.bn/"
+    year: 2004
+    accessedDate: "2026-09-18"
+    note: "Establishes Islam as the state religion while protecting other faiths — basis for the religious-harmony legal note. (2022 US State Dept IRF describes the legal framework.)"
+  - id: brn-language-estimate
+    name: "Brunei Malay (kxd) and English usage — composite estimate"
+    publisher: "Composite estimate (no census collects mother tongue data)"
+    url: "https://iso639-3.sil.org/"
+    accessedDate: "2026-09-18"
+    note: "ISO 639-3 'kxd' = Brunei Malay (SIL), the dominant vernacular (approximately two-thirds native speakers, an ESTIMATE); English widely spoken as a working language (~60%, ESTIMATE). No official census figure exists."
+  - id: brn-currency
+    name: "Brunei Currency — Brunei dollar"
+    publisher: "Autoriti Monetaria Brunei Darussalam (AMBD) / Brunei Currency & Monetary Board"
+    url: "https://www.bcm.gov.bn/"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Brunei dollar (BND), symbol B$; pegged at par to the Singapore dollar; both circulate interchangeably."
+  - id: brn-timezone
+    name: "Time in Brunei — IANA tz database"
+    publisher: "IANA time zone database"
+    url: "https://data.iana.org/time-zones/tzdb/zonenow.tab"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Asia/Brunei = UTC+08:00 year-round; no DST."

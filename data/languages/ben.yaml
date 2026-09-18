@@ -1,0 +1,8 @@
+code: ben
+name:
+  eng: Bengali
+  local: বাংলা
+commonPhrases:
+  hello: "নমস্কার"
+  thankYou: "ধন্যবাদ"
+  goodbye: "বিদায়"
