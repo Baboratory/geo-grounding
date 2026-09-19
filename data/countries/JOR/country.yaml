@@ -1,0 +1,135 @@
+alpha3: JOR
+alpha2: JO
+name:
+  eng: Jordan
+  local:
+    - languageCode: arb
+      value: الأُردن
+flagEmoji: "🇯🇴"
+capital: Amman
+isSovereign: true
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: arb
+    domain: official
+    speakersShare: 1.0
+    sourceId: jo-constitution
+  - languageCode: arb
+    domain: locallySpoken
+    # Arabic is the language of the overwhelming majority of Jordanians; given as
+    # a qualitative ~0.99 with the small remainder speaking minority or foreign
+    # languages, a constructive ESTIMATE rather than a published census figure.
+    speakersShare: 0.99
+    sourceId: jo-cia
+  - languageCode: eng
+    domain: locallySpoken
+    # English is widely used in business, banking, education and government,
+    # especially among the upper and middle classes, but no official census share
+    # is published; a qualitative locally-spoken entry (an ESTIMATE).
+    speakersShare: 0.3
+    sourceId: jo-cia
+  - languageCode: kbd
+    domain: locallySpoken
+    # Circassian (Kabardian) is spoken by the Circassian minority (~1% of the
+    # population, concentrated in Amman and Jordan Valley towns), a reserved-seat
+    # community with no exact published speaker share; a small ESTIMATE.
+    speakersShare: 0.01
+    sourceId: jo-cia
+ethnicGroups:
+  - group: Arab
+    percent: 98.0
+    sourceId: jo-cia
+  - group: Circassian
+    percent: 1.0
+    sourceId: jo-cia
+  - group: Armenian
+    percent: 1.0
+    sourceId: jo-cia
+    # Jordan's population includes a large number of residents of other Arab
+    # nationalities (Syrian, Palestinian, Egyptian, Iraqi) as well as the ethnic
+    # Arab majority; the classic ethnic-composition figures above are the commonly
+    # cited breakdown.
+timezones:
+  - name: Asia/Amman
+    standardUtcOffset: "UTC+3"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Friday of October to last Thursday of March, in reverse of the European summer schedule."
+currency:
+  code: JOD
+  symbol: "د.ا"
+  name: Jordanian Dinar
+legalConstraints:
+  - topic: "personal data protection"
+    description: "Personal Data Protection Law No. 24 of 2023 (published 17 September 2023, in force 17 March 2024 with a 12-month compliance period) regulates processing of personal data of citizens and residents of Jordan, requiring consent, data-subject rights and breach notification, and restricting cross-border transfers. Non-EU (no GDPR equivalence)."
+    sourceId: jo-pdpl
+  - topic: "consumer protection"
+    description: "Consumer Protection Law No. 7 of 2017 establishes consumer rights and the Consumer Protection Department under the Ministry of Industry, Trade and Supply. Non-EU (the EU consumer directives do not apply)."
+    sourceId: jo-moits
+  - topic: "electronic transactions"
+    description: "The Electronic Transactions Law (2015) recognises electronic signatures and records, providing the legal basis for e-commerce and e-government. Non-EU."
+    sourceId: jo-modee
+  - topic: "cybercrime"
+    description: "The Cybercrime Law No. 17 of 2023 codifies cyber offences (unauthorised access, data interference, online-content crimes), relevant to any online consumer-facing operation and content policy."
+    sourceId: jo-petra
+paymentCulture:
+  popularMethods:
+    - "Cash (Jordanian dinar) - historically dominant, still common in souqs, taxis, small shops and rural areas"
+    - "Visa/Mastercard cards - widely accepted at malls, hotels and upscale restaurants in West Amman and tourist hubs"
+    - "JoMoPay and the CliQ instant-payment rail - real-time mobile-wallet transfers nationwide"
+  tipping:
+    expected: false
+    typicalAmount: "~10%"
+    autoIncludedInBill: false
+    note: "Tipping is customary (usually about 10%); a service charge is sometimes added at hotels and restaurants. Small tips are appreciated for taxis, guides and hotel staff."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm, relationship-first and hospitality-driven. Personal trust and rapport precede business dealings; heavy small talk over coffee or mint tea comes before business. Forms of address respect titles and elders."
+  greetingNorms: "A firm handshake is standard between men; close acquaintances may touch cheeks or clasp hands. Greet the eldest person present first and use titles."
+  meetingEtiquette: "Punctuality is valued though meetings may open with social conversation; decisions often involve the most senior person and may be unhurried. Building trust is essential."
+  topicsToAvoid:
+    - "Politics and criticism of the royal family or the government"
+    - "Sensitive regional conflicts and the Israeli-Palestinian issue"
+    - "Direct negative feedback, softened for politeness"
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: jo-constitution
+    name: "Constitution of the Hashemite Kingdom of Jordan (1952)"
+    publisher: "Royal Hashemite Court (via kinghussein.gov.jo)"
+    url: "https://www.kinghussein.gov.jo/constitution_jo.html"
+    accessedDate: "2026-09-19"
+    note: "Article 2: Arabic is the official language of Jordan; Islam is the religion of the state."
+  - id: jo-cia
+    name: "CIA World Factbook - Jordan (people and society)"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/jordan/"
+    accessedDate: "2026-09-19"
+    note: "Languages (Arabic official; English widely understood), ethnic composition (Arab 98%, Circassian 1%, Armenian 1%) and the qualitative note on minority languages (Circassian, Chechen, Armenian)."
+  - id: jo-pdpl
+    name: "Personal Data Protection Law No. 24 of 2023"
+    publisher: "Ministry of Digital Economy and Entrepreneurship (MODEE), Hashemite Kingdom of Jordan"
+    url: "https://modee.gov.jo/EN/Pages/FAQs"
+    accessedDate: "2026-09-19"
+    note: "Jordan's first comprehensive data-protection law, in force 17 March 2024; consent, data-subject rights, breach notification, cross-border transfer conditions."
+  - id: jo-moits
+    name: "Consumer Protection Law No. 7 of 2017"
+    publisher: "Ministry of Industry, Trade and Supply, Hashemite Kingdom of Jordan"
+    url: "https://www.mit.gov.jo/"
+    accessedDate: "2026-09-19"
+    note: "Establishes consumer rights and the Consumer Protection Department."
+  - id: jo-modee
+    name: "Electronic Transactions Law (2015)"
+    publisher: "Ministry of Digital Economy and Entrepreneurship (MODEE), Hashemite Kingdom of Jordan"
+    url: "https://modee.gov.jo/"
+    accessedDate: "2026-09-19"
+    note: "Legal recognition of electronic signatures and records underpinning e-commerce."
+  - id: jo-petra
+    name: "Petra News Agency (Jordan News Agency)"
+    publisher: "Jordan News Agency (Petra)"
+    url: "https://petra.gov.jo/"
+    accessedDate: "2026-09-19"
+    note: "Official state news agency documenting the Cybercrime Law No. 17 of 2023 and general regulatory context."

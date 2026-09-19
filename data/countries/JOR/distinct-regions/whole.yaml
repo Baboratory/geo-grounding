@@ -1,0 +1,115 @@
+code: WHOLE
+name:
+  eng: Jordan
+  local:
+    - languageCode: arb
+      value: الأُردن
+climates:
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean climate in the western and northwestern highlands (Amman, Jerash, the Jordan Valley slopes) - mild, wet winters and long, hot, dry summers.
+  - koppenCode: BWh
+    description: Hot desert climate over roughly 90% of the country (the eastern and southern deserts and much of the interior), with high daytime heat and sparse rainfall.
+landmarks:
+  - name: Petra
+    description: The rose-red Nabataean city, one of the New Seven Wonders of the World and a UNESCO World Heritage Site.
+    unescoWorldHeritage: true
+  - name: Wadi Rum
+    description: The dramatic desert valley and nature reserve known as the 'Valley of the Moon', famed for its sandstone mountains.
+  - name: Jerash
+    description: One of the best-preserved Roman decapolis cities in the world.
+  - name: Amman Citadel and Roman Theatre
+    description: The capital's ancient citadel (Jabal al-Qala'a) and its restored Roman theatre in downtown Amman.
+  - name: Dead Sea
+    description: The lowest land point on Earth and one of the saltiest bodies of water, on Jordan's western border.
+  - name: Mount Nebo
+    description: The biblical site where, according to tradition, Moses viewed the Promised Land.
+  - name: Dana Biosphere Reserve
+    description: Jordan's largest nature reserve, spanning dramatic elevations from the Rift Valley to the Jordanian highlands.
+culturalTraits:
+  - Hospitality as a supreme value; guests honoured with Arabic coffee and sweets
+  - Deep-rooted Bedouin heritage of hospitality, poetry and desert livelihoods
+  - Mosaic and Byzantine heritage, with Madaba the 'City of Mosaics'
+  - Islamic and Christian Holy Land heritage coexisting in one small country
+  - Family-centric, tribal-influenced social structure
+prideOf:
+  - Petra, the national icon
+  - Legendary hospitality and generosity to guests
+  - A stable, moderately progressive Arab state
+  - Rich cultural patrimony and Holy Land history
+animals:
+  popular:
+    - Nubian ibex
+    - Arabian oryx (reintroduced to reserves)
+    - Desert fox and sand cat
+    - Dromedary camel (traditional Bedouin animal)
+  unique:
+    - Syrian spadefoot toad (a local amphibian)
+industries:
+  - Phosphate and potash mining
+  - Tourism (Petra, Wadi Rum, the Dead Sea, biblical sites)
+  - IT/ICT - Amman is a regional tech hub with a growing startup scene
+  - Pharmaceuticals and medical products
+  - Textiles and garments (export)
+  - Fertilizers and chemicals
+sports:
+  - Football (soccer) - the most popular sport
+  - Basketball - very popular, with a competitive national team
+  - Traditional camel racing
+  - Desert rallies and off-road motorsport
+religions:
+  - name: Sunni Islam
+    percent: 95.0
+    sourceId: jo-cia
+  - name: Christianity (Greek Orthodox and other denominations)
+    percent: 4.0
+    sourceId: jo-cia
+  - name: Other (Shia, Druze, etc.)
+    percent: 1.0
+    sourceId: jo-cia
+entertainment:
+  - season: summer
+    items:
+      - Jerash Festival of Culture and Arts (international summer festival)
+  - season: spring
+    items:
+      - Cultural and music festivals clustered in the pleasant spring months
+  - season: allYear
+    items:
+      - Eid al-Fitr and Eid al-Adha family gatherings and celebrations
+traditionalDishes:
+  - season: allYear
+    items:
+      - Mansaf, the national dish (lamb cooked in jameed yogurt over rice, Bedouin origin)
+      - Maqluba (upside-down rice and meat)
+      - Falafel and hummus (street-food staples)
+      - Kunafah (sweet cheese pastry)
+      - Mutabal / baba ghanoush (roasted eggplant dips)
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men: the thobe and ghutra headscarf; Western business suits in Amman's professional settings"
+      - "Women: the abaya and headscarf (hijab); Bedouin embroidery and hand-embroidered thobes"
+      - "Formal Western business attire for professional settings in Amman"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays: [friday, saturday]
+  typicalWorkHours: "Government typically about 8:00-15:00; the private sector often runs two shifts or longer (e.g. 9:00-18:00)."
+  notableShutdownPeriods:
+    - period: "Ramadan"
+      description: "Working hours shorten across government and business; many offices operate reduced hours, and restaurants open after sunset, with the iftar dinner an important social ritual."
+  notes: "The working week is Sunday-Thursday, with the weekend Friday-Saturday (Islamic observance)."
+sources:
+  - id: jo-cia
+    name: "CIA World Factbook - Jordan (people and society)"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/jordan/"
+    accessedDate: "2026-09-19"
+    note: "Religious-affiliation composition (Sunni Muslim majority ~95%, Christian ~4%, other incl. Shia/Druze ~1%) and the Mediterranean/arid climate pattern; precise religious percentages are estimates given the absence of a formal census."

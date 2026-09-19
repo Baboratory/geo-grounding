@@ -1,0 +1,120 @@
+code: WHOLE
+name:
+  eng: Mongolia
+  local:
+    - languageCode: khk
+      value: Монгол
+climates:
+  - koppenCode: BWk
+    description: Cold desert climate in the southern Gobi, hot and dry in summer, intensely cold in winter.
+  - koppenCode: BSk
+    description: Cold semi-arid climate across the central steppe, with long, harsh winters and short, mild summers.
+  - koppenCode: Dwb
+    description: Dry-winter subarctic/continental climate in the northern and mountainous zones (Khangai, Khentii), with very cold winters.
+landmarks:
+  - name: Genghis Khan Equestrian Statue
+    description: A 40-metre stainless-steel statue of Genghis Khan on horseback at Tsonjin Boldog, near Ulaanbaatar.
+  - name: Gandantegchinlen (Gandan) Monastery
+    description: The largest functioning Buddhist monastery and active religious centre in Ulaanbaatar.
+  - name: Erdene Zuu Monastery
+    description: The first Buddhist centre on the Mongolian steppe, at Kharkhorin, the site of the historic Karakorum capital.
+  - name: Khuvsgul Lake
+    description: A large, deep freshwater lake in the north, among the world's oldest, ringed by forest and mountains.
+  - name: Gobi Desert
+    description: Vast cold desert spanning southern Mongolia, famed for dinosaur fossils, dunes and Bactrian camels.
+  - name: Ulaanbaatar
+    description: The national capital and largest city ("the coldest capital on Earth"), on the Tuul river.
+culturalTraits:
+  - Nomadic pastoral herding heritage (horse, sheep, goat, camel, yak)
+  - The ger (yurt) as the traditional mobile dwelling
+  - Naadam festival (July) with the 'Three Manly Games'
+  - Khoomii throat singing
+  - Deep respect for hospitality and guests
+  - Revival of the traditional Mongolian script alongside Cyrillic
+  - Shamanic and Buddhist spiritual traditions interwoven
+prideOf:
+  - The legacy of Genghis Khan and the Mongol Empire
+  - Nomadic culture and the herding identity
+  - The freedom and wide-open steppe landscape
+animals:
+  popular:
+    - Przewalski's horse (takhi), the last truly wild horse
+    - Two-humped Bactrian camel
+    - Snow leopard
+    - Yak
+    - Golden eagle (used in Kazakh eagle-hunting traditions in the west)
+  unique:
+    - Gobi bear (mazaalai), a rare desert-dwelling bear
+industries:
+  - Mining (copper, coal, gold, fluorspar)
+  - Cashmere and wool production
+  - Agriculture and livestock
+  - Tourism
+sports:
+  - Mongolian wrestling (bökh)
+  - Archery
+  - Horse racing
+  - The Naadam 'Three Manly Games' (wrestling, archery, horse racing)
+religions:
+  - name: Buddhism (Tibetan/Vajrayana)
+    percent: 51.7
+    sourceId: mn-census
+  - name: No religion
+    percent: 40.6
+    sourceId: mn-census
+  - name: Islam
+    percent: 3.2
+    sourceId: mn-census
+  - name: Shamanism
+    percent: 2.5
+    sourceId: mn-census
+  - name: Christianity
+    percent: 2.2
+    sourceId: mn-census
+entertainment:
+  - season: summer
+    items:
+      - Naadam (mid-July nationwide festival with the Three Manly Games)
+  - season: winter
+    items:
+      - Tsagaan Sar (Lunar New Year family gatherings, mid-January to mid-March)
+  - season: autumn
+    items:
+      - Golden Eagle Festival (Bayan-Olgii, western Mongolia)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Buuz (steamed meat dumplings)
+      - Khuushuur (fried minced-meat pastries)
+      - Khorkhog (mutton cooked with hot stones)
+      - Airag (fermented mare's milk)
+      - Suutei tsai (salted milk tea)
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The deel, a traditional one-piece robe worn by both men and women, often with a sash"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: [saturday, sunday]
+  typicalWorkHours: "Government typically 09:00-18:00; private sector often 09:00-18:00 with a lunch break."
+  notableShutdownPeriods:
+    - period: "Naadam (July 11-15)"
+      description: "National festival with public holiday and widespread business closures/celebration."
+    - period: "Tsagaan Sar (Lunar New Year)"
+      description: "Several days of nationwide holiday around mid-January to mid-March; most offices and shops close."
+  notes: "The working week is Monday-Friday, with Saturday-Sunday the weekend; Friday afternoons may run at reduced pace in government during summer hours."
+sources:
+  - id: mn-census
+    name: "Mongolia Population and Housing Census"
+    publisher: "National Statistics Office of Mongolia (NSO)"
+    url: "https://1212.mn/"
+    accessedDate: "2026-09-19"
+    note: "Religious-affiliation shares (Buddhism 51.7%, no religion 40.6%, Islam 3.2%, Shamanism 2.5%, Christianity 2.2%) from the national census."

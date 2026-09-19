@@ -1,0 +1,147 @@
+alpha3: SLV
+alpha2: SV
+name:
+  eng: El Salvador
+  local:
+    - languageCode: spa
+      value: El Salvador
+flagEmoji: "🇸🇻"
+capital: San Salvador
+isSovereign: true
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: sv-constitution
+  - languageCode: spa
+    domain: locallySpoken
+    # Spanish (Castilian) is spoken by essentially the whole population; recorded
+    # at ~0.99 with the small remainder speaking indigenous languages as a first
+    # language. This is a constructive ESTIMATE, not a published census figure.
+    speakersShare: 0.99
+    sourceId: sv-cia
+  - languageCode: ppl
+    domain: locallySpoken
+    # Nawat (Pipil), an endangered indigenous language, survives among roughly
+    # 1,100 native speakers in western departments (Sonsonate, Ahuachapan).
+    # About 200 self-identified Nawat speakers were recorded in 2012; this is a
+    # very small ESTIMATE; ppl is the verified ISO 639-3 code.
+    speakersShare: 0.0002
+    sourceId: sv-iso
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.01
+    sourceId: sv-cia
+    # ESTIMATE: English is taught in schools and used in business/tourism but is
+    # not official and spoken fluently by a small minority.
+ethnicGroups:
+  - group: Mestizo (mixed European and Indigenous)
+    percent: 86.3
+    sourceId: sv-cia
+  - group: White
+    percent: 12.7
+    sourceId: sv-cia
+  - group: Indigenous (incl. Lenca, Kakawira, Nahua-Pipil)
+    percent: 0.2
+    sourceId: sv-cia
+  - group: Black / Afro-Salvadoran
+    percent: 0.1
+    sourceId: sv-cia
+  - group: Other
+    percent: 0.6
+    sourceId: sv-cia
+timezones:
+  - name: America/El_Salvador
+    standardUtcOffset: "UTC-6"
+    observesDst: false
+currency:
+  code: USD
+  symbol: "$"
+  name: United States dollar
+  # El Salvador is officially dollarized: USD has been the sole official currency
+  # and unit of account since 1 January 2001 (Monetary Integration Law). Bitcoin
+  # was added as legal tender on 7 September 2021 but made acceptance voluntary in
+  # 2025, and the USD has remained the unit of account throughout. The colonization
+  # version of the colon (SVC) was retired but remains redeemable for dollars.
+legalConstraints:
+  - topic: "currency / monetary regime (dollarization)"
+    description: "The Monetary Integration Law made the US dollar the official currency and unit of account from 1 January 2001, replacing the colon. El Salvador is a fully dollarized, non-EU state."
+    sourceId: sv-monetary
+  - topic: "bitcoin legal tender (voluntary since 2025)"
+    description: "The Bitcoin Law (June 2021) made bitcoin legal tender alongside the dollar from 7 September 2021, without prejudice to the Monetary Integration Law; a 2025 decree made acceptance voluntary, ended bitcoin tax payments and the mandatory state dollar convertibility. The dollar remains the unit of account."
+    sourceId: sv-bitcoin
+  - topic: "consumer protection"
+    description: "The Consumer Protection Law grants basic consumer rights (information, quality, safety, redress), enforced by the Defensoria del Consumidor. Non-EU (the EU consumer directives such as the 14-day withdrawal right do not apply)."
+    sourceId: sv-consumer
+  - topic: "personal data protection"
+    description: "The Personal Data Protection Law (Decree 144, in force 2025) established a comprehensive regime with ARCO (Access, Rectification, Cancellation, Opposition) rights and a regulator; a later reform removed the mandatory private-sector data-protection officer. Non-GDPR/non-EU."
+    sourceId: sv-pdpl
+paymentCulture:
+  popularMethods:
+    - "Cash (US dollars) - the dominant method across the country"
+    - "Debit and credit cards - common, especially in urban areas, malls, hotels"
+    - "Bank transfers and mobile wallets (incl. Chivo and bank apps) - growing"
+    - "Bitcoin via Lightning wallets - voluntary and rarely used in retail since 2025"
+  tipping:
+    expected: false
+    typicalAmount: "~10%"
+    autoIncludedInBill: false
+    note: "Tipping is not mandatory; about 10% is appreciated at sit-down restaurants (a service charge may appear on the bill), and small optional tips are given to taxi drivers and guides."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm, polite, family-oriented and relationship-driven. Direct on facts but softened and indirect around negative feedback and refusals; respect for hierarchy, age and titles in business."
+  greetingNorms: "A handshake with new acquaintances; a hug or cheek-kiss with friends and family; formal 'usted' is used in business."
+  meetingEtiquette: "Building personal rapport precedes business; punctuality is appreciated though a relaxed pace is common. Decisions tend to be relationship-based."
+  topicsToAvoid:
+    - "Gangs, violence and crime"
+    - "Polarizing politics and the civil war"
+    - "Disrespect toward religion or family"
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: sv-constitution
+    name: "Constitucion Politica de la Republica de El Salvador (1983)"
+    publisher: "Republic of El Salvador (text via Georgetown University Political Database of the Americas)"
+    url: "https://pdba.georgetown.edu/Constitutions/ElSal/constitucion2003.pdf"
+    accessedDate: "2026-09-19"
+    note: "Article 62: Spanish (Castilian) is the official language; indigenous languages are recognized as cultural heritage."
+  - id: sv-cia
+    name: "CIA World Factbook - El Salvador (people and society)"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/el-salvador/"
+    accessedDate: "2026-09-19"
+    note: "2007-census ethnic composition (Mestizo 86.3%, White 12.7%, Indigenous 0.2%, Black 0.1%, other 0.6%) and the qualitative note that Spanish is spoken by essentially all."
+  - id: sv-iso
+    name: "ISO 639-3 - ppl: Pipil (Nawat)"
+    publisher: "SIL International / ISO 639-3 Registration Authority"
+    url: "https://iso639-3.sil.org/code/ppl"
+    accessedDate: "2026-09-19"
+    note: "Verifies the ISO 639-3 code ppl for Pipil/Nawat; the surviving indigenous language of El Salvador."
+  - id: sv-monetary
+    name: "Ley de Integracion Monetaria (Decreto No. 201, 2000); corroborated by Banco de Espana analysis"
+    publisher: "Superintendencia del Sistema Financiero de El Salvador / Banco de Espana"
+    url: "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/InformesBoletinesRevistas/ArticulosAnaliticos/21/T4/Files/be2104-art35e.pdf"
+    accessedDate: "2026-09-19"
+    note: "Adopted the US dollar as official currency and unit of account effective 1 January 2001; the Banco de Espana article independently describes the dollarization and later bitcoin legal-tender regime."
+  - id: sv-bitcoin
+    name: "Bitcoin Law (Decreto No. 57, 2021) and its 2025 narrowing - Banco de Espana analysis"
+    publisher: "Banco de Espana (Analytical Articles) / Asamblea Legislativa de El Salvador"
+    url: "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/InformesBoletinesRevistas/ArticulosAnaliticos/21/T4/Files/be2104-art35e.pdf"
+    accessedDate: "2026-09-19"
+    note: "Made bitcoin legal tender alongside the dollar from 7 September 2021; acceptance became voluntary under a 2025 decree, which also ended bitcoin tax payments and mandatory state dollar convertibility. The USD remains the unit of account."
+  - id: sv-consumer
+    name: "Ley de Proteccion al Consumidor"
+    publisher: "Defensoria del Consumidor de El Salvador"
+    url: "https://www.defensoria.gob.sv/servicios/ley-de-proteccion-al-consumidor/"
+    accessedDate: "2026-09-19"
+    note: "Consumer-rights framework enforced by the consumer-protection authority."
+  - id: sv-pdpl
+    name: "Decreto No. 144 - Ley para la Proteccion de Datos Personales (2024)"
+    publisher: "Asamblea Legislativa de El Salvador (via Ley de Datos registry)"
+    url: "https://www.informatica-juridica.com/ley/decreto-no-144-ley-para-la-proteccion-de-datos-personales-de-12-de-noviembre-de-2024/"
+    accessedDate: "2026-09-19"
+    note: "Comprehensive data-protection law in force since 2025 (ARCO rights, regulator); non-GDPR/non-EU."

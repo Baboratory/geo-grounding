@@ -1,0 +1,123 @@
+code: WHOLE
+name:
+  eng: El Salvador
+  local:
+    - languageCode: spa
+      value: El Salvador
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna climate with a distinct rainy season (May-October) and dry season (November-April); hot and humid on the Pacific coast, milder in the uplands.
+landmarks:
+  - name: Joya de Ceren Archaeological Site
+    description: A UNESCO World Heritage Site often called the 'Pompeii of the Americas' - a pre-Columbian farming village preserved by volcanic ash (inscribed 1993).
+    unescoWorldHeritage: true
+  - name: Tazumal
+    description: Maya archaeological site and its step pyramids at Chalchuapa, in western El Salvador.
+  - name: San Andres
+    description: Maya ceremonial complex in the Valle de Zapotitan archaeological zone.
+  - name: Historic Center of San Salvador
+    description: The national capital's colonial-era core, including the Metropolitan Cathedral and National Palace.
+  - name: La Ruta de las Flores
+    description: A scenic mountain coffee-town route through western El Salvador, beloved for waterfalls and local markets.
+  - name: Lake Coatepeque
+    description: A volcanic crater lake southwest of Santa Ana.
+  - name: Santa Ana Volcano (Ilamatepec)
+    description: The country's highest volcano, with a summit crater lake; Izalco volcano lies nearby.
+  - name: El Tunco
+    description: A coastal surf town on the Pacific, iconic for El Salvador's beach and surf culture.
+culturalTraits:
+  - Corn-based cuisine centred on the pupusa (declared the national dish in 2005)
+  - Maya and Pipil (Nahua) indigenous heritage
+  - Catholic and Evangelical traditions with strong popular religiosity
+  - Pacific-coast surf culture
+  - World-renowned coffee
+  - Family-centric culture and a large US-based diaspora
+prideOf:
+  - Being the first country to adopt bitcoin as legal tender (2021)
+  - The pupusa, a national culinary icon with an annual National Pupusa day
+  - Joya de Ceren, a UNESCO World Heritage Site
+  - Elite international surfers and pro surf tours
+  - Marked security improvements since the regional context began to shift
+animals:
+  popular:
+    - Sea turtles (nesting on Pacific beaches)
+    - Howler monkeys
+    - Toucans
+    - Iguanas
+    - Humpback whales (seasonal, coastal)
+  unique:
+    - Resplendent quetzal (rare, in montane forests)
+industries:
+  - Textiles and maquila assembly
+  - Coffee production and export
+  - Manufacturing and assembly
+  - Services (finance, trade, tourism)
+  - Retail and telecommunications
+  - US-diaspora remittances (a large share of GDP)
+sports:
+  - Football (soccer) - the national sport
+  - Surfing - with elite international surfers
+  - Baseball and softball
+  - Basketball
+  - Volleyball
+  - Boxing
+religions:
+  - name: Roman Catholic
+    percent: 43.9
+    sourceId: sv-cia
+  - name: Protestant / Evangelical
+    percent: 39.6
+    sourceId: sv-cia
+  - name: None / unaffiliated
+    percent: 16.3
+    sourceId: sv-cia
+  - name: Unspecified / other
+    percent: 0.2
+    sourceId: sv-cia
+entertainment:
+  - season: dry
+    items:
+      - Surf competitions and festivals on Pacific beaches
+      - Holy Week (Semana Santa) processions and celebrations
+  - season: wet
+    items:
+      - Independence Day (15 September) celebrations
+      - Rainy-season fiestas patronales in towns nationwide
+traditionalDishes:
+  - season: allYear
+    items:
+      - Pupusas (stuffed corn masa with frijoles, cheese, chicharron or loroco)
+      - Yuca frita / yuca con chicharron
+      - Tamales de elote and tamales de pollo
+      - Curtido and salsa roja
+      - Sopa de res and caldo de mariscos
+      - Atol de elote and horchata
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional indigenous dress (woven cotton, rebozos, huipiles) worn at festivals"
+      - "Western casual and business dress daily"
+      - "Panama hats and formal wear for ceremonies"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays: [saturday, sunday]
+  typicalWorkHours: "Typically about 8:00-17:00/18:00 with a lunch break around 12:00-14:00; banks and government often 8:30-17:00. Saturday morning hours are common in retail and services."
+  notableShutdownPeriods:
+    - period: "Holy Week (Semana Santa)"
+      description: "About a week around Easter (March/April), with widespread closures."
+    - period: "Independence Day"
+      description: "15 September, a national holiday."
+    - period: "Christmas through New Year"
+      description: "Roughly 24 December to 2 January, with reduced business activity."
+  notes: "The working week is Monday-Friday with a Saturday morning in retail/services, and Sunday the rest day."
+sources:
+  - id: sv-cia
+    name: "CIA World Factbook - El Salvador (people and society)"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/el-salvador/"
+    accessedDate: "2026-09-19"
+    note: "Religious-affiliation estimates (Catholic 43.9%, Protestant/Evangelical 39.6%, none 16.3%, unspecified 0.2%) and the tropical rainy/dry season pattern."

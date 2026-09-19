@@ -1,0 +1,135 @@
+alpha3: OMN
+alpha2: OM
+name:
+  eng: Oman
+  local:
+    - languageCode: arb
+      value: عُمان
+flagEmoji: "🇴🇲"
+capital: Muscat
+isSovereign: true
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: arb
+    domain: official
+    speakersShare: 1.0
+    sourceId: om-basic-statute
+  - languageCode: arb
+    domain: locallySpoken
+    speakersShare: 0.86
+    sourceId: om-ncsi
+  - languageCode: eng
+    domain: locallySpoken
+    # English is pervasive in government, business and education but has no
+    # constitutional official status. No reliable nationwide share is published;
+    # recorded as a qualitative locally-spoken entry (an ESTIMATE) rather than an
+    # unbacked statistic.
+    speakersShare: 0.4
+    sourceId: om-basic-statute
+  - languageCode: soq
+    domain: locallySpoken
+    # Soqotri, a Modern South Arabian Semitic language, is spoken on Socotra and
+    # by diaspora communities in Dhofar. No state-published census share exists; a
+    # small ESTIMATE reflecting its minority, locally-confined use.
+    speakersShare: 0.02
+    sourceId: om-unesco
+ethnicGroups:
+  - group: Omani Arab (citizens)
+    percent: 60.0
+    sourceId: om-ncsi
+  - group: Expatriate residents (South Asian, Filipino, other Arab, European, American)
+    percent: 40.0
+    sourceId: om-ncsi
+    # Oman's official statistics divide the population primarily along citizen vs.
+    # non-citizen lines; among citizens the overwhelming majority are Arab by ethnic
+    # self-identification, though tribal (Baluchi, Dhofari) and Afro-Omani heritage
+    # is present. A precise single-share ethnic breakdown is not published.
+timezones:
+  - name: Asia/Muscat
+    standardUtcOffset: "UTC+4"
+    observesDst: false
+currency:
+  code: OMR
+  symbol: "ر.ع."
+  name: Omani Rial
+legalConstraints:
+  - topic: "consumer protection law"
+    description: "Consumer Protection Law (Royal Decree 66/2014, amended by Royal Decree 4/2016) protects consumers on pricing transparency, product safety, advertising accuracy, and complaints/redress, enforced by the Public Authority for Consumer Protection (PACP)."
+    sourceId: om-consumer-law
+  - topic: "personal data protection"
+    description: "Personal Data Protection Law (Royal Decree 6/2022, in force from 16 February 2023) is Oman's first comprehensive data-protection statute: it regulates personal-data processing, grants data-subject rights, requires consent and lawful bases, and sets penalties. Non-EU framework (no GDPR equivalence)."
+    sourceId: om-pdpl
+  - topic: "VAT price display"
+    description: "Value Added Tax (VAT Law, Royal Decree 121/2020, standard rate 5%) applies across most goods/services; businesses must display VAT-inclusive prices or indicate VAT separately."
+    sourceId: om-vat
+paymentCulture:
+  popularMethods:
+    - "Visa and Mastercard-branded cards — widespread across malls, hotels, restaurants and retailers; Oman has one of the region's highest card-penetration rates"
+    - "Contactless and mobile payments (the Muzn instant-payment switch, Tap & Pay) — growing rapidly"
+    - "Cash (Omani rial and baisa) — still widely accepted in souqs, small businesses and rural areas"
+  tipping:
+    expected: false
+    typicalAmount: "5-10%"
+    autoIncludedInBill: false
+    note: "Tipping is not obligatory but customary in upscale restaurants and hotels (5-10%); a service charge is sometimes added. Small discretionary tips for porters, guides and taxi drivers are common."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Business interaction is formal and hierarchical; honorifics and titles matter; first names are used among peers after rapport is built."
+  greetingNorms: "A handshake is standard between men, with warm inquiries about health and family (do not ask about one's wife or female relatives). Give and receive with the right hand only; the left is considered unclean."
+  meetingEtiquette: "Punctuality is appreciated though meetings may start over coffee and small talk before business; decisions are unhurried and often involve consensus and the most senior person present. Business cards are exchanged with the right hand."
+  topicsToAvoid:
+    - "Politics, criticism of the Sultan or royal family, sensitive religious differences, and direct questions about personal or family income"
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: om-basic-statute
+    name: "Basic Statute of the State, Royal Decree 101/96 (as amended)"
+    publisher: "Government of Oman (via ILO NATLEX)"
+    url: "https://www.ilo.org/dyn/natlex/natlex4.detail?p_lang=en&p_isn=79013"
+    accessedDate: "2026-09-19"
+    note: "Constitutional basis designating Arabic as the official language of the Sultanate (Art.1) and Islam as the state religion (Art.2) in a unitary monarchy."
+  - id: om-ncsi
+    name: "National Centre for Statistics and Information (NCSI)"
+    publisher: "National Centre for Statistics and Information (NCSI), Oman"
+    url: "https://www.ncsi.gov.om/"
+    accessedDate: "2026-09-19"
+    note: "Official population (about 4.6 million) and citizen (~60%) vs. non-citizen (~40%) breakdown; Arabic-speaker basis."
+  - id: om-state-dept
+    name: "2023 International Religious Freedom Report — Oman"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-religious-freedom-reports/oman/"
+    accessedDate: "2026-09-19"
+    note: "Religious composition (Ibadi majority; Sunni, Shia, Hindu, Christian minorities) and policy."
+  - id: om-cbo
+    name: "Central Bank of Oman"
+    publisher: "Central Bank of Oman"
+    url: "https://cbo.gov.om/"
+    accessedDate: "2026-09-19"
+    note: "OMR issuance, currency peg (~2.60 USD), payment/instant-switch (Muzn) oversight."
+  - id: om-consumer-law
+    name: "Consumer Protection Law, Royal Decree 66/2014"
+    publisher: "Public Authority for Consumer Protection (PACP), Oman"
+    url: "https://www.ilo.org/dyn/natlex/natlex4.detail?p_lang=en&p_isn=99952"
+    accessedDate: "2026-09-19"
+    note: "Flagship consumer-protection statute; price transparency and redress obligations."
+  - id: om-pdpl
+    name: "Omani Personal Data Protection Law, Royal Decree 6/2022"
+    publisher: "Government of Oman"
+    url: "https://gdprhub.eu/index.php?title=Oman_-_Personal_Data_Protection_Law"
+    accessedDate: "2026-09-19"
+    note: "First comprehensive data-protection law, effective February 2023."
+  - id: om-vat
+    name: "Omani VAT Law (Royal Decree 121/2020)"
+    publisher: "Royal Oman Tax Authority"
+    url: "https://www.taxoman.gov.om/en/Pages/VAT.aspx"
+    accessedDate: "2026-09-19"
+    note: "5% standard VAT rate; price-display obligations."
+  - id: om-unesco
+    name: "UNESCO World Heritage — Socotra Archipelago (Yemen)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/om"
+    accessedDate: "2026-09-19"
+    note: "Background on Oman's Soqotri-speaking communities and biodiversity framing the minority-language entry; the archipelago is UNESCO-listed under Yemen, and Oman is the state party record consulted for regional context."
