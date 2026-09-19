@@ -1,0 +1,79 @@
+code: AO-SOUTH
+name:
+  eng: South & East (Ovambo/Chokwe, semi-arid)
+  local:
+    - languageCode: por
+      value: Sul e Leste
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (steppe) — the southern and south-eastern interior: arid, low and highly seasonal rainfall concentrated Dec-Mar."
+  - koppenCode: BWh
+    description: "Hot desert — along the Namibe coast and the extreme south-western desert fringe."
+landmarks:
+  - name: Namibe desert coast
+    description: "Stark, iconic Atlantic desert with the ancient Welwitschia plant."
+  - name: Spitzkoppe and the Erongo (border escarpments)
+    description: "Granite monolith and dramatic desert landscapes in the south-east."
+  - name: Lunda plateau diamond fields
+    description: "Historic diamond-mining regions of the east."
+  - name: South Kunene wildlife corridor
+    description: "Semi-arid savanna holding Angola's recovering elephant populations."
+culturalTraits:
+  - "The Ovambo/Chokwe and Nyemba-speaking south-east"
+  - "Strong Namib desert identity and coastal fishing culture at Namibe"
+  - "Semi-arid subsistence farming (mahangu/pearl millet, livestock) and herding"
+  - "Diamond-mining legacy in the Lunda east"
+prideOf:
+  - "The stark Namib desert landscape and the Welwitschia"
+  - "Recovering elephant and wildlife in the south-East"
+  - "Resilience and independence of the semi-arid south"
+animals:
+  popular:
+    - "African elephant (south-Kunene)"
+    - "Lion"
+    - "Springbok and gemsbok"
+    - "Desert-adapted species"
+  unique:
+    - "Welwitschia mirabilis - an ancient, near-endemic desert plant of the Namib"
+industries:
+  - "Livestock (cattle, goats) and dryland farming"
+  - "Fishing and fish processing (Namibe coast)"
+  - "Diamond mining (Lunda provinces, east)"
+  - "Emerging tourism (Namib desert, wildlife corridors)"
+sports:
+  - "Football (soccer)"
+  - "Athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Desert and wildlife excursions (Namibe, south Kunene)"
+  - season: dry
+    items:
+      - "Long dry season with clear desert skies; cultural gatherings"
+  - season: wet
+    items:
+      - "Short wet season (Dec-Mar) bringing pasture to the savanna"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Mahangu/pearl-millet porridge and pap"
+      - "Grilled and dried meats (goat, beef)"
+      - "Fresh Namib-coast seafood"
+  - season: dry
+    items:
+      - "Dried-meat and grilled-goat gatherings"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light cotton clothing; desert-adapting headwear"
+seasonCalendar:
+  - season: wet
+    months: [12, 1, 2, 3]
+  - season: dry
+    months: [4, 5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Farming, herding and market hours; government offices Mon-Sat."
+  lunchBreakTiming: "A midday break is common."
+  notes: "The south-east is semi-arid with rains concentrated Dec-Mar; soakage and dryland herding dominate. Namibe is the coastal fishing hub."
