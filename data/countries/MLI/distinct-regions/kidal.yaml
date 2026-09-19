@@ -1,0 +1,67 @@
+code: ML-8
+name:
+  eng: Kidal Region
+  local:
+    - languageCode: tmh
+      value: Kidal
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate, on the edge of the Sahara; extreme heat, very little rain and long dry spells.
+landmarks:
+  - name: Kidal town
+    description: The small historic capital and historic Tuareg stronghold in the far northeast of Mali.
+  - name: Adrar des Ifoghas
+    description: Stony desert massif and plateau that shelters prehistoric rock art, key Tuareg clans and, seasonally, migratory herds.
+  - name: Tombouctou hinterland
+    description: Vast open Saharan expanses and salt-trade routes linking Kidal toward Timbuktu and Gao.
+culturalTraits:
+  - Heart of the Tuareg (Tamasheq-speaking) world and the traditional homeland of the Ifoghas confederation
+  - Over millennia, a centre of Saharan caravan trade linking West Africa and the Mediterranean
+  - Distinct, proud desert identity; the Kel Adagh ('people of the Adagh') are the dominant clan
+prideOf:
+  - Tuareg heritage and independence of spirit
+  - The Adrar des Ifoghas and its ancient rock art
+  - Nomadic camel-and-goat herding way of life
+animals:
+  popular:
+    - Dromedary camel
+    - Goat
+    - Fennec fox
+  unique:
+    - Dorcas gazelle
+    - Addax (critically endangered, far north)
+    - Barbary sheep
+industries:
+  - Pastoral herding (camels, goats, sheep) and caravan trade
+  - Artisanal salt-mining and salt caravans (toward Taoudenni and the wider Sahara)
+  - Small-scale commerce in the oasis towns
+  - Diaspora remittances
+sports:
+  - Football
+  - Camel racing
+  - Traditional Tuareg wrestling and sword dance (takemba)
+entertainment:
+  - season: allYear
+    items:
+      - Takemba sword dances and Tuareg music (dark edecheg, tiwizi)
+      - Camel-race and festival gatherings
+      - Tent and oasis gatherings and camel-racing festivals
+      - Metalcraft and silverwork (Tuareg cross) displays
+traditionalDishes:
+  - season: allYear
+    items:
+      - Eghajira, a toasted millet, milk-and-dates mix
+      - Camel milk and cheese
+      - Taguella, desert flatbread baked under the embers
+      - Mafé-style meat stews when meat is available
+traditionalClothing:
+  - season: allYear
+    items:
+      - The tagelmust, the indigo-dyed headwrap worn by Tuareg men (the 'blue people' of the desert)
+      - Long loose robes and wraps suited to extreme heat
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: Work and trade follow the heat, largely in early morning and late afternoon; formal office hours are limited.
+  lunchBreakTiming: Long midday pause during the hottest hours.
+  notes: Sparsely populated desert region with a seasonal, pastoral and caravan economy; access and infrastructure are limited and security has at times been a constraint.

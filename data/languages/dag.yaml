@@ -1,0 +1,8 @@
+code: dag
+name:
+  eng: Dagbani
+  local: Dagbanli
+commonPhrases:
+  hello: "Amaroba"
+  thankYou: "Pamba"
+  goodbye: "Tindai"

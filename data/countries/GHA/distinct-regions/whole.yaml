@@ -1,0 +1,167 @@
+code: WHOLE
+name:
+  eng: Ghana
+  local:
+    - languageCode: eng
+      value: Ghana
+# Generic country-wide fallback content for Ghana (unitary-large). Used via the
+# 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py
+# when a visitor's specific region (e.g. GH-CP Central) isn't one of the
+# curated files (GH-AH Ashanti, GH-NP Northern, GH-TV Volta).
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna / wet-dry across most of the country, with a pronounced dry (harmattan) season in the north."
+  - koppenCode: Am
+    description: "Tropical monsoon in parts of the far southwest coastal belt."
+  - koppenCode: BSh
+    description: "Tropical semi-arid fringe in the extreme northeast (guinea savanna dry zone)."
+landmarks:
+  - name: Cape Coast Castle
+    description: "Historic Atlantic fort and slave-trade memorial; UNESCO World Heritage (Forts and Castles of Ghana)."
+    unescoWorldHeritage: true
+  - name: Elmina Castle (St. George's Castle)
+    description: "Oldest European building in sub-Saharan Africa, a 1482 Portuguese-built slave fortress; UNESCO World Heritage."
+    unescoWorldHeritage: true
+  - name: Kumasi / Asante traditional buildings
+    description: "Last-surviving traditional Asante timber architecture; UNESCO World Heritage sites near Kumasi."
+    unescoWorldHeritage: true
+  - name: Lake Volta
+    description: "World's largest reservoir by surface area, impounded by the Akosombo Dam on the Volta River."
+  - name: Mole National Park
+    description: "Ghana's largest protected savanna area, known for elephants and (critically endangered) West African lions."
+  - name: Independence Arch & Black Star Square
+    description: "Accra's monuments to Ghana's 1957 independence, the first in sub-Saharan Africa."
+  - name: Kakum National Park
+    description: "Rainforest reserve famous for its elevated canopy walkway, near Cape Coast."
+  - name: Kwame Nkrumah Memorial Park
+    description: "Mausoleum and museum honouring Ghana's founding president, in Accra."
+  - name: Larabanga Mosque
+    description: "One of the oldest mosques in West Africa, in the northern savanna (Sudanese-style mud architecture)."
+culturalTraits:
+  - "Deep hospitality — the Akan greeting 'Akwaaba' (welcome) reflects a warm, community-oriented culture"
+  - "Vibrant textile heritage: kente (Asante/Akan weaving), adinkra cloth and wax-print fabrics"
+  - "Redoubtable chieftaincy institution, elders and traditional authority alongside the modern state"
+  - "One of the most religiously observant societies in the world, mixing Christianity, Islam and traditional beliefs"
+  - "Ritual-rich life: elaborate festivals (Akwasidae, Homowo, Hogbetsotso, Damba), drumming and highlife music"
+prideOf:
+  - "Being the first sub-Saharan African nation to gain independence (6 March 1957)"
+  - "Kente cloth and rich Akan/Asante cultural heritage"
+  - "Cocoa — Ghana has long been among the world's largest producers"
+  - "Football and the Black Stars national team"
+  - "Gold — the name 'Gold Coast' and a major gold-mining economy"
+animals:
+  popular:
+    - "African elephant"
+    - "West African lion"
+    - "Leopard"
+    - "Hippopotamus"
+    - "Nile crocodile"
+  unique:
+    - "West African lion (critically endangered, persists in Mole NP)"
+    - "African forest elephant"
+    - "Pygmy hippopotamus"
+    - "Royal antelope"
+    - "Bongo antelope"
+industries:
+  - "Cocoa (among world's leading producers and exporters)"
+  - "Gold mining"
+  - "Oil and gas (offshore Jubilee and other fields)"
+  - "Agriculture (cassava, maize, plantain, rice, yam)"
+  - "Timber and forestry"
+  - "Bauxite and manganese"
+  - "Services, banking and telecommunications"
+  - "Diaspora remittances"
+  - "Mobile-money / fintech (global leader in mobile-money adoption)"
+sports:
+  - "Football (soccer) — most popular"
+  - "Boxing (a storied tradition, e.g. Azumah Nelson, 'Bukom' boxing culture)"
+  - "Athletics and track events"
+  - "Basketball (growing)"
+  - "Table tennis"
+religions:
+  - name: Christian (incl. Pentecostal/evangelical, Protestant, Catholic)
+    percent: 71.2
+    sourceId: gss-census-2021
+  - name: Muslim
+    percent: 19.9
+    sourceId: gss-census-2021
+  - name: No religion
+    percent: 5.2
+    sourceId: gss-census-2021
+  - name: Traditional / indigenous belief
+    percent: 3.2
+    sourceId: gss-census-2021
+  - name: Other
+    percent: 0.5
+    sourceId: gss-census-2021
+entertainment:
+  - season: allYear
+    items:
+      - "Football — Ghana Premier League and the national Black Stars"
+      - "Highlife, hiplife, azonto and Afrobeats music scenes"
+      - "Radio culture — hugely popular nationwide"
+      - "Traditional drumming, dance and chieftaincy festivals"
+  - season: dry
+    items:
+      - "Festival season: Hogbetsotso (Volta, Nov), Aboakyer and Damba, and year-end community celebrations"
+      - "Beach life and concerts around Accra"
+      - "Outdoor durbar and harvest gatherings before the rains"
+  - season: wet
+    items:
+      - "Indoor music, nightlife and restaurant culture"
+      - "Museum and heritage visits (castles, palaces, parks)"
+      - "Cocoa-season cafe and market life"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fufu with light/groundnut soup"
+      - "Banku with grilled tilapia and shito"
+      - "Jollof rice (a celebrated West African rivalry dish)"
+      - "Kenkey with fried fish and pepper sauce"
+      - "Red-red (cowpea beans with fried plantain)"
+      - "Waakye (rice and beans)"
+      - "Kelewele (spiced fried plantain)"
+      - "Groundnut soup"
+      - "Tuo Zaafi (TZ) with ayoyo soup — a northern staple"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kente cloth (woven Asante/Akan ceremonial cloth)"
+      - "Wax-print / ankara dresses and shirts"
+      - "Adinkra cloth and printed cloth outfits"
+      - "Northern smock (batakari/fugu)"
+  - season: dry
+    items:
+      - "Festival regalia: kente and traditional chief's cloth, mostly at so-called 'durbar' and year-end events"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and banks roughly 08:00/08:30 to 16:30/17:00, Mon-Fri; retail markets operate daily, often including Saturdays and renewal."
+  lunchBreakTiming: "A midday break roughly 12:00-14:00 is common; lunch is a main meal and colleagues often eat together."
+  notableShutdownPeriods:
+    - period: "Mid-December to early January"
+      description: "Year-end holiday slowdown and closures; many businesses wind down after Christmas into early January."
+    - period: "Easter (Good Friday and Easter Monday)"
+      description: "Public holidays see most formal businesses closed."
+    - period: "National public holidays (e.g. Independence Day 6 March, Eid)"
+      description: "Statutory holidays close offices and banks."
+sources:
+  - id: gss-census-2021
+    name: "Ghana 2021 Population and Housing Census (PHC) — General Report"
+    publisher: "Ghana Statistical Service (GSS)"
+    url: "https://census2021.statsghana.gov.gh/"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "Religion shares in the WHOLE region (Christian ~71.2%, Muslim ~19.9%, no religion ~5.2%, traditional ~3.2%, other ~0.5%)."
+  - id: unesco-ghana
+    name: "UNESCO World Heritage List — Forts and Castles of Ghana; Asante Traditional Buildings"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/gh"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Basis for the UNESCO World Heritage landmark flags (Cape Coast Castle, Elmina Castle, Asante traditional buildings)."

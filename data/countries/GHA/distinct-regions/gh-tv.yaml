@@ -1,0 +1,108 @@
+code: GH-TV
+name:
+  eng: Volta Region
+  local:
+    - languageCode: ewe
+      value: Volta Nutome
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-dry; a blend of humid forest in the south and Guinea savanna toward the north, with the Volta River/lake to the west."
+landmarks:
+  - name: Wli Waterfalls
+    description: "The highest waterfall in Ghana, in the lush Agumatsa valley."
+  - name: Lake Volta
+    description: "World's largest reservoir by surface area; formed by the Akosombo Dam, with ferry routes crossing the region."
+  - name: Tafi Atome Monkey Sanctuary
+    description: "Protected forest sanctuary where resident mona monkeys take food from visitors."
+  - name: Mount Afadjato
+    description: "Ghana's highest point, near Hohoe, with panoramic views."
+  - name: Fort Prinzenstein, Keta
+    description: "Historic Danish fort on the Keta Lagoon, a trans-Atlantic slave-trade site."
+  - name: Kyabobo National Park
+    description: "Highland forest and savanna reserve on the Togolese border, home to elephants and duikers."
+culturalTraits:
+  - "Heartland of the Ewe people and the Ewe language"
+  - "Historical legacy of the former German Togoland / British Togoland trust territory, joined to Ghana by the 1956 plebiscite"
+  - "Rich Ewe drumming and dance (e.g. the 'agbadza'), weaving and the Agbozume kente market"
+  - "Festive culture — the Hogbetsotso festival of the Anlo people commemorates the Ewe exodus from Notsie (in modern Togo)"
+prideOf:
+  - "Lake Volta and the Akosombo hydroelectric dam"
+  - "Wli Falls and Mount Afadjato, Ghana's highest peak"
+  - "Ewe cultural heritage, drumming and the Hogbetsotso festival"
+  - "The region's distinctive history as a former trust territory"
+animals:
+  popular:
+    - "Mona monkey (Tafi Atome sanctuary)"
+    - "Hippopotamus (Volta lake margins)"
+    - "Crocodile and waterfowl (Keta Lagoon)"
+    - "West African manatee (rare, Volta system)"
+  unique:
+    - "Sea turtles nesting on the Keta coast"
+    - "Audouin's/endemic coastal birdlife at Keta Lagoon Ramsar site"
+    - "Grey duiker"
+industries:
+  - "Agriculture (maize, cassava, yams and vegetables)"
+  - "Fishing, fish processing and the Keta lagoon economy"
+  - "Salt extraction along the coast (Keta/Ada)"
+  - "Weaving and trading (Agbozume kente market)"
+  - "Hydroelectric energy (Akosombo dam sits at the Volta's southern outlet)"
+  - "Tourism (eco-tourism and cultural heritage)"
+sports:
+  - "Football"
+  - "Volleyball (very popular in the Volta Region)"
+  - "Athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Ewe drumming and dance ensembles (agbadza and borborbor)"
+      - "Kente and fabric shopping at Agbozume market"
+  - season: dry
+    items:
+      - "Hogbetsotso festival (the Anlo New-year/thanksgiving celebration) with durbar at Anloga"
+      - "Beach and lagoon recreation along the Keta coast"
+      - "Community durbar and thanksgiving gatherings"
+  - season: wet
+    items:
+      - "Indoor weaving and craft activities"
+      - "Mountain-side retreats and rainforest birdwatching (Afadjato, Kyabobo)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Akple (Ewe steamed corn dough) with pepper/okra sauce and fish"
+      - "Banku with okro and fried fish"
+      - "Fufu with palm-nut/light soup"
+      - "Abolo (steamed corn bread)"
+      - "Grilled tilapia from the Volta lake"
+      - "Abbome (bordier) with gravy"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Ewe woven traditional cloth and wax-print wrappers"
+      - "Kente (widely traded at Agbozume market)"
+      - "Western business attire in Ho"
+  - season: dry
+    items:
+      - "Festival regalia at Hogbetsotso and durbar celebrations"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri for offices; markets (Ho, Agbozume) trade daily, with a busy weekly market cadence."
+  lunchBreakTiming: "Midday break roughly 12:00-14:00."
+  notableShutdownPeriods:
+    - period: "Mid-December to early January"
+      description: "Year-end holiday slowdown and closures."
+    - period: "Easter period (Good Friday and Easter Monday)"
+      description: "Public holidays see most formal businesses closed."
+sources:
+  - id: gss-census-2021
+    name: "Ghana 2021 Population and Housing Census (PHC) — General Report"
+    publisher: "Ghana Statistical Service (GSS)"
+    url: "https://census2021.statsghana.gov.gh/"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "Context for the Volta Region's demographic and trading profile."

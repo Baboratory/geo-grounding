@@ -1,0 +1,110 @@
+code: GH-NP
+name:
+  eng: Northern Region
+  local:
+    - languageCode: dag
+      value: Naya
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-dry guinea savanna with a single rainy season (May-Oct) and a long, hot dry/harmattan season (Nov-Apr)."
+landmarks:
+  - name: Tamale
+    description: "Regional capital and largest city in northern Ghana; a rapidly growing trading and university hub."
+  - name: Mole National Park
+    description: "Ghana's largest national park, famed for large elephant populations and endangered West African lions."
+  - name: Larabanga Mosque
+    description: "One of the oldest mosques in West Africa, an iconic Sudanese-style mud structure."
+  - name: Gambaga Escarpment
+    description: "Striking sandstone escarpment running along the northern edge of the region."
+  - name: Yendi
+    description: "Traditional capital of the Dagbon kingdom, seat of the Ya-Na."
+  - name: Tamale Central (Lamakara) Market
+    description: "The North's principal market, bustling with shea, livestock and textiles."
+culturalTraits:
+  - "Heartland of the Dagbon kingdom (the Dagomba people), with the Ya-Na chieftaincy at its centre"
+  - "Sahel savanna lifestyle: farming, herding and the woven smock (fugu/batakari) tradition"
+  - "Predominantly Muslim society with a rich calendar of Islamic and traditional festivals"
+  - "Northern hospitality, storytelling, and the distinctive 'Dagomba strain' of drumming (the 'lunga' talking drum)"
+prideOf:
+  - "The Dagbon kingdom and its chiefly heritage"
+  - "Mole National Park and its elephants"
+  - "The Larabanga Mosque and Islamic heritage"
+  - "Clay-pot and smock craftsmanship"
+  - "Tamale's emergence as one of Africa's fastest-growing cities"
+animals:
+  popular:
+    - "African elephant"
+    - "West African lion"
+    - "Spotted hyena"
+    - "Warthog"
+    - "Kob antelope"
+  unique:
+    - "West African lion (critically endangered)"
+    - "Roan antelope"
+    - "Hartebeest"
+    - "Olive baboon"
+industries:
+  - "Agriculture (maize, millet, sorghum, rice, groundnuts and cotton)"
+  - "Shea butter production"
+  - "Livestock and cattle herding"
+  - "Tamale commerce and logistics"
+  - "Handicrafts and woven smock production"
+  - "Education (University for Development Studies at Tamale)"
+sports:
+  - "Football"
+  - "Traditional wrestling"
+  - "Boxing"
+entertainment:
+  - season: allYear
+    items:
+      - "Dagomba drumming and the lunga talking drum"
+      - "Islamic festivals and communal gatherings"
+  - season: dry
+    items:
+      - "Damba festival — the great Dagbon celebration of the Prophet's birth, with processions and drumming (in the dry season)"
+      - "Traditional wrestling contests and durbar gatherings"
+      - "Outdoor storytelling under the harmattan skies"
+  - season: wet
+    items:
+      - "Farming-season village fairs and harvest preparations"
+      - "Indoor craftwork and smock weaving"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuo Zaafi (TZ) with ayoyo (jute-leaf) soup — the signature northern dish"
+      - "Groundnut soup with rice"
+      - "Banku or tuo with okra"
+      - "Grilled guinea fowl"
+      - "Rice balls with dawadawa (locust-bean) sauce"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The northern smock (fugu/batakari) — handwoven strip cloth worn by men"
+      - "Colourful women's wrappers and headscarves"
+      - "Wax-print and traditional cloth"
+  - season: dry
+    items:
+      - "Festive smocks and chief's regalia at Damba and durbar events"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri for offices; Tamale markets trade daily, some closing for Friday midday prayers."
+  lunchBreakTiming: "Midday break roughly 12:00-14:00."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Major Islamic public holidays see widespread business slowdown in the majority-Muslim north."
+    - period: "Mid-December to early January"
+      description: "Year-end holiday slowdown and closures."
+sources:
+  - id: gss-census-2021
+    name: "Ghana 2021 Population and Housing Census (PHC) — General Report"
+    publisher: "Ghana Statistical Service (GSS)"
+    url: "https://census2021.statsghana.gov.gh/"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "Context for the Northern Region's demographic and trading profile."
