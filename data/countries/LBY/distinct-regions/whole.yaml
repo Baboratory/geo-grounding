@@ -1,0 +1,165 @@
+code: WHOLE
+name:
+  eng: Libya
+  local:
+    - languageCode: arb
+      value: ليبيا
+# Generic country-wide fallback content for Libya (unitary-large, 3 curated
+# historic regions + this whole-country WHOLE fallback). Used by
+# usage_examples/python/get_data_by_ip.py when a visitor's ISO 3166-2 subdivision
+# isn't one of the curated Tripolitania/Cyrenaica/Fezzan regions. Content here is
+# deliberately national/symbolic.
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate (Sahara) covering the vast interior and south, where most of the country's land area lies — extremely hot, dry summers and cool winters.
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean climate along the northern coast (Tripolitania and Cyrenaica), with dry hot summers and mild, wetter winters.
+  - koppenCode: BSh
+    description: Hot semi-arid climate in a transitional belt between the coast and the deep Sahara (e.g. around the Jefara plain's southern edge and the Sirte area).
+landmarks:
+  - name: Leptis Magna
+    description: One of the best-preserved Roman cities in the world, near Khoms on the Tripolitanian coast; a UNESCO World Heritage Site (on the List in Danger since 2016).
+    unescoWorldHeritage: true
+  - name: Archaeological Site of Cyrene
+    description: Major ancient Greek city in the Green Mountain of Cyrenaica; UNESCO World Heritage Site (on the List in Danger since 2016).
+    unescoWorldHeritage: true
+  - name: Old Town of Ghadamès
+    description: A historic Saharan oasis town on Libya's western border, famed for its distinctive white/ochre tower houses; UNESCO World Heritage Site.
+    unescoWorldHeritage: true
+  - name: Rock-Art Sites of Tadrart Acacus
+    description: Thousands of prehistoric rock paintings and carvings in the desert south-west (Fezzan); UNESCO World Heritage Site (on the List in Danger since 2016).
+    unescoWorldHeritage: true
+  - name: Archaeological Site of Sabratha
+    description: Roman port city on the Tripolitanian coast west of Tripoli, with a striking theatre; UNESCO World Heritage Site (on the List in Danger since 2016).
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Overwhelmingly Sunni Muslim society; Islam frames daily life, hospitality (karam) and social etiquette"
+  - "Strong tribal (qabila) and clan identity and loyalty, alongside a modern national identity"
+  - "Bedouin heritage of hospitality, honor ('ird) and generosity — tea/coffee offered to every guest"
+  - "The green 'Jamahiriyya' era and the 2011 revolution remain negotiated, sensitive memory for most families"
+  - "Arabic literary tradition, with a distinct Libyan dialect and oral poetry (sha'ir al-badan) tradition"
+prideOf:
+  - "The majestic Roman ruins of Leptis Magna and other rich Punic/Roman/Greek archaeological heritage"
+  - "Vast Sahara landscapes — dunes (e.g. Ubari/Awbari lakes), plateaus and oases"
+  - "Huge proven oil and gas reserves that have powered modern development"
+  - "The 23 February 2011 revolution and the fight to end four decades of authoritarian rule"
+animals:
+  popular:
+    - "Fennec fox (Vulpes zerda)"
+    - "Bactrian-unrelated Saharan camels (dromedary)"
+    - "Barbary sheep / aoudad"
+    - "Dorcas gazelle"
+  unique:
+    - "Desert-adapted Saharan wildlife — addax antelope (critically endangered), dama gazelle"
+    - "Nubian bustard and various Sahara-endemic reptiles"
+    - "Mediterranean monk seal historically in coastal waters (severely depleted)"
+industries:
+  - "Oil and natural gas extraction and export — the backbone of the economy (hydrocarbons dominate GDP and state revenue)"
+  - "Petrochemicals and refining"
+  - "Construction (large redevelopment projects, esp. around Tripoli)"
+  - "Agriculture in coastal oases and Green Mountain highlands (olives, dates, citrus, cereals)"
+  - "Public-sector services and administration (a major employer)"
+sports:
+  - "Football (soccer) — the national passion (Al-Ahli and Al-Ittihad of Tripoli, Al-Ahli of Benghazi)"
+  - "Athletics and distance running"
+  - "Camel racing and horse racing (traditional, esp. in Saharan areas)"
+  - "Swimming and Mediterranean coastal sports"
+  - "Karate and martial arts (well developed locally)"
+religions:
+  - name: Muslim (Sunni; Islam is the official state religion)
+    percent: 96.6
+    sourceId: cwf-religion
+  - name: Christian (mostly foreign workers — Egyptian Coptic, etc.) and other
+    percent: 3.4
+    sourceId: cwf-religion
+# Religion figures: CIA World Factbook, 2020 estimate. Islam is the state religion
+# (Constitutional Declaration) and the overwhelming majority are Sunni; there is a
+# small Ibadi-Berber community (esp. in the Nafusa area) folded into the Muslim
+# total, and the Christian minority is almost entirely expatriate (Egyptian Copts,
+# foreign workers). Ibadis and other Muslim sects are not separately broken out in
+# CIA's figure.
+entertainment:
+  - season: allYear
+    items:
+      - "Coffeehouse (qahwa) culture — card games, shisha/hookah and tea"
+      - "Football matches and fan culture, esp. in Tripoli and Benghazi"
+      - "Wedding celebrations and large family gatherings with music (esp. the Maghrebi 'mezwed' genres and modern Libyan pop)"
+  - season: summer
+    items:
+      - "Beach outings and water sports along the Mediterranean coast"
+      - "Evening social life in cooler coastal evenings"
+      - "Ramadan if it falls in summer — late-night iftar gatherings and family visits"
+  - season: winter
+    items:
+      - "Indoor cultural events, poetry gatherings and literary evenings"
+      - "Touring Saharan oases and archaeological sites in cooler weather"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Couscous (kuskusi) with lamb or chicken in a spicy tomato sauce"
+      - "Bazeen — a staple dish of barley-flour dough served with meat or fish and sauce"
+      - "Mbakbaka — a Libyan pasta/stew dish"
+      - "Sfayri, aīn aāzma and stuffed pastries"
+      - "Fresh bread (khubz), olive oil, dates and Libyan 'asida for special occasions"
+  - season: summer
+    items:
+      - "Light salads, fresh grilled fish (sultan), and cold drinks"
+      - "Fruit — watermelons and citrus from coastal orchards"
+  - season: winter
+    items:
+      - "Hearty broths and stews, including 'Mardu' and spicy 'Shorba' soups"
+      - "Slow-cooked meat dishes and couscous enjoyed in the cooler months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Barracan/akhdar (woolen wrap) and traditional North African robes; women in public often wear modest dress/veils"
+      - "Gandoura (long tunic) and sirwal (loose trousers) for men on formal/religious occasions"
+  - season: summer
+    items:
+      - "Light white cotton gandouras and lighter fabrics in the heat"
+  - season: winter
+    items:
+      - "Heavier woolen burnous/cloaks against the cool desert nights"
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+# Libya's seasons broadly track the Northern Hemisphere climate of its inhabited
+# coastal belt: a dry, hot summer (~June-September), a mild transition (Oct-Nov),
+# a cool, rain-bearing winter (Dec-Feb), and a warming spring (Mar-May). The
+# deep-Sahara interior has weaker seasonality, but these months govern the coastal
+# majority population.
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Public sector and many offices roughly 08:00-16:00 Sun-Thu; the working week runs Sunday through Thursday, with the weekend on Friday-Saturday."
+  lunchBreakTiming: "A long mid-day break is common (roughly 2-4 hours), especially in summer when the afternoon heat is intense and work resumes in the evening."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Major Islamic holidays when government and most private businesses close for several days."
+    - period: "Ramadan"
+      description: "Working hours shorten during daylight fasting; business and commerce shift toward the evening, and many offices operate on reduced hours."
+    - period: "August"
+      description: "A common summer vacation period when some businesses slow and staff take leave, though far less uniformly than in Europe."
+  notes: "The civil week starts on Sunday and ends Thursday, with the Friday-Saturday weekend. Islamic holidays (Eid and Ramadan) shape the annual business rhythm more than any fixed shutdown; fuel-subsidy shortages and security unrest can intermittently disrupt supply chains and payments. Libya's official weekly holiday falls on Friday (the main prayer day), with Saturday largely observed as a second day off in practice."
+sources:
+  - id: cwf-religion
+    name: "CIA World Factbook — Libya (People: religion, 2020 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/libya/"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "Religion percentages (Muslim 96.6%, other incl. small Christian minority 3.4%). Islam is the official/state religion."
+  - id: unesco-libya
+    name: "Libya's five World Heritage sites put on List of World Heritage in Danger"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/news/1523"
+    year: 2016
+    accessedDate: "2026-09-19"
+    note: "Confirms Libya's five World Heritage sites (Cyrene, Leptis Magna, Sabratha, Ghadamès old town, Tadrart Acacus rock art) and their placement on the List in Danger in 2016. Basis for the unescoWorldHeritage flags and the 'List in Danger' wording (Ghadamès was removed from the danger list in 2025)."

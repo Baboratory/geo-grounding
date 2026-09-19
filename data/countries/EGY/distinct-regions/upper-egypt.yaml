@@ -1,0 +1,98 @@
+code: EG-LX
+name:
+  eng: Upper Egypt
+  local:
+    - languageCode: arb
+      value: صعيد مصر
+# Upper Egypt (Sa'id) — the Nile Valley south of Cairo through Luxor, Aswan,
+# Qena, Asyut, Sohag, Minya, Beni Suef and Faiyum. The historic southern half of
+# Egypt, the heartland of the Pharaonic temples and a culturally distinct region
+# with its own musical and dialectal identity.
+climates:
+  - koppenCode: BWh
+    description: Hot desert along the Nile Valley — intensely hot, dry summers, mild winters, and almost no rainfall; the river valley itself is a narrow ribbon of irrigated green amid desert plateaus.
+landmarks:
+  - name: Karnak Temple Complex
+    description: The vast temple complex of Amun at Luxor — one of the world's largest religious sites.
+    unescoWorldHeritage: true
+  - name: Luxor Temple
+    description: Grand riverside temple built largely by Amenhotep III and Ramesses II.
+  - name: Valley of the Kings
+    description: The rock-cut royal necropolis of the New Kingdom pharaohs (Tutankhamun, Ramesses II).
+    unescoWorldHeritage: true
+  - name: Abu Simbel Temples
+    description: Monumental rock temples of Ramesses II and Nefertari, relocated to save them from Lake Nasser's waters.
+    unescoWorldHeritage: true
+  - name: Temple of Philae (Aswan)
+    description: Ptolemaic-era temple of Isis on an island, moved to Agilkia Island.
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Strong distinct 'Sa'idi' (Upper Egyptian) identity, dialect and musical tradition (al-mizmār/zaffa-style wedding music, semi-classical Sa'idi folk)"
+  - "Deeply rooted Pharaonic heritage along every stretch of the Nile here"
+  - "Conservative, strongly family- and community-oriented social norms"
+  - "Traditional agricultural village life along the narrow Nile banks; Nubian culture in the far south around Aswan"
+prideOf:
+  - "Being home to Egypt's greatest ancient temples and the tombs of the pharaohs"
+  - "A genuine, preserved sense of traditional Egyptian hospitality and heritage"
+  - "The Nubian people and culture of the Aswan region"
+  - "The dramatic Nile scenery between the desert cliffs"
+animals:
+  popular:
+    - "Donkeys — still widely used for transport in villages and around farmlands"
+    - "Water buffalo and cattle along the floodplain"
+    - "Camels in the desert fringes"
+  unique:
+    - "Egyptian vulture and the Nile crocodile (Aswan; also sacred to the ancient Egyptians)"
+    - "Slimy/soft-shell turtles and native Nile fish"
+industries:
+  - "Agriculture — sugarcane, wheat, maize, dates and vegetables along the Nile"
+  - "Tourism — Luxor and Aswan are world-class heritage destinations; Nile cruises between them"
+  - "Food processing, textile and sugar production"
+  - "Crafts — traditional carpets (e.g. Akhmim), pottery, and Nubian handicrafts"
+  - "Hydropower — the Aswan High Dam generates much of Egypt's electricity"
+sports:
+  - "Football — widely followed and played in towns"
+  - "Nile fishing and traditional river life"
+  - "Camel and horse riding around the desert fringe"
+  # religions intentionally omitted at the Upper Egypt level: the national
+  # estimate split is recorded once at the WHOLE (national) level.
+entertainment:
+  - season: allYear
+    items:
+      - "Nile cruises between Luxor and Aswan — the classic way to take in the temples"
+      - "Sound-and-light shows at Karnak, Philae and Abu Simbel"
+      - "Traditional Sa'idi weddings and folk-music celebrations"
+      - "Village social life and tea gatherings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Koshari (national dish, eaten throughout)"
+      - "Fattah — rice, bread and meat with garlic-vinegar sauce, a festive staple, esp. in Upper Egypt"
+      - "Molokhiya — stewed jute leaf, served with rice and meat or rabbit"
+      - "Ful medames and taamiya (falafel)"
+      - "Date-based desserts and bread, reflecting the local date harvest"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men commonly wear the gallabiya (full-length robe) with a head-covering (sometimes turban-style), more than in Cairo"
+      - "Women wear gallabiyas and/or hijab, with conservative dress norms"
+      - "Nubian dress traditions with bold geometric patterns in the far south"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Offices and shops ~9:00-17:00 Sunday-Thursday; agriculture follows daylight/irrigation cycles."
+  lunchBreakTiming: "Midday break around 14:00, with the heaviest meal often taken early-to-mid afternoon."
+  notableShutdownPeriods:
+    - period: "Religious feasts and harvest cycles"
+      description: "Eid al-Fitr and Eid al-Adha (a few days each, lunar calendar), Coptic Christmas/Easter, and the sugarcane-harvest season."
+  notes: "Economy is more rural and seasonal than Cairo; conservation/monument work, tourism and agriculture drive much of the region. Friday is the main rest day."
