@@ -1,0 +1,140 @@
+code: WHOLE
+name:
+  eng: Saint Kitts and Nevis
+  local:
+    - languageCode: eng
+      value: Saint Kitts and Nevis
+# Generic country-wide fallback content for Saint Kitts and Nevis (unitary-small,
+# single synthetic whole region). Used via the 'whole-country-fallback' path in
+# usage_examples/python/get_data_by_ip.py.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) climate — hot year-round with a distinct drier season (roughly Dec-May) and a wetter, hurricane-prone season (roughly Jun-Nov)."
+  - koppenCode: Am
+    description: "Tropical monsoon climate on the wetter, higher-rainfall volcanic slopes (e.g. Mount Liamuiga on Saint Kitts)."
+landmarks:
+  - name: Brimstone Hill Fortress
+    description: "A well-preserved 17th-18th century British fortress on a volcanic spur overlooking Frigate Bay — a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Mount Liamuiga
+    description: "The dormant volcano that forms the interior of Saint Kitts, with rainforest hikes in its caldera."
+  - name: Nevis Peak
+    description: "The distinctive conical volcano at the centre of Nevis, a landmark and hiking destination."
+  - name: Pinney's Beach (Charlestown, Nevis)
+    description: "A celebrated golden-sand beach on the island of Nevis."
+  - name: Basseterre
+    description: "The capital on the south-west coast, with its Georgian architecture and Circus Place."
+  - name: Cockleshell Beach
+    description: "A quiet south-east beach on Saint Kitts, one of the most photographed on the island."
+culturalTraits:
+  - "Culturama on Nevis (late July-August) — a celebration of Nevisian culture and heritage"
+  - "Sugar cane history — the islands' colonial identity was built on sugar"
+  - "Kittitian/Nevisian Creole English (aig) as the everyday vernacular alongside English"
+  - "A strong tradition of calypso and soca music"
+  - "The distinctive federal character — Nevis has its own Assembly, Premier and administrative autonomy"
+prideOf:
+  - "Being the birthplace of Alexander Hamilton (Charlestown, Nevis, 1755)"
+  - "Brimstone Hill's UNESCO World Heritage status"
+  - "The beauty of Nevis Peak and Pinney's Beach"
+  - "Its welcoming, small-island community"
+animals:
+  popular:
+    - "Green and hawksbill sea turtles — nesting on the islands' beaches"
+    - "Brown pelicans and frigatebirds"
+    - "Monkeys and mongooses"
+    - "Sea birds and lizards across the volcanic slopes"
+  unique:
+    - "The green vervet monkey, introduced centuries ago and now a familiar island sight"
+industries:
+  - "Tourism — the principal economic driver"
+  - "Offshore financial services and international business (a leading OECS financial centre)"
+  - "Sugar — historically the islands' lifeblood, now ended as a commercial crop"
+  - "Light manufacturing and services tied to tourism"
+sports:
+  - "Cricket — a national passion within West Indies cricket"
+  - "Football (soccer)"
+  - "Netball and basketball"
+  - "Water sports — sailing, boating and beaches across the two islands"
+religions:
+  - name: Protestant (all traditions)
+    percent: 75.6
+    sourceId: kn-census-2011
+  - name: No religion
+    percent: 8.8
+    sourceId: kn-census-2011
+  - name: Roman Catholic
+    percent: 5.9
+    sourceId: kn-census-2011
+entertainment:
+  - season: allYear
+    items:
+      - "Beach life, sailing and water sports across the two islands"
+      - "Cricket and football matches"
+      - "Market and cultural life in Basseterre and Charlestown"
+  - season: dry
+    items:
+      - "Christmas and New Year festivities (the drier, cooler months)"
+      - "Peak tourist 'season' (~December-April)"
+  - season: wet
+    items:
+      - "Culturama on Nevis (late July-August) — the national heritage festival"
+      - "National heroes and independence-season events (September)"
+      - "The height of the hurricane/wet season — some outdoor activities pause in heavier rain"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Goat water — a well-known Kittitian/Nevisian stew"
+      - "Conch and fresh seafood"
+      - "Roasted breadfruit, plantains and provision (root crops)"
+      - "Rum punch and local rums"
+      - "Fried fish, johnny cakes and rotis"
+  - season: dry
+    items:
+      - "Christmas ham, black cake (fruit cake) and sorrel drink"
+  - season: wet
+    items:
+      - "Hearty one-pot and soup dishes during wetter spells"
+      - "Culturama-season street food and festival fare"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colourful cotton prints and light tropical wear"
+  - season: dry
+    items:
+      - "Festive/formal wear for Christmas and New Year"
+  - season: wet
+    items:
+      - "Culturama and festival costumes in late summer"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically 08:00/08:30-16:00/16:30 weekdays; private businesses often 09:00-17:00; retail usually Mon-Sat with many closed (or shorter hours) Sunday."
+  lunchBreakTiming: "A standard midday break is common."
+  notableShutdownPeriods:
+    - period: "Culturama (late July-August, Nevis)"
+      description: "The Nevisian heritage festival — activity on Nevis adjusts heavily around the event."
+    - period: "Independence (19 September)"
+      description: "National public holiday marking independence from the United Kingdom (1983)."
+    - period: "Christmas and New Year"
+      description: "Reduced business around the Christmas/New Year holidays."
+  notes: "Tourism drives a pronounced high season in the drier months (December-May). Sunday is widely a rest day. The two islands are administratively distinct (Nevis has its own Assembly), but business rhythm is broadly similar across both."
+sources:
+  - id: kn-census-2011
+    name: "Saint Kitts and Nevis Population and Housing Census (2011)"
+    publisher: "Department of Statistics, Saint Kitts and Nevis"
+    url: "https://www.stats.gov.kn/topics/demographic-social-statistics/population/"
+    year: 2011
+    accessedDate: "2026-09-18"
+    note: "Religious composition (Protestant ~75.6% aggregate, no religion 8.8%, Roman Catholic 5.9%). Flagged as 2011-census vintage and aggregate Protestant figure."
+  - id: kn-unesco-brimstone
+    name: "Brimstone Hill Fortress — UNESCO World Heritage Centre (list entry 910)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/910/"
+    year: 1999
+    accessedDate: "2026-09-18"
+    note: "Confirms Brimstone Hill Fortress was inscribed in 1999 — basis for the unescoWorldHeritage flag on that landmark."

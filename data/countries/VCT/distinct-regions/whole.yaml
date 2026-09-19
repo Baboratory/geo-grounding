@@ -1,0 +1,153 @@
+code: WHOLE
+name:
+  eng: Saint Vincent and the Grenadines
+  local:
+    - languageCode: eng
+      value: Saint Vincent and the Grenadines
+# Generic country-wide fallback content for Saint Vincent and the Grenadines
+# (unitary-small, single synthetic whole region). Used via the
+# 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) climate — hot year-round with a distinct drier season (roughly Dec-May) and a wetter season (roughly Jun-Nov)."
+  - koppenCode: Am
+    description: "Tropical monsoon climate on the wetter, higher-rainfall windward slopes of Saint Vincent (e.g. the forested central spine around the Soufrière volcanic massif)."
+landmarks:
+  - name: La Soufrière Volcano
+    description: "An active stratovolcano at the north end of Saint Vincent — the island's iconic landmark; its April 2021 eruption prompted evacuations and blanketed the north in ash."
+  - name: The Grenadines
+    description: "A chain of some 30 islands and cays south of Saint Vincent, including Bequia, Mustique and Union Island — famed for yachting, diving and white-sand beaches."
+  - name: Wallilabou Bay
+    description: "A north-west bay on the island of Saint Vincent, made famous as a filming location for the Pirates of the Caribbean films."
+  - name: Botanic Gardens (Kingstown)
+    description: "The tranquil Kingstown Botanic Gardens, among the oldest in the Caribbean."
+  - name: Fort Charlotte
+    description: "The old fort on Berkshire Hill above Kingstown, offering panoramic views over the harbour."
+  - name: Tobago Cays
+    description: "A protected marine park and protected turtle-nesting ground in the southern Grenadines."
+culturalTraits:
+  - "Vincy Mas — the vibrant pre-Lenten Carnival (January-February), one of the Caribbean's most celebrated"
+  - "Vincentian Creole English as the everyday vernacular alongside English"
+  - "Bequia whaling heritage — one of the last communities in the world still practising small-scale traditional whaling under international allowance"
+  - "Yachting and sailing culture across the Grenadines"
+  - "Cricket as a national passion within West Indies cricket"
+prideOf:
+  - "The Grenadines — among the world's finest yachting and sailing waters"
+  - "Vincy Mas carnival and its calypso and soca music"
+  - "Friendship and resilience, including recovery from volcanic eruptions"
+  - "Its natural scenery — from the Soufrière volcano to coral reefs"
+animals:
+  popular:
+    - "Hawksbill and green sea turtles — nesting on the beaches of the Tobago Cays and the Grenadines"
+    - "St Vincent parrot (the 'Amazonas guildingii', the national bird) — found nowhere else"
+    - "Whales and dolphins around the Grenadines"
+    - "Blackfish in the waters off Bequia"
+  unique:
+    - "St Vincent parrot (Amazonas guildingii) — the endemic national bird"
+    - "The traditional Bequia whaling practice, now limited to a small subsistence take under international regulation"
+industries:
+  - "Tourism — the principal economic driver (especially yachting and sailing in the Grenadines)"
+  - "Agriculture — bananas, arrowroot, breadfruit and root crops"
+  - "Fisheries and the traditional Bequia whaling culture"
+  - "Light manufacturing and services tied to tourism"
+sports:
+  - "Cricket — a national passion within West Indies cricket"
+  - "Football (soccer)"
+  - "Netball"
+  - "Sailing, yachting and water sports across the Grenadines"
+  - "Track and field / athletics"
+religions:
+  - name: Pentecostal
+    percent: 27.6
+    sourceId: vct-census-2012
+  - name: Anglican
+    percent: 13.9
+    sourceId: vct-census-2012
+  - name: Seventh-day Adventist
+    percent: 11.6
+    sourceId: vct-census-2012
+  - name: Baptist
+    percent: 8.9
+    sourceId: vct-census-2012
+  - name: Methodist
+    percent: 8.7
+    sourceId: vct-census-2012
+  - name: Roman Catholic
+    percent: 6.3
+    sourceId: vct-census-2012
+  - name: No religion
+    percent: 7.5
+    sourceId: vct-census-2012
+  - name: Rastafarian
+    percent: 1.1
+    sourceId: vct-census-2012
+entertainment:
+  - season: allYear
+    items:
+      - "Beach life, sailing and yachting across the Grenadines"
+      - "Cricket and football matches"
+      - "Diving and snorkelling on the reefs"
+  - season: dry
+    items:
+      - "Christmas and New Year festivities (the drier, cooler months)"
+      - "Vincy Mas carnival (January-February) — the pre-Lenten festival of calypso, soca and mas bands"
+      - "Peak tourist 'season' (~December-April)"
+  - season: wet
+    items:
+      - "Easter-period events"
+      - "Independence celebrations (27 October) and the September/October national season"
+      - "The height of the hurricane/wet season — some outdoor activities pause in heavier rain"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Roasted breadfruit — strongly associated with the island and its cuisine"
+      - "Fresh fish and seafood (including around the Grenadines)"
+      - "Root crops / provision, plantains, and callaloo"
+      - "Pilau and the island's one-pot dishes"
+      - "Rum punch and local rums"
+  - season: dry
+    items:
+      - "Christmas ham, black cake (fruit cake) and sorrel drink"
+      - "Carnival-season street food during Vincy Mas"
+  - season: wet
+    items:
+      - "Hearty one-pot and soup dishes during wetter spells"
+      - "Independence-season and festival fare"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colourful cotton prints and light tropical wear"
+  - season: dry
+    items:
+      - "Festive/formal wear for Christmas and New Year"
+  - season: wet
+    items:
+      - "Vincy Mas carnival costumes (feathers, beads, sequins) in January-February"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically 08:00/08:30-16:00/16:30 weekdays; private businesses often 09:00-17:00; retail usually Mon-Sat with many closed (or shorter hours) Sunday."
+  lunchBreakTiming: "A standard midday break is common."
+  notableShutdownPeriods:
+    - period: "Vincy Mas carnival (January-February)"
+      description: "The pre-Lenten carnival — business and activity adjust heavily for two days plus build-up."
+    - period: "Independence (27 October)"
+      description: "National public holiday marking independence from the United Kingdom (1979)."
+    - period: "April 2021 La Soufrière eruption"
+      description: "A major volcanic eruption forced mass evacuations and temporarily closed parts of the northern island; recovery was gradual. A one-off event, noted here for context rather than a recurring shutdown."
+    - period: "Christmas and New Year"
+      description: "Reduced business around the Christmas/New Year holidays."
+  notes: "Tourism drives a pronounced high season in the drier months (December-May), centred on sailing in the Grenadines. Sunday is widely a rest day."
+sources:
+  - id: vct-census-2012
+    name: "Saint Vincent and the Grenadines Population and Housing Census (2012)"
+    publisher: "Statistical Office of Saint Vincent and the Grenadines"
+    url: "https://stats.gov.vc/wp-content/uploads/2019/10/SVG-2012-Population-and-Housing-Census-Report.pdf"
+    year: 2012
+    accessedDate: "2026-09-18"
+    note: "Religious composition (Pentecostal 27.6%, Anglican 13.9%, SDA 11.6%, Baptist 8.9%, Methodist 8.7%, Roman Catholic 6.3%, no religion 7.5%, Rastafarian 1.1%). Flagged as 2012-census vintage."
