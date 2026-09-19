@@ -1,0 +1,106 @@
+alpha3: COM
+alpha2: KM
+name:
+  eng: Comoros
+  local:
+    - languageCode: zdj
+      value: Udzima wa Komori
+    - languageCode: fra
+      value: Union des Comores
+    - languageCode: arb
+      value: الاتحاد القمري
+flagEmoji: "🇰🇲"
+capital: Moroni
+isSovereign: true
+# Classified unitary-small, not unitary-large: population ~888,000 is below the
+# unitary-large threshold, and the three official languages (Shikomoro/Comorian,
+# French, Arabic) are all national-level co-official languages. The island
+# split (Grande Comore, Anjouan, Moheli) is geographic/administrative — there
+# is no recognized regional/minority official language confined to a single
+# island nor a dataset-level cultural-regional identity distinction — so the
+# Union is treated as a single WHOLE region, matching the small-island pattern.
+# The Comorian ISO 639-3 has NO macrolanguage: the four individual codes are
+# zdj (Ngazidja/Grande Comore), wlc (Mwali/Moheli), wni (Ndzwani/Anjouan) and
+# swb (Maore/Mayotte). zdj is used here as the official "Shikomoro" because
+# Grande Comore is the seat of the capital Moroni and politically dominant;
+# the other island varieties are recorded in the language file comment rather
+# than as separate official rows.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: zdj
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2018
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2018
+  - languageCode: arb
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2018
+  - languageCode: zdj
+    domain: locallySpoken
+    speakersShare: 0.97
+    sourceId: composite-estimate
+# The three official-domain rows are legal-status flags (all 1.0); actual usage
+# is captured by the locallySpoken Comorian row (~97% of the population speaks
+# a Comorian variety as the everyday vernacular). The locallySpoken figure is
+# an ESTIMATE: there is no census question on language, and the ~97% is the
+# widely cited proportion for whom Comorian is the first language, per the CIA
+# World Factbook's People & Society section.
+ethnicGroups:
+  - group: "Comorian (mixed Afro-Arab-Malagasy ancestry; communities include Antalote, Cafre, Makoa, Oimatsaha, Sakalava)"
+    percent: 95.0
+    sourceId: composite-estimate
+timezones:
+  - name: Indian/Comoro
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: KMF
+  symbol: "CF"
+  name: Comorian franc
+legalConstraints:
+  - topic: "State religion / religious law interface"
+    description: "Sunni Islam is the official state religion, and Islamic norms influence family and personal-status law."
+    sourceId: constitution-2018
+  - topic: "Constitutional freedoms"
+    description: "The 2018 Constitution guarantees freedom of thought, expression, association and artistic/cultural creation (Art. 21), alongside the state-religion provision."
+    sourceId: constitution-2018
+paymentCulture:
+  popularMethods:
+    - "Cash (Comorian franc, KMF)"
+    - "Bank transfer / mobile money (nascent)"
+  tipping:
+    expected: false
+    typicalAmount: "Small, optional gratuities in restaurants"
+    autoIncludedInBill: false
+    note: "The economy is predominantly cash-based; the financial sector is small with limited banking penetration, and international transactions often route through regional hubs."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Relationship-oriented and courteous; French and Comorian are used in business and official settings. Formal titles and polite address are expected."
+  greetingNorms: "A warm greeting with polite pleasantries is standard; asking after family and well-being precedes business."
+  meetingEtiquette: "Personal relationships matter in commerce and administration; build rapport first. Decisions tend to involve senior figures and proceed at a measured pace."
+  topicsToAvoid:
+    - "Discussing the Mayotte status question or sensitive political history unless the counterpart raises it first"
+  giftGivingNotes: "Not expected at a first meeting; a modest token is appreciated when hospitality is extended."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: constitution-2018
+    name: "Constitution of the Union of the Comoros (2018)"
+    publisher: "Union of the Comoros, via WIPO Lex"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/20721"
+    year: 2018
+    accessedDate: "2026-09-18"
+    note: "States that 'the official languages are the Shikomoro national language, French, and Arabic'; also the basis for the state-religion (Art on Islam) and fundamental-freedoms (Art. 21) provisions."
+  - id: composite-estimate
+    name: "Composite estimate"
+    publisher: "Composite estimate"
+    url: "https://www.cia.gov/the-world-factbook/countries/comoros/"
+    accessedDate: "2026-09-18"
+    note: "ESTIMATE — locallySpoken Comorian share (~97% first-language) and broad ethnic composition (Comorian, mixed Afro-Arab-Malagasy, ~95%) per the CIA World Factbook People & Society section; the Factbook lists constituent communities (Antalote, Cafre, Makoa, Oimatsaha, Sakalava) without reliable percentages. Currency and timezone are standard administrative facts."
