@@ -30,6 +30,12 @@ dev = [
 ]
 
 
+[tool.setuptools]
+# Data-only package: no Python modules live here, so a flat-layout auto-discovery
+# finds only top-level data directories. Declaring an empty packages list keeps
+# the editable build / CI install deterministic across setuptools versions.
+packages = []
+
 [tool.black]
 line-length = 100
 target-version = ["py311"]
