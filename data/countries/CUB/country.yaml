@@ -1,0 +1,145 @@
+alpha3: CUB
+alpha2: CU
+name:
+  eng: Cuba
+  local:
+    - languageCode: spa
+      value: Cuba
+flagEmoji: "🇨🇺"
+capital: Havana
+isSovereign: true
+# Classified unitary-small: although Cuba (~11M) is a UNITYARY state of 15 provinces
+# plus the special municipality Isla de la Juventud, the maintainer's conservative
+# rule keeps single-WHOLE curation unless a country's regions carry a strong
+# independent cultural-historical identity worth curating. Cuban provinces are
+# predominantly administrative units (the 1976 territorial division) with a shared
+# national identity, so one synthetic WHOLE region is used.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: cub-constitution-2019
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.99
+    sourceId: cub-language-estimate
+  - languageCode: hat
+    domain: locallySpoken
+    speakersShare: 0.027
+    sourceId: cub-language-estimate
+# Spanish is the sole official language (Constitution of 2019, Art. 2 names Spanish
+# the official language). Haitian Creole ('hat') is the principal minority language,
+# spoken by Cuba's Haitian-descendant communities (concentrated in eastern provinces
+# and Ciego de Ávila/Camagüey); after Spanish it is the second most widely spoken
+# language (estimates vary from roughly a few hundred thousand speakers to ~1M
+# fluent, including non-ancestry learners). The hat locallySpoken share is an
+# ESTIMATE — Cuba publishes no language-proficiency census.
+ethnicGroups:
+  # ONEI 2012 census 'race or colour' self-identification. Figures rounded as
+  # published (Wikipedia's 2012 census tables: White 64.12%, Mulatto/Mestizo
+  # 26.62%, Black 9.26%; commonly cited rounded as 64.1 / 26.6 / 9.3).
+  - group: White
+    percent: 64.12
+    sourceId: cub-census-2012
+  - group: Mulatto / Mestizo (mixed)
+    percent: 26.62
+    sourceId: cub-census-2012
+  - group: Black
+    percent: 9.26
+    sourceId: cub-census-2012
+# ONEI has collected self-identified race/colour at every census since 1774; the
+# 2012 census is the most recent full national census (population 11,167,325).
+# Cuba also has small ethnic minorities not captured in the colour trichotomy
+# (e.g. Chinese-heritage community; 2012 reported no separate Asian row).
+timezones:
+  - name: America/Havana
+    standardUtcOffset: "UTC-5"
+    observesDst: true
+    dstUtcOffset: "UTC-4"
+    dstPeriod: "Cuba Daylight Time (CDT): from the second Sunday of March to the first Sunday of November (e.g. 2026: Mar 8 - Nov 1; 2025: Mar 9 - Nov 2)."
+currency:
+  code: CUP
+  symbol: "$"
+  name: "Cuban peso (CUP) — the sole legal tender since the Jan 2021 monetary reform (Tarea Ordenamiento) retired the Cuban convertible peso (CUC); in practice the MLC (Moneda Libremente Convertible) card system and cash USD/EUR are widely used"
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Cuba is not an EU member or EEA state. EU consumer and data-protection directives (GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee) do NOT apply; Cuban national law and the US embargo (which US businesses must still navigate) govern commerce."
+    sourceId: cub-embargo-treasury
+  - topic: "socialist unitary state & official language"
+    description: "The 2019 Constitution (in force 10 Apr 2019, Art. 1 & 2) defines Cuba as 'an indivisible and unitary republic' and a socialist State; Spanish is the sole official language and Havana the capital. The socialist economic system based on the people's ownership of the fundamental means of production is described as irrevocable (Art. 9). The private sector operates in a restricted, state-regulated space."
+    sourceId: cub-constitution-2019
+  - topic: "US embargo / OFAC sanctions"
+    description: "The US Office of Foreign Assets Control (OFAC) maintains the Cuba sanctions program (31 CFR 515) — a comprehensive embargo since 1960 restricting trade and financial transactions between US persons and Cuba. Any e-commerce/payments work for Cuba must be checked against OFAC licensing exceptions. Cuba itself also restricts foreign-currency pricing by its own sellers."
+    sourceId: cub-embargo-treasury
+paymentCulture:
+  popularMethods:
+    - "Cash (CUP) — dominates daily, informal and small-merchant transactions; consumer spending is heavily cash-based"
+    - "Dual-currency history: CUC eliminated Jan 2021 (Tarea Ordenamiento); prices are now quoted in CUP but a parallel 'MLC' economy persists"
+    - "Cuban cards (e.g. AIS/Tarjeta CUP and MLC cards from Banco Metropolitano) — used in state stores; MLC is a credit-card system topped up with convertible foreign currency (EUR/USD/CAD)"
+    - "Foreign cash (USD/EUR) — widely used, especially by tourists, at the informal exchange rate and in tourist-facing businesses (casas particulares, taxis)"
+    - "State-run online/telephony purchases and increasingly popular mobile payment trials; remittances from the diaspora are a key source of foreign currency"
+  tipping:
+    expected: true
+    typicalAmount: "10% in sit-down restaurants; a few CUP to service staff/guides"
+    autoIncludedInBill: false
+    note: "Tipping is customary for restaurant servers, tour guides, porters and taxi drivers; small cash tips are appreciated and often expected given low state salaries. USD/euro cash or CUP are both accepted informally."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Warm and relational. In formal/business settings people use titles and the formal 'usted' initially, but Cubans are expressive, warm and quick to move to first names and physical warmth (handshakes, embraces between friends)."
+  greetingNorms: "'Hola, ¿qué tal?' / '¿Cómo andas?' — a friendly handshake (men) and often two cheek-kisses among acquaintances. Greetings are warm and affectionate, seldom purely transactional."
+  meetingEtiquette: "Relationship-building matters; expect animated, expressive conversation and a relaxed sense of time rather than rigid punctuality. Decisions rest with senior/state leadership in the public sector; meetings may be informal and discussion-heavy."
+  topicsToAvoid:
+    - "Politics and the Revolution can be politically sensitive; criticism of the government or the former Castro leadership is a sensitive topic for many"
+    - "Assuming all Cubans are alike politically — views vary widely"
+    - "Reducing Cuba to vintage cars and beaches"
+    - "Overly confrontational or blunt criticism"
+  giftGivingNotes: "Small thoughtful gifts (coffee, chocolate, cigars, toiletries) are warmly welcomed and often expected when visiting homes, given shortages and low incomes. Not required at business meetings but appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cub-constitution-2019
+    name: "Constitution of the Republic of Cuba (2019)"
+    publisher: "Comparative Constitutions Project (constituteproject.org) / Republic of Cuba"
+    url: "https://www.constituteproject.org/constitution/Cuba_2019"
+    year: 2019
+    accessedDate: "2026-09-18"
+    note: "Art. 1 defines Cuba as an indivisible, unitary, sovereign socialist State; Art. 2 names Spanish the official language and Havana the capital; Art. 9 the socialist economic system is irrevocable. Basis for the spa official row and the 'socialist unitary state' legal constraint."
+  - id: cub-census-2012
+    name: "2012 Cuba population census — race or colour self-identification"
+    publisher: "Oficina Nacional de Estadística e Información (ONEI)"
+    url: "https://en.wikipedia.org/wiki/2012_Cuba_census"
+    year: 2012
+    accessedDate: "2026-09-18"
+    note: "Most recent full national census (pop. 11,167,325). Self-identified race/colour: White 64.12%, Mulatto/Mestizo 26.62%, Black 9.26%. Basis for ethnicGroups values."
+  - id: cub-language-estimate
+    name: "Haitian Cuban language situation (Haitian Creole in Cuba)"
+    publisher: "Demographics of Cuba (Wikipedia) / sociolinguistic literature"
+    url: "https://en.wikipedia.org/wiki/Haitian_Cubans"
+    year: 2020
+    accessedDate: "2026-09-18"
+    note: "States Haitian Creole is the second most-spoken language in Cuba after Spanish, with communities in eastern provinces and Ciego de Ávila/Camagüey; spoken natively or fluently by a sizable minority. The hat and spa locallySpoken shares are ESTIMATES (no official proficiency census)."
+  - id: cub-timezone
+    name: "Time Zone & Clock Changes in Havana, Cuba (America/Havana)"
+    publisher: "timeanddate.com"
+    url: "https://www.timeanddate.com/time/zone/cuba/havana"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "America/Havana = UTC-5 standard (CST), UTC-4 daylight (CDT); DST observed from the second Sunday of March to the first Sunday of November. Basis for the timezone entry."
+  - id: cub-currency
+    name: "Tarea Ordenamiento (Jan 2021): CUP/CUC unification — and the rise of the MLC"
+    publisher: "Cuban Insights / Gaceta Oficial de la República de Cuba"
+    url: "https://cubaninsights.com/explainers/cup-cuc-tarea-ordenamiento"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "The Jan 2021 monetary reform retired the CUC and left the CUP as the sole legal tender for domestic transactions, while MLC (Moneda Libremente Convertible) accounts and informal foreign-cash use persist. Basis for the currency entry."
+  - id: cub-embargo-treasury
+    name: "Cuba Sanctions Program (31 CFR 515)"
+    publisher: "U.S. Department of the Treasury — Office of Foreign Assets Control (OFAC)"
+    url: "https://ofac.treasury.gov/sanctions-programs-and-country-information/cuba-sanctions"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Documents the comprehensive US embargo and 31 CFR 515 Cuba sanctions program, establishing Cuba's distinct legal/commercial environment and its non-EU status. Basis for the two legalConstraints rows."

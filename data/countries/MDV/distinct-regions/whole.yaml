@@ -1,0 +1,162 @@
+code: WHOLE
+name:
+  eng: Maldives
+  local:
+    - languageCode: div
+      value: ދިވެހިރާއްޖެ
+# Generic country-wide fallback content for the Maldives (unitary-small, single
+# synthetic whole-country region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon (Am) — dominant across most atolls: hot year-round (~28°C, ~32°C peak) with heavy rainfall (~1,500-2,000 mm/yr) concentrated in the southwest-monsoon wet season (roughly May-Nov), separated by a markedly drier northeast-monsoon period (roughly Dec-Apr) that still has no true dry month."
+  - koppenCode: Af
+    description: "Tropical rainforest (Af) — the southern, near-equatorial atolls (e.g. Addu and Huvadhu) where rainfall is evenly distributed through the year and no month is genuinely dry."
+landmarks:
+  - name: Malé Friday Mosque (Hukuru Miskiy)
+    description: "Built c. 1658 during the reign of Sultan Ibrahim Iskandhar I, the largest and finest surviving coral-stone mosque in the Maldives, noted for intricate coral carvings and lacquer work; part of UNESCO's Tentative List 'Coral Stone Mosques of the Maldives'."
+  - name: Coral Stone Mosques of the Maldives
+    description: "Six surviving 17th-century coral-stone mosques (Malé Friday, Malé Eid, Isdhoo, Ihavandhoo, Meedhoo, Fenfushi) on UNESCO's Tentative List for an outstanding Indian-Ocean fusion of coral-stone architecture, coral carvings and calligraphy."
+  - name: Baa Atoll UNESCO Biosphere Reserve
+    description: "Designated 2011; one of the largest groups of coral reefs in the Indian Ocean, ~250 coral species and ~1,200 reef fish species, famed for the manta-ray and whale-shark aggregations of Hanifaru Bay."
+  - name: Malé fish market and waterfront
+    description: "The vibrant daily landing of tuna (much of it caught by traditional pole-and-line) in the capital, next to the historic town and harbour."
+  - name: Reef diving and surfing grounds of the atolls
+    description: "World-class channels, overhangs and surf breaks across the archipelago — e.g. the reef passes and dive walls of South Malé Atoll (incl. Biyadhoo) and the surf waves off Thulusdhoo (Cokes/Sultans) — the country's coral-reef heritage."
+  - name: Addu Atoll (equatorial diving)
+    description: "The southernmost atoll, spanning the equator, with WWII-era Gan heritage and some of the country's most intact reefs and wildlife."
+culturalTraits:
+  - "Bodu beru — the traditional drum-and-dance music and performance of Maldivian festivals and ceremonies"
+  - "Sunni Islam is the state religion; citizenship is by law restricted to Sunni Muslims, giving a religiously uniform society"
+  - "Deep maritime heritage — pole-and-line skipjack tuna fishing and the sailing of dhoni woodwork craft"
+  - "Coral-stone mosque architecture with intricate coral carvings and lacquer-work craft"
+  - "The Dhivehi language and its Thaana script"
+  - "Warm hospitality, community closeness and a strong sense of island identity"
+  - "Modesty and conservatism, especially on inhabited local islands (as opposed to resort islands)"
+prideOf:
+  - "The pristine coral reefs, turquoise lagoons and white-sand beaches of their home archipelago"
+  - "Maldives' standing as the world's iconic luxury beach-and-diving destination"
+  - "The Baa Atoll UNESCO Biosphere Reserve and the sustainable pole-and-line skipjack tuna fishery"
+  - "Outstanding diving, surfing and marine life (manta rays and whale sharks)"
+  - "Their coral-stone mosque heritage and centuries of maritime seafaring"
+animals:
+  popular:
+    - "Whale sharks (seasonal aggregations, e.g. at South Ari Atoll)"
+    - "Manta rays (Hanifaru Bay, Baa Atoll)"
+    - "Green and hawksbill sea turtles"
+    - "Spinner dolphins"
+    - "Reef sharks (blacktip/whitetip) and colourful reef fish"
+  unique:
+    - "Maldives anemonefish / black-finned clownfish (Amphiprion nigripes) — a dark-finned clownfish emblematic of Maldivian reefs"
+    - "The faru ring-reef reef structure unique to the Maldives"
+    - "Large seasonal manta-ray and whale-shark aggregation events at Baa Atoll"
+industries:
+  - "Tourism — the dominant economic sector (roughly a third of GDP), built on resorts, guesthouses, diving, surfing and marine recreation"
+  - "Fisheries — pole-and-line skipjack tuna, one of the most sustainable major tuna fisheries in the world and a cornerstone heritage industry"
+  - "Shipping and transshipment (Malé Commercial Harbour)"
+  - "Construction and infrastructure"
+  - "Finance, telecommunications and business services"
+sports:
+  - "Football (soccer) — the most popular sport; the Maldives national championship and South Asian competitions"
+  - "Volleyball and beach volleyball"
+  - "Cricket — a fast-growing popular following"
+  - "Badminton, futsal and table tennis"
+  - "Surfing — world-famous breaks such as Thulusdhoo's"
+  - "Diving and snorkelling — both a national pastime and a tourism pillar"
+religions:
+  # ARDA 2020 breakdown of resident population (citizens are almost all Sunni
+  # Muslim by citizenship law; the non-Muslim shares reflect foreign residents).
+  - name: Sunni Islam (official state religion)
+    percent: 98.69
+    sourceId: mdv-religion-2020
+  - name: Buddhism
+    percent: 0.65
+    sourceId: mdv-religion-2020
+  - name: Christian
+    percent: 0.29
+    sourceId: mdv-religion-2020
+  - name: Hindu
+    percent: 0.29
+    sourceId: mdv-religion-2020
+  - name: Non-religious / unaffiliated
+    percent: 0.06
+    sourceId: mdv-religion-2020
+  - name: Other (incl. Baha'i)
+    percent: 0.03
+    sourceId: mdv-religion-2020
+entertainment:
+  - season: allYear
+    items:
+      - "Bodu beru drum-and-dance performances at festival nights and resort 'Maldivian night' events"
+      - "Diving, snorkelling, surfing and watersports available year-round"
+      - "Football, volleyball and cricket"
+      - "Island teahouse (hotaa) socialising over sai (black/milk tea) and hedhikaa"
+      - "Beach and resort leisure — the country's core tourism offering"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Mas huni — shredded smoked skipjack tuna mixed with grated coconut, onion, chilli and lime, the national breakfast, served with roshi flatbread and sweet black tea"
+      - "Garudhiya — the clear tuna broth widely regarded as the national dish, eaten with rice, lime and chilli"
+      - "Roshi — thin unleavened flatbread"
+      - "Mas riha — tuna coconut-milk curry"
+      - "Rihaakuru — thick, intensely savoury cooked-down tuna paste used as a condiment"
+      - "Hedhikaa 'short eats' — gulha, bajiya, masroshi, kulhi boakibaa and keemiya, served with tea"
+      - "Bondibai — sweet coconut-milk rice pudding, especially at Eid"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Dhivehi libaas — the women's national dress, a long gown with 'kasabu viyun' gold/silver-thread embroidery around the neckline, sleeves and hem, often in bright red, green or blue"
+      - "Bolifothikolhu — the lace veil worn with the libaas"
+      - "Mundu — the men's traditional sarong; the black-with-white-stripes 'feyli' sarong worn at ceremonies and in bodu beru performances"
+      - "Dhigu hedhun (long gown) and modest modern Islamic dress on local islands; lighter resort/beach wear on resort islands"
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "The standard work week runs Sunday to Thursday (Friday-Saturday weekend). Government offices roughly 08:00-16:00; private companies often ~09:00-17:00. Legal maximum 48 hours/week over up to six days, plus overtime, under the Employment Act."
+  lunchBreakTiming: "A standard midday meal break is customary; prayer times (including the Friday Jumu'ah mid-day prayer) frame the working day, though Friday is already a rest day."
+  notableShutdownPeriods:
+    - period: "Ramadan (month of fasting)"
+      description: "Working hours shorten through the fasting month and business slows; many offices reduce hours."
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Major national holidays with several days off for celebration at the end of Ramadan and at Hajj; most government offices and businesses close."
+    - period: "Independence Day (26 July) and Republic Day (11 November)"
+      description: "National public holidays marked with parades and ceremonies; reduced business."
+  notes: "The Friday-Saturday weekend and the Islamic lunar holiday calendar (dates set by moon sighting) shape the business year. Tourism, the dominant sector, runs on a hospitality pace year-round, relatively independent of the local government work week."
+  sourceIds:
+    - mdv-employment
+sources:
+  - id: mdv-religion-2020
+    name: "Religion in the Maldives (resident-population breakdown, ARDA 2020 data)"
+    publisher: "Association of Religion Data Archives (ARDA), via Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Religion_in_the_Maldives"
+    year: 2020
+    accessedDate: "2026-09-18"
+    note: "Religious affiliation of the resident population (2020): Islam 98.69%, Buddhist 0.65%, Christian 0.29%, Hindu 0.29%, non-religious 0.06%, other (incl. Baha'i) 0.03%. Basis for the religions rows. Citizenship law requires Sunni Islam, so the non-Muslim shares reflect foreign residents."
+  - id: mdv-employment
+    name: "Employment Act 2008 (Act No. 2/2008)"
+    publisher: "Republic of the Maldives / ILO NATLEX"
+    url: "https://natlex.ilo.org/dyn/natlex2/r/natlex/fe/details?p3_isn=85764"
+    year: 2008
+    accessedDate: "2026-09-18"
+    note: "Sets the maximum standard working week at 48 hours over up to six days with overtime rules — basis for businessRhythm.typicalWorkHours and the Friday-Saturday rest pattern described there."
+  - id: mdv-climate
+    name: "Maldives — Climate info (Köppen-Geiger classification)"
+    publisher: "World Bank Climate Change Knowledge Portal"
+    url: "https://climateknowledgeportal.worldbank.org/country/maldives"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "Documents the Maldives' tropical monsoon climate (Am) over most atolls and equatorial rainforest (Af) in the far south, with a drier northeast-monsoon season roughly Dec-Apr and a wetter southwest monsoon roughly May-Nov. Basis for the climates entries."
+  - id: mdv-unesco-mosques
+    name: "Coral Stone Mosques of the Maldives — UNESCO Tentative List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/tentativelists/5812/"
+    year: 2013
+    accessedDate: "2026-09-18"
+    note: "Describes Malé Friday Mosque as the country's most important heritage site and the six coral-stone mosques' outstanding universal value. Basis for the Malé Friday Mosque and Coral Stone Mosques landmark entries."
+  - id: mdv-unesco-baa
+    name: "Baa Atoll Biosphere Reserve"
+    publisher: "UNESCO Man and the Biosphere (MAB) Programme"
+    url: "https://unesco.org/en/mab/baa-atoll"
+    year: 2011
+    accessedDate: "2026-09-18"
+    note: "Documents Baa Atoll's 2011 Biosphere Reserve designation, ~250 coral species, ~1,200 reef fish species, and manta-ray/whale-shark importance. Basis for the Baa Atoll landmark and animals entries."

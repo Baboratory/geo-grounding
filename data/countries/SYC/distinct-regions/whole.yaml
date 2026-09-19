@@ -1,0 +1,164 @@
+code: WHOLE
+name:
+  eng: Seychelles
+  local:
+    - languageCode: crs
+      value: Sesel
+    - languageCode: eng
+      value: Seychelles
+    - languageCode: fra
+      value: Seychelles
+# Generic country-wide fallback content for the Seychelles (unitary-small, single
+# synthetic whole-country region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest (Af) — dominant across the granitic and coralline islands. A warm, near-equatorial maritime climate with little seasonal temperature variation (typical 24-31°C year-round) and high, fairly evenly distributed rainfall. The wetter season runs with the northwest monsoon (roughly December-March); a drier, windier spell comes with the southeast trade winds (roughly May-October), yet no month is truly dry. Because rainfall is high and year-round, the generally assigned Köppen class is tropical rainforest (Af)."
+  - koppenCode: Am
+    description: "Tropical monsoon (Am) — applied in some classifications to the same islands, emphasising the pronounced northwest-monsoon wet period (roughly December-March) versus the markedly drier southeast-trade-wind season (roughly May/June-October). Coastal/leeward sites that dry more in the SE-trade season can sit at the Af/Am boundary."
+landmarks:
+  - name: Morne Seychellois (Morne Seychellois National Park)
+    description: "The highest peak in the Seychelles (~905 m) on Mahé, within the Morne Seychellois National Park that protects the island's forested granite mountains, waterfalls and rare endemic flora and fauna; popular hiking destination."
+  - name: Vallée de Mai, Praslin (UNESCO World Heritage)
+    description: "A primeval palm forest on Praslin, designated a UNESCO World Heritage Site in 1983 — the natural stronghold of the endemic coco de mer palm and home of the rare Seychelles black parrot."
+    unescoWorldHeritage: true
+  - name: Anse Source d'Argent, La Digue
+    description: "One of the world's most photographed beaches, on La Digue, famous for its giant pink-granite boulders, shallow turquoise lagoon and white sand."
+  - name: Beau Vallon, Mahé
+    description: "Mahé's best-known and longest stretch of beach, on the island's north-west coast; the island's main public beach with gentle swimming, watersports and sundown atmosphere."
+  - name: Victoria Clock Tower
+    description: "The Victorian cast-iron clock tower erected in 1903 in central Victoria, Mahe — a miniature replica of London's 'Little Ben' and the capital's most iconic landmark."
+culturalTraits:
+  - "A rich Seychellois Creole culture blending African, European (French and British) and Asian (Indian, Chinese) influences"
+  - "Traditional music and dance — moutya, sega, kanmtole (a costumed dance) — rooted in slave-era and colonial expression"
+  - "A nation with no indigenous population, descended from the French settlers, African and South Indian labourers who arrived from 1770"
+  - "Predominantly Roman Catholic observance with festive public holidays (Good Friday, Assumption, Christmas, New Year)"
+  - "A welcoming, laid-back island ethos built around family, community and hospitality"
+  - "French-based Seychellois Creole (Kreol Seselwa) as the language of everyday life"
+prideOf:
+  - "Pristine granite and coral beaches, clear turquoise seas and one of the world's most protected marine environments"
+  - "Africa's smallest and one of its highest-income countries — a model of tourism-led prosperity"
+  - "Extraordinary endemic wildlife — the Aldabra giant tortoise, the Seychelles black parrot and the coco de mer"
+  - "Their distinctive Creole culture, music and warm hospitality"
+  - "A reputation as the world's premier luxury eco-tourism island destination"
+animals:
+  popular:
+    - "Whale sharks — reliable sightings year-round off Mahé, especially in the north-west monsoon season"
+    - "Spinner and other dolphins"
+    - "Green and hawksbill sea turtles (nesting beaches across the islands)"
+    - "Large fruit bats 'flying foxes' (endemic Pteropus seychellensis) roosting over the capitals at dusk"
+    - "Colourful coral reef fish and parrotfish"
+  unique:
+    - "Aldabra giant tortoise (Aldabrachelys gigantea) — among the world's largest tortoises, endemic to the Aldabra Atoll (UNESCO World Heritage Site)"
+    - "Seychelles black parrot (Coracopsis barklyi) — endemic to the Vallée de Mai on Praslin"
+    - "Coco de mer (Lodoicea maldivica) — the endemic coco-de-mer palm of Praslin and Curieuse producing the world's largest seed (the 'love nut')"
+    - "Seychelles magpie-robin and Seychelles warbler — endemic songbirds rescued from near-extinction on small islands"
+    - "Seychelles sunbird and Seychelles white-eye — endemic birds"
+industries:
+  - "Tourism — the dominant sector, roughly a quarter of GDP and the largest employer, built on beach, diving and eco-tourism"
+  - "Tuna fishing and canning — the Seychelles hosts some of the world's largest canned-tuna processing plants and is a major Indian Ocean tuna exporter"
+  - "Offshore financial services — an established international financial centre (International Business Companies Act 1994; licenced by FSA/IFSA)"
+  - "Fisheries, small-scale manufacturing (brewery, cigarettes, tuna canning) and construction"
+  - "Petroleum re-export/storage and port services"
+sports:
+  - "Football (soccer) — the most popular sport, with a vibrant local league and a strong national-team following"
+  - "Athletics and boxing — long-standing strength with consistent international success"
+  - "Basketball and volleyball"
+  - "Sailing, fishing and diving — both pastime and tourism mainstays"
+  - "Esports and beach sports growing among the youth"
+religions:
+  # 2022 Population and Housing Census (Seychelles National Bureau of Statistics),
+  # as tabulated in Religion in Seychelles. The 'not stated' share is significant.
+  - name: Roman Catholic
+    percent: 61.3
+    sourceId: syc-religion-2022
+  - name: Other Christian (incl. Anglican and other Protestant denominations)
+    percent: 13.6
+    sourceId: syc-religion-2022
+  - name: Not stated
+    percent: 12.2
+    sourceId: syc-religion-2022
+  - name: Hindu
+    percent: 5.4
+    sourceId: syc-religion-2022
+  - name: Muslim
+    percent: 2.4
+    sourceId: syc-religion-2022
+  - name: Other (incl. Bahá'í, Rastafarian and other faiths)
+    percent: 5.1
+    sourceId: syc-religion-2022
+entertainment:
+  - season: allYear
+    items:
+      - "Live Seychellois Creole music — sega and moutya dance performances at hotels, resorts and cultural evenings"
+      - "Diving, snorkelling, kayaking and fishing in the marine national parks (e.g. Sainte Anne Marine National Park off Mahé)"
+      - "Beach leisure on Mahé, Praslin and La Digue — the islands' core leisure offering"
+      - "Football, volleyball and athletics"
+      - "Cultural festivals and events, e.g. the Carnaval International de Victoria (spring) and Festival Kreol (October/November)"
+      - "Local nightlife in Victoria and the resort areas, and cooking/garden excursions"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Grilled fish (e.g. red snapper) and fish curry cooked in coconut milk — the staples of Seychellois cuisine"
+      - "Ladob — a sweet dessert of fruit (coconut or plantain) simmered in coconut milk until creamy"
+      - "Satini (chutney) — fresh fruit/vegetable relishes served with grilled fish; and rougaille, a rich tomato-based creole stew"
+      - "Shark chutney and kari gato — coconut-based sides reflecting the African-creole heritage"
+      - "Breadfruit, cassava and plantain dishes, plus fresh tropical fruit (mango, papaya, banana, starfruit)"
+      - "Fruit bat curry (a traditional dish on Mahé) and cari zourite (octopus curry)"
+      - "Seychellois teas/coffees and local rums and wines, often enjoyed at relaxed seaside meals"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light, breathable, bright-coloured clothing suited to the tropical climate (loose cottons, sandals)"
+      - "Kanga/madras-influenced print fabrics and colourful dresses worn on festive occasions"
+      - "Modest, relaxed resort wear on beaches; slightly dressier, modest attire at churches, offices and formal functions"
+      - "Sarong-style wraps and casual shirts for men in beach settings"
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "The standard working week runs Monday to Friday, roughly 08:30-16:30 for most offices and shops, with many shops closing early on Saturday and most businesses closed on Sunday. Banking hours are commonly 08:30-12:30, Monday to Friday. Under the Employment Act (Chapter 69) the standard working week is around 45 hours, with premium overtime rates for Saturday/Sunday and public-holiday work."
+  lunchBreakTiming: "A standard midday meal break is customary, most commonly around 12:00-13:00, often taken as a full hour in offices. Many shops and offices pause or close briefly for lunch."
+  notableShutdownPeriods:
+    - period: "Public holidays (New Year, Good Friday & Easter Monday, Labour Day 1 May, Constitution Day 18 June, Independence Day 29 June, Assumption 15 August, All Saints 1 November, Christmas 25 December)"
+      description: "Offices and most businesses close on these national public holidays; retail and the tourism sector tend to stay partly open around Christmas/New Year and Easter."
+    - period: "Christmas-New Year and Easter holiday weeks"
+      description: "Peak holiday periods; government offices and many businesses run on reduced staff while the tourism sector is at its busiest."
+  notes: "The Monday-Friday working week with the Saturday-Sunday weekend shapes the business year. The Seychelles is predominantly Christian, so the Christian public-holiday calendar (Good Friday, Assumption, Christmas) drives closures. Tourism, the dominant sector, operates year-round and is at its busiest in the drier seasons and around Christmas/New Year."
+  sourceIds:
+    - syc-employment
+sources:
+  - id: syc-religion-2022
+    name: "Religion in Seychelles (2022 Population and Housing Census)"
+    publisher: "Wikipedia, citing Seychelles National Bureau of Statistics Census 2022"
+    url: "https://en.wikipedia.org/wiki/Religion_in_Seychelles"
+    year: 2022
+    accessedDate: "2026-09-18"
+    note: "2022 census religious affiliation: Roman Catholic 61.3%, other Christian 13.6%, not stated 12.2%, Hindu 5.4%, Muslim 2.4%, other 5.1%. Basis for the religions rows."
+  - id: syc-employment
+    name: "Employment Act, Chapter 69 (Seychelles)"
+    publisher: "Seychelles Legal Information Institute (SeyLII)"
+    url: "https://seylii.org/akn/sc/act/1995/2/eng%402020-06-01"
+    year: 1995
+    accessedDate: "2026-09-18"
+    note: "Sets the statutory framework for working time and overtime (standard hourly-week figure around 45 hours, with premium rates for weekend and public-holiday work). Basis for businessRhythm.typicalWorkHours."
+  - id: syc-unesco-vdm
+    name: "Vallée de Mai Nature Reserve, Praslin (UNESCO World Heritage Site)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/261/"
+    year: 1983
+    accessedDate: "2026-09-18"
+    note: "Documents the Vallée de Mai's 1983 World Heritage inscription, its primeval 'coco de mer' palm forest and the endemic Seychelles black parrot. Basis for the Vallée de Mai landmark and the coco-de-mer/black-parrot animal entries."
+  - id: syc-unesco-aldabra
+    name: "Aldabra Atoll (UNESCO World Heritage Site)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/185/"
+    year: 1982
+    accessedDate: "2026-09-18"
+    note: "Documents the Aldabra Atoll's World Heritage inscription and its population of some 100,000 giant tortoises — the world's last large population of the Aldabra giant tortoise. Basis for the Aldabra giant tortoise animal entry."
+  - id: syc-climate
+    name: "Geography of Seychelles — Climate"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Geography_of_Seychelles"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "Describes the tropical maritime climate (24-31°C year-round), the wetter northwest-monsoon season (roughly December-March) and the drier southeast-trade-wind season (roughly May-October). Basis for the climates entries."
