@@ -1,0 +1,54 @@
+code: BR-DF
+name:
+  eng: Federal District and Centre-West (Brasília / Centro-Oeste)
+  local:
+    - languageCode: por
+      value: Distrito Federal e Região Centro-Oeste
+climates:
+  - koppenCode: Aw
+    description: "Tropical highland savanna (Cerrado) — warm, with a well-defined wet season (Oct-Apr) and a dry winter (May-Sep)."
+landmarks:
+  - name: Brasília's modernist architecture
+    description: "Niemeyer's cathedral, the National Congress and the planned capital as a whole, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: The Pantanal
+    description: "The world's largest tropical wetland, straddling Mato Grosso — the planet's densest wildlife region."
+  - name: Chapada dos Veadeiros
+    description: "Striking Cerrado tablelands and waterfalls in Goiás."
+culturalTraits:
+  - "The capital's civic, political and diplomatic culture (a city of bureaucrats and ideals)"
+  - "The sertanejo and boiadeiro (cowboy) culture of the vast interior farms"
+  - "Modernist optimism meets deep rural tradition"
+prideOf:
+  - "The modern capital and its utopian design"
+  - "The Pantanal and the Cerrado's biodiversity"
+animals:
+  popular:
+    - "Jaguar, giant river otter, capybara and hyacinth macaw in the Pantanal"
+    - "Maned wolves and rheas on the Cerrado"
+  unique:
+    - "The maned wolf — the flagship of the Cerrado"
+industries:
+  - "Government and public administration — the federal capital (Brasília)"
+  - "Agribusiness — the Centre-West is Brazil's soy-and-cattle powerhouse (Mato Grosso the top soy state)"
+  - "Diplomacy and services"
+sports:
+  - "Football — the capital's teams and the Estádio Nacional"
+  - "Eco-tourism, fishing and adventure sports in the Pantanal and Cerrado"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Peixada da piranha and river-fish stews of the Pantanal"
+      - "Churrasco and the cowboy cooking of the interior"
+      - "Arroz com pequi (a distinctive Cerrado fruit), típico regional dishes"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government roughly 09:00-18:00 Monday-Friday; much of the city runs on the federal public-service clock."
+  lunchBreakTiming: "A one-hour lunch is standard; Brasília has a famous tradition of working-lunch restaurants."
+  notes: "As the federal and diplomatic capital, Brasília runs on official business hours and national schedules; the surrounding Centre-West is agribusiness country with a strong sertanejo culture. The Pantanal's wet/dry cycle drives its seasonal rhythm."

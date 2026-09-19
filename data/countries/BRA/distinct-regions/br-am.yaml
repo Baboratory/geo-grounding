@@ -1,0 +1,57 @@
+code: BR-AM
+name:
+  eng: The North / Amazon (Norte)
+  local:
+    - languageCode: por
+      value: Região Norte (Amazônia)
+climates:
+  - koppenCode: Af
+    description: "Equatorial rainforest across the Amazon basin — hot, humid, rain year-round with slight wetter peaks."
+landmarks:
+  - name: The Amazon River and the Meeting of the Waters
+    description: "Near Manaus the dark Rio Negro meets the sandy Amazon, running side by side for miles."
+  - name: The Teatro Amazonas in Manaus
+    description: "The opulent 19th-century opera house of the rubber-boom capital."
+  - name: Anavilhanas Archipelago
+    description: "One of the world's largest river archipelagos, in the Rio Negro."
+  - name: Indigenous territories and river communities
+    description: "Hundreds of indigenous peoples and ribeirinho (riverine) communities live across the region."
+culturalTraits:
+  - "The great rainforest and its indigenous and riverine (ribeirinho) cultures"
+  - "Amazonian identity — 'a Amazônia é nossa', biodiversity pride"
+  - "Distinct music (carimbó, boi-bumbá), folklore and cuisine of the forest"
+prideOf:
+  - "The Amazon — the lungs of the Earth and their homeland"
+  - "Indigenous heritage and the forest's biodiversity"
+animals:
+  popular:
+    - "Pink river dolphin (boto)"
+    - "Jaguar, giant river otter, tapir, anaconda"
+    - "Toucans, macaws, poison-dart frogs"
+  unique:
+    - "The electric eel and the pirarucu — the world's largest freshwater fish"
+industries:
+  - "The Manaus Free Trade Zone (electronics, motorbikes) — the region's industrial pole"
+  - "Mining and forestry (with environmental constraints)"
+  - "Sustainable-forest economy, fishing, açaí and Brazil nut extraction"
+  - "Eco- and community tourism"
+sports:
+  - "Football (futebol) — with the Arena da Amazônia in Manaus"
+  - "Eco-trekking, jungle expeditions and river sports"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tacacá — a hot tucupi (manioc) soup with jambu and shrimp"
+      - "Pato no tucupi — duck in fermented manioc broth"
+      - "Açaí (savory side dish here), pirarucu, cupuaçu and exotic Amazonian fruits"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8, 9, 10, 11]
+  - season: wet
+    months: [12, 1, 2, 3, 4, 5]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 08:00-17:00 Monday-Friday; river transport dictates much of the daily rhythm."
+  lunchBreakTiming: "A long midday break over the large midday meal is the norm."
+  notes: "Amazon life follows the river and season (cheia/full vs seca/low water). Punctuality is relaxed; life moves at the pace of the forest and the flood. Respect for indigenous territories and communities is paramount."

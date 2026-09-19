@@ -1,0 +1,48 @@
+code: PA-EM
+name:
+  eng: Eastern indigenous region (Emberá-Wounaan Comarca and Darién)
+  local:
+    - languageCode: emp
+      value: Emberá-Wounaan
+    - languageCode: spa
+      value: Región oriental indígena (Comarca Emberá-Wounaan y Darién)
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest over the Darién and the Emberá-Wounaan Comarca — the wettest, most remote part of Panama, hot and humid year-round."
+landmarks:
+  - name: Darién rainforest
+    description: "The roadless, extraordinarily biodiverse tropical forest at the Colombia frontier — the 'Darién Gap'."
+  - name: Emberá-Wounaan Comarca
+    description: "Self-governing indigenous territory (est. 1983) of the Emberá and Woun Meu peoples along the Chucunaque and Sambú rivers."
+  - name: Darién National Park
+    description: "A vast world heritage rainforest spanning the Panama-Colombia border."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Emberá and Woun Meu river-forest cultures"
+  - "Dugout-canoe travel, thatched riverine villages and traditional body/basket art"
+  - "Strong communal riverine livelihoods and respect for the forest"
+prideOf:
+  - "Darién's pristine, world-heritage wilderness"
+  - "Emberá and Woun Meu cultural resilience and their collective territory"
+animals:
+  popular:
+    - "Jaguar, puma and other big cats of Darién"
+    - "Tapirs, peccaries and howler monkeys"
+  unique:
+    - "The harpy eagle — the national bird, found in Darién's tall forest"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Plantain and root-vegetable staples with river fish or game"
+      - "Tapado — the Darién/Caribbean fish and coconut soup"
+      - "Pejibaye (peach palm) and maize-based foods"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Riverine and village-based life; travel is by dugout or small aircraft, and activity follows the river and farming cycle."
+  notes: "The Darién and the Emberá-Wounaan Comarca are remote and forest-dependent; community and customary governance shape life. Access is limited — respect for territorial authority, the environment and Emberá/Woun Meu self-determination is essential."
