@@ -1,0 +1,168 @@
+alpha3: FJI
+alpha2: FJ
+name:
+  eng: Fiji
+  local:
+    - languageCode: eng
+      value: Republic of Fiji
+    - languageCode: fij
+      value: Matanitu Tugalala o Viti
+    - languageCode: hif
+      value: रिपब्लिक ऑफ फिजी
+flagEmoji: "🇫🇯"
+capital: Suva
+isSovereign: true
+# Classified unitary-small: Fiji does NOT meet the unitary-large criteria. It is
+# a small archipelagic state (~885k, 2017 census) with no federal structure, and
+# its three co-official languages — English, iTaukei (Fijian) and Fiji Hindi —
+# are national co-official languages (2013 Constitution), not regional/minority
+# languages that drive subdivision. The Viti Levu / Vanua Levu / outer-islands
+# split is geographic (separate islands), not a widely recognized
+# cultural-historical regional identity meriting curation. One synthetic WHOLE
+# region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2013
+  - languageCode: fij
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2013
+  - languageCode: hif
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2013
+  - languageCode: fij
+    domain: locallySpoken
+    speakersShare: 0.6
+    sourceId: fbos-census-2017
+  - languageCode: hif
+    domain: locallySpoken
+    speakersShare: 0.3
+    sourceId: fbos-census-2017
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.55
+    sourceId: fiji-language-estimate
+# English, iTaukei (Fijian, ISO 639-3 'fij') and Fiji Hindi (ISO 639-3 'hif')
+# function as the three co-official languages (2013 Constitution). The printed
+# Hindi translation uses Standard Hindi ('hin', already in pool) while the living
+# Indo-Fijian language is Fiji Hindi (hif). All official rows carry the 1.0
+# legal-status flag. LocallySpoken shares are ESTIMATES (no language-proficiency
+# census): fij ~0.6, hif ~0.3 (ethnic-derived), eng ~0.55 (lingua franca of
+# government/education/business).
+ethnicGroups:
+  # FBoS 2017 census.
+  - group: iTaukei (Indigenous Fijian)
+    percent: 62.8
+    sourceId: fbos-census-2017
+  - group: Fijian of Indian descent (Indo-Fijian)
+    percent: 32.7
+    sourceId: fbos-census-2017
+  - group: Other ethnicities combined (Rotuman, Chinese, European, mixed, Banaban, other Pacific Islanders)
+    percent: 4.5
+    sourceId: fbos-census-2017
+timezones:
+  - name: Pacific/Fiji
+    standardUtcOffset: "UTC+12"
+    observesDst: false
+# Fiji historically observed daylight saving (UTC+13, Fiji Summer Time) roughly
+# late November to January, but it has NOT been applied since the 2020-21 season
+# (no DST 2021-2026), so observesDst is false for the current regime.
+currency:
+  code: FJD
+  symbol: "FJ$"
+  name: Fijian dollar
+legalConstraints:
+  - topic: "official languages"
+    description: "English, iTaukei (Fijian) and Fiji Hindi function as the official/de facto official languages of the State. The 2013 Constitution is adopted in English with iTaukei and Hindi translations mandated (s.3(3), English prevailing on divergence), and conversational iTaukei and Fiji Hindi are compulsory subjects in every primary school (s.31). Fiji is a secular state (s.4)."
+    sourceId: constitution-2013
+  - topic: "ethnicity/religion data collection"
+    description: "Fiji's decennial census collects ethnic and religious self-identification, so authoritative ethnicGroups and religions breakdowns exist for 2017 (see fields)."
+    sourceId: fbos-census-2017
+paymentCulture:
+  popularMethods:
+    - "Cash — still the everyday default for retail, markets and informal transactions"
+    - "EFTPOS debit cards — widely used in shops, restaurants and at ATMs"
+    - "Credit cards (Visa/Mastercard) — well accepted at hotels, resorts and larger Suva/Nadi merchants; smaller towns and islands are more cash-dependent"
+    - "Mobile money (M-PAiSA by Vodafone Fiji) — the leading mobile-wallet service"
+    - "Bank transfers (BSP, Westpac, ANZ Fiji) for larger/formal payments"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary; restaurants do not normally need a tip"
+    autoIncludedInBill: true
+    note: "Tipping is not expected nor widely practiced — service charges (often ~10%) may be auto-added by resorts/restaurants. Round up for taxis. The customary gift in Fijian settings is sevusevu (a bundle of kava/yaqona root offered when visiting a village)."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Warm and friendly but respectful; address people by first name once acquainted, yet give courtesy and deference to elders, chiefs (turaga) and authority. English is standard in business and government; iTaukei and Fiji Hindi anchor the two main communities."
+  greetingNorms: "'Bula!' (Fijian) with a warm smile is the universal greeting. In villages visitors present sevusevu (kava root) and are welcomed with a formal yaqona/kava ceremony before matters proceed."
+  meetingEtiquette: "Relationship- and trust-driven; build rapport before talking business. 'Fiji time' (relaxed punctuality) is common — arrive on time yourself but expect flexibility. Consensus is valued; decisions often rest with senior figures. Dress modestly in rural/village settings."
+  topicsToAvoid:
+    - "Political divisions and the coups of 1987/2000/2006"
+    - "Ethnic iTaukei-Indo-Fijian tensions and ethnicity-based generalization"
+    - "Religion, chiefly or land sensitivities"
+  giftGivingNotes: "A small thoughtful gift is welcome once a relationship forms; sevusevu (kava root) is the proper customary offering when visiting a village. Gift-giving centers on festivity (Diwali, Easter, Christmas) more than business protocol."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: fbos-census-2017
+    name: "2017 Population and Housing Census"
+    publisher: "Fiji Bureau of Statistics (FBoS)"
+    url: "https://www.statsfiji.gov.fj/"
+    year: 2017
+    accessedDate: "2026-09-18"
+    note: "Total permanent population 884,887; ethnic composition (iTaukei 62.8%, Indo-Fijian 32.7%, other combined 4.5%). Basis for the fij/hif locallySpoken share estimates (derived from ethnic proportions)."
+  - id: fbos-religion-2017
+    name: "2017 Census religious affiliation (secondary aggregation)"
+    publisher: "Fiji Bureau of Statistics (FBoS) via Minority Rights Group"
+    url: "https://minorityrights.org/country/fiji-islands"
+    year: 2017
+    accessedDate: "2026-09-18"
+    note: "2017-census religious composition (Christians 69.2%, Hindus 24.0%, Muslims 5.8%, other incl. Sikh/Baha'i ~1.0%). Secondary aggregation, flagged as such."
+  - id: constitution-2013
+    name: "Constitution of the Republic of Fiji (2013)"
+    publisher: "Office of the Attorney-General / Laws of Fiji"
+    url: "https://www.laws.gov.fj/Home/information/constitutionoftherepublicoffiji"
+    year: 2013
+    accessedDate: "2026-09-18"
+    note: "s.3(3): Constitution adopted in English with iTaukei and Hindi translations (English prevails). s.4 Secular State. s.31(3): conversational iTaukei and Fiji Hindi compulsory in primary schools. Basis for the eng/fij/hif official-domain 1.0 rows."
+  - id: iso-fij
+    name: "ISO 639-3 entry: fij — Fijian"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/fij"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Verifies ISO 639-3 code fij = Fijian (Individual, Living)."
+  - id: iso-hif
+    name: "ISO 639-3 entry: hif — Fiji Hindi"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/hif"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Verifies ISO 639-3 code hif = Fiji Hindi (renamed from 'Fijian Hindustani' in 2009)."
+  - id: rbf-currency
+    name: "Reserve Bank of Fiji — Fijian dollar"
+    publisher: "Reserve Bank of Fiji (RBF)"
+    url: "https://www.rbf.gov.fj/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Fijian dollar (FJD) is the official currency, issued by the RBF."
+  - id: timeanddate-tz
+    name: "Time in Fiji / Pacific-Fiji time zone"
+    publisher: "timeanddate.com (IANA Pacific/Fiji)"
+    url: "https://www.timeanddate.com/time/zone/fiji"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Pacific/Fiji standard time UTC+12; UTC+13 during Fiji Summer Time; DST historically Nov/Dec-Jan but unused since the 2020-21 season."
+  - id: fiji-language-estimate
+    name: "Composite estimate — English conversational coverage in Fiji"
+    publisher: "Composite estimate"
+    url: "https://www.statsfiji.gov.fj/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "No language-proficiency census exists in Fiji. English is the lingua franca of government, education and business; the 0.55 locallySpoken share is an ESTIMATE."

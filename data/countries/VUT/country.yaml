@@ -1,0 +1,136 @@
+alpha3: VUT
+alpha2: VU
+name:
+  eng: Vanuatu
+  local:
+    - languageCode: bis
+      value: Ripablik blong Vanuatu
+    - languageCode: eng
+      value: Republic of Vanuatu
+    - languageCode: fra
+      value: République de Vanuatu
+flagEmoji: "🇻🇺"
+capital: Port Vila
+isSovereign: true
+# Classified unitary-small: Vanuatu does NOT meet the unitary-large criteria. It
+# is a small archipelagic state (~300k, 2016 census) with no federal structure,
+# and its three official languages — Bislama, English, French (1980 Constitution
+# Art. 3(1)) — are national co-official languages, not regional/minority ones
+# that drive subdivision. The Efate / Espiritu Santo / Tanna island split is
+# geographic (separate islands), not a widely recognized cultural-historical
+# regional identity meriting curation. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: bis
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1980
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1980
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1980
+  - languageCode: bis
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: estimate-flag
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: estimate-flag
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: estimate-flag
+# Bislama, English and French are the three official languages (1980 Constitution
+# Art. 3(1)). Bislama (ISO 639-3 'bis') is the national language and everyday
+# lingua franca used by virtually all Ni-Vanuatu. English and French are the two
+# condominium-legacy education systems but remain minority home languages,
+# concentrated in the urban elite — their locallySpoken shares (~0.1 each) are
+# ESTIMATES (no language-proficiency census). The many indigenous Melanesian
+# languages (100+) are not individually coded here.
+ethnicGroups:
+  # Estimates — no precise census ethnic breakdown beyond Melanesian majority.
+  - group: Ni-Vanuatu (indigenous Melanesian)
+    percent: 98.0
+    sourceId: estimate-flag
+  - group: Other (Europeans, East Asians, other Pacific Islanders)
+    percent: 2.0
+    sourceId: estimate-flag
+timezones:
+  - name: Pacific/Efate
+    standardUtcOffset: "UTC+11"
+    observesDst: false
+currency:
+  code: VUV
+  symbol: "VT"
+  name: Vanuatu vatu
+legalConstraints:
+  - topic: "official languages"
+    description: "Bislama, English and French are the three official languages of the Republic (1980 Constitution Art. 3(1)). Bislama is the national language and everyday lingua franca; English and French reflect the Anglo-French condominium legacy and the two education systems. Public-facing text may appear in any or all three."
+    sourceId: constitution-1980
+paymentCulture:
+  popularMethods:
+    - "Cash — dominant, especially in rural and outer-island areas"
+    - "Credit cards (Visa/Mastercard) — accepted mainly in Port Vila and Luganville hotels, resorts and larger businesses; surcharges common"
+    - "Mobile money and e-wallets (e.g. Flash, TokTok) — increasingly used, promoted by the RBV's financial-inclusion policy"
+    - "Bank transfers (ANZ, BSP) for formal payments"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary; a small gratuity for exceptional service in Port Vila resorts is appreciated"
+    autoIncludedInBill: false
+    note: "Tipping is not expected. The vatu (VUV) is the sole legal tender. Cash remains the norm outside the main towns; mobile money is growing."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Relationship- and trust-based; decisions often reached through consensus and community (kastom) processes. Indirect, polite and non-confrontational; saving face is valued. Hierarchy and age/rank are respected, particularly in chiefly (kastom) contexts."
+  greetingNorms: "Warm and friendly; a handshake. 'Halo olgeta' (Bislama) is common. Respectful greetings toward chiefs and elders."
+  meetingEtiquette: "Consensus-driven and unhurried; build personal rapport before business. Punctuality is relaxed ('island time'). Formal business correspondence is in English or French depending on the education system; Bislama is the everyday lingua franca even in professional settings."
+  topicsToAvoid:
+    - "Land ownership disputes and chiefly titles handled casually"
+    - "Overly blunt or confrontational delivery"
+    - "Reducing the many distinct island cultures to a single stereotype"
+  giftGivingNotes: "Modest gifts are appreciated once a relationship forms. In custom (kastom) contexts, reciprocity matters; kava is a traditional offering."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: constitution-1980
+    name: "Constitution of the Republic of Vanuatu (1980), Article 3(1) — official languages"
+    publisher: "Parliament of Vanuatu (Government of Vanuatu)"
+    url: "https://governmentofvanuatu.gov.vu/index.php/constitution/index.html"
+    year: 1980
+    accessedDate: "2026-09-18"
+    note: "Article 3(1): 'The national language of the Republic is Bislama. The official languages are Bislama, English and French.' Basis for the three co-official 1.0 rows and the language legal constraint."
+  - id: vnso-census-2016
+    name: "2016 Post-Tam-Tam Mini Census / official estimates"
+    publisher: "Vanuatu National Statistics Office (VNSO)"
+    url: "https://vnso.gov.vu/"
+    year: 2016
+    accessedDate: "2026-09-18"
+    note: "Population ~300,000 (2016 census/estimate). Basis for the unitary-large population context and the ethnic shares."
+  - id: iso-bis
+    name: "ISO 639-3 entry: bis — Bislama"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/bis"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Verifies ISO 639-3 code bis = Bislama, the national creole language of Vanuatu."
+  - id: rbv-currency
+    name: "Reserve Bank of Vanuatu — vatu and financial inclusion"
+    publisher: "Reserve Bank of Vanuatu (RBV)"
+    url: "https://www.rbv.gov.vu/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "The vatu (VUV) is the sole legal tender; the RBV promotes mobile-money financial inclusion. Basis for currency and payment-culture."
+  - id: estimate-flag
+    name: "Composite estimate (no official language-proficiency or ethnic census)"
+    publisher: "Composite estimate"
+    url: "https://vnso.gov.vu/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "ESTIMATE flag for the locallySpoken shares (bis ~0.95 lingua franca; eng/fra ~0.1 urban) and the ethnic composition (Melanesian ~98%, other ~2%)."

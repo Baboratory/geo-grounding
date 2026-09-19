@@ -1,0 +1,142 @@
+code: WHOLE
+name:
+  eng: Fiji
+  local:
+    - languageCode: eng
+      value: Republic of Fiji
+    - languageCode: fij
+      value: Matanitu Tugalala o Viti
+    - languageCode: hif
+      value: रिपब्लिक ऑफ फिजी
+# Generic country-wide fallback content for Fiji (unitary-small, single synthetic
+# whole region). Used via the 'whole-country-fallback' path. The three main
+# island groups (Viti Levu, Vanua Levu, outer islands) are folded here as the
+# national character rather than curated sub-regions.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — warm year-round (~22-31°C), heavy rainfall especially Nov-Apr."
+  - koppenCode: Aw
+    description: "Tropical savanna on leeward/drier coastal areas with a pronounced dry season May-Oct."
+landmarks:
+  - name: Levuka Historical Port Town
+    description: "Ovalau island; Fiji's former capital, a 19th-century colonial port preserved as the country's only UNESCO World Heritage Site (2013)."
+    unescoWorldHeritage: true
+  - name: Bouma National Heritage Park (Taveuni)
+    description: "Rainforest park with the Waitavala and Bouma waterfalls; the 'Garden Island of Fiji'."
+  - name: Sigatoka Sand Dunes
+    description: "National park of wind-blown dunes on the Viti Levu Coral Coast with Lapita-era archaeological finds."
+  - name: Colo-i-Suva Forest Park
+    description: "Tropical rainforest park outside Suva with swimming holes and trails."
+  - name: Mamanuca & Yasawa islands
+    description: "Iconic resort and yacht archipelago off the northwest; turquoise lagoons, sand cays, diving."
+  - name: Fiji Museum (Suva)
+    description: "National museum in Thurston Gardens with Lapita pottery, Fijian weaponry and iTaukei art."
+culturalTraits:
+  - "iTaukei communal village culture centred on the vanua (land), kinship and chiefly protocol"
+  - "Kava (yaqona) sevusevu welcoming and drinking ceremonies across all communities"
+  - "Meke — traditional song-and-dance; fire walking (vilavilairevo) originating on Beqa"
+  - "Multi-ethnic mosaic of iTaukei and Indo-Fijian traditions — Diwali, Eid and Easter all national occasions"
+  - "Strong oral storytelling, tapa (masi) cloth, weaving and pottery craft (Lau, Kadavu)"
+prideOf:
+  - "Rugby sevens dominance (Olympic gold 2016 and 2024)"
+  - "Warm 'Bula' hospitality and communal values"
+  - "Levuka World Heritage status and rich marine biodiversity"
+  - "Multicultural harmony (iTaukei + Indo-Fijian)"
+animals:
+  popular:
+    - "Fiji Crested Iguana"
+    - "Fijian ground frog"
+    - "Humpback whales (Yasawa season)"
+    - "Manta rays"
+    - "Reef sharks"
+  unique:
+    - "Fiji Banded Iguana (Brachylophus bulabula)"
+    - "Fiji Crested Iguana (endemic B. vitiensis)"
+    - "Orange Fruit Dove"
+industries:
+  - "Tourism (mainstay; resorts, diving, cruises)"
+  - "Sugar and sugar milling (Lautoka and Rakiraki)"
+  - "Fisheries (tuna)"
+  - "Gold mining (Vatukoula)"
+  - "Garments and manufacturing"
+  - "Remittances"
+sports:
+  - "Rugby union and sevens (the national passion)"
+  - "Soccer"
+  - "Cricket"
+  - "Netball"
+  - "Touch rugby"
+religions:
+  - name: Christianity (Methodist majority, plus Roman Catholic, Assemblies of God and others)
+    percent: 69.2
+    sourceId: fbos-religion-2017
+  - name: Hinduism
+    percent: 24.0
+    sourceId: fbos-religion-2017
+  - name: Islam
+    percent: 5.8
+    sourceId: fbos-religion-2017
+  - name: Other (incl. Sikh, Baha'i, Confucian, no religion)
+    percent: 1.0
+    sourceId: fbos-religion-2017
+entertainment:
+  - season: allYear
+    items:
+      - "Kava sessions and village meke"
+      - "Island beach days and reef snorkelling/diving"
+      - "Festivals: Diwali, Eid, Easter, Christmas, Hibiscus Festival (Suva, Aug)"
+      - "Sunset bars and live Fijian bands"
+  - season: wet
+    items:
+      - "River abseiling and waterfall season on Viti Levu"
+      - "Taveuni rainforest treks (wet but lush)"
+  - season: dry
+    items:
+      - "Peak diving and dry-season festivals"
+      - "Surfing and 'Cast Away' island visits (Monuriki)"
+      - "Fiji Day (10 October) celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kokoda — raw tuna marinated in lime and coconut cream"
+      - "Lovo — earth-oven feast of pork, chicken, dalo and cassava"
+      - "Palusami — young taro leaves baked in coconut cream"
+      - "Rourou — taro leaves in coconut milk"
+      - "Fiji-Indian curries with roti and dhal; coconut desserts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Sulu (sarong) — everyday wear; sulu vakataga for formal occasions"
+      - "Tapa (masi) prints and woven mats for ceremonies"
+      - "Beach/reef-appropriate casual wear"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Mon-Thu 08:00-16:30, Fri 08:00-16:00; shops often later and open Sat, many closed Sunday."
+  lunchBreakTiming: "Typically 12:30-13:30."
+  notableShutdownPeriods:
+    - period: "Late December - early January"
+      description: "Christmas-New Year holiday slowdown."
+    - period: "South Pacific cyclone season (Nov-Apr)"
+      description: "Operations can be disrupted by severe weather and occasional closures."
+  notes: "Tourism peak is the dry season (May-Oct) and the December-January holiday period; Diwali and Eid are public holidays."
+sources:
+  - id: fbos-religion-2017
+    name: "2017 Census religious affiliation (secondary)"
+    publisher: "FBoS via Minority Rights Group"
+    url: "https://minorityrights.org/country/fiji-islands"
+    year: 2017
+    accessedDate: "2026-09-18"
+    note: "Religious composition: Christian 69.2%, Hindu 24.0%, Muslim 5.8%, other ~1.0%."
+  - id: unesco-levuka
+    name: "Levuka Historical Port Town — UNESCO World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1399/"
+    year: 2013
+    accessedDate: "2026-09-18"
+    note: "Levuka inscribed 2013."
