@@ -1,0 +1,104 @@
+code: WHOLE
+name:
+  eng: Monaco
+  local:
+    - languageCode: fra
+      value: Monaco
+# Country-wide fallback region (unitary-small, single synthetic WHOLE entry).
+climates:
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean climate — mild, wet winters and dry, warm to hot sunny summers.
+landmarks:
+  - name: Prince's Palace (Palais Princier)
+    description: Official residence of the Sovereign Prince of Monaco, overlooking the Mediterranean from the Rock (Le Rocher); the Changing of the Guard takes place daily.
+  - name: Oceanographic Museum
+    description: Historic museum founded by Prince Albert I in 1910, built into a cliff over the sea, home to an aquarium and oceanography collections.
+  - name: Monte Carlo Casino and the Belle Époque gardens
+    description: The landmark gambling complex and surrounding ornamental gardens over the marina, heart of the Monte Carlo tourist district.
+  - name: Rainier III / Stade Louis II / Port Hercule
+    description: The redeveloped port and stadium area that anchors Monaco's waterfront (modern, not historic — the old port's industrial basin was replaced by the Port Hercules marina).
+culturalTraits:
+  - Hereditary princely monarchy of the House of Grimaldi, rulers of Monaco since 1297
+  - Riviera glamour and a global hub for private wealth, finance and luxury hospitality
+  - French-Mediterranean culture with a distinct Monegasque identity and language (patois)
+  - Dense, famously safe city-state clinging to the cliffs of the Côte d'Azur
+prideOf:
+  - The princely family (House of Grimaldi) and an unbroken ~700-year dynasty
+  - Monte Carlo and the Formula 1 Grand Prix circuit
+  - Oceanographic Museum and maritime heritage
+  - Status as one of the world's wealthiest, most glamorous micro-states
+animals:
+  popular:
+    - Mediterranean gulls (gabians) along the harbour and seafront
+  unique:
+    - "Little native land fauna — Monaco is a dense urban city-state; marine life (indicator fish, protected Posidonia seagrass beds) is the notable wildlife"
+industries:
+  - Banking, private wealth and asset management
+  - Tourism and luxury hospitality
+  - Real estate
+  - Gambling/casino (Société des Bains de Mer, Monte Carlo Casino)
+  - Luxury retail and yachting services
+sports:
+  - Formula 1 (Monaco Grand Prix, Circuit de Monaco)
+  - Football (AS Monaco)
+  - Yachting and sailing
+  - Tennis, golf, and the Monte-Carlo Masters
+religions:
+  - name: Roman Catholic (official state religion)
+    percent: 90.0
+    sourceId: cia-factbook-monaco
+  - name: Other religion
+    percent: 10.0
+    sourceId: cia-factbook-monaco
+entertainment:
+  - season: spring
+    items:
+      - Monaco Grand Prix weekend (late May), the season's signature event
+  - season: summer
+    items:
+      - Monte-Carlo Masters tennis tournament (April) and summer beach/yachting season
+      - Concert season at the Opéra de Monte-Carlo / Salle Garnier
+  - season: winter
+    items:
+      - Monaco national day (19 November) celebrations and the festive season
+      - Monte Carlo Philharmonic and cultural winter programme
+traditionalDishes:
+  - season: allYear
+    items:
+      - Barbagiuan (fried chard-and-ricotta pastries, the Monegasque national dish)
+      - Socca (chickpea pancake, street-food staple)
+      - Fougasse (sweet or savoury Provençal flatbread)
+  - season: winter
+    items:
+      - Stocafi (salt-cod stew, traditionally eaten in winter and during Lent)
+  - season: summer
+    items:
+      - Pan-bagnat (Niçoise-style tuna-and-olive sandwich salad bread roll)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Provençal-Mediterranean Monegasque folk costume worn at feast days (Sainte-Dévote, Fête de Saint-Jean), with colourful regional dress resembling Niçois/Corsican style
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday is the default rest day, though shops in the tourist/hospitality and port areas (Condamine, Monte Carlo) frequently open. Business peaks around the Grand Prix (late May), the Monte-Carlo Masters (April), and the summer season; there is a midday lunch break typical of France. Tight space means much commerce is in covered galleries and the marinas."
+  notableShutdownPeriods:
+    - period: "August"
+      description: "Much of the local (non-tourist) business community takes the traditional August break, as elsewhere on the Côte d'Azur."
+sources:
+  - id: cia-factbook-monaco
+    name: "The World Factbook — Monaco (Religions)"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/countries/monaco/"
+    year: 2016
+    accessedDate: "2026-09-18"
+    note: "Religious-affiliation estimate (~90% Roman Catholic — official state religion, 10% other). Geographic, cultural, culinary and animal content is general knowledge, not a cited statistic."
