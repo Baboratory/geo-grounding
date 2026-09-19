@@ -1,0 +1,191 @@
+alpha3: COL
+alpha2: CO
+name:
+  eng: Colombia
+  local:
+    - languageCode: spa
+      value: República de Colombia
+flagEmoji: "🇨🇴"
+capital: Bogotá
+isSovereign: true
+# Classified unitary-large: Constitution Art. 1 defines Colombia as a
+# 'República unitaria, descentralizada, con autonomía de sus entidades
+# territoriales' — a UNITARY republic, not federal, but large (48.26M, 2018
+# census) and clearly region-bearing. Meets 2-of-3 DESIGN.md criteria: (1)
+# population far above the ~20-25M small-state threshold; (2) officially
+# recognized regional/minority languages — Art. 10 makes the languages and
+# dialects of ethnic groups co-official within their territories (Wayuu in La
+# Guajira, Nasa Yuwe/Páez in Cauca, Emberá on the Pacific, Inga in the
+# piedmont); (3) widely recognized cultural-historical regional identities
+# (Región Caribe, Pacífica, Andina, Orinoquía/Llanos, Amazonía), each with its
+# own music, climate, cuisine and ethnic make-up. Departments elect their own
+# governors and assemblies under Art. 1 and the Ley Orgánica de
+# Ordenamiento Territorial. Five curated regions sit alongside the generic
+# WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: "CO"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: col-constitution
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.99
+    sourceId: col-dane-census
+  - languageCode: guc
+    domain: locallySpoken
+    speakersShare: 0.007
+    sourceId: col-dane-wayuu
+  - languageCode: pbb
+    domain: locallySpoken
+    speakersShare: 0.002
+    sourceId: col-caroycuervo
+  - languageCode: emp
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: col-dane-census
+  - languageCode: inb
+    domain: locallySpoken
+    speakersShare: 0.0004
+    sourceId: col-uniandes
+# Spanish (castellano) is spoken by essentially the whole population. The
+# DANE 2018 census reported that 334,939 people in the Wayuu pueblo speak
+# Wayuunaiki natively (~0.7%); Páez (Nasa Yuwe) has roughly 60-100,000
+# speakers concentrated in the Cauca highlands; Emberá and Inga are smaller
+# indigenous languages co-official in their territories under Art. 10. Shares
+# are approximate and reflect concentrated-but-minor national presence.
+ethnicGroups:
+  - group: Indigenous peoples (pueblos indígenas)
+    percent: 4.4
+    sourceId: col-dane-census
+  - group: Afro-Colombian, Black, Raizal and Palenquero (NARP)
+    percent: 9.7
+    sourceId: col-dane-narp
+  - group: Rom/Gitano
+    percent: 0.005
+    sourceId: col-dane-census
+  - group: Mestizo / White / Other (no ethnic self-recognition)
+    percent: 85.9
+    sourceId: col-dane-residual
+# The 2018 census measured ethnic self-identification for Indigenous (4.4%)
+# and Rom/Gitano populations; the Afro-Colombian figure (9.7%) is DANE's
+# officialized estimate from the 2018 Encuesta de Calidad de Vida (the census
+# undercounted NARP self-recognition). The mestizo/white majority (85.9%) is
+# computed as the residual remainder and is an estimate, not a measured figure.
+timezones:
+  - name: America/Bogota
+    standardUtcOffset: "UTC-5"
+    observesDst: false
+currency:
+  code: COP
+  symbol: "$"
+  name: Colombian peso
+legalConstraints:
+  - topic: "official language & co-official indigenous languages"
+    description: "Constitución Política de Colombia Art. 10 makes Spanish (castellano) the official language and declares the languages and dialects of ethnic groups also official within their territories; education in communities with their own linguistic traditions must be bilingual. Multilingual and region-sensitive products are valued in departments with indigenous majorities (La Guajira, Cauca, Chocó, Amazonía)."
+    sourceId: col-constitution
+  - topic: "unitary-decentralized state"
+    description: "Constitución Política Art. 1 defines Colombia as a 'República unitaria, descentralizada, con autonomía de sus entidades territoriales' — a unitary republic, decentralized with autonomies for its territorial entities (departments and municipalities elect their own authorities)."
+    sourceId: col-constitution
+  - topic: "voluntary gratuity capped at 10%"
+    description: "Colombian law makes the restaurant/invoice gratuity voluntary; where suggested by an establishment it may not exceed 10% of the value of the service (Ley 2059 de 2020 confirming the optional 'propina voluntaria')."
+    sourceId: col-propina
+paymentCulture:
+  popularMethods:
+    - "Cash (COP) — still widely used, especially outside major cities"
+    - "Debit and credit cards — common in urban retail and larger establishments"
+    - "PSE (online bank-transfer rail) — the standard e-commerce payment gateway"
+    - "Mobile wallets Nequi and Daviplata (QR / phone-number instant transfers) — extremely dominant for small payments"
+    - "Direct bank transfers"
+  tipping:
+    expected: true
+    typicalAmount: "About 10%, as a voluntary 'propina voluntaria' — commonly added to restaurant bills but optional since Ley 2059/2020, capped at 10% when suggested"
+    autoIncludedInBill: false
+    note: "A 10% gratuity is customary at restaurants and may be pre-printed on the bill as a voluntary line; since Ley 2059 (2020) it is optional and the customer may decline or adjust it. Cash and Nequi/Daviplata QR transfers dominate small retail; PSE is the e-commerce standard."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite 'usted' is the safe default for strangers and in business; old-fashioned respectful 'sumercé' is used in Bogotá/Cundinamarca; informal 'vos'/'tuteo' among friends, on the Caribbean coast and in the paisa region. Titles (señor/señora, doctor/dra, profesor/profesora) are used for people in authority; people switch to first names as the relationship warms."
+  greetingNorms: "Verbally greet with 'hola', 'buenos días' or 'buenas tardes' plus a handshake; women and close friends often exchange a single light cheek kiss. Colombians avoid abrupt hellos and expect a greeting exchange before any business."
+  meetingEtiquette: "Business meetings are fairly punctual, though social gatherings run on 'hora colombiana' (relaxed lateness is tolerated). Greet and make eye contact with everyone present individually; expect warm small talk before getting down to business."
+  topicsToAvoid:
+    - "The armed conflict, violence and kidnappings"
+    - "Drug trade and narco-politics"
+    - "Derogatory comparisons of Colombia with other Latin American countries"
+    - "Political corruption and polarized recent elections"
+    - "Sensitive regional or ethnic stereotypes"
+  giftGivingNotes: "Gifts are rarely expected in business contexts; when visiting a home, quality flowers, chocolates or wine are appreciated. Offer and receive gifts with the right hand; small gifts from abroad are well received."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: CO-CAR
+    file: distinct-regions/co-car.yaml
+    adminUnitCodes: [CO-LAG, CO-MAG, CO-ATL, CO-BOL, CO-SUC, CO-COR, CO-CES, CO-SAP]
+  - code: CO-PAC
+    file: distinct-regions/co-pac.yaml
+    adminUnitCodes: [CO-CHO, CO-VAC, CO-CAU, CO-NAR]
+  - code: CO-AND
+    file: distinct-regions/co-and.yaml
+    adminUnitCodes: [CO-DC, CO-ANT, CO-CUN, CO-BOY, CO-SAN, CO-NSA, CO-CAL, CO-RIS, CO-QUI, CO-TOL, CO-HUI]
+  - code: CO-ORI
+    file: distinct-regions/co-ori.yaml
+    adminUnitCodes: [CO-MET, CO-ARA, CO-CAS, CO-VID]
+  - code: CO-AMA
+    file: distinct-regions/co-ama.yaml
+    adminUnitCodes: [CO-AMA, CO-CAQ, CO-PUT, CO-GUA, CO-GUV, CO-VAU]
+sources:
+  - id: col-constitution
+    name: "Constitución Política de Colombia 1991 (Arts. 1, 10)"
+    publisher: "Gobierno de Colombia / Secretaría del Senado"
+    url: "http://www.secretariasenado.gov.co/senado/basedoc/constitucion_politica_1991.html"
+    year: 1991
+    accessedDate: "2026-09-19"
+    note: "Basis for the unitary-decentralized classification (Art. 1), Spanish as the official language (Art. 10), and the co-official status of ethnic/indigenous languages within their territories (Art. 10)."
+  - id: col-dane-census
+    name: "Censo Nacional de Población y Vivienda (CNPV) 2018 — Resultados"
+    publisher: "Departamento Administrativo Nacional de Estadística (DANE)"
+    url: "https://www.dane.gov.co/index.php/estadisticas-por-tema/demografia-y-poblacion/censo-nacional-de-poblacion-y-vivenda-2018"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "Total resident population 48,258,494; 1,905,617 people (4.4%) self-identified as indigenous; 2,649 (0.005%) as Rom/Gitano. Basis for the ethnic share rows and general population context."
+  - id: col-dane-narp
+    name: "DANE — Autorreconocimiento étnico (población NARP)"
+    publisher: "Departamento Administrativo Nacional de Estadística (DANE)"
+    url: "https://www.dane.gov.co/index.php/estadisticas-por-tema/enfoque-diferencial-e-interseccional/autorreconocimiento-etnico"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "DANE officialized 4,671,160 Afro-Colombian/Black/Raizal/Palenquero (NARP) people for 2018 (~9.7% of the census population), set from the 2018 Encuesta de Calidad de Vida because the census undercounted NARP self-recognition. Estimated figure."
+  - id: col-dane-residual
+    name: "DANE — Autorreconocimiento étnico (residual majority)"
+    publisher: "Departamento Administrativo Nacional de Estadística (DANE)"
+    url: "https://www.dane.gov.co/index.php/estadisticas-por-tema/enfoque-diferencial-e-interseccional/autorreconocimiento-etnico"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "The ~85.9% mestizo/white/other figure is an ESTIMATE computed as the residual remainder (100% minus the three self-recognized ethnic groups above) within the 2018 census self-recognition question; no official ancestry breakdown exists."
+  - id: col-dane-wayuu
+    name: "DANE — Registro Estadístico del Pueblo Wayuu (CNPV 2018)"
+    publisher: "Departamento Administrativo Nacional de Estadística (DANE)"
+    url: "https://www.dane.gov.co/files/investigaciones/poblacion/informes-estadisticas-sociodemograficas/2021-09-24-Registro-Estadistico-Pueblo-Wayuu.pdf"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "334,939 people in the Wayuu pueblo reported speaking the native Wayuunaiki language in CNPV 2018 (~89.1% of that pueblo), roughly 0.7% of the national population; basis for the guc locallySpoken row."
+  - id: col-caroycuervo
+    name: "Nasa Yuwe (Páez) — Instituto Caro y Cuervo"
+    publisher: "Instituto Caro y Cuervo"
+    url: "https://lenguasyliteraturasnativas.caroycuervo.gov.co/nasa-yuwe"
+    accessedDate: "2026-09-19"
+    note: "The Páez (Nasa Yuwe) language of the Cauca highlands, roughly 60-100,000 speakers (~0.2% of the national population); ESTIMATE, co-official in its territory under Art. 10."
+  - id: col-uniandes
+    name: "Inga (Ingano) language documentation — Universidad de los Andes"
+    publisher: "Universidad de los Andes (Patrimonio Documental)"
+    url: "https://patrimoniodocumental.uniandes.edu.co/digital/collection/constitucion"
+    accessedDate: "2026-09-19"
+    note: "Inga (ISO 639-3 inb), a Quechuan language of the Andean-Amazon piedmont (Putumayo, Nariño, Caquetá) with roughly 17,000-18,000 speakers (~0.04% of the population); ESTIMATE, co-official in its territory under Art. 10."
+  - id: col-propina
+    name: "Ley 2059 de 2020 (propina voluntaria) / Ley 1935 de 2018"
+    publisher: "Función Pública — Gestor Normativo (República de Colombia)"
+    url: "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=87873"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "Legal basis for the voluntary gratuity capped at 10% in restaurants and service establishments."

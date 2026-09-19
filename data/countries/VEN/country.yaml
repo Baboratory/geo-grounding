@@ -1,0 +1,172 @@
+alpha3: VEN
+alpha2: VE
+name:
+  eng: Venezuela
+  local:
+    - languageCode: spa
+      value: República Bolivariana de Venezuela
+flagEmoji: "🇻🇪"
+capital: Caracas
+isSovereign: true
+# Classified federal: Venezuela is a FEDERAL republic per Constitución de la
+# República Bolivariana de Venezuela (1999), Art. 4 ('Los estados son
+# entidades autónomas e iguales en lo político... unidas en una federación').
+# It comprises 23 states, the Capital District (Distrito Capital/Caracas) and
+# the Federal Dependencies (islands). Each state has its own elected governor
+# and Legislative Council under a federal system. Meets DESIGN.md's federal
+# criteria and has a population (~27-28M) well above any small-state
+# threshold. Five curated cultural-geographic regions (capital/central-north,
+# Zulia/west, Andes, Llanos, Guayana/Orinoco) sit alongside the generic WHOLE
+# fallback.
+governanceType: federal
+iso3166_2_prefix: "VE"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: ven-constitution
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.92
+    sourceId: ven-embassy
+  - languageCode: guc
+    domain: locallySpoken
+    speakersShare: 0.004
+    sourceId: ven-ine
+  - languageCode: wba
+    domain: locallySpoken
+    speakersShare: 0.002
+    sourceId: ven-ine
+  - languageCode: aoc
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: ven-ine
+  - languageCode: guu
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: ven-ine
+  - languageCode: car
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: ven-ine
+  - languageCode: pid
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: ven-ine
+  - languageCode: arw
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: ven-ine
+# Spanish (castellano) is the sole official language (Const. Art. 9), though
+# the Constitution and the 2008 Ley de Idiomas Indígenas recognize the
+# country's indigenous languages as official for the indigenous peoples and
+# mandate their use within indigenous territories. The largest are Wayuu
+# (~305,000 self-declared speakers, mainly Zulia), Warao (Orinoco Delta) and
+# Pemon (Bolívar/Gran Sabana). As in the rest of the dataset these are listed
+# as locallySpoken ESTIMATES rather than competing 1.0 official rows, keeping
+# Spanish as the sole national official language.
+ethnicGroups:
+  - group: Moreno (mixed/mestizo)
+    percent: 51.6
+    sourceId: ven-ine
+  - group: White (Blanco)
+    percent: 43.6
+    sourceId: ven-ine
+  - group: Black (Negro)
+    percent: 2.9
+    sourceId: ven-ine
+  - group: Indigenous (Indígena)
+    percent: 2.7
+    sourceId: ven-ine
+  - group: Afrodescendant
+    percent: 0.7
+    sourceId: ven-ine
+  - group: Other
+    percent: 1.2
+    sourceId: ven-ine
+# Self-identification per the XIV National Population and Housing Census 2011
+# (INE). No complete census has been published since; these remain the last
+# official figures and are used with that caveat.
+timezones:
+  - name: America/Caracas
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+currency:
+  code: VES
+  symbol: "Bs."
+  name: Bolívar soberano
+legalConstraints:
+  - topic: "official language"
+    description: "Constitution (1999) Art. 9: Spanish (castellano) is the single official language of the Republic; indigenous languages are also official for the indigenous peoples and must be respected across the national territory as cultural heritage. The 2008 Ley de Idiomas Indígenas mandates their use in indigenous territories, education, labour and administrative/judicial domains. Public/government text is Spanish."
+    sourceId: ven-constitution
+  - topic: "currency / legal tender"
+    description: "The bolívar (currently Bolívar soberano, ISO code VES) is the legal tender issued by the Banco Central de Venezuela. After hyperinflation there were multiple redenominations (2018, and the 1 Oct 2021 'bolívar digital' scale suppressing six zeros, still code VES). Since ~2019 the US dollar is accepted de facto across much of the economy (de facto dollarization) though it is not official legal tender."
+    sourceId: ven-bcv
+paymentCulture:
+  popularMethods:
+    - "US dollar cash — de facto dominant since ~2019 (widely used alongside bolívares despite not being official tender)"
+    - "Cash in bolívares (VES), increasingly in the 2021 'bolívar digital' decimal scale"
+    - "Pago Móvil / Biopago — mobile phone transfer and QR payments, very widespread"
+    - "Debit and credit cards (Visa, Mastercard) in urban commerce"
+    - "International remittance networks (Venezuelan diaspora support)"
+  tipping:
+    expected: true
+    typicalAmount: "About 10% ('la propina') in restaurants and for service staff; commonly added manually to the bill rather than always automatic"
+    autoIncludedInBill: false
+    note: "A ~10% tip is customary in restaurants and for service staff; unlike in Peru it is usually added manually to the bill rather than auto-included. US-dollar cash and Pago Móvil/Biopago transfers dominate given the de facto dollarization of the economy."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm and direct; 'usted' is common and polite for unfamiliar adults, 'tú' among friends and peers. Title + surname (Ingeniero/Ingeniera, Doctora) is expected in professional settings until told otherwise. Relationships and personal warmth matter as much as the content."
+  greetingNorms: "A verbal greeting is always given (Buenos días/Buenas tardes/Hola) plus a handshake in business; among friends a light kiss on the cheek (besito) and hugs are common and expected. Looking people in the eye and smiling conveys sincerity."
+  meetingEtiquette: "Meetings open with small talk and cordial greetings before business; considerable expressiveness and overlapping, animated speech are normal and not rude. Punctuality is more relaxed in social settings; business meetings are closer to on-time. Decisions often rely on trusted personal relationships."
+  topicsToAvoid:
+    - "Political opinions, especially about chavismo/opposition and the current government — highly sensitive and polarizing"
+    - "Public discussion of the economic crisis, hyperinflation, shortages or emigration's impact on families"
+    - "Praising or criticizing particular politicians; framing any comment in a way that invites partisanship"
+  giftGivingNotes: "Not required in business; small, tasteful gifts (chocolate, coffee, or a quality local item) are appreciated once a relationship forms. When invited to someone's home, flowers, dessert or a good bottle is well received."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: VE-A
+    file: distinct-regions/ve-a.yaml
+    adminUnitCodes: [VE-A, VE-M, VE-X, VE-D, VE-G]
+  - code: VE-V
+    file: distinct-regions/ve-v.yaml
+    adminUnitCodes: [VE-V]
+  - code: VE-L
+    file: distinct-regions/ve-l.yaml
+    adminUnitCodes: [VE-L, VE-S, VE-T, VE-U]
+  - code: VE-P
+    file: distinct-regions/ve-p.yaml
+    adminUnitCodes: [VE-P, VE-E, VE-C, VE-J, VE-H, VE-N]
+  - code: VE-F
+    file: distinct-regions/ve-f.yaml
+    adminUnitCodes: [VE-F, VE-B, VE-Y, VE-Z]
+sources:
+  - id: ven-constitution
+    name: "Constitución de la República Bolivariana de Venezuela (1999), Arts. 4, 9"
+    publisher: "Asamblea Nacional de Venezuela"
+    url: "https://www.asambleanacional.gob.ve/storage/documentos/botones/constitucion-nacional-20191205135853.PDF"
+    year: 1999
+    accessedDate: "2026-09-19"
+    note: "Basis for the federal classification (Art. 4), the single official language (Art. 9), and the co-official status of indigenous languages for the indigenous peoples (Arts. 9, 100)."
+  - id: ven-ine
+    name: "XIV Censo Nacional de Población y Vivienda 2011 (resultados definitivos)"
+    publisher: "Instituto Nacional de Estadística (INE) de Venezuela"
+    url: "https://www.ine.gov.ve/"
+    year: 2011
+    accessedDate: "2026-09-19"
+    note: "Last official census (27,227,930 residents) and the ethnic self-identification and indigenous-language speaker figures. No complete census has been published since the 2015 economic crisis; these figures are the most recent official ones. Indigenous language speaker shares are ESTIMATES from census self-identification of those pueblos."
+  - id: ven-embassy
+    name: "Venezuelan embassy language overview (Spanish as mother tongue of ~92% of the population)"
+    publisher: "Embajada de Venezuela"
+    url: "https://www.embajadadevenezuela.org/generalidades/idiomas"
+    accessedDate: "2026-09-19"
+    note: "Supporting source for the estimate that Spanish is the native language of ~92% of the population; flagged as an ESTIMATE."
+  - id: ven-bcv
+    name: "Banco Central de Venezuela (BCV) — bolívar and monetary redenominations"
+    publisher: "Banco Central de Venezuela (BCV)"
+    url: "https://www.bcv.org.ve/"
+    accessedDate: "2026-09-19"
+    note: "Basis for currency (Bolívar soberano, VES), the redenominations (2018 and 2021 'bolívar digital'), and the de facto dollarization context since ~2019."

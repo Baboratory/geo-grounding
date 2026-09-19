@@ -1,0 +1,91 @@
+code: WHOLE
+name:
+  eng: Colombia
+  local:
+    - languageCode: spa
+      value: Colombia
+# Generic country-wide fallback used when a visitor's ISO 3166-2 subdivision
+# isn't one of the curated regions below. Content is deliberately
+# national/symbolic rather than tied to one region.
+climates:
+  - koppenCode: Af
+    description: Equatorial rainforest in the Amazon basin and Pacific lowlands.
+  - koppenCode: Am
+    description: Tropical monsoon along the Atlantic and parts of the Pacific.
+  - koppenCode: Cfb
+    description: Temperate oceanic in the dense high-altitude Andes (Bogotá sparsely).
+  - koppenCode: Aw
+    description: Tropical savanna in the Orinoquía llanos and Caribbean lowlands.
+landmarks:
+  - name: Coffee Cultural Landscape of Colombia
+    unescoWorldHeritage: true
+  - name: Los Nevados National Park
+  - name: Castillo San Felipe de Barajas (Cartagena)
+    unescoWorldHeritage: true
+  - name: Lost City (Ciudad Perdida)
+culturalTraits:
+  - Coffee culture and the paisaje cultural cafetero (UNESCO intangible heritage)
+  - 'Cumbia, vallenato and salsa as deeply rooted national music'
+  - Gastronomy as a defining part of regional identity (bandeja paisa, ajiaco, sancocho)
+  - Warm, hospitable, family-centred social culture
+prideOf:
+  - Coffee and the Coffee Triangle
+  - Gastronomic, musical and literary heritage (García Márquez)
+  - Biodiversity and natural beauty
+  - Football, cycling and national sporting achievements
+animals:
+  popular:
+    - Spectacled bear
+    - Andean condor
+    - Capybara
+  unique:
+    - Amazon river dolphin
+    - Poison dart frogs
+    - Red howler monkey
+industries:
+  - Coffee and agriculture
+  - Oil and mining (coal, emeralds, gold)
+  - Tourism
+  - Manufacturing and textiles
+sports:
+  - Football
+  - Cycling
+  - Tejo (national traditional sport)
+entertainment:
+  - season: allYear
+    items:
+      - Salsa and vallenato festivals nationwide
+      - Coffee-tourist trails in the Eje Cafetero
+traditionalDishes:
+  - season: allYear
+    items:
+      - Bandeja paisa
+      - Ajiaco (chicken-and-potato Andean soup)
+      - Arepas
+      - Sancocho (stew)
+  - season: dry
+    items:
+      - Buñuelos and natilla (December holiday foods)
+      - Lechona tolimense (year-end fiestas)
+  - season: wet
+    items:
+      - Chocolate santafereño (hot chocolate with cheese)
+      - Mango biche (green mango with salt and lime, Lent season)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Ruana or poncho (Andean highlands)
+      - Sombrero vueltiao (Caribbean, national symbol)
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours are typically around 8:00am-6:00pm with a midday break of roughly one hour for lunch."
+  lunchBreakTiming: "A lunch break around 12:30-2:00pm is standard; many businesses pause for a proper sit-down lunch."
+  notableShutdownPeriods:
+    - period: late December to early January
+      description: "Holiday shutdown — many businesses close or slow substantially between Christmas (Dec 24-25) and after New Year's / Three Kings (Jan 6), the main year-end vacation window."

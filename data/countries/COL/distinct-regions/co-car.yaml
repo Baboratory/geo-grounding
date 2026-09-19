@@ -1,0 +1,64 @@
+code: CO-CAR
+name:
+  eng: Caribbean coast
+  local:
+    - languageCode: spa
+      value: Costa Caribe
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna with a strong dry season (Dec-Mar) and a rainy season the rest of the year.
+landmarks:
+  - name: Old City of Cartagena and its fortifications
+    unescoWorldHeritage: true
+  - name: Tayrona National Park
+  - name: Lost City (Ciudad Perdida), Sierra Nevada de Santa Marta
+  - name: Rosario Islands
+culturalTraits:
+  - Costeño identity — cumbia and vallenato music
+  - Distinct coastal cuisine (fried fish, coconut rice, arepa de huevo)
+  - Wayuu culture on the Guajira peninsula
+prideOf:
+  - Carnival of Barranquilla (UNESCO intangible heritage)
+  - Gastronomic and musical coastal tradition
+  - Beaches and the Caribbean Sea
+animals:
+  popular:
+    - Flamingos (Guajira)
+    - Howler monkeys
+  unique:
+    - Pink river dolphins (occasional)
+industries:
+  - Tourism
+  - Port commerce (Cartagena, Barranquilla, Santa Marta)
+  - Fishing
+sports:
+  - Football
+  - Baseball
+entertainment:
+  - season: dry
+    items:
+      - Carnival of Barranquilla (February/March, pre-Lent)
+      - Vallenato Festival (April)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Sancocho de pescado (fish stew)
+      - Arepa de huevo (egg-filled arepa)
+      - Arroz con coco (coconut rice)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Sombrero vueltiao
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business hours typically run 8:00am-6:00pm; a short midday break is common."
+  lunchBreakTiming: "A lunch break around 12:30-2:00pm is standard."
+  notableShutdownPeriods:
+    - period: late December to early January
+      description: "Year-end holiday slowdown between Christmas and Three Kings (Jan 6)."
