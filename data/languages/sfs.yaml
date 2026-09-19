@@ -1,0 +1,7 @@
+code: sfs
+name:
+  eng: South African Sign Language
+  local: South African Sign Language
+# No verified commonPhrases block: a phrase set for SASL was not sourced from a
+# sign-language authority. Sign-language glosses are non-trivial to transcribe and
+# are omitted rather than risking unverified content.

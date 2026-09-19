@@ -1,0 +1,78 @@
+code: ZA-WC
+name:
+  eng: Western Cape
+  local:
+    - languageCode: afr
+      value: Wes-Kaap
+    - languageCode: xho
+      value: Ntshona-Koloni
+climates:
+  - koppenCode: Csa
+    description: "Mediterranean climate on the coast: wet winters and dry, warm summers; interior regions are semi-arid."
+landmarks:
+  - name: Table Mountain
+    description: "Flat-topped mountain and national park above Cape Town; a New7Wonders of Nature."
+  - name: Cape of Good Hope
+    description: "Southern tip of the Cape Peninsula, a dramatic coastal landmark."
+  - name: Robben Island
+    description: "Historic prison-island and UNESCO World Heritage site."
+culturalTraits:
+  - "Afrikaans (~41%) and English strongholds alongside isiXhosa; Cape Malay heritage in the Bo-Kaap"
+  - "The Cape Winelands' winemaking and food culture"
+  - "Distinct coastal and mountain lifestyle"
+prideOf:
+  - "Cape Town's natural beauty and legislative capital status"
+  - "The world-famous Winelands (Stellenbosch, Franschhoek)"
+animals:
+  popular:
+    - "Cape fur seal"
+    - "African penguin"
+  unique:
+    - "Fynbos endemic flora (Protea)"
+industries:
+  - "Wine and agriculture"
+  - "Tourism"
+  - "Finance and tech (Silicon Cape)"
+  - "Fisheries"
+sports:
+  - "Rugby union"
+  - "Football (soccer)"
+  - "Cricket"
+  - "Surfing"
+entertainment:
+  - season: allYear
+    items:
+      - "Cape Town's beaches, Waterfront and food scene"
+      - "Winelands tastings"
+  - season: summer
+    items:
+      - "Cape Town Festival and beach season"
+      - "Cape Town Jazz Festival (late March)"
+  - season: winter
+    items:
+      - "Winter rain; whale-watching along the coast"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Cape Malay bobotie and koeksisters"
+      - "Snoek braai"
+      - "Wine-paired Cape cuisine"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Casual coastal attire; smart-casual in the city"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "Legislative capital (Cape Town) with a growing tech and tourism sector."
