@@ -1,0 +1,95 @@
+code: CL-MA
+name:
+  eng: Magallanes Region
+  local:
+    - languageCode: spa
+      value: Región de Magallanes
+    - languageCode: arn
+      value: Magallanes / Aysén-Patagonia
+climates:
+  - koppenCode: Cfc
+    description: "Subpolar oceanic: cool, wet, windy year-round on the Patagonian archipelago and steppe."
+  - koppenCode: ET
+    description: "Tundra on the southernmost Andean peaks and sub-Antarctic islands."
+landmarks:
+  - name: Torres del Paine National Park
+    description: "Granite towers, glaciers and turquoise lakes — a world-famous Patagonian icon."
+  - name: Strait of Magellan and Punta Arenas
+    description: "The historic gateway town and the strait that links the Atlantic and Pacific."
+  - name: Cape Horn
+    description: "The southernmost point of mainland South America's offshore islands, in the Drake Passage."
+  - name: Tierra del Fuego
+    description: "The sub-Antarctic archipelago shared with Argentina; the southern tip of the Americas."
+culturalTraits:
+  - "The windswept, remote Patagonian frontier of the far south"
+  - "Strong sheep-ranching (estancia) and maritime heritage, with European (Croatian, English) immigration roots"
+  - "Kawésqar (Alacaluf), Yagán and Selk'nam indigenous heritage of the archipelago"
+  - "A proud, independent southern spirit cushioned by the Drake Passage and the Andes"
+prideOf:
+  - "Torres del Paine and some of the purest night skies and views in the world"
+  - "Cape Horn and the end of the Americas"
+  - "The hardy estancia and Magellanic penguin coast"
+  - "Being Chile's gateway to the Antarctic"
+animals:
+  popular:
+    - "Magellanic penguin colonies (Seno Otway, Isla Magdalena)"
+    - "Guanaco and Andean condor of the Patagonian steppe"
+    - "Southern elephant seal and sea lion"
+  unique:
+    - "The endangered guanaco-adjacent huemul and the sub-Antarctic endemic avifauna (ochre-naped ground tyrant)"
+industries:
+  - "Sheep farming and wool (the classic Patagonian estancia economy)"
+  - "Oil and gas (the Strait of Magellan region, including offshore concessions)"
+  - "Salmon aquaculture and fishing"
+  - "Adventure tourism — trekking, glacier and wildlife tours (Torres del Paine, Tierra del Fuego)"
+sports:
+  - "Football"
+  - "Trekking and mountaineering (Torres del Paine, the 'W' and 'O' circuits)"
+  - "Marine tourism, ice and fjord cruising; wildlife watching"
+religions:
+  - name: Roman Catholic
+    percent: 52.0
+    sourceId: cl-patagonia-religion
+  - name: Evangelical / Protestant
+    percent: 15.0
+    sourceId: cl-patagonia-religion
+  - name: No religion / other
+    percent: 33.0
+    sourceId: cl-patagonia-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Trekking and glacier boat tours around Torres del Paine"
+      - "Penguin- and whale-watching on the southern archipelago"
+      - "Estancia and gaucho culture of the Patagonian steppe"
+  - season: summer
+    items:
+      - "The austral-summer trekking season — warmer, longer days in the national parks (Dec-Feb)"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "A 09:00-18:00 schedule; tourism and estancia work follow strong seasonal patterns."
+  lunchBreakTiming: "A standard midday break."
+  notableShutdownPeriods:
+    - period: "Austral winter (June-August)"
+      description: "Frigid, windy off-season; some tourism services run limited schedules."
+    - period: "Fiestas Patrias (September 18-19)"
+      description: "National holiday pause."
+  notes: "Patagonian weather is notoriously fickle — strong winds year-round and sub-Antarctic cold; high-season trekking is in the Austral summer (Dec-Feb)."
+sources:
+  - id: cl-patagonia-religion
+    name: "Censo 2024 (INE) — religion results, Magallanes"
+    publisher: "Instituto Nacional de Estadística (INE) de Chile"
+    url: "https://censo2024.ine.gob.cl"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Patagonia (including Magallanes) reports one of the more secular profiles nationally; approximate regional figures derived from the 2024 census religion results."

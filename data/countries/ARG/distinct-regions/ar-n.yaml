@@ -1,0 +1,90 @@
+code: AR-N
+name:
+  eng: Misiones
+  local:
+    - languageCode: spa
+      value: Misiones
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical, one of the wettest provinces: hot humid summers, warm mild winters, rain throughout the year."
+landmarks:
+  - name: Iguazú Falls
+    description: "A 2.7-km-wide system of ~275 waterfalls in Iguazú National Park on the Brazil border."
+    unescoWorldHeritage: true
+  - name: San Ignacio Miní
+    description: "Jesuit mission ruins, a UNESCO World Heritage Site among several in the province."
+    unescoWorldHeritage: true
+  - name: Moconá Falls
+    description: "Unique longitudinal (sideways) waterfalls on the Uruguay River."
+  - name: Salto Encantado
+    description: "A scenic waterfall in the province's highland rainforest."
+culturalTraits:
+  - "Strong Guaraní indigenous heritage (the province's name means 'missions' after the Jesuits)"
+  - "Misiones is the center of the Jesuit Guarani missions legacy and the Guaraní language"
+  - "Yerba mate cultivation heartland — the province grows most of Argentina's mate"
+  - "Subtropical rainforest (selva misionera) family culture of the northeast"
+prideOf:
+  - "Iguazú Falls — one of the world's great natural wonders"
+  - "The Jesuit missions (San Ignacio Miní) and Guaraní heritage"
+  - "Argentina's yerba mate production"
+animals:
+  popular:
+    - "Yacaré caiman in the rivers and wetlands"
+    - "Jaguar (yaguareté) — Argentina's largest cat, in the rainforest"
+    - "Capybara (carpincho) along riverbanks"
+  unique:
+    - "The endangered black-fronted piping guan and other Atlantic Forest endemics"
+industries:
+  - "Yerba mate, tea and tobacco cultivation"
+  - "Forestry and timber"
+  - "Tourism — Iguazú Falls and the Jesuit missions"
+  - "Eco-tourism in the selva misionera"
+sports:
+  - "Football"
+  - "Hiking and waterfall tourism; river excursions"
+religions:
+  - name: Roman Catholic
+    percent: 70.0
+    sourceId: ar-nea-religion
+  - name: Evangelical Protestant
+    percent: 15.0
+    sourceId: ar-nea-religion
+  - name: No religion
+    percent: 12.0
+    sourceId: ar-nea-religion
+  - name: Other
+    percent: 3.0
+    sourceId: ar-nea-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Waterfall and rainforest excursions around Iguazú"
+      - "Guaraní cultural festivals and mate-tasting tours"
+      - "River fishing and eco-lodges"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "A typical 09:00-18:00 schedule with a long midday break."
+  lunchBreakTiming: "A long midday break; lunch is the main meal."
+  notableShutdownPeriods:
+    - period: "January to early March"
+      description: "Austral summer holiday season with reduced activity."
+  notes: "Iguazú tourism peaks in the Southern-Hemisphere summer and public-holiday long weekends."
+sources:
+  - id: ar-nea-religion
+    name: "Segunda Encuesta Nacional sobre Creencias y Actitudes Religiosas (2019) — NEA breakdown"
+    publisher: "CEIL-CONICET"
+    url: "https://www.ceil-conicet.gov.ar/2019/12/creer-y-dejar-de-creer-segunda-encuesta-sobre-creencias-y-actitudes-religiosas-en-argentina/"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "The northeast (NEA) region has among the highest Catholic shares; the figures approximate the national survey's regional breakdown by province. Estimates flagged here."

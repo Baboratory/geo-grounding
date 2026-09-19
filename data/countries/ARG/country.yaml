@@ -1,0 +1,194 @@
+alpha3: ARG
+alpha2: AR
+name:
+  eng: Argentina
+  local:
+    - languageCode: spa
+      value: República Argentina
+flagEmoji: "🇦🇷"
+capital: Buenos Aires
+isSovereign: true
+# Classified federal: Argentina is a federal presidential republic of 23 provinces
+# plus the autonomous City of Buenos Aires (CABA), each with its own constitution
+# and elected governor/mayor under a federal system (Constitución Nacional, Arts.
+# 1, 121-129). Population 46,234,830 (2022 census, INDEC definitive results) is
+# far above any unitary-small threshold. Spanish is the de facto national official
+# language (the Constitution does not declare an official language but all official
+# acts are in Spanish). Several provinces co-officially recognize indigenous and
+# regional languages (Guaraní in Corrientes, Qom/Mocoví/Wichí in Chaco, Quechua in
+# Santiago del Estero, Welsh in Chubut); following the dataset's pattern these are
+# listed as locallySpoken (estimates) rather than competing 1.0 official rows,
+# keeping Spanish as the sole national official language. Curated regions (CABA,
+# Misiones, Chubut, Salta) sit alongside the generic WHOLE fallback.
+governanceType: federal
+iso3166_2_prefix: "AR"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: ar-constitution
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.99
+    sourceId: ar-indec-census
+  - languageCode: grn
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: ar-corr-coofficial
+  - languageCode: que
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: ar-indec-census
+  - languageCode: aym
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: ar-indec-census
+  - languageCode: arn
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: ar-indec-census
+  - languageCode: tob
+    domain: locallySpoken
+    speakersShare: 0.004
+    sourceId: ar-chaco-coofficial
+  - languageCode: moc
+    domain: locallySpoken
+    speakersShare: 0.002
+    sourceId: ar-chaco-coofficial
+  - languageCode: wlv
+    domain: locallySpoken
+    speakersShare: 0.004
+    sourceId: ar-chaco-coofficial
+  - languageCode: cym
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: ar-chubut-welsh
+# Spanish (Rioplatense) is spoken by essentially the whole population. Indigenous
+# languages are regionally concentrated: Guaraní (~1M incl. L2 in Corrientes and
+# the northeast), Quechua/Quichua (Santiago del Estero and Kolla communities of the
+# northwest), Aymara (northwest border), Mapudungun (Mapuche in Patagonia and
+# Buenos Aires), Qom/Mocoví/Wichí (Chaco-Gran Chaco), and Patagonian Welsh (~25k in
+# Chubut). Shares are light approximations reflecting concentrated-but-minor national
+# presence, not official census usage proportions.
+ethnicGroups:
+  - group: Indigenous or indigenous-descendant (pueblo originario or descendiente)
+    percent: 2.9
+    sourceId: ar-indec-census
+  - group: Afro-descendant (afrodescendiente)
+    percent: 0.7
+    sourceId: ar-indec-census
+  - group: European-descent and mestizo majority (no official census breakdown)
+    percent: 96.4
+    sourceId: ar-ancestry-estimate
+# The 2022 census measured self-identification for Indigenous (2.9%) and
+# Afro-descendant (0.7%) populations; the national census does not collect a
+# European-ancestry figure, so the ~96% remainder is an informal estimate drawn
+# from genetic/ancestry studies (mean European ancestry 65-80%), not an official
+# statistic.
+timezones:
+  - name: America/Argentina/Buenos_Aires
+    standardUtcOffset: "UTC-3"
+    observesDst: false
+  - name: America/Argentina/Tucuman
+    standardUtcOffset: "UTC-3"
+    observesDst: false
+  - name: America/Argentina/Mendoza
+    standardUtcOffset: "UTC-3"
+    observesDst: false
+  - name: America/Argentina/Ushuaia
+    standardUtcOffset: "UTC-3"
+    observesDst: false
+currency:
+  code: ARS
+  symbol: "$"
+  name: Argentine peso
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Argentina is not a member of the EU, EEA or EFTA. EU directives (GDPR, PSD2, MiFID, VAT-inclusive display, the 14-day withdrawal right, the 2-year guarantee) do NOT apply. Commerce is governed by Argentine national law (Código Civil y Comercial, Ley de Defensa del Consumidor, regulations of the Banco Central de la República Argentina and the AFIP tax authority)."
+    sourceId: ar-not-eu
+  - topic: "national official language"
+    description: "The Constitution does not declare an official language, but Spanish is used in all legislation and official acts (de facto official). Several provinces recognize indigenous and regional languages as co-official or culturally protected (Guaraní in Corrientes, Qom/Mocoví/Wichí in Chaco, Quichua in Santiago del Estero, Welsh in Chubut), so multilingual and region-sensitive products are valued in those provinces."
+    sourceId: ar-constitution
+paymentCulture:
+  popularMethods:
+    - "Cash — still widely used, especially outside major cities"
+    - "QR-code instant transfers via Mercado Pago and other fintech wallets — extremely dominant, especially in e-commerce and small retail"
+    - "Bank cards (credit/debit) — common in urban retail, travel and tourism"
+    - "US dollars — frequently used as a store of value due to chronic inflation; tourists historically used a parallel 'dólar blue' exchange rate"
+  tipping:
+    expected: true
+    typicalAmount: "About 10% in restaurants; note a 'cubierto' cover charge is often already added to the bill in sit-down restaurants"
+    autoIncludedInBill: false
+    note: "Tipping ~10% is customary at restaurants; a service/cover charge (cubierto) is frequently included separately in restaurant bills, so check before tipping on top. Cash and QR-transfers (Mercado Pago) dominate; the payment landscape is evolving as the BCRA modernizes digital payments and normalizes the official exchange rate."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Direct but warm and relationship-first; use the formal 'usted' and titles until a first-name basis is offered. Personal rapport and trust come before the transaction."
+  greetingNorms: "A firm handshake with eye contact on first meetings; close acquaintances may greet with a kiss on the cheek (also between men in Argentina). Handing over and accepting mate is a significant gesture of openness."
+  meetingEtiquette: "Punctuality signals professionalism, though a senior counterpart may start a little late. Meetings often open with casual conversation over coffee; decisions tend to be made at the top and may take a few meetings. Business lunches are more common than dinners in Buenos Aires."
+  topicsToAvoid:
+    - "The Perón years and divisive political history"
+    - "The Falklands/Malvinas conflict"
+    - "Unfavorable comparisons of Argentine beef, wine or football to other countries'"
+  giftGivingNotes: "High-quality imported liquor (Scotch, French champagne) is appreciated and highly taxed locally; avoid personal items such as ties, shirts, leather goods and knives. Flowers or sweets for the host when invited home."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: AR-C
+    file: distinct-regions/ar-c.yaml
+    adminUnitCodes: [AR-C]
+  - code: AR-N
+    file: distinct-regions/ar-n.yaml
+    adminUnitCodes: [AR-N]
+  - code: AR-U
+    file: distinct-regions/ar-u.yaml
+    adminUnitCodes: [AR-U]
+  - code: AR-A
+    file: distinct-regions/ar-a.yaml
+    adminUnitCodes: [AR-A]
+sources:
+  - id: ar-constitution
+    name: "Constitución Nacional Argentina (Arts. 1, 121-129 — federal structure), and the conduct of official business in Spanish"
+    publisher: "Gobierno de la República Argentina"
+    url: "https://www.argentina.gob.ar/justicia/derechofacil/leysimple/constitucion-nacional"
+    year: 1994
+    accessedDate: "2026-09-19"
+    note: "Basis for the federal classification (23 provinces + autonomous CABA each with its own constitution) and for Spanish as the de facto official language of official acts."
+  - id: ar-indec-census
+    name: "Censo Nacional de Población, Hogares y Viviendas 2022 — Resultados definitivos (población indígena y afrodescendiente)"
+    publisher: "Instituto Nacional de Estadística y Censos (INDEC)"
+    url: "https://censo.gob.ar/index.php/2023/11/15/resultados-definitivos-del-censo-2022/"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Population 46,234,830; Indigenous or indigenous-descendant 2.9% (1,306,730); Afro-descendant 0.7% (302,936), private dwellings. Basis for ethnicGroups and the locallySpoken indigenous shares."
+  - id: ar-ancestry-estimate
+    name: "Genetic/ancestry composition of Argentina (mean European ancestry 65-80%; indigenous and African admixture)"
+    publisher: "University of Buenos Aires population-genetics studies (aggregated estimate)"
+    url: "https://www.uba.ar/"
+    accessedDate: "2026-09-19"
+    note: "The census does not collect a European-ancestry figure; the ~96% remainder is an informal estimate, flagged as such, not an official statistic."
+  - id: ar-corr-coofficial
+    name: "Guaraní co-official status in Corrientes (Ley Provincial 5598, 2004)"
+    publisher: "Gobierno de la Provincia de Corrientes"
+    url: "https://www.corrientes.gov.ar/"
+    accessedDate: "2026-09-19"
+    note: "Guaraní has been co-official with Spanish in Corrientes Province since 2004; basis for the grn locallySpoken row concentrated in the northeast."
+  - id: ar-chaco-coofficial
+    name: "Co-official status of Qom (Toba), Mocoví and Wichí in Chaco Province (Ley 6604, 2010)"
+    publisher: "Poder Legislativo de la Provincia del Chaco"
+    url: "https://www.hcdn.gob.ar/proyectos/proyectoTP.jsp?exp=5653-D-2010"
+    year: 2010
+    accessedDate: "2026-09-19"
+    note: "Ley 6604 (2010) recognizes Qom, Mocoví and Wichí as co-official with Spanish in Chaco; ISO 639-3 codes tob, moc and wlv verified on iso639-3.sil.org. Basis for their locallySpoken rows."
+  - id: ar-chubut-welsh
+    name: "Patagonian Welsh recognition in Chubut Province (~25,000 speakers)"
+    publisher: "Gobierno de la Provincia del Chubut"
+    url: "https://www.chubut.gov.ar/"
+    accessedDate: "2026-09-19"
+    note: "Welsh (cym) is recognized and promoted in Chubut, home of the Patagonian Welsh community (~25k speakers); listed as a locallySpoken row."
+  - id: ar-not-eu
+    name: "EU membership status of Argentina"
+    publisher: "European Union / ISO"
+    url: "https://european-union.europa.eu/principles-countries-history/eu-countries_en"
+    accessedDate: "2026-09-19"
+    note: "Argentina is not an EU/EEA/EFTA member; EU consumer/data/financial directives do not apply and commerce is governed by Argentine national law, the BCRA and the AFIP."

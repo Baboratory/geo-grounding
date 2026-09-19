@@ -1,0 +1,95 @@
+code: AR-C
+name:
+  eng: City of Buenos Aires
+  local:
+    - languageCode: spa
+      value: Ciudad de Buenos Aires
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical: hot humid summers, mild winters, rain year-round."
+landmarks:
+  - name: Casa Rosada and Plaza de Mayo
+    description: "The presidential palace and the historic square at the founding heart of the city."
+  - name: Obelisco de Buenos Aires
+    description: "The iconic 67.5-m obelisk on Avenida 9 de Julio."
+  - name: Teatro Colón
+    description: "One of the world's great opera houses, renowned for its acoustics."
+  - name: La Boca / Caminito
+    description: "The colorful working-class barrio that gave birth to tango."
+  - name: Palermo neighborhoods
+    description: "Trendy parks, restaurants and street-art districts; also the Buenos Aires Botanical Garden."
+  - name: Recoleta Cemetery
+    description: "Historic cemetery and the resting place of Eva Perón."
+culturalTraits:
+  - "The cradle of tango and the milonga culture"
+  - "Cosmopolitan with strong Italian/Spanish immigrant heritage"
+  - "Late-night dining and the 'porteño' fast pace and sharp humor"
+  - "Passion for football (Boca Juniors and River Plate derby) and literature"
+prideOf:
+  - "Tango heritage and the Teatro Colón"
+  - "World-class steak (asado) and the mate ritual"
+  - "Cosmopolitan art, architecture and café culture"
+  - "Football's superclásico between Boca and River"
+animals:
+  popular:
+    - "Rufous hornero in parks and streets"
+    - "Pigeons and parrots in green spaces"
+    - "Coatis occasionally around the Botanical Garden"
+  unique:
+    - "The woolly red-furred coati of nearby ecosystems"
+industries:
+  - "Finance, services and the national government"
+  - "Technology and startup hub ('Argentina's Silicon Valley' around Palermo/San Telmo)"
+  - "Tourism — cultural, gastronomic and tango-focused"
+  - "Publishing, media and the creative industries"
+sports:
+  - "Football — home of Boca Juniors and River Plate"
+  - "Polo at the Palermo polo fields"
+  - "Rugby, tennis and basketball clubs"
+religions:
+  - name: Roman Catholic
+    percent: 51.7
+    sourceId: ar-caba-religion
+  - name: No religion
+    percent: 30.0
+    sourceId: ar-caba-religion
+  - name: Evangelical Protestant
+    percent: 13.2
+    sourceId: ar-caba-religion
+  - name: Other
+    percent: 5.1
+    sourceId: ar-caba-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Tango shows, milongas and live jazz/blues venues"
+      - "Theatre and cinema — Buenos Aires has one of the world's densest theatre scenes"
+      - "Street-art tours (La Boca, Villa Crespo, Palermo)"
+      - "Nightlife that starts late and runs into the early hours"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Offices roughly 09:00-18:00; lunches are late (~13:00-14:00) and dinners often start after 21:00."
+  lunchBreakTiming: "A long midday break, though shorter than in the interior; many offices take a working lunch."
+  notableShutdownPeriods:
+    - period: "January"
+      description: "Austral summer; parts of the city's culture/business run on a summer schedule, and many diners/bars stay open late for the holiday season."
+  notes: "Porteños (residents of Buenos Aires) are the classic busy, fast-talking, cosmopolitan stereotype of the country; most business, government and finance is concentrated here."
+sources:
+  - id: ar-caba-religion
+    name: "Segunda Encuesta Nacional sobre Creencias y Actitudes Religiosas (2019) — AMBA breakdown"
+    publisher: "CEIL-CONICET"
+    url: "https://www.ceil-conicet.gov.ar/2019/12/creer-y-dejar-de-creer-segunda-encuesta-sobre-creencias-y-actitudes-religiosas-en-argentina/"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "The greater Buenos Aires (AMBA) region has the highest share of no-religion respondents nationally; the CABA figures approximate the national survey's regional breakdown. Approximate shares flagged here."
