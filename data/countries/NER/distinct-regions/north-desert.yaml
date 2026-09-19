@@ -1,0 +1,88 @@
+code: NE-1
+name:
+  eng: Northern Desert (Air and Sahara)
+  local:
+    - languageCode: tmh
+      value: Tagama
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate across the Air massif, the Tenere and the Saharan expanses of the far north; a cool, dry winter and intense summer heat.
+landmarks:
+  - name: Air Mountains
+    description: The rugged Air massif, a Saharan highland of volcanic peaks and rocky plateaus, historically a crossroads of trans-Saharan caravan routes.
+  - name: Tenere desert
+    description: The vast sand sea and gravel plains of the eastern Tenere, one of the harshest and emptiest deserts on Earth.
+  - name: Agadez
+    description: Historic Tuareg caravan city at the southern edge of the Air, with its famous mud-brick minaret.
+culturalTraits:
+  - Heartland of the Tuareg, with the Air massif the political and cultural centre of the Kel Tamasheq
+  - Saharan caravan and salt-trade heritage
+  - Nomadic pastoralism synced to desert wells and seasonal pasture
+  - The spectacular Cure Salee and cure houses of In-Gall and Tchirozerine
+prideOf:
+  - Tuareg identity, poetry and desert music
+  - The Air massif and its prehistoric rock art
+  - The trans-Saharan caravan legacy of Agadez
+animals:
+  popular:
+    - Dromedary camel
+    - Goats and sheep
+    - Dorcas gazelle
+  unique:
+    - Barbary sheep (Aoudad) in the Air
+    - Saharan cheetah (rare)
+    - Fennec fox
+    - Addax (formerly, now rare in the wild)
+industries:
+  - Uranium mining around Arlit and Akokan
+  - Camel and livestock herding
+  - Cross-Saharan trade
+  - Touristery and heritage (constrained by insecurity)
+sports:
+  - Camel racing
+  - Traditional Tuareg wrestling
+  - Football in the towns
+religions:
+  - name: Muslim
+    percent: 99.0
+    sourceId: cia-factbook-2023
+entertainment:
+  - season: dry
+    items:
+      - "Cure Salee (Salt Cure) - the great winter gathering of nomads near In-Gall and Tchirozerine with camel fairs, wrestling and Tuareg music"
+      - "Eid al-Fitr and Eid al-Adha - lunar"
+  - season: wet
+    items:
+      - "Tuareg music festivals and community gatherings where the desert allows"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuareg staples: millet or grain porridge with camel-milk and meat"
+      - "Grilled meat and Saharan spiced preparations"
+      - "Rice or couscous with goat or camel stew"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Tuareg indigo-blue boubou and the tagelmust (face veil), dyed with indigo"
+      - "Silver and leather jewellery and amulets"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Light and seasonal, tied to caravan and market rhythms; sparse remote trading posts."
+  lunchBreakTiming: "Long midday breaks in the heat."
+  notableShutdownPeriods:
+    - period: Ramadan (lunar)
+      description: "Widespread slowdown and evening iftar rhythm."
+  notes: "Friday prayers observed; mining and trading in the north are security-constrained."
+sources:
+  - id: cia-factbook-2023
+    name: "Niger - The World Factbook (2023 edition)"
+    publisher: "CIA World Factbook, open continuation (worldfactbook.co)"
+    url: "https://worldfactbook.co/country.php?slug=niger"
+    accessedDate: "2026-09-19"
+    note: "Context for the northern desert region."

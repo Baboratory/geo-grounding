@@ -1,0 +1,109 @@
+code: NG-SE
+name:
+  eng: South-East Nigeria (Igbo heartland)
+  local:
+    - languageCode: ibo
+      value: "Ebe Mpaghara"
+climates:
+  - koppenCode: Aw
+    description: Tropical wet-dry climate with a single rainy season spanning roughly May-October and a dry season (with harmattan haze) the rest of the year.
+landmarks:
+  - name: Enugu
+    description: Major eastern city, an industrial, coal and commercial hub of the Igbo south-east.
+  - name: Abia and Anambra markets and shrine country
+    description: The densely populated Igbo heartland with its famous markets, masquerade traditions and shrine festivals.
+  - name: Cross River / Oban Hills (Arochukwu)
+    description: Rainforest country on the regional fringe with the Long Juju Shrine, on Nigeria's tentative list.
+  - name: Imo and the south-east plateau
+    description: Highlands and plateau country of the eastern Igbo districts.
+culturalTraits:
+  - Heartland of the Igbo people, one of Africa's largest groups
+  - Deep masquerade and ancestral-mask traditions (the world-famous Igbo masks)
+  - Vigorous market and trading culture across the densely settled south-east
+  - Strong Christian-pentecostal and African-church presence, with indigenous practice woven in
+prideOf:
+  - Igbo language, proverbs and philosophical tradition (Chinua Achebe's world)
+  - The great masked-festival and masquerade culture
+  - The Nnewi strip and industrial entrepreneurship
+  - The famous south-east markets and yam-and-palm agriculture
+animals:
+  popular:
+    - Olive baboon
+    - Crested porcupine
+    - Red river hog
+    - Duikers
+  unique:
+    - Sclater's guenon
+    - Preuss's guenon (rainforest fringe)
+industries:
+  - Trade and commerce (famous south-east markets)
+  - Manufacturing and the Nnewi industrial cluster
+  - Agriculture (yam, cassava, palm oil, rice)
+  - Coal mining (Enugu)
+sports:
+  - Football
+  - Basketball
+  - Traditional wrestling
+religions:
+  - name: Christian
+    percent: 65.0
+    sourceId: npc-dhs2018
+  - name: Muslim
+    percent: 30.0
+    sourceId: npc-dhs2018
+entertainment:
+  - season: allYear
+    items:
+      - "Igbo masquerade and masked-festival culture"
+      - "Nollywood and church musical life"
+  - season: dry
+    items:
+      - "End-of-year and Christmas celebrations"
+      - "Masquerade and New Yam festivals"
+  - season: wet
+    items:
+      - "New Yam festival (August, wet season)- the great celebration of the yam harvest"
+      - "Shrine and community ceremonies"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pounded yam with egusi or ogbono soup"
+      - "Ofe nsala (white soup) with meats"
+      - "Abacha and ukpo (flaked and pounded staples)"
+      - "Akara (bean fritters)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Buba and wrapper"
+      - "Aso-oke cloth and stitched ceremonial garments"
+      - "Masquerade masks and costumes for festivals"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Monday-Friday; south-east markets are famously vibrant and trade long hours."
+  lunchBreakTiming: "Midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Major closure across the largely Christian south-east."
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Observed in the Muslim minority communities."
+  notes: "Sunday is the main rest day; church attendance is widespread in the south-east."
+sources:
+  - id: npc-dhs2018
+    name: "Nigeria Demographic and Health Survey 2018"
+    publisher: "National Population Commission (NPC) & ICF"
+    url: "https://dhsprogram.com/publications/publication-fr359-dhs-final-reports.cfm"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "Regional religion mix (south-east largely Christian)."
+  - id: unesco-whs-nga
+    name: "Nigeria - Properties on the tentative list (Arochukwu / Oban Hills)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/ng"
+    accessedDate: "2026-09-19"
+    note: "Context for the Long Juju Shrine site on the regional fringe."

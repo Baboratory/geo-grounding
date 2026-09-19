@@ -1,0 +1,104 @@
+code: NG-SS
+name:
+  eng: South-South Nigeria (Niger Delta and Cross River)
+  local:
+    - languageCode: ijc
+      value: "Měgbě o Delta"
+climates:
+  - koppenCode: Af
+    description: Equatorial rainforest climate across the Niger Delta and most of the Cross River south-south, hot and very humid with rain much of the year.
+landmarks:
+  - name: Niger Delta
+    description: The vast mangrove and riverine delta where the Niger empties into the Gulf of Guinea, a vital oil and wetland zone.
+  - name: Cross River and its waterways
+    description: The state cut by the Cross River, running north-south between Delta and Akwa Ibom, the rainforest heart of the south-south.
+  - name: Akwa Ibom wetlands and mangroves
+    description: Coastal lagoons, mangroves and beach country along the south-south shoreline.
+  - name: Old Calabar and the Efik kingdom
+    description: Historic trading and cultural centre of the south-south, seat of the Efik kings.
+culturalTraits:
+  - Home of the Izon (Ijaw) people and the rich Niger Delta communities
+  - Deep rainforest and coastal-mangrove way of life
+  - The Efik kingdom and its famed trade and masquerade heritage
+  - Oil-boom modernity layered onto traditional riverine society
+prideOf:
+  - Niger Delta and Cross River rainforest
+  - The Ijaw (Izon) and Efik cultural heritage
+  - Coastal fishing and seafood
+  - The region's oil wealth and world heritage of the Delta
+animals:
+  popular:
+    - African manatee
+    - Olive baboon
+    - Sitatunga (antelope of the wetlands)
+    - Red river hog
+  unique:
+    - Cross River gorilla (critically endangered, the rarest great ape)
+    - Drill monkey
+    - Niger Delta red colobus
+    - West African manatee
+industries:
+  - Oil and gas (the Niger Delta fields, among Africa's largest)
+  - Coastal and riverine fishing
+  - Mangrove and rainforest products
+  - Trade through the Delta ports and Calabar
+sports:
+  - Football
+  - Basketball
+  - Traditional boat races and fishing contests
+religions:
+  - name: Christian
+    percent: 70.0
+    sourceId: npc-dhs2018
+  - name: Muslim
+    percent: 25.0
+    sourceId: npc-dhs2018
+entertainment:
+  - season: allYear
+    items:
+      - "Efik masquerade and riverine festival culture"
+      - "Church and community social life"
+  - season: dry
+    items:
+      - "End-of-year celebrations and coastal festivals"
+  - season: wet
+    items:
+      - "Riverine fishing festivals and Delta water festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Afang soup with waterleaf and periwinkle"
+      - "Edikang ikong (vegetable soup)"
+      - "Fisherman's soup and fried/grilled fish and seafood"
+      - "Starch and pepper soup"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Wrapper and blouse (women) with coral beads"
+      - "Buba and wrapper"
+      - "Edo/Urhobo beaded regalia (from the wider south)"
+      - "Gele headwrap"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Monday-Friday; Delta ports and markets trade flexibly around tides and oil shifts."
+  lunchBreakTiming: "Midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Major closure in the largely Christian south-south."
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Observed in Muslim communities."
+  notes: "Sunday is the main rest day."
+sources:
+  - id: npc-dhs2018
+    name: "Nigeria Demographic and Health Survey 2018"
+    publisher: "National Population Commission (NPC) & ICF"
+    url: "https://dhsprogram.com/publications/publication-fr359-dhs-final-reports.cfm"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "Regional religion mix (south-south largely Christian)."
