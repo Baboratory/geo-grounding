@@ -1,0 +1,160 @@
+alpha3: DNK
+alpha2: DK
+name:
+  eng: Denmark
+  local:
+    - languageCode: dan
+      value: Danmark
+flagEmoji: "🇩🇰"
+capital: Copenhagen
+isSovereign: true
+# Classified unitary-small: Denmark does NOT meet the unitary-large criteria
+# (2 of 3 required). It is a small state (~6M, 2026 est.) with Danish as the
+# sole official language. German is a recognised minority language in South
+# Jutland under the European Charter for Regional or Minority Languages, but
+# this is a small borderland minority, not a statewide cultural-historical
+# regional identity meriting curated subdivision content. Greenland (GRL) and
+# the Faroe Islands are SEPARATE ISO 3166-1 territories, not regions of
+# Denmark proper. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: dan
+    domain: official
+    speakersShare: 1.0
+    sourceId: danish-language
+  - languageCode: dan
+    domain: locallySpoken
+    speakersShare: 0.98
+    sourceId: dan-daily-est
+  - languageCode: deu
+    domain: locallySpoken
+    speakersShare: 0.003
+    sourceId: deu-south-jutland
+# Danish is the sole official and the everyday language of the vast majority
+# (~98% locallySpoken, composite estimate). German is a recognised minority
+# language in South Jutland (European Charter for Regional or Minority
+# Languages) with roughly 15,000 speakers (~0.3%).
+ethnicGroups:
+  # CIA World Factbook / Statistics Denmark, 2023 est.
+  - group: Danish origin
+    percent: 84.2
+    sourceId: cwf-ethnic
+  - group: Turkish origin
+    percent: 1.1
+    sourceId: cwf-ethnic
+  - group: Other (immigrants/descendants incl. Polish, Romanian, Syrian, Ukrainian, German, Iraqi)
+    percent: 14.7
+    sourceId: cwf-ethnic
+timezones:
+  - name: Europe/Copenhagen
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU-wide schedule)."
+currency:
+  code: DKK
+  symbol: kr
+  name: Danish krone
+legalConstraints:
+  - topic: "currency / legal tender"
+    description: "The Danish krone (DKK) is the only legal tender. Prices are displayed including VAT, and the country has opted out of adopting the euro — so the euro is not legal tender."
+    sourceId: danish-currency
+  - topic: "GDPR data protection"
+    description: "Collecting or processing personal data (names, emails, browsing/behavioural data, etc.) requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction and erasure ('right to be forgotten') — the EU-wide GDPR, directly applicable in Denmark as an EU member state."
+    sourceId: eu-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year European legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted or refunded free of charge."
+    sourceId: eu-consumer-rights
+  - topic: "Bonus/Christmas-shopping and Sunday trading"
+    description: "Danish rules historically restricted Saturday and Sunday trading for larger shops; most convenience/smaller shops trade on weekends. (Sunday opening has been broadly liberalised for larger stores in recent years; verify current local rules.)"
+    sourceId: dk-opening
+paymentCulture:
+  popularMethods:
+    - "Cards (Visa/Mastercard) — the everyday default; Denmark is one of the most cashless societies in the world"
+    - "Dankort — the Danish national debit card scheme"
+    - "MobilePay — the dominant local mobile-payment app"
+    - "Cash — legal tender but rarely used; many shops are cashless"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected; service charge is included in the bill by law. A small 'rounding-up' tip is appreciated but never required."
+    autoIncludedInBill: true
+    note: "Tips are not expected — service is included. Danes rarely leave cash tips."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Informal and egalitarian; first names are used quickly, titles matter little, and flat hierarchy is valued. Direct, honest communication is preferred. 'Janteloven' (the mindset that one should not stand out or assume superiority) still tempers boasting."
+  greetingNorms: "A firm handshake with eye contact is the standard greeting; 'Hej' (hi) is universal. Personal space and punctuality are respected."
+  meetingEtiquette: "Punctuality is expected. Meetings are efficient, informal and to-the-point; debate is frank but respectful, and consensus is sought. Small talk is minimal; business comes first, then a coffee."
+  topicsToAvoid:
+    - "Jokes that boast about one's own achievements (against Janteloven norms)"
+    - "Excessive praise or flattery"
+    - "Presuming Denmark uses the euro"
+  giftGivingNotes: "A modest gift when invited to a home is welcome (wine, flowers, chocolates). Flowers are given in odd numbers; white lilies are typically reserved for funerals."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: danish-language
+    name: "Language in Denmark"
+    publisher: "Denmark.dk / official portal; Danish Language Council (Dansk Sprognævn)"
+    url: "https://denmark.dk/society-and-business/the-danish-language"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Danish is the official language of Denmark. Basis for the official-domain row."
+  - id: dan-daily-est
+    name: "Composite estimate — Danish as the everyday language"
+    publisher: "Composite estimate (CIA World Factbook / Statistics Denmark)"
+    url: "https://www.cia.gov/the-world-factbook/countries/denmark/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Danish is the everyday language of ~98% of the population; composite estimate."
+  - id: deu-south-jutland
+    name: "European Charter for Regional or Minority Languages — Denmark (German in South Jutland)"
+    publisher: "Council of Europe / Danish Ministry of Culture"
+    url: "https://www.coe.int/en/web/european-charter-regional-or-minority-languages"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "German is recognised as a minority language in South Jutland under the Charter (~15,000 speakers, ~0.3% of the population)."
+  - id: cwf-ethnic
+    name: "CIA World Factbook — Denmark (People: ethnic groups, 2023 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/denmark/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Danish (incl. Greenlandic and Faroese) 84.2%, Turkish 1.1%, other 14.7% (largest: Polish, Romanian, Syrian, Ukrainian, German, Iraqi)."
+  - id: danish-currency
+    name: "The Danish krone — legal tender and the euro opt-out"
+    publisher: "Danmarks Nationalbank / EU"
+    url: "https://www.nationalbanken.dk/en/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "The krone is the sole legal tender; Denmark has an EU opt-out from the euro."
+  - id: eu-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-19"
+    note: "The legal basis for GDPR data-protection rules applying in Denmark as an EU member state."
+  - id: eu-consumer-rights
+    name: "Directive (EU) 2019/771 on the sale of goods (consumer guarantee)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."
+  - id: dk-opening
+    name: "Shop opening hours in Denmark"
+    publisher: "Composite (consumer guidance / Danish government)"
+    url: "https://denmark.dk/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "General Sunday and Saturday trading rules for Danish shops, hospitality and offices."
+  - id: iso-dan
+    name: "ISO 639-3 entry: dan — Danish"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/dan"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Verifies ISO 639-3 code dan = Danish (Individual, Living)."

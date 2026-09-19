@@ -1,0 +1,131 @@
+code: WHOLE
+name:
+  eng: Ireland
+  local:
+    - languageCode: gle
+      value: Éire
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate — mild, wet, and changeable year-round, with no extreme heat or cold; rainfall throughout the year.
+landmarks:
+  - name: Cliffs of Moher
+    description: Dramatic coastal sea cliffs rising ~214m on the Atlantic coast of County Clare.
+  - name: Brú na Bóinne (Newgrange)
+    description: Prehistoric passage tomb complex older than the Egyptian pyramids, aligned with the winter solstice sunrise.
+    unescoWorldHeritage: true
+  - name: Skellig Michael
+    description: A remote rocky island in the Atlantic carrying a well-preserved early medieval monastic settlement.
+    unescoWorldHeritage: true
+  - name: Rock of Cashel
+    description: Historic royal and ecclesiastical complex of medieval buildings on a limestone outcrop in County Tipperary.
+  - name: Dublin's Trinity College & Book of Kells
+    description: Landmark university founded 1592, home to the illuminated Book of Kells manuscript.
+culturalTraits:
+  - Rich literary and storytelling tradition (Joyce, Yeats, Heaney, Beckett)
+  - Traditional Irish music (fiddle, uilleann pipes, bodhrán) and céilí dancing
+  - Pub culture as a central social institution
+  - Strong Catholic-influenced cultural history, now increasingly secular
+  - Warm, humorous, hospitable social character with a love of 'craic'
+prideOf:
+  - A global literary and cultural heritage disproportionate to its small size
+  - Being the island that produced a distinctive music, dance and language tradition
+  - Its history of national independence and resilience
+animals:
+  popular:
+    - Red deer
+    - Irish hare
+    - Hedgehog
+  unique:
+    - Irish red setter (dog breed with Irish origins)
+    - Connemara pony
+industries:
+  - Pharmaceuticals and life sciences
+  - Technology and software (many global tech firms headquartered in Dublin)
+  - Agrifood (beef, dairy)
+  - Financial services
+sports:
+  - Gaelic football and hurling (the national sports, governed by the GAA)
+  - Rugby union (Ireland as a strong international side)
+  - Association football (soccer)
+  - Horse racing
+religions:
+  - name: Roman Catholic
+    percent: 69.0
+    sourceId: cso-census-2022-religion
+  - name: No religion
+    percent: 14.4
+    sourceId: cso-census-2022-religion
+  - name: Church of Ireland (Anglican)
+    percent: 2.6
+    sourceId: cso-census-2022-religion
+  - name: Other / not stated
+    percent: 14.0
+    sourceId: cso-census-2022-religion
+entertainment:
+  - season: allYear
+    items:
+      - Traditional Irish music sessions in pubs
+      - Live theatre, literature and arts festivals
+      - Gaelic games (hurling and Gaelic football matches, summer-autumn championship season)
+  - season: summer
+    items:
+      - Arts and cultural festivals (e.g. Galway International Arts Festival)
+      - Hurling and Gaelic football All-Ireland championship finals (August-September)
+      - Horse racing meets
+  - season: winter
+    items:
+      - Christmas markets and festive events across Dublin and regional cities
+      - St. Stephen's Day (26 December) traditions and 'Wren' day customs in some areas
+traditionalDishes:
+  - season: allYear
+    items:
+      - Irish stew
+      - Boxty (potato pancake)
+      - Coddle (Dublin sausage and potato dish)
+      - Soda bread
+  - season: autumn
+    items:
+      - Roast game and foraging season dishes (wild mushrooms)
+  - season: summer
+    items:
+      - Fresh seafood along the coast and summer fruit desserts
+traditionalClothing:
+  - season: allYear
+    items:
+      - Aran knitwear (the iconic Irish knitted jumpers, worn as outerwear)
+      - Modern 'going out' wear; traditional dress is largely reserved for formal/cultural occasions
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: []
+  notes: "No law restricts which days retail may trade; many shops open 7 days. Most shops open roughly 9:00am-6:00pm Monday-Saturday, and many on Sunday (often 12:00-6:00pm, with larger stores having more restricted Sunday hours). Pubs and restaurants commonly open later into the evening. Offices run standard 9:00-5:30/6:00 with hospitality/culture often extending late."
+  typicalWorkHours: "Standard office hours are typically around 9:00am-5:30/6:00pm, Monday-Friday; retail often trades later and on weekends."
+sources:
+  - id: cso-census-2022-religion
+    name: "Census 2022 Profile 5 — Religion (Central Statistics Office)"
+    publisher: "Central Statistics Office (Ireland)"
+    url: "https://www.cso.ie/en/releasesandpublications/ep/p-cpp5/censusofpopulation2022profile5-diversitymigrationethnicityirishtravellersreligion/religion/"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Roman Catholic 69%, No religion 14.4%, Church of Ireland 2.6%; the remainder is split across other religions and not-stated."
+  - id: unesco-newgrange
+    name: "UNESCO — Brú na Bóinne (Archaeological Ensemble of the Bend of the Boyne)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/659/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Brú na Bóinne (including Newgrange, Knowth, Dowth) is a UNESCO World Heritage Site."
+  - id: unesco-skellig
+    name: "UNESCO — Sceilg Mhichíl (Skellig Michael)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/757/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Skellig Michael is a UNESCO World Heritage Site."
