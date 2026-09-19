@@ -1,0 +1,246 @@
+alpha3: ZAF
+alpha2: "ZA"
+name:
+  eng: South Africa
+  local:
+    - languageCode: eng
+      value: South Africa
+    - languageCode: afr
+      value: Suid-Afrika
+    - languageCode: zul
+      value: iNingizimu Afrika
+flagEmoji: "🇿🇦"
+capital: "Pretoria (Tshwane) — executive; Cape Town legislative; Bloemfontein judicial"
+isSovereign: true
+# Classified unitary-large: South Africa meets 2 of the 3 DESIGN.md criteria even
+# though the state is constitutionally a single unitary parliamentary republic.
+# (1) recognized regional/minority languages — 11 official languages (Constitution
+# Sec. 6), several regionally concentrated (isiZulu ~80% in KwaZulu-Natal, isiXhosa
+# ~82% in Eastern Cape, Afrikaans/English in Western Cape); (2) genuine
+# cultural-historical regional identities anchored in the provinces. The nine
+# provinces exercise concurrent/devolved powers but hold no residual sovereignty,
+# so NOT federal. Curated regions: Gauteng (ZA-GP, economic core),
+# Western Cape (ZA-WC, Afrikaans/English + Cape heritage), KwaZulu-Natal
+# (ZA-KZN, isiZulu heartland), Eastern Cape (ZA-EC, isiXhosa heartland) + WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: "ZA"
+hasSubdivisions: true
+languageUsage:
+  # Official languages (all de jure official per Constitution Sec. 6: speakersShare
+  # is a legal-status flag = 1.0, never a population share). The historic 11 are
+  # listed here; South African Sign Language became the 12th official in 2023
+  # (see the locallySpoken row and the SASL source note).
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-sec6
+  - languageCode: afr
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-sec6
+  - languageCode: zul
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-sec6
+  - languageCode: xho
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-sec6
+  - languageCode: nso
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-sec6
+  - languageCode: tsn
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-sec6
+  - languageCode: sot
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-sec6
+  - languageCode: tso
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-sec6
+  - languageCode: ssw
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-sec6
+  - languageCode: ven
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-sec6
+  - languageCode: nbl
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-sec6
+  # South African Sign Language, the 12th official language since 19 July 2023.
+  - languageCode: sfs
+    domain: official
+    speakersShare: 1.0
+    sourceId: sasl-2023
+  # Home-language use shares (Stats SA Census 2022); % of the population who speak
+  # it at home. These are real usage rows, distinct from the legal official flag.
+  - languageCode: zul
+    domain: locallySpoken
+    speakersShare: 0.244
+    sourceId: stats-sa-census-2022
+  - languageCode: xho
+    domain: locallySpoken
+    speakersShare: 0.163
+    sourceId: stats-sa-census-2022
+  - languageCode: afr
+    domain: locallySpoken
+    speakersShare: 0.106
+    sourceId: stats-sa-census-2022
+  - languageCode: nso
+    domain: locallySpoken
+    speakersShare: 0.10
+    sourceId: stats-sa-census-2022
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.087
+    sourceId: stats-sa-census-2022
+  - languageCode: tsn
+    domain: locallySpoken
+    speakersShare: 0.083
+    sourceId: stats-sa-census-2022
+  - languageCode: sot
+    domain: locallySpoken
+    speakersShare: 0.078
+    sourceId: stats-sa-census-2022
+  - languageCode: tso
+    domain: locallySpoken
+    speakersShare: 0.047
+    sourceId: stats-sa-census-2022
+  - languageCode: ssw
+    domain: locallySpoken
+    speakersShare: 0.028
+    sourceId: stats-sa-census-2022
+  - languageCode: ven
+    domain: locallySpoken
+    speakersShare: 0.025
+    sourceId: stats-sa-census-2022
+  - languageCode: nbl
+    domain: locallySpoken
+    speakersShare: 0.017
+    sourceId: stats-sa-census-2022
+  - languageCode: sfs
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: sasl-2023
+# South African Sign Language (sfs) became the 12th official language on 19 July
+# 2023 (Eighteenth Amendment to the Constitution). It carries the official
+# legal-status flag (1.0) above. No census home-language share is published for a
+# sign language, so the locallySpoken row (an estimate of the deaf community's
+# share) is flagged as an estimate via the sasl-2023 source note; the 11 spoken
+# official languages carry their census home-language shares.
+ethnicGroups:
+  # Population group self-identification, Stats SA Census 2022 (Report 03-01-84).
+  - group: Black African
+    percent: 80.9
+    sourceId: stats-sa-census-2022
+  - group: Coloured
+    percent: 8.8
+    sourceId: stats-sa-census-2022
+  - group: White
+    percent: 7.3
+    sourceId: stats-sa-census-2022
+  - group: Indian/Asian
+    percent: 2.7
+    sourceId: stats-sa-census-2022
+timezones:
+  - name: Africa/Johannesburg
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+currency:
+  code: ZAR
+  symbol: "R"
+  name: South African rand
+legalConstraints:
+  - topic: "official languages"
+    description: "Section 6 of the Constitution recognizes 11 official languages (Sepedi, Sesotho, Setswana, siSwati, Tshivenda, Xitsonga, Afrikaans, English, isiNdebele, isiXhosa and isiZulu), plus South African Sign Language made the 12th official language in 2023. The State must use at least two official languages in national government and promote their equal dignity."
+    sourceId: constitution-sec6
+  - topic: "ethnicity data collection"
+    description: "The census collects population-group self-identification (Black African, Coloured, White, Indian/Asian). These are legal categories retained from apartheid-era classification but still used for redress and policy; treat them as self-identification, not biological race."
+    sourceId: stats-sa-census-2022
+  - topic: "national currency / legal tender"
+    description: "The South African rand (ISO 4217 code ZAR, symbol R) is legal tender. Only the South African Reserve Bank may issue banknotes (South African Reserve Bank Act 90 of 1989); the Bank is the sole monetary authority."
+    sourceId: sarb
+paymentCulture:
+  popularMethods:
+    - "Bank and merchant cards (Visa/Mastercard) — dominant in formal retail"
+    - "EFT / bank transfers — widely used for bills and B2B"
+    - "Mobile wallets and QR codes — SnapScan, Zapper, Yoco and PayShap instant payments"
+    - "Cash — still common for small-value and informal transactions"
+  tipping:
+    expected: true
+    typicalAmount: "10% at table-service restaurants; round up for car guards, luggage and petrol attendants"
+    autoIncludedInBill: false
+    note: "Qualitative and customary. South Africa has a strong digital payment culture for an emerging market: card acceptance is broad (Tap-to-Pay), PayShap (2023) enables instant interbank transfers, and mobile QR payments (SnapScan/Zapper/Yoco) are common in retail. No single authoritative national payment-method-share study is asserted here; no percentages are given."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Workplaces are generally relaxed but professional; first-name use is common once working together. English is the dominant language of business. South Africa is a culturally diverse, 11-official-language society, so style varies by community."
+  greetingNorms: "A firm handshake with eye contact is standard in business. A single 'howzit' or 'sawubona'/'hello' opens exchanges; warmth is valued."
+  meetingEtiquette: "Punctuality is expected in formal business though 'African time' may apply in some community contexts. Meetings often open with informal rapport before the agenda; decisions tend to be consultative."
+  topicsToAvoid:
+    - "Race, apartheid and political history — deeply sensitive; approach with care and respect"
+    - "Income and personal wealth comparisons"
+    - "Biltong/boerewors stereotyping as an ice-breaker"
+  giftGivingNotes: "Not expected in business. If visiting a home, a modest gift (wine, flowers or chocolates) is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: ZA-GP
+    file: distinct-regions/za-gp.yaml
+    adminUnitCodes: [ZA-GP]
+  - code: ZA-WC
+    file: distinct-regions/za-wc.yaml
+    adminUnitCodes: [ZA-WC]
+  - code: ZA-KZN
+    file: distinct-regions/za-kzn.yaml
+    adminUnitCodes: [ZA-KZN]
+  - code: ZA-EC
+    file: distinct-regions/za-ec.yaml
+    adminUnitCodes: [ZA-EC]
+sources:
+  - id: stats-sa-census-2022
+    name: "Census 2022 Statistical Release P0301.4 — Population group and home language"
+    publisher: "Statistics South Africa (Stats SA)"
+    url: "https://www.statssa.gov.za/?page_id=7379"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Home-language shares: isiZulu ~24.4%, isiXhosa ~16.3%, Afrikaans ~10.6%, Sepedi ~10.0%, English ~8.7%, Setswana ~8.3%, Sesotho ~7.8%, Xitsonga ~4.7%, siSwati ~2.8%, Tshivenda ~2.5%, isiNdebele ~1.7%. Population groups: Black African ~80.9%, Coloured ~8.8%, White ~7.3%, Indian/Asian ~2.7%."
+  - id: stats-sa-midyear-2023
+    name: "Mid-year population estimates 2023 (~62,027,503)"
+    publisher: "Statistics South Africa (Stats SA)"
+    url: "https://www.statssa.gov.za/?page_id=1854"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Mid-year population estimate ~62.0 million, the basis for the population figure."
+  - id: constitution-sec6
+    name: "Constitution of the Republic of South Africa, 1996 — Section 6 (Languages) and Chapter 9 (State institutions)"
+    publisher: "Government of South Africa"
+    url: "https://www.gov.za/documents/constitution-republic-south-africa-1996"
+    year: 1996
+    accessedDate: "2026-09-19"
+    note: "Sec. 6 lists the 11 official languages; establishes the Pan South African Language Board. Chapter 9 establishes the independent institutions supporting constitutional democracy. Basis for the official-language rows and the official-languages legal constraint."
+  - id: sasl-2023
+    name: "Constitution Eighteenth Amendment Act of 2023 — South African Sign Language as 12th official language"
+    publisher: "Government of South Africa"
+    url: "https://www.gov.za/documents/constitution-eighteenth-amendment-act-12-2023"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Signed into law 19 July 2023, making South African Sign Language (sfs) the 12th official language. Basis for the sfs status rows."
+  - id: sarb
+    name: "South African Reserve Bank — about the Bank and the rand"
+    publisher: "South African Reserve Bank (SARB)"
+    url: "https://www.resbank.co.za/en/home/about-us"
+    accessedDate: "2026-09-19"
+    note: "The rand is South Africa's currency; the SARB is the sole issuing authority and monetary authority. Basis for the currency object and the currency legal constraint."
+  - id: iana-timezone
+    name: "IANA Time Zone Database — Africa/Johannesburg"
+    publisher: "Internet Assigned Numbers Authority (IANA)"
+    url: "https://www.iana.org/time-zones"
+    accessedDate: "2026-09-19"
+    note: "South Africa observes South African Standard Time (UTC+2) year-round, no DST."
