@@ -1,0 +1,131 @@
+code: WHOLE
+name:
+  eng: South Sudan
+  local:
+    - languageCode: eng
+      value: South Sudan
+# Generic, country-wide fallback content for South Sudan (unitary-large,
+# curated SS-* subdivisions plus this synthetic whole-country region). Used by
+# usage_examples/python/get_data_by_ip.py when a visitor's exact ISO 3166-2
+# state is not one of the curated SS-EC/EW/JG/NB/UY files. Content here is
+# deliberately national rather than tied to one state.
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate over most of the country — hot year-round with a distinct wet season (roughly May-October) and a dry season (roughly November-April), driven by the seasonal oscillation of the Inter-Tropical Convergence Zone."
+  - koppenCode: Af
+    description: "Tropical rainforest / wet climate in parts of the far south (especially Western Equatoria), with rain in most months and heavier rainfall in the wet season."
+landmarks:
+  - name: The Sudd
+    description: "One of the world's largest wetlands — a vast floodplain of the White Nile that can cover over 100,000 km² (and up to ~15% of the country during the rainy season), dominated the centre of the country and teeming with wildlife."
+  - name: White Nile
+    description: "The major geographic feature of the country, flowing north out of the Central African uplands and feeding the Sudd."
+  - name: Mount Kinyeti
+    description: "The highest point in South Sudan (3,187 m), in the Imatong Mountains along the Ugandan border (Eastern Equatoria)."
+  - name: Juba
+    description: "The national capital, on the White Nile, and the country's largest city and commercial hub."
+# No UNESCO World Heritage Sites are currently inscribed in South Sudan —
+# noted for accuracy.
+culturalTraits:
+  - "Deep cattle culture — cattle are central to livelihood, bridewealth and identity, especially among the Dinka and Nuer pastoralists"
+  - "Over 60 indigenous ethnic groups and languages under a unified young nation (independent 9 July 2011)"
+  - "Strong egalitarian, acephalous social structures with leadership via lineage, age-sets and 'spear-masters'/spiritual leaders rather than fixed chiefs"
+  - "Community and church life are central; most of the population is Christian and Sunday worship is widely observed"
+prideOf:
+  - "Independence won in July 2011 after decades of war — the world's youngest country"
+  - "Resilience of communities through civil war, displacement and repeated floods"
+  - "Rich cultural and linguistic diversity (Nilotic peoples, pastoralism, song and dance)"
+  - "Abundant natural resources (oil, fertile land along the White Nile, wildlife)"
+animals:
+  popular:
+    - "Cattle (the defining livestock of Dinka and Nuer culture)"
+    - "African fish eagle (national symbol)"
+    - "Elephants, giraffes, buffalo and antelope of the Sudd and southern savannas"
+    - "Nile crocodiles and hippos in the White Nile"
+  unique:
+    - "Cob and other antelope strongholds of the Sudd wetland"
+    - "Migrating birdlife of the Sudd, a Ramsar-class wetland"
+industries:
+  - "Crude oil — the backbone of government revenue; production centred in Unity and Upper Nile states, exported via pipeline to Port Sudan"
+  - "Subsistence agriculture (sorghum, maize, cassava, groundnuts, sesame) — livelihood of most of the population"
+  - "Pastoralism and livestock (cattle, goats, sheep)"
+  - "Small-scale gold mining and forest hardwoods"
+  - "Humanitarian and development aid sector (large UN/NGO presence)"
+sports:
+  - "Football (soccer) — the most popular sport"
+  - "Basketball (a growing national passion, incl. the 'Bright Star' national team)"
+  - "Wrestling (traditional, especially among Nilotic peoples)"
+  - "Volleyball and athletics"
+religions:
+  - name: Christian (Catholic and Protestant/Episcopal dominant)
+    percent: 60.5
+    sourceId: cia-religion
+  - name: African traditional / folk religion
+    percent: 32.9
+    sourceId: cia-religion
+  - name: Muslim
+    percent: 6.2
+    sourceId: cia-religion
+  - name: Other / unaffiliated
+    percent: 0.4
+    sourceId: cia-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Traditional song and dance (e.g. Dinka and Nuer ceremonial dances, Azande music)"
+      - "Community football and wrestling matches"
+      - "Church/choir gatherings"
+  - season: dry
+    items:
+      - "Cattle camps and drying-to-easier-travel period (Nov-Apr), when village life, markets and visits intensify"
+      - "Independence Day celebrations (9 July) and wet-season-ending harvest fairs"
+  - season: wet
+    items:
+      - "Indoor/community cultural festivals during heavy rains (May-Oct)"
+      - "Planting-season community work parties"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kisra / kisra (thin fermented sorghum flatbread)"
+      - "Sorghum porridge (asida / ugali-style) with stews"
+      - "Agashe (grilled meat, often with peanuts) — especially in Juba"
+      - "Groundnut (peanut) and sesame stews"
+      - "Lake/White Nile fish, dried and soups"
+      - "Cassava, sweet potatoes, mangoes and papayas in the south"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern western dress, widely worn in towns"
+      - "Colorful printed fabrics / 'kitenge'-style wraps for women"
+      - "Traditional beaded body ornamentation at ceremonial dances (cowrie beads, jewelry)"
+      - "Arabic-style jalabiya/gallabiya worn by some men, especially in the north"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government offices and many formal businesses roughly 08:00-16:00/17:00 Monday-Friday; markets run long hours and are most active in the dry season when roads are passable."
+  lunchBreakTiming: "Midday; many businesses pause for lunch."
+  notableShutdownPeriods:
+    - period: "Wet season rains (approx. May-October)"
+      description: "Unpaved rural roads become impassable and markets/supply chains slow sharply, especially in the Sudd and Equatoria."
+    - period: "Public holidays"
+      description: "Independence Day (9 July) and other national/religious holidays close most formal businesses."
+  notes: "Economic activity is heavily constrained by insecurity, poor infrastructure (very few paved roads) and seasonal flooding; the economy is largely cash-based and substantially US-dollarised, with mobile money growing under the central bank's 2025 legal-tender push."
+sources:
+  - id: cia-religion
+    name: "CIA World Factbook — South Sudan (People: religions, 2020 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/south-sudan/"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "National religion shares: Christian 60.5%, African traditional/folk 32.9%, Muslim 6.2%, other/unaffiliated <1% (residual 0.4 to reach 100)."
+  - id: no-unesco
+    name: "South Sudan — World Heritage status"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/ss"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Confirms South Sudan has no inscribed UNESCO World Heritage Site, so 'No UNESCO...' comment above is accurate."

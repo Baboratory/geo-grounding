@@ -1,0 +1,13 @@
+# ISO 639-3 code 'arb' verified at https://iso639-3.sil.org/code/arb (Arabic,
+# Standard / macrolanguage, Living). Accessed 2026-09-19. Arabic was the
+# co-official language before independence (with English) and remains widely
+# understood in South Sudan as a learned/second language, though no longer
+# official.
+code: arb
+name:
+  eng: Standard Arabic
+  local: العربية
+commonPhrases:
+  hello: Marhaba
+  thankYou: Shukran
+  goodbye: Ma'a as-salama

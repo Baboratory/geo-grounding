@@ -1,0 +1,210 @@
+alpha3: SSD
+alpha2: SS
+name:
+  eng: South Sudan
+  local:
+    - languageCode: eng
+      value: South Sudan
+flagEmoji: "🇸🇸"
+capital: Juba
+isSovereign: true
+# Governance classification — unitary-large.
+# South Sudan's population (~12M, 2023 est., CIA World Factbook) is far below
+# the ~20-25M population criterion for unitary-large, and English is the single
+# de jure official language (the 2011 Transitional Constitution makes all ~60
+# indigenous languages "national languages" to be respected and promoted, but
+# none is official at national level). It is nevertheless classified
+# unitary-large on the strength of criterion 3 — a widely recognized
+# cultural-historical regional identity. The country is one of the clearest
+# such cases on the continent: the segmentary ethnic structures (Dinka, Nuer,
+# Shilluk, Azande, Bari/Kakwa/Kuku, etc.) map onto the ten ISO 3166-2 states as
+# de facto homelands, and the 2013-2018 civil war and subsequent communal
+# conflicts ran substantially along these regional-ethnic fault lines. We
+# therefore curate a representative set of real SS-* regions alongside the
+# generic WHOLE fallback. This governs the administrative structure only; the
+# conflict history and data-limitation caveats are documented transparently in
+# the region files and source notes.
+governanceType: unitary-large
+iso3166_2_prefix: SS
+hasSubdivisions: true
+# English is the sole official working language (Transitional Constitution of
+# the Republic of South Sudan 2011, Art. 6(2)); all indigenous languages are
+# recognised national languages under Art. 6(1). speakersShare for official =
+# 1.0 (a legal-status flag, not a population measure).
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: ss-constitution
+  # LocallySpoken shares are ESTIMATES based on L1/L2 speaker counts (Dinka
+  # ~4.5M, Nuer ~1.8M, Shilluk ~920k, Bari ~420k, Zande ~350k, Juba Arabic
+  # L1 ~250k + L2 ~1.2M) against a population of ~12M. They are rough because
+  # of heavy civil-war displacement and the absence of any reliable post-2011
+  # census. Shares within the locallySpoken domain are not expected to sum to
+  # 1 (multilingualism).
+  - languageCode: din
+    domain: locallySpoken
+    speakersShare: 0.37
+    sourceId: speak-estimates
+  - languageCode: nus
+    domain: locallySpoken
+    speakersShare: 0.15
+    sourceId: speak-estimates
+  - languageCode: shk
+    domain: locallySpoken
+    speakersShare: 0.08
+    sourceId: speak-estimates
+  - languageCode: pga
+    domain: locallySpoken
+    speakersShare: 0.12
+    sourceId: speak-estimates
+  - languageCode: zne
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: speak-estimates
+  - languageCode: bfa
+    domain: locallySpoken
+    speakersShare: 0.035
+    sourceId: speak-estimates
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.05
+    # English is official and the language of instruction but is NOT the
+    # everyday tongue for most of the population (poor literacy and the recent
+    # switch from Arabic to English in schools) — a low locallySpoken estimate.
+    sourceId: speak-estimates
+  - languageCode: arb
+    domain: foreign
+    speakersShare: 0.10
+    # Arabic was a co-official language before independence and is still
+    # understood/used as a second language in parts of the country (urban
+    # centres, the former educational system), though it carries no official
+    # status today.
+    sourceId: speak-estimates
+# Ethnic composition: CIA World Factbook 2011 estimate (repeated through the
+# 2020 editions). Figures are rough because of civil-war population changes
+# and the lack of updated demographic studies — no reliable census has been
+# conducted since independence.
+ethnicGroups:
+  - group: Dinka (Jieng)
+    percent: 35.8
+    sourceId: cia-ethnic
+  - group: Nuer (Naath)
+    percent: 15.6
+    sourceId: cia-ethnic
+  - group: Other groups (Shilluk, Azande, Bari, Kakwa, Kuku, Murle, Mandari, Didinga, Ndogo, Bviri, Lndi, Anuak, Bongo, Lango, Dungotona, Acholi, Baka, Fertit)
+    percent: 48.6
+    sourceId: cia-ethnic
+timezones:
+  - name: Africa/Juba
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+# South Sudan is on Central Africa Time (UTC+2) year-round with no DST since
+# it moved back one hour from East Africa Time (UTC+3) on 1 February 2021.
+currency:
+  code: SSP
+  symbol: "£"
+  name: South Sudanese pound
+legalConstraints:
+  - topic: "official languages"
+    description: "English is the sole official working language of South Sudan (Transitional Constitution 2011, Art. 6(2)), and is the language of instruction at all levels of education. All ~60 indigenous languages are recognised national languages to be respected, developed and promoted (Art. 6(1)); none is official nationwide, though several (Dinka, Nuer, Bari, Zande, Shilluk, etc.) function as the working languages of daily life in their states."
+    sourceId: ss-constitution
+  - topic: "currency and electronic money"
+    description: "The legal tender is the South Sudanese pound (SSP). The country is a largely cash-based, partially US-dollarized economy. In July 2025 the Bank of South Sudan declared mobile money legal tender, requiring businesses to accept it alongside cash, as part of a push toward a digitalised payment system (M-Gurush, MTN MoMo and DigiCash are the main operators)."
+    sourceId: boss-mobile-money
+  - topic: "demographic statistics availability"
+    description: "No reliable census has been conducted since independence in 2011, and demographic figures (population, languages, ethnic composition) are estimates. Two decades of civil wars plus the 2013-2018 internal conflict and renewed 2024-2025 fighting caused massive displacement, making any statistical field provisional rather than exact."
+    sourceId: cia-southsudan
+# paymentMethodShares intentionally omitted: no authoritative national
+# breakdown of payment-method market shares (e.g. cash vs mobile money vs card)
+# was found for South Sudan — the payment landscape is described qualitatively
+# in paymentCulture below instead.
+paymentCulture:
+  popularMethods:
+    - "Cash — the dominant everyday method in a largely cash-based economy"
+    - "US dollars circulate alongside the SSP and are widely used for larger transactions"
+    - "Mobile money (M-Gurush, MTN MoMo, DigiCash) — growing, used heavily by UN/NGO humanitarian cash-transfer programming and urban transfers; declared legal tender by the Bank of South Sudan in July 2025"
+    - "Bank transfers and cards — limited, mostly confined to Juba and the small banking sector"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected or customary"
+    autoIncludedInBill: false
+    note: "Tipping is not a strong custom; service charges are not routinely auto-added."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Communal, elder-led Nilotic heritage with strong respect for age, kinship and community consensus. Cattle and lineage are deeply valued (Dinka and Nuer especially). Society remains largely rural (over 80%), with the family/clan as the basic social unit."
+  greetingNorms: "A handshake and warm greeting are customary; greetings vary by language (e.g. Dinka, Nuer, Bari, Juba Arabic 'Asalaam aleikum'). Time is usually taken for greetings before business."
+  meetingEtiquette: "Meetings tend to be unhurried and consensus-driven, often involving community or customary leaders. Decisions on the ground are frequently brokered through customary chiefs and elders rather than formal channels."
+  topicsToAvoid:
+    - "Ethnic divisions and the 2013-2018 civil war / renewed conflict — sensitive and painful topics"
+    - "Cattle ownership and politics of the region in a way that reads as criticism"
+    - "The oil-resource conflicts and Sudan border disputes (incl. Abyei)"
+  giftGivingNotes: "Modest gifts, especially food or practical items, are well received; showing generosity and community-mindedness matters more than the value of the gift."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: SS-EC
+    file: distinct-regions/SS-EC.yaml
+    adminUnitCodes: [SS-EC]
+  - code: SS-EW
+    file: distinct-regions/SS-EW.yaml
+    adminUnitCodes: [SS-EW]
+  - code: SS-JG
+    file: distinct-regions/SS-JG.yaml
+    adminUnitCodes: [SS-JG]
+  - code: SS-NB
+    file: distinct-regions/SS-NB.yaml
+    adminUnitCodes: [SS-NB]
+  - code: SS-UY
+    file: distinct-regions/SS-UY.yaml
+    adminUnitCodes: [SS-UY]
+sources:
+  - id: ss-constitution
+    name: "Transitional Constitution of the Republic of South Sudan, 2011 (Part 1, Chapter 1, Article 6)"
+    publisher: "Republic of South Sudan / Constitute Project"
+    url: "https://www.constituteproject.org/constitution/South_Sudan_2011"
+    year: 2011
+    accessedDate: "2026-09-19"
+    note: "Article 6(1) makes all indigenous languages national languages; Article 6(2) establishes English as the sole official working language and the language of instruction. Basis for the official-domain 1.0 English row and the 'official languages' legalConstraints entry."
+  - id: cia-languages
+    name: "CIA World Factbook — South Sudan (People: languages)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/south-sudan/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Confirms English as the official language and lists Arabic (Juba and Sudanese variants) plus ethnic languages (Dinka, Nuer, Bari, Zande, Shilluk) among the spoken languages."
+  - id: cia-ethnic
+    name: "CIA World Factbook — South Sudan (People: ethnic groups, 2011 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/south-sudan/"
+    year: 2011
+    accessedDate: "2026-09-19"
+    note: "Ethnic composition: Dinka (Jieng) 35.8%, Nuer (Naath) 15.6%, with the remainder made up of Shilluk, Azande, Bari, Kakwa, Kuku, Murle, Mandari, Didinga, Ndogo, Bviri, Lndi, Anuak, Bongo, Lango, Dungotona, Acholi, Baka, Fertit. Figures are 2011 estimates; no newer authoritative census exists."
+  - id: cia-religion
+    name: "CIA World Factbook — South Sudan (People: religions, 2020 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/south-sudan/"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "Religions: Christian 60.5%, folk religion (African traditional) 32.9%, Muslim 6.2%, other <1%, unaffiliated <1%. Basis for the religions figures used at national (WHOLE) level."
+  - id: cia-southsudan
+    name: "CIA World Factbook — South Sudan (country profile including economy and demographic profile)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/south-sudan/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Background, displacement and demographic-profile data; documents that ethnic/language figures are estimates owing to civil war and lack of updated demographic studies; basis for the 'demographic statistics availability' legalConstraints entry and the estimate caveats."
+  - id: speak-estimates
+    name: "Composite estimate — first/second-language speaker shares in South Sudan (~12M population, 2023 est.)"
+    publisher: "Composite estimate (based on UNESCO/Pew/Ethnologue and English Wikipedia language-population figures)"
+    url: "https://en.wikipedia.org/wiki/Languages_of_South_Sudan"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Local/foreign speakersShare values are derived from L1/L2 speaker counts found in Encyclopaedia sources (Dinka ~4.5M, Nuer ~1.8M, Shilluk ~920k, Bari ~420k, Zande ~350k; Juba Arabic L1 ~250k + L2 ~1.2M) divided over ~12M total population. All share values in the locallySpoken/foreign domain are ESTIMATES, not census figures."
+  - id: boss-mobile-money
+    name: "Opinion — South Sudan's financial reset: currency swaps, hybrid regimes, and going digital"
+    publisher: "Radio Tamazuj"
+    url: "https://radiotamazuj.org/en/news/article/opinion-south-sudans-financial-reset-currency-swaps-hybrid-regimes-and-going-digital"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Documents that the Bank of South Sudan declared mobile money legal tender in July 2025 (businesses must accept it like cash), with MTN, Zain and DigiCash integrating with banks; cash-desert / SSP devaluation and US-dollarisation context. Basis for the 'currency and electronic money' legalConstraints entry and paymentCulture."

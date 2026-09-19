@@ -1,0 +1,86 @@
+code: SS-NB
+name:
+  eng: Northern Bahr el Ghazal
+  local:
+    - languageCode: eng
+      value: Northern Bahr el Ghazal
+# No separate native-language toponym is commonly used for the administrative
+# state (an Arabic-derived name); local entry given in English (official).
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate with distinct wet and dry seasons; low-gradient topography causes regular seasonal (flash) flooding, most notably along the Lol River and in Aweil South."
+landmarks:
+  - name: Aweil
+    description: "The state capital and largest urban centre in the northwest, a major hub for the Dinka Rek/Malual communities."
+  - name: Lol River floodplain
+    description: "The seasonal river system whose floodplains sustain farming and grazing but also cause recurrent flooding."
+  - name: Aweil East and South
+    description: "Farming and pastoral counties on the frontier with Sudan, including the geopolitically sensitive border with Abyei."
+culturalTraits:
+  - "Predominantly Dinka (Rek/Malual) homeland — one of the great Dinka population centres"
+  - "Acephalous Dinka society built on patrilineal lineages, age-sets, 'spear-masters'/spiritual leaders and clan ties (gol)"
+  - "Agro-pastoralism: cattle herding combined with sorghum cultivation"
+prideOf:
+  - "The Dinka heritage — cattle, lineage and the martial tradition"
+  - "Resilience of a densely settled, largely agrarian Dinka society"
+  - "Strong community mutual-aid (gol) networks"
+animals:
+  popular:
+    - "Cattle — the defining livestock of the Dinka"
+    - "Goats and sheep"
+    - "Waterfowl and small game of the floodplain grasslands"
+industries:
+  - "Livestock herding (Dinka pastoralism)"
+  - "Subsistence agriculture — sorghum, sesame, maize, groundnuts (a major sorghum zone)"
+  - "Ox-plough farming (a local emphasis on ox-drawn cultivation)"
+sports:
+  - "Traditional wrestling"
+  - "Football"
+# religions intentionally omitted: no authoritative state-level breakdown found;
+# the Dinka of Northern Bahr el Ghazal blend Christianity with strong
+# traditional practice — see SSD WHOLE for national figures.
+entertainment:
+  - season: allYear
+    items:
+      - "Dinka song, dance and cattle-camp social life"
+      - "Community wrestling"
+  - season: dry
+    items:
+      - "Dry-season cattle camps and larger village gatherings (Nov-Apr)"
+  - season: wet
+    items:
+      - "Planting-season community work and floodwater retreat (May-Oct)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sorghum porridge with vegetable/groundnut stews"
+      - "Milk and cattle products"
+      - "Sesame- and peanut-based dishes"
+      - "Dried fish and wild greens"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern dress alongside traditional wraps"
+      - "Cowrie-beaded ceremonial adornment for Dinka dances"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Markets and farms run daylight hours; government offices roughly 08:00-16:00 Mon-Fri."
+  lunchBreakTiming: "Midday."
+  notableShutdownPeriods:
+    - period: "Wet season flooding (approx. May-October)"
+      description: "Seasonal sheet-flooding in Aweil South/East disrupts farming, displaces communities and damages the low-gradient road network."
+  notes: "A largely agrarian, densely Dinka-settled state; the strongly seasonal rainfall pattern and flat terrain make water management and flood resilience central to its economy."
+sources:
+  - id: nbgh-profile
+    name: "Northern Bahr el Ghazal state profile (Dinka Rek/Malual population, Aweil, agro-pastoral economy)"
+    publisher: "Aggregate state/administrative profiles (UN-funded and academic, e.g. FEWSNET livelihood-zone descriptions)"
+    url: "https://fews.net/east-africa/south-sudan"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "State background: predominantly Dinka (Rek/Malual) population, Aweil capital, cattle plus sorghum farming economy, seasonal flood risk (western floodplain sorghum-and-cattle livelihood zone)."

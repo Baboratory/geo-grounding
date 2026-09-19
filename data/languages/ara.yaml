@@ -1,0 +1,10 @@
+code: ara
+name:
+  eng: Arabic
+  local: العربية
+commonPhrases:
+  hello: "مرحباً (marhaban)"
+  thankYou: "شكراً (shukran)"
+  goodbye: "مع السلامة (ma'a as-salama)"
+  yes: "نعم (na'am)"
+  no: "لا (la)"
