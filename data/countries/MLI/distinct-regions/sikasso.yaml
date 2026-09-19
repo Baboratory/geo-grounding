@@ -1,0 +1,78 @@
+code: ML-3
+name:
+  eng: Sikasso Region
+  local:
+    - languageCode: bam
+      value: Sikaso
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna climate with a pronounced rainy season — the wettest, most agriculturally productive part of Mali.
+landmarks:
+  - name: Sikasso city
+    description: "Mali's second city, the country's southern breadbasket and a historic cotton and commerce hub near the borders with Burkina Faso and Côte d'Ivoire."
+  - name: Tata of Sikasso
+    description: "The 19th-century earthen defensive ramparts (tata) built by the Kénédougou kingdom, the longest surviving such fortification in West Africa."
+  - name: Farako and the Cascades of Banfora area
+    description: "Waterfalls and hills in the border region shared with Côte d'Ivoire."
+culturalTraits:
+  - "Senufo and Supyiré heartland; the Poro initiation society and Senufo sculptural art are world-renowned"
+  - "Last bastion of resistance against the Samori empire in the 19th century (Sikasso's tata)"
+  - "Fertile 'Green Mali', rich in agriculture, shea and distinctive mango culture"
+prideOf:
+  - "Its role as Mali's food basket and its legendary tata fortification"
+  - "Senufo art, sculpture and the Colobus monkey mask tradition"
+  - "Hospitality of the southern peoples (Senufo, Supyiré, Minianka, Bobo)"
+animals:
+  popular:
+    - "Elephant (in protected areas to the north)"
+    - "Baboon"
+    - "Roan antelope"
+  unique:
+    - "Bongo antelope"
+    - "Green mamba"
+    - "Western chimpanzee"
+industries:
+  - "Agriculture — cotton (Mali's leading producer), maize, sorghum, rice, mangoes, cashews and shea butter"
+  - "Food processing (mango juice, shea, rice mills)"
+  - "Livestock and market gardening"
+  - "Commerce with Burkina Faso and Côte d'Ivoire"
+sports:
+  - "Football"
+  - "Traditional wrestling (la lutte)"
+  - "Basketball"
+entertainment:
+  - season: allYear
+    items:
+      - "Senufo masquerade and Poro-related community ceremonies"
+      - "Mango-season open-air markets"
+  - season: dry
+    items:
+      - "Cotton harvest and trade festivals"
+      - "Marriage and naming ceremonies"
+  - season: wet
+    items:
+      - "Farming and planting celebrations"
+      - "Storytelling and drumming evenings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tô with groundnut or baobab-leaf sauce (a daily staple)"
+      - "Riz gras (jollof-style rice)"
+      - "Poulet bicyclette (free-range grilled chicken)"
+      - "Mangoes fresh and in sauces (a regional specialty)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Bogolan (mud-cloth) wraps and shirts"
+      - "Brightly printed cotton wax-print and pagne styles"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri in offices; markets trade daily, peaking in the cooler hours."
+  lunchBreakTiming: "Long midday break roughly 12:30-15:00."
+  notes: "Decisively rural and agricultural; the harvest/wet season defines the economic calendar. Large regional market at Sikasso draws traders from three countries."

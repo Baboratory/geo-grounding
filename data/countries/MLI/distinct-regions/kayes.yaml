@@ -1,0 +1,81 @@
+code: ML-1
+name:
+  eng: Kayes Region
+  local:
+    - languageCode: bam
+      value: Kayi
+climates:
+  - koppenCode: BSh
+    description: Hot semi-arid Sahel climate with a short, intense rainy season and a long, very hot dry season.
+  - koppenCode: Aw
+    description: Tropical savanna in the southernmost, more humid parts of the region.
+landmarks:
+  - name: Mounts of Fouta Djallon foothills
+    description: "Mali's wettest, westernmost corner near the Senegal border, where the headwaters of the Senegal and Gambia rivers rise."
+  - name: Kayes city centre
+    description: "A historic rail and trade town ('the Furnace of Mali' for its heat), on the Senegal River and the Dakar–Bamako railway."
+  - name: Félou and Gouina falls
+    description: "Waterfalls on the Senegal River, the latter a dramatic 500-metre-wide cascade near the Mauritanian border."
+culturalTraits:
+  - "Kassonké and Soninke heartland — frontier of the ancient Ghana Empire and the Soninke diaspora homeland"
+  - "Strong griot (jeli) and oral-history tradition"
+  - "A crossroads of Senegal, Mauritania and Guinea influences; many families have kin abroad (migration is a regional hallmark)"
+prideOf:
+  - "Ancient Ghana Empire heritage (Koumbi Saleh, near the Mauritanian border) and the Soninke legacy"
+  - "The Senegal River and its iconic waterfalls (Gouina, 'the Niagara of Mali')"
+  - "Warm, resilient culture of the Kasso and Soninke communities"
+animals:
+  popular:
+    - "West African giraffe (reintroduced population nearby)"
+    - "Olive baboon"
+    - "Warthog"
+  unique:
+    - "Dorcas gazelle"
+    - "Nile crocodile (Senegal River)"
+    - "Senegal parrot"
+industries:
+  - "Gold mining (region is a major Malian gold producer)"
+  - "Agriculture (rain-fed millet, sorghum, maize; market gardening near the river)"
+  - "Fishing on the Senegal River"
+  - "Livestock and transhumance"
+  - "Commerce along the Dakar–Bamako rail corridor"
+sports:
+  - "Football"
+  - "Traditional wrestling (la lutte)"
+  - "Athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Griot performances and praise-song festivals"
+      - "Community wrestling and football events"
+  - season: dry
+    items:
+      - "Riverbank leisure and fishing festivals along the Senegal River"
+      - "Traditional ceremonies and durbars"
+  - season: wet
+    items:
+      - "Farming and planting-season festivals"
+      - "Indoor drumming and storytelling evenings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "To (thick millet or sorghum porridge) with okra or baobab-leaf sauce"
+      - "Mafé-style groundnut stews"
+      - "Tô fana with dried-fish sauces"
+      - "Fresh river fish from the Senegal"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colourful bogolan (mud-cloth) and printed cotton garments"
+      - "Long flowing boubous for men; headwraps (turbans/gélé) for women"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-16:30 Mon-Fri in offices; markets and open-air trade follow the heat, often before noon and again in late afternoon."
+  lunchBreakTiming: "Midday break roughly 12:30-15:00, extended during the hottest months."
+  notes: "Rural and agricultural rhythm, tied closely to the wet season and transhumance; a large share of households depend on remittances from migrant family members."

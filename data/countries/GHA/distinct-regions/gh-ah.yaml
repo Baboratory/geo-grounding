@@ -1,0 +1,103 @@
+code: GH-AH
+name:
+  eng: Ashanti Region
+  local:
+    - languageCode: aka
+      value: Asante Mantam
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-dry with two rainy seasons; humid forest and forest-savanna transition zone around Kumasi."
+landmarks:
+  - name: Manhyia Palace Museum, Kumasi
+    description: "Royal palace of the Asantehene, seat of the Asante Kingdom's modern court and history."
+  - name: Asante traditional buildings
+    description: "Last-surviving traditional Asante timber-and-earth architecture, protected as UNESCO World Heritage sites near Kumasi."
+    unescoWorldHeritage: true
+  - name: Lake Bosomtwe
+    description: "Ghana's only natural lake, an ancient meteorite crater lake ringed by villages."
+  - name: Bonwire kente-weaving village
+    description: "The historic centre of kente cloth weaving, a short drive from Kumasi."
+  - name: Kejetia Market
+    description: "Kumasi's vast central market, one of West Africa's largest trading hubs."
+  - name: Adanwomase / Ntonso (adinkra)
+    description: "Villages known for traditional adinkra symbol cloth stamping."
+culturalTraits:
+  - "Heartland of the Asante (Ashanti) Kingdom, the once-ascendant Akan empire; the Asantehene and the Golden Stool (Sika Dwa) remain potent symbols"
+  - "Kente and adinkra textile traditions; vibrant proverbs and oral culture"
+  - "Cherished chieftaincy institution — Akwasidae festival honours the ancestors at Manhyia"
+prideOf:
+  - "The Asante Kingdom and the Golden Stool, a powerful symbol of national identity"
+  - "Kente cloth and adinkra textiles"
+  - "Kumasi, the revered 'Garden City' and commercial heart of central Ghana"
+  - "Lake Bosomtwe's natural beauty"
+animals:
+  popular:
+    - "African elephant (forest populations)"
+    - "Monkeys and baboons"
+    - "Leopard (rare)"
+  unique:
+    - "Royal antelope"
+    - "Forest buffalo"
+    - "White-crested hornbill"
+industries:
+  - "Cocoa and agro-trading (Ashanti is a leading cocoa region)"
+  - "Commerce and retail (Kejetia market)"
+  - "Gold mining (e.g. Obuasi and historic Ashanti goldfields)"
+  - "Timber and furniture"
+  - "Kente / artisanal weaving and textiles"
+  - "Manufacturing and services around Kumasi"
+sports:
+  - "Football — home of Asante Kotoko, one of Africa's great clubs"
+  - "Boxing"
+  - "Athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Asante Kotoko football and stadium atmosphere"
+      - "Kente-weaving and adinkra craft tours (Bonwire, Ntonso)"
+      - "Traditional drumming, abigya and acrobatic sword-arm dance"
+  - season: dry
+    items:
+      - "Akwasidae — the Asantehene's ancestor-honouring festival at Manhyia"
+      - "Durbar processions and year-end celebrations"
+  - season: wet
+    items:
+      - "Museums and cultural tours (Manhyia, military museum)"
+      - "Indoor ceremonies and storytelling sessions"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fufu with light soup (an Asante signature)"
+      - "Mpotompoto (yam-and-plantain porridge)"
+      - "Abomu (groundnut-ish bean stew) with ampesi (boiled yam/plantain)"
+      - "Groundnut soup"
+      - "Kelewele and roasted plantain"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kente cloth (woven at Bonwire and Adanwomase)"
+      - "Adinkra-printed cloth and wax-print outfits"
+      - "Western business attire in urban Kumasi"
+  - season: dry
+    items:
+      - "Elaborate kente and chiefly regalia at Akwasidae and community durbar events"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri for offices; Kejetia market trades daily, often from early morning to dusk, including some weekends."
+  lunchBreakTiming: "Midday break roughly 12:00-14:00."
+  notes: "Busy trading rhythm around Kumasi; markets rarely close on Sunday."
+  sourceIds: [gss-census-2021]
+sources:
+  - id: gss-census-2021
+    name: "Ghana 2021 Population and Housing Census (PHC) — General Report"
+    publisher: "Ghana Statistical Service (GSS)"
+    url: "https://census2021.statsghana.gov.gh/"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "Context for the Ashanti Region's commercial and demographic profile."

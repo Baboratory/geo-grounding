@@ -1,0 +1,84 @@
+code: ML-5
+name:
+  eng: Mopti Region
+  local:
+    - languageCode: bam
+      value: Mopti
+climates:
+  - koppenCode: BSh
+    description: Hot semi-arid Sahel climate on the edge of the Inner Niger Delta; a marked wet season and long dry season.
+  - koppenCode: Aw
+    description: Tropical savanna influences in the southern Delta and on the plateau.
+landmarks:
+  - name: Old Towns of Djenné (Great Mosque)
+    description: The Great Mud Mosque of Djenné, the largest mud-brick building in the world, on an island in the Inner Niger Delta, a UNESCO World Heritage site.
+    unescoWorldHeritage: true
+  - name: Cliff of Bandiagara (Land of the Dogons)
+    description: Dramatic sandstone escarpment and plateau dotted with Dogon cliff villages, granaries and mask sanctuaries, a UNESCO World Heritage site.
+    unescoWorldHeritage: true
+  - name: Mopti city
+    description: Venice of Mali, a canal-crossed port town at the confluence of the Bani and Niger rivers and the gateway to the Delta and Dogon country.
+  - name: Inner Niger Delta
+    description: One of West Africa's largest floodplains, a lifeline for fishing, rice and livestock, and a crucial wetland for migrating birds.
+culturalTraits:
+  - Crossroads of the Bozo fisher, Fulani (Peul) herder, Dogon and Songhai worlds
+  - Dogon cosmology, mask dances and exceptional cliff architecture are a world treasure
+  - The Delta's seasonal flooding choreographs fishing, rice-farming and transhumance
+prideOf:
+  - Djenné's Great Mosque and the extraordinary Dogon cliff dwellings and culture
+  - The Inner Niger Delta's prodigious fish, rice and floodplain life
+  - Centuries of trade and pilgrimage heritage along the Niger
+animals:
+  popular:
+    - Hippopotamus
+    - African manatee (in the Delta)
+    - Herons, storks and pelicans
+  unique:
+    - West African manatee
+    - Sitatunga (semi-aquatic antelope)
+    - Kordofan giraffe (northern fringes)
+industries:
+  - Fisheries (the Delta is Mali's fishing heartland)
+  - Rice growing in the floodplains
+  - Livestock and transhumance (Fulani herding)
+  - Tourism (Djenné, Dogon country, Mopti harbour)
+  - Small-scale commerce along the Niger waterway
+sports:
+  - Football
+  - Traditional wrestling
+  - Pirogue (canoe) racing in the Delta
+entertainment:
+  - season: allYear
+    items:
+      - Dogon mask dances and ritual performances
+      - Harbour life and pirogue traffic at Mopti
+  - season: dry
+    items:
+      - The great annual Djenné mosque-replastering festival (crépissage), usually in the dry season
+      - Delta fishing festivals as the waters recede
+  - season: wet
+    items:
+      - Flood-season pirogue gatherings and rice-planting ceremonies
+traditionalDishes:
+  - season: allYear
+    items:
+      - Fresh fish of the Delta, where capitaine (Nile perch) is the prized catch
+      - Tô with okra or baobab-leaf sauce
+      - Riz gras (jollof-style rice) around Djenné
+      - Fakoye (dried-fish and baobab-leaf sauce)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Woven Fulani blankets and indigo-washed Dogon cloth
+      - Bogolan (mud-cloth) wraps and printed cotton boubous
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: 08:00-17:00 Mon-Fri in offices; the Mopti harbour and markets trade daily, peaking around dawn and dusk.
+  lunchBreakTiming: Midday break roughly 12:30-15:00.
+  notes: Strong seasonal rhythm tied to the Inner Niger Delta's flooding and the harvest and transhumance cycle.

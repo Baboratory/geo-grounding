@@ -1,0 +1,117 @@
+code: WHOLE
+name:
+  eng: Mali
+  local:
+    - languageCode: bam
+      value: Mali
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate in the far north, on the edge of the Sahara.
+  - koppenCode: BSh
+    description: Hot semi-arid Sahel climate across most of the country.
+  - koppenCode: Aw
+    description: Tropical savanna climte in the southern zone, with a pronounced rainy season.
+landmarks:
+  - name: Timbuktu (Tombouctou)
+    description: Fabled Saharan trading town and centre of Islamic learning; its Sankore mosque, mud mosques and manuscript libraries mark the golden age of the Mali and Songhai empires.
+    unescoWorldHeritage: true
+  - name: Old Towns of Djenne (Great Mosque)
+    description: The Great Mud Mosque of Djenne, one of the largest mud-brick buildings in the world, on an island in the Inner Niger Delta.
+    unescoWorldHeritage: true
+  - name: Cliff of Bandiagara (Land of the Dogons)
+    description: Dramatic sandstone escarpment and plateau in south-central Mali, dotted with Dogon villages, granaries, sanctuaries and mask traditions.
+    unescoWorldHeritage: true
+  - name: Tomb of Askia
+    description: The 17-metre pyramidal mud tomb of Emperor Askia Mohamed in Gao, built in 1495 at the height of the Songhai Empire.
+    unescoWorldHeritage: true
+culturalTraits:
+  - Griot (jeli) oral tradition of genealogy, history and epic praise-song is central to identity
+  - "Deep, syncretic Islam: the overwhelming Muslim majority blends Islamic practice with indigenous beliefs"
+  - Communal, hierarchical and elder-respecting family and village structures
+  - World-famous percussion and textiles (djembe, balafon, bogolan mud-cloth)
+prideOf:
+  - Timbuktu and the legacies of the Mali and Songhai empires
+  - Griot storytelling and legendary Sahelian music
+  - Monumental mud architecture (Djenne, Tomb of Askia)
+  - The cultural mosaic of dozens of language and ethnic groups
+animals:
+  popular:
+    - Dromedary camel (northern Sahara and Sahel)
+    - Zebu cattle (Baoule and Fulani herds)
+    - Donkey
+    - Giant eland
+    - West African giraffe
+  unique:
+    - Aoudad (Barbary sheep), in the rocky northern massifs
+    - West African lion (critically endangered relic population in the Sahel)
+    - Fennec fox, in the far northern desert
+industries:
+  - Gold mining (among Africa's largest producers; Sadiola, Loulo-Gounkoto, Morila)
+  - Agriculture (cotton is a leading export, with cereals and rice)
+  - Livestock and pastoralism
+  - Inner Niger Delta fisheries
+sports:
+  - Football (most popular)
+  - Traditional wrestling (lutte traditionnelle)
+  - Athletics
+  - Basketball (the women's national team is a regional power)
+religions:
+  - name: Muslim
+    percent: 96.4
+    sourceId: instat-rgph5-2022
+  - name: Christian
+    percent: 2.3
+    sourceId: instat-rgph5-2022
+  - name: Traditional animist beliefs
+    percent: 0.7
+    sourceId: instat-rgph5-2022
+entertainment:
+  - season: dry
+    items:
+      - "Festival au Desert (Festival in the Desert) - the Tuareg desert music festival historically held near Essakane, in abeyance since the 2012 crisis"
+      - "Eid al-Fitr and Eid al-Adha (Tabaski) feasting - lunar"
+  - season: wet
+    items:
+      - "Festival sur le Niger - the barge-and-pirogue cultural festival of Segou, historically in the early rainy season"
+      - "Independence Day (22 September) national celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "To (thick millet or corn porridge) with a peanut or baobab-leaf sauce"
+      - "Rice with peanut or okra sauce and beef or fish"
+      - "Mafe (beef or chicken in peanut sauce)"
+      - "Fried fish and riverine accompaniments, especially along the Niger"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Boubou (the flowing men's robe) - plain daily, richly embroidered for Friday prayer and festivals"
+      - "Women's pagne (wrapped cloth) and headwrap"
+      - "Bogolan-fini (mud-cloth) garments and accessories"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Public-sector and office hours commonly run about 08:00-12:30 and 15:00-18:00 (a split day to avoid the midday heat); many private businesses work roughly 08:00-17:00 or 18:00."
+  lunchBreakTiming: "A long midday break around 12:00-15:00 is common, especially in the hot dry season and in the public sector; many shops close for several hours."
+  notableShutdownPeriods:
+    - period: Ramadan (lunar)
+      description: "Fasting month when many offices shorten hours and the daily rhythm shifts to evening iftar gatherings; Eid al-Fitr and Eid al-Adha (Tabaski) are among the largest public holidays of the year."
+  notes: "Friday is a working day, but the Friday midday congregational prayer and a long break are nearly universally observed."
+sources:
+  - id: instat-rgph5-2022
+    name: "Recensement General de la Population et de l'Habitat (RGPH-5), 2022 - published results"
+    publisher: "Institut National de la Statistique (INSTAT), Mali"
+    url: "https://www.instat-mali.org/"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Religion breakdown used in this file (Muslim ~96.4%, Christian ~2.3%, traditional ~0.7%)."
+  - id: unsco-whs-mali
+    name: "Mali - Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/ml"
+    accessedDate: "2026-09-19"
+    note: "Basis for the unescoWorldHeritage flags on Timbuktu, Old Towns of Djenne, Cliff of Bandiagara and Tomb of Askia."
