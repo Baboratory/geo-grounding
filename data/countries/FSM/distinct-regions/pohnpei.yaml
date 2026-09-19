@@ -1,0 +1,94 @@
+code: FM-PON
+name:
+  eng: Pohnpei
+  local:
+    - languageCode: pon
+      value: Pohnpei
+    - languageCode: eng
+      value: Pohnpei
+# Hosts the national capital Palikir and the city of Kolonia. Includes the
+# Pohnpei outer islands (Kapingamarangi, Nukuoro, Pingelap, Mokil) and the
+# world-famous Nan Madol ruins. UTC+11.
+climates:
+  - koppenCode: Af
+    description: "Tropical marine — warm, wet and lush; one of the rainiest inhabited islands in the world (green high-island interior)."
+landmarks:
+  - name: Nan Madol
+    description: "The ruined megalithic city on a mangrove lagoon — a UNESCO World Heritage Site and the only major ancient city of the Pacific built on a lagoon."
+  - name: Sokehs Rock and Kepirohi Falls
+    description: "Landmark cliffs and one of Pohnpei's many tall waterfalls."
+  - name: Palikir
+    description: "The national capital, an unassuming administrative town on Pohnpei island."
+culturalTraits:
+  - "Matrilineal clans and sapei (title) system; the bai men's houses"
+  - "The Nahnmwarki and Wasai chiefly lineages rooted at Nan Madol"
+  - "Pohnpeian (pon) everyday usage; outer islands speak Kapingamarangi (kpg), Nukuoro (nkr), Pingelapese (pif), Mokilese (mkj)"
+prideOf:
+  - "Nan Madol — a wonder of ancient Pacific engineering"
+  - "Pohnpei's extraordinary lushness and waterfalls"
+  - "Pearl farming in the mangrove lagoons"
+animals:
+  popular:
+    - "Reef sharks"
+    - "Flying foxes"
+    - "Mangrove crabs"
+    - "Sea turtles"
+  unique:
+    - "Pohnpei fantail (endemic bird)"
+    - "Micronesian megapode (endemic)"
+    - "Kepirohi and Nan Madol mangrove ecosystems"
+industries:
+  - "Public sector (national capital)"
+  - "Fisheries and pearl farming"
+  - "Tourism (Nan Madol, diving)"
+  - "Subsistence agriculture"
+sports:
+  - "Baseball"
+  - "Basketball"
+  - "Soccer"
+  - "Outrigger races"
+religions:
+  - name: Christianity — Catholic and Protestant
+    percent: 90.0
+    sourceId: religion-factbook-state
+entertainment:
+  - season: allYear
+    items:
+      - "Nan Madol ruins and cultural tours"
+      - "Waterfall and rainforest hikes"
+      - "Diving and snorkelling the lagoon"
+  - season: wet
+    items:
+      - "Lush green-season waterfall hikes"
+  - season: dry
+    items:
+      - "Peak tourist visits (drier Jan-Apr)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Breadfruit, taro and cassava"
+      - "Fresh tuna and reef fish"
+      - "Sakau (piper methysticum kava drink) — a traditional Pohnpeian ceremonial brew"
+      - "Pandanus and coconut preparations"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light island clothing; wrap-around garments for formal occasions"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and shops roughly Mon-Fri; Sunday is a rest day."
+  notes: "National-capital economy; Kolonia and Palikir are the commercial centers."
+sources:
+  - id: religion-factbook-state
+    name: "CIA World Factbook state-level religion (estimate)"
+    publisher: "CIA World Factbook (archival copy)"
+    url: "https://worldfactbookarchive.org/archive/2024/FM"
+    year: 2010
+    accessedDate: "2026-09-18"
+    note: "State-level religious affiliation is overwhelmingly Christian; figure is an approximation reconciling the national estimate."

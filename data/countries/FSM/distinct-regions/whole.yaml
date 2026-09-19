@@ -1,0 +1,119 @@
+code: WHOLE
+name:
+  eng: Federated States of Micronesia
+  local:
+    - languageCode: eng
+      value: Federated States of Micronesia
+# Generic country-wide fallback content for the federation. The four state
+# identities (each with its own language, culture and constitution) are strong,
+# so visit-specific content lives in the state region files; this WHOLE entry is
+# the country-wide fallback used when no state is targeted.
+climates:
+  - koppenCode: Af
+    description: "Tropical marine — warm year-round (~27-31°C) with heavy rainfall in most months and no pronounced dry season."
+landmarks:
+  - name: Nan Madol (Pohnpei)
+    description: "The ruined megalithic city on a lagoon — a UNESCO World Heritage Site and a marvel of ancient Micronesian engineering."
+  - name: Stone money of Yap
+    description: "The enormous rai stone discs of Yap — the world's best-known traditional currency."
+  - name: Truk Lagoon wrecks (Chuuk)
+    description: "Over 60 WWII shipwrecks in Truk Lagoon — the world's greatest wreck-diving destination."
+  - name: Kosrae's Lelu ruins and ancient walls
+    description: "Megalithic basalt ruins on Kosrae, akin to Nan Madol and dating to the island's early kingdoms."
+culturalTraits:
+  - "Federation of four distinct state cultures (Yap, Chuuk, Pohnpei, Kosrae) — each with its own language, chiefs and matrilineal customs"
+  - "The bai (traditional men's meeting house) and communal reciprocity across the islands"
+  - "Navigational seafaring heritage — the original Micronesian star navigators"
+  - "Free association with the United States under the Compact of Free Association"
+prideOf:
+  - "Pristine reefs and famous diving (Truk Lagoon wrecks, Nan Madol)"
+  - "Resilient island cultures and languages despite small populations"
+  - "The original star navigators of the Pacific"
+  - "A global leader in tuna-rich marine stewardship"
+animals:
+  popular:
+    - "Reef sharks (grey, reef, hammerhead)"
+    - "Manta rays"
+    - "Sea turtles (green, hawksbill)"
+    - "Flying foxes"
+    - "Tuna (yellowfin, skipjack)"
+  unique:
+    - "Pohnpei fantail (endemic bird)"
+    - "Micronesian megapode"
+    - "Giant African land snail (invasive, notable)"
+industries:
+  - "Fisheries (tuna — one of the world's largest tuna license holders)"
+  - "US Compact financial assistance and the public sector"
+  - "Tourism (diving, WWII history, Nan Madol)"
+  - "Smallholder agriculture (taro, breadfruit, copra)"
+sports:
+  - "Basketball"
+  - "Baseball"
+  - "Soccer"
+  - "Traditional outrigger and sailing races"
+religions:
+  # CIA World Factbook (2010 est.).
+  - name: Christianity — Roman Catholic
+    percent: 54.7
+    sourceId: religion-factbook
+  - name: Christianity — Protestant (Congregational, Baptist, Seventh-day Adventist, Assembly of God)
+    percent: 41.1
+    sourceId: religion-factbook
+  - name: Christianity — Church of Jesus Christ of Latter-day Saints (Mormon)
+    percent: 1.5
+    sourceId: religion-factbook
+  - name: Other
+    percent: 2.7
+    sourceId: religion-factbook
+entertainment:
+  - season: allYear
+    items:
+      - "Island beach days, reef snorkelling and diving"
+      - "Village festivals and bai gatherings"
+      - "WWII heritage visits across the states"
+      - "Traditional outrigger and dance performances"
+  - season: wet
+    items:
+      - "Rainforest trails and waterfall season on the high islands"
+      - "Indoor/cultural and museum activities (Nan Madol, state museums)"
+  - season: dry
+    items:
+      - "Peak diving and the drier Jan-Apr window"
+      - "Outer-island boat trips and fisheries-season activity"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Breadfruit, taro and cassava staples"
+      - "Fresh tuna and reef fish, often raw (similar to ceviche/poisson cru)"
+      - "Pandanus fruit and bananas; coconut in most preparations"
+      - "Cassava/coconut desserts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light island-appropriate clothing; sulu/wrap-around garments for formal occasions"
+      - "Woven fibre and shell adornments for dance and ceremony"
+      - "Modest clothing for church and village settings"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government/offices roughly Mon-Fri 08:00-17:00; retail often closes Saturday afternoon and Sunday."
+  lunchBreakTiming: "Typically 12:00-13:00."
+  notableShutdownPeriods:
+    - period: "Late December - early January"
+      description: "Christmas-New Year holiday slowdown."
+    - period: "Typhoon/wet season (Jun-Dec)"
+      description: "Severe weather can disrupt inter-island transport and outdoor tourism."
+  notes: "Small cash-based economy; hours vary by state capital. Sunday is widely a rest day across the federation."
+sources:
+  - id: religion-factbook
+    name: "CIA World Factbook — Micronesia, Federated States religion (2010 estimate)"
+    publisher: "CIA World Factbook (archival copy)"
+    url: "https://worldfactbookarchive.org/archive/2024/FM"
+    year: 2010
+    accessedDate: "2026-09-18"
+    note: "Religious composition: Roman Catholic 54.7%, Protestant 41.1%, LDS/Mormon 1.5%, other 1.9%, none/unspecified remainder."

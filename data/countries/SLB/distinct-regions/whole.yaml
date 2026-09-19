@@ -1,0 +1,131 @@
+code: WHOLE
+name:
+  eng: Solomon Islands
+  local:
+    - languageCode: eng
+      value: Solomon Islands
+    - languageCode: pis
+      value: Solomon Aelan
+# Generic country-wide fallback content (unitary-small, single synthetic whole
+# region). The ~120 indigenous language communities and the 9 provinces are
+# folded into the national character rather than curated as separate regions.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest across most of the archipelago — warm year-round (roughly 25-32°C) with heavy rainfall Nov-Apr."
+  - koppenCode: Aw
+    description: "Tropical savanna on drier leeward/rain-shadow coasts, with a pronounced dry season roughly May-Oct."
+landmarks:
+  - name: Guadalcanal and the Honiara waterfront
+    description: "The largest island and seat of the capital; WWII battlefields (Bloody Ridge, Henderson Field) and the coastal 'Iron Bottom Sound' wrecks draw divers and history visitors."
+  - name: East Rennell
+    description: "A UNESCO World Heritage Site (1998) — the raised coral atoll of Rennell Island, with Lake Tegano, the largest lake in the Pacific islands."
+  - name: Marovo Lagoon (New Georgia)
+    description: "A large protected saltwater lagoon and World Heritage tentative site, famous for diving and kayaking."
+  - name: Honiara Central Market
+    description: "The lively everyday produce and handicraft market at the heart of the capital."
+  - name: Tenaru Falls and the waterfalls of Malaita
+    description: "Jungle waterfalls swimming holes across the mountain interiors of the eastern islands."
+culturalTraits:
+  - "Kastom — customary village governance, land tenure and reciprocity that remain central to everyday life"
+  - "The sharing of betel nut (buai) and kava ceremonies as social rituals"
+  - "~120 distinct indigenous languages across the islands, an extraordinary linguistic mosaic"
+  - "Shell money (tafuliae) still used for bride-price on the Malaita and outer islands"
+  - "Strong oral storytelling, woodcarving and tapa/weaving craft traditions"
+prideOf:
+  - "The 2000 Olympic gold in athletics (Honiara-born athlete on the world stage)"
+  - "Warm Pacific hospitality and overwhelmingly convivial village culture"
+  - "Pristine reefs, WWII history and unspoiled island landscapes"
+  - "Communal life and the resilience of kastom governance"
+animals:
+  popular:
+    - "Dugong"
+    - "Sea turtles (green and hawksbill)"
+    - "Saltwater crocodile"
+    - "Flying foxes"
+    - "Reef and pelagic fish (tuna)"
+  unique:
+    - "Guadalcanal Rail (endemic)"
+    - "Dwarf cassowary"
+    - "Fiji/Solomon shrikebill and numerous endemic white-eyes"
+industries:
+  - "Tropical timber and logging"
+  - "Fisheries (tuna and other pelagics)"
+  - "Cocoa, palm oil and copra"
+  - "Gold mining (Gold Ridge)"
+  - "Tourism (diving, WWII history, ecotourism) — growing but still small"
+sports:
+  - "Soccer (association football)"
+  - "Rugby league"
+  - "Cricket"
+  - "Volleyball"
+  - "Beach and island sports"
+religions:
+  # SINSO 2019 census denominational figures (top two listed); the remainder
+  # comprises other Protestant denominations and small Christian/indigenous
+  # animist-minority practice. Christianity overall is the large majority.
+  - name: Christianity — Church of Melanesia (Anglican)
+    percent: 32.2
+    sourceId: census-2019-religion
+  - name: Christianity — Roman Catholic
+    percent: 20.0
+    sourceId: census-2019-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Village kava sessions and betel-nut sharing"
+      - "Island beach days, snorkelling and diving on Guadalcanal's reefs"
+      - "Market days and local festivals (incl. self-government week in June)"
+      - "WWII heritage tours around Honiara"
+  - season: wet
+    items:
+      - "Jungle waterfall swimming as rivers run full"
+      - "Green-season diving with clearer water on some reefs"
+  - season: dry
+    items:
+      - "Peak dry-season festivals and inter-island trips"
+      - "Marovo Lagoon kayaking and outer-island visits"
+      - "National events and sporting fixtures"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Poi (pounded taro) and cassava"
+      - "Fish and seafood cooked in coconut cream (including kokoda-style ceviche)"
+      - "Kumara (sweet potato) and island greens"
+      - "Tropical fruit — papaya, banana, coconut, pineapple, soursop"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Lava-lava (wrap-around waistcloth) for everyday and ceremonial wear"
+      - "Tapa and woven fibre decorations for festivals and dances"
+      - "Light, modest island-appropriate clothing"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government/offices roughly Mon-Fri 08:00-16:30; many shops and markets open Sat and much of Sunday is a rest day."
+  lunchBreakTiming: "Typically 12:30-13:30."
+  notableShutdownPeriods:
+    - period: "Late December - early January"
+      description: "Christmas-New Year holiday slowdown."
+    - period: "Cyclone/wet season (Nov-Apr)"
+      description: "Heavy rain and occasional severe weather can disrupt transport and outdoor operations."
+  notes: "Tourism and inter-island travel peak in the drier season (May-Oct). Sunday is widely treated as a rest day."
+sources:
+  - id: census-2019-religion
+    name: "2019 Census religious affiliation (denominational top-two)"
+    publisher: "Solomon Islands National Statistics Office (SINSO)"
+    url: "https://statistics.gov.sb/church-of-melanesia-remains-as-most-populous-religious-denomination-with-a-40-increase-since-2009/"
+    year: 2019
+    accessedDate: "2026-09-18"
+    note: "Church of Melanesia 32.2% and Roman Catholic 20.0% from the 2019 census as reported by SINSO; the balance is other Protestant denominations and smaller minority practice."
+  - id: unesco-east-rennell
+    name: "East Rennell — UNESCO World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/854/"
+    year: 1998
+    accessedDate: "2026-09-18"
+    note: "East Rennell inscribed as a UNESCO World Heritage Site in 1998."

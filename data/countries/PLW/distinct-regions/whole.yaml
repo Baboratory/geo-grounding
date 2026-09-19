@@ -1,0 +1,137 @@
+code: WHOLE
+name:
+  eng: Palau
+  local:
+    - languageCode: eng
+      value: Palau
+    - languageCode: pau
+      value: Belau
+# Generic country-wide fallback content (unitary-small, single synthetic whole
+# region). Palau's 16 states and the outer-island communities (Sonsorol, Tobi,
+# Angaur) are folded into the national character rather than curated sub-regions.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — warm and humid year-round (~28°C mean) with heavy rainfall in most months."
+  - koppenCode: Aw
+    description: "Tropical savanna on some drier coasts; Feb-Apr is the relative dry spell though rain remains frequent."
+landmarks:
+  - name: Rock Islands (Chelbacheb) and Jellyfish Lake
+    description: "The famous limestone Rock Islands of Koror, with the landlocked Jellyfish Lake where the golden jellyfish are harmless."
+  - name: Kayangel and the Rock Islands lagoon
+    description: "Protected lagoon with pristine reefs, World-Heritage-listed Rock Islands Southern Lagoon (UNESCO 2012)."
+  - name: Peleliu WWII battlefield
+    description: "The site of the intense 1944 Battle of Peleliu, a major Pacific-war historical destination."
+  - name: Babeldaob and the Badrulchau monoliths
+    description: "The main island with the ancient megalithic stone monoliths near Airai and the new capital Ngerulmud."
+  - name: Blue Corner dive site
+    description: "A world-famous wall-and-reef dive site off Ngemelis, noted for sharks, mantas and drop-off currents."
+culturalTraits:
+  - "Matrilineal heritage and the traditional council of chiefs (Rubekul beluu)"
+  - "Palauan 'bai' — the traditional men's meeting house and communal values"
+  - "Storytelling, dance and the bai song-and-narrative tradition"
+  - "Show of mana (respect) and reciprocity as central social values"
+  - "Stone money (on Yap) legacy and shell/glass-bead valuables across Micronesia"
+prideOf:
+  - "The Rock Islands and pristine marine biodiversity (a shark sanctuary nation)"
+  - "Pacific-war history and the peaceful recovery since"
+  - "The world's first shark sanctuary and a widely-watched marine-protection stance"
+  - "Palauan language, culture and the resilience of island identity"
+animals:
+  popular:
+    - "Reef sharks (grey, whitetip, blacktip)"
+    - "Manta rays"
+    - "Green and hawksbill sea turtles"
+    - "Dugong"
+    - "Saltwater crocodile (rare, on some islands)"
+  unique:
+    - "Golden jellyfish (Mastigias papua etpisoni, Jellyfish Lake)"
+    - "Palau flying fox"
+    - "Ngeaur (Angaur) monitor lizard"
+industries:
+  - "Tourism (diving, rock islands) — the dominant economic driver (~40% of GDP est.)"
+  - "Fisheries and aquaculture"
+  - "US Compact-of-Free-Association assistance and the public sector"
+  - "Small-scale agriculture (taro, cassava, copra)"
+sports:
+  - "Basketball"
+  - "Baseball"
+  - "Soccer"
+  - "Volleyball"
+  - "Traditional outrigger canoe racing"
+religions:
+  # 2020-census figures as reported by the US State Dept 2023 IRF. Catholic and
+  # evangelical Protestant dominate; Modekngei is the indigenous syncretic faith.
+  - name: Christianity — Roman Catholic
+    percent: 47.0
+    sourceId: religion-irf
+  - name: Christianity — evangelical and other Protestant
+    percent: 25.0
+    sourceId: religion-irf
+  - name: Christianity — Seventh-day Adventist
+    percent: 5.0
+    sourceId: religion-irf
+  - name: Modekngei (indigenous animist-Christian faith)
+    percent: 5.0
+    sourceId: religion-irf
+  - name: Islam
+    percent: 5.0
+    sourceId: religion-irf
+entertainment:
+  - season: allYear
+    items:
+      - "Diving and snorkelling on the Rock Islands and Blue Corner"
+      - "Island beach days and lagoon kayaking"
+      - "Village celebrations and bai song-and-dance"
+      - "WWII heritage visits (Peleliu, Koror)"
+  - season: dry
+    items:
+      - "Clearer-water diving on the relative Feb-Apr dry spell"
+      - "Tourist season peak activities and festivals"
+  - season: wet
+    items:
+      - "Rainforest and waterfall visits on Babeldaob as rivers run"
+      - "More sheltered lagoon and cultural activities"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Taro (onion) and cassava staples"
+      - "Seafood — fish, crab, clam, prepared simply and often raw with lime (demok)"
+      - "Kelp and fresh island vegetables, breadfruit and bananas"
+      - "Sun-dried 'Bai' treats and coconut desserts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light island-appropriate clothing; wrap-around dresses (mui) for women on formal occasions"
+      - "Traditional woven fibre and shell adornments for dance ceremonies"
+      - "Modest long-sleeved/long garments for village and church settings"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 4]
+  - season: wet
+    months: [1, 5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government/offices roughly Mon-Fri 08:00-17:00; shops and tourism businesses open long hours around Koror."
+  lunchBreakTiming: "Typically 12:00-13:00."
+  notableShutdownPeriods:
+    - period: "Late December - early January"
+      description: "Christmas-New Year holiday slowdown."
+    - period: "Typhoon/wet season (Jun-Nov)"
+      description: "Severe weather can occasionally disrupt flights and outdoor tourism."
+  notes: "Tourism activity concentrates around holiday and peak dry-season visitor flows; Sunday is widely a rest day."
+sources:
+  - id: religion-irf
+    name: "US State Dept 2023 Report on International Religious Freedom — Palau"
+    publisher: "US Department of State"
+    url: "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/palau"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "Religious composition from the 2020 census as reported in the IRF: ~47% Catholic, ~25% evangelical/other Protestant, ~5% SDA, ~5% Modekngei, ~5% Muslim."
+  - id: unesco-rock-islands
+    name: "Rock Islands Southern Lagoon — UNESCO World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1386/"
+    year: 2012
+    accessedDate: "2026-09-18"
+    note: "Rock Islands Southern Lagoon inscribed 2012."

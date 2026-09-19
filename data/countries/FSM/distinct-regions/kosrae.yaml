@@ -1,0 +1,89 @@
+code: FM-KOS
+name:
+  eng: Kosrae
+  local:
+    - languageCode: kos
+      value: Kosrae
+    - languageCode: eng
+      value: Kosrae
+# Easternmost state of the federation — a single high island with ancient ruins.
+# UTC+11.
+climates:
+  - koppenCode: Af
+    description: "Tropical marine — warm and wet; the mountainous interior is lush and cloud-capped."
+landmarks:
+  - name: Lelu ruins
+    description: "Ancient megalithic basalt ruins on the island of Lelu, akin to Nan Madol."
+  - name: Mount Finkol (Kosrae's highest peak)
+    description: "The island's mountain with rainforest trails and sweeping views."
+  - name: Sleeping Lady mountain
+    description: "The iconic mountain ridge that dominates Kosrae's landscape."
+culturalTraits:
+  - "Matrilineal clans and the traditional hegen (community assembly) structure"
+  - "Kosraean (kos) as the everyday language alongside English"
+  - "One of the most traditional and community-bonded of the four states"
+prideOf:
+  - "The unspoiled, deeply traditional island way of life"
+  - "Lelu's ancient ruins"
+  - "Kosrae's pristine forests and reefs"
+animals:
+  popular:
+    - "Reef sharks"
+    - "Sea turtles"
+    - "Flying foxes"
+  unique:
+    - "Kosrae flying fox"
+    - "Micronesian megapode"
+industries:
+  - "Public sector"
+  - "Fisheries"
+  - "Smallholder agriculture"
+  - "Modest tourism (ecotourism and diving)"
+sports:
+  - "Baseball"
+  - "Basketball"
+  - "Volleyball"
+religions:
+  - name: Christianity — Protestant and Catholic
+    percent: 90.0
+    sourceId: religion-factbook-state
+entertainment:
+  - season: allYear
+    items:
+      - "Lelu ruins archaeological visits"
+      - "Mountain hikes and waterfall excursions"
+      - "Diving the fringing reef"
+  - season: wet
+    items:
+      - "Green-season rainforest hikes"
+  - season: dry
+    items:
+      - "Peak visiting window (drier Jan-Apr)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Breadfruit, taro and cassava"
+      - "Fresh reef fish and tuna"
+      - "Pandanus fruit, coconut and local bananas"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light island clothing; wrap-around garments for formal occasions"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and shops roughly Mon-Fri; Sunday is a rest day."
+  notes: "Tofol is the state capital; the island is small and cash-based."
+sources:
+  - id: religion-factbook-state
+    name: "CIA World Factbook state-level religion (estimate)"
+    publisher: "CIA World Factbook (archival copy)"
+    url: "https://worldfactbookarchive.org/archive/2024/FM"
+    year: 2010
+    accessedDate: "2026-09-18"
+    note: "State-level religious affiliation is overwhelmingly Christian; figure is an approximation reconciling the national estimate."
