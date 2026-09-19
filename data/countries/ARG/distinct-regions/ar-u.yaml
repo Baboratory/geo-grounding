@@ -1,0 +1,103 @@
+code: AR-U
+name:
+  eng: Chubut
+  local:
+    - languageCode: spa
+      value: Chubut
+climates:
+  - koppenCode: BSk
+    description: "Cold semi-arid steppe: dry, windy, with cool-to-cold temperatures across the Patagonian plateau."
+  - koppenCode: ET
+    description: "Tundra in the western highlands along the Andes."
+landmarks:
+  - name: Península Valdés
+    description: "A UNESCO-listed wildlife reserve where southern right whales, sea lions and penguins gather."
+    unescoWorldHeritage: true
+  - name: Los Alerces National Park
+    description: "UNESCO-listed Patagonian Andean forest of ancient alerce trees and glacial lakes."
+    unescoWorldHeritage: true
+  - name: Puerto Madryn
+    description: "Coastal whale-watching gateway and diving center of the gulf."
+  - name: Gaiman
+    description: "The heart of the Welsh (y Wladfa) community; famous for its Welsh tea houses."
+  - name: Parque Paleontológico Valle de los Molles
+    description: "Dinosaur fossil site of the Cretaceous."
+culturalTraits:
+  - "The Patagonia region where the Welsh (Y Wladfa) settled in the 19th century and where Patagonian Welsh is still spoken"
+  - "Mapuche and Tehuelche indigenous heritage"
+  - "A frontier, windswept steppe identity with a strong sheep-ranching gaucho culture"
+  - "Wildlife and nature tourism as a way of life"
+prideOf:
+  - "Península Valdés and its right whales"
+  - "The ancient forests of Los Alerces"
+  - "The unique Welsh-Argentine tea-house culture of Gaiman"
+  - "The windswept, untouched Patagonian landscape"
+animals:
+  popular:
+    - "Southern right whale (winter visitors at Península Valdés)"
+    - "Magellanic penguin colonies"
+    - "Guanaco across the steppe"
+    - "Southern sea lion"
+  unique:
+    - "The endemic Chubutian lizard and other Patagonian steppe endemics"
+industries:
+  - "Oil and natural gas (Comodoro Rivadavia basin and offshore blocks)"
+  - "Fishing and aquaculture along the coast"
+  - "Sheep farming / wool"
+  - "Wildlife and adventure tourism (whales, penguins, wind sports)"
+sports:
+  - "Football"
+  - "Whale-watching and diving around Puerto Madryn"
+  - "Kitesurfing and wind sports on the coast"
+  - "Trekking in Los Alerces"
+religions:
+  - name: Roman Catholic
+    percent: 55.0
+    sourceId: ar-patagonia-religion
+  - name: No religion
+    percent: 24.0
+    sourceId: ar-patagonia-religion
+  - name: Evangelical Protestant
+    percent: 17.0
+    sourceId: ar-patagonia-religion
+  - name: Other
+    percent: 4.0
+    sourceId: ar-patagonia-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Wildlife watching (whales, penguins, sea lions, guanacos)"
+      - "Patagonian asado and mate culture"
+      - "Folk music and the gaucho festivals"
+  - season: summer
+    items:
+      - "Adventure tourism — trekking, wind sports and coastal tours in the long daylight of the Patagonian summer"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Roughly 09:00-18:00; coastal tourism towns are highly seasonal."
+  lunchBreakTiming: "A long midday break is customary."
+  notableShutdownPeriods:
+    - period: "Austral winter (June-August)"
+      description: "Frigid Patagonian winter slows outdoor tourism, though whale season peaks in spring."
+    - period: "January"
+      description: "Peak austral-summer holiday season for tourism and coastal business."
+  notes: "Chubut is one of the southern hemisphere's windiest regions; discover the Welsh tea-house culture of Gaiman and the wildlife of Península Valdés."
+sources:
+  - id: ar-patagonia-religion
+    name: "Segunda Encuesta Nacional sobre Creencias y Actitudes Religiosas (2019) — Patagonia breakdown"
+    publisher: "CEIL-CONICET"
+    url: "https://www.ceil-conicet.gov.ar/2019/12/creer-y-dejar-de-creer-segunda-encuesta-sobre-creencias-y-actitudes-religiosas-en-argentina/"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "Patagonia has among the highest no-religion and Evangelical shares nationally; province-level figures approximate the survey's regional breakdown. Estimates flagged here."

@@ -1,0 +1,92 @@
+code: CL-RM
+name:
+  eng: Región Metropolitana de Santiago
+  local:
+    - languageCode: spa
+      value: Región Metropolitana de Santiago
+climates:
+  - koppenCode: Csa
+    description: "Mediterranean: warm dry summers, cool rainy winters; the Andes to the east."
+landmarks:
+  - name: Cerro San Cristóbal / Metropolitan Park
+    description: "The city's hilltop park with the white Virgin statue overlooking Santiago."
+  - name: Palacio de La Moneda
+    description: "The presidential palace on Plaza de la Constitución's historic core."
+  - name: Plaza de Armas
+    description: "The colonial center and cathedral square of the capital."
+  - name: Sky Costanera
+    description: "South America's tallest building, with panoramic views of the city and the Andes."
+  - name: Barrio Bellavista
+    description: "Bohemian quarter of street art, cafés and the home of poet Pablo Neruda, La Chascona."
+culturalTraits:
+  - "The political, financial and cultural capital, housing ~40% of the national population"
+  - "A fast, cosmopolitan metropolitan identity alongside a strong Chilean courtesy and formality"
+  - "Coffee culture, pastelería and a growing gastronomy scene"
+  - "A fortress against the surrounding Andes with strong football club loyalties"
+prideOf:
+  - "Being the heart and economic engine of Chile (Colo-Colo football, major universities)"
+  - "The impeccable view of the snow-capped Andes from almost anywhere"
+  - "Neruda's La Chascona and the city's cultural institutions"
+animals:
+  popular:
+    - "Andean condor seen over the mountains"
+    - "Culpeo fox in the Metropolitan Park margins"
+    - "House sparrows and hummingbirds in the parks"
+  unique:
+    - "The endemic Chilean tinamous and the Andean wildlife of the nearby cordillera"
+industries:
+  - "Finance, banking, government and corporate headquarters"
+  - "Technology, services and startups — Santiago is Chile's tech hub"
+  - "Retail and consumption (the largest market in the country)"
+  - "Tourism and culture"
+sports:
+  - "Football (Colo-Colo, Universidad de Chile, Universidad Católica)"
+  - "Tennis and golf clubs of the eastern suburbs"
+  - "Skiing at nearby Andean resorts (Valle Nevado, El Colorado) in winter"
+religions:
+  - name: Roman Catholic
+    percent: 50.0
+    sourceId: cl-santiago-religion
+  - name: No religion / other
+    percent: 32.0
+    sourceId: cl-santiago-religion
+  - name: Evangelical / Protestant
+    percent: 18.0
+    sourceId: cl-santiago-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Theatre, cinema, museums and the Parque Forestal / GAM cultural centers"
+      - "Football derbies and nightlife in Bellavista and Lastarria"
+      - "Café and terrace culture; ramadas (fondas) at Fiestas Patrias"
+  - season: summer
+    items:
+      - "Sundays in the Metropolitan Park, city pools and escapes to the nearby coast (Valparaíso, Viña del Mar)"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices roughly 09:00-18:00/19:00; lunch is often taken around 13:00-14:00."
+  lunchBreakTiming: "A moderate lunch break; a working lunch is common in the professional district."
+  notableShutdownPeriods:
+    - period: "Fiestas Patrias (September 18-19)"
+      description: "The whole country (and capital) celebrates; activity pauses."
+    - period: "February"
+      description: "Austral summer; much of the capital empties for holidays and business slows."
+  notes: "Santiago's winter brings the highest pollution/photo-chemical smog in the country; many people escape to the Andes or the coast at weekends."
+sources:
+  - id: cl-santiago-religion
+    name: "Censo 2024 (INE) — religion results, Región Metropolitana"
+    publisher: "Instituto Nacional de Estadística (INE) de Chile"
+    url: "https://censo2024.ine.gob.cl"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "The capital region skews somewhat less Catholic and more secular than the national average; approximate regional figures derived from the 2024 census religion results."

@@ -1,0 +1,122 @@
+code: WHOLE
+name:
+  eng: Argentina
+  local:
+    - languageCode: spa
+      value: República Argentina
+# Generic country-wide fallback content for Argentina (federal). Used via the
+# 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py when a
+# visitor's specific province (e.g. AR-X Córdoba, AR-W Corrientes) isn't one of the
+# curated files (AR-C CABA, AR-N Misiones, AR-U Chubut, AR-A Salta).
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical across the Pampas and the Mesopotamia (northeast): hot humid summers, mild winters, rain year-round."
+  - koppenCode: BWh
+    description: "Hot arid in the Cuyo region (Mendoza, San Juan) and parts of the northwest."
+  - koppenCode: BWk
+    description: "Cold arid on the Patagonian steppe and high Andean plateau."
+  - koppenCode: Csb
+    description: "Mediterranean in the Andean foothills of Mendoza/San Juan (dry summers, cool wet winters)."
+  - koppenCode: ET
+    description: "Tundra in the high Andes and on the Tierra del Fuego mountain spine; polar conditions on the far south."
+landmarks:
+  - name: Casa Rosada
+    description: "The presidential palace at Plaza de Mayo in Buenos Aires, famed for Eva Perón's balcony speeches."
+  - name: Aconcagua
+    description: "The highest peak in the Americas (6,961 m) in the Mendoza Andes."
+  - name: Perito Moreno Glacier
+    description: "One of the world's few advancing glaciers, in Los Glaciares National Park (Santa Cruz)."
+    unescoWorldHeritage: true
+  - name: Iguazú Falls
+    description: "A vast 2.7-km-wide waterfall system on the Brazil border in Misiones."
+    unescoWorldHeritage: true
+  - name: Obelisco de Buenos Aires
+    description: "A 67.5-m obelisk on Avenida 9 de Julio, an icon of the capital."
+  - name: Quebrada de Humahuaca
+    description: "A colorful Andean canyon valley in Jujuy, carrying centuries of trade-route history."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Passionate 'asado' barbecue culture and the shared mate tea ritual"
+  - "Tango born in the working-class barrios of Buenos Aires"
+  - "Rioplatense Spanish with distinctive voseo and intonation"
+  - "Strong European (especially Italian and Spanish) immigrant heritage blending into gaucho tradition"
+  - "Football (fútbol) as a near-religious national passion"
+prideOf:
+  - "Iguazú Falls, Aconcagua and Patagonia's glaciers"
+  - "Argentine beef, wine (Mendoza) and the dulce de leche"
+  - "Football World Cup victories and icons like Maradona and Messi"
+  - "Tango and the tango heritage of Buenos Aires"
+  - "The gaucho and cowboy traditions of the Pampas"
+animals:
+  popular:
+    - "Rufous hornero (national bird — builds distinctive mud nests)"
+    - "Andean condor"
+    - "Guanaco (southern relative of the llama)"
+    - "Careto/white-eared opossum in the warmer east"
+  unique:
+    - "Magellanic penguin colonies on the Patagonian coast"
+    - "Vicuña in the high Andes"
+    - "Yacaré caiman in the Mesopotamia wetlands"
+industries:
+  - "Agro-exports — soybeans and derivatives, corn, wheat, beef (one of the world's leading food exporters)"
+  - "Oil and natural gas (incl. the Vaca Muerta shale formation)"
+  - "Lithium mining in the northwest (Catamarca, Jujuy, Salta)"
+  - "Food processing, motor vehicles and auto parts"
+  - "Wine (Mendoza) and tourism"
+sports:
+  - "Football — the dominant passion; Argentina is a multiple World Cup winner"
+  - "Pato (national sport, played on horseback)"
+  - "Rugby and basketball — widely played"
+  - "Polo, tennis, and trekking/climbing in the Andes and Patagonia"
+religions:
+  - name: Roman Catholic
+    percent: 62.9
+    sourceId: ar-religion
+  - name: No religion
+    percent: 18.9
+    sourceId: ar-religion
+  - name: Evangelical Protestant
+    percent: 15.3
+    sourceId: ar-religion
+  - name: Other (Judaism, Islam, other Christian denominations)
+    percent: 2.9
+    sourceId: ar-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Tango shows and milongas (dance halls) in Buenos Aires"
+      - "Live music, rock nacional and folklore festivals"
+      - "Football matches and asado gatherings with friends"
+      - "Cinema, streaming and late-night dining culture"
+  - season: summer
+    items:
+      - "Beach and resort tourism on the Atlantic coast (Mar del Plata) and in Patagonia"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Offices typically run 09:00-18:00 Monday-Friday; many businesses keep a long midday break, and dinners are late (from ~21:00)."
+  lunchBreakTiming: "A long midday break is common; in Buenos Aires lunch is often taken late (~13:00-14:00)."
+  notableShutdownPeriods:
+    - period: "Mid-January through early March"
+      description: "Austral summer is the traditional holiday season; business slows, and many firms run a shorter schedule in January and February."
+    - period: "Late December to early January"
+      description: "Christmas and New Year closures."
+  notes: "Argentina uses standard southern-hemisphere seasons. The summer holiday period (especially January and February) sees reduced business activity; 'dólar blue' exchange-rate behavior is worth knowing for payments/invoicing discussions during periods of high inflation and capital controls."
+sources:
+  - id: ar-religion
+    name: "Segunda Encuesta Nacional sobre Creencias y Actitudes Religiosas (2019)"
+    publisher: "CEIL-CONICET"
+    url: "https://www.ceil-conicet.gov.ar/2019/12/creer-y-dejar-de-creer-segunda-encuesta-sobre-creencias-y-actitudes-religiosas-en-argentina/"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "National religion survey (adults 18+, urban): ~62.9% Catholic, ~18.9% no religion, ~15.3% Evangelical Protestant, ~2.9% other. Basis for the religion percentages."

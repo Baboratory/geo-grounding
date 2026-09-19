@@ -1,0 +1,165 @@
+alpha3: CHL
+alpha2: CL
+name:
+  eng: Chile
+  local:
+    - languageCode: spa
+      value: República de Chile
+flagEmoji: "🇨🇱"
+capital: Santiago
+isSovereign: true
+# Classified unitary-large: Chile is a strictly unitary republic with a single
+# official language (Spanish), but its population (~19.8M, 2022 projection) sits at
+# the threshold and it meets 2 of the 3 DESIGN.md criteria for culture-region
+# curation. (1) The 1993 Indigenous Law (Ley 19.253) officially recognizes and
+# promotes the indigenous peoples and languages — Mapudungun, Aymara, Quechua,
+# Rapa Nui and others — so they may be used officially within their community
+# areas, even though none is co-official nationally (Spanish keeps its single 1.0
+# official row). (2) There is a genuine, widely recognized cultural-historical
+# regional divide along the long north-south axis: Norte Grande (Atacama desert /
+# mining), Zona Central (Mediterranean valley, Santiago/Valparaíso), Zona Sur
+# (temperate forests, Mapuche homeland of Wallmapu) and Zona Austral (Patagonia).
+# Curated regions (Región Metropolitana, Antofagasta, La Araucanía, Magallanes)
+# sit alongside the generic WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: "CL"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: cl-constitution
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.99
+    sourceId: cl-census2024
+  - languageCode: arn
+    domain: locallySpoken
+    speakersShare: 0.09
+    sourceId: cl-census2024
+  - languageCode: aym
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: cl-census2024
+  - languageCode: que
+    domain: locallySpoken
+    speakersShare: 0.002
+    sourceId: cl-census2024
+  - languageCode: rap
+    domain: locallySpoken
+    speakersShare: 0.0004
+    sourceId: cl-census2024
+# Spanish is the sole official language (spoken by ~99.5% as home language) and is
+# kept as the single official 1.0 row. The recognized indigenous languages are
+# listed as locallySpoken estimates reflecting the population share identifying
+# with each people (Mapuche ~8.8% of the national population, Aymara ~1.0%,
+# Quechua and Rapa Nui smaller). Recognition under Ley 19.253 is not co-official
+# status, so none competes with Spanish's official flag.
+ethnicGroups:
+  - group: Mapuche
+    percent: 8.8
+    sourceId: cl-census2024
+  - group: Aymara
+    percent: 1.0
+    sourceId: cl-census2024
+  - group: Other indigenous peoples (Diaguita, Quechua, Lickanantay/Atacameño, Colla, Chango, Rapa Nui, Kawésqar, Yagán, Selk'nam)
+    percent: 1.7
+    sourceId: cl-census2024
+  - group: Non-indigenous
+    percent: 88.5
+    sourceId: cl-census2024
+# Censo 2024 self-identification: 2,105,863 people (11.5%) identify with an
+# indigenous people, of whom Mapuche are the largest (1,623,073, ~77% of the
+# indigenous population); the remaining 88.5% do not identify with any indigenous
+# people. A majority self-identify as ethnically white/mestizo (a category the
+# census reports as 'no indigenous'), hence the single non-indigenous grouping.
+timezones:
+  - name: America/Santiago
+    standardUtcOffset: "UTC-4"
+    observesDst: true
+    dstUtcOffset: "UTC-3"
+    dstPeriod: "Early September to early April (Chilean mainland DST; the date rules have varied year to year)"
+# Easter Island uses Pacific/Easter (UTC-6, DST UTC-5); the mainland America/Santiago
+# entry covers the vast majority of the country.
+currency:
+  code: CLP
+  symbol: "$"
+  name: Chilean peso
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Chile is not a member of the EU, EEA or EFTA. EU directives (GDPR, PSD2, MiFID, VAT-inclusive display, the 14-day withdrawal right, the 2-year guarantee) do NOT apply. Commerce is governed by Chilean national law (Código de Comercio, Ley del Consumidor, Banco Central de Chile and the SII tax authority regulations)."
+    sourceId: cl-not-eu
+  - topic: "single official language with recognized indigenous languages"
+    description: "Spanish is the sole official language. Ley 19.253 (1993) recognizes Chile's indigenous peoples (Mapuche, Aymara, Quechua, Rapa Nui, etc.) and obliges the State to promote and protect their languages, which may be used officially within indigenous community areas. Multilingual and culturally respectful products are valued, especially in high-indigenous-share regions."
+    sourceId: cl-indigenous-law
+paymentCulture:
+  popularMethods:
+    - "Debit cards (Redcompra / Transbank domestic scheme) — the leading payment brand, used for roughly a third to two-fifths of point-of-sale volume"
+    - "Credit cards — dominant for e-commerce (~60% of online purchases)"
+    - "Bank transfers and digital wallets (MACH, Mercado Pago, Tenpo)"
+    - "Cash — a shrinking but still present minority share of retail payments"
+  tipping:
+    expected: true
+    typicalAmount: "A ~10% service charge ('propina') is customarily and legally added to restaurant/bar bills"
+    autoIncludedInBill: false
+    note: "Restaurants and bars add a ~10% service charge to the bill (customary, effectively standard); a voluntary extra 5-15% is appreciated for exceptional service. Taxi drivers are not tipped. Chile has very high card penetration and a mature fintech scene, with the 2020 multi-acquirer reform having opened the market beyond Transbank."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite and formal in initial business dealings; use titles and 'usted' until invited to switch to the more informal 'tú' (younger Chileans default to 'tú'). First-name basis is reached more quickly among peers."
+  greetingNorms: "A handshake on meeting; men among friends often exchange an abrazo (hug), and women friends may air-kiss. '¿Cómo estás?' as a warm opener."
+  meetingEtiquette: "Punctuality is valued for business meetings though social events run looser. Communication is polite and somewhat indirect/euphemistic before directly criticizing; business cards are exchanged."
+  topicsToAvoid:
+    - "The 1973-1990 Pinochet dictatorship and the 1973 coup"
+    - "The Mapuche/Araucanía territorial land-rights conflict"
+    - "Personal finances and income"
+    - "Dismissing Mapuche or other indigenous heritage"
+  giftGivingNotes: "Modest gifts are appreciated but not expected in business; a fine Chilean wine or regional specialty is well received. Hospitality (asado, empanadas) is reciprocal."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: CL-RM
+    file: distinct-regions/cl-rm.yaml
+    adminUnitCodes: [CL-RM]
+  - code: CL-AN
+    file: distinct-regions/cl-an.yaml
+    adminUnitCodes: [CL-AN]
+  - code: CL-AR
+    file: distinct-regions/cl-ar.yaml
+    adminUnitCodes: [CL-AR]
+  - code: CL-MA
+    file: distinct-regions/cl-ma.yaml
+    adminUnitCodes: [CL-MA]
+sources:
+  - id: cl-constitution
+    name: "Constitución Política de la República de Chile — official language (Spanish) and the unitary state"
+    publisher: "Congreso Nacional de Chile / Biblioteca del Congreso Nacional"
+    url: "https://www.bcn.cl/leychile/navegar?idNorma=242302"
+    year: 1980
+    accessedDate: "2026-09-19"
+    note: "Basis for the unitary classification and for Spanish as the sole official language (official domain 1.0 row)."
+  - id: cl-census2024
+    name: "Censo de Población y Vivienda 2024 (INE) — ethnic self-identification and religion results"
+    publisher: "Instituto Nacional de Estadística (INE) de Chile"
+    url: "https://censo2024.ine.gob.cl"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Indigenous self-identification 2,105,863 (11.5%): Mapuche 1,623,073 (~8.8% of population, 77% of indigenous), Aymara 178,637 (~1.0%), other peoples 1.7%; 88.5% non-indigenous. Religion: Catholic ~54%, Evangelical ~16.3%, no religion ~25%. Bases for ethnicGroups, language locallySpoken shares and religion figures."
+  - id: cl-indigenous-law
+    name: "Ley 19.253 (1993) — Ley Indígena: recognition and protection of indigenous peoples and languages"
+    publisher: "Congreso Nacional de Chile"
+    url: "https://www.bcn.cl/leychile/navegar?idNorma=30620"
+    year: 1993
+    accessedDate: "2026-09-19"
+    note: "Recognizes Chile's indigenous peoples and languages, obliging the State to promote and protect them and permitting official use within indigenous community areas; basis for the locallySpoken treatment of arn/aym/que/rap (recognized, not co-official)."
+  - id: cl-not-eu
+    name: "EU membership status of Chile"
+    publisher: "European Union / ISO"
+    url: "https://european-union.europa.eu/principles-countries-history/eu-countries_en"
+    accessedDate: "2026-09-19"
+    note: "Chile is not an EU/EEA/EFTA member; EU consumer/data/financial directives do not apply and commerce is governed by Chilean national law, the Banco Central and the SII."
+  - id: cl-region-codes
+    name: "ISO 3166-2:CL subdivision codes (16 regions)"
+    publisher: "International Organization for Standardization"
+    url: "https://www.iso.org/obp/ui/#iso:code:3166:CL"
+    accessedDate: "2026-09-19"
+    note: "Confirmed the CL-RM, CL-AN, CL-AR and CL-MA region codes used in distinct-regions[]."

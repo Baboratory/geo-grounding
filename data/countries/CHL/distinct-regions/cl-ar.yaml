@@ -1,0 +1,90 @@
+code: CL-AR
+name:
+  eng: La Araucanía Region
+  local:
+    - languageCode: spa
+      value: Región de la Araucanía
+    - languageCode: arn
+      value: Araucanía / Wallmapu
+climates:
+  - koppenCode: Cfb
+    description: "Temperate oceanic: cool, rainy, with wet temperate forests and lakes."
+landmarks:
+  - name: Conguillío National Park
+    description: "The Llaima volcano and araucaria (Monkey Puzzle) forests around a glacial lake."
+  - name: Villarrica area (shared scenery of the Lake District)
+    description: "Volcanoes, lakes and hot springs at the northern edge of the Lakes region."
+  - name: Temuco
+    description: "The regional capital, a Mapuche and settler cultural meeting point."
+  - name: Cautín and the Mapuche communities
+    description: "The heart of Wallmapu, the Mapuche homeland, with living Mapudungun, crafts and ceremonies."
+culturalTraits:
+  - "The center of Mapuche culture (Wallmapu) and the Mapudungun language"
+  - "A region of lakes, volcanoes and araucaria forests that anchors southern Chilean identity"
+  - "Tension and coexistence between Mapuche communities and settler/farming heritage"
+  - "Strong regional pride and a distinct southern sensibility"
+prideOf:
+  - "Mapuche identity, language and crafts"
+  - "The araucaria (pehuén) forest and Conguillío volcano"
+  - "The lakes and volcanoes at the gateway to the Zona Sur"
+  - "Traditional silverwork and textiles"
+animals:
+  popular:
+    - "Chilean huemul (endangered national deer) in the southern forests"
+    - "Andean condor over the volcanoes"
+    - "Southern pudú (smallest deer species)"
+  unique:
+    - "Darwin's frog and the endemic flora of the Valdivian temperate rainforest"
+industries:
+  - "Agriculture — wheat, oats and livestock farming"
+  - "Forestry and the timber industry"
+  - "Tourism — lakes, volcanoes, hot springs and Mapuche cultural tourism"
+  - "Handicrafts (Mapuche silverwork, textiles)"
+sports:
+  - "Football"
+  - "Trekking, volcano climbing and lake sports around Villarrica and Conguillío"
+  - "Rodeo (the national sport)"
+religions:
+  - name: Roman Catholic
+    percent: 62.0
+    sourceId: cl-ar-religion
+  - name: Evangelical / Protestant
+    percent: 16.0
+    sourceId: cl-ar-religion
+  - name: No religion / other (incl. traditional Mapuche beliefs blended with Christianity)
+    percent: 22.0
+    sourceId: cl-ar-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Mapuche ceremonies, crafts and the annual We Tripantu (Mapuche New Year, late June)"
+      - "Lake and volcano excursions around Conguillío and Villarrica"
+      - "Farm and forestry life of the southern valleys"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "A 09:00-18:00 schedule with a long lunch; farming and tourism are seasonally sensitive."
+  lunchBreakTiming: "A long midday break is common."
+  notableShutdownPeriods:
+    - period: "Fiestas Patrias (September 18-19)"
+      description: "National holiday pause."
+    - period: "Austral winter (June-August)"
+      description: "Cooler, wetter off-season slows outdoor tourism."
+  notes: "La Araucanía is the Mapuche homeland; visitors should approach the region's cultural and territorial sensitivities respectfully. The region shares the wet temperate climate of the Zona Sur."
+sources:
+  - id: cl-ar-religion
+    name: "Censo 2024 (INE) — religion results, La Araucanía"
+    publisher: "Instituto Nacional de Estadística (INE) de Chile"
+    url: "https://censo2024.ine.gob.cl"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "The south, including La Araucanía with its large Catholic and small traditional-Mapuche-religion share, approximates the 2024 census regional religion results."

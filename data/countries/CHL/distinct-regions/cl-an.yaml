@@ -1,0 +1,89 @@
+code: CL-AN
+name:
+  eng: Antofagasta Region
+  local:
+    - languageCode: spa
+      value: Región de Antofagasta
+climates:
+  - koppenCode: BWh
+    description: "Hyper-arid desert — one of the driest inhabited regions on Earth, with rainfall measured in millimeters and coastal fog (camanchaca)."
+landmarks:
+  - name: San Pedro de Atacama and Valle de la Luna
+    description: "Gateway to the Atacama Desert's salt flats, dunes and Moon-valley landscape."
+  - name: Salar de Atacama
+    description: "The world's largest active lithium brine source and a flamingo- and salt-flat ecosystem."
+  - name: Chuquicamata
+    description: "One of the world's largest open-pit copper mines (near Calama)."
+  - name: El Tatio Geysers
+    description: "A high-altitude geyser field at over 4,300 m."
+  - name: Humberstone and Santa Laura Saltpeter Works
+    description: "UNESCO-listed ghost towns of the nitrate (salitre) boom era."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "The mining and desert heart of Chile — copper, lithium and the legacy of the nitrate era"
+  - "Atacameño (Lickanantay) indigenous heritage around San Pedro"
+  - "A frontier, desert-basin identity shaped by mining camps and the Atacama emptiness"
+  - "World-class astronomy — the region hosts many of the planet's largest telescopes"
+prideOf:
+  - "Being the world's copper and lithium powerhouse"
+  - "The surreal landscapes of the Atacama Desert"
+  - "Hosting the European Southern Observatory (Paranal) and ALMA"
+  - "The UNESCO-listed nitrate-era pampas towns"
+animals:
+  popular:
+    - "Andean flamingo on the salt flats"
+    - "Vicuña and guanaco of the altiplano"
+    - "Andean fox"
+  unique:
+    - "The Puna's chinchilla and endemic Atacama desert fauna"
+industries:
+  - "Copper mining — Chuquicamata, Escondida and the Antofagasta mining heartland"
+  - "Lithium extraction from the Salar de Atacama (SQM, Albemarle)"
+  - "Astronomy and high-altitude observatories (ESO Paranal, ALMA)"
+  - "Nitrate history and desert tourism around San Pedro"
+sports:
+  - "Football (regional clubs)"
+  - "Desert trekking, dune sports and astronomy tourism"
+religions:
+  - name: Roman Catholic
+    percent: 58.0
+    sourceId: cl-north-religion
+  - name: Evangelical / Protestant
+    percent: 22.0
+    sourceId: cl-north-religion
+  - name: No religion / other
+    percent: 20.0
+    sourceId: cl-north-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Desert exploration, stargazing (some of the clearest skies on Earth) and salt-flat tours"
+      - "Mining-town culture and the Atacameño festivals of San Pedro"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "A standard 09:00-18:00 office schedule with a long lunch."
+  lunchBreakTiming: "A long midday break; heavy lunch culture."
+  notableShutdownPeriods:
+    - period: "Fiestas Patrias (September 18-19)"
+      description: "National holiday pause."
+    - period: "February (austral summer)"
+      description: "Reduced business activity as people holiday."
+  notes: "Altitude adaptation matters around San Pedro and the altiplano; the desert runs year-round, so the 'dry' label applies rather than the temperate seasons for tourism planning."
+sources:
+  - id: cl-north-religion
+    name: "Censo 2024 (INE) — religion results, northern mining regions"
+    publisher: "Instituto Nacional de Estadística (INE) de Chile"
+    url: "https://censo2024.ine.gob.cl"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "The mining north has a relatively high Evangelical share and a somewhat more secular profile than the south; approximate regional figures derived from the 2024 census religion results."
