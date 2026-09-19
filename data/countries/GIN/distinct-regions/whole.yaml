@@ -1,0 +1,152 @@
+code: WHOLE
+name:
+  eng: Guinea
+  local:
+    - languageCode: fra
+      value: République de Guinée
+# Generic country-wide fallback content for Guinea (unitary-small, single
+# synthetic whole-country region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — a long dry season (~Nov-Apr) and a wet season (~May-Oct); dominant across the interior plains and most of Upper Guinea."
+  - koppenCode: Af
+    description: "Tropical rainforest in Guinea Forestière (south), with very high year-round rainfall."
+  - koppenCode: Am
+    description: "Tropical monsoon along parts of the coastal lowlands and the southern forest fringe."
+landmarks:
+  - name: Mount Nimba Strict Nature Reserve
+    description: "UNESCO World Heritage Site (1981) shared with Côte d'Ivoire — an ancient granite ridge with exceptional endemic flora and fauna, listed as endangered."
+    unescoWorldHeritage: true
+  - name: Fouta Djallon Highlands
+    description: "The rugged green 'water tower of West Africa' in Middle Guinea — source of the Niger and Senegal river systems, waterfalls (Kinkon, Ditinn) and cattle-grazing plateaus around Labé."
+  - name: Voile de la Mariée waterfall
+    description: "A striking waterfall near Kindia, a popular weekend getaway from Conakry."
+  - name: Grand Mosque of Conakry
+    description: "A landmark mosque in the capital, reflecting Guinea's predominantly Muslim society."
+  - name: Îles de Los
+    description: "A scenic archipelago off Conakry, known for beaches, fishing villages and colonial-era ruins."
+culturalTraits:
+  - "Mandinka kora and griot (jali) heritage — the storytelling and musical tradition of Upper Guinea"
+  - "Fulani pastoral culture of the Fouta Djallon — cattle, the secco flute, and Pular poetry"
+  - "Susu coastal culture and the dynamism of Conakry and Basse Guinée"
+  - "Mask festivals and initiatory traditions of Guinea Forestière (Guéré/Kpelle, Kissi, Toma)"
+  - "N'Ko script — devised by Souleymane Kanté in 1949 for Manding languages, widely used in Guinea"
+  - "African independence pioneer — Guinea voted 'no' to the French Community in 1958, the first colonial territory to break with France"
+prideOf:
+  - "Being the first sub-Saharan French colony to become independent (1958) and the champion of African liberation"
+  - "The Fouta Djallon — West Africa's water tower, source of the Niger and Senegal rivers"
+  - "The biodiversity of Mount Nimba and the region's endemic wildlife"
+  - "Manding music and griot heritage; the country music of kora and balafon"
+  - "Warm hospitality and the ethnic mosaic living together"
+animals:
+  popular:
+    - "African elephant"
+    - "Hippopotamus (Niger and coastal rivers)"
+    - "Western chimpanzee (Bossou and Nimba)"
+    - "Antelopes and duikers"
+  unique:
+    - "Pygmy hippopotamus (rare, forest wetlands)"
+    - "West African manatee (fouelle in French) along coastal rivers"
+    - "Nimba flightless dragonfly (endemic to Mount Nimba)"
+industries:
+  - "Bauxite mining — Guinea holds the world's largest bauxite reserves and is a leading exporter"
+  - "Iron ore (Simandou and Nimba) and gold mining"
+  - "Agriculture — rice, cassava, plantain, fonio and citrus"
+  - "Hydroelectricity from Fouta Djallon rivers"
+  - "Port and transit trade through Conakry for landlocked neighbours"
+sports:
+  - "Football (soccer) — the national obsession"
+  - "Athletics (running) — a source of pride and young talent"
+  - "Basketball — growing following"
+  - "Traditional West African wrestling"
+religions:
+  - name: Muslim (Sunni, predominantly Malikite Sufi brotherhoods)
+    percent: 86.8
+    sourceId: gin-religion
+  - name: Christian (mostly Roman Catholic)
+    percent: 6.7
+    sourceId: gin-religion
+  - name: No religion
+    percent: 4.1
+    sourceId: gin-religion
+  - name: Animist / Traditional
+    percent: 2.0
+    sourceId: gin-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Manding kora and balafon music, griot storytelling"
+      - "Fulani Pular poetry and the secco flute"
+      - "Mask festivals and initiation dances of Forest Guinea"
+      - "Football matches across the country"
+  - season: dry
+    items:
+      - "Harvest-time festivals and village celebrations (Nov-Apr)"
+      - "Best months for touring Fouta Djallon and beach breaks on the coast"
+  - season: wet
+    items:
+      - "Indoor community events during heavy rains"
+      - "Traditional ceremonies that gather extended families (weddings, naming days)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Riz gras / celebratory red rice"
+      - "Foutou — pounded yam or cassava with sauce (plasas, kankan leaf sauce)"
+      - "Yettin — peanut sauce with rice"
+      - "Grilled fish and seafood along the coast"
+      - "Fonio — a prized West African grain pilaf"
+      - "Dégue — millet-based yogurt drink"
+  - season: dry
+    items:
+      - "Grilled meats and festive dishes of harvest season"
+      - "Chilled fresh fruit and juices in the hot dry months"
+  - season: wet
+    items:
+      - "Hearty leaf/peanut stews with foutou during the rains"
+      - "Soups made from garden crops in the wet season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Boubou / grand boubou — flowing embroidered robes worn by men"
+      - "Wax-print and bazin woven cloth dresses for women"
+      - "Traditional Fula and Manding woven textiles"
+  - season: dry
+    items:
+      - "Light cotton boubous suited to hot dry-season weather"
+      - "Colorful festive dress for ceremonies and holidays"
+  - season: wet
+    items:
+      - "Practical everyday dress for the rainy season across villages"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-16:00/17:00 Mon-Fri; many workplaces pause midday on Friday for prayers; retail and markets are often open six days a week."
+  lunchBreakTiming: "A midday break is common, longer in the hot season."
+  notableShutdownPeriods:
+    - period: "Ramadan and Eid al-Fitr"
+      description: "Reduced daytime activity and office hours during Ramadan, and closures for the Eid al-Fitr and Eid al-Adha holidays."
+    - period: "Christmas and New Year"
+      description: "Reduced business in late December and early January."
+    - period: "Independence Day (early October)"
+      description: "National holiday (2 October) with festivities and reduced official business."
+  notes: "Friday midday prayer is broadly observed, especially in Muslim-majority areas. Agriculture follows the wet/dry harvest cycle."
+sources:
+  - id: gin-religion
+    name: "Annuaire Statistique 2014 (religion figures from RGPH 1996)"
+    publisher: "Institut National de la Statistique (INS) de Guinée"
+    url: "https://www.stat-guinee.org/images/Documents/Publications/INS/annuelles/annuaire/INS_annuaire_2014.pdf"
+    year: 1996
+    accessedDate: "2026-09-19"
+    note: "Religious affiliation as published in the 2014 statistical yearbook citing RGPH 1996: Muslim 86.8%, Christian 6.7%, animist 2.0%, no religion 4.1% (small remainder not reported)."
+  - id: gin-unesco-nimba
+    name: "Mount Nimba Strict Nature Reserve — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/155/"
+    year: 1981
+    accessedDate: "2026-09-19"
+    note: "Inscribed 1981 (shared with Côte d'Ivoire), listed as endangered; basis for the unescoWorldHeritage flag and biodiversity pride references."

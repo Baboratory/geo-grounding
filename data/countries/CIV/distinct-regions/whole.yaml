@@ -1,0 +1,172 @@
+code: WHOLE
+name:
+  eng: Côte d'Ivoire
+  local:
+    - languageCode: fra
+      value: République de Côte d'Ivoire
+# Generic country-wide fallback content for Côte d'Ivoire (unitary-small, single
+# synthetic whole-country region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) in the north, with a single wet season and a long dry season."
+  - koppenCode: Am
+    description: "Tropical monsoon across the south-central transition zone, with an intense wet season (Apr-Oct)."
+  - koppenCode: Af
+    description: "Tropical rainforest near the southern coast and the west (Taï forest), with very high rainfall."
+landmarks:
+  - name: Taï National Park
+    description: "UNESCO World Heritage Site (1982) in the south-west — one of the last large primary rainforests of West Africa, home to pygmy hippopotamus and chimpanzees."
+    unescoWorldHeritage: true
+  - name: Comoé National Park
+    description: "UNESCO World Heritage Site (1983) in the north-east — a mosaic of savanna and forest with rich fauna."
+    unescoWorldHeritage: true
+  - name: Historic Town of Grand-Bassam
+    description: "UNESCO World Heritage Site (2012) — a late-19th-century colonial town and the former capital, now a cultural and historical landmark."
+    unescoWorldHeritage: true
+  - name: Basilica of Our Lady of Peace, Yamoussoukro
+    description: "One of the largest churches in the world, completed in 1989 in the political capital."
+  - name: Mount Nimba
+    description: "UNESCO World Heritage Site (1981, shared with Guinea) on the far western border — an ancient ridge of exceptional endemism."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Cocoa heritage — Côte d'Ivoire is the world's largest cocoa producer; cocoa runs through economy, culture and identity"
+  - "Akan matrilineal culture and the legend of Queen Pokou, the mythical founder of the Baoulé people"
+  - "Ivorian music and dance — zouglou and the internationally popular coupé-décalé"
+  - "The dozohunters and northern Mande/Senufo cultural traditions"
+  - "Mask festivals and the griot (jali) storytelling tradition"
+  - "Teranga-like hospitality, humour and an urban, dynamic Abidjan lifestyle ('Abidjan la paisible', the liveable-yet-bustling metropolis)"
+prideOf:
+  - "Being the world's top cocoa producer and a regional economic power"
+  - "Ivorian music — coupé-décalé, zouglou and Afrobeats influence"
+  - "Winning the 2023/24 Africa Cup of Nations ('les Éléphants')"
+  - "The beauty of Marant de Taï forest and the Abidjan lagoon"
+  - "Ethnic and religious coexistence in a rapidly growing, youthful nation"
+animals:
+  popular:
+    - "African forest elephant"
+    - "Western chimpanzee (Taï National Park)"
+    - "Leopard"
+    - "Bongo and duiker antelopes"
+  unique:
+    - "Pygmy hippopotamus (Taï forest)"
+    - "Pangolin"
+    - "Nimba mountain endemic invertebrates (Mount Nimba)"
+industries:
+  - "Cocoa — world's largest producer; key export"
+  - "Coffee, cashew, palm oil, rubber and banana cultivation"
+  - "Gold mining"
+  - "Port and logistics at Abidjan (a regional hub)"
+  - "Services, banking and a growing creative/tech scene"
+sports:
+  - "Football (soccer) — 'les Éléphants' won the 2023/24 Africa Cup of Nations"
+  - "Basketball — growing following"
+  - "Cycling and athletics"
+  - "Traditional dance, music and wrestling"
+religions:
+  - name: Muslim (mostly Sunni)
+    percent: 42.5
+    sourceId: civ-religion
+  - name: Christian (Roman Catholic and Evangelical)
+    percent: 39.8
+    sourceId: civ-religion
+  - name: No religion
+    percent: 12.6
+    sourceId: civ-religion
+  - name: Traditional / Animist
+    percent: 2.2
+    sourceId: civ-religion
+  - name: Other / unanswered
+    percent: 2.9
+    sourceId: civ-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Coupé-décalé and zouglou dance culture across Abidjan"
+      - "Football matches and the national fan culture"
+      - "Mask festivals and griot performances"
+      - "Bangui (palm wine) evenings with friends"
+  - season: dry
+    items:
+      - "Beach and lagoon leisure on the south coast and Petit-Bassam (Nov-Mar)"
+      - "Festivals and cultural events in the dry season"
+  - season: wet
+    items:
+      - "Indoor concerts and community gatherings during the rains"
+      - "Traditional ceremonies gathering extended families"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Alloco — fried plantain, a national street snack"
+      - "Attiéké — fermented cassava couscous, served with grilled fish"
+      - "Garba — attiéké with fried tuna, the iconic street food"
+      - "Kedjenou — chicken cooked slowly in a sealed pot with vegetables"
+      - "Foutou — pounded plantain or yam with leaf sauce"
+      - "Sauce graine and peanut (mafé-style) stews"
+  - season: dry
+    items:
+      - "Grilled fish and festive dishes of the dry season"
+      - "Chilled juices and tropical fruit in the heat"
+  - season: wet
+    items:
+      - "Hearty stews and foutou during the rains"
+      - "Garden soups made with wet-season vegetables"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Boubou and grand boubou — flowing embroidered robes for men"
+      - "Wax-print and bazin cloth dresses for women, especially for ceremonies"
+      - "Akan and northern Mande woven textiles"
+  - season: dry
+    items:
+      - "Light cotton boubous suited to the hot dry season"
+      - "Bright celebratory dress for festivals and holidays"
+  - season: wet
+    items:
+      - "Practical everyday dress for the rainy season"
+seasonCalendar:
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10]
+  - season: dry
+    months: [1, 2, 3, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-17:00/17:30 Mon-Fri, with many private-sector workplaces also open Saturday morning; markets often open six days a week."
+  lunchBreakTiming: "A midday break is common."
+  notableShutdownPeriods:
+    - period: "Ramadan and Eid al-Fitr"
+      description: "Reduced daytime activity during Ramadan (northern Muslim communities), and closures for Eid al-Fitr and Eid al-Adha (Tabaski)."
+    - period: "Christmas and New Year"
+      description: "Reduced business in late December and early January."
+    - period: "Independence Day (early August)"
+      description: "National holiday (7 August) with festivities and reduced official business."
+  notes: "Friday midday prayer is broadly observed in Muslim-majority areas, especially in the north. Cocoa and agriculture follow the wet/dry cycle."
+sources:
+  - id: civ-religion
+    name: "Côte d'Ivoire Religion 2021 — CIA World Factbook (per 2021 RGPH)"
+    publisher: "CIA World Factbook / Institut National de la Statistique (RGPH 2021)"
+    url: "https://www.cia.gov/the-world-factbook/countries/cote-divoire/#people-and-society"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "2021 census religion: Islam 42.5%, Christianity 39.8%, no religion 12.6%, traditional/animist 2.2%, other/unanswered 2.9%. Basis for the religions block."
+  - id: civ-unesco-tai
+    name: "Taï National Park — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/195/"
+    year: 1982
+    accessedDate: "2026-09-19"
+    note: "Inscribed 1982; basis for the Taï landmark, unescoWorldHeritage flag and biodiversity pride references."
+  - id: civ-unesco-comoe
+    name: "Comoé National Park — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/227/"
+    year: 1983
+    accessedDate: "2026-09-19"
+    note: "Inscribed 1983; basis for the Comoé landmark and unescoWorldHeritage flag."
+  - id: civ-unesco-bassam
+    name: "Historic Town of Grand-Bassam — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1322/"
+    year: 2012
+    accessedDate: "2026-09-19"
+    note: "Inscribed 2012; basis for the Grand-Bassam landmark and unescoWorldHeritage flag."

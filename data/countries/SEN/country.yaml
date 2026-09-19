@@ -1,0 +1,178 @@
+alpha3: SEN
+alpha2: "SN"
+name:
+  eng: Senegal
+  local:
+    - languageCode: fra
+      value: République du Sénégal
+flagEmoji: "🇸🇳"
+capital: Dakar
+isSovereign: true
+# Classified unitary-small per the batch-19 brief. Senegal meets none of the 3
+# DESIGN.md unitary-large criteria as a curatable multi-region state: (1) its
+# population (~18.4M at 2023 est.) is below the 20-25M threshold; (2) French is the
+# sole *official* language — Wolof, Pulaar, Serer, Jola, Mandinka and Soninke are
+# constitutionally recognized *national* languages, not co-official regional
+# languages with autonomous self-government; (3) there is no strong
+# widely-recognized cultural-historical federal/regional identity we curate as
+# regions — the historic kingdoms (Jolof, Cayor, Waalo) remain cultural heritage,
+# not present-day self-governing regions. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: sen-official-language
+  - languageCode: wol
+    domain: locallySpoken
+    speakersShare: 0.80
+    sourceId: sen-language-wolof
+  - languageCode: fuc
+    domain: locallySpoken
+    speakersShare: 0.26
+    sourceId: sen-language
+  - languageCode: srr
+    domain: locallySpoken
+    speakersShare: 0.16
+    sourceId: sen-language
+  - languageCode: dyo
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: sen-language
+# French is the official language (Constitution Art. 1), which also recognizes the
+# national languages wolof, pulaar, serer, jola, mandinka and soninke. Wolof is the
+# de facto national lingua franca, spoken as first or second language by the large
+# majority (ESTIMATE ~80%). The fuc/srr/dyo shares approximate the corresponding
+# ethnic-group shares (mother-tongue speakers); no official language-proficiency
+# census is published, so all locallySpoken shares are marked ESTIMATE in the notes.
+ethnicGroups:
+  # 2019 estimates (CIA World Factbook).
+  - group: Wolof
+    percent: 39.7
+    sourceId: sen-ethnic
+  - group: Pular (Fulani/Peul)
+    percent: 27.5
+    sourceId: sen-ethnic
+  - group: Serer
+    percent: 16.0
+    sourceId: sen-ethnic
+  - group: Mandinka
+    percent: 4.9
+    sourceId: sen-ethnic
+  - group: Jola
+    percent: 4.2
+    sourceId: sen-ethnic
+  - group: Soninke
+    percent: 2.4
+    sourceId: sen-ethnic
+  - group: Other (incl. Europeans and persons of Lebanese descent)
+    percent: 5.4
+    sourceId: sen-ethnic
+# Shares are 2019 estimates; the 2023 census (RGPH-5) collected ethnicity data but
+# had not yet published a detailed breakdown.
+timezones:
+  - name: Africa/Dakar
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+currency:
+  code: XOF
+  symbol: "FCFA"
+  name: West African CFA franc
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Senegal is NOT an EU member or EEA state (a sovereign republic, independent from France in 1960). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: sen-sovereign
+  - topic: "data protection"
+    description: "Loi n° 2008-12 du 25 janvier 2008 sur la protection des données à caractère personnel governs personal-data processing; the Commission de Protection des Données Personnelles (CDP) is the national regulator. National law, not GDPR."
+    sourceId: sen-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash (West African CFA franc, XOF) — dominant for daily retail and market payments"
+    - "Mobile money (Orange Money, Wave, MTN MoMo) — widespread in urban and rural areas"
+    - "Bank transfers and cash-deposit terminals (BCEAO-licensed banks)"
+    - "Cards — limited outside formal retail, hotels and larger merchants"
+  tipping:
+    expected: false
+    typicalAmount: "Small discretionary sums (~5%) or rounding in formal/urban restaurants; appreciated but not mandated"
+    autoIncludedInBill: false
+    note: "Tipping is not institutionalized in Senegal. A small gratuity is welcome in formal restaurants and for porters, but local markets and small vendors expect exact cash."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "French is the official working language; Wolof is used for social and informal interaction. Use Monsieur/Madame and titles with elders and officials; first names follow once a relationship forms."
+  greetingNorms: "Greeting is important — 'Salaamalekum' ('peace be upon you') is common; a handshake (often prolonged) with genuine enquiries after health and family comes before any business."
+  meetingEtiquette: "Personal trust and relationship-building come before transactions ('teranga' hospitality). Greet all present; punctuality is expected of visitors though local meetings may run late; decisions trend senior and often consultative."
+  topicsToAvoid:
+    - "Religious matters of personal affiliation (Islamic brotherhood or Sufi sensitivities)"
+    - "Ethnic or regional stereotypes, or the political crises"
+    - "Dismissing the importance of family, age and seniority"
+    - "Overly direct criticism of a counterpart in public"
+  giftGivingNotes: "Not required in business. A small considerate gift is appreciated once a relationship forms; hospitality is expected to be reciprocated (offer and accept refreshment)."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: sen-official-language
+    name: "Constitution of Senegal of 2001 (revised 2016), Art. 1"
+    publisher: "Republic of Senegal (via constituteproject.org)"
+    url: "https://constituteproject.org/constitution/Senegal_2016"
+    year: 2001
+    accessedDate: "2026-09-19"
+    note: "French is the official language; wolof, pulaar, serer, jola, malinke and soninke are recognized national languages. Basis for the fra official row and national-language status."
+  - id: sen-language-wolof
+    name: "Wolof — SIL International (Ethnologue)"
+    publisher: "SIL International (Ethnologue)"
+    url: "https://www.ethnologue.com/language/wol/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Wolof is the national lingua franca, spoken by the large majority of Senegalese as first or second language. LocallySpoken share 0.80 is an ESTIMATE (no official language-proficiency census)."
+  - id: sen-language
+    name: "Senegal People 2024 — CIA World Factbook"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/senegal/#people-and-society"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "Languages: French (official), Wolof, Pular, Jola, Mandinka, Serer, Soninke. The fuc/srr/dyo locallySpoken shares approximate the corresponding ethnic shares as mother-tongue estimates (no language census)."
+  - id: sen-ethnic
+    name: "Senegal People 2024 — CIA World Factbook"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/senegal/#people-and-society"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "2019 estimates: Wolof 39.7%, Pular 27.5%, Serer 16%, Mandinka 4.9%, Jola 4.2%, Soninke 2.4%, other 5.4% (incl. Europeans and persons of Lebanese descent). Basis for ethnicGroups."
+  - id: sen-population
+    name: "Senegal — CIA World Factbook"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/senegal/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Population 18,384,660 (2023 est.). Below the 20-25M unitary-large threshold."
+  - id: sen-timezone
+    name: "IANA time zone database (zonenow.tab)"
+    publisher: "IANA"
+    url: "https://data.iana.org/time-zones/tzdb/zonenow.tab"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Dakar = UTC+00:00 year-round; no DST observed."
+  - id: sen-currency
+    name: "Banque Centrale des Etats de l'Afrique de l'Ouest (BCEAO) — currency"
+    publisher: "Banque Centrale des Etats de l'Afrique de l'Ouest (BCEAO)"
+    url: "https://www.bceao.int/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "West African CFA franc (XOF), symbol FCFA, issued by the BCEAO for the eight UEMOA states including Senegal."
+  - id: sen-data-protection
+    name: "Loi n° 2008-12 du 25 janvier 2008 sur la protection des données à caractère personnel"
+    publisher: "Republic of Senegal — Commission de Protection des Données Personnelles (CDP)"
+    url: "https://cdp.sn/"
+    year: 2008
+    accessedDate: "2026-09-19"
+    note: "National personal-data protection law establishing the CDP regulator. Legal basis for the data-protection constraint. National law, not GDPR."
+  - id: sen-sovereign
+    name: "Senegal — CIA World Factbook"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/senegal/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Confirms Senegal is a sovereign republic (independent 1960), not an EU/EEA state. Basis for the non-EU legal-status constraint."

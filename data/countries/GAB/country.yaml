@@ -1,0 +1,194 @@
+alpha3: GAB
+alpha2: GA
+name:
+  eng: Gabon
+  local:
+    - languageCode: fra
+      value: Gabon
+flagEmoji: "🇬🇦"
+capital: Libreville
+isSovereign: true
+# Classified unitary-small: Gabon meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~2.4M (2023 est.) — far below the 20-25M threshold.
+# (2) Only one official language (French); no co-official regional languages and
+# no recognized multi-language federal structure — the recognized national
+# languages (Fang, Myene, Njebi/Nzebi, Punu, etc.) are important vernaculars but
+# are NOT official. (3) No widely recognized federal/multi-region identity — the
+# 9 provinces are administrative units with a relatively small, urbanized
+# population concentrated around Libreville and the coast. One synthetic WHOLE
+# region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: gab-language
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.35
+    sourceId: gab-language
+  - languageCode: fan
+    domain: locallySpoken
+    speakersShare: 0.3
+    sourceId: gab-language
+  - languageCode: mye
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: gab-language
+  - languageCode: nzb
+    domain: locallySpoken
+    speakersShare: 0.12
+    sourceId: gab-language
+  - languageCode: puu
+    domain: locallySpoken
+    speakersShare: 0.2
+    sourceId: gab-language
+# French is the sole official language (Constitution of 1991). Fang (fan),
+# Myene (mye), Njebi/Nzebi (nzb) and Punu (puu) are the most widely spoken
+# recognized national languages; the country has at least 40 ethnic groups, many
+# with their own Bantu language. All locallySpoken shares are ESTIMATES — Gabon
+# has held no full language-proficiency census (the last general census with
+# ethno-linguistic detail dates to 1993), so local-first shares reflect SIL and
+# census-informed approximations, not precise measurements.
+ethnicGroups:
+  # CIA World Factbook 2021 estimate — no official census breakdown since 1993.
+  - group: Fang
+    percent: 23.5
+    sourceId: gab-ethnic-2021
+  - group: Shira-Punu-Vili
+    percent: 20.6
+    sourceId: gab-ethnic-2021
+  - group: Nzabi-Duma
+    percent: 11.2
+    sourceId: gab-ethnic-2021
+  - group: Mbede-Teke
+    percent: 5.6
+    sourceId: gab-ethnic-2021
+  - group: Myene
+    percent: 4.4
+    sourceId: gab-ethnic-2021
+  - group: Kota-Kele
+    percent: 4.3
+    sourceId: gab-ethnic-2021
+  - group: Okande-Tsogho
+    percent: 1.6
+    sourceId: gab-ethnic-2021
+  - group: other
+    percent: 12.6
+    sourceId: gab-ethnic-2021
+  - group: foreigner
+    percent: 16.2
+    sourceId: gab-ethnic-2021
+# CIA-estimated composition (2021). Because Gabon last published a full ethnic
+# breakdown in the 1993 census, these are estimates, not official census data;
+# the sizable foreign column reflects migrant labor in the oil/timber sectors.
+timezones:
+  - name: Africa/Libreville
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+currency:
+  code: XAF
+  symbol: "FCFA"
+  name: Central African CFA franc (BEAC)
+legalConstraints:
+  - topic: "EU data-protection regime inapplicable"
+    description: "Gabon is NOT an EU member or EEA state. EU rules — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: gab-not-eu
+  - topic: "data protection"
+    description: "National law governs: Law No. 001/2011 of 25 September 2011 on the protection of personal data, amended by Law No. 025/2023 of 9 July 2023. The regulator is the Gabonese data-protection authority (CNPDCP, renamed APDPVP under the 2023 amendment). Processing requires consent; sensitive-data categories (ethnic origin, religion, health, etc.) are restricted, and the authority is an observer of the Council of Europe Convention 108 family."
+    sourceId: gab-data-protection
+  - topic: "electronic marketing consent"
+    description: "Law No. 025/2021 of 28 December 2021 regulating electronic transactions in Gabon requires the express consent of the recipient for most electronic-marketing activities; consent can be withdrawn."
+    sourceId: gab-emarketing
+paymentCulture:
+  popularMethods:
+    - "Cash — the everyday norm, especially outside Libreville and for small transactions"
+    - "Mobile money (Airtel Money, Moov Money) — the most dynamic segment for remittances and peer-to-peer transfers"
+    - "Bank cards (Visa/Mastercard) — standard in hotels, larger restaurants and modern retail in Libreville"
+    - "Bank transfers and mobile banking growing in urban centers; low overall banking penetration (~10-15%)"
+    - "Remittances and a large informal cash economy around the oil and logging sectors"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary; a 5-10% tip is appreciated in upscale restaurants and hotels when service is good"
+    autoIncludedInBill: false
+    note: "Tipping is not normally expected, but small gratuities for attentive service in restaurants, hotels and porters are welcome. Bargaining is common at markets and with informal taxi drivers."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "French is the language of business and government; formal 'Monsieur/Madame' with surnames is the norm until a first-name basis is offered. Elder respect (respect des aînés) matters."
+  greetingNorms: "A handshake with eye contact is standard; 'Bonjour/Bonsoir' first, then the local greeting 'Mbolo' is widely used across communities. Asking after family/general wellbeing before business is normal."
+  meetingEtiquette: "Relationship-building precedes deals; punctuality is appreciated in formal settings although a relaxed pace is common. Decisions tend to rest with senior leadership, often personally."
+  topicsToAvoid:
+    - "Criticizing the political leadership or dwelling on the 2023 political transition"
+    - "Ethnic stereotyping or treating Gabon's many groups as interchangeable"
+    - "Comparing Gabon's wealth only to oil or framing the country narrowly as an extractive state"
+    - "Overly blunt, direct criticism delivered without warmth"
+  giftGivingNotes: "Not required at business meetings; a small, thoughtful gift is welcome once a relationship forms. Gift-giving centers on hospitality and festivals rather than business protocol."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: gab-language
+    name: "Languages of Gabon and ISO 639-3 reference"
+    publisher: "Wikipedia (Languages of Gabon) / SIL ISO 639-3"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Gabon"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "French is the sole official language; Fang (fan), Myene (mye), Njebi/Nzebi (nzb) and Punu (puu) are widely spoken national languages with ISO 639-3 codes verified on iso639-3.sil.org/code/<code>. All locallySpoken shares are ESTIMATES (no official proficiency census)."
+  - id: gab-iso639
+    name: "ISO 639-3 identifier documentation (fan, mye, nzb, puu)"
+    publisher: "SIL International"
+    url: "https://iso639-3.sil.org/code/nzb"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Verifies ISO 639-3 codes used: fan=Fang, mye=Myene, nzb=Njebi (the Nzebi language), puu=Punu. Note the brief's suggested 'nza' is Tigon Mbembe (Cameroon/Nigeria) and does NOT denote Nzebi; nzb is correct."
+  - id: gab-ethnic-2021
+    name: "Gabon — Ethnic groups (2021 estimate)"
+    publisher: "CIA World Factbook 2024 (via Theodora)"
+    url: "https://theodora.com/world_fact_book_2024/gabon/gabon_people.html"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "Ethnic composition (2021 est.): Fang 23.5%, Shira-Punu-Vili 20.6%, Nzabi-Duma 11.2%, Mbede-Teke 5.6%, Myene 4.4%, Kota-Kele 4.3%, Okande-Tsogho 1.6%, other 12.6%, foreigner 16.2%. Estimates — no official breakdown since the 1993 census."
+  - id: gab-population
+    name: "Gabon — Population total"
+    publisher: "World Bank Open Data"
+    url: "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GA"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "2023 population ~2.4 million, well below the 20-25M unitary-large threshold; supports the unitary-small classification."
+  - id: gab-timezone
+    name: "Time in Gabon (Africa/Libreville) — IANA tz database"
+    publisher: "IANA time zone database"
+    url: "https://data.iana.org/time-zones/tzdb/zonenow.tab"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Libreville = UTC+01:00 year-round; no DST observed."
+  - id: gab-currency
+    name: "BEAC — Central African CFA franc (XAF)"
+    publisher: "Bank of Central African States (BEAC)"
+    url: "https://www.beac.int/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Gabon uses the Central African CFA franc (XAF, symbol FCFA), issued by BEAC."
+  - id: gab-not-eu
+    name: "Gabon — country profile and EU status"
+    publisher: "CIA World Factbook 2024 (via Theodora)"
+    url: "https://theodora.com/world_fact_book_2024/gabon/gabon_people.html"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Confirms Gabon is a sovereign, non-EU/non-EEA Central African state; EU directives do not apply directly, national law governs."
+  - id: gab-data-protection
+    name: "Law No. 001/2011 on protection of personal data, as amended by Law No. 025/2023"
+    publisher: "DLA Piper — Data Protection Laws of the World (Gabon)"
+    url: "https://www.dlapiperdataprotection.com/index.html?c=GA&t=law"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "National law establishing the Gabonese data-protection authority (CNPDCP, renamed APDPVP); consent-based processing, restricted sensitive data, breach-notification duty. National law, not GDPR."
+  - id: gab-emarketing
+    name: "Law No. 025/2021 regulating electronic transactions in Gabon"
+    publisher: "DLA Piper — Data Protection Laws of the World (Gabon)"
+    url: "https://www.dlapiperdataprotection.com/index.html?c=GA&t=law"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "Requires express consent for most electronic-marketing using personal data; consent may be withdrawn."

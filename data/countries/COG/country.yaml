@@ -1,0 +1,191 @@
+alpha3: COG
+alpha2: CG
+name:
+  eng: Republic of the Congo
+  local:
+    - languageCode: fra
+      value: République du Congo
+flagEmoji: "🇨🇬"
+capital: Brazzaville
+isSovereign: true
+# Classified unitary-small: the Republic of the Congo meets NONE of the 3
+# DESIGN.md unitary-large criteria. (1) Population ~6.2M (2024 est.) — far below
+# the 20-25M threshold. (2) French is the sole official language (2015
+# Constitution, Art. 4); Kituba and Lingala are recognized national vehicular
+# languages but are NOT co-official in a multi-language federal sense. (3) No
+# widely recognized federal/multi-region identity — the 12 departments are
+# administrative units, not culturally distinct federal regions worth curating.
+# One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: cog-language
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.3
+    sourceId: cog-language
+  - languageCode: mkw
+    domain: locallySpoken
+    speakersShare: 0.5
+    sourceId: cog-language
+  - languageCode: lin
+    domain: locallySpoken
+    speakersShare: 0.4
+    sourceId: cog-language
+  - languageCode: kon
+    domain: locallySpoken
+    speakersShare: 0.4
+    sourceId: cog-language
+# French is the sole official language (2015 Constitution, Art. 4). Kituba
+# (mkw, also called Munukutuba/Monokutuba) and Lingala (lin) are the two
+# recognized national vehicular languages (Art. 22); Kongo/Kikongo (kon) is the
+# language of the country's largest ethnic group and widely spoken in the
+# south. All locallySpoken shares are ESTIMATES — Congo has no published
+# language-proficiency census, so shares reflect ethnic/vehicular usage
+# approximations (SIL, Ethnologue, academic surveys) rather than exact counts.
+ethnicGroups:
+  # CIA World Factbook 2014-2015 estimate — no recent official census breakdown.
+  - group: Kongo (Bakongo)
+    percent: 40.5
+    sourceId: cog-ethnic-2015
+  - group: Teke
+    percent: 16.9
+    sourceId: cog-ethnic-2015
+  - group: Mbochi
+    percent: 13.1
+    sourceId: cog-ethnic-2015
+  - group: foreigner
+    percent: 8.2
+    sourceId: cog-ethnic-2015
+  - group: Sangha
+    percent: 5.6
+    sourceId: cog-ethnic-2015
+  - group: Mbere/Mbeti/Kele
+    percent: 4.4
+    sourceId: cog-ethnic-2015
+  - group: Punu
+    percent: 4.3
+    sourceId: cog-ethnic-2015
+  - group: Pygmy
+    percent: 1.6
+    sourceId: cog-ethnic-2015
+  - group: Oubanguiens
+    percent: 1.6
+    sourceId: cog-ethnic-2015
+  - group: Duma
+    percent: 1.5
+    sourceId: cog-ethnic-2015
+  - group: Makaa
+    percent: 1.3
+    sourceId: cog-ethnic-2015
+  - group: Other and unspecified
+    percent: 1.0
+    sourceId: cog-ethnic-2015
+# CIA-estimated composition (2014-15). Congo's Constitution and data-protection
+# law (Law 29-2019, Art. 14) restrict the processing of ethnic-origin data, so
+# these are international estimates, not official census figures.
+timezones:
+  - name: Africa/Brazzaville
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+currency:
+  code: XAF
+  symbol: "FCFA"
+  name: Central African CFA franc (BEAC)
+legalConstraints:
+  - topic: "EU data-protection regime inapplicable"
+    description: "The Republic of the Congo is NOT an EU member or EEA state. EU rules — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: cog-not-eu
+  - topic: "data protection"
+    description: "National law governs: Law No. 29-2019 of 10 October 2019 on the protection of personal data. Processing requires consent; a national commission oversees compliance and cross-border transfers to countries without adequate protection require authorization. Article 14 prohibits the processing of data revealing ethnic/regional origin, political opinions, religious belief, health or genetics — relevant to any ethnicity/religion data-collection activity."
+    sourceId: cog-data-protection
+  - topic: "ethnicity and religion data collection"
+    description: "Under Law No. 29-2019 (Art. 14), processing personal data that reveals ethnic or regional origin is prohibited; collection and storage of ethnicGroup/religious data must be justified by law or by explicit safeguards. Treat ethnic composition figures accordingly."
+    sourceId: cog-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash — dominant across the country, especially outside Brazzaville and Pointe-Noire"
+    - "Mobile money and mobile banking — rapidly growing for transfers and informal commerce"
+    - "Bank cards (Visa/Mastercard) — standard in hotels, larger restaurants and modern retail in the two main cities"
+    - "Bank transfers, wire and checks in formal business"
+    - "Remittances via mobile money and money-transfer operators"
+  tipping:
+    expected: false
+    typicalAmount: "Not required; 5-10% is appreciated in upscale restaurants and hotels when service is good"
+    autoIncludedInBill: false
+    note: "Tipping is not customary but small gratuities are welcome; a service charge may occasionally appear on hotel bills. Bargaining at markets is normal."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "French is used in business and government; formal 'Monsieur/Madame' with surnames is standard until a first-name basis is offered. Elders and hierarchy command respect."
+  greetingNorms: "A handshake is standard; 'Bonjour/Bonsoir' first, then local greetings such as 'Mbote' (Lingala/Kikongo/Kituba). Asking after family and general wellbeing before business is expected."
+  meetingEtiquette: "Personal relationships and trust open doors; things move at a measured, relationship-first pace. Decisions often rest with senior leadership; patience is valued."
+  topicsToAvoid:
+    - "Computerized politics and criticism of the long-serving administration"
+    - "Confusing the Republic of the Congo with the much larger Democratic Republic of the Congo"
+    - "Ethnic stereotyping or treating the many groups as interchangeable"
+    - "Overly blunt, direct criticism delivered without warmth"
+  giftGivingNotes: "Not required at business meetings; a small thoughtful gesture is welcome once a relationship forms. Gift-giving is more about hospitality and personal bonds than business protocol."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cog-language
+    name: "Languages of the Republic of the Congo and ISO 639-3 reference"
+    publisher: "Wikipedia (Languages of the Republic of the Congo) / SIL ISO 639-3"
+    url: "https://en.wikipedia.org/wiki/Languages_of_the_Republic_of_the_Congo"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "French is the sole official language (2015 Constitution, Art. 4); Kituba (mkw) and Lingala (lin) are the recognized national vehicular languages (Art. 22); Kongo/Kikongo (kon) is widely spoken in the south. All locallySpoken shares are ESTIMATES."
+  - id: cog-iso639
+    name: "ISO 639-3 identifier documentation (kon, lin, mkw)"
+    publisher: "SIL International"
+    url: "https://iso639-3.sil.org/code/mkw"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Verifies ISO 639-3 codes: kon=Kongo (macrolanguage), lin=Lingala, mkw=Kituba (Congo)/Munukutuba."
+  - id: cog-ethnic-2015
+    name: "Republic of the Congo — Ethnic groups (2014-2015 estimate)"
+    publisher: "CIA World Factbook 2024 (via Theodora)"
+    url: "https://theodora.com/world_fact_book_2024/congo_republic_of_the/congo_republic_of_the_people.html"
+    year: 2015
+    accessedDate: "2026-09-19"
+    note: "Ethnic composition (2014-15 est.): Kongo 40.5%, Teke 16.9%, Mbochi 13.1%, foreigner 8.2%, Sangha 5.6%, Mbere/Mbeti/Kele 4.4%, Punu 4.3%, Pygmy 1.6%, Oubanguiens 1.6%, Duma 1.5%, Makaa 1.3%, other/unspecified 1%. Estimates."
+  - id: cog-population
+    name: "Republic of the Congo — Population total"
+    publisher: "World Bank Open Data"
+    url: "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CG"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "2024 population ~6.2 million, well below the 20-25M unitary-large threshold; supports the unitary-small classification."
+  - id: cog-timezone
+    name: "Time in the Republic of the Congo (Africa/Brazzaville) — IANA tz database"
+    publisher: "IANA time zone database"
+    url: "https://data.iana.org/time-zones/tzdb/zonenow.tab"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Brazzaville = UTC+01:00 year-round; no DST observed."
+  - id: cog-currency
+    name: "BEAC — Central African CFA franc (XAF)"
+    publisher: "Bank of Central African States (BEAC)"
+    url: "https://www.beac.int/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "The Republic of the Congo uses the Central African CFA franc (XAF, symbol FCFA), issued by BEAC."
+  - id: cog-not-eu
+    name: "Republic of the Congo — country profile and EU status"
+    publisher: "CIA World Factbook 2024 (via Theodora)"
+    url: "https://theodora.com/world_fact_book_2024/congo_republic_of_the/congo_republic_of_the_people.html"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Confirms the Republic of the Congo is a sovereign, non-EU/non-EEA Central African state; EU directives do not apply directly, national law governs."
+  - id: cog-data-protection
+    name: "Law No. 29-2019 of 10 October 2019 on the protection of personal data"
+    publisher: "ILO NATLEX / National Assembly of the Republic of the Congo"
+    url: "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/110224/COG-110224.pdf"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "National data-protection law: consent-based processing, national oversight commission, restricted sensitive data (Art. 14: ethnic/regional origin, political opinion, religion, health), cross-border transfer authorization. National law, not GDPR."
