@@ -1,0 +1,169 @@
+code: WHOLE
+name:
+  eng: Gabon
+  local:
+    - languageCode: fra
+      value: Gabon
+# Generic country-wide fallback content for Gabon (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — hot and humid all year with heavy rainfall; dominant across most of the forested interior and much of the coast."
+  - koppenCode: Am
+    description: "Tropical monsoon — coastal areas (e.g. Libreville and the south coast) with a shorter, drier season amid otherwise heavy rainfall."
+landmarks:
+  - name: Lopé-Okanda National Park
+    description: "UNESCO World Heritage Site in central Gabon — a mosaic of rainforest and savanna with exceptional archaeological evidence of Bantu settlement and one of the world's largest mandrill aggregations."
+    unescoWorldHeritage: true
+  - name: Loango National Park, Ogooué coast
+    description: "Famed 'Africa's last eden' — pristine Atlantic beaches where forest elephants, buffalo, hippopotamuses and sea turtles share the shoreline and surf."
+  - name: Ivindo National Park and Kongou Falls
+    description: "UNESCO-listed rainforest park in the northeast; the Kongou and Mingouli waterfalls and Raffia-Palm biosphere forest."
+  - name: Crystal Mountains
+    description: "Biodiverse lowland rainforest range near Libreville, a stronghold for Gabon's endemic flora and fauna."
+  - name: Libreville and Pointe Denis
+    description: "The Gabonese capital on the Ogooué estuary, with markets, colonial-era quarters, and the beaches of nearby Pointe Denis."
+culturalTraits:
+  - "French-Gabonese blend: French as the official working language alongside a wealth of Bantu vernacular cultures"
+  - "Fang culture and the mvett — a heroic epic sung to a harp-zither, a pillar of Bantu oral tradition"
+  - "Bwiti spirituality and iboga — a syncretic initiation religion rooted among the Fang and Mitsogo"
+  - "Sculptural heritage — Punu white-face masks and Kota reliquary figures are among Africa's most celebrated artworks"
+  - "Rainforest and river life along the Ogooué, the country's great artery"
+  - "Hospitality (convivialité) and an easy-going, warm social style"
+prideOf:
+  - "Extraordinary biodiversity — about 85-90% of the country under forest cover, with Africa's largest western lowland gorilla population"
+  - "The national parks network (13 parks, ~10-11% of national territory, incl. Lopé-Okanda UNESCO site)"
+  - "Oil wealth and one of Central Africa's higher GDP-per-capita economies"
+  - "Peaceful stability and cultural fusion in a young, heavily urbanized society"
+  - "The mvett-guitar and the global reach of Gabonese music (e.g. artist SeBa, who sings in Njebi)"
+animals:
+  popular:
+    - "Western lowland gorilla — Gabon holds one of the largest populations anywhere"
+    - "Forest elephant — including the surf-beach elephants of Loango"
+    - "Chimpanzee"
+    - "Mandrill — including the massive troops of Lopé-Okanda"
+    - "African forest buffalo"
+  unique:
+    - "Grey parrot (Psittacus erithacus) — mostly from the Congo Basin forests"
+    - "Sun-tailed monkey (Cercopithecus solatus) — endemic to Gabon"
+    - "Forest buffalo and the Loango surf hippopotamuses"
+industries:
+  - "Oil and gas — the dominant export and state-revenue pillar"
+  - "Manganese mining — among the world's top producers"
+  - "Timber and forestry (okoumé and other tropical hardwoods)"
+  - "Fishing and seafood along the Atlantic coast"
+  - "Ecotourism around the national parks"
+  - "Emerging special economic zones and logistics (e.g. Nouvelle-Gabon infrastructure, Port-Gentil)"
+sports:
+  - "Football (soccer) — the national passion"
+  - "Basketball and handball"
+  - "Athletics, boxing and karting"
+  - "Traditional Bwiti-inspired dance and music festivals"
+religions:
+  - name: Protestant (incl. Revival churches)
+    percent: 46.4
+    sourceId: gab-religion
+  - name: Roman Catholic
+    percent: 29.8
+    sourceId: gab-religion
+  - name: Other Christian
+    percent: 4.0
+    sourceId: gab-religion
+  - name: Muslim
+    percent: 10.8
+    sourceId: gab-religion
+  - name: Traditional / animist
+    percent: 1.1
+    sourceId: gab-religion
+  - name: Other
+    percent: 0.9
+    sourceId: gab-religion
+  - name: No religion
+    percent: 7.0
+    sourceId: gab-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Live music, dance and nightlife in Libreville and Port-Gentil"
+      - "Festivals celebrating Fang, Punu, Myene and Njebi traditions"
+      - "Football matches and the national-team calendar"
+  - season: dry
+    items:
+      - "Best months for beach and national-park tourism on the coast (gorilla and elephant safaris)"
+      - "Outdoor markets and cultural events in the long dry season (June-September)"
+  - season: wet
+    items:
+      - "Rainforest ecotourism and river trips along the Ogooué in the wetter months"
+      - "Indoor venues and music-club culture during heavy rains"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Poulet nyembwe — chicken stewed in palm nut (nyembwe) sauce, a national favorite"
+      - "Atlantic fish and smoked fish with plantain or cassava"
+      - "Manihot (cassava) dough and plantains with peanut or palm-nut sauce"
+      - "Mbongo-chobi — smoked meat/fish in a spice-and-bitter bark sauce"
+      - "Grilled bushmeat and farmed alternatives; fresh mango, pineapple and papaya"
+  - season: wet
+    items:
+      - "Hearty palm-nut and cassava-leaf stews in the rainy months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colorful wax-print (pagne) clothing for women and formal wear for men"
+      - "Light cotton attire suited to the hot, humid climate"
+      - "Traditional ceremonial dress and masks for Bwiti and mask-dance rituals"
+  - season: dry
+    items:
+      - "Lightweight summer wear in the June-September dry season"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 07:30-15:30/16:00 Mon-Fri; retail and markets often run Mon-Sat."
+  lunchBreakTiming: "A midday break is common, especially outside the capital."
+  notableShutdownPeriods:
+    - period: "August and year-end holidays"
+      description: "Reduced business through August (long dry season) and again over Christmas-New Year."
+    - period: "Easter and national public holidays"
+      description: "Several public holidays (e.g. 1 May, 17 August independence) slow official activity."
+  notes: "Sunday is widely a rest day, especially outside commercial and oil-town zones; the August long dry season is a common annual-leave period."
+sources:
+  - id: gab-religion
+    name: "Gabon — Religions (2019-2021 estimate)"
+    publisher: "CIA World Factbook 2024 (via Theodora)"
+    url: "https://theodora.com/world_fact_book_2024/gabon/gabon_people.html"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "Religious composition (2019-21 est.): Protestant 46.4%, Roman Catholic 29.8%, other Christian 4%, Muslim 10.8%, traditional/animist 1.1%, other 0.9%, none 7%. Many practice syncretic faiths blending Christianity with Bwiti and animism."
+  - id: gab-unesco-lope
+    name: "Lopé-Okanda and Ivindo — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1147/"
+    year: 2007
+    accessedDate: "2026-09-19"
+    note: "Inscribed 2007 for Lopé-Okanda (rainforest-savanna mosaic and Bantu settlement archaeology); Ivindo added to the same serial site. Basis for the unescoWorldHeritage flags and prideOf biodiversity claims."
+  - id: gab-loango
+    name: "Loango National Park"
+    publisher: "African Parks"
+    url: "https://www.africanparks.org/the-parks/loango"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Background on Loango's coastline wildlife (surf elephants, hippos, buffalo, turtles) and ecotourism."
+  - id: gab-economy
+    name: "Gabon — country economic overview"
+    publisher: "World Bank"
+    url: "https://www.worldbank.org/en/country/gabon/overview"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Supports industries listing (oil/gas, manganese, timber, fisheries) and the national-parks emphasis."
+  - id: gab-biodiversity
+    name: "Gabon biodiversity and wildlife (protected species)"
+    publisher: "Wikipedia — Gabon (Wildlife section)"
+    url: "https://en.wikipedia.org/wiki/Gabon"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Gabon hosts 604 bird species, 98 amphibians, 95-160 reptiles and 198 mammals, incl. large chimpanzee and gorilla populations — basis for the animals/unique entries."

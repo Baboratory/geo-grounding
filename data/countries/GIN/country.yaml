@@ -1,0 +1,170 @@
+alpha3: GIN
+alpha2: "GN"
+name:
+  eng: Guinea
+  local:
+    - languageCode: fra
+      value: République de Guinée
+flagEmoji: "🇬🇳"
+capital: Conakry
+isSovereign: true
+# Classified unitary-small per the batch-19 brief. Guinea meets none of the 3
+# DESIGN.md unitary-large criteria as a curatable multi-region state: (1) its
+# population (~13M mid-2020s est.; 10,523,261 at the 2014 RGPH3 census) is far
+# below the 20-25M threshold; (2) French is the sole official language — Pular,
+# Maninka and Susu are recognized *national* languages, not co-official regional
+# languages (no autonomous region bears its own official language); (3) there is
+# no strong widely-recognized cultural-historical federal/multi-region identity we
+# curate — the interior Fouta Jallon / Upper-Guinea / Forest-Guinea divides are a
+# geographic and ethnic mosaic, not self-governing regions. One synthetic WHOLE.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: gin-official-language
+  - languageCode: fuf
+    domain: locallySpoken
+    speakersShare: 0.35
+    sourceId: gin-language-census
+  - languageCode: man
+    domain: locallySpoken
+    speakersShare: 0.25
+    sourceId: gin-language-census
+  - languageCode: sus
+    domain: locallySpoken
+    speakersShare: 0.18
+    sourceId: gin-language-census
+# French is the sole official language (Constitution of 2010, Art. 1). Six
+# indigenous languages hold *national-language* status — Pular (fuf), Maninka
+# (man), Susu (sus), Kissi, Kpelle and Toma; the three principal ones (by RGPH3
+# 2014 speaker share as summarized by CLEAR Global) are curated here. The
+# locallySpoken shares are the 2014-census percentages of the population speaking
+# each language.
+ethnicGroups:
+  # World Directory of Minorities / Minority Rights Group, July 2016 estimate
+  # (RGPH3 2014 did not publish an ethnicity breakdown).
+  - group: Fula (Peul)
+    percent: 33.9
+    sourceId: gin-ethnic
+  - group: Malinké
+    percent: 31.1
+    sourceId: gin-ethnic
+  - group: Soussou
+    percent: 19.1
+    sourceId: gin-ethnic
+  - group: Kpelle (Guerzé)
+    percent: 6.0
+    sourceId: gin-ethnic
+  - group: Kissi
+    percent: 4.7
+    sourceId: gin-ethnic
+  - group: Toma
+    percent: 2.6
+    sourceId: gin-ethnic
+  - group: Other (smaller groups and non-nationals)
+    percent: 2.6
+    sourceId: gin-ethnic
+# The six named groups sum to ~97%; the remainder is smaller indigenous groups
+# and resident non-nationals. Ethnic shares are estimates — no official census
+# ethnicity table was published for RGPH3.
+timezones:
+  - name: Africa/Conakry
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+currency:
+  code: GNF
+  symbol: "FG"
+  name: Guinean franc
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Guinea is NOT an EU member or EEA state (a sovereign republic, independent from France in 1958). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: gin-sovereign
+  - topic: "data protection"
+    description: "Loi n° L/2016/037/AN du 28 juillet 2016 relative à la cybersécurité et à la protection des données à caractère personnel governs personal-data processing; the Autorité de Protection des Données à caractère Personnel (APIP) is the national regulator. National law, not GDPR."
+    sourceId: gin-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash (Guinean franc, GNF) — dominant for daily retail and market transactions"
+    - "Mobile money (Orange Money) — the leading financial-access channel; mobile-money account penetration far exceeds conventional bank account ownership"
+    - "Bank transfers and ATMs (BCRG-licensed commercial banks)"
+    - "Cards (Visa/UnionPay) — limited, mostly hotels and formal large merchants"
+    - "Remittances via mobile money / MTOs — a major inflow"
+  tipping:
+    expected: false
+    typicalAmount: "Small discretionary sums (rounding up, ~5%) in urban formal restaurants; appreciated but not mandated"
+    autoIncludedInBill: false
+    note: "Tipping is not institutionalized in Guinea. Local market and street vendors are paid in cash with no service expectation; a small gratuity is appreciated in formal/urban restaurants and for porters, but is rarely calculated as a percentage."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "French is the working language (administration, business, education); use Monsieur/Madame and titles, especially with elders and seniors. Daily/social interaction is warm and informal; first names arrive after a relationship forms."
+  greetingNorms: "Handshake is the standard greeting; greet everyone present when entering a room. Greetings include genuine enquiries after health and family before business."
+  meetingEtiquette: "Personal connection and trust come before transactions. Punctuality is expected of visitors but local meetings can start late; decisions tend to rest with senior figures. Cross-generational and religious formalities are observed — a brief prayer/respect for Muslim practice is common."
+  topicsToAvoid:
+    - "Ethnolinguistic tensions and post-2010 political divisions"
+    - "Casual references to the 2008-10 political crisis or ethnic voting patterns"
+    - "Disrespecting elders, traditional or religious authorities"
+    - "Overly blunt or direct criticism of a counterpart in public"
+  giftGivingNotes: "Not required in business. When a relationship forms, a small thoughtful gift is well received; it is customary to receive offerings with both hands and to reciprocate hospitality."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: gin-official-language
+    name: "Constitution of the Republic of Guinea of 2010 (Art. 1)"
+    publisher: "Republic of Guinea (via constituteproject.org)"
+    url: "https://constituteproject.org/constitution/Guinea_2010"
+    year: 2010
+    accessedDate: "2026-09-19"
+    note: "Establishes French as the official language and commits the State to promoting the cultures and languages of the people of Guinea — the basis for the fra official row and the national-language status."
+  - id: gin-language-census
+    name: "Language data for Guinea"
+    publisher: "CLEAR Global (formerly Translators without Borders)"
+    url: "https://clearglobal.org/language-data-for-guinea/"
+    year: 2014
+    accessedDate: "2026-09-19"
+    note: "Summarizes RGPH3 2014 census figures: Pular spoken by ~35%, Maninka ~25%, Susu ~18% of the population; lists the six national languages (Pular, Maninka, Susu, Kissi, Kpelle, Toma). Basis for the fuf/man/sus locallySpoken shares."
+  - id: gin-ethnic
+    name: "World Directory of Minorities and Indigenous Peoples — Guinea"
+    publisher: "Minority Rights Group International"
+    url: "https://minorityrights.org/country/guinea/"
+    year: 2016
+    accessedDate: "2026-09-19"
+    note: "July 2016 ethnicity estimate: Fulani (Peuhle) 33.9%, Malinké 31.1%, Soussou 19.1%, Guerzé 6%, Kissi 4.7%, Toma 2.6%. Basis for ethnicGroups."
+  - id: gin-population
+    name: "Troisième Recensement Général de la Population et de l'Habitation (RGPH3)"
+    publisher: "Institut National de la Statistique (INS) de Guinée"
+    url: "https://www.stat-guinee.org/index.php/publications-ins/rapports-d-enquetes/category/113-rgph-2014"
+    year: 2014
+    accessedDate: "2026-09-19"
+    note: "2014 census population 10,523,261 (mid-2020s estimates ~13M). Far below the 20-25M unitary-large threshold."
+  - id: gin-timezone
+    name: "IANA time zone database (zonenow.tab)"
+    publisher: "IANA"
+    url: "https://data.iana.org/time-zones/tzdb/zonenow.tab"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Conakry = UTC+00:00 year-round; no DST observed."
+  - id: gin-currency
+    name: "Banque Centrale de la République de Guinée (BCRG) — currency"
+    publisher: "Bank of Guinea (BCRG)"
+    url: "https://www.bcrg-guinee.org/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Guinean franc (GNF), symbol FG, issued by the BCRG. Guinea left the CFA-franc zone in 1986 and uses its own national franc."
+  - id: gin-data-protection
+    name: "Loi n° L/2016/037/AN du 28 juillet 2016 relative à la cybersécurité et à la protection des données à caractère personnel"
+    publisher: "Republic of Guinea / AI Law Radar jurisdiction page"
+    url: "https://ailawradar.com/jurisdictions/guinea"
+    year: 2016
+    accessedDate: "2026-09-19"
+    note: "Combined cybersecurity and personal-data-protection law; establishes the APIP data-protection authority. Legal basis for the data-protection constraint. National law, not GDPR."
+  - id: gin-sovereign
+    name: "Guinea — CIA World Factbook"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/guinea/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Confirms Guinea is a sovereign republic (independent 1958, a former French colony) and not an EU/EEA state — basis for the non-EU legal-status constraint."
