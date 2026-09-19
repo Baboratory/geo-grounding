@@ -29,6 +29,10 @@ dev = [
   "pytest",
 ]
 
+
+[tool.setuptools]
+packages = []
+py-modules = []
 [tool.black]
 
 [tool.setuptools]
