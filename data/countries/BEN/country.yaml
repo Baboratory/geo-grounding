@@ -1,0 +1,174 @@
+alpha3: BEN
+alpha2: BJ
+name:
+  eng: Benin
+  local:
+    - languageCode: fra
+      value: Bénin
+flagEmoji: "🇧🇯"
+capital: Porto-Novo
+isSovereign: true
+# Classified unitary-small: Benin meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~13.7M — far below the 20-25M threshold. (2) French is
+# the sole official language; the ~50 national languages (Fon, Yoruba, Bariba,
+# Fulfulde, Dendi, Adja, etc.) are constitutionally recognized as 'national
+# languages' but NOT co-official — no officially recognized regional/minority
+# language regime under unitary-large rule (2). (3) No strongly marked federal or
+# culturally distinct multi-region identity that the dataset curates beyond a
+# single whole. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: ben-constitution
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.35
+    sourceId: ben-language-estimate
+  - languageCode: fon
+    domain: locallySpoken
+    speakersShare: 0.3
+    sourceId: ben-language-estimate
+  - languageCode: yor
+    domain: locallySpoken
+    speakersShare: 0.12
+    sourceId: ben-language-estimate
+# French is the sole de jure official language (language of the constitution,
+# courts, administration and commerce). Benin constitutionally recognizes a set
+# of 'national languages' (Fon, Yoruba, Bariba, Fulfulde, Dendi, Adja and others)
+# for cultural/educational purposes, but only French is official. All locallySpoken
+# shares are ESTIMATES — Benin conducts no official language-proficiency census;
+# they approximate functional speakers (fra ~35% of the population has working
+# French, the lingua-franca Fon ~30%, Yoruba ~12% aligning with ethnic share).
+ethnicGroups:
+  # INSAE 2013 census, as reported by the CIA World Factbook.
+  - group: Fon and related
+    percent: 38.4
+    sourceId: ben-census-2013
+  - group: Adja and related
+    percent: 15.1
+    sourceId: ben-census-2013
+  - group: Yoruba and related
+    percent: 12.0
+    sourceId: ben-census-2013
+  - group: Bariba and related
+    percent: 9.6
+    sourceId: ben-census-2013
+  - group: Fulani and related
+    percent: 8.6
+    sourceId: ben-census-2013
+  - group: Ottamari and related
+    percent: 6.1
+    sourceId: ben-census-2013
+  - group: Yoa-Lokpa and related
+    percent: 4.3
+    sourceId: ben-census-2013
+  - group: Dendi and related
+    percent: 2.9
+    sourceId: ben-census-2013
+  - group: Other
+    percent: 0.9
+    sourceId: ben-census-2013
+  - group: Foreigner
+    percent: 1.9
+    sourceId: ben-census-2013
+timezones:
+  - name: Africa/Porto-Novo
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+currency:
+  code: XOF
+  symbol: "FCFA"
+  name: West African CFA franc
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Benin is NOT an EU or EEA member (a sovereign West African republic). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national and OHADA/ECOWAS law governs."
+    sourceId: ben-cia
+  - topic: "personal data protection"
+    description: "Personal-data rules live in Book V (Livre V) of Loi n° 2017-20 portant Code du Numérique (promulgated 20 April 2018, amended by Loi n° 2020-35 of 6 January 2021), enforced by the Autorité de Protection des Données à Caractère Personnel (APDP). A Francophone-family regime modelled on GDPR (consent, sensitive data, profiling limits, breach notification, prior authorisation); fines up to 50M CFA first / 100M CFA repeat."
+    sourceId: ben-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash (XOF) — dominates daily commerce"
+    - "MTN Mobile Money and Moov Money — ubiquitous, even at market stalls"
+    - "Bank cards and ATMs (Ecobank, UBA, Orabank) — mostly urban (Cotonou, Porto-Novo)"
+    - "Bank transfer for formal business; Visa more accepted than Mastercard"
+  tipping:
+    expected: false
+    typicalAmount: "Small change / rounding up ('gratification') is optional"
+    autoIncludedInBill: false
+    note: "Tipping is not customary or expected; small change optionally rounded for good service in restaurants; no standard service-charge norm."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal with titles (Monsieur/Madame + surname); honorifics and age/seniority command respect. Move to first names slowly, if at all."
+  greetingNorms: "Greet before transacting — 'Bonjour' or the Fon greeting 'Kúdó', then ask after the other's wellbeing and family before any business."
+  meetingEtiquette: "Arrive punctually for formal meetings but allow a social preamble; hierarchy dictates who speaks and decides; build rapport before agendas."
+  topicsToAvoid:
+    - "National politics and governance"
+    - "Ethnic tension between groups"
+    - "Witchcraft/Vodoun beliefs in mixed company"
+    - "Sensitive colonial history"
+  giftGivingNotes: "Modest, genuine tokens appreciated and matter more than their value; present and receive with the right hand; small gifts are most meaningful once a relationship forms."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: ben-constitution
+    name: "Constitution of the Republic of Benin (11 December 1990)"
+    publisher: "Government of Benin"
+    url: "https://www.cia.gov/the-world-factbook/countries/benin/"
+    year: 1990
+    accessedDate: "2026-09-19"
+    note: "French is the sole official language — the language of the constitution, courts and government. Basis for the fra official row."
+  - id: ben-language-estimate
+    name: "Languages of Benin — Fon, Yoruba and national languages"
+    publisher: "Omniglot / CIA World Factbook / Ethnologue"
+    url: "https://www.omniglot.com/writing/fon.htm"
+    year: 2016
+    accessedDate: "2026-09-19"
+    note: "Fon has ~1.9M native speakers (2016); spoken by roughly 30% of the population as a lingua franca. Yoruba usage approximates the ~12% Yoruba ethnic share. All locallySpoken shares are ESTIMATES — no official language-proficiency census exists."
+  - id: ben-census-2013
+    name: "Benin 2013 Population and Housing Census (INSAE), as reported by CIA World Factbook"
+    publisher: "Institut National de la Statistique et de l'Analyse Économique (INSAE)"
+    url: "https://www.cia.gov/the-world-factbook/countries/benin/"
+    year: 2013
+    accessedDate: "2026-09-19"
+    note: "Ethnic composition (2013 census): Fon and related 38.4%, Adja and related 15.1%, Yoruba and related 12%, Bariba and related 9.6%, Fulani and related 8.6%, Ottamari and related 6.1%, Yoa-Lokpa and related 4.3%, Dendi and related 2.9%, other 0.9%, foreigner 1.9%."
+  - id: ben-timezone
+    name: "Time in Benin (Africa/Porto-Novo) — IANA tz database"
+    publisher: "IANA time zone database"
+    url: "https://en.wikipedia.org/wiki/Time_in_Benin"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Porto-Novo = UTC+01:00 (West Africa Time) year-round; no DST observed."
+  - id: ben-currency
+    name: "Currency — West African CFA franc (BCEAO)"
+    publisher: "Banque Centrale des États de l'Afrique de l'Ouest (BCEAO)"
+    url: "https://www.bceao.int/en"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Benin uses the West African CFA franc (XOF), issued by the BCEAO; symbol FCFA."
+  - id: ben-cia
+    name: "Benin — CIA World Factbook"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/countries/benin/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Confirms Benin is a sovereign West African republic, not an EU/EEA member; also the source of timezone/capital/currency context and census-reported ethnic figures."
+  - id: ben-data-protection
+    name: "Loi n° 2017-20 portant Code du Numérique, Book V (as amended by Loi n° 2020-35)"
+    publisher: "Government of Benin / Autorité de Protection des Données à Caractère Personnel (APDP)"
+    url: "https://lexlint.org/law/bj"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "Personal-data protection regime in Book V of the Digital Code, enforced by APDP; fines up to 50M CFA first offence / 100M CFA repeat. Supersedes the earlier Loi n° 2009-09."
+  - id: ben-payment
+    name: "Payment culture in Benin"
+    publisher: "Qualitative industry / travel reporting"
+    url: "https://myblak.com/destinations/togo"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Cash-heavy retail culture with near-universal MTN/Moov mobile money adoption (shared West African pattern); cards/ATMs concentrated in Cotonou and Porto-Novo."
