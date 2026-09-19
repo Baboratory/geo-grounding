@@ -1,0 +1,8 @@
+code: swa
+name:
+  eng: Swahili
+  local: Kiswahili
+commonPhrases:
+  hello: "Hujambo"
+  thankYou: "Asante"
+  goodbye: "Kwaheri"

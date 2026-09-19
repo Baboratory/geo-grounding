@@ -1,0 +1,132 @@
+code: WHOLE
+name:
+  eng: Eritrea
+  local:
+    - languageCode: tir
+      value: Ertra
+# Generic country-wide fallback content for Eritrea (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate across the Red Sea coastal plains and the eastern lowlands (Danakil depression) — very hot and arid."
+  - koppenCode: Cwb
+    description: "Temperate/subtropical highland climate on the central plateau (Asmara) — mild and dry, the country's most populated and pleasant zone."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry climate in the western lowlands bordering Sudan — hot with a summer rainy season."
+landmarks:
+  - name: Asmara (Historic Perimeter)
+    description: "UNESCO World Heritage Site (2017) — an extraordinarily well-preserved modernist city built by Italian colonial architects in the 1930s."
+    unescoWorldHeritage: true
+  - name: Massawa
+    description: "Old Red Sea port city with Ottoman and Egyptian-era architecture, on the Dahlak archipelago coast."
+  - name: Dahlak Archipelago
+    description: "Island group in the Red Sea known for diving, pristine reefs and sea life."
+  - name: Aksumite ruins at Qohaito
+    description: "Ancient highland archaeological site on the route of the ancient Aksumite civilization."
+  - name: Danakil Depression
+    description: "One of the hottest, lowest and most geologically active places on Earth, with salt flats and active craters."
+culturalTraits:
+  - "The coffee ceremony (bun) — a central social and hospitality ritual shared across the Horn"
+  - "Eritrean Orthodox (Tewahedo) tradition alongside a substantial Muslim community"
+  - "Injera-based cuisine shared with the wider Ethiopian-Horn culinary world"
+  - "Strong national identity built from a long independence struggle (1993)"
+  - "Nine recognized ethno-linguistic groups and the principle of linguistic equality"
+  - "Mixed Christian-Muslim heritage and cultural resilience"
+prideOf:
+  - "Victorious independence (1993) and strong national sovereignty"
+  - "The modernist city of Asmara, a UNESCO World Heritage site"
+  - "The Red Sea coast and Dahlak archipelago"
+  - "Culinary and coffee traditions"
+animals:
+  popular:
+    - "Red Sea marine life (corals, rays, sharks) around the Dahlak islands"
+    - "Hamadryas baboon"
+    - "Nubian ibex"
+    - "Grant's gazelle and dik-dik"
+  unique:
+    - "Endemic Red Sea coral reef species"
+    - "Wild ass (African wild ass) in the eastern lowlands"
+industries:
+  - "Agriculture and pastoralism — sorghum, millet, teff, livestock"
+  - "Mining — gold, copper, zinc, potash"
+  - "Fishing in the Red Sea"
+  - "Salt extraction in the Danakil depression"
+  - "Port services at Massawa and Assab"
+sports:
+  - "Football (soccer) — the most popular sport"
+  - "Cycling (Tour of Eritrea is a professional road race)"
+  - "Athletics and road running"
+  - "Road cycling is culturally significant"
+religions:
+  - name: Muslim (mainly Sunni)
+    percent: 52.0
+    sourceId: ert-religion-estimate
+  - name: Christian (mainly Eritrean Orthodox, some Catholic/Protestant)
+    percent: 47.0
+    sourceId: ert-religion-estimate
+  - name: Other / traditional faiths
+    percent: 1.0
+    sourceId: ert-religion-estimate
+entertainment:
+  - season: allYear
+    items:
+      - "Coffee-ceremony social gatherings and traditional music (krar, kebero)"
+      - "Football and cycling on TV"
+  - season: dry
+    items:
+      - "Red Sea diving and fishing around Dahlak (Oct-May)"
+      - "Highland tourism and hiking in the cool dry months"
+  - season: wet
+    items:
+      - "Indoor/cultural life in the highlands during the June-Sep rains"
+      - "Coffee ceremonies and community gatherings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Injera (teff flatbread) with spicy stews (zigni, shiro) and lentils"
+      - "Sorghum porridge and flatbreads (kicha/taita)"
+      - "Coffee ceremony (bun)"
+  - season: wet
+    items:
+      - "Abundant vegetables and stews during the rainy months"
+  - season: dry
+    items:
+      - "Dried beans/lentils and fish from the coast; grilled goat and lamb for holidays"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Conservative dress — highland women wear light shawls and wraps; men wear modern dress with traditional shamma-style cloth"
+  - season: dry
+    items:
+      - "Light cotton wear suited to the hot coastal climate"
+seasonCalendar:
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [1, 2, 3, 4, 5, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-17:00, with a reduced Friday for Muslim observance in some sectors."
+  lunchBreakTiming: "A long midday break is common."
+  notableShutdownPeriods:
+    - period: "Independence Day and national holidays"
+      description: "Independence Day (24 May), Martyrs' Day (20 Jun) and Revolution Day (1 Sep) close business."
+    - period: "Religious holidays"
+      description: "Major Christian and Muslim holidays (incl. the Ethiopian-calendar New Year, 11 Sep) reduce activity."
+  notes: "A conservative, relationship-driven business culture; patience and hospitality matter."
+sources:
+  - id: ert-religion-estimate
+    name: "Eritrea religious affiliation (US State Dept / Pew estimates)"
+    publisher: "U.S. State Department / Pew Research Center"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/eritrea"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Approximately balanced Muslim and Christian populations — ESTIMATE with a wide range (State Dept World Religion Database ~52% Muslim/47% Christian; Pew ~63% Christian/37% Muslim). No reliable census. Used the State Dept balance."
+  - id: ert-unesco-asmara
+    name: "Asmara: A Modernist African City — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1550/"
+    year: 2017
+    accessedDate: "2026-09-19"
+    note: "Inscribed 2017 — basis for the unescoWorldHeritage flag and pride/landmark references."

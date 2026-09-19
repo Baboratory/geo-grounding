@@ -1,0 +1,166 @@
+code: WHOLE
+name:
+  eng: Rwanda
+  local:
+    - languageCode: kin
+      value: Rwanda
+# Generic country-wide fallback content for Rwanda (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) in the lower-lying eastern border regions — hot with a pronounced dry season."
+  - koppenCode: Cwb
+    description: "Temperate/subtropical highland climate on the central plateau — the 'land of a thousand hills' has mild, rainy and year-round moderate temperatures; the dominant climate across most of the country."
+  - koppenCode: Cfb
+    description: "Maritime/equatorial highland climate on the highest volcanic massifs (Virunga, Volcanoes NP) — cool and very wet."
+landmarks:
+  - name: Volcanoes National Park
+    description: "Home of the endangered mountain gorillas on the Virunga massif; the leading gorilla-trekking destination."
+    unescoWorldHeritage: false
+  - name: Nyungwe National Park
+    description: "Large montane rainforest with chimpanzees and a canopy walkway; inscribed a UNESCO World Heritage Site in 2023."
+    unescoWorldHeritage: true
+  - name: Akagera National Park
+    description: "Savanna park in the east with the 'Big Five' (lion, elephant, buffalo, leopard, rhinoceros) restored."
+  - name: Kigali Genocide Memorial
+    description: "The Gisozi memorial commemorating the 1994 genocide against the Tutsi; a place of remembrance and education."
+  - name: Lake Kivu
+    description: "One of Africa's great lakes on the western border; a scenic highland lake with beach resorts."
+culturalTraits:
+  - "Umuganda — the communal national service on the last Saturday of each month"
+  - "Deep post-genocide commitment to reconciliation and national unity"
+  - "Kinyarwanda spoken by virtually all Rwandans as a unifying mother tongue"
+  - "Traditional Intore dance and the powerful royal drumming tradition"
+  - "Coffee and tea culture — flagship highland export crops"
+  - "Warm hospitality and an ethos of social order and cleanliness"
+  - "'Land of a thousand hills' identity and mountainous scenery"
+prideOf:
+  - "Mountain gorillas of the Virunga massif"
+  - "The post-genocide reconciliation story and 'Rwanda model' of order (Kigali as 'Africa's cleanest city')"
+  - "Umuganda community service and national unity"
+  - "High-quality coffee and tea"
+  - "The scenic 'land of a thousand hills'"
+animals:
+  popular:
+    - "Mountain gorilla (Gorilla beringei beringei)"
+    - "Golden monkey"
+    - "Chimpanzee"
+    - "Savanna 'Big Five' in Akagera (lion, elephant, buffalo, leopard, rhino)"
+    - "Colobus monkey"
+  unique:
+    - "Endemic Albertine Rift montane birds"
+    - "Mountain gorillas and golden monkeys of the Virunga volcanoes"
+industries:
+  - "Agriculture — coffee and tea (flagship exports) plus food crops (beans, plantains)"
+  - "Mining and quarrying — tin, coltan/tantalum, gold"
+  - "Tourism — gorilla and wildlife trekking"
+  - "Services and ICT (one of Africa's fastest-growing tech hubs)"
+  - "Construction, manufacturing and energy"
+sports:
+  - "Football (soccer) — the most popular sport (Rayon Sports, APR)"
+  - "Basketball — very popular (APR, the BAL at BK Arena)"
+  - "Cycling — the UCI-sanctioned Tour du Rwanda"
+  - "Volleyball and athletics"
+religions:
+  - name: Roman Catholic
+    percent: 40.0
+    sourceId: rwa-religion-2022
+  - name: Pentecostal
+    percent: 21.0
+    sourceId: rwa-religion-2022
+  - name: Other Protestant (Anglican, Baptist, Methodist, Evangelical)
+    percent: 15.0
+    sourceId: rwa-religion-2022
+  - name: Seventh-day Adventist
+    percent: 12.0
+    sourceId: rwa-religion-2022
+  - name: Other Christian
+    percent: 4.0
+    sourceId: rwa-religion-2022
+  - name: Muslim
+    percent: 2.0
+    sourceId: rwa-religion-2022
+  - name: Jehovah's Witnesses
+    percent: 0.7
+    sourceId: rwa-religion-2022
+  - name: No religion
+    percent: 3.0
+    sourceId: rwa-religion-2022
+  - name: Other / unaffiliated
+    percent: 2.3
+    sourceId: rwa-religion-2022
+entertainment:
+  - season: allYear
+    items:
+      - "Football and volleyball on TV; the energetic Kigali nightlife and live music scene"
+      - "Traditional Intore dance and drumming performances"
+      - "Basketball at BK Arena"
+  - season: dry
+    items:
+      - "Best gorilla trekking and volcano hiking in the Virungas (Jun-Aug)"
+      - "Lake Kivu beach and water activities"
+      - "Festivals and outdoor cultural events"
+  - season: wet
+    items:
+      - "Hiking the green hills (muddy trails caution) and mountain scenery"
+      - "Indoor/city culture and coffee tastings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ugali / isombe — cassava or maize dough; cassava-leaf peanut stew"
+      - "Ibijumba (sweet potato) and ibishyimbo (red-bean stew)"
+      - "Grilled goat brochettes at weekend gatherings"
+      - "Fresh Rwandan coffee and tea"
+  - season: dry
+    items:
+      - "Amandazi (fried dough) with brochettes at markets and celebrations"
+  - season: wet
+    items:
+      - "Hearty bean and pumpkin stews (ibihaza, ubunyobwa) during the rainy months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colourful kitenge/wax-print cloth worn by women; men in smart-casual and Western dress"
+      - "Umushanana ceremonial cloth for weddings and formal occasions"
+  - season: dry
+    items:
+      - "Light cotton wear suited to the warmer dry-season days"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8]
+  - season: wet
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-17:00 Mon-Fri."
+  lunchBreakTiming: "A standard midday break around 12:00-14:00; lunch is the main meal."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Reduced business over the Christmas/New Year week."
+    - period: "National holidays"
+      description: "Liberation Day (4 Jul), Independence Day (1 Jul), and the Genocide memorial day (7 Apr) are public holidays with reduced business."
+  notes: "Umuganda communal service takes place the last Saturday morning. A punctual, orderly business culture; Kigali is heavily cashless."
+sources:
+  - id: rwa-religion-2022
+    name: "Rwanda 2022 Fifth Population and Housing Census — religious affiliation (via U.S. State Dept 2023 IRF)"
+    publisher: "National Institute of Statistics of Rwanda (NISR) / U.S. State Department"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/rwanda"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Roman Catholic 40%, Pentecostal 21%, other Protestant 15%, Seventh-day Adventist 12%, other Christian 4%, Muslim ~2%, Jehovah's Witnesses 0.7%, no religion ~3%, other/unaffiliated remainder."
+  - id: rwa-unesco-nyungwe
+    name: "Nyungwe National Park — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Inscribed 2023 for montane rainforest biodiversity — basis for the unescoWorldHeritage flag."
+  - id: rwa-volcanoes
+    name: "Volcanoes National Park (Virunga massif) — mountain gorillas"
+    publisher: "Rwanda Development Board (RDB)"
+    url: "https://www.rdb.rw/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Base for gorilla trekking; supports landmark/pride references."
