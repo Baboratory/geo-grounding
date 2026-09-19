@@ -1,0 +1,8 @@
+code: arb
+name:
+  eng: Arabic (Standard)
+  local: العربية
+commonPhrases:
+  hello: "As-salamu alaykum"
+  thankYou: "Shukran"
+  goodbye: "Ma'a as-salama"

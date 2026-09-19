@@ -1,0 +1,182 @@
+alpha3: MWI
+alpha2: MW
+name:
+  eng: Republic of Malawi
+  local:
+    - languageCode: nya
+      value: "Dziko la Malawi"
+flagEmoji: "🇲🇼"
+capital: Lilongwe
+isSovereign: true
+# Classified unitary-small: Malawi meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population 17,563,749 (2018 census; ~21.2M 2024 estimate) —
+# at/below the 20-25M threshold. (2) No officially recognized regional/minority
+# or co-official languages — Chichewa is the national language and, with
+# English, in practice official; neither is region-anchored. (3) No strong
+# federal or multi-region cultural identity — Malawi is a unitary republic under
+# the 1994 Constitution. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: nya
+    domain: official
+    speakersShare: 1.0
+    sourceId: mwi-official-language
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: mwi-official-language
+  - languageCode: nya
+    domain: locallySpoken
+    speakersShare: 0.6
+    sourceId: mwi-language-estimate
+  - languageCode: tum
+    domain: locallySpoken
+    speakersShare: 0.09
+    sourceId: mwi-title-census
+# Chichewa is the national language and, with English, an official language
+# (declared by the Malawi Congress Party in 1968; English is the de facto
+# primary language of government, legislation and education). Chichewa is the
+# national lingua franca (native language of ~50% and understood by ~77% per
+# the 1966 census; ~60% speak it as a first/second language). Chitumbuka is the
+# dominant language of the Northern Region. Officials are de jure 1.0 flags;
+# locallySpoken shares are estimates.
+ethnicGroups:
+  # 2018 Population & Housing Census — the first census to ask ethnicity; per
+  # those who stated an ethnicity. NSO 2018.
+  - group: Chewa
+    percent: 34.4
+    sourceId: mwi-title-census
+  - group: Lomwe
+    percent: 18.9
+    sourceId: mwi-title-census
+  - group: Yao
+    percent: 13.3
+    sourceId: mwi-title-census
+  - group: Ngoni
+    percent: 10.4
+    sourceId: mwi-title-census
+  - group: Tumbuka
+    percent: 9.2
+    sourceId: mwi-title-census
+  - group: Sena
+    percent: 3.8
+    sourceId: mwi-title-census
+  - group: Mang'anja
+    percent: 3.2
+    sourceId: mwi-title-census
+  - group: Tonga
+    percent: 1.8
+    sourceId: mwi-title-census
+  - group: Nyanja
+    percent: 1.5
+    sourceId: mwi-title-census
+  - group: Lambya
+    percent: 0.6
+    sourceId: mwi-title-census
+  - group: Sukwa
+    percent: 0.5
+    sourceId: mwi-title-census
+  - group: Other
+    percent: 1.1
+    sourceId: mwi-title-census
+timezones:
+  - name: Africa/Blantyre
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+currency:
+  code: MWK
+  symbol: "MK"
+  name: Malawian kwacha
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Malawi is NOT an EU or EEA state (an African Union, SADC and COMESA member). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national and regional (AU/SADC/COMESA) law governs."
+    sourceId: mwi-constitution
+  - topic: "freedom of religion and belief"
+    description: "The Constitution of the Republic of Malawi (1994), s.33, guarantees freedom of conscience, religion, belief and thought — a secular protection of belief."
+    sourceId: mwi-constitution
+  - topic: "data protection"
+    description: "The Data Protection Act, 2023 (assented Jan 2024, commenced 3 June 2024) is Malawi's national data-protection regime, administered by the Malawi Communications Regulatory Authority (MACRA) — national law, not GDPR."
+    sourceId: mwi-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash — dominant for daily transactions"
+    - "Mobile money — Airtel Money and TNM Mpamba are the leading non-cash rails"
+    - "Bank transfers and mobile banking"
+    - "Cards (Visa/Mastercard) mainly in urban Lilongwe and Blantyre"
+  tipping:
+    expected: true
+    typicalAmount: "5-10% in restaurants, lodges and for good hospitality"
+    autoIncludedInBill: false
+    note: "Tipping is appreciated as a gesture in restaurants/lodges; a service charge is not standard (ESTIMATE from travel guides, not a central-bank statistic)."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Respect for elders is fundamental — younger people kneel or clap when greeting village elders; modesty and titles matter; offer/receive with both hands or the right hand."
+  greetingNorms: "Greet everyone, especially elders — not greeting is rude. Handshake with 'Muli bwanji?'; in rural areas lightly clasp the right forearm with the left hand."
+  meetingEtiquette: "Business is built on personal trust; invest time in small talk before meetings; wait for elders/host to begin; composure and patience are valued."
+  topicsToAvoid:
+    - "Politics and party affiliation (sensitive around ethnic-party dynamics)"
+    - "Corruption, government finances and personal wealth"
+    - "Dismissing traditional beliefs"
+  giftGivingNotes: "Bring food, fruit or small practical gifts when visiting homes; chitenje fabric is an ideal culturally appropriate gift; avoid alcohol unless you know the recipient drinks."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: mwi-official-language
+    name: "Language policy in Malawi (1968 MCP declaration; 1966 & 2018 censuses)"
+    publisher: "National Statistical Office of Malawi / Linguapax (Matiki 2002)"
+    url: "https://linguapax.org/wp-content/uploads/2015/07/CMPL2002_T1_AMatiki.pdf"
+    year: 2002
+    accessedDate: "2026-09-19"
+    note: "Chichewa declared national language and, with English, official at the 1968 MCP convention; English is the de facto primary official language of government/education. Basis for official rows."
+  - id: mwi-title-census
+    name: "2018 Population and Housing Census (final results)"
+    publisher: "National Statistical Office of Malawi (NSO)"
+    url: "https://en.wikipedia.org/wiki/2018_census_of_Malawi"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "Population 17,563,749; first-time ethnicity question: Chewa 34.4%, Lomwe 18.9%, Yao 13.3%, Ngoni 10.4%, Tumbuka 9.2%, Sena 3.8%, Mang'anja 3.2%, Tonga 1.8%, Nyanja 1.5%, Lambya 0.6%, Sukwa 0.5%, other 1.1%. Also basis for the Chitumbuka locallySpoken share and religion figures."
+  - id: mwi-language-estimate
+    name: "Chichewa usage estimate (1966 census via Linguapax)"
+    publisher: "National Statistical Office of Malawi / Linguapax"
+    url: "https://linguapax.org/wp-content/uploads/2015/07/CMPL2002_T1_AMatiki.pdf"
+    year: 1966
+    accessedDate: "2026-09-19"
+    note: "Chichewa native language of ~50.2% and understood by ~76.6% (1966 NSO); ~60% speak it as a first or second language — basis for the 0.6 Chichewa locallySpoken estimate."
+  - id: mwi-timezone
+    name: "Time in Malawi (Africa/Blantyre) — IANA tz database"
+    publisher: "IANA time zone database"
+    url: "https://en.wikipedia.org/wiki/Time_in_Malawi"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Blantyre = UTC+02:00 (CAT) year-round; no DST."
+  - id: mwi-currency
+    name: "Malawi kwacha — currency"
+    publisher: "Reserve Bank of Malawi / CIA World Factbook"
+    url: "https://en.wikipedia.org/wiki/Economy_of_Malawi"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Malawian kwacha (MWK), symbol MK; issued by the Reserve Bank of Malawi."
+  - id: mwi-constitution
+    name: "Constitution of the Republic of Malawi, 1994 (s.33)"
+    publisher: "Government of the Republic of Malawi"
+    url: "https://malawilii.org/akn/mw/act/1994/20/eng@2020-11-03"
+    year: 1994
+    accessedDate: "2026-09-19"
+    note: "Supreme law; s.33 guarantees freedom of conscience/religion/belief/thought; confirms unitary-republic status and non-EU membership."
+  - id: mwi-data-protection
+    name: "Data Protection Act, 2023 (commenced 3 Jun 2024)"
+    publisher: "Parliament of Malawi / Malawi Communications Regulatory Authority (MACRA)"
+    url: "https://research.lawlab.africa/malawi/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Malawi's national data-protection regime, administered by MACRA; commenced 3 June 2024. Not GDPR."
+  - id: mwi-payments
+    name: "Reserve Bank of Malawi National Payments System Report 2025"
+    publisher: "Reserve Bank of Malawi (RBM)"
+    url: "https://mwnation.com/rbm-says-mobile-money-use-sidelines-payments"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Mobile-money volumes rose 31.6% to 2.4 billion transactions (value K37.9 trillion) in 2025, yet ~75% are airtime top-up and cash-in/cash-out; merchant payments only 7.7% of value. Basis for the cash-dominant/mobile-money paymentCulture."

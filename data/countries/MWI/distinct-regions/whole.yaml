@@ -1,0 +1,135 @@
+code: WHOLE
+name:
+  eng: Malawi
+  local:
+    - languageCode: nya
+      value: Malawi
+# Generic country-wide fallback content for Malawi (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) dominant across the lowlands and lake shore — a well-defined rainy season (Nov-Apr) and a long dry season."
+  - koppenCode: Cwa
+    description: "Subtropical highland climate (warm wet summer, mild dry winter) on the central and southern plateau (Lilongwe, Blantyre)."
+  - koppenCode: Cwb
+    description: "Subtropical highland climate on the high massifs (Nyika Plateau, Mount Mulanje) — cooler and wetter."
+landmarks:
+  - name: Lake Malawi National Park
+    description: "UNESCO World Heritage Site (1984) — hundreds of endemic cichlid fish ('mbuna') in one of the world's deepest Rift Valley lakes."
+    unescoWorldHeritage: true
+  - name: Chongoni Rock-Art Area
+    description: "UNESCO World Heritage Site (2006) — the richest concentration of rock art in Central Africa, linked to Chewa rituals."
+    unescoWorldHeritage: true
+  - name: Mount Mulanje (Cultural Landscape)
+    description: "A great granite massif ringed by tea estates; inscribed on the World Heritage List as 'Mount Mulanje Cultural Landscape' (2025)."
+    unescoWorldHeritage: true
+  - name: Nyika Plateau National Park
+    description: "High montane grassland with roan antelope, zebra and elephants."
+  - name: Liwonde National Park
+    description: "Elephants, hippos and crocodiles along the Shire River."
+culturalTraits:
+  - "Famous hospitality — Malawi is known as the 'Warm Heart of Africa'"
+  - "Chichewa as the national lingua franca and a shared cultural identity"
+  - "Gule Wamkulu — the Chewa Nyau masked masquerade dance (UNESCO Intangible Cultural Heritage 2008)"
+  - "Nsima (maize porridge) culinary tradition and communal eating (UNESCO Intangible Cultural Heritage)"
+  - "Chitenje wrap cloth worn by women — ubiquitous and a good gift"
+  - "Deep elder respect, extended-family structure and oral storytelling"
+prideOf:
+  - "'Warm Heart of Africa' hospitality"
+  - "Lake Malawi — over 350 endemic cichlid species (~30% of the world's cichlids)"
+  - "Gule Wamkulu and Chichewa cultural identity"
+  - "The nsima culinary heritage"
+  - "Chongoni and Mulanje heritage sites"
+animals:
+  popular:
+    - "Lake Malawi cichlids ('mbuna')"
+    - "Elephant, hippo and crocodile"
+    - "Lion, leopard, roan antelope and zebra (Nyika)"
+  unique:
+    - "Over 350 endemic cichlid fish species unique to Lake Malawi"
+    - "Nyika roan antelope and sable"
+industries:
+  - "Agriculture (dominant) — maize (~80% of cultivated land), tobacco (main export), tea, sugar, coffee"
+  - "Agro-processing and food manufacturing"
+  - "Fishing on Lake Malawi"
+  - "Tourism (lake resorts, safari parks)"
+  - "Small-scale mining/coal"
+sports:
+  - "Football (soccer) — the most popular sport"
+  - "Netball — highly competitive national teams"
+  - "Athletics and long-distance running"
+  - "Basketball and volleyball (growing)"
+religions:
+  - name: Protestant / Evangelical
+    percent: 58.5
+    sourceId: mwi-region-census
+  - name: Roman Catholic
+    percent: 17.2
+    sourceId: mwi-region-census
+  - name: Other Christian
+    percent: 6.6
+    sourceId: mwi-region-census
+  - name: Muslim
+    percent: 13.8
+    sourceId: mwi-region-census
+  - name: No religion
+    percent: 2.1
+    sourceId: mwi-region-census
+  - name: Traditional faiths
+    percent: 1.2
+    sourceId: mwi-region-census
+  - name: Other
+    percent: 0.6
+    sourceId: mwi-region-census
+entertainment:
+  - season: allYear
+    items:
+      - "Football league, local music/dance, and lake resorts (boating, snorkelling)"
+  - season: dry
+    items:
+      - "Gule Wamkulu performances in the season after the July harvest (May-Oct)"
+      - "Best game-viewing and mountaineering (Mulanje)"
+      - "Cultural festivals"
+  - season: wet
+    items:
+      - "Green-season photography and planting/rain-cycled community ceremonies"
+      - "More indoor/community gatherings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Nsima (maize porridge) with ndiwo (relish) — chambo (tilapia) from Lake Malawi, dried usipa fish, vegetable relishes"
+      - "Thobwa (sweet fermented maize drink)"
+  - season: wet
+    items:
+      - "Fresh vegetables, groundnuts, pumpkin leaves and mangoes (end of wet season)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Chitenje wrap skirt for women; modest Western dress for men"
+      - "Ceremonial masks, wood and straw costumes at Gule Wamkulu rituals"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 07:30/08:00-16:30/17:00 Mon-Fri."
+  lunchBreakTiming: "A standard midday break around 12:00-14:00."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Reduced business between Christmas and New Year."
+    - period: "Easter"
+      description: "Public holidays around Easter reduce trading."
+    - period: "Post-harvest festival season (Aug)"
+      description: "Gule Wamkulu festivals after the July harvest bring community celebration."
+  notes: "Wet-season rains (Nov-Apr) can disrupt fieldwork and rural transport; business is warm and relationship-driven."
+sources:
+  - id: mwi-region-census
+    name: "2018 Population and Housing Census — religious affiliation"
+    publisher: "National Statistical Office of Malawi (NSO)"
+    url: "https://en.wikipedia.org/wiki/2018_census_of_Malawi"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "Christian 82.3% (Protestant/evangelical 58.5%, Roman Catholic 17.2%, other Christian 6.6%), Muslim 13.8%, no religion 2.1%, traditional faiths 1.2%, other 0.6%."
