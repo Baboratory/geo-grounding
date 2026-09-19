@@ -1,0 +1,88 @@
+code: CM-NORTH
+name:
+  eng: Sahel, Rift & Adamawa North
+  local:
+    - languageCode: fra
+      value: Nord, Extrême-Nord et Adamaoua
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid steppe in the Far North around Maroua and the Lake Chad basin."
+  - koppenCode: Aw
+    description: "Tropical wet-dry savanna across the North."
+  - koppenCode: Cwb
+    description: "Cooler highland climate on the Adamawa Plateau (Ngaoundéré)."
+landmarks:
+  - name: Waza National Park
+    description: "Flagship Sahelian park (Far North) famous for elephants, giraffes and lions."
+  - name: Mandara Mountains
+    description: "Dramatic volcanic massif on the Nigeria border, dotted with Kapsiki and Mafa cliff villages."
+  - name: Lake Chad
+    description: "Shallow transboundary lake on the extreme northern border, vital for fisheries and livelihoods."
+culturalTraits:
+  - "Predominantly Muslim Fula/Fulani (Peul) polities and lamido (emir) tradition"
+  - "'Kirdi' (non-Islamized) highland peoples: Mafa, Kapsiki, Kotoko, Musgum"
+  - "Sahelian Hausa-style architecture and cloth, transhuman cattle herding"
+  - "Traditional wrestling (lutte traditionnelle)"
+prideOf:
+  - "The Fulani pastoral and lamidat heritage"
+  - "Kapsiki cliff culture and Sahelian craftsmanship"
+animals:
+  popular:
+    - "Elephant"
+    - "Lion"
+    - "Giraffe"
+    - "Roan antelope"
+  unique:
+    - "African buffalo and kob (Waza & Bénoué)"
+    - "Hippopotamus on the Logone and Chari"
+industries:
+  - "Cotton (the north's dominant cash crop)"
+  - "Cattle, livestock and transhumance"
+  - "Sorghum and millet farming"
+  - "Tourism (Waza, Bénoué safaris)"
+  - "Artisan crafts (Maroua leather and fabrics) and fishing"
+sports:
+  - "Traditional wrestling (lutte)"
+  - "Football"
+  - "Camel and horse traditions"
+entertainment:
+  - season: dry
+    items:
+      - "Safaris in Waza and Bénoué parks (Nov-May)"
+      - "Traditional wrestling contests after the harvest"
+      - "Maroua craft festivals (Dec-Feb)"
+  - season: wet
+    items:
+      - "Indoor community and religious gatherings"
+  - season: allYear
+    items:
+      - "Friday communal prayers and local markets"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Millet couscous"
+      - "Beans and meat stews"
+      - "Roast mutton/beef"
+      - "Dates and tea"
+traditionalClothing:
+  - season: dry
+    items:
+      - "Boubou/gandoura gowns and a chechia (cap)"
+      - "Sahelian turbans for sun protection"
+  - season: wet
+    items:
+      - "Light cotton dress"
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Markets early; Friday midday pause for prayers in the Muslim-majority north."
+  lunchBreakTiming: "13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Hot dry season midday"
+      description: "Activity slows in the intense heat between roughly 12:00-15:00."
+  notes: "Cash-based rural economy tied to livestock and cotton markets peaking in the dry season; transhumance drives seasonal labour. Boko Haram insecurity intermittently disrupts the Far North."
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10]

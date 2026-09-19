@@ -1,0 +1,77 @@
+code: CM-MID
+name:
+  eng: Western Highlands & Centre Plateau
+  local:
+    - languageCode: fra
+      value: Ouest et Centre
+climates:
+  - koppenCode: Am
+    description: "Humid highland climate on the grassfields of the West (Bafoussam, Foumban)."
+  - koppenCode: Aw
+    description: "Tropical wet-dry climate on the southern Centre plateau around Yaoundé."
+landmarks:
+  - name: Yaoundé
+    description: "The national capital and political centre, seat of the Reunification Monument and the Parliament."
+  - name: Foumban (Fumban)
+    description: "Capital of the Bamoun kingdom, home to the royal palace and its celebrated museum."
+  - name: Bafoussam
+    description: "Commercial hub of the West Region highlands."
+culturalTraits:
+  - "Bamileke and Bamoun highland farming chiefdoms and strong *fon* (king) traditions"
+  - "Bamoun's rich art, bronze and a unique Bamoun script legacy"
+  - "The Beti/Ewondo around the capital Yaoundé"
+  - "Njangi (tontine/savings-club) solidarity networks that underpin Bamileke enterprise"
+prideOf:
+  - "Bamileke entrepreneurship that drives much of Cameroonian commerce"
+  - "The Bamoun palace and its cultural museum"
+  - "Yaoundé as the political capital"
+animals:
+  popular:
+    - "Colobus monkeys and forest birds of the highlands"
+  unique:
+    - "Cameroon birding endemics of the western highlands"
+industries:
+  - "Cocoa, coffee, palm oil and rubber (Centre lowlands)"
+  - "Administration and services (Yaoundé)"
+  - "Highland crafts and the art trade"
+  - "Bamileke trading and transport commerce"
+sports:
+  - "Football"
+  - "Traditional wrestling (West highlands)"
+entertainment:
+  - season: allYear
+    items:
+      - "Nightlife and urban cultural scene of Yaoundé"
+  - season: dry
+    items:
+      - "Ngonn/Festival of Arts of the Bamoun (biennial, in Foumban)"
+      - "Highland chiefdom festivals (Nov-Feb)"
+  - season: wet
+    items:
+      - "Indoor community and church gatherings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ndolé"
+      - "Achu and cocoyam dishes (west highlands)"
+      - "Condiments and palm-oil rice"
+      - "Plantains and beans"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Bamileke woven *gandgoun* wrappers and royal toghu at chiefdom courts"
+      - "Business suits in the capital"
+  - season: dry
+    items:
+      - "Light cotton for the dry season"
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Yaoundé administrative 08:00-18:00 Mon-Fri with formal approval chains; Bamileke merchant markets open early."
+  lunchBreakTiming: "13:00-15:00 in offices and markets."
+  notes: "Yaoundé is the administrative centre; the West's Bamileke merchant culture is the engine of informal and trading commerce, with mobile-money-led settlements."
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10]
