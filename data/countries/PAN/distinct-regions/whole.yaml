@@ -1,0 +1,111 @@
+code: WHOLE
+name:
+  eng: Panama
+  local:
+    - languageCode: spa
+      value: República de Panamá
+# Generic country-wide fallback content for Panama (unitary-large). Used via
+# the 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py
+# when a visitor's specific province/comarca isn't one of the curated files
+# (PA-8 metropolitan corridor, PA-NB Ngäbe-Buglé, PA-KY Guna Yala, PA-EM
+# eastern indigenous / Darién).
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon along the Caribbean coast — very wet year-round, with heavy rain Sep-Nov."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry savanna over much of the Pacific lowlands — a marked dry season Jan-Apr, wet season May-Dec."
+  - koppenCode: Af
+    description: "Tropical rainforest in Darién and parts of the Caribbean slope."
+landmarks:
+  - name: Panama Canal
+    description: "One of the world's most strategic waterways, linking the Atlantic and Pacific across the isthmus, with the Miraflores and Gatún locks visitor centres."
+  - name: Casco Viejo
+    description: "The historic old town of Panama City, a UNESCO World Heritage Site of colonial plazas and colourful buildings."
+  - name: Bocas del Toro archipelago
+    description: "Caribbean islands famed for beaches, snorkelling and laid-back island life."
+  - name: Darién Gap
+    description: "The roadless rainforest at the Colombia frontier, among the wildest and most biodiverse regions in the Americas."
+  - name: Coiba National Park
+    description: "Island national park with pristine reefs and diving, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Ancon Hill / Panama Viejo
+    description: "Panama Viejo (the colonial ruins, a UNESCO site) and Ancon Hill overlooking the city and Canal."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Metropolitan canal-and-bridge identity fused with deep indigenous (comarca) cultures"
+  - "Pride in being 'el puente del mundo, corazón del universo' (the world's crossroads)"
+  - "Folkloric 'pollera' dress, the tamborito dance and Carnaval in the interior"
+  - "Molas — the vibrant reverse-appliqué textile art of the Guna people"
+prideOf:
+  - "The Panama Canal — an engineering marvel and global crossroads"
+  - "Indigenous heritage (Guna, Ngäbe, Emberá, Woun Meu, Teribe) and the comarcas' autonomy"
+  - "Biodiversity and pristine islands (Bocas, Coiba, San Blas)"
+  - "Panama City's modern skyline and financial centre"
+animals:
+  popular:
+    - "Sloth — national symbol, easily seen in the rainforest"
+    - "Harpy eagle — the national bird, among the world's largest eagles"
+    - "Capuchin and howler monkeys"
+    - "Jaguar (Darién)"
+    - "Red-eyed tree frog"
+  unique:
+    - "Golden frog (güecha) — a critically endangered icon of Panama"
+    - "Panama's exceptional bird life (over 1,000 species)"
+industries:
+  - "Panama Canal — canal transit, tolls and integrated logistics (the Canal is the country's central economic engine)"
+  - "Colón Free Trade Zone — one of the world's largest duty-free commercial hubs"
+  - "Banking and financial services — an international financial centre (dollarized)"
+  - "Maritime services — flagship registry (Panama registry is the world's largest)"
+  - "Tourism — city, canal, islands and indigenous cultural tourism"
+sports:
+  - "Baseball — the most popular sport, with a strong Major League legacy"
+  - "Football (fútbol) — growing, the national passion among younger fans"
+  - "Boxing — Panama has produced multiple world champions ('Panamá Al Brown', Roberto Durán)"
+  - "Basketball, and water sports along the coasts"
+religions:
+  - name: Roman Catholic
+    percent: 65.0
+    sourceId: pan-religion
+  - name: Evangelical / Protestant
+    percent: 22.0
+    sourceId: pan-religion
+  - name: No religion
+    percent: 6.0
+    sourceId: pan-religion
+  - name: Other (Jehovah's Witnesses, Seventh-day Adventist, other)
+    percent: 7.0
+    sourceId: pan-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Tamborito and typical folk music, salsa, reggaeton and cumbia as social staples"
+      - "Carnaval and Afro-Caribbean festivals (Congo culture in the province of Colón)"
+      - "Indigenous festivals and cultural gatherings (Guna 'congressos', Ngäbe celebrations)"
+      - "Cinema, streaming and lively nightlife in Panama City"
+  - season: dry
+    items:
+      - "Carnaval (the big February street celebration) takes place in the dry season (Jan-Apr)"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 08:00-17:00 / 08:30-17:30 Monday-Friday, with many offices closing briefly at midday; retail often runs into the evening and on Saturday."
+  lunchBreakTiming: "A midday break (almuerzo) is standard; some businesses close for it, especially outside the capital."
+  notableShutdownPeriods:
+    - period: "Carnaval week"
+      description: "Carnaval (Feb/Mar) largely pauses government and much private activity."
+    - period: "Semana Santa"
+      description: "Holy Week is widely observed; many businesses close."
+  notes: "Carnaval and public holidays can pause activity. The economy is dollarized, so prices are in US dollars. Digital payments (bank transfers, the Yappy mobile wallet) are growing in the city, but cash remains common outside the metropolitan corridor."
+sources:
+  - id: pan-religion
+    name: "Encuesta INEC 2022 / U.S. State Dept. 2023 Report on International Religious Freedom: Panama"
+    publisher: "Instituto Nacional de Estadística y Censo (INEC) / U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/panama"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "A 2022 INEC survey cited in the State Dept. 2023 report found ~65% Catholic, ~22% evangelical, ~6% no religion; the remainder are other Christian and minority groups. Percentages are approximate."

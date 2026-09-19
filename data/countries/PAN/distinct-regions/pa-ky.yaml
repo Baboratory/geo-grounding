@@ -1,0 +1,44 @@
+code: PA-KY
+name:
+  eng: Guna Yala Comarca (also known as Kuna Yala / San Blas)
+  local:
+    - languageCode: cuk
+      value: Gunayala
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon along the Caribbean archipelago — very wet, with heavy rain and warm temperatures year-round."
+landmarks:
+  - name: San Blas Archipelago
+    description: "Approximately 365 Caribbean islands and cays fronting the only sovereign Guna-ruled island chain in the Americas."
+  - name: Comarca self-governance
+    description: "The oldest comarca (est. 1938), governed by the Guna General Congress under the Guna 'Ley Fundamental' (Gunayar Igardummadwala)."
+  - name: Guna cultural tourism
+    description: "Island stays and mola-textile markets are the signature experience in Guna Yala."
+culturalTraits:
+  - "Rich Guna culture and the Guna language (Dulegaya)"
+  - "The mola — world-renowned reverse-appliqué textile art worn by Guna women"
+  - "Strong matrilineal and communitarian traditions; the Guna are famous for successful cultural self-determination against forced assimilation"
+prideOf:
+  - "The oldest and most autonomous indigenous comarca in the Americas"
+  - "Preserving mola artistry, Dulegaya and their own governance against assimilation"
+animals:
+  popular:
+    - "Sea turtles nesting on the islands"
+    - "Iguanas and reef fish in the turquoise waters"
+    - "Dolphins and rays in the archipelago"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fresh seafood — fish, lobster and crab from the archipelago"
+      - "Plantain, coconut and root-vegetable dishes"
+      - "Coco and fish stews traditional to Guna cuisine"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Community and island life follow a traditional rhythm; congresso (council) meetings and cultural calendars shape activity."
+  notes: "Guna Yala is self-governed under Guna customary law and the Guna congress; fishing, coconut and tourism (island stays, molas) drive the economy. Respect for Guna governance and community decisions is central."

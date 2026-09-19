@@ -1,0 +1,52 @@
+code: PA-8
+name:
+  eng: Metropolitan corridor (Panamá, Panamá Oeste, Colón)
+  local:
+    - languageCode: spa
+      value: Corredor metropolitano (Panamá, Panamá Oeste, Colón)
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry over the Pacific side — a strong dry season Jan-Apr and a wet season May-Dec, tempered by sea breezes."
+landmarks:
+  - name: Panama Canal locks
+    description: "Miraflores and Agua Clara visitor centres with live ship-transit viewing."
+  - name: Casco Viejo
+    description: "UNESCO-listed colonial old town, now a hub of cafés, plazas and boutique hotels."
+    unescoWorldHeritage: true
+  - name: Panama City skyline and Cinta Costera
+    description: "The modern financial district's towers beside the coastal promenade."
+  - name: Colon Free Zone
+    description: "One of the world's largest duty-free trading zones, in the city of Colón."
+culturalTraits:
+  - "Cosmopolitan, international, canal-and-logistics identity"
+  - "Blend of Latin American, Caribbean (Congo/Colón) and global business culture"
+  - "Fast-paced, finance- and trade-driven city life"
+prideOf:
+  - "Being global crossroads — the canal, the financial centre, the skyline"
+  - "A modern, connected infrastructure (Canal expansion, metro, logistics)"
+animals:
+  popular:
+    - "Sloths and howler monkeys in the city's green spaces (e.g. Ancon Hill)"
+    - "Canal-zone wildlife — crocodiles, caimans"
+sports:
+  - "Baseball — major-league legacy and the top spectator sport"
+  - "Football (fútbol) — increasingly popular among younger fans"
+  - "Boxing — deep championship history"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sancocho — a hearty chicken and root-vegetable stew, Panama's national comfort dish"
+      - "Arroz con guandú y coco — coconut rice and pigeon peas, a Colón/Caribbean staple"
+      - "Carimañola — fried cassava turnover with meat"
+      - "Rondón — a Caribbean seafood and coconut soup"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Corporate hours roughly 08:00-17:00 Monday-Friday; banking and government often 08:00-16:00/16:30; many retail outlets open evenings and Saturday."
+  lunchBreakTiming: "A shortened midday break; business lunches are common."
+  notes: "This is Panama's business and financial heart, dollarized and internationally oriented; punctuality matters more here than in the interior, and the pace is faster than elsewhere in the country."

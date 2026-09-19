@@ -1,0 +1,60 @@
+code: BR-RJ
+name:
+  eng: Rio de Janeiro (Southeast)
+  local:
+    - languageCode: por
+      value: Rio de Janeiro
+climates:
+  - koppenCode: Aw
+    description: "Tropical — hot, humid, with a wetter summer (Nov-Mar) and a drier winter; the city is warm year-round."
+landmarks:
+  - name: Christ the Redeemer
+    description: "The Art Deco statue on Corcovado, among the New Seven Wonders and a UNESCO site (with the surrounding landscape)."
+    unescoWorldHeritage: true
+  - name: Sugarloaf Mountain
+    description: "The granite peak reached by cable car, with panoramic views of the bay."
+  - name: Copacabana and Ipanema beaches
+    description: "The world-famous crescent beaches of the South Zone."
+  - name: Historic colonial centre
+    description: "Colonial churches, the 'Cidade Maravilhosa' heritage."
+culturalTraits:
+  - "The 'Cidade Maravilhosa' — samba, bossa nova, beach life and Carioca warmth"
+  - "Strong Afro-Brazilian culture (samba schools, funk, Candomblé presence)"
+  - "Laid-back, friendly, festive identity set against economic inequality"
+prideOf:
+  - "The beaches, the samba, the Carnaval and bossa nova ('Garota de Ipanema')"
+  - "Being Brazil's cultural heartland and postcard"
+animals:
+  popular:
+    - "Capybara and monkeys in the Tijuca forest"
+    - "Toucans, macaws in the mountains"
+  unique:
+    - "Brown howler monkeys of the Tijuca Atlantic Forest"
+industries:
+  - "Energy — Petrobras HQ and Brazil's offshore oil cluster"
+  - "Tourism — the country's top leisure destination"
+  - "Services, finance, media and the entertainment industry"
+sports:
+  - "Football — home to Flamengo, Fluminense, Botafogo, Vasco (Maracanã)"
+  - "Beach volleyball and surfing; the historic home of the 'jogo bonito'"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Feijoada — the classic Saturday black-bean and pork stew, born of the Rio tradition"
+      - "Bolinho de bacalhau (codfish fritters), pastéis, açaí"
+      - "Mate com limão on the beach; picanha at the churrascaria"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 09:00-18:00 Monday-Friday; beach culture spills into life and some meetings happen over lunch or coffee."
+  lunchBreakTiming: "A long lunch is a Carioca institution; business over a feijoada or rodízio is common."
+  notes: "Rio has the most relaxed, festive business culture of Brazil's big cities — warmth and relationships trump rigid punctuality. Public holidays and Carnaval (which happens here at its grandest) pause activity significantly."

@@ -1,0 +1,182 @@
+alpha3: BRA
+alpha2: BR
+name:
+  eng: Brazil
+  local:
+    - languageCode: por
+      value: República Federativa do Brasil
+flagEmoji: "🇧🇷"
+capital: Brasília
+isSovereign: true
+# Classified federal: the 1988 Constitution (CF/88, Arts. 1, 18, 25) defines
+# Brazil as a Federative Republic of the Union, 26 states and the Federal
+# District, each state with its own constitution, directly elected governor and
+# legislative assembly, and constitutionally reserved fiscal/administrative
+# powers. This clearly passes the DESIGN.md 2-of-3 region test: (1) population
+# far above the threshold (~203M, Censo 2022); (2) a genuinely federal
+# structure; (3) widely recognised macro-regional identities (Norte, Nordeste,
+# Centro-Oeste, Sudeste, Sul). Curated regions (São Paulo, Rio de Janeiro,
+# Amazonas/Norte, Bahia/Nordeste, Brasília DF) sit alongside the generic WHOLE
+# fallback.
+governanceType: federal
+iso3166_2_prefix: "BR"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: por
+    domain: official
+    speakersShare: 1.0
+    sourceId: bra-constitution
+  - languageCode: por
+    domain: locallySpoken
+    speakersShare: 0.98
+    sourceId: bra-censo
+  # Portuguese is the sole de jure official national language (CF/88 Art. 13)
+  # and is spoken by essentially the whole population. Brazil has ~160+ living
+  # indigenous languages (Censo 2022 counted 1,694,836 indigenous people, ~0.8%
+  # of the population, and ~266,000 reported speaking an indigenous language vs
+  # the national microdata); the largest are concentrated in the Amazon. They
+  # are noted here in prose rather than enumerated individually to keep the
+  # official set to Portuguese, but their presence in the Amazon/indigenous
+  # regions is reflected in the curated region files. English and Spanish are
+  # learned as foreign languages, especially in business and border areas.
+  - languageCode: spa
+    domain: foreign
+    speakersShare: 0.07
+    sourceId: bra-censo
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.05
+    sourceId: bra-censo-eng
+ethnicGroups:
+  - group: Pardo (mixed-race / brown)
+    percent: 45.3
+    sourceId: bra-censo
+  - group: Branco (white)
+    percent: 43.5
+    sourceId: bra-censo
+  - group: Preto (Black)
+    percent: 10.2
+    sourceId: bra-censo
+  - group: Indígena (indigenous)
+    percent: 0.8
+    sourceId: bra-censo
+  - group: Amarelo (Asian) / other
+    percent: 0.4
+    sourceId: bra-censo
+# Censo Demográfico 2022 (IBGE, color/race self-declaration): for the first
+# time, more Brazilians declared themselves pardo (45.3%) than branco (43.5%),
+# with preto 10.2%, indígena 0.8% and amarelo 0.4%. The percentages here follow
+# the official Censo 2022 'cor ou raça' distribution; they are self-identification
+# and do not sum exactly to 100 after rounding.
+timezones:
+  - name: America/Sao_Paulo
+    standardUtcOffset: "UTC-3"
+    observesDst: false
+  - name: America/Manaus
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+  - name: America/Cuiaba
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+  - name: America/Porto_Velho
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+  - name: America/Rio_Branco
+    standardUtcOffset: "UTC-5"
+    observesDst: false
+  - name: America/Noronha
+    standardUtcOffset: "UTC-2"
+    observesDst: false
+# Brazil spans four standard offsets (UTC-2 Fernando de Noronha, UTC-3 most of
+# the country incl. São Paulo/Rio/Brasília, UTC-4 the western Amazon and
+# Centre-West states, UTC-5 Acre). DST was abolished nationally in April 2019
+# (Decreto 9.242/2019 revoked Decreto 6.558/2008), so no Brazilian zone observes
+# daylight saving time.
+currency:
+  code: BRL
+  symbol: "R$"
+  name: Brazilian real
+legalConstraints:
+  - topic: "consumer protection and price display (VAT-inclusive)"
+    description: "The Código de Defesa do Consumidor (Lei 8.078/1990) governs consumer rights. Brazilian prices are legally required to be displayed inclusive of taxes (the catch-all indirect consumption taxes ICMS, IPI, PIS/COFINS are folded into the quoted price), so the sticker price is the final price."
+    sourceId: bra-cdc
+  - topic: "no EU consumer/data law"
+    description: "Brazil is not an EU/EEA/EFTA member, so EU directives (GDPR, PSD2, MiFID, the 14-day right-of-withdrawal, the 2-year EU guarantee) do NOT apply. Personal-data protection is governed by the Lei Geral de Proteção de Dados (LGPD, Lei 13.709/2018), Brazil's own data-protection law, and the Código de Defesa do Consumidor."
+    sourceId: bra-lgpd
+  - topic: "national official language: Portuguese"
+    description: "Articles 13 of the 1988 Federal Constitution designate Portuguese as the official language of the Republic. Portuguese is used in government, courts, and commerce nationwide. (Some municipalities, e.g. São Gabriel da Cachoeira in Amazonas, have co-officialised local indigenous languages within their territory, but Portuguese is the sole national official language.)"
+    sourceId: bra-constitution
+paymentCulture:
+  popularMethods:
+    - "Pix — Brazil's instant-payment scheme (Banco Central do Brasil, launched Nov 2020) — now the single most-used payment instrument"
+    - "Credit and debit cards (bandeiras Visa/Mastercard/ELO) with contactless — very widespread"
+    - "Cash — still common for small everyday transactions, but declining"
+    - "Boleto bancário — the traditional bank-slip for bills and online purchases"
+  tipping:
+    expected: true
+    typicalAmount: "Around 10% in sit-down restaurants (often auto-included as 'serviço' when a party of several people); small change for bars and taxis"
+    autoIncludedInBill: true
+    note: "In restaurants a ~10% service charge ('serviço') is customarily added to the bill as permitted by Lei 13.419/2017 and is expected to be paid unless service was poor. Elsewhere tipping is discretionary. Pix has transformed payments since 2020 — instant QR-based transfers, free for individuals, and now surpassing credit cards as Brazil's most-used payment instrument per Banco Central statistics; cash persists but digital adoption is among the world's highest."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm and relationship-driven; use 'você' generally but 'o senhor/a senhora' for elders and in formal settings. Address people by first name and professional title (e.g. 'Doutor') in business."
+  greetingNorms: "Firm handshakes among men; a kiss on each cheek (or one cheek) between women and in mixed greeting; a friendly 'Tudo bem?' is the standard opener. Hugs are common among friends."
+  meetingEtiquette: "Punctuality is more relaxed than in northern Europe; a little social talk before business is normal. Decision-making is relationship- and trust-based, and people speak up directly once comfortable. The regional divide (cosmopolitan São Paulo vs the warm, festive Nordeste) colours pace and style."
+  topicsToAvoid:
+    - "Criticising the country's football, Carnaval or national pride, or dismissing regional identities"
+    - "Casual generalisation about poverty, inequality or the Amazon based on stereotypes"
+  giftGivingNotes: "Gifts are not expected at business meetings. When invited to a home, bring wine, chocolates or flowers (avoid purple/black, considered funeral colours). A warm personal rapport matters more than the gift."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: BR-SP
+    file: distinct-regions/br-sp.yaml
+    adminUnitCodes: [BR-SP]
+  - code: BR-RJ
+    file: distinct-regions/br-rj.yaml
+    adminUnitCodes: [BR-RJ]
+  - code: BR-AM
+    file: distinct-regions/br-am.yaml
+    adminUnitCodes: [BR-AM, BR-AC, BR-AP, BR-PA, BR-RO, BR-RR, BR-TO]
+  - code: BR-BA
+    file: distinct-regions/br-ba.yaml
+    adminUnitCodes: [BR-BA, BR-AL, BR-CE, BR-MA, BR-PB, BR-PE, BR-PI, BR-RN, BR-SE]
+  - code: BR-DF
+    file: distinct-regions/br-df.yaml
+    adminUnitCodes: [BR-DF, BR-GO, BR-MT, BR-MS]
+sources:
+  - id: bra-constitution
+    name: "Constituição da República Federativa do Brasil de 1988 (Arts. 1, 18, 25; Art. 13 official language)"
+    publisher: "Governo Federal do Brasil / Congresso Nacional"
+    url: "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    year: 1988
+    accessedDate: "2026-09-19"
+    note: "Basis for the federal classification (Arts. 1, 18: 'the Union, the States, the Federal District and the Municipalities'), the Portuguese-official-language row (Art. 13), and the federal structure of the federative republic."
+  - id: bra-censo
+    name: "Censo Demográfico 2022 — resultados do universo (cor ou raça, população indígena, religião)"
+    publisher: "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    url: "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Population ~203M with density results: color/race self-declaration (pardo 45.3%, branco 43.5%, preto 10.2%, indígena 0.8%, amarelo 0.4%); 1,694,836 indigenous people (~0.8%); Portuguese spoken by essentially the whole population. Basis for ethnicGroups and the por locallySpoken share."
+  - id: bra-censo-eng
+    name: "Foreign-language (English/Spanish) usage estimate"
+    publisher: "Composite estimate"
+    url: "https://www.ibge.gov.br/"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Brazil does not publish a precise national English/Spanish fluency figure. English is widely learned in business and education, and Spanish/Portuñol along the borders; the ~5-7% foreign-domain shares are directional estimates with no official census basis, flagged as Composite estimate."
+  - id: bra-cdc
+    name: "Código de Defesa do Consumidor (Lei 8.078/1990) — consumer rights and inclusive pricing"
+    publisher: "Governo Federal do Brasil / Planalto"
+    url: "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+    year: 1990
+    accessedDate: "2026-09-19"
+    note: "Establishes consumer rights and the legal duty that displayed prices include taxes; ICMS/IPI/PIS/COFINS are folded into the final quoted price. Basis for the consumer-protection legal constraint."
+  - id: bra-lgpd
+    name: "Lei Geral de Proteção de Dados (LGPD, Lei 13.709/2018)"
+    publisher: "Governo Federal do Brasil / ANPD"
+    url: "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "Brazil's national data-protection law (LGPD), enforced by the Autoridade Nacional de Proteção de Dados (ANPD); governs personal-data processing in lieu of the GDPR for Brazilian activity. Basis for the non-EU legal constraint."

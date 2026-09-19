@@ -1,0 +1,124 @@
+code: WHOLE
+name:
+  eng: Brazil
+  local:
+    - languageCode: por
+      value: República Federativa do Brasil
+# Generic country-wide fallback content for Brazil (federal). Used via the
+# 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py when
+# a visitor's specific state isn't one of the curated files (BR-SP São Paulo,
+# BR-RJ Rio de Janeiro, BR-AM the North/Amazon region, BR-BA the Northeast,
+# BR-DF the Federal District / Centre-West).
+climates:
+  - koppenCode: Af
+    description: "Equatorial rainforest in the Amazon basin (north) — hot, humid, rain most of the year."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry over much of the Centre-West and Northeast — a strong dry season and a wet summer."
+  - koppenCode: Cfb
+    description: "Subtropical temperate in the South — mild, well-distributed rain, cool winters."
+  - koppenCode: BSh
+    description: "Semi-arid in the Northeast Sertão — the driest part of the country."
+landmarks:
+  - name: The Amazon rainforest
+    description: "The world's largest tropical rainforest, spanning much of northern Brazil along the Amazon River."
+  - name: Christ the Redeemer
+    description: "The Art Deco statue atop Corcovado mountain in Rio de Janeiro, a symbol of Brazil and UNESCO-listed."
+    unescoWorldHeritage: true
+  - name: Iguaçu Falls
+    description: "One of the world's largest waterfall systems on the Brazil-Argentina border, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Brasília
+    description: "The planned modernist federal capital (Oscar Niemeyer / Lúcio Costa), a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: The Pantanal
+    description: "The world's largest tropical wetland, famous for wildlife."
+  - name: Historic Salvador and colonial towns
+    description: "UNESCO-listed colonial heritage across the Northeast (e.g. Pelourinho in Salvador, Ouro Preto)."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Vibrant, warm, festive and proudly multicultural — a fusion of Indigenous, African and European heritage"
+  - "Football (futebol) as the national passion and samba as a cultural heartbeat"
+  - "Carnaval as the emblematic national celebration"
+  - "Regional pride (the affectionate, musical Nordeste vs the cosmopolitan, fast-paced Sudeste)"
+prideOf:
+  - "Football — a five-time World Cup winner and the world's most successful nation"
+  - "The Amazon and unsurpassed biodiversity"
+  - "Ipanema/Copacabana, the samba, bossa nova and the Carnaval"
+  - "Brazilian cuisine, from feijoada to churrasco, and a vast musical heritage"
+animals:
+  popular:
+    - "Jaguar — the largest cat of the Americas"
+    - "Capybara — the world's largest rodent, a beloved icon"
+    - "Toucan and macaw"
+    - "Giant river otter and pink river dolphin (Amazon)"
+  unique:
+    - "Golden lion tamarin — endemic to the Atlantic Forest"
+    - "Jabiru stork of the Pantanal"
+industries:
+  - "Agriculture and agribusiness — soy, beef, sugar, coffee, orange juice: among the world's largest exporters"
+  - "Mining — iron ore, niobium and other minerals (Vale, etc.)"
+  - "Petroleum and ethanol — Petrobras, plus the world's largest sugarcane-ethanol sector"
+  - "Manufacturing (automotive, aerospace — Embraer) and services/finance (São Paulo's B3)"
+  - "Technology and a large, fast-growing e-commerce and payments market"
+sports:
+  - "Football (futebol) — the national obsession"
+  - "Volleyball — hugely popular with world-champion men's and women's teams"
+  - "Beach sports — beach volleyball, futsal, surfing (mixed martial arts/The Jiu-Jitsu homeland)"
+  - "Formula One (São Paulo GP) and motorsport"
+religions:
+  - name: Roman Catholic
+    percent: 56.7
+    sourceId: bra-religion
+  - name: Evangelical / Protestant
+    percent: 26.9
+    sourceId: bra-religion
+  - name: No religion
+    percent: 9.3
+    sourceId: bra-religion
+  - name: Other Christian / other
+    percent: 4.0
+    sourceId: bra-religion
+  - name: Spiritist (Espírita)
+    percent: 1.8
+    sourceId: bra-religion
+  - name: Afro-Brazilian religions (Candomblé, Umbanda)
+    percent: 1.0
+    sourceId: bra-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Samba, forró, sertanejo, pagode, funk and bossa nova — a vast musical landscape"
+      - "Football matches as the great national pastime"
+      - "Telenovelas, streaming and a booming entertainment industry"
+      - "Churrasco and restaurant culture; nightlife in the big cities"
+  - season: summer
+    items:
+      - "Carnaval — the giant February street festival with samba-school parades in Rio and Salvador"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 09:00-18:00 Monday-Friday with a 1-2 hour lunch break ('horário comercial'); retail often open Saturdays and into the evening."
+  lunchBreakTiming: "A genuine lunch break (almoco) is standard, especially outside São Paulo; business lunches over feijoada or churrasco are common."
+  notableShutdownPeriods:
+    - period: "Carnaval week"
+      description: "The Monday/Tuesday before Ash Wednesday are official holidays; much of the country slows for the celebrations."
+    - period: "Around Christmas and New Year"
+      description: "Many businesses close between Christmas and New Year."
+  notes: "Carnaval, public holidays and the December lull can pause activity. Pix has made Brazil one of the world's most cashless countries, but cash is still used in informal/street commerce. Punctuality is relaxed outside São Paulo; a warm, relationship-based business culture prevails."
+sources:
+  - id: bra-religion
+    name: "Censo Demográfico 2022 — religião (resultados preliminares da amostra)"
+    publisher: "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    url: "https://www.ibge.gov.br/en/statistics/social/labor/22836-2022-census-3.html"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Censo 2022 religion (population 10+): Catholic 56.7%, Evangelical 26.9%, no religion 9.3%, other 4.0%, Spiritist 1.8%, Afro-Brazilian (Candomblé/Umbanda) 1.0%. The Catholic share continues a long decline (65.1% in 2010)."
