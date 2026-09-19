@@ -1,0 +1,79 @@
+code: TD-SAHEL
+name:
+  eng: Muslim Sahel & East (Kanem, Wadai, Wadi Fira, Guéra...)
+  local:
+    - languageCode: fra
+      value: Sahel et Est
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid Sahel; N'Djamena and the centre receive roughly 300-800mm of rain, almost all between June and September."
+landmarks:
+  - name: Abéché
+    description: "Historic capital of the Wadai sultanate, now a centre of Islamic scholarship and the grand mosque."
+  - name: Lake Chad
+    description: "Transboundary shallow lake on the western edge, a hub for fishing and pastoralists."
+  - name: Guéra massifs (Mongo)
+    description: "Rocky inselbergs and the ancestral stronghold of the Hadjarai peoples."
+culturalTraits:
+  - "Arabic-speaking pastoralists and traders; strong Sufi Islam and Quranic education"
+  - "The Maba, Kanembu, Fulani and Zaghawa lineage cultures of the eastern Sahel"
+  - "Sultanate/emirate traditions (Wadai, Kanem-Bornu, Baguirmi) and trans-Saharan caravan trade"
+  - "Arabic horsemanship and desert trade skills"
+prideOf:
+  - "The ancient sultan-kingdoms of Wadai, Kanem-Bornu and Baguirmi"
+  - "Abéché's heritage as an Islamic intellectual centre"
+animals:
+  popular:
+    - "Camels, horses, cattle and goats"
+    - "Sahelian gazelles"
+    - "Hippo and crocodile on the lake fringes"
+industries:
+  - "Pastoralism and livestock trade"
+  - "Gum arabic and cotton"
+  - "Lake Chad fishing"
+  - "Trans-Saharan and regional market trade (Abéché)"
+sports:
+  - "Football"
+  - "Traditional wrestling (lutte)"
+  - "Horse and camel riding traditions"
+entertainment:
+  - season: dry
+    items:
+      - "Dry-season festivals, Eid and Ramadan celebrations"
+      - "Livestock fairs and nomad gatherings"
+      - "Cool-season (Dec-Feb) gatherings and markets"
+  - season: wet
+    items:
+      - "Farming and settlement life during the short wet season"
+  - season: allYear
+    items:
+      - "Friday communal prayers and traditional music"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Millet and sorghum porridge (boule)"
+      - "Dried/smoked fish and meat stews"
+      - "Dates and strong tea"
+      - "Millet beer in non-Muslim areas"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men's boubou/gandoura with turban and cap"
+      - "Women's long wrappers and hijabs"
+  - season: dry
+    items:
+      - "Light cotton in the hot pre-rains (Mar-Jun); heavier wraps and turbans in the cooler dry season (Dec-Feb)"
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Markets open early and close by midday heat; Friday midday break for prayers."
+  lunchBreakTiming: "13:00-15:00."
+  notableShutdownPeriods:
+    - period: "Friday midday"
+      description: "Friday prayers pause commerce across this Muslim-majority region."
+  notes: "Trade peaks in the cool dry season; the livestock market and cotton drive the regional economy; the hottest pre-rain months slow midday activity."
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
