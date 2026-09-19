@@ -1,0 +1,142 @@
+code: WHOLE
+name:
+  eng: Liberia
+  local:
+    - languageCode: eng
+      value: Liberia
+# Generic country-wide fallback content for Liberia (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon on the coast — hot and humid year-round; heavy rainy season May-Oct."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) in the interior, with a distinct wet season (May-Oct) and drier months."
+landmarks:
+  - name: Providence Island
+    description: "Site of the freed-slaves' arrival in 1822 and the Providence Baptist Church — Liberia's founding story."
+  - name: Monrovia
+    description: "Africa's first republic's coastal capital, named for US President James Monroe."
+  - name: Sapo National Park
+    description: "Liberia's only national park, a biodiverse rainforest refuge."
+  - name: Robertsport
+    description: "Coastal surf town famous for its beaches and laid-back surf culture."
+  - name: CeCe Beach / Thinker's Village
+    description: "Iconic Monrovia beach and the Thinker's Village resort area."
+culturalTraits:
+  - "Africa's first independent republic (1847) — a unique meeting of Americo-Liberian settler culture and 16+ indigenous groups"
+  - "Post-civil-war reconciliation and resilience"
+  - "Communal ethos and strong family/community ties"
+  - "English-speaking official layer over a rich indigenous cultural mosaic"
+  - "Rubber industry and a plantation legacy"
+  - "'International' (surf, music, beach) culture along the Monrovia coast"
+prideOf:
+  - "Africa's first independent republic"
+  - "George Weah — world-class footballer (Ballon d'Or winner) who became president"
+  - "Resilience and reconciliation after two civil wars"
+  - "Major rubber production on the world stage"
+  - "Pygmy-hippo and rainforest biodiversity"
+animals:
+  popular:
+    - "Pygmy hippo"
+    - "Forest elephants"
+    - "Liberian mongoose"
+    - "Drill monkeys"
+    - "Chimpanzees"
+    - "Marine turtles"
+  unique:
+    - "Pygmy hippo — endemic range shared with Sierra Leone"
+    - "Liberian mongoose (endemic)"
+industries:
+  - "Rubber — a top world producer"
+  - "Iron ore"
+  - "Agriculture — rice, cocoa, palm oil"
+  - "Timber and forestry"
+  - "Fishing"
+  - "Emerging mining"
+sports:
+  - "Football (soccer) — George Weah's legacy; the national sport"
+  - "Basketball"
+religions:
+  - name: Christian
+    percent: 84.9
+    sourceId: lbr-religion-2022
+  - name: Muslim
+    percent: 12.0
+    sourceId: lbr-religion-2022
+  - name: Traditional
+    percent: 0.5
+    sourceId: lbr-religion-2022
+  - name: Other / none
+    percent: 2.6
+    sourceId: lbr-religion-2022
+entertainment:
+  - season: allYear
+    items:
+      - "Football and live football watching"
+      - "Beach and urban social life in Monrovia"
+      - "Music and community gatherings"
+  - season: dry
+    items:
+      - "Dry-season coastal life — surfing (Robertsport), beach festivals"
+      - "Outdoor events in the drier months"
+  - season: wet
+    items:
+      - "Indoor and community-centred life during the heavy rainy season"
+      - "Market and social activity continuing, weather-dependent"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Cassava leaf with rice — the iconic national dish"
+      - "Fufu"
+      - "Garri and rice"
+      - "Palm-butter stew"
+      - "Grilled fish and seafood"
+  - season: wet
+    items:
+      - "Fresh-harvest vegetable and cassava dishes"
+  - season: dry
+    items:
+      - "Festival foods and grilled/seafood feasts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colourful wraps and African prints"
+      - "Modest knee-length/skirt styles for women"
+      - "Smart-casual wear for business"
+  - season: wet
+    items:
+      - "Breathable, quick-drying clothing for the humid wet season"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-16:30/17:00 Mon-Fri; banks and offices weekdays; markets open early morning."
+  lunchBreakTiming: "A standard midday break is common."
+  notableShutdownPeriods:
+    - period: "Rainy season (May-Oct)"
+      description: "Business and travel slow noticeably during the heavy rainy season."
+    - period: "Christmas and New Year"
+      description: "Reduced business over the holidays."
+    - period: "Independence Day (26 Jul)"
+      description: "National holiday with celebrations and reduced business."
+  notes: "Cash-based, relationship-first business culture; Sunday widely a rest day."
+sources:
+  - id: lbr-religion-2022
+    name: "Liberia religious composition (CIA 2022 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.worldfactbook.co/edition.php?country=liberia&year=2025"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Religious composition (2022 est.): Christian 84.9%, Muslim 12%, traditional 0.5%, other/none 2.6%."
+  - id: lbr-holidays
+    name: "Liberia public holidays"
+    publisher: "OfficeHolidays"
+    url: "https://www.officeholidays.com/countries/liberia"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Includes New Year, Decoration Day, Independence Day (26 Jul), Flag Day (24 Aug), Thanksgiving, Eid al-Fitr and Eid al-Adha, Christmas."

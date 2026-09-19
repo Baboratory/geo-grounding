@@ -1,0 +1,165 @@
+code: WHOLE
+name:
+  eng: Benin
+  local:
+    - languageCode: fra
+      value: Bénin
+# Generic country-wide fallback content for Benin (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — hot year-round with a distinct dry season (~Nov-Apr) and wet season (~May-Oct); dominant across most of the country."
+  - koppenCode: Am
+    description: "Tropical monsoon on the humid southeast coast (Cotonou / Porto-Novo, Gulf of Guinea)."
+  - koppenCode: BSh
+    description: "Hot semi-arid on the far-north Sahel fringe (Atakora/Niger border area)."
+landmarks:
+  - name: Royal Palaces of Abomey
+    description: "UNESCO World Heritage Site — the palaces of the Dahomey Kingdom (17th-19th c.), riveted bas-reliefs and royal history."
+    unescoWorldHeritage: true
+  - name: Ganvié
+    description: "The 'Venice of Africa' — a vast still-house village on Lake Nokoué, home to the Tofinu people."
+  - name: Pendjari National Park
+    description: "Part of the transboundary W-Arly-Pendjari complex (UNESCO); elephants, lions and West African wildlife."
+  - name: Ouidah
+    description: "The Door of No Return and Route des Esclaves — memorial to the Atlantic slave trade; centre of Vodoun heritage."
+  - name: Dantokpa Market, Cotonou
+    description: "One of West Africa's largest open-air markets; the economic capital's commercial heart."
+culturalTraits:
+  - "Vodoun (Voodoo) heritage — Benin is its historic birthplace; a deeply rooted spiritual worldview alongside Christianity and Islam"
+  - "Ritual/ceremonial culture: Vodoun festivals, Gelede masquerades and ancestor reverence"
+  - "Strong hospitality and communal village life"
+  - "Respect for elders and ancestors across all communities"
+  - "Music and dance central to ceremonies and festivals"
+  - "Bargaining culture at markets"
+prideOf:
+  - "Vodoun heritage and the Door of No Return at Ouidah — the spiritual capital of a global diaspora"
+  - "The Royal Palaces of Abomey and Dahomey kingdom history"
+  - "Ganvié, the 'Venice of Africa'"
+  - "Independence since 1 August 1960"
+  - "Cotton and cashew production on the regional stage"
+animals:
+  popular:
+    - "African lion (Pendjari National Park)"
+    - "African elephant (W-Arly-Pendjari complex)"
+    - "Hippopotamus along the waterways"
+    - "Various monkey species"
+  unique:
+    - "West African manatee (Lake Nokoué)"
+    - "Dwarf crocodile — sacred around Ouidah and Zannoudji"
+    - "Crested guineafowl"
+    - "Buffalo herds in Pendjari"
+industries:
+  - "Agriculture — cotton (major export), cashew, cassava/manioc, maize, palm oil"
+  - "Cotton ginning and textiles"
+  - "Port of Cotonou — a regional transit hub for the Sahel hinterland"
+  - "Phosphate mining"
+  - "Food processing and small-scale manufacturing"
+sports:
+  - "Football (soccer) — the dominant sport"
+  - "Boxing"
+  - "Track and field / athletics"
+religions:
+  - name: Christian
+    percent: 48.5
+    sourceId: ben-religion-2022
+  - name: Muslim (mostly Sunni)
+    percent: 27.7
+    sourceId: ben-religion-2022
+  - name: Vodoun
+    percent: 11.6
+    sourceId: ben-religion-2022
+  - name: Other indigenous religions
+    percent: 2.6
+    sourceId: ben-religion-2022
+  - name: Other / unaffiliated
+    percent: 9.6
+    sourceId: ben-religion-2022
+entertainment:
+  - season: allYear
+    items:
+      - "Football and live football watching"
+      - "Music — contemporary and traditional percussion and dance"
+      - "Vodoun-centred cultural events and ceremonies"
+  - season: dry
+    items:
+      - "Vodoun festivals (e.g. Zangbeto, Egungun and Gelede masquerades)"
+      - "Harvest celebrations and market festivals"
+      - "Coastal/beach leisure and events around Cotonou (Nov-Apr)"
+      - "Annual Ouidah Vodoun Festival (January 10)"
+  - season: wet
+    items:
+      - "Indoor/community gatherings and church or mosque-centred events"
+      - "Traditional ceremonies moving indoors during heavier rain"
+      - "Radio and television cultural programming"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Akassa/assa (fermented cassava-based staple)"
+      - "Pâte (corn or cassava dough) with peanut or groundnut sauce stews"
+      - "Fufu/amala with soups"
+      - "Ablo (corn cake)"
+      - "Grilled fish and seafood by the coast"
+  - season: dry
+    items:
+      - "Groundnut/peanut sauce stews heavy on dried ingredients during the harvest-rich dry season"
+      - "Ateké and richer stewed dishes for festival feasts"
+  - season: wet
+    items:
+      - "Lighter vegetable and fresh-produce dishes from the rainy-season harvest"
+      - "Akassa with fresh fish"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Lightweight woven-cotton pagne/lapa wrappers and shirts"
+      - "Men's boubous (kaftan-style robes)"
+      - "Women's pagne wraparounds with bright prints"
+  - season: dry
+    items:
+      - "Light summer resort wear suited to the hot dry season"
+  - season: wet
+    items:
+      - "Breathable cotton clothing; rain ponchos in rural areas"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-17:00 Mon-Fri (banks 08:30-16:30); some firms do a half-day Saturday."
+  lunchBreakTiming: "A standard midday break is common (~12:30-14:00)."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Reduced business over Christmas and New Year (late Dec-early Jan)."
+    - period: "Vodoun Festival Day (10 Jan)"
+      description: "National public holiday celebrating Vodoun heritage; reduced business."
+    - period: "Easter and Independence (1 Aug)"
+      description: "Public holidays with reduced trading."
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Moveable Muslim holidays; reduced business, especially in the north."
+  notes: "Saturday is commonly a half-day for commerce; Sunday widely a rest day. The Muslim north observes Friday-congregation sensitivity around midday prayers."
+sources:
+  - id: ben-religion-2022
+    name: "Benin 2022 Report on International Religious Freedom"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/benin"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Religious composition (2022 IRF, drawing on official data): Christian 48.5%, Muslim 27.7%, Vodoun 11.6%, other indigenous religions 2.6%, remainder unaffiliated/other."
+  - id: ben-unesco-abomey
+    name: "Royal Palaces of Abomey — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/323/"
+    year: 1985
+    accessedDate: "2026-09-19"
+    note: "Inscribed 1985 for the Dahomey royal palaces — basis for the unescoWorldHeritage flag."
+  - id: ben-holidays
+    name: "Benin public holidays"
+    publisher: "OfficeHolidays"
+    url: "https://www.officeholidays.com/countries/benin"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Public holiday calendar: 1 Jan, Vodoun Festival Day (10 Jan), Easter, Labour Day (1 May), Independence Day (1 Aug), Assumption (15 Aug), Eid al-Fitr and Eid al-Adha, Christmas (25-26 Dec)."

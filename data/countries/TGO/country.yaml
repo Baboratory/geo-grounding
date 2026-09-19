@@ -1,0 +1,150 @@
+alpha3: TGO
+alpha2: TG
+name:
+  eng: Togo
+  local:
+    - languageCode: fra
+      value: Togo
+flagEmoji: "🇹🇬"
+capital: Lomé
+isSovereign: true
+# Classified unitary-small: Togo meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~8.7M — far below the 20-25M threshold. (2) French is
+# the sole official language; Ewe and Kabiyè are recognized 'national languages'
+# for education/media but are NOT co-official. (3) No strongly marked federal or
+# multi-region identity curated beyond a single whole. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: tgo-cia
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.35
+    sourceId: tgo-language-estimate
+  - languageCode: ewe
+    domain: locallySpoken
+    speakersShare: 0.4
+    sourceId: tgo-language-estimate
+  - languageCode: kbp
+    domain: locallySpoken
+    speakersShare: 0.16
+    sourceId: tgo-language-estimate
+# French is the sole official language (language of administration and commerce).
+# Ewe (south) and Kabiyè (north) are declared national languages, used in media and
+# education, but only French is official. All locallySpoken shares are ESTIMATES —
+# Togo conducts no official language-proficiency census; they approximate
+# functional speakers (fra ~35%, Ewe ~40% in the south where the Adja-Ewe/Mina
+# ethnic group dominates, Kabiyè ~16% in the north).
+ethnicGroups:
+  # 2013-14 estimate, as reported by the CIA World Factbook.
+  - group: Adja-Ewe/Mina
+    percent: 42.4
+    sourceId: tgo-cia
+  - group: Kabye/Tem
+    percent: 25.9
+    sourceId: tgo-cia
+  - group: Para-Gourma/Akan
+    percent: 17.1
+    sourceId: tgo-cia
+  - group: Akposso/Akebu
+    percent: 4.1
+    sourceId: tgo-cia
+  - group: Ana-Ife
+    percent: 3.2
+    sourceId: tgo-cia
+  - group: Other Togolese
+    percent: 1.7
+    sourceId: tgo-cia
+  - group: Foreigners
+    percent: 5.2
+    sourceId: tgo-cia
+  - group: No response
+    percent: 0.4
+    sourceId: tgo-cia
+timezones:
+  - name: Africa/Lome
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+currency:
+  code: XOF
+  symbol: "FCFA"
+  name: West African CFA franc
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Togo is NOT an EU or EEA member (a sovereign West African republic). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: tgo-cia
+  - topic: "personal data protection"
+    description: "Loi n° 2019-014 du 29 octobre 2019 relative à la protection des données à caractère personnel governs personal-data protection; enforced by the independent Instance de Protection des Données à Caractère Personnel (IPDCP, launched March 2025). Requires declaration/authorisation, prior checks on cross-border transfers, optional data-protection correspondent."
+    sourceId: tgo-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash (XOF) — dominates daily commerce"
+    - "MTN TMoney and Moov Money Flooz — ubiquitous, accepted even at market stalls"
+    - "Bank cards and ATMs (Ecobank, Orabank, UBA) — dependable in Lomé, thinner upcountry"
+    - "Gozem app for moto-taxis; Visa more accepted than Mastercard"
+  tipping:
+    expected: false
+    typicalAmount: "Small change / rounding up is optional"
+    autoIncludedInBill: false
+    note: "Tipping is not customary or expected; rounding up or small tips are appreciated in good-service settings; no standard service-charge norm."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal with titles (Monsieur/Madame + surname); deep respect for elders and chiefs; first names build slowly."
+  greetingNorms: "Greet first, then ask after wellbeing and family, before any business; the Ewe greeting 'Woe zɔ' opens doors. The visitor initiates greeting; bend or genuflect for chiefs/notables (Kabiyè north custom)."
+  meetingEtiquette: "Social preamble is mandatory; hierarchy governs speaking order; patience valued; decisions rest with senior leadership."
+  topicsToAvoid:
+    - "National politics and the Gnassingbé presidency"
+    - "Ethnicity and ethnic tension"
+    - "Religion and witchcraft/Vodoun beliefs"
+    - "Colonial history"
+  giftGivingNotes: "Modest and genuine gifts; present to hosts/chiefs with both hands; food and drink hosting is reciprocal and valued."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: tgo-cia
+    name: "Togo — CIA World Factbook"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/countries/togo/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Confirms French as sole official language, ethnic composition (2013-14 est.), sovereignty (not EU/EEA), and provides timezone/currency/capital context. Ethnic groups: Adja-Ewe/Mina 42.4%, Kabye/Tem 25.9%, Para-Gourma/Akan 17.1%, Akposso/Akebu 4.1%, Ana-Ife 3.2%, other Togolese 1.7%, foreigners 5.2%, no response 0.4%."
+  - id: tgo-language-estimate
+    name: "Languages of Togo — Ewe and Kabiyè (national languages)"
+    publisher: "Omniglot / CIA World Factbook"
+    url: "https://www.omniglot.com/writing/kabiye.htm"
+    year: 2016
+    accessedDate: "2026-09-19"
+    note: "Kabiyè ~1.2M speakers; Ewe dominant in the south (~40% of population as functional speakers), Kabiyè ~16% in the north. All locallySpoken shares are ESTIMATES — no official language-proficiency census exists."
+  - id: tgo-timezone
+    name: "Time in Togo (Africa/Lome) — IANA tz database"
+    publisher: "IANA time zone database"
+    url: "https://time.is/Togo"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Lome = UTC+01:00 (West Africa Time) year-round; no DST observed."
+  - id: tgo-currency
+    name: "Currency — West African CFA franc (BCEAO)"
+    publisher: "Banque Centrale des États de l'Afrique de l'Ouest (BCEAO)"
+    url: "https://www.bceao.int/en"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Togo uses the West African CFA franc (XOF), issued by the BCEAO; symbol FCFA."
+  - id: tgo-data-protection
+    name: "Loi n° 2019-014 du 29 octobre 2019 relative à la protection des données à caractère personnel"
+    publisher: "République du Togo / Instance de Protection des Données à Caractère Personnel (IPDCP)"
+    url: "https://www.africadataprotection.org/pays/togo.html"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "National personal-data protection law enforced by IPDCP; declaration/authorisation regime with cross-border transfer controls."
+  - id: tgo-payment
+    name: "Payment culture in Togo"
+    publisher: "Qualitative industry / travel reporting"
+    url: "https://myblak.com/destinations/togo"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Cash-heavy retail culture with near-universal MTN TMoney / Moov Flooz mobile-money adoption; cards/ATMs dependable in Lomé."

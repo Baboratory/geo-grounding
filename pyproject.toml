@@ -29,6 +29,10 @@ dev = [
   "pytest",
 ]
 
+
+[tool.setuptools]
+packages = []
+py-modules = []
 [tool.black]
 line-length = 100
 target-version = ["py311"]
@@ -50,4 +54,4 @@ disallow_untyped_defs = true
 
 [tool.codespell]
 skip = "*.json,.git"
-ignore-words-list = "pont,gard,socio-economic,connexion,handel,sme,ore,claus,dokument,tread,som,te,parlament,ine,toke,revered,hace,oficial,flor,oriente,ake,blong,fale"
+ignore-words-list = "pont,gard,socio-economic,connexion,handel,sme,ore,claus,dokument,tread,som,te,parlament,ine,toke,revered,hace,oficial,flor,oriente,ake,blong,fale,vai"

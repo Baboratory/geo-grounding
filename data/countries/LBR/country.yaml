@@ -1,0 +1,181 @@
+alpha3: LBR
+alpha2: LR
+name:
+  eng: Liberia
+  local:
+    - languageCode: eng
+      value: Liberia
+flagEmoji: "🇱🇷"
+capital: Monrovia
+isSovereign: true
+# Classified unitary-small: Liberia meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~5.4M — far below the 20-25M threshold. (2) English is
+# the sole official language; Kpelle and ~16 indigenous languages are locally
+# spoken but NOT official. (3) No strongly marked federal or multi-region identity
+# curated beyond a single whole. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: lbr-cia
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.2
+    sourceId: lbr-language-estimate
+  - languageCode: kpe
+    domain: locallySpoken
+    speakersShare: 0.2
+    sourceId: lbr-language-estimate
+# English is the sole de jure official language; in practice Liberian English
+# variants are widely used by roughly 20% of the population. Kpelle is the most
+# widely spoken indigenous language, with the Kpelle group forming ~20.2% of the
+# population — the kpe locallySpoken 0.2 share is an ESTIMATE tied to ethnic share,
+# since the CIA gives no direct language-percentage breakdown. The eng locallySpoken
+# 0.2 follows the CIA's 'English 20% official' figure.
+ethnicGroups:
+  # CIA 2022 estimate.
+  - group: Kpelle
+    percent: 20.2
+    sourceId: lbr-cia
+  - group: Bassa
+    percent: 13.6
+    sourceId: lbr-cia
+  - group: Grebo
+    percent: 9.9
+    sourceId: lbr-cia
+  - group: Gio
+    percent: 7.9
+    sourceId: lbr-cia
+  - group: Mano
+    percent: 7.2
+    sourceId: lbr-cia
+  - group: Kru
+    percent: 5.5
+    sourceId: lbr-cia
+  - group: Lorma
+    percent: 4.8
+    sourceId: lbr-cia
+  - group: Krahn
+    percent: 4.5
+    sourceId: lbr-cia
+  - group: Kissi
+    percent: 4.3
+    sourceId: lbr-cia
+  - group: Mandingo
+    percent: 4.2
+    sourceId: lbr-cia
+  - group: Vai
+    percent: 3.8
+    sourceId: lbr-cia
+  - group: Gola
+    percent: 3.8
+    sourceId: lbr-cia
+  - group: Gbandi
+    percent: 2.9
+    sourceId: lbr-cia
+  - group: Mende
+    percent: 1.7
+    sourceId: lbr-cia
+  - group: Sapo
+    percent: 1.0
+    sourceId: lbr-cia
+  - group: Belle
+    percent: 0.7
+    sourceId: lbr-cia
+  - group: Dey
+    percent: 0.3
+    sourceId: lbr-cia
+  - group: Other Liberian
+    percent: 0.4
+    sourceId: lbr-cia
+  - group: Other African
+    percent: 3.0
+    sourceId: lbr-cia
+  - group: Non-African
+    percent: 0.2
+    sourceId: lbr-cia
+timezones:
+  - name: Africa/Monrovia
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+currency:
+  code: LRD
+  symbol: "L$"
+  name: Liberian dollar
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Liberia is NOT an EU or EEA member (a sovereign West African republic and the continent's first independent republic). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: lbr-cia
+  - topic: "personal data protection"
+    description: "Liberia has no national data-protection law and no data-protection authority. It is bound at the ECOWAS regional level, but the regional framework is largely unimplemented domestically."
+    sourceId: lbr-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash — over 90% of transactions are cash-based"
+    - "Dual-currency LRD + USD (both legal tender; USD preferred for hotels/formal/large payments)"
+    - "Bank cards — mainly at upscale Monrovia hotels and a few expat venues"
+    - "Mobile money — growing but nascent, resident-focused"
+  tipping:
+    expected: true
+    typicalAmount: "~10% in restaurants; US$1-2 for hotel staff; round up taxis 10-20 LRD"
+    autoIncludedInBill: false
+    note: "Tipping appreciated but modest: ~10% in restaurants, US$1-2 for hotel staff, round up taxi fares; service charges rarely included."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Respectful and formal; titles respected; American-influenced politeness (Americo-Liberian heritage) blended with indigenous custom; modest dress."
+  greetingNorms: "Handshake with eye contact plus a warm greeting; greet everyone present before any business; in Kpelle 'Gaa lei?' (how are you) opens conversation."
+  meetingEtiquette: "Punctuality is respected but patience expected; begin with greetings and small talk; right hand for handshakes and giving/receiving; deference to elders."
+  topicsToAvoid:
+    - "The civil war and its legacy"
+    - "Religious tensions"
+    - "Sensitive political history"
+  giftGivingNotes: "Small thoughtful gifts (souvenirs, items from home) welcomed; present with the right hand; modest local specialities fine; never overwhelm with expensive gifts."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: lbr-cia
+    name: "Liberia — CIA World Factbook"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/countries/liberia/"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Confirms English as sole official language, ethnic composition (2022 est.), sovereignty (not EU/EEA). Ethnic groups (2022 est.): Kpelle 20.2%, Bassa 13.6%, Grebo 9.9%, Gio 7.9%, Mano 7.2%, Kru 5.5%, Lorma 4.8%, Krahn 4.5%, Kissi 4.3%, Mandingo 4.2%, Vai 3.8%, Gola 3.8%, Gbandi 2.9%, Mende 1.7%, Sapo 1%, Belle 0.7%, Dey 0.3%, other Liberian 0.4%, other African 3%, non-African 0.2%."
+  - id: lbr-language-estimate
+    name: "Languages of Liberia — English and Kpelle"
+    publisher: "CIA World Factbook / Wikipedia (Kpelle language)"
+    url: "https://en.wikipedia.org/wiki/Kpelle_language"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "English 20% official (LocallySpoken 0.2 follows CIA 'English 20%' figure). Kpelle is the leading indigenous language; kpe locallySpoken 0.2 is an ESTIMATE tied to the ~20.2% Kpelle ethnic share (CIA gives no direct language percentage)."
+  - id: lbr-timezone
+    name: "Time in Liberia (Africa/Monrovia) — IANA tz database"
+    publisher: "IANA time zone database"
+    url: "https://en.wikipedia.org/wiki/Time_in_Liberia"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Monrovia = UTC+00:00 (Greenwich Mean Time) year-round; no DST. Shifted from Monrovia Mean Time (UTC-0:44:30) in 1972."
+  - id: lbr-currency
+    name: "Liberia currency — LRD and USD duality"
+    publisher: "Central Bank of Liberia / travel finance guides"
+    url: "https://www.travelwithhello.com/blog/liberia-currency-money-guide"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Liberian dollar (LRD) is legal tender alongside the US dollar (USD); USD preferred for formal/large payments, LRD for day-to-day."
+  - id: lbr-data-protection
+    name: "Data protection in Liberia (no national law)"
+    publisher: "HLC Africa / Data Protection Africa"
+    url: "https://www.hlc.com/en/publications/overview-of-data-protection-laws-in-africa"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Confirms Liberia has no national data-protection law and no dedicated authority; ECOWAS regional framework largely unimplemented domestically."
+  - id: lbr-payment
+    name: "Liberia payment systems"
+    publisher: "Central Bank of Liberia / travel guides"
+    url: "https://www.cbl.org.lr/general/overview-payment-systems-liberia"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Cash dominates (>90% of transactions); central-bank RTGS/ACH/NEPS modernization ongoing; cards at upscale Monrovia venues."
