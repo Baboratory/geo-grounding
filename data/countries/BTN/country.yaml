@@ -1,0 +1,122 @@
+alpha3: BTN
+alpha2: BT
+name:
+  eng: Bhutan
+  local:
+    - languageCode: dzo
+      value: འབྲུག་ཡུལ་ (Druk Yul)
+flagEmoji: "🇧🇹"
+capital: Thimphu
+isSovereign: true
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: dzo
+    domain: official
+    speakersShare: 1.0
+    sourceId: bt-constitution
+  - languageCode: dzo
+    domain: locallySpoken
+    speakersShare: 0.24
+    sourceId: bt-cia
+  - languageCode: tsj
+    domain: locallySpoken
+    speakersShare: 0.28
+    sourceId: bt-cia
+  - languageCode: nep
+    domain: locallySpoken
+    speakersShare: 0.22
+    sourceId: bt-cia
+  - languageCode: eng
+    domain: locallySpoken
+    # English is the medium of instruction in schools and widely used in
+    # government, business and law, but no official census share of residents who
+    # speak it is published; recorded qualitatively rather than as a baseless
+    # statistic. The remaining ~26% of the population speaks other languages.
+    speakersShare: 0.26
+    sourceId: bt-nsb
+ethnicGroups:
+  - group: Ngalop (Bhote)
+    percent: 50.0
+    sourceId: bt-cia
+  - group: Ethnic Nepalese (predominantly Lhotshampas)
+    percent: 35.0
+    sourceId: bt-cia
+  - group: Sharchop (Lhotsampas)
+    percent: 15.0
+    sourceId: bt-cia
+    # The factsheet's grouping overlaps (Sharchop span the eastern, Nepali-derived
+    # Lhotshampa are southern); shares follow the CIA World Factbook estimate.
+timezones:
+  - name: Asia/Thimphu
+    standardUtcOffset: "UTC+6"
+    observesDst: false
+currency:
+  code: BTN
+  symbol: Nu
+  name: Bhutanese Ngultrum
+  # Legacy note: the Indian rupee (INR) is also accepted as legal tender in
+  # Bhutan; the ngultrum is pegged at par to the rupee. The schema models one
+  # currency per entry, so this nuance is recorded here rather than in a field.
+legalConstraints:
+  - topic: "consumer protection"
+    description: "Consumer Protection Act of Bhutan (2012) protects consumer rights and product liability, administered by the Consumer Protection and Facilities Management Division. Non-EU (the EU consumer-rights directives do not apply)."
+    sourceId: bt-gicc
+  - topic: "personal data protection"
+    description: "Personal Data Protection Act of Bhutan (2022, updated 2023/2024) establishes a data-protection authority and conditions for personal-data processing. Non-EU framework (no GDPR equivalence)."
+    sourceId: bt-gicc
+  - topic: "sales and consumption tax"
+    description: "Bhutan has no broad VAT; it applies a sales tax on goods and services (selected rates) and limited consumption taxes, which also affect electronic services and imports for residents."
+    sourceId: bt-rma
+paymentCulture:
+  popularMethods:
+    - "Cash (ngultrum notes and coins) - historically dominant, especially in rural areas"
+    - "QR-code mobile payments (a nationwide interoperable QR standard) - rising rapidly via the Royal Monetary Authority's national payment system"
+    - "Credit and debit cards - available mainly in urban areas (Thimphu, Paro) and larger hotels"
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    note: "Tipping is not customary; a service charge may be added in hotels. Small gratuities are welcome but not expected."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Communication is indirect and courteous; direct confrontation is avoided. Respect for elders, authority and the monarchy is emphasized, and honorific titles (e.g. Dasho) reflect a status-conscious social order."
+  greetingNorms: "A light handshake and a polite, soft-spoken greeting; showing respect to the person's status and age is expected."
+  meetingEtiquette: "Personal trust and relationship precede business. Decisions tend to be unhurried and reached with the most senior person present; formal titles are used in addressing counterparts."
+  topicsToAvoid:
+    - "Criticism of the monarchy, the government or the Buddhist establishment"
+    - "Sensitive ethnic or refugee-history topics"
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: bt-constitution
+    name: "Constitution of the Kingdom of Bhutan, 2008"
+    publisher: "Royal Government of Bhutan, National Council"
+    url: "https://www.nationalcouncil.bt/assets/images/files/constitution_eng.pdf"
+    accessedDate: "2026-09-19"
+    note: "Article 1, Section 8: Dzongkha is the national language of Bhutan."
+  - id: bt-cia
+    name: "CIA World Factbook - Bhutan (people and society)"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/bhutan/"
+    accessedDate: "2026-09-19"
+    note: "2005 census estimates: Dzongkha first-language 24%, Tshangla 28%, Lhotshamkha 22%, other 26%; ethnic groups Ngalop 50%, ethnic Nepalese 35%, Sharchop 15%."
+  - id: bt-nsb
+    name: "National Statistics Bureau of Bhutan"
+    publisher: "Royal Government of Bhutan, National Statistics Bureau"
+    url: "http://www.nsb.gov.bt/"
+    accessedDate: "2026-09-19"
+    note: "Population (~0.79 million) and the qualitative note on English as the medium of instruction."
+  - id: bt-rma
+    name: "Royal Monetary Authority of Bhutan (RMA)"
+    publisher: "Royal Government of Bhutan, Royal Monetary Authority"
+    url: "https://www.rma.org.bt/"
+    accessedDate: "2026-09-19"
+    note: "Ngultrum (BTN) issuance and par peg to the Indian rupee; national payment-system policy."
+  - id: bt-gicc
+    name: "UNCTAD - Data Protection and Privacy Legislation Worldwide (Bhutan)"
+    publisher: "United Nations Conference on Trade and Development"
+    url: "https://unctad.org/page/data-protection-and-privacy-legislation-worldwide"
+    accessedDate: "2026-09-19"
+    note: "Confirms the Personal Data Protection Act of Bhutan and the Consumer Protection Act, and that Bhutan is outside the EU framework."

@@ -1,0 +1,7 @@
+code: soq
+name:
+  eng: Soqotri
+  local: Soqotri
+# No verified common-phrases set is available: Soqotri is a Modern South Arabian
+# language with no widely-standardized published phrase guide we can cite.
+# Left out rather than risk unverified content, per the no-hallucination premise.

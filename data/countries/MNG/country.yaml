@@ -1,0 +1,149 @@
+alpha3: MNG
+alpha2: MN
+name:
+  eng: Mongolia
+  local:
+    - languageCode: khk
+      value: Монгол Улс
+flagEmoji: "🇲🇳"
+capital: Ulaanbaatar
+isSovereign: true
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: khk
+    domain: official
+    speakersShare: 1.0
+    sourceId: mn-constitution
+  - languageCode: khk
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: mn-census
+  - languageCode: kaz
+    domain: locallySpoken
+    # Kazakh is spoken by the Kazakh minority concentrated in Bayan-Olgii aimag.
+    # No exact nationwide share is authoritatively published; an ESTIMATE based
+    # on the ethnic-Kazakh share (~3.8% of the population).
+    speakersShare: 0.038
+    sourceId: mn-census
+  - languageCode: eng
+    domain: foreign
+    # English is the primary taught foreign language in schools and business, but
+    # fluent speakers are a minority; no authoritative nationwide share exists, so
+    # retained as a qualitative foreign entry (a small ESTIMATE).
+    speakersShare: 0.1
+    sourceId: mn-mongolstat
+  - languageCode: rus
+    domain: foreign
+    # Russian retains currency among older generations and some technical spheres,
+    # though English has displaced it as the primary foreign language. No precise
+    # nationwide figure is published; a qualitative foreign entry.
+    speakersShare: 0.05
+    sourceId: mn-mongolstat
+ethnicGroups:
+  - group: Khalkh (Khalkha)
+    percent: 81.9
+    sourceId: mn-census
+  - group: Kazakh
+    percent: 3.8
+    sourceId: mn-census
+  - group: Dorbet (Durvud)
+    percent: 2.7
+    sourceId: mn-census
+  - group: Bayad
+    percent: 2.1
+    sourceId: mn-census
+  - group: Buriat (Buryat)
+    percent: 1.7
+    sourceId: mn-census
+  - group: Zakhchin
+    percent: 1.2
+    sourceId: mn-census
+  - group: Dariganga
+    percent: 1.0
+    sourceId: mn-census
+  - group: Uriankhai
+    percent: 0.9
+    sourceId: mn-census
+  - group: Other / undefined
+    percent: 4.7
+    sourceId: mn-census
+timezones:
+  - name: Asia/Ulaanbaatar
+    standardUtcOffset: "UTC+8"
+    observesDst: false
+    # Western Mongolia (Hovd, Uvs, Bayan-Olgii) is on UTC+7; the national
+    # standard, including the capital, is UTC+8.
+currency:
+  code: MNT
+  symbol: "₮"
+  name: Togrog (Mongolian tögrög)
+legalConstraints:
+  - topic: "consumer protection"
+    description: "The Law on Consumer Protection protects consumer rights in transactions, product safety and dispute resolution; digital and e-commerce transactions fall under consumer-protection and e-transaction provisions. Non-EU (EU consumer directives do not apply)."
+    sourceId: mn-consumer
+  - topic: "personal data protection"
+    description: "The Law on Personal Data Protection (in force 2021) regulates the collection, processing and use of personal data, requiring a legal basis and consent, and establishing obligations for controllers and processors. Non-EU framework (no GDPR equivalence)."
+    sourceId: mn-pdpl
+  - topic: "electronic transactions"
+    description: "The Law on Electronic Transactions and Law on Electronic Signatures give legal recognition to e-contracts, e-signatures and digital services. Non-EU."
+    sourceId: mn-etrans
+paymentCulture:
+  popularMethods:
+    - "Cash (togrog, MNT) - still widely used, especially outside Ulaanbaatar and in rural/herder communities"
+    - "Card payments (Visa, Mastercard, local UnionPay-linked banks) - increasingly accepted in Ulaanbaatar retail, hotels and larger businesses"
+    - "Mobile QR payments (QPay, SocialPay, HiPay, Golomt wallet) - the fast-growing QPay network is dominant across merchants and services"
+    - "Bank mobile apps (Khan Bank, Golomt, TDB) for transfers and bill payments"
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    note: "Tipping is not customary; service charges are typically included, and rounding up or leaving small change is appreciated but not expected."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Communication tends to be relatively direct and to the point, but hierarchical within organizations and courteous toward guests. Addressing people by title and surname is respectful in formal settings."
+  greetingNorms: "A handshake is the standard greeting; hospitality toward guests is a deeply valued trait."
+  meetingEtiquette: "Building personal trust and relationship is important before business discussions; directness is valued but within an egalitarian and respectful framework."
+  topicsToAvoid:
+    - "Politics and criticism of the government or the Prime Minister"
+    - "Sensitive historical topics about the socialist era or the border with China"
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: mn-constitution
+    name: "Constitution of Mongolia, 1992"
+    publisher: "Government of Mongolia (WIPO Lex)"
+    url: "https://wipo.int/wipolex/en/legislation/details/3039"
+    accessedDate: "2026-09-19"
+    note: "Article 8 establishes Mongolian as the official language of the State; the Language Law of 2015/2020 also prescribes use of the traditional script alongside Cyrillic."
+  - id: mn-census
+    name: "Mongolia Population and Housing Census"
+    publisher: "National Statistics Office of Mongolia (NSO)"
+    url: "https://1212.mn/"
+    accessedDate: "2026-09-19"
+    note: "Ethnic composition (Khalkh 81.9%, Kazakh 3.8%, Dorbet 2.7%, Bayad 2.1%, Buriat 1.7%, Zakhchin 1.2%, Dariganga 1.0%, Uriankhai 0.9%) and religious shares from the national census."
+  - id: mn-mongolstat
+    name: "National Statistics Office of Mongolia (NSO)"
+    publisher: "National Statistics Office of Mongolia"
+    url: "https://www.1212.mn/"
+    accessedDate: "2026-09-19"
+    note: "Population (~3.4 million); the qualitative note on English and Russian as the foreign languages taught/used."
+  - id: mn-consumer
+    name: "Law of Mongolia on Consumer Right Protection"
+    publisher: "Government of Mongolia (Legal Info)"
+    url: "https://legalinfo.mn/en/edtl/16760167471541"
+    accessedDate: "2026-09-19"
+    note: "Consumer-rights framework in goods/services transactions, including quality, safety and redress obligations."
+  - id: mn-pdpl
+    name: "Law of Mongolia on Personal Data Protection (2021, in force 2022)"
+    publisher: "Government of Mongolia (Legal Info)"
+    url: "https://legalinfo.mn/en/edtl/16532053734461"
+    accessedDate: "2026-09-19"
+    note: "Regulates personal-data collection, processing and use; consent and controller/processor obligations."
+  - id: mn-etrans
+    name: "Law of Mongolia on Electronic Signatures"
+    publisher: "Government of Mongolia (Legal Info)"
+    url: "https://legalinfo.mn/en/edtl/16760167801491"
+    accessedDate: "2026-09-19"
+    note: "Legal framework for e-contracts, e-signatures and e-payments."
