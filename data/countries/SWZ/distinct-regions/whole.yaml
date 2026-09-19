@@ -1,0 +1,128 @@
+code: WHOLE
+name:
+  eng: Eswatini
+  local:
+    - languageCode: ssw
+      value: Umbuso weSwatini
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Eswatini is classified
+# unitary-small (single synthetic WHOLE region).
+climates:
+  - koppenCode: Cwa / Cwb
+    description: "Subtropical: wet summers (October-April) and dry winters (May-September). The highveld in the west is cooler and wetter, the middleveld temperate, and the lowveld (east, toward Mozambique) hot and dry."
+landmarks:
+  - name: Mantenga Cultural Village
+    description: "A living museum recreating a traditional Swazi homestead in the Ezulwini Valley."
+  - name: Sibebe Rock
+    description: "One of the largest granite monoliths on Earth, near Mbabane — a striking natural landmark."
+  - name: Malolotja Nature Reserve
+    description: "A large mountain reserve of grasslands, gorges and one of Southern Africa's highest waterfalls (Malolotja Falls)."
+  - name: Hlane Royal National Park
+    description: "Swaziland's largest protected area, a royal hunting ground now hosting rhino, elephant and lions."
+  - name: Ezulwini Valley ('Valley of Heaven')
+    description: "The scenic royal valley running from Mbabane to Lobamba, home to palaces and cultural sites."
+culturalTraits:
+  - "A proud, cohesive Swazi national identity under an absolute monarchy — the last in Africa"
+  - "Deep respect for royalty; major ceremonies (Incwala, Umhlanga) revolve around the king and the royal family"
+  - "Communal 'ubuntu' values and the respect register of 'hlonipha'"
+  - "The tinkhundla system of traditional local governance rooted in the monarchy"
+prideOf:
+  - "The monarchy and the national ceremonies of Incwala and Umhlanga"
+  - "The Swazi language (siSwati) and traditional customs"
+  - "A peaceful, unified society and the scenic Ezulwini Valley"
+animals:
+  popular:
+    - Cattle (culturally central in Swazi society and bride-wealth)
+    - Goats and sheep
+    - Wildlife of Hlane and Mlilwane reserves (rhino, elephant, antelope)
+  unique:
+    - White and black rhino at Hlane Royal National Park
+    - The rare, large-winged butterflies and birdlife of Malolotja
+industries:
+  - Sugar and sugar products (a major export and employer)
+  - Soft-drink concentrate (a major Coca-Cola concentrate facility)
+  - Forestry and timber (wood pulp)
+  - Textiles and garments
+  - Tourism
+sports:
+  - Football (most popular, the national passion)
+  - Athletics and running (famous marathon runners)
+  - Traditional dance and cultural sports
+  - Rugby and cricket
+religions:
+  - name: Christian (incl. Zion and other churches)
+    percent: 90.0
+    sourceId: swz-religion
+  - name: Muslim, Bahá'í, Hindu and indigenous beliefs
+    percent: 10.0
+    sourceId: swz-religion
+entertainment:
+  - season: summer
+    items:
+      - "Ceremonial dancing including the Umhlanga (Reed Dance) for young women"
+      - "Hiking and wildlife viewing in the reserves"
+      - "The Ezulwini Valley's cultural and craft markets"
+  - season: winter
+    items:
+      - "The Incwala (first-fruits / kingship) ceremony in late December-early January"
+      - "Cosier community and church gatherings"
+  - season: allYear
+    items:
+      - "Football games across the country"
+      - "Traditional music and dance performances"
+      - "Game-viewing at the national parks"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Fresh tropical fruit from the lowveld (mango, papaya, citrus)"
+  - season: winter
+    items:
+      - "Warm stews, including the national dish sishwala"
+  - season: allYear
+    items:
+      - "Sishwala (thick maize porridge), the national staple"
+      - "Incwancwa (fermented maize/ sorghum porridge)"
+      - "Emasi (sour fermented milk)"
+      - "Grilled meat and stews"
+      - "Traditional sorghum beer (umcombotsi)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional dress often features the umsinsi colours, beaded jewellery and, for women, the skimpy yet iconic beaded skirts worn at ceremonies; everyday wear pairs traditional elements with modern clothing"
+seasonCalendar:
+  - season: summer
+    months: [11, 12, 1, 2, 3, 4]
+  - season: winter
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard office hours roughly 8:00 am-5:00 pm, Monday-Friday, with a midday break. Banks close earlier (~3:30-4:00 pm) with a Saturday half-day; malls open later (~9:00 am) and trade to ~5:00-7:00 pm. Corporate and banks typically closed on Sunday."
+  lunchBreakTiming: "A lunch break around 1:00-2:00 pm."
+  notableShutdownPeriods:
+    - period: "Incwala Festival and Christmas-New Year (late December-early January)"
+      description: "The Incwala Day holiday (23 December) and the Incwala first-fruits ceremony span late December to early January, coinciding with the festive-season closure of much of government and formal business."
+      sourceId: swz-holidays-2026
+    - period: "Easter (Good Friday and Easter Monday)"
+      description: "Movable holiday around March-April; offices and banks closed."
+      sourceId: swz-holidays-2026
+    - period: "Somhlolo (Independence) Day, 6 September"
+      description: "The national day, marking Somhlolo 'the Lion who led the Swazi nation'; public holiday with closures."
+      sourceId: swz-holidays-2026
+  notes: "No daylight-saving time (UTC+2, same as South Africa — no cross-border scheduling delta)."
+sources:
+  - id: swz-religion
+    name: "Religious composition of Eswatini (CIA World Factbook / survey data)"
+    publisher: "CIA / demographic references"
+    url: "https://www.cia.gov/the-world-factbook/countries/eswatini/"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "An estimated ~90% Christian (a large proportion belonging to African-initiated 'Zion' churches), with the remainder Muslim, Bahá'í, Hindu and indigenous beliefs; ESTIMATE (no precise official census)."
+  - id: swz-holidays-2026
+    name: "Eswatini public holidays 2026 (Public Holidays Act 1938 schedule)"
+    publisher: "Government of Eswatini / public holiday calendars"
+    url: "https://afriref.dev/sz/public-holidays"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Public holidays including New Year, Good Friday, Easter Monday, Ascension, King's Birthday, Somhlolo/Independence Day (6 September), Incwala Day (23 December), Christmas and Boxing Day."

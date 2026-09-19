@@ -1,0 +1,139 @@
+code: WHOLE
+name:
+  eng: Timor-Leste
+  local:
+    - languageCode: tet
+      value: Timor Lorosa'e
+    - languageCode: por
+      value: Timor-Leste
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Timor-Leste is classified
+# unitary-small (single synthetic WHOLE region). It carries full country-level
+# climate, culture and business-rhythm content.
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna / tropical wet-dry: a hot, humid wet season November-April (often with cyclonic rains) and a drier season May-October. The mountainous interior is cooler and wetter; coastal Dili is hot year-round. Rainy-season weather can disrupt transport and logistics."
+landmarks:
+  - name: Cristo Rei of Dili
+    description: "A 27-metre statue of Jesus on a globe atop the Fatucama peninsula, a coastal landmark overlooking the Bay of Dili."
+  - name: Cape Fatucama
+    description: "The eastern headland of Dili's bay, reached by a stairway with Stations of the Cross."
+  - name: Jaco Island
+    description: "An uninhabited island off the far eastern tip, part of Nino Konis Santana National Park and a sacred site."
+  - name: Mount Ramelau (Tatamailau)
+    description: "Timor-Leste's highest peak (2,986 m), where the national Marian statue Our Lady of Ainaro stands on the summit."
+  - name: Dili's Resistance Museum and Chega Centre
+    description: "Museums documenting Timor-Leste's independence struggle, part of the national memory narrative."
+culturalTraits:
+  - "Strong Austronesian and Melanesian heritage with a majority-Catholic identity, a legacy of centuries of Portuguese rule"
+  - "Tetum and Portuguese as official languages; Indonesian and English as constitutional working languages"
+  - "Ubuntu-like communitarian values: kinship, clan and village ties, and consensus over confrontation"
+  - "A young, rapidly growing population emerging from a post-conflict reconstruction era"
+prideOf:
+  - "Succeeding in independence after 24 years of Indonesian occupation (1999 ballot, 2002 full sovereignty)"
+  - "The national language Tetum and the democratic constitution"
+  - "The world's newest state to become a fully sovereign member of the UN and ASEAN"
+  - "Coffee — one of the few globally traded Timorese products"
+animals:
+  popular:
+    - Water buffalo (carabao)
+    - Cattle
+    - Chicken and village pigs
+    - Timor deer (locally significant in rural areas)
+  unique:
+    - The Timor region's diverse birdlife, including endemic species, and the forests of Nino Konis Santana National Park
+    - Marine life around Jaco Island and the coral reefs of Atauro Island
+industries:
+  - Agriculture (coffee, vanilla, rice, maize, coconut)
+  - Oil and gas (Bayu-Undan field and planned Greater Sunrise development)
+  - Emerging tourism around Dili, Atauro Island and the east coast
+  - Fishing and aquaculture
+sports:
+  - Football (most popular)
+  - Futsal
+  - Martial arts (participation)
+  - Traditional wrestling and taekwondo
+religions:
+  - name: Roman Catholic
+    percent: 97.6
+    sourceId: tls-cia-2023
+  - name: Other (Protestant, Muslim, animist and others)
+    percent: 2.4
+    sourceId: tls-cia-2023
+entertainment:
+  - season: dry
+    items:
+      - "Beaches and coastal tourism around Dili and Atauro Island"
+      - "Diving and snorkelling on near-shore reefs"
+      - "Hiking in the central mountains (Mount Ramelau)"
+      - "Open-air festivals and national-day celebrations"
+  - season: wet
+    items:
+      - "Indoor community and church events"
+      - "Karaoke and social gatherings"
+      - "Traditional music and dance performances"
+  - season: allYear
+    items:
+      - "Coffee-house culture in Dili"
+      - "Sports and martial-arts training"
+      - "Museums documenting the independence struggle"
+traditionalDishes:
+  - season: dry
+    items:
+      - "Fresh-caught grilled fish on the coast"
+      - "Ikra (local chilli condiment) dishes"
+      - "Tropical fruit (mango, papaya, banana)"
+  - season: wet
+    items:
+      - "Batunilun (corn porridge)"
+      - "Warm stews and soups made with root vegetables"
+  - season: allYear
+    items:
+      - "Ikan Pepes (spiced steamed fish in banana leaf)"
+      - "Batar daan (corn and beans stew)"
+      - "Rice and root-crop staples with shredded meat"
+      - "Timorese coffee (one of the country's signature exports)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional woven tais textiles, worn as ceremonial wraps and sashes — a distinctive Timorese cultural marker"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard government and office hours roughly 8:00 am-5:00 pm, Monday-Friday; banks typically open 9:00 am-3:00 pm weekdays."
+  lunchBreakTiming: "Midday meal break, commonly around 12:00-1:30 pm."
+  notableShutdownPeriods:
+    - period: "Christmas-New Year (25 December-1 January)"
+      description: "Offices, government and most businesses close over the festive period."
+      sourceId: tls-holidays-2026
+    - period: "Restoration of Independence Day (20 May)"
+      description: "The national day; businesses and government are closed."
+      sourceId: tls-holidays-2026
+    - period: "Independence Day (28 November) and Labour Day (1 May)"
+      description: "Public holidays marked by official closures."
+      sourceId: tls-holidays-2026
+    - period: "Easter and Catholic feast days"
+      description: "Good Friday, Corpus Christi and the Immaculate Conception are public holidays."
+      sourceId: tls-holidays-2026
+  notes: "No daylight-saving time (UTC+9 year-round) — coordinate business hours with EU/ASEAN counterparts accordingly. The tropical wet season (Nov-Apr) can disrupt transport and delivery logistics."
+sources:
+  - id: tls-cia-2023
+    name: "CIA World Factbook — Timor-Leste (2023 archive)"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/about/archives/2023/countries/timor-leste"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "Religion: ~97.6% Roman Catholic, ~2.4% other (incl. Protestant, small Muslim community and animist traditions)."
+  - id: tls-holidays-2026
+    name: "Timor-Leste public holidays 2026 (Government gazette and public holiday calendars)"
+    publisher: "Government of Timor-Leste / public holiday calendars"
+    url: "https://publicholidays.asia/timor-leste/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Public holidays including Restoration of Independence (20 May), Proclamation of Independence (28 Nov), Labour Day, Independence/Referendum days, and Catholic feast days (Good Friday, Corpus Christi, Immaculate Conception, Assumption, Christmas)."
