@@ -1,0 +1,113 @@
+code: ET-OR
+name:
+  eng: Oromia
+  local:
+    - languageCode: orm
+      value: Oromiyaa
+    - languageCode: amh
+      value: ኦሮሚያ
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland climate across the central and Bale-Arisi highlands — mild with a distinct June-September rainy season; warm and cooler-dry outside it."
+  - koppenCode: Aw
+    description: "Tropical wet-dry savanna climate in the lower Rift Valley and western lowlands — hot year-round with seasonal rains."
+landmarks:
+  - name: Sof Omar Caves
+    description: "One of the largest cave systems in Africa, a limestone network sacred to the Oromo people and to Islam, in the Bale highlands."
+  - name: Bale Mountains National Park
+    description: "Afro-alpine highlands harboring the world's rarest canid, the Ethiopian wolf, plus giant lobelias and endemic birds."
+  - name: Dirre Sheikh Hussein
+    description: "A revered Islamic pilgrimage site in eastern Bale, often called the 'Mecca of Ethiopia'."
+  - name: Lake Langano and the Rift Valley lakes
+    description: "Popular lakeside recreation resorts (Langano, Shala, Abijatta) south of Addis Ababa, with abundant birdlife and flamingos."
+  - name: Lake Hora (Bishoftu crater lakes)
+    description: "Volcanic crater lakes outside Addis Ababa that host the cultural and political heart of the region."
+culturalTraits:
+  - "Home to the Oromo people, the largest single ethnic group in Ethiopia, and to Afaan Oromo, a global-majority Cushitic language written in the Latin Qubee script"
+  - "The Gadaa system of generational self-governance, inscribed by UNESCO as intangible cultural heritage"
+  - "Irreechaa — the annual Oromo thanksgiving festival by lakes and rivers that marks the end of the rainy season"
+  - "Ethiopia's coffee heartland (the Kaffa and Jimma zone of the region is the origin of Arabica coffee)"
+prideOf:
+  - "Irreechaa and the Gadaa democratic traditions"
+  - "Being the cradle of coffee and Ethiopia's leading coffee-producing region"
+  - "The Bale and Arsi highlands producing many world-class marathon runners"
+animals:
+  popular:
+    - "Ethiopian wolf (the world's rarest canid, in Bale)"
+    - "Mountain nyala and Bohor reedbuck"
+    - "Grévy's zebra in the eastern lowlands"
+    - "Flamingos and Rift Valley lake birds"
+  unique:
+    - "The Bale Mountains' Ethiopian wolf population is one of only two in the world"
+industries:
+  - "Coffee — Oromia is Ethiopia's dominant coffee producer"
+  - "Agriculture (grain, maize, legumes) and horticulture/floriculture in the Rift"
+  - "Livestock and pastoral cultivation in the east"
+  - "Mining (gold) and growing industrial parks connected to Addis Ababa"
+  - "Tourism: Bale Mountains trekking, Rift Valley lakes, and cultural festivals"
+sports:
+  - "Long-distance running — Kenenisa Bekele, Derartu Tulu and many Arsi/Bale champions come from here"
+  - "Association football"
+  - "Traditional wrestling and the Irreechaa festivities"
+religions:
+  - name: Islam (Sunni)
+    percent: 47.5
+    sourceId: eth-religion-2007
+  - name: Ethiopian Orthodox Tewahedo
+    percent: 30.5
+    sourceId: eth-religion-2007
+  - name: P'ent'ay / Protestant
+    percent: 17.7
+    sourceId: eth-religion-2007
+  - name: Traditional indigenous faiths
+    percent: 3.3
+    sourceId: eth-religion-2007
+entertainment:
+  - season: allYear
+    items:
+      - "Irreechaa celebrations and Oromo cultural festivals"
+      - "Coffee ceremony and communal gatherings"
+  - season: wet
+    items:
+      - "Indoor cultural events during the June-September rains"
+  - season: dry
+    items:
+      - "Bale Mountains and Rift Valley trekking and lake excursions"
+      - "Irreechaa (usually late September/October) and harvest-time festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Injera with wat stews and shiro"
+      - "Kitfo, tibs, and grilled meats"
+      - "Buna (coffee) ceremony and roasted barley/grain snacks (kollo)"
+  - season: dry
+    items:
+      - "Grilled meat at festivals and weddings"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Habesha kemis and netela in Amhara-influenced dress, alongside Oromo woven shawls"
+      - "Colorful white-warped Oromo cotton wraps with characteristic borders worn at Irreechaa and weddings"
+seasonCalendar:
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Offices typically Mon-Fri ~08:00-17:30 with a midday break; Saturday is a half/working day in many towns; Sunday is the main rest day."
+  lunchBreakTiming: "Midday (12:00-14:00), involving the social coffee ceremony."
+  notableShutdownPeriods:
+    - period: "Public and religious holidays"
+      description: "Enkutatash, Meskel (late September), Timkat/Genna for the Orthodox, and Eid for the Muslim population see wide closures; Irreechaa brings large gatherings and some business disruption."
+  notes: "The region surrounds Addis Ababa and is heavily integrated with the capital's economy; coffee-season (harvest ~October-January) activity and the Rift Valley horticulture sector are major rhythms."
+sources:
+  - id: eth-religion-2007
+    name: "Religion in Ethiopia — Oromia region religious composition (2007 census)"
+    publisher: "Wikipedia, citing the 2007 Population and Housing Census, Central Statistical Agency of Ethiopia"
+    url: "https://en.wikipedia.org/wiki/Religion_in_Ethiopia"
+    year: 2007
+    accessedDate: "2026-09-19"
+    note: "Oromia region's 2007-census religious composition (Muslim ~47.5%, Orthodox ~30.5%, Protestant ~17.7%, traditional ~3.3%)."

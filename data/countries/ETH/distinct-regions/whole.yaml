@@ -1,0 +1,175 @@
+code: WHOLE
+name:
+  eng: Ethiopia
+  local:
+    - languageCode: amh
+      value: ኢትዮጵያ
+    - languageCode: orm
+      value: Itoophiyaa
+    - languageCode: tir
+      value: ኢትዮጵያ
+    - languageCode: som
+      value: Itoobiya
+    - languageCode: aar
+      value: Itiyoophiyaa
+# Generic, country-wide fallback content for Ethiopia (federal). Used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ET-*
+# subdivision isn't one of the five curated regions in this dataset. Content
+# here is deliberately national/symbolic rather than tied to one region.
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland / tropical monsoon climate across the Ethiopian Highlands (incl. the central plateau where most of the population, and the capital Addis Ababa, live) — mild and wet, with long rains (kiremt) roughly June-September and a drier rest of the year."
+  - koppenCode: Aw
+    description: "Tropical wet-dry savanna climate in mid-elevation valleys and the southern highland fringes — warm year-round with a distinct rainy season."
+  - koppenCode: BSh
+    description: "Hot semi-arid climate in the lowlands of the Afar and Somali regions to the east/southeast — very hot and dry for much of the year."
+landmarks:
+  - name: Rock-hewn Churches of Lalibela
+    description: "Eleven monolithic and rock-hewn churches carved in the 12th-13th centuries in northern Amhara — a medieval Christian pilgrimage site and the most iconic of Ethiopia's monuments."
+    unescoWorldHeritage: true
+  - name: Aksum
+    description: "Ruins of the ancient Aksumite Empire, including the giant monolithic stelae (obelisks) and the Church of Our Lady Mary of Zion — tradition holds the Ark of the Covenant is kept here."
+    unescoWorldHeritage: true
+  - name: Simien Mountains National Park
+    description: "Dramatic highland plateau and escarpments with thundering cliffs and unique wildlife (endemic gelada baboons and the endangered walia ibex); a premier trekking destination."
+    unescoWorldHeritage: true
+  - name: Fasil Ghebbi (Gondar)
+    description: "Fortified 16th-17th-century castle compound of the Gondarine emperors in the city of Gondar, sometimes called 'African Camelot'."
+    unescoWorldHeritage: true
+  - name: Harar Jugol (walled old town)
+    description: "Ancient walled city in eastern Harar, a centre of Islamic learning with some 80 mosques and the famed 'hyena men', and a key stop on the historic trade routes."
+    unescoWorldHeritage: true
+  - name: Blue Nile Falls (Tis Abay)
+    description: "A dramatic waterfall on the Abay (Blue Nile) river near Bahir Dar on the southern rim of Lake Tana."
+  - name: Sof Omar Caves
+    description: "An extensive underground cave system in the Bale highlands of Oromia, a site of pilgrimage and one of the largest cave networks in Africa."
+  - name: Dallol
+    description: "A volcanic, hydrothermal depression in the Afar lowlands — among the hottest inhabited places on Earth and a surreal landscape of colorful hot springs and salt flats."
+culturalTraits:
+  - "One of the world's oldest civilizations — the Aksumite Empire and the Ethiopian Orthodox Tewahedo Church which it adopted in the 4th century CE"
+  - "The Ethiopian calendar, 13 months and roughly seven to eight years behind the Gregorian calendar, with its own Christian-era year numbering"
+  - "The Jebena buna (coffee ceremony) — a slow, ritual centerpiece of hospitality, since Ethiopia is the original home of Arabica coffee"
+  - "Ethnic-federal structure: more than 80 ethnic groups and languages, each region with its own official working language"
+  - "Rastafari's spiritual home: Ethiopia is considered 'Zion' in the movement, and the Black, Red, and Green flag and the Lion of Judah carry deep symbolic weight"
+prideOf:
+  - "Never having been colonized — the Battle of Adwa (1896) defeated Italian invasion and became an enduring symbol of African independence"
+  - "Being the birthplace of coffee (named for the Kaffa region) and of the Great Ethiopian Renaissance Dam project on the Blue Nile"
+  - "A legendary long-distance running legacy: Abebe Bikila (barefoot Olympic marathon gold), Haile Gebrselassie, Kenenisa Bekele, and Tirunesh Dibaba"
+  - "Ethiopian Airlines, Africa's largest and most profitable airline group, and its hub at Addis Ababa's Bole International Airport"
+  - "Deep religious tradition spanning ancient Oriental Orthodoxy, Islam (site of the first hijra at Negash), and indigenous faiths"
+animals:
+  popular:
+    - "Gelada baboon (endemic, the 'bleeding-heart' monkey of the highlands)"
+    - "Ethiopian wolf (the world's rarest canid, in the Afro-alpine highlands)"
+    - "Walia ibex (endemic wild goat on the Simien escarpment)"
+    - "Mountain nyala, kudu, and Menelik's bushbuck"
+    - "Lion (Ethiopian lion)"
+  unique:
+    - "Endemic mammals: Ethiopian wolf, walia ibex, and gelada are found nowhere else"
+    - "Endemic birdlife, including the wattled ibis, thick-billed raven, and blue-winged goose"
+    - "Grévy's zebra and Somali wild ass in the arid eastern lowlands"
+industries:
+  - "Coffee — Ethiopia is the largest coffee producer in Africa and origin of Arabica"
+  - "Agriculture (teff, wheat, maize, livestock) employing the large majority of the workforce"
+  - "Horticulture and floriculture — among the world's top flower exporters (e.g. roses from the Ethiopian Rift)"
+  - "Mining: gold and, notably, fine opals; plus salt in the Afar depression"
+  - "Manufacturing and the Hawassa/industrial-park textiles-and-garments sector"
+  - "Ethiopian Airlines as a continental aviation hub, and a growing tourism sector"
+sports:
+  - "Long-distance and middle-distance running — the single most dominant national sport on the world stage"
+  - "Association football (soccer) — the most popular spectator sport, with the national team and strong league in Addis Ababa"
+  - "Athletics/field events, the Great Ethiopian Run (Africa's biggest 10K, in Addis Ababa)"
+  - "Traditional wrestling and stick-fighting (e.g. Gugé among the Surma people of the southwest)"
+religions:
+  - name: Ethiopian Orthodox Tewahedo
+    percent: 43.5
+    sourceId: eth-religion-2007
+  - name: Islam (Sunni majority)
+    percent: 33.9
+    sourceId: eth-religion-2007
+  - name: P'ent'ay / Protestant
+    percent: 18.6
+    sourceId: eth-religion-2007
+  - name: Traditional indigenous faiths
+    percent: 2.6
+    sourceId: eth-religion-2007
+  - name: Roman Catholic
+    percent: 0.7
+    sourceId: eth-religion-2007
+  - name: Other / refused
+    percent: 0.7
+    sourceId: eth-religion-2007
+# Religion figures are 2007 census aggregates (Central Statistical Agency),
+# as compiled by the Wikipedia article on Religion in Ethiopia. Christians as a
+# whole are ~62.8% of the population; the regional breakdown differs sharply
+# (Orthodox majority in the north, Muslim majority in the east/southeast).
+entertainment:
+  - season: allYear
+    items:
+      - "Coffee ceremony gatherings with friends and family (Jebena buna)"
+      - "Church services and Orthodox religious feasts (Timkat, Meskel, Genna)"
+      - "Football matches and supporter culture"
+      - "Traditional music and dance (e.g. Amharic folk, tizita genres) and the Great Ethiopian Run"
+  - season: wet
+    items:
+      - "Indoor social and cultural events during the heavy June-September rains (kiremt)"
+  - season: dry
+    items:
+      - "Peak outdoor season: trekking in the Simien and Bale mountains, lake and Rift Valley trips"
+      - "Outdoor festivals and weddings (a dry-season favorite)"
+      - "Ethiopian New Year (Enkutatash, 11 September) and the Meskel festival; the Oromo Irreechaa thanksgiving marks the end of the rains"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Injera — the sour fermented teff flatbread that is the base of nearly every meal, eaten with stews"
+      - "Doro wat — spicy chicken stew with hard-boiled eggs, the national dish served with injera"
+      - "Shiro — a savory chickpea/lentil flour stew, a staple also for fasting days"
+      - "Kitfo — finely minced raw (or lightly cooked) beef seasoned with spiced clarified butter and mitmita chili"
+      - "Tibs — sautéed chunks of meat, often with onions and peppers"
+      - "Tej — a sweet honey wine (mead) and 'buna' (coffee), including the full ceremony"
+  - season: wet
+    items:
+      - "Warming vegetarian stews and lentil/bean dishes (yetsom) common during the Orthodox rainy-season fasting periods"
+  - season: dry
+    items:
+      - "Grilled meat (tibs/kitfo) at festive outdoor events and weddings"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Netela / gabi — the white cotton shawl or wrap worn across the shoulders, the most recognizable everyday traditional garment, sometimes hand-woven with colored borders"
+      - "Habesha kemis — white cotton dresses with embroidered (tilet) hems for women, worn on Sundays, holidays, and weddings"
+      - "White garments with the green, yellow, and red tricolor motif at festivals"
+seasonCalendar:
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Government and offices roughly Mon-Fri 08:00-17:30 with a midday break; many businesses run Sat morning. Saturday and Sunday are the weekend."
+  lunchBreakTiming: "A midday break, typically around 12:00-14:00, is common, often the time for the social coffee ceremony."
+  notableShutdownPeriods:
+    - period: "Major Orthodox festivals"
+      description: "Timkat (Ethiopian Epiphany, mid-January), Genna (Ethiopian Christmas, 7 January), Enkutatash (Ethiopian New Year, ~11 September) and Meskel (late September) see wide closures."
+    - period: "Muslim holidays"
+      description: "Eid al-Fitr and Eid al-Adha close offices nationally, especially in Addis Ababa and the eastern regions."
+    - period: "Heavy rainy season"
+      description: "The June-September kiremt rains can disrupt logistics and rural access, slowing some operations even where there is no formal closure."
+  notes: "Ethiopia's fiscal and liturgical calendars differ from the Gregorian one (the Ethiopian calendar is several years/weeks behind), so 'New Year' and festive dates land on different Gregorian days each year — relevant when scheduling around them."
+sources:
+  - id: eth-religion-2007
+    name: "Religion in Ethiopia (2007 census national and regional religious composition)"
+    publisher: "Wikipedia, citing the 2007 Population and Housing Census, Central Statistical Agency of Ethiopia"
+    url: "https://en.wikipedia.org/wiki/Religion_in_Ethiopia"
+    year: 2007
+    accessedDate: "2026-09-19"
+    note: "National religious composition (Orthodox 43.5%, Muslim 33.9%, Protestant/P'ent'ay 18.6%, Catholic 0.7%, traditional 2.6%, other 0.7%) and the region-level Orthodox/Muslim/Protestant shares used in the ET-AM, ET-OR, ET-SO, and ET-TI region files."
+  - id: eth-unesco
+    name: "Ethiopia — World Heritage properties"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/et"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Confirms which Ethiopian landmarks are inscribed UNESCO World Heritage Sites (Lalibela, Aksum, Simien Mountains, Fasil Ghebbi, Harar Jugol, and the Lower Valley of the Awash and Lower Valley of the Omo)."

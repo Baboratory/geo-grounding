@@ -1,0 +1,114 @@
+code: SO-BN
+name:
+  eng: Banaadir (Mogadishu region)
+  local:
+    - languageCode: som
+      value: Banaadir
+# Banaadir is the Indian-Ocean coastal region surrounding and containing the
+# federal capital Mogadishu — administratively a single ISO 3166-2 region
+# (SO-BN), underlying the national government's seat and the country's largest
+# urban centre.
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid coastal climate — hot and humid through much of the year, with most rain in the Gu (Apr-Jun) and Dayr (Oct-Nov) seasons and a hot, dry Xagaa/harmattan stretch mid-year."
+landmarks:
+  - name: Historical old city of Mogadishu (Xamar Weyne)
+    description: "The centuries-old stone quarter of the capital with its medieval architecture and the historic Arbaca Rukun mosque, one of the Horn of Africa's oldest mosques."
+  - name: Liido Beach
+    description: "Mogadishu's iconic white-sand beach on the Indian Ocean — the city's main public recreation spot for swimming, football and gatherings."
+  - name: Mogadishu seaport
+    description: "The principal commercial port of the country, the economic hub for imports feeding the capital and the wider region."
+  - name: Gezira (Jazeera) Beach
+    description: "A quieter southern beach resort area at the edge of the city, popular for weekend escapes."
+culturalTraits:
+  - "The capital's cosmopolitan mix — a bustling trading hub drawing merchants, migrants and businesspeople from across the Horn"
+  - "Strong tradition of oral poetry, contemporary Somali music and (since the late 1980s) film and radio"
+  - "Family- and clan-centred social life, with coffee/tea shops and beachfront a central part of leisure"
+  - "Deeply Islamic daily rhythm — mosques, madrasas and the Friday communal prayer structure city life"
+prideOf:
+  - "Being the seat of the federal government and the historic heart of the Somali state"
+  - "The resilience and rebirth of a city rebuilt after decades of war"
+  - "Its seafaring and trading legacy on the Indian Ocean"
+animals:
+  popular:
+    - "Camels and livestock brought from the interior for trade"
+    - "Coastal and marine life along the Mogadishu shore (pelicans, marine turtles)"
+  unique:
+    - "The Indian Ocean reef and pelagic waters offshore (whale sharks, sea turtles, dolphins) — the city's coastal setting"
+industries:
+  - "Port and trade/logistics (Mogadishu seaport) — the country's main import gateway"
+  - "Telecom and mobile money (Hormuud's EVC Plus and WAAFI super-app are headquartered here)"
+  - "Banking and finance (the handful of commercial banks and the Central Bank are Mogadishu-based)"
+  - "Remittance services (hawala operators with agent networks across the city)"
+  - "Construction, retail and hospitality rebound since the city's stabilization"
+  - "Fishing and the fish market along the coast"
+sports:
+  - "Football (soccer) — very popular, played on beaches and parks"
+  - "Basketball"
+  - "Athletics and running"
+  - "Swimming and beach football at Liido and Gezira beaches"
+religions:
+  - name: Sunni Muslim (Islam is the state religion)
+    percent: 99.0
+    sourceId: state-irf
+  - name: Other religious groups (small Christian and minority Muslim communities, largely migrants and the tiny indigenous Christian community)
+    percent: 1.0
+    sourceId: state-irf
+# Religion figures: U.S. State Dept 2023 IRF report (>99% Sunni Muslim per the
+# Federal Ministry of Endowments and Religious Affairs); the ~1% 'other' is a
+# residual combining the noted small minority groups.
+entertainment:
+  - season: allYear
+    items:
+      - "Beach life at Liido/Gezira — football, swimming and evening gatherings"
+      - "Coffee/tea (shaah) culture and socializing in the city's cafés"
+      - "Somali music and poetry performances"
+  - season: dry
+    items:
+      - "Cooler breezier beach-season outings to the coast"
+  - season: wet
+    items:
+      - "Eid celebrations and Ramadan evening (iftar) market activity"
+      - "Indoor community and wedding festivities sheltered from the rains"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Canjeero (flatbread) with bariis iskukaris (spiced rice) and suqaar"
+      - "Fresh grilled fish and seafood from the Mogadishu fish market"
+      - "Shaah cadays (spiced tea) and baasto (spaghetti with banana)"
+      - "Sambusa and muufo as street-food staples"
+  - season: dry
+    items:
+      - "Lighter grills and cold drinks favoured in the hot, dry months"
+  - season: wet
+    items:
+      - "Hearty stews and festive Eid dishes during the wetter holiday season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Dirac and guntiino for women; macawiis (sarong) and kanfuu robes for men"
+      - "Modern/traditional mix — tailored Somali dress and modest Islamic wear in the capital"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 7, 8, 9, 12]
+  - season: wet
+    months: [4, 5, 6, 10, 11]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Offices and shops in Mogadishu generally run Saturday-Thursday with a midday pause for Friday prayers (many close entirely on Friday); roughly 08:00-16:00."
+  lunchBreakTiming: "A midday break around the Dhuhr prayer is common."
+  notableShutdownPeriods:
+    - period: "The two Eid holidays"
+      description: "Banks, offices and many shops close for Eid al-Fitr (end of Ramadan) and Eid al-Adha; the city's trade slows."
+    - period: "Ramadan"
+      description: "Daytime hours shorten and much commerce moves to the evening after iftar."
+  notes: "Banaadir businesses have seen a strong post-conflict rebound, but operating hours can shift with security conditions, and many firms rely on generators and mobile money rather than the weak formal banking system."
+sources:
+  - id: state-irf
+    name: "2023 Report on International Religious Freedom: Somalia"
+    publisher: "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/somalia/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: ">99% of the population are Sunni Muslim (per the Federal Ministry of Endowments and Religious Affairs); basis for the religions percentages in this region."

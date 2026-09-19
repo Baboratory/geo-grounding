@@ -1,0 +1,127 @@
+code: SO-PL
+name:
+  eng: Puntland
+  local:
+    - languageCode: som
+      value: Puntland
+# Puntland — a federal member state of Somalia in the northeast (unlike
+# Somaliland it does not claim independence, but has run an autonomous regional
+# government since 1998, with its capital Garowe and its main seaport Bossaso).
+# This curated region groups the three ISO 3166-2 regions Puntland administers:
+# Bari (SO-BR), Nugaal (SO-NU) and Mudug (SO-MU). Sool and Sanaag are also
+# claimed by Puntland but are excluded here so they don't collide with
+# Somaliland's adminUnitCodes (under current de facto administration they are
+# largely run from Hargeisa). The code SO-PL is a curated grouping label, not an
+# official ISO 3166-2 code.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate over the Guban coastal plain, the Hafun/eastern peninsula and the interior plateau — the driest, most torrid part of Somalia, with very low and erratic rainfall."
+landmarks:
+  - name: Cape (Ras) Guardafui
+    description: "The dramatic headland at the very tip of the Horn of Africa where the Gulf of Aden meets the Indian Ocean — a landmark of global geography."
+  - name: City of Alula (Caluula)
+    description: "The 'Guardian of the Horn' port town at the apex of the Horn, famed for its old stone buildings and clifftop setting."
+  - name: Hafun (Xaafuun)
+    description: "A long sandy peninsula that forms the easternmost point of mainland Africa — a historic salt-exporting settlement."
+  - name: Bossaso (Boosaaso) port and coast
+    description: "Puntland's principal seaport on the Gulf of Aden, the main livestock-export gateway of the northeast."
+  - name: Booqda Cabdi (Pink Lake)
+    description: "A striking pink saltwater lake in the far northeast — a vivid natural sight near the Horn coast."
+culturalTraits:
+  - "An autonomous federal-member-state identity grounded in the northeastern Harti (Darod) heritage, governed from Garowe since 1998"
+  - "Strong seafaring and maritime tradition along the Gulf of Aden coast"
+  - "Frankincense (maydi) and gum-resin harvesting culture in the eastern hills"
+  - "Pastoral camel and goat herding across the arid plateau"
+  - "Deeply Islamic and clan-ordered daily life"
+prideOf:
+  - "Cape Guardafui and holding the easternmost tip of the African mainland"
+  - "A reputation for pragmatic, self-managed regional governance"
+  - "Frankincense and the ancient maritime trade of the Gulf of Aden"
+  - "Camel husbandry and the livestock-export trade through Bossaso"
+animals:
+  popular:
+    - "Dromedary camels and large goat herds — the backbone of the pastoral economy"
+    - "Coastal dolphins and sea turtles in the Gulf of Aden"
+  unique:
+    - "Somali wild ass (dibataag) in the arid northeast"
+    - "Beira antelope and Speke's gazelle of the crag country"
+    - "The Semski/Somali sengi (elephant-shrew) — a rare endemic of the Horn rediscovered in the region"
+    - "Whale sharks and dugongs in the waters off the Horn coast"
+industries:
+  - "Livestock export through Bossaso port to Gulf markets — Puntland's economic mainstay"
+  - "Fishing (tuna, and the prize Somali shark fin and lobster trade)"
+  - "Frankincense (maydi) and gum-resin production"
+  - "Telecom and mobile money (Golis Telecom's SAHAL; NationLink)"
+  - "Diaspora remittances supporting coastal towns"
+  - "Oil and gas exploration interest in the Dharoor and other basins (largely unconcessioned/undeveloped)"
+sports:
+  - "Football (soccer) — the most popular sport"
+  - "Athletics and long-distance running"
+  - "Fishing-and-maritime recreation along the coast"
+  - "Camel racing at pastoral festivals"
+  - "Traditional dhaanto dance-and-poetry performance"
+religions:
+  - name: Sunni Muslim (Islam is the state religion)
+    percent: 99.0
+    sourceId: state-irf
+  - name: Other religious groups combined (a very small minority)
+    percent: 1.0
+    sourceId: state-irf
+# Religion figures: U.S. State Dept 2023 IRF report (>99% Sunni Muslim per the
+# Federal Ministry of Endowments and Religious Affairs); Puntland, like the rest
+# of Somalia, is overwhelmingly Sunni.
+entertainment:
+  - season: allYear
+    items:
+      - "Oral poetry, music and dhaanto performances"
+      - "Café and tea culture in Garowe and coastal towns"
+      - "Football and beach/coastal recreation"
+  - season: dry
+    items:
+      - "Cooler coastal-season outings along the Gulf of Aden and to the cape that the sea-breeze months make most pleasant"
+  - season: wet
+    items:
+      - "Eid celebrations and community weddings (often aligned with the Dayr rains)"
+      - "Gathering when the rains green the plateau for grazing festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Canjeero (flatbread) with suqaar and spiced rice"
+      - "Fresh seafood (grilled tuna, lobster) from the Gulf of Aden"
+      - "Camel-milk and goat-milk dishes; shaah cadays (spiced tea)"
+      - "Muufo (cornbread) and cambuulo (beans) as everyday staples"
+  - season: dry
+    items:
+      - "Seafood grills and fresh camel-milk dishes favoured in the hot dry season"
+  - season: wet
+    items:
+      - "Festive Eid feasts and meat-rich communal dishes tied to the rainy-season holidays"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Dirac and guntiino for women; macawiis (sarong) and kanfuu for men"
+      - "Head wraps and light desert-weight fabrics suited to the hot arid climate"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 7, 8, 9, 12]
+  - season: wet
+    months: [4, 5, 6, 10, 11]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Offices and markets in Garowe and Bossaso generally run Saturday-Thursday with Friday off for prayers; roughly 08:00-16:00, with coastal-town hours shifting with the heat."
+  lunchBreakTiming: "A midday break around the Dhuhr prayer is common."
+  notableShutdownPeriods:
+    - period: "The two Eid holidays"
+      description: "Business closes for Eid al-Fitr and Eid al-Adha; the Bossaso livestock market peaks in the run-up to Eid al-Adha."
+    - period: "Ramadan"
+      description: "Working hours shorten and much commerce moves to the evening hours after iftar."
+  notes: "Puntland has its own regional government and a comparatively organised port at Bossaso and telecom sector. As elsewhere in Somalia, security events and drought can disrupt business, and formal banking remains minimal with mobile money dominant."
+sources:
+  - id: state-irf
+    name: "2023 Report on International Religious Freedom: Somalia"
+    publisher: "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/somalia/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: ">99% of the population are Sunni Muslim (per the Federal Ministry of Endowments and Religious Affairs); lists Puntland among the federal member-state administrations. Basis for the religions percentages."

@@ -1,0 +1,88 @@
+code: ET-SI
+name:
+  eng: Sidama
+  local:
+    - languageCode: sid
+      value: Sidaamu Afoo
+# Sidama exists on two levels: it is the Sidama region (regional state), carved
+# out of the former Southern Nations, Nationalities, and Peoples Region (SNNPR)
+# and becoming a sovereign region in 2020 (ISO 3166-2 code ET-SI). Its official
+# working language is Sidaamu Afoo (Sidamo).
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland / tropical monsoon climate in the fertile Sidama highlands around Hawassa — mild temperatures, productive soils, and a June-September rainy season."
+landmarks:
+  - name: Lake Hawassa (Awasa)
+    description: "A scenic freshwater lake in the Rift Valley on the edge of the regional capital Hawassa, popular for boat rides, birdwatching, and fish restaurants."
+  - name: Wondo Genet
+    description: "Hot-spring resort and botanical garden town in the highlands, a favored weekend escape."
+  - name: Sidama coffee highlands
+    description: "The terraced hills west and south of Hawassa are home to prized Sidama coffee, famed for its floral flavor."
+  - name: Bilate and Rift escarpment viewpoints
+    description: "The dramatic escarpments and the Bilate basin framing the southern Rift Valley."
+culturalTraits:
+  - "Home of the Sidama people and the Sidaamu Afoo language (part of the Highland East Cushitic family)"
+  - "Fichee-Chambalaalla, the Sidama new-year festival, inscribed by UNESCO as intangible cultural heritage"
+  - "Enset (false banana/'kocho') and coffee, the twin pillars of the Sidama subsistence-and-market economy"
+  - "Ethnically cohesive and proud of having achieved full regional-state status in 2020"
+prideOf:
+  - "Becoming Ethiopia's 10th(11th) regional state in 2020 — a milestone of self-determination"
+  - "Sidama coffee's international renown"
+  - "The cultural identity and Fichee festival celebrations"
+# religions intentionally omitted: no separate 2007-census religious breakdown
+# for the Sidama region was found to cite (the Sidama zone was part of the wider
+# SNNPR in 2007, whose aggregate mix — roughly two-thirds Christian with a large
+# Protestant share — would be a misleading proxy for today's Sidama region).
+animals:
+  popular:
+    - "Hippopotamus and Nile perch / tilapia in Lake Hawassa"
+    - "Colobus monkeys and highland birdlife"
+    - "Endemic Rift Valley birds (e.g. white-winged cliff chat nearby)"
+industries:
+  - "Coffee — Sidama is one of Ethiopia's most prized coffee origins"
+  - "Agriculture: enset (kocho), maize, and vegetables on the fertile highlands"
+  - "Fishing and lake tourism around Hawassa"
+  - "The Hawassa Industrial Park (textiles and garments), one of Africa's largest and a major employer"
+sports:
+  - "Association football"
+  - "Long-distance running (highland tradition)"
+  - "Traditional wrestling and festivities"
+entertainment:
+  - season: allYear
+    items:
+      - "Fichee-Chambalaalla (Sidama New Year) cultural celebrations with music and dance"
+      - "Lake Hawassa outings, birdwatching, and fish restaurants"
+  - season: wet
+    items:
+      - "Indoor community and church gatherings during the rains"
+  - season: dry
+    items:
+      - "Peak lake and park recreation and festival season after the rains"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kocho / bulla — flatbread and porridge from the enset (false banana) plant, a Sidama staple"
+      - "Coffee ceremony with the prized local bean"
+      - "Fish dishes from Lake Hawassa alongside highland stews with injera"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "White cotton wraps and embroidered dresses (habesha kemis-style) worn at festivals"
+      - "Community-styled dress with woven borders at Fichee celebrations"
+seasonCalendar:
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Public offices Mon-Fri ~08:00-17:30 with a midday break; Saturday is a half/working day; Sunday is the main rest day."
+  lunchBreakTiming: "Midday (12:00-14:00), with the coffee ceremony customary at gatherings."
+  notableShutdownPeriods:
+    - period: "Fichee-Chambalaalla (Sidama New Year)"
+      description: "The Sidama new-year festival (date tied to the local calendar) sees widespread local celebration and some closures."
+    - period: "Enkutatash and Meskel"
+      description: "Ethiopian New Year (~11 September) and Meskel (late September) are national closures widely observed."
+  notes: "Coffee harvest (roughly October-January) is the region's dominant economic rhythm, with Hawassa's industrial park running a strong manufacturing pulse."
