@@ -1,0 +1,53 @@
+code: UZ-TK
+name:
+  eng: Tashkent and the Capital Region
+  local:
+    - languageCode: uzb
+      value: Toshkent (Тошкент)
+climates:
+  - koppenCode: Csa
+    description: "District-wise hot-summer Mediterranean/continental foothill climate: coldish winters, hot dry summers, moderate rainfall."
+landmarks:
+  - name: Tashkent Metro
+    description: "A beautifully ornate Soviet-era metro and a city landmark."
+  - name: Chorsu Bazaar
+    description: "The famous domed central market of Tashkent."
+  - name: Amir Timur Square and the Alisher Navoi Opera
+    description: "The symbolic heart of the capital."
+  - name: Hazrat Imam complex
+    description: "A religious-heritage ensemble including the world-famous Uthman Qur'an."
+  - name: Chimgan Mountains
+    description: "Popular green getaways and ski slopes in the western Tien Shan near Tashkent."
+culturalTraits:
+  - "The modern, cosmopolitan capital and the country's political, financial and industrial engine"
+  - "A huge, youthful and increasingly tech-savvy population"
+  - "The cultural crossroads of Soviet modernism and Silk Road heritage"
+prideOf:
+  - "Tashkent's status as the largest city in Central Asia"
+  - "The modern metro, architecture and dynamism"
+  - "Being the nation's economic and cultural hub"
+animals:
+  popular:
+    - Golden eagle
+    - Bactrian camel (in the surrounding steppe)
+    - Severtzov's sheep (mountains)
+  unique:
+    - "Western Tien Shan endemics including the Bukhara deer and Turkestan lynx"
+industries:
+  - Government, finance and corporate headquarters
+  - Automotive (UzAuto/Chevrolet) and manufacturing
+  - Textiles, food processing and construction
+  - A fast-growing tech and services sector
+sports:
+  - Football (soccer) — home to the national team and top clubs
+  - Boxing, judo and wrestling
+  - Tennis (WTA Tashkent Open)
+  - Basketball
+sources:
+  - id: uzb-religion
+    name: "Religious composition of Uzbekistan (2023 Report on International Religious Freedom)"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/uzbekistan/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "National religion figures applied as the region-level approximation for the Tashkent region (no region-level census split published)."

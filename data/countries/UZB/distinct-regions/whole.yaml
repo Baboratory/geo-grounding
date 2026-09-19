@@ -1,0 +1,127 @@
+code: WHOLE
+name:
+  eng: Uzbekistan
+  local:
+    - languageCode: uzb
+      value: Oʻzbekiston (Ўзбекистон)
+# Generic country-wide fallback content — used by get_data_by_ip.py when a
+# visitor's specific ISO 3166-2 region isn't one of the curated files, via the
+# whole-country-fallback path. Carries the country-level Uzbek name.
+climates:
+  - koppenCode: BSk
+    description: "Mid-latitude steppe across much of the country: hot, dry summers and cold winters."
+  - koppenCode: BWk
+    description: "Cold desert in the northwest (Ustyurt plateau and the Kyzylkum desert)."
+  - koppenCode: BWh
+    description: "Hot desert along the southern border plains."
+  - koppenCode: Csa
+    description: "Hot-summer Mediterranean-like climate in the eastern Fergana foothills and a few valleys."
+landmarks:
+  - name: Registan Square, Samarkand
+    description: "The magnificent tiled ensemble of madrasas — Uzbekistan's most iconic sight."
+    unescoWorldHeritage: true
+  - name: Shah-i-Zinda and Gur-e-Amir, Samarkand
+    description: "The 'Street of Tombs' and Timur's burial complex."
+    unescoWorldHeritage: true
+  - name: Historic Centre of Bukhara
+    description: "A well-preserved medieval Silk Road city of minarets, mosques and caravanserais."
+    unescoWorldHeritage: true
+  - name: Khiva (Ichan Kala)
+    description: "The walled old town of Khiva, a breathtaking open-air museum."
+    unescoWorldHeritage: true
+  - name: Tashkent
+    description: "The modern capital on the Silk Road, with metro stations and bazaars."
+  - name: Samarkand Observatory (Ulugh Beg)
+    description: "Ruins of the great 15th-century astronomical observatory."
+culturalTraits:
+  - "The heart of the ancient Silk Road — Samarkand, Bukhara and Khiva"
+  - "Plov (osh) is the national dish and the centrepiece of hospitality and celebration"
+  - "Deep Islamic and Persian-mediated heritage fused with Turkic identity"
+  - "The revived Uzbek language and a strong, prideful national identity since 1991"
+  - "Vibrant bazaar culture, ceramics and traditional craftsmanship (Ikat silk, suzani embroidery)"
+prideOf:
+  - "The great Silk Road cities of Samarkand, Bukhara and Khiva"
+  - "The Timurid architectural legacy and Amir Timur's heritage"
+  - "Plov and the rich culinary and craft traditions"
+  - "Independence (1991) and the country's growing regional standing"
+animals:
+  popular:
+    - Bactrian camel
+    - Marco Polo sheep (argali)
+    - Severtzov's wild sheep
+    - Golden eagle (hunting tradition)
+  unique:
+    - "Severtzov's wild sheep"
+    - "The endemic Kyzylkum desert fauna"
+industries:
+  - Natural gas and oil
+  - Gold mining (one of the world's larger producers) and uranium
+  - Cotton for a long time the 'white gold' — now diversifying away from a cotton monoculture
+  - Automobiles (UzAuto/Chevrolet), textiles and chemicals
+  - Tourism to the Silk Road cities
+sports:
+  - Football (soccer) — Uzbekistan's most popular sport
+  - Wrestling, judo and boxing
+  - Kurash (traditional Uzbek wrestling)
+  - Tennis (the city of Tashkent hosts WTA events)
+religions:
+  - name: Islam (Sunni, predominantly Hanafi)
+    percent: 96.0
+    sourceId: uzb-religion
+  - name: Christianity (mostly Russian Orthodox)
+    percent: 3.0
+    sourceId: uzb-religion
+# The small remainder is other (Judaism, Buddhism) and non-religious. Figures
+# from the U.S. State Dept (no official religious census published).
+entertainment:
+  - season: summer
+    items:
+      - "Festivals in Samarkand, Bukhara and Khiva, and mountain getaways in the Chatkal range"
+      - "Melon season — Uzbekistan is famous for its summer melons"
+  - season: spring
+    items:
+      - "Navruz (Nowruz, 21 March) — the great spring festival of renewal, filled with plov, flowers and public celebration"
+  - season: allYear
+    items:
+      - "The Silk Road sites, museums and bazaars of Samarkand, Bukhara and Khiva"
+      - "Tea (choy) houses and traditional music and dance"
+traditionalDishes:
+  - season: winter
+    items:
+      - "Plov (osh) — the hearty rice-and-meat national dish, cooked in a kazan with carrots and garlic"
+      - "Shurpa (meat soup) and manti (steamed dumplings)"
+      - "Lagman (noodles) and samsa (baked pastry) — warming winter fare"
+  - season: summer
+    items:
+      - "Fresh melons, grapes and fruit; light salads and chilled drinks (compote, ayran)"
+  - season: allYear
+    items:
+      - "Plov, kebab (shashlik), non (flatbread) and green tea (kuk choy)"
+      - "Samsa, manty and dried fruits"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The traditional atlas ikat silk robe (chapan), skullcaps (doppi), and ornamented fabrics — worn at celebrations and festivals"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Roughly 9:00am-6:00pm Monday-Friday, with a midday lunch break; public offices and banks often close ~5:00pm."
+  notes: "Navruz (21 March) and Independence Day (1 September) are national holidays. Ramadan and Eid festivals shift annually and affect rhythm. Summer (esp. late June-August) is hot and office hours may shorten."
+sources:
+  - id: uzb-religion
+    name: "Religious composition of Uzbekistan (2023 Report on International Religious Freedom)"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/uzbekistan/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Islam (predominantly Sunni Hanafi) ~96%, Christianity (Orthodox) ~3%, other (Judaism, Buddhism, non-religious) ~1%. No official religious census is published; these are Department of State estimates."

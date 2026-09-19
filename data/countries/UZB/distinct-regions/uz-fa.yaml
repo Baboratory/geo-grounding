@@ -1,0 +1,53 @@
+code: UZ-FA
+name:
+  eng: Fergana Valley
+  local:
+    - languageCode: uzb
+      value: Farg'ona vodiysi (Фарғона водийси)
+climates:
+  - koppenCode: Csa
+    description: "Hot-summer Mediterranean/continental basin climate: cold winters, very hot, dry summers, low rainfall in the sheltered Fergana Valley."
+landmarks:
+  - name: Fergana, Andijan and Namangan
+    description: "The populous valley cities of eastern Uzbekistan."
+  - name: Kokand
+    description: "The former Khanate capital with the ornate palace of Khudayar Khan."
+  - name: Rishtan ceramics
+    description: "The famous blue-glazed pottery town on the ancient craft route."
+  - name: Margilan silk
+    description: "Historic centre of the fabled Fergana silk and ikat weaving."
+  - name: Kamchik and the Tien Shan foothills
+    description: "The mountain passes and orchards rimming the valley."
+culturalTraits:
+  - "The most densely populated and fertile corner of Uzbekistan — the country's demographic and agricultural heart"
+  - "Strong local identity, family and community ties, and a deep-rooted Islamic piety"
+  - "The legendary crafts of Rishtan ceramics and Margilan silk"
+  - "Uzbek, Kyrgyz and Tajik communities interwoven in the valley"
+prideOf:
+  - "The fertile fergana soil and the abundance of fruit, silk and cotton"
+  - "The craft traditions of Rishtan and Margilan"
+  - "Kokand's khanate heritage"
+animals:
+  popular:
+    - Golden eagle
+    - Severtzov's wild sheep (mountains)
+    - Grey partridge
+  unique:
+    - "The Menzbier's marmot of the western Tien Shan"
+industries:
+  - Cotton, silk and fruit farming in the fertile valley
+  - Silk-weaving (Margilan) and ceramics (Rishtan)
+  - Textiles and light manufacturing
+  - Mining in the mountain foothills
+sports:
+  - Football (soccer)
+  - Wrestling, judo and kurash
+  - Traditional horse games
+sources:
+  - id: uzb-religion
+    name: "Religious composition of Uzbekistan (2023 Report on International Religious Freedom)"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/uzbekistan/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "National religion figures applied as the region-level approximation for the Fergana Valley (overwhelmingly Muslim; no region-level census split published)."
