@@ -1,0 +1,82 @@
+code: MZ-CENTER
+name:
+  eng: Central Mozambique (Centro)
+  local:
+    - languageCode: por
+      value: Centro de Moçambique
+# Covers Zambézia, Sofala, Manica and Tete provinces: the Sena/Chuwabo/Ndau
+# belt around the Zambezi valley, Gorongosa and the dry high plateau.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — hot with a rainy season Nov-Apr and a dry season May-Oct."
+  - koppenCode: BSh
+    description: "Hot semi-arid — along the dry lower Zambezi valley (Tete)."
+  - koppenCode: Cwa
+    description: "Humid subtropical highland — the cooler high plateau and Mount Gorongosa area."
+landmarks:
+  - name: Gorongosa National Park
+    description: "Central Mozambique's flagship restoration park at the southern end of the Great Rift Valley."
+  - name: Cahora Bassa Dam & Lake
+    description: "One of Africa's largest hydroelectric dams on the lower Zambezi."
+  - name: Mount Gorongosa
+    description: "Iconic forested massif overlooking the Zambezi-valley lowlands."
+culturalTraits:
+  - "Zambezi-valley Sena and Ndau heritage"
+  - "The wartime heartland of the RENAMO opposition and post-war reconciliation"
+  - "Gorongosa's celebrated conservation-restoration story"
+  - "Miombo-savanna and riverine agricultural life along the Zambezi"
+prideOf:
+  - "Gorongosa's restoration as 'Africa's greatest conservation story'"
+  - "The mighty Zambezi and Cahora Bassa"
+  - "Sena/Ndau cultural traditions and Gorongosa's wildlife"
+animals:
+  popular:
+    - "African elephant (Gorongosa)"
+    - "Lion"
+    - "Hippopotamus (Zambezi)"
+  unique:
+    - "Pangolin (Gorongosa rescue centre)"
+    - "Sable antelope"
+industries:
+  - "Agriculture (maize, sugar, cotton)"
+  - "Coal mining (Moatize/Tete)"
+  - "Hydroelectric power (Cahora Bassa)"
+  - "Port of Beira and central transport corridor"
+sports:
+  - "Football (soccer)"
+  - "Basketball"
+  - "Boxing"
+entertainment:
+  - season: allYear
+    items:
+      - "Village music, marrabenta and community gatherings"
+  - season: dry
+    items:
+      - "Peak safari and wildlife-viewing season at Gorongosa (Apr-Oct)"
+  - season: wet
+    items:
+      - "Rainy-season planting festivals and religious events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Xima (stiff corn porridge)"
+      - "Matapa (cassava-leaf and peanut stew)"
+  - season: dry
+    items:
+      - "Grilled meats and dried fish with xima"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Capulana wrap cloth for women"
+      - "Modern Western business and casual wear"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government/offices roughly 07:30-16:30 Mon-Fri; retail often Mon-Sat."
+  lunchBreakTiming: "A midday break is common (12:00-13:00)."
+  notes: "Cash-oriented; Beira is the region's commercial and port hub."

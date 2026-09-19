@@ -1,0 +1,84 @@
+code: NA-ZAMBEZI
+name:
+  eng: Zambezi (Caprivi) Strip
+  local:
+    - languageCode: eng
+      value: Zambezi Region
+# The far-eastern panhandle on the Zambezi and Okavango rivers: Silozi-
+# speaking, riverine wetland subsistence farming with a distinct identity
+# tied to the Zambezi basin rather than the central plateau.
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna — the wettest part of Namibia, up to ~600+mm of rain, with a marked wet season Nov-Apr."
+  - koppenCode: Cwa
+    description: "Humid subtropical conditions on the higher margins."
+landmarks:
+  - name: Katima Mulilo
+    description: "The main town of the Zambezi region on the Zambezi River."
+  - name: The Zambezi River & floodplains
+    description: "Riverine wetlands and floodplain farming fed by the Zambezi."
+  - name: The Okavango panhandle fringe
+    description: "Riverine wetlands where the delta system begins."
+culturalTraits:
+  - "Silozi-speaking riverine identity tied to the Zambezi basin"
+  - "Floodplain subsistence farming (maize, millet) and fishing"
+  - "Cultural kinship with Zambia/Botswana across the river borders"
+  - "Lush wetland wildlife and birdlife distinct from the arid plateau"
+prideOf:
+  - "The lush Zambezi wetlands and abundant wildlife"
+  - "Silozi language and riverine cultural life"
+  - "A green, riverine landscape unlike the rest of arid Namibia"
+animals:
+  popular:
+    - "Hippopotamus (Zambezi)"
+    - "African elephant (Mudumu/Mamili reserves)"
+    - "African buffalo"
+  unique:
+    - "Riverine wetland birdlife and crocodile populations"
+industries:
+  - "Riverine agriculture (maize, millet, rice in places)"
+  - "Fishing"
+  - "Wildlife and wetland tourism (Mudumu, Bwabwata national parks)"
+  - "Cross-border trade (Zambia, Botswana, Zimbabwe)"
+sports:
+  - "Football (soccer)"
+  - "Basketball"
+  - "Fishing and water sports"
+entertainment:
+  - season: allYear
+    items:
+      - "Community and church gatherings"
+  - season: wet
+    items:
+      - "Rainy-season (Nov-Apr) green floodplains and riverine festivals"
+  - season: dry
+    items:
+      - "Dry-season wildlife viewing and fishing"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Maize/millet porridge with fish from the river"
+  - season: wet
+    items:
+      - "Fresh river fish and greens of the rainy season"
+  - season: dry
+    items:
+      - "Grilled/braaied fish and meats at dry-season gatherings"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light cottons suitable to the humid tropics; modest coverage"
+  - season: dry
+    items:
+      - "Lighter layers for the milder dry season"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices roughly 08:00-17:00 Mon-Fri; retail Mon-Sat."
+  lunchBreakTiming: "Midday break commonly 12:00-14:00."
+  notes: "Cash dominant; Katima Mulilo is the regional centre."
