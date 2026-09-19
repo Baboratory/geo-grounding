@@ -1,0 +1,85 @@
+code: NA-SOUTH
+name:
+  eng: Southern Namibia (Nama/Damara Karoo)
+  local:
+    - languageCode: eng
+      value: Southern Namibia
+# Covers the sparse Khoekhoegowab-speaking south (Nama/Damara): the Karoo and
+# Namib desert interior, half-desert livestock country and the Fish River
+# Canyon, with historic Nama homeland identity.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert — the Namib fringe and interior Karoo, extremely dry with almost nil rainfall."
+  - koppenCode: BSh
+    description: "Hot semi-arid (steppe) — the interior plateau of the south."
+landmarks:
+  - name: Fish River Canyon
+    description: "The world's second-largest canyon (~160km long, up to 27km wide, ~550m deep)."
+  - name: Kolmanskop ghost town
+    description: "Abandoned German diamond-rush town in the Sperrgebiet near Lüderitz."
+  - name: Lüderitz
+    description: "Historic harbor town with striking German-colonial coastal architecture."
+  - name: Keetmanshoop
+    description: "Gateway town of the Karoo south."
+culturalTraits:
+  - "Nama/Damara (Khoekhoegowab) identity and Khoisan heritage"
+  - "Sparse, hardy Karoo pastoralism (sheep, goats, karakul)"
+  - "Historic Nama homeland and frontier-colonial history"
+  - "The Striking Namib and Karoo desert landscapes"
+prideOf:
+  - "The magnificent Fish River Canyon"
+  - "Nama/Damara language and cultural survival"
+  - "The resilient Karoo pastoral way of life"
+animals:
+  popular:
+    - "Kgalagadi / Karoo oryx (gemsbok)"
+    - "Springbok (antelope)"
+    - "Ostrich"
+  unique:
+    - "Desert-adapted mammals of the Karoo"
+    - "Namaqua chameleon (desert 'Little Five')"
+industries:
+  - "Mining (diamonds at Oranjemund/Lüderitz, zinc at Rosh Pinah)"
+  - "Karoo livestock farming (sheep, goats, karakul)"
+  - "Tourism (Fish River Canyon, Kolmanskop, Lüderitz)"
+  - "Small-scale agriculture"
+sports:
+  - "Football (soccer)"
+  - "Rugby union"
+  - "Athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Community and church gatherings"
+  - season: dry
+    items:
+      - "Fish River Canyon hiking (best May-Sep) and dry-season outdoor tourism"
+  - season: wet
+    items:
+      - "Rainy-season (Nov-Apr) greener Karoo and cultural events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kapana (grilled beef) and dried meats"
+      - "Karoo lamb and goat dishes"
+  - season: dry
+    items:
+      - "Droëwors and biltong on the braai"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light, sun-protective clothing; modest coverage culturally expected"
+  - season: dry
+    items:
+      - "Warm layers and blankets for the cool, dry winter nights (Jun-Aug)"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices roughly 08:00-17:00 Mon-Fri; retail Mon-Sat (reduced hours)."
+  lunchBreakTiming: "Midday break commonly 12:00-14:00."
+  notes: "Cash common; sparse population outside the few towns (Keetmanshoop, Lüderitz)."

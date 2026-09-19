@@ -1,0 +1,85 @@
+code: NA-NORTH
+name:
+  eng: Ovamboland & Okavango (Northern Namibia)
+  local:
+    - languageCode: eng
+      value: Northern Namibia
+# Covers the densely settled Oshiwambo-speaking north (~half the population)
+# and the Kavango region along the Okavango River: mahangu-millet agrarian
+# Bantu-majority northern Namibia.
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (steppe) — higher rainfall than the south but still seasonal, with a marked rainy season Nov-Apr."
+  - koppenCode: Aw
+    description: "Tropical savanna — along the Okavango River margin and far north."
+landmarks:
+  - name: Okavango Delta (Sambian border, panhandle fringe)
+    description: "The perennial Okavango River system that feeds Angola and the delta further south."
+  - name: Oshakati & the Oshana region
+    description: "The commercial and cultural heart of Ovamboland."
+  - name: Ruacana Falls (Cunene River)
+    description: "A hydroelectric and scenic waterfall on the Angolan border."
+culturalTraits:
+  - "Oshiwambo ethnolinguistic identity and the densely settled agricultural north"
+  - "Mahangu (pearl millet) subsistence agriculture and communal clan life"
+  - "Matrilineal Ovambo social organization"
+  - "Kavango riverine farming and fishing along the Okavango"
+prideOf:
+  - "Being home to roughly half of Namibia's population"
+  - "Oshiwambo language and cultural vitality"
+  - "The Ovambo liberation-war heritage and a strong sense of community"
+animals:
+  popular:
+    - "African elephant (Kavango)"
+    - "Hippopotamus (Okavango River)"
+    - "Nile crocodile"
+  unique:
+    - "Kavango riverine wildlife"
+industries:
+  - "Mahangu and maize agriculture"
+  - "Livestock (cattle)"
+  - "Fishing along the Kavango/Okavango"
+  - "Cross-border trade with Angola"
+sports:
+  - "Football (soccer)"
+  - "Boxing"
+  - "Athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Community gatherings, church and cultural events"
+  - season: wet
+    items:
+      - "Rainy-season planting and harvest festivals (Nov-Apr)"
+  - season: dry
+    items:
+      - "Dry-season (May-Oct) community and church gatherings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Oshifima (stiff mahangu/millet porridge)"
+      - "Marathon / Owambo chicken stewed in tomato"
+  - season: wet
+    items:
+      - "Fresh stews and wild greens (omboga) of the rainy season"
+  - season: dry
+    items:
+      - "Oshikundu (fermented millet drink)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light cottons for the hot climate; modest, culturally expected coverage"
+  - season: dry
+    items:
+      - "Warm layers and blankets for the cooler dry-season nights"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices roughly 08:00-17:00 Mon-Fri; retail Mon-Sat."
+  lunchBreakTiming: "Midday break commonly 12:00-14:00."
+  notes: "Cash and mobile money dominant; Oshakati is the region's main market town."

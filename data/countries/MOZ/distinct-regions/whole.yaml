@@ -1,0 +1,145 @@
+code: WHOLE
+name:
+  eng: Mozambique
+  local:
+    - languageCode: por
+      value: República de Moçambique
+# Generic country-wide fallback content for Mozambique (unitary-large). Used
+# as the fallback when IP geolocation does not resolve to one of the curated
+# regions (MOZ-NORTH / MOZ-CENTER / MOZ-SOUTH).
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — hot year-round, rainy season Nov-Apr and cooler dry season May-Oct; most of the country."
+  - koppenCode: Am
+    description: "Tropical monsoon — the humid northeast littoral."
+  - koppenCode: Cwa
+    description: "Humid subtropical highland — the cooler highlands of Niassa, Zambézia and Tete plateau."
+  - koppenCode: BSh
+    description: "Hot semi-arid — the dry Zambezi/Limpopo valley interiors."
+landmarks:
+  - name: Island of Mozambique
+    description: "UNESCO World Heritage fortified Swahili-Portuguese settlement that gave the country its name."
+    unescoWorldHeritage: true
+  - name: Gorongosa National Park
+    description: "Central Mozambique's flagship wildlife-restoration park."
+  - name: Bazaruto Archipelago
+    description: "Coastal coral islands and dunes with dugong populations."
+  - name: Quirimbas Archipelago & Niassa Reserve
+    description: "Northern coral islands and one of Africa's largest wilderness reserves."
+  - name: Maputo
+    description: "The neoclassical coastal capital and commercial hub."
+culturalTraits:
+  - "Strong oral tradition, storytelling and communal (ubuntu-like) sociality"
+  - "Capulana wrap-cloth culture and identity"
+  - "Music and dance: marrabenta urban pop and the Chopi timbila xylophone tradition"
+  - "Deep religiosity blended with ancestral-belief practices"
+  - "Hospitality, respect for elders and indirect, conflict-avoidant communication"
+prideOf:
+  - "Independence from Portugal (25 June 1975) and post-war reconciliation"
+  - "Maria Mutola, Olympic 800m champion (Sydney 2000)"
+  - "Gorongosa's conservation restoration"
+  - "A rich seafood and Indian-Ocean coastal identity"
+animals:
+  popular:
+    - "African elephant"
+    - "Lion"
+    - "Hippopotamus"
+    - "Nile crocodile"
+    - "Dugong (Bazaruto)"
+  unique:
+    - "Dugong (one of Africa's key populations)"
+    - "Pangolin (Gorongosa)"
+    - "Giant oceanic manta rays (Tofo)"
+industries:
+  - "Agriculture (cashew, sugar, cotton, maize)"
+  - "Natural gas / LNG (Rovuma Basin, Coral Sul FLNG)"
+  - "Aluminum smelting (Mozal) and coal (Moatize/Tete)"
+  - "Heavy-mineral sands, graphite and titanium"
+  - "Hydroelectric power (Cahora Bassa) and ports/railways (Maputo, Beira, Nacala)"
+sports:
+  - "Football (soccer)"
+  - "Athletics (Maria Mutola legacy)"
+  - "Basketball"
+  - "Boxing and swimming/water sports"
+religions:
+  - name: Christianity (predominantly Evangelical/Pentecostal and Catholic)
+    percent: 55.8
+    sourceId: statedept-irf
+  - name: Traditional / indigenous beliefs
+    percent: 26.1
+    sourceId: statedept-irf
+  - name: Islam (mainly Sunni)
+    percent: 17.5
+    sourceId: statedept-irf
+  - name: No religion
+    percent: 0.5
+    sourceId: statedept-irf
+  - name: Other
+    percent: 0.3
+    sourceId: statedept-irf
+entertainment:
+  - season: allYear
+    items:
+      - "Urban nightlife, marrabenta music and football"
+      - "Seafood and coastal leisure"
+  - season: wet
+    items:
+      - "Rainy-season planting festivals and cultural/religious events (Nov-Apr)"
+  - season: dry
+    items:
+      - "Peak safari and beach tourism (Gorongosa, Bazaruto, Tofo; May-Oct)"
+      - "Independence Day celebrations (25 June)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Xima (stiff corn/sorghum porridge)"
+      - "Matapa (cassava-leaf and peanut stew)"
+      - "Piri-piri sauce and chamussas (samosas)"
+  - season: wet
+    items:
+      - "Caril de camarão (shrimp curry with coconut)"
+      - "Frango à zambeziana (spicy coconut chicken)"
+      - "Chimbimbira wild-mushroom dishes"
+  - season: dry
+    items:
+      - "Piri-piri prawns and grilled meats"
+      - "Bolo polana (cashew and potato cake) and bebinca (layer cake) at celebrations"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Capulana wrap cloth, women's everyday and ceremonial dress"
+      - "Light cottons suited to the subtropical heat"
+      - "Modern Western business and casual wear"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government/offices roughly 07:30-15:30/16:30 Mon-Fri; private sector 08:00-17:00; retail Mon-Sat."
+  lunchBreakTiming: "Midday break commonly 12:00-13:00 or 12:30-14:00."
+  notes: "Cash dominant outside Maputo; mobile money (M-Pesa, e-Mola, Mkesh) is very widely used; cards mainly in Maputo hotels and larger retailers."
+sources:
+  - id: statedept-irf
+    name: "International Religious Freedom Report — Mozambique"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/international-religious-freedom/"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "Christian 55.8%, Muslim 17.5%, traditional beliefs 26.1%, none 0.5%, other 0.3% (2020 est.); Evangelical/Pentecostal ~33%, Catholic ~27% within Christianity."
+  - id: unesco-ilm
+    name: "Island of Mozambique — World Heritage Centre"
+    publisher: "UNESCO"
+    url: "https://whc.unesco.org/en/list/599/"
+    year: 1991
+    accessedDate: "2026-09-19"
+    note: "UNESCO World Heritage fortified colonial settlement."
+  - id: gorongosa
+    name: "Gorongosa National Park"
+    publisher: "Gorongosa Project"
+    url: "https://gorongosa.org/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Landmark, wildlife restoration and Pangolin conservation centre."

@@ -1,0 +1,84 @@
+code: MZ-SOUTH
+name:
+  eng: Southern Mozambique (Sul)
+  local:
+    - languageCode: por
+      value: Sul de Moçambique
+# Covers Gaza, Inhambane and Maputo provinces: the Tsonga/Ronga/Chopi/Tswa
+# belt nearest to South Africa, the most urbanized and South-Africa-influenced
+# part of the country.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — hot with a rainy season Nov-Apr and a dry season May-Oct."
+  - koppenCode: BSh
+    description: "Hot semi-arid — in the drier interior of Gaza."
+landmarks:
+  - name: Maputo
+    description: "The capital with its neoclassical architecture, including the iconic Maputo Railway Station and bayfront."
+  - name: Bazaruto Archipelago National Park
+    description: "Coastal coral islands, dunes and dugong populations off Inhambane."
+  - name: Tofo & Inhambane coast
+    description: "Beach town renowned for giant oceanic manta rays and diving."
+culturalTraits:
+  - "Tsonga/Ronga southern identity and its strong link to South Africa"
+  - "Maputo as the national capital, business and cultural heart"
+  - "Coastal dhow and Indian-Ocean trade heritage"
+  - "Xibelani (Chopi) dance and the timbila xylophone tradition"
+prideOf:
+  - "Maputo, the elegant coastal capital"
+  - "The Bazaruto and Tofo marine wildlife"
+  - "Tsonga/Ronga cultural vibrancy and the timbila tradition"
+animals:
+  popular:
+    - "Hippopotamus"
+    - "Nile crocodile"
+    - "Dugong (Bazaruto)"
+  unique:
+    - "Giant oceanic manta rays (Tofo)"
+    - "Southern humpback whales (migratory)"
+industries:
+  - "Port of Maputo and the Maputo Corridor to South Africa"
+  - "Aluminum smelting (Mozal)"
+  - "Tourism (Bazaruto, Tofo, Maputo)"
+  - "Agriculture (sugar, citrus) and services"
+sports:
+  - "Football (soccer)"
+  - "Athletics (Maria Mutola legacy)"
+  - "Basketball"
+  - "Swimming and water sports"
+entertainment:
+  - season: allYear
+    items:
+      - "Maputo nightlife, marrabenta and kizomba/semba music clubs"
+      - "Beach and bayfront leisure"
+  - season: dry
+    items:
+      - "Peak beach and safari season (May-Oct)"
+  - season: wet
+    items:
+      - "Rainy-season indoor concerts and cultural events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Piri-piri prawns"
+      - "Matapa (cassava-leaf and peanut stew)"
+      - "Fresh grilled coastal seafood"
+  - season: dry
+    items:
+      - "Chamussas (Mozambican samosas) at gatherings"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Capulana wrap cloth for women"
+      - "Modern Western business and casual wear in Maputo"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government/offices roughly 07:30-16:30 Mon-Fri; private sector 08:00-17:00."
+  lunchBreakTiming: "Midday break commonly 12:00-14:00."
+  notes: "Maputo is the financial heart; cards, mobile money (M-Pesa, e-Mola) and bank transfers are most used here."

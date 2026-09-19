@@ -1,0 +1,228 @@
+alpha3: NAM
+alpha2: NA
+name:
+  eng: Namibia
+  local:
+    - languageCode: eng
+      value: Republic of Namibia
+    - languageCode: deu
+      value: Republik Namibia
+flagEmoji: "🇳🇦"
+capital: Windhoek
+isSovereign: true
+# Classified unitary-large: Namibia meets 2 of 3 DESIGN.md unitary-large
+# criteria. (1) Population ~3.02M (2023 NSA census) — WELL BELOW the 20-25M
+# threshold (FAIL). (2) Officially recognized regional/minority languages —
+# Namibia formally recognizes 13 'national languages' with standardized
+# orthography/literacy attached to specific regional speech communities:
+# Khoekhoegowab, Oshikwanyama, Oshindonga, Otjiherero, Rukwangali,
+# Rukwangali/Rumanyo, Thimbukushu, Silozi, Ju|'hoan, Setswana, plus
+# Afrikaans, English and German. English is the sole de jure official
+# language (Const. Art. 3(1)); the others are recognized regional/minority
+# languages — this is the Guyana/Norway/Finland regional-language pattern,
+# NOT the FJI/VUT 'multiple co-official national languages' pattern (PASS).
+# (3) Widely recognized cultural-historical regional divide — a genuine,
+# historically institutionalized divide: the Ovambo/Okavango north (~half the
+# population, mahangu-based agrarian, Bantu languages), the central highlands
+# (Herero + Windhoek), the sparse Nama/Damara south (Khoisan languages), and
+# the Zambezi panhandle (Silozi-speaking riverine wetlands). This divide was
+# literally institutionalized under the colonial homeland system (PASS).
+# 2 of 3 met -> four curated regions + WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: NA
+hasSubdivisions: true
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: const-1990
+  - languageCode: kua
+    domain: locallySpoken
+    speakersShare: 0.24
+    sourceId: census-2011-lang
+  - languageCode: ndo
+    domain: locallySpoken
+    speakersShare: 0.249
+    sourceId: census-2011-lang
+  - languageCode: naq
+    domain: locallySpoken
+    speakersShare: 0.113
+    sourceId: census-2011-lang
+  - languageCode: afr
+    domain: locallySpoken
+    speakersShare: 0.104
+    sourceId: census-2011-lang
+  - languageCode: her
+    domain: locallySpoken
+    speakersShare: 0.086
+    sourceId: census-2011-lang
+  - languageCode: kwn
+    domain: locallySpoken
+    speakersShare: 0.085
+    sourceId: census-2011-lang
+  - languageCode: loz
+    domain: locallySpoken
+    speakersShare: 0.048
+    sourceId: census-2011-lang
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.034
+    sourceId: census-2011-lang
+  - languageCode: deu
+    domain: locallySpoken
+    speakersShare: 0.009
+    sourceId: census-2011-lang
+  - languageCode: ktz
+    domain: locallySpoken
+    speakersShare: 0.008
+    sourceId: census-2011-lang
+# English is the sole official language (Const. Art. 3(1)); its official
+# speakersShare of 1.0 is the legal-status flag, not a population share.
+# Household-language shares are from the 2011 Population & Housing Census as
+# compiled in the SSHOA multilingualism record (the NSA 2023 census language
+# breakdown was not yet published at access). Oshiwambo is covered by its two
+# literary codes kua (Oshikwanyama) + ndo (Oshindonga); figures are the
+# household-language ESTIMATES.
+ethnicGroups:
+  - group: Ovambo (Aawambo)
+    percent: 50.0
+    sourceId: wfb-archived
+  - group: Kavango (Kavangos)
+    percent: 9.0
+    sourceId: wfb-archived
+  - group: Herero
+    percent: 7.0
+    sourceId: wfb-archived
+  - group: Damara
+    percent: 7.0
+    sourceId: wfb-archived
+  - group: Nama (Khoekhoegowab)
+    percent: 5.0
+    sourceId: wfb-archived
+  - group: Caprivian (incl. Lozi)
+    percent: 4.0
+    sourceId: wfb-archived
+  - group: San (Ju|'hoansi et al.)
+    percent: 3.0
+    sourceId: wfb-archived
+  - group: Whites (Afrikaner, German, English)
+    percent: 6.0
+    sourceId: wfb-archived
+  - group: Other/Coloured and Baster
+    percent: 9.0
+    sourceId: wfb-archived
+# Estimates from the archived CIA World Factbook ethnic-groups field.
+timezones:
+  - name: Africa/Windhoek
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+# Central Africa Time (CAT), UTC+2 year-round; Namibia abolished DST in 2017.
+currency:
+  code: NAD
+  symbol: "N$"
+  name: Namibian dollar
+# The Namibian dollar (NAD, 100 cents) is issued by the Bank of Namibia since
+# 1993; it is pegged at par to the South African Rand, which is also accepted.
+legalConstraints:
+  - topic: "official language"
+    description: "English is the sole official language of Namibia (Constitution, Art. 3(1)). Other national languages may be used for legislative, administrative and judicial purposes in regions where substantial populations speak them (Art. 3(3))."
+    sourceId: const-1990
+  - topic: "wildlife trade"
+    description: "Trade in controlled wildlife products (ivory, rhino horn, trophies) is regulated and restricted under the Controlled Wildlife Products and Trade Act 9 of 2008; hunting requires permits and poaching is a serious criminal matter."
+    sourceId: law-wildlife
+  - topic: "psychoactive substances"
+    description: "Cannabis possession, use and dealing are criminalized under the Abuse of Dependence-Producing Substances and Rehabilitation Centres Act 41 of 1971 (as in force in Namibia)."
+    sourceId: law-substances
+paymentCulture:
+  popularMethods:
+    - "Cash (Namibian dollar) — common"
+    - "Debit/credit cards (Visa/Mastercard) — widely accepted in towns"
+    - "Bank transfer and mobile banking"
+    - "South African Rand (ZAR) also accepted for payment (change given in NAD)"
+  tipping:
+    expected: false
+    typicalAmount: "Restaurants 10-15% of the bill for good service (10% standard); safari guides ~US$10-20/guest/day; lodge staff tip-box; porters ~US$2/bag"
+    autoIncludedInBill: false
+    note: "Tipping is customary but not compulsory and generally not auto-included."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal titles and Mr/Ms/Mrs used in professional dealings; respect toward elders is paramount."
+  greetingNorms: "Friendly handshake is customary; time is taken to ask after family and wellbeing before business ('Hello'/'Goeie dag'/'Hallo')."
+  meetingEtiquette: "Appointments kept but may start mildly late; punctuality valued in business; build personal rapport first; decisions often top-down in hierarchical institutions."
+  topicsToAvoid:
+    - "Colonial-era land and ethnic sensitivities"
+    - "Apartheid-era politics"
+    - "Recent same-sex/marriage law debates"
+  giftGivingNotes: "Gifts are uncommon in formal business (gratitude usually expressed verbally); small tokens may accompany personal hospitality; modesty expected."
+distinct-regions:
+  - code: NA-NORTH
+    file: distinct-regions/na-north.yaml
+    adminUnitCodes: [NA-ON, NA-OS, NA-OT, NA-OW, NA-KE, NA-KW]
+  - code: NA-CENTRAL
+    file: distinct-regions/na-central.yaml
+    adminUnitCodes: [NA-KH, NA-OD, NA-ER, NA-OH]
+  - code: NA-SOUTH
+    file: distinct-regions/na-south.yaml
+    adminUnitCodes: [NA-KA, NA-HA]
+  - code: NA-ZAMBEZI
+    file: distinct-regions/na-zambezi.yaml
+    adminUnitCodes: [NA-CA]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: ns2023
+    name: "2023 Namibia Population and Housing Census (main report)"
+    publisher: "Namibia Statistics Agency"
+    url: "https://nsa.org.na/services/census-nsa-org-na"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Population 3,022,401 (2023); the authoritative current census."
+  - id: census-2011-lang
+    name: "2001/2011 Population and Housing Census — household languages"
+    publisher: "Namibia Statistics Agency"
+    url: "https://nsa.org.na/"
+    year: 2011
+    accessedDate: "2026-09-19"
+    note: "Household-language shares (Oshiwambo ~48.9%, Khoekhoegowab ~11.3%, Afrikaans ~10.4%, Otjiherero ~8.6%, Rukwangali ~8.5%, Silozi ~4.8%, English ~3.4%, German ~0.9%, San ~0.8%)."
+  - id: const-1990
+    name: "Constitution of the Republic of Namibia"
+    publisher: "Government of Namibia / Constitute Project"
+    url: "https://www.constituteproject.org/constitution/Namibia_2014"
+    year: 1990
+    accessedDate: "2026-09-19"
+    note: "Art. 3: English sole official language; secular state; regional-language provision."
+  - id: sshoa-lang
+    name: "Multilingualism and the 13 recognized national languages (incl. Tötemeyer 2010)"
+    publisher: "Stellenbosch University (SSHOA)"
+    url: "http://hdl.handle.net/10019.1/102832"
+    year: 2017
+    accessedDate: "2026-09-19"
+    note: "Authoritative enumeration of the 13 Namibian national languages with standard orthographies."
+  - id: bank-of-namibia
+    name: "Namibian coins and currency"
+    publisher: "Bank of Namibia"
+    url: "https://www.bon.com.na/Currency/Namibian-coins.aspx"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Currency NAD, symbol N$, coins 5c-N$10 since 1993."
+  - id: wfb-archived
+    name: "CIA World Factbook — Namibia (archived snapshot, Religions/Ethnic groups)"
+    publisher: "US CIA World Factbook"
+    url: "https://worldfactbookarchive.org/archive/field/NA/"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "Ethnic-geographic breakdown and religion shares; the Factbook itself sunset in Feb 2026."
+  - id: law-wildlife
+    name: "Controlled Wildlife Products and Trade Act 9 of 2008"
+    publisher: "Republic of Namibia (official gazette)"
+    url: "https://droitsafricainsonline.com"
+    year: 2008
+    accessedDate: "2026-09-19"
+    note: "Restricts trade in controlled wildlife products; hunting permits required."
+  - id: law-substances
+    name: "Abuse of Dependence-Producing Substances Act 41 of 1971"
+    publisher: "Republic of Namibia / eJustice"
+    url: "https://ejustice.jud.na"
+    year: 1971
+    accessedDate: "2026-09-19"
+    note: "Criminalizes cannabis possession/use/dealing as in force in Namibia."

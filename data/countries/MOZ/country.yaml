@@ -1,0 +1,194 @@
+alpha3: MOZ
+alpha2: MZ
+name:
+  eng: Mozambique
+  local:
+    - languageCode: por
+      value: República de Moçambique
+flagEmoji: "🇲🇿"
+capital: Maputo
+isSovereign: true
+# Classified unitary-large: Mozambique meets all 3 DESIGN.md unitary-large
+# criteria. (1) Population ~34.2M (2025 CIA est.) — far above the 20-25M
+# threshold. (2) Officially recognized regional/minority languages — the
+# Constitution (Art. 9) formally esteems and promotes the national Bantu
+# languages (Makhuwa, Tsonga, Sena, Lomwe, Chuwabu, Ndau, Tswa, etc.) as
+# cultural/educational heritage with regional speech communities, while Art.
+# 10 makes Portuguese the sole official language. (3) Widely recognized
+# cultural-historical regional divide — a well-documented threefold identity
+# delimited by the Zambezi River (north/center) and the Save River
+# (center/south): a Makhuwa-majority, Muslim-influenced northern coast
+# (Cabo Delgado/Nampula); a Sena/Ndau belt around the Zambezi valley and
+# Gorongosa; and a Tsonga/Ronga southern cluster tied to Maputo and South
+# Africa. This is a genuine cultural-historical divide, not an ecological
+# artifact. 3 of 3 met -> three curated regions + WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: MZ
+hasSubdivisions: true
+languageUsage:
+  - languageCode: por
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-wipo
+  - languageCode: por
+    domain: locallySpoken
+    speakersShare: 0.166
+    sourceId: cia-wfb
+  - languageCode: vmw
+    domain: locallySpoken
+    speakersShare: 0.261
+    sourceId: cia-wfb
+  - languageCode: tso
+    domain: locallySpoken
+    speakersShare: 0.086
+    sourceId: cia-wfb
+  - languageCode: nya
+    domain: locallySpoken
+    speakersShare: 0.081
+    sourceId: cia-wfb
+  - languageCode: seh
+    domain: locallySpoken
+    speakersShare: 0.071
+    sourceId: cia-wfb
+  - languageCode: ngl
+    domain: locallySpoken
+    speakersShare: 0.071
+    sourceId: cia-wfb
+  - languageCode: chw
+    domain: locallySpoken
+    speakersShare: 0.047
+    sourceId: cia-wfb
+  - languageCode: ndc
+    domain: locallySpoken
+    speakersShare: 0.038
+    sourceId: cia-wfb
+  - languageCode: tsc
+    domain: locallySpoken
+    speakersShare: 0.038
+    sourceId: cia-wfb
+  - languageCode: rng
+    domain: locallySpoken
+    speakersShare: 0.019
+    sourceId: ethnologue
+# Portuguese is the sole official language (Constitution Art. 10, official
+# domain shares of 1.0 are the legal-status flag). Mother-tongue shares are
+# 2017 Census-derived estimates as reported by the CIA World Factbook;
+# Ronga's is an Ethnologue-derived estimate. This is an ESTIMATE of first
+# language shares, not an official per-language proficiency census.
+ethnicGroups:
+  - group: Makhuwa (Macua)
+    percent: 26.1
+    sourceId: cia-wfb
+  - group: Tsonga (Shangaan)
+    percent: 8.6
+    sourceId: cia-wfb
+  - group: Chichewa (Nyanja)
+    percent: 8.1
+    sourceId: cia-wfb
+  - group: Sena
+    percent: 7.1
+    sourceId: cia-wfb
+  - group: Other Mozambican Bantu peoples and coastal/mixed ancestry
+    percent: 50.1
+    sourceId: cia-wfb
+# Figures are estimates; Mozambique collects no comprehensive ethnic census
+# (INAMAR/INE publish mother-tongue and religious data instead).
+timezones:
+  - name: Africa/Maputo
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+# Central Africa Time (CAT), UTC+2 year-round; Mozambique does not observe DST.
+currency:
+  code: MZN
+  symbol: "MT"
+  name: Mozambican metical
+# The metical (MZN, 100 centavos) is issued by the Banco de Moçambique; 'MT'
+# is the common symbol. The name derives from the Arabic 'mithqal'.
+legalConstraints:
+  - topic: "official language"
+    description: "Portuguese is the sole official language of the state, legislation, courts and public administration (Constitution, Art. 10). National Bantu languages have heritage and educational status but no official-legal standing."
+    sourceId: constitution-wipo
+  - topic: "recognition of national languages"
+    description: "Article 9 of the Constitution obliges the State to esteem and promote the national (Bantu) languages as cultural and educational heritage, guiding language-in-education policy."
+    sourceId: constitution-wipo
+  - topic: "security-restricted north"
+    description: "Parts of Cabo Delgado province and surrounding areas are subject to official travel restrictions/advisories due to an ongoing Islamist insurgency (attacks since 2017, concentrated near the LNG zones)."
+    sourceId: state-travel-advisory
+paymentCulture:
+  popularMethods:
+    - "Cash (metical) — dominant, especially outside Maputo"
+    - "Mobile money — M-Pesa (Vodacom), e-Mola (Movitel), Mkesh — very widely used"
+    - "Bank transfer and mobile banking"
+    - "Debit/credit cards (Visa/Mastercard) — mainly Maputo hotels, supermarkets and larger retailers"
+    - "US dollars — commonly accepted at lodges, upscale tourism and for large transactions"
+  tipping:
+    expected: false
+    typicalAmount: "~10% in upscale restaurants when no service charge is added; small-change tips for hotel staff, porters, guides and safari staff"
+    autoIncludedInBill: false
+    note: "Tipping is not mandatory; a ~10% service charge is often added to hotel/restaurant bills."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Deferential to elders and officials; titles and ranks are used; respect for hierarchy matters."
+  greetingNorms: "Warm greeting with a handshake (often the left hand holding the right elbow); always greet before transacting and ask after health/family."
+  meetingEtiquette: "Punctuality is appreciated but tolerated flexibly; an opening pleasantry and greeting precede business."
+  topicsToAvoid:
+    - "Sensitive politics and civil-war history"
+    - "Ethnic stereotypes and negative ethnic generalizations"
+    - "Direct public criticism of individuals or the state"
+    - "Discussing someone's salary"
+  giftGivingNotes: "Gifts are well received at family/hospitality occasions and when visiting homes; modest, sincere gifts; defer to local elder norms."
+distinct-regions:
+  - code: MZ-NORTH
+    file: distinct-regions/mz-north.yaml
+    adminUnitCodes: [MZ-P, MZ-N, MZ-A]
+  - code: MZ-CENTER
+    file: distinct-regions/mz-center.yaml
+    adminUnitCodes: [MZ-Q, MZ-S, MZ-B, MZ-T]
+  - code: MZ-SOUTH
+    file: distinct-regions/mz-south.yaml
+    adminUnitCodes: [MZ-G, MZ-I, MZ-L]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cia-wfb
+    name: "Mozambique — The World Factbook"
+    publisher: "US CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/mozambique/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Population ~34.2M (2025 est.), mother-tongue language shares (2017 est.), climate, currency MZN, timezone UTC+2."
+  - id: constitution-wipo
+    name: "Constitution of the Republic of Mozambique (2004, rev. 2007)"
+    publisher: "WIPO Lex / Official Gazette"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/5771"
+    year: 2007
+    accessedDate: "2026-09-19"
+    note: "Art. 9 (national languages as heritage) and Art. 10 (Portuguese the sole official language)."
+  - id: inestat
+    name: "Instituto Nacional de Estatística (Mozambique)"
+    publisher: "INE Mozambique"
+    url: "https://www.ine.gov.mz/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Official population estimate ~33.2M (2024)."
+  - id: ethnologue
+    name: "Ethnologue — Languages of Mozambique"
+    publisher: "Ethnologue (SIL)"
+    url: "https://www.ethnologue.com/country/MZ"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Language inventory and Ronga speaker estimates (~720k)."
+  - id: banco-mocambique
+    name: "Banco de Moçambique — Currency"
+    publisher: "Banco de Moçambique"
+    url: "https://www.bancomoc.mz/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Issuer of the metical (MZN)."
+  - id: state-travel-advisory
+    name: "Mozambique Travel Advisory"
+    publisher: "US Department of State"
+    url: "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mozambique-travel-advisory.html"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Security advisory for northern provinces (Cabo Delgado insurgency)."
