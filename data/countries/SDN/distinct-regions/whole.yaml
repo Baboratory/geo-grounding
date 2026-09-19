@@ -1,0 +1,121 @@
+code: WHOLE
+name:
+  eng: Sudan
+  local:
+    - languageCode: ara
+      value: السودان
+    - languageCode: eng
+      value: Sudan
+# Generic country-wide fallback for Sudan (unitary-large). Sudan splits into
+# four broad cultural-historical regions — the northern Nile/Khartoum core,
+# Darfur in the west, Kordofan in the centre-south, and the Red Sea east —
+# but this file holds the national/symbolic-level content used when a specific
+# subdivision isn't curated. Region-specific religion breakdowns are not
+# published for Sudan as individual states, so religion figures are given here
+# at the national level only.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert (Köppen BWh) across most of the north and centre — very hot, arid, with an intense summer and mild winter and erratic rainfall."
+  - koppenCode: BSh
+    description: "Hot semi-arid savanna (Köppen BSh) in the central belt — a short wet season (roughly June-September) supporting the gum arabic belt and cultivation, drying to near-desert outside it."
+landmarks:
+  - name: Al-Mogran (confluence of the Blue and White Nile, Khartoum)
+    description: "The dramatic meeting point where the Blue Nile and White Nile join in Khartoum to form the Nile proper — a defining national landmark."
+  - name: National Museum of Sudan (Khartoum)
+    description: "The country's largest museum, home to the relocated Temple of Buhen and antiquities of the Kerma, Kushite and Meroitic civilisations."
+  - name: Pyramids of Meroë and the Island of Meroe
+    unescoWorldHeritage: true
+    description: "Hundreds of steep Nubian pyramids of the Meroitic Kingdom of Kush (UNESCO World Heritage Site) along the Nile."
+  - name: Gebel Barkal and the Sites of the Napatan Region
+    unescoWorldHeritage: true
+    description: "The sacred mountain and associated temples and pyramids of the Kingdom of Kush in Northern Sudan (UNESCO World Heritage Site)."
+culturalTraits:
+  - "Arabization and Islamization over centuries shaped a broad Sudanese-Arab national identity, alongside a great many distinct indigenious ethnic groups (Fur, Beja, Nuba, Zaghawa, Masalit and many more)"
+  - "Strong Islamic practice (Sunni, largely Maliki school) and deep Sufi traditions (e.g. the Mirghani family and other orders)"
+  - "Hospitality (karam) and generosity are core social values; the family and the wider tribe/clan dominate social life"
+  - "The confluence of the Niles has long made Sudan a crossroads of African, Arab and Red Sea cultures"
+prideOf:
+  - "Being the land of the ancient Kushite kingdoms, with more pyramids than Egypt"
+  - "The heroism of the 2019 popular revolution that toppled a 30-year dictatorship"
+  - "The world's largest sesamed seed and gum arabic production, and African gold resources"
+  - "The resilience of the Sudanese people amid repeated political upheaval and, since 2023, war"
+animals:
+  popular:
+    - "Nile crocodiles and hippos along the Nile and its tributaries"
+    - "Camels and cattle of the pastoralist economies"
+    - "Scimitar-horned oryx, addax and gazelles in the northern arid zones"
+    - "Red Sea coral-reef marine life (dugong, manta rays, sea turtles)"
+  unique:
+    - "The endangered dugong population of Sanganeb and Dungonab Bay on the Red Sea"
+    - "Nubian ibex and Barbary sheep in the eastern desert hills"
+    - "Rich savanna fauna (lions, elephants, kudu) in protected areas such as Dinder and Jebel al-Dair"
+industries:
+  - "Petroleum — a leading export and source of revenue, largely from fields near the South Sudan border"
+  - "Gold — one of Africa's largest producers, much of it artisanal and small-scale"
+  - "Agriculture — sorghum, millet, cotton, sesame and the world-leading gum arabic and sesame exports"
+  - "Livestock and livestock trading (sheep, camels, cattle)"
+  - "Port Sudan and the Red Sea trade hub"
+sports:
+  - "Soccer (football) — the dominant national sport, with a strong club culture"
+  - "Camel racing — a deeply rooted pastoralist tradition"
+  - "Athletics and wrestling"
+  - "Diving and Red Sea water sports along the coast"
+religions:
+  - name: Muslim (Sunni, largely Maliki school)
+    percent: 91.0
+    sourceId: pew-religion
+  - name: Christian (Coptic, Catholic, Greek Orthodox, Anglican and others)
+    percent: 5.4
+    sourceId: pew-religion
+  - name: Folk religions (African traditional beliefs)
+    percent: 2.8
+    sourceId: pew-religion
+  - name: Other / unaffiliated
+    percent: 0.8
+    sourceId: pew-religion
+# Religion figures are the 2020 Pew Research Center estimates for Sudan (91%
+# Muslim, 5.4% Christian, 2.8% folk religions, remainder other/unaffiliated).
+# The state separated religion from government in the 2020 constitutional
+# amendments, ending Islam as the official state religion.
+entertainment:
+  - season: allYear
+    items:
+      - "Sudanese music — rich tradition of heavy instrumental percussion, the 'dalooka' drumming and popular stars; and the distinctive national dance"
+      - "Football matches and club culture throughout the Nile valley towns"
+      - "Coffee- and tea-house sociability (jabana coffee culture)"
+      - "Eid festivals, Sufi dhikr gatherings and cultural festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ful medames — stewed fava beans, a ubiquitous breakfast"
+      - "Kisra and assida — thin sorghum/flour breads eaten with stews"
+      - "Tagalia — a fried dried-meat stew with aubergine and okra"
+      - "Molokhia (Jute leaves) stew, and grilled Nile fish"
+      - "Sweetened ginger and hibiscus (karkadeh) drinks"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The thobe — the flowing robe worn by Sudanese women, with regional and festive variations"
+      - "The jallabiya — the loose, ankle-length men's robe"
+      - "The kufiya (taqiya) headdress and Fesa cap among men"
+      - "Festive white garments and turbans on religious occasions"
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Public sector roughly Sunday-Thursday 08:00-15:00/16:00; many private firms work a Sunday-Thursday week with Friday-Saturday off. Hostilities since April 2023 have severely disrupted services and business hours countrywide."
+  lunchBreakTiming: "Midday; the afternoon siesta is common in the heat."
+  notableShutdownPeriods:
+    - period: "Ramadan"
+      description: "Business hours shorten, daytime eateries close, and a widespread evening pause (iftar) dominates the month."
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Public holidays with a near-total closing of businesses for roughly two-three days around each Eid."
+  notes: "Since the war began in April 2023, official capabilities, banking and logistics have been severely disrupted and many functions have moved to Port Sudan. The traditional Friday-Saturday weekend generally still holds, but the conflict makes hours and closures unpredictable in affected areas."
+sources:
+  - id: pew-religion
+    name: "Pew Research Center — Religious Composition by Country (Sudan, 2020)"
+    publisher: "Pew Research Center"
+    url: "https://www.pewresearch.org/religion/2022/12/21/religious-composition-by-country-2010-2050/"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "National religious composition: Muslim 91%, Christian 5.4%, folk religions 2.8%, other/unaffiliated remainder."

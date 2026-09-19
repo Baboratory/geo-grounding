@@ -1,0 +1,87 @@
+code: SS-EC
+name:
+  eng: Central Equatoria
+  local:
+    - languageCode: eng
+      value: Central Equatoria
+# 'Central Equatoria' has no established native-language toponym — the
+# Bari/Kakwa/Kuku-speaking peoples of the state use the (English-official)
+# administrative name itself, so the local name is given in English.
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate — hot and seasonally wet; a pronounced wet season roughly April-October and a dry season roughly November-March."
+landmarks:
+  - name: Juba
+    description: "The national capital of South Sudan, on the White Nile, and the country's main urban, commercial and diplomatic centre."
+  - name: White Nile at Juba
+    description: "The major river flowing through the state; navigation, fishing and a key rail/road hub at Juba."
+  - name: Yei and Kajo Keji
+    description: "Fertile farming towns near the Ugandan border, part of the productive Equatoria hinterland."
+culturalTraits:
+  - "Home to the Bari, Mundari, Pojulu, Kakwa and Kuku peoples — several of whom speak closely related Kutuk-derived varieties"
+  - "Fertile agricultural lands of the broader Equatoria region feeding Juba's markets"
+  - "Juba as the cultural and political centre of the young nation"
+prideOf:
+  - "Being the seat of the world's newest capital and the gateway to South Sudan"
+  - "The White Nile and the fertile Equatoria green belt"
+animals:
+  popular:
+    - "Hippos and Nile crocodiles in and around the White Nile"
+    - "Waterfowl and fish of the river corridor"
+industries:
+  - "Government and administrative services (national capital)"
+  - "Trade, transport and logistics hub around Juba"
+  - "Agriculture (maize, cassava, groundnuts, fruit) in the surrounding counties"
+  - "Humanitarian and NGO sector (large Juba presence)"
+sports:
+  - "Football — Juba is the national football heartland (Bright Stars home matches)"
+  - "Basketball"
+  - "Athletics and volleyball"
+# religions intentionally omitted: no authoritative, state-level religious
+# breakdown was found for Central Equatoria separate from the national CIA
+# figure (Christian ~60.5%, traditional ~32.9%, Muslim ~6.2%) shown in the
+# SSD WHOLE fallback.
+entertainment:
+  - season: allYear
+    items:
+      - "Live music, markets and nightlife in Juba"
+      - "Choir and church community events"
+  - season: dry
+    items:
+      - "Dry-season travel and easy access to outlying towns (Nov-Apr)"
+      - "National and state ceremonies held in Juba (incl. Independence Day, 9 July)"
+  - season: wet
+    items:
+      - "Rainy-season indoor social and church gatherings (May-Oct)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Agashe (grilled marinated beef/meat, often peanut-based) — a Juba favourite"
+      - "Kisra and sorghum porridge with stews"
+      - "Groundnut and sesame stews"
+      - "White Nile fish (fried or in soup)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Widely worn western dress in Juba"
+      - "Colorful fabric wraps and head-wraps for women"
+      - "Cowrie-beaded ceremonial adornment at dances among Kutuk-speaking peoples"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and formal business roughly 08:00-16:00/17:00 Mon-Fri; Juba's markets run long hours, most active in the dry season."
+  lunchBreakTiming: "Midday."
+  notes: "Juba is the economic and administrative hub — most banking, trade, aid and government employment is here. Cash and US dollars dominate; mobile money is growing. Rural counties are farming areas whose output and access shrink in the wet season."
+sources:
+  - id: ec-britannica
+    name: "South Sudan — Equatoria region (Britannica / state background)"
+    publisher: "Encyclopaedia Britannica"
+    url: "https://www.britannica.com/place/South-Sudan"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Regional background on Equatoria and Juba used for climates, landmarks and cultural traits; the state-level ethnic and economic overview."

@@ -1,0 +1,82 @@
+code: SD-RS
+name:
+  eng: Red Sea Coast and Eastern Sudan
+  local:
+    - languageCode: ara
+      value: البحر الأحمر وشرق السودان
+    - languageCode: bej
+      value: Red Sea Coast and Eastern Sudan
+# The Red Sea coast and the eastern states (adminUnitCodes spans Red Sea,
+# Kassala and Gedaref). This is Sudan's gateway to the sea — home to Port
+# Sudan, the country's main and now de facto capital port — and the homeland
+# of the largely pastoral Beja people and of the productive rain-fed
+# agricultural crescent of Kassala and Gedaref (the 'breadbasket'). Relatively
+# spared the worst of the fighting, it hosts displaced people and relocated
+# government and banking functions. Region-specific religion shares are not
+# published, so religion statistics appear only at the national level.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert along the Red Sea coast and east — very hot and dry, tempered somewhat by the maritime air, with most rain in summer."
+  - koppenCode: BSh
+    description: "Hot semi-arid in the interior (Kassala, Gedaref), where the June-September rains support one of Sudan's principal rain-fed cropping belts."
+landmarks:
+  - name: Port Sudan
+    description: "Sudan's principal seaport and economic lifeline, on the Red Sea; since April 2023 the seat of relocated government and central-bank functions."
+  - name: Sanganeb Marine National Park and Dungonab Bay–Mukawwar Island
+    unescoWorldHeritage: true
+    description: "A UNESCO natural World Heritage Site protecting one of the world's northernmost barrier-coral-reef systems and a degraded-coast wetland rich in dugongs, manta rays, sea turtles and endemic reef fish."
+  - name: Suakin
+    description: "The ancient, largely abandoned Ottoman-era Red Sea port and pilgrim embarkation point, with distinctive coral-block architecture."
+  - name: Tokar
+    description: "The port of the fertile Tokar Delta, a cotton-growing coastal plain of the Beja lands."
+culturalTraits:
+  - "The Beja people — one of the most ancient populations of the region, largely pastoral camel- and goat-herders of the eastern hills, known for their independence and distinctive dress (the 'fibro' headwrap)"
+  - "A maritime and Red Sea trade tradition linked across to Arabia, from Suakin's long commercial and pilgrimage history"
+  - "The rain-fed agricultural plateaus of Kassala and Gedaref feeding much of northern Sudan"
+  - "A hard desert-edge pastoralism alongside a growing port-and-gold economy"
+prideOf:
+  - "Port Sudan as the nation's vital maritime gateway"
+  - "The pristine Red Sea coral reefs and marine life, and the dugong colonies of Dungonab Bay"
+  - "The proud independence of the Beja peoples and their camel culture"
+animals:
+  popular:
+    - "Dugongs, manta rays, sea turtles, sharks and dolphins of the Red Sea reefs"
+    - "Camels and goats of the Beja herders"
+    - "Migratory seabirds and flamingos along the coast"
+  unique:
+    - "The endangered dugong population of Dungonab Bay"
+    - "Numerous endemic Red Sea reef-fish species"
+industries:
+  - "Port Sudan — shipping, container transit, petroleum-import/export and the country's trade lifeline"
+  - "Oil refining and the crude-export terminal associated with the port"
+  - "Rain-fed agriculture in Kassala and Gedaref — sorghum, sesame and cotton of the eastern breadbasket"
+  - "Gold mining in the eastern hills and the Red Sea coastal strip"
+  - "Fishing and seafood along the coast"
+sports:
+  - "Scuba diving and Red Sea water sports"
+  - "Football"
+  - "Camel and horse racing among the eastern herders"
+entertainment:
+  - season: allYear
+    items:
+      - "Diving and reef-snorkelling along the pristine coastal parks"
+      - "The life and markets of Port Sudan and Suakin"
+      - "Eastern drumming and dance of the Beja at festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fresh Red Sea fish and seafood grilled or fried with kisra"
+      - "Sorghum and millet staples of the Gedaref belt with sesame- and groundnut-based sauces"
+      - "Milk, ghee and camel-milk products of the Beja herders"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The Beja 'fibro' — the distinctive white cotton headwrap of the eastern men"
+      - "Loose desert robes and the women's thobe"
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Port and government operations Sunday-Thursday around 08:00-16:00; the port runs to a near-24h rhythm during loading."
+  lunchBreakTiming: "Midday."
+  notes: "Port Sudan has absorbed much of the government, central bank and international presence relocated from Khartoum since the April 2023 war, and hosts many of the country's displaced."

@@ -1,0 +1,87 @@
+code: SS-UY
+name:
+  eng: Unity
+  local:
+    - languageCode: eng
+      value: Unity
+# No separate native-language toponym is commonly used for the state (formerly
+# Western Upper Nile); local entry given in English (official).
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate; heavy rainfall concentrated in the wet season (roughly May-October), when the lowlands and Sudd fringes flood extensively; a strongly seasonal dry season November-April."
+landmarks:
+  - name: Bentiu
+    description: "The state capital, near the junction of the Bahr el Ghazal with the White Nile system; a major town of the western Nuer."
+  - name: Unity oilfield (Paloch)
+    description: "The largest hydrocarbon accumulation in the Muglad rift basin, from which the Greater Nile Oil Pipeline runs north to Port Sudan; a strategic oil-producing centre."
+  - name: Rubkona and the Sudd fringe
+    description: "Floodplain towns on the edge of the great wetlands, chronically affected by flooding."
+culturalTraits:
+  - "Heartland of the (western) Nuer people — a major cattle-pastoralist Nilotic nation"
+  - "Cattle-centred society with segmentary lineages and egalitarian politics"
+  - "Oil wealth amid harsh environmental and conflict conditions: extraction and flooding shape the land"
+prideOf:
+  - "The Nuer pastoral heritage and cattle culture"
+  - "Being the primary source of South Sudan's oil wealth"
+  - "The resilience of communities from the Sudd floodplains"
+animals:
+  popular:
+    - "Cattle — central to Nuer life"
+    - "Antelope and waterbirds of the floodplains"
+    - "Hippos in the river systems"
+industries:
+  - "Crude oil production and export (the backbone of national revenue)"
+  - "Livestock herding (cattle)"
+  - "Subsistence farming on the floodplain fringes"
+  - "Wet-season fishing"
+sports:
+  - "Traditional wrestling (Nuer)"
+  - "Football"
+# religions intentionally omitted: no authoritative state-level breakdown found;
+# the Nuer blend Christian adherence with strong traditional religion — see SSD
+# WHOLE for the national figures.
+entertainment:
+  - season: allYear
+    items:
+      - "Nuer cattle-camp song and dance"
+      - "Community wrestling and football"
+  - season: dry
+    items:
+      - "Dry-season cattle camps and village gatherings as waters recede (Nov-Apr)"
+  - season: wet
+    items:
+      - "Wet-season fishing cycles and flood-enforced local recreation (May-Oct)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sorghum porridge with meat and dairy"
+      - "Milk and cattle products"
+      - "Fish from the floodplain channels"
+      - "Groundnut and sesame stews"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern dress and traditional wraps"
+      - "Beaded ceremonial adornment (the Nuer-style bead necklaces) at dances"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Oil-field and government work roughly 08:00-16:00; rural markets run daylight hours."
+  lunchBreakTiming: "Midday."
+  notableShutdownPeriods:
+    - period: "Wet season flooding (approx. May-October)"
+      description: "Flooding inundates low-lying settlements (e.g. Bentiu's dyke-protected town and the adjacent UNMISS protection-of-civilians area), disrupting markets."
+  notes: "Unity's economy is split between large-scale oil operations and subsistence pastoralism; recurrent floods and past conflict (the state was among the worst hit in the 2013-2018 war) keep much of the population dependent on humanitarian support."
+sources:
+  - id: uy-oil
+    name: "Unity State / Unity oilfield and Bentiu background"
+    publisher: "Aggregate regional profiles (qualla.com state profile; de Gruyter/Human Rights concern studies on Unity)"
+    url: "https://qualla.com/unity-state"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "State background: western Nuer heartland, cattle pasturing, Bentiu as capital, Unity oilfield (~150M barrels) and the Greater Nile Pipeline to Port Sudan; wet-season flooding noted as a dominant environmental threat."

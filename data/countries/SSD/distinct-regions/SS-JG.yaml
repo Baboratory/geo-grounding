@@ -1,0 +1,87 @@
+code: SS-JG
+name:
+  eng: Jonglei
+  local:
+    - languageCode: eng
+      value: Jonglei
+# 'Jonglei' is the established local name (English/Arabic-derived); no separate
+# native-language toponym is commonly used, hence the English local entry.
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate; a long wet season (roughly May-October) and a dry season (roughly November-April). The flat, low-gradient terrain and the adjacent Sudd make the state prone to extensive seasonal flooding."
+landmarks:
+  - name: Bor
+    description: "The state capital, on the east bank of the White Nile — a major town of the Bor Dinka."
+  - name: The Sudd
+    description: "Jonglei borders the heart of the world's largest wetland; seasonal flooding of the White Nile regularly submerges large areas and reshapes grazing and farming land."
+  - name: Fangak, Ayod and the eastern floodplain
+    description: "Remote floodplain towns repeatedly affected by severe flooding; sites of the southernmost of the Great Nile wetlands."
+culturalTraits:
+  - "Home to the Bor Dinka, Nuer and Murle peoples, with Anyuak communities in the east — an ethnically mixed frontier"
+  - "Cattle pastoralism and seasonal transhumance between floodplain pastures and dry-season grazing"
+  - "Recurrent severe flooding (worst in decades several times since 2019) is a defining feature of life and livelihood"
+prideOf:
+  - "The resilient cattle-culture of the Bor Dinka"
+  - "Deep-rooted wrestling and ceremonial song traditions"
+  - "Survival and recovery through repeated floods and conflict"
+animals:
+  popular:
+    - "Cattle — central to Dinka and Nuer life"
+    - "Antelope (including cob) and hippos of the floodplains"
+    - "Waterbirds of the Sudd"
+industries:
+  - "Livestock herding (cattle) — the dominant livelihood"
+  - "Subsistence farming (sorghum, maize) on the floodplain"
+  - "Fishing in the wetland channels"
+sports:
+  - "Traditional wrestling (Nuer and Dinka)"
+  - "Football"
+# religions intentionally omitted: no authoritative state-level breakdown found;
+# traditional religion retains a strong presence among pastoralists here, with
+# Christian adherence also common — see SSD WHOLE for the national figures.
+entertainment:
+  - season: allYear
+    items:
+      - "Cattle-camp song, dance and social life"
+      - "Wrestling and community sports"
+  - season: dry
+    items:
+      - "Dry-season cattle camps and village gatherings when floodwaters recede (Nov-Apr)"
+  - season: wet
+    items:
+      - "Rainy-season wetland fishing and hunting cycles (May-Oct)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sorghum porridge and fermented sorghum drinks"
+      - "Milk and cattle products (a pastoral staple)"
+      - "Fish from the Sudd channels"
+      - "Local greens and groundnut stews"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern dress alongside traditional wraps"
+      - "Beaded and cowrie-shell adornment at Dinka/Nuer dances"
+      - "The famed Dinka beaded girls' necklaces and ceremonial body ornamentation"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Markets and farming run daylight hours; most activity is pastoral and seasonal."
+  lunchBreakTiming: "Midday."
+  notableShutdownPeriods:
+    - period: "Wet season floods (approx. May-October)"
+      description: "Flooding repeatedly displaces people and submerges roads, crops and livestock grazing; market access collapses in the worst years."
+  notes: "Jonglei's economy depends on cattle and seasonal floodplain farming; it has suffered some of the country's worst flooding (2019-2021) and communal conflict, keeping markets small and insecure."
+sources:
+  - id: jg-flooding
+    name: "WFP / UN News — Flooding leaves South Sudan facing threat of catastrophic hunger (Fangak/Bor, Jonglei)"
+    publisher: "United Nations News / World Food Programme"
+    url: "https://news.un.org/en/story/2020/09/1074152"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "Documents severe flooding in Jonglei and Unity states, the Sudd wetland, displacement, and the loss of sorghum/cereal harvests; basis for the flooding-focused climate, businessRhythm and landmark notes."

@@ -1,0 +1,151 @@
+alpha3: SDN
+alpha2: SD
+name:
+  eng: Sudan
+  local:
+    - languageCode: ara
+      value: السودان
+    - languageCode: eng
+      value: Sudan
+flagEmoji: "🇸🇩"
+capital: Khartoum
+isSovereign: true
+# Classified unitary-large: population ~50M (2024 est., CIA World Factbook),
+# well above the 20-25M threshold; Arabic and English are both officially
+# recognized working languages (Interim National Constitution 2005, Art. 8);
+# and although the state is administratively unitary, there is a well-known
+# cultural-historical regional identity — the northern Nile/Khartoum core, the
+# western region of Darfur, the central-southern Kordofan, and the Red Sea
+# east — each with its own history and ethnic makeup. Four real ISO 3166-2
+# regions are curated alongside the WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: SD
+hasSubdivisions: true
+languageUsage:
+  - languageCode: ara
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution
+    # variant: Standard (Modern Standard) Arabic is the written/official form;
+    # the spoken everyday variety (Sudanese Arabic, ISO 639-3 code 'apd') is
+    # what most people actually speak (reflected in the locallySpoken row).
+    variant: ar-SD
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution
+  - languageCode: ara
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: composite-arab
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: composite-eng
+# ethnicGroups: CIA World Factbook gives only "Sudanese Arab (approximately
+# 70%)" with a firm figure; the many other groups (Fur, Beja, Nuba, Ingessana,
+# Uduk, Fallata, Masalit, Dajo, Gimir, Tunjur, Berti, among over 500 ethnic
+# groups) are listed without published percentages, so only the one reliably
+# sourced share is given here. For the ethnic composition of specific regions
+# see the region files (Darfur, Kordofan, Red Sea east).
+ethnicGroups:
+  - group: Sudanese Arab
+    percent: 70.0
+    sourceId: cwf
+# No authoritative country-level split of local speakers of the many minority
+# languages (Nubian, Beja, Fur, Zaghawa, Masalit, the Nuba-group languages,
+# etc.) is published; their regional concentrations are noted in the region
+# files rather than guessed here.
+timezones:
+  - name: Africa/Khartoum
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+currency:
+  code: SDG
+  symbol: "ج.س."
+  name: Sudanese pound
+legalConstraints:
+  - topic: "official languages"
+    description: "Arabic and English are the official working languages of the national government and the languages of instruction in higher education; all indigenous languages of Sudan are protected national languages. (Interim National Constitution 2005, Article 8; Arabic and English remain the recognized official languages under the 2019 Constitutional Charter.)"
+    sourceId: constitution
+  - topic: "armed conflict (since April 2023)"
+    description: "Sudan is in a full-scale civil war that began on 15 April 2023 between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF). The conflict has devastated Khartoum, Darfur and Kordofan, displaced millions (roughly a third of the population by April 2025), collapsed basic services, and forced the de facto government to operate from Port Sudan. Anyone doing on-the-ground work — payments, logistics, retail, staffing — must plan for severe disruption, inaccessibility and risk; travel is internationally advised against. This is a live operational constraint documented here while the administrative/governance structure of the country is kept separate and unchanged."
+    sourceId: un-conflict
+paymentMethodShares: []
+# No authoritative official split of payment methods is published for Sudan
+# (the Central Bank's payment statistics are not broken out by method in an
+# accessible official release). The economy is heavily cash-based, with bank
+# transfers and some mobile-money services also used, so a sourced numerical
+# breakdown is omitted and the qualitative picture is described in
+# paymentCulture instead.
+paymentCulture:
+  popularMethods:
+    - "Cash — the dominant everyday payment method in a largely cash-based economy"
+    - "Bank transfers and cheques — the norm for higher-value and formal transactions"
+    - "Mobile money / digital wallets — growing but still limited adoption, and disrupted by the conflict"
+    - "Remittances from the large Sudanese diaspora are a major income channel"
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    typicalAmount: "Not customary; small gratuities for good service are appreciated but not expected."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Arabic and Islamic norms dominate: strong courtesy and respect for age and status; hospitality (karam) is deeply valued. First names are common among peers after a relationship forms, but titles and deferential address are used with elders and officials."
+  greetingNorms: "The Islamic greeting 'As-salamu alaykum' (peace be upon you) with the reply 'Wa alaykum as-salam' is standard; often accompanied by handshakes and polite enquiries about family and well-being before business."
+  meetingEtiquette: "Relationships and trust matter more than speed — expect conversation and hospitality before the substance of a meeting. Punctuality is somewhat relaxed. Agendas are often set by the most senior person present, and decisions typically move through hierarchy."
+  topicsToAvoid:
+    - "The ongoing civil war and its disputed details"
+    - "Religion, tribal/ethnic identity and the Darfur conflict in present firm terms"
+    - "Regional and political divisions in South Sudan"
+  giftGivingNotes: "Giving a small gift can be a kind gesture once a relationship is established, and declining hospitality offered by a host is considered impolite. Avoid gifts of alcohol."
+distinct-regions:
+  - code: SD-KH
+    file: distinct-regions/kh.yaml
+    adminUnitCodes: [SD-KH, SD-NR, SD-GZ, SD-NW, SD-NB, SD-SI, SD-NO]
+  - code: SD-DN
+    file: distinct-regions/dn.yaml
+    adminUnitCodes: [SD-DN, SD-DS, SD-DW, SD-DE, SD-DC]
+  - code: SD-KN
+    file: distinct-regions/kn.yaml
+    adminUnitCodes: [SD-KN, SD-KS, SD-GK]
+  - code: SD-RS
+    file: distinct-regions/rs.yaml
+    adminUnitCodes: [SD-RS, SD-KA, SD-GD]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cwf
+    name: "CIA World Factbook — Sudan (People and Society)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/sudan/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Population ~50,467,278 (2024 est.); ethnic groups (Sudanese Arab ~70%, plus Fur, Beja, Nuba and many others); Arabic (official) and English (official) as the working languages; the basis for the national-level ethnicGroups and official languages."
+  - id: constitution
+    name: "Interim National Constitution of the Republic of the Sudan, 2005 — Article 8 (Language)"
+    publisher: "Constitution Project / comparative constitutional law compilation"
+    url: "https://constituteproject.org/constitution/Sudan_2005"
+    year: 2005
+    accessedDate: "2026-09-19"
+    note: "Legal basis for Arabic and English as the official working languages of the national government and media/higher-education instruction; indigenous languages protected as national languages."
+  - id: composite-arab
+    name: "Composite estimate — Arabic spoken locally in Sudan (Ethnologue, 28th ed., via OpenArabic; CIA World Factbook)"
+    publisher: "Composite estimate"
+    url: "https://openarabic.org/sudanese-arabic-resources"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Ethnologue counts ~41M first-language and ~11M second-language speakers of Sudanese Arabic, making Arabic the dominant local language; locallySpoken share ~0.95 is a composite estimate of near-universal everyday spoken Arabic."
+  - id: composite-eng
+    name: "Composite estimate — English daily use in Sudan"
+    publisher: "Composite estimate (CIA World Factbook; general professional-usage reports)"
+    url: "https://www.cia.gov/the-world-factbook/countries/sudan/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "English is an official working/education language but is not the common daily tongue (limited to professional, higher-education and elite circles); locallySpoken share ~0.1 is an ESTIMATE."
+  - id: un-conflict
+    name: "UN News — Sudan Conflict (focus page) and OCHA situation reports"
+    publisher: "United Nations News / OCHA"
+    url: "https://news.un.org/en/focus/sudan-conflict"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Documents the civil war between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) that erupted on 15 April 2023, the displacement of millions, and the collapse of basic services — the basis for the armed-conflict legalConstraint."

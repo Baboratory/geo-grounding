@@ -1,0 +1,13 @@
+# ISO 639-3 code 'pga' verified at https://iso639-3.sil.org/code/pga
+# (Sudanese Creole Arabic, Individual, Living). Accessed 2026-09-19. Juba
+# Arabic (a.k.a. South Sudanese Arabic) is the main Arabic-based pidgincreole
+# lingua franca; not legally official but the everyday common tongue of the
+# capital and much of the country (L1 ~250k, L2 ~1.2M).
+code: pga
+name:
+  eng: Juba Arabic
+  local: arabi juba
+commonPhrases:
+  hello: Asalaam aleikum
+  thankYou: Shukran
+  goodbye: Ma'a salama
