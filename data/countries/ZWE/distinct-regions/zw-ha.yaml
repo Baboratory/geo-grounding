@@ -1,0 +1,65 @@
+code: ZW-HA
+name:
+  eng: Harare
+  local:
+    - languageCode: sna
+      value: Harare
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland: warm wet summers (Nov-Mar) and mild, dry winters (May-Aug)."
+landmarks:
+  - name: Harare Gardens
+    description: "Central park and the Harare CBD."
+  - name: Mbare Musika
+    description: "Zimbabwe's largest and busiest market."
+  - name: National Heroes Acre
+    description: "National monument and memorial on a hilltop."
+culturalTraits:
+  - "Capital and national administrative-economic heartland of Mashonaland"
+  - "Shona-majority commercial hub; multi-ethnic but dominated by the capital 'Kotoko' bustle"
+  - "Rock art and sculpture galleries (National Gallery)"
+prideOf:
+  - "Being Zimbabwe's political and economic centre, with a high-literacy urban population"
+animals:
+  popular: []
+  unique: []
+industries:
+  - "Government and public administration"
+  - "Finance and services"
+  - "Manufacturing"
+  - "Trade and commerce"
+sports:
+  - "Football (soccer)"
+  - "Cricket"
+  - "Rugby union"
+entertainment:
+  - season: allYear
+    items:
+      - "Urban nightlife, restaurants and art galleries"
+      - "Cricket and football at the national stadium"
+  - season: dry
+    items:
+      - "Weekend escapes to the surrounding hills"
+  - season: wet
+    items:
+      - "Indoor shopping and cultural events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sadza and muriwo"
+      - "Nyama (grilled steak)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Formal business attire in the central business district"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-16:30 Mon-Fri."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "Fast-paced capital business rhythm."

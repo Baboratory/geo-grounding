@@ -1,0 +1,73 @@
+code: WHOLE
+name:
+  eng: Zimbabwe (country-wide)
+  local:
+    - languageCode: eng
+      value: Zimbabwe
+    - languageCode: sna
+      value: Zimbabwe
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland on the central plateau: warm rainy season (Nov-Mar) and a mild, dry winter (May-Aug)."
+landmarks:
+  - name: Victoria Falls
+    description: "One of the world's greatest waterfalls, shared with Zambia on the Zambezi."
+  - name: Great Zimbabwe
+    description: "UNESCO World Heritage ruins of an ancient Shona city, the country's namesake."
+  - name: Hwange National Park
+    description: "Zimbabwe's largest game reserve, famed for its elephant population."
+culturalTraits:
+  - "Warm, resilient people; strong family and community (Unhu/Ubuntu) values"
+  - "Shona-majority with a distinct Ndebele Matabeleland culture"
+  - "Rich Shona sculpture (Zimbabwe Birds) and mbira music traditions"
+prideOf:
+  - "The ancient Great Zimbabwe civilisation and Victoria Falls"
+  - "A high literacy rate and deep educational tradition"
+animals:
+  popular:
+    - "African elephant"
+    - "African lion"
+    - "Cape buffalo"
+  unique: []
+industries:
+  - "Agriculture (tobacco, maize, cotton)"
+  - "Mining (gold, platinum, chrome)"
+  - "Tourism"
+sports:
+  - "Football (soccer)"
+  - "Cricket"
+  - "Rugby union"
+  - "Netball"
+entertainment:
+  - season: allYear
+    items:
+      - "Mbira music and traditional dance"
+      - "Soccer and cricket matches"
+  - season: dry
+    items:
+      - "Wildlife-viewing in Hwange and Mana Pools"
+  - season: wet
+    items:
+      - "Green season; community gatherings and ceremonies"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sadza (thick maize porridge, the staple)"
+      - "Nyama (grilled meat) with sadza"
+      - "Muriwo (boiled greens)"
+      - "Amasi (soured milk, Ndebele)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Business attire in cities; colourful traditional dress at ceremonies"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-16:30/17:00 Mon-Fri."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "January is slow after the festive break; December is the main holiday season."

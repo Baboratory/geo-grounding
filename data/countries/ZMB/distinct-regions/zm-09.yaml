@@ -1,0 +1,66 @@
+code: ZM-09
+name:
+  eng: Lusaka Province
+  local:
+    - languageCode: nya
+      value: Lusaka
+climates:
+  - koppenCode: Cwa
+    description: "Subtropical highland; wet (Nov-Apr) and dry (May-Oct) seasons, with frequent afternoon thunderstorms in the wet season."
+landmarks:
+  - name: Lusaka National Museum
+    description: "Displays Zambia's history and cultural heritage."
+  - name: Freedom Statue
+    description: "Landmark commemorating Zambia's independence."
+  - name: Parliament Buildings
+    description: "Seat of the National Assembly."
+culturalTraits:
+  - "National capital and political-commercial core"
+  - "Nyanja serves as the urban lingua franca alongside English"
+  - "Fast-growing, cosmopolitan city attracting migrants from all provinces"
+prideOf:
+  - "Being Zambia's modern, growing capital and the gateway for regional business"
+animals:
+  popular: []
+  unique: []
+industries:
+  - "Government and public administration"
+  - "Finance and services"
+  - "Trade and logistics (regional hub)"
+  - "Manufacturing"
+sports:
+  - "Football (soccer)"
+  - "Netball"
+  - "Basketball"
+entertainment:
+  - season: allYear
+    items:
+      - "Urban restaurants, cafés and nightlife"
+      - "Kabulonga and Civic Centre shopping areas"
+  - season: dry
+    items:
+      - "Weekend trips to the nearby national parks"
+  - season: wet
+    items:
+      - "Indoor shopping and cultural events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Nshima"
+      - "Grilled meat (nyama)"
+      - "Ifisashi"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Formal business attire in the central business district"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "Fast-paced capital business rhythm; the country's commercial and administrative heart."

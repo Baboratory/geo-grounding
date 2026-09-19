@@ -1,0 +1,64 @@
+code: ZM-08
+name:
+  eng: Copperbelt Province
+  local:
+    - languageCode: bem
+      value: Copperbelt
+climates:
+  - koppenCode: Cwa
+    description: "Subtropical, with a mix of wet (Nov-Apr) and dry (May-Oct) seasons; warm year-round."
+landmarks:
+  - name: Ndola
+    description: "Provincial capital and industrial centre."
+  - name: Kitwe
+    description: "Zambia's second-largest city and mining hub."
+  - name: Copperbelt Museum (Ndola)
+    description: "Showcases the region's mining heritage."
+culturalTraits:
+  - "Bemba-dominant heartland of the copper mining economy"
+  - "Industrial working-class culture built around the mines"
+  - "Cosmopolitan mix of many Zambian ethnicities drawn by mining work"
+prideOf:
+  - "Being Zambia's economic engine — the copper that funds the nation"
+animals:
+  popular:
+    - "Blue duiker"
+  unique: []
+industries:
+  - "Copper and cobalt mining"
+  - "Metal refining and fabrication"
+  - "Construction"
+sports:
+  - "Football (soccer)"
+  - "Netball"
+entertainment:
+  - season: allYear
+    items:
+      - "Mining-town nightlife and football"
+  - season: dry
+    items:
+      - "Weekend excursions to nearby game areas"
+  - season: wet
+    items:
+      - "Green-season community life"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Nshima"
+      - "Bemba-style fish (ifishimu)"
+      - "Ifisashi"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Industrial workwear and casual urban attire"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "Industrial rhythm timed to the mining shifts; mining towns are lively commercial centres."

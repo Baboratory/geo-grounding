@@ -1,0 +1,65 @@
+code: ZM-01
+name:
+  eng: Western Province
+  local:
+    - languageCode: loz
+      value: Bulozi
+climates:
+  - koppenCode: Cwa
+    description: "Subtropical on the Barotse floodplain; pronounced wet season (Nov-Apr) with seasonal flooding of the Zambezi."
+landmarks:
+  - name: Liuwa Plain National Park
+    description: "Remote park famous for its wildebeest migration."
+  - name: Mongu
+    description: "Provincial capital, on the Barotse floodplain."
+  - name: Barotse Cultural Village (Libertanga)
+    description: "Traditional Lozi village that duplicates the historic royal village layout."
+culturalTraits:
+  - "Lozi cultural heartland — the former Barotseland kingdom and its monarchy"
+  - "Kuomboka ceremony: the annual royal move from the flooded plain to higher ground each wet season"
+  - "Distinct Lozi language, customs and sense of regional identity"
+prideOf:
+  - "The Lozi kingdom's rich monarchy and the Kuomboka celebration"
+animals:
+  popular:
+    - "Blue wildebeest"
+    - "African wild dog"
+  unique: []
+industries:
+  - "Agriculture and fishing (floodplain)"
+  - "Cattle herding"
+  - "Forestry"
+sports:
+  - "Football (soccer)"
+  - "Netball"
+entertainment:
+  - season: allYear
+    items:
+      - "Livelihood centred on the Zambezi floodplain"
+  - season: dry
+    items:
+      - "Fishing and cultivation after floods recede"
+  - season: wet
+    items:
+      - "Kuomboka ceremony (usually around Easter) — the Lozi king's move to higher ground"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Nshima"
+      - "Freshwater fish (bream, barbel)"
+      - "Groundnuts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Lozi dress; men often in suits, women in colourful chitenge"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri; rural marketplace rhythms."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "Strongly seasonal around the flood cycle; the Kuomboka is the biggest annual event."

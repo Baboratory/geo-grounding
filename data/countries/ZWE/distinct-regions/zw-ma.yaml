@@ -1,0 +1,66 @@
+code: ZW-MA
+name:
+  eng: Manicaland
+  local:
+    - languageCode: sna
+      value: Manicaland
+climates:
+  - koppenCode: Cfb
+    description: "Cool, wet Eastern Highland climate at altitude; one of Zimbabwe's wettest regions with misty, green mountains."
+landmarks:
+  - name: Eastern Highlands (Nyanga, Vumba, Chimanimani)
+    description: "Mountain ranges shared with Mozambique, with Mount Nyangani, Zimbabwe's highest peak."
+  - name: Mutare
+    description: "Principal city and gateway to Mozambique."
+  - name: Bvumba Botanical Gardens
+    description: "Beautiful highland gardens near the Mozambique border."
+culturalTraits:
+  - "Eastern Highland Shona culture with a distinct Manyika and Ndau flavour"
+  - "Cool, tea- and timber-growing mountain economy"
+  - "Chimanimani's rugged, isolated mountain communities"
+prideOf:
+  - "The breathtaking Eastern Highlands and Mount Nyangani"
+animals:
+  popular:
+    - "Samango monkey"
+  unique:
+    - "Nyanga ridge back frog"
+industries:
+  - "Tea and coffee plantations"
+  - "Timber and forestry"
+  - "Fruit and horticulture"
+  - "Tourism"
+sports:
+  - "Football (soccer)"
+  - "Netball"
+  - "Mountain hiking"
+entertainment:
+  - season: allYear
+    items:
+      - "Mountain hiking and Highlands getaways"
+  - season: dry
+    items:
+      - "Clear views and dry-season hiking"
+  - season: wet
+    items:
+      - "Lush green landscapes; misty mountain weather"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sadza and muriwo"
+      - "Mountain fruit and honey"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Warmer clothing suited to the cool highland climate"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-16:30 Mon-Fri."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "Rural, plantation- and tourism-based rhythm in the Highlands."
