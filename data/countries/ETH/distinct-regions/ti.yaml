@@ -1,0 +1,101 @@
+code: ET-TI
+name:
+  eng: Tigray
+  local:
+    - languageCode: tir
+      value: ትግራይ
+    - languageCode: amh
+      value: ትግራይ
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland / tropical monsoon climate on the northern plateau — mild and relatively cool, with a distinct rainy season around June-September and a drier, cooler rest of the year."
+landmarks:
+  - name: Aksum
+    description: "The ruined capital of the Aksumite Empire (c. 1st-7th century CE), with its giant monolithic stelae and the Church of Our Lady Mary of Zion — which, by tradition, houses the Ark of the Covenant."
+    unescoWorldHeritage: true
+  - name: Rock-hewn churches of Tigray
+    description: "Dozens of churches carved into cliff faces across the Gheralta and Ganta Afeshum massifs, with striking ancient murals."
+  - name: Gheralta (Tembien) plateau
+    description: "Dramatic sandstone buttes and escarpments, a hiking and pilgrimage magnet."
+  - name: Negash
+    description: "Traditionally the site of the first hijra — the refuge granted by the Aksumite king to the earliest Muslims, making it Africa's oldest Muslim settlement."
+culturalTraits:
+  - "The cradle of the Aksumite civilization, one of the great ancient African empires and a center of Christianity since the 4th century CE"
+  - "The Tigrinya language (Ge'ez script) and an overwhelmingly Orthodox Christian society (~96%)"
+  - "Strong local administrative and cultural identity with its own scriptural and manuscript heritage"
+  - "Geologically and culturally distinct, with rock-hewn churches and cliff monasteries"
+prideOf:
+  - "Aksum and the Ark of the Covenant tradition (St. Mary of Zion)"
+  - "Thousands of years of written culture and the ancient Orthodox heritage"
+  - "Resilience and a proud, distinct regional identity"
+animals:
+  popular:
+    - "Gelada baboons on the highland edges"
+    - "Mountain nyala and klipspringer"
+    - "Bearded vulture (lammergeier)"
+  unique:
+    - "Relict highland flora/fauna of the northern Ethiopian escarpments"
+industries:
+  - "Agriculture (teff, wheat, barley) on the northern highlands"
+  - "Tourism to Aksum and the Gheralta rock churches (recovering post-conflict)"
+  - "Mining (gold) and stone quarrying"
+  - "Incense and honey production and trade"
+sports:
+  - "Long-distance running"
+  - "Association football"
+  - "Traditional festivals and horseback processions"
+religions:
+  - name: Ethiopian Orthodox Tewahedo
+    percent: 95.6
+    sourceId: eth-religion-2007
+  - name: Islam (Sunni)
+    percent: 4.0
+    sourceId: eth-religion-2007
+  - name: Roman Catholic and other
+    percent: 0.4
+    sourceId: eth-religion-2007
+entertainment:
+  - season: allYear
+    items:
+      - "Orthodox festival traditions around Aksum's Church of St. Mary of Zion (site of the annual Aksum festival)"
+      - "Tigrinya music, dance, and the 'shiqshaq' cultural gatherings"
+  - season: wet
+    items:
+      - "Indoor religious and community events during the rains"
+  - season: dry
+    items:
+      - "Treks in the Gheralta massif and pilgrimages to Aksum's rock churches"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Injera with doro wat and shiro"
+      - "Tihlo — small rolled barley-flour dumplings served with spicy stew, a Tigray specialty"
+      - "Buna (coffee) ceremony"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "White cotton netela/gabi shawls and embroidered habesha kemis"
+      - "The shamma and ceremonial white dress of the Orthodox highlands"
+seasonCalendar:
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Offices Mon-Fri ~08:00-17:30 with a midday break; Saturday a half/working day; Sunday the main rest day."
+  lunchBreakTiming: "Midday (12:00-14:00)."
+  notableShutdownPeriods:
+    - period: "Orthodox festivals"
+      description: "The Aksum festival (late November), Genna, Timkat, and Meskel bring wide closures in this overwhelmingly Orthodox region."
+  notes: "Following the 2020-2022 armed conflict, reconstruction and recovery shape the current business environment; reconstruction-linked activity is a major near-term driver."
+sources:
+  - id: eth-religion-2007
+    name: "Religion in Ethiopia — Tigray region religious composition (2007 census)"
+    publisher: "Wikipedia, citing the 2007 Population and Housing Census, Central Statistical Agency of Ethiopia"
+    url: "https://en.wikipedia.org/wiki/Religion_in_Ethiopia"
+    year: 2007
+    accessedDate: "2026-09-19"
+    note: "Tigray region's 2007-census religious composition (Orthodox ~95.6%, Muslim ~4.0%, Catholic/other ~0.4%)."

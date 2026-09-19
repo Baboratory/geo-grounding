@@ -1,0 +1,103 @@
+code: ET-AM
+name:
+  eng: Amhara
+  local:
+    - languageCode: amh
+      value: አማራ
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland / tropical monsoon climate across the Amhara plateau — mild temperatures and a strong rainy season (kiremt) roughly June-September, drier and cooler the rest of the year."
+landmarks:
+  - name: Rock-hewn Churches of Lalibela
+    description: "Eleven monolithic churches carved out of solid rock in the 12th-13th centuries — Ethiopia's most famous pilgrimage site and a highlight of the region."
+    unescoWorldHeritage: true
+  - name: Simien Mountains National Park
+    description: "Towering basalt escarpments and highland plateaus home to the endemic gelada baboon and the endangered walia ibex; a premier trekking destination."
+    unescoWorldHeritage: true
+  - name: Fasil Ghebbi (Gondar)
+    description: "The walled 16th-17th-century castle compound of the Gondarine emperors, the 'African Camelot' of the north."
+    unescoWorldHeritage: true
+  - name: Lake Tana and its island monasteries
+    description: "Ethiopia's largest lake, dotted with centuries-old monasteries (e.g. Ura Kidane Mihret) and the source of the Blue Nile (Abay)."
+  - name: Blue Nile Falls (Tis Abay)
+    description: "A dramatic waterfall on the Abay river close to Bahir Dar, the regional capital on Lake Tana."
+culturalTraits:
+  - "The historic heartland of Ethiopian Orthodox civilization and of the medieval Solomonic dynasty"
+  - "Amharic, the constitutional working language of the federal government, originated here"
+  - "Repository of manuscript culture, church mural art, and the Ge'ez script tradition"
+  - "Famous for the coffee ceremony and for hospitality built around injera and doro wat"
+prideOf:
+  - "Lalibela's rock-hewn churches and the enduring Orthodox Christian heritage"
+  - "The castles of Gondar and the highland landscapes of the Simien Mountains"
+  - "Amharic as the historic language of court, church, and the modern federal state"
+animals:
+  popular:
+    - "Gelada baboon (endemic highland primate)"
+    - "Walia ibex (endemic wild goat of the Simien escarpment)"
+    - "Mountain nyala and Menelik's bushbuck"
+    - "Verreaux's eagle and bearded vulture"
+  unique:
+    - "Walia ibex and gelada baboon are found only in this highland region"
+industries:
+  - "Agriculture (teff, wheat, barley, pulses) — grain-bowl of the highlands"
+  - "Tourism anchored by Lalibela, Gondar, the Simien Mountains, and Lake Tana"
+  - "Coffee in the south and west of the region"
+  - "Livestock, honey, and traditional crafts (weaving, pottery)"
+sports:
+  - "Long-distance running (Ethiopian marathon tradition)"
+  - "Association football"
+  - "Traditional festivals involving horseback and folk dance"
+religions:
+  - name: Ethiopian Orthodox Tewahedo
+    percent: 82.5
+    sourceId: eth-religion-2007
+  - name: Islam (Sunni)
+    percent: 17.2
+    sourceId: eth-religion-2007
+entertainment:
+  - season: allYear
+    items:
+      - "Church festivals and pilgrimages (e.g. Lalibela's Genna and Timkat celebrations)"
+      - "Coffee ceremony gatherings and communal injera meals"
+      - "Traditional flute and 'kirar' (lyre) folk music and dance"
+  - season: wet
+    items:
+      - "Indoor religious gatherings during the June-September rains"
+  - season: dry
+    items:
+      - "Treks and pilgrimages in the Simien Mountains and to Lalibela when rain eases"
+      - "Weddings and outdoor festivals in the dry spell"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Injera with doro wat (spicy chicken stew) and shiro"
+      - "Kitfo and tibs, especially on the highland meat-and-grain diet"
+      - "Tej (honey wine) and fresh buna (coffee) ceremony"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "White cotton netela/gabi shawls and embroidered habesha kemis dresses"
+      - "Folk costumes and ceremonial dress at church festivals"
+seasonCalendar:
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Offices and shops typically Mon-Fri ~08:00-17:30 with a midday break; Saturday is widely a half/working day; Sunday is the main rest day."
+  lunchBreakTiming: "Midday (roughly 12:00-14:00), often involving the coffee ceremony."
+  notableShutdownPeriods:
+    - period: "Orthodox festivals"
+      description: "Genna (Ethiopian Christmas, ~7 January), Timkat (Epiphany, ~19 January), Enkutatash (New Year, ~11 September) and Meskel (~27 September) see wide closures in this Orthodox-majority region."
+  notes: "Community life is closely tied to the Ethiopian Orthodox calendar with frequent fasting days and festivals; rural harvest cycles (Aug-Dec grain harvest) shape much of the region's rhythm."
+sources:
+  - id: eth-religion-2007
+    name: "Religion in Ethiopia — Amhara region religious composition (2007 census)"
+    publisher: "Wikipedia, citing the 2007 Population and Housing Census, Central Statistical Agency of Ethiopia"
+    url: "https://en.wikipedia.org/wiki/Religion_in_Ethiopia"
+    year: 2007
+    accessedDate: "2026-09-19"
+    note: "Amhara region's 2007-census religious composition (Orthodox ~82.5%, Muslim ~17.2%)."

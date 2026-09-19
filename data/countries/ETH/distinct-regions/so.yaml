@@ -1,0 +1,93 @@
+code: ET-SO
+name:
+  eng: Somali
+  local:
+    - languageCode: som
+      value: Soomaali
+    - languageCode: amh
+      value: ሱማሌ
+# Note: despite the short English name, this is the Somali Region (Ogaden), the
+# predominantly Somali-speaking, overwhelmingly Muslim eastern regional state of
+# Ethiopia — not the separate country of Somalia. Its official working language
+# is Somali. This arid pastoral region has little marked seasonality, so it uses
+# allYear seasonal content and needs no seasonCalendar.
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (to arid) lowland pasture climate across the Somali regional state — very hot and dry for much of the year, with brief seasonal rains (GU around April-June and Deyr around October-November)."
+landmarks:
+  - name: Jijiga (regional capital)
+    description: "Trade and administrative hub in the east at the foot of the Karamara hills, straddling routes toward Djibouti and the Somali border."
+  - name: Gara Mulleta and the Jijiga hills
+    description: "The highlands that catch occasional rains and sustain perennial springs for herds."
+  - name: Ogaden plains
+    description: "Vast, sparsely populated semi-desert grazelands — the traditional pastoral range of the Somali clans."
+  - name: Wabe Shebelle and Gannale rivers
+    description: "Intermittent rivers that dry up for long stretches yet anchor pastoral and seasonal farming activity."
+culturalTraits:
+  - "Strong Somali pastoral and clan identity, language (Somali, written in Latin script), and culture shared with neighboring Somalia and Djibouti"
+  - "Overwhelmingly Muslim (98%), with a deeply rooted Islamic tradition"
+  - "Camels, cattle, goats, and sheep — a livestock-based economy and way of life"
+  - "Cross-border kinship, trade, and movement with Somalia and Djibouti"
+prideOf:
+  - "The enduring pastoral nomadic heritage and expertise"
+  - "One of Ethiopia's — and the region's — largest livestock bases and the Jijiga livestock-export trade"
+  - "A strong sense of Somali nationalism and Islamic identity"
+animals:
+  popular:
+    - "Dromedary camels (the heart of the pastoral economy)"
+    - "Somali cattle (zebu), goats, and sheep"
+    - "Grévy's zebra and Somali wild ass in the arid lowlands"
+    - "Greater kudu and other antelope"
+  unique:
+    - "Somali wild ass (Equus africanus somaliensis) and Grévy's zebra are iconic arid-zone species here"
+industries:
+  - "Livestock and animal husbandry — the region is Ethiopia's largest livestock producer (camels, cattle, sheep, goats)"
+  - "Cross-border livestock and goods trade with Somalia and Djibouti (incl. export via Berbera and Djibouti ports)"
+  - "Frankincense, gum, and small-scale rain-fed farming in wetter pockets"
+  - "Commerce and services centered on Jijiga and key towns"
+sports:
+  - "Football (association football) and camel racing at festivals"
+  - "Traditional running and the pastoral arts"
+religions:
+  - name: Islam (Sunni)
+    percent: 98.4
+    sourceId: eth-religion-2007
+  - name: Other (incl. small Christian minority and none)
+    percent: 1.6
+    sourceId: eth-religion-2007
+entertainment:
+  - season: allYear
+    items:
+      - "Eid and Islamic religious celebrations"
+      - "Livestock fairs, camel races, and pastoral gatherings"
+      - "Somali poetry, music, and dance"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Canjeero (anjero) — a sour fermented flatbread, often with meat or a honey/ghee accompaniment"
+      - "Suqaar and grilled/roasted goat and beef"
+      - "Camel milk and camel-milk tea"
+      - "Rice with savory meat and Mogadishu-style Somali dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Somali dress: ma'awiis/sarong and khamis for men, and modest long dresses (dirac/guntiino) and headscarves for women"
+      - "Bright patterned textiles worn for Eid and weddings"
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Offices typically Mon-Fri (often starting later in the heat) with a midday break; Friday is widely shortened for Jumu'ah (Friday) prayers."
+  lunchBreakTiming: "Midday, with Friday prayers taking people largely out of work around 12:30-14:00."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "The two major Islamic festivals close offices and markets nationally and are the most important local holidays."
+  notes: "Being overwhelmingly Muslim, Friday prayers and the Islamic calendar shape the working week and holidays; pastoral migration seasons and the two rainy periods (GU, Deyr) drive much of the region's rhythm."
+sources:
+  - id: eth-religion-2007
+    name: "Religion in Ethiopia — Somali region religious composition (2007 census)"
+    publisher: "Wikipedia, citing the 2007 Population and Housing Census, Central Statistical Agency of Ethiopia"
+    url: "https://en.wikipedia.org/wiki/Religion_in_Ethiopia"
+    year: 2007
+    accessedDate: "2026-09-19"
+    note: "Somali region's 2007-census religious composition (Muslim ~98.4%)."

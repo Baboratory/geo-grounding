@@ -1,0 +1,240 @@
+alpha3: ETH
+alpha2: ET
+name:
+  eng: Ethiopia
+  local:
+    - languageCode: amh
+      value: ኢትዮጵያ
+    - languageCode: orm
+      value: Itoophiyaa
+    - languageCode: tir
+      value: ኢትዮጵያ
+    - languageCode: som
+      value: Itoobiya
+    - languageCode: aar
+      value: Itiyoophiyaa
+flagEmoji: "🇪🇹"
+capital: Addis Ababa
+isSovereign: true
+# Classified federal: Ethiopia is a federal parliamentary republic of ethnically
+# based regional states. The 1995 Constitution (Art. 1, 39, 45, 47) establishes a
+# "Federal Democratic Republic" of regional states with the constitutional right
+# to self-determination. The regions are real ISO 3166-2 subdivisions (ET-*),
+# each with substantial autonomy and its own working language, so this uses real
+# curated regions plus the WHOLE fallback.
+governanceType: federal
+iso3166_2_prefix: ET
+hasSubdivisions: true
+languageUsage:
+  # Official working languages of the Federal Government. The 1995 Constitution
+  # (Art. 5) makes Amharic the federal working language; a Council of Ministers
+  # decision (Feb 2020) elevated Oromo, Tigrinya, Somali, and Afar to the same
+  # federal working-language status. Per this dataset's rule, an official-domain
+  # de jure language always gets speakersShare 1.0 (legal status, not usage);
+  # actual first-language usage is captured separately in the locallySpoken rows.
+  - languageCode: amh
+    domain: official
+    speakersShare: 1.0
+    sourceId: eth-constitution
+  - languageCode: orm
+    domain: official
+    speakersShare: 1.0
+    sourceId: fed-lang-2020
+  - languageCode: tir
+    domain: official
+    speakersShare: 1.0
+    sourceId: fed-lang-2020
+  - languageCode: som
+    domain: official
+    speakersShare: 1.0
+    sourceId: fed-lang-2020
+  - languageCode: aar
+    domain: official
+    speakersShare: 1.0
+    sourceId: fed-lang-2020
+  # LocallySpoken = first-language ("mother tongue") share per the 2007 census
+  # of the Central Statistical Agency. Many more languages are spoken (Sidamo and
+  # Wolaytta appear because they are among the largest); the full list runs to well
+  # over 80 living indigenous languages plus the five federal working languages.
+  - languageCode: orm
+    domain: locallySpoken
+    speakersShare: 0.338
+    sourceId: census-2007-lang
+  - languageCode: amh
+    domain: locallySpoken
+    speakersShare: 0.293
+    sourceId: census-2007-lang
+  - languageCode: som
+    domain: locallySpoken
+    speakersShare: 0.062
+    sourceId: census-2007-lang
+  - languageCode: tir
+    domain: locallySpoken
+    speakersShare: 0.059
+    sourceId: census-2007-lang
+  - languageCode: sid
+    domain: locallySpoken
+    speakersShare: 0.040
+    sourceId: census-2007-lang
+  - languageCode: wal
+    domain: locallySpoken
+    speakersShare: 0.022
+    sourceId: census-2007-lang
+  - languageCode: aar
+    domain: locallySpoken
+    speakersShare: 0.017
+    sourceId: census-2007-lang
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.12
+    # English is the main foreign language of Ethiopia — the medium of
+    # instruction in secondary and higher education and of much of the urban
+    # business/government world. The ~0.12 share is a COMPOSITE ESTIMATE: no
+    # official census publishes an English-proficiency figure, so this reflects
+    # the widely noted role of English as the principal learned/second language.
+    sourceId: eng-estimate
+ethnicGroups:
+  # 2007 Population and Housing Census (Central Statistical Agency), the only
+  # full national census to date; the census enumerated 85 ethnic groups, of
+  # which the largest are listed below and the remainder fall under "Other".
+  - group: Oromo
+    percent: 34.5
+    sourceId: census-2007-ethnic
+  - group: Amhara
+    percent: 26.9
+    sourceId: census-2007-ethnic
+  - group: Somali
+    percent: 6.2
+    sourceId: census-2007-ethnic
+  - group: Tigray
+    percent: 6.1
+    sourceId: census-2007-ethnic
+  - group: Sidama
+    percent: 4.0
+    sourceId: census-2007-ethnic
+  - group: Gurage
+    percent: 2.5
+    sourceId: census-2007-ethnic
+  - group: Welayta
+    percent: 2.3
+    sourceId: census-2007-ethnic
+  - group: Hadiya
+    percent: 1.7
+    sourceId: census-2007-ethnic
+  - group: Afar
+    percent: 1.7
+    sourceId: census-2007-ethnic
+  - group: Gamo
+    percent: 1.5
+    sourceId: census-2007-ethnic
+  # Residual: the many smaller groups enumerated in 2007, each under ~1.5%.
+  - group: Other ethnic groups (several dozen smaller nationalities)
+    percent: 12.6
+    sourceId: census-2007-ethnic
+timezones:
+  - name: Africa/Addis_Ababa
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+# Ethiopia runs on a single timezone (Africa/Addis_Ababa, UTC+3) with no
+# daylight saving time.
+currency:
+  code: ETB
+  symbol: "Br"
+  name: Ethiopian birr
+legalConstraints:
+  - topic: "official / working languages"
+    description: "The 1995 Constitution (Art. 5) makes Amharic the working language of the Federal Government and grants all Ethiopian languages equal state recognition. In February 2020 the Council of Ministers additionally designated Oromo, Tigrinya, Somali, and Afar as federal working languages, bringing the total to five. Each regional state sets its own official working language(s)."
+    sourceId: fed-lang-2020
+  - topic: "land tenure"
+    description: "Under the 1995 Constitution (Art. 40), land is the common property of the Nations, Nationalities and Peoples of Ethiopia (and of the state) and shall not be subject to sale or other exchange. Only the right to use land (usufruct/leaseholds, including rural and urban leases) can be held; foreigners and foreign entities face restrictions on land ownership, operating instead through leases."
+    sourceId: eth-constitution
+  - topic: "personal data protection"
+    description: "Collecting and processing personal data is regulated by the Personal Data Protection Proclamation No. 1321/2024, which establishes lawful-basis requirements, data-subject rights (access, correction, erasure, objection), controller/processor obligations, a mandatory data-protection officer regime, and a dedicated supervisory authority (the Ethiopian Communications Authority). Relevant to any data-collection or consulting work on Ethiopian residents."
+    sourceId: eth-data-protection
+# paymentMethodShares intentionally omitted: no official national breakdown of
+# payment-method usage (central-bank series) was found to cite. Ethiopia remains
+# a heavily cash-based economy; see paymentCulture.popularMethods below for the
+# qualitative picture (cash dominance + domestic mobile-money apps).
+paymentCulture:
+  popularMethods:
+    - "Cash — the clear everyday default across most of the country"
+    - "Telebirr (Ethio Telecom's mobile-money wallet, the most widely used)"
+    - "CBE Birr / M-Birr (mobile banking from the Commercial Bank of Ethiopia and other banks)"
+    - "Bank cards (steered mainly to urban areas, ATMs, and larger merchants)"
+    - "Bank transfers and informal hawala/remittance networks for diaspora transfers"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected in most settings; at upscale Addis Ababa restaurants a service charge or a small tip (~5-10%) is appreciated but never required."
+    autoIncludedInBill: false
+    note: "Tipping is uncommon and not customary in Ethiopia outside tourist-facing restaurants and hotels; rounding up or a modest gratuity for good service is welcome."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Relationships and trust generally matter more than written rules. Use titles and honorifics (e.g. 'Ato' for Mister, 'Weizero'/'Weizerit' for Mrs/Miss), respect elders and religious figures, and avoid rushing. Appointments and hard timelines are often flexible; patience is valued."
+  greetingNorms: "A handshake is standard; close friends of the same sex may add a shoulder 'cheek-to-cheek' kiss. Common greetings are 'Tena yistilign' / 'Selam' (Amharic, 'may God give you health'), 'Akkam'/'Asham' (Oromo), and 'Salaam' (Somali/Afar). Asking genuinely about someone's health and family before business is polite."
+  meetingEtiquette: "Arrive on time for formal meetings but expect that start times and agendas can be loose and conversation warmth-driven. Decisions often go through hierarchy and elder/authority figures; reaching consensus (including through tea/coffee ceremony rituals) is part of the social fabric. Bring an open mind to the coffee ceremony — it is a centerpiece of hospitality."
+  topicsToAvoid:
+    - "Sensitive affairs of religion and of the Ethiopian Orthodox Tewahedo Church and Islam (both are deeply significant)"
+    - "Ethnic and federal-vs-regional political tensions, recent conflicts (e.g. Tigray), and sensitive border disputes"
+    - "Dismissive remarks about Ethiopian history, the monarchy, or the Church"
+  giftGivingNotes: "Not expected at a first business meeting. When a relationship develops, modest, respectful gifts are appreciated — quality coffee, a kuta/netela shawl, or something representative of your home country. Never offer or accept gifts that could be seen as a bribe; alcohol is avoided in conservative circles."
+distinct-regions:
+  - code: ET-AM
+    file: distinct-regions/am.yaml
+    adminUnitCodes: [ET-AM]
+  - code: ET-OR
+    file: distinct-regions/or.yaml
+    adminUnitCodes: [ET-OR]
+  - code: ET-SI
+    file: distinct-regions/si.yaml
+    adminUnitCodes: [ET-SI]
+  - code: ET-SO
+    file: distinct-regions/so.yaml
+    adminUnitCodes: [ET-SO]
+  - code: ET-TI
+    file: distinct-regions/ti.yaml
+    adminUnitCodes: [ET-TI]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: eth-constitution
+    name: "1995 Constitution of the Federal Democratic Republic of Ethiopia (Art. 5 languages, Art. 40 land)"
+    publisher: "Federal Democratic Republic of Ethiopia"
+    url: "https://en.wikipedia.org/wiki/1995_Constitution_of_Ethiopia"
+    year: 1995
+    accessedDate: "2026-09-19"
+    note: "Article 5 makes Amharic the working language of the Federal Government and grants all languages equal state recognition; Article 40(3) makes land common property not subject to sale. Basis for the amh official-domain row and the land-tenure legal constraint."
+  - id: fed-lang-2020
+    name: "One to five: Ethiopia gets four new federal working languages"
+    publisher: "Africanews (reporting the Council of Ministers decision of 29 Feb 2020)"
+    url: "https://africanews.com/2020/03/04/one-to-five-ethiopia-gets-four-new-federal-working-languages"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "The 2020 decision elevating Oromo, Tigrinya, Somali, and Afar to federal working languages alongside Amharic — basis for the orm/tir/som/aar official-domain rows and the language legal constraint."
+  - id: census-2007-lang
+    name: "Languages of Ethiopia (2007 census first-language shares)"
+    publisher: "Wikipedia, citing the 2007 Population and Housing Census, Central Statistical Agency of Ethiopia"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Ethiopia"
+    year: 2007
+    accessedDate: "2026-09-19"
+    note: "Mother-tongue spoken shares of the principal local languages (Oromo 33.8%, Amharic 29.3%, Somali 6.2%, Tigrinya 5.9%, Sidamo 4.0%, Wolaytta 2.2%, Afar 1.7%) — the locallySpoken rows."
+  - id: census-2007-ethnic
+    name: "Responses to Information Requests: ethnic composition of Ethiopia"
+    publisher: "Immigration and Refugee Board of Canada, Research Directorate (citing Central Statistical Agency of Ethiopia, 2007 census)"
+    url: "https://irb-cisr.gc.ca/en/country-information/rir/Pages/index.aspx?doc=458455"
+    year: 2007
+    accessedDate: "2026-09-19"
+    note: "Ethnic composition percentages from the 2007 census (Oromo 34.5%, Amhara 26.9%, Somali 6.2%, Tigray 6.1%, Sidama 4.0%, Gurage 2.5%, Welayta 2.3%, Hadiya 1.7%, Afar 1.7%, Gamo 1.5%, remainder smaller groups)."
+  - id: eng-estimate
+    name: "Composite estimate — English as a foreign language in Ethiopia"
+    publisher: "Composite estimate (based on Languages of Ethiopia / educational-policy sources)"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Ethiopia"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "English is the principal learned/foreign language (medium of instruction in higher education, common in urban business and government). No census publishes an English-proficiency figure; the ~0.12 foreign-domain share is a labelled composite estimate, not an official statistic."
+  - id: eth-data-protection
+    name: "Personal Data Protection Proclamation No. 1321/2024"
+    publisher: "Ministry of Innovation and Technology, Federal Democratic Republic of Ethiopia"
+    url: "http://www.mint.gov.et/documents/d/guest/proclamation_no-_1321_-2024personal_data_protection?download=true"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Ethiopia's national data-protection law (published in the Federal Negarit Gazette, 2024) — basis for the personal-data legal constraint relevant to data collection/consulting on Ethiopian residents."
