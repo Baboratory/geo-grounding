@@ -1,0 +1,129 @@
+code: WHOLE
+name:
+  eng: Nigeria
+  local:
+    - languageCode: eng
+      value: Nigeria
+climates:
+  - koppenCode: Aw
+    description: Tropical wet-dry climate across most of the southern half, with a single rainy season and a dry season.
+  - koppenCode: BSh
+    description: Hot semi-arid Sahel climate across the far north-east.
+  - koppenCode: Af
+    description: Equatorial rainforest climate along the southern coast and the Niger Delta.
+landmarks:
+  - name: Sukur Cultural Landscape
+    description: A cultural landscape on top of a hill in Adamawa, with terraced fields and the ruins of a stone-walled settlement, once a centre of iron production.
+    unescoWorldHeritage: true
+  - name: Osun-Osogbo Sacred Grove
+    description: A Yoruba sacred forest and grove along the Osun river, a Yoruba religious centre with shrines, sculptures and art.
+    unescoWorldHeritage: true
+  - name: Zuma Rock
+    description: A towering monolith near Abuja, an iconic landmark of the Middle Belt.
+  - name: Old Kano City Walls and Gates
+    description: Ancient fortified earthen walls and gates of Kano, on Nigeria's tentative list.
+  - name: Arochukwu Long Juju Shrine / Cross River rainforest
+    description: Cultural site on the Cross River rainforest fringe, on Nigeria's tentative list.
+culturalTraits:
+  - Extraordinary ethno-linguistic diversity (over 250 ethnic groups and 500 languages)
+  - Deep and lively religious life (roughly half Muslim, half Christian, with traditional practice woven in)
+  - Nollywood and Afrobeats - a global cultural powerhouse
+  - Strong sense of community, family and respect for elders; big celebrations and rich popular culture
+prideOf:
+  - Nollywood and Afrobeats
+  - The food and hospitality of its many peoples
+  - Great literary tradition (Chinua Achebe, Wole Soyinka, Chimamanda Ngozi Adichie)
+  - Football, athletics and the cultural mosaic of its states
+animals:
+  popular:
+    - African elephant
+    - Lion
+    - Leopard
+    - Olive baboon
+    - West African giraffe
+  unique:
+    - Cross River gorilla (critically endangered, south-east)
+    - Drill monkey (endangered)
+    - Niger Delta red colobus
+    - Manatee (coastal lagoons)
+industries:
+  - Oil and gas (among Africa's largest producers; the Niger Delta and offshore)
+  - Agriculture (cocoa - among world's largest producers - yam, cassava, oil palm, rice)
+  - Nollywood film production and Afrobeats music
+  - Financial services, telecoms and tech (Lagos fintech hub)
+  - Manufacturing and trade
+sports:
+  - Football (most popular)
+  - Athletics (world-class sprinters)
+  - Basketball and boxing
+  - Traditional wrestling and local sports
+religions:
+  - name: Muslim
+    percent: 50.0
+    sourceId: npc-dhs2018
+  - name: Christian
+    percent: 48.0
+    sourceId: npc-dhs2018
+  - name: Traditional / no religion
+    percent: 2.0
+    sourceId: npc-dhs2018
+entertainment:
+  - season: allYear
+    items:
+      - "Afrobeats and juju/fuji music, and Nollywood film culture"
+      - "Nightlife in Lagos and the major cities"
+      - "Christian and Islamic festivals"
+  - season: dry
+    items:
+      - "Argungu fishing festival (Kebbi) and northern cultural festivals"
+      - "Lagos carnival and end-of-year events"
+  - season: wet
+    items:
+      - "Osun-Osogbo festival (usually August, wet season)"
+      - "Southern coastal and Delta festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Jollof rice - the signature celebratory dish"
+      - "Pounded yam with egusi or okro soup"
+      - "Suya (spiced grilled meat)"
+      - "Akara (bean fritters) and moin-moin"
+      - "Pepper soup, afang and fisherman's soup (south)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Agbada and buba (flowing men's robes), richly worn for celebrations"
+      - "Aso-oke handwoven cloth and adire (indigo tie-dye)"
+      - "Women's wrappers, headties and coral-beaded regalia"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours are commonly about 08:00-17:00 Monday-Friday; markets and shops may trade six or seven days."
+  lunchBreakTiming: "Midday lunch break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Adha (north)"
+      description: "Major Islamic holidays bring widespread closures across the Muslim north."
+    - period: "Christmas and New Year"
+      description: "Major closure period, especially in the Christian south."
+    - period: "Independence Day (1 October) and New Year's Day"
+      description: "National public holidays."
+  notes: "Friday midday prayers are observed in the Muslim north; Sunday is the main rest day across the country, with church-going in the south."
+sources:
+  - id: npc-dhs2018
+    name: "Nigeria Demographic and Health Survey 2018"
+    publisher: "National Population Commission (NPC) & ICF"
+    url: "https://dhsprogram.com/publications/publication-fr359-dhs-final-reports.cfm"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "Religion figures used in this file (about half Muslim, 46-48% Christian)."
+  - id: unesco-whs-nga
+    name: "Nigeria - Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/ng"
+    accessedDate: "2026-09-19"
+    note: "Basis for the unescoWorldHeritage flags on the Sukur Cultural Landscape and the Osun-Osogbo Sacred Grove."

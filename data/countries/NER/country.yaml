@@ -1,0 +1,201 @@
+alpha3: NER
+alpha2: "NE"
+name:
+  eng: Niger
+  local:
+    - languageCode: hau
+      value: Nijar
+    - languageCode: fra
+      value: Niger
+    - languageCode: dje
+      value: Nijar
+    - languageCode: tmh
+      value: Nijar
+flagEmoji: "\U0001F1F3\U0001F1EA"
+capital: Niamey
+isSovereign: true
+governanceType: unitary-large
+iso3166_2_prefix: "NE"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: hau
+    domain: official
+    speakersShare: 1.0
+    sourceId: ne-charte-refondation-2025
+  - languageCode: fra
+    domain: foreign
+    speakersShare: 0.13
+    sourceId: oif-2025
+  - languageCode: hau
+    domain: locallySpoken
+    speakersShare: 0.47
+    sourceId: globalvoices-2025
+  - languageCode: dje
+    domain: locallySpoken
+    speakersShare: 0.21
+    sourceId: ethnologue-dje
+  - languageCode: tmh
+    domain: locallySpoken
+    speakersShare: 0.11
+    sourceId: ethnologue-tmh
+  - languageCode: fuh
+    domain: locallySpoken
+    speakersShare: 0.07
+    sourceId: ethnologue-fuh
+  - languageCode: kau
+    domain: locallySpoken
+    speakersShare: 0.06
+    sourceId: ethnologue-kau
+ethnicGroups:
+  - group: Hausa
+    percent: 53.1
+    sourceId: cia-factbook-2023
+  - group: Zarma / Songhai
+    percent: 21.2
+    sourceId: cia-factbook-2023
+  - group: Tuareg
+    percent: 11.0
+    sourceId: cia-factbook-2023
+  - group: Fulani (Peul)
+    percent: 6.5
+    sourceId: cia-factbook-2023
+  - group: Kanuri (Manga/Beriberi)
+    percent: 5.9
+    sourceId: cia-factbook-2023
+  - group: Gourma (Gurmance)
+    percent: 0.8
+    sourceId: cia-factbook-2023
+  - group: Arab (Diffa Arabs)
+    percent: 0.4
+    sourceId: cia-factbook-2023
+  - group: Tubu (Toubou)
+    percent: 0.4
+    sourceId: cia-factbook-2023
+  - group: other ethnic groups
+    percent: 1.7
+    sourceId: cia-factbook-2023
+timezones:
+  - name: Africa/Niamey
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+currency:
+  code: XOF
+  symbol: "CFA"
+  name: West African CFA franc
+legalConstraints:
+  - topic: "Official language under the Charte de la Refondation (2025)"
+    description: "The Charte de la Refondation, promulgated by Decret n 2025-160/P/CNSP of 26 March 2025 after the February 2025 national conference, declares that 'the national language is Hausa' and that 'the working languages are English and French.' This reverses the 2010 Constitution (Article 5), under which French was the official language with Hausa, Zarma-Songhai, Tamasheq, Fulfulde, Kanuri and other languages recognised as national languages. The 2025 charter also designates nine other languages (including Zarma-Songhay, Fula, Kanuri, Gourmanche and Arabic) as 'the spoken languages of Niger'."
+    sourceId: ne-charte-refondation-2025
+  - topic: "Secular state & religious freedom"
+    description: "The Republic of Niger is a secular state; the constitutional order guarantees equality before the law without distinction of sex, social origin, race or religion, and protects all beliefs while providing that no religion may arrogate political power. Islam is practised by the overwhelming majority of Nigeriens (about 99%), almost all Sunni Muslim of the Maliki school, with Sufi brotherhoods (notably Tijaniyya) influential."
+    sourceId: ne-const-2010-art8
+  - topic: "Business law harmonised under OHADA"
+    description: "Niger is a contracting party to the OHADA Treaty (Organisation pour l'harmonisation en Afrique du droit des affaires) within UEMOA/WAEMU. Company, commercial, securities, insolvency, arbitration and enforcement law is therefore harmonised across the OHADA member states and applied by the Common Court of Justice and Arbitration (CCJA) in Abidjan."
+    sourceId: ohada-treaty
+  - topic: "Data protection"
+    description: "Niger has enacted a data-protection law (relative a la protection des personnes physiques a l'egard du traitement des donnees a caractere personnel) and established a data-protection authority, with privacy also grounded in the constitutional order."
+    sourceId: dataprotection-africa
+paymentCulture:
+  popularMethods:
+    - "Cash (West African CFA franc, XOF) - dominant across the informal and rural economy, roughly 70% of transactions"
+    - "Mobile money (Orange Money, now Zamani Cash, and Moov Money) - the ubiquitous mobile-wallet rails for small transfers"
+    - "Bank cards and bank transfers for formal and urban transactions"
+    - "WAEMU regional interbank network GIM-UEMOA"
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    typicalAmount: "A service charge is sometimes added in urban restaurants; otherwise tipping is modest and appreciated but not obligatory. Rounding up taxi fares is customary."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Titles and honorifics matter: use Monsieur/Madame with a surname until invited to first names, and show respect to elders and people of standing; caste and community ties carry weight."
+  greetingNorms: "Handshakes and extended polite exchanges about health, family and well-being open nearly every interaction; asking after someone's family is expected politeness rather than prying."
+  meetingEtiquette: "Relationships and trust precede transactions; initial meetings are for getting to know a counterpart rather than closing a deal. Business often moves through community and family networks, decisions may involve elders, and a patient, flexible pace is normal. Friday midday prayers and Ramadan shape the weekly rhythm."
+  topicsToAvoid:
+    - "The July 2023 coup and the transition - politically sensitive"
+    - "The security situation and the insurgency in the south-east and border areas"
+    - "Over-simplifying ethnic or community relations"
+    - "Religious or secular-critical commentary, tactlessly raised"
+  giftGivingNotes: "Small, thoughtful gifts are appreciated and usually reciprocated; respect for elders and religious sensitivity matter (alcohol and pork as gifts can cause offence). If invited to a home, a modest gift is valued."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: NE-1
+    file: distinct-regions/north-desert.yaml
+    adminUnitCodes: [NE-1]
+  - code: NE-6
+    file: distinct-regions/niger-valley.yaml
+    adminUnitCodes: [NE-3, NE-6, NE-8]
+  - code: NE-7
+    file: distinct-regions/southeast.yaml
+    adminUnitCodes: [NE-2, NE-4, NE-5, NE-7]
+sources:
+  - id: ne-charte-refondation-2025
+    name: "Charte de la Refondation, promulgee par Decret n 2025-160/P/CNSP du 26 mars 2025"
+    publisher: "Presidence du Conseil National pour la Sauvegarde de la Patrie (CNSP), Republique du Niger - Journal Officiel"
+    url: "https://www.lesahel.org/decret-n-2025-160-p-cnsp-du-26-mars-2025-portant-promulgation-de-la-charte-de-la-refondation/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Legal basis for Hausa becoming the national language and English/French the working languages, and for the nine other 'spoken languages of Niger'. Promulgated 26 March 2025 following the February 2025 national conference; published in a special edition of the Journal Officiel on 31 March 2025."
+  - id: ne-const-2010-art8
+    name: "Constitution de la Republique du Niger (2010, avec les amendements) - Articles 5 et 8"
+    publisher: "Republique du Niger - WIPO Lex"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/22768"
+    year: 2011
+    accessedDate: "2026-09-19"
+    note: "The 2010 Constitution recognised French as the official language and several languages (Hausa, Zarma-Songhai, Tamasheq, Fulfulde, Kanuri) as national languages (Art. 5), and defined Niger as a 'State of law' guaranteeing equality and religious freedom (Art. 8). Superseded in part by the 2025 Charte de la Refondation on the official-language question."
+  - id: cia-factbook-2023
+    name: "Niger - The World Factbook (2023 edition)"
+    publisher: "CIA World Factbook, open continuation (worldfactbook.co)"
+    url: "https://worldfactbook.co/country.php?slug=niger"
+    accessedDate: "2026-09-19"
+    note: "Ethnic composition: Hausa ~53.1%, Zarma/Songhai ~21.2%, Tuareg ~11.0%, Fulani ~6.5%, Kanuri (Manga/Beriberi) ~5.9%, Gourma ~0.8%, Arab ~0.4%, Tubu ~0.4%. Population about 27 million."
+  - id: globalvoices-2025
+    name: "Hausa replaces French as the official language of Niger"
+    publisher: "Global Voices"
+    url: "https://globalvoices.org/2025/06/28/hausa-replaces-french-as-the-official-language-of-niger/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Hausa spoken by roughly 47% of Nigeriens; only about 13% speak French. Source for the official-language change and its reception."
+  - id: oif-2025
+    name: "Estimated Francophone shares (working-language French after the 2025 reform)"
+    publisher: "Composite estimate (from Global Voices reporting and OIF contexts)"
+    url: "https://globalvoices.org/2025/06/28/hausa-replaces-french-as-the-official-language-of-niger/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "No official census figure post-2025; French is now a working language spoken by roughly an eighth of the population, almost all as a second language."
+  - id: ethnologue-dje
+    name: "Ethnologue - Zarma (dje) language entry"
+    publisher: "SIL International / Ethnologue"
+    url: "https://www.ethnologue.com/language/dje"
+    accessedDate: "2026-09-19"
+    note: "Estimates Zarma (Djerma/Zarma-Songhai) speakers in the Niger River valley around Niamey, Tillaberi and Dosso."
+  - id: ethnologue-tmh
+    name: "Ethnologue - Tamasheq (tmh) language entry"
+    publisher: "SIL International / Ethnologue"
+    url: "https://www.ethnologue.com/language/tmh"
+    accessedDate: "2026-09-19"
+    note: "Tamasheq (Tuareg) spoken across the northern Sahara and Air regions of Niger."
+  - id: ethnologue-fuh
+    name: "Ethnologue - Western Niger Fulfulde (fuh) language entry"
+    publisher: "SIL International / Ethnologue"
+    url: "https://www.ethnologue.com/language/fuh"
+    accessedDate: "2026-09-19"
+    note: "Western Niger Fulfulde spoken by the Fulani (Peul) communities of the south-west borderlands."
+  - id: ethnologue-kau
+    name: "Ethnologue - Kanuri (kau) language entry"
+    publisher: "SIL International / Ethnologue"
+    url: "https://www.ethnologue.com/language/kau"
+    accessedDate: "2026-09-19"
+    note: "Kanuri (Manga/Beriberi) spoken in the far south-east around the Lake Chad basin and the Diffa region."
+  - id: ohada-treaty
+    name: "Traite relatif a l'harmonisation du droit des affaires en Afrique (OHADA)"
+    publisher: "OHADA (Organisation pour l'harmonisation en Afrique du droit des affaires)"
+    url: "https://www.ohada.com/"
+    accessedDate: "2026-09-19"
+    note: "Legal basis for harmonised company, commercial, securities, insolvency, arbitration and enforcement law across OHADA member states (including Niger), applied by the CCJA."
+  - id: dataprotection-africa
+    name: "Niger - Data Protection Africa fact sheet"
+    publisher: "Data Protection Africa"
+    url: "https://dataprotection.africa/niger"
+    accessedDate: "2026-09-19"
+    note: "Confirms Niger has a data-protection law and an appointed data-protection authority, with privacy also grounded in the constitution."
