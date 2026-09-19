@@ -1,0 +1,68 @@
+code: ZW-BU
+name:
+  eng: Bulawayo & Matabeleland
+  local:
+    - languageCode: nde
+      value: Bulawayo
+climates:
+  - koppenCode: BSh
+    description: "Semi-arid to subtropical; hotter and drier than the highlands, with a short wet season (typically Nov-Mar)."
+landmarks:
+  - name: Bulawayo city centre
+    description: "Zimbabwe's second city, an architectural heritage town planned around wide boulevards."
+  - name: Matobo National Park
+    description: "Dramatic granite hills and cultural site near Bulawayo."
+  - name: Victoria Falls (western end)
+    description: "Access point to the falls in the far west of Matabeleland North."
+culturalTraits:
+  - "Ndebele cultural heartland — the former Ndebele kingdom, distinct from the Shona east"
+  - "Strong Ndebele identity, amandebele traditions and Indaba council heritage"
+  - "Greater 'Big Five' wildlife region spanning Hwange, Matobo and Zambezi Valley"
+prideOf:
+  - "The Ndebele kingdom's history and Bulawayo's proud, independent character"
+  - "Unmatched wildlife (Hwange, Matobo, Zambezi)"
+animals:
+  popular:
+    - "African elephant"
+    - "White rhinoceros"
+    - "African wild dog"
+  unique: []
+industries:
+  - "Mining (platinum, chrome, gold)"
+  - "Tourism (Hwange, Victoria Falls, Matobo)"
+  - "Agriculture and cattle"
+sports:
+  - "Football (soccer)"
+  - "Rugby union"
+  - "Netball"
+entertainment:
+  - season: allYear
+    items:
+      - "Sporting culture and Ndebele community gatherings"
+  - season: dry
+    items:
+      - "Best wildlife-viewing at Hwange and Matobo"
+  - season: wet
+    items:
+      - "Green-season landscapes and ceremonies"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Isitshwala (Ndebele sadza)"
+      - "Amasi (soured milk)"
+      - "Inyama (Ndebele for meat)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Everyday urban attire; colourful Ndebele beadwork at ceremonies"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-16:30 Mon-Fri."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "Bulawayo is the industrial and railway hub of the west; Matabeleland is more rural and pastoral."

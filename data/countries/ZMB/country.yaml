@@ -1,0 +1,192 @@
+alpha3: ZMB
+alpha2: ZM
+name:
+  eng: Zambia
+  local:
+    - languageCode: eng
+      value: Zambia
+flagEmoji: "🇿🇲"
+capital: Lusaka
+isSovereign: true
+# Classified unitary-large: Zambia's ~20M population (ZamStats 2022 census) exceeds
+# the small-state threshold, and it has a genuine, widely-recognized regional
+# ethnolinguistic mosaic: the seven main recognized home languages each anchor a
+# distinct cultural group (Bemba in the North/Luapula/Copperbelt, Nyanja/Chewa in
+# the East and Lusaka, Tonga in the South, Lozi in the West/Barotseland, Kaonde/
+# Luvale/Lunda in the North-West). The state is constitutionally unitary (10
+# provinces, 116 districts, no residual provincial sovereignty) so NOT federal.
+# Curated regions: Copperbelt (ZM-08, Bemba-dominant mining belt), Western
+# (ZM-01, Lozi/Barotseland), Lusaka (ZM-09, capital + Nyanja lingua franca) + WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: ZM
+hasSubdivisions: true
+languageUsage:
+  # English is the official language (Constitution, as amended 2016) — official
+  # domain is a legal-status flag = 1.0.
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2016
+  # Home languages, share as first language from census language data (2010/2022
+  # composite estimates; Zambia's census records province of enumeration and
+  # language shares imperfectly, so these are flagged as estimates).
+  - languageCode: bem
+    domain: locallySpoken
+    speakersShare: 0.33
+    sourceId: zamstats-census
+  - languageCode: nya
+    domain: locallySpoken
+    speakersShare: 0.20
+    sourceId: zamstats-census
+  - languageCode: toi
+    domain: locallySpoken
+    speakersShare: 0.14
+    sourceId: zamstats-census
+  - languageCode: loz
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: zamstats-census
+  - languageCode: tum
+    domain: locallySpoken
+    speakersShare: 0.025
+    sourceId: zamstats-census
+  - languageCode: kqn
+    domain: locallySpoken
+    speakersShare: 0.023
+    sourceId: zamstats-census
+  - languageCode: lun
+    domain: locallySpoken
+    speakersShare: 0.021
+    sourceId: zamstats-census
+  - languageCode: lue
+    domain: locallySpoken
+    speakersShare: 0.015
+    sourceId: zamstats-census
+# Notes on language shares: Bemba is the most widely spoken first language
+# (Northern, Luapula, Muchinga, Copperbelt); Nyanja/Chewa spans Eastern Province
+# and is the urban lingua franca of Lusaka; Tonga (Zambia, toi) dominates the
+# South; Lozi the West (Barotseland); Kaonde/Luvale/Lunda the North-West; Tumbuka
+# parts of the East. Shares are composite estimates from census language data
+# (ZamStats 2010/2022) and do not account for the large number who speak a given
+# language as a second language.
+ethnicGroups:
+  # ZamStats 2022 Census national analytical report, major ethnolinguistic groups.
+  - group: Bemba
+    percent: 25.4
+    sourceId: zamstats-census
+  - group: Tonga
+    percent: 14.9
+    sourceId: zamstats-census
+  - group: Chewa
+    percent: 8.9
+    sourceId: zamstats-census
+  - group: Lozi
+    percent: 6.5
+    sourceId: zamstats-census
+  - group: Tumbuka
+    percent: 4.2
+    sourceId: zamstats-census
+  - group: Nsenga
+    percent: 4.0
+    sourceId: zamstats-census
+  - group: Ngoni
+    percent: 3.2
+    sourceId: zamstats-census
+  - group: Kaonde
+    percent: 3.1
+    sourceId: zamstats-census
+  - group: Lunda
+    percent: 2.8
+    sourceId: zamstats-census
+  - group: Namwanga
+    percent: 2.7
+    sourceId: zamstats-census
+  - group: Lala
+    percent: 2.5
+    sourceId: zamstats-census
+  - group: Luvale
+    percent: 2.3
+    sourceId: zamstats-census
+  - group: Mambwe
+    percent: 2.3
+    sourceId: zamstats-census
+  - group: Lamba
+    percent: 1.9
+    sourceId: zamstats-census
+timezones:
+  - name: Africa/Lusaka
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+currency:
+  code: ZMW
+  symbol: "K"
+  name: Zambian kwacha
+legalConstraints:
+  - topic: "official language"
+    description: "English is the official language of Zambia (Constitution of Zambia 1991, as amended 2016). The seven main Zambian languages (Bemba, Nyanja, Tonga, Lozi, Kaonde, Luvale, Lunda) are used alongside English in government and media in their regions."
+    sourceId: constitution-2016
+  - topic: "ethnicity/religion data collection"
+    description: "Language and ethnicity are recorded in the census, but Zambia's census language tables capture first-language shares imperfectly; religion is widely self-reported. Figures here are composite estimates from census analytical reports."
+    sourceId: zamstats-census
+  - topic: "national currency / legal tender"
+    description: "The Zambian kwacha (ZMW, symbol K) is the currency of Zambia. The Bank of Zambia is the sole monetary authority responsible for issuing currency (Bank of Zambia Act)."
+    sourceId: boz
+paymentCulture:
+  popularMethods:
+    - "Cash — dominant, especially in rural areas"
+    - "Mobile money — MTN Mobile Money and Airtel Money, widely used for transfers and payments"
+    - "Bank transfers / Zambia Interbank Electronic Payments (ZIEP) for formal transactions"
+    - "Cards (Visa/Mastercard) — accepted in major Lusaka and Copperbelt retailers"
+  tipping:
+    expected: false
+    typicalAmount: "Optional; a small tip for good service in restaurants is appreciated"
+    autoIncludedInBill: false
+    note: "Qualitative and customary. Mobile money is the defining feature of Zambia's payment landscape — even in semi-urban areas MTN Mobile Money and Airtel Money serve as de facto bank accounts."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Polite and respectful; courtesy titles and handshake etiquette matter. English is the language of business."
+  greetingNorms: "A warm handshake is standard. In Bemba-speaking areas 'Muli shani' (how are you) opens an exchange; inquiring after a person's wellbeing is normal."
+  meetingEtiquette: "Meetings begin with warm greetings and protocol before the agenda. Relationship-building precedes business discussion; decisions are often consultative."
+  topicsToAvoid:
+    - "Remarks seen as disrespectful to traditional authorities"
+    - "The Barotseland autonomy question — sensitive in the West"
+  giftGivingNotes: "Not expected in business. When visiting a home, a modest gift is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: ZM-08
+    file: distinct-regions/zm-08.yaml
+    adminUnitCodes: [ZM-08]
+  - code: ZM-01
+    file: distinct-regions/zm-01.yaml
+    adminUnitCodes: [ZM-01]
+  - code: ZM-09
+    file: distinct-regions/zm-09.yaml
+    adminUnitCodes: [ZM-09]
+sources:
+  - id: zamstats-census
+    name: "ZamStats 2022 Census of Population and Housing — National Analytical Report and final results"
+    publisher: "Zambia Statistics Agency (ZamStats)"
+    url: "https://www.zamstats.gov.zm/"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Population 19,693,423 (final 2022 census results). Ethnolinguistic composition and home-language shares are composite estimates derived from the census national analytical report (Bemba ~33% first language, Nyanja/Chewa ~20%, Tonga ~14%, Lozi ~5%, others lower)."
+  - id: constitution-2016
+    name: "Constitution of Zambia (1991, as amended 2016)"
+    publisher: "Zambia National Constitutional Conference / Constitute Project"
+    url: "https://www.constituteproject.org/constitution/Zambia_2016"
+    year: 2016
+    accessedDate: "2026-09-19"
+    note: "Declares Zambia a unitary, multi-party democratic sovereign State and a Christian nation; English is the official language. Basis for the official-language row and the official-language legal constraint."
+  - id: boz
+    name: "Bank of Zambia — about the Bank and the kwacha"
+    publisher: "Bank of Zambia"
+    url: "https://www.boz.zm/"
+    accessedDate: "2026-09-19"
+    note: "The Bank of Zambia is the central bank and sole issuer of the kwacha. Basis for the currency object and the currency legal constraint."
+  - id: iana-timezone
+    name: "IANA Time Zone Database — Africa/Lusaka"
+    publisher: "Internet Assigned Numbers Authority (IANA)"
+    url: "https://www.iana.org/time-zones"
+    accessedDate: "2026-09-19"
+    note: "Zambia observes Central Africa Time (UTC+2) year-round, no DST."

@@ -1,0 +1,73 @@
+code: WHOLE
+name:
+  eng: Zambia (country-wide)
+  local:
+    - languageCode: eng
+      value: Zambia
+climates:
+  - koppenCode: Cwa
+    description: "Subtropical highland climate on the central plateau: a distinct wet season (Nov-Apr) and a long dry season (May-Oct); mild temperatures."
+landmarks:
+  - name: Victoria Falls (Mosi-oa-Tunya)
+    description: "One of the world's largest waterfalls, on the border with Zimbabwe near Livingstone."
+  - name: South Luangwa National Park
+    description: "One of Africa's premier wildlife reserves, known for leopards and walking safaris."
+  - name: Kafue National Park
+    description: "Zambia's oldest and largest national park."
+culturalTraits:
+  - "Deeply harmonious multi-ethnic society of ~70 ethnolinguistic groups; the seven main languages each anchor a region"
+  - "Warm, hospitable people; 'Zambia a Bantu paradise' is a common self-description"
+  - "75 years of uninterrupted peace since independence in 1964"
+prideOf:
+  - "Mosi-oa-Tunya (Victoria Falls) and abundant wildlife"
+  - "Its tradition of peaceful, stable democracy in a region often marked by upheaval"
+animals:
+  popular:
+    - "African elephant"
+    - "African lion"
+    - "Hippopotamus"
+  unique: []
+industries:
+  - "Copper and cobalt mining (Copperbelt)"
+  - "Agriculture (maize, cotton, tobacco)"
+  - "Hydropower"
+  - "Tourism"
+sports:
+  - "Football (soccer)"
+  - "Netball"
+  - "Boxing"
+entertainment:
+  - season: allYear
+    items:
+      - "Football (Super League) matches"
+      - "Weddings and community gatherings"
+  - season: dry
+    items:
+      - "Wildlife-viewing season in the national parks"
+      - "Kuomboka ceremony (Western Province, Lozi people)"
+  - season: wet
+    items:
+      - "Green season safaris"
+      - "Community harvest festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Nshima (thick maize porridge, the staple)"
+      - "Ifisashi (vegetables in groundnut sauce)"
+      - "Village chicken"
+      - "Kapenta (small dried fish)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Business attire in cities; colourful Zambian print (chitenge) worn by women"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "Country-wide rhythm; rural areas operate more slowly and seasonally (harvest)."
