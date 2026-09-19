@@ -1,0 +1,180 @@
+alpha3: PER
+alpha2: PE
+name:
+  eng: Peru
+  local:
+    - languageCode: spa
+      value: República del Perú
+flagEmoji: "🇵🇪"
+capital: Lima
+isSovereign: true
+# Classified unitary-large: Peru is a UNITARY presidential republic
+# (Constitución Política del Perú 1993, Art. 43: 'El Estado es uno e
+# indivisible. Su gobierno es unitario, representativo y descentralizado'),
+# not federal. Decentralization since Ley 27867 (2002, Ley Orgánica de
+# Gobiernos Regionales) established 25 elected Regional Governments over the
+# former departments. Meets 2-of-3 DESIGN.md criteria: (1) population 31.2M
+# (2017 census) / 34.2M (2025 estimate) well above the small-state threshold;
+# (2) officially recognized regional/minority languages — Art. 48 makes
+# Quechua, Aymara and other aboriginal languages official where they
+# predominate; (3) widely recognized cultural-historical regional identities
+# (Pacific coast incl. capital Lima, Andean highlands — the Quechua/Aymara
+# heartland — and the Amazon basin), each with its own climate, cuisine and
+# indigenous languages. Five curated regions sit alongside the generic WHOLE
+# fallback.
+governanceType: unitary-large
+iso3166_2_prefix: "PE"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: per-constitution
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.826
+    sourceId: per-inei-lang
+  - languageCode: que
+    domain: locallySpoken
+    speakersShare: 0.139
+    sourceId: per-inei-lang
+  - languageCode: aym
+    domain: locallySpoken
+    speakersShare: 0.017
+    sourceId: per-inei-lang
+  - languageCode: cni
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: per-inei-lang
+  - languageCode: agr
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: per-inei-lang
+  - languageCode: shp
+    domain: locallySpoken
+    speakersShare: 0.0008
+    sourceId: per-inei-lang
+# Spanish is the mother tongue learned in childhood by 82.6% of Peruvians aged
+# 5+ (Censo 2017). Quechua (13.9%, ~3.74M) and Aymara (1.7%) are co-official
+# with Castilian in the highland zones where they predominate (Const. Art. 48).
+# The Amazonian languages Asháninka (cni), Awajún/Aguaruna (agr) and
+# Shipibo-Konibo (shp) are the largest of the more than 40 living indigenous
+# languages of the Amazon basin; their shares are estimates derived from
+# census self-identification, flagged as such.
+ethnicGroups:
+  - group: Mestizo
+    percent: 50.8
+    sourceId: per-inei-ethnic
+  - group: Quechua
+    percent: 21.5
+    sourceId: per-inei-ethnic
+  - group: Afroperuano (Negro/Moreno/Zambo/Mulato/Afroperuano)
+    percent: 6.2
+    sourceId: per-inei-ethnic
+  - group: White (Blanco)
+    percent: 5.3
+    sourceId: per-inei-ethnic
+  - group: Aymara (Aimara)
+    percent: 2.5
+    sourceId: per-inei-ethnic
+  - group: Native/Indigenous of the Amazon (Nativo/Indígena de la Amazonía)
+    percent: 1.4
+    sourceId: per-inei-ethnic
+  - group: Other / No response
+    percent: 12.3
+    sourceId: per-inei-ethnic
+# Self-identification of the population aged 12+, INEI Censo Nacional 2017
+# (XII de Población, VII de Vivienda). The 'Other/No response' figure (12.3%)
+# is an estimate computed as the residual remainder (Otro 4.6% + other
+# indigenous people 0.2% + No sabe/No responde 7.4%). The INEI cited figures
+# differ slightly across table versions (e.g. Quechua appears as both 21.5%
+# and 22.3%); the citable table rates are used here.
+timezones:
+  - name: America/Lima
+    standardUtcOffset: "UTC-5"
+    observesDst: false
+currency:
+  code: PEN
+  symbol: "S/"
+  name: Peruvian sol
+legalConstraints:
+  - topic: "official languages & co-official indigenous languages"
+    description: "Constitución Política del Perú 1993, Art. 48: 'Son idiomas oficiales el castellano y, en las zonas donde predominen, también lo son el quechua, el aimara y las demás lenguas aborígenes, según la ley.' Spanish is official nationwide; Quechua, Aymara and other aboriginal languages are co-official in the zones where they predominate, so multilingual and region-sensitive products are valued in the highlands and Amazon."
+    sourceId: per-constitution
+  - topic: "unitary-decentralized state"
+    description: "Constitución Política del Perú 1993, Art. 43: 'El Estado es uno e indivisible. Su gobierno es unitario, representativo y descentralizado.' A unitary, decentralized republic, not federal."
+    sourceId: per-constitution
+  - topic: "regional governments over the former departments"
+    description: "Ley Nº 27867 (Ley Orgánica de Gobiernos Regionales, 2002) institutes elected Regional Governments with political, economic and administrative autonomy over the country's regions (the former 24 departments plus the Constitutional Province of Callao), formally divided into 25 regional jurisdictions."
+    sourceId: per-gobiernos
+paymentCulture:
+  popularMethods:
+    - "Cash (Peruvian sol, PEN) — still widely used in markets, small retail and rural areas"
+    - "Debit and credit cards — common in urban retail and larger establishments"
+    - "Yape (mobile QR / phone-number person-to-person instant transfer) — very dominant for small payments"
+    - "Plin (competing interoperable instant-transfer app)"
+    - "Direct bank transfers (interbank transfers via the BCRP's CCE/LIBRA rails)"
+  tipping:
+    expected: true
+    typicalAmount: "About 10% ('propina' or 'servicio'); the 10% service charge is commonly auto-included in restaurant bills, with an optional additional tip for exceptional service"
+    autoIncludedInBill: true
+    note: "Most restaurants include a 10% service charge in the bill; it is customary to leave the change as an additional tip only for truly exceptional service. Cash and Yape/Plin QR transfers dominate small payments; the BCRP has been broadening digital-payment rails ('payment system' modernization)."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Spanish 'usted' is the polite, formal default for strangers, elders and people in authority (with titles señor/señora, doctor/dra, ingeniero/ingeniera); younger generations and friends use 'tú'. Direct but polite and warm; warm rapport and personal connection (confianza) are valued before business."
+  greetingNorms: "Verbally greet with 'hola', 'buenos días' or 'buenas tardes' plus a handshake; close friends and women often exchange a single light cheek air-kiss. Peruvians expect a proper greeting exchange before moving on."
+  meetingEtiquette: "Business meetings are generally punctual; arrive on time for work meetings though 'hora peruana' (relaxed lateness) is tolerated in social settings. Greet each person present individually with eye contact; small talk (about city, food, family, weather) precedes getting down to business."
+  topicsToAvoid:
+    - "The internal armed conflict / Shining Path (Sendero Luminoso) years and related violence"
+    - "Political corruption and recent polarized governments"
+    - "Jokes or stereotypes contrasting costeño (coastal) vs serrano (highland) Peruvians"
+    - "Crime and insecurity statistics framed negatively"
+    - "Undermining Inca / pre-Hispanic heritage or Indigenous pride"
+  giftGivingNotes: "Gifts are rarely expected in standard business contexts; when invited to someone's home, quality flowers, chocolates, wine or Peruvian pisco are appreciated. Panetón is the customary holiday gift at Christmas. Offer and receive with the right hand."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: PE-LIM
+    file: distinct-regions/pe-lim.yaml
+    adminUnitCodes: [PE-LIM, PE-CAL]
+  - code: PE-NCO
+    file: distinct-regions/pe-nco.yaml
+    adminUnitCodes: [PE-TUM, PE-PIU, PE-LAM, PE-LAL, PE-CAJ, PE-ANC]
+  - code: PE-SAN
+    file: distinct-regions/pe-san.yaml
+    adminUnitCodes: [PE-CUS, PE-PUN, PE-APU, PE-AYA, PE-HUV, PE-ARE]
+  - code: PE-AMA
+    file: distinct-regions/pe-ama.yaml
+    adminUnitCodes: [PE-LOR, PE-UCA, PE-AMA, PE-SAM, PE-MDD]
+  - code: PE-SCO
+    file: distinct-regions/pe-sco.yaml
+    adminUnitCodes: [PE-ICA, PE-MOQ, PE-TAC]
+sources:
+  - id: per-constitution
+    name: "Constitución Política del Perú 1993 (Arts. 43, 48)"
+    publisher: "Congreso de la República del Perú"
+    url: "https://www.congreso.gob.pe/wp-content/uploads/2025/04/constitucion-12-2024-1.pdf"
+    year: 1993
+    accessedDate: "2026-09-19"
+    note: "Basis for the unitary-decentralized classification (Art. 43) and for Spanish plus co-official Quechua/Aymara/other aboriginal languages where they predominate (Art. 48)."
+  - id: per-inei-lang
+    name: "INEI — Perfil Sociodemográfico del Perú, Censos Nacionales 2017 (lengua materna aprendida en la niñez)"
+    publisher: "Instituto Nacional de Estadística e Informática (INEI)"
+    url: "https://www.censos2017.pe/inei-difunde-base-de-datos-de-los-censos-nacionales-2017-y-el-perfil-sociodemografico-del-peru"
+    year: 2017
+    accessedDate: "2026-09-19"
+    note: "Mother tongue learned in childhood, Censo 2017 (population aged 5+): Spanish 82.6% (22,209,686), Quechua 13.9% (3,735,682), Aymara 1.7% (444,389). Basis for the spa locallySpoken and the que/aym rows. Amazonian language shares are ESTIMATES from census self-identification of those pueblos."
+  - id: per-inei-ethnic
+    name: "INEI — La Autoidentificación Étnica: Población Indígena y Afroperuana (Censo Nacional 2017)"
+    publisher: "Instituto Nacional de Estadística e Informática (INEI)"
+    url: "https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1642/libro.pdf"
+    year: 2017
+    accessedDate: "2026-09-19"
+    note: "Ethnic self-identification of the population aged 12+ (Censo 2017). The 'Other/No response' figure is an ESTIMATE computed as the residual remainder; the remaining rows use the citable table percentages."
+  - id: per-gobiernos
+    name: "Ley Nº 27867 — Ley Orgánica de Gobiernos Regionales (2002)"
+    publisher: "Gobierno del Perú"
+    url: "https://www.gob.pe/institucion/gsru-amazonas/informes-publicaciones/2075969-ley-n-27867-ley-organica-de-gobiernos-regionales"
+    year: 2002
+    accessedDate: "2026-09-19"
+    note: "Establishes the 25 elected Regional Governments over the former departments, the basis for Peru's decentralized-but-unitary regional structure."

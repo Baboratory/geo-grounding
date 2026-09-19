@@ -1,0 +1,66 @@
+code: VE-V
+name:
+  eng: Zulia / Maracaibo
+  local:
+    - languageCode: spa
+      value: Zulia / Maracaibo
+climates:
+  - koppenCode: Aw
+    description: Hot tropical climate dominated by Lake Maracaibo, with a marked dry season and frequent spectacular lightning storms over the lake (Catatumbo).
+landmarks:
+  - name: Lake Maracaibo and the Catatumbo lightning (Relámpago del Catatumbo)
+  - name: Palacio de las Águilas, Maracaibo
+  - name: Puente General Rafael Urdaneta (bridge over the lake)
+  - name: Guajira peninsula
+culturalTraits:
+  - Zuliano identity and maracucho accent
+  - Wayuu culture on the Guajira peninsula
+  - Gaita (Zulia Christmas music) as a defining regional expression
+prideOf:
+  - Oil heritage and Lake Maracaibo
+  - Catatumbo lightning phenomenon
+  - Gaita music and Maracaibo gastronomy
+animals:
+  popular:
+    - Flamingos (Guajira)
+    - Howler monkeys
+  unique:
+    - Catatumbo lightning / Lake Maracaibo ecosystem species
+industries:
+  - Oil and gas (the Maracaibo basin is Venezuela's historic oil heartland)
+  - Petrochemicals (Paraguaná refining complex nearby)
+  - Agriculture and fishing
+sports:
+  - Baseball (Águilas del Zulia)
+  - Football
+entertainment:
+  - season: dry
+    items:
+      - Gaita Christmas celebrations (regional carol music)
+      - Guajira beach tourism
+traditionalDishes:
+  - season: allYear
+    items:
+      - Mandoca (fried corn dumplings)
+      - Pabellón criollo
+      - Caldo de res (beef soup)
+  - season: dry
+    items:
+      - Gaita-season festive foods and lamb stew
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light tropical clothing; Wayuu manta (woven cloth) traditional at Guajira
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business hours typically run 8:00am-5:00pm."
+  lunchBreakTiming: "A lunch break around 12:30-2:00pm is standard."
+  notableShutdownPeriods:
+    - period: late December to early January
+      description: "Gaita season and year-end holiday slowdown."

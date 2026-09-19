@@ -1,0 +1,77 @@
+code: PE-SAN
+name:
+  eng: Southern Andes
+  local:
+    - languageCode: spa
+      value: Sierra sur
+    - languageCode: que
+      value: Urin Andes
+climates:
+  - koppenCode: ET
+    description: Cold high-altitude Andean climate (puna), with a marked dry season (May-Sep) and rainy season (Oct-Apr).
+landmarks:
+  - name: Machu Picchu
+    unescoWorldHeritage: true
+  - name: Sacred Valley of the Incas
+  - name: Lake Titicaca / Taquile and Amantaní
+  - name: Choquequirao
+culturalTraits:
+  - Quechua and Aymara cultural heartland of the former Inca empire
+  - Alpaca and Andean textile traditions
+  - High-altitude agricultural terracing
+prideOf:
+  - Machu Picchu and Inca heritage
+  - Quechua/Aymara language and identity
+  - Andean textiles and alpaca culture
+animals:
+  popular:
+    - Llama
+    - Alpaca
+    - Andean condor
+  unique:
+    - Vicuña
+    - Titicaca water frog
+industries:
+  - Tourism (Cusco/Machu Picchu)
+  - Alpaca and vicuña wool
+  - Highland agriculture
+sports:
+  - Trekking (Inca Trail)
+  - Football
+  - Cycling (high-altitude routes)
+entertainment:
+  - season: dry
+    items:
+      - Inti Raymi, Festival of the Sun in Cusco (24 June)
+      - Andean highland markets (Puno, Chinchero)
+      - Machu Picchu / Inca Trail trekking peak season
+traditionalDishes:
+  - season: allYear
+    items:
+      - Pachamanca (earth-cooked feast)
+      - Cuy chactado (Andean guinea pig)
+      - Chicha and quinoa dishes
+  - season: dry
+    items:
+      - Alpaca and highland Andean dishes at festivals
+traditionalClothing:
+  - season: allYear
+    items:
+      - Chullo (knit cap)
+      - Poncho and pollera (Cusco/Puno)
+  - season: dry
+    items:
+      - Alpaca wool garments for cold, clear Andean nights
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business hours typically run 9:00am-6:00pm; tourism operators run early starts for treks."
+  lunchBreakTiming: "A lunch break around 1:00-2:00pm is standard."
+  notableShutdownPeriods:
+    - period: late December to early January
+      description: "Year-end holiday slowdown."

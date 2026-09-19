@@ -1,0 +1,69 @@
+code: PE-NCO
+name:
+  eng: Northern coast & highlands
+  local:
+    - languageCode: spa
+      value: Costa norte y sierra norte
+climates:
+  - koppenCode: BWh
+    description: Arid-dry northern Pacific coast grading to warmer conditions.
+  - koppenCode: Cwb
+    description: Temperate highland climate in the Andean transition (Cajamarca, Ancash).
+landmarks:
+  - name: Chan Chan (Chimú capital)
+    unescoWorldHeritage: true
+  - name: Huaca del Sol and Huaca de la Luna (Moche)
+  - name: Huaraz and the Cordillera Blanca (Ancash)
+  - name: Mangroves of Tumbes
+culturalTraits:
+  - Moche and Chimú archaeological heritage
+  - Distinct coast cuisine (ceviche, seco de cabrito)
+  - Northern coast 'norteño' identity
+prideOf:
+  - Moche/Chimú archaeological legacy
+  - Andean highlands (Cordillera Blanca, Huascarán)
+  - Coastal gastronomy
+animals:
+  popular:
+    - Peruvian paso horse (Piura)
+  unique:
+    - Andean condor (Cordillera Blanca)
+industries:
+  - Sugarcane and rice agriculture
+  - Fishing and seafood
+  - Mining (Ancash)
+sports:
+  - Football
+  - Surfing (Máncora)
+  - Trekking and mountaineering (Cordillera Blanca)
+entertainment:
+  - season: allYear
+    items:
+      - Beach tourism at Máncora and Piura
+      - Andean trekking and mountaineering
+traditionalDishes:
+  - season: allYear
+    items:
+      - Ceviche de conchas negras (Tumbes)
+      - Seco de cabrito (goat stew)
+      - Causa norteña
+  - season: dry
+    items:
+      - Highland Andean dishes (Cajamarca, Ancash)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light coastal clothing; highland woollens in the sierra
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business hours typically run 9:00am-6:00pm, Monday-Friday."
+  lunchBreakTiming: "A lunch break around 1:00-2:00pm is standard."
+  notableShutdownPeriods:
+    - period: late December to early January
+      description: "Year-end holiday slowdown between Christmas and New Year's."

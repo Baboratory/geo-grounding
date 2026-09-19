@@ -1,0 +1,67 @@
+code: PE-SCO
+name:
+  eng: Southern coast
+  local:
+    - languageCode: spa
+      value: Costa sur
+climates:
+  - koppenCode: BWh
+    description: Arid desert coast with mild temperatures and very low rainfall year-round.
+landmarks:
+  - name: Nazca Lines
+    unescoWorldHeritage: true
+  - name: Paracas National Reserve
+  - name: Huacachina oasis (Ica)
+  - name: Ballestas Islands
+culturalTraits:
+  - Paracas/Nazca desert heritage
+  - Pisco wine production (Ica)
+  - Southern coastal identity
+prideOf:
+  - Nazca Lines and Paracas heritage
+  - Pisco and wine (Ica)
+  - Desert-oasis landscape (Huacachina)
+animals:
+  popular:
+    - Peruvian sea lion
+    - Humboldt penguin
+  unique:
+    - Peruvian diving petrel (off Paracas)
+industries:
+  - Pisco and wine production (Ica)
+  - Fishing
+  - Tourism (Nazca, Paracas, Tacna)
+sports:
+  - Sandboarding (Huacachina)
+  - Dune buggying
+  - Football
+entertainment:
+  - season: allYear
+    items:
+      - Nazca Lines overflights
+      - Paracas and Ballestas Islands tours
+traditionalDishes:
+  - season: allYear
+    items:
+      - Ceviche and fresh Peruvian seafood
+      - Pisco sour
+  - season: wet
+    items:
+      - Summer (Dec-Mar) coastal celebrations and beach tourism
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light clothing and sun protection for the desert climate
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business hours typically run 9:00am-6:00pm; tourism operators start early for desert trips."
+  lunchBreakTiming: "A lunch break around 1:00-2:00pm is standard."
+  notableShutdownPeriods:
+    - period: late December to early January
+      description: "Year-end holiday slowdown."

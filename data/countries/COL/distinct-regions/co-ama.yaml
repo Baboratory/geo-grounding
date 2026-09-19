@@ -1,0 +1,65 @@
+code: CO-AMA
+name:
+  eng: Amazonía
+  local:
+    - languageCode: spa
+      value: Amazonía
+climates:
+  - koppenCode: Af
+    description: Equatorial rainforest with continuous year-round rainfall and high humidity.
+landmarks:
+  - name: Leticia and the Amazon River confluence
+  - name: Amacayacu National Park
+  - name: Serranía de Chiribiquete
+    unescoWorldHeritage: true
+culturalTraits:
+  - Highest density of indigenous languages and peoples in Colombia (Bora, Witoto, Ticuna, Kubeo and others)
+  - Accessible mainly by river
+  - Dense, sparsely populated rainforest
+prideOf:
+  - Rich indigenous heritage and languages
+  - Pristine Amazon rainforest and biodiversity
+animals:
+  popular:
+    - Amazon river dolphin
+    - Jaguar
+    - Macaws
+  unique:
+    - Pink river dolphin
+    - Amazon tree boa
+industries:
+  - Sustainable forest products
+  - River-based trade (Leticia)
+  - Ecotourism
+sports:
+  - Football
+  - Fishing
+entertainment:
+  - season: allYear
+    items:
+      - Community festivals in Leticia
+      - Amazon river tours
+traditionalDishes:
+  - season: allYear
+    items:
+      - Mojojoy (grubs) and indigenous cuisine
+      - Timbuche (fish soup)
+      - Casabe (cassava bread)
+      - Pirarucú fish
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light clothing suited to the hot, humid rainforest climate
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Trade and services typically run 8:00am-5:00pm with a midday break."
+  lunchBreakTiming: "A lunch break around 12:00-2:00pm is standard."
+  notableShutdownPeriods:
+    - period: late December to early January
+      description: "Year-end holiday slowdown."
