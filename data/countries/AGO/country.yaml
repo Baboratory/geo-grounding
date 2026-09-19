@@ -1,0 +1,191 @@
+alpha3: AGO
+alpha2: AO
+name:
+  eng: Angola
+  local:
+    - languageCode: por
+      value: República de Angola
+flagEmoji: "🇦🇴"
+capital: Luanda
+isSovereign: true
+# Classified unitary-large: Angola meets ALL 3 DESIGN.md criteria. (1) Population
+# 25,789,024 (2014 INE RGPH census), projected >35M — above the 20-25M
+# threshold. (2) Portuguese is the sole de jure official language (Const. Art.
+# 19), but the State is constitutionally mandated to value and promote the other
+# Angolan (Bantu) national languages; six are legally recognized national
+# languages (Kikongo, Umbundu, Kimbundu, Chokwe, Nganguela/Nyemba, Kwanyama).
+# (3) A widely recognized cultural-historical regional identity: the Kimbundu
+# north-coast, Ovimbundu central highlands, and Ovambo/Chokwe south-east are
+# distinct language-defined cultural blocks. Curated regions: Luanda & the North
+# (AO-NORTH), Central Highlands (AO-CENTRAL), South & East (AO-SOUTH) + WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: "AO"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: por
+    domain: official
+    speakersShare: 1.0
+    sourceId: const-angola-2010
+  - languageCode: por
+    domain: locallySpoken
+    speakersShare: 0.71
+    sourceId: ine-censo-2014
+  - languageCode: umb
+    domain: locallySpoken
+    speakersShare: 0.23
+    sourceId: ine-censo-2014
+  - languageCode: kon
+    domain: locallySpoken
+    speakersShare: 0.09
+    sourceId: ine-censo-2014
+  - languageCode: kmb
+    domain: locallySpoken
+    speakersShare: 0.08
+    sourceId: ine-censo-2014
+  - languageCode: cjk
+    domain: locallySpoken
+    speakersShare: 0.018
+    sourceId: ine-censo-2014
+  - languageCode: kua
+    domain: locallySpoken
+    speakersShare: 0.018
+    sourceId: ine-censo-2014
+  - languageCode: nba
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: ine-censo-2014
+# Portuguese is the sole de jure official language (Const. Art. 19) at 1.0.
+# locallySpoken por 0.71 = share speaking Portuguese (2014 RGPH). The Bantu
+# locallySpoken shares are ESTIMATES derived from the 2014 RGPH mother-tongue /
+# ethnic-language surface plus Ethnologue — INE publishes no clean per-language
+# official table. umb (Umbundu) is the largest Bantu language, then kon
+# (Kikongo), kmb (Kimbundu, north coast/Luanda), cjk (Chokwe, east), kua
+# (Kwanyama, south-east), nba (Nyemba, south-east). All six codes verified
+# active on iso639-3.sil.org.
+ethnicGroups:
+  # INE publishes no official ethnicity-percentage table; US State Dept figures.
+  - group: Ovimbundu
+    percent: 37.0
+    sourceId: us-state-dept-angola
+  - group: Kimbundu (Ambundu)
+    percent: 25.0
+    sourceId: us-state-dept-angola
+  - group: Bakongo
+    percent: 13.0
+    sourceId: us-state-dept-angola
+  - group: Other African peoples (Chokwe, Ovambo, Nyemba, Lunda, Herero, etc.)
+    percent: 21.0
+    sourceId: us-state-dept-angola
+  - group: Mestico (mixed European-African)
+    percent: 2.0
+    sourceId: us-state-dept-angola
+  - group: European
+    percent: 1.0
+    sourceId: us-state-dept-angola
+  - group: Chinese
+    percent: 1.0
+    sourceId: us-state-dept-angola
+# Approximate; figures sum to 100 and are flagged as a reliable secondary source.
+timezones:
+  - name: Africa/Luanda
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+# West Africa Time (WAT), UTC+1 year-round; Angola has never observed DST.
+currency:
+  code: AOA
+  symbol: "Kz"
+  name: Angolan kwanza
+legalConstraints:
+  - topic: "official languages"
+    description: "Portuguese is the sole de jure official language (Const. Art. 19); the State is mandated to value and promote the other Angolan languages, six of which are legally recognized national languages."
+    sourceId: const-angola-2010
+  - topic: "secular state"
+    description: "Angola is a secular state (Const. Art. 10); religion is not a matter of state and religious affiliation is legally free."
+    sourceId: const-angola-2010
+  - topic: "ethnicity/religion data collection"
+    description: "INE collects religion in the census but publishes no clean per-percentage table; the Government publishes no ethnicity census — ethnic/religious figures rely on reliable secondary sources (US State Dept)."
+    sourceId: us-irf-religion
+paymentCulture:
+  popularMethods:
+    - "Cash — still dominant, especially outside Luanda and in the large informal economy"
+    - "Kwiku (Kwanza Instaneteo) — the BNA-created instant-payment rail (launched 2023)"
+    - "Mobile money wallets (Unitel Money, Afrimoney, EMIS Multicaixa Express)"
+    - "Bank transfers / cards (Visa, Mastercard) — growing, concentrated in Luanda"
+    - "EMIS / SIEML interbank electronic transfer systems"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary; a service charge may appear on hotel/restaurant bills"
+    autoIncludedInBill: false
+    note: "Financial inclusion ~51%, but bancarisation (bank-account holding) ~32%; the gap is bridged by mobile wallets, agents and e-money providers (16 licensed EMIs). Transactions are kwanza-denominated."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Portuguese-language business culture with formal address (Senhor/Senhora, Doutor(a)) moving to first names once rapport builds; seniority, age and title are respected."
+  greetingNorms: "Handshakes among men; a light handshake or no contact between men and women (often religiosity-dependent). Greetings in Portuguese: 'Bom dia' / 'Boa tarde'; also 'Ola' (hello)."
+  meetingEtiquette: "Relationship-first; expect small talk and polite pleasantries before business. Punctuality is generally expected in formal Luanda business but time is treated flexibly. Decisions often rest with senior figures."
+  topicsToAvoid:
+    - "Sensitive historical/political topics (1975-2002 civil war)"
+    - "Open wealth display"
+    - "Direct criticism of the government or leaders"
+  giftGivingNotes: "Not expected at a first business meeting; if invited to a home, a small quality gift (sweets, quality product) is appreciated. Business cards handed and received with both hands or a nod."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: AO-NORTH
+    file: distinct-regions/ao-north.yaml
+    adminUnitCodes: [AO-LUA, AO-BGO, AO-CNO, AO-ZAI, AO-UIG, AO-CAB, AO-MAL]
+  - code: AO-CENTRAL
+    file: distinct-regions/ao-central.yaml
+    adminUnitCodes: [AO-HUA, AO-BIE, AO-BGU, AO-CUS]
+  - code: AO-SOUTH
+    file: distinct-regions/ao-south.yaml
+    adminUnitCodes: [AO-HUI, AO-CNN, AO-NAM, AO-CCU, AO-MOX, AO-LNO, AO-LSU]
+sources:
+  - id: const-angola-2010
+    name: "Constitution of the Republic of Angola (21 January 2010)"
+    publisher: "National Assembly of Angola (text hosted by WIPO Lex)"
+    url: "https://www.wipo.int/wipolex/es/legislation/details/5622"
+    year: 2010
+    accessedDate: "2026-09-19"
+    note: "Art. 8 unitary state; Arts. 10/19 secular state and official language (Portuguese sole official; State values/promotes other Angolan languages). Basis for governanceType and official-language rows."
+  - id: ine-censo-2014
+    name: "Resultados Definitivos do Recenseamento Geral da Populacao e Habitacao de Angola 2014"
+    publisher: "Instituto Nacional de Estatistica (INE Angola)"
+    url: "https://www.ine.gov.ao/publicacoes/detalhes/ODI3Ng=="
+    year: 2014
+    accessedDate: "2026-09-19"
+    note: "Definitive 2014 census: total population 25,789,024; basis for the unitary-large population criterion and the por 0.71 locallySpoken figure plus Bantu language estimates."
+  - id: us-state-dept-angola
+    name: "Angola - Country Background / Ethnicity (US Department of State)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/countries-areas/angola/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Ethnic composition percentages (Ovimbundu ~37%, Kimbundu ~25%, Bakongo ~13%). Reliable secondary source because INE publishes no ethnicity table."
+  - id: us-irf-religion
+    name: "Angola - International Religious Freedom Report / Religious Demographics (2023)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/angola/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Religious affiliation shares (Catholic ~41%, Protestant ~38%, other Christian ~12%, traditional ~4.5%, other/none ~4.5%)."
+  - id: bna-currency
+    name: "Banco Nacional de Angola (BNA) - official site/currency"
+    publisher: "Banco Nacional de Angola"
+    url: "https://www.bna.ao/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Confirms the kwanza (AOA) is the national currency issued by the BNA."
+  - id: iana-timezone
+    name: "IANA Time Zone Database (tzdata)"
+    publisher: "Internet Assigned Numbers Authority (IANA)"
+    url: "https://www.iana.org/time-zones"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Africa/Luanda = UTC+1, observesDst=false (no DST ever)."
+  - id: bna-payments
+    name: "BNA payments / financial-inclusion & instant-payment (Kwiku / EMIS) information"
+    publisher: "Banco Nacional de Angola"
+    url: "https://www.bna.ao/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Context for paymentCulture: Kwiku instant-payment rail, EMIS interbank systems, mobile money, financial inclusion ~51% vs bancarisation ~32%."
