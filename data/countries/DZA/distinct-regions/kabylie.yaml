@@ -1,0 +1,77 @@
+code: DZ-15
+name:
+  eng: Kabylie
+  local:
+    - languageCode: kab
+      value: Tamurt n Iqbayliyen
+    - languageCode: ara
+      value: منطقة القبائل
+climates:
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean climate in the lower valleys and toward the coast.
+  - koppenCode: Csb
+    description: Cool-summer Mediterranean/mountain climate in the high Djurdjura massif, with cold snowy winters.
+landmarks:
+  - name: Djurdjura National Park
+    description: High mountain massif of the Kabylie region, with peaks over 2,300 m and snow in winter.
+  - name: Gouraya National Park
+    description: Coastal mountain park near Béjaïa overlooking the Mediterranean.
+  - name: Casbah of Béjaïa (Cape Carbon)
+    description: Historic citadel overlooking the bay of Béjaïa, antiquity-era port city.
+culturalTraits:
+  - Strongest stronghold of Berber (Amazigh) language, identity, and culture in Algeria
+  - Oral Kabyle poetry, song (chanteuses and achawi), and village assemblies (tajma'at/thadjmaath)
+  - Olive cultivation central to economy and cuisine; the region is dotted with olive groves
+prideOf:
+  - The Berber language and Kabyle identity
+  - Djurdjura mountain heritage and Amazigh traditions
+  - Olive oil and native Kabyle music
+animals:
+  popular:
+    - Barbary macaque
+    - Alpine/owltle birds such as the Barbary partridge
+  unique:
+    - Kabyle nuthatch (endemic bird of the Djurdjura forests)
+industries:
+  - Olive oil production
+  - Small-scale artisanal crafts (jewellery, pottery, weaving)
+  - Fig and modest coastal agriculture
+  - Emigration-driven remittances (historically a large Algerian diaspora region)
+sports:
+  - Football
+  - Traditional acrobatic wrestling? (rare) — Kabyle youth are known for mountaineering
+  - Mountaineering and trekking in the Djurdjura
+# sports entries trimmed to those reliably documented; acrobatic wrestling is a
+# rural folk practice rather than an organized sport here, so it is not listed.
+entertainment:
+  - season: summer
+    items:
+      - Festival culture in Béjaïa and Tizi Ouzou
+      - Djurdjura trekking and highland festivals
+  - season: winter
+    items:
+      - Indoor Amazigh song/acoustic gatherings and kabyle music evenings in village community halls
+traditionalDishes:
+  - season: allYear
+    items:
+      - Couscous with olive oil, chicken, and vegetables (a Kabyle Sunday staple)
+      - Chakhchoukha and bread-making traditions
+  - season: winter
+    items:
+      - Berber winter soup (itz'anan / warm grain soups) and lamb tagines in the cold mountains
+traditionalClothing:
+  - season: summer
+    items:
+      - Lightweight woven wool veils and tunics suited to the hot season
+  - season: winter
+    items:
+      - Heavy woolen ahandiir (wool cloaks/blankets) for the cold mountain winter
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2, 3]
+  - season: spring
+    months: [4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]

@@ -1,0 +1,124 @@
+code: WHOLE
+name:
+  eng: Morocco
+  local:
+    - languageCode: ara
+      value: "المغرب (Al-Maghrib)"
+    - languageCode: zgh
+      value: "ⵍⵎⵖⵔⵉⴱ (Lmeɣrib)"
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO
+# 3166-2 subdivision isn't one of the curated regions below
+# MAR/distinct-regions/. Content here is deliberately national/symbolic
+# rather than tied to one region.
+climates:
+  - koppenCode: Csa
+    description: Mediterranean climate along the Atlantic coast and northern plains — hot, dry summers and mild, wet winters.
+  - koppenCode: BSk
+    description: Semi-arid steppe climate across the interior plains and plateaus.
+  - koppenCode: BWh
+    description: Hot desert climate in the pre-Saharan south and Sahara-edge regions.
+  - koppenCode: Cfb
+    description: Oceanic/mountain climate in the High and Middle Atlas ranges.
+landmarks:
+  - name: Jemaa el-Fnaa (Marrakesh)
+    description: The famous central square marketplace of Marrakesh, UNESCO intangible heritage venue.
+  - name: Koutoubia Mosque (Marrakesh)
+    description: The landmark 12th-century Almohad minaret of Marrakesh.
+  - name: Hassan Tower (Rabat)
+    description: The incomplete 12th-century Almohad minaret in the capital.
+  - name: Chellah (Rabat)
+    description: Ancient Roman/Merinid archaeological site on the capital's outskirts.
+  - name: Volubilis
+    unescoWorldHeritage: true
+    description: Best-preserved Roman ruins in North Africa.
+  - name: Aït Benhaddou
+    unescoWorldHeritage: true
+    description: Iconic fortified ksar (clay settlement) in the High Atlas foothills, a famous film location.
+culturalTraits:
+  - Fused Arab, Amazigh (Berber), Andalusian and French cultural heritage
+  - Mint-tea hospitality ritual (Atay) as a social institution
+  - Artisan traditions — zellige tilework, tadelakt plaster, metalwork and leather crafts
+  - Strong family and community ties; hospitality (diyafa) valued highly
+prideOf:
+  - The cultural mosaic of Arab and Amazigh identity bound by a shared national identity
+  - Ancient cities (Fes, Marrakesh, Meknes) and centuries of imperial heritage
+  - Amazigh heritage and its official recognition in the 2011 constitution
+  - Gastronomy that blends Arab, Berber and Andalusian influences
+animals:
+  popular:
+    - Barbary sheep (arrui)
+    - Barbary partridge
+    - Donkey (ubiquitous working animal in rural areas)
+  unique:
+    - Barbary macaque (one of the few primates north of the Sahara)
+    - Northern bald ibis (Critically Endangered; Moroccan colony is near to the last in the world)
+industries:
+  - Phosphates (Morocco holds ~70% of world reserves; world-leading exporter)
+  - Tourism (Marrakesh, Fes, Agadir)
+  - Agriculture (citrus, olives, tomatoes) and fishing
+  - Automotive (Tangier/Tanger-Med) and aerospace manufacturing
+sports:
+  - Football (the dominant national passion)
+  - Athletics (middle- and long-distance running — e.g. Hicham El Guerrouj)
+  - Basketball
+religions:
+  - name: Muslim (Sunni, official)
+    percent: 99.0
+    sourceId: mar-religion-cia
+  - name: Other (Christian, Jewish, Baha'i)
+    percent: 1.0
+    sourceId: mar-religion-cia
+entertainment:
+  - season: summer
+    items:
+      - Imilchil / Fes Festival of World Sacred Music
+      - Gnaoua World Music Festival (Essaouira, June)
+  - season: winter
+    items:
+      - International Film Festival of Marrakesh (November-December)
+      - Amazigh New Year (Yennayer, mid-January)
+# Ramadan moves on the Islamic (lunar) calendar, so no fixed months are
+# assigned here; it is observed nationwide each year by fasting Muslims.
+traditionalDishes:
+  - season: allYear
+    items:
+      - Couscous (traditionally served on Fridays)
+      - Tajine (slow-cooked stew in a conical clay pot)
+      - Pastilla (sweet-savoury pigeon/meat pie)
+      - Harira soup (especially to break the fast in Ramadan)
+      - Mint tea with cookies/sweets
+traditionalClothing:
+  - season: allYear
+    items:
+      - Djellaba (hooded robe, worn by men and women; often worn on special occasions/fridays)
+      - Kaftan and takchita (formal women's attire)
+      - Babouche slippers
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and administrations typically run Monday-Friday around 9:00am-6:00pm, with many sectors also opening Saturday morning; the private sector often splits the day around a long midday break."
+  lunchBreakTiming: "A long midday break is common in the public and traditional sectors (roughly 12:00-3:00pm); Friday prayers extend a longer break into the early afternoon and many businesses close outright on Friday midday."
+  notableShutdownPeriods:
+    - period: Summer (August)
+      description: "Business activity slows in August, especially in government and expatriate-linked sectors, as many take summer holidays and tourism peaks on the coast."
+    - period: Ramadan
+      description: "During the holy month, working hours shorten (often capped ~6h for Muslims), shops close around sunset for iftar, and public daytime eating/smoking is discouraged."
+  notes: "Friday is the primary Muslim prayer day; many businesses close or pause for Friday midday prayers. See the country-level legalConstraints for the state-religion/working-hours context."
+sources:
+  - id: mar-religion-cia
+    name: "CIA World Factbook — Morocco (Religions, 2025 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/morocco/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Religious composition: Muslim (official; virtually all Sunni, <0.1% Shia) 99%, other (Christian, Jewish, Baha'i) 1%."

@@ -1,0 +1,71 @@
+code: MA-06
+name:
+  eng: Casablanca-Settat
+  local:
+    - languageCode: ara
+      value: "الدار البيضاء - سطات"
+    - languageCode: zgh
+      value: "ⴰⵏⴼⴰ (Anfa)"
+climates:
+  - koppenCode: Csa
+    description: Mediterranean climate tempered by the Atlantic — mild winters, warm dry summers, relatively humid air.
+landmarks:
+  - name: Hassan II Mosque (Casablanca)
+    description: One of the largest mosques in the world, on the Atlantic shore; its minaret is the tallest in Morocco.
+  - name: Casablanca Corniche
+    description: The city's seafront promenade and leisure quarter.
+  - name: Anfa / the old medina of Casablanca
+    description: The historic nucleus of the city.
+culturalTraits:
+  - The Arab/Arabic-speaking commercial heartland of Morocco
+  - Strong Atlantic-north business and financial culture (economic capital)
+  - Coffee-house culture and French Art Deco urban legacy
+prideOf:
+  - Being Morocco's economic capital and main port
+  - The Hassan II Mosque, a modern architectural landmark
+  - A cosmopolitan, outward-looking Atlantic-city identity
+animals:
+  popular:
+    - Seagulls along the coast
+    - Feral cats (ubiquitous in North African cities)
+industries:
+  - Finance and banking (Morocco's business capital)
+  - Port and logistics (Casablanca port and nearby industrial complex)
+  - Manufacturing, textiles and agro-industry
+sports:
+  - Football (Wydad AC and Raja CA, two of Africa's biggest club sides)
+  - Basketball
+# religions intentionally omitted at region level: no official region-level
+# religion breakdown is published; the national figure (Muslim ~99%) is
+# credited to the MAR WHOLE file and applies broadly here.
+entertainment:
+  - season: allYear
+    items:
+      - Casablanca International Book Fair (annual literary event)
+      - Football derby matches between Wydad and Raja (national cultural phenomenon)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Seafood tagine and grilled fish along the coast
+      - Msemen and bissara (street breakfast staples)
+      - "Krachel anise-sesame bread and local pastries"
+traditionalClothing:
+  - season: allYear
+    items:
+      - Djellaba (everyday/formal robe)
+      - City-adapted (more European-style) business dress
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Private sector and banks roughly 9:00am-6:00pm on weekdays; many firms run a continuous day. Casablanca is Morocco's business hub with a more formal, punctual work culture than smaller cities."
+  lunchBreakTiming: "A shorter, often replaced-by-continuous-hours lunch break in the corporate sector; a Friday midday prayer pause is common."
+  notes: "Casablanca-Settat is Morocco's economic engine; international-facing business culture here is more formal and punctual than in the rest of the country."

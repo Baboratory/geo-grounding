@@ -1,0 +1,121 @@
+code: WHOLE
+name:
+  eng: Algeria
+  local:
+    - languageCode: ara
+      value: الجزائر
+    - languageCode: tzm
+      value: ⴷⵣⴰⵢⴻⵔ
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO
+# 3166-2 province isn't one of the curated regions (e.g. no DZ-31 Oran file
+# yet). Content here is deliberately national/symbolic rather than tied to one
+# region.
+climates:
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean climate along the narrow northern coastal plains and Tell Atlas foothills.
+  - koppenCode: BSh
+    description: Hot semi-arid steppe climate across the High Plateaus, between the Tell and Saharan Atlas.
+  - koppenCode: BWh
+    description: Hot desert climate across the vast Saharan south, which covers roughly 80% of the country.
+landmarks:
+  - name: Kasbah of Algiers
+    description: Historic Islamic/Ottoman medina and citadel in the capital, UNESCO World Heritage.
+    unescoWorldHeritage: true
+  - name: Tassili n'Ajjer
+    description: Vast Saharan sandstone plateau with thousands of prehistoric rock paintings, UNESCO World Heritage.
+    unescoWorldHeritage: true
+  - name: M'Zab Valley
+    description: Pentapolis of fortified oases in the northern Sahara, centre of Ibadism, UNESCO World Heritage.
+    unescoWorldHeritage: true
+  - name: Roman ruins at Timgad
+    description: Best-preserved Roman colonial city in North Africa (Trajan-era, near Batna), UNESCO World Heritage.
+    unescoWorldHeritage: true
+culturalTraits:
+  - Predominant Arab-Islamic identity with a strong Amazigh (Berber) substratum; the state itself frames the nation as Arab and Amazigh
+  - Maliki Sunni Islam as a defining framework of daily and public life
+  - Hospitality centred on mint tea and couscous shared collectively
+  - Andalusian musical heritage (sana'a/ma'luf) and raï, both emblematic of national culture
+prideOf:
+  - The 1954-1962 war of independence and the November 1 Revolution as foundational national memory
+  - Raï music and its global reach (UNESCO Intangible Cultural Heritage in 2022)
+  - Couscous as a shared Maghrebi culinary identity (UNESCO Intangible Cultural Heritage, 2020)
+  - The country's vast Sahara and its prehistoric rock art
+animals:
+  popular:
+    - Fennec fox (national animal)
+    - Barbary macaque
+    - Dromedary camel
+    - Barbary stag (northeastern forests)
+  unique:
+    - Addax (critically endangered Saharan antelope)
+    - Saharan cheetah
+industries:
+  - Hydrocarbons (oil and natural gas) — Sonatrach, the country's dominant state energy company
+  - Petrochemicals and refining
+  - Agriculture (dates, olives, cereals, citrus)
+  - Phosphate and iron-ore mining
+  - Tourism (Sahara and Roman/Islamic heritage)
+sports:
+  - Football (most popular sport by far)
+  - Handball
+  - Athletics (long-distance running)
+  - Judo and boxing
+religions:
+  - name: Muslim (predominantly Sunni, Maliki rite)
+    percent: 99.0
+    sourceId: uscirf-algeria-2024
+  - name: Other (Christian, Jewish, Ibadi, and other minorities)
+    percent: 1.0
+    sourceId: uscirf-algeria-2024
+entertainment:
+  - season: allYear
+    items:
+      - Raï concerts and festivals
+      - Andalusian (sana'a/ma'luf) music performances
+      - Football matches and 1950s-vintage league culture
+  - season: dry
+    items:
+      - Summer music festivals along the coast (e.g. in Oran and Algiers)
+      - Woodlands and beach outings during the dry season
+traditionalDishes:
+  - season: allYear
+    items:
+      - Couscous (with lamb or chicken, vegetables, chickpeas)
+      - Brik (crispy fried pastry filled with egg, tuna, or meat)
+      - Mtewem and chakhchoukha (Berber-influenced grain-and-meat dishes)
+      - Sweet pastries such as makroud and baklava
+  - season: wet
+    items:
+      - Ch'rba (lamb-and-herb soup) and chorba frik during cool winter months and Ramadan
+      - Hearty tagines and slow-cooked meat stews to warm the winter table
+traditionalClothing:
+  - season: allYear
+    items:
+      - Gandoura and burnous (traditional outer garments worn over a djellaba/karakou)
+      - Karakou and melhfa (ceremonial women's dress in the eastern region, UNESCO Intangible Cultural Heritage 2024)
+      - Hajik (Constantine-style women's ceremonial wraparound)
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Typical public-sector and office working hours are roughly 8/9am to 5pm; in the private sector hours vary. The working week runs Sunday through Thursday, with the weekend on Friday and Saturday."
+  lunchBreakTiming: "The midday break is usually long (roughly 12pm-2pm or 1pm-3pm), and shops and public offices commonly close during it. During Ramadan, working hours are shortened and the midday rhythm shifts."
+  notableShutdownPeriods:
+    - period: "Ramadan"
+      description: "Business visibly slows during the holy month: shortened office hours, reduced activity during the day, and much of the working rhythm shifts to the evening iftar period."
+    - period: "July-August"
+      description: "Many Algerians take their annual leave in summer; meetings are commonly avoided in July and August."
+sources:
+  - id: uscirf-algeria-2024
+    name: "Algeria country report"
+    publisher: "U.S. Commission on International Religious Freedom (USCIRF)"
+    url: "https://www.uscirf.gov/sites/default/files/2024-05/Algeria.pdf"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Religion figures at national level: approximately 99% Sunni Muslim, with the remaining ~1% including Christians, Jews, and other minorities."

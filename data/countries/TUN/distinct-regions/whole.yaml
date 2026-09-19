@@ -1,0 +1,114 @@
+code: WHOLE
+name:
+  eng: Tunisia
+  local:
+    - languageCode: ara
+      value: "تونس (Tūnis)"
+climates:
+  - koppenCode: BSh
+    description: Semi-arid steppe climate across the central plain.
+  - koppenCode: Csa
+    description: Mediterranean climate along the north coast.
+  - koppenCode: BWh
+    description: Hot desert climate in the far south merging into the Sahara (southern Tunisia, near Douz).
+landmarks:
+  - name: Medina of Tunis
+    unescoWorldHeritage: true
+    description: One of the best-preserved medieval medina quarters in the Arab world.
+  - name: El Jem Amphitheatre
+    unescoWorldHeritage: true
+    description: A huge Roman amphitheatre in the east, among the largest ever built.
+  - name: Carthage (archaeological site)
+    unescoWorldHeritage: true
+    description: Ruins of the ancient Punic/Roman city.
+  - name: Great Mosque of Kairouan
+    description: One of the oldest and most important mosques in the Islamic world.
+  - name: Sidi Bou Said
+    description: The iconic blue-and-white cliff-top village near Tunis.
+  - name: Sahara / Chott el-Jerid and Douz
+    description: Gateway to the Tunisian Sahara and its dunes.
+culturalTraits:
+  - A Mediterranean-meets-Sahara Arab-Islamic culture with deep Punic, Roman and Andalusian roots
+  - French influence from the protectorate era (business and education language)
+  - Strong traditions of craftsmanship, olive culture and shared Maghrebi hospitality
+  - A comparatively modernized, outward-looking North African society (a leader in the region's Arab Spring)
+prideOf:
+  - The revolution of 2011 and association with democratic transition
+  - Ancient heritage (Carthage, Utica, El Jem, Kairouan)
+  - Jasmine as a cultural emblem and its global diaspora
+  - The moderate, pragmatic national character
+animals:
+  popular:
+    - Fennec fox (Sahara)
+    - Dromedary (camel)
+    - Barbary sheep
+  unique:
+    - Tunisian (North African) ostrich (reintroduced in national parks)
+industries:
+  - Tourism (Mediterranean coast, Sahara, heritage sites)
+  - Olive oil production and agriculture
+  - Manufacturing (textiles, automotive components) and phosphate mining
+  - Offshore IT services and outsourcing
+sports:
+  - Football (the dominant national sport)
+  - Handball (Tunisia is an African powerhouse)
+  - Tennis and pétanque
+religions:
+  - name: Muslim (Sunni, largely Maliki)
+    percent: 99.0
+    sourceId: tun-religion-cia
+  - name: Other (Christian, Jewish, Baha'i)
+    percent: 1.0
+    sourceId: tun-religion-cia
+entertainment:
+  - season: summer
+    items:
+      - International Festival of Carthage (July-August)
+      - Mediterranean beach-resort season along the coast
+  - season: winter
+    items:
+      - Douz International Festival of the Sahara (late December)
+      - Tozeur/Chenini oasis and desert festivals
+      - Mediterranean winter-resort tourism on the coast
+traditionalDishes:
+  - season: allYear
+    items:
+      - Couscous (a Tunisian staple, served with fish or lamb)
+      - Brik (a deep-fried stuffed pastry)
+      - Tagine and Chakchouka
+      - Harissa (the spicy chili condiment central to the cuisine)
+      - Makroudh (date-and-semolina pastry) with sweet mint tea
+traditionalClothing:
+  - season: allYear
+    items:
+      - Djellaba (traditional robe)
+      - Chechia (the characteristic red brimless felt cap, a national symbol)
+      - Sefseri (traditional women's wrap, mainly older generation in the south)
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and administrations typically run Monday-Friday roughly 9:00am-5:00/6:00pm, with some shops opening Saturday; a long midday break is common."
+  lunchBreakTiming: "A long midday lunch break is a strong cultural norm; during Ramadan a shortened working day is standard and many businesses pause around sunset for iftar."
+  notableShutdownPeriods:
+    - period: Summer (coastal tourist season)
+      description: "Coastal towns see a shift toward tourist-season working hours; some inland/administrative activity eases over the hot summer months, while the coast enters its peak tourism season."
+    - period: Ramadan
+      description: "Working hours generally shorten for Muslims during the holy month; many businesses close at sunset for iftar and public daytime eating is discouraged."
+  notes: "Friday midday prayer and Ramadan define the working rhythm; the 2022 constitution keeps Islam's practices central to public life while no longer naming it the formal state religion."
+sources:
+  - id: tun-religion-cia
+    name: "CIA World Factbook — Tunisia (Religions)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/tunisia/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Religious composition: Muslim (official; Sunni) ~99%, other (Christian, Jewish, Shia Muslim, Baha'i) <1%."
