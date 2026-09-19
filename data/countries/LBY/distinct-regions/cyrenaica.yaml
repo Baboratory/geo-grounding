@@ -1,0 +1,128 @@
+code: LY-CY
+name:
+  eng: Cyrenaica
+  local:
+    - languageCode: arb
+      value: برقة
+# Cyrenaica — the eastern historic region centred on Benghazi and the Green
+# Mountain (Jabal al-Akhdar). Historically a Greek colony and later the heartland
+# of the Senussi Sufi order and the Sanussi monarchy that led Libya to
+# independence. Home to roughly a third of the population, concentrated around
+# Benghazi, Bayda, Derna and Tobruk along the north-eastern coast. Distinct
+# eastern Libyan dialect and a strong, sometimes (post-2011) federalist identity.
+climates:
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean along the north-eastern coast and on the Green Mountain (Jabal al-Akhdar), which is Libya's wettest, greenest region.
+  - koppenCode: BSh
+    description: Hot semi-arid on the transitional plains south of the coastal highlands (toward the Gulf ecosystem).
+  - koppenCode: BWh
+    description: Hot desert in the deep south-east (Kufra oasis basin, toward the Egyptian/Sudanese borders).
+landmarks:
+  - name: Archaeological Site of Cyrene (Shahhat)
+    description: The foremost ancient Greek city of North Africa, on the Green Mountain; a UNESCO World Heritage Site (List in Danger since 2016).
+    unescoWorldHeritage: true
+  - name: Jabal al-Akhdar (Green Mountain)
+    description: Libya's greenest and wettest region — pine and juniper-clad uplands with terraced farmland and cool summers, a stark contrast to the surrounding desert.
+  - name: Apollonia (Susa) and the Greek Pentapolis ruins
+    description: Ancient port of Cyrene with Greek and Byzantine remains overlooking the sea.
+  - name: Tobruk and the German/Allied WWII Cemetery
+    description: A strategic WWII port town with major Commonwealth and German war cemeteries and the Axis/Allied battlefield heritage of the Western Desert campaign.
+  - name: Saharan desert and the Kufra oases
+    description: Remote oases and dunes in the region's vast south, including the historic Kufra basin and the Great Sand Sea edge.
+culturalTraits:
+  - "Deeply rooted Senussi and Islamic reformist heritage — the Sanussi order founded many of eastern Libya's towns and seminaries"
+  - "Strong eastern Libyan identity and dialect; a distinct sense of difference from the Tripolitanian west"
+  - "Bedouin desert traditions of loyalty, honor and independence"
+  - "Proud historic role in founding the modern Libyan state (the Sanussi monarchy, 1951)"
+prideOf:
+  - "Cyrene and the ancient Greek heritage — the cradle of Greek colonization in North Africa"
+  - "The Green Mountain's beauty and its agricultural productivity (olives, figs, honey)"
+  - "Being the birthplace of the Sanussi-led Libyan state and of strong resistance to Italian colonization"
+  - "Benghazi, the 'pearl of the Mediterranean' and Libya's second city"
+animals:
+  popular:
+    - "Barbary sheep (aoudad) on the Green Mountain"
+    - "Desert foxes and fennec foxes"
+    - "Dromedary camels in the Kufra/Sahara"
+  unique:
+    - "Green Mountain endemics — the Cyrenaica wolf and various upland birds"
+    - "Sahara-adapted gazelles and addax in the Kufra basin (endangered)"
+industries:
+  - "Agriculture on the Green Mountain: olives, figs, grapes, honey and livestock"
+  - "Oil and gas — the eastern Sirte Basin is a major hydrocarbons province with refineries and export terminals (Brega, Marsa el-Brega)"
+  - "Fishing and maritime activity around Benghazi and Tobruk"
+  - "Trade and services centred on Benghazi, Libya's largest eastern city and port"
+sports:
+  - "Football (Al-Ahli Benghazi, Al-Nasr Benghazi — among Libya's most successful clubs)"
+  - "Athletics and distance running"
+  - "Swimming and coastal sports"
+  - "Camel racing in Saharan areas around Kufra"
+# religions intentionally omitted at region level: the CIA religion statistic is
+# national only and no regional census is published; Islam dominates here as
+# nationwide, and the figures in the WHOLE file apply equally to Cyrenaica.
+entertainment:
+  - season: allYear
+    items:
+      - "Coffeehouse and seaside social life in Benghazi"
+      - "Football matchdays and club support"
+  - season: summer
+    items:
+      - "Green Mountain summer retreats — cool upland villages popular in the hot months"
+      - "Mediterranean beaches around Benghazi and Tobruk"
+  - season: winter
+    items:
+      - "Indoor gatherings, poetry and family hospitality during the cooler, rainier months"
+      - "Touring the ancient Greek sites in mild weather"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Couscous and bazeen (Cyrenaican versions include a distinctive fish/chicken bazeen)"
+      - "Fresh seafood in Benghazi"
+      - "Green Mountain olives, figs, honey and citrus"
+  - season: summer
+    items:
+      - "Fresh fish and salads; fruit from the mountain orchards"
+  - season: winter
+    items:
+      - "Hearty meat stews, soups (shorba) and slow-cooked couscous"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional North African robes (gandoura) and barracan wraps"
+  - season: summer
+    items:
+      - "Light cotton dress against the coastal heat"
+  - season: winter
+    items:
+      - "Woolen cloaks/burnous, especially on the cooler Green Mountain"
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Public offices and many businesses Sun-Thu, roughly 08:00-16:00; Benghazi is the largest commercial node after Tripoli."
+  lunchBreakTiming: "A long mid-day break (2+ hours) is common, with resumption in the evening."
+  notes: "Friday-Saturday weekend; hours shorten during Ramadan and businesses close for Eid. Benghazi's port and the Brega area serve the eastern oil sector. Security unrest has at times disrupted services more in the east than elsewhere."
+sources:
+  - id: unesco-libya
+    name: "Libya's five World Heritage sites put on List of World Heritage in Danger"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/news/1523"
+    year: 2016
+    accessedDate: "2026-09-19"
+    note: "Cyrene is listed on the World Heritage in Danger list and is Cyrenaica's principal UNESCO site; supports the landmark description and flag."
+  - id: regions-overview
+    name: "Libya — Provinces and historic regions (Cyrenaica)"
+    publisher: "Encyclopaedia Britannica and Wikipedia 'Provinces of Libya'"
+    url: "https://www.britannica.com/place/Libya"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Historical-geographic description of Cyrenaica as the eastern province centred on Benghazi and the Green Mountain, with its Greek/Senussi heritage, cities and distinct identity used in this file."

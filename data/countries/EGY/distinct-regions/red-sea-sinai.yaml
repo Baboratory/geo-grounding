@@ -1,0 +1,100 @@
+code: EG-BA
+name:
+  eng: Red Sea Coast & Sinai
+  local:
+    - languageCode: arb
+      value: ساحل البحر الأحمر وسيناء
+# The Red Sea governorate (EG-BA) plus North Sinai (EG-SIN) and South Sinai
+# (EG-JS) along with the Suez Canal governorate (EG-SUZ) — Egypt's eastern desert,
+# coastline and the Sinai peninsula, a region of world-class diving, the Suez
+# Canal economy, and Bedouin desert culture distinct from the Nile Valley.
+climates:
+  - koppenCode: BWh
+    description: Hot desert across the Red Sea coast and Sinai — very hot, dry and sunny year-round, with Red Sea coast temperatures moderated by the sea; winter nights can be cool in the desert highlands.
+landmarks:
+  - name: Saint Catherine's Monastery
+    description: Ancient Greek Orthodox monastery at the foot of Mount Sinai, a major pilgrimage site.
+    unescoWorldHeritage: true
+  - name: Ras Mohammed National Park
+    description: Protected headland at the southern tip of Sinai famed for world-class coral reefs and diving.
+  - name: Colored Canyon (Sinai)
+    description: Spectacular sandstone canyon with banded coloring near Nuweiba.
+  - name: Blue Hole (Dahab)
+    description: A world-famous, demanding diving site off Dahab's Red Sea coast.
+  - name: Marsa Alam coral reefs
+    description: Reef-rich diving destination on the southern Red Sea coast.
+  - name: Suez Canal
+    description: The major shipping waterway linking the Mediterranean and Red Sea, passing through Ismailia/Suez.
+culturalTraits:
+  - "Bedouin culture of Sinai — a distinctive tribal desert lifestyle, hospitality and traditional dress"
+  - "A world-class scuba-diving and water-sports destination along the Red Sea Riviera (Hurghada, Sharm el-Sheikh, Dahab)"
+  - "The strategic, trade-linked identity of the Suez Canal cities"
+  - "Wild desert landscapes — mountains, canyons, reefs and the Sinai highlands"
+prideOf:
+  - "The incomparable Red Sea reefs and marine biodiversity"
+  - "Mount Sinai — sacred to many faiths — and St. Catherine's Monastery"
+  - "The engineering feat and national importance of the Suez Canal"
+  - "Bedouin heritage and hospitality of the Sinai people"
+animals:
+  popular:
+    - "Camels and the Bedouin lifestyle of desert herding"
+    - "Dugongs and sea turtles along the Red Sea reefs"
+    - "Reef fish, rays and reef sharks (diving draws)"
+  unique:
+    - "Red Sea coral reef ecosystems — among the world's most biodiverse reefs"
+    - "Sinai leopard and mountain gazelle in the spare desert ranges (rare)"
+    - "Nubian ibex and rock hyrax in the Sinai highlands"
+industries:
+  - "Tourism and diving (Hurghada, Sharm el-Sheikh, Dahab, Marsa Alam) — Egypt's main resort coast"
+  - "The Suez Canal (tolls) and Suez Canal Economic Zone industrial/logistics development"
+  - "Oil and gas production (Red Sea and Sinai hydrocarbons)"
+  - "Mining (limestone, sand/construction materials; historically turquoise in Sinai)"
+  - "Fishing and coastal aquaculture along the Red Sea"
+sports:
+  - "Scuba diving and snorkeling — the core Red Sea Riviera attraction"
+  - "Kitesurfing and windsurfing (e.g. Dahab, El Gouna)"
+  - "Camel racing and desert safaris (Bedouin tradition)"
+  - "Football — popular including in the Suez Canal cities"
+# religions intentionally omitted at this regional level: Sinai's St. Catherine's
+# Monastery is a notable Christian pilgrimage site, but the national estimate
+# split is recorded once at the WHOLE level; Sinai is nonetheless predominantly
+# Muslim Bedouin.
+entertainment:
+  - season: allYear
+    items:
+      - "Diving and snorkeling trips along the Red Sea reefs"
+      - "Desert safaris and Bedouin camp evenings (tea, music)"
+      - "Beach and water-sports resorts"
+      - "Camel treks (e.g. to Mount Sinai at sunrise)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Grilled Red Sea fish and seafood — a coastline staple"
+      - "Bedouin-style rice and meat dishes, often lamb with rice (mandi-like)"
+      - "Desert breads and dates with Bedouin tea"
+      - "Fresh fish tagine-style stews with local spices"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light, loose cotton clothing suited to the hot coast; many women wear hijab"
+      - "Bedouin dress for men — the gallabiya and headcloth — persists in Sinai"
+      - "Diving/swimming attire in resort areas (resorts are relaxed, esp. around foreigners)"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Office and resort hours ~9:00-17:00 (resorts often extend into the evening in tourist season); diving/sea activities follow daylight."
+  lunchBreakTiming: "Midday break around 14:00; resort restaurants serve through the afternoon and into the evening."
+  notableShutdownPeriods:
+    - period: "Low tourism / religious feasts"
+      description: "Eid holidays and the short winter-shoulder can slow resort business; high season is generally summer and around European/regional holidays."
+  notes: "The economy here is heavily tourism- and transit-driven; security-related travel advisories sometimes affect the region. Friday is the main rest day."

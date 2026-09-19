@@ -1,0 +1,99 @@
+code: EG-ALX
+name:
+  eng: Alexandria & the Nile Delta
+  local:
+    - languageCode: arb
+      value: الإسكندرية ودلتا النيل
+# The Mediterranean coast and the fertile Nile Delta (Lower Egypt): Alexandria
+# (EG-ALX) plus the core Delta governorates (Dakahlia, Gharbia, Sharqia, Kafr
+# el-Sheikh, Beheira, Monufia). Egypt's richest agricultural land and its most
+# cosmopolitan Mediterranean city.
+climates:
+  - koppenCode: BWh
+    description: Hot desert interior of the Delta, with a distinct Mediterranean influence.
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean climate along the Alexandria coast — mild, rainier winters and dry, hot summers.
+landmarks:
+  - name: Bibliotheca Alexandrina
+    description: Modern revival of the ancient Library of Alexandria, on the Corniche.
+  - name: Citadel of Qaitbay
+    description: 15th-century Mamluk fortress on the site of the ancient Pharos lighthouse, one of the Seven Wonders of the Ancient World.
+  - name: Catacombs of Kom El Shoqafa
+    description: Roman-era underground necropolis blending Egyptian, Greek and Roman styles.
+  - name: Pompey's Pillar
+    description: Roman triumphal column in the ancient Serapeum precinct.
+culturalTraits:
+  - "Distinct Levantine-Mediterranean cosmopolitan identity and accent — Alexandria is Egypt's 'second city' and historical window to the Mediterranean world"
+  - "Strong coastal and maritime culture — fishing, sea bathing and the seafront Corniche"
+  - "Agricultural Nile-Delta heartland culture of farming villages, citrus and rice"
+  - "Old foreign (Greek, Italian, Levantine) influences in the city's architecture and memory"
+prideOf:
+  - "The ancient Library and Museum of Alexandria — the classical world's greatest intellectual center"
+  - "Being Egypt's Mediterranean gateway and most cosmopolitan city"
+  - "The Delta's abundant fertility — Egypt's breadbasket"
+  - "A relaxed, sea-facing coastal way of life"
+animals:
+  popular:
+    - "Water buffalo (gamiussa) — ubiquitous on Delta farms, central to dairy and work"
+    - "Domestic cattle and sheep herded along the Delta"
+    - "Fishing flocks of birds and herons along irrigation canals"
+  unique:
+    - "Egyptian water buffalo and native Delta birdlife (herons, egrets, kingfishers)"
+    - "Mediterranean sea life along the Alexandria coast"
+industries:
+  - "Agriculture — the Delta is Egypt's main producer of rice, cotton, wheat, citrus and vegetables"
+  - "Fishing and aquaculture (Egypt's largest fishing areas along Delta lakes and coast)"
+  - "Petrochemicals and industry around Alexandria (oil refining, gas, steel)"
+  - "Ports and logistics (Alexandria and Damietta are Egypt's chief seaports)"
+  - "Tourism (Alexandria's heritage and beaches, incl. the North Coast resort strip)"
+sports:
+  - "Football — clubs such as Alexandria's Ittihad, and youth played across the Delta"
+  - "Water sports along the coast (swimming, sailing)"
+  - "Squash and basketball"
+  - "Fishing as a recreational and livelihood coastal pastime"
+# religions intentionally omitted at the Alexandria/Delta level: the national
+# estimate split (~90% Sunni / ~10% Christian, with a notable Coptic presence in
+# cities like Mansoura and Tanta) is recorded once at the WHOLE (national) level.
+entertainment:
+  - season: allYear
+    items:
+      - "Spending leisure time along the Alexandria Corniche and seafront"
+      - "Family outings and social hours in cafés (ahwa), especially in Delta towns"
+      - "Agricultural and harvest-season gatherings in Delta villages"
+  - season: summer
+    items:
+      - "The Egyptian North Coast (Sahel) resort season — the summer destination for Egyptian and Arab vacationers"
+      - "Summer beach life and seafood dining in Alexandria"
+      - "The Mediterranean Sea festival/waterfront events season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Seafood — grilled and fried fish, a hallmark of Alexandria dining"
+      - "Fesenjan-style Alexandria stews and stuffed vine leaves (mahshi)"
+      - "Ful medames and taamiya (falafel)"
+      - "Rice and fish dishes with the Delta's fresh catch"
+      - "Alexandria's syrup-soaked desserts and ice cream"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern urban clothing in Alexandria; women often wear light summer dresses or hijab"
+      - "Looser, practical cotton clothing and head-covering suited to coastal/agricultural life in Delta villages"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Offices ~9:00-17:00 Sunday-Thursday; agricultural and fishing work follows daylight and season rather than a fixed office schedule."
+  lunchBreakTiming: "Midday break around 14:00; a light siesta-like pause is common in towns."
+  notableShutdownPeriods:
+    - period: "Religious and national holidays"
+      description: "Eid al-Fitr/Eid al-Adha, Coptic Christmas (7 Jan) and Easter, and national holidays; many family-run shops close for these."
+  notes: "The summer months bring a boom in the North Coast and Alexandria tourism economy; many Cairenes vacation on the Mediterranean coast, peaking in July-August."

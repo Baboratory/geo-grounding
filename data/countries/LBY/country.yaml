@@ -1,0 +1,176 @@
+alpha3: LBY
+alpha2: LY
+name:
+  eng: Libya
+  local:
+    - languageCode: arb
+      value: ليبيا
+flagEmoji: "🇱🇾"
+capital: Tripoli
+isSovereign: true
+# Classified unitary-large with 3 curated cultural regions. Libya (~7M, 2024 est.)
+# sits below the ~20-25M population threshold and has Arabic as its sole official
+# language, so it meets only ONE of the two-of-three unitary-large criteria on the
+# population/language axes. But the cultural-historical regional-identity criterion
+# is met strongly enough on its own to merit curation. The classic three-way split
+# — Tripolitania (west), Cyrenaica (east), Fezzan (south) — is a genuinely
+# recognized, politically and historically significant identity, not a mere
+# geographic convenience: it descends from the Ottoman vilayets of Tripolitania,
+# Benghazi and Fezzan; they formed the three semi-federal provinces of the
+# independent kingdom under the 1951 Constitution; still underpins real partisan
+# and tribal divisions today (e.g. the post-2011 east/west political rift, and
+# federalist currents in Cyrenaica), and even survives in current electoral law,
+# where an amendment to the interim constitution divides the country into the three
+# voting districts of Tripolitania, Cyrenaica and Fezzan. Because the modern 22
+# shabiyat (districts) are the official ISO 3166-2 subdivisions, each curated
+# region here is a synthetic LY-* code in Libya's own namespace whose adminUnitCodes
+# list the real ISO 3166-2 shabiyat that make it up (see distinct-regions[] and the
+# region files).
+governanceType: unitary-large
+iso3166_2_prefix: LY
+hasSubdivisions: true
+languageUsage:
+  - languageCode: arb
+    domain: official
+    speakersShare: 1.0
+    # Standard Arabic is Libya's sole official language (Constitutional
+    # Declaration, Article 1: "Arabic is the official language") — hence 1.0, per
+    # this dataset's rule that 'official' is a legal-status flag, not a population
+    # measure. Real everyday usage is captured separately via the Libyan Arabic
+    # (ayl) locallySpoken row below.
+    sourceId: cwf-languages
+  - languageCode: ayl
+    domain: locallySpoken
+    speakersShare: 0.98
+    # Libyan Arabic (a Maghrebi dialect, ISO 639-3 'ayl') is the actual vernacular
+    # of daily life for the overwhelming majority. The ~0.98 share is a composite
+    # estimate: Arabic-speaking Libyans overwhelmingly speak the Libyan dialect at
+    # home and in the street, while Standard Arabic is reserved largely for writing,
+    # formal media and government.
+    sourceId: ayl-estimate
+  - languageCode: ber
+    domain: locallySpoken
+    speakersShare: 0.08
+    # Berber languages (Amazigh: Nafusi, Ghadamès, Awjila, Tamasheq/Tuareg, etc.)
+    # are spoken by the Amazigh minority, concentrated in the Nafusa Mountains, the
+    # north-west (Zuwara), Ghadamès and parts of the south, alongside Arabic. IWGIA
+    # estimates the Amazigh population at up to ~16% of the total, and the CIA names
+    # several Berber varieties; not all Amazigh use Berber day-to-day, so the
+    # locallySpoken share is set conservatively to ~0.08 and treated as an ESTIMATE.
+    sourceId: iwgia-amazigh
+  - languageCode: ita
+    domain: foreign
+    speakersShare: 0.1
+    # Italian retains some currency among older generations and in business as a
+    # legacy of the colonial period; the CIA lists it as widely understood in the
+    # major cities. The ~0.1 share is a rough estimate of those with functional
+    # Italian.
+    sourceId: cwf-languages
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.15
+    # English is widely understood in the major cities (CIA), increasingly among
+    # younger Libyans and in business/technical work. The ~0.15 share is an
+    # estimate of functional English speakers.
+    sourceId: cwf-languages
+# ethnicGroups intentionally omitted as a single reliable breakdown: the CIA's
+# World Factbook gives only a coarse "Berber and Arab 97%, other 3%" figure, and
+# official Libyan census data on a finer ethnic breakdown is not published at this
+# level of detail (the Amazigh/Tuareg/Tubu shares are contested, with IWGIA
+# estimating Amazigh at up to ~16% of the population while the CIA treats the
+# majority as undifferentiated "Berber and Arab"). Presenting one authoritative
+# percentage split would overstate precision that no source actually provides.
+timezones:
+  - name: Africa/Tripoli
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+# Libya uses a single time zone, Africa/Tripoli at UTC+2 year-round; daylight
+# saving time was abolished in 2013 and is no longer observed.
+currency:
+  code: LYD
+  symbol: "ل.د"
+  name: Libyan dinar
+legalConstraints:
+  - topic: "official language"
+    description: "The 2011 Constitutional Declaration (Article 1) names Arabic as Libya's sole official language. It also protects the linguistic and cultural rights of the components of Libyan society, which is the basis for the Amazigh/Berber and other minority-language claims."
+    sourceId: constitution
+  - topic: "state religion / sharia"
+    description: "The 2011 Constitutional Declaration states that Islam is the religion of the state and that Islamic sharia is the principal source of legislation. It accords Christians and Jews the freedom to practice their religions and guarantees respect for their personal-status laws, but the law does not recognize religious minority communities other than Christians and Jews, and proselytizing or circulating non-Islamic religious materials is effectively banned."
+    sourceId: irf-libya-2023
+  - topic: "religious data collection"
+    description: "Like most of the region, Libya does not systematically publish disaggregated official statistics on religious affiliation or a fine-grained ethnic/religious census breakdown, which is why religion figures here are cited to the CIA World Factbook estimate rather than a national statistical release."
+    sourceId: irf-libya-2023
+# paymentMethodShares intentionally omitted: no authoritative source (central
+# bank or payment-sector release) providing a breakdown of payment-method shares
+# for Libya was found. The economy is heavily cash-based, with limited digital and
+# card infrastructure nationwide; the qualitative picture is in paymentCulture.
+paymentCulture:
+  popularMethods:
+    - "Cash — the dominant everyday payment method across Libya, incl. a common practice of paying for larger purchases in cash in Libyan dinars"
+    - "Bank cards issued by local banks (Libyan Foreign Bank, National Commercial Bank, Wahda Bank, etc.); POS acceptance growing in Tripoli and other cities but limited elsewhere"
+    - "Mobile money / e-wallets (e.g. the emerging 'I Study' / State-mobile-network-linked wallets) — early-stage adoption"
+    - "Bank transfers (incl. cross-border via the official exchange window) and hawala-style informal transfers for remittances"
+  tipping:
+    expected: true
+    typicalAmount: "Small, round-up style gratuities — 5-10% in restaurants where not already included"
+    autoIncludedInBill: false
+    note: "Tipping is customary but modest; a small 'bakshish'/gratuity for service is common. Bahraini-style 10% service charges are not typically auto-added in most restaurants."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm and relationship-driven. Elders and tribal/clan elders command deference. Business and social life are heavily personal: who you know (wasta — connections) matters. Religious and family values (Islam, honor, hospitality) frame interaction."
+  greetingNorms: "Greet with 'As-salamu alaykum' (peace be upon you), answered 'Wa alaykum as-salam'. Men typically shake hands; among close men a kiss on each cheek or touching shoulder is common. Handshakes between unrelated men and women are often avoided out of modesty. 'Salam' and 'Marhaba' are casual hellos."
+  meetingEtiquette: "Hospitality is paramount — tea (shahi) and coffee are offered and should be accepted. Punctuality is relaxed; meetings may run long and be social before business. Defer to senior/tribal figures, and expect consensus-oriented, relationship-first negotiation rather than quick transactional closes."
+  topicsToAvoid:
+    - "Colonel Gaddafi and recent civil-war allegiances (deeply divisive)"
+    - "Criticizing Islam or religious sensibilities"
+    - "Tribal/sectarian rivalries and the east-west political split"
+    - "Contents of a woman's personal life (in formal settings)"
+  giftGivingNotes: "Small, respectful gifts are appreciated; food and dates are safe. Avoid alcohol (prohibited). Use the right hand for offering and receiving."
+distinct-regions:
+  - code: LY-TR
+    file: distinct-regions/tripolitania.yaml
+    adminUnitCodes: [LY-SR, LY-MI, LY-MB, LY-JI, LY-TB, LY-ZA, LY-NQ, LY-JG, LY-NL]
+  - code: LY-CY
+    file: distinct-regions/cyrenaica.yaml
+    adminUnitCodes: [LY-BU, LY-DR, LY-JA, LY-MJ, LY-BA, LY-WA, LY-KF]
+  - code: LY-FZ
+    file: distinct-regions/fezzan.yaml
+    adminUnitCodes: [LY-JU, LY-WS, LY-WD, LY-SB, LY-MQ, LY-GT]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cwf-languages
+    name: "CIA World Factbook — Libya (People: languages)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/libya/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Arabic (official); Standard Arabic sole official; Italian and English widely understood in major cities; Berber varieties (Nafusi, Ghadamis, Suknah, Awjilah, Tamasheq) spoken. Basis for official-domain 1.0 for arb and for the foreign-domain estimates for ita and eng."
+  - id: ayl-estimate
+    name: "Composite estimate — Libyan Arabic as the everyday vernacular"
+    publisher: "Composite estimate (CIA World Factbook + regional linguistics)"
+    url: "https://www.cia.gov/the-world-factbook/countries/libya/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Libyan Arabic is the language of daily life for the overwhelming Arabic-speaking majority; ~0.98 locallySpoken share is an ESTIMATE combining CIA's Arabic-official status with the known dominance of the Libyan dialect in spoken use."
+  - id: iwgia-amazigh
+    name: "IWGIA — The Indigenous World 2024: Libya"
+    publisher: "International Work Group for Indigenous Affairs (IWGIA)"
+    url: "https://www.iwgia.org/en/articles/iw-2024-libya"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Estimates the Amazigh (Berber) population at ~1 million, more than 16% of Libya's total, living across the north, east and south; also describes the ~50,000-strong Tubu minority. Basis for the ~0.08 locallySpoken share for ber (conservative, since not all Amazigh use Berber daily) and for the note on minority communities."
+  - id: irf-libya-2023
+    name: "2023 Report on International Religious Freedom: Libya"
+    publisher: "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/libya/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Confirms the 2011 Constitutional Declaration makes Islam the state religion and sharia the principal source of legislation, accords Christians and Jews freedom of practice but recognizes no other religious communities, and that proselytizing / circulation of non-Islamic materials is effectively banned. Basis for the state-religion and religious-data legalConstraints entries."
+  - id: constitution
+    name: "Libyan interim Constitutional Declaration, 2011 (provisional constitutional declaration by the National Transitional Council)"
+    publisher: "National Transitional Council of Libya (via constitutionnet.org PDF)"
+    url: "http://constitutionnet.org/sites/default/files/libya_libyan_interim_constitutional_declaration_2011-present.pdf"
+    year: 2011
+    accessedDate: "2026-09-19"
+    note: "Article 1: Arabic is the official language, Islam the state religion, sharia the principal source of legislation, and the state protects the linguistic and cultural rights of all components of Libyan society. Basis for the official-language and state-religion legalConstraints."
