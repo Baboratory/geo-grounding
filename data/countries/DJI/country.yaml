@@ -1,0 +1,159 @@
+alpha3: DJI
+alpha2: DJ
+name:
+  eng: Djibouti
+  local:
+    - languageCode: fra
+      value: Djibouti
+    - languageCode: arb
+      value: جيبوتي
+flagEmoji: "🇩🇯"
+capital: Djibouti
+isSovereign: true
+# Classified unitary-small: population ~1M and the Constitution (Art 1) declares
+# Djibouti a "democratic, sovereign, one and indivisible" Republic. The five
+# regions/districts are administrative only; Somali (Issa) and Afar are national
+# languages rather than officially recognized regional-minority languages, so a
+# single synthetic WHOLE region carries all region-level content.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: dji-const-1992-lang
+  - languageCode: arb
+    domain: official
+    speakersShare: 1.0
+    sourceId: dji-const-1992-lang
+  - languageCode: som
+    domain: locallySpoken
+    speakersShare: 0.6
+    sourceId: dji-const-1992-lang
+  - languageCode: aar
+    domain: locallySpoken
+    speakersShare: 0.35
+    sourceId: dji-const-1992-lang
+  - languageCode: fra
+    domain: foreign
+    speakersShare: 0.4
+    sourceId: dji-cia-2022
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.1
+    sourceId: dji-cia-2022
+ethnicGroups:
+  # Djibouti does not collect language/ethnic data in its censuses; these are
+  # ESTIMATEs from the CIA World Factbook, following the JAM precedent.
+  - group: Somali (primarily Issa clan)
+    percent: 60.0
+    sourceId: dji-cia-2022
+  - group: Afar
+    percent: 35.0
+    sourceId: dji-cia-2022
+  - group: Other (Yemeni Arab, Ethiopian, French, Italian)
+    percent: 5.0
+    sourceId: dji-cia-2022
+timezones:
+  - name: Africa/Djibouti
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: DJF
+  symbol: "Fdj"
+  name: Djiboutian franc
+legalConstraints:
+  - topic: "hybrid French-inspired civil law with Sharia and customary law"
+    description: "Djibouti's legal system follows the French civil-law tradition, with Sharia applying to personal status/family/inheritance matters and customary law (Xeer among Somalis, Maqda among Afars) recognised in places. Contract and commercial law is codified; family and inheritance matters in particular can engage Sharia rules."
+    sourceId: dji-addleshaw-legal
+  - topic: "special economic zone / low-tax regime"
+    description: "Corporate income tax is 25% for standard onshore companies, but 0% for qualifying free-zone operators under Loi 103/AN/05 (free-zone companies may enjoy 5-15 year tax holidays and customs exemptions). There are no capital-gains, inheritance, estate or annual wealth taxes."
+    sourceId: dji-freezone-legal
+  - topic: "central-bank-regulated payments"
+    description: "The Banque Centrale de Djibouti licenses banks, payment-service providers and e-money institutions. Cash is first in retail; the national retail switch (SYRAD) is not yet fully operational. Mobile money (D-Money, WAAFI) and card rails are growing but concentrated in the formal/urban sector, and EFTPOS/ATM interoperability is limited."
+    sourceId: dji-payment-infra
+  - topic: "no comprehensive data-protection statute"
+    description: "As of publication, UNCTAD's Cyberlaw Tracker lists Djibouti's data-protection legislation as in development/none, and there is no dedicated AI statute — relevant to AI/data agents but also a lower-data-protection-compliance burden than in GDPR jurisdictions."
+    sourceId: dji-unctad-cyberlaw
+paymentMethodShares:
+  # No authoritative payment-method-mix census exists; these are ESTIMATEs from
+  # UNCDF/IGAD and central-bank analysis, following the JAM precedent.
+  - method: "cash"
+    percent: 70.0
+    sourceId: dji-payment-infra
+  - method: "mobile money"
+    percent: 15.0
+    sourceId: dji-payment-infra
+  - method: "debit/credit card"
+    percent: 10.0
+    sourceId: dji-payment-infra
+  - method: "bank transfer / other"
+    percent: 5.0
+    sourceId: dji-payment-infra
+paymentCulture:
+  popularMethods:
+    - Cash (dominant, daily retail)
+    - Mobile money (D-Money from Djibouti Telecom, WAAFI from Salaam Bank) — rising
+    - Visa/Mastercard cards (growing, concentrated in the formal/urban sector)
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up in restaurants; service charges are uncommon"
+    autoIncludedInBill: false
+    note: "Tipping is not obligatory; a small gratuity is appreciated for good service."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal and deferential; respect for elders and titles matters, and honour/face are highly valued — avoid public disagreement or criticism."
+  greetingNorms: "Handshake for same-gender contacts and a verbal greeting ('As-salamu alaykum' / 'Salaan'). Take time for pleasantries before business; observant Muslims avoid physical contact across genders."
+  meetingEtiquette: "Punctuality is appreciated but schedules can be flexible. Coffee or tea (including the ceremonial bun/coffee) typically precedes business. Decisions are consultative through family/clan lines."
+  topicsToAvoid:
+    - "Criticism of religion"
+    - "Clan and regional politics and corruption"
+    - "The Somali/Afar ethnic cleavage"
+  giftGivingNotes: "Generosity and reciprocity are central; use both hands or the right hand when giving, keep gifts of modest value, and avoid alcohol when gifting observant Muslims."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: dji-const-1992-lang
+    name: "Constitution of the Republic of Djibouti (1992, rev. 2010), Art 1"
+    publisher: "Presidency of the Republic of Djibouti"
+    url: "https://www.presidence.dj/"
+    year: 2010
+    accessedDate: "2026-09-18"
+    note: "French and Standard Arabic (arb) are co-official languages; Somali and Afar are 'national languages' per Art 1. Speech estimates (Somali ~60%, Afar ~35%) are ESTIMATEs as Djibouti does not collect language data in censuses."
+  - id: dji-cia-2022
+    name: "CIA World Factbook — Djibouti (2022)"
+    publisher: "CIA"
+    url: "https://theodora.com/world_fact_book_2022/djibouti/djibouti_people.html"
+    year: 2022
+    accessedDate: "2026-09-18"
+    note: "Ethnic split ~60% Somali (primarily Issa), ~35% Afar, ~5% other; French ~40% functional working/second-language and English ~10% (growing via port/logistics sector) are ESTIMATEs."
+  - id: dji-addleshaw-legal
+    name: "Addleshaw Goddard — Doing Business in Africa: Djibouti; Djibouti Family Code 2002"
+    publisher: "Addleshaw Goddard and legal references"
+    url: "https://addleshawgoddard.com/en/doing-business-in-africa/africa-countries-a-z-list/djibouti"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Documents the French-trademark civil-law system with Sharia for personal status/family/inheritance and customary law (Xeer/Maqda)."
+  - id: dji-freezone-legal
+    name: "Djibouti free-zone and tax regime (Loi 103/AN/05 on commercial free-zone companies); tax guides"
+    publisher: "Republic of Djibouti / professional tax guides"
+    url: "https://www.globalinvestments.net/financial-planning/international-tax-planning/djibouti"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Free-zone companies may benefit from 0% corporate tax and 5-15 year tax holidays; no capital-gains, inheritance, estate or wealth taxes."
+  - id: dji-payment-infra
+    name: "UNCDF / IGAD — Djibouti Payment Infrastructure Assessment (2023)"
+    publisher: "UNCDF / IGAD"
+    url: "https://migrantmoney.uncdf.org/"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "Cash-first retail; mobile money (D-Money, WAAFI) and card rails growing; SYRAD switch not fully operational. Payment-method shares are ESTIMATEs: cash ~70%, mobile money ~15%, card ~10%, transfer/other ~5%."
+  - id: dji-unctad-cyberlaw
+    name: "UNCTAD Cyberlaw Tracker — Djibouti (data protection status)"
+    publisher: "UNCTAD"
+    url: "https://unctad.org/page/cyberlaw-tracker"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Lists data-protection legislation as in development/none and no dedicated e-commerce/AI statute as of publication."

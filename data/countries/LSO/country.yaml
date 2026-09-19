@@ -1,0 +1,133 @@
+alpha3: LSO
+alpha2: LS
+name:
+  eng: Lesotho
+  local:
+    - languageCode: sot
+      value: Lesotho
+flagEmoji: "🇱🇸"
+capital: Maseru
+isSovereign: true
+# Classified unitary-small: population ~2.2M, almost entirely ethnically and
+# linguistically Basotho (the two official languages, Sesotho and English, are
+# national official languages, not regional identities). The ten districts are
+# administrative only — there is no genuine federal or regional-minority split —
+# so a single synthetic WHOLE region carries all region-level content.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: sot
+    domain: official
+    speakersShare: 1.0
+    sourceId: lso-const-1993-lang
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: lso-const-1993-lang
+  - languageCode: sot
+    domain: locallySpoken
+    speakersShare: 0.99
+    sourceId: lso-cia-2024
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.1
+    sourceId: lso-cia-2024
+ethnicGroups:
+  # No separately published census language/ethnic split exists beyond CIA;
+  # Sesotho speaker share is proxied from the ethnic Basotho share (~99.7%).
+  - group: Basotho (Sotho)
+    percent: 99.7
+    sourceId: lso-cia-2024
+  - group: Other (Kwena, Nguni (Hlubi and Phuthi), Zulu, European, Asian)
+    percent: 0.3
+    sourceId: lso-cia-2024
+timezones:
+  - name: Africa/Maseru
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+currency:
+  code: LSL
+  symbol: "M"
+  name: Lesotho loti
+legalConstraints:
+  - topic: "dual-currency regime (loti and South African rand at par)"
+    description: "Lesotho is part of the Common Monetary Area (CMA). The loti is pegged 1:1 to the South African rand and the rand circulates and is accepted at par, so prices may be quoted and paid in either currency."
+    sourceId: lso-afdb-currency
+  - topic: "VAT rate and invoice requirements"
+    description: "Value Added Tax is levied at 15% (since 1 April 2018); exports and basic foods are zero-rated. Tax invoices must show the seller/buyer, VAT number, description, amount, VAT rate and VAT amount."
+    sourceId: lso-vat-rsl
+paymentMethodShares:
+  # No authoritative payment-method-mix census by value exists; these are
+  # ESTIMATEs from the FinScope Consumer Survey and qualitative operator data,
+  # following the JAM precedent.
+  - method: "cash"
+    percent: 55.0
+    sourceId: lso-finscope-2021
+  - method: "mobile money"
+    percent: 20.0
+    sourceId: lso-finscope-2021
+  - method: "bank transfer / EFT"
+    percent: 15.0
+    sourceId: lso-finscope-2021
+  - method: "cards"
+    percent: 10.0
+    sourceId: lso-finscope-2021
+paymentCulture:
+  popularMethods:
+    - Cash (dominant, small-value daily retail, in maloti)
+    - Mobile money (EcoCash from Econet, M-Pesa from Vodacom) — the main digital-access rail
+    - Bank transfers and South African card rails for formal/larger purchases
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up in restaurants; small gratuity for hotel staff"
+    autoIncludedInBill: true
+    note: "Prices generally include service and taxes; tipping is appreciated but not expected. Dual-currency (loti/rand) acceptance is common."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite, indirect and relationship-first; strong respect for elders and authority (the communal 'botho' ethos). Sesotho greetings are expected; English is used for formal/official business."
+  greetingNorms: "'Lumela' (hello) and 'Kea leboha' (thank you); a handshake is standard. Pleasantries come before business."
+  meetingEtiquette: "Business runs on trust and personal relationships developed before contracts. Decisions can be consensus-driven; avoid direct confrontation."
+  topicsToAvoid:
+    - "Openly criticising elders or authority figures"
+    - "Disparaging Basotho culture or the monarchy's role"
+  giftGivingNotes: "When invited to a home, a modest gift is appreciated; use the right hand when giving and receiving."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: lso-const-1993-lang
+    name: "Constitution of Lesotho (1993, rev. 2025), Section 3(1)"
+    publisher: "Government of Lesotho (via WIPO Lex / Constitute)"
+    url: "https://constituteproject.org/constitution/Lesotho_2025"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "The official languages of Lesotho are Sesotho and English (both set at 1.0, a legal-status flag). A 2025 revision adds isiXhosa, isiPhuthi and sign language to the official list; those are not yet separately modelled here."
+  - id: lso-cia-2024
+    name: "CIA World Factbook — Lesotho (2024)"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/countries/lesotho/"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Ethnic composition ~99.7% Sotho (Basotho), ~0.3% other. Sesotho locallySpoken share ~0.99 is an ESTIMATE proxied from the ethnic Basotho share (no census language table); English foreign/working share ~0.10 ESTIMATE."
+  - id: lso-afdb-currency
+    name: "African Development Bank — African Fixed-Income Guide: Lesotho"
+    publisher: "African Development Bank"
+    url: "https://www.afdb.org/fileadmin/uploads/afdb/Documents/Publications/24108390-FR-LESOTHO.PDF"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "The loti (LSL) is pegged at par with the South African rand (ZAR) under the Common Monetary Area; the rand serves as legal tender in all CMA countries, so both circulate at par in Lesotho."
+  - id: lso-vat-rsl
+    name: "Revenue Services Lesotho (RSL) — tax rates and Value Added Tax Act 2001"
+    publisher: "Revenue Services Lesotho"
+    url: "https://www.rsl.org.ls/tax-rates"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "VAT at 15% since April 2018 (Act No. 9 of 2001); exports and basic foods zero-rated; statutory tax-invoice contents as described."
+  - id: lso-finscope-2021
+    name: "FinScope Lesotho Consumer Survey 2021 (via Lesotho NewsDay)"
+    publisher: "FinScope / Lesotho NewsDay"
+    url: "https://newsdayonline.co.ls/"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "Reports ~87% of adults accessing formal financial services (mobile money a key driver) in 2021. The payment-method-mix percentages here are ESTIMATEs (no by-value mix published): cash ~55%, mobile money ~20%, bank transfer/EFT ~15%, cards ~10%. Operators: EcoCash (Econet, 2012) and M-Pesa (Vodacom, 2013)."

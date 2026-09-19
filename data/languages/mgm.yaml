@@ -1,0 +1,8 @@
+code: mgm
+name:
+  eng: Mambae
+  local: Mambae
+commonPhrases:
+  hello: "Bondia"
+  thankYou: "Obrigadu"
+  goodbye: "Adeus"

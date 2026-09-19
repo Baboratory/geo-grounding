@@ -1,0 +1,172 @@
+alpha3: TLS
+alpha2: TL
+name:
+  eng: Timor-Leste
+  local:
+    - languageCode: tet
+      value: Timor Lorosa'e
+    - languageCode: por
+      value: Timor-Leste
+flagEmoji: "🇹🇱"
+capital: Dili
+isSovereign: true
+# Classified unitary-small: population ~1.5M and the Constitution (Art 1) declares
+# a "democratic, sovereign, independent, unitary" state. The 14 municipalities
+# plus the Oecusse special administrative region are administrative divisions,
+# not distinct cultural-historical sub-state identities, so a single synthetic
+# whole-country WHOLE region carries all region-level content.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: tet
+    domain: official
+    speakersShare: 1.0
+    sourceId: tls-const-2002-lang
+  - languageCode: por
+    domain: official
+    speakersShare: 1.0
+    sourceId: tls-const-2002-lang
+  - languageCode: tet
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: tls-census-2015-lang
+  - languageCode: mgm
+    domain: locallySpoken
+    speakersShare: 0.16
+    sourceId: tls-census-2015-lang
+  - languageCode: bfn
+    domain: locallySpoken
+    speakersShare: 0.055
+    sourceId: tls-census-2015-lang
+  - languageCode: ind
+    domain: foreign
+    speakersShare: 0.45
+    sourceId: tls-census-2015-lang
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.2
+    sourceId: tls-census-2015-lang
+  - languageCode: por
+    domain: foreign
+    speakersShare: 0.35
+    sourceId: tls-census-2015-lang
+ethnicGroups:
+  # No official census publishes ethnicity by race; the dominant grouping is the
+  # ethnolinguistic split from the 2015 census mother-tongue data and the CIA
+  # World Factbook, flagged as ESTIMATE.
+  - group: "Austronesian (Malayo-Polynesian: Tetum, Mambai, Tokodede, Galoli, Kemak, Baikeno)"
+    percent: 85.0
+    sourceId: tls-cia-2023
+  - group: "Melanesian-Papuan (Timor-Alor-Pantar: Bunak, Fataluku, Makasai)"
+    percent: 13.0
+    sourceId: tls-cia-2023
+  - group: Other (incl. small Chinese community)
+    percent: 2.0
+    sourceId: tls-cia-2023
+timezones:
+  - name: Asia/Dili
+    standardUtcOffset: "UTC+9"
+    observesDst: false
+currency:
+  code: USD
+  symbol: "$"
+  name: United States dollar
+legalConstraints:
+  - topic: "civil law system with customary law recognition"
+    description: "Timor-Leste has a civil-law system (modelled on Portuguese law, with Indonesian law and UNTAET regulations as subsidiary sources). The Constitution (Art 2(4)) requires the State to recognise and value the norms and customs of East Timor, so customary law can apply alongside codified law — relevant when entering contracts or resolving disputes."
+    sourceId: tls-const-2002-law
+  - topic: "thin banking and heavy cash economy"
+    description: "Domestic credit is among the lowest in the world (~14% of GDP, 2018) and roughly a third of adults are excluded from formal financial services. ATMs are scarce and concentrated in Dili/Baucau/Maliana and often empty on weekends — expect a cash-first retail environment and difficulty with card acceptance outside the capital."
+    sourceId: tls-wb-2019
+  - topic: "nascent national payment system"
+    description: "The P24 national switch and e-wallets (MOSAN from Telemor/Viettel and T-PAY from Telkomcel) are early-stage. There is no comprehensive consumer data-protection or e-commerce specific statute as of publication (UNCTAD Cyberlaw Tracker lists data protection as in development/none)."
+    sourceId: tls-unctad-cyberlaw
+paymentMethodShares:
+  # No authoritative payment-method-mix census exists; these are ESTIMATEs from
+  # BCTL and World Bank analysis, following the JAM precedent.
+  - method: "cash"
+    percent: 85.0
+    sourceId: tls-bctl-2022
+  - method: "mobile money / e-wallet"
+    percent: 9.0
+    sourceId: tls-bctl-2022
+  - method: "debit/credit card"
+    percent: 3.0
+    sourceId: tls-bctl-2022
+  - method: "bank transfer"
+    percent: 3.0
+    sourceId: tls-bctl-2022
+paymentCulture:
+  popularMethods:
+    - Cash (dominant, daily retail)
+    - Mobile money / e-wallets (MOSAN, T-PAY via the P24 switch) — growing for P2P and airtime
+    - Debit/credit cards (only at international hotels and select Dili venues)
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up in restaurants and informal day-labour gratuities"
+    autoIncludedInBill: false
+    note: "Tipping is not customary or expected in the cash economy."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Reserved, respectful and polite; titles and seniority matter. Personal trust and kinship weigh more heavily than written contracts."
+  greetingNorms: "'Bondia' (good morning) on arrival and 'Adeus' on leaving; a handshake is standard. Avoid using the left hand."
+  meetingEtiquette: "Rapport is built over coffee or tea before business; decisions are often slow and consensus-driven, and elders present are given deference."
+  topicsToAvoid:
+    - "Unsolicited reference to the 1975-1999 Indonesian occupation and the 1999 violence"
+    - "Sensitive clan and political-faction divisions"
+    - "Dismissing Catholic or animist beliefs"
+  giftGivingNotes: "When invited to a home, a modest token gift is appreciated and should be presented respectfully."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: tls-const-2002-lang
+    name: "Constitution of the Democratic Republic of Timor-Leste (RDTL) 2002, Arts 13 and 159"
+    publisher: "Government of Timor-Leste"
+    url: "https://timor-leste.gov.tl/wp-content/uploads/2010/03/Constitution_RDTL_ENG.pdf"
+    year: 2002
+    accessedDate: "2026-09-18"
+    note: "Art 13 makes Tetum and Portuguese co-official languages; Arts 13/159 recognise Indonesian and English as constitutional working languages."
+  - id: tls-const-2002-law
+    name: "Constitution of the Democratic Republic of Timor-Leste (RDTL) 2002, Arts 1 and 2(4)"
+    publisher: "Government of Timor-Leste"
+    url: "https://timor-leste.gov.tl/wp-content/uploads/2010/03/Constitution_RDTL_ENG.pdf"
+    year: 2002
+    accessedDate: "2026-09-18"
+    note: "Art 1 declares a democratic, sovereign, independent, unitary state; Art 2(4) obliges the State to recognise and value the norms and customs of East Timor (customary law recognition)."
+  - id: tls-census-2015-lang
+    name: "Timor-Leste Population and Housing Census 2015 (mother tongue and literacy), Highlights"
+    publisher: "National Statistics Directorate, General Directorate of Statistics, Timor-Leste"
+    url: "https://www.laohamutuk.org/DVD/2019/WBTLEROct2019.pdf"
+    year: 2015
+    accessedDate: "2026-09-18"
+    note: "Mother-tongue and literacy estimates: Tetum functional majority ~0.90; Mambai ~16%; Bunak ~5.5%; Indonesian (working language) ~45%; English ~20%; Portuguese as L2 ~35%. Figures are ESTIMATEs (census literacy rates proxied; no clean speaker proportions published)."
+  - id: tls-cia-2023
+    name: "CIA World Factbook — Timor-Leste (2023 archive)"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/about/archives/2023/countries/timor-leste"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "Ethnolinguistic split from mother-tongue data: ~85% Austronesian (Tetum, Mambai, Tokodede, Galoli, Kemak, Baikeno), ~13% Melanesian-Papuan (Bunak, Fataluku, Makasai), ~2% other incl. small Chinese minority. ESTIMATE; no official race-census exists."
+  - id: tls-wb-2019
+    name: "World Bank — Unleashing the Private Sector: Timor-Leste Country Economic Memorandum (2019)"
+    publisher: "World Bank"
+    url: "https://www.laohamutuk.org/DVD/2019/WBTLEROct2019.pdf"
+    year: 2019
+    accessedDate: "2026-09-18"
+    note: "Documents the thin banking/ATM network, domestic credit ~14% of GDP (among the lowest in the world), and ~35% of adults excluded from formal financial services."
+  - id: tls-bctl-2022
+    name: "Banco Central de Timor-Leste (BCTL) — Economic Bulletin and digital financial services reporting"
+    publisher: "Banco Central de Timor-Leste"
+    url: "https://www.bancocentral.tl/"
+    year: 2022
+    accessedDate: "2026-09-18"
+    note: "Payment-method shares are ESTIMATEs (no authoritative mix): cash ~85%, mobile money/e-wallet ~9%, card ~3%, bank transfer ~3%. Mobile operators with e-wallets: Telemor (Viettel) MOSAN and Telkomcel T-PAY."
+  - id: tls-unctad-cyberlaw
+    name: "UNCTAD Cyberlaw Tracker — Timor-Leste (data protection / e-commerce status)"
+    publisher: "UNCTAD"
+    url: "https://unctad.org/page/cyberlaw-tracker"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Lists data-protection legislation as in development/none and no dedicated e-commerce statute as of publication — relevant to AI/data agents operating in Timor-Leste."

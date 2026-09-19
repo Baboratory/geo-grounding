@@ -1,0 +1,131 @@
+code: WHOLE
+name:
+  eng: Lesotho
+  local:
+    - languageCode: sot
+      value: Lesotho
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Lesotho is classified
+# unitary-small (single synthetic WHOLE region).
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland: mild summers and cool, dry winters, with the country's high altitude (the lowest point is ~1,400 m) giving it one of the coolest climates for its latitude in Africa. Rain falls mainly in summer (October-April); winters are dry, sunny and cold in the highlands, with occasional snow on the peaks."
+landmarks:
+  - name: Maluti / Maloti Mountains
+    description: "The high mountain range running through the centre of the country, with Thabana Ntlenyana (3,482 m) the highest peak in Southern Africa."
+  - name: Thaba Bosiu
+    description: "A flat-topped mountain fortress and the historic stronghold of King Moshoeshoe I, founder of the Basotho nation."
+  - name: Katse Dam
+    description: "A large arch dam in the Maluti Mountains and the centrepiece of the Lesotho Highlands Water Project supplying South Africa."
+  - name: Sehlabathebe National Park
+    description: "A high-altitude park of rugged peaks, rock pools and San (Bushman) rock art, a UNESCO World Heritage (mixed) site."
+  - name: Sani Pass
+    description: "A dramatic mountain pass linking Lesotho to South Africa's KwaZulu-Natal, often negotiated by 4x4."
+culturalTraits:
+  - "A homogeneous Basotho identity and language (Sesotho) spanning the whole country"
+  - "The 'botho' communal ethos — mutual respect, cooperation and care for others"
+  - "A strong traditional monarchy at the centre of national identity"
+  - "A proud mountain-kingdom identity as the only state entirely above 1,000 m elevation"
+prideOf:
+  - "Being the 'Kingdom in the Sky' — the only country lying entirely above 1,000 metres"
+  - "The legacy of King Moshoeshoe I and the mountain stronghold of Thaba Bosiu"
+  - "The Lesotho Highlands Water Project and its engineering achievements"
+  - "The national dress of woven Basotho blankets and the conical mokorotlo hat"
+animals:
+  popular:
+    - Cattle (highly valued in Basotho culture, historically as bride-wealth)
+    - Sheep and angora goats
+    - Horses (ponies of the mountains)
+  unique:
+    - The Maluti minnow (an endangered endemic fish)
+    - Bearded vultures in the Maluti mountains
+    - San rock-art sites recording the region's fauna
+industries:
+  - Textiles and garments (a major exporter to South Africa and the US, e.g. AGOA trade)
+  - Water export (Lesotho Highlands Water Project)
+  - Diamond mining (e.g. Letseng mine)
+  - Manufacturing and light assembly
+  - Tourism associated with the mountain landscapes
+sports:
+  - Football (most popular)
+  - Athletics and long-distance running
+  - Traditional mountain-pony riding
+  - Netball and cricket
+religions:
+  - name: Christian (Protestant and Roman Catholic)
+    percent: 80.0
+    sourceId: lso-religion
+  - name: Other (incl. Islam, Hinduism and indigenous beliefs)
+    percent: 20.0
+    sourceId: lso-religion
+entertainment:
+  - season: summer
+    items:
+      - "Hiking and pony trekking in the Maluti mountains"
+      - "Festivals and cultural ceremonies (e.g. Morija Arts and Cultural Festival)"
+      - "Fishing in the highland dams"
+  - season: winter
+    items:
+      - "Skiing and winter scenery at Afriski in the Maluti"
+      - "Indoor community gatherings and storytelling"
+  - season: allYear
+    items:
+      - "Football in the towns"
+      - "Music and dance performances (e.g. famo music)"
+      - "Traditional ceremonies and cattle-culture gatherings"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Fresh maize and vegetables from the summer gardens"
+      - "Papa (maize porridge) with stews"
+  - season: winter
+    items:
+      - "Warm, hearty stews"
+  - season: allYear
+    items:
+      - "Papa (maize porridge), the staple"
+      - "Moroho (cooked leafy greens)"
+      - "Motoho (fermented sorghum porridge)"
+      - "Meat stews (beef and mutton) and grilled meat (chisa nyama style)"
+      - "Sesotho traditional beer made from sorghum"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The woven Basotho blanket (the kobo) worn over the shoulder, and the conical mokorotlo straw hat — the country's most recognisable traditional attire"
+seasonCalendar:
+  - season: summer
+    months: [11, 12, 1, 2, 3, 4]
+  - season: winter
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard office hours roughly 8:00 am-5:00 pm, Monday-Friday, with a midday break. Shops often open 8:00 am-1:00 pm and 2:00-5:00 pm; banks close earlier (~3:30-4:00 pm) with a Saturday half-day."
+  lunchBreakTiming: "A lunch break around 1:00-2:00 pm."
+  notableShutdownPeriods:
+    - period: "Christmas-New Year (December-early January)"
+      description: "Business and office activity slows sharply over the festive season; the region's low commercial-activity window."
+      sourceId: lso-holidays-2026
+    - period: "Easter (Good Friday and Easter Monday)"
+      description: "Movable holiday around March-April; offices and banks closed."
+      sourceId: lso-holidays-2026
+    - period: "Moshoeshoe's Day (11 March) and Independence Day (4 October)"
+      description: "National public holidays with closures."
+      sourceId: lso-holidays-2026
+  notes: "No daylight-saving time (UTC+2, same as South Africa — no cross-border scheduling delta)."
+sources:
+  - id: lso-religion
+    name: "Religious composition of Lesotho (CIA World Factbook and survey data)"
+    publisher: "CIA / demographic references"
+    url: "https://www.cia.gov/the-world-factbook/countries/lesotho/"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "An estimated ~80% Christian (split between Protestant and Roman Catholic) with the remainder other faiths and indigenous beliefs; ESTIMATE (no precise official census published)."
+  - id: lso-holidays-2026
+    name: "Lesotho public holidays 2026"
+    publisher: "Government of Lesotho / public holiday calendars"
+    url: "https://publicholidays.africa/lesotho/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Public holidays including New Year, Moshoeshoe's Day (11 March), Good Friday, Easter Monday, Labour/Workers' Day, Ascension, King's Birthday, Independence Day (4 October), and Christmas/Boxing Day."
