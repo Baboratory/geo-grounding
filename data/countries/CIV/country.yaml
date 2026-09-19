@@ -1,0 +1,165 @@
+alpha3: CIV
+alpha2: "CI"
+name:
+  eng: Côte d'Ivoire
+  local:
+    - languageCode: fra
+      value: République de Côte d'Ivoire
+flagEmoji: "🇨🇮"
+capital: Yamoussoukro
+isSovereign: true
+# Classified unitary-small per the batch-19 brief. Although Côte d'Ivoire's
+# population (~29M at the 2021 census) is comparatively large, it still fails the
+# two DESIGN.md unitary-large criteria needed to justify curated regions:
+# (1) French is the sole *official* language — Baoulé, Dioula, Anyin and the other
+# indigenous languages are widely spoken *national* languages, not co-official
+# regional languages attached to autonomous regions; (2) there is no widely
+# recognized cultural-historical federal or self-governing regional identity —
+# Ivorian national identity is explicitly unifying and the districts are
+# administrative. Côte d'Ivoire therefore stays unitary-small with one synthetic
+# WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: civ-official-language
+  - languageCode: bci
+    domain: locallySpoken
+    speakersShare: 0.23
+    sourceId: civ-language
+  - languageCode: dyu
+    domain: locallySpoken
+    speakersShare: 0.20
+    sourceId: civ-language
+  - languageCode: any
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: civ-language
+# French is the sole official language. The principal indigenous vernaculars are
+# Baoulé (bci — the most spoken Akan language), Dioula (dyu — the trading lingua
+# franca across the north and in urban markets) and Anyin (any — an Akan language
+# of the east). No official language census exists, so the locallySpoken shares
+# are ESTIMATES from documentary speaker estimates, flagged in the source note.
+ethnicGroups:
+  # 2021 census (RGPH) Ivorian-nationality ethnic composition.
+  - group: Akan
+    percent: 38.0
+    sourceId: civ-ethnic
+  - group: Northern Mande (incl. Dioula)
+    percent: 22.0
+    sourceId: civ-ethnic
+  - group: Voltaic/Gur
+    percent: 22.0
+    sourceId: civ-ethnic
+  - group: Kru
+    percent: 9.1
+    sourceId: civ-ethnic
+  - group: Southern Mande
+    percent: 8.6
+    sourceId: civ-ethnic
+  - group: Naturalized Ivorian
+    percent: 0.3
+    sourceId: civ-ethnic
+# These shares are the Ivorian-nationality breakdown of the 2021 census; roughly
+# 22% of total residents are foreign-born (largely from Burkina Faso and Mali) and
+# are not shown in the Ivorian-only ethnic groups above.
+timezones:
+  - name: Africa/Abidjan
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+currency:
+  code: XOF
+  symbol: "FCFA"
+  name: West African CFA franc
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Côte d'Ivoire is NOT an EU member or EEA state (a sovereign republic, independent from France in 1960). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: civ-sovereign
+  - topic: "data protection"
+    description: "Loi n° 2013-450 du 19 juin 2013 relative à la protection des données à caractère personnel governs personal-data processing; the Autorité de Protection des Données à Caractère Personnel (APDP) is the national regulator. National law, not GDPR."
+    sourceId: civ-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash (West African CFA franc, XOF) — dominant for daily retail and market payments"
+    - "Mobile money (Orange Money, MTN MoMo, Wave) — the leading financial-access channel in the region"
+    - "Bank transfers and ATMs (BCEAO-licensed banks)"
+    - "Cards — limited outside formal retail and larger merchants"
+  tipping:
+    expected: false
+    typicalAmount: "Small discretionary sums (~5%) or rounding in formal/urban restaurants; appreciated but not mandated"
+    autoIncludedInBill: false
+    note: "Tipping is not institutionalized in Côte d'Ivoire. A small gratuity is appreciated in formal restaurants and for porters, but local markets and small vendors expect exact cash."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "French is the official working language; indigenous languages (Baoulé, Dioula, Anyin) are spoken socially. Use Monsieur/Madame and titles, especially with elders; first names follow once a relationship forms."
+  greetingNorms: "A warm handshake and a friendly 'Bonjour/Bonsoir' open every interaction; greeting is a genuine ritual before business."
+  meetingEtiquette: "Relationship-building and trust usually precede transactions; Ivorians value politeness, humour and indirectness — work toward senior/consensual agreement. Punctuality is appreciated though local meetings can start late."
+  topicsToAvoid:
+    - "Ethnic or political sensitivities, and the post-2010 crisis"
+    - "Dismissing the importance of seniority and family"
+    - "Overly blunt public criticism of a counterpart"
+    - "Reducing national identity to cocoa or tourism"
+  giftGivingNotes: "Not required in business. A small considerate gift is appreciated once a relationship forms; hospitality is generously extended and reciprocated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: civ-official-language
+    name: "Côte d'Ivoire — CIA World Factbook (Languages)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/cote-divoire/#people-and-society"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Confirms French is the official language of Côte d'Ivoire; the indigenous vernaculars (Baoulé, Dioula, Anyin and others) are not official. Basis for the fra official row."
+  - id: civ-language
+    name: "Baoulé / Dyula / Anyin — SIL ISO 639-3 & Glottolog (Composite estimate)"
+    publisher: "SIL ISO 639-3 / Glottolog (Max Planck)"
+    url: "https://www.ethnologue.com/language/bci/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Confirms ISO 639-3 codes bci (Baoulé), dyu (Dyula), any (Anyin). No official language census exists, so the locallySpoken shares are ESTIMATES drawn from documentary speaker estimates: Baoulé ~23% (most-spoken Akan language), Dioula ~20% (trading lingua franca, northern and urban), Anyin ~3%."
+  - id: civ-ethnic
+    name: "Côte d'Ivoire — CIA World Factbook (Ethnic groups, 2021 census)"
+    publisher: "CIA World Factbook / Institut National de la Statistique (RGPH 2021)"
+    url: "https://www.cia.gov/the-world-factbook/countries/cote-divoire/#people-and-society"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "2021 RGPH Ivorian-nationality ethnic composition: Akan 38.0%, Northern Mande 22.0%, Voltaic/Gur 22.0%, Kru 9.1%, Southern Mande 8.6%, naturalized 0.3%; ~22% of total residents are foreign-born. Basis for ethnicGroups."
+  - id: civ-population
+    name: "Côte d'Ivoire — CIA World Factbook / RGPH 2021"
+    publisher: "Institut National de la Statistique (RGPH 2021)"
+    url: "https://www.cia.gov/the-world-factbook/countries/cote-divoire/"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "December 2021 census population 29,389,150; mid-2020s estimates ~31M. Noted in the classification comment."
+  - id: civ-timezone
+    name: "IANA time zone database (zonenow.tab)"
+    publisher: "IANA"
+    url: "https://data.iana.org/time-zones/tzdb/zonenow.tab"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Abidjan = UTC+00:00 year-round; no DST observed."
+  - id: civ-currency
+    name: "Banque Centrale des Etats de l'Afrique de l'Ouest (BCEAO) — currency"
+    publisher: "Banque Centrale des Etats de l'Afrique de l'Ouest (BCEAO)"
+    url: "https://www.bceao.int/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "West African CFA franc (XOF), symbol FCFA, issued by the BCEAO for the eight UEMOA states including Côte d'Ivoire."
+  - id: civ-data-protection
+    name: "Loi n° 2013-450 du 19 juin 2013 relative à la protection des données à caractère personnel"
+    publisher: "Republic of Côte d'Ivoire (per University of Passau Global Data Law mapping)"
+    url: "https://jura.uni-passau.de/fileadmin/dokumente/fakultaeten/jura/institute/Fredi/Mapping_Global_Data_Law/L02_-_Africa.pdf"
+    year: 2013
+    accessedDate: "2026-09-19"
+    note: "Names the national personal-data protection law and its regulator (APDP). Legal basis for the data-protection constraint. National law, not GDPR."
+  - id: civ-sovereign
+    name: "Côte d'Ivoire — CIA World Factbook"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/cote-divoire/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Confirms Côte d'Ivoire is a sovereign republic (independent 1960), not an EU/EEA state. Basis for the non-EU legal-status constraint."

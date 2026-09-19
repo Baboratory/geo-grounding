@@ -1,0 +1,175 @@
+code: WHOLE
+name:
+  eng: Republic of the Congo
+  local:
+    - languageCode: fra
+      value: République du Congo
+    - languageCode: lin
+      value: Republíki ya Kongó
+    - languageCode: mkw
+      value: Repubilika ya Kôngo
+# Generic country-wide fallback content for the Republic of the Congo
+# (unitary-small, single synthetic whole region). Used via the
+# 'whole-country-fallback' path.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — hot, humid and wet year-round; dominant across the northern and central forest (the dense Sangha and Odzala forest blocks)."
+  - koppenCode: Aw
+    description: "Tropical savanna — the drier south (Pool, Plateaux, Brazzaville area) with a distinct dry season amid overall tropical heat."
+landmarks:
+  - name: Nouabalé-Ndoki National Park
+    description: "Pristine rainforest park in the far north, core of the transboundary Sangha Trinational World Heritage Site; a stronghold for lowland gorillas and forest elephants."
+    unescoWorldHeritage: true
+  - name: Odzala-Kokoua National Park
+    description: "One of Africa's oldest protected areas and a leading lowland-gorilla and forest-elephant destination in the Congo Basin's heart."
+  - name: Pool Malebo and the Congo River
+    description: "The wide bend of the Congo River where Brazzaville (Republic of the Congo) faces Kinshasa (DR Congo) across the water — a vivid riverine crossroads."
+  - name: Basilique Sainte-Anne du Congo, Brazzaville
+    description: "Renowned modernist church (1949) with a distinctive curly roof, a landmark of Brazzaville's architecture and religious life."
+  - name: Brazzaville and Pointe-Noire
+    description: "The capital on the Congo River and the Atlantic port city, linked by the Congo-Océan railway — the country's two urban poles."
+culturalTraits:
+  - "Congolese rumba and soukous — the country's world-famous music, inscribed by UNESCO (2021) as shared heritage with the DRC"
+  - "La sape — the dandy styling subculture (sapeurs) cherished in Brazzaville and Kinshasa"
+  - "Kongo heritage, including the historical Kingdom of Kongo and its Bakongo descendants"
+  - "River culture along the Congo and its tributaries"
+  - "Fêtes (celebration) and a vibrant, music-filled social life"
+  - "'La débrouille' — a pragmatic, can-do everyday ethos"
+prideOf:
+  - "Congolese rumba and soukous as a global musical export"
+  - "Extraordinary rainforest biodiversity and one of Africa's largest lowland-gorilla populations (Nouabalé-Ndoki, Odzala-Kokoua)"
+  - "The Congo River — one of the world's great waterways, and the riverine life it sustains"
+  - "Oil wealth and the urban vitality of Brazzaville and Pointe-Noire"
+  - "Sapeurs and the stylish swagger of Congolese youth culture"
+animals:
+  popular:
+    - "Western lowland gorilla — prominent in the northern rainforest parks"
+    - "Forest elephant"
+    - "Chimpanzee"
+    - "Bongo antelope and forest buffalo"
+    - "Crocodiles and hippopotamuses along the rivers"
+  unique:
+    - "Pygmy peoples of the northern forests (ancient hunter-gatherer heritage)"
+    - "The Congo Basin forest block shared with the Sangha Trinational World Heritage Site"
+    - "Lowland bongo and duiker species of the dense northern rainforests"
+industries:
+  - "Oil and gas — the dominant export and state-revenue pillar"
+  - "Timber and forestry (tropical hardwoods, including in the northern forests)"
+  - "Mining (copper, lead, zinc, phosphates/potash)"
+  - "Pointe-Noire port and the Congo-Océan railway for regional logistics"
+  - "Agriculture and fisheries along the river and coast"
+sports:
+  - "Football (soccer) — the national passion"
+  - "Basketball and handball"
+  - "Athletics and boxing"
+religions:
+  - name: Roman Catholic
+    percent: 33.1
+    sourceId: cog-religion
+  - name: Awakening Churches / Christian Revival
+    percent: 22.3
+    sourceId: cog-religion
+  - name: Protestant
+    percent: 19.9
+    sourceId: cog-religion
+  - name: Salutiste (Salvation Army)
+    percent: 2.2
+    sourceId: cog-religion
+  - name: Muslim
+    percent: 1.6
+    sourceId: cog-religion
+  - name: Kimbanguiste
+    percent: 1.5
+    sourceId: cog-religion
+  - name: Other
+    percent: 8.1
+    sourceId: cog-religion
+  - name: No religion
+    percent: 11.3
+    sourceId: cog-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Live rumba, soukous and concert culture in Brazzaville and Pointe-Noire"
+      - "Football matches and national-team fixtures"
+      - "River and nightlife in the two main cities"
+  - season: dry
+    items:
+      - "Best months for gorilla and forest safaris in the Odzala/Nouabalé-Ndoki forest parks"
+      - "Outdoor markets and fête culture in the drier months"
+  - season: wet
+    items:
+      - "River trips along the Congo in the rainier months"
+      - "Indoor venues and music-club sessions in the wet season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Grilled fish (often fresh from the Congo or the Atlantic) with cassava or plantain"
+      - "Cassava (manioc) based dishes, including chikwangue and manioc flour porridge"
+      - "Palm-nut and peanut (groundnut) sauces over meat or fish"
+      - "Moambe and leafy stews such as saka-saka and pondu"
+      - "Fresh tropical fruit (mango, pineapple, banana)"
+  - season: wet
+    items:
+      - "Hearty stews and soups in the rainier months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colorful wax-print (pagne) clothing for women and formal wear for men"
+      - "Light cotton attire suited to the tropical climate"
+      - "Sapeur dandy style — boldly styled suits among fashion-forward urban youth"
+  - season: dry
+    items:
+      - "Lightweight summer wear in the June-September dry season"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 07:30-15:30/16:00 Mon-Fri; retail and markets often run Mon-Sat."
+  lunchBreakTiming: "A midday break is common."
+  notableShutdownPeriods:
+    - period: "August and year-end holidays"
+      description: "Reduced business through August (long dry season) and again over Christmas-New Year."
+    - period: "National and religious public holidays"
+      description: "Several public holidays (e.g. 5 July independence) slow official activity."
+  notes: "Sunday is widely a rest day, especially outside commercial and port zones; August is a common annual-leave period."
+sources:
+  - id: cog-religion
+    name: "Republic of the Congo — Religions (2010 estimate)"
+    publisher: "CIA World Factbook 2024 (via Theodora)"
+    url: "https://theodora.com/world_fact_book_2024/congo_republic_of_the/congo_republic_of_the_people.html"
+    year: 2010
+    accessedDate: "2026-09-19"
+    note: "Religious composition (2010 est.): Roman Catholic 33.1%, Awakening/Christian Revival 22.3%, Protestant 19.9%, Salutiste 2.2%, Muslim 1.6%, Kimbanguiste 1.5%, other 8.1%, none 11.3%. Many blend Christianity with traditional beliefs."
+  - id: cog-unesco-sang
+    name: "Sangha Trinational — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1360/"
+    year: 2012
+    accessedDate: "2026-09-19"
+    note: "Inscribed 2012 covering Nouabalé-Ndoki (Congo), Lobéké (Cameroon) and Dzanga-Sangha (CAR) — basis for the unescoWorldHeritage flag on Nouabalé-Ndoki."
+  - id: cog-odzala
+    name: "Odzala-Kokoua National Park"
+    publisher: "African Parks"
+    url: "https://www.africanparks.org/the-parks/odzala-kokoua"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Background on Odzala's lowland gorillas, forest elephants and ecotourism."
+  - id: cog-economy
+    name: "Republic of the Congo — country economic overview"
+    publisher: "World Bank"
+    url: "https://www.worldbank.org/en/country/congo/overview"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Supports the industries listing (oil/gas, timber, mining, logistics) and transport/urban notes."
+  - id: cog-culture
+    name: "Congolese rumba — UNESCO intangible cultural heritage"
+    publisher: "UNESCO"
+    url: "https://ich.unesco.org/en/RL/congolese-rumba-01511"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "Congolese rumba inscribed as shared intangible heritage of DRC and Congo — basis for the rumba/soukous cultural trait and prideOf."

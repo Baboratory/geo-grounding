@@ -1,0 +1,163 @@
+code: WHOLE
+name:
+  eng: Senegal
+  local:
+    - languageCode: fra
+      value: République du Sénégal
+# Generic country-wide fallback content for Senegal (unitary-small, single
+# synthetic whole-country region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (Sahel) in the north, with a long dry season and low rainfall."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) in the central and southern zones, with a single wet season roughly July-October and a long dry season the rest of the year."
+  - koppenCode: Am
+    description: "Tropical monsoon in the humid southern Casamance region, the wettest part of the country."
+landmarks:
+  - name: Gorée Island
+    description: "UNESCO World Heritage Site (1978) off Dakar — a poignant memorial to the Atlantic slave trade and the 'House of Slaves'."
+    unescoWorldHeritage: true
+  - name: Saint-Louis
+    description: "UNESCO World Heritage Site (2000) — a historic colonial-era island city at the mouth of the Senegal River."
+    unescoWorldHeritage: true
+  - name: Djoudj National Bird Sanctuary
+    description: "UNESCO World Heritage Site (1981) in the Senegal River delta — a major wetland refuge for migratory birds, including thousands of flamingos and white pelicans."
+    unescoWorldHeritage: true
+  - name: Saloum Delta National Park
+    description: "UNESCO-listed (2011) mangrove delta south of the Sine-Saloum, rich in birdlife and traditional fishing culture."
+  - name: Lake Retba (Lac Rose)
+    description: "The famous pink salt lake north-east of Dakar, its colour from halophilic algae; salt harvesting with wooden canoes."
+culturalTraits:
+  - "Teranga — the deep-rooted culture of hospitality and generosity toward guests"
+  - "The Sufi brotherhoods (especially Mourides and Tijaniyya) — central to the spiritual and social fabric, with the holy city of Touba and the Magal pilgrimage"
+  - "Sabar drumming and traditional dance, and the modern mbalax of Youssou N'Dour"
+  - "Griot (jali) oral tradition and storytelling"
+  - "Senegalese wrestling ('laamb') — a national passion with centuries-old rural roots"
+  - "Wolofized urban culture and the influence of French and Arabic languages"
+  - "'Pink Lake' and coastal leisure culture around Dakar"
+prideOf:
+  - "Teranga — world-renowned Senegalese hospitality"
+  - "African cultural leadership: music, art, cinema, and the Dakar Biennale"
+  - "Being a stable, democratic republic and a cultural capital of Francophone Africa"
+  - "Senegalese wrestling and footballing success"
+  - "The coastal beauty of Dakar, Gorée and the Saloum delta"
+animals:
+  popular:
+    - "African flamingos and great white pelicans (Djoudj)"
+    - "Hippopotamus (Senegal River and Niokolo-Koba)"
+    - "West African lion (Niokolo-Koba National Park)"
+    - "Antelopes, duikers and warthogs"
+  unique:
+    - "Manatee (African manatee) in coastal and riverine waters"
+    - "Sahara/North African ostrich (rare)"
+    - "Nile crocodile in the river deltas"
+industries:
+  - "Agriculture — groundnuts (peanuts), millet, maize, rice and horticulture"
+  - "Fishing and fish processing — a leading sector and export"
+  - "Phosphate mining (Taïba)"
+  - "Tourism — Dakar's coastline, Gorée, Saint-Louis and the Saloum delta"
+  - "Emerging services, tech and creative sectors around Dakar"
+sports:
+  - "Football (soccer) — hugely popular; Senegal won the 2021 Africa Cup of Nations"
+  - "Senegalese wrestling ('laamb') — a national institution blending sport and tradition"
+  - "Basketball — a growing national passion"
+  - "Athletics (running)"
+religions:
+  - name: Muslim (Sunni, mostly Sufi brotherhoods)
+    percent: 97.2
+    sourceId: sen-religion
+  - name: Christian (mostly Roman Catholic)
+    percent: 2.7
+    sourceId: sen-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Sabar drumming, mbalax and dance nights across Dakar"
+      - "Senegalese wrestling ('laamb') tournaments"
+      - "Football matches and the fan culture"
+      - "Griot storytelling and cultural performances"
+  - season: dry
+    items:
+      - "Beach and resort life on the Petite Côte and around Dakar (Nov-Jun)"
+      - "Festivals and the Dakar Biennale in the cooler dry months"
+  - season: wet
+    items:
+      - "Indoor music and concert events during the rains"
+      - "Community and religious gatherings in the wet season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Thiéboudienne (ceebu jën) — the national dish of fish and rice"
+      - "Yassa — marinated grilled chicken or fish with caramelized onions"
+      - "Mafé — peanut-butter stew, often with meat"
+      - "Thiou — tomato-based fish soup"
+      - "Bissap — hibiscus flower drink"
+      - "Kinkeliba — bush tea"
+  - season: dry
+    items:
+      - "Grilled fish and festive dishes of the dry season"
+      - "Chilled bissap and juices in the heat"
+  - season: wet
+    items:
+      - "Hearty stews and warm rice dishes during the rains"
+      - "Soups made with wet-season vegetables"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Boubou / grand boubou — flowing embroidered robes worn by men"
+      - "Wax-print and bazin riche cloth dresses for women, especially for celebrations"
+      - "Sabar dance attire and traditional headwraps"
+  - season: dry
+    items:
+      - "Light natural-fibre boubous for the hot dry season"
+      - "Colourful festivity dress for religious and family celebrations"
+  - season: wet
+    items:
+      - "Practical everyday dress suited to the rainy season"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4, 5, 6]
+  - season: wet
+    months: [7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-16:00/17:00 Mon-Fri; many workplaces pause midday on Friday for prayers; markets and retail are often open six days a week."
+  lunchBreakTiming: "A midday break is common."
+  notableShutdownPeriods:
+    - period: "Ramadan and Eid al-Fitr"
+      description: "Reduced daytime activity and office hours during Ramadan; closures for Eid al-Fitr and Eid al-Adha (Tabaski)."
+    - period: "Magal de Touba"
+      description: "The Mouride grand pilgrimage to Touba (date on the Islamic calendar) — a major period of reduced business nationwide."
+    - period: "Christmas and New Year"
+      description: "Reduced business in late December and early January."
+  notes: "Friday midday prayer is broadly observed. Much business life is concentrated in Dakar and along the coast; agriculture follows the short wet season."
+sources:
+  - id: sen-religion
+    name: "Senegal People 2024 — CIA World Factbook"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/senegal/#people-and-society"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "2019 estimates: Muslim 97.2%, Christian 2.7%. Basis for the religions block."
+  - id: sen-unesco-goree
+    name: "Island of Gorée — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/26/"
+    year: 1978
+    accessedDate: "2026-09-19"
+    note: "Inscribed 1978; basis for the Gorée landmark and unescoWorldHeritage flag."
+  - id: sen-unesco-saintlouis
+    name: "Island of Saint-Louis — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/956/"
+    year: 2000
+    accessedDate: "2026-09-19"
+    note: "Inscribed 2000; basis for the Saint-Louis landmark and unescoWorldHeritage flag."
+  - id: sen-unesco-djoudj
+    name: "Djoudj National Bird Sanctuary — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/25/"
+    year: 1981
+    accessedDate: "2026-09-19"
+    note: "Inscribed 1981; basis for the Djoudj landmark and unescoWorldHeritage flag."
