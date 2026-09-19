@@ -1,0 +1,115 @@
+code: WHOLE
+name:
+  eng: Qatar
+  local:
+    - languageCode: arb
+      value: قطر
+# Generic country-wide fallback content for Qatar (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate — extremely hot, arid summers (often >40°C) with high coastal humidity; mild, dry winters; negligible rainfall (~75 mm/yr). Humidity makes the hot season severe."
+landmarks:
+  - name: Museum of Islamic Art
+    description: "I.M. Pei-designed museum on Doha's Corniche housing a world-class collection of Islamic art."
+  - name: National Museum of Qatar
+    description: "Jean Nouvel's desert-rose-inspired museum built around the historic Sheikh Abdullah bin Jassim Al Thani Palace."
+  - name: Al Zubarah
+    description: "UNESCO World Heritage fort and pearling town on the north-west coast."
+  - name: Katara Cultural Village
+    description: "Cultural centre for theatre, galleries, amphitheatre and heritage events."
+  - name: Education City / Qatar Foundation
+    description: "Campus hub of international universities and research institutions."
+culturalTraits:
+  - "Deep hospitality (majlis tradition) — guests received with Arabic coffee (qahwa) and dates"
+  - "Islam shapes the daily rhythm — prayer times, Friday as the holy day/weekend, and Ramadan observance"
+  - "Family and tribal loyalty central to social and business identity"
+  - "Pride in Qatari heritage — pearl-diving, Bedouin desert life, falconry and dhow sailing"
+  - "High-context, indirect, face-saving communication"
+  - "Respect for elders, titles and seniority; conservative dress and modest public behaviour"
+  - "Lavish, world-class ambitions — spectacular architecture, museums and events (National Vision 2030)"
+prideOf:
+  - "Being home to the world's largest exporter of liquefied natural gas and one of the highest per-capita incomes on earth"
+  - "Hosting the 2022 FIFA World Cup — the first in the Arab world"
+  - "Al Zubarah, a UNESCO World Heritage fort and pearling town"
+  - "World-class cultural institutions (Museum of Islamic Art, National Museum of Qatar, Katara)"
+  - "The Arabian oryx (national animal) and the falcon as symbols of heritage"
+animals:
+  popular:
+    - "Arabian oryx (national animal)"
+    - "Falcons (falconry is a revered heritage tradition)"
+    - "Camels (racing and desert heritage)"
+    - "Arabian horses and saluki hounds"
+  unique:
+    - "Arabian oryx — desert antelope brought back from near-eradication through captive breeding"
+    - "Peregrine and saker falcons central to the Gulf falconry heritage"
+    - "Houbara bustard — prized falconry quarry"
+    - "Hawksbill sea turtle — nests on Qatar's northern/offshore sands"
+industries:
+  - "Liquefied natural gas (LNG) — world's largest exporter; North Field / Ras Laffan"
+  - "Oil and petrochemicals (QatarEnergy)"
+  - "Construction and infrastructure megaprojects"
+  - "Finance and capital markets (Qatar Financial Centre)"
+  - "Ports and logistics (Hamad Port)"
+  - "Education, research and sports infrastructure (Qatar Foundation, 2022 World Cup legacy venues)"
+  - "Tourism and hospitality"
+sports:
+  - "Association football (soccer) — national passion; 2022 FIFA World Cup host"
+  - "Falconry — traditional heritage sport"
+  - "Dhow sailing and racing — maritime heritage"
+  - "Camel racing (robot-mounted jockeys)"
+  - "Cricket — popular among the large South Asian expatriate community"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Machbous (majbous) — spiced rice with meat or fish, the national dish"
+      - "Balaleet — sweet saffron-scented vermicelli with a fried egg"
+      - "Luqaimat — sweet fried dumplings with saffron/cardamom syrup"
+  - season: dry
+    items:
+      - "Radab / saloona — fresh Gulf fish (hamour) seafood stews"
+      - "Grilled meat and kebab dishes for long desert evenings (May-Oct)"
+  - season: wet
+    items:
+      - "Thareed (turid) — torn bread soaked in a rich meat/vegetable broth, a cool-season comfort dish"
+      - "Harees — slow-simmered crushed wheat and meat porridge (also Ramadan/Eid)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Thobe/thawb — long white robe for men, with ghutra and agal headdress"
+      - "Abaya — black overgarment for women, with shayla headscarf"
+      - "Bisht — embroidered cloak worn by men on formal occasions"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Government: Sun-Thu ~07:00-14:30/15:00. Private sector widely Sun-Thu ~08:00/09:00-16:00/17:00; some private firms work Saturdays. Shortened hours during Ramadan."
+  lunchBreakTiming: "Short or skipped in many offices; the midday Friday prayer anchors the weekly rhythm."
+  notableShutdownPeriods:
+    - period: "Ramadan (lunar calendar)"
+      description: "Business slows and working hours shorten dramatically; restaurants open mostly after sunset (Maghrib)."
+    - period: "Eid al-Fitr / Eid al-Adha (lunar)"
+      description: "Major public holidays; most businesses close for 3-4 days."
+    - period: "Qatar National Day (18 December)"
+      description: "National holiday with celebrations; reduced business."
+  notes: "Weekend is Friday-Saturday (Friday the holy day). Ramadan shifts daily rhythms significantly each year as the lunar calendar moves it ~10-11 days earlier."
+sources:
+  - id: qat-unesco-zubarah
+    name: "Al Zubarah Archaeological Site — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1402/"
+    year: 2013
+    accessedDate: "2026-09-18"
+    note: "Inscribed 2013 as a pearling/trading town of the Gulf — basis for the Al Zubarah landmark and prideOf reference."
+  - id: qat-unesco-falconry
+    name: "Falconry — UNESCO Intangible Cultural Heritage"
+    publisher: "UNESCO Intangible Cultural Heritage List"
+    url: "https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01709"
+    year: 2016
+    accessedDate: "2026-09-18"
+    note: "Falconry inscribed in 2016 as shared living heritage — basis for the falconry cultural trait and prideOf references."

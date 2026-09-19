@@ -1,0 +1,98 @@
+code: WHOLE
+name:
+  eng: Kuwait
+  local:
+    - languageCode: arb
+      value: الكويت
+# Generic country-wide fallback content for Kuwait (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate — extremely hot, arid summers (daytime highs 45-50°C Jun-Aug with dust/sand storms); mild winters; very low precipitation (~100-130 mm/yr, mostly sporadic winter showers Nov-Mar)."
+landmarks:
+  - name: Kuwait Towers
+    description: "The iconic water-tower complex on the Gulf Road, the national landmark of Kuwait City."
+  - name: Grand Mosque of Kuwait (Al-Masjid Al-Kabir)
+    description: "The country's largest mosque, blending Islamic architectural heritage."
+  - name: Al-Hashemi II dhow with the maritime museum
+    description: "Heritage of the pearling and dhow-seafaring past that built pre-oil Kuwait."
+  - name: Failaka Island archaeological sites
+    description: "Ruins reflecting the ancient Dilmun and Hellenistic past of Kuwait's coast."
+culturalTraits:
+  - "Deep hospitality centered on gahwa (cardamom-spiced Arabic coffee) and dates"
+  - "Diwaniya — informal gatherings that anchor social, business and political life"
+  - "Seafaring and pearl-diving heritage — the dhows and maritime trade of pre-oil Kuwait"
+  - "Bedouin desert traditions and falconry still prized and passed down"
+  - "Strong family centrality and respect for elders and social hierarchy"
+  - "Religious (Islamic) values shaping daily life and identity"
+  - "Pride in the 1962 Constitution and its long-running elected National Assembly (Majlis al-Umma)"
+  - "Multiculturalism driven by a ~70% expatriate population"
+prideOf:
+  - "Oil wealth and the world's highest-valued currency (the Kuwaiti dinar)"
+  - "Pearl-diving and dhow-seafaring maritime history"
+  - "Kuwait Towers"
+  - "The national dish (Machboos) and Kuwaiti hospitality"
+  - "A tradition of parliamentary democracy in the Gulf (elected National Assembly)"
+animals:
+  popular:
+    - "Arabian dromedary camel — camel racing and desert heritage"
+    - "Saker falcon (national bird) — falconry heritage"
+    - "Arabian oryx — iconic native antelope"
+    - "Saluki sighthound and houbara bustard (falconry quarry)"
+  unique:
+    - "Arabian oryx — native desert antelope of the Arabian peninsula"
+    - "Saker falcon — the national bird, central to falconry"
+industries:
+  - "Oil and gas — ~50% of GDP, ~90%+ of export and government revenue"
+  - "Petroleum refining and petrochemicals; water desalination"
+  - "Financial services (regional banking and insurance hub)"
+  - "Trading, construction, and port/logistics activity"
+sports:
+  - "Association football (soccer) — most popular; Kuwait won the AFC Asian Cup in 1980 and a record 10 Arabian Gulf Cup titles"
+  - "Dhow sailing and traditional boat racing"
+  - "Falconry — UNESCO-recognized intangible heritage"
+  - "Camel racing, basketball, handball, volleyball and shooting"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Machboos — spiced basmati rice (bzar spices, dried black lime/loomi) with lamb, chicken or fish and dakkous tomato sauce, the national dish"
+      - "Quzi (Qouzi) — whole roast lamb over spiced rice for feasts and weddings"
+  - season: winter
+    items:
+      - "Harees — slow-cooked cracked wheat and meat porridge (Ramadan and winter)"
+  - season: allYear
+    items:
+      - "Balaleet — sweet saffron vermicelli with eggs and cardamom (often at Eid breakfast)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Dishdasha/thobe — long white robe for men, with ghutra (scarf) and agal headdress"
+      - "Abaya with shayla for women; modern modest dress common"
+      - "Bisht — embroidered outer cloak on formal occasions"
+seasonCalendar:
+  - season: summer
+    months: [5, 6, 7, 8, 9, 10]
+  - season: winter
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Government: Sun-Thu ~07:00-14:00/15:00. Private sector widely Sun-Thu ~08:00/09:00-16:00/17:00. Weekend is Fri-Sat; Friday is the main Islamic holy day."
+  lunchBreakTiming: "A midday break is common; the Friday midday prayer anchors the weekly rhythm."
+  notableShutdownPeriods:
+    - period: "Ramadan (lunar calendar)"
+      description: "Working hours shorten; business slows; restaurants open mostly after sunset."
+    - period: "Eid al-Fitr / Eid al-Adha (lunar)"
+      description: "Major public holidays; most businesses close for several days."
+    - period: "Kuwait National Day & Liberation Day (25-26 February)"
+      description: "National holidays with celebrations; reduced business."
+  notes: "Weekend is Friday-Saturday (Friday the holy day). Islamic holidays follow the lunar calendar and shift each year."
+sources:
+  - id: kwt-maritime
+    name: "Kuwait maritime and pearling heritage — International Museum of Dhow / Failaka"
+    publisher: "Kuwait Information and Public Authority (general heritage references)"
+    url: "https://www.e.gov.kw/"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Basis for the dhow/pearling cultural trait and maritime pride references."

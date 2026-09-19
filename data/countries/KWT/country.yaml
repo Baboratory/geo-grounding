@@ -1,0 +1,170 @@
+alpha3: KWT
+alpha2: KW
+name:
+  eng: Kuwait
+  local:
+    - languageCode: arb
+      value: الكويت
+flagEmoji: "🇰🇼"
+capital: Kuwait City
+isSovereign: true
+# Classified unitary-small: Kuwait meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~4.9M (2023), of which only ~31% are Kuwaiti citizens —
+# far below the 20-25M threshold. (2) Arabic is the sole de jure official language
+# with no co-official or recognized regional/minority official language. (3) No
+# cultural-historical federal/multi-region identity — the 6 governorates are purely
+# administrative. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: arb
+    domain: official
+    speakersShare: 1.0
+    sourceId: kwt-const-languages
+  - languageCode: afb
+    domain: locallySpoken
+    speakersShare: 0.4
+    sourceId: kwt-language-estimate
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.65
+    sourceId: kwt-language-estimate
+  - languageCode: hin
+    domain: locallySpoken
+    speakersShare: 0.18
+    sourceId: kwt-language-estimate
+  - languageCode: ben
+    domain: locallySpoken
+    speakersShare: 0.08
+    sourceId: kwt-language-estimate
+  - languageCode: urd
+    domain: locallySpoken
+    speakersShare: 0.07
+    sourceId: kwt-language-estimate
+  - languageCode: tgl
+    domain: locallySpoken
+    speakersShare: 0.06
+    sourceId: kwt-language-estimate
+  - languageCode: sin
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: kwt-language-estimate
+# Arabic is de jure the sole official language (Constitution of Kuwait 1962, Art. 3);
+# the everyday Kuwaiti dialect is Gulf Arabic (ISO 639-3 'afb'). English is widely
+# used in business, education and commerce but is NOT official. With ~68% of
+# residents being expatriates, a large share speak South/Southeast Asian languages
+# (Hindi, Bengali, Urdu, Tagalog, Sinhala). No official census collects language
+# data, so all locallySpoken shares are ESTIMATES.
+ethnicGroups:
+  # 2020 census / Kuwait CSB-PACI population by nationality.
+  - group: Kuwaiti (citizens)
+    percent: 31.3
+    sourceId: kwt-ethnicity
+  - group: Other Arab / Arabian non-citizens
+    percent: 27.1
+    sourceId: kwt-ethnicity
+  - group: South & Southeast Asian (Indian, Bangladeshi, Filipino, Pakistani, Sri Lankan, Nepali)
+    percent: 39.8
+    sourceId: kwt-ethnicity
+  - group: African, European and American/Australian
+    percent: 1.8
+    sourceId: kwt-ethnicity
+timezones:
+  - name: Asia/Kuwait
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: KWD
+  symbol: "ك.د"
+  name: Kuwaiti dinar
+legalConstraints:
+  - topic: "official language"
+    description: "Arabic is the sole official language (Constitution of Kuwait 1962, Art. 3). English is widely used in business and international commerce but has no constitutional official status."
+    sourceId: kwt-const-languages
+  - topic: "state religion and content"
+    description: "Constitution Art. 2 declares Islam the state religion. Public expression is subject to Islamic norms and decency laws; proselytising for faiths other than Islam is restricted."
+    sourceId: kwt-legal-religion
+  - topic: "personal data protection"
+    description: "Law No. 20 of 2021 on Privacy Protection and the Protection of Personal Data, overseen by the Communications and Information Technology Regulatory Authority (CITRA), governs the processing of personal data."
+    sourceId: kwt-pdpl
+paymentCulture:
+  popularMethods:
+    - "KNET — the national debit-card network, dominant for card payments (~90% of cards)"
+    - "Cash — still widely used, though declining"
+    - "Contactless cards, digital wallets, and bank mobile apps"
+    - "Instant domestic transfers (the WAMD real-time system launched 2024)"
+  tipping:
+    expected: false
+    typicalAmount: "~10% (often a service charge is added)"
+    autoIncludedInBill: true
+    note: "A ~10-15% service charge is often already added to restaurant bills; where not, a ~10% tip is appropriate. Rounding up for taxis is fine; tipping is not strongly expected."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal, protocol-conscious and relationship-driven, with awareness of status and seniority."
+  greetingNorms: "Greet with 'As-salamu alaykum' followed by a firm right-hand handshake (right hand over the heart if not shaking). Wait for the oldest or most senior person to act."
+  meetingEtiquette: "Business is built on personal relationships, trust and consensus (diwaniya culture of informal gathering). Decisions typically rest with senior leadership; allow time for rapport before commitments."
+  topicsToAvoid:
+    - "Criticism of the ruling family (the Al Sabah dynasty) or domestic politics"
+    - "Religious matters or criticism of Islam"
+    - "Sensitive regional politics"
+  giftGivingNotes: "A modest, quality gift is welcome once a relationship forms; avoid alcohol and pork products. Present and receive with the right hand."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: kwt-const-languages
+    name: "Constitution of the State of Kuwait (1962), Art. 3"
+    publisher: "State of Kuwait"
+    url: "https://www.constituteproject.org/constitution/Kuwait_1992"
+    year: 1962
+    accessedDate: "2026-09-18"
+    note: "Art. 3: Arabic is the official language of the State. Basis for the arb official row at 1.0 and the official-language legal note."
+  - id: kwt-population
+    name: "Kuwait population statistics (2023)"
+    publisher: "Central Statistical Bureau / PACI, Kuwait"
+    url: "https://census.csb.gov.kw/"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "Total ~4.91M (2023); Kuwaiti citizens ~1.55M (~31.5%), non-Kuwaiti ~3.37M (~68.5%). Supports the unitary-small classification."
+  - id: kwt-ethnicity
+    name: "Kuwait 2020 census / CSB-PACI population by nationality"
+    publisher: "Central Statistical Bureau, Kuwait"
+    url: "https://census.csb.gov.kw/"
+    year: 2020
+    accessedDate: "2026-09-18"
+    note: "Nationality-origin composition: Kuwaiti 31.3%, other Arab ~27%, South/Southeast Asian ~40%, small African/European/American shares."
+  - id: kwt-legal-religion
+    name: "Constitution of the State of Kuwait (1962), Art. 2; 2023 IRF: Kuwait"
+    publisher: "State of Kuwait / U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/kuwait/"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "Islam the state religion (Const. Art. 2); restrictions on proselytising — basis for the 'state religion and content' legal note."
+  - id: kwt-pdpl
+    name: "Law No. 20 of 2021 on Privacy Protection and Personal Data"
+    publisher: "State of Kuwait / CITRA"
+    url: "https://www.citra.gov.kw/"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "National data-protection regime — basis for the 'personal data protection' legal note. National law, not GDPR."
+  - id: kwt-language-estimate
+    name: "Language usage — composite estimate (no official census data)"
+    publisher: "Composite estimate (no census collects language data)"
+    url: "https://iso639-3.sil.org/"
+    accessedDate: "2026-09-18"
+    note: "LocallySpoken shares (afb, eng, hin, ben, urd, tgl, sin) are all ESTIMATES derived from the expatriate-majority population and general usage; ISO 639-3 codes verified on SIL."
+  - id: kwt-currency
+    name: "Kuwaiti dinar — currency"
+    publisher: "Central Bank of Kuwait"
+    url: "https://www.cbk.gov.kw/"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Kuwaiti dinar (KWD), symbol ك.د; the highest-valued currency unit in the world; pegged to an undisclosed weighted basket since 2007."
+  - id: kwt-timezone
+    name: "Time in Kuwait (Asia/Kuwait) — IANA tz database"
+    publisher: "IANA time zone database"
+    url: "https://data.iana.org/time-zones/tzdb/zonenow.tab"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Asia/Kuwait = UTC+03:00 year-round; no DST (Arabian Standard Time)."

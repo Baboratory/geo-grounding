@@ -1,0 +1,8 @@
+code: abv
+name:
+  eng: Baharna Arabic
+  local: لهجة بحرانية
+# Baharna (Bahrani) Arabic is the indigenous Bahraini vernacular spoken by the
+# native Shia population; a distinct variety of Gulf Arabic (ISO 639-3 'abv').
+# No verified common-phrase set was available, so commonPhrases is omitted to
+# avoid unverified phrases.

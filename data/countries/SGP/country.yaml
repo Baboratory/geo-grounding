@@ -1,0 +1,160 @@
+alpha3: SGP
+alpha2: SG
+name:
+  eng: Singapore
+  local:
+    - languageCode: eng
+      value: Singapore
+flagEmoji: "🇸🇬"
+capital: Singapore
+isSovereign: true
+# Classified unitary-small: Singapore meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~6.04M (mid-2024; resident population 4.18M) — far below
+# the 20-25M threshold. (2) No recognized regional/minority or co-official regional
+# languages beyond the four national official languages (English, Malay, Mandarin,
+# Tamil) which are NATIONAL languages, not region-markers. (3) No cultural-historical
+# federal/multi-region identity — the five "regions" (Central, East, North,
+# North-East, West) are purely urban-planning groupings of planning areas with no
+# political authority. The whole city-state forms ONE synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: sgp-const-languages
+  - languageCode: msa
+    domain: official
+    speakersShare: 1.0
+    sourceId: sgp-const-languages
+  - languageCode: cmn
+    domain: official
+    speakersShare: 1.0
+    sourceId: sgp-const-languages
+  - languageCode: tam
+    domain: official
+    speakersShare: 1.0
+    sourceId: sgp-const-languages
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.48
+    sourceId: sgp-census-2020
+  - languageCode: cmn
+    domain: locallySpoken
+    speakersShare: 0.35
+    sourceId: sgp-census-2020
+# Four official languages under the Constitution (Pt. XIII): English, Malay,
+# Mandarin, Tamil — plus Malay is the National Language (symbolic primacy). English
+# is the de facto working language of administration, law, education and commerce.
+# The locallySpoken shares reflect the 2020 Census 'language most frequently spoken
+# at home' (English 48.3%, Mandarin 35.3% among residents aged 5+); roughly another
+# 8.7% speak a Chinese dialect (min nan Hokkien, yue Cantonese, Teochew, Hakka) as
+# the primary home language, and Tamil ~2.5% among the Indian community.
+ethnicGroups:
+  # 2020 Census of Population (resident population by ethnic group).
+  - group: Chinese
+    percent: 74.3
+    sourceId: sgp-census-2020
+  - group: Malay
+    percent: 13.5
+    sourceId: sgp-census-2020
+  - group: Indian
+    percent: 9.0
+    sourceId: sgp-census-2020
+  - group: Others (incl. Eurasian)
+    percent: 3.2
+    sourceId: sgp-census-2020
+timezones:
+  - name: Asia/Singapore
+    standardUtcOffset: "UTC+8"
+    observesDst: false
+currency:
+  code: SGD
+  symbol: "S$"
+  name: Singapore dollar
+legalConstraints:
+  - topic: "official languages"
+    description: "Section 153A of the Constitution (as amended) and the Official Languages Act recognise four official languages — English, Malay, Mandarin and Tamil — with Malay designated the National Language. English is the de facto working language of government, law, education and commerce."
+    sourceId: sgp-const-languages
+  - topic: "personal data protection"
+    description: "The Personal Data Protection Act 2012 (PDPA) governs the collection, use and disclosure of personal data, administered by the Personal Data Protection Commission (PDPC). A 2020 amendment introduced the Data Protection Provisions and an obligation to notify of data breaches."
+    sourceId: sgp-pdpa
+  - topic: "consumer protection"
+    description: "A Goods and Services Tax (GST, currently 9% as of 2024) is charged on most supplies; listed (non-GST-inclusive) display is common in B2B but retail display is typically tax-inclusive and regulated under the Goods and Services Tax Act."
+    sourceId: sgp-gst
+paymentCulture:
+  popularMethods:
+    - "Cards (Visa, Mastercard) — ubiquitous, contactless and mobile-wallet-led"
+    - "PayNow — bank-to-bank instant transfers by NRIC/mobile number (MAS & ABS)"
+    - "SGQR — unified QR code across wallet providers"
+    - "NETS — domestic debit network"
+    - "GrabPay, PayLah!, Google Pay, Apple Pay and other bank wallets"
+  tipping:
+    expected: false
+    typicalAmount: "Not required; many restaurants add a 10% service charge (plus 9% GST)"
+    autoIncludedInBill: true
+    note: "Tipping is not customary or expected. A discretionary 10% service charge is commonly added to hotel/restaurant bills, and GST is separate. Rounding up is optional; tipping taxi drivers or hotel staff is unnecessary."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Formal-corporate yet pragmatic. English is the working language in business; honorifics and surnames give way quickly to first names once rapport builds. Age and seniority are respected."
+  greetingNorms: "A firm handshake is standard; a light nod or bow towards older/very senior counterparts is polite. 'How are you' is usually a genuine question, not just a greeting."
+  meetingEtiquette: "Punctuality is expected. Meetings are efficient and results-oriented; decisions often rest with the most senior person present, and consensus among stakeholders is valued. Small talk is brief."
+  topicsToAvoid:
+    - "Sensitive regional and religious topics (race and religion are constitutionally protected as sensitive)"
+    - "Criticising national leaders or policies bluntly in public"
+    - "Casual assumptions about ethnicity from surnames"
+  giftGivingNotes: "Not required for business. A small, quality token is welcome once a relationship forms; avoid anything lavish that could read as a bribe (graft is punished severely)."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: sgp-census-2020
+    name: "Census of Population 2020, Statistical Release 1"
+    publisher: "Department of Statistics, Singapore (SingStat)"
+    url: "https://www.singstat.gov.sg/publications/population/census2020"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "2020 census: resident population 4.18M; ethnic composition (Chinese 74.3%, Malay 13.5%, Indian 9.0%, others 3.2%); language most frequently spoken at home (English 48.3%, Mandarin 35.3% among residents 5+)."
+  - id: sgp-population
+    name: "Population in Brief 2024"
+    publisher: "Department of Statistics Singapore / Strategy Group"
+    url: "https://www.population.gov.sg"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Total population ~6.04M as at June 2024; resident population 4.18M. Supports the unitary-small classification."
+  - id: sgp-const-languages
+    name: "Constitution of the Republic of Singapore (2021 Revised Ed.), Pt. XIII — General Provisions"
+    publisher: "Attorney-General's Chambers, Singapore"
+    url: "https://sso.agc.gov.sg/Act/CONS1963"
+    year: 1963
+    accessedDate: "2026-09-18"
+    note: "Section 153A names the four official languages (English, Malay, Mandarin, Tamil) and designates Malay as the National Language. Also basis for the 4 official languageUsage rows at 1.0."
+  - id: sgp-pdpa
+    name: "Personal Data Protection Act 2012 (Act 26 of 2012)"
+    publisher: "Personal Data Protection Commission (PDPC), Singapore"
+    url: "https://www.pdpc.gov.sg/overview-of-pdpa"
+    year: 2012
+    accessedDate: "2026-09-18"
+    note: "Basis for the personal-data-protection legal constraint. National law, not GDPR."
+  - id: sgp-gst
+    name: "Goods and Services Tax Act / IRAS GST guidance"
+    publisher: "Inland Revenue Authority of Singapore (IRAS)"
+    url: "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "GST rate and tax-inclusive display context for the consumer-protection legal note."
+  - id: sgp-currency
+    name: "Singapore dollar — Our Currency"
+    publisher: "Monetary Authority of Singapore (MAS)"
+    url: "https://www.mas.gov.sg/currency"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Singapore dollar (SGD), symbol S$; circulated by the Board of Commissioners of Currency, Monetary Authority of Singapore."
+  - id: sgp-timezone
+    name: "Time in Singapore (Asia/Singapore) — IANA tz database"
+    publisher: "IANA time zone database"
+    url: "https://data.iana.org/time-zones/tzdb/zonenow.tab"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Asia/Singapore = UTC+08:00 year-round; no DST since 1982."

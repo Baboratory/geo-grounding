@@ -1,0 +1,104 @@
+code: WHOLE
+name:
+  eng: Bahrain
+  local:
+    - languageCode: arb
+      value: البحرين
+# Generic country-wide fallback content for Bahrain (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate — arid, very hot and humid summers with mild, pleasant winters; scant rainfall (mostly winter). High coastal humidity makes summer oppressive."
+landmarks:
+  - name: Qal'at al-Bahrain (Bahrain Fort)
+    description: "UNESCO World Heritage archaeological site and fort, linked to the ancient Dilmun civilization."
+  - name: Bahrain Pearling Path, Muharraq
+    description: "UNESCO World Heritage site — the 3.2 km pearling path and heritage buildings of the historic pearl-trade capital."
+  - name: Bahrein World Trade Centre towers
+    description: "Iconic twin towers in Manama's financial district with integrated wind turbines."
+  - name: Tree of Life (Shajarat al-Hayat)
+    description: "A lone mesquite tree in the desert, hundreds of years old, a popular landmark."
+culturalTraits:
+  - "Deep Islamic identity — Islam is the state religion and Shari'a a main source of legislation; public life follows Islamic customs and the lunar calendar"
+  - "Hospitality culture — guest honour and serving gahwa (Arabic coffee) with dates are central"
+  - "Multi-ethnic, cosmopolitan society — an expatriate majority (~53%) makes Bahrain one of the most plural and internationally oriented Gulf states"
+  - "Historic Shia/Sunni coexistence on a small archipelago, alongside long-present Hindu, Christian, Baha'i and Jewish communities"
+  - "Rich pearling and maritime heritage (UNESCO-listed pearling path)"
+  - "Modern yet traditional norms — socially the most liberal of the Gulf states within a conservative Islamic frame"
+  - "Love of motorsport and land reclamation; weekend falls on Fri-Sat"
+prideOf:
+  - "UNESCO World Heritage pearling sites of Muharraq and the Bahrain pearling path"
+  - "Qal'at al-Bahrain and the ancient Dilmun civilization heritage; the legendary Tree of Life"
+  - "Hosting the Formula 1 Bahrain Grand Prix — the first night race in the Middle East"
+  - "Being the Gulf's historic banking and financial hub"
+  - "The 1971 independence and the long-ruling House of Al Khalifa"
+animals:
+  popular:
+    - "Arabian (dromedary) camel — cultural icon of the Gulf"
+    - "Arabian oryx — heritage wildlife symbol"
+    - "Falcons (Gulf falconry tradition)"
+    - "Arabian horses (equestrian tradition)"
+  unique:
+    - "Dugong — found in the sea-grass waters around the Gulf islands"
+    - "Sand gazelle / goitered gazelle — native desert mammal"
+industries:
+  - "Banking and finance — a regional hub; offshore/onshore banking, Islamic finance, insurance and capital markets regulated by the CBB"
+  - "Oil refining and petrochemicals"
+  - "Aluminium — Aluminium Bahrain (Alba) is one of the world's largest single-site smelters"
+  - "Pearling and maritime heritage, tourism, hospitality and retail"
+  - "Telecom/ICT, financial services and logistics"
+sports:
+  - "Association football (soccer) — the most-played sport; the men's national team competes in Asian competitions"
+  - "Formula 1 — the Bahrain Grand Prix at the Bahrain International Circuit (Sakhir), the region's first F1 night race"
+  - "Horse and camel racing, falconry and traditional water sports"
+traditionalDishes:
+  - season: winter
+    items:
+      - "Machboos (kabsa-style) — spiced rice with lamb, chicken or fish, the national festive rice dish"
+      - "Muhammar — sweet rice cooked with dates and sugar, often with fish, a distinctly Bahraini dish"
+  - season: summer
+    items:
+      - "Hammour / grilled grouper — fresh Gulf fish, reflecting the coastal maritime heritage"
+  - season: allYear
+    items:
+      - "Samboosa (savoury pastries) and gahwa with dates"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Thobe/thawb — long white robe for men, with ghutra and agal headdress"
+      - "Abaya with shayla headscarf for women; modern modest dress common"
+      - "Bisht — embroidered cloak on formal occasions"
+seasonCalendar:
+  - season: summer
+    months: [4, 5, 6, 7, 8, 9, 10]
+  - season: winter
+    months: [11, 12, 1, 2, 3]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Government and most offices roughly 07:00-14:00/15:00 Sun-Thu; private sector often longer. Weekend is Fri-Sat; Friday is the main Islamic holy day."
+  lunchBreakTiming: "A midday break is common; Friday midday prayer anchors the weekly rhythm."
+  notableShutdownPeriods:
+    - period: "Ramadan (lunar calendar)"
+      description: "Working hours shorten; business slows; restaurants open mostly after sunset."
+    - period: "Eid al-Fitr / Eid al-Adha (lunar)"
+      description: "Major public holidays; most businesses close for several days."
+    - period: "Bahrain National Day (16 December)"
+      description: "National holiday with celebrations; reduced business."
+  notes: "Weekend is Friday-Saturday (Friday the holy day). Islamic holidays follow the lunar calendar and shift each year."
+sources:
+  - id: bhr-unesco-pearling
+    name: "Bahrain Pearling Path — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1364/"
+    year: 2012
+    accessedDate: "2026-09-18"
+    note: "Inscribed 2012 (Muharraq pearling heritage) — basis for the pearling landmark and prideOf references."
+  - id: bhr-unesco-fort
+    name: "Qal'at al-Bahrain — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1192/"
+    year: 2005
+    accessedDate: "2026-09-18"
+    note: "Inscribed 2005 for the Dilmun-era archaeological site and fort — basis for the fort landmark and Dilmun pride references."

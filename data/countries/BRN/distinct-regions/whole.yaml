@@ -1,0 +1,91 @@
+code: WHOLE
+name:
+  eng: Brunei
+  local:
+    - languageCode: msa
+      value: Brunei Darussalam
+# Generic country-wide fallback content for Brunei (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest / equatorial climate — hot and humid year-round (typically 24-33°C). Heavy rainfall in most months; two rainfall peaks follow the NE and SW monsoons but there is no true dry season."
+landmarks:
+  - name: Omar Ali Saifuddien Mosque
+    description: "Brunei's largest and most famous mosque, a landmark on the Brunei River in the capital."
+  - name: Sultan Omar Ali Saifuddin Complex
+    description: "The royal residence grounds in Bandar Seri Begawan, an architectural heritage landmark."
+  - name: Ulu Temburong National Park
+    description: "Protected lowland rainforest in Temburong district — the 'Green Jewel of Brunei'."
+  - name: Royal Regalia Museum
+    description: "Houses gifts and artefacts of the Brunei royal family's history."
+culturalTraits:
+  - "Malay Islamic Monarchy (MIB) — the state ideology fusing Malay identity, Islam and the Sultan"
+  - "Deep reverence for the Sultan and the royal family; the monarchy is central to public life"
+  - "Communal, family-oriented and hierarchical social values; respect for elders is paramount"
+  - "Conservatism and modesty in dress, behaviour and public expression"
+  - "Emphasis on consensus, politeness and avoiding direct confrontation ('saving face')"
+  - "National pride in peace, stability, affluence and generous welfare (free healthcare/education, no income tax)"
+  - "Friday as the main Islamic weekly observance; a Sat-Sun weekend"
+prideOf:
+  - "The Sultan and a 600+ year-old royal lineage"
+  - "Natural wealth — oil and natural gas underwriting free welfare and zero income tax"
+  - "Rainforest preservation (Ulu Temburong, the 'Green Jewel of Brunei')"
+  - "Notable cleanliness, safety and peaceful coexistence among its small population"
+  - "Being a leading exporter of liquefied natural gas"
+animals:
+  popular:
+    - "Proboscis monkey (endemic flagship of the mangrove and rainforest)"
+    - "Orangutan"
+    - "Hornbills (incl. helmeted hornbill)"
+    - "Saltwater crocodile"
+    - "Pygmy slow loris and the Irrawaddy river dolphin"
+  unique:
+    - "Proboscis monkey — endemic and emblematic of Brunei's swamps"
+    - "Helmeted hornbill — a rare iconic bird of the old-growth forest"
+industries:
+  - "Oil and natural gas (crude petroleum, LNG — the backbone of the economy)"
+  - "Petrochemicals and downstream refining"
+  - "Banking and finance, including Islamic finance"
+  - "Tourism and hospitality"
+  - "Fisheries and aquaculture"
+sports:
+  - "Association football (soccer) — the de facto national sport"
+  - "Sepak takraw"
+  - "Martial arts (silat, wushu)"
+  - "Golf, badminton and water sports"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Nasi Katok — the national dish (chicken, rice, cucumber, deep-fried egg)"
+      - "Ambuyat — sago-starch dumpling eaten with assorted stews"
+      - "Pulut — glutinous rice with chicken or coconut"
+      - "Bai Takgiu (nasi takgiu) — glutinous rice steamed in bamboo"
+      - "Seafood (grilled prawns and fish) reflecting the coastal diet"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional Malay dress for men (baju kurta) and women (baju kurung / tudong head covering)"
+      - "Modest, conservative attire suited to the Islamic cultural context"
+      - "Light tropical cotton clothing for the hot humid climate"
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Government and most offices roughly 07:45-12:30 and 13:30-16:30 Sun-Thu; weekend is Sat-Sun; Friday is the main Islamic holy day. Retail often opens in the evening."
+  lunchBreakTiming: "Offices commonly observe a lunch break around 12:30-14:00."
+  notableShutdownPeriods:
+    - period: "Ramadan and Eids (lunar calendar)"
+      description: "Business slows and hours shorten during Ramadan; restaurants open after sunset; Hari Raya (Eid) are public holidays."
+    - period: "Chinese New Year"
+      description: "Observed by the Chinese community; some businesses close."
+    - period: "Brunei national holiday (February)"
+      description: "National Day celebrations (Feb 23) with reduced business."
+  notes: "Friday is the principal Islamic observance and weekend is Sat-Sun. Islamic holidays follow the lunar calendar and shift each year."
+sources:
+  - id: brn-unesco-temburong
+    name: "Ulu Temburong National Park — ecotourism resources"
+    publisher: "Brunei Tourism"
+    url: "https://www.bruneitourism.com/"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Basis for the Ulu Temburong landmark and rainforest pride references."
