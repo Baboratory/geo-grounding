@@ -1,0 +1,78 @@
+code: MA-01
+name:
+  eng: Tanger-Tétouan-Al Hoceïma
+  local:
+    - languageCode: ara
+      value: "طنجة - تطوان - الحسيمة"
+    - languageCode: rif
+      value: "ⵜⴰⵏⵊⴰ ⵜⵉⵟⵟⴰⵡⵉⵏ ⵜⵉⵎⵣⴳⵉⴷⴰ"
+climates:
+  - koppenCode: Csa
+    description: Mediterranean climate on the northern coast and Rif, with mild wet winters and warm dry summers.
+landmarks:
+  - name: Chefchaouen (the blue city)
+    description: Blue-washed mountain town in the western Rif, a major draw for visitors.
+  - name: Tanger-Med / Tangier
+    description: Morocco's largest port and a storied gateway city between Africa and Europe.
+  - name: Tetouan Medina
+    unescoWorldHeritage: true
+    description: Andalusian-influenced old town.
+  - name: Cape Spartel
+    description: The point where the Atlantic meets the Mediterranean.
+culturalTraits:
+  - Tarifit (Amazigh) Rif heritage mixed with Andalusian-Arab traditions
+  - Historic gateway/contact zone between Africa and Europe
+  - The internationalized port-city artistic legacy of Tangier
+prideOf:
+  - Tanger-Med, one of the largest ports in Africa and the Mediterranean
+  - Chefchaouen's distinctive blue-washed medina
+  - The Rif's rugged, independent character and Amazigh identity
+animals:
+  popular:
+    - Barbary macaque (found in the Rif forests)
+    - Mediterranean fish species
+  unique:
+    - Barbary macaque (only monkey species native to northern Morocco)
+industries:
+  - Port and logistics (Tanger-Med)
+  - Automotive manufacturing (Renault Tangier plant — among the largest in Africa)
+  - Tourism (Chefchaouen, Tangier, Mediterranean coast)
+sports:
+  - Football
+  - Water sports and sailing on the Mediterranean
+# religions intentionally omitted at region level: no official region-level
+# religion breakdown is published (see MAR WHOLE file for the national figure).
+entertainment:
+  - season: summer
+    items:
+      - Chefchaouen and Tangier summer music festivals
+      - Mediterranean beach season (M'diq, Cabo Negro, Boumediene)
+  - season: winter
+    items:
+      - Amazigh New Year (Yennayer) celebrations, prominent in the Rif
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pescado al salmorejo (Andalusian-style fish with tomatoes and peppers) — a Tetouan specialty"
+      - Couscous with vegetables
+      - Seafood rice on the coast
+traditionalClothing:
+  - season: allYear
+    items:
+      - Djellaba
+      - Decorated Rif shawl (kelifa) worn in local costume
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Public administration roughly 9:00am-6:00pm weekday; the port and automotive sectors run industrial shifts around the clock."
+  lunchBreakTiming: "A longer midday break around 12:00-3:00pm is common; the Friday prayer pause applies."
+  notes: "The region's economic driver is Tanger-Med port and its free-trade-zone manufacturing, which follow international container-port business hours."

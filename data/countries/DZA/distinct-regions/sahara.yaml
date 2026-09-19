@@ -1,0 +1,73 @@
+code: DZ-11
+name:
+  eng: The Algerian Sahara (South)
+  local:
+    - languageCode: ara
+      value: الصحراء الجزائرية والجنوب
+    - languageCode: tzm
+      value: ⵜⵏⵣⵔⵓⴼⵜ (Teneẓruft)
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate across virtually the whole region — extreme heat by day, cold nights, very low rainfall.
+landmarks:
+  - name: Tassili n'Ajjer
+    description: Plateau of eroded sandstone in the far southeast with over 15,000 prehistoric rock paintings, UNESCO World Heritage.
+    unescoWorldHeritage: true
+  - name: M'Zab Valley
+    description: Fortified pentapolis of Ibadite oasis towns (Ghardaïa and neighbours), UNESCO World Heritage.
+    unescoWorldHeritage: true
+  - name: Assekrem ("Stone of the Stones")
+    description: High point of the Hoggar (Ahaggar) massif near Tamanrasset, end of the Sahara's central highlands, a Tuareg homeland.
+  - name: Djanet oasis
+    description: Desert oasis town near the Tassili and the site of the Sebeïba festival.
+culturalTraits:
+  - Tuareg (Amazigh) culture and the Tamasheq language in the deep south
+  - Ibadism in the M'Zab (a distinctive Ibadi Muslim community)
+  - Oasis agriculture (date palms) and transhumant herding
+  - Prehistoric rock-art heritage at Tassili
+prideOf:
+  - The Sahara as a vast, awe-inspiring landscape
+  - Tassili n'Ajjer's rock art and the Ahaggar/Tuareg tradition
+  - The M'Zab's distinctive Ibadi heritage
+animals:
+  popular:
+    - Dromedary camel
+    - Fennec fox
+  unique:
+    - Addax (critically endangered Saharan antelope)
+    - Saharan cheetah
+industries:
+  - Hydrocarbons (natural gas and oil fields, especially around Hassi R'Mel / Ouargla)
+  - Date-palm oasis agriculture
+  - Salt mining and caravan-route trade heritage
+  - Desert tourism (Tassili, Hoggar, M'Zab)
+sports:
+  - Football
+  - Desert endurance sports and camel racing at festivals
+  - Marathon running (Tassili and Atacama-type desert events)
+entertainment:
+  - season: winter
+    items:
+      - Desert tourist season (mainly the cooler autumn/winter/spring months) — treks and camp nights in the Ahaggar and Tassili
+  - season: summer
+    items:
+      - "Oasis festivals; the date harvest and the Sebeïba ritual at Djanet occur in summer"
+traditionalDishes:
+  - season: allYear
+    items:
+      - Dates and date-based dishes (the oasis staple)
+      - Tadouira and taguella (Berber desert breads baked in sand/embers)
+      - Couscous and meat (goat/camel) tagines
+  - season: summer
+    items:
+      - Light summertime meals built around dates and fruit
+traditionalClothing:
+  - season: allYear
+    items:
+      - The indigo-dyed tagelmust (Tuareg veil/turban) of the deep south
+      - Long loose robes suited to the extreme heat
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8, 9]
+  - season: winter
+    months: [10, 11, 12, 1, 2, 3, 4, 5]

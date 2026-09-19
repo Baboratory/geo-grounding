@@ -1,0 +1,134 @@
+alpha3: DZA
+alpha2: DZ
+name:
+  eng: Algeria
+  local:
+    - languageCode: ara
+      value: الجزائر
+    - languageCode: tzm
+      value: ⴷⵣⴰⵢⴻⵔ
+flagEmoji: "🇩🇿"
+capital: Algiers
+isSovereign: true
+governanceType: unitary-large
+iso3166_2_prefix: DZ
+hasSubdivisions: true
+languageUsage:
+  - languageCode: ara
+    domain: official
+    speakersShare: 1.0
+    sourceId: dz-constitution-2016
+  - languageCode: tzm
+    domain: official
+    speakersShare: 1.0
+    sourceId: dz-constitution-2016
+  - languageCode: arq
+    domain: locallySpoken
+    speakersShare: 0.85
+    sourceId: composite-language-estimate
+  - languageCode: kab
+    domain: locallySpoken
+    speakersShare: 0.13
+    sourceId: composite-language-estimate
+  - languageCode: shy
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: composite-language-estimate
+  - languageCode: fra
+    domain: foreign
+    speakersShare: 0.33
+    sourceId: oif-french-2025
+# English is taught in schools and growing in use, but no reliable, citable
+# figure for the share of Algerians competent in it was found, so it is
+# deliberately not listed here.
+timezones:
+  - name: Africa/Algiers
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+currency:
+  code: DZD
+  symbol: "د.ج"
+  name: Algerian dinar
+legalConstraints:
+  - topic: "state religion and religious freedom"
+    description: "Islam is the state religion (Article 2 of the Constitution). Approximately 99% of the population is Sunni Muslim; non-Muslim minorities (Christians, Jews, Ibadi Muslims, and others) are a small fraction. The constitution guarantees freedom of belief, but in practice non-Muslim worship is tightly controlled and proselytizing by non-Muslims is restricted by law."
+    sourceId: uscirf-algeria-2024
+  - topic: "ethnicity and religion data collection"
+    description: "The Algerian state does not collect or publish official statistics on ethnicity or religion in its censuses (national statistics present the population as a unified Arab–Berber, Muslim society). As a result the ethnic and religious figures in this file are external estimates, not official counts."
+    sourceId: composite-ethnic-estimate
+# paymentMethodShares intentionally omitted: Algeria has no officially
+# published, citable percentage split of retail payment methods across the
+# population. Sources describe the market as strongly cash-preferred (roughly
+# 90% of e-commerce paid cash-on-delivery, credit-card penetration under 5%),
+# but those are market reports without a single authoritative summary figure,
+# so no reliable split is provided.
+paymentCulture:
+  popularMethods:
+    - "Cash — still strongly dominant for everyday and e-commerce purchases (about 90% of online orders paid cash-on-delivery)"
+    - "Edahabia (prepaid postal card of Algérie Poste; largest card base in the country)"
+    - "CIB / Carte Interbancaire (debit card interoperable across Algerian banks, GIE Monétique network)"
+    - "BaridiMob — Algérie Poste's mobile wallet"
+    - "DZMobPay — national QR-code mobile-payment interoperability platform"
+  tipping:
+    expected: false
+    typicalAmount: "Not generally expected; rounding up the bill or leaving small change for good service in restaurants is appreciated but neither expected nor automatic."
+    autoIncludedInBill: false
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Titles and honorifics matter; address people by their title and last name until invited to use first names. Exchanges begin with ceremonial greetings and enquiries about health, family, and well-being before the substance of business."
+  greetingNorms: "A firm handshake is standard among men; greetings are warm and prolonged — 'As-salamu alaykum' and the reply 'wa alaykum as-salam' open most encounters, followed by polite enquiries. Modesty in dress and manner is expected; physical contact between men and women in greeting follows conservative social norms."
+  meetingEtiquette: "Punctuality is valued but flexibility is tolerated. Business moves through relationship-building first: expect tea and hospitality, and decisions are typically reached through negotiation and personal rapport rather than rapid, transactional closure. Fridays and religious holidays are generally not suited to scheduling meetings."
+  topicsToAvoid:
+    - "Direct criticism of Islam, the state, or the military"
+    - "Sensitive foreign-policy issues, including the status of Western Sahara"
+    - "France–Algeria colonial history in a way that could be read as sympathetic to the colonial period"
+    - "Pressuring an observant host about alcohol or non-halal food"
+  giftGivingNotes: "Gifts are welcomed once a relationship is established but not expected at first meetings; give and receive with the right hand only. Avoid gifts containing alcohol or pork; dates, fine pastries (makroud, baklava), or good-quality tea/coffee are safe and appreciated."
+distinct-regions:
+  - code: DZ-16
+    file: distinct-regions/algiers.yaml
+    adminUnitCodes: [DZ-16, DZ-09, DZ-26, DZ-35, DZ-42, DZ-44]
+  - code: DZ-15
+    file: distinct-regions/kabylie.yaml
+    adminUnitCodes: [DZ-15, DZ-06, DZ-10]
+  - code: DZ-11
+    file: distinct-regions/sahara.yaml
+    adminUnitCodes: [DZ-01, DZ-08, DZ-11, DZ-30, DZ-33, DZ-37, DZ-47, DZ-49, DZ-52, DZ-53, DZ-54, DZ-55, DZ-56, DZ-58]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: dz-constitution-2016
+    name: "Constitution of the People's Democratic Republic of Algeria (2016 revision)"
+    publisher: "Comparative Constitutions Project (Constitute project), text of the Algerian Constitution"
+    url: "https://www.constituteproject.org/constitution/Algeria_2016?lang=en"
+    year: 2016
+    accessedDate: "2026-09-19"
+    note: "Legal basis for Arabic (Article 3) and Tamazight (Article 4) each being a national and official language — both official-domain entries carry speakersShare 1.0 as a legal-status flag, per the schema rule for official languages."
+  - id: composite-language-estimate
+    name: "Languages of Algeria — compiled speaker estimates"
+    publisher: "Composite estimate"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Algeria"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "locallySpoken shares: Algerian Arabic (Darja) spoken/understood by roughly 85% and native to ~72% (used 0.85); Kabyle, the most widely spoken Berber language, by roughly 10-15% (used 0.13); Tachawit (Chaoui) by around 3% (used 0.03). Algeria publishes no official language-competence census, so these are synthesized estimates across academic and reference sources."
+  - id: composite-ethnic-estimate
+    name: "Ethnic composition estimates for Algeria (Arab ~75%, Berber ~25%)"
+    publisher: "Composite estimate"
+    url: "https://religiousfreedominstitute.org/wp-content/uploads/2023/01/Country-Overview-Algeria.pdf"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "The ethnic make-up of Algeria as estimated by outside sources: roughly 75% Arab and 25% Berber (Amazigh), with other groups under 1%. Algeria does not collect official ethnic data, so these are estimates — the same figures used for the legalConstraints note about ethnicity-data collection."
+  - id: uscirf-algeria-2024
+    name: "Algeria country report"
+    publisher: "U.S. Commission on International Religious Freedom (USCIRF)"
+    url: "https://www.uscirf.gov/sites/default/files/2024-05/Algeria.pdf"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Religion figures: approximately 99% Sunni Muslim, with the remaining ~1% including Christians, Jews, and other minorities; also the basis for the 'state religion and religious freedom' legal-constraint entry."
+  - id: oif-french-2025
+    name: "OIF data on French-speaking population in Algeria"
+    publisher: "Organisation internationale de la Francophonie (OIF), via national media reporting"
+    url: "https://algerianewsgate.com/culture/french-speakers-algeria"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "The foreign-domain share for French: about 15.6 million Algerians (roughly 33%) speak French with varying proficiency per OIF data, reported by TV5 Monde and Algerian press. French has no official status in Algeria; it is treated here as a foreign/learned language."
