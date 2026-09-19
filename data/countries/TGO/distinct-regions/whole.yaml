@@ -1,0 +1,165 @@
+code: WHOLE
+name:
+  eng: Togo
+  local:
+    - languageCode: fra
+      value: Togo
+# Generic country-wide fallback content for Togo (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — hot year-round with a distinct dry season (~Nov-Apr) and wet season (~May-Oct); dominant across most of the country."
+  - koppenCode: Am
+    description: "Humid subequatorial monsoon climate on the southern coast (Lomé region)."
+landmarks:
+  - name: Koutammakou — Pays des Tatas
+    description: "UNESCO World Heritage Site — the snail-shaped earth 'tata' houses of the Batammariba (Kabiyè-related) people."
+    unescoWorldHeritage: true
+  - name: Akodessewa Fetish Market, Lomé
+    description: "World's largest Vodou fetish market, at the heart of West African vodun tradition."
+  - name: Togoville on Lake Togo
+    description: "Historic town and Vodoun pilgrimage site on the shore of Lake Togo."
+  - name: Mount Agou
+    description: "Togo's highest point (~986 m) in the Atakora plateau, with panoramic views."
+  - name: Grand Marché de Lomé
+    description: "The capital's landmark marketplace, famed for batik and wax-print textiles."
+culturalTraits:
+  - "Vodou/vodun tradition deeply rooted, especially in the south (fetish markets, ceremonies)"
+  - "Communal, tradition-centred society with strong respect for chiefs and elders"
+  - "Rich oral history and storytelling"
+  - "Batik and wax-print (pagne) textile craftsmanship as national style"
+  - "Magic-and-ritual worldview blended with Christianity and Islam"
+  - "Warm hospitality; percussion and drum-based music at the centre of ceremonies"
+prideOf:
+  - "Koutammakou tata architecture (UNESCO World Heritage)"
+  - "Mount Agou and the Pays Kabiyè highlands"
+  - "Lomé as a West African economic hub (deep-water port, trade)"
+  - "Batik and wax-print pagne craftsmanship"
+animals:
+  popular:
+    - "African elephant (Fazao-Malfakassa National Park)"
+    - "African lion (northern savanna)"
+    - "Buffalo in the national parks"
+    - "Hippopotamus along the rivers"
+  unique:
+    - "Dwarf crocodiles — sacred around Lake Togo"
+    - "Uganda kob antelope"
+    - "Large monitor lizards"
+    - "West African lion (rare, in the north)"
+industries:
+  - "Phosphate mining — historically the economic backbone (top exporter)"
+  - "Cotton"
+  - "Port of Lomé — deep-water regional transshipment hub"
+  - "Cocoa and coffee"
+  - "Clinker and cement"
+  - "Agri-processing (manioc, maize, palm oil)"
+sports:
+  - "Football (soccer) — the dominant sport"
+  - "Traditional wrestling"
+  - "Volleyball and boxing"
+religions:
+  - name: Christian
+    percent: 49.2
+    sourceId: tgo-religion-2022
+  - name: Muslim
+    percent: 18.6
+    sourceId: tgo-religion-2022
+  - name: Traditional / animist religions
+    percent: 17.0
+    sourceId: tgo-religion-2022
+  - name: No religion
+    percent: 9.4
+    sourceId: tgo-religion-2022
+  - name: Other / not stated
+    percent: 5.8
+    sourceId: tgo-religion-2022
+entertainment:
+  - season: allYear
+    items:
+      - "Football and live football watching"
+      - "Live percussion and traditional music"
+      - "Market culture and social gatherings"
+  - season: dry
+    items:
+      - "Festivals and feasts across the country (Nov-Apr)"
+      - "Evala and Akpema initiation festivals in the north"
+      - "Vodoun ceremonies around Lake Togo and Togoville"
+      - "Beach and music events in Lomé"
+  - season: wet
+    items:
+      - "Indoor/community gatherings and church or mosque-centred events"
+      - "Vodoun and community ceremonies moving indoors during rains"
+      - "Market life continuing, often livelier with the rainy-season harvest"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fufu (pounded yam or cassava) with soups and stews"
+      - "Riz au gras (West African jollof-style rice)"
+      - "Gboma dessi (okra/spinach stew)"
+      - "Grilled fish"
+  - season: dry
+    items:
+      - "Palm-nut soup with fufu at festival feasts"
+      - "Akara/bean cakes"
+      - "Rich stewed dishes for celebrations"
+  - season: wet
+    items:
+      - "Harvest-vegetable dishes from the rainy season"
+      - "Pâte/akassa with pepper sauce"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Wax-print 'pagne' wraps and prints — the national textile style year-round"
+      - "Men's long boubous (kaftan-style robes)"
+      - "Women's pagne wraparounds"
+  - season: dry
+    items:
+      - "Lighter ceremonial wax prints for festivals and feasts"
+  - season: wet
+    items:
+      - "Breathable cotton clothing; rural rainwear"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-17:00 Mon-Fri (banks 08:00-16:00); some Saturday-morning work."
+  lunchBreakTiming: "A standard midday break is common (~12:30-14:00)."
+  notableShutdownPeriods:
+    - period: "New Year and Liberation Day (13 Jan)"
+      description: "Public holidays; reduced business."
+    - period: "Easter and Independence Day (27 Apr)"
+      description: "Public holidays with reduced trading."
+    - period: "Martyrs' Day (21 Jun) and Assumption (15 Aug)"
+      description: "Public holidays with reduced business."
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Moveable Muslim holidays; reduced business."
+    - period: "Christmas (25-26 Dec)"
+      description: "Reduced business over Christmas."
+  notes: "Saturday is commonly a half-day for commerce; Sunday widely a rest day."
+sources:
+  - id: tgo-religion-2022
+    name: "Togo 2022 census (RGPH) religious affiliation, via INSEED"
+    publisher: "Institut National de la Statistique et des Études Économiques et Démographiques (INSEED)"
+    url: "https://en.wikipedia.org/wiki/Religion_in_Togo"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Official 2022 RGPH: Christian 49.2% (Catholic 21.0%, Protestant 20.8%, other Christian 6.8%, Jehovah's Witnesses 0.6%), Muslim 18.6%, traditional/animist 17.0%, no religion 9.4%, other/not stated ~5.8%."
+  - id: tgo-unesco-tatas
+    name: "Koutammakou, the Land of the Batammariba — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1140/"
+    year: 2004
+    accessedDate: "2026-09-19"
+    note: "Inscribed 2004 for the tata earth houses — basis for the unescoWorldHeritage flag."
+  - id: tgo-holidays
+    name: "Togo public holidays"
+    publisher: "OfficeHolidays"
+    url: "https://www.officeholidays.com/countries/togo"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Public holiday calendar: 1 Jan, Liberation Day (13 Jan), Easter, Independence Day (27 Apr), Labour Day (1 May), Martyrs' Day (21 Jun), Eid al-Fitr and Eid al-Adha, Assumption (15 Aug), Christmas (25-26 Dec)."

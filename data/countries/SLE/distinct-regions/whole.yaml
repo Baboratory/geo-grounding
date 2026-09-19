@@ -1,0 +1,135 @@
+code: WHOLE
+name:
+  eng: Sierra Leone
+  local:
+    - languageCode: eng
+      value: Sierra Leone
+# Generic country-wide fallback content for Sierra Leone (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon — one of Africa's wettest coasts (up to ~4,950 mm rain/yr on the coast), hot and humid year-round."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) in the interior, with a distinct dry season (Dec-Apr) and wet season (May-Oct)."
+landmarks:
+  - name: Freetown
+    description: "The founding city of freed slaves; the iconic Cotton Tree and heritage of the Krio community."
+  - name: Bunce Island
+    description: "A historic slave-castle island on the Sierra Leone River — a powerful memorial of the Atlantic slave trade."
+  - name: Mount Bintumani
+    description: "Sierra Leone's highest peak (~1,945 m) in the Loma Mountains."
+  - name: Tiwai Island
+    description: "A primate-rich wildlife sanctuary on the Moa River."
+  - name: River Number Two Beach
+    description: "One of Freetown's famous white-sand beaches on the Western Peninsula."
+culturalTraits:
+  - "Post-war resilience and reconciliation after the 1991-2002 civil war"
+  - "Diverse — ~16-18 ethnic groups coexisting"
+  - "Secret-society heritage: Poro (men) and Bundu/Sande (women) initiation societies with masked traditions"
+  - "Communal and community-centred values; humility prized"
+  - "'Small small' — patient, incremental communication style"
+  - "Rice-centred culture and cuisine"
+prideOf:
+  - "Mineral wealth — diamonds (Kimberley Process reform), bauxite, iron ore, gold, rutile"
+  - "Resilience and reconciliation after the civil war"
+  - "Heritage of the freed-slave Krio founding community"
+  - "Rich musical and masked-tradition heritage"
+animals:
+  popular:
+    - "Chimpanzees (Tacugama Chimpanzee Sanctuary)"
+    - "Pygmy hippo"
+    - "Dwarf crocodile"
+    - "Monkeys (Tiwai Island)"
+  unique:
+    - "Pygmy hippo — Sierra Leone and Liberia are among the only homes"
+    - "Dwarf crocodile"
+industries:
+  - "Mining — diamonds, bauxite, iron ore, gold, rutile"
+  - "Agriculture — rice (staple), cocoa, cassava"
+  - "Fishing"
+sports:
+  - "Football (soccer) — the dominant sport"
+  - "Traditional wrestling"
+religions:
+  - name: Muslim
+    percent: 78.0
+    sourceId: sle-religion-2004
+  - name: Christian
+    percent: 21.0
+    sourceId: sle-religion-2004
+  - name: Other (Baha'i, Hindu, animist)
+    percent: 1.0
+    sourceId: sle-religion-2004
+entertainment:
+  - season: allYear
+    items:
+      - "Football and live football watching"
+      - "Music and social gatherings"
+      - "Gara (indigo tie-dye) textile culture and craft"
+  - season: dry
+    items:
+      - "Dry-season (Dec-Apr) outdoor festivals and coastal leisure"
+      - "Beach events around Freetown's famous beaches"
+  - season: wet
+    items:
+      - "Indoor and community-centred life during the rainy season"
+      - "Market and social activity continuing, weather-dependent"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Rice — the staple, eaten daily"
+      - "Groundnut stew"
+      - "Cassava leaf"
+      - "Grilled fish"
+      - "Kola nuts (ceremonial)"
+  - season: wet
+    items:
+      - "Fresh-harvest vegetable and rice dishes"
+  - season: dry
+    items:
+      - "Festival foods and richer stews for dry-season celebrations"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Gara (indigo tie-dye) fabric — distinctively Sierra Leonean"
+      - "Agbada and formal suits for formal occasions"
+  - season: dry
+    items:
+      - "Lightwear suited to the sunny dry season"
+  - season: wet
+    items:
+      - "Breathable clothing and rainwear for the wet season"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-17:00 Mon-Fri with a lunch break 13:00-14:00; some Saturday business."
+  lunchBreakTiming: "Standard midday lunch break (~13:00-14:00)."
+  notableShutdownPeriods:
+    - period: "Rainy season (May-Oct)"
+      description: "Business slows noticeably during the heavy rainy season."
+    - period: "Ramadan and Eid al-Fitr"
+      description: "Moveable Muslim observances; reduced business, especially in the afternoon."
+    - period: "Christmas and New Year"
+      description: "Reduced business over the Christmas/New Year holidays."
+  notes: "Monday and Friday mornings are traditional staff-meeting times; relationship-first business culture."
+sources:
+  - id: sle-religion-2004
+    name: "Sierra Leone religious composition (2004 census / DHS & Pew)"
+    publisher: "US Department of State / Pew Research"
+    url: "https://refworld.org/reference/annualreport/usdos/2016/en/111615"
+    year: 2004
+    accessedDate: "2026-09-19"
+    note: "Religious composition (2004 census basis): Muslim ~78%, Christian ~21%, other (Baha'i, Hindu, animist) <1%."
+  - id: sle-holidays
+    name: "Sierra Leone public holidays"
+    publisher: "OfficeHolidays"
+    url: "https://www.officeholidays.com/countries/sierra-leone"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Includes New Year, Armed Forces Day (18 Feb), Labour Day (1 May), Independence Day (27 Apr), Eid al-Fitr and Eid al-Adha, Christmas."

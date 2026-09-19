@@ -1,0 +1,132 @@
+code: WHOLE
+name:
+  eng: Guinea-Bissau
+  local:
+    - languageCode: por
+      value: Guiné-Bissau
+# Generic country-wide fallback content for Guinea-Bissau (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — hot year-round with a distinct dry season (~Dec-May) and wet season (~Jun-Nov); dominant across the country."
+  - koppenCode: Am
+    description: "Sub-Guinean high-rainfall monsoon climate in the southern coastal areas."
+landmarks:
+  - name: Bijagós Archipelago
+    description: "UNESCO biosphere reserve of ~88 islands and islets off the coast, famed for saltwater hippos and marine biodiversity."
+    unescoWorldHeritage: false
+  - name: Bissau's historic centre and fortress
+    description: "The colonial-era capital's old town, fortress and Amílcar Cabral monuments."
+  - name: Cacheu
+    description: "Historic riverside town on the Cacheu River with mangroves and colonial-era heritage."
+culturalTraits:
+  - "Rural, agrarian society (~80% employed in agriculture)"
+  - "Ethnic diversity — 20+ ethnic groups (Balanta, Fulani, Manjaco, Mandinga, Papel...)"
+  - "Warm hospitality — the local 'morabeza' (grace/welcome) ethos"
+  - "Communal and family-centred social life"
+  - "Kriol as the unifying everyday language across ethnic groups"
+  - "Cashew economy woven into daily life"
+prideOf:
+  - "One of the world's top cashew producers (~80% of the population derives income from cashew; cashew dominates exports)"
+  - "The Bijagós Archipelago's marine biodiversity and saltwater hippos"
+  - "Historic role in the anti-colonial liberation struggle (Amílcar Cabral)"
+animals:
+  popular:
+    - "Saltwater hippos (Bijagós Archipelago)"
+    - "West African manatee"
+    - "Marine turtles"
+    - "Seasonal shorebirds"
+  unique:
+    - "Saltwater hippos — iconic residents of the Bijagós islands (Orango)"
+    - "West African manatee in the coastal rivers and mangroves"
+industries:
+  - "Cashew — the dominant export and livelihood"
+  - "Fishing and coastal resources"
+  - "Agriculture — rice, cashew, groundnuts, palm"
+  - "Small-scale processing and trade"
+  - "Offshore oil reserves (emerging/pre-development)"
+sports:
+  - "Football (soccer) — the dominant sport"
+  - "Traditional wrestling"
+religions:
+  - name: Muslim
+    percent: 46.1
+    sourceId: gnb-religion-2020
+  - name: Folk religions
+    percent: 30.6
+    sourceId: gnb-religion-2020
+  - name: Christian
+    percent: 18.9
+    sourceId: gnb-religion-2020
+  - name: Other / unaffiliated
+    percent: 4.4
+    sourceId: gnb-religion-2020
+entertainment:
+  - season: allYear
+    items:
+      - "Football and live football watching"
+      - "Music and dance — Kriol and ethnic traditions"
+  - season: dry
+    items:
+      - "Dry-season (Dec-May) festivals and coastal leisure"
+      - "Fishing and beach activities around the Bijagós and the coast"
+  - season: wet
+    items:
+      - "Rainy-season (Jun-Nov) harvest and inland community life"
+      - "Indoor/community gatherings during heavier rain"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Rice with fish and palm-oil sauces — the national staple"
+      - "Fresh seafood, especially grilled fish"
+      - "Cashew-based dishes and snacks"
+  - season: wet
+    items:
+      - "Harvest-season vegetable and palm dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colourful wraps and long cloths"
+      - "Muslim-influenced dress in the north"
+  - season: dry
+    items:
+      - "Light breathable clothing suited to the hot dry season"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-17:00 Mon-Fri with a midday break; commerce slows during the rainy season."
+  lunchBreakTiming: "A standard midday break is common."
+  notableShutdownPeriods:
+    - period: "Rainy season (Jun-Nov)"
+      description: "Business and travel slow noticeably during the heavy rainy season."
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Moveable Muslim holidays; reduced business, especially in the Muslim-majority areas."
+  notes: "Relationship-first business culture; Sunday widely a rest day."
+sources:
+  - id: gnb-religion-2020
+    name: "Guinea-Bissau religious composition (CIA 2020 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.worldfactbook.co/edition.php?country=guinea-bissau&year=2024"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "Religious composition (2020 est.): Muslim 46.1%, folk religions 30.6%, Christian 18.9%, other/unaffiliated 4.4%. Census figures scarce; CIA estimate used."
+  - id: gnb-unesco-bijagos
+    name: "Bijagós Archipelago Biosphere Reserve"
+    publisher: "UNESCO Man and the Biosphere Programme"
+    url: "https://en.unesco.org/biosphere/africa/bijagos"
+    year: 1996
+    accessedDate: "2026-09-19"
+    note: "Designated a UNESCO Biosphere Reserve in 1996 — basis for the Bijagós landmark and biodiversity prideOf."
+  - id: gnb-holidays
+    name: "Guinea-Bissau public holidays"
+    publisher: "OfficeHolidays"
+    url: "https://www.officeholidays.com/countries/guinea-bissau"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Includes New Year, Heroes Day (20 Jan), Labour Day (1 May), National Day (24 Sep), Eid al-Fitr and Eid al-Adha, Christmas."
