@@ -1,0 +1,144 @@
+alpha3: TON
+alpha2: TO
+name:
+  eng: Tonga
+  local:
+    - languageCode: eng
+      value: Kingdom of Tonga
+    - languageCode: ton
+      value: Pule'anga Fakatu'i 'o Tonga
+flagEmoji: "🇹🇴"
+capital: Nuku'alofa
+isSovereign: true
+# Classified unitary-small: Tonga does NOT meet the unitary-large criteria. It is
+# a small Polynesian island kingdom (~100k, 2021 census) with no federal
+# structure. Tongan and English are official national languages; the
+# Tongatapu/Vava'u/Ha'apai island split is geographic, not a widely recognized
+# cultural-historical regional identity meriting curation. One synthetic WHOLE
+# region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: ton
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1875
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1875
+  - languageCode: ton
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: census-2021
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.35
+    sourceId: eng-estimate
+# Tongan (lea faka-Tonga) is the national/official language spoken by near-all
+# citizens; English is co-official and used in government, law, education and
+# business. Both official rows carry the 1.0 legal-status flag. The locallySpoken
+# English share (~0.35) is an ESTIMATE — no reliable proficiency census exists,
+# though English fluency is high in formal/urban spheres.
+ethnicGroups:
+  # Tonga Statistics Dept, 2021 Census.
+  - group: Tongan (ethnic origin)
+    percent: 98.0
+    sourceId: census-2021
+  - group: Other Pacific Islanders, Europeans, mixed (incl. Chinese-descent communities) combined
+    percent: 2.0
+    sourceId: census-2021
+timezones:
+  - name: Pacific/Tongatapu
+    standardUtcOffset: "UTC+13"
+    observesDst: false
+# Tonga sits just west of the International Date Line on standard UTC+13
+# year-round and observes NO daylight saving in its current regime.
+currency:
+  code: TOP
+  symbol: "T$"
+  name: Tongan pa'anga
+legalConstraints:
+  - topic: "official languages"
+    description: "Tongan and English are both official languages (1875 Constitution). English is used in government, law and the courts; Tongan is the language of daily life and national identity."
+    sourceId: constitution-1875
+  - topic: "customary/Crown land tenure"
+    description: "All land is inalienable Crown land with final title held by the King. Under the Land Act (Cap. 132) land is split into Royal, noble (tofi'a hereditary) and Crown/Government estates; only male ethnic Tongans may hold hereditary allotments. Land cannot generally be alienated to non-Tongans — foreigners may only hold LEASES, not allotments."
+    sourceId: land-act
+  - topic: "Sunday observance"
+    description: "Tonga's Constitution declares Sunday holy, and the Sabbath is legally protected: Sunday trading is restricted/closed by law and public events are curtailed. Sunday is widely observed as a church/rest day."
+    sourceId: constitution-1875
+  - topic: "religion"
+    description: "Tonga is a largely Christian kingdom (constitutionally an essentially Christian nation); Sunday observance is enshrined and church life is central to public life."
+    sourceId: constitution-1875
+  - topic: "data protection"
+    description: "No GDPR-equivalent omnibus data-protection law; census/statistics confidentiality is governed by the Tonga Statistics Department."
+    sourceId: stats-dept
+paymentCulture:
+  popularMethods:
+    - "Cash — the everyday default for village and market transactions"
+    - "Debit/credit cards (Visa/Mastercard via Bank of Tonga, MBf, ANZ, BSP) at hotels, resorts and some restaurants; remote islands are cash-only"
+    - "Mobile money (e.g. M-Paisa/Tokanga Mobile) for domestic transfers and payments"
+    - "Remittance corridors (Digicel, LTT, WorldRemit) — remittances are ~40-49% of GDP"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary; a small tip for exceptional service in hotels or with tour operators is appreciated; rounding up is acceptable"
+    autoIncludedInBill: false
+    note: "Tipping is not traditionally expected in Tonga. Gifts (food, fine woven mats) are more culturally valued than cash tips, especially in village settings."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Highly formal and respectful, especially toward the King, nobility, clergy and elders. Use titles if known; politeness (anga faka-Tonga — 'the Tongan way') governs interaction. Communication is polite, often indirect, and open confrontation is avoided."
+  greetingNorms: "Greet with 'Mālō e lelei' (hello) or 'Mālō 'etau lava' (formal respectful greeting to a group). Address seniors first; remove shoes when entering a Tongan home; sit lower than chiefs and elders and avoid gesturing over people's heads."
+  meetingEtiquette: "Meetings often open with a prayer in this Christian kingdom. Answer people respectfully, wait to be seated, and let senior figures speak first. Build relationships before business; allow a relaxed ('island time') pace and slack for ferry/weather delays."
+  topicsToAvoid:
+    - "Criticizing the monarchy, royal family, nobility, religion or church"
+    - "Tongan customs and sensitive land/family matters"
+    - "Pointing feet at people, stepping over people, or sitting on pillows/head-level objects"
+  giftGivingNotes: "Gift-giving is deeply important: the ta'ovala (woven pandanus mat waistband) and kiekie are the quintessential Tongan gifts and ceremonial dress, presented at weddings, funerals, birthdays, church and installations. Food and fine mats are traditional gifts; exchange is ceremonial and mutually respectful."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: census-2021
+    name: "2021 Census of Population and Housing"
+    publisher: "Tonga Statistics Department"
+    url: "https://tongastats.gov.to/"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "Ethnic composition (~98% Tongan origin) and religion composition (Free Wesleyan 34.2%, LDS 19.7%, Roman Catholic 13.7%, Free Church 11.3%...)."
+  - id: eng-estimate
+    name: "Composite estimate — English proficiency in Tonga"
+    publisher: "Composite estimate (no official proficiency census)"
+    url: "https://tongastats.gov.to/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "The ~0.35 locallySpoken share for English is an ESTIMATE; English fluency is high in government, law, education and business but no precise % is published."
+  - id: constitution-1875
+    name: "Constitution of Tonga (1875)"
+    publisher: "Kingdom of Tonga"
+    url: "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/1988/1988-0002/ConstitutionofTonga.pdf"
+    year: 1875
+    accessedDate: "2026-09-18"
+    note: "Tongan and English official languages; declares Sunday holy (protected Sabbath); foundation of the Christian kingdom."
+  - id: land-act
+    name: "Land Act (Cap. 132)"
+    publisher: "Laws of Tonga"
+    url: "https://ago.gov.to/"
+    year: 1981
+    accessedDate: "2026-09-18"
+    note: "All land is inalienable Crown land; foreigners may only hold leases, not hereditary allotments."
+  - id: stats-dept
+    name: "Tonga Statistics Department"
+    publisher: "Tonga Statistics Department"
+    url: "https://tongastats.gov.to/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Census/statistics confidentiality; no omnibus data-protection law."
+  - id: iso-ton
+    name: "ISO 639-3 entry: ton — Tongan"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ton"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Verifies ISO 639-3 code ton = Tongan (Individual, Living)."

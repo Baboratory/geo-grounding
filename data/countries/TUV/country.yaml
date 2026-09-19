@@ -1,0 +1,170 @@
+alpha3: TUV
+alpha2: TV
+name:
+  eng: Tuvalu
+  local:
+    - languageCode: eng
+      value: Tuvalu
+    - languageCode: tvl
+      value: Tuvalu
+flagEmoji: "🇹🇻"
+capital: Funafuti
+isSovereign: true
+# Classified unitary-small: Tuvalu does NOT meet the unitary-large criteria. It
+# is a small Polynesian atoll state (~11.6k, 2023 est.), the world's
+# second-smallest country, with no federal structure. Tuvaluan and English are
+# official national languages; the nine-island split is geographic, not a widely
+# recognized cultural-historical regional identity meriting curation. One
+# synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: tvl
+    domain: official
+    speakersShare: 1.0
+    sourceId: cwf-languages
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: cwf-languages
+  - languageCode: tvl
+    domain: locallySpoken
+    speakersShare: 0.96
+    sourceId: tvl-usage
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.2
+    sourceId: eng-estimate
+# Tuvaluan and English are both official. Tuvaluan is the everyday language of
+# daily life (~96% locallySpoken); English is used in government, law and
+# education but is not the common daily tongue (the ~0.2 locallySpoken share is
+# an ESTIMATE). Samoan and Kiribati (Gilbertese, on the island of Nui) are also
+# spoken.
+ethnicGroups:
+  # CIA World Factbook, 2017 est.
+  - group: Tuvaluan
+    percent: 97.0
+    sourceId: cwf-ethnic
+  - group: Tuvaluan / I-Kiribati
+    percent: 1.6
+    sourceId: cwf-ethnic
+  - group: Tuvaluan / other
+    percent: 0.8
+    sourceId: cwf-ethnic
+  - group: Other
+    percent: 0.6
+    sourceId: cwf-ethnic
+timezones:
+  - name: Pacific/Funafuti
+    standardUtcOffset: "UTC+12"
+    observesDst: false
+# Tuvalu is on a single standard timezone UTC+12 year-round with no DST.
+currency:
+  code: AUD
+  symbol: "$"
+  name: Australian dollar
+legalConstraints:
+  - topic: "official languages"
+    description: "Tuvaluan and English are both official languages (Constitution of Tuvalu). Tuvaluan is the language of daily life; English is used in government, law and education."
+    sourceId: cwf-languages
+  - topic: "Sunday trading"
+    description: "Government regulations PROHIBIT trading on Sundays in Tuvalu."
+    sourceId: sunday-trading
+  - topic: "customary land tenure"
+    description: "Land is held by families/clans under customary (Aganu) rules governed by the Native Lands Act and Tuvalu Lands Code, with the Land Court regulating rights. Land is essentially not for sale to outsiders — leases are the vehicle for non-natives."
+    sourceId: land-act
+  - topic: "religion"
+    description: "Tuvalu's constitution declares it a Christian nation, and the Church of Tuvalu (EKT) is the established state church. New religious groups must be registered and meet thresholds; public worship requires falekaupule approval."
+    sourceId: religion-act
+  - topic: "foreign investment"
+    description: "Foreign investors generally need a local Tuvaluan partner, minimum start-up capital (~AUD 20,000) and a registration fee; the foreign-investment climate is heavily restricted and very few foreign-owned businesses exist."
+    sourceId: fdi-restriction
+paymentCulture:
+  popularMethods:
+    - "Cash — the everyday default in a largely cash-based economy"
+    - "Two banks operate (incl. the National Bank of Tuvalu); limited electronic payment rails"
+    - "Mobile/digital payment adoption low but rising (Pacific-wide pattern)"
+    - "Remittances from Tuvaluan seafarers and diaspora — a major income source"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected or customary"
+    autoIncludedInBill: false
+    note: "Tipping is not customary in Tuvalu."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Communal, Christian-inflected society built around the falekaupule (traditional island council of elders). Respect for elders (tino matua), modesty and harmony (alofa — compassion/love) are core values."
+  greetingNorms: "Greet with 'Talofa!' (hello) or 'Talofa koutou' (hello all). Begin formal gatherings with a prayer or blessing; faith is integral to Tuvaluan culture."
+  meetingEtiquette: "Meetings often open with prayer. Defer to elders and the falekaupule, seek group consensus, and avoid rushing people. Dress modestly (knee/sleeve coverage) in villages, with Sunday best for church."
+  topicsToAvoid:
+    - "Criticizing the Church of Tuvalu (EKT) or island customs"
+    - "Challenging elders or contentious religious proselytizing"
+    - "Sensitive domestic politics"
+  giftGivingNotes: "Modest gifts and contributing food to community events are customary and appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cwf-languages
+    name: "CIA World Factbook — Tuvalu (People: Languages)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/tuvalu/"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Official languages Tuvaluan + English; Samoan and Kiribati also spoken; basis for official-domain 1.0 rows."
+  - id: tvl-usage
+    name: "Tuvaluan as the everyday language (PALM scheme country fact sheet)"
+    publisher: "Australian PALM scheme / composite"
+    url: "https://www.palmscheme.gov.au/sites/default/files/2022-04/PALM%20scheme%20country%20fact%20sheet%20-%20Tuvalu.pdf"
+    year: 2022
+    accessedDate: "2026-09-18"
+    note: "Tuvaluan is the everyday language; English not usually spoken in daily use. Basis for ~0.96 locallySpoken share."
+  - id: eng-estimate
+    name: "Composite estimate — English daily use in Tuvalu"
+    publisher: "Composite estimate (CIA World Factbook)"
+    url: "https://www.cia.gov/the-world-factbook/countries/tuvalu/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "English is official but not the common daily tongue; ~0.2 locallySpoken share is an ESTIMATE."
+  - id: cwf-ethnic
+    name: "CIA World Factbook — Tuvalu (People: ethnic groups, 2017 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/tuvalu/"
+    year: 2017
+    accessedDate: "2026-09-18"
+    note: "Tuvaluan 97%, Tuvaluan/I-Kiribati 1.6%, Tuvaluan/other 0.8%, other 0.6%."
+  - id: sunday-trading
+    name: "Economy of Tuvalu — Sunday trading prohibition"
+    publisher: "Wikipedia 'Economy of Tuvalu'"
+    url: "https://en.wikipedia.org/wiki/Economy_of_Tuvalu"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "'Government regulations prohibit trading on Sundays.'"
+  - id: land-act
+    name: "Native Lands Act (Cap. 46.20) and Tuvalu Lands Code (Cap. 46.20.2)"
+    publisher: "Law of Tuvalu / FAOLEX"
+    url: "https://www.fao.org/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Customary family/clan land tenure; land not alienable for sale to outsiders; leases for non-natives."
+  - id: religion-act
+    name: "2023 Report on International Religious Freedom — Tuvalu"
+    publisher: "U.S. State Department"
+    url: "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/tuvalu/"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "Church of Tuvalu (EKT) established state church; new religious groups must register; Funafuti has a daily 15-minute EKT prayer pause."
+  - id: fdi-restriction
+    name: "Economy of Tuvalu — foreign investment climate"
+    publisher: "Wikipedia 'Economy of Tuvalu'"
+    url: "https://en.wikipedia.org/wiki/Economy_of_Tuvalu"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Foreign investors need a local partner and minimum capital (~AUD 20,000); very few foreign-owned businesses exist."
+  - id: iso-tvl
+    name: "ISO 639-3 entry: tvl — Tuvaluan"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/tvl"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Verifies ISO 639-3 code tvl = Tuvaluan (Individual, Living)."

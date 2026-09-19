@@ -1,0 +1,161 @@
+code: WHOLE
+name:
+  eng: Samoa
+  local:
+    - languageCode: eng
+      value: Independent State of Samoa
+    - languageCode: smo
+      value: Malo Sa'oloto Tuto'atasi o Sāmoa
+# Generic country-wide fallback content for Samoa (unitary-small, single
+# synthetic whole region). The Upolu / Savai'i / smaller-islands split is
+# geographic rather than a curated regional identity, so it is folded here as
+# the national character.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — hot and humid year-round (~25-31°C), heavy rainfall especially Nov-Apr (cyclone season)."
+  - koppenCode: Am
+    description: "Tropical monsoon in some coastal/lee areas with a distinct wet season."
+  - koppenCode: Aw
+    description: "Tropical savanna in drier rain-shadow/lee pockets with a pronounced dry season May-Oct."
+landmarks:
+  - name: To Sua Ocean Trench
+    description: "Iconic flooded volcanic sinkhole at Lotofaga (Upolu) with a turquoise swimming pool reached by ladder; one of Samoa's most photographed natural sights."
+  - name: Lalomanu Beach
+    description: "Famous white-sand beach on Upolu's southeast coast."
+  - name: Robert Louis Stevenson Museum (Vailima)
+    description: "The author's restored home outside Apia, now a museum; he is buried at nearby Mt Vaea."
+  - name: Alofaaga Blowholes
+    description: "Dramatic coastal blowholes on Savai'i where waves force jets of sea spray through the lava cliffs."
+  - name: Saleaula Lava Fields (Mt Matavanu)
+    description: "Vast flows from the 1905-11 eruptions that buried villages on Savai'i, preserved as an open-air site."
+  - name: Papase'ea Sliding Rocks
+    description: "Natural water slides on Upolu worn smooth by years of waterfall flow."
+# Samoa has NO inscribed UNESCO World Heritage Site (two sites are on the
+# Tentative List) — noted here for accuracy.
+culturalTraits:
+  - "Fa'a Samoa ('the Samoan way') — communal living, service (tautua) to family and village, strong respect for elders"
+  - "The matai (chiefly) system — titled heads govern families/villages; oratory (lauga) is prestigious"
+  - "Deep Christian faith (~98% Christian, 2021 census) woven into daily and public life"
+  - "Living arts: siapo (bark/tapa cloth) and the pe'a (men's) and malu (women's) tattoos"
+  - "Hospitality and fa'aaloaloga (ceremonial gift exchange) with umu earth-oven communal feasts"
+prideOf:
+  - "Being 'the Cradle of Polynesia' and the first Pacific island nation to gain independence (1962)"
+  - "The Samoan language (Gagana Sāmoa) and deep Polynesian heritage"
+  - "Manu Samoa national rugby team (competed at every Rugby World Cup since 1991)"
+  - "To Sua Ocean Trench and the natural beauty of the islands"
+animals:
+  popular:
+    - "Flying foxes (fruit bats, 'pe'a') — shown on the national coat of arms"
+    - "Sea turtles in the lagoons"
+    - "Reef and butterfly fish"
+    - "Banded rail"
+  unique:
+    - "Manumea (Samoan tooth-billed pigeon) — endemic national bird, critically endangered"
+    - "Mao and Samoan white-eye (endemic birds)"
+    - "Samoan palolo worm — a reef-spawn delicacy harvested seasonally"
+industries:
+  - "Tourism (services are ~2/3 of GDP; the islands' economic mainstay)"
+  - "Agriculture — taro, coconuts/coconut oil, root crops, breadfruit, cocoa, coffee (employs ~2/3 of the labour force)"
+  - "Tuna fisheries (leading merchandise export)"
+  - "Remittances and development aid (~17% of GDP)"
+  - "Food/beverage processing and brewing (Vailima beer), light manufacturing"
+sports:
+  - "Rugby union (de facto national sport — Manu Samoa)"
+  - "Rugby sevens (core World Series team)"
+  - "Kilikiti (Samoan village cricket, large mixed teams)"
+  - "Soccer, netball, volleyball"
+religions:
+  - name: Congregational Christian Church of Samoa
+    percent: 27.0
+    sourceId: census-2021
+  - name: Roman Catholic
+    percent: 18.5
+    sourceId: census-2021
+  - name: Church of Jesus Christ of Latter-day Saints
+    percent: 17.8
+    sourceId: census-2021
+  - name: Methodist
+    percent: 11.9
+    sourceId: census-2021
+  - name: Assemblies of God
+    percent: 10.1
+    sourceId: census-2021
+  - name: Seventh-day Adventist
+    percent: 4.9
+    sourceId: census-2021
+  - name: Other Christian and minority faiths (incl. Bahá'í, Jehovah's Witnesses, small Hindu/Buddhist/Muslim in Apia)
+    percent: 9.8
+    sourceId: census-2021
+# Religion figures are the 2021 national census (US State Dept Religious Freedom
+# Report and Wikipedia 'Religion in Samoa' concordant within rounding; ~98% are
+# Christian). 'Other' is a residual to bring the total to 100.
+entertainment:
+  - season: allYear
+    items:
+      - "Church and village cultural festivals and fiafia feasts"
+      - "Ocean swimming, lagoon days and snorkelling"
+      - "Museums — Robert Louis Stevenson Museum, Nelson Memorial Library"
+      - "Whale watching (migrating humpbacks, Jul-Oct)"
+  - season: dry
+    items:
+      - "Peak tourism — beach days, surfing, hiking"
+      - "Teuila Festival (September, Apia) — kilikiti, dance, food, crafts"
+      - "Road races and village sports"
+  - season: wet
+    items:
+      - "Indoor and cultural events, church choral concerts, kava ceremonies"
+      - "Island tours between showers; occasional cyclone-watch disruptions"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Palusami — young taro leaves baked in coconut cream"
+      - "Oka i'a — raw fish salad marinated in coconut cream and citrus"
+      - "Fa'alifu — taro, breadfruit or bananas cooked in coconut cream"
+      - "Umu earth-oven roasted taro, pork, chicken and banana"
+      - "Sapasui (Chinese-influenced chow mein)"
+  - season: dry
+    items:
+      - "Fresh seafood grills and tropical fruit (mango, pawpaw, pineapple)"
+      - "Panipopo (coconut pancake bread rolls) and panikeke (fried coconut dough)"
+  - season: wet
+    items:
+      - "Hearty coconut-rich stews and koko cha (Samoan hot cocoa)"
+      - "Suafa'i — banana/pawpaw pudding"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Lavalava (wrap skirt) for men and women — everyday and ceremonial"
+      - "Puletasi — women's two-piece dress set for formal/church occasions"
+      - "Ie tōga — fine woven mats, ceremonial wealth"
+      - "Siapo (bark-cloth) garments for ceremonies"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Mon-Fri 08:30-17:00 with a lunch break (often 12:30-13:30); Saturday morning for many; Sunday largely closed."
+  lunchBreakTiming: "Typically 12:30-13:30."
+  notableShutdownPeriods:
+    - period: "Public holidays and national festivals"
+      description: "New Year, Good Friday/Easter, Independence Day (1-3 June), White Sunday, Teuila Festival week (September), Christmas/Boxing Day."
+    - period: "South Pacific cyclone season (Nov-Apr)"
+      description: "Airports and businesses can close during severe storms."
+  notes: "Office and government meetings may open with prayer. The pace is relaxed ('island time'); build rapport before transacting. Tourism peaks in the dry season (May-Oct)."
+sources:
+  - id: census-2021
+    name: "2021 Population and Housing Census"
+    publisher: "Samoa Bureau of Statistics (SBS)"
+    url: "https://www.sbs.gov.ws/"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "Religion composition for the WHOLE region and the tropical climate description of the main islands."
+  - id: no-unesco
+    name: "Samoa — World Heritage tentative list status"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/ws"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Confirms Samoa has no inscribed UNESCO World Heritage Site (two sites on the Tentative List)."

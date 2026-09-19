@@ -1,0 +1,154 @@
+code: WHOLE
+name:
+  eng: Tonga
+  local:
+    - languageCode: eng
+      value: Kingdom of Tonga
+    - languageCode: ton
+      value: Pule'anga Fakatu'i 'o Tonga
+# Generic country-wide fallback content for Tonga (unitary-small, single
+# synthetic whole region). The Tongatapu / Vava'u / Ha'apai / 'Eua island split
+# is geographic rather than a curated regional identity, so it is folded here as
+# the national character.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — warm and humid year-round on most populated islands (Tongatapu, Vava'u, Ha'apai), with a rainy/cyclone season Nov-Apr."
+  - koppenCode: Aw
+    description: "Tropical savanna in drier lee areas with a pronounced dry season May-Oct."
+landmarks:
+  - name: Royal Palace (Nuku'alofa)
+    description: "The wooden palace on Tongatapu, seat of the monarchy, viewed from the waterfront (not open for tours)."
+  - name: "Ha'amonga 'a Maui"
+    description: "A megalithic coral-limestone trilithon (~13th century, linked to King Tu'itātui) at Niutoua on eastern Tongatapu; a National Park and on the UNESCO Tentative List, with possible solar-calendar alignments."
+  - name: Langi royal burial mounds at Lapaha / Mu'a
+    description: "Ancient royal burial grounds of the Tu'i Tonga capital, part of the 'Ancient Capitals of the Kingdom of Tonga' Tentative List site."
+  - name: "Mapu'a 'a Vaea Blowholes"
+    description: "Dramatic coastal blowholes near Houma on western Tongatapu."
+  - name: "'Anahulu Cave and Hufangalupe natural bridge"
+    description: "Limestone cave on Tongatapu and a natural rock arch formed when part of a cliff collapsed."
+# Tonga has NO inscribed UNESCO World Heritage Site (two sites on the Tentative
+# List) — noted for accuracy.
+culturalTraits:
+  - "Anga faka-Tonga ('the Tongan way') — deep respect for the monarchy, nobility, church and elders; strong communal and family (kainga) bonds"
+  - "Ta'ovala and kiekie woven-mat dress and ceremonial gift exchange — among the most distinctive formal features of Tongan culture"
+  - "Kava (faikava) ceremony — a sacred communal kava-drinking rite at gatherings"
+  - "A proud maritime heritage — the Tu'i Tonga empire was one of the most powerful ancient Polynesian kingdoms"
+  - "A proudly Christian kingdom with strong Sunday observance"
+prideOf:
+  - "Being the only remaining kingdom in Polynesia and never fully colonized"
+  - "The Ha'amonga 'a Maui trilithon and Tu'i Tonga empire heritage"
+  - "Ta'ovala weaving and the kava ritual traditions"
+  - "Tongan rugby, boxing and weightlifting athletes on the world stage"
+  - "The Tongan language and oral/genealogical traditions"
+animals:
+  popular:
+    - "Flying foxes / fruit bats (Pteropus tonganus, roosting at Kolovai, Tongatapu)"
+    - "Sea turtles in the lagoons"
+    - "Humpback whales (winter migration through Tongan waters — a major whale-watching destination)"
+    - "Reef fish and skipjack tuna"
+  unique:
+    - "Tongan endemic birds (e.g. the Tongan ground pigeon)"
+    - "Humpback whale Southern Hemisphere breeding grounds around Tonga"
+    - "Deep-sea fauna of the Tonga Trench"
+industries:
+  - "Agriculture and fisheries — squash/pumpkin, coconuts, vanilla beans, bananas, root crops (taro), and tuna fishing"
+  - "Remittances (~40-49% of GDP, largely from Tongans abroad) and foreign aid"
+  - "Tourism — whale watching, eco and cultural tourism (~15% of GDP)"
+  - "Construction (aid- and remittance-funded projects)"
+  - "Manufacturing and handicrafts (food processing, textiles, weaving, tapa)"
+  - "Services, telecom and finance (~60% of GDP); a renewable-energy push (solar/wind)"
+sports:
+  - "Rugby union and rugby league (de facto national sports; Tonga has competed in the Rugby World Cup)"
+  - "Boxing (a traditional strength, with many Tongan-born fighters)"
+  - "Soccer, netball, volleyball"
+religions:
+  - name: Free Wesleyan Church of Tonga
+    percent: 34.2
+    sourceId: census-2021
+  - name: Church of Jesus Christ of Latter-day Saints
+    percent: 19.7
+    sourceId: census-2021
+  - name: Roman Catholic
+    percent: 13.7
+    sourceId: census-2021
+  - name: Free Church of Tonga
+    percent: 11.3
+    sourceId: census-2021
+  - name: Church of Tonga
+    percent: 6.8
+    sourceId: census-2021
+  - name: Other Christian denominations and minority faiths (SDA, Assembly of God, Pentecostal, Bahá'í, small Hindu/Muslim communities)
+    percent: 14.3
+    sourceId: census-2021
+# Religion figures: Tonga Statistics Dept 2021 census (values 34.2/19.7/13.7/
+# 11.3/6.8); 'Other' is a residual to reach 100. Christians are >99% of the
+# population; less than 1% report no religion.
+entertainment:
+  - season: allYear
+    items:
+      - "Kava (faikava) clubs and ceremonies"
+      - "Church/community choirs and cultural festivals"
+      - "Traditional dancing (lakalaka, tau'olunga) and village feasts"
+      - "Whale watching (peak Jul-Oct) and market days in Nuku'alofa"
+  - season: dry
+    items:
+      - "Peak tourism — snorkelling, diving, beach and lagoon days"
+      - "Sailing/boating in the Vava'u cruising hub"
+      - "Hiking and archaeology (Ha'amonga, Langi mounds)"
+  - season: wet
+    items:
+      - "Indoor and cultural events, kava festivals, kayaking"
+      - "Cyclone-watch disruptions; squash harvest for the NZ market"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "'Ota ika — raw fish salad in coconut cream and citrus (the national dish)"
+      - "Lu pulu — taro leaves with corned beef and coconut cream (also lu sipi, lu moa, lu ika)"
+      - "Faikakai — ripened banana in coconut syrup"
+      - "Manioke — pounded cassava/taro (poi-like)"
+  - season: dry
+    items:
+      - "Fresh reef-fish grills and seasonal fruit (mango, pineapple, coconut)"
+      - "Kava refreshments; breadfruit and taro in season"
+  - season: wet
+    items:
+      - "Warm coconut-rich parcels (lu dishes) and soups"
+      - "Carbon-baked cassava bread and hot cocoa-style drinks; fa'i (roasted taro)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Ta'ovala — the quintessential woven pandanus-mat waistband worn by men over western clothes"
+      - "Kiekie — finely plaited mat (especially for women)"
+      - "Ku'utu/sulu wrap and vala (tupenu) for women"
+      - "Ceremonial dress for the tau'olunga dance"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Mon-Fri 08:30-17:00 with a lunch break (often 12:30-13:30); Saturday morning for many; Sunday closed by law and practice."
+  lunchBreakTiming: "Typically 12:30-13:30."
+  notableShutdownPeriods:
+    - period: "Public holidays and royal observances"
+      description: "New Year, Good Friday/Easter, the King's/royal birthdays, Emancipation Day (4 June), Christmas/Boxing Day."
+    - period: "South Pacific cyclone season and volcanic activity (Nov-Apr)"
+      description: "Operations can be suspended during storms and volcanic events (e.g. the Jan 2022 Hunga Tonga-Hunga Ha'apai eruption, Cyclone Gita Feb 2018)."
+  notes: "Government and business meetings often open with prayer in this Christian kingdom. Allow a relaxed 'island time' pace and slack for ferry/weather delays; royal and noble events may change schedules."
+sources:
+  - id: census-2021
+    name: "2021 Census of Population and Housing (religion tabulation)"
+    publisher: "Tonga Statistics Department (microdata.pacificdata.org)"
+    url: "https://tongastats.gov.to/"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "Religion composition: Free Wesleyan 34.2%, LDS 19.7%, Roman Catholic 13.7%, Free Church 11.3%, plus residual categories."
+  - id: no-unesco
+    name: "Tonga — World Heritage tentative list status"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/to"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Confirms Tonga has no inscribed UNESCO World Heritage Site (two sites on the Tentative List)."
