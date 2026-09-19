@@ -1,0 +1,150 @@
+alpha3: SWZ
+alpha2: SZ
+name:
+  eng: Eswatini
+  local:
+    - languageCode: ssw
+      value: Umbuso weSwatini
+flagEmoji: "🇸🇿"
+capital: Mbabane
+isSovereign: true
+# Classified unitary-small: population ~1.2M, a small Swazi-majority kingdom where
+# both official languages (siSwati and English) are national official languages,
+# not regional identities. The four regions and tinkhundla administrative
+# structure are administrative divisions, not distinct cultural-historical
+# sub-state identities, so a single synthetic WHOLE region carries all
+# region-level content. (Renamed from Swaziland to Eswatini in 2018; the ISO
+# codes SWZ/SZ are unchanged.)
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: ssw
+    domain: official
+    speakersShare: 1.0
+    sourceId: swz-const-2005-lang
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: swz-const-2005-lang
+  - languageCode: ssw
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: swz-cia-2021
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.1
+    sourceId: swz-cia-2021
+ethnicGroups:
+  # CIA World Factbook (2021 estimate) is the standard split; some secondary
+  # sources report ~97% by self-identification including assimilated groups.
+  - group: Swazi (emaSwati)
+    percent: 84.0
+    sourceId: swz-cia-2021
+  - group: Zulu
+    percent: 9.9
+    sourceId: swz-cia-2021
+  - group: Tsonga
+    percent: 2.5
+    sourceId: swz-cia-2021
+  - group: Other (Indian, Pakistani, Portuguese)
+    percent: 3.6
+    sourceId: swz-cia-2021
+timezones:
+  - name: Africa/Mbabane
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+currency:
+  code: SZL
+  symbol: "E"
+  name: Swazi lilangeni
+legalConstraints:
+  - topic: "dual-currency regime (lilangeni and South African rand at par)"
+    description: "Eswatini is part of the Common Monetary Area. The lilangeni is pegged 1:1 to the South African rand, and the rand circulates and is accepted at par, so prices may be quoted and paid in either SZL or ZAR."
+    sourceId: swz-cbe-currency
+  - topic: "VAT rate and invoice requirements"
+    description: "Value Added Tax is levied at 15% (VAT Act, 2011). Tax invoices must show the seller/buyer, VAT number, date, description, amount, VAT rate and VAT amount, in SZL or ZAR."
+    sourceId: swz-ers-vat
+  - topic: "electronic fiscal-data reporting mandate"
+    description: "Legal Notice No. 111 of 2026 and the Electronic Submission of Fiscal Data Rules, effective 15 July 2026, establish electronic tax invoices, fiscal receipts and real-time fiscal-data reporting to the Eswatini Revenue Service, phased by sector."
+    sourceId: swz-ers-efiscal
+paymentMethodShares:
+  # Volume vs value differ sharply (mobile money ~88% by volume / ~13% by value);
+  # these are ESTIMATE by-value shares, following the JAM precedent.
+  - method: "cash"
+    percent: 55.0
+    sourceId: swz-cbe-fintech
+  - method: "mobile money"
+    percent: 30.0
+    sourceId: swz-cbe-fintech
+  - method: "cards"
+    percent: 8.0
+    sourceId: swz-cbe-fintech
+  - method: "bank transfer"
+    percent: 7.0
+    sourceId: swz-cbe-fintech
+paymentCulture:
+  popularMethods:
+    - Cash (dominant for daily spend despite near-universal mobile-money access)
+    - Mobile money (MTN MoMo plus Fintech and Eswatini Mobile) — ubiquitous for P2P, bills and airtime
+    - South African bank card rails for formal retail
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up in restaurants for good service"
+    autoIncludedInBill: true
+    note: "Prices generally include service and taxes. Rand and lilangeni are interchanged at par at the till."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Very polite, formal and hierarchical, reflecting an absolute monarchy with deep respect for royalty and elders. Communication tends to be indirect to preserve dignity (the 'hlonipha' register of respect)."
+  greetingNorms: "'Sawubona' (the respectful greeting) and 'Ngiyabonga' (thank you); a handshake is standard. Relationship-building and pleasantries come before business."
+  meetingEtiquette: "Decisions can be slow and mediated by consensus and respect for hierarchy; English is used in official/corporate contexts while siSwati frames social interaction."
+  topicsToAvoid:
+    - "Openly criticising the monarchy or the royal family"
+    - "Disrespecting elders or authority figures"
+  giftGivingNotes: "When invited to a home, a modest gift is appreciated; use the right hand when giving and receiving."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: swz-const-2005-lang
+    name: "Constitution of the Kingdom of Eswatini (2005, Act 1 of 2005), Section 3(2)"
+    publisher: "Government of Eswatini"
+    url: "https://gov.sz/images/stories/Constitution%20of%20%20SD-2005A001.pdf"
+    year: 2005
+    accessedDate: "2026-09-18"
+    note: "The official languages of the kingdom are siSwati and English (both set at 1.0, a legal-status flag). The document is titled for Swaziland, predating the 2018 rename; the status carries to Eswatini."
+  - id: swz-cia-2021
+    name: "CIA World Factbook — Eswatini (2021 estimate)"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/countries/eswatini/"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "Ethnic composition ~84% Swazi, ~9.9% Zulu, ~2.5% Tsonga, ~3.6% other (Indian, Pakistani, Portuguese). siSwati locallySpoken ~0.90 is an ESTIMATE (no census language table); English foreign/working ~0.10 ESTIMATE."
+  - id: swz-cbe-currency
+    name: "Central Bank of Eswatini — Currency (the Lilangeni)"
+    publisher: "Central Bank of Eswatini"
+    url: "https://centralbank.org.sz/currency1"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "The Lilangeni (SZL) was introduced in 1974 at par with the South African rand through the Common Monetary Area and remains pegged 1:1; the rand circulates freely alongside it at par."
+  - id: swz-ers-vat
+    name: "Eswatini Revenue Service — Value Added Tax (VAT Act, 2011)"
+    publisher: "Eswatini Revenue Service"
+    url: "https://ers.org.sz/VAT"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "VAT levied at 15% on most goods and services; legal basis the Value Added Tax Act, 2011 (Act No. 12 of 2011); statutory tax-invoice contents as described."
+  - id: swz-ers-efiscal
+    name: "Eswatini Revenue Service — Electronic Submission of Fiscal Data Rules (Legal Notice No. 111 of 2026)"
+    publisher: "Eswatini Revenue Service"
+    url: "https://afriref.dev/sz/vat"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Electronic tax invoices, fiscal receipts and real-time fiscal-data reporting to ERS, effective 15 July 2026, phased by sector."
+  - id: swz-cbe-fintech
+    name: "Central Bank of Eswatini — National FinTech Strategy 2025-2030 and National Payment System Vision 2025; Eswatini FinTech Landscape Report (AFI/CBE 2024)"
+    publisher: "Central Bank of Eswatini / AFI"
+    url: "https://www.centralbank.org.sz/"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Financial inclusion ~87% (2022), driven mainly by mobile money (~71% of adults own an account; ~888,817 registered accounts, 16,363 agents, 2022). Mobile money is ~88% of retail transactions by volume but only ~13% by value. Payment-method by-value shares are ESTIMATEs: cash ~55%, mobile money ~30%, cards ~8%, bank transfer ~7%. Operators include MTN MoMo, Fintech and Eswatini Mobile."

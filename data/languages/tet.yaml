@@ -1,0 +1,8 @@
+code: tet
+name:
+  eng: Tetum
+  local: Tetum
+commonPhrases:
+  hello: "Bondia"
+  thankYou: "Obrigadu"
+  goodbye: "Adeus"

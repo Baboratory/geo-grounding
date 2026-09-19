@@ -1,0 +1,132 @@
+code: WHOLE
+name:
+  eng: Djibouti
+  local:
+    - languageCode: fra
+      value: Djibouti
+    - languageCode: arb
+      value: جيبوتي
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py since Djibouti is classified
+# unitary-small (single synthetic WHOLE region). It carries the full
+# country-level name and region-level content.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert: one of the hottest countries on Earth, with a brutally hot and humid summer (June-September), a milder winter, and very low rainfall concentrated on the northern coasts. The interior plateaus (e.g. the Grand Bara and Damerjog plains) are arid and sparsely populated."
+landmarks:
+  - name: Lake Assal
+    description: "A salty crater lake below sea level (the lowest point in Africa), surrounded by dramatic volcanic landscape."
+  - name: Gulf of Tadjoura
+    description: "A deep indentation of the Indian Ocean separating the northern and southern coasts, with coral reefs and whale-shark observation opportunities."
+  - name: Day Forest National Park
+    description: "A relic juniper and olive forest in the Goda Mountains, sheltering rare wildlife in an otherwise arid country."
+  - name: Moucha Island
+    description: "A small island and marine-reserve destination popular for snorkelling and diving."
+  - name: Downtown Djibouti City
+    description: "The port city's colonial-era French architecture and bustling central market."
+culturalTraits:
+  - "Two main peoples — the Somali (primarily Issa) and the Afar — with distinct languages (Somali and Afar) alongside official French and Arabic"
+  - "The country acts as a strategic hub for the region's port, railway (the new Addis Ababa-Djibouti line) and foreign military bases"
+  - "Overwhelmingly Muslim, with Islamic custom and calendar rhythms woven into daily life"
+  - "A French and Arab cultural imprint on top of a Horn-of-Africa pastoral heritage"
+prideOf:
+  - "The strategic port of Djibouti and its role as Ethiopia's principal gateway to the sea"
+  - "A multi-ethnic harmony between the Issa-Somali and Afar communities"
+  - "Lake Assal, the lowest point in Africa"
+  - "The hard-won independence from France (1977)"
+animals:
+  popular:
+    - Dromedary camel
+    - Goats and sheep
+    - Salt-tolerant feral donkey
+  unique:
+    - Whale sharks (seasonally sighted in the Gulf of Tadjoura)
+    - The Djibouti francolin and other rare birds of the Goda Mountains
+    - Saltwater crocodiles historically present around Lake Assal's artesian pools
+industries:
+  - Port and logistics (transhipment, bunkering, the Addis Ababa-Djibouti railway)
+  - Free-zone trade and warehouse services
+  - Financial services (low-tax jurisdiction)
+  - Fishing (coastal)
+  - Military-basing and related services
+sports:
+  - Football (most popular)
+  - Athletics and running
+  - Basketball
+  - Water sports (diving, snorkelling, sailing)
+religions:
+  - name: Islam (Sunni)
+    percent: 94.0
+    sourceId: dji-religion
+  - name: Other (minority Christian and other)
+    percent: 6.0
+    sourceId: dji-religion
+entertainment:
+  - season: winter
+    items:
+      - "Diving and whale-shark observation in the Gulf of Tadjoura"
+      - "Weekend trips to Moucha Island beaches"
+      - "Day trips to Lake Assal and the Day Forest"
+  - season: summer
+    items:
+      - "Indoor socialising and evening waterfront cafés"
+      - "Community and Ramadan-night gatherings"
+      - "Khat (qat) social afternoons — a customary social practice"
+  - season: allYear
+    items:
+      - "The central market and café culture of Djibouti City"
+      - "Football games"
+      - "Music and poetry circles"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Lahoh / lahoh (fermented flatbread eaten at breakfast)"
+      - "Fah-fah (spicy beef or mutton soup)"
+      - "Skudahkharis (lamb cooked with rice and spices)"
+      - "Samak bil har (grilled fish)"
+      - "Yemeni-style stews and curries reflecting the Arab influence"
+      - "Sweet mint tea and freshly brewed bun (coffee)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men often wear the macawiis (sarong-like wrap) or the thawb, with a woven cap; women commonly wear modest dresses or the dirac and may choose hijab in line with Islamic custom"
+seasonCalendar:
+  - season: winter
+    months: [11, 12, 1, 2, 3, 4]
+  - season: summer
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "The formal working week runs Sunday-Thursday: government roughly 7:00 am-1:00 pm and 2:00-5:00 pm; the private sector often works split shifts (~8:00 am-12:30 pm and 4:00-7:00 pm), with Friday and Saturday off. The Labour Code caps weekly hours at 48."
+  lunchBreakTiming: "A midday break, commonly around 12:30-2:00 pm."
+  notableShutdownPeriods:
+    - period: "Ramadan (2026 ~18 February-19 March)"
+      description: "Daytime activity slows sharply and work hours are compressed during the fasting month."
+      sourceId: dji-holidays-2026
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Major Islamic holidays with extended closures; dates move earlier by ~11 days each year."
+      sourceId: dji-holidays-2026
+    - period: "Independence Day (27 June)"
+      description: "The national day; government and businesses are closed."
+      sourceId: dji-holidays-2026
+    - period: "New Year (1 Jan), Labour Day (1 May) and Christmas (25 Dec)"
+      description: "Statutory public holidays with closures."
+      sourceId: dji-holidays-2026
+  notes: "The Sunday-Thursday working week is the key divergence from Western Monday-Friday norms — AI agents must not assume Monday-Friday availability. No daylight-saving time (UTC+3 year-round); Islamic lunar holidays drift ~11 days earlier each year, so shutdown windows are not static."
+sources:
+  - id: dji-religion
+    name: "Religious composition of Djibouti (CIA World Factbook and demography sources)"
+    publisher: "CIA / demographic references"
+    url: "https://www.cia.gov/the-world-factbook/countries/djibouti/"
+    year: 2022
+    accessedDate: "2026-09-18"
+    note: "Roughly 94% Sunni Muslim; the remainder is a small Christian and other minority. ESTIMATE; no precise official census ratio."
+  - id: dji-holidays-2026
+    name: "Djibouti public holidays 2026 (including Islamic lunar holidays)"
+    publisher: "Government of Djibouti / public holiday calendars"
+    url: "https://publicholidays.africa/djibouti/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Public holidays including Independence Day (27 June), Labour Day, New Year, Christmas, and the Islamic observances of Ramadan, Eid al-Fitr, Eid al-Adha and the Islamic New Year (lunar, drifting)."

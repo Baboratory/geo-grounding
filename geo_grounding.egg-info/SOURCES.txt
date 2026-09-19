@@ -1,0 +1,10 @@
+LICENSE
+LICENSE-DATA.md
+README.md
+pyproject.toml
+geo_grounding.egg-info/PKG-INFO
+geo_grounding.egg-info/SOURCES.txt
+geo_grounding.egg-info/dependency_links.txt
+geo_grounding.egg-info/requires.txt
+geo_grounding.egg-info/top_level.txt
+tests/test_validate.py
