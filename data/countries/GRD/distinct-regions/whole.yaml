@@ -1,0 +1,165 @@
+code: WHOLE
+name:
+  eng: Grenada
+  local:
+    - languageCode: eng
+      value: Grenada
+# Generic country-wide fallback content for Grenada (unitary-small, single
+# synthetic whole region: the main island plus Carriacou and Petite Martinique).
+# Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon — hot, humid and wet year-round with the heaviest rain typically in the June-to-November wet season; the dominant climate across the island."
+  - koppenCode: Af
+    description: "Tropical rainforest in the wettest, highest-rainfall interior (e.g. around the Grand Etang crater and the central volcanic ridges)."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) in the drier, leeward coastal stretches, which get a more distinct dry spell (roughly Jan-May)."
+landmarks:
+  - name: Grand Anse Beach
+    description: "Grenada's most famous two-mile crescent of white sand just south of St. George's, often ranked among the best beaches in the Caribbean."
+  - name: St. George's Harbour (Carenage)
+    description: "The scenic, steeply terraced horseshoe harbour of the capital, one of the most picturesque towns in the Caribbean, with pastel buildings and the French/Georgian colonial core."
+  - name: Grand Etang National Park and crater lake
+    description: "A 1,000-hectare mountainous rainforest reserve in the island's centre holding a 12-hectare volcanic crater lake at ~530m; hiking up Mt Qua Qua and Mount St. Catherine."
+  - name: Molinere Bay Underwater Sculpture Park
+    description: "The world's first underwater sculpture park (installed 2006 by Jason deCaires Taylor) in the Molinere Beauséjour Marine Protected Area off the west coast near St. George's; it doubles as an artificial reef and snorkelling site."
+  - name: Belmont Estate, St. Patrick
+    description: "A working 17th-century plantation and agri-tourism heritage site — one of Grenada's best-known tree-to-bar cocoa and chocolate producers."
+  - name: Mount St. Catherine
+    description: "Grenada's highest peak (~840m), an extinct volcanic dome in the central mountain spine reachable by rainforest trails."
+  - name: Fort George / Fort Frederick
+    description: "Colonial-era fortifications above St. George's offering panoramic views over the harbour and capital."
+  - name: Concord and Annandale waterfalls
+    description: "Grenada's best-loved waterfalls, easily reached from central and southwestern Grenada within the Grand Etang area."
+culturalTraits:
+  - "'Isle of Spice' (Spice Isle) — Grenada is the world's second-largest producer of nutmeg after Indonesia and grows nutmeg, mace, cinnamon, cloves and other spices"
+  - "Carnival 'Spicemas' — a portmanteau of 'spice' and 'Mas' (masquerade), held in August with unique traditional masquerade characters"
+  - "Masquerade (Mas) tradition — Jab Jab (a chained devil figure), Shortknee, Wild Indian, Vieux Corps and Moko Jumbie, with roots in African-derived satire and resistance"
+  - "Afro-Caribbean heritage as the majority cultural base, enriched by Indo-Caribbean, European and small indigenous (Carib/Arawak) strands"
+  - "Cricket as the traditional national sport (as part of the West Indies team)"
+  - "Tree-to-bar chocolate movement — Grenada pioneered Caribbean single-origin craft chocolate (Grenada Chocolate Company, Belmont Estate)"
+prideOf:
+  - "Being the 'Isle of Spice' and the world's second-biggest nutmeg and mace producer"
+  - "The warmth and friendliness of its people"
+  - "Rich Carnival and Mas traditions, from Jab Jab to Shortknee"
+  - "Stunning beaches and unspoilt rainforest interior"
+  - "A pioneering Caribbean bean-to-bar chocolate heritage"
+  - "Resilience and independence, from the 1979 revolution to modern reconstruction"
+animals:
+  popular:
+    - "Leatherback, hawksbill, green and loggerhead sea turtles (nesting beaches, esp. Levera Beach)"
+    - "Mona monkeys (introduced, seen at Belmont Estate and in the wild)"
+    - "Grenada dove (the national bird, a rare endemic)"
+    - "Armadillos (locally 'cussi')"
+    - "Coral reef fish and marine life around the underwater sculpture park"
+  unique:
+    - "Grenada dove (Leptotila wellsi) — a critically endangered endemic pigeon and the national bird"
+    - "Leatherback turtles (Dermochelys coriacea) — Levera Beach on Grenada's northeast is a major regional nesting site"
+    - "Grenadian nutmeg heritage embodied in the islands' flora, from the nutmeg tree to endemic rainforest species"
+    - "Grenadian worm lizard and other small endemic reptiles"
+industries:
+  - "Nutmeg, mace and spice production — Grenada's signature export and the 'Isle of Spice' economy"
+  - "Tourism — the largest economic pillar (beaches, yachting, diving, spice/chocolate agri-tourism)"
+  - "Cocoa and craft (tree-to-bar) chocolate production"
+  - "Agriculture — bananas, cocoa, mangoes, soursop, vegetables, fish and construction materials"
+  - "Fishing and the national fish industry"
+  - "International financial services / off-shore banking and insurance (an OECS/ECCU financial centre)"
+  - "Higher education — St. George's University is a major employer and foreign-exchange earner"
+sports:
+  - "Cricket — the traditional national sport, played as part of the West Indies team; Grenada was a co-host of the 2007 ICC Cricket World Cup (National Cricket Stadium, St. George's)"
+  - "Football (soccer)"
+  - "Track and field / athletics"
+  - "Netball and basketball"
+  - "Sailing and water sports (yachting, scuba diving, snorkelling)"
+religions:
+  - name: Protestant (incl. Pentecostal, Seventh-day Adventist, Anglican, Baptist, Church of God, Evangelical, Methodist)
+    percent: 49.2
+    sourceId: grd-religion-2011
+  - name: Roman Catholic
+    percent: 36.0
+    sourceId: grd-religion-2011
+  - name: None
+    percent: 5.7
+    sourceId: grd-religion-2011
+  - name: Other (incl. Baha'i, Hindu, Muslim, Moravian, Brethren, Latter-day Saints)
+    percent: 5.5
+    sourceId: grd-religion-2011
+  - name: Unspecified
+    percent: 1.3
+    sourceId: grd-religion-2011
+  - name: Jehovah's Witness
+    percent: 1.2
+    sourceId: grd-religion-2011
+  - name: Rastafarian
+    percent: 1.2
+    sourceId: grd-religion-2011
+entertainment:
+  - season: allYear
+    items:
+      - "Caribbean music and dance (soca, calypso, reggae); local live bands and rum shops"
+      - "Beach and resort nightlife on Grand Anse and the south coast"
+      - "Cricket, football, athletics and netball"
+      - "Festival culture — Spicemas carnival drums and traditional Mas performances (Jab Jab, Shortknee, Wild Indian)"
+      - "Diving and snorkelling at the Molinere underwater sculpture park"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Oil down — the national dish: a one-pot stew of breadfruit, callaloo/dasheen, dumplings, salted meat or fish cooked down in coconut milk and spices"
+      - "Saltfish souse and bakes"
+      - "Curried dishes reflecting the Indo-Caribbean influence (curry goat, roti, dhal)"
+      - "Bakes, doubles and cocoa tea"
+      - "Nutmeg ice cream and nutmeg syrup"
+      - "Fresh fish (grilled or fried) and callaloo soup"
+      - "Rum, including offerings from the historic River Antoine Rum Distillery"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Bright, light resort wear suited to the tropical climate"
+      - "Madras/cotton prints reflecting Afro-Caribbean heritage"
+      - "Traditional Mas carnival costuming — Jab Jab's blackened body, chains and horned helmet, Shortknee's colourful hooded jumpsuit and wire mask, Wild Indian headdresses and Fancy Mas feather costumes"
+      - "Business/formal attire for work (collared shirts, suits in formal settings)"
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-16:00 Mon-Fri, with many closing 12:00-13:00 for lunch; retail and shops often open Mon-Sat (Saturday often a half-day), closing Sunday."
+  lunchBreakTiming: "A standard midday break (about 12:00-13:00) is common."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Reduced business over Christmas (late Dec-early Jan)."
+    - period: "Carnival (Spicemas) weekend in August"
+      description: "Banks, offices and many shops close for the annual national carnival, which runs from the second Monday of August through Tuesday (with celebrations building from July/August)."
+    - period: "Easter weekend"
+      description: "Good Friday and Easter Monday public holidays; reduced trading."
+    - period: "Hurricane season (June-November)"
+      description: "Business can be briefly interrupted by tropical storms and hurricanes, though many storms pass offshore; the tourist 'high' season runs roughly Dec-Apr."
+  notes: "Sunday is widely a rest day outside commercial and tourist zones. The December-April high season drives the tourism peak cycle."
+sources:
+  - id: grd-religion-2011
+    name: "Grenada — People and Society: Religions (2011 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/grenada/"
+    year: 2011
+    accessedDate: "2026-09-18"
+    note: "Religious affiliation (2011 govt estimate, also cited in the US State Dept 2020 International Religious Freedom Report): Protestant 49.2% (Pentecostal 17.2%, Seventh-day Adventist 13.2%, Anglican 8.5%, Baptist 3.2%, Church of God 2.4%, Evangelical 1.9%, Methodist 1.6%, other 1.2%), Roman Catholic 36%, Jehovah's Witness 1.2%, Rastafarian 1.2%, other 5.5%, none 5.7%, unspecified 1.3%."
+  - id: grd-nutmeg
+    name: "Isle of Spice / nutmeg economy"
+    publisher: "The World Bank / FAO"
+    url: "https://www.fao.org/americas/news/news-detail/The-Spice-Isle-seeks-to-expand-commodities/en"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "Grenada is known as the 'Spice Isle/Isle of Spice' and is the world's second-largest producer of nutmeg after Indonesia (~20% of global market), also growing mace, cinnamon and cloves — basis for the spice cultural trait and industries."
+  - id: grd-leatherback
+    name: "Leatherback nesting at Levera Beach, Grenada"
+    publisher: "Ocean Spirits (Grenada)"
+    url: "http://www.oceanspirits.org/research-and-monitoring/"
+    year: 2014
+    accessedDate: "2026-09-18"
+    note: "Levera Beach in northeast Grenada is one of the top-three regional nesting sites for leatherback sea turtles in the wider Caribbean (high of 1,143 confirmed nests by 300+ turtles in 2014) — basis for the leatherback unique-animal and popular-animal entries."
+  - id: grd-cwc-2007
+    name: "2007 ICC Cricket World Cup — hosts and venues"
+    publisher: "International Cricket Council (via Wikipedia)"
+    url: "https://en.wikipedia.org/wiki/2007_Cricket_World_Cup"
+    year: 2007
+    accessedDate: "2026-09-18"
+    note: "Grenada was one of nine co-hosting Caribbean nations of the 2007 Cricket World Cup, staging matches at the National Cricket Stadium (Queen's Park) in St. George's — basis for the 2007 co-hosting sports claim."
