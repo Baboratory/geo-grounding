@@ -1,0 +1,133 @@
+code: WHOLE
+name:
+  eng: Saint Martin
+  local:
+    - languageCode: fra
+      value: Saint-Martin
+climates:
+  - koppenCode: Aw
+    description: Tropical marine / tropical savanna (Köppen Aw) with a distinct dry 'winter' season (roughly December-April, locally 'carême') and a wet season May-November, moderated year-round by the trade winds; temperatures 24-30°C with minimal seasonal variation. The official hurricane season runs 1 June-30 November (there is a wetter micro-climate on Pic Paradis, ~424 m, the highest point).
+landmarks:
+  - name: Marigot
+    description: The capital and largest town, with a waterfront promenade, the Marigot Market (fresh produce, spices, crafts and 'lolos' street-food shacks) and a modernized maritime terminal serving St Barthélemy and Anguilla.
+  - name: Fort Louis (Fort St. Louis)
+    description: A 17th-century fort on the hill overlooking Marigot Bay; the capital's iconic viewpoint.
+  - name: Orient Bay (Baie Orientale)
+    description: The largest and most famous beach on the French side — a long stretch of beach clubs, water sports and soft sand, with a substantial share of the island's tourist rental stock concentrating around it.
+  - name: Grand Case
+    description: A coastal fishing village dubbed the 'gastronomy capital of the Caribbean', with a strip of gourmet French-Caribbean restaurants and 'lolo' street-food shacks.
+  - name: The Franco-Dutch open border
+    description: One of the world's smallest land borders between two self-governing states, crossing the island near Oyster Pond at the Concordia monument with no physical barrier — the French collectivity and the Dutch Sint Maarten share the island.
+culturalTraits:
+  - Bi-national fusion — a French law-and-administration territory on a single island shared with the Dutch side, with an everyday, fully open French-Dutch and Anglophone-Caribbean encounter
+  - "Bilingual French-and-Creole-English culture: official French complemented by English as the working lingua franca and an English-based Virgin Islands Creole in informal life"
+  - Carnival culture — one of the great Caribbean carnivals, held on the French side in February, fusing French and Dutch/masquerade traditions
+  - A food-first culture — Grand Case's gourmet restaurant row and the 'lolo' street-food shacks; the island bills itself the gastronomic capital of the Caribbean
+  - A cosmopolitan, welcoming society built on immigration — population roughly quintupled 1982-2008, creating a very diverse Afro-Caribbean, European and mainland-Caribbean melting pot
+  - A duty-free, easy-going island ethos, reinforced by resilience and community solidarity after Hurricane Irma (2017)
+prideOf:
+  - Being the 'gastronomic capital of the Caribbean' (Grand Case restaurant row and lolo food culture)
+  - The world's smallest landmass shared by two self-governing states — a peaceful, open-border Franco-Dutch cohabitation (Concordia, 1648)
+  - Resilience and a rebuilt identity after Hurricane Irma (2017)
+  - A rich multilingual identity (French official + English lingua franca + Creoles) bridging the French and Anglophone Caribbean
+  - Marine and coastal treasures — nesting sea turtles, iguanas, coral reefs and the protected islets (Pinel, Tintamarre)
+  - A welcoming, diverse, tolerant island community built by generations of immigrants
+animals:
+  popular:
+    - Green iguanas (Iguana iguana), commonly seen around gardens and coastline
+    - Sea turtles (green and hawksbill) that frequent coastal waters and nest on beaches
+    - Brown pelicans, frigatebirds, herons, egrets and hummingbirds
+    - Tropical reef fish (parrotfish, angelfish) offshore, with winter migrating humpback whales
+  unique:
+    - Nesting green and hawksbill sea turtles on the French-side beaches and protected islets (Tintamarre, Îlet Pinel)
+    - Rock iguanas and intact coral and salt-pond ecosystems on the protected islets of the nature reserve
+industries:
+  - Tourism — the dominant engine of a tertiary economy where the large majority of jobs are in retail, accommodation and food services; the Grand-Case regional airport and Marigot maritime terminal serve the island and its neighbours
+  - Duty-free and marina economy — no VAT makes the French side a duty-free shopping destination; marinas and pleasure boating are significant
+  - Real estate and services — the property sector is a major value-added area driven by outside investors and villa tourism
+  - Construction, a traditional pillar, slowing after post-storm reconstruction
+sports:
+  - Water sports — windsurfing, kite-surfing, paddle-boarding, kayaking and jet-skiing around Orient Bay, Grand Case and Mullet Bay
+  - Sailing and regattas — a year-round sailing culture
+  - Diving and snorkelling (reefs, turtles) and deep-sea sport fishing (marlin, tuna, wahoo)
+  - Beach sports — volleyball and informal beach football
+entertainment:
+  - season: allYear
+    items:
+      - Live music in beach bars and Grand Case dining by the water
+      - Water-based recreation — sailing trips, day-charters to Tintamarre and Îlet Pinel, snorkelling and fishing
+      - Shopping along the duty-free marina front
+  - season: dry
+    items:
+      - Carnival — the signature French-side event in February, with parades, costume/masquerade competitions, music and street food across Marigot
+      - Grand Case 'Tuesday' street events (artists, crafts, food, dance) over twelve Tuesdays in February-April
+      - St. Martin Jazz Festival (May) and fine-dining 'Grand Case nights'
+      - The festive high-season peak (Christmas/New Year)
+  - season: wet
+    items:
+      - The St. Martin Jazz Festival and summer cultural evenings
+      - Beach and water-sports days with good morning diving conditions
+      - Local festivals and community events through the wet season
+traditionalDishes:
+  - season: allYear
+    items:
+      - Conch (lambi) — fritters and conch curry
+      - Spiny lobster (langouste) and grilled reef fish (e.g. red snapper / vivaneau)
+      - Salt-cod accras (accras de morue) — French-Caribbean fritters
+      - Lolo cuisine — grilled chicken, pork ribs and fish from the street-food shacks of Grand Case and the Marigot market
+      - Johnnycakes — a pan-bread of English heritage
+      - Ti' punch and rum-based drinks, including guavaberry rum liqueur
+  - season: dry
+    items:
+      - Grand Case fine-dining menus and carnival feasting through the high season
+  - season: wet
+    items:
+      - Heartier lolo and comfort dishes favoured in the wet season
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light tropical cotton and linen clothing; swimwear, hats, sunglasses and sandals
+      - Madras head-ties, scarves and wrap skirts echoing the French-Caribbean Creole tradition, worn at festive events
+  - season: dry
+    items:
+      - Lighter evening layers for cooler trade-wind nights
+  - season: wet
+    items:
+      - Breathable, quick-drying fabrics with rain gear and waterproof shoes
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  lunchBreakTiming: "A midday break exists in many businesses but is not universal on an island geared to tourism; several restaurants close mid-afternoon between lunch and dinner service."
+  typicalWorkHours: "Retail and services roughly 08:00/09:00-18:00 Monday-Saturday (many close the Saturday afternoon); banks ~08:30-15:30 Mon-Fri; government offices follow the French public-sector rhythm Mon-Fri ~08:00-16:30."
+  restDays:
+    - sunday
+  notes: "Sunday is the main rest day — most shops, boutiques, banks and many offices close, while tourist services (restaurants, some beach clubs) stay open and activity peaks in the tourist/high season. Business is strongly seasonal: the high season (November-March) carries the year, many businesses wind down in the wet/low season (roughly June-October), with a mid-summer bounce for coastal and maritime services."
+sources:
+  - id: maf-tourisme
+    name: "Office de Tourisme de Saint-Martin — geography, climate, culture, dining"
+    publisher: "Saint Martin Tourism Office"
+    url: "https://www.st-martin.org/"
+    accessedDate: "2026-09-20"
+    note: "Climate (dry/wet seasons, hurricane season), landmarks, gastronomy, Carnival and cultural content."
+  - id: maf-iana
+    name: "IANA Time Zone Database — America/Marigot"
+    publisher: "IANA"
+    url: "https://www.iana.org/time-zones"
+    accessedDate: "2026-09-20"
+    note: "UTC-4, no DST."
+  - id: maf-itsee
+    name: "ITSEE — Bilan annuel Tourisme 2024 (Saint-Martin)"
+    publisher: "ITSEE (Institut Territorial de la Statistique et des Études Économiques)"
+    url: "https://www.itsee-saint-martin.org/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Tourism recovery, seasonal occupancy and sectoral data."
+  - id: maf-carib-weather
+    name: "Caribbean climate reference — Saint Martin (Köppen Aw)"
+    publisher: "WhereAndWhen / regional climate references"
+    url: "https://whereandwhen.net/when/caribbean/saint-martin"
+    accessedDate: "2026-09-20"
+    note: "Aw classification and seasonal climate basis."

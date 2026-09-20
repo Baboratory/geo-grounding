@@ -1,0 +1,159 @@
+alpha3: CYM
+alpha2: KY
+name:
+  eng: Cayman Islands
+  local:
+    - languageCode: eng
+      value: Cayman Islands
+flagEmoji: "🇰🇾"
+capital: George Town
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Language official-status basis: English is the sole official language. The
+# local vernacular, Caymanian English, is a semi-creole English variety (IETF
+# en-KY) with no separate ISO 639-3 code, so the existing eng file covers it.
+# Home-language shares are CIA/ESO 2021 estimates ('main language spoken at home').
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: cym-cia-people-2024
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.888
+    sourceId: cym-cia-people-2024
+  - languageCode: spa
+    domain: foreign
+    speakersShare: 0.039
+    sourceId: cym-cia-people-2024
+  - languageCode: tgl
+    domain: foreign
+    speakersShare: 0.038
+    sourceId: cym-cia-people-2024
+timezones:
+  - name: America/Cayman
+    standardUtcOffset: "UTC-5"
+    observesDst: false
+# KYD (Cayman Islands dollar), official currency, pegged to the US dollar. The
+# official fixed rate is CI$1 = US$1.20 (CIMA); the practical retail/cash rate is
+# ~CI$1 = US$1.2-1.25, and US dollars circulate widely alongside KYD.
+currency:
+  code: KYD
+  symbol: "CI$"
+  name: Cayman Islands dollar
+ethnicGroups:
+  - group: Cayman Islander
+    percent: 35.4
+    sourceId: cym-cia-people-2024
+  - group: Jamaican
+    percent: 24.8
+    sourceId: cym-cia-people-2024
+  - group: Filipino
+    percent: 5.5
+    sourceId: cym-cia-people-2024
+  - group: British
+    percent: 5.3
+    sourceId: cym-cia-people-2024
+  - group: American
+    percent: 5.2
+    sourceId: cym-cia-people-2024
+  - group: Honduran
+    percent: 4.2
+    sourceId: cym-cia-people-2024
+  - group: Canadian
+    percent: 3.3
+    sourceId: cym-cia-people-2024
+  - group: Indian
+    percent: 2.1
+    sourceId: cym-cia-people-2024
+  - group: Cuban
+    percent: 1.6
+    sourceId: cym-cia-people-2024
+  - group: Nicaraguan
+    percent: 1.0
+    sourceId: cym-cia-people-2024
+# NOTE: figures are by country of birth (CIA/ESO note), not self-identified
+# ethnicity; a large expatriate workforce (roughly half of residents are
+# non-Caymanian) drives this.
+legalConstraints:
+  - topic: "data protection / privacy"
+    description: "The Data Protection Act, 2017 (Law 33 of 2017; Data Protection Act (2021 Revision)) is the Cayman Islands' GDPR-style law. It applies to any data controller established in, operating from, or regularly carrying on business in the Islands, and imposes eight data-protection principles; controllers not established in Cayman must nominate a Cayman Islands representative. It is enforced by the Office of the Ombudsman."
+    sourceId: cym-dpa-2017
+  - topic: "tax regime — tax-neutral, no income/corporate/VAT"
+    description: "The Cayman Islands levies no personal income tax, corporate income tax, capital gains tax, inheritance tax, or VAT/GST/sales tax (a 'tax-neutral' jurisdiction). Government revenue comes from import/customs duties, stamp duty on property transfers, work-permit fees, financial-services and company registration fees, and tourism levies including the 13% Tourist Accommodation Tax on lodging."
+    sourceId: cym-tax-neutral
+  - topic: "consumer protection / price display"
+    description: "Cayman has no single comprehensive consumer-protection statute; consumers are protected under English common law and existing statutes (e.g. the Sale of Goods Law (1997 Revision)) plus the Price Gouging Control (Emergency Circumstances) Law, 2004. No price-display VAT rule applies because there is no VAT."
+    sourceId: cym-lrc-consumer
+# paymentMethodShares intentionally omitted: no official island-wide consumer
+# payment-method split is published.
+paymentCulture:
+  popularMethods:
+    - "Major international credit/debit cards (Visa, Mastercard) — readily accepted; contactless EMV terminals increasingly standard and mobile wallets (Apple Pay, Google Pay) work at any contactless terminal"
+    - "Cash in Cayman Islands dollars (KYD) and US dollars — US dollars widely accepted in shops, hotels and restaurants (change given in CI$)"
+    - "Bank debit cards and 24/7 ATMs (banks closed weekends but ATMs and cards work)"
+  tipping:
+    expected: true
+    typicalAmount: "Restaurants ~15-20% (gratuity is commonly auto-added to the bill); hotels often include a service charge of ~6-12%; taxis 10-15%"
+    autoIncludedInBill: true
+    note: "Per the official Cayman Islands tourism FAQ, 'Most hotels and restaurants include gratuities between 15 and 20%'. Diners should check the bill before adding more; many outlets operate State-approved gratuity schemes."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Friendly and approachable with a strong sense of community, blending British colonial heritage with warm Caribbean informality. First names become common quickly once acquainted; courtesy and good manners are valued."
+  greetingNorms: "A warm handshake and a smile are standard; 'Good morning/afternoon' with a genuine 'How are you?' is expected. Among friends, a hug or greeting on the cheek is common."
+  meetingEtiquette: "Meetings typically open with polite small talk before getting to the point; relationships matter in business. Punctuality is appreciated. Business casual is standard, with formal attire at senior or government functions."
+  topicsToAvoid:
+    - "Overly aggressive or direct confrontation (a courteous, calm style is valued)"
+    - "Presuming the visitor 'knows the local way' — a humble, respectful approach is appreciated"
+  giftGivingNotes: "Gifts are welcome though not typically required in business; a modest token (local rum, Caymanian heavy cake, crafts) when hosted is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cym-cia-people-2024
+    name: "CIA World Factbook — Cayman Islands: People and Society"
+    publisher: "U.S. Central Intelligence Agency (World Factbook)"
+    url: "https://theodora.com/wfbcurrent/cayman_islands/cayman_islands_people.html"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "ethnicGroups (by country of birth, 2021 est.), languageUsage home-language shares (2021 est.), religions (2021 est.)."
+  - id: cym-eso-census-2021
+    name: "The Cayman Islands' 2021 Census of Population and Housing"
+    publisher: "Economics and Statistics Office (ESO), Government of the Cayman Islands"
+    url: "https://www.eso.ky/the-cayman-islands-2021-census-of-population-and-housing.html"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Population 71,432 (2021); top five countries of birth (Cayman 35.4%, Jamaica 24.8%, Philippines 5.5%, UK 5.3%, US 5.2%)."
+  - id: cym-dpa-2017
+    name: "Data Protection Act, 2017 (Data Protection Act (2021 Revision))"
+    publisher: "Cayman Islands Office of the Ombudsman"
+    url: "https://ombudsman.ky/data-protection/public"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Legal constraints — DPA 2017: eight principles, application, Cayman representative obligation, cross-border transfer safeguards."
+  - id: cym-tax-neutral
+    name: "Cayman Islands Tax Guide — no direct taxes"
+    publisher: "Global Tax Guide (secondary aggregator of Government of the Cayman Islands policy)"
+    url: "https://globaltaxguide.com/countries/cayman-islands.html"
+    accessedDate: "2026-09-20"
+    note: "No income/corporate/VAT tax; revenue from import duties, work-permit fees, stamp duty, tourism levies."
+  - id: cym-lrc-consumer
+    name: "Consumer Protection — Law Reform Commission of the Cayman Islands"
+    publisher: "Law Reform Commission, Government of the Cayman Islands"
+    url: "https://gov.ky/web/lrc/consumer-protection"
+    accessedDate: "2026-09-20"
+    note: "No comprehensive consumer-protection statute; common-law/Sale of Goods Law protections; Price Gouging Control (Emergency Circumstances) Law, 2004."
+  - id: cym-cima-currency
+    name: "The Currency of the Cayman Islands — CIMA"
+    publisher: "Cayman Islands Monetary Authority (CIMA)"
+    url: "https://www.cima.ky/currency"
+    accessedDate: "2026-09-20"
+    note: "KYD is the official currency; CIMA issues/redemption; official peg CI$1 = US$1.20 (CIMA Fact Sheet)."
+  - id: cym-iana-tz
+    name: "IANA Time Zone Database — America/Cayman"
+    publisher: "IANA / timezone.io"
+    url: "https://timezone.io/iana/America/Cayman"
+    accessedDate: "2026-09-20"
+    note: "UTC-5, no DST since 1 February 1912."

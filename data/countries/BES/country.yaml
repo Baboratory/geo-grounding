@@ -1,0 +1,140 @@
+alpha3: BES
+alpha2: BQ
+name:
+  eng: Caribbean Netherlands
+  local:
+    - languageCode: nld
+      value: Caribisch Nederland
+flagEmoji: "🇧🇶"
+capital: Kralendijk
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Language official-status basis: the BES islands (Bonaire, Sint Eustatius and
+# Saba) are three special municipalities / public bodies of the Netherlands since
+# 2010. Dutch is official across all three; Papiamento is co-official on Bonaire;
+# English is co-official on Sint Eustatius and Saba. 'locallySpoken' shares are
+# CBS 2021 speakers (any level) and main-language percentages; a single WHOLE
+# value averages across the islands and is flagged as an estimate.
+languageUsage:
+  - languageCode: nld
+    domain: official
+    speakersShare: 1.0
+    sourceId: bes-onderwijsraad
+  - languageCode: nld
+    domain: locallySpoken
+    speakersShare: 0.5
+    sourceId: bes-cbs-lang
+    # FLAGGED ESTIMATE: Dutch is official across the BES and dominates formal
+    # domains, but is the main language of only a minority (main language ~15% on
+    # Bonaire, ~4% on Saba/Statia); the island-averaged locally-spoken figure is
+    # an estimate (Bonaire ~77% speak any Dutch, Saba/Statia ~33-38%).
+  - languageCode: pap
+    domain: official
+    speakersShare: 1.0
+    sourceId: bes-onderwijsraad
+    # Papiamento is official/co-official on Bonaire (not on Saba/Statia).
+  - languageCode: pap
+    domain: locallySpoken
+    speakersShare: 0.4
+    sourceId: bes-cbs-lang
+    # FLAGGED ESTIMATE: Papiamento is the main language of daily life on Bonaire
+    # (main language ~62%; ~88% speak it) but only a minor secondary language on
+    # Saba/Statia; a single island-averaged estimate is used for the WHOLE region.
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: bes-onderwijsraad
+    # English is official/co-official on Sint Eustatius and Saba (not Bonaire).
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.85
+    sourceId: bes-cbs-lang
+    # FLAGGED ESTIMATE: English dominates daily life on Saba and Statia (main
+    # language ~83%/81%; ~94-98% speak it) and is growing on Bonaire (~77% speak);
+    # island-averaged estimate used for the WHOLE region.
+timezones:
+  - name: America/Kralendijk
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+# USD (United States dollar) is the official currency and legal tender since
+# 1 January 2011, replacing the Netherlands Antillean guilder (ANG).
+currency:
+  code: USD
+  symbol: "$"
+  name: United States dollar
+legalConstraints:
+  - topic: "Dutch law applies (special municipalities)"
+    description: "Since 10 October 2010 the three islands are public bodies of the Netherlands (bijzondere gemeenten / openbare lichamen); Dutch national legislation applies, with special BES adaptations where provided for under the Statute of the Kingdom and the Wet openbare lichamen Bonaire, Sint Eustatius en Saba. Criminal, civil and administrative law is Dutch law as applied in Caribisch Nederland."
+    sourceId: bes-rijksoverheid
+  - topic: "separate Caribbean tax regime (Belastingdienst Caribisch Nederland)"
+    description: "The BES have their own fiscal laws: the Wet inkomstenbelasting BES, Wet loonbelasting BES, and Wet algemene bestedingsbelasting BES (ABB turnover tax of 8% on Bonaire and 6% on Saba and Sint Eustatius), plus a real-estate tax and a distribution tax, rather than a mainland-style income-tax/VAT structure."
+    sourceId: bes-belastingdienst
+  - topic: "data protection / privacy"
+    description: "Dutch data-protection law (the AVG, the Dutch implementation of the GDPR) applies, with a Caribbean-Netherlands-specific application regime; the authority is the Autoriteit Persoonsgegevens. EU institutions/directives do not apply automatically because the BES are an OCT of the EU, but Dutch privacy law governs."
+    sourceId: bes-ap
+# paymentMethodShares intentionally omitted: no official island-wide payment-method
+# split is published.
+paymentCulture:
+  popularMethods:
+    - "Cash in US dollars (USD), the local cash currency since 2011"
+    - "Debit/credit cards (Visa, Mastercard, Amex) widely accepted, especially at Bonaire dive resorts and hotels; smaller Sint Eustatius/Saba shops may be cash-only"
+    - "Bank cards / Maestro debit and mobile/digital payments in use; USD transactions normally processed locally with the card issuer's conversion for foreign cards"
+  tipping:
+    expected: true
+    typicalAmount: "Roughly 10-15% for good service in restaurants; a small tip for dive guides and taxi drivers is common"
+    autoIncludedInBill: false
+    note: "A service charge is generally not included; tipping ~10-15% is customary for good service."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Friendly, warm and relaxed ('island time'), with Dutch administrative formality in institutional settings. Multilingualism is the norm — Dutch, English and Papiamento are spoken and switching between them is common. Courtesy and a calm pace are valued."
+  greetingNorms: "A warm handshake with a smile is standard; 'Bon dia'/'Good morning'/'Goedemorgen' are all used depending on the island and company. Greeting people before business is expected."
+  meetingEtiquette: "Meetings open with relaxed small talk; a unhurried pace prevails. Punctuality is appreciated though not rigidly observed. Business casual is standard, smarter for official functions."
+  topicsToAvoid:
+    - "Being overly direct or rushed (a calm, respectful manner is appreciated)"
+    - "Treating the three islands as interchangeable — each has a distinct identity and culture"
+  giftGivingNotes: "Gifts are welcome though not required in business; modest tokens (local crafts, Saban spice, rum, Papiamento-language items) are appreciated when hosted."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: bes-onderwijsraad
+    name: "Education in the Caribbean Netherlands — official languages per island (Onderwijsraad)"
+    publisher: "Onderwijsraad (Dutch Education Council)"
+    url: "https://onderwijsraad.nl/site/binaries/site-content/collections/documents/2026/04/13/education-in-the-caribbean-netherlands/education-in-the-caribbean-netherlands-part-c.pdf"
+    year: 2026
+    accessedDate: "2026-09-20"
+    note: "Official languages: Papiamento and Dutch on Bonaire; English and Dutch on Saba and Sint Eustatius; English is the language of instruction on Saba and Statia."
+  - id: bes-cbs-lang
+    name: "CBS — Spoken languages in the Caribbean Netherlands (2021 percentages)"
+    publisher: "Statistics Netherlands (CBS)"
+    url: "https://www.cbs.nl/en-gb/figures/detail/82867ENG"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Speakers and main-language shares by island (e.g. Papiamento main language of Bonaire 62.4%; English main 83.3% Saba, 81.2% Statia; Dutch main 15% Bonaire)."
+  - id: bes-rijksoverheid
+    name: "Rijksoverheid — Caribisch Nederland (special municipalities)"
+    publisher: "Government of the Netherlands (Rijksoverheid)"
+    url: "https://www.rijksoverheid.nl/onderwerpen/caribisch-nederland"
+    accessedDate: "2026-09-20"
+    note: "Special-municipality status since 10 Oct 2010; Dutch law applies; USD official currency since 1 Jan 2011."
+  - id: bes-belastingdienst
+    name: "Belastingdienst Caribisch Nederland (BCN)"
+    publisher: "Belastingdienst (Dutch tax authority)"
+    url: "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/caribisch_nederland/"
+    accessedDate: "2026-09-20"
+    note: "Separate BES fiscal laws and ABB turnover tax rates (8% Bonaire, 6% Saba/Statia)."
+  - id: bes-ap
+    name: "Autoriteit Persoonsgegevens — Dutch data protection authority (AVG/GDPR, incl. Caribbean Netherlands)"
+    publisher: "Autoriteit Persoonsgegevens"
+    url: "https://autoriteitpersoonsgegevens.nl/"
+    accessedDate: "2026-09-20"
+    note: "Dutch AVG (GDPR) data-protection framework applies to the BES with a Caribbean-specific regime."
+  - id: bes-cbs-currency
+    name: "CBS — The Dutch Caribbean 15 years after dissolution: economy and tourism"
+    publisher: "Statistics Netherlands (CBS)"
+    url: "https://cbs.nl/en-gb/longread/diversen/2025/the-dutch-caribbean-15-years-after-the-dissolution-of-the-netherlands-antilles/5-economy-and-tourism"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "USD official currency since 1 Jan 2011; population and economy."

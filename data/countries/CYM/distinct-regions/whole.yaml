@@ -1,0 +1,159 @@
+code: WHOLE
+name:
+  eng: Cayman Islands
+  local:
+    - languageCode: eng
+      value: Cayman Islands
+climates:
+  - koppenCode: Aw
+    description: "Tropical marine (tropical savanna, Köppen Aw): warm, rainy summers May to October and cooler, relatively dry winters November to April. Low-lying limestone islands ringed by coral reefs; the natural hazard is hurricanes, July to November."
+landmarks:
+  - name: Seven Mile Beach
+    description: The celebrated ~7-mile (11 km) stretch of white-sand beach on the west shore of Grand Cayman, fringed by tourist resorts and consistently ranked among the world's best beaches, with public access along the whole shore.
+  - name: Stingray City
+    description: A shallow sandbar in North Sound, Grand Cayman, where hundreds of tame southern stingrays gather — the islands' most famous water attraction, reached by boat tours.
+  - name: Cayman Turtle Centre
+    description: A conservation-and-education centre (and tourist attraction) in West Bay, Grand Cayman, for green sea turtles, balancing the cultural importance of the turtle in Caymanian cuisine with sustainability.
+  - name: Queen Elizabeth II Botanic Park
+    description: A 65-acre botanic garden and heritage park on the North Side of Grand Cayman conserving native flora (silver thatch palm, wild banana orchid) and habitat for the Grand Cayman parrot and the endemic Grand Cayman blue iguana.
+culturalTraits:
+  - British-Caribbean identity — a British Overseas Territory (Governor, English common law) fused with a deeply Caribbean culture, accents and lifestyle
+  - Hospitality and community spirit — a strong local heritage reflected in the 'Caymankind' tourism brand and tight-knit island communities
+  - Major offshore financial centre — one of the world's largest offshore banking and funds jurisdictions, shaping everyday business life and national pride
+  - Pirates Week national festival (late October-mid November), the signature celebration of maritime heritage since 1977
+  - Scuba-diving culture — Bloody Bay Wall (Little Cayman) is a premier deep wall dive and diving is a pillar of the tourism identity
+  - Heritage symbols — the Cayman Quadrille dance (8-count), the national song 'Beloved Isle Cayman', and a seafaring and turtle legacy
+prideOf:
+  - Being a leading global offshore financial centre and a top hedge-fund and captive-insurance domicile
+  - Cayman's national symbols and heritage — stew turtle, Swanky, heavy cake, Cayman Quadrille, national dress, parrots, silver thatch palm and wild banana orchid
+  - Pirates Week, the islands' premier national festival celebrating maritime history and community
+  - Environmental stewardship — conservation of the endemic Grand Cayman blue iguana, brought back from near-extinction, and marine life and reefs
+  - Seafaring and turtle heritage — 'Las Tortugas', and the Cayman Turtle Centre's sustainable turtle culture
+animals:
+  popular:
+    - Southern stingray (Stingray City — hundreds of tame rays at a Grand Cayman sandbar)
+    - Green sea turtle (Cayman Turtle Centre; the islands were named 'Las Tortugas' by Columbus)
+    - Grand Cayman parrot (Amazona leucocephala caymanensis) — the national bird
+    - Red-footed booby (Little Cayman hosts one of the region's largest breeding colonies at Booby Pond Nature Reserve)
+  unique:
+    - Grand Cayman blue iguana (Cyclura lewisi) — endemic to Grand Cayman, the islands' largest native land animal, recovered from near-extinction (endangered)
+    - Sister Islands rock iguana (Cyclura nubila caymanensis) — endemic subspecies found only on Cayman Brac and Little Cayman
+    - "Cayman parrot (two endemic subspecies: Grand Cayman 'caymanensis' and Cayman Brac 'hesterna')"
+industries:
+  - Financial services / offshore banking & investment funds — the dominant industry; the services sector accounts for the large majority of economic activity, with the world-leading hedge-fund and captive-insurer domicile
+  - Tourism — cruise passengers and stay-over visitors (Seven Mile Beach hotels, diving, Stingray City); the second-largest economic pillar
+  - Re/insurance captives — one of the largest offshore captive-insurance domiciles in the world by licence numbers, and the largest for healthcare captives
+  - Construction, real estate and construction materials; minor agriculture
+sports:
+  - Football (soccer) — the most popular / de facto national sport
+  - Water sports and scuba diving — diving (Bloody Bay Wall), sailing, snorkelling, swimming; swimmers have won Pan American Games gold
+  - Cricket — the national team is an ICC associate member
+  - Athletics, track, rugby, netball, volleyball and basketball; the Cayman Islands have competed at the Summer Olympics since 1976
+religions:
+  - name: Protestant
+    percent: 60.8
+    sourceId: cym-cia-people-2024
+  - name: Roman Catholic
+    percent: 13.6
+    sourceId: cym-cia-people-2024
+  - name: No religion / none
+    percent: 16.7
+    sourceId: cym-cia-people-2024
+  - name: Hindu
+    percent: 1.7
+    sourceId: cym-cia-people-2024
+entertainment:
+  - season: dry
+    items:
+      - Pirates Week national festival (late October to mid-November) — parades including the George Town night parade, district days and live entertainment
+      - Cayman Cookout (January) — the islands' signature food-and-wine festival hosted by world-renowned chefs
+      - National Heroes Day (third Monday in January) and the Batabanoo national cultural-heritage festival season
+      - Festive Christmas-New Year season (heavy cake, community celebrations)
+  - season: wet
+    items:
+      - Summer beach and water-sports season — diving, sailing regattas, snorkelling, and seasonal lionfish-derby and conservation events
+      - Quieter 'shoulder' tourism season between storms, with community events
+  - season: allYear
+    items:
+      - Live calypso and reggae-style nightlife in George Town and Seven Mile Beach hotels
+      - The Cayman Quadrille and traditional music at community and kitchen dances
+traditionalDishes:
+  - season: allYear
+    items:
+      - Stew Turtle (national dish) — turtle stew with vegetables, served at special occasions, using sustainably farmed green sea turtle
+      - Conch fritters and conch soup
+      - Rundown (fish and tomato/onion stew, often with coconut) and fresh fried fish and seafood
+      - Pepperpot and Cayman-style seafood, cassava bread
+  - season: dry
+    items:
+      - Caymanian Heavy Cake (national dessert) — a dense cassava/yam/sweet-potato cake, traditionally made around Christmas and New Year
+  - season: wet
+    items:
+      - Swanky (national drink) — brown sugar, water and Seville/bitter orange, a refreshing cooler for the hot climate
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Caymanian National Dress (designated a national symbol in 2024): women's gingham or light-coloured modest one-piece dress or blouse with long skirt and head-wrap; men's khaki or white trousers with white shirts and straw hats"
+      - Modern everyday wear is standard tropical/Caribbean casual; modest dress expected off the beach and in town
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  lunchBreakTiming: "Roughly 12:00/12:30-14:00; a one-hour lunch break is standard in offices and shops."
+  typicalWorkHours: "Offices and most businesses Monday-Friday roughly 08:30-17:00; many shops open Saturday until ~14:00. Banks Monday-Thursday 09:00-15:00, Friday 09:00-15:30. Supermarkets typically 06:30-22:00/23:00 Mon-Sat."
+  restDays:
+    - sunday
+  notes: "Sunday is widely observed as a day of rest: the main supermarkets, most retail shops, banks, pharmacies and standalone bars are closed (Sunday Trading Act (2023 Revision); smaller shops under 4,000 sq ft may open). ATMs and cards work 24/7, and beaches, parks and sea/boat tours operate seven days. Alcohol sales in stores on Sunday run only ~13:00-19:00. The economy slows for hurricane season (roughly June-November, peak August-October)."
+sources:
+  - id: cym-national-symbols
+    name: "National Symbols of the Cayman Islands"
+    publisher: "Ministry of Youth, Sports, Culture & Heritage, Government of the Cayman Islands"
+    url: "https://gov.ky/web/mysch/national-symbols"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "National dress, national dish (stew turtle), drink (Swanky), dessert (heavy cake), dance (Cayman Quadrille) and symbols."
+  - id: cym-wildlife
+    name: "Cayman Islands wildlife — national symbols and fauna"
+    publisher: "Welcome to Cayman / tourism and conservation references"
+    url: "https://welcometocayman.com/call-of-the-wild"
+    accessedDate: "2026-09-20"
+    note: "Animals — Grand Cayman blue iguana, Sister Islands rock iguana, Grand Cayman parrot, red-footed booby, stingrays, sea turtles."
+  - id: cym-sports
+    name: "Sport in the Cayman Islands"
+    publisher: "Top End Sports / Cayman Compass (secondary)"
+    url: "https://topendsports.com/world/countries/cayman-islands.htm"
+    accessedDate: "2026-09-20"
+    note: "Sports — football, cricket (ICC associate member), rugby/netball/volleyball, swimming, Olympics since 1976."
+  - id: cym-visit-faqs
+    name: "FAQs — Cayman Islands Official Tourism Website"
+    publisher: "Cayman Islands Department of Tourism"
+    url: "https://meet.visitcaymanislands.com/en-us/services-support/faqs"
+    accessedDate: "2026-09-20"
+    note: "Payment culture — US dollars widely accepted; gratuities of 15-20% usually included."
+  - id: cym-cia-geography-2024
+    name: "CIA World Factbook — Cayman Islands: Geography & Climate"
+    publisher: "U.S. Central Intelligence Agency (World Factbook)"
+    url: "https://theodora.com/wfbcurrent/cayman_islands/cayman_islands_geography.html"
+    accessedDate: "2026-09-20"
+    note: "Climate (warm rainy summers May-Oct, drier winters Nov-Apr), hurricanes July-Nov, tropical marine / Köppen Aw, low-lying limestone terrain."
+  - id: cym-sunday-guide
+    name: "What's Open on Sunday in Grand Cayman?"
+    publisher: "Daily.ky (Cayman news guide)"
+    url: "https://daily.ky/guides/whats-open-sunday-grand-cayman"
+    accessedDate: "2026-09-20"
+    note: "Business rhythm — Sunday closures, ATMs/cards 24/7, parks and boat tours open daily."
+  - id: cym-pirates-week
+    name: "Pirates Week — official festival site"
+    publisher: "Government of the Cayman Islands"
+    url: "https://piratesweek.com/"
+    accessedDate: "2026-09-20"
+    note: "Entertainment — Pirates Week dates, parade and events since 1977."
+  - id: cym-cia-people-2024
+    name: "CIA World Factbook — Cayman Islands: People and Society"
+    publisher: "U.S. Central Intelligence Agency (World Factbook)"
+    url: "https://theodora.com/wfbcurrent/cayman_islands/cayman_islands_people.html"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Religion shares (2021 est.) — Protestant 60.8%, Roman Catholic 13.6%, none 16.7%, Hindu 1.7%."

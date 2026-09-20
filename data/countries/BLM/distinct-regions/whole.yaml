@@ -1,0 +1,127 @@
+code: WHOLE
+name:
+  eng: Saint Barthélemy
+  local:
+    - languageCode: fra
+      value: Saint-Barthélemy
+climates:
+  - koppenCode: Aw
+    description: Tropical wet-and-dry savanna climate, strongly moderated by the northeast marine trade winds; one of the drier, sunnier islands of the Caribbean. A pronounced drier 'high' season runs December to May and a wetter, hotter, hurricane-risk season June to November. Mean annual temperature roughly 27-28°C; annual rainfall on the order of ~600-800 mm.
+landmarks:
+  - name: Gustavia Harbour (Port de Gustavia)
+    description: The island's capital and principal port; a sheltered natural bay lined with free-port warehouses for duty-free trade, boutiques and a luxurious super-yacht marina, and home to yachting events such as the St Barths Bucket Regatta.
+  - name: Colombier Beach (Anse de Colombier)
+    description: A remote white-sand cove on the northwest coast reachable only by boat, by a scenic hike, or by swimming round the headland; a relatively unspoiled natural pocket considered one of the island's most beautiful beaches.
+  - name: Fort Karl
+    description: An 18th-century fortification on a rocky headland overlooking the harbour, used in its time to defend the port; a remnant of the island's colonial-era defenses.
+culturalTraits:
+  - French-Caribbean culture blending metropolitan-French ways with Antillean and Caribbean rhythm
+  - A high-end luxury-tourism and duty-free retail lifestyle; discretion and quiet chic
+  - Strong gastronomic identity — French technique with local Caribbean seafood, celebrated at the spring 'Festival Gastronomique'
+  - Yachting culture and the annual St Barths Bucket Regatta (held each March)
+  - "Swedish heritage: a century of Swedish rule (1784-1878) left the capital's name (Gustavia), colonial architecture, the three crowns on the coat of arms, and celebratory ties"
+prideOf:
+  - Being one of the Caribbean's most exclusive and tasteful luxury destinations
+  - A duty-free, free-port heritage underpinning its status as a shopping destination
+  - A tight-knit island community that steered its own tourism development and self-managed recovery after Hurricane Irma (2017)
+  - Its European (French and Swedish-colonial) lineage and the distinctive native 'Saint-Barthélemy French' patois heritage
+  - World-class cooking and a celebrated gastronomy scene
+  - Its natural marine environment (coral reefs and a roughly 1,000-hectare marine reserve) and pristine beaches
+animals:
+  popular:
+    - Sea turtles (hawksbill and green) nesting and browsing around the reefs and bays
+    - Frigate birds, brown pelicans and terns along the coasts and islets
+    - Reef fish (parrotfish, snapper, angelfish) and shallow coral-reef life
+    - Pelagic game fish offshore (tuna, marlin, barracuda, wahoo) — the basis of deep-sea fishing tournaments
+  unique:
+    - Lesser Antillean iguana (Iguana delicatissima), a native, now threatened West-Indian iguanid
+    - Particular nesting and pelagic seabird populations on the small offshore islets
+industries:
+  - Luxury tourism (high-end villas, hotels, beach clubs) — the core industry
+  - Duty-free luxury retail (boutiques, watches, jewellery)
+  - "Marine and yachting: the Port de Gustavia super-yacht marina and events (St Barths Bucket Regatta, Les Voiles de St. Barth)"
+  - Real estate and high-end villa development and rentals
+sports:
+  - Sailing and regattas (St Barths Bucket Regatta, Les Voiles de St. Barth)
+  - Diving and snorkelling, paddle and kite sports, deep-sea fishing
+  - Tennis at hotel and club courts
+  - Running and coastal hiking trails
+entertainment:
+  - season: allYear
+    items:
+      - Festival de Saint Barthélemy patronal festivities (24 August) with boat blessing, regatta and fireworks
+      - Sailing regattas and yachting parties through the high season
+      - Live music and refined dining across the island
+      - The St. Barthélemy Music Festival (winter/spring)
+  - season: dry
+    items:
+      - Carnival (French Caribbean pre-Lenten Carnival, February-March) ending Ash Wednesday
+      - The St Barths Bucket Regatta (March) with the legendary 'Yacht Hop'
+      - Les Voiles de St. Barth (late April) and the International Regatta (May)
+      - Swedish Month / Gustavialoppet (November) Swedish-heritage celebration
+      - The glamorous Christmas/New Year peak period
+  - season: wet
+    items:
+      - St Barth Open deep-sea fishing tournament (July)
+      - Festival de Gustavia (August) — dragnet fishing and partying
+traditionalDishes:
+  - season: allYear
+    items:
+      - Accras (de morue) — spicy salt-cod fritters, the ubiquitous local snack
+      - Court-bouillon / blaff — fresh fish poached in a limey, herbed broth
+      - "Grilled and fresh seafood: spiny Caribbean lobster (langouste), mahi-mahi, snapper, tuna"
+      - Boudin (Creole blood sausage), colombo curry stew, crabes farcis (stuffed crab), chiquetaille (shredded spicy cod)
+  - season: dry
+    items:
+      - Long, relaxed fine-dining lunches and festive seafood feasts through the high season
+  - season: wet
+    items:
+      - Hearty Caribbean stews and street-style accras favoured in the warmer months
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light cotton and linen summer clothing suited to the tropical heat
+      - Smart-casual-to-elegant resort wear as a social norm in this refined, luxury setting; white (linen) and light fabrics typical
+  - season: dry
+    items:
+      - Lighter evening layers for cooler, trade-wind nights during the high season
+  - season: wet
+    items:
+      - Breathable, quick-drying fabrics with rain gear during the wet season
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10, 11]
+businessRhythm:
+  lunchBreakTiming: "Lunch is typically 12:00-14:00/15:00 ('la sieste'); many shops close from noon to 14:00-15:00, then reopen until 18:00-19:00."
+  typicalWorkHours: "Shops and boutiques typically open ~9:00-10:00 and run until ~18:00-19:00 with a long midday break; offices and services broadly follow a French-style day (~08:00-17:00/18:00)."
+  restDays:
+    - sunday
+  notes: "Business is strongly seasonal: the busy high season (Christmas/New Year through ~Easter/March) is the commercial peak, while the summer and hurricane months run slower and many venues reduce hours or close seasonally. Many boutiques also close one weekday afternoon (commonly Wednesday)."
+sources:
+  - id: blm-bucket
+    name: "St Barths Bucket Regatta — official site"
+    publisher: "St Barths Bucket"
+    url: "https://bucketregatta.com/"
+    accessedDate: "2026-09-20"
+    note: "History and March timing of the Bucket Regatta; yachting culture."
+  - id: blm-iedom
+    name: "IEDOM — Institut d'émission des départements d'outre-mer (Saint-Barthélemy economy)"
+    publisher: "IEDOM / Banque de France"
+    url: "https://www.iedom.fr/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Island economy — tourism, yachting, real estate."
+  - id: blm-tourisme
+    name: "Comité Territorial du Tourisme de Saint-Barthélemy / tourism board"
+    publisher: "Saint Barth tourism office"
+    url: "https://www.saint-barths.com/"
+    accessedDate: "2026-09-20"
+    note: "Shopping hours, business-rhythm and tourism conventions."
+  - id: blm-iana
+    name: "IANA Time Zone Database — America/St_Barthelemy"
+    publisher: "IANA"
+    url: "https://www.iana.org/time-zones"
+    accessedDate: "2026-09-20"
+    note: "UTC-4, no DST."
