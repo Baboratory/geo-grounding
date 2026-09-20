@@ -1,0 +1,94 @@
+code: ES-GA
+name:
+  eng: Galicia
+  local:
+    - languageCode: glg
+      value: Galicia
+    - languageCode: spa
+      value: Galicia
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate, mild and rainy, typical of Atlantic Galicia.
+landmarks:
+  - name: Santiago de Compostela Cathedral
+    description: The shrine of St James and the destination of the Camino de Santiago pilgrimage, a UNESCO World Heritage site.
+  - name: The Tower of Hercules
+    description: Ancient Roman lighthouse in A Coruña, the oldest working lighthouse in the world.
+  - name: Rías Baixas
+    description: The deep coastal inlets ('rias') of the Atlantic coast, famed for mussel rafts and seafood.
+culturalTraits:
+  - A strong Galician identity rooted in the Celtic-tinged Atlantic heritage and the Galician language
+  - Deep Catholic and pilgrim tradition linked to the Camino de Santiago
+  - A distinctive musical tradition (bagpipes — 'gaita'), folk music and the central role of the sea in daily life
+prideOf:
+  - The Galician language and its literary revival (Rosalía de Castro)
+  - Santiago de Compostela and the Camino de Santiago
+  - Galicia's seafood heritage
+animals:
+  popular:
+    - The Atlantic wildlife offshore (dolphins, whales, seabirds)
+  unique:
+    - The capercaillie (rare in Galician forests)
+industries:
+  - Fishing and the seafood industry (one of Europe's leading)
+  - Shipbuilding (Navantia)
+  - Agriculture, dairy and forestry
+  - Textiles (the Inditex/Zara clothing group is headquartered in A Coruña)
+  - Tourism along the Camino and the coast
+sports:
+  - Football (RC Celta de Vigo, Deportivo de La Coruña)
+  - Sailing and water sports
+  - Hiking the Camino de Santiago
+religions:
+  - name: Roman Catholic
+    percent: 70.0
+    sourceId: cis-galicia-estimate
+  - name: No religious affiliation
+    percent: 22.0
+    sourceId: cis-galicia-estimate
+  - name: Other / other religions
+    percent: 8.0
+    sourceId: cis-galicia-estimate
+entertainment:
+  - season: summer
+    items:
+      - "Fiestas of Santiago de Compostela and the Romería Vikinga at Catoira"
+      - Beach and ría season on the Atlantic coast
+  - season: allYear
+    items:
+      - "Festa de O Marisco (the Seafood Festival) and Galician folk festivals with gaita music"
+  - season: spring
+    items:
+      - "The pilgrimage season on the Camino de Santiago picks up"
+traditionalDishes:
+  - season: allYear
+    items:
+      - Pulpo á feira (Galician-style octopus with paprika)
+      - Empanada galega (Galician pastry turnover)
+      - Queixo de tetilla (characteristic Galician cheese)
+      - Albariño white wine
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional Galician dress (the Galician country costume with the characteristic felt hat and cape for men) appears at festivals; everyday dress is modern"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday retail opening follows the Galician regional framework; most shops close on Sunday with exceptions for festive opening days. A long midday break for lunch is standard across the region."
+sources:
+  - id: cis-galicia-estimate
+    name: "Religious identification in Galicia (CIS survey data)"
+    publisher: "Centro de Investigaciones Sociológicas (CIS)"
+    url: "https://www.cis.es/"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Estimated shares identifying as Roman Catholic (~70%), non-religious (~22%) and other (~8%), consistent with CIS survey figures for Galicia. Rounded estimates."

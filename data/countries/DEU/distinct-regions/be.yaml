@@ -1,0 +1,74 @@
+code: DE-BE
+name:
+  eng: Berlin
+  local:
+    - languageCode: deu
+      value: Berlin
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate with cold winters and mild-to-moderate summers.
+landmarks:
+  - name: Brandenburg Gate
+    description: Neoclassical 18th-century gate at Pariser Platz, Germany's most famous symbol and a former Cold War frontier landmark.
+  - name: Reichstag Building
+    description: Historic parliament building with a glass dome designed by Norman Foster; home of the Bundestag.
+  - name: Berlin Wall Memorial and East Side Gallery
+    description: Preserved sections of the Berlin Wall, including the open-air East Side Gallery of murals on Mühlenstrasse.
+  - name: Museum Island
+    description: UNESCO-listed complex of five world-class museums on the Spree river.
+culturalTraits:
+  - Berlin's 20th-century history as a divided Cold War city, now a leading centre of art, start-ups and counter-culture
+  - Vibrant street-art, techno and LGBTQ+ culture
+  - Diverse, international population (Berlin is one of the most multicultural German cities)
+prideOf:
+  - Turning a divided, walled city into a global creative and technology hub
+  - Its club culture (Berlin techno clubs are designated as intangible cultural heritage)
+  - Museum Island and Berlin's world-class museums
+animals:
+  popular:
+    - Wild boar that have returned to the city's parks and forests
+industries:
+  - Technology, start-ups and software
+  - Life sciences and biotech (a growing research hub)
+  - Creative industries, media and advertising
+  - Tourism and hospitality
+  - Aerospace and defence research
+sports:
+  - Football (Hertha BSC, Union Berlin)
+  - Basketball (ALBA Berlin)
+  - Ice hockey (Eisbären Berlin)
+entertainment:
+  - season: summer
+    items:
+      - "Karneval der Kulturen: a multicultural street carnival"
+      - Open-air cinema and summer club season
+  - season: allYear
+    items:
+      - Berlin's world-renowned techno club scene (Berghain and others)
+      - "Live music, art galleries and the 'Berliner Nachtleben' nightlife"
+  - season: winter
+    items:
+      - Christmas markets (e.g. at Gendarmenmarkt and the Kaiser Wilhelm Memorial Church)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Currywurst with Berlin-style sausage
+      - Döner kebab (the Berlin-style döner was popularised in the city by Turkish immigrants)
+      - Berliner Pfannkuchen (jam doughnut, called 'Berliner' throughout Germany)
+traditionalClothing:
+  - season: allYear
+    items:
+      - No distinctive traditional costume is widely worn; Berlin is known for its contemporary, eclectic street fashion
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday retail closure applies throughout Berlin (Bundes-Ladenschlussgesetz), with exemptions for tourist zones and some central areas where longer Sunday opening is allowed."

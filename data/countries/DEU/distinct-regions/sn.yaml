@@ -1,0 +1,102 @@
+code: DE-SN
+name:
+  eng: Saxony
+  local:
+    - languageCode: deu
+      value: Sachsen
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic/continental transitional climate.
+  - koppenCode: Dfb
+    description: Humid continental climate at higher elevations in the Ore Mountains (Erzgebirge).
+landmarks:
+  - name: Dresden Frauenkirche
+    description: Iconic baroque Lutheran church, rebuilt after its World War II destruction and a symbol of reconciliation.
+  - name: Zwinger Palace
+    description: Baroque palace and museum complex in Dresden, home to celebrated Old Masters paintings.
+  - name: The Ore Mountains (Erzgebirge)
+    description: Mountain range on the Czech border, famous for its mining history and mountain craft (wooden toys, candle arches).
+  - name: Leipzig
+    description: Saxony's largest city, a historic trade-fair and classical-music centre (Bach's Thomaskirche, Gewandhaus).
+culturalTraits:
+  - Saxony's strong craft and manufacturing heritage (Saxon machine tools, porcelain from Meissen)
+  - Home to the Sorbs, a West Slavic people with their own language and culture, centred on upper Lusatia east of the Elbe
+  - A classical-music and baroque-architecture heartland (Dresden, Leipzig)
+prideOf:
+  - "Renaissance of Dresden's Frauenkirche and the city's baroque beauty"
+  - Leipzig's and Dresden's classical music heritage (Bach, Mendelssohn, Richard Wagner)
+  - Saxony's engineering and precision-manufacturing (part of 'Silicon Saxony')
+animals:
+  popular:
+    - Wildlife of the Ore Mountains and Saxon Switzerland (red deer, wild boar, peregrine falcons)
+  unique:
+    - The European pond turtle (rare resident of Saxon river valleys)
+industries:
+  - Automotive and vehicle manufacturing (Volkswagen plant in Zwickau/Chemnitz region)
+  - Machine tools and precision engineering (Ore Mountains)
+  - Microelectronics and semiconductors ('Silicon Saxony' — Dresden is a major European chip hub)
+  - Porcelain and ceramics (Meissen)
+sports:
+  - Football (RB Leipzig has become a Bundesliga force)
+  - Handball
+  - Ice hockey (Dresdner Eislöwen)
+religions:
+  - name: No religious affiliation
+    percent: 70.5
+    sourceId: saxony-religion-estimate
+  - name: Protestant (EKD)
+    percent: 18.3
+    sourceId: saxony-religion-estimate
+  - name: Roman Catholic
+    percent: 3.8
+    sourceId: saxony-religion-estimate
+  - name: Muslim
+    percent: 1.4
+    sourceId: saxony-religion-estimate
+entertainment:
+  - season: summer
+    items:
+      - "Dresden Music Festival and the Elbhangfest"
+      - Hiking in Saxon Switzerland (Sächsische Schweiz), a sandstone climbing region
+  - season: allYear
+    items:
+      - Classical concerts (Gewandhaus Leipzig, Semperoper Dresden)
+      - "The Ore Mountain craft tradition: wooden Christmas arches and nutcrackers (Nussknacker)"
+  - season: winter
+    items:
+      - "Dresden Striezelmarkt: one of Germany's oldest Christmas markets (est. 1434)"
+      - Skiing and sledding in the Ore Mountains
+traditionalDishes:
+  - season: allYear
+    items:
+      - Sauerbraten (marinated roast, Dresden-style)
+      - Quarkkäulchen (fried quark-potato dumplings)
+      - Eierschecke (a layered Saxon cheesecake)
+  - season: winter
+    items:
+      - Dresdner Stollen (Christmas fruit bread with marzipan)
+traditionalClothing:
+  - season: allYear
+    items:
+      - The Sorbs have a distinctive traditional dress (Tracht) worn on feast days, with ornate headdresses and embroidery; the majority German population favour modern dress
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday retail closure applies across Saxony; the Ore Mountain region also follows weekday and Saturday opening hours set under Saxony's Land opening-hours law."
+sources:
+  - id: saxony-religion-estimate
+    name: "Religious affiliation in the new (former East German) states"
+    publisher: "Fowid (research group on worldviews in Germany)"
+    url: "https://fowid.de/"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "Percentage shares for Saxony reflect the general pattern across the former GDR states, where the large majority report no religious affiliation (~70%), with an EKD Protestant and small Roman Catholic and Muslim minority. Figures are estimates compiled from EKD and Catholic membership data and Fowid analyses."

@@ -1,0 +1,99 @@
+code: ES-PV
+name:
+  eng: Basque Country
+  local:
+    - languageCode: eus
+      value: Euskadi
+    - languageCode: spa
+      value: País Vasco
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate along the maritime coast.
+  - koppenCode: Dfb
+    description: Humid continental climate further inland.
+landmarks:
+  - name: Guggenheim Museum Bilbao
+    description: Frank Gehry's titanium-clad contemporary art museum, a symbol of Bilbao's regeneration.
+  - name: San Sebastián (Donostia)
+    description: Coastal resort city famed for its beaches (La Concha) and its status as a world gastronomic capital.
+  - name: Gaztelugatxe
+    description: Dramatic sea islet and hermitage on the coast, used as a filming location for 'Game of Thrones'.
+  - name: The Bay of Biscay coastline
+    description: Rugged, green cliffs along the northern Spanish coast.
+culturalTraits:
+  - A deep sense of Basque identity and pride, expressed in the language (Euskera) and a strong sporting and cultural tradition
+  - The distinction between the Basque Country (Euskadi), Navarre and the French Basque Country, though the region's cultural identity spans them
+  - Strong tradition of rural sport (soka-tira, rural wood-chopping and stone-lifting 'herri kirolak') and the Basque pelota ball game
+  - Rich gastronomic heritage, home of pintxos and a celebrated culinary scene in San Sebastián
+prideOf:
+  - The preservation and revival of the Basque language, Europe's only surviving language isolate
+  - San Sebastián's status as one of the world's leading gastronomic cities
+  - A strong sense of local community and industrial resilience
+animals:
+  popular:
+    - The Cantabrian brown bear (rarest in the region)
+  unique:
+    - Iberian wolves in the western forests
+industries:
+  - Machinery and industrial equipment (Bilbao)
+  - Automobile and transportation manufacturing
+  - Renewable energy and wind power
+  - Food and gastronomy (San Sebastián)
+  - Aerospace (a growing sector in the region)
+sports:
+  - Basque pelota (frontón)
+  - Football (Athletic Club Bilbao, Real Sociedad)
+  - Mountain biking and hiking (San Sebastián-Marsan trails)
+religions:
+  - name: Roman Catholic
+    percent: 56.0
+    sourceId: basque-religion-estimate
+  - name: No religious affiliation
+    percent: 34.0
+    sourceId: basque-religion-estimate
+  - name: Other / other religions
+    percent: 10.0
+    sourceId: basque-religion-estimate
+entertainment:
+  - season: summer
+    items:
+      - "Aste Nagusia (the Great Week) in Bilbao in August, a week-long festival"
+      - Beach season in San Sebastián and coastal festivals
+  - season: allYear
+    items:
+      - The pintxos bar culture of San Sebastián and Bilbao
+  - season: winter
+    items:
+      - Skiing in the Pyrenees
+traditionalDishes:
+  - season: allYear
+    items:
+      - Pintxos (small snacks served on bread)
+      - Marmitako (tuna and potato stew)
+      - Bacalao a la vizcaína (salt cod in pepper sauce)
+      - Txakoli (slightly sparkling local white wine)
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional Basque dress (the txapela beret and the lauburu symbol) appears mainly at festivals; everyday dress is modern"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday retail opening follows the Basque regional commerce framework; most shops close on Sunday, with exceptions for designated festive opening days. The region shares Spain's long, convivial lunch break as standard."
+sources:
+  - id: basque-religion-estimate
+    name: "Religious identification in the Basque Country"
+    publisher: "Basque Government / CIS survey data"
+    url: "https://www.cis.es/"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Estimated shares identifying as Roman Catholic (~56%), non-religious (~34%) and other (~10%), consistent with CIS and Basque Government survey figures. Rounded estimates."

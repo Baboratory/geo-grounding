@@ -1,0 +1,100 @@
+code: DE-BY
+name:
+  eng: Bavaria
+  local:
+    - languageCode: deu
+      value: Bayern
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic/continental climate on the lowlands and river valleys.
+  - koppenCode: Dfb
+    description: Humid continental climate in the higher reaches of the Bavarian Alps and the Bavarian Forest.
+landmarks:
+  - name: Neuschwanstein Castle
+    description: 19th-century fairy-tale castle built for Ludwig II in the Bavarian Alps, inspiration for Disney's Sleeping Beauty castle.
+  - name: Munich's Marienplatz
+    description: The historic central square of Munich, home to the Glockenspiel and the New Town Hall.
+  - name: The Bavarian Alps
+    description: Alpine mountain range forming Germany's southeastern border with Austria, including the Zugspitze, Germany's highest peak.
+culturalTraits:
+  - Bavaria's strong sense of regional identity and pride, with its own dialect, customs and a distinct 'mia san mia' ('we are who we are') ethos
+  - Alps, beer gardens and the world-famous Oktoberfest in Munich (the world's largest folk festival)
+prideOf:
+  - Oktoberfest and Bavaria's beer culture (bounded by the 1516 Reinheitsgebot purity law)
+  - Alps, castles and scenic mountain landscapes
+  - Bavaria's economic strength and engineering tradition
+animals:
+  popular:
+    - Bavarian Alps wildlife (chamois, red deer, marmots)
+  unique:
+    - Alpine marmot
+industries:
+  - Automobile manufacturing (BMW, Audi, MAN) and automotive-supply
+  - Machinery and precision engineering
+  - Aerospace and defence (headquarters of many aerospace firms in the Munich region)
+  - IT and software (Munich is a leading European tech hub)
+  - Beer brewing (Franconia and Bavaria host the world's densest concentration of breweries)
+sports:
+  - Football (FC Bayern Munich is one of Europe's most successful clubs)
+  - Ice hockey (EHC Red Bull München, DEL)
+  - Winter sports and Alpine skiing
+  - Mountaineering and hiking in the Alps
+religions:
+  - name: Roman Catholic
+    percent: 49.4
+    sourceId: bayern-kirchen-2022
+  - name: Protestant (EKD)
+    percent: 17.5
+    sourceId: bayern-kirchen-2022
+  - name: No religious affiliation
+    percent: 29.1
+    sourceId: bayern-kirchen-2022
+  - name: Muslim
+    percent: 2.2
+    sourceId: bayern-kirchen-2022
+entertainment:
+  - season: autumn
+    items:
+      - "Oktoberfest (September-October): the world's largest folk festival on Munich's Theresienwiese"
+  - season: allYear
+    items:
+      - Beer gardens and Bavarian folk culture
+  - season: winter
+    items:
+      - "Christkindlmarkt: Christmas markets in Munich, Nuremberg and elsewhere"
+      - Ski season in the Bavarian Alps
+traditionalDishes:
+  - season: allYear
+    items:
+      - Weißwurst (white veal sausage, traditionally eaten in the morning)
+      - Brezn (Bavarian pretzel)
+      - Schweinshaxe (roasted pork knuckle)
+      - Leberkäse (a kind of meatloaf, served in a bread roll)
+  - season: autumn
+    items:
+      - "Obatzda (a spiced cheese spread) with radishes and pretzels, served in beer gardens"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Tracht: Lederhosen for men and Dirndl for women, worn at festivals, weddings and Octoberfest"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday is the statutory retail rest day (Ladenschlussgesetz); shops are closed on Sundays and public holidays with only limited exceptions. Working hours are shorter and retail quieter on Saturdays."
+sources:
+  - id: bayern-kirchen-2022
+    name: "Religious affiliation in Bavaria (church membership figures)"
+    publisher: "Roman Catholic Church and EKD in Bavaria; Fowid estimates"
+    url: "https://fowid.de/"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "Percentage shares of religious affiliation within Bavaria (Roman Catholic ~49%, EKD ~17.5%, unaffiliated ~29%, Muslim ~2%), compiled as estimates from church membership and population figures. Exact figures vary by year and source."

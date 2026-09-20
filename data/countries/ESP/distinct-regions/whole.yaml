@@ -1,0 +1,88 @@
+code: WHOLE
+name:
+  eng: Spain
+  local:
+    - languageCode: spa
+      value: España
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO
+# 3166-2 subdivision isn't one of the curated regions (ES-CT, ES-PV, ES-GA).
+# Content is deliberately national/symbolic rather than tied to one community.
+climates:
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean climate across much of the south and east.
+  - koppenCode: Cfb
+    description: Temperate oceanic climate in the north-west (Galicia, Cantabria).
+  - koppenCode: BSk
+    description: Semi-arid climate on the central plateau and in the south-east.
+landmarks:
+  - name: Alhambra
+    description: Moorish palace and fortress complex in Granada, a UNESCO World Heritage site.
+  - name: Sagrada Família
+    description: Antoni Gaudí's basilica in Barcelona and a symbol of Catalan modernisme.
+  - name: La Alhambra and El Prado
+    description: Madrid's Prado Museum houses one of the world's finest art collections.
+  - name: The Camino de Santiago
+    description: Medieval pilgrimage route ending at the shrine of St James in Santiago de Compostela.
+culturalTraits:
+  - A rich, varied cultural identity of seventeen autonomous communities, each with its own customs, festivals and often language
+  - Deep traditions of fiesta, family and community life (the 'siesta' culture and late meals as social rhythm)
+  - A proud culinary heritage recognised worldwide (tapas, olive oil, paella, Iberian ham)
+prideOf:
+  - A world-spanning cultural and artistic legacy (Cervantes, Velázquez, Gaudí, Picasso)
+  - Its cuisine and social way of life
+  - Regional pride and the peaceful transition to democracy after 1975
+animals:
+  popular:
+    - The Spanish fighting bull (in cultural contexts)
+    - Iberian lynx
+  unique:
+    - Iberian lynx (endangered; reintroduced)
+    - Spanish imperial eagle
+industries:
+  - Tourism (one of the world's most visited countries)
+  - Agriculture and food (olive oil, wine, fruit)
+  - Automobile manufacturing (SEAT, plus major foreign plants)
+  - Renewable energy and wind power
+  - Banking and telecommunications
+sports:
+  - Football (LaLiga is among the world's strongest)
+  - Basketball (high-level domestic league)
+  - Tennis and cycling
+  - Flamenco-adjacent cultural tourism and bullfighting (in regions where it is practised)
+entertainment:
+  - season: summer
+    items:
+      - "Fiestas and San Fermín (Pamplona) and regional summer feries"
+      - Beach season on the Mediterranean and Atlantic coasts
+  - season: allYear
+    items:
+      - Flamenco and tapas culture
+      - "Late-evening dining and the Spanish 'ruta de tapas'"
+  - season: winter
+    items:
+      - Christmas (Nochevieja) and the Three Kings' Day (Reyes Magos, 6 January) celebrations
+traditionalDishes:
+  - season: allYear
+    items:
+      - Paella
+      - Jamón ibérico (cured Iberian ham)
+      - Tortilla española (Spanish omelette)
+      - Gazpacho and other cold soups in season
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional dress (the flamenco dress for women, regional costumes) is worn at feries and festivals; everyday dress is modern Spanish/European"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Most regions allow limited Sunday and public-holiday opening for designated festive days, with tourist and small shops often open more often. The workday traditionally features a long midday break and late afternoon restart, with dinner typically late (after 21:00)."
