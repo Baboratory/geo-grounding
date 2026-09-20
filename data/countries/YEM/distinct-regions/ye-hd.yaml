@@ -1,0 +1,90 @@
+code: YE-HD
+name:
+  eng: Hadramawt Governorate
+  local:
+    - languageCode: ara
+      value: محافظة حضرموت
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate inland — very hot and dry, cooler in the highlands; the coast (Mukalla) is hot and more humid.
+landmarks:
+  - name: The Old Walled City of Shibam with its mud-brick 'skyscrapers'
+    unescoWorldHeritage: true
+  - name: Tarim and its historic mosques, mudbrick architecture and Quranic scholarship
+  - name: Seiyun Palace (Sultan Al Kathiri Palace)
+  - name: The coastal city of Mukalla and its historic seafaring heritage
+culturalTraits:
+  - "A vast, historically independent region known for its distinctive mudbrick architecture and the famous 'Manhattan of the desert' at Shibam"
+  - "A proud Hadhrami diaspora identity — Hadhramis settled across the Indian Ocean (East Africa, South Asia, Southeast Asia)"
+  - "Deep Islamic scholarship, especially in Tarim"
+  - "Ancestral and clan networks that remain strong"
+prideOf:
+  - "Shibam's towering mud-brick city and its UNESCO listing"
+  - "Tarim's rich Islamic scholastic tradition"
+  - "The vast Wadi Hadramawt valley and its date groves"
+  - "A global diaspora that has carried Hadhrami culture across the Indian Ocean"
+animals:
+  popular:
+    - Arabian camel
+    - Arabian tahr (mountains)
+  unique:
+    - Yemeni endemic birds and reptiles of the interior
+    - Hamadryas baboons in the wadi cliffs
+industries:
+  - Agriculture — dates, grain and honey in the Wadi Hadramawt
+  - Fishing along the Arabian Sea coast
+  - Oil and gas (Masila basin near the coast)
+  - Trade linked to the diaspora
+  - Heritage tourism (where security permits)
+sports:
+  - Football (Al-Shaab Hadramawt, clubs in Mukalla)
+  - Traditional village sports
+entertainment:
+  - season: winter
+    items:
+      - "Visiting the historic cities (Shibam, Tarim, Seiyun) in mild winter weather"
+  - season: summer
+    items:
+      - "The date harvest in the Wadi Hadramawt"
+  - season: allYear
+    items:
+      - "Exploring mudbrick towns, mosques and palaces"
+      - "Coffee and qat sessions with local families"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Mandi, Salta and the rich rice-and-meat dishes of the region"
+      - "Fresh dates and honey from the Wadi"
+      - "Seafood along the coast at Mukalla"
+  - season: summer
+    items:
+      - "Fresh dates at harvest and fruit of the Wadi"
+  - season: winter
+    items:
+      - "Warm stews in the cooler months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modest traditional dress; men commonly wear the futa and head coverings"
+  - season: winter
+    items:
+      - "Light layers for the cooler inland nights and winters"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "The weekend is Friday-Saturday. Shops and offices run Saturday-Thursday with a long midday lull; coastal fishing and oil operations run around the clock."
+  lunchBreakTiming: "A long midday break (lunch and often a qat session) is customary."
+  notableShutdownPeriods:
+    - period: Eid holidays
+      description: "Business largely closes during Eid."
+  notes: "Hadramawt is a large and historically distinct region; security conditions vary between its interior and the coastal strip. Verifying local access and conditions is essential."

@@ -1,0 +1,125 @@
+code: WHOLE
+name:
+  eng: Yemen
+  local:
+    - languageCode: ara
+      value: اليمن
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate along the Red Sea and Arabian Sea coasts (Tihama) — very hot and humid.
+  - koppenCode: BSh
+    description: Hot semi-arid climate in parts of the interior.
+  - koppenCode: Cwb
+    description: Highland temperate climate in the western highlands (e.g. around Sana'a and Ibb) — cool, with moderate rainfall and a distinctly milder summer.
+landmarks:
+  - name: The Old City of Sana'a
+    unescoWorldHeritage: true
+  - name: Socotra archipelago
+    unescoWorldHeritage: true
+  - name: The Old Walled City of Shibam (Hadramawt, the 'Manhattan of the desert')
+    unescoWorldHeritage: true
+  - name: Zabid historic town
+    unescoWorldHeritage: true
+  - name: Dar al-Hajar rock palace
+culturalTraits:
+  - "One of the most ancient inhabited regions of the world — known as 'Arabia Felix' in antiquity"
+  - "Deeply rooted in Islam and a sophisticated tribal and highland culture"
+  - "Fierce hospitality, poetry and the distinctive tradition of chewing qat"
+  - "Rich architectural heritage of tower-houses, carved villages and ancient trade routes"
+  - "A resilient people enduring a prolonged humanitarian and economic crisis"
+prideOf:
+  - "Ancient history — the Sabaean kingdom, the Queen of Sheba and frankincense trade"
+  - "Remarkable architecture (Sana'a's tower-houses, Shibam's mud skyscrapers)"
+  - "Arabic language and poetry"
+  - "Yemeni coffee, honey and the distinctive cultural identity"
+animals:
+  popular:
+    - Arabian camel
+    - Arabian leopard (rare)
+    - Hamadryas baboon
+  unique:
+    - Socotra's endemic flora and fauna (Dragon's Blood tree)
+    - Arabian tahr
+    - Chukar partridge
+industries:
+  - Oil and gas (declining reserves)
+  - Agriculture — Yemeni coffee, qat, honey, fruit and grain
+  - Fishing along the Red Sea and Arabian Sea
+  - Aden port and trans-shipment trade
+  - Remittances from the large Yemeni diaspora
+  - Heritage and (pre-conflict) tourism
+sports:
+  - Football (Yemeni national league)
+  - Mohammed (traditional village sports)
+  - Board games and qat-session social life
+religions:
+  - name: Muslim
+    percent: 99.1
+    sourceId: yem-religion-cia
+  - name: Other (incl. tiny Jewish and Christian communities)
+    percent: 0.9
+    sourceId: yem-religion-cia
+entertainment:
+  - season: summer
+    items:
+      - "Watermelon and the abundant summer fruit season in the highlands"
+      - "Festivals in the cooler mountain towns"
+  - season: winter
+    items:
+      - "Traveller-friendly mild highland days; the coastal plains are very hot"
+      - "Cultural events and poetry gatherings"
+  - season: allYear
+    items:
+      - "Qat sessions — the social daily ritual of chewing qat and talking"
+      - "Coffee (qahwa) hospitality and traditional Yemeni music"
+      - "Mosque and heritage visits (where security permits)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Saltah — the national dish of spiced stew with fenugreek 'holba'"
+      - "Mandi and 'madhbi' — slow-cooked meat and rice dishes"
+      - "Aseed and Bint al-Sahn (Yemeni honey cake)"
+      - "Yemeni coffee and mafroud sweets"
+  - season: summer
+    items:
+      - "Fresh highland fruit — pomegranates, grapes and figs"
+  - season: winter
+    items:
+      - "Warm stews and the hearty comfort foods of the cool season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men often wear the futa (a wraparound sarong-style garment) with a shirt, plus a jambiya (curved dagger) on formal occasions"
+      - "Women wear modest traditional dress, often the black abaya in public"
+  - season: winter
+    items:
+      - "Layered clothing and western jackets over traditional garments in the cooler highlands"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "The weekend is Friday-Saturday. Offices and shops commonly run Saturday-Thursday (with Thursday a short day in many places), roughly 9:00am-4:00pm or 5:00pm. Many businesses activity peaks in the morning and late afternoon, with a midday lull."
+  lunchBreakTiming: "Lunch, rest and often a qat session in the early-to-mid afternoon are customary; business slows noticeably after midday."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Business largely closes during the Eid holidays."
+    - period: Ramadan
+      description: "Working hours shorten during Ramadan; activity shifts later into the evening."
+  notes: "The conflict has severely disrupted business life: hours are shorter, many areas face cash and fuel shortages, and logistics are unreliable. Verifying on-the-ground conditions before travel is essential."
+sources:
+  - id: yem-religion-cia
+    name: "CIA World Factbook — Yemen (religion)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/yemen/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Approximate religious composition: Muslim ~99.1% (overwhelmingly Sunni/Shafi'i with a significant Zaydi Shia minority), other ~0.9% (includes ancient Jewish community and tiny Christian community)."

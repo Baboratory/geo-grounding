@@ -1,0 +1,154 @@
+alpha3: YEM
+alpha2: YE
+name:
+  eng: Yemen
+  local:
+    - languageCode: ara
+      value: اليمن
+flagEmoji: "🇾🇪"
+capital: Sana'a
+isSovereign: true
+# Classified unitary-large: population ~34M exceeds the threshold, and Yemen has
+# a widely recognized cultural-historical divide (the inhabited highlands and
+# the coastal plains of the Tihama, plus the historically independent south).
+# Real ISO 3166-2 governorate files are curated (a representative subset)
+# alongside the WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: YE
+hasSubdivisions: true
+languageUsage:
+  - languageCode: ara
+    domain: official
+    speakersShare: 1.0
+    sourceId: yem-constitution
+  - languageCode: ara
+    domain: locallySpoken
+    speakersShare: 0.999
+    sourceId: yem-cia
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.05
+    sourceId: yem-ef-english-2020
+ethnicGroups:
+  - group: Yemeni Arab
+    percent: 95.0
+    sourceId: yem-cia
+  - group: Other (incl. Afro-Arab/Mukhalas along the coast, and small South Asian and mixed communities)
+    percent: 5.0
+    sourceId: yem-cia
+timezones:
+  - name: Asia/Aden
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: YER
+  symbol: "﷼"
+  name: Yemeni rial
+legalConstraints:
+  - topic: "data protection regime"
+    description: "Yemen has no comprehensive national data-protection law; personal data is mostly handled under general civil, penal and sectoral rules, and data practices are less formalised than in the Gulf states. Care with sensitive data is advised given the significant operational constraints of the conflict environment."
+    sourceId: yem-data-landscape
+  - topic: "consumer withdrawal right"
+    description: "Consumer protections exist under the Yemeni Civil Code and consumer-protection provisions, but there is no comprehensive modern consumer-rights or distance-selling law; return and withdrawal rights depend heavily on the individual seller."
+    sourceId: yem-consumer
+  - topic: "price display and currency"
+    description: "Prices are set in Yemeni rials (YER); in practice many larger transactions, real estate and imports are quoted in US dollars. Hyperinflation and multiple exchange rates have made retail pricing volatile; prices are rarely subject to a single VAT-like national regime."
+    sourceId: yem-economy-wb
+  - topic: "trading week and business environment"
+    description: "The weekend is Friday-Saturday; Thursday and Friday close early in many places. The ongoing conflict, bank note shortages and cash-dominant economy mean businesses often operate on reduced hours and rely heavily on cash and money exchangers."
+    sourceId: yem-economy-wb
+paymentMethodShares:
+  - method: "cash"
+    percent: 95.0
+    sourceId: yem-payments-wb
+  - method: "mobile money / e-wallet (M-Floos, mobile money)"
+    percent: 3.0
+    sourceId: yem-payments-wb
+  - method: "bank card"
+    percent: 2.0
+    sourceId: yem-payments-wb
+paymentCulture:
+  popularMethods:
+    - "Cash is overwhelmingly dominant — most day-to-day purchases and even sizable transactions are settled in rials (or US dollars for larger values)"
+    - "Money exchangers (sarraaf) play a bigger role than banks for accessing liquidity and foreign currency"
+    - "Mobile money and e-wallets (M-Floos) are emerging but still small in scale"
+    - "Bank cards and online payments exist but are of limited use outside major urban areas"
+  tipping:
+    expected: false
+    typicalAmount: "10%"
+    autoIncludedInBill: false
+    note: "Tipping is appreciated but modest by custom; a small gratuity (roughly 10% or a rounded-up amount) in restaurants is common. For porters and guides, a small cash tip is expected in tourist settings."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Hospitality is a deeply held value; relationships and trust precede business. Use respectful address, titles and honorifics; family and tribal connections carry weight. A warm, courteous and indirect style is preferred over bluntness."
+  greetingNorms: "The greeting 'As-salamu alaykum' with the reply 'Wa alaykum as-salam' is standard, usually followed by a long exchange of enquiries about family and health. Men shake hands; among close friends additional embraces or cheek touches occur. Physical contact between unrelated men and women is generally avoided."
+  meetingEtiquette: "Meetings open with welcome and qat/coffee or tea and unhurried small talk before business — rushing it is impolite. Punctuality is appreciated but meetings may run late or be postponed. Decision-making is relationship-driven and deliberate. Use the right hand for handshakes and passing; respect tribal and seniority hierarchies."
+  topicsToAvoid:
+    - "The ongoing conflict and its political dimensions — deeply sensitive and divisive"
+    - "Tribal and sectarian politics"
+    - "Criticism of either side of the conflict or of religion"
+    - "Personal wealth and income"
+    - "The two central banks / divergent exchange rates unless the counterpart raises it"
+  giftGivingNotes: "Small, respectful gifts are appreciated once a relationship is established. Quality items, dates and sweets are safe; flowers are rarely central. Do not give alcohol or pork. Offer and receive with the right hand, and accept graciously."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: YE-SN
+    file: distinct-regions/ye-sn.yaml
+    adminUnitCodes: [YE-SN]
+  - code: YE-AD
+    file: distinct-regions/ye-ad.yaml
+    adminUnitCodes: [YE-AD]
+  - code: YE-HD
+    file: distinct-regions/ye-hd.yaml
+    adminUnitCodes: [YE-HD]
+sources:
+  - id: yem-constitution
+    name: "Constitution of the Republic of Yemen"
+    publisher: "Government of the Republic of Yemen"
+    url: "https://www.constituteproject.org/constitution/Yemen_2001"
+    year: 1991
+    accessedDate: "2026-09-20"
+    note: "Establishes Arabic as the official language of the Republic of Yemen."
+  - id: yem-cia
+    name: "CIA World Factbook — Yemen"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/yemen/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Approximate ethnic composition (Yemeni Arab ~95%, other ~5%) and language figures; Arabic is spoken by essentially the entire population."
+  - id: yem-ef-english-2020
+    name: "EF English Proficiency Index (Yemen)"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    year: 2020
+    accessedDate: "2026-09-20"
+    note: "Rough estimate of the small share of Yemenis able to hold an English conversation (~5%), largely in trade, humanitarian, maritime (Aden) and academic settings; English proficiency is low overall."
+  - id: yem-data-landscape
+    name: "Assessment of the data-protection landscape in Yemen"
+    publisher: "Composite estimate based on UNCTAD/World Bank data-legislation reviews"
+    url: "https://unctad.org/page/data-protection-and-privacy-legislation-worldwide"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Indicates Yemen lacks a comprehensive data-protection law; legal constraints reflect the general regulatory landscape. Composite estimate, not a single statute."
+  - id: yem-consumer
+    name: "Yemeni Civil Code and consumer-protection provisions"
+    publisher: "Government of the Republic of Yemen"
+    url: "https://www.constituteproject.org/constitution/Yemen_2001"
+    year: 2002
+    accessedDate: "2026-09-20"
+    note: "General civil-law protections; no modern national distance-selling/consumer-rights statute."
+  - id: yem-economy-wb
+    name: "World Bank Yemen Economic Monitor"
+    publisher: "World Bank"
+    url: "https://www.worldbank.org/en/country/yemen/publication/yemen-economic-monitor"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Documents the cash-based economy, multiple exchange rates, hyperinflation and the reduced business environment during the conflict."
+  - id: yem-payments-wb
+    name: "World Bank Yemen Financial Sector Diagnostics / FSI payment data"
+    publisher: "World Bank"
+    url: "https://documents1.worldbank.org/curated/en/099102324070011985/pdf/P177631-d18a7ee4-3fcf-4393-9665-77f98b3e43a7.pdf"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Approximate payment-method shares: cash ~95%, mobile money/e-wallets ~3%, bank cards ~2%. Composite estimate; Yemen is one of the most cash-dependent economies in the world with low formal-banking inclusion."

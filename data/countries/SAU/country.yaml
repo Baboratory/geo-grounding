@@ -1,0 +1,164 @@
+alpha3: SAU
+alpha2: SA
+name:
+  eng: Saudi Arabia
+  local:
+    - languageCode: ara
+      value: السعودية
+flagEmoji: "🇸🇦"
+capital: Riyadh
+isSovereign: true
+# Classified unitary-large: population ~36M exceeds the threshold, and while
+# Arabic is the sole official language the country has a widely recognized
+# cultural-historical regional identity (the historic Hejaz, Najd and Eastern
+# Province). Real ISO 3166-2 region files are curated (a representative subset)
+# alongside the WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: SA
+hasSubdivisions: true
+languageUsage:
+  - languageCode: ara
+    domain: official
+    speakersShare: 1.0
+    sourceId: sau-constitution-art1
+  - languageCode: ara
+    domain: locallySpoken
+    speakersShare: 1.0
+    sourceId: sau-census-2022
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.15
+    sourceId: sau-ef-english-2023
+ethnicGroups:
+  - group: Saudi Arab
+    percent: 74.0
+    sourceId: sau-census-2022
+  - group: Foreign nationals (incl. South Asian, Filipino, Egyptian, Yemeni and other Arab expatriates)
+    percent: 26.0
+    sourceId: sau-census-2022
+timezones:
+  - name: Asia/Riyadh
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: SAR
+  symbol: "﷼"
+  name: Saudi riyal
+legalConstraints:
+  - topic: "data protection regime"
+    description: "The Personal Data Protection Law (PDPL, Royal Decree M/19 of 2021, effective 14 September 2023) regulates the processing of personal data within the Kingdom and of residents of the Kingdom by entities outside it. It is overseen by the Saudi Data and AI Authority (SDAIA); it sets out lawful-basis requirements, data-subject rights, security obligations and cross-border transfer rules."
+    sourceId: sau-pdpl-m19
+  - topic: "price display and VAT"
+    description: "Prices must be displayed clearly in Saudi riyals; a 15% value-added tax (VAT) is applied to most goods and services and is normally included in displayed retail prices, so final prices are typically VAT-inclusive."
+    sourceId: sau-zatca-vat
+  - topic: "consumer withdrawal right"
+    description: "The E-Commerce Law (Royal Decree M/7 of 2019) gives consumers a right to cancel an online purchase and return the product during the agreed withdrawal period, and obliges online sellers to disclose the return policy; the Consumer Protection Law protects against false advertising, defective goods and exploitation."
+    sourceId: sau-ecommerce-m7
+  - topic: "trading hours and prayer closures"
+    description: "Businesses close briefly for the five daily Islamic prayers, and most offices and many shops close on Friday (the main weekly rest day); working weeks commonly run Sunday to Thursday in the public sector."
+    sourceId: sau-labor-law
+paymentMethodShares:
+  - method: "mada card (national debit network)"
+    percent: 55.0
+    sourceId: sau-sama-payments-2023
+  - method: "cash"
+    percent: 30.0
+    sourceId: sau-sama-payments-2023
+  - method: "instant transfer / mobile wallet (SARIE, STC Pay, Apple Pay)"
+    percent: 12.0
+    sourceId: sau-sama-payments-2023
+  - method: "other (international cards, bank transfer, BNPL)"
+    percent: 3.0
+    sourceId: sau-sama-payments-2023
+paymentCulture:
+  popularMethods:
+    - "mada — the national debit/ATM card network, ubiquitous and used for the large majority of point-of-sale and online payments"
+    - "SARIE — the instant real-time payment system of the Saudi Central Bank (SAMA), used for phone-number transfers"
+    - "STC Pay (now 'STC Pay'/'My Tamara') and Apple Pay/Google Pay via local banks — growing rapidly"
+    - "SADAD — the national bill-payment service for government and utility invoices"
+  tipping:
+    expected: false
+    typicalAmount: "10%"
+    autoIncludedInBill: false
+    note: "Tipping is appreciated but not obligatory; 10% in restaurants and cafés is common and some venues add a discretionary service charge. Many locals round up or leave a modest cash tip."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Hospitality and personal relationships matter greatly. Address people by their title and first name; wait to move to first-name basis. A warm, respectful and indirect style is preferred over blunt directness. Showing respect to elders and to family is important."
+  greetingNorms: "The greeting 'As-salamu alaykum' ('peace be upon you') with the reply 'Wa alaykum as-salam' is standard. Men greet with a handshake, often accompanied by 'Kayf halak' (how are you); it is customary to ask about family. Traditional Gulf greeting can involve touching noses or kissing the shoulder among close Arab friends. Physical contact between men and unrelated women is generally avoided; greetings with women are verbal or a nod unless the woman offers her hand."
+  meetingEtiquette: "Punctuality is appreciated but meetings may start a little late. Meetings open with tea, coffee (qahwa) and hospitality before business; jumping straight to business is considered impolite. Titles and hierarchy matter — deference to senior people is expected. Decisions may be slower and relationship-based. Do not show the soles of your feet; use the right hand for eating, shaking hands and passing items."
+  topicsToAvoid:
+    - "Religion, except respectfully and in context — Islam is integral and deeply respected"
+    - "Criticism of the royal family or government"
+    - "Comments about Saudi women's roles or dress"
+    - "Politics of the region and sensitive neighbours"
+    - "Alcohol and pork (both prohibited in public life)"
+  giftGivingNotes: "Giving gifts is appreciated when a relationship is established. A good-quality, tactful gift is welcome; sweets, dates, perfumes (oud) and quality items are safe. Use both senses: offer and receive gifts with the right hand. Do not give alcohol or pork products. It is polite to open a gift right away. Be gracious and non-pushy when offering."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: SA-01
+    file: distinct-regions/sa-01.yaml
+    adminUnitCodes: [SA-01]
+  - code: SA-02
+    file: distinct-regions/sa-02.yaml
+    adminUnitCodes: [SA-02]
+  - code: SA-04
+    file: distinct-regions/sa-04.yaml
+    adminUnitCodes: [SA-04]
+sources:
+  - id: sau-constitution-art1
+    name: "Basic Law of Governance, Article 1 (official language and religion)"
+    publisher: "Government of the Kingdom of Saudi Arabia"
+    url: "https://www.the-legal.com/LawArtciles/SaudiArabiaBasicLawOfGovernance.pdf"
+    year: 1992
+    accessedDate: "2026-09-20"
+    note: "Establishes Arabic as the language and Islam as the religion of the Kingdom."
+  - id: sau-census-2022
+    name: "2022 Saudi Census (GASTAT)"
+    publisher: "General Authority for Statistics (GASTAT)"
+    url: "https://www.stats.gov.sa/en/1007"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "Population composition: Saudi nationals ~74% and foreign nationals ~26%; the foreign share varies by source and year. Arabic is the spoken language of the population; English is common among the expatriate and business community."
+  - id: sau-ef-english-2023
+    name: "EF English Proficiency Index 2023"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Rough share of residents able to hold an English conversation (~15% of total population, higher among Saudis under 40 and among expatriates); English is widely used in business, hospitality and government dealings."
+  - id: sau-pdpl-m19
+    name: "Personal Data Protection Law (PDPL), Royal Decree M/19 of 2021"
+    publisher: "Saudi Data and AI Authority (SDAIA)"
+    url: "https://sdaia.gov.sa/en/Research/Pages/DataProtection.aspx"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Core national data-protection law; effective 14 September 2023 with a compliance grace period. Covers lawful basis, purpose limitation, data-subject rights, security and cross-border transfer."
+  - id: sau-zatca-vat
+    name: "ZATCA VAT rules and price display"
+    publisher: "Zakat, Tax and Customs Authority (ZATCA)"
+    url: "https://zatca.gov.sa/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "15% VAT applies to most goods and services; retail prices are commonly shown VAT-inclusive in Saudi riyals."
+  - id: sau-ecommerce-m7
+    name: "E-Commerce Law (Royal Decree M/7 of 2019)"
+    publisher: "Government of the Kingdom of Saudi Arabia"
+    url: "https://laws.boe.gov.sa/"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "Consumer right to cancel online purchases, disclosure of return policies, and protections against deceptive practices."
+  - id: sau-labor-law
+    name: "Saudi Labor Law and weekly work schedule"
+    publisher: "Ministry of Human Resources and Social Development"
+    url: "https://www.mhrsd.gov.sa/"
+    year: 2020
+    accessedDate: "2026-09-20"
+    note: "Standard working week and rest-day arrangements (Friday rest day; prayer-time closures in retail)."
+  - id: sau-sama-payments-2023
+    name: "SAMA payment-system statistics and mada transaction data (2023)"
+    publisher: "Saudi Central Bank (SAMA)"
+    url: "https://www.sama.gov.sa/en-US/SaudiPages/default.aspx"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Approximate point-of-sale and payment-method shares: mada card ~55%, cash ~30%, instant transfer/mobile wallet ~12%, other ~3%. Composite estimate derived from SAMA-reported non-cash transaction share (63% in 2023) and mada POS data."

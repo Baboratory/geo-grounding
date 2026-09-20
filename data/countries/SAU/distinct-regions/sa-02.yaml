@@ -1,0 +1,94 @@
+code: SA-02
+name:
+  eng: Makkah Province
+  local:
+    - languageCode: ara
+      value: منطقة مكة المكرمة
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate along the Red Sea coast and in the inland Hijaz valleys — very hot summers, mild winters, low rainfall.
+landmarks:
+  - name: Masjid al-Haram (the Grand Mosque) and the Kaaba, Makkah
+    unescoWorldHeritage: true
+  - name: The Abraj Al Bait (Makkah Royal Clock Tower)
+  - name: Jabal al-Nour and the Hira cave (where the Quran is held to have been revealed)
+  - name: Jeddah Historic District (Al-Balad)
+    unescoWorldHeritage: true
+  - name: Jeddah Corniche and the Red Sea waterfront
+culturalTraits:
+  - "Home to Islam's holiest site and the destination of the Hajj and Umrah pilgrimages"
+  - "A historic gateway city — Jeddah has been the traditional sea entrance for pilgrims and trade"
+  - "Cosmopolitan influence of constant visitors from the entire Muslim world"
+  - "Deep religious reverence and a welcoming spirit toward pilgrims"
+prideOf:
+  - "The Grand Mosque and the honour of hosting pilgrims from around the world"
+  - "Jeddah's historic Al-Balad with its coral-stone houses and tower-houses (rawashin)"
+  - "The Red Sea coast and the new tourism development along the shoreline"
+  - "Religious scholarship and service to the two holy cities"
+animals:
+  popular:
+    - Arabian camel
+    - Sand gazelle
+  unique:
+    - Red Sea coral reef species
+    - Arabian leopard (in the nearby Hijaz hills)
+industries:
+  - Religious tourism and the Hajj and Umrah services economy
+  - Port and logistics (Jeddah Islamic Port, one of the region's largest)
+  - Trade, commerce and the historic souks
+  - Hospitality, hotels and airlines
+  - Red Sea tourism and coastal development
+sports:
+  - Football (Al Ittihad and Al Ahli in Jeddah)
+  - Water sports and diving in the Red Sea
+  - Motor racing (Jeddah Corniche Circuit hosts Formula One)
+entertainment:
+  - season: winter
+    items:
+      - "Jeddah Season cultural and entertainment events"
+      - "Outdoor Red Sea waterfront activities and walks on the Corniche (pleasant winter climate)"
+  - season: summer
+    items:
+      - "Hajj season and the influx of pilgrims"
+      - "Evening seaside activities along the cooler coast"
+  - season: allYear
+    items:
+      - "Umrah — the year-round pilgrimage to Makkah"
+      - "Historic districts and souks of Jeddah's Al-Balad"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sailaniyah, mandi and kabsa — the rice-and-meat dishes of the Hejaz"
+      - "Jeddah is famed for its Hijazi sweets and 'mofatahat'"
+      - "Dates, Arabic coffee and the traditional 'hibiscus' (karkadeh) drink"
+  - season: winter
+    items:
+      - "Warm Hijazi stews in the cooler months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the white thobe and ghutra; women the abaya"
+      - "Pilgrims of every nationality bring their own modest dress traditions"
+  - season: winter
+    items:
+      - "Lighter layers are added during the relatively mild winters"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Offices and shops typically run Sunday-Thursday, roughly 8:00am-5:00pm with a midday prayer-and-lunch break; establishments serving pilgrims adjust hours around prayer times and the pilgrimage calendar."
+  lunchBreakTiming: "A midday break around 12:00-1:00pm for Dhuhr prayer and lunch is common."
+  notableShutdownPeriods:
+    - period: Hajj
+      description: "The annual pilgrimage (Dhul-Hijjah) brings a huge influx of visitors; much of the local business year revolves around the pilgrimage calendar."
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Holidays when many offices close; retail may stay partly open for pilgrims."
+  notes: "Friday is the main rest day. Business life in Jeddah and Makkah is closely tied to pilgrimage seasons and prayer times — plan around the Umrah and Hajj flows."

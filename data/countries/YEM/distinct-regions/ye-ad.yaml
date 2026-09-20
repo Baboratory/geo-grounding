@@ -1,0 +1,83 @@
+code: YE-AD
+name:
+  eng: Aden
+  local:
+    - languageCode: ara
+      value: عدن
+climates:
+  - koppenCode: BWh
+    description: Hot desert coastal climate — very hot and humid, especially in summer, with mild winters; located on the Gulf of Aden.
+landmarks:
+  - name: The Crater district of Aden and its volcanic amphitheatre
+  - name: Lighthouse and historic port of Aden
+  - name: Sira Fortress
+  - name: Al-Buraika hills and the beaches of the Gulf
+culturalTraits:
+  - "Aden is Yemen's principal port and historic commercial capital, and the seat of the internationally recognised government's interim operations"
+  - "A cosmopolitan maritime and trading heritage as a major Red Sea/Indian Ocean hub"
+  - "A distinct, tolerant, seafaring identity shaped by centuries of global trade"
+  - "The historic gateway of the ancient frankincense and coffee trade"
+prideOf:
+  - "Its great natural harbour and a proud maritime and trading history"
+  - "The Crater, the old volcanic heart of the city"
+  - "A cosmopolitan, open character and architectural charm"
+  - "Resilience as the interim seat of the recognised government"
+animals:
+  popular:
+    - Arabian camel
+    - Dhofar lark and other coastal birds
+  unique:
+    - Gulf of Aden marine life (whales, turtles, coral)
+industries:
+  - Ports, shipping and trans-shipment (Aden container terminal)
+  - Trade and re-export
+  - Refining and energy logistics
+  - Fisheries
+  - Government and humanitarian/development administration
+sports:
+  - Football (Al Tilal, Al Wehda Aden)
+  - Sailing and water sports
+entertainment:
+  - season: winter
+    items:
+      - "Pleasant coastal days and beach visits in the mild winter"
+  - season: summer
+    items:
+      - "Escaping the intense summer heat — evenings by the sea"
+  - season: allYear
+    items:
+      - "Sea front, coffee houses and heritage of the Crater"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Seafood — fresh grilled fish and 'sayyadiah' (spiced fish and rice)"
+      - "Saltah and the broader Yemeni rice-and-meat dishes"
+  - season: winter
+    items:
+      - "Warm coastal stews in the cool season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Loose, modest cotton clothing suited to the heat; the futa for men"
+  - season: summer
+    items:
+      - "Light fabrics to cope with the humid heat"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "The weekend is Friday-Saturday. Ports operate around the clock; offices and shops run Saturday-Thursday with a long midday lull and afternoon/evening business."
+  lunchBreakTiming: "A long midday break (lunch, rest and often qat) around noon to mid-afternoon is customary."
+  notableShutdownPeriods:
+    - period: Eid holidays
+      description: "Business largely closes during Eid."
+  notes: "Aden hosts the interim seat of the internationally recognised government. The security and administrative situation has differed from Sana'a; verifying current conditions is essential before any engagement."
