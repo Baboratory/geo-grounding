@@ -1,0 +1,63 @@
+alpha3: IOT
+alpha2: IO
+name:
+  eng: British Indian Ocean Territory
+  local:
+    - languageCode: eng
+      value: British Indian Ocean Territory
+flagEmoji: "🇮🇴"
+capital: "Administered from London; the territory's local centre is Diego Garcia"
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: biot-constitution-order-2004
+# English is the sole official language. There is no permanent civilian
+# population: residents are transitory UK/US military and contractor personnel
+# posted to the Diego Garcia joint military facility. The pre-existing
+# Chagossian population was relocated (principally to Mauritius and the
+# Seychelles) between 1967 and 1973; no indigenous language is spoken on the
+# territory today.
+timezones:
+  - name: Indian/Chagos
+    standardUtcOffset: "UTC+6"
+    observesDst: false
+currency:
+  code: USD
+  symbol: "$"
+  name: "United States dollar (de facto); sterling (GBP) de jure"
+legalConstraints:
+  - topic: "Sovereignty transfer to Mauritius (signed May 2025, not yet in force)"
+    description: "On 22 May 2025 the UK and Mauritius signed a treaty that, once ratified, would transfer sovereignty of the Chagos Archipelago to Mauritius, with the Diego Garcia military base leased back to the UK for 99 years. As of the access date ratification has been suspended. The UK's laws apply to the territory under the British Indian Ocean Territory (Constitution) Order 2004."
+    sourceId: biot-wikipedia-status
+# paymentMethodShares intentionally omitted: no official payment-adoption
+# breakdown is published for a territory with no permanent resident population
+# and a closed military facility; only cash/debit-card anecdotes exist.
+paymentCulture:
+  popularMethods:
+    - Cash (US dollar) used by posted personnel on Diego Garcia
+    - Card payments processed through the military facility's services
+  # tipping intentionally omitted: no reliable published norm for a closed
+  # military installation rather than a civilian economy.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: biot-constitution-order-2004
+    name: "British Indian Ocean Territory (Constitution) Order 2004"
+    publisher: "UK Parliament (legislation.gov.uk)"
+    url: "https://en.wikisource.org/wiki/British_Indian_Ocean_Territory_(Constitution)_Order_2004"
+    year: 2004
+    accessedDate: "2026-09-20"
+    note: "Legal basis: English is the official language and the laws of the UK apply to the territory."
+  - id: biot-wikipedia-status
+    name: "British Indian Ocean Territory"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/British_Indian_Ocean_Territory"
+    year: 2026
+    accessedDate: "2026-09-20"
+    note: "Status of the territory (British Overseas Territory, no permanent population, Diego Garcia joint facility) and the May 2025 UK–Mauritius sovereignty agreement; timezone UTC+6; currencies USD (de facto) and GBP (de jure)."

@@ -1,0 +1,44 @@
+alpha3: SGS
+alpha2: GS
+name:
+  eng: South Georgia and the South Sandwich Islands
+  local:
+    - languageCode: eng
+      value: South Georgia and the South Sandwich Islands
+flagEmoji: "🇬🇸"
+capital: King Edward Point
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: sgs-constitution
+# English is the official language. There is no permanent population: the
+# territory hosts transitory research, fisheries and government staff (a
+# handful to a few dozen, depending on season), so no locally-spoken
+# community language files are warranted.
+timezones:
+  - name: Atlantic/South_Georgia
+    standardUtcOffset: "UTC-2"
+    observesDst: false
+currency:
+  code: GBP
+  symbol: "£"
+  name: "Pound sterling (GBP); Falkland Islands pound is also legally tender"
+legalConstraints:
+  - topic: "No permanent population — fisheries and research only"
+    description: "The territory has no permanent residents; presence consists of British Antarctic Survey, fisheries and government personnel at Grytviken and King Edward Point. Governance is by the Commissioner of South Georgia and the South Sandwich Islands acting under UK law, with ordinances and orders as primary and secondary legislation."
+    sourceId: sgs-constitution
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: sgs-constitution
+    name: "South Georgia and South Sandwich Islands — governance and official status"
+    publisher: "Government of South Georgia and the South Sandwich Islands"
+    url: "https://www.gov.gs/"
+    accessedDate: "2026-09-20"
+    note: "Official-language (English) and governance (non-sovereign British Overseas Territory, commissioner-led) status; no permanent population, transitory personnel only."

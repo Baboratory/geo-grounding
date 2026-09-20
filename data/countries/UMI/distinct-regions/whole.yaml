@@ -1,0 +1,51 @@
+code: WHOLE
+name:
+  eng: United States Minor Outlying Islands
+  local:
+    - languageCode: eng
+      value: United States Minor Outlying Islands
+climates:
+  - koppenCode: Af
+    description: Tropical climates across the Pacific isles — warm year-round; Wake, Midway and the Pacific atolls are hot and humid with low rainfall on some islands.
+landmarks:
+  - name: Wake Island
+    description: The largest of the Pacific UMI isles, a former military airfield and now a wildlife refuge.
+  - name: Midway Atoll
+    description: Historic WWII battle site, now a National Wildlife Refuge and home to huge seabird colonies.
+  - name: Palmyra Atoll
+    description: The only incorporated UMI area, part of the Pacific Remote Islands Marine National Monument.
+culturalTraits:
+  - WWII and early-aviation history (Wake, Midway)
+  - Pristine tropical-island wildlife-refuge heritage
+prideOf:
+  - Untouched coral reef ecosystems
+  - Historic naval and aviation significance
+animals:
+  popular:
+    - Green sea turtle
+    - Loggerhead and hawksbill turtles
+    - Albatross (Laysan and black-footed)
+  unique:
+    - Laysan albatross colonies
+    - Wake Island rail (endemic, extinct in wild)
+industries:
+  - Wildlife conservation and scientific research
+  - Fish and Wildlife Service refuge management
+sports:
+  - Diving and marine research among posted staff
+# religions, entertainment, traditionalDishes, traditionalClothing,
+# businessRhythm intentionally omitted: there is no resident population and no
+# civilian cultural calendar on these uninhabited refuges.
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4, 5, 6]
+  - season: wet
+    months: [7, 8, 9, 10, 11, 12]
+sources:
+  - id: umi-wikipedia
+    name: "United States Minor Outlying Islands — geography and wildlife"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/United_States_Minor_Outlying_Islands"
+    year: 2026
+    accessedDate: "2026-09-20"
+    note: "Tropical climates, the individual isles (Wake, Midway, Palmyra), their refuge/status, and the endemic wildlife and seasonal pattern."

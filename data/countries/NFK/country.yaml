@@ -1,0 +1,55 @@
+alpha3: NFK
+alpha2: NF
+name:
+  eng: Norfolk Island
+  local:
+    - languageCode: eng
+      value: Norfolk Island
+flagEmoji: "🇳🇫"
+capital: Kingston
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: nfk-act
+  # Norfuk (also spelled Norf'k) is a co-official language of the island — a
+  # creole of 18th-century English and Tahitian brought by the Pitcairn
+  # community resettled in 1856. It carries no ISO 639-3 code used elsewhere
+  # in this dataset, so it is documented here as a comment rather than a
+  # separate language file. English is official and universally spoken.
+timezones:
+  - name: Pacific/Norfolk
+    standardUtcOffset: "UTC+11"
+    observesDst: true
+    dstUtcOffset: "UTC+12"
+    dstPeriod: "First Sunday of October to first Sunday of April (Southern-Hemisphere summer schedule)"
+currency:
+  code: AUD
+  symbol: "$"
+  name: "Australian dollar"
+legalConstraints:
+  - topic: "Australian external territory with self-government"
+    description: "Norfolk Island is an external territory of Australia, self-governing under the Norfolk Island Act 1979 (Cth). It became a regular part of the Australian mainland taxation system in 2016-17, ending the earlier low-tax regime; Australian income tax, GST and social security now apply. Population is roughly 1,800-2,200."
+    sourceId: nfk-act
+# paymentMethodShares intentionally omitted: no official payment-adoption
+# percentage was found for the island; card and cash are both common in its
+# small tourist-driven economy.
+paymentCulture:
+  popularMethods:
+    - Debit and credit cards (widely accepted in tourism-facing businesses)
+    - Cash (Australian dollars)
+  # tipping intentionally omitted: no reliably documented tipping norm found.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: nfk-act
+    name: "Norfolk Island Act 1979 (Cth)"
+    publisher: "Australian Government (Federal Register of Legislation)"
+    url: "https://www.legislation.gov.au/C1969A00061/latest"
+    accessedDate: "2026-09-20"
+    note: "Norfolk Island's status as a self-governing external territory of Australia and the legal basis for English being the official language."

@@ -1,0 +1,58 @@
+alpha3: UMI
+alpha2: UM
+name:
+  eng: United States Minor Outlying Islands
+  local:
+    - languageCode: eng
+      value: United States Minor Outlying Islands
+flagEmoji: "🇺🇲"
+capital: "No permanent capital; administered from Washington, D.C."
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: umi-wikipedia
+# English is the working/official language of the US administration. UMI is a
+# statistical grouping of nine mostly uninhabited US insular areas (Baker,
+# Howland, Jarvis, Johnston Atoll, Kingman Reef, Midway, Palmyra, Wake, and
+# Navassa). There is no permanent civilian population; only transitory Fish
+# and Wildlife Service, military and scientific personnel are posted there.
+timezones:
+  - name: Etc/GMT+12
+    standardUtcOffset: "UTC-12"
+    observesDst: false
+  - name: Pacific/Midway
+    standardUtcOffset: "UTC-11"
+    observesDst: false
+  - name: Pacific/Johnston
+    standardUtcOffset: "UTC-10"
+    observesDst: false
+  - name: Pacific/Wake
+    standardUtcOffset: "UTC+12"
+    observesDst: false
+currency:
+  code: USD
+  symbol: "$"
+  name: "United States dollar"
+legalConstraints:
+  - topic: "Uninhabited islands — diversity of US territorial status"
+    description: "UMI is a statistical grouping of nine US insular areas that are unincorporated (except Palmyra), with Navassa in the Caribbean and the rest in the Pacific. None has permanent residents; personnel are posted for wildlife, military and scientific purposes. Most Pacific islands fall within a large marine national monument, and they sit outside the US customs territory."
+    sourceId: umi-wikipedia
+# paymentMethodShares and paymentCulture intentionally omitted: there is no
+# resident population and no civilian economy, so no payment-adoption data
+# exists to source.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: umi-wikipedia
+    name: "United States Minor Outlying Islands"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/United_States_Minor_Outlying_Islands"
+    year: 2026
+    accessedDate: "2026-09-20"
+    note: "Definition of the grouping (nine insular areas), English as the language of US administration, lack of permanent residents, multiple timezones, USD currency, and the marine-monument / customs-status details."

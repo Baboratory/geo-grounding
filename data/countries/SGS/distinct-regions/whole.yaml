@@ -1,0 +1,67 @@
+code: WHOLE
+name:
+  eng: South Georgia and the South Sandwich Islands
+  local:
+    - languageCode: eng
+      value: South Georgia and the South Sandwich Islands
+climates:
+  - koppenCode: ET
+    description: Tundra climate — sub-Antarctic, cold and windy year-round, with permanent snow fields and glacial ice.
+landmarks:
+  - name: Shackleton's grave at Grytviken
+    description: Burial site of polar explorer Ernest Shackleton at the former whaling station.
+  - name: Mount Paget
+    description: The highest peak on South Georgia (2,935 m).
+  - name: King Edward Point
+    description: The small research and government settlement.
+culturalTraits:
+  - Antarctic-exploration and whaling heritage
+  - Strict conservation status of the island wildlife
+prideOf:
+  - Pristine sub-Antarctic wilderness and abundant seabird and seal life
+animals:
+  popular:
+    - King penguin
+    - Elephant seal
+    - Wandering albatross
+  unique:
+    - South Georgia pintail (endemic duck)
+industries:
+  - Scientific research (British Antarctic Survey)
+  - Fisheries (patagonian toothfish)
+  - Expedition tourism
+sports:
+  - Expedition mountaineering
+  - Sea kayaking
+# religions intentionally omitted: no permanent population and no resident
+# religious community on the territory.
+entertainment:
+  - season: allYear
+    items:
+      - Wildlife and shipwreck excursions around the coastline
+traditionalDishes:
+  - season: allYear
+    items:
+      - Re-supplied provisions from the Falkland Islands (no local cuisine)
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Research and government operations run largely around the short austral-summer field season (roughly November to March); the heaviest fieldwork happens then."
+  notes: "The territory supports no commercial civilian economy; activity is expedition-season dependent."
+sources:
+  - id: sgs-timeanddate
+    name: "South Georgia Time (GST), UTC-2"
+    publisher: "timeanddate.com"
+    url: "https://www.timeanddate.com/time/zones/gst-southgeorgia"
+    accessedDate: "2026-09-20"
+    note: "Timezone (Atlantic/South_Georgia, UTC-2, no DST) and year-round observance; the seasonal fieldwork window around the austral summer informed the season calendar."

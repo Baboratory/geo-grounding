@@ -1,0 +1,73 @@
+code: WHOLE
+name:
+  eng: Norfolk Island
+  local:
+    - languageCode: eng
+      value: Norfolk Island
+climates:
+  - koppenCode: Cfa
+    description: Subtropical — mild and fairly even temperatures with little seasonal variation, year-round rainfall.
+landmarks:
+  - name: Kingston
+    description: The main town, home to the historic penal-settlement ruins.
+  - name: Norfolk Island National Park
+    description: Protected remnant forest with endemic pines (Norfolk Island pine).
+  - name: Emily Bay
+    description: A sheltered swimming lagoon.
+culturalTraits:
+  - Descendants of the Pitcairn Bounty community, resettled in 1856
+  - Norf'k (Norfuk) creole, co-official with English
+  - Convict-settlement heritage (Kingston's ruins)
+prideOf:
+  - The endemic Norfolk Island pine
+  - The island's relaxed, close-knit community
+animals:
+  popular:
+    - Green sea turtle
+    - Various petrels and seabirds
+  unique:
+    - Norfolk Island green parrot (endangered, endemic)
+    - Lord Howe Island stick insect (nearby)
+industries:
+  - Tourism
+  - Agriculture (Kentia palm seed, honey)
+sports:
+  - Golf
+  - Fishing and snorkelling
+  - Cricket and rugby (community sports)
+entertainment:
+  - season: allYear
+    items:
+      - Norfolk Island Agricultural Show (October)
+      - Bounty Day (8 June) heritage celebration
+traditionalDishes:
+  - season: allYear
+    items:
+      - Hihi (a seafaring pigeon stew)
+      - Plihi (banana pie)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Casual island wear (no formal national dress)
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Relaxed small-island hours, roughly 9:00am-5:00pm, with many tourism businesses open seasonally."
+  notes: "The island's main shopping street in Kingston is the commercial heart; many businesses observe a long break or close early on quiet weekdays outside peak tourist season."
+sources:
+  - id: nfk-region
+    name: "Norfolk Island — geography, culture and tourism"
+    publisher: "Norfolk Island Regional Council / timeanddate.com"
+    url: "https://www.timeanddate.com/time/zone/norfolk-island"
+    accessedDate: "2026-09-20"
+    note: "Subtropical climate, UTC+11 standard / UTC+12 DST, and the island's southern-hemisphere season timing informing the season calendar and cultural content."

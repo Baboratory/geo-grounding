@@ -1,0 +1,45 @@
+code: WHOLE
+name:
+  eng: British Indian Ocean Territory
+  local:
+    - languageCode: eng
+      value: British Indian Ocean Territory
+climates:
+  - koppenCode: Af
+    description: Tropical marine climate, hot and humid year-round, moderated by trade winds.
+landmarks:
+  - name: Diego Garcia lagoon
+    description: The largest atoll in the Chagos Archipelago; site of the UK-US joint military facility.
+  - name: Chagos Archipelago
+    description: Over 1,000 small coral islands across seven atolls.
+culturalTraits:
+  - History of the displaced Chagossian community, who were relocated to Mauritius and the Seychelles between 1967 and 1973
+prideOf:
+  - Pristine coral reefs and the marine protected area of the Chagos Archipelago
+animals:
+  popular:
+    - Green sea turtle
+    - Coconut crab
+  unique:
+    - Chagos giant tortoise remains (extinct in the wild)
+industries:
+  - Military base operations (Diego Garcia)
+  - Marine-conservation research
+sports:
+  - Sailing and diving among the posted military community
+# religions, entertainment, traditionalDishes, traditionalClothing,
+# businessRhythm intentionally omitted: there is no permanent civilian
+# population and no resident cultural calendar on the territory — the islands
+# are a closed military facility with transitory personnel only.
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+sources:
+  - id: biot-wikipedia
+    name: "British Indian Ocean Territory — geography and climate"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/British_Indian_Ocean_Territory"
+    accessedDate: "2026-09-20"
+    note: "Tropical marine climate, flat low coral atolls, and the ocean-facing dunes on Diego Garcia used for the season calendar and landmarks."
