@@ -1,0 +1,92 @@
+code: WHOLE
+name:
+  eng: Anguilla
+  local:
+    - languageCode: eng
+      value: Anguilla
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna (marine trade-wind) climate; warm and sunny year-round (79-85°F typical), one of the driest of the eastern Caribbean, with a drier spell roughly December-April and a wetter, hurricane-prone rainy season mostly June-November.
+landmarks:
+  - name: Shoal Bay East
+    description: Ranked among the world's finest beaches — a long stretch of white sand and clear turquoise water on the northeast coast.
+  - name: Sandy Island
+    description: A tiny uninhabited cay just off Sandy Ground, a popular day-trip destination for snorkelling and lounging.
+  - name: Prickly Pear Cays
+    description: Protected, undeveloped cays to the north popular for boat trips, snorkelling and pristine beaches.
+  - name: The Valley
+    description: The compact capital with the Wallblake House (the island's oldest building), the Heritage Collection and the historic battery on Crocus Hill.
+culturalTraits:
+  - A proud, close-knit Anguillian identity tied to the seafaring and boat-building past
+  - Summer Festival (the island's big annual carnival) with parades, boat races and 'j'ouvert'
+  - A strong tradition of boat racing (the national sport)
+  - Laid-back, self-reliant island culture
+prideOf:
+  - The island's world-class beaches (Shoal Bay, Meads Bay)
+  - The boat-racing and seafaring heritage ('the sailors of Anguilla')
+  - The national motto and self-reliant, independent spirit
+  - The friendly, welcoming community
+animals:
+  popular:
+    - Green and hawksbill sea turtle
+    - Pelican and frigatebird
+    - Iguana
+  unique:
+    - Anguilla's endemic Ameiva lizard
+    - The land crabs seen on the island after rains
+industries:
+  - Tourism (beaches, resorts and day-trip cruising — the dominant sector)
+  - Offshore financial services and company registration
+  - Fishing
+sports:
+  - Boat racing (the national sport, with the annual August Festival races)
+  - Football (soccer)
+  - Basketball
+  - Watersports (windsurfing, kitesurfing, sailing)
+entertainment:
+  - season: allYear
+    items:
+      - The Summer Festival carnival (August) with boat races and j'ouvert
+      - Beach bars and boat day-trips to the outlying cays
+      - The Moonsplash and other resort music events
+traditionalDishes:
+  - season: allYear
+    items:
+      - Grilled lobster (a local speciality, esp. at the Lobster Festival)
+      - Johnny cakes and johnny bake
+      - Conch and shellfish dishes
+      - Goat and 'peas 'n' rice' family fare
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light, bright Caribbean resort wear
+      - Festival costume and paint for carnival parades
+      - Smart-casual for evening dining
+# Seasons are not the temperate four. Warm and sunny most of the year, the island
+# is one of the eastern Caribbean's driest, with a drier spell (~December-April)
+# and a wetter, hurricane-prone season (~June-November). Wet/dry partition:
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  lunchBreakTiming: "Lunch is generally 12:00-14:00; many offices close for a meal break while waterfront and resort restaurants stay open."
+  typicalWorkHours: "Typical office hours roughly 08:00-16:30/17:00 Mon-Fri. Retail extends hours in tourist areas and on cruise days; banks open limited hours."
+  restDays:
+    - saturday
+    - sunday
+  notes: "Anguilla does not observe daylight saving time and stays on Atlantic Standard Time (UTC-4) year-round. The economy follows the tourism calendar — high season over the winter months and the Summer Festival in August."
+sources:
+  - id: aia-tourism
+    name: "Anguilla tourism — Shoal Bay, Sandy Island and the Prickly Pear Cays"
+    publisher: "Anguilla Tourist Board / Composite estimate"
+    url: "https://ivisitanguilla.com"
+    accessedDate: "2026-09-20"
+    note: "Basis for the beach landmarks, the Summer Festival and the island's climate."
+  - id: aia-sailing
+    name: "Anguilla boat-racing heritage and the national sport"
+    publisher: "Government of Anguilla / Composite estimate"
+    url: "https://gov.ai"
+    accessedDate: "2026-09-20"
+    note: "Documents Anguilla's boat-racing tradition as a key element of island identity."

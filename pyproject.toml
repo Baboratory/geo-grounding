@@ -29,6 +29,12 @@ dev = [
   "pytest",
 ]
 
+[tool.setuptools]
+# Data-only package (no Python modules): declare no packages so the editable
+# build's flat-layout discovery doesn't fail on the data/schema/usage_examples
+# directories. See DESIGN.md/the flat-layout check.
+packages = []
+
 [tool.black]
 line-length = 100
 target-version = ["py311"]

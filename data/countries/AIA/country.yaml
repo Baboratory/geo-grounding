@@ -1,0 +1,103 @@
+alpha3: AIA
+alpha2: AI
+name:
+  eng: Anguilla
+  local:
+    - languageCode: eng
+      value: Anguilla
+flagEmoji: "🇦🇮"
+capital: The Valley
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Language official-status basis: English is the sole official language and the
+# everyday language. No separate official proficiency census exists; figures
+# below are composites/estimates.
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: aia-official-lang
+  # FLAGGED ESTIMATE: English is essentially universal both officially and in
+  # daily life; a small number of residents speak other languages (e.g. Spanish,
+  # French-based creoles) as home languages.
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.98
+    sourceId: aia-census-lang
+timezones:
+  - name: America/Anguilla
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+# Uses the East Caribbean dollar (XCD) as its official currency, pegged to the
+# U.S. dollar (US$1 = EC$2.70); the U.S. dollar is also widely accepted given the
+# tourism economy and proximity to Sint Maarten/St. Martin.
+currency:
+  code: XCD
+  symbol: "EC$"
+  name: East Caribbean dollar
+legalConstraints:
+  - topic: "official language"
+    description: "English is the official and overwhelmingly dominant language of Anguilla, used in government, the courts, education and daily life."
+    sourceId: aia-official-lang
+  - topic: "consumption tax (APA / Stamp and consumption taxes)"
+    description: "Anguilla has no general VAT. Instead it raises revenue through import duties, an Accommodation Tax (APA) on hotel/lodging stays for non-residents, and other stamp and consumption taxes. Consumer prices are typically displayed inclusive of applicable duties; a common visitor note is the 9% hotel accommodation tax."
+    sourceId: aia-tax
+  - topic: "data protection / privacy"
+    description: "Anguilla has begun aligning with evolving data-protection standards; as a British Overseas Territory it is considering legislation in line with U.K. norms, but no comprehensive Anguillan omnibus data-protection act was in force as of late 2025 — businesses handling personal data should confirm current local requirements."
+    sourceId: aia-dpa
+# paymentMethodShares intentionally omitted: no official island-wide payment-
+# method split is published. Observed reality is a card-friendly tourism economy
+# with cash (EC dollar and U.S. cash) still common at small merchants.
+paymentCulture:
+  popularMethods:
+    - "Credit and debit cards (Visa/Mastercard, chip+contactless) at hotels, restaurants and large shops"
+    - "Cash (East Caribbean dollar and U.S. dollar widely accepted)"
+    - "Mobile/wallet payments growing at larger vendors"
+  tipping:
+    expected: true
+    typicalAmount: "10-15% in restaurants; small tips for taxi drivers and tour/boat crew"
+    autoIncludedInBill: true
+    note: "Many hotels and restaurants add a service charge; otherwise tipping 10-15% in sit-down restaurants and a modest tip for tour and taxi staff is customary."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Relaxed, courteous and direct. English is spoken with a distinctive Caribbean lilt; first names are common once acquainted, and polite titles are used with officials and elders. Warmth and good manners are valued over formality."
+  greetingNorms: "A friendly verbal greeting ('Good morning/afternoon', 'Alright?') is essential, with a handshake in business; a nod and smile socially. Enquiring after someone's day before business is natural and appreciated."
+  meetingEtiquette: "Meetings are personable and unhurried, opening with small talk. Punctuality is appreciated but a relaxed 'island time' flexibility can apply. Business attire is smart-casual, suited to the climate."
+  topicsToAvoid:
+    - "Overly sensitive local politics or property speculation"
+    - "Casual stereotyping of the island or its people"
+  giftGivingNotes: "Modest, gracious gestures only; a small token when hosted is appreciated. No strong business gift expectation."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: aia-official-lang
+    name: "Anguilla — official information and government"
+    publisher: "Government of Anguilla"
+    url: "https://gov.ai"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Confirms the territory's status, capital The Valley, and English as the official language."
+  - id: aia-census-lang
+    name: "Anguilla language usage"
+    publisher: "CIA World Factbook / Composite estimate"
+    url: "https://www.cia.gov/the-world-factbook/"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "English dominant; a small minority of other home languages. FLAGGED ESTIMATE."
+  - id: aia-tax
+    name: "Taxation of Anguilla — no VAT; import duty and hotel accommodation tax"
+    publisher: "Government of Anguilla (Inland Revenue Department) / Composite estimate"
+    url: "https://gov.ai"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Describes the duty-based revenue system and the ~9% accommodation tax on non-resident lodging."
+  - id: aia-dpa
+    name: "Data protection landscape — Anguilla (no comprehensive local act in force)"
+    publisher: "DLA Piper Data Protection Laws of the World / Composite estimate"
+    url: "https://www.dlapiperdataprotection.com"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Flags that no comprehensive Anguillan omnibus data-protection act was in force as of late 2025."

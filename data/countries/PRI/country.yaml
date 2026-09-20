@@ -1,0 +1,114 @@
+alpha3: PRI
+alpha2: PR
+name:
+  eng: Puerto Rico
+  local:
+    - languageCode: spa
+      value: Puerto Rico
+flagEmoji: "🇵🇷"
+capital: San Juan
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Language official-status basis: Spanish and English are the official languages
+# of the executive branch of the Commonwealth government (Spanish predominates;
+# ~94% of residents speak Spanish at home per the U.S. Census). Figures are
+# composites of U.S. Census Bureau ACS data and are estimates.
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: pri-constitution-lang
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: pri-constitution-lang
+  # FLAGGED ESTIMATE: ~94% of the population over 5 years speak Spanish at home
+  # (U.S. Census ACS); English is widely spoken in business, government and
+  # tourism but is a home language for a small minority (~5%).
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.94
+    sourceId: pri-census-lang
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.35
+    sourceId: pri-census-lang
+timezones:
+  - name: America/Puerto_Rico
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+# Uses the United States dollar (USD) as its sole official currency. As an
+# unincorporated U.S. territory, the Federal Reserve's USD circulates freely.
+currency:
+  code: USD
+  symbol: "$"
+  name: United States dollar
+legalConstraints:
+  - topic: "official languages"
+    description: "Spanish and English are the official languages of the executive branch of the Puerto Rico government. Spanish is the dominant language of daily life, education and the media; English is used alongside it in federal and business contexts. Government documents and services are routinely provided bilingually."
+    sourceId: pri-constitution-lang
+  - topic: "consumption tax (IVU / IVA)"
+    description: "Puerto Rico levies a state sales and use tax ('Impuesto sobre Ventas y Uso', IVU) administered by the Departamento de Hacienda; the combined state and municipal sales tax rate was raised to 11.5% as of the late 2010s. Unlike most U.S. states, the price shown to consumers includes the IVU. There is no separate federal U.S. sales tax; there is also no general VAT of the European type on the island."
+    sourceId: pri-tax-hacienda
+  - topic: "data protection / privacy"
+    description: "Puerto Rico enacted a data-breach notification statute tied to personal information, and there is no general GDPR-style omnibus national data-protection law on the island. As a U.S. territory, U.S. federal laws and certain U.S. state-law practices inform the privacy landscape; businesses handling personal data should confirm current local requirements."
+    sourceId: pri-privacy
+# paymentMethodShares intentionally omitted: no official island-wide consumer
+# payment-method split (cash vs card vs mobile) is published by the Departmento
+# de Hacienda or the U.S. to Puerto Rico; observed reality is heavy card and
+# contactless use (U.S. EMV norms) with cash still common at small merchants and
+# in informal markets. Described qualitatively below.
+paymentCulture:
+  popularMethods:
+    - "Credit and debit cards (Visa/Mastercard/Amex widely accepted, chip+PIN/contactless)"
+    - "Mobile payments (Apple Pay, Google Pay, and local ATH-PR / popular wallets)"
+    - "Cash (U.S. dollar) — still used at small shops, kiosks, street vendors and informal markets"
+    - "Some ATH (A Toda Hora) network ATM/debit use"
+  tipping:
+    expected: true
+    typicalAmount: "15-20% in restaurants; ~10% for taxis and other personal services"
+    autoIncludedInBill: true
+    note: "As in the U.S. mainland, a service charge or gratuity is frequently auto-included for large parties or added as a line item; otherwise tipping 15-20% in sit-down restaurants and a few dollars to bellhops/housekeeping is standard."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Direct and warm; Puerto Ricans combine North American directness with a notably warm, expressive Latin American style. First names are common once acquainted; honorifics (Señor/Señora, Don/Doña) are used respectfully with elders and officials. Bilingualism (Spanish primary, English widely understood) means code-switching is common."
+  greetingNorms: "A warm greeting is essential; 'Buenos días / Buenas tardes' (or English) upon entering a room, a handshake in formal settings, and cheek-kissing (often two) or a hug among friends/family. '¿Cómo estás?' / 'How are you?' is a real question, not rhetorical."
+  meetingEtiquette: "Business meetings typically open with polite small talk before getting down to matters; relationships matter. Punctuality is valued in formal business, though a somewhat relaxed 'island time' may appear socially. Business casual is standard; formal attire at senior/govt functions."
+  topicsToAvoid:
+    - "The unresolved political status / relationship with the United States (a sensitive and charged topic)"
+    - "Casual stereotyping of 'island time'"
+  giftGivingNotes: "Gifts are welcome though not expected in business; a modest token (gourmet coffee, rum, artisanal craft) when hosted is appreciated. Offer with both hands; recipients typically open gifts privately."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: pri-constitution-lang
+    name: "Official languages of Puerto Rico — Spanish and English at the executive branch"
+    publisher: "Commonwealth of Puerto Rico (official information) / Composite estimate"
+    url: "https://en.wikipedia.org/wiki/Puerto_Rico"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Confirms Spanish and English as official languages, with Spanish predominating."
+  - id: pri-census-lang
+    name: "Language spoken at home — U.S. Census Bureau / ACS for Puerto Rico"
+    publisher: "Composite estimate"
+    url: "https://www.census.gov"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "~94% speak Spanish at home (est.); English, while official, is a home language for a small minority. FLAGGED ESTIMATE — ACS self-report rounding."
+  - id: pri-tax-hacienda
+    name: "Sales and Use Tax (IVU) — Departamento de Hacienda de Puerto Rico"
+    publisher: "Departamento de Hacienda de Puerto Rico"
+    url: "https://hacienda.pr.gov"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Combined state+municipal IVU of 11.5%; price generally shown inclusive of tax."
+  - id: pri-privacy
+    name: "Data protection landscape — Puerto Rico (no omnibus GDPR-style law; breach-notification statute)"
+    publisher: "DLA Piper Data Protection Laws of the World / Composite estimate"
+    url: "https://www.dlapiperdataprotection.com"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Flags the island's breach-notification statute and absence of a general omnibus data-protection law."

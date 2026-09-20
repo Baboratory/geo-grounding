@@ -1,0 +1,96 @@
+code: WHOLE
+name:
+  eng: Puerto Rico
+  local:
+    - languageCode: spa
+      value: Puerto Rico
+climates:
+  - koppenCode: Am
+    description: Tropical monsoon / marine trade-wind climate; warm and humid year-round (78-85°F typical), with a distinct wetter season May-November and a drier, sunnier season roughly December-April. Trade winds moderate the heat; the island's mountainous interior (e.g. El Yunque) is cooler and far rainier than the coasts.
+landmarks:
+  - name: El Yunque National Forest
+    description: The only tropical rainforest in the U.S. National Forest System, covering the Luquillo mountains in the northeast, with hiking trails, waterfalls and endemic species.
+  - name: Old San Juan
+    description: A 500-year-old walled colonial city with colorful Spanish colonial architecture, the forts of El Morro and San Cristóbal, and cobblestone streets.
+  - name: Bioluminescent Bays
+    description: Mosquito Bay (Vieques) and Laguna Grande (Fajardo) — glowing bioluminescent bays famed as among the brightest in the world.
+culturalTraits:
+  - A vibrant Hispanic-Caribbean culture blending Taíno, African, Spanish and U.S. influences
+  - The Spanish language and its distinct Puerto Rican dialect
+  - Bomba and plena music and dance (UNESCO-listed heritage traditions)
+  - The holiday season running from Thanksgiving into January (including the 'parrandas' house-visit tradition)
+prideOf:
+  - The Spanish language and Puerto Rican identity (boricua)
+  - El Morro and the walled city of Old San Juan
+  - The taíno heritage and the coquí frog
+  - World-class musicians (salsa, reggaetón) and athletes
+animals:
+  popular:
+    - Coquí frog (Eleutherodactylus coqui)
+    - Puerto Rican parrot (Amazona vittata)
+    - Manatee
+  unique:
+    - Puerto Rican boa (Chilabothrus inornatus)
+    - West Indian manatee (Trichechus manatus)
+industries:
+  - Tourism and hospitality (a leading economic sector)
+  - Pharmaceutical and medical-device manufacturing (historically a major 'pharma island' hub)
+  - Financial services and professional services
+  - Agriculture (coffee, plantains, rum production)
+sports:
+  - Baseball (a deeply rooted passion, incl. the annual 'Criollos' league)
+  - Basketball (Baloncesto Superior Nacional)
+  - Boxing and other combat sports
+  - Volleyball and track & field
+entertainment:
+  - season: allYear
+    items:
+      - Salsa, bomba and plena music nights and festivals
+      - The San Sebastián Street Festival in Old San Juan (January)
+      - Reggaetón and urban music scene
+traditionalDishes:
+  - season: allYear
+    items:
+      - Mofongo (mashed fried plantains with garlic and pork crackling)
+      - Arroz con gandules (rice with pigeon peas)
+      - Lechón asado (roast suckling pig at celebrations)
+      - Pasteles (mashed-root meat pies in banana leaves) and coquito (coconut-rum holiday drink)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Colorful 'traje típico'/jibaro folk attire at festivals (embroidered shirt and straw hat for men; flowing patterned skirt and hair flowers for women)
+      - Modern, fashion-forward Caribbean casual and formal wear
+# Seasons are not the temperate four. Warm and humid year-round, Puerto Rico
+# splits into a drier, sunnier period (~December-April) and a wetter, hurricane-
+# prone rainy season (~June-November). Calendar uses the wet/dry partition:
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  lunchBreakTiming: "Lunch is typically 12:00-14:00; many offices and government services close for a lunch hour, though retail and tourist areas stay open through."
+  typicalWorkHours: "Typical office hours roughly 08:00/09:00-17:00 Mon-Fri. Some business slows on Friday afternoon; retail often extends weekend hours along tourist corridors."
+  restDays:
+    - saturday
+    - sunday
+  notes: "The island does not observe daylight saving time — it stays on Atlantic Standard Time (UTC-4) year-round, matching U.S. Eastern Daylight Time in the summer. Government and many professional offices close for numerous public holidays."
+sources:
+  - id: pri-forest
+    name: "El Yunque National Forest (U.S. Forest Service)"
+    publisher: "U.S. Forest Service"
+    url: "https://www.fs.usda.gov/elyunque"
+    accessedDate: "2026-09-20"
+    note: "Basis for the El Yunque rainforest landmark and the island's climate contrast interior vs coasts."
+  - id: pri-tourism
+    name: "Puerto Rico tourism and culture (Discover Puerto Rico)"
+    publisher: "Discover Puerto Rico (official tourism marketing)"
+    url: "https://www.discoverpuertorico.com"
+    accessedDate: "2026-09-20"
+    note: "Cultural traits, cuisine and bioluminescent-bay landmarks."
+  - id: pri-unesco-bomba
+    name: "UNESCO Intangible Heritage — bomba and plena"
+    publisher: "UNESCO"
+    url: "https://ich.unesco.org"
+    accessedDate: "2026-09-20"
+    note: "Documents bomba and plena as communal, participatory traditions rooted in Afro-Puerto Rican communities."
