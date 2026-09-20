@@ -1,0 +1,176 @@
+alpha3: CUW
+alpha2: CW
+name:
+  eng: Curaçao
+  local:
+    - languageCode: nld
+      value: Curaçao
+    - languageCode: pap
+      value: Kòrsou
+flagEmoji: "🇨🇼"
+capital: Willemstad
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Language official-status basis: the Constitution of Curaçao (Staatsregeling,
+# in force 10 October 2010 on the dissolution of the Netherlands Antilles)
+# recognises Papiamentu, Dutch and English as official languages; Dutch is used
+# for most administration and legal matters while Papiamentu is the everyday
+# first language of the large majority. (The local spelling of the language in
+# Curaçao is 'Papiamentu'; the ISO 639-3 code pap is the same language as
+# Aruba's 'Papiamento'.)
+languageUsage:
+  - languageCode: pap
+    domain: official
+    speakersShare: 1.0
+    sourceId: cuw-constitution
+  - languageCode: nld
+    domain: official
+    speakersShare: 1.0
+    sourceId: cuw-constitution
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: cuw-constitution
+  # 2001 census (most recent with a widely cited mother-tongue table):
+  # Papiamentu was the first language of ~81.2%, Dutch ~8%, Spanish ~4%,
+  # English ~2.9%. Figures for locallySpoken are drawn from that census and
+  # flagged accordingly.
+  - languageCode: pap
+    domain: locallySpoken
+    speakersShare: 0.812
+    sourceId: cuw-census-2001
+  - languageCode: nld
+    domain: locallySpoken
+    speakersShare: 0.08
+    sourceId: cuw-census-2001
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: cuw-census-2001
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.029
+    sourceId: cuw-census-2001
+ethnicGroups:
+  - group: Curaçaoan
+    percent: 75.4
+    sourceId: cuw-census-2011-ethnic
+  - group: Dutch
+    percent: 9.0
+    sourceId: cuw-census-2011-ethnic
+  - group: Dominican
+    percent: 3.6
+    sourceId: cuw-census-2011-ethnic
+  - group: Colombian
+    percent: 3.0
+    sourceId: cuw-census-2011-ethnic
+  - group: Bonairean, Sint Eustatian, Saban
+    percent: 1.5
+    sourceId: cuw-census-2011-ethnic
+  - group: Haitian
+    percent: 1.2
+    sourceId: cuw-census-2011-ethnic
+  - group: Surinamese
+    percent: 1.2
+    sourceId: cuw-census-2011-ethnic
+  - group: Venezuelan
+    percent: 1.1
+    sourceId: cuw-census-2011-ethnic
+  - group: Aruban
+    percent: 1.1
+    sourceId: cuw-census-2011-ethnic
+  - group: Other / unspecified
+    percent: 5.9
+    sourceId: cuw-census-2011-ethnic
+# religions intentionally omitted at country level: figures are only
+# approximate and adult-affiliation figures vary by survey source; Roman
+# Catholic is the large majority and a substantial Protestant minority
+# exists, but per the no-unsourced-stats rule they are captured qualitatively
+# at region level where citable.
+timezones:
+  - name: America/Curacao
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+# Uses the Caribbean guilder (XCG), introduced 31 March 2025 and replacing the
+# Netherlands Antillean guilder (ANG), issued by the Central Bank of Curaçao
+# and Sint Maarten (CBCS). Pegged to the US dollar at 1 USD = 1.79 XCG.
+currency:
+  code: XCG
+  symbol: "Cg"
+  name: Caribbean guilder
+legalConstraints:
+  - topic: "consumption tax (OB) and price display"
+    description: "Curaçao levies a turnover/ad valorem consumption tax ('omzetbelasting', OB) — the standard rate is 6%. Consumer prices are generally displayed inclusive of the OB, and there is no VAT."
+    sourceId: cuw-tax
+  - topic: "official languages"
+    description: "The official languages of Curaçao are Papiamentu, Dutch and English (Constitution of Curaçao 2010). Dutch is the language of most administration, legislation and court proceedings."
+    sourceId: cuw-constitution
+  - topic: "data protection / privacy"
+    description: "Curaçao has no autonomous comprehensive data-protection law as of late 2025; processing of personal data generally follows Kingdom-of-the-Netherlands standards where applicable (and for EU-oriented processors the GDPR may engage via the Kingdom), but Curaçao is not an EU/EEA member state and has not enacted its own GDPR-style regime. Flagged for confirmation."
+    sourceId: cuw-privacy
+# paymentMethodShares intentionally omitted: no official consumer
+# payment-method share (cash vs card vs wallet) is published by CBCS. Cash is
+# historically dominant; card adoption is growing in the tourism sector.
+paymentCulture:
+  popularMethods:
+    - "Cash (Caribbean guilder and US dollar — the latter accepted widely given tourism)"
+    - "Visa and Mastercard / debit cards at hotels, restaurants and supermarkets"
+    - "Mobile/contactless payments growing at larger merchants"
+  tipping:
+    expected: true
+    typicalAmount: "10-15% in restaurants when no service charge is added"
+    autoIncludedInBill: false
+    note: "Several restaurants include a service charge on the check; otherwise 10-15% gratuity for good service is common in the hospitality trade."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Relaxed, warm and informal; first names are common among colleagues once acquainted. Formal titles and 'Mevrouw/Meneer' (Mrs./Mr., Dutch) or 'Sra./Sr.' (Papiamentu) are used with strangers, officials and in formal written communication."
+  greetingNorms: "A friendly greeting — a handshake among men, and between acquaintances often a kiss on both cheeks or a hug. 'Bon dia' (good morning) / 'Bon tardi' (good afternoon) in Papiamentu, or Dutch/English greetings, are all received well."
+  meetingEtiquette: "Punctuality is appreciated but flexibility ('island time') is reasonably common outside formal meetings. Business meetings are typically cordial with small talk up front; relationship and trust matter and decisions can take a couple of rounds. Dress is smart-casual."
+  topicsToAvoid:
+    - "Politics and the constitutional relationship with the Netherlands"
+    - "The oil refinery / environmental controversies (a point of island sensitivity)"
+  giftGivingNotes: "Gifts are not expected in business; if invited to a home, a modest gift (flowers, chocolates) is appreciated. Offer and receive with the right hand."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cuw-constitution
+    name: "Staatsregeling van Curaçao (Constitution of Curaçao, in force 10 October 2010)"
+    publisher: "Government of Curaçao (Overheid van Curaçao)"
+    url: "https://www.gobiernu.cw"
+    year: 2010
+    accessedDate: "2026-09-20"
+    note: "Legal basis for Papiamentu, Dutch and English as official languages."
+  - id: cuw-census-2001
+    name: "Curaçao census 2001 language tables"
+    publisher: "Central Bureau of Statistics Curaçao (CBS)"
+    url: "https://www.cbs.cw"
+    year: 2001
+    accessedDate: "2026-09-20"
+    note: "Mother-tongue shares: Papiamentu 81.2%, Dutch 8%, Spanish 4%, English 2.9%. The most recent census with a widely published mother-tongue table; flagged as older data."
+  - id: cuw-census-2011-ethnic
+    name: "Curaçao population by nationality/ethnic origin (2011 estimate)"
+    publisher: "Central Bureau of Statistics Curaçao (CBS)"
+    url: "https://www.cbs.cw"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "Ethnic/nationality breakdown used for ethnicGroups shares."
+  - id: cuw-tax
+    name: "Taxation of Curaçao — omzetbelasting (OB) consumption tax"
+    publisher: "Belastingdienst Curaçao / tax administration"
+    url: "https://www.belastingdienst-cw.com"
+    year: 2024
+    note: "Standard 6% OB rate and price-display note."
+  - id: cuw-privacy
+    name: "Data protection landscape — Curaçao (no autonomous national data-protection law)"
+    publisher: "DLA Piper Data Protection Laws of the World / Composite estimate"
+    url: "https://www.dlapiperdataprotection.com"
+    year: 2025
+    note: "Flags the absence of an autonomous comprehensive data-protection regime."
+  - id: cuw-iso639-pap
+    name: "ISO 639-3 Registration Authority code pap (Papiamento)"
+    publisher: "SIL International"
+    url: "https://iso639-3.sil.org/code/pap"
+    note: "Confirms pap = the Papiamento/Papiamentu language used across the ABC islands."

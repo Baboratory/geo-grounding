@@ -1,0 +1,96 @@
+code: WHOLE
+name:
+  eng: Aruba
+  local:
+    - languageCode: nld
+      value: Aruba
+    - languageCode: pap
+      value: Aruba
+climates:
+  - koppenCode: BSh
+    description: Hot semi-arid (tropical marine-trade-wind) climate; dry, sunny and warm year-round, moderated by the northeast trade winds. Far less rainfall than most Caribbean islands, with a brief wetter season Oct-Dec.
+landmarks:
+  - name: Arikok National Park
+    description: The island's largest protected area, covering ~18% of Aruba with limestone hills, dramatic coastline, caves and historic plantations.
+  - name: California Lighthouse
+    description: Iconic white lighthouse on the northern tip overlooking the sea.
+  - name: Palm Beach
+    description: Tourist hub of high-rise hotels and the island's main beach strip.
+culturalTraits:
+  - Multilingual island culture (Papiamento, Dutch, English, Spanish)
+  - The Papiamento language and its oral storytelling tradition
+  - Carnival (pre-Lenten) as a major annual celebration
+  - Sociedad di Bario (neighbourhood community societies)
+prideOf:
+  - The Papiamento language
+  - Arikok National Park and the untouched north coast
+  - The divi-divi trees and the flamingoes at Bubali
+animals:
+  popular:
+    - Flamingo
+    - Conched (chocho) shells
+    - Sea turtle
+  unique:
+    - Aruban whiptail lizard (Cnemidophorus arubensis)
+industries:
+  - Tourism (the dominant economic sector)
+  - Financial services / offshore banking
+  - Petroleum transshipment (refining ended, storage continues)
+sports:
+  - Football (soccer)
+  - Baseball (a traditional colonial-era league)
+  - Sailing / watersports
+  - Balloon and card games (traditional)
+# religions intentionally omitted at region level (see country.yaml comment).
+entertainment:
+  - season: allYear
+    items:
+      - Carnival celebrations (pre-Lenten, large parades and costumed jumping-up)
+      - Bon Bini Festival (weekly folkloric show)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Keri keri (crab stew)
+      - Stobá di pisca (fish stew)
+      - Ayaca (mashed plantain / meat dumpling in banana leaves)
+      - Pastechi (savoury fried turnovers)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Musical (flared) skirt and headscarf worn by women at folkloric events
+      - The traditional 'pantsu' and 'camisa' for men on Fiesta Tumba
+# Aruba's seasons are not the temperate four. It is a semi-arid tropical
+# island with a relatively dry, breezy period most of the year and a wetter
+# rainy season roughly October to December. The calendar below uses the
+# wet/dry two-season partition per the schema.
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12]
+businessRhythm:
+  lunchBreakTiming: "Many shops and offices close for lunch roughly 12:00-13:00/14:00, though tourist-area restaurants stay open through."
+  typicalWorkHours: "Office hours are typically 08:00/09:00-16:00/17:00 Mon-Fri; retail often stays open later, and some shops open weekend mornings."
+  restDays:
+    - saturday
+    - sunday
+  notes: "Much of the business rhythm is set by the tourism economy; cruise-ship days and high season (winter) drive long opening hours in the waterfront/resort areas. Aruba does not observe daylight saving time."
+sources:
+  - id: aruba-tourisme-climate
+    name: "Aruba climate and geography"
+    publisher: "Aruba Tourism Authority (Official Tourism Site)"
+    url: "https://www.aruba.com/us/plan-your-trip/best-time-to-visit"
+    accessedDate: "2026-09-20"
+    note: "The wet/dry season split and rainfall pattern used for the seasonCalendar."
+  - id: aruba-whc
+    name: "UNESCO World Heritage — Caribbean / Aruba entries"
+    publisher: "UNESCO"
+    url: "https://whc.unesco.org"
+    accessedDate: "2026-09-20"
+    note: "Aruba has no UNESCO World Heritage-listed site as of this date; Arikok National Park is a national park (listed as a landmark, not a WHC site)."
+  - id: aruba-flamingo
+    name: "Bubali Bird Sanctuary / Aruba wildlife notes"
+    publisher: "Aruba Tourism Authority"
+    url: "https://www.aruba.com"
+    accessedDate: "2026-09-20"
+    note: "Basis for the flamingo and whiptail-lizard fauna notes."

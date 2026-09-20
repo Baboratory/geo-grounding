@@ -1,0 +1,154 @@
+alpha3: ABW
+alpha2: AW
+name:
+  eng: Aruba
+  local:
+    - languageCode: nld
+      value: Aruba
+    - languageCode: pap
+      value: Aruba
+flagEmoji: "🇦🇼"
+capital: Oranjestad
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Language official-status basis: the Aruban Constitution (Staatsregeling van
+# Aruba, effective 1 January 1986, the "Status Aparte") recognises Dutch and
+# Papiamento as the official languages. Papiamento is the everyday first
+# language of the great majority. Language/religion/ethnic figures are from
+# Aruba's Central Bureau of Statistics and official ACLO/2010 census data.
+languageUsage:
+  - languageCode: nld
+    domain: official
+    speakersShare: 1.0
+    sourceId: abw-constitution
+  - languageCode: pap
+    domain: official
+    speakersShare: 1.0
+    sourceId: abw-constitution
+  # FLAGGED ESTIMATE: official 2020 census data show ~70% of households use
+  # Papiamento as (one of) the principal home language(s); Papiamento is the
+  # common everyday language across the island. Figures are approximate.
+  - languageCode: pap
+    domain: locallySpoken
+    speakersShare: 0.70
+    sourceId: abw-cbs-2020-lang
+  - languageCode: nld
+    domain: locallySpoken
+    speakersShare: 0.45
+    sourceId: abw-cbs-2020-lang
+  # English and Spanish are widely spoken (English dominant in tourism;
+  # Spanish from Venezuelan/Colombian links and a sizeable resident
+  # community). No official proficiency census figure exists — estimates.
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.40
+    sourceId: abw-eng-est
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.33
+    sourceId: abw-spa-est
+# ethnicGroups intentionally omitted: Aruba runs the Caribbean's largest
+# ethnically-mixed population (descendants of Arawak/Carib, African, European,
+# and Asian origin, plus recent expats), but no official percentage breakdown
+# by ethnic group is published by the Central Bureau of Statistics — the
+# census and statistics office report nationality/place-of-birth, not ethnic
+# self-identification, so an ethnic chart would be unsourced.
+# religions intentionally omitted: like PyF, no reliable recent official
+# religious-affiliation percentage is published; older figures are
+# predominantly Roman Catholic with sizeable Protestant (incl. Methodist,
+# Seventh-day Adventist) and non-religious shares, but not sourced to a
+# citable statistical publication with a breakdown.
+timezones:
+  - name: America/Aruba
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+# Uses its own currency, the Aruban florin (AWG), pegged to the US dollar at a
+# fixed rate of 1 USD = 1.79 AWG since 1986, managed by the Centrale Bank van
+# Aruba (CBA). The US dollar is widely accepted informally (tourism economy).
+currency:
+  code: AWG
+  symbol: "ƒ"
+  name: Aruban florin
+legalConstraints:
+  - topic: "BBO turnover tax and price display"
+    description: "Aruba levies a turnover tax called the Belasting op Bedrijfsomzetten (BBO) on the sale of goods and services — the standard BBO rate is 1.5%; an additional 3% BBO applies to specific services (as of the 2017 reform). There is no value-added tax (VAT) on Aruba; consumer prices are typically displayed including the applicable turnover tax."
+    sourceId: abw-tax-cba
+  - topic: "official languages"
+    description: "The official languages of Aruba are Dutch and Papiamento (Constitution of Aruba, effective 1986). Dutch is the language of administration, legislation, and most legal proceedings; Papiamento is used widely in government and education alongside it."
+    sourceId: abw-constitution
+  - topic: "data protection / privacy"
+    description: "Aruba has no autonomous general data-protection law of its own as a Caribbean country of the Kingdom; for EU-relevant processing the GDPR can apply via the Kingdom's membership, but Aruba is not an EU/EEA member state — a GDPR-style national regime is not separately enacted as of late 2025. (Flagged: business processing personal data should confirm current local requirements.)"
+    sourceId: abw-privacy
+# paymentMethodShares intentionally omitted: no official consumer
+# payment-method share (cash vs card vs wallet) is published by the Centrale
+# Bank van Aruba. Observed reality is cash + card in a dollar-pegged tourism
+# economy; noted qualitatively below instead of inventing percentages.
+paymentCulture:
+  popularMethods:
+    - "Cash (Aruban florin, US dollar accepted widely) — still common at smaller merchants and street vendors"
+    - "Visa and Mastercard (widely accepted at hotels, restaurants, supermarkets, car rentals)"
+    - "Debit/ATM cards"
+    - "Contactless card/phone payments growing at larger retailers"
+  tipping:
+    expected: true
+    typicalAmount: "10-15% in restaurants when no service charge is included"
+    autoIncludedInBill: false
+    note: "Many upscale restaurants add an ~10-15% service charge to the bill; otherwise tipping ~10-15% for good service is customary in the tourism-oriented hospitality sector. Some locals round up."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Friendly, informal and warm; first-name basis is common in business once a relationship forms. Titles (Dr., Mr./Mrs.) are used formally with strangers and officials. Multingualism (Papiamento, Dutch, English, Spanish) is the norm — a switch to the visitor's language is routine."
+  greetingNorms: "A warm, sociable greeting; handshakes (often light) among men, and greeting / a nod or a kiss on the cheek between acquaintances. 'Bon dia' (good morning) / 'Bon tardi' (good afternoon) in Papiamento, or Dutch 'Goedemorgen' / English 'Good morning', all well received."
+  meetingEtiquette: "Punctuality is valued but there is some 'island time' flexibility, especially outside formal business settings. Meetings often begin with small talk and are relatively relaxed; decisions may take a few rounds and relationship-building matters. Business attire is casual-smart; light clothing."
+  topicsToAvoid:
+    - "Politics / the constitutional relationship with the Netherlands (a sensitive subject for some)"
+    - "Criticism of the island or 'island time' stereotypes"
+  giftGivingNotes: "Gifts are not a strong business expectation; if invited to a home, a modest host/guest gift (flowers, chocolates, a bottle) is appreciated. Use the right hand when passing items."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: abw-constitution
+    name: "Staatsregeling van Aruba (Constitution of Aruba), effective 1 January 1986"
+    publisher: "Government of Aruba"
+    url: "https://www.government.aw"
+    year: 1986
+    accessedDate: "2026-09-20"
+    note: "Legal basis for Dutch and Papiamento as official languages of Aruba."
+  - id: abw-cbs-2020-lang
+    name: "Aruba Census 2020 / Central Bureau of Statistics language tables"
+    publisher: "Central Bureau of Statistics Aruba (CBS)"
+    url: "https://cbs.aw"
+    year: 2020
+    accessedDate: "2026-09-20"
+    note: "Household language data: Papiamento is the principal home language of the large majority (~70%); Dutch ~ used by a substantial minority (~45% report using it at home or in work contexts). FLAGGED ESTIMATE — exact household-language percentages vary by table and rounding."
+  - id: abw-eng-est
+    name: "English usage in Aruba — estimated (tourism economy)"
+    publisher: "Composite estimate"
+    url: "https://cbs.aw"
+    year: 2024
+    note: "FLAGGED ESTIMATE: English is dominant in the tourism sector and widely understood; no official proficiency census figure exists."
+  - id: abw-spa-est
+    name: "Spanish usage in Aruba — estimated (Venezuelan/Colombian community and regional links)"
+    publisher: "Composite estimate"
+    url: "https://cbs.aw"
+    year: 2024
+    note: "FLAGGED ESTIMATE: Spanish is widely spoken given proximity and resident communities; no official figure exists."
+  - id: abw-tax-cba
+    name: "Taxation of Aruba — Belasting op Bedrijfsomzetten (BBO)"
+    publisher: "Centrale Bank van Aruba (CBA) / tax administration"
+    url: "https://cbaruba.org"
+    year: 2024
+    note: "BBO standard rate and the general absence of VAT on Aruba; consumer-price display incl. turnover tax."
+  - id: abw-privacy
+    name: "Data protection landscape — Aruba (no autonomous national data-protection law)"
+    publisher: "DLA Piper Data Protection Laws of the World / Composite estimate"
+    url: "https://www.dlapiperdataprotection.com"
+    year: 2025
+    note: "Flags that no separate GDPR-style national regime is enacted for Aruba; processing implications."
+  - id: abw-iso639-pap
+    name: "ISO 639-3 Registration Authority code pap (Papiamento)"
+    publisher: "SIL International"
+    url: "https://iso639-3.sil.org/code/pap"
+    note: "Confirms pap = Papiamento (individual language, living)."
