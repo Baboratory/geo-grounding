@@ -1,0 +1,186 @@
+alpha3: NLD
+alpha2: NL
+name:
+  eng: Netherlands
+  local:
+    - languageCode: nld
+      value: Nederland
+flagEmoji: "🇳🇱"
+capital: Amsterdam
+isSovereign: true
+# Classified unitary-small: the Netherlands is a unitary parliamentary
+# constitutional monarchy (the constitution establishes a decentralised
+# unitary state of twelve provinces). West Frisian holds official regional
+# status in the province of Friesland, but the state itself is neither
+# federal nor does it present a widely-recognised cultural-historical regional
+# divide of the scale that warrants curated sub-regions (unlike e.g. Spain or
+# Belgium), so a single synthetic whole-country region is used.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: nld
+    domain: official
+    speakersShare: 1.0
+    sourceId: dutch-constitution-art-3
+  - languageCode: nld
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: nl-cbs-mother-tongue
+  - languageCode: fry
+    domain: locallySpoken
+    speakersShare: 0.025
+    sourceId: nl-cbs-mother-tongue
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.9
+    sourceId: ef-english-proficiency-2024
+# Dutch is the sole de jure official language nationwide. West Frisian is
+# recognised as a secondary official language in the province of Friesland
+# (under the European Charter for Regional or Minority Languages), spoken by
+# roughly 450-470 thousand people (about 2.5% of the Dutch population, and a
+# majority within Friesland itself); it is listed as locallySpoken rather than
+# official because its status is regional and territorial, not nationwide.
+ethnicGroups:
+  - group: Dutch
+    percent: 72.0
+    sourceId: nl-cbs-background-origin
+  - group: Other European
+    percent: 9.2
+    sourceId: nl-cbs-background-origin
+  - group: Turkish
+    percent: 2.5
+    sourceId: nl-cbs-background-origin
+  - group: Moroccan
+    percent: 2.3
+    sourceId: nl-cbs-background-origin
+  - group: Indonesian
+    percent: 2.0
+    sourceId: nl-cbs-background-origin
+  - group: Surinamese
+    percent: 2.0
+    sourceId: nl-cbs-background-origin
+  - group: Dutch Caribbean
+    percent: 1.1
+    sourceId: nl-cbs-background-origin
+  - group: Other
+    percent: 8.9
+    sourceId: nl-cbs-background-origin
+timezones:
+  - name: Europe/Amsterdam
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer, not a pre-tax figure)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data (names, emails, browsing/behavioral data, etc.) requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure ('right to be forgotten') — the EU-wide GDPR, directly applicable in the Netherlands."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge — independent of and in addition to any commercial/manufacturer warranty."
+    sourceId: eu-directive-2019-771
+paymentMethodShares:
+  - method: "iDEAL (share of online purchases)"
+    percent: 72.0
+    sourceId: dnb-payments-2023
+  - method: "card or device (share of point-of-sale payments)"
+    percent: 80.0
+    sourceId: dnb-payments-2023
+  - method: cash (share of point-of-sale payments)
+    percent: 20.0
+    sourceId: dnb-payments-2023
+paymentCulture:
+  popularMethods:
+    - "iDEAL — the dominant Dutch online payment method, a domestic bank-transfer-based scheme used for roughly three quarters of e-commerce purchases"
+    - "Debit cards (mostly Maestro and V-Pay branded, increasingly contactless) — dominant at physical points of sale"
+    - "Contactless mobile payments via phone and smartwatch"
+    - "Credit cards — used more for cross-border and online travel than daily domestic spending"
+  tipping:
+    expected: false
+    autoIncludedInBill: true
+    typicalAmount: "Tipping is not expected; service charges are usually included in the price. Rounding up the bill or leaving small change in a café is appreciated but entirely optional."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Direct and egalitarian. Dutch people use 'je/jij' informally and 'u' for formal address or older people; many switch to first names quickly even in professional settings. Titles are used mainly in formal or academic contexts."
+  greetingNorms: "A firm handshake with direct eye contact is standard in business. Among friends and in more casual settings, a single kiss on each cheek (or sometimes three) is common, though a handshake is always safe."
+  meetingEtiquette: "Punctuality is expected and valued. Meetings are direct, egalitarian and efficient; rank is downplayed and everyone is expected to speak up. Decisions are often made by consensus after open discussion. Business cards are exchanged casually."
+  topicsToAvoid:
+    - "Income and personal finances"
+    - "Overly personal questions before trust is established"
+  giftGivingNotes: "Not expected at a first business meeting. If invited to a Dutch home, a small gift such as wine, flowers (avoid white flowers, linked with funerals), or chocolates is appreciated. Gifts are usually opened immediately when received."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: dutch-constitution-art-3
+    name: "Grondwet voor het Koninkrijk der Nederlanden, Art. 3 (official language)"
+    publisher: "Government of the Netherlands (wetten.overheid.nl)"
+    url: "https://wetten.overheid.nl/BWBR0001840"
+    accessedDate: "2026-09-20"
+    note: "Article 3 of the Constitution provides that the Dutch language is the official language of the Netherlands, and that Acts and regulations may also be made in Frisian in the province of Friesland and in Papiamentu/English in the Caribbean public entities."
+  - id: nl-cbs-mother-tongue
+    name: "Statistics Netherlands (CBS): Dutch and minority languages by mother tongue"
+    publisher: "Centraal Bureau voor de Statistiek (Statistics Netherlands)"
+    url: "https://www.cbs.nl/en-gb"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Dutch is the first language of roughly 95% of the population. West Frisian is spoken by about 450-470 thousand people (~2.5%), mostly in Friesland; shares are rounded estimates derived from CBS mother-tongue statistics and the Frisian Academy (Fryske Akademy)."
+  - id: ef-english-proficiency-2024
+    name: "EF English Proficiency Index 2024 (Netherlands score)"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "The Netherlands ranks first globally with a 'very high proficiency' score (636); roughly 90-95% of the population speaks English. The ~0.9 figure is an estimate; no official percentage exists."
+  - id: nl-cbs-background-origin
+    name: "CBS: Population by migration background (2024)"
+    publisher: "Centraal Bureau voor de Statistiek (Statistics Netherlands)"
+    url: "https://www.cbs.nl/en-gb/visualisations/dashboard-population/population-by-migration-background"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "2024 ethnic/background composition of the population (by origin): Dutch 72.0%, other European 9.2%, Turkish 2.5%, Moroccan 2.3%, Indonesian 2.0%, Surinamese 2.0%, Dutch Caribbean 1.1%, other 8.9%."
+  - id: dnb-payments-2023
+    name: "Point of sale payments in 2023 and Dutch Payments Association facts & figures"
+    publisher: "De Nederlandsche Bank (DNB) / Betaalvereniging (Dutch Payments Association)"
+    url: "https://www.dnb.nl"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "At Dutch points of sale in 2023, 80% of payments were made by card or device and 20% in cash. iDEAL covered about 72% of online purchases (roughly three quarters of the Dutch e-commerce market)."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-20"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in the Netherlands as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in the Netherlands as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the GDPR data-protection rules applying to personal-data collection/processing in the Netherlands as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."

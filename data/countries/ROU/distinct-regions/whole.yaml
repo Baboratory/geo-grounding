@@ -1,0 +1,103 @@
+code: WHOLE
+name:
+  eng: Romania
+  local:
+    - languageCode: ron
+      value: România
+climates:
+  - koppenCode: Dfb
+    description: "Continental climate over most of the country with warm summers and cold winters; the Danube delta and Black Sea coast are milder (Cfb/Cfa) and the Carpathians are cooler and wetter."
+landmarks:
+  - name: Palace of the Parliament (Palatul Parlamentului)
+    description: "Grand Neoclassical legislative building in Bucharest, the seat of Romania's Chamber of Deputies."
+  - name: Bran Castle ("Dracula's Castle")
+    description: "Historic hilltop castle in the village of Bran, often associated in popular culture with Vlad the Impaler (the historical Dracula); an atmospheric Gothic-Romantic ruin."
+  - name: Painted churches of northern Moldavia
+    description: "Eight medieval painted Orthodox churches in northern Moldavia, celebrated for their frescoes."
+    unescoWorldHeritage: true
+  - name: Fortified churches of Transylvania
+    description: "Seven fortified medieval churches in southern Transylvania, built for defence against Ottoman raids."
+    unescoWorldHeritage: true
+  - name: Danube Delta
+    description: "One of Europe's largest wetlands and a haven for hundreds of bird species."
+culturalTraits:
+  - Deep Orthodox Christian tradition and name-day celebrations
+  - Warm, relationship-driven hospitality (coffee and small talk before business)
+  - Rich folk music and dance (hora) heritage
+prideOf:
+  - The Dracula legend and Transylvanian Gothic heritage
+  - Romanian gymnastics and its Olympic champions
+  - Traditional cuisine and wine (Friști, Cotnari)
+animals:
+  popular:
+    - Brown bear
+    - Golden eagle
+  unique:
+    - European bison (reintroduced)
+industries:
+  - IT and software development (a major outsourcing hub)
+  - Automotive manufacturing (Dacia)
+  - Agriculture and wine
+  - Textiles
+sports:
+  - Football (soccer)
+  - Tennis
+  - Gymnastics
+  - Handball
+  - Basketball
+religions:
+  - name: Romanian Orthodox
+    percent: 85.3
+    sourceId: ro-census-2021
+  - name: Roman Catholic
+    percent: 4.5
+    sourceId: ro-census-2021
+  - name: Protestant (Reformed and Pentecostal)
+    percent: 5.5
+    sourceId: ro-census-2021
+  - name: Other / not stated
+    percent: 4.7
+    sourceId: ro-census-2021
+entertainment:
+  - season: summer
+    items:
+      - Open-air traditional music and folk festivals
+      - Beach season on the Black Sea coast (Constanța and Mamaia)
+  - season: winter
+    items:
+      - Christmas markets (Bucharest, Brașov, Sighisoara)
+      - New Year celebrations
+traditionalDishes:
+  - season: allYear
+    items:
+      - Sarmale (cabbage rolls in fermented leaves, served with mămăligă and sour cream)
+      - Mămăligă (Romanian polenta)
+      - Ciorbă de burtă (tripe soup)
+  - season: winter
+    items:
+      - Cozonac (sweet braided bread, at Christmas and Easter)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Traditional embroidered folk costumes (ia / native blouse and skirt), worn at festivals and folk events
+seasonCalendar:
+  - season: spring
+    months: [4, 5, 6]
+  - season: summer
+    months: [7, 8, 9]
+  - season: autumn
+    months: [10, 11, 12]
+  - season: winter
+    months: [1, 2, 3]
+businessRhythm:
+  restDays: []
+  notes: "There is no nationwide legal restriction on retail trading days. Most shops open around 8:00-9:00am and close 7:00-9:00pm on weekdays, with shorter Saturday hours and reduced Sunday hours in some cities. Offices typically run 9:00am-6:00pm, Monday-Friday."
+  typicalWorkHours: "Standard office hours are roughly 9:00am-6:00pm, Monday-Friday, with a lunch break."
+sources:
+  - id: ro-census-2021
+    name: "Recensământul 2021 (Census 2021): religious composition"
+    publisher: "Institutul Național de Statistică (National Institute of Statistics, INS)"
+    url: "https://www.insse.ro/cns/cms/en"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Religious affiliation among census respondents: Romanian Orthodox 85.3%, Roman Catholic 4.5%, Reformed 3.0%, Pentecostal 2.5% (Protestant total ~5.5%), other 4.7%; about 13.9% did not respond."
