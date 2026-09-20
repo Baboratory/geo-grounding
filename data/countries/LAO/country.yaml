@@ -1,0 +1,160 @@
+alpha3: LAO
+alpha2: LA
+name:
+  eng: Laos
+  local:
+    - languageCode: lao
+      value: ລາວ
+flagEmoji: "🇱🇦"
+capital: Vientiane
+isSovereign: true
+# Classified unitary-small: population ~7.95M (2024 est.) is under the threshold, and although
+# Laos has many minority languages (Khmu, Hmong and others), they are national-level statuses
+# and ethnographic groups, not the basis of a widely-recognized cultural-historical regional
+# identity divide. Lao is the single official and national language. So: a single country-wide
+# WHOLE entry.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: lao
+    domain: official
+    speakersShare: 1.0
+    sourceId: census2015
+  - languageCode: lao
+    domain: locallySpoken
+    speakersShare: 0.8
+    sourceId: statedept
+  - languageCode: kjg
+    domain: locallySpoken
+    speakersShare: 0.11
+    sourceId: census2015
+  - languageCode: hmn
+    domain: locallySpoken
+    speakersShare: 0.092
+    sourceId: census2015
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.04
+    sourceId: composite
+ethnicGroups:
+  - group: "Lao (Tai-Kadai)"
+    percent: 53.2
+    sourceId: census2015
+  - group: "Khmu (Mon-Khmer)"
+    percent: 11.0
+    sourceId: census2015
+  - group: "Hmong (Hmong-Mien)"
+    percent: 9.2
+    sourceId: census2015
+  - group: "Other (over 100 recognized ethnic groups)"
+    percent: 26.6
+    sourceId: census2015
+timezones:
+  - name: Asia/Vientiane
+    standardUtcOffset: "UTC+7"
+    observesDst: false
+currency:
+  code: LAK
+  symbol: "₭"
+  name: Lao kip
+legalConstraints:
+  - topic: "consumer rights"
+    description: "Consumer rights are governed by the Law on Consumer Protection No. 02/NA (30 June 2010), which protects consumers from unsafe or misleading products and services and provides avenues for complaint and redress in distance and in-person commerce."
+    sourceId: laotrade-cp
+  - topic: "price display and currency"
+    description: "The Tax Law (as amended) applies a standard 10% Value-Added Tax, with reduced 5% and 0% rates for certain goods and services. Prices are displayed and settled in Lao kip (LAK), the sole legal tender issued by the Bank of the Lao PDR."
+    sourceId: wipo-tax
+  - topic: "data protection"
+    description: "The Law on Electronic Data Protection No. 25/NA (12 May 2017) regulates the collection, processing and transfer of electronic personal data, requiring consent-based handling of personal information. It applies to agents processing Lao residents' personal data."
+    sourceId: dlapiper
+paymentCulture:
+  popularMethods:
+    - "Cash (Lao kip), dominant for everyday transactions"
+    - "Quick-response mobile payments (Lao QR codes via bank apps such as LDB and BCEL)"
+    - "Bank cards (ATM debit mostly in cities; credit cards uncommon outside big hotels and airlines)"
+    - "Bank transfers"
+  tipping:
+    expected: false
+    typicalAmount: "rounding up; high-end restaurants may add a 10% service charge"
+    autoIncludedInBill: false
+    note: "Tipping is not generally expected. Some upscale restaurants add a 10% service charge; rounding up the bill or leaving small change is appreciated but not required."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal, polite and indirect. Titles and the respectful form of address are used, conflict is avoided, and refusals tend to be soft ('maybe', 'we will see'). A smile and a gentle tone are valued."
+  greetingNorms: "The standard greeting is 'Sabaidee' (ສະບາຍດີ), often offered with the nop, hands pressed together at chest height with a slight bow. People greet elders and the most senior person first; avoid touching heads, which are considered sacred."
+  meetingEtiquette: "Punctuality is expected but the culture is relaxed, so lateness is tolerated. Wait to be shown where to sit; greet and seat the eldest or most senior first. Decisions tend to be slow and consensus-based, and direct confrontation is avoided."
+  topicsToAvoid:
+    - "Politics and one-party governance"
+    - "The monarchy and the royalist past"
+    - "Wartime history and external (e.g. Vietnamese) influence"
+    - "Criticism of Buddhism, monks or the Buddha"
+    - "Criticism of the government"
+  giftGivingNotes: "Gifts should be modest and are best given discreetly (public gift-giving to officials can be misread). Give and receive with both hands. Fruit, sweets and small souvenirs are appropriate."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: census2015
+    name: "Results of the Population and Housing Census 2015 (English version)"
+    publisher: "Lao Statistics Bureau (via UNFPA Lao People's Democratic Republic)"
+    url: "https://lao.unfpa.org/en/publications/results-population-and-housing-census-2015-english-version"
+    year: 2015
+    accessedDate: "2026-09-20"
+    note: "Official census: population ~6.5M (2015; ~7.95M 2024 est.); ethnic Lao (Tai-Kadai) 53.2%, Khmu 11%, Hmong 9.2%; Lao is the official and national language. Khmu (kjg) and Hmong (hmn) locally-spoken shares are derived from their ethnic shares as estimates."
+  - id: statedept
+    name: "2016 Report on International Religious Freedom: Laos"
+    publisher: "US Department of State"
+    url: "https://2021-2025.state.gov/reports/2016-report-on-international-religious-freedom/laos/"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "Reports the 2015 census religion data and the ethnic Lao share (53.2%). Basis for the ~80% locally-spoken Lao share, reflecting Lao as first language of the ethnic Lao majority and lingua franca of most minorities."
+  - id: sil
+    name: "ISO 639-3 — Lao [lao], Khmu [kjg], Hmong [hmn]"
+    publisher: "SIL International"
+    url: "https://iso639-3.sil.org/code/lao"
+    year: 2026
+    accessedDate: "2026-09-20"
+    note: "Confirms lao (Active, 639-1 'lo', individual/living), kjg Khmu (individual/living) and hmn (macrolanguage covering the Hmong lects)."
+  - id: unesco
+    name: "UNESCO World Heritage Centre — Lao People's Democratic Republic properties"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/la"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Town of Luang Prabang (1995), Vat Phou and Associated Ancient Settlements within the Champasak Cultural Landscape (2001), Megalithic Jar Sites in Xiengkhuang (Plain of Jars, 2019)."
+  - id: laotrade-cp
+    name: "Law on Consumer Protection No. 02/NA (30 June 2010)"
+    publisher: "Lao People's Democratic Republic Trade Portal, Ministry of Industry and Commerce"
+    url: "https://laotradeportal.gov.la/en-gb/site/display/1456"
+    year: 2010
+    accessedDate: "2026-09-20"
+    note: "Official text establishing consumer-protection rights and obligations."
+  - id: wipo-tax
+    name: "Tax Law (Lao People's Democratic Republic), as amended 2005"
+    publisher: "World Intellectual Property Organization (WIPO Lex)"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/5963"
+    year: 2005
+    accessedDate: "2026-09-20"
+    note: "Official law text: standard VAT of 10%, with reduced 5% and 0% rates. The VAT rate was temporarily cut to 7% (January 2022) and restored to 10% in 2024."
+  - id: dlapiper
+    name: "Data Protection Laws of the World — Laos"
+    publisher: "DLA Piper"
+    url: "https://www.dlapiperdataprotection.com/index.html?c=LA&t=law"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Describes the Law on Electronic Data Protection No. 25/NA (12 May 2017) governing processing of electronic personal data."
+  - id: bol
+    name: "Bank of the Lao PDR"
+    publisher: "Bank of the Lao PDR (central bank)"
+    url: "https://www.bol.gov.la"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Central bank; the Lao kip (LAK) is the sole legal tender."
+  - id: composite
+    name: "Composite estimate (IANA time-zone data, climate references, tourism and cultural context)"
+    publisher: "Composite estimate"
+    url: "https://www.iana.org/time-zones"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Asia/Vientiane is UTC+7 with no DST (IANA). The ~4% English foreign-language share is a rough estimate of English's limited everyday role (mainly tourism and some business), not an official statistic."

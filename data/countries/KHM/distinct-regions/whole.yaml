@@ -1,0 +1,153 @@
+code: WHOLE
+name:
+  eng: Cambodia
+  local:
+    - languageCode: khm
+      value: កម្ពុជា
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate typical of the central lowlands and the Mekong plain: pronounced wet and dry seasons, with a hot rainy season (May to October) and a cooler, drier period (November to April)."
+  - koppenCode: Am
+    description: "Tropical monsoon climate in parts of the coast and the southwestern mountains, where the southwest monsoon brings heavy rainfall in the wet season."
+landmarks:
+  - name: Angkor Archaeological Park
+    description: "UNESCO World Heritage Site (1992) containing the remains of the Khmer Empire capital (9th-15th centuries), most famously the temple of Angkor Wat, the Bayon and Ta Prohm among scores of monuments."
+    unescoWorldHeritage: true
+  - name: Temple of Preah Vihear
+    description: "An 11th-century temple complex dedicated to Shiva, perched on a cliff of the Dângrêk Mountains at the Cambodian-Thai border; inscribed as UNESCO World Heritage in 2008."
+    unescoWorldHeritage: true
+  - name: Temple Zone of Sambor Prei Kuk
+    description: "The 7th-century capital of the Chenla kingdom (Ishanapura) in central Cambodia, with more than a hundred pre-Angkorian temples of brick, sandstone and laterite; UNESCO World Heritage since 2017."
+    unescoWorldHeritage: true
+  - name: Koh Ker
+    description: "A 10th-century ancient capital of the Khmer Empire centred on the seven-tiered Prasat Thom pyramid, inscribed as UNESCO World Heritage in 2023."
+    unescoWorldHeritage: true
+  - name: Tonlé Sap Lake
+    description: "The largest freshwater lake in Southeast Asia and one of the world's most productive fishing grounds, whose waters expand dramatically with the annual monsoon reversal of the Tonlé Sap River."
+    unescoWorldHeritage: false
+culturalTraits:
+  - "Theravada Buddhism at the centre of daily life"
+  - "Deep respect for elders, hierarchy and the monarchy"
+  - "The sampeah greeting (hands pressed together with a slight bow)"
+  - "Angkor-era heritage and ancient hydraulic engineering"
+  - "Classical Apsara dance and Khmer performing arts"
+  - "Khmer New Year and Pchum Ben merit-making festivals"
+  - "Courtesy, humility and a non-confrontational social style"
+prideOf:
+  - "Angkor Wat, the world's largest religious monument, shown on the national flag"
+  - "The Khmer script and one of Southeast Asia's oldest written traditions"
+  - "Classical Khmer performing arts (Apsara and traditional music)"
+  - "Cambodian cuisine (amok, lok lak, num banh chok)"
+  - "Independence from France in 1953 and the constitutional monarchy"
+  - "The resilience and recovery of the people after the Khmer Rouge era"
+animals:
+  popular:
+    - Dogs and cats as household pets
+    - Water buffalo (draft animal of the rice economy)
+    - Asian elephants (work animals and tourism)
+    - Macaques (commonly seen near temples)
+    - Cattle (zebu)
+  unique:
+    - Kouprey (the wild ox considered Cambodia's national animal, endangered and rarely seen)
+    - Banteng (wild cattle)
+    - Eld's deer
+    - Irrawaddy dolphin (critically endangered Mekong population)
+    - Clouded leopard
+    - Hairy-nosed otter
+industries:
+  - Rice and agriculture (cassava, rubber, maize)
+  - Garments and textiles (Cambodia's largest export)
+  - Tourism
+  - Construction and real estate
+  - Banking and fintech (Bakong digital payments)
+  - Mining and quarrying (gold, gems, stone)
+  - Fishing (Tonlé Sap)
+sports:
+  - Association football (the most popular sport)
+  - Kun Khmer (traditional Cambodian kickboxing)
+  - Bokator (ancient Khmer martial art)
+  - Volleyball
+  - Traditional boxing (sey talking cheung)
+religions:
+  - name: Theravada Buddhist
+    percent: 93.0
+    sourceId: irf
+  - name: Muslim
+    percent: 2.0
+    sourceId: irf
+  - name: Christian
+    percent: 1.0
+    sourceId: irf
+  - name: "Folk/animist (primarily among indigenous highland groups)"
+    percent: 4.0
+    sourceId: irf
+entertainment:
+  - season: allYear
+    items:
+      - "Classical Apsara and traditional dance performances"
+      - "Angkor and temple-site tourism"
+      - "Modern Khmer film and drama"
+      - "Karaoke and live music"
+      - "Night markets and street food"
+      - "Football matches"
+  - season: dry
+    items:
+      - "Water Festival (Bon Om Touk) boat racing on the Tonlé Sap"
+      - "Beach and resort tourism on the southern coast"
+      - "Outdoor sightseeing in the dry, cooler months (November to February)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Amok (steamed fish in coconut-curry)"
+      - "Lok lak (stir-fried beef)"
+      - "Num banh chok (Khmer rice noodles)"
+      - "Kuy teav (noodle soup)"
+      - "Samlor korkor (prahok vegetable soup)"
+      - "Prahok (fermented fish paste)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Sampot (traditional wrapped skirt for formal and everyday wear)"
+      - "Sampot chorabap / hol (ornate ceremonial silk sampot)"
+      - "Krama (checked cotton scarf, worn on the head, neck or waist)"
+      - "Sarong (men's everyday wrap)"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday is the main rest day; government offices traditionally also give Saturday morning off (many now work Monday-Friday). The formal private sector commonly works Monday-Saturday with a Saturday half-day. Businesses slow for several days around Khmer New Year (mid-April) and for Pchum Ben (September-October)."
+  typicalWorkHours: "About 08:00-17:00 (government offices often 07:30-11:30 then 13:30-17:00); retail broadly 08:00-21:00."
+  lunchBreakTiming: "About 12:00-13:30."
+  notableShutdownPeriods:
+    - period: "Khmer New Year (Choul Chnam Thmey), mid-April"
+      description: "The largest closure of the year: offices and many businesses close for three to four days, effectively a week as people travel to their home provinces."
+    - period: "Pchum Ben, September-October"
+      description: "Ancestor-veneration holiday; government and businesses largely close for three days."
+    - period: "Chinese New Year and Buddhist holidays"
+      description: "Many shops close for several days around Chinese New Year and on major Buddhist observances such as Meak Bochea and Visak Bochea."
+sources:
+  - id: const
+    name: "Constitution of the Kingdom of Cambodia (1993, as amended)"
+    publisher: "Kingdom of Cambodia"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/1787"
+    year: 1993
+    accessedDate: "2026-09-20"
+    note: "Article 43 establishes Buddhism as the state religion."
+  - id: irf
+    name: "2023 Report on International Religious Freedom: Cambodia"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/wp-content/uploads/2024/04/547499-CAMBODIA-2023-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Religious composition: ~93% Buddhist, ~2% Muslim, ~1% Christian; the remainder (folk/animist, chiefly among indigenous highland groups) is estimated at ~4%."
+  - id: unesco
+    name: "UNESCO World Heritage Centre — Cambodia properties"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/kh"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Angkor (1992), Preah Vihear (2008), Sambor Prei Kuk (2017), Koh Ker (2023). Tonlé Sap is not a World Heritage site."

@@ -50,4 +50,11 @@ disallow_untyped_defs = true
 
 [tool.codespell]
 skip = "*.json,.git"
-ignore-words-list = "pont,gard,socio-economic,connexion,handel,sme,ore,claus,dokument,tread,som,te,parlament,ine,toke,revered,hace,oficial,flor,oriente,ake,blong,fale"
+ignore-words-list = "pont,gard,socio-economic,connexion,handel,sme,ore,claus,dokument,tread,som,te,parlament,ine,toke,revered,hace,oficial,flor,oriente,ake,blong,fale,rouge,nam,mor,boun"
+
+[tool.setuptools]
+# Data-only package: no Python modules live here, so a flat-layout auto-discovery
+# finds only top-level data directories. Declaring an empty packages list keeps
+# `pip install -e .[dev]` from failing CI with
+# "Multiple top-level packages discovered in a flat-layout".
+packages = []

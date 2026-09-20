@@ -1,0 +1,7 @@
+# No verified Khmu commonPhrases included: the dataset only ships phrase sets that are
+# either cited or uncontroversial standard greetings, and no such verified set was
+# available for Khmu at authoring time (its orthography and phraseology vary).
+code: kjg
+name:
+  eng: Khmu
+  local: Kmhmu
