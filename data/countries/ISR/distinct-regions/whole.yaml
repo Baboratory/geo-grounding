@@ -1,0 +1,133 @@
+code: WHOLE
+name:
+  eng: Israel
+  local:
+    - languageCode: heb
+      value: ישראל
+climates:
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean climate along the coastal plain and in central/northern regions — long dry hot summers and mild, wet winters (the rainy season runs roughly November to March).
+  - koppenCode: BWh
+    description: Hot desert (arid) climate in the Negev desert and around the Dead Sea/Eilat region — very hot dry summers, mild winters, minimal rainfall.
+landmarks:
+  - name: Old City of Jerusalem and its Walls
+    description: UNESCO World Heritage Site (1981) holy to Judaism, Christianity and Islam, containing the Western Wall, the Dome of the Rock and the Church of the Holy Sepulchre among some 220 historic monuments.
+    unescoWorldHeritage: true
+  - name: Masada
+    description: Rugged natural fortress above the Dead Sea where Jewish rebels made their last stand against the Romans in 73 CE; retains the most complete Roman siege works surviving today; inscribed 2001.
+    unescoWorldHeritage: true
+  - name: White City of Tel Aviv
+    description: The Modern Movement urban ensemble of Tel Aviv (Bauhaus architecture, 1930s-1950s), inscribed 2003 and one of the world's largest concentrations of International Style buildings.
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Directness and candor ('dugri' culture)"
+  - "Informality and egalitarianism (first names, casual dress)"
+  - "Strong family and community orientation"
+  - "Entrepreneurial, innovation-driven 'Start-Up Nation' ethos"
+  - "Prominent food and cafe culture (hummus, shakshuka, shawarma, fresh markets)"
+  - "Religious and cultural pluralism and diversity"
+  - "Resilience and resourcefulness ('chutzpah')"
+prideOf:
+  - "Hi-tech and cybersecurity leadership (the 'Start-Up Nation')"
+  - "The city of Jerusalem and Jewish heritage"
+  - "The Israel Defense Forces (IDF)"
+  - "Agricultural innovation and 'making the desert bloom'"
+  - "The Dead Sea and natural landmarks"
+  - "Olympic and international sporting achievements"
+  - "Israeli cuisine and food culture"
+animals:
+  popular:
+    - Dogs (very popular household pets)
+    - Cats (large feral cat population in cities)
+    - Hoopoe (national bird of Israel)
+    - Nubian ibex (iconic desert mountain goat)
+    - Goats and sheep (pastoral heritage)
+  unique:
+    - Nubian ibex (Dead Sea/Judean desert)
+    - Dorcas gazelle
+    - Caracal (desert lynx)
+    - Rock hyrax
+    - Hoopoe (state bird)
+    - Palestine sunbird and other desert-adapted species
+industries:
+  - High-tech, software and startups
+  - Cybersecurity
+  - Advanced agriculture and drip-irrigation technology
+  - Pharmaceuticals and life sciences
+  - Defense and aerospace
+  - Diamond cutting and polishing
+  - Tourism
+  - Renewable energy and innovation
+sports:
+  - Association football (soccer)
+  - Basketball (notably Maccabi Tel Aviv in European competitions)
+  - Tennis
+  - Olympic sports (sailing, judo, gymnastics, taekwondo)
+  - Marathon and endurance running
+  - Skiing/ice sports via the Canada Centre (recreational)
+religions:
+  - name: Jewish
+    percent: 73.2
+    sourceId: cbs-religion
+  - name: Muslim
+    percent: 18.0
+    sourceId: cbs-religion
+  - name: Christian
+    percent: 1.9
+    sourceId: cbs-religion
+  - name: Druze
+    percent: 1.6
+    sourceId: cbs-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Museums (Israel Museum, Tel Aviv Museum of Art, Yad Vashem, Tower of David)"
+      - "Cafes and nightlife (especially Tel Aviv)"
+      - "Food markets (Shuk Mahane Yehuda, Carmel Market)"
+      - "Festivals and concerts"
+      - "Beach promenades and seaside leisure along the Mediterranean"
+  - season: winter
+    items:
+      - "Cinema, galleries and indoor cultural events"
+      - "Winter sports/ice rinks at the Canada Centre"
+      - "Dead Sea spa and resort tourism"
+      - "Tu BiShvat and Purim celebrations (Feb-Mar)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - Falafel
+      - Hummus
+      - Shakshuka
+      - Shawarma
+      - Sabich
+      - Israeli salad
+      - Pita bread
+      - "Malabi and baklava sweets"
+  - season: spring
+    items:
+      - "Passover (Pesach) foods: matzo (unleavened bread)"
+      - Charoset
+      - "Matzo ball soup (kneidlach)"
+      - Gefilte fish
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+  notes: "The Israeli working week runs Sunday through Thursday (Sunday is a full workday). Friday is typically a short day, and much of the country closes from Friday afternoon through Saturday night for Shabbat, when most public transport stops. The autumn High Holiday cluster (Rosh Hashanah, Yom Kippur, Sukkot) produces many short weeks. Payments and most businesses resume on Saturday night/Sunday."
+  typicalWorkHours: "About 08:00/09:00 to 17:00/18:00, Sunday-Thursday; the statutory week is 42 hours and many salaried workers log closer to 45."
+sources:
+  - id: cbs-religion
+    name: "Israel Central Bureau of Statistics - population by religion (2023), as reported in US State Dept 2023 Report on International Religious Freedom"
+    publisher: "US Department of State / Israel Central Bureau of Statistics"
+    url: "https://2017-2021.state.gov/reports/2016-report-on-international-religious-freedom/israel-and-the-occupied-territories/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Approximately 73.2% Jewish, ~18% Muslim, ~1.9% Christian, ~1.6% Druze."

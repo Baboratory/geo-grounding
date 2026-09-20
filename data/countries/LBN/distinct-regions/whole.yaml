@@ -1,0 +1,116 @@
+code: WHOLE
+name:
+  eng: Lebanon
+  local:
+    - languageCode: ara
+      value: لبنان
+climates:
+  - koppenCode: Csa
+    description: "Mediterranean hot-summer climate: mild, wet winters and hot, dry summers on the coast and lower western slopes, with nearly all rain falling November-March."
+  - koppenCode: BSk
+    description: "Cold semi-arid climate in the interior (Bekaa Valley and Anti-Lebanon), which lies in the rain shadow of Mount Lebanon and has stronger seasonal temperature swings."
+landmarks:
+  - name: Baalbek
+    description: Colossal Roman sanctuary complex (Temples of Jupiter and Bacchus), among the finest examples of Imperial Roman architecture.
+    unescoWorldHeritage: true
+  - name: Tyre
+    description: Ancient Phoenician city and archaeological site (Roman baths, hippodrome, colonnaded road, necropolis), legendary birthplace of purple dye.
+    unescoWorldHeritage: true
+  - name: Byblos
+    description: One of the oldest continuously inhabited cities, a Phoenician port closely linked to the origins and diffusion of the Phoenician alphabet.
+    unescoWorldHeritage: true
+  - name: Anjar
+    description: Well-preserved Umayyad city ruins (8th century), the only Umayyad site in Lebanon.
+    unescoWorldHeritage: true
+  - name: Ouadi Qadisha (Holy Valley) and the Cedars of God (Horsh Arz el-Rab)
+    description: Sacred valley with ancient monasteries and the remnant cedar forest of the famous Cedars of Lebanon.
+    unescoWorldHeritage: true
+  - name: Jeita Grotto
+    description: Spectacular system of limestone caves near Beirut known for its huge stalactites and underground river; not on the UNESCO list.
+    unescoWorldHeritage: false
+culturalTraits:
+  - "Famous hospitality and generosity to guests, with food and coffee offered immediately"
+  - "Sharing culture: meals served as large mezze spreads to be shared communally"
+  - "Trilingualism (Arabic, French, English) and a strong cafe culture"
+  - "Strong family and clan loyalty and a deeply social, expressive communication style"
+  - "Resilience and defiance in the face of crises"
+  - "Deep attachment to music, the arts and nightlife, especially in Beirut"
+prideOf:
+  - "Phoenician heritage and Lebanon's ancient, continuous history"
+  - "Lebanese cuisine, recognized and enjoyed worldwide"
+  - "The national symbol, the Cedar of Lebanon"
+  - "Beirut's reputation as a cultural, artistic and nightlife capital of the region"
+  - "The country's resilience and famed hospitality"
+animals:
+  popular:
+    - Domestic cats
+    - Dogs
+    - "Horses (incl. Arabian horses)"
+    - Songbirds
+  unique:
+    - "Arabian leopard (critically endangered, rare)"
+    - Striped hyena
+    - Nubian ibex
+    - Wild boar
+industries:
+  - "Banking and financial services (historically a regional hub, severely disrupted by the 2019 crisis)"
+  - "Tourism (heritage sites, Mediterranean coast, mountain ski resorts)"
+  - "Agriculture and food processing (fruits, olives, olive oil, wine, vegetables)"
+  - "Construction and real estate (heavily driven by diaspora remittances)"
+  - "Remittances from the large Lebanese diaspora"
+sports:
+  - Football (soccer)
+  - Basketball
+  - "Winter sports / skiing (Mzaar Kfardebian - Faraya)"
+  - Tennis
+  - "Swimming and seaside water sports on the Mediterranean coast"
+religions:
+  - name: "Muslim (Shia)"
+    percent: 32.0
+    sourceId: lb-state-religion
+  - name: "Muslim (Sunni)"
+    percent: 31.2
+    sourceId: lb-state-religion
+  - name: "Christian (Maronite, Greek Orthodox, Melkite, Armenian, etc.)"
+    percent: 30.7
+    sourceId: lb-state-religion
+  - name: Druze
+    percent: 5.5
+    sourceId: lb-state-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Beirut nightlife and clubs"
+      - "Live music, including dabke dancing and classic Lebanese singers such as Fairuz"
+      - "Cinema and theater in Beirut"
+      - "Cafe and coffeehouse culture"
+      - "Mediterranean beach life (summer)"
+      - "Winter ski trips to the mountain resorts (Mzaar)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - Hummus
+      - Tabbouleh
+      - "Kibbeh (fried and raw kibbeh nayyeh)"
+      - Falafel
+      - Shawarma
+      - "Manakish (za'atar flatbread)"
+      - Fattoush
+      - Baba ghanoush
+      - Mujaddara
+      - Knafeh
+      - "Arak (traditional anise-flavored spirit, served with mezze)"
+      - "Extensive mezze platters"
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "The 2019-2021 financial and banking crisis, chronic electricity shortages and episodes of conflict have shortened and disrupted normal business hours; many enterprises rely on private generators and operate reduced schedules. Many businesses also close for Friday prayers or take a half-day on Friday."
+  typicalWorkHours: "Generally 09:00-17:00/18:00 Monday-Friday; retail often runs longer (09:00-19:00); banks typically about 08:30-14:00; hours vary by sector."
+sources:
+  - id: lb-state-religion
+    name: "International Religious Freedom Report: Lebanon (citing Statistics Lebanon estimates)"
+    publisher: "U.S. Department of State (Bureau of Democracy, Human Rights, and Labor)"
+    url: "https://state.gov/reports/2022-report-on-international-religious-freedom/Lebanon"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "ESTIMATES - no official census since 1932. Statistics Lebanon figures: ~69% Muslim (Sunni ~31%, Shia ~32%), ~30-31% Christian, Druze ~5.5%. Treat all as approximations."

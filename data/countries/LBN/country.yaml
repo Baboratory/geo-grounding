@@ -1,0 +1,155 @@
+alpha3: LBN
+alpha2: LB
+name:
+  eng: Lebanon
+  local:
+    - languageCode: ara
+      value: لبنان
+flagEmoji: "🇱🇧"
+capital: Beirut
+isSovereign: true
+# Classified unitary-small: population ~5.5M is well under the threshold, and although
+# Arabic is the sole official language with French enjoying a special statutory role, and
+# minority community languages are spoken (Armenian, Kurdish), these are not the basis of a
+# widely-recognized cultural-historical regional identity divide. Lebanon's 18 recognized
+# religious communities are confessional, not geographic regions. So: a single WHOLE entry.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: ara
+    domain: official
+    speakersShare: 1.0
+    sourceId: lb-constitution-art11
+  - languageCode: ara
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: lb-constitution-art11
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.4
+    sourceId: lb-britannica
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.3
+    sourceId: lb-britannica
+  - languageCode: hye
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: lb-britannica
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.3
+    sourceId: lb-britannica
+  - languageCode: fra
+    domain: foreign
+    speakersShare: 0.4
+    sourceId: lb-britannica
+ethnicGroups:
+  - group: Arab
+    percent: 95.0
+    sourceId: lb-britannica
+  - group: Armenian
+    percent: 4.0
+    sourceId: lb-britannica
+  - group: "Other (Kurdish, Assyrian, Syriac-speaking Christians, etc.)"
+    percent: 1.0
+    sourceId: lb-state-religion
+timezones:
+  - name: Asia/Beirut
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EET/EEST)."
+currency:
+  code: LBP
+  symbol: "ل.ل"
+  name: Lebanese pound
+legalConstraints:
+  - topic: "data protection"
+    description: "Law No. 81/2018 on Electronic Transactions and Personal Data (Articles 85-106) is Lebanon's first general personal-data protection regime, in force since March 2019. It establishes purpose limitation, lawful processing, security obligations and data-subject rights of access and correction, but enforcement is limited: there is no dedicated data-protection authority (the Ministry of Economy and Trade oversees it without specialized capacity), consent is not formally defined, and implementation has lagged."
+    sourceId: lb-law81-2018
+  - topic: "price display and currency"
+    description: "The Lebanese pound (LBP) is the official legal tender issued by Banque du Liban. Since the 2019-2021 financial crisis, pricing and transactions have been increasingly dollarized in the private sector (restaurants, grocers), while the public sector operates mainly in LBP; the state legally allows dollar pricing for many goods."
+    sourceId: lb-bdl-currency
+  - topic: "consumer protection"
+    description: "Lebanon has consumer-protection legislation (notably Decree 4806/1977 on products and the Ministry of Economy and Trade's consumer-protection role); consumer protections apply, though enforcement capacity is limited amid the prolonged economic crisis."
+    sourceId: lb-britannica
+# paymentMethodShares intentionally omitted: Lebanon has no official central-bank split to
+# cite — the economy has been cash- and (since 2019) dollar-denominated, with bank withdrawals
+# and card payments hard-capped. The paymentCulture block describes this instead.
+paymentCulture:
+  popularMethods:
+    - "Cash (Lebanese pounds and US dollars) - dominant since the 2019 financial crisis"
+    - "US dollar cash, accepted de facto alongside LBP in much of the private sector"
+    - "Bank cards and bank transfer/cheque (used, but bank withdrawals and card payments are heavily restricted/hard-capped since the 2019 banking crisis)"
+  tipping:
+    expected: true
+    typicalAmount: "10%"
+    autoIncludedInBill: false
+    note: "Tipping is customary. Restaurants often add a ~10-15% service charge to the bill, but leaving an additional cash tip is still common; small tips are expected for taxis and hotel staff."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm, personal and relationship-driven. Business is conducted through personal networks and introductions; hospitality, trust and long-term personal relationships matter more than formal procedures."
+  greetingNorms: "Handshakes are standard; close friends and family often exchange kisses on the cheeks (commonly three). People greet by first name preceded by a title and typically ask about family, health and well-being before any business."
+  meetingEtiquette: "Punctuality is relaxed and meetings often start late; expect generous hospitality (coffee, tea, mezze) and extended small talk before business topics. Business cards are commonly exchanged; formal dress (suits) is expected in professional settings."
+  topicsToAvoid:
+    - "Sectarian politics and the religious balance of power"
+    - "Israeli-Palestinian conflict and sensitive regional politics"
+    - "Sexual orientation and related social issues (sensitive)"
+    - "Personal wealth or finances"
+    - "Wartime events and the Syrian refugee situation"
+  giftGivingNotes: "Gifts are appreciated but not required for business; quality chocolates, pastries or flowers are safe choices. Never offer alcohol to Muslim contacts, and avoid items with any religious or Israeli symbolism. It is customary to give and receive with the right hand."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: lb-constitution-art11
+    name: "Constitution of the Republic of Lebanon - Article 11 (as amended by Constitutional Law of 9 November 1943)"
+    publisher: "WIPO Lex (reproduces the official consolidated constitutional text)"
+    url: "https://wipo.int/wipolex/en/legislation/details/6675"
+    year: 1990
+    accessedDate: "2026-09-20"
+    note: "Article 11: 'Arabic is the official national language. A law shall determine the cases in which the French language can be used.' The primary legal source for Arabic as the sole official language and for the special statutory role of French."
+  - id: lb-bdl-currency
+    name: "Banknotes & Coins - Banque du Liban (Central Bank of Lebanon)"
+    publisher: "Banque du Liban"
+    url: "https://www.bdl.gov.lb/banknotes.php"
+    year: 2026
+    accessedDate: "2026-09-20"
+    note: "Primary source for the currency: Lebanese pound (LBP), divided into piastres, issued by BDL. See also the BDL Monetary Overview for the 99%+ post-2019 depreciation and dollarization."
+  - id: lb-state-religion
+    name: "International Religious Freedom Report: Lebanon (citing Statistics Lebanon estimates)"
+    publisher: "U.S. Department of State (Bureau of Democracy, Human Rights, and Labor)"
+    url: "https://state.gov/reports/2022-report-on-international-religious-freedom/Lebanon"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "ESTIMATES - no official census has been conducted since 1932. Statistics Lebanon figures: ~69% Muslim (Sunni ~31%, Shia ~32%, small Alawite/Ismaili share), ~30-31% Christian, Druze ~3-5%. Treat all as approximations."
+  - id: lb-britannica
+    name: "Lebanon - Encyclopaedia Britannica"
+    publisher: "Encyclopaedia Britannica"
+    url: "https://www.britannica.com/place/Lebanon"
+    year: 2026
+    accessedDate: "2026-09-20"
+    note: "Confirms a unitary multiparty republic, population (2026 est.) ~5.8 million, capital Beirut, Arabic as the official language, and French/English/Armenian/Kurdish among the spoken languages; ethnic mix of Phoenician, Greek, Armenian and Arab elements."
+  - id: lb-law81-2018
+    name: "Law No. 81/2018 on Electronic Transactions and Personal Data (Lebanon)"
+    publisher: "Lebanese Official Gazette / Law 81 of 10 October 2018"
+    url: "https://lexlint.org/law/lb"
+    year: 2018
+    accessedDate: "2026-09-20"
+    note: "Lebanon's first general personal-data protection regime (Articles 85-106), effective March 2019; enforcement limited, no dedicated supervisory authority (Ministry of Economy and Trade oversees it without specialized capacity)."
+  - id: lb-unesco
+    name: "UNESCO World Heritage Centre - World Heritage List (Lebanon)"
+    publisher: "UNESCO"
+    url: "http://whc.unesco.org/en/statesparties/lb"
+    year: 1998
+    accessedDate: "2026-09-20"
+    note: "Inscribed Lebanese sites: Baalbek (1984), Tyre (1984), Byblos (1984), Anjar (1984), and Ouadi Qadisha (Holy Valley) with the Forest of the Cedars of God (1998)."
+  - id: lb-elpais-dollar
+    name: "'Lebanon leans on US dollar to cope as currency and economy tank'"
+    publisher: "El Pais (English edition, with AP reporting)"
+    url: "https://english.elpais.com/economy-and-business/2023-03-06/lebanon-leans-on-us-dollar-to-cope-as-currency-and-economy-tank.html"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Documents the post-2019 cash-based, increasingly dollarized economy: LBP lost ~95% of its value since late 2019, cash is preferred, cards/withdrawals restricted, US dollars accepted de facto alongside LBP."

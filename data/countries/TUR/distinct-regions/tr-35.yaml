@@ -1,0 +1,120 @@
+code: TR-35
+name:
+  eng: İzmir Province (Aegean)
+  local:
+    - languageCode: tur
+      value: İzmir
+climates:
+  - koppenCode: Csa
+    description: "Hot-summer Mediterranean: long hot dry summers and mild, wet winters with abundant sunshine."
+landmarks:
+  - name: Ephesus
+    description: "UNESCO World Heritage Site (2015) in the Selçuk district of İzmir: a great ancient harbor city with the Library of Celsus and the Temple of Artemis."
+    unescoWorldHeritage: true
+  - name: "Clock Tower (Saat Kulesi)"
+    description: "The 1901 Ottoman clock tower in Konak Square, an iconic symbol of İzmir."
+    unescoWorldHeritage: false
+  - name: "Kemeraltı Bazaar and Kadifekale"
+    description: "Historic covered market and the ancient citadel overlooking the Gulf of İzmir."
+    unescoWorldHeritage: false
+  - name: "Asansör (The Elevator)"
+    description: "A 1907 historical elevator connecting the coastal quarter with the hill of Karataş."
+    unescoWorldHeritage: false
+culturalTraits:
+  - "Turkey's most liberal, outward-looking and free-spirited Aegean port city"
+  - "Historical religious and ethnic plurality (Greek Orthodox, Levantine/Sephardic Jewish communities) and a strong winemaking and rakı culture"
+  - "Laid-back coastal Mediterranean lifestyle with a strong café and promenade culture"
+  - "A Western-facing trading city with a tolerant, intellectual identity"
+  - "Center of the Aegean agricultural and olive heartland"
+prideOf:
+  - "The ancient heritage of Smyrna and Ephesus"
+  - "A liberal, cosmopolitan identity and Aegean seaside way of life"
+  - "The olive groves and vineyards of the Aegean"
+  - "The Gulf of İzmir and its sunset promenades"
+animals:
+  popular:
+    - "Aegean cats"
+    - Seagulls and shorebirds
+    - Dogs in the coastal districts
+  unique:
+    - "Aegean (marble) trout"
+    - "Sand lizard (Aegean coastal species)"
+industries:
+  - "Port and maritime trade (İzmir port)"
+  - "Tourism and coastal resorts"
+  - "Agriculture and agri-food (figs, olives/olive oil, grapes, cotton, raisins)"
+  - Food processing
+  - "Petrochemical refining (Aliağa)"
+  - "Automotive and machinery manufacturing"
+  - "Renewables (wind, solar)"
+sports:
+  - "Football (Göztepe, Altay)"
+  - Basketball
+  - Sailing and seaside water sports
+  - "Yoga and fitness along the coast"
+religions:
+  - name: "Muslim (predominantly Sunni)"
+    percent: 90.0
+    sourceId: tur-uscirf
+  - name: "Alevi Muslim"
+    percent: 6.0
+    sourceId: tur-uscirf
+  - name: "Christian (Greek Orthodox heritage) and Jewish (Sephardic) communities"
+    percent: 3.0
+    sourceId: tur-unesco
+entertainment:
+  - season: summer
+    items:
+      - "Seaside promenades (Kordon) and beach life"
+      - "Outdoor concerts and the İzmir International Fair"
+      - "Ferry crossings across the Gulf"
+      - "Aegean coastal resorts and tavernas"
+  - season: allYear
+    items:
+      - "Cafés and the city's coffee culture"
+      - "Kemeraltı Bazaar shopping"
+      - "Wineries and rakı evenings"
+      - "Museums (Ethnography, Arkas Art Center)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Zeytinyağlı olive-oil dishes"
+      - "Boyoz (flaky sesame pastry)"
+      - "Kumru (İzmir-style sandwich)"
+      - "Şambali and lokma desserts"
+      - "Aegean-style meze with rakı"
+  - season: summer
+    items:
+      - "İzmir köfte"
+      - "Grilled sea bream and seafood meze"
+      - "Olive-oil artichokes (enginar)"
+      - "Börülce (black-eyed pea) dishes"
+      - "Fresh figs and grapes"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays: []
+  notes: "Coastal Mediterranean 09:00-18:00 hours with a long lunch; Friday is a normal working day; ports and export houses operate year-round; a relaxed social pace relative to Ankara/Istanbul."
+  typicalWorkHours: "09:00-18:00 Mon-Fri."
+sources:
+  - id: tur-uscirf
+    name: "USCIRF 2023 Annual Report: Turkey"
+    publisher: "U.S. Commission on International Religious Freedom"
+    url: "https://uscirf.gov/sites/default/files/2023-05/Turkey.pdf"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Religious-affiliation estimates for İzmir province (Sunni ~90%, Alevi ~6%). Estimates only."
+  - id: tur-unesco
+    name: "UNESCO World Heritage List: Türkiye"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Ephesus (2015); also the reference for the historic Greek Orthodox and Sephardic Jewish communities of İzmir."

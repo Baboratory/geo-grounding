@@ -1,0 +1,160 @@
+alpha3: ISR
+alpha2: IL
+name:
+  eng: Israel
+  local:
+    - languageCode: heb
+      value: ישראל
+flagEmoji: "🇮🇱"
+capital: Jerusalem
+isSovereign: true
+# Classified unitary-small: population ~9.9M is well under the threshold, and although
+# Hebrew and Arabic are both official/state languages and a handful of minority languages
+# are recognized (Russian, Amharic, Yiddish, Ladino), they are NATIONAL-level statuses, not
+# the basis of a widely-recognized cultural-historical regional identity divide. The six
+# administrative districts are not such a divide. So: a single country-wide WHOLE entry.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: heb
+    domain: official
+    speakersShare: 1.0
+    sourceId: isr-nsl
+  - languageCode: heb
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: cbs-lang
+  - languageCode: ara
+    domain: locallySpoken
+    speakersShare: 0.21
+    sourceId: cbs-pop
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.15
+    sourceId: cbs-lang
+  - languageCode: amh
+    domain: locallySpoken
+    speakersShare: 0.013
+    sourceId: cbs-lang
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.33
+    sourceId: cbs-lang
+ethnicGroups:
+  - group: Jewish
+    percent: 73.2
+    sourceId: cbs-pop
+  - group: "Arab (Muslim, Arab Christian, Druze)"
+    percent: 21.1
+    sourceId: cbs-pop
+  - group: "Other (incl. non-Arab Christians, Circassian, unclassified)"
+    percent: 5.7
+    sourceId: cbs-pop
+timezones:
+  - name: Asia/Jerusalem
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Late March to late October (Israel Daylight Time)."
+currency:
+  code: ILS
+  symbol: "₪"
+  name: New Israeli shekel
+legalConstraints:
+  - topic: "data protection"
+    description: "Personal-data protection is governed by the Protection of Privacy Law, 5741-1981, comprehensively reformed by Amendment No. 13 (5784-2024), in force since 14 August 2025. The amendment aligns Israeli law with the EU GDPR (an EU adequacy decision was reaffirmed in January 2024): it defines controllers/processors and 'especially sensitive data', requires appointing data-protection officers for public bodies and large/sensitive databases, and empowers the Privacy Protection Authority (PPA) to impose administrative fines (up to 5% of annual turnover) and courts to award damages without proof of harm."
+    sourceId: privacy
+  - topic: "price display and currency"
+    description: "Prices are legally displayed and settled in New Israeli shekels (ILS), the sole legal tender issued by the Bank of Israel. Retail prices are VAT-inclusive and must be shown clearly so consumers know the full payable amount."
+    sourceId: boi-pay
+  - topic: "consumer rights"
+    description: "Consumer protection is governed by the Consumer Protection Law, 5741-1981: it prohibits misleading advertising, secures cancellation and refund rights (including distance/online-purchase withdrawal rights), mandates transparent pricing, and provides for class actions."
+    sourceId: privacy
+# paymentMethodShares intentionally omitted: no clean official transaction-share split is
+# published — Bank of Israel data is overlapping value-based categories, so no single
+# authoritative breakdown exists to cite.
+paymentCulture:
+  popularMethods:
+    - "Contactless payment cards (EMV/NFC)"
+    - "Digital wallets (Apple Pay, Google Pay, bit, PayPal, local wallet apps)"
+    - "Mobile bank transfers (bit)"
+    - "Bank transfers (direct credit/debit via Masav)"
+    - "Cash (rare, still accepted)"
+  tipping:
+    expected: true
+    typicalAmount: "about 10-12% in restaurants"
+    autoIncludedInBill: true
+    note: "In many restaurants a service charge (about 10-12%) is auto-added to the bill; otherwise a comparable tip is expected. Tipping is also customary for taxis and hotel staff."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Generally informal and egalitarian; people are addressed by first name even in business, and titles are rarely used. Dress is often business-casual."
+  greetingNorms: "Greetings in Hebrew include 'Shalom' (peace/hello); the common verbal greeting is 'Ma koreh?' (what's happening?). Handshakes are common for both men and women."
+  meetingEtiquette: "Meetings can be lively and direct, often interjected; punctuality is moderate; discussion and questions are welcomed and respectful challenge is normal. Decisions can be reached quickly."
+  topicsToAvoid:
+    - "Israeli-Palestinian conflict and politics"
+    - "Religion and religious identity"
+    - "Personal military service details"
+    - "Sensitive Holocaust/comparison topics"
+    - "Assumptions about Shabbat (Sabbath) observance"
+  giftGivingNotes: "Gifts are common for holidays such as Rosh Hashanah and Passover rather than routine business; modest host gifts (wine, sweets, chocolates) are appreciated. Avoid overly elaborate gifts in formal business settings."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: isr-nsl
+    name: "Basic Law: Israel as the Nation-State of the Jewish People (2018)"
+    publisher: "Knesset (State of Israel)"
+    url: "https://main.knesset.gov.il/EN/activity/Documents/BasicLawsPDF/BasicLawNationState.pdf"
+    year: 2018
+    accessedDate: "2026-09-20"
+    note: "Article 4: 'Hebrew is the language of the State'; Arabic has a 'special status' in the State and its regulation is to be set by law; clause 4(c) preserves the pre-existing (mandate-era, s.82 Palestine Order 1922) status of Arabic in practice."
+  - id: cbs-pop
+    name: "Israel Central Bureau of Statistics - population and ethnicity (Israel in Figures 2024 and Independence Day 2024 releases)"
+    publisher: "Israel Central Bureau of Statistics"
+    url: "https://www.cbs.gov.il/he/publications/DocLib/isr_in_n/isr_in_n24e.pdf"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Population ~9.9 million (2024); ~73.2% Jewish, ~21.1% Arab, ~5.7% 'other' incl. Druze, Circassian and non-Arab Christians. Also the basis for Arabic's ~21% locally-spoken share."
+  - id: cbs-religion
+    name: "Israel Central Bureau of Statistics - population by religion (2023), as reported in US State Dept 2023 Report on International Religious Freedom"
+    publisher: "US Department of State / Israel Central Bureau of Statistics"
+    url: "https://2017-2021.state.gov/reports/2016-report-on-international-religious-freedom/israel-and-the-occupied-territories/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Approximately 73.2% Jewish, ~18% Muslim, ~1.9% Christian, ~1.6% Druze."
+  - id: cbs-lang
+    name: "Israel Central Bureau of Statistics - language survey (2011) on native languages of Israelis"
+    publisher: "Israel Central Bureau of Statistics"
+    url: "https://www.cbs.gov.il/en/Pages/default.aspx"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "Native-language shares among over-20s: Hebrew 49%, Arabic 18%, Russian 15%, Yiddish 2%, French 2%, English 2%, Spanish 1.6%; ~90% of Jews and over 60% of Arabs understand Hebrew; English is widely used as a foreign/lingua-franca language. Hebrew locally-spoken share (~90% of the population), Russian (~15%) and Amharic (~1.3%) are derived from this survey; the English foreign share (~33%) is an estimate from the same general survey."
+  - id: boi-pay
+    name: "Bank of Israel - Payment and Settlement Systems Review ('Red Book') and payments survey"
+    publisher: "Bank of Israel"
+    url: "https://boi.org.il/en/communication-and-publications/regular-publications/overview-of-the-payment-and-settlement-systems-red-book/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Israel is highly cashless: widespread EMV/NFC contactless cards and digital wallets (bit, Apple Pay, Google Pay, PayPal); ZAHAV is the RTGS system, Masav the ACH clearing house, Shva the card switch; payment-card values rose ~99% over a decade to NIS 451bn in 2023. ILS is issued by the Bank of Israel."
+  - id: privacy
+    name: "Protection of Privacy Law, 5741-1981, as amended (Amendment No. 13, 5784-2024) and Consumer Protection Law, 5741-1981"
+    publisher: "Knesset (State of Israel) / US Library of Congress Global Legal Monitor"
+    url: "https://loc.gov/item/global-legal-monitor/2025-11-17/israel-amendment-to-privacy-protection-law-goes-into-effect/"
+    year: 1981
+    accessedDate: "2026-09-20"
+    note: "Amendment 13 (approved 5 Aug 2024, in force 14 Aug 2025) brings Israeli privacy law toward GDPR-alignment: data-protection-officer requirements, an 'especially sensitive data' category, and PPA enforcement with fines up to 5% of annual turnover. Consumer Protection Law 1981 governs pricing transparency and consumer rights."
+  - id: work
+    name: "Business Culture in Israel / Tel Aviv-Yafo Municipality; Hours of Work and Rest Law"
+    publisher: "Tel Aviv-Yafo Municipality"
+    url: "https://www.tel-aviv.gov.il/en/WorkAndStudy/Pages/BusinessCultureinIsrael.aspx"
+    year: 2026
+    accessedDate: "2026-09-20"
+    note: "Work week Sunday-Thursday; Saturday is the Shabbat rest day; Friday is a short day; standard office hours about 08:00-17:00/18:00; statutory week 42 hours."
+  - id: unesco
+    name: "UNESCO World Heritage Centre - Old City of Jerusalem and its Walls (148), Masada (1040), White City of Tel Aviv (1096)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/148/"
+    year: 2003
+    accessedDate: "2026-09-20"
+    note: "Old City of Jerusalem and its Walls (1981), Masada (2001), White City of Tel Aviv (2003) - all inscribed cultural World Heritage Sites."

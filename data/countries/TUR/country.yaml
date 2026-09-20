@@ -1,0 +1,208 @@
+alpha3: TUR
+alpha2: TR
+name:
+  eng: Türkiye
+  local:
+    - languageCode: tur
+      value: Türkiye
+flagEmoji: "🇹🇷"
+capital: Ankara
+isSovereign: true
+# Classified unitary-large: population ~85.7M far exceeds the threshold, Turkey has officially
+# recognized minority communities (the 1923 Treaty of Lausanne protects non-Muslim minorities -
+# Armenian, Greek, Jewish/Sephardic - whose languages are spoken), and there is a genuine,
+# widely-recognized cultural-historical regional divide (the traditional seven geographical
+# regions such as Marmara/Aegean/Black Sea/Central & Eastern Anatolia, and the marked
+# western-vs-eastern cultural split). Real ISO 3166-2 region files are curated (a representative
+# subset) alongside the WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: TR
+hasSubdivisions: true
+languageUsage:
+  - languageCode: tur
+    domain: official
+    speakersShare: 1.0
+    sourceId: tur-constitution-art3
+  - languageCode: tur
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: tur-tuik
+  - languageCode: kur
+    domain: locallySpoken
+    speakersShare: 0.15
+    sourceId: tur-govuk-kurds
+  - languageCode: kmr
+    domain: locallySpoken
+    speakersShare: 0.14
+    sourceId: tur-govuk-kurds
+  - languageCode: zza
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: tur-govuk-kurds
+  - languageCode: ara
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: tur-govuk-kurds
+  - languageCode: hye
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: tur-unesco
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.2
+    sourceId: tur-unesco
+  - languageCode: deu
+    domain: foreign
+    speakersShare: 0.15
+    sourceId: tur-unesco
+ethnicGroups:
+  - group: Turk
+    percent: 72.5
+    sourceId: tur-govuk-kurds
+  - group: Kurd
+    percent: 19.0
+    sourceId: tur-govuk-kurds
+  - group: Zaza
+    percent: 1.5
+    sourceId: tur-govuk-kurds
+  - group: Arab
+    percent: 2.0
+    sourceId: tur-govuk-kurds
+  - group: "Other (incl. Circassian, Bosniak, Georgian, Roma, Armenian, Greek, Jewish)"
+    percent: 5.0
+    sourceId: tur-govuk-kurds
+timezones:
+  - name: Europe/Istanbul
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: TRY
+  symbol: "₺"
+  name: Turkish lira
+legalConstraints:
+  - topic: "data protection"
+    description: "Personal-data protection is governed by the Law on the Protection of Personal Data (KVKK), Law No. 6698, in force since April 2016 and modeled closely on the EU GDPR. It establishes a Personal Data Protection Authority (KVKK Board) in Ankara, consent and processing principles, and rules on cross-border transfer of personal data (Art. 9, amended by Law No. 7499 in June 2024)."
+    sourceId: tur-kvkk
+  - topic: "price display and currency"
+    description: "Prices for goods and services must be displayed in Turkish lira (TRY). Under the Regulation on Prices (Fiyat Etiketi Yönetmeliği) of the Ministry of Trade, retail prices must be shown in TL, and goods sold at tourist/exchange-rate-denominated prices must still quote the TRY equivalent."
+    sourceId: tur-tcmb
+  - topic: "consumer rights"
+    description: "Consumer protection is regulated by the Consumer Protection Law No. 6502 of 2013, which broadly mirrors EU consumer law: withdrawal rights for distance sales (14 days), warranty/defect remedies, and rules on installment and unfair contract terms."
+    sourceId: tur-kvkk
+  - topic: "weekly rest and working hours"
+    description: "Working time is capped at 45 hours per week (Labor Law No. 4857, Art. 63) with a maximum of 11 hours per day. Workers are entitled to a minimum uninterrupted 24-hour weekly rest (Art. 45-46). Friday is a normal working day; the weekly rest day is typically Sunday (often with a half-day Saturday), and Sunday is not a government-imposed rest day."
+    sourceId: tur-labor
+# paymentMethodShares intentionally omitted: TCMB/BKM publish card-channel activity, not a
+# clean cash-vs-card total-mix split, so no single authoritative paymentMethodShares breakdown
+# exists to cite. The paymentCulture block describes the actual mix instead.
+paymentCulture:
+  popularMethods:
+    - "Credit card (dominant)"
+    - "Contactless debit/prepaid card"
+    - "Cash (still widely accepted, esp. small retail)"
+    - "Bank transfer / FAST instant transfer"
+    - "Local TROY card scheme and digital wallets (e.g. BKM Express)"
+  tipping:
+    expected: false
+    typicalAmount: "5-10%"
+    autoIncludedInBill: false
+    note: "Tipping is optional and appreciated rather than expected; rounding up the bill or leaving 5-10% is common in restaurants, and some upscale restaurants add an automatic service charge."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Use respectful titles (Bey/Hanım after first names) and the formal 'siz' form with strangers, elders and new acquaintances; first names only after an invitation."
+  greetingNorms: "A firm handshake and direct eye contact for men; 'Merhaba' (hello) and 'Nasılsınız?' (how are you) are standard; a slight nod/head-tilt or hand-over-heart gesture is a warm sign of gratitude."
+  meetingEtiquette: "Business is relationship-driven and hospitality matters: expect tea or Turkish coffee to be served, some small talk before business, and multiple meetings to build trust before concluding deals. Punctuality is valued in formal settings, though a relaxed attitude is common socially."
+  topicsToAvoid:
+    - "Kurdish separatism / the PKK conflict"
+    - "the Armenian Genocide / Armenian relations"
+    - "modern Turkish political party conflicts (AKP/CHP divisiveness)"
+    - "criticism of Mustafa Kemal Atatürk"
+    - "religion and sectarian identity unless the host raises it"
+    - "sensitive history (Cyprus, Greece relations)"
+  giftGivingNotes: "Giving small gifts is appreciated but not expected; bring sweets, tea/coffee or flowers when visiting a home. Avoid alcohol or pork as gifts for conservative Muslims, and it is generally improper to give an intimate gift to a business contact's spouse."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: TR-34
+    file: distinct-regions/tr-34.yaml
+    adminUnitCodes: [TR-34]
+  - code: TR-06
+    file: distinct-regions/tr-06.yaml
+    adminUnitCodes: [TR-06]
+  - code: TR-35
+    file: distinct-regions/tr-35.yaml
+    adminUnitCodes: [TR-35]
+  - code: TR-27
+    file: distinct-regions/tr-27.yaml
+    adminUnitCodes: [TR-27]
+sources:
+  - id: tur-constitution-art3
+    name: "Constitution of the Republic of Turkey (1982), Article 3"
+    publisher: "Grand National Assembly of Turkey / Constitutional Court"
+    url: "https://www.anayasa.gov.tr/media/7258/anayasa_eng.pdf"
+    year: 1982
+    accessedDate: "2026-09-20"
+    note: "Article 3: 'The State of Turkey, with its territory and nation, is an indivisible entity. Its language is Turkish... Its capital is Ankara.'"
+  - id: tur-tuik
+    name: "Address Based Population Registration System, 2024 (ADNKS)"
+    publisher: "Turkish Statistical Institute (TÜİK)"
+    url: "https://www.tuik.gov.tr"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Population 85,664,944 as of 31 Dec 2024; Istanbul 15,701,602; Ankara 5,864,049; Izmir 4,493,242; Gaziantep 2,193,363."
+  - id: tur-kvkk
+    name: "Law on the Protection of Personal Data (KVKK), Law No. 6698 (2016)"
+    publisher: "Personal Data Protection Authority (KVKK)"
+    url: "https://www.kvkk.gov.tr/Icerik/6649/Personal-Data-Protection-Law"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "In force 7 April 2016, modeled on the GDPR; establishes the KVKK Board; Art. 9 on cross-border transfer. Also referenced for the Consumer Protection Law's general consumer-protection framework."
+  - id: tur-bkm
+    name: "BKM 2024 Annual Bulletin (Kartli Ödemeler)"
+    publisher: "Interbank Card Center (Bankalararasi Kart Merkezi, BKM)"
+    url: "https://bkm.com.tr/wp-content/uploads/2025/01/BKM-2024-Yillik-Bulten-.pdf"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "2024 card payments totaled 15.8 trillion TRY; 435.4M cards; 33% in-store contact, 37% online/MOTO, 30% contactless by value."
+  - id: tur-uscirf
+    name: "USCIRF 2023 Annual Report: Turkey"
+    publisher: "U.S. Commission on International Religious Freedom"
+    url: "https://uscirf.gov/sites/default/files/2023-05/Turkey.pdf"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Government claims ~99% Muslim; ~78% Hanafi Sunni; Alevi estimated 10-25M (largest religious minority). Estimates only - Turkey publishes no official religious breakdown."
+  - id: tur-govuk-kurds
+    name: "Country Policy and Information Note: Kurds, Turkey (2023)"
+    publisher: "UK Home Office / DFAT Country Information"
+    url: "https://www.gov.uk/government/publications/turkey-country-policy-and-information-notes/country-policy-and-information-note-kurds-turkey-october-2023-accessible"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Kurds estimated ~18-20% of the population (international observers ~70-75% Turk, ~19% Kurd). The Turkish state does not recognize Kurds as a minority, only non-Muslims. Kurmanji dominant; Zaza and Sorani smaller. Estimates only - no ethnic census since 1965."
+  - id: tur-unesco
+    name: "UNESCO World Heritage List: Türkiye"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Inscribed sites incl. Historic Areas of Istanbul (1985), Göreme/Cappadocia (1985), Ephesus (2015), Nemrut Dağ (1987), Göbekli Tepe (2018)."
+  - id: tur-tcmb
+    name: "Turkish Lira Sign & Central Bank of the Republic of Türkiye (TCMB)"
+    publisher: "Central Bank of the Republic of Turkey"
+    url: "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/About+the+Bank/Turkish+Lira+Sign"
+    year: 2012
+    accessedDate: "2026-09-20"
+    note: "Currency code TRY, symbol ₺; TCMB is the issuing central bank and operates the payments ecosystem; the symbol was adopted in 2012."
+  - id: tur-labor
+    name: "Turkish Labor Law No. 4857"
+    publisher: "Republic of Türkiye Ministry of Labour / official translations"
+    url: "https://www.sanayi.gov.tr/assets/pdf/birimler/SYDPLaborManagementProcedures(LMP).pdf"
+    year: 2003
+    accessedDate: "2026-09-20"
+    note: "Art. 63: max 45 hrs/week (11 hrs/day). Art. 45-46: minimum 24-hr uninterrupted weekly rest. Friday is a normal working day."
+  - id: tur-gaziantep-un
+    name: "Gaziantep: UNESCO Creative Cities Network - City of Gastronomy (2015)"
+    publisher: "UNESCO Creative Cities Network"
+    url: "https://en.unesco.org/creative-cities/gaziantep"
+    year: 2015
+    accessedDate: "2026-09-20"
+    note: "Gaziantep designated a UNESCO City of Gastronomy in 2015; known for pistachios (Antep fistiği), baklava, and a large export economy."
