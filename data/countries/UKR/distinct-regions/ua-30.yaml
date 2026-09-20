@@ -1,0 +1,96 @@
+code: UA-30
+name:
+  eng: Kyiv (city)
+  local:
+    - languageCode: ukr
+      value: Київ
+climates:
+  - koppenCode: Dfb
+    description: Humid continental climate — cold winters, warm summers; the Dnipro moderates the heat city-wide in summer.
+landmarks:
+  - name: Saint Sophia Cathedral
+    unescoWorldHeritage: true
+  - name: Kyiv Pechersk Lavra (Monastery of the Caves)
+    unescoWorldHeritage: true
+  - name: Maidan Nezalezhnosti (Independence Square)
+  - name: Motherland Monument and the National Museum of the History of Ukraine in the Second World War
+  - name: Podil district and Andriyivsky Uzviz
+culturalTraits:
+  - "Ukraine's capital and political, economic and cultural centre"
+  - "A resilient city — site of the 2013-2014 Euromaidan and of fierce defence in 2022"
+  - "Thriving tech, creative and café culture"
+  - "Historic heartland of Ukrainian identity (the 'Mother of Rus cities')"
+prideOf:
+  - "Independence and the Euromaidan heritage"
+  - "Golden-domed churches and UNESCO-listed monasteries"
+  - "A modern IT and start-up scene"
+  - "Chestnut trees and the greenery along the Dnipro"
+animals:
+  popular:
+    - Hooded crow
+    - Grey heron (Dnipro islands)
+  unique:
+    - Dnipro river islands' birdlife (herons, terns)
+industries:
+  - "Information technology and start-ups (the 'hubs' of the Ukrainian IT boom)"
+  - "Finance, banking and corporate services"
+  - "Media and creative industries"
+  - "Government and public administration"
+  - "Tourism and hospitality"
+sports:
+  - Football (Dynamo Kyiv)
+  - Basketball
+  - Boxing
+  - Chess
+entertainment:
+  - season: summer
+    items:
+      - "Kyiv Day (last weekend of May) street festivals"
+      - "Summer riverside terraces and open-air cinema on the Dnipro"
+      - "Concerts in Mariinskyi and Shevchenko parks"
+  - season: winter
+    items:
+      - "New Year city lights and the big Christmas tree on Sophia Square"
+      - "Ice-skating in city parks"
+  - season: spring
+    items:
+      - "Easter markets and Vyshyvanka Day (May) festivities"
+  - season: autumn
+    items:
+      - "Autumn walking season along the historic streets and UNESCO sites"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kyiv-style chicken (kotleta po-kyivsky)"
+      - "Borscht and varenyky"
+  - season: winter
+    items:
+      - "Olivier salad and kutia at Christmas/New Year"
+  - season: summer
+    items:
+      - "Okroshka and cold soups"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Smart European-style urban dress; the vyshyvanka for holidays"
+  - season: winter
+    items:
+      - "Heavy coats and warm headwear against the Dnipro plain's cold"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 9:00am-6:00pm; Kyiv's tech and creative sectors often keep flexible or later hours. Wartime curfews can shorten evening activity."
+  lunchBreakTiming: "A ~1-hour lunch around 1:00pm; the city has a dynamic café and lunch culture."
+  notableShutdownPeriods:
+    - period: early January
+      description: "New Year holidays largely close offices, as across Ukraine."
+  notes: "Sunday is the standard rest day; shops and restaurants open daily. Kyiv Day (last weekend of May) and Euro day mark major civic celebrations."

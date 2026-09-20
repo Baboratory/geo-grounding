@@ -1,0 +1,198 @@
+alpha3: RUS
+alpha2: RU
+name:
+  eng: Russia
+  local:
+    - languageCode: rus
+      value: Россия
+flagEmoji: "🇷🇺"
+capital: Moscow
+isSovereign: true
+# Classified federal: Russia is a federal state (Constitution Article 1) whose
+# 83 ISO 3166-2 federal subjects (republics, krai, oblast, federal cities,
+# autonomous okrug and autonomous oblast) vary enormously across ~11 time zones
+# and dozens of official minority languages. Real ISO 3166-2 region files are
+# curated (a representative subset) alongside the WHOLE fallback.
+governanceType: federal
+iso3166_2_prefix: RU
+hasSubdivisions: true
+languageUsage:
+  - languageCode: rus
+    domain: official
+    speakersShare: 1.0
+    sourceId: rus-constitution-art68
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.96
+    sourceId: rus-census-2021
+  - languageCode: tat
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: rus-census-2021
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.05
+    sourceId: git-gallup-english
+ethnicGroups:
+  - group: Russian
+    percent: 80.9
+    sourceId: rus-census-2021
+  - group: Tatar
+    percent: 3.9
+    sourceId: rus-census-2021
+  - group: Chechen
+    percent: 1.0
+    sourceId: rus-census-2021
+  - group: Bashkir
+    percent: 1.1
+    sourceId: rus-census-2021
+  - group: Other (incl. Chuvash, Kabardian, Armenian, Ukrainian, Avar, Dargin, Kazakh, Azerbaijani, Yakut, Mari, Mordvin)
+    percent: 13.2
+    sourceId: rus-census-2021
+timezones:
+  - name: Europe/Kaliningrad
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+  - name: Europe/Moscow
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+  - name: Asia/Yekaterinburg
+    standardUtcOffset: "UTC+5"
+    observesDst: false
+  - name: Asia/Novosibirsk
+    standardUtcOffset: "UTC+7"
+    observesDst: false
+  - name: Asia/Vladivostok
+    standardUtcOffset: "UTC+10"
+    observesDst: false
+  - name: Asia/Kamchatka
+    standardUtcOffset: "UTC+12"
+    observesDst: false
+currency:
+  code: RUB
+  symbol: "₽"
+  name: Russian rouble
+legalConstraints:
+  - topic: "personal data localization"
+    description: "Operators collecting personal data of Russian citizens must store and process that data on servers physically located in the Russian Federation (the data-localization rule, Federal Law No. 242-FZ amending the Personal Data Law No. 152-FZ)."
+    sourceId: ru-fz-242-2014
+  - topic: "data protection regime"
+    description: "Personal data processing requires a legal basis and registration; the Federal Service for Supervision of Communications, IT and Mass Media (Roskomnadzor) oversees compliance. Cross-border transfer of personal data is restricted to countries on an approved adequacy list."
+    sourceId: ru-fz-152-2006
+  - topic: "cash receipt obligation"
+    description: "Online cash registers transmit every sale to the tax authority in real time; customers must be issued a paper or e-receipt for cash and card sales."
+    sourceId: ru-fz-54-2003
+  - topic: "consumer withdrawal right"
+    description: "Consumers may return goods of adequate quality bought in a physical store within 14 days if not suitable in shape, size, colour or configuration (Russian Consumer Protection Law), and online/remote purchases under separate distance-selling rules."
+    sourceId: ru-consumer-protection-law
+  - topic: "price display"
+    description: "Prices for goods and services must be displayed in Russian roubles, inclusive of VAT, and clearly visible; state-regulated prices apply to certain goods and services."
+    sourceId: ru-consumer-protection-law
+paymentMethodShares:
+  - method: "cash"
+    percent: 13.0
+    sourceId: cb-russia-payments-2023
+  - method: "bank card (incl. Mir, Visa, Mastercard)"
+    percent: 68.0
+    sourceId: cb-russia-payments-2023
+  - method: "mobile payment / SBP (Fast Payments System)"
+    percent: 15.0
+    sourceId: cb-russia-payments-2023
+  - method: "other (transfers, e-wallets)"
+    percent: 4.0
+    sourceId: cb-russia-payments-2023
+paymentCulture:
+  popularMethods:
+    - "Mir card (national payment system, widely used domestically)"
+    - "SBP / Fast Payments System (СБП) — QR and phone-number transfers, very common"
+    - "Sberbank Online and other bank apps (~90%+ of card volume runs through Sberbank)"
+  tipping:
+    expected: false
+    typicalAmount: "5-10%"
+    autoIncludedInBill: false
+    note: "Not compulsory; a discretionary 5-10% tip in restaurants and cafés is appreciated, and worth adding for good service. Some venues add a service charge for large groups."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Use the polite 'Вы' form with strangers, officials and in business; first names and the informal 'ты' are reserved for friends and colleagues once a relationship is established. Patronymics (name + father's given name) are commonly used with colleagues and acquaintances."
+  greetingNorms: "Firm handshake on meeting and parting in business — often a single pump, direct eye contact. Among friends, men often shake hands (sometimes both hands), women greet with words or an embrace more than a kiss."
+  meetingEtiquette: "Punctuality is expected, especially in business. Meetings begin with small talk and a degree of formality before business is discussed; hierarchy matters and the senior person typically leads. Decision-making can be slower and centralised, and direct eye contact signals sincerity."
+  topicsToAvoid:
+    - "Recent geopolitics and the war in Ukraine — sensitive and divisive; avoid unless the counterpart raises it"
+    - "Domestic politics and criticism of the government"
+    - "Ethnic and inter-republic tensions"
+    - "Personal income, wealth and the cost of purchases"
+
+    - "Religion, unless raised respectfully in context"
+  giftGivingNotes: "A modest, good-quality gift is appreciated when a business relationship is established (not at a first meeting). Flowers are welcome but only in odd numbers (even numbers are for funerals); avoid yellow flowers as a romantic connotation is often read into them."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: RU-MOW
+    file: distinct-regions/ru-mow.yaml
+    adminUnitCodes: [RU-MOW]
+  - code: RU-TA
+    file: distinct-regions/ru-ta.yaml
+    adminUnitCodes: [RU-TA]
+  - code: RU-SA
+    file: distinct-regions/ru-sa.yaml
+    adminUnitCodes: [RU-SA]
+  - code: RU-SPE
+    file: distinct-regions/ru-spe.yaml
+    adminUnitCodes: [RU-SPE]
+sources:
+  - id: rus-constitution-art68
+    name: "Constitution of the Russian Federation, Article 68"
+    publisher: "Government of the Russian Federation"
+    url: "http://constitution.kremlin.ru/"
+    year: 1993
+    accessedDate: "2026-09-20"
+    note: "Legal basis for Russian as the state language (Article 68.1) and for republics' right to establish their own state languages alongside Russian."
+  - id: rus-census-2021
+    name: "2021 All-Russian Population Census (Всероссийская перепись населения 2020/2021)"
+    publisher: "Rosstat (Federal State Statistics Service)"
+    url: "https://rosstat.gov.ru/vpn/2020"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Ethnic composition (Russian 80.9%, Tatar 3.9%, Chechen 1.0%, Bashkir 1.1%, and other groups) and native-language shares. Percentages reflect the voluntary self-identification census; sums are approximate."
+  - id: git-gallup-english
+    name: "GFK-Gallup survey of English proficiency worldwide"
+    publisher: "GfK / Gallup (global English index)"
+    url: "https://www.ef.com/wwen/epi/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Rough estimate of the share of Russians able to hold a conversation in English (~5%); English levels in Russia are moderate-to-low relative to northern Europe."
+  - id: ru-fz-242-2014
+    name: "Federal Law No. 242-FZ of 21 July 2014 (personal data localization)"
+    publisher: "Government of the Russian Federation"
+    url: "http://kremlin.ru/acts/bank/38759"
+    year: 2014
+    accessedDate: "2026-09-20"
+    note: "Requires personal data of Russian citizens to be stored on servers physically located in Russia."
+  - id: ru-fz-152-2006
+    name: "Federal Law No. 152-FZ on Personal Data (as amended)"
+    publisher: "Government of the Russian Federation"
+    url: "http://kremlin.ru/acts/bank/24154"
+    year: 2006
+    accessedDate: "2026-09-20"
+    note: "Core data-protection law; operator obligations, consent requirements, Roskomnadzor oversight and rules on cross-border transfer."
+  - id: ru-fz-54-2003
+    name: "Federal Law No. 54-FZ on the use of cash registers"
+    publisher: "Government of the Russian Federation"
+    url: "http://kremlin.ru/acts/bank/20085"
+    year: 2003
+    accessedDate: "2026-09-20"
+    note: "Online cash-register (KKA) obligation and electronic receipt requirements for cash and card sales."
+  - id: ru-consumer-protection-law
+    name: "Law of the Russian Federation on Protection of Consumer Rights (as amended)"
+    publisher: "Government of the Russian Federation"
+    url: "https://rospotrebnadzor.ru/"
+    year: 1992
+    accessedDate: "2026-09-20"
+    note: "Consumer guarantees, 14-day return right for goods of adequate quality, price-display (roubles, VAT-inclusive) and withdrawal rights."
+  - id: cb-russia-payments-2023
+    name: "Bank of Russia payment-infrastructure statistics (point-of-sale transaction shares, 2023)"
+    publisher: "Bank of Russia (Центральный банк Российской Федерации)"
+    url: "https://cbr.ru/statistics/psrf/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Share of retail payments at the point of sale by method: bank cards ~68%, cash ~13%, SBP/mobile ~15%, other ~4%. Approximate national figures from central-bank payment statistics."

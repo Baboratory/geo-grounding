@@ -1,0 +1,94 @@
+code: UA-63
+name:
+  eng: Kharkivska oblast (Kharkiv region, includes the city of Kharkiv)
+  local:
+    - languageCode: ukr
+      value: Харківська область
+climates:
+  - koppenCode: Dfb
+    description: Humid continental climate — cold relatively dry winters, warm summers.
+landmarks:
+  - name: Kharkiv Freedom Square (one of Europe's largest squares) and Derzhprom building
+  - name: Annunciation Cathedral (Błahovishchenskyi)
+  - name: Kharkiv's engineering and historic centre
+  - name: Gorky Park
+  - name: Shevchenko Garden and the Taras Shevchenko monument
+culturalTraits:
+  - "Ukraine's second-largest city and a historic industrial, scientific and educational capital"
+  - "A leading engineering and IT centre (with a strong university tradition)"
+  - "Distinct east-Ukrainian identity, historically bilingual with a strong Ukrainian cultural revival"
+  - "A city badly damaged in the war but culturally defiant"
+prideOf:
+  - "The Derzhprom (State Industry Building) — a Constructivist icon"
+  - "Engineering, aviation and space heritage"
+  - "The university and art-school legacy (the Kharkiv school of art)"
+  - "Resilience through repeated wartime bombardment of the city"
+animals:
+  popular:
+    - Hedges and park birds (great tit, starling)
+    - Red fox (outskirts)
+  unique:
+    - Steppe undergrowth fauna on the urban fringe
+industries:
+  - "Heavy engineering and machine building"
+  - "Defence industry and aerospace (tank and aircraft production)"
+  - "Information technology (a large IT cluster)"
+  - "Higher education and research"
+sports:
+  - Football (FC Metalist Kharkiv)
+  - Ice hockey
+  - Basketball
+  - Chess and athletics
+entertainment:
+  - season: summer
+    items:
+      - "Gorky Park summer rides and open-air concerts"
+      - "Freedom Square city-centre events"
+  - season: winter
+    items:
+      - "New Year city lights and ice-rinks"
+      - "Theatre and symphony season"
+  - season: spring
+    items:
+      - "Victory Day and Europe Day commemorations in May"
+  - season: autumn
+    items:
+      - "University city — September 'Knowledge Day' and a lively student season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Borscht with a regional eastern accent and holubtsi"
+      - "Varenyky and deruny"
+  - season: winter
+    items:
+      - "Olivier salad and kutia at Christmas/New Year"
+  - season: summer
+    items:
+      - "Okroshka and fresh-market salads"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern urban dress; the vyshyvanka at holidays"
+  - season: winter
+    items:
+      - "Heavy coats and hats for the continental winter"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 9:00am-6:00pm; Kharkiv's engineering and IT sectors are major employers. Wartime conditions, including frequent air alerts and curfews, heavily disrupt normal hours."
+  lunchBreakTiming: "A ~1-hour lunch around 1:00pm."
+  notableShutdownPeriods:
+    - period: early January
+      description: "New Year holidays reduce activity."
+    - period: wartime disruptions
+      description: "Air alerts and curfews can halt business at short notice; many firms operate remotely or with resilience plans."
+  notes: "Sunday is the standard rest day. A significant share of the city's population has been displaced or lives under disrupted conditions since 2022."

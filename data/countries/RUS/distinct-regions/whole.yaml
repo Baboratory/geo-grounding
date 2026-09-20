@@ -1,0 +1,147 @@
+code: WHOLE
+name:
+  eng: Russia
+  local:
+    - languageCode: rus
+      value: Россия
+# Generic country-wide fallback used when a visitor's specific ISO 3166-2
+# subdivision isn't one of the curated regions (e.g. no RU-NVS Novosibirsk file
+# yet). Content is deliberately national/symbolic rather than tied to one region.
+climates:
+  - koppenCode: Dfb
+    description: Humid continental climate across much of the European part and southern Siberia (long cold winters, warm short summers).
+  - koppenCode: Dfc
+    description: Subarctic/taiga climate across most of Siberia and the north (very long severe winters, brief cool summers).
+  - koppenCode: Dwd
+    description: Extremely cold subarctic climate in parts of the north-east (Verkhoyansk and Oymyakon regions).
+  - koppenCode: ET
+    description: Tundra climate along the Arctic coast and on Arctic islands.
+landmarks:
+  - name: Red Square and the Kremlin (Moscow)
+  - name: Saint Basil's Cathedral
+    unescoWorldHeritage: true
+  - name: Hermitage Museum (Saint Petersburg)
+  - name: Lake Baikal
+    unescoWorldHeritage: true
+  - name: Trans-Siberian Railway
+  - name: Kamchatka volcanoes
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Hospitality and generosity — guests are treated lavishly (bread and salt 'khleb-sol' on arrival)"
+  - "Deep literary, musical and artistic heritage (Tolstoy, Dostoevsky, Tchaikovsky, the ballet)"
+  - "Dacha culture — the countryside summer home as a core part of life"
+  - "Formal distance with strangers balanced by warmth with friends"
+  - "Endurance and resilience in a vast, cold climate — 'shirokaya dusha' (broad soul)"
+prideOf:
+  - Literary and classical-music heritage (world-renowned writers, composers, ballet)
+  - Space programme (first satellite and first human in space, Yuri Gagarin)
+  - Scientific and mathematical tradition
+  - Victory in the Great Patriotic War (World War II) and national resilience
+  - Vast natural landscapes — taiga, tundra, mountains and Lake Baikal
+animals:
+  popular:
+    - Siberian tiger (Amur tiger)
+    - European brown bear
+    - Red fox
+  unique:
+    - Amur leopard (critically endangered)
+    - Snow leopard (Altai)
+    - Baikal seal (nerpa, endemic to Lake Baikal)
+industries:
+  - Oil and natural-gas extraction and export
+  - Metals and mining (steel, aluminium, nickel, diamonds, gold)
+  - Defence and aerospace engineering
+  - Agriculture and food (wheat exporter)
+  - Information technology and software services
+sports:
+  - Ice hockey
+  - Football
+  - Figure skating
+  - Chess
+  - Gymnastics and athletics
+religions:
+  - name: Russian Orthodox
+    percent: 42.5
+    sourceId: levada-religion-2021
+  - name: No religion / secular
+    percent: 28.5
+    sourceId: levada-religion-2021
+  - name: Muslim
+    percent: 6.5
+    sourceId: levada-religion-2021
+  - name: Other Christian
+    percent: 4.0
+    sourceId: levada-religion-2021
+  - name: Undeclared / other
+    percent: 18.5
+    sourceId: levada-religion-2021
+entertainment:
+  - season: summer
+    items:
+      - "Maslenitsa (late winter) and outdoor summer festivals"
+      - "Open-air concerts and dacha weekends"
+      - "City Day celebrations in Moscow and regional capitals"
+  - season: winter
+    items:
+      - "New Year celebrations (the main family holiday in Russia)"
+      - "Christmas (Russian Orthodox, observed 7 January) and Epiphany bathing"
+      - "Skiing and winter sports"
+  - season: spring
+    items:
+      - "Victory Day (9 May) parades and commemorations"
+      - "Cosmonautics Day (12 April)"
+  - season: autumn
+    items:
+      - "Knowledge Day (1 September) — school year begins, a national milestone"
+      - "Autumn harvest and mushroom-picking in the countryside"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Borscht (beetroot soup)"
+      - "Pelmeni (dumplings)"
+      - "Blini (pancakes)"
+      - "Shchi (cabbage soup) and kasha (porridge)"
+  - season: winter
+    items:
+      - "Olivier salad and seledka pod shuboy (herring under a fur coat) — New Year staples"
+      - "Mulled wine and sbiten (spiced honey drink)"
+  - season: summer
+    items:
+      - "Okroshka (cold kvas soup)"
+      - "Fresh shashlik (skewered grilled meat)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Practical, warm layering as the cultural default in a cold climate"
+  - season: winter
+    items:
+      - "The fur hat (ushanka) and padded winter clothing"
+      - "Valenki (felt boots) in rural and far-north settings"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices generally run 9:00am-6:00pm with a ~1-hour lunch; the standard workweek is 40 hours with an extra day off around many public holidays that creates long 'New Year' and May holiday breaks."
+  lunchBreakTiming: "A midday break of about 1 hour around 1:00pm is common; business lunches are frequent and social."
+  notableShutdownPeriods:
+    - period: early January
+      description: "The New Year holiday window (roughly 1-8 January) sees most offices and many businesses largely closed — the main winter break of the year."
+    - period: early May
+      description: "May holidays (1 and 9 May and surrounding days) create a short 'May break'; many businesses run on reduced staffing."
+  notes: "Sunday is the standard rest day, though large cities have 24/7 supermarkets and many shops open daily including weekends. Some regions observe additional local (republic) public holidays."
+sources:
+  - id: levada-religion-2021
+    name: "Levada Center survey on religious affiliation in Russia (2021)"
+    publisher: "Levada-Center (independent Russian sociological polling)"
+    url: "https://www.levada.ru/"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Approximate national religious self-identification: Orthodox ~42.5%, no religion ~28.5%, Muslim ~6.5%, other Christian ~4%, undeclared/other ~18.5%. Shares vary by survey and year."

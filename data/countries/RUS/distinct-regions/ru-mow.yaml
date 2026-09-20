@@ -1,0 +1,96 @@
+code: RU-MOW
+name:
+  eng: Moscow (federal city)
+  local:
+    - languageCode: rus
+      value: Москва
+climates:
+  - koppenCode: Dfb
+    description: Humid continental climate — cold snowy winters, warm humid summers.
+landmarks:
+  - name: Red Square and the Moscow Kremlin
+    unescoWorldHeritage: true
+  - name: Saint Basil's Cathedral
+  - name: Bolshoi Theatre
+  - name: Tretyakov Gallery
+  - name: Gorky Park
+culturalTraits:
+  - "Russia's political, economic and cultural capital — the centre of finance, media and government"
+  - "Fast-paced, professional and international business culture"
+  - "World-class theatre, ballet and gallery scene (Bolshoi, Tretyakov, Garage)"
+  - "Metro system famous for ornate 1930s-1950s stations (a city landmark in itself)"
+prideOf:
+  - "Metro architecture and scale (one of the world's most used rail systems)"
+  - "Kremlin and Red Square as national symbols"
+  - "Ballet, theatre and the arts"
+  - "Economic dynamism and modern skylines (Moscow City business district)"
+animals:
+  popular:
+    - Eurasian red squirrel
+    - Corvids (hooded crow)
+  unique:
+    - Moscow's park fox and hare populations
+industries:
+  - Finance and banking
+  - Technology and IT headquarters
+  - Media and broadcasting
+  - Manufacturing and aerospace engineering
+  - Retail and e-commerce
+sports:
+  - Football (CSKA, Spartak, Dynamo, Lokomotiv)
+  - Ice hockey
+  - Chess
+  - Figure skating
+entertainment:
+  - season: summer
+    items:
+      - "Open-air cinema and concerts in Gorky and Zaryadye parks"
+      - "City Day celebrations (early September)"
+      - "Outdoor dining along the Moskva River embankments"
+  - season: winter
+    items:
+      - "Ice-skating at GUM rink on Red Square and in Gorky Park"
+      - "New Year city lights and Christmas fairs"
+  - season: spring
+    items:
+      - "Victory Day parade on Red Square (9 May)"
+      - "Cosmonautics Day commemorations"
+  - season: autumn
+    items:
+      - "Golden autumn in the parks (Kolomenskoye, Tsaritsyno)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Moscow borscht and pelmeni"
+      - "Blini with caviar"
+  - season: winter
+    items:
+      - "Olivier salad and herring under a fur coat (New Year)"
+  - season: summer
+    items:
+      - "Okroshka (cold kvas soup)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Smart and international business attire in the capital"
+  - season: winter
+    items:
+      - "Heavy coats, scarves and fur-lined hats are essential in Moscow winters"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 9:00am-6:00pm; Moscow's business culture is bustling, with many people commuting via metro from across the metropolitan region."
+  lunchBreakTiming: "A ~1-hour lunch around 1:00pm; business lunches are very common and often used for networking."
+  notableShutdownPeriods:
+    - period: early January
+      description: "The New Year holiday window (1-8 January) sees most offices closed; much of the city rests, though retail and entertainment stay partly open."
+  notes: "Sunday is the standard rest day for offices; shops, malls and eateries open daily, often late into the evening. City Day is celebrated in early September."
