@@ -1,0 +1,124 @@
+code: WHOLE
+name:
+  eng: United Arab Emirates
+  local:
+    - languageCode: ara
+      value: الإمارات العربية المتحدة
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate — very hot, humid summers and mild winters; coastal humidity along the Arabian Gulf and Gulf of Oman.
+landmarks:
+  - name: Burj Khalifa, the world's tallest building (Dubai)
+  - name: Sheikh Zayed Grand Mosque (Abu Dhabi)
+  - name: Palm Jumeirah and Jumeirah beach (Dubai)
+  - name: Abu Dhabi's Louvre Abu Dhabi and Corniche
+  - name: Liwa Oasis and the Rub' al Khali (Empty Quarter) dunes
+  - name: Al Ain Oasis
+    unescoWorldHeritage: true
+culturalTraits:
+  - "A federation of seven emirates blending a traditional Arab-Islamic heritage with a modern, ultra-cosmopolitan city-state culture"
+  - "Enormous ethnic and cultural diversity driven by the large expatriate majority"
+  - "Bedouin heritage of hospitality, falconry and the desert"
+  - "A 'can-do', aspirational business culture with global ambition"
+prideOf:
+  - "Rapid modernisation and world-class infrastructure (Burj Khalifa, airports, free zones)"
+  - "Generosity and hospitality rooted in Bedouin and Islamic tradition"
+  - "National unity among the seven emirates"
+  - "Cultural landmarks like the Sheikh Zayed Grand Mosque and Al Ain Oasis"
+animals:
+  popular:
+    - Arabian camel
+    - Arabian oryx
+    - Sand gazelle
+    - Falcon (national symbol)
+  unique:
+    - Arabian leopard (extremely rare, Hajar mountains)
+    - Marine turtles (Green and Hawksbill, Gulf waters)
+    - Dugong (Arabian Gulf)
+industries:
+  - Oil and gas (Abu Dhabi holds most reserves)
+  - Tourism, travel and hospitality
+  - Aviation and logistics (Dubai as a global hub)
+  - Banking, finance and free-zone business services
+  - Real estate and construction
+  - Trade and re-export
+sports:
+  - Football (UAE Pro League)
+  - Cricket (hugely popular among expatriates)
+  - Camel racing and falconry (traditional)
+  - Motor racing (Formula One Abu Dhabi Grand Prix)
+  - Padel and water sports
+religions:
+  - name: Muslim
+    percent: 76.0
+    sourceId: are-religion-cia
+  - name: Christian
+    percent: 12.6
+    sourceId: are-religion-cia
+  - name: Hindu
+    percent: 6.6
+    sourceId: are-religion-cia
+  - name: Buddhist, other and unaffiliated
+    percent: 4.8
+    sourceId: are-religion-cia
+entertainment:
+  - season: winter
+    items:
+      - "Outdoor festivals, food festivals and beach activities (pleasant winter climate)"
+      - "Dubai Shopping Festival and major global events"
+      - "Desert safaris and dune camping"
+  - season: summer
+    items:
+      - "Air-conditioned indoor attractions, malls and water parks to beat the heat"
+      - "Indoor theme parks (IMG Worlds of Adventure, Warner Bros World)"
+  - season: allYear
+    items:
+      - "National Day (2 December) and Union Day celebrations"
+      - "Holiday markets and cultural events during the holy month and Eid"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Machboos — spiced rice with fish or meat (the national dish)"
+      - "Harees — a slow-cooked wheat-and-meat porridge"
+      - "Regeb and madrooba — local stews; fresh dates and Arabic coffee"
+      - "A rich international dining scene reflecting the expatriate population"
+  - season: allYear
+    items:
+      - "Iftar meals and the sweet luqaimat (bitesized fried dumplings) during the holy month of Ramadan"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men: the white kandura (thobe) with a ghutra head-covering; women: the black abaya"
+      - "Expatriates wear Western dress; modest, smart-casual is the norm in public"
+  - season: winter
+    items:
+      - "Light jackets and layers during the mild winter months"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "The official weekend is Saturday-Sunday; government and office work typically runs Monday-Thursday plus Friday morning and a Friday half-day in some entities. Private offices commonly run 9:00am-6:00pm (sometimes with a break)."
+  lunchBreakTiming: "A midday break (roughly 1:00-2:00pm) is common; Friday prayer creates a longer midday break in some workplaces."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Government and many offices close for the Eid holidays; retail and hospitality often stay open with special events."
+    - period: Ramadan
+      description: "Working hours shorten during Ramadan; a late-evening business and leisure rhythm develops."
+  notes: "Business life is fast-paced and international, heavily driven by expatriates and global markets. Friday remains religiously significant (Friday prayer mid-day), even though the official weekend is Saturday-Sunday as of 2022."
+sources:
+  - id: are-religion-cia
+    name: "CIA World Factbook — United Arab Emirates (religion)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/united-arab-emirates/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Approximate religious composition: Muslim ~76%, Christian ~12.6%, Hindu ~6.6%, Buddhist and other ~4.8%. Indicative; the UAE is religiously tolerant of expatriate faiths."

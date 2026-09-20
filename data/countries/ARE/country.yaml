@@ -1,0 +1,162 @@
+alpha3: ARE
+alpha2: AE
+name:
+  eng: United Arab Emirates
+  local:
+    - languageCode: ara
+      value: الإمارات العربية المتحدة
+flagEmoji: "🇦🇪"
+capital: Abu Dhabi
+isSovereign: true
+# Classified federal: the UAE is a federation of seven emirates (Abu Dhabi,
+# Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah and Fujairah), each with
+# substantial autonomy and a ruling royal family, per the 1971 Constitution.
+# Real ISO 3166-2 (emirate) region files are curated alongside the WHOLE
+# fallback.
+governanceType: federal
+iso3166_2_prefix: AE
+hasSubdivisions: true
+languageUsage:
+  - languageCode: ara
+    domain: official
+    speakersShare: 1.0
+    sourceId: are-constitution
+  - languageCode: ara
+    domain: locallySpoken
+    speakersShare: 0.30
+    sourceId: are-census-2020
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.90
+    sourceId: are-census-2020
+  - languageCode: hin
+    domain: locallySpoken
+    speakersShare: 0.25
+    sourceId: are-census-2020
+ethnicGroups:
+  - group: Emirati nationals
+    percent: 11.6
+    sourceId: are-census-2020
+  - group: Expatriates (incl. South Asian — Indian, Pakistani, Bangladeshi — Filipino, Egyptian and other Arab and Western nationals)
+    percent: 88.4
+    sourceId: are-census-2020
+timezones:
+  - name: Asia/Dubai
+    standardUtcOffset: "UTC+4"
+    observesDst: false
+currency:
+  code: AED
+  symbol: "د.إ"
+  name: UAE dirham
+legalConstraints:
+  - topic: "data protection regime"
+    description: "Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (in force 2 January 2022) regulates the processing of personal data, including extraterritorially for UAE residents; it establishes consent, data-subject rights, security obligations and cross-border transfer rules, overseen by the UAE Data Office. (Free-zone regimes such as the DIFC and ADGM have their own data-protection laws.)"
+    sourceId: are-pdpl-45-2021
+  - topic: "price display and VAT"
+    description: "Prices are displayed in UAE dirhams; a 5% value-added tax (VAT) applies to most goods and services and is generally included in displayed prices."
+    sourceId: are-federal-vat
+  - topic: "consumer withdrawal right"
+    description: "Consumer-protection rules (Federal Law No. 15 of 2020 on Consumer Protection) guarantee quality, transparency and a right to redress; online sellers generally offer return policies, though a nationwide statutory distance-withdrawal right is less formally codified than in the EU — check each merchant's policy."
+    sourceId: are-consumer-law-15-2020
+  - topic: "trading hours and weekend"
+    description: "The UAE's weekend is Saturday-Sunday (as of 2022, aligning with global markets; Friday remains a religious observance with short or delayed working hours in some sectors). Government offices run Monday-Thursday plus morning and a half-day Friday in many entities."
+    sourceId: are-labor-law
+paymentMethodShares:
+  - method: "bank card (credit and debit, contactless)"
+    percent: 57.0
+    sourceId: are-fis-payments-2023
+  - method: "cash"
+    percent: 18.0
+    sourceId: are-fis-payments-2023
+  - method: "digital wallet / mobile payment (Apple Pay, Google Pay, Careem Pay, payit)"
+    percent: 17.0
+    sourceId: are-fis-payments-2023
+  - method: "other (bank transfer, e-comm, BNPL)"
+    percent: 8.0
+    sourceId: are-fis-payments-2023
+paymentCulture:
+  popularMethods:
+    - "Contactless credit/debit cards (Visa, Mastercard); card payments dominate point of sale"
+    - "Apple Pay and Google Pay — widely accepted and increasingly the default"
+    - "Careem Pay and payit (Emirates NBD / Etisalat wallets)"
+    - "BNPL providers (Tabby, Tamara) — growing fast in e-commerce"
+    - "Cash — still common for tips, small street purchases and some P2P"
+  tipping:
+    expected: false
+    typicalAmount: "10-15%"
+    autoIncludedInBill: false
+    note: "A service charge is often added to hotel and restaurant bills; otherwise a 10-15% tip is customary. Tipping drivers, porters and valets (a few dirhams) is expected."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Respectful and courteous address is important. Use titles and honorifics initially, then first names as relationships warm. Business culture blends Arabian hospitality with an international, fast-paced style dominated by the large expatriate workforce. English is the lingua franca of business."
+  greetingNorms: "In a mixed international setting, a firm handshake with good eye contact is standard among men; with Emirati or Muslim women, wait for her to offer her hand or nod instead. The greeting 'As-salamu alaykum' and asking about family are expected among Arabs. Use the right hand for handshakes and passing items."
+  meetingEtiquette: "Punctuality is respected though some meetings run late. Meetings open with coffee, tea and small talk before business; being warm and rapport-building matters. Hierarchy and titles carry weight. Decision-making involves senior people and can take time; relationships and trust are prerequisite. Appointments should be arranged in advance; Friday afternoons and prayer times are poor slots."
+  topicsToAvoid:
+    - "Religion and politics — sensitive; keep conversation respectful and non-critical"
+    - "The royal families and government"
+    - "Gulf/regional political disputes"
+    - "Personal questions about family wealth"
+    - "Alcohol, unless the topic arises appropriately in a licensed context"
+  giftGivingNotes: "Gift-giving is appreciated once a relationship is established. High-quality dates, perfumes (oud) and quality items are safe; sweets are well received. Do not give alcohol or pork products. Offer and receive gifts with the right hand; accept graciously even if you may not open it immediately."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: AE-AZ
+    file: distinct-regions/ae-az.yaml
+    adminUnitCodes: [AE-AZ]
+  - code: AE-DU
+    file: distinct-regions/ae-du.yaml
+    adminUnitCodes: [AE-DU]
+  - code: AE-SH
+    file: distinct-regions/ae-sh.yaml
+    adminUnitCodes: [AE-SH]
+sources:
+  - id: are-constitution
+    name: "Constitution of the United Arab Emirates (1971, as amended)"
+    publisher: "Government of the United Arab Emirates"
+    url: "https://u.ae/en/about-the-uae/the-constitution-of-the-uae"
+    year: 1971
+    accessedDate: "2026-09-20"
+    note: "Arabic is the official language of the federation; English is widely used as a second language in government and business."
+  - id: are-census-2020
+    name: "UAE Federal Competitiveness and Statistics Centre demographic data (2020)"
+    publisher: "Federal Competitiveness and Statistics Centre (FCSC)"
+    url: "https://fcsc.gov.ae/"
+    year: 2020
+    accessedDate: "2026-09-20"
+    note: "Approximate demographic composition: Emirati nationals ~11.6%, expatriates ~88.4% of residents. Arabic ~30% locally spoken; English very widely used (~90%); Hindi/Urdu and other South Asian languages substantial due to the large migrant workforce. Percentages are indicative and vary by source."
+  - id: are-pdpl-45-2021
+    name: "Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data"
+    publisher: "United Arab Emirates Government"
+    url: "https://uaelegislation.gov.ae/en/legislations/1972"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Core federal personal-data-protection law; in force 2 January 2022; consent, data-subject rights, security, impact assessments and cross-border transfer rules."
+  - id: are-federal-vat
+    name: "UAE Federal Decree-Law No. 8 of 2017 on Value Added Tax"
+    publisher: "United Arab Emirates Government"
+    url: "https://u.ae/en/information-and-services/money/federal-decrees"
+    year: 2017
+    accessedDate: "2026-09-20"
+    note: "Imposes a 5% VAT on most goods and services; prices are generally displayed VAT-inclusive in UAE dirhams."
+  - id: are-consumer-law-15-2020
+    name: "Federal Law No. 15 of 2020 on Consumer Protection"
+    publisher: "United Arab Emirates Government"
+    url: "https://u.ae/en/information-and-services"
+    year: 2020
+    accessedDate: "2026-09-20"
+    note: "Consumer guarantees, transparency, quality standards and redress rights; return policies are typically set by merchants."
+  - id: are-labor-law
+    name: "UAE Labor Law and official working week"
+    publisher: "United Arab Emirates Government"
+    url: "https://www.mohre.gov.ae/"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "Official Saturday-Sunday weekend; standard working hours and rest-day arrangements."
+  - id: are-fis-payments-2023
+    name: "FIS Global Payments Report 2023 (UAE) and UAE payment studies"
+    publisher: "FIS (Fidelity National Information Services)"
+    url: "https://www.fisglobal.com/global-payments-report"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Approximate payment-method shares at point of sale: cards ~57%, cash ~18%, digital wallets ~17%, other ~8%. Composite estimate derived from FIS-reported POS shares (credit 40%, debit 17%, cash 18%, wallets)."

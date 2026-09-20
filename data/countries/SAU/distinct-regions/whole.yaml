@@ -1,0 +1,128 @@
+code: WHOLE
+name:
+  eng: Saudi Arabia
+  local:
+    - languageCode: ara
+      value: السعودية
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate across most of the country — extremely hot summers, mild winters, very low rainfall.
+  - koppenCode: BSh
+    description: Hot semi-arid climate in parts of the south-west highlands (Asir).
+landmarks:
+  - name: Masjid al-Haram (the Grand Mosque) and the Kaaba, Makkah
+    unescoWorldHeritage: true
+  - name: Al-Masjid an-Nabawi (the Prophet's Mosque), Medina
+  - name: Mada'in Salih (Hegra), the Nabataean rock-cut tombs at Al-Ula
+    unescoWorldHeritage: true
+  - name: Diriyah (At-Turaif), the birthplace of the Saudi state near Riyadh
+    unescoWorldHeritage: true
+  - name: Edge of the World (Jebel Fihrayn) cliffs
+  - name: Al-Ula and the marvellous sandstone formations of the desert north-west
+culturalTraits:
+  - "Deep Islamic and Arab heritage — the custodian of the two holiest sites in Islam (Makkah and Medina)"
+  - "Hospitality (karam) is a core value — guests are welcomed with coffee, dates and generous reception"
+  - "Strong tribal and family bonds; a society built on respect for elders and community"
+  - "A rapidly modernising culture under Vision 2030, blending tradition with economic transformation"
+  - "Conservative social norms balanced by a growing public and cultural scene"
+prideOf:
+  - "Being the birthplace of Islam and home to its two holiest mosques"
+  - "Arabian hospitality and generosity"
+  - "Arabia's heritage — Bedouin culture, poetry, falconry and the Arabic language"
+  - "The dramatic desert landscapes, from the Empty Quarter to the Asir mountains"
+  - "The modern achievements of Vision 2030 (NEOM, Red Sea project, cultural revival)"
+animals:
+  popular:
+    - Arabian camel (dromedary)
+    - Arabian oryx
+    - Sand gazelle
+    - Falcon (used in traditional falconry)
+  unique:
+    - Arabian leopard (critically endangered, Asir mountains)
+    - Arabian sand cat
+    - Arabian wolf
+industries:
+  - Oil and natural-gas production and export (the world's largest crude exporter)
+  - Petrochemicals and refining
+  - Construction and infrastructure (Vision 2030 giga-projects)
+  - Finance and banking
+  - Tourism, hospitality and pilgrim services (Hajj and Umrah)
+sports:
+  - Football (association football is the national passion; Saudi Pro League)
+  - Camel racing and horse racing
+  - Falconry
+  - Cricket (popular among the expatriate community)
+  - Formula One (Jeddah Grand Prix)
+religions:
+  - name: Muslim
+    percent: 96.0
+    sourceId: sau-religion-cia
+  - name: Christian, Hindu, Buddhist and other (mainly foreign workers)
+    percent: 4.0
+    sourceId: sau-religion-cia
+entertainment:
+  - season: winter
+    items:
+      - "Cultural festivals and the Al-Ula and Diriyah music and culture seasons"
+      - "Outdoor desert camping (winter nights are mild and pleasant)"
+      - "Formula One Jeddah Grand Prix and major sporting events"
+  - season: summer
+    items:
+      - "Escape to the cooler Asir Highlands and Taif for summer getaways"
+      - "Festivals in the mountain cities of the south-west"
+      - "Saudi Seasons cultural and entertainment events across the Kingdom"
+  - season: allYear
+    items:
+      - "Hajj and Umrah pilgrimages (year-round for Umrah)"
+      - "National Day celebrations (23 September)"
+      - "Shopping and modern malls in the big cities"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kabsa — spiced rice with meat (the national dish)"
+      - "Mandi — slow-cooked rice and meat from the south"
+      - "Jareesh and harees — cracked-wheat dishes"
+      - "Dates and Arabic coffee (qahwa) as the centrepiece of hospitality"
+  - season: winter
+    items:
+      - "Warm stews and soups (tharid) during the cooler months"
+  - season: summer
+    items:
+      - "Fresh fruit, especially from Taif (grapes, figs, pomegranates)"
+      - "Cold drinks and juices with meals"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men: the white thobe (robe) with a ghutra and iqal (head coverings)"
+      - "Women: the abaya — a loose-fitting outer garment"
+  - season: winter
+    items:
+      - "Warmer layered cloaks (bisht) over the thobe in cooler weather"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "The public and private sectors traditionally run Sunday through Thursday with Friday (and often Saturday) as the weekend; many offices operate roughly 8:00am/9:00am to 5:00pm/6:00pm with a prayer-and-lunch break in the early afternoon."
+  lunchBreakTiming: "A midday break around 12:00-1:00pm for prayer (Dhuhr) and lunch is common; many shops close briefly for prayers during the day."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Government and most businesses close for the Eid holidays (a few days each). Private retail may stay partly open."
+    - period: Ramadan
+      description: "Working hours shorten during Ramadan; offices often open later and close earlier, and a late-evening business rhythm develops."
+  notes: "Friday is the main weekly rest day. Many government offices now also observe Saturday as part of a longer weekend, while the private sector is increasingly moving to a Saturday-Sunday weekend, though Friday remains religiously significant. Prayer-time closures mean brief pauses in retail during the five daily prayers."
+sources:
+  - id: sau-religion-cia
+    name: "CIA World Factbook — Saudi Arabia (religion)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/saudi-arabia/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Approximate religious composition: Muslim ~96% (Saudi citizens overwhelmingly Sunni, with a Shia minority in the Eastern Province), with Christian, Hindu, Buddhist and other faiths present mainly among foreign workers."

@@ -1,0 +1,91 @@
+code: YE-SN
+name:
+  eng: Sana'a Governorate
+  local:
+    - languageCode: ara
+      value: محافظة صنعاء
+climates:
+  - koppenCode: Cwb
+    description: Highland temperate climate — mild, relatively cool weather year-round with a summer wet season; pleasant compared to Yemen's hot coastal plains.
+landmarks:
+  - name: The Old City of Sana'a with its iconic tower-houses
+    unescoWorldHeritage: true
+  - name: Dar al-Hajar rock palace
+  - name: The Great Mosque of Sana'a
+  - name: Souk al-Milh (the old markets of the city)
+culturalTraits:
+  - "Sana'a is the historic and (internationally recognised) political capital, and one of the world's oldest continuously inhabited cities"
+  - "Famous for its unique architecture — tower-houses decorated with white geometric gypsum windows"
+  - "A centre of Yemeni scholarship, poetry and Arabic-language tradition"
+  - "A deeply traditional highland society"
+prideOf:
+  - "The UNESCO-listed Old City and its millennium-old tower-houses"
+  - "Its status as a cradle of Arab culture, language and learning"
+  - "The warm highland climate and dramatic mountain setting"
+  - "Yemeni hospitality and poetry"
+animals:
+  popular:
+    - Arabian camel
+    - Hamadryas baboon
+    - Arabian tahr
+  unique:
+    - Yemeni endemic birds (Sana'a's highlands host several distinct species)
+industries:
+  - Agriculture (highland wheat, qat and fruit)
+  - Trade and the historic souks
+  - Government and public administration
+  - Small-scale crafts and handicrafts
+sports:
+  - Football (Al Ahli Sana'a, Al Wehda)
+  - Traditional village sports
+entertainment:
+  - season: summer
+    items:
+      - "The highland summer wet season brings greenery and cooler days — a favourite season"
+  - season: winter
+    items:
+      - "Crisp, mild winter days ideal for exploring the Old City"
+  - season: allYear
+    items:
+      - "Qat sessions and coffee-house gatherings"
+      - "Exploring the UNESCO Old City's lanes, markets and mosques"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Saltah — the national stew, at its most authentic in Sana'a"
+      - "Bint al-Sahn (honey cake) and strong Yemeni coffee"
+      - "Aseed (wheat flour and honey)"
+  - season: summer
+    items:
+      - "Fresh highland fruit and vegetables"
+  - season: winter
+    items:
+      - "Warm winter stews and soups"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the futa and shirt, often with a jambiya; women wear modest traditional dress"
+  - season: winter
+    items:
+      - "Jackets and layers are needed in the cool highland winter"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "The weekend is Friday-Saturday. Shops and offices run Saturday-Thursday (Thursday a short day), roughly 9:00am-4:00pm with a midday qat-session lull."
+  lunchBreakTiming: "Lunch followed by a qat chew in the early-to-mid afternoon is customary; business slows markedly."
+  notableShutdownPeriods:
+    - period: Eid holidays
+      description: "Business largely closes during Eid al-Fitr and Eid al-Adha."
+    - period: Ramadan
+      description: "Shortened hours; activity moves to the evening."
+  notes: "Sana'a has been under de facto Houthi control since 2014 and remains a sensitive security environment. Verifying current conditions and access before any planning is essential."

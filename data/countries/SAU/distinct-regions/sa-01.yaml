@@ -1,0 +1,92 @@
+code: SA-01
+name:
+  eng: Riyadh Province
+  local:
+    - languageCode: ara
+      value: منطقة الرياض
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate — sweltering summers, mild winters and very low rainfall; occasional dust storms.
+landmarks:
+  - name: Diriyah (At-Turaif), the birthplace of the Saudi state
+    unescoWorldHeritage: true
+  - name: Kingdom Centre Tower and the Riyadh skyline
+  - name: Masmak Fortress (historic Riyadh)
+  - name: Al Faisaliyah and Rakah malls and the National Museum of Saudi Arabia
+  - name: Edge of the World (Jebel Fihrayn)
+culturalTraits:
+  - "The political and administrative heart of the Kingdom — seat of government and the royal family"
+  - "The historic capital of the house of Saud and of the Najd region"
+  - "A fast-modernising metropolis with grand giga-projects and a growing cultural scene"
+  - "Deep-rooted Najdi identity — hospitality, conservatism and pride in Arab heritage"
+prideOf:
+  - "Diriyah and the founding history of the Kingdom"
+  - "The rapid transformation into a global business and investment hub"
+  - "Najdi traditions, poetry and hospitality"
+  - "Modern landmarks like Kingdom Centre and the King Abdulaziz Historical Centre"
+animals:
+  popular:
+    - Arabian camel
+    - Arabian oryx
+    - Sand gazelle
+  unique:
+    - Arabian sand cat
+industries:
+  - Government and public administration
+  - Banking, finance and professional services
+  - Oil and energy sector headquarters
+  - Technology and digital infrastructure
+  - Retail, real estate and construction
+sports:
+  - Football (Al Hilal, Al Nassr — top Saudi clubs)
+  - Camel racing
+  - Equestrian sports
+  - Motor racing
+entertainment:
+  - season: winter
+    items:
+      - "Riyadh Season — the vast entertainment festival with concerts, shows and attractions (Oct-Mar)"
+      - "Desert camping and winter getaways"
+  - season: summer
+    items:
+      - "Indoor entertainment venues and malls (escaping the heat)"
+  - season: allYear
+    items:
+      - "National Day and cultural events at the Diriyah district"
+      - "Museum and gallery visits (National Museum, Murabba Palace)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kabsa — the essential Riyadh and Najdi rice-and-meat dish"
+      - "Matazeez and marqooq — traditional wheat-on-top stews of the Najd"
+      - "Dates and Arabic coffee"
+  - season: winter
+    items:
+      - "Warm Najdi stews (jasheed) in the cooler months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The white thobe with ghutra and iqal for men; the abaya for women"
+  - season: winter
+    items:
+      - "A bisht (cloak) worn over the thobe on formal occasions in cooler weather"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Government and corporate offices commonly run Sunday-Thursday, roughly 8:00am-5:00pm, with a prayer and lunch break midday; many international firms also observe part of Saturday off."
+  lunchBreakTiming: "A midday break around 12:00-1:00pm for Dhuhr prayer and lunch is standard."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Offices close for the Eid holidays; shops may keep shorter hours."
+    - period: Ramadan
+      description: "Working hours shorten during Ramadan; a late-evening business life develops."
+  notes: "Friday is the main rest day. Riyadh is the nerve centre of the Kingdom — expect a formal, hierarchical and relationship-driven business culture."

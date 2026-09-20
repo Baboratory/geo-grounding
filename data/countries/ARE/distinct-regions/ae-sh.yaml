@@ -1,0 +1,92 @@
+code: AE-SH
+name:
+  eng: Sharjah
+  local:
+    - languageCode: ara
+      value: الشارقة
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate with coastal humidity — very hot summers, mild winters, low rainfall.
+landmarks:
+  - name: Al Noor Island and the Al Qasba cultural district
+  - name: Sharjah Museum of Islamic Civilisation and the Heritage Area
+  - name: Sharjah Art Museum and the House of Calligraphy
+  - name: The Heart of Sharjah — the restored historical district
+  - name: Al Majaz Waterfront and coastal Corniche
+culturalTraits:
+  - "The cultural capital of the Arab world (UNESCO designation) — renowned for arts, literature and heritage"
+  - "A more traditional and family-oriented emirate than its glitzier neighbour Dubai"
+  - "Home to a large university and vibrant cultural scene"
+  - "Conservative social norms with a strong emphasis on museums and Islamic arts"
+prideOf:
+  - "Being the UAE's cultural capital — museums, the International Book Fair and poetry"
+  - "Careful preservation of its heritage districts and souks"
+  - "A pioneering education and publishing hub (Khalid Bin Walid, AUS)"
+  - "Warm, family-centred community life"
+animals:
+  popular:
+    - Arabian oryx
+    - Sand gazelle
+    - Falcon
+  unique:
+    - Marine turtles
+    - Arabian sand cat
+industries:
+  - Culture, heritage and tourism
+  - Education and publishing
+  - Light manufacturing and small industry (Sharjah ports and free zones)
+  - Retail and wholesale trade
+  - Media and creative industries
+sports:
+  - Football (Al Qadsia and other Sharjah clubs)
+  - Cricket (Sharjah Cricket Association Stadium is world-famous)
+  - Water sports
+entertainment:
+  - season: winter
+    items:
+      - "Sharjah Biennial and cultural festivals"
+      - "Outdoor events along the Al Majaz waterfront and Al Qasba"
+  - season: summer
+    items:
+      - "Indoor museums, galleries and air-conditioned cultural venues"
+  - season: allYear
+    items:
+      - "The Sharjah International Book Fair (annual, an Arab-world highlight)"
+      - "Heritage evenings in the Heart of Sharjah"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Classic Emirati cuisine — machboos, madrooba and Harees"
+      - "Fresh seafood from the Gulf and Sharjah's busy fish market"
+  - season: winter
+    items:
+      - "Warm traditional dishes in the cool months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The white kandura and ghutra for men; the abaya for women"
+      - "Sharjah tends toward more conservative, modest dress than Dubai"
+  - season: winter
+    items:
+      - "Light layers during winter"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Saturday-Sunday weekend; offices typically 9:00am-6:00pm. Sharjah is one of the more traditional emirates — modest dress and respect for local norms matter."
+  lunchBreakTiming: "A midday break around 1:00-2:00pm."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Offices close for Eid; cultural events continue."
+    - period: Ramadan
+      description: "Shortened hours and a nocturnal rhythm; Sharjah observes fasting norms especially strictly (no eating in public during daylight)."
+  notes: "Sharjah does not have the same licensed-nightlife scene as Dubai; visitors should observe stricter cultural norms. The emirate's calendar is punctuated by major cultural events and book fairs."

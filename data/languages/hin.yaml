@@ -3,6 +3,8 @@ name:
   eng: Hindi
   local: हिन्दी
 commonPhrases:
-  hello: नमस्ते
-  thankYou: धन्यवाद
-  goodbye: अलविदा
+  hello: नमस्ते (namaste)
+  thankYou: धन्यवाद (dhanyavād)
+  goodbye: अलविदा (alvidā)
+  "yes": हाँ (hāṁ)
+  "no": नहीं (nahīṁ)
