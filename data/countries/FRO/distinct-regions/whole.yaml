@@ -1,0 +1,97 @@
+code: WHOLE
+name:
+  eng: Faroe Islands
+  local:
+    - languageCode: fao
+      value: Føroyar
+    - languageCode: dan
+      value: Færøerne
+climates:
+  - koppenCode: Cfc
+    description: Subpolar oceanic climate — cool, windy, cloudy and wet year-round, with mild winters and cool summers moderated by the North Atlantic.
+landmarks:
+  - name: Sørvágsvatn (Leitisvatn)
+    description: A lake perched at the edge of sheer sea cliffs on Vágar, so high it appears to float above the ocean.
+  - name: Kirkjubøur
+    description: The historic heart of the islands, site of the medieval Saint Magnus Cathedral ruins.
+  - name: Slættaratindur
+    description: The highest peak in the Faroe Islands, on Eysturoy.
+culturalTraits:
+  - The Faroese chain dance (føroyski dansurin), a medieval circle dance kept alive as national heritage
+  - Deep-rooted Norse cultural identity and the Faroese language revival
+  - A strong tradition of hand-knitted Faroese woollen shawls and garments
+prideOf:
+  - The Faroese language and oral ballad tradition
+  - The unique interplay of sheep farming with a dramatic Atlantic landscape
+  - Sustainable aquaculture and green energy ambitions
+animals:
+  popular:
+    - Atlantic puffin
+    - Faroese sheep (the islands take their name from them)
+  unique:
+    - The Faroese house mouse
+industries:
+  - Fishing and fish processing
+  - Aquaculture (farmed salmon)
+  - Tourism
+  - Renewables and offshore services
+sports:
+  - Football (soccer)
+  - Rowing (traditional wooden-boat regattas)
+  - Handball
+# religions intentionally omitted: no officially published, URL-citable
+# denomination breakdown for the Faroe Islands was found during verification
+# (the majority is Lutheran but exact shares are not officially tabulated).
+entertainment:
+  - season: summer
+    items:
+      - Ølavsøka (the national festival on 28-29 July in Tórshavn, chain dancing and rowing races)
+      - Village festivals throughout the islands
+  - season: winter
+    items:
+      - Indoor chain-dance evenings and local concerts in village community halls
+traditionalDishes:
+  - season: allYear
+    items:
+      - Ræstkjøt (wind-dried and slightly fermented mutton)
+      - Skerpikjøt (a drier, darker variant of ræstkjøt)
+      - Fresh and dried fish
+  - season: winter
+    items:
+      - Garnatálg (the seasonal fat of the pilot whale)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Faroese national dress (føroysk klæði), worn for festivals and confirmations
+      - The distinctive hand-knitted Faroese shawl
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8]
+  - season: winter
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  lunchBreakTiming: "Office hours run through a shortened lunch; many institutions operate roughly 8:00am-4:00pm."
+  typicalWorkHours: "Weekday office hours about 8:00am-4:00pm, with summer hours sometimes shorter."
+  restDays:
+    - saturday
+    - sunday
+  notes: "Public life revolves around the villages; the Løgting (parliament) and Tórshavn institutions drive the business-day rhythm."
+sources:
+  - id: visit-faroe-islands-seasons
+    name: "Visit Faroe Islands — Seasons and events"
+    publisher: "Visit Faroe Islands (official tourism board)"
+    url: "https://www.visitfaroeislands.com"
+    accessedDate: "2026-09-20"
+    note: "Source for the summer festival season (centred on Ølavsøka in late July) versus the quieter winter season."
+  - id: home-rule-act-1948
+    name: "Faroe Islands Home Rule Act (1948)"
+    publisher: "Government of the Faroe Islands"
+    url: "https://www.government.fo/en/the-government/the-home-rule-act"
+    accessedDate: "2026-09-20"
+    note: "Source for the constitutional setting of the Faroese language and the self-governing community."
+  - id: wikipedia-faroe-islands
+    name: "Faroe Islands"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Faroe_Islands"
+    accessedDate: "2026-09-20"
+    note: "Source for geography, the chain dance tradition, and the national festival Ølavsøka."

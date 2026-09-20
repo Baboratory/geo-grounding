@@ -1,0 +1,97 @@
+code: WHOLE
+name:
+  eng: Isle of Man
+  local:
+    - languageCode: eng
+      value: Isle of Man
+    - languageCode: glv
+      value: Ellan Vannin
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate — mild, wet and windy year-round, cooled by the Irish Sea and warming influence of the Gulf Stream.
+landmarks:
+  - name: Snaefell
+    description: The island's highest mountain (620 m), giving views across to England, Scotland, Wales and Ireland on a clear day.
+  - name: Laxey Wheel
+    description: The largest working waterwheel in the world, an engineering icon of the Victorian mining era.
+  - name: Peel Castle
+    description: Walled fortress on St Patrick's Isle overlooking the harbour town of Peel.
+culturalTraits:
+  - The Tynwald Day ceremony each 5 July, a thousands-of-years-old assembly tradition
+  - A proud Norse-Manx heritage embedded in place names and the Manx Gaelic revival
+  - Motorcycle-racing culture centred on the Isle of Man TT
+prideOf:
+  - Being the home of the world's oldest continuous parliament (Tynwald)
+  - The Manx Gaelic language revival
+  - Three legs symbol (the "Tree Cassyn") and the island's distinct identity
+animals:
+  popular:
+    - Manx Loaghtan sheep
+    - Seal colonies around the coast
+  unique:
+    - Tailless Manx cat
+industries:
+  - Financial services and insurance
+  - Film and television production
+  - Tourism and hospitality
+  - Agriculture (hill farming)
+sports:
+  - Motorcycle racing (the Isle of Man TT)
+  - Football (soccer)
+  - Rugby union
+  - Cricket
+# religions intentionally omitted: the 2021 census shows a Christian majority
+# with a large "no religion" share, but denomination details are not centrally
+# tabulated in a URL-citable official format, so none is asserted here.
+entertainment:
+  - season: summer
+    items:
+      - Isle of Man TT races (late May to early June)
+      - Tynwald Day celebrations (5 July)
+  - season: winter
+    items:
+      - Indoor concerts and theatre in Douglas
+traditionalDishes:
+  - season: allYear
+    items:
+      - Queen scallops ("queenies") from Manx waters
+      - Kippers (smoked herring)
+  - season: summer
+    items:
+      - Fresh Manx lobster and crab
+traditionalClothing:
+  - season: allYear
+    items:
+      - Smart-casual island dress
+      - Manx tartan worn for ceremonial and paddock-day occasions
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8]
+  - season: winter
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  lunchBreakTiming: "A full-lunch pause is less standard than on the continent; many offices take a shorter break."
+  typicalWorkHours: "Weekday office hours roughly 9:00am-5:00pm."
+  restDays:
+    - saturday
+    - sunday
+  notes: "Financial-services culture dominates Douglas; the summer TT fortnight is a major event that reshapes island life."
+sources:
+  - id: visit-isle-of-man-events
+    name: "Visit Isle of Man — TT and events"
+    publisher: "Visit Isle of Man (official tourism board)"
+    url: "https://www.visitisleofman.com"
+    accessedDate: "2026-09-20"
+    note: "Source for the summer event season, principally the Isle of Man TT and related gatherings."
+  - id: tynwald-court
+    name: "Tynwald — the Isle of Man's parliament"
+    publisher: "Tynwald"
+    url: "https://www.tynwald.org.im"
+    accessedDate: "2026-09-20"
+    note: "Source for Tynwald Day and the world's oldest continuous parliament claim."
+  - id: wikipedia-isle-of-man
+    name: "Isle of Man"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Isle_of_Man"
+    accessedDate: "2026-09-20"
+    note: "Source for geography, landmarks (Snaefell, Laxey Wheel), and the Manx cat and Loaghtan sheep."

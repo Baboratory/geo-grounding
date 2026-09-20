@@ -1,0 +1,99 @@
+code: WHOLE
+name:
+  eng: Guernsey
+  local:
+    - languageCode: eng
+      value: Guernsey
+    - languageCode: fra
+      value: Guernesey
+    - languageCode: nrf
+      value: Guernési
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate with mild winters and warm summers, slightly sunnier and drier than the mainland UK thanks to the surrounding sea.
+landmarks:
+  - name: Castle Cornet
+    description: A historic castle guarding the harbour of Saint Peter Port since the 13th century.
+  - name: Victor Hugo's Hauteville House
+    description: The flamboyant residence where Victor Hugo wrote Les Misérables during his exile.
+  - name: Pleinmont cliffs
+    description: Rugged southern cliffs offering coastal views and wartime fortifications.
+culturalTraits:
+  - A mixed British-Norman heritage visible in language, law and place names
+  - The traditional Guernsey sweater (fisherman's knit), world-famous
+  - Liberation Day (9 May) commemorating the end of the German occupation
+prideOf:
+  - The Guernsey cow (Guernsey dairy breed)
+  - Traditional knitted Guernseys and the islands' horticultural heritage
+  - The annual Viaer Marchi heritage festival
+animals:
+  popular:
+    - Grey seals around the coasts
+    - Gannets and seabird colonies
+  unique:
+    - Guernsey cow (distinctive dairy breed)
+industries:
+  - Financial services
+  - Horticulture (flowers, tomatoes and glasshouse crops)
+  - Tourism
+  - Agriculture (Guernsey cattle)
+sports:
+  - Football (soccer)
+  - Rugby union
+  - Cricket
+  - Sailing
+# religions intentionally omitted: Guernsey is broadly Christian across
+# several denominations, but no official, URL-citable denomination breakdown
+# is published, so none is asserted rather than approximated.
+entertainment:
+  - season: summer
+    items:
+      - Liberation Day events (9 May)
+      - Viaer Marchi, the traditional summer heritage festival of Saint Peter Port
+  - season: winter
+    items:
+      - Indoor concerts and theatre in Saint Peter Port
+traditionalDishes:
+  - season: allYear
+    items:
+      - Gâche (a traditional fruited bread)
+      - The bean jar (a slow-cooked bean and pork casserole, a Guernsey speciality)
+  - season: summer
+    items:
+      - Local crab and lobster
+traditionalClothing:
+  - season: allYear
+    items:
+      - The Guernsey sweater (the traditional tightly-woven fisherman's sweater)
+      - Smart-casual island dress
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8]
+  - season: winter
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  lunchBreakTiming: "A modest lunch break is common; offices and shops close briefly for lunch."
+  typicalWorkHours: "Weekday office hours roughly 8:30am-5:00pm."
+  restDays:
+    - saturday
+    - sunday
+  notes: "Horticulture and financial services shape the economy; Saint Peter Port is the island's single town and main commercial hub."
+sources:
+  - id: visit-guernsey
+    name: "Visit Guernsey — events and heritage"
+    publisher: "Visit Guernsey (official tourism board)"
+    url: "https://www.visitguernsey.com"
+    accessedDate: "2026-09-20"
+    note: "Source for Liberation Day and the Viaer Marchi summer festival and general seasonal events."
+  - id: britannica-guernsey
+    name: "Guernsey (island and bailiwick, Channel Islands)"
+    publisher: "Encyclopaedia Britannica"
+    url: "https://www.britannica.com/place/Guernsey-island-and-bailiwick-Channel-Islands-English-Channel"
+    accessedDate: "2026-09-20"
+    note: "Source for geography, climate and the island's status."
+  - id: wikipedia-guernsey
+    name: "Guernsey"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Guernsey"
+    accessedDate: "2026-09-20"
+    note: "Source for landmarks (Castle Cornet, Hauteville House), the Guernsey cow and the Guernsey sweater tradition."

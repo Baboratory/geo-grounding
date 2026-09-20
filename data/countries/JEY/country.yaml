@@ -1,0 +1,83 @@
+alpha3: JEY
+alpha2: JE
+name:
+  eng: Jersey
+  local:
+    - languageCode: eng
+      value: Jersey
+    - languageCode: fra
+      value: Jersey
+    - languageCode: nrf
+      value: Jèrri
+flagEmoji: "🇯🇪"
+capital: Saint Helier
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 0.95
+    sourceId: wikipedia-languages-of-jersey
+  # English is now dominant; French has a historical role as the language of
+  # Jersey legal process ("Jersey Legal French"), and Jèrriais (a Norman
+  # language) is spoken by a small minority (roughly 2,600 of about 87,000),
+  # down from 5,720 in 1989.
+  - languageCode: fra
+    domain: official
+    speakersShare: 0.15
+    sourceId: wikipedia-languages-of-jersey
+  - languageCode: nrf
+    domain: official
+    speakersShare: 0.03
+    sourceId: wikipedia-languages-of-jersey
+  - languageCode: por
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: graphicmaps-jersey-languages
+timezones:
+  - name: Europe/Jersey
+    standardUtcOffset: "UTC+0"
+    observesDst: true
+    dstUtcOffset: "UTC+1"
+    dstPeriod: "Last Sunday in March to last Sunday in October (Western European Time / Western European Summer Time, matching the UK)."
+currency:
+  code: GBP
+  symbol: "£"
+  name: Pound sterling (Jersey pound at par)
+legalConstraints:
+  - topic: "Crown dependency between France and the UK"
+    description: "Jersey is a British Crown dependency (the Bailiwick of Jersey) in the English Channel, self-governing for local matters while the UK is responsible for its external relations and defence. French, in a Jersey-specific legal form, retains a role in legislation along with English."
+    sourceId: wikipedia-jersey
+paymentCulture:
+  popularMethods:
+    - Visa and Mastercard (accepted widely)
+    - Cash (Jersey pound, interchangeable with sterling)
+  tipping:
+    expected: true
+    typicalAmount: "Optional 5-10% in restaurants"
+    autoIncludedInBill: false
+    note: "Modest tipping is common in restaurants and hospitality, in line with UK practice."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: wikipedia-languages-of-jersey
+    name: "Languages of Jersey"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Jersey"
+    accessedDate: "2026-09-20"
+    note: "Source for the official status of English, French and Jèrriais, the dominance of English, speaker counts for Jèrriais, and Portuguese as the main immigrant language."
+  - id: graphicmaps-jersey-languages
+    name: "Jersey Languages — GraphicMaps"
+    publisher: "GraphicMaps"
+    url: "https://www.graphicmaps.com/jersey/languages"
+    accessedDate: "2026-09-20"
+    note: "Source for the share of the population speaking English (about 94.6%) and Portuguese (just under 5% as a minority language)."
+  - id: wikipedia-jersey
+    name: "Jersey"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Jersey"
+    accessedDate: "2026-09-20"
+    note: "Source for Jersey's status as a Crown dependency outside the UK and the Bailiwick structure; Saint Helier is the capital."

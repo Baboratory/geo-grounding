@@ -1,0 +1,75 @@
+alpha3: IMN
+alpha2: IM
+name:
+  eng: Isle of Man
+  local:
+    - languageCode: eng
+      value: Isle of Man
+    - languageCode: glv
+      value: Ellan Vannin
+flagEmoji: "🇮🇲"
+capital: Douglas
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 0.99
+    sourceId: cia-factbook-isle-of-man
+  # Manx Gaelic is de jure an official language (and the historic national
+  # language), but by the 2021 census only roughly 2% of the population has
+  # any knowledge of it; it is the subject of an active revival.
+  - languageCode: glv
+    domain: official
+    speakersShare: 0.02
+    sourceId: cia-factbook-isle-of-man
+timezones:
+  - name: Europe/Isle_of_Man
+    standardUtcOffset: "UTC+0"
+    observesDst: true
+    dstUtcOffset: "UTC+1"
+    dstPeriod: "Last Sunday in March to last Sunday in October (Western European Time / Western European Summer Time, matching the UK)."
+currency:
+  code: GBP
+  symbol: "£"
+  name: Pound sterling (Manx pound at par)
+legalConstraints:
+  - topic: "Crown dependency, not part of the UK"
+    description: "The Isle of Man is a British Crown dependency: a self-governing possession of the Crown that is not part of the United Kingdom. The UK Government is responsible for its external affairs and defence, while the island's Tynwald legislates locally; there is no UK political party system on the island."
+    sourceId: cia-factbook-isle-of-man
+# paymentMethodShares intentionally omitted: no official card-vs-cash split is
+# published; cards are dominant and the Manx pound circulates at par with GBP.
+paymentCulture:
+  popularMethods:
+    - Visa and Mastercard (accepted widely, contactless common)
+    - Cash (Manx pound notes and coins, which are interchangeable with sterling)
+  tipping:
+    expected: true
+    typicalAmount: "Optional 5-10% in restaurants"
+    autoIncludedInBill: false
+    note: "Modest tipping is common in hospitality, broadly in line with UK practice."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cia-factbook-isle-of-man
+    name: "CIA World Factbook — Isle of Man"
+    publisher: "Central Intelligence Agency, United States"
+    url: "https://www.cia.gov/the-world-factbook/countries/isle-of-man"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Source for languages (English, with Manx Gaelic known by about 2%), government type (parliamentary democracy under Tynwald), and the island's status as a British Crown dependency outside the UK."
+  - id: wikipedia-isle-of-man
+    name: "Isle of Man"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Isle_of_Man"
+    accessedDate: "2026-09-20"
+    note: "Source for English and Manx as the official languages, the 2021 census ethnic composition, and general geography."
+  - id: tynwald-court
+    name: "Tynwald — the Isle of Man's parliament"
+    publisher: "Tynwald"
+    url: "https://www.tynwald.org.im"
+    accessedDate: "2026-09-20"
+    note: "Source for Tynwald as the world's oldest continuously existing parliament in continuous session, and the island's legislative autonomy."
