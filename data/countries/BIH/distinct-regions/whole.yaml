@@ -1,0 +1,99 @@
+code: WHOLE
+name:
+  eng: Bosnia and Herzegovina
+  local:
+    - languageCode: bos
+      value: Bosna i Hercegovina
+    - languageCode: hrv
+      value: Bosna i Hercegovina
+    - languageCode: srp
+      value: Босна и Херцеговина
+climates:
+  - koppenCode: Cfb
+    description: "Temperate continental climate with warm summers and cold winters across most of the country; the southern Herzegovina region is hotter and drier with a Mediterranean influence."
+landmarks:
+  - name: Old Bridge of Mostar
+    description: "16th-century Ottoman bridge over the Neretva, a symbol of the country."
+    unescoWorldHeritage: true
+  - name: Stari grad Sarajevo (Baščaršija)
+    description: "Historic Ottoman-era bazaar quarter at the heart of Sarajevo."
+  - name: Mehmed Paša Sokolović Bridge (Višegrad)
+    description: "Ottoman-era bridge over the Drina river."
+    unescoWorldHeritage: true
+culturalTraits:
+  - Deep café (kafić) culture
+  - Rich folk music, sevdalinka song tradition, and kolo dance
+prideOf:
+  - Its multi-ethnic character and the coexistence of Bosniak, Serb and Croat communities
+  - Reconstruction and revival after the 1990s war
+animals:
+  popular:
+    - Brown bear
+    - Golden eagle
+  unique:
+    - Balkan lynx
+industries:
+  - Manufacturing and metalworking
+  - Agriculture and food processing
+  - Hydroelectric power
+  - Tourism
+sports:
+  - Football (soccer)
+  - Basketball
+  - Winter sports (Sarajevo hosted the 1984 Winter Olympics)
+religions:
+  - name: Islam (Sunni)
+    percent: 50.7
+    sourceId: bih-census-2013
+  - name: Eastern Orthodox Christian
+    percent: 30.7
+    sourceId: bih-census-2013
+  - name: Roman Catholic
+    percent: 15.2
+    sourceId: bih-census-2013
+  - name: Other / no religion / not stated
+    percent: 3.4
+    sourceId: bih-census-2013
+entertainment:
+  - season: summer
+    items:
+      - Sarajevo Film Festival
+      - Folk festivals across the country
+  - season: winter
+    items:
+      - Christmas (Catholic 25 Dec, Orthodox 7 Jan) and New Year celebrations
+      - Cold-season holiday markets
+traditionalDishes:
+  - season: allYear
+    items:
+      - Ćevapi
+      - Burek (savory pastry)
+  - season: winter
+    items:
+      - Begova čorba (Bosnian beef soup)
+      - Hot meat stews and grilled meze
+traditionalClothing:
+  - season: allYear
+    items:
+      - Traditional folk dress (nošnja) worn at festivals
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: []
+  notes: "Retail trading is not restricted by law to specific days. Shops and markets typically open around 8:00-9:00am and close 8:00-9:00pm on weekdays and Saturday, with reduced Sunday hours. Orthodox Christmas (7 January) and Catholic Christmas (25 December) are widely observed as rest days among the respective communities."
+  typicalWorkHours: "Standard office hours are typically around 8:00am-5:00pm, Monday-Friday."
+sources:
+  - id: bih-census-2013
+    name: "Popis 2013 (Census 2013): Religious composition"
+    publisher: "Agencija za statistiku BiH (Agency for Statistics of Bosnia and Herzegovina)"
+    url: "https://popis.gov.ba/popis2013/?lang=eng"
+    year: 2013
+    accessedDate: "2026-09-20"
+    note: "Nationwide 2013 census religious shares: Islam 50.7%, Orthodox 30.7%, Catholic 15.2%, other/none ~3.4%."

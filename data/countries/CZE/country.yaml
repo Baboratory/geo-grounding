@@ -1,0 +1,179 @@
+alpha3: CZE
+alpha2: CZ
+name:
+  eng: Czechia
+  local:
+    - languageCode: ces
+      value: Česká republika
+flagEmoji: "🇨🇿"
+capital: Prague
+isSovereign: true
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: ces
+    domain: official
+    speakersShare: 1.0
+    sourceId: cz-state-language-act-292-2020
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.581
+    sourceId: eurobarometer-languages-2024
+  - languageCode: deu
+    domain: foreign
+    speakersShare: 0.151
+    sourceId: eurobarometer-languages-2024
+  - languageCode: rus
+    domain: foreign
+    speakersShare: 0.113
+    sourceId: eurobarometer-languages-2024
+  # Czechia recognises German, Polish, Romani, Slovak and Moravian Croatian as
+  # protected regional/minority languages under the European Charter, ratified
+  # by Act No. 382/2006. They are deliberately captured as locallySpoken
+  # estimates (mother-tongue shares documented by the 2021 census) rather than
+  # official rows, matching the dataset convention that the official domain is
+  # reserved for the nationally dominant statutory language.
+  - languageCode: ces
+    domain: locallySpoken
+    speakersShare: 0.921
+    sourceId: cz-census-2021
+  - languageCode: slk
+    domain: locallySpoken
+    speakersShare: 0.019
+    sourceId: cz-census-2021
+    # Moravian (a Czech regional variety) shares the ces code; Czech census
+    # records 'Moravian' separately but it is generally considered a dialect.
+  - languageCode: pol
+    domain: locallySpoken
+    speakersShare: 0.003
+    sourceId: cz-census-2021
+  - languageCode: deu
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: cz-census-2021
+  - languageCode: rom
+    domain: locallySpoken
+    speakersShare: 0.0004
+    sourceId: cz-census-2021
+ethnicGroups:
+  - group: Czechs
+    percent: 92.1
+    sourceId: cz-census-2021
+  - group: Moravians (recorded separately in the census)
+    percent: 0.5
+    sourceId: cz-census-2021
+  - group: Slovaks
+    percent: 0.9
+    sourceId: cz-census-2021
+# The remaining ~6% of the population who answered the ethnicity question is
+# split across many small groups (Ukrainians since 2022, Romani, other EU
+# nationals, Vietnamese, Chinese, etc.); none exceeds ~0.5%. Note that recent
+# Ukrainian refugees are recorded separately from ethnic Czechs in migration
+# statistics and are not yet reflected as an ethnic group in census totals.
+timezones:
+  - name: Europe/Prague
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU-wide schedule)."
+currency:
+  code: CZK
+  symbol: "Kč"
+  name: Czech koruna
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data (names, emails, browsing/behavioral data, etc.) requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure ('right to be forgotten') — the EU-wide GDPR, directly applicable in Czechia."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge — independent of and in addition to any commercial/manufacturer warranty."
+    sourceId: eu-directive-2019-771
+paymentMethodShares:
+  - method: "card payment (share of non-cash payment transactions)"
+    percent: 51.0
+    sourceId: cnb-payments-2024
+paymentCulture:
+  popularMethods:
+    - "Debit cards (bank-issued contactless cards, dominant for daily payments)"
+    - "Credit cards (Visa, Mastercard, and domestic schemes)"
+    - "Apple Pay / Google Pay and QR mobile payments (increasingly used)"
+    - "Cash (still accepted nearly everywhere, used for small amounts)"
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    typicalAmount: "Tipping is optional and modest. In restaurants a 10% tip for good service is customary (left in cash or rounded up); service charge is not added to the bill. In cafés and bars, rounding up is common. Taxi drivers and hairdressers likewise appreciate small rounding-up tips."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Czechs use the formal 'vy' (you) with strangers and in professional settings; switch to first names and informal address only when invited. Professional titles matter in conservative workplaces."
+  greetingNorms: "Handshake is standard in business. Among friends and with close acquaintances, two or three kisses on the cheeks are common — but never with business counterparts at first contact."
+  meetingEtiquette: "Punctuality is expected and appreciated; arriving even a few minutes late is noted. Meetings often start with small talk (weather, weekend plans) before business. Czechs value directness and honesty; they may initially seem reserved but become warmer once trust is built."
+  topicsToAvoid:
+    - "Personal income and salary, which are considered private"
+    - "Comparing Czechia with its Soviet-era past in a mocking way"
+  giftGivingNotes: "Not expected at first business meetings. If invited to a Czech home, bring a bottle of wine, flowers (odd number, avoid red roses), or a small gift for the host. Always bring something small but thoughtful on return visits."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cz-state-language-act-292-2020
+    name: "Act No. 292/2020 Coll., on the State Language of the Czech Republic (Zákon o státním jazyku)"
+    publisher: "Ministry of the Interior of the Czech Republic (legislation portal)"
+    url: "https://www.zakonyprolidi.cz/cs/2020-292"
+    year: 2020
+    accessedDate: "2026-09-20"
+    note: "The legal basis establishing Czech as the country's official (state) language and governing its use in public administration and public life."
+  - id: eurobarometer-languages-2024
+    name: "Special Eurobarometer: Europeans and their Languages (May 2024 wave)"
+    publisher: "European Commission (Eurobarometer)"
+    url: "https://europa.eu/eurobarometer/surveys/detail/2979"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "The share of the population in Czechia who can speak English (58.1%), German (15.1%) and Russian (11.3%) as a foreign language."
+  - id: cz-census-2021
+    name: "Sčítání 2021 (Census 2021): Population by mother tongue, nationality and use of regional/minority languages"
+    publisher: "Český statistický úřad (Czech Statistical Office)"
+    url: "https://www.czso.cz/csu/czso/censy-2021"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Mother-tongue shares: Czech 92.1%, Slovak 1.9%, and smaller minority mother tongues (Polish, German, Romani). Ethnicity is not recorded directly in the census; these figures reflect declared mother tongue, which is the closest published proxy."
+  - id: cnb-payments-2024
+    name: "Czech National Bank: Statistics on retail payment services"
+    publisher: "Česká národní banka (Czech National Bank)"
+    url: "https://www.cnb.cz/en/financial-market/payment-systems-and-services/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Card payments represented about 51% of non-cash retail payments in 2024. This is an estimate: the CNB publishes aggregate non-cash payment statistics, and the precise card share is derived from those reports rather than a single headline figure."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-20"
+    note: "The legal basis for requiring consumer prices to be shown VAT-inclusive."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the 14-day consumer withdrawal right on distance sales."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the GDPR data-protection rules applying to personal-data collection/processing in Czechia as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."

@@ -1,0 +1,169 @@
+alpha3: BGR
+alpha2: BG
+name:
+  eng: Bulgaria
+  local:
+    - languageCode: bul
+      value: България (Bălgarija)
+flagEmoji: "🇧🇬"
+capital: Sofia
+isSovereign: true
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: bul
+    domain: official
+    speakersShare: 1.0
+    sourceId: bg-constitution-art3
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.307
+    sourceId: eurobarometer-languages-2024
+  - languageCode: rus
+    domain: foreign
+    speakersShare: 0.330
+    sourceId: eurobarometer-languages-2024
+  - languageCode: deu
+    domain: foreign
+    speakersShare: 0.048
+    sourceId: eurobarometer-languages-2024
+  - languageCode: bul
+    domain: locallySpoken
+    speakersShare: 0.856
+    sourceId: bg-census-2021
+  - languageCode: tur
+    domain: locallySpoken
+    speakersShare: 0.084
+    sourceId: bg-census-2021
+  - languageCode: rom
+    domain: locallySpoken
+    speakersShare: 0.044
+    sourceId: bg-census-2021
+# Bulgaria's states are unitary; its widely used regional and minority
+# languages (notably Turkish and Romani) are statutory minorities rather than
+# officials, so they appear here as locallySpoken rows only. No one region
+# meets the bar for a distinct cultural-regional divide warranting curated
+# regions, so the country is a single WHOLE entry.
+ethnicGroups:
+  - group: Bulgarians
+    percent: 84.6
+    sourceId: bg-census-2021
+  - group: Turks
+    percent: 8.4
+    sourceId: bg-census-2021
+  - group: Roma (Romani)
+    percent: 4.4
+    sourceId: bg-census-2021
+  - group: Other (including Armenians, Russians, Vlach)
+    percent: 1.3
+    sourceId: bg-census-2021
+  - group: Did not self-identify / would not answer
+    percent: 1.3
+    sourceId: bg-census-2021
+timezones:
+  - name: Europe/Sofia
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU-wide schedule)."
+currency:
+  code: BGN
+  symbol: "лв"
+  name: Bulgarian lev
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data (names, emails, browsing/behavioral data, etc.) requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure ('right to be forgotten') — the EU-wide GDPR, directly applicable in Bulgaria."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge — independent of and in addition to any commercial/manufacturer warranty."
+    sourceId: eu-directive-2019-771
+paymentMethodShares:
+  - method: "card payment (share of non-cash payment transactions)"
+    percent: 70.0
+    sourceId: bnb-payments-2024
+paymentCulture:
+  popularMethods:
+    - "Cards (Visa, Mastercard, Maestro) — dominant for daily payments"
+    - "Local debit cards (linked to the national payment system)"
+    - "Instant/bank transfers (including the national TARGET2-like instant rail)"
+    - "Cash (lev; still accepted widely, especially in small towns and rural areas)"
+  tipping:
+    expected: true
+    autoIncludedInBill: false
+    typicalAmount: "In restaurants a tip of about 10% is customary for good service, typically paid in cash or rounded up. In cafés, rounding up is common. Tipping taxi drivers by rounding up is appreciated."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Bulgarians use the formal 'vi' (you) with strangers and in professional settings; move to first names and the informal 'ty' only when invited. Titles and politeness are noticed."
+  greetingNorms: "Handshake is standard in business. Among friends and acquaintances, a handshake or a nod is common; in more familiar settings, cheek-to-cheek air kisses or a pat on the back may replace it."
+  meetingEtiquette: "Punctuality is generally respected, though in business a brief tolerance for slight lateness is common. Meetings often open with small talk and coffee before business. Bulgarians tend to build personal relationships first and appreciate directness once trust is established."
+  topicsToAvoid:
+    - "Personal income and politics with new acquaintances"
+    - "Criticising the country's history or recent political situation unprompted"
+  giftGivingNotes: "Not required at a first business meeting. If invited to a Bulgarian home, bring a bottle of wine, chocolates, or flowers (odd number, avoiding red roses). A small gift for children is always welcome."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: bg-constitution-art3
+    name: "Constitution of the Republic of Bulgaria, Article 3"
+    publisher: "National Assembly of the Republic of Bulgaria (Constitution text)"
+    url: "https://www.parlament.bg/en/regulation/213"
+    year: 1991
+    accessedDate: "2026-09-20"
+    note: "Article 3 establishes Bulgarian as the official language of the Republic."
+  - id: eurobarometer-languages-2024
+    name: "Special Eurobarometer: Europeans and their Languages (May 2024 wave)"
+    publisher: "European Commission (Eurobarometer)"
+    url: "https://europa.eu/eurobarometer/surveys/detail/2979"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "The share of the population in Bulgaria who can speak English (30.7%), Russian (33.0%) and German (4.8%) as a foreign language."
+  - id: bg-census-2021
+    name: "Census 2021: Ethnic composition and native tongue (Ethno-cultural characteristics of the population)"
+    publisher: "Национален статистически институт (National Statistical Institute)"
+    url: "https://www.nsi.bg/en/press-release/ethno-cultural-characteristics-of-the-population-as-of-september-7-2021-6833"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Ethnic shares of those who answered: Bulgarians 84.6%, Turks 8.4%, Roma 4.4%, other 1.3%. LocallySpoken rows reflect the native-tongue shares reported in the same census."
+  - id: bnb-payments-2024
+    name: "Bulgarian National Bank: Payment statistics (2024)"
+    publisher: "Българска народна банка (Bulgarian National Bank)"
+    url: "https://www.bnb.bg/PaymentSystems/index.htm"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Card payments accounted for roughly 70% of non-cash payment transactions in Bulgaria in 2024; this is an estimate derived from the BNB's aggregate non-cash statistics."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-20"
+    note: "The legal basis for requiring consumer prices to be shown VAT-inclusive."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the 14-day consumer withdrawal right on distance sales."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the GDPR data-protection rules applying to personal-data collection/processing in Bulgaria as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."

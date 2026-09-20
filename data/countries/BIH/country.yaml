@@ -1,0 +1,132 @@
+alpha3: BIH
+alpha2: BA
+name:
+  eng: Bosnia and Herzegovina
+  local:
+    - languageCode: bos
+      value: Bosna i Hercegovina
+    - languageCode: hrv
+      value: Bosna i Hercegovina
+    - languageCode: srp
+      value: Босна и Херцеговина
+flagEmoji: "🇧🇦"
+capital: Sarajevo
+isSovereign: true
+governanceType: federal
+iso3166_2_prefix: BA
+hasSubdivisions: true
+languageUsage:
+  - languageCode: bos
+    domain: official
+    speakersShare: 1.0
+    sourceId: bih-constitution-art6
+  - languageCode: hrv
+    domain: official
+    speakersShare: 1.0
+    sourceId: bih-constitution-art6
+  - languageCode: srp
+    domain: official
+    speakersShare: 1.0
+    sourceId: bih-constitution-art6
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.198
+    sourceId: ef-english-proficiency-2024
+  # Bosnian, Croatian and Serbian are constitutionally co-official at the level
+  # of the constitutive peoples (Bosniaks, Croats, Serbs) — all three carry the
+  # official-domain flag with speakersShare 1.0, as the legal-status flag does
+  # not rank them by population. The three are mutually intelligible varieties
+  # of Serbo-Croatian.
+  - languageCode: bos
+    domain: locallySpoken
+    speakersShare: 0.501
+    sourceId: bih-census-2013
+  - languageCode: srp
+    domain: locallySpoken
+    speakersShare: 0.308
+    sourceId: bih-census-2013
+  - languageCode: hrv
+    domain: locallySpoken
+    speakersShare: 0.154
+    sourceId: bih-census-2013
+  - languageCode: rom
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: bih-census-2013
+# The 'other' languages recorded (Albanian, Ukrainian, and smaller groups)
+# total roughly 2.7% combined but have no single dominant share.
+timezones:
+  - name: Europe/Sarajevo
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU-wide schedule, observed in BiH)."
+currency:
+  code: BAM
+  symbol: "KM"
+  name: Convertible mark
+# Bosnia and Herzegovina is NOT an EU member, so the four EU consumer/data
+# legal constraints used elsewhere in this dataset are deliberately omitted.
+paymentMethodShares:
+  - method: "card payment (share of non-cash payment transactions)"
+    percent: 55.0
+    sourceId: cbbh-payments-2024
+paymentCulture:
+  popularMethods:
+    - "Cards (Visa, Mastercard, Maestro) — dominant for daily payments"
+    - "Cash (convertible mark) — still widely used, especially in smaller settlements"
+    - "Bank transfers (including an instant-payment rail)"
+  tipping:
+    expected: true
+    autoIncludedInBill: false
+    typicalAmount: "In restaurants a tip of about 10% is customary for good service, paid in cash or rounded up. In cafés (kafići), rounding up is common. Taxi drivers appreciate rounding up the fare."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Bulgarians and Bosnians alike use the formal 'Vi' with strangers and in professional settings; switch to first names and informal address when invited. Titles are respected in formal circles."
+  greetingNorms: "Handshake is standard in business. Among friends and acquaintances, three kisses on alternate cheeks or a handshake/nod are common depending on the region and whether the people are family or close friends."
+  meetingEtiquette: "Punctuality is appreciated but a short grace period is tolerated. Meetings often begin with coffee and small talk about family and home — building personal trust precedes business. Communication tends to be warm and relationship-driven once rapport is established."
+  topicsToAvoid:
+    - "The 1990s war, politics and ethnicity, especially with people you do not know well"
+    - "Personal income and salary"
+  giftGivingNotes: "Not required at a first business meeting. If invited to a Bosnian home, bring flowers (odd number) or a small gift such as chocolates or a bottle of rakija or wine. Guests are warmly received with coffee and sweets."
+distinct-regions:
+  - code: BA-BIH
+    file: distinct-regions/fbih.yaml
+    adminUnitCodes: [BA-BIH]
+  - code: BA-BRC
+    file: distinct-regions/brcko.yaml
+    adminUnitCodes: [BA-BRC]
+  - code: BA-SRP
+    file: distinct-regions/republika-srpska.yaml
+    adminUnitCodes: [BA-SRP]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: bih-constitution-art6
+    name: "Constitution of the Federation of Bosnia and Herzegovina, Article 6 (official languages)"
+    publisher: "Constitutional Assembly of the Federation of Bosnia and Herzegovina (consolidated translation)"
+    url: "https://thecpe.org/wp-content/uploads/2019/11/Bosnia_Herz_constitution_fbih.pdf"
+    year: 1994
+    accessedDate: "2026-09-20"
+    note: "Article 6 as amended establishes Bosnian, Croatian and Serbian as the official languages of the Federation of BiH, with Latin and Cyrillic as official scripts — the state's language regime."
+  - id: bih-census-2013
+    name: "Popis 2013 (Census 2013): Ethnic/national composition and mother tongue"
+    publisher: "Agencija za statistiku BiH (Agency for Statistics of Bosnia and Herzegovina)"
+    url: "https://popis.gov.ba/popis2013/?lang=eng"
+    year: 2013
+    accessedDate: "2026-09-20"
+    note: "National self-identification and mother-tongue shares: Bosniaks 50.1%, Serbs 30.8%, Croats 15.4% (the language rows mirror these). Romani ~2% and other groups ~2.7%."
+  - id: ef-english-proficiency-2024
+    name: "EF English Proficiency Index 2024 (Bosnia and Herzegovina score)"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "English is widely taught and understood among younger and urban populations; the ~19.8% figure is an estimate based on EF EPI and typical foreign-language usage levels (no official figure exists)."
+  - id: cbbh-payments-2024
+    name: "Centralna banka BiH (Central Bank of BiH): payment statistics (2024)"
+    publisher: "Centralna banka Bosne i Hercegovine"
+    url: "https://cbbh.ba/en/payment-systems-and-services"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Card payments represented roughly 55% of non-cash payment transactions in 2024; an estimate derived from the CBBH's aggregate payment statistics."

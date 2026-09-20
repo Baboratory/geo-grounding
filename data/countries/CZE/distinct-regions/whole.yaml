@@ -1,0 +1,98 @@
+code: WHOLE
+name:
+  eng: Czechia
+  local:
+    - languageCode: ces
+      value: Česká republika
+climates:
+  - koppenCode: Cfb
+    description: "Temperate oceanic/transitional climate with warm summers and cold winters, grading to a more continental climate (Dfb) in the east."
+landmarks:
+  - name: Prague Castle (Pražský hrad)
+    description: "Historic castle complex and seat of the Czech head of state, overlooking the Old Town of Prague."
+    unescoWorldHeritage: true
+  - name: Old Town of Prague
+    description: "The historic centre of Prague, a well-preserved medieval and Baroque old town."
+    unescoWorldHeritage: true
+  - name: Charles Bridge (Karlův most)
+    description: "Iconic 14th-century stone bridge over the Vltava, lined with statues and street performers."
+culturalTraits:
+  - Rich beer-brewing tradition (pilsner originated in the Czech town of Pilsen)
+  - Strong folk and classical music heritage
+prideOf:
+  - Inventing Silvovice plum brandy and the original Pilsner-style lager
+  - A literary and musical culture spanning Mozart, Dvořák and Kafka
+animals:
+  popular:
+    - White stork
+    - European wildcat
+  unique:
+    - European beaver (reintroduced)
+industries:
+  - Automotive manufacturing (Škoda)
+  - Machinery and engineering
+  - Information technology and software
+  - Beer and food processing
+sports:
+  - Ice hockey
+  - Football (soccer)
+  - Tennis
+religions:
+  - name: No religion
+    percent: 47.8
+    sourceId: cz-census-2021
+  - name: Roman Catholic
+    percent: 7.0
+    sourceId: cz-census-2021
+  - name: Protestant (predominantly Czech Brethren / Evangelical)
+    percent: 1.4
+    sourceId: cz-census-2021
+  - name: Orthodox Christian
+    percent: 0.3
+    sourceId: cz-census-2021
+# The 2021 census religion question was optional; ~30% of the population left
+# it blank (recorded as 'not stated'). The figures above are shares of the
+# total population. Catholicism, historically dominant, has declined sharply.
+entertainment:
+  - season: summer
+    items:
+      - Prague Festival (international music and culture festival)
+      - Open-air music festivals across the country
+  - season: winter
+    items:
+      - Christmas markets (Prague, Brno, and other cities)
+      - New Year's celebrations on Charles Bridge
+traditionalDishes:
+  - season: allYear
+    items:
+      - Goulash (beef stew with paprika)
+      - Dumplings and sauerkraut
+  - season: winter
+    items:
+      - Smažený sýr (fried cheese) at Christmas markets
+      - Hot mulled wine (svařené víno)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Traditional folk costume (kroj) worn at festivals and folk events
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: []
+  notes: "No nationwide legal restriction limits which days of the week retail may trade. Most shops and shopping centres open around 8:00-9:00am and close 7:00-8:00pm on weekdays, often with shorter Saturday hours and reduced Sunday hours (many larger centres open Sundays). Banks and offices typically run Monday-Friday 8:00am-4:00pm."
+  typicalWorkHours: "Standard office hours are typically 8:00/9:00am-5:00/6:00pm, Monday-Friday."
+sources:
+  - id: cz-census-2021
+    name: "Sčítání 2021 (Census 2021): Population by religious belief"
+    publisher: "Český statistický úřad (Czech Statistical Office)"
+    url: "https://www.czso.cz/csu/czso/censy-2021"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Religious-affiliation shares of the total population: no religion 47.8%, Roman Catholic 7.0%, Protestant 1.4%, Orthodox 0.3%; about 30% left the voluntary question blank (not stated), with the rest split across smaller groups."

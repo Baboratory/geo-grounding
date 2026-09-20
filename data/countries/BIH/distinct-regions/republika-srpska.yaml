@@ -1,0 +1,90 @@
+code: BA-SRP
+name:
+  eng: Republika Srpska
+  local:
+    - languageCode: srp
+      value: Република Српска
+climates:
+  - koppenCode: Dfb
+    description: "Continental climate with cold winters and warm summers; the western and southern parts are milder."
+landmarks:
+  - name: Banja Luka (capital)
+    description: "The largest city and de facto capital of Republika Srpska, on the Vrbas river."
+  - name: Kozara and Sutjeska national parks
+    description: "Mountain parks in the Dinaric Alps, sites of major Second World War battles and memorials."
+  - name: Andrićgrad (Višegrad)
+    description: "Recreated ethno-town inspired by the writer Ivo Andrić, near the Drina bridge."
+culturalTraits:
+  - Orthodox Christian cultural heritage
+  - Rich folk music and kolo dance tradition
+prideOf:
+  - Natural beauty of the Dinaric mountains and forested landscapes
+  - Strong folk and literary heritage
+animals:
+  popular:
+    - Brown bear
+    - Chamois
+  unique:
+    - Dinaric Balkan lynx
+industries:
+  - Timber and forestry
+  - Food processing
+  - Hydroelectric power
+  - Agriculture
+sports:
+  - Football (soccer)
+  - Basketball
+  - Rafting and outdoor sports
+religions:
+  - name: Eastern Orthodox Christian
+    percent: 85.0
+    sourceId: bih-census-2013
+  - name: Islam (Sunni)
+    percent: 14.0
+    sourceId: bih-census-2013
+  - name: Roman Catholic
+    percent: 2.4
+    sourceId: bih-census-2013
+entertainment:
+  - season: summer
+    items:
+      - Banja Luka music and cultural festivals
+      - Drina and Vrbas rafting events
+  - season: winter
+    items:
+      - Christmas (Orthodox, 7 January) celebrations
+      - Cold-season holidays and mountain tourism
+traditionalDishes:
+  - season: allYear
+    items:
+      - Ćevapi
+      - Sogan-dolma (stuffed onions)
+  - season: winter
+    items:
+      - Hot stews and grilled meze
+      - Božićni kolači (Christmas pastries)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Traditional folk dress worn at festivals (kolo celebrations)
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: []
+  notes: "Retail trading is generally open across the week, with shops typically open about 8:00-9:00am to 8:00pm on weekdays and Saturday, and shorter Sunday hours. Orthodox holidays (e.g. 7 January) are widely observed as rest days in the region."
+  typicalWorkHours: "Standard office hours are typically around 8:00am-5:00pm, Monday-Friday."
+sources:
+  - id: bih-census-2013
+    name: "Popis 2013 (Census 2013): Religious composition by entity"
+    publisher: "Agencija za statistiku BiH (Agency for Statistics of Bosnia and Herzegovina)"
+    url: "https://popis.gov.ba/popis2013/?lang=eng"
+    year: 2013
+    accessedDate: "2026-09-20"
+    note: "Republika Srpska is predominantly Orthodox (about 85% of the entity's population), with Sunni Muslim (Bosniak) and Catholic (Croat) minorities."

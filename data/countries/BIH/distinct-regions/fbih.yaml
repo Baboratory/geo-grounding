@@ -1,0 +1,95 @@
+code: BA-BIH
+name:
+  eng: Federation of Bosnia and Herzegovina
+  local:
+    - languageCode: bos
+      value: Federacija Bosne i Hercegovine
+climates:
+  - koppenCode: Cfb
+    description: "Mostly temperate continental with warm summers and cold winters; the Herzegovina area in the south is hotter and drier (Csa/Cfa) with a Mediterranean influence."
+landmarks:
+  - name: Sarajevo (capital)
+    description: "The country's capital and largest city, nestled in the Sarajevo valley; home to the old Baščaršija quarter."
+  - name: Old Bridge of Mostar
+    description: "16th-century Ottoman bridge over the Neretva, rebuilt after the 1990s war."
+    unescoWorldHeritage: true
+  - name: Mehmed Paša Sokolović Bridge in Višegrad
+    description: "Ottoman-era bridge over the Drina, a Unesco-listed engineering landmark."
+    unescoWorldHeritage: true
+culturalTraits:
+  - Distinct café (kafić) culture
+  - Strong Muslim (Bosniak), Catholic (Croat) and Orthodox (Serb) heritages
+prideOf:
+  - The multi-ethnic character of its cities, notably Sarajevo
+  - Reconstruction and revival after the 1990s war
+animals:
+  popular:
+    - Brown bear
+    - Golden eagle
+  unique:
+    - Balkan lynx
+industries:
+  - Manufacturing and machinery
+  - Food processing
+  - Metalworking
+  - Tourism (Sarajevo, Mostar, Herzegovina)
+sports:
+  - Football (soccer)
+  - Basketball
+  - Winter sports (Sarajevo's Olympic legacy)
+religions:
+  - name: Islam (Sunni)
+    percent: 50.7
+    sourceId: bih-census-2013
+  - name: Eastern Orthodox Christian
+    percent: 30.7
+    sourceId: bih-census-2013
+  - name: Roman Catholic
+    percent: 15.2
+    sourceId: bih-census-2013
+  - name: Other / no religion / not stated
+    percent: 3.4
+    sourceId: bih-census-2013
+entertainment:
+  - season: summer
+    items:
+      - Sarajevo Film Festival (August)
+      - Folk and cultural festivals across Herzegovina
+  - season: winter
+    items:
+      - Christmas and New Year celebrations
+      - Cold-season holiday markets in Sarajevo
+traditionalDishes:
+  - season: allYear
+    items:
+      - Ćevapi
+      - Burek (savory pastry)
+  - season: winter
+    items:
+      - Begova čorba (Bosnian beef soup)
+      - Hot meat stews and grilled meze
+traditionalClothing:
+  - season: allYear
+    items:
+      - Traditional folk dress (nošnja) worn at festivals
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: []
+  notes: "Retail trading is not restricted by law to specific days. Shops and markets typically open around 8:00-9:00am and close 8:00-9:00pm on weekdays and Saturday, with shorter Sunday hours. Banks and offices run Monday-Friday, roughly 8:00am-5:00pm."
+  typicalWorkHours: "Standard office hours are typically around 8:00am-5:00pm, Monday-Friday."
+sources:
+  - id: bih-census-2013
+    name: "Popis 2013 (Census 2013): Religious composition"
+    publisher: "Agencija za statistiku BiH (Agency for Statistics of Bosnia and Herzegovina)"
+    url: "https://popis.gov.ba/popis2013/?lang=eng"
+    year: 2013
+    accessedDate: "2026-09-20"
+    note: "Nationwide 2013 census religious shares: Islam 50.7%, Orthodox 30.7%, Catholic 15.2%, other/none ~3.4%."

@@ -1,0 +1,88 @@
+code: BA-BRC
+name:
+  eng: Brčko District
+  local:
+    - languageCode: hrv
+      value: Brčko Distrikt
+    - languageCode: srp
+      value: Брчко Дистрикт
+climates:
+  - koppenCode: Dfb
+    description: "Temperate continental climate with warm summers and cold winters, in the northern Sava plain."
+landmarks:
+  - name: Brčko city
+    description: "The district's administrative centre and main port on the Sava river."
+  - name: Gondola across the Sava
+    description: "Footbridge/gondola connection over the Sava river between Brčko and Croatia."
+culturalTraits:
+  - Self-governing neutral district with Bosniak, Serb and Croat populations
+  - Riverside and market-town character
+prideOf:
+  - Being a uniquely self-governing international district under multi-dayton supervision
+  - Multicultural coexistence in a small border town
+animals:
+  popular:
+    - White stork
+    - Wild boar
+  unique:
+    - European beaver (on the Sava)
+industries:
+  - River-borne trade and logistics
+  - Agriculture
+  - Food processing
+sports:
+  - Football (soccer)
+  - Rowing and water sports on the Sava
+religions:
+  - name: Islam (Sunni)
+    percent: 42.4
+    sourceId: bih-census-2013
+  - name: Eastern Orthodox Christian
+    percent: 34.6
+    sourceId: bih-census-2013
+  - name: Roman Catholic
+    percent: 20.7
+    sourceId: bih-census-2013
+  - name: Other / no religion / not stated
+    percent: 2.3
+    sourceId: bih-census-2013
+entertainment:
+  - season: summer
+    items:
+      - Summer market and river festivals in Brčko
+  - season: winter
+    items:
+      - Orthodox and Catholic Christmas celebrations (7 January and 25 December)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Ćevapi
+      - Fleška (river fish dishes)
+  - season: winter
+    items:
+      - Hot stews and grilled meze
+traditionalClothing:
+  - season: allYear
+    items:
+      - Traditional folk dress worn at festivals
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: []
+  notes: "Retail is generally open across the week with typical hours of about 8:00am-8:00pm on weekdays and Saturday and shorter Sunday hours, mirroring the rest of the country."
+  typicalWorkHours: "Standard office hours are typically around 8:00am-5:00pm, Monday-Friday."
+sources:
+  - id: bih-census-2013
+    name: "Popis 2013 (Census 2013): Religious composition of Brčko District"
+    publisher: "Agencija za statistiku BiH (Agency for Statistics of Bosnia and Herzegovina)"
+    url: "https://popis.gov.ba/popis2013/?lang=eng"
+    year: 2013
+    accessedDate: "2026-09-20"
+    note: "Brčko District's religious mix: Sunni Muslim (Bosniak) 42.4%, Orthodox (Serb) 34.6%, Catholic (Croat) 20.7%."
