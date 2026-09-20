@@ -1,0 +1,98 @@
+alpha3: GIB
+alpha2: GI
+name:
+  eng: Gibraltar
+  local:
+    - languageCode: eng
+      value: Gibraltar
+flagEmoji: "🇬🇮"
+capital: Gibraltar
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: gib-official-lang
+  # English is the sole official language. Spanish (esp) is widely spoken and
+  # Llanito -- an English/Spanish contact vernacular -- is the everyday street
+  # language, but neither has official status. No dedicated ISO 639-3 code
+  # exists for Llanito, so it is noted here but not given its own languageUsage
+  # entry.
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.6
+    sourceId: gib-language-estimate
+# ethnicGroups intentionally omitted: Gibraltar's population is culturally
+# mixed (British, Spanish, Genoese/Italian, Maltese, Portuguese, Moroccan,
+# Indian, Jewish), but no officially published percentage breakdown was found
+# during verification, so it is left out rather than approximated.
+timezones:
+  - name: Europe/Gibraltar
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October, EU-wide schedule"
+currency:
+  code: GIP
+  symbol: "£"
+  name: Gibraltar pound (pegged 1:1 with the pound sterling, which also circulates)
+legalConstraints:
+  - topic: "separate local tax system (no VAT)"
+    description: "Gibraltar runs its own autonomous tax administration under the Income Tax Act 2010, entirely separate from UK mainland tax. There is no VAT, no sales tax and no council tax in Gibraltar. Revenue comes mainly from income tax, corporation tax (standard rate 15% since 1 July 2024) and import duties rather than UK-style consumption taxes."
+    sourceId: gib-tax-system
+  - topic: "legal drinking age"
+    description: "The minimum age to be sold or served alcohol is normally 18. A carve-out allows 16- and 17-year-olds to be sold beer, wine or cider on licensed premises, provided the servers are with them, under the Children and Young Persons (Alcohol, Tobacco and Gaming) Act 2006."
+    sourceId: gib-alcohol-act
+  - topic: "legal smoking age"
+    description: "Tobacco may not be sold to anyone under 18 under the Children and Young Persons (Alcohol, Tobacco and Gaming) Act 2006, which regulates both alcohol and tobacco sales to minors."
+    sourceId: gib-alcohol-act
+  - topic: "traffic and drink-driving"
+    description: "Traffic drives on the right in Gibraltar. The legal driving limit is a breath alcohol level of 35 micrograms/100ml or a blood alcohol level of 80mg/100ml (0.08%), enforced in the official Gibraltar Highway Code."
+    sourceId: gib-highway-code
+# paymentMethodShares intentionally omitted: no official source publishes a
+# statistical split of payment methods for this small territory.
+paymentCulture:
+  popularMethods:
+    - Cash (Gibraltar pound, pegged 1:1 with the pound sterling)
+    - UK pound sterling (accepted interchangeably throughout the territory)
+    - Debit/credit cards (Visa and Mastercard widely accepted in shops, restaurants and hotels)
+    - Mobile and contactless card payments (widely adopted in the compact town centre)
+  # tipping intentionally omitted: tipping norms in Gibraltar are not well
+  # sourced in reliable published guides, so it was left out rather than guessed.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: gib-official-lang
+    name: "Gibraltar: Languages"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/about/archives/2023/countries/gibraltar/"
+    accessedDate: "2026-09-20"
+    note: "English is listed as the official language used in schools and for official purposes, alongside the widely-spoken Spanish. This is the basis for the single official languageUsage entry for eng."
+  - id: gib-language-estimate
+    name: "Composite estimate of English as the everyday language"
+    publisher: "Composite estimate"
+    url: "https://en.wikipedia.org/wiki/Gibraltar"
+    accessedDate: "2026-09-20"
+    note: "Informal estimate that roughly 60% of residents use English as their main everyday language in a territory where Spanish and Llanito are also widely used; Llanito has no ISO 639-3 code."
+  - id: gib-tax-system
+    name: "Taxation in Gibraltar"
+    publisher: "Government of Gibraltar (HM Government of Gibraltar)"
+    url: "https://www.gibraltar.gov.gi/taxation"
+    accessedDate: "2026-09-20"
+    note: "Basis for the separate autonomous tax system: no VAT or sales tax, income and corporation tax main revenue, standard corporation tax 15% from 1 July 2024."
+  - id: gib-alcohol-act
+    name: "Children and Young Persons (Alcohol, Tobacco and Gaming) Act 2006"
+    publisher: "Laws of Gibraltar"
+    url: "https://www.gibraltarlaws.gov.gi/"
+    accessedDate: "2026-09-20"
+    note: "Legal basis for the drinking age of 18 (with the 16-17 on-premises beer/wine/cider carve-out) and the prohibition on selling tobacco to anyone under 18."
+  - id: gib-highway-code
+    name: "Gibraltar Highway Code"
+    publisher: "HM Government of Gibraltar, Land Transport Authority"
+    url: "https://www.gibraltar.gov.gi/uploads/documents/transport/Gibraltar-Highway-Code-2022.pdf"
+    accessedDate: "2026-09-20"
+    note: "Confirms right-hand driving and the drink-driving limit of 35 micrograms/100ml breath or 80mg/100ml blood."

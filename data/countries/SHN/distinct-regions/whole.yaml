@@ -1,0 +1,88 @@
+code: WHOLE
+name:
+  eng: Saint Helena, Ascension and Tristan da Cunha
+  local:
+    - languageCode: eng
+      value: Saint Helena, Ascension and Tristan da Cunha
+# Subtropical highland / mild maritime climate across the island groups.
+climates:
+  - koppenCode: Cwb
+    description: Subtropical highland climate on Saint Helena, with mild temperatures moderated by the South Atlantic and frequent light cloud and drizzle, especially on higher ground.
+landmarks:
+  - name: Jamestown and the Jacob's Ladder
+    description: The capital's historic ladder of 699 steps climbing the sheer cliffside of Ladder Hill, a landmark of the island's 19th-century British colonial heritage.
+  - name: Longwood House
+    description: The residence where Napoleon Bonaparte lived in exile from 1815 until his death in 1821; now a museum.
+  - name: Green Mountain (Ascension Island)
+    description: A volcanic peak on Ascension with a remarkable cloud-forest garden created from the 19th century, home to native and introduced plants.
+culturalTraits:
+  - A remote-island culture with deep British colonial roots (British Overseas Territory since the 17th century)
+  - Strong Saint Helenian community identity; close-knit island society
+  - The 2009 constitution giving Ascension and Tristan da Cunha internal self-governance
+prideOf:
+  - The island's history as the site of Napoleon's exile
+  - St Helena coffee, a famously rare and prized bean grown on the island
+  - The territory's unspoilt isolation in the South Atlantic
+animals:
+  popular:
+    - Wirebird (Saint Helena plover), a small wader endemic to Saint Helena
+    - Land crab
+  unique:
+    - Saint Helena wirebird
+    - Ascension frigatebird (breeding on Ascension Island)
+industries:
+  - Coffee production (St Helena coffee)
+  - Fishing (Tristan da Cunha crayfish)
+  - Tourism
+  - Philately (postage stamps)
+sports:
+  - Football
+  - Cricket
+  - Fishing
+# religions intentionally omitted: no census-grade official breakdown of
+# religious affiliation for the combined territory was found during
+# verification (see country.yaml's legalConstraints note on the same gap).
+entertainment:
+  - season: allYear
+    items:
+      - Festivities around the anniversary of Saint Helena's discovery (21 May)
+      - Community social events and sports fixtures in Jamestown
+traditionalDishes:
+  - season: allYear
+    items:
+      - Fish and chips
+      - Plo (a slow-cooked local dish often of salted fish, rice and vegetables)
+      - Coffee produced from the island's own beans
+traditionalClothing:
+  - season: allYear
+    items:
+      - Everyday casual Western-style clothing suited to the mild Atlantic climate
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  lunchBreakTiming: "Businesses on the islands typically close for a short midday break, though exact hours vary; many smaller shops keep shorter and more informal opening times than in mainland UK towns."
+  typicalWorkHours: "Monday-Friday around 8:00/9:00am to 4:30/5:00pm, with most government and commercial offices closed on weekends."
+  restDays:
+    - saturday
+    - sunday
+  notes: "The territory has a very small resident population spread across remote islands, so business hours can be irregular and services depend on the limited shipping and air links to the outside world (Saint Helena Airport opened in 2017)."
+sources:
+  - id: enwp-shn-whole
+    name: "Saint Helena, Ascension and Tristan da Cunha"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Saint_Helena,_Ascension_and_Tristan_da_Cunha"
+    accessedDate: "2026-09-20"
+    note: "Background on the islands' geography, society and St Helena coffee culture for the whole-country entry."
+  - id: sainthelena-gov
+    name: "St Helena Government"
+    publisher: "Government of Saint Helena, Ascension and Tristan da Cunha"
+    url: "https://www.sainthelena.gov.sh/"
+    accessedDate: "2026-09-20"
+    note: "Official source for the islands' governance and the 2017 opening of Saint Helena Airport."
