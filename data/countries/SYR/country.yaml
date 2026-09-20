@@ -1,0 +1,158 @@
+alpha3: SYR
+alpha2: SY
+name:
+  eng: Syria
+  local:
+    - languageCode: ara
+      value: سوريا
+flagEmoji: "🇸🇾"
+capital: Damascus
+isSovereign: true
+# Classified unitary-large: population ~24M exceeds the threshold, and while Arabic is
+# the sole official language, the country has a genuine, widely recognized
+# cultural-historical regional identity (the Levantine heartland of Damascus and
+# Aleppo, the coastal Alawite-mountain belt, and the Kurdish-influenced north-east).
+# Real ISO 3166-2 governorate files are curated (a representative subset) alongside
+# the WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: SY
+hasSubdivisions: true
+languageUsage:
+  - languageCode: ara
+    domain: official
+    speakersShare: 1.0
+    sourceId: syr-constitution-art4
+  - languageCode: ara
+    domain: locallySpoken
+    speakersShare: 0.92
+    sourceId: syr-cia-people
+  - languageCode: kmr
+    domain: locallySpoken
+    speakersShare: 0.09
+    sourceId: syr-cia-people
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.08
+    sourceId: syr-ef-english-2023
+ethnicGroups:
+  - group: Arab
+    percent: 85.0
+    sourceId: syr-cia-people
+  - group: Kurd
+    percent: 9.0
+    sourceId: syr-cia-people
+  - group: Other (Armenian, Assyrian/Chaldean/Syriac, Turkmen, Circassian, and other minorities)
+    percent: 6.0
+    sourceId: syr-cia-people
+timezones:
+  - name: Asia/Damascus
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: SYP
+  symbol: "ل.س"
+  name: Syrian pound
+legalConstraints:
+  - topic: "data protection regime"
+    description: "Syria does not have a standalone comprehensive data-protection law. Privacy is addressed through the Constitution's protections and the penal code's provisions on the confidentiality of communications, and data handling is regulated sectorally (telecommunications, banking). Enforcement rests mainly with service-provider and state bodies rather than an independent data-protection authority."
+    sourceId: syr-data-protection
+  - topic: "price display and currency"
+    description: "Prices are displayed in Syrian pounds; in practice the economy has seen high inflation and a strong reliance on foreign currencies (notably the US dollar) for large transactions, and the official and parallel-market exchange rates can diverge. Businesses commonly quote prices with adjustment for the prevailing rate."
+    sourceId: syr-cbs-inflation
+  - topic: "sanctions and cross-border payments"
+    description: "Syria is subject to comprehensive international sanctions, so international card networks and most cross-border banking and payment channels are unavailable or heavily restricted. Payments rely on cash and domestic means; businesses and visitors must plan for a cash-heavy, internationally isolated financial environment."
+    sourceId: syr-sanctions-payments
+paymentMethodShares:
+  - method: "cash (Syrian pounds and foreign currency)"
+    percent: 90.0
+    sourceId: syr-payment-composite
+  - method: "domestic bank transfers and local cards"
+    percent: 8.0
+    sourceId: syr-payment-composite
+  - method: "other (money transfers, mobile top-up credits, informal channels)"
+    percent: 2.0
+    sourceId: syr-payment-composite
+paymentCulture:
+  popularMethods:
+    - "Cash — almost universally dominant, in Syrian pounds and, for large sums, foreign currency (especially US dollars)"
+    - "Domestic banking through state and private banks, largely isolated from international networks"
+    - "Money-transfer services for remittances and informal (hawala) channels"
+    - "Prepaid mobile top-up used as a de facto small-value payment vehicle"
+  tipping:
+    expected: false
+    typicalAmount: "5-10%"
+    autoIncludedInBill: false
+    note: "Tipping is appreciated but not expected. In restaurants and cafés a few percent to ~10% is common; a small tip for porters, guides and drivers is customary."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Communication is warm, hospitable and relationship-driven. Use titles and surnames, and show respect to elders. Trust built through personal relationships matters greatly, and negotiation is patient and indirect. Family, community and honour are deeply important."
+  greetingNorms: "The greeting 'As-salamu alaykum' with the reply 'Wa alaykum as-salam' is standard, along with 'Ahlan' ('welcome') and inquiries after health and family. Men shake hands and may add a kiss on the cheek among close friends; greetings with women follow cultural norms (often verbal or a nod unless the woman offers her hand)."
+  meetingEtiquette: "Meetings open with tea, coffee and pleasantries before business. Hospitality is generous and offers are often insisted upon. Decision-making is relationship-based and can be slow; face-to-face trust and loyalty to family and community are central. Punctuality is generally expected but meetings may run long."
+  topicsToAvoid:
+    - "The ongoing conflict, its politics and sectarian dimensions"
+    - "Criticism of religion or of community honour"
+    - "Sensitive regional politics and the role of foreign powers"
+    - "Sensitive assertions about ethnic or religious groups"
+  giftGivingNotes: "Gift-giving is appreciated once a relationship is established. Sweets, dried fruits, quality perfumes and tactful items are safe. Give and receive with the right hand. Gifts are often opened when received. Avoid alcohol- or pork-linked gifts and anything with religious or political overtones."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: SY-DI
+    file: distinct-regions/sy-di.yaml
+    adminUnitCodes: [SY-DI]
+  - code: SY-HL
+    file: distinct-regions/sy-hl.yaml
+    adminUnitCodes: [SY-HL]
+  - code: SY-LA
+    file: distinct-regions/sy-la.yaml
+    adminUnitCodes: [SY-LA]
+sources:
+  - id: syr-constitution-art4
+    name: "Constitution of the Syrian Arab Republic, Article 4"
+    publisher: "Government of the Syrian Arab Republic"
+    url: "https://www.ilo.org/wcmsp5/groups/public/---ed_protect/---protrav/---ilo_aids/documents/legaldocument/wcms_125903.pdf"
+    year: 2012
+    accessedDate: "2026-09-20"
+    note: "The official language of the state is Arabic."
+  - id: syr-cia-people
+    name: "CIA World Factbook — Syria (people and society)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/syria/"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Ethnic composition (Arab ~85%, Kurd ~9%, other ~6%) and language shares (Arabic ~92%, Kurdish Kurmanji ~9%)."
+  - id: syr-data-protection
+    name: "Syrian legal framework for privacy and data protection"
+    publisher: "Government of the Syrian Arab Republic"
+    url: "https://www.syria.gov.sy/"
+    year: 2020
+    accessedDate: "2026-09-20"
+    note: "No standalone data-protection law; confidentiality governed by the penal code and sectoral (telecoms, banking) rules."
+  - id: syr-cbs-inflation
+    name: "Central Bureau of Statistics (CBS) — pricing and inflation"
+    publisher: "Central Bureau of Statistics, Syria"
+    url: "https://cbssyr.sy/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Prices in Syrian pounds; high inflation and dollarisation affect price setting and exchange-rate practice."
+  - id: syr-sanctions-payments
+    name: "International sanctions and the Syrian financial system"
+    publisher: "Ministry of Economy / Central Bank of Syria"
+    url: "https://www.cb.gov.sy/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Comprehensive sanctions isolate Syria from international card and payment networks; cash and domestic channels dominate."
+  - id: syr-ef-english-2023
+    name: "EF English Proficiency Index 2023 — Syria"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Approximate share of the population able to hold an English conversation (~8%, concentrated among the educated, younger and urban population)."
+  - id: syr-payment-composite
+    name: "Composite estimate of Syrian payment-method shares (2023-2024)"
+    publisher: "Composite estimate"
+    url: "https://www.cb.gov.sy/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Approximate shares: cash ~90%, domestic bank transfer/cards ~8%, other ~2%. Composite estimate; there is no published official paymentMethodShares split."

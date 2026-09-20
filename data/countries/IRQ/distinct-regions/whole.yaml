@@ -1,0 +1,113 @@
+code: WHOLE
+name:
+  eng: Iraq
+  local:
+    - languageCode: ara
+      value: العراق
+    - languageCode: ckb
+      value: عێراق
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate across most of the country — blazing summers, mild winters, very low rainfall.
+  - koppenCode: BSh
+    description: Hot semi-arid climate in the steppe and river margins and the northern highlands.
+  - koppenCode: Csa
+    description: Mediterranean-influenced climate in the northern mountains (Kurdistan), with colder winters and more rainfall.
+landmarks:
+  - name: The archaeological site of Babylon
+  - name: Hatra
+    unescoWorldHeritage: true
+  - name: The Ancient City of Ashur (Qal'at Sherqat)
+    unescoWorldHeritage: true
+  - name: Samarra Archaeological City
+    unescoWorldHeritage: true
+  - name: Erbil Citadel (Hewlêr)
+    unescoWorldHeritage: true
+  - name: The Marshlands of Southern Iraq (Ahwar)
+    unescoWorldHeritage: true
+culturalTraits:
+  - "The cradle of civilization — Mesopotamia, the land between the Tigris and Euphrates, one of the world's oldest centres of writing, law and urban life"
+  - "A deeply hospitable culture built around family, tribe and community"
+  - "A rich literary and scholarly heritage (Babylon, Baghdad's House of Wisdom in the Abbasid age)"
+  - "A diverse society of Arabs, Kurds, Turkmen, Assyrians, Yazidis and other peoples"
+  - "Strong attachment to poetry, storytelling and the Arabic and Kurdish languages"
+prideOf:
+  - "Mesopotamia and the ancient empires of Babylon, Assyria and Sumer"
+  - "The Marsh Arabs (Madan) and the unique wetland heritage of the southern Ahwar"
+  - "Baghdad and the Abbasid 'Golden Age' of scholarship and writing"
+  - "Kurdish national identity and the mountains of Iraqi Kurdistan"
+  - "Hospitality and the resilience of the Iraqi people"
+animals:
+  popular:
+    - Goat (the hardy Iraqi domestic goat)
+    - Arabian camel (dromedary)
+    - Water buffalo (in the southern marshes)
+  unique:
+    - Mesopotamian spinner dolphin (Gulf waters)
+    - Marsh ass (extinct in the wild; historically emblematic of the Ahwar)
+    - Golden eagle (winter visitor in the north)
+    - Syrian brown bear (northern mountains, rare)
+industries:
+  - Oil and natural-gas production and export (one of the world's largest reserves)
+  - Refining and petrochemicals
+  - Agriculture (wheat, barley, dates — Iraq is famed for dates — rice, cotton)
+  - Construction and infrastructure
+  - Trade, retail and services
+sports:
+  - Football (the national passion; the Iraqi Pro League and a celebrated national team)
+  - Futsal
+  - Basketball
+  - Wrestling
+  - Weightlifting and bodybuilding
+religions:
+  - name: Muslim
+    percent: 95.0
+    sourceId: irq-religion-cia
+  - name: Christian (Assyrian/Chaldean, Syriac) and other (Yazidi, Mandaean, Zoroastrian)
+    percent: 5.0
+    sourceId: irq-religion-cia
+entertainment:
+  - season: spring
+    items:
+      - "Nowruz in the Kurdish north, celebrated as the Kurdish New Year (March 21)"
+      - "Picnics and outings in the mild, flowering season"
+  - season: summer
+    items:
+      - "The cooler mountain retreats of the north (e.g. the resorts around Erbil and Sulaymaniyah)"
+      - "Evening outings and cafés to escape the intense heat"
+  - season: autumn
+    items:
+      - "Date-harvest season and returning to outdoor life as temperatures ease"
+      - "Sightseeing at archaeological sites in the more comfortable weather"
+  - season: winter
+    items:
+      - "Skiing in the mountains of Kurdistan (some resorts operate snow season)"
+      - "Indoor socialising, tea houses and family gatherings"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "The working week runs Saturday to Thursday, with Friday the rest day. Offices commonly operate roughly 8:00am/9:00am to 3:00pm/4:00pm; the short official hours reflect the heat and the summer rhythm."
+  lunchBreakTiming: "A midday break around 1:00-2:00pm is common, longer in summer when many rest during the hottest part of the day."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Government and most businesses close for several days around both Eids."
+    - period: Muharram (Ashura)
+      description: "Public offices close and many businesses slow for Ashura observances."
+  notes: "Friday is the weekly rest day (many also rest Saturday). Business slows sharply during Ramadan, the Eids and Ashura. The Kurdish Region largely follows the same weekend but celebrates Nowruz in March. Infrastructure (electricity, banking) can be inconsistent, so cash and local partnerships matter."
+sources:
+  - id: irq-religion-cia
+    name: "CIA World Factbook — Iraq (religion)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/iraq/"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Religious composition: Muslim ~95% (Shia majority overall, with a significant Sunni population, especially in the north and west), Christian and other minorities (Yazidi, Mandaean, Assyrian/Chaldean) ~5%."

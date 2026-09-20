@@ -1,0 +1,114 @@
+code: WHOLE
+name:
+  eng: Syria
+  local:
+    - languageCode: ara
+      value: سوريا
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate across the interior steppe and east — parching summers, mild winters, very low rainfall.
+  - koppenCode: BSh
+    description: Hot semi-arid climate in the transitional interior.
+  - koppenCode: Csa
+    description: Mediterranean climate on the coast and western mountains — hot, dry summers and mild, rainy winters.
+landmarks:
+  - name: The Ancient City of Damascus (Old City, Umayyad Mosque)
+    unescoWorldHeritage: true
+  - name: The Ancient City of Aleppo
+    unescoWorldHeritage: true
+  - name: The Crac des Chevaliers and Qal'at Salah El-Din
+    unescoWorldHeritage: true
+  - name: The Ancient City of Bosra (with its great Roman theatre)
+    unescoWorldHeritage: true
+  - name: Palmyra (Tadmur), the oasis city of the Syrian desert
+    unescoWorldHeritage: true
+  - name: The Ancient Villages of Northern Syria (Dead Cities)
+    unescoWorldHeritage: true
+culturalTraits:
+  - "One of the oldest continuously inhabited regions on Earth — the 'cradle of civilizations' of the Levant"
+  - "A deep and diverse heritage spanning ancient, Roman, Byzantine, Islamic and Ottoman layers"
+  - "Renowned Levantine hospitality, cuisine and the traditions of the Damascene and Aleppine craft"
+  - "A society widely known for poetry, storytelling and a rich musical and culinary tradition"
+  - "Resilience through decades of challenge and the enduring importance of family and community"
+prideOf:
+  - "Damascus — among the oldest continuously inhabited capitals in the world"
+  - "The monumental legacy of Palmyra, Bosra, the Crac des Chevaliers and the Dead Cities"
+  - "Levantine cuisine (hummus, kibbeh, baklava, damascene sweets) and the art of the table"
+  - "Arabic literature, poetry and the classical music and song traditions"
+  - "The hospitality and resilience of the Syrian people"
+animals:
+  popular:
+    - Goat (the hardy Syrian goat)
+    - Arabian camel (dromedary in the desert)
+    - Domestic sheep
+  unique:
+    - Syrian hamster (originally described from Syria)
+    - Persian leopard (rare, in the western mountains)
+    - Golden eagle (winter visitor)
+industries:
+  - Agriculture (wheat, barley, cotton, olives, citrus, grapes)
+  - Oil and natural gas (modest production in the east)
+  - Textiles and traditional handicrafts (Damascene brocade, soap from Aleppo)
+  - Food processing
+  - Construction and reconstruction
+sports:
+  - Football (the national passion; the Syrian Premier League)
+  - Basketball
+  - Weightlifting
+  - Wrestling
+  - Swimming on the coast
+religions:
+  - name: Muslim (Sunni and Alawite/other Shia branches)
+    percent: 87.0
+    sourceId: syr-religion-cia
+  - name: Christian (Greek Orthodox, Syriac and other communities)
+    percent: 10.0
+    sourceId: syr-religion-cia
+  - name: Other (Druze and others)
+    percent: 3.0
+    sourceId: syr-religion-cia
+entertainment:
+  - season: spring
+    items:
+      - "Outings to the coastal mountains and historical sites in the mild season"
+      - "Damascene and Aleppine spring festivals and café life"
+  - season: summer
+    items:
+      - "Escape to the cooler coastal mountains (the 'Syrian Coast') and higher regions"
+      - "Evening socialising in the old cities and on the waterfront"
+  - season: autumn
+    items:
+      - "Olive- and citrus-harvest season in the west"
+      - "Comfortable sightseeing weather"
+  - season: winter
+    items:
+      - "Mild, rainy coastal winters; cooler, often cold interior"
+      - "Indoor socialising, tea houses and family gatherings"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "The traditional working week runs Saturday to Thursday in much of the public and private sector; Friday is the rest day. Offices commonly operate roughly 8:00am/9:00am to 4:00pm/5:00pm."
+  lunchBreakTiming: "A midday break around 1:00-2:00pm is common."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Most businesses and offices close for the Eids."
+    - period: Ramadan
+      description: "Working hours shorten during Ramadan and the day's rhythm shifts to the evening."
+  notes: "Friday is the weekly rest day. Business slows during Ramadan, the Eids and major religious holidays. The highly disrupted economic environment means cash predominates, relationships are essential, and international payment channels are largely unavailable."
+sources:
+  - id: syr-religion-cia
+    name: "CIA World Factbook — Syria (religion)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/syria/"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Religious composition: Muslim ~87% (mainly Sunni, with an Alawite and other Shia-related minority), Christian ~10%, Druze and other ~3%. Figures are approximations given the displacement and conflict of recent years."

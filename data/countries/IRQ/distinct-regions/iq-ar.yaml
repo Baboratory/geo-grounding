@@ -1,0 +1,79 @@
+code: IQ-AR
+name:
+  eng: Erbil Governorate (Hewlêr)
+  local:
+    - languageCode: ckb
+      value: هەولێر
+climates:
+  - koppenCode: BSh
+    description: Hot semi-arid climate in the foothills — warm to hot summers, mild winters and modest rainfall.
+landmarks:
+  - name: Erbil Citadel (Hewlêr)
+    unescoWorldHeritage: true
+  - name: The modern bazaar of Erbil
+  - name: The Kurdish Textile Museum
+  - name: The ancient settlement of Shanidar Cave (nearby, in the Zagros)
+  - name: The Sami Abdulrahman Park
+culturalTraits:
+  - "The de facto capital of the Kurdistan Region — a centre of Kurdish national identity, language and culture"
+  - "One of the oldest continuously inhabited cities in the world, centred on the Citadel mound"
+  - "A welcoming, fast-modernising city that has grown rapidly with investment and tourism"
+  - "Strong Kurdish traditions of hospitality, music and storytelling"
+prideOf:
+  - "The Citadel and the city's extraordinary 7,000-year history"
+  - "Kurdish language, music and identity"
+  - "The region's relative stability and reconstruction after decades of conflict"
+  - "The dramatic Zagros mountains surrounding Erbil"
+animals:
+  popular:
+    - Goat
+    - Kurdish mountain sheep
+  unique:
+    - Persian leopard (Zagros mountains)
+    - Syrian brown bear (rare, mountain forests)
+industries:
+  - Oil and gas (Kurdistan Region hydrocarbon sector)
+  - Construction, real estate and infrastructure
+  - Trade, retail and logistics
+  - Tourism and hospitality
+  - Banking and professional services
+sports:
+  - Football (Erbil SC and the growing local League)
+  - Wrestling
+  - Mountain trekking and outdoor sports
+entertainment:
+  - season: spring
+    items:
+      - "Nowruz celebrations (March 21 — the Kurdish New Year) with bonfires and feasting"
+      - "Outings to the surrounding mountains as the valleys green"
+  - season: summer
+    items:
+      - "Mountain resorts and cooler highland getaways around the region"
+      - "Café and park life in the comfortable evenings"
+  - season: autumn
+    items:
+      - "Harvest and the golden colours of the Zagros foothills"
+  - season: winter
+    items:
+      - "Skiing and snowfall in the nearby mountains (e.g. Korek)"
+      - "Warm indoor gatherings, tea houses and music"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Offices typically run Sunday-Thursday, roughly 9:00am-5:00pm, with Friday the rest day (some firms add a half/rest Saturday)."
+  lunchBreakTiming: "A midday break around 1:00-2:00pm is common."
+  notableShutdownPeriods:
+    - period: Nowruz
+      description: "A major several-day holiday across the Kurdistan Region each March, with offices closed and widespread festivities."
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Offices and most businesses close for the Eids."
+  notes: "Erbil is the most internationally oriented commercial hub in the Kurdistan Region, with a growing foreign-business presence and a Sunday-Thursday working week (Friday off). Nowruz is the biggest holiday of the year here."

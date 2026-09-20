@@ -1,0 +1,76 @@
+code: IR-09
+name:
+  eng: Razavi Khorasan Province
+  local:
+    - languageCode: fas
+      value: استان خراسان رضوی
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate in the lowlands, grading to semi-arid in the mountains — hot summers, cold winters, low rainfall.
+landmarks:
+  - name: The Shrine of Imam Reza (Holy Shrine of Mashhad)
+  - name: Tomb of Ferdowsi, Tus (author of the Shahnameh)
+  - name: Goharshad Mosque, Mashhad
+  - name: Nishapur and the tomb of Omar Khayyam
+  - name: The historic bazaar of Mashhad
+culturalTraits:
+  - "A great centre of Shia pilgrimage — Mashhad, home of the shrine of Imam Reza, draws millions of pilgrims each year"
+  - "The cradle of Persian literary culture (Ferdowsi's Tus, Omar Khayyam's Nishapur)"
+  - "A crossroads of Persia and Central Asia, with a deep caravan and trading heritage"
+  - "Blend of Persian, Kurdish, Turkmen and Baloch strands in a frontier region"
+prideOf:
+  - "The Shrine of Imam Reza and Mashhad's role as Iran's spiritual capital"
+  - "Ferdowsi, the 'father of Persian poetry', and the Shahnameh"
+  - "The scholarly and pilgrimage tradition of the history-rich city of Mashhad"
+  - "The saffron and carpet traditions of the province"
+animals:
+  popular:
+    - Persian leopard
+    - Wild goat (bezoar ibex)
+  unique:
+    - Asian houbara bustard (migratory)
+    - Persian leopard
+industries:
+  - Religious tourism and pilgrimage services
+  - Agriculture (saffron — Khorasan is world-famous for it — wheat, sugar beet, fruit)
+  - Petroleum refining (large refinery near Mashhad)
+  - Textiles, carpets and food processing
+  - Trade with Central Asia
+sports:
+  - Football (Padideh and other Mashhad clubs)
+  - Wrestling
+  - Equestrian sports and horse-riding
+entertainment:
+  - season: spring
+    items:
+      - "Pilgrimage visits and Nowruz celebrations"
+      - "Sightseeing around Mashhad and Tus in mild weather"
+  - season: summer
+    items:
+      - "Indoor cultural life and shrine visits to avoid the heat"
+  - season: autumn
+    items:
+      - "Saffron-harvest season and agricultural festivals"
+  - season: winter
+    items:
+      - "Cold winter days — visits centre on the shrine, museums and tea houses"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Offices and shops generally run Saturday-Thursday, roughly 8:00am-4:00pm/5:00pm, with Friday off. Pilgrimage-related services operate on a longer daily schedule, especially around the shrine."
+  lunchBreakTiming: "A lunch and prayer break around 12:30-1:30pm is common."
+  notableShutdownPeriods:
+    - period: Nowruz
+      description: "Many establishments close for the Persian New Year; the shrine area remains very busy with pilgrims."
+    - period: Muharram
+      description: "Businesses slow for Ashura and religious observances."
+  notes: "Razavi Khorasan revolves heavily around pilgrimage: the shrine draws visitors year-round, so hospitality and religious-tourism services operate nearly every day. Friday is the rest day; the mundane business week runs Saturday-Thursday."

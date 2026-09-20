@@ -1,0 +1,78 @@
+code: IQ-NI
+name:
+  eng: Nineveh Governorate
+  local:
+    - languageCode: ara
+      value: محافظة نينوى
+    - languageCode: syr
+      value: ܢܝܢܘܐ
+climates:
+  - koppenCode: BSh
+    description: Hot semi-arid climate on the plain around Mosul — hot summers, cool winters, low to moderate rainfall.
+landmarks:
+  - name: The archaeological site of Nineveh (Mosul), capital of the Assyrian Empire
+  - name: The ancient city of Nimrud (Kalhu)
+  - name: The largely-reconstructed Al-Nuri Great Mosque and its leaning minaret, Mosul
+  - name: Hatra
+    unescoWorldHeritage: true
+  - name: The ruins of Dur-Sharrukin at Khorsabad
+culturalTraits:
+  - "The heartland of the ancient Assyrian Empire — Nineveh, Nimrud and a deep Mesopotamian legacy"
+  - "A richly diverse city of Arabs, Kurds, Assyrians, Turkmen, Yazidis and Shabaks"
+  - "Mosul's renowned heritage of craft, poetry and the centuries-old university tradition"
+  - "Resilience and cultural revival after the destruction of the modern conflict"
+prideOf:
+  - "Nineveh and the Assyrian imperial legacy"
+  - "The reconstructed Al-Nuri Mosque and Mosul's cultural revival"
+  - "The religious and ethnic mosaic of the region (Muslim, Christian, Yazidi communities)"
+  - "The region's ancient Christian and Yazidi heritage"
+animals:
+  popular:
+    - Goat
+    - Kurdish sheep
+  unique:
+    - Persian leopard (Zagros foothills)
+    - Golden eagle (winter visitor)
+industries:
+  - Oil and gas (the surrounding fields)
+  - Agriculture (grain, sheep, cotton on the fertile plain)
+  - Cement and construction materials
+  - Trade and services
+  - Reconstruction and construction (post-conflict rebuilding effort)
+sports:
+  - Football (Mosul's traditional clubs)
+  - Wrestling and bodybuilding
+entertainment:
+  - season: spring
+    items:
+      - "Outings and picnics in the flowering plain around the archaeological sites"
+      - "Religious festivals of the diverse communities"
+  - season: summer
+    items:
+      - "Evening socialising and retreats to the cooler northern highlands"
+  - season: autumn
+    items:
+      - "Mild weather returns; visits to the revived historic quarter of Mosul's old city"
+  - season: winter
+    items:
+      - "Cool, sometimes cold winters — indoor gatherings and tea houses"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Offices typically run Saturday-Thursday, roughly 8:00am-3:00pm/4:00pm, with Friday the rest day."
+  lunchBreakTiming: "A midday break around 1:00-2:00pm is common."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Most establishments close for the Eids."
+    - period: Ashura and religious observances of the region's communities
+      description: "Businesses slow and some close for religious commemorations across the region's communities."
+  notes: "The region is ethnically and religiously diverse (Muslim, Christian, Yazidi) with significant Christian and Yazidi festivals complementing the Islamic calendar. Friday is the rest day. Reconstruction and security considerations continue to shape the local business environment."
