@@ -1,0 +1,77 @@
+code: WHOLE
+name:
+  eng: Martinique
+  local:
+    - languageCode: fra
+      value: Martinique
+    - languageCode: acf
+      value: Matnik
+climates:
+  - koppenCode: Af
+    description: Tropical rainforest climate, hot and humid year-round with a distinct rainy season.
+landmarks:
+  - name: Mont Pelée
+    description: Active volcano whose 1902 eruption destroyed Saint-Pierre; the north's dominant landmark.
+  - name: Saint-Pierre
+    description: Historic town, once the island's capital, rebuilt after the 1902 eruption.
+  - name: Balata Botanical Gardens
+culturalTraits:
+  - Martinican bèlè music and dance tradition
+  - Carnival season (Vaval), including the red-devils day
+prideOf:
+  - Rum heritage (notably the AOC Martinique AOC rum)
+  - Literary and créolité cultural movement
+animals:
+  popular:
+    - Green sea turtle
+    - Tropical mockingbird
+  unique:
+    - Martinique lancehead (Bothrops lanceolatus) locality
+industries:
+  - Agriculture (sugarcane, bananas, pineapples)
+  - Rum distilling
+  - Tourism
+sports:
+  - Football
+  - Yole (creole canoe racing)
+  - Sailing
+religions:
+  - name: Roman Catholic
+    percent: 0.86
+    sourceId: martinique-religion
+entertainment:
+  - season: dry
+    items:
+      - Carnival (February)
+  - season: wet
+    items:
+      - Indoor and market festivals
+traditionalDishes:
+  - season: allYear
+    items:
+      - Accras de morue (salt-cod fritters)
+      - Gratin de christophine (chayote gratin)
+      - Ti' punch (rum cocktail)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Madras head-tie and traditional creole dress
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  lunchBreakTiming: "French-style midday closure, roughly 12:00pm-2:00pm."
+  typicalWorkHours: "Weekdays around 8:00am-5:00pm, as in French administration."
+  restDays:
+    - saturday
+    - sunday
+  notes: "As an overseas department of France, Martinique follows French work and shopping patterns."
+sources:
+  - id: martinique-religion
+    name: "Religious affiliations in Martinique"
+    publisher: "Composite estimate (CIA World Factbook regional reporting)"
+    url: "https://www.cia.gov/the-world-factbook/countries/martinique/"
+    accessedDate: "2026-09-20"
+    note: "Catholicism is the dominant religion; the 0.86 figure is the frequently cited Roman Catholic share, treated as a Composite estimate."

@@ -1,0 +1,78 @@
+code: WHOLE
+name:
+  eng: Mayotte
+  local:
+    - languageCode: fra
+      value: Mayotte
+    - languageCode: swb
+      value: Maoré
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna climate with a distinct wet (monsoon) season and a drier period, hot year-round.
+landmarks:
+  - name: Mont Bénara
+    description: The island's highest point (660 m).
+  - name: Le lagon de Mayotte
+    description: A large turquoise lagoon ringed by a coral barrier reef.
+culturalTraits:
+  - A blend of Comorian (Swahili-linked), Malagasy and French influence
+  - Strong Islamic cultural tradition
+prideOf:
+  - The coral barrier reef and lagoon (one of the largest in the world)
+  - Its unique Franco-Comorian identity within France
+animals:
+  popular:
+    - Green sea turtle
+    - Dugong
+  unique:
+    - Livingstone's fruit bat
+    - Mayotte white-eye (Zosterops mayottensis, an endemic bird)
+industries:
+  - Fishing
+  - Agriculture (ylang-ylang, vanilla, bananas)
+  - Public administration
+sports:
+  - Football
+  - Martial arts
+  - Swimming and water sports
+religions:
+  - name: Muslim
+    percent: 0.97
+    sourceId: mayotte-religion
+entertainment:
+  - season: dry
+    items:
+      - Eid and other Islamic celebrations (dates move with the lunar calendar)
+  - season: wet
+    items:
+      - New-year festivities (including historical end-of-Ramadan rejoicing)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Brochettes (grilled skewered meat)
+      - Carri / Mataba (manioc or banana-based dishes)
+      - Salmi de cabri (goat stew)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Salouva (a traditional wrap-around garment worn by women)
+      - Islamic-influenced modest dress
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  lunchBreakTiming: "Long midday closure is common, roughly 12:30pm-3:00pm, especially in the hot season."
+  typicalWorkHours: "Weekdays around 7:30am-4:30pm (with a long midday break), reflecting the climate and local practice."
+  restDays:
+    - saturday
+    - sunday
+  notes: "As an overseas department of France, Mayotte follows the French administrative calendar, but Friday prayers and Islamic holidays shape local rhythm."
+sources:
+  - id: mayotte-religion
+    name: "Religious affiliations in Mayotte"
+    publisher: "Composite estimate (CIA World Factbook/Ministère des Outre-mer reporting)"
+    url: "https://www.cia.gov/the-world-factbook/countries/mayotte/"
+    accessedDate: "2026-09-20"
+    note: "Islam (chiefly Sunni) is the dominant religion of Mayotte, overwhelmingly practised by the population (frequently cited around 97%); the figure is a Composite estimate."

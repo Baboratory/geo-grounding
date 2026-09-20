@@ -1,0 +1,6 @@
+code: acf
+name:
+  eng: Saint Lucian Creole French
+  local: Kwéyòl
+  # 'acf' is the lessser-Antillean French creole code shared by Martinique,
+  # Saint Lucia and Dominica; used here for Martinican Creole (Kréyol Matnik).

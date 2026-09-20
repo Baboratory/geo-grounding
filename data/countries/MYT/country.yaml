@@ -1,0 +1,59 @@
+alpha3: MYT
+alpha2: YT
+name:
+  eng: Mayotte
+  local:
+    - languageCode: fra
+      value: Mayotte
+    - languageCode: swb
+      value: Maoré
+flagEmoji: "🇾🇹"
+capital: Mamoudzou
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: insee-language
+  # Maore Comorian (Shimaore, swb) is not official: French is the sole official
+  # language, as Mayotte is a French overseas department. Shimaore is the de
+  # facto indigenous lingua franca of daily life alongside French. The share is
+  # a Composite estimate — INSEE notes only 29% of adults use French as their
+  # daily language, indicating Shimaore is the majority home language, but no
+  # exact figure is published.
+  - languageCode: swb
+    domain: locallySpoken
+    speakersShare: 0.6
+    sourceId: insee-language
+timezones:
+  - name: Indian/Mayotte
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+paymentCulture:
+  popularMethods:
+    - Cash (traditionally dominant, especially in markets and rural areas)
+    - Visa and Mastercard (increasingly accepted in Mamoudzou and tourist areas)
+  tipping:
+    note: "Tipping is not customary; French practice (service included) applies. Discrete gratuities are appreciated in hospitality."
+# paymentMethodShares, legalConstraints and communicationStyle intentionally
+# omitted: no official payment split is published for the territory, French law
+# applies in full (overseas department), and no reliably sourced description of
+# distinct Mayotte communication norms was found.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: insee-language
+    name: "L'essentiel sur… Mayotte (population and language)"
+    publisher: "Institut national de la statistique et des études économiques (INSEE)"
+    url: "https://www.insee.fr/fr/statistiques/4632225"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "French is the sole official language of Mayotte (overseas department of France). INSEE reports only 29% of adults use French as their daily language, indicating Shimaore (Maore Comorian) is the majority home language; the 0.6 locallySpoken share is a Composite estimate."

@@ -1,0 +1,76 @@
+code: WHOLE
+name:
+  eng: Guadeloupe
+  local:
+    - languageCode: fra
+      value: Guadeloupe
+    - languageCode: gcf
+      value: Gwadloup
+climates:
+  - koppenCode: Af
+    description: Tropical rainforest climate on the two main islands (Basse-Terre) and tropical monsoon on the low-lying Grande-Terre, warm and humid year-round.
+landmarks:
+  - name: La Soufrière volcano
+    description: Active stratovolcano and the highest point of Guadeloupe, on Basse-Terre.
+  - name: Les Saintes archipelago
+    description: Group of small islands off the southern coast, known for their harbour and heritage.
+culturalTraits:
+  - Gwoka drum music and dance (a Guadeloupean emblem)
+  - Carnival season leading up to Lent
+prideOf:
+  - Gwoka music and the drum tradition
+  - Rum production heritage
+animals:
+  popular:
+    - Green sea turtle
+    - Frigatebird
+  unique:
+    - Guadeloupe racer (Alsophis antillensis, a non-venomous snake)
+industries:
+  - Tourism
+  - Agriculture (bananas, sugarcane)
+  - Rum distilling
+sports:
+  - Football
+  - Yole (traditional creole canoe racing)
+  - Cycling
+religions:
+  - name: Roman Catholic
+    percent: 0.86
+    sourceId: guadeloupe-religion
+entertainment:
+  - season: dry
+    items:
+      - Carnival (February, parades and music)
+  - season: wet
+    items:
+      - La Désirade island festivals
+traditionalDishes:
+  - season: allYear
+    items:
+      - Accras de morue (salt-cod fritters)
+      - Colombo de porc (spiced pork stew)
+      - Boudin créole (creole blood sausage)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Madras head-tie (traditional women's wear)
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  lunchBreakTiming: "Typical French-style midday closure, roughly 12:00pm-2:00pm."
+  typicalWorkHours: "Weekdays around 8:00am-5:00pm (8:30-5:30), consistent with French administration."
+  restDays:
+    - saturday
+    - sunday
+  notes: "Shops may close earlier on Saturday afternoon and many close on Sunday, as in France."
+sources:
+  - id: guadeloupe-religion
+    name: "Religious affiliations in Guadeloupe"
+    publisher: "Composite estimate (CIA World Factbook regional reporting)"
+    url: "https://www.cia.gov/the-world-factbook/countries/guadeloupe/"
+    accessedDate: "2026-09-20"
+    note: "Catholicism is the dominant religion; the 0.86 figure is the frequently cited Roman Catholic share, treated as a Composite estimate as no official census publishes religious affiliation."

@@ -1,0 +1,57 @@
+alpha3: REU
+alpha2: RE
+name:
+  eng: Réunion
+  local:
+    - languageCode: fra
+      value: La Réunion
+    - languageCode: rcf
+      value: La Rényon
+flagEmoji: "🇷🇪"
+capital: Saint-Denis
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: insee-language
+  # Réunion Creole is not official: French is the sole official language of the
+  # island. Réunion Creole (rcf) is nonetheless the most widely spoken and most
+  # commonly used language in everyday/informal life. The share is a Composite
+  # estimate — no census records a precise language-of-home figure.
+  - languageCode: rcf
+    domain: locallySpoken
+    speakersShare: 0.8
+    sourceId: insee-language
+timezones:
+  - name: Indian/Reunion
+    standardUtcOffset: "UTC+4"
+    observesDst: false
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+paymentCulture:
+  popularMethods:
+    - Visa and Mastercard (widely accepted)
+    - Cash (common in markets and small shops)
+  tipping:
+    note: "Service is included in the bill as in mainland France; rounding up is customary but not required."
+# paymentMethodShares, legalConstraints and communicationStyle intentionally
+# omitted: no official payment split is published, French law applies in full
+# (overseas region of France), and no reliably sourced description of distinct
+# Réunionese communication norms was found.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: insee-language
+    name: "La Réunion (population and official language)"
+    publisher: "Institut national de la statistique et des études économiques (INSEE)"
+    url: "https://www.insee.fr/fr/statistiques/4482393"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "French is the sole official language of Réunion. The Réunion-Creole locallySpoken share (0.8) is a Composite estimate reflecting that Réunion Creole is the widely reported predominant everyday language; no census records an exact figure."

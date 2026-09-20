@@ -1,0 +1,57 @@
+alpha3: MTQ
+alpha2: MQ
+name:
+  eng: Martinique
+  local:
+    - languageCode: fra
+      value: Martinique
+    - languageCode: acf
+      value: Matnik
+flagEmoji: "🇲🇶"
+capital: Fort-de-France
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: insee-language
+  # Martinican Creole is not official: French is the sole official language.
+  # Virtually the entire population speaks both French and Martinican Creole
+  # (a form of Antillean Creole). The locallySpoken share is an estimate — no
+  # census records a language-of-home figure.
+  - languageCode: acf
+    domain: locallySpoken
+    speakersShare: 0.85
+    sourceId: insee-language
+timezones:
+  - name: America/Martinique
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+paymentCulture:
+  popularMethods:
+    - Visa and Mastercard (widely accepted)
+    - Cash (still used for markets and small vendors)
+  tipping:
+    note: "Service is included in the bill as in metropolitan France; rounding up is customary but not required."
+# paymentMethodShares, legalConstraints and communicationStyle intentionally
+# omitted: no official payment-split figure is published, French law applies in
+# full (overseas region), and no reliably sourced description of distinct
+# Martinican communication norms beyond general French ones was found.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: insee-language
+    name: "L'essentiel sur… la Martinique (population and official language)"
+    publisher: "Institut national de la statistique et des études économiques (INSEE)"
+    url: "https://www.insee.fr/fr/statistiques/4482393"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "French is the sole official language of Martinique. The Martinican-Creole locallySpoken share (0.85) is a Composite estimate from the widely reported reality that virtually the whole population also speaks Martinican Creole; no census records an exact figure."
