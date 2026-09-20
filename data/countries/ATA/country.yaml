@@ -1,0 +1,94 @@
+alpha3: ATA
+alpha2: AQ
+name:
+  eng: Antarctica
+  local: []
+flagEmoji: "🇦🇶"
+capital: None (no permanent settlement; governed collectively under the Antarctic Treaty System)
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# The Antarctic Treaty System (1959 Treaty, in force 1961, plus the 1991
+# Environmental Protocol) governs the continent below 60°S as a zone of peace
+# and science. Seven states (Argentina, Australia, Chile, France, New Zealand,
+# Norway, UK) hold territorial claims that the Treaty holds in abeyance; no
+# sovereignty is exercised. There is no permanent resident population — only
+# transitory scientific, logistics and tourism personnel (roughly 1,000 in
+# winter to 5,000 in summer across the research stations).
+# No official or de facto common language exists: the Treaty's equally authentic
+# texts are in English, French, Russian and Spanish, and stations operate in the
+# home languages of their national programmes. languageUsage is therefore
+# intentionally empty — there is no permanent speech community to attribute
+# speakers shares to.
+languageUsage: []
+timezones:
+  - name: Antarctica/Troll
+    standardUtcOffset: "UTC+0"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Station follows mainland Norwegian (Central European) time: last Sunday in March to last Sunday in October."
+  - name: Antarctica/Palmer
+    standardUtcOffset: "UTC-3"
+    observesDst: true
+    dstUtcOffset: "UTC-2"
+    dstPeriod: "Station follows Chilean time, which observes daylight saving from early September to early April (southern spring/summer)."
+  - name: Antarctica/Syowa
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+  - name: Antarctica/Vostok
+    standardUtcOffset: "UTC+5"
+    observesDst: false
+  - name: Antarctica/Casey
+    standardUtcOffset: "UTC+8"
+    observesDst: false
+  - name: Antarctica/DumontDUrville
+    standardUtcOffset: "UTC+10"
+    observesDst: false
+  - name: Antarctica/McMurdo
+    standardUtcOffset: "UTC+12"
+    dstUtcOffset: "UTC+13"
+    observesDst: true
+    dstPeriod: "Station follows New Zealand time, observing daylight saving from the last Sunday in September to the first Sunday in April."
+# Research stations keep clocks on their home country's civil time, which is why
+# the continent spans nearly every UTC offset. Those following Chile (Palmer,
+# Rothera), Norway (Troll) and New Zealand (McMurdo) observe DST; station-based
+# ones on fixed offsets do not.
+# No single official currency exists. Stations settle in the currency of their
+# home nation's programme (chiefly the US dollar), so ISO 4217 'XXX' (no
+# currency) is coded here rather than any national unit.
+currency:
+  code: XXX
+  symbol: ""
+  name: "No single official currency (stations use their home country's currency, chiefly the US dollar)"
+legalConstraints:
+  - topic: "Sovereignty suspended under the Antarctic Treaty (Art. IV)"
+    description: "No state exercises sovereignty over Antarctica. The 1959 Treaty freezes all territorial claims while in force, permits only peaceful and scientific activities, guarantees freedom of scientific investigation, and keeps the area open to inspection at all times. The 1991 Protocol on Environmental Protection designates Antarctica as a natural reserve devoted to peace and science and bars mineral-resource activity."
+    sourceId: ats-antarctic-treaty
+  - topic: "Mineral extraction banned"
+    description: "The 1991 Environmental Protocol to the Antarctic Treaty prohibits all mineral-resource activities other than scientific research, and requires environmental-impact assessment for all activities."
+    sourceId: ats-antarctic-treaty
+  - topic: "No permanent residents — no e-commerce/consumer market"
+    description: "With no permanent civilian population and no retail economy, ordinary consumer-regulation and e-commerce rules do not apply. Activity is limited to licensed national scientific programmes, IAATO-regulated tourism, and their suppliers."
+    sourceId: ats-antarctic-treaty
+paymentCulture:
+  popularMethods:
+    - "Card / direct billing through national Antarctic programme logistics (no retail cash economy)"
+  # tipping intentionally omitted: no resident public-facing service economy exists on the continent.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: ats-antarctic-treaty
+    name: "The Antarctic Treaty (Washington, 1 December 1959) and Protocol on Environmental Protection (Madrid, 1991)"
+    publisher: "Secretariat of the Antarctic Treaty (ATS)"
+    url: "https://www.ats.aq/e/antarctictreaty.html"
+    year: 1959
+    accessedDate: "2026-09-20"
+    note: "Legal basis for the non-sovereign, demilitarised status of Antarctica, the suspension of national claims (Art. IV), prohibition of mineral activity and the environmental-protection regime; corroborated by the ~1,000-5,000 seasonal scientific population figure."
+  - id: nz-mfat-ats
+    name: "The Antarctic Treaty System"
+    publisher: "New Zealand Ministry of Foreign Affairs and Trade (MFAT)"
+    url: "https://www.mfat.govt.nz/en/environment/antarctica-and-the-southern-ocean/the-antarctic-treaty-system"
+    accessedDate: "2026-09-20"
+    note: "Summary of the Treaty System covering the area south of 60°S, the consultative-party mechanism, and the suspension of the seven territorial claims; used for the seasons and governance framing."

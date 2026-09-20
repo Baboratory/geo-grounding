@@ -1,0 +1,54 @@
+code: WHOLE
+name:
+  eng: Heard Island and McDonald Islands
+  local:
+    - languageCode: eng
+      value: Heard Island and McDonald Islands
+climates:
+  - koppenCode: ET
+    description: Sub-Antarctic tundra climate — cold, persistently windy and cloudy, with ~70% of Heard Island covered by glaciers.
+landmarks:
+  - name: "Big Ben and Mawson's Peak"
+    description: An active volcano that dominates Heard Island; Mawson's Peak (~2,745 m) is the tallest mountain in Australian territory outside Antarctica.
+  - name: McDonald Islands
+    description: A small volcanic group whose main island doubled in size in the 1990s, covering over in lava.
+  - name: Atlas Cove
+    description: A former expedition/fisheries site on Heard Island's west coast, now a protected conservation area.
+culturalTraits:
+  - "Largely untouched sub-Antarctic wilderness; World-Heritage-listed values"
+  - "19th-century sealing history on a rarely visited island"
+prideOf:
+  - "One of the least-disturbed island ecosystems on Earth"
+  - "The ~380,000 km² HIMI Marine Reserve (expanded 2025)"
+animals:
+  popular:
+    - King penguin
+    - Gentoo penguin
+    - Southern elephant seal
+    - Antarctic fur seal
+  unique:
+    - "The World Heritage-listed Heard Island marine reserve and its pristine seabird and marine-mammal colonies"
+industries:
+  - Scientific research (ecosystem and marine ecology)
+  - Fishing within the surrounding HIMI Marine Reserve
+sports:
+  - Expedition visits (permit only)
+# religions, entertainment, traditionalDishes, traditionalClothing, businessRhythm
+# and culturalTraits beyond the wilderness framing intentionally omitted: HIMI
+# is uninhabited with no resident community, culture or economy.
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+sources:
+  - id: aad-heard-geo
+    name: "Heard Island and McDonald Islands — location and geography"
+    publisher: "Australian Antarctic Division"
+    url: "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/location-geography"
+    accessedDate: "2026-09-20"
+    note: "Big Ben / Mawson's Peak, ~70% glacier cover, the McDonald Islands volcanic reshaping, the 2025-expanded marine reserve, and the sub-Antarctic fauna used for HMD's WHOLE region."

@@ -1,0 +1,62 @@
+alpha3: BVT
+alpha2: BV
+name:
+  eng: Bouvet Island
+  local:
+    - languageCode: nob
+      value: Bouvetøya
+flagEmoji: "🇧🇻"
+capital: None (uninhabited; no settlement)
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Bouvet Island is an uninhabited sub-Antarctic volcanic island in the South
+# Atlantic, a dependency of Norway under the Dependency Act of 1930. It is one
+# of the most isolated landmasses on Earth; ~89% of the island is covered by
+# glacier ice (Norsk Polarinstitutt). There is no permanent resident population
+# and no settlement; the island hosts no manned research station.
+languageUsage:
+  - languageCode: nob
+    domain: official
+    speakersShare: 1.0
+    sourceId: nor-dependency-act-1930
+# Norwegian is the official language of the dependency (and the language of the
+# Norwegian Polar Institute that administers it), but no language is spoken on
+# the island itself — there is no resident population. Only the official-domain
+# row is listed, and no locally-spoken community rows are warranted.
+timezones:
+  - name: UTC
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+# Bouvet Island lies at about 54°26'S / 3°24'E, near the prime meridian, and no
+# IANA zone is assigned; it is conventionally treated as UTC+0 with no daylight
+# saving. As an uninhabited island, the offset is not observed by anyone resident.
+currency:
+  code: NOK
+  symbol: "kr"
+  name: Norwegian krone
+legalConstraints:
+  - topic: "Norwegian dependency; uninhabited — no commercial or consumer market"
+    description: "Bouvet Island is a Norwegian dependency (Dependency Act 1930), administered for conservation by the Norwegian Polar Institute. It is uninhabited and has no economy, residents or infrastructure, so ordinary consumer, e-commerce and tax regulations have no practical application. Landings require a permit from the Norwegian Polar Institute."
+    sourceId: nor-dependency-act-1930
+paymentCulture:
+  popularMethods:
+    - "No resident population or economy — no payment methods in use"
+  # tipping intentionally omitted: there is no population and no service economy.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: nor-dependency-act-1930
+    name: "Low om Bouvetøya (Dependency Act, 27 February 1930)"
+    publisher: "Government of Norway"
+    url: "https://en.wikipedia.org/wiki/Bouvet_Island"
+    accessedDate: "2026-09-20"
+    note: "Legal basis: Bouvet Island as a Norwegian dependency under the 1930 Dependency Act, Norwegian as the official language, the uninhabited status, and the permit regime."
+  - id: npolar-bouvetoya
+    name: "Bouvetøya (Bouvet Island)"
+    publisher: "Norsk Polarinstitutt (Norwegian Polar Institute)"
+    url: "https://npolar.no/en/themes/bouvetoya/"
+    accessedDate: "2026-09-20"
+    note: "Bouvet Island as one of the most isolated islands in the world, ~89% glacier-covered, and the Norwegian claim/administration framing used for BVT."

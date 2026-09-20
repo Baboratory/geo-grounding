@@ -1,0 +1,86 @@
+code: WHOLE
+name:
+  eng: Svalbard and Jan Mayen
+  local:
+    - languageCode: nob
+      value: "Svalbard og Jan Mayen"
+climates:
+  - koppenCode: ET
+    description: "Arctic tundra climate — cold year-round; the west coast of Spitsbergen is kept relatively warm by the North Atlantic Current, while interior and eastern fjords stay much colder."
+landmarks:
+  - name: Longyearbyen
+    description: Svalbard's administrative centre and largest settlement (~2,600 inhabitants), in Adventfjorden on the west coast of Spitsbergen.
+  - name: "Svalbard Global Seed Vault"
+    description: An underground seed repository in a mountain near Longyearbyen holding back-up crop seeds from gene banks worldwide.
+  - name: Ny-Ålesund
+    description: A research town and the world's northernmost permanent settlement, a hub for Arctic scientific observation.
+  - name: "Beerenberg (Jan Mayen)"
+    description: A 2,277 m active stratovolcano on the uninhabited island of Jan Mayen, the northernmost active volcano above sea level on Earth.
+culturalTraits:
+  - "Polar-research and expedition heritage on the frontier of the Arctic"
+  - "Multilingual population of Norwegian, Russian and international residents"
+prideOf:
+  - "The Global Seed Vault and Arctic research leadership"
+  - "Unspoiled high-Arctic wilderness and wildlife"
+animals:
+  popular:
+    - Polar bear
+    - Arctic fox
+    - Svalbard reindeer
+    - Walrus
+  unique:
+    - "Svalbard reindeer (Rangifer tarandus platyrhynchus) — an endemic dwarf subspecies"
+industries:
+  - Scientific research (UNIS, Ny-Ålesund, Kjell Henriksen Observatory)
+  - Coal mining (Store Norske Spitsbergen; Russian Arktikugol at Barentsburg)
+  - Arctic expedition tourism
+sports:
+  - Skiing and dogsledding
+  - Snowmobiling
+  - Northern-lights and glacier tours
+entertainment:
+  - season: winter
+    items:
+      - "Polar-night season (late Oct-mid Feb) — auroras and winter festivals"
+  - season: summer
+    items:
+      - "Midnight-sun season (Apr-Aug) — hiking, boat tours and wildlife viewing"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Reindeer – from the Svalbard reindeer (an Arctic staple)"
+      - "Seal and fish dishes common in the traditional Arctic diet"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Insulated expedition parkas and thermal layering"
+      - "Snowmobile suits and beanie/fur-lined headwear"
+seasonCalendar:
+  - season: winter
+    months: [11, 12, 1, 2, 3]
+  - season: spring
+    months: [4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Standard Norwegian business hours, roughly 8:00/9:00-16:00, given Longyearbyen's small service sector and Arctic logistics."
+  notes: "Polar-night (late October-mid February) and midnight-sun (late April-mid August) shape tourism and outdoor-activity seasons but do not close Longyearbyen's shops, which run year-round to serve the permanent community."
+sources:
+  - id: ssb-population-2021
+    name: "Svalbard population, 2021 (by nationality)"
+    publisher: "Statistics Norway (SSB)"
+    url: "https://en.wikipedia.org/wiki/Svalbard"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Longyearbyen's settlement size (~2,600) and the Norwegian/Russian balance behind the WHOLE region's multicultural framing."
+  - id: svalbard-act-1925
+    name: "Svalbard background — geography and seasons"
+    publisher: "Government of Norway / Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Svalbard"
+    accessedDate: "2026-09-20"
+    note: "West-coast Gulf-Stream-influenced climate, Longyearbyen, the Seed Vault, Ny-Ålesund, Beerenberg on Jan Mayen, Svalbard reindeer endemic, and the polar-night/midnight-sun seasons used for the WHOLE region."
