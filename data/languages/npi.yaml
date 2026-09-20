@@ -1,0 +1,11 @@
+code: npi
+name:
+  eng: Nepali
+  local: नेपाली (Nepali)
+commonPhrases:
+  hello: नमस्ते (Namaste)
+  thankYou: धन्यवाद (Dhanyabad)
+  goodbye: अलविदा (Alvida) / फेरि भेटौंला (Feri bhetaunla)
+  "yes": हो (Ho)
+  "no": होइन (Hoina)
+  howMuch: कति पैसा? (Kati paisa?)

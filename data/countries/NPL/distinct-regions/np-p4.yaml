@@ -1,0 +1,104 @@
+code: NP-P4
+name:
+  eng: Gandaki
+  local:
+    - languageCode: npi
+      value: गण्डकी
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland in the foothills and Pokhara valley — mild, with a pronounced monsoon and heavy rainfall (one of the wettest parts of Nepal)."
+  - koppenCode: ET/EF
+    description: "Alpine tundra and ice on the high Annapurna and Manaslu massifs."
+landmarks:
+  - name: Annapurna massif and the Machhapuchhre (Fishtail)
+    description: "The dramatic peak behind Pokhara and the world's greatest trekking region (Annapurna Circuit)."
+  - name: Pokhara lakes
+    description: "The Phewa lake and lakeside leisure town beneath the Annapurnas."
+  - name: Muktinath temple
+    description: "A sacred Hindu-Buddhist temple at high altitude in Mustang, a convergence point of religions."
+  - name: Lumbini (nearby western Terai, shared cultural zone)
+    description: "Approachable via Gandaki's southern reaches; the Buddha's birthplace lies in adjacent Lumbini province."
+culturalTraits:
+  - "The trekking heartland of Nepal and the home of the Gurung people"
+  - "Old trade and pilgrimage routes through Mustang and the high passes"
+  - "A land of temples, lakes and mountains that draws spiritual tourism"
+prideOf:
+  - "The Annapurnas and the world-famous trekking circuit"
+  - "Pokhara's natural beauty — lakes, caves and mountain views"
+  - "The Gurung and Magar hill culture and their Gurkha heritage"
+animals:
+  popular:
+    - "The Himalayan monal (danphe)"
+    - "Snow leopard in the high mountains"
+    - "Red panda in the forest belts"
+  unique:
+    - "The snow leopard and the Himalayan musk deer of the Annapurna highlands"
+industries:
+  - Tourism and trekking (the core industry)
+  - Agriculture (rice, maize, millet and orchards)
+  - Hydropower
+  - Aviation (Pokhara is the gateway to mountain flights)
+sports:
+  - Trekking and mountaineering
+  - Paragliding (over Pokhara)
+  - Football and volleyball
+  - Cricket
+religions:
+  - name: Hinduism
+    percent: 87.0
+    sourceId: "npl-census-2011"
+  - name: Buddhism
+    percent: 12.0
+    sourceId: "npl-census-2011"
+entertainment:
+  - season: dry
+    items:
+      - "The main trekking season — Annapurna Circuit, base camps and Poon Hill"
+      - "Paragliding, boating on Phewa lake and lakeside cafes in Pokhara"
+  - season: wet
+    items:
+      - "Monsoon: trekking shuts down (landslides, rain); indoor and farming life"
+  - season: allYear
+    items:
+      - "Temple visits (Muktinath), live music, and the laid-back Pokhara lakeside scene"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Daal bhat, momo and gundruk"
+      - "Raksi (local millet liquor) brewed in the hills"
+  - season: dry
+    items:
+      - "Fresh mountain trout from Pokhara's streams"
+  - season: wet
+    items:
+      - "Warm chiya and fried snacks during the rains"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Daura-suruwal and the Gurung bhoto (woven coat) for men; gunyo cholo for women at festivals"
+  - season: dry
+    items:
+      - "Trekking layers and down jackets for high passes"
+  - season: wet
+    items:
+      - "Full rain gear — Gandaki receives heavy monsoon rainfall"
+seasonCalendar:
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+businessRhythm:
+  restDays:
+    - saturday
+  typicalWorkHours: "Trekking agencies and hotels 9:00-18:00 (Sunday to Friday); offices 10:00-17:00."
+  notableShutdownPeriods:
+    - period: "Monsoon (Jun-Sep)"
+      description: "Trekking and adventure tourism largely pause during the heavy rains."
+  notes: "Saturday is the main rest day. Business is strongly seasonal — the trekking/adventure economy peaks in the dry season Oct-May and slows sharply in the monsoon."
+sources:
+  - id: npl-census-2011
+    name: "National Population and Housing Census 2011 (province-level religion)"
+    publisher: "Central Bureau of Statistics, Government of Nepal"
+    url: "https://censusnepal.cbs.gov.np"
+    year: 2011
+    note: "Province-level religion estimates for Gandaki (indicative)."

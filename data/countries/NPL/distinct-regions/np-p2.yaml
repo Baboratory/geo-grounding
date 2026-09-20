@@ -1,0 +1,95 @@
+code: NP-P2
+name:
+  eng: Madhesh
+  local:
+    - languageCode: npi
+      value: मधेश
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna across the flat Terai plain — hot throughout the year, very hot in summer, with heavy monsoon rains Jun-Sep and a dry season the rest of the year."
+landmarks:
+  - name: Janaki Mandir (Janakpur)
+    description: "Nepal's largest and most ornate temple, dedicated to Goddess Sita, in the pilgrimage city of Janakpur."
+  - name: Koshi Tappu Wildlife Reserve
+    description: "A wetland on the Saptakoshi river important for waterfowl and wild buffalo."
+  - name: Birgunj
+    description: "The main commercial gateway on the Indian border."
+culturalTraits:
+  - "Overwhelmingly Madhesi (Terai) culture — shared language, food and customs with the North Indian plains"
+  - "Maithili as the dominant mother tongue and the 'language of love' associated with Sita's birthplace"
+  - "Strong Hindu pilgrimage tradition centred on Janakpur"
+prideOf:
+  - "Janakpur and the Sita/Ramayana heritage"
+  - "The fertile farmland that feeds Nepal"
+  - "Maithili art and the Mithila painting tradition"
+animals:
+  popular:
+    - "Wild buffalo (Koshi Tappu)"
+    - "Many migratory waterbirds and storks"
+  unique:
+    - "The arna (wild water buffalo) of Koshi Tappu"
+industries:
+  - Agriculture (rice, sugarcane, maize, oilseeds — the breadbasket of Nepal)
+  - Trade and cross-border commerce via Birgunj/India
+  - Tobacco and food processing
+sports:
+  - Football
+  - Volleyball (very popular in the Terai)
+  - Kabaddi
+religions:
+  - name: Hinduism
+    percent: 90.0
+    sourceId: "npl-census-2011"
+  - name: Islam
+    percent: 8.0
+    sourceId: "npl-census-2011"
+entertainment:
+  - season: dry
+    items:
+      - "Pilgrimage and heritage walks in Janakpur (Oct-May)"
+      - "Bird and wildlife viewing at Koshi Tappu"
+  - season: wet
+    items:
+      - "Monsoon; farming-heavy season and rural festivals"
+  - season: allYear
+    items:
+      - "Mithila art, folk songs (Maithili/Bhojpuri) and village melas (fairs)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sattu and bari, dal-bhaat with the abundant rice of the Terai"
+      - "Chicken and goat curry, khichadi (rice-lentil mix)"
+  - season: dry
+    items:
+      - "Fresh fruit (mango, litchi) in early summer"
+  - season: wet
+    items:
+      - "Fried paddy snacks, sattu drinks, and tarkari of monsoon vegetables"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Dhoti and kurta for men; saree, salwar and ghagra for women"
+      - "The madhesi men's shoulder cloth and turban-like headwear at festivals"
+  - season: dry
+    items:
+      - "Light cotton clothing for the hot Terai"
+  - season: wet
+    items:
+      - "Umbrellas and light rainwear during the monsoon"
+seasonCalendar:
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+businessRhythm:
+  restDays:
+    - saturday
+  typicalWorkHours: "Markets and shops commonly open 8:00-19:00 (Sunday to Friday); offices 10:00-17:00."
+  notes: "Saturday is the main rest day. Cross-border trade with India shapes business rhythms; Dashain, Tihar, and the spring Holi care markedly slow activity."
+sources:
+  - id: npl-census-2011
+    name: "National Population and Housing Census 2011 (province-level religion, language)"
+    publisher: "Central Bureau of Statistics, Government of Nepal"
+    url: "https://censusnepal.cbs.gov.np"
+    year: 2011
+    note: "Province-level religion and mother-tongue context (Madhesh; figures indicative)."
