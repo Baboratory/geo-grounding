@@ -1,0 +1,136 @@
+alpha3: SRB
+alpha2: RS
+name:
+  eng: Serbia
+  local:
+    - languageCode: srp
+      value: Srbija
+flagEmoji: "🇷🇸"
+capital: Belgrade
+isSovereign: true
+# Classified unitary-small: Serbia is a small state (~6.5M, 2022 census)
+# with a majority-Serb, Serbian-Orthodox population. Although the country
+# recognizes a range of minority languages (Hungarian in Vojvodina, Bosnian,
+# Roma, Albanian and others) and Vojvodina is an autonomous province, the
+# autonomous province's cultural status is contested (Kosovo) and Serbia's
+# recognized minorities are regionally concentrated rather than forming a
+# country-wide cultural-historical regional divide meeting the curation bar.
+# Per the 2-of-3 unitary-large test (population <20-25M, recognized minority
+# languages present but no widely-recognized whole-state regional divide), it
+# stays unitary-small. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: srp
+    domain: official
+    speakersShare: 1.0
+    sourceId: srb-constitution-art10
+  - languageCode: srp
+    domain: locallySpoken
+    speakersShare: 0.844
+    sourceId: srb-census-2022-lang
+  - languageCode: hun
+    domain: locallySpoken
+    speakersShare: 0.026
+    sourceId: srb-census-2022-lang
+  - languageCode: bos
+    domain: locallySpoken
+    speakersShare: 0.022
+    sourceId: srb-census-2022-lang
+# Official row is 1.0 for Serbian (de jure sole official language per Art. 10
+# of the Constitution, subject to provincial autonomy where minority languages
+# are also official in Vojvodina). Real usage: Serbian ~84.4% mother tongue,
+# Hungarian ~2.6% (Vojvodina), Bosnian ~2.2%, with the Romani (~1.2%) and
+# Albanian (~1%) shares forming the remainder along with unspecified.
+# Vojvodina officially adds Hungarian, Slovak, Croatian, Romanian and Ruthenian
+# as official languages alongside Serbian at the provincial level.
+timezones:
+  - name: Europe/Belgrade
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (aligns with the EU schedule by long-standing practice although Serbia is not an EU member)."
+currency:
+  code: RSD
+  symbol: "din."
+  name: Serbian dinar
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer)."
+    sourceId: srb-vat-law
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right under the Serbian Consumer Protection Law (Law on Consumer Protection, 2014, as amended)."
+    sourceId: srb-consumer-law
+  - topic: "data protection (personal data)"
+    description: "Collecting or processing personal data requires a lawful basis, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure. Serbia has its own Law on Personal Data Protection (2018), substantially aligned with (but not legally identical to) the EU's GDPR; Serbia is not an EU member."
+    sourceId: srb-pdp-law
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a legal guarantee; the Consumer Protection Law provides for a 2-year period for conformity claims, mirroring the EU's approach."
+    sourceId: srb-consumer-law
+paymentCulture:
+  popularMethods:
+    - Card payments (debit and credit, widely accepted)
+    - Contactless cards and mobile wallets
+    - Instant/online bank transfers (NBS IPS rail and bank apps)
+    - Cash (still common, especially at small businesses and markets)
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    typicalAmount: "Rounding up or leaving ~5-10% for good restaurant service is appreciated but optional; cash tips are common in restaurants even with card payment. Service is generally not added automatically."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Warm and relationship-oriented. The formal 'Vi' (you) with the surname is standard in initial business settings; first names come quickly once rapport builds. Personal relationships and trust are important to conducting business."
+  greetingNorms: "A firm handshake with eye contact is standard in business. 'Zdravo'/'Dobar dan'; among friends a hug or cheek kisses (twice). 'Ćao' is common informally."
+  meetingEtiquette: "Punctuality is appreciated, though a degree of flexibility is common. Meetings are conversational and relationship-first; hospitality (coffee, food) is often part of doing business. Decision-making can involve lively debate."
+  topicsToAvoid:
+    - "The Kosovo question and the 1990s wars/Yugoslav dissolution — deeply sensitive and politically charged"
+    - "Recent party politics and contentious leaders"
+    - "Personal income and finances early on"
+  giftGivingNotes: "A small gift (wine, chocolates, fruit, flowers) is welcome when visiting someone's home. Flowers should be given in odd numbers (even numbers are for funerals). Gifts are usually opened on receipt."
+sources:
+  - id: srb-constitution-art10
+    name: "Constitution of the Republic of Serbia (2006), Article 10"
+    publisher: "National Assembly of the Republic of Serbia"
+    url: "https://www.parlament.gov.rs/upload/documents/Constitution_%20of_Serbia_pdf.pdf"
+    year: 2006
+    accessedDate: "2026-09-20"
+    note: "Article 10 declares the Serbian language and Cyrillic script the official language and script of the Republic — the legal basis for the official row."
+  - id: srb-census-2022-lang
+    name: "2022 Census of the Republic of Serbia — mother tongue and religion (final results)"
+    publisher: "Statistical Office of the Republic of Serbia"
+    url: "https://www.stat.gov.rs/en-US/vesti/20230616-st"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "Serbian mother tongue ~84.4%, Hungarian ~2.6%, Bosnian ~2.2%, Roma ~1.2%, Albanian ~1.0%. Religion: Orthodox ~81.1%, Catholic ~3.9%, Islamic ~4.2%, non-religious/undeclared remainder. Figures match the published 2022 census final results."
+  - id: srb-census-2022-religion
+    name: "2022 Census of the Republic of Serbia — religion (final results)"
+    publisher: "Statistical Office of the Republic of Serbia"
+    url: "https://www.stat.gov.rs/en-US/vesti/20230616-st"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "Religious affiliation in distinct-regions/whole.yaml: Serbian Orthodox ~81.1%, Catholic ~3.9%, Protestant ~0.8%, other Christian ~0.9%, Muslim ~4.2%, undeclared ~2.5%, atheist ~1.1%, agnostic ~0.1%, with the remainder unknown/other."
+  - id: srb-vat-law
+    name: "Law on Value Added Tax of the Republic of Serbia"
+    publisher: "Government of the Republic of Serbia"
+    url: "https://www.paragraf.rs/propisi/zakon_o_porezu_na_dodatu_vrednost.html"
+    year: 2004
+    accessedDate: "2026-09-20"
+    note: "The legal basis for VAT-inclusive displayed prices for consumers in Serbia."
+  - id: srb-consumer-law
+    name: "Law on Consumer Protection of the Republic of Serbia (2014, as amended)"
+    publisher: "Ministry of Trade, Tourism and Telecommunications, Republic of Serbia"
+    url: "https://www.mtt.gov.rs/"
+    year: 2014
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the 14-day distance-sale withdrawal right and the 2-year conformity guarantee in Serbian law."
+  - id: srb-pdp-law
+    name: "Law on Personal Data Protection of the Republic of Serbia (2018)"
+    publisher: "Commissioner for Information of Public Importance and Personal Data Protection (Republic of Serbia)"
+    url: "https://www.poverenik.rs/en/"
+    year: 2018
+    accessedDate: "2026-09-20"
+    note: "The legal basis for Serbia's data-protection regime (Zakon o zaštiti podataka o ličnosti, 2018), closely modelled on the GDPR but its own national law."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml

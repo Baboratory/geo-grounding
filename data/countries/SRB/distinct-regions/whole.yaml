@@ -1,0 +1,133 @@
+code: WHOLE
+name:
+  eng: Serbia
+  local:
+    - languageCode: srp
+      value: Srbija
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic — mild, moderately humid climate with warm summers and cold winters across the lowlands (Pannonian/Serbian plains).
+  - koppenCode: Cfa
+    description: Humid subtropical influence in the south and along the Danube valleys, with hotter summers.
+  - koppenCode: Dfb
+    description: Humid continental in the Dinaric and Carpathian highlands, with colder winters.
+landmarks:
+  - name: Belgrade Fortress & Kalemegdan
+    description: The ancient fortress and park on the confluence of the Sava and Danube rivers, heart of Serbia's capital.
+  - name: Studenica Monastery
+    description: A magnificent 12th-century Serbian Orthodox monastery, a masterpiece of Raška architecture and a key site of Serb identity.
+    unescoWorldHeritage: true
+  - name: St. Sava Temple
+    description: One of the largest Orthodox churches in the world, in Belgrade.
+  - name: Đavolja Varoš (Devil's Town)
+    description: A striking natural formation of earth-pyramid rock towers in southern Serbia.
+  - name: Golubac Fortress
+    description: A dramatic medieval fortress guarding the Iron Gates gorge of the Danube.
+culturalTraits:
+  - Deep-rooted Serbian Orthodox Christian tradition, closely tied to national identity
+  - Hospitality ('gostoprimstvo') as a core cultural value — guests are welcomed warmly, with food and drink
+  - A strong tradition of poetry, epic folk song and gusle (one-string fiddle) performance
+  - Love of coffee-house and 'kafana' culture with live music
+  - Pride in a long, sometimes turbulent national history
+prideOf:
+  - Serbian spiritual heritage — monasteries, frescoes and the Orthodox faith
+  - The resilience and survival of a distinctive national identity
+  - The Danube and the beauty of the Serbian landscape (Devil's Town, gorges, vineyards)
+  - World-class sporting achievements, especially in tennis, basketball, water polo and volleyball
+animals:
+  popular:
+    - Brown bear (in the forested east, e.g. the Sara and Balkan ranges)
+    - Balkan lynx (rare and protected)
+    - Wild boar and red deer
+    - Serbian shepherd dog (traditional livestock guardian)
+  unique:
+    - The Deliblato Sands' steppe flora and fauna
+    - Balkan viper populations in karst uplands
+industries:
+  - Automotive parts and manufacturing
+  - Agriculture (grain, fruit — especially raspberries, a major export — and livestock)
+  - Food processing and beverages (including wine)
+  - IT and software development (Belgrade and Novi Sad tech scene)
+  - Metallurgy and machinery
+sports:
+  - Football (soccer)
+  - Basketball (historically world-powerful team and club success)
+  - Water polo and volleyball
+  - Tennis (world-class players)
+  - Handball
+religions:
+  - name: Serbian Orthodox
+    percent: 81.1
+    sourceId: srb-census-2022-religion
+  - name: Muslim
+    percent: 4.2
+    sourceId: srb-census-2022-religion
+  - name: Catholic
+    percent: 3.9
+    sourceId: srb-census-2022-religion
+  - name: Other Christian (Protestant, other)
+    percent: 1.7
+    sourceId: srb-census-2022-religion
+  - name: Undeclared / atheist / agnostic / other
+    percent: 9.1
+    sourceId: srb-census-2022-religion
+entertainment:
+  - season: allYear
+    items:
+      - Kafana culture with live Balkan music
+      - Football, basketball and volleyball matches
+      - Orthodox liturgical music and monastery visits
+      - Belgrade nightlife on the splavs (floating river clubs)
+  - season: summer
+    items:
+      - River and lake season (Danube, Drina, lake resorts)
+      - Wine and grape festivals (e.g. in the Šumadija region)
+      - EXIT music festival (Novi Sad)
+  - season: winter
+    items:
+      - Skiing in the ski resorts (Kopaonik, Zlatibor)
+      - Christmas and Orthodox New Year traditions
+      - Winter markets and kafana gatherings
+traditionalDishes:
+  - season: allYear
+    items:
+      - Ćevapi and pljeskavica (grilled minced-meat specialities)
+      - Sarma (cabbage rolls)
+      - Kajmak and ajvar (condiments, ajvar from roasted peppers)
+      - Burek and gibanica (layered pastries)
+      - Rakija (fruit brandy — the signature drink)
+  - season: summer
+    items:
+      - Fresh grilled meats and summer salads
+      - Spring/early-summer asparagus and forest fruit
+      - Ajvar season as peppers ripen
+  - season: winter
+    items:
+      - Hearty stews and sarma as warming dishes
+      - Christmas pork, proja (cornbread) and festive bakery
+      - Mulled rakija and winter kafana food
+traditionalClothing:
+  - season: allYear
+    items:
+      - Traditional Serb folk costume (embroidered shirts, vests, opanci — the traditional leather shoes), worn at folk festivals and events
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday is the default closure day for most retail and offices, though cafés, restaurants and supermarkets in larger cities often remain open. Standard business hours roughly 08:00-16:00/17:00; stores commonly open ~09:00-21:00 in malls."
+sources:
+  - id: srb-census-2022-religion
+    name: "2022 Census of the Republic of Serbia — religion (final results)"
+    publisher: "Statistical Office of the Republic of Serbia"
+    url: "https://www.stat.gov.rs/en-US/vesti/20230616-st"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "Religious affiliation: Serbian Orthodox ~81.1%, Muslim ~4.2%, Catholic ~3.9%, Protestant ~0.8%, other Christian ~0.9%, undeclared ~2.5%, atheist ~1.1%, agnostic ~0.1%, and a remainder unknown/other (~0.5%). Combined as the categories above."

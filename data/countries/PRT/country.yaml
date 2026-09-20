@@ -1,0 +1,151 @@
+alpha3: PRT
+alpha2: PT
+name:
+  eng: Portugal
+  local:
+    - languageCode: por
+      value: Portugal
+flagEmoji: "🇵🇹"
+capital: Lisbon
+isSovereign: true
+# Classified unitary-small: Portugal is a relatively small state (~10.7M, 2024
+# INE estimate) with a majority-homogeneous Portuguese-speaking population.
+# Portuguese is the sole official language; Mirandese is a recognized regional
+# language (spoken by a very small population in the northeastern Miranda do
+# Douro area) but does not amount to a genuine, widely-recognized
+# cultural-historical regional divide across the whole state. The Azores and
+# Madeira are autonomous regions, but as relatively small, largely
+# Portuguese-speaking archipelagos they do not meet the curation bar for
+# separate region files. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: por
+    domain: official
+    speakersShare: 1.0
+    sourceId: prt-constitution-art11
+  - languageCode: por
+    domain: locallySpoken
+    speakersShare: 0.99
+    sourceId: prt-census-2021
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.27
+    sourceId: prt-foreign-language-survey
+# Official row is 1.0 for Portuguese (de jure sole official language per Art. 11
+# of the Constitution). Portuguese is the mother tongue of ~99% of the
+# population. Mirandese (recognized regional language in the Miranda do Douro
+# area, spoken by a few thousand) is not listed here as a separate row because
+# its speaker share is below meaningful modeling at country scale. English is
+# the most widely spoken foreign language (~27%).
+timezones:
+  - name: Europe/Lisbon
+    standardUtcOffset: "UTC+0"
+    observesDst: true
+    dstUtcOffset: "UTC+1"
+    dstPeriod: "Last Sunday in March to last Sunday in October (EU-wide schedule)."
+  - name: Atlantic/Azores
+    standardUtcOffset: "UTC-1"
+    observesDst: true
+    dstUtcOffset: "UTC+0"
+    dstPeriod: "Last Sunday in March to last Sunday in October (EU-wide schedule)."
+# Mainland Portugal and Madeira use WET/WEST (UTC+0/+1); the Azores are one hour
+# behind (UTC-1/+0).
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure — the EU-wide GDPR, directly applicable in Portugal."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge."
+    sourceId: eu-directive-2019-771
+paymentCulture:
+  popularMethods:
+    - Debit and credit cards (widely accepted)
+    - Contactless cards and mobile wallets (MB WAY, Apple Pay, Google Pay)
+    - MB WAY (the hugely popular Portuguese payment app for online, in-store, and P2P transfers)
+    - Multibanco (the nationwide ATM network)
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    typicalAmount: "Tipping is modest and not expected; rounding up or leaving ~5-10% for good restaurant service is a pleasant gesture. Service is included in prices; a small cash tip is appreciated but never required."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Warm and polite. 'Você' (you) with the surname or title is the formal usage; first names among colleagues and friends. There is a notable politeness norm and indirectness in refusing or saying no directly."
+  greetingNorms: "A handshake with eye contact is standard in business; among friends a hug and cheek kisses (once on each side) are common. 'Olá' / 'Bom dia' are the everyday greetings."
+  meetingEtiquette: "Punctuality is appreciated but a degree of flexibility exists in social settings (meetings usually start near the scheduled time). Relationships and personal rapport matter; business is often conducted more slowly and consensually."
+  topicsToAvoid:
+    - "The colonial past and 'lusophone' relations may be sensitive in some contexts"
+    - "Recent economic austerity and contemporary party politics can be divisive"
+    - "An overly critical view of fado or national symbols"
+  giftGivingNotes: "A small gift (wine — especially port, chocolates, pastries such as pastéis de nata, or flowers) is welcome when visiting a home. Avoid giving an even number of flowers and red roses (romantic)."
+sources:
+  - id: prt-constitution-art11
+    name: "Constitution of the Portuguese Republic, Article 11"
+    publisher: "Assembly of the Republic (Portugal)"
+    url: "https://www.parlamento.pt/Legislacao/Paginas/ConstituicaoRepublicaPortuguesa.aspx"
+    year: 1976
+    accessedDate: "2026-09-20"
+    note: "Article 11 para. 3 designates Portuguese as the official language of the Portuguese Republic — the legal basis for the official row."
+  - id: prt-census-2021
+    name: "2021 Population and Housing Census of Portugal (Censos 2021)"
+    publisher: "Instituto Nacional de Estatística (INE), Portugal"
+    url: "https://www.ine.pt/scripts/db_censos_2021.html"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Portuguese is the mother tongue of ~99% of the resident population; the small immigrant-language shares are not separately modeled. Ethnic/religious national origin: the 2021 census shows ~81-96% reporting the language the resident population uses at home as Portuguese."
+  - id: prt-foreign-language-survey
+    name: "Eurobarometer and national surveys of foreign-language proficiency in Portugal"
+    publisher: "European Commission / Eurobarometer"
+    url: "https://europa.eu/eurobarometer/"
+    year: 2012
+    accessedDate: "2026-09-20"
+    note: "English is the most widely spoken foreign language in Portugal (~27% report being able to converse in it) — the foreign-domain share used."
+  - id: prt-census-2021-religion
+    name: "Censos 2021 — religious affiliation of the resident population"
+    publisher: "Instituto Nacional de Estatística (INE), Portugal"
+    url: "https://www.ine.pt/"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Religious figures in distinct-regions/whole.yaml: Roman Catholic ~80.2% (as reported for 2021; the caveat being a substantial portion interpreted as culturally rather than practicing Catholic), no religion ~14.1%, other Christian ~4.6%, other ~1.1%. Percentages rounded."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-20"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Portugal as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Portugal as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "The GDPR data-protection rules, directly applicable in Portugal as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
