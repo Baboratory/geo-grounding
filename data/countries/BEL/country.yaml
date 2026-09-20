@@ -1,0 +1,185 @@
+alpha3: BEL
+alpha2: BE
+name:
+  eng: Belgium
+  local:
+    - languageCode: nld
+      value: België
+    - languageCode: fra
+      value: Belgique
+    - languageCode: deu
+      value: Belgien
+flagEmoji: "🇧🇪"
+capital: Brussels
+isSovereign: true
+# Classified federal: Belgium is a federal state (federale staat / État fédéral)
+# with three Regions (Flanders, Wallonia, Brussels-Capital) and three
+# Communities (Flemish, French, German-speaking), a structure with deep
+# constitutional footing since 1970 and enshrined by Art. 1 of the
+# consolidated Constitution. It has three official languages (Dutch, French,
+# German) and a widely recognized cultural-historical divide between its
+# linguistic communities. The dataset curates the three Regions plus a WHOLE
+# fallback; the Communities (which overlap the Regions) are not curated
+# separately.
+governanceType: federal
+iso3166_2_prefix: BE
+hasSubdivisions: true
+languageUsage:
+  - languageCode: nld
+    domain: official
+    speakersShare: 1.0
+    sourceId: bel-constitution
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: bel-constitution
+  - languageCode: deu
+    domain: official
+    speakersShare: 1.0
+    sourceId: bel-constitution
+  - languageCode: nld
+    domain: locallySpoken
+    speakersShare: 0.59
+    sourceId: statbel-languages
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.40
+    sourceId: statbel-languages
+  - languageCode: deu
+    domain: locallySpoken
+    speakersShare: 0.007
+    sourceId: statbel-languages
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.58
+    sourceId: efl-english-proficiency
+# Dutch, French and German are the three de jure official languages (each
+# 1.0 as a legal-status flag). Actual primary usage runs by community: the
+# Flemish Community (~59%, Dutch), the French Community (~40%, French incl.
+# a small German-speaking community of ~77,000 people in the east). Belgian
+# French differs somewhat from Metropolitan French (vocabulary, semantics),
+# and Belgian Dutch ('Flemish') has its own Brabantian/West-Flemish dialects,
+# but both are mutually intelligible with their standard variants.
+timezones:
+  - name: Europe/Brussels
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure — the EU-wide GDPR, directly applicable in Belgium."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge."
+    sourceId: eu-directive-2019-771
+  - topic: "Sunday trading"
+    description: "Sunday is the default rest day for retail, with legislated exceptions (tourist areas, certain seasons, small shops and food stores). Shop-opening hours and the number of permitted Sunday openings are set by national and, in practice, regional/local rules."
+    sourceId: bel-sunday-trading
+paymentCulture:
+  popularMethods:
+    - "Bancontact/Payconiq (the near-universal domestic debit-card scheme in Belgium; Payconiq also powers mobile in-store 'Payconiq by Bancontact' QR/mobile payments)"
+    - "Debit cards (Maestro/UnionPay/Devolut debit; most Belgians hold a Bancontact debit card)"
+    - "Visa and Mastercard credit cards"
+    - "Cash (accepted essentially everywhere, though Belgians are strongly card-oriented at the till)"
+    - "PayPal and bank transfer (SEPA) for online shopping"
+  tipping:
+    expected: false
+    autoIncludedInBill: true
+    typicalAmount: "Service is legally included in the bill, so tipping is not expected; rounding up or leaving a little for good service in a restaurant is a polite gesture but never an obligation."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Pragmatic and direct. French-speaking Wallonia tends to be somewhat more formal and uses titles initially; Dutch-speaking Flanders is more informal and quickly moves to a first-name basis. A small but sincere politeness norm (saying 'thank you' and 'please') is important in both."
+  greetingNorms: "A handshake with eye contact is standard in business. Among established acquaintances, cheek kisses (one to three, region-dependent) are common socially; on first meeting, a handshake is safest."
+  meetingEtiquette: "Punctuality matters, though relationships and politeness are also valued — a hard, transactional, purely-on-time style reads as cold. Decision-making tends to be consensus-oriented and can be slow in institutions, reflecting Belgium's federalized power-sharing."
+  topicsToAvoid:
+    - "The Flemish-Walloon linguistic and political divide — can be a sensitive, emotionally loaded topic, best not joked about"
+    - "Criticism of Belgian institutions or the monarchy, especially in a flippant way"
+    - "Casual religious or community generalizations based on language or region"
+  giftGivingNotes: "Not expected at a first meeting. When visiting someone's home, a modest gift (flowers, chocolates, wine) is appreciated. Give an odd number of flowers (an even number is associated with funerals) and avoid white chrysanthemums."
+sources:
+  - id: bel-constitution
+    name: "The Belgian Constitution (consolidated text), Title I and Article 1 (establishing the federal state), and the language provisions"
+    publisher: "Belgian House of Representatives / Senate"
+    url: "https://www.senate.be/sites/default/files/bestanden/grondwet_uk.pdf"
+    year: 1831
+    accessedDate: "2026-09-20"
+    note: "Legal basis for Belgium being a federal state of Regions/Communities (Art. 1) and for Dutch, French, and German being its official languages."
+  - id: statbel-languages
+    name: "Belgium's population by community/language (composite of Statbel and Belgian Constitution-derived community shares)"
+    publisher: "Statbel (Statistics Belgium)"
+    url: "https://statbel.fgov.be/en/themes/population"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Dutch ~59% (Flemish Community), French ~40% (French Community), German <1% (~77,000 people, German-speaking Community). Community shares are a composite: the Constitution splits parliamentary groups by community, and Statbel/regional statistics derive the population split from the regional distribution (Flanders ~6.9M, Wallonia ~3.7M, Brussels ~1.26M)."
+  - id: efl-english-proficiency
+    name: "EF English Proficiency Index — Belgium (English as a second/foreign language)"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Most Belgian adults report a working knowledge of English (widely taught in schools of all three communities); the ~58% foreign-domain share is a composite reflecting EF EPI and survey data rather than a single official statistic."
+  - id: bel-religion-ess-2023
+    name: "Religion in Belgium (European Social Survey, round 2023)"
+    publisher: "European Social Survey (ESS) / European Research Infrastructure Consortium"
+    url: "https://www.europeansocialsurvey.org/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "The religious-affiliation figures used in distinct-regions/whole.yaml (no religion 59%, Catholic 31%, Islam 6%, Protestant 2%, Orthodox 1%, other Christian 1%, other 1%)."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-20"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Belgium as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Belgium as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "The GDPR data-protection rules, directly applicable in Belgium as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."
+  - id: bel-sunday-trading
+    name: "Belgian shop-opening / Sunday-trading rules (Labour Code and regional shop-opening legislation)"
+    publisher: "Government of Belgium (FPS Economy and regional decrees)"
+    url: "https://economie.fgov.be/en/themes/enterprises/shop-opening-hours"
+    year: 2004
+    accessedDate: "2026-09-20"
+    note: "The legal basis for Sunday being the default closure day in retail, with a set of legislated exceptions (tourist zones, a number of allowed Sunday openings per year decided by municipal/regional rules, small and specialist shops, food stores)."
+distinct-regions:
+  - code: BE-VLG
+    file: distinct-regions/vlg.yaml
+    adminUnitCodes: [BE-VLG]
+  - code: BE-WAL
+    file: distinct-regions/wal.yaml
+    adminUnitCodes: [BE-WAL]
+  - code: BE-BRU
+    file: distinct-regions/bru.yaml
+    adminUnitCodes: [BE-BRU]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml

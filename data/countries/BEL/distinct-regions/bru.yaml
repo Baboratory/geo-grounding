@@ -1,0 +1,124 @@
+code: BE-BRU
+name:
+  eng: Brussels-Capital Region
+  local:
+    - languageCode: nld
+      value: Brussels Hoofdstedelijk Gewest
+    - languageCode: fra
+      value: Région de Bruxelles-Capitale
+climates:
+  - koppenCode: Cfb
+    description: Temperate maritime climate — mild and damp, with cool winters and moderate summers; the urban heat-island effect makes Brussels slightly warmer than the surrounding countryside.
+landmarks:
+  - name: Grand Place (Grote Markt)
+    description: The ornate central square ringed by 17th-century guildhalls and the Town Hall, one of Europe's great civic squares.
+    unescoWorldHeritage: true
+  - name: Atomium
+    description: The giant 58 m iron-crystal monument from the 1958 World's Fair, with observation sphere and a permanent exhibition.
+  - name: Manneken Pis
+    description: The small bronze fountain statue of a urinating boy, an enduring, affectionate symbol of the city.
+  - name: Royal Palace and Parc de Bruxelles
+    description: The neoclassical Royal Palace facing the leafy Parc de Bruxelles, in the heart of the historic upper town.
+  - name: "The European Quarter (Quartier européen)"
+    description: The cluster of EU institutions around the Schuman roundabout — the Berlaymont Commission building, Council and Parliament — the de facto capital of the Union.
+culturalTraits:
+  - Officially bilingual (Dutch and French), with French the majority everyday language and a growing international, multilingual population
+  - A famously open, tolerant and cosmopolitan capital at the heart of the European Union
+  - Lively café, chocolate, beer and comic-strip culture (the city is dotted with 'comic-strip wall' murals)
+  - City of immigration, with hundreds of nationalities and many languages spoken on its streets
+  - A pragmatic, fast-paced but friendly urban mindset distinct from both Flanders and Wallonia
+prideOf:
+  - Being the de facto capital of Europe, hosting the EU and NATO
+  - Its liveability — green parks, art nouveau ('Horta') architecture and a compact historic core
+  - A genuinely multicultural sociability and world-class food and drink
+  - Its creative and entrepreneurial energy (startups, digital and the 'creative quarter')
+animals:
+  popular:
+    - "Grey squirrels (including the introduced grey) in the Bois de la Cambre and Parc du Cinquantenaire"
+    - "Urban foxes increasingly seen in the parks"
+    - "Pigeons and common garden birds across the city"
+  unique:
+    - "The city's celebrated Bee population and urban pollinator projects (Brussels is a 'Bee City' with many rooftop and park apiaries)"
+industries:
+  - "The European-Union 'institutional economy' (EU institutions, NATO, international lobbies and NGOs)"
+  - "Financial and business services"
+  - "Digital and tech: startups, fintech and the 'Brussels creative district'"
+  - "Food, hospitality, tourism and premium retail"
+  - "International transport and logistics (airport, rail hubs)"
+sports:
+  - Football (soccer)
+  - Cycling (urban cycling is booming, with the annual Brussels Bike Festival)
+  - "Tennis, padel and athletics"
+  - "Running and urban trail in the city parks"
+  - Basketball (with the Brussels-based BIBI and rising local clubs)
+religions:
+  - name: No religion / agnostic / atheist
+    percent: 60.0
+    sourceId: brussels-religion-composite
+  - name: Roman Catholic
+    percent: 15.0
+    sourceId: brussels-religion-composite
+  - name: Muslim (a large, visible community)
+    percent: 15.0
+    sourceId: brussels-religion-composite
+  - name: Other (Protestant, Orthodox, Jewish, other)
+    percent: 10.0
+    sourceId: brussels-religion-composite
+entertainment:
+  - season: allYear
+    items:
+      - "Cafés, bars and the city's thriving 'brown café' and craft-beer scene"
+      - "Theatre, music and art in the cultural quarter (Bozar, Flagey, KVS)"
+      - "Comic-strip and design museums, and the city's comic-wall walks"
+      - Football and a packed events calendar
+  - season: summer
+    items:
+      - "Outdoor festivals and the annual 'Brussels Summer Festival'"
+      - "The Flower Carpet on the Grand Place (every even year in August)"
+      - "Open-air concerts, terraces and the Parc du Cinquantenaire"
+  - season: winter
+    items:
+      - "The Winter Wonders (Plaisirs d'hiver) Christmas market on the Grand Place and surrounding streets"
+      - "New Year and Sinterklaas traditions"
+      - "Chocolate and festive gastronomy (pralines, waffles)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Moules-frites and Belgian fries"
+      - "Carbonnade à la flamande and stoemp"
+      - "'Waterzooi' and hearty Belgian stews"
+      - "Pralines from the city's grand chocolatiers, and Liège waffles"
+      - "The city's street-food scene, from fries to 'Smoutebollen'/croustillons"
+  - season: summer
+    items:
+      - "Fresh seafood and lighter summer plates in the many brasseries"
+      - "Craft-beer tasting and summer terraces"
+  - season: winter
+    items:
+      - "Winter stews and the holiday chocolate-and-speculoos season"
+      - "Christmas markets' waffles, marrons (roast chestnuts) and 'glühwein'"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Folk and historical costumes at civic pageants and processions (e.g. the Ommegang of Brussels, with its Renaissance dress and knightly groups)"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "As a city centre and tourist hub, many shops and galleries in Brussels open on Sunday and evening hours are longer than in most of Belgium. The EU 'institutional' working rhythm follows the European calendar (with many closures on the EU's common holidays). August sees a relative lull as Brussels-area residents vacation."
+sources:
+  - id: brussels-religion-composite
+    name: "Religious affiliation in Brussels-Capital (composite of national ESS and municipal survey data)"
+    publisher: "Composite estimate (European Social Survey 2023 and regional survey data)"
+    url: "https://www.europeansocialsurvey.org/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Brussels is the region with the largest Muslim share in Belgium and among the most diverse. Figures are a composite estimate (no single official regional religion statistic exists); the national ESS 2023 figures in whole.yaml are the primary citation."

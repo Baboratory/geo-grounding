@@ -1,0 +1,129 @@
+code: AT-9
+name:
+  eng: Vienna
+  local:
+    - languageCode: deu
+      value: Wien
+climates:
+  - koppenCode: Cfb
+    description: Temperate transitional climate at the eastern edge of the Alps — relatively mild with warm summers, cool winters, and moderate year-round rainfall, and a noticeable urban heat-island effect in the city.
+landmarks:
+  - name: Historic Centre of Vienna
+    description: The UNESCO-listed old town with St Stephen's Cathedral, the Hofburg palace complex and the elegant boulevards of the Ringstrasse.
+    unescoWorldHeritage: true
+  - name: Schönbrunn Palace and Gardens
+    description: The vast baroque summer residence of the Habsburg dynasty, with its gardens, orangery and zoo — a UNESCO World Heritage site.
+    unescoWorldHeritage: true
+  - name: Vienna State Opera (Wiener Staatsoper)
+    description: One of the world's leading opera houses on the Ringstrasse, home of the famous Vienna Philharmonic's New Year's Concert.
+  - name: Museumsquartier and the Secession
+    description: Vienna's art quarters, from the historic Museumsquartier to the art-nouveau Secession building (the 'Beethoven Frieze' and Klimt's 'Beethoven Frieze' adjoin it).
+  - name: The Viennese Coffeehouses and the Danube
+    description: The café culture recognised by UNESCO, and the Danube island and riverside leisure areas of the city.
+culturalTraits:
+  - World capital of classical music — Mozart, Beethoven, Brahms, Mahler and the Vienna Philharmonic
+  - Refined coffeehouse and 'Kaffeehauskultur', a UNESCO-listed intangible heritage
+  - Viennese humour and quick-witted irony, with a distinctive tone of gentle pessimism
+  - Cosmopolitan, cultured and multilingual, shaped by its imperial past and immigrant communities
+  - A love of the Kunst (art), Musik (music) and the celebrated 'Lebensart' (way of life)
+prideOf:
+  - Its status as a global capital of music, art and ideas
+  - A famously high quality of life, consistently ranked among the world's most liveable cities
+  - The grandeur and continuity of its imperial and cultural heritage
+  - Its sophisticated café, culinary and festive traditions
+animals:
+  popular:
+    - "Urban red foxes and hedgehogs in the parks and gardens"
+    - "Grey squirrels and diverse songbirds in the Stadtpark and at the Danube"
+    - "The famous Lipizzaner horses of the Spanish Riding School (housed in the Hofburg)"
+  unique:
+    - "The Lipizzaner: the world-renowned classical dressage lineage of the Spanish Riding School"
+industries:
+  - "Finance, insurance and professional services"
+  - "Tourism and hospitality"
+  - "The public sector and international organisations (UN, IAEA and EU agencies)"
+  - "Media, publishing and the creative industries"
+  - "Life sciences, pharma and research (universities and the Vienna Biocenter)"
+sports:
+  - Football (soccer)
+  - "Ice hockey (the Vienna Capitals) and handball"
+  - Cycling and a strong urban running culture
+  - Tennis and field hockey
+  - "The New Year's Concert and classical-music events (as cultural 'spectator' draw)"
+religions:
+  - name: Roman Catholic
+    percent: 47.0
+    sourceId: vienna-religion-composite
+  - name: No religion / agnostic / atheist
+    percent: 27.0
+    sourceId: vienna-religion-composite
+  - name: Muslim
+    percent: 12.0
+    sourceId: vienna-religion-composite
+  - name: Eastern Orthodox
+    percent: 9.0
+    sourceId: vienna-religion-composite
+  - name: Other (Protestant and other)
+    percent: 5.0
+    sourceId: vienna-religion-composite
+entertainment:
+  - season: allYear
+    items:
+      - "Opera, concerts and the city's legendary classical-music calendar"
+      - "Coffeehouse and café culture — lingering over a 'Melange'"
+      - "Football, ice hockey and a packed cultural scene of museums and theatres"
+      - "The lively nightlife and restaurant scene"
+  - season: summer
+    items:
+      - "Open-air film and music festivals, including the Vienna Festival"
+      - "The Danube island festival (Donauinselfest) and lakeside leisure"
+      - "Outdoor cafés and the wine-tavern ('Heuriger') tradition on the city's edge"
+  - season: winter
+    items:
+      - "The historic Christkindlmarkt Christmas markets across the city"
+      - "The New Year's Concert and Viennese Ball Season (from November through the winter, peaking in January and February)"
+      - "Krampus traditions and festive roast markets"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Wiener Schnitzel with 'Kartoffelsalat'"
+      - "Sacher torte and other Viennese pastries in the coffeehouses"
+      - "Tafelspitz (boiled beef with horseradish)"
+      - "Knödel, goulash and leberkäse (a meatloaf speciality)"
+      - "'Wurst' from the city sausages stands"
+  - season: summer
+    items:
+      - "Fresh asparagus and seasonal vegetables"
+      - "The Heurigen wine-tavern platters from the Viennese vineyards"
+      - "Fruit strudels and ice-cream culture"
+  - season: winter
+    items:
+      - "Maroni (roast chestnuts) and Glühwein at the market"
+      - "Hearty stews and festive roast dishes"
+      - "Christmas biscuits (Weihnachtsbäckerei) and punch traditions"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Elegant evening wear and tailcoats for the famous Viennese balls and operas"
+      - "The Tracht (Dirndl and lederhosen) at festive and traditional occasions across the city"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday closure is standard except in the tourist core, at stations/airports and for small food businesses. Working hours are roughly 08:30-17:00 with a lunch break around noon; many shops are open late on Thursday or operate long shopping days, though this varies. A lull in business is common in August as city residents take summer holidays."
+sources:
+  - id: vienna-religion-composite
+    name: "Religious affiliation in Vienna (composite of national Statistik Austria 2021 data by province and municipal data)"
+    publisher: "Composite estimate (Statistik Austria religious-affiliation 2021, by federal province)"
+    url: "https://www.statistik.at/en/statistics/population-and-society/population/further-population-statistics/religious-denomination"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Vienna is among the least Catholic and most religiously diverse Austrian provinces, reflecting its large immigrant population. Figures are a composite estimate derived from Statistik Austria's 2021 survey by federal province."

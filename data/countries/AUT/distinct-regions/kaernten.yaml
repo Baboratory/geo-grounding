@@ -1,0 +1,128 @@
+code: AT-2
+name:
+  eng: Carinthia
+  local:
+    - languageCode: deu
+      value: Kärnten
+    - languageCode: slv
+      value: Koroška
+climates:
+  - koppenCode: Cfb
+    description: Mild central-Alpine climate of the southern valleys and lake basins — among Austria's warmest and sunniest regions, with hot summers and relatively mild winters in the Klagenfurt basin.
+  - koppenCode: Dfb
+    description: Cooler continental conditions in the higher mountain valleys of the Hohe Tauern and Karawanken, with cold winters and substantial snow.
+landmarks:
+  - name: Lake Wörthersee (Wörthersee)
+    description: The warm, blue-green lake near Klagenfurt, Austria's summer-lake icon, ringed by resorts and the Renaissance castle of Maria Lankowitz.
+  - name: Klagenfurt Old Town and the Lindwurm
+    description: The Carinthian capital's arcaded old town, centred on the Alter Platz with the city's legendary dragon (Lindwurm) fountain.
+  - name: The Gurk Cathedral (Dom zu Gurk)
+    description: A masterpiece of Romanesque architecture and frescoes, one of Austria's most sacred medieval sites.
+  - name: Grossglockner and the Hohe Tauern National Park
+    description: Austria's highest peak and its largest national park, shared with Salzburg and East Tyrol, accessible via the Grossglockner High Alpine Road.
+  - name: Burg Landskron and the Ossiacher See
+    description: The hilltop castle ruins and clear lakes of the central Carinthian basin.
+culturalTraits:
+  - The southernmost Austrian Land, home to the autochthonous Carinthian Slovenian minority (with officially protected Slovenian rights in its southern municipalities)
+  - A strong alpine-lake and 'sunny south' identity, warmer and more Mediterranean in feel than the rest of Austria
+  - Distinct rural and mountaineering traditions of the Hohe Tauern and Karawanken
+  - Bilingual street signs and place names in the Slovenian-border areas reflect the region's mixed heritage
+  - Warm, relaxed sociability ('Kärntner Gemütlichkeit')
+prideOf:
+  - Its lakes (Wörthersee, Ossiacher See, Millstätter See) and famously sunny climate
+  - The high mountains, from the Grossglockner to the Karawanken
+  - A rich history of copper, iron and Alpine farming
+  - Its welcoming, unpretentious character and cultural diversity
+animals:
+  popular:
+    - "The Alpine ibex and marmots in the Hohe Tauern National Park"
+    - "The golden eagle in the high peaks"
+    - "Otters and water birds around the lakes"
+  unique:
+    - "The Carinthian 'Kärntner' own grey cattle and the native Alpine salamander in the karst springs"
+industries:
+  - "Tourism — the summer lake resorts and winter ski areas"
+  - "Hydroelectric power (Carinthia's rivers are major energy producers)"
+  - "Machinery and metal engineering (parts of the Austrian industrial south)"
+  - "Agriculture, forestry and Alpine dairy farming"
+  - "Craft, food (charcuterie) and the wood sector"
+sports:
+  - "Summer: swimming, sailing and watersports on the lakes"
+  - "Alpine skiing in winter (Ankogel, Nassfeld, the Katschberg)"
+  - Hiking and mountaineering in the Hohe Tauern and Karawanken
+  - Cycling and mountain biking
+  - "Ice hockey and football (the Klagenfurt KAC is a historic ice-hockey club)"
+religions:
+  - name: Roman Catholic
+    percent: 72.0
+    sourceId: carinthia-religion-composite
+  - name: No religion / agnostic / atheist
+    percent: 15.0
+    sourceId: carinthia-religion-composite
+  - name: Protestant
+    percent: 6.0
+    sourceId: carinthia-religion-composite
+  - name: Muslim
+    percent: 3.0
+    sourceId: carinthia-religion-composite
+  - name: Other (Orthodox and other)
+    percent: 4.0
+    sourceId: carinthia-religion-composite
+entertainment:
+  - season: allYear
+    items:
+      - "Village festivals, folk music and the traditional Kärntner dialect culture"
+      - "Cafés around the lake promenades and in Klagenfurt"
+      - "Football and ice hockey in the local clubs"
+  - season: summer
+    items:
+      - "Lake swimming, sailing and boat trips on the Wörthersee and Millstätter See"
+      - "Open-air concerts and the lakeside festival scene"
+      - "Hiking in the Hohe Tauern National Park"
+  - season: winter
+    items:
+      - "Skiing and snowboarding (Nassfeld, Ankogel, Bad Kleinkirchheim)"
+      - "The Klagenfurt Christmas market and Advent traditions"
+      - "Krampus and winter mountain festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "'Kärntner Kasnudel' (the famous Carinthian cheese-filled dumplings)"
+      - "Smoked char and lake fish from the Carinthian lakes"
+      - "Rindfleisch and hearty 'Eintopf' stews"
+      - "Bread dumplings and 'Reindling' (a festive filled yeast cake)"
+      - "Carinthian sausages and local charcuterie"
+  - season: summer
+    items:
+      - "Fresh smoked lake trout and char straight from the water"
+      - "Summer vegetables and light salads"
+      - "Alpine cheese and 'Brettljause' platters"
+  - season: winter
+    items:
+      - "Hearty stews, roasted game and dumplings"
+      - "Maroni, Glühwein and the holiday 'Reindling'"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The Carinthian Tracht, with its distinctive embroidery, worn at festivals, weddings and the summer lake festivals"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday closure standard except in lakeside tourist resorts. The business year is strongly seasonal: a lively summer lake season (May-September) and a winter ski season, with a slower shoulder in late autumn and early spring. Many small shops close for a midday break and on Saturday afternoons."
+sources:
+  - id: carinthia-religion-composite
+    name: "Religious affiliation in Carinthia (composite of Statistik Austria 2021 data by province)"
+    publisher: "Composite estimate (Statistik Austria religious-affiliation survey 2021)"
+    url: "https://www.statistik.at/en/statistics/population-and-society/population/further-population-statistics/religious-denomination"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Carinthia is one of the more Catholic Austrian provinces, with a significant historic Protestant (Evangelical) presence in parts of the region. Figures are a composite estimate from Statistik Austria's 2021 survey by federal province."
