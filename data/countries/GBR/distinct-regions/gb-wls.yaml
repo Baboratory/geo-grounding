@@ -1,0 +1,107 @@
+code: GB-WLS
+name:
+  eng: Wales
+  local:
+    - languageCode: cym
+      value: Cymru
+    - languageCode: eng
+      value: Wales
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate; wet and mild along the western coasts and mountains, drier in the south-east (Cardiff).
+  - koppenCode: Cfc
+    description: Subpolar oceanic conditions on the highest peaks of Snowdonia.
+landmarks:
+  - name: Snowdonia (Yr Wyddfa / Mount Snowdon)
+  - name: Caernarfon Castle
+    unescoWorldHeritage: true
+  - name: "Pembrokeshire Coast National Park"
+  - name: "Pontcysyllte Aqueduct"
+    unescoWorldHeritage: true
+  - name: Cardiff Bay and the Principality Stadium
+culturalTraits:
+  - Welsh language (Cymraeg) as a defining, protected element of national identity
+  - Strong choral, eisteddfod (cultural festival) and poetry tradition
+  - Rugby union as a passionate national obsession
+  - Team-club and valley-town community identity (South Wales Valleys' industrial heritage)
+prideOf:
+  - The Welsh language and its revival (official status, bilingual signage)
+  - Rugby (the national team and the 'choir' atmosphere)
+  - Song and choral tradition (male voice choirs, choirs at international festivals)
+  - Stunning coastal and mountain landscapes
+animals:
+  popular:
+    - Welsh cob horse
+    - Red kite (once endangered, now a success story)
+    - Rabbits and mountain ponies on the moors
+  unique:
+    - Welsh Black cattle
+    - "Welsh mountain pony (wild herds on the hills)"
+industries:
+  - Tourism (coast, Wales coast path, national parks)
+  - Renewable energy (wind and tidal)
+  - Food and drink (Welsh lamb and beef, cask ale, Welsh cakes)
+  - "Aerospace and advanced manufacturing (some in the Valleys)"
+  - Financial and public-sector services (Cardiff)
+  - Sheep farming and agriculture
+sports:
+  - Rugby union (the national passion)
+  - Football (Cardiff City, Swansea City)
+  - "Liverpool/Man Utd fan culture across north Wales beyond localized clubs"
+  - "Cycling, hillwalking and water sports (surfing in Gower)"
+entertainment:
+  - season: summer
+    items:
+      - "National Eisteddfod of Wales (August, annual touring festival)"
+      - "Royal Welsh Show (livestock show, July)"
+      - Summer music festivals and coastal events
+  - season: winter
+    items:
+      - Christmas markets in Cardiff and coastal towns
+      - "Wales rugby home internationals at the Principality Stadium (Six Nations, winter/spring)"
+  - season: spring
+    items:
+      - St David's Day celebrations (1 March)
+      - Spring countryside and coast path events
+  - season: autumn
+    items:
+      - Autumn food festivals and harvest events
+traditionalDishes:
+  - season: allYear
+    items:
+      - Welsh cakes
+      - "Cawl (traditional Welsh stew of lamb and leeks)"
+      - Laverbread (seaweed with cockles)
+      - Glamorgan sausage (vegetarian cheese & leek)
+  - season: winter
+    items:
+      - "Welsh rarebit (savoury cheese toast)"
+      - Cawl with leeks in the cold months
+  - season: summer
+    items:
+      - Seasonal berries and Welsh lamb cookouts
+traditionalClothing:
+  - season: allYear
+    items:
+      - Traditional Welsh costume (the stovepipe hat and flannel) appears mainly at Eisteddfod and cultural festivals
+  - season: winter
+    items:
+      - Welsh wool and traditional tapestry patterns
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices in Wales typically run 9:00am-5:00pm to 5:30pm; a steady public-sector presence in Cardiff plus tourism-based businesses along the coast and national parks."
+  lunchBreakTiming: "A moderate lunch break (~1 hour); a strong café and bakery culture supports the midday meal, which is often a sit-down cawl or a roll in rural towns."
+  notableShutdownPeriods:
+    - period: Christmas/New Year
+      description: "Christmas and Boxing Day (25-26 Dec) are public holidays; many small businesses also close for a few days around 1 January."
+  notes: "Wales follows the England & Wales Sunday-trading rule (large shops limited to 6 Sunday hours). Welsh-language workplace accommodation is increasingly common in bilingual districts where it is a statutory duty for public bodies."

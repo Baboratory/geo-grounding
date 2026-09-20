@@ -1,0 +1,109 @@
+code: GB-SCT
+name:
+  eng: Scotland
+  local:
+    - languageCode: gla
+      value: Alba
+    - languageCode: eng
+      value: Scotland
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate with high rainfall; mild along the coasts, cooler and wetter in the Highlands.
+  - koppenCode: Cfc
+    description: Subpolar oceanic climate in the far north and the highest uplands; snow cover persists in winter on the Cairngorms.
+landmarks:
+  - name: Edinburgh Castle
+  - name: "Loch Ness and the Highlands"
+  - name: "The 'Old and New Towns' of Edinburgh"
+    unescoWorldHeritage: true
+  - name: "The Belted Galloway / St Kilda archipelago"
+    unescoWorldHeritage: true
+  - name: "Glenfinnan Viaduct (the 'Harry Potter' bridge)"
+culturalTraits:
+  - Distinct national identity and legal/education system within the UK
+  - Clan heritage, tartan and Highland culture (including the kilt as formal dress)
+  - Scottish Gaelic (Gàidhlig) as an official language, and Scots as a recognized minority language
+  - "Hogmanay (New Year) as a major cultural celebration"
+prideOf:
+  - Scottish whisky and the distilling heritage
+  - Enlightenment legacy (Edinburgh — the 'Athens of the North') and inventors
+  - Golf's birthplace (St Andrews)
+  - Highland scenery and a strong sense of nationhood
+animals:
+  popular:
+    - Highland cow
+    - Red deer
+    - Red squirrel
+  unique:
+    - Scottish wildcat
+    - Capercaillie (native gamebird)
+    - "Orkney/Shetland pony; Northern Isles seabird colonies"
+industries:
+  - Whisky distilling (world-leading export)
+  - Oil and gas extraction (North Sea, Aberdeen as the hub)
+  - Renewable energy (offshore wind, hydro)
+  - Financial services (Edinburgh is a major centre)
+  - Salmon farming and seafood
+  - Tourism (Highlands, islands, film locations)
+sports:
+  - "Football (Old Firm: Celtic & Rangers; Scottish Premiership)"
+  - Rugby union (Murrayfield)
+  - Golf (St Andrews, birthplace of the game)
+  - Highland Games (caber toss, hammer throw)
+  - Shinty (traditional team sport)
+entertainment:
+  - season: summer
+    items:
+      - Edinburgh Festival Fringe and International Festival (August)
+      - Highland Games (summer season)
+      - "T in the Park / summer festivals"
+  - season: winter
+    items:
+      - "Hogmanay celebrations in Edinburgh (31 December)"
+      - "Burns Night suppers (25 January)"
+      - Skiing in the Cairngorms
+  - season: autumn
+    items:
+      - Whisky festivals and autumn food highlands events
+  - season: spring
+    items:
+      - "Spring mountain/easter events and ceilidh dances"
+traditionalDishes:
+  - season: allYear
+    items:
+      - Haggis, neeps and tatties
+      - Scotch broth
+      - Cullen skink (smoked haddock soup)
+      - Shortbread
+  - season: winter
+    items:
+      - "Hogmanay foods (black bun, steak pie)"
+      - Oatcakes with cheese
+  - season: summer
+    items:
+      - Cranachan (raspberry, honey, cream, oats)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Kilt and Highland dress (tartan, sporran, ghillie shirt — formal/ceremonial)
+  - season: winter
+    items:
+      - Harris tweed and thick woollen knits (fisherman jumpers)
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices in Scotland typically run 9:00am-5:00pm or 5:30pm; a professional and quite punctual culture, with a strong public-sector and finance presence in Edinburgh."
+  lunchBreakTiming: "A moderate lunch break (~1 hour); the fast-paced working lunch is growing, though 'proper' midday breaks remain common in the public sector."
+  notableShutdownPeriods:
+    - period: Christmas/New Year (Hogmanay)
+      description: "Christmas Day and Boxing Day (25-26 Dec) are public holidays, and 1 and 2 January (Hogmanay) are bank holidays in Scotland — the festive shutdown often extends from late December to 2-3 January."
+  notes: "Scotland has no Sunday-trading restrictions like England & Wales; large shops can open as they choose on Sundays."

@@ -1,0 +1,108 @@
+code: GB-ENG
+name:
+  eng: England
+  local:
+    - languageCode: eng
+      value: England
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate — mild, rainy, changeable; cooler and wetter in the north and west, warmer and drier in the south-east.
+landmarks:
+  - name: Tower of London
+    unescoWorldHeritage: true
+  - name: Stonehenge and Avebury
+    unescoWorldHeritage: true
+  - name: Roman Baths, Bath
+  - name: Lake District National Park
+    unescoWorldHeritage: true
+  - name: "Hadrian's Wall"
+    unescoWorldHeritage: true
+culturalTraits:
+  - London as a global capital of finance, media and the arts
+  - Regional distinctions (North-South divide, distinct county/urban identities)
+  - Strong pub, tea and garden culture
+  - Footie/rugby loyalties strongly tied to local clubs
+prideOf:
+  - Shakespeare and English literature (Royal Shakespeare Company, Globe Theatre)
+  - The Industrial Revolution's birthplace and engineering legacy
+  - Premier League football and global cultural exports
+  - The monarchy and Buckingham Palace as a shared symbol
+animals:
+  popular:
+    - Robin (national bird)
+    - Red fox
+    - Hedgehog
+  unique:
+    - "Exmoor pony (native to south-west England)"
+    - Large blue butterfly (reintroduced in the Cotswolds)
+industries:
+  - Financial and professional services (City of London, Canary Wharf)
+  - Creative industries (film, TV, music, fashion)
+  - Technology and fintech (London/Reading/Cambridge)
+  - Manufacturing and advanced engineering
+  - Aerospace (Rolls-Royce Derby, BAE)
+sports:
+  - Football (Premier League)
+  - Cricket (county championship, The Ashes)
+  - Rugby union (twickenham) and rugby league (north)
+  - Tennis (Wimbledon)
+entertainment:
+  - season: summer
+    items:
+      - Glastonbury and summer festivals
+      - Wimbledon Championships (July)
+      - "Outdoor Shakespeare (Open Air Theatre, Regent's Park)"
+  - season: winter
+    items:
+      - Christmas markets (Bath, York, Manchester)
+      - Pantomime season
+      - "New Year around London's Thames celebrations"
+  - season: spring
+    items:
+      - "Chelsea Flower Show (May)"
+      - Spring bank-holiday food festivals
+  - season: autumn
+    items:
+      - Bonfire Night fireworks (5 November)
+      - Autumn football and rugby season in full swing
+traditionalDishes:
+  - season: allYear
+    items:
+      - Fish and chips
+      - Sunday roast (beef, Yorkshire pudding)
+      - Afternoon tea (scones, clotted cream)
+  - season: winter
+    items:
+      - Christmas dinner
+      - Steak and ale pie
+      - Mince pies and Christmas pudding
+  - season: summer
+    items:
+      - Strawberries and cream
+      - "Pimm's and summer garden-party food"
+traditionalClothing:
+  - season: allYear
+    items:
+      - Savile Row tailoring (ceremonial and business dress)
+      - "Moleskin/check shirts in country traditions (Barbour jacket)"
+  - season: winter
+    items:
+      - Woollen knits and tweeds
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "London and England offices generally run 9:00am-5:30pm; a brisk, deadline-driven working culture, with the City of London among the world's busiest financial hubs."
+  lunchBreakTiming: "A short lunch break (30-60 min) is typical; 'al desko' eating is common. Long sit-down lunches are reserved for client entertaining."
+  notableShutdownPeriods:
+    - period: Christmas/New Year
+      description: "Most businesses close from around 24-25 December to 1-2 January; the Boxing Day (26 Dec) sales are a major retail event."
+  notes: "Large shops (over 3,000 sq ft) may open a maximum of 6 consecutive hours on Sunday (Sunday Trading Act 1994)."

@@ -1,0 +1,93 @@
+code: IT-82
+name:
+  eng: Sicily
+  local:
+    - languageCode: ita
+      value: Sicilia
+climates:
+  - koppenCode: Csa
+    description: Mediterranean climate — long hot dry summers, mild wet winters, strongest heat in the interior and on the south coast.
+  - koppenCode: BSh
+    description: Hot semi-arid pockets in the south and interior (low rainfall).
+landmarks:
+  - name: Valley of the Temples, Agrigento
+    unescoWorldHeritage: true
+  - name: Mount Etna (Europe's highest active volcano)
+  - name: Teatro Massimo, Palermo
+  - name: Roman Villa Romana del Casale, Piazza Armerina
+    unescoWorldHeritage: true
+  - name: "Noto, Modica and Ragusa baroque towns"
+    unescoWorldHeritage: true
+culturalTraits:
+  - Deep Greek, Arab, Norman and Spanish layered history shaping a distinct island identity
+  - Strong family and honor culture; strong local pride (sicilianità)
+  - Sicilian dialect as a living everyday language alongside Italian
+  - Granita, pastry and street-food culture
+prideOf:
+  - Distinctive cuisine (arancini, cannoli, granita, pasta alla Norma)
+  - World-class archaeological and baroque heritage
+  - Etna and dramatic natural landscape
+  - A resilient, community-oriented culture with a strong sense of place
+animals:
+  popular:
+    - Donkey (Sicilian donkey)
+    - Sicilian black pig
+  unique:
+    - Sicilian wall lizard
+    - Etna Sicily salamander
+industries:
+  - Agriculture (citrus, olives, almonds, wine — including fortified Marsala)
+  - Tourism (coast, culture, gastronomy)
+  - Fisheries and food processing
+  - Value-subtracted processing of regional produce
+sports:
+  - Football (Palermo and Catania, passionate support)
+  - Sailing and maritime sports
+  - Citrus-picking and harvest festivals (culturally, not sport proper)
+entertainment:
+  - season: summer
+    items:
+      - Village feste and patron-saint processions (e.g. Santa Rosalia, Palermo, July)
+      - "Sagra festivals celebrating local produce (prickly pear, almond, ricotta)"
+  - season: winter
+    items:
+      - Christmas crib (presepe) traditions and 17th-18th century living-cribs
+      - Esche (New Year fire festivals in Ragusa)
+  - season: spring
+    items:
+      - Easter week processions across the island
+traditionalDishes:
+  - season: allYear
+    items:
+      - Arancini (fried rice balls)
+      - Cannoli
+      - Pasta alla Norma (eggplant, tomato, salted ricotta)
+      - Granita with brioche
+  - season: summer
+    items:
+      - Granita and gelo di melone
+  - season: winter
+    items:
+      - Pasta con le sarde (sardine and wild fennel)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Modern dress; traditional Sicilian costume mainly appears at folk festivals and in the cart collection of Sicilian carretti
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run about 9:00am-6:00pm; the working day in Sicily often starts a little later and lengths vary by sector."
+  lunchBreakTiming: "A long, unhurried lunch break is a strong tradition in Sicily — often 2 hours or more around 1:30pm, with many small shops closing for the pausa pranzo and reopening in late afternoon."
+  notableShutdownPeriods:
+    - period: August
+      description: "Ferragosto and the summer holiday weeks; many small family-run businesses close for a period, while coastal tourism peaks."
+  notes: "Sunday opening is common in coastal towns and tourist zones; small inland shops may close Sunday and part of Monday."
