@@ -1,0 +1,96 @@
+code: AR-A
+name:
+  eng: Salta
+  local:
+    - languageCode: spa
+      value: Salta
+climates:
+  - koppenCode: BSh
+    description: "Warm semi-arid in the lowland valleys: hot dry days, cooler nights."
+  - koppenCode: Cwb
+    description: "Subtropical highland in the temperate valleys of the Andes."
+  - koppenCode: ET
+    description: "Tundra in the high Puna/Andes at altitude."
+landmarks:
+  - name: Salta de la Plaza (Catedral and Cabildo)
+    description: "The colonial heart of Salta, an Andean city known as 'Salta la Linda'."
+  - name: Tren a las Nubes
+    description: "The famed 'Train to the Clouds' railway climbing into the high Andes."
+  - name: Cafayate and Quebrada de Cafayate
+    description: "Wine country and a dramatic red-rock canyon landscape."
+  - name: Salinas Grandes
+    description: "A vast high-altitude salt flat shared with Jujuy."
+  - name: Valle Calchaquí
+    description: "Andean valley of colonial towns, vineyards and indigenous heritage."
+culturalTraits:
+  - "The cultural gateway of the Andean Northwest, blending Spanish-colonial and indigenous (Kolla, Aymara, Quechua) heritage"
+  - "Wine (especially Torrontés) and the Cafayate vineyards"
+  - "'Salta la Linda' pride and the Andean folk music (carnavalito, zamba) of the region"
+  - "High-altitude (Puna) living and its distinctive festivals"
+prideOf:
+  - "The Tren a las Nubes and the high-Altinplano landscapes"
+  - "Torrontés wine of the Calchaquí Valleys"
+  - "The Salinas Grandes salt flat"
+  - "Andean indigenous and colonial heritage"
+animals:
+  popular:
+    - "Andean condor"
+    - "Vicuña in the Puna highlands"
+    - "Llama herds"
+  unique:
+    - "The Andean flamingo of the high salt lakes"
+industries:
+  - "Agriculture — tobacco, sugar and citrus in the valleys"
+  - "Wine (Torrontés, malbec) in the Calchaquí and Cafayate valleys"
+  - "Lithium and mining in the Puna"
+  - "Tourism — Andean landscapes, railways, wine and culture"
+sports:
+  - "Football"
+  - "Trekking and mountain adventure in the Andes"
+  - "Wine tourism and cultural festivals"
+religions:
+  - name: Roman Catholic
+    percent: 73.0
+    sourceId: ar-noa-religion
+  - name: Evangelical Protestant
+    percent: 13.0
+    sourceId: ar-noa-religion
+  - name: No religion
+    percent: 11.0
+    sourceId: ar-noa-religion
+  - name: Other
+    percent: 3.0
+    sourceId: ar-noa-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Andean folk music, peñas and festival culture"
+      - "Wine tours in the Calchaquí Valleys"
+      - "Exploration of the colored canyons and salt flats"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "A 09:00-13:00 and 16:00-20:00 split with a long afternoon break is common in this warm Andean climate."
+  lunchBreakTiming: "A long midday/siesta break with a heavy lunch is traditional."
+  notableShutdownPeriods:
+    - period: "January to early March"
+      description: "Austral summer holiday season."
+  notes: "High-altitude acclimatization matters in the Puna; the region is a stronghold of Catholic and indigenous-festival devotion."
+sources:
+  - id: ar-noa-religion
+    name: "Segunda Encuesta Nacional sobre Creencias y Actitudes Religiosas (2019) — NOA breakdown"
+    publisher: "CEIL-CONICET"
+    url: "https://www.ceil-conicet.gov.ar/2019/12/creer-y-dejar-de-creer-segunda-encuesta-sobre-creencias-y-actitudes-religiosas-en-argentina/"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "The northwest (NOA) region has the highest Catholic share nationally; province-level figures approximate the survey's regional breakdown. Estimates flagged here."

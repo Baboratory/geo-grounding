@@ -1,0 +1,113 @@
+code: WHOLE
+name:
+  eng: Chile
+  local:
+    - languageCode: spa
+      value: República de Chile
+# Generic country-wide fallback content for Chile (unitary-large). Used via the
+# 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py when a
+# visitor's specific region (e.g. CL-BI Biobío, CL-LL Los Lagos) isn't one of the
+# curated files (CL-RM Santiago, CL-AN Antofagasta, CL-AR La Araucanía, CL-MA
+# Magallanes).
+climates:
+  - koppenCode: BWh
+    description: "Hyper-arid desert in the Norte Grande (Atacama) — among the driest places on Earth, with frequent fog (camanchaca)."
+  - koppenCode: Csa
+    description: "Mediterranean in Zona Central (Santiago, Valparaíso, O'Higgins): warm dry summers, rainy winters."
+  - koppenCode: Cfb
+    description: "Temperate oceanic in Zona Sur (Araucanía, Los Ríos, Los Lagos): Valdivian temperate rainforest, heavy rain."
+  - koppenCode: Cfc
+    description: "Subpolar oceanic in Zona Austral (Magallanes/Patagonia): cool, wet, windy."
+  - koppenCode: ET
+    description: "High Andean tundra and the sub-Antarctic of the far south."
+landmarks:
+  - name: Torres del Paine
+    description: "The granite towers and glaciers of Chilean Patagonia, a symbol of the far south."
+  - name: Atacama Desert / San Pedro de Atacama
+    description: "The driest non-polar desert on Earth, with salt flats, geysers and the Valle de la Luna."
+  - name: Easter Island (Rapa Nui) Moai
+    description: "UNESCO-listed megalithic statues of the Rapa Nui people in the remote Pacific."
+    unescoWorldHeritage: true
+  - name: Valparaíso
+    description: "UNESCO-listed hillside port with colorful cerros and funiculars."
+    unescoWorldHeritage: true
+  - name: Santiago and Cerro San Cristóbal
+    description: "The capital in a valley ringed by the Andes, with the Metropolitan Park's Virgin statue."
+  - name: Lake District (Los Lagos)
+    description: "Volcanoes, lakes and German-influenced towns like Puerto Varas and Pucón."
+culturalTraits:
+  - "A long, narrow country whose norte/centro/sur regional identities shape manners, climate and cuisine"
+  - "Mapuche (Wallmapu) indigenous heritage concentrated in the south"
+  - "Emphasis on courtesy, formality and hospitality (asado, empanadas, terremoto)"
+  - "Strong civic and football (fútbol) culture"
+prideOf:
+  - "Torres del Paine and Chilean Patagonia"
+  - "The Atacama Desert and its observatories (Chile hosts many of the world's largest telescopes)"
+  - "Easter Island and Rapa Nui heritage"
+  - "Chilean wine, salmon and copper"
+  - "The Andes and the long Pacific coastline"
+animals:
+  popular:
+    - "Andean condor (national symbol)"
+    - "Huemul (South Andean deer — national animal, endangered)"
+    - "Guanaco in the north and Patagonia"
+    - "Magellanic penguin along the southern coast"
+  unique:
+    - "Darwin's rhea and Juan Fernández archipelago endemics"
+industries:
+  - "Copper mining — the world's leading producer (Chuquicamata, Escondida, El Teniente)"
+  - "Lithium — second-largest world producer from the Salar de Atacama; also a leading producer of iodine and rhenium"
+  - "Salmon aquaculture (Los Lagos, Aysén) and wine, fruit and forestry exports"
+  - "Services, finance and tourism — Chile is Latin America's highest-income OECD member"
+sports:
+  - "Football — dominant; Chile has often over-performed (Copa América 2015, 2016)"
+  - "Tennis, basketball and rodeo (the national sport)"
+  - "Skiing and trekking in the Andes; surfing and high-altitude astronomy tourism"
+religions:
+  - name: Roman Catholic
+    percent: 54.0
+    sourceId: cl-religion
+  - name: Evangelical / Protestant
+    percent: 16.3
+    sourceId: cl-religion
+  - name: No religion / other
+    percent: 29.7
+    sourceId: cl-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Football matches and a lively café and terremoto-drinking culture"
+      - "Asado barbecue and empanadas as social staples"
+      - "Wine tasting in the Central Valley and Casablanca"
+      - "Festivals — Fiestas Patrias (September 18-19) with cueca dancing and fondas"
+  - season: summer
+    items:
+      - "Beach and resort holidays in the central coast and Lake District"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices roughly 09:00-18:00/19:00 Monday-Friday; many businesses take a long lunch and Saturday is often a half-day for retail."
+  lunchBreakTiming: "A long midday break (~13:00-15:00) is common; shops and banks may close for a few hours at lunch."
+  notableShutdownPeriods:
+    - period: "Fiestas Patrias (September 18-19)"
+      description: "The national holiday; virtually everything closes and celebration can span a week."
+    - period: "Austral summer (mid-January to end of February)"
+      description: "Traditional holiday season; business activity slows and many administrative matters defer until March."
+  notes: "Chile runs on standard southern-hemisphere seasons in the populated temperate center; the extreme north is essentially perennial desert and the far south is cold and wet much of the year."
+sources:
+  - id: cl-religion
+    name: "Censo 2024 (INE) — religion or creed results"
+    publisher: "Instituto Nacional de Estadística (INE) de Chile"
+    url: "https://censo2024.ine.gob.cl/wp-content/uploads/2025/08/Presentacion-resultados-religion-o-credos_CPV2024.pdf"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Religion results: Catholic ~54%, Evangelical/Protestant ~16.3%, no religion ~25% plus a remainder of other/unspecified grouped here as 'no religion / other'."
