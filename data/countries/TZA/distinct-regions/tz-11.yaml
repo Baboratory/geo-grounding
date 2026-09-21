@@ -1,0 +1,81 @@
+code: TZ-11
+name:
+  eng: Dodoma
+  local:
+    - languageCode: swa
+      value: Dodoma
+climates:
+  - koppenCode: BSh
+    description: "Semi-arid warm climate on the central plateau, with low and irregular rainfall and hot days."
+landmarks:
+  - name: Dodoma City
+    description: "The official capital of Tanzania since 1973, seat of the National Assembly and government ministries relocated from Dar es Salaam."
+  - name: National Assembly (Parliament) building
+    description: "The seat of Tanzania's parliament, opened in 1996 as the centrepiece of the city's status as national capital."
+  - name: The Waga Waga escarpment
+    description: "Scenic reddish-coloured cliffs and viewpoints overlooking the surrounding plateau."
+  - name: Makutse cave country
+    description: "Rocky limestone terrain renowned among climbers and hikers in the Dodoma region."
+culturalTraits:
+  - "Tanzania's official capital, located in the dry central region of the country"
+  - "A city of government, presidential ceremonies and national institutions"
+  - "Known as the homeland of Tanzanian wine, grown in the surrounding slopes"
+prideOf:
+  - "Being the seat of Tanzania's national government"
+  - "The pioneering Tanzanian wine-growing region"
+  - "A proud, close-knit capital community"
+animals:
+  popular:
+    - "Vervet monkeys"
+    - "Various antelope (in the surrounding bush)"
+  unique:
+    - "Granite-outcrop rock hyrax"
+industries:
+  - "Government and public administration"
+  - "Wine and grape growing"
+  - "Agriculture — millet, sunflower and sesame in the plateau"
+  - "Food processing"
+sports:
+  - "Football (soccer)"
+  - "Basketball"
+  - "Athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Cultural festivals at the national institutions"
+      - "Visits to the wine estates on the surrounding slopes"
+  - season: dry
+    items:
+      - "Dry-season outings to the escarpment viewpoints"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ugali with beans and greens"
+      - "Grilled goat and beef brochettes"
+      - "Local wines from the Dodoma vineyards"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern business and government attire"
+      - "Kanga wraps for women; kongo/kanzu for men on festive occasions"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8, 9, 10, 11, 12, 1, 2]
+  - season: wet
+    months: [3, 4, 5]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Government offices generally 07:30-16:00/16:30 Monday to Friday."
+  lunchBreakTiming: "A lunch break around 13:00 is typical."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Government offices close for the festive public holidays."
+sources:
+  - id: dodoma-tourism
+    name: "Dodoma regional and capital-city description"
+    publisher: "Tanzania Tourist Board / Government of Tanzania"
+    url: "https://www.tanzaniatourism.go.tz/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, wine industry and cultural description for Dodoma."

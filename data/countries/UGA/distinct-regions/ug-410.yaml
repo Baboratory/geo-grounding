@@ -1,0 +1,83 @@
+code: UG-410
+name:
+  eng: Mbarara
+  local:
+    - languageCode: nyn
+      value: Mbarara
+climates:
+  - koppenCode: Cwb
+    description: "Temperate highland climate in the south-west, cool and green with reliable rainfall."
+landmarks:
+  - name: Mbarara Town
+    description: "The leading city of south-western Uganda, seat of the traditional kingdom of Ankole."
+  - name: Lake Mburo National Park
+    description: "A scenic savanna park west of Mbarara famous for zebra, eland, impala and its lakes."
+  - name: Igongo Cultural Centre and the Eriijukiro museum
+    description: "A cultural centre presenting the history, art and traditions of the Ankole people."
+  - name: Mbarara Rock of Pyrethrum
+    description: "An iconic granite outcrop, a local landmark historically tied to the pyrethrum (chrysanthemum) industry."
+culturalTraits:
+  - "The commercial and cultural centre of the south-west, in the heartland of the Banyankore people"
+  - "A region famed for the long-horned Ankole cattle and a strong cattle-keeping culture"
+  - "Cool, rolling green hills and the seat of the Ankole kingdom"
+prideOf:
+  - "The iconic long-horned Ankole cattle"
+  - "A warm and hospitable Banyankore culture"
+  - "The green, fertile highlands and surrounding national park"
+animals:
+  popular:
+    - "Zebra"
+    - "Eland"
+    - "Impala and other antelope"
+    - "Hippopotamus (Lake Mburo)"
+  unique:
+    - "Lake Mburo's Burchell's zebra and roan antelope"
+industries:
+  - "Agriculture — cattle ranching, bananas, coffee and tea"
+  - "Dairy farming and milk processing"
+  - "Tourism — Lake Mburo National Park and Ankole cultural heritage"
+  - "Trade and services in Mbarara Town"
+sports:
+  - "Football (soccer)"
+  - "Athletics"
+  - "Rugby"
+entertainment:
+  - season: allYear
+    items:
+      - "Safari and game viewing at Lake Mburo National Park"
+      - "Cultural visits to Igongo and Ankole heritage sites"
+      - "Traditional Ankole dances and ceremonies"
+  - season: dry
+    items:
+      - "Dry-season wildlife viewing and the best time for the park"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Matooke with groundnut sauce"
+      - "Milky and fermented-milk dishes tied to the cattle culture"
+      - "Roasted beef and goat meats"
+      - "Posho and beans"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kiteenge (printed cotton) wraps for women"
+      - "Kanzu and kufi for men on formal occasions"
+      - "Modern and casual attire"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 6, 7, 8]
+  - season: wet
+    months: [3, 4, 5, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:00-17:00 Monday to Friday."
+  lunchBreakTiming: "A lunch break around 13:00 is typical."
+sources:
+  - id: mbarara-tourism
+    name: "Mbarara and the Ankole region — tourism and culture"
+    publisher: "Mbarara District Local Government / Uganda Tourism Board"
+    url: "https://www.mbarara.go.ug/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine and cultural description for Mbarara."

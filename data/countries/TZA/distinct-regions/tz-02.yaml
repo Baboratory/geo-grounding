@@ -1,0 +1,88 @@
+code: TZ-02
+name:
+  eng: Dar es Salaam
+  local:
+    - languageCode: swa
+      value: Dar es Salaam
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry savanna climate on the Indian Ocean coast, hot and humid year-round with monsoon rains."
+landmarks:
+  - name: Dar es Salaam harbour
+    description: "Tanzania's principal port and commercial gateway, the largest city and economic hub of the country."
+  - name: National Museum and House of Culture
+    description: "Museum presenting Tanzanian history, including the famous 1924 human-like 'Shifting Sands' excavation finds and colonial era."
+  - name: Village Museum (Makumbusho)
+    description: "An open-air museum of traditional Tanzanian houses and cultures from across the country."
+  - name: Askari Monument
+    description: "A bronze World War I memorial statue in the city centre commemorating African soldiers."
+  - name: Coco Beach and Kawe beach
+    description: "Popular weekend beaches on the Msasani peninsula and coast."
+culturalTraits:
+  - "Tanzania's largest city, principal seaport and commercial hub"
+  - "The birthplace of bongo flava — Tanzania's hip-hop and r&b music wave"
+  - "A bustling, cosmopolitan coastal mix of Swahili, Asian, Arab and cosmopolitan culture"
+prideOf:
+  - "Being the vibrant commercial and creative capital of Tanzania"
+  - "A lively music scene from taarab and bongo flava to live rock and jazz"
+  - "The friendly, laid-back 'Dar es Salaam hospitality'"
+animals:
+  popular:
+    - "Vervet monkeys"
+    - "Sea turtles (offshore)"
+    - "Colobus monkey (in suburban forests)"
+  unique:
+    - "Endemic coastal birds and the maritime wildlife of the harbour"
+industries:
+  - "Port and shipping — Dar es Salaam is East Africa's second-largest port"
+  - "Banking, finance and commerce"
+  - "Manufacturing and light industry"
+  - "Telecommunications and technology"
+  - "Tourism and hospitality"
+sports:
+  - "Football (soccer)"
+  - "Basketball"
+  - "Boxing"
+  - "Athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Bongo flava and taarab concerts, and the vibrant club scene in Oyster Bay and Masaki"
+      - "Lively street-food culture and fresh fruit markets"
+      - "Weekend beach life at Coco Beach"
+  - season: wet
+    items:
+      - "Rainy-season indoor music events and the quieter beach season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Zanzibar-style biryani and pilau"
+      - "Ugali with grilled fish"
+      - "Samosa and mishkaki (grilled meat skewers)"
+      - "Fresh coconut curries and seafood"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kanga and kikoi for women; kanzu and kufi for men on festive occasions"
+      - "Modern business and casual attire"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8, 9, 10, 11, 12, 1, 2]
+  - season: wet
+    months: [3, 4, 5]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:00-17:00 Monday to Friday, with a shorter Friday for many offices."
+  lunchBreakTiming: "A lunch break around 13:00 is typical."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Government and most offices close for the festive holidays."
+sources:
+  - id: dar-tourism
+    name: "Dar es Salaam — official city guide and cultural description"
+    publisher: "Dar es Salaam region / Tanzania Tourist Board"
+    url: "https://www.tanzaniatourism.go.tz/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, entertainment and cultural description for Dar es Salaam."

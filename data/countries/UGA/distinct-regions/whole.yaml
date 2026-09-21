@@ -1,0 +1,114 @@
+code: WHOLE
+name:
+  eng: Uganda
+  local:
+    - languageCode: eng
+      value: Uganda
+    - languageCode: swa
+      value: Uganda
+# Generic country-wide fallback content for Uganda (unitary-large with a
+# curated subset of districts). National-level coverage not specific to one
+# region.
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate over much of the lower south and around Lake Victoria, warm and humid with heavy wet-season rain."
+  - koppenCode: Cwb
+    description: "Temperate highland climate in the south-west and on the plateau, mild with reliable rainfall."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry savanna climate across the north and east, with a distinct dry season."
+landmarks:
+  - name: Source of the Nile (Jinja)
+    description: "The point where the White Nile leaves Lake Victoria, a world-famous landmark at Jinja."
+  - name: Bwindi Impenetrable National Park
+    description: "A mountain rainforest sanctuary for roughly half of the world's remaining mountain gorillas, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Rwenzori Mountains National Park
+    description: "The 'Mountains of the Moon' on the DRC border, with alpine peaks and glaciers, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Murchison Falls National Park
+    description: "Uganda's largest national park, where the Nile thunders through a narrow gorge before Karuma."
+  - name: Queen Elizabeth National Park
+    description: "A diverse savanna-and-crater-lake park famous for tree-climbing lions and the Kazinga Channel."
+  - name: Kasubi Tombs (Kampala)
+    description: "The burial grounds of the Buganda kings, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "A culturally rich nation of more than 50 ethno-linguistic groups spanning the Bantu south and Nilotic north"
+  - "Known as the 'Pearl of Africa' for its lush green landscapes and wildlife"
+  - "Warm, welcoming hospitality and a deep sense of community and family"
+prideOf:
+  - "The mountain gorillas of Bwindi"
+  - "The source of the Nile and Uganda's Great Lakes (Victoria, Albert, Kyoga)"
+  - "A vibrant musical and dance heritage across the traditional kingdoms"
+animals:
+  popular:
+    - "Mountain gorilla"
+    - "Chimpanzee"
+    - "African elephant"
+    - "Lion (including tree-climbing lions of Ishasha)"
+    - "Hippopotamus"
+  unique:
+    - "Mountain gorilla (Bwindi and Mgahinga)"
+    - "Golden monkey (Mgahinga)"
+    - "Shoebill stork (in the swamps of the north)"
+industries:
+  - "Agriculture — coffee, tea, bananas, cotton, maize"
+  - "Tourism — gorilla trekking, safaris, the source of the Nile"
+  - "Fishing on the Great Lakes"
+  - "Mining and emerging oil and gas (the Albertine Rift)"
+  - "Manufacturing and food processing around Kampala"
+sports:
+  - "Football (soccer)"
+  - "Athletics — Uganda has Olympic gold in long-distance running"
+  - "Cricket"
+  - "Boxing"
+  - "Rugby"
+entertainment:
+  - season: allYear
+    items:
+      - "Gorilla and chimpanzee trekking in the national parks"
+      - "Live music and the vibrant Kampala nightlife scene"
+      - "Traditional dances of the kingdoms (Buganda, Busoga, Bunyoro, Tooro, Ankole)"
+  - season: dry
+    items:
+      - "Dry-season wildlife viewing and safaris"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Posho (maize porridge)"
+      - "Matooke (steamed green bananas) — Uganda's staple"
+      - "Groundnut (peanut) sauce and bean stews"
+      - "Rolex (chapati-wrapped egg roll) — the popular street food"
+  - season: dry
+    items:
+      - "Roasted plantain and groundnuts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kiteenge (printed cotton) wraps and suits for women"
+      - "Kanzu and kufi cap for men on formal and religious occasions"
+      - "Modern and casual attire"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 6, 7, 8]
+  - season: wet
+    months: [3, 4, 5, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:00-17:00 Monday to Friday, with many businesses open Saturday morning."
+  lunchBreakTiming: "A lunch break around 13:00 is typical."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Government and most offices close for the festive public holidays."
+    - period: "Easter weekend"
+      description: "Good Friday and Easter Monday are public holidays."
+sources:
+  - id: unesco-whc-ug
+    name: "Uganda — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/ug"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Uganda's UNESCO World Heritage properties (Bwindi, Rwenzori, Kasubi)."

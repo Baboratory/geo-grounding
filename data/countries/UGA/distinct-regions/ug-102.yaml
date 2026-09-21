@@ -1,0 +1,93 @@
+code: UG-102
+name:
+  eng: Kampala
+  local:
+    - languageCode: lug
+      value: Kampala
+    - languageCode: eng
+      value: Kampala
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate at ~1,200m near Lake Victoria, warm and humid with a pronounced wet season."
+landmarks:
+  - name: Kasubi Tombs
+    description: "A UNESCO World Heritage Site — the burial grounds of the Buganda kings, with traditional Ganda architecture."
+    unescoWorldHeritage: true
+  - name: Uganda Martyrs Cathedral (Namugongo)
+    description: "A site of pilgrimage honouring the 1886 Uganda Martyrs."
+  - name: Bahá'í House of Worship
+    description: "One of only seven Bahá'í temples in the world, set on Kikaya Hill."
+  - name: Uganda Museum
+    description: "The oldest museum in East Africa, presenting Uganda's ethnography, culture and natural history."
+  - name: Lake Victoria (Speke Resort and Ggaba beach)
+    description: "Uganda's capital overlooks the world's second-largest freshwater lake."
+culturalTraits:
+  - "Uganda's capital, largest city and political, economic and cultural hub"
+  - "A youthful, energetic metropolis at the heart of Buganda country"
+  - "Famous for its lively nightlife, street food and vibrant music scene"
+prideOf:
+  - "Being the vibrant heart of Uganda and the seat of government"
+  - "The mix of modern life with the heritage of the Buganda kingdom"
+  - "The famous 'rolex' street food and bustling markets"
+animals:
+  popular:
+    - "Vervet monkeys"
+    - "Colobus monkey"
+    - "Various birds around Lake Victoria"
+  unique:
+    - "Sacred ibis and other waterbirds around Lake Victoria"
+industries:
+  - "Government and public administration"
+  - "Commerce, trade and banking"
+  - "Technology and telecommunications"
+  - "Manufacturing and food processing"
+  - "Tourism and hospitality"
+sports:
+  - "Football (soccer)"
+  - "Athletics"
+  - "Cricket"
+  - "Rugby"
+  - "Basketball"
+entertainment:
+  - season: allYear
+    items:
+      - "The vibrant nightlife and live-music scene in the city"
+      - "Weekend markets, craft stalls and the Owino (St. Balikuddembe) market"
+      - "Visits to the Uganda Museum and Bahá'í House of Worship"
+  - season: wet
+    items:
+      - "Rainy-season concerts and indoor cultural events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Rolex (chapati-wrapped egg and vegetable roll) — the iconic street food"
+      - "Matooke (steamed green bananas) with groundnut sauce"
+      - "Posho, beans and grilled meats (muchomo)"
+      - "Chapati and samosas"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kiteenge (printed cotton) suits and dresses for women"
+      - "Kanzu and kufi for men on formal occasions"
+      - "Modern business and casual attire"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 6, 7, 8]
+  - season: wet
+    months: [3, 4, 5, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:00-17:00 Monday to Friday; many shops and businesses open Saturday morning."
+  lunchBreakTiming: "A lunch break around 13:00 is typical."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Government and most offices close for the festive holidays."
+sources:
+  - id: kampala-tourism
+    name: "Visit Kampala — city guide and culture"
+    publisher: "Kampala Capital City Authority / Uganda Tourism Board"
+    url: "https://visitkampala.net/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, entertainment and cultural description for Kampala."

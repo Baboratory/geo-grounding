@@ -1,0 +1,96 @@
+code: TZ-15
+name:
+  eng: Zanzibar West
+  local:
+    - languageCode: swa
+      value: Mjini Magharibi
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry climate on the Zanzibar archipelago, warm and humid with monsoon rains and a distinct dry season."
+landmarks:
+  - name: Stone Town
+    description: "The historic Swahili trading town of Zanzibar City, a UNESCO World Heritage Site of coral-stone buildings and brass-studded doors."
+    unescoWorldHeritage: true
+  - name: House of Wonders and Palace Museum
+    description: "Historic Sultanate-era buildings at the heart of the old town, now museums of Zanzibar's history."
+  - name: Forodhani Gardens
+    description: "An evenings food market and square on the seafront in Stone Town."
+  - name: Prison Island (Changuu)
+    description: "A small island offshore with giant Aldabra tortoises and historic quarantine buildings."
+  - name: Mangapwani coral caves
+    description: "Storied coral caves, part of the folklore of escaped slaves and the spice trade era."
+culturalTraits:
+  - "The heart of Zanzibar's Swahili, Arab, Indian and European heritage"
+  - "World-famous as the 'Spice Island' for its cloves and spice plantations"
+  - "A strong taarab music tradition and a distinctive Zanzibari identity"
+prideOf:
+  - "Stone Town, the UNESCO-listed cradle of Zanzibari culture"
+  - "Being the spice capital of the old Indian Ocean world"
+  - "The unique Swahili-Arab architecture and doors"
+animals:
+  popular:
+    - "Giant Aldabra tortoises (Prison Island)"
+    - "Red colobus monkey (Zanzibar)"
+    - "Sea turtles"
+  unique:
+    - "Zanzibar red colobus monkey (endemic to the archipelago)"
+    - "Aldabra giant tortoise"
+industries:
+  - "Tourism and hospitality"
+  - "Spice farming — cloves, nutmeg, cinnamon, vanilla"
+  - "Fishing and seaweed farming"
+  - "Trade and the port of Zanzibar City"
+sports:
+  - "Football (soccer)"
+  - "Dhow sailing and water sports"
+  - "Swimming"
+entertainment:
+  - season: allYear
+    items:
+      - "Taarab music, Spice Island cultural shows, and the evenings at Forodhani Gardens"
+      - "Dhow-sailing trips and visits to spice plantations"
+      - "Historic walking tours of Stone Town"
+  - season: dry
+    items:
+      - "Dry-season beach days and snorkelling around the islands"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Zanzibari biryani and pilau with coconut"
+      - "Fresh octopus and fish curries (the famous 'urojo' dipping sauce)"
+      - "Sugar-cane juice and grilled seafood at Forodhani"
+      - "Clove and pepper spiced dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kanga and kikoi wraps, headscarves for women in the island's Muslim culture"
+      - "Kanzu and kufi cap for men; buibui (black robe) for women on formal occasions"
+      - "Light beachwear at the resort zones"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8, 9, 10, 11, 12, 1, 2]
+  - season: wet
+    months: [3, 4, 5]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:00-16:30 Monday to Friday; Friday midday prayers affect some business hours."
+  lunchBreakTiming: "A lunch break around 13:00 is typical."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Public holidays marking the end of Ramadan and the pilgrimage season; many businesses close."
+sources:
+  - id: stone-town-unesco
+    name: "Stone Town of Zanzibar — World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/173/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies the UNESCO status and significance of Zanzibar's Stone Town."
+  - id: zanzibar-tourism
+    name: "Visit Zanzibar — tourism and culture"
+    publisher: "Zanzibar Commission for Tourism"
+    url: "https://www.zanzibartourism.go.tz/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, entertainment and cultural description for Zanzibar."

@@ -1,0 +1,86 @@
+code: KE-17
+name:
+  eng: Kisumu
+  local:
+    - languageCode: luo
+      value: Kisumu
+climates:
+  - koppenCode: Cfb
+    description: "Temperate highland climate beside Lake Victoria, with mild temperatures moderated by the lake."
+  - koppenCode: Aw
+    description: "Tropical savanna influence in the low-lying lake basin, with a distinct wet season."
+landmarks:
+  - name: Ruma National Park
+    description: "A grassy savanna national park in the Lambwe Valley, home to the endangered roan antelope and sitatunga."
+  - name: Kisumu and the Port of Kisumu
+    description: "Kenya's principal Lake Victoria port, with a historic railway terminus and ferries across the lake."
+  - name: Ndere Island National Reserve
+    description: "A small unspoiled island on Lake Victoria near Kisumu, important for bird life and panoramic lake views."
+  - name: Hippo Point
+    description: "A scenic lakeside viewpoint where buffalo and hippos graze by the shore at dusk."
+  - name: Kisumu Museum
+    description: "Regional museum presenting Luo culture and the natural history of the Lake Victoria basin."
+culturalTraits:
+  - "Kenya's port city on Lake Victoria and the heartland of the Luo people"
+  - "A lively, business-friendly city known for its lakeside setting and laid-back Luo culture"
+  - "Buzz of both commerce and fishing on Kenya's largest lake"
+prideOf:
+  - "Being Kenya's gateway to Lake Victoria and East Africa's great lake trade"
+  - "The warm, welcoming Luo hospitality and distinctive songs and dances"
+  - "Fishing and boat-building heritage of the lake communities"
+animals:
+  popular:
+    - "Sitatunga"
+    - "Hippopotamus (Lake Victoria)"
+    - "African fish eagle"
+  unique:
+    - "Sitatunga (semi-aquatic antelope of the lake margins)"
+    - "Numerous waterbirds and papyrus-dependent species of the lake shore"
+industries:
+  - "Fisheries and fish processing on Lake Victoria"
+  - "Trade and commerce (regional hub for western Kenya)"
+  - "Sugar and milling in the surrounding lowlands"
+  - "Tourism around the lake and national park"
+sports:
+  - "Football"
+  - "Athletics"
+  - "Fishing competitions"
+entertainment:
+  - season: allYear
+    items:
+      - "Lakeside dining and sunset boat rides on Lake Victoria"
+      - "Live Luo 'omungu' performances and traditional dances"
+      - "Weekend markets and Maasai-market style stalls"
+  - season: wet
+    items:
+      - "The wet-season green of Ruma park and bird watching"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ugali (maize porridge)"
+      - "Nyama and grilled fish from the lake"
+      - "Chapo (chapati) and vegetable stews"
+      - "Dried and grilled Lake Victoria tilapia"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern casual and business attire"
+      - "Kanga cloth wraps for women; kanzu and kufi for men on festive days"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 6, 7, 8, 9, 10, 11, 12]
+  - season: wet
+    months: [3, 4, 5]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:30-17:00 weekdays; port and market activity can extend into the evening."
+  lunchBreakTiming: "Lunch around 13:00, with tea breaks through the day."
+sources:
+  - id: kisumu-tourism
+    name: "Lakeside Kisumu — regional tourism description"
+    publisher: "Kisumu County Government / Kenya Tourism Board"
+    url: "https://kisumu.go.ke/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine and cultural description for Kisumu."

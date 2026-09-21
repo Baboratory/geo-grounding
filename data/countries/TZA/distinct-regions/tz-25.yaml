@@ -1,0 +1,81 @@
+code: TZ-25
+name:
+  eng: Tanga
+  local:
+    - languageCode: swa
+      value: Tanga
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry savanna climate on the northern coast, hot and humid with monsoon rains."
+landmarks:
+  - name: Saadani National Park
+    description: "Tanzania's only coastal national park, where the Indian Ocean meets savanna game country."
+  - name: Amboni Caves
+    description: "A vast limestone cave complex near Tanga town, the largest of its kind in East Africa, with stalactites and stalagmites."
+  - name: Tanga Old Town
+    description: "A historic Swahili and German-influenced coastal town, one of East Africa's oldest port settlements."
+  - name: Maziwe Island Marine Reserve
+    description: "A protected sand island offshore, important for sea-turtle nesting."
+culturalTraits:
+  - "A historic northern-coastal port city of Tanzania"
+  - "A key agricultural region — sisal was long the economic backbone, now with rice, coconut and fishing"
+  - "Home to the Waremba and coastal Swahili peoples"
+prideOf:
+  - "The sisal plantations that once fuelled the economy"
+  - "A rich Swahili and German colonial heritage in the old town"
+  - "The meeting of coastal beaches and mainland wildlife at Saadani"
+animals:
+  popular:
+    - "Sea turtles (Maziwe)"
+    - "Colobus monkey"
+    - "Giraffe (Saadani)"
+  unique:
+    - "Green and hawksbill sea turtles nesting on Maziwe Island"
+    - "Coastal duiker"
+industries:
+  - "Sisal and mixed agriculture (rice, coconut, maize)"
+  - "Fishing and seafood"
+  - "Port and coastal trade"
+  - "Tourism — Saadani and Amboni caves"
+sports:
+  - "Football (soccer)"
+  - "Snorkelling and water sports"
+  - "Athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Beach life and snorkelling on the northern coast"
+      - "Exploring the Amboni caves"
+      - "Swahili coastal music and dhow trips"
+  - season: dry
+    items:
+      - "Dry-season safari and wildlife counts at Saadani"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Swahili biryani and pilau"
+      - "Grilled and fried fish and coconut curries"
+      - "Ugali with greens and beans"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kanga and kikoi wraps for women; kanzu and kufi for men"
+      - "Light cotton clothing"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8, 9, 10, 11, 12, 1, 2]
+  - season: wet
+    months: [3, 4, 5]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:00-16:30 Monday to Friday."
+  lunchBreakTiming: "A lunch break around 13:00 is typical."
+sources:
+  - id: tanga-tourism
+    name: "Tanga region tourism description"
+    publisher: "Tanzania Tourist Board"
+    url: "https://www.tanzaniatourism.go.tz/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks and cultural description for Tanga."

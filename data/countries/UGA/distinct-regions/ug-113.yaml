@@ -1,0 +1,84 @@
+code: UG-113
+name:
+  eng: Wakiso
+  local:
+    - languageCode: lug
+      value: Wakiso
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate near Lake Victoria, warm and humid with a marked wet season."
+landmarks:
+  - name: Entebbe Botanical Gardens
+    description: "Historic lakeside gardens (1901) famed for their collection of tropical plants."
+  - name: Uganda Wildlife Conservation Education Centre (Entebbe Zoo)
+    description: "A sanctuary at Entebbe presenting native Ugandan wildlife to the public."
+  - name: Ngamba Island Chimpanzee Sanctuary
+    description: "A Lake Victoria island sanctuary for rescued chimpanzees, reachable from Entebbe."
+  - name: Lake Victoria beaches (Kkome, Nalubale)
+    description: "Popular lakeside beach and recreation spots in the Wakiso district."
+culturalTraits:
+  - "The densely populated district surrounding and hosting Kampala's lakefront, including Entebbe"
+  - "Home to Uganda's international airport (Entebbe) and key government lakeside institutions"
+  - "A largely Buganda (Baganda) heartland blending urban sprawl with lakeside villages"
+prideOf:
+  - "Hosting Uganda's main international gateway at Entebbe"
+  - "Beautiful Lake Victoria beaches and lakefront heritage"
+  - "A lively agricultural and market culture around the capital"
+animals:
+  popular:
+    - "Chimpanzee (Ngamba Island)"
+    - "Vervet and colobus monkeys"
+    - "Fish eagles and waterbirds"
+  unique:
+    - "Rescued chimpanzees on Ngamba Island Sanctuary"
+industries:
+  - "Aviation and logistics (Entebbe International Airport)"
+  - "Diplomatic missions and institutions (many embassies at Entebbe)"
+  - "Agriculture — banana, coffee, vegetables and fishing"
+  - "Tourism and lakefront recreation"
+  - "Manufacturing around Kampala's edge"
+sports:
+  - "Football (soccer)"
+  - "Athletics"
+  - "Swimming and water sports on Lake Victoria"
+  - "Motor and boat racing events"
+entertainment:
+  - season: allYear
+    items:
+      - "Botanical and wildlife visits at Entebbe"
+      - "Lake Victoria boat trips and beach days"
+      - "Chimpanzee viewing at Ngamba Island"
+  - season: wet
+    items:
+      - "Rainy-season nature walks and bird watching"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Matooke with groundnut sauce"
+      - "Fresh fish (tilapia, mukene) from Lake Victoria"
+      - "Rolex and chapati from the roadside"
+      - "Posho and beans"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kiteenge (printed cotton) wraps and suits for women"
+      - "Kanzu and kufi for men on formal occasions"
+      - "Modern and casual attire"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 6, 7, 8]
+  - season: wet
+    months: [3, 4, 5, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:00-17:00 Monday to Friday."
+  lunchBreakTiming: "A lunch break around 13:00 is typical."
+sources:
+  - id: wakiso-tourism
+    name: "Wakiso district — tourism and lakefront description"
+    publisher: "Wakiso District Local Government / Uganda Tourism Board"
+    url: "https://www.wakiso.go.ug/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine and cultural description for Wakiso."

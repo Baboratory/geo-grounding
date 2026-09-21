@@ -1,0 +1,89 @@
+code: KE-28
+name:
+  eng: Mombasa
+  local:
+    - languageCode: swa
+      value: Mombasa
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry savanna climate on the Indian Ocean coast, hot and humid year-round with monsoon-driven rains."
+  - koppenCode: Am
+    description: "Tropical monsoon influence along the immediate coast, with a pronounced wet season."
+landmarks:
+  - name: Fort Jesus
+    description: "A 16th-century Portuguese coastal fortress, a key relic of the Indian Ocean trading era."
+  - name: Old Town Mombasa
+    description: "Historic Swahili and Omani-influenced quarters with coral-stone buildings, balconies and arched doorways."
+  - name: Mombasa Marine National Park
+    description: "A protected coral reef park off Mombasa for snorkelling and diving."
+  - name: Gedi Ruins
+    description: "Ancient Swahili city ruins just inland, remnants of a great medieval East African trading town."
+culturalTraits:
+  - "Kenya's second city and principal seaport on the Indian Ocean"
+  - "A historic Swahili, Arab and Asian trading crossroads with a distinctive coast cuisine and dialect"
+  - "Famous for the Swahili culture, dhow sailing and the Festival of the Dhow Countries"
+prideOf:
+  - "Being the heartbeat of East African coastal trade and the Swahili identity"
+  - "A vibrant mix of Swahili, Omani, Indian and Portuguese heritage"
+  - "The warm, relaxed pace of coastal life"
+animals:
+  popular:
+    - "Sea turtles"
+    - "Humpback and spinner dolphins off the coast"
+    - "Vervet monkeys"
+  unique:
+    - "Coral reef fish of the Mombasa Marine National Park"
+    - "Mangrove crab in the coastal mangroves"
+industries:
+  - "Port and shipping — Mombasa is East Africa's busiest port"
+  - "Tourism and beach resorts"
+  - "Fishing and seafood processing"
+  - "Refining and logistics (Korea/India/Alba refineries and coastal industry)"
+sports:
+  - "Football"
+  - "Athletics"
+  - "Swimming and water sports"
+  - "Volleyball (beach volleyball)"
+entertainment:
+  - season: allYear
+    items:
+      - "Dhow-sailing excursions and coastal boat trips"
+      - "Festival of the Dhow Countries (biennial cultural festival)"
+      - "Khat nightlife and coastal restaurants, and the beach 'stone town' markets"
+  - season: dry
+    items:
+      - "Beach days and snorkelling at the marine park"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Swahili biryani and pilau with coconut"
+      - "Fresh grilled fish and octopus"
+      - "Ugali and sukuma wiki (green vegetables)"
+      - "Samosas and bhajia (fried vegetable fritters)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kanga and kikoi (bright printed cotton) wraps for women"
+      - "Kanzu (white robe) and kufi cap for men on prayer and festive occasions"
+      - "Beachwear and light cotton clothing"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 6, 7, 8, 9, 10, 11, 12]
+  - season: wet
+    months: [3, 4, 5]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Port and business hours generally 08:00-17:00 weekdays, with many businesses open Saturday morning."
+  lunchBreakTiming: "Lunch around 13:00; a coastal 'chai' culture carries through the afternoon."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Holiday closure across government and most offices."
+sources:
+  - id: mombasa-tourism
+    name: "Visit Mombasa — County tourism portal"
+    publisher: "Mombasa County Government / Kenya Tourism Board"
+    url: "https://www.visitmombasa.co.ke/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, entertainment and cultural description for Mombasa."
