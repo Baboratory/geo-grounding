@@ -1,0 +1,88 @@
+code: AF-KAB
+name:
+  eng: Kabul (Kabul Province)
+  local:
+    - languageCode: prs
+      value: کابل
+climates:
+  - koppenCode: BSk
+    description: "Cold semi-arid climate — hot dry summers and cold winters, with most precipitation falling in winter and spring."
+landmarks:
+  - name: Darulaman Palace
+    description: "The early-20th-century royal palace in western Kabul, a symbol of modern Afghanistan that has been damaged and rebuilt repeatedly through the decades of conflict."
+  - name: Bala Hissar
+    description: "The ancient fortified citadel of Kabul, a strategic stronghold with a history spanning more than a millennium."
+  - name: Gardens of Babur (Bagh-e Babur)
+    description: "The terraced Mughal garden laid out by Babur in the 16th century, one of Kabul's most beloved public parks and his burial place."
+  - name: National Museum of Afghanistan
+    description: "The national museum, whose collection of Silk Road antiquities was partly lost during the civil war and has been progressively restored."
+culturalTraits:
+  - "The capital and political, administrative and economic heart of Afghanistan"
+  - "A multi-ethnic city where Dari dominates but Pashto, Uzbek and others mix"
+  - "Home to a young, war-hardened urban population with a strong tradition of poetry and music (Kabuli nightlife and literary circles)"
+prideOf:
+  - "Being the seat of Afghan statehood and resistance across centuries"
+  - "Its resilience and hospitality despite decades of hardship"
+animals:
+  popular:
+    - "Kabul's street cats and pigeons"
+    - "Mountain goats and sheep in the surrounding Hindu Kush valleys"
+industries:
+  - "Government and administration"
+  - "Trade, bazaars and reconstruction-era construction"
+  - "A small but resilient services and tech sector"
+sports:
+  - "Football and cricket"
+  - "Buzkashi (a traditional horse-riding sport) in the surrounding plains"
+  - "Wrestling and bodybuilding in local clubs"
+religions:
+  - name: Islam (Sunni)
+    percent: 85.0
+    sourceId: irf-afg
+  - name: Islam (Shia)
+    percent: 14.0
+    sourceId: irf-afg
+  - name: Other (Sikh, Hindu, Christian, none)
+    percent: 1.0
+    sourceId: irf-afg
+entertainment:
+  - season: allYear
+    items:
+      - "Gardens and parks (Bagh-e Babur, Bagh-e Zanana) as the main public social space"
+      - "Cinema and the revival of music and theatre scenes"
+      - "Tea houses (chaikhana) and the bazaars of central Kabul"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kabuli palaw — the signature rice dish with carrots and raisins"
+      - "Mantu (steamed dumplings with meat and yoghurt)"
+      - "Ashak (leek-filled dumplings in garlic-yoghurt sauce)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Perahan tunban (baggy shirt and trousers) for men, worn with a chapan coat in cold weather"
+      - "The hijab or chador for women in most public settings"
+      - "Western-style clothing common among urban educated youth"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Public-sector offices roughly 08:00-16:00 Sunday to Thursday; shops and bazaars often open later and run into the evening. Friday is the weekly holiday, Thursday is a half-day in many offices."
+  lunchBreakTiming: "A midday break is common; lunch is often the main meal of the day, frequently taken at home or at a friend's house."
+  notes: "All official business shifts to the weekend on Friday; during Ramadan, working hours are shortened and daytime eating stops."
+sources:
+  - id: irf-afg
+    name: "2022 Report on International Religious Freedom: Afghanistan (religious composition estimates)"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/afghanistan/"
+    year: 2022
+    accessedDate: "2026-09-21"
+    note: "Religious composition: overwhelmingly Muslim (roughly 85% Sunni, 12-15% Shia), tiny Hindu/Sikh/other minorities."

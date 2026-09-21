@@ -1,0 +1,87 @@
+code: AF-HER
+name:
+  eng: Herat (Herat Province)
+  local:
+    - languageCode: prs
+      value: هرات
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid climate on the western plains — very hot summers, mild winters, low rainfall."
+landmarks:
+  - name: Herat Citadel (Qala Ikhtiyaruddin)
+    description: "The imposing medieval fortress dominating Herat city, rebuilt by the Timurids and later by Afghan rulers."
+  - name: Friday Mosque (Masjid-i Jami' of Herat)
+    description: "The great mosque begun in the 12th century and richly tiled by the Timurid dynasty, one of Afghanistan's finest monuments."
+  - name: Musalla Complex
+    description: "The ruined 15th-century Timurid religious complex with its landmark minarets, once among the most ambitious structures in the Islamic world."
+  - name: Gawhar Shad Mausoleum
+    description: "Restored shrine of the Timurid queen Gawhar Shad, a rare surviving jewel of art."
+culturalTraits:
+  - "Afghanistan's western gateway, culturally open and historically linked to Persia"
+  - "A famed centre of Persian poetry, miniature painting and carpet weaving"
+  - "Known for its refined hospitality and strong Sufi traditions"
+prideOf:
+  - "Its Timurid artistic and architectural heritage"
+  - "Herati carpets and the city's unbroken literary tradition"
+animals:
+  popular:
+    - "Camels and sheep in the surrounding steppe"
+    - "Kestrels and falcons"
+industries:
+  - "Carpet weaving — Herati rugs are world-famous"
+  - "Cross-border trade with Iran through the Islam Qala border crossing"
+  - "Saffron cultivation, now a notable export"
+sports:
+  - "Football (Herat has a passionate football culture)"
+  - "Wrestling and buzkashi"
+religions:
+  - name: Islam (Sunni)
+    percent: 90.0
+    sourceId: irf-afg
+  - name: Islam (Shia)
+    percent: 9.0
+    sourceId: irf-afg
+  - name: Other
+    percent: 1.0
+    sourceId: irf-afg
+entertainment:
+  - season: allYear
+    items:
+      - "The bazaars and caravanserais of Herat's old city"
+      - "Sufi shrine visits and poetry gatherings"
+      - "Parks along the Herat River"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Herati palaw and shorba soup"
+      - "Kabuli palaw with a distinct Persian-inspired spicing"
+      - "Fresh bread from Herat's many nan ovens"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Perahan tunban for men, often with a turban"
+      - "The chador or hijab for women"
+      - "Warmer, layered clothing in the cold winter months"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Offices and shops roughly 08:00-16:00 Sunday to Thursday; Friday is the weekly holiday."
+  lunchBreakTiming: "A midday break is customary, often at home."
+  notes: "Given its position on the Iran border, Herat sees significant cross-border trade activity and a busy bazaar economy."
+sources:
+  - id: irf-afg
+    name: "2022 Report on International Religious Freedom: Afghanistan (religious composition estimates)"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/afghanistan/"
+    year: 2022
+    accessedDate: "2026-09-21"
+    note: "Religious composition: overwhelmingly Sunni Muslim, with a small Shia minority."

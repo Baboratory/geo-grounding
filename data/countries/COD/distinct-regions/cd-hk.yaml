@@ -1,0 +1,82 @@
+code: CD-HK
+name:
+  eng: Haut-Katanga (Lualaba/Haut-Katanga region)
+  local:
+    - languageCode: fra
+      value: Haut-Katanga
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical highland climate at the region's altitude — warm, with a distinct wet and drier season, cooler nights than the lowlands."
+landmarks:
+  - name: Lubumbashi, the copper-belt capital
+    description: "DRC's second-largest city and the historic centre of the Katangan mining (copperbelt) economy."
+  - name: Chutes de la Lufira (Cascades de la Lufira)
+    description: "The dramatic waterfalls of the Lufira river, a striking natural landmark near Lubumbashi."
+  - name: Kinda Falls (Chutes Kinda)
+    description: "Scenic falls on the Congo's tributaries, part of the region's wet-season landscape."
+  - name: Musée national de Lubumbashi
+    description: "A regional museum holding important geological, ethnographic and historical collections from the Katanga region."
+culturalTraits:
+  - "The mining heartland of the DRC — the copper and cobalt belt that has powered the national economy"
+  - "Swahili is a widely spoken lingua franca in this eastern region, alongside French"
+  - "Historically connected to the wider Great Lakes/eastern Africa trading sphere"
+prideOf:
+  - "Its enormous mineral wealth (copper, cobalt) that underpins the country's economy"
+  - "A distinct Katangan identity and history of labour and industry"
+animals:
+  popular:
+    - "Antelopes and elephants in the surrounding miombo woodlands"
+    - "The region's famed mines attract a busy, mobile workforce"
+industries:
+  - "Mining and mineral processing (copper and cobalt — the world's largest cobalt source for batteries)"
+  - "Energy (the Inga dam projects supply the grid)"
+  - "Agriculture and trade in the mining towns"
+sports:
+  - "Football and athletics"
+  - "Basketball"
+religions:
+  - name: Christianity (Catholic, Protestant, Kimbanguist)
+    percent: 93.0
+    sourceId: wfb-cd
+  - name: Islam
+    percent: 2.0
+    sourceId: wfb-cd
+  - name: Other (indigenous beliefs, none)
+    percent: 5.0
+    sourceId: wfb-cd
+entertainment:
+  - season: allYear
+    items:
+      - "Live music and dancing in Lubumbashi's bars and churches"
+      - "Football culture, with strong local derbies"
+      - "Weekend outings to the Lufira and Kinda waterfalls"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Moambe and nkui pastes (fish or meat stews)"
+      - "Fufu and chikwangue with saka-saka"
+      - "Fish from the Lufira and Congo tributaries"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Western dress is standard; mining sites require safety workwear"
+      - "Wax-print and pagne fabrics at celebrations"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8]
+  - season: wet
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and mining companies roughly 07:30-16:30 Monday to Friday; shift work is common in the mines."
+  lunchBreakTiming: "A midday break, often at the site canteen or a local restaurant."
+  notes: "The mining economy runs on shift schedules around the clock; many workers commute from town to site daily."
+sources:
+  - id: wfb-cd
+    name: "Congo, Democratic Republic of the — The World Factbook (religion)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/"
+    year: 2014
+    accessedDate: "2026-09-21"
+    note: "Religious composition estimate (2014): roughly 93% Christian, small Muslim and other minorities."

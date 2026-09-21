@@ -1,0 +1,86 @@
+code: CD-NK
+name:
+  eng: Nord-Kivu (North Kivu)
+  local:
+    - languageCode: fra
+      value: Nord-Kivu
+climates:
+  - koppenCode: Aw
+    description: "Tropical highland climate in the eastern rift zone — warm days, cooler nights at altitude, with marked wet and drier seasons."
+landmarks:
+  - name: Goma and the Lake Kivu shoreline
+    description: "The region's principal city on the shores of Lake Kivu, one of Africa's great Great Lakes, with dramatic views of the Nyiragongo volcano."
+  - name: Virunga National Park
+    description: "Africa's oldest national park, a UNESCO World Heritage Site and home to mountain gorillas, the Ruwenzori massif and active volcanoes — also one of the world's most conflict-affected protected areas."
+    unescoWorldHeritage: true
+  - name: Mount Nyiragongo
+    description: "The active strato-volcano looming over Goma, whose lava lake is among the world's largest."
+  - name: Ruwenzori Mountains
+    description: "The 'Mountains of the Moon,' a glaciated massif within the park, a biodiversity hotspot."
+culturalTraits:
+  - "A region marked by extraordinary beauty and deep humanitarian challenge"
+  - "Swahili is the everyday lingua franca of this eastern borderland with Rwanda and Uganda"
+  - "Resilience and community solidarity forged through repeated crises"
+prideOf:
+  - "The mountain gorillas of Virunga and the region's pristine landscapes"
+  - "The volcanic drama of Nyiragongo and the beauty of Lake Kivu"
+animals:
+  popular:
+    - "Mountain gorillas (in Virunga)"
+    - "Elephants, okapi and chimpanzees in the park forests"
+  unique:
+    - "Mountain gorilla (Gorilla beringei) — found in the Virunga highlands and nowhere else in such density"
+    - "Ruwenzori sole and other endemics of the rift highlands"
+industries:
+  - "Agriculture (coffee, bananas, cassava) on the fertile volcanic soils"
+  - "Fishing on Lake Kivu"
+  - "Coltan and mineral extraction in the eastern highlands"
+sports:
+  - "Football and athletics"
+  - "Basketball"
+religions:
+  - name: Christianity (Catholic, Protestant, Kimbanguist)
+    percent: 93.0
+    sourceId: wfb-cd
+  - name: Islam
+    percent: 3.0
+    sourceId: wfb-cd
+  - name: Other (indigenous beliefs, none)
+    percent: 4.0
+    sourceId: wfb-cd
+entertainment:
+  - season: allYear
+    items:
+      - "Lake Kivu beaches and boat trips by Goma"
+      - "Church and community gatherings"
+      - "Visits to the volcano viewpoints and park entry towns"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Moambe and fish stews from Lake Kivu (a small sardine-like fish, nyumbo, is a local staple)"
+      - "Fufu and chikwangue with saka-saka"
+      - "Coffee grown on local volcanic slopes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Western dress is standard"
+      - "Wax-print and pagne fabrics at celebrations and church"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8]
+  - season: wet
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices roughly 08:00-16:30 Monday to Friday; markets run through the week and Saturday morning."
+  lunchBreakTiming: "A midday break, commonly at home or a local restaurant."
+  notes: "The region's economy and daily rhythm are heavily shaped by humanitarian operations and international presence alongside local markets."
+sources:
+  - id: wfb-cd
+    name: "Congo, Democratic Republic of the — The World Factbook (religion)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/"
+    year: 2014
+    accessedDate: "2026-09-21"
+    note: "Religious composition estimate (2014): roughly 93% Christian, small Muslim and other minorities."

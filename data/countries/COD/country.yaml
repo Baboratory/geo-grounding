@@ -1,0 +1,170 @@
+alpha3: COD
+alpha2: CD
+name:
+  eng: Democratic Republic of the Congo
+  local:
+    - languageCode: fra
+      value: République démocratique du Congo
+flagEmoji: "🇨🇩"
+capital: Kinshasa
+isSovereign: true
+# Classified unitary-large: the DRC is a unitary and indivisible republic
+# (Constitution of 18 February 2006, Art. 1 declares it "one, indivisible and
+# sovereign", Art. 2 provides a decentralised but not federal structure of
+# Kinshasa plus 25 provinces), is far above the ~20-25M small-state threshold
+# (~100M, among the world's largest francophone populations), and has a genuine,
+# widely recognised cultural-historical regional divide between its major
+# ethno-linguistic zones (the Kongo west, the Lingala-speaking federal capital
+# region, the Swahili-speaking east, and the Tshiluba-speaking Kasaï). That
+# meets 2 of the 3 DESIGN.md unitary-large criteria. Curated regions map to real
+# ISO 3166-2 provinces: Kinshasa (CD-KN), Kongo Central (CD-BC), Haut-Katanga
+# (CD-HK), Nord-Kivu (CD-NK) and Kasaï Central (CD-KC), plus the generic WHOLE
+# fallback.
+governanceType: unitary-large
+iso3166_2_prefix: CD
+hasSubdivisions: true
+languageUsage:
+  # Constitution Art. 1: "Its official language is French" -> legal-status flag
+  # = 1.0. The four national languages (Kikongo, Lingala, Swahili, Tshiluba)
+  # are constitutionally designated national languages, not co-official with
+  # French, so they are recorded here as locallySpoken, not official.
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: constit-2006
+  # 2021 survey shares of the population who use each language (bilingual and
+  # multilingual use overlaps, so shares do not sum to 1).
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.79
+    sourceId: oif-2021
+  - languageCode: lin
+    domain: locallySpoken
+    speakersShare: 0.59
+    sourceId: oif-2021
+  - languageCode: swa
+    domain: locallySpoken
+    speakersShare: 0.40
+    sourceId: oif-2021
+  - languageCode: kon
+    domain: locallySpoken
+    speakersShare: 0.17
+    sourceId: oif-2021
+  - languageCode: lua
+    domain: locallySpoken
+    speakersShare: 0.17
+    sourceId: oif-2021
+  # English is a growing foreign language, taught in schools and used in trade
+  # and mining circles (2021 survey ~7%).
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.07
+    sourceId: oif-2021
+# ethnicGroups intentionally omitted: the DRC has more than 200 ethnic groups and
+# no national census has been conducted since 1984, so there is no authoritative
+# breakdown of ethnic percentages to cite. Leaving the field out rather than
+# publishing estimates the dataset cannot source.
+# religions intentionally left in the WHOLE region file (percent figures with
+# source) rather than repeated here, per dataset convention of keeping regional
+# religious composition in the region files.
+timezones:
+  - name: Africa/Kinshasa
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+  - name: Africa/Lubumbashi
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+currency:
+  code: CDF
+  symbol: FC
+  name: Congolese franc
+legalConstraints:
+  - topic: "official language"
+    description: "Article 1 of the 2006 Constitution establishes French as the sole official language of the Democratic Republic of the Congo. Article 1 also designates Kikongo, Lingala, Swahili and Tshiluba as national languages whose promotion the State guarantees without discrimination, and protects other local languages as part of the Congolese cultural heritage."
+    sourceId: constit-2006
+  - topic: "value added tax (VAT) price display"
+    description: "VAT (TVA) was introduced by Ordonnance-Loi n°10/001 of 20 August 2010. The standard rate is 16% (Art. 35), with a reduced 8% rate on a closed list of basic necessities and fuels and a 0% rate on exports. Prices obtained by consumers are generally quoted VAT-inclusive, though formal retail invoicing is variable given the large informal economy."
+    sourceId: vat-law
+  - topic: "data protection"
+    description: "Personal-data protection is governed by the Digital Code, Loi n°23-010 dated 13 March 2023, which creates, inter alia, a data-protection authority (APD) and rules on the collection, processing and transfer of personal data, breach notification and data-subject complaint rights. Several implementing decrees remain pending; interim regulatory functions have been transferred to the telecom regulator ARPTIC."
+    sourceId: digital-code
+  - topic: "consumer protection"
+    description: "Consumer protection is governed primarily by the Consumer Protection Law n°11/010 of 27 July 2011 (Consumer Code), administered by the Ministry responsible for consumer affairs, covering product safety, fair contract terms and consumer redress."
+    sourceId: consumer-code
+paymentCulture:
+  popularMethods:
+    - "Cash (Congolese francs, and US dollars widely accepted in larger transactions) dominates"
+    - "Mobile money (M-Pesa, Orange Money, Vodacom M-Pesa) rapidly growing in urban areas"
+    - "Bank cards and transfers concentrated in Kinshasa and the formal economy"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected; a small discretionary tip for services is sometimes appreciated"
+    note: "The economy is heavily cash-based, with limited card acceptance outside the capital; US dollars are commonly used alongside local francs."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Titles and respectful address matter; French honorifics (Monsieur/Madame, Docteur) are common in business. Elders are addressed with deference."
+  greetingNorms: "A warm handshake and enquiries after family and health are standard; greetings are exchanged in French or a local lingua franca (Lingala in the capital)."
+  meetingEtiquette: "Relationship-building matters; meetings often begin with extended pleasantries. Consensus and seniority guide decisions."
+  topicsToAvoid:
+    - "The political situation and electoral disputes"
+    - "Ethnic and East-West regional tensions"
+  giftGivingNotes: "Small thoughtful gifts are appreciated but not required; avoid anything with political significance."
+distinct-regions:
+  - code: CD-KN
+    file: distinct-regions/cd-kn.yaml
+    adminUnitCodes:
+      - CD-KN
+  - code: CD-BC
+    file: distinct-regions/cd-bc.yaml
+    adminUnitCodes:
+      - CD-BC
+  - code: CD-HK
+    file: distinct-regions/cd-hk.yaml
+    adminUnitCodes:
+      - CD-HK
+  - code: CD-NK
+    file: distinct-regions/cd-nk.yaml
+    adminUnitCodes:
+      - CD-NK
+  - code: CD-KC
+    file: distinct-regions/cd-kc.yaml
+    adminUnitCodes:
+      - CD-KC
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: constit-2006
+    name: "Constitution of the Democratic Republic of the Congo (18 February 2006)"
+    publisher: "Constitute Project / ConstitutionNet"
+    url: "https://www.constituteproject.org/constitution/Democratic_Republic_of_the_Congo_2011"
+    year: 2006
+    accessedDate: "2026-09-21"
+    note: "National language policy — French as sole official language and Kikongo, Lingala, Swahili, Tshiluba as national languages (Art. 1)."
+  - id: oif-2021
+    name: "Language usage survey of the Democratic Republic of the Congo"
+    publisher: "Composite estimate (2021 survey data reported widely)"
+    url: "https://en.wikipedia.org/wiki/Demographics_of_the_Democratic_Republic_of_the_Congo"
+    year: 2021
+    accessedDate: "2026-09-21"
+    note: "Estimated shares of the population who use each language (French 79%, Lingala 59%, Swahili 40%, Kikongo 17%, Tshiluba 17%, English 7%). Multilingual use overlaps, so shares do not sum to 100%. Marked as an estimate pending an official census."
+  - id: vat-law
+    name: "Ordonnance-Loi n°10/001 du 20 août 2010 — institution of VAT in the DRC"
+    publisher: "PwC / Direction Générale des Impôts"
+    url: "https://www.pwc.co.za/en/publications/vat-in-africa/democratic-republic-of-the-congo-overview.html"
+    year: 2010
+    accessedDate: "2026-09-21"
+    note: "VAT standard rate of 16% (Art. 35), reduced 8%, zero-rated exports."
+  - id: digital-code
+    name: "Loi n°23-010 du 13 mars 2023 (Digital Code) — personal data protection"
+    publisher: "DLA Piper Data Protection Laws of the World"
+    url: "https://www.dlapiperdataprotection.com/index.html?c=CD&t=law"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "Personal-data protection provisions and the data-protection authority (APD)."
+  - id: consumer-code
+    name: "Consumer Protection Law n°11/010 of 27 July 2011"
+    publisher: "Ministry of Consumer Affairs, DRC"
+    url: "https://dgcc.cd"
+    year: 2011
+    accessedDate: "2026-09-21"
+    note: "Consumer protection framework (product safety, contract terms, redress)."
