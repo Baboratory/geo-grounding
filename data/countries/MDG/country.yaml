@@ -1,0 +1,184 @@
+alpha3: MDG
+alpha2: MG
+name:
+  eng: Madagascar
+  local:
+    - languageCode: mlg
+      value: Madagasikara
+    - languageCode: fra
+      value: Madagascar
+flagEmoji: "🇲🇬"
+capital: Antananarivo
+isSovereign: true
+# Classified unitary-large: Madagascar (~29M) is a unitary semi-presidential
+# republic above the ~25M small-state threshold. It is a genuine large state
+# with real ISO 3166-2 provinces. Following the Ghana (GHA) precedent in this
+# dataset, a small set of curated regions reflects Madagascar's principal
+# cultural-historical divide: the central highlands (Merina) heartland, the
+# wet east coast, and the dry south/southwest — each mapped to official ISO
+# 3166-2 province codes, alongside a WHOLE fallback. The single national
+# language (Malagasy) is shared country-wide.
+governanceType: unitary-large
+iso3166_2_prefix: "MG"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: mlg
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-mdg-2010
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-mdg-2010
+  - languageCode: mlg
+    domain: locallySpoken
+    speakersShare: 0.98
+    sourceId: oif-2022-mdg
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.26
+    sourceId: oif-2022-mdg
+# The Constitution (2010, Art. 4) names Malagasy as the national language and
+# Malagasy and French as the two official languages. Malagasy is spoken by
+# nearly the entire population (~98% estimate); French is a learned second
+# language concentrated in urban elites, government, education and business
+# (~26% per OIF 2022). English is a taught foreign language with no
+# authoritative spoken-share figure, so no 'foreign' row is recorded.
+ethnicGroups:
+  - group: Merina
+    percent: 26
+    sourceId: worldatlas-mdg-ethnic
+  - group: Betsimisaraka
+    percent: 15
+    sourceId: worldatlas-mdg-ethnic
+  - group: Betsileo
+    percent: 12
+    sourceId: worldatlas-mdg-ethnic
+  - group: Tsimihety
+    percent: 7
+    sourceId: worldatlas-mdg-ethnic
+  - group: Sakalava
+    percent: 6
+    sourceId: worldatlas-mdg-ethnic
+  - group: Antaisaka
+    percent: 5
+    sourceId: worldatlas-mdg-ethnic
+  - group: Antandroy
+    percent: 5
+    sourceId: worldatlas-mdg-ethnic
+  - group: Other/foreign-descent communities
+    percent: 24
+    sourceId: worldatlas-mdg-ethnic
+# Ethnic shares are estimates (INSTAT censuses have not collected ethnicity
+# since 1958); often described as '18 ethnic groups' sharing one Austronesian-
+# derived Malagasy language. Source: WorldAtlas / State Dept (2005) figures.
+timezones:
+  - name: Indian/Antananarivo
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: MGA
+  symbol: "Ar"
+  name: Malagasy ariary
+legalConstraints:
+  - topic: "official languages"
+    description: "Constitution of the Fourth Republic (2010), Art. 4: 'The national language is Malagasy. The official languages are Malagasy and French.' Basis for the co-official status of both."
+    sourceId: constitution-mdg-2010
+  - topic: "data protection"
+    description: "Law No. 2014-038 of 16 December 2014 on the protection of personal data is the main framework, modelled on the EU Data Protection Directive; the CMIL authority was designated but had not yet been established."
+    sourceId: dpa-mdg-dp
+  - topic: "VAT"
+    description: "Value-added tax (TVA) is levied at a standard 20% rate (0% on exports) per the General Code of Taxes."
+    sourceId: pwc-mdg-vat
+paymentCulture:
+  popularMethods:
+    - "Cash (Malagasy ariary) — still the dominant everyday payment method, near-universal especially in rural areas"
+    - "Mobile money — MVola (Telma), Orange Money, Airtel Money"
+    - "Bank transfers (RTGS) for large or formal values"
+    - "Credit and debit cards — very limited acceptance, mostly high-end hotels and some Antananarivo businesses"
+  tipping:
+    expected: false
+    typicalAmount: "Not obligatory; a small gratuity is appreciated in restaurants and tourist services"
+    autoIncludedInBill: false
+# No official central-bank/INSTAT split of payment methods exists, so
+# paymentMethodShares is intentionally omitted. ~70% of adults are unbanked but
+# >60% own a mobile phone, driving mobile-money adoption (IFC 2023).
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite, indirect and relationship-driven. Use titles (M./Mme) and formal French in business until invited to use first names; Malagasy culture values humility, patience and restraint over direct confrontation."
+  greetingNorms: "Greet with a smile; common greetings include 'Manao ahoana' (Malagasy) and 'Bonjour' (French), often followed by courtesy questions about wellbeing and family before business."
+  meetingEtiquette: "Build personal rapport before discussing business; punctuality for visitors is expected though local timing can be relaxed; decisions tend to be slow and consensus-orientated; the senior figure is deferred to."
+  topicsToAvoid:
+    - "Disrespecting ancestors or fady (taboos), which are believed to influence the living"
+    - "The 2009 political crisis and highland-vs-coast ethnic tensions"
+    - "Making direct, blunt criticisms in public"
+  giftGivingNotes: "Modest gifts are appreciated once a relationship forms; avoid giving sharp objects. Treat ancestor traditions (e.g. famadihana reburial) with deep respect."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: MG-T
+    file: distinct-regions/mg-t.yaml
+    adminUnitCodes: [MG-T]
+  - code: MG-A
+    file: distinct-regions/mg-a.yaml
+    adminUnitCodes: [MG-A]
+  - code: MG-U
+    file: distinct-regions/mg-u.yaml
+    adminUnitCodes: [MG-U]
+sources:
+  - id: constitution-mdg-2010
+    name: "Madagascar's Constitution of 2010 (Constitution de la IVe République)"
+    publisher: "Constitute Project / William S. Hein & Co. (English translation)"
+    url: "https://www.constituteproject.org/constitution/Madagascar_2010"
+    year: 2010
+    accessedDate: "2026-09-21"
+    note: "Art. 4 names Malagasy as national language and Malagasy and French as official languages; confirms the sovereign unitary republic and capital."
+  - id: oif-2022-mdg
+    name: "La langue française dans le monde (2022) — Madagascar country profile"
+    publisher: "Organisation internationale de la Francophonie (OIF)"
+    url: "https://www.francophonie.org/madagascar-972"
+    year: 2022
+    accessedDate: "2026-09-21"
+    note: "French spoken by ~7.7M people (~26% of population); Malagasy locally-spoken share is an estimate (no INSTAT language census)."
+  - id: worldatlas-mdg-ethnic
+    name: "Ethnic Groups of Madagascar"
+    publisher: "WorldAtlas (Sawe, 2018) / U.S. State Dept (2005)"
+    url: "https://www.worldatlas.com/articles/ethnic-groups-of-madagascar.html"
+    year: 2018
+    accessedDate: "2026-09-21"
+    note: "Ethnic composition estimates (Merina 26%, Betsimisaraka 15%, Betsileo 12%, etc.); censuses have not collected ethnicity since 1958."
+  - id: dpa-mdg-dp
+    name: "Factsheet — Madagascar (Data protection)"
+    publisher: "Data Protection Africa (dpa.africa) / DLA Piper"
+    url: "https://dataprotection.africa/madagascar"
+    year: 2022
+    accessedDate: "2026-09-21"
+    note: "Law No. 2014-038 on personal-data protection; CMIL authority designated but not yet established."
+  - id: pwc-mdg-vat
+    name: "PwC Worldwide Tax Summaries: Madagascar"
+    publisher: "PwC / Malagasy tax authorities"
+    url: "https://taxsummaries.pwc.com/madagascar/"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "Standard 20% VAT (TVA) rate, 0% on exports."
+  - id: iso-eng
+    name: "ISO 639-3 entry: eng - English"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/eng"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code eng."
+  - id: iso-mlg
+    name: "ISO 639-3 entry: mlg - Malagasy"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/mlg"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code mlg = Malagasy (macrolanguage, Living; 639-1 mg)."
+  - id: iso-fra
+    name: "ISO 639-3 entry: fra - French"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/fra"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code fra."
