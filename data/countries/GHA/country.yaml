@@ -1,0 +1,230 @@
+alpha3: GHA
+alpha2: "GH"
+name:
+  eng: Ghana
+  local:
+    - languageCode: eng
+      value: Ghana
+    - languageCode: aka
+      value: Gaana
+    - languageCode: ewe
+      value: Ghana
+    - languageCode: gaa
+      value: Ghana
+    - languageCode: dag
+      value: Ghana
+    - languageCode: nzi
+      value: Ghana
+    - languageCode: gjn
+      value: Ghana
+    - languageCode: xsm
+      value: Ghana
+    - languageCode: dga
+      value: Ghana
+flagEmoji: "🇬🇭"
+capital: Accra
+isSovereign: true
+# Classified unitary-large: Ghana satisfies all three DESIGN.md criteria for a
+# large-than-small unitary state. (1) Population ~30.8M (2021 census) to ~34M
+# (2024 UN/CIA estimate) — comfortably above the >20-25M threshold. (2) Beyond
+# de jure official English, the Constitution of 1992 (Article 39) commits the
+# State to fostering Ghanaian languages, and the Bureau of Ghana Languages
+# (BGL) sponsors nine government languages as national vehicles of
+# communication/culture (Akan/Twi-Fante aka, Ewe ewe, Ga-Dangme gaa, Dagbani
+# dag, Nzema nzi, Gonja gjn, Kasem xsm, Dagaare dga, plus English) — an
+# officially recognized national-language regime. (3) A widely recognized
+# cultural-historical regional divide: the Ashanti/Asante kingdom (forest
+# south), the Northern territories (Sahel savanna, Dagbon kingdom) and the
+# Volta/Ewe belt (former German/British Togoland trust territory, joined
+# Ghana by the 1956 plebiscite). The state is constitutionally unitary (16
+# regions, 261 districts) so NOT federal.
+# Curated regions: Ashanti (GH-AH, Akan Asante heartland/Kumasi), Northern
+# (GH-NP, Dagbani savanna/Tamale), Volta (GH-TV, Ewe/Togoland heritage/Ho) +
+# the mandatory generic WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: "GH"
+hasSubdivisions: true
+languageUsage:
+  # English is the sole de jure official language (Const. 1992, Art. 11 /
+  # Ch.1); Akan, Ewe, Ga, Dagbani, Nzema, Gonja, Kasem and Dagaare are
+  # constitutionally fostered / government-sponsored national languages
+  # (Bureau of Ghana Languages) -- promoted, not legally official, so they
+  # are captured below via their locallySpoken shares only, not an
+  # 'official' row (matching the dataset's FRA precedent for
+  # recognized-but-not-official regional languages).
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1992
+  # Actual L1 (mother-tongue) usage shares — approximate, composite estimates
+  # drawn from the 2021 census and Ethnologue. They need not sum to 1.
+  - languageCode: aka
+    domain: locallySpoken
+    speakersShare: 0.45
+    sourceId: composite-estimate
+  - languageCode: ewe
+    domain: locallySpoken
+    speakersShare: 0.13
+    sourceId: composite-estimate
+  - languageCode: gaa
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: composite-estimate
+  - languageCode: dag
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: composite-estimate
+  - languageCode: nzi
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: composite-estimate
+  - languageCode: dga
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: composite-estimate
+  - languageCode: xsm
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: composite-estimate
+  - languageCode: gjn
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: composite-estimate
+  # English, while official, is also the de facto national working language
+  # spoken by a large share of the population as a second language.
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.55
+    sourceId: composite-estimate
+ethnicGroups:
+  # Ghana 2021 Population and Housing Census ethnic composition (as relayed by
+  # the CIA World Factbook). Figures sum to ~100%.
+  - group: Akan
+    percent: 45.7
+    sourceId: cia-wfb-ghana
+  - group: Mole-Dagbani
+    percent: 18.5
+    sourceId: cia-wfb-ghana
+  - group: Ewe
+    percent: 12.8
+    sourceId: cia-wfb-ghana
+  - group: Ga-Dangme
+    percent: 7.1
+    sourceId: cia-wfb-ghana
+  - group: Gurma
+    percent: 6.4
+    sourceId: cia-wfb-ghana
+  - group: Guan
+    percent: 3.2
+    sourceId: cia-wfb-ghana
+  - group: Grusi
+    percent: 2.6
+    sourceId: cia-wfb-ghana
+  - group: Mande
+    percent: 2.0
+    sourceId: cia-wfb-ghana
+  - group: Other
+    percent: 1.7
+    sourceId: cia-wfb-ghana
+timezones:
+  - name: Africa/Accra
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+currency:
+  code: GHS
+  symbol: "₵"
+  name: Ghanaian cedi
+legalConstraints:
+  - topic: "official language"
+    description: "The Constitution of Ghana (1992) sets English as the de jure official language of the State and the language of law and administration. Article 39 commits the State to fostering the development of Ghanaian languages and culture; the Bureau of Ghana Languages (BGL) sponsors nine government languages (Akan/Twi-Fante, Ewe, Ga, Dagbani, Nzema, Gonja, Kasem, Dagaare, plus English) used in media, education and national communication."
+    sourceId: constitution-1992
+  - topic: "national currency / legal tender"
+    description: "The Ghana cedi (GHS, symbol '₵', divided into 100 pesewas) is the national currency and legal tender. It was redenominated on 1 July 2007, replacing the old cedi (GHC) at a ratio of 1 new cedi = 10,000 old cedis. The Bank of Ghana (BoG) is the sole issuer of banknotes and coins."
+    sourceId: bank-of-ghana
+  - topic: "religion data collection"
+    description: "Ghana is one of the most religiously observant countries in the world. Religion is recorded in the national census (the 2021 PHC recorded Christian ~71.2%, Muslim ~19.9%, traditionalist ~3.2%, no religion ~5.2%). Religion figures here are census-based shares, not survey estimates, but like all self-reported identity data should be treated as approximate."
+    sourceId: gss-census-2021
+paymentCulture:
+  popularMethods:
+    - "Cash — still widely used across market stalls and the informal/mass economy"
+    - "Mobile Money (MTN MoMo, Telecel Cash, AirtelTigo Money) — the dominant digital payment rail; Ghana is one of Africa's leading mobile-money markets, widely used even for small retail transactions"
+    - "Visa and Mastercard debit/credit cards — no domestic card scheme of its own"
+    - "Bank transfers / interbank electronic funds transfer (including the national e-zwich and GhIPSS interbank rails)"
+  tipping:
+    expected: false
+    typicalAmount: "Not strongly expected; a modest tip (rounding up, or 5-10%) is appreciated in nicer restaurants and for hotel staff, but there is no entrenched percentage norm."
+    autoIncludedInBill: false
+    note: "Customary and informal. Tipping is not obligatory in Ghana; service charges or 10% are sometimes added in upscale hotels/restaurants. Mobile-money 'zap' transfers are ubiquitous for peer payments."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Warm, respectful and communal. Elders are addressed with deference and titles (Mr/Mrs/Madam, or chiefly/religious titles); in English-medium business use professional courtesy. First names arrive quickly with goodwill, but always acknowledge age and seniority first."
+  greetingNorms: "A warm handshake and inquiry after the other's wellbeing is the norm; the Akan greeting 'Akwaaba' (welcome) reflects deep hospitality. In the north a subtle bow or respect for elders is common. Greetings are unhurried — never rush past pleasantries."
+  meetingEtiquette: "Meetings open with small talk and pleasantries before business; decisions often flow through relationships and respect for elders/senior figures. Punctuality is valued in formal business but 'Ghana time' (relaxed timing) is common socially — arrive on time, be patient with hosts."
+  topicsToAvoid:
+    - "Religion and politics — both deeply felt; avoid casual stereotyping or criticism"
+    - "Ethnic/tribal tensions and stereotyping — sensitive"
+    - "Direct public criticism of traditional authorities (chiefs) or the government"
+    - "Corruption and personal wealth display"
+  giftGivingNotes: "Not required at first business meetings. When visiting a home, a modest gift (fruit, biscuits, soft drinks) is warmly appreciated. Gifts of cloth are culturally meaningful; avoid anything that could be read as a bribe in a public-sector context."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: GH-AH
+    file: distinct-regions/gh-ah.yaml
+    adminUnitCodes: [GH-AH]
+  - code: GH-NP
+    file: distinct-regions/gh-np.yaml
+    adminUnitCodes: [GH-NP]
+  - code: GH-TV
+    file: distinct-regions/gh-tv.yaml
+    adminUnitCodes: [GH-TV]
+sources:
+  - id: gss-census-2021
+    name: "Ghana 2021 Population and Housing Census (PHC) — General Report"
+    publisher: "Ghana Statistical Service (GSS)"
+    url: "https://census2021.statsghana.gov.gh/"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "Population ~30.8 million at the 2021 census. Religion shares (Christian ~71.2%, Muslim ~19.9%, traditionalist ~3.2%, no religion ~5.2%) and the ethnic-composition base relayed in the CIA World Factbook."
+  - id: cia-wfb-ghana
+    name: "Ghana — The World Factbook"
+    publisher: "Central Intelligence Agency (CIA)"
+    url: "https://www.cia.gov/the-world-factbook/countries/ghana/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "2024 population estimate ~34.4 million. 2021-census ethnic composition: Akan 45.7%, Mole-Dagbani 18.5%, Ewe 12.8%, Ga-Dangme 7.1%, Gurma 6.4%, Guan 3.2%, Grusi 2.6%, Mande 2.0%, other 1.7%. Basis of ethnicGroups rows."
+  - id: constitution-1992
+    name: "Constitution of the Republic of Ghana, 1992 (Ch. 1 Arts. 11, 39)"
+    publisher: "Government of Ghana"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/21218"
+    year: 1992
+    accessedDate: "2026-09-19"
+    note: "Establishes English as the official language of the State; Article 39 directs the State to foster the development of Ghanaian languages and cultural values. Basis of the 'official language' legal constraint and the English official row."
+  - id: bureau-ghana-languages
+    name: "Bureau of Ghana Languages — Sponsored Government Languages"
+    publisher: "Government of Ghana, Bureau of Ghana Languages"
+    url: "https://www.bgl.gov.gh/"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "BGL sponsors English plus nine Ghanaian government languages (Akan/Twi-Fante aka, Ewe, Ga-Dangme, Dagbani, Nzema, Gonja, Kasem, Dagaare and others) as national languages of publicity, media and culture. Basis of the official-domain rows for aka/ewe/gaa/dag/nzi/gjn/xsm/dga."
+  - id: composite-estimate
+    name: "Composite estimate — Ghanaian language usage shares"
+    publisher: "Composite estimate"
+    url: "https://www.ethnologue.com/country/GH/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "FLAGGED as estimates. Mother-tongue/L1 shares approximated from the 2021 census and Ethnologue (Ghana): Akan ~45%, Ewe ~13%, Ga ~4%, Dagbani ~4%, Nzema ~2%, Dagaare ~1%, Kasem ~1%, Gonja ~1%; English is spoken as a first or second language by a large share (here ~55%). Approximate, not census-precise."
+  - id: bank-of-ghana
+    name: "Bank of Ghana — Ghana Cedi (GHS) legal tender and redenomination"
+    publisher: "Bank of Ghana"
+    url: "https://www.bog.gov.gh/"
+    year: 2017
+    accessedDate: "2026-09-19"
+    note: "The Ghana cedi (GHS, symbol '₵', 100 pesewas) is legal tender; redenominated 1 July 2007 (1 new = 10,000 old cedis). Basis of the currency object and the legal-tender constraint."
+  - id: iana-ghana-time
+    name: "IANA Time Zone Database — Africa/Accra"
+    publisher: "Internet Assigned Numbers Authority (IANA)"
+    url: "https://www.iana.org/time-zones"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Africa/Accra = UTC+0, no daylight saving time observed; the sole timezone for Ghana."

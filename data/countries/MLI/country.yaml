@@ -1,0 +1,168 @@
+alpha3: MLI
+alpha2: ML
+name:
+  eng: Mali
+  local:
+    - languageCode: bam
+      value: Mali
+    - languageCode: fuh
+      value: Mali
+    - languageCode: ses
+      value: Mali
+    - languageCode: snk
+      value: Mali
+    - languageCode: tmh
+      value: Mali
+flagEmoji: "\U0001F1F2\U0001F1F1"
+capital: Bamako
+isSovereign: true
+governanceType: unitary-large
+iso3166_2_prefix: ML
+hasSubdivisions: true
+languageUsage:
+  - languageCode: fra
+    domain: foreign
+    speakersShare: 0.2
+    sourceId: oif-francophonie-2024
+  - languageCode: bam
+    domain: official
+    speakersShare: 1.0
+    sourceId: ml-const-2023-art31
+  - languageCode: bam
+    domain: locallySpoken
+    speakersShare: 0.8
+    sourceId: ethnologue-bam
+  - languageCode: fuh
+    domain: official
+    speakersShare: 1.0
+    sourceId: ml-const-2023-art31
+  - languageCode: ses
+    domain: official
+    speakersShare: 1.0
+    sourceId: ml-const-2023-art31
+  - languageCode: snk
+    domain: official
+    speakersShare: 1.0
+    sourceId: ml-const-2023-art31
+  - languageCode: tmh
+    domain: official
+    speakersShare: 1.0
+    sourceId: ml-const-2023-art31
+ethnicGroups:
+  - group: Bambara
+    percent: 35.9
+    sourceId: instat-rgph5-2022
+  - group: Fula (Fulani)
+    percent: 12.8
+    sourceId: instat-rgph5-2022
+  - group: Senufo
+    percent: 9.4
+    sourceId: instat-rgph5-2022
+  - group: Malinke
+    percent: 8.4
+    sourceId: instat-rgph5-2022
+  - group: Soninke
+    percent: 8.2
+    sourceId: instat-rgph5-2022
+  - group: Dogon
+    percent: 6.1
+    sourceId: instat-rgph5-2022
+  - group: Songhai
+    percent: 4.8
+    sourceId: instat-rgph5-2022
+  - group: Tuareg
+    percent: 3.9
+    sourceId: instat-rgph5-2022
+  - group: Bobo / Bwa
+    percent: 2.2
+    sourceId: instat-rgph5-2022
+  - group: other Malian ethnic groups
+    percent: 10.5
+    sourceId: instat-rgph5-2022
+timezones:
+  - name: Africa/Bamako
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+currency:
+  code: XOF
+  symbol: "CFA"
+  name: West African CFA franc
+legalConstraints:
+  - topic: "Official languages & working language under the 2023 Constitution (Article 31)"
+    description: "Since the 2023 Constitution came into force (promulgated by decree No. 2023-0401/PT-RM of 22 July 2023, after the 18 June 2023 referendum), the national languages of Mali are the official languages, most notably Bambara, Fula, Soninke, Songhai (Koyraboro Senni) and Tamasheq among the thirteen national languages recognised since Loi 96-049 (1996). French, once the sole official language, is now only the working language (langue de travail); the State may adopt any other language as a working language. An organic law is to determine the conditions and modalities of use of the official national languages."
+    sourceId: ml-const-2023-art31
+  - topic: "Secular state & religious freedom"
+    description: "Mali is a secular republic. Article 1 of the 2023 Constitution prohibits discrimination on grounds including religion, ethnicity, or language, and the constitution guarantees freedom of conscience and worship. In practice many Malians combine Islam (over 90% of the population) with traditional African beliefs, and much personal-status law (family, marriage, inheritance) is administered under Islamic and customary rules alongside statutory law."
+    sourceId: ml-const-2023-art31
+  - topic: "Business law harmonised under OHADA"
+    description: "Mali is a contracting party to the OHADA Treaty (Organisation pour l'harmonisation en Afrique du droit des affaires) as a member of UEMOA/WAEMU. Company, commercial, securities, insolvency, arbitration and enforcement law is therefore harmonised across the OHADA member states and applied by the Common Court of Justice and Arbitration (CCJA) in Abidjan. Business agreements and transactions should be assessed under the OHADA uniform acts, not solely under Mali's national codes."
+    sourceId: ohada-treaty
+paymentCulture:
+  popularMethods:
+    - "Cash (West African CFA franc, XOF) - still the dominant everyday payment across most of the country"
+    - "Mobile money (Orange Money and Moov Money Africa) - the ubiquitous mobile-wallet rails that carry most small retail transfers"
+    - "Bank cards (Visa / Mastercard) - increasingly accepted in Bamako and larger urban merchants and ATMs"
+    - "WAEMU regional interbank network GIM-UEMOA, and bank transfers for larger and formal transactions"
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    typicalAmount: "In urban restaurants a service charge of roughly 5-10% is often added; otherwise tipping is modest and appreciated but not obligatory. Rounding up fares for taxis is customary."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Use a title plus surname (Monsieur / Madame) until invited to first names; age and social standing command respect, and honorifics matter more than in many Western business settings."
+  greetingNorms: "Handshakes and polite exchanges about health and family open nearly every interaction; the everyday Bambara greetings 'I ni ce' and 'I ni sogoma' are widely used even across language groups. Asking after someone's family is expected politeness, not prying."
+  meetingEtiquette: "Relationships and trust come before transactions: initial meetings are for getting to know a counterpart rather than closing a deal. Business often moves through established family or community networks, decisions may involve elders, and a flexible, patient pace is normal. The Friday midday prayer and break is widely observed."
+  topicsToAvoid:
+    - "The 2012-2015 civil war and the 2021 coup and transition politics - deeply sensitive"
+    - "Over-simplifying the north-south or Tuareg versus Mande divide - a painful, political topic"
+    - "Religious or secular-critical commentary; the large majority of Malians are Muslim and faith is taken seriously"
+  giftGivingNotes: "Small, thoughtful gifts are appreciated and usually reciprocated; respect for elders and religious sensitivity matter (alcohol and pork as gifts can cause offence). If invited to a home, a modest gift is valued."
+distinct-regions:
+  - code: ML-1
+    file: distinct-regions/kayes.yaml
+    adminUnitCodes: [ML-1]
+  - code: ML-3
+    file: distinct-regions/sikasso.yaml
+    adminUnitCodes: [ML-3]
+  - code: ML-5
+    file: distinct-regions/mopti.yaml
+    adminUnitCodes: [ML-5]
+  - code: ML-8
+    file: distinct-regions/kidal.yaml
+    adminUnitCodes: [ML-8]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: ml-const-2023-art31
+    name: "Constitution de la Republique du Mali (2023), Article 31 - promulguee par decret n 2023-0401/PT-RM du 22 juillet 2023"
+    publisher: "Republique du Mali - Secretariat general du Gouvernement (Journal Officiel n 2023-13 SP-2); text also republished by AXL, Universite Laval"
+    url: "https://sgg-mali.ml/JO/2023/mali-jo-2023-13-sp-2.pdf"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Legal basis for the national languages becoming the official languages of Mali and for French being demoted to working language. Article 31: 'Les langues nationales sont les langues officielles du Mali'; 'Le francais est la langue de travail.' Cross-checked via AXL Univ. Laval and the Constitute Project transcripts."
+  - id: instat-rgph5-2022
+    name: "Recensement General de la Population et de l'Habitat (RGPH-5), 2022 - published results"
+    publisher: "Institut National de la Statistique (INSTAT), Mali"
+    url: "https://www.instat-mali.org/"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Ethnic composition and religion breakdown (Bambara ~35.9%, Fula ~12.8%, Senufo ~9.4%, Malinke ~8.4%, Soninke ~8.2%, Dogon ~6.1%, Songhai ~4.8%, Tuareg ~3.9%, Bobo/Bwa ~2.2%; Muslim ~96.4%, Christian ~2.3%, traditional ~0.7%). Based on the 2022 national compilation; individual RGPH-5 tabulations should be consulted where high precision is required."
+  - id: ethnologue-bam
+    name: "Ethnologue - Bambara (bam) language entry"
+    publisher: "SIL International / Ethnologue"
+    url: "https://www.ethnologue.com/language/bam"
+    accessedDate: "2026-09-19"
+    note: "Bambara (Bamanankan) is the most widely spoken Malian language and the de facto national lingua franca, spoken by roughly 80% of the population as a first or second language."
+  - id: oif-francophonie-2024
+    name: "La langue francaise dans le monde - Francophone population estimates"
+    publisher: "Organisation internationale de la Francophonie (OIF)"
+    url: "https://www.francophonie.org/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Roughly a fifth of Malians (about 4.9 million of roughly 22 million) are Francophone, almost all as a second language - supporting the French 'foreign' domain share and its working-language role."
+  - id: ohada-treaty
+    name: "Traite relatif a l'harmonisation du droit des affaires en Afrique (OHADA)"
+    publisher: "OHADA (Organisation pour l'harmonisation en Afrique du droit des affaires)"
+    url: "https://www.ohada.com/"
+    accessedDate: "2026-09-19"
+    note: "Legal basis for harmonised company, commercial, securities, insolvency, arbitration and enforcement law across the OHADA member states (including Mali), applied by the Common Court of Justice and Arbitration (CCJA)."
