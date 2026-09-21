@@ -1,0 +1,93 @@
+code: WHOLE
+name:
+  eng: Peru
+  local:
+    - languageCode: spa
+      value: Perú
+# Generic country-wide fallback used when a visitor's ISO 3166-2 subdivision
+# isn't one of the curated regions below. Content is deliberately
+# national/symbolic rather than tied to one region.
+climates:
+  - koppenCode: BWh
+    description: Hot desert along most of the Pacific coast (Lima fog belt, 'garúa').
+  - koppenCode: ET
+    description: Cold high-altitude climate in the Andes (puna).
+  - koppenCode: Af
+    description: Equatorial rainforest in the Amazon lowlands.
+landmarks:
+  - name: Machu Picchu
+    unescoWorldHeritage: true
+  - name: Historic Sanctuary of Machu Picchu
+    unescoWorldHeritage: true
+  - name: Nazca Lines
+    unescoWorldHeritage: true
+  - name: Lake Titicaca
+culturalTraits:
+  - Rich Inca and pre-Hispanic heritage
+  - Peruvian cuisine as world-renowned (ceviche, pisco sour)
+  - Alpaca and Andean textile traditions
+  - Deep indigenous (Quechua/Aymara) cultural presence
+prideOf:
+  - Machu Picchu and Inca heritage
+  - World-class gastronomy
+  - Biodiversity and natural beauty
+  - Pisco
+animals:
+  popular:
+    - Llama
+    - Alpaca
+    - Andean condor
+  unique:
+    - Vicuña
+    - Pink river dolphin (Amazon)
+    - Chinchilla
+industries:
+  - Mining (copper, gold, zinc)
+  - Fishing and agriculture
+  - Tourism
+  - Textiles
+sports:
+  - Football
+  - Volleyball
+  - Surfing
+entertainment:
+  - season: allYear
+    items:
+      - Peruvian gastronomic festivals and ceviche culture
+      - Pisco sour tastings
+traditionalDishes:
+  - season: allYear
+    items:
+      - Ceviche
+      - Lomo saltado
+      - Aji de gallina
+      - Causa limeña
+  - season: dry
+    items:
+      - Pachamanca (earth-cooked Andean feast, highlands)
+      - Alpaca and Andean highland dishes
+  - season: wet
+    items:
+      - Panetón and hot chocolate (Christmas)
+      - Buñuelos
+traditionalClothing:
+  - season: allYear
+    items:
+      - Chullo (Andean knit cap)
+      - Poncho (Andean highlands)
+  - season: dry
+    items:
+      - Alpaca and vicuña wool garments for the cool highland nights
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours typically run 9:00am-6:00pm, Monday-Friday, with a lunch break around 1:00-2:00pm; Saturday mornings are common for retail."
+  lunchBreakTiming: "A lunch break around 1:00-2:00pm is standard, and lunch is generally the main meal of the day."
+  notableShutdownPeriods:
+    - period: late December to early January
+      description: "Year-end holiday slowdown between Christmas and After New Year's; many businesses close around Dec 25 and Jan 1."

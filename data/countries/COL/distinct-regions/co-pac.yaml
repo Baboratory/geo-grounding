@@ -1,0 +1,63 @@
+code: CO-PAC
+name:
+  eng: Pacific coast
+  local:
+    - languageCode: spa
+      value: Costa Pacífica
+climates:
+  - koppenCode: Af
+    description: Equatorial rainforest with heavy rainfall year-round; among the wettest places on Earth.
+landmarks:
+  - name: Nuquí and the Chocó jungle coast
+  - name: Port of Buenaventura
+  - name: Gorgona National Park
+culturalTraits:
+  - Heartland of Afro-Colombian culture and currulao music
+  - Emberá and other indigenous peoples
+  - Marimba music (UNESCO intangible heritage)
+prideOf:
+  - Marimba and currulao musical heritage
+  - Dense rainforest and biodiversity
+  - Afro-Colombian identity and community
+animals:
+  popular:
+    - Humpback whales (Jun-Oct breeding season)
+    - Sea turtles
+  unique:
+    - Golden poison frog (Chocó)
+    - Howler monkeys
+industries:
+  - Port of Buenaventura (main Pacific port)
+  - Fishing
+  - Ecotourism
+sports:
+  - Football
+  - Swimming and water sports
+entertainment:
+  - season: allYear
+    items:
+      - Currrulao and marimba gatherings
+      - Whale-watching season (June-October)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Sancocho de pescado
+      - Encocado (coconut-based fish or seafood stew)
+      - Tapado (seafood soup)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light cotton clothing suited to the humid rainforest climate
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business hours typically run 8:00am-6:00pm with a midday break."
+  lunchBreakTiming: "A lunch break around 12:30-2:00pm is standard."
+  notableShutdownPeriods:
+    - period: late December to early January
+      description: "Year-end holiday slowdown between Christmas and Three Kings."

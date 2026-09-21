@@ -1,0 +1,63 @@
+code: PE-LIM
+name:
+  eng: Lima & Callao
+  local:
+    - languageCode: spa
+      value: Lima y Callao
+climates:
+  - koppenCode: BWh
+    description: Mild coastal desert with winter overcast ('garúa') and a warm, humid summer (Dec-Mar).
+landmarks:
+  - name: Historic Centre of Lima
+    unescoWorldHeritage: true
+  - name: Plaza Mayor
+  - name: Monastery of San Francisco (catacombs)
+  - name: Miraflores / Larcomar
+culturalTraits:
+  - Capital region, centre of Peruvian gastronomy and finance
+  - Limeño cosmopolitan identity
+  - Cevicherías and criollo cuisine
+prideOf:
+  - World-class gastronomy
+  - Historic colonial centre
+  - Pacific coast living
+animals:
+  popular:
+    - Peruvian hairless dog
+  unique:
+    - Humboldt penguin (islands offshore)
+industries:
+  - Finance and services
+  - Commerce and Port of Callao
+  - Gastronomy and tourism
+sports:
+  - Football
+  - Surfing
+  - Paragliding
+entertainment:
+  - season: allYear
+    items:
+      - Lima's cevicherías and criollo restaurants
+  - season: dry
+    items:
+      - June-Sept dry, overcast 'northern winter' months — indoor cultural events
+traditionalDishes:
+  - season: allYear
+    items:
+      - Ceviche
+      - Lomo saltado
+      - Causa limeña
+      - Anticuchos
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours typically run 9:00am-6:00pm, Monday-Friday."
+  lunchBreakTiming: "A lunch break around 1:00-2:00pm is standard, treated as the main meal."
+  notableShutdownPeriods:
+    - period: late December to early January
+      description: "Year-end holiday slowdown between Christmas and New Year's."

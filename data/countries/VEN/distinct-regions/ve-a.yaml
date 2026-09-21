@@ -1,0 +1,63 @@
+code: VE-A
+name:
+  eng: Capital / central-north coast
+  local:
+    - languageCode: spa
+      value: Capital y centro-norte costero
+climates:
+  - koppenCode: Aw
+    description: Tropical with a dry season (Dec-Apr) and wet season (May-Nov), moderated by altitude in Caracas.
+landmarks:
+  - name: Ávila (Cerro El Ávila / Waraira Repano) overlooking Caracas
+  - name: Historical Centre of Caracas
+  - name: Colonia Tovar
+  - name: La Guaira / Vargas coast
+culturalTraits:
+  - Capital economic and demographic heartland (Caracas, Miranda)
+  - Centro-norte coastal identity
+  - Capital cosmopolitan culture
+prideOf:
+  - Caracas as cultural and economic centre
+  - Ávila mountain backdrop
+  - Modern and colonial architecture
+animals:
+  popular:
+    - Red howler monkey
+    - Sloth
+  unique:
+    - Ávila endemic butterflies and flora
+industries:
+  - Finance and services
+  - Government and oil-company headquarters
+  - Port commerce (La Guaira)
+sports:
+  - Baseball
+  - Football
+entertainment:
+  - season: dry
+    items:
+      - Carnaval celebrations
+      - Coastal trips (Vargas)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Arepa
+      - Pabellón criollo
+      - Hallacas (Christmas)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light tropical business clothing; sueter/shirt for the cooler Ávila evenings
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours typically run 8:00am-5:00pm in the capital."
+  lunchBreakTiming: "A lunch break around 12:30-2:00pm is standard."
+  notableShutdownPeriods:
+    - period: Holy Week
+      description: "Semana Santa slowdown as the capital empties for the coast."

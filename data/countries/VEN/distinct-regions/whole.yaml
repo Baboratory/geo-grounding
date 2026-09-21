@@ -1,0 +1,89 @@
+code: WHOLE
+name:
+  eng: Venezuela
+  local:
+    - languageCode: spa
+      value: Venezuela
+# Generic country-wide fallback used when a visitor's ISO 3166-2 subdivision
+# isn't one of the curated regions below. Content is deliberately
+# national/symbolic rather than tied to one region.
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna in most of the lowlands, with a dry season (Dec-Apr) and wet season (May-Nov).
+  - koppenCode: Af
+    description: Equatorial rainforest in the Guayana/Amazon south.
+  - koppenCode: Cfb
+    description: Temperate highland climate in the Andes and the Cordillera de la Costa.
+landmarks:
+  - name: Angel Falls (Salto Ángel), world's highest waterfall
+    unescoWorldHeritage: true
+  - name: Canaima National Park
+    unescoWorldHeritage: true
+  - name: Mount Roraima (tepui)
+  - name: Morrocoy National Park
+culturalTraits:
+  - Pabellón criollo and arepa as national dishes
+  - Llanero and coastal Afro-Venezuelan traditions
+  - Baseball and an animation culture
+  - Warm, expressive, hospitable social culture
+prideOf:
+  - Angel Falls and natural wonders
+  - Distincive music (salsa, música llanera)
+  - Miss Venezuela and pageantry culture
+  - Baseball
+animals:
+  popular:
+    - Orinoco crocodile
+    - Capybara
+    - Red howler monkey
+  unique:
+    - Angel Falls / tepui endemics (Roraima bush toad)
+    - Ocelot
+industries:
+  - Oil and natural gas (world's largest proven reserves)
+  - Agriculture
+  - Tourism
+sports:
+  - Baseball
+  - Football
+  - Basketball
+entertainment:
+  - season: allYear
+    items:
+      - Salsa and música llanera venues nationwide
+  - season: dry
+    items:
+      - Carnaval (Feb/Mar, pre-Lenten)
+      - Semana Santa (Easter week)
+      - Coastal beaches at their busiest
+      - Angel Falls season (dry months best for seeing the falls)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Arepa (grilled corn cake)
+      - Pabellón criollo (shredded beef, black beans, rice, plantain)
+      - Cachapa (sweet corn pancake)
+      - Hallaca (maize dough with stewed filling, Christmas)
+  - season: wet
+    items:
+      - Patacón (fried plantain sandwich)
+      - Sancocho (stew, rainy-season comfort food)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light tropical clothing; the traditional 'liqui liqui' suit for formal llanero occasions
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours typically run 8:00am-5:00pm, Monday-Friday, with a midday break."
+  lunchBreakTiming: "A lunch break around 12:30-2:00pm is standard; lunch is generally the main meal of the day."
+  notableShutdownPeriods:
+    - period: Holy Week
+      description: "Semana Santa (Holy Week) sees many businesses close or slow as much of the population travels."
+    - period: late December to early January
+      description: "Year-end holiday slowdown between Christmas and after New Year's."

@@ -1,0 +1,68 @@
+code: CO-AND
+name:
+  eng: Andean interior
+  local:
+    - languageCode: spa
+      value: Región Andina
+climates:
+  - koppenCode: Cfb
+    description: Cool-to-temperate high-altitude climate on the Andean cordilleras; bimodal rainy seasons.
+landmarks:
+  - name: Bogotá's historic La Candelaria district
+  - name: Medellín and the Comuna 13 murals
+  - name: Salt Cathedral of Zipaquirá
+  - name: Caño Cristales ("river of five colours")
+culturalTraits:
+  - Paisa and cachaco interior cultural identities
+  - Coffee region (Eje Cafetero)
+  - Emblematic cuisines bandeja paisa and ajiaco
+prideOf:
+  - Coffee and the Coffee Triangle
+  - Bogotá and Medellín as centres of culture and innovation
+  - Andean gastronomy
+animals:
+  popular:
+    - Andean condor
+    - Spectacled bear
+  unique:
+    - Glass frogs
+industries:
+  - Coffee
+  - Finance and services (Bogotá, Medellín)
+  - Manufacturing and textiles
+sports:
+  - Football
+  - Cycling
+  - Tejo
+entertainment:
+  - season: allYear
+    items:
+      - Coffee-tourist trails in the Eje Cafetero
+      - Festival of Flowers in Medellín (August, Feria de las Flores)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Bandeja paisa
+      - Ajiaco (Bogotá chicken-and-potato soup)
+      - Arepas
+  - season: wet
+    items:
+      - Chocolate santafereño
+      - Tamales tolimenses
+traditionalClothing:
+  - season: allYear
+    items:
+      - Ruana or poncho (highlands)
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours typically run 8:00am-6:00pm; the national workweek is Monday-Friday."
+  lunchBreakTiming: "A lunch break of roughly one hour around 12:30-2:00pm is standard, with lunch treated as a proper sit-down meal."
+  notableShutdownPeriods:
+    - period: late December to early January
+      description: "Year-end holiday slowdown between Christmas and Three Kings."

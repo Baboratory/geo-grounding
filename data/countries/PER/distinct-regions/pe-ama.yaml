@@ -1,0 +1,73 @@
+code: PE-AMA
+name:
+  eng: Amazonía
+  local:
+    - languageCode: spa
+      value: Amazonía peruana
+climates:
+  - koppenCode: Af
+    description: Equatorial rainforest, hot and humid year-round with a heavy wet season (Oct-Apr).
+landmarks:
+  - name: Iquitos and the Amazon River
+  - name: Pacaya-Samiria National Reserve
+  - name: Tambopata National Reserve (Madre de Dios)
+  - name: Manú National Park
+    unescoWorldHeritage: true
+culturalTraits:
+  - Greatest concentration of indigenous Amazonian peoples and languages (Asháninka, Awajún, Shipibo-Konibo)
+  - River-based transport culture around Iquitos (no road connection)
+  - Ecotourism and rainforest heritage
+prideOf:
+  - Vast Amazon rainforest and biodiversity
+  - Indigenous Amazonian cultures and languages
+  - River-based lifestyle
+animals:
+  popular:
+    - Jaguar
+    - Macaws
+    - Pink river dolphin
+  unique:
+    - Amazon river dolphin
+    - Giant river otter
+    - Poison dart frogs
+industries:
+  - Ecotourism
+  - Sustainable forest products
+  - River trade (Iquitos)
+  - Petrochemicals (Loreto based)
+sports:
+  - Football
+  - Fishing
+  - Jungle trekking
+entertainment:
+  - season: allYear
+    items:
+      - Amazon river tours
+      - Tambopata and Manú wildlife lodges
+  - season: wet
+    items:
+      - High-water season river navigation (Oct-Apr) — floodplain travel by canoe
+traditionalDishes:
+  - season: allYear
+    items:
+      - Juane (rice and chicken wrapped in bijao leaf)
+      - Tacacho con cecina (Amazonian dish)
+      - Timbuche (fish soup)
+      - Casabe (cassava bread)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light cotton clothing suited to the hot, humid climate
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business hours typically run 8:00am-5:00pm; many activities are coordinated around river travel."
+  lunchBreakTiming: "A lunch break around 12:00-1:00pm is standard."
+  notableShutdownPeriods:
+    - period: late December to early January
+      description: "Year-end holiday slowdown."

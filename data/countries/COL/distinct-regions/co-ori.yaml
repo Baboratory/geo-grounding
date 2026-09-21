@@ -1,0 +1,66 @@
+code: CO-ORI
+name:
+  eng: Orinoquía / Eastern plains
+  local:
+    - languageCode: spa
+      value: Los Llanos
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna with a single strong dry season (Nov-Mar) and a rainy season with seasonal flooding (Apr-Oct).
+landmarks:
+  - name: Caño Cristales
+  - name: El Tuparro National Park
+  - name: The Meta River and llanos savannah
+culturalTraits:
+  - Llanero (cowboy) identity and joropo music
+  - Cattle ranching heritage
+  - Wide-open grassy plains
+prideOf:
+  - Llanero music (joropo) and identity
+  - Cattle and the plains way of life
+  - Scenic savannah landscape
+animals:
+  popular:
+    - Orinoco goose
+    - Capybara
+    - Anaconda
+  unique:
+    - Giant anteater
+    - Orinoco crocodile
+industries:
+  - Cattle ranching
+  - Oil and natural gas
+  - Agriculture
+sports:
+  - Horseback riding / coleo (cattle games)
+  - Football
+entertainment:
+  - season: dry
+    items:
+      - Festival Internacional de la Canción (Villavicencio, joropo)
+      - Coleo and llanero rodeo gatherings
+traditionalDishes:
+  - season: allYear
+    items:
+      - Carne a la llanera (grilled beef)
+      - Arepas de arroz
+      - Mamona (young beef barbecue)
+      - Sopa de arroz (llanero soup)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Llanero hat and wide-brimmed sombrero
+      - Cotton woven clothing
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Ranchers and rural businesses follow the day cycle, roughly 6:00am-5:00pm with a midday rest."
+  lunchBreakTiming: "A long midday break is traditional in rural areas, often 12:00-2:00pm."
+  notableShutdownPeriods:
+    - period: late December to early January
+      description: "Year-end holiday slowdown."

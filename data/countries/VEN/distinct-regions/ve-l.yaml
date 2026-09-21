@@ -1,0 +1,64 @@
+code: VE-L
+name:
+  eng: Andes
+  local:
+    - languageCode: spa
+      value: Los Andes venezolanos
+climates:
+  - koppenCode: Cfb
+    description: Temperate-cool highland climate in the Venezuelan Andes (Mérida, Táchira, Trujillo).
+landmarks:
+  - name: Mérida cable car (Teleférico de Mérida), among the world's highest
+  - name: Pico Bolívar (Venezuela's highest peak)
+  - name: Pueblos del Sur del Lago
+  - name: Colonial towns of Mérida and Trujillo
+culturalTraits:
+  - Andean identity and distinctive accent ('tuteo' and the use of 'usted')
+  - Feria del Sol bullfighting festival (Mérida)
+  - Andean cuisine rooted in wheat, cheese and produce
+prideOf:
+  - Pico Bolívar and the Andes
+  - Andean peasant (campesino) traditions
+  - Feria del Sol and colonial heritage
+animals:
+  popular:
+    - Andean condor
+    - Spectacled bear
+  unique:
+    - Páramo flora (frailejones) and Andean fauna
+industries:
+  - Coffee and agriculture
+  - Tourism (Mérida cable car, paramo)
+  - Handicrafts (woven wool)
+sports:
+  - Mountaineering
+  - Football
+entertainment:
+  - season: dry
+    items:
+      - Feria del Sol (Mérida, February — the 'Feria Taurina del Sol')
+      - Semana Santa processions in the Andes
+traditionalDishes:
+  - season: allYear
+    items:
+      - Arepas de trigo (wheat arepas, an Andean specialty)
+      - Pisca andina (Andean soup)
+      - Chicha and gulupa desserts
+      - Hallacas (Christmas)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Ruana (woolen poncho) for the cool highland climate
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business hours typically run 8:00am-5:00pm, with mornings starting a little later in the cooler highlands."
+  lunchBreakTiming: "A lunch break around 12:30-2:00pm is standard."
+  notableShutdownPeriods:
+    - period: Holy Week
+      description: "Semana Santa processions and a broad slowdown across the Andes."

@@ -1,0 +1,67 @@
+code: VE-F
+name:
+  eng: Guayana / Orinoco
+  local:
+    - languageCode: spa
+      value: Guayana y Orinoco
+climates:
+  - koppenCode: Af
+    description: Equatorial rainforest climate in the Guayana highlands south of the Orinoco; hot, humid and rainy much of the year.
+landmarks:
+  - name: Angel Falls (Salto Ángel)
+    unescoWorldHeritage: true
+  - name: Canaima National Park
+    unescoWorldHeritage: true
+  - name: Mount Roraima (tepui)
+  - name: Gran Sabana
+culturalTraits:
+  - Shift of the country's indigenous languages (Pemon, Yanomamö, Piaroa, Warao, Carib/Kariña)
+  - Mineral- and nature-rich Guayana shield
+  - Ancestral territory south of the Orinoco
+prideOf:
+  - Angel Falls and the tepui table mountains
+  - Indigenous heritage and languages
+  - Natural wonders (Canaima, Roraima)
+animals:
+  popular:
+    - Jaguar
+    - Macaws
+    - Capybara
+  unique:
+    - Roraima bush toad (tepui endemic)
+    - Orinoco crocodile
+industries:
+  - Mining (iron, bauxite, gold, diamonds)
+  - Hydropower (Guri Dam, one of the world's largest)
+  - Ecotourism
+sports:
+  - Football
+  - Trekking and adventure tourism
+entertainment:
+  - season: dry
+    items:
+      - Angel Falls viewing season (dry months, Dec-Apr, are best)
+      - Trekking to Roraima and tepuis
+traditionalDishes:
+  - season: allYear
+    items:
+      - Yucca and casabe (cassava bread)
+      - Morrocoy (local stews)
+      - Pabellón criollo
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light, breathable clothing for the hot rainforest; rain gear in the wet season
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "The mining and hydropower hub (Ciudad Guayana) runs standard 8:00am-5:00pm hours."
+  lunchBreakTiming: "A lunch break around 12:30-2:00pm is standard."
+  notableShutdownPeriods:
+    - period: rainy season
+      description: "Heavy rains (May-Nov) can disrupt road and river access in the interior."

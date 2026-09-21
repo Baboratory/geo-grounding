@@ -1,0 +1,68 @@
+code: VE-P
+name:
+  eng: Llanos (central plains)
+  local:
+    - languageCode: spa
+      value: Los Llanos
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna with a severe dry season (Dec-Apr, when plains parch) and an intense wet season (May-Nov) with widespread flooding.
+landmarks:
+  - name: Hato El Frío (llanero ranch)
+  - name: The Orinoco basin plains and rivers
+  - name: Los Llanos wetlands (birdwatching)
+culturalTraits:
+  - Llanero (cowboy) identity and música llanera
+  - Cattle ranching (hato) heritage
+  - Ballet llanero dance
+prideOf:
+  - Llanero music and identity
+  - Great cattle ranches and horsemanship
+  - Rich wildlife of the flooded savanna
+animals:
+  popular:
+    - Capybara
+    - Orinoco goose
+    - Caiman
+  unique:
+    - Giant anteater
+    - Jaguar (llanos fauna)
+industries:
+  - Cattle ranching
+  - Agriculture
+  - Ecotourism (birdwatching, hato tours)
+sports:
+  - Coleo (rodeo-style cattle sport)
+  - Horseback riding
+  - Football
+entertainment:
+  - season: dry
+    items:
+      - Joropo and música llanera gatherings
+      - Wet-season flooding recedes; llanos open for touring
+  - season: wet
+    items:
+      - Birdwatching peak as the plains flood and birds concentrate
+traditionalDishes:
+  - season: allYear
+    items:
+      - Carne a la llanera (grilled beef)
+      - Hallacas de maíz
+      - Sopa de arroz
+traditionalClothing:
+  - season: allYear
+    items:
+      - Llanero hat and light cotton clothing; the 'liqui liqui' for formal occasions
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Ranchers and rural businesses follow the day cycle, roughly 6:00am-5:00pm with a midday rest."
+  lunchBreakTiming: "A long midday rest is traditional in the hot llanos, often 12:00-3:00pm during the hottest hours."
+  notableShutdownPeriods:
+    - period: rainy season
+      description: "In the wet season (May-Nov) flooding can disrupt land travel, slowing rural business."
