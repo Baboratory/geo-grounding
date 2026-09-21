@@ -1,0 +1,79 @@
+code: TW-NWT
+name:
+  eng: New Taipei City
+  local:
+    - languageCode: cmn
+      value: 新北市
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical, similar to Taipei with hot humid summers and mild damp winters; the east-coast districts (Ruifang) are rainier."
+landmarks:
+  - name: Jiufen Old Street
+    description: "A mountain-hillside old town famous for its teahouses, lanterns and sea views — inspiration for the town in the film Spirited Away."
+  - name: Shifen Waterfall and Pingxi Lanterns
+    description: "A scenic waterfall and the famous sky-lantern release site at Pingxi, along the old railway."
+  - name: Yehliu Geopark
+    description: "Dramatic coastal rock formations, including the iconic 'Queen's Head' sea stack."
+  - name: Keelung (Jiufen/Ruifang historic gold-mining town)
+    description: "Historic gold-mining and port areas of the northeast coast."
+  - name: Fulong Beach
+    description: "Taiwan's most popular northern beach resort, at the northern tip of the island."
+culturalTraits:
+  - "Taiwan's most populous special municipality, encircling the capital Taipei"
+  - "A diverse mix of urban districts, industrial zones and scenic northeast-coast towns"
+  - "A hub of 'old Taiwan' tourism — Jiufen, Pingxi and the gold-mining heritage"
+prideOf:
+  - "The breathtaking northeast-coast scenery and lantern-festival culture"
+  - "Its historic mining towns (Jiufen, Jinguashi)"
+  - "Combining dense suburbs with renowned natural and coastal attractions"
+animals:
+  popular:
+    - "Formosan rock macaque"
+    - "Sea birds along the north-coast cliffs"
+  unique:
+    - "Yehliu's coastal rock formations host endemic coastal flora and seabirds"
+industries:
+  - "Manufacturing and logistics (industrial districts surrounding Taipei)"
+  - "Port activities (Keelung) and fisheries"
+  - "Tourism — Jiufen, Pingxi, Yehliu and Fulong"
+sports:
+  - "Baseball"
+  - "Surfing and water sports at Fulong and the north coast"
+entertainment:
+  - season: allYear
+    items:
+      - "Sky lanterns at Pingxi (especially at Lantern Festival)"
+      - "Teahouses and mountain walks in Jiufen"
+      - "Beach and coastal activities at Fulong"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Taro balls (yam bao) in Jiufen's old street"
+      - "Fresh seafood in Keelung's night market"
+      - "Beef noodle soup and street snacks"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern casual wear; hiking attire in the mountainous districts"
+      - "Traditional Chinese dress at temple festivals"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4]
+  - season: summer
+    months: [5, 6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours roughly 09:00-18:00 Monday-Friday; retail and markets open earlier and run late."
+  lunchBreakTiming: "Lunch around 12:00-13:30 is standard."
+sources:
+  - id: tw-nwt-tourism
+    name: "New Taipei Travel (city guide)"
+    publisher: "New Taipei City Government"
+    url: "https://newtaipei.travel/en"
+    accessedDate: "2026-09-21"
+    note: "Landmarks and cultural description for New Taipei."

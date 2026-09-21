@@ -1,0 +1,81 @@
+code: TW-TXG
+name:
+  eng: Taichung City
+  local:
+    - languageCode: cmn
+      value: 臺中市
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical with a dry-winter tendency; mild pleasant winters and hot, humid summers, with typhoons bringing rain in summer."
+landmarks:
+  - name: Taichung National Theater and Opera House
+    description: "A celebrated contemporary building by architect Toyo Ito in the city's cultural district."
+  - name: Rainbow Village
+    description: "A colorful painted village, a beloved Instagram landmark in the city's Nantun district."
+  - name: Gaomei Wetlands
+    description: "A scenic coastal wetland famous for its windmills and spectacular sunsets."
+  - name: Lavender Forest (and the 'Sun-Moon-Lake-adjacent' mountain tea districts)
+    description: "A tourist farm and the surrounding mountain tea country of central Taiwan."
+  - name: Fengjia Night Market
+    description: "One of Taiwan's largest and most famous night markets."
+culturalTraits:
+  - "Taiwan's second city and the commercial heart of the central region"
+  - "A relaxed, livable metropolis with parks, universities and a celebrated food scene"
+  - "Known for its sun cakes, bakeries and Fengjia night market"
+prideOf:
+  - "Being central Taiwan's economic and cultural hub"
+  - "Its renowned night market and food culture"
+  - "A green, grid-planned city with excellent weather and livability"
+animals:
+  popular:
+    - "Formosan sambar deer (mountain districts)"
+    - "Formosan black bear (forested foothills)"
+  unique:
+    - "Black-faced spoonbill — winter visitor to the Gaomei/coastal wetlands"
+industries:
+  - "Machinery and precision tools — Taichung is Taiwan's machine-tool manufacturing center"
+  - "Manufacturing and optics/electronics"
+  - "Logistics and trade (central distribution hub)"
+  - "Tourism and a growing arts/design scene"
+sports:
+  - "Baseball"
+  - "Basketball"
+  - "Cycling"
+entertainment:
+  - season: allYear
+    items:
+      - "Fengjia and other night-market food crawls"
+      - "Museum and theater culture in the cultural district"
+      - "Coastal sunset walks at Gaomei Wetlands"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sun cakes (taiyang bing) — Taichung's iconic pastry"
+      - "Braised pork rice and beef noodle soup"
+      - "Oyster omelette and stinky tofu at night markets"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern casual and business attire"
+      - "Traditional dress at temple and festival events"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4]
+  - season: summer
+    months: [5, 6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours roughly 09:00-18:00 Monday-Friday; shops open earlier and close later."
+  lunchBreakTiming: "Lunch around 12:00-13:30 is standard."
+sources:
+  - id: tw-txg-tourism
+    name: "Taichung Travel (city guide)"
+    publisher: "Taichung City Government"
+    url: "https://travel.taichung.gov.tw/en"
+    accessedDate: "2026-09-21"
+    note: "Landmarks and cultural description for Taichung."

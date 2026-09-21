@@ -1,0 +1,82 @@
+code: TW-TNN
+name:
+  eng: Tainan City
+  local:
+    - languageCode: cmn
+      value: 臺南市
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical with a pronounced wet summer; hot and humid, with a mild, relatively dry winter."
+landmarks:
+  - name: Chihkan Tower (Fort Provintia)
+    description: "A 17th-century Dutch-built fortress and later Qing administrative site, one of Tainan's oldest landmarks."
+  - name: Anping Old Fort (Fort Zeelandia)
+    description: "The remains of the Dutch East India Company's 17th-century fortress at Anping."
+  - name: Anping Tree House
+    description: "An old warehouse overgrown with banyan roots, a striking photographic landmark."
+  - name: Tainan Confucius Temple
+    description: "Taiwan's oldest Confucius temple (1665), in the heart of the old city."
+  - name: Afulu (yacht-building pier at Anping)
+    description: "The Anping yacht marina and harborfront of Taiwan's historic port."
+culturalTraits:
+  - "Taiwan's oldest city and its historic capital, famed as the 'city of 100 temples' and the former seat of government"
+  - "The cradle of Taiwan's cuisine — danzai noodles, coffin bread, and milkfish dishes"
+  - "Deeply traditional, with a strong food, temple and festival culture"
+prideOf:
+  - "Being Taiwan's oldest and most historic city"
+  - "A legendary local food scene recognized across Taiwan"
+  - "Preserving its Dutch, Ming and Qing heritage and more than 100 temples"
+animals:
+  popular:
+    - "Osprey (winter visitor to Taijiang wetlands)"
+    - "Black-faced spoonbill (Taijiang National Park, winter)"
+  unique:
+    - "Black-faced spoonbill — the Taijiang coastal wetlands host significant wintering flocks"
+industries:
+  - "Manufacturing and industrial parks (the Southern Taiwan Science Park, a semiconductor hub)"
+  - "Agriculture and aquaculture (milkfish farming)"
+  - "Tourism and the food industry"
+  - "Shipbuilding and port activities at Anping"
+sports:
+  - "Baseball"
+  - "Basketball"
+  - "Cycling"
+entertainment:
+  - season: allYear
+    items:
+      - "A cultural/night-market food crawl through the old city's eateries"
+      - "Temple festivals and the famous annual Yanshui Beehive Fireworks"
+      - "Exploring Dutch-era forts and historic lanes of Anping"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Danzai noodles (dan-zai mian)"
+      - "Coffin bread (guantang bao)"
+      - "Milkfish soup and braised milkfish dishes"
+      - "Shrimp rolls and Oysters from Anping"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern casual and business attire"
+      - "Traditional Han dress during temple festivals"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4]
+  - season: summer
+    months: [5, 6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours roughly 09:00-18:00 Monday-Friday; markets and eateries open early and run late."
+  lunchBreakTiming: "Lunch around 12:00-13:30 is standard."
+sources:
+  - id: tw-tnn-tourism
+    name: "Tainan Travel (city guide)"
+    publisher: "Tainan City Government"
+    url: "https://www.twtainan.net/en"
+    accessedDate: "2026-09-21"
+    note: "Landmarks and cultural description for Tainan."

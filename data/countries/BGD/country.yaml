@@ -1,0 +1,184 @@
+alpha3: BGD
+alpha2: BD
+name:
+  eng: Bangladesh
+  local:
+    - languageCode: ben
+      value: বাংলাদেশ (Bangladesh)
+flagEmoji: "🇧🇩"
+capital: Dhaka
+isSovereign: true
+# Classified unitary-large: Bangladesh's population (~165-170M, 2022 census
+# 165.2M) is far above the ~20-25M small-state threshold, it is a unitary
+# parliamentary republic, and it has genuine officially-recognized regional and
+# minority languages and communities — notably Sylheti (a recognized regional
+# speech variety of Sylhet) and the Chakma and other languages of the Chittagong
+# Hill Tracts, which meet the regional-language criterion alongside its
+# overwhelmingly dominant national language Bengali. Curated regions map to real
+# ISO 3166-2 first-level divisions: Dhaka (BD-C), Chattogram (BD-B), Sylhet
+# (BD-G) and Rajshahi (BD-E), plus the generic WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: BD
+hasSubdivisions: true
+languageUsage:
+  # Bengali (Bangla) is the sole official and national language under Article 3
+  # of the Constitution; official-domain flag = 1.0 as a legal-status marker.
+  - languageCode: ben
+    domain: official
+    speakersShare: 1.0
+    sourceId: bd-constitution
+  - languageCode: ben
+    domain: locallySpoken
+    speakersShare: 0.99
+    sourceId: census-2022
+  # Sylheti — the regional speech variety of Sylhet Division (eastern
+  # Banglandesh), closely related to Bengali; a distinct Indo-Aryan language.
+  - languageCode: syl
+    domain: locallySpoken
+    speakersShare: 0.06
+    sourceId: census-2022
+  # Chakma — one of the principal indigenous languages of the Chittagong Hill
+  # Tracts (Southeast), spoken by the Chakma people.
+  - languageCode: ccp
+    domain: locallySpoken
+    speakersShare: 0.005
+    sourceId: census-2022
+  # English is a widely used second language in business, law, higher education
+  # and government administration (de facto working language).
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.18
+    sourceId: ef-eng
+ethnicGroups:
+  - group: Bangladeshi Bengali
+    percent: 98.0
+    sourceId: census-2022
+  - group: Other indigenous/small ethnic groups (Chakma, Marma, Santali, Garo, Tripuri, Mro and others)
+    percent: 1.1
+    sourceId: census-2022
+  - group: Other (including Bihari/Urdu-speaking 'Stranded Pakistanis', Rohingya)
+    percent: 0.9
+    sourceId: census-2022
+timezones:
+  - name: Asia/Dhaka
+    standardUtcOffset: "UTC+6"
+    observesDst: false
+currency:
+  code: BDT
+  symbol: "৳"
+  name: Bangladeshi taka
+legalConstraints:
+  - topic: "official language"
+    description: "Article 3 of the Constitution of the People's Republic of Bangladesh (1972, revised by the Eighth Amendment 1988) declares Bangla (Bengali) the state language of the Republic. The Bengali Language Implementation Act 1987 requires Bengali for all official government affairs except foreign relations."
+    sourceId: bd-constitution
+  - topic: "data protection"
+    description: "The Digital Security Act 2018 and, more comprehensively, the Data Protection Act 2023 (partly engrafted / being brought into force) framework governs personal-data processing and online conduct, with requirements around consent and data-subject rights; earlier rules (e.g. the 2021 data-localization / digital-platform requirements) also apply. Bangladesh does not yet have a GDPR-equivalent law fully in force, so cross-border and consent practices should be reviewed against the 2023 Act."
+    sourceId: dpa-2023
+  - topic: "value added tax (VAT) price display"
+    description: "VAT is levied under the Value Added Tax and Supplementary Duty Act 2012. The standard rate is 15% for most goods and services, with reduced/truncated rates (5%, 7.5%, 10%) for specified sectors and a turnover tax for small traders below threshold. Retail prices in shops and markets are generally displayed VAT-inclusive, though some mid/large retail adds VAT at the till."
+    sourceId: vat-2012
+  - topic: "consumer protection"
+    description: "Consumer rights are governed by the Consumer Rights Protection Act 2009, which establishes a national framework for product quality, weights and measures, unfair-trade-practice prohibitions and penalties, and mobile courts for market offenses; the National Consumer Rights Protection Council and Directorate oversee enforcement."
+    sourceId: crpa-2009
+paymentCulture:
+  popularMethods:
+    - "bKash — the dominant mobile financial services (MFS) wallet, used for person-to-person transfers, merchant QR payments and cash-out across urban and rural Bangladesh"
+    - "Nagad — a leading state-linked MFS wallet (mobile operator-based), widely used alongside bKash"
+    - "Cash — still extremely common, especially for smaller purchases, markets and rural areas"
+    - "Bank cards (Visa/Mastercard/Nexus) — accepted at hotels, larger restaurants, malls and online"
+    - "Bank transfers and mobile banking apps (e.g. Nagad, Rocket from Dutch-Bangla Bank) for larger or salary transactions"
+    - "Internet/mobile banking and fintech apps (Rocket, Upay, SureCash and bank-specific apps)"
+  tipping:
+    expected: false
+    typicalAmount: "Not generally expected. A small service charge may appear on restaurant bills in upscale venues; a modest tip (rounded amount or small change) for attentive service in better restaurants and hotels is appreciated but not required."
+    autoIncludedInBill: false
+    note: "Mobile financial services (bKash/Nagad) dominate digital person-to-person payments; cash remains the single most common medium at markets and small shops."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite, hierarchical and somewhat indirect. Titles and honorifics ('sir'/'ma'am', 'bhai'/brother) are common; age and seniority command respect. Bangladeshi English is used widely in business and government."
+  greetingNorms: "The most common greeting is 'Assalamu alaikum' (peace be upon you) among Muslims, answered 'Wa alaikum assalam'; 'Nomoshkar' (নমস্কার) among Hindus. Handshakes are common between men; greetings between men and women may be more reserved."
+  meetingEtiquette: "Punctuality is appreciated though meetings may start late. Business cards are exchanged and read respectfully. Decisions may take time and involve senior approval (hierarchical). Hospitality — tea, sweets or a meal — is an important part of meetings."
+  topicsToAvoid:
+    - "Religion and religious sensitivities in a polarized way"
+    - "Politics and the history of the 1971 independence conflict (sensitively)"
+    - "Rohingya and border tensions (delicately)"
+    - "Personal criticism intended to cause loss of face"
+  giftGivingNotes: "Gifts are appreciated and often modest in value; give and receive with the right hand. Avoid gifts containing alcohol or pork for Muslim contacts. Sweets and quality food items are safe choices."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: BD-C
+    file: distinct-regions/bd-c.yaml
+    adminUnitCodes: [BD-C]
+  - code: BD-B
+    file: distinct-regions/bd-b.yaml
+    adminUnitCodes: [BD-B]
+  - code: BD-G
+    file: distinct-regions/bd-g.yaml
+    adminUnitCodes: [BD-G]
+  - code: BD-E
+    file: distinct-regions/bd-e.yaml
+    adminUnitCodes: [BD-E]
+sources:
+  - id: bd-constitution
+    name: "Constitution of the People's Republic of Bangladesh — Article 3 (state language 'Bangla')"
+    publisher: "Government of the People's Republic of Bangladesh"
+    url: "http://bdlaws.minlaw.gov.bd/act-367.html"
+    year: 1972
+    accessedDate: "2026-09-21"
+    note: "Bangla declared the state language; basis for official-domain flag on ben."
+  - id: census-2022
+    name: "Population and Housing Census 2022 — Bangladesh Bureau of Statistics"
+    publisher: "Bangladesh Bureau of Statistics (BBS)"
+    url: "https://bbs.portal.gov.bd/"
+    year: 2022
+    accessedDate: "2026-09-21"
+    note: "Population 165.2M; ~99% speak Bengali (incl. dialects) as first language; ethnic composition ~98% Bengali, remainder small ethnic groups. Sylheti/Chakma shares are composite estimates informed by census and linguistic surveys."
+  - id: dpa-2023
+    name: "Data Protection Act 2023 (Bangladesh)"
+    publisher: "DLA Piper (law-firm data-protection law tracker; not the Ministry of Law directly)"
+    url: "https://www.dlapiperdataprotection.com"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "Bangladesh's data-protection framework; consent and data-subject-right requirements."
+  - id: vat-2012
+    name: "Value Added Tax and Supplementary Duty Act 2012 (Bangladesh)"
+    publisher: "National Board of Revenue (NBR), Ministry of Finance"
+    url: "https://www.nbr.gov.bd/"
+    year: 2012
+    accessedDate: "2026-09-21"
+    note: "Standard VAT rate 15%, with truncated rates (5%, 7.5%, 10%) for specified sectors and a 3% turnover tax for small traders."
+  - id: crpa-2009
+    name: "Consumer Rights Protection Act 2009 (Bangladesh)"
+    publisher: "Ministry of Commerce / Directorate of National Consumer Rights Protection"
+    url: "https://dncrp.portal.gov.bd/"
+    year: 2009
+    accessedDate: "2026-09-21"
+    note: "Consumer-rights framework, product quality, unfair-trade-practice prohibitions and mobile-court enforcement."
+  - id: ef-eng
+    name: "EF English Proficiency Index — Bangladesh"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    accessedDate: "2026-09-21"
+    note: "English proficiency context; English widely used in business and higher education. Share is a composite estimate."
+  - id: iso-ben
+    name: "ISO 639-3 entry: ben — Bengali"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ben"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code ben."
+  - id: iso-syl
+    name: "ISO 639-3 entry: syl — Sylheti"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/syl"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code syl."
+  - id: iso-ccp
+    name: "ISO 639-3 entry: ccp — Chakma"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ccp"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code ccp."

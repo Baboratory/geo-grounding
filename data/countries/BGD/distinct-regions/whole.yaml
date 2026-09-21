@@ -1,0 +1,125 @@
+code: WHOLE
+name:
+  eng: Bangladesh
+  local:
+    - languageCode: ben
+      value: বাংলাদেশ
+# Generic country-wide fallback content for Bangladesh (unitary-large with a
+# curated subset of divisions). National-level coverage not specific to any one
+# region.
+climates:
+  - koppenCode: Am/Aw
+    description: "A tropical monsoon climate over most of the country, with three marked seasons — a hot, humid summer, a heavy June–October monsoon (wet) season, and a mild, drier winter."
+  - koppenCode: Cwa
+    description: "Humid subtropical climate in the north (Rajshahi region), with cooler winters and a strong summer monsoon influence."
+landmarks:
+  - name: Sundarbans Mangrove Forest
+    description: "The world's largest mangrove forest, a UNESCO World Heritage Site straddling the southwest delta and home to the Bengal tiger."
+  - name: Historic Mosque City of Bagerhat
+    description: "A 15th-century mosque city in the southwest, a UNESCO World Heritage Site."
+  - name: Ruins of the Buddhist Vihara at Paharpur
+    description: "An 8th-century Buddhist monastery complex in the northwest, a UNESCO World Heritage Site."
+  - name: Cox's Bazar Beach
+    description: "One of the world's longest natural sea beaches, along the southeast coast."
+  - name: Lalbagh Fort (Dhaka)
+    description: "A 17th-century Mughal fortress complex in the heart of Dhaka."
+  - name: Somapura Mahavihara and the Madhabkunda waterfall
+    description: "Additional archaeological and natural landmarks across the country."
+culturalTraits:
+  - "A proud, deeply Bengali Muslim-majority nation built on the 1952 Language Movement and 1971 independence war"
+  - "A warm, hospitable and community-oriented people with a strong tea ('chaa') and street-food culture"
+  - "Famous globally for rice-and-fish cuisine, textiles (jamdani saris), and the garment industry"
+  - "A resilient, fast-modernizing economy in the world's largest river delta"
+prideOf:
+  - "Its hard-won independence and the legacy of the Bengali Language Movement"
+  - "A billion-dollar ready-made-garment (RMG) industry and rapid economic growth"
+  - "Rich literary and cultural heritage — Rabindranath Tagore and Kazi Nazrul Islam"
+  - "Iconic travel destinations from Cox's Bazar to the Sundarbans"
+animals:
+  popular:
+    - "Bengal tiger (Sundarbans)"
+    - "Ganges river dolphin and Irrawaddy dolphin"
+    - "Rhesus macaque"
+  unique:
+    - "Bengal tiger (Panthera tigris tigris) — the Sundarbans' apex predator"
+    - "Ganges river dolphin (Platanista gangetica)"
+    - "Hoolock gibbon in the northeast's forests"
+industries:
+  - "Ready-made garments (RMG) and textiles — Bangladesh is the world's second-largest garment exporter"
+  - "Agriculture (rice, jute, tea, fisheries and shrimp farming)"
+  - "Pharmaceuticals, ceramics and leather goods"
+  - "Remittances and a fast-growing digital/fintech sector (bKash, Nagad)"
+sports:
+  - "Cricket — the national passion and most popular sport"
+  - "Football (association football, hugely followed)"
+  - "Kabaddi (the national sport)"
+  - "Hockey"
+religions:
+  - name: Islam (Sunni)
+    percent: 91.0
+    sourceId: irf-bd
+  - name: Hinduism
+    percent: 7.9
+    sourceId: irf-bd
+  - name: Buddhism
+    percent: 0.6
+    sourceId: irf-bd
+  - name: Christianity and other
+    percent: 0.5
+    sourceId: irf-bd
+entertainment:
+  - season: allYear
+    items:
+      - "Street-food culture — fuchka (pani puri), jhalmuri, and egg chotpoti at every corner"
+      - "Cricket matches and a vibrant sports-watching culture"
+      - "Bengali cinema ('Dhallywood') and TV serials"
+      - "Religious and national festivals — Eid, Pohela Boishakh (Bengali New Year), Durga Puja"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Hilsa (ilish) fish curry — the national culinary emblem"
+      - "Rice with bhuna (spiced) curries, dal and vegetables"
+      - "Kacchi biryani, panta bhat (fermented rice) with hilsa"
+      - "Sweets such as rasgulla, sandesh and jilapi"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Panjabi (kurta) for men, sarees for women at festivals and ceremonies"
+      - "Salwar kameez as common everyday dress for women"
+      - "Lungi/paijama for men at home; modern Western/business wear in offices"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Government offices generally 09:00-17:00 Sunday-Thursday (Friday-Saturday weekend); many private companies also take Friday-Saturday off and run 09:00/10:00-18:00."
+  lunchBreakTiming: "A lunch break around 14:00 is common (later than in many countries, reflecting late breakfasts and the afternoon work pattern)."
+  notes: "Public holidays follow the Islamic and Bengali calendars (Eid ul-Fitr and Eid ul-Adha, Pohela Boishakh in April, Victory Day 16 December). bKash/Nagad mobile wallets and cash dominate day-to-day payments."
+sources:
+  - id: irf-bd
+    name: "2023 Report on International Religious Freedom — Bangladesh"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/bangladesh/"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "Religious composition: census ~91% Muslim (Sunni), ~8% Hindu, remainder Buddhist/Christian/other. Note: Hindu share is a census-based approximation."
+  - id: unesco-bd
+    name: "Bangladesh — UNESCO World Heritage Convention"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/bd/"
+    accessedDate: "2026-09-21"
+    note: "Confirmed UNESCO World Heritage sites in Bangladesh (Sundarbans, Bagerhat, Paharpur)."
+  - id: bd-tourism
+    name: "Bangladesh Parjatan Corporation — destinations"
+    publisher: "Bangladesh Parjatan Corporation (National Tourism Organization)"
+    url: "https://www.bangladeshtourism.gov.bd/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks and attractions described for WHOLE region."

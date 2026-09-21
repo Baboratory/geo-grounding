@@ -1,0 +1,131 @@
+code: WHOLE
+name:
+  eng: Taiwan
+  local:
+    - languageCode: cmn
+      value: 臺灣
+    - languageCode: nan
+      value: Tâi-oân
+# Generic country-wide fallback content for Taiwan (unitary-large with a
+# curated subset of special municipalities). National-level coverage not
+# specific to any one region.
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate across northern and much of the north-central island, with hot, humid summers and mild, relatively dry winters."
+  - koppenCode: Cwa
+    description: "Humid subtropical / dry-winter monsoon climate in the central west, with a pronounced wet summer (southwest monsoon) and drier winter."
+  - koppenCode: Am
+    description: "Tropical monsoon climate in the far south and on the coastal plains, with heavy rain during the June–September typhoon/wet season."
+landmarks:
+  - name: Taipei 101
+    description: "The landmark skyscraper of Taipei, one of the world's tallest green buildings, with an outdoor observatory and iconic year-end fireworks."
+  - name: National Palace Museum (Taipei)
+    description: "One of the world's richest collections of Chinese art and antiquities, housing treasures from the Qing imperial collection."
+  - name: Alishan National Scenic Area
+    description: "Famous mountain resort with sunrise views, sea-of-clouds, the Alishan Forest Railway and ancient red cypresses."
+  - name: Sun Moon Lake
+    description: "Taiwan's largest lake, a scenic alpine reservoir surrounded by mountain trails, temples and tea gardens."
+  - name: Taroko Gorge (Taroko National Park)
+    description: "A spectacular marble-walled gorge on the east coast carved by the Liwu River; one of Asia's most dramatic natural landscapes."
+  - name: Kenting National Park
+    description: "The subtropical beach-and-reef park at Taiwan's southern tip, home to Eluanbi lighthouse and coral beaches."
+culturalTraits:
+  - "A vibrant democracy that has peacefully transitioned to direct presidential elections and a vibrant civil society"
+  - "A rich food culture — night markets, boba ('bubble') milk tea, beef noodle soup, oyster omelettes and pineapple cakes"
+  - "An ethnically diverse society blending Hoklo, Hakka, Mainlander and 16 officially recognized Austronesian indigenous communities"
+  - "High-tech manufacturing (TSMC and the global semiconductor industry) at the heart of its economy and global identity"
+prideOf:
+  - "Being a world leader in semiconductors and advanced technology manufacturing"
+  - "Its democracy, freedom of expression and flourishing civil society"
+  - "A globally beloved culinary culture and warm, hospitable people"
+  - "Preserving and revitalizing its indigenous (Formosan) languages and cultures"
+animals:
+  popular:
+    - "Formosan black bear (a national symbol)"
+    - "Formosan sambar deer"
+    - "Formosan macaque"
+  unique:
+    - "Formosan black bear (Ursus thibetanus formosanus)"
+    - "Taiwan blue magpie (Urocissa caerulea)"
+    - "Formosan landlocked salmon (endemic high-mountain trout)"
+industries:
+  - "Semiconductors and electronics — Taiwan is the global hub for advanced chip manufacturing (TSMC)"
+  - "Information and communications technology (ICT) hardware and components"
+  - "Machinery, petrochemicals and steel"
+  - "Tourism (national parks, night markets, hot springs) and a growing services sector"
+sports:
+  - "Baseball — the national sport and a beloved pastime"
+  - "Basketball"
+  - "Badminton (world-class players in international competition)"
+  - "Table tennis"
+religions:
+  - name: Buddhism
+    percent: 35.1
+    sourceId: irf-tw
+  - name: Taoism
+    percent: 33.2
+    sourceId: irf-tw
+  - name: Christianity
+    percent: 3.9
+    sourceId: irf-tw
+  - name: Folk religion (including Confucianism and Yiguandao)
+    percent: 18.0
+    sourceId: irf-tw
+  - name: Islam and other / none
+    percent: 9.8
+    sourceId: irf-tw
+entertainment:
+  - season: allYear
+    items:
+      - "Night-market culture — stinky tofu, oyster omelettes, and milk tea at street stalls across every city"
+      - "KTV (karaoke) and cinema, plus a thriving Mandarin pop and TV industry"
+      - "Temple fairs and Mazu pilgrimage festivals with parades and fireworks"
+      - "Hot-spring (onsen-style) resorts in Beitou and Wulai"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Beef noodle soup — a beloved national comfort dish"
+      - "Bubble (boba) milk tea — Taiwan's global beverage export"
+      - "Oyster omelette and stinky tofu (night-market staples)"
+      - "Pineapple cake and sun cakes as iconic pastries"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern Western and business attire for everyday wear"
+      - "Traditional Han and indigenous ceremonial dress (e.g. Amis and Paiwan regalia) at festivals and cultural events"
+      - "Foulard/dress shirts for official occasions"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4]
+  - season: summer
+    months: [5, 6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours are generally 09:00-18:00 Monday to Friday; retail and restaurants open early and can run until late, including weekends."
+  lunchBreakTiming: "A lunch break around 12:00-13:30 is standard; outside lunch and bento culture is common."
+  notes: "Public holidays follow the lunar and Gregorian calendars (Lunar New Year in late January/February, Mid-Autumn Festival). Prices are generally quoted VAT-inclusive, and a ~10% service charge is customary at restaurants and hotels."
+sources:
+  - id: irf-tw
+    name: "2023 Report on International Religious Freedom — Taiwan"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/taiwan/"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "Religious composition of Taiwan (Buddhist ~35%, Taoist ~33%, Christian ~4%, folk religion ~18%)."
+  - id: unesco-tw
+    name: "Taiwan — UNESCO World Heritage tentative list and heritage sites"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/"
+    accessedDate: "2026-09-21"
+    note: "Background on Taiwan's heritage conservation efforts."
+  - id: twn-tourism
+    name: "Tourism Bureau, Republic of China (Taiwan) — national scenic areas"
+    publisher: "Taiwan Tourism Bureau (Ministry of Transportation & Communications)"
+    url: "https://eng.taiwan.net.tw/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks and attractions described for WHOLE region."

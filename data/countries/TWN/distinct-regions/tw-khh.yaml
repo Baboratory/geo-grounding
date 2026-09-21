@@ -1,0 +1,81 @@
+code: TW-KHH
+name:
+  eng: Kaohsiung City
+  local:
+    - languageCode: cmn
+      value: 高雄市
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate in the south, with hot humid summers, a pronounced May–September wet/typhoon season and a mild dry winter."
+landmarks:
+  - name: Lotus Pond (Zuoying)
+    description: "A scenic temple-lined lake famous for the Dragon and Tiger Pagodas and the Spring and Autumn Pavilions."
+  - name: Love River
+    description: "The graceful riverfront promenade that runs through the city center, popular for evening strolls and cruises."
+  - name: Pier-2 Art Center
+    description: "A converted warehouse district turned into a vibrant open-air arts and design space."
+  - name: Fo Guang Shan Buddha Museum
+    description: "The vast Buddhist monastery complex at Dashu, one of Asia's most important Buddhist sites."
+  - name: Liuhe Night Market
+    description: "A lively central night market famous for seafood and local snacks."
+culturalTraits:
+  - "Taiwan's largest port city and industrial powerhouse in the south"
+  - "A warmer, more laid-back southern metropolis with a strong maritime identity"
+  - "A leading hub for cycling (formosa cycleway), creative industries and food"
+prideOf:
+  - "Being Taiwan's premier international port and a manufacturing center"
+  - "Its sunny southern climate and laid-back coastal lifestyle"
+  - "A celebrated festival calendar (local temple, dragon-boat and lantern festivities)"
+animals:
+  popular:
+    - "Formosan rock macaque"
+    - "White egrets (abundant in urban wetlands)"
+  unique:
+    - "Formosan rock macaque — found in the forested hills at the city's edge"
+industries:
+  - "Port and logistics (Kaohsiung is Taiwan's largest container port)"
+  - "Steel, petrochemicals and heavy industry"
+  - "Manufacturing and ship-building"
+  - "Tourism, creative industries and a growing convention sector"
+sports:
+  - "Baseball"
+  - "Basketball"
+  - "Cycling (extensive bike paths along the Love River and coast)"
+entertainment:
+  - season: allYear
+    items:
+      - "Night-market food at Liuhe and Ruifeng"
+      - "Art walks and exhibitions at Pier-2"
+      - "Boating and riverside cafés along the Love River"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Seafood hotpot and grilled shellfish (from the port)"
+      - "Braised pork rice and beef noodle soup"
+      - "Papaya milk and shaved ice (Southern specialties)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light, breathable modern casual wear suited to the subtropical south"
+      - "Traditional Chinese dress during festivals"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4]
+  - season: summer
+    months: [5, 6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours roughly 09:00-18:00 Monday-Friday; port and industrial operations run continuous shifts."
+  lunchBreakTiming: "Lunch around 12:00-13:30 is standard."
+sources:
+  - id: tw-khh-tourism
+    name: "Kaohsiung Travel (city guide)"
+    publisher: "Kaohsiung City Government"
+    url: "https://khh.travel/en"
+    accessedDate: "2026-09-21"
+    note: "Landmarks and cultural description for Kaohsiung."

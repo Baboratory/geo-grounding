@@ -1,0 +1,86 @@
+code: BD-G
+name:
+  eng: Sylhet Division
+  local:
+    - languageCode: ben
+      value: সিলেট বিভাগ
+    - languageCode: syl
+      value: ꠍꠤꠟꠐ (Silôṭ)
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate, among the wettest regions of Bangladesh, with very heavy rainfall and tea-garden mists in the hills."
+landmarks:
+  - name: Srimangal Tea Country
+    description: "The 'tea capital' of Bangladesh, famed for rolling tea gardens, rubber plantations and the 'seven-layer tea' drink."
+  - name: Ratargul Swamp Forest
+    description: "A freshwater swamp forest in Sylhet, best visited by boat through its flooded tree canopy."
+  - name: Jaflong and the Surma river
+    description: "A scenic riverside hill station near the Indian border, famous for stone collection and the view of the Meghalaya hills."
+  - name: Lawachara National Park
+    description: "A rainforest reserve in Moulvibazar, home to hoolock gibbons, birds and walking trails."
+  - name: Shah Jalal Mazar Sharif (Sylhet city)
+    description: "The revered shrine of the Sufi saint Hazrat Shah Jalal, a major pilgrimage site."
+culturalTraits:
+  - "A lush, tea-growing region in the far northeast whose distinctive Sylheti language and diaspora are felt across the UK and globally"
+  - "A strong Sufi, religious and reverent cultural heritage"
+  - "Renowned for its natural beauty — tea gardens, wetlands and rainforests"
+prideOf:
+  - "The worldwide Sylheti diaspora and remittance-led prosperity"
+  - "Iconic natural wonders: Srimangal, Ratargul and the Surma valley"
+  - "A rich Sufi and Islamic spiritual legacy"
+animals:
+  popular:
+    - "Hoolock gibbon"
+    - "Phayre's leaf monkey"
+    - "White-rumped vulture"
+  unique:
+    - "Western hoolock gibbon — found in Lawachara and the remaining hill forests"
+industries:
+  - "Tea production and agro-processing"
+  - "Trade and services sustained by Sylheti diaspora remittances"
+  - "Timber, field-stone collection and quarrying"
+  - "Eco-tourism (Srimangal, Sunamganj wetlands)"
+sports:
+  - "Cricket"
+  - "Football"
+  - "Water sports and boating on the haors (wetlands)"
+entertainment:
+  - season: allYear
+    items:
+      - "Tea-garden tours and 'seven-layer tea' tasting in Srimangal"
+      - "Boat trips through Ratargul swamp forest"
+      - "Sufi urs (anniversary) gatherings and religious festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Seven-layer tea (Srimangal specialty)"
+      - "Tula (fermented rice, shattered) dishes and haor fish"
+      - "Sylheti beef curry and panta bhat"
+      - "Eid-special kacchi biryani and sweets"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Panjabi (kurta) and saree for festivals; salwar kameez everyday for women"
+      - "Warm shawls/blankets in the cooler hill months"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Commercial hours roughly 09:00-18:00 with a Friday-Saturday weekend; tea gardens follow dawn-based work patterns."
+  lunchBreakTiming: "A lunch break around 14:00 is common."
+sources:
+  - id: sylhet-tourism
+    name: "Sylhet Division travel guide"
+    publisher: "Bangladesh Parjatan Corporation"
+    url: "https://www.bangladeshtourism.gov.bd/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, Srimangal, Ratargul and cultural description for Sylhet Division."

@@ -1,0 +1,86 @@
+code: BD-B
+name:
+  eng: Chattogram Division
+  local:
+    - languageCode: ben
+      value: চট্টগ্রাম বিভাগ
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate along the coast and Chittagong Hill Tracts, with very heavy June-September rainfall and hot, humid conditions."
+landmarks:
+  - name: Cox's Bazar Beach
+    description: "One of the world's longest natural sea beaches (over 120 km), along the southeastern coast."
+  - name: Chittagong Hill Tracts (Rangamati, Bandarban, Khagrachhari)
+    description: "A mountainous, ethnically diverse region of indigenous communities, lakes and waterfalls, including the scenic Kaptai Lake."
+  - name: Saint Martin's Island
+    description: "Bangladesh's only coral island, at the far south, ringed by clear water and beaches."
+  - name: Chattogram Port and the Mezban festival tradition
+    description: "Bangladesh's principal seaport and the region's distinctive bull-mutton feast (mezban) tradition."
+  - name: Foy's Lake and the city of Chattogram
+    description: "A scenic lake and hill park in Bangladesh's historic port city."
+culturalTraits:
+  - "Bangladesh's commercial seaport and gateway to the sea, and its most cosmopolitan city region"
+  - "Home to the Chittagong Hill Tracts with its rich indigenous (Chakma, Marma, Tripuri, Mro) cultures"
+  - "A strong maritime, trading and shipbreaking economy"
+prideOf:
+  - "Being Bangladesh's chief seaport and a trading powerhouse"
+  - "Cox's Bazar and the Hill Tracts' stunning natural beauty"
+  - "A resilient, entrepreneurial and welcoming regional identity"
+animals:
+  popular:
+    - "Bengal tiger (Sundarbans-adjacent coastal area / historically)"
+    - "Asian elephant (Hill Tracts)"
+    - "Irrawaddy dolphin"
+  unique:
+    - "Hoolock gibbon — found in the forests of the Hill Tracts"
+    - "Ganges and Irrawaddy dolphins in coastal and river waters"
+industries:
+  - "Port, shipping and shipbreaking (Chattogram is a global ship-recycling hub)"
+  - "Export-processing zones and manufacturing"
+  - "Fisheries and tourism (Cox's Bazar, Saint Martin's Island)"
+  - "Hill-Tracts agriculture and indigenous handicrafts"
+sports:
+  - "Cricket"
+  - "Football"
+  - "Boat racing (traditional regattas)"
+entertainment:
+  - season: allYear
+    items:
+      - "Beach holidays and water sports at Cox's Bazar"
+      - "Tribal and Marma cultural festivals in the Hill Tracts"
+      - "The mezban (communal feast) tradition"
+      - "Boat trips on Kaptai Lake"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Mezban beef and mutton curry — the region's signature communal dish"
+      - "Hilsa and coastal seafood"
+      - "Kalabhuna (roasted beef) and puff rice snacks"
+      - "Bamboo-shoot and fermented dishes in the Hill Tracts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Panjabi and saree for festivals, salwar kameez as everyday women's dress"
+      - "Traditional weaving and ornament of indigenous communities in the Hill Tracts"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Port and industrial operations run through the week; commercial offices roughly 09:00-18:00 with a Friday-Saturday weekend."
+  lunchBreakTiming: "A lunch break around 14:00 is common."
+sources:
+  - id: chattogram-tourism
+    name: "Chattogram Division travel guide"
+    publisher: "Bangladesh Parjatan Corporation"
+    url: "https://www.bangladeshtourism.gov.bd/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, Cox's Bazar, Hill Tracts and cultural description for Chattogram Division."

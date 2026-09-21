@@ -1,0 +1,204 @@
+alpha3: TWN
+alpha2: TW
+name:
+  eng: Taiwan
+  local:
+    - languageCode: cmn
+      value: 臺灣 (Taiwan)
+flagEmoji: "🇹🇼"
+capital: Taipei
+isSovereign: true
+# Classified unitary-large: Taiwan's population (~23.3M, mid-2023) is around the
+# 20-25M small-state threshold and trending toward a large-state profile via its
+# deep democracy and federal-like administrative devolution, and it has genuine,
+# officially-recognized regional/minority languages and cultural identities —
+# Taiwanese Hokkien (Min Nan), Hakka and the Formosan (Austronesian) languages
+# are all recognized by the National Languages Development Act of 2019 alongside
+# Mandarin, and the six special municipalities form distinct cultural-economic
+# regions. Curated regions map to real ISO 3166-2 special municipalities:
+# Taipei (TW-TPE), New Taipei (TW-NWT), Taichung (TW-TXG), Tainan (TW-TNN) and
+# Kaohsiung (TW-KHH), plus the generic WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: TW
+hasSubdivisions: true
+languageUsage:
+  # Mandarin is the de facto standard and preeminent national language, spoken
+  # and understood by a large majority of the population (L1 ~14M, L2 ~6.6M).
+  # The official-domain flag is set to 1.0 as a legal/status marker for the
+  # principal national language, per the National Languages Development Act.
+  - languageCode: cmn
+    domain: official
+    speakersShare: 1.0
+    sourceId: nlda-2019
+  - languageCode: cmn
+    domain: locallySpoken
+    speakersShare: 0.87
+    sourceId: wfb-twn
+  # Taiwanese Hokkien (Min Nan, ISO 639-3 nan) — the traditional vernacular of
+  # the Hoklo majority (~70% of the population by ethnic heritage).
+  - languageCode: nan
+    domain: locallySpoken
+    speakersShare: 0.65
+    sourceId: wfb-twn
+  # Hakka Chinese — spoken by the Hakka community (~14% ethnic heritage).
+  - languageCode: hak
+    domain: locallySpoken
+    speakersShare: 0.12
+    sourceId: wfb-twn
+  # Amis — the largest of the 16 recognized Formosan (Austronesian) indigenous
+  # languages; indigenous peoples together are ~2.5% of the population.
+  - languageCode: ami
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: wfb-twn
+  # English is the principal foreign language, used in business, tech and higher
+  # education (proficiency is concentrated in younger, urban populations).
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.30
+    sourceId: ef-eng
+ethnicGroups:
+  - group: Han Chinese — Hoklo (Holo, Taiwanese Hokkien heritage)
+    percent: 70.0
+    sourceId: wfb-twn
+  - group: Han Chinese — Hakka
+    percent: 14.0
+    sourceId: wfb-twn
+  - group: Han Chinese — other Mainlander-origin ('Waishengren')
+    percent: 14.0
+    sourceId: wfb-twn
+  - group: Indigenous (Malayo-Polynesian / Formosan peoples)
+    percent: 2.3
+    sourceId: wfb-twn
+timezones:
+  - name: Asia/Taipei
+    standardUtcOffset: "UTC+8"
+    observesDst: false
+currency:
+  code: TWD
+  symbol: "NT$"
+  name: New Taiwan dollar
+legalConstraints:
+  - topic: "official / national languages"
+    description: "The National Languages Development Act (2019) designates Mandarin, Taiwanese Hokkien, Hakka and the Formosan languages as national languages and mandates government support for their development and use; Mandarin is the de facto standard in government, education and media. No single language is designated 'official' by statute; the national-language framework is status-based."
+    sourceId: nlda-2019
+  - topic: "data protection"
+    description: "The Personal Data Protection Act (PDPA) governs collection, processing and international transfer of personal data. It grants data-subject rights (access, correction, deletion), requires notice and consent for most processing, imposes extraterritorial reach over entities processing Taiwanese residents' data, and empowers administrative fines and the ability to halt collection/processing on violation. Amended most recently in 2025."
+    sourceId: pdpa-tw
+  - topic: "value added tax (VAT) price display"
+    description: "VAT (business tax) under the Value-added and Non-value-added Business Tax Act is 5% standard. Retail prices of goods and services are customarily displayed and quoted inclusive of VAT; vendors issue government-controlled uniform invoices (whether paper or electronic) as proof of sale and for VAT input-credit and lottery purposes."
+    sourceId: bta-tw
+  - topic: "consumer protection"
+    description: "The Consumer Protection Act (Taiwan) governs unfair trade practices, product safety and liability, and provides for consumer dispute-resolution via the Consumer Protection Committee and a 90-day 'cooling-off' period for door-to-door or distance (mail/online) sales of consumer goods."
+    sourceId: cpa-tw
+paymentCulture:
+  popularMethods:
+    - "Cash — still the most common everyday payment for small purchases and street vendors"
+    - "LINE Pay — the dominant mobile/QR wallet, widely accepted at shops, markets and restaurants"
+    - "Bank cards (Visa/Mastercard/JCB) — common in malls, hotels and online; chip-and-signature remains more common than contactless at many merchants"
+    - "EasyCard / iPASS — stored-value transit and convenience-store payment cards (also used at shops and eateries)"
+    - "ATM card / mobile banking app transfers (e.g. the FISC interbank 'green tunnel') for peer-to-peer money moves"
+    - "'Taiwan Pay' and other QR-code payment rails promoted by the Financial Supervisory Commission"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected. A service charge (usually 10%) is customary in restaurants, hotels and taxis; an optional small gratuity for hotel porters or tour guides is appreciated."
+    autoIncludedInBill: true
+    note: "Service charge of ~10% is commonly added to restaurant and hotel bills (autoIncludedInBill=true). At convenience stores and most retail, prices are inclusive of 5% VAT."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite and courteous, though more direct than in Japan or Korea. Titles (Mr./Ms. plus surname) are used in business; first-name basis develops after familiarity. Traditional Chinese is the written script, and age/position hierarchy is generally respected."
+  greetingNorms: "A handshake is standard for business; a slight bow accompanies it. 'Nǐ hǎo' (你好) greeting. Smiling is expected, and maintaining pleasant, harmonious tone ('hěkāi' hospitality) matters more than blunt directness."
+  meetingEtiquette: "Punctuality is valued. Meetings often open with the exchange of name cards (held with both hands). Decision-making can be consultative and seniority-deliberative; harmony and saving face ('miànzi') inform how disagreement is expressed — usually indirectly."
+  topicsToAvoid:
+    - "Cross-strait political status and the China-Taiwan relationship"
+    - "Domestic political-partisan disputes in polarized ways"
+    - "Sensitive economic comparisons with mainland China"
+  giftGivingNotes: "Gifts are appreciated and gifts are often politely declined before being accepted. Avoid giving clocks or umbrellas (associated with parting/bad luck in Chinese custom); give and receive with both hands."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: TW-TPE
+    file: distinct-regions/tw-tpe.yaml
+    adminUnitCodes: [TW-TPE]
+  - code: TW-NWT
+    file: distinct-regions/tw-nwt.yaml
+    adminUnitCodes: [TW-NWT]
+  - code: TW-TXG
+    file: distinct-regions/tw-txg.yaml
+    adminUnitCodes: [TW-TXG]
+  - code: TW-TNN
+    file: distinct-regions/tw-tnn.yaml
+    adminUnitCodes: [TW-TNN]
+  - code: TW-KHH
+    file: distinct-regions/tw-khh.yaml
+    adminUnitCodes: [TW-KHH]
+sources:
+  - id: nlda-2019
+    name: "National Languages Development Act (2019)"
+    publisher: "The Legislative Yuan, Republic of China (Taiwan)"
+    url: "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=H0170143"
+    year: 2019
+    accessedDate: "2026-09-21"
+    note: "Designates Mandarin, Hokkien, Hakka and the Formosan languages as national languages of Taiwan; the basis for official-domain flag on cmn and recognition of nan/hak/ami."
+  - id: wfb-twn
+    name: "CIA World Factbook — Taiwan (languages, ethnic groups, population)"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/taiwan/"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Language and ethnic shares: Han Chinese (Hoklo ~70%, Hakka ~14%, other ~14%) >95%, indigenous ~2.3%; Mandarin official, Hokkien/Hakka/16 indigenous languages. Shares are composite estimates informed by census and linguistic surveys."
+  - id: pdpa-tw
+    name: "Personal Data Protection Act (Taiwan), as amended 2025"
+    publisher: "DLA Piper (law-firm data-protection law tracker; not the Legislative Yuan directly)"
+    url: "https://www.dlapiperdataprotection.com/index.html?t=law&c=TW"
+    year: 2025
+    accessedDate: "2026-09-21"
+    note: "Taiwan's consolidated data-protection law; 2025 amendments strengthen penalties and cross-border transfer rules."
+  - id: bta-tw
+    name: "Value-added and Non-value-added Business Tax Act (Tax Rate 5%)"
+    publisher: "Ministry of Finance, Republic of China (Taiwan)"
+    url: "https://investtaiwan.nat.gov.tw/showPage?lang=eng&search=60"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Standard VAT/business-tax rate is 5%; uniform-invoice system for VAT-inclusive retail pricing."
+  - id: cpa-tw
+    name: "Consumer Protection Act (Taiwan)"
+    publisher: "The Legislative Yuan, Republic of China (Taiwan)"
+    url: "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=J0140001"
+    year: 2015
+    accessedDate: "2026-09-21"
+    note: "Consumer-rights framework, product liability and the cooling-off period for distance sales."
+  - id: ef-eng
+    name: "EF English Proficiency Index — Taiwan"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    accessedDate: "2026-09-21"
+    note: "English proficiency context in Taiwan; share is a composite estimate."
+  - id: iso-cmn
+    name: "ISO 639-3 entry: cmn — Mandarin Chinese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/cmn"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code cmn."
+  - id: iso-nan
+    name: "ISO 639-3 entry: nan — Min Nan Chinese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/nan"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code nan (Taiwanese Hokkien)."
+  - id: iso-hak
+    name: "ISO 639-3 entry: hak — Hakka Chinese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/hak"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code hak."
+  - id: iso-ami
+    name: "ISO 639-3 entry: ami — Amis"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ami"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code ami (largest Formosan language)."
