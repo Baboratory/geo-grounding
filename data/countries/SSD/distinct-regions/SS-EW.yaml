@@ -1,0 +1,99 @@
+code: SS-EW
+name:
+  eng: Western Equatoria
+  local:
+    - languageCode: eng
+      value: Western Equatoria
+# 'Western Equatoria' has no established native-language toponym — the Azande
+# majority uses the English (official) administrative name; local name given in
+# English.
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate; the wettest part of South Sudan — abundant rainfall (~1,500 mm/yr), a long rainy season roughly April to November, and heaviest rains around August."
+landmarks:
+  - name: Yambio
+    description: "The state capital and the hub of the Azande people — a regional trade, administration and humanitarian hub in the 'green belt'."
+  - name: Nzara and Tambura
+    description: "Agricultural and forest towns of the Azande homeland bordering DRC and the Central African Republic."
+  - name: "Tropical woodlands of the 'green belt'"
+    description: "Dense woodland, teak plantations, mango orchards and forested rivers, with waterfalls and bird-rich habitat in the border countryside."
+culturalTraits:
+  - "Heartland of the Azande people — the largest Ubangian (Niger-Congo) group of South Sudan"
+  - "Sedentary farming culture rather than pastoralism — coffee, cassava, maize, mangoes, pineapples and timber"
+  - "Dense forest/savanna 'green belt' environment distinct from the pastoralist north and east"
+prideOf:
+  - "The Azande agricultural and cultural heritage"
+  - "Being South Sudan's 'breadbasket' / green belt with fertile soils and abundant rain"
+  - "Hardwood forest and coffee history (Nzara was a colonial coffee centre)"
+animals:
+  popular:
+    - "Forest birds (many species)"
+    - "Antelope and small mammals of the woodland savanna"
+    - "Monkeys"
+  unique:
+    - "Mahogany and other tropical hardwoods (a climate-biodiversity asset of the region)"
+industries:
+  - "Agriculture — coffee, cassava, maize, groundnuts, sesame, pineapples"
+  - "Timber / hardwood production (teak, mahogany)"
+  - "Honey production"
+  - "Small-scale trade across the DRC and CAR borders"
+sports:
+  - "Football"
+  - "Traditional Azande music and dance"
+# religions intentionally omitted: no authoritative state-level religious
+# breakdown was found; the national CIA figures (Christian ~60.5%, traditional
+# ~32.9%, Muslim ~6.2%) apply broadly, with Christianity especially strong in
+# mission-served Western Equatoria — see SSD WHOLE fallback.
+entertainment:
+  - season: allYear
+    items:
+      - "Azande song, dance and storytelling traditions"
+      - "Community farming festivals and markets"
+  - season: dry
+    items:
+      - "Best travel/visiting time (Nov-Apr) when roads dry out; harvest and market activity peaks"
+  - season: wet
+    items:
+      - "Rainy-season indoor and village celebrations (May-Oct); planting-season community work parties"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Cassava-based dishes (fufu/ugali-style)"
+      - "Maize porridge with groundnut and vegetable stews"
+      - "Mangoes and pineapples in season"
+      - "Forest-honey and honey-sweetened dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colorful printed cotton cloth wraps for women"
+      - "Western dress in towns (Yambio)"
+      - "Beaded and woven adornment at Azande ceremonies"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Markets and small farms run daylight hours; government offices roughly 08:00-16:00 Mon-Fri."
+  lunchBreakTiming: "Midday."
+  notableShutdownPeriods:
+    - period: "Wet season (approx. April-November)"
+      description: "Clay-heavy soils make rural roads extremely difficult; produce movement and market access slow sharply."
+  notes: "A farming region whose economic pulse follows the rains; the green belt yields cash crops but transport out of the area is poor, especially in the wet season."
+sources:
+  - id: wew-yambio
+    name: "Western Equatoria / Yambio travel and state background"
+    publisher: "FindTourGuide / aggregate state profiles"
+    url: "https://findtourguide.com/destinations/south%20sudan/yambio-3291"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "State-level background on the Azande hub of Yambio: 'green belt' agricultural economy (coffee, timber, honey, pineapples), tropical wet climate with rainy season ~April-November."
+  - id: wew-crop
+    name: "Equatoria green belt and development outlook"
+    publisher: "United Nations Environment Programme / aggregate regional studies"
+    url: "https://www.britannica.com/place/South-Sudan"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Corroborates the fertile green-belt character of Western Equatoria and its contrast with the pastoralist north and east; supports culturalTraits and industries entries."

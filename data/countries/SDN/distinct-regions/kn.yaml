@@ -1,0 +1,84 @@
+code: SD-KN
+name:
+  eng: Kordofan (Central Sudan)
+  local:
+    - languageCode: ara
+      value: كردفان
+    - languageCode: eng
+      value: Kordofan
+# Kordofan — the central-southern region of Sudan (adminUnitCodes spans North,
+# South and West Kordofan states). A largely undulating savanna plain crossed
+# by the Nuba Mountains in the southeast, Kordofan is the historic heart of
+# the world gum arabic trade and of the Arab pastoralist (Baggara, Kababish)
+# herding economy, alongside a rich mix of non-Arab peoples, most notably the
+# Nuba of the mountains. On the front line of the war since April 2023, with
+# prolonged conflict in South Kordofan and the Nuba Mountains. Region-specific
+# religion shares are not published, so religion statistics are listed only at
+# the national level (see the WHOLE file).
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid savanna over most of the region — fertile in the June-September rains, near-desert in the dry season."
+landmarks:
+  - name: Nuba Mountains (Jebel al-Nuba)
+    description: "The granite massifs of south-eastern Kordofan — a culturally diverse highland area and homeland of the Nuba peoples, with terraced hilltop farming."
+  - name: El Obeid
+    description: "Kordofan's historic chief town and capital of North Kordofan, and a historic caravan and gum-trade centre."
+  - name: Jebel al-Dair National Park
+    description: "A mountain-ringed national park (North Kordofan) sheltering dry-savanna wildlife including rock hyrax, greater kudu and baboon."
+culturalTraits:
+  - "Home of the great Sudanese pastoralist Arabs — the Baggara cattle-herders and the camel-raising Kababish to the north"
+  - "A rich patchwork of Arab, Nubian, Nuba, Daju, Beja and Funj communities"
+  - "The global gum-arabic 'gum belt' economy, centred on acacia (hashab) trees"
+  - "Deep Sufi and popular Islamic tradition in the region's towns and tribal communities"
+prideOf:
+  - "Being the world capital of gum arabic — a resin that supplies soft drinks, medicines and cosmetics worldwide"
+  - "A proud camel- and cattle-herding heritage"
+  - "The cultural resilience of the Nuba peoples of the mountains"
+animals:
+  popular:
+    - "Camels of the Kababish herders"
+    - "Baggara cattle"
+    - "Barbary sheep and hyrax in the Jebel al-Dair massif"
+  unique:
+    - "Greater kudu and the mountain fauna of the Nuba Mountains and Jebel al-Dair"
+industries:
+  - "Gum arabic — Sudan is the world's leading producer and Kordofan (with Darfur) forms the core of the gum belt"
+  - "Groundnuts, cotton, sorghum and millet farming"
+  - "Cattle and camel herding and livestock trade"
+  - "Small-scale gold mining in the south-western margins"
+sports:
+  - "Football"
+  - "Camel racing among the pastoralist tribes"
+  - "Traditional wrestling and athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Gum-belt market days and El Obeid's historic trading life"
+      - "Drumming and dance of the Nuba and Baggara communities at festivals"
+      - "Football in the regional towns"
+  - season: wet
+    items:
+      - "The June-September planting/sowing season, when pastoralists and farmers synchronise with rain"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kisra and assida with meat stews (mulah)"
+      - "Milk, ghee and soured-milk (rob) products of the herding economy"
+      - "Groundnut-based sauces and roasted nuts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The men's jallabiya and turban; the women's thobe"
+      - "Baggara/Kababish pastoralist dress suited to camel- and cattle-riding"
+seasonCalendar:
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Sunday-Thursday week following the pastoral and agricultural calendar; regional markets rotate by day."
+  lunchBreakTiming: "Midday."
+  notes: "South Kordofan and the Nuba Mountains have suffered long-running conflict since 2011, and the whole region has been a major battleground of the war since 2023, severely disrupting gum arabic exports, markets and travel."

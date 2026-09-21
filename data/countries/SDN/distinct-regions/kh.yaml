@@ -1,0 +1,97 @@
+code: SD-KH
+name:
+  eng: Khartoum and the Central Nile Valley
+  local:
+    - languageCode: ara
+      value: الخرطوم ووادي النيل
+    - languageCode: eng
+      value: Khartoum and the Central Nile Valley
+# The historic and political core of Sudan along the Nile — Khartoum,
+# Omdurman, Bahri and the surrounding Nile-valley states (adminUnitCodes spans
+# Khartoum, River Nile, Gezira, White Nile, Blue Nile, Sennar and Northern).
+# This is the country's administrative, industrial and cultural heartland and
+# the seat of the capital. Much of this belt has been devastated by the war
+# that began in April 2023, but the region's underlying character is described
+# separately from the conflict, which is documented at country level.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate — extremely hot and dry summers (often 40°C+), mild winters, with almost all of the scant rain falling in a short July-September window."
+  - koppenCode: BSh
+    description: "Hot semi-arid in the more southerly Gezira and White/Blue Nile areas, where the June-September rains support irrigated and rain-fed agriculture."
+landmarks:
+  - name: Al-Mogran (confluence of the Blue and White Nile)
+    description: "The point in Khartoum where the two Niles meet — the symbolic heart of the country."
+  - name: National Museum of Sudan
+    description: "Houses the relocated Temple of Buhen and key finds of the Kushite and Meroitic periods."
+  - name: Pyramids of Meroë / Island of Meroe
+    unescoWorldHeritage: true
+    description: "The great Meroitic pyramid field along the Nile (UNESCO World Heritage Site)."
+  - name: Gebel Barkal and the Sites of the Napatan Region
+    unescoWorldHeritage: true
+    description: "The sacred mountain of the Kingdom of Kush and its temples and pyramids (UNESCO World Heritage Site)."
+  - name: Omdurman souq
+    description: "One of Sudan's largest and most storied traditional markets, opposite Khartoum across the White Nile."
+culturalTraits:
+  - "Nile-valley 'sedentary' culture: settled riverine farming, river transport and an ancient Nubian and Kushite heritage"
+  - "Khartoum's cosmopolitan mix of communities from across Sudan's regions"
+  - "The Gezira Scheme's irrigated cotton/sorghum agriculture shaped the central-belt economy"
+  - "Sufi centres and Islamic learning along the river towns"
+prideOf:
+  - "The capital's historic role as an African and Arab crossroads (the 'Merowe of the north')"
+  - "The pyramids and palaces of the ancient Nubian and Kushite kingdoms"
+  - "The well-watered Nile heartland that feeds the country"
+  - "The 2019 revolution that began in Khartoum's sit-ins"
+animals:
+  popular:
+    - "Nile crocodiles and hippos along the river"
+    - "Migratory waterbirds and storks in the Gezira wetlands"
+    - "Camels and cattle in the pastoral fringe"
+  unique:
+    - "Relict populations of larger savanna mammals in remnant wetlands (e.g. Dinder-like ecosystems on the eastern edge of Blue Nile)"
+industries:
+  - "Government and public administration in Khartoum"
+  - "Petroleum refining and oil infrastructure (e.g. the Khartoum refinery)"
+  - "Irrigated agriculture — the Gezira Scheme (cotton, sorghum, wheat) in Gezira/Blue and White Nile states"
+  - "Gozoush industries, food processing and the Omdurman market trade"
+  - "Gold mining in the riverine and eastern-belt margins"
+sports:
+  - "Football — home to Sudan's biggest clubs (e.g. Al-Hilal and Al-Merrikh of Omdurman)"
+  - "Basketball and volleyball"
+  - "Camel racing in the desert fringes and horse racing"
+entertainment:
+  - season: allYear
+    items:
+      - "Khartoum's live-music scene (Sudanese 'haqiba' and modern popular music) in cultural venues"
+      - "Nile-front evening walks, tea/coffee culture and the Omdurman souq"
+      - "Football derbies between the big Omdurman clubs"
+      - "Museums and the confluence park"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ful medames and balila for breakfast"
+      - "Tagalia and molokhia stews with kisra bread"
+      - "Grilled Nile fish (samak) and assida"
+      - "Karkadeh (hibiscus) and ginger drinks"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The white thobe for women and the jallabiya for men"
+      - "The kufiya cap and turbans for men"
+      - "Western 'busy' wear combined with traditional robes in the capital"
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Sunday-Thursday, roughly 08:00-16:00 in the public sector; private offices often run 09:00-17:00. Heavy disruption in Khartoum since April 2023."
+  lunchBreakTiming: "Midday-early afternoon; a common siesta in the heat."
+  notes: "Khartoum once concentrated most government and banking services; since April 2023 much of it has been fought over and many institutions have relocated to Port Sudan."
+  sourceIds:
+    - un-conflict
+sources:
+  - id: un-conflict
+    name: "UN News — Sudan Conflict (focus page)"
+    publisher: "United Nations News"
+    url: "https://news.un.org/en/focus/sudan-conflict"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Documents the April 2023 war that devastated Khartoum and the Nile valley and forced the shift of government functions to Port Sudan."

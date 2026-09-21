@@ -1,0 +1,94 @@
+code: SD-DN
+name:
+  eng: Darfur (Western Sudan)
+  local:
+    - languageCode: ara
+      value: دارفور
+    - languageCode: fvr
+      value: Darfur
+# Darfur — the westernmost region of Sudan (adminUnitCodes spans the five
+# Darfur states: North, South, West, East and Central Darfur). 'Dar Fur'
+# literally means 'realm of the Fur'. The region was an independent sultanate
+# for centuries before joining Sudan, and is home to dozens of ethnic groups —
+# the Fur after whom it is named, the Zaghawa, Masalit and many others, plus a
+# large Arab population. Darfur has suffered devastating conflict since 2003
+# and again in the current war (since 2023). Region-specific religion shares
+# are not published, so religion statistics are given only at national level.
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid savanna across most of Darfur — a short, unreliable wet season (roughly June-September) alternating with a long, hot dry season."
+  - koppenCode: BWh
+    description: "Hot desert in the far north, where desert sands push southwards over the goz plains."
+  - koppenCode: Cwb
+    description: "Temperate highland microclimate on the volcanic Marrah Mountains (Jebel Marra) — cooler, wetter and with permanent springs at high altitude."
+landmarks:
+  - name: Jebel Marra (Marrah Mountains)
+    description: "A volcanic massif rising to ~3,042 m with the Deriba crater lake and permanent springs — Darfur's best-watered and highest ground, and a refuge during conflicts."
+  - name: El Fasher and Nyala
+    description: "The region's historic capital (El Fasher) and largest city (Nyala), long centres of the trans-Saharan caravan and livestock trade."
+  - name: Darfur's traditional sultanate heritage
+    description: "Ruins and sites of the Darfur Sultanate, which held sway over western Sudan for centuries."
+culturalTraits:
+  - "A mosaic of ethnic groups: the Fur (the largest), Zaghawa, Masalit, Tunjur, Berti and others, alongside a substantial Arab (Baggara cattle-herding and Abbala camel-herding) population"
+  - "Strong pastoralist and camel/cattle-herding culture, with a deep tradition of camel racing"
+  - "Darfuri music, noted for a distinctive drumming and dance tradition carried into the wider Sudanese scene"
+  - "Sufi Islamic practice (much of it Tijaniyya) among most communities"
+prideOf:
+  - "The region's long independence as the Darfur Sultanate and its distinct heritage"
+  - "The resilience of Darfuri communities through successive wars and the 2003 crisis"
+  - "Champion camel-breeding and racing traditions"
+animals:
+  popular:
+    - "Camels (Darfur's mehari camel-racing tradition)"
+    - "Cattle of the Baggara herders"
+    - "Gazelles and desert antelope on the goz plains"
+  unique:
+    - "Mountain wildlife of the Marrah highlands (including Barbary sheep and leopards on the slopes)"
+    - "Doros gazelle in the northern arid margins"
+industries:
+  - "Camel and cattle herding — among the great pastoral economies of the Sahel"
+  - "Subsistence millet and sorghum farming and gum arabic (the gum belt crosses southern Darfur)"
+  - "Camel racing tourism and livestock trade toward Egypt and the Gulf"
+  - "Artisanal gold prospecting in the wadis"
+sports:
+  - "Camel racing — a defining local sport"
+  - "Football"
+  - "Traditional wrestling"
+entertainment:
+  - season: allYear
+    items:
+      - "Darfuri drumming and dance at weddings and festivals"
+      - "Camel-racing meets of the pastoralist communities"
+      - "Weekly markets and tea-house culture in the towns"
+  - season: dry
+    items:
+      - "Peak camel-racing and commercial livestock gathering season (the long dry months when herders move)"
+  - season: wet
+    items:
+      - "Planting-season village festivals and communal work gatherings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Millet- and sorghum-based kisra and assida with dried-meat stews"
+      - "Marissa (sorghum beer) as a social staple among some communities"
+      - "Milk and ghee from the herding economy; roasted camel meat on feast days"
+  - season: wet
+    items:
+      - "Fresh pulses, okra and wild greens of the short rainy-season gardens"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The loose men's jallabiya and turban, and the women's thobe"
+      - "Pastoralist dress adapted for camel-riding and the desert"
+seasonCalendar:
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Tends to follow the pastoral and agricultural rhythm; large weekly markets rotate among towns, and Friday-Saturday is the general weekend."
+  lunchBreakTiming: "Midday, lengthening in the hot season."
+  notes: "Darfur has been convulsed by conflict since 2003 and again since 2023 (much of the region is controlled by the Rapid Support Forces), making markets, livestock trade and travel highly disrupted and often unsafe."
