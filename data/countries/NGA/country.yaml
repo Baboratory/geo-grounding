@@ -1,0 +1,217 @@
+alpha3: NGA
+alpha2: "NG"
+name:
+  eng: Nigeria
+  local:
+    - languageCode: eng
+      value: Nigeria
+    - languageCode: hau
+      value: Najeriya
+    - languageCode: yor
+      value: "Nàìjíríà"
+    - languageCode: ibo
+      value: Naijiria
+flagEmoji: "\U0001F1F3\U0001F1EC"
+capital: Abuja
+isSovereign: true
+governanceType: federal
+iso3166_2_prefix: "NG"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: nga-const1999-sec55
+  - languageCode: hau
+    domain: locallySpoken
+    speakersShare: 0.25
+    sourceId: eth-hau
+  - languageCode: yor
+    domain: locallySpoken
+    speakersShare: 0.21
+    sourceId: eth-yor
+  - languageCode: ibo
+    domain: locallySpoken
+    speakersShare: 0.18
+    sourceId: eth-ibo
+  - languageCode: fuh
+    domain: locallySpoken
+    speakersShare: 0.08
+    sourceId: eth-fuh
+  - languageCode: kau
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: eth-kau
+  - languageCode: ijc
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: eth-ijc
+  - languageCode: tiv
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: eth-tiv
+ethnicGroups:
+  - group: Hausa
+    percent: 25.0
+    sourceId: cia-factbook-2023
+  - group: Yoruba
+    percent: 21.0
+    sourceId: cia-factbook-2023
+  - group: Igbo
+    percent: 18.0
+    sourceId: cia-factbook-2023
+  - group: Fulani
+    percent: 8.0
+    sourceId: cia-factbook-2023
+  - group: Tiv
+    percent: 5.0
+    sourceId: cia-factbook-2023
+  - group: Kanuri
+    percent: 4.0
+    sourceId: cia-factbook-2023
+  - group: Izon (Ijaw)
+    percent: 3.0
+    sourceId: cia-factbook-2023
+  - group: other ethnic groups (over 250 groups)
+    percent: 16.0
+    sourceId: cia-factbook-2023
+timezones:
+  - name: Africa/Lagos
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+currency:
+  code: NGN
+  symbol: "\u20A6"
+  name: Nigerian naira
+legalConstraints:
+  - topic: "Official language & languages of the National Assembly"
+    description: "Under Section 55 of the 1999 Constitution, the business of the National Assembly is conducted in English, and in Hausa, Igbo and Yoruba when adequate arrangements have been made for interpretation. English functions as the de facto national language of government, law, education and business, while English, Hausa, Igbo and Yoruba serve as the principal languages for legislative and public purposes."
+    sourceId: nga-const1999-sec55
+  - topic: "Freedom of religion & secular federal structure"
+    description: "Section 38 of the 1999 Constitution guarantees every person freedom to adopt, practise and propagate any religion, and forbids discrimination on religious grounds. Nigeria is a multi-faith federation of roughly half Muslim and half Christian; twelve northern states have incorporated elements of sharia into their personal-status and penal legislation (beginning with Zamfara in 2000), while federal criminal and commercial law remains statutory."
+    sourceId: nga-const1999-sec38
+  - topic: "Data protection (NDPR)"
+    description: "The Nigeria Data Protection Regulation 2019, issued by NITDA under the NITDA Act, establishes a data-protection regime for personal data collected, processed or stored in Nigeria, requiring lawful bases for processing and breach-notification duties."
+    sourceId: nitda-ndpr2019
+  - topic: "Business law (federal & state)"
+    description: "Company, commercial and contract law is governed by federal statutes applied uniformly across the 36 states and the Federal Capital Territory, with the Companies and Allied Matters Act (CAMA) the principal corporate statute; sector regulators include the Central Bank of Nigeria (CBN) for banks and the NIPC for investment."
+    sourceId: cbn
+paymentCulture:
+  popularMethods:
+    - "Cash (naira) - still dominant across markets and the informal/mass economy"
+    - "NIBSS Instant Payment (NIP) - the ubiquitous interbank transfer rail for business and person-to-person payments"
+    - "USSD mobile banking (*737# and bank codes) - widely used on feature phones"
+    - "PoS terminal cards and QR-based transfers (eNaira and bank apps)"
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    typicalAmount: "Tipping is not obligatory; a small service appreciation at upscale restaurants and hotels is appreciated, and rounding up for taxi and ride-hailing fares is common. Some restaurants add a service charge."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Age, title and status command respect; use titles (Mr/Mrs/Dr/Chief) with surnames until invited to first names. 'African time' and a relation-first pace are normal in much of business."
+  greetingNorms: "Warm, prolonged greetings asking after family and wellbeing are expected and open nearly every interaction; firm handshakes are standard."
+  meetingEtiquette: "Relationships and trust precede transactions. Meetings often begin with pleasantries and small talk, decisions may be taken after the room convenes, and negotiation with room for friendly haggling is customary in markets. Friday midday prayers are observed in the Muslim north, and Sunday worship in the Christian south."
+  topicsToAvoid:
+    - "Ethnic-religious identity in a politically sensitive way"
+    - "The security situation in the north-east (Boko Haram) and the south-east (Niger Delta militancy)"
+    - "Corruption and its casual mention"
+    - "Over-generalising about the north-south or ethnic divides"
+  giftGivingNotes: "Gift-giving is common and appreciated, often reciprocated; be mindful of religious sensitivities (alcohol and pork in Muslim areas) and of appearing improper in public-sector contexts where anti-corruption rules apply."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: NG-N
+    file: distinct-regions/north.yaml
+    adminUnitCodes: [NG-BA, NG-BO, NG-JI, NG-KD, NG-KN, NG-KT, NG-KE, NG-NI, NG-SO, NG-YB, NG-ZF]
+  - code: NG-SW
+    file: distinct-regions/southwest.yaml
+    adminUnitCodes: [NG-EK, NG-KW, NG-LA, NG-OG, NG-ON, NG-OS, NG-OY]
+  - code: NG-SE
+    file: distinct-regions/southeast.yaml
+    adminUnitCodes: [NG-AB, NG-AN, NG-EB, NG-ED, NG-EN, NG-IM, NG-PL]
+  - code: NG-SS
+    file: distinct-regions/southsouth.yaml
+    adminUnitCodes: [NG-AK, NG-BE, NG-BY, NG-CR, NG-DE, NG-RI]
+sources:
+  - id: nga-const1999-sec55
+    name: "Constitution of the Federal Republic of Nigeria 1999 - Section 55 (Languages of the National Assembly)"
+    publisher: "Federal Republic of Nigeria - WIPO Lex"
+    url: "https://www.wipo.int/wipolex/ru/legislation/details/5412"
+    year: 1999
+    accessedDate: "2026-09-19"
+    note: "Legal basis for English as the working language of the National Assembly, with Hausa, Igbo and Yoruba used when interpretation arrangements exist - the constitutional anchor for English's de facto official status."
+  - id: nga-const1999-sec38
+    name: "Constitution of the Federal Republic of Nigeria 1999 - Section 38 (Freedom of religion)"
+    publisher: "Federal Republic of Nigeria - WIPO Lex"
+    url: "https://www.wipo.int/wipolex/ru/legislation/details/5412"
+    year: 1999
+    accessedDate: "2026-09-19"
+    note: "Guarantees freedom to adopt, practise and propagate any religion and forbids religious discrimination; context for the multi-faith federation and the twelve northern states that have incorporated sharia elements."
+  - id: cia-factbook-2023
+    name: "Nigeria - The World Factbook (2023 edition)"
+    publisher: "CIA World Factbook, open continuation (worldfactbook.co)"
+    url: "https://worldfactbook.co/country.php?slug=nigeria"
+    accessedDate: "2026-09-19"
+    note: "Ethnic composition (Hausa ~25%, Yoruba ~21%, Igbo ~18%, Fulani ~8%, etc.) and the country's roughly 220-230 million population; over 250 ethnic groups."
+  - id: npc-dhs2018
+    name: "Nigeria Demographic and Health Survey 2018"
+    publisher: "National Population Commission (NPC) & ICF"
+    url: "https://dhsprogram.com/publications/publication-fr359-dhs-final-reports.cfm"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "Religion figures: about half Muslim and 46-48% Christian, with a small traditional/no-religion remainder."
+  - id: eth-hau
+    name: "Ethnologue - Hausa (hau) language entry"
+    publisher: "SIL International / Ethnologue"
+    url: "https://www.ethnologue.com/language/hau"
+    accessedDate: "2026-09-19"
+    note: "Hausa is the largest language of northern Nigeria and a major regional lingua franca, ~25% as first language."
+  - id: eth-yor
+    name: "Ethnologue - Yoruba (yor) language entry"
+    publisher: "SIL International / Ethnologue"
+    url: "https://www.ethnologue.com/language/yor"
+    accessedDate: "2026-09-19"
+    note: "Yoruba, the language of the south-west, ~21% as first language."
+  - id: eth-ibo
+    name: "Ethnologue - Igbo (ibo) language entry"
+    publisher: "SIL International / Ethnologue"
+    url: "https://www.ethnologue.com/language/ibo"
+    accessedDate: "2026-09-19"
+    note: "Igbo, the language of the south-east, ~18% as first language."
+  - id: eth-fuh
+    name: "Ethnologue - Western Niger Fulfulde (fuh) / Fulani language entry"
+    publisher: "SIL International / Ethnologue"
+    url: "https://www.ethnologue.com/language/fuh"
+    accessedDate: "2026-09-19"
+    note: "Fulani (Fulbe) communities across the north and Middle Belt."
+  - id: eth-kau
+    name: "Ethnologue - Kanuri (kau) language entry"
+    publisher: "SIL International / Ethnologue"
+    url: "https://www.ethnologue.com/language/kau"
+    accessedDate: "2026-09-19"
+    note: "Kanuri in the far north-east around Borno and Yobe."
+  - id: eth-ijc
+    name: "Ethnologue - Izon (ijc) language entry"
+    publisher: "SIL International / Ethnologue"
+    url: "https://www.ethnologue.com/language/ijc"
+    accessedDate: "2026-09-19"
+    note: "Izon (Ijaw), language of the Niger Delta south-south zone."
+  - id: eth-tiv
+    name: "Ethnologue - Tiv (tiv) language entry"
+    publisher: "SIL International / Ethnologue"
+    url: "https://www.ethnologue.com/language/tiv"
+    accessedDate: "2026-09-19"
+    note: "Tiv, a Tivoid language with over five million speakers in Benue (Middle Belt) and neighbouring states."
+  - id: nitda-ndpr2019
+    name: "Nigeria Data Protection Regulation 2019 (NDPR)"
+    publisher: "National Information Technology Development Agency (NITDA)"
+    url: "http://nitda.gov.ng"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "Data-protection regime for personal data in Nigeria, issued by NITDA under the NITDA Act."
+  - id: cbn
+    name: "Central Bank of Nigeria"
+    publisher: "Central Bank of Nigeria (CBN)"
+    url: "https://www.cbn.gov.ng/"
+    accessedDate: "2026-09-19"
+    note: "Issuer of the Nigerian naira (NGN) and regulator of banks, payment systems and the NIBSS rails."

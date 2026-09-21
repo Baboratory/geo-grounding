@@ -1,0 +1,103 @@
+code: NG-N
+name:
+  eng: Northern Nigeria (Hausa heartland and the far north-east)
+  local:
+    - languageCode: hau
+      value: "Arewacin Najeriya"
+climates:
+  - koppenCode: BSh
+    description: Hot semi-arid Sahel climate in the far north-east, grading south into tropical savanna; a single rainy season and a long, dusty dry season (harmattan).
+landmarks:
+  - name: Kano old town
+    description: Historic Hausa city with its ancient earthen walls and gates, on Nigeria's tentative list.
+  - name: Sukur Cultural Landscape
+    description: A terraced hilltop settlement in Adamawa with the ruins of a defensive stone wall, famed for its iron-working past.
+    unescoWorldHeritage: true
+  - name: Lake Chad basin margins (Borno/Yobe)
+    description: Wetland and pastoral country in the far north-east.
+  - name: Kaduna
+    description: Major northern industrial and trading city, a market hub of the Hausa north.
+culturalTraits:
+  - Heartland of the Hausa people, the largest ethnic group, and of the Kanuri and Fulani
+  - Predominantly Muslim society with a deep Koranic-school tradition
+  - Famous long-distance trade and the great northern cities (Kano, Kaduna, Kuduna)
+  - Emirate and Islamic scholarsh heritage of the Sokoto Caliphate
+prideOf:
+  - Hausa language and culture
+  - The Sokoto Caliphate and Islamic scholarship
+  - Great Kano dyeing, leather and craft traditions
+  - The Argungu fishing festival (Kebbi)
+animals:
+  popular:
+    - Zebu cattle
+    - Goats and sheep
+    - Donkeys
+  unique:
+    - West African giraffe (founding relic populations)
+    - Sahelian antelope (oribi)
+industries:
+  - Agriculture (millet, sorghum, groundnuts, cotton)
+  - Livestock and pastoralism
+  - Trade and craft (leather, dyeing, weaving)
+  - Emerging mining and commerce in the northern cities
+sports:
+  - Football
+  - Traditional wrestling and boxing
+  - Camel racing (far north)
+religions:
+  - name: Muslim
+    percent: 90.0
+    sourceId: npc-dhs2018
+  - name: Christian
+    percent: 8.0
+    sourceId: npc-dhs2018
+entertainment:
+  - season: dry
+    items:
+      - "Argungu fishing festival (Kebbi) - the great annual harvest-festival of the north"
+      - "Eid al-Fitr and Eid al-Adha - lunar"
+      - "Durbar and emirate ceremonies in the northern cities"
+  - season: wet
+    items:
+      - "Harvest and community gatherings"
+      - "Hausa music and bardic performances"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo shinkafa / tuwon masara (grain porridge) with a rich soup"
+      - "Miyan taushe (pumpkin-seed soup)"
+      - "Groundnut soup with meat or fowl"
+      - "Suya (spiced grilled meat)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Boubous and embroidered caps (fila/hula) in the Muslim north"
+      - "Woven babban riga (big gown) worn for celebrations"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Monday-Friday; northern markets trade daily with a Friday midday break for prayers."
+  lunchBreakTiming: "Midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Major Islamic holiday closures across the north."
+  notes: "Friday prayers widely observed; some northern businesses close early on Friday."
+sources:
+  - id: npc-dhs2018
+    name: "Nigeria Demographic and Health Survey 2018"
+    publisher: "National Population Commission (NPC) & ICF"
+    url: "https://dhsprogram.com/publications/publication-fr359-dhs-final-reports.cfm"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "Regional religion mix (northern states majority Muslim)."
+  - id: unesco-whs-nga
+    name: "Nigeria - Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/ng"
+    accessedDate: "2026-09-19"
+    note: "Basis for the Sukur Cultural Landscape flag."

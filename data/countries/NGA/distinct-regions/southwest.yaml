@@ -1,0 +1,111 @@
+code: NG-SW
+name:
+  eng: South-West Nigeria (Yoruba heartland)
+  local:
+    - languageCode: yor
+      value: "Ìwọ̀ọ̀rùn Gúúsù"
+climates:
+  - koppenCode: Aw
+    description: Tropical wet-dry climate with a pronounced rainy season and a dry season; the coastal fringe is hot and humid.
+landmarks:
+  - name: Lagos
+    description: Nigeria's largest city and economic capital, a global hub of commerce, Nollywood, Afrobeats and finance.
+  - name: Osun-Osogbo Sacred Grove
+    description: A Yoruba sacred grove along the Osun river, a world-renowned centre of Yoruba religion and art.
+    unescoWorldHeritage: true
+  - name: Ondo and the south-west Yoruba kingdoms
+    description: Historic Yoruba cities and palace compounds, centres of the Yoruba political and cultural inheritance.
+  - name: EKiti Ekiti hills
+    description: Scenic hills and waterfalls of the Yoruba south-west, a heritage and pilgrimage area.
+culturalTraits:
+  - Heartland of the Yoruba people, one of Africa's largest ethnolinguistic groups
+  - The commercial and cultural powerhouse focused on Lagos
+  - Deep Yoruba religious and artistic heritage (Osun-Osogbo, Ifa)
+  - A vibrant coastal-urban modernity blended with strong tradition
+prideOf:
+  - Lagos and its global cultural reach
+  - Osun-Osogbo and Yoruba spiritual art
+  - Yoruba food, fashion and the adire textile tradition
+  - Nollywood and Afrobeats
+animals:
+  popular:
+    - African manatee (coastal lagoons)
+    - Olive baboon
+    - Crested porcupine
+    - Civet
+  unique:
+    - West African manatee
+    - Sclater's guenon (endemic, under threat)
+industries:
+  - Trade, finance, tech and media (Lagos)
+  - Oil and gas (south-west delta fields)
+  - Agriculture (cocoa, palm oil, cassava)
+  - Adire textile and fashion industries
+sports:
+  - Football
+  - Basketball
+  - Table tennis
+  - Wrestling
+religions:
+  - name: Christian
+    percent: 60.0
+    sourceId: npc-dhs2018
+  - name: Muslim
+    percent: 35.0
+    sourceId: npc-dhs2018
+entertainment:
+  - season: allYear
+    items:
+      - "Nollywood premieres and Lagos nightlife"
+      - "Afrobeats and juju/fuji concerts"
+  - season: dry
+    items:
+      - "Lagos carnival and end-of-year events"
+      - "Eid and Christmas festive season"
+  - season: wet
+    items:
+      - "Osun-Osogbo festival (usually August, wet season)"
+      - "Yoruba Imani and communal celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Amala & ewedu (yam flour with jute-leaf soup)"
+      - "Efo riro (vegetable stew)"
+      - "Ofada rice and ayamase (green pepper stew)"
+      - "Akara (bean fritters) and ogi/eko (corn pap)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Agbada and buba/iro"
+      - "Aso-oke handwoven cloth and adire (indigo tie-dye)"
+      - "Women's gele headwraps and coral-beaded jewellery"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Monday-Friday; Lagos commerce often runs later and into the weekend."
+  lunchBreakTiming: "Lunch around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Major closure in the largely Christian south-west."
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Observed in the Muslim minority communities."
+  notes: "Sunday is the main rest day."
+sources:
+  - id: npc-dhs2018
+    name: "Nigeria Demographic and Health Survey 2018"
+    publisher: "National Population Commission (NPC) & ICF"
+    url: "https://dhsprogram.com/publications/publication-fr359-dhs-final-reports.cfm"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "Regional religion mix (south-west largely Christian)."
+  - id: unesco-whs-nga
+    name: "Nigeria - Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/ng"
+    accessedDate: "2026-09-19"
+    note: "Basis for the Osun-Osogbo Sacred Grove flag."

@@ -1,0 +1,90 @@
+code: NE-6
+name:
+  eng: Niger River Valley (Niamey, Tillaberi, Dosso)
+  local:
+    - languageCode: fra
+      value: Vallee du Niger
+climates:
+  - koppenCode: BSh
+    description: Hot semi-arid Sahel climate, the wettest zone of the country along the Niger River; a single marked rainy season.
+landmarks:
+  - name: Niamey
+    description: Capital and largest city, straddling the right bank of the Niger; the political, economic and cultural heart of the country.
+  - name: Grand Mosque of Niamey
+    description: The landmark mosque of the capital, a gift completed in 1975.
+  - name: Koure Giraffe Reserve
+    description: The last wild population of West African giraffes, living in this scrubland area south-east of Niamey.
+  - name: National Museum of Niger
+    description: Museum in Niamey showcasing the archaeology, ethnography and art of the Sahel and desert peoples.
+culturalTraits:
+  - Heartland of the Zarma-Songhai (Djerma) people along the river
+  - The political and commercial core of modern Niger, centred on Niamey
+  - Deep Islamic urban culture blended with riverine trading life
+  - Strong French-influenced administration and francophone schooling in the capital
+prideOf:
+  - Niamey and its role as the national capital
+  - The Zarma-Songhai river culture and markets
+  - The Koure giraffes
+animals:
+  popular:
+    - West African giraffe (Koure)
+    - Hippopotamus and riverine wildlife along the Niger
+    - Crocodile
+    - Cattle and goats
+  unique:
+    - West African giraffe (only wild population)
+    - Manatee (rare, in the river)
+industries:
+  - Government and administration (Niamey)
+  - Market gardening and riverine agriculture (onions, peppers, maize)
+  - Fishing on the Niger
+  - Trade and commerce
+sports:
+  - Football
+  - Basketball
+  - Traditional wrestling
+religions:
+  - name: Muslim
+    percent: 99.0
+    sourceId: cia-factbook-2023
+entertainment:
+  - season: dry
+    items:
+      - "Eid al-Fitr and Eid al-Adha - lunar"
+      - "Urban music and cultural events in Niamey"
+  - season: wet
+    items:
+      - "Fishing festivals and riverside gatherings"
+      - "Independence/Republic Day (18 December) civic celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fou-fou (grain porridge) with peanut, okra or leaf sauce"
+      - "Rice with fish or beef stew from the river and its markets"
+      - "Dambou (tuwo) with rich sauces"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Boubou, plain daily and embroidered for Friday prayer and festivals"
+      - "Women's pagnes and headwraps"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and office hours roughly 08:00-12:30 and 15:30-18:00; markets trade daily."
+  lunchBreakTiming: "Long midday break around 12:00-15:00."
+  notableShutdownPeriods:
+    - period: Ramadan (lunar)
+      description: "Offices shorten hours and the daily rhythm shifts to evening iftar."
+  notes: "Friday is a working day; the Friday midday prayer and break are widely observed."
+sources:
+  - id: cia-factbook-2023
+    name: "Niger - The World Factbook (2023 edition)"
+    publisher: "CIA World Factbook, open continuation (worldfactbook.co)"
+    url: "https://worldfactbook.co/country.php?slug=niger"
+    accessedDate: "2026-09-19"
+    note: "Context for the Niger River valley region."

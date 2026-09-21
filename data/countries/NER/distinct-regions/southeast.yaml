@@ -1,0 +1,91 @@
+code: NE-7
+name:
+  eng: South-east Sahel (Hausa Heartland - Maradi, Zinder, Tahoua, Diffa)
+  local:
+    - languageCode: hau
+      value: "Kudancin Gasashen Nijar"
+climates:
+  - koppenCode: BSh
+    description: Hot semi-arid Sahel climate with a single pronounced rainy season (roughly June-September) and a long dry season.
+landmarks:
+  - name: Zinder
+    description: Historic Hausa city and former capital, famed for its old town, the Sultan's palace quarter and its great markets.
+  - name: Great Mosque of Zinder
+    description: Landmark Sudanese-style mud-brick mosque in the historic centre of Zinder.
+  - name: Maradi
+    description: Major trading and agricultural city of the Hausa heartland, a hub for the groundnut and livestock trade.
+  - name: Lake Chad basin (Diffa)
+    description: Wetland and fishing country in the far south-east where the Komadugu Yobe flows toward Lake Chad.
+culturalTraits:
+  - Demographic heart of the Hausa people, the largest ethnic group of Niger
+  - Deep Islamic (Malam) and Koranic-school tradition
+  - Famous regional markets and long-distance trade
+  - Kanuri (Manga/Beriberi) communities in the far south-east around the Lake Chad basin
+prideOf:
+  - Hausa language and culture
+  - Zinder's Damagaram sultanate heritage
+  - The great grain and groundnut markets
+  - Lake Chad fisheries and wetlands (Diffa)
+animals:
+  popular:
+    - Zebu cattle
+    - Goats and sheep
+    - Donkeys
+  unique:
+    - Oribi and other Sahel antelopes
+    - Giraffe (Koure fringes)
+    - Sahelian birds, waders and waterfowl at Diffa
+industries:
+  - Agriculture (millet, sorghum, groundnuts, cowpea)
+  - Livestock raising and pastoralism
+  - Trade and market towns (Zinder, Maradi)
+  - Fishing in the far south-east (Diffa)
+sports:
+  - Football
+  - Traditional Hausa boxing (dambe)
+  - Wrestling
+religions:
+  - name: Muslim
+    percent: 99.0
+    sourceId: cia-factbook-2023
+entertainment:
+  - season: dry
+    items:
+      - "Eid al-Fitr and Eid al-Adha - lunar"
+      - "Winter market festivals and gatherings in the Hausa towns"
+  - season: wet
+    items:
+      - "Harvest and community gatherings"
+      - "Traditional music and bardic (griot) performances"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo (thick millet or grain porridge) with peanut, okra or soup"
+      - "Rice with beef or mutton stew"
+      - "Groundnut-based sauces and grilled meat"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Boubou, richly embroidered for Friday prayer and festivals"
+      - "Women's pagnes and headwraps"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Market-led trading hours; offices roughly 08:00-12:30 and 15:30-18:00."
+  lunchBreakTiming: "Midday break around 12:00-15:00."
+  notableShutdownPeriods:
+    - period: Ramadan (lunar)
+      description: "Widespread slowdown and evening iftar rhythm."
+  notes: "Friday prayers widely observed; insecurity has constrained parts of the far south-east."
+sources:
+  - id: cia-factbook-2023
+    name: "Niger - The World Factbook (2023 edition)"
+    publisher: "CIA World Factbook, open continuation (worldfactbook.co)"
+    url: "https://worldfactbook.co/country.php?slug=niger"
+    accessedDate: "2026-09-19"
+    note: "Context for the south-east Hausa heartland region."

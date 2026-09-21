@@ -1,0 +1,119 @@
+code: WHOLE
+name:
+  eng: Niger
+  local:
+    - languageCode: hau
+      value: Nijar
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate across most of the northern two-thirds, on the southern edge of the Sahara.
+  - koppenCode: BSh
+    description: Hot semi-arid Sahel climate across the central belt.
+  - koppenCode: Aw
+    description: Tropical savanna in the southernmost fringe, with a short pronounced rainy season.
+landmarks:
+  - name: Historic Centre of Agadez
+    description: An ancient Tuareg trading and pilgrimage city at the gateway to the desert, dominated by its mud-brick minaret and old town.
+    unescoWorldHeritage: true
+  - name: Air and Tenere Natural Reserves
+    description: A vast protected desert and mountain complex (Air Mountains and the Tenere sand sea) sheltering rare Saharan wildlife; listed as World Heritage but endangered since 1992 due to insecurity.
+    unescoWorldHeritage: true
+  - name: W-Arly-Pendjari Complex
+    description: A transnational protected area shared with Benin and Burkina Faso, covering a stretch of the Niger River and its gallery forests.
+    unescoWorldHeritage: true
+  - name: Grand Mosque of Niamey
+    description: The landmark mosque of the capital, opened in 1975 on the River Niger's right bank.
+culturalTraits:
+  - Deep Islamic identity (about 99% Muslim, overwhelmingly Sunni of the Maliki school with strong Sufi Tijaniyya influence)
+  - Great Sahelian oral and musical tradition (griots, Tuareg guitar and Hausa praise-singing)
+  - Communal, hierarchical and elder-respecting social structures
+  - A mosaic of Hausa, Zarma-Songhai, Tuareg, Fulani and Kanuri cultures across distinct ecological zones
+prideOf:
+  - The Agadez old town and Saharan caravan heritage
+  - Griot and desert music traditions
+  - The hospitality and resilience of its peoples across desert and Sahel
+  - Its cultural and linguistic diversity
+animals:
+  popular:
+    - Dromedary camel (Sahara and Sahel)
+    - Zebu cattle (Southern Sahel herds)
+    - Goats and sheep
+    - Dorcas gazelle
+    - Warthog
+  unique:
+    - West African giraffe (the last wild population, in the Koure area south-east of Niamey)
+    - Barbary sheep (Aoudad) in the Air mountains
+    - Saharan cheetah (critically endangered relic population)
+    - Fennec fox
+industries:
+  - Uranium mining (among the world's largest producers; the Arlit/Akokan mines in the north)
+  - Agriculture (millet, sorghum, cowpea; onions and market gardening along the Niger)
+  - Livestock and pastoralism
+  - Gold mining (Djado/Liptako) and cross-border trade
+  - Handicrafts and leatherwork
+sports:
+  - Football (most popular)
+  - Traditional Hausa boxing (dambe)
+  - Wrestling (Songhai and Tuareg traditions)
+  - Camel racing (north)
+religions:
+  - name: Muslim
+    percent: 99.0
+    sourceId: cia-factbook-2023
+  - name: Christian
+    percent: 0.5
+    sourceId: cia-factbook-2023
+  - name: Traditional animist beliefs
+    percent: 0.5
+    sourceId: cia-factbook-2023
+entertainment:
+  - season: dry
+    items:
+      - "Cure Salee (the Salt Cure / Curee Salee) - the great gathering of Tuareg and other nomads near In-Gall and Tchirozerine, with camel fairs, wrestling and music"
+      - "Eid al-Fitr and Eid al-Adha feasting - lunar"
+      - "Sighting of the traditional festivals of the desert towns"
+  - season: wet
+    items:
+      - "Republic Day (18 December) national celebrations and cultural events"
+      - "Fishing and wrestling festivals along the river"
+      - "Community and harvest gatherings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fou-fou (thick millet or grain porridge) with a peanut or okra sauce"
+      - "Rice with a meat or fish stew"
+      - "Dambou (tuwo) - a staple dumpling often served with a rich sauce"
+      - "Grilled meat and Sahelian spiced dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Boubou (the flowing men's robe), richly embroidered for Friday prayer and festivals"
+      - "Women's pagnes and headwraps"
+      - "Tuareg indigo-blue robes and veils in the north"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Public-sector and office hours commonly run about 08:00-12:30 and 15:30-18:00 (a split day avoiding the midday heat); many private businesses work roughly 08:00-17:00 or 18:00."
+  lunchBreakTiming: "A long midday break around 12:00-15:00 is common, especially in the hot dry season and in the public sector."
+  notableShutdownPeriods:
+    - period: Ramadan (lunar)
+      description: "Fasting month when many offices shorten hours and the daily rhythm shifts to evening iftar gatherings; Eid al-Fitr and Eid al-Adha are among the largest public holidays of the year."
+  notes: "Friday is a working day, but the Friday midday congregational prayer and a long break are nearly universally observed."
+sources:
+  - id: cia-factbook-2023
+    name: "Niger - The World Factbook (2023 edition)"
+    publisher: "CIA World Factbook, open continuation (worldfactbook.co)"
+    url: "https://worldfactbook.co/country.php?slug=niger"
+    accessedDate: "2026-09-19"
+    note: "Religion and broad demographic context used in this file."
+  - id: unesco-whs-niger
+    name: "Niger - Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/ne"
+    accessedDate: "2026-09-19"
+    note: "Basis for the unescoWorldHeritage flags on the Historic Centre of Agadez, the Air and Tenere Reserves and the W-Arly-Pendjari Complex."
