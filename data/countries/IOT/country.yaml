@@ -41,8 +41,8 @@ paymentCulture:
   popularMethods:
     - Cash (US dollar) used by posted personnel on Diego Garcia
     - Card payments processed through the military facility's services
-  # tipping intentionally omitted: no reliable published norm for a closed
-  # military installation rather than a civilian economy.
+# tipping intentionally omitted: no reliable published norm for a closed
+# military installation rather than a civilian economy.
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml

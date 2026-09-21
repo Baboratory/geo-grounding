@@ -65,8 +65,8 @@ paymentCulture:
     - Cash (Bermudian dollar, pegged 1:1 with the US dollar)
     - US dollar (accepted interchangeably at par throughout the islands)
     - Contactless and mobile card payments (widely adopted)
-  # tipping intentionally omitted: no well-sourced, consistent figure for
-  # Bermudian tipping norms was found during verification.
+# tipping intentionally omitted: no well-sourced, consistent figure for
+# Bermudian tipping norms was found during verification.
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml

@@ -43,7 +43,7 @@ legalConstraints:
 paymentCulture:
   popularMethods:
     - "No resident population or economy — no payment methods in use"
-  # tipping intentionally omitted: there is no population and no service economy.
+# tipping intentionally omitted: there is no population and no service economy.
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml

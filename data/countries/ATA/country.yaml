@@ -2,7 +2,13 @@ alpha3: ATA
 alpha2: AQ
 name:
   eng: Antarctica
-  local: []
+  # No indigenous population or official language (languageUsage is empty);
+  # English is the working language of the Antarctic Treaty System and most
+  # research programmes, used here as the local-name reference — mirrored at
+  # the WHOLE region level.
+  local:
+    - languageCode: eng
+      value: Antarctica
 flagEmoji: "🇦🇶"
 capital: None (no permanent settlement; governed collectively under the Antarctic Treaty System)
 isSovereign: false
@@ -74,7 +80,7 @@ legalConstraints:
 paymentCulture:
   popularMethods:
     - "Card / direct billing through national Antarctic programme logistics (no retail cash economy)"
-  # tipping intentionally omitted: no resident public-facing service economy exists on the continent.
+# tipping intentionally omitted: no resident public-facing service economy exists on the continent.
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml

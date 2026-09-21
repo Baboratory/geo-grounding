@@ -25,8 +25,8 @@ landmarks:
     unescoWorldHeritage: true
   - name: Mount Popa
     description: "A flat-topped volcanic table mountain, home to the palace of the 37 nats and a major pilgrimage site."
-  - name: Schwedagon / Shwe Dagon Stupa
-    description: "The iconic gilded Golden Stupa of Mandalay, often used as a symbol of Myanmar's Buddhist culture."
+  - name: Shwedagon Pagoda
+    description: "The iconic gilded Golden Stupa of Yangon, often used as a symbol of Myanmar's Buddhist culture."
 culturalTraits:
   - "A 'Republic of the Union' uniting the Bamar majority with 135 recognised indigenous ethnic groups"
   - "Deep-rooted Theravada Buddhist culture running through daily life and festivals (Thingyan water festival)"

@@ -4,6 +4,8 @@ name:
   local:
     - languageCode: eng
       value: Norfolk Island
+    - languageCode: pih
+      value: "Teratri a' Norf'k Ailen"
 climates:
   - koppenCode: Cfa
     description: Subtropical — mild and fairly even temperatures with little seasonal variation, year-round rainfall.
@@ -67,7 +69,7 @@ businessRhythm:
 sources:
   - id: nfk-region
     name: "Norfolk Island — geography, culture and tourism"
-    publisher: "Norfolk Island Regional Council / timeanddate.com"
+    publisher: "timeanddate.com (the material is not from the Norfolk Island Regional Council)"
     url: "https://www.timeanddate.com/time/zone/norfolk-island"
     accessedDate: "2026-09-20"
     note: "Subtropical climate, UTC+11 standard / UTC+12 DST, and the island's southern-hemisphere season timing informing the season calendar and cultural content."

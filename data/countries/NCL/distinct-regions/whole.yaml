@@ -4,8 +4,8 @@ name:
   local:
     - languageCode: fra
       value: Nouvelle-Calédonie
-    - languageCode: eng
-      value: New Caledonia
+# English is a foreign (not locally-used) language in New Caledonia and has no
+# languageUsage row, so it is not included here — matching the country file.
 # Generic country-wide fallback content for New Caledonia (dependent-territory,
 # single synthetic whole region). A Melanesian archipelago of ~265,000 people in the
 # south-west Pacific, centred on the main island Grande Terre ('le Caillou') with the

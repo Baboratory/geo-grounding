@@ -64,8 +64,8 @@ paymentCulture:
     - Cash and cards in US dollars (USD is the territory's currency)
     - Debit and credit cards (Visa and Mastercard widely accepted in hotels, resorts and restaurants)
     - Mobile and contactless payments (increasingly common, especially in tourism hubs like Providenciales)
-  # tipping intentionally omitted: no well-sourced, consistent figure for local
-  # tipping norms was found during verification.
+# tipping intentionally omitted: no well-sourced, consistent figure for local
+# tipping norms was found during verification.
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml

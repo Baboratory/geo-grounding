@@ -71,8 +71,8 @@ ethnicGroups:
   - group: Rai (all Rai sub-groups)
     percent: 2.3
     sourceId: "npl-census-2011"
-  - group: Other (incl. Gharti/Bhujel, Gurung, Limbu, Tamang-related, Sherpa, etc. — 126 groups total)
-    percent: 37.2
+  - group: Other (incl. Gharti/Bhujel, Gurung, Limbu, Sherpa, etc. — 126 groups total)
+    percent: 31.2
     sourceId: "npl-census-2011"
 timezones:
   - name: Asia/Kathmandu

@@ -7,6 +7,8 @@ name:
       value: Curaçao
     - languageCode: pap
       value: Kòrsou
+    - languageCode: eng
+      value: Curaçao
 flagEmoji: "🇨🇼"
 capital: Willemstad
 isSovereign: false
@@ -58,7 +60,7 @@ ethnicGroups:
     percent: 75.4
     sourceId: cuw-census-2011-ethnic
   - group: Dutch
-    percent: 9.0
+    percent: 6.0
     sourceId: cuw-census-2011-ethnic
   - group: Dominican
     percent: 3.6
@@ -152,11 +154,11 @@ sources:
     note: "Mother-tongue shares: Papiamentu 81.2%, Dutch 8%, Spanish 4%, English 2.9%. The most recent census with a widely published mother-tongue table; flagged as older data."
   - id: cuw-census-2011-ethnic
     name: "Curaçao population by nationality/ethnic origin (2011 estimate)"
-    publisher: "Central Bureau of Statistics Curaçao (CBS)"
-    url: "https://www.cbs.cw"
+    publisher: "CIA World Factbook (the CBS Curaçao homepage does not carry this specific breakdown)"
+    url: "https://www.cia.gov/the-world-factbook/countries/curacao/"
     year: 2011
     accessedDate: "2026-09-20"
-    note: "Ethnic/nationality breakdown used for ethnicGroups shares."
+    note: "Nationality/country-of-origin breakdown (2011 est.): Curaçaoan 75.4%, Dutch 6%, Dominican 3.6%, Colombian 3%, Bonairean/Sint Eustatian/Saban 1.5%, Haitian 1.2%, Surinamese 1.2%, Venezuelan 1.1%, Aruban 1.1%, other 5%, unspecified 0.9% — used for ethnicGroups shares (other+unspecified merged into one 5.9% row)."
   - id: cuw-tax
     name: "Taxation of Curaçao — omzetbelasting (OB) consumption tax"
     publisher: "Belastingdienst Curaçao / tax administration"

@@ -40,6 +40,9 @@ religions:
   - name: Buddhist
     percent: 70.2
     sourceId: census-lka-2012
+  - name: Hindu
+    percent: 12.6
+    sourceId: census-lka-2012
   - name: Muslim
     percent: 9.7
     sourceId: census-lka-2012

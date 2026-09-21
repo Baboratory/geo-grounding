@@ -88,9 +88,9 @@ paymentCulture:
     - "Visa and Mastercard-branded cards — Lithuania has no domestic card scheme of its own (unlike e.g. France's Carte Bancaire), so bank-issued cards are one or the other international network"
     - Contactless debit/credit cards
     - Mobile payment apps
-  # tipping intentionally omitted: no official or otherwise reliable source
-  # found for a typical Lithuanian tipping percentage during verification —
-  # left out rather than guessed, per this project's sourcing rule.
+# tipping intentionally omitted: no official or otherwise reliable source
+# found for a typical Lithuanian tipping percentage during verification —
+# left out rather than guessed, per this project's sourcing rule.
 communicationStyle:
   contextLevel: low-context
   formalityNorms: "Conservative and formal in business settings; address by surname/title until invited to move to first names. Hierarchy and modesty are valued."

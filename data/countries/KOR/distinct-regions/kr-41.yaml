@@ -13,8 +13,9 @@ landmarks:
     unescoWorldHeritage: true
   - name: Everland Resort
     description: "South Korea's largest theme park, in Yongin (largest in the country)."
-  - name: Songdo International Business District
-    description: "A new smart/branded city and free economic zone in Incheon Bay, a model of planned urban development."
+  - name: Hwaseong Fortress
+    description: "An 18th-century walled fortress in Suwon, Gyeonggi's provincial capital — a UNESCO World Heritage Site and a model of Joseon-era military architecture."
+    unescoWorldHeritage: true
 culturalTraits:
   - "The densely populated ring of cities and towns surrounding Seoul — the extended Seoul Capital Area"
   - "Home to high-tech industrial clusters, major universities and commuter towns"

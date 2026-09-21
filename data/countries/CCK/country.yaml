@@ -22,10 +22,6 @@ languageUsage:
     domain: official
     speakersShare: 1.0
     sourceId: wp-lang
-  - languageCode: msa
-    domain: locallySpoken
-    speakersShare: 1.0
-    sourceId: wp-lang
   - languageCode: eng
     domain: locallySpoken
     speakersShare: 0.9

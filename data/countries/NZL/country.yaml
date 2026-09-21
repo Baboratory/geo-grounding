@@ -7,6 +7,11 @@ name:
       value: New Zealand
     - languageCode: mri
       value: Aotearoa
+    - languageCode: nzs
+      # NZ Sign Language is a signed, not written, language and has no
+      # written name-form of its own; its standard English designation is
+      # used here to satisfy the name.local floor for this official language.
+      value: New Zealand Sign Language
 flagEmoji: "🇳🇿"
 capital: Wellington
 isSovereign: true
@@ -52,7 +57,7 @@ languageUsage:
 # by the locallySpoken rows.
 ethnicGroups:
   # 2023 census (multiple response, so shares may not sum to 100).
-  - group: European (Paketha)
+  - group: European (Pākehā)
     percent: 67.8
     sourceId: census-2023-ethnic
   - group: Maori
@@ -111,12 +116,12 @@ distinct-regions:
     file: distinct-regions/whole.yaml
 sources:
   - id: nzl-official-lang
-    name: "Official languages of New Zealand (English Language Bill 2026; Maori Language Act 1987; NZSL Act 2006)"
-    publisher: "Parliament of New Zealand / New Zealand Government"
-    url: "https://www.govt.nz/"
+    name: "English Language Act 2026 (Bill 198-1)"
+    publisher: "New Zealand Legislation (legislation.govt.nz)"
+    url: "https://www.legislation.govt.nz/bill/government/2026/198/en/latest/"
     year: 2026
     accessedDate: "2026-09-21"
-    note: "English, Maori and NZSL are the three official languages; English granted de jure official status by legislation passed 30 July 2026."
+    note: "English, Maori and NZSL are the three official languages. Verified independently (CNN, UPI, Te Ao Māori News): the Bill passed its third reading 30 July 2026 and received royal assent 6 August 2026, making English NZ's third de jure official language alongside Māori (1987) and NZSL (2006)."
   - id: nzs-act-2006
     name: "New Zealand Sign Language Act 2006"
     publisher: "New Zealand Legislation"

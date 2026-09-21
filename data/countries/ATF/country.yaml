@@ -30,19 +30,19 @@ timezones:
   - name: Indian/Kerguelen
     standardUtcOffset: "UTC+5"
     observesDst: false
-  - name: Indian/Crozet
-    standardUtcOffset: "UTC+5"
-    observesDst: false
   - name: Indian/Reunion
     standardUtcOffset: "UTC+4"
     observesDst: false
   - name: Antarctica/DumontDUrville
     standardUtcOffset: "UTC+10"
     observesDst: false
-# The territory's districts span multiple timezones: Kerguelen and Crozet sit at
-# UTC+5, the Scattered Islands at UTC+4 (the administration is headquartered at
-# Saint-Pierre, Réunion, also UTC+4), and the Adélie Land Antarctic station at
-# UTC+10. None observes daylight saving.
+# The territory's districts span multiple timezones: Kerguelen (with St Paul and
+# Amsterdam) sits at UTC+5 (IANA Indian/Kerguelen), Crozet and the Scattered
+# Islands both follow UTC+4 (IANA's zone1970.tab links Crozet, like Réunion, to
+# the Asia/Dubai-alias +4 zone — there is no separate "Indian/Crozet" IANA
+# identifier; Indian/Reunion is used here for both, and the administration is
+# headquartered at Saint-Pierre, Réunion, also UTC+4), and the Adélie Land
+# Antarctic station at UTC+10. None observes daylight saving.
 currency:
   code: EUR
   symbol: "€"
@@ -57,8 +57,8 @@ legalConstraints:
 paymentCulture:
   popularMethods:
     - "Card / institutional billing via the research and supply programmes (no resident retail cash economy)"
-  # tipping intentionally omitted: there is no resident public-facing service
-  # economy; activity is scientific research and logistics only.
+# tipping intentionally omitted: there is no resident public-facing service
+# economy; activity is scientific research and logistics only.
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml

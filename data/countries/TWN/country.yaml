@@ -80,7 +80,7 @@ currency:
   name: New Taiwan dollar
 legalConstraints:
   - topic: "official / national languages"
-    description: "The National Languages Development Act (2019) designates Mandarin, Taiwanese Hokkien, Hakka and the Formosan languages as national languages and mandates government support for their development and use; Mandarin is the de facto standard in government, education and media. No single language is designated 'official' by statute; the national-language framework is status-based."
+    description: "The Development of National Languages Act (2019) defines 'national language' broadly as the natural and sign languages used by Taiwan's different ethnic groups (Art. 3) and mandates government support for their development and use, rather than naming Mandarin, Hokkien, Hakka and the Formosan languages individually in the statutory text — though these are the languages commonly cited as covered by it. Mandarin is the de facto standard in government, education and media. No single language is designated 'official' by statute; the national-language framework is status-based."
     sourceId: nlda-2019
   - topic: "data protection"
     description: "The Personal Data Protection Act (PDPA) governs collection, processing and international transfer of personal data. It grants data-subject rights (access, correction, deletion), requires notice and consent for most processing, imposes extraterritorial reach over entities processing Taiwanese residents' data, and empowers administrative fines and the ability to halt collection/processing on violation. Amended most recently in 2025."
@@ -139,7 +139,7 @@ sources:
     url: "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=H0170143"
     year: 2019
     accessedDate: "2026-09-21"
-    note: "Designates Mandarin, Hokkien, Hakka and the Formosan languages as national languages of Taiwan; the basis for official-domain flag on cmn and recognition of nan/hak/ami."
+    note: "Defines 'national language' broadly (Art. 3) rather than naming specific languages, but is the legal basis commonly cited for national-language status of Mandarin, Hokkien, Hakka and the Formosan languages; used here as the basis for the official-domain flag on cmn and recognition of nan/hak/ami."
   - id: wfb-twn
     name: "CIA World Factbook — Taiwan (languages, ethnic groups, population)"
     publisher: "Central Intelligence Agency (US)"

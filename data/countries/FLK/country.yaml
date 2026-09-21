@@ -45,10 +45,10 @@ paymentCulture:
   popularMethods:
     - Debit and credit cards (Visa and Mastercard accepted in Stanley and larger shops)
     - Falkland Islands pounds and pound sterling (widely circulated cash)
-  # paymentMethodShares intentionally omitted: no official payment-adoption
-  # survey with percentages was found for the territory during verification.
-  # tipping: a modest discretionary gratuity is appreciated in restaurants and
-  # for tour guides; not a firm cultural rule, so left unquantified.
+# paymentMethodShares intentionally omitted: no official payment-adoption
+# survey with percentages was found for the territory during verification.
+# tipping: a modest discretionary gratuity is appreciated in restaurants and
+# for tour guides; not a firm cultural rule, so left unquantified.
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml

@@ -153,7 +153,7 @@ sources:
     note: "KYD is the official currency; CIMA issues/redemption; official peg CI$1 = US$1.20 (CIMA Fact Sheet)."
   - id: cym-iana-tz
     name: "IANA Time Zone Database — America/Cayman"
-    publisher: "IANA / timezone.io"
+    publisher: "timezone.io (a third-party IANA tzdata browser; not IANA itself)"
     url: "https://timezone.io/iana/America/Cayman"
     accessedDate: "2026-09-20"
     note: "UTC-5, no DST since 1 February 1912."

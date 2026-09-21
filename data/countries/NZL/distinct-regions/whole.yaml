@@ -6,6 +6,8 @@ name:
       value: New Zealand
     - languageCode: mri
       value: Aotearoa
+    - languageCode: nzs
+      value: New Zealand Sign Language
 # Generic country-wide fallback content for New Zealand (unitary-small, single
 # synthetic whole region). The North Island / South Island / Stewart Island
 # split is geographic rather than a curated regional identity, so it is folded
@@ -109,7 +111,7 @@ traditionalDishes:
       - "Hangi — a traditional Maori earth-oven feast of meat and vegetables"
       - "Fish and chips, and meat pies"
       - "Lamb roast and the Sunday roast"
-      - "Pavlovka dessert (often claimed as Kiwi pavlova)"
+      - "Pavlova dessert (often claimed as a Kiwi invention)"
   - season: summer
     items:
       - "BBQ lamb and fresh seafood (green-lipped mussels, Bluff oysters)"
@@ -121,7 +123,7 @@ traditionalClothing:
     items:
       - "Casual, practical outdoor wear; merino and possum-wool knitwear"
       - "Jandals (flip-flops) and shorts as everyday summer staples"
-      - "The swandri / Swanndri bush shirt in farming culture"
+      - "The Swanndri bush shirt in farming culture"
 seasonCalendar:
   - season: summer
     months: [12, 1, 2]

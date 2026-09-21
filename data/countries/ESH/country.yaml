@@ -15,8 +15,10 @@ isSovereign: false
 # government-in-exile. It is a sparse desert territory (~600k) with no federal
 # structure of its own. Per the governance rule for non-sovereign ISO 3166-1
 # entries it carries a single synthetic WHOLE region. The language picture is
-# divided: standard Arabic and Spanish are the officials proclaimed by the
-# SADR, while Moroccan Arabic (and, legally, Berber/Tamazight) dominate the
+# divided: standard Arabic is the SADR's official language (Spanish's official
+# status there is contested/inconsistently reported across sources, so it is
+# modelled here as a foreign/administrative-heritage language, not official),
+# while Moroccan Arabic (and, legally, Berber/Tamazight) dominate the
 # Morocco-administered majority; Hassaniya remains the native Sahrawi tongue.
 governanceType: dependent-territory
 iso3166_2_prefix: null
@@ -42,13 +44,18 @@ languageUsage:
     domain: foreign
     speakersShare: 0.20
     sourceId: esh-languages
-# Modern Standard Arabic and Spanish are the officials used by the SADR/Polisario
-# administration (and Spanish the language of the refugee camps' written
-# tradition), while Arabic (with Tamazight as a co-official of Morocco) governs
+# Modern Standard Arabic is the SADR/Polisario administration's official
+# language; Spanish has a long administrative/written-tradition presence in the
+# refugee camps from the Spanish colonial period but is modelled here as
+# foreign, not official, given contested/inconsistent reporting on its formal
+# status. Arabic (with Tamazight as a co-official of Morocco) governs
 # the Morocco-administered majority. Hassaniya (mey) is the native tongue of the
 # Sahrawi (~75% locally spoken), Moroccan Arabic (ary) has spread with settlers
 # into the cities (~40%), and French and Spanish persist as learned
 # administrative/international languages. Local shares are Composite estimates.
+# Note: mey (0.75) and ary (0.40) sum above 1.0 because they describe two
+# overlapping populations (native Sahrawi vs. Morocco-administered settlers),
+# not two disjoint shares of a single population.
 ethnicGroups:
   - group: Sahrawi (Arab-Berber)
     percent: 33.0

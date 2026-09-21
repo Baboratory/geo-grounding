@@ -4,6 +4,10 @@ name:
   local:
     - languageCode: nld
       value: Caribisch Nederland
+    - languageCode: pap
+      value: Hulanda Karibense
+    - languageCode: eng
+      value: Caribbean Netherlands
 climates:
   - koppenCode: Aw
     description: "Tropical; Bonaire has a hot, semi-arid/arid-bias climate (tropical savanna Aw with little rain, ~400-800 mm/yr, strong northeast trade winds, ~28-30°C) with a marked dry season; Saba and Sint Eustatius are more mountainous and wetter (humid tropical, with cloud/elfin forest on Saba's high slopes). Atlantic hurricane season broadly June-November affects the northern islands (Saba/Statia) more than Bonaire."
@@ -48,14 +52,19 @@ sports:
   - Baseball/softball and basketball — popular across the Dutch Caribbean
   - Football (soccer) — played widely; the islands participate in CONCACAF structures in association with the Dutch association
   - Cricket — played on Sint Eustatius and Saba (English-influenced)
+# NOTE: the CBS source below publishes religion per-island, not as a single
+# Caribbean Netherlands aggregate; the rows here are Bonaire's own shares
+# (by far the largest of the three islands by population), not a BES-wide
+# figure. Saba (~50% RC) and Sint Eustatius (~23% RC, with larger Methodist/
+# Adventist shares) differ from Bonaire's profile.
 religions:
-  - name: Roman Catholic
+  - name: Roman Catholic (Bonaire)
     percent: 60.3
     sourceId: bes-cbs-religion
-  - name: No religion / none
+  - name: No religion / none (Bonaire)
     percent: 15.2
     sourceId: bes-cbs-religion
-  - name: Evangelical
+  - name: Evangelical (Bonaire)
     percent: 6.0
     sourceId: bes-cbs-religion
 entertainment:

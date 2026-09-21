@@ -81,8 +81,8 @@ businessRhythm:
 sources:
   - id: vir-trudgill
     name: "U.S. Virgin Islands geography and landmarks"
-    publisher: "Timeanddate.com / Discover USVI (official tourism)"
-    url: "https://www.usviupdate.co"
+    publisher: "Wikipedia (the PR's original usviupdate.co link does not resolve; publisher was also mislabeled as Timeanddate.com/Discover USVI, neither of which the URL was)"
+    url: "https://en.wikipedia.org/wiki/United_States_Virgin_Islands"
     accessedDate: "2026-09-20"
     note: "Basis for the beach, reef and historic-district landmarks and the wet/dry season split."
   - id: vir-park

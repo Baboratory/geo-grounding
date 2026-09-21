@@ -49,11 +49,11 @@ paymentCulture:
     - Debit card (supported at the Bank of Saint Helena's branch in Jamestown)
     - Credit cards (increasingly accepted at hotels and larger retailers)
     - Cash (pounds sterling and Saint Helena pounds; widely used on the islands)
-  # paymentMethodShares intentionally omitted: no official spending survey with
-  # payment-method percentages was found for this territory during verification.
-  # tipping: on Saint Helena, modest tipping for restaurant service and tour
-  # guides is appreciated but discretionary; not an established hard rule, so
-  # left unquantified.
+# paymentMethodShares intentionally omitted: no official spending survey with
+# payment-method percentages was found for this territory during verification.
+# tipping: on Saint Helena, modest tipping for restaurant service and tour
+# guides is appreciated but discretionary; not an established hard rule, so
+# left unquantified.
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml

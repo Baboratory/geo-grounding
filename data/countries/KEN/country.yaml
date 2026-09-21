@@ -40,7 +40,7 @@ languageUsage:
     domain: locallySpoken
     speakersShare: 0.05
     sourceId: knbs-census
-  # The five most populous ethnic languages, share as first/home language
+  # The six most populous ethnic languages, share as first/home language
   # (composite estimates from the 2019 census ethnicity data; Kenya's census
   # records ethnicity and province, and language is captured imperfectly, so
   # these are flagged as estimates).
@@ -52,7 +52,7 @@ languageUsage:
     domain: locallySpoken
     speakersShare: 0.14
     sourceId: knbs-census
-  - languageCode: kal
+  - languageCode: kln
     domain: locallySpoken
     speakersShare: 0.13
     sourceId: knbs-census
@@ -202,7 +202,7 @@ sources:
   - id: kra-vat
     name: "Value Added Tax Act 2013 and current VAT rates (KRA)"
     publisher: "Kenya Revenue Authority"
-    url: "https://www.kra.go.ke/individual/filing-paying/types-of-taxes/value-added-tax-vat"
+    url: "https://www.kra.go.ke/individual/filing-paying/types-of-taxes/value-added-tax"
     year: 2024
     accessedDate: "2026-09-21"
     note: "16% standard VAT; petroleum moved to 16% on 1 July 2023; zero-rated vs exempt distinction."

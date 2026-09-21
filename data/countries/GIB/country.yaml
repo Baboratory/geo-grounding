@@ -60,8 +60,8 @@ paymentCulture:
     - UK pound sterling (accepted interchangeably throughout the territory)
     - Debit/credit cards (Visa and Mastercard widely accepted in shops, restaurants and hotels)
     - Mobile and contactless card payments (widely adopted in the compact town centre)
-  # tipping intentionally omitted: tipping norms in Gibraltar are not well
-  # sourced in reliable published guides, so it was left out rather than guessed.
+# tipping intentionally omitted: tipping norms in Gibraltar are not well
+# sourced in reliable published guides, so it was left out rather than guessed.
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml

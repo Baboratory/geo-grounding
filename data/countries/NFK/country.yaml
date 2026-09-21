@@ -5,6 +5,8 @@ name:
   local:
     - languageCode: eng
       value: Norfolk Island
+    - languageCode: pih
+      value: "Teratri a' Norf'k Ailen"
 flagEmoji: "🇳🇫"
 capital: Kingston
 isSovereign: false
@@ -16,11 +18,17 @@ languageUsage:
     domain: official
     speakersShare: 1.0
     sourceId: nfk-act
-  # Norfuk (also spelled Norf'k) is a co-official language of the island — a
-  # creole of 18th-century English and Tahitian brought by the Pitcairn
-  # community resettled in 1856. It carries no ISO 639-3 code used elsewhere
-  # in this dataset, so it is documented here as a comment rather than a
-  # separate language file. English is official and universally spoken.
+  - languageCode: pih
+    domain: official
+    speakersShare: 1.0
+    sourceId: nfk-norfuk-act-2004
+# Norfuk (also spelled Norf'k) is a co-official language of the island — a
+# creole of 18th-century English and Tahitian brought by the Pitcairn
+# community resettled in 1856, made co-official by the Norfolk Island
+# Language (Norf'k) Act 2004. It shares ISO 639-3 code pih
+# (Pitcairn-Norfolk) with Pitkern, the sister language on the Pitcairn
+# Islands. English is universally spoken; Norfuk is the community's
+# heritage/home language.
 timezones:
   - name: Pacific/Norfolk
     standardUtcOffset: "UTC+11"
@@ -42,7 +50,7 @@ paymentCulture:
   popularMethods:
     - Debit and credit cards (widely accepted in tourism-facing businesses)
     - Cash (Australian dollars)
-  # tipping intentionally omitted: no reliably documented tipping norm found.
+# tipping intentionally omitted: no reliably documented tipping norm found.
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml
@@ -50,6 +58,13 @@ sources:
   - id: nfk-act
     name: "Norfolk Island Act 1979 (Cth)"
     publisher: "Australian Government (Federal Register of Legislation)"
-    url: "https://www.legislation.gov.au/C1969A00061/latest"
+    url: "https://www.legislation.gov.au/C2004A02035/latest"
     accessedDate: "2026-09-20"
-    note: "Norfolk Island's status as a self-governing external territory of Australia and the legal basis for English being the official language."
+    note: "Norfolk Island's status as a self-governing external territory of Australia and the legal basis for English being the official language. (Corrected: the PR's original URL, C1969A00061, is the unrelated Defence Forces Retirement Benefits Act 1969.)"
+  - id: nfk-norfuk-act-2004
+    name: "Norfolk Island Language (Norf'k) Act 2004"
+    publisher: "Wikipedia (secondary source for the Act's existence and effect; no primary Norfolk Island Legislation Database link was found)"
+    url: "https://en.wikipedia.org/wiki/Norfuk_language"
+    year: 2004
+    accessedDate: "2026-09-21"
+    note: "The 2004 Act made Norfuk (Norf'k) a co-official language of Norfolk Island alongside English."

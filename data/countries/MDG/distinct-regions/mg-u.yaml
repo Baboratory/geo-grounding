@@ -10,13 +10,8 @@ climates:
   - koppenCode: BSh
     description: "Hot semi-arid climate in the southwest rain shadow, dry May-October; transitions to hot desert (BWh) in the extreme southwest."
 landmarks:
-  - name: Tsingy de Bemaraha
-    description: "Razor-sharp limestone pinnacles and dry forest in the west; Madagascar's first UNESCO site (1990)."
-    unescoWorldHeritage: true
   - name: Avenue of the Baobabs
     description: "Iconic road lined with monumental Grandidier's baobabs near Morondava."
-  - name: Isalo National Park
-    description: "Sandstone canyons, grassland and endemic flora in the south."
   - name: Ifaty and Anakao
     description: "Coastal fishing villages and coral-reef diving spots south of Toliara."
 culturalTraits:

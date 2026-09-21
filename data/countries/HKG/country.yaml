@@ -77,7 +77,7 @@ legalConstraints:
     sourceId: wp-politics
   - topic: "national security and autonomy tightening"
     description: "Since 2020 the National Security Law for Hong Kong (and the 2023 and 2025 Basic Law amendments) have shifted authority over security and appointments toward Beijing, a live topic in assessments of the SAR's autonomy."
-    sourceId: wp-culture
+    sourceId: wp-politics
 paymentCulture:
   popularMethods:
     - "Octopus card — the ubiquitous stored-value smart card for transit, shops and restaurants"

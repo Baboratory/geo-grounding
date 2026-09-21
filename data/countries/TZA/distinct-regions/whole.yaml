@@ -4,6 +4,8 @@ name:
   local:
     - languageCode: swa
       value: Tanzania
+    - languageCode: eng
+      value: United Republic of Tanzania
 # Generic country-wide fallback content for Tanzania (unitary-large with a
 # curated subset of regions). National-level coverage not specific to one region.
 climates:

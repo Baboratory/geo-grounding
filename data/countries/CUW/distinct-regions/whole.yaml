@@ -6,6 +6,8 @@ name:
       value: Curaçao
     - languageCode: pap
       value: Kòrsou
+    - languageCode: eng
+      value: Curaçao
 climates:
   - koppenCode: BSh
     description: Hot semi-arid (tropical marine) climate, warm and sunny year-round, moderated by northeast trade winds; a drier period most of the year with a wetter season roughly October to December.

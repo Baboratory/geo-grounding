@@ -83,7 +83,7 @@ currency:
   name: Vietnamese dong
 legalConstraints:
   - topic: "official language"
-    description: "Article 5 of the Constitution of the Socialist Republic of Viet Nam (2013) provides that Vietnamese is the national language of the ethnic community and the official language of the State, while all ethnic groups' languages and scripts are respected and protected."
+    description: "Article 5(3) of the Constitution of the Socialist Republic of Viet Nam (2013) states that the national language is Vietnamese, and that every ethnic group has the right to use its own spoken and written language, preserve its identity and promote its fine customs and traditions."
     sourceId: vn-constitution
   - topic: "data protection"
     description: "Vietnam's Personal Data Protection Decree (Decree No. 13/2023/ND-CP, effective 1 July 2023) is the country's first comprehensive personal-data-protection regulation, GDPR-inspired. It governs processing of personal data, requires consent, grants data-subject rights, and is overseen by the Ministry of Public Security, with administrative fines for violations."
@@ -157,7 +157,7 @@ sources:
   - id: pdpa-vn
     name: "Decree No. 13/2023/ND-CP on Personal Data Protection"
     publisher: "LuatVietnam (INCOM International Communications Company; a private legal-database operator, authorized as the sole distributor of the Vietnam News Agency's official gazette English translations — not the Government of Viet Nam directly)"
-    url: "https://english.luatvietnam.vn/decree-no-13-2023-nd-cp-dated-april-17-2023-of-the-government-on-protection-of-personal-data-210737-Doc1.html"
+    url: "https://english.luatvietnam.vn/decree-no-13-2023-nd-cp-dated-april-17-2023-of-the-government-on-personal-data-protection-249791-doc1.html"
     year: 2023
     accessedDate: "2026-09-21"
     note: "Comprehensive personal-data-protection decree in force 1 July 2023; consent-based, GDPR-inspired."

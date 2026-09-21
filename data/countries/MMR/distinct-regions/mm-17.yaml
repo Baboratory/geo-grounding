@@ -10,8 +10,8 @@ climates:
 landmarks:
   - name: Inle Lake (Shan)
     description: "The second-largest lake in Myanmar and a scenic highland destination famed for its floating villages and sunrise views."
-  - name: Taunggyi Oil Field
-    description: "The historic oil-field town of Taunggyi (Shan), historically significant for Myanmar's petroleum industry."
+  - name: Kakku Pagodas
+    description: "A field of over 2,000 closely-packed stupas near Taunggyi, one of Shan State's most striking Buddhist sites."
   - name: Shan Buddhist monasteries
     description: "Numerous hilltop monasteries and pagodas across the Shan highlands."
 culturalTraits:

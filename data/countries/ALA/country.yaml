@@ -23,10 +23,6 @@ languageUsage:
     domain: official
     speakersShare: 1.0
     sourceId: wp-lang
-  - languageCode: fin
-    domain: foreign
-    speakersShare: 0.05
-    sourceId: wp-lang
   - languageCode: swe
     domain: locallySpoken
     speakersShare: 0.88

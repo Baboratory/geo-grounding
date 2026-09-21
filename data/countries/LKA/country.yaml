@@ -17,9 +17,9 @@ isSovereign: true
 # cultural-historical regional identity centred on the Tamil-majority North-East
 # (the former war-affected region) versus the Sinhala-majority South/Centre. The
 # nine provinces are first-tier local authorities with devolved councils but no
-# residual sovereignty, so NOT federal. Curated regions follow the nine ISO
-# 3166-2 provinces (LK-1 Western ... LK-9 Sabaragamuwa); WHOLE is the national
-# fallback.
+# residual sovereignty, so NOT federal. Curated regions are a subset of five of
+# the nine ISO 3166-2 provinces (LK-1 Western, LK-2 Central, LK-3 Southern,
+# LK-4 Northern, LK-5 Eastern); WHOLE is the national fallback.
 governanceType: unitary-large
 iso3166_2_prefix: LK
 hasSubdivisions: true

@@ -174,6 +174,39 @@ author, so it still counts as your contribution.
   requires `hasSubdivisions: false` and `iso3166_2_prefix: null`. See
   DESIGN.md's "Core design decisions" for why.
 
+## Free-text fields `scripts/validate.py` can't check
+
+`landmarks[]`, `animals.popular[]`/`animals.unique[]`, `culturalTraits[]`,
+`traditionalDishes[]`, `traditionalClothing[]`, `entertainment[]`,
+`industries[]`, `sports[]` and `prideOf[]` carry no `sourceId` and never
+will — they're modeled as qualitative/descriptive, same as `paymentCulture`
+and `communicationStyle`. That means the schema has no way to catch a wrong
+entry here the way it catches a bad `languageCode` or an unsourced
+`ethnicGroups.percent`: these fields are exactly as easy to fabricate as
+any other content, and nothing will stop you from doing it by accident.
+
+The same "don't guess" standard that applies to sourced statistics applies
+here too, just without the enforcement backstop:
+
+- **Every landmark you name has to be real, and has to actually belong to
+  the specific country/region file you're putting it in** — not a
+  plausible-sounding name, not a real landmark filed under the wrong
+  province/prefecture/division. If you're not already certain a place is
+  real and located where you're about to put it, look it up before writing
+  it down. Real mistakes this has produced in past PRs: a wholly invented
+  "Taunggyi Oil Field" for Myanmar's Shan State (Taunggyi is the state
+  capital, not an oil town); a garbled "Afulu" in place of Tainan's real
+  Anping Yacht Marina; Seoul-region's Songdo International Business
+  District (actually in Incheon) filed under Gyeonggi Province; the Amami
+  rabbit (endemic to Kagoshima Prefecture) listed as Okinawa wildlife; the
+  Shwedagon Pagoda (in Yangon) described as being "of Mandalay."
+- Same standard for `animals`, `traditionalDishes` and the rest: a species,
+  dish or custom you name should be one you can point to a real source
+  for, even though the field itself carries no `sourceId`.
+- If you're not sure something belongs in a specific curated region rather
+  than the country generically, put it in the `WHOLE` file instead of
+  guessing a region for it.
+
 ## Naming conventions
 
 - `.py` files and any directory that is (or could become) a Python package

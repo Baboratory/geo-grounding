@@ -16,11 +16,11 @@ languageUsage:
     domain: official
     speakersShare: 1.0
     sourceId: pcn-gov-life
-  # Pitkern (https://en.wikipedia.org/wiki/Pitkern) is the everyday home
-  # language of most Pitcairners, but it is not an officially recognized
-  # language and is not associated with a standalone ISO 639-3 entry in this
-  # dataset, so it is documented here as a comment rather than a separate
-  # language file. English remains the sole de jure official language.
+# Pitkern (https://en.wikipedia.org/wiki/Pitkern) is the everyday home
+# language of most Pitcairners, but it is not an officially recognized
+# language and is not associated with a standalone ISO 639-3 entry in this
+# dataset, so it is documented here as a comment rather than a separate
+# language file. English remains the sole de jure official language.
 timezones:
   - name: Pacific/Pitcairn
     standardUtcOffset: "UTC-8"
@@ -40,8 +40,8 @@ paymentCulture:
   popularMethods:
     - Cash (New Zealand dollars) and cards, processed through the Government Treasury Office
     - Online ordering of goods from New Zealand via the supply ship
-  # tipping intentionally omitted: no reliably documented tipping norm for
-  # such a small community.
+# tipping intentionally omitted: no reliably documented tipping norm for
+# such a small community.
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml

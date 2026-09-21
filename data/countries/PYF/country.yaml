@@ -68,8 +68,8 @@ paymentCulture:
   popularMethods:
     - Visa and Mastercard (widely accepted in hotels, restaurants, boutiques, supermarkets on main islands)
     - American Express (less consistently accepted)
-  # tipping intentionally omitted from paymentCulture.tipping: no reliable
-  # source found for Polynesian tipping norms during verification.
+# tipping intentionally omitted from paymentCulture.tipping: no reliable
+# source found for Polynesian tipping norms during verification.
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml

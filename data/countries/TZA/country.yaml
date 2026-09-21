@@ -145,14 +145,14 @@ sources:
   - id: constitution-1977
     name: "Constitution of the United Republic of Tanzania, 1977 (with amendments)"
     publisher: "Constitute Project (comparative constitutions project hosting an official-text translation; not a Government of Tanzania domain)"
-    url: "https://www.constituteproject.org/constitution/Tanzania_2015"
+    url: "https://www.constituteproject.org/constitution/Tanzania_2005"
     year: 1977
     accessedDate: "2026-09-21"
     note: "No de jure official language; Swahili as national language used with English in government and education."
   - id: nbs-census
     name: "2022 Population and Housing Census — Basic Demographic and Socio-Economic Profile and key findings"
     publisher: "National Bureau of Statistics, United Republic of Tanzania"
-    url: "https://www.nbs.go.tz/sensa-2022"
+    url: "https://sensa.nbs.go.tz/"
     year: 2022
     accessedDate: "2026-09-21"
     note: "Population 61.74M; language and ethnic-group context; rural/urban split."

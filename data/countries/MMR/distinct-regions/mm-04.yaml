@@ -11,8 +11,8 @@ landmarks:
   - name: Bagan
     description: "The vast archaeological zone of the Pagan Kingdom (9th-13th c.), a UNESCO World Heritage Site (2019) with over 3,500 Buddhist structures."
     unescoWorldHeritage: true
-  - name: Shwe Dagon Stupa of Mandalay
-    description: "The gilded Golden Stupa at Mandalay, an important monument of the last royal capital."
+  - name: Mahamuni Buddha Temple
+    description: "Mandalay's most revered pagoda, housing the gold-leafed Mahamuni Buddha image; an important monument of the last royal capital."
   - name: Mount Popa
     description: "The flat-topped sacred table mountain linked to nat-worship and pilgrimage."
 culturalTraits:

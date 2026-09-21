@@ -42,6 +42,37 @@ verify) the `url` and compare it against what `publisher` and `note` claim.
 Most real sourcing problems in this dataset have turned out to be a
 mismatch between those three fields, not the mere presence of an estimate.
 
+Two more false-positive patterns worth knowing before you start:
+
+- **A difference between files that looks like a bug may be an established
+  convention instead — grep the dataset before "fixing" it.** Example: this
+  dataset uses both `ara` (the Arabic macrolanguage ISO 639-3 code) and
+  `arb` (Standard Arabic) as the `languageCode` for the `official` Arabic
+  entry, depending on the file — `ara` in `DZA`/`ARE`/`IRQ`/`ESH`/`IRN`/
+  `MRT`, `arb` in `EGY`/`BHR`/`COM`/`DJI`/`ERI`/`JOR`/`KWT`/`LBY`/`OMN`/
+  `QAT`/`SOM`/`SSD`/`TCD` and more. Neither is wrong on its own — both are
+  valid ISO 639-3 codes — but the split is real and predates any single PR.
+  Changing one file to "match" the other without first checking how many
+  *other* files already use the pattern you're about to change risks
+  breaking a working, if imperfect, convention (and, if you delete a
+  `data/languages/*.yaml` file because one file's use of it looked like a
+  mistake, you can break every other file that legitimately depends on it
+  — always `grep -r` for a `languageCode` across `data/countries/` before
+  removing its language file). Flag a real, dataset-wide inconsistency like
+  this as `[hygiene]` for a future cleanup pass, not as a same-file fix.
+- **An automated fetch or search summary can itself be wrong — cross-check
+  before trusting it as the basis for a finding.** A `WebFetch`-style tool
+  reading a poorly-rendered government legal page once reported that
+  Bangladesh's constitutional Article 3 covers the state religion and
+  Article 2A the state language — backwards from reality (Article 3 is
+  "The state language" and Article 2A is "The state religion"; a plain web
+  search of the article text confirmed this immediately). If a single
+  automated read of a source produces a surprising claim — especially one
+  that would mean an already-shipped file is wrong — verify it a second,
+  independent way (a plain search for the specific fact, a different
+  fetch of the same page) before writing it up. Don't let one unreliable
+  tool call become a false "confirmed" finding.
+
 ## What to check
 
 For each country/region file:
@@ -111,6 +142,27 @@ For each country/region file:
    fact. These are cheap to verify and catch real, embarrassing mistakes —
    see the `FSM` timezone case (a Micronesia file that accidentally used
    the Solomon Islands' zone).
+7a. **`landmarks`/`animals`/`culturalTraits`/`traditionalDishes` and similar
+   free-text arrays — check these too, not just the sourced fields.** These
+   fields carry no `sourceId` at all, so `validate.py` cannot catch a wrong
+   or invented entry here the way it can for a `languageUsage` row — this
+   makes them the single highest-yield place to find a fabricated or
+   misplaced fact, and a reviewer who only checks `sourceId`-bearing fields
+   will systematically miss this whole category. Confirmed patterns from
+   past batches: a landmark placed in the wrong curated region (Songdo
+   International Business District, actually in Incheon, filed under
+   Gyeonggi in `KOR/KR-41`; the Amami rabbit, endemic to Kagoshima
+   Prefecture, listed as Okinawa wildlife in `JPN/JP-47`; Kantajew Temple,
+   in Rangpur Division, listed under Rajshahi in `BGD/BD-E`), a real
+   landmark attributed to the wrong city (the Shwedagon Pagoda, in Yangon,
+   described as being "of Mandalay" in `MMR`), and an entry that does not
+   correspond to any real place at all (a "Taunggyi Oil Field" invented for
+   Myanmar's Shan State — Taunggyi is the state capital, not an oil town;
+   "Afulu" as a name for Tainan's real Anping Yacht Marina in `TWN`). For
+   any landmark, animal or dish you don't already know to be real, a single
+   web search for the name plus the region it's attributed to is normally
+   enough to confirm or refute it — do this for at least a sample per file,
+   not zero.
 8. **Plain language, not schema jargon** (`CONTRIBUTING.md` rule 4) — do
    `note`/comment fields read naturally to someone who's never seen this
    schema, or do they lean on internal vocabulary (`locallySpoken`,

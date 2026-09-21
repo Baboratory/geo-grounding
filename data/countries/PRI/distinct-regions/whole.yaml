@@ -4,6 +4,8 @@ name:
   local:
     - languageCode: spa
       value: Puerto Rico
+    - languageCode: eng
+      value: Puerto Rico
 climates:
   - koppenCode: Am
     description: Tropical monsoon / marine trade-wind climate; warm and humid year-round (78-85°F typical), with a distinct wetter season May-November and a drier, sunnier season roughly December-April. Trade winds moderate the heat; the island's mountainous interior (e.g. El Yunque) is cooler and far rainier than the coasts.

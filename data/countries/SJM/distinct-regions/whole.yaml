@@ -73,14 +73,14 @@ businessRhythm:
 sources:
   - id: ssb-population-2021
     name: "Svalbard population, 2021 (by nationality)"
-    publisher: "Statistics Norway (SSB)"
+    publisher: "Wikipedia (secondary source; primary: Statistics Norway, SSB)"
     url: "https://en.wikipedia.org/wiki/Svalbard"
     year: 2021
     accessedDate: "2026-09-20"
     note: "Longyearbyen's settlement size (~2,600) and the Norwegian/Russian balance behind the WHOLE region's multicultural framing."
   - id: svalbard-act-1925
     name: "Svalbard background — geography and seasons"
-    publisher: "Government of Norway / Wikipedia"
+    publisher: "Wikipedia (secondary source; primary: Svalbardloven, 1925 Svalbard Act / 1920 Svalbard Treaty)"
     url: "https://en.wikipedia.org/wiki/Svalbard"
     accessedDate: "2026-09-20"
     note: "West-coast Gulf-Stream-influenced climate, Longyearbyen, the Seed Vault, Ny-Ålesund, Beerenberg on Jan Mayen, Svalbard reindeer endemic, and the polar-night/midnight-sun seasons used for the WHOLE region."

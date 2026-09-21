@@ -8,7 +8,7 @@ name:
 flagEmoji: "🇹🇭"
 capital: Bangkok
 isSovereign: true
-# Classified unitary-large: Thailand's population (~65-70M, 2010 census 64.8M)
+# Classified unitary-large: Thailand's population (~65-70M, 2010 census ~66.0M)
 # is far above the ~20-25M small-state threshold, it is a unitary state (a
 # constitutional monarchy with strong central government under the 2017
 # Constitution), and it has a genuine, widely recognised regional cultural
@@ -22,8 +22,10 @@ governanceType: unitary-large
 iso3166_2_prefix: TH
 hasSubdivisions: true
 languageUsage:
-  # Thai is the sole official and national language under Section 43 of the
-  # 2017 Constitution; official domain is a legal-status flag = 1.0.
+  # Thai is the de facto national/official language. No provision of the 2017
+  # Constitution establishes an official language; the basis is the National
+  # Language Policy (approved 2010, drafted by the Royal Institute of
+  # Thailand). Official domain is a legal-status flag = 1.0.
   - languageCode: tha
     domain: official
     speakersShare: 1.0
@@ -46,7 +48,7 @@ languageUsage:
     sourceId: nso-2010
   - languageCode: sou
     domain: locallySpoken
-    speakersShare: 0.08
+    speakersShare: 0.075
     sourceId: nso-2010
   - languageCode: mfa
     domain: locallySpoken
@@ -84,7 +86,7 @@ currency:
   name: Thai baht
 legalConstraints:
   - topic: "official language"
-    description: "Section 43 of the Constitution of the Kingdom of Thailand B.E. 2560 (2017) provides that the Thai language is the official national language, while the State must support the use of local languages as appropriate."
+    description: "Thailand has no constitutional official-language clause; Section 43 of the 2017 Constitution is a community-rights provision, not a language provision. Thai's status as the national/official language rests on the National Language Policy approved by the Cabinet in 2010, drafted by the Royal Institute of Thailand, which reaffirms Thai as the national language while the State supports local languages."
     sourceId: th-constitution
   - topic: "data protection"
     description: "The Personal Data Protection Act B.E. 2562 (2019), fully in force since June 2022, is Thailand's first consolidated data-protection law. Modeled on the EU GDPR, it governs collection, use and disclosure of personal data, grants data-subject rights (access, correction, erasure), requires consent for most processing, has extraterritorial reach, and imposes administrative fines of up to THB 5 million plus criminal penalties for non-compliance."
@@ -136,16 +138,16 @@ distinct-regions:
     adminUnitCodes: [TH-94]
 sources:
   - id: th-constitution
-    name: "Constitution of the Kingdom of Thailand B.E. 2560 (2017) — Section 43 (official language)"
-    publisher: "Administrative Court of Thailand (admincourt.go.th; the PR's original ILO NATLEX link no longer resolves and was also mislabeled as 'The Government Gazette')"
-    url: "https://www.admincourt.go.th/admincourt/en/law_detail.php?id=495"
-    year: 2017
+    name: "Thailand's National Language Policy (approved 2010, drafted by the Royal Institute of Thailand)"
+    publisher: "The Nation Thailand (news coverage of the policy; corrected from the PR's original citation, which misattributed Section 43 of the 2017 Constitution — a community-rights clause, not a language provision)"
+    url: "https://www.nationthailand.com/perspective/30219853"
+    year: 2010
     accessedDate: "2026-09-21"
     note: "Thai as the official national language; support for local languages."
   - id: nso-2010
     name: "The 2010 Population and Housing Census (National Statistical Office of Thailand)"
     publisher: "National Statistical Office of Thailand (NSO)"
-    url: "https://www.nso.go.th/sites/2014en/Pages/Census/Population%20and%20Housing.aspx"
+    url: "https://www.nso.go.th/nsoweb/index?set_lang=en"
     year: 2010
     accessedDate: "2026-09-21"
     note: "Ethnicity classified as ~95.9% Thai; language spoken at home figures (Central Thai ~34%, Isan/Lao ~25%, Northern Thai ~10%, Southern Thai ~7.5%, Pattani Malay ~2%)."
@@ -172,7 +174,7 @@ sources:
   - id: ocpb-act
     name: "Consumer Protection Act B.E. 2522 (1979) and amendments"
     publisher: "Office of the Consumer Protection Board (Thailand)"
-    url: "https://www.ocpb.go.th/en"
+    url: "https://www.ocpb.go.th/index_en.php"
     year: 1979
     accessedDate: "2026-09-21"
     note: "Consumer protection framework covering product quality, contracts and redress."

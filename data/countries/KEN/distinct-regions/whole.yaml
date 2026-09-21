@@ -78,7 +78,7 @@ entertainment:
 traditionalDishes:
   - season: allYear
     items:
-      - "Ugali (ugali), maize porridge, Kenya's staple"
+      - "Ugali, a stiff maize porridge, Kenya's staple"
       - "Nyama choma — grilled meat with tomatoes and peppers"
       - "Chapo (chapati) and stir-fried vegetables"
       - "Suya and brochettes of grilled meat"
@@ -89,7 +89,7 @@ traditionalClothing:
   - season: allYear
     items:
       - "Shuka — Maasai blanket/shawl worn over the shoulder"
-      - "Kanga and kitenge (chinzel) printed cotton wraps for women"
+      - "Kanga and kitenge printed cotton wraps for women"
       - "Modern African-print and business attire"
 seasonCalendar:
   - season: dry

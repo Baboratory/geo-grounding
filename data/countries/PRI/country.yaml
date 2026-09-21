@@ -5,6 +5,8 @@ name:
   local:
     - languageCode: spa
       value: Puerto Rico
+    - languageCode: eng
+      value: Puerto Rico
 flagEmoji: "🇵🇷"
 capital: San Juan
 isSovereign: false
