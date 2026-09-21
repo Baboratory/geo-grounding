@@ -1,0 +1,84 @@
+code: WHOLE
+name:
+  eng: Tokelau
+  local:
+    - languageCode: eng
+      value: Tokelau
+    - languageCode: tkl
+      value: Tokelau
+# Generic country-wide fallback content for Tokelau (dependent-territory,
+# single synthetic whole region). Three coral atolls with a combined land area
+# of only ~10 km².
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest / equatorial maritime climate — hot and humid year-round, with a wetter cyclone season Nov-Apr."
+landmarks:
+  - name: The three atolls (Atafu, Nukunonu, Fakaofo)
+    description: "Three low-lying coral atolls with combined land of ~10 km², surrounding turquoise lagoons; Fakaofo is the 'chiefly island'."
+  - name: Swains Island (Olohega) dispute
+    description: "Swains Island forms part of the same archipelago but is administered by the US as part of American Samoa, under an ongoing territorial dispute."
+culturalTraits:
+  - "Governance by chiefly clans and village Councils of Elders (Taupulega) on each atoll"
+  - "Transmitted oral traditions, distinctive music and art forms with Polynesian mythology centred on the god Tui Tokelau"
+  - "Subsistence lifestyle built around fishing and coconut: a diet reliant on fish, coconut and pandanus"
+  - "Deep Christian faith (Protestant on Atafu, Catholic on Nukunonu, both on Fakaofo)"
+prideOf:
+  - "Tokelauan language and cultural heritage shared across the three atolls"
+  - "Being the world's first 100% solar-powered nation/territory — a global renewable-energy leader"
+  - "The dramatic 2011 shift to the west side of the International Date Line"
+  - "Community cohesion despite living spread across remote atolls"
+animals:
+  popular:
+    - "Green sea turtles"
+    - "Tropical reef fish"
+    - "Coconut crabs"
+    - "Seabirds"
+  unique:
+    - "Rich coral reef and lagoon marine life of the three atolls"
+    - "Minimal native land fauna — the highest point is only ~5 m"
+industries:
+  - "New Zealand aid — the dominant source of funding"
+  - "Government services and administration via the General Fono"
+  - "Subsistence fishing and coconut/ocean-based livelihoods"
+  - "Remittances and philately (stamps); administration of the valuable .tk internet domain"
+sports:
+  - "Tokelau Games — an annual event in which over half the population takes part and 'all of Tokelau virtually stands still'"
+  - "Rugby sevens"
+  - "Netball"
+  - "Kilikiti (Polynesian cricket)"
+  - "Table tennis (Tokelau was the first sport to gain continental membership, joining the Oceania Table Tennis Federation)"
+religions:
+  - name: Christian (Protestant on Atafu, Catholic on Nukunonu, both on Fakaofo)
+    percent: 97.0
+    sourceId: wp-culture
+  - name: Other / no religion
+    percent: 3.0
+    sourceId: wp-culture
+# Religion is overwhelmingly Christian; figures are an estimate reflecting the
+# strongly Christian denominations noted in the research.
+entertainment:
+  - season: allYear
+    items:
+      - "Church services and community gatherings — central to atoll life"
+      - "Lagoon fishing, swimming and reef days"
+      - "Traditional song-and-dance showcases, especially during Tokelau Games"
+  - season: dry
+    items:
+      - "Peak reef and lagoon activity days"
+  - season: wet
+    items:
+      - "Indoor and community cultural festivities"
+      - "Annual Tokelau Games (in excess of 50% of the population participate)"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — culture and demographics"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Tokelau"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Religion figure is an estimate reflecting the Protestant-on-Atafu / Catholic-on-Nukunonu / both-on-Fakaofo demographics."

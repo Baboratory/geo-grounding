@@ -1,0 +1,86 @@
+code: WHOLE
+name:
+  eng: American Samoa
+  local:
+    - languageCode: eng
+      value: American Samoa
+    - languageCode: smo
+      value: "Amerika Sāmoa"
+# Generic country-wide fallback content for American Samoa
+# (dependent-territory, single synthetic whole region). The five inhabited
+# volcanic islands (Tutuila, Aunu'u, Ofu, Olosega, Ta'ū) plus uninhabited Rose
+# Atoll.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest / maritime climate — hot and humid year-round, with a wet cyclone season (Nov-Apr) and a drier May-Oct trade-wind season."
+landmarks:
+  - name: Pago Pago Harbor
+    description: "The capital area on Tutuila, a dramatic volcanic harbor ringed by cliffs — the territory's main port and government seat."
+  - name: National Park of American Samoa
+    description: "The only US national park in the Southern Hemisphere, covering rainforest on Tutuila, Ofu and Ta'ū with the rare large fruit bat."
+  - name: Vai'ava Strait and Manu'a Islands
+    description: "The rugged volcanic Manu'a group (Ofu, Olosega, Ta'ū) — the heart of the traditional Samoan way of life."
+culturalTraits:
+  - "Fa'asamoa — the Samoan way: communal living centred on the 'aiga (extended family), village chiefs (matai) and councils (fono)"
+  - "Communally held customary land, largely protected from outside sale"
+  - "Deep Christian faith (motto 'Samoa, Let God Be First'; overwhelmingly Protestant), with prayer central to daily life"
+  - "Traditional tattooing (tatau), woven mats and oral heritage shared across the Samoan islands"
+prideOf:
+  - "Preserving the Fa'asamoa way of life while being a US territory"
+  - "The legendary Polynesian navigational heritage of the Samoans"
+  - "The Territory's strong family and village cohesion"
+animals:
+  popular:
+    - "Large fruit bats (pe'a vao) — a national symbol of the National Park"
+    - "Green sea turtles"
+    - "Tropical reef fish and marine life"
+    - "Flying foxes"
+  unique:
+    - "Home of the rare Samoan fruit bat and unique rainforest ecosystems (only US territory south of the equator)"
+    - "Rich coral reef life including around the Manu'a islands"
+industries:
+  - "US government expenditure — a dominant share of the territory economy"
+  - "Tuna canneries (formerly the largest industry; StarKist cannery remains)"
+  - "Tourism (modest, centred on the National Park and Pago Pago)"
+  - "Subsistence agriculture (taro, breadfruit, bananas, coconut) and fishing"
+  - "Remittances"
+sports:
+  - "American football (gridiron) — very popular"
+  - "Rugby union"
+  - "Basketball"
+  - "Volleyball and traditional Polynesian games"
+religions:
+  - name: Christian (overwhelmingly Protestant, incl. Congregational with Catholic and other denominations)
+    percent: 99.35
+    sourceId: wp-culture
+  - name: Other / unaffiliated
+    percent: 0.65
+    sourceId: wp-culture
+# Religion is overwhelmingly Christian (99.35% per 2020 figures); 'other' is a
+# residual.
+entertainment:
+  - season: allYear
+    items:
+      - "Church services and family/village gatherings — central to weekly life"
+      - "Lagoon and reef days, swimming, fishing"
+      - "Samoan song, dance (siva) and community feasts"
+  - season: dry
+    items:
+      - "Peak beach, snorkelling and National Park hiking days (May-Oct)"
+  - season: wet
+    items:
+      - "Indoor and community cultural festivities"
+      - "Flag Day celebrations (17 April) — the territory's main annual festival"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — culture and demographics"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/American_Samoa"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Religion figure: Christian 99.35% (2020), overwhelmingly Protestant; 'other' is a residual."

@@ -1,0 +1,88 @@
+code: WHOLE
+name:
+  eng: Cook Islands
+  local:
+    - languageCode: eng
+      value: Cook Islands
+    - languageCode: rar
+      value: "Kūki 'Āirani"
+# Generic country-wide fallback content for the Cook Islands (unitary-small,
+# single synthetic whole region). The 15-island Southern/Northern split is
+# geographic rather than a curated cultural-historical regional identity.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest / maritime equatorial climate on most islands, with a warm wet season (Nov-Apr, cyclone season) and a drier, cooler trade-wind season May-Oct."
+landmarks:
+  - name: Rarotonga and Aitutaki lagoon
+    description: "Rarotonga is the main island and tourism gateway; Aitutaki is famed for its turquoise lagoon and sand cays — the iconic South Pacific image of the country."
+  - name: Marae Moana
+    description: "Established in 2017, Marae Moana is the world's largest marine protected area by size, covering the entire Cook Islands EEZ (1.96 million km²)."
+  - name: National flower tiare māori
+    description: "The fragrant gardenia-like national flower (tiare māori) is a national symbol worn behind the ear and used in leis and oils."
+culturalTraits:
+  - "Strong extended-family (kopu tangata) kinship and communal village obligations"
+  - "House of Ariki — a parliament of hereditary chiefs advising on tradition and land matters"
+  - "Tivaevae — vibrant hand-stitched patchwork quilts, a cherished communal art form introduced by missionary wives"
+  - "Deep Christian faith (predominantly Cook Islands Christian Church/Protestant) — prayer opens community and government events"
+prideOf:
+  - "Ocean voyaging and seafaring Polynesian heritage"
+  - "Marae Moana — the world's largest marine protected area"
+  - "Famous residents such as the global fame of the 'Cook Islands' connection to the Moana myth"
+  - "Vibrant contemporary art and international artists based on Rarotonga"
+animals:
+  popular:
+    - "Green sea turtles"
+    - "Tropical reef fish and marine life"
+    - "Kuhl's lorikeet (re-introduced to Atiu)"
+    - "Polynesian rat (kiore) and ship rat (introduced)"
+  unique:
+    - "Peppermint angelfish — one of the world's most expensive marine aquarium fish (native to the surrounding waters)"
+    - "Rich reef and pelagic fish of the EEZ (tuna)"
+industries:
+  - "Tourism — the country's main industry and leading economic element (over 168,000 visitors in 2018, mostly to Rarotonga and Aitutaki)"
+  - "Offshore banking and financial services"
+  - "Black pearl farming (especially the Northern atolls Manihiki and Rakahanga)"
+  - "Marine and fruit exports (noni, tropical fruit)"
+  - "Government services and New Zealand aid"
+sports:
+  - "Rugby league — the most popular and the national sport"
+  - "Rugby union"
+  - "Netball (women)"
+  - "Association football (soccer)"
+  - "Traditional dance and outrigger canoe events"
+religions:
+  - name: Christian (predominantly Cook Islands Christian Church/Protestant; with Catholic and other denominations)
+    percent: 96.0
+    sourceId: wp-culture
+  - name: Other / no religion
+    percent: 4.0
+    sourceId: wp-culture
+# Religion is overwhelmingly Christian; figures are an estimate reflecting the
+# strongly Protestant CICC-majority demographics noted in the research.
+entertainment:
+  - season: allYear
+    items:
+      - "Church services and community/choral events — central to weekly life"
+      - "Lagoon and reef swimming, fishing and beach days"
+      - "Tivaevae (quilt-making) gatherings and traditional dance performances"
+  - season: dry
+    items:
+      - "Peak beach, lagoon and diving season for visitors (May-Oct)"
+  - season: wet
+    items:
+      - "Indoor community and church festivities"
+      - "Constitution Day celebrations (first Monday of August)"
+      - "Island cultural festivals and song-and-dance evenings"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — culture and demographics"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Cook_Islands"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Religion figure is an estimate reflecting the strongly Protestant (Cook Islands Christian Church) majority demographics."

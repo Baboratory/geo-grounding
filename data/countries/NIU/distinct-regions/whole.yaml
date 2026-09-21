@@ -1,0 +1,87 @@
+code: WHOLE
+name:
+  eng: Niue
+  local:
+    - languageCode: eng
+      value: Niue
+    - languageCode: niu
+      value: "Niuē"
+# Generic country-wide fallback content for Niue (unitary-small, single
+# synthetic whole region). Known as 'The Rock of Polynesia' — one of the
+# world's largest raised coral islands.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate — warm year-round; a wet season Nov-Apr and a drier May-Oct."
+landmarks:
+  - name: Limu Pools and coastal caves
+    description: "Natural limestone arch at Limu Pools and coastal caves along the island's raised coral cliffs are famed attractions."
+  - name: The Rock of Polynesia
+    description: "Niue is a single large raised coral island ~60 m at its centre, known as 'The Rock' — one of the world's largest coral islands."
+  - name: Breath-taking coastal walks and blowholes
+    description: "Drift along the rugged coastline with blowholes, chasms and pristine coral reef."
+culturalTraits:
+  - "Hiapo — traditional barkcloth (tapa) art made from paper mulberry inner bark, using natural dyes and stencils"
+  - "Takalo — the most prominent traditional (formerly war) dance, now a ceremonial welcome for dignitaries"
+  - "Tā Mē — a group song-and-dance performance celebrating weddings, openings and milestones"
+  - "Strong Christian faith (predominantly Ekklesia Niue/Protestant), with the church central to village life"
+prideOf:
+  - "Being the world's first Dark Sky Sanctuary country (designated 2020 the first entire country)"
+  - "Aims to be the world's first fully organic nation"
+  - "Being a global leader in renewable energy (80% renewable target by 2025/26)"
+  - "The distinctive heritage of the Vagahau Niue language and hiapo art"
+animals:
+  popular:
+    - "Green sea turtles"
+    - "Humpback whales (in surrounding waters, whale season Jul-Oct)"
+    - "Tropical reef fish and coconut crabs"
+    - "Seabirds"
+  unique:
+    - "Rich coral reef and deep-sea life of the EEZ, including spiny lobster (freshly caught)"
+    - "Minimal native terrestrial fauna on the raised coral island"
+industries:
+  - "Tropical agriculture (taro, coconut, fruits and vegetables) and fisheries"
+  - "Tourism (small but growing, focused on the unique reef, caves and whale-watching)"
+  - "New Zealand aid — a dominant share of the budget"
+  - "Remittances from the Niuean diaspora in New Zealand"
+  - "Philately (Niue stamps and collector coins, including the Niue dollar)"
+sports:
+  - "Rugby union — the most popular sport, played by men and women (2008 FORU Oceania Cup champions)"
+  - "Netball (women)"
+  - "Rugby league"
+  - "Lawn bowls and nine-hole golf at Fonuakula"
+  - "Traditional dance and Tā Mē performances at festivals"
+religions:
+  - name: Christian (predominantly Protestant, incl. Ekklesia Niue; with Catholic and other denominations)
+    percent: 96.0
+    sourceId: wp-culture
+  - name: Other / no religion
+    percent: 4.0
+    sourceId: wp-culture
+# Religion is overwhelmingly Christian; figures are an estimate reflecting the
+# strongly Protestant demographics of Niue noted in the research.
+entertainment:
+  - season: allYear
+    items:
+      - "Church services and community gatherings — central to weekly life"
+      - "Takalo and Tā Mē traditional dance performances"
+      - "Reef and beach days, fishing and coastal walks"
+  - season: dry
+    items:
+      - "Peak coastal, diving and whale-watching days (May-Oct, main tourist season)"
+  - season: wet
+    items:
+      - "Indoor and community cultural festivities"
+      - "National events and village celebrations"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — culture and demographics"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Niue"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Religion figure is an estimate reflecting the strongly Protestant (Ekklesia Niue) majority demographics."

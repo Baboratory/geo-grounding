@@ -1,0 +1,138 @@
+alpha3: ASM
+alpha2: AS
+name:
+  eng: American Samoa
+  local:
+    - languageCode: eng
+      value: American Samoa
+    - languageCode: smo
+      value: "Amerika Sāmoa"
+flagEmoji: "🇦🇸"
+capital: "Pago Pago"
+isSovereign: false
+# Unincorporated and unorganized territory of the United States. The eastern
+# part of the Samoan archipelago (five inhabited volcanic islands plus the
+# uninhabited Rose Atoll). Classified dependent-territory with a single
+# synthetic WHOLE region per the governance rule for non-sovereign ISO 3166-1
+# entries.
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: smo
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: smo
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: wp-lang
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.8
+    sourceId: wp-lang
+# Samoan and English are both official. Samoan is the everyday language of the
+# majority; English is widely used in government, business and education.
+# LocallySpoken shares are estimates.
+ethnicGroups:
+  - group: Samoan (native Pacific Islander)
+    percent: 83.2
+    sourceId: wp-ethnic
+  - group: Asian (incl. Filipino, Chinese, Korean)
+    percent: 5.8
+    sourceId: wp-ethnic
+  - group: Other Pacific Islander
+    percent: 5.5
+    sourceId: wp-ethnic
+  - group: Mixed
+    percent: 4.4
+    sourceId: wp-ethnic
+  - group: Other
+    percent: 1.1
+    sourceId: wp-ethnic
+timezones:
+  - name: Pacific/Pago_Pago
+    standardUtcOffset: "UTC-11"
+    observesDst: false
+# American Samoa is on a single timezone UTC-11 (Samoa Standard Time) year-round
+# with no DST — unlike independent Samoa, it did not cross the International
+# Dateline in 2011.
+currency:
+  code: USD
+  symbol: "$"
+  name: United States dollar
+legalConstraints:
+  - topic: "official languages"
+    description: "Samoan and English are both official languages of American Samoa."
+    sourceId: wp-lang
+  - topic: "US territory status"
+    description: "American Samoa is an unincorporated, unorganized US territory. Its people are US nationals but not US citizens (a status unique among US territories); US federal civil and criminal jurisdiction largely applies."
+    sourceId: wp-politics
+  - topic: "fa'a Samoa customary law"
+    description: "The Fa'asamoa (Samoan way) — customary communal land tenure and the 'aiga extended-family system — is constitutionally protected; most land is held communally and its sale to non-Samoans is restricted."
+    sourceId: wp-culture
+  - topic: "Sunday observance"
+    description: "The deeply Christian culture (the motto 'Samoa, Let God Be First') observes strong Sunday-rest traditions across villages."
+    sourceId: wp-culture
+paymentCulture:
+  popularMethods:
+    - "United States dollar (USD) is the official currency"
+    - "Cash is widely used in the small island economy"
+    - "US financial rails and ATMs; bank services via American Samoa Bank and Bank of Hawaii branches"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary"
+    autoIncludedInBill: false
+    note: "Tipping is generally not expected."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Communal 'Fa'asamoa' culture structured around the 'aiga (extended family) and village chiefs (matai) and councils (fono); respect for elders and titles is paramount."
+  greetingNorms: "Greet warmly with a handshake and smile; '(Talofa!' is the Samoan welcome."
+  meetingEtiquette: "Meetings open with prayer, reflecting deep Christian tradition; defer to matai chiefs, value consensus and relationship-building over speed."
+  topicsToAvoid:
+    - "Criticizing matai (chiefs) or the church"
+    - "Disregarding Fa'asamoa custom and village protocol"
+  giftGivingNotes: "Modest gifts and contributing food to church, family and village events are customary and appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: wp-lang
+    name: "Wikipedia — American Samoa (Languages)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/American_Samoa#Languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Official languages Samoan and English; Samoan the everyday language for most."
+  - id: wp-ethnic
+    name: "Wikipedia — American Samoa (Demographics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/American_Samoa"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Ethnic groups: Samoan 83.2%, Asian 5.8%, other Pacific Islander 5.5%, mixed 4.4%, other 1.1%."
+  - id: wp-politics
+    name: "Wikipedia — American Samoa (Politics, US territory status)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/American_Samoa"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Unincorporated/unorganized US territory; US nationals (not citizens); Fono legislature; Governor."
+  - id: wp-culture
+    name: "Wikipedia — American Samoa (Culture, Fa'asamoa)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/American_Samoa"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Fa'asamoa communal lifestyle; matai chiefs and fono councils; 'aiga extended family; communal land tenure."
+  - id: iso-smo
+    name: "ISO 639-3 entry: smo — Samoan"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/smo"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code smo = Samoan (Active, Individual, Living)."

@@ -1,0 +1,124 @@
+alpha3: TKL
+alpha2: TK
+name:
+  eng: Tokelau
+  local:
+    - languageCode: eng
+      value: Tokelau
+    - languageCode: tkl
+      value: Tokelau
+flagEmoji: "🇹🇰"
+capital: Atafu
+isSovereign: false
+# Dependent territory of New Zealand. Three coral atolls (Atafu, Nukunonu,
+# Fakaofo) with a combined land area of ~10 km². Classified dependent-territory
+# with a single synthetic WHOLE region per the governance rule for
+# non-sovereign ISO 3166-1 entries.
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: tkl
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: tkl
+    domain: locallySpoken
+    speakersShare: 0.94
+    sourceId: wp-lang
+# Tokelauan and English are both official. ~94% of the population speak
+# Tokelauan as their first language.
+ethnicGroups:
+  - group: Tokelauan (Polynesian)
+    percent: 88.6
+    sourceId: wp-ethnic
+  - group: Other (incl. Samoan and other Pacific Islanders)
+    percent: 11.4
+    sourceId: wp-ethnic
+# Ethnic composition: predominantly Tokelauan Polynesian; 'other' reflects the
+# ~45% of residents born overseas (mostly Samoa or NZ). Figures are an estimate.
+timezones:
+  - name: Pacific/Fakaofo
+    standardUtcOffset: "UTC+13"
+    observesDst: false
+# Tokelau shifted from UTC-11 to UTC+13 on 29 December 2011 (skipping 30 Dec),
+# moving to the west side of the International Date Line, and observes no DST.
+currency:
+  code: NZD
+  symbol: "$"
+  name: New Zealand dollar
+legalConstraints:
+  - topic: "official languages"
+    description: "Tokelauan and English are both official languages."
+    sourceId: wp-lang
+  - topic: "dependent territory of New Zealand"
+    description: "Tokelau is a dependent territory of New Zealand; New Zealand law applies only where specifically extended, and NZ provides the largest share of funding. Tokelauans are New Zealand citizens."
+    sourceId: wp-politics
+  - topic: "village governance"
+    description: "Each atoll village enacts its own laws regulating daily life through its Taupulega (Council of Elders); the General Fono holds national legislative power."
+    sourceId: wp-politics
+  - topic: "Sunday observance"
+    description: "The strongly Christian culture observes Sunday as a day of rest and church; commercial activity is limited on Sundays."
+    sourceId: wp-culture
+paymentCulture:
+  popularMethods:
+    - "Largely cash-based, island economy using the New Zealand dollar"
+    - "Limited financial infrastructure; the territory relies heavily on remittances"
+    - "Government services funded substantially by New Zealand aid"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary"
+    autoIncludedInBill: false
+    note: "Tipping is generally not expected."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Small atoll society governed by chiefly clans and village Councils of Elders (Taupulega); collectivism and respect for elders are central."
+  greetingNorms: "Greet with 'Mālo ni' (Tokelauan) or a warm handshake."
+  meetingEtiquette: "Meetings value consensus and are opened by elders or with prayer; relationships and community standing matter more than speed."
+  topicsToAvoid:
+    - "Criticizing village elders or church authority"
+    - "Disregarding island customs"
+  giftGivingNotes: "Contributing food to community and church events is customary and appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: wp-lang
+    name: "Wikipedia — Tokelau (Languages)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Tokelau#Languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Official languages Tokelauan and English; ~94% speak Tokelauan as first language."
+  - id: wp-ethnic
+    name: "Wikipedia — Tokelau (Demographics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Tokelau"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "~45% of residents born overseas (mostly Samoa or NZ); predominantly Tokelauan Polynesian. Basis for ethnic estimate."
+  - id: wp-politics
+    name: "Wikipedia — Tokelau (Government, dependent territory of NZ)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Tokelau"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Dependent territory of NZ; Tokelau Islands Act 1948; Taupulega councils; General Fono; NZ citizenship."
+  - id: wp-culture
+    name: "Wikipedia — Tokelau (Culture)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Tokelau"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Strong Christian tradition; Tokelau Games; kilikiti; chiefly clan culture."
+  - id: iso-tkl
+    name: "ISO 639-3 entry: tkl — Tokelauan"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/tkl"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code tkl = Tokelauan (Active, Individual, Living)."
