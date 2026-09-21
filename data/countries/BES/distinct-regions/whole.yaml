@@ -1,0 +1,138 @@
+code: WHOLE
+name:
+  eng: Caribbean Netherlands
+  local:
+    - languageCode: nld
+      value: Caribisch Nederland
+climates:
+  - koppenCode: Aw
+    description: "Tropical; Bonaire has a hot, semi-arid/arid-bias climate (tropical savanna Aw with little rain, ~400-800 mm/yr, strong northeast trade winds, ~28-30°C) with a marked dry season; Saba and Sint Eustatius are more mountainous and wetter (humid tropical, with cloud/elfin forest on Saba's high slopes). Atlantic hurricane season broadly June-November affects the northern islands (Saba/Statia) more than Bonaire."
+landmarks:
+  - name: Washington Slagbaai National Park and salt flats (Bonaire)
+    description: Bonaire's northern national park, together with the southern solar salt pans whose pink flamingo colonies and 1850s slave huts are a signature sight.
+  - name: Kralendijk (Bonaire)
+    description: The capital and main port of Bonaire on the sheltered leeward west coast; hub of diving and eco-tourism.
+  - name: Mount Scenery (Saba)
+    description: A dormant stratovolcano summit at 887 m — the highest point in the Kingdom of the Netherlands — within Mount Scenery National Park, home to rainforest and cloud/elfin forest.
+  - name: The Quill volcano crater and Oranjestad (Sint Eustatius)
+    description: The Quill is a dormant stratovolcano (601-609 m) with a large rainforest crater; nearby Oranjestad, the historic capital, recalls the island's 18th-century free-port 'Golden Rock' era when it was the first to salute the US flag (1776).
+culturalTraits:
+  - Dutch-Caribbean identity — three islands fused into the Dutch state as special municipalities (2010), sharing Dutch administration, law, education and monarchy alongside distinct island cultures
+  - Diving and eco-tourism culture — world-class shore/scuba diving, reef and marine protection, birdwatching and hiking
+  - Saba Lace — a distinctive needlework and lace-making tradition developed into the famous Saban lace, a notable textile craft
+  - Multilingual society — Dutch + Papiamento (Bonaire) + English (Saba/Statia) are official, with high levels of multilingualism
+  - Ecotourism-led economy and preservation ethos — tourism depends on protecting the islands' natural beauty
+prideOf:
+  - Being part of the Kingdom of the Netherlands with Dutch legal and governance rights (Dutch citizenship, voting in Dutch elections)
+  - Mount Scenery as the highest point of the Kingdom of the Netherlands
+  - The pristine natural environment — Bonaire's salt flats and flamingos and protected marine park, and Saba's rainforest volcano
+  - The historic 'Golden Rock' legacy of Sint Eustatius — the first foreign salute to the United States flag (16 November 1776)
+  - Distinct island identities and cultural craft — Saba Lace and the Papiamento language on Bonaire
+animals:
+  popular:
+    - Caribbean flamingo (Phoenicopterus ruber) — Bonaire's signature bird, breeding in and around the southern salt pans
+    - Sea turtles (green, hawksbill, loggerhead) — nesting and foraging in Bonaire and Statia waters, with a major protection programme
+    - Caribbean iguana (Iguana iguana) — common on Saba and the BES
+  unique:
+    - Saban anole (Anolis sabanus) — the only island-endemic vertebrate of Saba
+    - Red-bellied Racer (Alsophis rufiventris) — a snake limited to Saba and Sint Eustatius, listed on the IUCN Red List
+    - The Coquee tree frog (Eleutherodactylus johnstonei) — the celebrated sound of Saba nights
+    - Large seabird colonies — Saba hosts one of the region's largest red-billed tropicbird breeding populations
+industries:
+  - Tourism — diving and eco-tourism is the dominant engine (over half the businesses on Bonaire are tourism-linked)
+  - "Salt production — Bonaire: Cargill's solar salt works producing pure solar sea salt, with pans covering ~13% of the island"
+  - Oil transshipment and storage — Bonaire has oil storage/transhipment facilities, and Sint Eustatius hosts an oil-storage and bunkering terminal
+  - Financial services — a modest banking/insurance/financial sector, mainly on Bonaire
+sports:
+  - Diving and water sports — scuba/shore diving, snorkelling and sailing are the signature activities across the BES
+  - Baseball/softball and basketball — popular across the Dutch Caribbean
+  - Football (soccer) — played widely; the islands participate in CONCACAF structures in association with the Dutch association
+  - Cricket — played on Sint Eustatius and Saba (English-influenced)
+religions:
+  - name: Roman Catholic
+    percent: 60.3
+    sourceId: bes-cbs-religion
+  - name: No religion / none
+    percent: 15.2
+    sourceId: bes-cbs-religion
+  - name: Evangelical
+    percent: 6.0
+    sourceId: bes-cbs-religion
+entertainment:
+  - season: allYear
+    items:
+      - Dia di Rincon (Bonaire, 30 April), the oldest folkloric festival of the Dutch Caribbean
+      - Island flag days and Kingdom Day (15 December) and King's Day (27 April) celebrations
+      - Casual beach bars, snèks (local pubs) and live Caribbean and Dutch-Caribbean music
+  - season: dry
+    items:
+      - Bonaire's Dia di Boneiru / Dia di Himno i Bandera (6 September) and the brighter, drier travel season
+      - Saba Summer Festival and Statia Carnival (late July-early August)
+      - Dive and sailing regattas through the dry, calm season
+  - season: wet
+    items:
+      - Saba Day (first Friday in December) and Statia Day (16 November) community celebrations
+      - Seasonal festivals and water-based recreation through the wet months
+traditionalDishes:
+  - season: allYear
+    items:
+      - Stobá / kabritu stoba (goat stew) — goat is the signature meat, especially on Statia
+      - Funchi (fried cornmeal cake/paste, like polenta)
+      - Kadushi (cactus soup) on Bonaire
+      - Fresh grilled fish (grouper, mahi-mahi) often with fried plantain
+      - Guiambo (okra-and-seafood soup) and sopi mondongo (tripe soup)
+  - season: dry
+    items:
+      - Festive goat and seafood feasts at the island festivals and flag days
+  - season: wet
+    items:
+      - Hearty soups and stews favoured in the wetter months
+traditionalClothing:
+  - season: allYear
+    items:
+      - Modern tropical casual wear (light cotton shirts, shorts, sandals)
+      - Full-skirted cotton 'folk' dresses and colourful headwraps worn mainly at festivals and cultural events
+      - Saba Lace, the notable textile-craft tradition, used on linens and festive attire
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 4, 5, 6, 12, 1]
+  - season: wet
+    months: [9, 10, 11, 7, 8]
+businessRhythm:
+  lunchBreakTiming: "A midday break (~12:00-13:30/14:00) is common; the midday meal is the main meal on Sint Eustatius."
+  typicalWorkHours: "Government/office hours roughly 08:00-16:00/17:00 Mon-Fri; shops typically ~08:00/09:00-12:00 and often reopen ~13:30/14:00-17:00/18:00 Monday-Saturday, closed Sunday, with many closing the Saturday afternoon."
+  restDays:
+    - sunday
+  notes: "Sunday is the main rest day — many shops and offices close. The pace is relaxed ('island time'), and business activity peaks around cruise, tourist and dive-tour schedules, chiefly on Bonaire. No single official schedule is published across the three islands; hours follow standard BES practice."
+sources:
+  - id: bes-bonaire
+    name: "Bonaire tourism — salt production, salt pans, flamingos"
+    publisher: "Bonaire official tourism"
+    url: "https://bonaire.com/en/sightseeing/salt-production"
+    accessedDate: "2026-09-20"
+    note: "Salt pans, flamingos, Kralendijk, diving/eco-tourism landmarks."
+  - id: bes-sabapark
+    name: "Saba Conservation Foundation — Mount Scenery National Park; The Nature of Saba; Biological Inventory"
+    publisher: "Saba Conservation Foundation (STENAPA)"
+    url: "https://www.sabapark.org/mount-scenery-national-park/"
+    accessedDate: "2026-09-20"
+    note: "Mount Scenery (887 m, highest point of the Kingdom), Saban anole, red-bellied racer, Coquee tree frog, tropicbird colonies."
+  - id: bes-cbs-religion
+    name: "CBS — Most people in the Caribbean Netherlands belong to a religious group (2021)"
+    publisher: "Statistics Netherlands (CBS)"
+    url: "https://www.cbs.nl/en-gb/news/2023/50/most-people-in-the-caribbean-netherlands-belong-to-a-religious-group"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Religion shares by island (Bonaire Catholic 60.3%; Saba 50.1%; Statia Methodist/Roman Catholic/Adventist split)."
+  - id: bes-statiasaba
+    name: "Statia & Saba Chamber of Commerce and Industry — Saba profile"
+    publisher: "Statia & Saba Chamber"
+    url: "http://statiasabachamber.com/saba"
+    accessedDate: "2026-09-20"
+    note: "Saba Lace tradition, island culture and identity."
+  - id: bes-iana
+    name: "IANA Time Zone Database — America/Kralendijk"
+    publisher: "IANA"
+    url: "https://www.iana.org/time-zones"
+    accessedDate: "2026-09-20"
+    note: "UTC-4, no DST, shared by all three islands."

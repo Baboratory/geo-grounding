@@ -1,0 +1,129 @@
+alpha3: BLM
+alpha2: BL
+name:
+  eng: Saint Barthélemy
+  local:
+    - languageCode: fra
+      value: Saint-Barthélemy
+flagEmoji: "🇧🇱"
+capital: Gustavia
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Language official-status basis: French is the sole official language of the
+# French overseas collectivity. Figures for locally-spoken are honest estimates
+# (no official census language-breakdown exists for this small territory).
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: blm-cia-lang
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.85
+    sourceId: blm-cia-lang
+    # FLAGGED ESTIMATE: French is the native/daily language of most residents
+    # (~0.8-0.9); no official census share is published. A distinct
+    # Saint-Barthélemy French patois (Poitevin/Saintongeais/Angevin origin) is
+    # spoken by roughly 5-7% of residents, mainly on the leeward side.
+  - languageCode: gcf
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: blm-creole
+    # FLAGGED ESTIMATE: Antillean/Guadeloupean Creole is spoken by a minority,
+    # concentrated on the windward (Au Vent) side; no numeric share published.
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.5
+    sourceId: blm-cia-lang
+    # FLAGGED ESTIMATE: English is widely understood in the luxury-tourism
+    # service economy and among visitors, but is not an official language and is
+    # not the home language of most residents.
+timezones:
+  - name: America/St_Barthelemy
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+# EUR (euro) is the official legal tender as a French overseas collectivity.
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "French law applies as an overseas collectivity"
+    description: "Saint Barthélemy is a French 'collectivité d'outre-mer' (overseas collectivity) under Article 74 of the Constitution. French national law applies insofar as it has not been expressly excluded or locally adapted; the constitutional framework is Article 74 of the Constitution of 4 October 1958 and the founding organic law (LOI organique n° 2007-223) which conferred COM status from 15 July 2007. France retains defense, foreign policy, justice and constitutional rights; the island has autonomy over local taxation, customs and urban planning."
+    sourceId: blm-organique
+  - topic: "VAT / tax position — no local VAT, duty-free status"
+    description: "Since 1 January 2012 the island is an Overseas Country and Territory (OCT) associated with the EU — no longer an outermost region — so the EU single market, customs union and VAT rules do not apply. There is no VAT on the island; luxury/duty-free retail is a pillar of the economy and local import/trade and customs policy fall within the competence of the Territorial Council."
+    sourceId: blm-oct
+  - topic: "data protection / privacy"
+    description: "Because Saint Barthélemy is an OCT (not an EU outermost region), the EU GDPR does not apply directly. The applicable framework is the French 'Loi n° 78-17' (Informatique et Libertés) as adapted for the collectivity (notably by Ordonnance n° 2018-1125), with the CNIL as the competent supervisory authority."
+    sourceId: blm-privacy
+# paymentMethodShares intentionally omitted: no official island-wide payment-method
+# split is published by any local authority.
+paymentCulture:
+  popularMethods:
+    - "Credit and debit cards (Visa/Mastercard/Amex accepted almost everywhere in this affluent, service-oriented economy)"
+    - "Cash (euro) — still common at small merchants and local markets"
+    - "US dollars widely accepted in many shops, restaurants and taxis at a set (often merchant-favourable) rate, though the euro is the official standard tender"
+    - "Contactless/NFC card and phone payments increasingly standard at tourist-facing venues"
+  tipping:
+    expected: true
+    typicalAmount: "Roughly 10-15% (or rounding up) for good service in restaurants and for staff; a service charge/gratuity is often included"
+    autoIncludedInBill: true
+    note: "Tipping is not obligatory but is customary and appreciated in this luxury, service-oriented economy. Gratuities are often already included in the bill or expected at the host's discretion."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Polite, refined and fairly formal in first meetings, reflecting French etiquette, yet warm and relaxed socially. French is the language of daily life; courtesy and discretion are highly valued."
+  greetingNorms: "A handshake or 'Bonjour'/'Bonsoir' (with the person's title in formal settings) is standard; among friends and family, 'la bise' (cheek kissing) is common. Greetings matter before getting down to business."
+  meetingEtiquette: "Meetings typically open with polite small talk; punctuality is appreciated though the pace is unhurried. Business casual is common, with smarter attire at senior or formal functions. Reservations are recommended for dinner."
+  topicsToAvoid:
+    - "Overly direct criticism or confrontation (a tactful, polished communication style is valued)"
+    - "Casual stereotyping of 'island time'"
+  giftGivingNotes: "Gifts are welcome though not expected in business; a modest token (gourmet local produce, a fine spirit) when hosted is appreciated. Recipients typically open gifts privately."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: blm-cia-lang
+    name: "CIA World Factbook — Saint Barthelemy: People & languages"
+    publisher: "U.S. Central Intelligence Agency (World Factbook)"
+    url: "https://www.cia.gov/the-world-factbook/countries/saint-barthelemy/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Official language (French primary); qualitative ethnic/religious listing without percentages; English widely used in the tourism economy."
+  - id: blm-organique
+    name: "LOI organique n° 2007-223 du 21 février 2007 (outre-mer); Constitution Article 74"
+    publisher: "République française — Légifrance"
+    url: "https://www.legifrance.gouv.fr/"
+    year: 2007
+    accessedDate: "2026-09-20"
+    note: "Confers collectivité d'outre-mer status (Article 7) for Saint Barthélemy under Article 74 of the Constitution."
+  - id: blm-oct
+    name: "European Council Decision 2010/718/EU — status of Saint-Barthélemy; EU OCTs list"
+    publisher: "Official Journal of the EU (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF?uri=CELEX:32010D0718"
+    year: 2010
+    accessedDate: "2026-09-20"
+    note: "From 1 Jan 2012 Saint Barthélemy ceases to be an outermost region and becomes an OCT — not part of the EU customs union or VAT area."
+  - id: blm-privacy
+    name: "Loi n° 78-17 du 6 janvier 1978 (Informatique et Libertés); Ordonnance n° 2018-1125"
+    publisher: "République française — Légifrance; CNIL"
+    url: "https://www.cnil.fr/"
+    year: 2018
+    accessedDate: "2026-09-20"
+    note: "Data-protection framework applicable in the collectivity; CNIL is the supervisory authority (GDPR does not apply directly in this OCT)."
+  - id: blm-creole
+    name: "Antillean/Guadeloupean Creole (ISO 639-3 gcf) — spoken minorities on Saint Barthélemy"
+    publisher: "SIL ISO 639-3 / linguistic references"
+    url: "https://iso639-3.sil.org/code/gcf"
+    year: 2026
+    accessedDate: "2026-09-20"
+    note: "Confirms code gcf (Guadeloupean Creole) as a living language; minority usage on the island's windward side."
+  - id: blm-insee
+    name: "INSEE — collectivité de Saint-Barthélemy (code 97701)"
+    publisher: "INSEE"
+    url: "https://www.insee.fr/fr/statistiques/2011101?geo=COM-97701"
+    year: 2026
+    accessedDate: "2026-09-20"
+    note: "Census and population dossier for the collectivity (~10,000-10,400 legal population); French language."

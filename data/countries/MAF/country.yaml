@@ -1,0 +1,140 @@
+alpha3: MAF
+alpha2: MF
+name:
+  eng: Saint Martin
+  local:
+    - languageCode: fra
+      value: Saint-Martin
+flagEmoji: "🇲🇫"
+capital: Marigot
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Language official-status basis: French is the sole official (de jure) language
+# used in administration and schools. English is not official but is the common
+# lingua franca of daily life (spoken/understood by ~96% per the 2011
+# multilingualism report); a range of Creoles and immigrant languages are also
+# spoken. Shares are composites/honest estimates.
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: maf-cia-lang
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.07
+    sourceId: maf-multiling
+    # FLAGGED ESTIMATE: French is the official language but the mother tongue of
+    # only ~6-8% of the population (chiefly metropolitan French residents and
+    # officials) per the 2011 États généraux du multilinguisme figure.
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.96
+    sourceId: maf-multiling
+    # FLAGGED ESTIMATE: English is the local lingua franca, spoken/understood by
+    # ~96% (2011 multilingualism report); not additive with French figures (most
+    # residents are bilingual). An English-based Virgin Islands Creole is used
+    # informally on both sides of the island.
+  - languageCode: gcf
+    domain: locallySpoken
+    speakersShare: 0.2
+    sourceId: maf-cia-lang
+    # FLAGGED ESTIMATE: Guadeloupean Creole is among the locally spoken Creoles;
+    # no precise share published. Sizable communities also speak Haitian Creole,
+    # Dutch, Spanish, Papiamento and Italian (CIA listing).
+timezones:
+  - name: America/Marigot
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+# EUR (euro), the official legal tender of the French collectivity (EU outermost region).
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "French law applies as an overseas collectivity"
+    description: "Saint Martin is a French 'collectivité d'outre-mer' under Article 74 of the Constitution, established by LOI organique n° 2007-223 (in force 15 July 2007). A regime of legislative identity applies: metropolitan French law applies by default except in fields devolved to local institutions (fiscal autonomy, local taxes, urban planning). It is the only French COM that remains part of the EU and the eurozone as an outermost region while being outside the EU VAT/customs territory."
+    sourceId: maf-organique
+  - topic: "VAT / turnover tax — no EU VAT; local TGCA"
+    description: "TVA (VAT) does not apply on the French side. In its place the Collectivité levies a local turnover tax, the TGCA (Taxe générale sur le chiffre d'affaires), currently 4% on sales of goods and services (Bulletin Officiel des Impôts, 30/11/2021; BOFiP confirms TVA is not applicable in article-74 collectivities). Imports are treated as from a third territory for EU VAT purposes."
+    sourceId: maf-tgca
+  - topic: "data protection / privacy"
+    description: "Being an EU outermost region, EU data-protection rules (Regulation (EU) 2016/679, GDPR) and their French implementation apply to data processing on the territory; the CNIL is the supervisory authority."
+    sourceId: maf-gdpr
+# paymentMethodShares intentionally omitted: no official island-wide payment-method
+# split is published; USD is widely accepted alongside EUR at tourist-facing
+# businesses (no official parity).
+paymentCulture:
+  popularMethods:
+    - "Cash in euros (EUR), the official legal tender"
+    - "US dollars accepted at many tourist-facing businesses (restaurants, retailers, excursions) at a merchant-set rate — a practical dual-currency habit on a bi-national island"
+    - "International credit/debit cards with contactless/NFC, widely accepted; ATMs available in Marigot"
+    - "Mobile wallets increasingly used at contactless terminals"
+  tipping:
+    expected: true
+    typicalAmount: "Roughly 10-15% in sit-down restaurants when a service charge is not included; small gratuities to taxi drivers, porters and tour guides"
+    autoIncludedInBill: false
+    note: "Tipping is not mandatory but is customary for good service; prices are typically lower than the Dutch side partly because no VAT applies."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Blends French formality in administration with a relaxed, warm Caribbean sociability; English is the everyday working language for many. Courtesy and a friendly, open manner are valued."
+  greetingNorms: "A handshake and 'Bonjour'/'Good morning' (in English) are standard; among friends and family, 'la bise' or a hug. Greeting people warmly before business is expected."
+  meetingEtiquette: "Meetings open with polite small talk; a relaxed, unhurried pace is common though punctuality is appreciated. Business-casual attire is typical, smarter for formal functions."
+  topicsToAvoid:
+    - "Overly direct criticism in public"
+    - "Assuming a one-size-fits-all 'island' identity — the territory has a rich immigrant and French-Caribbean mix"
+  giftGivingNotes: "Gifts are welcome though not expected; modest tokens (local rum, spices, crafts) are appreciated when hosted. Recipients typically open gifts privately."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: maf-cia-lang
+    name: "CIA World Factbook — Saint Martin: people, languages, ethnic groups"
+    publisher: "U.S. Central Intelligence Agency (World Factbook)"
+    url: "https://www.cia.gov/the-world-factbook/countries/saint-martin/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Official language (French), and lists English, Dutch, Guadeloupian Creole, Haitian Creole, Italian, Martiniquan Creole, Papiamento and Spanish as spoken (no official status); ethnic groups qualitatively."
+  - id: maf-multiling
+    name: "Langues à Saint-Martin (États généraux du multilinguisme dans les outre-mer, 2011)"
+    publisher: "État français / fr.wikipedia (2011 report figures)"
+    url: "https://fr.wikipedia.org/wiki/Langues_%C3%A0_Saint-Martin_(Antilles_fran%C3%A7aises)"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "French mother-tongue ~6-8%; English spoken/understood by ~96% as lingua franca — basis for languageUsage estimates."
+  - id: maf-organique
+    name: "LOI organique n° 2007-223 du 21 février 2007 (Saint-Martin COM); Constitution Article 74"
+    publisher: "République française — Légifrance"
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000303604"
+    year: 2007
+    accessedDate: "2026-09-20"
+    note: "Establishes Saint Martin as a collectivité d'outre-mer under Article 74; the only French COM that is an EU outermost region."
+  - id: maf-tgca
+    name: "BOI TGCA and BOFiP BOI-TVA-CHAMP-20-10 — no TVA; local 4% turnover tax in Saint-Martin"
+    publisher: "Collectivité de Saint-Martin / Direction de la Fiscalité; BOFiP"
+    url: "https://www.impots-saint-martin.fr/"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Confirms TVA (VAT) does not apply in Saint-Martin; the local TGCA is set at 4%; imports outside EU VAT regime."
+  - id: maf-gdpr
+    name: "Regulation (EU) 2016/679 (GDPR)"
+    publisher: "European Union (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "EU data-protection framework applying to the outermost region of Saint Martin with French implementation."
+  - id: maf-insee
+    name: "INSEE — collectivité de Saint-Martin (code 97127)"
+    publisher: "INSEE"
+    url: "https://www.insee.fr/fr/statistiques/2011101?geo=COM-97127"
+    year: 2026
+    accessedDate: "2026-09-20"
+    note: "Census/population dossier for Saint-Martin (~31,000); French language."
+  - id: maf-iedom
+    name: "IEDOM — Rapport annuel 2024 (Saint-Martin)"
+    publisher: "IEDOM / Institut d'émission des départements d'outre-mer"
+    url: "https://www.iedom.fr/IMG/pdf/ra_iedom_2024_ed._2025_-_saint-martin.pdf"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Economy: tourism-led recovery, TGCA history, sectoral value-added shares."
