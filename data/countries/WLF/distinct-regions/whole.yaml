@@ -1,0 +1,86 @@
+code: WHOLE
+name:
+  eng: Wallis and Futuna
+  local:
+    - languageCode: eng
+      value: Wallis and Futuna
+    - languageCode: fra
+      value: "Wallis-et-Futuna"
+    - languageCode: wls
+      value: "'Uvea mo Futuna"
+# Generic country-wide fallback content for Wallis and Futuna
+# (dependent-territory, single synthetic whole region). Two island groups ~260
+# km apart within one collectivity.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate — hot and humid year-round, with a wet cyclone season and a drier trade-wind season."
+landmarks:
+  - name: "Mata-Utu, capital on 'Uvea"
+    description: "The small capital on Wallis Island, home to the territory's administrative seat and the famous Cathedral of Our Lady of the Assumption."
+  - name: "The Wallis ring of lagoons ('Uvea)"
+    description: "Wallis Island is surrounded by a large, sheltered lagoon with many small motu (islets) and excellent diving."
+  - name: "The Hoorn (Futuna) volcano"
+    description: "Futuna and Alofi are rugged volcanic islands; Mount Puke (highest point ~524 m) and the uninhabited island of Alofi."
+culturalTraits:
+  - "The three traditional kingdoms — King of 'Uvea, King of Alo and King of Sigave — whose hereditary kings hold real customary authority alongside the French Territorial Assembly"
+  - "Polynesian village society built around extended families and customary land tenure"
+  - "Deeply Roman Catholic culture — the islands were converted by missionaries from 1845 and remain one of the most overwhelmingly Catholic territories in the world"
+  - "Traditional kava-drinking ceremonies and communal feasts (katoaga)"
+prideOf:
+  - "Upholding the traditional kingship system within a modern French collectivity"
+  - "A distinctive Polynesian language and cultural heritage (Wallisian and Futunan)"
+  - "One of the most religiously observant communities globally, with a strong village-based way of life"
+animals:
+  popular:
+    - "Green sea turtles"
+    - "Tropical reef fish in the lagoons"
+    - "Coconut crabs"
+    - "Flying foxes (fruit bats)"
+  unique:
+    - "Rich coral lagoon ecosystems around Wallis"
+    - "Volcanic-island birds and reef life of the Futuna group"
+industries:
+  - "French budgetary transfers — a dominant share of the economy"
+  - "Subsistence agriculture (taro, yams, breadfruit, bananas, coconuts) and fishing"
+  - "Copra (coconut) production and handicrafts"
+  - "Remittances from the large Wallisian/Futunan diaspora in New Caledonia"
+sports:
+  - "Rugby union — the most popular sport"
+  - "Association football (soccer)"
+  - "Volleyball"
+  - "Traditional canoe and outrigger activities"
+religions:
+  - name: Roman Catholic
+    percent: 98.0
+    sourceId: wp-culture
+  - name: Other / no religion
+    percent: 2.0
+    sourceId: wp-culture
+# Wallis and Futuna is one of the most overwhelmingly Catholic territories in
+# the world; figures are an estimate reflecting that.
+entertainment:
+  - season: allYear
+    items:
+      - "Church services and religious festivals — central to community life"
+      - "Lagoon and reef days, swimming, fishing"
+      - "Kava-drinking ceremonies and communal feasts (katoaga)"
+  - season: dry
+    items:
+      - "Peak lagoon and diving days (drier trade-wind season)"
+  - season: wet
+    items:
+      - "Indoor and village cultural festivities"
+      - "Traditional dance performances and village celebrations"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — culture and demographics"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Wallis_and_Futuna"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Wallis and Futuna is overwhelmingly Roman Catholic; figure is an estimate reflecting that."

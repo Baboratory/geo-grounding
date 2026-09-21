@@ -1,0 +1,139 @@
+alpha3: COK
+alpha2: CK
+name:
+  eng: Cook Islands
+  local:
+    - languageCode: eng
+      value: Cook Islands
+    - languageCode: rar
+      value: "Kūki 'Āirani"
+flagEmoji: "🇨🇰"
+capital: Avarua
+isSovereign: true
+# Classified unitary-small: the Cook Islands is a self-governing state in free
+# association with New Zealand (~15k people, 2021 census). It does not meet the
+# unitary-large criteria — the 15-island split into Southern and Northern groups
+# is geographic rather than a widely recognized cultural-historical regional
+# identity meriting curation. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: rar
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: pkp
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.864
+    sourceId: wp-lang
+  - languageCode: rar
+    domain: locallySpoken
+    speakersShare: 0.762
+    sourceId: wp-lang
+ethnicGroups:
+  - group: Cook Island Māori
+    percent: 77.42
+    sourceId: wp-ethnic
+  - group: Part-Māori
+    percent: 8.31
+    sourceId: wp-ethnic
+  - group: Other
+    percent: 14.27
+    sourceId: wp-ethnic
+timezones:
+  - name: Pacific/Rarotonga
+    standardUtcOffset: "UTC-10"
+    observesDst: false
+# The Cook Islands is on a single timezone UTC-10 year-round with no DST.
+currency:
+  code: NZD
+  symbol: "$"
+  name: New Zealand dollar
+legalConstraints:
+  - topic: "official languages"
+    description: "English, Cook Islands Māori and Pukapukan are all official languages (Te Reo Maori Act 2003 made Cook Islands Māori official; it is the sole official language of the Cook Islands alongside English, with Pukapukan recognized)."
+    sourceId: wp-lang
+  - topic: "Sunday trading"
+    description: "Widespread Sunday trading restrictions reflect the strongly Christian (predominantly Protestant/CICC) culture, with many businesses closed and church attendance central to community life."
+    sourceId: wp-culture
+  - topic: "free association with New Zealand"
+    description: "Most Cook Islanders hold New Zealand citizenship plus Cook Islands national status; New Zealand retains responsibility for defence (the country has no armed forces) and provides financial support and aid."
+    sourceId: wp-politics
+  - topic: "customary land tenure"
+    description: "Land is largely held under customary tenure administered by lineage (kopu tangata) descent groups, with title not freely saleable to outsiders — most land is owned communally by families."
+    sourceId: wp-culture
+paymentCulture:
+  popularMethods:
+    - "Cash is widely used in the islands' largely cash-based domestic economy"
+    - "The Cook Islands dollar circulates alongside the New Zealand dollar (NZ$), both legal tender"
+    - "EFTPOS/debit cards in hotels, resorts and shops on Rarotonga and Aitutaki"
+    - "Remittances from the large Cook Islander diaspora in New Zealand and Australia"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary"
+    autoIncludedInBill: false
+    note: "Tipping is generally not expected."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polynesian community culture built around extended family (kopu tangata) and village communities; respect for elders and chiefs (ariki, via the House of Ariki) is important."
+  greetingNorms: "Greet with 'Kia orāna' (Cook Islands Māori, 'may you live long') or a warm handshake and smile."
+  meetingEtiquette: "Meetings open with a prayer (karakia); church and faith are integral to community life. Defer to elders, seek consensus, and take time for relationship-building before business."
+  topicsToAvoid:
+    - "Criticizing the Church or chiefly (ariki) authority"
+    - "Disrespecting island customs and communal etiquette"
+  giftGivingNotes: "Modest gifts are appreciated; contributing food to community and church gatherings is customary."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: wp-lang
+    name: "Wikipedia — Cook Islands (Languages)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Cook_Islands#Languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Official languages English, Cook Islands Māori, Pukapukan; spoken English 86.4%, Cook Islands Māori 76.2% (2021 census)."
+  - id: wp-ethnic
+    name: "Wikipedia — Cook Islands (Demographics, 2021 census)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Cook_Islands"
+    year: 2021
+    accessedDate: "2026-09-21"
+    note: "Ethnic groups Cook Island Māori 77.42%, part-Māori 8.31%, other 14.27%."
+  - id: wp-politics
+    name: "Wikipedia — Cook Islands (Politics and free association with New Zealand)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Cook_Islands"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Self-governing in free association with New Zealand (self-governance 4 August 1965); NZ citizenship; no armed forces."
+  - id: wp-culture
+    name: "Wikipedia — Cook Islands (Culture)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Cook_Islands"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Strong Christian culture; customary land (kopu tangata) tenure; tivaevae quilting; rito hat weaving."
+  - id: iso-rar
+    name: "ISO 639-3 entry: rar — Rarotongan/Cook Islands Māori"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/rar"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code rar = Rarotongan/Cook Islands Māori (Active, Individual, Living)."
+  - id: iso-pkp
+    name: "ISO 639-3 entry: pkp — Pukapukan"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/pkp"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code pkp = Pukapukan (Active, Individual, Living)."

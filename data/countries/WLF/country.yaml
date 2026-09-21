@@ -1,0 +1,132 @@
+alpha3: WLF
+alpha2: WF
+name:
+  eng: Wallis and Futuna
+  local:
+    - languageCode: eng
+      value: Wallis and Futuna
+    - languageCode: fra
+      value: "Wallis-et-Futuna"
+    - languageCode: wls
+      value: "'Uvea mo Futuna"
+flagEmoji: "🇼🇫"
+capital: "Mata-Utu"
+isSovereign: false
+# French overseas collectivity (COM) since 2003. Two island groups ~260 km
+# apart: the Wallis Islands ('Uvea) and the Hoorn/Futuna Islands (Futuna and
+# Alofi). Classified dependent-territory with a single synthetic WHOLE region
+# per the governance rule for non-sovereign ISO 3166-1 entries.
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: wls
+    domain: locallySpoken
+    speakersShare: 0.6
+    sourceId: wp-lang
+  - languageCode: fud
+    domain: locallySpoken
+    speakersShare: 0.4
+    sourceId: wp-lang
+# French is the sole official language. Wallisian ('Uvean) is the everyday
+# language on Wallis and Futunan (East Futuna) on the Futuna group; shares are
+# estimates reflecting the geographic division.
+ethnicGroups:
+  - group: Polynesian (Wallisian and Futunan)
+    percent: 96.0
+    sourceId: wp-ethnic
+  - group: Other (incl. French and other Pacific)
+    percent: 4.0
+    sourceId: wp-ethnic
+# Predominantly indigenous Polynesian. Figures are an estimate.
+timezones:
+  - name: Pacific/Wallis
+    standardUtcOffset: "UTC+12"
+    observesDst: false
+# Wallis and Futuna is on a single timezone UTC+12 year-round with no DST.
+currency:
+  code: XPF
+  symbol: "₣"
+  name: CFP franc (XPF)
+legalConstraints:
+  - topic: "official languages"
+    description: "French is the sole official language; Wallisian and Futunan are the common daily languages."
+    sourceId: wp-lang
+  - topic: "French overseas collectivity"
+    description: "Wallis and Futuna is a French overseas collectivity (COM); French law applies and it is an EU Overseas Country and Territory (OCT). It is not part of the EU single market or Schengen."
+    sourceId: wp-politics
+  - topic: "customary chiefly system"
+    description: "The territory retains three traditional kings: the King of 'Uvea, King of Alo and King of Sigave, whose roles coexist with the French-administrated Territorial Assembly."
+    sourceId: wp-politics
+  - topic: "Sunday observance"
+    description: "Deeply Roman Catholic culture observes Sunday as a day of rest and church; Christian tradition (converted by missionaries from 1845) dominates."
+    sourceId: wp-culture
+paymentCulture:
+  popularMethods:
+    - "Cash-based economy using the CFP franc (XPF)"
+    - "Banking via Banque de Wallis et Futuna (the territory's only bank)"
+    - "Remittances (substantial, including from the large diaspora in New Caledonia)"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary"
+    autoIncludedInBill: false
+    note: "Tipping is generally not expected."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Collective Polynesian culture structured around villages, extended families and the traditional kingship system; respect for chiefs and elders is central."
+  greetingNorms: "Greet warmly with a handshake and a smile; greetings in Wallisian ('Mālō te ma'uli') are appreciated."
+  meetingEtiquette: "Meetings open with prayer, reflecting the deeply Catholic society; hierarchy and consensus matter. Build trust and relationships before business."
+  topicsToAvoid:
+    - "Criticizing the traditional kings or church authority"
+    - "Disregarding chiefly protocol and island customs"
+  giftGivingNotes: "Modest gifts and contributing food to community and church events are customary and appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: wp-lang
+    name: "Wikipedia — Wallis and Futuna (Languages)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Wallis_and_Futuna#Languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "French sole official language; Wallisian and Futunan common languages."
+  - id: wp-ethnic
+    name: "Wikipedia — Wallis and Futuna (Demographics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Wallis_and_Futuna"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Predominantly Molinisian (Wallisian/Futunan) Polynesian population. Basis for ethnic estimate."
+  - id: wp-politics
+    name: "Wikipedia — Wallis and Futuna (Politics, French COM)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Wallis_and_Futuna"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "French overseas collectivity since 2003; three traditional kings; Territorial Assembly; OCT associated with the EU."
+  - id: wp-culture
+    name: "Wikipedia — Wallis and Futuna (Culture)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Wallis_and_Futuna"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Deeply Roman Catholic culture; traditional kingship; Polynesian customs."
+  - id: iso-wls
+    name: "ISO 639-3 entry: wls — Wallisian"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/wls"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code wls = Wallisian (Active, Individual, Living)."
+  - id: iso-fud
+    name: "ISO 639-3 entry: fud — Futunan (East Futuna)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/fud"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code fud = East Futuna (Active, Individual, Living)."
