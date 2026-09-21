@@ -1,0 +1,144 @@
+code: WHOLE
+name:
+  eng: Ukraine
+  local:
+    - languageCode: ukr
+      value: Україна
+# Generic country-wide fallback used when a visitor's specific ISO 3166-2
+# subdivision isn't one of the curated regions (e.g. no UA-53 Poltavska oblast
+# file yet). Content is deliberately national/symbolic rather than tied to one region.
+climates:
+  - koppenCode: Dfb
+    description: Humid continental climate across most of the country — cold winters, warm summers.
+  - koppenCode: Cfb
+    description: Moderate/transitional maritime-continental climate in the far west (Carpathian foothills) and the north-west.
+  - koppenCode: BSk
+    description: Semi-arid steppe climate in the far south and Crimea's northern steppe (short dry summers).
+landmarks:
+  - name: Saint Sophia Cathedral, Kyiv
+    unescoWorldHeritage: true
+  - name: Kyiv Pechersk Lavra (Kyiv Monastery of the Caves)
+    unescoWorldHeritage: true
+  - name: Lviv Old Town (Historic Centre of Lviv)
+    unescoWorldHeritage: true
+  - name: Carpathian Mountains and Hutsul region
+  - name: Kamianets-Podilskyi castle
+  - name: Chernobyl Exclusion Zone (tourism/education)
+culturalTraits:
+  - "A proud, hard-working people with a deep love of the land and agriculture"
+  - "Strong literary and musical tradition (Shevchenko, Skovoroda, bandura music, folk song)"
+  - "Vyshyvanka (embroidered shirt) as a symbol of identity, worn on Vyshyvanka Day"
+  - "Hospitality and generosity ('hostynnist') — guests are warmly received with food"
+  - "Resilience and solidarity in the face of wartime hardship"
+prideOf:
+  - "Independence and national identity, defended since 2014 and in the full-scale war"
+  - "Cuisine (borscht, salo, varenyky) and the land's fertility (the 'breadbasket of Europe')"
+  - "Literary and cultural heritage (Taras Shevchenko as the national bard)"
+  - "Cossack history and the Zaporozhian legacy"
+  - "Technological and educational heritage (Antonov aviation, aerospace)"
+animals:
+  popular:
+    - Grey wolf (forest and steppe)
+    - European bison (Carpathians, reintroduced)
+    - Wild boar
+  unique:
+    - Carpathian brown bear
+    - European souslik (steppe ground squirrel)
+    - Greater spotted eagle
+industries:
+  - "Agriculture and food processing (wheat, sunflower oil, barley; a global agro exporter)"
+  - "Metallurgy and steel production"
+  - "Information technology and software services (a large IT-outsourcing sector)"
+  - "Machine building and aerospace (Antonov, Motor Sich)"
+  - "Mining and energy (coal, and growing renewables)"
+sports:
+  - Football (Dynamo Kyiv, Shakhtar Donetsk)
+  - Boxing and combat sports (famous boxers like Oleksandr Usyk, the Klitschkos)
+  - Basketball
+  - Athletics
+  - Chess
+religions:
+  - name: Orthodox (Orthodox Church of Ukraine and Ukrainian Orthodox Church)
+    percent: 72.0
+    sourceId: ratings-religion-2022
+  - name: Greek Catholic (Ukrainian Greek Catholic Church)
+    percent: 9.0
+    sourceId: ratings-religion-2022
+  - name: Protestant / other Christian
+    percent: 5.0
+    sourceId: ratings-religion-2022
+  - name: No religion / secular
+    percent: 9.0
+    sourceId: ratings-religion-2022
+  - name: Other / undeclared
+    percent: 5.0
+    sourceId: ratings-religion-2022
+entertainment:
+  - season: summer
+    items:
+      - "Vyshyvanka Day (May), outdoor open-air concerts and festivals"
+      - "Kyiv's summer river-bus and Dnipro embankment season"
+      - "Carpathian hiking and mountain festivals"
+  - season: winter
+    items:
+      - "New Year celebrations (a major family holiday)"
+      - "Ukrainian Christmas (Orthodox, observed 7 January, and renewed debate over moving to 25 December)"
+      - "Winter sports in the Carpathians (Bukovel ski resort)"
+  - season: spring
+    items:
+      - "Easter (Velykden) celebrations with pysanky (decorated eggs) and Easter bread (paska)"
+      - "Victory Day / Europe Day commemorations in May"
+  - season: autumn
+    items:
+      - "Harvest festivals and cultural-event season"
+      - "Knowledge Day (1 September) — the school year begins"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Borscht (beetroot soup, with salo and garlic pampushky)"
+      - "Varenyky (dumplings with potato, cheese, cherry)"
+      - "Salo (cured pork fat) and holubtsi (stuffed cabbage)"
+      - "Deruny (potato pancakes)"
+  - season: winter
+    items:
+      - "Kutia (sweet grain dish) at Christmas"
+      - "New Year Olivier salad"
+  - season: summer
+    items:
+      - "Fresh okroshka and berry drinks"
+      - "Fruit preserves and kvass"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The vyshyvanka (embroidered shirt) — worn with pride on holidays and Vyshyvanka Day"
+  - season: winter
+    items:
+      - "Warm fur-lined hats and coats for the continental winter"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 9:00am-6:00pm with a ~1-hour lunch; the standard workweek is 40 hours. Wartime conditions include curfews in many cities that can shorten evening business hours."
+  lunchBreakTiming: "A midday break of ~1 hour around 1:00pm; business lunches over borscht and varenyky are common."
+  notableShutdownPeriods:
+    - period: early January
+      description: "The New Year period (1 January and around it) is the main holiday; many offices close for several days."
+    - period: Easter week
+      description: "Easter (Velykden) brings a long public-holiday weekend; many businesses reduce hours."
+  notes: "Sunday is the standard rest day; shops and eateries open daily, including weekends. During wartime, air alerts and curfews can disrupt opening hours, especially in eastern cities."
+sources:
+  - id: ratings-religion-2022
+    name: "Religious self-identification in Ukraine (Rating Group survey, 2022)"
+    publisher: "Rating Group (Соціологічна група Рейтинг)"
+    url: "https://ratinggroup.ua/"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "Approximate religious self-identification: Orthodox ~72%, Greek Catholic ~9%, other Christian ~5%, no religion ~9%, other/undeclared ~5%. Shares are indicative and shift with the Orthodox-church realignment."

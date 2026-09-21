@@ -1,0 +1,100 @@
+code: RU-SA
+name:
+  eng: Sakha Republic (Yakutia)
+  local:
+    - languageCode: sah
+      value: Саха Өрөспүүбүлүкэтэ
+climates:
+  - koppenCode: Dfd
+    description: Subarctic/taiga climate with some of the coldest inhabited temperatures on Earth (Verkhoyansk, Oymyakon).
+  - koppenCode: ET
+    description: Tundra climate along the Arctic coast.
+landmarks:
+  - name: Lena Pillars Nature Park
+    unescoWorldHeritage: true
+  - name: Oymyakon — the 'Pole of Cold'
+  - name: Verkhoyansk (one of the coldest towns on Earth)
+  - name: Yakutsk — the world's coldest major city
+  - name: Mammoth-museum and permafrost exhibition in Yakutsk
+culturalTraits:
+  - "A vast Siberian republic with a Yakut (Sakha) majority beside Russian and indigenous northern peoples"
+  - "Extreme-cold resilience — life, transport and buildings are adapted to permafrost and -50°C winters"
+  - "Sakha Turkic-language identity, distinct within the Russian Federation"
+  - "Shamanic and indigenous northern heritage alongside Orthodox and Soviet history"
+prideOf:
+  - "Diamonds — Yakutia is Russia's premier diamond region"
+  - "Surviving and thriving in one of the world's harshest climates"
+  - "Sakha language, the 'olonkho' heroic epic (a UNESCO-listed oral tradition)"
+  - "Vast untamed wilderness and taiga"
+animals:
+  popular:
+    - Siberian tiger (sporadic in the south)
+    - Reindeer
+  unique:
+    - Yakutian horse (frost-adapted native breed)
+    - Snow sheep
+    - Arctic fox
+industries:
+  - "Diamond mining (ALROSA is one of the world's largest diamond miners)"
+  - "Gold and coal mining"
+  - "Oil and gas extraction"
+  - "Reindeer herding and fur trade"
+sports:
+  - Ice hockey
+  - Winter sports and ice racing
+  - Ysyakh festival gymnastics and traditional contests
+  - Bandy
+entertainment:
+  - season: summer
+    items:
+      - "Ysyakh — the Sakha summer solstice festival (June), with dances, horse racing and ritual"
+      - "Lena River cruises and Lena Pillars boat tours"
+  - season: winter
+    items:
+      - "Pole of Cold festival at Oymyakon (a tourist draw in January)"
+      - "New Year festivities in Yakutsk's below-zero cold"
+  - season: spring
+    items:
+      - "Ice-fishing and spring thaw festivals"
+  - season: autumn
+    items:
+      - "Taiga berry- and mushroom-picking season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Stroganina (frozen raw fish, a Yakut speciality)"
+      - "Khaan (blood sausage)"
+      - "Flatbreads and dairy dishes"
+  - season: winter
+    items:
+      - "Stroganina — slices of frozen fish eaten in the extreme cold"
+  - season: summer
+    items:
+      - "Kumys (fermented mare's milk) at Ysyakh"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Reindeer-fur and fur-lined clothing — essential for survival"
+  - season: winter
+    items:
+      - "Heavy reindeer-fur parkas (the Sakha winter dress) and fur hats"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 9:00am-6:00pm; in winter many activities, outdoor work and school schedules adapt to short daylight and extreme cold."
+  lunchBreakTiming: "A ~1-hour lunch break; a substantial midday meal is common given the cold."
+  notableShutdownPeriods:
+    - period: early January
+      description: "New Year holidays largely close offices; many residents travel or rest during the extreme January cold."
+    - period: Ysyakh (June)
+      description: "The Sakha summer-solstice festival (late June) is a major republic holiday; some workplaces close or reduce hours for the festivities."
+  notes: "Sunday is the main rest day. The republic observes Russian federal holidays plus its own (e.g. Ysyakh Day, 21 June)."

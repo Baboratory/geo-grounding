@@ -1,0 +1,100 @@
+code: RU-SPE
+name:
+  eng: Saint Petersburg (federal city)
+  local:
+    - languageCode: rus
+      value: Санкт-Петербург
+climates:
+  - koppenCode: Dfb
+    description: Humid continental climate, moderated somewhat by Baltic proximity — cool summers, cold but relatively mild winters for Russia.
+landmarks:
+  - name: Hermitage Museum (Winter Palace)
+    unescoWorldHeritage: true
+  - name: Peter and Paul Fortress
+  - name: Church of the Saviour on Spilled Blood
+  - name: Peterhof Palace and gardens
+    unescoWorldHeritage: true
+  - name: St Isaac's Cathedral
+culturalTraits:
+  - "Russia's 'northern capital' — a cultural and historical centre with a distinctly European character"
+  - "Built by Peter the Great on a grand European scale; often called the most 'western' Russian city"
+  - "Deep literary and artistic heritage (Dostoevsky, Pushkin, the Russian avant-garde, the Mariinsky)"
+  - "White Nights in June — past-midnight daylight that shapes a summer festival culture"
+prideOf:
+  - "The Hermitage — one of the world's greatest art museums"
+  - "The Mariinsky Theatre and the Russian ballet tradition"
+  - "Imperial architecture and the canal cityscape"
+  - "Literary legacy — the city of Dostoevsky, Pushkin and the Symbolist poets"
+animals:
+  popular:
+    - Grey heron (summer)
+    - Corvids
+  unique:
+    - Baltic ringed seal (Gulf of Finland)
+industries:
+  - "Shipbuilding and maritime industry"
+  - "Heavy engineering and machinery"
+  - "Pharmaceuticals (a growing high-tech sector)"
+  - "Information technology"
+  - "Tourism and culture"
+sports:
+  - Football (Zenit Saint Petersburg)
+  - Ice hockey
+  - Figure skating
+  - Basketball
+entertainment:
+  - season: summer
+    items:
+      - "White Nights Festival — open-air ballet, concerts and the famous midnight drawbridges"
+      - "Scarlet Sails celebration (late June)"
+      - "Summer palace-garden season (Peterhof, Tsarskoye Selo)"
+  - season: winter
+    items:
+      - "Hermitage and museum winter exhibitions"
+      - "New Year city lights and ice-rinks"
+  - season: spring
+    items:
+      - "Victory Day celebrations (9 May)"
+      - "Ice-break on the Neva and spring river openings"
+  - season: autumn
+    items:
+      - "Museum season and theatre premieres at the Mariinsky"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pelmeni and borscht"
+      - "Pirozhki (stuffed buns)"
+      - "Baltic fish dishes"
+  - season: winter
+    items:
+      - "Olivier salad and herring under a fur coat (New Year)"
+  - season: summer
+    items:
+      - "Okroshka and cold soups in the warm season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "European-style smart casual; umbrella year-round given frequent rain"
+  - season: winter
+    items:
+      - "Heavy coats and warm headwear against the damp cold"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 9:00am-6:00pm. Saint Petersburg's pace is slightly more relaxed than Moscow's, with a strong culture and tourism sector."
+  lunchBreakTiming: "A ~1-hour lunch around 1:00pm."
+  notableShutdownPeriods:
+    - period: early January
+      description: "New Year holidays (1-8 January) largely close offices, as across Russia."
+    - period: White Nights (June-July)
+      description: "During the summer festival season, some creative and cultural businesses shift hours to accommodate evening events."
+  notes: "'Scarlet Sails' and the White Nights Festival in June are the cultural highlight of the year; expect crowds and adjusted hours in the festival districts."

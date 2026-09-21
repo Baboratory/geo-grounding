@@ -1,0 +1,94 @@
+code: UA-51
+name:
+  eng: Odeska oblast (Odesa region, includes the city of Odesa)
+  local:
+    - languageCode: ukr
+      value: Одеська область
+climates:
+  - koppenCode: Dfb
+    description: Humid continental climate with a mild Black-Sea coastal influence — moderate winters, warm sunny summers.
+landmarks:
+  - name: Potemkin Stairs and the Odesa Opera House
+  - name: Primorsky Boulevard and the monument to the Duc de Richelieu
+  - name: Odesa Catacombs (network of tunnels)
+  - name: Deribasivska Street
+  - name: Black Sea beaches (Arcadia)
+culturalTraits:
+  - "A cosmopolitan port city with a rich mixed heritage (Ukrainian, Russian, Jewish, Greek, Armenian, Bulgarian)"
+  - "Dubbed the 'Pearl of the Black Sea' and a cradle of humour — famous for its distinctive local humour"
+  - "Seaside resort and literary tradition (one of the settings of Babel, and home of the legendary smuggler culture)"
+  - "A resilient city under repeated wartime assault"
+prideOf:
+  - "The Odesa Opera House (one of Europe's most beautiful)"
+  - "Black Sea identity and beach culture"
+  - "The port — a historic and strategic hub"
+  - "Odesa humour and its famous local sense of humour"
+animals:
+  popular:
+    - Black-headed gull
+    - Pelican (wintering, coastal lagoons)
+  unique:
+    - Biosphere-reserve birdlife (overwintering waterfowl on the Danube delta)
+industries:
+  - "Port and shipping (a major Black Sea grain-export gateway)"
+  - "Food processing and grain trade"
+  - "Shipbuilding and repair"
+  - "Tourism and hospitality (summer resort economy)"
+sports:
+  - Football (Chornomorets Odesa)
+  - Basketball
+  - Sailing and water sports
+  - Boxing
+entertainment:
+  - season: summer
+    items:
+      - "Beach season and the Odesa International Film Festival (summer)"
+      - "Open-air music on Deribasivska and at Arcadia"
+  - season: winter
+    items:
+      - "Cinema and theatre season at the Opera House"
+      - "New Year celebrations by the sea"
+  - season: spring
+    items:
+      - "Early coastal spring and fishermen's festivals"
+  - season: autumn
+    items:
+      - "Grape and wine season in the surrounding steppe (Budzhak region)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Black Sea seafood — mussels, fish baked in the 'Odesa style'"
+      - "Ratatouille-style vegetables and Bulgarian-influenced dishes"
+  - season: summer
+    items:
+      - "Grilled seafood and beachside shashlik"
+  - season: autumn
+    items:
+      - "Fresh steppe melons and watermelons"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Relaxed southern coastal dress; light linen in summer"
+  - season: winter
+    items:
+      - "Moderate winter coats against the Black Sea's tempered cold"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 9:00am-6:00pm; the port and logistics sector operate around the clock in places. Wartime naval risk has reshaped much port activity."
+  lunchBreakTiming: "A ~1-hour lunch around 1:00pm; a seafood-heavy dinner culture means late evening meals."
+  notableShutdownPeriods:
+    - period: early January
+      description: "New Year holidays reduce business activity."
+    - period: summer resort season
+      description: "The summer beach season is the regional peak; hospitality works extended resort hours."
+  notes: "Sunday is the standard rest day. Odesa's coastal identity means sea-related industries and summer tourism dominate."

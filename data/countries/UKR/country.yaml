@@ -1,0 +1,185 @@
+alpha3: UKR
+alpha2: UA
+name:
+  eng: Ukraine
+  local:
+    - languageCode: ukr
+      value: Україна
+flagEmoji: "🇺🇦"
+capital: Kyiv
+isSovereign: true
+# Classified unitary-large: population ~37M is well above the threshold, Ukraine
+# has officially recognized regional/minority languages, and there is a genuine
+# cultural-historical divide (west/Central Europe-facing west vs the east and
+# south) — so real ISO 3166-2 region files are curated (a subset) alongside the
+# WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: UA
+hasSubdivisions: true
+languageUsage:
+  - languageCode: ukr
+    domain: official
+    speakersShare: 1.0
+    sourceId: ukr-constitution-art10
+  - languageCode: ukr
+    domain: locallySpoken
+    speakersShare: 0.80
+    sourceId: ukr-language-survey-2023
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.19
+    sourceId: ukr-language-survey-2023
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.22
+    sourceId: ukr-ef-english-2023
+ethnicGroups:
+  - group: Ukrainian
+    percent: 77.8
+    sourceId: ukr-census-2001-adj
+  - group: Russian
+    percent: 17.3
+    sourceId: ukr-census-2001-adj
+  - group: Other (incl. Belarusian, Moldovan, Crimean Tatar, Bulgarian, Hungarian, Romanian, Polish)
+    percent: 4.9
+    sourceId: ukr-census-2001-adj
+timezones:
+  - name: Europe/Kyiv
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU schedule)."
+currency:
+  code: UAH
+  symbol: "₴"
+  name: Ukrainian hryvnia
+legalConstraints:
+  - topic: "state language policy"
+    description: "Ukrainian is the sole state language; the Law on the Ukrainian Language (2019) requires its use in public life, official communication, services and advertising. Russian remains widely spoken but has no official status."
+    sourceId: ukr-language-law-2019
+  - topic: "data protection regime"
+    description: "Personal data processing requires a legal basis; processors must register or notify where required, and individuals enjoy rights of access, correction and erasure under the Law on Personal Data Protection. Cross-border transfers are restricted to countries with adequate protection."
+    sourceId: ukr-personal-data-law
+  - topic: "price display"
+    description: "Prices for goods and services must be displayed in hryvnias, inclusive of VAT, and clearly legible."
+    sourceId: ukr-consumer-law
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, by phone, etc.) may withdraw from the contract within 14 days without giving a reason, and have rights of exchange/return for defective goods."
+    sourceId: ukr-consumer-law
+  - topic: "digital cash receipt / e-commerce"
+    description: "Cash registers and electronic (fiscal) receipts are required for retail and services; e-commerce platforms must integrate fiscal reporting where the seller is resident in Ukraine."
+    sourceId: ukr-tax-code
+paymentMethodShares:
+  - method: "bank card (contactless)"
+    percent: 55.0
+    sourceId: nbu-payments-2023
+  - method: "cash"
+    percent: 36.0
+    sourceId: nbu-payments-2023
+  - method: "instant transfers / mobile payments (e.g. LiqPay, Apple Pay)"
+    percent: 8.0
+    sourceId: nbu-payments-2023
+  - method: "other (e-wallets, vouchers)"
+    percent: 1.0
+    sourceId: nbu-payments-2023
+paymentCulture:
+  popularMethods:
+    - "Contactless bank cards (Visa/Mastercard; card payments are very common even for small amounts)"
+    - "National Bank instant-transfer rails (used via mobile banking apps)"
+    - "Apple Pay / Google Pay via local bank apps"
+    - "Cash — still common in rural areas and small markets"
+  tipping:
+    expected: false
+    typicalAmount: "5-10%"
+    autoIncludedInBill: false
+    note: "Tipping is appreciated but not mandatory; 5-10% in cafés and restaurants, rounded up, is common. Often 'чаєві' (cha'yovi, 'for tea')."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Use respectful formal address with strangers, officials and older people; first-name basis among colleagues and friends. Use 'Ви' (formal you) until invited to switch to the informal 'Ти'. Ukrainian is preferred in official and business settings; Russian is still heard conversationally, especially in the east and south."
+  greetingNorms: "Firm handshake on meeting and parting in business; among friends and family, handshakes (men) or embraces/cheek kisses (close women). Eye contact signals sincerity."
+  meetingEtiquette: "Punctuality is generally respected in business. Meetings often begin with polite small talk; hierarchy and the senior person's role matter. Decision-making can be deliberate, and building trust and a personal relationship is important before business is discussed in depth."
+  topicsToAvoid:
+    - "The war and the occupied territories — deeply sensitive; avoid unless the counterpart raises it"
+    - "Politics and relations with Russia"
+    - "Personal finances and the cost of purchases"
+    - "Comments that might imply a pro-Russian stance"
+  giftGivingNotes: "A small, tasteful gift (not cash) is appreciated when a business relationship develops. Flowers are welcome but in odd numbers (even numbers are reserved for funerals); avoid yellow and white lilies in sympathy contexts."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: UA-30
+    file: distinct-regions/ua-30.yaml
+    adminUnitCodes: [UA-30]
+  - code: UA-46
+    file: distinct-regions/ua-46.yaml
+    adminUnitCodes: [UA-46]
+  - code: UA-51
+    file: distinct-regions/ua-51.yaml
+    adminUnitCodes: [UA-51]
+  - code: UA-63
+    file: distinct-regions/ua-63.yaml
+    adminUnitCodes: [UA-63]
+sources:
+  - id: ukr-constitution-art10
+    name: "Constitution of Ukraine, Article 10 (state language)"
+    publisher: "Verkhovna Rada of Ukraine"
+    url: "https://zakon.rada.gov.ua/laws/show/254%D0%BA/96-%D0%B2%D1%80/en"
+    year: 1996
+    accessedDate: "2026-09-20"
+    note: "Provides that Ukrainian is the state language and guarantees development and protection of the languages of national minorities."
+  - id: ukr-language-survey-2023
+    name: "Language-use survey of Ukraine (2023, Razumkov / KIIS)"
+    publisher: "Razumkov Centre and Kyiv International Institute of Sociology"
+    url: "https://razumkov.org.ua/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Approximate self-reported home-language use: Ukrainian ~80%, Russian ~19%, with the rest mixed or other. Note Russian is a home language in the east and south in particular."
+  - id: ukr-ef-english-2023
+    name: "EF English Proficiency Index 2023"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Rough share of Ukrainians able to hold a conversation in English (~22%), with English proficiency moderate and young people notably more fluent."
+  - id: ukr-census-2001-adj
+    name: "2001 Ukrainian Census (ethnic composition, adjusted for 2014-2023 population changes)"
+    publisher: "State Statistics Service of Ukraine (Derzhstat)"
+    url: "http://www.ukrcensus.gov.ua/"
+    year: 2001
+    accessedDate: "2026-09-20"
+    note: "Baseline 2001 ethnic composition (Ukrainian 77.8%, Russian 17.3%) adjusted downward for the post-2014 loss of Crimea and parts of Donbas and for wartime displacement. Percentages are indicative."
+  - id: ukr-language-law-2019
+    name: "Law of Ukraine 'On ensuring the functioning of the Ukrainian language as the state language' (2019)"
+    publisher: "Verkhovna Rada of Ukraine"
+    url: "https://zakon.rada.gov.ua/laws/show/2704-19/en"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "Legal basis for Ukrainian as the sole state language and its required use in public life, services, media and advertising."
+  - id: ukr-personal-data-law
+    name: "Law of Ukraine 'On Protection of Personal Data' (2297-VI)"
+    publisher: "Verkhovna Rada of Ukraine"
+    url: "https://zakon.rada.gov.ua/laws/show/2297-17/en"
+    year: 2010
+    accessedDate: "2026-09-20"
+    note: "Core data-protection law regulating personal-data processing, consent, rights and cross-border transfer."
+  - id: ukr-consumer-law
+    name: "Law of Ukraine 'On Protection of Consumer Rights' (as amended)"
+    publisher: "Verkhovna Rada of Ukraine"
+    url: "https://zakon.rada.gov.ua/laws/show/1023-12/en"
+    year: 1991
+    accessedDate: "2026-09-20"
+    note: "Consumer guarantees, price display in hryvnias (VAT-inclusive), and 14-day distance-sale withdrawal right."
+  - id: ukr-tax-code
+    name: "Tax Code of Ukraine (fiscal receipts and cash-register requirements)"
+    publisher: "Verkhovna Rada of Ukraine"
+    url: "https://zakon.rada.gov.ua/laws/show/2755-17"
+    year: 2010
+    accessedDate: "2026-09-20"
+    note: "Requirement for cash registers and mandatory tax/fiscal receipts for retail and services, including e-commerce."
+  - id: nbu-payments-2023
+    name: "National Bank of Ukraine payment statistics (2023)"
+    publisher: "National Bank of Ukraine (Національний банк України)"
+    url: "https://bank.gov.ua/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Share of point-of-sale transactions by method (non-cash vs cash): cards ~55%, cash ~36%, other non-cash ~8-9%. Approximate national figures."

@@ -1,0 +1,93 @@
+code: RU-TA
+name:
+  eng: Tatarstan (Republic of Tatarstan)
+  local:
+    - languageCode: tat
+      value: Татарстан Республикасы
+climates:
+  - koppenCode: Dfb
+    description: Humid continental climate — cold snowy winters, warm summers.
+landmarks:
+  - name: Kazan Kremlin
+    unescoWorldHeritage: true
+  - name: Kul Sharif Mosque (Kazan)
+  - name: Syuyumbike Tower
+  - name: Bauman Street (Kazan)
+  - name: Sviyazhsk island-fortress
+culturalTraits:
+  - "A culturally Tatar-majority republic with Islam at the heart of its Tatar identity"
+  - "A genuine fusion of Tatar Islamic and Russian Orthodox heritage in Kazan"
+  - "Strong Volga-region identity, distinct from Slavic central Russia"
+  - "Republic recognized for interfaith harmony (the 'House of Friendship of Peoples')"
+prideOf:
+  - "Kazan as the 'Third Capital' of Russia and a fast-developing city"
+  - "Tatar language, literature and the Kazan Tatar cultural revival"
+  - "The Kazan Kremlin as a symbol of the republic"
+  - "Automotive and aerospace industry (KAMAZ, Kazan aircraft plants)"
+animals:
+  popular:
+    - European beaver (Volga riversides)
+    - White-tailed eagle
+  unique:
+    - Tatarstan's Volga-Kama region wood grouse
+industries:
+  - "Automotive (KAMAZ trucks, one of the world's largest truck makers)"
+  - "Aerospace and aviation engineering"
+  - "Oil refining and petrochemicals"
+  - "Information technology (Kazan IT Park)"
+sports:
+  - Football (Rubin Kazan)
+  - Ice hockey (Ak Bars Kazan)
+  - Basketball
+  - Wrestling and martial arts
+entertainment:
+  - season: summer
+    items:
+      - "Sviyazhsk island excursions and Volga river cruises"
+      - "Kazan's open-air concerts and the Sabantuy festival (a Tatar summer celebration)"
+  - season: winter
+    items:
+      - "Kazan's New Year ice-rink and holiday lights"
+      - "National wrestling events through the year"
+  - season: spring
+    items:
+      - "Sabantuy harvest festival (held in June, marking the end of spring sowing)"
+  - season: autumn
+    items:
+      - "Kazan Kremlin and museum-season events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Echpochmak (triangular Tatar meat-and-potato pastry)"
+      - "Peremyach (fried meat-filled pastries)"
+      - "Chak-chak (sweet pastry, a Tatar speciality)"
+  - season: winter
+    items:
+      - "Qistibi (roast flatbread with filling) as a warming winter snack"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The tubeteika skull-cap and traditional embroidered dress at festivals"
+  - season: winter
+    items:
+      - "Warm layered winter dress with national embroidery accents"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 9:00am-6:00pm; Kazan's economy is dynamic with strong IT and industrial sectors. Friday afternoon can be a lighter, social period in some workplaces."
+  lunchBreakTiming: "A ~1-hour lunch break around 1:00pm is typical."
+  notableShutdownPeriods:
+    - period: early January
+      description: "New Year holidays (1-8 January) largely close offices; many continue celebrating through the Orthodox Christmas period."
+    - period: Ramadan / Eid al-Fitr
+      description: "As a republic with a large Muslim Tatar population, the end of Ramadan (Uraza Bayram) is an official public holiday; many Muslim businesses observe fasting hours during the holy month."
+  notes: "Sunday is the standard rest day. The republic observes both Russian federal holidays and its own (e.g. Republic Day, 30 August, and Uraza Bayram)."

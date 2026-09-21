@@ -1,0 +1,97 @@
+code: UA-46
+name:
+  eng: Lvivska oblast (Lviv region, includes the city of Lviv)
+  local:
+    - languageCode: ukr
+      value: Львівська область
+climates:
+  - koppenCode: Dfb
+    description: Humid continental climate, cooler and wetter than the east due to Carpathian proximity.
+landmarks:
+  - name: Historic Centre of Lviv (Old Town)
+    unescoWorldHeritage: true
+  - name: Lviv High Castle and market square (Rynok)
+  - name: St George's Cathedral (Lviv)
+  - name: The Armenian quarter and Lychakiv Cemetery
+  - name: Carpathian foothills and Beskyd mountains
+culturalTraits:
+  - "A fiercely Ukrainian cultural capital with deep historical ties to European Galicia"
+  - "Strong cafe culture — Lviv is famous for its coffee houses"
+  - "Centre of Greek Catholic (Uniate) tradition and Ukrainian cultural revival"
+  - "The western gateway of Ukraine, influenced by Polish and Austrian-Habsburg history"
+prideOf:
+  - "Lviv's UNESCO-listed old town and coffee culture"
+  - "The Greek Catholic tradition and churches"
+  - "Carpathian scenery and Hutsul heritage"
+  - "Being a bastion of Ukrainian language and identity"
+animals:
+  popular:
+    - European deer
+    - Wild boar (Carpathian forests)
+  unique:
+    - Carpathian brown bear
+    - Lynx (Carpathian)
+industries:
+  - "Tourism and hospitality (Lviv is Ukraine's leading tourist city)"
+  - "Information technology and software services (a strong IT hub)"
+  - "Food processing and craft production (coffee, chocolate, beer)"
+  - "Machine building and light industry"
+sports:
+  - Football (FC Karpaty Lviv)
+  - Skiing and winter sports (Carpathian resorts)
+  - Basketball
+  - Boxing
+entertainment:
+  - season: summer
+    items:
+      - "Lviv coffee and chocolate festivals"
+      - "Old Town open-air concerts and terrace season"
+  - season: winter
+    items:
+      - "Lviv Christmas market on the Rynok Square"
+      - "Ski season in the Carpathian resorts (e.g. Slavske)"
+  - season: spring
+    items:
+      - "Easter celebrations with regional Hamora repertoire"
+  - season: autumn
+    items:
+      - "Carpathian autumn-hiking season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Lviv cheese cake (syrnyk)"
+      - "Kofta-stuffed pierogi and Galician cuisine"
+      - "Banosh (Carpathian cornmeal dish) in the mountains"
+  - season: winter
+    items:
+      - "Salo and Galician style stews"
+  - season: summer
+    items:
+      - "Fresh Carpathian berries and herbal teas"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Vyshyvanka worn proudly, alongside Hutsul folk attire at festivals"
+  - season: winter
+    items:
+      - "Warm coats and fur-trimmed hats; Hutsul wool garments in the mountains"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 9:00am-6:00pm; Lviv's strong tourism and IT sectors keep a lively pace. Café culture means coffee is a fixture of the workday."
+  lunchBreakTiming: "A ~1-hour lunch around 1:00pm; coffee breaks (kava) are a social institution."
+  notableShutdownPeriods:
+    - period: early January
+      description: "New Year and Orthodox Christmas period reduces activity across the region."
+    - period: winter ski season
+      description: "Carpathian ski resorts (Slavske, Zakhar Berkut) draw crowds; mountain businesses operate on resort hours."
+  notes: "Sunday is the standard rest day. Lviv's tourist zones keep extended weekend hours, and many museums are closed on Mondays."
