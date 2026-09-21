@@ -1,0 +1,165 @@
+alpha3: IRL
+alpha2: IE
+name:
+  eng: Ireland
+  local:
+    - languageCode: gle
+      value: Éire
+    - languageCode: eng
+      value: Ireland
+flagEmoji: "🇮🇪"
+capital: Dublin
+isSovereign: true
+# Classified unitary-small: Ireland does NOT meet the unitary-large criteria.
+# It is a small state (~5.3M, 2026 est.) with a majority-homogeneous population.
+# Although the Constitution (Article 8) recognises Irish (gle) as the first
+# official language and English (eng) as the second, and the Gaeltacht are
+# officially recognised Irish-speaking regions, there is no genuine, widely
+# recognised cultural-historical regional division across the whole state that
+# merits curated subdivision content — the historical provinces (Leinster,
+# Munster, Connacht, Ulster) are cultural/historical, not current administrative
+# units. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: gle
+    domain: official
+    speakersShare: 0.5
+    sourceId: irish-constitution-art8
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: irish-constitution-art8
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.98
+    sourceId: eng-daily-est
+  - languageCode: gle
+    domain: locallySpoken
+    speakersShare: 0.014
+    sourceId: gle-daily-census
+# Constitution Article 8: Irish is the first official language, English is the
+# second official language. Irish is constitutionally official but is the daily
+# language of only ~1.4% of the population (71,968 daily speakers outside the
+# education system, Census 2022); English is the everyday language of the vast
+# majority (~98%, composite estimate). The official-domain share for Irish
+# reflects its constitutional status as co-official (neither rank-and-file use
+# nor legal equality allows a simple 100% — see Article 8); the composite
+# official row treats both as official with Irish at its constitutional standing.
+ethnicGroups:
+  # Central Statistics Office, Census 2022
+  - group: White Irish
+    percent: 77.0
+    sourceId: cso-census-2022-ethnicity
+  - group: Any other White background
+    percent: 10.0
+    sourceId: cso-census-2022-ethnicity
+  - group: Indian / Pakistani / Bangladeshi
+    percent: 2.0
+    sourceId: cso-census-2022-ethnicity
+  - group: Black or Black Irish
+    percent: 1.0
+    sourceId: cso-census-2022-ethnicity
+  - group: Asian or Asian Irish (other)
+    percent: 1.0
+    sourceId: cso-census-2022-ethnicity
+  - group: Mixed or other
+    percent: 2.0
+    sourceId: cso-census-2022-ethnicity
+# Not stated / residual ~7% — Census 2022 introduced new categories and a
+# sizeable share did not state; figures above are rounded from the CSO data.
+timezones:
+  - name: Europe/Dublin
+    standardUtcOffset: "UTC+0"
+    observesDst: true
+    dstUtcOffset: "UTC+1"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "official languages"
+    description: "Under Article 8 of the Constitution, Irish is the first official language and English the second. Government services and signage operate bilingually, and there are legal duties on the State to provide services in Irish."
+    sourceId: irish-constitution-art8
+  - topic: "Sunday and Christmas trading"
+    description: "Cafés, pubs and restaurants observe Sunday opening; large shops face limited opening-hours rules. Most retail closes earlier on Sunday; many outlets shut on Christmas Day, St. Patrick's Day, and Good Friday (though the restriction on larger stores opening Good Friday was removed in 2018, some close voluntarily)."
+    sourceId: org-office-hours
+  - topic: "value added tax on goods"
+    description: "VAT is charged on most goods and services (standard rate 23% for most goods and services at the point of sale)."
+    sourceId: revenue-vat
+paymentCulture:
+  popularMethods:
+    - "Visa and Mastercard debit/credit cards — the everyday default for most purchases"
+    - "Contactless card payments (tap-to-pay, widely used, limits apply above a threshold)"
+    - "Mobile payment apps (e.g. Apple Pay, Google Pay); local bank apps"
+    - "Cash — still accepted and used, though card/digital has become dominant for daily transactions"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected or customary; a discretionary ~10% tip is appreciated in restaurants for good service but is not compulsory."
+    autoIncludedInBill: false
+    note: "Tipping is not obligatory; a small discretionary tip for good restaurant service is common but optional."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Warm and friendly but professional; first-name usage is common even in business after an initial introduction. Politeness and indirectness in refusing are valued — people often soften direct 'no's."
+  greetingNorms: "A handshake with eye contact is the standard greeting. 'Hello' / 'How are you?' is a customary opener. 'Craic' (fun/company) is part of everyday social banter."
+  meetingEtiquette: "Meetings tend to be informal and conversational; punctuality is appreciated. Building rapport and a bit of friendly chat before business is normal. Decisions may be reached through consensus and discussion rather than rigid agenda."
+  topicsToAvoid:
+    - "Assuming Northern Ireland / border politics is a comfortable topic for all"
+    - "Comparisons implying Ireland is 'part of the UK'"
+    - "Overly personal financial or political questions early on"
+  giftGivingNotes: "A small gift is a welcome gesture when visiting someone's home (e.g. wine, chocolates, flowers); an odd number of flowers is traditionally preferred as even numbers may be associated with funerals."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: irish-constitution-art8
+    name: "Constitution of Ireland, Article 8"
+    publisher: "Government of Ireland (electronic Irish Statute Book)"
+    url: "https://www.irishstatutebook.ie/eli/cons/en/html#article8"
+    year: 1937
+    accessedDate: "2026-09-19"
+    note: "Article 8: 'The Irish language as the national language is the first official language. The English language is recognised as a second official language.' Legal basis for the official rows."
+  - id: eng-daily-est
+    name: "Composite estimate — English as the everyday language of Ireland"
+    publisher: "Composite estimate (Census 2022 / CSO)"
+    url: "https://www.cso.ie/en/releasesandpublications/ep/p-cpp8/censusofpopulation2022profile8-theirishlanguageandeducation/"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "English is the everyday spoken language of the vast majority of the population (~98%); a composite estimate derived from the small share who use Irish daily."
+  - id: gle-daily-census
+    name: "Census 2022 Profile 8 — The Irish Language and Education"
+    publisher: "Central Statistics Office (Ireland)"
+    url: "https://www.cso.ie/en/releasesandpublications/ep/p-cpp8/censusofpopulation2022profile8-theirishlanguageandeducation/"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "71,968 people speak Irish daily outside the education system (~1.4% of the population aged 3+). Basis for the Irish locallySpoken daily-use share."
+  - id: cso-census-2022-ethnicity
+    name: "Census 2022 Profile 5 — Diversity, Migration, Ethnicity, Irish Travellers & Religion (Ethnic Group/Background)"
+    publisher: "Central Statistics Office (Ireland)"
+    url: "https://www.cso.ie/en/releasesandpublications/ep/p-cpp5/censusofpopulation2022profile5-diversitymigrationethnicityirishtravellersreligion/ethnicgroupbackground/"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "White Irish 77%, Any other White 10%, Indian/Pakistani/Bangladeshi 2%, Black or Black-Irish 1%; other Asian ~1%; smaller groups and not-stated remainder. Percentages rounded."
+  - id: org-office-hours
+    name: "Office & retail opening hours in Ireland"
+    publisher: "Vintners' Federation of Ireland (trade guidance on retail/licensing trading-hours law)"
+    url: "https://vfipubs.ie/wp-content/uploads/2018/02/TRADING-HOURS-KNOW-THE-LAW-1.pdf"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "General Sunday-trading and Christmas/Good Friday opening conventions for shops, hospitality and offices."
+  - id: revenue-vat
+    name: "VAT rates and rules — Revenue (Ireland)"
+    publisher: "Office of the Revenue Commissioners (Ireland)"
+    url: "https://www.revenue.ie/en/tax-professionals/tdm/value-added-tax/vat-rates/index.aspx"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Standard VAT rate of 23% on most goods and services, included in the displayed price."
+  - id: iso-gle
+    name: "ISO 639-3 entry: gle — Irish"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/gle"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Verifies ISO 639-3 code gle = Irish (Individual, Living)."

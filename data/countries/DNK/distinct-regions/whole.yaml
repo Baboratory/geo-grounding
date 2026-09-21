@@ -1,0 +1,138 @@
+code: WHOLE
+name:
+  eng: Denmark
+  local:
+    - languageCode: dan
+      value: Danmark
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate — mild winters, cool summers, and precipitation throughout the year.
+landmarks:
+  - name: The Little Mermaid (Copenhagen)
+    description: The iconic bronze statue of the Hans Christian Andersen character, on the Copenhagen waterfront.
+  - name: Tivoli Gardens (Copenhagen)
+    description: One of the world's oldest amusement parks, opened 1843, in central Copenhagen.
+  - name: Kronborg Castle (Elsinore)
+    description: Renaissance castle that inspired Shakespeare's 'Hamlet' (Elsinore castle of the play).
+    unescoWorldHeritage: true
+  - name: Jelling Monuments
+    description: One of the great Viking-age royal monuments, including rune stones of King Harald Bluetooth.
+    unescoWorldHeritage: true
+  - name: Roskilde Cathedral
+    description: Gothic cathedral and burial place of Danish monarchs.
+    unescoWorldHeritage: true
+  - name: Christiansborg Palace and Nyhavn (Copenhagen)
+    description: Seat of the Danish parliament and the colourful canal-side harbour district.
+culturalTraits:
+  - 'hygge — the Danish concept of cosy, warm, contented togetherness'
+  - Viking heritage and maritime history
+  - Design and formgivning — world-famous Danish furniture, architecture and industrial design
+  - Strong cycling culture (Copenhagen is one of the world's most bike-friendly cities)
+prideOf:
+  - The Viking Age heritage and the rune stones at Jelling
+  - World-renowned Danish design (furniture, architecture, LEGO)
+  - Hans Christian Andersen's fairy tales
+  - Being consistently ranked among the happiest countries in the world
+animals:
+  popular:
+    - Red deer
+    - Roe deer
+    - European hedgehog
+  unique:
+    - "Viking-era heritage of the Danish warmblood horse"
+    - Little owl (rare in Denmark)
+industries:
+  - Wind energy and renewable technology (one of the world leaders)
+  - Pharmaceuticals (e.g. Novo Nordisk)
+  - Agriculture and dairy (pork, dairy exports)
+  - Design and shipping (Maersk)
+sports:
+  - Association football (the most popular spectator sport)
+  - Handball (national team strength)
+  - Cycling (riding and viewing) and sailing
+  - Badminton
+religions:
+  - name: Church of Denmark (Evangelical Lutheran)
+    percent: 72.1
+    sourceId: kirkeministeriet-2023
+  - name: Other / none / not stated
+    percent: 27.9
+    sourceId: kirkeministeriet-2023
+entertainment:
+  - season: summer
+    items:
+      - Music festivals (e.g. Roskilde Festival)
+      - "Sankt Hans (Midsummer eve bonfires on 23 June)"
+      - Open-air cafés and harbour swimming in Copenhagen
+  - season: spring
+    items:
+      - "Fastelavn (pre-Lenten carnival with costumed children)"
+      - Copenhagen spring festivals
+  - season: winter
+    items:
+      - Christmas markets and gløgg (mulled wine) season
+      - Hygge indoor gatherings and candle-lit evenings
+  - season: allYear
+    items:
+      - Museum and design visits; football matches
+traditionalDishes:
+  - season: allYear
+    items:
+      - Smørrebrød (open-faced rye-bread sandwiches)
+      - Frikadeller (Danish meatballs)
+      - Stegt flæsk (fried pork with parsley sauce — the national dish)
+  - season: winter
+    items:
+      - "Æbleskiver (puffy pancake balls, a Christmas classic)"
+      - Gløgg (mulled wine)
+  - season: summer
+    items:
+      - New potatoes and pickled herring (summer eating traditions)
+      - Grilled dishes at seasonal gatherings
+traditionalClothing:
+  - season: allYear
+    items:
+      - Modern Scandinavian functional and minimalist style (no daily traditional wear)
+      - Folk costume (folkedragt) worn only at special folk events and celebrations
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: []
+  notes: "No strict nationwide retail-closing law applies to all shops; opening hours were liberalised in 2012. Small and most city shops trade 7 days; larger out-of-town stores may open Sundays too (rules vary by size and location). Standard office hours are ~8:00/9:00am-4:00/5:00pm, and employees often finish early on Fridays. Denmark uses one of the most cashless retail environments in Europe."
+  typicalWorkHours: "Standard office hours are typically around 8:00/9:00am-4:00/5:00pm, Monday-Friday, with a shorter Friday."
+sources:
+  - id: kirkeministeriet-2023
+    name: "Church of Denmark membership statistics, January 2023"
+    publisher: "Ministry of Ecclesiastical Affairs (Kirkeministeriet) / Folkekirken"
+    url: "https://www.folkekirken.dk/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "72.1% of the population were members of the Church of Denmark (Evangelical Lutheran) in January 2023; the remainder includes other/private belief systems and no stated religion (Denmark publishes no official census religion data beyond church membership)."
+  - id: unesco-kronborg
+    name: "UNESCO — Kronborg Castle"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/696/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Kronborg Castle is a UNESCO World Heritage Site (the setting of Shakespeare's Hamlet)."
+  - id: unesco-jelling
+    name: "UNESCO — Jelling Mounds, Runic Stones and Church"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/697/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "The Jelling monuments are a UNESCO World Heritage Site."
+  - id: unesco-roskilde
+    name: "UNESCO — Roskilde Cathedral"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/695/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Roskilde Cathedral is a UNESCO World Heritage Site."
