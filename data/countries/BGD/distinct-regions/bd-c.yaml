@@ -1,0 +1,85 @@
+code: BD-C
+name:
+  eng: Dhaka Division
+  local:
+    - languageCode: ben
+      value: ঢাকা বিভাগ
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (monsoon) climate with a hot summer, a heavy June-October wet season and a mild, drier winter."
+landmarks:
+  - name: Lalbagh Fort
+    description: "A 17th-century Mughal fortress complex in central Dhaka, renowned for its gardens and mosque."
+  - name: Ahsan Manzil (Pink Palace)
+    description: "The lavish 19th-century riverside palace of the Nawabs of Dhaka, now a museum on the Buriganga riverfront."
+  - name: National Parliament House (Jatiya Sangsad Bhaban)
+    description: "The celebrated modernist parliament building designed by Louis Kahn, an iconic symbol of Bangladesh."
+  - name: Baitul Mukarram National Mosque
+    description: "The national mosque, one of the largest in South Asia, near the city center."
+  - name: Dhaka's old city and Sadarghat river port
+    description: "The bustling historic core and its busy river port on the Buriganga, with colorful boat traffic."
+culturalTraits:
+  - "Bangladesh's capital megacity and the nation's political, economic and cultural engine"
+  - "A dense, energetic metropolis of ~22M people, famous for its rickshaws and street life"
+  - "The center of government, the ready-made-garment industry and higher education"
+prideOf:
+  - "Being the seat of Bangladesh's independence and national identity"
+  - "A global hub for ready-made-garment manufacturing"
+  - "A vibrant arts, food and literary scene rooted in Bengali culture"
+animals:
+  popular:
+    - "Rhesus macaque"
+    - "House crows (ubiquitous)"
+  unique:
+    - "Ganges river dolphin (occasionally spotted in the Buriganga and Padma)"
+industries:
+  - "Ready-made garments (RMG) and textiles — the economic heart of the nation"
+  - "Government, banking and financial services"
+  - "Pharmaceuticals and consumer goods"
+  - "IT services and a growing startup ecosystem"
+sports:
+  - "Cricket"
+  - "Football"
+  - "Kabaddi"
+entertainment:
+  - season: allYear
+    items:
+      - "Street-food culture — fuchka, jhalmuri and kebabs in Dhaka's lanes"
+      - "Cricket at Sher-e-Bangla National Stadium"
+      - "Bengali cinema ('Dhallywood') and TV serials"
+      - "Pohela Boishakh celebrations, especially around Dhaka University"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kacchi biryani — the celebrated Dhaka specialty"
+      - "Hilsa (ilish) fish curry with rice"
+      - "Fuchka (pani puri) and egg chotpoti street snacks"
+      - "Sweets: rasgulla, sandesh, jilapi"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Panjabi (kurta) for men and sarees for women at festivals"
+      - "Salwar kameez as common women's dress; lungi/paijama for men at home"
+      - "Modern business/Western wear in offices and universities"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Offices generally open 09:00/10:00-18:00 with a Friday-Saturday weekend; many businesses close for prayer on Friday midday."
+  lunchBreakTiming: "A lunch break around 14:00 is common."
+sources:
+  - id: dhaka-tourism
+    name: "Dhaka travel guide and city landmarks"
+    publisher: "Bangladesh Parjatan Corporation"
+    url: "https://www.bangladeshtourism.gov.bd/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks and cultural description for Dhaka Division."

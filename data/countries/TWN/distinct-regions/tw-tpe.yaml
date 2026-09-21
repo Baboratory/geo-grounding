@@ -1,0 +1,82 @@
+code: TW-TPE
+name:
+  eng: Taipei City
+  local:
+    - languageCode: cmn
+      value: 臺北市
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate with hot, humid summers and mild, damp winters; the wettest months are May–September (typhoon season)."
+landmarks:
+  - name: Taipei 101
+    description: "The city's iconic supertall skyscraper, with an outdoor observatory and the famous Lunar New Year fireworks."
+  - name: National Palace Museum
+    description: "One of the world's greatest collections of Chinese art and antiquities."
+  - name: Chiang Kai-shek Memorial Hall and Liberty Square
+    description: "A grand monument complex and civic square in central Taipei."
+  - name: Longshan Temple
+    description: "A historic Mazu/Wenshu temple in Wanhua, one of Taipei's oldest and most venerated."
+  - name: Beitou Hot Springs
+    description: "A famous geothermal hot-spring district at the city's northern edge."
+culturalTraits:
+  - "Taiwan's capital and political, financial and cultural heart"
+  - "A dense, efficient metropolis with an excellent MRT (metro) system"
+  - "Renowned night markets (Shilin, Raohe), boba culture and a thriving cafe scene"
+  - "Home to Taiwan's tech startups alongside the government and major universities"
+prideOf:
+  - "Being the seat of Taiwan's democracy and national identity"
+  - "Its world-class public transit and livability"
+  - "A cutting-edge fusion of tradition (temples) and modernity (Taipei 101)"
+animals:
+  popular:
+    - "Formosan black bear (national symbol)"
+    - "Taiwan blue magpie"
+  unique:
+    - "Taiwan blue magpie (Urocissa caerulea) — endemic, often seen in urban parks and foothills"
+industries:
+  - "Financial services, technology and professional consulting (headquarters district)"
+  - "Government and public administration"
+  - "Software, fintech, media and creative industries"
+  - "Tourism and hospitality"
+sports:
+  - "Baseball"
+  - "Basketball"
+  - "Badminton"
+entertainment:
+  - season: allYear
+    items:
+      - "Night-market hopping in Shilin and Raohe"
+      - "KTV, theaters and the vibrant Ximending entertainment district"
+      - "Convenience-store culture and cafes across the city"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Beef noodle soup"
+      - "Oyster omelette and stinky tofu (night-market staples)"
+      - "Pineapple cakes and bubble milk tea"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern urban business and smart-casual attire"
+      - "Traditional Chinese dress worn on festive and ceremonial occasions"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4]
+  - season: summer
+    months: [5, 6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday to Friday; retail and dining operate longer hours including weekends."
+  lunchBreakTiming: "A lunch break around 12:00-13:30 with bento boxes and restaurants."
+sources:
+  - id: tw-tpe-tourism
+    name: "Taipei Travel (city guide)"
+    publisher: "Taipei City Government (Department of Information and Tourism)"
+    url: "https://www.travel.taipei/en"
+    accessedDate: "2026-09-21"
+    note: "Landmarks and cultural description for Taipei."

@@ -1,0 +1,8 @@
+code: ami
+name:
+  eng: Amis
+  local: Pangcah / 'Amis
+commonPhrases:
+  hello: "Nga'ay ho"
+  thankYou: "Miharateng kako"
+  goodbye: "Sakamaya"

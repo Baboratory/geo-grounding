@@ -1,0 +1,83 @@
+code: BD-E
+name:
+  eng: Rajshahi Division
+  local:
+    - languageCode: ben
+      value: রাজশাহী বিভাগ
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical with a drier, cooler winter than the rest of the country; hot summers and a June-September monsoon."
+landmarks:
+  - name: Ruins of the Buddhist Vihara at Paharpur (Somapura Mahavihara)
+    description: "An 8th-century Buddhist monastery complex recognized as a UNESCO World Heritage Site."
+  - name: Historic Mosque City of Bagerhat (adjacent area)
+    description: "The 15th-century mosque-city district (partly in Khulna) reflects the region's medieval Islamic heritage."
+  - name: Puthia Temple Complex
+    description: "Bangladesh's largest cluster of Hindu temples, in Rajshahi district, with ornate terracotta facades."
+  - name: The Ganges (Padma) riverfront and the Silk City of Rajshahi
+    description: "Rajshahi is the historic 'silk city', set along the broad Padma river."
+  - name: Kantajew Temple and the mango orchards of Chapai Nawabganj
+    description: "The famed terracotta Hindu temple and the deep orchards of the region's mango bowl."
+culturalTraits:
+  - "The heart of traditional Bengali culture in the northwest, often called the cultural cradle of Bengali heritage"
+  - "A historic center of Islam, Hindu temple art and craft in the Barind region"
+  - "Renowned for mango cultivation, silk weaving and litchi"
+prideOf:
+  - "Its UNESCO-listed Paharpur heritage site and Puthia's temple artistry"
+  - "Being Bangladesh's premier mango and silk region"
+  - "A rich legacy in Bengali literature, music and scholarship"
+animals:
+  popular:
+    - "Bengal tiger (Sundarbans-adjacent riverine areas historically)"
+    - "River dolphins (Padma)"
+  unique:
+    - "Ganges river dolphin — sighted in the Padma"
+industries:
+  - "Agriculture — mango, litchi, rice and jute"
+  - "Silk weaving and cottage textiles"
+  - "Sericulture and food processing"
+  - "Higher education (Rajshahi University) and regional trade"
+sports:
+  - "Cricket"
+  - "Football"
+  - "Kabaddi"
+entertainment:
+  - season: allYear
+    items:
+      - "Heritage tours of Paharpur and Puthia"
+      - "Mango-season festivals in Chapai Nawabganj"
+      - "River life along the Padma"
+      - "Silk-market visits in Rajshahi city"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Mangoes (the region's famous 'Himsagar' and 'Langra' varieties)"
+      - "Bhuna meat and rice dishes"
+      - "Local sweets and litchi"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Panjabi and saree at festivals; salwar kameez everyday for women"
+      - "Traditional woven and silk fabrics of the region"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Commercial hours roughly 09:00-18:00 with a Friday-Saturday weekend."
+  lunchBreakTiming: "A lunch break around 14:00 is common."
+sources:
+  - id: rajshahi-tourism
+    name: "Rajshahi Division travel guide"
+    publisher: "Bangladesh Parjatan Corporation"
+    url: "https://www.bangladeshtourism.gov.bd/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, Paharpur, Puthia and cultural description for Rajshahi Division."
