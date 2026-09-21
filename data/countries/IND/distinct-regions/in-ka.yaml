@@ -1,0 +1,94 @@
+code: IN-KA
+name:
+  eng: Karnataka
+  local:
+    - languageCode: kan
+      value: ಕರ್ನಾಟಕ
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate across most of the Deccan plateau and the Bangalore region, with a hot dry season and monsoon rains."
+  - koppenCode: Cwb
+    description: "Mild subtropical highland climate in the Western Ghats and hill stations, cooler and wetter."
+landmarks:
+  - name: Hampi
+    description: "The ruins of the Vijayanagara Empire capital, a UNESCO World Heritage Site of temples and monuments."
+    unescoWorldHeritage: true
+  - name: Mysore Palace
+    description: "The lavish royal residence of the Wadiyar dynasty, an icon of Mysore and a top tourist attraction."
+  - name: Gol Gumbaz
+    description: "The domed mausoleum in Bijapur, one of the largest domes in the world."
+  - name: Bangalore Palace and Lalbagh Gardens
+    description: "A Tudor-style palace and the famous botanical gardens in Bengaluru."
+culturalTraits:
+  - "Home to Bengaluru, India's 'Silicon Valley' and IT capital"
+  - "A rich Kannada cultural, literary and classical-dance (Bharatanatyam) heritage"
+  - "A mix of historic Vijayanagara and Hoysala temples and modern tech-driven cities"
+prideOf:
+  - "Bengaluru's technology and startup economy"
+  - "The heritage of Hampi, Mysore and classical music/dance"
+  - "Karnataka's tolerant, cosmopolitan character"
+animals:
+  popular:
+    - "Asian elephant (in the Western Ghats forests)"
+  unique:
+    - "Indian tiger (Bandipur and Nagarhole reserves)"
+industries:
+  - "Information technology and software (Bengaluru, 'Silicon Valley of India')"
+  - "Aerospace and defence manufacturing"
+  - "Coffee (Karnataka is India's leading coffee state)"
+  - "Silk, sandalwood and biotechnology"
+  - "Tourism"
+sports:
+  - "Cricket (Bengaluru's M. Chinnaswamy Stadium)"
+  - "Field hockey"
+  - "Football (Bengaluru FC)"
+entertainment:
+  - season: allYear
+    items:
+      - "Bengaluru's pubs, cafés and tech/hacker culture"
+      - "Classical music and dance performances"
+  - season: dry
+    items:
+      - "Heritage tours of Hampi and Mysore in the pleasant dry months"
+  - season: wet
+    items:
+      - "The Western Ghats turn lush and green through the monsoon (best for nature)"
+  - season: winter
+    items:
+      - "Winter festivals and the Mysore Dasara celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Masala dosa, idli, vada and filter coffee (Bengaluru's food identity)"
+      - "Bisi bele bath and Ragi mudde"
+      - "Mysore pak (sweet) and fresh banana dishes"
+  - season: dry
+    items:
+      - "Cooling buttermilk and light South Indian meals in the heat"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kannada-style wear: the Ilkal saree, and light cotton clothing suited to the moderate climate"
+  - season: wet
+    items:
+      - "Rainwear for the monsoon"
+seasonCalendar:
+  - season: dry
+    months: [3, 4, 5, 6]
+  - season: wet
+    months: [7, 8, 9, 10, 11, 12]
+  - season: winter
+    months: [1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Bengaluru's IT sector commonly runs 09:30-18:00 Monday-Friday; night/global-shift work is common in tech services."
+  lunchBreakTiming: "A lunch break around 13:00 is common, often South Indian meals or a café lunch."
+sources:
+  - id: karnataka-tourism
+    name: "Karnataka Tourism"
+    publisher: "Karnataka State Tourism Development Corporation"
+    url: "https://karnatakatourism.org/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Karnataka."

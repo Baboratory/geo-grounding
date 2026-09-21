@@ -1,0 +1,98 @@
+code: IN-TN
+name:
+  eng: Tamil Nadu
+  local:
+    - languageCode: tam
+      value: தமிழ்நாடு
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate across most of Tamil Nadu, hot year-round, with rains from the northeast monsoon in winter and the southwest monsoon."
+  - koppenCode: Am
+    description: "Tropical monsoon climate on the coast and in the Nilgiri foothills, humid with heavy seasonal rain."
+landmarks:
+  - name: Brihadisvara Temple (Thanjavur)
+    description: "A magnificent Chola-era Dravidian temple, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Meenakshi Amman Temple (Madurai)
+    description: "The vast, colourfully gopuram-towered temple complex at the heart of Madurai."
+  - name: Marina Beach (Chennai)
+    description: "One of the world's longest urban beaches, fronting the Bay of Bengal."
+  - name: Kanyakumari
+    description: "India's southernmost tip, where three seas meet, famed for its sunrise and sunset."
+culturalTraits:
+  - "The heartland of Tamil culture, one of the world's oldest living language traditions"
+  - "Renowned for Dravidian temple architecture, classical Bharatanatyam dance and Carnatic music"
+  - "A proud sense of Tamil-language identity and a strong literary heritage"
+prideOf:
+  - "The Tamil language and its ancient literary tradition (Sangam literature)"
+  - "Grand Dravidian temple architecture"
+  - "Chennai, a hub of automaking, IT and the film industry (Kollywood)"
+animals:
+  popular:
+    - "Asian elephant"
+  unique:
+    - "Nilgiri tahr (a mountain goat of the Western Ghats)"
+industries:
+  - "Automotive manufacturing (Chennai, 'Detroit of India')"
+  - "Information technology and software services"
+  - "Film (Kollywood) and media"
+  - "Textiles and garments (Tiruppur)"
+  - "Agriculture (rice, sugarcane, bananas)"
+sports:
+  - "Cricket (M.A. Chidambaram Stadium, Chepauk)"
+  - "Field hockey"
+  - "Kabaddi"
+  - "Motor racing (Chennai's street circuit)"
+entertainment:
+  - season: allYear
+    items:
+      - "Temple festivals (including the Pongal harvest festival in January)"
+      - "Carnatic music and Bharatanatyam performances"
+  - season: dry
+    items:
+      - "Heritage and hill-station tours in the moderate dry season"
+  - season: wet
+    items:
+      - "The northeast-monsoon rains refresh the greenery in late autumn/winter"
+  - season: winter
+    items:
+      - "The pleasant Cool-season travel window and Pongal celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Idli, dosa, sambar and filter coffee"
+      - "Chettinad spicy cuisine and the banana-leaf rice meal tradition"
+      - "Sweets like payasam and murukku"
+  - season: dry
+    items:
+      - "Cooling buttermilk (neer mor) and fresh fruit in the heat"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The Kanchipuram silk saree (formal) and light cotton wear; men in veshti (dhoti)"
+  - season: dry
+    items:
+      - "Light, breathable cottons for the heat"
+  - season: wet
+    items:
+      - "Rainwear and light quick-dry clothing"
+seasonCalendar:
+  - season: dry
+    months: [3, 4, 5, 6]
+  - season: wet
+    months: [7, 8, 9, 10, 11, 12]
+  - season: winter
+    months: [1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Chennai's industrial and IT sectors run 09:30-18:00 Monday-Friday; manufacturing often operates shifts."
+  lunchBreakTiming: "A lunch break around 13:00 is standard, often a full South Indian meal."
+sources:
+  - id: tamilnadu-tourism
+    name: "Tamil Nadu Tourism"
+    publisher: "Tamil Nadu Tourism Development Corporation"
+    url: "https://www.tamilnadutourism.tn.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Tamil Nadu."

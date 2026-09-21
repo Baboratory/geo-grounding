@@ -1,0 +1,166 @@
+alpha3: IND
+alpha2: IN
+name:
+  eng: India
+  local:
+    - languageCode: hin
+      value: भारत (Bhārat)
+    - languageCode: eng
+      value: India
+flagEmoji: "🇮🇳"
+capital: New Delhi
+isSovereign: true
+# Classified federal: India is a federal parliamentary republic with 28 states
+# and 8 union territories as first-order units, each with substantial
+# legislative autonomy under a three-list division of powers in the
+# Constitution (Union list, State list, Concurrent list). Federations always
+# carry real ISO 3166-2 subdivisions: IN-MH Maharashtra, IN-DL Delhi (NCT),
+# IN-KA Karnataka, IN-TN Tamil Nadu, IN-GJ Gujarat, IN-WB West Bengal, etc.
+# Curated subset + WHOLE below. Hindi (Devanagari script) is the official
+# language of the Union; English is the co-official/associate official
+# language (Constitution Art. 343; Official Languages Act 1963). There is NO
+# constitutionally designated 'national language'. The 22 Eighth-Schedule
+# languages are regionally official. Both official-domain rows are flagged 1.0
+# (legal status, not population share).
+governanceType: federal
+iso3166_2_prefix: IN
+hasSubdivisions: true
+languageUsage:
+  - languageCode: hin
+    domain: official
+    # Hindi in the Devanagari script is the official language of the Union
+    # (Constitution Art. 343). Flagged 1.0 as legal/administrative status.
+    speakersShare: 1.0
+    sourceId: gol-art343
+  - languageCode: eng
+    domain: official
+    # English is the co-official / associate official language of the Union
+    # (Official Languages Act 1963, extended indefinitely). Flagged 1.0.
+    speakersShare: 1.0
+    sourceId: gol-ola1963
+  - languageCode: hin
+    domain: locallySpoken
+    # Hindi is the most widely spoken language: the 2011 Census recorded it as
+    # the mother tongue/most-spoken at home for a plurality (~43.6% of the
+    # population), with many more speaking it as a second language. Precise
+    # 'share' varies by census metric.
+    speakersShare: 0.436
+    sourceId: census-2011
+  - languageCode: eng
+    domain: locallySpoken
+    # English is the associate official language and widely used in business,
+    # education, the professions and the higher courts, but the number fluent
+    # is modest (commonly cited ~10-12% of the population). No official
+    # single figure; treated as an ESTIMATE.
+    speakersShare: 0.10
+    sourceId: census-2011
+# ethnicGroups intentionally omitted: India does not enumerate a single
+# additively-exclusive 'ethnic group' share at the national level — the 2011
+# Census records language and religion (Hindu ~79.8%, Muslim ~14.2%, Christian
+# ~2.3%, Sikh ~1.7%, Buddhist ~0.7%, Jain ~0.4%), and 'ethnicity' is not a
+# census category. A summative ethnic composition would misrepresent the data.
+timezones:
+  - name: Asia/Kolkata
+    standardUtcOffset: "UTC+5:30"
+    observesDst: false
+currency:
+  code: INR
+  symbol: "₹"
+  name: Indian rupee
+legalConstraints:
+  - topic: "official language"
+    description: "Article 343 designates Hindi in the Devanagari script as the official language of the Union; the Official Languages Act 1963 (amended 1967) provides that English continues indefinitely as the co-official/associate official language. The Constitution recognizes 22 Eighth-Schedule languages, which have official status in their respective states. India has no constitutionally designated 'national language'."
+    sourceId: gol-art343
+  - topic: "consumer protection"
+    description: "The Consumer Protection Act 2019 establishes a three-tier adjudicatory framework (District/State/National Consumer Disputes Redressal Commissions), regulates e-commerce, prohibits unfair trade practices and misleading advertisements, and creates a Central Consumer Protection Authority (CCPA). Its predecessor (the Consumer Protection Act 1986) founded the consumer-complaint system."
+    sourceId: gol-cpa2019
+  - topic: "data protection"
+    description: "The Digital Personal Data Protection Act 2023 (DPDP Act) is India's first comprehensive personal-data law; it obliges 'data fiduciaries' to obtain notice-and-consent before processing 'digital personal data' of a 'data principal', with the Data Protection Board supervising. Implementation rules were being phased in through 2024-25. (The earlier IT Act and its rules governed data before the DPDP Act's framework.)"
+    sourceId: gol-dpdp2023
+  - topic: "GST (VAT)"
+    description: "A unified Goods and Services Tax (GST, introduced 1 July 2017 under the Constitution (101st Amendment) Act) replaced most central and state indirect taxes. It applies in graduated slabs — 5%, 12%, 18% and the standard 28% — plus a 0.25% on rough diamonds and 3% on gold; essential goods are exempt or in the lowest slabs. The 18% band covers most services and many consumer goods."
+    sourceId: cbic-gst
+paymentCulture:
+  popularMethods:
+    - "UPI (Unified Payments Interface) QR-code payments dominate — India is the world's largest real-time payment system by volume (over 13 billion monthly UPI transactions in 2024)"
+    - "Mobile wallets and apps (PhonePe, Google Pay, Paytm, CRED) are ubiquitous for person-to-person and merchant payments"
+    - "Cash remains common for small daily purchases, especially in rural and informal settings"
+    - "RuPay debit/credit cards and NEFT/IMPS bank transfers are widely used"
+  tipping:
+    expected: false
+    typicalAmount: "Tipping is not expected in most settings; a small service charge (often 10% at restaurants) may be added, and tips are modest where given"
+    autoIncludedInBill: false
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Respectful and relation-centric. Hierarchy, age and titles matter; formal greetings and deference to elders or seniors are valued. Communication is often indirect and polite, placing relationships and harmony above blunt directness."
+  greetingNorms: "The folded-hands 'Namaste/Namaskar' with a slight bow is the traditional greeting; handshakes are common in business, though many women prefer the namaste. Address people by title or honorific (ji/ji-suffix as a respectful marker)."
+  meetingEtiquette: "Punctuality is appreciated though business meetings often run on flexible time. Meetings typically open with pleasantries and relationship-building before business. Decisions often rest with the most senior person present; negotiation can be relationship-driven and indirect."
+  topicsToAvoid:
+    - "Direct criticism of a senior, or confrontational disagreement in public"
+    - "Sensitive discussions of religion, caste or regional politics unless the other party raises them"
+    - "Using the left hand or pointing with the foot (cultural sensitivity)"
+  giftGivingNotes: "Gift-giving is appreciated on festivals and social occasions; modest, well-wrapped gifts are preferred and it is respectful to offer/accept with the right hand. Avoid leather items for some religious households and always consider the recipient's religious context."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: IN-MH
+    file: distinct-regions/in-mh.yaml
+    adminUnitCodes: [IN-MH]
+  - code: IN-DL
+    file: distinct-regions/in-dl.yaml
+    adminUnitCodes: [IN-DL]
+  - code: IN-KA
+    file: distinct-regions/in-ka.yaml
+    adminUnitCodes: [IN-KA]
+  - code: IN-TN
+    file: distinct-regions/in-tn.yaml
+    adminUnitCodes: [IN-TN]
+  - code: IN-GJ
+    file: distinct-regions/in-gj.yaml
+    adminUnitCodes: [IN-GJ]
+  - code: IN-WB
+    file: distinct-regions/in-wb.yaml
+    adminUnitCodes: [IN-WB]
+sources:
+  - id: gol-art343
+    name: "Constitution of India — Part XVII, Article 343 (Official Language of the Union)"
+    publisher: "Government of India (Legislative Department, Ministry of Law and Justice)"
+    url: "https://legislative.gov.in/sites/default/files/coi-4March2016.pdf"
+    year: 1950
+    accessedDate: "2026-09-21"
+    note: "Designates Hindi in Devanagari as the official language of the Union with English continuing as an associate official language."
+  - id: gol-ola1963
+    name: "Official Languages Act, 1963 (as amended 1967)"
+    publisher: "Government of India — Department of Official Language, Ministry of Home Affairs"
+    url: "https://dol.gov.in/en/act"
+    year: 1963
+    accessedDate: "2026-09-21"
+    note: "Provides for the continued, indefinite use of English in addition to Hindi for official purposes of the Union."
+  - id: census-2011
+    name: "Census of India 2011 — Language and religion tables"
+    publisher: "Registrar General and Census Commissioner of India, Ministry of Home Affairs"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-21"
+    note: "Language-at-home shares (Hindi plurality ~43.6%) and religion distribution; English fluency has no official census figure (treated as an ESTIMATE)."
+  - id: gol-cpa2019
+    name: "Consumer Protection Act, 2019"
+    publisher: "Government of India — Ministry of Consumer Affairs, Food and Public Distribution"
+    url: "https://consumeraffairs.nic.in/"
+    year: 2019
+    accessedDate: "2026-09-21"
+    note: "Three-tier consumer-dispute framework, Central Consumer Protection Authority, e-commerce and misleading-advertising regulation."
+  - id: gol-dpdp2023
+    name: "Digital Personal Data Protection Act, 2023"
+    publisher: "Ministry of Electronics & Information Technology (MeitY), Government of India"
+    url: "https://www.meity.gov.in/"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "India's first comprehensive personal-data law: consent-based processing obligations on data fiduciaries, Data Protection Board supervision."
+  - id: cbic-gst
+    name: "GST — Goods and Services Tax (gst.gov.in)"
+    publisher: "Central Board of Indirect Taxes and Customs (CBIC), Government of India"
+    url: "https://gst.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Unified GST in slabs 5/12/18/28%; the 18% band covers most services and many consumer goods."

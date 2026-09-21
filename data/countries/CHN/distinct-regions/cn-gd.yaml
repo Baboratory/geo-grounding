@@ -1,0 +1,103 @@
+code: CN-GD
+name:
+  eng: Guangdong Province
+  local:
+    - languageCode: zho
+      value: 广东省 (Guǎngdōng Shěng)
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate with hot humid summers, mild winters and strong concentrations of rain in the typhoon season (summer-autumn)."
+landmarks:
+  - name: Canton Tower
+    description: "The distinctive twisting TV tower of Guangzhou, the tallest in China."
+  - name: Shamian Island
+    description: "A historic enclave of 19th-century colonial architecture in Guangzhou."
+  - name: Danxia Landform (Shaoguan)
+    description: "Spectacular red sandstone 'danxia' landforms, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Shenzhen
+    description: "The boomtown tech metropolis across the border from Hong Kong, home to Huawei and Tencent."
+culturalTraits:
+  - "the historic origin of Cantonese language and cuisine, and the ancestral home of most overseas Chinese"
+  - "A dynamic commercial and manufacturing powerhouse (the Pearl River Delta)"
+  - "A distinctive Cantonese identity famous for dim sum, Cantonese opera and Lingnan culture"
+prideOf:
+  - "Cantonese cuisine (dim sum) and Lingnan cultural heritage"
+  - "Being China's economic engine and a hub of innovation (Shenzhen)"
+  - "A proud, pioneering 'Canton' identity"
+animals:
+  popular:
+    - "South China tiger (critically endangered, in reserves)"
+  unique:
+    - "Chinese white dolphin (in the Pearl River estuary)"
+industries:
+  - "Manufacturing and electronics (Guangzhou, Shenzhen, Dongguan, Foshan)"
+  - "Technology: Huawei, Tencent, DJI (Shenzhen)"
+  - "Trade and logistics (a major export hub)"
+  - "Automotive and appliances"
+  - "Tourism"
+sports:
+  - "Football (Guangzhou FC)"
+  - "Basketball"
+  - "Badminton"
+  - "Dragon boat racing"
+entertainment:
+  - season: allYear
+    items:
+      - "Dim sum 'yum cha' and the Cantonese food scene"
+      - "Cantonese opera, teahouses and the Guangzhou night market"
+  - season: spring
+    items:
+      - "Mild weather for garden and countryside visits"
+  - season: summer
+    items:
+      - "Beach and resort getaways on the coast"
+  - season: autumn
+    items:
+      - "The better post-typhoon travel season and autumn cuisine"
+  - season: winter
+    items:
+      - "Mild winters ideal for travel and the Lunar New Year festivities"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Dim sum: har gow, siu mai, char siu bao and century-egg congee"
+      - "Cantonese roast goose, wonton noodles and fresh seafood"
+  - season: autumn
+    items:
+      - "Autumn's bounty of seafood and the season's best produce"
+  - season: winter
+    items:
+      - "Hotpot and warming Cantonese soups"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light, practical clothing appropriate to the hot humid climate; the qipao for festive occasions"
+  - season: summer
+    items:
+      - "Very light breathable clothing for the heat and humidity"
+  - season: winter
+    items:
+      - "Light jackets and layers for mild winters"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business and manufacturing run 09:00-18:00 Monday-Friday with frequent Saturday work; factory floors operate shifts."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical, with dim sum a common working lunch."
+sources:
+  - id: visit-guangdong
+    name: "Guangdong / Guangzhou tourism"
+    publisher: "Guangdong Provincial Department of Culture and Tourism"
+    url: "https://www.guangdong.gov.cn/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Guangdong."
