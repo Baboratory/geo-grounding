@@ -1,0 +1,140 @@
+code: WHOLE
+name:
+  eng: Belgium
+  local:
+    - languageCode: nld
+      value: België
+    - languageCode: fra
+      value: Belgique
+    - languageCode: deu
+      value: Belgien
+climates:
+  - koppenCode: Cfb
+    description: Temperate maritime climate, the dominant climate of Belgium — mild winters, cool summers, and rain spread fairly evenly through the year across most of the country.
+  - koppenCode: Cfb
+    description: Slightly more continental conditions with warmer, occasionally hot summers in inland areas away from the North Sea.
+landmarks:
+  - name: Grand Place (Grote Markt), Brussels
+    description: The ornate central square ringed by guildhalls and the Town Hall, one of Europe's most celebrated civic squares and a symbol of Belgium.
+    unescoWorldHeritage: true
+  - name: Atomium
+    description: The giant iron-crystal-shaped monument (58 m) built for the 1958 Brussels World's Fair, Belgium's best-known modern landmark.
+  - name: Bruges
+    description: The beautifully preserved medieval canal city of West Flanders, a UNESCO-listed historic centre.
+    unescoWorldHeritage: true
+  - name: Belfries of Belgium and France
+    description: A series of historic belfry towers in towns across Flanders, Wallonia and northern France, listed together as a UNESCO World Heritage site.
+    unescoWorldHeritage: true
+  - name: Ardennes
+    description: The forested, hilly low-mountain plateau of the southeast (Wallonia), traversed by the Meuse and Ourthe rivers, famed for its castles and wild scenery.
+culturalTraits:
+  - Federalized power-sharing between three linguistic communities (Dutch, French, German), built on compromise and consensus
+  - Deep tradition of beer culture — over 1,500 beer varieties, monastic Trappist brewing and lambic sour beers, recognised by UNESCO intangible heritage
+  - Chocolates and pralines, waffles and fries ('frites', with 'friet' 'saus' culture) as national staples
+  - Strong comic-strip tradition (Tintin, The Smurfs, Spirou) and Beaux-Arts/surrealist art (Magritte, Ensor)
+  - Efficient, pragmatic work culture with a strong social-welfare state
+prideOf:
+  - Its beer, chocolate and culinary craft
+  - A laid-back, tolerant society with a strong sense of humour
+  - Gothic-brick architecture and the preserved medieval towns of Flanders
+  - Its role as de facto capital of the European Union, with global institutions clustered in Brussels
+animals:
+  popular:
+    - "Common badger (dassen) in the Ardennes and Meuse valley woodlands"
+    - Red deer and wild boar in the Ardennes forests
+    - "Pied avocet and other wading birds along the North Sea coast and the Zwin reserve"
+    - Cows and dairy cattle across the Flemish and Walloon countryside
+  unique:
+    - "The Belgian Blue (Blanc Bleu Belge), a heavily-muscled double-muscled beef breed developed in Belgium"
+    - "The Belgian draft horse (Brabants trekpaard), a heavy draught workhorse"
+industries:
+  - "Chemicals and pharmaceuticals (Antwerp is a major global chemicals cluster)"
+  - "Machinery, automotive and manufacturing (Flanders' strong industrial base)"
+  - "Food and drink (beer, chocolate, processing)"
+  - "Logistics and transport (the Port of Antwerp-Bruges and intricate inland waterways)"
+  - "Services, finance and the European-Union-related 'institutional' economy of Brussels"
+sports:
+  - Football (soccer — the most popular spectator sport, with a strong club culture)
+  - Cycling (road racing and cyclocross — cycling is a national passion)
+  - Tennis (long a leading sport, with the Belgian Tennis Federation's strong legacy)
+  - "Motorsport (Formula 1 at Spa-Francorchamps)"
+  - Athletics and a strong walking/kar (hiking) culture
+religions:
+  - name: No religion / agnostic / atheist
+    percent: 59.0
+    sourceId: bel-religion-ess
+  - name: Roman Catholic
+    percent: 31.0
+    sourceId: bel-religion-ess
+  - name: Muslim
+    percent: 6.0
+    sourceId: bel-religion-ess
+  - name: Protestant
+    percent: 2.0
+    sourceId: bel-religion-ess
+  - name: Eastern Orthodox
+    percent: 1.0
+    sourceId: bel-religion-ess
+  - name: Other Christian and other religions
+    percent: 1.0
+    sourceId: bel-religion-ess
+entertainment:
+  - season: allYear
+    items:
+      - "Café culture and beer tasting in traditional 'bruine kroegen' (brown cafés)"
+      - Football and cycling spectating
+      - "Cinema, theatre and the vibrant music scene (Belgian electronic and jazz scenes)"
+      - "Dim sum-style 'plat du jour' restaurant and 'frituur' (fries stand) outings"
+  - season: summer
+    items:
+      - "Outdoor festivals: Tomorrowland, Pukkelpop, Rock Werchter and countless town fêtes (kermesse/volksfeesten)"
+      - "The Brussels flower carpet at the Grand Place (every even year in August)"
+      - Beach and coastal season on the North Sea (Ostend, De Panne, Knokke)
+  - season: winter
+    items:
+      - "Christmas markets in Brussels, Bruges, Ghent and Antwerp"
+      - "New Year's Eve and Saint Nicholas (Sinterklaas, 6 December) celebrations"
+      - "Carnival traditions (e.g. the Carnival of Binche), a UNESCO-listed pre-Lenten festival"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Moules-frites (mussels with fries) — the classic national dish"
+      - "Carbonnade flamande (beef stew braised in brown beer)"
+      - "Waterzooi (a creamy chicken or fish stew, from Ghent)"
+      - "Stoemp (mashed potato mixed with vegetables, often served with sausage)"
+      - "Belgian fries with 'fritessaus/mayonnaise' and the many stroopwafel-like sweet treats"
+  - season: summer
+    items:
+      - "Fresh North Sea seafood: shrimp ('grey shrimps'), mussels in season (roughly July to April)"
+      - "Crisp 'witte' (white/ witbier) and fruit beers, and summer salads"
+  - season: winter
+    items:
+      - "Hearty stews, stoemp and game in the Ardennes"
+      - "Chocolate and speculoos (spiced biscuit) during the holiday season"
+      - "Oliebollen (doughnuts) at New Year"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Folk costumes worn at traditional festivals and processions (e.g. the Binche Gilles' waxed mask and ostrich-feather headdress, and Manneken Pis-style historical dress at civic events)"
+      - "The historical guild and folklore clothing seen at the Ommegang and other pageants"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday is the default closure day for retail (see country.yaml's Sunday-trading legalConstraints), with legislated exceptions. In practice most shops close on Sunday except in the Christmas period, tourist areas and city centres where many stay open. Public holidays and the summer (July-August) are common times for reduced business hours."
+sources:
+  - id: bel-religion-ess
+    name: "Religion in Belgium (European Social Survey, round 2023)"
+    publisher: "European Social Survey (ESS) / European Research Infrastructure Consortium"
+    url: "https://www.europeansocialsurvey.org/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "The religious-affiliation percentages (no religion 59%, Catholic 31%, Muslim 6%, Protestant 2%, Orthodox 1%, other Christian 1%)."

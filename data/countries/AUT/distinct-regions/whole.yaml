@@ -1,0 +1,142 @@
+code: WHOLE
+name:
+  eng: Austria
+  local:
+    - languageCode: deu
+      value: Österreich
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic influences across the lowlands and eastern regions — mild, with year-round rainfall and warm summers.
+  - koppenCode: Dfb
+    description: Humid continental conditions in the interior and higher valleys — cold snowy winters and warm, occasionally hot summers.
+  - koppenCode: Dfc/ET
+    description: Alpine highland climate in the high mountains — long, cold winters with heavy snow and short mild summers above the timberline.
+landmarks:
+  - name: Historic Centre of Vienna
+    description: The baroque and art-nouveau heart of the capital, with the Hofburg, St Stephen's Cathedral and grand Ringstrasse boulevards.
+    unescoWorldHeritage: true
+  - name: Historic Centre of Salzburg
+    description: The baroque old town of Salzburg, birthplace of Mozart and backdrop to The Sound of Music, dominated by the Hohensalzburg fortress.
+    unescoWorldHeritage: true
+  - name: Schönbrunn Palace
+    description: The vast baroque imperial summer residence of the Habsburgs on the edge of Vienna, with its gardens and zoo.
+    unescoWorldHeritage: true
+  - name: Hallstatt and the Salzkammergut
+    description: The dramatic Alpine lake region of Upper Austria, cradle of the oldest salt-mining tradition in Europe, set amid deep-blue lakes.
+    unescoWorldHeritage: true
+  - name: The Grossglockner
+    description: Austria's highest mountain (3,798 m) in the Hohe Tauern range, encircled by the scenic Grossglockner High Alpine Road.
+  - name: High Alpine regions of the Tyrol and Vorarlberg
+    description: The celebrated skiing and mountaineering landscape of the western Alps (Stubai, Zillertal, Arlberg).
+culturalTraits:
+  - Proud Alpine and Danube cultural heritage, from Mozart and the Vienna Philharmonic to folk music and village traditions
+  - The coffeehouse culture and 'Gemütlichkeit' — a warm, sociable, unhurried way of life
+  - "Strong craft traditions: Wiener classicism, pastry-making, and mountain agriculture"
+  - A federal Alpine state with distinct Länder identities and dialects
+  - Deep respect for nature, hiking and seasonal rhythms
+prideOf:
+  - A world-leading classical-music and intellectual heritage (Mozart, Beethoven, Mahler, the Vienna Secession)
+  - Its Alpine landscape, winter sports and quality of life
+  - Precision and quality in engineering, food and craft
+  - The resilience and cultural wealth of a small land with outsized influence
+animals:
+  popular:
+    - "The Alpine ibex (reintroduced in the high mountains — e.g. near Zell am See and in the Hohe Tauern)"
+    - "Marmots (Murmeltiere) whistling in the Alpine meadows"
+    - "The golden eagle in the high Alps"
+    - "Red deer and chamois in the forested slopes"
+  unique:
+    - "The Lipizzaner horse of the Spanish Riding School in Vienna (a centuries-old classic dressage lineage)"
+    - "The Austrian 'Steinbock' populations and the Alpine newt across the mountain wetlands"
+industries:
+  - "Machinery, vehicles, and high-precision engineering"
+  - "Tourism — skiing, Alpine hiking and cultural tourism are pillars of the economy"
+  - "Chemical and pharmaceutical industries"
+  - "Food and drink (including the world-famous confectionery and wine sectors)"
+  - "Finance, insurance and the services sector around Vienna"
+sports:
+  - Alpine skiing — the national passion (St Anton, Kitzbühel, the Hahnenkamm races)
+  - Football (soccer)
+  - "Hiking, mountaineering and 'Bergsteigen'"
+  - "Cycling and mountain biking"
+  - "Tennis, ice hockey and winter sports generally"
+religions:
+  - name: Roman Catholic
+    percent: 55.0
+    sourceId: statistik-austria-religion
+  - name: No religion / agnostic / atheist
+    percent: 22.4
+    sourceId: statistik-austria-religion
+  - name: Muslim
+    percent: 8.3
+    sourceId: statistik-austria-religion
+  - name: Eastern Orthodox
+    percent: 7.2
+    sourceId: statistik-austria-religion
+  - name: Protestant
+    percent: 3.8
+    sourceId: statistik-austria-religion
+  - name: Other religions / other Christian
+    percent: 3.3
+    sourceId: statistik-austria-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Classical concerts, opera and the Vienna Philharmonic in the concert halls"
+      - "Coffeehouse culture and the café tradition"
+      - "Football and ice-hockey matches"
+      - "Hiking and mountain sports in the Alps"
+  - season: summer
+    items:
+      - "Outdoor festivals and lakeside swimming in the Salzkammergut and Carinthia"
+      - "The Salzburg Festival and other summer cultural festivals"
+      - "Mountain hiking, via ferratas and 'Alm' (mountain pasture) visits"
+  - season: winter
+    items:
+      - "Skiing and snowboarding across the Alpine resorts"
+      - "The Viennese Christmas markets (Christkindlmarkt) and Advent traditions"
+      - "Krampus and Perchten runs, and apres-ski culture"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Wiener Schnitzel, typically served with potato salad or 'Kartoffelsalat'"
+      - "Schweinsbraten (pork roast) and Knödel (dumplings)"
+      - "Strudel (apple and curd-cheese strudel) and the Kaiserschmarrn"
+      - "Tafelspitz (boiled beef) and goulash"
+      - "Sausages ('Würstel') from the city stall, with mustard and bread"
+  - season: summer
+    items:
+      - "Asparagus ('Spargelzeit') and fresh lake fish"
+      - "Alpine 'Almkäse' (mountain cheese) and 'Brettljause' (cold meat-and-cheese platter)"
+      - "Light salads and the wine-region summer cuisine of Lower Austria"
+  - season: winter
+    items:
+      - "Hearty stews and 'Knödel' soups"
+      - "Maroni (roast chestnuts) and Glühwein (mulled wine) at the markets"
+      - "Bratapfel (baked apple) and festive pastries at Christmas"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The Tracht: traditional dress including the Dirndl (women) and lederhosen (men), worn at festivals, weddings and holidays — and increasingly in everyday casual settings in rural areas"
+      - "Regional folk costume distinctive to each Land (e.g. the Styrian and Tyrolean variants)"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday and public holidays are the default retail closure (see country.yaml's Sunday-trading legalConstraint), with exceptions in tourist areas, at stations/airports and for small/food businesses. Working hours are roughly 08:00-17:00 with an early-afternoon lunch break; many small shops close earlier on Saturday and are shut on Sunday."
+sources:
+  - id: statistik-austria-religion
+    name: "Religious affiliation of the Austrian population (2021 sample survey on religious denomination, conducted on behalf of the Federal Chancellery)"
+    publisher: "Statistik Austria"
+    url: "https://www.statistik.at/en/statistics/population-and-society/population/further-population-statistics/religious-denomination"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "The religious-affiliation percentages: Roman Catholic ~55% (2021 sample survey; church-membership data show the Catholic share declining to ~50% by 2024), no religion ~22.4%, Muslim ~8.3%, Eastern Orthodox ~7.2%, Protestant ~3.8%, other ~3.3%."

@@ -1,0 +1,122 @@
+code: BE-WAL
+name:
+  eng: Wallonia (Walloon Region)
+  local:
+    - languageCode: fra
+      value: Wallonie
+climates:
+  - koppenCode: Cfb
+    description: Temperate maritime climate, with cooler, wetter and hillier conditions than Flanders — especially in the higher Ardennes, which experience cold winters and significant snowfall.
+landmarks:
+  - name: The Ardennes
+    description: Belgium's forested, hilly southeast — valleys cut by the Meuse, Ourthe and Semois rivers, dotted with castles, caves and the Battle of the Bulge battlefield sites.
+  - name: Citadel of Namur
+    description: The imposing fortress above the confluence of the Sambre and Meuse at Namur, capital of Wallonia, with sweeping views over the river valleys.
+  - name: Liège
+    description: Wallonia's largest city, a historic river-port and industrial capital with a grand cathedral (Saint-Paul) and lively local identity.
+  - name: Castle of Bouillon
+    description: One of Belgium's most impressive medieval fortresses, perched over the Semois river in the southern Ardennes.
+  - name: Historic Grand Curtius (Liège) and the 'Mosan' art tradition
+    description: The museums and crafts of the Meuse valley, home to a distinctive ('Mosan') school of medieval metalwork and medieval art.
+culturalTraits:
+  - French-speaking majority of southern Belgium, sharing the broader Francophone (Oïl) culture
+  - A former industrial powerhouse (coal, steel) now redefining itself
+  - Warm, expressive communication and a strong sense of regional/local identity (the 'Wallon' character)
+  - Local dialect heritage (Walloon, Picard dialects), though standard French is universal
+  - Money spent on good food and drink — the 'bon vivant' tradition, with strong café and beer culture (Ardennes wines, local beers)
+prideOf:
+  - The landscape of the Ardennes and Meuse-Sambre valleys
+  - Its heritage of industry, craftsmanship and worker solidarity
+  - "The medieval and city heritage of Liège, Dinant, Namur and Tournai"
+  - A reputation for hospitality, humour and straightforward warmth
+animals:
+  popular:
+    - "Red deer and wild boar in the Ardennes forests"
+    - "The European beaver, now widespread along Walloon rivers"
+    - "Lynx (sporadic) and a rich bird life including black storks"
+  unique:
+    - "The Ardennais horse (Cheval de trait ardennais), a sturdy draught breed of the Ardennes"
+industries:
+  - "Agri-food and brewing (including many artisanal and trappist breweries)"
+  - "Forestry and timber in the Ardennes"
+  - "Chemicals, pharmaceuticals and biotech (around Liège-Charleroi corridor)"
+  - "Aerospace and engineering (e.g. at the 'Aeropole' cluster near Charleroi)"
+  - "Tourism (the Ardennes, rivers, castles and the 'green' economy)"
+sports:
+  - Football (soccer)
+  - Cycling (road racing and mountain biking in the Ardennes)
+  - "Hunting and fishing in the forests and rivers"
+  - "Pétanque and local feudal/traditional games"
+  - Athletics and hiking
+religions:
+  - name: No religion / agnostic / atheist
+    percent: 64.0
+    sourceId: wallonia-religion-composite
+  - name: Roman Catholic
+    percent: 22.0
+    sourceId: wallonia-religion-composite
+  - name: Muslim (notably in Liège and the industrial cities)
+    percent: 8.0
+    sourceId: wallonia-religion-composite
+  - name: Other (Protestant, Orthodox, other)
+    percent: 6.0
+    sourceId: wallonia-religion-composite
+entertainment:
+  - season: allYear
+    items:
+      - "Café and beer culture, with local artisanal breweries"
+      - Football and cycling spectating
+      - "Music and popular festivals (Francofolies de Spa and local fairs)"
+      - "Restaurant and 'bon vivant' culture"
+  - season: summer
+    items:
+      - "Festivals: the Francofolies de Spa and Verdur Rock in Liège"
+      - Hiking, camping and canoeing in the Ardennes
+      - "Village fêtes and kermesses (the Walloon 'fête' culture)"
+  - season: winter
+    items:
+      - "Christmas markets (Liège, Namur, Tournai)"
+      - "Winter sports in the Ardennes on snowy years"
+      - "Sinterklaas/St Nicholas and New Year celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "'Boulets à la liégeoise' (meatballs in a Liège sauce)"
+      - "'Lapin à la bière' (rabbit braised in beer) and beer braises generally"
+      - "'La salade liégeoise' (a warm Liège salad with potatoes, bacon and herring)"
+      - "''tôt' smoked hams and saucisson from the Ardennes"
+      - "Gaufres (waffles), including the dense Liège waffle"
+  - season: summer
+    items:
+      - "Trout and river-fish dishes"
+      - "Ardennes wild berries and summer vegetables"
+  - season: winter
+    items:
+      - "Hearty stews, game dishes and potato gratins"
+      - "'Boudin' (black pudding) and other pork charcuterie"
+      - "Winter beers and hot drinks in the café tradition"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Folk costumes and historical dress worn at processions and local festivals (e.g. the Carnival of Binche's Gilles costume — wax mask, ostrich-feather headdress and the traditional 'houlette')"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Most shops close on Sunday except in tourist centres (Liège, Namur, Dinant) and the Christmas period; many Ardennes businesses, however, open Sundays during the tourism season. A long French-style lunch break is common for small shops in towns, and many close for part of August."
+sources:
+  - id: wallonia-religion-composite
+    name: "Religious affiliation in Wallonia (composite of national ESS and local surveys)"
+    publisher: "Composite estimate (European Social Survey 2023 and regional survey data)"
+    url: "https://www.europeansocialsurvey.org/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Wallonia is the most secular Belgian region and has a larger Muslim share in its industrial cities than the national average. Figures are a composite estimate reflecting ESS 2023 data and regional survey findings; no single official regional religion statistic is published."

@@ -1,0 +1,124 @@
+code: BE-VLG
+name:
+  eng: Flanders (Flemish Region)
+  local:
+    - languageCode: nld
+      value: Vlaanderen
+climates:
+  - koppenCode: Cfb
+    description: Temperate maritime climate — relatively mild winters, cool summers and year-round rainfall, with a slightly chillier and windier character along the North Sea coast.
+landmarks:
+  - name: Historic Centre of Bruges
+    description: A remarkably intact medieval canal city, with its bell tower, beguinage and stepped-gable brick houses.
+    unescoWorldHeritage: true
+  - name: Antwerp Cathedral (Onze-Lieve-Vrouwekathedraal)
+    description: The tallest cathedral in the Benelux, with a soaring 123 m spire and major works by Peter Paul Rubens.
+    unescoWorldHeritage: true
+  - name: Ghent
+    description: A historic city of canals, the Gravensteen castle and a rich cloth-trade past, framed by the St Bavo's Cathedral altarpiece (the Ghent Altarpiece).
+  - name: Atomium (at the Flemish-Brussels border area)
+    description: The iconic 1958 World's Fair monument, one of Belgium's most recognisable landmarks.
+  - name: The Beaches of the Belgian Coast
+    description: Sandy North Sea beaches and seaside resorts (Ostend, Knokke-Heist, De Panne) backed by a traditional tram line along the coast.
+culturalTraits:
+  - Dutch-speaking majority of Belgium, with its own 'Flemish' standard and regional dialects
+  - Proud, self-aware regional identity with a strong sense of its own history and economy
+  - Beer and chocolate craft, plus a love of fries ('frieten' in Flemish), 'bollekes' (Antwerp) and the 'frituur' culture
+  - Cycling is near-religious — from the Koppenberg climbs to the Ronde van Vlaanderen
+  - Celebration of painterly heritage (Rubens, the Flemish Primitives, Ensor, Permeke)
+prideOf:
+  - "Its medieval 'Cities of Art' — Bruges, Ghent, Antwerp, Mechelen"
+  - A globally competitive, export-driven economy (the Antwerp port and chemicals hub)
+  - A rich visual-arts tradition and a lively cultural scene
+  - "Its food-and-beer craft and the relaxed 'gezellig' sociability"
+animals:
+  popular:
+    - "Grey herons and geese along the canals and 'polders'"
+    - Dairy and beef cattle across the Flemish farmland
+    - "Pied avocets and terns along the North Sea coast and the Zwin bird reserve"
+  unique:
+    - "The Belgian Blue (Blanc Bleu Belge), the heavily-muscled beef breed developed in Belgium"
+industries:
+  - "Chemicals and petrochemicals (the Port of Antwerp-Bruges is Europe's largest integrated chemicals cluster)"
+  - "Automotive and machinery manufacturing"
+  - "Logistics and distribution (ports and a dense inland-waterway and motorway network)"
+  - "Food and drink processing"
+  - "Technology, pharma and services around Leuven and Antwerp"
+sports:
+  - Cycling (road racing and cyclocross — the Ronde van Vlaanderen is a cultural institution)
+  - Football (soccer)
+  - "Tennis and gymnastics"
+  - "Korfball and other Dutch-Flemish ball sports"
+  - Athletics and walking
+religions:
+  - name: No religion / agnostic / atheist
+    percent: 55.0
+    sourceId: flemish-religion-composite
+  - name: Roman Catholic (baptised/heritage)
+    percent: 33.0
+    sourceId: flemish-religion-composite
+  - name: Muslim (notably in Antwerp and Ghent)
+    percent: 7.0
+    sourceId: flemish-religion-composite
+  - name: Other (Protestant, Orthodox, other)
+    percent: 5.0
+    sourceId: flemish-religion-composite
+entertainment:
+  - season: allYear
+    items:
+      - "Café and beer culture in 'bruine kroegen' and beer breweries (Westvleteren, Westmalle, Duvel)"
+      - Football and cycling spectating
+      - "Music and theatre, with lively scenes in Antwerp and Ghent"
+      - "Frituur and restaurant outings"
+  - season: summer
+    items:
+      - "Music festivals: Tomorrowland (Boom), Pukkelpop (Hasselt), Rock Werchter"
+      - Cycling races (the Tour of Flanders) and beach season on the coast
+      - Village 'kermesse' fêtes
+  - season: winter
+    items:
+      - "Christmas markets in Ghent, Antwerp and Bruges"
+      - "Sinterklaas (6 December) gift traditions"
+      - "Oliebollen and winter café evenings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Moules-frites and Belgian fries with 'fritessaus'/'mayonnaise'"
+      - "Carbonnade flamande (beef stew braised in beer)"
+      - "Waterzooi (creamy chicken or fish stew, from Ghent)"
+      - "Stoemp (mashed potatoes with vegetables and sausage)"
+      - "Beer-based sauces and 'paling in 't groen' (eels in green herb sauce)"
+  - season: summer
+    items:
+      - "Grey shrimp and North Sea seafood"
+      - "Aperitif culture with 'witbier' (white beer) and summer salads"
+  - season: winter
+    items:
+      - "Hearty beer stews and winter root vegetables"
+      - "Speculoos biscuits and chocolate desserts"
+      - "Sinterklaas sweets (speculaas, marzipan figures)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Folk and historical dress worn at pageants and processions (e.g. the Festival of the Sacrament of the Holy Miracle in Bruges, and historical guild costumes)"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Most shops close on Sunday, with exceptions in tourist centres (Bruges, Antwerp, Ghent) and the coast, and during the Christmas period. Small food shops may open Sunday mornings. Working hours are broadly European-standard (roughly 09:00-17:30); lunch breaks are short and are not a fixed national closure."
+sources:
+  - id: flemish-religion-composite
+    name: "Religious affiliation in Flanders (composite of the General Belgian Survey of 2020-2021 and the Catholic Church in Belgium reports)"
+    publisher: "Composite estimate (Statbel-Gerel, KU Leuven, and Catholic Church in Belgium reporting)"
+    url: "https://statbel.fgov.be/en/themes/philadelphia/surveys"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Flanders is broadly similar to the national pattern but slightly more culturally Catholic and with a somewhat larger Muslim share in the cities. Figures are a composite estimate (no single official regional breakdown is published); national ESS 2023 figures (see whole.yaml) are the primary citation."

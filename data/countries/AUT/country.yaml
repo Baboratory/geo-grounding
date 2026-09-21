@@ -1,0 +1,175 @@
+alpha3: AUT
+alpha2: AT
+name:
+  eng: Austria
+  local:
+    - languageCode: deu
+      value: Österreich
+flagEmoji: "🇦🇹"
+capital: Vienna
+isSovereign: true
+# Classified federal: Austria is a federal republic (Bundesrepublik) of nine
+# Bundesländer, a structure anchored in the Federal Constitutional Law
+# (B-VG, Art. 2 and the federal principle). It has German as the sole official
+# language at the national level (B-VG Art. 8), with territorial official
+# status held by Slovenian (Carinthia), Croatian and Hungarian (Burgenland) in
+# their respective municipalities, and a genuine Alpine/Western-Balkans
+# cultural-historical regional identity. The dataset curates Vienna, Tyrol and
+# Carinthia (the latter for its Slovenian linguistic minority) alongside a
+# WHOLE fallback.
+governanceType: federal
+iso3166_2_prefix: AT
+hasSubdivisions: true
+languageUsage:
+  - languageCode: deu
+    domain: official
+    speakersShare: 1.0
+    sourceId: austrian-constitution
+  - languageCode: deu
+    domain: locallySpoken
+    speakersShare: 0.96
+    sourceId: statistik-austria-languages
+  - languageCode: hrv
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: statistik-austria-languages
+  - languageCode: slv
+    domain: locallySpoken
+    speakersShare: 0.004
+    sourceId: statistik-austria-languages
+  - languageCode: hun
+    domain: locallySpoken
+    speakersShare: 0.002
+    sourceId: statistik-austria-languages
+# German is the sole official language at the federal level. Recognized
+# autochthonous minorities hold territorial official status in specific
+# municipalities: Slovenian (in parts of Carinthia), Croatian and Hungarian
+# (in parts of Burgenland), pursuant to the Austrian Treaty of 1955 and the
+# ethnic-groups acts. Their speakers are small (autochthonous Slovenian
+# ~0.4%, Burgenland Croatian ~2% of the national population) and are modeled
+# as locallySpoken entries reflecting the minority-language population for
+# which those rights exist; German remains the working language of the vast
+# majority.
+timezones:
+  - name: Europe/Vienna
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure — the EU-wide GDPR, directly applicable in Austria."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge."
+    sourceId: eu-directive-2019-771
+  - topic: "Sunday and holiday trading"
+    description: "Retail trade is prohibited on Sundays and public holidays by default (an exception to the cultural-religious rest-day rule), with a limited set of statutory exceptions (tourist areas, certain stations and airports, small and food businesses). Details are set by the federal Trade Act and implemented at the Länder level."
+    sourceId: austrian-sunday-trading
+paymentMethodShares:
+  - method: "cash (share of point-of-sale transactions)"
+    percent: 52.0
+    sourceId: ecb-space-austria
+  - method: "payment cards (debit/girocard and credit, share of point-of-sale transactions)"
+    percent: 39.0
+    sourceId: ecb-space-austria
+paymentCulture:
+  popularMethods:
+    - "Cash — Austria is one of the euro area's most cash-strong countries; cash remains the single most-used means of payment at the point of sale"
+    - "Bank cards (Girocard/bankomatkarte and Maestro/debit credit-card scheme) — ubiquitous in shops for contactless and chip-and-PIN"
+    - "Visa and Mastercard credit cards"
+    - "EPS (an Austrian online bank-payment method, widely used in e-commerce and for bills)"
+    - "Mobile wallets (Apple Pay, Google Pay) increasingly accepted, and bank-app 'instant' transfers"
+  tipping:
+    expected: true
+    autoIncludedInBill: false
+    typicalAmount: "Tipping is customary and expected in Austria, though modest: service is generally NOT automatically added to restaurant bills, so rounding up to the nearest euro and adding roughly 5-10% for good service in restaurants is standard. In cafés and bars, rounding up or 'stimmt so' ('keep the change') is the norm. Cash tips are preferred and always appreciated."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Polite, reserved and comparatively formal. Address people by title and surname ('Herr'/Frau' plus academic titles such as 'Dr.'/'Mag.') until invited to be less formal — titles are taken seriously. A certain warm formality ('Gemütlichkeit') softens the directness."
+  greetingNorms: "A firm handshake with eye contact is standard in business and on first meeting. Among people who know each other, a simple 'Grüß Gott' / 'Servus' (informal) or 'Guten Tag' is common; in Vienna 'Servus' and 'Grüß Gott' both occur."
+  meetingEtiquette: "Punctuality is important — arrive on time (or a few minutes early). Meetings are well prepared and structured; Austrians tend to be direct and factual but polite, and decisions often take a considered, consensus-driven pace. Relationship warmth matters once trust is built."
+  topicsToAvoid:
+    - "Austria's Nazi past and the events of the World War II era — a sensitive subject best handled with care and historical accuracy"
+    - "Oversimplified jokes about Austria being basically German, or about the mountain/Alpine stereotype taken too far"
+    - "Personal wealth, salary, or age early in a relationship"
+  giftGivingNotes: "A small, quality gift when visiting someone's home (flowers, wine, chocolate) is appreciated. An odd number of flowers is appropriate; avoid red roses (romantic) and white or yellow chrysanthemums (funeral/somber associations). Wine or a local speciality is always a warm gesture."
+sources:
+  - id: austrian-constitution
+    name: "Federal Constitutional Law (B-VG), Art. 2 (federal state) and Art. 8 (official language)"
+    publisher: "Legal Information System of the Republic of Austria (RIS)"
+    url: "https://www.ris.bka.gv.at/Ergebnis.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000113"
+    year: 1920
+    accessedDate: "2026-09-20"
+    note: "Legal basis for Austria's federal structure (nine Länder) and for German being the state's official language, subject to the rights of recognized linguistic minorities."
+  - id: statistik-austria-languages
+    name: "Population in private households by language (composite of Statistik Austria microcensus language data)"
+    publisher: "Statistik Austria"
+    url: "https://www.statistik.at/en/statistics/population-and-society/population/languages"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "locallySpoken shares: German essentially universal (majority ~96% as first language), with autochthonous minorities — Burgenland Croatian ~2%, Slovenian ~0.4%, Hungarian ~0.2% — concentrated in their respective regions. Composite reflecting census/microcensus language data."
+  - id: ecb-space-austria
+    name: "SPACE study (Study on the payment attitudes of consumers in the euro area) — Austria"
+    publisher: "European Central Bank (ECB)"
+    url: "https://www.ecb.europa.eu/stats/payments/space/html/index.en.html"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Share of point-of-sale transactions by payment method in Austria: cash ~52%, cards ~39% (2023 SPACE data as reported in ECB and Austrian payment studies). Austria is among the euro area's more cash-strong economies."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-20"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Austria as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Austria as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "The GDPR data-protection rules, directly applicable in Austria as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."
+  - id: austrian-sunday-trading
+    name: "Trade Regulation Act (Gewerbeordnung) — Sunday and public-holiday trading restrictions, implemented with Land-level detail"
+    publisher: "Wirtschaftskammer Österreich (WKO, the Austrian Federal Economic Chamber), summarizing the Gewerbeordnung's trading-hours rules"
+    url: "https://www.wko.at/oeffnungszeiten"
+    year: 1994
+    accessedDate: "2026-09-20"
+    note: "The legal basis for Sunday and public holidays being the default closure of retail premises, with a bounded set of statutory exceptions (tourist areas, railway stations, airports, small and food businesses) and Länder-level implementation."
+distinct-regions:
+  - code: AT-9
+    file: distinct-regions/wien.yaml
+    adminUnitCodes: [AT-9]
+  - code: AT-7
+    file: distinct-regions/tirol.yaml
+    adminUnitCodes: [AT-7]
+  - code: AT-2
+    file: distinct-regions/kaernten.yaml
+    adminUnitCodes: [AT-2]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml

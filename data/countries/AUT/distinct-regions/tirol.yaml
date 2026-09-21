@@ -1,0 +1,127 @@
+code: AT-7
+name:
+  eng: Tyrol
+  local:
+    - languageCode: deu
+      value: Tirol
+climates:
+  - koppenCode: Dfb
+    description: Continental-Alpine climate of the inner Alps — cold, snowy winters and warm summers in the valleys, with long, harsh winters and heavy snow at high altitudes.
+  - koppenCode: Dfc/ET
+    description: High-Alpine climate above the timberline — short cool summers and very cold, snowy winters in the peaks of the Stubai, Zillertal and Ötztal.
+landmarks:
+  - name: Innsbruck's Old Town (Altstadt)
+    description: The capital of Tyrol, ringed by the Alps, with the Golden Roof (Goldenes Dachl), the Hofburg and the Imperial Church.
+  - name: The Nordkette and Bergisel
+    description: The mountain range that rises directly behind Innsbruck, reached by the Hungerburgbahn cable car amid the 'Alpine metropolis'.
+  - name: Schloss Ambras
+    description: A Renaissance hilltop castle above Innsbruck, home of the Habsburg archduke Ferdinand II's collections.
+    unescoWorldHeritage: true
+  - name: Kitzbühel (the Hahnenkamm)
+    description: The legendary resort whose Streif is one of the world's most demanding downhill ski races, part of the Hahnenkamm Races.
+  - name: Stubai and Zillertal glaciers
+    description: Permanent-glacier skiing areas in the high Tyrolean Alps, open most of the year.
+culturalTraits:
+  - The heart of Alpine Austria — the archetypal 'Alpenland' of villages, mountains and tradition
+  - Strong local identity and distinctive Tyrolean dialect; warm, hospitable mountain culture
+  - Winter-sports supremacy and a deep mountain-and-hiking heritage
+  - "Festive folklore: the Tiroler folk music, the Christmas 'Christkindlmarkt' and Krampus customs"
+  - A proud historical independence within the Habsburg lands (held off Napoleon and resisted both world wars)
+prideOf:
+  - Being the ultimate Alpine winter-sports destination (Innsbruck hosted the 1964 and 1976 Olympic Winter Games)
+  - Its breathtaking high-mountain landscape and outdoor lifestyle
+  - A distinctive, self-confident Tyrolean identity and heritage
+  - Rural quality of life and the 'Tracht' culture
+animals:
+  popular:
+    - "The Alpine chamois and ibex in the high mountain parks"
+    - "Marmots and golden eagles above the valleys"
+    - "Cattle and traditional Tyrolean grey cattle in the summer 'Alm' pastures"
+  unique:
+    - "The Tyrolean grey cattle (Grauvieh), an Alpine breed, and the cave-dwelling Alpine newt"
+industries:
+  - "Tourism and winter sports (the backbone of the Tyrolean economy, year-round but Alpine-season heavy)"
+  - "Machinery and precision engineering (e.g. around Innsbruck and Schwaz)"
+  - "Agriculture, forestry and Alpine dairy farming"
+  - "Energy from Alpine hydroelectricity"
+  - "Craft, food and the 'Alm' pastoral economy"
+sports:
+  - Alpine skiing and ski racing (Kitzbühel, St Anton, Ischgl)
+  - Snowboarding and freestyle
+  - Mountaineering and via ferratas
+  - Mountain biking and cycling
+  - Hiking and 'Bergsteigen' (alpinism) in summer
+religions:
+  - name: Roman Catholic
+    percent: 68.0
+    sourceId: tyrol-religion-composite
+  - name: No religion / agnostic / atheist
+    percent: 18.0
+    sourceId: tyrol-religion-composite
+  - name: Protestant
+    percent: 4.0
+    sourceId: tyrol-religion-composite
+  - name: Muslim
+    percent: 6.0
+    sourceId: tyrol-religion-composite
+  - name: Other (Orthodox and other)
+    percent: 4.0
+    sourceId: tyrol-religion-composite
+entertainment:
+  - season: allYear
+    items:
+      - "Mountain resorts, cable cars and mountain huts"
+      - "Folk music, village festivals and the traditional 'Alm' culture"
+      - "Innsbruck's cultural calendar: the Tyrolean State Theatre and concert halls"
+  - season: summer
+    items:
+      - "Hiking, via ferratas and mountain-biking across the high Alps"
+      - "Alpine lake swimming and the 'Alm' pasture season"
+      - "Summer mountain festivals and the Swarovski Crystal Worlds near Innsbruck"
+  - season: winter
+    items:
+      - "Skiing, snowboarding and 'après-ski' in the resorts"
+      - "The Hahnenkamm Races in Kitzbühel (late January)"
+      - "Christmas markets and Krampus Perchten runs"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tyrolean 'Gröstl' (a skillet of potatoes, speck, onion and herbs)"
+      - "Knödel in many forms (Speckknödel, cheese dumplings, fruit dumplings)"
+      - "'Kasnocken' (cheese spaetzle) and Tyrolean bacon"
+      - "Schlutzkrapfen (traditional filled pasta)"
+      - "Strudel and apple doughnuts"
+  - season: summer
+    items:
+      - "Fresh Alpine cheese and 'Brettljause' platters"
+      - "Trout and mountain-stream fish"
+      - "Mountain herb and berry dishes from the 'Alm' meadows"
+  - season: winter
+    items:
+      - "Hearty mountain stews and roast game"
+      - "Maroni, Glühwein and festive pastries at the markets"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The Tyrolean Tracht: the Dirndl and lederhosen with distinctive embroidered details, worn proudly at festivals, weddings and village Sundays"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday closure except in tourist resorts, where shops may open for visitors. Mountain tourism has its own rhythm: the business year peaks around the winter ski season (December-April) and the summer holiday season (June-September), with a relative lull in late spring and autumn."
+sources:
+  - id: tyrol-religion-composite
+    name: "Religious affiliation in Tyrol (composite of Statistik Austria 2021 data by province)"
+    publisher: "Composite estimate (Statistik Austria religious-affiliation survey 2021)"
+    url: "https://www.statistik.at/en/statistics/population-and-society/population/further-population-statistics/religious-denomination"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Tyrol is among the more Catholic Austrian provinces. Figures are a composite estimate from Statistik Austria's 2021 survey by federal province."
