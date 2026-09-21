@@ -1,0 +1,122 @@
+alpha3: SPM
+alpha2: PM
+name:
+  eng: Saint Pierre and Miquelon
+  local:
+    - languageCode: fra
+      value: Saint-Pierre-et-Miquelon
+flagEmoji: "🇵🇲"
+capital: Saint-Pierre
+isSovereign: false
+# Classified dependent-territory: Saint Pierre and Miquelon is a self-governing
+# territorial overseas collectivity of France in the north-western Atlantic, off
+# Newfoundland, not a sovereign state. A small archipelago of ~5,500 inhabitants.
+# A single synthetic WHOLE region per the governance rule for non-sovereign French
+# territory entries.
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 1.0
+    sourceId: wp-lang
+# French is the sole official and universal language. The locally spoken variety is
+# a distinct Acadian-influenced French ('Saint Pierrais French'). LocallySpoken
+# share essentially the whole population.
+ethnicGroups:
+  - group: Saint-Pierrais / islanders of mixed Acadian French and Basque heritage
+    percent: 92.0
+    sourceId: wp-ethnic
+  - group: Other (Metropolitan French and other)
+    percent: 8.0
+    sourceId: wp-ethnic
+timezones:
+  - name: America/Miquelon
+    standardUtcOffset: "UTC-3"
+    observesDst: true
+    dstUtcOffset: "UTC-2"
+    dstPeriod: "Second Sunday of March to first Sunday of November, US/Canada-style schedule"
+# Saint Pierre and Miquelon is on Pierre & Miquelon Standard Time, UTC-3, with
+# summer DST to UTC-2 (sharing the zone with nearby Canadian Atlantic provinces).
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+# The euro is the official currency; the Canadian dollar is widely accepted locally
+# given proximity to Newfoundland.
+paymentCulture:
+  popularMethods:
+    - "The euro is the official currency, but the Canadian dollar is widely accepted for everyday trade"
+    - "Cash and card payments both common"
+    - "Credit cards (including Canadian bank cards) commonly used"
+  tipping:
+    expected: true
+    typicalAmount: "10%"
+    autoIncludedInBill: false
+    note: "Tipping around 10% is customary in restaurants, as in France."
+legalConstraints:
+  - topic: "official language"
+    description: "French is the sole official language; the local variety is an Acadian-influenced French, different in accent and vocabulary from Metropolitan French."
+    sourceId: wp-lang
+  - topic: "overseas collectivity status"
+    description: "Saint Pierre and Miquelon is an overseas country and territory (OCT) of the European Union under the French Republic, with its own Territorial Council; it is neither part of the Schengen area nor of the EU customs territory."
+    sourceId: wp-politics
+  - topic: "settlement history"
+    description: "Ceded to France by the United Kingdom in 1814 after changing hands repeatedly; today the last remnant of the former French colonial empire in North America."
+    sourceId: wp-politics
+  - topic: "currency"
+    description: "The euro is the official currency and inhabitants hold EU citizenship; the Canadian dollar is also widely accepted given the close link with Newfoundland."
+    sourceId: wp-culture
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "A friendly, close-knit island culture with French etiquette; warmth and directness typical of a small North Atlantic community."
+  greetingNorms: "Greet with a handshake and 'Bonjour'; a kiss on the cheek (la bise) is common between friends."
+  meetingEtiquette: "Meetings are courteous and convivial; punctuality and politeness in the French manner are appreciated."
+  topicsToAvoid:
+    - "Fishing-quota disputes or the Canada–France boundaries"
+    - "Politicised debates about the French metropolitan relationship"
+  giftGivingNotes: "Small thoughtful gifts and sharing meals are appreciated; bring something for the host."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: wp-lang
+    name: "Wikipedia — Saint Pierre and Miquelon (Languages)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon#Languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "French sole official language; Acadian-influenced Saint Pierrais French."
+  - id: wp-ethnic
+    name: "Wikipedia — Saint Pierre and Miquelon (Demographics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon#Demographics"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Islanders of mixed Acadian French and Basque heritage (~92%); figures are estimates."
+  - id: wp-politics
+    name: "Wikipedia — Saint Pierre and Miquelon (Politics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Overseas collectivity of France; EU OCT status; settlement and 1814 cession history."
+  - id: wp-culture
+    name: "Wikipedia — Saint Pierre and Miquelon (Economy and society)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Euro official with Canadian dollar widely accepted; tipping customs."
+  - id: iso-fra
+    name: "ISO 639-3 entry: fra — French"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/fra"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code fra = French, Active."

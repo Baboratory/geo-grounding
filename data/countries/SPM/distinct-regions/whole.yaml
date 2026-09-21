@@ -1,0 +1,82 @@
+code: WHOLE
+name:
+  eng: Saint Pierre and Miquelon
+  local:
+    - languageCode: fra
+      value: Saint-Pierre-et-Miquelon
+# Generic country-wide fallback content for Saint Pierre and Miquelon
+# (dependent-territory, single synthetic whole region). An archipelago of eight
+# islands ~25 km (16 mi) off the south coast of Newfoundland, Canada, and the last
+# remnant of the former French colonial empire in North America.
+climates:
+  - koppenCode: Dfb
+    description: "Boreal-subarctic maritime climate — cold, damp winters with ice and fog; cool, foggy summers; heavy precipitation and frequent Atlantic storms and sea fog year-round."
+landmarks:
+  - name: Saint-Pierre (town)
+    description: "The capital and largest settlement, a neat harbour town of colourful houses on the main island of Saint Pierre."
+  - name: Le Cap à l'Aigle (Miquelon-Langlade)
+    description: "The dramatic, windswept northern approach to Langlade, linked to Miquelon by a sandy isthmus."
+  - name: The Pointe aux Canons lookout
+    description: "A historic gun battery overlooking the harbour, recalling the islands' military past."
+  - name: The Grand Barachois lagoon
+    description: "A sheltered lagoon on Miquelon used for fishing and seal hunting, a centre of island life."
+culturalTraits:
+  - "An Acadian French and Basque-influenced island culture, robust and self-reliant"
+  - "A deep seafaring and fishing heritage, with seal-hunting and cod-fishing in the collective memory"
+  - "Warm, close-knit community life shaped by long, foggy winters and the isolation of the North Atlantic"
+  - "A strong sense of being both fully French and distinctly their own"
+prideOf:
+  - "Maintaining a distinct French island identity on the doorstep of North America"
+  - "Their Acadian-French heritage and dialect"
+  - "A resilient, hospitable island way of life"
+animals:
+  popular:
+    - "Harbour seals and grey seals around the islands"
+    - "Atlantic puffins and gannets on the sea cliffs"
+    - "Humpback and other whales in the surrounding waters"
+  unique:
+    - "The islands are a noted Atlantic seabird and marine-mammal area in the rich waters off Newfoundland"
+industries:
+  - "Fishing and aquaculture — the traditional and still central livelihood"
+  - "Tourism, focused on fishing, heritage and the island's French character"
+  - "Public-sector and services employment"
+sports:
+  - "Football (soccer) — the national passion"
+  - "Fishing and sailing as a way of life"
+  - "Ice hockey and winter sports"
+  - "Running and walking along the coastal trails"
+religions:
+  - name: Catholic (Roman Catholic)
+    percent: 90.0
+    sourceId: wp-culture
+  - name: Other / unaffiliated
+    percent: 10.0
+    sourceId: wp-culture
+# The population is overwhelmingly Roman Catholic, a strong marker of the islands'
+# French and Acadian heritage. Figures are estimates.
+entertainment:
+  - season: summer
+    items:
+      - "Fishing excursions and boat trips around the archipelago"
+      - "Hiking and beaches, and the lively summer social season"
+  - season: winter
+    items:
+      - "Indoor community gatherings and pub evenings"
+      - "Christmas and New Year festivities in the French manner"
+  - season: allYear
+    items:
+      - "Seafood meals and the island's trademark 'cod tongue' and seal-based dishes"
+      - "Local festivals and family gatherings"
+seasonCalendar:
+  - season: summer
+    months: [4, 5, 6, 7, 8, 9, 10]
+  - season: winter
+    months: [11, 12, 1, 2, 3]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — Saint Pierre and Miquelon (Economy and society)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Fishing culture, Catholic majority, French island identity; figures are estimates."

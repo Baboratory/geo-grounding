@@ -1,0 +1,102 @@
+code: WHOLE
+name:
+  eng: Åland Islands
+  local:
+    - languageCode: swe
+      value: Åland
+    - languageCode: fin
+      value: Ahvenanmaa
+# Generic country-wide fallback content for the Åland Islands (dependent-territory,
+# single synthetic whole region). An archipelago of ~6,700 islands in the Baltic
+# Sea at the entrance to the Gulf of Bothnia, east of Sweden's Stockholm archipelago.
+climates:
+  - koppenCode: Dfb
+    description: "Humid continental / boreal (with some maritime influence) — mild-to-cool summers and cold, snowy winters, moderated by the surrounding Baltic Sea; changeable weather with frequent wind."
+landmarks:
+  - name: Kastelholm Castle
+    description: "A medieval castle (14th century) on the main island, the islands' most significant historical monument."
+  - name: Mariehamn
+    description: "The capital and only town, on the main island's south coast — named after Empress Maria Alexandrovna and known as the 'town of the linden trees'."
+  - name: The Åland Maritime Quarter (Sjökvarteret)
+    description: "A restored old shipyard in Mariehamn's western harbour, evoking Åland's deep seafaring heritage and the era of the great sailing ships."
+culturalTraits:
+  - "A strong seafaring and shipowning heritage — Åland once owned one of the world's largest sailing-ship fleets"
+  - "Ålandic Swedish, a distinct eastern-Swedish dialect with its own vocabulary"
+  - "Swedish-language cultural life: books, radio, music and the Åland flag all in Swedish"
+  - "A tradition of 'folkboat' sailing, midsummer celebrations and islander self-reliance"
+prideOf:
+  - "Their autonomous status and the right of domicile that protects Ålandic identity"
+  - "The quiet archipelagic landscape of skerries, pine forests and calm sea"
+  - "A proud seafaring and maritime history"
+animals:
+  popular:
+    - "Grey seals and harbour seals in the surrounding waters"
+    - "White-tailed eagles — increasingly common breeders"
+    - "Common eiders and a rich summer birdlife"
+    - "White-tailed deer and roe deer in the forests"
+  unique:
+    - "One of the most important Baltic breeding areas for seabirds such as terns and gulls"
+    - "A famous large population of white-tailed eagles recovering on the islands"
+industries:
+  - "Shipping and maritime services — a traditional and still leading sector"
+  - "Tourism and restaurants, especially in the summer season"
+  - "Agriculture (dairy and potato farming) on the deeper-soiled main island"
+  - "Small-scale food production and berry processing (notably sea buckthorn)"
+  - "Services, banking and the ferry industry"
+sports:
+  - "Sailing and boating — deep-rooted Ålandic passions"
+  - "Football (soccer) and floorball, popular team sports"
+  - "Hockey, cross-country skiing and ice sports in winter"
+  - "Cycling and running, especially on the cycle-rich main island"
+religions:
+  - name: Evangelical Lutheran (Church of Sweden heritage, Åland is part of the Evangelical Lutheran Church of Finland)
+    percent: 72.0
+    sourceId: wp-culture
+  - name: Other Christian (small Protestant/other)
+    percent: 5.0
+    sourceId: wp-culture
+  - name: Unaffiliated / other
+    percent: 23.0
+    sourceId: wp-culture
+# The vast majority of Ålanders belong to the Lutheran church (nominally), with a
+# significant minority unaffiliated, as elsewhere in the Nordic region. Figures are
+# estimates.
+entertainment:
+  - season: allYear
+    items:
+      - "Café culture and harbour walks in Mariehamn"
+      - "Sailing, boating and island-hopping"
+      - "Cultural events, concerts and the Swedish-language theater (Ålands Teater)"
+  - season: spring
+    items:
+      - "First sailing and boating outings as the ice clears"
+      - "Easter and spring gardening"
+  - season: summer
+    items:
+      - "Midsummer (Midsommar) celebrations — the biggest festival of the year"
+      - "Outdoor festivals, swimming, and the island-coastal summer social scene"
+  - season: autumn
+    items:
+      - "Apple and berry harvests, fishing and wrapping up the sailing season"
+      - "Cozy coffee-house (fikastund) culture as the evenings draw in"
+  - season: winter
+    items:
+      - "Cross-country skiing, skating and cosy indoor gatherings"
+      - "Christmas markets and Lucia celebrations in December"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — Åland (Society and culture)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/%C3%85land"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Ålandic Swedish, seafaring heritage, Lutheran religious background; figures are estimates."

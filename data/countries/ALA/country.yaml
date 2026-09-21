@@ -1,0 +1,133 @@
+alpha3: ALA
+alpha2: AX
+name:
+  eng: Åland Islands
+  local:
+    - languageCode: swe
+      value: Åland
+    - languageCode: fin
+      value: Ahvenanmaa
+flagEmoji: "🇦🇽"
+capital: Mariehamn
+isSovereign: false
+# Classified dependent-territory: the Åland Islands are an autonomous, demilitarised
+# and unilingual-Swedish region of Finland, not a sovereign state. A group of some
+# 6,700 islands in the Baltic Sea (~30,000 inhabitants), governed by a substantial
+# autonomy under the Act on the Autonomy of Åland. A single synthetic WHOLE region
+# per the governance rule for non-sovereign ISO 3166-1 entries.
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: swe
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: fin
+    domain: foreign
+    speakersShare: 0.05
+    sourceId: wp-lang
+  - languageCode: swe
+    domain: locallySpoken
+    speakersShare: 0.88
+    sourceId: wp-lang
+  - languageCode: fin
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: wp-lang
+# Swedish is the sole official language on Åland (unilingual Swedish, a condition
+# of its autonomy); Finnish has no official status. About 88% speak Swedish as
+# their first language and ~5% Finnish. LocallySpoken shares are estimates.
+ethnicGroups:
+  - group: Ålandic (Finnish-Swedish, Swedish-speaking islanders)
+    percent: 86.0
+    sourceId: wp-ethnic
+  - group: Finnish (Finnish-speaking mainland)
+    percent: 5.0
+    sourceId: wp-ethnic
+  - group: Other (Swedish, and other origins)
+    percent: 9.0
+    sourceId: wp-ethnic
+timezones:
+  - name: Europe/Mariehamn
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Last Sunday of March to last Sunday of October, EU-wide schedule (EET/EEST)"
+# Åland is on Eastern European Time (UTC+2) with summer DST (UTC+3), the same as
+# mainland Finland.
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "official language"
+    description: "Swedish is the sole official language of Åland, protected by the Act on the Autonomy of Åland; Finnish has no official status there, unlike in mainland Finland."
+    sourceId: wp-lang
+  - topic: "autonomous status"
+    description: "Åland is an autonomous, demilitarised and neutralised region of Finland under the Act on the Autonomy of Åland (1920, revised 1991), which grants the Åland Parliament (Lagting) broad legislative powers over local matters, taxation and culture."
+    sourceId: wp-politics
+  - topic: "Åland Islands Agreement and demilitarisation"
+    description: "Under the 1921 Åland Agreement and the demilitarisation provisions, Åland remains unfortified and neutral in wartime, a status originating in the League of Nations settlement of 1921."
+    sourceId: wp-politics
+  - topic: "residency and land rights (hembygdsrätt)"
+    description: "The 'right of domicile' (hembygdsrätt) restricts property purchase and certain civic rights to residents of Åland, a protective arrangement tied to its autonomy."
+    sourceId: wp-culture
+paymentCulture:
+  popularMethods:
+    - "The euro is the sole legal tender (Åland is part of the Finnish euro zone)"
+    - "Card payments (debit/credit) are near-universal in shops, cafes and restaurants, as across Finland"
+    - "Mobile payment apps (e.g. Siirto / Apple Pay- and Google Pay-style contactless) are widely used"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary"
+    autoIncludedInBill: false
+    note: "Tipping is not generally expected; service is included in prices."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "A relaxed Nordic culture with direct, egalitarian communication; Swedish is spoken in a distinctly Ålandic dialect with its own vocabulary. Formality is low and first names are used quickly."
+  greetingNorms: "Greet with a handshake and eye contact; 'Hej' (hello) and 'Tack' (thanks) are the everyday norms in Swedish."
+  meetingEtiquette: "Meetings are punctual and to the point; decisions favour consensus. Informality and openness combined with genuine listening are appreciated."
+  topicsToAvoid:
+    - "Pressuring about the Åland Question (the islands' autonomy, status and independence debate) is sensitive."
+    - "Comparing Åland's culture dismissively to mainland Finland"
+  giftGivingNotes: "Small, thoughtful gifts are appreciated; flowers and quality food or drink are safe choices."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: wp-lang
+    name: "Wikipedia — Åland (Languages)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/%C3%85land#Languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Swedish sole official language under the Act on the Autonomy of Åland; ~88% Swedish-speaking, ~5% Finnish-speaking."
+  - id: wp-ethnic
+    name: "Wikipedia — Åland (Demographics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/%C3%85land#Demographics"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Ålandic Swedish majority; small Finnish-speaking minority; figures are estimates."
+  - id: wp-politics
+    name: "Wikipedia — Åland (Autonomy and politics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/%C3%85land"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Autonomous, demilitarised and unilingual-Swedish region of Finland (Act on the Autonomy of Åland, 1920/1991; Åland Agreement and League of Nations settlement 1921)."
+  - id: wp-culture
+    name: "Wikipedia — Åland (Society and culture)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/%C3%85land"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Right of domicile (hembygdsrätt) and the islands' Nordic, seafaring cultural identity."
+  - id: iso-swe
+    name: "ISO 639-3 entry: swe — Swedish"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/swe"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code swe = Swedish, Active."

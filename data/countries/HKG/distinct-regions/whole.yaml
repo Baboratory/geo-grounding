@@ -1,0 +1,95 @@
+code: WHOLE
+name:
+  eng: Hong Kong
+  local:
+    - languageCode: zho
+      value: 香港 (Heung Gong)
+    - languageCode: yue
+      value: 香港 (Hoeng1 Gong2)
+    - languageCode: eng
+      value: Hong Kong
+# Generic country-wide fallback content for Hong Kong (dependent-territory, single
+# synthetic whole region). A mountainous, dense subtropical city and territory of
+# ~7.5 million people, comprising Hong Kong Island, Kowloon and the New Territories,
+# fronting the Pearl River estuary.
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate — hot, humid summers with heavy rain; mild, drier winters; influenced by typhoons and cold fronts near the southern coast."
+landmarks:
+  - name: Victoria Harbour and the Hong Kong skyline
+    description: "The iconic deep-water harbour between Hong Kong Island and Kowloon, framed by a world-famous skyline and the nightly Symphony of Lights."
+  - name: The Peak (Victoria Peak)
+    description: "The highest point on Hong Kong Island, reached by the historic Peak Tram, offering sweeping views over the harbour and city."
+  - name: The Big Buddha and Po Lin Monastery
+    description: "A huge bronze Buddha statue on Lantau Island, one of the territory's most visited landmarks."
+  - name: Temple Street Night Market and the Star Ferry
+    description: "The lively street-market and the historic cross-harbour ferry that still connects Kowloon and the island — enduring symbols of everyday Hong Kong life."
+culturalTraits:
+  - "A vibrant Cantonese urban culture blended with a British colonial inheritance"
+  - "A food-obsessed culture famous for dim sum, roast goose and world-class street food"
+  - "Shop-till-you-drop consumer energy and a world-leading financial-hub dynamism"
+  - "The lai see (red packet) tradition and deep-rooted festivals such as Lunar New Year, the Mid-Autumn Festival and the Dragon Boat Festival"
+prideOf:
+  - "Its global financial role and skyline"
+  - "Cantonese cuisine and the city's culinary reputation"
+  - "A resilient, international and fast-moving character"
+animals:
+  popular:
+    - "Barking deer (muntjac) and East Asian porcupines in the country parks"
+    - "Pink Indo-Pacific humpback dolphins (in the Pearl River estuary)"
+    - "Rhesus macaques and white-bellied sea eagles"
+  unique:
+    - "Hong Kong's surprisingly wild country parks cover about 40% of the territory, home to leopard cats and rare migratory birds"
+industries:
+  - "Financial and business services — a top global banking and wealth-management hub"
+  - "Trade, logistics and the container port"
+  - "Tourism and hospitality"
+  - "Property, professional services and technology"
+sports:
+  - "Football (soccer) and the Hong Kong Premier League"
+  - "Basketball and badminton"
+  - "Swimming, hiking and water sports — plus the famous Dragon Boat races"
+  - "Table tennis and snooker"
+religions:
+  - name: Chinese folk religion (Buddhism and Taoism combined)
+    percent: 55.0
+    sourceId: wp-culture
+  - name: Christian (Catholic and Protestant)
+    percent: 8.0
+    sourceId: wp-culture
+  - name: Islam / other
+    percent: 5.0
+    sourceId: wp-culture
+  - name: No religion
+    percent: 32.0
+    sourceId: wp-culture
+# The majority follow Chinese folk religion (a blend of Buddhism and Taoism), with
+# a Christian minority and a large no-religion group, broadly mirroring Hong Kong
+# census patterns. Figures are estimates.
+entertainment:
+  - season: allYear
+    items:
+      - "Dim sum meals and street-food outings"
+      - "Shopping and night markets"
+      - "Harbour cruises, cinemas and the running scene"
+  - season: summer
+    items:
+      - "Beaches and outlying-island escapes (Lantau, Lamma, Cheung Chau)"
+      - "The Dragon Boat Festival races"
+  - season: winter
+    items:
+      - "Lunar New Year celebrations and fairs"
+      - "Cooler hiking and the Mid-Autumn lantern displays"
+seasonCalendar:
+  - season: summer
+    months: [4, 5, 6, 7, 8, 9, 10]
+  - season: winter
+    months: [11, 12, 1, 2, 3]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — Hong Kong (Society and culture)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Hong_Kong"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Cantonese urban culture, festivals, religion; figures are estimates."

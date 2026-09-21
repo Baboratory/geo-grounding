@@ -1,0 +1,130 @@
+alpha3: NCL
+alpha2: NC
+name:
+  eng: New Caledonia
+  local:
+    - languageCode: fra
+      value: Nouvelle-Calédonie
+flagEmoji: "🇳🇨"
+capital: Nouméa
+isSovereign: false
+# Classified dependent-territory: New Caledonia is a sui generis collectivity of
+# the French Republic (per a dedicated chapter of the French Constitution), not a
+# sovereign state. A Melanesian archipelago in the south-west Pacific of ~265,000
+# people, including the main island Grande Terre and the Loyalty Islands. A single
+# synthetic WHOLE region per the governance rule for non-sovereign entries — the
+# island groups are geographic and (largely) indigenous, but the territory does not
+# carry curated ISO 3166-2 subdivisions in this dataset.
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: wp-lang
+# French is the sole official language. Around 40 Kanak (New Caledonian Melanesian)
+# languages are spoken by the indigenous population; the main recognised regional
+# languages are Drehu, Nengone, Paicî and Ajië, alongside a French-lexified Creole
+# (tayo) spoken mainly in the Loyalty Islands. LocallySpoken share is an estimate
+# for French.
+ethnicGroups:
+  - group: Kanak (indigenous Melanesian)
+    percent: 41.2
+    sourceId: wp-ethnic
+  - group: European (largely French settler descent)
+    percent: 24.1
+    sourceId: wp-ethnic
+  - group: Mixed (metis)
+    percent: 11.3
+    sourceId: wp-ethnic
+  - group: Polynesian (chiefly Wallisian and Tahitian)
+    percent: 10.3
+    sourceId: wp-ethnic
+  - group: Other (incl. Indonesian, Vietnamese and other Asian)
+    percent: 13.1
+    sourceId: wp-ethnic
+timezones:
+  - name: Pacific/Noumea
+    standardUtcOffset: "UTC+11"
+    observesDst: false
+# New Caledonia is on New Caledonia Time, UTC+11 all year, with no DST.
+currency:
+  code: XPF
+  symbol: "CFP ₣"
+  name: CFP franc
+legalConstraints:
+  - topic: "official language"
+    description: "French is the sole official language. The Nouméa Accord recognises the value of indigenous languages; Drehu, Nengone, Paicî and Ajië are the principal recognised regional languages among roughly forty Kanak languages."
+    sourceId: wp-lang
+  - topic: "sui generis collectivity status"
+    description: "New Caledonia has a unique status enshrined in a dedicated chapter of the French Constitution as a sui generis collectivity, with a Congress and a New Caledonian government; it is an overseas country and territory (OCT) of the EU."
+    sourceId: wp-politics
+  - topic: "decolonisation self-determination process"
+    description: "Three independence referendums (2018, 2020, 2021) under the Nouméa Accord all rejected full independence; the status question and the Kanak political movement remain live. The 2024 unrest over electoral reform sharply heightened tensions."
+    sourceId: wp-politics
+  - topic: "mining and nickel industry"
+    description: "New Caledonia holds some of the world's largest nickel deposits; the nickel mining and smelting industry is central to the economy and a major employer."
+    sourceId: wp-culture
+paymentCulture:
+  popularMethods:
+    - "Cash and card payments both common; the CFP franc (XPF) is the sole currency"
+    - "Bank cards (Visa/Mastercard) accepted in Nouméa and larger towns"
+    - "Mobile and contactless payments growing"
+  tipping:
+    expected: false
+    typicalAmount: "Not generally expected"
+    autoIncludedInBill: false
+    note: "Tipping is not generally expected, though rounding up is appreciated in restaurants."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "A warm, relaxed Melanesian-French society. Respect for family, elders and the land is central to Kanak culture; the French-influenced urban milieu is more direct and individualistic."
+  greetingNorms: "Greet with a handshake and 'Bonjour'; among friends a kiss on the cheek. In Kanak communities, greeting and acknowledging elders is a mark of respect."
+  meetingEtiquette: "Meetings often open with gentle, unhurried rapport-building; patience, listening and consensus matter, especially with Kanak customary authorities."
+  topicsToAvoid:
+    - "The independence question, political status and the 2024 unrest — highly sensitive"
+    - "Disrespecting Kanak customary chiefs or the land"
+  giftGivingNotes: "Sharing food (especially seafood and yam) is a warm gesture; gift-giving is appreciated but modest."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: wp-lang
+    name: "Wikipedia — New Caledonia (Languages)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/New_Caledonia#Languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "French sole official; ~40 Kanak languages; recognised regional languages Drehu, Nengone, Paicî, Ajië; tayo creole."
+  - id: wp-ethnic
+    name: "Wikipedia — New Caledonia (Demographics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/New_Caledonia#Demographics"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "2019 census: Kanak 41.2%, European 24.1%, Mixed 11.3%, Polynesian 10.3%, Other 13.1%."
+  - id: wp-politics
+    name: "Wikipedia — New Caledonia (Politics and status)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/New_Caledonia"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Sui generis collectivity of France; Nouméa Accord; 2018/2020/2021 referendums; EU OCT status; 2024 unrest."
+  - id: wp-culture
+    name: "Wikipedia — New Caledonia (Economy and society)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/New_Caledonia"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Nickel industry; Kanak culture and customary authority."
+  - id: iso-fra
+    name: "ISO 639-3 entry: fra — French"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/fra"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code fra = French, Active."
