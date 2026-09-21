@@ -1,0 +1,128 @@
+code: WHOLE
+name:
+  eng: State of Palestine
+  local:
+    - languageCode: arb
+      value: دولة فلسطين (Dawlat Filasṭīn)
+# Generic country-wide fallback content for the State of Palestine
+# (unitary-small, single synthetic whole region). The West Bank and Gaza
+# division is administrative/political, not a curated regional identity, so
+# all content is folded here as the national character.
+climates:
+  - koppenCode: Csa
+    description: "Hot-summer Mediterranean — hot, dry summers and mild, wet winters, typical of the coastal plain and western slopes of the West Bank."
+  - koppenCode: BSh
+    description: "Hot semi-arid steppe in the inland/deep-south areas (eastern West Bank slopes and much of the Gaza periphery), with low rainfall and hot summers."
+landmarks:
+  - name: Old City of Jerusalem (UNESCO World Heritage)
+    description: "A densely walled historic Old City sacred to Judaism, Christianity, and Islam — home of the Western Wall, Church of the Holy Sepulchre, and the Dome of the Rock / Al-Aqsa Mosque compound (the Haram al-Sharif)."
+    unescoWorldHeritage: true
+  - name: Church of the Nativity, Bethlehem (UNESCO)
+    description: "The basilica built over the traditional birthplace of Jesus, a major pilgrimage site in Bethlehem."
+    unescoWorldHeritage: true
+  - name: Al-Aqsa Mosque / Dome of the Rock
+    description: "The iconic gold-domed shrine on the Haram al-Sharif (Temple Mount) in Jerusalem, among the holiest sites in Islam."
+  - name: Hisham's Palace, Jericho
+    description: "An early-Umayyad desert palace complex near Jericho famed for its ornate mosaic 'Tree of Life' floor."
+# Palestine currently has the above World Heritage sites; noted for accuracy.
+culturalTraits:
+  - "Deep-rooted Levantine Arab heritage with strong family, clan and village/urban identity"
+  - "Hospitality (karam) and honour as core values; coffee and tea ritualise social life"
+  - "Rich culinary, embroidery (tatreez) and oral-poetry traditions; traditional keffiyeh weaving in northern West Bank"
+  - "Powerful shared cultural memory across the diaspora, with national identity closely tied to the land, olive and citrus cultivation"
+prideOf:
+  - "Resilience and a strong national identity despite prolonged displacement and occupation"
+  - "Olive groves, terraced hills and the Mediterranean coast — a deep attachment to the land"
+  - "Bethlehem, Jerusalem and the historic Christian and Islamic heritage sites"
+  - "Traditional crafts: olive-wood carving, tatreez embroidery and keffiyeh weaving"
+animals:
+  popular:
+    - "Olive-tree and hillside birds (e.g. house sparrows, which dominate gardens)"
+    - "Goats and sheep (widely herded in the West Bank highlands)"
+    - "Domestic cats and dogs in towns"
+  unique:
+    - "Mountain gazelle and ibex in the Judean wilderness and desert edges"
+    - "Migratory birds along the Rift Valley flyway (a major bird-migration corridor)"
+industries:
+  - "Olive oil, olives and fresh produce (citrus, grapes, tomatoes) — the backbone of rural economy"
+  - "Stone and marble quarrying in the West Bank highlands"
+  - "Textiles, garments and traditional crafts"
+  - "Construction and remittances from the Palestinian diaspora"
+  - "Tourism and pilgrimage around Bethlehem, Jericho and Jerusalem"
+sports:
+  - "Soccer (association football) — by far the most popular sport"
+  - "Basketball"
+  - "Martial arts and weightlifting"
+  - "Running and athletics"
+religions:
+  - name: Sunni Islam (including non-denominational Muslims)
+    percent: 91.0
+    sourceId: pse-religion
+  - name: Christianity (Greek Orthodox, Roman Catholic, and other denominations)
+    percent: 1.5
+    sourceId: pse-religion
+  - name: Other (incl. Jewish minority mainly in West Bank settlements, Druze, Samaritans)
+    percent: 7.5
+    sourceId: pse-religion
+# Religion split is a constructive estimate: ~99% of Gaza is Muslim; the West
+# Bank (incl. Israeli-settler and Christian communities) mixes substantially.
+# Compiled as a national estimate from CIA PCBS-informed figures.
+entertainment:
+  - season: allYear
+    items:
+      - "Coffeehouses and family gatherings; backgammon (tawle) and card games"
+      - "Football matches and street games among youth"
+      - "Community and family celebrations, dabke dancing at weddings"
+  - season: summer
+    items:
+      - "Beach days along the Gaza coast (where access allows)"
+      - "Evening family outings to parks and promenades in the cooler hours"
+  - season: winter
+    items:
+      - "Indoor gatherings, festive meals and holiday markets around Christmas in Bethlehem"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Maqluba — upside-down rice, meat (lamb/chicken) and fried vegetables"
+      - "Musakhan — roasted chicken over taboon flatbread with sumac, onions and pine nuts"
+      - "Hummus, falafel, and fresh salads"
+      - "Kunafa — the famous cheese-and-sugar pastry, at its best in Nablus"
+  - season: winter
+    items:
+      - "Hearty stews and lentil soups; festive gatherings at Christmas and Eid"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Contemporary western-style dress, modest for many, alongside traditional garments"
+      - "The iconic black-and-white keffiyeh (checkered headscarf) and thobe"
+  - season: winter
+    items:
+      - "Warmer layers and coats; embroidered (tatreez) dresses worn at celebrations"
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8, 9]
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: autumn
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - friday
+    - sunday
+  typicalWorkHours: "Public and many private offices run roughly 08:00-16:00, with Friday as the main weekly rest day (Muslim communities); many Christian businesses also rest on Sunday. Weekends commonly align to Friday and Saturday."
+  lunchBreakTiming: "Midday, typically around 13:00."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "National holidays with several days off around both Eids."
+    - period: "Christmas and Easter"
+      description: "Important holidays, particularly in Bethlehem and Christian communities."
+  notes: "Business in the West Bank and Gaza operates under significant constraints from movement/access controls, checkpoints and border closures, which materially affect supply chains, imports and workdays. Saturday is generally a working day in many establishments."
+sources:
+  - id: pse-religion
+    name: "CIA World Factbook — West Bank and Gaza (religion context)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/west-bank/"
+    accessedDate: "2026-09-21"
+    note: "Muslim ~91% (West Bank, predominantly Sunni; Gaza ~99% Muslim), Christian ~1.5% overall; basis for the constructive national religion split."

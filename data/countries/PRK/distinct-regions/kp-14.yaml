@@ -1,0 +1,77 @@
+code: KP-14
+name:
+  eng: Nampo (South Pyongan–area Special City)
+  local:
+    - languageCode: kor
+      value: 남포특별시 (Namp'o T'ŭkpyŏlshi)
+climates:
+  - koppenCode: Dwa
+    description: "Humid continental (hot-summer) — cold, dry winters and warm, humid summers, moderated near the Taedong estuary on the Yellow Sea coast."
+landmarks:
+  - name: West Sea Barrage (Nampho Dam)
+    description: "An eight-kilometre sea dam across the Taedong River estuary, a celebrated national-engineering landmark near Nampo."
+  - name: Nampo port
+    description: "A major Yellow Sea port serving Pyongyang and the west coast, an important centre for shipping and fisheries."
+culturalTraits:
+  - "The DPRK's principal Yellow Sea gateway port city, west of Pyongyang"
+  - "A fishing, shipping and shipbuilding character anchored at the Taedong estuary"
+prideOf:
+  - "The West Sea Barrage, a showcase of national engineering"
+  - "Being the port window of the capital region on the western coast"
+animals:
+  popular:
+    - "Migratory waterfowl in the Taedong estuary and coastal marshes"
+    - "Fishery species and shellfish in the port waters"
+  unique:
+    - "Intertidal and estuarine species of the Yellow Sea coastline"
+industries:
+  - "Port, shipping and shipbuilding"
+  - "Fisheries, seafood processing and aquaculture"
+  - "Machinery and light industry serving the capital region"
+sports:
+  - "Soccer (association football)"
+  - "Water sports and swimming at the coast"
+entertainment:
+  - season: allYear
+    items:
+      - "Harbour-side life, fishing and coastal walks"
+      - "Local cultural venues and parks"
+  - season: summer
+    items:
+      - "Seaside leisure and beach activity on the Yellow Sea coast"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fresh seafood — crab, shellfish and fish from the Yellow Sea"
+      - "Naengmyeon, rice dishes and kimchi"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Practical workwear and modest everyday clothing for port work"
+  - season: winter
+    items:
+      - "Warm coats and hats for the cold coastal winter"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: [sunday]
+  typicalWorkHours: "Port, shipping and fisheries operate on regular schedules; Sunday is the rest day."
+  lunchBreakTiming: "Midday."
+  notableShutdownPeriods:
+    - period: "National public holidays"
+      description: "State commemorations reduce non-essential work."
+  notes: "Nampo is a state-organised port and industrial complex; business activity is dictated by central state plans and is not open to ordinary private commerce."
+sources:
+  - id: prk-factbook-port
+    name: "CIA World Factbook — Korea, North (major urban areas; Nampo and port context)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/korea-north/"
+    accessedDate: "2026-09-21"
+    note: "Nampo as a major Yellow Sea port serving the capital and the West Sea Barrage engineering landmark; framing for this region."

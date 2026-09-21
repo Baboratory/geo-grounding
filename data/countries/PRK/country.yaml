@@ -1,0 +1,138 @@
+alpha3: PRK
+alpha2: KP
+name:
+  eng: Korea, Democratic People's Republic of
+  local:
+    - languageCode: kor
+      value: 조선민주주의인민공화국 (Chosŏn Minjujuŭi Inmin Konghwaguk)
+flagEmoji: "🇰🇵"
+capital: Pyongyang
+isSovereign: true
+# Classified unitary-large: North Korea's population (~26M in 2025) is above the
+# ~20-25M small-state threshold, yet it is a centrally planned single-party
+# state, NOT federal — provinces are purely administrative under Pyongyang.
+# Per DESIGN.md it therefore qualifies as unitary-large (real ISO 3166-2
+# provinces, iso3166_2_prefix KP; curated regions include Pyongyang KP-01, the
+# special cities Rason KP-13 and Nampo KP-14, and border province North Hamgyong
+# KP-09); WHOLE is the national fallback. Korean (the Munhwao/Cultured Language,
+# Pyongyang standard) is the sole official language.
+governanceType: unitary-large
+iso3166_2_prefix: KP
+hasSubdivisions: true
+languageUsage:
+  - languageCode: kor
+    domain: official
+    speakersShare: 1.0
+    sourceId: prk-constitution
+  - languageCode: kor
+    domain: locallySpoken
+    # The population is overwhelmingly ethnically Korean and Korean-speaking;
+    # ~99% locallySpoken given no significant non-Korean native-speaking
+    # communities (the handful of foreign residents, mainly Chinese, is tiny).
+    speakersShare: 0.99
+    sourceId: prk-cia
+  - languageCode: eng
+    domain: foreign
+    # English and Russian are taught as foreign languages in schools; spoken
+    # proficiency among the general public is low. Omitted as a statistical
+    # share; noted here as the main taught foreign language.
+    speakersShare: 0.05
+    sourceId: prk-cia
+ethnicGroups:
+  # Population is essentially racially homogeneous.
+  - group: Korean
+    percent: 99.8
+    sourceId: prk-cia-ethnic
+  - group: Chinese and other
+    percent: 0.2
+    sourceId: prk-cia-ethnic
+timezones:
+  # North Korea is on UTC+9 (Pyongyang Time) year-round; it observed UTC+8:30
+  # from 2015 until 5 May 2018, when it reverted to UTC+9 to align with South
+  # Korea. No DST.
+  - name: Asia/Pyongyang
+    standardUtcOffset: "UTC+9"
+    observesDst: false
+currency:
+  code: KPW
+  symbol: "₩"
+  name: North Korean won
+legalConstraints:
+  - topic: "official language"
+    description: "The Socialist Constitution (1972, rev. 2016/2019) designates Korean as the official language; judicial proceedings are conducted in Korean (art. 165). The 2023 Pyongyang Cultural Language Protection Act further restricts 'foreign-style' language use, targeting South Korean linguistic influence."
+    sourceId: prk-constitution
+  - topic: "state-led economy & foreign commerce"
+    description: "North Korea is a command economy with a state monopoly on foreign trade; all commercial activity operates under heavy state control and is subject to UN Security Council sanctions covering arms, luxury goods, finance and many goods/services. Foreign e-commerce/contracting into North Korea is effectively barred for most private actors."
+    sourceId: prk-bti
+  - topic: "consumer & data protection"
+    description: "There is no meaningful consumer-protection or personal-data-protection regime, no GDPR-equivalence, and no independent competition authority. Legal recourse for consumers is limited and governed wholly by the state apparatus; courts conduct cases in Korean."
+    sourceId: prk-bti
+  - topic: "foreign currency"
+    description: "The North Korean won (KPW) is the national currency, but Chinese yuan and US dollars circulate widely in markets as de facto stores of value and for transactions; foreign-currency use is officially restricted but pervasive, and exchange rates have been volatile (a sharp won depreciation was recorded from mid-2024)."
+    sourceId: prk-bti
+paymentCulture:
+  popularMethods:
+    - "Cash (North Korean won) — the everyday medium in state and market settings"
+    - "Chinese yuan (RMB) and US dollars — widely used in markets (jangmadang) and for larger/unofficial transactions"
+    - "State-issued mobile/electronic payment systems (e.g. the 'Ohdok'/Wonsan-style payment apps and the domestic card networks such as the North Korea Card, used domestically)"
+  tipping:
+    expected: false
+    typicalAmount: "Not applicable"
+    autoIncludedInBill: false
+    note: "Tipping is not a recognized practice in North Korea; for foreign tourists it is neither expected nor standard."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Highly formal, hierarchical and collective. Deference to age, rank, and (in official settings) to the leadership is rigidly observed. Personal expression is restrained and group/state interests dominate public discourse."
+  greetingNorms: "Handshakes are standard, often with a slight bow; address people by title and surname rather than first name. Informal physical familiarity between strangers is avoided."
+  meetingEtiquette: "Meetings follow formal protocol; the most senior person leads and decisions rest with the top of the hierarchy. In official/business settings with foreign partners, conduct is tightly scripted and monitored. Punctuality and discipline are expected."
+  topicsToAvoid:
+    - "Any criticism of the leadership, the Workers' Party of Korea (WPK), or state ideology (Juche)"
+    - "South Korea, the Kim family's personal affairs, or comparisons that implicate the state"
+    - "Openly political, religious, or sensitive media topics in public"
+  giftGivingNotes: "Gifts are used ceremonially between officials; never gift anything critical of the state. For tourists, tipping and casual gifting to individuals can expose them to scrutiny."
+distinct-regions:
+  - code: KP-01
+    file: distinct-regions/kp-01.yaml
+    adminUnitCodes: ["KP-01"]
+  - code: KP-09
+    file: distinct-regions/kp-09.yaml
+    adminUnitCodes: ["KP-09"]
+  - code: KP-13
+    file: distinct-regions/kp-13.yaml
+    adminUnitCodes: ["KP-13"]
+  - code: KP-14
+    file: distinct-regions/kp-14.yaml
+    adminUnitCodes: ["KP-14"]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: prk-constitution
+    name: "Socialist Constitution of the Democratic People's Republic of Korea (1972, rev. 2016/2019; art. 165)"
+    publisher: "Supreme People's Assembly (DPRK) / Constitute Project"
+    url: "https://www.constituteproject.org/constitution/Peoples_Republic_of_Korea_2016"
+    accessedDate: "2026-09-21"
+    note: "Korean as the official language and language of judicial proceedings; framing for the official-domain row and legal constraints."
+  - id: prk-cia
+    name: "CIA World Factbook — Korea, North (languages, population 26.4M 2025 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/korea-north/"
+    accessedDate: "2026-09-21"
+    note: "Population ~26M (2025 est., 26.4M), official language Korean, near-total ethnic homogeneity; basis for unitary-large classification and locallySpoken/foreign estimates."
+  - id: prk-cia-ethnic
+    name: "CIA World Factbook — Korea, North (ethnic groups)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/korea-north/"
+    accessedDate: "2026-09-21"
+    note: "Racially homogeneous: racially homogeneous group, small Chinese minority; basis for ethnicGroups."
+  - id: prk-bti
+    name: "BTI Country Report — North Korea (2026)"
+    publisher: "Bertelsmann Stiftung (BTI)"
+    url: "https://bti-project.org/en/reports/country-report/PRK"
+    accessedDate: "2026-09-21"
+    note: "Command economy, state monopoly on foreign trade, UN sanctions, absence of competition/consumer/data-protection institutions, and foreign-currency circulation (yuan/USD) plus 2024 won depreciation; basis for legalConstraints and paymentCulture."
+  - id: prk-tz
+    name: "OpenFactBook/World Factbook — North Korea time zone"
+    publisher: "OpenFactBook (World Factbook mirror)"
+    url: "https://openfactbook.org/countries/north-korea/"
+    accessedDate: "2026-09-21"
+    note: "UTC+9; reverted from UTC+8:30 on 5 May 2018 to align with South Korea; no DST."

@@ -1,0 +1,153 @@
+alpha3: PSE
+alpha2: PS
+name:
+  eng: State of Palestine
+  local:
+    - languageCode: arb
+      value: دولة فلسطين (Dawlat Filasṭīn)
+flagEmoji: "🇵🇸"
+capital: "Jerusalem (proclaimed); Ramallah (administrative centre)"
+isSovereign: false
+# Classified unitary-small: the State of Palestine (as administered by the
+# Palestinian National Authority / PA, with a separate Hamas administration in
+# Gaza) is a de jure unitary state whose population (~5.7M in 2025, incl. the
+# Gaza Strip and the West Bank) is far below the ~20-25M large-state threshold.
+# There is no federal structure, and although the West Bank and Gaza are
+# politically separated in practice, the division is an administrative/political
+# reality rather than a widely recognized cultural-historical regional identity
+# meriting curated ISO-3166-2 splitting. Arabic is the sole official language
+# (Amended Basic Law 2003 art. 4). One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: arb
+    domain: official
+    speakersShare: 1.0
+    sourceId: pse-basic-law
+  - languageCode: arb
+    domain: locallySpoken
+    # Arabic (Palestinian dialect) is the mother tongue of the overwhelming
+    # majority of residents; given as a constructive ~0.95 since precise
+    # census share is not published and small minorities (Hebrew-speaking
+    # settlers in the West Bank, foreign workers) exist.
+    speakersShare: 0.95
+    sourceId: pse-cia
+  - languageCode: heb
+    domain: locallySpoken
+    # Hebrew is spoken as a first language mainly by Israeli settlers in the
+    # West Bank and is understood by a portion of Palestinians for work/contact
+    # reasons; a small constructive estimate given no authoritative census.
+    speakersShare: 0.15
+    sourceId: pse-cia
+  - languageCode: eng
+    domain: locallySpoken
+    # English is widely taught and used in business, higher education, and
+    # international NGO/development work, especially among the educated class;
+    # a constructive ~0.2 locallySpoken estimate.
+    speakersShare: 0.2
+    sourceId: pse-cia
+# Note: the West Bank (incl. East Jerusalem) ethnic mix is the only one the
+# CIA publishes; Gaza is ~99% Palestinian Arab. These figures therefore
+# describe the West Bank specifically, not the combined territory.
+ethnicGroups:
+  - group: Palestinian Arab
+    percent: 83.0
+    sourceId: pse-cia-westbank
+  - group: Israeli Jew and other
+    percent: 17.0
+    sourceId: pse-cia-westbank
+timezones:
+  # Both the West Bank and the Gaza Strip observe Palestine Standard Time
+  # (UTC+2) with DST (UTC+3) on the Palestine Authority schedule.
+  - name: Asia/Hebron
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Late March to late October, Palestine Authority DST schedule."
+  - name: Asia/Gaza
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Late March to late October, Palestine Authority DST schedule."
+currency:
+  code: ILS
+  symbol: "₪"
+  name: Israeli new shekel (de facto; also Jordanian dinar and US dollar in circulation)
+legalConstraints:
+  - topic: "official language"
+    description: "Article 4 of the Amended Basic Law of 2003 (the provisional Palestinian constitution) makes Arabic the official language of Palestine; Islam is the religion of the State and the basis of legislation, with due respect for religious freedom."
+    sourceId: pse-basic-law
+  - topic: "data protection"
+    description: "The Palestinian Authority has NO comprehensive personal-data-protection law as of 2026. Privacy is addressed indirectly via the Amended Basic Law (Articles 17 and 32 on home inviolability and the sanctity of private life) and the Cybercrime Law by Decree No. 16 of 2017. Businesses handling personal data operate without a general data-protection regime and are not GDPR-equivalent."
+    sourceId: pse-lexlint
+  - topic: "consumer & commercial"
+    description: "Palestinian commercial and consumer law derives from a mix of the Ottoman, British-mandate, Jordanian (West Bank), and Egyptian (Gaza) codes, later supplemented by PA legislation and decrees. The law is unsettled and fragmented across the PA- and Hamas-administered areas, so cross-border contracting carries legal-uncertainty risk."
+    sourceId: pse-pal-law
+  - topic: "VAT / price display"
+    description: "The Palestinian Authority levies a General Sales Tax (VAT) currently at 16%, administered by the Ministry of Finance; displayed retail prices are normally inclusive of VAT. Note the tax system is administered unevenly across the West Bank and Gaza."
+    sourceId: pse-vat
+  - topic: "cybercrime"
+    description: "Law by Decree No. 16 of 2017 on Cybercrime criminalises unauthorised access, data interference, and certain online content offences; Law by Decree No. 10 of 2018 added offences including non-consensual transmission of indecent material. There is no AI-specific disclosure or watermarking duty."
+    sourceId: pse-lexlint
+paymentCulture:
+  popularMethods:
+    - "Israeli new shekel (ILS) cash — the dominant everyday currency across both the West Bank and Gaza"
+    - "Visa/Mastercard debit and credit cards — accepted in urban malls, hotels and many shops"
+    - "Jordanian dinar (JOD) and US dollar (USD) — widely used for savings, real estate and larger transactions"
+    - "Mobile wallets / e-payment (e.g. Bank of Palestine and other local bank apps; Ooredoo Money and other mobile-money services)"
+  tipping:
+    expected: true
+    typicalAmount: "~10%"
+    autoIncludedInBill: false
+    note: "Tipping is customary at restaurants and for services; about 10% is typical. A service charge is sometimes already included at hotels."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm, hospitable and relationship-driven. Personal trust and family/community networks matter greatly; honour, dignity and reputation are central values. Titles and respect for elders are observed."
+  greetingNorms: "Greet warmly with 'Ahlan wa sahlan' or 'Marhaba'; a handshake is standard, and close friends or relatives may greet with cheek kisses. In conservative settings, physical contact between unrelated men and women is avoided."
+  meetingEtiquette: "Punctuality is appreciated though meetings often open with social conversation, coffee or tea. Decisions may be slow and relationship-based; the most senior person often carries authority. Gender norms vary across urban, rural, and conservative contexts."
+  topicsToAvoid:
+    - "The Israeli-Palestinian conflict and its grief and grievances, unless brought up by the other party"
+    - "Sensitive internal politics (PA vs. Hamas) and religion in a way that could give offence"
+    - "Direct negative criticism, phrased bluntly"
+  giftGivingNotes: "Bringing a small gift when visiting a home is a warm gesture; always accept offered coffee/tea and decline humbly before accepting if customary in the household."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: pse-basic-law
+    name: "The Amended Basic Law of the Palestinian National Authority (2003)"
+    publisher: "Palestinian Legislative Council (PLC)"
+    url: "https://security-legislation.ps/latest-laws/the-amended-basic-law-of-2003"
+    accessedDate: "2026-09-21"
+    note: "Article 4: Arabic is the official language of Palestine; the basis of the language-usage legal-status and religion framing."
+  - id: pse-cia
+    name: "CIA World Factbook — West Bank and Gaza (demo-linguistic context)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/west-bank/"
+    accessedDate: "2026-09-21"
+    note: "Language situation (Arabic official and dominant, Hebrew and English present) and basis for qualitative locallySpoken estimates."
+  - id: pse-cia-westbank
+    name: "CIA World Factbook — West Bank (ethnic groups)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/west-bank/"
+    accessedDate: "2026-09-21"
+    note: "West-Bank ethnic mix: Palestinian Arab 83%, Israeli Jewish and other 17% (the only published ethnic split; Gaza is ~99% Palestinian Arab)."
+  - id: pse-lexlint
+    name: "State of Palestine: AI, scraping, privacy, age-gating, and news-aggregation law"
+    publisher: "LexLint"
+    url: "https://lexlint.org/law/ps"
+    accessedDate: "2026-09-21"
+    note: "Confirms no comprehensive personal-data-protection law; privacy via Amended Basic Law arts. 17 & 32; Cybercrime Decree Laws 16/2017 and 10/2018; no AI disclosure duty."
+  - id: pse-pal-law
+    name: "Palestinian law (overview of the unsettled legal status)"
+    publisher: "Wikipedia / legal commentary"
+    url: "https://everything.explained.today/Palestinian_law"
+    accessedDate: "2026-09-21"
+    note: "Mixed Ottoman/British/Jordanian/Egyptian heritage plus PA legislation; West Bank-Gaza split administration informs the consumer/commercial legal-uncertainty framing."
+  - id: pse-vat
+    name: "Palestinian Ministry of Finance — General Sales Tax (VAT)"
+    publisher: "Palestinian Ministry of Finance"
+    url: "https://www.pmof.ps/"
+    accessedDate: "2026-09-21"
+    note: "PA general sales tax (VAT) currently 16%, administered by the Ministry of Finance; price-display context."
