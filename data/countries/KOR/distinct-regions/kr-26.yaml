@@ -1,0 +1,83 @@
+code: KR-26
+name:
+  eng: Busan (metropolitan city)
+  local:
+    - languageCode: kor
+      value: 부산광역시 (Busan Gwangyeoksi)
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate on the south-east coast, with hot humid summers and mild winters."
+landmarks:
+  - name: Haedong Yonggungsa Temple
+    description: "A scenic seaside temple on the cliffs of the east coast, one of Korea's few temples overlooking the sea."
+  - name: Gamcheon Culture Village
+    description: "The 'Santorini of the East', a hillside mosaic of brightly coloured houses and artworks."
+  - name: Jagalchi Fish Market
+    description: "South Korea's largest fish market, at the base of Nampo-dong."
+  - name: Busan International Finance Centre (BIFC)
+    description: "Modern towers anchoring Busan's financial district skyline."
+culturalTraits:
+  - "South Korea's second-largest city and its largest port"
+  - "The heart of the Yeongnam (south-east) region with a distinctive, frugal and direct local culture"
+  - "A bustling maritime city famous for seafood markets, beaches and the Busan International Film Festival"
+prideOf:
+  - "Being Korea's largest port and gateway to the sea"
+  - "Jagalchi fish market and a legendary seafood dining scene"
+  - "Hosting the Busan International Film Festival (BIFF) each October"
+animals:
+  popular:
+    - "Sea birds and migratory birds along the coast and Nakdong estuary"
+    - "Urban gulls at the port"
+  unique: []
+industries:
+  - "Port, shipping and logistics (port of Busan is a global container hub)"
+  - "Finance and trade"
+  - "Shipbuilding and heavy industry"
+  - "Film, tourism and hospitality"
+sports:
+  - "Baseball"
+  - "Football"
+  - "Swimming and water sports"
+entertainment:
+  - season: allYear
+    items:
+      - "Haeundae and Gwangalli beach life"
+      - "Jagalchi market and Nampo-dong shopping"
+  - season: summer
+    items:
+      - "Beach festivals and fireworks at Haeundae"
+  - season: autumn
+    items:
+      - "Busan International Film Festival (October)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Busan-style dwaeji gukbap (pork and rice soup)"
+      - "Fresh sashimi (hoe) and grilled eel"
+      - "Milmyeon (wheat noodle soup, a Busan speciality)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Casual coastal wear; business attire in the financial district"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday; a busy port-city tempo."
+  lunchBreakTiming: "12:00-13:30; gukbap and seafood set meals are a staple."
+sources:
+  - id: busan-guide-26
+    name: "Visit Busan official tourism guide"
+    publisher: "Busan Metropolitan City / Visit Busan"
+    url: "https://www.visitbusan.net/en/index.do"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, culture and festivals (BIFF) for Busan."

@@ -1,0 +1,95 @@
+code: JP-01
+name:
+  eng: Hokkaido
+  local:
+    - languageCode: jpn
+      value: 北海道 (ほっかいどう)
+climates:
+  - koppenCode: Dfb
+    description: "Warm-summer humid continental climate across most of Hokkaido, with cool summers and long, snowy winters."
+  - koppenCode: Dfc
+    description: "Subarctic climate at higher elevations and the northern coast."
+landmarks:
+  - name: Sapporo Snow Festival
+    description: "The world-famous winter festival of giant snow and ice sculptures held in Sapporo each February."
+  - name: Shiretoko Peninsula
+    description: "A remote national park and UNESCO natural World Heritage Site (2005), home to brown bears and sea ice."
+  - name: Otaru Canal
+    description: "A picturesque herring-era stone warehouse district along the canal in Otaru."
+  - name: Niseko
+    description: "A world-class powder-snow ski resort in western Hokkaido."
+culturalTraits:
+  - "Japan's northern frontier island, once the homeland of the indigenous Ainu people"
+  - "A strong regional identity built around agriculture, dairy, seafood and winter sports"
+  - "Larger, more open landscapes and a cooler, closer-to-nature lifestyle than the rest of Japan"
+prideOf:
+  - "World-class powder snow and ski/snowboard resorts (Niseko, Furano)"
+  - "Being Japan's breadbasket: dairy, potatoes, corn, wheat and seafood (crab, scallops, salmon)"
+  - "Recognition of the Ainu people and promotion of Ainu culture under the 2019 Ainu Policy Promotion Act"
+animals:
+  popular:
+    - "Brown bear (Hokkaido's iconic large mammal)"
+    - "Red fox and sika deer"
+    - "Red-crowned crane (tancho) in the Kushiro plains"
+  unique:
+    - "Hokkaido's distinctive brown bear (Ezo higuma)"
+    - "Blakiston's fish owl (largest owl, in eastern Hokkaido)"
+industries:
+  - "Dairy and agriculture (dairy farming, potato, wheat, asparagus)"
+  - "Seafood and fishing (crab, scallops, salmon)"
+  - "Winter tourism and ski resorts"
+  - "Brewing and distilling (Sapporo Beer, Nikka whisky in Yoichi)"
+sports:
+  - "Skiing and snowboarding"
+  - "Baseball"
+  - "Ice hockey and figure skating"
+  - "Football"
+entertainment:
+  - season: allYear
+    items:
+      - "Onsen bathing and regional dairy-tasting"
+      - "Sapporo's ramen and beer culture"
+  - season: winter
+    items:
+      - "Sapporo Snow Festival and Niseko powder-skiing"
+      - "Donguri (trick-or-treat) and winter illuminations"
+  - season: summer
+    items:
+      - "Lavender fields in Furano and Hokkaido summer hiking"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Hokkaido ramen (miso butter-corn variety)"
+      - "Genghis Khan (jingisukan) grilled lamb"
+      - "Crab, scallop and seafood kaisen-don"
+      - "Dairy: soft-serve ice cream and butter-heavy confections"
+  - season: winter
+    items:
+      - "Hotpot and hearty winter stews"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Warm layered winter clothing with parkas and boots in the cold months"
+      - "Casual alpine resort wear"
+seasonCalendar:
+  - season: spring
+    months: [4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2, 3]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday; winter weather can slow transport."
+  lunchBreakTiming: "12:00-13:00; ramen and seafood set meals are a staple."
+sources:
+  - id: hokkaido-guide-01
+    name: "Hokkaido Official Travel Guide and Ainu cultural information"
+    publisher: "Hokkaido Prefecture / Hokkaido Tourism Organisation"
+    url: "https://hokkaidolove.jp/en/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, climate, wildlife and Ainu cultural notes for Hokkaido."

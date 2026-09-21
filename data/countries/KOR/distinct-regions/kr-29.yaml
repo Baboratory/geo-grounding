@@ -1,0 +1,81 @@
+code: KR-29
+name:
+  eng: Gwangju (metropolitan city)
+  local:
+    - languageCode: kor
+      value: 광주광역시 (Gwangju Gwangyeoksi)
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate in the south-west, with hot humid summers (and monsoon rains) and mild winters."
+landmarks:
+  - name: May 18th National Cemetery
+    description: "The memorial cemetery honouring the victims of the 1980 Gwangju Uprising, a symbol of Korean democracy."
+  - name: Mudeungsan National Park
+    description: "A scenic mountain and national park on the city's edge, beloved for hiking and temple visits."
+  - name: Asia Culture Centre (ACC)
+    description: "A landmark cultural complex in the former provincial government grounds, devoted to Asian arts."
+culturalTraits:
+  - "The capital of the Jeolla (Honam) region and the spirit of Korean democracy"
+  - "A proud city of 'art and taste', famous for its food and artistic heritage"
+  - "Memorial to the pro-democracy Gwangju Uprising of 1980, a defining moment in Korean history"
+prideOf:
+  - "Being the cradle of Korean democracy, honouring the 1980 uprising"
+  - "A renowned culinary reputation — the food capital of the Jeolla region"
+  - "A vibrant arts, film and culture scene (the 'Arts City')"
+animals:
+  popular:
+    - "Mountain birds and deer in Mudeungsan"
+    - "Urban magpies"
+  unique: []
+industries:
+  - "Automotive manufacturing (Kia, Asia's major plants)"
+  - "Culture, arts and media"
+  - "Government and administrative services (south-west regional hub)"
+  - "Tourism and education"
+sports:
+  - "Baseball"
+  - "Football"
+  - "Taekwondo"
+entertainment:
+  - season: allYear
+    items:
+      - "Mudeungsan hiking and Asia Culture Centre exhibitions"
+      - "Gwangju Biennale (contemporary art) and the film festival"
+  - season: spring
+    items:
+      - "Cherry blossoms and spring festivals"
+  - season: summer
+    items:
+      - "Summer monsoon-season indoor cultural events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Gwangju-style duck galbi and bibimbap"
+      - "Kimchi and namul (seasoned vegetables) with a festival of side dishes"
+      - "Dongdongju and traditional makgeolli"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Casual and professional smart wear; hanbok at spring festivals"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday."
+  lunchBreakTiming: "12:00-13:30; a feast of side dishes (banchan) accompanies lunch."
+sources:
+  - id: gwangju-guide-29
+    name: "Gwangju official tourism and May 18 memorial information"
+    publisher: "Gwangju Metropolitan City"
+    url: "https://www.gwangju.go.kr/visitor"
+    accessedDate: "2026-09-21"
+    note: "Landmarks (May 18 Memorial, Mudeungsan, ACC), cuisine and culture for Gwangju."

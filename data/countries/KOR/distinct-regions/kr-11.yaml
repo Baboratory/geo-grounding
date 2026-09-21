@@ -1,0 +1,92 @@
+code: KR-11
+name:
+  eng: Seoul (special city)
+  local:
+    - languageCode: kor
+      value: 서울특별시 (Seoul Teukbyeolsi)
+climates:
+  - koppenCode: Dwa
+    description: "Humid continental climate with hot, humid summers (with monsoon rains) and cold, dry winters."
+landmarks:
+  - name: Gyeongbokgung Palace
+    description: "The main royal palace of the Joseon dynasty, at the heart of Seoul's historic district."
+  - name: N Seoul Tower
+    description: "Iconic observation tower on Namsan hill with sweeping city views."
+  - name: Gwangjang Market
+    description: "A lively century-old street-food market famous for bindaetteok and mayak gimbap."
+  - name: Bukchon Hanok Village
+    description: "A preserved traditional hanok neighbourhood between Gyeongbokgung and Changdeokgung."
+culturalTraits:
+  - "South Korea's capital, political, economic and cultural heart"
+  - "A hyper-connected, tech-forward megacity of world-leading density and speed"
+  - "The global epicentre of K-pop, K-drama, fashion and nightlife"
+prideOf:
+  - "Being a global financial and technology hub"
+  - "A 24-hour, ultra-connected city with an extraordinary subway and internet"
+  - "Leading world pop culture: Gangnam, K-pop and the Hallyu wave"
+animals:
+  popular:
+    - "Korean magpie"
+    - "Squirrels and urban birds in the palace and hill parks"
+  unique: []
+industries:
+  - "Finance, banking and corporate headquarters"
+  - "Technology, media and entertainment"
+  - "Fashion, beauty and luxury retail"
+  - "Tourism"
+sports:
+  - "Baseball"
+  - "Football"
+  - "Taekwondo"
+  - "Esports"
+entertainment:
+  - season: allYear
+    items:
+      - "K-pop concerts, noraebang and the Hongdae/Gangnam nightlife"
+      - "Palace visits and Cheonggyecheon stream walks"
+      - "PC-bang gaming and sprawling shopping districts"
+  - season: spring
+    items:
+      - "Cherry-blossom viewing along the Han and at Seoul Forest"
+  - season: autumn
+    items:
+      - "Autumn foliage at Namsan and the palaces"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kimchi jjigae and bibimbap"
+      - "Korean fried chicken and beer"
+      - "Mayak gimbap and bindaetteok at Gwangjang Market"
+  - season: summer
+    items:
+      - "Naengmyeon (cold noodles)"
+  - season: winter
+    items:
+      - "Hot soups and street pancakes (hotteok)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Sharp business attire in the corporate district"
+      - "Hanbok at palaces and traditional neighbourhoods"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday, with a strong after-hours dining culture (hoesik) that can run late."
+  lunchBreakTiming: "12:00-13:30; kimchi jjigae and Korean set meals are a staple."
+sources:
+  - id: seoul-guide-11
+    name: "Seoul Official Tourism Guide"
+    publisher: "Seoul Metropolitan Government / Visit Seoul"
+    url: "https://english.visitseoul.net/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, entertainment and cultural description for Seoul."

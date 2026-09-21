@@ -1,0 +1,82 @@
+code: KR-41
+name:
+  eng: Gyeonggi (province)
+  local:
+    - languageCode: kor
+      value: 경기도 (Gyeonggi-do)
+climates:
+  - koppenCode: Dwa
+    description: "Humid continental climate with hot humid summers and cold, dry winters, encircling Seoul."
+landmarks:
+  - name: Suwon Hwaseong Fortress
+    description: "A late-18th-century Joseon fortress and wall in Suwon, a UNESCO World Heritage Site (1997)."
+    unescoWorldHeritage: true
+  - name: Everland Resort
+    description: "South Korea's largest theme park, in Yongin (largest in the country)."
+  - name: Songdo International Business District
+    description: "A new smart/branded city and free economic zone in Incheon Bay, a model of planned urban development."
+culturalTraits:
+  - "The densely populated ring of cities and towns surrounding Seoul — the extended Seoul Capital Area"
+  - "Home to high-tech industrial clusters, major universities and commuter towns"
+  - "A fast, modern, suburban-industrial landscape with historic fortress towns"
+prideOf:
+  - "Hosting the nation's largest industrial clusters (Samsung Electronics in Suwon, LG, Hyundai in the surrounding belt)"
+  - "The Suwon Hwaseong Fortress and rich Joseon heritage"
+  - "World-class theme parks and a high innovation density"
+animals:
+  popular:
+    - "Korean magpie"
+    - "Deer at temple and fortress grounds"
+  unique: []
+industries:
+  - "Electronics and semiconductors (Suwon is Samsung Electronics' home base)"
+  - "Information technology and manufacturing"
+  - "Theme parks and tourism"
+  - "Higher education and research institutes"
+sports:
+  - "Baseball"
+  - "Football (Suwon Samsung Bluewings)"
+  - "Taekwondo"
+entertainment:
+  - season: allYear
+    items:
+      - "Everland and major shopping outlets"
+      - "Fortress walks and palace grounds visits"
+  - season: spring
+    items:
+      - "Cherry blossoms and spring fairs"
+  - season: autumn
+    items:
+      - "Autumn festivals and foliage drives"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Galbi (marinated beef ribs, a Suwon speciality)"
+      - "Savoury pancakes and Korean barbecue"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Smart professional and casual urban wear"
+      - "Hanbok at fortress and festival events"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday; many residents commute to Seoul."
+  lunchBreakTiming: "12:00-13:30; company canteens and galbi restaurants are common."
+sources:
+  - id: gyeonggi-guide-41
+    name: "Gyeonggi Province official tourism and Suwon Hwaseong information"
+    publisher: "Gyeonggi Tourism Organization"
+    url: "https://english.ggtour.or.kr/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks (Suwon Hwaseong), industry and cultural description for Gyeonggi."
