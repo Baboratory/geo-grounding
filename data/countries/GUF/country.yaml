@@ -1,0 +1,63 @@
+alpha3: GUF
+alpha2: GF
+name:
+  eng: French Guiana
+  local:
+    - languageCode: fra
+      value: Guyane
+    - languageCode: gcr
+      value: Lagwiyann
+flagEmoji: "🇬🇫"
+capital: Cayenne
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: insee-language
+  # Guianese Creole is not official: standard French is the sole official
+  # language. Guianese Creole (gcr) is the most widely spoken vernacular; the
+  # share is a Composite estimate (an oft-cited figure puts it around 45% of
+  # the population), as no census records an authoritative language-of-home
+  # figure.
+  - languageCode: gcr
+    domain: locallySpoken
+    speakersShare: 0.45
+    sourceId: insee-language
+# Note: French Guiana is linguistically diverse, with many indigenous and
+# Maroon languages spoken in the interior (e.g. Kalina, Saramaccan, Sranan
+# Tongo, Wayana). Only the most widely spoken vernacular (Guianese Creole) is
+# listed here for now; authoritative speaker shares for the others were not
+# found during verification.
+timezones:
+  - name: America/Cayenne
+    standardUtcOffset: "UTC-3"
+    observesDst: false
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+paymentCulture:
+  popularMethods:
+    - Visa and Mastercard (widely accepted)
+    - Cash (common in markets and rural areas)
+  tipping:
+    note: "Service is included in the bill as in France; rounding up is customary but not required."
+# paymentMethodShares, legalConstraints and communicationStyle intentionally
+# omitted: no official payment split is published, French law applies in full,
+# and no reliably sourced description of distinct local communication norms was
+# found.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: insee-language
+    name: "Guyane (population, language and status)"
+    publisher: "Institut national de la statistique et des études économiques (INSEE)"
+    url: "https://www.insee.fr/fr/statistiques/4313999"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Standard French is the sole official language of French Guiana. The Guianese-Creole locallySpoken share (0.45) is a Composite estimate based on the widely cited figure that Guianese Creole is spoken by about 45% of the population; it is not an official INSEE language figure."

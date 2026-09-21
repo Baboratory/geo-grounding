@@ -1,0 +1,85 @@
+code: WHOLE
+name:
+  eng: Réunion
+  local:
+    - languageCode: fra
+      value: La Réunion
+    - languageCode: rcf
+      value: La Rényon
+climates:
+  - koppenCode: Af
+    description: Tropical, hot and humid tropical east coast and cooler highlands; a distinct cyclone (wet) season in the southern summer.
+landmarks:
+  - name: Piton des Neiges
+    description: The island's highest point, an extinct volcano (3,070 m).
+  - name: Piton de la Fournaise
+    description: One of the world's most active volcanoes, a UNESCO World Heritage site.
+  - name: Cirque de Salazie
+    description: A volcanic amphitheatre known for its waterfalls and lush vegetation.
+culturalTraits:
+  - Créolité, a creole blend of African, Malagasy, Indian, Chinese and European heritage
+  - Maloya music (a UNESCO-listed genre, often played on traditional drums)
+prideOf:
+  - The Cirques and Mafate/Salazie/Cilaos landscapes (UNESCO)
+  - Vanilla and bourbon-pointed agriculture
+animals:
+  popular:
+    - Green sea turtle
+    - Humpback whale (seasonal)
+  unique:
+    - Réunion harrier (the island's endemic bird)
+    - Telfair's skink (a weathered skink once thought extinct)
+industries:
+  - Agriculture (sugarcane, vanilla, geranium)
+  - Tourism
+  - Fishing
+sports:
+  - Football
+  - Trail running and hiking
+  - Surfing
+religions:
+  - name: Roman Catholic
+    percent: 0.62
+    sourceId: reunion-religion
+  - name: Hindu
+    percent: 0.14
+    sourceId: reunion-religion
+  - name: Muslim
+    percent: 0.07
+    sourceId: reunion-religion
+entertainment:
+  - season: dry
+    items:
+      - Fête de la musique (June) and winter carnivals
+  - season: wet
+    items:
+      - Cyclone-season indoor traditions and new-year festivities
+traditionalDishes:
+  - season: allYear
+    items:
+      - Carri (spiced curry-style stew)
+      - Rougail saucisse (sausage in a tomato-chilli sauce)
+      - Samoussas (samosas)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Modern creole dress; cultural garments appear at festivals
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  lunchBreakTiming: "French-style midday closure, roughly 12:00pm-2:00pm."
+  typicalWorkHours: "Weekdays around 8:00am-5:00pm, as in French administration."
+  restDays:
+    - saturday
+    - sunday
+  notes: "As an overseas department and outermost region of the EU, Réunion follows French work patterns."
+sources:
+  - id: reunion-religion
+    name: "Religious affiliations in Réunion"
+    publisher: "Composite estimate (CIA World Factbook regional reporting)"
+    url: "https://www.cia.gov/the-world-factbook/countries/reunion/"
+    accessedDate: "2026-09-20"
+    note: "Catholic 0.62, Hindu 0.14 and Muslim 0.07 are the frequently cited shares for the Indian Ocean island (notably the Brahmins and Tamil Hindu communities); figures are Composite estimates as no official census publishes religious affiliation."

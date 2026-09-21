@@ -1,0 +1,79 @@
+code: WHOLE
+name:
+  eng: French Guiana
+  local:
+    - languageCode: fra
+      value: Guyane
+    - languageCode: gcr
+      value: Lagwiyann
+climates:
+  - koppenCode: Af
+    description: Tropical rainforest climate, hot and very humid year-round; the dry season is the less-rainy period. Near the equator there is little seasonal temperature change.
+landmarks:
+  - name: Guiana Space Centre (Kourou)
+    description: Europe's main spaceport near the equator.
+  - name: Les Îles du Salut
+    description: Historic penal-island group off Kourou.
+culturalTraits:
+  - Creole and Maroon cultural traditions of the coastal and riverine regions
+  - Indigenous peoples of the interior (Kali'na, Wayana, Teko, Lokono and others)
+prideOf:
+  - The Guiana Space Centre as a symbol of the territory
+  - Its share of the Amazon rainforest
+animals:
+  popular:
+    - Caribbean manatee
+    - Brown-throated sloth
+  unique:
+    - Orinoco crocodile (Crocodylus intermedius) in the coastal marshes
+    - Harpy eagle in the interior rainforest
+industries:
+  - Space industry (Guiana Space Centre)
+  - Gold mining
+  - Fishing
+sports:
+  - Football
+  - Canoeing and river sports
+  - Athletics
+religions:
+  - name: Roman Catholic
+    percent: 0.8
+    sourceId: guiana-religion
+# Season calendar: French Guiana sits near the equator and rainfall is
+# relatively even year-round compared with the Caribbean islands; the wet/dry
+# split is mild.
+entertainment:
+  - season: dry
+    items:
+      - Carnival season (February)
+  - season: wet
+    items:
+      - End-of-year and new-year festivities
+traditionalDishes:
+  - season: allYear
+    items:
+      - Bougna (chicken or fish steamed in leaves with cassava mash)
+      - Colombo (spiced stew influenced by South Asian heritage)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Modern creole and mainland-French dress; traditional madras appears at festivals
+seasonCalendar:
+  - season: dry
+    months: [7, 8, 9, 10, 11]
+  - season: wet
+    months: [12, 1, 2, 3, 4, 5, 6]
+businessRhythm:
+  lunchBreakTiming: "French-style midday closure, roughly 12:00pm-2:00pm."
+  typicalWorkHours: "Weekdays around 8:00am-5:00pm, as in French administration."
+  restDays:
+    - saturday
+    - sunday
+  notes: "As an overseas department of France, French Guiana follows French work and shopping patterns."
+sources:
+  - id: guiana-religion
+    name: "Religion in French Guiana"
+    publisher: "Composite estimate (CIA World Factbook/federal reporting)"
+    url: "https://www.cia.gov/the-world-factbook/countries/french-guiana/"
+    accessedDate: "2026-09-20"
+    note: "Christianity (chiefly Roman Catholicism) is the dominant religion; 0.8 is the frequently cited share, treated as a Composite estimate."

@@ -1,0 +1,59 @@
+alpha3: GLP
+alpha2: GP
+name:
+  eng: Guadeloupe
+  local:
+    - languageCode: fra
+      value: Guadeloupe
+    - languageCode: gcf
+      value: Gwadloup
+flagEmoji: "🇬🇵"
+capital: Basse-Terre
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: insee-language
+  # Guadeloupean Creole is not official: French is the sole official language
+  # of the territory. Creole is the everyday vernacular for the great majority
+  # of the population, but it holds no legal status. (An estimate: no census
+  # collects a reliable language-of-home figure for the archipelago.)
+  - languageCode: gcf
+    domain: locallySpoken
+    speakersShare: 0.8
+    sourceId: insee-language
+timezones:
+  - name: America/Guadeloupe
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+# paymentMethodShares intentionally omitted: no official card-vs-cash split is
+# published for the territory. As part of France, French payment regulatory
+# rules apply, but no authoritative adoption percentages were found.
+paymentCulture:
+  popularMethods:
+    - Visa and Mastercard (widely accepted in shops, restaurants and hotels)
+    - Cash (still common for small purchases and markets)
+  tipping:
+    note: "As in metropolitan France, service is included in the bill; rounding up for good service is customary but not expected."
+# legalConstraints and communicationStyle intentionally omitted: the territory
+# applies French law in full (it is an overseas region of France), so those
+# fields are not separately curated here rather than duplicated.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: insee-language
+    name: "L'essentiel sur… la Guadeloupe (population and official language)"
+    publisher: "Institut national de la statistique et des études économiques (INSEE)"
+    url: "https://www.insee.fr/fr/statistiques/4481456"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "French is the sole official language of Guadeloupe (as an overseas department and region of France). The Creole-locallySpoken share is a Composite estimate (no official census language figure): Guadeloupean Creole is the widely reported everyday vernacular."
