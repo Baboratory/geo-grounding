@@ -1,0 +1,159 @@
+alpha3: ZWE
+alpha2: ZW
+name:
+  eng: Zimbabwe
+  local:
+    - languageCode: eng
+      value: Zimbabwe
+    - languageCode: sna
+      value: Zimbabwe
+    - languageCode: nde
+      value: iZimbabwe
+flagEmoji: "🇿🇼"
+capital: Harare
+isSovereign: true
+# Classified unitary-large: Zimbabwe is a unitary republic (10 provinces, strong
+# central executive) of ~15.2M (ZimStat 2022 census). It meets the DESIGN.md
+# regional divide criterion: an underlying and widely-recognized Shona-majority
+# Mashonaland vs Ndebele Matabeleland cultural-historical split (Matabeleland was
+# the distinct Ndebele kingdom and retains a distinct identity and history).
+# State is not federal. Curated regions: Harare (ZW-HA, Mashonaland administrative
+# & economic heartland), Bulawayo & Matabeleland (ZW-BU + ZW-MN + ZW-MS, the
+# Ndebele belt), Manicaland (ZW-MA, Eastern Highlands) + WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: ZW
+hasSubdivisions: true
+languageUsage:
+  # Official languages per the 2013 Constitution (Sec. 6). Following the dataset
+  # convention for plurinational states (see Bolivia), the official rows list the
+  # principal, nationally-dominant official languages at the 1.0 legal-status
+  # flag: English, Shona and (Northern) Ndebele. The constitution additionally
+  # recognizes 13 further languages (Chewa, Chibarwe, Kalanga, Koisan, Nambya,
+  # Ndau, Shangani, Sesotho, Sign Language, Setswana, Tonga, Tshivenda, Xhosa);
+  # those are noted here rather than each inflated to an official 1.0 row.
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2013
+  - languageCode: sna
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2013
+  - languageCode: nde
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2013
+  # Home-language shares (ZimStat 2012/2022 census; composite estimates). English
+  # is widely used as a business/government lingua franca but low as a home language.
+  - languageCode: sna
+    domain: locallySpoken
+    speakersShare: 0.70
+    sourceId: zimstat-census-2012
+  - languageCode: nde
+    domain: locallySpoken
+    speakersShare: 0.20
+    sourceId: zimstat-census-2012
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: zimstat-census-2012
+# Language notes: Shona (sna) is the first/home language of ~70%, concentrated in
+# Mashonaland and central provinces; Northern Ndebele (nde) ~16-20%, concentrated
+# in Matabeleland. The remaining constitutionally-recognized languages (Chewa nya,
+# Chibarwe seh, Kalanga kck, Nambya nmq, Ndau ndc, Shangani, Sesotho, Setswana,
+# Tonga, Tshivenda, Xhosa, Koisan, Sign Language) are each small, regional
+# minorities. Their recognition is noted above but not expanded into official rows
+# or dedicated language files here, per the dataset's plurinational-narrowing rule.
+ethnicGroups:
+  # ZimStat 2012 Census ethnic affiliation (composite).
+  - group: Shona
+    percent: 71.0
+    sourceId: zimstat-census-2012
+  - group: Ndebele
+    percent: 16.0
+    sourceId: zimstat-census-2012
+  - group: Other (Kalanga, Tonga, Chewa, Venda, Ndau, etc.)
+    percent: 13.0
+    sourceId: zimstat-census-2012
+timezones:
+  - name: Africa/Harare
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+currency:
+  code: ZWG
+  symbol: "ZiG"
+  name: "Zimbabwe Gold (ZiG) — US dollar also circulates and is widely used"
+legalConstraints:
+  - topic: "official languages"
+    description: "Section 6 of the Constitution of Zimbabwe (2013, as amended 2017) recognizes 16 official languages: Chewa, Chibarwe, English, Kalanga, Koisan, Nambya, Ndau, Ndebele, Shangani, Shona, Sesotho, Sign Language, Sotho, Tonga, Tswana, Venda and Xhosa. The Government must ensure language rights; Shona, Ndebele and English are the principal languages of administration and commerce."
+    sourceId: constitution-2013
+  - topic: "national currency / legal tender"
+    description: "Zimbabwe uses a multi-currency framework. The Zimbabwe Gold (ZiG, ISO 4217 ZWG) was introduced on 8 April 2024 by the Reserve Bank of Zimbabwe as the official legal tender, but the US dollar continues to circulate widely and is commonly used for prices and transactions alongside the ZiG."
+    sourceId: rbz
+paymentCulture:
+  popularMethods:
+    - "Cash — dominant, with heavy reliance on US dollars alongside ZiG"
+    - "Mobile money — EcoCash (and OneMoney/Telecash) used for transfers and payments"
+    - "RTGS / bank transfers for formal and larger transactions"
+    - "Cards — limited but present in major retailers"
+  tipping:
+    expected: true
+    typicalAmount: "~10% at table-service restaurants; small tips for porters and guides"
+    autoIncludedInBill: false
+    note: "Qualitative and customary. Zimbabwe's economy has historically been heavily cash-based and dollarized; the 2024 ZiG introduction added an official local unit of account while US dollars remain ubiquitous. EcoCash mobile money is the dominant digital method."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Respectful and relationship-driven; elders and titles are shown deference. English is common in business but Shona/Ndebele greetings signal respect."
+  greetingNorms: "A firm handshake is standard; in Shona 'Mhoro/Axani' and in Ndebele 'Sawubona' open an exchange. Inquiring after health and family is normal."
+  meetingEtiquette: "Meetings begin with warm greetings and rapport; punctuality is generally expected in formal business but 'African time' may apply socially. Decisions often follow consensus and senior approval."
+  topicsToAvoid:
+    - "The Gukurahundi and political violence history — deeply sensitive, especially in Matabeleland"
+    - "Political affiliation and the land-reform question"
+    - "Personal income or wealth in a stressed economy"
+  giftGivingNotes: "Not expected in business. When visiting a home, a modest gift is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: ZW-HA
+    file: distinct-regions/zw-ha.yaml
+    adminUnitCodes: [ZW-HA]
+  - code: ZW-BU
+    file: distinct-regions/zw-bu.yaml
+    adminUnitCodes: [ZW-BU, ZW-MN, ZW-MS]
+  - code: ZW-MA
+    file: distinct-regions/zw-ma.yaml
+    adminUnitCodes: [ZW-MA]
+sources:
+  - id: constitution-2013
+    name: "Constitution of Zimbabwe Amendment (No. 20) Act 2013 (as consolidated 2017) — Section 6 (Languages)"
+    publisher: "Zimbabwe Legal Information Institute (ZimLII)"
+    url: "https://zimlii.org/akn/zw/act/2013/1/eng@2017-09-07"
+    year: 2013
+    accessedDate: "2026-09-19"
+    note: "Section 6 recognizes the 16 official languages and the language rights regime. Basis for the official-language rows and the official-languages legal constraint."
+  - id: zimstat-census-2012
+    name: "ZimStat 2012 Population Census preliminary report and ethnic/language baselines"
+    publisher: "Zimbabwe National Statistics Agency (ZimStat)"
+    url: "http://www.zimstat.co.zw/dmdocuments/CensusPreliminary2012.pdf"
+    year: 2012
+    accessedDate: "2026-09-19"
+    note: "Ethnic affiliation (Shona ~71%, Ndebele ~16%, other ~13%) and home-language baselines. Composite estimates; English ~5% as home language, much wider as lingua franca."
+  - id: zimstat-census-2022
+    name: "ZimStat 2022 Population and Housing Census (provisional, ~15,178,957)"
+    publisher: "Zimbabwe National Statistics Agency (ZimStat)"
+    url: "https://www.zimstat.co.zw/population-census-2022/"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "2022 census enumerated ~15,178,957 people on 20 April 2022. Basis for the population figure."
+  - id: rbz
+    name: "Reserve Bank of Zimbabwe — Zimbabwe Gold (ZiG) and monetary policy"
+    publisher: "Reserve Bank of Zimbabwe"
+    url: "https://www.rbz.co.zw/"
+    accessedDate: "2026-09-19"
+    note: "ZiG (ZWG) introduced as official currency on 8 April 2024 under the multi-currency framework. Basis for the currency object and the currency legal constraint."
+  - id: iana-timezone
+    name: "IANA Time Zone Database — Africa/Harare"
+    publisher: "Internet Assigned Numbers Authority (IANA)"
+    url: "https://www.iana.org/time-zones"
+    accessedDate: "2026-09-19"
+    note: "Zimbabwe observes Central Africa Time (UTC+2) year-round, no DST."

@@ -2,3 +2,6 @@ code: loz
 name:
   eng: Lozi
   local: Silozi
+commonPhrases:
+  hello: Lumela
+  thankYou: Ndatota
