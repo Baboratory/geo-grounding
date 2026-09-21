@@ -1,0 +1,81 @@
+code: WHOLE
+name:
+  eng: Vatican City
+  local:
+    - languageCode: ita
+      value: Città del Vaticano
+    - languageCode: lat
+      value: Civitas Vaticana
+climates:
+  - koppenCode: Csa
+    description: "Mediterranean climate typical of central Italy, with hot dry summers and mild, wetter winters."
+landmarks:
+  - name: St. Peter's Basilica
+    description: "The largest church in the world and the centre of Roman Catholicism, with Michelangelo's dome and the famous Pietà."
+    unescoWorldHeritage: true
+  - name: Sistine Chapel
+    description: "Famous for Michelangelo's ceiling frescoes and the Last Judgment; the site of papal conclaves."
+    unescoWorldHeritage: true
+  - name: Apostolic Palace
+    description: "The official residence of the Pope, comprising the Papal apartments and the Vatican Museums."
+  - name: Vatican Museums
+    description: "One of the world's greatest art collections, including the Raphael Rooms and Gallery of Maps."
+    unescoWorldHeritage: true
+  - name: St. Peter's Square
+    description: "The grand elliptical piazza designed by Bernini, framed by its colonnade, the focus of papal blessings."
+    unescoWorldHeritage: true
+culturalTraits:
+  - Deep Roman Catholic liturgical and artistic tradition
+  - Multilingual diplomatic culture built around the Curia and the corps of ambassadors
+  - Vatican Library and archives preserving millennia of manuscripts
+prideOf:
+  - Being the spiritual and administrative centre of the Roman Catholic Church
+  - Its incomparable Renaissance art and architecture
+animals:
+  popular:
+    - Mediterranean gull
+  unique:
+    - (Urban enclave; no endemic species — wildlife is limited to city birds)
+industries:
+  - Religious and cultural tourism (Vatican Museums, St. Peter's)
+  - Printing and philatelic/numismatic services (Vatican stamps and coins)
+  - Publishing and the Vatican Library
+sports:
+  - Football (a Vatican amateur side plays occasional friendly and charity matches)
+  - Basketball and other sports among the Swiss Guard and clerical staff are informal
+religions:
+  - name: Roman Catholic
+    percent: 100.0
+    sourceId: vatican-catholic
+entertainment:
+  - season: summer
+    items:
+      - Papal audiences and Sunday Angelus prayers in St. Peter's Square
+  - season: winter
+    items:
+      - Christmas Midnight Mass in St. Peter's Basilica
+      - Urbi et Orbi Christmas and Easter blessings
+traditionalDishes:
+  - season: allYear
+    items:
+      - The Vatican has no distinct local cuisine of its own; Rome's cucina romana (pasta, vegetables, Roman-style dishes) surrounds the enclave and is what visitors eat
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: [sunday]
+  notes: "Within the enclave, the Vatican Museums are the main commercial/cultural operation and open most days except Sundays and certain Church holidays. Ecclesiastical institutions run on a formal rhythm aligned to Mass schedules and liturgical seasons. Much of the day-to-day activity is clerical, diplomatic and museological rather than mainstream retail."
+  typicalWorkHours: "Curial and museum staff typically work roughly 8:30am-6:00pm, Monday-Saturday, with a lunch break; Sunday is a rest day."
+sources:
+  - id: vatican-catholic
+    name: "Vatican City State: religious character"
+    publisher: "Holy See / Vatican City State"
+    url: "https://www.vatican.va"
+    accessedDate: "2026-09-20"
+    note: "Vatican City is a Roman Catholic city-state whose resident population is almost entirely clergy, religious and lay staff of the Holy See; its population is too small for meaningful census-based religious breakdowns, so it is recorded as Roman Catholic."

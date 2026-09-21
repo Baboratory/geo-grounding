@@ -1,0 +1,104 @@
+code: WHOLE
+name:
+  eng: Netherlands
+  local:
+    - languageCode: nld
+      value: Nederland
+climates:
+  - koppenCode: Cfb
+    description: "Temperate maritime climate with mild summers, cool winters and frequent rain; the ocean and prevailing westerly winds keep temperatures moderate year-round."
+landmarks:
+  - name: Rijksmuseum
+    description: "National museum in Amsterdam housing works of the Dutch Golden Age, including Rembrandt's Night Watch."
+  - name: Keukenhof
+    description: "World-famous spring flower garden in Lisse, planted with millions of tulips."
+  - name: Kinderdijk
+    description: "Network of historic windmills draining the marshland, a symbol of Dutch water management."
+    unescoWorldHeritage: true
+  - name: Van Gogh Museum
+    description: "Amsterdam museum holding the world's largest collection of works by Vincent van Gogh."
+culturalTraits:
+  - Deep cycling culture and canal-fringed cities
+  - Direct, egalitarian communication ("bespreekbaar" — everything is discussable)
+  - Strong tradition of water management and flood defence
+prideOf:
+  - Dutch Golden Age art and the masters (Rembrandt, Vermeer, Van Gogh)
+  - Engineering of land reclamation and the Delta Works
+  - Being one of the world's leading flower and agricultural exporters
+animals:
+  popular:
+    - Grey heron
+    - Red fox
+  unique:
+    - Dutch partridge
+industries:
+  - Agricultural technology and food exports (world's second-largest by value)
+  - Logistics and the Port of Rotterdam
+  - Semiconductors (ASML) and high-tech engineering
+  - Financial services and fintech
+sports:
+  - Football (soccer)
+  - Speed skating
+  - Field hockey
+  - Cycling (road and track)
+religions:
+  - name: No religion
+    percent: 56.0
+    sourceId: nl-cbs-religion
+  - name: Roman Catholic
+    percent: 17.0
+    sourceId: nl-cbs-religion
+  - name: Protestant
+    percent: 14.0
+    sourceId: nl-cbs-religion
+  - name: Islam
+    percent: 6.0
+    sourceId: nl-cbs-religion
+  - name: Other
+    percent: 7.0
+    sourceId: nl-cbs-religion
+entertainment:
+  - season: summer
+    items:
+      - Amsterdam Gay Pride (canal parade, August)
+      - Various open-air music festivals across the country
+      - Koningsdag street parties (though the celebration day itself is April 27)
+  - season: winter
+    items:
+      - Amsterdam Light Festival
+      - Christmas markets and ice-skating rinks
+traditionalDishes:
+  - season: allYear
+    items:
+      - Stroopwafels (syrup-filled waffle cookies)
+      - Bitterballen (deep-fried beef croquettes with mustard)
+      - Poffertjes (small fluffy pancakes)
+  - season: winter
+    items:
+      - Erwtensoep (thick split-pea soup)
+      - Oliebollen (Dutch doughnuts) around New Year
+traditionalClothing:
+  - season: allYear
+    items:
+      - Traditional costumes (Volendam, Marken and Staphorst) worn mainly at folk events and festivals
+seasonCalendar:
+  - season: spring
+    months: [4, 5, 6]
+  - season: summer
+    months: [7, 8, 9]
+  - season: autumn
+    months: [10, 11, 12]
+  - season: winter
+    months: [1, 2, 3]
+businessRhythm:
+  restDays: []
+  notes: "There is no nationwide legal restriction on retail trading days. Most shops open around 8:00-9:00am and close 6:00-9:00pm on weekdays, with shorter Saturday hours; many supermarkets and stores also open on Sunday. Offices typically run 9:00am-5:30pm, Monday-Friday."
+  typicalWorkHours: "Standard office hours are roughly 9:00am-5:30pm, Monday-Friday, with a short lunch."
+sources:
+  - id: nl-cbs-religion
+    name: "CBS: Religious affiliation of the Dutch population (2024)"
+    publisher: "Centraal Bureau voor de Statistiek (Statistics Netherlands)"
+    url: "https://www.cbs.nl/en-gb"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "2024 religious affiliation: no religion 56%, Roman Catholic 17%, Protestant 14%, Islam 6%, other 7%."

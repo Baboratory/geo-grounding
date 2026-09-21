@@ -1,0 +1,90 @@
+alpha3: VAT
+alpha2: VA
+name:
+  eng: Holy See (Vatican City State)
+  local:
+    - languageCode: ita
+      value: Stato della Città del Vaticano
+    - languageCode: lat
+      value: Status Civitatis Vaticanae
+flagEmoji: "🇻🇦"
+capital: Vatican City
+isSovereign: true
+# Classified unitary-small: Vatican City is a tiny sovereign city-state (the
+# Holy See) and an ecclesiastical elective monarchy, an enclave within Rome.
+# It has no administrative subdivisions and a single synthetic whole-country
+# region. Italian is the working/official language of the state; Latin is the
+# official language of the Holy See (used in official documents and liturgy),
+# and French is a diplomatic language.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: ita
+    domain: official
+    speakersShare: 1.0
+    sourceId: vatican-instruments
+  - languageCode: lat
+    domain: official
+    speakersShare: 1.0
+    sourceId: vatican-instruments
+  - languageCode: ita
+    domain: locallySpoken
+    speakersShare: 1.0
+    sourceId: vatican-instruments
+# Italian is the working and de facto administrative/diplomatic language of
+# Vatican City State. Latin is the official language of the Holy See, retained
+# for official documents, canon law and liturgical texts. French serves as a
+# diplomatic language of the Holy See but is not co-official in the state
+# itself, so it is not listed here. The state's resident population is small —
+# roughly 800-900 residents plus the clergy and staff of the Roman Curia — so
+# the shares reflect the state's formal linguistic regime rather than a large
+# census population.
+timezones:
+  - name: Europe/Rome
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October (Italy/EU-wide schedule; the Vatican is enclaved in Rome)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "tender and monetary authority"
+    description: "Vatican City uses the euro as its official currency under a monetary agreement with the European Union, mints its own limited-run euro coins, and accepts Italian lire-era and euro notes/coins."
+    sourceId: vatican-euro-agreement
+paymentCulture:
+  popularMethods:
+    - "Cash (euro) and cards are accepted at the Vatican Museums, Post Office, pharmacies and shops within the enclave"
+    - "Banking services provided by the Institute for the Works of Religion (Istituto per le Opere di Religione, the 'Vatican Bank')"
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    typicalAmount: "Tipping is not customary; voluntary donations to museums or the Church are appreciated."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Highly formal and protocol-conscious. Use titles (Eminenza, Eccellenza, Monsignore for clergy; Don/Donna for priests/nuns) and formal address. The Vatican is a working clerical state where etiquette and rank are taken seriously."
+  greetingNorms: "A handshake is standard for lay visitors and staff; fitting to kiss the ring or bow is reserved for audiences with the Pope and senior prelates. Dress conservatively (shoulders and knees covered) inside St. Peter's Basilica and the Museums."
+  meetingEtiquette: "Punctual and formal. Meetings with curial officials follow strict protocol and agenda; decisions are made by the relevant dicastery (department). Diplomats and delegations are received by rank. Communication is measured, tactful and respectful."
+  topicsToAvoid:
+    - "Theology, doctrine and Church internal matters with clergy unless invited"
+    - "Speculation about conclaves, appointments or finances"
+  giftGivingNotes: "Gifts are generally not expected in formal dealings with the Holy See; a ceremonial or institutional gift accompanies official visits. Personal gifts are inappropriate."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: vatican-instruments
+    name: "Vatican City State: Language and diplomatic usage (official Holy See documentation)"
+    publisher: "Holy See / Vatican City State"
+    url: "https://www.vatican.va"
+    accessedDate: "2026-09-20"
+    note: "Italian is the principal working and official language of the Vatican City State; Latin is the official language of the Holy See used in documents and liturgy; French is a diplomatic language. The resident population is small (~800-900), so 'shares' reflect the formal linguistic regime, not census data."
+  - id: vatican-euro-agreement
+    name: "Monetary Agreement between the European Union and the Vatican City State (euro usage)"
+    publisher: "European Commission / Holy See"
+    url: "https://finance.ec.europa.eu/euro-and-countries/agreements-concluded-vatican-city_en"
+    year: 2010
+    accessedDate: "2026-09-20"
+    note: "Under the 2010 monetary agreement the Vatican may adopt the euro as its official currency and mint limited euro coins; euro notes and coins circulate within the state."
