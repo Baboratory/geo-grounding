@@ -1,0 +1,99 @@
+code: WHOLE
+name:
+  eng: Curaçao
+  local:
+    - languageCode: nld
+      value: Curaçao
+    - languageCode: pap
+      value: Kòrsou
+climates:
+  - koppenCode: BSh
+    description: Hot semi-arid (tropical marine) climate, warm and sunny year-round, moderated by northeast trade winds; a drier period most of the year with a wetter season roughly October to December.
+landmarks:
+  - name: Willemstad historic harbour district
+    description: UNESCO-listed historic harbour and city centre famed for its colourful Dutch-colonial gable houses (Handelskade/Waterfort).
+    unescoWorldHeritage: true
+  - name: Christoffel National Park
+    description: The island's largest national park, home to the highest point (Mount Christoffel) and much of the native flora and fauna.
+  - name: Hato Caves
+    description: A cave system with large chambers, limestone formations and native fruit bats.
+culturalTraits:
+  - Colourful colonial architecture in the capital
+  - Multilingual identity (Papiamentu, Dutch, English, Spanish)
+  - Carnival (pre-Lenten) and the Curaçao North Sea Jazz Festival
+  - Seu (town band) / tumba music tradition
+prideOf:
+  - The UNESCO-listed historic centre of Willemstad
+  - Our Mulé discography / music heritage
+  - The karshi di' tera (the island's enduring community spirit)
+animals:
+  popular:
+    - Flamingo (at the Salina)
+    - Sea turtle
+    - Conche (chocho) and reef fish
+  unique:
+    - Curaçao white-tailed deer (Odocoileus virginianus curassavicus)
+    - Curaçao whiptail lizard
+industries:
+  - Tourism
+  - Oil refining and petroleum transshipment (a historically central sector)
+  - Financial services / offshore banking
+  - Shipping / the port of Willemstad
+sports:
+  - Football (soccer)
+  - Baseball
+  - Sailing / diving / watersports
+  - Volleyball
+# religions: Roman Catholic is the large majority (~72-73%) with a Protestant
+# minority (incl. Pentecostal and Seventh-day Adventist) and sizeable
+# non-religious share; figures vary by survey so only qualitative notes here.
+entertainment:
+  - season: allYear
+    items:
+      - Carnival celebrations (pre-Lenten)
+      - Curaçao North Sea Jazz Festival (August)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Keshi yena (stuffed cheese / meat and rice bake)
+      - Erwtensoep (split-pea soup, Dutch-influenced)
+      - Karni stoba (beef stew)
+      - Pastechi (savoury turnovers)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Brightly coloured cotton dresses (feminine festivals)
+      - No single traditional daily dress; Western/Caribbean casual attire
+# Tropical two-season calendar — dry most of the year, wetter Oct-Dec.
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12]
+businessRhythm:
+  lunchBreakTiming: "Many businesses close midday roughly 12:00-14:00; tourist-area restaurants stay open."
+  typicalWorkHours: "Office hours typically 08:00/09:00-16:00/17:00 Mon-Fri; retail open later and sometimes weekend mornings."
+  restDays:
+    - saturday
+    - sunday
+  notes: "The tourism economy and cruise arrivals drive extended opening hours in Willemstad's waterfront and Punda/Otrobanda; Curaçao does not observe daylight saving time."
+sources:
+  - id: curacao-tourisme-climate
+    name: "Curaçao climate and geography"
+    publisher: "Curaçao Tourist Board (CTB)"
+    url: "https://www.curacao.com"
+    accessedDate: "2026-09-20"
+    note: "The dry/wet season split and climate description used for the seasonCalendar."
+  - id: curacao-unesco
+    name: "UNESCO World Heritage — Historic Area of Willemstad, Inner City and Harbour, Curaçao"
+    publisher: "UNESCO"
+    url: "https://whc.unesco.org/en/list/817"
+    year: 1997
+    accessedDate: "2026-09-20"
+    note: "Confirms the Willemstad historic district WHS listing; basis for the unescoWorldHeritage flag."
+  - id: curacao-fauna
+    name: "Christoffel National Park and Curaçao fauna"
+    publisher: "Christoffel Park / Curaçao tourist board"
+    url: "https://www.curacao.com"
+    accessedDate: "2026-09-20"
+    note: "Basis for the whitetail-deer and native-fauna notes."

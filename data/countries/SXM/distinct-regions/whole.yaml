@@ -1,0 +1,98 @@
+code: WHOLE
+name:
+  eng: Sint Maarten
+  local:
+    - languageCode: nld
+      value: Sint Maarten
+    - languageCode: eng
+      value: Sint Maarten
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna (trade-wind) climate, warm year-round with a distinct wetter hurricane-season period June to November and a drier, breezier stretch the rest of the year.
+landmarks:
+  - name: Great Bay Beach
+    description: The island's principal cruise-ship and beachfront along Philipsburg's harbour.
+  - name: Philipsburg historic downtown
+    description: The compact capital's Front Street and West Indian-style wooden and masonry houses, shops and restaurants.
+  - name: Fort Amsterdam
+    description: Historic 17th-century Dutch fortification guarding the harbour entrance.
+culturalTraits:
+  - English-creole everyday speech and a highly polyglot population
+  - Carnival (pre-Lenten, with heavy French-side cross-island influence)
+  - Coastal/marine life and a strong small-island community identity
+  - The monthly 'flying fish king' market at the harbour
+prideOf:
+  - The beach and cruise-port economy
+  - The island's tolerant, multicultural vibe
+  - Local cuisine and the light-sleep/watersports tradition
+animals:
+  popular:
+    - Sea turtle (nesting on nearby cays)
+    - Brown pelican
+    - Iguana
+  unique:
+    - Lesser Antillean iguana
+industries:
+  - Tourism (cruise and stay-over — the dominant sector)
+  - Retail/duty-free shopping
+  - Financial services
+  - (Historically) the refinery and port
+sports:
+  - Sailing / watersports
+  - Cricket
+  - Football (soccer)
+  - Volleyball and basketball
+# religions: Protestant (incl. Pentecostal, Methodist, Seventh-day Adventist,
+# Baptist, Anglican) is the largest grouping, with a substantial Roman Catholic
+# minority, a Hindu community and a large non-religious/cultural share;
+# figures vary by survey so captured qualitatively here.
+entertainment:
+  - season: allYear
+    items:
+      - Carnival celebrations (pre-Lenten) with parades and jumping-up
+      - The annual St. Maarten Heineken Regatta (March)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Conch soup / conch fritters
+      - Johnny cake (cornmeal cake)
+      - Flying fish (grilled or stewed)
+      - Guavaberry liqueur (a local specialty)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Casual Caribbean/Western dress; sun hats and swimwear in the beach areas
+      - Brightly coloured cotton clothing at carnival
+# Tropical two-season calendar: wetter in the June-November rainy/hurricane
+# period, drier and breezier December-May.
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10, 11]
+businessRhythm:
+  lunchBreakTiming: "Many shops and offices close midday roughly 12:00-13:30; harbour-front restaurants and duty-free stay open through."
+  typicalWorkHours: "Office hours typically 08:00/09:00-16:00/17:00 Mon-Fri; retail and duty-free open longer, incl. when cruise ships are in port and weekend mornings."
+  restDays:
+    - saturday
+    - sunday
+  notes: "Business hours swing heavily with cruise-ship arrivals in Great Bay and high season; the island does not observe daylight saving time. The annual hurricane-season (June-Nov, ~peak Aug-Sep) can slow tourism activity."
+sources:
+  - id: sxm-tourisme-climate
+    name: "Sint Maarten climate and seasons"
+    publisher: "Sint Maarten Tourist Bureau / Caribbean tourism guides"
+    url: "https://www.sintmaartengov.org"
+    accessedDate: "2026-09-20"
+    note: "The dry/wet season split and hurricane-season note used for the seasonCalendar."
+  - id: sxm-unesco
+    name: "UNESCO World Heritage — Sint Maarten"
+    publisher: "UNESCO"
+    url: "https://whc.unesco.org"
+    accessedDate: "2026-09-20"
+    note: "Sint Maarten has no UNESCO World Heritage-listed site; the Fort Amsterdam and Philipsburg landmarks are listed without the unescoWorldHeritage flag."
+  - id: sxm-regatta
+    name: "St. Maarten Heineken Regatta (official event)"
+    publisher: "St. Maarten Heineken Regatta"
+    url: "https://www.heinekenregatta.com"
+    accessedDate: "2026-09-20"
+    note: "Basis for the March regatta entertainment entry."

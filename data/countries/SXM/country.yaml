@@ -1,0 +1,183 @@
+alpha3: SXM
+alpha2: SX
+name:
+  eng: Sint Maarten
+  local:
+    - languageCode: nld
+      value: Sint Maarten
+    - languageCode: eng
+      value: Sint Maarten
+flagEmoji: "🇸🇽"
+capital: Philipsburg
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Language official-status basis: the Constitution of Sint Maarten
+# (Staatsregeling van Sint Maarten, in force 10 October 2010 when it became a
+# constituent country within the Kingdom of the Netherlands) states in
+# Article 1(2) that the official languages are Dutch and English. English is
+# the everyday and first language of most residents; a local variety of
+# English creole is spoken informally. Language figures from the 2001 census
+# (the most recent with a widely published first-language table).
+languageUsage:
+  - languageCode: nld
+    domain: official
+    speakersShare: 1.0
+    sourceId: sxm-constitution
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: sxm-constitution
+  # 2001 census first-language shares: English 67.5%, Spanish 12.9%,
+  # creole (local English creole) 8.2%, Dutch 4.2%, Papiamento 2.2%,
+  # French 1.5%. The 'creole' share is a local English-based creole;
+  # it is folded into the eng locallySpoken estimate rather than given a
+  # separate code because no single ISO 639-3 code cleanly covers the
+  # Sint Maarten English creole variety.
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.757
+    sourceId: sxm-census-2001
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.129
+    sourceId: sxm-census-2001
+  - languageCode: nld
+    domain: locallySpoken
+    speakersShare: 0.042
+    sourceId: sxm-census-2001
+  - languageCode: pap
+    domain: locallySpoken
+    speakersShare: 0.022
+    sourceId: sxm-census-2001
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.015
+    sourceId: sxm-census-2001
+# ethnicGroups from the 2011 estimate (population by country of birth):
+ethnicGroups:
+  - group: Saint Maarten-born
+    percent: 29.9
+    sourceId: sxm-ethnic-2011
+  - group: Dominican
+    percent: 10.2
+    sourceId: sxm-ethnic-2011
+  - group: Haitian
+    percent: 7.8
+    sourceId: sxm-ethnic-2011
+  - group: Jamaican
+    percent: 6.6
+    sourceId: sxm-ethnic-2011
+  - group: Saint Martin (French side)-born
+    percent: 5.9
+    sourceId: sxm-ethnic-2011
+  - group: Guyanese
+    percent: 5.0
+    sourceId: sxm-ethnic-2011
+  - group: Dominican (Commonwealth of Dominica)
+    percent: 4.4
+    sourceId: sxm-ethnic-2011
+  - group: Curaçaoan
+    percent: 4.1
+    sourceId: sxm-ethnic-2011
+  - group: Aruban
+    percent: 3.4
+    sourceId: sxm-ethnic-2011
+  - group: Saint Kitts and Nevis-born
+    percent: 2.8
+    sourceId: sxm-ethnic-2011
+  - group: Other / unspecified
+    percent: 19.9
+    sourceId: sxm-ethnic-2011
+# religions intentionally omitted: figures vary by survey; Protestant is the
+# largest grouping (Pentecostal, Methodist, Seventh-day Adventist among other
+# Protestant), with a substantial Roman Catholic minority and a Hindu
+# community; no stable official percentage set is published — captured
+# qualitatively at region level where citable.
+timezones:
+  - name: America/Lower_Princes
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+# Uses the Caribbean guilder (XCG), introduced 31 March 2025 and replacing the
+# Netherlands Antillean guilder (ANG), issued by the Central Bank of Curaçao
+# and Sint Maarten (CBCS). Pegged to the US dollar at 1 USD = 1.79 XCG.
+# The US dollar is widely used informally across the tourism economy.
+currency:
+  code: XCG
+  symbol: "Cg"
+  name: Caribbean guilder
+legalConstraints:
+  - topic: "turnover tax (TOV) and price display"
+    description: "Sint Maarten levies a turnover tax ('turnover belasting', TOV) on goods and services provided on the island — the standard rate is 5%. Consumer prices are generally displayed inclusive of the applicable turnover tax; there is no VAT."
+    sourceId: sxm-tax
+  - topic: "official languages"
+    description: "The official languages of Sint Maarten are Dutch and English (Constitution of Sint Maarten, Article 1(2)). English is the principal everyday and business language."
+    sourceId: sxm-constitution
+  - topic: "data protection / privacy"
+    description: "Sint Maarten has no autonomous comprehensive data-protection law as of late 2025; the island is not an EU/EEA member state, though Kingdom-of-the-Netherlands standards and, for EU-oriented processing, the GDPR may engage. Flagged for confirmation before heavy personal-data processing."
+    sourceId: sxm-privacy
+# paymentMethodShares intentionally omitted: no official consumer
+# payment-method split is published by CBCS; cash and US-dollar use dominate
+# alongside growing card/wallet acceptance in the tourism sector.
+paymentCulture:
+  popularMethods:
+    - "Cash (Caribbean guilder and US dollar — the latter widely accepted given tourism)"
+    - "Visa and Mastercard / debit cards at hotels, restaurants and larger retailers"
+    - "Mobile/contactless payments growing at larger merchants and the cruise port"
+  tipping:
+    expected: true
+    typicalAmount: "10-15% in restaurants when no service charge is included"
+    autoIncludedInBill: false
+    note: "Some restaurants add a service charge; otherwise a 10-15% tip for good service is customary in the hospitality trade, mirroring US/regional norms."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Relaxed and informal, English-centric; first names are common among colleagues and in service settings. Positions/titles are used formally in government and legal contexts (Minister, Commissioner)."
+  greetingNorms: "A warm 'good morning/afternoon' and a handshake is standard; among acquaintances a hug or a side-hand greeting is common. English is the default working language."
+  meetingEtiquette: "Punctuality is expected though some caribbean flexibility exists; meetings are typically friendly and direct with small talk opening. Decisions in the small close-knit business community often build on personal relationships. Dress is smart-casual."
+  topicsToAvoid:
+    - "The constitutional relationship with the Netherlands"
+    - "Inter-island rivalry or politics of the ABC/SSS islands"
+  giftGivingNotes: "Gifts are not a business expectation; if invited to a home, a modest host/hostess gift (flowers, chocolates, liquor) is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: sxm-constitution
+    name: "Staatsregeling van Sint Maarten (Constitution of Sint Maarten), Article 1(2) — official languages"
+    publisher: "Government of Sint Maarten"
+    url: "https://www.sintmaartengov.org"
+    year: 2010
+    accessedDate: "2026-09-20"
+    note: "Article 1(2): the official languages are Dutch and English. In force 10 October 2010."
+  - id: sxm-census-2001
+    name: "Sint Maarten census 2001 — first-language tables"
+    publisher: "Department of Statistics Sint Maarten"
+    url: "https://stats.sintmaartengov.org"
+    year: 2001
+    accessedDate: "2026-09-20"
+    note: "First-language shares: English 67.5%, Spanish 12.9%, creole 8.2%, Dutch 4.2%, Papiamento 2.2%, French 1.5%. Eng locallySpoken = 67.5+8.2=75.7% (English + local English creole)."
+  - id: sxm-ethnic-2011
+    name: "Sint Maarten population by country of birth (2011 estimate)"
+    publisher: "Department of Statistics Sint Maarten / Caribbean census"
+    url: "https://stats.sintmaartengov.org"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "Population-by-country-of-birth shares used for ethnicGroups."
+  - id: sxm-tax
+    name: "Taxation of Sint Maarten — turnover tax (TOV)"
+    publisher: "Sint Maarten Tax Administration"
+    url: "https://www.sintmaartengov.org"
+    year: 2024
+    note: "Standard 5% turnover-tax rate and price-display note."
+  - id: sxm-privacy
+    name: "Data protection landscape — Sint Maarten (no autonomous national data-protection law)"
+    publisher: "DLA Piper Data Protection Laws of the World / Composite estimate"
+    url: "https://www.dlapiperdataprotection.com"
+    year: 2025
+    note: "Flags the absence of an autonomous comprehensive data-protection regime."
+  - id: sxm-iso639-pap
+    name: "ISO 639-3 Registration Authority code pap (Papiamento)"
+    publisher: "SIL International"
+    url: "https://iso639-3.sil.org/code/pap"
+    note: "Confirms pap = Papiamento, spoken by the small Papiamento community on Sint Maarten."
