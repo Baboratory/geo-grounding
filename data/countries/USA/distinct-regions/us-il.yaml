@@ -1,0 +1,105 @@
+code: US-IL
+name:
+  eng: Illinois
+  local:
+    - languageCode: eng
+      value: Illinois
+climates:
+  - koppenCode: Dfa
+    description: "Hot-summer humid continental climate, with warm humid summers, cold winters and strong four-season variation."
+landmarks:
+  - name: Millennium Park and Cloud Gate
+    description: "Chicago's lakefront park and the famous mirrored 'Bean' sculpture."
+  - name: Willis (Sears) Tower
+    description: "The Chicago skyscraper with the famous glass 'Ledge' observation decks."
+  - name: Chicago's Lakefront and Navy Pier
+    description: "The Great Lake shoreline, harbour and entertainment pier of the Windy City."
+  - name: Abraham Lincoln sites (Springfield)
+    description: "The home and tomb of President Lincoln in the Illinois capital."
+  - name: Starved Rock State Park
+    description: "The dramatic sandstone canyons and waterfalls along the Illinois River."
+culturalTraits:
+  - "Chicago, the 'Windy City', the great Midwestern metropolis of architecture, jazz and deep-dish pizza"
+  - "A proud working-class and sports-loving Midwestern identity ('Chicago-style' food and humour)"
+  - "A crossroads of the Midwest: farmland, manufacturing and a rich immigrant history"
+prideOf:
+  - "World-class architecture (from the skyscraper's birthplace) and museums"
+  - "Chicago deep-dish pizza, hot dogs and the blues/jazz scene"
+  - "A resilient, sports-mad Midwestern spirit"
+animals:
+  popular:
+    - "White-tailed deer (rural Illinois)"
+    - "American bald eagle (wintering along the rivers)"
+  unique:
+    - "Illinois' prairie-chicken and tallgrass-prairie wildlife"
+industries:
+  - "Finance and corporate headquarters (Chicago)"
+  - "Manufacturing and logistics (a great rail/road hub)"
+  - "Agriculture (corn and soybeans)"
+  - "Food processing"
+  - "Technology and professional services"
+sports:
+  - "American football (Bears)"
+  - "Baseball (Cubs, White Sox)"
+  - "Basketball (Bulls)"
+  - "Ice hockey (Blackhawks)"
+entertainment:
+  - season: allYear
+    items:
+      - "World-class museums (the Art Institute, the Field), theatres and the blues/jazz clubs"
+  - season: summer
+    items:
+      - "Lakeshore beaches, festivals and the outdoor dining scene"
+  - season: autumn
+    items:
+      - "Fall colours and the mild season for city travel"
+  - season: winter
+    items:
+      - "Chicago's cold season: the Christkindlmarket and winter lakefront"
+  - season: spring
+    items:
+      - "The warming season and river-walk reopening"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Deep-dish pizza, the Chicago hot dog and Italian beef sandwiches"
+      - "Polish and immigrant cuisines, and the Midwestern farm-to-table fare"
+  - season: summer
+    items:
+      - "Patio grilling and the Riverwalk/street-fair food"
+  - season: winter
+    items:
+      - "Hearty comfort food and warm soups for the cold"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Practical Midwestern layered dress, from business attire downtown to casual elsewhere"
+  - season: winter
+    items:
+      - "Very warm coats, hats, mitts and boots for the brutal winter"
+  - season: summer
+    items:
+      - "Light casual clothing"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Chicago's financial and corporate sector runs 09:00-17:00 Monday-Friday, coordinated with US market hours."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical, often a quick sandwich, Deep Dish slice or a salad."
+sources:
+  - id: enjoyillinois
+    name: "Enjoy Illinois — tourism"
+    publisher: "Illinois Office of Tourism"
+    url: "https://www.enjoyillinois.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Illinois."

@@ -1,0 +1,112 @@
+code: US-FL
+name:
+  eng: Florida
+  local:
+    - languageCode: eng
+      value: Florida
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate in the south (Miami, the Keys), warm year-round with a distinct rainy season."
+  - koppenCode: Cfa
+    description: "Humid subtropical climate across most of the state (Orlando, Tampa, Jacksonville), hot humid summers and mild winters."
+landmarks:
+  - name: Everglades National Park
+    description: "The vast subtropical wetland at the southern tip, a UNESCO World Heritage Site of alligators, birds and mangroves."
+    unescoWorldHeritage: true
+  - name: Walt Disney World (Orlando)
+    description: "The world's largest theme-park resort, the 'theme park capital of the world'."
+  - name: South Beach (Miami)
+    description: "The art-deco beachfront of Miami Beach, a byword for style and nightlife."
+  - name: Key West
+    description: "The southernmost point of the continental US, a laid-back island town of sunsets and pastel houses."
+  - name: Kennedy Space Center (Cape Canaveral)
+    description: "NASA's historic launch site for the Apollo and space-shuttle programmes."
+culturalTraits:
+  - "A sunny, retirement- and tourism-driven 'Sunshine State' with a tropical sensibility"
+  - "Vibrant Cuban/Latin culture in Miami and a melting pot of northern migrants"
+  - "Beach life, theme parks and an outdoorsy, year-round recreation culture"
+prideOf:
+  - "Sunsets, beaches and year-round warm weather"
+  - "Theme parks and the space programme"
+  - "A diverse, laid-back and welcoming culture"
+animals:
+  popular:
+    - "American alligator"
+    - "Florida manatee"
+  unique:
+    - "Florida panther (critically endangered, endemic to the Everglades region)"
+    - "West Indian/Antillean manatee"
+industries:
+  - "Tourism and hospitality (theme parks, beaches, cruises)"
+  - "Real estate and retirement economy"
+  - "Aerospace and space (Kennedy Space Center)"
+  - "Agriculture (citrus, sugarcane, winter vegetables)"
+  - "Finance and logistics (Miami)"
+sports:
+  - "American football (Dolphins, Buccaneers, Jaguars)"
+  - "Baseball (spring training capital; Marlins, Rays)"
+  - "Basketball (Heat, Magic)"
+  - "Ice hockey (Panthers, Lightning)"
+  - "Fishing and water sports"
+entertainment:
+  - season: allYear
+    items:
+      - "Beaches, water sports and theme parks — a year-round destination"
+      - "Miami's nightlife, Latin music and art scene"
+  - season: summer
+    items:
+      - "Beach days, boardwalks and water parks (the rainy season brings afternoon storms)"
+  - season: winter
+    items:
+      - "Mild 'snowbird' season and the height of tourism"
+  - season: spring
+    items:
+      - "Spring training baseball and pleasant beach weather"
+  - season: autumn
+    items:
+      - "The hurricane season, milder weather and lower crowds"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Key lime pie (the state dessert) and Cuban cuisine of Miami (Cubano sandwiches, cafecito)"
+      - "Fresh seafood: stone crab, grouper, spiny lobster and gulf shrimp"
+      - "Citrus: orange juice, key limes and grapefruit"
+  - season: summer
+    items:
+      - "Tropical fruit and refreshing island-style dishes"
+  - season: winter
+    items:
+      - "Stone-crab season (mid-October to May) and holiday seafood feasts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Relaxed, beach-ready casual wear year-round — shorts, tees, sandals"
+  - season: summer
+    items:
+      - "Very light, breathable clothing and rain gear for afternoon storms"
+  - season: winter
+    items:
+      - "Only a light jacket for the mild winter"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday; tourism and hospitality run extended hours year-round."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
+sources:
+  - id: visit-florida
+    name: "Visit Florida — official tourism"
+    publisher: "Visit Florida (state marketing)"
+    url: "https://www.visitflorida.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Florida."

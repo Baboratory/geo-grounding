@@ -1,0 +1,150 @@
+code: WHOLE
+name:
+  eng: United States
+  local:
+    - languageCode: eng
+      value: United States
+# Generic country-wide fallback content for the United States (federal with a
+# curated subset of states). National-level coverage not specific to any one
+# state or the user's detected subdivision.
+climates:
+  - koppenCode: Dfa
+    description: "Hot-summer humid continental climate across the Midwest and Northeast, with warm humid summers and cold winters."
+  - koppenCode: Cfa
+    description: "Humid subtropical climate across the Southeast and Gulf coast, hot humid summers and mild winters."
+  - koppenCode: BSk
+    description: "Semi-arid steppe climate across the Great Plains and parts of the Southwest, hot dry summers and cold winters."
+  - koppenCode: Csa/Csb
+    description: "Mediterranean climates along the California coast, dry mild winters and warm dry summers."
+  - koppenCode: Dfc
+    description: "Subarctic climate across Alaska, short cool summers and long cold winters."
+landmarks:
+  - name: Statue of Liberty
+    description: "The iconic liberty figure on Liberty Island in New York Harbor, a UNESCO World Heritage Site and global symbol of freedom."
+    unescoWorldHeritage: true
+  - name: Grand Canyon National Park
+    description: "The vast canyon carved by the Colorado River in Arizona, a UNESCO World Heritage Site and one of the wonders of the world."
+    unescoWorldHeritage: true
+  - name: Yellowstone National Park
+    description: "The world's first national park, spanning Wyoming-Montana-Idaho, famed for geysers (Old Faithful) and wildlife, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Golden Gate Bridge
+    description: "The famous art-deco suspension bridge spanning San Francisco Bay."
+  - name: National Mall and the Lincoln Memorial (Washington, D.C.)
+    description: "The capital's monumental core, site of memorials, museums and the Smithsonian."
+  - name: Mount Rushmore
+    description: "The sculpted faces of four presidents in the Black Hills of South Dakota."
+culturalTraits:
+  - "A vast federal union of 50 diverse states united by shared institutions and values"
+  - "A nation of immigrants, known for its cultural, ethnic and culinary diversity"
+  - "A world cultural and technological leader: film, music, sports, and innovation"
+  - "Individualism, optimism, informality and a strong civic/national pride"
+prideOf:
+  - "Freedom, democracy and opportunity ('the American Dream')"
+  - "World-class national parks and natural beauty"
+  - "Technological and cultural global influence"
+animals:
+  popular:
+    - "Bald eagle (national bird)"
+    - "American bison (national mammal)"
+    - "American black bear"
+  unique:
+    - "American bison (the national mammal, restored from near extinction)"
+    - "California condor (critically endangered, reintroduced to the West)"
+    - "Bald eagle (national bird)"
+industries:
+  - "Information technology and software (Silicon Valley and beyond)"
+  - "Finance and corporate headquarters"
+  - "Energy, manufacturing and agriculture"
+  - "Healthcare, education and professional services"
+  - "Media, entertainment and tourism"
+sports:
+  - "American football (NFL)"
+  - "Baseball (MLB)"
+  - "Basketball (NBA)"
+  - "Ice hockey (NHL)"
+  - "Soccer (growing fast)"
+entertainment:
+  - season: allYear
+    items:
+      - "Hollywood film and television, and the world's most influential music scene"
+      - "Professional sports, amusement parks and the great outdoors"
+  - season: summer
+    items:
+      - "Independence Day (4 July) celebrations, national-park travel and beach season"
+  - season: autumn
+    items:
+      - "Thanksgiving (November) and the vibrant New England / national fall-colour season"
+  - season: winter
+    items:
+      - "Winter holidays, skiing in the West and New England, and the big championship games"
+  - season: spring
+    items:
+      - "Spring festivals, cherry-blossom season in Washington D.C., and reopening of the parks"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Hamburgers, hot dogs, pizza, barbecue and fried chicken"
+      - "Regional cuisines: Southern, Tex-Mex, Cajun, New England clam chowder"
+      - "Thanksgiving turkey and the classic apple pie"
+  - season: summer
+    items:
+      - "Barbecues, fresh corn, and ice cream/beach food"
+  - season: autumn
+    items:
+      - "Pumpkin pie, Thanksgiving dinner and harvest-season foods"
+  - season: winter
+    items:
+      - "Holiday roasts, eggnog and comfort foods"
+  - season: spring
+    items:
+      - "Fresh seasonal produce and the café food scene"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Relaxed, casual and individualistic dress; 'smart casual' for most settings"
+  - season: summer
+    items:
+      - "Light casual clothing, shorts, t-shirts and sandals"
+  - season: winter
+    items:
+      - "Warm coats, layers and boots in the cold north; lighter in the south"
+  - season: spring
+    items:
+      - "Light layers and transitional weather clothing"
+  - season: autumn
+    items:
+      - "Layers and flannel/sweater season"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday, with variations by sector and generous remote/flexible arrangements."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical, often a quick sandwich, salad, food truck or takeout."
+  notableShutdownPeriods:
+    - period: "Thanksgiving to New Year (late November-early January)"
+      description: "The major holiday season; many offices close or reduce hours around Thanksgiving and the Christmas-New Year period."
+sources:
+  - id: visit-usa
+    name: "Visit The USA — official tourism"
+    publisher: "U.S. Department of Commerce / Brand USA"
+    url: "https://www.visittheusa.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, national parks, food, culture and seasonal highlights for the WHOLE region."
+  - id: unesco-whc-us
+    name: "United States — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/us"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies US UNESCO World Heritage properties, including the Statue of Liberty, Grand Canyon and Yellowstone."
