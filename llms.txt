@@ -20,5 +20,6 @@ Data lives under `data/` as YAML validated against JSON Schema in `schema/`. Cov
 ## Contributing
 
 - [CONTRIBUTING.md](CONTRIBUTING.md): data-sourcing rules, naming conventions, how to add a country
+- [AUDITING.md](AUDITING.md): how to review already-merged data against this repo's own rules — read this before flagging a sourcing finding
 - [LICENSE](LICENSE): code (MIT)
 - [LICENSE-DATA.md](LICENSE-DATA.md): data (CC BY 4.0)

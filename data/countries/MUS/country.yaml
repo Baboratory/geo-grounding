@@ -1,0 +1,165 @@
+alpha3: MUS
+alpha2: MU
+name:
+  eng: Mauritius
+  local:
+    - languageCode: mfe
+      value: Moris
+flagEmoji: "🇲🇺"
+capital: Port Louis
+isSovereign: true
+# Classified unitary-small: Mauritius meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~1.26M (2022 census 1,233,097) — far below the
+# 20-25M threshold. (2) No officially recognized regional/minority or
+# subnational co-official languages — English is the de jure official language
+# of the National Assembly, courts and administration; Mauritian Creole ('mfe')
+# is the de facto national lingua franca but is NOT official. (3) No widely
+# recognized cultural-historical regional identity worth curating — the nine
+# districts are purely administrative and the multi-ethnic mix is national, not
+# regional. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: mus-official-language
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: mus-language-distribution
+  - languageCode: mfe
+    domain: locallySpoken
+    speakersShare: 0.865
+    sourceId: mus-language-distribution
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.041
+    sourceId: mus-language-distribution
+  - languageCode: bho
+    domain: locallySpoken
+    speakersShare: 0.053
+    sourceId: mus-language-distribution
+# English is the only de jure 'official' domain row: the Constitution (s.49) makes
+# English the official language of the Assembly, and English is the language of the
+# courts and administration, while allowing members to address the Chair in French.
+# Mauritian Creole (mfe, 'Morisyen') is the de facto national lingua franca, spoken
+# at home by ~86.5%, but it is NOT official. The locallySpoken shares are home-language
+# shares from the 2011 census-language estimate (Creole 86.5%, Bhojpuri 5.3%,
+# French 4.1%, English <1%). Many ancestral languages — Hindi (hin), Tamil (tam),
+# Urdu (urd), Telugu (tel), Marathi (mar), Gujarati (guj) — are spoken by their
+# communities and are culturally important but are not primary home languages at
+# day-to-day national scale, so this set keeps to the nationally dominant ones
+# (per the dataset's co-official-language narrowing rule, applied here to the
+# locallySpoken ancestral cluster).
+ethnicGroups:
+  # Grounded in the Statistics Mauritius 1972 census 'population by community'
+  # table — the LAST census to record community/ethnicity (the dataset notes no
+  # community data was collected in the 1983, 1990, 2000 or 2011 censuses).
+  # 1972 de-jure counts: Hindu 428,167; Muslim 137,081; Sino-Mauritian 24,084;
+  # 'General Population' (Creole, Franco-Mauritian and others) 236,867 — total
+  # 826,199. Indo-Mauritian = the Hindu+Muslim communities combined.
+  - group: Indo-Mauritian (Hindu and Muslim communities of Indian origin)
+    percent: 68.4
+    sourceId: mus-census1972-community
+  # 1972 grouped all non-Asian, non-Indo-Mauritian Christian/other residents under
+  # one 'General Population' bucket, so the Creole vs Franco-Mauritian split is an
+  # approximation of that shared figure (see mus-census1972-community note).
+  - group: Creole (African / mixed African-European descent)
+    percent: 27.0
+    sourceId: mus-census1972-community
+  - group: Sino-Mauritian (Chinese origin)
+    percent: 2.9
+    sourceId: mus-census1972-community
+  - group: Franco-Mauritian (French origin)
+    percent: 1.7
+    sourceId: mus-census1972-community
+timezones:
+  - name: Indian/Mauritius
+    standardUtcOffset: "UTC+4"
+    observesDst: false
+currency:
+  code: MUR
+  symbol: "Rs"
+  name: Mauritian rupee
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Mauritius is NOT an EU member or EEA state (a sovereign Commonwealth republic). EU directives - GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee - do NOT apply directly; national law governs."
+    sourceId: mus-commonwealth
+  - topic: "data protection"
+    description: "The Data Protection Act 2017 (Act No. 20 of 2017, in force 15 January 2018) governs the collection, use, storage and disclosure of personal data and establishes the independent Data Protection Office headed by a Commissioner. National law modelled on (but separate from) the EU GDPR."
+    sourceId: mus-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash - still common for small daily transactions and street/market vendors"
+    - "Debit/credit cards (Visa, Mastercard) - dominant at hotels, larger restaurants, retail and online"
+    - "Bank transfers and mobile fintech wallets (e.g. MCB Juice, Jubilee) and the local interbank rails"
+    - "Cross-border/offshore banking and card rails given Mauritius's financial-services hub status"
+  tipping:
+    expected: true
+    typicalAmount: "About 10% in sit-down restaurants when no service charge is added"
+    autoIncludedInBill: false
+    note: "A service charge is often already included in restaurant bills; where it is not, rounding up or ~10% is customary. Small gratuities for hotel porters and taxi drivers are appreciated. Cards are accepted widely in formal venues; cash is preferred at small vendors and markets."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Formal English in government and official/legal business; French in polite professional and social circles; warm and informal Mauritian Creole in everyday contact. Address people by title until a first-name basis is offered."
+  greetingNorms: "Friendly handshake with eye contact. Common greetings: 'Comment ça va?' (French) or 'Kouma to le?' (Creole). Warmth and politeness are expected."
+  meetingEtiquette: "Personal relationships and trust are built before business is discussed; punctuality matters in formal settings, though the pace can be relaxed socially. Decisions typically rest with senior leadership. English-French bilingual comfort is a professional asset."
+  topicsToAvoid:
+    - "Conflating Mauritian Creole with 'broken' or 'poor' French - it is a distinct, respected creole language"
+    - "Casual ethnic or religious stereotyping of the four main communities"
+    - "Reducing the island to beach tourism or just 'the dodo'"
+  giftGivingNotes: "Not expected at business meetings; a small thoughtful gesture is appreciated once a relationship forms. Gift-giving centres on festivals (Divali, Eid, Christmas, Chinese New Year) rather than business protocol."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: mus-official-language
+    name: "Constitution of Mauritius (1968, as amended to 2016)"
+    publisher: "Constitute Project (Comparative Constitutions Project)"
+    url: "https://www.constituteproject.org/constitution/Mauritius_2016"
+    year: 2016
+    accessedDate: "2026-09-18"
+    note: "Section 49 makes English the official language of the Assembly (a member may address the Chair in French); English is also the working language of the courts and administration. Basis for the eng official-domain row."
+  - id: mus-language-distribution
+    name: "Languages - Mauritius (2011 est.)"
+    publisher: "CIA World Factbook (2022 Archive)"
+    url: "https://www.cia.gov/the-world-factbook/about/archives/2022/field/languages"
+    year: 2011
+    accessedDate: "2026-09-18"
+    note: "Language-spoken-at-home shares (2011 est.): Creole (Morisyen/mfe) 86.5%, Bhojpuri (bho) 5.3%, French (fra) 4.1%, English <1% (the official language of the National Assembly), other/unspecified the remainder. Basis for the mfe/fra/bho/eng locallySpoken shares."
+  - id: mus-census1972-community
+    name: "Population enumerated at each census by community and sex, 1962-1972"
+    publisher: "Statistics Mauritius (opendata, Government of Mauritius)"
+    url: "https://data.govmu.org/dataset/population-enumerated-each-census-community-and-sex-1962-1972"
+    year: 1972
+    accessedDate: "2026-09-18"
+    note: "1972 census by community (last census to record it): Hindu 428,167; Muslim 137,081; Sino-Mauritian 24,084; 'General Population' 236,867 of 826,199. The dataset itself notes no community data was collected in the 1983, 1990, 2000 or 2011 censuses - ethnicity is no longer recorded. Indo-Mauritian 68.4% = Hindu+Muslim combined; Creole ~27% and Franco-Mauritian ~1.7% are approximations subdividing the 'General Population' bucket, which 1972 did not split."
+  - id: mus-timezone
+    name: "Time zones - zonenow.tab"
+    publisher: "IANA time zone database"
+    url: "https://data.iana.org/time-zones/tzdb/zonenow.tab"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Indian/Mauritius = UTC+04:00 year-round (Mauritius Time, MUT); no DST (Mauritius briefly used DST in 1982 and in 2008-2009, then abandoned it)."
+  - id: mus-currency
+    name: "Currency - Bank of Mauritius"
+    publisher: "Bank of Mauritius (BOM)"
+    url: "https://www.bom.mu/"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "Bank of Mauritius issues the Mauritian rupee (MUR, symbol Rs)."
+  - id: mus-commonwealth
+    name: "Mauritius - Commonwealth membership"
+    publisher: "Commonwealth Secretariat"
+    url: "https://thecommonwealth.org/our-member-countries/mauritius"
+    accessedDate: "2026-09-18"
+    note: "Confirms Mauritius is a sovereign Commonwealth republic (independent 1968). Supports the non-EU legal-status constraint."
+  - id: mus-data-protection
+    name: "The Data Protection Act 2017 (Act No. 20 of 2017)"
+    publisher: "Parliament of Mauritius / Data Protection Office"
+    url: "https://dataprotection.govmu.org/Documents/DPA_2017.pdf"
+    year: 2017
+    accessedDate: "2026-09-18"
+    note: "National law governing personal-data processing; establishes the Data Protection Office and Commissioner; in force 15 January 2018. Modelled on, but separate from, the EU GDPR."

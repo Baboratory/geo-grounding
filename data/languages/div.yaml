@@ -1,0 +1,11 @@
+code: div
+name:
+  eng: Dhivehi
+  local: ދިވެހި
+commonPhrases:
+  # Assalaamu alaikum (peace be upon you) is the standard greeting; the response
+  # is "Wa alaikum assalaam". Courtesy of the "Shukuriyaa (thank you)" and
+  # "Faharu-verin (goodbye)" transliterations commonly used by Dhivehi speakers.
+  hello: Assalaamu alaikum
+  thankYou: Shukuriyaa
+  goodbye: Faharu-verin

@@ -1,0 +1,160 @@
+alpha3: SYC
+alpha2: SC
+name:
+  eng: Seychelles
+  local:
+    - languageCode: crs
+      value: Repiblik Sesel
+    - languageCode: eng
+      value: Republic of Seychelles
+    - languageCode: fra
+      value: République des Seychelles
+flagEmoji: "🇸🇨"
+capital: Victoria
+isSovereign: true
+# Classified unitary-small: the Seychelles is a compact archipelago nation of under
+# ~120,000 people (2022 census population ~100,447 residents) with no meaningful
+# federal or regional administrative structure worth curating as real ISO 3166-2
+# regions beyond the 26 administrative districts. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: crs
+    domain: official
+    speakersShare: 1.0
+    sourceId: syc-constitution
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: syc-constitution
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: syc-constitution
+  - languageCode: crs
+    domain: locallySpoken
+    speakersShare: 0.918
+    sourceId: syc-demographics
+# Article 2 of the Constitution (1993, art. 2) declares "The national languages of
+# Seychelles shall be Creole, English and French" — all three are de jure national
+# languages that may be used for any purpose. Per schema convention each de jure
+# official language is listed at 1.0 (a legal-status flag, not a population split).
+# The crs locallySpoken share (~0.918) reflects that Seychellois Creole (Kreol
+# Seselwa) is the native language of the large majority of the population (91.8%
+# per Demographics of Seychelles); English, though official and the working
+# language of government and commerce, is natively spoken by a much smaller share.
+ethnicGroups:
+  # The Seychelles does not publish an official census breakdown by ethnicity; the
+  # figures below follow the widely cited ethnic composition on the national
+  # Wikipedia article (itself drawing on the mixed French/African/Malagasy/settler
+  # heritage). Seychellois of predominantly Creole descent form the large majority.
+  - group: "Seychellois Creoles — of African and French origins"
+    percent: 94.0
+    sourceId: syc-ethnic
+  - group: "Seychellois Creoles — of Malagasy origins"
+    percent: 3.0
+    sourceId: syc-ethnic
+  - group: "Other — French, Indian, Chinese, Arab and other settler communities"
+    percent: 3.0
+    sourceId: syc-ethnic
+timezones:
+  - name: Indian/Mahe
+    standardUtcOffset: "UTC+4"
+    observesDst: false
+# Seychelles Time is UTC+4 year-round (IANA zone Indian/Mahe); the country observes
+# NO daylight saving time (a near-equatorial nation) and has kept UTC+4 continuously
+# since 1906.
+currency:
+  code: SCR
+  symbol: ₨
+  name: Seychellois rupee (roupi)
+legalConstraints:
+  - topic: "not an EU member"
+    description: "The Seychelles is a sovereign republic (Republic of Seychelles; independence from the United Kingdom on 29 June 1976) and is NOT an EU member or EEA state. EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: syc-sovereignty
+  - topic: "data protection"
+    description: "A GDPR-style Data Protection Act, 2023 is now in force in the Seychelles; it repeals the Data Protection Act, 2003, which had been enacted (Act 9 of 2003) but never brought into force/implemented in practice. The 2023 Act requires explicit consent, grants data-subject rights (access, rectification, erasure), imposes controller/processor obligations (including DPO appointment for some organisations) and regulates cross-border transfers — broadly aligned with the EU GDPR."
+    sourceId: syc-dpa-2023
+paymentCulture:
+  popularMethods:
+    - "Cash (Seychellois rupee, SCR) — widely used for small purchases, markets, taxis and local shops"
+    - "International credit/debit cards (Visa, Mastercard) — standard at hotels, resorts, restaurants and larger shops; contactless widely accepted"
+    - "Mobile banking and SMS/direct bank transfers (MCB, Absa/Barclays, Nouvobanq, Seychelles Commercial Bank)"
+    - "Seychelles Creole (crs) bank transfers and the national e-payments infrastructure for bills"
+  tipping:
+    expected: false
+    typicalAmount: "Restaurants ~5-10% where no service charge is added; hotel staff ~SCR 20-50 (€2-4) for housekeeping/porters; tour guides ~SCR 50-100 for a full-day trip"
+    autoIncludedInBill: true
+    note: "Most hotels and restaurants in the Seychelles already add a 5-10% service charge to the bill, so tipping is not obligatory. An extra 5-10% cash tip is warmly received for exceptional service in restaurants; small cash tips (SCR 10-50) are appreciated for porters, housekeeping and boat crews; tour guides and excursion leaders are commonly tipped for good service; taxi fares are usually just rounded up. Tip in local currency (SCR) when possible."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Interaction is friendly, warm and relaxed, but polite and respectful. Seychellois society is informal and egalitarian in tone; first names are commonly used once acquainted. Modest dress is expected outside beach settings, and respect for elders and for religious occasions matters."
+  greetingNorms: "A warm smile with a handshake is the standard greeting, often accompanied by 'Bonzour' (Seychellois Creole for 'Good day') or a friendly inquiry after one's wellbeing. Between friends, greeting may be warmer still. Use standard forms of address until invited to use first names."
+  meetingEtiquette: "Business is relationship-driven and typically unhurried; a friendly, relaxed start to a meeting is valued over rushing to business. Punctuality is appreciated though a slightly relaxed pace is common. Hospitality (tea, coffee or refreshments) often precedes the substance of a meeting. English is commonly used in business."
+  topicsToAvoid:
+    - "Religion and criticism of the predominantly Roman Catholic faith"
+    - "Politically sensitive or partisan local politics"
+    - "Comparing the Seychelles negatively with other Indian Ocean destinations"
+    - "Beach/leisure expectations that ignore modest local dress norms off the beach"
+  giftGivingNotes: "Gift-giving is not a strong formal expectation in business settings in the Seychelles; a thoughtful token is appreciated when a relationship has formed but is by no means required. Modest, non-extravagant gifts are appropriate, and general courteous host-response norms apply."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: syc-constitution
+    name: "Constitution of the Republic of Seychelles (1993, rev. 2011) — Article 2, National languages"
+    publisher: "Constitute Project (Comparative Constitutions Project)"
+    url: "https://www.constituteproject.org/constitution/Seychelles_2011"
+    year: 1993
+    accessedDate: "2026-09-18"
+    note: "Article 2: 'The national languages of Seychelles shall be Creole, English and French', and a person may use any of them for any purpose. Basis for the three crs/eng/fra languageUsage[].domain=official rows (each 1.0)."
+  - id: syc-demographics
+    name: "Demographics of Seychelles"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Demographics_of_Seychelles"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "Confirms Seychellois Creole (Kreol Seselwa) is the native language of 91.8% of the population, with English used in government and commerce and French retaining official status. Basis for the crs locallySpoken (~0.918) row."
+  - id: syc-ethnic
+    name: "Seychelles (ethnic composition)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Seychelles"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "Records the widely cited ethnic composition: 97% Seychellois Creoles (94% of predominantly African and French origins, 3% of Malagasy origins) and ~3% other communities (French, Indian, Chinese, Arab). The Seychelles publishes no official census ethnicity breakdown; these are the accepted reference figures. Basis for ethnicGroups rows."
+  - id: syc-religion-2022
+    name: "Religion in Seychelles (2022 Population and Housing Census)"
+    publisher: "Wikipedia, citing Seychelles National Bureau of Statistics Census 2022"
+    url: "https://en.wikipedia.org/wiki/Religion_in_Seychelles"
+    year: 2022
+    accessedDate: "2026-09-18"
+    note: "2022 census religious affiliation: Roman Catholic 61.3%, other Christian 13.6%, not stated 12.2%, Hindu 5.4%, Muslim 2.4%, other 5.1%. Basis for the religions rows in the WHOLE region file."
+  - id: syc-timezone
+    name: "Time Zones in Seychelles (Indian/Mahe)"
+    publisher: "timeanddate.com / IANA time zone database"
+    url: "https://www.timeanddate.com/time/zone/seychelles"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Seychelles Time (SCT) = UTC+4 year-round, IANA zone Indian/Mahe. The country does not observe daylight saving time."
+  - id: syc-currency
+    name: "Notes and Coins — Seychelles rupee (SCR)"
+    publisher: "Central Bank of Seychelles"
+    url: "https://www.cbs.sc/Currency/NotesAndCoins.html"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "The Seychelles rupee (SCR) is the sole legal tender; divided into 100 cents, issued by the Central Bank of Seychelles in four note denominations (25, 50, 100, 500) and seven coin denominations. Basis for the currency entry."
+  - id: syc-sovereignty
+    name: "Constitution of the Republic of Seychelles — Article 1 ('Seychelles is a sovereign, democratic Republic')"
+    publisher: "Refworld (UNHCR) / National Legislative Bodies"
+    url: "https://www.refworld.org/legal/legislation/natlegbod/1993/en/13725"
+    year: 1993
+    accessedDate: "2026-09-18"
+    note: "Confirms the Seychelles is a sovereign republic (independent from the UK on 29 June 1976) that is NOT an EU or EEA member state, so EU directives do not apply directly. Basis for the 'not an EU member' legal constraint."
+  - id: syc-dpa-2023
+    name: "Data Protection Law Now In Force In Seychelles"
+    publisher: "Mondaq / Appleby (Guernsey)"
+    url: "https://www.mondaq.com/privacy-protection/1444998/data-protection-law-now-in-force-in-seychelles"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "The new Data Protection Act, 2023 (in force since December 2023) repeals the never-implemented Data Protection Act, 2003, and introduces GDPR-style requirements (explicit consent, data-subject rights, controller/processor obligations, DPO appointment, cross-border transfer safeguards). Basis for the 'data protection' legal constraint."

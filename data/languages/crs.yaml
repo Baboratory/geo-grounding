@@ -1,0 +1,10 @@
+code: crs
+name:
+  eng: Seselwa Creole French
+  local: Kreol Seselwa
+commonPhrases:
+  # Kreol Seselwa (Seychellois Creole) is a French-based creole; greetings follow
+  # French-derived forms. 'Bonzour' = good day, 'Bonswar' = good evening.
+  hello: Bonzour
+  thankYou: Mersi
+  goodbye: Orevwar

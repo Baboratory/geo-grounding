@@ -87,7 +87,16 @@ author, so it still counts as your contribution.
   reliable academic, institutional, or secondary source is fine when it's
   genuinely the best one available, as long as `source.note` says so
   plainly (see `CHE`'s payment-method-share source, a university payment
-  study, because no equivalent central-bank breakdown was found).
+  study, because no equivalent central-bank breakdown was found). A
+  `note` that says "estimate", "approximate", or cites Wikipedia is
+  **not** a violation of this rule — it's the disclosure the rule asks
+  for, as long as it names roughly where the figure comes from. Don't
+  confuse this with the next rule (no source at all); the two are
+  different situations. What *is* a real problem is a `publisher` that
+  doesn't match its `url` (e.g. `publisher` names a statistics office
+  but `url` is actually a Wikipedia page) — that's misleading
+  provenance, and the fix is correcting the `publisher`/`url` pair, not
+  removing the disclosed estimate.
   `paymentCulture` and `communicationStyle` are the deliberate exception —
   they're modeled as qualitative/customary, not statistical, so no
   `sourceId` is required (cite one informally in prose if you have a good

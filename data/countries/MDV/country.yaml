@@ -1,0 +1,153 @@
+alpha3: MDV
+alpha2: MV
+name:
+  eng: Maldives
+  local:
+    - languageCode: div
+      value: ދިވެހިރާއްޖެ
+flagEmoji: "🇲🇻"
+capital: Malé
+isSovereign: true
+# Classified unitary-small: the Maldives has a small population (~515,000 in the
+# 2022 census, a few hundred thousand citizens), no designated federal or
+# regional administrative structure worth curating as real ISO 3166-2 regions
+# beyond the 20 atolls + Malé city, and nothing like the 20-25M+ population and
+# strong regional identities that mark a 'unitary-large' country. One synthetic
+# WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: div
+    domain: official
+    speakersShare: 1.0
+    sourceId: mdv-official-language
+  - languageCode: div
+    domain: locallySpoken
+    speakersShare: 0.75
+    sourceId: mdv-census-2022
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.4
+    sourceId: mdv-official-language
+# Dhivehi (ISO 639-3 'div') is the sole official language. English has no
+# official status but is widely spoken in government, tourism and business — the
+# CIA World Factbook notes it is 'spoken by most government officials'. The div
+# locallySpoken share (~0.75) reflects the share of 2022-census residents who are
+# Maldivian citizens (native Dhivehi speakers); the eng foreign share (~0.4) is an
+# ESTIMATE — no official English-proficiency census exists.
+ethnicGroups:
+  # 2022 Population and Housing Census (Maldives Bureau of Statistics) — national
+  # counts vs. foreign residents enumerating on census night (13 Sep 2022).
+  - group: Maldivian (Dhivehin) — indigenous people of mixed Sinhalese, Dravidian, Arab, Australasian and African descent
+    percent: 74.3
+    sourceId: mdv-census-2022
+  - group: Foreign residents (largely Bangladeshi, Indian, Sri Lankan and Nepali migrant workers)
+    percent: 25.7
+    sourceId: mdv-census-2022
+# 382,639 Maldivian citizens and 132,493 foreign residents were enumerated (total
+# 515,132). The Maldives does not publish a detailed ethnic-origin breakdown for
+# citizens — the population is culturally homogeneous (UNESCO MAB: 'the original
+# population came from a varied ethnic mix of Indo-Aryan, Dravidian, Sinhalese and
+# Arab origin'). These two rows capture the national vs. expatriate composition.
+timezones:
+  - name: Indian/Maldives
+    standardUtcOffset: "UTC+5"
+    observesDst: false
+# Maldives Time (MVT) is UTC+5 year-round; the country observes NO daylight saving
+# time (a near-equatorial nation within ~8 degrees of the equator).
+currency:
+  code: MVR
+  symbol: Rf
+  name: Maldivian rufiyaa
+legalConstraints:
+  - topic: "not an EU member"
+    description: "The Maldives is a sovereign republic (independence from the UK on 26 July 1965; republic declared 11 November 1968) and is NOT an EU member or EEA state. EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: mdv-sovereignty
+  - topic: "data protection"
+    description: "The Maldives Personal Data Protection Act (in force) governs the collection, use and disclosure of personal data, setting out data-subject rights and controller/processor obligations. It is a principles-based law, not a comprehensive GDPR-style regime; a more detailed Personal Data Protection Bill was submitted to the People's Majlis in 2026 and had not been enacted as of writing."
+    sourceId: mdv-dp-act
+paymentCulture:
+  popularMethods:
+    - "Cash (Maldivian rufiyaa, MVR) — still common on local islands, small shops and teashops; US dollars are widely accepted, especially at resorts"
+    - "International credit/debit cards (Visa, Mastercard) — standard at resorts, hotels, larger restaurants and online bookings"
+    - "Bank transfers and direct deposit (Bank of Maldives and other commercial banks)"
+    - "Mobile/digital wallets — mPay (Bank of Maldives) and Ooredoo/Dhiraagu mobile money — growing for local payments"
+    - "Contactless card payments broadly available at tourist-facing venues"
+  tipping:
+    expected: true
+    typicalAmount: "Restaurants ~10% where no service charge applies; resorts add a statutory 10% service charge to the bill"
+    autoIncludedInBill: true
+    note: "By law tourism establishments (resorts, guesthouses, restaurants) add a 10% service charge distributed among staff; extra tips are optional but appreciated in resort/hospitality settings (housekeeping, porters, dive and excursion guides). On local islands restaurant tipping is less common, though rounding up for taxi drivers is a kind gesture. Tip in local currency and offer/give with the right hand."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Interaction is polite, courteous and modest; conservative dress is expected in public on local islands and in Malé. Respect for elders and Islamic norms matters; the left hand is avoided for handshakes, passing items and exchanging business cards."
+  greetingNorms: "The standard greeting is the Islamic 'Assalaamu alaikum' (peace be upon you), answered 'Wa alaikum assalaam'. Among friends a light right-handed handshake is common; handshakes between men and women may be less expected and should not be initiated blindly."
+  meetingEtiquette: "Business is relationship-driven and built on personal trust; a courteous, unhurried tone is valued. Punctuality is appreciated though a relaxed pace is common. Hospitality — tea and conversation — often precedes the substance of a meeting, and prayer breaks may frame the day. Modest, formal dress is expected."
+  topicsToAvoid:
+    - "Criticising Islam, the state religion, or the government"
+    - "Alcohol and drugs — illegal on local islands, resort-only"
+    - "Public display of affection and immodest dress on inhabited local islands"
+    - "Politically sensitive history and partisan politics"
+    - "Using the left hand to offer or receive anything"
+  giftGivingNotes: "Gifts are appreciated and should be given and received with the right hand; avoid alcohol and non-halal items. Gift-giving is most customary around Eid and festivals, and as a warm gesture once a relationship has formed, rather than as a transactional part of a business meeting."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: mdv-official-language
+    name: "Maldives — People and Society (Languages, Religions, Ethnic groups)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/maldives/"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "Confirms Dhivehi is the sole official language (closely related to Sinhala, script derived from Arabic) and that English, while not official, is spoken by most government officials and widely in tourism/business. Basis for the div official (1.0) row and the eng foreign share."
+  - id: mdv-div-iso
+    name: "ISO 639-3 code 'div' — Dhivehi / Mahl"
+    publisher: "SIL International (iso639-3.sil.org)"
+    url: "https://iso639-3.sil.org/code/div"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "Verifies ISO 639-3 'div' = Dhivehi (Divehi, Maldivian), ISO 639-1 'dv', status Active/Living. Supports the divehi languageCode used across this entry."
+  - id: mdv-census-2022
+    name: "Maldives Population and Housing Census 2022 — Census Results Summary"
+    publisher: "Maldives Bureau of Statistics"
+    url: "https://statisticsmaldives.gov.mv/census-2022-results-summary"
+    year: 2022
+    accessedDate: "2026-09-18"
+    note: "2022 census: 515,132 residents enumerated (13 Sep 2022), of whom 382,639 are Maldivian citizens (74.3%) and 132,493 foreign residents (25.7%). Basis for the ethnicGroups rows (national vs. expatriate composition) and the div locallySpoken share."
+  - id: mdv-timezone
+    name: "Time zone in Maldives (Indian/Maldives)"
+    publisher: "timeanddate.com / IANA time zone database"
+    url: "https://www.timeanddate.com/time/zone/maldives"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Maldives Time (Vent) = UTC+5 year-round. The Maldives does not observe daylight saving time."
+  - id: mdv-currency
+    name: "Maldivian rufiyaa"
+    publisher: "Maldives Monetary Authority (via Wikipedia / ISO 4217)"
+    url: "https://en.wikipedia.org/wiki/Maldivian_rufiyaa"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "Confirms the Maldivian rufiyaa (MVR, symbol Rf) as the national currency, issued by the Maldives Monetary Authority; US dollars are widely accepted at resorts and tourist venues."
+  - id: mdv-sovereignty
+    name: "About the Ministry — Independence and Republic"
+    publisher: "Ministry of Foreign Affairs, Republic of Maldives"
+    url: "https://foreign.gov.mv/index.php/en/ministry/about-ministry"
+    year: 1968
+    accessedDate: "2026-09-18"
+    note: "Confirms the Maldives gained full independence from the United Kingdom on 26 July 1965 and proclaimed the republic on 11 November 1968 — a sovereign state that is NOT an EU/EEA member. Basis for the 'not an EU member' legal constraint."
+  - id: mdv-dp-act
+    name: "Personal Data Protection Act, Maldives"
+    publisher: "Government of the Republic of the Maldives"
+    url: "https://www.mifps.com.mv/wp-content/uploads/2025/11/personal-data-protection-act-maldives.pdf"
+    year: 2018
+    accessedDate: "2026-09-18"
+    note: "The in-force Maldives personal-data law governing collection, use and disclosure of personal data, with data-subject rights and controller/processor obligations. Basis for the 'data protection' legal constraint. It is a principles-based law, not a GDPR-style statute."
+  - id: mdv-dp-bill
+    name: "Data Protection Bill introduced to regulate use of personal information"
+    publisher: "MV+ (Maldives news)"
+    url: "https://www.plus.mv/english/data-protection-bill-introduced-to-regulate-use-of-personal-information/"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Reports the government's comprehensive Personal Data Protection Bill submitted to the People's Majlis in 2026 (proposing a Privacy Commissioner and GDPR-style obligations); not yet enacted as of writing, which is why the legal-constraint text notes only the existing principles-based Act."

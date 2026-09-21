@@ -13,6 +13,11 @@ Wording drifts out of sync sometimes; when it does, this is the order to trust, 
 5. `README.md` — a user-facing summary; if it ever describes the model differently from this file, this file wins.
 6. `llms.txt` — pure navigation for an AI agent orienting itself, not an independent source of rules.
 
+[`AUDITING.md`](AUDITING.md) sits alongside this list rather than in it —
+it's a guide for *checking* already-merged data against rules 1-4, not a
+source of rules itself. If an audit finding can't be traced to one of the
+four above, it isn't a rule violation.
+
 Not worth repeating this list elsewhere — one clear place beats a stale copy in five files.
 
 ## Core design decisions
@@ -107,6 +112,8 @@ All statistical fields (`ethnicGroups[].percent`, `languageUsage[].speakersShare
 Every `sources[]` entry has: `id`, `name` (the specific document/table's title), `publisher` (the authoritative body), `url`, optional `year`/`accessedDate`, and a **required `note`** — stating precisely *what* was taken from this source (e.g. "ethnicGroups percentages; lit locallySpoken share"). `sources[].id` must also be unique within the file — a duplicate would make `sourceId` references ambiguous about which entry they mean.
 
 **Sources should be authoritative, not necessarily the single most "official" document that exists.** A primary official source (a national statistics office, a government ministry, a central bank, the law's own text) is preferred, but a reliable academic, institutional, or secondary source is acceptable when it's genuinely the best one available — as long as `source.note` says so plainly. This isn't a loosening of the bar; it's naming what the actual practice already was: `CHE`'s payment-method-share figures come from an academic Swiss Payment Monitor study (no equivalent central-bank breakdown was found), and `LTU`'s foreign-language figures are cited via press coverage of an official statistics release (the office's own page for that table wasn't directly fetchable) — both disclosed exactly this way in their `note`, not presented as something they aren't.
+
+**A `note` containing "estimate", "approximate", "FLAGGED", or a Wikipedia URL is not itself a violation — read it before flagging it as one.** This has tripped up automated review more than once, so it's worth stating bluntly: a disclosed estimate from a real institution (a Eurobarometer survey, the CIA World Factbook, a national statistics office's own composite figure) is the accepted pattern above, not a rule break, *as long as the `note` says plainly that it's an estimate and roughly where it comes from*. Citing Wikipedia specifically is fine on the same terms — nothing in this file, `CONTRIBUTING.md`, the schema, or `scripts/validate.py` singles it out as banned, and plenty of already-accepted country files cite it as a secondary rendering of a real underlying figure. The next rule (no source at all) is a different, narrower case — don't conflate "the best available source says this is approximate" with "no source exists." What *is* a real problem, and should be flagged: a `publisher` field that names one body while the `url` actually points somewhere else entirely (e.g. `publisher: "National Statistics Office"` with a Wikipedia `url`) — that's misleading provenance, not disclosed estimation, and the fix is to correct the `publisher`/`url` pair to match, not to strip the source.
 
 **When no authoritative source exists at all, the field is left out, not guessed.** Checking the example data turned up a few such cases:
 - **France (`FRA`) has no `ethnicGroups` or region-level `religions` fields** — a 1978 law and the Constitutional Council prohibit the state from collecting ethnicity/religion statistics (the INSEE census doesn't ask these questions). The reason is written as a YAML comment in the file.
