@@ -1,0 +1,125 @@
+code: TR-34
+name:
+  eng: Istanbul Province (Marmara)
+  local:
+    - languageCode: tur
+      value: İstanbul
+climates:
+  - koppenCode: Csa
+    description: "Hot-summer Mediterranean with a humid maritime influence: warm humid summers, mild wet winters; heavy urban heat-island effect."
+landmarks:
+  - name: "Historic Areas of Istanbul (Hagia Sophia, Topkapı Palace, Sultanahmet/Blue Mosque)"
+    description: "UNESCO World Heritage Site (1985) of Byzantine and Ottoman imperial monuments on the historic peninsula."
+    unescoWorldHeritage: true
+  - name: "Grand Bazaar (Kapalıçarşı)"
+    description: "One of the world's oldest and largest covered markets, a maze of shops and caravanserais."
+    unescoWorldHeritage: false
+  - name: Galata Tower
+    description: "Medieval Genoese tower with panoramic views over the Golden Horn and Bosphorus."
+    unescoWorldHeritage: false
+  - name: Dolmabahçe Palace
+    description: "Opulent 19th-century Ottoman palace on the Bosphorus."
+    unescoWorldHeritage: false
+culturalTraits:
+  - "Cosmopolitan business and cultural capital straddling Europe and Asia across the Bosphorus"
+  - "Imperial legacy as capital of Byzantium and the Ottoman Empire"
+  - "Vibrant ferry and Bosphorus-crossing daily life"
+  - "Dense, fast-paced metropolitan culture with deep historical layers"
+  - "Major center for arts, universities and global finance"
+prideOf:
+  - "Istanbul's skyline of minarets, domes and Byzantine heritage"
+  - "Being a bridge between Europe and Asia in culture, trade and history"
+  - "The Bosphorus and its transpontine way of life"
+  - "World-class museums, universities and culinary scene"
+animals:
+  popular:
+    - Stray cats (an integral part of Istanbul street life)
+    - Street dogs (managed and protected)
+    - Seagulls and other Bosphorus birds
+  unique:
+    - Bosphorus (spotted) dolphin
+    - "Yalı martı (gull, common along the strait)"
+industries:
+  - Financial services and banking
+  - Tourism and hospitality
+  - Manufacturing and logistics/port trade
+  - Textiles and apparel
+  - Technology, media and creative industries
+  - Retail and real estate
+sports:
+  - "Football (Galatasaray, Fenerbahçe, Beşiktaş)"
+  - Basketball
+  - "Motor racing (Istanbul Park circuit)"
+  - Sailing and Bosphorus water sports
+religions:
+  - name: "Muslim (predominantly Sunni)"
+    percent: 92.0
+    sourceId: tur-uscirf
+  - name: "Alevi Muslim"
+    percent: 5.0
+    sourceId: tur-uscirf
+  - name: "Christian (incl. Greek Orthodox, Armenian Apostolic and Syriac communities)"
+    percent: 2.0
+    sourceId: tur-unesco
+  - name: "Jewish (historic Sephardic community)"
+    percent: 0.2
+    sourceId: tur-unesco
+entertainment:
+  - season: summer
+    items:
+      - "Bosphorus ferry cruises and seaside promenades"
+      - "Outdoor concerts and film festivals"
+      - "Nightlife in Beyoğlu, Kadıköy and the Bosphorus villages"
+      - "Rooftop and waterside tea gardens"
+  - season: winter
+    items:
+      - "Museums and galas (Topkapı, Hagia Sophia, Istanbul Modern)"
+      - "Cinema and theater (Yeşilçam legacy, film festivals)"
+      - "Indoor shopping and the Grand Bazaar"
+  - season: allYear
+    items:
+      - "Coffeehouses and Turkish coffee culture"
+      - "Hammam (traditional Turkish bath)"
+      - "Street food (simit, balık-ekmek, midye dolma)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - Döner
+      - "Balık-ekmek (grilled fish sandwich)"
+      - "Midye dolma (stuffed mussels)"
+      - Simit
+      - "Lokma (fried dough dessert)"
+  - season: summer
+    items:
+      - "Fresh Bosphorus/sea fish and meze"
+      - "Kumpir (loaded baked potato, Ortaköy)"
+      - "Cold meze and beyaz peynir"
+      - "Çay in waterfront tea gardens"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays: []
+  notes: "Metropolitan 09:00-18:00 rhythm; heavy traffic makes long commutes the norm; many firms keep a 1-hour lunch break; weekends (Sat-Sun) are the weekly rest, Friday is a normal working day."
+  typicalWorkHours: "09:00-18:00 Mon-Fri."
+sources:
+  - id: tur-uscirf
+    name: "USCIRF 2023 Annual Report: Turkey"
+    publisher: "U.S. Commission on International Religious Freedom"
+    url: "https://uscirf.gov/sites/default/files/2023-05/Turkey.pdf"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Religious-affiliation estimates for Istanbul province (Sunni ~92%, Alevi ~5%). Estimates only."
+  - id: tur-unesco
+    name: "UNESCO World Heritage List: Türkiye"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Historic Areas of Istanbul (1985); also the reference for the small Christian and Jewish community presence in Istanbul."

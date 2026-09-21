@@ -1,0 +1,116 @@
+code: TR-06
+name:
+  eng: Ankara Province (Central Anatolia)
+  local:
+    - languageCode: tur
+      value: Ankara
+climates:
+  - koppenCode: Dsb
+    description: "Dry-summer continental steppe on the Central Anatolian plateau: hot dry summers, very cold and snowy winters, large diurnal temperature swings."
+landmarks:
+  - name: "Anıtkabir (Atatürk's Mausoleum)"
+    description: "The monumental mausoleum of Atatürk and the national shrine of modern Turkey."
+    unescoWorldHeritage: false
+  - name: Museum of Anatolian Civilizations
+    description: "A celebrated museum of Anatolian archaeology spanning prehistory through the Hittites and beyond."
+    unescoWorldHeritage: false
+  - name: "Gordion (Gordium)"
+    description: "Ancient Phrygian capital at Yassıhöyük, near Polatlı, inscribed as a UNESCO World Heritage Site in 2023; site of the legendary Gordian Knot."
+    unescoWorldHeritage: true
+  - name: Kocatepe Mosque
+    description: "One of Turkey's largest 20th-century mosques dominating the Ankara skyline."
+    unescoWorldHeritage: false
+culturalTraits:
+  - "Seat of government and the state bureaucracy"
+  - "Turkey's political and administrative center, more reserved and orderly than Istanbul"
+  - "Bureaucratic, universities- and defense-cluster-driven economy"
+  - "Purpose-built capital city with wide boulevards and Atatürk-era civic architecture"
+  - "Friendly but formal Central Anatolian business culture"
+prideOf:
+  - "Being the capital and seat of the Turkish Republic"
+  - "Anıtkabir and the Atatürk legacy"
+  - "The Museum of Anatolian Civilizations and the Hittite heritage"
+  - "Modern, planned architecture and a strong university life"
+animals:
+  popular:
+    - Ankara cat
+    - "Angora goat (Ankara keçisi)"
+    - Kangal dog (Anatolian shepherd)
+  unique:
+    - Ankara cat
+    - "Angora rabbit and goat breeds"
+industries:
+  - "Public administration and government services"
+  - "Defense and aerospace (TAI, ASELSAN, Roketsan, Havelsan headquarters)"
+  - "Universities and R&D"
+  - Manufacturing
+  - "Agriculture (wheat, sugar beet) in the province"
+  - Construction and trade
+sports:
+  - "Football (Ankaragücü, Gençlerbirliği)"
+  - Basketball
+  - Volleyball
+  - Ice skating/hockey (BelPa ice rink)
+religions:
+  - name: "Muslim (predominantly Sunni)"
+    percent: 94.0
+    sourceId: tur-uscirf
+  - name: "Alevi Muslim"
+    percent: 4.0
+    sourceId: tur-uscirf
+  - name: "Christian and other minorities"
+    percent: 0.5
+    sourceId: tur-uscirf
+entertainment:
+  - season: summer
+    items:
+      - "Parks and picnic grounds (Gençlik Parkı, botanical garden)"
+      - "Outdoor cafés and spring-water teahouses"
+      - "Day trips to the Anatolian plateau"
+  - season: winter
+    items:
+      - "Indoor cultural life (opera, State theaters, museums)"
+      - "Ice skating at the BelPa rink"
+      - "Snowy Anatolian countryside"
+  - season: allYear
+    items:
+      - "Museum of Anatolian Civilizations"
+      - "Coffeehouses and the capital's café culture"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ankara tava (lamb and rice)"
+      - "Sütlaç (rice pudding)"
+      - "Beyti sarma"
+      - Döner
+      - "Kurukahve (roasted coffee)"
+  - season: summer
+    items:
+      - "Cold meze"
+      - "Kavurma and grilled lamb"
+      - "Ayran and fresh fruits from the plateau"
+  - season: winter
+    items:
+      - "Ankara kazı (roast goose)"
+      - Hearty bean and soupy stews
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays: []
+  notes: "Government-office-centered hours 08:30-17:30; ministry and public institutions dominate; Friday is a normal working day and the weekly rest is Sunday (many also close Saturday afternoon)."
+  typicalWorkHours: "08:30-17:30 Mon-Fri (government); 09:00-18:00 (private)."
+sources:
+  - id: tur-uscirf
+    name: "USCIRF 2023 Annual Report: Turkey"
+    publisher: "U.S. Commission on International Religious Freedom"
+    url: "https://uscirf.gov/sites/default/files/2023-05/Turkey.pdf"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Religious-affiliation estimates for Ankara province (Sunni ~94%, Alevi ~4%). Estimates only."

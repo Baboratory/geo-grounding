@@ -1,0 +1,117 @@
+code: TR-27
+name:
+  eng: Gaziantep Province (Southeastern Anatolia)
+  local:
+    - languageCode: tur
+      value: Gaziantep
+climates:
+  - koppenCode: Csa
+    description: "Hot-summer Mediterranean with a semi-arid (steppe) tendency: very hot dry summers, cool winters, low and irregular rainfall on the plateau near the Syrian border."
+landmarks:
+  - name: Zeugma Mosaic Museum
+    description: "One of the world's largest and finest mosaic museums, home to the famed 'Gypsy Girl' (Çingene Kızı) and Roman floor mosaics."
+    unescoWorldHeritage: false
+  - name: "Gaziantep Castle (Gaziantep Kalesi)"
+    description: "A hilltop fortress symbolizing the city and the heroic 'Gazi' (veteran) defense in the War of Independence."
+    unescoWorldHeritage: false
+  - name: "Bakırcılar Çarşısı (Coppersmiths Bazaar)"
+    description: "Centuries-old bazaar where coppersmiths hand-chase trays, pots and coffee equipment."
+    unescoWorldHeritage: false
+  - name: "Rumkale and the Euphrates"
+    description: "A dramatic cliffside fortress above the Euphrates, with the partly submerged village of Halfeti nearby."
+    unescoWorldHeritage: false
+culturalTraits:
+  - "UNESCO Creative City of Gastronomy (2015), Turkey's culinary-capital hub"
+  - "Deep hospitality and generosity, with tea and baklava offered to guests"
+  - "Strong family, tribal and conservative social bonds"
+  - "Pistachio orchards, copper craft and centuries-old bazaar commerce at a crossroads between Anatolia and the Levant"
+  - "War of Independence 'Gazi' (veteran) identity and modern industrial export dynamism"
+prideOf:
+  - "Being the gastronomy capital of Turkey (UNESCO City of Gastronomy)"
+  - "Antep baklava and the pistachio harvest"
+  - "The Zeugma mosaics and ancient heritage"
+  - "Its heroic 'Gazi' War of Independence legacy"
+animals:
+  popular:
+    - "Kangal and shepherd dogs"
+    - Goats (pastoral)
+    - Pigeons (raised for racing, a local tradition)
+  unique:
+    - "Antep (Anatolian) honeybee"
+    - "Çağlayan gazelle (local wildlife)"
+industries:
+  - "Pistachio (Antep fıstığı) and food processing"
+  - "Baklava and confectionery production (PDO Antep baklavası)"
+  - "Textiles, carpets and ready-made garments"
+  - "Furniture and copper/metalwork crafts"
+  - "Machinery and packaging"
+  - "Regional export/trade and logistics hub"
+  - "Agri-processing (olives, grapes, red pepper/isot)"
+sports:
+  - "Football (Gaziantep FK)"
+  - Basketball
+  - "Wrestling and traditional sports"
+religions:
+  - name: "Muslim (predominantly Sunni, incl. Gaziantep's Arab and Kurdish communities)"
+    percent: 97.0
+    sourceId: tur-uscirf
+  - name: "Alevi Muslim"
+    percent: 2.0
+    sourceId: tur-uscirf
+  - name: "Christian (small historical Armenian and Syriac communities)"
+    percent: 0.5
+    sourceId: tur-govuk-kurds
+entertainment:
+  - season: summer
+    items:
+      - "Pistachio harvest festivals"
+      - "Evening promenades and bazaar life to escape the heat"
+      - "Day trips to Halfeti and the Euphrates"
+  - season: allYear
+    items:
+      - "The Zeugma Mosaic Museum"
+      - "Baklava and coffee culture (menengiç coffee)"
+      - "Coppersmith bazaar (Bakırcılar Çarşısı)"
+      - "Family-oriented restaurant and steakhouse culture"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Antep baklavası (pistachio baklava)"
+      - "Katmer (pistachio pastry)"
+      - "Beyran soup"
+      - "Lahmacun and kebabs (Ali Nazik, kuzu şiş)"
+      - "Yuvalama and şiveydiz stews"
+  - season: summer
+    items:
+      - "Fresh Antep pistachios straight from the orchard"
+      - "Isot (dried red pepper) dishes and köfte"
+      - "Fire-roasted kebabs over flatbread"
+      - "Menengiç coffee, ice cream and fresh grapes"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays: []
+  notes: "Industrial and export city running 09:00-18:00, with hospitality-heavy meetings where guests are served tea and baklava; Friday is a normal working day; factories and bazaars also work Saturdays with Sunday the weekly rest."
+  typicalWorkHours: "09:00-18:00 Mon-Fri (some industry Saturday morning)."
+sources:
+  - id: tur-uscirf
+    name: "USCIRF 2023 Annual Report: Turkey"
+    publisher: "U.S. Commission on International Religious Freedom"
+    url: "https://uscirf.gov/sites/default/files/2023-05/Turkey.pdf"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Religious-affiliation estimates for Gaziantep province (Sunni ~97%, Alevi ~2%). Estimates only."
+  - id: tur-govuk-kurds
+    name: "Country Policy and Information Note: Kurds, Turkey (2023)"
+    publisher: "UK Home Office / DFAT Country Information"
+    url: "https://www.gov.uk/government/publications/turkey-country-policy-and-information-notes/country-policy-and-information-note-kurds-turkey-october-2023-accessible"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Reference for the small historical Christian (Armenian and Syriac) community presence in the Gaziantep/Southeastern region."

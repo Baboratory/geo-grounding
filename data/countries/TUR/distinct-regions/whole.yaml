@@ -1,0 +1,159 @@
+code: WHOLE
+name:
+  eng: Türkiye
+  local:
+    - languageCode: tur
+      value: Türkiye
+climates:
+  - koppenCode: Csa
+    description: "Hot-summer Mediterranean along the Marmara, Aegean and Mediterranean coasts: hot dry summers, mild wet winters."
+  - koppenCode: Cfb
+    description: "Oceanic/'Black Sea' climate along the northern Black Sea coast: temperate, humid and rainy year-round."
+  - koppenCode: Dsb
+    description: "Dry-summer continental on the Central Anatolian plateau: hot dry summers with very cold, snowy winters."
+  - koppenCode: BSh
+    description: "Hot semi-arid steppe on the Southeastern Anatolian plains: very hot dry summers, cool winters."
+  - koppenCode: Dsa
+    description: "Harsh continental climate in Eastern Anatolia: long cold winters, short warm summers, low precipitation."
+landmarks:
+  - name: "Historic Areas of Istanbul (Hagia Sophia, Topkapı Palace, Sultanahmet)"
+    description: "UNESCO World Heritage Site (1985) encompassing the Byzantine and Ottoman imperial monuments of the historic capital."
+    unescoWorldHeritage: true
+  - name: "Göreme National Park and the Rock Sites of Cappadocia"
+    description: "UNESCO mixed natural/cultural site (1985) of volcanic 'fairy chimney' valleys and rock-cut Byzantine churches, in Nevşehir."
+    unescoWorldHeritage: true
+  - name: Ephesus
+    description: "UNESCO World Heritage Site (2015) in İzmir province: a great Hellenistic-Roman harbor city with the Library of Celsus and the Temple of Artemis."
+    unescoWorldHeritage: true
+  - name: Göbekli Tepe
+    description: "UNESCO site (2018) near Şanlıurfa: a Pre-Pottery Neolithic ritual complex with T-shaped megalithic pillars, among the oldest known monumental structures."
+    unescoWorldHeritage: true
+  - name: Mount Nemrut
+    description: "UNESCO site (1987) in Adıyaman with colossal late-Hellenistic Commagene kingdom statues and stelae."
+    unescoWorldHeritage: true
+  - name: Pamukkale-Hierapolis
+    description: "UNESCO site (1988) of white travertine terraces alongside the Greco-Roman city of Hierapolis in Denizli."
+    unescoWorldHeritage: true
+  - name: Anıtkabir
+    description: "The monumental mausoleum of Mustafa Kemal Atatürk in Ankara, a major national landmark and museum."
+    unescoWorldHeritage: false
+culturalTraits:
+  - "Hospitality ('misafirperverlik') is a core value; guests are plied with tea, coffee and food"
+  - "Tea (çay) culture is central to daily social and business life, often served in tulip-shaped glasses"
+  - "Strong family and community ties; elders are deeply respected and given deference"
+  - "A secular republic with an Ottoman-Balkan-Anatolian heritage blending East and West"
+  - "Alevi-Sunni religious diversity coexists within a predominantly Muslim society"
+  - "Rich bazaar and artisan traditions: carpets, copperware, ceramics (Iznik) and baklava"
+prideOf:
+  - "Mustafa Kemal Atatürk and the founding of the modern Turkish Republic (1923)"
+  - "Ottoman imperial and Seljuk heritage, including Istanbul's Byzantine-Ottoman monuments"
+  - "Turkish cuisine, gazetted globally (UNESCO gastronomy city of Gaziantep, Turkish-coffee heritage)"
+  - "Historic achievements in science, medicine and craftsmanship"
+  - "The Turkish flag and national anthem, and national sporting success"
+  - "A civilization spanning millennia, from Göbekli Tepe and Troy to the present"
+animals:
+  popular:
+    - "Anatolian Shepherd / Kangal dog"
+    - "Van cat (Van Kedisi)"
+    - Ankara cat
+    - "Angora goat (Ankara keçisi)"
+  unique:
+    - "Kangal (livestock guardian dog)"
+    - "Cappadocian horse (landrace)"
+    - Van cat
+    - Anatolian cattle breeds
+industries:
+  - Automotive manufacturing and exports
+  - Textiles and ready-made garments
+  - "Tourism (coast, Istanbul, Cappadocia, cultural sites)"
+  - "Agriculture and food processing (hazelnuts, pistachios, figs, wheat, tobacco)"
+  - "Iron & steel and petrochemicals"
+  - "Defense and aerospace (TAI, ASELSAN, Roketsan)"
+  - Construction and home appliances
+  - Electronics, machinery and chemicals
+sports:
+  - "Association football (Super Lig, Galatasaray/Fenerbahçe/Beşiktaş)"
+  - "Traditional oil wrestling (yağlı güreş)"
+  - Basketball
+  - Volleyball
+  - "Motorsport (Formula 1 Turkish GP)"
+  - "Wrestling and weightlifting (Olympic strength sports)"
+  - "Nationally, archery and equestrian tradition"
+religions:
+  - name: "Muslim (predominantly Sunni, Hanafi)"
+    percent: 99.0
+    sourceId: tur-uscirf
+  - name: "Alevi Muslim"
+    percent: 12.0
+    sourceId: tur-uscirf
+  - name: "Christian (Orthodox, Armenian, Syriac, Protestant, Catholic)"
+    percent: 0.2
+    sourceId: tur-uscirf
+  - name: Jewish
+    percent: 0.03
+    sourceId: tur-uscirf
+entertainment:
+  - season: summer
+    items:
+      - "Beach and resort life along the Mediterranean and Aegean coasts"
+      - "Open-air concerts and music festivals"
+      - "Seaside promenades and waterfront (yalı) culture"
+      - "Nightlife in Istanbul, Bodrum and coastal towns"
+      - "Rafting and nature tours (e.g. Köprülü, Black Sea)"
+      - "Outdoor tea gardens and café terraces"
+  - season: allYear
+    items:
+      - "Coffeehouses and Turkish coffee culture"
+      - "Traditional hammam (Turkish bath)"
+      - "Tea gardens (çay bahçesi)"
+      - "Theater and cinema (Yeşilçam legacy)"
+      - "Football matches and sports viewing"
+      - "Bazaars, shopping malls and street food"
+      - "Family gatherings and home hospitality"
+traditionalDishes:
+  - season: allYear
+    items:
+      - Döner
+      - "Kebap (adana, şiş, iskender)"
+      - Lahmacun
+      - "Pide (Turkish flatbread)"
+      - "Meze (cold and hot starters)"
+      - Baklava
+      - "Turkish tea (çay) and Turkish coffee"
+      - Simit
+  - season: summer
+    items:
+      - "Zeytinyağlı olive-oil meze dishes"
+      - "Cold soups (e.g. cacık)"
+      - "Sea-fish and grilled seafood"
+      - Gözleme
+      - "Kumpir (loaded baked potato)"
+      - "Fresh fruit, melons and ayran/yoghurt drinks"
+  - season: winter
+    items:
+      - "Hearty soups (ezogelin, mercimek)"
+      - "Kuru fasulye (stewed beans with rice)"
+      - "Mantı (Turkish dumplings)"
+      - "Muhlama/kuymak (Black Sea cheese dish)"
+      - "Roasted chestnuts (kestane) and boza"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays: []
+  notes: "The conventional work week is Monday-Friday. Weekly rest is a minimum of 24 uninterrupted hours under Labor Law Art. 45-46, typically taken on Sunday (many businesses also close or shorten hours Saturday afternoon). Friday is a normal working day. Government offices commonly run 08:30-17:30; private offices 09:00-18:00 with a lunch break. The month of Ramadan and end-of-year holidays shift schedules."
+  typicalWorkHours: "09:00-18:00 Mon-Fri (government 08:30-17:30)."
+sources:
+  - id: tur-uscirf
+    name: "USCIRF 2023 Annual Report: Turkey"
+    publisher: "U.S. Commission on International Religious Freedom"
+    url: "https://uscirf.gov/sites/default/files/2023-05/Turkey.pdf"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Government claims ~99% Muslim; ~78% Hanafi Sunni; Alevi estimated 10-25M (largest religious minority). Estimates only - Turkey publishes no official religious breakdown."

@@ -1,0 +1,8 @@
+code: heb
+name:
+  eng: Hebrew
+  local: עברית
+commonPhrases:
+  hello: "שלום (Shalom)"
+  thankYou: "תודה (Toda)"
+  goodbye: "להתראות (Lehitraot)"
