@@ -1,0 +1,89 @@
+code: NA-CENTRAL
+name:
+  eng: Central Highlands (Herero Heartland & Windhoek)
+  local:
+    - languageCode: eng
+      value: Central Namibia
+# Covers the central plateau around Windhoek: Herero pastoral heartland, the
+# historic Afrikaner/German settler belt and the seat of the national capital
+# and commerce.
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (steppe) — the central highland plateau around Windhoek, ~250-600mm of seasonal rain."
+  - koppenCode: Cwa
+    description: "Temperate highland on the highest plateau areas, cooler at altitude."
+landmarks:
+  - name: Windhoek
+    description: "The capital, with its German-colonial architecture (Christuskirche, Tintenpalast)."
+  - name: Khomas Hochland & the central plateau
+    description: "The granite highland country surrounding the capital."
+  - name: Okahandja
+    description: "Historic Herero and colonial town north of Windhoek."
+  - name: Mount Etjo and the Waterberg Plateau
+    description: "Sandstone plateau and wildlife reserve northeast of the capital."
+culturalTraits:
+  - "Herero pastoral heritage and cattle identity"
+  - "Windhoek as the national political, business and mining-services hub"
+  - "The historic German-colonial and Afrikaans settler architectural legacy"
+  - "Seat of the independence and liberation-era institutions"
+prideOf:
+  - "Windhoek's elegant, orderly colonial-modern capital"
+  - "Herero cultural resilience (incl. the Victorian-style ohorokova dresses)"
+  - "The central plateau's cattle country and national commerce"
+animals:
+  popular:
+    - "African elephant (Waterberg)"
+    - "Black rhinoceros (Waterberg)"
+    - "Giraffe"
+  unique:
+    - "Sable antelope (Waterberg)"
+industries:
+  - "Mining services and the Windhoek financial/business district"
+  - "Commercial cattle ranching (central plateau)"
+  - "Government and administration"
+  - "Brewing and light manufacturing (Windhoek)"
+sports:
+  - "Football (soccer)"
+  - "Rugby union"
+  - "Cricket"
+  - "Golf"
+entertainment:
+  - season: allYear
+    items:
+      - "Windhoek nightlife, restaurants and cultural venues"
+  - season: dry
+    items:
+      - "Dry-season (May-Oct) outdoor leisure, braai and beer-festival culture"
+  - season: wet
+    items:
+      - "Rainy-season (Nov-Apr) green highland scenery and indoor events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Potjiekos (slow-cast-iron beef stew)"
+      - "Biltong and droëwors (dried cured meats)"
+  - season: dry
+    items:
+      - "Kapana (open-fire grilled beef) and braai season dishes"
+  - season: wet
+    items:
+      - "Fresh stews and greens of the rainy season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern Western business and casual wear in Windhoek"
+      - "Herero women's long Victorian-style dresses (ohorokova) and headscarves on cultural occasions"
+  - season: dry
+    items:
+      - "Warm layers and blankets for the cool highland nights (Jun-Aug)"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Banks Mon-Fri 09:00-15:30 (Sat 09:00-11:00); offices ~08:00-17:00 Mon-Fri; retail Mon-Sat."
+  lunchBreakTiming: "Restaurant lunch service 12:00-14:00; dinner 18:00-22:00."
+  notes: "Cards and bank transfers widely accepted in Windhoek; the financial heart of the country."

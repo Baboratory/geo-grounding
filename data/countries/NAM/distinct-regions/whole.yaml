@@ -1,0 +1,138 @@
+code: WHOLE
+name:
+  eng: Namibia
+  local:
+    - languageCode: eng
+      value: Republic of Namibia
+    - languageCode: deu
+      value: Republik Namibia
+# Generic country-wide fallback content for Namibia (unitary-large). Used as
+# the fallback when IP geolocation does not resolve to one of the curated
+# regions (NA-NORTH / NA-CENTRAL / NA-SOUTH / NA-ZAMBEZI).
+climates:
+  - koppenCode: BWh
+    description: "Hot desert — the Namib coastal desert and much of the south/interior; almost nil rainfall, Benguela-cooled fog on the coast."
+  - koppenCode: BSh
+    description: "Hot semi-arid (steppe) — most of the interior plateau incl. Windhoek, ~250-600mm."
+  - koppenCode: Cwa
+    description: "Humid subtropical highland — cooler central plateau elevations."
+  - koppenCode: Aw
+    description: "Tropical savanna — the wetter Zambezi (Caprivi) strip in the far northeast."
+landmarks:
+  - name: Namib-Naukluft Park & Sossusvlei
+    description: "Iconic red dunes (some >300m) in one of Africa's largest conservation areas."
+  - name: Etosha National Park
+    description: "A flagship 22,270km² game reserve, key custodian of black rhino."
+  - name: Fish River Canyon
+    description: "One of the world's largest canyons in the far south."
+  - name: Cape Cross Seal Reserve
+    description: "One of the world's largest Cape fur-seal colonies."
+  - name: Kolmanskop & the Skeleton Coast
+    description: "Abandoned diamond-rush ghost town and the shipwreck-strewn coast."
+culturalTraits:
+  - "Deep respect for elders and communal decision-making"
+  - "Livestock (cattle) as wealth and identity, especially among Herero and Ovambo"
+  - "Oral tradition and praise poetry; Herero women's long dresses as post-colonial identity"
+  - "Strong Christian (esp. Lutheran) religiosity woven with ancestral practice"
+  - "Multilingual accommodation — routine code-switching across Oshiwambo, Afrikaans, Khoekhoegowab and English"
+prideOf:
+  - "Independence and liberation heritage (21 March 1990)"
+  - "One of the world's darkest, most pristine night skies"
+  - "World-class self-drive safari and conservation (Etosha, black rhino)"
+  - "A unique German-colonial + African architectural and cultural legacy"
+animals:
+  popular:
+    - "African elephant"
+    - "Lion"
+    - "Black rhinoceros"
+    - "Cheetah (one of the largest wild populations)"
+    - "Giraffe"
+  unique:
+    - "Desert-adapted elephant and lion (Damaraland/Kaokoveld)"
+    - "Desert 'Little 5' species (Namaqua chameleon, sidewinder, Namib gecko)"
+    - "Oribi and other desert-endemic species"
+industries:
+  - "Mining (diamonds, uranium at Rössing, gold, base metals)"
+  - "Fishing and fish processing (Walvis Bay)"
+  - "Agriculture and livestock (cattle, karakul; ~70% of the population depends on agriculture)"
+  - "Tourism and safari"
+  - "Wholesale/retail and financial services"
+sports:
+  - "Football (soccer)"
+  - "Rugby union"
+  - "Cricket"
+  - "Boxing and athletics"
+religions:
+  - name: Christianity (predominantly Lutheran, also Catholic and independent/Zionist)
+    percent: 97.5
+    sourceId: wfb-religions
+  - name: Unaffiliated / no religion
+    percent: 1.9
+    sourceId: wfb-religions
+  - name: Other (incl. Islam, Baha'i, Judaism)
+    percent: 0.6
+    sourceId: wfb-religions
+entertainment:
+  - season: allYear
+    items:
+      - "Community, church and cultural events"
+  - season: wet
+    items:
+      - "Rainy-season festivals and cultural/heritage events; green-season birdwatching (Nov-Apr)"
+  - season: dry
+    items:
+      - "Peak tourism: outdoor safaris, dune climbing, Fish River Canyon hiking, stargazing; wine/beer festivals (May-Oct)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Biltong and droëwors (dried cured meats)"
+      - "Potjiekos (slow-cast-iron stew)"
+  - season: wet
+    items:
+      - "Oshifima (mahangu/millet porridge) with fresh stews and wild greens (omboga)"
+      - "Marathon/Owambo chicken stewed in tomato and marula oil"
+  - season: dry
+    items:
+      - "Kapana (open-fire grilled beef)"
+      - "Mopane worms (omagungu) and oshikundu (fermented millet drink)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light cotton/linen for the hot months; modest coverage culturally expected (cover knees/shoulders outside resorts)"
+      - "Herero women's long Victorian-style dresses and headscarves on ceremonial occasions"
+  - season: dry
+    items:
+      - "Warm layers and blankets for the cool, dry winter nights (Jun-Aug)"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Banks Mon-Fri 09:00-15:30 (Sat 09:00-11:00); offices ~08:00-17:00 Mon-Fri; shops Mon-Sat."
+  lunchBreakTiming: "Restaurant lunch 12:00-14:00; dinner 18:00-22:00."
+  notes: "Cards and bank transfers widely accepted in towns; cash common; the South African Rand is also accepted. VAT 15% is included in prices."
+sources:
+  - id: wfb-religions
+    name: "CIA World Factbook — Namibia (Religions, archived snapshot)"
+    publisher: "US CIA World Factbook"
+    url: "https://worldfactbookarchive.org/archive/field/NA/Religions"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "Christian ~97.5%, other ~0.6%, unaffiliated ~1.9% (2020 est.); predominantly Lutheran."
+  - id: etosha
+    name: "Etosha National Park"
+    publisher: "Namibian Parks / Ministry of Environment"
+    url: "https://www.etoshanationalpark.org/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Flagstone 22,270km² game reserve and black-rhino custodian."
+  - id: cuisine
+    name: "Namibian food and cuisine guides"
+    publisher: "Namibian culinary/travel guides"
+    url: "https://www.namibia-adventures.com/namibian-food/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Dishes: oshifima, kapana, biltong, potjiekos, mopane worms, oshikundu."

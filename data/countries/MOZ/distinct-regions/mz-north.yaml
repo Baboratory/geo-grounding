@@ -1,0 +1,82 @@
+code: MZ-NORTH
+name:
+  eng: Northern Mozambique (Norte)
+  local:
+    - languageCode: por
+      value: Norte de Moçambique
+# Covers Cabo Delgado, Nampula and Niassa provinces (Rovuma-Zambezi belt):
+# the Makhuwa-majority coastal zone with a deep Islamic, Indian-Ocean and
+# Swahili-contact identity distinct from the rest of the country.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — hot year-round with a rainy season Nov-Apr and a cooler dry season May-Oct."
+  - koppenCode: Am
+    description: "Tropical monsoon — along the humid northeast littoral (Nampula/Quelimane coast)."
+landmarks:
+  - name: Island of Mozambique (Ilha de Moçambique)
+    description: "UNESCO World Heritage fortified Swahili-Portuguese colonial settlement that gave the country its name."
+    unescoWorldHeritage: true
+  - name: Quirimbas National Park & Archipelago (Ibo Island)
+    description: "Northern coral archipelago with Swahili heritage and coastal wildlife."
+  - name: Niassa National Reserve
+    description: "One of Africa's largest protected wilderness areas in the far north."
+culturalTraits:
+  - "Makhuwa ethnolinguistic identity and the northern coastal Swahili/Muslim heritage"
+  - "Strong Islamic influence along the coast (Nampula, Cabo Delgado)"
+  - "Capulana wrap-cloth culture and matrilineal Makhuwa social organization"
+  - "Dense forest and island coastlines of the far north"
+prideOf:
+  - "The historic Island of Mozambique (UNESCO) — birthplace of the country's name"
+  - "The Quirimbas and Niassa wilderness"
+  - "Makhuwa cultural resilience and coastal trade heritage"
+animals:
+  popular:
+    - "African elephant (Niassa)"
+    - "Lion"
+    - "Sea turtles and coral reef life"
+  unique:
+    - "Dugong (coastal northern Mozambique)"
+    - "Giant oceanic manta rays"
+industries:
+  - "Agriculture (cashew, cassava, cotton)"
+  - "Fisheries and coastal trade"
+  - "Natural gas / LNG (Rovuma Basin, Coral Sul FLNG)"
+  - "Tourism (Quirimbas, Ilha de Moçambique)"
+sports:
+  - "Football (soccer)"
+  - "Athletics"
+  - "Basketball"
+entertainment:
+  - season: allYear
+    items:
+      - "Coastal village festivals and music"
+  - season: dry
+    items:
+      - "Peak beach and dive season (May-Oct)"
+  - season: wet
+    items:
+      - "Rainy-season cultural and religious festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Matapa (cassava-leaf and peanut stew)"
+      - "Fresh grilled seafood and matapa with shrimp/crab"
+  - season: dry
+    items:
+      - "Dried-fish dishes with xima"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Capulana wrap cloth for women"
+      - "Longer modest covered wraps in the Muslim coastal communities"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government/offices roughly 07:30-16:00 Mon-Fri; retail often Mon-Sat."
+  lunchBreakTiming: "A midday break is common (12:00-13:00)."
+  notes: "Cash and mobile money dominate; Maputo's larger payment infrastructure is less present in the north."
