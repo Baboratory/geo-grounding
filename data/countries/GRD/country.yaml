@@ -1,0 +1,177 @@
+alpha3: GRD
+alpha2: GD
+name:
+  eng: Grenada
+  local:
+    - languageCode: eng
+      value: Grenada
+flagEmoji: "🇬🇩"
+capital: St. George's
+isSovereign: true
+# Classified unitary-small: Grenada meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~113,000 (2020 est.) — far below the 20-25M threshold.
+# (2) English is the sole official language; Grenadian Creole English ('gcl') is
+# the near-universal de facto vernacular and native language of nearly all
+# inhabitants, while Grenadian Creole French ('Patois'/'Patwa', ISO 639-3 'acf')
+# survives as an endangered heritage language. Neither creole is official. (3) No
+# widely recognized cultural-historical federal/multi-region identity — the six
+# parishes are small administrative units with no strong independent regional
+# identities worth curating. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: grd-official-language
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.97
+    sourceId: grd-language-estimate
+  - languageCode: gcl
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: grd-language-gcl
+  - languageCode: acf
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: grd-language-acf
+# English is the sole official language (the CIA World Factbook lists 'English
+# (official), French patois'; the 1973 Constitution has no explicit
+# official-language clause, so its status rests on English being the language of
+# government, the courts and education). Grenadian Creole English (ISO 639-3
+# 'gcl') is the near-universal de facto vernacular and native language of nearly
+# all inhabitants. Grenadian Creole French ('Patois'/'Patwa'), a variety of
+# Lesser Antillean Creole French covered by ISO 639-3 'acf', is spoken by a
+# small, mostly elderly bilingual minority (~2,300 speakers, 2004) and is
+# Endangered; here it is 'locallySpoken' only, never official. Shares are
+# ESTIMATES — no official language-proficiency census exists.
+ethnicGroups:
+  # Central Statistical Office of Grenada 2011 census composition (as reported
+  # by the CIA World Factbook).
+  - group: African descent
+    percent: 82.4
+    sourceId: grd-census-2011
+  - group: Mixed
+    percent: 13.3
+    sourceId: grd-census-2011
+  - group: East Indian
+    percent: 2.2
+    sourceId: grd-census-2011
+  - group: Other
+    percent: 1.3
+    sourceId: grd-census-2011
+  - group: Unspecified
+    percent: 0.9
+    sourceId: grd-census-2011
+# Figures are 2011 census self-identification rolled up by the CIA. A 2020 US
+# State Dept report cites the same 2011 government estimate. ~125 people
+# (0.12%) self-identified as indigenous (Carib/Arawak) in the 2001 census.
+timezones:
+  - name: America/Grenada
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+# America/Grenada is the IANA legacy zone for the island; it is grouped under
+# America/Puerto_Rico {AST = Atlantic Standard Time, UTC-4} in zone1970.tab and
+# observes no daylight saving time.
+currency:
+  code: XCD
+  symbol: "EC$"
+  name: East Caribbean dollar
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Grenada is NOT an EU member or EEA state (a sovereign Commonwealth realm and member of CARICOM/OECS). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year consumer guarantee — do NOT apply directly; national and OECS/ECCU law governs."
+    sourceId: grd-commonwealth
+  - topic: "data protection"
+    description: "The Data Protection Act, No. 1 of 2023 (GDPA) governs the processing of personal data, sets out data-protection principles (a general/consent principle, notice-and-choice, disclosure, security, retention), data-subject rights and establishes a three-member Information Commission as regulator. Passed and assented in May 2023 but not yet in force (awaits a ministerial commencement order). National law, not GDPR."
+    sourceId: grd-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash in East Caribbean dollars (XCD) — essential for buses, local markets, rum shops and the smaller islands of Carriacou and Petite Martinique"
+    - "Debit/credit cards (Visa, Mastercard) — standard at hotels, larger restaurants, supermarkets and tourist businesses"
+    - "Mobile/digital wallets and online banking are growing, especially for younger users and e-commerce"
+    - "US dollars are widely accepted at hotels and large restaurants, though change is usually given in XCD"
+    - "ATMs dispense XCD; foreign-transaction and withdrawal fees are common"
+  tipping:
+    expected: true
+    typicalAmount: "10-15% in restaurants when no service charge has already been added"
+    autoIncludedInBill: true
+    note: "Restaurants and bars commonly add a 10% (sometimes up to 15-18%) service charge automatically — check the bill to avoid double-tipping. If no service charge is included, 10-15% is customary for good service; taxi drivers readily accept 10-15% or a rounded-up fare; hotel porters and housekeeping receive a few dollars. Cash is preferred for tips and at markets/small vendors."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Formal Standard English with titles is the norm in business and government; daily and social interaction is warm, relaxed and informal, and first names build quickly. English is the working language of business."
+  greetingNorms: "A friendly, warm greeting is standard. A handshake is common in formal and social settings alike, usually with a smile and 'Good morning/afternoon.' Small talk before getting down to business is appreciated."
+  meetingEtiquette: "Personal connection and relationship-building are valued before business; meetings should be arranged in advance and formal dress is expected. Decisions often rest with senior leadership. A relaxed 'island time' pace can apply socially, but formal business meetings run reasonably punctually."
+  topicsToAvoid:
+    - "Confusing Grenadian Creole English or Creole French ('Patois') with 'broken English' — they are distinct creole languages of deep cultural value"
+    - "Reducing Grenada to beach/spice tourism imagery or casual ethnic/class stereotyping"
+    - "Dismissive remarks about Carnival / Mas traditions, Rastafari or African and Indo-Caribbean heritage"
+    - "Overly blunt public criticism delivered without warmth"
+  giftGivingNotes: "Not required at business meetings; a small thoughtful gesture is welcome once a relationship forms. Gift-giving centers on Christmas, Carnival and family occasions rather than business protocol."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: grd-official-language
+    name: "Grenada — People and Society: Languages (English official; French patois)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/grenada/"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Lists 'English (official), French patois'. Basis for the eng official row (English as the sole official language) and the presence of Grenadian Creole French. The 1973 Constitution has no explicit official-language clause."
+  - id: grd-language-estimate
+    name: "Grenadian Creole — English- and French-based creoles of Grenada"
+    publisher: "Wikipedia (Grenadian Creole, Grenadian Creole English)"
+    url: "https://en.wikipedia.org/wiki/Grenadian_Creole"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Documents the two-language situation: Grenadian Creole English (the de facto vernacular) and Grenadian Creole French ('Patois'/'Patwa'). eng locallySpoken share (0.97) is an ESTIMATE — no official language-proficiency census exists."
+  - id: grd-language-gcl
+    name: "ISO 639-3 code gcl — Grenadian Creole English"
+    publisher: "SIL International / ISO 639-3 Registration Authority"
+    url: "https://iso639-3.sil.org/code/gcl"
+    year: 2001
+    accessedDate: "2026-09-18"
+    note: "Confirms ISO 639-3 'gcl' = Grenadian Creole English, a Southern-branch English-based Eastern Atlantic creole, the native language of nearly all inhabitants (~89,000 speakers, 2001; ~85-95% of the ~113,000 population). Basis for the gcl locallySpoken row (share estimated)."
+  - id: grd-language-acf
+    name: "Ethnologue — acf (Lesser Antillean French Creole)"
+    publisher: "SIL International / Ethnologue"
+    url: "https://www.ethnologue.com/language/acf"
+    year: 2004
+    accessedDate: "2026-09-18"
+    note: "Lists Lesser Antillean French Creole as a stable indigenous language of Saint Lucia, Dominica, Grenada and Martinique. Grenadian Creole French ('French Patois') has no separate ISO 639-3 code and is covered by 'acf'; ~2,300 speakers (2004), Endangered. Basis for the acf locallySpoken row."
+  - id: grd-census-2011
+    name: "Grenada 2011 Population and Housing Census — ethnic composition"
+    publisher: "Central Statistical Office of Grenada (via CIA World Factbook)"
+    url: "https://www.cia.gov/the-world-factbook/countries/grenada/"
+    year: 2011
+    accessedDate: "2026-09-18"
+    note: "Ethnic composition (2011): African descent 82.4%, mixed 13.3%, East Indian 2.2%, other 1.3%, unspecified 0.9%. Self-identification."
+  - id: grd-timezone
+    name: "IANA time zone database — zone1970.tab (GD under America/Puerto_Rico, AST)"
+    publisher: "IANA time zone database"
+    url: "https://data.iana.org/time-zones/tzdb/zone1970.tab"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Groups Grenada (GD) under America/Puerto_Rico {AST = Atlantic Standard Time, UTC-4}; the legacy zone America/Grenada is a backward alias. No DST is observed — AST is UTC-4 year-round."
+  - id: grd-currency
+    name: "The EC Dollar (currency)"
+    publisher: "Eastern Caribbean Central Bank (ECCB)"
+    url: "https://www.eccb-centralbank.org/currency"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "East Caribbean dollar (XCD), symbol EC$ (also '$'), issued by the ECCB for the 8-member Eastern Caribbean Currency Union; pegged to the US dollar at EC$2.70 = US$1. Grenada is an ECCU member."
+  - id: grd-commonwealth
+    name: "Grenada — Commonwealth member country"
+    publisher: "The Commonwealth Secretariat"
+    url: "https://thecommonwealth.org/our-member-countries/grenada"
+    accessedDate: "2026-09-18"
+    note: "Confirms Grenada is a sovereign Commonwealth realm and NOT an EU/EEA member — supports the non-EU legal-status constraint."
+  - id: grd-data-protection
+    name: "Data Protection Act, No. 1 of 2023 (Data Protection Bill, 2023)"
+    publisher: "Parliament of Grenada / The University of the West Indies Data Protection Office"
+    url: "https://grenadaparliament.gd/wp-content/uploads/2023/03/Data-Protection-Bill-2023-8-3-23-with-HOR-amendments-Final.pdf"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "The GDPA establishes data-protection principles, data-subject rights and the Information Commission. Passed and assented 9 May 2023; not yet in force (awaits a ministerial commencement order). National law, not GDPR."

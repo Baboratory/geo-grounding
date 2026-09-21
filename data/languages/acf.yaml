@@ -1,0 +1,10 @@
+code: acf
+name:
+  eng: Saint Lucian Creole French (Lesser Antillean Creole; Grenadian Creole French)
+  local: Kweyol
+commonPhrases:
+  # Kweyol is a French-based Antillean creole; the Grenadian variety is also
+  # called Patois/Patwa. Greetings follow French-derived forms.
+  hello: Bonjou
+  thankYou: Mesi
+  goodbye: Awe

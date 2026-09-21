@@ -110,7 +110,7 @@ sources:
     note: "Art. 1 defines Cuba as an indivisible, unitary, sovereign socialist State; Art. 2 names Spanish the official language and Havana the capital; Art. 9 the socialist economic system is irrevocable. Basis for the spa official row and the 'socialist unitary state' legal constraint."
   - id: cub-census-2012
     name: "2012 Cuba population census — race or colour self-identification"
-    publisher: "Oficina Nacional de Estadística e Información (ONEI)"
+    publisher: "Wikipedia (secondary source; primary: Oficina Nacional de Estadística e Información (ONEI), 2012 census)"
     url: "https://en.wikipedia.org/wiki/2012_Cuba_census"
     year: 2012
     accessedDate: "2026-09-18"
