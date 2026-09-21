@@ -1,0 +1,149 @@
+code: WHOLE
+name:
+  eng: Sri Lanka (country-wide)
+  local:
+    - languageCode: sin
+      value: ශ්‍රී ලංකාව
+    - languageCode: tam
+      value: இலங்கை
+# Generic country-wide fallback content for Sri Lanka (unitary-large with a
+# curated subset of provinces). National-level coverage that is not specific to
+# any one province or the user's detected subdivision.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate along the south-west coast (Wet Zone)."
+  - koppenCode: Am
+    description: "Tropical monsoon climate on parts of the coast and south-east."
+  - koppenCode: Aw
+    description: "Tropical savanna climate across most of the interior and the Dry Zone."
+  - koppenCode: Cfb
+    description: "Subtropical highland climate in the Central Highlands (Kandy, Nuwara Eliya), with cool, misty conditions."
+landmarks:
+  - name: Ancient City of Polonnaruwa
+    description: "Second ancient capital of Sri Lanka, with 11th-century monuments including the Gal Vihara rock sculptures."
+    unescoWorldHeritage: true
+  - name: Ancient City of Sigiriya
+    description: "Lion Rock, a 5th-century royal fortress-palace complex atop a granite column with famous frescoes."
+    unescoWorldHeritage: true
+  - name: Sacred City of Anuradhapura
+    description: "First great Sinhalese capital (4th century BCE), a living Buddhist pilgrimage city and site of the sacred Bodhi Tree."
+    unescoWorldHeritage: true
+  - name: Old Town of Galle and its Fortifications
+    description: "A well-preserved colonial (Portuguese then Dutch) fortified trading town on the south coast."
+    unescoWorldHeritage: true
+  - name: Sacred City of Kandy
+    description: "The last royal capital of the island's Sinhala kingdom and repository of the relic of the tooth of the Buddha."
+    unescoWorldHeritage: true
+  - name: Golden Temple of Dambulla
+    description: "A cave-temple complex with over 150 Buddhist murals and statues (Rajagiri/Spice Garden)."
+    unescoWorldHeritage: true
+  - name: Sinharaja Forest Reserve
+    description: "The island's last viable primary tropical rainforest, a UNESCO natural World Heritage site and biodiversity hotspot."
+    unescoWorldHeritage: true
+  - name: Central Highlands of Sri Lanka
+    description: "UNESCO natural site covering the Knuckles Range and the Horton Plains and Peak Wilderness sanctuaries."
+    unescoWorldHeritage: true
+# Sri Lanka's eight UNESCO World Heritage properties: Polonnaruwa, Sigiriya and
+# Anuradhapura (1982), Galle and Kandy and Sinharaja (1988), Dambulla (1991),
+# and the Central Highlands (2010).
+culturalTraits:
+  - "An island civilization of over 2,500 years of recorded Buddhist and Hindu history"
+  - "A national identity shared between the Sinhala and Tamil languages and cultures"
+  - "Famous for Ceylon tea, cricket, spices and warm hospitality ('Ayubowan' greeting)"
+prideOf:
+  - "Ancient Buddhist heritage and the world's oldest sacred Bodhi tree"
+  - "Ceylon tea and a strong cricket tradition"
+  - "The peaceful end of three decades of civil conflict in 2009"
+animals:
+  popular:
+    - "Asian elephant"
+    - "Leopard"
+    - "Purple-faced langur"
+    - "Peacock"
+  unique:
+    - "Sri Lankan leopard (endemic subspecies)"
+    - "Elephant at Pinnawala orphanage"
+industries:
+  - "Tea (Ceylon) and spice cultivation"
+  - "Textiles and apparel (leading export)"
+  - "Gemstones and mining"
+  - "Tourism"
+  - "IT and offshore services (rising)"
+sports:
+  - "Cricket — by far the most popular sport"
+  - "Volleyball"
+  - "Rugby union"
+  - "Athletics"
+religions:
+  - name: Buddhist (Theravada)
+    percent: 70.2
+    sourceId: census-lka-2012
+  - name: Hindu
+    percent: 12.6
+    sourceId: census-lka-2012
+  - name: Muslim (Sunni)
+    percent: 9.7
+    sourceId: census-lka-2012
+  - name: Christian (mostly Roman Catholic)
+    percent: 7.4
+    sourceId: census-lka-2012
+entertainment:
+  - season: allYear
+    items:
+      - "Cricket matches and club culture"
+      - "Temple pilgrimages and puja ceremonies"
+  - season: dry
+    items:
+      - "Beach tourism along the south and east coasts"
+      - "Perahera festivals and night processions"
+  - season: wet
+    items:
+      - "Festive gatherings and indoor cultural events during monsoon months"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Rice and curry with hoppers (appa kade)"
+      - "Kottu roti (chopped flatbread stir-fry)"
+      - "String hoppers (idiyappam) with coconut sambol"
+      - "Pol sambol (spicy coconut relish)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Sarong (for men) and the Sinhalese osariya/colourful sari (for women)"
+      - "Business attire in Colombo's corporate and hospitality sectors"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 6, 7, 8, 9]
+  - season: wet
+    months: [4, 5, 10, 11]
+# Sri Lanka's twin-monsoon calendar: the Yala SW monsoon (May-Sep) and the Maha
+# NE monsoon (Nov-Feb) bring rains to opposite sides. For a neutral country-wide
+# partition: the main wet periods fall roughly in April-May and October-November
+# (inter-monsoonal), with the two monsoon seasons raining on different coasts.
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Generally 08:00/08:30-16:30/17:00, Monday-Friday; some offices and shops open Saturday mornings."
+  lunchBreakTiming: "A lunch break around 12:30-13:30 is typical; tea breaks in morning and afternoon are embedded in office culture."
+  notableShutdownPeriods:
+    - period: "Sinhala & Tamil New Year (mid-April, Aluth Avurudu)"
+      description: "National holiday; most businesses close as families gather."
+    - period: "Vesak (or Vesakha, Buddha's birthday, May)"
+      description: "Buddhist festival; many public offices close and lantern displays fill the streets."
+    - period: "Poya days (monthly full-moon holidays)"
+      description: "Public holidays on full-moon Poya days; most offices close."
+sources:
+  - id: census-lka-2012
+    name: "Census of Population and Housing 2012 — Religion"
+    publisher: "Department of Census and Statistics, Sri Lanka"
+    url: "https://www.statistics.gov.lk/PopHouSat/CPH2012Visualization/htdocs/index.php?action=Data&indId=10&usecase=indicator"
+    year: 2012
+    accessedDate: "2026-09-21"
+    note: "Source of religion shares used in the WHOLE region: Buddhist 70.2%, Hindu 12.6%, Muslim 9.7%, Christian 7.4%."
+  - id: unesco-whc-lka
+    name: "Sri Lanka — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/lk"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Sri Lanka's eight UNESCO World Heritage properties and their inscription years."

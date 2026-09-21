@@ -1,0 +1,135 @@
+code: WHOLE
+name:
+  eng: Myanmar (country-wide)
+  local:
+    - languageCode: mya
+      value: မြန်မာ
+# Generic country-wide fallback content for Myanmar (unitary-large with a curated
+# subset of states/regions). National-level coverage that is not specific to any
+# one state or the user's detected subdivision.
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate across most of the central lowlands."
+  - koppenCode: Am
+    description: "Tropical monsoon climate on the south coast and deltas."
+  - koppenCode: Cwa
+    description: "Humid subtropical (dry-winter) climate in the northern and eastern states."
+  - koppenCode: Cwb
+    description: "Subtropical highland climate in the northern Shan and Kachin highlands."
+landmarks:
+  - name: Bagan
+    description: "The vast archaeological plain of the Pagan Kingdom (9th-13th c.), with over 3,500 standing temples and stupas; UNESCO World Heritage since 2019."
+    unescoWorldHeritage: true
+  - name: Ancient Pyu City-states
+    description: "The brick-walled cities of Sri Ksetra, Beikthano and Halin (c. 200 BCE-900 CE) in Upper Myanmar; UNESCO World Heritage since 2014."
+    unescoWorldHeritage: true
+  - name: Mount Popa
+    description: "A flat-topped volcanic table mountain, home to the palace of the 37 nats and a major pilgrimage site."
+  - name: Schwedagon / Shwe Dagon Stupa
+    description: "The iconic gilded Golden Stupa of Mandalay, often used as a symbol of Myanmar's Buddhist culture."
+culturalTraits:
+  - "A 'Republic of the Union' uniting the Bamar majority with 135 recognised indigenous ethnic groups"
+  - "Deep-rooted Theravada Buddhist culture running through daily life and festivals (Thingyan water festival)"
+  - "Traditional longyi dress and the elaborate longyi/hne cloth"
+prideOf:
+  - "The ancient Buddhist kingdom and the Bagan archaeological zone"
+  - "The peaceful, layered cultural diversity of major ethnic groups"
+  - "Tea, gems (jade) and the Irrawaddy river"
+animals:
+  popular:
+    - "Asian elephant"
+    - "Tiger"
+    - "Burmese python"
+    - "Peacock"
+  unique:
+    - "Myanmar roofed turtle (Myanmar roof shell)"
+    - "Sangai 'dancing deer' of the Irrawaddy wetlands"
+industries:
+  - "Agriculture (rice, pulses, sugarcane) — the largest economic sector"
+  - "Extractive industries (jade, gems, gold, natural gas)"
+  - "Textiles and garments"
+  - "Tourism (Bagan, Yangon, Inle Lake)"
+sports:
+  - "Football (soccer) — the most popular sport"
+  - "Myanmar traditional wrestling (Chinlong)"
+  - "Cricket and sepak takraw (growing)"
+religions:
+  - name: Buddhist (Theravada)
+    percent: 87.9
+    sourceId: census-mmr-2014
+  - name: Christian
+    percent: 6.2
+    sourceId: census-mmr-2014
+  - name: Muslim (Sunni)
+    percent: 4.3
+    sourceId: census-mmr-2014
+  - name: Hindu
+    percent: 0.5
+    sourceId: census-mmr-2014
+  - name: Tribal/animist religions
+    percent: 0.8
+    sourceId: census-mmr-2014
+  - name: Other / no religion
+    percent: 0.3
+    sourceId: census-mmr-2014
+# 2014 Myanmar Census (Union Report): Buddhism 87.9%, Christianity 6.2%, Islam
+# 4.3%, Hinduism 0.5%, tribal/animist 0.8%, other 0.3%. Theravada Buddhism is
+# the majority religion and is given special preference by the state, though
+# there is no official state religion.
+entertainment:
+  - season: allYear
+    items:
+      - "Temple visits and Buddhist puja"
+      - "Music and dance traditions (Hsaing Waing dance)"
+  - season: dry
+    items:
+      - "The Thingyan (water) festival around April, marking the Buddhist New Year"
+      - "Outdoor pagoda pilgrimages and fairs"
+  - season: wet
+    items:
+      - "Indoor cultural performances during the heaviest monsoon months"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Mohinga (rice porridge with fish, banana and condiments — the national breakfast)"
+      - "Lahpet (pickled tea-leaf salad)"
+      - "Shan-style rice and curry with balachaung (shrimp-paste relish)"
+      - "Deep-fried fritters (baize) and mohinga in a tea-house breakfast"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The longyi (wraparound cloth) for men and hne (sarong-style) for women"
+      - "For formal occasions, the hing-thwe (sarong) with a shirts, or western business attire in Yangon"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+# Myanmar's tropical calendar: a dry, hot season roughly November-April (the
+# coolest months Nov-Feb, hot Mar-Apr), followed by the southwest monsoon/rainy
+# season roughly May-October.
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours roughly 09:00-17:00, Monday-Friday; retail may open six days a week."
+  lunchBreakTiming: "A midday break roughly 12:30-14:00 is customary."
+  notableShutdownPeriods:
+    - period: "Thingyan (Thingyan / Burmese New Year, April)"
+      description: "The water festival and the country's biggest holiday; most businesses close."
+    - period: "Full-moon days (Buddhist holidays)"
+      description: "Several Poya-style full-moon days are public holidays; some offices close."
+sources:
+  - id: census-mmr-2014
+    name: "The 2014 Myanmar Population and Housing Census — Union Report (Religion)"
+    publisher: "Department of Population, Ministry of Labour, Immigration and Population / UNFPA"
+    url: "https://myanmar.unfpa.org/sites/default/files/pub-pdf/2_Union_Figures_ENG_0.pdf"
+    year: 2015
+    accessedDate: "2026-09-21"
+    note: "Source of religion shares in the WHOLE region: Buddhism 87.9%, Christianity 6.2%, Islam 4.3%, Hindu 0.5%, tribal 0.8%."
+  - id: unesco-whc-mmr
+    name: "Myanmar — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/mm"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Myanmar's World Heritage listing: Bagan (2019) and the Ancient Pyu City-states (2014)."

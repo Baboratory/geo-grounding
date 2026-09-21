@@ -1,0 +1,83 @@
+code: LK-1
+name:
+  eng: Western Province (Colombo)
+  local:
+    - languageCode: sin
+      value: බස්නාහිර පළාත
+    - languageCode: tam
+      value: மேல் மாகாணம்
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate with heavy monsoon rains; the wettest part of the island (Wet Zone)."
+landmarks:
+  - name: Galle Face Green
+    description: "Seafront promenade and park in central Colombo overlooking the Indian Ocean."
+  - name: Gangaramaya Temple
+    description: "A prominent Buddhist temple in Colombo with museum and spiritual heritage."
+  - name: Independence Square
+    description: "Memorial hall marking Sri Lanka's 1948 independence, in Cinnamon Gardens."
+culturalTraits:
+  - "Sri Lanka's economic and administrative heartland, home to the commercial capital Colombo"
+  - "A cosmopolitan, multi-ethnic urban culture around Colombo and the 'Golden Mile' coast"
+prideOf:
+  - "Being the commercial hub of the island (Colombo, Negombo, Gampaha)"
+  - "Century-old hotels and the Mount Lavinia beach resort"
+animals:
+  popular:
+    - "House crows"
+    - "Squirrel (Indian palm squirrel)"
+  unique: []
+industries:
+  - "Finance, banking and corporate services"
+  - "Apparel and textile manufacturing (export zones)"
+  - "Port of Colombo — a leading container transshipment hub"
+  - "Tourism and hospitality"
+sports:
+  - "Cricket"
+  - "Football"
+  - "Rugby"
+religions:
+  - name: Buddhist
+    percent: 70.2
+    sourceId: census-lka-2012
+  - name: Muslim
+    percent: 9.7
+    sourceId: census-lka-2012
+  - name: Christian (Roman Catholic)
+    percent: 7.4
+    sourceId: census-lka-2012
+entertainment:
+  - season: allYear
+    items:
+      - "Nightlife, shopping malls and Colombo's cafe culture"
+      - "Cricket at the SSC/RPS grounds"
+  - season: wet
+    items:
+      - "Indoor cultural events and city festivals during monsoon"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kottu roti and hoppers from street vendors"
+      - "Seafood rice and curry along the coast"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Business attire in the corporate district"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:30-17:00 Monday-Friday."
+  lunchBreakTiming: "13:00-14:00."
+sources:
+  - id: census-lka-2012
+    name: "Census of Population and Housing 2012 — Religion"
+    publisher: "Department of Census and Statistics, Sri Lanka"
+    url: "https://www.statistics.gov.lk/PopHouSat/CPH2012Visualization/htdocs/index.php?action=Data&indId=10&usecase=indicator"
+    year: 2012
+    accessedDate: "2026-09-21"
+    note: "National religion shares applied to the national economic core."

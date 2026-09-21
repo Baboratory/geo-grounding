@@ -1,0 +1,71 @@
+code: LK-5
+name:
+  eng: Eastern Province (Trincomalee)
+  local:
+    - languageCode: sin
+      value: නැගෙනහිර පළාත
+    - languageCode: tam
+      value: கிழக்கு மாகாணம்
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate along the east coast, with the main rains from the NE (Maha) monsoon."
+landmarks:
+  - name: Trincomalee Harbour
+    description: "One of the world's largest natural deep-water harbours (Koddiyar Bay), on the east coast."
+  - name: Koneswaram Temple
+    description: "An ancient Hindu temple on Swami Rock overlooking the ocean near Trincomalee."
+  - name: Batticaloa lagoons and Pasikuda beaches
+    description: "Lagoon wetlands and some of Sri Lanka's finest white-sand beaches (Arugam Bay for surf)."
+culturalTraits:
+  - "An ethnically mixed province (Sinhala, Tamil and Muslim) around Trincomalee and Batticaloa"
+  - "A coastal region of Buddhism, Hinduism and Islam meeting; significant Muslim (Moor) population"
+prideOf:
+  - "The great natural harbour of Trincomalee"
+  - "Sinhala, Tamil and Muslim coexistence along the coast"
+animals:
+  popular:
+    - "Sea turtles"
+    - "Blue whale (seasonal)"
+  unique:
+    - "Koneswaram's cultural significance"
+industries:
+  - "Fisheries and seafood"
+  - "Tourism (beaches, surfing at Arugam Bay)"
+  - "Agriculture (paddy, coconuts)"
+  - "Port and naval activities at Trincomalee"
+sports:
+  - "Surfing (Arugam Bay)"
+  - "Cricket"
+  - "Volleyball"
+entertainment:
+  - season: allYear
+    items:
+      - "Surfing and beach life"
+      - "Temple and mosque festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Seafood rice and curry"
+      - "Muslim-Moor specialty dishes (biriyani)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light tropical cotton attire"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 4, 5, 6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12, 1]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:30-17:00 Monday-Friday."
+  lunchBreakTiming: "13:00-14:00."
+sources:
+  - id: census-lka-2012
+    name: "Census of Population and Housing 2012 — Ethnicity by District"
+    publisher: "Department of Census and Statistics, Sri Lanka"
+    url: "https://www.statistics.gov.lk/PopHouSat/PopulationAtla_2012/03_DistrictMaps/Map%20P2.4.1%20Population%20by%20Ethnicity%20and%20District,%202012.pdf"
+    year: 2012
+    accessedDate: "2026-09-21"
+    note: "Confirms the Eastern Province is ethnically mixed across Sinhala, Tamil and Moor groups."

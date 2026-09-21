@@ -1,0 +1,190 @@
+alpha3: LKA
+alpha2: LK
+name:
+  eng: Sri Lanka
+  local:
+    - languageCode: sin
+      value: ශ්‍රී ලංකාව
+    - languageCode: tam
+      value: இலங்கை
+flagEmoji: "🇱🇰"
+capital: "Sri Jayawardenepura Kotte (legislative); Colombo (commercial)"
+isSovereign: true
+# Classified unitary-large: Sri Lanka meets 2 of the 3 DESIGN.md criteria. (1)
+# Population ~22M (above the ~20-25M small-state threshold); (2) two co-official
+# languages (Sinhala and Tamil, per Constitution Arts. 18-19) with Tamil
+# concentrated in the North and East, and a genuine, widely recognized
+# cultural-historical regional identity centred on the Tamil-majority North-East
+# (the former war-affected region) versus the Sinhala-majority South/Centre. The
+# nine provinces are first-tier local authorities with devolved councils but no
+# residual sovereignty, so NOT federal. Curated regions follow the nine ISO
+# 3166-2 provinces (LK-1 Western ... LK-9 Sabaragamuwa); WHOLE is the national
+# fallback.
+governanceType: unitary-large
+iso3166_2_prefix: LK
+hasSubdivisions: true
+languageUsage:
+  - languageCode: sin
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-lka
+  - languageCode: tam
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-lka
+  - languageCode: sin
+    domain: locallySpoken
+    speakersShare: 0.74
+    sourceId: census-lka-2012
+  - languageCode: tam
+    domain: locallySpoken
+    speakersShare: 0.153
+    sourceId: census-lka-2012
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.02
+    sourceId: ukw-language-lka
+# Sinhala and Tamil are both official per the Constitution (Article 19 provides
+# 'the Sinhala language and the Tamil language shall be the official languages').
+# As de jure official languages each is recorded with speakersShare 1.0 (a legal
+# status, not a population share). LocallySpoken shares are derived from the 2012
+# census using first-language speakers: Sinhala ~74% (Sinhalese ethnic group),
+# Tamil ~15.3% (Sri Lankan Tamils 11.2% + Indian Tamils 4.1%). English is a link
+# language (no official status) spoken fluently by roughly 2% as a first/only
+# language; a much larger share can converse in it.
+ethnicGroups:
+  - group: Sinhalese
+    percent: 74.9
+    sourceId: census-lka-2012
+  - group: Sri Lankan Tamil
+    percent: 11.2
+    sourceId: census-lka-2012
+  - group: Sri Lankan Moor
+    percent: 9.3
+    sourceId: census-lka-2012
+  - group: Indian Tamil
+    percent: 4.1
+    sourceId: census-lka-2012
+  - group: Other (Burgher, Malay, Sri Lanka Chetty, Bharatha, etc.)
+    percent: 0.5
+    sourceId: census-lka-2012
+# 2012 Census of Population and Housing (Department of Census and Statistics):
+# Sinhalese 15,250,081 (74.9%); Sri Lankan Tamil 2,269,266 (11.2%); Sri Lankan
+# Moor 1,892,638 (9.3%); Indian Tamil 839,504 (4.1%); other groups (Burgher,
+# Malay, Chetty, Bharatha) making up the remainder.
+timezones:
+  - name: Asia/Colombo
+    standardUtcOffset: "UTC+5:30"
+    observesDst: false
+currency:
+  code: LKR
+  symbol: "Rs"
+  name: Sri Lankan rupee
+legalConstraints:
+  - topic: "official languages"
+    description: "Article 19 of the Constitution makes Sinhala and Tamil the official languages; Article 24 protects the use of Tamil in courts and in dealings with government. English is a 'link language'."
+    sourceId: constitution-lka
+  - topic: "consumer protection"
+    description: "Consumer rights are regulated by the Consumer Affairs Authority Act, No. 9 of 2003, which protects consumers against hazardous goods/services, regulates trade and prices, and promotes fair competition."
+    sourceId: caa-lka-act2003
+  - topic: "data protection"
+    description: "The Personal Data Protection Act, No. 9 of 2022 (as amended by Act No. 22 of 2025) establishes a comprehensive data-protection regime with phased commencement; the Data Protection Authority began operating in 2023 and the substantive processing obligations were brought into operation from 1 January 2027."
+    sourceId: dlapiper-lka-dp
+  - topic: "VAT"
+    description: "Value-added tax on goods and services was raised to the standard rate of 18% with effect from 1 January 2024 (raised from 15%), under the VAT Act No. 14 of 2002 as amended."
+    sourceId: ird-lka-vat
+paymentCulture:
+  popularMethods:
+    - "Cash remains widely used, especially outside Colombo"
+    - "Mobile payments and QR-based wallets (LankaQR, FriMi) are growing quickly"
+    - "Credit/debit cards common in Colombo retail and hotels"
+  tipping:
+    expected: true
+    typicalAmount: "A service charge is often added in restaurants (commonly 10%); an additional tip of ~5-10% for good service is appreciated but not obligatory"
+    autoIncludedInBill: true
+# LankaQR (a national quick-response interoperable payments standard) is a
+# distinguishing feature of Sri Lanka's cash-lite push since 2022.
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite, respectful address with titles; age and seniority matter; the two-finger hand gesture and nodding are used in greetings."
+  greetingNorms: "A gentle handshake with a slight nod, or the traditional 'Ayubowan' greeting with palms together ('Vanakkam' in Tamil) when culturally apt."
+  meetingEtiquette: "Building personal rapport precedes business; decisions are often consultative through the family/network; punctuality is valued for foreign counterparts though local timing can be relaxed."
+  topicsToAvoid:
+    - "The 1983-2009 civil war and ethnic/religious tension"
+    - "Political-partisan or religiously sensitive topics"
+  giftGivingNotes: "Gifts are appreciated but usually modest; avoid giving meat to Muslims or leather to Hindus unless you know beliefs; accept tea/refreshment hospitality when offered."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: LK-1
+    file: distinct-regions/lk-1.yaml
+    adminUnitCodes: [LK-1]
+  - code: LK-2
+    file: distinct-regions/lk-2.yaml
+    adminUnitCodes: [LK-2]
+  - code: LK-3
+    file: distinct-regions/lk-3.yaml
+    adminUnitCodes: [LK-3]
+  - code: LK-4
+    file: distinct-regions/lk-4.yaml
+    adminUnitCodes: [LK-4]
+  - code: LK-5
+    file: distinct-regions/lk-5.yaml
+    adminUnitCodes: [LK-5]
+sources:
+  - id: census-lka-2012
+    name: "Census of Population and Housing 2012 — Ethnic Composition and Religion"
+    publisher: "Department of Census and Statistics, Sri Lanka"
+    url: "https://www.statistics.gov.lk/PopHouSat/CPH2012Visualization/htdocs/index.php?action=Data&indId=10&usecase=indicator"
+    year: 2012
+    accessedDate: "2026-09-21"
+    note: "Source of ethnic-composition percentages (Sinhalese 74.9%, Sri Lankan Tamil 11.2%, Moor 9.3%, Indian Tamil 4.1%) and religion shares (Buddhist 70.2%, Hindu 12.6%, Muslim 9.7%, Christian 7.4%)."
+  - id: constitution-lka
+    name: "Constitution of the Democratic Socialist Republic of Sri Lanka — Chapter III (Language)"
+    publisher: "Parliament of Sri Lanka"
+    url: "https://www.parliament.lk/en/constitution"
+    year: 1978
+    accessedDate: "2026-09-21"
+    note: "Articles 18-24: Sinhala and Tamil are the official languages; Tamil protected so long as it is a language of a significant portion of the population."
+  - id: ird-lka-vat
+    name: "Value Added Tax (VAT) — Rate History"
+    publisher: "Inland Revenue Department, Sri Lanka"
+    url: "https://www.ird.gov.lk/en/type%20of%20taxes/sitepages/value%20added%20tax%20(vat).aspx"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Standard VAT raised to 18% from 1 January 2024 (from 15%), under the VAT Act No. 14 of 2002 as amended."
+  - id: caa-lka-act2003
+    name: "Consumer Affairs Authority Act, No. 9 of 2003"
+    publisher: "Parliament of Sri Lanka / Consumer Affairs Authority"
+    url: "https://caa.gov.lk/web/images/Act/CAA_Act_E.pdf"
+    year: 2003
+    accessedDate: "2026-09-21"
+    note: "Establishes the Consumer Affairs Authority to protect consumers, regulate trade and prices, and promote fair competition."
+  - id: dlapiper-lka-dp
+    name: "Data Protection Laws of the World — Sri Lanka"
+    publisher: "DLA Piper"
+    url: "https://www.dlapiperdataprotection.com/index.html?t=law&c=LK"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Personal Data Protection Act No. 9 of 2022 (as amended by Act No. 22 of 2025): phased commencement, substantive parts from 1 January 2027."
+  - id: ukw-language-lka
+    name: "Languages of Sri Lanka — English as a Link Language"
+    publisher: "British Council / University of Kelaniya (UoK) language study"
+    url: "https://www.britishcouncil.lk/en"
+    year: 2021
+    accessedDate: "2026-09-21"
+    note: "English is a link language without official status; only a small proportion use it as a first language."
+  - id: iso-sin
+    name: "ISO 639-3 entry: sin - Sinhala"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/sin"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code sin."
+  - id: iso-tam
+    name: "ISO 639-3 entry: tam - Tamil"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/tam"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code tam."

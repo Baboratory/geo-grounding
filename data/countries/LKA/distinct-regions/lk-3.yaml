@@ -1,0 +1,73 @@
+code: LK-3
+name:
+  eng: Southern Province (Galle)
+  local:
+    - languageCode: sin
+      value: දකුණු පළාත
+    - languageCode: tam
+      value: தென் மாகாணం
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate along the south coast with a wet Yala monsoon and abundant sunshine."
+landmarks:
+  - name: Old Town of Galle and its Fortifications
+    description: "A UNESCO-listed colonial fort town built by the Portuguese and expanded by the Dutch on the south coast."
+    unescoWorldHeritage: true
+  - name: Sinharaja Forest Reserve
+    description: "The last primary tropical rainforest on the island, a UNESCO natural heritage site straddling the Southern and Sabaragamuwa splits."
+    unescoWorldHeritage: true
+  - name: Mirissa and Weligama beaches
+    description: "Popular southern beaches known for whale-watching (blue whales) and relaxed surf culture."
+culturalTraits:
+  - "A historic maritime region of fishing, cinnamon and the iconic Galle Fort"
+  - "Laid-back surf-and-beach culture along the southern coast"
+prideOf:
+  - "The well-preserved Galle Fort and colonial heritage"
+  - "Blue-whale watching off Mirissa"
+animals:
+  popular:
+    - "Blue whale (seasonal offshore)"
+    - "Sea turtle"
+  unique:
+    - "Blue whale migration corridor"
+industries:
+  - "Tourism and hospitality"
+  - "Fishing and seafood"
+  - "Cinnamon and spice cultivation"
+  - "Gemmology (Ratnapura borderland)"
+sports:
+  - "Surfing"
+  - "Cricket"
+  - "Whale-watching excursions"
+entertainment:
+  - season: allYear
+    items:
+      - "Surfing and beach life"
+      - "Galle Fort heritage walking tours"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fresh seafood rice and curry"
+      - "Kottu and hoppers"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light tropical beach attire"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:30-17:00 Monday-Friday."
+  lunchBreakTiming: "13:00-14:00."
+sources:
+  - id: unesco-whc-lka
+    name: "Old Town of Galle — UNESCO World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/lk"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Galle's UNESCO World Heritage listing (1988)."
