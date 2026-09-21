@@ -1,0 +1,137 @@
+code: WHOLE
+name:
+  eng: Somalia
+  local:
+    - languageCode: som
+      value: Soomaaliya
+    - languageCode: arb
+      value: الصومال
+# Generic country-wide fallback content for Somalia (federal). The curated
+# regions (SO-BN, SO-SL, SO-PL) hold the strongly-distinctive regional content;
+# this file is the national character and the fallback for the uncurated
+# ISO 3166-2 regions (Bakool, Bay, Galguduud, Gedo, Hiiraan, Jubbada Dhexe,
+# Jubbada Hoose, Shabeellaha Dhexe, Shabeellaha Hoose).
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate over most of the north, the central plateau and much of the interior — hot and arid nearly year-round, with irrigation-dependent vegetation and limited rainfall."
+  - koppenCode: BSh
+    description: "Hot semi-arid climate in parts of the south and the northern highlands and along parts of the coast — hot with low, highly variable rainfall and a bimodal Gu/Dayr rainy pattern."
+landmarks:
+  - name: Historical quarter of Mogadishu (Xamar Weyne)
+    description: "The old stone city on the Indian Ocean coast, with centuries-old architecture (the stone towers and houses of the medieval entrepôt) and the historic Arbaca Rukun mosque, one of the oldest mosques in the Horn of Africa."
+  - name: Liido Beach, Mogadishu
+    description: "Mogadishu's best-known white-sand public beach, a popular weekend gathering spot on the Indian Ocean shore."
+  - name: Laas Geel rock art
+    description: "Extraordinary neolithic rock paintings of decorated cattle and herders at the foot of granite outcrops near Hargeisa, about 5,000 years old — the Horn of Africa's oldest known rock-art site. On UNESCO's Tentative List because Somalia has not ratified the 1972 World Heritage Convention, so it is NOT an inscribed World Heritage Site."
+    unescoWorldHeritage: false
+culturalTraits:
+  - "Clan (tol) and extended-family kinship underpin social identity, with elders (odayaal) as respected arbiters and brokers"
+  - "A celebrated oral-poetry culture — Somalis are widely called 'a nation of poets' (gabay, buraanbur, dhaanto)"
+  - "Deeply woven Islamic faith — prayer, Ramadan and Eid shape daily life, hospitality and commerce; Islam is the state religion"
+  - "A pastoralist heritage of camel and livestock herding that still defines much of the country beyond the cities"
+  - "A bimodal rainfall rhythm (Gu then Dayr) that sets the sowing and harvest calendar"
+prideOf:
+  - "The oral poetry and music heritage — a distinctive cultural identity held across all clans"
+  - "Resilience and recovery through decades of state collapse and repeated droughts"
+  - "Camel husbandry and the large livestock-export trade to the Gulf"
+  - "A long Indian-Ocean coastline and a historic role as a maritime trading crossroads"
+animals:
+  popular:
+    - "Dromedary camels (dibataag) — the backbone of pastoral life and the national symbol"
+    - "Sheep and goats"
+    - "Cattle (zebu)"
+    - "Coastal and marine life along the Indian Ocean (tuna, dolphins)"
+  unique:
+    - "Somali wild ass (dibataag) — an endangered wild equid endemic to the Horn"
+    - "Beira antelope (beer) — a small, endemic antelope of the arid gorges"
+    - "Speke's gazelle and other desert ungulates"
+    - "Somali giant sengi / elephant-shrew — an endemic, locally extinct band rediscovered in the Horn"
+    - "Whale sharks and dugongs in the waters off the northeastern coast"
+industries:
+  - "Livestock export (cattle, sheep, goats and camels) to Gulf markets — a dominant earner"
+  - "Diaspora remittances (an estimated ~$1.5-2B a year) channelled largely through hawala/mobile money"
+  - "Mobile-money and telecom (Hormuud EVC Plus, Telesom Zaad, Golis SAHAL)"
+  - "Fishing and marine resources along the long coast (tuna)"
+  - "Agriculture in the south (sorghum, maize, sesame, bananas, sugarcane)"
+  - "Oil and gas potential — largely unexploited"
+sports:
+  - "Football (soccer) — the most popular sport"
+  - "Athletics and long-distance running"
+  - "Basketball"
+  - "Camel racing and camel-festival sports in pastoral areas"
+  - "Traditional dance-and-poetry performance (dhaanto) blending culture and festivity"
+religions:
+  - name: Sunni Muslim (Islam is the state religion)
+    percent: 99.0
+    sourceId: state-irf
+  - name: Other religious groups combined (small Christian community ~1,000, Sufi and Shia Muslim communities, and others)
+    percent: 1.0
+    sourceId: state-irf
+# Religion figures: the U.S. State Dept's 2023 IRF report, citing the Federal
+# Ministry of Endowments and Religious Affairs (>99% Sunni Muslim). The ~1%
+# 'other' is a residual combining the noted small minority groups.
+entertainment:
+  - season: allYear
+    items:
+      - "Oral poetry recitals (gabay), music and the dhaanto dance"
+      - "Football and community sport"
+      - "Coffee/tea sessions (shaah) with family and friends"
+  - season: dry
+    items:
+      - "Livestock fairs, camel racing and nomadic-gathering festivals in pastoral areas"
+  - season: wet
+    items:
+      - "Eid al-Fitr and Eid al-Adha celebrations (mainly in the Dayr period for al-Adha and across Ramadan)"
+      - "Weddings and community ceremonies concentrated around good rainfall months"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Canjeero/canjeelo (sourdough flatbread) — the national staple"
+      - "Bariis iskukaris (spiced rice with meat and raisins)"
+      - "Suqaar (sautéed meat stew) and hilib ari (goat/mutton)"
+      - "Cambuulo (azuki beans) and muufo (cornflatbread)"
+      - "Shaah cadays (spiced Somali tea) and buq buk"
+  - season: dry
+    items:
+      - "Fresh livestock-export season — grilled meat and camel-milk dishes at markets"
+  - season: wet
+    items:
+      - "Seasonal produce — fresh sorghum- and maize-based dishes and early-harvest grains"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Dirac — the long, light traditional dress worn by women"
+      - "Guntiino — the traditional wrap garment"
+      - "Macawiis (sarong) and kanfuu/jalabiya — men's robes"
+      - "Garbasaar (headscarf/shawl) and modest Islamic dress"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 7, 8, 9, 12]
+  - season: wet
+    months: [4, 5, 6, 10, 11]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Public and business offices generally operate Saturday-Thursday morning-ish hours in many areas (some businesses close for Friday prayers), roughly 08:00-16:00; private-sector and retail hours vary widely by city and by security conditions."
+  lunchBreakTiming: "A midday break is common, particularly around prayer (Dhuhr) around midday."
+  notableShutdownPeriods:
+    - period: "The two Eid holidays (Eid al-Fitr, end of Ramadan; Eid al-Adha, Dayr season)"
+      description: "Business, banks and many offices close for the Eid holidays and surrounding days; commerce slows sharply."
+    - period: "Ramadan"
+      description: "Working hours shorten and daytime trade slows in many areas; much business activity shifts after the evening fast-breaking (iftar)."
+  notes: "Friday is the communal weekly day of worship and the de facto non-working day across much of Somalia (though exact closures vary by sector). Security and periodic drought/flood shocks disrupt business unpredictably in parts of the country, and formal retail infrastructure is limited outside the larger cities."
+sources:
+  - id: state-irf
+    name: "2023 Report on International Religious Freedom: Somalia"
+    publisher: "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/somalia/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: ">99% of the population are Sunni Muslim (per the Federal Ministry of Endowments and Religious Affairs); other groups combined <1% (small Christian community ~1,000, Sufi/Shia Muslims, others). Basis for the religions percentages."
+  - id: unesco-wh
+    name: "Somalia — World Heritage status"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/so"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Somalia has no inscribed UNESCO World Heritage Site (it has not ratified the 1972 Convention); Laas Geel is a candidate only, hence unescoWorldHeritage: false."

@@ -1,0 +1,146 @@
+code: SO-SL
+name:
+  eng: Somaliland
+  local:
+    - languageCode: som
+      value: Soomaaliland
+# Somaliland — the former British Somaliland protectorate that declared
+# independence in 1991 and governs itself as the self-declared, internationally
+# unrecognised Republic of Somaliland (capital Hargeisa), and is the one part of
+# Somalia that has remained broadly stable and peaceful since. This curated
+# region groups the five ISO 3166-2 regions it administers: Awdal (SO-AW),
+# Woqooyi Galbeed/Maroodi Jeex (SO-WO), Togdheer (SO-TO), Sanaag (SO-SA) and
+# Sool (SO-SO). Note: Sool and Sanaag are claimed by both Somaliland and
+# Puntland; under current (2020s) de facto administration they are largely run
+# from Hargeisa for geo-matching purposes, which is why they sit here rather
+# than under SO-PL. The code SO-SL is a curated grouping label, not an official
+# ISO 3166-2 code.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate over the Guban coastal strip and much of the interior plains — very hot, arid, and windy year-round."
+  - koppenCode: BSh
+    description: "Hot semi-arid climate in the Golis/Ogo highlands around Hargeisa, which are noticeably cooler and greener than the lowlands."
+landmarks:
+  - name: Laas Geel rock art
+    description: "The Horn of Africa's oldest and best-preserved rock-art site — neolithic painted cattle and herders on granite outcrops near Hargeisa, ~5,000 years old. A UNESCO candidate (on the Tentative List), not an inscribed World Heritage Site."
+    unescoWorldHeritage: false
+  - name: Hargeisa
+    description: "The capital and largest city of Somaliland, with the famous camel-and-war memorial (Somaliland War memorial) and an energetic commercial centre."
+  - name: Berbera port and coast
+    description: "Somaliland's principal seaport on the Gulf of Aden and a historic maritime entrepôt, backed by wide white-sand beaches."
+  - name: Lamadaya / Sheikh mountains
+    description: "Permanent waterfalls in the Golis range near Sheikh — one of the few reliably green, highland-and-waterfall areas of the country."
+  - name: Dhagax Koure (Dakar Yare)
+    description: "Ancient rock-art and archaeological site south of Hargeisa, part of the same prehistoric pastoral-art tradition as Laas Geel."
+culturalTraits:
+  - "A distinctly self-governing political identity — Somaliland sees itself as a separate republic (a former British protectorate that briefly united with the south in 1960) and runs its own Parliament, currency and constitution"
+  - "Relative stability and security, making it the most easily visitable part of Somalia"
+  - "Strong camel-breeding and pastoral culture (the camel is central to identity and pride)"
+  - "Vibrant oral-poetry tradition and, alongside faith, a pragmatic trading culture"
+  - "Deeply Islamic daily life, with the Somaliland constitution making Islam the state religion"
+prideOf:
+  - "Self-governance and the hard-won peace and stability absent in most of the rest of Somalia"
+  - "Laas Geel and the region's ancient archaeological heritage"
+  - "Camel husbandry and the livestock-export trade through Berbera"
+  - "Frankincense and the coastal maritime heritage of the Gulf of Aden"
+animals:
+  popular:
+    - "Dromedary camels — the prized animal of Somaliland's pastoral culture"
+    - "Sheep and goats (Somaliland is one of the region's largest livestock exporters)"
+  unique:
+    - "Wild Barbary sheep / aoudad in the Golis and highland ranges"
+    - "Klippspringer and cliff-dwelling antelope of the coastal ranges"
+    - "Somali wild ass and Beira antelope in the arid interior"
+    - "Sea turtles and dugongs in the Gulf of Aden waters"
+industries:
+  - "Livestock export through Berbera port (cattle, sheep, goats, camels) to the Gulf — the dominant economic engine"
+  - "Diaspora remittances and the growth of the capital's commercial/service economy"
+  - "Telecom and mobile money (Telesom's Zaad is headquartered in Hargeisa)"
+  - "Frankincense (maydi) and gum-resin production in the eastern highlands"
+  - "Berbera port corridor development and growing regional trade ties (incl. the 2024 Ethiopia port agreement — politically contentious)"
+  - "Emerging fossil-fuel exploration interest (onshore and the coast)"
+sports:
+  - "Football (soccer) — very popular"
+  - "Camel racing — a celebrated traditional sport at cultural festivals"
+  - "Athletics (long-distance running)"
+  - "Basketball"
+  - "Traditional dhaanto dance-and-poetry performance"
+religions:
+  - name: Sunni Muslim (Somaliland's constitution makes Islam the official religion)
+    percent: 99.0
+    sourceId: state-irf
+  - name: Other religious groups combined (a very small minority)
+    percent: 1.0
+    sourceId: state-irf
+# Religion figures: U.S. State Dept 2023 IRF report (>99% Sunni Muslim per the
+# Federal Ministry of Endowments and Religious Affairs); Somaliland's own
+# constitution also establishes Islam as the official religion.
+entertainment:
+  - season: allYear
+    items:
+      - "Café and tea-shop culture in Hargeisa"
+      - "Oral poetry, music and dhaanto performances"
+      - "Football and weekend outings to the Golis highlands"
+  - season: dry
+    items:
+      - "Cooler-season excursions into the Golis/Ogo highlands and to Lamadaya's waterfalls (the best months to visit the mountains)"
+  - season: wet
+    items:
+      - "Rains bring the green highlands to life — a favourite time for family picnics among the hills"
+      - "Eid celebrations and weddings (often centred on the Dayr rains)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Canjeero (flatbread) with suqaar and spiced rice (bariis iskukaris)"
+      - "Hilib ari (goat/mutton dishes) and 'ambalaxa' — an iconic Somali sweet bread"
+      - "Shaah cadays (spiced tea) and fresh camel milk"
+      - "Malawah (sweet fried crepe) from the highland kitchens"
+  - season: dry
+    items:
+      - "Fresh camel-milk and milk-infused dishes favoured in the arid dry season"
+  - season: wet
+    items:
+      - "Festive Eid feasts and rich goat stews tied to the rainy-season holidays"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Dirac and guntiino for women; macawiis (sarong) and kanfuu for men"
+      - "Warmer highland layering (the 'dhagax' woollen wraps used in the cooler Golis hills)"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 7, 8, 9, 12]
+  - season: wet
+    months: [4, 5, 6, 10, 11]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Offices and markets in Hargeisa generally run Saturday-Thursday with Friday off for prayers; roughly 08:00-16:00/17:00, similar to the wider country."
+  lunchBreakTiming: "A midday break around the Dhuhr prayer is common."
+  notableShutdownPeriods:
+    - period: "The two Eid holidays"
+      description: "Business closes for Eid al-Fitr and Eid al-Adha; livestock markets peak in the lead-up to Eid al-Adha."
+    - period: "Ramadan"
+      description: "Working hours shorten; much commerce shifts to the evening hours after iftar."
+  notes: "Somaliland is the most stable and business-friendly part of Somalia, with its own, well-regulated banking/telecom sector and a comparatively developed commercial economy centred on Hargeisa and the Berbera corridor."
+sources:
+  - id: state-irf
+    name: "2023 Report on International Religious Freedom: Somalia"
+    publisher: "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/somalia/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: ">99% of the population are Sunni Muslim (per the Federal Ministry of Endowments and Religious Affairs); also documents Somaliland's constitution establishing Islam as the official religion. Basis for the religions percentages."
+  - id: unesco-wh
+    name: "Somalia — World Heritage status"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/so"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Somalia has no inscribed UNESCO World Heritage Site; Laas Geel is a Tentative-List candidate only, hence unescoWorldHeritage: false."
+  - id: sl-war-memorial
+    name: "Hargeisa War Memorial / Independence monuments"
+    publisher: "British Museum (African Rock Art) on Laas Geel and Somaliland heritage"
+    url: "https://africanrockart.britishmuseum.org/country/somalia-somaliland/laas-geel/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Describes Laas Geel (oldest rock-art site in the Horn, mid-4th to mid-3rd millennia BCE) and its context in the Hargeisa-Berbera area of Somaliland; supports the Laas Geel and Dhagax Koure landmark entries."

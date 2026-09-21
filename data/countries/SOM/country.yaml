@@ -1,0 +1,156 @@
+alpha3: SOM
+alpha2: SO
+name:
+  eng: Somalia
+  local:
+    - languageCode: som
+      value: Soomaaliya
+    - languageCode: arb
+      value: الصومال
+flagEmoji: "🇸🇴"
+capital: Mogadishu
+isSovereign: true
+# Classified federal: the 2012 Provisional Constitution declares the Federal
+# Republic of Somalia a federal republic with a two-tier system of the federal
+# government and federal member states (FMS) (Art. 48-52), and that federal
+# structure is genuinely realised on the ground — Somaliland (a self-declared
+# independent, internationally unrecognised polity of the former British
+# colony), Puntland, and Galmudug, Hirshabelle, South West and Jubaland all
+# administer defined territories with their own regional governments. Somalia
+# meets the federal bar (a real constitutional federal structure), so
+# hasSubdivisions=true with curated real ISO 3166-2 regions. Note the caveat:
+# population estimates (~18M) sit below the 20-25M unitary-large threshold, but
+# the constitutional federal framework plus a uniquely strong regional identity
+# (Somaliland and Puntland especially) settles the call as federal.
+# Curated regions: Banaadir (the capital region), Somaliland (the self-declared
+# state, grouping its five ISO 3166-2 regions), Puntland (grouping Bari, Nugaal
+# and Mudug), plus the mandatory WHOLE country-wide fallback. The other
+# ISO 3166-2 regions (Bakool, Bay, Galguduud, Gedo, Hiiraan, Jubbada Dhexe,
+# Jubbada Hoose, Shabeellaha Dhexe, Shabeellaha Hoose) are not yet curated and
+# fall back to WHOLE.
+governanceType: federal
+iso3166_2_prefix: SO
+hasSubdivisions: true
+languageUsage:
+  - languageCode: som
+    domain: official
+    speakersShare: 1.0
+    sourceId: somali-constitution
+  - languageCode: arb
+    domain: official
+    speakersShare: 1.0
+    sourceId: somali-constitution
+  - languageCode: som
+    domain: locallySpoken
+    speakersShare: 0.96
+    sourceId: som-usage
+  - languageCode: arb
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: arb-usage
+# English and Italian are historically prominent in government, law and
+# education (the CIA World Factbook lists both as 'major languages' alongside
+# Somali and Arabic), but no official or otherwise authoritative proficiency
+# figure is published, so no foreign-domain speakersShare row is included here
+# rather than guess a number. Somali (in its Maay and Maxaa-tiri variants) and
+# Arabic are both official under Article 5 of the 2012 Provisional Constitution.
+# Somali is the near-universal language of daily life (~0.96 locallySpoken,
+# composite estimate); Arabic is official and widely used religiously but is
+# the everyday household tongue only of a small coastal/Arab minority (~0.03,
+# composite estimate).
+ethnicGroups:
+  # CIA World Factbook, 2023 est.
+  - group: Somali
+    percent: 85.0
+    sourceId: cia-people
+  - group: Bantu and other non-Somali (including ~30,000 Arabs, and the Bajuni of the coast)
+    percent: 15.0
+    sourceId: cia-people
+timezones:
+  - name: Africa/Mogadishu
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+# Somalia is on a single standard timezone, UTC+3 (East Africa Time) year-round, with no DST.
+currency:
+  code: SOS
+  symbol: "Sh.So."
+  name: Somali shilling
+legalConstraints:
+  - topic: "official languages"
+    description: "Article 5 of the 2012 Provisional Constitution makes Somali (in its Maay and Maxaa-tiri variants) the official language of the Federal Republic and Arabic the second official language. Contract terms, marketing and customer- or partner-facing materials therefore legitimately appear in Somali, with Arabic (and, in practice, English) as additional working languages."
+    sourceId: somali-constitution
+  - topic: "state religion and legal-harmony constraint"
+    description: "Article 2 of the same constitution makes Islam the religion of the State and prohibits enacting any law that does not comply with the general principles of Shari'ah; Article 17 protects freedom of religion and belief. In practice no law exempts non-Muslims from sharia legal principles. This constrains what goods/services/messaging can be offered (e.g. alcohol and pork are not marketable to the general public, and content perceived as denigrating Islam is legally sensitive), especially in areas under stricter enforcement."
+    sourceId: somali-constitution
+  - topic: "right of access to information"
+    description: "Article 32 of the 2012 Provisional Constitution guarantees every person, including foreign companies operating in the country, the right of access to information held by the state (and by private entities where the public interest requires it), bounded by lawful and reasonable restrictions."
+    sourceId: somali-constitution
+# paymentMethodShares intentionally omitted: no official/published denominator on
+# payment-method usage across the country's fragmented financial system exists
+# (no functioning central-bank retail-payments statistics; the prior report on
+# 'Mobile money in Somalia' gives qualitative rather than enumerated split).
+# Instead the qualitative picture is given in paymentCulture below: mobile money
+# (EVC Plus, Zaad, SAHAL) and cash dominate, alongside large hawala remittance
+# flows, with heavy US dollar use next to the Somali shilling.
+paymentCulture:
+  popularMethods:
+    - "Mobile money — dominant: EVC Plus (Hormuud, south-central/Mogadishu), Zaad (Telesom, Somaliland) and SAHAL (Golis, Puntland) are used by the large majority of the adult population for market purchases, salaries and transfers"
+    - "CASH — Somali shilling (SOS) banknotes and the US dollar both circulate; cash remains essential for small retail, though circulating SOS notes are largely in poor condition"
+    - "Hawala / money-transfer operators (Dahabshiil the largest) — the backbone of diaspora remittances (~$1-2B/yr)"
+    - "Very limited formal banking and card infrastructure; no functioning national card network"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected or customary"
+    autoIncludedInBill: false
+    note: "Tipping is not customary; service charges are rarely pre-added. In hospitality, rounding up or offering a small tip for exceptional service is appreciated but never expected."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Sociable and community-oriented (clan/family-centred); respect for elders and for one's clan heritage (tol) is central. Use titles and polite deferential address — 'Adeer/Abowe' (uncle/grandfather) for an older man, 'Habaryar' (aunt) for an older woman, 'Madaxweyne' for someone in authority."
+  greetingNorms: "Greet with the Islamic 'As-salaamu alaykum' (peace be upon you), answered 'Wa alaykumu s-salaam'. Handshakes are the norm among men; men should generally wait for a woman to offer her hand first. Use the right hand only for handshakes, eating and passing things."
+  meetingEtiquette: "Hospitality and tea/coffee come before business; do not rush straight to agenda. Build personal rapport and trust first. Agreements often rely on personal relationships and word, with elders valued as brokers. Punctuality can be relaxed; patience is expected."
+  topicsToAvoid:
+    - "Clan politics and clan affiliation, and any remark that could be heard as favouring one clan over another"
+    - "Contentious regional/political disputes — above all the Somaliland independence question, the Somaliland-Ethiopia port deal, Puntland-Somaliland tensions over Sool/Sanaag, and the role of the federal government vs. federal member states"
+    - "Directly criticising Islam or Somali religious custom; mocking elders or traditional authority"
+  giftGivingNotes: "Modest, culturally appropriate gifts (dates, quality coffee, incense/uunsi, or a gift for children) are well received; avoid alcohol or anything pig-derived, which are impermissible in Islam. Give and receive with the right hand."
+distinct-regions:
+  - code: SO-BN
+    file: distinct-regions/bn.yaml
+    adminUnitCodes: [SO-BN]
+  - code: SO-SL
+    file: distinct-regions/sl.yaml
+    adminUnitCodes: [SO-AW, SO-WO, SO-TO, SO-SA, SO-SO]
+  - code: SO-PL
+    file: distinct-regions/pl.yaml
+    adminUnitCodes: [SO-BR, SO-NU, SO-MU]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: somali-constitution
+    name: "The Provisional Constitution of the Federal Republic of Somalia (2012)"
+    publisher: "Federal Republic of Somalia (via WIPO Lex)"
+    url: "https://wipo.int/wipolex/en/legislation/details/14305"
+    year: 2012
+    accessedDate: "2026-09-19"
+    note: "Article 5 (Official Languages) — Somali (Maay and Maxaa-tiri) is the official language and Arabic the second official language; basis for the som/arb official-domain 1.0 rows. Also the source for the 'official languages', 'state religion / legal-harmony', and 'right of access to information' legal constraints (Articles 5, 2/17, and 32)."
+  - id: cia-people
+    name: "CIA World Factbook — Somalia (People and Society: languages, ethnic groups)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/somalia/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "ethnicGroups percentages (Somali 85%, Bantu and other non-Somali 15% incl. ~30,000 Arabs, 2023 est.). Also confirms Somali and Arabic as official and lists English and Italian as major languages (their proficiency shares are not published, hence no foreign-domain rows)."
+  - id: som-usage
+    name: "Composite estimate — Somali as the near-universal language of daily life"
+    publisher: "Composite estimate (CIA World Factbook, Ethnologue)"
+    url: "https://www.cia.gov/the-world-factbook/countries/somalia/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Somali is the everyday language of the overwhelming majority of residents; the ~0.96 locallySpoken share is a composite estimate, not a published census figure (no post-1975 census exists)."
+  - id: arb-usage
+    name: "Composite estimate — Arabic use in Somalia"
+    publisher: "Composite estimate (U.S. State Dept IRF, Ethnologue)"
+    url: "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/somalia/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Arabic's ~0.03 locallySpoken share is a small composite estimate: the native Arabic-speaking coastal/Arab minority plus broad but limited everyday use; Arabic functions primarily as a religious and educational language rather than the common household tongue."
