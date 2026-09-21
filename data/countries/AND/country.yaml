@@ -1,0 +1,160 @@
+alpha3: AND
+alpha2: AD
+name:
+  eng: Andorra
+  local:
+    - languageCode: cat
+      value: Andorra
+flagEmoji: 🇦🇩
+capital: Andorra la Vella
+isSovereign: true
+# Classified unitary-small, not unitary-large: population is small (~85,000 est.)
+# and its seven parishes are purely administrative subdivisions with no recognized
+# subnational official-minority-language region — Català is the sole official
+# language nationwide. Andorra is a co-principality (shared between the Bishop of
+# Urgell and the President of France) and is not an EU member.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: cat
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1993
+  - languageCode: cat
+    domain: locallySpoken
+    speakersShare: 0.441
+    sourceId: cia-factbook-andorra
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.403
+    sourceId: cia-factbook-andorra
+  - languageCode: por
+    domain: locallySpoken
+    speakersShare: 0.135
+    sourceId: cia-factbook-andorra
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.10
+    sourceId: cia-factbook-andorra
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.03
+    sourceId: cia-factbook-andorra
+# locallySpoken shares are ESTIMATES from CIA World Factbook mother-tongue data
+# (2022 est.): Català 44.1%, Spanish (Castilian) 40.3%, Portuguese 13.5%, French
+# 10%. English as a foreign lingua franca reflects the tourism/duty-free retail
+# economy (no authoritative census of learned-English command exists). Català is
+# the sole official language per the Constitution — the only state in the world
+# with Català as its sole official language.
+ethnicGroups:
+  - group: Spanish
+    percent: 34.3
+    sourceId: cia-factbook-andorra
+  - group: Andorran
+    percent: 32.1
+    sourceId: cia-factbook-andorra
+  - group: Portuguese
+    percent: 10.0
+    sourceId: cia-factbook-andorra
+  - group: French
+    percent: 5.6
+    sourceId: cia-factbook-andorra
+  - group: Other
+    percent: 18.0
+    sourceId: cia-factbook-andorra
+# NOTE: ethnic composition here is by COUNTRY OF BIRTH (CIA 2024 est.), not by
+# citizenship — a large share of Andorra's residents are foreign-born. An
+# alternative official figure (US State Dept IRF, citing Andorran statistics 2019)
+# gives Andorran citizens ~48.3%, Spanish 24.8%, Portuguese 11.2%, French 4.5%.
+timezones:
+  - name: Europe/Andorra
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October — Andorra aligns with the EU-wide DST schedule by its monetary-agreement practice, like its neighbours."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "data protection (LQPD)"
+    description: "Processing personal data requires a lawful basis and grants individuals rights including access, rectification, erasure and portability. Andorra is NOT an EU/EEA member so the GDPR does not directly apply, but its own data-protection act (Llei 29/2021, qualificada de protecció de dades personals, LQPD, in force since May 2022) was explicitly modelled on the GDPR and is enforced by the Andorran Data Protection Agency (APDA). Andorra also ratified the Council of Europe's Convention 108+ in October 2022."
+    sourceId: llei-29-2021-lqpd
+  - topic: "VAT / indirect-tax price display"
+    description: "Andorra's general indirect tax (impost general indirecte, IGI — a VAT-style tax) applies to most goods and services at a general rate of 4.5%, with reduced rates at 1% and a super-reduced rate at 0%, a special 2.5% rate and an increased 9.5% rate for certain banking services. Consumer-facing prices are displayed inclusive of IGI."
+    sourceId: llei-11-2012-igi
+  - topic: "EU relationship and customs"
+    description: "Andorra is not an EU member but has been in a customs union with the EU since 1991 and concluded an EU Association Agreement (negotiations concluded December 2023) to join much of the internal market. It is not subject to EU law directly; EU-derived rules apply to it only via these agreements."
+    sourceId: eu-andorra-association
+paymentCulture:
+  popularMethods:
+    - "Debit and credit cards (Visa/Mastercard, contactless) — dominant for everyday payments"
+    - "Mobile wallets and bank transfers"
+    - "Cash — still common, especially for low-value tourism transactions and from Spanish/French day-trippers"
+  tipping:
+    expected: false
+    autoIncludedInBill: true
+    typicalAmount: "Service is normally included in the bill; rounding up or leaving a small amount for good service is courteous but not expected."
+    note: "No strong tipping culture — small rounding-up in restaurants and cafés is usual, ~10% is not expected."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Polite and formal in business, using titles and surnames until invited otherwise; reflects a blend of French and Spanish social norms."
+  greetingNorms: "A handshake is standard in business; cheek-kisses (two) are common among acquaintances and in social settings, as in neighbouring France and Spain."
+  meetingEtiquette: "Punctuality is expected; meetings are reasonably structured though often slightly relaxed compared with northern Europe. Decision-making is generally informal and relationship-based."
+  topicsToAvoid:
+    - "Personal wealth or tax status — Andorra's low-tax reputation is a sensitive, often-stereotyped subject"
+  giftGivingNotes: "Small, modest gifts are appreciated when invited to a home; expensive gifts can feel inappropriate. Quality local products (wine, chocolate, crafts) are well received."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: constitution-1993
+    name: "Constitution of the Principality of Andorra (1993)"
+    publisher: "Consell General d'Andorra (General Council), via WIPO Lex"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/10723"
+    year: 1993
+    accessedDate: "2026-09-18"
+    note: "Article 2.1 establishes Català as the sole official language; Article 2.3 names Andorra la Vella as the capital. Andorra is a co-principality (shared Heads of State: the Bishop of Urgell and the President of France)."
+  - id: cia-factbook-andorra
+    name: "The World Factbook — Andorra (Languages, Ethnic groups, Religions, Population)"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/countries/andorra/"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "Mother-tongue shares (2022 est.): Català 44.1%, Spanish 40.3%, Portuguese 13.5%, French 10%. Ethnic composition by country of birth (2024 est.): Spanish 34.3%, Andorran 32.1%, Portuguese 10.0%, French 5.6%, other 18.0%. Religion (2020 est.): Christian (predominantly Roman Catholic) 89.5%, other 8.8%, unaffiliated 1.7%. Currency/timezone and demography from the same entry."
+  - id: llei-29-2021-lqpd
+    name: "Llei 29/2021, qualificada de protecció de dades personals (LQPD)"
+    publisher: "Consell General d'Andorra; overview by the Andorran law firm Advantia"
+    url: "https://www.advantia.ad/en/economy/new-data-protection-law-andorra-2022"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "Andorra's GDPR-modelled data-protection law, in force May 2022, enforced by the Andorran Data Protection Agency (APDA). Replaced the earlier 2003 law. GDPR not directly applicable (non-EU), but the law substantively aligns with it."
+  - id: llei-11-2012-igi
+    name: "Llei 11/2012 de l'impost general indirecte (IGI) and IGI rate schedule"
+    publisher: "Govern d'Andorra (Servei de Tràmits)"
+    url: "https://www.e-tramits.ad/tramits/impostos/igi"
+    year: 2012
+    accessedDate: "2026-09-18"
+    note: "The VAT-style general indirect tax: general rate 4.5%, reduced 1%, super-reduced 0%, special 2.5%, increased 9.5% (banking). Prices are displayed inclusive of IGI."
+  - id: eu-andorra-association
+    name: "EU Association Agreement with Andorra and San Marino; Andorra-EU Customs Union"
+    publisher: "European Parliamentary Research Service (EPRS)"
+    url: "https://www.europarl.europa.eu/RegData/etudes/BRIE/2024/766263/EPRS_BRI(2024)766263_EN.pdf"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Andorra's non-EU status; in EU customs union since 1991; association agreement negotiations concluded December 2023 (not yet in force as of 18 September 2026)."
+  - id: unesco-madriu
+    name: "Madriu-Perafita-Claror Valley — UNESCO World Heritage List entry 1160"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1160"
+    year: 2004
+    accessedDate: "2026-09-18"
+    note: "Cultural landscape inscribed 2004 (criterion v), covering ~4,247 ha (~9% of Andorra's territory) — the basis for the landmark entry in distinct-regions/whole.yaml."
+  - id: state-irf-andorra
+    name: "Andorra — International Religious Freedom Report"
+    publisher: "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://www.state.gov/reports/2019-report-on-international-religious-freedom/andorra/"
+    year: 2019
+    accessedDate: "2026-09-18"
+    note: "Alternative official religion figure: ~92% Roman Catholic (2019 government estimate); alternative citizenship-based ethnic shares (Andorran 48.3%, Spanish 24.8%, Portuguese 11.2%). Used in distinct-regions/whole.yaml note."

@@ -1,0 +1,165 @@
+alpha3: MCO
+alpha2: MC
+name:
+  eng: Monaco
+  local:
+    - languageCode: fra
+      value: Monaco
+flagEmoji: 🇲🇨
+capital: Monaco
+isSovereign: true
+# Classified unitary-small: Monaco is a city-state with a small population
+# (~38,000) and no meaningful subdivisions — French is the sole official language
+# (Constitution Art. 8). Monaco is a hereditary principality ruled by the House of
+# Grimaldi and is not an EU member, though it uses the euro via a Monetary
+# Agreement and applies French VAT.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-monaco
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.90
+    sourceId: composite-estimate
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.15
+    sourceId: composite-estimate
+  - languageCode: ita
+    domain: locallySpoken
+    speakersShare: 0.10
+    sourceId: composite-estimate
+  - languageCode: lij
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: composite-estimate
+# locallySpoken shares are ESTIMATES: Monaco collects no language census. French
+# is the overwhelming everyday language; English reflects the international
+# finance/hospitality community; Italian the large Italian-resident population;
+# Monegasque (a Ligurian variety) is a national/cultural language spoken by a
+# small minority of Monegasque nationals (patois, school-taught, few native
+# speakers) — it is NOT the official language (French is, per Constitution
+# Art. 8). Monegasque nationals are roughly a fifth of residents.
+ethnicGroups:
+  - group: Monegasque
+    percent: 32.1
+    sourceId: cia-factbook-monaco
+  - group: French
+    percent: 19.9
+    sourceId: cia-factbook-monaco
+  - group: Italian
+    percent: 15.3
+    sourceId: cia-factbook-monaco
+  - group: British
+    percent: 5.0
+    sourceId: cia-factbook-monaco
+  - group: Belgian
+    percent: 2.3
+    sourceId: cia-factbook-monaco
+  - group: Swiss
+    percent: 2.0
+    sourceId: cia-factbook-monaco
+  - group: German
+    percent: 1.9
+    sourceId: cia-factbook-monaco
+  - group: Russian
+    percent: 1.8
+    sourceId: cia-factbook-monaco
+  - group: American
+    percent: 1.1
+    sourceId: cia-factbook-monaco
+  - group: Dutch
+    percent: 1.1
+    sourceId: cia-factbook-monaco
+  - group: Moroccan
+    percent: 1.0
+    sourceId: cia-factbook-monaco
+  - group: Other
+    percent: 16.6
+    sourceId: cia-factbook-monaco
+# Ethnic composition is by COUNTRY OF BIRTH (CIA 2016 est.). Monegasque
+# nationals are a minority of residents, reflecting Monaco's status as a global
+# finance hub with a largely foreign-born population.
+timezones:
+  - name: Europe/Monaco
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October — Monaco follows the EU/French DST schedule."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "data protection"
+    description: "Processing personal data is governed by Monaco's own Law n° 1.165 of 23 December 1993 on the Protection of Personal Data (as amended), enforced by the CCIN (Commission de Contrôle des Informations Nominatives, the Monégasque data-protection authority). Monaco is not an EU/EEA member, so the GDPR does not directly apply; its law is aligned with Council of Europe Convention 108 and is enforced by the newer Autorité de Protection des Données Personnelles (APDP) under Law n° 1.565 of 3 December 2024 (in force from 14 December 2024), which modernises the regime. GDPR can still reach Monaco via its extraterritorial scope for data about EU data subjects."
+    sourceId: loi-1165-1993
+  - topic: "VAT / price display"
+    description: "Monaco applies the French VAT (TVA) system as part of the French customs/VAT union — standard rate ~20%. Prices are displayed inclusive of TVA, and French consumer-tax rules apply to Monegasque transactions."
+    sourceId: mc-vat-french
+  - topic: "state religion"
+    description: "Constitution Art. 9 (17 December 1962, as amended by Law 1.249/2002) declares that the Roman Catholic and Apostolic religion is the religion of the State. This legally frames official/public ceremonies and some institutional norms, though religious freedom is guaranteed and Monaco is not a theocracy for commercial purposes."
+    sourceId: constitution-monaco
+paymentCulture:
+  popularMethods:
+    - "Card and contactless payment — dominant (French-style chip-and-PIN and contactless)"
+    - "Cheques and bank transfers — common for rent and large sums"
+    - "American Express — frequently accepted in the luxury/hospitality segment"
+    - "Mobile/digital wallets (growing)"
+  tipping:
+    expected: false
+    autoIncludedInBill: true
+    typicalAmount: "Service (service compris) is included in the bill; leaving 5-10% extra for attentive service in restaurants/hotels is customary but not required."
+    note: "Similar to France — service is included, extra tipping is a polite gesture rather than an obligation."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal and title-based (M./Mme) in business, reflecting French convention; use titles and surnames until invited to be more familiar. Etiquette towards the princely family and court is precise (addressing royalty/members of the palace as 'Votre Altesse')."
+  greetingNorms: "A handshake in business; cheek-kisses (deux bises) in social settings among acquaintances, French style."
+  meetingEtiquette: "Formal, punctual and elegant — dress sharply, arrive on time, and be well-prepared. Decisions tend to follow established protocol and hierarchy."
+  topicsToAvoid:
+    - "Personal or business wealth, and private family matters"
+    - "Jokes or casual comments about the princely family, casino operations, or the monarchy"
+  giftGivingNotes: "Small, elegant gifts are appreciated when hosted; quality goods (wine, chocolate, flowers) are well received. Expensive gifts can feel like an attempt to curry favour in the wealth-oriented local culture."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: constitution-monaco
+    name: "Constitution of the Principality of Monaco (17 December 1962, as amended by Law n° 1.249 of 2 April 2002)"
+    publisher: "Principauté de Monaco, via WIPO Lex"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/7659"
+    year: 2002
+    accessedDate: "2026-09-18"
+    note: "Art. 8: French is the official language. Art. 9: the Roman Catholic and Apostolic religion is the religion of the State."
+  - id: cia-factbook-monaco
+    name: "The World Factbook — Monaco (Languages, Ethnic groups, Religions, Population)"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/countries/monaco/"
+    year: 2016
+    accessedDate: "2026-09-18"
+    note: "Ethnic composition by country of birth (2016 est.): Monegasque 32.1%, French 19.9%, Italian 15.3%, British 5.0%, Belgian 2.3%, Swiss 2.0%, German 1.9%, Russian 1.8%, American 1.1%, Dutch 1.1%, Moroccan 1.0%, other 16.6%. Religion ~90% Roman Catholic (official state religion). French official language; ~20% VAT note."
+  - id: composite-estimate
+    name: "Composite estimate"
+    publisher: "Composite estimate"
+    url: "https://www.cia.gov/the-world-factbook/countries/monaco/"
+    year: 2025
+    accessedDate: "2026-09-18"
+    note: "ESTIMATE — locallySpoken language shares (French ~0.90, English ~0.15, Italian ~0.10, Monegasque/Ligurian ~0.05) proxied from Monaco's foreign-born ethnic composition, because no language-spoken-at-home census exists. French is official; English reflects the international finance/hospitality community, Italian the large Italian-resident share, Monegasque (lij, a Ligurian variety) the small number of national patois speakers."
+  - id: loi-1165-1993
+    name: "Law n° 1.165 of 23 December 1993 on the Protection of Personal Data, as amended; Law n° 1.565 of 3 December 2024"
+    publisher: "Principauté de Monaco (Journal de Monaco)"
+    url: "https://journaldemonaco.gouv.mc/Journaux/2024/Journal-8725/Loi-n-1.565-du-3-decembre-2024-relative-a-la-protection-des-donnees-personnelles"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Monaco's data-protection regime, enforced by the CCIN and, from early 2025, by the APDP under the modernised Law n° 1.565/2024 (in force 14 December 2024). Not GDPR directly, but GDPR may apply extraterritorially."
+  - id: mc-vat-french
+    name: "Agreements on monetary relations — Monaco; French VAT application"
+    publisher: "European Union (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/EN/legal-content/summary/agreements-on-monetary-relations-monaco-san-marino-the-vatican-andorra.html"
+    year: 2019
+    accessedDate: "2026-09-18"
+    note: "Monaco is part of the French customs/VAT union and applies French TVA (standard rate ~20%); it uses the euro under the EU-Monaco Monetary Agreement (euro official since 1 January 1999, coin issuance since 2011)."
