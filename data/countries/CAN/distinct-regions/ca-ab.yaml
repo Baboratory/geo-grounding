@@ -1,0 +1,108 @@
+code: CA-AB
+name:
+  eng: Alberta
+  local:
+    - languageCode: eng
+      value: Alberta
+climates:
+  - koppenCode: Dfb
+    description: "Continental climate across much of Alberta (Edmonton, Calgary), with cold, at times very cold winters and warm, sunny summers."
+  - koppenCode: BSk
+    description: "Semi-arid steppe climate in the southern Prairies and around the chinook country, drier with big temperature swings (occasional warm chinook winds)."
+landmarks:
+  - name: Banff National Park
+    description: "Canada's first national park, in the Rocky Mountains — iconic peaks, glacial lakes (Lake Louise, Moraine Lake) and wildlife, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Jasper National Park
+    description: "The largest Rocky Mountain national park, with the Icefields Parkway, glaciers and dark-sky stargazing, part of the Canadian Rocky Mountain Parks UNESCO site."
+    unescoWorldHeritage: true
+  - name: West Edmonton Mall
+    description: "Once the world's largest shopping mall, with an indoor water park, ice rink and amusement parks."
+  - name: Calgary Stampede
+    description: "The world-famous annual rodeo and festival, 'The Greatest Outdoor Show on Earth'."
+culturalTraits:
+  - "Canada's energy heartland, a resource-driven economy with a frontier, open-skies character"
+  - "Home of the iconic Rocky Mountains and the 'Cowboy Country' ranching identity (Calgary Stampede)"
+  - "Welcoming and booming, drawing migrants from across Canada and the world"
+prideOf:
+  - "The Rocky Mountains and vast untamed natural landscapes"
+  - "The energy economy and economic dynamism (Calgary/Edmonton)"
+  - "The Calgary Stampede and western hospitality"
+animals:
+  popular:
+    - "Rocky Mountain bighorn sheep"
+    - "Grizzly bear"
+  unique:
+    - "Wood bison (in Wood Buffalo National Park, one of the country's largest herds)"
+industries:
+  - "Energy: oil sands, conventional oil, natural gas and petrochemicals"
+  - "Agriculture (cattle ranching, wheat and canola)"
+  - "Technology and innovation"
+  - "Tourism (the Rocky Mountain parks)"
+  - "Construction and logistics"
+sports:
+  - "Ice hockey (Calgary Flames, Edmonton Oilers)"
+  - "Canadian football (Stampede league in Calgary)"
+  - "Rodeo and western sports (the Stampede)"
+  - "Skiing and snowboarding"
+  - "Curling"
+entertainment:
+  - season: allYear
+    items:
+      - "Mountain recreation: hiking, camping and wildlife viewing in Banff and Jasper"
+      - "Calgary and Edmonton's festivals, dining and pro-sports scene"
+  - season: summer
+    items:
+      - "The Calgary Stampede (July) — rodeo, carnival and pancake breakfasts"
+      - "Mountain lakes and the Icefields Parkway road trip"
+  - season: winter
+    items:
+      - "Skiing at Sunshine, Lake Louise and Marmot Basin"
+      - "Cold-clear winter festivals and stargazing (Jasper Dark Sky)"
+  - season: spring
+    items:
+      - "Melting-creek adventures and early-season hiking"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Alberta beef — steaks, burgers and the famous Calgary beef and Stampede pancakes"
+      - "Mountain-inn comfort food and craft beer"
+  - season: summer
+    items:
+      - "Barbecued beef and rodeo-style breakfasts"
+  - season: winter
+    items:
+      - "Hearty stews, chili and hot beverages after cold mountain days"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Practical western and outdoors style; 'cowboy' boots and hats are proudly worn, plus modern athleisure"
+  - season: winter
+    items:
+      - "Very warm coats, mitts and boots for the cold Prairies winter"
+  - season: summer
+    items:
+      - "Light clothing but layers for mountain temperature swings"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday; Calgary and Edmonton run a standard business day, with energy-sector roles often on shift/rotation in the field."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
+sources:
+  - id: alberta-tourism
+    name: "Travel Alberta — official tourism site"
+    publisher: "Travel Alberta (provincial tourism agency)"
+    url: "https://www.travelalberta.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks (Rocky Mountain parks, Stampede), food, culture and seasonal highlights for Alberta."

@@ -1,0 +1,95 @@
+code: AU-QLD
+name:
+  eng: Queensland
+  local:
+    - languageCode: eng
+      value: Queensland
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate along the southeast coast (Brisbane to the Sunshine Coast), with hot humid summers and dry mild winters."
+  - koppenCode: Aw
+    description: "Tropical savanna climate in the far north (Cairns, Cape York), with a pronounced wet season in summer and dry season in winter."
+  - koppenCode: BWh
+    description: "Hot desert climate across the vast interior west of the Great Dividing Range."
+landmarks:
+  - name: Great Barrier Reef
+    description: "The world's largest coral reef system, stretching along the Queensland coast — a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Daintree Rainforest
+    description: "One of the oldest rainforests on Earth, in the far north, part of the Wet Tropics of Queensland UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Gold Coast
+    description: "A famous beach and surf destination with high-rise skyline and theme parks south of Brisbane."
+  - name: Whitsunday Islands and Whitehaven Beach
+    description: "A chain of tropical islands in the reef with white silica-sand beaches."
+culturalTraits:
+  - "Australia's sunshine state: warm beaches, the reef and a laid-back outdoor lifestyle"
+  - "The 'State of Origin' rivalry in rugby league and a strong sporting identity"
+  - "A fast-growing hub for the east-coast population and lifestyle migrants"
+prideOf:
+  - "The Great Barrier Reef and tropical natural wonders"
+  - "Beach and outdoor living in near-perpetual sunshine"
+  - "Rugby league's State of Origin success"
+animals:
+  popular:
+    - "Koala"
+    - "Green sea turtle"
+  unique:
+    - "Cassowary (a large flightless bird of the far-north rainforests)"
+    - "Platypus (in eastern Queensland waterways)"
+industries:
+  - "Mining and resources (coal, natural gas)"
+  - "Tourism (the Great Barrier Reef and beach destinations)"
+  - "Agriculture (sugar, beef, tropical fruit)"
+  - "Construction and property"
+  - "Ports and logistics"
+sports:
+  - "Rugby league (State of Origin is a Queensland passion)"
+  - "Swimming and surfing"
+  - "Cricket"
+  - "Australian rules football (growing, especially on the Gold Coast)"
+entertainment:
+  - season: allYear
+    items:
+      - "Snorkelling and diving on the reef; reef tours from Cairns and Airlie Beach"
+      - "Beach life, surfing and theme parks on the Gold Coast"
+  - season: dry
+    items:
+      - "The best weather for outback, reef and north-Queensland travel (May-October avoids the wet)"
+  - season: wet
+    items:
+      - "Milders indoor attractions, market days and storm-season viewing; many outdoor activities scale back"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fresh seafood: prawns, mud crab, Moreton Bay bugs and reef fish"
+      - "Tropical fruit (mangoes, pineapple, bananas) and macadamias"
+  - season: dry
+    items:
+      - "Barbecued seafood on the beach during the long sunny dry period"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Casual, light and beach-ready clothing year-round given the warm climate"
+  - season: wet
+    items:
+      - "Light layers and rain gear for the summer wet season storms"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday; Brisbane is a major corporate and mining-head-office centre."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
+sources:
+  - id: visit-qld
+    name: "Queensland — official tourism site"
+    publisher: "Tourism and Events Queensland"
+    url: "https://www.queensland.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks (reef, Daintree, Gold Coast), food, culture and seasonal highlights for Queensland."

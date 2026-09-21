@@ -1,0 +1,101 @@
+code: AU-VIC
+name:
+  eng: Victoria
+  local:
+    - languageCode: eng
+      value: Victoria
+climates:
+  - koppenCode: Cfb
+    description: "Temperate oceanic climate across Melbourne and much of Victoria, with changeable weather, warm summers and cool, occasionally foggy winters."
+  - koppenCode: Cfa
+    description: "Humid subtropical warmth in the far northeast, with mild, wetter winters."
+landmarks:
+  - name: Flinders Street Station and Federation Square
+    description: "Melbourne's grand 19th-century railway terminus and the adjacent riverside civic plaza, hearts of the city."
+  - name: Melbourne Cricket Ground (MCG)
+    description: "Australia's largest sports stadium, hosting cricket and AFL, a pilgrimage site for sports fans."
+  - name: The Great Ocean Road and the Twelve Apostles
+    description: "A scenic coastal drive past dramatic limestone sea stacks along the southwest coast."
+  - name: Royal Botanic Gardens Melbourne
+    description: "One of the world's finest botanic gardens, on the banks of the Yarra River."
+culturalTraits:
+  - "Australia's cultural and sporting capital, famous for its café culture and laneway art"
+  - "A multicultural, food-obsessed city with a strong arts scene"
+  - "A passion for sport, especially Australian rules football (AFL)"
+prideOf:
+  - "Coffee culture and world-class food and dining"
+  - "The AFL and major sporting events"
+  - "A vibrant, liveable city (regularly ranked among the world's most liveable)"
+animals:
+  popular:
+    - "Eastern grey kangaroo"
+  unique:
+    - "Mountain pygmy-possum (a small marsupial in the Victorian Alps)"
+industries:
+  - "Advanced manufacturing and engineering"
+  - "Financial services, health and professional services"
+  - "Education (major universities)"
+  - "Agriculture and premium food/wine (Barossa of the south — Yarra Valley, Mornington)"
+  - "Tourism"
+sports:
+  - "Australian rules football (AFL headquarters and the traditional home)"
+  - "Cricket"
+  - "Soccer"
+  - "Tennis (the Australian Open is held in Melbourne)"
+  - "Horse racing (the Melbourne Cup)"
+entertainment:
+  - season: allYear
+    items:
+      - "Café and laneway culture, street art and live music venues"
+      - "Theatres and the arts precinct along Southbank"
+  - season: summer
+    items:
+      - "The Australian Open tennis (January) and the Boxing Day Test at the MCG"
+  - season: spring
+    items:
+      - "The Melbourne Cup carnival at Flemington (first Tuesday in November)"
+  - season: winter
+    items:
+      - "Skiing in the Victorian Alps (Hotham, Falls Creek, Mount Buller)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "The flat white coffee and café breakfast (avocado smash, poached eggs)"
+      - "Meat pies and sausage rolls at the footy"
+      - "Fresh weekend food markets (Queen Victoria Market)"
+  - season: autumn
+    items:
+      - "Yarra Valley and Mornington Peninsula wine-country harvest"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Smart-casual, layered city fashion; Melbourne is known for its fashion and coffee culture"
+  - season: summer
+    items:
+      - "Light layers given Melbourne's famously changeable 'four seasons in one day' weather"
+  - season: winter
+    items:
+      - "Coats, scarves and warm layers for cool, overcast winters"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday; Melbourne's CBD and Southbank host major offices and banks."
+  lunchBreakTiming: "A lunch break around 12:00-13:30 is typical, often a café lunch or quick option given the strong coffee culture."
+sources:
+  - id: visit-vic
+    name: "Visit Victoria — official tourism site"
+    publisher: "Victorian Government (Visit Victoria)"
+    url: "https://www.visitvictoria.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, sports, culture and seasonal highlights for Victoria."

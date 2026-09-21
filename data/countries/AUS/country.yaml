@@ -1,0 +1,170 @@
+alpha3: AUS
+alpha2: AU
+name:
+  eng: Australia
+  local:
+    - languageCode: eng
+      value: Australia
+flagEmoji: "🇦🇺"
+capital: Canberra
+isSovereign: true
+# Classified federal: Australia is a federal parliamentary constitutional
+# monarchy (Commonwealth of Australia) whose six states and two main
+# territories are first-order constitutional units. The states retain their
+# own parliaments and residual legislative powers under the Commonwealth
+# Constitution 1900 (s.51 enumerated Commonwealth powers; residue to the
+# states). Federations of this kind always carry real ISO 3166-2 subdivisions:
+# AU-NSW New South Wales, AU-VIC Victoria, AU-QLD Queensland, AU-WA Western
+# Australia, AU-SA South Australia, AU-TAS Tasmania, AU-ACT Australian
+# Capital Territory, AU-NT Northern Territory. Curated subset + WHOLE below.
+# The external territories (Christmas Island CXR, Cocos (Keeling) CCK, Norfolk
+# NFK etc.) are their own ISO 3166-1 entries and are NOT part of this file.
+governanceType: federal
+iso3166_2_prefix: AU
+hasSubdivisions: true
+languageUsage:
+  - languageCode: eng
+    domain: official
+    # English is the de facto national and official language of government,
+    # courts, education and the media, though the Commonwealth Constitution
+    # contains no formal provision designating an official language. It is
+    # treated as the official working language here; the qualitative 1.0 marks
+    # legal/administrative status rather than a published census share.
+    speakersShare: 1.0
+    sourceId: pmc-australia
+  - languageCode: eng
+    domain: locallySpoken
+    # 2021 Census: English was the only language spoken at home for ~72% of
+    # the population; a further share uses English alongside another language.
+    speakersShare: 0.72
+    sourceId: abs-census-2021
+  - languageCode: zho
+    domain: locallySpoken
+    # Mandarin was the most common non-English language spoken at home in the
+    # 2021 Census (~2.7% of the population reported it); the broader Chinese
+    # family (the Census groups Mandarin, Cantonese and other Chinese) was
+    # spoken at home by ~4-5%. This is the 2021 Census figure as locallySpoken.
+    speakersShare: 0.027
+    sourceId: abs-census-2021
+  - languageCode: ara
+    domain: locallySpoken
+    # Arabic was the second most common non-English language spoken at home in
+    # the 2021 Census (~1.4%), driven by migration from the Middle East and
+    # North Africa; a qualitative 2021 Census locallySpoken share.
+    speakersShare: 0.014
+    sourceId: abs-census-2021
+# ethnicGroups intentionally omitted: the Australian Census does not collect
+# a single 'ethnic group' question; ancestry is reported very granularly
+# (English, Australian, Irish, Scottish, Chinese, Italian, Indian, etc.) and
+# respondents can nominate two ancestries, so a summand ethnic composition
+# would be arbitrary.
+timezones:
+  - name: Australia/Sydney
+    standardUtcOffset: "UTC+10"
+    observesDst: true
+    dstUtcOffset: "UTC+11"
+    dstPeriod: "First Sunday of October to first Sunday of April (ACT, NSW, VIC, TAS)."
+  - name: Australia/Brisbane
+    standardUtcOffset: "UTC+10"
+    observesDst: false
+  - name: Australia/Adelaide
+    standardUtcOffset: "UTC+9:30"
+    observesDst: true
+    dstUtcOffset: "UTC+10:30"
+    dstPeriod: "First Sunday of October to first Sunday of April (South Australia)."
+  - name: Australia/Darwin
+    standardUtcOffset: "UTC+9:30"
+    observesDst: false
+  - name: Australia/Perth
+    standardUtcOffset: "UTC+8"
+    observesDst: false
+currency:
+  code: AUD
+  symbol: "$"
+  name: Australian dollar
+legalConstraints:
+  - topic: "official language"
+    description: "The Commonwealth Constitution (1900) does not designate an official language; English is the de facto official and national language used in Parliament, the courts, education and public administration. No statute establishes English as the legal official language of Australia."
+    sourceId: pmc-australia
+  - topic: "consumer protection"
+    description: "The Australian Consumer Law (ACL), Schedule 2 of the Competition and Consumer Act 2010, is a single national law protecting consumers against misleading or deceptive conduct, false representations, unfair contract terms and unsafe products, with consumer guarantees applying automatically to goods and services. It is enforced jointly by the ACCC and state/territory consumer agencies."
+    sourceId: accc-acl
+  - topic: "data protection"
+    description: "The Privacy Act 1988 and the Australian Privacy Principles (APPs) regulate how most Australian and some overseas organisations handle personal information, including collection, use, disclosure, access, security and international transfers; the Office of the Australian Information Commissioner (OAIC) supervises compliance. Organisations subject to the Act cover most businesses with annual turnover above A$3 million."
+    sourceId: oaic-privacy-act
+  - topic: "GST (VAT)"
+    description: "A federal Goods and Services Tax (GST) of 10% has applied to most supplies of goods and services since 1 July 2000 (A New Tax System (Goods and Services Tax) Act 1999). Advertised prices to consumers are required to be GST-inclusive; certain supplies (basic food, some health and education services, exports) are GST-free."
+    sourceId: ato-gst
+paymentCulture:
+  popularMethods:
+    - "Card payments dominate; contactless (tap-and-go) debit and credit cards are the default at almost all retailers"
+    - "Australia is one of the world's most advanced cashless economies; cash remains legal but its use is declining and some venues are card-only"
+    - "Mobile and QR payments (Apple Pay, Google Pay, bank apps with PayTo/OSKO instant transfers) are widespread"
+  tipping:
+    expected: false
+    typicalAmount: "None — tipping is not expected or standard; prices are generally GST-inclusive and service is included in the bill"
+    autoIncludedInBill: true
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Relaxed and egalitarian. Australians are generally informal, direct and easy-going, using first names quickly and valuing a dry, self-deprecating sense of humour. Formality is reserved for formal legal and ceremonial occasions."
+  greetingNorms: "A casual greeting like 'G'day' or 'hello' with a handshake is typical; first-name address is standard in most settings."
+  meetingEtiquette: "Punctuality is expected. Meetings tend to be practical and to the point, with a relaxed tone and little hierarchy by title alone; decisions are often reached by open discussion and consensus rather than unilateral decree."
+  topicsToAvoid:
+    - "Overly direct or confrontational personal criticism"
+    - "Sensitive issues around Indigenous history and colonisation, handled respectfully when raised"
+    - "Claims about sport or national identity made in an overly earnest/boastful way"
+  giftGivingNotes: "Gift-giving is casual and not heavily ritualised; bringing a bottle of wine or small gift when invited to someone's home is appreciated but not obligatory. There is no strong formal gift protocol."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: AU-NSW
+    file: distinct-regions/au-nsw.yaml
+    adminUnitCodes: [AU-NSW]
+  - code: AU-VIC
+    file: distinct-regions/au-vic.yaml
+    adminUnitCodes: [AU-VIC]
+  - code: AU-QLD
+    file: distinct-regions/au-qld.yaml
+    adminUnitCodes: [AU-QLD]
+  - code: AU-WA
+    file: distinct-regions/au-wa.yaml
+    adminUnitCodes: [AU-WA]
+  - code: AU-NT
+    file: distinct-regions/au-nt.yaml
+    adminUnitCodes: [AU-NT]
+sources:
+  - id: pmc-australia
+    name: "About Australia — the country"
+    publisher: "Department of the Prime Minister and Cabinet, Australian Government"
+    url: "https://www.pmc.gov.au/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Official Australian Government portal confirming Australia as a federal parliamentary constitutional monarchy with no designated constitutional official language (English is de facto)."
+  - id: abs-census-2021
+    name: "2021 Census of Population and Housing — language spoken at home"
+    publisher: "Australian Bureau of Statistics"
+    url: "https://www.abs.gov.au/census/find-census-data"
+    year: 2021
+    accessedDate: "2026-09-21"
+    note: "2021 Census: English only at home ~72%; Mandarin ~2.7% the most common non-English language; Arabic next. LocallySpoken shares are the published census figures."
+  - id: accc-acl
+    name: "Australian Consumer Law"
+    publisher: "Australian Competition and Consumer Commission (ACCC)"
+    url: "https://www.accc.gov.au/about-us/australian-consumer-law"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "The ACL (Schedule 2 of the Competition and Consumer Act 2010) is the single national consumer-protection law: misleading conduct, unfair terms, consumer guarantees, unsafe goods."
+  - id: oaic-privacy-act
+    name: "The Privacy Act 1988 and Australian Privacy Principles"
+    publisher: "Office of the Australian Information Commissioner (OAIC)"
+    url: "https://www.oaic.gov.au/privacy/the-privacy-act"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Privacy Act 1988 and APPs govern collection, use, disclosure, security and cross-border transfer of personal information; OAIC supervises."
+  - id: ato-gst
+    name: "GST — Goods and Services Tax"
+    publisher: "Australian Taxation Office (ATO)"
+    url: "https://www.ato.gov.au/businesses-and-organisations/gst"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "GST of 10% since 1 July 2000; GST-inclusive pricing for consumers; GST-free for basic food, most health and education services, and exports."

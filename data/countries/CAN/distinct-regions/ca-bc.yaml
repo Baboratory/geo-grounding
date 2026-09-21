@@ -1,0 +1,103 @@
+code: CA-BC
+name:
+  eng: British Columbia
+  local:
+    - languageCode: eng
+      value: British Columbia
+climates:
+  - koppenCode: Cfb
+    description: "Temperate oceanic climate along the coast (Vancouver, Victoria), mild and rainy year-round with cool, wet winters."
+  - koppenCode: Dfb
+    description: "Continental climate in the BC Interior (Okanagan, Prince George), with warmer, drier summers and cold winters."
+landmarks:
+  - name: Stanley Park and the Seawall
+    description: "Vancouver's vast urban park, ringed by the famous Seawall promenade with views over the harbour."
+  - name: Whistler Blackcomb
+    description: "One of North America's largest ski resorts, host of the 2010 Winter Olympics alpine events."
+  - name: Okanagan Valley
+    description: "Canada's leading wine region, a sun-drenched valley of orchards, vineyards and lakes."
+  - name: Butchart Gardens
+    description: "The celebrated floral gardens near Victoria on Vancouver Island."
+culturalTraits:
+  - "Canada's Pacific gateway: a stunning mountain-and-ocean landscape with a relaxed, outdoorsy culture"
+  - "A dynamic, tech-hub economy (Vancouver) and strong Asian-Pacific multicultural influence"
+  - "Deep Indigenous heritage, especially on the coast (Haida Gwaii and the totem-pole cultures)"
+prideOf:
+  - "Mountains, ocean and an enviable outdoor lifestyle (surf-to-ski geography)"
+  - "Vancouver, a world-class liveable city"
+  - "Environmental stewardship and the province's natural beauty"
+animals:
+  popular:
+    - "Orca (killer whale)"
+    - "Bald eagle"
+  unique:
+    - "Spirit bear (Kermode bear, a white black bear of the central coast)"
+    - "Marmots in the Coast Mountains"
+industries:
+  - "Technology and video games (Vancouver tech hub)"
+  - "Film and television production ('Hollywood North')"
+  - "Forestry and natural resources"
+  - "Tourism and outdoor recreation"
+  - "Wine and agriculture (Okanagan)"
+sports:
+  - "Ice hockey (Vancouver Canucks)"
+  - "Skiing and snowboarding"
+  - "Mountain biking and snowshoeing"
+  - "Soccer (Vancouver Whitecaps)"
+  - "Rugby and lacrosse"
+entertainment:
+  - season: allYear
+    items:
+      - "Hiking, ocean kayaking and mountain-biking day trips right from the city"
+      - "Vancouver's craft-beer, sushi and dim-sum dining scene"
+  - season: winter
+    items:
+      - "Skiing and snowboarding at Whistler Blackcomb and other resorts"
+  - season: summer
+    items:
+      - "Wine tasting in the Okanagan and beach life on the coast"
+  - season: spring
+    items:
+      - "Cherry-blossom season in Vancouver and the famous Butchart Gardens blooms"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pacific seafood: salmon, spot prawns, Dungeness crab and oysters"
+      - "Vancouver's sushi and dim sum (one of the best Asian-food scenes outside Asia)"
+      - "Okanagan wines"
+  - season: summer
+    items:
+      - "Farmers' market produce, fresh berries and local cheeses"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Relaxed, casual and layered 'tech-casual' style; designed for rain and outdoors"
+  - season: winter
+    items:
+      - "Rainproof outerwear and layers (coastal winters are wet, not deeply cold)"
+  - season: summer
+    items:
+      - "Light casual clothing"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday; Vancouver runs a standard business day."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical; a quick sushi, salad or food-truck option is common."
+sources:
+  - id: bc-tourism
+    name: "Destination British Columbia — official tourism site"
+    publisher: "Destination British Columbia (provincial Crown corporation)"
+    url: "https://www.hellobc.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for British Columbia."
