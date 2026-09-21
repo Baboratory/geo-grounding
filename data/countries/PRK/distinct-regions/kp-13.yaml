@@ -1,0 +1,77 @@
+code: KP-13
+name:
+  eng: Rason (Rajin-Sonbong; special city)
+  local:
+    - languageCode: kor
+      value: 라선특별시 (Rasŏn T'ŭkpyŏlshi)
+climates:
+  - koppenCode: Dwb
+    description: "Humid continental (warm-summer) — relatively mild coastal winters for North Korea and warm summers, near the Chinese and Russian borders."
+landmarks:
+  - name: Rajin-Sonbong Special Economic Zone
+    description: "The DPRK's first and most prominent special economic zone (SEZ), a free-trade and trans-shipment hub at the tri-border area with China and Russia."
+  - name: Rason port complex
+    description: "Deep-water ice-free ports (Rajin and Sonbong) promoted for international transshipment and trade."
+culturalTraits:
+  - "The DPRK's flagship window for foreign investment and trade with China and Russia"
+  - "A frontier trade town where the border with China and Russia meets the coast"
+prideOf:
+  - "Being North Korea's pioneering special economic zone and international trade gateway"
+  - "Ice-free deep-water port facilities at the head of the Sea of Japan"
+animals:
+  popular:
+    - "Seabirds and coastal species along the bay"
+    - "Domestic livestock in the surrounding countryside"
+  unique:
+    - "Endangered marine species in the offshore waters"
+industries:
+  - "International transshipment, free-trade zone logistics and foreign investment"
+  - "Port and ship-repair facilities"
+  - "Marine products, fishing and light manufacturing tied to SEZ activity"
+sports:
+  - "Soccer (association football)"
+  - "Maritime and water sports"
+entertainment:
+  - season: allYear
+    items:
+      - "SEZ commercial areas, hotels and duty-free-style shopping for visitors and traders"
+      - "Coastal scenery and border-trade activity"
+  - season: summer
+    items:
+      - "Seaside leisure along the bay in the warmer months"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fresh seafood, squid and crab from the nearby waters"
+      - "Noodle and rice dishes with kimchi"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Practical workwear and modest everyday dress"
+  - season: winter
+    items:
+      - "Warm winter coats and hats for the cold coastal winter"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: [sunday]
+  typicalWorkHours: "SEZ businesses and port operations run on regular schedules; Sunday is the main rest day."
+  lunchBreakTiming: "Midday."
+  notableShutdownPeriods:
+    - period: "National holidays and border-closure events"
+      description: "Cross-border trade is sensitive to border and sanctions conditions."
+  notes: "The Rason SEZ is the DPRK's most business-oriented region, but foreign commercial engagement remains constrained by UN sanctions and state control."
+sources:
+  - id: prk-bti-rason
+    name: "BTI Country Report — North Korea (2026; market and foreign trade)"
+    publisher: "Bertelsmann Stiftung (BTI)"
+    url: "https://bti-project.org/en/reports/country-report/PRK"
+    accessedDate: "2026-09-21"
+    note: "Rason Special Economic Zone as the flagship SEZ and the state-sanctioned (yet sanctions-constrained) foreign-investment window; framing for this region."

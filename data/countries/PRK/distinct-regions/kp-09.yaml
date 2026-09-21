@@ -1,0 +1,78 @@
+code: KP-09
+name:
+  eng: North Hamgyong (North Hamgyong Province)
+  local:
+    - languageCode: kor
+      value: 함경북도 (Hamgyŏngbukto)
+climates:
+  - koppenCode: Dwb
+    description: "Humid continental (warm-summer) — cold, snowy winters mitigated by the Sea of Japan, and warmer humid summers."
+landmarks:
+  - name: Chongjin
+    description: "A major northeastern port and industrial city on the East Sea (Sea of Japan) coast, among the country's three largest cities."
+  - name: Rajin-Sonbong economic zone (shared southern edge)
+    description: "The broader Rason special economic zone country's first SEZ, at the border with China and Russia (see KP-13)."
+culturalTraits:
+  - "A northeastern industrial and mining axis bordering China and Russia"
+  - "Strong maritime and steel/chemical character centred on Chongjin"
+prideOf:
+  - "One of the DPRK's key heavy-industrial and metallurgical centres"
+  - "Deep-water port facilities on the East Sea coast"
+animals:
+  popular:
+    - "Coastal and marsh birds along the eastern seaboard"
+    - "Domestic livestock in farming villages"
+  unique:
+    - "The Amur (Siberian) tiger historically present in the rugged northern mountains"
+industries:
+  - "Ferrous metallurgy and steel (Chongjin is a historic iron-and-steel centre)"
+  - "Port, shipping and machine industries"
+  - "Mining of iron ore and other minerals in the interior"
+sports:
+  - "Soccer (association football)"
+  - "Winter sports in the mountainous interior"
+  - "Athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Local state cultural venues and community leisure in Chongjin"
+      - "Coastal walks and fishing along the East Sea"
+  - season: summer
+    items:
+      - "Beach and seaside leisure on the eastern coast"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Cold naengmyeon and hearty noodle dishes"
+      - "Seafood from the East Sea and kimchi-based sides"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Practical workwear and modest everyday clothing"
+  - season: winter
+    items:
+      - "Heavy padded winter coats and fur-trimmed hats against the cold northeast winters"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: [sunday]
+  typicalWorkHours: "Six-day work weeks are common; Sunday is the rest day. Activity is centred on the port and industrial plants of Chongjin."
+  lunchBreakTiming: "Midday."
+  notableShutdownPeriods:
+    - period: "National public holidays"
+      description: "State commemorations reduce non-essential work."
+  notes: "A northeastern industrial province historically reliant on heavy industry; access and business activity are state-controlled."
+sources:
+  - id: prk-factbook-city
+    name: "CIA World Factbook — Korea, North (major urban areas; Chongjin)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/korea-north/"
+    accessedDate: "2026-09-21"
+    note: "Chongjin among the DPRK's largest cities and its steel/industrial role; framing for this region's identity and industries."

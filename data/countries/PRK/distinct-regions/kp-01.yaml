@@ -1,0 +1,92 @@
+code: KP-01
+name:
+  eng: Pyongyang (Capital City)
+  local:
+    - languageCode: kor
+      value: 평양직할시 (P'yŏngyang Chik'alshi)
+climates:
+  - koppenCode: Dwa
+    description: "Humid continental (hot-summer) — cold, dry winters and warm, humid summers with a clear spring/autumn shoulder."
+landmarks:
+  - name: Kumsusan Palace of the Sun
+    description: "The mausoleum housing the embalmed bodies of Kim Il Sung and Kim Jong Il, a lavishly monumental pilgrimage site for North Koreans."
+  - name: Kim Il Sung Square
+    description: "The vast central ceremonial plaza in the heart of Pyongyang, site of mass military parades and rallies."
+  - name: Juche Tower
+    description: "A 170-metre granite tower on the Taedong River commemorating the Juche ideology, the state's guiding philosophy."
+  - name: Arch of Triumph
+    description: "A monumental arch inspired by the Paris original, commemorating Korean resistance to Japanese colonial rule."
+culturalTraits:
+  - "The showcase capital of the DPRK — monumental socialist architecture, wide boulevards and clean, ordered streets"
+  - "Carefully controlled presentation to foreign visitors via state-run tours"
+  - "Centre of national political ritual, mass games and grand commemorations"
+prideOf:
+  - "Monumental architecture and the 'showpiece city' identity of the state"
+  - "Metro and public-transport infrastructure built to demonstrate national capability"
+  - "The Taedong River waterfront and the city's planned layout"
+animals:
+  popular:
+    - "Pigeons in the squares and parks"
+    - "Domestic dogs and cats in homes"
+  unique: []
+industries:
+  - "Machine building, manufacturing and the state's flagship industries"
+  - "Metropolitan services, research and the national rail/transport hub"
+  - "Pyongyang's subway and cultural institutions (the central locus of state activity)"
+sports:
+  - "Soccer (association football)"
+  - "Basketball and volleyball"
+  - "Mass gymnastics (the famous Mass Games)"
+  - "Table tennis"
+entertainment:
+  - season: allYear
+    items:
+      - "Grand state theatres, the Pyongyang Circus and the Mangyongdae mass-games spectacles"
+      - "Central squares, parks and the riverside promenades"
+      - "Cooperative-run cafes, restaurants and the foreign-tourist hotel circuit"
+  - season: spring
+    items:
+      - "Mangyongdae and the city's green parks through April-May"
+  - season: autumn
+    items:
+      - "Pleasant walking weather in October along the Taedong River"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pyongyang naengmyeon — the famous cold noodle soup, a Pyongyang speciality"
+      - "Kkeut-ppdang rice cakes and taedonggang beer"
+      - "Bulgogi-style grilled meats and kimchi"
+  - season: winter
+    items:
+      - "Warm noodle soups and hotpot dishes in the cold months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Neat, conservative office and everyday dress; the choson-ot (hanbok) for celebrations"
+  - season: winter
+    items:
+      - "Heavy coats, hats and fur collars in the cold Pyongyang winter"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: [sunday]
+  typicalWorkHours: "Standard work weeks are six days (Mon-Sat) in much of the workforce; Sunday is the rest day. Working hours are state-directed."
+  lunchBreakTiming: "Midday, typically ~12:00."
+  notableShutdownPeriods:
+    - period: "Public holidays (e.g. 15 April 'Day of the Sun', 9 September founding day)"
+      description: "National commemorations with parades and limited non-essential business."
+  notes: "Pyongyang is the authorised showcase for foreign visitors; economic activity is state-planned and consumer commerce is limited outside official, party and market settings."
+sources:
+  - id: prk-factbook-city
+    name: "CIA World Factbook — Korea, North (capital and major urban areas)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/korea-north/"
+    accessedDate: "2026-09-21"
+    note: "Pyongyang as capital and largest city (~3.16M in 2023); framing for this region's identity and infrastructural notes."

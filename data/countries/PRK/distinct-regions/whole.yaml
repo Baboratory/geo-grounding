@@ -1,0 +1,127 @@
+code: WHOLE
+name:
+  eng: Korea, Democratic People's Republic of
+  local:
+    - languageCode: kor
+      value: 조선민주주의인민공화국 (Chosŏn Minjujuŭi Inmin Konghwaguk)
+# Generic country-wide fallback content for North Korea (unitary-large with a
+# curated subset of provinces/cities). National-level coverage for the whole
+# country that is not specific to a particular curated region.
+climates:
+  - koppenCode: Dwa
+    description: "Humid continental (hot-summer) over most of the southern lowlands and the capital area — cold, dry winters and warm, humid summers."
+  - koppenCode: Dwb
+    description: "Humid continental (warm-summer) in the mountainous northeast and higher terrain (including much of North Hamgyong), with long, cold, snowy winters."
+landmarks:
+  - name: Mount Paektu (Baekdu Mountain)
+    description: "The sacred 2,744m volcanic peak on the China border, the spiritual birthplace of Korean identity and the official birthplace of Kim Jong Il."
+  - name: Kaesong (Korea's old capital)
+    description: "A historic city near the DMZ with UNESCO-listed historic monuments and the Kaesong Industrial Region."
+    unescoWorldHeritage: true
+  - name: Panmunjom (Joint Security Area)
+    description: "The truce-village site on the DMZ where the 1953 armistice was signed, a heavily symbolic frontier."
+  - name: Chongjin and coastal East Sea ports
+    description: "Major northeastern industrial and port cities along the Sea of Japan coast."
+# Mount Paektu and other sites noted; Kaesong's Historic Monuments are UNESCO
+# World Heritage.
+culturalTraits:
+  - "A highly centralized single-party state built on Juche (self-reliance) and Songun (military-first) ideology"
+  - "Profound reverence for the leadership and the 'immortal' Kim family legacy"
+  - "Strongly collective culture with emphasis on state, party and military loyalty"
+  - "Traditional Korean customs (kimchi, hanbok, ancestor respect) interwoven with state ideology"
+prideOf:
+  - "National self-reliance (Juche) and sovereignty against perceived external pressure"
+  - "Mount Paektu and the shared Korean cultural heritage"
+  - "Engineering feats such as the West Sea Barrage and Monuments of the capital"
+animals:
+  popular:
+    - "Domestic dogs, cats and poultry in farms and homes"
+    - "Pigeons and urban birds in towns"
+  unique:
+    - "Amur (Siberian) tigers and leopards historically in the mountainous northeast"
+    - "Migratory birds and coastal species along the Korean coastline"
+industries:
+  - "Mining (iron ore, coal, magnesite, zinc) — a traditional strength"
+  - "Ferrous metallurgy and heavy industry (steel, chemicals, machine building)"
+  - "Agriculture: rice, corn (maize), soybeans, potatoes; cooperative and state farms"
+  - "Fisheries and aquaculture along both coasts"
+  - "Tourism (mainly state-organised foreign visits) and remittance-adjacent relations with China"
+sports:
+  - "Soccer (association football)"
+  - "Basketball and volleyball"
+  - "Mass gymnastics and the famous Mass Games"
+  - "Winter sports and athletics"
+religions:
+  - name: Irreligious / no religion (state-prevailing)
+    percent: 71.0
+    sourceId: prk-religion
+  - name: Korean shamanism and Cheondoism (folk traditions)
+    percent: 16.0
+    sourceId: prk-religion
+  - name: Buddhism
+    percent: 11.0
+    sourceId: prk-religion
+  - name: Christianity (Chondoist-compatible Christian communities and Protestant/Orthodox minorities)
+    percent: 2.0
+    sourceId: prk-religion
+# Religion estimates are inherently uncertain for North Korea; figures follow
+# the Religious Characteristics of States Dataset (2015) as cited in the US
+# State Department IRF report: ~70.9% atheist, ~11% Buddhist, 1.7% Christian,
+# remainder folk/traditional. Shamanism and Cheondoism prevalence is widely
+# reported but not precisely measured.
+entertainment:
+  - season: allYear
+    items:
+      - "State theatres, the Pyongyang Circus and national cultural performances"
+      - "Parks, squares and riverside promenades (especially in Pyongyang)"
+      - "Cooperative cafes and restaurants; market (jangmadang) browsing"
+  - season: spring
+    items:
+      - "May Day and spring outings to parks and countryside"
+  - season: summer
+    items:
+      - "Coastal and lakeside leisure along both coasts"
+  - season: autumn
+    items:
+      - "National Day (9 September) celebrations and autumn outings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kimchi — the essential fermented vegetable side at every meal"
+      - "Naengmyeon — cold buckwheat noodles, especially Pyongyang style"
+      - "Bulgogi and grilled meats, and kimbap-style rice rolls"
+      - "Rice, corn, potatoes and soybean dishes as daily staples"
+  - season: winter
+    items:
+      - "Warm noodle soups and hotpot-style dishes in the cold months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modest, conservative everyday dress; the traditional hanbok (choson-ot) at celebrations"
+  - season: winter
+    items:
+      - "Heavy padded coats, fur-trimmed hats and warm layers for the cold winters"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: [sunday]
+  typicalWorkHours: "Six-day work weeks (Mon-Sat) are prevalent; Sunday is the rest day. Economic life is state-planned and centrally directed."
+  lunchBreakTiming: "Midday."
+  notableShutdownPeriods:
+    - period: "Public holidays (15 April Day of the Sun; 9 September founding day; 1 May; Korean New Year)"
+      description: "State commemorations with parades and reduced non-essential activity."
+  notes: "Business in North Korea is centrally planned and heavily restricted for foreigners; UN Security Council sanctions constrain external trade, finance and commerce. Domestic retail centres on state stores and the informal jangmadang markets."
+sources:
+  - id: prk-religion
+    name: "2022 Report on International Religious Freedom — North Korea (US State Department)"
+    publisher: "U.S. State Department"
+    url: "https://2021-2025.state.gov/reports/2022-report-on-international-religious-freedom/north-korea/"
+    accessedDate: "2026-09-21"
+    note: "Religious Characteristics of States Dataset (2015): ~70.9% atheist, ~11% Buddhist, 1.7% Christian; remainder folk/traditional (shamanism, Cheondoism); basis for the constructive national religion split."
