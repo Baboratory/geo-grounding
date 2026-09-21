@@ -1,0 +1,87 @@
+code: WHOLE
+name:
+  eng: Guam
+  local:
+    - languageCode: cha
+      value: "Guåhan"
+    - languageCode: eng
+      value: Guam
+# Generic country-wide fallback content for Guam (dependent-territory, single
+# synthetic whole region). A single volcanic island ~30 miles long and 4-12
+# miles wide, with a northern limestone plateau and southern volcanic highlands.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest / maritime climate — hot and humid year-round, with a distinct dry season (Jan-May) and a wet season (Jun-Dec) with typhoons, the wettest months being August-October."
+landmarks:
+  - name: Two Lovers Point (Puntan Dos Amantes)
+    description: "A dramatic cliff on the north coast overlooking Tumon Bay and two shorelines, seen as a symbol of love and sacrifice in CHamoru legend, and a popular overlook."
+  - name: Tumon Bay
+    description: "Guam's main resort and tourist strip on the west coast — hotels, beaches, and the heart of the tourism economy."
+  - name: Hagåtña (Agana)
+    description: "The capital and historic seat of government, on the west coast at the mouth of the Agaña River valley."
+  - name: Fort Nuestra Señora de la Soledad
+    description: "Spanish-era fort at Umatac on the south coast, linked to Ferdinand Magellan's 1521 voyage and the Spanish maritime heritage."
+culturalTraits:
+  - "CHamoru culture: village fiestas, the Catholic faith, and the value of inafa'maolek (working for harmony and mutual benefit)"
+  - "A distinct CHamoru language (Chamorro) and Spanish-influenced Catholic customs from three centuries of Spanish rule"
+  - "Family (familia) and village ties, respect for elders, and the traditional 'fanachu' outdoor cooking practice"
+  - "US popular culture blended with island traditions — a 'where America's day begins' identity near the International Date Line"
+prideOf:
+  - "The CHamoru people's millennia of island history and the survival of the Chamorro language"
+  - "Being the US territory closest to the International Date Line ('where America's day begins')"
+  - "Guam's role as a vital US military and strategic hub in the Western Pacific"
+animals:
+  popular:
+    - "Mariana fruit bats (fanihi)"
+    - "Coconut crabs"
+    - "Green sea turtles"
+    - "Reef fish and tropical birds (Mariana crow recovery programs)"
+  unique:
+    - "Home to the endemic Mariana fruit bat and several species found nowhere else (e.g. the Guam kingfisher, now a focus of conservation)"
+    - "One of the world's most important coral reef regions, though reef health faces pressures from the invasive brown tree snake"
+industries:
+  - "US federal and military spending — Andersen Air Force Base and Naval Base Guam dominate the economy"
+  - "Tourism, chiefly from Japan, South Korea and other East Asian markets (Tumon Bay)"
+  - "Retail and services"
+  - "Fishing and aquaculture (Guam is a regional tuna hub)"
+  - "Construction and federal civilian employment"
+sports:
+  - "American football (gridiron) — very popular"
+  - "Basketball"
+  - "Baseball and softball"
+  - "Volleyball and island running events"
+religions:
+  - name: Christian (overwhelmingly Catholic, with a Protestant minority)
+    percent: 94.7
+    sourceId: wp-culture
+  - name: Buddhist and other
+    percent: 5.3
+    sourceId: wp-culture
+# Religion is overwhelmingly Christian (~94.7%, chiefly Catholic per 2010 Pew);
+# the small remainder is largely Buddhist among the Filipino/Asian community.
+entertainment:
+  - season: allYear
+    items:
+      - "Church services and Sunday gatherings — central to weekly life"
+      - "Village fiestas with song, dance and traditional cooking"
+      - "Beach, snorkelling, diving and fishing along the coast"
+  - season: dry
+    items:
+      - "Peak beach and diving days (Jan-May dry season)"
+  - season: wet
+    items:
+      - "Indoor and community cultural festivities"
+      - "Liberation Day (21 July), Guam's main public holiday"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10, 11, 12]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — Guam (Culture and demographics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Guam"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Religion overwhelmingly Christian (~94.7% incl. ~75% Catholic per 2010 Pew); Buddhist and other residual."

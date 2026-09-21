@@ -1,0 +1,89 @@
+code: WHOLE
+name:
+  eng: Cocos (Keeling) Islands
+  local:
+    - languageCode: eng
+      value: Cocos (Keeling) Islands
+    - languageCode: msa
+      value: "Kapulung-hen"
+# Generic country-wide fallback content for the Cocos (Keeling) Islands
+# (dependent-territory, single synthetic whole region). Two coral atolls of the
+# South Keeling (inhabited) and the uninhabited North Keeling group, ~27 small
+# islands in all.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest / hot maritime climate, humid year-round, strongly moderated by the ocean; the wetter season runs with the north-west monsoon (October-April) and drier south-east trade-wind season (May-September)."
+landmarks:
+  - name: South Keeling Atoll lagoon
+    description: "The inhabited atoll with a deep, calm turquoise lagoon ringed by coral keys — the setting for the islands' two main villages, West Island and Home Island (Bantam)."
+  - name: West Island
+    description: "The seat of the territory administration and the main village, on the larger island of the inhabited atoll."
+  - name: Direction Island
+    description: "One of the pretty uninhabited keys of the South Keeling atoll, with an historic jetty and some of the islands' best snorkelling."
+culturalTraits:
+  - "The Cocos Malays — a close-knit Malay Muslim community descending from the transport workers of the Clunies-Ross estate"
+  - "Strong Islamic faith: communal Friday jum'ah prayers and the Qur'an are central to island life"
+  - "Community life revolves around family, the elders' council and the flag-carried 'Kokos' identity (Kapulung/Cocos Malay dialect)"
+  - "A gentle, low-stress island pace with a strong sense of mutual support"
+prideOf:
+  - "Preserving Cocos Malay language, customs and the Muslim faith of the islanders"
+  - "The stunning lagoon and coral atoll environment of the South Keeling group"
+  - "A close community that supported each other through the transition to Australian citizenship"
+animals:
+  popular:
+    - "Coconut (robber) crabs — abundant on the atolls"
+    - "Green sea turtles"
+    - "Red-footed boobies and frigatebirds"
+    - "Red-tailed tropicbirds and reef fish"
+  unique:
+    - "Home to large crab colonies and atolls important for seabird (booby and frigatebird) nesting"
+    - "The uninhabited North Keeling Island is a protected seabird sanctuary"
+industries:
+  - "Government and public-sector employment — the dominant employer"
+  - "Coconut (copra) production, a historic mainstay of the economy"
+  - "Tourism (small-scale, centred on the lagoon, snorkelling and the Malaysian heritage)"
+  - "Tuna-fishing and, in recent years, interest in servicing Indian Ocean shipping"
+  - "Ex-service and caretaker work on the islets"
+sports:
+  - "Soccer (football) — very popular, played on the atoll's pitch"
+  - "Cricket and netball"
+  - "Swimming and lagoon water sports"
+  - "Fishing as a way of life"
+religions:
+  - name: Islam (principally Sunni, among the Cocos Malay majority)
+    percent: 60.0
+    sourceId: wp-culture
+  - name: Christian (among the Anglo-Australian minority)
+    percent: 25.0
+    sourceId: wp-culture
+  - name: Other / unaffiliated
+    percent: 15.0
+    sourceId: wp-culture
+# Religion is predominantly Sunni Islam among the Cocos Malay majority (~60%),
+# with a Christian minority among the Anglo-Australian residents. Figures are
+# estimates.
+entertainment:
+  - season: allYear
+    items:
+      - "Communal prayers, Friday gatherings and family meals"
+      - "Lagoon and beach days: swimming, snorkelling, fishing"
+  - season: dry
+    items:
+      - "Peak beach and water-sports days (south-east trade-wind season, May-Sep)"
+  - season: wet
+    items:
+      - "Indoor community gatherings and reading of the Qur'an"
+      - "Ramadan and Eid celebrations with communal feasting"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12, 1, 2, 3, 4]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — Cocos (Keeling) Islands (Society and culture)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Cocos_(Keeling)_Islands"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Sunni Islam predominant among the Cocos Malay majority; Christian and other minorities; figures are estimates."

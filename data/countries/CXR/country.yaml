@@ -1,0 +1,144 @@
+alpha3: CXR
+alpha2: CX
+name:
+  eng: Christmas Island
+  local:
+    - languageCode: eng
+      value: Christmas Island
+    - languageCode: cmn
+      value: "圣誕島 (Shèngdàn Dǎo)"
+flagEmoji: "🇨🇽"
+capital: "Flying Fish Cove"
+isSovereign: false
+# Classified dependent-territory: Christmas Island is an Australian external
+# territory in the eastern Indian Ocean, transferred to Australia from
+# Singapore in 1958. A single volcanic island about 135 km2, home to a
+# multicultural population of ~1,900. A single synthetic WHOLE region per the
+# governance rule for non-sovereign ISO 3166-1 entries.
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: cmn
+    domain: locallySpoken
+    speakersShare: 0.35
+    sourceId: wp-lang
+  - languageCode: msa
+    domain: locallySpoken
+    speakersShare: 0.35
+    sourceId: wp-lang
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.6
+    sourceId: wp-lang
+# English is the official language (Australian territory). Mandarin (Chinese)
+# and Malay are widely spoken by the large Chinese and Malay communities, and
+# other languages (Tagalog, Tamil, Urdu) are present among the workforce.
+# LocallySpoken shares are estimates.
+ethnicGroups:
+  - group: Chinese (chiefly from Malaysia and Singapore)
+    percent: 21.0
+    sourceId: wp-ethnic
+  - group: Malay
+    percent: 18.0
+    sourceId: wp-ethnic
+  - group: Anglo-Australian and European
+    percent: 18.0
+    sourceId: wp-ethnic
+  - group: Other Asian (Indian, Sikh, Filipino and other)
+    percent: 25.0
+    sourceId: wp-ethnic
+  - group: Mixed and other
+    percent: 18.0
+    sourceId: wp-ethnic
+timezones:
+  - name: Indian/Christmas
+    standardUtcOffset: "UTC+7"
+    observesDst: false
+# Christmas Island is on a single timezone UTC+7 year-round with no DST.
+currency:
+  code: AUD
+  symbol: "$"
+  name: Australian dollar
+legalConstraints:
+  - topic: "official language"
+    description: "English is the official language of the Australian external territory; Mandarin, Malay and other languages are widely spoken."
+    sourceId: wp-lang
+  - topic: "Australian external territory status"
+    description: "Administered as part of Australia's Indian Ocean Territories (with the Cocos (Keeling) Islands) since transfer from Singapore in 1958; residents are Australian citizens and, under the Christmas Island Act, the territory follows Western Australian law."
+    sourceId: wp-politics
+  - topic: "red crab protection"
+    description: "The island's world-famous annual red land-crab migration is legally protected — during the migration crabs take priority over vehicles and special bridges and road closures support their passage."
+    sourceId: wp-culture
+  - topic: "immigration detention facility"
+    description: "Christmas Island has hosted an Australian immigration detention facility since 2001, which is a major employer and an ongoing point of national debate over immigration policy."
+    sourceId: wp-politics
+paymentCulture:
+  popularMethods:
+    - "The Australian dollar is the sole legal tender"
+    - "Cash and EFTPOS are standard; the few shops and the resort accept cards"
+    - "Banking is provided by Australian institutions, with an agency on the island"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary"
+    autoIncludedInBill: false
+    note: "Tipping is not generally expected, though rounding up at eateries is fine."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "A small multicultural community mixing Chinese, Malay, Filipino and Anglo-Australian customs — cheerful, informal and highly tolerant; respect for the various faiths is expected."
+  greetingNorms: "Friendly greetings in English; a smile and polite acknowledgment of neighbours' and colleagues' cultural backgrounds."
+  meetingEtiquette: "Meetings are small and community-minded; politeness and good humour carry weight, and all resident groups expect to be treated equally."
+  topicsToAvoid:
+    - "Disrespecting any religious community (Buddhist, Muslim, Christian, Sikh, Hindu)"
+    - "Making light of the red-crab migration or the detention-facility politics"
+  giftGivingNotes: "Modest gifts and sharing food between households are appreciated across the communities."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: wp-lang
+    name: "Wikipedia — Christmas Island (Languages)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Christmas_Island#Languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "English official; Mandarin and Malay widely spoken by Chinese and Malay communities."
+  - id: wp-ethnic
+    name: "Wikipedia — Christmas Island (Demographics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Christmas_Island#Demographics"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Chinese ~21%, Malay ~18%, Anglo-Australian ~18%, other Asian groups and mixed; approximate shares."
+  - id: wp-politics
+    name: "Wikipedia — Christmas Island (Status and economy)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Christmas_Island"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Australian external territory since 1958 (from Singapore); detention facility; Western Australian law applies."
+  - id: wp-culture
+    name: "Wikipedia — Christmas Island (Environment and red crab migration)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Christmas_Island"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Annual red land-crab migration with legal protections; endemic species."
+  - id: iso-msa
+    name: "ISO 639-3 entry: msa — Malay (macrolanguage)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/msa"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code msa = Malay (macrolanguage), Active."
+  - id: iso-cmn
+    name: "ISO 639-3 entry: cmn — Mandarin Chinese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/cmn"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "cmn (Mandarin) already used in the dataset; no new verification required beyond existing usage."

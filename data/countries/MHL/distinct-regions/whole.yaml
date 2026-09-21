@@ -1,0 +1,85 @@
+code: WHOLE
+name:
+  eng: Marshall Islands
+  local:
+    - languageCode: mah
+      value: "Aolepān Aorōkin M̧ajeļ"
+    - languageCode: eng
+      value: Marshall Islands
+# Generic country-wide fallback content for the Republic of the Marshall
+# Islands (unitary-small, single synthetic whole region). Two parallel coral
+# atoll chains (Ratak and Ralik) of 29 atolls and five isolated islands.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest / hot and humid maritime climate year-round, with a drier north-east trade-wind season (Dec-Apr) and a wetter season with passing typhoons (May-Nov)."
+landmarks:
+  - name: Majuro Atoll
+    description: "The capital atoll and most populous island, a narrow coral atoll around a deep lagoon, home to the government seat and the international airport."
+  - name: Kwajalein Atoll
+    description: "The world's largest coral atoll, encircling a 655-square-mile lagoon; site of the US Army Kwajalein Atoll Reagan Test Site (missile-testing range) and the island of Ebeye."
+  - name: Bikini Atoll
+    description: "Site of the US nuclear weapons tests (1946 'Operation Crossroads'); today a UNESCO World Heritage Site recognised for its profound nuclear-testing history."
+culturalTraits:
+  - "Bwij matrilineal clan system: land, titles and identity pass through the mother's lineage under chiefly (irooj) authority"
+  - "Customary communal land tenure — most land held by lineages, not freely saleable to outsiders"
+  - "Strong Christian faith (largely Protestant, United Church of Christ); Sunday church is central to weekly life"
+  - "Traditional stick-chart navigation and outrigger canoe heritage, continued by a small band of navigation practitioners"
+prideOf:
+  - "Being the world's first nation to achieve independence (1979) after World War II trusteeship, and a strong modern advocate of nuclear disarmament"
+  - "Preserving Marshallese language and lineage traditions across a wide ocean nation"
+  - "The world's largest coral atoll (Kwajalein) and rich Micronesian heritage"
+animals:
+  popular:
+    - "Mother-of-pearl clams, giant clams and coral reef fish"
+    - "Green and hawksbill sea turtles"
+    - "Coconut (robber) crabs"
+    - "Frigatebirds and boobies"
+  unique:
+    - "Some of the world's richest coral reef systems; the atolls shelter giant clams and the coconut crab, the largest land arthropod"
+    - "Bikini's reef recovered unusually well after the 1940s tests and now hosts dense coral and fish life"
+industries:
+  - "US Compact of Free Association grants — the largest single source of government revenue"
+  - "Fishing license fees (tuna) and Marshall Islands Ship Registry — one of the top ship registries in the world"
+  - "Copra (dried coconut) and coconut oil on the outer atolls"
+  - "Tourism (modest, centred on Majuro, Kwajalein and diving)"
+  - "Handicrafts (weaving, stick charts, coconut-shell crafts)"
+  - "Remittances from the sizeable Marshallese diaspora in the United States"
+sports:
+  - "Basketball — by far the most popular sport, played at community and national level"
+  - "Baseball"
+  - "Volleyball"
+  - "Outrigger canoeing and sailing, tied to the traditional navigation heritage"
+religions:
+  - name: Christian (overwhelmingly Protestant — United Church of Christ, Assemblies of God and others, with a Catholic minority)
+    percent: 97.9
+    sourceId: wp-culture
+  - name: Other / unaffiliated
+    percent: 2.1
+    sourceId: wp-culture
+# Religion is overwhelmingly Christian (~97.9%); 'other' is a small residual.
+entertainment:
+  - season: allYear
+    items:
+      - "Church services and Sunday gatherings — central to weekly life"
+      - "Lagoon and reef days: swimming, fishing, sailing"
+      - "Community feasts with traditional Marshallese song and dance"
+  - season: dry
+    items:
+      - "Peak beach, snorkelling and diving days (Dec-Apr trade-wind season)"
+  - season: wet
+    items:
+      - "Indoor and community cultural festivities"
+      - "Constitution Day (1 May) and Manifa (4 July) national celebrations"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — Marshall Islands (Culture and demographics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Marshall_Islands"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Religion overwhelmingly Christian (~97.9%, United Church of Christ and others); 'other' is a residual."

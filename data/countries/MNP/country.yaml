@@ -1,0 +1,164 @@
+alpha3: MNP
+alpha2: MP
+name:
+  eng: Northern Mariana Islands
+  local:
+    - languageCode: eng
+      value: Northern Mariana Islands
+    - languageCode: cha
+      value: "Islas Mariånas"
+    - languageCode: cal
+      value: "Téél Falúw kka Efáng llól Marianas"
+flagEmoji: "🇲🇵"
+capital: Saipan
+isSovereign: false
+# Classified dependent-territory: the Commonwealth of the Northern Mariana
+# Islands is an unincorporated US territory with its own constitution. The 14
+# inhabited islands of the Marianas chain (Saipan, Tinian, Rota and the
+# northern islands) form a compact archipelago without a widely recognized
+# cultural-historical regional divide meriting curation. One synthetic WHOLE
+# region.
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: cha
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: cal
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.6
+    sourceId: wp-lang
+  - languageCode: cha
+    domain: locallySpoken
+    speakersShare: 0.15
+    sourceId: wp-lang
+  - languageCode: cal
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: wp-lang
+# English, Chamorro and Carolinian are the official languages (CNMI Constitution
+# art. XXII). English dominates government and business; Chamorro is the
+# indigenous language of the southern islands and Carolinian of the Carolinian
+# community on Saipan. Tagalog and other migrant languages are widely spoken.
+# LocallySpoken shares are estimates.
+ethnicGroups:
+  - group: Filipino
+    percent: 34.9
+    sourceId: wp-ethnic
+  - group: Chamorro (indigenous)
+    percent: 23.9
+    sourceId: wp-ethnic
+  - group: Carolinian (indigenous)
+    percent: 10.4
+    sourceId: wp-ethnic
+  - group: Chinese
+    percent: 6.3
+    sourceId: wp-ethnic
+  - group: Korean
+    percent: 4.9
+    sourceId: wp-ethnic
+  - group: Japanese
+    percent: 2.9
+    sourceId: wp-ethnic
+  - group: Other Pacific Islander, White, mixed and other
+    percent: 16.7
+    sourceId: wp-ethnic
+timezones:
+  - name: Pacific/Saipan
+    standardUtcOffset: "UTC+10"
+    observesDst: false
+# The Northern Mariana Islands are on a single timezone UTC+10 year-round with
+# no DST.
+currency:
+  code: USD
+  symbol: "$"
+  name: United States dollar
+legalConstraints:
+  - topic: "official languages"
+    description: "English, Chamorro and Carolinian are the official languages (CNMI Constitution art. XXII)."
+    sourceId: wp-lang
+  - topic: "US commonwealth status"
+    description: "The CNMI is an unincorporated US territory with a self-governing constitution; its residents are US nationals (not citizens) who cannot vote in US presidential elections, and most immigration and labour rules differ from the mainland."
+    sourceId: wp-politics
+  - topic: "labour migration and gambling"
+    description: "The economy relies heavily on guest workers (chiefly from the Philippines and South Asia); the CNMI long had no casino gambling and a high minimum-wage carve-out from US labour law, both points of recurring debate."
+    sourceId: wp-politics
+  - topic: "Battle of Saipan heritage"
+    description: "Saipan and Tinian were the sites of major Pacific War battles (1944) and the taking-off point for the nuclear bombers; war memorials and the deep Catholic faith of the native Chamorro population remain defining."
+    sourceId: wp-culture
+paymentCulture:
+  popularMethods:
+    - "US dollar cash and cards are standard, as in the US mainland"
+    - "Credit cards accepted in Saipan's hotels, restaurants and malls"
+    - "ATMs on Saipan, Tinian and Rota; banking via regional branches"
+    - "Remittances in both directions between the CNMI and the Philippines/Asia"
+  tipping:
+    expected: true
+    typicalAmount: "10-20% at sit-down restaurants, following US customs"
+    autoIncludedInBill: false
+    note: "Tipping follows US conventions: 15-20% in restaurants and for service staff."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "US-influenced informality blended with Chamorro and Carolinian respect for elders and generous hospitality; family and church are central."
+  greetingNorms: "A warm 'Håfa Adai' (Chamorro hello) or handshake; first names with a respectful tone."
+  meetingEtiquette: "Meetings value politeness, relationship-building and consensus; avoid direct confrontation, and acknowledge the importance of the family and the Catholic Church."
+  topicsToAvoid:
+    - "Disrespecting Chamorro or Carolinian custom or the Catholic faith"
+    - "Treating the military/WWII history or guest-worker labour topics dismissively"
+  giftGivingNotes: "Modest gifts and sharing food are valued; generosity and hospitality are highly regarded."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: wp-lang
+    name: "Wikipedia — Northern Mariana Islands (Languages)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Northern_Mariana_Islands#Languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "English, Chamorro and Carolinian official (Constitution art. XXII); Tagalog and other migrant languages widely spoken."
+  - id: wp-ethnic
+    name: "Wikipedia — Northern Mariana Islands (Demographics, 2010 US census)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Northern_Mariana_Islands#Demographics"
+    year: 2010
+    accessedDate: "2026-09-21"
+    note: "Filipino 34.9%, Chamorro 23.9%, Carolinian 10.4%, Chinese 6.3%, Korean 4.9%, Japanese 2.9%, other/mixed residual."
+  - id: wp-politics
+    name: "Wikipedia — Northern Mariana Islands (Politics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Northern_Mariana_Islands#Politics"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "CNMI is an unincorporated US territory with its own constitution; US nationals; labour and immigration carve-outs."
+  - id: wp-culture
+    name: "Wikipedia — Northern Mariana Islands (History and culture)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Northern_Mariana_Islands"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Pacific War heritage on Saipan/Tinian; strong Catholic CHamoru culture."
+  - id: iso-cal
+    name: "ISO 639-3 entry: cal — Carolinian"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/cal"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code cal = Carolinian (Active, Individual, Living)."
+  - id: iso-cha
+    name: "ISO 639-3 entry: cha — Chamorro"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/cha"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code cha = Chamorro (Active, Individual, Living)."
