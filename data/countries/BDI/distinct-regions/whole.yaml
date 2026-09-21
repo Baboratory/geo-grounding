@@ -1,0 +1,131 @@
+code: WHOLE
+name:
+  eng: Burundi
+  local:
+    - languageCode: run
+      value: Uburundi
+    - languageCode: fra
+      value: Burundi
+    - languageCode: eng
+      value: Burundi
+# Generic country-wide fallback content for Burundi (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) in the lower-lying western Rift lowlands near Lake Tanganyika — hot with a pronounced dry season."
+  - koppenCode: Cwb
+    description: "Temperate/subtropical highland climate on the central plateau — mild and rainy over most of the country, moderated by altitude."
+landmarks:
+  - name: Lake Tanganyika
+    description: "One of the world's oldest and deepest lakes on the south-west border; famed for its biodiversity and beaches."
+  - name: Gishora Drum Sanctuary
+    description: "Traditional royal drumming site near Gitega; the sacred 'karyenda' drum and Intore dancers embody Burundian heritage."
+    unescoWorldHeritage: false
+  - name: Kibira National Park
+    description: "Montane rainforest on the Congo-Nile divide, home to chimpanzees and colobus monkeys (source of the Nile region)."
+  - name: Gitega National Museum
+    description: "The largest museum in the country, displaying royal drums and Burundian cultural objects."
+  - name: Rusizi National Park
+    description: "Wetland park where the Rusizi River meets Lake Tanganyika; hippos and waterbirds."
+culturalTraits:
+  - "The sacred royal drum (karyenda) and Intore dance — a core national identity"
+  - "Kirundi spoken by virtually all Burundians as a unifying mother tongue"
+  - "Strong oral tradition of poetry, proverbs and storytelling"
+  - "Coffee and tea cultivation across the highlands"
+  - "Deep communal and family bonds and respect for elders"
+  - "Post-conflict emphasis on reconciliation and unity"
+prideOf:
+  - "The royal drum and Intore dance legacy"
+  - "The beauty of Lake Tanganyika and the green hills"
+  - "Community resilience and reconciliation"
+  - "High-quality highland coffee and tea"
+animals:
+  popular:
+    - "Hippopotamus (Rusizi and Lake Tanganyika)"
+    - "Chimpanzee (Kibira NP)"
+    - "Colobus monkey"
+    - "Crocodiles along lake and river shores"
+  unique:
+    - "Endemic fish species of Lake Tanganyika (one of the world's richest cichlid lakes)"
+    - "Albertine Rift montane endemics"
+industries:
+  - "Agriculture — coffee and tea (main exports) plus food crops (banana, beans, cassava)"
+  - "Fishing on Lake Tanganyika"
+  - "Mining — gold, coltan/tantalum, nickel"
+  - "Livestock and dairy"
+  - "Tourism (lake, mountains, national parks)"
+sports:
+  - "Football (soccer) — the most popular sport"
+  - "Basketball"
+  - "Athletics (long-distance running)"
+  - "Volleyball"
+religions:
+  - name: Roman Catholic
+    percent: 62.0
+    sourceId: bdi-religion-estimate
+  - name: Protestant (incl. Pentecostal and other denominations)
+    percent: 21.0
+    sourceId: bdi-religion-estimate
+  - name: Muslim
+    percent: 2.0
+    sourceId: bdi-religion-estimate
+  - name: Other / traditional faiths
+    percent: 15.0
+    sourceId: bdi-religion-estimate
+entertainment:
+  - season: allYear
+    items:
+      - "Football and basketball on TV; live music and dance"
+      - "Traditional Intore drumming and dance performances"
+  - season: dry
+    items:
+      - "Best months for Lake Tanganyika beaches and park visits (Jul-Sep)"
+      - "Outdoor cultural festivals and community gatherings"
+  - season: wet
+    items:
+      - "Indoor/city culture and coffee-trading activities during the rainy months"
+      - "Hiking the green highlands (muddy-path caution)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ugali (maize/cassava dough) served with beans, greens and stews"
+      - "Kirundi-style goat and bean dishes; plantain (matoke)"
+      - "Fresh fruit (banana, mango, passion fruit)"
+  - season: dry
+    items:
+      - "Grilled dishes and brochettes at weekend markets and celebrations"
+  - season: wet
+    items:
+      - "Hearty bean and vegetable stews during the rainy months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colourful wax-print (kitenge) cloth for women; smart-casual Western dress for men"
+      - "Ceremonial dress with drums and woven textiles at festivals"
+  - season: dry
+    items:
+      - "Light cotton wear suited to the warm season"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8]
+  - season: wet
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 07:30/08:00-17:00 Mon-Fri."
+  lunchBreakTiming: "A standard midday break."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Reduced business over the Christmas/New Year week."
+    - period: "National holidays"
+      description: "Independence Day (1 Jul) and other public holidays shut most businesses."
+  notes: "A relaxed but respectful business culture; patience and relationship-building matter."
+sources:
+  - id: bdi-religion-estimate
+    name: "Burundi religious affiliation (US State Dept / CIA estimates)"
+    publisher: "U.S. State Department / CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/burundi/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Roughly two-thirds Roman Catholic, the remainder Protestant (incl. Pentecostal), Muslim (small) and other/traditional — ESTIMATE (no authoritative census breakdown)."

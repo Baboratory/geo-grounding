@@ -1,0 +1,137 @@
+code: WHOLE
+name:
+  eng: Equatorial Guinea
+  local:
+    - languageCode: spa
+      value: Guinea Ecuatorial
+    - languageCode: fra
+      value: Guinée Équatoriale
+    - languageCode: por
+      value: Guiné Equatorial
+# Generic country-wide fallback content for Equatorial Guinea (unitary-small,
+# single synthetic whole region). Used via the 'whole-country-fallback' path.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate dominant — hot and wet year-round with high rainfall (Malabo ~1,950mm/yr); covers most of the mainland and Bioko."
+  - koppenCode: Am
+    description: "Tropical monsoon in wetter coastal zones with a short drier spell."
+  - koppenCode: Cfb
+    description: "Temperate highland climate on the highest peak, Pico Basilé on Bioko (~3,008m)."
+landmarks:
+  - name: Monte Alén National Park
+    description: "Mainland tropical-rainforest park with elephants, gorillas and endemic birds; on UNESCO's tentative list."
+    unescoWorldHeritage: false
+  - name: Pico Basilé (Bioko)
+    description: "Volcanic peak (~3,008m) on Bioko, the highest point in the country, with montane forest and unique wildlife."
+  - name: Malabo (Old Quarter)
+    description: "The island capital with a gradeur of 19th-century wood-and-iron colonial buildings."
+  - name: Caldera de Luba (Bioko)
+    description: "A huge volcanic caldera and nature reserve; one of the largest calderas in the world."
+  - name: Annobón
+    description: "A remote volcanic island in the South Atlantic, noted for its unique creole culture (Annobonese) and wildlife."
+culturalTraits:
+  - "Fang culture and traditions dominate the mainland (mvet harp, oral epics)"
+  - "Bubi culture of Bioko island, with its own language and matrilineal clans"
+  - "The only African country whose official languages include Spanish"
+  - "Afro-Caribbean-influenced Annobonese creole culture on Annobón"
+  - "Traditional music and dance (abira, balélé) tied to harvest and ritual"
+  - "Strong Catholic religious identity from Spanish colonial-era evangelization"
+prideOf:
+  - "Africa's only Spanish-speaking country"
+  - "The oil-driven wealth and modern capital architecture"
+  - "Bioko's diverse volcanic landscapes and endemic wildlife"
+  - "Distinct Fang, Bubi and Annobonese cultural heritages"
+animals:
+  popular:
+    - "Forest elephant"
+    - "Western lowland gorilla (Monte Alén)"
+    - "Drill (mandrill) monkey — Bioko"
+    - "Sea turtles on the coast"
+  unique:
+    - "Bioko drill monkey and other Bioko island endemics"
+    - "One of the highest diversities of endemic mammals and birds per area in Africa"
+industries:
+  - "Oil and gas — the dominant economic driver (~majority of GDP and exports)"
+  - "Agriculture — cocoa, coffee, timber, plantains and cassava"
+  - "Fishing (ocean fisheries)"
+  - "Construction and modern development around the hydrocarbon boom"
+  - "Port and logistics services (Malabo, Bata)"
+sports:
+  - "Football (soccer) — the most popular sport"
+  - "Athletics"
+  - "Basketball and volleyball"
+  - "Traditional dance and drumming as cultural sport"
+religions:
+  - name: Roman Catholic
+    percent: 88.0
+    sourceId: gnq-region-irf
+  - name: Protestant
+    percent: 5.0
+    sourceId: gnq-region-irf
+  - name: Muslim
+    percent: 2.0
+    sourceId: gnq-region-irf
+  - name: Other / traditional faiths
+    percent: 5.0
+    sourceId: gnq-region-irf
+entertainment:
+  - season: allYear
+    items:
+      - "Football and live music; traditional dance (abira, balélé) at festivals and ceremonies"
+      - "Modern nightlife in Malabo and Bata"
+  - season: dry
+    items:
+      - "Beach and coastal activities during the drier months (Dec-Feb, Jul-Aug)"
+      - "Park visits (Monte Alén) in lower-rain periods"
+  - season: wet
+    items:
+      - "Indoor/city culture and food festivals during the heaviest rains"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pepesup — the signature spicy fish soup"
+      - "Sopa de pescado con cacahuete (fish and peanut soup)"
+      - "Bambucha and akwadu (plantain/coconut desserts)"
+      - "Mtuba and topé (cassava dishes)"
+  - season: wet
+    items:
+      - "Hearty soups and stews during the rainy months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colourful wax-print cloth for women; Western dress for men in urban centres"
+      - "Ceremonial dress and body decoration at traditional Fang/Bubi rituals"
+  - season: dry
+    items:
+      - "Light cotton wear suited to the hot, humid climate"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 7, 8]
+  - season: wet
+    months: [4, 5, 6, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-17:00 Mon-Fri (with a midday break)."
+  lunchBreakTiming: "A standard midday break; lunch is often the main meal."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Reduced business over the Christmas/New Year week."
+    - period: "National holidays"
+      description: "Independence Day (12 Oct) and other public holidays close business."
+  notes: "A formal, hierarchical business culture; networking and relationships matter in the oil-driven economy."
+sources:
+  - id: gnq-region-irf
+    name: "Equatorial Guinea — International Religious Freedom report"
+    publisher: "U.S. State Department"
+    url: "https://2021-2025.state.gov/reports/2020-report-on-international-religious-freedom/equatorial-guinea"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "No state religion; Roman Catholic ~88%, Protestant ~5%, Muslim ~2%, other/traditional remainder."
+  - id: gnq-unesco
+    name: "Equatorial Guinea — UNESCO World Heritage States Parties"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/gq"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "No inscribed World Heritage sites as of 2026 (six sites on the tentative list, incl. Monte Alén, Pico Basilé, Caldera de Luba and Annobón) — landmarks carry unescoWorldHeritage:false."

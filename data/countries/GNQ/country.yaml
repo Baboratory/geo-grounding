@@ -1,0 +1,157 @@
+alpha3: GNQ
+alpha2: GQ
+name:
+  eng: Republic of Equatorial Guinea
+  local:
+    - languageCode: spa
+      value: "República de Guinea Ecuatorial"
+    - languageCode: fra
+      value: "République de Guinée Équatoriale"
+    - languageCode: por
+      value: "República da Guiné Equatorial"
+flagEmoji: "🇬🇶"
+capital: Malabo
+isSovereign: true
+# Classified unitary-small: Equatorial Guinea meets NONE of the 3 DESIGN.md
+# unitary-large criteria. (1) Population ~1.7-1.9M (est.) — far below the
+# 20-25M threshold. (2) No officially recognized regional/minority or
+# co-official indigenous languages — Spanish, French and Portuguese are the
+# three official languages and none is region-anchored (Fang and Bubi are the
+# main indigenous languages but not separately official). (3) No strong
+# federal/multi-region identity — a unitary presidential republic. One
+# synthetic WHOLE region. Note: the political capital relocated to Ciudad de
+# la Paz (Djibloho, continental) from January 2026; Malabo remains the island
+# capital.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: gnq-constitution
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: gnq-constitution
+  - languageCode: por
+    domain: official
+    speakersShare: 1.0
+    sourceId: gnq-constitution
+  - languageCode: fan
+    domain: locallySpoken
+    speakersShare: 0.78
+    sourceId: gnq-language-estimate
+  - languageCode: bvb
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: gnq-language-estimate
+# Equatorial Guinea is the only African country where Spanish is an official
+# language; Spanish, French and Portuguese are the three official languages
+# (Portuguese added 2010/2011). Fang is the most widely spoken indigenous
+# language (~78-86% of the population); Bube (Bubi) is spoken on Bioko island.
+# Official shares are de jure 1.0 legal-status flags; locallySpoken shares are
+# ESTIMATES.
+ethnicGroups:
+  # Shares are ESTIMATES from US State Dept / CIA (no recent authoritative
+  # ethnic census); Fang is the dominant group.
+  - group: Fang
+    percent: 80.0
+    sourceId: gnq-ethnic-estimate
+  - group: Bubi
+    percent: 10.0
+    sourceId: gnq-ethnic-estimate
+  - group: Other (Combe, Bujeba, Annobonese, Benga)
+    percent: 10.0
+    sourceId: gnq-ethnic-estimate
+timezones:
+  - name: Africa/Malabo
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+currency:
+  code: XAF
+  symbol: "FCFA"
+  name: Central African CFA franc
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Equatorial Guinea is NOT an EU or EEA state (an African Union and CEMAC member). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national and CEMAC-regional law governs."
+    sourceId: gnq-factbook
+  - topic: "official languages"
+    description: "The Constitution establishes Spanish as the official language; French was added in 1998 and Portuguese in 2010/2011, making it Africa's only Spanish-official state with three official languages."
+    sourceId: gnq-constitution
+  - topic: "media and expression"
+    description: "Constitutional guarantees of expression exist but media freedom is restricted in practice; journalists and political speech are heavily controlled (per the US State Dept human-rights reporting)."
+    sourceId: gnq-irf
+paymentCulture:
+  popularMethods:
+    - "Cash — dominant, given limited banking penetration"
+    - "Bank transfers (mainly in Malabo and Bata; oilsector-dominated formal economy)"
+    - "Card payments limited to major hotels and formal establishments"
+    - "Mobile money very limited"
+  tipping:
+    expected: false
+    typicalAmount: "5-10% in upscale restaurants is appreciated"
+    autoIncludedInBill: false
+    note: "No strong tipping culture; a small gratuity for good service in formal restaurants/hotels is welcome (ESTIMATE from travel guides)."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Formal titles and respect for hierarchy in official and business settings; roles are clearly defined."
+  greetingNorms: "Handshakes and polite, formal greetings; respect for seniors is emphasized."
+  meetingEtiquette: "Meetings are formal and relationship-driven; decisions rest with senior leadership; punctuality is expected in business."
+  topicsToAvoid:
+    - "The political leadership and internal politics (sensitive)"
+    - "Government corruption and public finances"
+  giftGivingNotes: "Not required in business; small gifts are welcome once relationships form."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: gnq-constitution
+    name: "Constitution of Equatorial Guinea (Ley Fundamental 1991, as amended to 2011)"
+    publisher: "Wikipedia (secondary source; primary: Constitution of Equatorial Guinea)"
+    url: "https://en.wikipedia.org/wiki/Constitution_of_Equatorial_Guinea"
+    year: 2011
+    accessedDate: "2026-09-19"
+    note: "Spanish official language (Constitution); French added 1998, Portuguese 2011 — three official languages. Basis for official rows."
+  - id: gnq-ethnic-estimate
+    name: "Equatorial Guinea — ethno-linguistic composition (US State Dept / CIA)"
+    publisher: "U.S. State Department / CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/equatorial-guinea/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Fang ~80%, Bubi ~10%, other (Combe/Bujeba/Annobonese/Benga) ~10% — ESTIMATES."
+  - id: gnq-language-estimate
+    name: "Languages of Equatorial Guinea (Fan/Bubi speaker estimates)"
+    publisher: "Academic / Ethnologue references"
+    url: "https://journals.openedition.org/ced/682"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Fang most widely spoken indigenous language (~78-86% of population); Bube spoken on Bioko. locallySpoken shares are ESTIMATES."
+  - id: gnq-timezone
+    name: "Time in Equatorial Guinea (Africa/Malabo) — IANA tz database"
+    publisher: "Wikipedia (secondary source; primary: IANA tz database)"
+    url: "https://en.wikipedia.org/wiki/Equatorial_Guinea"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Malabo = UTC+01:00 (WAT) year-round; no DST."
+  - id: gnq-currency
+    name: "Central African CFA franc (XAF) — BEAC"
+    publisher: "Bank of Central African States (BEAC) / IMF"
+    url: "https://www.imf.org"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "XAF, symbol FCFA, issued by the BEAC (Bank of Central African States); pegged to the euro."
+  - id: gnq-factbook
+    name: "Equatorial Guinea — organization membership (CIA World Factbook)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/equatorial-guinea/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Confirms AU and CEMAC membership, not EU/EEA."
+  - id: gnq-irf
+    name: "Equatorial Guinea — International Religious Freedom and human-rights reporting"
+    publisher: "U.S. State Department"
+    url: "https://2021-2025.state.gov/reports/2020-report-on-international-religious-freedom/equatorial-guinea"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "Freedom of worship, no state religion; Roman Catholic ~88%, Protestant ~5%, Muslim ~2%. Also basis for the media-restriction constraint."

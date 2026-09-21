@@ -1,0 +1,162 @@
+alpha3: BDI
+alpha2: BI
+name:
+  eng: Republic of Burundi
+  local:
+    - languageCode: run
+      value: "Repuburika y'Uburundi"
+    - languageCode: fra
+      value: "République du Burundi"
+    - languageCode: eng
+      value: "Republic of Burundi"
+flagEmoji: "🇧🇮"
+capital: Gitega
+isSovereign: true
+# Classified unitary-small: Burundi meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~12.3-13M (2024 census preliminary ~12.3M; 2008
+# census 8,053,574) — below the 20-25M threshold. (2) No widely recognized
+# regional/minority co-official languages — Kirundi is the sole national
+# language, spoken by virtually everyone; French and English are official but
+# not region-anchored. (3) No strong federal/multi-region cultural identity —
+# Burundi is a unitary presidential republic. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: run
+    domain: official
+    speakersShare: 1.0
+    sourceId: bdi-constitution
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: bdi-constitution
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: bdi-constitution
+  - languageCode: run
+    domain: locallySpoken
+    speakersShare: 0.98
+    sourceId: bdi-language-estimate
+  - languageCode: swa
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: bdi-language-estimate
+# Kirundi is the sole national language and, with French and English, an
+# official language (2018 Constitution). English was added as an official
+# language in 2014 (EAC alignment). Kirundi is the near-universal mother
+# tongue; Swahili serves as a trade lingua franca in border zones (DRC,
+# Tanzania). Official shares are de jure 1.0 legal-status flags; locallySpoken
+# shares are ESTIMATES.
+ethnicGroups:
+  # Post-conflict censuses do not collect ethnicity; figures are ESTIMATES
+  # from legacy references (US State Dept / CIA).
+  - group: Hutu
+    percent: 85.0
+    sourceId: bdi-ethnic-estimate
+  - group: Tutsi
+    percent: 14.0
+    sourceId: bdi-ethnic-estimate
+  - group: Twa
+    percent: 1.0
+    sourceId: bdi-ethnic-estimate
+timezones:
+  - name: Africa/Bujumbura
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+currency:
+  code: BIF
+  symbol: "FBu"
+  name: Burundian franc
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Burundi is NOT an EU or EEA state (an African Union, East African Community and COMESA member). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: bdi-factbook
+  - topic: "official-language law"
+    description: "The 2018 Constitution (17 May 2018) establishes Kirundi, French and English as official languages and Kirundi as the sole national language."
+    sourceId: bdi-constitution
+  - topic: "data protection"
+    description: "Burundi historically had no dedicated data-protection statute, regulating privacy via cybercrime/general law; a national data-protection law was adopted in early 2026. Regime is still consolidating."
+    sourceId: bdi-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash — dominant for daily transactions"
+    - "Mobile money (Lumicash, Ecocash) — growing in urban areas"
+    - "Bank transfers and mobile-banking rails (BRB/East Africa)"
+    - "Card payments limited to major hotels and formal establishments in Bujumbura"
+  tipping:
+    expected: false
+    typicalAmount: "Not generally expected; rounding up is appreciated"
+    autoIncludedInBill: false
+    note: "No formal gratuity norm; a small tip for good service in restaurants and hotels is welcome but not required."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Respect for elders and hierarchy is strong; formal titles are used in institutional and official settings; Kirundi carries polite forms."
+  greetingNorms: "Warm handshakes and genuine inquiry after one another's wellbeing; greetings matter and are not rushed."
+  meetingEtiquette: "Relationships and patience build trust; punctuality is appreciated in formal settings; decisions often rest with senior leadership."
+  topicsToAvoid:
+    - "Ethnic labels and re-opening ethnic divisions (a post-conflict sensitive subject)"
+    - "Directly lecturing on internal politics"
+    - "Casual stereotyping"
+  giftGivingNotes: "Not expected in business; small, thoughtful gifts are appreciated when visiting homes."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: bdi-constitution
+    name: "Constitution of the Republic of Burundi, 2018"
+    publisher: "Wikipedia (secondary source; primary: Constitution of Burundi)"
+    url: "https://en.wikipedia.org/wiki/Burundi"
+    year: 2018
+    accessedDate: "2026-09-19"
+    note: "2018 Constitution establishes Kirundi (sole national), French and English as official languages. Basis for official rows."
+  - id: bdi-english-law
+    name: "Languages of Burundi — official-language framework"
+    publisher: "Wikipedia (secondary source; primary: Burundi language law)"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Burundi"
+    year: 2014
+    accessedDate: "2026-09-19"
+    note: "English made an official language in 2014 (EAC alignment)."
+  - id: bdi-ethnic-estimate
+    name: "Burundi — Demographics (US State Dept Background Note; CIA World Factbook)"
+    publisher: "U.S. State Department / CIA"
+    url: "https://www.cia.gov/the-world-factbook/countries/burundi/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Hutu ~85%, Tutsi ~14%, Twa ~1% — ESTIMATE. Modern censuses do not collect ethnicity."
+  - id: bdi-timezone
+    name: "Time in Burundi (Africa/Bujumbura) — IANA tz database"
+    publisher: "Wikipedia (secondary source; primary: IANA tz database)"
+    url: "https://en.wikipedia.org/wiki/Time_in_Burundi"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Bujumbura = UTC+02:00 (CAT) year-round; no DST."
+  - id: bdi-currency
+    name: "Bank of the Republic of Burundi (BRB) — monetary unit"
+    publisher: "Banque de la République du Burundi (BRB)"
+    url: "https://archive.brb.bi/en/content/brb-missions"
+    year: 1993
+    accessedDate: "2026-09-19"
+    note: "Burundian franc (BIF), symbol FBu; sole legal tender."
+  - id: bdi-factbook
+    name: "Burundi — organization membership (CIA World Factbook)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/burundi/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Confirms Burundi is an AU/EAC/COMESA member, not EU/EEA — supports the non-EU constraint."
+  - id: bdi-data-protection
+    name: "Burundi data-protection regime (2024-2026)"
+    publisher: "DLA Piper Data Protection Guide / CADE Project"
+    url: "https://www.dlapiperdataprotection.com/index.html?c=BI&t=law"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "No dedicated data-protection law as of 2024 (privacy via cybercrime/general law); national data-protection law adopted in early 2026. Regime still consolidating — flagged."
+  - id: bdi-language-estimate
+    name: "Language usage estimates (Ethnologue / academic references)"
+    publisher: "Wikipedia (secondary source; primary: Ethnologue)"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Burundi"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "locallySpoken shares are ESTIMATES: Kirundi ~98% (near-universal mother tongue), Swahili ~1% (border-zone trade lingua franca). No exact official mother-tongue census exists."

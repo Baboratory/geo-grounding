@@ -1,0 +1,184 @@
+alpha3: RWA
+alpha2: RW
+name:
+  eng: Republic of Rwanda
+  local:
+    - languageCode: kin
+      value: "Repubulika y'u Rwanda"
+    - languageCode: eng
+      value: "Republic of Rwanda"
+    - languageCode: fra
+      value: "République du Rwanda"
+    - languageCode: swa
+      value: "Jamhuri ya Rwanda"
+flagEmoji: "🇷🇼"
+capital: Kigali
+isSovereign: true
+# Classified unitary-small: Rwanda meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population 13,246,394 (Aug 2022 Fifth Population & Housing
+# Census, NISR) — below the 20-25M threshold. (2) No officially recognized
+# regional/minority or co-official languages beyond the national/official set —
+# Kinyarwanda is the sole national language and spoken by virtually everyone;
+# English, French and Swahili are official but not region-anchored. (3) No
+# widely recognized cultural-historical federal/multi-region identity — Rwanda
+# is a unitary presidential republic. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: kin
+    domain: official
+    speakersShare: 1.0
+    sourceId: rwa-constitution
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: rwa-constitution
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: rwa-constitution
+  - languageCode: swa
+    domain: official
+    speakersShare: 1.0
+    sourceId: rwa-constitution
+  - languageCode: kin
+    domain: locallySpoken
+    speakersShare: 0.99
+    sourceId: rwa-language-estimate
+  - languageCode: swa
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: rwa-language-estimate
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: rwa-language-estimate
+# Kinyarwanda is the national language and, with English, French and Swahili,
+# an official language (Constitution art. 5/8). Swahili was added as the fourth
+# official language by Organic Law 02/2017 on EAC alignment. English has been
+# the sole medium of instruction and primary working language of government and
+# business since 2008; French is de-emphasized (older generations/diplomacy).
+# Official shares are de jure 1.0 legal-status flags. locallySpoken shares are
+# ESTIMATES — no official mother-tongue census exists (Kinyarwanda is
+# near-universal).
+ethnicGroups:
+  # No ethnicity is collected in the census since the 1994 genocide and the
+  # abolition of "divisionist" ethnicity categories; figures are ESTIMATES from
+  # legacy references (CIA World Factbook / US State Dept).
+  - group: Hutu
+    percent: 85.0
+    sourceId: rwa-ethnic-estimate
+  - group: Tutsi
+    percent: 14.0
+    sourceId: rwa-ethnic-estimate
+  - group: Twa
+    percent: 1.0
+    sourceId: rwa-ethnic-estimate
+timezones:
+  - name: Africa/Kigali
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+currency:
+  code: RWF
+  symbol: "RF"
+  name: Rwandan franc
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Rwanda is NOT an EU or EEA state (an East African Community and African Union member). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: rwa-factbook
+  - topic: "data protection"
+    description: "Law Nº 058/2021 of 13/10/2021 relating to the Protection of Personal Data and Privacy (in force 15/10/2021) governs personal-data protection, supervised by the National Cyber Security Authority; it includes a data-localisation (storage-in-Rwanda) rule. National law, not GDPR."
+    sourceId: rwa-data-protection
+  - topic: "language policy"
+    description: "English is the sole medium of instruction and the primary working language of government and business since the 2008 cabinet resolution; Swahili became an official language via Organic Law 02/2017; the national language policy was updated in 2019."
+    sourceId: rwa-language-policy
+paymentCulture:
+  popularMethods:
+    - "Mobile money — MTN MoMo and Airtel Money are dominant, with ~6M+ users"
+    - "eKash national instant payment rail (links banks and wallets, launched 2026)"
+    - "Cash — still common for small daily transactions"
+    - "Bank transfers (RIPPS/RSwitch)"
+    - "Cards (Visa/Mastercard) in Kigali hotels, supermarkets and formal retail"
+  tipping:
+    expected: false
+    typicalAmount: "Not generally practiced; rounding up on small bills"
+    autoIncludedInBill: false
+    note: "No formal gratuity norm; a ~10% service charge appears in some Kigali hotels and restaurants. The urban economy is largely cashless (mobile money/QR)."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Formal in institutional contexts with titles and clean hierarchy; respect for elders and leaders is strong; Kinyarwanda carries polite honorifics."
+  greetingNorms: "Warm handshakes, often with the left hand supporting the right elbow; greetings are prolonged among friends. 'Muraho' / 'Amakuru?' (what news?) are common."
+  meetingEtiquette: "Punctuality is valued in official settings; decisions are consultative but hierarchy is final. Handshakes between opposite genders are typically initiated by the woman."
+  topicsToAvoid:
+    - "Ethnic/identity categorization — ethnicity is legally de-emphasized and 'divisionism' is illegal"
+    - "Anything that trivializes the 1994 genocide or genocide denial"
+    - "Lecturing on domestic party politics as an outsider"
+  giftGivingNotes: "Not expected in business; bring a small gift when visiting a home. Small cash envelopes are customary at weddings and baby ceremonies."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: rwa-constitution
+    name: "Constitution of the Republic of Rwanda, 2003 (rev. 2015), arts. 5 and 8"
+    publisher: "Government of Rwanda"
+    url: "https://www.constituteproject.org/constitution/Rwanda_2015"
+    year: 2015
+    accessedDate: "2026-09-19"
+    note: "Kinyarwanda is the national language; Kinyarwanda, English and French are official languages. Basis for official rows."
+  - id: rwa-swahili-law
+    name: "Organic Law Nº 02/2017 of 08/02/2017"
+    publisher: "Wikipedia (secondary source; primary: Official Gazette of the Republic of Rwanda)"
+    url: "https://en.wikipedia.org/wiki/Language_policy_in_Rwanda"
+    year: 2017
+    accessedDate: "2026-09-19"
+    note: "Adds Swahili as the fourth official language (EAC alignment). Basis for the swa official row."
+  - id: rwa-ethnic-estimate
+    name: "Rwanda — Demographics (CIA World Factbook; US State Dept)"
+    publisher: "CIA / U.S. State Department"
+    url: "https://www.cia.gov/the-world-factbook/countries/rwanda/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Hutu ~85%, Tutsi ~14%, Twa ~1% — ESTIMATE. No post-genocide census records ethnicity (categories abolished as 'divisionist')."
+  - id: rwa-timezone
+    name: "Time in Rwanda (Africa/Kigali) — IANA tz database"
+    publisher: "Wikipedia (secondary source; primary: IANA tz database)"
+    url: "https://en.wikipedia.org/wiki/Time_in_Rwanda"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Kigali = UTC+02:00 (CAT) year-round; no DST."
+  - id: rwa-currency
+    name: "Law Nº 48/2017 of 23/09/2017 (National Bank of Rwanda)"
+    publisher: "National Bank of Rwanda (Banki Nkuru Y'u Rwanda)"
+    url: "https://rwandalii.org/akn/rw/act/law/2017/48/eng%402017-10-09"
+    year: 2017
+    accessedDate: "2026-09-19"
+    note: "Rwandan franc (RWF), symbol RF/FRw; monetary unit of the Republic of Rwanda."
+  - id: rwa-factbook
+    name: "Rwanda — organization membership (CIA World Factbook)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/rwanda/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Confirms Rwanda is an EAC/AU member, not an EU/EEA state — supports the non-EU constraint."
+  - id: rwa-data-protection
+    name: "Law Nº 058/2021 relating to the Protection of Personal Data and Privacy"
+    publisher: "Rwanda Law Reform Commission / National Cyber Security Authority"
+    url: "https://rwandalii.org/akn/rw/act/law/2021/58/eng@2021-10-15"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "National personal-data-protection law; establishes the NCSA as regulator; includes data-localisation (Art. 50). In force 15/10/2021."
+  - id: rwa-language-policy
+    name: "Language policy in Rwanda (2008 cabinet resolution; 2019 policy)"
+    publisher: "Wikipedia (secondary source; primary: Rwanda Ministry of Education policy)"
+    url: "https://en.wikipedia.org/wiki/Language_policy_in_Rwanda"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "2008 resolution made English the sole medium of instruction and government working language; 2019 national language policy."
+  - id: rwa-language-estimate
+    name: "Language usage estimates (Linguapax / Ethnologue / policy analyses)"
+    publisher: "Wikipedia (secondary source; primary: Ethnologue)"
+    url: "https://en.wikipedia.org/wiki/Language_policy_in_Rwanda"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "locallySpoken shares are ESTIMATES: Kinyarwanda ~99% (near-universal mother tongue), Swahili ~5% (commerce/tourism), English ~10% (school-age/admin cohort). No official mother-tongue census exists."

@@ -1,0 +1,151 @@
+alpha3: ERI
+alpha2: ER
+name:
+  eng: State of Eritrea
+  local:
+    - languageCode: tir
+      value: "Hagere Ertra"
+flagEmoji: "🇪🇷"
+capital: Asmara
+isSovereign: true
+# Classified unitary-small: Eritrea meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~3.6M (estimates; Eritrea has never held a national
+# census) — far below the 20-25M threshold. (2) Eritrea has no single de jure
+# official language: the Constitution (Art. 4(3)) recognizes the equality of
+# all Eritrean languages without naming a national/official one; Tigrinya,
+# Arabic and English serve as working/factual languages. (3) No federal or
+# strongly plural regional identity — a unitary state. One synthetic WHOLE
+# region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: tir
+    domain: locallySpoken
+    speakersShare: 0.55
+    sourceId: ert-language-estimate
+  - languageCode: tig
+    domain: locallySpoken
+    speakersShare: 0.3
+    sourceId: ert-language-estimate
+  - languageCode: aar
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: ert-language-estimate
+  - languageCode: arb
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: ert-language-estimate
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: ert-language-estimate
+# Eritrea has no de jure official language: the 1997 Constitution (Art. 4(3))
+# guarantees the equality of all Eritrean languages without naming one. In
+# practice Tigrinya and Arabic are the main working languages of government and
+# the press, and English is used in higher education and scientific/technical
+# domains. All shares are ESTIMATES (no census exists).
+ethnicGroups:
+  # No census exists; shares are ESTIMATES from US State Dept / academic
+  # references on Eritrea's nine recognized ethno-linguistic groups.
+  - group: Tigrinya
+    percent: 55.0
+    sourceId: ert-ethnic-estimate
+  - group: Tigre
+    percent: 30.0
+    sourceId: ert-ethnic-estimate
+  - group: Saho
+    percent: 4.0
+    sourceId: ert-ethnic-estimate
+  - group: Afar
+    percent: 4.0
+    sourceId: ert-ethnic-estimate
+  - group: Kunama
+    percent: 2.0
+    sourceId: ert-ethnic-estimate
+  - group: Other (Bilen, Nara, Rashaida)
+    percent: 5.0
+    sourceId: ert-ethnic-estimate
+timezones:
+  - name: Africa/Asmara
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: ERN
+  symbol: "Nfk"
+  name: Eritrean nakfa
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Eritrea is NOT an EU or EEA state (an African Union and IGAD member). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: ert-factbook
+  - topic: "language equality (Constitution)"
+    description: "The 1997 Constitution Art. 4(3) recognizes the equality of all Eritrean languages without designating a single official language; in practice Tigrinya and Arabic are the main working languages."
+    sourceId: ert-constitution
+  - topic: "national service"
+    description: "Eritrea maintains a system of indefinite national/military service required of citizens (long-standing and internationally criticized); it shapes travel, emigration and economic life."
+    sourceId: ert-factbook
+paymentCulture:
+  popularMethods:
+    - "Cash — dominant; bank-card and electronic payments are limited"
+    - "Bank transfers and mobile money (limited; a government-backed digital-payments push is under way)"
+    - "Remittances from the large diaspora are a major economic pillar"
+  tipping:
+    expected: false
+    typicalAmount: "Not generally expected; rounding up is appreciated"
+    autoIncludedInBill: false
+    note: "No formal gratuity norm; given the constrained economy, tipping is rare."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Respect for elders and hierarchy is strong; formal, measured interaction in official settings."
+  greetingNorms: "Handshakes and respectful greetings; the coffee ceremony is a core social ritual and a setting for hospitality."
+  meetingEtiquette: "Hospitality and patience matter; business is relationship-driven and decisions rest with senior leadership."
+  topicsToAvoid:
+    - "National service and emigration as sensitive personal subjects"
+    - "Criticizing the government or politics (sensitive)"
+  giftGivingNotes: "Not expected in business; small gifts and sharing coffee are warm social gestures."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: ert-constitution
+    name: "Constitution of Eritrea, 1997, Art. 4(3)"
+    publisher: "Wikipedia (secondary source; primary: Constitution of Eritrea, 1997, never implemented)"
+    url: "https://en.wikipedia.org/wiki/Constitution_of_Eritrea"
+    year: 1997
+    accessedDate: "2026-09-19"
+    note: "Guarantees equality of all Eritrean languages without naming an official language. Basis for the no-de-jure-official treatment."
+  - id: ert-ethnic-estimate
+    name: "Eritrea — ethno-linguistic composition (US State Dept / CIA / academic references)"
+    publisher: "U.S. State Department / CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/eritrea/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Tigrinya ~55%, Tigre ~30%, Saho ~4%, Afar ~4%, Kunama ~2%, other (Bilen/Nara/Rashaida) ~5% — ESTIMATES; no census exists."
+  - id: ert-timezone
+    name: "Time in Eritrea (Africa/Asmara) — IANA tz database"
+    publisher: "Wikipedia (secondary source; primary: IANA tz database)"
+    url: "https://en.wikipedia.org/wiki/Time_in_Eritrea"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Asmara = UTC+03:00 (EAT) year-round; no DST."
+  - id: ert-currency
+    name: "Eritrean nakfa — currency"
+    publisher: "Wikipedia (secondary source; primary: Bank of Eritrea)"
+    url: "https://en.wikipedia.org/wiki/Eritrean_nakfa"
+    year: 1997
+    accessedDate: "2026-09-19"
+    note: "Eritrean nakfa (ERN), symbol Nfk; introduced 1997, issued by the Bank of Eritrea."
+  - id: ert-factbook
+    name: "Eritrea — organization membership and national service (CIA World Factbook)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/eritrea/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Confirms AU/IGAD membership (not EU/EEA) and the indefinite national-service system."
+  - id: ert-language-estimate
+    name: "Eritrea languages and working languages (Ethnologue / academic references)"
+    publisher: "Wikipedia (secondary source; primary: Ethnologue)"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Eritrea"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "locallySpoken shares are ESTIMATES reflecting ethno-linguistic group size and working-language roles: Tigrinya ~55%, Tigre ~30%, Afar ~4%, Arabic ~10% (working language), English ~5% (higher ed/tech). No census exists."
