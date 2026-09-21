@@ -1,0 +1,146 @@
+alpha3: GNB
+alpha2: GW
+name:
+  eng: Guinea-Bissau
+  local:
+    - languageCode: por
+      value: Guiné-Bissau
+flagEmoji: "🇬🇼"
+capital: Bissau
+isSovereign: true
+# Classified unitary-small: Guinea-Bissau meets NONE of the 3 DESIGN.md
+# unitary-large criteria. (1) Population ~2.1M — far below the 20-25M threshold.
+# (2) Portuguese is the sole official language; Upper Guinea Crioulo (Kriol) is
+# the de facto lingua franca but NOT official. (3) No strongly marked federal or
+# multi-region identity curated beyond a single whole. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: por
+    domain: official
+    speakersShare: 1.0
+    sourceId: gnb-cia
+  - languageCode: por
+    domain: locallySpoken
+    speakersShare: 0.3
+    sourceId: gnb-language-estimate
+  - languageCode: pov
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: gnb-language-census
+# Portuguese is the sole official language. Upper Guinea Crioulo (Kriol, 'pov') is
+# the de facto lingua franca spoken/understood by ~90% and used in daily life,
+# media and parliament, but it is NOT de jure official. Portuguese is spoken by
+# roughly 30% (mostly as a 2nd/3rd language; only ~2% as a home language). The pov
+# 0.9 share traces the 2009-census figure of 90.4% Kriol speakers (census-adjacent,
+# flagged as such in the source note); the por locallySpoken 0.3 is an ESTIMATE.
+ethnicGroups:
+  # CIA 2015 estimate.
+  - group: Balanta
+    percent: 30
+    sourceId: gnb-cia
+  - group: Fulani (Fula)
+    percent: 30
+    sourceId: gnb-cia
+  - group: Manjaco
+    percent: 14
+    sourceId: gnb-cia
+  - group: Mandinga
+    percent: 13
+    sourceId: gnb-cia
+  - group: Papel
+    percent: 7
+    sourceId: gnb-cia
+  - group: Other smaller groups
+    percent: 6
+    sourceId: gnb-cia
+# Ethnic and religious figures for GNB rest on CIA estimates (census-adjacent) —
+# data is genuinely scarce; flagged as estimates rather than censuses.
+timezones:
+  - name: Africa/Bissau
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+currency:
+  code: XOF
+  symbol: "FCFA"
+  name: West African CFA franc
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Guinea-Bissau is NOT an EU or EEA member (a sovereign West African republic, ECOWAS member). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national and ECOWAS/OHADA law governs."
+    sourceId: gnb-cia
+  - topic: "personal data protection"
+    description: "Guinea-Bissau has NO national data-protection law and NO dedicated data-protection authority. As an ECOWAS member it is regionally bound by the ECOWAS Supplementary Act A/SA.1/01/10, but has not enacted comprehensive domestic data-protection legislation."
+    sourceId: gnb-data-protection
+paymentCulture:
+  popularMethods:
+    - "Cash (XOF) — dominates, in a predominantly rural subsistence economy"
+    - "Mobile money — present but nascent"
+    - "Bank cards and ATMs — limited, concentrated in Bissau"
+  tipping:
+    expected: false
+    typicalAmount: "Rounding up for drivers/porters is a friendly gesture"
+    autoIncludedInBill: false
+    note: "Tipping is not customary; a little extra to drivers or porters in Bissau is a friendly gesture rather than an obligation."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal and respectful; use titles; greet with a handshake and 'Bom dia'/'Boa tarde' (Portuguese courtesies)."
+  greetingNorms: "Greetings are mandatory — never jump straight to business; the Kriol 'Kuma?' (how are you) opens conversation."
+  meetingEtiquette: "Greet all present, take time for pleasantries, dress modestly; ask before photographing; relationships precede agendas."
+  topicsToAvoid:
+    - "National politics and historical instability"
+    - "Military and security-sensitive sites"
+  giftGivingNotes: "Bring fruit, bread or biscuits when visiting a home; never arrive empty-handed."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: gnb-cia
+    name: "Guinea-Bissau — CIA World Factbook"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/countries/guinea-bissau/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Confirms Portuguese as sole official language, ethnic composition (2015 est.), sovereignty (not EU/EEA), and timezone/currency/capital. Ethnic groups: Balanta 30%, Fulani 30%, Manjaco 14%, Mandinga 13%, Papel 7%, other smaller 6%."
+  - id: gnb-language-census
+    name: "Languages of Guinea-Bissau — 2009 census Kriol share"
+    publisher: "National census / Wikipedia (Languages of Guinea-Bissau)"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Guinea-Bissau"
+    year: 2009
+    accessedDate: "2026-09-19"
+    note: "Upper Guinea Crioulo (Kriol) spoken/understood by ~90.4% (2009 census figure) — basis for the pov 0.9 locallySpoken share (census-adjacent estimate)."
+  - id: gnb-language-estimate
+    name: "Portuguese usage in Guinea-Bissau"
+    publisher: "Languages of Guinea-Bissau / CIA"
+    url: "https://wikiwand.com/en/Languages_of_Guinea-Bissau"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Only ~30% of Bissau-Guineans speak Portuguese (mostly 2nd/3rd language; ~2% at home). por locallySpoken 0.3 is an ESTIMATE."
+  - id: gnb-timezone
+    name: "Time in Guinea-Bissau (Africa/Bissau) — IANA tz database"
+    publisher: "Wikipedia (secondary source; primary: IANA tz database)"
+    url: "https://en.wikipedia.org/wiki/Time_in_Guinea-Bissau"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Bissau = UTC+00:00 (Greenwich Mean Time) year-round; no DST observed."
+  - id: gnb-currency
+    name: "Currency — West African CFA franc (BCEAO)"
+    publisher: "Banque Centrale des États de l'Afrique de l'Ouest (BCEAO)"
+    url: "https://www.bceao.int/en"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Guinea-Bissau uses the West African CFA franc (XOF), issued by the BCEAO; symbol FCFA."
+  - id: gnb-data-protection
+    name: "Data protection in Guinea-Bissau (no national law)"
+    publisher: "ALT Advisory / HLC Data Protection Africa"
+    url: "https://levellers.ai/what-is/ai-regulation-guinea-bissau"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Confirms GNB has no national data-protection law and no dedicated authority; bound at ECOWAS regional level by Supplementary Act A/SA.1/01/10, unimplemented domestically."
+  - id: gnb-payment
+    name: "Payment culture in Guinea-Bissau"
+    publisher: "Qualitative travel / economic reporting"
+    url: "https://opentravelguide.com/guinea-bissau/culture"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Cash-dominated economy; mobile money present but nascent; card infrastructure limited to Bissau."

@@ -1,0 +1,159 @@
+alpha3: SLE
+alpha2: SL
+name:
+  eng: Sierra Leone
+  local:
+    - languageCode: eng
+      value: Sierra Leone
+flagEmoji: "🇸🇱"
+capital: Freetown
+isSovereign: true
+# Classified unitary-small: Sierra Leone meets NONE of the 3 DESIGN.md
+# unitary-large criteria. (1) Population ~8.6M — far below the 20-25M threshold.
+# (2) English is the sole official language; Krio is the lingua franca and de
+# facto national vernacular but NOT official. (3) No strongly marked federal or
+# multi-region identity curated beyond a single whole. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: sle-cia
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.2
+    sourceId: sle-language-estimate
+  - languageCode: kri
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: sle-krio-census
+# English is the sole official language (language of government, courts and
+# education), though its regular use is limited to a literate minority. Krio is
+# the de facto national lingua franca understood by ~95% of the population, but it
+# is NOT official. The kri 0.95 traces the CIA 'understood by 95%' figure; the eng
+# locallySpoken 0.2 (literate/official-usage minority) is an ESTIMATE.
+ethnicGroups:
+  # CIA 2019 estimate.
+  - group: Temne
+    percent: 35.4
+    sourceId: sle-cia
+  - group: Mende
+    percent: 30.8
+    sourceId: sle-cia
+  - group: Limba
+    percent: 8.8
+    sourceId: sle-cia
+  - group: Kono
+    percent: 4.3
+    sourceId: sle-cia
+  - group: Korankoh
+    percent: 4.0
+    sourceId: sle-cia
+  - group: Fullah
+    percent: 3.8
+    sourceId: sle-cia
+  - group: Mandingo
+    percent: 2.8
+    sourceId: sle-cia
+  - group: Loko
+    percent: 2.0
+    sourceId: sle-cia
+  - group: Sherbro
+    percent: 1.9
+    sourceId: sle-cia
+  - group: Creole/Krio
+    percent: 1.2
+    sourceId: sle-cia
+  - group: Other
+    percent: 5.0
+    sourceId: sle-cia
+timezones:
+  - name: Africa/Freetown
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+currency:
+  code: SLE
+  symbol: "Le"
+  name: Sierra Leonean leone
+legalConstraints:
+  - topic: "not an EU member"
+    description: "Sierra Leone is NOT an EU or EEA member (a sovereign Commonwealth republic). EU directives — GDPR, VAT-inclusive price display, the 14-day withdrawal right, the 2-year guarantee — do NOT apply directly; national law governs."
+    sourceId: sle-cia
+  - topic: "personal data protection"
+    description: "Sierra Leone has no enacted comprehensive data-protection law yet, but a National Data Protection Policy was approved by Cabinet in April 2026 and a Data Protection and Right to Access Information Act is being drafted to create a unified authority. State as approved/impending policy, not yet enacted law."
+    sourceId: sle-data-protection
+paymentCulture:
+  popularMethods:
+    - "Mobile money dominates everyday consumer payments — Orange Money (~60-65%) and Africell Afrimoney (~30-35%)"
+    - "Cash — essential for markets, taxis and street food"
+    - "Bank cards — limited to hotels and urban/elite use"
+  tipping:
+    expected: true
+    typicalAmount: "~5-10% in restaurants when no service charge is added"
+    autoIncludedInBill: false
+    note: "Small tips for porters, drivers and guides appreciated (not compulsory); ~5-10% in restaurants where no service charge is included."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal with titles (Mr./Madam + surname); British-formal business customs blended with West African warmth; suits in government/banking, smart-casual elsewhere."
+  greetingNorms: "Greet first with a warm handshake and 'Kushe' / 'Ow di bodi?' (Krio) before any business; friends blend the handshake into a finger-snap."
+  meetingEtiquette: "Arrive on time but expect late starts; small talk about family, health and local news before business; defer to elders (best seat, greet first); use the right hand for giving and receiving."
+  topicsToAvoid:
+    - "National politics"
+    - "Ethnicity"
+    - "Religion (divisive)"
+  giftGivingNotes: "Small practical gifts (chocolates, coffee, local souvenirs); soft drinks/fruit/biscuits when visiting a home; present with the right hand; avoid expensive gifts that create obligation; accept offered attaya tea/water (declining seems arrogant)."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: sle-cia
+    name: "Sierra Leone — CIA World Factbook"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/countries/sierra-leone/"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "Confirms English as sole official language, ethnic composition (2019 est.), sovereignty (not EU/EEA). Ethnic groups: Temne 35.4%, Mende 30.8%, Limba 8.8%, Kono 4.3%, Korankoh 4%, Fullah 3.8%, Mandingo 2.8%, Loko 2%, Sherbro 1.9%, Creole/Krio 1.2%, other 5%."
+  - id: sle-krio-census
+    name: "Krio as lingua franca — CIA World Factbook languages field"
+    publisher: "CIA"
+    url: "https://www.cia.gov/the-world-factbook/countries/sierra-leone/"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "Krio understood by ~95% of the population (de facto national lingua franca); ~10% speak it as a first/ethnic-creole language — basis for the kri 0.95 locallySpoken share."
+  - id: sle-language-estimate
+    name: "English usage in Sierra Leone"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/sierra-leone/"
+    year: 2019
+    accessedDate: "2026-09-19"
+    note: "English official but regular use limited to a literate minority — eng locallySpoken 0.2 is an ESTIMATE."
+  - id: sle-timezone
+    name: "Time in Sierra Leone (Africa/Freetown) — IANA tz database"
+    publisher: "Wikipedia (secondary source; primary: IANA tz database)"
+    url: "https://en.wikipedia.org/wiki/Time_in_Sierra_Leone"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Freetown = UTC+00:00 (Greenwich Mean Time) year-round; no DST observed."
+  - id: sle-currency
+    name: "Sierra Leonean leone (redenomination July 2022)"
+    publisher: "Bank of Sierra Leone / Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Sierra_Leonean_leone"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "The leone was redenominated 1 July 2022 (1 new SLE = 1,000 old SLL); the current ISO 4217 code is SLE (the obsolete SLL code no longer applies)."
+  - id: sle-data-protection
+    name: "National Data Protection Policy (Cabinet-approved April 2026) / Data Protection and Right to Access Information Act (drafting)"
+    publisher: "Rights and Access to Information Commission (RAIC) / Government of Sierra Leone"
+    url: "https://raic.gov.sl/index.php/all-categories-list/press-release/cabinet-approves-first-ever-data-protection-policy-paving-way-for-new-data-law"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Cabinet approved the first-ever National Data Protection Policy in April 2026; a Data Protection and Right to Access Information Act is being drafted. Approved/impending, not yet enacted law."
+  - id: sle-payment
+    name: "Sierra Leone payment methods"
+    publisher: "Qualitative payments-industry reporting"
+    url: "https://www.riverpe.com/blog/sierra-leone-payment-methods"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Orange Money and Africell Afrimoney together handle the majority of everyday consumer payments; cash essential for informal transactions."
