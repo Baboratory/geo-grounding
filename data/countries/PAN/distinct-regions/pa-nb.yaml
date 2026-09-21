@@ -1,0 +1,41 @@
+code: PA-NB
+name:
+  eng: Ngäbe-Buglé Comarca
+  local:
+    - languageCode: gym
+      value: Ngäbe-Buglé Nö Bokata
+climates:
+  - koppenCode: Am
+    description: "Humid tropical highlands and cloud forest in the Cordillera Central — cool at altitude, very wet most of the year with a somewhat drier early year."
+landmarks:
+  - name: Comarca self-governance
+    description: "The country's most populous comarca (est. 1997), governed by its own congress with customary Ngäbe-Buglé authority."
+  - name: High-elevation cloud forest
+    description: "Mist-shrouded mountains around the Chiriquí border, home to rich biodiversity and the rose-crowned 'Royal' Quetzal country."
+culturalTraits:
+  - "Ngäbe and Buglé indigenous culture — the largest indigenous population in Panama (~64% of indigenous people are Ngäbe)"
+  - "Strong community and subsistence agriculture; traditional dress (the 'näwä' women's skirt and collar)"
+  - "A great deal of cultural pride tied to comarca autonomy and language (Ngäbere and Buglere)"
+prideOf:
+  - "The Ngäbe-Buglé autonomy and their large, culturally vibrant community"
+  - "Their highland homeland and collective land rights in the comarca"
+animals:
+  popular:
+    - "Harpy eagle and quetzals in the montane forest"
+    - "Agouti, paca (tepezcuintle), and howler monkeys"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ripe and green plantain dishes, root vegetables (yuca/guandú) and maize-based foods"
+      - "Traditional stews from farm-raised pork, chicken and river fish"
+      - "Corn chicha and traditional fermented drinks for community gatherings"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Subsistence farming and local markets set the rhythm; community gatherings and council (congreso) meetings are important fixed points."
+  notes: "The comarca is self-governed under its own customary institutions; economic life centres on land-based livelihoods, and cash (US dollars) is used sparingly. Respect for Ngäbe-Buglé community process and language is essential."

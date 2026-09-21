@@ -1,0 +1,186 @@
+alpha3: PAN
+alpha2: PA
+name:
+  eng: Panama
+  local:
+    - languageCode: spa
+      value: República de Panamá
+flagEmoji: "🇵🇦"
+capital: Panama City (Ciudad de Panamá)
+isSovereign: true
+# Classified unitary-large: Panama is a unitary republic of ~4.5M (2023 census)
+# that is nonetheless clearly region-bearing under the DESIGN.md 2-of-3 test.
+# (1) Its constitution (Constitución Política, Art. 123) and organic comarca
+# laws formally recognise indigenous self-governing territories — six comarcas
+# indígenas (Guna Yala 1938, Emberá-Wounaan 1983, Guna de Madugandí 1996,
+# Ngäbe-Buglé 1997, Guna de Wargandí 2000, Naso Tjër Di 2020) covering
+# ~1.7M hectares — with their own congresses and customary governance, and the
+# constitutional bilingual-education mandate for their languages. (2) Those
+# territories hold officially recognised regional indigenous languages (Guna,
+# Ngäbere, Buglere, Emberá, Woun Meu, Teribe). (3) There is a genuine, widely
+# recognised cultural divide between the metropolitan transit corridor
+# (Panama City + the Canal, modern, Spanish-speaking, dollarized) and the
+# indigenous comarcas and the rural interior (agricultural, indigenous and
+# campesino culture). ~17.2% of the population self-identified as indigenous in
+# the 2023 census. Curated regions (metropolitan Canal corridor, Ngäbe-Buglé,
+# Guna Yala, eastern indigenous Emberá-Wounaan / Darién) sit alongside the
+# generic WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: "PA"
+hasSubdivisions: true
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: pan-constitution
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.94
+    sourceId: pan-inec-census
+  - languageCode: gym
+    domain: locallySpoken
+    speakersShare: 0.099
+    sourceId: pan-inec-census
+  - languageCode: cuk
+    domain: locallySpoken
+    speakersShare: 0.025
+    sourceId: pan-inec-census
+  - languageCode: emp
+    domain: locallySpoken
+    speakersShare: 0.012
+    sourceId: pan-inec-census
+  - languageCode: sab
+    domain: locallySpoken
+    speakersShare: 0.005
+    sourceId: pan-inec-census
+  - languageCode: noa
+    domain: locallySpoken
+    speakersShare: 0.002
+    sourceId: pan-inec-census
+  - languageCode: tfr
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: pan-inec-census
+  # Spanish is the sole de jure official national language and is spoken by the
+  # vast majority. The indigenous languages below correspond to Panama's seven
+  # officially recognised indigenous peoples (2023 census: 698,114 people,
+  # 17.2% of the population); their share figures are approximate first-language
+  # shares derived from census self-identification by language group. Ngäbere
+  # (Ngäbe) is by far the largest (~64% of indigenous people), followed by
+  # Guna, Emberá, Buglere, Woun Meu and Teribe. English is widely spoken as a
+  # foreign language in the metropolitan / Canal / tourism zone (a legacy of
+  # the US Canal era) and is deliberately listed as foreign rather than
+  # official.
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.1
+    sourceId: pan-inec-english
+ethnicGroups:
+  - group: Mestizo
+    percent: 65.0
+    sourceId: pan-inec-census
+  - group: Indigenous peoples (Ngäbe, Guna, Emberá, Bugle, Woun Meu, Teribe, Bribri, Bokota)
+    percent: 17.2
+    sourceId: pan-inec-census
+  - group: Black / Afro-Panamanian
+    percent: 9.2
+    sourceId: pan-inec-census
+  - group: White
+    percent: 6.7
+    sourceId: pan-inec-census
+  - group: Other / mixed (mestizaje variations, Asian and other)
+    percent: 1.9
+    sourceId: pan-inec-census
+# Self-identification in the 2023 national census (INEC): ~65% mestizo, ~17.2%
+# indigenous (698,114 people across seven recognised peoples), ~9.2% Black /
+# Afro-Panamanian, ~6.7% white, remainder other. Figures are approximate
+# self-identification results and do not sum exactly.
+timezones:
+  - name: America/Panama
+    standardUtcOffset: "UTC-5"
+    observesDst: false
+currency:
+  code: PAB
+  symbol: "B/."
+  name: Panamanian balboa (PAB; US dollar circulates as legal tender at parity)
+legalConstraints:
+  - topic: "US-dollarized economy (no central bank issuing local currency)"
+    description: "The Panamanian balboa exists at parity 1:1 with the US dollar; Panama has no central bank that issues its own paper currency, and US banknotes circulate as legal tender alongside balboa coins (Constitution and Monetary and Banking Law Decree-Law 9 of 1998, which also prohibits the creation of a central issuing bank). Dollarized prices, US-currency transactions and US-regulated dollar rails dominate."
+    sourceId: pan-currency-law
+  - topic: "consumer protection and price display"
+    description: "Ley 45 de 2007 (Decreto 9) protects consumers; the ITBMS sales/transfer tax is 7% (Ley 56 de 2007 established the 7% rate in force since 1 July 2010). Displayed prices may or may not include ITBMS — verify at point of sale. ACODECO (Autoridad de Protección al Consumidor y Defensa de la Competencia) enforces consumer rights."
+    sourceId: pan-consumer-law
+  - topic: "national official language: Spanish"
+    description: "Spanish is the official national language of Panama; state and public activity is conducted in Spanish. Indigenous comarcas additionally recognise their own languages within their territories under the constitutional bilingual-education mandate (Constitución Política Art. 123)."
+    sourceId: pan-constitution
+paymentCulture:
+  popularMethods:
+    - "Cash and US-dollar bills — dominant in everyday retail, especially outside the metropolitan area"
+    - "Debit and credit cards (Visa/Mastercard) — widely accepted in modern urban retail, tourism and the Canal/service economy"
+    - "Mobile / QR app payments — Yappy (BAC's mobile wallet), Sinpe Móvil-style bank transfers and other neobank apps growing quickly"
+    - "ACH / electronic transfers ('Transferencias') — standard for larger-value and institutional payments"
+  tipping:
+    expected: true
+    typicalAmount: "Around 10% in restaurants when no service charge is added; small change for bars and taxis"
+    autoIncludedInBill: false
+    note: "Panama's economy is fully dollarized (balboa coins + US bills, no central bank issuing local paper), so cash is US dollars and prices are set in dollars. A ~10% restaurant tip is customary and appreciated, and a small tip for luggage/guides is common; many bills do not auto-include a service charge. Digital payments (bank 'Transferencias', the Yappy mobile wallet, cards) are expanding quickly, but cash remains the everyday norm outside the metropolitan corridor."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite and warm; use the formal 'usted' at first contact and address people by title where relevant, warming to first names once the relationship is established."
+  greetingNorms: "A handshake on meeting, a friendly '¿Cómo está?'; among friends a light hug or cheek kiss on greeting is common. A greeting in Spanish is expected; a brief phrase in Guna, Ngäbere or Emberá is warmly received in the comarcas."
+  meetingEtiquette: "Punctuality is more relaxed than in northern Europe; building personal trust and rapport matters. Meetings often begin with social talk. Be mindful of the strong metropolitan-vs-interior and comarca cultural differences, and of the canal/transit identity."
+  topicsToAvoid:
+    - "Casual dismissal of indigenous peoples or the comarca autonomy"
+    - "Treating Panama as merely 'the canal' or US territory rather than an independent, sovereign republic"
+  giftGivingNotes: "Gifts are not expected at business meetings; when invited to a home, a small gift (wine, sweets, flowers) is appreciated. In indigenous comarca contexts, respect, reciprocity and cultural courtesy matter more than material gifts."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: PA-8
+    file: distinct-regions/pa-8.yaml
+    adminUnitCodes: [PA-8, PA-10, PA-3]
+  - code: PA-NB
+    file: distinct-regions/pa-nb.yaml
+    adminUnitCodes: [PA-NB]
+  - code: PA-KY
+    file: distinct-regions/pa-ky.yaml
+    adminUnitCodes: [PA-KY]
+  - code: PA-EM
+    file: distinct-regions/pa-em.yaml
+    adminUnitCodes: [PA-EM, PA-5, PA-NT]
+sources:
+  - id: pan-constitution
+    name: "Constitución Política de la República de Panamá (Art. 123 comarcas indígenas; official language provisions)"
+    publisher: "Asamblea Nacional de Panamá / Gobierno Nacional"
+    url: "https://www.asamblea.gob.pa/assets/tmp/constitucion-politica-de-la-republica-de-panama-2020.pdf"
+    year: 1972
+    accessedDate: "2026-09-19"
+    note: "Article 123 grounds the comarcas indígenas and indigenous self-governance; establishes Spanish as the national language and the bilingual-education mandate for indigenous languages. Basis for the unitary-large classification and the spa official row."
+  - id: pan-inec-census
+    name: "Censo Nacional de Población y Vivienda 2023 — identificación indígena, lengua, origen étnico"
+    publisher: "Instituto Nacional de Estadística y Censo (INEC), Contraloría General de Panamá"
+    url: "https://www.inec.gob.pa/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "2023 census results: 698,114 indigenous people (17.2% of ~4.5M population) across seven recognised peoples; Ngäbe ~444,878, Guna ~112,319, Emberá ~51,657, Bugle ~24,488, Woun Meu ~10,634, Teribe/Naso ~6,899, Bribri ~799. Basis for ethnicGroups percentages and the approximate indigenous first-language locallySpoken shares."
+  - id: pan-inec-english
+    name: "English / bilingual usage in the metropolitan and canal zone (estimate)"
+    publisher: "Composite estimate"
+    url: "https://www.inec.gob.pa/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Panama does not publish a precise national English-fluency figure. English is widely spoken as a second/foreign language in Panama City, the Canal area and tourism centres (legacy of the US Canal era), so a directional ~10% foreign-domain estimate is asserted with no official census basis."
+  - id: pan-currency-law
+    name: "Decreto-Ley 9 de 1998 (Moneda y Banca) — prohíbe la emisión de papel moneda por un banco central; balboa at parity with the US dollar"
+    publisher: "Superintendencia de Bancos de Panamá"
+    url: "https://www.superbancos.gob.pa/en/laws/banking-law"
+    year: 1998
+    accessedDate: "2026-09-19"
+    note: "Establishes the US-dollar-pegged monetary system: the balboa exists at 1:1 with the US dollar and no central bank or issuing institution may print local paper currency (US bills circulate as legal tender alongside balboa coins). Basis for the dollarization legal constraint and currency note."
+  - id: pan-consumer-law
+    name: "Ley 45 de 2007 (protección al consumidor) and Ley 56 de 2007 / ITBMS 7%"
+    publisher: "Asamblea Nacional de Panamá; ACODECO"
+    url: "https://www.sijusa.com/wp-content/uploads/2022/05/L_45_2007.pdf"
+    year: 2007
+    accessedDate: "2026-09-19"
+    note: "Autoridad de Protección al Consumidor (ACODECO) law; ITBMS (Impuesto de Transferencia de Bienes y Servicios) standard rate is 7% in force since 1 July 2010. Basis for the consumer-protection/price-display legal constraint."

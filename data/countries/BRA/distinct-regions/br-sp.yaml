@@ -1,0 +1,59 @@
+code: BR-SP
+name:
+  eng: São Paulo (Southeast)
+  local:
+    - languageCode: por
+      value: São Paulo
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical — warm, with well-distributed rain and mild winters; the coastal strip (Baixada Santista) is tropical."
+landmarks:
+  - name: Avenida Paulista
+    description: "The city's most famous avenue and financial-cultural spine."
+  - name: Ibirapuera Park
+    description: "São Paulo's central urban park, designed with Oscar Niemeyer pavilions."
+  - name: Historic downtown (Pátio do Colégio, Mercado Municipal)
+    description: "The colonial founding site and the landmark Municipal Market."
+  - name: Coastal beaches of the São Paulo coast
+    description: "Santos, Guarujá, Ilhabela and the Ubatuba rainforest coast."
+culturalTraits:
+  - "Brazil's economic engine — the largest and most cosmopolitan city in the Southern Hemisphere"
+  - "Enormous immigrant-rooted diversity (Italian, Japanese, Lebanese, Portuguese)"
+  - "Fast-paced, business-driven, gastronomically world-class ('a cidade que nunca para')"
+prideOf:
+  - "Being Brazil's economic capital — finance, industry, tech"
+  - "A world-class gastronomic scene and cultural calendar (MASP, biennials, samba/forró venues)"
+animals:
+  popular:
+    - "Capybara — common in city parks (e.g. along riverbanks)"
+    - "Toucans and parrots in the Atlantic Forest fragments"
+  unique:
+    - "Golden lion tamarin in the coastal Atlantic Forest (protected)"
+industries:
+  - "Finance and capital markets (B3, the largest Latin American exchange)"
+  - "Industry, technology and services; corporate headquarters"
+  - "Agribusiness and industry in the interior (sugarcane, orange, manufacturing)"
+sports:
+  - "Football — home to major clubs (Corinthians, Palmeiras, São Paulo FC, Santos) and the Interlagos F1 circuit"
+  - "Volleyball and basketball; an active gym and martial-arts culture"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Virado à Paulista — rice, beans, pork and kale, the classic São Paulo dish"
+      - "Coxinha, pastel, mortadela sandwich and pão na chapa in the markets"
+      - "Feijoada on Saturdays; pizza and sushi culture among the world's best"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Corporate hours roughly 09:00-18:00 Monday-Friday; many offices and services open Saturday mornings; retail often runs into the evening."
+  lunchBreakTiming: "A one-hour lunch is standard; business lunches over Brazilian staples are very common."
+  notes: "São Paulo is Brazil's most punctual- and deadline-driven city; business is formal but warm. Pix and digital payments dominate. Traffic is heavy, so schedule generously."

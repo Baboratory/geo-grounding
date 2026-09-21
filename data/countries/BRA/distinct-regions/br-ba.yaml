@@ -1,0 +1,66 @@
+code: BR-BA
+name:
+  eng: The Northeast (Nordeste)
+  local:
+    - languageCode: por
+      value: Região Nordeste
+climates:
+  - koppenCode: Aw
+    description: "Tropical coastal — hot year-round, with a wet winter and a drier summer; the coastal strip is humid."
+  - koppenCode: BSh
+    description: "Semi-arid Sertão in the interior — the driest region of Brazil, with recurrent droughts."
+landmarks:
+  - name: Historic Salvador (Pelourinho)
+    description: "The first capital of colonial Brazil and its Afro-Brazilian heart, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Lençóis Maranhenses
+    description: "White sand dunes dotted with seasonal freshwater lagoons."
+  - name: Fernando de Noronha
+    description: "The pristine Atlantic archipelago, a UNESCO World Heritage Site and diving paradise."
+    unescoWorldHeritage: true
+  - name: Olinda and the colonial towns
+    description: "UNESCO-listed colonial centres of the Pernambuco sugar coast."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "The most Afro-Brazilian region — cradle of samba-reggae, axé, forró and the Carnaval of Salvador"
+  - "Warm, musical, expressive and community-oriented ('o Nordeste é cultura')"
+  - "Deep folkloric heritage (frevo, bumba-meu-boi, cordel literature, xaxado)"
+prideOf:
+  - "Afro-Brazilian culture and the music of Bahia and Pernambuco"
+  - "Resilient, hospitable communities and great food"
+animals:
+  popular:
+    - "Capybara and manatees along the coast"
+    - "Coatis and monkeys in the Atlantic Forest (Mata Atlântica)"
+  unique:
+    - "The blue-winged macaw (arara-azul) and the Brazilian dwarf brocket deer of the semi-arid"
+industries:
+  - "Tourism — Salvador, beach resorts and the colonial coast"
+  - "Agriculture — sugar, cocoa (the 'Chocolate Coast'), tropical fruit"
+  - "Oil (Bahia/RN offshore), textiles, and a growing services economy"
+  - "The petrochemical pole of Camaçari (Bahia)"
+sports:
+  - "Football — passionate fanbases (Bahia, Sport Recife, Fortaleza)"
+  - "Volleyball and beach volleyball; the carnival-fitness dance culture"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Acarajé — the iconic black-eyed pea fritter of Bahia, fried in dendê (palm oil)"
+      - "Moqueca — the coconut-and-palm-oil seafood stew"
+      - "Carne de sol (sun-dried beef) with baião de dois rice and beans"
+      - "Tapioca, cuscuz and regional fruits (caju, pitanga)"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 08:00-17:00 Monday-Friday; shops and markets often open Saturdays; afternoons can slow in the heat."
+  lunchBreakTiming: "A generous long lunch is traditional; the big midday meal is the social anchor."
+  notes: "The Northeast is warm, informal and festively paced; Carnaval in Salvador is the world's biggest street party. The region's food culture and hospitality are central to any business or visit. Punctuality is relaxed."
