@@ -1,0 +1,101 @@
+code: WHOLE
+name:
+  eng: Bulgaria
+  local:
+    - languageCode: bul
+      value: България (Bălgarija)
+climates:
+  - koppenCode: Dfb
+    description: "Humid continental climate with warm summers and cold, snowy winters; the Black Sea coast and southern lowlands are milder (Cfa/Cfb)."
+landmarks:
+  - name: Old Town of Nessebar
+    description: "Historic seaside town on a Black Sea peninsula, with medieval churches and maritime heritage."
+    unescoWorldHeritage: true
+  - name: Rila Monastery
+    description: "Eastern Orthodox monastery in the Rila mountains, a spiritual and cultural landmark."
+    unescoWorldHeritage: true
+  - name: Plovdiv Old Town
+    description: "Well-preserved historic centre of Bulgaria's second city, with Roman and Ottoman layers."
+culturalTraits:
+  - Rich Orthodox Christian and folk heritage
+  - Strong coffee culture and living room (kafe) tradition
+prideOf:
+  - Being the birthplace of the Cyrillic alphabet tradition
+  - Successful winemaking and the development of high-yield vine varieties
+animals:
+  popular:
+    - White stork
+    - Golden jackal
+  unique:
+    - Balkan lynx
+industries:
+  - Agriculture and food processing
+  - IT and software services (a growing outsourcing hub)
+  - Machinery and engineering
+  - Tourism (Black Sea coast)
+sports:
+  - Football (soccer)
+  - Basketball
+  - Wrestling
+religions:
+  - name: Eastern Orthodox Christian
+    percent: 62.7
+    sourceId: bg-census-2021
+  - name: Islam
+    percent: 9.8
+    sourceId: bg-census-2021
+  - name: Protestant Christian
+    percent: 1.1
+    sourceId: bg-census-2021
+  - name: Roman Catholic
+    percent: 0.6
+    sourceId: bg-census-2021
+  - name: No religion
+    percent: 4.7
+    sourceId: bg-census-2021
+# The census religion question was optional; the remaining share (~21%) chose
+# not to answer or could not self-identify. Figures are shares of the total
+# population (2021 census).
+entertainment:
+  - season: summer
+    items:
+      - International folklore and music festivals
+      - Troia (Troy) folk festival and summer cultural events
+  - season: winter
+    items:
+      - Christmas and New Year celebrations
+      - Ski resort seasons (Bansko, Borovets)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Banitsa (filo pastry with cheese)
+      - Shopska salad (tomatoes, cucumber, peppers, sirene cheese)
+  - season: winter
+    items:
+      - Sarma (stuffed cabbage leaves)
+      - Hot čorba (soups) and grilled meze
+traditionalClothing:
+  - season: allYear
+    items:
+      - Traditional folk costume (natsionalna nosiya) worn at festivals
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: []
+  notes: "No nationwide legal restriction dictates which days retail may trade. Shops and shopping centres typically open around 9:00-10:00am and close 8:00-10:00pm on weekdays and Saturdays (many grocery stores open earlier), with reduced Sunday hours. Banks and offices run Monday-Friday, roughly 9:00am-6:00pm."
+  typicalWorkHours: "Standard office hours are typically around 9:00am-6:00pm, Monday-Friday."
+sources:
+  - id: bg-census-2021
+    name: "Census 2021: Religious affiliation of the population"
+    publisher: "Национален статистически институт (National Statistical Institute)"
+    url: "https://www.nsi.bg/en/press-release/ethno-cultural-characteristics-of-the-population-as-of-september-7-2021-6833"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Shares of the total population declaring Eastern Orthodox 62.7%, Islam 9.8%, Protestant 1.1%, Roman Catholic 0.6%, no religion 4.7%; the rest did not answer the optional religion question."
