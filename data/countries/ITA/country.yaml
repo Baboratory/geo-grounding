@@ -1,0 +1,208 @@
+alpha3: ITA
+alpha2: IT
+name:
+  eng: Italy
+  local:
+    - languageCode: ita
+      value: Italia
+flagEmoji: "🇮🇹"
+capital: Rome
+isSovereign: true
+# Classified unitary-large: population ~59M is well above the threshold, Italy
+# has officially recognized regional/minority-language communities (Law 482/1999
+# plus the special autonomy of Trentino-Alto Adige/Südtirol and Aosta Valley),
+# and there is a widely recognized cultural-historical regional divide across
+# its 20 regions — so real ISO 3166-2 region files are curated (a subset) along-
+# side the WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: IT
+hasSubdivisions: true
+languageUsage:
+  - languageCode: ita
+    domain: official
+    speakersShare: 1.0
+    sourceId: it-law-482-1999
+  - languageCode: ita
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: linguistic-map-2024
+  - languageCode: deu
+    domain: locallySpoken
+    speakersShare: 0.006
+    sourceId: linguistic-map-2024
+  - languageCode: srd
+    domain: locallySpoken
+    speakersShare: 0.024
+    sourceId: linguistic-map-2024
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.33
+    sourceId: eurobarometer-languages-2024
+ethnicGroups:
+  - group: Italian
+    percent: 91.5
+    sourceId: istat-foreigners-2024
+  - group: Other European (incl. Romanian, Albanian, Ukrainian, Moldovan)
+    percent: 3.5
+    sourceId: istat-foreigners-2024
+  - group: African (incl. Moroccan, Egyptian, Nigerian, Senegalese)
+    percent: 1.6
+    sourceId: istat-foreigners-2024
+  - group: Asian (incl. Chinese, Filipino, Indian, Bangladeshi)
+    percent: 2.0
+    sourceId: istat-foreigners-2024
+  - group: Other / multiple
+    percent: 1.4
+    sourceId: istat-foreigners-2024
+timezones:
+  - name: Europe/Rome
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (IVA included)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data (names, emails, behavioral data, etc.) requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure — the EU-wide GDPR, directly applicable in Italy (also codified in Italy's own Data Protection Code, D.Lgs. 196/2003 as amended)."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge."
+    sourceId: eu-directive-2019-771
+  - topic: "Sunday / public-holiday trading"
+    description: "Shop opening hours (including Sunday trading) are largely governed by regional and municipal rules following the market liberalization of D.L. 201/2011; in most of Italy retailers may open on Sundays, though restrictions vary by region and trade sector. Service businesses, banks and most offices keep traditional weekday hours."
+    sourceId: it-dl-201-2011
+  - topic: "receipt / till-roll obligation (corrispettivi)"
+    description: "Retailers and most services are legally required to issue a receipt (ricevuta) or tax invoice and transmit cash-register data to the Tax Agency electronically; visitors should expect a till receipt for every purchase."
+    sourceId: it-dlgs-127-2015
+paymentMethodShares:
+  - method: "cash (point-of-sale transactions, by number)"
+    percent: 61.0
+    sourceId: banca-italia-space-2024
+  - method: "card payment (point-of-sale transactions, by number)"
+    percent: 32.0
+    sourceId: banca-italia-space-2024
+  - method: "mobile payment (point-of-sale transactions, by number)"
+    percent: 4.0
+    sourceId: banca-italia-space-2024
+paymentCulture:
+  popularMethods:
+    - Visa and Mastercard-branded debit/credit cards (majority of Italian-issued cards are co-badged with Bancomat/PagoBANCOMAT, the domestic network)
+    - "Contactless card and NFC mobile payment (Apple Pay, Google Pay, Satispay)"
+    - "Cash — still the most used instrument at the physical point of sale, especially for low-value purchases (under ~€30)"
+    - "Bonifico (bank transfer) and addebito diretto (direct debit) for bill payments / e-commerce"
+  tipping:
+    expected: false
+    typicalAmount: "Optional; rounding up or leaving a few euros for good service is appreciated — a coperto (cover charge) is already added separately to restaurant bills."
+    autoIncludedInBill: false
+    note: "A service charge is not automatic; a coperto (bread and cover) appears on the bill by law. Tipping is welcome but never expected."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Use 'Lei' (formal 'you') with strangers, officials, and in business until invited to switch to 'tu'. Titles (Dottore/Dottoressa for degree holders, Professore, Ingegnere, Avvocato) are used and appreciated. First names come quickly among peers and younger people."
+  greetingNorms: "Handshake on meeting and leaving in business; among friends and family two air-kisses on the cheeks (beginning with the left when going left-to-right, or right depending on region) are common."
+  meetingEtiquette: "Punctuality is generally expected for business, though a few minutes' lateness is tolerated socially. Meetings start with small talk before business; building a personal relationship matters. Decision-making can involve hierarchy — the senior person often decides, and discussion is lively and animated."
+  topicsToAvoid:
+    - "Politics (especially EU-membership and immigration debates) with new acquaintances"
+    - "The Mafia / organized crime, unless raised spontaneously or in safe academic context"
+    - "North-South economic and cultural stereotypes"
+    - "Recent history relating to the Fascist period and World War II, beyond a neutral tone"
+    - "Personal income, salary or the price paid for purchases"
+  giftGivingNotes: "Not expected at a first business meeting; a small, tasteful gift (not cash) is appreciated once a relationship develops. If invited to a home, bring flowers, chocolates or wine. Avoid chrysanthemums (funeral flowers) and avoid giving an even number of flowers."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: IT-25
+    file: distinct-regions/it-25.yaml
+    adminUnitCodes: [IT-25]
+  - code: IT-62
+    file: distinct-regions/it-62.yaml
+    adminUnitCodes: [IT-62]
+  - code: IT-82
+    file: distinct-regions/it-82.yaml
+    adminUnitCodes: [IT-82]
+sources:
+  - id: it-law-482-1999
+    name: "Legge 15 dicembre 1999, n. 482 — Norme in materia di tutela delle minoranze linguistiche storiche, Article 1"
+    publisher: "Gazzetta Ufficiale della Repubblica Italiana (Parliament of the Republic of Italy)"
+    url: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1999-12-15;482"
+    year: 1999
+    accessedDate: "2026-09-20"
+    note: "The legal basis for Italian being the country's official language (Article 1: 'La lingua ufficiale della Repubblica è l'italiano'), and for the listing of twelve recognized historical minority languages."
+  - id: linguistic-map-2024
+    name: "Languages of Italy (ISTAT-based summary of home-language use, 2024 data)"
+    publisher: "ISTAT (Istituto nazionale di statistica), via aggregated linguistic studies"
+    url: "https://www.istat.it/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "locallySpoken shares: Italian used at home (~95%), Sardinian (~2.4%), German (South Tyrol co-official, ~0.6% nationally). Approximate, self-reported home-language figures aggregated from ISTAT LFS data and linguistic-profile reporting; exact shares vary by survey."
+  - id: istat-foreigners-2024
+    name: "Population and households: foreigners resident in Italy (Cittadini non comunitari / Censimento 2024)"
+    publisher: "ISTAT (Istituto nazionale di statistica)"
+    url: "https://demo.istat.it/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Derived ethnic/foreign-origin grouping: Italian citizens and residents of Italian descent ~91.5%, with the remainder grouped by broad origin of foreign residents (about 9% of the population are foreign-born or foreign nationals). Percentages are approximate groupings of ISTAT foreign-resident data, not a self-declared ethnicity census (Italy does not collect question-level ethnicity data)."
+  - id: eurobarometer-languages-2024
+    name: "Special Eurobarometer: Europeans and their Languages (May 2024 wave)"
+    publisher: "European Commission (Eurobarometer)"
+    url: "https://europa.eu/eurobarometer/surveys/detail/2979"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "The share of the Italian population able to hold a conversation in English as a foreign language (33%)."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-20"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Italy as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Italy as an EU member state (implemented in the Italian Consumer Code, D.Lgs. 206/2005)."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the GDPR data-protection rules applying to personal-data collection/processing in Italy as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."
+  - id: it-dl-201-2011
+    name: "Decreto-legge 6 dicembre 2011, n. 201 (Decreto Salva Italia) — market liberalization of shop opening hours"
+    publisher: "Gazzetta Ufficiale della Repubblica Italiana"
+    url: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2011-12-06;201"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the liberalization of retail opening hours, devolving Sunday/public-holiday trading rules largely to regions/municipalities."
+  - id: it-dlgs-127-2015
+    name: "D.Lgs. 4 agosto 2015, n. 127 — electronic cash register / till-roll obligation (corrispettivi telematici)"
+    publisher: "Gazzetta Ufficiale della Repubblica Italiana"
+    url: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-08-04;127"
+    year: 2015
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the requirement that retailers and service providers issue receipts and transmit sales data electronically to the Tax Agency."
+  - id: banca-italia-space-2024
+    name: "Study on the payment attitudes of consumers in Italy (ECB SPACE 2024 survey)"
+    publisher: "Banca d'Italia (Bank of Italy), based on the ECB SPACE 2024 study"
+    url: "https://www.bancaditalia.it/pubblicazioni/mercati-infrastrutture-e-sistemi-di-pagamento/approfondimenti/2025-068/index.html"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Point-of-sale transaction shares by number: cash 61%, cards 32%, mobile payments 4% (2024 wave). By value cash falls to ~49% and cashless to ~51%, confirming a clear downward cash trend."

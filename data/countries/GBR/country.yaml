@@ -1,0 +1,208 @@
+alpha3: GBR
+alpha2: GB
+name:
+  eng: United Kingdom
+  local:
+    - languageCode: eng
+      value: United Kingdom
+flagEmoji: "🇬🇧"
+capital: London
+isSovereign: true
+# Classified unitary-large: population ~68M is far above the threshold, and the
+# devolved nations (England MANDATORY, Scotland, Wales, Northern Ireland) carry
+# a widely recognized cultural-historical regional identity with regional
+# languages (Welsh, Scottish Gaelic, Irish, Scots), so real ISO 3166-2 region
+# files are curated (the four home nations) alongside the WHOLE fallback. The UK
+# is not a federal state (Westminster remains sovereign), hence unitary-large.
+governanceType: unitary-large
+iso3166_2_prefix: GB
+hasSubdivisions: true
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: uk-de-facto-official
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.98
+    sourceId: census-languages-2021
+  - languageCode: cym
+    domain: locallySpoken
+    speakersShare: 0.009
+    sourceId: census-cymru-2021
+  - languageCode: gla
+    domain: locallySpoken
+    speakersShare: 0.001
+    sourceId: scotland-census-2022
+  - languageCode: sco
+    domain: locallySpoken
+    speakersShare: 0.012
+    sourceId: scotland-census-2022
+ethnicGroups:
+  - group: White (incl. White British, Irish, other White)
+    percent: 81.0
+    sourceId: census-ethnicity-2021
+  - group: Asian / Asian British (Indian, Pakistani, Bangladeshi, Chinese, other)
+    percent: 9.3
+    sourceId: census-ethnicity-2021
+  - group: Black / Black British / Caribbean / African
+    percent: 4.0
+    sourceId: census-ethnicity-2021
+  - group: Mixed / Multiple ethnic groups
+    percent: 3.0
+    sourceId: census-ethnicity-2021
+  - group: Other ethnic group
+    percent: 2.7
+    sourceId: census-ethnicity-2021
+timezones:
+  - name: Europe/London
+    standardUtcOffset: "UTC+0"
+    observesDst: true
+    dstUtcOffset: "UTC+1"
+    dstPeriod: "Last Sunday of March to last Sunday of October (British Summer Time)."
+currency:
+  code: GBP
+  symbol: "£"
+  name: Pound sterling
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumers are entitled to see the final price incl. VAT before purchasing; prices advertised to the public must be stated including VAT. Everywhere outside the UK's four-nation consumer frameworks the UK has retained the EU-aligned EU-inclusive-price convention."
+    sourceId: uk-consumer-protection-regs
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, phone, mail order) have a 14-day cancellation/return right under the Consumer Contracts Regulations 2013."
+    sourceId: uk-ccr-2013
+  - topic: "data protection (UK GDPR + DPA 2018)"
+    description: "Personal-data collection and processing requires a lawful basis (e.g. consent), must be limited to a stated purpose, and grants individuals access, correction, and erasure rights — the UK GDPR (retained) and Data Protection Act 2018 apply to the whole UK."
+    sourceId: uk-gdpr-dpa2018
+  - topic: "consumer guarantee / short-term right to reject"
+    description: "Under the Consumer Rights Act 2015, goods must be as described, of satisfactory quality and fit for purpose; consumers have a 30-day right to reject faulty goods, and a right to repair or replacement thereafter (up to 6 years in England/Wales/NI, 5 in Scotland)."
+    sourceId: uk-cra-2015
+  - topic: "Sunday trading"
+    description: "In England and Wales, large shops (over 3,000 sq ft) may open for a maximum of 6 consecutive hours on Sunday (usually 10:00am-4:00pm). In Scotland, Northern Ireland wholly self-determine and Sunday opening restrictions are generally not imposed; the rules differ by nation."
+    sourceId: uk-sunday-trading-act
+paymentMethodShares:
+  - method: "debit card (all payments, by number of transactions)"
+    percent: 53.0
+    sourceId: uk-finance-pmr-2024
+  - method: "credit/charge card (all payments, by number)"
+    percent: 11.0
+    sourceId: uk-finance-pmr-2024
+  - method: "cash (all payments, by number)"
+    percent: 9.0
+    sourceId: uk-finance-pmr-2024
+  - method: "Faster Payments / other remote-banking transfer (by number)"
+    percent: 11.0
+    sourceId: uk-finance-pmr-2024
+paymentCulture:
+  popularMethods:
+    - Contactless debit/credit cards and mobile wallets (Apple Pay, Google Pay) — the large majority of card spend is contactless
+    - Visa and Mastercard (dominant schemes)
+    - Faster Payments (instant bank transfers, incl. Paym/name lookup app)
+    - "Cash — still widely accepted but now under 10% of payments, used mostly for small ad-hoc purchases"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected; in restaurants ~10-12.5% is customary when service charge isn't already included (12.5% 'discretionary service' is increasingly auto-added at London hospitality venues — check the bill). Tipping taxi drivers, bar staff, and hairdressers is optional-rounding."
+    autoIncludedInBill: false
+    note: "Service charge is often auto-added in restaurants; when present, a further tip is not expected. Otherwise cash or card tips are appreciated but optional."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Titles (Mr/Mrs/Ms + surname) are used until someone offers first names — which in most UK business settings happens quickly. English formality is relatively egalitarian but polite; excessive deference can feel old-fashioned."
+  greetingNorms: "A firm handshake is standard for both men and women in business; a nod or wave among casual acquaintances. Cheek-kissing is not a UK business norm (common only among close friends/family)."
+  meetingEtiquette: "Punctuality is highly valued — arrive on time. Meetings tend to be structured, with an agenda and clear next steps; discussion is generally direct but courteous, with understatement and mild euphemism (a British trait). Decisions often involve consensus and follow-up rather than instant on-the-spot agreement."
+  topicsToAvoid:
+    - "Personal income, salary, or property prices"
+    - "Religion and party-political affiliation with new acquaintances"
+    - "Brexit / the EU-membership debate (still a sensitive, divisive topic)"
+    - "The monarchy, in a way that invites strong opinion (most remain broadly supportive or neutral)"
+    - "Northern Ireland political questions, unless raised in safe context"
+  giftGivingNotes: "Not expected at a first business meeting. If invited to a private home, a small gift (wine, chocolates, flowers) is a thoughtful touch. Avoid very expensive gifts (can feel like obligation); when buying flowers, familiar blooms are fine and there is no strong funeral-colour taboo."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: GB-ENG
+    file: distinct-regions/gb-eng.yaml
+    adminUnitCodes: [GB-ENG]
+  - code: GB-SCT
+    file: distinct-regions/gb-sct.yaml
+    adminUnitCodes: [GB-SCT]
+  - code: GB-WLS
+    file: distinct-regions/gb-wls.yaml
+    adminUnitCodes: [GB-WLS]
+sources:
+  - id: uk-de-facto-official
+    name: "English as the de facto official language of the United Kingdom (UK Parliament explainer; no single statute designates it, but it is the language of Parliament, government and law)"
+    publisher: "UK Parliament / Ministry of Justice"
+    url: "https://www.legislation.gov.uk/ukpga/2022/45"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "Basis for English as the de facto official language at country level; the Identity and Language (NI) Act 2022 confirms English's unchanged status in Northern Ireland."
+  - id: census-languages-2021
+    name: "Census 2021, England and Wales — main-language statistics"
+    publisher: "Office for National Statistics (ONS), UK"
+    url: "https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/ethnicgroupnationalidentitylanguageandreligionvariablescensus2021/mainlanguage"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "English as main language ~98% in England & Wales, the basis for the eng locallySpoken share at country level (scaled from England & Wales Census 2021)."
+  - id: census-cymru-2021
+    name: "Census 2021 for Wales — Welsh language"
+    publisher: "Welsh Government / ONS"
+    url: "https://www.gov.wales/welsh-language-data-census-2021"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Welsh-speaking population in Wales (29.7% of Welsh residents can speak Welsh; ~0.9% of the whole-UK population) — used for cym locallySpoken."
+  - id: scotland-census-2022
+    name: "Scotland's Census 2022 — Scottish Gaelic and Scots"
+    publisher: "National Records of Scotland"
+    url: "https://www.scotlandscensus.gov.uk/"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "Scottish Gaelic speakers in Scotland (~1.1% of Scottish population, ~0.1% of UK) — used for gla locallySpoken at country level; Scots-speaker detail noted at GB-SCT."
+  - id: census-ethnicity-2021
+    name: "Census 2021, England and Wales — ethnic group statistics"
+    publisher: "Office for National Statistics (ONS), UK"
+    url: "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "ethnicGroups shares: White 81.0%, Asian/Asian British 9.3%, Black/Black British 4.0%, Mixed 3.0%, Other 2.7% (England & Wales Census 2021; Scotland grouped separately)."
+  - id: uk-consumer-protection-regs
+    name: "Consumer Protection from Unfair Trading Regulations 2008; price-display rules under the Consumer Rights Act 2015"
+    publisher: "UK government (legislation.gov.uk)"
+    url: "https://www.legislation.gov.uk/uksi/2008/1277"
+    year: 2008
+    accessedDate: "2026-09-20"
+    note: "Basis that prices shown to consumers must be the final VAT-inclusive price."
+  - id: uk-ccr-2013
+    name: "The Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013"
+    publisher: "UK government (legislation.gov.uk)"
+    url: "https://www.legislation.gov.uk/uksi/2013/3134"
+    year: 2013
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the 14-day cancellation right on distance/online sales."
+  - id: uk-gdpr-dpa2018
+    name: "UK GDPR (retained EU Regulation 2016/679) + Data Protection Act 2018"
+    publisher: "Information Commissioner's Office (ICO), UK"
+    url: "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/"
+    year: 2018
+    accessedDate: "2026-09-20"
+    note: "The legal basis for personal-data-protection obligations across the whole UK."
+  - id: uk-cra-2015
+    name: "Consumer Rights Act 2015"
+    publisher: "UK government (legislation.gov.uk)"
+    url: "https://www.legislation.gov.uk/ukpga/2015/15"
+    year: 2015
+    accessedDate: "2026-09-20"
+    note: "The legal basis for goods quality/description/fitness standards, the 30-day short-term right to reject, and longer repair/replacement remedies."
+  - id: uk-sunday-trading-act
+    name: "Sunday Trading Act 1994 (England & Wales rules); SCOT/NIR self-determined"
+    publisher: "UK government (legislation.gov.uk)"
+    url: "https://www.legislation.gov.uk/ukpga/1994/20"
+    year: 1994
+    accessedDate: "2026-09-20"
+    note: "The basis for the 6-hour Sunday opening limit on large shops in England and Wales; not applicable to Scotland/Northern Ireland where no such restriction exists."
+  - id: uk-finance-pmr-2024
+    name: "UK Payment Markets Report 2024"
+    publisher: "UK Finance"
+    url: "https://www.ukfinance.org.uk/policy-and-guidance/reports/uk-payment-statistics-2023"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Shares of all UK payments by number: debit cards 53%, credit/charge cards 11%, cash 9% (first time under 10%), Faster Payments/other transfers ~11% (rounded). Cards + mobile wallets = 64% of all payments overall."

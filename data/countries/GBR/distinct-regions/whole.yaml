@@ -1,0 +1,153 @@
+code: WHOLE
+name:
+  eng: United Kingdom
+  local:
+    - languageCode: eng
+      value: United Kingdom
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO 3166-2
+# subdivision isn't one of the curated home-nation regions in GBR/distinct-regions/.
+# Content here is deliberately national/symbolic rather than tied to one nation.
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate across most of the UK — mild, changeable, no extremes; rainfall all year.
+  - koppenCode: Cfc
+    description: Subpolar oceanic conditions in the far north (Sutherland, uplands, Shetland).
+landmarks:
+  - name: Big Ben / Palace of Westminster
+  - name: Tower of London
+    unescoWorldHeritage: true
+  - name: Stonehenge
+    unescoWorldHeritage: true
+  - name: Edinburgh Castle
+  - name: "Giant's Causeway, Northern Ireland"
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Four home nations (England, Scotland, Wales, Northern Ireland) with distinct identities within one state"
+  - Queuing, politeness and a certain British reserve as cultural markers
+  - Tea culture and the pub as a social institution
+  - "Dry, understated humour — irony and self-deprecation"
+  - Strong literary, musical and sporting heritage (Shakespeare, The Beatles, football, cricket)
+prideOf:
+  - The UK's long parliamentary and legal tradition (Magna Carta, constitutional monarchy)
+  - "Cultural exports: music, literature, film (James Bond, Harry Potter, BBC)"
+  - Scientific and industrial heritage (Steam engine, Industrial Revolution, NHS)
+  - NHS (National Health Service) as a core shared institution
+animals:
+  popular:
+    - Robin (unofficial national bird)
+    - Red fox
+    - European badger
+  unique:
+    - Red squirrel (native; declining, now mostly in Scotland)
+    - Highland cow
+    - Scottish wildcat
+industries:
+  - Financial services (City of London, UK finance is a global hub)
+  - Film, TV and creative industries
+  - Technology and fintech
+  - Pharmaceuticals and life sciences
+  - Aerospace and engineering
+  - Energy (oil & gas from North Sea, growing offshore wind)
+sports:
+  - Football (premier league worldwide draw)
+  - Cricket (birthplace of the modern game)
+  - Rugby union and rugby league
+  - Tennis (Wimbledon)
+  - Golf (birthplace, The Open)
+  - Snooker and darts
+religions:
+  - name: Christian
+    percent: 46.2
+    sourceId: ons-religion-2021
+  - name: No religion
+    percent: 37.2
+    sourceId: ons-religion-2021
+  - name: Muslim
+    percent: 6.5
+    sourceId: ons-religion-2021
+  - name: Hindu
+    percent: 1.7
+    sourceId: ons-religion-2021
+  - name: Sikh
+    percent: 0.9
+    sourceId: ons-religion-2021
+  - name: Buddhist
+    percent: 0.5
+    sourceId: ons-religion-2021
+  - name: Jewish
+    percent: 0.5
+    sourceId: ons-religion-2021
+  - name: Other religion / not stated
+    percent: 6.5
+    sourceId: ons-religion-2021
+entertainment:
+  - season: summer
+    items:
+      - Wimbledon tennis championships (June-July)
+      - Glastonbury and summer music festivals
+      - "The Proms classical season (July-September)"
+      - "Summer bank-holiday events and county shows"
+  - season: winter
+    items:
+      - Christmas markets and pantomime season
+      - New Year's Eve fireworks on the Thames / Hogmanay in Scotland
+      - "Boxing Day sales (26 December)"
+  - season: spring
+    items:
+      - "Chelsea Flower Show (May)"
+      - "Spring bank-holiday festivals and food markets"
+  - season: autumn
+    items:
+      - "Bonfire Night (5 November) fireworks"
+      - "Autumn theatre and football season in full swing"
+traditionalDishes:
+  - season: allYear
+    items:
+      - Fish and chips
+      - Sunday roast
+      - Tea and biscuits
+      - Full English / fried breakfast
+  - season: winter
+    items:
+      - Christmas dinner (turkey, roast potatoes, trimmings)
+      - "Pie and mash / steak and ale pie"
+      - Mince pies
+  - season: summer
+    items:
+      - Summer pudding and Eton mess
+      - "Strawberries and cream (Wimbledon tradition)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - Suits and tailoring from Savile Row (formal business dress tradition)
+      - "Wellies (Wellington boots) as a practical, culturally emblematic item"
+  - season: winter
+    items:
+      - Woollens and tweeds (Herdwick-wool knits, Harris tweed)
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours are typically around 9:00am-5:30pm (many do 9-5); the standard full-time week is 37.5 hours with 20-28 days' statutory paid annual leave."
+  lunchBreakTiming: "A short lunch break is the norm (30-60 minutes, often at the desk or a quick sandwich) — the UK is not a long-lunch country. 'Al desko' eating is common."
+  notableShutdownPeriods:
+    - period: Christmas/New Year
+      description: "Most offices close between 25 December and 1-2 January; many businesses wind down from around 20 December. Boxing Day (26 Dec) and New Year's Day are public holidays in the whole UK, plus 2 January in Scotland."
+  notes: "Sunday is the traditional rest day. In England and Wales large shops are limited to 6 Sunday hours; Scotland and Northern Ireland have no such Sunday restriction."
+sources:
+  - id: ons-religion-2021
+    name: "Religion, England and Wales — Census 2021"
+    publisher: "Office for National Statistics (ONS)"
+    url: "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion/bulletins/religionenglandandwales/census2021"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Religious-affiliation shares for England and Wales (Christian 46.2%, No religion 37.2%, Muslim 6.5%, Hindu 1.7%, Sikh 0.9%, Buddhist 0.5%, Jewish 0.5%, remaining Other/not stated ~6.5%). Scotland and NI collect separate religion data, so full-UK figures differ slightly; this stands in as the country-wide generalization (England & Wales hold ~89% of the UK population)."

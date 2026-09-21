@@ -1,0 +1,141 @@
+code: WHOLE
+name:
+  eng: Italy
+  local:
+    - languageCode: ita
+      value: Italia
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO 3166-2
+# subdivision isn't one of the curated regions in ITA/distinct-regions/ (e.g.
+# no IT-88 Sardegna file yet). Content here is deliberately national/symbolic
+# rather than tied to one region.
+climates:
+  - koppenCode: Csa
+    description: Mediterranean climate along most coasts and the south (hot dry summers, mild wet winters).
+  - koppenCode: Cfa/Cfb
+    description: Humid subtropical / oceanic climate across the Po Valley and much of the north.
+  - koppenCode: Dfc
+    description: Continental/alpine climate in the Alps and high Apennine ranges.
+  - koppenCode: BSk
+    description: Semi-arid conditions in a few southern coastal pockets (e.g. parts of Sicily and Puglia).
+landmarks:
+  - name: Colosseum
+    description: Rome's ancient amphitheatre, UNESCO World Heritage site.
+  - name: Pompeii archaeological site
+    unescoWorldHeritage: true
+  - name: Leaning Tower of Pisa
+  - name: Venice and its Lagoon
+    unescoWorldHeritage: true
+  - name: Cinque Terre
+    unescoWorldHeritage: true
+  - name: Historic Centre of Florence
+    unescoWorldHeritage: true
+culturalTraits:
+  - Roman heritage and a living classical/Fall-of-Rome cultural memory
+  - Regional identity has immense importance — every region has its own cuisine, dialect and customs
+  - Family as the central social unit
+  - "'La dolce vita': enjoyment of food, coffee, and leisure as culturally valued"
+  - Strong craftsmanship, design and art (from Renaissance masters to contemporary fashion)
+prideOf:
+  - Culinary and wine heritage (pasta, pizza, espresso, regional specialties, DOC/DOCG wines)
+  - Art, architecture and UNESCO sites (more World Heritage Sites than any other country)
+  - Fashion and design (Milan fashion week, automotive design, Ferragamo/Gucci/Prada)
+  - Historical legacy of the Roman Empire and the Renaissance
+  - Automotive excellence (Ferrari, Lamborghini, Maserati, Ducati)
+animals:
+  popular:
+    - Italian wolf (unofficial national symbol)
+    - Peregrine falcon
+    - Red fox
+  unique:
+    - Apennine chamois
+    - Sardinian mouflon
+    - Abruzzo (Marsican) brown bear
+industries:
+  - Machinery and industrial manufacturing (northern industrial triangle)
+  - Fashion and luxury goods (fashion, leather, eyewear)
+  - Tourism (one of the world's most-visited countries)
+  - Food and wine export
+  - Automotive (Fiat/Stellantis, Ferrari, Lamborghini)
+sports:
+  - Football (calcio)
+  - Cycling (Giro d'Italia)
+  - Formula One / motorsport (Monza, Ferrari)
+  - Volleyball and basketball
+  - Winter sports (Alps and Dolomites)
+religions:
+  - name: Roman Catholic
+    percent: 74.5
+    sourceId: cesnur-religion-2021
+  - name: Atheist / agnostic / no religion
+    percent: 15.3
+    sourceId: cesnur-religion-2021
+  - name: Other Christian (Orthodox, Protestant, etc.)
+    percent: 4.1
+    sourceId: cesnur-religion-2021
+  - name: Muslim
+    percent: 3.7
+    sourceId: cesnur-religion-2021
+  - name: Other religions (Jewish, Buddhist, Hindu, etc.)
+    percent: 2.2
+    sourceId: cesnur-religion-2021
+entertainment:
+  - season: summer
+    items:
+      - Palio di Siena horse race (July & August)
+      - "Cinecittà / open-air summer cinema and concerts"
+      - Venice Carnival (winter, February) and summer festivals across Italy
+  - season: winter
+    items:
+      - Christmas markets in Trentino and the Dolomites
+      - Venice Carnival (held in early February, in winter)
+      - New Year's Eve (Capodanno) celebrations and fireworks
+  - season: spring
+    items:
+      - "Festa della Repubblica parades (2 June)"
+      - Infiorata flower festivals (Sicily, e.g. Noto)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Pizza napoletana
+      - Pasta (beyond the famous dishes, every region has its own shape and sauce)
+      - Espresso and cappuccino
+      - Gelato
+  - season: winter
+    items:
+      - Panettone and pandoro (Christmas cakes)
+      - Cotechino with lentils (New Year)
+  - season: summer
+    items:
+      - Insalata caprese
+      - Granita (Sicily)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Italian fashion as a style identity (tailoring, elegance, made-to-measure suits)
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices generally run about 9:00am-6:00pm (many close early on Fridays in summer); the standard workweek is 40 hours. Italian labor law and collective agreements cap overtime with generous paid holidays (ferie) and the statutory annual leave."
+  lunchBreakTiming: "A distinct midday break is common, though shorter than the long tradition of a full 'riposo' — usually about 1-2 hours around 1:00pm. Some shops (especially small and family-run ones) still close for a pausa pranzo and reopen later; large retailers and city-center shops usually stay open."
+  notableShutdownPeriods:
+    - period: August
+      description: "Ferragosto (15 August) marks the peak of the summer holiday season; many small shops, family businesses, and artisans close for a week or more around mid-August, though big-city retail, tourism and restaurants stay open."
+  notes: "Sunday trading is allowed in most of Italy under the post-2011 liberalization but varies by region and sector; some tourist areas extend hours further."
+sources:
+  - id: cesnur-religion-2021
+    name: "2021 study by the Center for Studies of New Religions (CESNUR), reported in the U.S. State Department 2023 Report on International Religious Freedom: Italy"
+    publisher: "CESNUR (Center for Studies of New Religions), via U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/italy/"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Religious-affiliation shares among Italians and foreigners resident in Italy: Catholic 74.5%, atheist/agnostic 15.3%, non-Catholic Christian 4.1%, Muslim 3.7%, other 2.2%. National-level figures from an independent research center; no region-level breakdown is published by an official body."

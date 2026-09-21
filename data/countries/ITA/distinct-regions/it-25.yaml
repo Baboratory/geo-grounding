@@ -1,0 +1,85 @@
+code: IT-25
+name:
+  eng: Lombardy
+  local:
+    - languageCode: ita
+      value: Lombardia
+climates:
+  - koppenCode: Cfa
+    description: Humid subtropical climate in the Po Valley (foggy winters, warm humid summers).
+  - koppenCode: Cfb
+    description: Cooler oceanic conditions in the northern Alpine foothills and along the lakes.
+landmarks:
+  - name: Milan Cathedral (Duomo di Milano)
+  - name: Sforza Castle (Castello Sforzesco)
+  - name: Lake Como and Lake Garda
+  - name: Brera art district, Milan
+  - name: Santa Maria delle Grazie (Leonardo's 'Last Supper')
+    unescoWorldHeritage: true
+culturalTraits:
+  - Milan as Italy's economic, financial and fashion capital
+  - Distinct regional dialects (Lombard / Milanese)
+  - Strong industrial and entrepreneurial work ethic ('Milanese haste')
+  - Aperitivo culture — pre-dinner drinks with food spreads
+prideOf:
+  - Fashion and design (Milan Fashion Week, Salone del Mobile design fair)
+  - Cuisine (risotto alla milanese, panettone, ossobuco)
+  - Economic dynamism and financial sector
+  - Lakes and Alpine scenery
+animals:
+  popular:
+    - Red squirrel
+    - Roe deer
+industries:
+  - Fashion and design (Prada, Armani, Versace, Gucci R&D)
+  - Finance and banking (Milan as Italy's financial hub)
+  - Engineering and manufacturing
+  - Machinery and machine tools (many of Italy's industrial districts)
+sports:
+  - Football (AC Milan and Inter Milan)
+  - Skiing and winter sports (Valtellina, Aprica)
+  - Cycling (Lake Como stage area, Giro d'Italia)
+entertainment:
+  - season: summer
+    items:
+      - "Summer aperitivo scene and open-air concerts in Milan courtyards"
+      - Milan and lake-resort outdoor events
+  - season: winter
+    items:
+      - Ski season in Valtellina and the Alps
+      - Christmas markets in Milan and Alpine towns
+  - season: spring
+    items:
+      - "Salone del Mobile (Milan Design Week, April)"
+      - Milan Fashion Week (held in late winter/early spring and September)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Risotto alla milanese
+      - Ossobuco
+      - Panettone (traditionally from Milan, Christmas)
+  - season: winter
+    items:
+      - Cassoeula (pork and cabbage stew)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Tailored Italian business and fashion attire (Milan as a sartorial capital)
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Milan offices typically run 9:00am-6:00pm; the northern working culture is more punctual and deadline-driven than elsewhere in Italy."
+  lunchBreakTiming: "A 1-hour lunch break around 1:00pm is common, often a quick meal rather than the long southern-style pause."
+  notableShutdownPeriods:
+    - period: August
+      description: "Many Milanese businesses close or run skeletal staffing for at least two weeks around Ferragosto; much of the fashion and financial sector pauses."
+  notes: "Sunday opening is common in Milan's city center and large malls; many small neighborhood shops close on Sunday and, per local custom, on Monday mornings."

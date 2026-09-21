@@ -1,0 +1,89 @@
+code: IT-62
+name:
+  eng: Lazio
+  local:
+    - languageCode: ita
+      value: Lazio
+climates:
+  - koppenCode: Csa
+    description: Mediterranean climate along the Tyrrhenian coast and across Rome (mild wet winters, hot dry summers).
+  - koppenCode: Cfb
+    description: Cooler continental/mountain climate in the Apennine interior (Valle del Sacco, mountain towns like Subiaco).
+landmarks:
+  - name: Colosseum and Roman Forum
+    unescoWorldHeritage: true
+  - name: Vatican City (St. Peter's Basilica, Sistine Chapel)
+    unescoWorldHeritage: true
+  - name: Trevi Fountain and the Spanish Steps
+  - name: Villa d'Este at Tivoli
+    unescoWorldHeritage: true
+  - name: Ostia Antica archaeological park
+culturalTraits:
+  - Rome as the 'Eternal City' and cradle of Roman civilization
+  - Layered history — Etruscan, Roman, medieval, Renaissance, baroque, contemporary
+  - Strong central-Italian dialect and humor (Romanesco)
+  - 24-hour city pulse and café life
+prideOf:
+  - The Roman Empire's legacy and classical heritage
+  - "Hosting the Vatican / center of the Catholic world"
+  - Cinema (Cinecittà) and Italian film heritage
+  - Cuisine (pasta alla carbonara, cacio e pepe, amatriciana, porchetta)
+animals:
+  popular:
+    - Seagulls (ubiquitous over Roman rooftops)
+    - Hill-partridge (in the countryside)
+    - Wild boar (in the Appia Antica park belt)
+industries:
+  - Tourism (Rome as one of the world's great cultural-tourism destinations)
+  - Cinema and media (Cinecittà studios)
+  - Government and public administration (national capital)
+  - Food and wine (Lazio wines, olive oil, charcuterie)
+sports:
+  - Football (AS Roma and SS Lazio)
+  - Rugby union
+  - Water polo
+entertainment:
+  - season: summer
+    items:
+      - Estate Romana — Rome's summer of open-air concerts, cinema and events
+      - Open-air opera and music at the Baths of Caracalla
+  - season: winter
+    items:
+      - Christmas concerts and Nativity displays at the Vatican
+      - New Year's Eve on the streets around central Rome
+  - season: spring
+    items:
+      - Easter celebrations at the Vatican (Pope's Urbi et Orbi blessing, Via Crucis at the Colosseum)
+      - Fior di campo festivals
+traditionalDishes:
+  - season: allYear
+    items:
+      - Pasta alla carbonara
+      - Cacio e pepe
+      - Supplì (fried rice croquettes)
+  - season: winter
+    items:
+      - Pasta all'amatriciana (hearty winter dish, from Amatrice)
+      - Brodetto / Roman-Jewish artichokes (carciofi alla giudia) in season
+traditionalClothing:
+  - season: allYear
+    items:
+      - Mainly contemporary dress; a special Roman-Jewish gastronomic and cultural festival identity rather than a distinct costume
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Public-sector and private offices in Rome typically run 9:00am-6:00pm; Roman business culture is somewhat more relaxed and relationship-driven than Milan's."
+  lunchBreakTiming: "A generous lunch break, often 1.5-2 hours around 1:00-3:00pm, is a strong tradition; many small shops and offices close for a proper midday pause."
+  notableShutdownPeriods:
+    - period: August
+      description: "Ferragosto and the surrounding weeks; many Roman small businesses close for a summer break while tourism continues at full rate."
+  notes: "Sunday trading is generally permitted in central Rome and tourist districts; many shops close on Sunday mornings in residential neighborhoods."
