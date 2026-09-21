@@ -1,0 +1,156 @@
+alpha3: MRT
+alpha2: MR
+name:
+  eng: Mauritania
+  local:
+    - languageCode: ara
+      value: "موريتانيا (Mūrītāniyā)"
+flagEmoji: "🇲🇷"
+capital: Nouakchott
+isSovereign: true
+# Classified unitary-small: Mauritania (~4.7M, 2024 est.; ~5.4M by 2026) sits
+# well under the ~20-25M threshold for unitary-large and is a unitary
+# semi-presidential Islamic republic with no federal structure. The official
+# language is Arabic; Pulaar, Soninke and Wolof are constitutionally recognized
+# national languages (Art. 6), but the country does not have a widely recognized
+# cultural-historical regional fault line of the kind that merits curated
+# regions (the Moor north and the black-African south interweave rather than
+# forming two clean territorial blocks). One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: ara
+    domain: official
+    speakersShare: 1.0
+    sourceId: mrt-constitution-art6
+  - languageCode: mey
+    domain: locallySpoken
+    speakersShare: 0.83
+    sourceId: mrt-languages-est
+  - languageCode: fuc
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: mrt-languages-est
+  - languageCode: snk
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: mrt-languages-est
+  - languageCode: wol
+    domain: locallySpoken
+    speakersShare: 0.005
+    sourceId: mrt-languages-est
+  - languageCode: fra
+    domain: foreign
+    speakersShare: 0.15
+    sourceId: mrt-languages-est
+# Arabic is the sole official language and Modern Standard Arabic the language
+# of administration, law and education (Constitution Art. 6). Hassaniyya (mey),
+# a Bedouin Arabic dialect, is the dominant everyday vernacular (~83%, mainly
+# among the Moor population). Pulaar, Soninke and Wolof are recognized national
+# languages of the sub-Saharan communities, with limited institutional use.
+# French persists as a secondary language of administration, higher education
+# and business (~15% functional). LocallySpoken/Foreign shares are Composite
+# estimates.
+ethnicGroups:
+  - group: Haratin (black Moors)
+    percent: 40.0
+    sourceId: mrt-ethnic
+  - group: Bidhan / Beidane (white Moors)
+    percent: 30.0
+    sourceId: mrt-ethnic
+  - group: Halpulaar, Fulani (Pulaar), Soninké and Wolof (black sub-Saharan groups)
+    percent: 30.0
+    sourceId: mrt-ethnic
+timezones:
+  - name: Africa/Nouakchott
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+currency:
+  code: MRU
+  symbol: "UM"
+  name: Mauritanian ouguiya
+legalConstraints:
+  - topic: "official languages"
+    description: "The Constitution (Art. 6) declares Arabic the country's sole official language, while recognizing Arabic, Pulaar, Soninke and Wolof as national languages. French has no official status but is used in administration and higher education."
+    sourceId: mrt-constitution-art6
+  - topic: "state religion"
+    description: "Mauritania is an Islamic republic; Islam is the state religion and Sunni Islam (Maliki school) is adhered to by virtually the entire population. The 1985 Constitutional Charter declared sharia the law of the land, though the current Civil and Commercial Codes and civil law coexist with Islamic law in personal-status matters."
+    sourceId: mrt-islam
+  - topic: "data protection"
+    description: "Mauritania has no GDPR-equivalent omnibus data-protection law; data handling is governed by narrower provisions (Law No. 2017-020 on personal-data protection, establishing a Data Protection Authority, adopted 2017 but not yet reported in force). Enforcement capacity is limited."
+    sourceId: mrt-dpa-2016
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: mrt-constitution-art6
+    name: "Mauritania 1991 (rev. 2012) Constitution, Article 6"
+    publisher: "Constitute Project (hosting an official-text English translation; the Government of Mauritania's own prc.mr domain does not resolve)"
+    url: "https://www.constituteproject.org/constitution/Mauritania_2012"
+    year: 1991
+    accessedDate: "2026-09-21"
+    note: "Arabic sole official language; Arabic, Pulaar, Soninke and Wolof recognized national languages."
+  - id: mrt-languages-est
+    name: "Composite estimate — languages of Mauritania"
+    publisher: "Composite estimate"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Mauritania"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Hassaniyya ~83%, Pulaar ~5%, Soninke ~1%, Wolof <1% locally spoken; French ~15% functional as a learned language. No official census of language shares exists."
+  - id: mrt-ethnic
+    name: "Ethnic composition of Mauritania"
+    publisher: "Composite estimate (census and ethnic studies)"
+    url: "https://en.wikipedia.org/wiki/Mauritania"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Haratin 40%, Bidhan/Beidane 30%, Halpulaar/Fulani/Soninke/Wolof 30%."
+  - id: mrt-islam
+    name: "Islam in Mauritania"
+    publisher: "Wikipedia (sourced to CIA World Factbook & Federal Research Division public-domain text)"
+    url: "https://en.wikipedia.org/wiki/Islam_in_Mauritania"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Virtually all Mauritanians are Sunni (Maliki); Islam is the state religion; 1985 charter declared sharia the law of the land."
+  - id: mrt-dpa-2016
+    name: "Mauritania Law No. 2017-020 on the protection of personal data"
+    publisher: "Data Protection Africa (fact sheet; the Government of Mauritania's own prc.mr domain does not resolve, and the correct law is No. 2017-020, not the 2016-009 the PR originally cited)"
+    url: "https://dataprotection.africa/mauritania/"
+    year: 2017
+    accessedDate: "2026-09-21"
+    note: "Establishes a Data Protection Authority; adopted 2017 but, per this fact sheet, not yet in force as of its last update. No omnibus GDPR-equivalent law."
+  - id: iso-ara
+    name: "ISO 639-3 entry: ara - Arabic (macrolanguage)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ara"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code ara (Arabic, Active, macrolanguage)."
+  - id: iso-mey
+    name: "ISO 639-3 entry: mey - Hassaniyya"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/mey"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code mey = Hassaniyya (Individual, Living)."
+  - id: iso-fuc
+    name: "ISO 639-3 entry: fuc - Pulaar"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/fuc"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code fuc = Pulaar (Individual, Living)."
+  - id: iso-snk
+    name: "ISO 639-3 entry: snk - Soninke"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/snk"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code snk = Soninke (Individual, Living)."
+  - id: iso-wol
+    name: "ISO 639-3 entry: wol - Wolof"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/wol"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code wol = Wolof (Individual, Living)."

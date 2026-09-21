@@ -1,0 +1,153 @@
+code: WHOLE
+name:
+  eng: New Zealand
+  local:
+    - languageCode: eng
+      value: New Zealand
+    - languageCode: mri
+      value: Aotearoa
+# Generic country-wide fallback content for New Zealand (unitary-small, single
+# synthetic whole region). The North Island / South Island / Stewart Island
+# split is geographic rather than a curated regional identity, so it is folded
+# here as the national character.
+climates:
+  - koppenCode: Cfb
+    description: "Temperate oceanic — mild year-round, no dry season; the dominant climate of both main islands (largely absent of extremes)."
+  - koppenCode: Cfc
+    description: "Subpolar oceanic in the high Southern Alps / Fiordland and elevated inland areas, with cool temperatures year-round and strong precipitation."
+  - koppenCode: BSk
+    description: "Semi-arid in parts of Central Otago and the Mackenzie Basin (rain-shadow), the driest areas of the country."
+landmarks:
+  - name: Milford Sound
+    description: "A fjord in Fiordland National Park (South Island) ringed by sheer cliffs and Mitre Peak; part of Te Wahipounamu, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Tongariro Alpine Crossing
+    description: "A famous one-day tramping route across the volcanic Tongariro National Park (Central North Island), past emerald lakes and craters."
+  - name: Waitangi Treaty Grounds
+    description: "The historic site (Bay of Islands) where the Treaty of Waitangi was signed in 1840; contains Te Whare Runanga, the carved meeting house."
+  - name: Sky Tower (Auckland)
+    description: "Auckland's iconic 328 m observation tower offering 360-degree views over the 'City of Sails' and its harbours."
+  - name: Rotorua geothermal area
+    description: "Active geysers, boiling mud pools and hot springs along the Pacific Ring of Fire."
+  - name: Franz Josef Glacier (Westland Tai Poutini)
+    description: "A glacier in the Southern Alps that flows into rainforest — a rare glacier-to-temperate-rainforest junction."
+    unescoWorldHeritage: true
+# Tongariro, Westland Tai Poutini and Te Wahipounamu (Fiordland) are all
+# inscribed UNESCO World Heritage Sites; the Waitangi Treaty Grounds host the
+# historic signing site.
+culturalTraits:
+  - "Manaaki (warm, genuine hospitality and care — a core New Zealand value)"
+  - "A strong 'no. 8 wire' DIY / practical ingenuity culture and egalitarian mateship"
+  - "Deep respect for te ao Māori (the natural environment) and outdoor life"
+  - "Bicultural heritage — Māori (Te Ao Māori) and Pākehā (European-New Zealander) — underpin national identity"
+  - "The haka and an understated, laconic Kiwi humour"
+prideOf:
+  - "Being the first country to give women the vote (1893) and to introduce a minimum wage (1894)"
+  - "The All Blacks and the haka, plus world-class rugby and the 1981/1995 Americas Cup legacy"
+  - "Te Reo Maori and the country's indigenous cultural revival"
+  - "The 'clean, green' landscape — from fjords to volcanoes to Southern Alps"
+animals:
+  popular:
+    - "Kiwi (national bird)"
+    - "Sheep (New Zealand has far more sheep than people)"
+    - "Kea (mountain parrot) and kaka"
+    - "Seals and penguins (yellow-eyed, little blue, Fiordland crested)"
+  unique:
+    - "Katipo (endemic venomous spider)"
+    - "Tuatara (endemic reptile, a living fossil of the Sphenodon genus)"
+    - "Weta (giant cave weta and tree weta — large endemic insects)"
+    - "Kakapo (flightless, nocturnal endemic parrot)"
+industries:
+  - "Dairy and meat exports (Fonterra; Australia/China/UK lead markets)"
+  - "Tourism — international visitors drawn to Fiordland, Rotorua, Queenstown and the wineries"
+  - "Dairy, horticulture (kiwifruit, apples) and wine (Sauvignon Blanc, Pinot Noir)"
+  - "Technology and film (Weta Workshop, film production support)"
+  - "Forestry and fishing"
+sports:
+  - "Rugby union (de facto national sport — the All Blacks)"
+  - "Cricket"
+  - "Netball (popular among women)"
+  - "Sailing (Auckland hosted the Americas Cup)"
+  - "Rugby league and basketball"
+religions:
+  - name: No religion
+    percent: 51.6
+    sourceId: census-2023-religion
+  - name: Christian
+    percent: 32.3
+    sourceId: census-2023-religion
+  - name: Hindu
+    percent: 2.9
+    sourceId: census-2023-religion
+  - name: Other religion
+    percent: 6.3
+    sourceId: census-2023-religion
+  - name: Undeclared
+    percent: 6.9
+    sourceId: census-2023-religion
+# 2023 census religion shares: a majority (51.6%) now declare no religion,
+# reflecting a marked secular trend; Christianity is the largest religion
+# (32.3%), followed by smaller Hindu, Muslim and Buddhist communities.
+entertainment:
+  - season: allYear
+    items:
+      - "Tramping and national-park walks (Tongariro, Abel Tasman, Fiordland)"
+      - "Beach, harbour and sailing days"
+      - "Live rugby, cricket and netball matches"
+      - "Craft beer, coffee culture and wine tasting"
+  - season: summer
+    items:
+      - "Beach trips, BBQs and long daylight hours (Dec-Feb)"
+      - "Boating and the Americas Cup / coastal-race season"
+  - season: winter
+    items:
+      - "Skiing and snowboarding at Queenstown, Cardrona and Mt Ruapehu (Jun-Sep)"
+      - "Geothermal soaks at Rotorua and Hanmer Springs"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Hangi — a traditional Maori earth-oven feast of meat and vegetables"
+      - "Fish and chips, and meat pies"
+      - "Lamb roast and the Sunday roast"
+      - "Pavlovka dessert (often claimed as Kiwi pavlova)"
+  - season: summer
+    items:
+      - "BBQ lamb and fresh seafood (green-lipped mussels, Bluff oysters)"
+  - season: winter
+    items:
+      - "Wholesome roasts, kumara (sweet potato), and hot pudding"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Casual, practical outdoor wear; merino and possum-wool knitwear"
+      - "Jandals (flip-flops) and shorts as everyday summer staples"
+      - "The swandri / Swanndri bush shirt in farming culture"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+# Southern-Hemisphere seasons: summer is Dec-Feb and winter is Jun-Aug.
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Mon-Fri 08:30/09:00-17:00/17:30; many offices open Mon-Fri only."
+  lunchBreakTiming: "Typically 12:00-13:00."
+  notableShutdownPeriods:
+    - period: "Christmas - New Year (late Dec to early Jan)"
+      description: "The main summer shutdown; many businesses close for a week or two and the country goes on holiday."
+    - period: "Public holidays"
+      description: "Waitangi Day (6 Feb), Good Friday/Easter, ANZAC Day (25 Apr), King's Birthday (1st Mon of Jun), Labour Day (4th Mon of Oct)."
+  notes: "Informal, egalitarian and friendly; first names are common even in business. Punctuality is valued. Many retail shops open on weekends."
+sources:
+  - id: census-2023-religion
+    name: "2023 Census - Religion"
+    publisher: "Stats NZ"
+    url: "https://www.stats.govt.nz/"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "Religion composition: no religion 51.6%, Christian 32.3%, Hindu 2.9%, other 6.3%, undeclared 6.9%."
