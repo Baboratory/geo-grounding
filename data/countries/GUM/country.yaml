@@ -1,0 +1,143 @@
+alpha3: GUM
+alpha2: GU
+name:
+  eng: Guam
+  local:
+    - languageCode: cha
+      value: "Guåhan"
+    - languageCode: eng
+      value: Guam
+flagEmoji: "🇬🇺"
+capital: "Hagåtña"
+isSovereign: false
+# Classified dependent-territory: Guam is an organized, unincorporated
+# territory of the United States (non-self-governing under the UN). A single
+# volcanic island ~30 miles long, so a single synthetic WHOLE region per the
+# governance rule for non-sovereign ISO 3166-1 entries; no sub-regions.
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: cha
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: wp-lang
+  - languageCode: cha
+    domain: locallySpoken
+    speakersShare: 0.38
+    sourceId: wp-lang
+# English and Chamorro are both official (Guam Organic Act of 1950 makes both
+# official; Chamorro is the indigenous language). English is the everyday
+# language of government, business and education; Chamorro is spoken at home by
+# a significant share of the CHamoru population. LocallySpoken shares are
+# estimates.
+ethnicGroups:
+  - group: Guamanian / CHamoru (indigenous)
+    percent: 37.3
+    sourceId: wp-ethnic
+  - group: Filipino
+    percent: 26.3
+    sourceId: wp-ethnic
+  - group: White (US, chiefly)
+    percent: 7.1
+    sourceId: wp-ethnic
+  - group: Other Pacific Islander (incl. Chuukese)
+    percent: 4.6
+    sourceId: wp-ethnic
+  - group: Korean
+    percent: 2.2
+    sourceId: wp-ethnic
+  - group: Japanese
+    percent: 1.3
+    sourceId: wp-ethnic
+  - group: Mixed and other
+    percent: 21.2
+    sourceId: wp-ethnic
+timezones:
+  - name: Pacific/Guam
+    standardUtcOffset: "UTC+10"
+    observesDst: false
+# Guam is on a single timezone UTC+10 year-round with no DST.
+currency:
+  code: USD
+  symbol: "$"
+  name: United States dollar
+legalConstraints:
+  - topic: "official languages"
+    description: "English and Chamorro are both official (Guam Organic Act of 1950, §30). Spanish was also spoken for centuries under Spanish rule but is no longer official."
+    sourceId: wp-lang
+  - topic: "US territory status"
+    description: "Guam is an unincorporated, organized territory of the United States; Guam's residents are US citizens (Organic Act 1950) but cannot vote in US presidential elections, and the military (Andersen Air Force Base, Naval Base Guam) is a major presence."
+    sourceId: wp-politics
+  - topic: "citizenship and migration"
+    description: "Guam is a gateway for migration from the Philippines and other parts of Micronesia, and its own residents migrate to the US mainland; the CHamoru people are the indigenous inhabitants with a millennia-long history on the island."
+    sourceId: wp-politics
+  - topic: "land stewardship"
+    description: "Much land is privately held by CHamoru families under the Spanish-derived 'tract' land system, and there is active debate over residency rules for purchased village land and the return of military lands."
+    sourceId: wp-culture
+paymentCulture:
+  popularMethods:
+    - "US dollar cash and credit/debit cards are standard, as in the US mainland"
+    - "Credit cards (Visa/Mastercard) widely accepted in Tumon Bay tourist areas"
+    - "ATMs throughout the island; banking from US and local institutions"
+  tipping:
+    expected: true
+    typicalAmount: "10-20% at sit-down restaurants, as in the US"
+    autoIncludedInBill: false
+    note: "Tipping follows US customs: 15-20% in restaurants, and for valets, bartenders and hotel staff."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Blend of US informality with CHamoru values of inafa'maolek (working for harmony and mutual benefit) and mamahlao (respect); family and island community ties are strong."
+  greetingNorms: "A warm 'Håfa Adai' (hello) or handshake; first names are common but said with respect."
+  meetingEtiquette: "Meetings value relationship-building and politeness; Filipinos and CHamorus alike respond to courtesy (mannginge'). Consensus and avoiding direct confrontation matter."
+  topicsToAvoid:
+    - "Disrespecting CHamoru custom or the Catholic faith"
+    - "Casual dismissal of island issues (military land, self-determination talks)"
+  giftGivingNotes: "Modest gifts and sharing food at feasts and village fiestas are appreciated; generosity is highly valued."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: wp-lang
+    name: "Wikipedia — Guam (Languages)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Guam#Languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "English and Chamorro both official (Organic Act 1950 §30); Chamorro spoken by ~38% at home; Spanish historical."
+  - id: wp-ethnic
+    name: "Wikipedia — Guam (Demographics, 2010 US census)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Guam#Demographics"
+    year: 2010
+    accessedDate: "2026-09-21"
+    note: "CHamoru 37.3%, Filipino 26.3%, White 7.1%, other Pacific Islander 4.6%, Korean 2.2%, Japanese 1.3%, mixed/other residual."
+  - id: wp-politics
+    name: "Wikipedia — Guam (Politics and US territory status)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Guam"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Organized unincorporated US territory; residents US citizens; Andersen AFB and Naval Base present."
+  - id: wp-culture
+    name: "Wikipedia — Guam (Culture)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Culture_of_Guam"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Chinese/Catholic CHamoru culture; inafa'maolek; fiesta tradition."
+  - id: iso-cha
+    name: "ISO 639-3 entry: cha — Chamorro"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/cha"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code cha = Chamorro (Active, Individual, Living)."

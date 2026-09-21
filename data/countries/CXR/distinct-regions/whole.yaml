@@ -1,0 +1,94 @@
+code: WHOLE
+name:
+  eng: Christmas Island
+  local:
+    - languageCode: eng
+      value: Christmas Island
+    - languageCode: cmn
+      value: "圣誕島 (Shèngdàn Dǎo)"
+# Generic country-wide fallback content for Christmas Island (dependent-
+# territory, single synthetic whole region). A single volcanic and karst island
+# ~135 km2, ringed by cliffs, rising to the central plateau covered by
+# rainforest.
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate with distinct wet (December-April) and dry (May-November) seasons; abundant rainfall sustains the island's plateau rainforest, with year-round warmth and steady south-east trade winds."
+landmarks:
+  - name: The red crab migration
+    description: "Each year (Oct-Dec) tens of millions of red land crabs migrate en masse from the central rainforest to the coast to spawn — one of nature's great spectacles and the island's emblem."
+  - name: The Dales
+    description: "A cool, fern-filled rainforest and freshwater spring area in the island's west, with some of the best swimming holes."
+  - name: Ethel Beach and the Blowholes
+    description: "Fine white-sand beaches on the rugged north coast with dramatic blowholes where the ocean surges through cliff fissures."
+  - name: Flying Fish Cove
+    description: "The capital and main anchorage, at the foot of the island's coastal cliffs, with the settlement and the jetty."
+culturalTraits:
+  - "A genuinely multicultural society — Chinese, Malay, Filipino and Anglo-Australian residents celebrate each other's festivals"
+  - "Chinese Lunar New Year and the Malay Muslim community's Eid are prominent annual celebrations"
+  - "A proud 'crab island' identity: the red-crab migration is woven into local pride and even painted on the airport runway"
+  - "A relaxed island pace with strong neighbourhood and workplace ties"
+prideOf:
+  - "Home of the largest land-crab migration on Earth and a host of endemic species found nowhere else"
+  - "A tolerant, happy coexistence of Chinese, Malay, Filipino and Australian cultures"
+  - "Remarkable unspoilt rainforest, cliffs and beaches above a fringing coral reef"
+animals:
+  popular:
+    - "Red land crabs (up to 40 million) — the defining species of the annual migration"
+    - "Coconut (robber) crabs — the world's largest land arthropods"
+    - "Christmas Island frigatebird and Abbott's booby (endemic seabirds)"
+    - "Blue-tailed skinks and the island's endemic reptiles"
+  unique:
+    - "Hosts several endemic species restricted to the island, including Abbott's booby and the blue-tailed skink"
+    - "A rich offshore coral reef with schools of whale sharks and tuna"
+industries:
+  - "Phosphate mining (Christmas Island phosphates) — historically the dominant industry"
+  - "Government and public services"
+  - "Immigration detention facility employment"
+  - "Tourism (small-scale diving, birdwatching and the red-crab migration)"
+  - "Retail and services for the small resident community"
+sports:
+  - "Cricket — very popular"
+  - "Soccer (football)"
+  - "Australian rules football"
+  - "Tennis and a lively fishing and diving culture"
+religions:
+  - name: Buddhist (chiefly among the Chinese community)
+    percent: 25.0
+    sourceId: wp-culture
+  - name: Muslim (chiefly among the Malay community)
+    percent: 19.0
+    sourceId: wp-culture
+  - name: Christian (denominations among Anglo and Filipino residents)
+    percent: 15.0
+    sourceId: wp-culture
+  - name: Other (incl. Sikh, Hindu, Taoist and unaffiliated)
+    percent: 41.0
+    sourceId: wp-culture
+# Religion reflects the island's multicultural mix: Buddhist ~25%, Muslim ~19%,
+# Christian ~15%, and the rest a mix of Sikh, Hindu, Taoist and unaffiliated.
+# Figures are estimates.
+entertainment:
+  - season: allYear
+    items:
+      - "Community sport (cricket, soccer) and beach days"
+      - "Neighbourhood gatherings and celebratory meals across cultures"
+  - season: dry
+    items:
+      - "Peak beach, diving and birdwatching days (May-Nov dry season)"
+  - season: wet
+    items:
+      - "Chinese New Year and Lunar New Year festivities (Jan-Feb)"
+      - "Watching the red crab migration (Oct-Dec) as a community event"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10, 11]
+  - season: wet
+    months: [12, 1, 2, 3, 4]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — Christmas Island (Culture and demographics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Christmas_Island"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Multicultural mix of Buddhist, Muslim, Christian, Sikh, Hindu and Taoist and unaffiliated residents; figures are estimates."

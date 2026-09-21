@@ -1,0 +1,90 @@
+code: WHOLE
+name:
+  eng: Northern Mariana Islands
+  local:
+    - languageCode: eng
+      value: Northern Mariana Islands
+    - languageCode: cha
+      value: "Islas Mariånas"
+# Generic country-wide fallback content for the Commonwealth of the Northern
+# Mariana Islands (dependent-territory, single synthetic whole region). A north-
+# south volcanic archipelago arc of 14 islands, dominated by the three main
+# inhabited islands Saipan, Tinian and Rota.
+climates:
+  - koppenCode: Af
+    description: "Tropical marine climate — hot and humid year-round, with a pronounced dry season (December-June) and a wet season (July-November) that coincides with typhoon activity."
+landmarks:
+  - name: Managaha Island
+    description: "A small island offshore of Saipan's Magicienne Bay, a protected marine park and popular beach day-trip spot."
+  - name: Mount Tapochau
+    description: "The highest point on Saipan (155 m), a WWII lookout with panoramic views over the island and lagoon."
+  - name: Tinian's North Field
+    description: "The WWII airfield from which the atomic bombers B-29s took off in August 1945, now a heritage site and one of the shortest runways ever used by loaded bombers."
+culturalTraits:
+  - "Chamorro culture of the southern islands blended with Carolinian culture of the Micronesian community on Saipan"
+  - "A deeply Catholic CHamoru faith, with fiestas honouring village patron saints"
+  - "Family (famagu'on) and lagoon-side village life, respect for elders"
+  - "A modern, largely migrant-driven economy shaped by the Pacific War, US ties and Asian tourism"
+prideOf:
+  - "The Chamorro and Carolinian languages and cultures surviving centuries of colonial rule"
+  - "Beautiful white-sand beaches and the island 'Grotto' cavern heritage of Saipan"
+  - "The islands' strategic and historical importance across the Pacific War"
+animals:
+  popular:
+    - "Mariana fruit bats"
+    - "Coconut crabs"
+    - "Green sea turtles (nesting on the beaches)"
+    - "Micronesian megapodes and reef fish"
+  unique:
+    - "Home to the endemic Mariana fruit bat and the reintroduced Micronesian megapode"
+    - "Limestone caves ('the Grotto') and extensive coral reefs around Saipan, Tinian and Rota"
+industries:
+  - "Tourism, chiefly from South Korea, Japan and China (Saipan resorts)"
+  - "US federal and Commonwealth government employment"
+  - "Retail and services driven by a large migrant workforce"
+  - "Historically the garment and textile industry (declined sharply since the 1990s)"
+  - "Garment-plant legacy and regional cash remittances"
+sports:
+  - "Baseball — very popular at community and school level"
+  - "Basketball"
+  - "Soccer (football), reflecting the large Filipino and Asian community"
+  - "Volleyball and island beach sports"
+religions:
+  - name: Christian (chiefly Catholic, reflecting the Filipino and Chamorro communities)
+    percent: 80.0
+    sourceId: wp-culture
+  - name: Buddhist (chiefly among Chinese and Japanese communities)
+    percent: 19.0
+    sourceId: wp-culture
+  - name: Other / unaffiliated
+    percent: 1.0
+    sourceId: wp-culture
+# Religion is predominantly Christian (largely Catholic, over 80% per 2010
+# figures); Buddhism is present among the Asian communities. Figures are
+# estimates.
+entertainment:
+  - season: allYear
+    items:
+      - "Church services and Sunday family meals"
+      - "Beach, snorkelling, diving and fishing"
+      - "Village fiestas honouring patron saints, with song and dance"
+  - season: dry
+    items:
+      - "Peak beach and water-sports days (Dec-Jun dry season)"
+  - season: wet
+    items:
+      - "Indoor and community cultural festivities"
+      - "Constitution Day of the Commonwealth (18 June)"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4, 5, 6]
+  - season: wet
+    months: [7, 8, 9, 10, 11]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — Northern Mariana Islands (Culture and demographics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Northern_Mariana_Islands"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Religion predominantly Christian, largely Catholic; Buddhist minority; figures are estimates."

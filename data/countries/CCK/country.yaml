@@ -1,0 +1,131 @@
+alpha3: CCK
+alpha2: CC
+name:
+  eng: Cocos (Keeling) Islands
+  local:
+    - languageCode: eng
+      value: Cocos (Keeling) Islands
+    - languageCode: msa
+      value: "Kapulung-hen"
+flagEmoji: "🇨🇨"
+capital: "West Island"
+isSovereign: false
+# Classified dependent-territory: the Cocos (Keeling) Islands are an Australian
+# external territory in the Indian Ocean. Two coral atolls of ~27 small islands,
+# home to a largely Malay Muslim community (~600 people). A single synthetic
+# WHOLE region per the governance rule for non-sovereign ISO 3166-1 entries.
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: msa
+    domain: locallySpoken
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: wp-lang
+  - languageCode: msa
+    domain: locallySpoken
+    speakersShare: 0.6
+    sourceId: wp-lang
+# English is the official language (Australian territory). Cocos Malay, a
+# dialect of Malay spoken by the islanders' transport-ship heritage community,
+# is the everyday home language of the majority. LocallySpoken shares are
+# estimates.
+ethnicGroups:
+  - group: Cocos Malay (of Malay origin, descendant of transport workers)
+    percent: 60.0
+    sourceId: wp-ethnic
+  - group: Anglo-Australian and European
+    percent: 20.0
+    sourceId: wp-ethnic
+  - group: Other (mixed and other backgrounds)
+    percent: 20.0
+    sourceId: wp-ethnic
+timezones:
+  - name: Indian/Cocos
+    standardUtcOffset: "UTC+6:30"
+    observesDst: false
+# The Cocos (Keeling) Islands are on a single timezone UTC+6:30 year-round with
+# no DST — a half-hour offset shared with Myanmar (Indian/Cocos).
+currency:
+  code: AUD
+  symbol: "$"
+  name: Australian dollar
+legalConstraints:
+  - topic: "official language"
+    description: "English is the official language of the Australian external territory; Cocos Malay is the traditional community language."
+    sourceId: wp-lang
+  - topic: "Australian external territory status"
+    description: "Administered as part of Australia's Indian Ocean Territories (with Christmas Island) since 1955; the Cocos (Keeling) Islands Act 1955 (and 1984) set up local government, and residents became Australian citizens in 1984."
+    sourceId: wp-politics
+  - topic: "custodianship history"
+    description: "Owned and governed for a century by the Clunies-Ross family (whose transport-ship workers founded the Cocos Malay community); the family sold the islands to Australia in 1978, ending the so-called 'Kingdom of the Cocos'."
+    sourceId: wp-politics
+  - topic: "Sharia family law"
+    description: "Ages of customary Sharia law applied to personal and family matters within the Muslim Cocos Malay community are recognised through a community-appointed leader (the 'Chief' / kaliph), reflecting the islands' Malay-Islamic identity."
+    sourceId: wp-culture
+paymentCulture:
+  popularMethods:
+    - "The Australian dollar is the sole legal tender"
+    - "Cash is used for most local transactions; EFTPOS/credit cards accepted in the few shops and at the lodge"
+    - "Only one small supermarket and a couple of general stores serve the community"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary"
+    autoIncludedInBill: false
+    note: "Tipping is not generally expected."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "A small, close-knit Malay Muslim community with strong family and prayer life; respect for elders and the community leader is important, and customs reflect Malay-Islamic etiquette."
+  greetingNorms: "Greet with 'Salam' (peace) and a warm welcome; modest, respectful dress and behaviour are expected, especially around prayer times."
+  meetingEtiquette: "Meetings are small and personal; deference to the community shura (elders' council) and consensus matter. Fridays are reserved for communal prayers (jum'ah)."
+  topicsToAvoid:
+    - "Disrespecting Islam or the community's customary leaders"
+    - "Intrusive questions about family lineage or the Clunies-Ross era"
+  giftGivingNotes: "Modest, halal-friendly gifts and sharing food are appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: wp-lang
+    name: "Wikipedia — Cocos (Keeling) Islands (Languages)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Cocos_(Keeling)_Islands#Languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "English official; Cocos Malay (a Malay dialect) spoken by the majority at home."
+  - id: wp-ethnic
+    name: "Wikipedia — Cocos (Keeling) Islands (Demographics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Cocos_(Keeling)_Islands#Demographics"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Cocos Malay majority; Anglo-Australian and other minorities."
+  - id: wp-politics
+    name: "Wikipedia — Cocos (Keeling) Islands (History and status)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Cocos_(Keeling)_Islands"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Australian external territory (1955); Clunies-Ross ceded ownership (1978); Australian citizenship for Cocos Malays (1984)."
+  - id: wp-culture
+    name: "Wikipedia — Cocos (Keeling) Islands (Society and culture)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Cocos_(Keeling)_Islands"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Malay Muslim community identity; Sharia customary family law; Friday prayers."
+  - id: iso-msa
+    name: "ISO 639-3 entry: msa — Malay (macrolanguage)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/msa"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code msa = Malay (macrolanguage), Active; Cocos Malay (coa) is a member."
