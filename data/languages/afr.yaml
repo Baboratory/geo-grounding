@@ -2,3 +2,8 @@ code: afr
 name:
   eng: Afrikaans
   local: Afrikaans
+commonPhrases:
+  hello: hallo
+  goodbye: totsiens
+  please: asseblief
+  thankYou: dankie

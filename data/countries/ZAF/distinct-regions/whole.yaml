@@ -1,0 +1,104 @@
+code: WHOLE
+name:
+  eng: South Africa (country-wide)
+  local:
+    - languageCode: eng
+      value: South Africa
+    - languageCode: afr
+      value: Suid-Afrika
+    - languageCode: zul
+      value: iNingizimu Afrika
+    - languageCode: nbl
+      value: iRiphabliki yeSewula Afrika
+    - languageCode: nso
+      value: Repabliki ya Afrika-Borwa
+    - languageCode: sot
+      value: Rephaboliki ya Afrika Borwa
+    - languageCode: ssw
+      value: iRiphabhlikhi yoMzantsi Afrika
+    - languageCode: tsn
+      value: Rephaboliki ya Aforika Borwa
+    - languageCode: tso
+      value: Riphabliki ya Afrika Dzonga
+    - languageCode: ven
+      value: Riphabuḽiki ya Afurika Tshipembe
+    - languageCode: xho
+      value: IRiphablikhi yoMzantsi-Afrika
+climates:
+  - koppenCode: Cwb
+    description: "Temperate highveld climate on the interior plateau, with dry, sunny winters and summer thunderstorms."
+  - koppenCode: Cfb
+    description: "Maritime temperate climate along the southern and eastern coasts."
+landmarks:
+  - name: Table Mountain (Cape Town)
+    description: "Iconic flat-topped mountain and national park overlooking the Cape."
+  - name: Kruger National Park
+    description: "One of Africa's largest game reserves, in the northeastern lowveld."
+  - name: Robben Island
+    description: "Former prison where Nelson Mandela was held; now a UNESCO World Heritage site."
+  - name: "uKhahlamba / Drakensberg"
+    description: "UNESCO-listed mountain range with dramatic escarpments and rock art."
+culturalTraits:
+  - "A 'Rainbow Nation' of 11 official languages and deep cultural diversity across nine provinces"
+  - "Strong Ubuntu (shared humanity) ethos; communal and family values"
+  - "Rich in braai (barbecue) culture and township heritage"
+prideOf:
+  - "Nelson Mandela and the peaceful transition to democracy in 1994"
+  - "World-class natural beauty and wildlife"
+  - "The 2010 FIFA World Cup hosting"
+animals:
+  popular:
+    - "Lion"
+    - "African elephant"
+    - "Springbok"
+  unique:
+    - "Blue crane (national bird)"
+industries:
+  - "Mining (gold, platinum, chromium)"
+  - "Finance and banking"
+  - "Agriculture and wine"
+  - "Manufacturing and automotive"
+  - "Tourism"
+sports:
+  - "Rugby union"
+  - "Football (soccer)"
+  - "Cricket"
+  - "Netball"
+entertainment:
+  - season: allYear
+    items:
+      - "Braai (barbecue) gatherings"
+      - "Soccer (PSL) and rugby (URC) matches"
+  - season: summer
+    items:
+      - "Cricket internationals and beach culture"
+      - "Festive-season braais and gatherings"
+  - season: winter
+    items:
+      - "Rugby season and indoor arts/culture"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Braai (boerewors, lamb chops)"
+      - "Bunny chow"
+      - "Biltong and droëwors"
+      - "Pap en vleis"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Business attire in formal settings; bright 'vuvuzela-orange' supporter wear on match days"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "Country-wide business rhythm; Friday afternoons often quieter, especially in summer."

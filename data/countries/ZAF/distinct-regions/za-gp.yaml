@@ -1,0 +1,74 @@
+code: ZA-GP
+name:
+  eng: Gauteng
+  local:
+    - languageCode: zul
+      value: iGauteng
+    - languageCode: nso
+      value: Gauteng
+climates:
+  - koppenCode: Cwb
+    description: "Highveld temperate climate; warm rainy summers (October-March) and dry, cool winters with occasional frost."
+landmarks:
+  - name: Carlton Centre and Johannesburg skyline
+    description: "Africa's economic capital; the 'City of Gold'."
+  - name: Voortrekker Monument
+    description: "Afrikaans heritage monument and museum in Pretoria (Tshwane)."
+  - name: Union Buildings
+    description: "Seat of the South African executive government in Pretoria."
+culturalTraits:
+  - "Northern Sotho, isiZulu, Afrikaans and English all spoken; the most multilingual province"
+  - "Cosmopolitan melting pot of work and migration from across the country"
+  - "Mineral-rich heritage and modern financial hub"
+prideOf:
+  - "Being the economic powerhouse and financial heart of the country"
+  - "The cosmopolitan energy of Soweto and the inner city"
+animals:
+  popular:
+    - "Meerkat"
+  unique: []
+industries:
+  - "Finance and banking"
+  - "Mining (gold)"
+  - "Manufacturing"
+  - "Services and logistics"
+sports:
+  - "Football (soccer)"
+  - "Rugby union"
+  - "Cricket"
+entertainment:
+  - season: allYear
+    items:
+      - "Maboneng and Braamfontein inner-city art and food scenes"
+      - "Soweto township tours and heritage"
+  - season: summer
+    items:
+      - "Summer thunderstorms and weekend braais"
+  - season: winter
+    items:
+      - "Indoor malls and cultural festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Bunny chow"
+      - "Pap and vleis"
+      - "Boerewors"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Formal business wear in the corporate districts"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "Fast-paced corporate and financial hub; Johannesburg is the largest city and economic engine."

@@ -1,0 +1,74 @@
+code: ZA-EC
+name:
+  eng: Eastern Cape
+  local:
+    - languageCode: xho
+      value: Mpuma-Koloni
+    - languageCode: afr
+      value: Oos-Kaap
+climates:
+  - koppenCode: Cfb
+    description: "Temperate maritime climate on the coast; semi-arid interior (Karoo) in the west."
+landmarks:
+  - name: Addo Elephant National Park
+    description: "Big-five national park near Gqeberha (Port Elizabeth)."
+  - name: Wild Coast / Transkei coast
+    description: "Rugged, unspoilt coastline in the former Transkei region."
+  - name: Nelson Mandela Bay
+    description: "Metropolitan area of Gqeberha, a major port and industrial city."
+culturalTraits:
+  - "isiXhosa (~82%) heartland — the cradle of Xhosa language and culture"
+  - "Deep historical significance: home of Nelson Mandela and the anti-apartheid struggle"
+  - "Strong mission-station and frontier-history heritage"
+prideOf:
+  - "Being the birthplace of Nelson Mandela (Mvezo) and World War II-era resistance"
+  - "The unspoilt Wild Coast"
+animals:
+  popular:
+    - "African elephant"
+    - "Garden Route birdlife"
+  unique: []
+industries:
+  - "Automotive manufacturing (Gqeberha)"
+  - "Agriculture and livestock"
+  - "Tourism (coast and game reserves)"
+sports:
+  - "Rugby union"
+  - "Football (soccer)"
+  - "Cricket"
+entertainment:
+  - season: allYear
+    items:
+      - "Wild Coast hiking and coastal getaways"
+      - "Addo elephant safaris"
+  - season: summer
+    items:
+      - "Beach season at Port Elizabeth and Bholtoch coast"
+  - season: winter
+    items:
+      - "Cooler climate; indoor cultural events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Umqombothi (traditional Xhosa beer)"
+      - "Braai"
+      - "Samp and beans"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional Xhosa dress with beadwork at ceremonies; everyday attire elsewhere"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "Gqeberha (Port Elizabeth) is the industrial and automotive hub; otherwise largely rural."

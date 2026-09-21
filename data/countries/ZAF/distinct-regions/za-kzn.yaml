@@ -1,0 +1,76 @@
+code: ZA-KZN
+name:
+  eng: KwaZulu-Natal
+  local:
+    - languageCode: zul
+      value: iKwaZulu-Natal
+    - languageCode: eng
+      value: KwaZulu-Natal
+climates:
+  - koppenCode: Cfa
+    description: "Subtropical humid climate on the coast (warm and humid summers, mild winters); interior is cooler subtropical highland."
+landmarks:
+  - name: uShaka Marine World and Durban beachfront
+    description: "Durban's aquarium, beach and promenade."
+  - name: uKhahlamba / Drakensberg
+    description: "UNESCO-listed mountain range in the west."
+  - name: iSimangaliso Wetland Park
+    description: "UNESCO World Heritage site on the northeastern coast."
+culturalTraits:
+  - "isiZulu (~80%) heartland — the Zulu kingdom heritage and reed dance (uMkhosi woMhlanga)"
+  - "Strong Indian South African community (Durban is a major centre of the diaspora)"
+  - "Coastal surf culture and subtropical lifestyle"
+prideOf:
+  - "The Zulu Kingdom's history and King Shaka's legacy"
+  - "World-class beaches and the Drakensberg"
+animals:
+  popular:
+    - "Hippopotamus"
+    - "Great white shark"
+  unique: []
+industries:
+  - "Port of Durban and logistics"
+  - "Sugar and agriculture"
+  - "Tourism"
+  - "Manufacturing"
+sports:
+  - "Rugby union (Sharks)"
+  - "Football (soccer)"
+  - "Surfing"
+  - "Cricket"
+entertainment:
+  - season: allYear
+    items:
+      - "Durban beachfront and surfing"
+      - "uMkhosi woMhlanga reed dance"
+  - season: summer
+    items:
+      - "Summer beach season (rainy and hot)"
+  - season: winter
+    items:
+      - "Mild winters ideal for wildlife safaris"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Bunny chow"
+      - "Braai"
+      - "Curry (Indian South African cuisine)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light subtropical clothing; traditional Zulu beadwork and attire at cultural events"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:00 Mon-Fri."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "Durban is the largest city and a major port and logistical hub."
