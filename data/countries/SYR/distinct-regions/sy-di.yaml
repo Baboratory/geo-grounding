@@ -1,0 +1,75 @@
+code: SY-DI
+name:
+  eng: Damascus Governorate
+  local:
+    - languageCode: ara
+      value: محافظة دمشق
+climates:
+  - koppenCode: BSh
+    description: Hot semi-arid climate on the Damascus plain at the edge of the Anti-Lebanon mountains — hot, dry summers and cool, fairly dry winters.
+landmarks:
+  - name: The Umayyad Mosque (the Great Mosque of Damascus)
+  - name: The Old City of Damascus (Straight Street, the Souk al-Hamidiyya)
+  - name: Sayyidah Zaynab shrine and the surrounding old quarter
+  - name: The Palmyra caravan route gate and the ancient city walls
+  - name: The National Museum of Damascus
+culturalTraits:
+  - "Continuously inhabited for millennia — a capital of the ancient, Byzantine, Islamic and Arab worlds"
+  - "The seat of the Umayyad Caliphate and a centre of Islamic and Arabic learning"
+  - "A living craft tradition (Damascene inlay, brocade, copper, perfume) along the old souks"
+  - "Renowned Levantine hospitality, food and café culture"
+prideOf:
+  - "Being among the oldest continually inhabited capitals in the world"
+  - "The Umayyad Mosque and the city's deep Islamic and Christian heritage"
+  - "Damascene craft — the mother-of-pearl, brocade and inlay work of the old city"
+  - "The Ghouta gardens and the traditional Arabic music and cuisine of Damascus"
+animals:
+  popular:
+    - Goat
+    - Domestic sheep
+  unique:
+    - Persian leopard (in the vanishing mountain surroundings)
+industries:
+  - Government and public administration
+  - Trade, retail and the craft industries of the old city
+  - Food processing and agriculture of the Ghouta
+  - Tourism and hospitality
+  - Higher education and health services
+sports:
+  - Football (the capital's clubs and the national stadium)
+  - Basketball
+  - Wrestling
+entertainment:
+  - season: spring
+    items:
+      - "Café life and outings to the Ghouta orchards in the mild weather"
+      - "Old-city evenings around the souks and the Umayyad Mosque"
+  - season: summer
+    items:
+      - "Evening promenades and indoor cultural life to escape the heat"
+  - season: autumn
+    items:
+      - "Comfortable sightseeing in the old city"
+  - season: winter
+    items:
+      - "Cooler days — tea houses, historical visits and family gatherings indoors"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Government and offices generally run Saturday-Thursday, roughly 8:00am-4:00pm, with Friday the rest day."
+  lunchBreakTiming: "A midday break around 1:00-2:00pm is common."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Offices and most establishments close for the Eids."
+    - period: Ramadan
+      description: "Working hours shorten and the daily rhythm shifts toward the evening."
+  notes: "Damascus is the seat of government and Syria's largest city. Friday is the rest day. Relationship-based business is essential, cash is the norm, and the old-city craft and hospitality sectors are central to the local economy."

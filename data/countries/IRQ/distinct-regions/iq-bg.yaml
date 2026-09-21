@@ -1,0 +1,76 @@
+code: IQ-BG
+name:
+  eng: Baghdad Governorate
+  local:
+    - languageCode: ara
+      value: محافظة بغداد
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate on the Tigris plain — scorching summers, mild winters, very low rainfall.
+landmarks:
+  - name: Al-Mustansiriya School (the medieval Abbasid college)
+  - name: The National Museum of Iraq
+  - name: The Abbasiad-era architecture and the old city along the Tigris
+  - name: Martyr Monument and the Unknown Soldier Monument
+  - name: Baghdad's Mutantabbi Street (the iconic book market)
+culturalTraits:
+  - "The historic capital of the Abbasid Caliphate — one of the great cities of the medieval world and the 'City of Peace'"
+  - "The political, administrative and cultural centre of Iraq"
+  - "A lively literary and café culture centred on the Tigris and the book street"
+  - "A cosmopolitan, resilient metropolis of Arabs, Kurds, Turkmen and Christians"
+prideOf:
+  - "Baghdad's legacy as the seat of the Abbasid House of Wisdom and of Arabic scholarship"
+  - "The Tigris flowing through the heart of the city"
+  - "The poetical and café culture of Mutantabbi Street"
+  - "The resilience and dynamism of its people"
+animals:
+  popular:
+    - Goat
+    - Arabian camel (dromedary)
+  unique:
+    - Golden eagle (winter visitor)
+    - Mesopotamian spinner dolphin (in nearby Gulf-influenced waters)
+industries:
+  - Government and public administration
+  - Oil and energy-sector offices and the state oil company headquarters
+  - Banking, finance and commerce
+  - Construction and infrastructure
+  - Media, retail and services (including the book trade)
+sports:
+  - Football (the celebrated Iraqi national team and Baghdad's top clubs)
+  - Futsal
+  - Basketball
+entertainment:
+  - season: spring
+    items:
+      - "Café life along the Tigris and celebrations as temperatures ease"
+      - "Visits to the museums and historic quarter in mild weather"
+  - season: summer
+    items:
+      - "Evening riverside promenades and cafés to escape the fierce heat"
+  - season: autumn
+    items:
+      - "Outdoor socialising returns as temperatures fall"
+  - season: winter
+    items:
+      - "Mild winter days — tea houses, book markets and family gatherings"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Government and offices commonly run Saturday-Thursday, roughly 8:00am-3:00pm/4:00pm, with Friday off (and Saturday often shortened)."
+  lunchBreakTiming: "A midday break around 1:00-2:00pm is standard, longer in summer."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Offices and most businesses close for the Eids."
+    - period: Ashura
+      description: "Public offices close and many businesses slow for Ashura."
+  notes: "Baghdad is Iraq's hub. Friday-Saturday is the weekend for most. Relationships, trusted intermediaries and local knowledge are essential; the business environment can face infrastructural and security-related interruptions."

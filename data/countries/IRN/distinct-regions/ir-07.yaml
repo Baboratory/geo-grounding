@@ -1,0 +1,82 @@
+code: IR-07
+name:
+  eng: Fars Province
+  local:
+    - languageCode: fas
+      value: استان فارس
+climates:
+  - koppenCode: BSh
+    description: Hot semi-arid to arid climate on the high plateau — hot summers, mild winters and low rainfall, with cooler conditions in the surrounding mountains.
+landmarks:
+  - name: Persepolis (Takht-e Jamshid)
+    unescoWorldHeritage: true
+  - name: Pasargadae, tomb of Cyrus the Great
+    unescoWorldHeritage: true
+  - name: Naqsh-e Rustam and Naqsh-e Rajab royal rock reliefs
+  - name: Eram Garden, Shiraz
+    unescoWorldHeritage: true
+  - name: Tomb of Hafez (Hafezieh), Shiraz
+  - name: Vakil Bazaar and mosque, Shiraz
+culturalTraits:
+  - "The historic homeland of the Persians — the origin of the name 'Persia' and of the Persian language"
+  - "Shiraz, the celebrated city of poetry, gardens, roses and nightingales"
+  - "A deep literary tradition — home of the poets Hafez and Saadi"
+  - "Warm, refined southern hospitality and a long agricultural heritage"
+prideOf:
+  - "Persepolis and the Achaemenid imperial legacy"
+  - "Shiraz and its poets — Hafez and Saadi are national treasures"
+  - "Persian gardens and the fragrance of orange blossoms and roses"
+  - "Being the ancestral heartland of the Persian language and culture"
+animals:
+  popular:
+    - Persian fallow deer
+    - Persian leopard
+    - Wild goat (bezoar ibex)
+  unique:
+    - Persepolis jerboa
+    - Persian leopard
+industries:
+  - Agriculture (wheat, grapes, citrus, dates, pistachios, olives)
+  - Petrochemicals and oil refining
+  - Cement and construction materials
+  - Tourism and cultural heritage
+  - Handicrafts (Shiraz inlay 'khatam', rugs)
+sports:
+  - Football (Fajr Sepasi and other Shiraz clubs)
+  - Wrestling
+  - Horse-riding and equestrian sports
+entertainment:
+  - season: spring
+    items:
+      - "Visits to Persepolis, Pasargadae and the gardens of Shiraz in the mild weather"
+      - "Nowruz and the orange-blossom season"
+  - season: summer
+    items:
+      - "Shaded gardens and historic bazaars to escape the heat"
+  - season: autumn
+    items:
+      - "Grape-harvest festivities and mild sightseeing"
+  - season: winter
+    items:
+      - "Mild winter days — among the more pleasant winter destinations in Iran"
+      - "Poetry, tea houses and cultural evenings"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Offices and shops typically run Saturday-Thursday, roughly 8:00am-4:00pm/5:00pm, with Friday as the rest day."
+  lunchBreakTiming: "A lunch and prayer break around 12:30-1:30pm is common."
+  notableShutdownPeriods:
+    - period: Nowruz
+      description: "Most establishments close for the two-week Persian New Year holiday."
+    - period: Muharram
+      description: "Businesses slow or close for Ashura and related observances."
+  notes: "Fars has a relaxed, hospitable southern rhythm. Friday is the rest day. Expect courteous, relationship-oriented business dealings; agricultural cycles (grape harvest, citrus season) shape the local year."

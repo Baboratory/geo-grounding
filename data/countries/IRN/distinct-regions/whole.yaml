@@ -1,0 +1,126 @@
+code: WHOLE
+name:
+  eng: Iran
+  local:
+    - languageCode: fas
+      value: ایران
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate over much of the central plateau and interior — sweltering summers, modest winters, very low rainfall.
+  - koppenCode: BSh
+    description: Hot semi-arid climate in the interior margins and foothills.
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean / temperate climate on parts of the Caspian plain and in the north-west highlands, with milder, wetter conditions.
+  - koppenCode: BSk
+    description: Cold semi-arid climate in the highlands of the north and north-west.
+landmarks:
+  - name: Persepolis (Takht-e Jamshid)
+    unescoWorldHeritage: true
+  - name: Naqsh-e Jahan Square, Isfahan
+    unescoWorldHeritage: true
+  - name: Golestan Palace, Tehran
+    unescoWorldHeritage: true
+  - name: Takht-e Soleyman
+    unescoWorldHeritage: true
+  - name: Bam and its Cultural Landscape
+    unescoWorldHeritage: true
+  - name: Pasargadae, capital of Cyrus the Great
+    unescoWorldHeritage: true
+  - name: Shushtar Historical Hydraulic System
+    unescoWorldHeritage: true
+  - name: The Persian Garden ensemble
+    unescoWorldHeritage: true
+culturalTraits:
+  - "A civilization with deep roots — the heir of the ancient Persian empires (Achaemenid, Parthian, Sasanian)"
+  - "A strong literary tradition centred on Persian poetry (Hafez, Saadi, Rumi, Ferdowsi)"
+  - "Taarof — the ritual of refined, formal politeness that shapes hospitality and negotiation"
+  - "Persian New Year (Nowruz) celebrated at the spring equinox — Iran's most cherished festival"
+  - "A proud Islamic identity woven with pre-Islamic Persian heritage"
+prideOf:
+  - "Persian literature, poetry and the Persian language"
+  - "The ancient archaeological heritage — Persepolis, Pasargadae, the ruins of the first empires"
+  - "Iranian hospitality and the art of taarof"
+  - "Persian cuisine, carpets, miniatures and architecture"
+  - "The resilience and cultural continuity of a 2,500-year civilization"
+animals:
+  popular:
+    - Persian leopard
+    - Asiatic cheetah (critically endangered)
+    - Persian fallow deer
+    - Onager (Persian wild ass)
+    - Caspian horse
+  unique:
+    - Persian leopard
+    - Asiatic cheetah
+    - Persian Jird
+    - Iranian fat-tailed gecko
+industries:
+  - Oil and natural-gas production and export (among the world's largest reserves)
+  - Petrochemicals and refining
+  - Agriculture (wheat, rice, pistachios, saffron, dates, cotton)
+  - Textiles, carpets and traditional handicrafts
+  - Automotive manufacturing (domestic brands)
+  - Mining and steel
+sports:
+  - Football (association football is the national passion; the Persian Gulf Pro League)
+  - Wrestling (both freestyle and Greco-Roman are deeply rooted)
+  - Futsal
+  - Volleyball
+  - Weightlifting
+  - Skiing (in the Alborz and Zagros mountains)
+religions:
+  - name: Muslim
+    percent: 99.5
+    sourceId: irn-religion-cia
+  - name: Other (Baha'i, Christian, Zoroastrian, Jewish)
+    percent: 0.5
+    sourceId: irn-religion-cia
+entertainment:
+  - season: spring
+    items:
+      - "Nowruz celebrations and the fourteen-day holiday that marks the new year"
+      - "Hafez and poetry reading; the traditional 'Sizdah Bedar' outdoor day (13th day of Nowruz)"
+      - "Public parks and picnics as the weather warms"
+  - season: summer
+    items:
+      - "City parks and gardens; evening promenades (the heat keeps days indoors)"
+      - "Mountain and Caspian-coast getaways to escape the heat"
+      - "Museums and cultural sites in the cooler evenings"
+  - season: autumn
+    items:
+      - "Harvest festivals and seasonal produce (pomegranates, quince)"
+      - "Visits to Isfahan, Shiraz and the historic cities"
+      - "Cultural and poetry events"
+  - season: winter
+    items:
+      - "Skiing in the Alborz (Dizin, Shemshak) and Zagros mountains"
+      - "Tea houses and indoor socialising during the short cold days"
+      - "Shopping and bazaars ahead of Nowruz"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "The working week runs Saturday to Wednesday (with Thursday a partial day in many offices); Friday is the main rest day. Offices commonly operate around 8:00am/9:00am to 4:00pm/5:00pm."
+  lunchBreakTiming: "A lunch and prayer break around 12:30-1:30pm is common."
+  notableShutdownPeriods:
+    - period: Nowruz (Persian New Year)
+      description: "Most businesses and government offices close for roughly two weeks around the spring equinox (usually late March)."
+    - period: Muharram and religious holidays
+      description: "Shops and offices close or shorten hours for Ashura and other religious observances; many public offices close on major Islamic holidays."
+  notes: "Friday is the weekly rest day. Business slows sharply during Nowruz and around major Shia religious holidays. Working hours run Saturday-Thursday, so business continuity planning must account for a Friday-Saturday weekend for most local firms."
+sources:
+  - id: irn-religion-cia
+    name: "CIA World Factbook — Iran (religion)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/iran/"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Religious composition: Muslim ~99.5% (overwhelmingly Shia, with a Sunni minority concentrated in Kurdistan, Sistan-Baluchistan and among ethnic minorities), other faiths (Baha'i, Christian, Zoroastrian, Jewish) under 1%."

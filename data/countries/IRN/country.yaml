@@ -1,0 +1,193 @@
+alpha3: IRN
+alpha2: IR
+name:
+  eng: Iran
+  local:
+    - languageCode: fas
+      value: ایران
+flagEmoji: "🇮🇷"
+capital: Tehran
+isSovereign: true
+# Classified unitary-large: population ~89M far exceeds the threshold, Iran has
+# officially recognized regional/minority languages (the Constitution's Article 16
+# acknowledges regional languages such as Azerbaijani, Kurdish and Arabic alongside
+# the official Persian), and there is a genuine cultural-historical regional divide
+# (Persian heartland vs. the Azeri north-west, Kurdish north-east, Balochi south-east
+# and Arab Khuzestan). Real ISO 3166-2 region files are curated (a representative
+# subset) alongside the WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: IR
+hasSubdivisions: true
+languageUsage:
+  - languageCode: fas
+    domain: official
+    speakersShare: 1.0
+    sourceId: irn-constitution-art15
+  - languageCode: fas
+    domain: locallySpoken
+    speakersShare: 0.82
+    sourceId: irn-cia-people
+  - languageCode: azb
+    domain: locallySpoken
+    speakersShare: 0.16
+    sourceId: irn-cia-people
+  - languageCode: kmr
+    domain: locallySpoken
+    speakersShare: 0.10
+    sourceId: irn-cia-people
+  - languageCode: ara
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: irn-cia-people
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.10
+    sourceId: irn-ef-english-2023
+ethnicGroups:
+  - group: Persian
+    percent: 61.0
+    sourceId: irn-cia-people
+  - group: Azerbaijani (Turkic)
+    percent: 16.0
+    sourceId: irn-cia-people
+  - group: Kurd
+    percent: 10.0
+    sourceId: irn-cia-people
+  - group: Lur
+    percent: 6.0
+    sourceId: irn-cia-people
+  - group: Baloch
+    percent: 2.0
+    sourceId: irn-cia-people
+  - group: Arab
+    percent: 2.0
+    sourceId: irn-cia-people
+  - group: Other (incl. Turkic tribes, Gilaki, Mazanderani, Armenian, Assyrian, Georgian)
+    percent: 3.0
+    sourceId: irn-cia-people
+timezones:
+  - name: Asia/Tehran
+    standardUtcOffset: "UTC+3:30"
+    observesDst: false
+currency:
+  code: IRR
+  symbol: "﷼"
+  name: Iranian rial
+legalConstraints:
+  - topic: "data protection regime"
+    description: "A comprehensive personal-data protection framework is not yet codified in a standalone national law. Data subjects are protected through the sui-generis regime of the Shargh/1943 Civil Code personality-rights provisions, the Electronic Commerce Law (2004) which addresses privacy of information in e-commerce, and sectoral rules (banking secrecy, medical confidentiality). Data localization and security obligations are enforced by the Article 10 of the Higher Council of Cyberspace conditions and by state bodies such as the Iranian Data Protection Agency, with enforcement tightening and cross-border transfers subject to significant restriction."
+    sourceId: irn-dpa-ec2004
+  - topic: "price display and currency denomination"
+    description: "Prices are officially shown in rials, but most Iranians denominate everyday amounts in tomans (1 toman = 10 rials); a public price must state clearly whether it is in rial or toman to avoid confusion. Prices have historically been set with multiple exchange tiers, and shopkeepers display prices that can be renegotiated except in fixed-price modern retail."
+    sourceId: irn-cbi-currency
+  - topic: "international payment and sanctions constraints"
+    description: "Iran is subject to comprehensive international sanctions, so SWIFT-linked international card networks (Visa, Mastercard, American Express) issued abroad generally do not work inside Iran, and domestic cards do not work abroad. Payments rely on the domestic Shetab network and cash; visitors typically need to carry cash or use local financial services."
+    sourceId: irn-sanctions-payments
+  - topic: "consumer withdrawal right"
+    description: "The Electronic Commerce Law (2004) and Consumer Protection regulation give online-buyers a right to return goods ordered remotely within a withdrawal period and require disclosure of return and refund terms; consumers may complain to the Consumer and Producer Rights Protection Organization (organ of the Ministry of Industry, Mine and Trade)."
+    sourceId: irn-ec2004-vat
+paymentMethodShares:
+  - method: "cash (rials/tomans, including black-market exchange)"
+    percent: 60.0
+    sourceId: irn-payment-composite
+  - method: "Shetab domestic debit card (POS + online)"
+    percent: 35.0
+    sourceId: irn-payment-composite
+  - method: "domestic bank transfer / mobile banking apps"
+    percent: 4.0
+    sourceId: irn-payment-composite
+  - method: "other (prepaid cards, digital wallets, foreign holdings)"
+    percent: 1.0
+    sourceId: irn-payment-composite
+paymentCulture:
+  popularMethods:
+    - "Cash — still the dominant everyday medium, especially outside the big cities"
+    - "Shetab — the national interbank network that links all domestic debit cards; used at nearly all POS terminals and online shops"
+    - "Mobile banking and payment apps (Persen, Behpardakht Mellat, Shaparak e-payment) — very widely used"
+    - "Domestic prepaid and loyalty cards issued by Iranian banks"
+  tipping:
+    expected: false
+    typicalAmount: "5-10%"
+    autoIncludedInBill: false
+    note: "Tipping is not expected but is appreciated in restaurants and cafés (a few percent of the bill). A small tip is common for guides, porters and valets. Many services have fixed rates; it is customary to round up or leave a modest cash tip."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Communication is formal and status-aware. Use titles such as 'Aghaye' (Mr.) and 'Khanome' (Ms.) plus the surname, and professional titles (Doctor, Engineer) are widely used. People move to first names only after a relationship is established; elders and superiors are shown deference. The distinction between what is said and what is meant through politeness (taarof) is important."
+  greetingNorms: "The greeting 'Salam' (hello) is standard, with 'Salam aleikom' used more formally. Men typically shake hands, and may add a light hug between close friends; greetings between men and women are often verbal or a handshake only if the woman offers her hand. The customary polite exchange of 'Hale shoma' (how are you) is expected."
+  meetingEtiquette: "Punctuality is expected for appointments though a little lateness is tolerated. Meetings begin with pleasantries and tea before business — jumping straight to work is seen as rude. The practice of taarof (ritualized polite refusal and insistence) matters: offers of hospitality are often insisted upon and should be politely accepted. Decisions are relationship-based and patience is valued."
+  topicsToAvoid:
+    - "Politics, especially criticism of the leadership or government"
+    - "The role of religion and sensitive sectarian topics"
+    - "Iran's relationships with Western countries and sanctions"
+    - "Sensitive regional conflicts in the Middle East"
+    - "Personal questions about women in public life"
+  giftGivingNotes: "Gift-giving is appreciated when a relationship is established. Good-quality gifts, sweets, fruit, saffron and Persian handicrafts are safe. Give and receive with the right hand. Gifts are usually opened when given. Avoid gifts linked to alcohol or pork, and beware that under taarof, a tentative offer may be refused once or twice before being accepted."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: IR-23
+    file: distinct-regions/ir-23.yaml
+    adminUnitCodes: [IR-23]
+  - code: IR-07
+    file: distinct-regions/ir-07.yaml
+    adminUnitCodes: [IR-07]
+  - code: IR-09
+    file: distinct-regions/ir-09.yaml
+    adminUnitCodes: [IR-09]
+sources:
+  - id: irn-constitution-art15
+    name: "Constitution of the Islamic Republic of Iran, Article 15"
+    publisher: "Wikisource (secondary source; primary: Constitution of the Islamic Republic of Iran)"
+    url: "https://en.wikisource.org/wiki/Constitution_of_the_Islamic_Republic_of_Iran/Chapter_I"
+    year: 1979
+    accessedDate: "2026-09-20"
+    note: "Persian is the official and common language of the country. Article 16 permits the use of regional languages (Azerbaijani, Kurdish, Arabic, Balochi and others) in the press, mass media, and schools alongside Persian."
+  - id: irn-cia-people
+    name: "CIA World Factbook — Iran (people and society)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/iran/"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Ethnic composition (Persian ~61%, Azerbaijani ~16%, Kurd ~10%, Lur ~6%) and language shares (Persian 82%, Turkic/Azerbaijani 16%, Kurdish 10%, Arabic 2%). Shares within a domain need not sum to 1 due to bilingualism."
+  - id: irn-ef-english-2023
+    name: "EF English Proficiency Index 2023 — Iran"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Approximate share of the population able to hold an English conversation (~10%, concentrated among younger, educated and urban Iranians)."
+  - id: irn-dpa-ec2004
+    name: "Electronic Commerce Law (2004) and data-privacy framework"
+    publisher: "Government of the Islamic Republic of Iran"
+    url: "https://rc.majlis.ir/fa/law/show/93999"
+    year: 2004
+    accessedDate: "2026-09-20"
+    note: "The Electronic Commerce Law (Articles 5-6 and 37-41) protects personal data in electronic transactions and consumers' right to privacy; a comprehensive standalone data-protection law has not replaced it."
+  - id: irn-cbi-currency
+    name: "Central Bank of Iran — currency and price display"
+    publisher: "Central Bank of the Islamic Republic of Iran (CBI)"
+    url: "https://www.cbi.ir/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Official currency is the rial (IRR); the informal 'toman' (10 rials) is widely used in daily pricing. Price display must clarify the denomination."
+  - id: irn-sanctions-payments
+    name: "International sanctions and the domestic Shetab payment network"
+    publisher: "Central Bank of Iran / Central Bank of Iran payment industry affairs"
+    url: "https://www.shaparak.ir/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Iran's payments are isolated from international card schemes by sanctions; the Shetab network underpins domestic debit/credit cards and POS terminals, and cash remains widely used."
+  - id: irn-ec2004-vat
+    name: "Electronic Commerce Law and consumer-protection rules"
+    publisher: "Government of the Islamic Republic of Iran"
+    url: "https://rc.majlis.ir/fa/law/show/93999"
+    year: 2004
+    accessedDate: "2026-09-20"
+    note: "Right of remote/online buyers to withdraw and return goods, and obligations to disclose returns and refund terms."
+  - id: irn-payment-composite
+    name: "Composite estimate of Iranian payment-method shares (2023-2024)"
+    publisher: "Composite estimate"
+    url: "https://www.shaparak.ir/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Approximate shares derived from Shaparak e-payment transaction data and market reports: cash ~60%, Shetab domestic card ~35%, bank transfer/mobile banking ~4%, other ~1%. Composite estimate, not an official breakdown; there is no published official paymentMethodShares split."

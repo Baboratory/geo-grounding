@@ -1,0 +1,79 @@
+code: IQ-BA
+name:
+  eng: Basra Governorate
+  local:
+    - languageCode: ara
+      value: محافظة البصرة
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate near the Persian Gulf — among the hottest places on Earth in summer, mild winters, very low rainfall.
+landmarks:
+  - name: The mouth of the Tigris and the Shanshan palaces along the Shatt al-Arab
+  - name: Basra's old city and its historic canals and houses
+  - name: The Urdu/Sindbad legend — the city of Sinbad the Sailor
+  - name: Basra National Museum
+  - name: The Grand Mosque of Basra (the city that took its name from the surrounding marsh country)
+culturalTraits:
+  - "The gateway of Iraq to the Gulf — the country's principal seaport and oil-export terminal"
+  - "A proud maritime and trading heritage along the Shatt al-Arab waterway"
+  - "Renowned for its hospitality and its distinctive southern dialect and folklore"
+  - "A centre of date-palm cultivation and of the famous 'city of palm groves' identity"
+prideOf:
+  - "Being Iraq's primary port and economic gateway to the Gulf"
+  - "The Shatt al-Arab and the legendary date-palm gardens"
+  - "The folkloric link to Sinbad the Sailor and an ancient trading past"
+  - "The resilience and warmth of Basrawis"
+animals:
+  popular:
+    - Arabian camel (dromedary)
+    - Water buffalo (in the surrounding marshes)
+    - Goat
+  unique:
+    - Mesopotamian spinner dolphin (in the Gulf waters offshore)
+    - Marsh wildlife during the wetland season
+industries:
+  - Oil extraction and export (the southern oil fields and the port terminals)
+  - Port, shipping and logistics
+  - Petrochemicals and refining
+  - Petrochemical and steel industries
+  - Agriculture (Iraq's famed Basra dates, orchards)
+  - Fishing and aquaculture
+sports:
+  - Football (the passionate Basra clubs and the redeveloped Basra International Stadium)
+  - Futsal
+  - Martial arts and bodybuilding
+entertainment:
+  - season: winter
+    items:
+      - "The pleasant mild winter — the best season for outdoor life around the Shatt al-Arab"
+      - "Picnics along the river and the palm groves"
+  - season: summer
+    items:
+      - "Indoor life and evening riverfront strolls to escape the ferocious heat"
+      - "The tradition of afternoon rest during the hottest hours"
+  - season: spring
+    items:
+      - "Cooler days return; date-garden walks and outings"
+  - season: autumn
+    items:
+      - "Date-harvest season — a busy and festive period around the groves"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Offices commonly run Saturday-Thursday, roughly 8:00am-3:00pm/4:00pm, with Friday off; in summer the hot midday often extends the rest period."
+  lunchBreakTiming: "A midday break around 1:00-2:00pm, longer in summer, is standard."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Offices and businesses close for the Eids."
+    - period: Ashura
+      description: "Many public offices close and businesses slow for Ashura."
+  notes: "Basra is Iraq's oil-and-port capital with a Gulf-facing, trade-oriented rhythm. Friday is the rest day. The intense summer heat shapes working hours — expect early starts, long midday breaks and activity resuming in the cooler late afternoon and evening."

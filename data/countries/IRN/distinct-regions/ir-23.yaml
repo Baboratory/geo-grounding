@@ -1,0 +1,81 @@
+code: IR-23
+name:
+  eng: Tehran Province
+  local:
+    - languageCode: fas
+      value: استان تهران
+climates:
+  - koppenCode: BSk
+    description: Cold semi-arid climate at the foot of the Alborz — hot, dry summers and cool winters, sometimes cold with snow in the surrounding mountains.
+landmarks:
+  - name: Golestan Palace, Tehran
+    unescoWorldHeritage: true
+  - name: Azadi Tower (Tehran's iconic landmark)
+  - name: Milad Tower (the tallest tower in Iran)
+  - name: The former US Embassy compound (a major mural site)
+  - name: Sa'dabad and Niavaran palace complexes
+culturalTraits:
+  - "The political, economic and cultural capital — Iran's largest metropolis and its administrative heart"
+  - "A fast-paced, cosmopolitan city drawing people from every region of the country"
+  - "A vibrant intellectual, artistic and literary scene built on Persian culture"
+  - "Long-running public art and murals, including the famous anti-US murals"
+prideOf:
+  - "Being the seat of the Iranian state and its economic engine"
+  - "A dynamic modern urban culture within a deeply historical society"
+  - "Greater Tehran's art, film and literature scenes"
+  - "The snowy Alborz range rising behind the city"
+animals:
+  popular:
+    - Persian leopard (in the Alborz foothills)
+    - Brown bear (Alborz)
+  unique:
+    - Alborz red sheep
+    - Persian leopard
+industries:
+  - Government and public administration
+  - Banking, finance and corporate headquarters
+  - Oil, gas and energy-sector offices
+  - Technology, media and IT
+  - Automotive manufacturing (several large plants in the province)
+  - Retail, real estate and construction
+sports:
+  - Football (Esteghlal and Persepolis, the two biggest Tehran clubs)
+  - Futsal
+  - Skiing (access to Dizin and Shemshak in the Alborz)
+  - Wrestling
+entertainment:
+  - season: spring
+    items:
+      - "Nowruz and park promenades in the mild weather"
+      - "Museum and gallery visits (Golestan, National Museum)"
+  - season: summer
+    items:
+      - "Evening city promenades and rooftop life to escape the heat"
+      - "Day trips to the Alborz foothills"
+  - season: autumn
+    items:
+      - "Cultural and film events, poetry readings"
+  - season: winter
+    items:
+      - "Skiing at Dizin and Shemshak resorts"
+      - "Tea houses and indoor cultural life"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Government and corporate offices typically run Saturday-Thursday, roughly 8:00am/9:00am to 4:00pm/5:00pm, with Friday off (Thursday often a short day)."
+  lunchBreakTiming: "A lunch and prayer break around 12:30-1:30pm is standard."
+  notableShutdownPeriods:
+    - period: Nowruz
+      description: "Offices and most businesses close for roughly two weeks around the spring equinox."
+    - period: Islamic religious holidays
+      description: "Public offices close for major Shia religious observances."
+  notes: "Tehran is Iran's business and government hub. Expect formality, hierarchy and relationship-driven negotiation, coloured by the etiquette of taarof. Friday is the rest day; many multinational-influenced firms also treat Thursday as a short or non-working day."

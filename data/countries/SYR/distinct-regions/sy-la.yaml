@@ -1,0 +1,77 @@
+code: SY-LA
+name:
+  eng: Latakia Governorate
+  local:
+    - languageCode: ara
+      value: محافظة اللاذقية
+climates:
+  - koppenCode: Csa
+    description: Mediterranean climate on the coast — warm, dry summers and mild, rainy winters, with higher rainfall on the nearby Jebel Aqra and coastal mountains.
+landmarks:
+  - name: The seafront and harbour of Latakia, Syria's principal port
+  - name: The medieval fort of Salah Ed-Din (Qal'at Salah El-Din)
+    unescoWorldHeritage: true
+  - name: The ancient ruins of Ras Shamra (Ugarit) nearby
+  - name: The Alawite-mountain villages and pine forests of the hinterland
+  - name: The Orontes river lands and the coastal plain
+culturalTraits:
+  - "The 'gateway to the sea' of Syria — its main Mediterranean port and coastal city"
+  - "A relaxed, maritime and agricultural way of life on the fertile coastal plain"
+  - "A centre of the Alawite community, with a mix of Christian and Sunni villages in the hills"
+  - "Ancient roots — the nearby site of Ugarit gave the world its first alphabetic script"
+prideOf:
+  - "The port city of Latakia and its long maritime and trading heritage"
+  - "The nearby ancient site of Ugarit, cradle of the alphabet"
+  - "The lush coastal and mountain landscapes of the Syrian Riviera"
+  - "The fishing, citrus and tobacco-growing traditions of the coast"
+animals:
+  popular:
+    - Goat
+    - Domestic sheep
+  unique:
+    - Persian leopard (in the mountains)
+    - Mediterranean monk seal (occasionally in coastal waters, rare)
+industries:
+  - Port, shipping and logistics
+  - Fishing and aquaculture
+  - Agriculture (citrus, olives, tobacco, vegetables on the coastal plain)
+  - Tourism and hospitality of the coastal region
+  - Food processing
+sports:
+  - Football (Latakia clubs and the coastal football tradition)
+  - Swimming and water sports
+  - Basketball
+entertainment:
+  - season: summer
+    items:
+      - "Beach life along the Mediterranean coast and the seafront promenade"
+      - "Holiday-makers and coastal festivals in the warm season"
+  - season: spring
+    items:
+      - "Mild weather — outings to the coastal mountains and blossom season"
+  - season: autumn
+    items:
+      - "Citrus- and olive-harvest season; pleasant mild days"
+  - season: winter
+    items:
+      - "The mild, rainy Mediterranean winter — a quieter season for the coast"
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8]
+  - season: spring
+    months: [3, 4, 5]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Offices typically run Saturday-Thursday, roughly 8:00am-4:00pm, with Friday the rest day; port and fishing work follows the tides and shipping schedule."
+  lunchBreakTiming: "A midday break around 1:00-2:00pm is common."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Most establishments close for the Eids."
+    - period: Summer peak
+      description: "The coast is busiest in summer with visitors; some agricultural work follows the harvest calendar."
+  notes: "Latakia is Syria's principal seaport and a relaxed coastal city. Friday is the rest day. The tourist, port and fishing sectors are central, and the mild Mediterranean climate shapes a slower, more unhurried rhythm than the interior."

@@ -1,0 +1,80 @@
+code: SY-HL
+name:
+  eng: Aleppo Governorate
+  local:
+    - languageCode: ara
+      value: محافظة حلب
+climates:
+  - koppenCode: BSh
+    description: Hot semi-arid climate on the northern plain — hot summers, cool winters, low rainfall.
+landmarks:
+  - name: The Citadel of Aleppo
+    unescoWorldHeritage: true
+  - name: The Ancient City of Aleppo and its historic souks
+    unescoWorldHeritage: true
+  - name: The Al-Nouri and Great mosques and the khan trading caravanserais
+  - name: The Omari and other historic bad places of the old city
+  - name: The Umayyad-era pilgrimage route caravanserais
+culturalTraits:
+  - "A great historic trading hub on the silk and spice routes — among Syria's most storied cities"
+  - "A centre of the celebrated Levantine culinary and craft tradition (Aleppo soap, pistachios, kibbeh)"
+  - "A deeply cosmopolitan, multi-confessional city (Muslim, Christian, Armenian communities)"
+  - "Known for its people's prodigious hospitality and its musical and literary traditions"
+prideOf:
+  - "The Citadel and the Ancient City of Aleppo — a Unesco-listed treasure"
+  - "Aleppo's proud mercantile and artisan heritage along its historic souks"
+  - "The world-famous Aleppo cuisine and the city of the 'Aleppo kebab' and pistachio"
+  - "The city's resilience as it rebuilds after the devastation of the recent conflict"
+animals:
+  popular:
+    - Goat
+    - Domestic sheep
+    - Arabian camel (dromedary on the plateau)
+  unique:
+    - Golden eagle (winter visitor)
+    - Syrian hamster (originally described from the surrounding steppe)
+industries:
+  - Trade and commerce (a historic source of northern Syria's economy)
+  - Oil and gas in the surrounding east
+  - Food processing and agro-industry (pistachios, olives, grains)
+  - Craft industries (soap-making, textiles, metalwork)
+  - Construction and reconstruction
+sports:
+  - Football (Aleppo clubs and the historic Aleppo International Stadium)
+  - Basketball
+  - Horse-riding
+entertainment:
+  - season: spring
+    items:
+      - "Outings to the countryside and cemeteries of the old city in the flowering season"
+      - "Café life and souk evenings"
+  - season: summer
+    items:
+      - "Evening socialising and cooler highland excursions"
+  - season: autumn
+    items:
+      - "Pistachio- and olive-harvest season"
+      - "Comfortable sightseeing in the old city"
+  - season: winter
+    items:
+      - "Cool to cold winters — indoor gatherings, tea houses and the warmth of the old souks"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Offices typically run Saturday-Thursday, roughly 8:00am-4:00pm, with Friday the rest day; the historic souks retain their long trading day."
+  lunchBreakTiming: "A midday break around 1:00-2:00pm is common."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Most establishments close for the Eids."
+    - period: Ramadan
+      description: "Hours shorten and the day's rhythm shifts toward the evening."
+  notes: "Aleppo is northern Syria's commercial and industrial heart. Friday is the rest day. Kitchen markets (souks) are central, cash dominates, and relationships underpin all trade. The city's ongoing reconstruction is reshaping its commercial life."

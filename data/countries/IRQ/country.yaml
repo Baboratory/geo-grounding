@@ -1,0 +1,187 @@
+alpha3: IRQ
+alpha2: IQ
+name:
+  eng: Iraq
+  local:
+    - languageCode: ara
+      value: العراق
+    - languageCode: ckb
+      value: عێراق
+flagEmoji: "🇮🇶"
+capital: Baghdad
+isSovereign: true
+# Classified federal: Iraq's 2005 Constitution establishes a federal parliamentary
+# republic with Arabic and Kurdish as the two official languages and constitutionally
+# recognized regions, of which the Kurdish Region (Iqlīm Kūrdistān) is the most
+# prominent. Thus real ISO 3166-2 governorate/region files are curated (a
+# representative subset) alongside the WHOLE fallback.
+governanceType: federal
+iso3166_2_prefix: IQ
+hasSubdivisions: true
+languageUsage:
+  - languageCode: ara
+    domain: official
+    speakersShare: 1.0
+    sourceId: irq-constitution-art4
+  - languageCode: ckb
+    domain: official
+    speakersShare: 1.0
+    sourceId: irq-constitution-art4
+  - languageCode: ara
+    domain: locallySpoken
+    speakersShare: 0.80
+    sourceId: irq-cia-people
+  - languageCode: kur
+    domain: locallySpoken
+    speakersShare: 0.20
+    sourceId: irq-cia-people
+  - languageCode: tur
+    domain: locallySpoken
+    speakersShare: 0.09
+    sourceId: irq-cia-people
+  - languageCode: syr
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: irq-cia-people
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.20
+    sourceId: irq-ef-english-2023
+ethnicGroups:
+  - group: Arab
+    percent: 75.0
+    sourceId: irq-cia-people
+  - group: Kurd
+    percent: 20.0
+    sourceId: irq-cia-people
+  - group: Other (Turkmen, Assyrian, Yazidi, Shabak, Mandean and other minorities)
+    percent: 5.0
+    sourceId: irq-cia-people
+timezones:
+  - name: Asia/Baghdad
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: IQD
+  symbol: "ع.د"
+  name: Iraqi dinar
+legalConstraints:
+  - topic: "data protection regime"
+    description: "Iraq lacks a standalone comprehensive data-protection law. Data subjects and privacy are addressed piecemeal through the Constitution's right to privacy (Article 17), the Telecommunications Law and sectoral rules in banking and health. In the Kurdistan Region, the KRG has advanced draft privacy legislation, but nationally enforcement is carried out by the Communications and Media Commission (CMC) and by sectoral bodies; cross-border data flow rules are not yet codified in a national statute."
+    sourceId: irq-data-protection
+  - topic: "price display and VAT"
+    description: "Prices for goods and services are normally quoted and displayed in Iraqi dinars; a VAT-like Consumption Tax (sales tax) was introduced and adjusted in phases under the finance laws of the 2020s, and retailers are generally expected to display inclusive prices, though practice varies between modern retail and the bazaar."
+    sourceId: irq-cabinet-tax
+  - topic: "consumer withdrawal right"
+    description: "A national Consumer Protection Law (Law No. 1 of 2010) protects consumers against fraudulent, defective or dangerous goods and unfair practices, and provides a basis for refunds on defective products; rules are administered by the Ministry of Trade's Central Agency for Consumer Protection."
+    sourceId: irq-consumer-law
+  - topic: "security and commercial risk"
+    description: "Parts of the country have historically faced instability and security concerns, and infrastructure (electricity, banking connectivity) can be inconsistent. Businesses should plan for interruptions, cash dependence, and the importance of local partnerships, licences and relationship-based operations."
+    sourceId: irq-cia-econ
+paymentMethodShares:
+  - method: "cash (Iraqi dinars, and dollars in practice)"
+    percent: 70.0
+    sourceId: irq-payment-composite
+  - method: "bank transfer / local bank cards"
+    percent: 20.0
+    sourceId: irq-payment-composite
+  - method: "pawned/instalment and money-service operations"
+    percent: 6.0
+    sourceId: irq-payment-composite
+  - method: "other (digital wallets, prepaid, foreign currency)"
+    percent: 4.0
+    sourceId: irq-payment-composite
+paymentCulture:
+  popularMethods:
+    - "Cash — strongly dominant; many transactions, especially in the bazaar and small trade, are settled in cash, often in US dollars alongside dinars"
+    - "Local bank debit cards and transfers through the state and private banks"
+    - "Money-service businesses (hawala-style remittances) for domestic and international transfers"
+    - "Dollarisation — US dollars are commonly used for large-ticket purchases, real estate and savings"
+  tipping:
+    expected: false
+    typicalAmount: "5-10%"
+    autoIncludedInBill: false
+    note: "Tipping is not obligatory. In restaurants and cafés, leaving a small tip (a few percent to ~10%) is appreciated; in public services a customary small tip (rags/pourboire) to porters and helpers is common."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Communication is warm, hospitable and relationship-driven. Use titles ('Sayyid'/'Sayyida', honorifics) and surnames; there is a strong sense of family, tribe and community honour. Negotiation is personal and takes time; trust built over face-to-face meetings matters more than written formalities."
+  greetingNorms: "The greeting 'As-salamu alaykum' with the reply 'Wa alaykum as-salam' is standard. Men shake hands warmly, often adding a light embrace or touching shoulders among close acquaintances. Greetings with women follow cultural and religious norms — often verbal or a nod unless the woman offers her hand."
+  meetingEtiquette: "Meetings open with tea, coffee and pleasantries before business; jumping straight to business is considered rude. Hospitality is generous and offers are often insisted upon. Decisions can be slow and are usually confirmed through trusted local intermediaries. Respect for elders and hierarchy is important."
+  topicsToAvoid:
+    - "Sectarian tensions and recent political instability"
+    - "Criticism of religion, tribal or family honour"
+    - "The role of foreign forces and sensitive regional politics"
+    - "Sensitive assertions about ethnic or religious communities"
+  giftGivingNotes: "Gift-giving is appreciated when a relationship is established. Sweets, dates, quality perfumes and tactful items are safe. Give and receive with the right hand. Gifts are often opened when received. Avoid alcohol and pork-linked gifts, and any item that could carry religious or political overtones."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: IQ-BG
+    file: distinct-regions/iq-bg.yaml
+    adminUnitCodes: [IQ-BG]
+  - code: IQ-AR
+    file: distinct-regions/iq-ar.yaml
+    adminUnitCodes: [IQ-AR, IQ-KR]
+  - code: IQ-BA
+    file: distinct-regions/iq-ba.yaml
+    adminUnitCodes: [IQ-BA]
+  - code: IQ-NI
+    file: distinct-regions/iq-ni.yaml
+    adminUnitCodes: [IQ-NI]
+sources:
+  - id: irq-constitution-art4
+    name: "Constitution of the Republic of Iraq, Article 4"
+    publisher: "Constitute Project (comparative constitutions), text of the Iraqi Constitution"
+    url: "https://www.constituteproject.org/constitution/Iraq_2005"
+    year: 2005
+    accessedDate: "2026-09-20"
+    note: "Arabic and Kurdish are the two official languages of Iraq; other languages (Turkmen, Syriac, Armenian) are official where spoken by sizeable communities in their regions."
+  - id: irq-cia-people
+    name: "CIA World Factbook — Iraq (people and society)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/iraq/"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Ethnic composition (Arab ~75%, Kurd ~20%, other ~5%) and language shares (Arabic ~80%, Kurdish ~20%, Turkmen ~9%). 'kur' here is the Kurdish macrolanguage covering both Sorani (ckb) and Kurmanji (kmr)."
+  - id: irq-data-protection
+    name: "Iraqi legal framework for privacy and data protection"
+    publisher: "Government of Iraq / Communications and Media Commission (CMC)"
+    url: "https://www.cmc.iq/"
+    year: 2020
+    accessedDate: "2026-09-20"
+    note: "Privacy is protected via the Constitution (Article 17), the Telecommunications Law and sectoral rules; no standalone national data-protection law yet."
+  - id: irq-cabinet-tax
+    name: "Finance laws and consumption tax on goods and services"
+    publisher: "Iraqi Council of Ministers / Ministry of Finance"
+    url: "https://www.mof.gov.iq/"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "A consumption/sales tax applies to goods and services; price display in dinars generally expected to be inclusive."
+  - id: irq-consumer-law
+    name: "Iraqi Consumer Protection Law No. 1 of 2010"
+    publisher: "Ministry of Trade, Central Agency for Consumer Protection"
+    url: "https://www.mot.gov.iq/"
+    year: 2010
+    accessedDate: "2026-09-20"
+    note: "Protects consumers against defective, fraudulent and dangerous goods and provides for refunds on defective products."
+  - id: irq-cia-econ
+    name: "CIA World Factbook — Iraq (economy)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/iraq/"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Cash-dominant economy, infrastructural challenges and the importance of security and local partnerships."
+  - id: irq-ef-english-2023
+    name: "EF English Proficiency Index 2023 — Iraq"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Approximate share of the population able to hold an English conversation (~20%, concentrated among educated, younger and urban Iraqis)."
+  - id: irq-payment-composite
+    name: "Composite estimate of Iraqi payment-method shares (2023-2024)"
+    publisher: "Composite estimate"
+    url: "https://www.cbi.iq/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Approximate shares derived from central-bank and market reporting: cash (incl. dollars) ~70%, bank transfer/local cards ~20%, money services ~6%, other ~4%. Composite estimate; there is no published official paymentMethodShares split."
