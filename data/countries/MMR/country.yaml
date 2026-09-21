@@ -1,0 +1,205 @@
+alpha3: MMR
+alpha2: MM
+name:
+  eng: Myanmar
+  local:
+    - languageCode: mya
+      value: မြန်မာ
+flagEmoji: "🇲🇲"
+capital: "Naypyidaw (official seat of government); Yangon (largest city and commercial capital)"
+isSovereign: true
+# Classified unitary-large: Myanmar meets 2 of the 3 DESIGN.md criteria easily.
+# (1) Population ~51M (1983 census ~35M Bamar at 69%; far above the 20-25M
+# small-state threshold); (2) a genuine, widely recognized cultural-historical
+# regional divide between the Bamar (Burman) majority core and the ethnically
+# distinct border states (Shan, Kachin, Kayin/Karen, Mon, Chin, Rakhine).
+# Although the 2008 Constitution frames Myanmar as a 'Republic of the Union'
+# comprising regions, states and a union territory under a central government
+# (no residual state sovereignty), the real ISO 3166-2 subdivisions plus the
+# recognized ethno-regional identities make it unitary-large. Curated regions
+# use real ISO 3166-2 codes (MM-xx); WHOLE is the national fallback.
+governanceType: unitary-large
+iso3166_2_prefix: MM
+hasSubdivisions: true
+languageUsage:
+  - languageCode: mya
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-mmr-2008
+  - languageCode: mya
+    domain: locallySpoken
+    speakersShare: 0.68
+    sourceId: census-mmr-2014
+  - languageCode: kac
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: ethnologue-mmr
+  - languageCode: shn
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: ethnologue-mmr
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.01
+    sourceId: ethnologue-mmr
+# Burmese (mya) is the sole official language of the Republic of the Union of
+# Myanmar. It is also the first/native language of the majority Bamar ethnic
+# group (~68%). No other language holds official status; minority languages
+# (Kachin, Shan, Karen, Chin, Mon, Rakhine, etc.) are locally spoken in their
+# respective states. English, the colonial-era administrative language, is now
+# a foreign/second language used in business and government documents.
+ethnicGroups:
+  - group: Bamar (Burman)
+    percent: 68.5
+    sourceId: gad-mmr-township
+  - group: Kayin (Karen)
+    percent: 6.6
+    sourceId: gad-mmr-township
+  - group: Shan
+    percent: 4.7
+    sourceId: gad-mmr-township
+  - group: Rakhine (Arakanese)
+    percent: 4.3
+    sourceId: gad-mmr-township
+  - group: Mon
+    percent: 2.1
+    sourceId: gad-mmr-township
+  - group: Chin
+    percent: 2.1
+    sourceId: gad-mmr-township
+  - group: Pa-O (Kayin subgroup)
+    percent: 2.1
+    sourceId: gad-mmr-township
+  - group: Kachin (Jingpho)
+    percent: 1.5
+    sourceId: gad-mmr-township
+  - group: Ta'ang/Danu/Lahu/Kokang/Karenni and others
+    percent: 8.1
+    sourceId: gad-mmr-township
+# Myanmar's 2014 census enumerated population data but detailed ethnicity was
+# withheld indefinitely by the government. The shares shown are the widely-cited
+# 2019 GAD township estimates: Bamar ~68.5%, with Kayin (Karen), Shan, Rakhine,
+# Mon, Chin, Pa-O, Kachin the principal groups among the 135 officially
+# recognised indigenous ethnic groups.
+timezones:
+  - name: Asia/Yangon
+    standardUtcOffset: "UTC+6:30"
+    observesDst: false
+currency:
+  code: MMK
+  symbol: "K"
+  name: Burmese kyat
+legalConstraints:
+  - topic: "official language"
+    description: "Burmese is the sole official language; the 2008 Constitution (as amended) establishes the Republic of the Union of Myanmar with Burmese as the language of the Union."
+    sourceId: constitution-mmr-2008
+  - topic: "commercial tax"
+    description: "There is no VAT; instead a 5% commercial tax on goods and services applies under the Union Taxation Law 2023 (as amended 2024), along with a Specific Goods Tax (5-80%) on a defined list of goods."
+    sourceId: utl-mmr-2023
+  - topic: "data protection"
+    description: "There is no general data protection law; privacy and data security are addressed piecemeal, notably by the Law Protecting the Privacy and Security of Citizens (2017) and sectoral statutes (Telecommunications Law 2013, Cybersecurity Law)."
+    sourceId: dlapiper-mmr-dp
+  - topic: "consumer protection"
+    description: "Consumer affairs are regulated through the Consumer Protection Law (2019), which addresses misleading claims and unsafe products."
+    sourceId: dlapiper-mmr-dp
+paymentCulture:
+  popularMethods:
+    - "Cash is dominant, especially outside Yangon"
+    - "Mobile money and e-wallets (Wave Money, KBZ Pay) growing rapidly"
+    - "Bank transfers and cards common in Yangon business circles"
+  tipping:
+    expected: false
+    typicalAmount: "Not generally expected; a small tip or rounding-up appreciated in restaurants and for hotel porters, but not customary"
+    autoIncludedInBill: false
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Respect for age and seniority is central; honorifics and a softer register are used for elders and superiors."
+  greetingNorms: "A slight bow or nod with the phrase 'Mingalaba' (formal) or a simple 'Ne kaun la?' (How are you); the bow is typically lower toward elders or monks."
+  meetingEtiquette: "Business cards exchanged with both hands; rank and older colleagues addressed first; meetings are consensus-driven and may take time; keeping face is important."
+  topicsToAvoid:
+    - "The Muslim-majority Rakhine/Rohingya situation and inter-ethnic conflict"
+    - "The 2021 military takeover and ongoing political instability"
+    - "Criticism of the armed forces or the constitution"
+  giftGivingNotes: "Gifts are accepted and appreciated but should not be extravagant; small, thoughtful items are suitable. Avoid giving alcohol to devout customers or during religious fasts; no leather for observant consumers."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: MM-06
+    file: distinct-regions/mm-06.yaml
+    adminUnitCodes: [MM-06]
+  - code: MM-04
+    file: distinct-regions/mm-04.yaml
+    adminUnitCodes: [MM-04]
+  - code: MM-17
+    file: distinct-regions/mm-17.yaml
+    adminUnitCodes: [MM-17]
+  - code: MM-11
+    file: distinct-regions/mm-11.yaml
+    adminUnitCodes: [MM-11]
+  - code: MM-16
+    file: distinct-regions/mm-16.yaml
+    adminUnitCodes: [MM-16]
+sources:
+  - id: census-mmr-2014
+    name: "The 2014 Myanmar Population and Housing Census — Union Report"
+    publisher: "Department of Population, Ministry of Labour, Immigration and Population / UNFPA"
+    url: "http://hofinet.org/upload_docs/Myanmar%20Population%20and%20Housing%20Census%202014.pdf"
+    year: 2015
+    accessedDate: "2026-09-21"
+    note: "Total population 51,486,253; official census counts by State/Region; religion shares (Buddhism ~88%, Christianity 6.2%, Islam 4.3%)."
+  - id: constitution-mmr-2008
+    name: "Constitution of the Republic of the Union of Myanmar (2008, as amended)"
+    publisher: "Government of the Republic of the Union of Myanmar"
+    url: "https://www.mlis.gov.mm/"
+    year: 2008
+    accessedDate: "2026-09-21"
+    note: "Establishes the federal-style Republic of the Union structure (Article 49: seven States, seven Regions, one Union Territory) and Burmese as the official language."
+  - id: gad-mmr-township
+    name: "Ethnic composition by township (2019 GAD)"
+    publisher: "General Administration Department (GAD), Myanmar"
+    url: "https://en.wikipedia.org/wiki/Ethnicity_in_Myanmar"
+    year: 2019
+    accessedDate: "2026-09-21"
+    note: "Widely-cited township-level ethnic percentages: Bamar ~68.5%, Kayin 6.6%, Shan 4.7%, Rakhine 4.3%, Mon 2.1%, Chin 2.1%, Pa-O 2.1%, Kachin 1.5%, others ~8.1%."
+  - id: utl-mmr-2023
+    name: "Union Taxation Law 2023 (Law No. 18/2023, as amended 2024)"
+    publisher: "State Administration Council, Republic of the Union of Myanmar"
+    url: "https://www.myanmartradeportal.gov.mm/uploads/legals/2024/7/Union%20Taxation%20Law%202023%20Eng.pdf"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "5% commercial tax on most goods and services; Specific Goods Tax 5-80% on a defined list; no VAT."
+  - id: dlapiper-mmr-dp
+    name: "Data Protection Laws of the World — Myanmar"
+    publisher: "DLA Piper"
+    url: "https://www.dlapiperdataprotection.com/index.html?t=law&c=MM"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "No general data protection law; privacy governed by the Law Protecting the Privacy and Security of Citizens (2017) and sectoral statutes; consumer protection via the Consumer Protection Law (2019)."
+  - id: ethnologue-mmr
+    name: "Ethnologue: Languages of Myanmar"
+    publisher: "SIL International (Ethnologue)"
+    url: "https://www.ethnologue.com/country/MM/languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Language vitality and speaker estimates for Burmese and minority languages of Myanmar."
+  - id: iso-mya
+    name: "ISO 639-3 entry: mya - Burmese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/mya"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code mya = Burmese (Individual, Living)."
+  - id: iso-kac
+    name: "ISO 639-3 entry: kac - Kachin Jingpho"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/kac"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code kac = Kachin Jingpho (Individual, Living)."
+  - id: iso-shn
+    name: "ISO 639-3 entry: shn - Shan"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/shn"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code shn = Shan (Individual, Living)."

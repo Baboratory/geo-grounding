@@ -1,0 +1,69 @@
+code: MM-16
+name:
+  eng: Rakhine State
+  local:
+    - languageCode: mya
+      value: ရခိုင်ပြည်နယ်
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate along the Bay of Bengal coast with heavy rains and cyclonic seasonality."
+landmarks:
+  - name: Sittwe and the Shwe Dagun
+    description: "Sittwe (Akyab) is the chief port and commercial town of Rakhine State on the Bay of Bengal."
+  - name: The Rakhine coastal beaches
+    description: "Bay of Bengal coastline with fishing villages and mangrove ecosystems."
+  - name: Shwedagon Stupas of the Rakhine coast
+    description: "Coastal Buddhist stupas and monasteries along the Rakhine littoral."
+culturalTraits:
+  - "The traditional land of the Rakhine (Arakanese) people, an ethnic group with a strong coastal maritime identity"
+  - "A historically independent Arakan kingdom before Burmese conquest; today home to diverse coastal communities"
+prideOf:
+  - "Rakhine maritime and Buddhist heritage on the Bay of Bengal"
+  - "The fishing and natural-gas rich coast"
+animals:
+  popular:
+    - "Water buffalo"
+    - "Sea turtles"
+  unique:
+    - "Coastal mangrove and estuarine wildlife"
+industries:
+  - "Fisheries and coastal aquaculture"
+  - "Natural gas production (offshore)"
+  - "Agriculture (rice, palm)"
+  - "Port activities at Sittwe"
+sports:
+  - "Football (soccer)"
+  - "Traditional wrestling"
+  - "Boat racing"
+entertainment:
+  - season: allYear
+    items:
+      - "Coastal festivals and boat races"
+      - "Pilgrimage to coastal stupas"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fresh seafood and fish curries"
+      - "Rakhine rice dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light tropical cotton; traditional Rakhine dress"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "09:00-17:00 Monday-Friday."
+  lunchBreakTiming: "13:00-14:00."
+sources:
+  - id: census-mmr-2014
+    name: "The 2014 Myanmar Population and Housing Census — Union Report"
+    publisher: "Department of Population, Myanmar / UNFPA"
+    url: "http://hofinet.org/upload_docs/Myanmar%20Population%20and%20Housing%20Census%202014.pdf"
+    year: 2015
+    accessedDate: "2026-09-21"
+    note: "Encoding notes on the Rakhine State population (3,188,807 incl. non-enumerated estimates)."

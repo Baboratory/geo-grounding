@@ -1,0 +1,70 @@
+code: MM-04
+name:
+  eng: Mandalay Region
+  local:
+    - languageCode: mya
+      value: မန္တလေးတိုင်းဒေသကြီး
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate in the central Irrawaddy valley, with dry winters and a strong summer monsoon."
+landmarks:
+  - name: Bagan
+    description: "The vast archaeological zone of the Pagan Kingdom (9th-13th c.), a UNESCO World Heritage Site (2019) with over 3,500 Buddhist structures."
+    unescoWorldHeritage: true
+  - name: Shwe Dagon Stupa of Mandalay
+    description: "The gilded Golden Stupa at Mandalay, an important monument of the last royal capital."
+  - name: Mount Popa
+    description: "The flat-topped sacred table mountain linked to nat-worship and pilgrimage."
+culturalTraits:
+  - "The historical and cultural heartland of the Bamar majority, and seat of the last Burmese kingdom (Mandalay)"
+  - "A centre of Buddhist scholarship, classical arts and the annual Thingyan festival"
+prideOf:
+  - "Hosting Bagan, the crown of Myanmar's ancient Buddhist heritage"
+  - "Mandalay's palace legacy and cultural arts (classical dance, music)"
+animals:
+  popular:
+    - "Asian elephant"
+    - "Peacock"
+  unique:
+    - "Bagan's desert-like archaeological landscape"
+industries:
+  - "Tourism (Bagan pilgrimage and archaeology)"
+  - "Agriculture in the Irrawaddy valley"
+  - "Textiles and handicrafts"
+  - "Jade and gem trading"
+sports:
+  - "Football (soccer)"
+  - "Traditional wrestling"
+  - "Sepak takraw"
+entertainment:
+  - season: allYear
+    items:
+      - "Pagan stupa visits and sunrise/pilgrimage tours"
+      - "Classical Burmese dance and music performances"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Mohinga porridge and Shan curries"
+      - "Deep-fried fritters with tea"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Longyi for men; hne for women; traditional dress in cultural events"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "09:00-17:00 Monday-Friday."
+  lunchBreakTiming: "13:00-14:00."
+sources:
+  - id: unesco-whc-mmr
+    name: "Bagan — UNESCO World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/mm"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Bagan's UNESCO World Heritage listing (2019), located in the Mandalay Region."

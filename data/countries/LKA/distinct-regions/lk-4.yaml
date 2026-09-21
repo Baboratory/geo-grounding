@@ -1,0 +1,69 @@
+code: LK-4
+name:
+  eng: Northern Province (Jaffna)
+  local:
+    - languageCode: sin
+      value: උතුරු පළාත
+    - languageCode: tam
+      value: வட மாகாணம்
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate in the far north, hot and drier than the south-west, with a marked NE (Maha) monsoon."
+landmarks:
+  - name: Jaffna Fort
+    description: "A 17th-century Dutch fort on the Jaffna peninsula, a symbol of the Tamil north."
+  - name: Nallur Kandaswamy Temple
+    description: "An important Hindu temple complex in Jaffna, a major pilgrimage site."
+  - name: Mannar Island and lagoons
+    description: "Shallow lagoon landscape famed for fishing and the ferry across to the island."
+culturalTraits:
+  - "The Tamil-majority cultural heartland of Sri Lanka, with a strong Saivaite Hindu heritage"
+  - "A region shaped by the 1983-2009 conflict and subsequent reconstruction"
+prideOf:
+  - "Tamil language, Hindu temples and the Jaffna kingdom's legacy"
+  - "Resilient post-war rebuilding of towns and infrastructure"
+animals:
+  popular:
+    - "Peacock"
+    - "Water buffalo"
+  unique: []
+industries:
+  - "Agriculture (red onions, chillies, palmyra)"
+  - "Fisheries and lagoon aquaculture"
+  - "Small-scale trade and remittances"
+sports:
+  - "Cricket"
+  - "Kabaddi"
+  - "Volleyball"
+entertainment:
+  - season: allYear
+    items:
+      - "Hindu temple festivals and kavadi processions"
+      - "Beach and lagoon recreation"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Seafood and palmyra-derived dishes"
+      - "Pittu and string-hopper meals"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light tropical cotton; traditional lungi for men, sari for women"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 4, 5, 6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12, 1]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:30-17:00 Monday-Friday."
+  lunchBreakTiming: "13:00-14:00."
+sources:
+  - id: census-lka-2012
+    name: "Census of Population and Housing 2012 — Ethnicity by District"
+    publisher: "Department of Census and Statistics, Sri Lanka"
+    url: "https://www.statistics.gov.lk/PopHouSat/PopulationAtla_2012/03_DistrictMaps/Map%20P2.4.1%20Population%20by%20Ethnicity%20and%20District,%202012.pdf"
+    year: 2012
+    accessedDate: "2026-09-21"
+    note: "Confirms the Northern Province is Tamil-majority (Jaffna, Kilinochchi, Mannar, Mullaitivu, Vavuniya)."

@@ -1,0 +1,72 @@
+code: LK-2
+name:
+  eng: Central Province (Kandy)
+  local:
+    - languageCode: sin
+      value: මධ්‍යම පළාත
+    - languageCode: tam
+      value: மத்திய மாகாணம்
+climates:
+  - koppenCode: Cfb
+    description: "Subtropical highland climate in the hill country (Kandy, Nuwara Eliya) with cool, misty conditions."
+landmarks:
+  - name: Temple of the Sacred Tooth Relic (Sri Dalada Maligawa)
+    description: "UNESCO Sacred City of Kandy's most revered shrine, holding the relic of the tooth of the Buddha."
+    unescoWorldHeritage: true
+  - name: Royal Botanical Gardens, Peradeniya
+    description: "A famous botanical garden near Kandy with a celebrated orchid house and avenue of palms."
+  - name: Nuwara Eliya tea country
+    description: "The 'Little England' highland town surrounded by rolling Ceylon tea estates."
+culturalTraits:
+  - "The hill-country cultural heartland and last royal capital of the Sinhala kingdom"
+  - "Famous for tea estates, the Perahera festival and cool highland hospitality"
+prideOf:
+  - "Hosting the Sacred Tooth Relic and the Esala Perahera procession"
+  - "The world-famous Ceylon tea highlands around Nuwara Eliya"
+animals:
+  popular:
+    - "Rhesus macaque"
+    - "Highland birds and montane wildlife"
+  unique:
+    - "Purple-faced langur (endemic)"
+industries:
+  - "Tea cultivation and processing (Ceylon tea)"
+  - "Tourism (heritage, hill stations)"
+  - "Spice and horticulture"
+  - "Textiles and garment factories"
+sports:
+  - "Cricket"
+  - "Mountain hiking and trail sports"
+  - "Rugby"
+entertainment:
+  - season: allYear
+    items:
+      - "Perahera processions and temple festivals"
+      - "Tea-country and hill-station tours"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kotthu and hoppers with hill-country curries"
+      - "Ceylon tea with accompaniments"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Warmer hill attire (sweaters/jackets) due to cool highland climate"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 7, 8]
+  - season: wet
+    months: [4, 5, 6, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:30-17:00 Monday-Friday."
+  lunchBreakTiming: "13:00-14:00."
+sources:
+  - id: unesco-whc-lka
+    name: "Sacred City of Kandy — UNESCO World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/lk"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Kandy's UNESCO World Heritage listing (1988)."

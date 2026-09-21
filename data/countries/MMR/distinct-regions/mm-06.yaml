@@ -1,0 +1,68 @@
+code: MM-06
+name:
+  eng: Yangon Region
+  local:
+    - languageCode: mya
+      value: ရန်ကုန်တိုင်းဒေသကြီး
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate on the Gulf of Martaban coast, with a pronounced wet monsoon."
+landmarks:
+  - name: Shwe Dagon Stupa (Yangon)
+    description: "The gilded Golden Stupa in central Yangon, an iconic symbol of Myanmar's Buddhist heritage."
+  - name: Botatung (Twin Pagodas) of Kyauktada
+    description: "Historic twin pagodas in Yangon's Kyauktada quarter."
+  - name: Strand Road and the port
+    description: "Yangon's waterfront and the country's main commercial port."
+culturalTraits:
+  - "The commercial and former administrative capital, economic heart of Myanmar"
+  - "A cosmopolitan port city with a mix of colonial architecture and modern commerce"
+prideOf:
+  - "Being the country's largest city and commercial hub"
+  - "The grand Buddhist monuments and colonial heritage of Yangon"
+animals:
+  popular:
+    - "House crows"
+    - "Squirrels"
+  unique: []
+industries:
+  - "Port and maritime trade"
+  - "Finance, banking and corporate services"
+  - "Textiles and light manufacturing"
+  - "Tourism and hospitality"
+sports:
+  - "Football (soccer)"
+  - "Cricket"
+  - "Traditional wrestling"
+entertainment:
+  - season: allYear
+    items:
+      - "City nightlife, cafes and shopping"
+      - "Temple visits and cultural performances"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Mohinga (porridge) street breakfasts"
+      - "Shan-style rice and curry"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Longyi and hne for casual wear; business attire in corporate settings"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "09:00-17:00 Monday-Friday."
+  lunchBreakTiming: "13:00-14:00."
+sources:
+  - id: census-mmr-2014
+    name: "The 2014 Myanmar Population and Housing Census — Union Report"
+    publisher: "Department of Population, Myanmar / UNFPA"
+    url: "http://hofinet.org/upload_docs/Myanmar%20Population%20and%20Housing%20Census%202014.pdf"
+    year: 2015
+    accessedDate: "2026-09-21"
+    note: "Yangon Region is the most populous, with 7,355,075 people (2014 census)."

@@ -1,0 +1,68 @@
+code: MM-17
+name:
+  eng: Shan State
+  local:
+    - languageCode: mya
+      value: သျှမ်းပြည်နယ်
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland climate in the eastern Shan hills, cooler with a marked rainy season."
+landmarks:
+  - name: Inle Lake (Shan)
+    description: "The second-largest lake in Myanmar and a scenic highland destination famed for its floating villages and sunrise views."
+  - name: Taunggyi Oil Field
+    description: "The historic oil-field town of Taunggyi (Shan), historically significant for Myanmar's petroleum industry."
+  - name: Shan Buddhist monasteries
+    description: "Numerous hilltop monasteries and pagodas across the Shan highlands."
+culturalTraits:
+  - "Heartland of the Shan (Tai) people, an ethno-linguistic group (the Shan language) distinct from the Bamar majority"
+  - "Highland hill culture with a strong Buddhist heritage and distinctive Shan script"
+prideOf:
+  - "The Inle Lake region with its legume/rice cultivation and tourism"
+  - "Shan language and cultural identity"
+animals:
+  popular:
+    - "Asian elephant"
+    - "Hornbill"
+  unique:
+    - "Inle Lake's floating island villages"
+industries:
+  - "Tourism (Inle Lake, highland trekking)"
+  - "Agriculture (tea, rice, vegetables)"
+  - "Mining and jade"
+sports:
+  - "Football (soccer)"
+  - "Traditional wrestling"
+  - "Cycling"
+entertainment:
+  - season: allYear
+    items:
+      - "Inle Lake boat trips and hill-station tourism"
+      - "Trekking and monastery visits"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Shan-style rice and curry"
+      - "Inle-fish specialities"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Warm hill-country clothing (jackets/sweaters) due to cooler highland climate"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "09:00-17:00 Monday-Friday."
+  lunchBreakTiming: "13:00-14:00."
+sources:
+  - id: iso-shn
+    name: "ISO 639-3 entry: shn - Shan"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/shn"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies the Shan language code (shn) spoken in Shan State."
