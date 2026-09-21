@@ -1,0 +1,93 @@
+code: WHOLE
+name:
+  eng: São Tomé and Príncipe
+  local:
+    - languageCode: por
+      value: São Tomé e Príncipe
+# Country-wide fallback region (unitary-small, single synthetic WHOLE entry).
+climates:
+  - koppenCode: Af
+    description: Equatorial tropical climate, wet through most of the year, moderated by two shorter dry interludes (gravana and gravanito).
+landmarks:
+  - name: Pico de São Tomé
+    description: The island's dramatic central volcanic peak, rising to 2,024 m and often cloud-wrapped.
+  - name: Old town of São Tomé
+    description: Historic colonial quarter with the island's cathedral and plantation-era architecture (Fuerte de São Miguel).
+  - name: Obô forest (São Tomé island)
+    description: Protected tropical rainforest with many endemic species; a key biodiversity zone.
+  - name: Baía de São António (Príncipe)
+    description: Bay on Príncipe island; the surrounding Bioko/Príncipe zone is a UNESCO Biosphere Reserve.
+culturalTraits:
+  - Blend of African, Portuguese and creole (Forro) identity and music
+  - Cocoa/coffee plantation heritage that shaped the society and its communities
+  - Strong Catholic maritime culture alongside older creole folk traditions
+  - The South American-linked Sao Tome carnival variety
+prideOf:
+  - High rate of endemic biodiversity (both islands)
+  - A stable, peaceful return to democracy after 1990
+  - The creole Forro heritage
+animals:
+  popular:
+    - Endemic São Tomé scops-owl
+    - Giant earthworms of São Tomé
+    - Humpback dolphin (coastal waters)
+  unique:
+    - São Tomé and Príncipe endemics (birds, snails, orchids)
+industries:
+  - Agriculture (cocoa, coffee, banana)
+  - Fishing
+  - Tourism (nascent)
+  - Prospective Gulf-of-Guinea oil
+sports:
+  - Football (soccer)
+  - Athletics
+  - Fishing / maritime sport
+religions:
+  - name: Roman Catholic
+    percent: 55.7
+    sourceId: census-2012-estimate
+  - name: No religion / none
+    percent: 21.2
+    sourceId: census-2012-estimate
+  - name: Other Christian (Seventh-day Adventist, Assembly of God, New Apostolic, Mana, Universal Kingdom, Jehovah's Witnesses)
+    percent: 15.9
+    sourceId: census-2012-estimate
+  - name: Other / unspecified
+    percent: 7.2
+    sourceId: census-2012-estimate
+# Religion figures summed from the 2012 census breakdown as reported by the
+# CIA World Factbook (Catholics 55.7%, none 21.2%, other Christian groups
+# totaling ~15.9%, other/unspecified ~7.2%).
+entertainment:
+  - season: allYear
+    items:
+      - Carnival of São Tomé (festivities around the February-March pre-Lenten period)
+      - Cocoa-plantation festivals and music performances
+traditionalDishes:
+  - season: allYear
+    items:
+      - Calalou (a leafy-green stew)
+      - Grilled fish (Atlantic tuna, snapper)
+      - Plantain and cassava (manioc) dishes
+      - Cocoa-based desserts
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light tropical clothing; bright wax-print fabrics (pagne) at ceremonies and festivals
+seasonCalendar:
+  - season: dry
+    months: [7, 8, 9]
+  - season: wet
+    months: [1, 2, 3, 4, 5, 6, 10, 11, 12]
+businessRhythm:
+  restDays: []
+  notes: "An equatorial island economy centered on cocoa/coffee agriculture, tourism and prospective oil; business pace is relaxed and network-driven, tied to seasonal agricultural cycles, with activity slowing around Christmas/New Year and the summer vacation months."
+  typicalWorkHours: "Standard office hours are roughly 07:30-15:30/08:00-16:00, Monday-Friday."
+sources:
+  - id: census-2012-estimate
+    name: "São Tomé and Príncipe — People and Society (2012 census-derived estimates)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/sao-tome-and-principe/"
+    year: 2012
+    accessedDate: "2026-09-18"
+    note: "Religion shares (Catholic 55.7%, none 21.2%, other Christian ~15.9%, other/unspecified ~7.2%) and socio-cultural content from the 2012 census as reported by the Factbook. Geographic and cultural content is general knowledge, not a cited statistic."

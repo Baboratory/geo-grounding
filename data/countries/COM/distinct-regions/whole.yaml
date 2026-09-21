@@ -1,0 +1,99 @@
+code: WHOLE
+name:
+  eng: Comoros
+  local:
+    - languageCode: zdj
+      value: Udzima wa Komori
+    - languageCode: fra
+      value: Union des Comores
+    - languageCode: arb
+      value: الاتحاد القمري
+# Country-wide fallback region (unitary-small, single synthetic WHOLE entry).
+climates:
+  - koppenCode: Aw
+    description: Tropical maritime climate with two marked seasons — a cooler, dry period (roughly May to October) and a warmer, humid rainy season (November to April).
+landmarks:
+  - name: Mount Karthala
+    description: Active shield volcano and the highest point (2,361 m) on Grande Comore, a dramatic central landmark of the archipelago.
+  - name: Moroni medina
+    description: Historic coastal quarter of the capital with the Ancien Vendredi mosque and coral-stone buildings.
+  - name: Moheli (Mwali) island
+    description: The smallest island, known for its dense forests and rare dugong and coelacanth marine life.
+  - name: Anjouan (Ndzwani) historic citadel
+    description: Culture-rich island with a historic citadel above Mutsamudu and terraced vanilla and ylang-ylang plantations.
+culturalTraits:
+  - Strong Sunni Muslim religious tradition (state religion)
+  - Matrilineal social patterns in some communities alongside Islamic norms
+  - Ylang-ylang, vanilla and clove plantation heritage (a leading ylang-ylang producer)
+  - A unifying Comorian (Shikomoro) language across three island dialects
+prideOf:
+  - The coelacanth and diverse marine biodiversity of the Mozambique Channel
+  - The shared Comorian language and culture across the three islands
+  - The archipelago's independence and Arab-African heritage
+animals:
+  popular:
+    - Coelacanth (living fossil fish of the Comoros' deep waters)
+    - Dugong (Moheli lagoon)
+    - Humpback whale (migration season)
+  unique:
+    - Livingstone's fruit bat (Comoros endemic)
+    - Hume's owl and other island endemics
+industries:
+  - Agriculture (ylang-ylang, vanilla, clove, coconut)
+  - Fishing
+  - Remittance-financed services
+  - Emerging tourism
+sports:
+  - Football (soccer)
+  - Athletics
+  - Maritime / fishing sport
+religions:
+  - name: Sunni Islam
+    percent: 98.1
+    sourceId: religion-estimate
+  - name: Ethnic religionist (indigenous beliefs)
+    percent: 1.1
+    sourceId: religion-estimate
+  - name: Christian
+    percent: 0.6
+    sourceId: religion-estimate
+  - name: Other
+    percent: 0.3
+    sourceId: religion-estimate
+entertainment:
+  - season: allYear
+    items:
+      - Maoulida religious songs and gatherings
+      - Marriage and Islamic festival celebrations
+      - Music and dance of the Comorian tradition
+  - season: wet
+    items:
+      - Holiday-season community gatherings
+traditionalDishes:
+  - season: allYear
+    items:
+      - Langouste à la vanille (vanilla lobster, reflecting the vanilla economy)
+      - Poisson braisé (grilled fish) with coconut
+      - Mataba (fried, spiced dough parcels filled with fish or meat)
+      - Rice with coconut milk
+traditionalClothing:
+  - season: allYear
+    items:
+      - Modest dress reflecting Sunni Muslim norms; the shiromani (wraparound) cloth is traditional
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays: []
+  notes: "A small-island economy centered on vanilla/ylang-ylang/clove agriculture, fishing and remittances. The working week commonly runs Monday-Friday with Friday/Saturday weekend conventions varying by sector; business activity can slow during the Ramadan fasting month and around the main Islamic festivals."
+  typicalWorkHours: "Standard office hours are roughly 07:30/08:00-15:30/16:00, Monday-Friday (schedule varies by sector)."
+sources:
+  - id: religion-estimate
+    name: "Comoros — People and Society (2020 estimate)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/comoros/"
+    year: 2020
+    accessedDate: "2026-09-18"
+    note: "Religious-affiliation estimate (Sunni Islam 98.1%, ethnic religionist 1.1%, Christian 0.6%, other 0.3%). Geographic and cultural content is general knowledge, not a cited statistic."
