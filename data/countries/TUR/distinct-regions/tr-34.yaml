@@ -52,7 +52,7 @@ sports:
   - "Motor racing (Istanbul Park circuit)"
   - Sailing and Bosphorus water sports
 religions:
-  - name: "Muslim (predominantly Sunni)"
+  - name: "Sunni Muslim"
     percent: 92.0
     sourceId: tur-uscirf
   - name: "Alevi Muslim"
@@ -60,10 +60,10 @@ religions:
     sourceId: tur-uscirf
   - name: "Christian (incl. Greek Orthodox, Armenian Apostolic and Syriac communities)"
     percent: 2.0
-    sourceId: tur-unesco
+    sourceId: istanbul-religion-estimate
   - name: "Jewish (historic Sephardic community)"
     percent: 0.2
-    sourceId: tur-unesco
+    sourceId: istanbul-religion-estimate
 entertainment:
   - season: summer
     items:
@@ -122,4 +122,11 @@ sources:
     url: "https://whc.unesco.org/en/list/"
     year: 2025
     accessedDate: "2026-09-20"
-    note: "Historic Areas of Istanbul (1985); also the reference for the small Christian and Jewish community presence in Istanbul."
+    note: "Historic Areas of Istanbul (1985) -- basis for landmarks text only, does not carry religion figures."
+  - id: istanbul-religion-estimate
+    name: "Istanbul Christian/Jewish community shares — composite estimate"
+    publisher: "Composite estimate (no single official survey carries these figures; Istanbul hosts the bulk of Turkey's small historic Christian and Jewish communities)"
+    url: "https://en.wikipedia.org/wiki/Christianity_in_Turkey"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Istanbul's Greek Orthodox, Armenian Apostolic, Syriac and Sephardic Jewish communities are concentrated in the city; the 2.0%/0.2% shares are disclosed ESTIMATEs, not figures from a heritage-sites list (previously mis-cited to tur-unesco)."

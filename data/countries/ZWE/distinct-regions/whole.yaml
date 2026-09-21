@@ -6,6 +6,8 @@ name:
       value: Zimbabwe
     - languageCode: sna
       value: Zimbabwe
+    - languageCode: nde
+      value: iZimbabwe
 climates:
   - koppenCode: Cwb
     description: "Subtropical highland on the central plateau: warm rainy season (Nov-Mar) and a mild, dry winter (May-Aug)."

@@ -119,7 +119,7 @@ sources:
   - id: cbs-religion
     name: "Israel Central Bureau of Statistics - population by religion (2023), as reported in US State Dept 2023 Report on International Religious Freedom"
     publisher: "US Department of State / Israel Central Bureau of Statistics"
-    url: "https://2017-2021.state.gov/reports/2016-report-on-international-religious-freedom/israel-and-the-occupied-territories/"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/israel-west-bank-and-gaza/"
     year: 2024
     accessedDate: "2026-09-20"
     note: "Approximately 73.2% Jewish, ~18% Muslim, ~1.9% Christian, ~1.6% Druze."
@@ -129,7 +129,7 @@ sources:
     url: "https://www.cbs.gov.il/en/Pages/default.aspx"
     year: 2011
     accessedDate: "2026-09-20"
-    note: "Native-language shares among over-20s: Hebrew 49%, Arabic 18%, Russian 15%, Yiddish 2%, French 2%, English 2%, Spanish 1.6%; ~90% of Jews and over 60% of Arabs understand Hebrew; English is widely used as a foreign/lingua-franca language. Hebrew locally-spoken share (~90% of the population), Russian (~15%) and Amharic (~1.3%) are derived from this survey; the English foreign share (~33%) is an estimate from the same general survey."
+    note: "Native-language shares among over-20s: Hebrew 49%, Arabic 18%, Russian 15%, Yiddish 2%, French 2%, English 2%, Spanish 1.6%; ~90% of Jews and over 60% of Arabs understand Hebrew. Hebrew locally-spoken share (~90% of the population), Russian (~15%) and Amharic (~1.3%) are derived from this survey. The English foreign share (~33%) is NOT in this survey (which measures only native language) -- it is a disclosed ESTIMATE of general English proficiency, with no dedicated nationwide survey found."
   - id: boi-pay
     name: "Bank of Israel - Payment and Settlement Systems Review ('Red Book') and payments survey"
     publisher: "Bank of Israel"

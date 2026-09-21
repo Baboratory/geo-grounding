@@ -51,29 +51,33 @@ languageUsage:
     speakersShare: 0.02
     sourceId: eth-tiv
 ethnicGroups:
+  # Corrected to match what cia-factbook-2023 actually carries (2018 est.).
   - group: Hausa
-    percent: 25.0
+    percent: 30.0
     sourceId: cia-factbook-2023
   - group: Yoruba
-    percent: 21.0
+    percent: 15.5
     sourceId: cia-factbook-2023
-  - group: Igbo
-    percent: 18.0
+  - group: Igbo (Ibo)
+    percent: 15.2
     sourceId: cia-factbook-2023
   - group: Fulani
-    percent: 8.0
+    percent: 6.0
     sourceId: cia-factbook-2023
   - group: Tiv
-    percent: 5.0
+    percent: 2.4
     sourceId: cia-factbook-2023
-  - group: Kanuri
-    percent: 4.0
+  - group: Kanuri/Beriberi
+    percent: 2.4
     sourceId: cia-factbook-2023
-  - group: Izon (Ijaw)
-    percent: 3.0
+  - group: Ibibio
+    percent: 1.8
+    sourceId: cia-factbook-2023
+  - group: Ijaw/Izon
+    percent: 1.8
     sourceId: cia-factbook-2023
   - group: other ethnic groups (over 250 groups)
-    percent: 16.0
+    percent: 24.9
     sourceId: cia-factbook-2023
 timezones:
   - name: Africa/Lagos
@@ -149,10 +153,10 @@ sources:
     note: "Guarantees freedom to adopt, practise and propagate any religion and forbids religious discrimination; context for the multi-faith federation and the twelve northern states that have incorporated sharia elements."
   - id: cia-factbook-2023
     name: "Nigeria - The World Factbook (2023 edition)"
-    publisher: "CIA World Factbook, open continuation (worldfactbook.co)"
+    publisher: "worldfactbook.co (independent third-party aggregator, not the CIA itself)"
     url: "https://worldfactbook.co/country.php?slug=nigeria"
     accessedDate: "2026-09-19"
-    note: "Ethnic composition (Hausa ~25%, Yoruba ~21%, Igbo ~18%, Fulani ~8%, etc.) and the country's roughly 220-230 million population; over 250 ethnic groups."
+    note: "Ethnic composition (Hausa 30%, Yoruba 15.5%, Igbo 15.2%, Fulani 6%, Tiv 2.4%, Kanuri/Beriberi 2.4%, Ibibio 1.8%, Ijaw/Izon 1.8%, other 24.9%, 2018 est.) and the country's roughly 220-230 million population; over 250 ethnic groups."
   - id: npc-dhs2018
     name: "Nigeria Demographic and Health Survey 2018"
     publisher: "National Population Commission (NPC) & ICF"

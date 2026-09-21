@@ -12,8 +12,11 @@ isSovereign: true
 # has officially recognized regional/minority-language communities (Law 482/1999
 # plus the special autonomy of Trentino-Alto Adige/Südtirol and Aosta Valley),
 # and there is a widely recognized cultural-historical regional divide across
-# its 20 regions — so real ISO 3166-2 region files are curated (a subset) along-
-# side the WHOLE fallback.
+# its 20 regions — so real ISO 3166-2 region files are curated (a small subset,
+# currently Lombardy/IT-25, Lazio/IT-62 and Sicily/IT-82, chosen for population/
+# economic weight rather than for the minority-language regions specifically --
+# Trentino-Alto Adige, Aosta Valley and Sardinia are not yet curated and fall
+# through to WHOLE) alongside the WHOLE fallback.
 governanceType: unitary-large
 iso3166_2_prefix: IT
 hasSubdivisions: true

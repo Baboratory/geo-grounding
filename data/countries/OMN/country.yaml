@@ -27,14 +27,14 @@ languageUsage:
     # recorded as a qualitative locally-spoken entry (an ESTIMATE) rather than an
     # unbacked statistic.
     speakersShare: 0.4
-    sourceId: om-basic-statute
+    sourceId: om-language-estimate
   - languageCode: soq
     domain: locallySpoken
     # Soqotri, a Modern South Arabian Semitic language, is spoken on Socotra and
     # by diaspora communities in Dhofar. No state-published census share exists; a
     # small ESTIMATE reflecting its minority, locally-confined use.
     speakersShare: 0.02
-    sourceId: om-unesco
+    sourceId: om-language-estimate
 ethnicGroups:
   - group: Omani Arab (citizens)
     percent: 60.0
@@ -127,9 +127,9 @@ sources:
     url: "https://www.taxoman.gov.om/en/Pages/VAT.aspx"
     accessedDate: "2026-09-19"
     note: "5% standard VAT rate; price-display obligations."
-  - id: om-unesco
-    name: "UNESCO World Heritage — Socotra Archipelago (Yemen)"
-    publisher: "UNESCO World Heritage Centre"
-    url: "https://whc.unesco.org/en/statesparties/om"
+  - id: om-language-estimate
+    name: "Oman English/Soqotri locallySpoken shares — composite estimate"
+    publisher: "Composite estimate (no nationwide language census exists)"
+    url: "https://www.ncsi.gov.om/"
     accessedDate: "2026-09-19"
-    note: "Background on Oman's Soqotri-speaking communities and biodiversity framing the minority-language entry; the archipelago is UNESCO-listed under Yemen, and Oman is the state party record consulted for regional context."
+    note: "English (~40%): pervasive in government, business and education but has no constitutional official status and no published nationwide survey share. Soqotri (~2%): a Modern South Arabian Semitic language spoken by Dhofar diaspora communities from Socotra (Yemen); Oman itself publishes no census share. Both are ESTIMATEs disclosed as such, not figures drawn from NCSI's own tables."

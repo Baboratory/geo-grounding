@@ -78,31 +78,37 @@ languageUsage:
 # the Bamileke cluster of the West; Ewondo/Duala/Basaa/Fang the Beti-Bantu
 # centre/coast/south.
 ethnicGroups:
-  # CIA World Factbook (mirrored via Relief Central), combined with MSU 'Africa
-  # in Miniature'; shares are estimates.
-  - group: Cameroon Highlanders (Bamileke, Bamoun, Tikar)
-    percent: 31.0
+  # CIA World Factbook, 2018 est. (the figures the cwf-ethnic source actually
+  # carries, corrected from an earlier, differently-classified breakdown).
+  - group: Bamileke-Bamu
+    percent: 24.3
     sourceId: cwf-ethnic
-  - group: Equatorial Bantu (Basa, Duala, Beti-Pahuin)
-    percent: 19.0
+  - group: Beti/Bassa, Mbam
+    percent: 21.6
     sourceId: cwf-ethnic
-  - group: Kirdi (non-Islamized peoples of the north)
+  - group: Biu-Mandara
+    percent: 14.6
+    sourceId: cwf-ethnic
+  - group: Arab-Choa/Hausa/Kanuri
     percent: 11.0
     sourceId: cwf-ethnic
-  - group: Fulani / Peul
-    percent: 10.0
+  - group: Adamawa-Ubangi
+    percent: 9.8
     sourceId: cwf-ethnic
-  - group: Northwestern Bantu
-    percent: 8.0
+  - group: Grassfields
+    percent: 7.7
     sourceId: cwf-ethnic
-  - group: Eastern Nigritic (Gbaya, Banda, Adamawa-Ubangi)
-    percent: 7.0
+  - group: Kako, Meka/Pygmy
+    percent: 3.3
     sourceId: cwf-ethnic
-  - group: Other African
-    percent: 13.0
+  - group: Cotier/Ngoe/Oroko
+    percent: 2.7
     sourceId: cwf-ethnic
-  - group: Non-African
-    percent: 1.0
+  - group: Southwestern Bantu
+    percent: 0.7
+    sourceId: cwf-ethnic
+  - group: Foreign/other ethnic group
+    percent: 4.5
     sourceId: cwf-ethnic
 timezones:
   - name: Africa/Douala

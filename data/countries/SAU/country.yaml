@@ -31,10 +31,10 @@ languageUsage:
     sourceId: sau-ef-english-2023
 ethnicGroups:
   - group: Saudi Arab
-    percent: 74.0
+    percent: 58.4
     sourceId: sau-census-2022
   - group: Foreign nationals (incl. South Asian, Filipino, Egyptian, Yemeni and other Arab expatriates)
-    percent: 26.0
+    percent: 41.6
     sourceId: sau-census-2022
 timezones:
   - name: Asia/Riyadh

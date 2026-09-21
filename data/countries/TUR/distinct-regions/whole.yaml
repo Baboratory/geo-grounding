@@ -80,11 +80,16 @@ sports:
   - "Wrestling and weightlifting (Olympic strength sports)"
   - "Nationally, archery and equestrian tradition"
 religions:
-  - name: "Muslim (predominantly Sunni, Hanafi)"
-    percent: 99.0
+  # USCIRF's ~99% Muslim figure explicitly includes Alevis, so Sunni Hanafi
+  # and Alevi are broken out as components of that total, not added on top.
+  - name: "Sunni (Hanafi)"
+    percent: 78.0
     sourceId: tur-uscirf
   - name: "Alevi Muslim"
     percent: 12.0
+    sourceId: tur-uscirf
+  - name: "Other Muslim"
+    percent: 9.0
     sourceId: tur-uscirf
   - name: "Christian (Orthodox, Armenian, Syriac, Protestant, Catholic)"
     percent: 0.2

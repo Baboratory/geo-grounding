@@ -37,7 +37,7 @@ languageUsage:
     sourceId: irq-cia-people
   - languageCode: tur
     domain: locallySpoken
-    speakersShare: 0.09
+    speakersShare: 0.03
     sourceId: irq-cia-people
   - languageCode: syr
     domain: locallySpoken

@@ -4,6 +4,8 @@ name:
   local:
     - languageCode: sah
       value: Саха Өрөспүүбүлүкэтэ
+    - languageCode: rus
+      value: Республика Саха (Якутия)
 climates:
   - koppenCode: Dfd
     description: Subarctic/taiga climate with some of the coldest inhabited temperatures on Earth (Verkhoyansk, Oymyakon).

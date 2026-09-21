@@ -92,7 +92,7 @@ sources:
   - id: cz-census-2021
     name: "Sčítání 2021 (Census 2021): Population by religious belief"
     publisher: "Český statistický úřad (Czech Statistical Office)"
-    url: "https://www.czso.cz/csu/czso/censy-2021"
+    url: "https://www.scitani.gov.cz/results"
     year: 2021
     accessedDate: "2026-09-20"
     note: "Religious-affiliation shares of the total population: no religion 47.8%, Roman Catholic 7.0%, Protestant 1.4%, Orthodox 0.3%; about 30% left the voluntary question blank (not stated), with the rest split across smaller groups."

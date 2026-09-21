@@ -4,6 +4,10 @@ name:
   local:
     - languageCode: bos
       value: Federacija Bosne i Hercegovine
+    - languageCode: hrv
+      value: Federacija Bosne i Hercegovine
+    - languageCode: srp
+      value: Федерација Босне и Херцеговине
 climates:
   - koppenCode: Cfb
     description: "Mostly temperate continental with warm summers and cold winters; the Herzegovina area in the south is hotter and drier (Csa/Cfa) with a Mediterranean influence."
@@ -38,17 +42,20 @@ sports:
   - Basketball
   - Winter sports (Sarajevo's Olympic legacy)
 religions:
+  # Federation of BiH entity-level shares (FZS Institute of Statistics, 2013
+  # census), not the nationwide figures -- the Federation is majority-Muslim,
+  # unlike Bosnia and Herzegovina as a whole.
   - name: Islam (Sunni)
-    percent: 50.7
-    sourceId: bih-census-2013
-  - name: Eastern Orthodox Christian
-    percent: 30.7
+    percent: 71.3
     sourceId: bih-census-2013
   - name: Roman Catholic
-    percent: 15.2
+    percent: 22.1
+    sourceId: bih-census-2013
+  - name: Eastern Orthodox Christian
+    percent: 2.6
     sourceId: bih-census-2013
   - name: Other / no religion / not stated
-    percent: 3.4
+    percent: 4.0
     sourceId: bih-census-2013
 entertainment:
   - season: summer
@@ -92,4 +99,4 @@ sources:
     url: "https://popis.gov.ba/popis2013/?lang=eng"
     year: 2013
     accessedDate: "2026-09-20"
-    note: "Nationwide 2013 census religious shares: Islam 50.7%, Orthodox 30.7%, Catholic 15.2%, other/none ~3.4%."
+    note: "Federation of Bosnia and Herzegovina entity-level 2013 census religious shares (FZS Institute of Statistics): Islam ~71.3% (1,581,868), Catholic ~22.1% (490,450), Orthodox ~2.6% (57,120), other/none ~4.0% -- distinct from the nationwide figures (Islam 50.7%, Orthodox 30.7%, Catholic 15.2%), which describe the whole country, not the Federation entity specifically."

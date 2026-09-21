@@ -12,7 +12,9 @@ isSovereign: true
 # devolved nations (England MANDATORY, Scotland, Wales, Northern Ireland) carry
 # a widely recognized cultural-historical regional identity with regional
 # languages (Welsh, Scottish Gaelic, Irish, Scots), so real ISO 3166-2 region
-# files are curated (the four home nations) alongside the WHOLE fallback. The UK
+# files are curated -- England, Scotland and Wales, three of the four home
+# nations (Northern Ireland is not yet curated and falls through to WHOLE) --
+# alongside the WHOLE fallback. The UK
 # is not a federal state (Westminster remains sovereign), hence unitary-large.
 governanceType: unitary-large
 iso3166_2_prefix: GB
@@ -36,7 +38,7 @@ languageUsage:
     sourceId: scotland-census-2022
   - languageCode: sco
     domain: locallySpoken
-    speakersShare: 0.012
+    speakersShare: 0.022
     sourceId: scotland-census-2022
 ethnicGroups:
   - group: White (incl. White British, Irish, other White)
@@ -142,7 +144,7 @@ sources:
     url: "https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/ethnicgroupnationalidentitylanguageandreligionvariablescensus2021/mainlanguage"
     year: 2021
     accessedDate: "2026-09-20"
-    note: "English as main language ~98% in England & Wales, the basis for the eng locallySpoken share at country level (scaled from England & Wales Census 2021)."
+    note: "~98% of England & Wales can speak English (Census 2021: 91.1% report it as their main language, plus a further 7.1% who are proficient but don't speak it as their main language) -- the basis for the eng locallySpoken share at country level."
   - id: census-cymru-2021
     name: "Census 2021 for Wales — Welsh language"
     publisher: "Welsh Government / ONS"
@@ -156,7 +158,7 @@ sources:
     url: "https://www.scotlandscensus.gov.uk/"
     year: 2022
     accessedDate: "2026-09-20"
-    note: "Scottish Gaelic speakers in Scotland (~1.1% of Scottish population, ~0.1% of UK) — used for gla locallySpoken at country level; Scots-speaker detail noted at GB-SCT."
+    note: "Scottish Gaelic speakers in Scotland (~1.1% of Scottish population, ~0.1% of UK) — used for gla locallySpoken at country level. Scots: 2022 census recorded ~1.5 million Scots speakers in Scotland (27.7% of Scotland's population); scaled against the UK's ~67M population, that is ~2.2% UK-wide, the basis for the sco locallySpoken share."
   - id: census-ethnicity-2021
     name: "Census 2021, England and Wales — ethnic group statistics"
     publisher: "Office for National Statistics (ONS), UK"
@@ -200,9 +202,9 @@ sources:
     accessedDate: "2026-09-20"
     note: "The basis for the 6-hour Sunday opening limit on large shops in England and Wales; not applicable to Scotland/Northern Ireland where no such restriction exists."
   - id: uk-finance-pmr-2024
-    name: "UK Payment Markets Report 2024"
+    name: "UK Payment Markets 2025"
     publisher: "UK Finance"
-    url: "https://www.ukfinance.org.uk/policy-and-guidance/reports/uk-payment-statistics-2023"
-    year: 2024
+    url: "https://www.ukfinance.org.uk/policy-and-guidance/reports-and-publications/uk-payment-markets-2025"
+    year: 2025
     accessedDate: "2026-09-20"
     note: "Shares of all UK payments by number: debit cards 53%, credit/charge cards 11%, cash 9% (first time under 10%), Faster Payments/other transfers ~11% (rounded). Cards + mobile wallets = 64% of all payments overall."

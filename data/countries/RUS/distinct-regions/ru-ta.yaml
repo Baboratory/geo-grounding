@@ -4,6 +4,8 @@ name:
   local:
     - languageCode: tat
       value: Татарстан Республикасы
+    - languageCode: rus
+      value: Республика Татарстан
 climates:
   - koppenCode: Dfb
     description: Humid continental climate — cold snowy winters, warm summers.

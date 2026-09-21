@@ -71,8 +71,8 @@ ethnicGroups:
   - group: Tubu (Toubou)
     percent: 0.4
     sourceId: cia-factbook-2023
-  - group: other ethnic groups
-    percent: 1.7
+  - group: other/unavailable
+    percent: 0.9
     sourceId: cia-factbook-2023
 timezones:
   - name: Africa/Niamey
@@ -145,10 +145,16 @@ sources:
     note: "The 2010 Constitution recognised French as the official language and several languages (Hausa, Zarma-Songhai, Tamasheq, Fulfulde, Kanuri) as national languages (Art. 5), and defined Niger as a 'State of law' guaranteeing equality and religious freedom (Art. 8). Superseded in part by the 2025 Charte de la Refondation on the official-language question."
   - id: cia-factbook-2023
     name: "Niger - The World Factbook (2023 edition)"
-    publisher: "CIA World Factbook, open continuation (worldfactbook.co)"
+    publisher: "worldfactbook.co (independent third-party aggregator, not the CIA itself)"
     url: "https://worldfactbook.co/country.php?slug=niger"
     accessedDate: "2026-09-19"
-    note: "Ethnic composition: Hausa ~53.1%, Zarma/Songhai ~21.2%, Tuareg ~11.0%, Fulani ~6.5%, Kanuri (Manga/Beriberi) ~5.9%, Gourma ~0.8%, Arab ~0.4%, Tubu ~0.4%. Population about 27 million."
+    note: "Ethnic composition only: Hausa ~53.1%, Zarma/Songhai ~21.2%, Tuareg ~11.0%, Fulani ~6.5%, Kanuri (Manga/Beriberi) ~5.9%, Gourma ~0.8%, Arab ~0.4%, Tubu ~0.4%, other/unavailable ~0.9%. Does not carry religion figures -- see ner-religion-2012 for those."
+  - id: ner-religion-2012
+    name: "Niger religious composition"
+    publisher: "Composite estimate (Niger's 2012 census reported 99.3% Muslim; commonly cited secondary figure)"
+    url: "https://en.wikipedia.org/wiki/Religion_in_Niger"
+    accessedDate: "2026-09-19"
+    note: "Niger's 2012 national census recorded 99.3% Muslim self-identification, the basis for the ~99% figure used throughout this file; the small Christian/animist remainder is a disclosed ESTIMATE."
   - id: globalvoices-2025
     name: "Hausa replaces French as the official language of Niger"
     publisher: "Global Voices"

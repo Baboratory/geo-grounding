@@ -42,7 +42,7 @@ languageUsage:
   - languageCode: spa
     domain: foreign
     speakersShare: 0.07
-    sourceId: bra-censo
+    sourceId: bra-censo-eng
   - languageCode: eng
     domain: foreign
     speakersShare: 0.05
@@ -161,7 +161,7 @@ sources:
     note: "Population ~203M with density results: color/race self-declaration (pardo 45.3%, branco 43.5%, preto 10.2%, indígena 0.8%, amarelo 0.4%); 1,694,836 indigenous people (~0.8%); Portuguese spoken by essentially the whole population. Basis for ethnicGroups and the por locallySpoken share."
   - id: bra-censo-eng
     name: "Foreign-language (English/Spanish) usage estimate"
-    publisher: "Composite estimate"
+    publisher: "Composite estimate (no official census figure exists; directional estimate based on general education/border-region context)"
     url: "https://www.ibge.gov.br/"
     year: 2022
     accessedDate: "2026-09-19"

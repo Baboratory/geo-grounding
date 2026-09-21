@@ -4,8 +4,6 @@ name:
   local:
     - languageCode: spa
       value: Región de Magallanes
-    - languageCode: arn
-      value: Magallanes / Aysén-Patagonia
 climates:
   - koppenCode: Cfc
     description: "Subpolar oceanic: cool, wet, windy year-round on the Patagonian archipelago and steppe."

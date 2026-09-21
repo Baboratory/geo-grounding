@@ -145,13 +145,14 @@ languageUsage:
     sourceId: stats-sa-census-2022
   - languageCode: sfs
     domain: locallySpoken
-    speakersShare: 0.05
-    sourceId: sasl-2023
+    speakersShare: 0.0002
+    sourceId: stats-sa-census-2022
 # South African Sign Language (sfs) became the 12th official language on 19 July
 # 2023 (Eighteenth Amendment to the Constitution). It carries the official
-# legal-status flag (1.0) above. No census home-language share is published for a
-# sign language, so the locallySpoken row (an estimate of the deaf community's
-# share) is flagged as an estimate via the sasl-2023 source note; the 11 spoken
+# legal-status flag (1.0) above. Census 2022 does report a home-language share
+# for it -- 0.02% (12,400 people), down sharply from 0.5% in 2011, a drop
+# PanSALB has publicly questioned -- so the locallySpoken row uses that
+# published figure rather than an estimate; the 11 spoken
 # official languages carry their census home-language shares.
 ethnicGroups:
   # Population group self-identification, Stats SA Census 2022 (Report 03-01-84).
@@ -166,6 +167,9 @@ ethnicGroups:
     sourceId: stats-sa-census-2022
   - group: Indian/Asian
     percent: 2.7
+    sourceId: stats-sa-census-2022
+  - group: Other
+    percent: 0.4
     sourceId: stats-sa-census-2022
 timezones:
   - name: Africa/Johannesburg

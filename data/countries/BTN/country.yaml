@@ -33,7 +33,9 @@ languageUsage:
     # English is the medium of instruction in schools and widely used in
     # government, business and law, but no official census share of residents who
     # speak it is published; recorded qualitatively rather than as a baseless
-    # statistic. The remaining ~26% of the population speaks other languages.
+    # statistic. The 0.26 below is the arithmetic residual after the three
+    # census-sourced languages (0.74 combined), attributed to English as the
+    # de facto administrative language rather than a directly surveyed figure.
     speakersShare: 0.26
     sourceId: bt-nsb
 ethnicGroups:

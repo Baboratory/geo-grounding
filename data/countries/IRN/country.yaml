@@ -9,7 +9,7 @@ flagEmoji: "🇮🇷"
 capital: Tehran
 isSovereign: true
 # Classified unitary-large: population ~89M far exceeds the threshold, Iran has
-# officially recognized regional/minority languages (the Constitution's Article 16
+# officially recognized regional/minority languages (the Constitution's Article 15
 # acknowledges regional languages such as Azerbaijani, Kurdish and Arabic alongside
 # the official Persian), and there is a genuine cultural-historical regional divide
 # (Persian heartland vs. the Azeri north-west, Kurdish north-east, Balochi south-east
@@ -141,7 +141,7 @@ sources:
     url: "https://en.wikisource.org/wiki/Constitution_of_the_Islamic_Republic_of_Iran/Chapter_I"
     year: 1979
     accessedDate: "2026-09-20"
-    note: "Persian is the official and common language of the country. Article 16 permits the use of regional languages (Azerbaijani, Kurdish, Arabic, Balochi and others) in the press, mass media, and schools alongside Persian."
+    note: "Persian is the official and common language of the country. Article 15 permits the use of regional languages (Azerbaijani, Kurdish, Arabic, Balochi and others) in the press, mass media, and schools alongside Persian."
   - id: irn-cia-people
     name: "CIA World Factbook — Iran (people and society)"
     publisher: "CIA World Factbook"
@@ -172,7 +172,7 @@ sources:
     note: "Official currency is the rial (IRR); the informal 'toman' (10 rials) is widely used in daily pricing. Price display must clarify the denomination."
   - id: irn-sanctions-payments
     name: "International sanctions and the domestic Shetab payment network"
-    publisher: "Central Bank of Iran / Central Bank of Iran payment industry affairs"
+    publisher: "Shaparak (Central Bank of Iran's payment-network operator)"
     url: "https://www.shaparak.ir/"
     year: 2024
     accessedDate: "2026-09-20"

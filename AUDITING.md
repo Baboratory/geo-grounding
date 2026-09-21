@@ -50,8 +50,11 @@ For each country/region file:
    first; anything it flags is a hard error, not a judgment call. It checks
    the `WHOLE` invariant, `governanceType`/`hasSubdivisions`/
    `iso3166_2_prefix` agreement, `sourceId` resolution, region `adminUnitCodes`
-   uniqueness, `seasonCalendar` partitioning, and `languageCode` → `data/
-   languages/*.yaml` existence — see `DESIGN.md` for what each one means.
+   uniqueness, `seasonCalendar` partitioning, `languageCode` → `data/
+   languages/*.yaml` existence, and (since a 2026-09 remediation) that every
+   `languageUsage` row with `domain: official` has `speakersShare: 1.0` — see
+   `DESIGN.md` for what each one means. Don't manually re-derive this last
+   one; if `validate.py` passes, it's not a finding.
 2. **`governanceType` classification** — is the 2-of-3 `unitary-large` test
    (population >20-25M, recognized minority/regional languages, a widely
    recognized cultural-historical regional identity) actually argued, not
@@ -61,12 +64,32 @@ For each country/region file:
    `federal`)? Is the split into curated regions proportionate — enough to
    reflect real, documented internal diversity, not so many that a small,
    linguistically/culturally uniform country gets split for its own sake?
-3. **`name.local` completeness** — does it include one entry per
+   A recurring, legitimate way the "recognized minority/regional languages"
+   leg gets satisfied without co-official status: a country-level law or
+   body that names specific languages as "national languages", "recognized
+   regional languages", or grants them standing only in specific
+   districts/regions — this counts as PASS even though the country's sole
+   *official* language is something else (established precedent: `NAM`'s 13
+   national languages, `GUY`'s regional languages, `SSD`'s ~60
+   constitutionally-named national languages, `LBY`'s 2013 Tamazight/Tuareg/
+   Tebu recognition law). If a file's own comment concedes it meets only 1
+   of the 3 criteria while still classified `unitary-large`/`federal`, check
+   whether this pattern actually applies before treating it purely as a
+   violation to downgrade — it may just be an under-argued but correct call.
+3. **`name.local` completeness** — does it include *at least* one entry per
    `domain: official` language at country level (and the full list again at
    `WHOLE`), and only the languages actually used/official in a specific
    curated region there? A country with N official languages should show all
    N unless there's a documented reason not to (see `FSM`'s Yap file, which
-   should list Ulithian and originally didn't).
+   should list Ulithian and originally didn't). That's a floor, not a
+   ceiling: an *extra* entry for a genuinely, verifiably locally-spoken
+   non-official language (the `PYF` `tah`-alongside-official-`fra` pattern,
+   also legitimately used for e.g. Danish in Greenland/Faroe country files)
+   is not itself a defect — don't flag "this language isn't official" as a
+   `name.local` finding unless the entry is also unverified/fabricated.
+   `WHOLE` should mirror the country-level list exactly, including any such
+   extras — a mismatch between the two (country has 9 entries, `WHOLE` has
+   1) is the actual `[data]` finding, not the extras themselves.
 4. **Source provenance** — for every `sourceId`, does `publisher` match what
    `url` actually is? Does the `note` say precisely what was taken from the
    source (not vaguely "background")? Is the source itself the right

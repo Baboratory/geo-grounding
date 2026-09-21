@@ -133,8 +133,8 @@ sources:
     note: "Section 6 recognizes the 16 official languages and the language rights regime. Basis for the official-language rows and the official-languages legal constraint."
   - id: zimstat-census-2012
     name: "ZimStat 2012 Population Census preliminary report and ethnic/language baselines"
-    publisher: "Zimbabwe National Statistics Agency (ZimStat)"
-    url: "http://www.zimstat.co.zw/dmdocuments/CensusPreliminary2012.pdf"
+    publisher: "Wikipedia (secondary source; primary: Zimbabwe National Statistics Agency, 2012 census) -- the original ZimStat PDF no longer resolves"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Zimbabwe"
     year: 2012
     accessedDate: "2026-09-19"
     note: "Ethnic affiliation (Shona ~71%, Ndebele ~16%, other ~13%) and home-language baselines. Composite estimates; English ~5% as home language, much wider as lingua franca."

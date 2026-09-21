@@ -30,19 +30,19 @@ languageUsage:
     sourceId: census-2020
   - languageCode: ita
     domain: foreign
-    speakersShare: 0.09
+    speakersShare: 0.01
     sourceId: census-2020
   - languageCode: por
     domain: foreign
-    speakersShare: 0.08
+    speakersShare: 0.01
     sourceId: census-2020
   - languageCode: tur
     domain: foreign
-    speakersShare: 0.07
+    speakersShare: 0.01
     sourceId: census-2020
   - languageCode: srp
     domain: foreign
-    speakersShare: 0.06
+    speakersShare: 0.01
     sourceId: census-2020
   - languageCode: eng
     domain: foreign

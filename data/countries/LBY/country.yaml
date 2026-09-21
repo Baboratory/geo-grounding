@@ -8,11 +8,17 @@ name:
 flagEmoji: "🇱🇾"
 capital: Tripoli
 isSovereign: true
-# Classified unitary-large with 3 curated cultural regions. Libya (~7M, 2024 est.)
-# sits below the ~20-25M population threshold and has Arabic as its sole official
-# language, so it meets only ONE of the two-of-three unitary-large criteria on the
-# population/language axes. But the cultural-historical regional-identity criterion
-# is met strongly enough on its own to merit curation. The classic three-way split
+# Classified unitary-large with 3 curated cultural regions. Libya meets 2 of
+# the 3 DESIGN.md criteria. (1) Population ~7M (2024 est.) sits below the
+# ~20-25M threshold (FAIL). (2) Officially recognized regional/minority
+# languages -- a 2013 law recognizes Tamazight, Tuareg and Tebu as minority
+# languages with a right to mother-tongue education, and the Libyan Amazigh
+# High Council has separately declared Tamazight co-official specifically in
+# Amazigh-majority districts (the Nafusa Mountains and coastal towns);
+# Arabic remains the sole nationally official language, so this is the
+# regionally-anchored recognized-minority-language pattern (the NAM/GUY
+# precedent), not co-official status (PASS). (3) Widely recognized
+# cultural-historical regional identity -- met strongly. The classic three-way split
 # — Tripolitania (west), Cyrenaica (east), Fezzan (south) — is a genuinely
 # recognized, politically and historically significant identity, not a mere
 # geographic convenience: it descends from the Ottoman vilayets of Tripolitania,

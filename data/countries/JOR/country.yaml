@@ -52,11 +52,11 @@ ethnicGroups:
     # Arab majority; the classic ethnic-composition figures above are the commonly
     # cited breakdown.
 timezones:
+  # Jordan observed DST until a royal decree made UTC+3 permanent from 28
+  # October 2022; no DST since.
   - name: Asia/Amman
     standardUtcOffset: "UTC+3"
-    observesDst: true
-    dstUtcOffset: "UTC+2"
-    dstPeriod: "Last Friday of October to last Thursday of March, in reverse of the European summer schedule."
+    observesDst: false
 currency:
   code: JOD
   symbol: "د.ا"

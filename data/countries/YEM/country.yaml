@@ -132,12 +132,12 @@ sources:
     accessedDate: "2026-09-20"
     note: "Indicates Yemen lacks a comprehensive data-protection law; legal constraints reflect the general regulatory landscape. Composite estimate, not a single statute."
   - id: yem-consumer
-    name: "Yemeni Civil Code and consumer-protection provisions"
-    publisher: "Government of the Republic of Yemen"
+    name: "Constitution of Yemen (2001) — general legal framework; no dedicated consumer-protection statute exists"
+    publisher: "Constitute Project (comparative constitutions), text of the Yemeni Constitution"
     url: "https://www.constituteproject.org/constitution/Yemen_2001"
-    year: 2002
+    year: 2001
     accessedDate: "2026-09-20"
-    note: "General civil-law protections; no modern national distance-selling/consumer-rights statute."
+    note: "Yemen has no modern national distance-selling/consumer-rights statute or a citable Civil Code text; general civil-law protections rest on the constitutional framework. This source establishes only that framework, not specific consumer provisions."
   - id: yem-economy-wb
     name: "World Bank Yemen Economic Monitor"
     publisher: "World Bank"

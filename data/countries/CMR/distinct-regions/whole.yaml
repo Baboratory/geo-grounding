@@ -55,23 +55,28 @@ sports:
   - "Wrestling (traditional and modern)"
   - "Boxing"
 religions:
+  # CIA World Factbook, 2018 est. (corrected to match what cwf-religion
+  # actually carries).
   - name: Roman Catholic
-    percent: 33.1
+    percent: 38.3
     sourceId: cwf-religion
   - name: Protestant (incl. Pentecostal and Presbyterian)
-    percent: 27.1
+    percent: 25.5
     sourceId: cwf-religion
   - name: Other Christian (incl. Jehovah's Witnesses)
-    percent: 6.1
+    percent: 6.9
     sourceId: cwf-religion
   - name: Muslim (Sunni/Maliki; incl. Ahmadiyya)
-    percent: 30.6
+    percent: 24.4
     sourceId: cwf-religion
-  - name: Traditional / indigenous beliefs
-    percent: 1.3
+  - name: Traditional / indigenous beliefs (animist)
+    percent: 2.2
     sourceId: cwf-religion
-  - name: None / unspecified / other
-    percent: 1.8
+  - name: Other
+    percent: 0.5
+    sourceId: cwf-religion
+  - name: None / unspecified
+    percent: 2.2
     sourceId: cwf-religion
 entertainment:
   - season: allYear

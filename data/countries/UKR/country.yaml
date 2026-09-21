@@ -142,12 +142,12 @@ sources:
     accessedDate: "2026-09-20"
     note: "Rough share of Ukrainians able to hold a conversation in English (~22%), with English proficiency moderate and young people notably more fluent."
   - id: ukr-census-2001-adj
-    name: "2001 Ukrainian Census (ethnic composition, adjusted for 2014-2023 population changes)"
+    name: "2001 Ukrainian Census (ethnic composition, unadjusted)"
     publisher: "State Statistics Service of Ukraine (Derzhstat)"
     url: "http://www.ukrcensus.gov.ua/"
     year: 2001
     accessedDate: "2026-09-20"
-    note: "Baseline 2001 ethnic composition (Ukrainian 77.8%, Russian 17.3%) adjusted downward for the post-2014 loss of Crimea and parts of Donbas and for wartime displacement. Percentages are indicative."
+    note: "2001 ethnic composition (Ukrainian 77.8%, Russian 17.3%) -- no more recent nationwide census exists (none has been conducted since the post-2014 loss of Crimea/Donbas and the 2022 war made one impractical), so these figures are the raw 2001 results, not adjusted for the population changes since; an earlier version of this note incorrectly claimed an adjustment had been applied."
   - id: ukr-language-law-2019
     name: "Law of Ukraine 'On ensuring the functioning of the Ukrainian language as the state language' (2019)"
     publisher: "Verkhovna Rada of Ukraine"

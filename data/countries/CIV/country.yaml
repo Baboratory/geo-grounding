@@ -130,7 +130,7 @@ sources:
     note: "2021 RGPH Ivorian-nationality ethnic composition: Akan 38.0%, Northern Mande 22.0%, Voltaic/Gur 22.0%, Kru 9.1%, Southern Mande 8.6%, naturalized 0.3%; ~22% of total residents are foreign-born. Basis for ethnicGroups."
   - id: civ-population
     name: "Côte d'Ivoire — CIA World Factbook / RGPH 2021"
-    publisher: "Institut National de la Statistique (RGPH 2021)"
+    publisher: "CIA World Factbook (secondary source; primary: Institut National de la Statistique, RGPH 2021)"
     url: "https://www.cia.gov/the-world-factbook/countries/cote-divoire/"
     year: 2021
     accessedDate: "2026-09-19"

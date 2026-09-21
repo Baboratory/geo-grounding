@@ -35,11 +35,11 @@ languageUsage:
     sourceId: cl-census2024
   - languageCode: arn
     domain: locallySpoken
-    speakersShare: 0.09
+    speakersShare: 0.01
     sourceId: cl-census2024
   - languageCode: aym
     domain: locallySpoken
-    speakersShare: 0.01
+    speakersShare: 0.001
     sourceId: cl-census2024
   - languageCode: que
     domain: locallySpoken
@@ -51,10 +51,12 @@ languageUsage:
     sourceId: cl-census2024
 # Spanish is the sole official language (spoken by ~99.5% as home language) and is
 # kept as the single official 1.0 row. The recognized indigenous languages are
-# listed as locallySpoken estimates reflecting the population share identifying
-# with each people (Mapuche ~8.8% of the national population, Aymara ~1.0%,
-# Quechua and Rapa Nui smaller). Recognition under Ley 19.253 is not co-official
-# status, so none competes with Spanish's official flag.
+# listed as locallySpoken estimates of actual speakers, not ethnic
+# self-identification -- Mapuche identification is ~8.8% of the population, but
+# active Mapudungun speakers are estimated at only ~1% (100,000-200,000 people);
+# Aymara identification is ~0.1% but active speakers are fewer still (~25,000
+# per the 2017 census, concentrated in Arica y Parinacota). Recognition under
+# Ley 19.253 is not co-official status, so none competes with Spanish's official flag.
 ethnicGroups:
   - group: Mapuche
     percent: 8.8

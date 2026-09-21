@@ -52,7 +52,7 @@ sports:
   - Volleyball
   - Ice skating/hockey (BelPa ice rink)
 religions:
-  - name: "Muslim (predominantly Sunni)"
+  - name: "Sunni Muslim"
     percent: 94.0
     sourceId: tur-uscirf
   - name: "Alevi Muslim"

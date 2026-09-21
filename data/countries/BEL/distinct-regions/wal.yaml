@@ -4,6 +4,8 @@ name:
   local:
     - languageCode: fra
       value: Wallonie
+    - languageCode: deu
+      value: Wallonien
 climates:
   - koppenCode: Cfb
     description: Temperate maritime climate, with cooler, wetter and hillier conditions than Flanders — especially in the higher Ardennes, which experience cold winters and significant snowfall.

@@ -32,7 +32,7 @@ languageUsage:
     sourceId: ven-embassy
   - languageCode: guc
     domain: locallySpoken
-    speakersShare: 0.004
+    speakersShare: 0.011
     sourceId: ven-ine
   - languageCode: wba
     domain: locallySpoken

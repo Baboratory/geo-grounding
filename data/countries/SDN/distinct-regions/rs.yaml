@@ -4,8 +4,11 @@ name:
   local:
     - languageCode: ara
       value: البحر الأحمر وشرق السودان
-    - languageCode: bej
+    - languageCode: eng
       value: Red Sea Coast and Eastern Sudan
+      # No established Beja (Bedawiyet)-language toponym for this region was
+      # found in a citable source; using the English descriptive name rather
+      # than inventing one, matching the SSD/SS-EC convention.
 # The Red Sea coast and the eastern states (adminUnitCodes spans Red Sea,
 # Kassala and Gedaref). This is Sudan's gateway to the sea — home to Port
 # Sudan, the country's main and now de facto capital port — and the homeland

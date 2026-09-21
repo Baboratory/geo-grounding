@@ -2,6 +2,8 @@ code: BA-BRC
 name:
   eng: Brčko District
   local:
+    - languageCode: bos
+      value: Brčko Distrikt
     - languageCode: hrv
       value: Brčko Distrikt
     - languageCode: srp

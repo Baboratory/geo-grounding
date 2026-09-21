@@ -30,11 +30,11 @@ languageUsage:
   - languageCode: som
     domain: locallySpoken
     speakersShare: 0.6
-    sourceId: dji-const-1992-lang
+    sourceId: dji-language-estimate
   - languageCode: aar
     domain: locallySpoken
     speakersShare: 0.35
-    sourceId: dji-const-1992-lang
+    sourceId: dji-language-estimate
   - languageCode: fra
     domain: foreign
     speakersShare: 0.4
@@ -121,7 +121,14 @@ sources:
     url: "https://www.presidence.dj/"
     year: 2010
     accessedDate: "2026-09-18"
-    note: "French and Standard Arabic (arb) are co-official languages; Somali and Afar are 'national languages' per Art 1. Speech estimates (Somali ~60%, Afar ~35%) are ESTIMATEs as Djibouti does not collect language data in censuses."
+    note: "French and Standard Arabic (arb) are co-official languages; Somali and Afar are 'national languages' per Art 1. Basis for the fra/arb official rows only -- it does not carry any speaker-share figures."
+  - id: dji-language-estimate
+    name: "Djibouti Somali/Afar locallySpoken shares — composite estimate"
+    publisher: "Composite estimate (derived from CIA World Factbook ethnic composition: Somali ~60%, Afar ~35%)"
+    url: "https://theodora.com/world_fact_book_2022/djibouti/djibouti_people.html"
+    year: 2022
+    accessedDate: "2026-09-18"
+    note: "Djibouti does not collect language data in censuses; the som/aar locallySpoken shares are ESTIMATEs derived from the CIA World Factbook's ethnic-composition figures (dji-cia-2022), on the assumption that ethnic-group membership tracks first-language use."
   - id: dji-cia-2022
     name: "CIA World Factbook — Djibouti (2022)"
     publisher: "CIA"

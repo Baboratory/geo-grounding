@@ -108,7 +108,7 @@ sources:
     url: "https://khmertimeskh.com/50807372/cambodian-population-increases-to-15-6-million/"
     year: 2019
     accessedDate: "2026-09-20"
-    note: "About 95.8% of the population speak Khmer as their mother tongue; indigenous and foreign-language speakers total a small minority. The ~6% English foreign-language share is an estimate reflecting English's role as a second language in education and business."
+    note: "About 95.8% of the population speak Khmer as their mother tongue; indigenous and foreign-language speakers total a small minority. This is the basis for the Khmer locallySpoken share. The ~6% English foreign-language share is NOT in this source (a mother-tongue census/report) -- it is a disclosed ESTIMATE reflecting English's role as a second language in education and business, with no dedicated proficiency survey found."
   - id: census-ethnic
     name: "General Population Census of Cambodia 2019 — Ethnic Minorities thematic report"
     publisher: "National Institute of Statistics, Ministry of Planning"

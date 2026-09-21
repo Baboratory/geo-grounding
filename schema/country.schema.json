@@ -25,7 +25,7 @@
         "eng": { "type": "string" },
         "local": {
           "type": "array",
-          "description": "The country's name, one entry per language that has a languageUsage[] row with domain: official (e.g. CHE has 4: deu/fra/ita/roh; LTU has 1: lit). Not a place to force every language baboratory.com might translate the site into; that's a separate concern from this core dataset. See region.schema.json's name.local[] for the same field at region level, where it means something narrower (locally used there specifically, not every official language of the whole country).",
+          "description": "The country's name, at minimum one entry per language that has a languageUsage[] row with domain: official (e.g. CHE has 4: deu/fra/ita/roh; LTU has 1: lit) -- that's a floor, not a cap: a genuinely, verifiably locally-used non-official language may also be included (e.g. PYF adds tah alongside official fra), the same way region.schema.json's name.local[] isn't official-only either. Not a place to force every language baboratory.com might translate the site into; that's a separate concern from this core dataset. See region.schema.json's name.local[] for the same field at region level, where it means something narrower (locally used there specifically, not every official language of the whole country).",
           "items": {
             "type": "object",
             "required": ["languageCode", "value"],

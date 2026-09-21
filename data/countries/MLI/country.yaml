@@ -76,8 +76,8 @@ ethnicGroups:
   - group: Bobo / Bwa
     percent: 2.2
     sourceId: instat-rgph5-2022
-  - group: other Malian ethnic groups
-    percent: 10.5
+  - group: other Malian ethnic groups (Bozo, Khassonké, Samogo, Dafing, Kakolo, Somono, Arab and others)
+    percent: 8.3
     sourceId: instat-rgph5-2022
 timezones:
   - name: Africa/Bamako

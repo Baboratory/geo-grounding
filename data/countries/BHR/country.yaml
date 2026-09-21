@@ -124,8 +124,8 @@ distinct-regions:
 sources:
   - id: bhr-const-languages
     name: "Constitution of the Kingdom of Bahrain (2002), Arts. 1-2"
-    publisher: "Kingdom of Bahrain"
-    url: "https://www.bna.bh/"
+    publisher: "Constitute Project (comparative constitutions), text of the Bahraini Constitution"
+    url: "https://www.constituteproject.org/constitution/Bahrain_2002"
     year: 2002
     accessedDate: "2026-09-18"
     note: "Art. 1: hereditary constitutional monarchy; Art. 2: Shari'a a main source of legislation and Arabic the official language. Basis for the arb official row at 1.0."

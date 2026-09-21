@@ -117,8 +117,8 @@ businessRhythm:
 sources:
   - id: flemish-religion-composite
     name: "Religious affiliation in Flanders (composite of the General Belgian Survey of 2020-2021 and the Catholic Church in Belgium reports)"
-    publisher: "Composite estimate (Statbel-Gerel, KU Leuven, and Catholic Church in Belgium reporting)"
-    url: "https://statbel.fgov.be/en/themes/philadelphia/surveys"
+    publisher: "Composite estimate (Statbel-Gerel, KU Leuven, and Catholic Church in Belgium reporting) -- no single working regional survey page found; see whole.yaml's European Social Survey citation for the national-level primary figure"
+    url: "https://www.europeansocialsurvey.org/"
     year: 2021
     accessedDate: "2026-09-20"
     note: "Flanders is broadly similar to the national pattern but slightly more culturally Catholic and with a somewhat larger Muslim share in the cities. Figures are a composite estimate (no single official regional breakdown is published); national ESS 2023 figures (see whole.yaml) are the primary citation."

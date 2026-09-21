@@ -4,6 +4,22 @@ name:
   local:
     - languageCode: eng
       value: Ghana
+    - languageCode: aka
+      value: Gaana
+    - languageCode: ewe
+      value: Ghana
+    - languageCode: gaa
+      value: Ghana
+    - languageCode: dag
+      value: Ghana
+    - languageCode: nzi
+      value: Ghana
+    - languageCode: gjn
+      value: Ghana
+    - languageCode: xsm
+      value: Ghana
+    - languageCode: dga
+      value: Ghana
 # Generic country-wide fallback content for Ghana (unitary-large). Used via the
 # 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py
 # when a visitor's specific region (e.g. GH-CP Central) isn't one of the
@@ -80,19 +96,19 @@ sports:
   - "Table tennis"
 religions:
   - name: Christian (incl. Pentecostal/evangelical, Protestant, Catholic)
-    percent: 71.2
+    percent: 71.3
     sourceId: gss-census-2021
   - name: Muslim
     percent: 19.9
     sourceId: gss-census-2021
   - name: No religion
-    percent: 5.2
+    percent: 1.1
     sourceId: gss-census-2021
   - name: Traditional / indigenous belief
     percent: 3.2
     sourceId: gss-census-2021
   - name: Other
-    percent: 0.5
+    percent: 4.5
     sourceId: gss-census-2021
 entertainment:
   - season: allYear

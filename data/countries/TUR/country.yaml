@@ -27,13 +27,12 @@ languageUsage:
     domain: locallySpoken
     speakersShare: 0.95
     sourceId: tur-tuik
+  # kur is the Kurdish macrolanguage, Kurmanji-dominant in Turkey; kept as a
+  # single row rather than also listing kmr (Kurmanji) separately, which
+  # would double-count the same speakers under two codes.
   - languageCode: kur
     domain: locallySpoken
     speakersShare: 0.15
-    sourceId: tur-govuk-kurds
-  - languageCode: kmr
-    domain: locallySpoken
-    speakersShare: 0.14
     sourceId: tur-govuk-kurds
   - languageCode: zza
     domain: locallySpoken
@@ -46,15 +45,15 @@ languageUsage:
   - languageCode: hye
     domain: locallySpoken
     speakersShare: 0.001
-    sourceId: tur-unesco
+    sourceId: tur-language-religion-estimate
   - languageCode: eng
     domain: foreign
     speakersShare: 0.2
-    sourceId: tur-unesco
+    sourceId: tur-language-religion-estimate
   - languageCode: deu
     domain: foreign
     speakersShare: 0.15
-    sourceId: tur-unesco
+    sourceId: tur-language-religion-estimate
 ethnicGroups:
   - group: Turk
     percent: 72.5
@@ -149,7 +148,7 @@ sources:
     url: "https://www.tuik.gov.tr"
     year: 2024
     accessedDate: "2026-09-20"
-    note: "Population 85,664,944 as of 31 Dec 2024; Istanbul 15,701,602; Ankara 5,864,049; Izmir 4,493,242; Gaziantep 2,193,363."
+    note: "Population 85,664,944 as of 31 Dec 2024; Istanbul 15,701,602; Ankara 5,864,049; Izmir 4,493,242; Gaziantep 2,193,363. Does not itself carry a Turkish-speaker percentage; the 95% locallySpoken share is a disclosed ESTIMATE based on Turkish being the dominant home language of the large majority ethnic-Turk population."
   - id: tur-kvkk
     name: "Law on the Protection of Personal Data (KVKK), Law No. 6698 (2016)"
     publisher: "Personal Data Protection Authority (KVKK)"
@@ -184,7 +183,14 @@ sources:
     url: "https://whc.unesco.org/en/list/"
     year: 2025
     accessedDate: "2026-09-20"
-    note: "Inscribed sites incl. Historic Areas of Istanbul (1985), Göreme/Cappadocia (1985), Ephesus (2015), Nemrut Dağ (1987), Göbekli Tepe (2018)."
+    note: "Inscribed sites incl. Historic Areas of Istanbul (1985), Göreme/Cappadocia (1985), Ephesus (2015), Nemrut Dağ (1987), Göbekli Tepe (2018). Basis for landmarks/culturalTraits text only -- does not carry language or religion figures."
+  - id: tur-language-religion-estimate
+    name: "Türkiye Armenian/foreign-language and Christian/Jewish shares — composite estimate"
+    publisher: "Composite estimate (no single official survey carries these figures)"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Turkey"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Armenian home-language use (~0.1%), German as a foreign language (~15%, a legacy of Turkish-German labor migration) and English as a foreign language (~20%) are disclosed ESTIMATEs; no dedicated nationwide language-proficiency census exists. (Previously mis-cited to tur-unesco, a heritage-sites list with no connection to language.)"
   - id: tur-tcmb
     name: "Turkish Lira Sign & Central Bank of the Republic of Türkiye (TCMB)"
     publisher: "Central Bank of the Republic of Turkey"

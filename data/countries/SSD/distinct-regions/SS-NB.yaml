@@ -79,7 +79,7 @@ businessRhythm:
 sources:
   - id: nbgh-profile
     name: "Northern Bahr el Ghazal state profile (Dinka Rek/Malual population, Aweil, agro-pastoral economy)"
-    publisher: "Aggregate state/administrative profiles (UN-funded and academic, e.g. FEWSNET livelihood-zone descriptions)"
+    publisher: "FEWS NET (Famine Early Warning Systems Network, USAID-funded) and aggregate academic state/administrative profiles"
     url: "https://fews.net/east-africa/south-sudan"
     year: 2021
     accessedDate: "2026-09-19"

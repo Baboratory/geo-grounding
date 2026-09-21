@@ -4,6 +4,8 @@ name:
   local:
     - languageCode: fra
       value: Tchad
+    - languageCode: arb
+      value: تشاد (Tshad)
 climates:
   - koppenCode: BWh
     description: "Hot desert in the far north (Tibesti, Borkou, Ennedi) where rainfall can be under one inch a year."

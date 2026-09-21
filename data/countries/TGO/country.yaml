@@ -136,7 +136,7 @@ sources:
     note: "Togo uses the West African CFA franc (XOF), issued by the BCEAO; symbol FCFA."
   - id: tgo-data-protection
     name: "Loi n° 2019-014 du 29 octobre 2019 relative à la protection des données à caractère personnel"
-    publisher: "République du Togo / Instance de Protection des Données à Caractère Personnel (IPDCP)"
+    publisher: "Africa Data Protection (secondary source; primary: Loi n° 2019-014 / IPDCP)"
     url: "https://www.africadataprotection.org/pays/togo.html"
     year: 2019
     accessedDate: "2026-09-19"

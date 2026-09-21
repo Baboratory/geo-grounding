@@ -142,7 +142,7 @@ legalConstraints:
     description: "The Ghana cedi (GHS, symbol '₵', divided into 100 pesewas) is the national currency and legal tender. It was redenominated on 1 July 2007, replacing the old cedi (GHC) at a ratio of 1 new cedi = 10,000 old cedis. The Bank of Ghana (BoG) is the sole issuer of banknotes and coins."
     sourceId: bank-of-ghana
   - topic: "religion data collection"
-    description: "Ghana is one of the most religiously observant countries in the world. Religion is recorded in the national census (the 2021 PHC recorded Christian ~71.2%, Muslim ~19.9%, traditionalist ~3.2%, no religion ~5.2%). Religion figures here are census-based shares, not survey estimates, but like all self-reported identity data should be treated as approximate."
+    description: "Ghana is one of the most religiously observant countries in the world. Religion is recorded in the national census (the 2021 PHC recorded Christian ~71.3%, Muslim ~19.9%, traditionalist ~3.2%, no religion ~1.1%, other ~4.5%). Religion figures here are census-based shares, not survey estimates, but like all self-reported identity data should be treated as approximate."
     sourceId: gss-census-2021
 paymentCulture:
   popularMethods:
@@ -185,7 +185,7 @@ sources:
     url: "https://census2021.statsghana.gov.gh/"
     year: 2021
     accessedDate: "2026-09-19"
-    note: "Population ~30.8 million at the 2021 census. Religion shares (Christian ~71.2%, Muslim ~19.9%, traditionalist ~3.2%, no religion ~5.2%) and the ethnic-composition base relayed in the CIA World Factbook."
+    note: "Population ~30.8 million at the 2021 census. Religion shares (Christian ~71.3%, Muslim ~19.9%, traditionalist ~3.2%, no religion ~1.1%, other ~4.5%) and the ethnic-composition base relayed in the CIA World Factbook."
   - id: cia-wfb-ghana
     name: "Ghana — The World Factbook"
     publisher: "Central Intelligence Agency (CIA)"
@@ -195,7 +195,7 @@ sources:
     note: "2024 population estimate ~34.4 million. 2021-census ethnic composition: Akan 45.7%, Mole-Dagbani 18.5%, Ewe 12.8%, Ga-Dangme 7.1%, Gurma 6.4%, Guan 3.2%, Grusi 2.6%, Mande 2.0%, other 1.7%. Basis of ethnicGroups rows."
   - id: constitution-1992
     name: "Constitution of the Republic of Ghana, 1992 (Ch. 1 Arts. 11, 39)"
-    publisher: "Government of Ghana"
+    publisher: "Government of Ghana, via WIPO Lex"
     url: "https://www.wipo.int/wipolex/en/legislation/details/21218"
     year: 1992
     accessedDate: "2026-09-19"

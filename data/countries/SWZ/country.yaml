@@ -74,10 +74,10 @@ paymentMethodShares:
   # Volume vs value differ sharply (mobile money ~88% by volume / ~13% by value);
   # these are ESTIMATE by-value shares, following the JAM precedent.
   - method: "cash"
-    percent: 55.0
+    percent: 72.0
     sourceId: swz-cbe-fintech
   - method: "mobile money"
-    percent: 30.0
+    percent: 13.0
     sourceId: swz-cbe-fintech
   - method: "cards"
     percent: 8.0

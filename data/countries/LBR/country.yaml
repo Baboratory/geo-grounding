@@ -153,7 +153,7 @@ sources:
     note: "English 20% official (LocallySpoken 0.2 follows CIA 'English 20%' figure). Kpelle is the leading indigenous language; kpe locallySpoken 0.2 is an ESTIMATE tied to the ~20.2% Kpelle ethnic share (CIA gives no direct language percentage)."
   - id: lbr-timezone
     name: "Time in Liberia (Africa/Monrovia) — IANA tz database"
-    publisher: "IANA time zone database"
+    publisher: "Wikipedia (secondary source; primary: IANA tz database)"
     url: "https://en.wikipedia.org/wiki/Time_in_Liberia"
     year: 2026
     accessedDate: "2026-09-19"

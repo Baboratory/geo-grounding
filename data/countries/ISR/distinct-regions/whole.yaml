@@ -127,7 +127,7 @@ sources:
   - id: cbs-religion
     name: "Israel Central Bureau of Statistics - population by religion (2023), as reported in US State Dept 2023 Report on International Religious Freedom"
     publisher: "US Department of State / Israel Central Bureau of Statistics"
-    url: "https://2017-2021.state.gov/reports/2016-report-on-international-religious-freedom/israel-and-the-occupied-territories/"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/israel-west-bank-and-gaza/"
     year: 2024
     accessedDate: "2026-09-20"
     note: "Approximately 73.2% Jewish, ~18% Muslim, ~1.9% Christian, ~1.6% Druze."

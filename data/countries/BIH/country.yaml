@@ -108,7 +108,7 @@ sources:
     url: "https://www.venice.coe.int/webforms/documents/?pdf=CDL(2000)054-e"
     year: 1994
     accessedDate: "2026-09-20"
-    note: "Article 6 as amended establishes Bosnian, Croatian and Serbian as the official languages of the Federation of BiH, with Latin and Cyrillic as official scripts — the state's language regime."
+    note: "Article 6 as amended establishes Bosnian, Croatian and Serbian as the official languages of the Federation of BiH entity specifically, with Latin and Cyrillic as official scripts. The Dayton state-level constitution does not itself name official languages -- language status is devolved to the two entities (this Federation constitution and Republika Srpska's own); this dataset treats all three as the country's official languages by convention, since together the two entity constitutions cover the whole country."
   - id: bih-census-2013
     name: "Popis 2013 (Census 2013): Ethnic/national composition and mother tongue"
     publisher: "Agencija za statistiku BiH (Agency for Statistics of Bosnia and Herzegovina)"

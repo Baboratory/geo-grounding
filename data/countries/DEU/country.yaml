@@ -154,9 +154,9 @@ distinct-regions:
 sources:
   - id: bmi-minority-languages
     name: "National Minorities and Minority and Regional Languages in Germany"
-    publisher: "Federal Ministry of the Interior and Community (BMI)"
+    publisher: "deutschland.de (Federal Government's foreign-audience portal), interviewing the Federal Government Commissioner for National Minorities"
     url: "https://www.deutschland.de/en/topic/politics/germany-europe/regional-and-minority-languages-in-germany"
-    year: 2016
+    year: 2014
     accessedDate: "2026-09-20"
     note: "Basis for German being the state's standard official/administrative language, and for the recognition and territorial scope of the four autochthonous national minorities (Danish, Frisian, Sorbian, Sinti and Roma) and their languages plus Low German as a regional language. Resident-speaker shares are stated here as rough estimates, as Germany collects no mother-tongue or ethnicity census data."
   - id: eurobarometer-languages-2024
@@ -168,7 +168,7 @@ sources:
     note: "Self-reported foreign-language ability in Germany: French ~16% and Spanish ~8%. The English figure is taken separately from the 2023 microcensus/language estimate given the country's very high English proficiency."
   - id: languages-of-germany-2023
     name: "Languages of Germany (2023 microcensus-derived speaker estimates)"
-    publisher: "Federal Statistical Office of Germany (Destatis), via languages of Germany overview"
+    publisher: "Wikipedia (secondary source; primary: Federal Statistical Office of Germany, Destatis)"
     url: "https://en.wikipedia.org/wiki/Languages_of_Germany"
     year: 2023
     accessedDate: "2026-09-20"

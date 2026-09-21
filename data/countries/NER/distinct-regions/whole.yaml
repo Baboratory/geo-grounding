@@ -59,13 +59,13 @@ sports:
 religions:
   - name: Muslim
     percent: 99.0
-    sourceId: cia-factbook-2023
+    sourceId: ner-religion-2012
   - name: Christian
     percent: 0.5
-    sourceId: cia-factbook-2023
+    sourceId: ner-religion-2012
   - name: Traditional animist beliefs
     percent: 0.5
-    sourceId: cia-factbook-2023
+    sourceId: ner-religion-2012
 entertainment:
   - season: dry
     items:
@@ -107,10 +107,16 @@ businessRhythm:
 sources:
   - id: cia-factbook-2023
     name: "Niger - The World Factbook (2023 edition)"
-    publisher: "CIA World Factbook, open continuation (worldfactbook.co)"
+    publisher: "worldfactbook.co (independent third-party aggregator, not the CIA itself)"
     url: "https://worldfactbook.co/country.php?slug=niger"
     accessedDate: "2026-09-19"
-    note: "Religion and broad demographic context used in this file."
+    note: "Religion and broad demographic context used in this file. Does not carry religion figures -- see ner-religion-2012 for those."
+  - id: ner-religion-2012
+    name: "Niger religious composition"
+    publisher: "Composite estimate (Niger's 2012 census reported 99.3% Muslim; commonly cited secondary figure)"
+    url: "https://en.wikipedia.org/wiki/Religion_in_Niger"
+    accessedDate: "2026-09-19"
+    note: "Niger's 2012 national census recorded 99.3% Muslim self-identification, the basis for the ~99% figure used in this file's religions block."
   - id: unesco-whs-niger
     name: "Niger - Properties inscribed on the World Heritage List"
     publisher: "UNESCO World Heritage Centre"

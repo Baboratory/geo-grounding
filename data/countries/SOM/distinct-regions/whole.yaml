@@ -22,7 +22,7 @@ landmarks:
   - name: Liido Beach, Mogadishu
     description: "Mogadishu's best-known white-sand public beach, a popular weekend gathering spot on the Indian Ocean shore."
   - name: Laas Geel rock art
-    description: "Extraordinary neolithic rock paintings of decorated cattle and herders at the foot of granite outcrops near Hargeisa, about 5,000 years old — the Horn of Africa's oldest known rock-art site. On UNESCO's Tentative List because Somalia has not ratified the 1972 World Heritage Convention, so it is NOT an inscribed World Heritage Site."
+    description: "Extraordinary neolithic rock paintings of decorated cattle and herders at the foot of granite outcrops near Hargeisa, about 5,000 years old — the Horn of Africa's oldest known rock-art site. Not an inscribed UNESCO World Heritage Site, and not currently on Somalia's Tentative List (Somalia ratified the 1972 Convention on 23 July 2020; its Tentative List instead names Bushbushle National Park, the Hobyo grass and Shrubland, and the Mogadishu Secondo-Lido Lighthouse)."
     unescoWorldHeritage: false
 culturalTraits:
   - "Clan (tol) and extended-family kinship underpin social identity, with elders (odayaal) as respected arbiters and brokers"
@@ -134,4 +134,4 @@ sources:
     url: "https://whc.unesco.org/en/statesparties/so"
     year: 2026
     accessedDate: "2026-09-19"
-    note: "Somalia has no inscribed UNESCO World Heritage Site (it has not ratified the 1972 Convention); Laas Geel is a candidate only, hence unescoWorldHeritage: false."
+    note: "Somalia has no inscribed UNESCO World Heritage Site, though it ratified the 1972 Convention on 23 July 2020; Laas Geel is not currently on Somalia's Tentative List, hence unescoWorldHeritage: false."

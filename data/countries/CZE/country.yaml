@@ -57,20 +57,31 @@ languageUsage:
     speakersShare: 0.0004
     sourceId: cz-census-2021
 ethnicGroups:
+  # 2021 census DOES record ethnicity directly (a voluntary question, 31.6%
+  # not answered); these are shares of those who answered, not mother-tongue
+  # figures (that separate 92.1% Czech figure lives under languageUsage).
   - group: Czechs
-    percent: 92.1
+    percent: 83.8
     sourceId: cz-census-2021
-  - group: Moravians (recorded separately in the census)
-    percent: 0.5
+  - group: Moravians
+    percent: 5.0
     sourceId: cz-census-2021
   - group: Slovaks
-    percent: 0.9
+    percent: 1.3
     sourceId: cz-census-2021
-# The remaining ~6% of the population who answered the ethnicity question is
-# split across many small groups (Ukrainians since 2022, Romani, other EU
-# nationals, Vietnamese, Chinese, etc.); none exceeds ~0.5%. Note that recent
-# Ukrainian refugees are recorded separately from ethnic Czechs in migration
-# statistics and are not yet reflected as an ethnic group in census totals.
+  - group: Ukrainians
+    percent: 1.1
+    sourceId: cz-census-2021
+  - group: Silesians
+    percent: 0.2
+    sourceId: cz-census-2021
+  - group: Vietnamese
+    percent: 0.4
+    sourceId: cz-census-2021
+# The remaining share is split across many smaller ethnicities and multi-
+# ethnicity combinations (Czech-Moravian, Czech-Slovak, Czech-Romany,
+# Czech-German, etc., recorded separately by the census as combinations)
+# and those who declined to answer.
 timezones:
   - name: Europe/Prague
     standardUtcOffset: "UTC+1"
@@ -122,12 +133,12 @@ distinct-regions:
     file: distinct-regions/whole.yaml
 sources:
   - id: cz-state-language-act-292-2020
-    name: "Act No. 292/2020 Coll., on the State Language of the Czech Republic (Zákon o státním jazyku)"
-    publisher: "Ministry of the Interior of the Czech Republic (e-Sbírka legislation portal)"
-    url: "https://e-sbirka.gov.cz/sb/2020/292"
-    year: 2020
+    name: "Czech as the de facto official language -- Administrative Procedure Code (Act No. 500/2004 Coll.) and the Charter of Fundamental Rights and Freedoms"
+    publisher: "Wikipedia (secondary source; primary: Act No. 500/2004 Coll., Charter of Fundamental Rights and Freedoms, Art. 25)"
+    url: "https://en.wikipedia.org/wiki/Minority_languages_of_the_Czech_Republic"
+    year: 2004
     accessedDate: "2026-09-20"
-    note: "The legal basis establishing Czech as the country's official (state) language and governing its use in public administration and public life."
+    note: "Czechia has never enacted a dedicated state-language act; Czech's official status is de facto, established through its use as the language of public administration under the Administrative Procedure Code, with Charter Art. 25 separately guaranteeing minorities the right to communicate with authorities in their own language. (An earlier citation here, 'Act No. 292/2020 Coll.', was a State Electoral Commission notice of municipal by-election results with no connection to language -- corrected after an external audit caught the mismatch.)"
   - id: eurobarometer-languages-2024
     name: "Special Eurobarometer: Europeans and their Languages (May 2024 wave)"
     publisher: "European Commission (Eurobarometer)"
@@ -138,10 +149,10 @@ sources:
   - id: cz-census-2021
     name: "Sčítání 2021 (Census 2021): Population by mother tongue, nationality and use of regional/minority languages"
     publisher: "Český statistický úřad (Czech Statistical Office)"
-    url: "https://www.czso.cz/csu/czso/censy-2021"
+    url: "https://www.scitani.gov.cz/results"
     year: 2021
     accessedDate: "2026-09-20"
-    note: "Mother-tongue shares: Czech 92.1%, Slovak 1.9%, and smaller minority mother tongues (Polish, German, Romani). Ethnicity is not recorded directly in the census; these figures reflect declared mother tongue, which is the closest published proxy."
+    note: "Mother-tongue shares (basis for languageUsage): Czech 92.1%, Slovak 1.9%, and smaller minority mother tongues (Polish, German, Romani). The census separately records ethnicity directly as a voluntary question (basis for ethnicGroups): Czech 83.8%, Moravian 5.0%, Slovak 1.3%, Ukrainian 1.1%, Silesian 0.2%, Vietnamese 0.4% of respondents (31.6% did not answer)."
   - id: cnb-payments-2024
     name: "Czech National Bank: Statistics on retail payment services"
     publisher: "Česká národní banka (Czech National Bank)"

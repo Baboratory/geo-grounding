@@ -132,7 +132,7 @@ sources:
     note: "Guinea-Bissau uses the West African CFA franc (XOF), issued by the BCEAO; symbol FCFA."
   - id: gnb-data-protection
     name: "Data protection in Guinea-Bissau (no national law)"
-    publisher: "ALT Advisory / HLC Data Protection Africa"
+    publisher: "Levellers.ai (quoting ALT Advisory / Data Protection Africa's fact sheet)"
     url: "https://levellers.ai/what-is/ai-regulation-guinea-bissau"
     year: 2024
     accessedDate: "2026-09-19"

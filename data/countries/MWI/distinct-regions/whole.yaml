@@ -130,7 +130,7 @@ businessRhythm:
 sources:
   - id: mwi-region-census
     name: "2018 Population and Housing Census — religious affiliation"
-    publisher: "National Statistical Office of Malawi (NSO)"
+    publisher: "Wikipedia (secondary source; primary: National Statistical Office of Malawi, 2018 census)"
     url: "https://en.wikipedia.org/wiki/2018_census_of_Malawi"
     year: 2018
     accessedDate: "2026-09-19"

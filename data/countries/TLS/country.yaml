@@ -137,8 +137,8 @@ sources:
     note: "Art 1 declares a democratic, sovereign, independent, unitary state; Art 2(4) obliges the State to recognise and value the norms and customs of East Timor (customary law recognition)."
   - id: tls-census-2015-lang
     name: "Timor-Leste Population and Housing Census 2015 (mother tongue and literacy), Highlights"
-    publisher: "National Statistics Directorate, General Directorate of Statistics, Timor-Leste"
-    url: "https://www.laohamutuk.org/DVD/2019/WBTLEROct2019.pdf"
+    publisher: "World Bank (secondary source, reproducing 2015 census figures; primary: National Statistics Directorate, Timor-Leste)"
+    url: "https://documents1.worldbank.org/curated/en/243491576005113080/pdf/Timor-Leste-Economic-Report-Unleashing-the-Private-Sector.pdf"
     year: 2015
     accessedDate: "2026-09-18"
     note: "Mother-tongue and literacy estimates: Tetum functional majority ~0.90; Mambai ~16%; Bunak ~5.5%; Indonesian (working language) ~45%; English ~20%; Portuguese as L2 ~35%. Figures are ESTIMATEs (census literacy rates proxied; no clean speaker proportions published)."

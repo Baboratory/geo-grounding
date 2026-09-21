@@ -110,7 +110,7 @@ distinct-regions:
 sources:
   - id: ro-constitution-art-13
     name: "Constituția României, Articolul 13 (official language)"
-    publisher: "Camera Deputaților / Președinția României (constitutional text)"
+    publisher: "Președinția României (constitutional text)"
     url: "https://www.presidency.ro/en/the-constitution"
     accessedDate: "2026-09-20"
     note: "Article 13 provides that in Romania the official language is Romanian, and that other languages used by ethnic minorities are recognized and guaranteed."

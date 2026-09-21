@@ -27,7 +27,7 @@ languageUsage:
   - languageCode: tsn
     domain: official
     speakersShare: 1.0
-    sourceId: statsbots-2001-lang
+    sourceId: gov-bw-constitution
   - languageCode: eng
     domain: official
     speakersShare: 1.0
@@ -97,8 +97,8 @@ legalConstraints:
     description: "The government conducts no national census of ethnicity; religious affiliation was collected in the 2022 Population and Housing Census. Data-collection-sensitive figures (ethnic shares) rely on secondary estimates."
     sourceId: statsbots-2022-phc
   - topic: "diamond sector"
-    description: "Diamond mining is tightly regulated; a long-standing partnership with De Beers (Debswana, 50/50 JV) governs the major mines in Serowe and its counterparts, with the Government holding a large equity stake."
-    sourceId: bank-of-botswana-currency
+    description: "Diamond mining is tightly regulated; a long-standing partnership with De Beers (Debswana, 50/50 JV) governs the major mines (Orapa, Letlhakane, Jwaneng, Damtshaa), with the Government holding a large equity stake."
+    sourceId: debswana-jv
 paymentCulture:
   popularMethods:
     - "Cash — still dominant, especially in rural and semi-rural areas"
@@ -165,3 +165,10 @@ sources:
     year: 2024
     accessedDate: "2026-09-19"
     note: "The Pula (BWP, 100 thebe) is issued by the Bank of Botswana since 1976."
+  - id: debswana-jv
+    name: "Debswana — 50/50 diamond-mining joint venture"
+    publisher: "Wikipedia (secondary source; primary: Debswana Diamond Company)"
+    url: "https://en.wikipedia.org/wiki/Debswana"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Debswana is a 50/50 joint venture between the Government of Botswana and De Beers Group, operating the Orapa, Letlhakane, Jwaneng and Damtshaa diamond mines."

@@ -51,30 +51,40 @@ languageUsage:
 # (Banda, Mandjia, Sara, Mbaka) anchor their respective communities. Shares are
 # composite estimates.
 ethnicGroups:
-  # CIA World Factbook, 2003 est.
-  - group: Gbaya
-    percent: 33.0
+  # CIA World Factbook, 2003 est. (corrected to match what cwf-ethnic
+  # actually carries).
+  - group: Baya
+    percent: 28.8
     sourceId: cwf-ethnic
   - group: Banda
-    percent: 27.0
+    percent: 22.9
     sourceId: cwf-ethnic
   - group: Mandjia
-    percent: 13.0
+    percent: 9.9
     sourceId: cwf-ethnic
   - group: Sara
-    percent: 10.0
+    percent: 7.9
     sourceId: cwf-ethnic
-  - group: Mboum
-    percent: 7.0
+  - group: M'Baka-Bantu
+    percent: 7.9
     sourceId: cwf-ethnic
-  - group: M'baka
-    percent: 4.0
+  - group: Arab-Fulani (Peul)
+    percent: 6.0
     sourceId: cwf-ethnic
-  - group: Yakoma
-    percent: 4.0
+  - group: Mbum
+    percent: 6.0
     sourceId: cwf-ethnic
-  - group: Other (incl. Baka/pygmy forest peoples)
+  - group: Ngbanki
+    percent: 5.5
+    sourceId: cwf-ethnic
+  - group: Zande-Nzakara
+    percent: 3.0
+    sourceId: cwf-ethnic
+  - group: Other Central African Republic ethnic groups
     percent: 2.0
+    sourceId: cwf-ethnic
+  - group: Non-Central African Republic ethnic groups
+    percent: 0.1
     sourceId: cwf-ethnic
 timezones:
   - name: Africa/Bangui

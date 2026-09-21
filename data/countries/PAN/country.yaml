@@ -8,7 +8,7 @@ name:
 flagEmoji: "🇵🇦"
 capital: Panama City (Ciudad de Panamá)
 isSovereign: true
-# Classified unitary-large: Panama is a unitary republic of ~4.5M (2023 census)
+# Classified unitary-large: Panama is a unitary republic of ~4.06M (2023 census: 4,064,780)
 # that is nonetheless clearly region-bearing under the DESIGN.md 2-of-3 test.
 # (1) Its constitution (Constitución Política, Art. 123) and organic comarca
 # laws formally recognise indigenous self-governing territories — six comarcas
@@ -39,27 +39,27 @@ languageUsage:
     sourceId: pan-inec-census
   - languageCode: gym
     domain: locallySpoken
-    speakersShare: 0.099
+    speakersShare: 0.109
     sourceId: pan-inec-census
   - languageCode: cuk
     domain: locallySpoken
-    speakersShare: 0.025
+    speakersShare: 0.028
     sourceId: pan-inec-census
   - languageCode: emp
     domain: locallySpoken
-    speakersShare: 0.012
+    speakersShare: 0.013
     sourceId: pan-inec-census
   - languageCode: sab
     domain: locallySpoken
-    speakersShare: 0.005
+    speakersShare: 0.006
     sourceId: pan-inec-census
   - languageCode: noa
     domain: locallySpoken
-    speakersShare: 0.002
+    speakersShare: 0.003
     sourceId: pan-inec-census
   - languageCode: tfr
     domain: locallySpoken
-    speakersShare: 0.001
+    speakersShare: 0.0017
     sourceId: pan-inec-census
   # Spanish is the sole de jure official national language and is spoken by the
   # vast majority. The indigenous languages below correspond to Panama's seven
@@ -76,25 +76,23 @@ languageUsage:
     speakersShare: 0.1
     sourceId: pan-inec-english
 ethnicGroups:
-  - group: Mestizo
-    percent: 65.0
+  # 2023 census (INEC) self-identification -- the census's own three
+  # published categories, not the pre-2023 mestizo/Black/White breakdown.
+  - group: Non-indigenous, non-Afro-descendant
+    percent: 51.1
+    sourceId: pan-inec-census
+  - group: Afro-Panamanian (Black or African descent)
+    percent: 31.7
     sourceId: pan-inec-census
   - group: Indigenous peoples (Ngäbe, Guna, Emberá, Bugle, Woun Meu, Teribe, Bribri, Bokota)
     percent: 17.2
     sourceId: pan-inec-census
-  - group: Black / Afro-Panamanian
-    percent: 9.2
-    sourceId: pan-inec-census
-  - group: White
-    percent: 6.7
-    sourceId: pan-inec-census
-  - group: Other / mixed (mestizaje variations, Asian and other)
-    percent: 1.9
-    sourceId: pan-inec-census
-# Self-identification in the 2023 national census (INEC): ~65% mestizo, ~17.2%
-# indigenous (698,114 people across seven recognised peoples), ~9.2% Black /
-# Afro-Panamanian, ~6.7% white, remainder other. Figures are approximate
-# self-identification results and do not sum exactly.
+# Self-identification in the 2023 national census (INEC): the census's own
+# three published categories are non-indigenous/non-Afro-descendant 51.1%,
+# Afro-Panamanian 31.7%, and indigenous 17.2% (698,114 people across seven
+# recognised peoples). Earlier drafts of this file used an older
+# mestizo/Black/White breakdown that the 2023 census doesn't publish;
+# corrected to the actual census categories.
 timezones:
   - name: America/Panama
     standardUtcOffset: "UTC-5"
@@ -162,10 +160,10 @@ sources:
     url: "https://www.inec.gob.pa/"
     year: 2023
     accessedDate: "2026-09-19"
-    note: "2023 census results: 698,114 indigenous people (17.2% of ~4.5M population) across seven recognised peoples; Ngäbe ~444,878, Guna ~112,319, Emberá ~51,657, Bugle ~24,488, Woun Meu ~10,634, Teribe/Naso ~6,899, Bribri ~799. Basis for ethnicGroups percentages and the approximate indigenous first-language locallySpoken shares."
+    note: "2023 census results: 698,114 indigenous people (17.2% of 4,064,780 population) across seven recognised peoples; Ngäbe ~444,878, Guna ~112,319, Emberá ~51,657, Bugle ~24,488, Woun Meu ~10,634, Teribe/Naso ~6,899, Bribri ~799. Basis for ethnicGroups percentages and the approximate indigenous first-language locallySpoken shares."
   - id: pan-inec-english
     name: "English / bilingual usage in the metropolitan and canal zone (estimate)"
-    publisher: "Composite estimate"
+    publisher: "Composite estimate (no official census figure exists; directional estimate based on the Canal-era English-education legacy)"
     url: "https://www.inec.gob.pa/"
     year: 2023
     accessedDate: "2026-09-19"
@@ -179,8 +177,8 @@ sources:
     note: "Establishes the US-dollar-pegged monetary system: the balboa exists at 1:1 with the US dollar and no central bank or issuing institution may print local paper currency (US bills circulate as legal tender alongside balboa coins). Basis for the dollarization legal constraint and currency note."
   - id: pan-consumer-law
     name: "Ley 45 de 2007 (protección al consumidor) and Ley 56 de 2007 / ITBMS 7%"
-    publisher: "Asamblea Nacional de Panamá; ACODECO"
-    url: "https://www.sijusa.com/wp-content/uploads/2022/05/L_45_2007.pdf"
+    publisher: "Gaceta Oficial de la República de Panamá"
+    url: "https://www.gacetaoficial.gob.pa/storage/gacetas/2007/11/25914/7277.pdf"
     year: 2007
     accessedDate: "2026-09-19"
     note: "Autoridad de Protección al Consumidor (ACODECO) law; ITBMS (Impuesto de Transferencia de Bienes y Servicios) standard rate is 7% in force since 1 July 2010. Basis for the consumer-protection/price-display legal constraint."

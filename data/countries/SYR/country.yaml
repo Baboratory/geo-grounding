@@ -108,12 +108,12 @@ distinct-regions:
     adminUnitCodes: [SY-LA]
 sources:
   - id: syr-constitution-art4
-    name: "Constitution of the Syrian Arab Republic, Article 4"
-    publisher: "Government of the Syrian Arab Republic"
-    url: "https://www.ilo.org/wcmsp5/groups/public/---ed_protect/---protrav/---ilo_aids/documents/legaldocument/wcms_125903.pdf"
-    year: 2012
+    name: "Constitutional Declaration of the Syrian Arab Republic (13 March 2025), Article 4"
+    publisher: "ConstitutionNet (hosting the official English translation)"
+    url: "https://constitutionnet.org/sites/default/files/2025-03/2025.03.13%20-%20Constitutional%20declaration%20(English).pdf"
+    year: 2025
     accessedDate: "2026-09-20"
-    note: "The official language of the state is Arabic."
+    note: "Article 4 ('Official language') establishes Arabic as the official language of the state. This is the current governing instrument -- the 2012 Ba'athist constitution previously cited here was repealed after the December 2024 transition."
   - id: syr-cia-people
     name: "CIA World Factbook — Syria (people and society)"
     publisher: "CIA World Factbook"

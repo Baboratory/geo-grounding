@@ -123,11 +123,11 @@ distinct-regions:
     file: distinct-regions/whole.yaml
 sources:
   - id: dutch-constitution-art-3
-    name: "Grondwet voor het Koninkrijk der Nederlanden, Art. 3 (official language)"
+    name: "Dutch as the de facto official language -- Wet gebruik Friese taal (Frisian) and BES public-entity language provisions"
     publisher: "Government of the Netherlands (wetten.overheid.nl)"
     url: "https://wetten.overheid.nl/BWBR0001840"
     accessedDate: "2026-09-20"
-    note: "Article 3 of the Constitution provides that the Dutch language is the official language of the Netherlands, and that Acts and regulations may also be made in Frisian in the province of Friesland and in Papiamentu/English in the Caribbean public entities."
+    note: "The Grondwet itself does not designate an official language -- its Article 3 is actually about equal eligibility for public service, not language (an earlier citation here mistakenly attributed the official-language claim to Article 3). Dutch's official status is de facto; Frisian's co-official status in Friesland rests on the separate Wet gebruik Friese taal (2014), and Papiamentu/English's status in the Caribbean public entities rests on the BES public-entity acts."
   - id: nl-cbs-mother-tongue
     name: "Statistics Netherlands (CBS): Dutch and minority languages by mother tongue"
     publisher: "Centraal Bureau voor de Statistiek (Statistics Netherlands)"

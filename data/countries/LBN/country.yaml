@@ -24,7 +24,7 @@ languageUsage:
   - languageCode: ara
     domain: locallySpoken
     speakersShare: 0.95
-    sourceId: lb-constitution-art11
+    sourceId: lb-britannica
   - languageCode: fra
     domain: locallySpoken
     speakersShare: 0.4
@@ -37,14 +37,10 @@ languageUsage:
     domain: locallySpoken
     speakersShare: 0.04
     sourceId: lb-britannica
-  - languageCode: eng
-    domain: foreign
-    speakersShare: 0.3
-    sourceId: lb-britannica
-  - languageCode: fra
-    domain: foreign
-    speakersShare: 0.4
-    sourceId: lb-britannica
+# French and English were previously also listed under domain: foreign with
+# the same values as their locallySpoken rows above -- a duplication, since
+# in Lebanon both function as widely-used local community/second languages
+# rather than purely learned foreign ones; removed the redundant foreign rows.
 ethnicGroups:
   - group: Arab
     percent: 95.0
@@ -54,7 +50,7 @@ ethnicGroups:
     sourceId: lb-britannica
   - group: "Other (Kurdish, Assyrian, Syriac-speaking Christians, etc.)"
     percent: 1.0
-    sourceId: lb-state-religion
+    sourceId: lb-britannica
 timezones:
   - name: Asia/Beirut
     standardUtcOffset: "UTC+2"
@@ -131,7 +127,7 @@ sources:
     url: "https://www.britannica.com/place/Lebanon"
     year: 2026
     accessedDate: "2026-09-20"
-    note: "Confirms a unitary multiparty republic, population (2026 est.) ~5.8 million, capital Beirut, Arabic as the official language, and French/English/Armenian/Kurdish among the spoken languages; ethnic mix of Phoenician, Greek, Armenian and Arab elements."
+    note: "Confirms a unitary multiparty republic, population (2026 est.) ~5.8 million, capital Beirut, Arabic as the official language, and French/English/Armenian/Kurdish among the spoken languages (as a qualitative list, without percentages); ethnic mix of Phoenician, Greek, Armenian and Arab elements. The specific percentages attached to this source (Arabic ~95% locally spoken, French 40%, English 30%, Armenian 4%, Arab 95% ethnic) are disclosed ESTIMATEs built from this qualitative context and general country-profile knowledge, not figures Britannica itself states numerically."
   - id: lb-law81-2018
     name: "Law No. 81/2018 on Electronic Transactions and Personal Data (Lebanon)"
     publisher: "Lebanese Official Gazette (English translation hosted by SMEX)"

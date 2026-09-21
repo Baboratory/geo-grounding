@@ -123,9 +123,9 @@ sources:
     accessedDate: "2026-09-19"
     note: "Tunisian government figure to OIF: ~6.32M francophones = ~52% of the population (2022), almost all as a second language. Basis for the fra foreign-domain share (0.52)."
   - id: tun-constitution
-    name: "Constitution of Tunisia (2014; amended 2022) — official language provisions"
+    name: "Constitution of Tunisia (2022) — official language provisions"
     publisher: "Constitute Project (comparative constitutions)"
-    url: "https://constituteproject.org/constitution/Tunisia_2014"
+    url: "https://constituteproject.org/constitution/Tunisia_2022"
     year: 2022
     accessedDate: "2026-09-19"
     note: "Legal basis for Arabic as the sole official language and the religion-related provisions; governs the official-domain 1.0 row and the 'official language' legal constraint."

@@ -108,7 +108,7 @@ sources:
     url: "https://2021-2025.state.gov/reports/2016-report-on-international-religious-freedom/laos/"
     year: 2016
     accessedDate: "2026-09-20"
-    note: "Reports the 2015 census religion data and the ethnic Lao share (53.2%). Basis for the ~80% locally-spoken Lao share, reflecting Lao as first language of the ethnic Lao majority and lingua franca of most minorities."
+    note: "Reports the 2015 census religion data and the ethnic Lao share (53.2%); does not itself state a Lao-speaker percentage. The ~80% locally-spoken Lao share is a disclosed ESTIMATE (this dataset's own inference that Lao, as first language of the ethnic Lao majority and lingua franca of most minorities, is spoken well beyond the 53.2% ethnic-Lao share), not a figure the report states."
   - id: sil
     name: "ISO 639-3 — Lao [lao], Khmu [kjg], Hmong [hmn]"
     publisher: "SIL International"
@@ -153,8 +153,8 @@ sources:
     note: "Central bank; the Lao kip (LAK) is the sole legal tender."
   - id: composite
     name: "Composite estimate (IANA time-zone data, climate references, tourism and cultural context)"
-    publisher: "Composite estimate"
+    publisher: "Composite estimate -- no institution or survey is named for the English-share figure specifically; the IANA link only supports the timezone claim"
     url: "https://www.iana.org/time-zones"
     year: 2025
     accessedDate: "2026-09-20"
-    note: "Asia/Vientiane is UTC+7 with no DST (IANA). The ~4% English foreign-language share is a rough estimate of English's limited everyday role (mainly tourism and some business), not an official statistic."
+    note: "Asia/Vientiane is UTC+7 with no DST (IANA, the only claim this URL actually supports). The ~4% English foreign-language share is a disclosed rough ESTIMATE of English's limited everyday role (mainly tourism and some business), with no official statistic or named survey behind it."
