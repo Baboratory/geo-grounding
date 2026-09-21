@@ -1,0 +1,172 @@
+alpha3: BHR
+alpha2: BH
+name:
+  eng: Bahrain
+  local:
+    - languageCode: arb
+      value: البحرين
+flagEmoji: "🇧🇭"
+capital: Manama
+isSovereign: true
+# Classified unitary-small: Bahrain meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~1.5M (2020 census) — far below the 20-25M threshold.
+# (2) Arabic is the sole de jure official language; there is no recognized
+# regional/minority or co-official official language (Baharna Arabic 'abv' is an
+# indigenous vernacular, not a territorial official language). (3) No cultural-
+# historical federal/multi-region identity — the 4 governorates are purely
+# administrative. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: arb
+    domain: official
+    speakersShare: 1.0
+    sourceId: bhr-const-languages
+  - languageCode: abv
+    domain: locallySpoken
+    speakersShare: 0.3
+    sourceId: bhr-language-estimate
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.4
+    sourceId: bhr-language-estimate
+  - languageCode: hin
+    domain: locallySpoken
+    speakersShare: 0.15
+    sourceId: bhr-language-estimate
+  - languageCode: urd
+    domain: locallySpoken
+    speakersShare: 0.08
+    sourceId: bhr-language-estimate
+  - languageCode: tgl
+    domain: locallySpoken
+    speakersShare: 0.06
+    sourceId: bhr-language-estimate
+  - languageCode: pes
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: bhr-language-estimate
+  - languageCode: bal
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: bhr-language-estimate
+# Arabic is de jure the sole official language (Constitution of Bahrain 2002,
+# Art. 2). The indigenous everyday vernacular is Baharna Arabic (ISO 639-3 'abv'),
+# spoken by the native Shia population alongside Gulf Arabic. English is widely
+# used as a lingua franca in business, banking and among the expatriate majority
+# (~53% of residents are non-Bahraini) but is NOT official. No census collects
+# language data, so all locallySpoken shares are ESTIMATES.
+ethnicGroups:
+  # 2020 Census (Information & eGovernment Authority) and CIA World Factbook.
+  - group: Bahraini
+    percent: 47.4
+    sourceId: bhr-ethnicity
+  - group: Asian expatriates (Indian, Bangladeshi, Pakistani, Filipino, etc.)
+    percent: 43.4
+    sourceId: bhr-ethnicity
+  - group: Other Arab
+    percent: 4.9
+    sourceId: bhr-ethnicity
+  - group: African
+    percent: 1.4
+    sourceId: bhr-ethnicity
+  - group: North American
+    percent: 1.1
+    sourceId: bhr-ethnicity
+  - group: GCC nationals
+    percent: 0.9
+    sourceId: bhr-ethnicity
+  - group: European
+    percent: 0.8
+    sourceId: bhr-ethnicity
+  - group: Other
+    percent: 0.1
+    sourceId: bhr-ethnicity
+timezones:
+  - name: Asia/Bahrain
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: BHD
+  symbol: "BD"
+  name: Bahraini dinar
+legalConstraints:
+  - topic: "official language"
+    description: "Arabic is the de jure official language (Constitution of Bahrain 2002, Art. 2). English is widely used in business and banking but has no official status."
+    sourceId: bhr-const-languages
+  - topic: "state religion and content"
+    description: "Constitution Art. 2 declares Islam the state religion and Shari'a a main source of legislation. Freedom of religion is constitutionally protected and other faiths are tolerated, but public expression is subject to Islamic norms."
+    sourceId: bhr-legal-religion
+paymentCulture:
+  popularMethods:
+    - "Cash and cards both widely used; contactless cards and mobile/instant payments increasingly dominant"
+    - "BenefitPay — the national mobile/instant-payment rail"
+    - "Bank transfers and online banking (a major regional financial centre)"
+  tipping:
+    expected: false
+    typicalAmount: "~10% (often a service charge is added)"
+    autoIncludedInBill: true
+    note: "A service charge of ~10% is commonly added to restaurant bills; where not added, a ~10% tip or rounding up is customary for good service. Tipping is not obligatory."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Formal and relationship-first. Business is conducted face-to-face with emphasis on personal trust and mutual acquaintance. Respect for age, title and seniority matters."
+  greetingNorms: "Greet with 'As-salamu alaykum'; a handshake (right hand) follows. Hospitality — Arabic coffee (gahwa) and dates — is culturally central."
+  meetingEtiquette: "Relationships precede transactions; expect small talk and negotiation that is indirect and avoids blunt confrontation. Decisions often rest with senior leadership."
+  topicsToAvoid:
+    - "Criticism of the royal family (the Al Khalifa dynasty) or domestic politics"
+    - "Religious sectarian tensions (Shia/Sunni)"
+    - "Sensitive regional politics"
+  giftGivingNotes: "A modest, quality gift is welcome once a relationship forms; avoid alcohol and pork products. Present and receive with the right hand."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: bhr-const-languages
+    name: "Constitution of the Kingdom of Bahrain (2002), Arts. 1-2"
+    publisher: "Kingdom of Bahrain"
+    url: "https://www.bna.bh/"
+    year: 2002
+    accessedDate: "2026-09-18"
+    note: "Art. 1: hereditary constitutional monarchy; Art. 2: Shari'a a main source of legislation and Arabic the official language. Basis for the arb official row at 1.0."
+  - id: bhr-population
+    name: "Bahrain 2020 Census (de jure)"
+    publisher: "Information & eGovernment Authority (IGA), Kingdom of Bahrain"
+    url: "https://www.iga.gov.bh/"
+    year: 2020
+    accessedDate: "2026-09-18"
+    note: "Total 1,501,635; Bahraini 47.4%, non-Bahraini 52.6%. Supports the unitary-small classification."
+  - id: bhr-ethnicity
+    name: "CIA World Factbook — Bahrain (ethnic composition, 2020 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/bahrain/"
+    year: 2020
+    accessedDate: "2026-09-18"
+    note: "Ethnic composition 2020 est.: Bahraini 47.4%, Asian 43.4%, other Arab 4.9%, African 1.4%, North American 1.1%, GCC 0.9%, European 0.8%, other 0.1%."
+  - id: bhr-legal-religion
+    name: "Constitution of the Kingdom of Bahrain (2002); 2023 IRF: Bahrain"
+    publisher: "Kingdom of Bahrain / U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/bahrain/"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "Islam the state religion (Const. Art. 2) while other faiths are constitutionally protected — basis for the 'state religion and content' legal note."
+  - id: bhr-language-estimate
+    name: "Language usage — composite estimate (no official census data)"
+    publisher: "Composite estimate (no census collects language data)"
+    url: "https://iso639-3.sil.org/"
+    accessedDate: "2026-09-18"
+    note: "LocallySpoken shares (abv, eng, hin, urd, tgl, pes, bal) are all ESTIMATES derived from the expatriate-majority population and general usage; ISO 639-3 codes verified on SIL."
+  - id: bhr-currency
+    name: "Bahraini dinar — monetary policy and exchange rates"
+    publisher: "Central Bank of Bahrain (CBB)"
+    url: "https://www.cbb.gov.bh/"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Bahraini dinar (BHD), symbol BD; pegged to the USD (0.376 BHD = US$1)."
+  - id: bhr-timezone
+    name: "Time in Bahrain (Asia/Bahrain) — IANA tz database"
+    publisher: "IANA time zone database"
+    url: "https://data.iana.org/time-zones/tzdb/zonenow.tab"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Asia/Bahrain = UTC+03:00 year-round; no DST (Gulf Standard Time)."

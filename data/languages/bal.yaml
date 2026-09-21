@@ -1,0 +1,8 @@
+code: bal
+name:
+  eng: Baluchi
+  local: بلوچی
+# Baluchi (ISO 639-3 macrolanguage 'bal') is spoken by expatriate Baloch workers
+# in the Gulf and by the Baloch minority in Iran/Pakistan. No verified common
+# phrase set was available for the Gulf context, so commonPhrases is omitted to
+# avoid unverified phrases.

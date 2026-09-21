@@ -1,0 +1,184 @@
+alpha3: QAT
+alpha2: QA
+name:
+  eng: Qatar
+  local:
+    - languageCode: arb
+      value: قطر
+flagEmoji: "🇶🇦"
+capital: Doha
+isSovereign: true
+# Classified unitary-small: Qatar meets NONE of the 3 DESIGN.md unitary-large
+# criteria. (1) Population ~3.2M (2025; population ~2.85M at the 2020 census),
+# of which only ~11-12% are Qatari citizens — far below the 20-25M threshold.
+# (2) Arabic is the sole de jure official language with no co-official or
+# recognized regional/minority official languages. (3) No cultural-historical
+# federal/multi-region identity — the 8 municipalities (baladiyah) are purely
+# administrative. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: arb
+    domain: official
+    speakersShare: 1.0
+    sourceId: qat-const-languages
+  - languageCode: arb
+    domain: locallySpoken
+    speakersShare: 0.3
+    sourceId: qat-language-estimate
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.8
+    sourceId: qat-language-estimate
+  - languageCode: hin
+    domain: locallySpoken
+    speakersShare: 0.25
+    sourceId: qat-language-estimate
+  - languageCode: mal
+    domain: locallySpoken
+    speakersShare: 0.15
+    sourceId: qat-language-estimate
+  - languageCode: nep
+    domain: locallySpoken
+    speakersShare: 0.16
+    sourceId: qat-language-estimate
+  - languageCode: ben
+    domain: locallySpoken
+    speakersShare: 0.13
+    sourceId: qat-language-estimate
+  - languageCode: tgl
+    domain: locallySpoken
+    speakersShare: 0.11
+    sourceId: qat-language-estimate
+  - languageCode: tam
+    domain: locallySpoken
+    speakersShare: 0.15
+    sourceId: qat-language-estimate
+  - languageCode: urd
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: qat-language-estimate
+# Arabic is de jure the sole official language (Constitution of Qatar 2004,
+# Art. 1); the spoken Gulf dialect 'afb' is the colloquial of citizens. English is
+# NOT de jure official but is the de facto lingua franca of business, education,
+# administration and expatriate life. With ~88-89% of residents being expatriates,
+# a large share speak South/Southeast Asian languages (Hindi, Malayalam, Nepali,
+# Bengali, Tamil, Tagalog, Urdu). No official census collects language-proficiency
+# data, so all locallySpoken shares are ESTIMATES (English and Arabic understood
+# more widely than home-use figures).
+ethnicGroups:
+  # US State Dept (2023 IRF) and CIA World Factbook: citizens ~11-12% of the
+  # ~3M+ population; nationality-origin shares are approximate and drift across
+  # censuses/years.
+  - group: Qataris (native citizens)
+    percent: 12.0
+    sourceId: qat-ethnicity
+  - group: Other Arabs (Egyptian, Levantine, Sudanese, Gulf)
+    percent: 37.0
+    sourceId: qat-ethnicity
+  - group: South Asians (Indian, Bangladeshi, Pakistani, Sri Lankan, Nepali)
+    percent: 43.0
+    sourceId: qat-ethnicity
+  - group: Filipino and other Southeast Asian / rest of world
+    percent: 8.0
+    sourceId: qat-ethnicity
+timezones:
+  - name: Asia/Qatar
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: QAR
+  symbol: "QR"
+  name: Qatari riyal
+legalConstraints:
+  - topic: "official language"
+    description: "Arabic is the sole official language (Constitution of Qatar 2004, Art. 1); the Emir and officials conduct business in Arabic. English is widely used in business and international commerce but has no constitutional official status."
+    sourceId: qat-const-languages
+  - topic: "state religion and content"
+    description: "Constitution Art. 1 declares Islam the state religion and Shari'a a main source of legislation. Qatari law criminalises offending Islam and prohibits proselytising for any faith other than Islam; alcohol is legally available only in licensed hotels and premises. Relevant for marketing/communication content."
+    sourceId: qat-legal-religion
+  - topic: "personal data protection"
+    description: "Law No. 13 of 2016 on the Protection of Personal Data (PDPL), as amended (2021/2022), governs the collection and processing of personal data of data subjects in Qatar, requiring consent with stated purpose and granting access/correction/erasure rights."
+    sourceId: qat-pdpl
+paymentCulture:
+  popularMethods:
+    - "Payment cards (Visa, Mastercard; debit and credit) — dominant in hospitality/retail, contactless widely used"
+    - "Cash — still common for small purchases and tips"
+    - "QPay — Qatar Central Bank's national mobile-payment/QR switch"
+    - "Bank mobile apps and Apple Pay / Samsung Pay"
+  tipping:
+    expected: false
+    typicalAmount: "~10%"
+    autoIncludedInBill: true
+    note: "A ~10% service charge is commonly (and often automatically) added to restaurant bills; where not added, a ~10% tip is appreciated but not obligatory. Cash remains useful for small tips and taxis."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal and relationship-driven. Use honorifics and titles; address leaders with their title/'Sheikh'. Status and seniority matter; modesty and humility are valued."
+  greetingNorms: "Greet with 'As-salamu alaykum' followed by a handshake (right hand only; a woman should offer hers first). Warm, extended greetings with questions about family/health build rapport; guests are offered Arabic coffee (qahwa) and dates."
+  meetingEtiquette: "Punctuality is expected though meetings may begin with small talk and coffee. Business cards exchanged with the right hand. Decisions rest with the most senior person, so involve them early. Face-saving means 'no' is often phrased indirectly ('insha'Allah')."
+  topicsToAvoid:
+    - "Criticism of Islam or religious matters"
+    - "The ruling Al Thani family and domestic politics"
+    - "Sensitive regional and sectarian politics"
+    - "Public references to alcohol; asking about family privacy"
+  giftGivingNotes: "A modest, quality gift is welcome once a relationship forms; avoid alcohol and pork products (sweets, dates or quality pens are safe). Present and receive with the right hand. Never gift on first meeting if it could feel like a bribe."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: qat-const-languages
+    name: "Constitution of the State of Qatar (2004), Art. 1"
+    publisher: "Government of the State of Qatar"
+    url: "https://www.gco.gov.qa/en/copy_of_constitution/Pages/default.aspx"
+    year: 2004
+    accessedDate: "2026-09-18"
+    note: "Art. 1: 'The Arabic Language shall be its official language.' Basis for the arb official row at 1.0 and the official-language legal note."
+  - id: qat-population
+    name: "Qatar population statistics (2020 census; monthly PSA/NPC figures)"
+    publisher: "Planning and Statistics Authority, Qatar (PSA)"
+    url: "https://www.psa.gov.qa/"
+    year: 2020
+    accessedDate: "2026-09-18"
+    note: "2020 census 2,846,118; end-2025 total ~3.21M. Supports the unitary-small classification (~88-89% expatriate)."
+  - id: qat-ethnicity
+    name: "CIA World Factbook — Qatar (ethnic composition); US State Dept 2023 IRF"
+    publisher: "CIA World Factbook / U.S. Department of State"
+    url: "https://www.cia.gov/the-world-factbook/countries/qatar/"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "Citizens ~11-12% (State Dept 2023); Arabs ~49% total (incl. Qataris); South Asians ~43% (Indian ~21.8%, Bangladeshi ~12.5%, Pakistani ~4.7%, Sri Lankan ~4.4%); Filipino ~11%. Shares are approximate and drift across sources."
+  - id: qat-legal-religion
+    name: "Constitution of the State of Qatar (2004); 2023 Report on International Religious Freedom: Qatar"
+    publisher: "Government of Qatar / U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/qatar/"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "Islam the state religion (Const. Art. 1); blasphemy/proselytising law and alcohol licensing — basis for the 'state religion and content' legal note."
+  - id: qat-pdpl
+    name: "Law No. 13 of 2016 on the Protection of Personal Data (PDPL), as amended"
+    publisher: "Government of the State of Qatar"
+    url: "https://www.moci.gov.qa/"
+    year: 2016
+    accessedDate: "2026-09-18"
+    note: "National data-protection regime — basis for the 'personal data protection' legal note. National law, not GDPR."
+  - id: qat-language-estimate
+    name: "Language usage — composite estimate (no official census data)"
+    publisher: "Composite estimate (no official language-proficiency census exists)"
+    url: "https://www.psa.gov.qa/"
+    accessedDate: "2026-09-18"
+    note: "LocallySpoken shares (arb, eng, hin, mal, nep, ben, tgl, tam, urd) are all ESTIMATES derived from nationality-origin data and general usage; no official census collects language data."
+  - id: qat-currency
+    name: "Qatari riyal — money and banking"
+    publisher: "Qatar Central Bank"
+    url: "https://www.qcb.gov.qa/"
+    year: 2024
+    accessedDate: "2026-09-18"
+    note: "Qatari riyal (QAR), symbol QR; pegged to USD at 3.64 per Emiri Decree No. 34 of 2001."
+  - id: qat-timezone
+    name: "Time in Qatar (Asia/Qatar) — IANA tz database"
+    publisher: "IANA time zone database"
+    url: "https://data.iana.org/time-zones/tzdb/zonenow.tab"
+    year: 2026
+    accessedDate: "2026-09-18"
+    note: "Asia/Qatar = UTC+03:00 year-round; no DST (Gulf Standard Time)."

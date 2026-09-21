@@ -1,0 +1,7 @@
+code: afb
+name:
+  eng: Gulf Arabic
+  local: لهجة خليجية
+# Gulf Arabic (ISO 639-3 'afb', "Arabic, Gulf Spoken") is the colloquial Arabic of
+# the Arabian Gulf region, including the Kuwaiti dialect. No verified common-phrase
+# set was available, so commonPhrases is omitted to avoid unverified phrases.
