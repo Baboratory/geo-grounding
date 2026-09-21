@@ -1,0 +1,82 @@
+code: TH-10
+name:
+  eng: Bangkok (Krung Thep Maha Nakhon)
+  local:
+    - languageCode: tha
+      value: กรุงเทพมหานคร
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — hot year-round with a distinct wet (May-Oct) and drier, cooler season (Nov-Feb)."
+landmarks:
+  - name: Grand Palace and Wat Phra Kaew
+    description: "The royal palace complex and the Temple of the Emerald Buddha, Bangkok's most visited landmark."
+  - name: Wat Arun (Temple of Dawn)
+    description: "The iconic riverside temple with a khmer-style prang, a proposed UNESCO nomination."
+  - name: Wat Pho (Temple of the Reclining Buddha)
+    description: "Home to the giant reclining Buddha and a centre of traditional Thai massage."
+  - name: Chatuchak Weekend Market
+    description: "One of the world's largest weekend markets, with thousands of stalls."
+culturalTraits:
+  - "The capital — Thailand's political, economic and cultural heart"
+  - "A chaotic, energetic megacity blending glitzy malls with historic temples and canals"
+  - "Street food is a way of life; Chiang Mai aside, Bangkok defines Thai urbanity"
+prideOf:
+  - "Being a global city with unmatched dining, shopping and nightlife"
+  - "Preserving the royal heritage of the Grand Palace and Rattanakosin Island"
+animals:
+  popular:
+    - "Monitor lizards (hua khee) in the parks and canals"
+    - "Feral cats and the many temple dogs"
+industries:
+  - "Finance, banking and corporate headquarters (the SET exchange)"
+  - "Tourism — the country's primary gateway and hub"
+  - "Retail, e-commerce and the fastest-growing tech/startup scene in Thailand"
+sports:
+  - "Muay Thai — Bangkok is home to the major stadiums (Rajadamnern, Lumpinee)"
+  - "Football and badminton; recreational fitness culture"
+religions:
+  - name: Theravada Buddhism
+    percent: 93.0
+    sourceId: irf-bkk
+  - name: Islam
+    percent: 5.0
+    sourceId: irf-bkk
+  - name: Christianity and other
+    percent: 2.0
+    sourceId: irf-bkk
+entertainment:
+  - season: allYear
+    items:
+      - "Grand Palace and temple-hopping along the Chao Phraya"
+      - "Night markets, rooftop bars and the famous nightlife districts"
+      - "Cinema, shopping malls (Siam Paragon, CentralWorld) and pop-up art"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pad thai from the street stalls of Yaowarat (Chinatown)"
+      - "Tom yum goong and the palace-influenced dishes of the central plain"
+      - "Khao man gai (Hainanese chicken rice) and the many one-dish classics"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Everyday climate-appropriate casual wear; suits for the business district"
+      - "Traditional chut thai on ceremonial occasions"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 09:00-18:00 Monday-Friday; the central business district runs on western hours but many services open Saturday."
+  lunchBreakTiming: "A lunch break around noon; food courts and street food dominate."
+  notes: "Traffic is notoriously heavy — the BTS Skytrain and MRT are the practical ways to move. PromptPay and cards dominate."
+sources:
+  - id: irf-bkk
+    name: "2020 Report on International Religious Freedom: Thailand"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2020-report-on-international-religious-freedom/thailand/"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "National religious composition used for Bangkok (majority Buddhist ~93%; BKK has modestly higher Christian population from missionary history, estimated ~2%)."

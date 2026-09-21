@@ -1,0 +1,115 @@
+code: WHOLE
+name:
+  eng: Thailand
+  local:
+    - languageCode: tha
+      value: ประเทศไทย
+# Generic country-wide fallback content for Thailand (unitary-large with a
+# curated subset of provinces). National-level coverage not specific to any one
+# region.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) climate across the central plains and most of the country, with a distinct hot, rainy and cool season."
+  - koppenCode: Am
+    description: "Tropical monsoon climate along parts of the coast and in areas with heavy seasonal rain."
+  - koppenCode: Cwa
+    description: "Humid subtropical climate in the northern highlands, cooler in winter months."
+landmarks:
+  - name: Grand Palace and Wat Phra Kaew (Bangkok)
+    description: "The royal palace complex and the Temple of the Emerald Buddha, Bangkok's most iconic landmark."
+  - name: Historic City of Ayutthaya
+    description: "Ruins of the Siamese capital (c.1350-1767), a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Historic Town of Sukhothai and Associated Historic Towns
+    description: "Remains of the first Siamese capital (13th-14th century), a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Ban Chiang Archaeological Site
+    description: "A major prehistoric settlement (c.1500 BCE-900 BCE) in Udon Thani, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Wat Phra That Doi Suthep (Chiang Mai)
+    description: "The sacred mountaintop temple of Chiang Mai, a symbol of the northern Lanna kingdom."
+  - name: Phang Nga Bay and James Bond Island
+    description: "Dramatic limestone karsts rising from the Andaman Sea, a celebrated natural landmark."
+culturalTraits:
+  - "A proud, deeply Buddhist society (Theravada Buddhism is the state-patronised majority faith)"
+  - "Famous globally for its cuisine (pad thai, tom yum, green curry), its temples, and warm hospitality (the 'Land of Smiles')"
+  - "The wai greeting, respect for elders, and the concept of saving face are core cultural values"
+  - "A rich festival calendar — Songkran (Thai New Year), Loy Krathong, and the numerous temple fairs"
+prideOf:
+  - "Being the only Southeast Asian country never colonised by a European power"
+  - "One of the world's great cuisines and the global popularity of Thai food"
+  - "Its beaches and islands, from Phuket and Krabi to the Gulf islands"
+animals:
+  popular:
+    - "Asian elephant — the national symbol, revered in culture and tourism"
+    - "Tigers and leopards in the forest complexes"
+    - "Cobras and other snakes"
+  unique:
+    - "Asian elephant (Elephas maximus)"
+    - "Irrawaddy dolphin in coastal waters"
+industries:
+  - "Tourism — one of the world's most-visited destinations"
+  - "Agriculture and agribusiness (rice, rubber, seafood, fruit)"
+  - "Manufacturing and automotive (a regional hub for vehicle assembly)"
+  - "Digital services and a fast-growing tech/startup scene in Bangkok"
+sports:
+  - "Muay Thai — the national martial art and a source of pride"
+  - "Football, badminton, and sepak takraw (kicked volleyball)"
+  - "Golf and boxing for international visitors"
+religions:
+  - name: Theravada Buddhism
+    percent: 93.0
+    sourceId: irf-tho
+  - name: Islam
+    percent: 5.0
+    sourceId: irf-tho
+  - name: Christianity
+    percent: 1.2
+    sourceId: irf-tho
+  - name: Other (Confucianism, Hinduism, Sikhism, animism, none)
+    percent: 0.8
+    sourceId: irf-tho
+entertainment:
+  - season: allYear
+    items:
+      - "Temple festivals and Thai classical dance (khon) performances"
+      - "Night markets and street-food tourism"
+      - "Cinema, mall culture, and the vibrant Bangkok nightlife"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pad Thai — stir-fried rice noodles with tamarind, peanuts and shrimp"
+      - "Tom Yum Goong — hot and sour shrimp soup"
+      - "Green curry (gaeng keow wan) and massaman curry"
+      - "Som tam (papaya salad) and sticky rice, staples of the northeast"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Chut thai — the traditional Thai dress, worn at festivals and formal occasions"
+      - "Sarong-style skirts (pha sin) for women in the north and northeast"
+      - "Western dress is everyday wear; monks wear saffron robes"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours roughly 08:30-17:30 Monday-Friday; many shops and services open earlier and run into the evening, including weekends."
+  lunchBreakTiming: "A lunch break around noon is standard; street-food and market lunches are common."
+  notes: "Public holidays follow the Buddhist and secular calendar (Songkran in April, New Year in January). PromptPay is ubiquitous for payments."
+sources:
+  - id: irf-tho
+    name: "2020 Report on International Religious Freedom: Thailand"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2020-report-on-international-religious-freedom/thailand/"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Religious composition: 2010 census ~93% Theravada Buddhist, ~5% Muslim, remainder other."
+  - id: unesco-th
+    name: "Thailand — UNESCO World Heritage Convention"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/th/"
+    accessedDate: "2026-09-21"
+    note: "Confirmed UNESCO World Heritage sites in Thailand."

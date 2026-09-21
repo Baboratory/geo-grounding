@@ -1,0 +1,113 @@
+code: WHOLE
+name:
+  eng: Vietnam
+  local:
+    - languageCode: vie
+      value: Việt Nam
+# Generic country-wide fallback content for Vietnam (unitary-large with a
+# curated subset of regions). National-level coverage not specific to any one
+# region.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) over the south and much of the country, with a dry season (Nov-Apr) and a rainy season (May-Oct)."
+  - koppenCode: Am
+    description: "Tropical monsoon climate along the coasts and in the central highlands with very heavy seasonal rain."
+  - koppenCode: Cwa
+    description: "Humid subtropical (monsoon-influenced) climate in the north around Hanoi, with distinct cool winters and hot humid summers."
+landmarks:
+  - name: Ha Long Bay – Cat Ba Archipelago
+    description: "Thousands of dramatic limestone karst islands rising from the sea in the northeast, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Complex of Huế Monuments
+    description: "The imperial citadel and royal tombs of the Nguyễn capital, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Hoi An Ancient Town
+    description: "The exceptionally preserved 15th-19th century trading port of central Vietnam, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Trang An Landscape Complex
+    description: "A spectacular karst landscape of limestone peaks and cave temples near Ninh Bình, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Phong Nha–Kẻ Bàng National Park
+    description: "Cave-rich national park in Quảng Bình housing some of the world's largest caves (Son Doong), a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "A proud, resilient nation shaped by centuries of imperial rule and modern independence"
+  - "Famous globally for its cuisine (phở, bánh mì, spring rolls) and coffee culture"
+  - "A communal, family-centred society with Confucian-influenced respect for elders and harmony"
+  - "Dynamic economic growth — a fast-modernising economy with a youthful, entrepreneurial population"
+prideOf:
+  - "Victory in wars for independence and the national narrative of resilience"
+  - "An internationally celebrated cuisine and UNESCO-recognised heritage sites"
+  - "Rapid economic development and one of the fastest-growing economies in Asia"
+animals:
+  popular:
+    - "Asian water buffalo — long central to Vietnam's rice-farming"
+    - "Gibbons and the many bird species of the central highlands"
+  unique:
+    - "The saola (a rare endemic bovid of the Annamite mountains)"
+    - "Delacour's langur and the Tonkin snub-nosed monkey"
+industries:
+  - "Manufacturing and electronics (major global exporter of smartphones and garments)"
+  - "Agriculture and aquaculture (rice, coffee, cashews, seafood)"
+  - "Tourism, textiles and footwear"
+  - "A rapidly growing services and technology sector"
+sports:
+  - "Football (bóng đá) — the national passion"
+  - "Badminton, table tennis and volleyball"
+  - "Traditional martial arts (vovinam) and the increasingly popular e-sports scene"
+religions:
+  - name: No religion / folk practice
+    percent: 73.1
+    sourceId: irf-vn
+  - name: Buddhism (mostly Mahayana, incl. Hòa Hảo)
+    percent: 14.9
+    sourceId: irf-vn
+  - name: Catholicism
+    percent: 7.4
+    sourceId: irf-vn
+  - name: Other (Caodaism, Protestantism, Islam, others)
+    percent: 4.6
+    sourceId: irf-vn
+entertainment:
+  - season: allYear
+    items:
+      - "Cinema, café culture and street food tourism"
+      - "Traditional water puppetry and folk theatre"
+      - "Festivals tied to the lunar calendar (Tết, mid-autumn festival)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Phở — the iconic beef noodle soup"
+      - "Bánh mì — the celebrated Vietnamese baguette sandwich"
+      - "Bún chả (grilled pork noodles), gỏi cuốn (spring rolls) and cà phê sữa đá (iced milk coffee)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Áo dài — the national dress, worn at festivals, ceremonies and workplaces"
+      - "Nón lá (conical straw hat), symbolic of rural Vietnam"
+      - "Western dress is everyday wear in the cities"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours roughly 08:00-17:00 Monday-Friday; many shops open early and some open Saturday; services often resume with a midday break."
+  lunchBreakTiming: "A lunch break around 11:30-13:00; phở and street-food lunches are standard."
+  notes: "Tết (Lunar New Year) is the most significant shutdown of the year, typically one to two weeks in late January/early February. E-wallet and QR payments lead in the cities."
+sources:
+  - id: irf-vn
+    name: "2020 Report on International Religious Freedom: Vietnam"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/wp-content/uploads/2021/05/240282-VIETNAM-2020-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Religious composition from the 2019 census and 2018 GCRA statistics: ~86% no registered religion; among believers, Catholics ~6%, Buddhists ~5% (registered); a wider share follows folk/Buddhist practice. Figures are composite estimates."
+  - id: unesco-vn
+    name: "Viet Nam — UNESCO World Heritage Convention"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/vn/"
+    accessedDate: "2026-09-21"
+    note: "Confirmed UNESCO World Heritage sites in Viet Nam."

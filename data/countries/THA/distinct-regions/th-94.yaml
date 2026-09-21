@@ -1,0 +1,79 @@
+code: TH-94
+name:
+  eng: Pattani (Malay-Muslim Deep South)
+  local:
+    - languageCode: mfa
+      value: ปัตตานี
+    - languageCode: tha
+      value: ปัตตานี
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon — hot and humid year-round; the south sees rain in both the southwest monsoon season and the northeast monsoon, giving a wetter overall climate."
+landmarks:
+  - name: Masjid Kerisik (Krue Se Mosque)
+    description: "The historic mosque in Pattani, one of the oldest in Thailand, symbol of the region's Malay-Muslim heritage."
+  - name: Park Kru Se / Krue Se
+    description: "The 16th century Pattani kingdom precinct and its historic sites."
+  - name: Pattani Central Market
+    description: "The lively market of this provincial capital, gateway to the Malay-speaking south."
+culturalTraits:
+  - "Part of the Malay-Muslim 'Deep South' — the former Sultanate of Pattani, with a distinct Yawi/Malay language and culture"
+  - "A devout Muslim population, with halal culture, Malay dress and a strong religious tradition"
+  - "A region marked by a long-running insurgency and cultural distance from the Buddhist north"
+prideOf:
+  - "Its ancient Malay kingdom heritage and Islamic scholarship"
+  - "The tradition of pattani silk and songket weaving"
+animals:
+  popular:
+    - "Water buffalo and cattle on the coastal plains"
+    - "Monkeys in the coastal forests"
+industries:
+  - "Agriculture — rubber, rice and coconut"
+  - "Fisheries along the Gulf of Thailand coast"
+  - "Silk and songket textile weaving (pattani silk)"
+sports:
+  - "Sepak takraw — hugely popular across the region"
+  - "Football and Thai boxing"
+religions:
+  - name: Islam
+    percent: 80.0
+    sourceId: irf-pnn
+  - name: Theravada Buddhism
+    percent: 20.0
+    sourceId: irf-pnn
+entertainment:
+  - season: allYear
+    items:
+      - "Islamic festivals — Eid al-Fitr and Eid al-Adha gatherings"
+      - "The Pattani silk and handicraft fairs"
+      - "Traditional Malay music and dance (ronggeng, mak yong)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Halal Malay dishes — nasi dagang (rice cooked in coconut milk) and rendang"
+      - "Budu (fermented fish condiment) and the sour-spicy curries of the south"
+      - "Kueh and Malay sweets served at celebrations"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Baju Melayu (men) and baju kurung (women) — Malay dress"
+      - "Songket and batik fabrics; the hijab is common among Muslim women"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 4, 5, 6, 7, 8]
+  - season: wet
+    months: [9, 10, 11, 12, 1]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 08:30-17:00 Monday-Friday; Friday prayers create a midday pause for Muslim businesses."
+  lunchBreakTiming: "A lunch break around noon; businesses may close for Friday jumu'ah prayers."
+  notes: "A predominantly Malay-Muslim region with a quieter, more traditional commercial rhythm than Bangkok or Phuket. Cash is common."
+sources:
+  - id: irf-pnn
+    name: "2020 Report on International Religious Freedom: Thailand"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2020-report-on-international-religious-freedom/thailand/"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Religious composition; the four southernmost provinces are Muslim-majority (composite estimate ~80% in Pattani province based on census and IRF reports)."

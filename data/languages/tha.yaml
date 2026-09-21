@@ -1,0 +1,8 @@
+code: tha
+name:
+  eng: Thai
+  local: ภาษาไทย
+commonPhrases:
+  hello: "สวัสดี (sawatdee)"
+  thankYou: "ขอบคุณ (khob khun)"
+  goodbye: "ลาก่อน (laa gawn)"

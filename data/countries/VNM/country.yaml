@@ -1,0 +1,184 @@
+alpha3: VNM
+alpha2: VN
+name:
+  eng: Vietnam
+  local:
+    - languageCode: vie
+      value: Việt Nam
+flagEmoji: "🇻🇳"
+capital: Hanoi
+isSovereign: true
+# Classified unitary-large: Vietnam's population (~96-100M, 2019 census 96.2M)
+# is far above the small-state threshold, and although it is a unitary
+# socialist republic with strong central control (per the 2013 Constitution),
+# it has a genuine, widely recognised cultural-regional identity — the Red
+# River Delta/North around Hanoi, the industrial South around Ho Chi Minh City
+# and the Mekong Delta, and the central region around the former imperial
+# capital of Huế — meeting 2 of the 3 DESIGN.md criteria. Curated regions map
+# to real ISO 3166-2 subdivisions: Hanoi (VN-HN), Ho Chi Minh City (VN-SG),
+# Da Nang (VN-DN, central), Huế/Thừa Thiên-Huế (VN-26) and Cần Thơ (VN-CT,
+# Mekong Delta), plus the generic WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: VN
+hasSubdivisions: true
+languageUsage:
+  # Vietnamese is the official national language under Article 5 of the 2013
+  # Constitution; the State ensures ethnic-minority languages are respected.
+  # Official domain is a legal-status flag = 1.0.
+  - languageCode: vie
+    domain: official
+    speakersShare: 1.0
+    sourceId: vn-constitution
+  # Vietnamese is the first/national language of essentially the whole
+  # population (spoken by the ~86% Kinh majority and widely as a lingua
+  # franca across minority groups).
+  - languageCode: vie
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: vn-census-2019
+  # Khmer is spoken by the Khmer Krom minority in the Mekong Delta (~1.4M).
+  - languageCode: khm
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: vn-census-2019
+  # English is the leading foreign language (education and business), though
+  # fluency is concentrated in urban areas.
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.10
+    sourceId: ef-vn
+ethnicGroups:
+  # 2019 Population and Housing Census (General Statistics Office of Vietnam).
+  - group: Kinh (Vietnamese)
+    percent: 85.3
+    sourceId: vn-census-2019
+  - group: Tày
+    percent: 1.9
+    sourceId: vn-census-2019
+  - group: Thái (Thai)
+    percent: 1.9
+    sourceId: vn-census-2019
+  - group: Mường
+    percent: 1.5
+    sourceId: vn-census-2019
+  - group: H'Mông (Hmong)
+    percent: 1.5
+    sourceId: vn-census-2019
+  - group: Khmer
+    percent: 1.4
+    sourceId: vn-census-2019
+  - group: Nùng
+    percent: 1.1
+    sourceId: vn-census-2019
+  - group: Other (49 more recognized ethnic groups)
+    percent: 5.4
+    sourceId: vn-census-2019
+timezones:
+  - name: Asia/Ho_Chi_Minh
+    standardUtcOffset: "UTC+7"
+    observesDst: false
+currency:
+  code: VND
+  symbol: "₫"
+  name: Vietnamese dong
+legalConstraints:
+  - topic: "official language"
+    description: "Article 5 of the Constitution of the Socialist Republic of Viet Nam (2013) provides that Vietnamese is the national language of the ethnic community and the official language of the State, while all ethnic groups' languages and scripts are respected and protected."
+    sourceId: vn-constitution
+  - topic: "data protection"
+    description: "Vietnam's Personal Data Protection Decree (Decree No. 13/2023/ND-CP, effective 1 July 2023) is the country's first comprehensive personal-data-protection regulation, GDPR-inspired. It governs processing of personal data, requires consent, grants data-subject rights, and is overseen by the Ministry of Public Security, with administrative fines for violations."
+    sourceId: pdpa-vn
+  - topic: "value added tax (VAT) price display"
+    description: "The VAT Law (Law No. 48/2024/QH15, in force 1 July 2025) sets rates of 0% (exports), 5% (essential goods) and a 10% standard rate; a temporary 2-point reduction to 8% applies to many goods and services through 31 December 2026 (Resolution 204/2025/QH15). Retail prices are generally displayed VAT-inclusive."
+    sourceId: vat-vn
+  - topic: "consumer protection"
+    description: "Vietnam's Consumer Rights Protection Law (2010, amended 2023) protects consumers in transactions, covering product quality, information, contracts, return/redress rights, and is enforced by the Vietnam Competition and Consumer Authority."
+    sourceId: crl-vn
+paymentCulture:
+  popularMethods:
+    - "Bank transfers via NAPAS 247 — the national real-time interbank rail, the most common digital payment method"
+    - "E-wallets — MoMo, ZaloPay, VNPay and ViettelPay are the dominant consumer wallets"
+    - "Cash — still widely used, especially for small purchases and in rural areas"
+    - "QR payments (VietQR) — accepted across banks and wallets at merchants nationwide"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected; tipping is uncommon in Vietnam, though a small gratuity is appreciated at upscale restaurants or for tour guides."
+    autoIncludedInBill: false
+    note: "Qualitative and customary. QR and e-wallet payments dominate in the cities."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite, indirect and relationship-driven. Respect for elders, seniority and titles is important, and direct confrontation or blunt criticism is avoided to preserve harmony (and 'face')."
+  greetingNorms: "A soft handshake or a nod with a smile is standard; address people by their title plus given name, with age determining polite forms."
+  meetingEtiquette: "Meetings open with introductions and small talk before business. Decisions are often consensus-based and hierarchical; defer to the most senior person present."
+  topicsToAvoid:
+    - "The Vietnam War / 'the American War' and contested recent political history"
+    - "Chinese-Vietnamese relations and the South China Sea disputes"
+    - "Domestic politics, religion and the party leadership"
+  giftGivingNotes: "Small, thoughtful gifts are well received and often reciprocated; give and receive with both hands. Avoid clocks, white flowers and sharp objects as gifts."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: VN-HN
+    file: distinct-regions/vn-hn.yaml
+    adminUnitCodes: [VN-HN]
+  - code: VN-SG
+    file: distinct-regions/vn-sg.yaml
+    adminUnitCodes: [VN-SG]
+  - code: VN-DN
+    file: distinct-regions/vn-dn.yaml
+    adminUnitCodes: [VN-DN]
+  - code: VN-26
+    file: distinct-regions/vn-26.yaml
+    adminUnitCodes: [VN-26]
+  - code: VN-CT
+    file: distinct-regions/vn-ct.yaml
+    adminUnitCodes: [VN-CT]
+sources:
+  - id: vn-constitution
+    name: "Constitution of the Socialist Republic of Viet Nam (2013) — Article 5"
+    publisher: "Vietnam Law and Legal Forum (Vietnam News Agency; the state body appointed by the Prime Minister to translate and issue Viet Nam's official English-language gazette — not the National Assembly directly; the PR's original URL also 404s)"
+    url: "https://vietnamlawmagazine.vn/the-2013-constitution-of-the-socialist-republic-of-vietnam-4847.html"
+    year: 2013
+    accessedDate: "2026-09-21"
+    note: "Vietnamese as the official/national language; protection of ethnic-minority languages."
+  - id: vn-census-2019
+    name: "The 2019 Viet Nam Population and Housing Census — Completed Results"
+    publisher: "General Statistics Office of Viet Nam"
+    url: "https://www.gso.gov.vn/en/data-and-statistics/2020/11/completed-results-of-the-2019-viet-nam-population-and-housing-census/"
+    year: 2019
+    accessedDate: "2026-09-21"
+    note: "Ethnic composition (Kinh 85.3%, Tày 1.9%, Thái 1.9%, Mường 1.5%, H'Mông 1.5%, Khmer 1.4%, Nùng 1.1%); total population ~96.2M."
+  - id: ef-vn
+    name: "EF English Proficiency Index — Vietnam"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    accessedDate: "2026-09-21"
+    note: "English proficiency context; Vietnam typically ranks 'moderate' proficiency. Share is a composite estimate."
+  - id: pdpa-vn
+    name: "Decree No. 13/2023/ND-CP on Personal Data Protection"
+    publisher: "LuatVietnam (INCOM International Communications Company; a private legal-database operator, authorized as the sole distributor of the Vietnam News Agency's official gazette English translations — not the Government of Viet Nam directly)"
+    url: "https://english.luatvietnam.vn/decree-no-13-2023-nd-cp-dated-april-17-2023-of-the-government-on-protection-of-personal-data-210737-Doc1.html"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "Comprehensive personal-data-protection decree in force 1 July 2023; consent-based, GDPR-inspired."
+  - id: vat-vn
+    name: "Law on Value Added Tax No. 48/2024/QH15 and Resolution 204/2025/QH15"
+    publisher: "Vietnam Briefing (Dezan Shira & Associates; a private business-advisory publication, not the National Assembly or Ministry of Finance directly)"
+    url: "https://www.vietnam-briefing.com/doing-business-guide/vietnam/taxation-and-accounting/country-wise-tax-structure/value-added-tax"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "VAT rates 0%/5%/10% standard; temporary 8% reduction through 31 Dec 2026."
+  - id: crl-vn
+    name: "Law on Protection of Consumers' Rights (2010, amended 2023)"
+    publisher: "Vietnam Competition and Consumer Authority"
+    url: "https://www.vcca.gov.vn/"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "Consumer protection framework governing product quality, contracts and redress."
+  - id: iso-vie
+    name: "ISO 639-3 entry: vie — Vietnamese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/vie"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code vie."

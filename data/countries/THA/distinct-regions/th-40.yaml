@@ -1,0 +1,81 @@
+code: TH-40
+name:
+  eng: Khon Kaen (Isan / Northeast)
+  local:
+    - languageCode: tts
+      value: ขอนแก่น
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry — hot for much of the year with a distinct rainy season (May-Oct) and a cooler dry season."
+landmarks:
+  - name: Wat Nong Wang
+    description: "The nine-storey Buddhist temple atop the city's landmark hill, a symbol of Khon Kaen."
+  - name: Phu Wiang National Park (Buriram/Khon Kaen border)
+    description: "Site of dinosaur fossil excavations ('Siamotyrannus'), a popular science-tourism destination."
+  - name: Khon Kaen Lake (Bueng Kaen Nakhon)
+    description: "The city's central lake, ringed by a popular jogging path and markets."
+culturalTraits:
+  - "The de facto heart of Isan, the populous northeastern region with its Lao-related language and culture"
+  - "Regional pride in Isan music, mor lam and the spice-forward cuisine"
+  - "A major regional hub for education, health and the silk industry (Khon Kaen mudmee silk)"
+prideOf:
+  - "Being the gateway city of Isan, Thailand's biggest region"
+  - "Its famous mudmee (ikat) silk weaving tradition"
+animals:
+  popular:
+    - "Water buffalo — long central to Isan agriculture"
+    - "Monitor lizards in the lakes and rice paddies"
+industries:
+  - "Agriculture — rice (Isan is Thailand's rice bowl), cassava, sugarcane"
+  - "Silk and textile crafts (mudmee silk)"
+  - "Regional trade, education and hospital services (Khon Kaen is a big regional health hub)"
+sports:
+  - "Muay Thai and the traditional game of takraw"
+  - "Football, with Khon Kaen's regional clubs"
+  - "Cycling around the lake"
+religions:
+  - name: Theravada Buddhism
+    percent: 95.0
+    sourceId: irf-isan
+  - name: Animism and folk traditions
+    percent: 3.0
+    sourceId: irf-isan
+  - name: Christianity and Islam
+    percent: 2.0
+    sourceId: irf-isan
+entertainment:
+  - season: allYear
+    items:
+      - "Mor lam and Isan folk-music performances"
+      - "Bun Bang Fai (rocket festival) in the rainy-season run-up"
+      - "Temple festivals and the Khon Kaen International Silk Festival"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Som tam (spicy papaya salad) with sticky rice — the Isan staple"
+      - "Larb (minced meat salad) and grilled Isan sausage"
+      - "Kai yang (grilled chicken) eaten with sticky rice"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Pha sin woven in the distinctive mudmee (ikat) patterns"
+      - "Sticky-rice baskets (kratip khao) and the informal everyday dress of the region"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 08:30-17:30 Monday-Friday; markets operate early morning and evening."
+  lunchBreakTiming: "A midday lunch break around noon; som tam and grilled-meat stalls are busy at lunch."
+  notes: "Isan is generally more cash-friendly than Bangkok, though PromptPay adoption is spreading. The region's rice cycle dominates the rural rhythm."
+sources:
+  - id: irf-isan
+    name: "2020 Report on International Religious Freedom: Thailand"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2020-report-on-international-religious-freedom/thailand/"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Religious composition (Isan is overwhelmingly Buddhist with a strong animist underpinning; composite estimate)."

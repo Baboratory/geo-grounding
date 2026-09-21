@@ -1,0 +1,85 @@
+code: TH-83
+name:
+  eng: Phuket (Andaman South)
+  local:
+    - languageCode: sou
+      value: ภูเก็ต
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon — warm year-round with very heavy rains in the wet season (May-Oct); the southwest monsoon brings the strongest storms."
+landmarks:
+  - name: Patong Beach
+    description: "Phuket's most famous beach and the centre of its beach-nightlife tourism."
+  - name: Big Buddha Phuket
+    description: "The towering white marble Buddha statue on Nakkerd Hill, with panoramic island views."
+  - name: Old Phuket Town
+    description: "Sino-Portuguese shophouses and heritage quarter reflecting the tin-mining past."
+  - name: James Bond Island (Phang Nga Bay)
+    description: "The famous limestone karst islet made iconic by the 1974 Bond film."
+culturalTraits:
+  - "Thailand's premier beach-and-island resort destination"
+  - "A culturally mixed history — Chinese, Malay and Portuguese influences from the tin-trade era"
+  - "Southern Thai character with a devout Buddhist-majority population and a coastal, seafaring way of life"
+prideOf:
+  - "Its world-famous beaches and the Andaman Sea"
+  - "The Sino-Portuguese heritage of Old Phuket Town"
+animals:
+  popular:
+    - "Asian elephants at ethical sanctuaries"
+    - "Sea turtles nesting on the Andaman beaches"
+  unique:
+    - "Dugong and Irrawaddy dolphins in the surrounding seas"
+industries:
+  - "Tourism — the economic backbone, from beach resorts to diving and yachting"
+  - "Fisheries and seafood processing"
+  - "Real estate and hospitality development"
+sports:
+  - "Diving and snorkelling in the Similan and Phi Phi waters"
+  - "Muay Thai camps and fitness tourism"
+  - "Sailing and island-hopping"
+religions:
+  - name: Theravada Buddhism
+    percent: 70.0
+    sourceId: irf-phk
+  - name: Islam
+    percent: 25.0
+    sourceId: irf-phk
+  - name: Chinese folk religion and Christianity
+    percent: 5.0
+    sourceId: irf-phk
+entertainment:
+  - season: allYear
+    items:
+      - "Beach clubs, boat trips and the Patong nightlife strip"
+      - "The Vegetarian Festival (Peranakan Chinese tradition) with its famous processions"
+      - "Snorkelling and diving excursions"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Hokkien mee — the Peranakan noodle dish of Phuket Town"
+      - "Seafood — crab, prawns and the island's grilled fish"
+      - "Mee sua and the dishes of the Vegetarian Festival"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light resort wear and beach attire for tourism"
+      - "White attire during the Vegetarian Festival"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Tourism hours run 09:00-22:00; shops, tour operators and restaurants cater to visitors into the night."
+  lunchBreakTiming: "A lunch break around noon; staff-heavy resort work has staggered shifts."
+  notes: "Peak season is the dry months (Nov-Apr); the wet season sees the southwest monsoon and many closures. Cards and PromptPay are widely accepted."
+sources:
+  - id: irf-phk
+    name: "2020 Report on International Religious Freedom: Thailand"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2020-report-on-international-religious-freedom/thailand/"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Religious composition; Phuket has a notably higher Muslim share (composite estimate) than the national average due to its southern location and Malay heritage."

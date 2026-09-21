@@ -1,0 +1,85 @@
+code: VN-CT
+name:
+  eng: Cần Thơ (Mekong Delta)
+  local:
+    - languageCode: vie
+      value: Cần Thơ
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry — hot and humid year-round; the Mekong Delta has a clear wet (May-Nov) and dry (Dec-Apr) season."
+landmarks:
+  - name: Cai Rang Floating Market
+    description: "The famous Mekong Delta floating market, where boats trade produce on the river."
+  - name: Cần Thơ's Ninh Kiều Wharf
+    description: "The city's riverside promenade and gateway to the delta."
+  - name: Bang Lang Stork Sanctuary
+    description: "A sanctuary home to large colonies of egrets and storks."
+  - name: My Khanh Tourist Village
+    description: "A showcase of Mekong Delta rural life, gardens and orchards."
+culturalTraits:
+  - "The largest city of the Mekong Delta — the 'rice bowl' of Vietnam"
+  - "A watery, riverine culture of canals, floating markets and fruit orchards"
+  - "A warm, openly hospitable and family-centred regional culture, with a notable Khmer Krom minority"
+prideOf:
+  - "The Mekong Delta's agricultural abundance and its famed floating markets"
+  - "Through its rivers and canals, being the cradle of Vietnamese rice cultivation"
+animals:
+  popular:
+    - "Herons, egrets and storks at the sanctuaries"
+    - "Water buffalo and Mekong Delta fish species"
+  unique:
+    - "The Irrawaddy dolphin (rare, in the Mekong's lower reaches)"
+    - "Mekong giant catfish"
+industries:
+  - "Agriculture — rice, fruit, and aquaculture (the delta is Vietnam's breadbasket)"
+  - "River trade and logistics"
+  - "Processing of agricultural and seafood products"
+sports:
+  - "Football and boat racing"
+  - "Badminton and table tennis"
+religions:
+  - name: No religion / folk practice
+    percent: 65.0
+    sourceId: irf-ct
+  - name: Buddhism (incl. Hòa Hảo)
+    percent: 25.0
+    sourceId: irf-ct
+  - name: Other (Caodaism, Catholic, Khmer Theravada Buddhism, Islam)
+    percent: 10.0
+    sourceId: irf-ct
+entertainment:
+  - season: allYear
+    items:
+      - "Boat trips on the canals and to the floating markets"
+      - "Fruit-orchard tours and homestays"
+      - "The Óc Om Bóc festival and Khmer minority traditions"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Hủ tiếu and bún nước lèo — Mekong Delta noodle soups"
+      - "Fresh tropical fruit (durian, mango, rambutan) and coconut candy"
+      - "The delta's abundant freshwater fish, eel and shrimp dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light, breathable clothing suited to the humid tropical climate"
+      - "The woven nón lá and simple rural dress"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 07:30-17:00 Monday-Friday; markets operate very early in the morning, often from dawn."
+  lunchBreakTiming: "An early lunch around 11:00-12:00 and a rest in the hottest part of the day."
+  notes: "A riverine, agricultural rhythm — early starts for markets and a midday break. Cash remains very common alongside QR payments."
+sources:
+  - id: irf-ct
+    name: "2020 Report on International Religious Freedom: Vietnam"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/wp-content/uploads/2021/05/240282-VIETNAM-2020-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Religious composition; the Mekong Delta has a higher proportion of Hòa Hảo, Caodaist and Khmer Theravada Buddhist communities than the national average (composite estimate)."
