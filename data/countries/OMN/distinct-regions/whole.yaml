@@ -1,0 +1,117 @@
+code: WHOLE
+name:
+  eng: Oman
+  local:
+    - languageCode: arb
+      value: عُمان
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate predominant across most of Oman; very hot and arid with negligible rainfall.
+  - koppenCode: BSh
+    description: Hot semi-arid in elevated and southern Dhofar areas where monsoonal moisture raises rainfall.
+landmarks:
+  - name: Sultan Qaboos Grand Mosque
+    description: The principal mosque of the Sultanate, a landmark of modern Omani architecture in Muscat.
+  - name: Muttrah Corniche and Souq
+    description: Historic port district and traditional market along the Muscat coastline.
+  - name: Nizwa Fort
+    description: Seventeenth-century mud-brick fort and oasis town at the gate of the interior.
+  - name: Jebel Shams
+    description: Among the highest peaks on the Arabian Peninsula, in the Al Hajar range.
+  - name: Wahiba Sands
+    description: Vast dune desert of the interior, home to Bedouin communities.
+  - name: Bimmah Sinkhole
+    description: A coastal limestone collapse pool and popular swimming spot.
+  - name: Musandam Peninsula
+    description: Northern exclave separated from the rest of Oman by the UAE, famous for fjords and dhow harbours.
+culturalTraits:
+  - Ibadi Islam, a distinct and tolerant branch that is a defining feature of Omani identity
+  - Hospitality with the khawa (cardamom coffee) and dates custom offered to guests on arrival
+  - The khanjar, a curved ceremonial dagger worn by Omani men as a national symbol
+  - Frankincense (luban) heritage and the historic incense trade centred on Salalah
+  - Falaj irrigation, a UNESCO-recognised water-engineering tradition
+  - Strong maritime and dhow-building heritage from the Indian-Ocean trading sultanate
+prideOf:
+  - National loyalty to the Sultan and the hereditary monarchy
+  - The khanjar and traditional dress as markers of distinct Omani identity
+  - The Grand Mosque and Ibadhi religious heritage
+  - Frankincense and the prehistoric incense trade route
+  - Forts, valleys (wadis), sinkholes and a unique natural landscape
+animals:
+  popular:
+    - Arabian oryx (reintroduced to protected areas)
+    - Dromedary camel
+    - Arabian leopard (rare, in the Al Hajar mountains)
+    - Arabian tahr
+    - Green sea turtle (nesting on Omani beaches)
+    - Humpback whales and dolphins in Omani waters
+  unique:
+    - Frankincense tree (Boswellia sacra), a keystone plant of the south
+industries:
+  - Oil and gas (the dominant source of state revenue)
+  - Fisheries and maritime products
+  - Tourism (heritage forts, the Salalah khareef, ecotourism)
+  - Logistics and ports (Sohar, Duqm, Salalah)
+  - Mining and minerals (limestone, gypsum, copper, gold)
+  - Agriculture (dates, limes, bananas)
+sports:
+  - Football (the most popular spectator sport)
+  - Cricket (popular among the South-Asian expatriate population)
+  - Dhow racing and maritime traditions
+  - Camel racing
+  - Falconry
+religions:
+  - name: Islam
+    percent: 85.9
+    sourceId: om-cia
+  - name: Christianity
+    percent: 6.5
+    sourceId: om-cia
+  - name: Hinduism
+    percent: 5.5
+    sourceId: om-cia
+  - name: Buddhism
+    percent: 0.8
+    sourceId: om-cia
+  - name: Other (Judaism, etc.)
+    percent: 1.0
+    sourceId: om-cia
+entertainment:
+  - season: allYear
+    items:
+      - Khareef festival in Salalah (July-September)
+      - Muscat Festival (January)
+      - Ramadan evening and Eid celebrations
+      - National Day (18 and 19 November)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Shuwa (slow-cooked lamb, the signature celebratory dish)
+      - Majboos (spiced rice and meat)
+      - Mashuai (grilled spiced kingfish with rice)
+      - Khawa (cardamom coffee) served with dates
+      - Omani halwa (sweet starch pudding)
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men: the dishdasha (robe), kumma cap or mussar turban, and khanjar dagger"
+      - "Women: the abaya, commonly with a head covering; embroidered Omani dresses on festive days"
+seasonCalendar:
+  - season: winter
+    months: [11, 12, 1, 2, 3]
+  - season: summer
+    months: [4, 5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays: [friday, saturday]
+  typicalWorkHours: "Government and many private offices run roughly 8:00-16:00 (or 9:00-17:00); retail shops often 9:00-22:00."
+  notableShutdownPeriods:
+    - period: "Ramadan"
+      description: "Working hours are shortened by about half across government and business; public eating and drinking in daytime is restricted."
+  notes: "The weekend is Friday-Saturday and the working week Sunday-Thursday. Official holidays include Eid al-Fitr, Eid al-Adha and National Day (18 and 19 November)."
+sources:
+  - id: om-cia
+    name: "CIA World Factbook - Oman (people and society)"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/oman/"
+    accessedDate: "2026-09-19"
+    note: "Religions breakdown (Islam ~85.9%, Christianity 6.5%, Hinduism 5.5%, Buddhism 0.8%, other 1.0%) among the total resident population."

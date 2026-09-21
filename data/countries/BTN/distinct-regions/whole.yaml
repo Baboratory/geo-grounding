@@ -1,0 +1,107 @@
+code: WHOLE
+name:
+  eng: Bhutan
+  local:
+    - languageCode: dzo
+      value: འབྲུག་ཡུལ་
+climates:
+  - koppenCode: Cwb
+    description: Humid subtropical climate in the southern foothills, grading to temperate and alpine conditions in the inner valleys and northern Himalayan peaks.
+landmarks:
+  - name: Paro Taktsang (Tiger's Nest)
+    description: Iconic cliff-side monastery perched about 900 metres above the Paro valley, a sacred Vajrayana site.
+  - name: Punakha Dzong
+    description: Ancient fortress-monastery at the confluence of the Puna Tsangchhu and Mo Chhu rivers, winter seat of the Je Khenpo.
+  - name: Buddha Dordenma
+    description: Huge 51-metre bronze Buddha statue overlooking Thimphu valley.
+  - name: Tashichho Dzong
+    description: Fortress-monastery in Thimphu housing the throne room and government offices.
+culturalTraits:
+  - Gross National Happiness (GNH) as the official national development philosophy
+  - Prayer flags and prayer wheels in the landscape
+  - Dzong (fortress-monastery) architecture
+  - Masked Cham dances and religious festivals
+  - Respect for the monarchy, elders and Buddhist ethics
+prideOf:
+  - Being the first country to codify Gross National Happiness as state policy
+  - Carbon-negative status (forests absorb more carbon than the country emits)
+  - The last remaining intact Buddhist kingdom, the Land of the Thunder Dragon
+animals:
+  popular:
+    - Takin (national animal)
+    - Red panda
+    - Snow leopard
+    - Black-necked crane (winters in the Phobjikha valley)
+  unique:
+    - Golden langur
+industries:
+  - Hydroelectric power (dominant export, sold largely to India)
+  - Tourism (high-value, low-impact model with a daily sustainable-development fee)
+  - Agriculture (rice, maize, cardamom, horticulture)
+sports:
+  - Archery (the national sport; tournaments are major social events)
+  - Football (soccer)
+  - Khu (a traditional stone/wooden-dart game)
+religions:
+  - name: Vajrayana Buddhism (Lamaistic)
+    percent: 75.3
+    sourceId: bt-cia
+  - name: Hinduism
+    percent: 22.1
+    sourceId: bt-cia
+  - name: Christianity
+    percent: 0.5
+    sourceId: bt-cia
+  - name: Bon (indigenous)
+    percent: 0.4
+    sourceId: bt-cia
+  - name: Other
+    percent: 1.7
+    sourceId: bt-cia
+entertainment:
+  - season: spring
+    items:
+      - Paro Tshechu (spring festival with masked Cham dances)
+  - season: autumn
+    items:
+      - Thimphu Tshechu (autumn religious festival)
+  - season: allYear
+    items:
+      - Traditional music and dance performances during festivals and social gatherings
+traditionalDishes:
+  - season: allYear
+    items:
+      - Ema datshi (chilli and cheese stew, the national dish)
+      - Jasha maru (spiced chicken)
+      - Red rice with vegetable curries
+      - Suja (butter tea) and ara (local rice liquor)
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men: the gho, a knee-length robe fastened with a kera belt"
+      - "Women: the kira, an ankle-length dress worn with a long-sleeved blouse (wonju)"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: [saturday, sunday]
+  typicalWorkHours: "Government and much of the modern formal sector operate Monday-Friday, roughly 9:00-17:00."
+  notableShutdownPeriods:
+    - period: "Tshechu festivals"
+      description: "Widespread closures and pauses during the Paro and Thimphu Tshechu festivals and other major Buddhist holidays."
+    - period: "Winter solstice and summer break"
+      description: "Winter-solstice-related holidays and a summer break slow business; many public holidays track the lunar Buddhist calendar."
+  notes: "Public holidays are numerous and often coincide with lunar Buddhist calendar dates."
+sources:
+  - id: bt-cia
+    name: "CIA World Factbook - Bhutan (people and society)"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/bhutan/"
+    accessedDate: "2026-09-19"
+    note: "Religious-affiliation estimates (Buddhism 75.3%, Hinduism 22.1%, Christianity 0.5%, Bon 0.4%, other 1.7%) from 2005 census estimates."

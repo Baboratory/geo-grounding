@@ -1,0 +1,8 @@
+code: ppl
+name:
+  eng: Nawat (Pipil)
+  local: Nawat
+# No verified common-phrases set is available: Nawat is an endangered language
+# with a small number of native speakers and no standardized phrase guide we
+# can cite. Left out rather than risk unverified content, per the no-hallucination
+# premise of this project.
