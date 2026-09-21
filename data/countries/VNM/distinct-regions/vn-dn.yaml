@@ -1,0 +1,82 @@
+code: VN-DN
+name:
+  eng: Da Nang (Central Coast)
+  local:
+    - languageCode: vie
+      value: Đà Nẵng
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon — warm and humid year-round; the central region receives heavy rainfall, especially September-November, with a drier period from January to August."
+landmarks:
+  - name: Marble Mountains
+    description: "The cluster of five marble-and-limestone hills with caves, temples and pagodas south of the city."
+  - name: Bà Nà Hills and the Golden Bridge
+    description: "The mountaintop resort and its famed giant-hand Golden Bridge."
+  - name: My Khe Beach
+    description: "The long, sandy beach known for its gentle surf."
+  - name: Museum of Cham Sculpture
+    description: "The world's foremost collection of Champa sculpture."
+culturalTraits:
+  - "Vietnam's fast-growing central coastal hub, linking north and south"
+  - "A modern, well-planned city famed for its bridges (the Dragon Bridge) and beachfront development"
+  - "The gateway to Hội An, Huế and My Son Cham heritage"
+prideOf:
+  - "Its modern infrastructure, clean beaches and rapid urban development"
+  - "Serving as the cultural bridge between the ancient Cham, Huế and Hội An heritage"
+animals:
+  popular:
+    - "Marine life off the coast"
+    - "Birds and monkeys in the nearby hills"
+industries:
+  - "Tourism and hospitality — a leading resort and conference destination"
+  - "Logistics and the central port"
+  - "High-tech and software parks"
+sports:
+  - "Beach sports and water activities on My Khe and Non Nuoc beaches"
+  - "Football and a growing marathon culture"
+religions:
+  - name: No religion / folk practice
+    percent: 72.0
+    sourceId: irf-dn
+  - name: Buddhism
+    percent: 15.0
+    sourceId: irf-dn
+  - name: Catholicism and other
+    percent: 13.0
+    sourceId: irf-dn
+entertainment:
+  - season: allYear
+    items:
+      - "Beach culture and the Dragon Bridge fireworks on weekends"
+      - "Day trips to Hội An, Bà Nà Hills and My Son"
+      - "The Cham Sculpture Museum and local seafood restaurants"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Mì Quảng — the turmeric-noodle dish of central Vietnam"
+      - "Bánh xèo and chả cá; fresh central-coast seafood"
+      - "Bún chả cá (fish-cake noodle soup)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light resort wear for the beach climate"
+      - "Áo dài on formal occasions"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4, 5, 6, 7, 8]
+  - season: wet
+    months: [9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 08:00-17:30 Monday-Friday; tourism businesses operate into the evening."
+  lunchBreakTiming: "A lunch break around 11:30-13:00."
+  notes: "A modern, tourism-led city. E-wallet and QR payments dominate in the hospitality sector."
+sources:
+  - id: irf-dn
+    name: "2020 Report on International Religious Freedom: Vietnam"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/wp-content/uploads/2021/05/240282-VIETNAM-2020-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Religious composition (composite estimate consistent with national census data)."

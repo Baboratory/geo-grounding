@@ -1,0 +1,83 @@
+code: VN-26
+name:
+  eng: Thừa Thiên-Huế (Central / Imperial)
+  local:
+    - languageCode: vie
+      value: Thừa Thiên Huế
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon on the central coast — hot and humid with very heavy rainfall in the autumn months (September-November) and a drier, cooler period from January to August."
+landmarks:
+  - name: Complex of Huế Monuments
+    description: "The Citadel, Imperial City and royal tombs of the Nguyễn dynasty, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Perfume River (Sông Hương)
+    description: "The river threading through the former imperial capital, lined with royal tombs and pagodas."
+  - name: Thiên Mụ Pagoda
+    description: "The seven-storey pagoda, symbol of Huế."
+  - name: Khải Định's Tomb
+    description: "The ornate early-20th-century royal tomb blending Vietnamese and European elements."
+culturalTraits:
+  - "The former imperial capital of the Nguyễn dynasty (1802-1945), and the cultural heart of central Vietnam"
+  - "Refined, courtly culture — imperial cuisine, royal music (nhã nhạc) and traditional dress"
+  - "A slower, more ceremonial city than the commercial hubs of Hanoi and Saigon"
+prideOf:
+  - "Its imperial heritage and the UNESCO-listed Huế monuments"
+  - "The refined court cuisine and the 'áo dài' elegance associated with Huế"
+animals:
+  popular:
+    - "Water buffalo on the rice plains"
+    - "Birds along the Perfume River"
+industries:
+  - "Tourism and heritage conservation"
+  - "Agriculture and aquaculture on the coastal lagoons"
+  - "Buddhist- and court-craft traditions (incense, bronze, silk)"
+sports:
+  - "Football and traditional games"
+  - "City-running and cycling along the Perfume River"
+religions:
+  - name: Buddhism
+    percent: 30.0
+    sourceId: irf-hue
+  - name: No religion / folk practice
+    percent: 60.0
+    sourceId: irf-hue
+  - name: Catholicism and other
+    percent: 10.0
+    sourceId: irf-hue
+entertainment:
+  - season: allYear
+    items:
+      - "Imperial court music (nhã nhạc) and royal ceremonies"
+      - "The Huế Festival (biennial cultural festival)"
+      - "River cruises and dragon-boat rides on the Perfume River"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Bún bò Huế — the spicy beef noodle soup of the imperial city"
+      - "Bánh bèo, bánh khoái and the refined royal dishes"
+      - "Chè (royal sweet desserts) and the mild, herbal flavours of Huế cuisine"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Áo dài, worn with particular elegance and pride in Huế"
+      - "The traditional nón lá (conical hat) common in the region"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4, 5, 6, 7, 8]
+  - season: wet
+    months: [9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 07:30-17:00 Monday-Friday; some services close for the midday break."
+  lunchBreakTiming: "A lunch break around 11:30-13:00."
+  notes: "A heritage city with a slower rhythm than the commercial hubs. Cash and QR payments both common."
+sources:
+  - id: irf-hue
+    name: "2020 Report on International Religious Freedom: Vietnam"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/wp-content/uploads/2021/05/240282-VIETNAM-2020-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Religious composition; Huế has a notably strong Buddhist presence as a historic Buddhist centre (composite estimate)."

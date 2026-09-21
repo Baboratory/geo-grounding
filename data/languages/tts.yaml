@@ -1,0 +1,8 @@
+code: tts
+name:
+  eng: Northeastern Thai (Isan)
+  local: ภาษาอีสาน
+commonPhrases:
+  hello: "สวัสดี (sawatdee) — shared with Central Thai"
+  thankYou: "ขอบใจ / ฮักแพง (khob jai / hak phaeng)"
+  goodbye: "ไปก่อน (bpai gawn)"

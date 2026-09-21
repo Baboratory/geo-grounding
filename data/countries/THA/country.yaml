@@ -1,0 +1,213 @@
+alpha3: THA
+alpha2: TH
+name:
+  eng: Thailand
+  local:
+    - languageCode: tha
+      value: ประเทศไทย
+flagEmoji: "🇹🇭"
+capital: Bangkok
+isSovereign: true
+# Classified unitary-large: Thailand's population (~65-70M, 2010 census 64.8M)
+# is far above the ~20-25M small-state threshold, it is a unitary state (a
+# constitutional monarchy with strong central government under the 2017
+# Constitution), and it has a genuine, widely recognised regional cultural
+# mosaic — Central/Siamese plain, Northern Lanna, the Northeastern Isan
+# region (with its Lao-dialect speech), and the Malay-Muslim Deep South —
+# meeting 2 of the 3 DESIGN.md criteria. Curated regions map to real ISO
+# 3166-2 provinces: Bangkok (TH-10), Chiang Mai (TH-50, Lanna north),
+# Khon Kaen (TH-40, Isan northeast), Phuket (TH-83, Andaman south) and
+# Pattani (TH-94, Malay-Muslim Deep South), plus the generic WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: TH
+hasSubdivisions: true
+languageUsage:
+  # Thai is the sole official and national language under Section 43 of the
+  # 2017 Constitution; official domain is a legal-status flag = 1.0.
+  - languageCode: tha
+    domain: official
+    speakersShare: 1.0
+    sourceId: th-constitution
+  # Regional/local spoken languages (census-based estimate, shares as first
+  # language). Central Thai ~34%, Thai Isan/Lao ~25%, Northern Thai ~10%,
+  # Southern Thai ~7.5%, Pattani Malay ~2% — recognised Tai and Malay languages
+  # commonly spoken in their respective regions.
+  - languageCode: tha
+    domain: locallySpoken
+    speakersShare: 0.34
+    sourceId: nso-2010
+  - languageCode: tts
+    domain: locallySpoken
+    speakersShare: 0.25
+    sourceId: nso-2010
+  - languageCode: nod
+    domain: locallySpoken
+    speakersShare: 0.10
+    sourceId: nso-2010
+  - languageCode: sou
+    domain: locallySpoken
+    speakersShare: 0.08
+    sourceId: nso-2010
+  - languageCode: mfa
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: nso-2010
+  # English is the principal foreign language (widely used in tourism,
+  # business and education, though fluency is concentrated in urban areas).
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.20
+    sourceId: ef-eng
+ethnicGroups:
+  # 2010 population census classified ~95% of the population as "Thai" by
+  # ethnicity; the census records ethnicity as one category, so sub-Thai
+  # divisions (Sino-Thai, regional Thai) are estimates from academic sources.
+  - group: Thai (including regional Thai and Sino-Thai)
+    percent: 95.9
+    sourceId: nso-2010
+  - group: Burmese and other migrant communities
+    percent: 2.0
+    sourceId: nso-2010
+  - group: Other (including Malay-Muslim, Khmer, Karen, Hmong and other highland groups)
+    percent: 2.1
+    sourceId: nso-2010
+# religions intentionally left in the WHOLE region file (percent figures with
+# source) rather than repeated here, per dataset convention of keeping
+# regional religious composition in the region files.
+timezones:
+  - name: Asia/Bangkok
+    standardUtcOffset: "UTC+7"
+    observesDst: false
+currency:
+  code: THB
+  symbol: "฿"
+  name: Thai baht
+legalConstraints:
+  - topic: "official language"
+    description: "Section 43 of the Constitution of the Kingdom of Thailand B.E. 2560 (2017) provides that the Thai language is the official national language, while the State must support the use of local languages as appropriate."
+    sourceId: th-constitution
+  - topic: "data protection"
+    description: "The Personal Data Protection Act B.E. 2562 (2019), fully in force since June 2022, is Thailand's first consolidated data-protection law. Modeled on the EU GDPR, it governs collection, use and disclosure of personal data, grants data-subject rights (access, correction, erasure), requires consent for most processing, has extraterritorial reach, and imposes administrative fines of up to THB 5 million plus criminal penalties for non-compliance."
+    sourceId: pdpa-2019
+  - topic: "value added tax (VAT) price display"
+    description: "VAT is 7% (a Royal Decree has maintained this reduced rate effective since October 2017, most recently extended; the statutory headline rate is 10%). Standard goods and services carry 7%; exports and certain international services are zero-rated. Retail prices are customarily displayed VAT-inclusive."
+    sourceId: rd-vat
+  - topic: "consumer protection"
+    description: "Consumer protection is governed by the Consumer Protection Act B.E. 2522 (1979), amended by B.E. 2541 (1998) and later revisions, administered by the Office of the Consumer Protection Board. It covers quality of goods and services, contract terms, labelling and redress."
+    sourceId: ocpb-act
+paymentCulture:
+  popularMethods:
+    - "PromptPay — the national account-to-account real-time transfer rail (Bank of Thailand) used for instant payments via QR, phone number or national ID; the single most common digital payment method"
+    - "Cash — still widely used, especially for small daily purchases (Thai consumers historically among APAC's highest cash users)"
+    - "Bank cards (Visa/Mastercard) — accepted in larger retailers, hotels and online"
+    - "E-wallets (e.g. TrueMoney) and mobile banking apps — widely used for transfers and in-app payments"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected. Small change left at upscale restaurants or a tip for hotel staff and guides is appreciated but optional."
+    autoIncludedInBill: false
+    note: "Qualitative and customary. PromptPay QR is ubiquitous at shops, markets and street stalls."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Very polite, hierarchy-conscious and non-confrontational. Respect for seniority, titles and the monarchy matters deeply, and public criticism of the royal family is legally restricted."
+  greetingNorms: "The wai (palms pressed together) is the traditional greeting; a light wai or a smile is expected. Physical contact and public confrontation are avoided."
+  meetingEtiquette: "Meetings open with the wai and friendly small talk; business is conducted calmly and never by confrontation. Saving face is paramount, so problems are raised indirectly."
+  topicsToAvoid:
+    - "The royal family and criticism of the monarchy"
+    - "Thai politics and the deep-South conflict"
+    - "Anything that could cause loss of face to your counterpart"
+  giftGivingNotes: "Small thoughtful gifts are well received; avoid giving with the left hand and present/receive with both hands."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: TH-10
+    file: distinct-regions/th-10.yaml
+    adminUnitCodes: [TH-10]
+  - code: TH-50
+    file: distinct-regions/th-50.yaml
+    adminUnitCodes: [TH-50]
+  - code: TH-40
+    file: distinct-regions/th-40.yaml
+    adminUnitCodes: [TH-40]
+  - code: TH-83
+    file: distinct-regions/th-83.yaml
+    adminUnitCodes: [TH-83]
+  - code: TH-94
+    file: distinct-regions/th-94.yaml
+    adminUnitCodes: [TH-94]
+sources:
+  - id: th-constitution
+    name: "Constitution of the Kingdom of Thailand B.E. 2560 (2017) — Section 43 (official language)"
+    publisher: "The Government Gazette (Royal Thai Government)"
+    url: "https://www.ilo.org/dyn/natlex/docs/ELECTRONIC/104544/127162/F-2012562862/Constitution%202560.pdf"
+    year: 2017
+    accessedDate: "2026-09-21"
+    note: "Thai as the official national language; support for local languages."
+  - id: nso-2010
+    name: "The 2010 Population and Housing Census (National Statistical Office of Thailand)"
+    publisher: "National Statistical Office of Thailand (NSO)"
+    url: "https://www.nso.go.th/sites/2014en/Pages/Census/Population%20and%20Housing.aspx"
+    year: 2010
+    accessedDate: "2026-09-21"
+    note: "Ethnicity classified as ~95.9% Thai; language spoken at home figures (Central Thai ~34%, Isan/Lao ~25%, Northern Thai ~10%, Southern Thai ~7.5%, Pattani Malay ~2%)."
+  - id: ef-eng
+    name: "EF English Proficiency Index — Thailand"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    accessedDate: "2026-09-21"
+    note: "English proficiency context; Thailand ranks 'low' to 'moderate' proficiency, with English concentrated in tourism and business. Share is a composite estimate."
+  - id: pdpa-2019
+    name: "Personal Data Protection Act B.E. 2562 (2019)"
+    publisher: "Office of the Personal Data Protection Commission (Thailand)"
+    url: "https://www.trade.gov/market-intelligence/thailand-personal-data-protection-act"
+    year: 2019
+    accessedDate: "2026-09-21"
+    note: "Consolidated data-protection law, GDPR-comparable, fully enforceable June 2022; THB 5M administrative fines and criminal penalties."
+  - id: rd-vat
+    name: "Revenue Department — Value Added Tax; Royal Decree extending the 7% reduced VAT rate"
+    publisher: "Revenue Department, Ministry of Finance (Thailand)"
+    url: "https://www.vatupdate.com/2024/09/26/thai-official-gazette-royal-decree-extends-vat-rate-reduction-to-2025"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "VAT maintained at 7% by Royal Decree; statutory headline rate 10%."
+  - id: ocpb-act
+    name: "Consumer Protection Act B.E. 2522 (1979) and amendments"
+    publisher: "Office of the Consumer Protection Board (Thailand)"
+    url: "https://www.ocpb.go.th/en"
+    year: 1979
+    accessedDate: "2026-09-21"
+    note: "Consumer protection framework covering product quality, contracts and redress."
+  - id: iso-tha
+    name: "ISO 639-3 entry: tha — Thai"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/tha"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code tha."
+  - id: iso-tts
+    name: "ISO 639-3 entry: tts — Northeastern Thai"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/tts"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code tts."
+  - id: iso-nod
+    name: "ISO 639-3 entry: nod — Northern Thai"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/nod"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code nod."
+  - id: iso-sou
+    name: "ISO 639-3 entry: sou — Southern Thai"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/sou"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code sou."
+  - id: iso-mfa
+    name: "ISO 639-3 entry: mfa — Pattani Malay"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/mfa"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code mfa."

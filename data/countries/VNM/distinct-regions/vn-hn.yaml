@@ -1,0 +1,83 @@
+code: VN-HN
+name:
+  eng: Hanoi (Red River Delta / North)
+  local:
+    - languageCode: vie
+      value: Hà Nội
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical — four distinct seasons with cool winters (occasionally chilly, damp), hot humid summers, and pleasant spring and autumn."
+landmarks:
+  - name: Hoan Kiem Lake and Ngoc Son Temple
+    description: "The historic heart of Hanoi, the legendary lake and its island temple."
+  - name: Imperial Citadel of Thang Long
+    description: "The royal citadel of successive dynasties, a UNESCO World Heritage Site in central Hanoi."
+    unescoWorldHeritage: true
+  - name: Ho Chi Minh Mausoleum
+    description: "The memorial of Vietnam's founding leader on Ba Dinh Square."
+  - name: Old Quarter
+    description: "The 36 ancient streets of Hanoi's historic trading quarter."
+culturalTraits:
+  - "Vietnam's capital and political-cultural centre of the north"
+  - "An elegant, older, more tradition-minded city than Ho Chi Minh City, famed for its lakes and French-colonial architecture"
+  - "Home to the national universities, museums and the heart of Vietnamese literary pride"
+prideOf:
+  - "A thousand years of history (a millennial capital)"
+  - "Its intellectual and political leadership role in Vietnam"
+animals:
+  popular:
+    - "Freshwater turtles in Hoan Kiem Lake"
+    - "The many birds of the city's lakes and parks"
+industries:
+  - "Government and public administration (the political capital)"
+  - "Education, research and technology"
+  - "Manufacturing in the surrounding Red River Delta and industrial parks"
+sports:
+  - "Football — home to the national stadium and major clubs"
+  - "Southeast Asian Games heritage sports; a growing fitness culture"
+religions:
+  - name: No religion / folk practice
+    percent: 74.0
+    sourceId: irf-hn
+  - name: Buddhism
+    percent: 15.0
+    sourceId: irf-hn
+  - name: Catholicism and other
+    percent: 11.0
+    sourceId: irf-hn
+entertainment:
+  - season: allYear
+    items:
+      - "Water-puppet theatre and traditional music in the Old Quarter"
+      - "Café culture on the lake and in the Old Quarter"
+      - "Museums and the night market on weekends"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Phở Hà Nội — the birthplace of the famous noodle soup"
+      - "Bún chả and chả cá (grilled fish) — northern specialities"
+      - "Trứng vịt lộn (balut) and the street snacks of the Old Quarter"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Áo dài, worn by women in schools, offices and ceremonies"
+      - "Layered clothing in the cooler northern winter"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 08:00-17:00 Monday-Friday; many shops and services open earlier and some open Saturday; a midday break is common."
+  lunchBreakTiming: "A lunch break around 11:30-13:00; phở and noodle shops are busy at noon."
+  notes: "Official capital rhythm. Tết brings a lengthy annual shutdown. E-wallet and QR payments dominate."
+sources:
+  - id: irf-hn
+    name: "2020 Report on International Religious Freedom: Vietnam"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/wp-content/uploads/2021/05/240282-VIETNAM-2020-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Religious composition (the north, including Hanoi, has a significant Catholic presence around the archdiocese; composite estimate consistent with national census data)."

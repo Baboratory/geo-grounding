@@ -1,0 +1,82 @@
+code: VN-SG
+name:
+  eng: Ho Chi Minh City (South / Southeast)
+  local:
+    - languageCode: vie
+      value: Thành phố Hồ Chí Minh
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry — hot and humid year-round with a distinct dry season (Dec-Apr) and heavy wet season (May-Nov)."
+landmarks:
+  - name: Notre-Dame Cathedral Basilica and Central Post Office
+    description: "The iconic French-colonial landmarks on the city's central square."
+  - name: Bến Thành Market
+    description: "The bustling central market and symbol of the city."
+  - name: Reunification Palace (Independence Palace)
+    description: "The former presidential palace at the centre of the city's 1975 history."
+  - name: Bitexco Financial Tower
+    description: "The soaring skyscraper piercing the city skyline."
+culturalTraits:
+  - "Vietnam's economic engine — the largest city and commercial centre of the south"
+  - "A young, fast-paced, entrepreneurial metropolis, formerly Saigon"
+  - "Cosmopolitan, with a booming business scene and a dynamic food and nightlife culture"
+prideOf:
+  - "Being Vietnam's leading economic and financial hub"
+  - "Its boundless energy, entrepreneurship and the resilience captured in its modern growth"
+animals:
+  popular:
+    - "Monitor lizards and birds in the city's riverside parks"
+    - "The many street dogs and city cats"
+industries:
+  - "Finance, banking and corporate headquarters"
+  - "Manufacturing, electronics and apparel in the surrounding industrial zones"
+  - "Trade, logistics, real estate and a fast-growing technology scene"
+sports:
+  - "Football — home to major clubs and the city's passionate fans"
+  - "Fitness culture, basketball and the growing e-sports scene"
+religions:
+  - name: No religion / folk practice
+    percent: 70.0
+    sourceId: irf-hcm
+  - name: Buddhism
+    percent: 15.0
+    sourceId: irf-hcm
+  - name: Catholicism and other (incl. Caodaism, Hòa Hảo)
+    percent: 15.0
+    sourceId: irf-hcm
+entertainment:
+  - season: allYear
+    items:
+      - "Cafés and rooftop bars; the city is famous for its coffee culture"
+      - "Shopping in District 1 and the entertainment districts (Bùi Viện)"
+      - "Cinema, live music and street-food tourism"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Cơm tấm (broken rice with grilled pork) — the Saigon specialty"
+      - "Phở and bánh mì, plus the southern-style bún riêu and hủ tiếu"
+      - "Chè (sweet desserts) and iced milk coffee"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light, breathable clothing for the tropical climate"
+      - "Áo dài on ceremonial and work occasions"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 08:00-17:30 Monday-Friday; many services open Saturday; a midday break is common."
+  lunchBreakTiming: "A lunch break around 11:30-13:00; cơm tấm and street food at noon."
+  notes: "The country's most dynamic business city. E-wallets, QR and bank transfers dominate; Tết still brings an annual two-week shutdown."
+sources:
+  - id: irf-hcm
+    name: "2020 Report on International Religious Freedom: Vietnam"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/wp-content/uploads/2021/05/240282-VIETNAM-2020-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Religious composition; the south has a higher concentration of the Caodaist and Hòa Hảo new religions than the north (composite estimate)."

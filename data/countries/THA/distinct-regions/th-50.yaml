@@ -1,0 +1,85 @@
+code: TH-50
+name:
+  eng: Chiang Mai (Northern / Lanna)
+  local:
+    - languageCode: nod
+      value: เชียงใหม่
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry highland climate, cooler than the lowlands; mountain areas (Doi Inthanon) are mild and misty."
+landmarks:
+  - name: Wat Phra That Doi Suthep
+    description: "The golden mountaintop temple overlooking Chiang Mai city, the iconic symbol of the north."
+  - name: Old City moat and walls
+    description: "The 13th-century Lanna capital with its surviving walls, moat and more than 300 temples."
+  - name: Doi Inthanon National Park
+    description: "Thailand's highest peak (2,565m) with cloud forests, waterfalls and hill-tribe villages."
+  - name: Chiang Mai Night Bazaar
+    description: "The celebrated evening market for handicrafts and street food."
+culturalTraits:
+  - "The cultural capital of the former Lanna kingdom, with its distinct Kham Mueang language and tradition"
+  - "A slower, traditionally-minded pace amid mountain scenery and hill-tribe communities (Hmong, Karen, Lahu)"
+  - "The focus of Thailand's hill-tribe and organic-farming tourism"
+prideOf:
+  - "Preserving Lanna heritage — temples, crafts, and the Northern Thai language"
+  - "Doi Inthanon and the region's natural beauty"
+animals:
+  popular:
+    - "Asian elephants — the north is the centre of elephant tourism and sanctuaries"
+    - "Gibbons and hornbills in the montane forests"
+  unique:
+    - "The crested argus pheasant in remnant forests"
+industries:
+  - "Tourism and wellness (spas, meditation retreats, coffee farms)"
+  - "Crafts and handicrafts (silver, lacquerware, textiles)"
+  - "Agriculture — rice, coffee, tea and the famous longan fruit"
+sports:
+  - "Muay Thai gyms and boxing camps"
+  - "Mountain trekking and cycling"
+  - "Badminton and football"
+religions:
+  - name: Theravada Buddhism
+    percent: 90.0
+    sourceId: irf-nth
+  - name: Animism and hill-tribe traditions
+    percent: 5.0
+    sourceId: irf-nth
+  - name: Christianity and Islam
+    percent: 5.0
+    sourceId: irf-nth
+entertainment:
+  - season: allYear
+    items:
+      - "Temple festivals, especially the Yi Peng lantern festival in November"
+      - "The Night Bazaar and traditional Lanna dance performances"
+      - "Meditation and wellness retreats in the mountains"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Khao soi — the north's signature egg-noodle curry"
+      - "Sai ua (northern sausage) and nam prik ong (chilli dip)"
+      - "Khao niao (glutinous rice) with som tam"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Pha sin (handwoven tube skirt) for women, often named after the village that wove it"
+      - "Traditional Lanna dress at festivals"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Roughly 09:00-18:00 Monday-Friday; tourist-oriented businesses also open weekends."
+  lunchBreakTiming: "A midday lunch break; khao soi and noodle shops are busy at noon."
+  notes: "A relaxed, tourist-savvy rhythm. Cash and PromptPay are common; the old city is best explored on foot or by tuk-tuk."
+sources:
+  - id: irf-nth
+    name: "2020 Report on International Religious Freedom: Thailand"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2020-report-on-international-religious-freedom/thailand/"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Religious composition; the hill-tribe north has a higher proportion of animist and Christian communities than the national average (composite estimate)."
