@@ -1,0 +1,66 @@
+code: WHOLE
+name:
+  eng: French Southern and Antarctic Lands
+  local:
+    - languageCode: fra
+      value: Terres australes et antarctiques françaises
+climates:
+  - koppenCode: ET
+    description: Tundra climate on the sub-Antarctic islands (Crozet, Kerguelen, Amsterdam) — cool, windy and cloudy year-round with frequent precipitation.
+  - koppenCode: EF
+    description: Ice cap climate on Adélie Land in Antarctica, permanently below freezing.
+landmarks:
+  - name: Kerguelen Islands (Desolation Islands)
+    description: The territory's largest sub-Antarctic archipelago, dominated by the glaciated Grand Tête volcano and the research station at Port-aux-Français.
+  - name: Crozet Archipelago
+    description: Two island groups home to large penguin and seabird colonies, with the Alfred Faure research station on Île de la Possession.
+  - name: Île Amsterdam and Île Saint-Paul
+    description: Two isolated volcanic islands with a temperate grassland/tree cover; Île Amsterdam hosts a research station.
+  - name: Adélie Land (Terre Adélie)
+    description: France's claim wedge on the Antarctic continent, hosting the Dumont d'Urville station.
+culturalTraits:
+  - "Sub-Antarctic scientific research outpost of France"
+  - "French sealing and whaling-era history on the southern islands"
+prideOf:
+  - "Exceptional sub-Antarctic wildlife and near-pristine ecosystems"
+  - "Endurance-era exploration heritage (Kerguelen, Adélie Land)"
+animals:
+  popular:
+    - King penguin
+    - Elephant seal
+    - "Rockhopper penguin (Crozet and Kerguelen)"
+    - Fur seal
+  unique:
+    - "Kerguelen cabbage (Brassicaceae Pringlea antiscorbutica) — an endemic sub-Antarctic plant"
+industries:
+  - Scientific research (seabird and marine-mammal ecology, climate)
+  - Fisheries licensing in the French Southern Ocean exclusive economic zone
+sports:
+  - Hiking and mountaineering on Kerguelen
+  - Wildlife observation
+# religions, entertainment, traditionalDishes, traditionalClothing and
+# businessRhythm intentionally omitted: with no permanent population there is no
+# settled resident cultural or commercial calendar — activity is seasonal
+# scientific research and supply logistics only.
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+sources:
+  - id: taaf-pocketbook
+    name: "TAAF — territory, geography and wildlife"
+    publisher: "Préfecture des TAAF / Wikipédia"
+    url: "https://en.wikipedia.org/wiki/French_Southern_and_Antarctic_Lands"
+    accessedDate: "2026-09-20"
+    note: "District geography (Crozet, Kerguelen, Saint-Paul & Amsterdam, Scattered Islands, Adélie Land), the Dumont d'Urville and Alfred Faure stations, king penguin/elephant-seal fauna, and the Kerguelen cabbage endemic."
+  - id: aad-heard-about
+    name: "Sub-Antarctic Island context"
+    publisher: "Australian Antarctic Division"
+    url: "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/location-geography"
+    accessedDate: "2026-09-20"
+    note: "Background on the sub-Antarctic South Indian Ocean islands (Kerguelen ~450 km north-west of Heard Island) used for the region framing and season calendar."

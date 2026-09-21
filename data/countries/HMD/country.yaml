@@ -1,0 +1,65 @@
+alpha3: HMD
+alpha2: HM
+name:
+  eng: Heard Island and McDonald Islands
+  local:
+    - languageCode: eng
+      value: Heard Island and McDonald Islands
+flagEmoji: "🇭🇲"
+capital: None (uninhabited; administered by the Australian Antarctic Division)
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# The Territory of Heard Island and McDonald Islands (HIMI, declared 1947, given
+# formal status by the Heard Island and McDonald Islands Act 1953) is an
+# Australian external territory in the Southern Ocean (~4,100 km south-west of
+# Perth, ~1,700 km north of Antarctica). The islands are unoccupied by humans
+# and largely undisturbed; there is no permanent or transitory resident
+# population.
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: himi-act-1953
+# English is the official and working language of the Australian external
+# territory, but the islands themselves are uninhabited — no language is spoken
+# on-site, so only the official-domain row is listed and no locally-spoken
+# community rows are warranted.
+timezones:
+  - name: Indian/Kerguelen
+    standardUtcOffset: "UTC+5"
+    observesDst: false
+# HIMI lies at about 53°06'S / 73°30'E, closer to the Kerguelen IANA zone (UTC+5)
+# than to any Australian zone; no dedicated IANA zone is assigned, and UTC+5 is
+# the conventional offset used. No daylight saving is observed. As an unoccupied
+# territory the offset is not observed by any resident.
+currency:
+  code: AUD
+  symbol: "$"
+  name: Australian dollar
+legalConstraints:
+  - topic: "Australian external territory; uninhabited — no commercial or consumer market"
+    description: "HIMI is an Australian external territory governed under the Heard Island and McDonald Islands Act 1953, administered by the Australian Antarctic Division (Department of Climate Change, Energy, the Environment and Water). The Environment Protection and Management Ordinance 1987 requires a permit to enter or undertake activities. There is no resident population or economy, so ordinary consumer, tax and e-commerce regulations have no practical application."
+    sourceId: himi-act-1953
+paymentCulture:
+  popularMethods:
+    - "No resident population or economy — no payment methods in use"
+  # tipping intentionally omitted: there is no population and no service economy.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: himi-act-1953
+    name: "Heard Island and McDonald Islands Act 1953"
+    publisher: "Parliament of Australia (via Australian Antarctic Division)"
+    url: "https://www.antarctica.gov.au/about-antarctica/australia-in-antarctica/the-territory-of-heard-island-and-mcdonald-islands"
+    year: 1953
+    accessedDate: "2026-09-20"
+    note: "External-territory status, the 1953 Act as the legal basis, English as the official/working language, the permit regime under the 1987 Environment Protection and Management Ordinance, and the uninhabited status used for HMD."
+  - id: aad-heard-geo
+    name: "Heard Island and McDonald Islands — location and geography"
+    publisher: "Australian Antarctic Division"
+    url: "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/location-geography"
+    accessedDate: "2026-09-20"
+    note: "Location (53°S, 73°30'E), the ~380,000 km² HIMI Marine Reserve expanded in 2025, Big Ben volcano / Mawson's Peak, glaciers covering ~70% of Heard Island, and the sub-Antarctic fauna used for HMD."

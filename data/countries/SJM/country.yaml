@@ -1,0 +1,89 @@
+alpha3: SJM
+alpha2: SJ
+name:
+  eng: Svalbard and Jan Mayen
+  local:
+    - languageCode: nob
+      value: "Svalbard og Jan Mayen"
+flagEmoji: "🇸🇯"
+capital: Longyearbyen
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Svalbard and Jan Mayen is the ISO 3166-1 entry grouping two geographically
+# separate Arctic territories of Norway. Svalbard (administered under the 1920
+# Svalbard Treaty and the 1925 Svalbard Act) has a permanent civilian population
+# concentrated in Longyearbyen (~2,600–2,700, with smaller communities at
+# Barentsburg and Ny-Ålesund); Jan Mayen is an uninhabited volcanic island with
+# only a staffed meteorological station. Neither is fully part of mainland
+# Norway's county system; both are governed by the Norwegian state.
+languageUsage:
+  - languageCode: nob
+    domain: official
+    speakersShare: 1.0
+    sourceId: svalbard-act-1925
+  - languageCode: nob
+    domain: locallySpoken
+    speakersShare: 0.6
+    sourceId: ssb-population-2021
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.15
+    sourceId: ssb-population-2021
+# Norwegian is the official and dominant language of Svalbard's permanent
+# population (shared ~60%), reflecting the 2021 population register in which
+# residents of Norwegian nationality made up ~61%. A substantial Russian-speaking
+# community (~15%) lives in the coal-mining settlement of Barentsburg (operated
+# by the Russian state trust Arktikugol); other groups are largely transient
+# scientific, tourism and service workers. Jan Mayen is uninhabited.
+# The locallySpoken shares are estimates from the Norwegian population register
+# breakdown by nationality, not a survey of language use — flagged as ESTIMATEs.
+ethnicGroups:
+  - group: Norwegian
+    percent: 61.1
+    sourceId: ssb-population-2021
+  - group: Other (primarily Russian; also migrant workers from EU/Ukraine countries)
+    percent: 38.9
+    sourceId: ssb-population-2021
+timezones:
+  - name: Arctic/Longyearbyen
+    standardUtcOffset: "UTC+1"
+    dstUtcOffset: "UTC+2"
+    observesDst: true
+    dstPeriod: "Central European Time: last Sunday in March to last Sunday in October."
+currency:
+  code: NOK
+  symbol: "kr"
+  name: Norwegian krone
+legalConstraints:
+  - topic: "Special jurisdiction under the Svalbard Treaty"
+    description: "The Svalbard Treaty (1920) grants Norway full sovereignty over Svalbard while guaranteeing treaty-state nationals equal rights of residence, activity and non-discriminatory access, and demilitarises the archipelago. Svalbard is outside the EU/EEA's customs union and the Schengen Area, so it applies duty- and VAT-exempt status and distinct trade rules from mainland Norway."
+    sourceId: svalbard-act-1925
+  - topic: "Local retail and settlement constraints"
+    description: "Polar-bear safety rules and the Governor's permit system govern all travel and commerce outside Longyearbyen. Local economy is small and largely tied to the University Centre in Svalbard (UNIS), tourism and mining."
+    sourceId: svalbard-act-1925
+paymentCulture:
+  popularMethods:
+    - Visa and Mastercard (standard in Longyearbyen's shops, hotels and restaurants)
+    - Cash (Norwegian kroner) and some contactless/mobile payment
+  tipping:
+    expected: false
+    note: "Tipping is not customary in Norway, including in Svalbard; service charges are included in listed prices."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: svalbard-act-1925
+    name: "Svalbardloven (Svalbard Act, 17 July 1925) / Svalbard Treaty (9 February 1920)"
+    publisher: "Wikipedia (secondary source; primary: Svalbardloven, 1925 Svalbard Act / 1920 Svalbard Treaty)"
+    url: "https://en.wikipedia.org/wiki/Svalbard"
+    accessedDate: "2026-09-20"
+    note: "Legal basis: Norwegian sovereignty under the 1920 Treaty and 1925 Act, Norwegian as the official language, the special status (outside EU/EEA customs union and Schengen), the demilitarisation, and the Governor's permit system used for SJM."
+  - id: ssb-population-2021
+    name: "Svalbard population, 2021 (by nationality)"
+    publisher: "Wikipedia (secondary source; primary: Statistics Norway, SSB)"
+    url: "https://en.wikipedia.org/wiki/Svalbard"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "2021 population-register breakdown: ~61.1% Norwegian residents and ~38.9% other nationalities (primarily Russian, with EU/Ukrainian migrant workers) — the basis for the ethnicGroups entries and the estimated locallySpoken Norwegian/Russian shares."

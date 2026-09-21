@@ -1,0 +1,70 @@
+code: WHOLE
+name:
+  eng: Antarctica
+  # No indigenous population or local language; English is the working language
+  # of the Antarctic Treaty System and most research programmes, used here as
+  # the local-name reference.
+  local:
+    - languageCode: eng
+      value: Antarctica
+climates:
+  - koppenCode: EF
+    description: Ice cap climate covering the vast majority of the continent — year-round freezing temperatures, strong katabatic winds and minimal precipitation over the high interior plateau.
+  - koppenCode: ET
+    description: Tundra climate on the Antarctic Peninsula and coastal Antarctic islands, where summer temperatures can briefly rise above freezing and support moss, lichen and two flowering plants.
+landmarks:
+  - name: Geographic South Pole
+    description: The southernmost point of Earth, marked by the Amundsen-Scott South Pole Station.
+  - name: Transantarctic Mountains
+    description: A ~3,500 km mountain range dividing East from West Antarctica.
+  - name: McMurdo Dry Valleys
+    description: Nearly precipitation-free ice-free valleys, among the driest places on Earth and a major science site.
+  - name: Mount Vinson
+    description: The highest peak in Antarctica (4,892 m), target of mountaineering expeditions.
+culturalTraits:
+  - "Internationally managed science and conservation zone under the Antarctic Treaty System"
+  - "Heroic-era expedition history (Amundsen, Scott, Shackleton)"
+prideOf:
+  - "Pristine polar wilderness and the largest ice sheet on Earth"
+  - "A continent devoted by treaty to peace and science"
+animals:
+  popular:
+    - Emperor penguin
+    - Adélie penguin
+    - Weddell seal
+    - Humpback whale
+  unique:
+    - "Antarctic krill (Euphausia superba) — keystone species of the Southern Ocean food web"
+industries:
+  - Scientific research (climate, glaciology, astronomy, biology)
+  - IAATO-regulated tourism (mainly cruise-ship, concentrated in the Antarctic Peninsula and South Shetland Islands)
+sports:
+  - Polar expedition trekking and mountaineering
+  - "Skiing the last-degree route to the South Pole"
+# religions, entertainment, traditionalDishes, traditionalClothing and
+# businessRhythm intentionally omitted: there is no permanent resident
+# population and no settled cultural or commercial calendar on the continent —
+# only seasonal research-station and tourism operations.
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+sources:
+  - id: ats-antarctic-treaty
+    name: "The Antarctic Treaty and Protocol on Environmental Protection"
+    publisher: "Secretariat of the Antarctic Treaty (ATS)"
+    url: "https://www.ats.aq/e/antarctictreaty.html"
+    year: 1959
+    accessedDate: "2026-09-20"
+    note: "Governance and peaceful/scientific-use framing behind the culturalTraits and the continent's protected status."
+  - id: aad-about
+    name: "Antarctica: geography and environment"
+    publisher: "Australian Antarctic Division"
+    url: "https://www.antarctica.gov.au/about-antarctica/"
+    accessedDate: "2026-09-20"
+    note: "Köppen ice-cap/tundra classification, the Transantarctic Mountains and Dry Valleys, krill as a keystone species, and the continent's geography used for the WHOLE region."

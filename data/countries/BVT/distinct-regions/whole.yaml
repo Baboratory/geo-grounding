@@ -1,0 +1,49 @@
+code: WHOLE
+name:
+  eng: Bouvet Island
+  local:
+    - languageCode: nob
+      value: Bouvetøya
+climates:
+  - koppenCode: ET
+    description: Sub-Antarctic tundra/island climate — cold, cloudy and windy year-round, with most of the island blanketed by glacier ice.
+landmarks:
+  - name: Bouvetøya glacier plateau
+    description: Roughly 89% of the island is covered by an ice cap sitting on an extinct (periodically restless) shield volcano.
+  - name: "Kapp Valdivia and the exposed west coast"
+    description: One of the few largely ice-free sections of coastline, where seals and seabirds haul out.
+culturalTraits:
+  - "One of the Earth's most isolated landmasses; disused 2021 automated research station"
+prideOf:
+  - "Pristine sub-Antarctic ecosystem on the world's most isolated island"
+animals:
+  popular:
+    - Macaroni penguin
+    - Chinstrap penguin
+    - Antarctic fur seal
+    - Southern elephant seal
+  unique:
+    - "Seabird colonies breeding on the world's most remote island"
+industries:
+  - None (no human activity except occasional scientific visits and permit-based landings)
+sports:
+  - Expedition landings (permit only)
+# religions, entertainment, traditionalDishes, traditionalClothing, businessRhythm
+# and culturalTraits beyond the isolation framing intentionally omitted: Bouvet
+# is uninhabited with no resident community, culture or economy.
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+sources:
+  - id: npolar-bouvetoya
+    name: "Bouvetøya (Bouvet Island)"
+    publisher: "Norsk Polarinstitutt (Norwegian Polar Institute)"
+    url: "https://npolar.no/en/themes/bouvetoya/"
+    accessedDate: "2026-09-20"
+    note: "Bouvet as one of the most isolated islands in the world, ~89% glacier coverage, the sub-Antarctic environment, and the permit regime used for BVT's WHOLE region."

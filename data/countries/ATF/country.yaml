@@ -1,0 +1,78 @@
+alpha3: ATF
+alpha2: TF
+name:
+  eng: French Southern and Antarctic Lands
+  local:
+    - languageCode: fra
+      value: Terres australes et antarctiques françaises
+flagEmoji: "🇹🇫"
+capital: "Saint-Pierre, Réunion (administrative headquarters; no settlement geographically within the territory)"
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# The TAAF is an overseas territory of France (created 1955, re-organised 2007)
+# comprising the Crozet and Kerguelen archipelagos, Saint-Paul and Amsterdam
+# Islands, Adélie Land on the Antarctic continent, and the five Scattered
+# Islands in the western Indian Ocean. There is no permanent population — only
+# seasonal scientific researchers, logistics and military personnel (roughly
+# 150 in winter to 300+ in summer).
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: taaf-statute-1955
+# French is the sole official language. There is no permanent resident
+# community: the transitory scientific and military staff all work in French in
+# the territory's administration, so no locally-spoken community-language rows
+# are warranted and none are listed.
+timezones:
+  - name: Indian/Kerguelen
+    standardUtcOffset: "UTC+5"
+    observesDst: false
+  - name: Indian/Crozet
+    standardUtcOffset: "UTC+5"
+    observesDst: false
+  - name: Indian/Reunion
+    standardUtcOffset: "UTC+4"
+    observesDst: false
+  - name: Antarctica/DumontDUrville
+    standardUtcOffset: "UTC+10"
+    observesDst: false
+# The territory's districts span multiple timezones: Kerguelen and Crozet sit at
+# UTC+5, the Scattered Islands at UTC+4 (the administration is headquartered at
+# Saint-Pierre, Réunion, also UTC+4), and the Adélie Land Antarctic station at
+# UTC+10. None observes daylight saving.
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "French law and a special status, no EU VAT"
+    description: "The TAAF is an overseas territory of the French Republic governed by the Prefect/Administrator Superior under French law; it is outside the EU's customs and VAT territory, so French/EU consumer and e-commerce regulations do not apply as in metropolitan France. There is no permanent population and no retail market."
+    sourceId: taaf-statute-1955
+  - topic: "Environment and conservation (Scattered Islands, sub-Antarctic reserves)"
+    description: "Large parts of the territory are nature reserves with strong access restrictions; the sub-Antarctic islands (Crozet, Kerguelen, Amsterdam) are designated protected areas under French law and the Kerguelen region is managed for conservation."
+    sourceId: taaf-statute-1955
+paymentCulture:
+  popularMethods:
+    - "Card / institutional billing via the research and supply programmes (no resident retail cash economy)"
+  # tipping intentionally omitted: there is no resident public-facing service
+  # economy; activity is scientific research and logistics only.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: taaf-statute-1955
+    name: "Terres australes et antarctiques françaises — statut d'outre-mer"
+    publisher: "Préfecture des Terres australes et antarctiques françaises (TAAF)"
+    url: "https://web.archive.org/web/20170526174543/http:/www.taaf.fr/The-French-Southern-and-Antarctic-Lands"
+    year: 1955
+    accessedDate: "2026-09-20"
+    note: "Territorial status (French overseas territory since 1955, current districts), French as the official language, the absence of a permanent population (~150-300+ seasonal staff), the euro, and the governance framing used for ATF."
+  - id: taaf-pocketbook
+    name: "TAAF — the territory in brief"
+    publisher: "Préfecture des TAAF / Wikipédia"
+    url: "https://en.wikipedia.org/wiki/French_Southern_and_Antarctic_Lands"
+    accessedDate: "2026-09-20"
+    note: "Timezone spans (UTC+4/+5/+10), the ~150 winter / ~310 summer presence, and the district geography (Crozet, Kerguelen, Saint-Paul & Amsterdam, Adélie Land, Scattered Islands)."
