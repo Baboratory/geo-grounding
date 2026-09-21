@@ -1,0 +1,206 @@
+alpha3: BFA
+alpha2: BF
+name:
+  eng: Burkina Faso
+  local:
+    - languageCode: fra
+      value: Burkina Faso
+flagEmoji: "🇧🇫"
+capital: Ouagadougou
+isSovereign: true
+# Classified unitary-small: Burkina Faso (~23-24M, 2025 est.) sits at the upper
+# edge of the ~20-25M small-state threshold and is a unitary semi-presidential
+# republic with no federal structure. The Mossi heartland / west / Sahel-north
+# split reflects ethnic-geographic zones rather than a widely-recognized
+# cultural-historical regional identity meriting curation, and the only official
+# language (French) is national in scope. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-bfa-art35
+  - languageCode: mos
+    domain: locallySpoken
+    speakersShare: 0.529
+    sourceId: cia-factbook-bfa
+  - languageCode: fuh
+    domain: locallySpoken
+    speakersShare: 0.078
+    sourceId: cia-factbook-bfa
+  - languageCode: gux
+    domain: locallySpoken
+    speakersShare: 0.068
+    sourceId: cia-factbook-bfa
+  - languageCode: dyu
+    domain: locallySpoken
+    speakersShare: 0.057
+    sourceId: cia-factbook-bfa
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.022
+    sourceId: cia-factbook-bfa
+# French is the sole official language (Constitution, Art. 35) and is primarily
+# a language of administration, education and formal business; only ~2.2% speak
+# it as an everyday language. Mooré (Mossi) is the dominant national language
+# (spoken as first language by over half the population), followed by Western
+# Niger Fulfulde (Fula), Gourmanchéma and Dyula. English is a taught foreign
+# language with no authoritative spoken-share figure, so no 'foreign' row is
+# recorded.
+ethnicGroups:
+  - group: Mossi
+    percent: 53.7
+    sourceId: cia-factbook-bfa
+  - group: Fulani (Peulh/Fula)
+    percent: 6.8
+    sourceId: cia-factbook-bfa
+  - group: Gurunsi
+    percent: 5.9
+    sourceId: cia-factbook-bfa
+  - group: Bissa (Busanse)
+    percent: 5.4
+    sourceId: cia-factbook-bfa
+  - group: Gurma (Gourmantché)
+    percent: 5.2
+    sourceId: cia-factbook-bfa
+  - group: Bobo
+    percent: 3.4
+    sourceId: cia-factbook-bfa
+  - group: Senufo
+    percent: 2.2
+    sourceId: cia-factbook-bfa
+  - group: Lobi (Birifor)
+    percent: 1.5
+    sourceId: cia-factbook-bfa
+  - group: Tuareg/Bella (Tamasheq)
+    percent: 0.1
+    sourceId: cia-factbook-bfa
+  - group: Other
+    percent: 12.8
+    sourceId: cia-factbook-bfa
+# CIA Factbook ethnic composition (2021 est.): the Mossi are the country's
+# largest group; the remainder are numerous Sahel and Sudanian-zone peoples.
+timezones:
+  - name: Africa/Ouagadougou
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+currency:
+  code: XOF
+  symbol: "Fr"
+  name: West African CFA franc (CFA franc BCEAO)
+legalConstraints:
+  - topic: "official languages"
+    description: "Article 35 of the Constitution (revised 2015) establishes French as the sole official language. Mooré, Fulfulde, Gourmanchéma and other national languages are spoken but not official at the national level."
+    sourceId: constitution-bfa-art35
+  - topic: "data protection"
+    description: "The processing of personal data is regulated by Law No. 001-2021 of 30 March 2021 on the protection of persons with regard to the processing of personal data."
+    sourceId: dlapiper-bfa-dp
+  - topic: "copyright"
+    description: "Literary and artistic property is protected under Loi n° 048-2019/AN of 12 November 2019, the successor to the earlier Loi 032-99/AN."
+    sourceId: wipo-bfa-copyright
+  - topic: "VAT"
+    description: "Value-added tax (TVA) is levied at a standard rate of 18%, with a reduced 10% rate for hotel/restaurant services and domestic air transport."
+    sourceId: pwc-bfa-tax
+paymentCulture:
+  popularMethods:
+    - "Cash is overwhelmingly dominant at the point of sale, especially outside the capital"
+    - "Mobile money: Orange Money, Wave, MTN Mobile Money"
+    - "Bank cards and mobile banking growing in Ouagadougou and Bobo-Dioulasso"
+  tipping:
+    expected: false
+    typicalAmount: "Not customary as a fixed percentage; rounding up or a small gratuity appreciated for good service"
+    autoIncludedInBill: false
+# No official payment-method split is published by the central bank or national
+# statistics office, so paymentMethodShares is intentionally omitted.
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Respect for age and authority is important; people are usually addressed by title and first name; greetings are warm and extended. French is the language of business and administration."
+  greetingNorms: "Handshake on meeting; a greeting exchange asking about health and family is customary before starting business."
+  meetingEtiquette: "Punctuality is appreciated though a relaxed attitude to time is common; decisions tend to be consultative and may take time; building personal trust precedes business."
+  topicsToAvoid:
+    - "Recent political instability and the security situation (insurgency and the 2022 coups) are sensitive"
+    - "Ethnic or religious tensions and communal identity politics"
+  giftGivingNotes: "Not expected at first meetings; a small gift or reciprocating hospitality is welcome once a relationship develops. Hospitality (sharing food/tea) is highly valued."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: constitution-bfa-art35
+    name: "Constitution of Burkina Faso, 1991 (revised 2015), Article 35"
+    publisher: "Constitute Project (comparative constitutions project)"
+    url: "https://www.constituteproject.org/constitution/Burkina_Faso_2015"
+    year: 2015
+    accessedDate: "2026-09-21"
+    note: "Legal basis for French as the sole official language; confirms the unitary semi-presidential republic structure."
+  - id: cia-factbook-bfa
+    name: "The World Factbook: Burkina Faso — People and Society"
+    publisher: "U.S. Central Intelligence Agency (CIA World Factbook)"
+    url: "https://www.cia.gov/the-world-factbook/countries/burkina-faso/"
+    year: 2025
+    accessedDate: "2026-09-21"
+    note: "Source of ethnic composition (2021 est.), language shares (2019 est.), religions (2019 est.), and climate zones."
+  - id: dlapiper-bfa-dp
+    name: "Data Protection Laws of the World — Burkina Faso"
+    publisher: "DLA Piper"
+    url: "https://www.dlapiperdataprotection.com/index.html?t=law&c=BF"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "Law No. 001-2021 of 30 March 2021 on protection of personal data."
+  - id: wipo-bfa-copyright
+    name: "Loi n° 048-2019/AN on literary and artistic property"
+    publisher: "WIPO Lex (World Intellectual Property Organization)"
+    url: "https://wipo.int/wipolex/en/text/590452"
+    year: 2019
+    accessedDate: "2026-09-21"
+    note: "Current copyright law of Burkina Faso (adopted 12 Nov 2019), replacing Loi 032-99/AN."
+  - id: pwc-bfa-tax
+    name: "PwC Worldwide Tax Summaries: Burkina Faso"
+    publisher: "PwC / DGI (Direction Générale des Impôts)"
+    url: "https://taxsummaries.pwc.com/burkina-faso/"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "18% standard VAT (TVA) rate, with a reduced 10% rate for hotel/restaurant services and domestic air transport."
+  - id: iso-eng
+    name: "ISO 639-3 entry: eng - English"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/eng"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code eng."
+  - id: iso-fra
+    name: "ISO 639-3 entry: fra - French"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/fra"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code fra."
+  - id: iso-mos
+    name: "ISO 639-3 entry: mos - Mossi"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/mos"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code mos = Mossi (Individual, Living)."
+  - id: iso-fuh
+    name: "ISO 639-3 entry: fuh - Western Niger Fulfulde"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/fuh"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code fuh = Western Niger Fulfulde (Individual, Living), a member of the Fulah macrolanguage."
+  - id: iso-gux
+    name: "ISO 639-3 entry: gux - Gourmanchéma"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/gux"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code gux = Gourmanchéma (Individual, Living)."
+  - id: iso-dyu
+    name: "ISO 639-3 entry: dyu - Dyula"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/dyu"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code dyu = Dyula (Individual, Living)."

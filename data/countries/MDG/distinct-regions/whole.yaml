@@ -1,0 +1,139 @@
+code: WHOLE
+name:
+  eng: Madagascar
+  local:
+    - languageCode: mlg
+      value: Madagasikara
+    - languageCode: fra
+      value: Madagascar
+# Generic country-wide fallback content for Madagascar (unitary-large, curated
+# regions mapped to ISO 3166-2 provinces; this file is the national fallback).
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest — eastern escarpment receives trade-wind rain year-round (wettest December-March)."
+  - koppenCode: Cwb
+    description: "Subtropical highland — central plateau (Antananarivo ~1,300 m), mild temperatures with a dry-season chill."
+  - koppenCode: BSh
+    description: "Hot semi-arid — southwest/west rain shadow, dry May-October."
+landmarks:
+  - name: Tsingy de Bemaraha
+    description: "Cathedral-like razor-sharp limestone pinnacles and dry deciduous forest in western Madagascar; the country's first UNESCO World Heritage Site (1990)."
+    unescoWorldHeritage: true
+  - name: Royal Hill of Ambohimanga
+    description: "The spiritual and political centre of the Merina kingdom, north of Antananarivo; Madagascar's sole cultural UNESCO site (2001)."
+    unescoWorldHeritage: true
+  - name: Rainforests of the Atsinanana
+    description: "Six eastern national parks protecting Madagascar's endemic rainforest ecosystems; UNESCO natural site 2007."
+    unescoWorldHeritage: true
+  - name: Avenue of the Baobabs
+    description: "Iconic dirt road near Morondava lined with monumental Grandidier's baobabs, best seen at sunset."
+  - name: Isalo National Park
+    description: "Sandstone canyons, grassland and endemic flora in the south."
+  - name: Nosy Be
+    description: "Resort island off the northwest ('Perfume Island'), famed for beaches and ylang-ylang plantations."
+culturalTraits:
+  - "The fady (taboo) system — a complex set of cultural taboos governing daily life that outsiders should learn and honour"
+  - "Community, elders and ancestry are paramount; the living maintain ties to the razana (ancestors), celebrated in the famadihana reburial ceremony"
+  - "'Island of the 18 tribes' — a mosaic of ethnic groups sharing one Austronesian-derived Malagasy language"
+  - "Strong oral tradition, music (valiha bamboo zither, kabosy) and weaving (lamba textiles, raffia)"
+  - "Warm, hospitable, non-confrontational culture rooted in fihavanana (kinship and solidarity)"
+prideOf:
+  - "Lemurs — Madagascar's iconic endemic primates, found nowhere else on Earth"
+  - "Extraordinary biodiversity: ~90% of wildlife (chameleons, fossa, tenrec) is endemic after ~88 million years of isolation"
+  - "Baobab trees and the Avenue of the Baobabs"
+  - "The deep respect culture of fady and fihavanana"
+  - "Being the world's leading vanilla producer"
+animals:
+  popular:
+    - "Ring-tailed lemur"
+    - "Indri"
+    - "Sifaka lemurs"
+    - "Chameleons"
+    - "Fossa"
+  unique:
+    - "Lemurs (100+ species, all endemic)"
+    - "Aye-aye (endemic nocturnal lemur)"
+    - "Fossa (endemic top predator)"
+    - "Tenrecs"
+    - "~Half the world's chameleon species (endemic)"
+    - "Baobabs (Adansonia spp., incl. endemic Grandidier's baobab)"
+industries:
+  - "Vanilla — Madagascar is the world's largest producer (~80% of global output)"
+  - "Cloves and other spices"
+  - "Tourism and ecotourism (lemurs, national parks, islands)"
+  - "Textiles and garments (export-processing zones)"
+  - "Mining — graphite, nickel, ilmenite"
+  - "Agriculture — rice, coffee, lychees, seafood"
+sports:
+  - "Football (soccer) — the most popular sport"
+  - "Rugby union — growing popularity"
+  - "Basketball — growing"
+  - "Moraingy — traditional bare-knuckle fighting"
+religions:
+  - name: Christianity (Catholic and Protestant)
+    percent: 41
+    sourceId: state-religion-mdg
+  - name: Indigenous/traditional beliefs
+    percent: 52
+    sourceId: state-religion-mdg
+  - name: Islam
+    percent: 7
+    sourceId: state-religion-mdg
+# Religion shares per the last national census (1993), cited by US government
+# sources; alternatives differ (ARDA/Pew) and many Malagasy blend Christian
+# practice with ancestor veneration.
+entertainment:
+  - season: allYear
+    items:
+      - "Live music — salegy, tsapiky and ba-gasy"
+      - "Football and rugby matches"
+      - "Museums and family meals; zoma (markets)"
+  - season: wet
+    items:
+      - "Rainy-season indoor and community gatherings"
+      - "Green-season whale-spotting along the coast"
+  - season: dry
+    items:
+      - "Peak touring season — Tsingy, Avenue of the Baobabs, national parks, Nosy Be"
+      - "Famadihana reburial ceremonies (often in the cool dry season)"
+      - "Outdoor festivals and beach season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Romazava (beef/zebu stew with leafy greens)"
+      - "Vary amin'anana (rice with greens)"
+      - "Ravitoto (pounded cassava leaves with pork or zebu)"
+      - "Koba (sweet steamed banana-peanut rice cake)"
+      - "Mofo gasy (fried dough, 'Malagasy bread')"
+      - "Sambos (Malagasy samosas) and grilled zebu"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Lamba — the versatile woven wrap cloth worn by men and women, the emblem of Malagasy dress"
+      - "Woven raffia and plant-fibre fabrics"
+      - "Modern Malagasy fashion blending the lamba with contemporary styles"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Mon-Fri ~07:30/08:00-17:00; Saturday typically a half-day (morning); Sunday widely a rest day."
+  lunchBreakTiming: "Long afternoon break roughly 12:00-14:00/14:30 — midday office closure is customary."
+  notableShutdownPeriods:
+    - period: "Late December to early January"
+      description: "Christmas-New Year holiday slowdown."
+    - period: "Easter weekend"
+      description: "Public holiday break around Good Friday to Easter Monday."
+    - period: "Rainy/cyclone season (January-March)"
+      description: "Occasional disruption from tropical cyclones on the east and northeast coast."
+sources:
+  - id: state-religion-mdg
+    name: "Madagascar religion data (1993 census via US government sources)"
+    publisher: "U.S. government / GlobalSecurity / ARDA"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/madagascar/"
+    year: 1993
+    accessedDate: "2026-09-21"
+    note: "Christian 41%, indigenous/traditional 52%, Muslim 7%; alternative estimates (ARDA/Pew) differ."

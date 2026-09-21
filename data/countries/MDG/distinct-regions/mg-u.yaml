@@ -1,0 +1,100 @@
+code: MG-U
+name:
+  eng: Toliara (South and Southwest)
+  local:
+    - languageCode: mlg
+      value: Toliara
+    - languageCode: fra
+      value: Toliara (Tuléar)
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid climate in the southwest rain shadow, dry May-October; transitions to hot desert (BWh) in the extreme southwest."
+landmarks:
+  - name: Tsingy de Bemaraha
+    description: "Razor-sharp limestone pinnacles and dry forest in the west; Madagascar's first UNESCO site (1990)."
+    unescoWorldHeritage: true
+  - name: Avenue of the Baobabs
+    description: "Iconic road lined with monumental Grandidier's baobabs near Morondava."
+  - name: Isalo National Park
+    description: "Sandstone canyons, grassland and endemic flora in the south."
+  - name: Ifaty and Anakao
+    description: "Coastal fishing villages and coral-reef diving spots south of Toliara."
+culturalTraits:
+  - "The homeland of the Sakalava and Antandroy peoples, with cattle (zebu) culture at its core"
+  - "A dry, dramatic landscape of spiny forest, baobabs and Malagasy flamingos"
+  - "Deep reverence for ancestors and the famadihana rite, alongside strong fady taboos"
+prideOf:
+  - "The baobab avenues and spiny forest found nowhere else"
+  - "Vehimivavy sifaka and the wildlife of the southwest"
+  - "The zebu-herding culture of the south"
+animals:
+  popular:
+    - "Ring-tailed lemurs"
+    - "Vehimivavy sifaka"
+    - "Chameleons"
+    - "Giant day geckos"
+  unique:
+    - "Endemic spiny-forest flora (Didieriaceae, Pachypodium, baobabs)"
+    - "Many endemic reptiles of the arid southwest"
+industries:
+  - "Zebu-herding and livestock"
+  - "Fishing and seafood (including octopus and prawns)"
+  - "Tourism (Isalo, Tsingy, beach resorts)"
+  - "Sesame, sisal and peanut cultivation"
+sports:
+  - "Football (soccer)"
+  - "Rugby"
+  - "Traditional wrestling"
+religions:
+  - name: Christianity (Catholic and Protestant)
+    percent: 30
+    sourceId: state-religion-mdg
+  - name: Indigenous/traditional beliefs
+    percent: 62
+    sourceId: state-religion-mdg
+  - name: Islam
+    percent: 6
+    sourceId: state-religion-mdg
+entertainment:
+  - season: allYear
+    items:
+      - "Coastal and reef activities (diving, snorkelling)"
+      - "Wildlife safaris in Isalo and the spiny forest"
+      - "Live salegy music"
+  - season: dry
+    items:
+      - "Peak touring season — Tsingy and the south-west circuit (May-November)"
+  - season: wet
+    items:
+      - "Green-season community life and coastal fishing rhythms"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Zebu meat preparations (romazava, grilled zebu)"
+      - "Fresh seafood and octopus"
+      - "Ravitoto and vary amin'anana"
+      - "Mokary (rice cakes)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Lamba cloth and light cotton wear"
+      - "Traditional wraparound pagnes in the coastal villages"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Mon-Fri ~07:30-12:00 and 14:00-17:00; Saturday morning half-day; Sunday closed."
+  lunchBreakTiming: "Roughly 12:00-14:00."
+  notes: "Fishing and tourism rhythms dominate; a more relaxed pace than the highlands."
+sources:
+  - id: state-religion-mdg
+    name: "Madagascar religion data (1993 census via US government sources)"
+    publisher: "U.S. government / ARDA"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/madagascar/"
+    year: 1993
+    accessedDate: "2026-09-21"
+    note: "South/southwest religious composition approximated from national 1993 census shares, reflecting a stronger traditional-belief presence in the arid south."
