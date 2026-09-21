@@ -1,0 +1,101 @@
+code: MG-T
+name:
+  eng: Antananarivo (Central Highlands)
+  local:
+    - languageCode: mlg
+      value: Antananarivo
+    - languageCode: fra
+      value: Antananarivo
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland climate on the central plateau (~1,300 m): mild temperatures, a rainy season November-April and a drier, cooler 'winter' May-October."
+landmarks:
+  - name: Royal Hill of Ambohimanga
+    description: "The spiritual and political heart of the Merina kingdom, north of Antananarivo; Madagascar's sole cultural UNESCO site (2001)."
+    unescoWorldHeritage: true
+  - name: Rova of Antananarivo (Queen's Palace)
+    description: "Royal Merina palace compound overlooking the city; the 19th-century palace burned in 1995 though parts have been restored."
+  - name: Avenue de l'Indépendance
+    description: "Central Antananarivo avenue flanked by the Independence Monument and gardens."
+  - name: Lac Anosy
+    description: "Picturesque heart-shaped lake in Antananarivo with a war-memorial monument at its centre."
+culturalTraits:
+  - "The historic heartland of the Merina kingdom — the dominant highland cultural and political tradition"
+  - "A sophisticated hautes terres culture with deep respect for ancestry and the famadihana reburial rite"
+  - "Antananarivo is the country's urban, administrative and intellectual centre, with lively markets and mada café culture"
+prideOf:
+  - "The Merina royal heritage and Ambohimanga"
+  - "The highland rice-terrace landscapes and artisan weaving (lamba)"
+  - "Being the cultural-political heart of the nation"
+animals:
+  popular:
+    - "Ring-tailed lemurs"
+    - "Chameleons"
+    - "Sifaka"
+    - "Civet-like fossa (in remnant forest)"
+  unique:
+    - "Highland-endemic flora of the central plateau"
+    - "Fossa (endemic top predator) in remaining forest fragments"
+industries:
+  - "Agriculture — rice, maize, market gardening in the highland valleys"
+  - "Government and administration (Antananarivo is the capital)"
+  - "Textiles and artisan crafts (lamba, raffia, basketware)"
+  - "Education and services"
+sports:
+  - "Football (soccer)"
+  - "Rugby"
+  - "Basketball"
+religions:
+  - name: Christianity (Catholic and Protestant)
+    percent: 45
+    sourceId: state-religion-mdg
+  - name: Indigenous/traditional beliefs
+    percent: 48
+    sourceId: state-religion-mdg
+  - name: Islam
+    percent: 5
+    sourceId: state-religion-mdg
+entertainment:
+  - season: allYear
+    items:
+      - "Live music — salegy and tsapiky concerts in the capital"
+      - "Markets (zoma) and street-food culture"
+      - "The Rova and the Analakely district"
+  - season: dry
+    items:
+      - "Pleasant highland hiking in the surrounding hills"
+      - "Festivals and cultural events (cooler May-October)"
+  - season: wet
+    items:
+      - "Indoor and community gatherings during the November-April rains"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Romazava (zebu stew with greens)"
+      - "Vary amin'anana (rice with greens)"
+      - "Hen'omby ritra (slow-cooked dry zebu meat)"
+      - "Mofo gasy and koba street snacks"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Lamba weave cloth, often white with floral motifs"
+      - "Modern urban dress blending European and Malagasy styles"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Mon-Fri ~08:00-17:00 with a long midday break; Saturday morning half-day common; Sunday closed."
+  lunchBreakTiming: "Roughly 12:00-14:00/14:30."
+  notes: "Antananarivo is the business and government hub; a more formal, French-influenced business culture than the coast."
+sources:
+  - id: state-religion-mdg
+    name: "Madagascar religion data (1993 census via US government sources)"
+    publisher: "U.S. government / ARDA"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/madagascar/"
+    year: 1993
+    accessedDate: "2026-09-21"
+    note: "Central-highlands religious composition approximated from national 1993 census shares, adjusted for the urban, Christian-leaning highlands."
