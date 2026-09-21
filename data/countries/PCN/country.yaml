@@ -1,0 +1,54 @@
+alpha3: PCN
+alpha2: PN
+name:
+  eng: Pitcairn Islands
+  local:
+    - languageCode: eng
+      value: Pitcairn Islands
+flagEmoji: "🇵🇳"
+capital: Adamstown
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: pcn-gov-life
+  # Pitkern (https://en.wikipedia.org/wiki/Pitkern) is the everyday home
+  # language of most Pitcairners, but it is not an officially recognized
+  # language and is not associated with a standalone ISO 639-3 entry in this
+  # dataset, so it is documented here as a comment rather than a separate
+  # language file. English remains the sole de jure official language.
+timezones:
+  - name: Pacific/Pitcairn
+    standardUtcOffset: "UTC-8"
+    observesDst: false
+currency:
+  code: NZD
+  symbol: "$"
+  name: "New Zealand dollar"
+legalConstraints:
+  - topic: "British Overseas Territory with island-wide settlement tax regime"
+    description: "The Pitcairn Islands are a British Overseas Territory. Residents are descendants of the HMS Bounty mutineers and their Tahitian companions (~35-50 people in Adamstown). Pitcairn operates an island-wide flat tax system; there is no income tax in the usual sense — the territory funds itself through a local levy and UK aid. The islands rely on periodic supply ships (about four times a year) from New Zealand."
+    sourceId: pcn-gov-life
+# paymentMethodShares intentionally omitted: no official payment-adoption
+# breakdown is published for a ~40-person island; cash and card are handled via
+# the Government Treasury Office.
+paymentCulture:
+  popularMethods:
+    - Cash (New Zealand dollars) and cards, processed through the Government Treasury Office
+    - Online ordering of goods from New Zealand via the supply ship
+  # tipping intentionally omitted: no reliably documented tipping norm for
+  # such a small community.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: pcn-gov-life
+    name: "Life on Pitcairn"
+    publisher: "Government of the Pitcairn Islands (official website)"
+    url: "https://government.pn/life-on-pitcairn"
+    accessedDate: "2026-09-20"
+    note: "Official status (British Overseas Territory), capital Adamstown, population ~35, official language English (with Pitkern spoken at home), currency New Zealand dollar, timezone UTC-8, and the supply-ship and Treasury-Office details."

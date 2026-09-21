@@ -1,0 +1,66 @@
+code: WHOLE
+name:
+  eng: Pitcairn Islands
+  local:
+    - languageCode: eng
+      value: Pitcairn Islands
+climates:
+  - koppenCode: Cfb
+    description: Mild subtropical highland climate — relatively even temperatures year-round, with rain throughout the year.
+landmarks:
+  - name: Bounty Bay
+    description: Landing point of the HMS Bounty mutineers in 1790.
+  - name: Adamstown
+    description: The only settlement, and the smallest capital in the world.
+culturalTraits:
+  - Descendants of the HMS Bounty mutineers and Polynesian companions
+  - Pitkern, the local English-Tahitian creole (spoken at home, not officially)
+prideOf:
+  - The Bounty heritage and the island's extraordinary isolation
+animals:
+  popular:
+    - Red-footed booby
+    - Marine fish
+  unique:
+    - Pitcairn reed warbler (endemic)
+industries:
+  - Stamps and numismatics
+  - Beekeeping and small horticulture
+  - Tourist visits by expedition ships
+sports:
+  - Fishing
+  - Walking/hiking the island's trails
+entertainment:
+  - season: allYear
+    items:
+      - Bounty Day (23 January) celebration of the Bounty's arrival
+traditionalDishes:
+  - season: allYear
+    items:
+      - Breadfruit and coconut-based dishes
+      - Fish and fresh island produce
+traditionalClothing:
+  - season: allYear
+    items:
+      - Simple, practical island wear (no formal national dress)
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Small-island rhythm tied to the arrival of the supply ship (about every three months) and visiting cruise vessels."
+  notes: "Sunday aboard Pitcairn is kept as a rest day by much of the community, reflecting the island's mutineer-descended Protestant heritage."
+sources:
+  - id: pcn-gov-life
+    name: "Life on Pitcairn"
+    publisher: "Government of the Pitcairn Islands (official website)"
+    url: "https://government.pn/life-on-pitcairn"
+    accessedDate: "2026-09-20"
+    note: "Capital Adamstown, the supply-ship cadence (~four a year), and the hill/sea geography informing industries and culture."
