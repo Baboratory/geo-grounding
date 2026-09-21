@@ -1,0 +1,103 @@
+alpha3: MSR
+alpha2: MS
+name:
+  eng: Montserrat
+  local:
+    - languageCode: eng
+      value: Montserrat
+flagEmoji: "🇲🇸"
+capital: Plymouth
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Capital note: Plymouth is the de jure capital, but it was abandoned in 1997
+# following the Soufrière Hills volcanic eruptions; the de facto centre of
+# government and business is Brades, and a new port/capital town at Little Bay is
+# under development (works began 2022). English is the sole official language.
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: msr-official-lang
+  # FLAGGED ESTIMATE: English is essentially universal officially and in daily
+  # life. A small number of residents speak Spanish-based or other creoles as
+  # home languages.
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.98
+    sourceId: msr-census-lang
+timezones:
+  - name: America/Montserrat
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+# Uses the East Caribbean dollar (XCD), pegged to the U.S. dollar (US$1 = EC$2.70),
+# as its official currency.
+currency:
+  code: XCD
+  symbol: "EC$"
+  name: East Caribbean dollar
+legalConstraints:
+  - topic: "official language"
+    description: "English is the official and overwhelmingly dominant language of Montserrat, used in government, the courts, education and daily life."
+    sourceId: msr-official-lang
+  - topic: "consumption tax (import duty and charges)"
+    description: "Montserrat has no general VAT. Revenue is raised through import duties on goods entering the territory plus fees; the island also levies a residential/value-service charge structure under its tax regime. With much of the economy re-establishing after the volcano, prices are typically displayed inclusive of applicable duties."
+    sourceId: msr-tax
+  - topic: "data protection / privacy"
+    description: "Montserrat, as a British Overseas Territory, is aligned with evolving U.K.-influenced data-protection norms; no comprehensive Montserratian omnibus data-protection act was in force as of late 2025 — businesses handling personal data should confirm current local requirements."
+    sourceId: msr-dpa
+# paymentMethodShares intentionally omitted: no official island-wide payment-
+# method split is published. Observed reality is a small, card-accepting economy
+# (EC dollar cash common, U.S. dollars widely taken) rebuilt after the volcano.
+paymentCulture:
+  popularMethods:
+    - "Cash (East Caribbean dollar and U.S. dollar widely accepted)"
+    - "Credit and debit cards (Visa/Mastercard) at larger shops, hotels and the ferry terminal"
+    - "Mobile/wallet payments growing among vendors"
+  tipping:
+    expected: true
+    typicalAmount: "10-15% in restaurants; small tips for taxi and tour/boat operators"
+    autoIncludedInBill: false
+    note: "Tipping ~10-15% in sit-down restaurants is appreciated and expected by many; a small tip for taxi and boat/tour operators is customary. Some establishments add a service charge."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Relaxed, courteous and warm, with a distinctly Irish-influenced lilt in the local accent. First names are common once acquainted; polite titles are used with elders and officials. Good humour and easygoing friendliness define everyday interaction."
+  greetingNorms: "A warm verbal greeting ('Good morning/afternoon', 'Alright?') is essential, with a handshake in business; a nod and smile socially. Taking a moment to exchange pleasantries before business is natural."
+  meetingEtiquette: "Meetings are unhurried and personable, opening with small talk. Punctuality is appreciated but a relaxed 'island time' flexibility can apply, and relationships matter. Business attire is smart-casual, suited to the climate."
+  topicsToAvoid:
+    - "The 1995-97 volcanic eruption and its ongoing impacts (a deeply felt local history)"
+    - "Overly sensitive local politics or property speculation"
+  giftGivingNotes: "Modest, gracious gestures only; a small token when hosted is appreciated. No strong business gift expectation."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: msr-official-lang
+    name: "Montserrat — official information and government"
+    publisher: "Government of Montserrat"
+    url: "https://www.gov.ms"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Confirms the territory's status, the de jure capital Plymouth, the de facto seat Brades, and English as the official language."
+  - id: msr-census-lang
+    name: "Montserrat language usage"
+    publisher: "CIA World Factbook / Composite estimate"
+    url: "https://www.cia.gov/the-world-factbook/"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "English dominant across the island. FLAGGED ESTIMATE."
+  - id: msr-tax
+    name: "Taxation of Montserrat — no VAT; import duty and local charges"
+    publisher: "Government of Montserrat / Composite estimate"
+    url: "https://www.gov.ms"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Describes the duty-based revenue system and the post-volcano economic setting."
+  - id: msr-dpa
+    name: "Data protection landscape — Montserrat (no comprehensive local act in force)"
+    publisher: "DLA Piper Data Protection Laws of the World / Composite estimate"
+    url: "https://www.dlapiperdataprotection.com"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Flags that no comprehensive Montserratian omnibus data-protection act was in force as of late 2025."

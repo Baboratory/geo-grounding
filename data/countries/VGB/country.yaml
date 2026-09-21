@@ -1,0 +1,102 @@
+alpha3: VGB
+alpha2: VG
+name:
+  eng: Virgin Islands (British)
+  local:
+    - languageCode: eng
+      value: British Virgin Islands
+flagEmoji: "🇻🇬"
+capital: Road Town
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Language official-status basis: English is the official language. The everyday
+# vernacular is Virgin Islands Creole. Official census language tables are thin;
+# figures below are composites/estimates.
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: vgb-official-lang
+  # FLAGGED ESTIMATE: English is the language of government, education and
+  # business; Virgin Islands Creole is the common vernacular.
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.90
+    sourceId: vgb-census-lang
+timezones:
+  - name: America/Tortola
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+# Uses the United States dollar (USD) as its official currency — adopted in 1959
+# given the islands' close economic ties to the neighbouring U.S. Virgin Islands,
+# and used as legal tender across the tourism and financial-services economy.
+currency:
+  code: USD
+  symbol: "$"
+  name: United States dollar
+legalConstraints:
+  - topic: "official language"
+    description: "English is the official language of the British Virgin Islands. Government, the courts and education are conducted in English; Virgin Islands Creole is the everyday vernacular for much of the population."
+    sourceId: vgb-official-lang
+  - topic: "consumption tax (import duty)"
+    description: "The BVI has no general sales tax and no VAT. It relies on import duties on goods entering the territory, a hotel accommodation tax on the tourism sector, and fees from company registration and the offshore finance industry. Consumer prices typically include applicable duties at the point of import."
+    sourceId: vgb-tax
+  - topic: "data protection / privacy"
+    description: "The BVI enacted a comprehensive Data Protection Act (modelled on the U.K./GDPR standard) governing the processing of personal data, overseen by the Data Protection Commissioner. This is one of the more developed data-protection regimes among small Caribbean territories, reflecting the territory's financial-services focus."
+    sourceId: vgb-dpa
+# paymentMethodShares intentionally omitted: no official territory-wide payment-
+# method split is published; observed reality is card-heavy with U.S. cash common
+# (U.S. dollar is the legal currency), in a tourism and finance economy.
+paymentCulture:
+  popularMethods:
+    - "Credit and debit cards (Visa/Mastercard, chip+contactless, widely accepted)"
+    - "Cash (U.S. dollar) — common at small shops, bars, taxis and marinas"
+    - "Mobile/wallet payments growing at larger vendors"
+  tipping:
+    expected: true
+    typicalAmount: "15% in restaurants; small tips for taxi drivers and boat/ferry crew"
+    autoIncludedInBill: true
+    note: "Many tourist-oriented restaurants add a service charge; otherwise tipping ~15% is customary in sit-down restaurants, and a modest tip for marina and tour staff is appreciated."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Friendly, understated and courteous — a British-derived reserve blended with Caribbean warmth. First names are common once acquainted; polite titles (Mr./Mrs./Dr.) are used with officials and strangers. Good manners and courtesy are taken seriously."
+  greetingNorms: "A warm verbal greeting ('Good morning/afternoon', 'Alright?') plus a handshake in business; a nod and smile socially. In local culture, a polite enquiry after the person's wellbeing before business is appreciated."
+  meetingEtiquette: "Meetings are generally relaxed, polite and well-ordered, opening with small talk. Punctuality is valued in professional settings. Business attire is smart-casual; formal where appropriate to the finance sector."
+  topicsToAvoid:
+    - "The territory's offshore-finance industry, for newcomers/outsiders (sensitive and politically charged locally)"
+    - "Casual assumptions about local politics or property"
+  giftGivingNotes: "Modest, gracious gestures only; a small token when hosted (flowers, wine, rum) is appreciated. No strong business gift expectation."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: vgb-official-lang
+    name: "About the Territory — Government of the British Virgin Islands"
+    publisher: "Government of the Virgin Islands (bvi.gov.vg)"
+    url: "https://www.bvi.gov.vg/content/about-territory"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Confirms the territory's status, capital Road Town, and that English is the official language."
+  - id: vgb-census-lang
+    name: "Language usage — English and Virgin Islands Creole"
+    publisher: "CIA World Factbook / Composite estimate"
+    url: "https://www.cia.gov/the-world-factbook/"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "English (official) with Virgin Islands Creole as common vernacular. FLAGGED ESTIMATE."
+  - id: vgb-tax
+    name: "Taxation of the British Virgin Islands — no sales tax/VAT; import duty and finance fees"
+    publisher: "Government of the Virgin Islands / Composite estimate"
+    url: "https://www.bvi.gov.vg"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Describes the duty-based revenue system and the hotel tax on tourism."
+  - id: vgb-dpa
+    name: "BVI Data Protection Act 2021"
+    publisher: "Government of the British Virgin Islands / Data Protection Commissioner"
+    url: "https://www.bvi.gov.vg"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Comprehensive data-protection regime modelled on the GDPR standard."

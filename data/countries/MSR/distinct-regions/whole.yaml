@@ -1,0 +1,98 @@
+code: WHOLE
+name:
+  eng: Montserrat
+  local:
+    - languageCode: eng
+      value: Montserrat
+climates:
+  - koppenCode: Am
+    description: Tropical monsoon (marine trade-wind) climate; warm year-round (77-85°F typical), moderated by northeast trade winds, with a drier spell roughly December-April and a wetter, hurricane-prone rainy season mostly June-November. The volcanic terrain's southern slopes are affected by ongoing Soufrière Hills activity.
+landmarks:
+  - name: Soufrière Hills Volcano
+    description: The island's live volcano; its 1995-97 eruptions buried Plymouth and reshaped the south. It is monitored by the Montserrat Volcano Observatory, and the exclusion zone offers dramatic viewing from Garibaldi Hill.
+  - name: Montserrat Volcano Observatory (MVO)
+    description: The scientific observatory that monitors the volcano and presents educational exhibits on the eruption and its geological history.
+  - name: Little Bay (under construction)
+    description: A new town, port and planned capital on the northwest coast, funded by the U.K. and the Caribbean Development Bank, works from 2022 — the anchor of Montserrat's rebuilding.
+  - name: Rendezvous Bay and the northern Green Monkey area
+    description: The island's greener, still-forested north retains beaches, the Silver Hills and much of the everyday life that relocated after the eruption.
+culturalTraits:
+  - A warm English-speaking Montserratian culture with a notable Irish heritage ('the Emerald Isle of the Caribbean')
+  - Carnival and 'Calabash' cultural festivals
+  - A strong musical tradition — the famous 'AIR Studios' era made Montserrat a recording hub for international artists
+  - A close-knit, resilient community rebuilt after the volcano
+prideOf:
+  - The island's resilience and close community after the volcanic disaster
+  - The Montserratian accent and Irish heritage
+  - The volcanic landscape and its spectacular geological drama
+  - The island's musical and recording legacy
+animals:
+  popular:
+    - Montserrat oriole (Icterus oberi, the national bird)
+    - Green and hawksbill sea turtle
+    - Galliwasps (Anguimorph lizards)
+  unique:
+    - The endangered Montserrat oriole, found only on this island
+    - The Montserrat galliwasp (Diploglossus montisserrati)
+industries:
+  - Tourism (nature, volcano tourism and diving — a recovering sector)
+  - Agriculture (mostly smallholder; the island was once 'the Emerald Isle' for its lush vegetation)
+  - Fishing
+sports:
+  - Football (soccer)
+  - Cricket (a strong Caribbean tradition)
+  - Basketball
+  - Diving, sailing and watersports
+entertainment:
+  - season: allYear
+    items:
+      - Carnival and the Calabash weekend of arts and culture
+      - Volcano-observation points and hiking in the exclusion-zone margins
+      - Beach bars and the island's relaxed music nights
+traditionalDishes:
+  - season: allYear
+    items:
+      - Mountain chicken (formerly a national dish; now protected after a fungal decline)
+      - Goat water (a hearty goat-meat stew, the island's signature dish)
+      - Fish and fungi (cornmeal dumplings)
+      - Johnny cakes and breadfruit dishes
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light, bright Caribbean resort wear
+      - Carnival costume and face paint for celebrations
+      - Smart-casual evening wear
+# Seasons are not the temperate four. Warm year-round, the island splits into a
+# drier, sunnier period (~December-April) and a wetter, hurricane-prone rainy
+# season (~June-November). Calendar uses the wet/dry partition:
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  lunchBreakTiming: "Lunch is generally 12:00-14:00; many offices close for a meal break while waterfront and guesthouse restaurants stay open."
+  typicalWorkHours: "Typical office hours roughly 08:00-16:30/17:00 Mon-Fri. Retail and services are modest given the small population; activity centres on Little Bay/Brades and the northern settlements."
+  restDays:
+    - saturday
+    - sunday
+  notes: "Montserrat does not observe daylight saving time and stays on Atlantic Standard Time (UTC-4) year-round. Contact with the wider world runs largely through the ferry from Antigua and a limited flight schedule, shaping how business and visitors arrive."
+sources:
+  - id: msr-mvo
+    name: "Montserrat Volcano Observatory — Soufrière Hills monitoring and education"
+    publisher: "Montserrat Volcano Observatory"
+    url: "https://www.mvo.ms"
+    accessedDate: "2026-09-20"
+    note: "Basis for the volcano landmark, the 1995-97 eruption history and the exclusion zone."
+  - id: msr-tourism
+    name: "Montserrat tourism and culture (Visit Montserrat)"
+    publisher: "Montserrat Tourist Board / Composite estimate"
+    url: "https://www.visitmontserrat.com"
+    accessedDate: "2026-09-20"
+    note: "Cultural traits, the oriole national bird and the island's attractions."
+  - id: msr-sil
+    name: "Small Developing State profile — Montserrat (rebuilding and economy)"
+    publisher: "CIA World Factbook / Composite estimate"
+    url: "https://www.cia.gov/the-world-factbook/"
+    accessedDate: "2026-09-20"
+    note: "Context on population, the exclusion zone and the economy after 1995."

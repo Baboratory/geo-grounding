@@ -1,0 +1,92 @@
+code: WHOLE
+name:
+  eng: Virgin Islands (British)
+  local:
+    - languageCode: eng
+      value: British Virgin Islands
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna (marine trade-wind) climate; warm year-round (79-85°F typical), moderated by the northeast trade winds, with a drier spell roughly December-April and a wetter, hurricane-prone rainy season mostly June-November.
+landmarks:
+  - name: The Baths, Virgin Gorda
+    description: Dramatic granite boulder formations on the beach of Virgin Gorda, forming tidal pools, grottoes and shallow turquoise-water passages.
+  - name: Gorda Peak National Park, Virgin Gorda
+    description: The territory's highest point and a forested national park with panoramic views over the islands.
+  - name: The Caves at Norman Island
+    description: Sea caves on Norman Island, a favourite of divers and day-trip boats; the waters are part of a package of popular anchored bays.
+  - name: Road Town Harbour, Tortola
+    description: The capital's harbour on Tortola, hub for yachting, ferries and the territory's daily life.
+culturalTraits:
+  - A warm Caribbean culture blending British, African and West Indian influences
+  - Christmas Festival and Jouvert carnival traditions (notably the August Festival)
+  - Steeldrum, quelbe and calypso music
+  - A proud sailing and yachting culture
+prideOf:
+  - The Baths and the natural beauty of Virgin Gorda
+  - The territory's world-class sailing waters
+  - Love and loyalty local pride and community spirit
+  - The BVI's British dual heritage and traditions
+animals:
+  popular:
+    - Hawksbill and leatherback sea turtle
+    - Pelican
+    - Frigatebird
+  unique:
+    - Red-legged tortoise (Chelonoidis carbonarius)
+    - Anegada's iguanas and flamingoes (a notable colony)
+industries:
+  - Tourism and yachting (the leading economic sector)
+  - Financial services and offshore company registration (a major revenue source)
+  - Smallholder agriculture and fishing
+sports:
+  - Sailing and yachting (a celebrated tradition)
+  - Football (soccer)
+  - Cricket (a British legacy)
+  - Basketball and fishing tournaments
+entertainment:
+  - season: allYear
+    items:
+      - The August Festival and Jouvert jump-up parades
+      - Full-moon parties and beach bars at the anchorages
+      - Yacht races and regattas (e.g. the Spring Regatta)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Fish and fungi (cornmeal dumplings with fish)
+      - Pates and johnny cakes
+      - Callaloo and stewed goat
+      - Local rum (e.g. Pusser's) and the painkiller cocktail
+traditionalClothing:
+  - season: allYear
+    items:
+      - Comfortable, breezy Caribbean resort wear (cotton/linen)
+      - Madrass-inspired festival wear on cultural occasions
+      - Sailing and boating attire (essential to daily life)
+# Seasons are not the temperate four. Warm year-round, the territory splits into
+# a drier, sunnier period (~December-April) and a wetter, hurricane-prone rainy
+# season (~June-November). Calendar uses the wet/dry partition:
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  lunchBreakTiming: "Lunch is generally 12:00-13:30; many offices close for a meal break, while waterfront restaurants and marinas stay open."
+  typicalWorkHours: "Typical office hours roughly 08:30-16:30/17:00 Mon-Fri. Retail extends hours on cruise and tourist corridors; marinas and watersports operate with tide and daylight."
+  restDays:
+    - saturday
+    - sunday
+  notes: "The territory does not observe daylight saving time and stays on Atlantic Standard Time (UTC-4) year-round. The financial-services industry follows a London-aligned business calendar while the tourism economy follows cruise and yacht seasons."
+sources:
+  - id: vgb-tourism
+    name: "British Virgin Islands tourism — The Baths, Norman Island and sailing culture"
+    publisher: "BVI Tourism (website) / Composite estimate"
+    url: "https://www.bvitourism.com"
+    accessedDate: "2026-09-20"
+    note: "Basis for the Virgin Gorda and Norman Island landmarks and the sailing culture."
+  - id: vgb-park
+    name: "Gorda Peak National Park, British Virgin Islands"
+    publisher: "BVI National Parks Trust"
+    url: "https://www.bvinationalparks.org"
+    accessedDate: "2026-09-20"
+    note: "Documents Gorda Peak National Park and the territory's natural heritage."

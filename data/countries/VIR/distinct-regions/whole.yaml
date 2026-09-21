@@ -1,0 +1,93 @@
+code: WHOLE
+name:
+  eng: Virgin Islands (U.S.)
+  local:
+    - languageCode: eng
+      value: United States Virgin Islands
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna (marine trade-wind) climate; warm year-round (79-84°F typical), moderated by northeast trade winds, with a drier stretch roughly December-April and a wetter, hurricane-prone season mostly June-November.
+landmarks:
+  - name: Trunk Bay, St. John
+    description: Famed white-sand beach within the Virgin Islands National Park on St. John, with an underwater snorkel trail.
+  - name: Magens Bay, St. Thomas
+    description: Sweeping, gentle crescent beach on the north coast of St. Thomas, one of the Caribbean's most celebrated beaches.
+  - name: Charlotte Amalie Historic District
+    description: The capital's waterfront historic quarter on St. Thomas, with forts (e.g. Fort Christian, Blackbeard's Castle) and duty-free shopping arcades, plus the hillside '99 Steps'.
+  - name: Buck Island Reef, St. Croix
+    description: A national monument off St. Croix with an elkhorn-coral reef and the only underwater marked trail in the U.S. National Park System.
+culturalTraits:
+  - A vibrant Afro-Caribbean culture born of the islands' Danish colonial and African heritage
+  - Carnival (St. Thomas Carnival and St. Croix's 'Crucian Christmas Festival' and Carnival) with parades and 'j'ouvert'
+  - Music and dance (quelbe, calypso, soca, reggae)
+  - Virgin Islands Creole (the everyday English-based vernacular)
+prideOf:
+  - The Virgin Islands National Park on St. John
+  - "Love City local pride and the islands' motto 'United in Pride and Hope'"
+  - The steel-drum and quelbe music traditions
+  - Legendary sailing and yachting heritage
+animals:
+  popular:
+    - Hawksbill and green sea turtle
+    - Brown pelican
+    - Frigatebird
+  unique:
+    - Red-legged tortoise (Chelonoidis carbonarius) on St. Croix
+    - The Virgin Islands tree boa (Chilabothrus granti)
+industries:
+  - Tourism (cruise ships, resorts, the leading economic sector)
+  - Financial services and offshore business
+  - Retail / duty-free shopping
+  - Agriculture (smallholder, plus rum production)
+sports:
+  - Basketball
+  - Baseball and softball
+  - Football (soccer) and track & field (notably Olympic sprinters)
+  - Sailing / watersports
+entertainment:
+  - season: allYear
+    items:
+      - Carnival parades and j'ouvert (St. Thomas and St. Croix)
+      - Sunset bonfires and boat parties
+      - Virgins-Anchored bars and pier music nights
+traditionalDishes:
+  - season: allYear
+    items:
+      - Pates (fried meat-filled pastries)
+      - Callaloo and fungi (cornmeal dumplings often served with fish)
+      - Rice 'n' peas and johnny cakes
+      - Cruzan rum and the simple 'pink drink'/punch tradition
+traditionalClothing:
+  - season: allYear
+    items:
+      - Bright, breezy Caribbean resort wear (cotton/linen shirts, sundresses)
+      - Madrass and colorful madras-inspired fashion at cultural festivals
+      - Carnival costume wear for parades
+# Seasons are not the temperate four. Warm year-round, the territory splits into
+# a drier, sunnier period (~December-April) and a wetter, hurricane-prone rainy
+# season (~June-November). Calendar uses the wet/dry partition:
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  lunchBreakTiming: "Lunch runs roughly 12:00-13:30; many offices close for a meal break, while waterfront restaurants and shops at tourist spots stay open."
+  typicalWorkHours: "Typical office hours roughly 08:00-16:00/17:00 Mon-Fri. Retail along cruise and resort corridors extends hours and opens weekends."
+  restDays:
+    - saturday
+    - sunday
+  notes: "The territory does not observe daylight saving time and stays on Atlantic Standard Time (UTC-4) year-round. Cruise-ship days drive a busy waterfront schedule; the 'Three Queens' and carnival periods are peak business."
+sources:
+  - id: vir-trudgill
+    name: "U.S. Virgin Islands geography and landmarks"
+    publisher: "Timeanddate.com / Discover USVI (official tourism)"
+    url: "https://www.usviupdate.co"
+    accessedDate: "2026-09-20"
+    note: "Basis for the beach, reef and historic-district landmarks and the wet/dry season split."
+  - id: vir-park
+    name: "Virgin Islands National Park and Buck Island Reef National Monument (U.S. NPS)"
+    publisher: "U.S. National Park Service"
+    url: "https://www.nps.gov/viis/"
+    accessedDate: "2026-09-20"
+    note: "Documents Trunk Bay and Buck Island Reef landmarks and the park's cultural significance."

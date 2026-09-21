@@ -1,0 +1,106 @@
+alpha3: VIR
+alpha2: VI
+name:
+  eng: Virgin Islands (U.S.)
+  local:
+    - languageCode: eng
+      value: United States Virgin Islands
+flagEmoji: "🇻🇮"
+capital: Charlotte Amalie
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# Language official-status basis: English is the official language. The everyday
+# vernacular is a locally spoken English-based creole (Virgin Islands Creole).
+# Figures are composites and estimates — no single official proficiency census.
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: vir-official-lang
+  # FLAGGED ESTIMATE: English is the language of government, education and
+  # business; Spanish and creole varieties are also spoken (a notable
+  # Spanish-speaking community from neighbouring islands/PR).
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.72
+    sourceId: vir-census-lang
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.17
+    sourceId: vir-census-lang
+timezones:
+  - name: America/St_Thomas
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+# Uses the United States dollar (USD) as its sole official currency. As an
+# organized, unincorporated U.S. territory, the U.S. dollar circulates freely.
+currency:
+  code: USD
+  symbol: "$"
+  name: United States dollar
+legalConstraints:
+  - topic: "official language"
+    description: "English is the official language of the U.S. Virgin Islands. Government business, the courts and education are conducted in English; Virgin Islands Creole is the everyday vernacular for much of the population."
+    sourceId: vir-official-lang
+  - topic: "consumption tax / import duty"
+    description: "The territory has no general sales tax and no VAT. Instead it relies heavily on an import/excise duty system ('P.R. and the Virgin Islands duty') that commercialises goods entering the islands, plus taxes on rum (a major revenue source under the U.S. federal rum cover-over program), hotels and airline/barge tickets. Consumer prices are typically displayed inclusive of applicable duties."
+    sourceId: vir-tax
+  - topic: "data protection / privacy"
+    description: "As a U.S. territory, the U.S. Virgin Islands has no general GDPR-style omnibus national data-protection law of its own; U.S. federal laws inform the privacy landscape and the territory has not enacted its own comprehensive statute. Businesses handling personal data should confirm current local requirements."
+    sourceId: vir-privacy
+# paymentMethodShares intentionally omitted: no official territory-wide consumer
+# payment-method split is published; observed reality is overwhelmingly card and
+# U.S. cash common, in a tourism-and-retail economy. Described qualitatively.
+paymentCulture:
+  popularMethods:
+    - "Credit and debit cards (Visa/Mastercard, chip+contactless, widely accepted)"
+    - "Cash (U.S. dollar) — common at small shops, bars, ferries and markets"
+    - "Mobile payments growing at larger retailers and food vendors"
+  tipping:
+    expected: true
+    typicalAmount: "15-20% in restaurants; ~$1-2 per bag for porters/ferry hands; 10% for taxis"
+    autoIncludedInBill: true
+    note: "Many restaurants add an automatic gratuity (commonly 10-15%) for tourist groups; otherwise tipping 15-20% in sit-down restaurants is standard, and a small tip for porters and tour operators is appreciated."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Friendly, relaxed and direct. English (Standard or local creole) is spoken with a Caribbean warmth; first names are common once acquainted. Respect for elders and for local customs is important; a courteous 'good morning/afternoon' before getting down to business is expected."
+  greetingNorms: "A cheerful verbal greeting is essential — 'Good morning/afternoon', 'Alright?', or local phrases; a handshake is customary in business, and warm embraces/social greetings among friends. Titles (Dr., Mr./Mrs.) are used formally with officials and strangers."
+  meetingEtiquette: "Meetings are generally relaxed and personable, opening with small talk before business. Punctuality is appreciated though a 'soon come' island flexibility can apply. Business attire is smart-casual, with lighter clothing fitting the climate."
+  topicsToAvoid:
+    - "Politics of the territorial relationship with the U.S. (a sensitive, living issue)"
+    - "Presuming to know local slang or histories of the islands"
+  giftGivingNotes: "Modest, gracious gestures; a small token when invited to someone's home (flowers, local rum, chocolates) is appreciated. No strong business gift expectation."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: vir-official-lang
+    name: "Official language and government of the U.S. Virgin Islands"
+    publisher: "Government of the United States Virgin Islands / Composite estimate"
+    url: "https://vi.gov"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "English is the official language; the territory is organized under the 1954 Revised Organic Act."
+  - id: vir-census-lang
+    name: "Language usage — U.S. Census Bureau ACS figures for the U.S. Virgin Islands"
+    publisher: "Composite estimate"
+    url: "https://www.census.gov"
+    year: 2010
+    accessedDate: "2026-09-20"
+    note: "English spoken at home by a large majority (~72%), Spanish/Spanish creole a notable minority (~17%). FLAGGED ESTIMATE."
+  - id: vir-tax
+    name: "Taxation of the U.S. Virgin Islands — no sales tax; import duty and rum-cover-over revenue"
+    publisher: "U.S. Virgin Islands Bureau of Internal Revenue / Composite estimate"
+    url: "https://www.vi.gov"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Describes the duty-based revenue system and absence of a general sales tax/VAT."
+  - id: vir-privacy
+    name: "Data protection landscape — U.S. Virgin Islands (no omnibus GDPR-style law)"
+    publisher: "DLA Piper Data Protection Laws of the World / Composite estimate"
+    url: "https://www.dlapiperdataprotection.com"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Flags the absence of a comprehensive local data-protection statute."
