@@ -1,0 +1,8 @@
+code: zho
+name:
+  eng: Chinese
+  local: "中文"
+commonPhrases:
+  hello: "您好 (Nín hǎo)"
+  thankYou: "谢谢 (Xièxiè)"
+  goodbye: "再见 (Zàijiàn)"

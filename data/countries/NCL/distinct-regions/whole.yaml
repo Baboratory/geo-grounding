@@ -1,0 +1,87 @@
+code: WHOLE
+name:
+  eng: New Caledonia
+  local:
+    - languageCode: fra
+      value: Nouvelle-Calédonie
+    - languageCode: eng
+      value: New Caledonia
+# Generic country-wide fallback content for New Caledonia (dependent-territory,
+# single synthetic whole region). A Melanesian archipelago of ~265,000 people in the
+# south-west Pacific, centred on the main island Grande Terre ('le Caillou') with the
+# Loyalty Islands to the east and the Isle of Pines to the south.
+climates:
+  - koppenCode: Af
+    description: "Tropical oceanic climate — warm and humid year-round, with a hot, wet season (November–April) and a drier, cooler season (May–October), moderated by the trade winds and the surrounding ocean."
+landmarks:
+  - name: Nouméa
+    description: "The capital, a French-style harbour city with the Tjibaou Cultural Centre and the wide Anse Vata beach."
+  - name: The Tjibaou Cultural Centre
+    description: "Nouméa's celebrated Jean-Marie Tjibaou Cultural Centre, designed by Renzo Piano, showcasing Kanak art and culture."
+  - name: The Isle of Pines
+    description: "An idyllic southern island of white-sand beaches and old French penal ruins, popular with visitors."
+  - name: Heart of Voh
+    description: "A famous heart-shaped clearing in the mangrove near Voh, an emblem of the landscape."
+culturalTraits:
+  - "A Melanesian Kanak cultural heritage interwoven with French and wider Pacific influences"
+  - "Customary authority (the 'chefferie' and clan councils) remains important in Kanak communities"
+  - "A strong sense of the land (the 'Kanaky' term used by pro-independence Kanak) and the mining wealth of nickel"
+  - "A blend of Melanesian communal life and a French-influenced urban lifestyle in Nouméa"
+prideOf:
+  - "The natural beauty of Grande Terre's mountains, lagoons and coral reefs"
+  - "Kanak identity, customary culture and the world's largest lagoon (the New Caledonian Barrier Reef)"
+  - "Nickel — the territory's economic backbone and a point of pride"
+animals:
+  popular:
+    - "The iconic kagu, a flightless bird and symbol of New Caledonia"
+    - "Sea turtles, dugongs and dolphins in the lagoon"
+    - "Notou pigeons and parrots (the horned parakeet)"
+  unique:
+    - "One of the highest rates of endemic species in the world, including the kagu and many unique reptiles and plants; the surrounding barrier reef is a UNESCO World Heritage Site"
+industries:
+  - "Nickel mining and smelting — the dominant industry and a leading employer"
+  - "Public administration and services"
+  - "Tourism, centred on Nouméa, the Isle of Pines and the Loyalty Islands"
+  - "Agriculture, fishing and aquaculture"
+sports:
+  - "Football (soccer) — very popular"
+  - "Rugby and cricket (the latter the national game of the neighbouring Pacific, less so here)"
+  - "Surfing, sailing and water sports around the reef"
+  - "Volleyball, basketball and canoeing"
+religions:
+  - name: Catholic (Roman Catholic)
+    percent: 60.0
+    sourceId: wp-culture
+  - name: Protestant (Evangelical and other Protestant)
+    percent: 20.0
+    sourceId: wp-culture
+  - name: Other / unaffiliated
+    percent: 20.0
+    sourceId: wp-culture
+# The population is predominantly Christian, reflecting French and Melanesian
+# missionary history, with Catholic the largest group. Figures are estimates.
+entertainment:
+  - season: allYear
+    items:
+      - "Beach days and reef snorkelling"
+      - "Hiking in the mountains and exploring the lagoon"
+      - "Cultural events at the Tjibaou Centre and French-Pacific cuisine"
+  - season: wet
+    items:
+      - "Water sports, sailing and the summer social season"
+  - season: dry
+    items:
+      - "Cooler hiking and island excursions"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — New Caledonia (Culture)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/New_Caledonia"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Kanak culture; religion; landmarks; endemic wildlife; figures are estimates."

@@ -1,0 +1,94 @@
+code: WHOLE
+name:
+  eng: Macau
+  local:
+    - languageCode: zho
+      value: 澳門 (Ou Mun)
+    - languageCode: yue
+      value: 澳門 (Ou3 Mun4)
+    - languageCode: por
+      value: Macau
+# Generic country-wide fallback content for Macau (dependent-territory, single
+# synthetic whole region). A compact Special Administrative Region of ~700,000
+# people on the west side of the Pearl River estuary, comprising the Macau
+# Peninsula, the Cotai strip and the former islands of Taipa and Coloane.
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate — hot, humid summers with heavy rain and occasional typhoons; mild, drier winters; high year-round humidity."
+landmarks:
+  - name: Ruins of St. Paul's (the façade of the Cathedral of St. Paul)
+    description: "The iconic 17th-century church façade rising beside the hill, the single most photographed landmark of Macau."
+  - name: The Cotai Strip
+    description: "The reclaimed integrated-resort zone of luxury casinos, hotels and entertainment that drives Macau's economy."
+  - name: Senado Square (Piazza della Repubblica) and the old town
+    description: "A UNESCO-listed historic centre of Portuguese-style buildings, cobbled squares and the Old City of Macau."
+  - name: The Macau Peninsula's Gambling Gate casinos zone
+    description: "The casino district near the peninsula's edge, where historic gaming houses line the waterfront."
+culturalTraits:
+  - "A rare blend of Cantonese and Portuguese (and broader Latin) culture, a UNESCO-twin-heritage city"
+  - "A world-famous gambling and integrated-resort culture"
+  - "Rich 'Macanese' (mestizo) cuisine mixing Cantonese and Portuguese flavours, such as the famous pork chop bun and egg tarts"
+  - "Fervent festivals from both traditions: Lunar New Year, the Dragon Boat Festival, and the Procession of Our Lady of Fatima"
+prideOf:
+  - "Being the world's gaming capital and an entertainment hub"
+  - "The unique, historic Macanese identity and cuisine"
+  - "A compact, walkable heritage city whose architecture spans East and West"
+animals:
+  popular:
+    - "Bottlenose dolphins and finless porpoises in the Pearl River estuary"
+    - "Black-faced spoonbills, a wintering rarity along the coast"
+  unique:
+    - "Oyster and clam flats and near-shore mangrove habitats around the reclaimed shoreline"
+industries:
+  - "Gaming and casinos — the dominant industry and tax source"
+  - "Tourism and integrated-resort hospitality"
+  - "Retail, dining and entertainment"
+  - "Financial services and a growing professional-services sector"
+sports:
+  - "Football (soccer) and the Macau Football Association leagues"
+  - "Basketball, badminton and table tennis"
+  - "Dragon Boat racing — a highlight festival sport"
+  - "Swimming and waterside sports on the coast"
+religions:
+  - name: Chinese folk religion (Buddhism and Taoism blended)
+    percent: 60.0
+    sourceId: wp-culture
+  - name: Catholic (legacy of Portuguese rule)
+    percent: 5.0
+    sourceId: wp-culture
+  - name: Other (Protestant, Islam and others)
+    percent: 5.0
+    sourceId: wp-culture
+  - name: No religion
+    percent: 30.0
+    sourceId: wp-culture
+# The majority follow Chinese folk religion (Buddhism/Taoism), with a historic
+# Catholic minority reflecting Portuguese rule and a large no-religion group.
+# Figures are estimates.
+entertainment:
+  - season: allYear
+    items:
+      - "Casino and integrated-resort entertainment on the Cotai Strip"
+      - "Eating out: dim sum, Macanese cuisine and the famous egg tarts"
+      - "Wandering the heritage old town and its squares"
+  - season: summer
+    items:
+      - "Dragon Boat Festival races on the water"
+      - "Beach and waterfront outings"
+  - season: winter
+    items:
+      - "Lunar New Year celebrations, markets and red-lantern displays"
+      - "Cooler sightseeing and the Procession of Our Lady of Fatima in December"
+seasonCalendar:
+  - season: summer
+    months: [4, 5, 6, 7, 8, 9, 10]
+  - season: winter
+    months: [11, 12, 1, 2, 3]
+sources:
+  - id: wp-culture
+    name: "Wikipedia — Macau (Society and culture)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Macau"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Cantonese-Portuguese cultural blend; gambling culture; religion and festivals; figures are estimates."

@@ -1,0 +1,146 @@
+alpha3: MAC
+alpha2: MO
+name:
+  eng: Macau
+  local:
+    - languageCode: zho
+      value: 澳門 (Ou Mun)
+    - languageCode: yue
+      value: 澳門 (Ou3 Mun4)
+    - languageCode: por
+      value: Macau
+flagEmoji: "🇲🇴"
+capital: "Macau (no separate capital; the city and territory are contiguous)"
+isSovereign: false
+# Classified dependent-territory: Macau is a Special Administrative Region (SAR) of
+# the People's Republic of China, not a sovereign state. A compact territory of
+# ~700,000 people on the west side of the Pearl River estuary, made up of the Macau
+# Peninsula, the Cotai strip and Taipa and Coloane islands. A single synthetic WHOLE
+# region per the governance rule for non-sovereign ISO 3166-1 entries (the peninsula
+# / islands split is geographic, not a culturally distinct curated region).
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: zho
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: por
+    domain: official
+    speakersShare: 1.0
+    sourceId: wp-lang
+  - languageCode: yue
+    domain: locallySpoken
+    speakersShare: 0.83
+    sourceId: wp-lang
+  - languageCode: zho
+    domain: locallySpoken
+    speakersShare: 0.93
+    sourceId: wp-lang
+  - languageCode: por
+    domain: locallySpoken
+    speakersShare: 0.12
+    sourceId: wp-lang
+# Chinese and Portuguese are the official languages of Macau (Basic Law; European
+# Portuguese is the standard used). Cantonese (yue) is the dominant everyday
+# language (~83%), with Mandarin growing and Portuguese a learned but important
+# minority language. LocallySpoken shares are estimates.
+ethnicGroups:
+  - group: Han Chinese (incl. Macanese-Cantonese majority and mainland-origin Han)
+    percent: 88.0
+    sourceId: wp-ethnic
+  - group: Macanese (mestizo, Portuguese-Han heritage)
+    percent: 6.0
+    sourceId: wp-ethnic
+  - group: Other (Portuguese, Filipino and other foreign residents)
+    percent: 6.0
+    sourceId: wp-ethnic
+timezones:
+  - name: Asia/Macau
+    standardUtcOffset: "UTC+8"
+    observesDst: false
+# Macau is on Macau Time, UTC+8 all year, with no DST (same as Hong Kong and
+# mainland China).
+currency:
+  code: MOP
+  symbol: "MOP$"
+  name: Macanese pataca
+legalConstraints:
+  - topic: "official language"
+    description: "Chinese and Portuguese are the official languages of Macau, per the Basic Law and the Macau Official Languages Ordinance; Cantonese is the dominant spoken Chinese variety and European Portuguese the standard used in official Portuguese-language matters."
+    sourceId: wp-lang
+  - topic: "Special Administrative Region status"
+    description: "Macau is a Special Administrative Region of the People's Republic of China under 'one country, two systems', with its own Basic Law (1999) granting autonomy in most local affairs; it operates a separate legal system based on Portuguese-era law."
+    sourceId: wp-politics
+  - topic: "gambling monopoly and economy"
+    description: "Casino gaming is illegal in mainland China and Hong Kong, giving Macau a legal monopoly on the industry in China; the 'gaming hub' (the Cotai strip's integrated resorts) is the engine of its economy and tax base."
+    sourceId: wp-politics
+  - topic: "British-style passport and border"
+    description: "Macau issues its own SAR passports and maintains a regulated border with mainland China and Hong Kong through which all travellers must pass immigration controls."
+    sourceId: wp-culture
+paymentCulture:
+  popularMethods:
+    - "Cash in Macanese pataca (MOP) — still common for everyday purchases"
+    - "Card payments (Visa/Mastercard) widely accepted in casinos, hotels and shops"
+    - "MOBILE payments are growing (MPay, WeChat Pay and Alipay)"
+  tipping:
+    expected: false
+    typicalAmount: "A small discretionary gratuity in high-end or casino-side restaurants"
+    autoIncludedInBill: false
+    note: "Tipping is not generally expected; a 10% service charge is often already added in restaurants and casinos."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "A relaxed but hierarchical urban culture blending Cantonese warmth with a Portuguese-influenced Latin congeniality. Politeness, patience and respect for elders and status are valued."
+  greetingNorms: "Greet with a smile and a handshake; 'Nei hou' (你好) in Cantonese or 'Bom dia' in Portuguese; address people by surname plus title until invited otherwise."
+  meetingEtiquette: "Meetings are courteous and relationship-oriented; building trust matters; business cards are given and received with both hands."
+  topicsToAvoid:
+    - "The political status of Macau, Taiwan or the China relationship in sensitive contexts"
+    - "Joking about gambling problems or the industry's social cost"
+  giftGivingNotes: "Gift-giving is common for festivals and business; red packets (lai see) at Lunar New Year; quality food and seasonal treats are safe, thoughtful gifts."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: wp-lang
+    name: "Wikipedia — Macau (Languages)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Macau#Languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Chinese and Portuguese official (Basic Law); Cantonese dominant (~83%); figures are estimates."
+  - id: wp-ethnic
+    name: "Wikipedia — Macau (Demographics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Macau#Demographics"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Han Chinese majority; Macanese (mestizo) community; foreign residents including Portuguese."
+  - id: wp-politics
+    name: "Wikipedia — Macau (Government and politics)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Macau"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "SAR of China under 'one country, two systems'; Basic Law 1999; separate legal system derived from Portuguese-era law; gambling monopoly and economy."
+  - id: wp-culture
+    name: "Wikipedia — Macau (Society and culture)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Macau"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Cantonese-Portuguese cultural blend; border and passport arrangements."
+  - id: iso-zho
+    name: "ISO 639-3 entry: zho — Chinese (macrolanguage)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/zho"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code zho = Chinese, macrolanguage, Active; yue (Yue/Cantonese) is a member (verified Active)."
+  - id: iso-por
+    name: "ISO 639-3 entry: por — Portuguese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/por"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code por = Portuguese, Active."
