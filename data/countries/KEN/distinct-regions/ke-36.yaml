@@ -1,0 +1,86 @@
+code: KE-36
+name:
+  eng: Nyeri
+  local:
+    - languageCode: kik
+      value: Nyeri
+climates:
+  - koppenCode: Cfb
+    description: "Mild subtropical highland climate in the Central Highlands, with reliable rainfall and cool nights."
+landmarks:
+  - name: Mount Kenya National Park
+    description: "Africa's second-highest peak (5,199m), a UNESCO World Heritage Site with alpine moorland and glaciers."
+    unescoWorldHeritage: true
+  - name: Aberdare National Park
+    description: "A rainforest-and-moorland park in the Aberdare Range, home to the 'Big Five', waterfalls and deep gorges."
+  - name: Nyeri and the Mau Mau history
+    description: "Central to Kenya's independence history; the town Nyeri is associated with the freedom-fighters' story."
+  - name: Baden-Powell Grave (Nyeri)
+    description: "The final resting place of the founder of the Boy Scout movement, who lived in Nyeri."
+culturalTraits:
+  - "The heartland of the Kikuyu people and the fertile Central Highlands"
+  - "A region of coffee and tea estates set against the backdrop of Mount Kenya"
+  - "Deep cultural pride and a history-central role in Kenya's independence movement"
+prideOf:
+  - "The central highlands' agricultural and cultural contribution to Kenya"
+  - "The sacred presence of Mount Kenya on the horizon"
+  - "A strong tradition of education and enterprise among the Kikuyu community"
+animals:
+  popular:
+    - "Elephant"
+    - "Buffalo"
+    - "Black rhinoceros (Aberdare)"
+    - "Bongo antelope (rare, Aberdare)"
+  unique:
+    - "Mountain bongo (endangered forest antelope of the Aberdares)"
+    - "Colobus monkey"
+industries:
+  - "Agriculture — coffee, tea and dairy farming"
+  - "Tourism — Mount Kenya and Aberdare national parks"
+  - "Smallholder farming and horticulture"
+sports:
+  - "Athletics — the Central Highlands are famous for producing champion distance runners"
+  - "Football"
+  - "Rugby"
+entertainment:
+  - season: allYear
+    items:
+      - "Hiking and trekking around Mount Kenya"
+      - "Coffee and tea estate tours"
+      - "Traditional Kikuyu dances and ceremonies"
+  - season: wet
+    items:
+      - "The green undulating landscape of the highlands in the wet season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ugali (maize porridge)"
+      - "Nyama choma (grilled meat)"
+      - "Chapati and sukuma wiki (green vegetables)"
+      - "Fruits from the highland orchards"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern business and casual attire"
+      - "Kanga cloth wraps for women; kanzu for men on special occasions"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 6, 7, 8, 9, 10, 11, 12]
+  - season: wet
+    months: [3, 4, 5]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:30-17:00 weekdays; agricultural markets often open earlier."
+  lunchBreakTiming: "Lunch around 13:00, with 'chai' breaks through the day."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Government and many businesses close for the festive public holidays."
+sources:
+  - id: nyeri-tourism
+    name: "Nyeri County and Mount Kenya tourism"
+    publisher: "Nyeri County Government / Kenya Tourism Board"
+    url: "https://nyeri.go.ke/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine and cultural description for Nyeri and the Central Highlands."

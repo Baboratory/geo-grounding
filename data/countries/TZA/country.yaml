@@ -1,0 +1,199 @@
+alpha3: TZA
+alpha2: TZ
+name:
+  eng: Tanzania, United Republic of
+  local:
+    - languageCode: swa
+      value: Tanzania (Jamhuri ya Muungano wa Tanzania)
+    - languageCode: eng
+      value: United Republic of Tanzania
+flagEmoji: "🇹🇿"
+capital: Dodoma
+isSovereign: true
+# Classified unitary-large: Tanzania's population (~61.7M at the 2022 census,
+# ~67-69M by 2024-25 estimates) is far above the small-state threshold, and the
+# country has a genuine, widely recognised regional-cultural mosaic (the
+# Sukuma/Nyamwezi-dominated north-west, the Swahili Coast around Dar es Salaam,
+# the Zanzibar islands and the inland plateaus). It is a unitary republic (31
+# regions) so NOT federal. Curated regions follow real ISO 3166-2 regions: Dar
+# es Salaam (TZ-02), Dodoma (TZ-11, capital), Mbeya (TZ-14), Tanga (TZ-25) and
+# Zanzibar West (TZ-15) + WHOLE as national fallback. Swahili is the national
+# language and (with English) the de facto language of government and business.
+governanceType: unitary-large
+iso3166_2_prefix: TZ
+hasSubdivisions: true
+languageUsage:
+  # Tanzania has no de jure official language statute; Swahili is the national
+  # language and, with English, used in government, courts and business. Both
+  # are treated as official in practice.
+  - languageCode: swa
+    domain: official
+    speakersShare: 1.0
+    sourceId: nbs-census
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: nbs-census
+  # Swahili is nearly universal: ~95% speak it as first or second language.
+  - languageCode: swa
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: nbs-census
+  - languageCode: suk
+    domain: locallySpoken
+    # The Sukuma are Tanzania's largest single ethnic group (~16%).
+    speakersShare: 0.16
+    sourceId: nbs-census
+  - languageCode: nym
+    domain: locallySpoken
+    # The Nyamwezi are closely related to the Sukuma, centred south-east of
+    # Lake Victoria.
+    speakersShare: 0.06
+    sourceId: nbs-census
+  - languageCode: eng
+    domain: locallySpoken
+    # English is widely used in government, courts, higher education and
+    # business as a second language, though usage figures are not officially
+    # published.
+    speakersShare: 0.15
+    sourceId: cia-tz
+ethnicGroups:
+  # Composite from the 2022 Census and standard references; Tanzania has over
+  # 120 ethnic groups, so only the largest are listed and the residual is large.
+  - group: Sukuma
+    percent: 16.0
+    sourceId: nbs-census
+  - group: Nyamwezi
+    percent: 6.0
+    sourceId: nbs-census
+  - group: Chaga
+    percent: 5.0
+    sourceId: nbs-census
+  - group: Haya
+    percent: 4.0
+    sourceId: nbs-census
+  - group: Makonde
+    percent: 3.0
+    sourceId: nbs-census
+  - group: Other (120+ additional ethnic groups)
+    percent: 66.0
+    sourceId: nbs-census
+# Note: Tanzania is one of the most ethnically diverse countries in the world
+# with more than 120 groups; only the largest are listed individually and the
+# 'Other' residual dominates. Shares are composite estimates from census and
+# standard references.
+timezones:
+  - name: Africa/Dar_es_Salaam
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: TZS
+  symbol: "TSh"
+  name: Tanzanian shilling
+legalConstraints:
+  - topic: "official language"
+    description: "Tanzania's Constitution does not designate a de jure official language; Swahili is the national language and, together with English, is used in government, courts, education and business (Constitution of the United Republic of Tanzania, 1977 with amendments)."
+    sourceId: constitution-1977
+  - topic: "data protection"
+    description: "The Personal Data Protection Act (Cap 44 of 2022) regulates the collection and processing of personal data. The Personal Data Protection Commission (PDPC) launched on 3 April 2024 enforces the Act; controllers and processors must register, and processing must be lawful, fair, transparent and secure."
+    sourceId: pdpa-2022
+  - topic: "value added tax (VAT) price display"
+    description: "VAT is 18% standard on most goods and services in Mainland Tanzania (Value Added Tax Act, Cap 139; Finance Acts; 2023/24 rates), with 0% on exports and certain capital goods; a 16% rate applies to consideration paid by non-registered individuals through approved electronic systems. Zanzibar maintains its own separate VAT regime."
+    sourceId: tra-vat
+  - topic: "consumer protection"
+    description: "The Fair Competition Act, 2003 (Cap 265) and the Consumer Protection Regulations, 2005 protect consumers against unfair trading, misleading advertising and unsafe goods, administered by the Fair Competition Commission."
+    sourceId: fcc-tz
+paymentCulture:
+  popularMethods:
+    - "Mobile money — M-Pesa, T-Kash (Airtel) and Halotel Money; mobile money is pervasive, especially in rural areas"
+    - "Cash — still dominant in informal and rural commerce"
+    - "Bank cards (Visa/Mastercard) — accepted at larger retailers, hotels and online"
+    - "Bank transfers via the Tanzania Interbank Payment System (TIPS)"
+  tipping:
+    expected: false
+    typicalAmount: "Optional; ~10% at upscale restaurants and a small 'dashiki' for guides and safari staff is appreciated"
+    autoIncludedInBill: false
+    note: "Qualitative and customary. Mobile money often serves as a de facto bank account."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite, respectful and relationship-driven; age and titles matter. Swahili greeting culture (Habari / Bajani) is central."
+  greetingNorms: "A warm handshake is standard; asking after your counterpart's wellbeing ('Habari') is expected before business."
+  meetingEtiquette: "Meetings begin with introductions and small talk. Decisions are often consultative and consensus-oriented; patience is valued."
+  topicsToAvoid:
+    - "Sensitive tribal/ethnic politics"
+    - "The union with Zanzibar, discussed with care"
+  giftGivingNotes: "Not expected in business. A modest gift is warmly received when visiting a home."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: TZ-02
+    file: distinct-regions/tz-02.yaml
+    adminUnitCodes: [TZ-02]
+  - code: TZ-11
+    file: distinct-regions/tz-11.yaml
+    adminUnitCodes: [TZ-11]
+  - code: TZ-14
+    file: distinct-regions/tz-14.yaml
+    adminUnitCodes: [TZ-14]
+  - code: TZ-25
+    file: distinct-regions/tz-25.yaml
+    adminUnitCodes: [TZ-25]
+  - code: TZ-15
+    file: distinct-regions/tz-15.yaml
+    adminUnitCodes: [TZ-15]
+sources:
+  - id: constitution-1977
+    name: "Constitution of the United Republic of Tanzania, 1977 (with amendments)"
+    publisher: "Constitute Project (comparative constitutions project hosting an official-text translation; not a Government of Tanzania domain)"
+    url: "https://www.constituteproject.org/constitution/Tanzania_2015"
+    year: 1977
+    accessedDate: "2026-09-21"
+    note: "No de jure official language; Swahili as national language used with English in government and education."
+  - id: nbs-census
+    name: "2022 Population and Housing Census — Basic Demographic and Socio-Economic Profile and key findings"
+    publisher: "National Bureau of Statistics, United Republic of Tanzania"
+    url: "https://www.nbs.go.tz/sensa-2022"
+    year: 2022
+    accessedDate: "2026-09-21"
+    note: "Population 61.74M; language and ethnic-group context; rural/urban split."
+  - id: cia-tz
+    name: "CIA World Factbook — Tanzania"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/tanzania/"
+    accessedDate: "2026-09-21"
+    note: "Qualitative language and English-usage context; general demographic data."
+  - id: pdpa-2022
+    name: "Personal Data Protection Act, Cap 44 of 2022 and Personal Data Protection Regulations, 2023"
+    publisher: "Parliament of Tanzania / Personal Data Protection Commission"
+    url: "https://www.pdpc.go.tz/"
+    year: 2022
+    accessedDate: "2026-09-21"
+    note: "Personal data protection framework; PDPC enforcement; registration obligations."
+  - id: tra-vat
+    name: "The Value Added Tax Act and current VAT rates"
+    publisher: "Tanzania Revenue Authority"
+    url: "https://www.tra.go.tz/page/value-added-tax-vat"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "18% standard VAT in Mainland Tanzania; 0% exports; Zanzibar separate regime."
+  - id: fcc-tz
+    name: "The Fair Competition Act, 2003 and Consumer Protection Regulations, 2005"
+    publisher: "Fair Competition Commission of Tanzania"
+    url: "https://www.compcom.or.tz/"
+    year: 2005
+    accessedDate: "2026-09-21"
+    note: "Consumer protection against unfair trading and misleading advertising."
+  - id: iso-suk
+    name: "ISO 639-3 entry: suk — Sukuma"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/suk"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code suk."
+  - id: iso-nym
+    name: "ISO 639-3 entry: nym — Nyamwezi"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/nym"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code nym."

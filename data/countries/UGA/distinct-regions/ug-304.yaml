@@ -1,0 +1,82 @@
+code: UG-304
+name:
+  eng: Gulu
+  local:
+    - languageCode: ach
+      value: Gulu
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry savanna climate in northern Uganda, with a distinct long dry season."
+landmarks:
+  - name: Gulu Town
+    description: "The principal urban centre of northern Uganda, historically the heartland of the Acholi people."
+  - name: Acholi ecosystem and the National Cultural Centre
+    description: "Centres presenting Acholi songs, dances and the rich oral heritage of the north."
+  - name: Ajai Wildlife Reserve (nearby)
+    description: "A protected savanna reserve in the north-west, habitat of the northern white rhino historically and various antelope."
+  - name: The Albert Nile and river landing
+    description: "The stretch of the White Nile flowing through the region, important for fishing and transport."
+culturalTraits:
+  - "The largest city and cultural heartland of the Acholi people of northern Uganda"
+  - "A resilient community with a deep musical and dance tradition (Larakaraka, Bwola)"
+  - "Buzzing after recovery from the long conflict, focused on rebuilding and agriculture"
+prideOf:
+  - "The strength and resilience of the Acholi people in rebuilding after conflict"
+  - "A proud oral, musical and ceremonial heritage"
+  - "The calm beauty of the northern savanna and the Nile"
+animals:
+  popular:
+    - "Various antelope (oribi, hartebeest)"
+    - "African elephant (in nearby reserves)"
+    - "Shoebill stork (in the wetlands)"
+  unique:
+    - "The rare shoebill stork in northern wetlands"
+industries:
+  - "Agriculture — millet, sorghum, groundnuts and sesame"
+  - "Fishing along the Albert Nile"
+  - "Trade and commerce in Gulu Town"
+  - "Emerging services following development investment"
+sports:
+  - "Football (soccer)"
+  - "Athletics"
+  - "Basketball"
+entertainment:
+  - season: allYear
+    items:
+      - "Acholi traditional performances (Larakaraka dance) and cultural festivals"
+      - "Nile-side recreation and bird watching"
+      - "The lively Gulu Town market and music scene"
+  - season: dry
+    items:
+      - "Dry-season wildlife viewing in the surrounding reserves"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Posho with groundnut sauce"
+      - "Millet bread and sorghum porridge"
+      - "Matooke in the southern borderlands"
+      - "Grilled and smoked fish from the Nile"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kiteenge (printed cotton) wraps for women"
+      - "Kanzu and kufi for men on formal occasions"
+      - "Modern casual and church attire"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 12, 6, 7, 8]
+  - season: wet
+    months: [4, 5, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:00-17:00 Monday to Friday."
+  lunchBreakTiming: "A lunch break around 13:00 is typical."
+sources:
+  - id: gulu-tourism
+    name: "Gulu and the Acholi region — tourism and culture"
+    publisher: "Gulu District Local Government / Uganda Tourism Board"
+    url: "https://www.gulu.go.ug/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine and cultural description for Gulu."

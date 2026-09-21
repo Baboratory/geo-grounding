@@ -1,0 +1,250 @@
+alpha3: KEN
+alpha2: KE
+name:
+  eng: Kenya
+  local:
+    - languageCode: eng
+      value: Kenya
+    - languageCode: swa
+      value: Kenya
+flagEmoji: "🇰🇪"
+capital: Nairobi
+isSovereign: true
+# Classified unitary-large: Kenya's population (~47.6M at the 2019 census, ~55M
+# by 2025 estimates) is far above the ~20-25M small-state threshold, and it has
+# a genuine, widely recognised regional ethnolinguistic mosaic (the Kikuyu
+# Central Highlands, the Swahili Coast, the Luo region around Lake Victoria,
+# the Kalenjin Rift Valley, the Somali North-Eastern frontier), meeting 2 of
+# the 3 DESIGN.md criteria. The state is unitary (47 counties under the 2010
+# Constitution, devolved but no residual sovereignty) so NOT federal. Curated
+# regions follow real ISO 3166-2 counties: Nairobi City (KE-30), Mombasa
+# (KE-28, Swahili coast), Kisumu (KE-17, Luo/Lake Victoria), Nyeri (KE-36,
+# Kikuyu highlands) + WHOLE as national fallback.
+governanceType: unitary-large
+iso3166_2_prefix: KE
+hasSubdivisions: true
+languageUsage:
+  # English and Swahili are both official under the 2010 Constitution (art. 7)
+  # — official domain is a legal-status flag = 1.0 for each.
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2010
+  - languageCode: swa
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2010
+  # Swahili is a first language for the coastal Swahili/Mijikenda populations
+  # and the national lingua franca as a second language.
+  - languageCode: swa
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: knbs-census
+  # The five most populous ethnic languages, share as first/home language
+  # (composite estimates from the 2019 census ethnicity data; Kenya's census
+  # records ethnicity and province, and language is captured imperfectly, so
+  # these are flagged as estimates).
+  - languageCode: kik
+    domain: locallySpoken
+    speakersShare: 0.17
+    sourceId: knbs-census
+  - languageCode: luy
+    domain: locallySpoken
+    speakersShare: 0.14
+    sourceId: knbs-census
+  - languageCode: kal
+    domain: locallySpoken
+    speakersShare: 0.13
+    sourceId: knbs-census
+  - languageCode: luo
+    domain: locallySpoken
+    speakersShare: 0.11
+    sourceId: knbs-census
+  - languageCode: kam
+    domain: locallySpoken
+    speakersShare: 0.10
+    sourceId: knbs-census
+  - languageCode: guz
+    domain: locallySpoken
+    speakersShare: 0.06
+    sourceId: knbs-census
+  - languageCode: eng
+    domain: locallySpoken
+    # English is widely used in government, courts, business and urban life as
+    # a second language, though exact shares are not officially published.
+    speakersShare: 0.10
+    sourceId: cia-ke
+ethnicGroups:
+  # 2019 Kenya Population and Housing Census (KNBS), largest ethnic groups.
+  - group: Kikuyu
+    percent: 17.1
+    sourceId: knbs-census
+  - group: Luhya
+    percent: 14.3
+    sourceId: knbs-census
+  - group: Kalenjin
+    percent: 13.4
+    sourceId: knbs-census
+  - group: Luo
+    percent: 10.7
+    sourceId: knbs-census
+  - group: Kamba
+    percent: 9.8
+    sourceId: knbs-census
+  - group: Somali
+    percent: 5.8
+    sourceId: knbs-census
+  - group: Kisii
+    percent: 5.7
+    sourceId: knbs-census
+  - group: Mijikenda
+    percent: 5.2
+    sourceId: knbs-census
+  - group: Meru
+    percent: 4.2
+    sourceId: knbs-census
+  - group: Maasai
+    percent: 2.5
+    sourceId: knbs-census
+  - group: Turkana
+    percent: 2.1
+    sourceId: knbs-census
+  - group: Other (including Teso, Embu, Taita, Samburu, Kenyan Arabs, and Asian/European minorities)
+    percent: 9.2
+    sourceId: knbs-census
+# Note: The 2019 census enumerated 47.56M people across 46+ ethnic categories;
+# shares above are derived from absolute census figures and do not sum exactly
+# to 100% because of rounding and the large 'Other' residual.
+timezones:
+  - name: Africa/Nairobi
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: KES
+  symbol: "KSh"
+  name: Kenyan shilling
+legalConstraints:
+  - topic: "official language"
+    description: "Under Article 7 of the Constitution of Kenya (2010), the national language of the Republic is Kiswahili, and the official languages are Kiswahili and English. Parliament may by legislation determine other officially recognised languages, and the State is committed to promote and protect indigenous languages of the Kenyan people."
+    sourceId: constitution-2010
+  - topic: "data protection"
+    description: "The Data Protection Act, 2019 (GDPR-aligned) regulates the collection, processing, storage and transfer of personal data. It requires breach notification within 72 hours, provides for data-subject rights, and is overseen by the Office of the Data Protection Commissioner (ODPC), with penalties of up to KES 5 million or 1% of annual turnover."
+    sourceId: dpdact-2019
+  - topic: "value added tax (VAT) price display"
+    description: "VAT is 16% standard on most goods and services (VAT Act 2013, as amended). The old 8% petroleum rate was abolished on 1 July 2023 when fuels moved to 16%. Zero-rated supplies (exports, ordinary bread, unprocessed milk) are taxed at 0% with input recovery; exempt supplies (financial services, insurance, education, LPG) carry no VAT. Prices in shops are customarily displayed VAT-inclusive."
+    sourceId: kra-vat
+  - topic: "consumer protection"
+    description: "Consumer protection is anchored in the Consumer Protection Act, 2012 (Cap 505) and the Competition Act, underpinned by constitutional consumer rights (2010 Constitution Article 46). It covers goods and services of reasonable quality, truthful information and protection against unfair or deceptive practices."
+    sourceId: cpa-2012
+paymentCulture:
+  popularMethods:
+    - "Mobile money — M-Pesa is the defining payment rail, used by the overwhelming majority of adults for transfers, bills and purchases"
+    - "Cash — still widely used, particularly in rural and informal markets"
+    - "Bank cards (Visa/Mastercard) — accepted in larger retailers, hotels and online"
+    - "Bank transfers / pesalink and EFT for formal commerce"
+  tipping:
+    expected: false
+    typicalAmount: "Optional; ~10% at upscale restaurants is appreciated, and small tips for guides and hotel staff are customary"
+    autoIncludedInBill: false
+    note: "Qualitative and customary. Mobile money effectively serves as a bank account for a large share of the population."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite and community-oriented; age, titles and greeting matter. Harambee (collective effort) and hospitality are cultural touchstones."
+  greetingNorms: "A warm handshake is standard; greeting someone by name and asking how they are (Habari / Mambo) is expected before getting to business."
+  meetingEtiquette: "Meetings open with introductions and small talk; relationship-building and trust precede business. Consensus is valued and decisions may be consultative."
+  topicsToAvoid:
+    - "Sensitive tribal/ethnic politics and post-election tensions"
+    - "Remarks seen as disrespectful to elders or traditional authorities"
+  giftGivingNotes: "Not expected in business. When visiting a home, a modest gift is warmly received."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: KE-30
+    file: distinct-regions/ke-30.yaml
+    adminUnitCodes: [KE-30]
+  - code: KE-28
+    file: distinct-regions/ke-28.yaml
+    adminUnitCodes: [KE-28]
+  - code: KE-17
+    file: distinct-regions/ke-17.yaml
+    adminUnitCodes: [KE-17]
+  - code: KE-36
+    file: distinct-regions/ke-36.yaml
+    adminUnitCodes: [KE-36]
+sources:
+  - id: constitution-2010
+    name: "Constitution of Kenya, 2010 — Chapter Two, Article 7 (national and official languages)"
+    publisher: "Government of Kenya (National Council for Law Reporting)"
+    url: "http://kenyalaw.org/kl/index.php?id=398"
+    year: 2010
+    accessedDate: "2026-09-21"
+    note: "Official languages: Kiswahili and English; national language Kiswahili; protection of indigenous languages."
+  - id: knbs-census
+    name: "2019 Kenya Population and Housing Census — Volume IV: Distribution of Population by Socio-Economic Characteristics"
+    publisher: "Kenya National Bureau of Statistics (KNBS)"
+    url: "https://www.knbs.or.ke/wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Volume-4-Distribution-of-Population-by-Socio-Economic-Characteristics.pdf"
+    year: 2019
+    accessedDate: "2026-09-21"
+    note: "Ethnic groups percentages and absolute numbers; religious composition; population total ~47.56M."
+  - id: cia-ke
+    name: "CIA World Factbook — Kenya"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/kenya/"
+    accessedDate: "2026-09-21"
+    note: "Qualitative language/English usage context and general demographic data."
+  - id: dpdact-2019
+    name: "Data Protection Act, 2019 (No. 24 of 2019)"
+    publisher: "National Council for Law Reporting / Office of the Data Protection Commissioner (Kenya)"
+    url: "https://www.odpc.go.ke/2022-03-14-09-04-33/the-data-protection-act-2019/"
+    year: 2019
+    accessedDate: "2026-09-21"
+    note: "GDPR-aligned personal data protection framework; 72-hour breach notification; ODPC supervision."
+  - id: kra-vat
+    name: "Value Added Tax Act 2013 and current VAT rates (KRA)"
+    publisher: "Kenya Revenue Authority"
+    url: "https://www.kra.go.ke/individual/filing-paying/types-of-taxes/value-added-tax-vat"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "16% standard VAT; petroleum moved to 16% on 1 July 2023; zero-rated vs exempt distinction."
+  - id: cpa-2012
+    name: "Consumer Protection Act, 2012 (Cap 505) and Competition Act"
+    publisher: "National Council for Law Reporting (Kenya)"
+    url: "http://kenyalaw.org/lex//actview.xql?actid=No.%2035%20of%202012"
+    year: 2012
+    accessedDate: "2026-09-21"
+    note: "Consumer rights to quality, truthful information and protection against unfair practices (also art. 46 of the Constitution)."
+  - id: iso-kik
+    name: "ISO 639-3 entry: kik — Kikuyu"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/kik"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code kik."
+  - id: iso-luy
+    name: "ISO 639-3 entry: luy — Luyia"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/luy"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code luy."
+  - id: iso-kam
+    name: "ISO 639-3 entry: kam — Kamba (Kenya)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/kam"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code kam."
+  - id: iso-luo
+    name: "ISO 639-3 entry: luo — Luo (Kenya and Tanzania) / Dholuo"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/luo"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code luo."
+  - id: iso-guz
+    name: "ISO 639-3 entry: guz — Gusii"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/guz"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code guz."

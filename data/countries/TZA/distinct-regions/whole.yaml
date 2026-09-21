@@ -1,0 +1,114 @@
+code: WHOLE
+name:
+  eng: Tanzania
+  local:
+    - languageCode: swa
+      value: Tanzania
+# Generic country-wide fallback content for Tanzania (unitary-large with a
+# curated subset of regions). National-level coverage not specific to one region.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry savanna climate over much of the mainland, with distinct wet and dry seasons."
+  - koppenCode: Am
+    description: "Tropical monsoon climate along the coast and around the lakes, with heavy wet-season rain."
+  - koppenCode: Cwb
+    description: "Temperate highland climate on the inland plateaus and around Kilimanjaro, mild with seasonally reliable rain."
+  - koppenCode: BSh
+    description: "Semi-arid climate in parts of the central and northern interior."
+landmarks:
+  - name: Mount Kilimanjaro
+    description: "Africa's highest peak (5,895m) and a free-standing snow-capped stratovolcano, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Serengeti National Park
+    description: "Tanzania's flagship wildlife reserve, world-famous for the annual wildebeest migration, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Ngorongoro Conservation Area
+    description: "A vast crater with dense wildlife, a UNESCO World Heritage Site and a key source of fossil evidence."
+    unescoWorldHeritage: true
+  - name: Stone Town of Zanzibar
+    description: "The historic Swahili trading town of Zanzibar City, a UNESCO World Heritage Site of coral-stone and brass-studded doors."
+    unescoWorldHeritage: true
+  - name: Lake Victoria
+    description: "The world's second-largest freshwater lake, shared with Uganda and Kenya, central to Tanzanian fishing."
+  - name: Ruins of Kilwa Kisiwani and Songo Mnara
+    description: "Remains of great medieval Swahili trading ports on the southern coast, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "A peaceful, culturally diverse East African nation of more than 120 ethnic groups united by the Swahili language"
+  - "Famous worldwide for safari wildlife, the Serengeti and Mount Kilimanjaro"
+  - "A rich Swahili coastal heritage shaped by centuries of Indian Ocean trade"
+prideOf:
+  - "Mount Kilimanjaro and the iconic safari landscapes"
+  - "A national identity built on a shared Swahili language and culture"
+  - "Warm hospitality and the serene beauty of lakes and coast"
+animals:
+  popular:
+    - "African elephant"
+    - "Lion"
+    - "Giraffe"
+    - "Wildebeest"
+    - "Zebra"
+    - "Hippopotamus"
+  unique:
+    - "Zanzibar red colobus monkey (endemic to Zanzibar)"
+    - "Black-and-white colobus and the endangered eastern chimpanzee (Mahale/Gombe)"
+industries:
+  - "Agriculture — maize, coffee, cashew, cotton, tobacco"
+  - "Mining — gold, tanzanite (unique to Tanzania)"
+  - "Tourism and wildlife safaris"
+  - "Fishing and ports (Dar es Salaam)"
+  - "Manufacturing and food processing"
+sports:
+  - "Football (soccer)"
+  - "Athletics — Tanzania has a proud distance-running tradition"
+  - "Boxing"
+  - "Basketball"
+entertainment:
+  - season: allYear
+    items:
+      - "Wildlife safaris in Serengeti, Ngorongoro and the national parks"
+      - "Swahili music, taarab on Zanzibar, and bongo flava in Dar es Salaam"
+      - "Dhow cruising and coastal beach life"
+  - season: dry
+    items:
+      - "The dry-season wildlife-viewing peak for the wildebeest migration"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ugali (swallow/porridge, East Africa's staple)"
+      - "Grilled fish and seafood from the coast and lakes"
+      - "Samosa and pilau (spiced rice)"
+      - "Biryani and coconut curries along the coast"
+  - season: dry
+    items:
+      - "Roasted plantain and groundnuts from the highlands"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kanga and kikoi printed cotton wraps for women"
+      - "Kanzu and kufi cap for men on prayer and festive occasions"
+      - "Light cotton clothing and sandals for the warm climate"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8, 9, 10, 11, 12, 1, 2]
+  - season: wet
+    months: [3, 4, 5]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:00-16:30/17:00 Monday to Friday, with many offices adopting a shorter Friday."
+  lunchBreakTiming: "A lunch break around 13:00 is typical."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Government and most offices close for the festive public holidays."
+    - period: "Easter weekend"
+      description: "Good Friday and Easter Monday are public holidays."
+sources:
+  - id: unesco-whc-tz
+    name: "Tanzania — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/tz"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Tanzania's UNESCO World Heritage properties (Kilimanjaro, Serengeti, Ngorongoro, Stone Town, Kilwa)."

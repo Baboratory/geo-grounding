@@ -1,0 +1,86 @@
+code: KE-30
+name:
+  eng: Nairobi City
+  local:
+    - languageCode: swa
+      value: Nairobi
+    - languageCode: eng
+      value: Nairobi
+climates:
+  - koppenCode: Cfb
+    description: "Subtropical highland climate at ~1,700m, with mild temperatures year-round, warm days, cool nights and a marked wet season."
+landmarks:
+  - name: Nairobi National Park
+    description: "The world's only national park inside a capital city, with wild lion, giraffe and rhino against the city skyline."
+  - name: Giraffe Centre
+    description: "A conservation and education centre where visitors can hand-feed and view the endangered Rothschild's giraffe."
+  - name: David Sheldrick Wildlife Trust
+    description: "A famous elephant and rhino orphanage where rescued calves are cared for."
+  - name: Kenyatta International Convention Centre and Parliament
+    description: "Landmarks of Kenya's seat of government in the heart of the capital."
+  - name: Bomas of Kenya
+    description: "A cultural centre presenting traditional dances and music of Kenya's many ethnic groups."
+culturalTraits:
+  - "Kenya's capital and largest city, and the region's financial, tech and diplomatic hub"
+  - "A youthful, dynamic African metropolis — home to the 'Silicon Savannah' fintech scene"
+  - "A true melting pot of all Kenya's ethnic communities plus a large international community"
+prideOf:
+  - "Being Africa's leading tech and innovation hub (the 'Silicon Savannah')"
+  - "The convenient blend of a bustling city with a national park at its edge"
+  - "Vibrant nightlife, live music and a growing dining scene"
+animals:
+  popular:
+    - "Giraffe (Rothschild's)"
+    - "Lion (Nairobi National Park)"
+    - "African elephant"
+  unique:
+    - "Rothschild's giraffe (conservation success at the Giraffe Centre)"
+industries:
+  - "Finance and banking"
+  - "Technology, fintech and startups (M-Pesa, iHub, Nairobi Innovation Week)"
+  - "International organisations and diplomacy (UNEP, UN-Habitat headquarters)"
+  - "Professional services, consulting and media"
+sports:
+  - "Athletics — Nairobi's running culture and famous training grounds"
+  - "Football"
+  - "Rugby"
+  - "Basketball"
+entertainment:
+  - season: allYear
+    items:
+      - "Live music, benga, and the vibrant club scene in Westlands"
+      - "Safari pubs and wildlife-nightlife crossover venues"
+      - "Khat chats and weekend markets (Maasai market for crafts)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Nyama choma (grilled meat with tomatoes and peppers)"
+      - "Ugali and bean stews"
+      - "Suya and street brochettes"
+      - "Chapati and ugali with sukuma wiki (green vegetables)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern business and smart-casual attire"
+      - "African-print dresses and kanga for women; dashiki shirts for men"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 6, 7, 8, 9, 10, 11, 12]
+  - season: wet
+    months: [3, 4, 5]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:30-17:00 Monday to Friday; many offices adopt shorter Fridays."
+  lunchBreakTiming: "A lunch break around 13:00 is typical, with tea ('chai') breaks through the day."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Offices and government close for the festive public holidays."
+sources:
+  - id: nairobi-tourism
+    name: "Official Nairobi City Tourism Guide"
+    publisher: "Nairobi City County Government / Kenya Tourism Board"
+    url: "https://nairobi.go.ke/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, entertainment and cultural description for Nairobi."

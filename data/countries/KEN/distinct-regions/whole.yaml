@@ -1,0 +1,117 @@
+code: WHOLE
+name:
+  eng: Kenya
+  local:
+    - languageCode: eng
+      value: Kenya
+    - languageCode: swa
+      value: Kenya
+# Generic country-wide fallback content for Kenya (unitary-large with a curated
+# subset of counties). National-level coverage not specific to any one county.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry savanna climate over much of the country, with distinct wet and dry seasons driven by the long rains and short rains."
+  - koppenCode: Cfb
+    description: "Temperate highland climate across the Central Highlands and Rift Valley highlands, with mild temperatures year-round."
+  - koppenCode: BSh
+    description: "Hot semi-arid climate in the northern and north-eastern lowlands and parts of the interior."
+  - koppenCode: Am
+    description: "Tropical monsoon climate along parts of the coast and Lake Victoria basin, with heavy wet-season rain."
+landmarks:
+  - name: Masai Mara National Reserve
+    description: "Kenya's flagship wildlife reserve on the Serengeti ecosystem, famed for the annual wildebeest migration and the 'Big Five'."
+  - name: Mount Kenya
+    description: "Africa's second-highest peak (5,199m), a stratovolcano straddling the Equator and a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Lake Turkana National Parks
+    description: "The world's largest permanent desert lake and a fossil-rich UNESCO World Heritage Site in the north."
+    unescoWorldHeritage: true
+  - name: Great Rift Valley
+    description: "The East African Rift cutting through the country, dotted with lakes, volcanic features and the flamingo-filled Lake Nakuru and Lake Magadi."
+  - name: Fort Jesus
+    description: "A 16th-century Portuguese coastal fortress in Mombasa, a key relic of the Indian Ocean trading era (UNESCO tentative list)."
+  - name: Lamu Old Town
+    description: "The oldest Swahili town in East Africa on Lamu Island, with coral-stone architecture and a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "A proud nation of more than 40 ethno-linguistic communities (Bantu, Nilotic, Cushitic) bound by a shared national identity"
+  - "Famous globally for long-distance runners and its wildlife safari destinations"
+  - "Harambee (collective effort) and hospitality are core cultural values"
+  - "A deep coffee-and-tea heritage, plus the birthplace of East African mobile money (M-Pesa)"
+prideOf:
+  - "Olympic and marathon running dominance on the world stage"
+  - "The Big Five wildlife and celebrated national parks"
+  - "Warmth, resilience and a strong sense of community"
+animals:
+  popular:
+    - "African elephant"
+    - "Lion"
+    - "Giraffe (Masai giraffe)"
+    - "Zebra (plains and Grevy's)"
+    - "Wildebeest"
+    - "Flamingo"
+  unique:
+    - "Grevy's zebra (endangered, northern Kenya)"
+    - "Reticulated giraffe and the endemic Gunther's dik-dik"
+    - "Sitatunga antelope"
+industries:
+  - "Agriculture — tea, coffee, horticulture (flowers), staple crops"
+  - "Tourism and wildlife safaris"
+  - "Technology and financial services — Nairobi's fintech and M-Pesa ecosystem"
+  - "Manufacturing and light industry around Nairobi and the Coast"
+  - "Port and logistics through Mombasa"
+sports:
+  - "Athletics — distance running (marathon, cross-country)"
+  - "Football (soccer)"
+  - "Rugby"
+  - "Volleyball"
+  - "Cricket (growing, especially in the Coast and among the Asian community)"
+entertainment:
+  - season: allYear
+    items:
+      - "Wildlife safaris in national parks and reserves"
+      - "Live music, benga and rave culture in Nairobi's clubs"
+      - "Traditional dancers and Maasai cultural performances"
+  - season: wet
+    items:
+      - "The long rains (March-May) — a less crowded, lush-green safari season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ugali (ugali), maize porridge, Kenya's staple"
+      - "Nyama choma — grilled meat with tomatoes and peppers"
+      - "Chapo (chapati) and stir-fried vegetables"
+      - "Suya and brochettes of grilled meat"
+  - season: dry
+    items:
+      - "Roasted maize and groundnuts at roadside markets"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Shuka — Maasai blanket/shawl worn over the shoulder"
+      - "Kanga and kitenge (chinzel) printed cotton wraps for women"
+      - "Modern African-print and business attire"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 6, 7, 8, 9, 10, 11, 12]
+  - season: wet
+    months: [3, 4, 5]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:30-17:00 Monday to Friday, with many offices closing early on Fridays and some businesses open Saturday morning."
+  lunchBreakTiming: "A lunch break around 13:00 is typical; 'chai' (tea) breaks are common through the morning and afternoon."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year (late December-early January)"
+      description: "Many businesses close for the festive period; banks and government offices shut on public holidays."
+    - period: "Easter weekend"
+      description: "Government and most offices close for Good Friday and Easter Monday."
+sources:
+  - id: unesco-whc-ke
+    name: "Kenya — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/ke"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Kenya's UNESCO World Heritage properties (Lake Turkana parks, Lamu, Mount Kenya)."

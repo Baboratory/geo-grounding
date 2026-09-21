@@ -1,0 +1,82 @@
+code: UG-209
+name:
+  eng: Mbale
+  local:
+    - languageCode: myx
+      value: Mbale
+climates:
+  - koppenCode: Cwb
+    description: "Temperate highland climate in the east, with reliable rainfall and cool nights near Mount Elgon."
+landmarks:
+  - name: Mount Elgon National Park
+    description: "A remote volcanic massif on the Uganda-Kenya border with caves, waterfalls and the rare and elusive mountain elephant."
+  - name: Sipi Falls
+    description: "Scenic waterfall on the rim of Mount Elgon, popular for hiking and rock climbing."
+  - name: Lake Kyoga (eastern edge)
+    description: "A shallow finger lake to the west, important for fishing and wetlands."
+  - name: Mbale Town markets
+    description: "A lively market town in the foothills east of the capital."
+culturalTraits:
+  - "A mountainous eastern district at the foot of Mount Elgon"
+  - "The homeland of the Bagisu (Gisu) people, with a rich oral and dance tradition"
+  - "A green agricultural heartland of coffee and bananas"
+prideOf:
+  - "The natural majesty of Mount Elgon and Sipi Falls"
+  - "A strong Bagisu cultural identity and tradition of coffee farming"
+  - "The cool, green highland beauty of the east"
+animals:
+  popular:
+    - "Mountain elephant"
+    - "Colobus monkey"
+    - "Various antelope"
+  unique:
+    - "Rare mountain elephants of Mount Elgon"
+    - "The endemic Elgon flora and forest birds"
+industries:
+  - "Agriculture — coffee, bananas, maize and vegetables"
+  - "Tourism — Mount Elgon trekking and Sipi Falls"
+  - "Trading at Mbale's markets"
+sports:
+  - "Football (soccer)"
+  - "Athletics"
+  - "Mountain climbing and hiking"
+entertainment:
+  - season: allYear
+    items:
+      - "Hiking and trekking around Mount Elgon and Sipi Falls"
+      - "Bird watching and exploring the mountain caves"
+      - "Lively local festivals and Bugisu dances"
+  - season: dry
+    items:
+      - "Dry-season trekking and peak-climbing season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Matooke and posho"
+      - "Groundnut sauce and bean stews"
+      - "Coffee grown in the district"
+      - "Grilled meats and plantain"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kiteenge (printed cotton) wraps for women"
+      - "Kanzu and kufi for men on formal occasions"
+      - "Warm casual layers for the highland climate"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 6, 7, 8]
+  - season: wet
+    months: [3, 4, 5, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:00-16:30/17:00 Monday to Friday."
+  lunchBreakTiming: "A lunch break around 13:00 is typical."
+sources:
+  - id: mbale-tourism
+    name: "Mbale district and Mount Elgon tourism"
+    publisher: "Mbale District Local Government / Uganda Tourism Board"
+    url: "https://www.mbale.go.ug/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine and cultural description for Mbale."

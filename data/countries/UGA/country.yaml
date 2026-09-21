@@ -1,0 +1,241 @@
+alpha3: UGA
+alpha2: UG
+name:
+  eng: Uganda
+  local:
+    - languageCode: eng
+      value: Uganda
+    - languageCode: swa
+      value: Uganda
+flagEmoji: "🇺🇬"
+capital: Kampala
+isSovereign: true
+# Classified unitary-large: Uganda's population (~45.9M at the 2024 census) is
+# far above the small-state threshold, and the country has a genuine, widely
+# recognised regional-cultural mosaic of Bantu and Nilotic kingdoms and peoples
+# (the Buganda-centred south, the Busoga and eastern Bantu, the Acholi/Langi
+# north, the Ankole/Western kingdoms). The state is constitutionally unitary
+# (a republic whose traditional kingdoms are cultural institutions, not
+# subdivisions with sovereign powers) so NOT federal. Curated regions follow
+# real ISO 3166-2 districts: Kampala (UG-102), Wakiso (UG-113), Mbale (UG-209),
+# Gulu (UG-304) and Mbarara (UG-410) + WHOLE as national fallback. English is
+# the official language and Swahili the second official language.
+governanceType: unitary-large
+iso3166_2_prefix: UG
+hasSubdivisions: true
+languageUsage:
+  # English is the official language; Swahili is the second official language
+  # (Constitution of Uganda, 1995 as amended) — official domain is a
+  # legal-status flag = 1.0 for each.
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1995
+  - languageCode: swa
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1995
+  # Major locally-spoken languages, share as first/home language (composite
+  # estimates from census and standard references; Uganda's census records
+  # ethnicity and region, and language is imperfectly captured, so these are
+  # flagged as estimates).
+  - languageCode: lug
+    domain: locallySpoken
+    # Luganda is the most widely used indigenous language, dominant in Buganda
+    # and Kampala.
+    speakersShare: 0.16
+    sourceId: ubos-census
+  - languageCode: nyn
+    domain: locallySpoken
+    # Runyankore is spoken by the Banyankore in the south-west.
+    speakersShare: 0.09
+    sourceId: ubos-census
+  - languageCode: teo
+    domain: locallySpoken
+    speakersShare: 0.08
+    sourceId: ubos-census
+  - languageCode: laj
+    domain: locallySpoken
+    speakersShare: 0.06
+    sourceId: ubos-census
+  - languageCode: ach
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: ubos-census
+  - languageCode: eng
+    domain: locallySpoken
+    # English is widely used in government, courts, education and urban
+    # business as a second language, though exact shares are not published.
+    speakersShare: 0.30
+    sourceId: cia-ug
+ethnicGroups:
+  # 2024 National Population and Housing Census (UBOS), largest ethnic groups.
+  - group: Baganda
+    percent: 15.3
+    sourceId: ubos-census
+  - group: Banyankole
+    percent: 9.1
+    sourceId: ubos-census
+  - group: Basoga
+    percent: 8.1
+    sourceId: ubos-census
+  - group: Iteso
+    percent: 6.8
+    sourceId: ubos-census
+  - group: Bakiga
+    percent: 6.4
+    sourceId: ubos-census
+  - group: Langi
+    percent: 5.9
+    sourceId: ubos-census
+  - group: Bagisu
+    percent: 4.5
+    sourceId: ubos-census
+  - group: Acholi
+    percent: 4.2
+    sourceId: ubos-census
+  - group: Lugbara
+    percent: 2.6
+    sourceId: ubos-census
+  - group: Other (including Banyoro, Batoro, Alur, Karamojong and numerous smaller groups)
+    percent: 37.1
+    sourceId: ubos-census
+# Note: The 2024 census enumerated ~45.9M people across dozens of ethnic
+# categories; shares above are from the census and do not sum to 100% exactly
+# because of rounding and the large 'Other' residual.
+timezones:
+  - name: Africa/Kampala
+    standardUtcOffset: "UTC+3"
+    observesDst: false
+currency:
+  code: UGX
+  symbol: "USh"
+  name: Ugandan shilling
+legalConstraints:
+  - topic: "official language"
+    description: "Under Article 6 of the Constitution of the Republic of Uganda (1995, as amended), the official language of Uganda is English, and Swahili is the second official language. Other indigenous languages are developed and used in education and public affairs."
+    sourceId: constitution-1995
+  - topic: "data protection"
+    description: "The Data Protection and Privacy Act (Cap. 97, commenced 3 May 2019) regulates the collection, processing, storage and disclosure of personal data, with the Data Protection and Privacy Regulations 2021 in force from 12 March 2021. It is aligned with the African Union Malabo Convention and GDPR-style principles."
+    sourceId: dppa-2019
+  - topic: "value added tax (VAT) price display"
+    description: "VAT is 18% standard on most goods and services (Value Added Tax Act, Cap 349, as amended), with a 0% rate on exports and certain qualifying supplies, and exemptions for a range of essential goods and services."
+    sourceId: ura-vat
+  - topic: "consumer protection"
+    description: "The Consumer Protection Act, 2019 establishes rights to quality, safety, truthful information and protection against unfair, deceptive or misleading trade practices, and is administered alongside the Uganda Communications Commission and sector regulators."
+    sourceId: cpa-2019
+paymentCulture:
+  popularMethods:
+    - "Mobile money — MTN MoMo and Airtel Money dominate, widely used for transfers, bills and payments"
+    - "Cash — still common in rural and informal markets"
+    - "Bank cards (Visa/Mastercard) — accepted at larger retailers, hotels and online"
+    - "Bank transfers and RTGS for formal commerce"
+  tipping:
+    expected: false
+    typicalAmount: "Optional; a modest tip for good service in restaurants and for guides is appreciated"
+    autoIncludedInBill: false
+    note: "Qualitative and customary. Mobile money is the defining feature of Uganda's payment landscape."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite, respectful and community-oriented; age, titles and respectful address matter. English is the language of business and government."
+  greetingNorms: "A warm handshake is standard; asking after a person's wellbeing and family (in Luganda 'Oli otya?') is expected before business."
+  meetingEtiquette: "Meetings open with greetings and protocol. Relationship-building precedes discussion; decisions are often consultative and consensus-oriented."
+  topicsToAvoid:
+    - "Sensitive politics and the legacy of past conflicts in the north"
+    - "Remarks seen as disrespectful to traditional kingdoms or elders"
+  giftGivingNotes: "Not expected in business. A modest gift is warmly received when visiting a home."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: UG-102
+    file: distinct-regions/ug-102.yaml
+    adminUnitCodes: [UG-102]
+  - code: UG-113
+    file: distinct-regions/ug-113.yaml
+    adminUnitCodes: [UG-113]
+  - code: UG-209
+    file: distinct-regions/ug-209.yaml
+    adminUnitCodes: [UG-209]
+  - code: UG-304
+    file: distinct-regions/ug-304.yaml
+    adminUnitCodes: [UG-304]
+  - code: UG-410
+    file: distinct-regions/ug-410.yaml
+    adminUnitCodes: [UG-410]
+sources:
+  - id: constitution-1995
+    name: "Constitution of the Republic of Uganda, 1995 (as amended) — Article 6 (language)"
+    publisher: "Parliament of Uganda"
+    url: "https://www.parliament.go.ug/documents/1240/constitution-uganda-1995"
+    year: 1995
+    accessedDate: "2026-09-21"
+    note: "Official language English; Swahili second official language; promotion of indigenous languages."
+  - id: ubos-census
+    name: "2024 National Population and Housing Census — final results and ethnic composition"
+    publisher: "Uganda Bureau of Statistics (UBOS)"
+    url: "https://www.ubos.org/"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Population ~45.9M; ethnic groups percentages."
+  - id: cia-ug
+    name: "CIA World Factbook — Uganda"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/uganda/"
+    accessedDate: "2026-09-21"
+    note: "Qualitative language/English usage context and general demographic data."
+  - id: dppa-2019
+    name: "Data Protection and Privacy Act, Cap 97 (2019) and Regulations 2021"
+    publisher: "Parliament of Uganda / ULII"
+    url: "https://ulii.org/akn/ug/act/2019/9/eng@2019-05-03"
+    year: 2019
+    accessedDate: "2026-09-21"
+    note: "Regulates collection, processing and disclosure of personal data; Regulations in force 12 March 2021."
+  - id: ura-vat
+    name: "Value Added Tax Act (Cap 349) and current VAT rates"
+    publisher: "Uganda Revenue Authority"
+    url: "https://www.ura.go.ug/"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "18% standard VAT on most goods and services; 0% exports."
+  - id: cpa-2019
+    name: "Consumer Protection Act, 2019"
+    publisher: "Parliament of Uganda"
+    url: "https://ulii.org/akn/ug/act/2019/21/eng@2019-10-14"
+    year: 2019
+    accessedDate: "2026-09-21"
+    note: "Consumer rights to quality, safety and truthful information; prohibition of unfair practices."
+  - id: iso-lug
+    name: "ISO 639-3 entry: lug — Ganda (Luganda)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/lug"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code lug."
+  - id: iso-nyn
+    name: "ISO 639-3 entry: nyn — Nyankole"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/nyn"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code nyn."
+  - id: iso-teo
+    name: "ISO 639-3 entry: teo — Teso"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/teo"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code teo."
+  - id: iso-laj
+    name: "ISO 639-3 entry: laj — Lango (Uganda)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/laj"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code laj."
+  - id: iso-ach
+    name: "ISO 639-3 entry: ach — Acoli (Luo)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ach"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code ach."

@@ -1,0 +1,80 @@
+code: TZ-14
+name:
+  eng: Mbeya
+  local:
+    - languageCode: swa
+      value: Mbeya
+climates:
+  - koppenCode: Cwb
+    description: "Temperate highland climate in the south-western highlands, cool with reliable rainfall."
+landmarks:
+  - name: Mount Rungwe
+    description: "An extinct volcanic peak (2,981m) in the Rungwe district, a biodiversity hotspot and part of the Eastern Arc."
+  - name: Kitulo National Park
+    description: "Known as the 'Serengeti of Flowers', an upland botanical paradise of wildflowers on the Kitulo plateau."
+  - name: Ruaha National Park (via Iringa corridor)
+    description: "South-western Tanzania's vast national park, reachable through the Mbeya region's landscapes."
+  - name: Matema Beach (Lake Nyasa)
+    description: "A lakeside resort on the eastern shore of Lake Nyasa (Lake Malawi) at the foot of the Livingstone Mountains."
+culturalTraits:
+  - "A cooler, highland region in south-western Tanzania"
+  - "Known for its mountains, tea estates and coffee — a key agricultural belt"
+  - "A crossroads of Bantu peoples of the southern highlands"
+prideOf:
+  - "The region's tea and coffee estates"
+  - "The unique floral wealth of the Kitulo plateau"
+  - "Scenic highland landscapes and Lake Nyasa"
+animals:
+  popular:
+    - "Various antelope in the surrounding parks"
+    - "Cichlid fish of Lake Nyasa"
+    - "Vervet monkeys"
+  unique:
+    - "Endemic cichlids of Lake Nyasa"
+    - "Montane birds of the Eastern Arc forests (e.g. mountain greenbul)"
+industries:
+  - "Tea and coffee growing and processing"
+  - "Agriculture — maize, rice and banana"
+  - "Tourism — Mount Rungwe, Kitulo plateau and Lake Nyasa"
+  - "Mining (intense and small-scale)"
+sports:
+  - "Football (soccer)"
+  - "Athletics"
+  - "Trekking and mountaineering"
+entertainment:
+  - season: allYear
+    items:
+      - "Hiking and birding in the highlands and forests"
+      - "Lakeside recreation at Matema Beach on Lake Nyasa"
+  - season: dry
+    items:
+      - "Dry-season wildflower viewing on the Kitulo plateau"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ugali with greens and beans"
+      - "Lake Nyasa fish (fresh and dried)"
+      - "Banana dishes and roasted maize"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern and casual attire, with warm layers for the cool highland evenings"
+      - "Kanga wraps for women; kanzu for men on festive occasions"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8, 9, 10, 11, 12, 1, 2]
+  - season: wet
+    months: [3, 4, 5]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:00-16:30 Monday to Friday."
+  lunchBreakTiming: "A lunch break around 13:00 is typical."
+sources:
+  - id: mbeya-tourism
+    name: "Mbeya region tourism description"
+    publisher: "Tanzania Tourist Board"
+    url: "https://www.tanzaniatourism.go.tz/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, agriculture and cultural description for Mbeya."
