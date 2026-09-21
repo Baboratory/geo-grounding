@@ -1,0 +1,173 @@
+alpha3: TKM
+alpha2: TM
+name:
+  eng: Turkmenistan
+  local:
+    - languageCode: tuk
+      value: Türkmenistan
+flagEmoji: "🇹🇲"
+capital: Ashgabat
+isSovereign: true
+# Classified unitary-small: Turkmenistan does NOT meet the unitary-large
+# criteria. It is a small (~6.5M, 2026 est.) Central Asian state with a largely
+# homogeneous population and a single official language (Turkmen). Although the
+# country has five administrative regions (welayats) recognised in ISO 3166-2,
+# these are administrative divisions, not a widely recognised cultural-historical
+# regional identity meriting curation, and no regional/minority language holds
+# official status (Russian is widely used in urban areas but has no legal status).
+# One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: tuk
+    domain: official
+    speakersShare: 1.0
+    sourceId: cwf-languages
+  - languageCode: tuk
+    domain: locallySpoken
+    speakersShare: 0.85
+    sourceId: tuk-usage-est
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.12
+    sourceId: rus-usage-est
+  - languageCode: uzb
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: uzb-usage-est
+# Turkmen is the sole official language (Article 21 of the constitution) and the
+# everyday language of ~85% of the population. Russian has no official legal
+# status but remains a widely used lingua franca in urban areas (~12%,
+# estimate); Uzbek is spoken by the sizeable Uzbek minority along the Amu Darya
+# (~5%). The non-official-domain shares are composite estimates.
+ethnicGroups:
+  # CIA World Factbook, 2026 est.
+  - group: Turkmen
+    percent: 85.0
+    sourceId: cwf-ethnic
+  - group: Uzbeks
+    percent: 5.0
+    sourceId: cwf-ethnic
+  - group: Russians
+    percent: 4.0
+    sourceId: cwf-ethnic
+  - group: Other (incl. other Turkic and Central Asian minorities)
+    percent: 6.0
+    sourceId: cwf-ethnic
+timezones:
+  - name: Asia/Ashgabat
+    standardUtcOffset: "UTC+5"
+    observesDst: false
+# Turkmenistan is on a single standard timezone UTC+5 year-round with no DST.
+currency:
+  code: TMT
+  symbol: m
+  name: Turkmenistan manat
+legalConstraints:
+  - topic: "currency / legal tender"
+    description: "The Turkmenistan manat (TMT) is the only legal tender; foreign-currency payments are formally restricted and foreign exchange is tightly controlled by the state, with a heavily managed official exchange rate."
+    sourceId: cbt-currency
+  - topic: "gambling prohibition"
+    description: "Gambling and casinos are prohibited by law in Turkmenistan; all forms of gambling activity are banned."
+    sourceId: gambling-ban
+  - topic: "visa regime"
+    description: "Most visitors require a visa under a strict, invitation-based travel regime; tourism and foreign travel are heavily regulated, so travellers should arrange multi-entry transit/invitation visas well in advance."
+    sourceId: visa-regime
+  - topic: "religion"
+    description: "The regime tightly regulates religious activity: unregistered religious groups and unauthorised foreign religious workers face restrictions, and proselytising is effectively prohibited."
+    sourceId: state-religion
+paymentCulture:
+  popularMethods:
+    - "Cash (manat) — the everyday default in a largely cash-based economy"
+    - "State-controlled banking — most Western/foreign payment cards are not accepted; a limited state payment card exists"
+    - "Remittances and informal transfers are common given foreign-exchange controls"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected or customary"
+    autoIncludedInBill: false
+    note: "Tipping is not generally expected or customary in Turkmenistan."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal, hierarchical and status-conscious society. Respect for authority, the state and elders is strong; hospitality (myhmansyzlyk / mihmancan) is a deeply valued cultural norm."
+  greetingNorms: "Greet with 'Salam!' (hello). Handshakes are common between men; use titles and surnames in formal settings. Modesty in dress and manner is expected, particularly for visitors."
+  meetingEtiquette: "Punctuality is appreciated. Business relationships rely heavily on personal connections and patience; decisions concentrate at senior levels. Greet and take an interest in the person before turning to business. Offers of tea/hospitality should be accepted graciously."
+  topicsToAvoid:
+    - "Criticising the government, the president, or state policy (expression is tightly controlled)"
+    - "Contentious religious or political topics"
+    - "Bringing external currency or discussing black-market exchange rates"
+  giftGivingNotes: "Hospitality is central: it is courteous to accept offered tea and food. Bringing a modest gift to a home (e.g. sweets, a branded item) is appreciated; give and receive with the right hand."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cwf-languages
+    name: "CIA World Factbook — Turkmenistan (People: Languages)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/turkmenistan/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Turkmen (official, Article 21 of the constitution); Russian and Uzbek widely spoken but without official status. Basis for the official-domain 1.0 row."
+  - id: tuk-usage-est
+    name: "Composite estimate — Turkmen as the everyday language"
+    publisher: "Composite estimate (CIA World Factbook / Ethnologue)"
+    url: "https://www.cia.gov/the-world-factbook/countries/turkmenistan/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Turkmen is the everyday language of the large ethnic-Turkmen majority (~85%); the locallySpoken share is a composite estimate."
+  - id: rus-usage-est
+    name: "Composite estimate — Russian as an urban lingua franca"
+    publisher: "Composite estimate (Ethnologue)"
+    url: "https://www.ethnologue.com/country/TM"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Russian has no official legal status but remains widely spoken in urban areas (~12%, estimate)."
+  - id: uzb-usage-est
+    name: "Composite estimate — Uzbek as a spoken minority language"
+    publisher: "Composite estimate (Ethnologue)"
+    url: "https://www.ethnologue.com/country/TM"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Uzbek is spoken by the ethnic-Uzbek minority (~5%), concentrated along the Amu Darya."
+  - id: cwf-ethnic
+    name: "CIA World Factbook — Turkmenistan (People: ethnic groups, 2026 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/turkmenistan/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Turkmen ~85%, Uzbeks ~5%, Russians ~4%, other ~6% (composite estimate, rounding to 100)."
+  - id: cbt-currency
+    name: "The Turkmenistan manat (TMT) — Central Bank of Turkmenistan"
+    publisher: "Central Bank of Turkmenistan"
+    url: "https://www.cbt.tm/en/currency/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "The manat is the national currency (redenominated as the new manat on 1 January 2009); foreign exchange is heavily controlled."
+  - id: gambling-ban
+    name: "Gambling in Turkmenistan"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Gambling_in_Turkmenistan"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "All forms of gambling and casinos are prohibited by law in Turkmenistan."
+  - id: visa-regime
+    name: "Visa policy of Turkmenistan"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Visa_policy_of_Turkmenistan"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Most visitors require a visa under a strict, invitation-based regime; tourism travel is heavily regulated."
+  - id: state-religion
+    name: "2023 Report on International Religious Freedom — Turkmenistan"
+    publisher: "U.S. State Department"
+    url: "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/turkmenistan/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Religious activity is tightly regulated; unregistered groups and foreign religious workers face restrictions."
+  - id: iso-tuk
+    name: "ISO 639-3 entry: tuk — Turkmen"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/tuk"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Verifies ISO 639-3 code tuk = Turkmen (Individual, Living)."

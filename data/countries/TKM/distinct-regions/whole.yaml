@@ -1,0 +1,128 @@
+code: WHOLE
+name:
+  eng: Turkmenistan
+  local:
+    - languageCode: tuk
+      value: Türkmenistan
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate dominating most of the country, with extremely hot dry summers and mild winters.
+  - koppenCode: BWk
+    description: Cold desert climate in northern areas, with bitter winters and hot summers.
+landmarks:
+  - name: Ancient Merv (State Historical and Cultural Park)
+    description: One of the great cities of the ancient Silk Road and the oldest and best-preserved oasis cities of Central Asia.
+    unescoWorldHeritage: true
+  - name: Kunya-Urgench
+    description: Ruins of the old capital of the Khwarazm region, including the iconic Gutlug-Timur minaret and Turabek-Khanum mausoleum.
+    unescoWorldHeritage: true
+  - name: "Turkmenbashi Ruhy Mosque (Kipchak Mosque)"
+    description: A vast white marble mosque near Ashgabat with a striking turquoise dome.
+  - name: Darvaza Gas Crater ("Door to Hell")
+    description: A burning natural-gas crater in the Karakum desert, alight since a 1971 drilling collapse.
+  - name: Kow Ata Underground Lake
+    description: A warm sulphur-rich underground lake inside the Bakharden cave system.
+  - name: Ashgabat
+    description: The white-marble capital city in the Karakum desert, noted for its grandiose modern architecture and the world's tallest freestanding flagpole.
+culturalTraits:
+  - World-renowned Turkmen carpet tradition (göl patterns and hand-knotted kelims)
+  - Reverence for the Akhal-Teke horse, a national symbol and source of pride
+  - Long tradition of growing and exporting fragrant Central Asian melons
+  - Classical Turkmen poetry, especially the muhammes of the 18th-century poet Makhtumkuli
+  - Strong tradition of hospitality (mihmancançylyk)
+prideOf:
+  - The Akhal-Teke horse, one of the oldest and most beautiful horse breeds in the world
+  - Handwoven Turkmen carpets, recognised on UNESCO's Intangible Cultural Heritage list
+  - Being the state granted permanent neutrality status by the UN in 1995
+animals:
+  popular:
+    - Akhal-Teke horse
+    - Central Asian shepherd dog (Alabai)
+    - Camel
+  unique:
+    - Kulan (Turkmen onager)
+    - Goitered gazelle
+industries:
+  - Natural gas (among the world's largest reserves) and oil
+  - Cotton cultivation
+  - Handwoven carpet making
+  - Karakul sheep farming
+sports:
+  - Horseracing, especially Akhal-Teke races (the national horse-racing tradition)
+  - National wrestling (guraş / gorash)
+  - Football (association football, the most popular spectator sport)
+religions:
+  - name: Islam (predominantly Sunni Muslim)
+    percent: 89.0
+    sourceId: cwf-religion
+entertainment:
+  - season: spring
+    items:
+      - Nowruz (spring equinox festival, 21 March) — the major national celebration
+      - Akhal-Teke horse festivals and races
+  - season: summer
+    items:
+      - Melon festival (traditional celebration of the summer melon harvest)
+  - season: allYear
+    items:
+      - Traditional music, the dutar (long-necked lute) and folk dance performances
+traditionalDishes:
+  - season: allYear
+    items:
+      - Palaw (central-Asian rice plov)
+      - Dograma (shredded flatbread soup)
+      - Shashlik (grilled skewered meat)
+  - season: summer
+    items:
+      - Melons and fresh fruits (a summer staple)
+  - season: winter
+    items:
+      - Borsok (fried dough pieces, common in cold months)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Telpek (traditional sheepskin hat for men)
+      - Kurbete (traditional embroidered dress and jewellery for women)
+      - Tellu garment with ornate jacquard-style embroidery
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays: []
+  notes: "The official weekend is Saturday and Sunday. Trading hours are generally unrestricted by law (no strict Sunday-rest rule); state-controlled commercial and government activity largely follows standard business hours. Business negotiation tends to be slow and relationship-driven."
+  typicalWorkHours: "Standard office hours are typically around 9:00am-6:00pm, Monday-Friday, with a midday break."
+sources:
+  - id: cwf-religion
+    name: "CIA World Factbook — Turkmenistan (People: Religions)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/turkmenistan/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Islam (predominantly Sunni) ~89%; the remainder is largely non-religious with small Christian (mostly Russian Orthodox) and Jewish communities."
+  - id: unesco-merv
+    name: "UNESCO — State Historical and Cultural Park 'Ancient Merv'"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/886/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Ancient Merv inscribed on the UNESCO World Heritage List."
+  - id: unesco-kunya
+    name: "UNESCO — Kunya-Urgench"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1199/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Kunya-Urgench inscribed on the UNESCO World Heritage List."
+  - id: unesco-carpets
+    name: "UNESCO — Turkmen carpet weaving tradition"
+    publisher: "UNESCO Intangible Cultural Heritage"
+    url: "https://ich.unesco.org/en/RL/turkmen-style-needlework-01352"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "The Turkmen carpet-knotting and needlework traditions are recognised on UNESCO's Intangible Cultural Heritage list."
