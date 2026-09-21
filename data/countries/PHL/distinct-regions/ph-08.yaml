@@ -1,0 +1,76 @@
+code: PH-08
+name:
+  eng: Eastern Visayas (Region VIII)
+  local:
+    - languageCode: fil
+      value: Silangang Kabisayaan
+climates:
+  - koppenCode: Am
+    description: Tropical monsoon climate on the islands of Samar, Leyte and Biliran, subject to the northeast monsoon and typhoon corridor.
+landmarks:
+  - name: San Juanico Bridge
+    description: The country's longest bridge, spanning the San Juanico Strait between Samar and Leyte.
+  - name: Leyte Landing Memorial (Tacloban)
+    description: The site in Palo, Leyte, where Gen. Douglas MacArthur returned to the Philippines in October 1944, commemorated by the Leyte Landing Memorial.
+  - name: Calanggaman and Biliran islets
+    description: White-sand islets and marine parks of Biliran and Carigara Bay.
+culturalTraits:
+  - "Heartland of the Waray language and the proud Leyteno-Samar cultural identity"
+  - "A typhoon-exposed coastal region, resilient and community-oriented after disasters"
+prideOf:
+  - "Waray language and culture"
+  - "The historic MacArthur landing site and war-time memory"
+animals:
+  popular:
+    - Carabao (water buffalo)
+    - Philippine eagle (protected)
+    - Whales and dolphins off the Leyte Gulf
+  unique:
+    - Philippine eagle (Crocodylus and wildlife in protected areas)
+industries:
+  - Fishing and aquaculture (milkfish, seaweed, prawns)
+  - Agriculture (rice, coconut, abaca, banana)
+  - Mining (Samar and Leyte mineral deposits)
+  - Geothermal energy (the Tongonan and Bulalo geothermal plants)
+sports:
+  - Basketball
+  - Volleyball
+  - Boxing
+  - Mountaineering and island-hopping
+entertainment:
+  - season: allYear
+    items:
+      - "Town fiestas and Fisherfolk's festivals"
+  - season: summer
+    items:
+      - "Nawit and beach festivals along the coast"
+  - season: winter
+    items:
+      - "Simbang Gabi (dawn Masses) before Christmas"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Bistek and the sour soup 'Sinigang'"
+      - "Kinilaw (fresh seafood ceviche)"
+      - "Roasted 'lechon' served at fiestas"
+  - season: allYear
+    items:
+      - "Tababad and coconut-based sweets"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Barong Tagalog (men) and terno (women) at formal and festive occasions"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Monday-Friday working week; Sunday is a rest day. Fishing and market rhythms dominate the coastal towns, and typhoon season (Aug-Dec) can disrupt normal activity."
+sources: []

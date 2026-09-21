@@ -1,0 +1,90 @@
+code: WHOLE
+name:
+  eng: Papua New Guinea
+  local:
+    - languageCode: tpi
+      value: Papua Niugini
+# Generic, country-wide fallback content used by get_data_by_ip.py when a
+# visitor's ISO 3166-2 province isn't one of the curated regions. Content is
+# deliberately national rather than tied to one province.
+climates:
+  - koppenCode: Af
+    description: Tropical rainforest climate across much of the mainland coasts and islands, hot and humid year-round.
+  - koppenCode: Am
+    description: Tropical monsoon climate with a strong wet (northwest monsoon) season in the lowlands.
+  - koppenCode: Cfb
+    description: Cooler highland climate in the central highlands (e.g. around Mount Wilhelm), where temperatures fall with altitude.
+landmarks:
+  - name: Mount Wilhelm
+    description: The highest peak in Papua New Guinea (4,509 m), in the Chimbu/Eastern Highlands region, a prime trekking destination.
+  - name: National Parliament House
+    description: The distinctive tribal-mask-shaped Parliament building in Port Moresby, an icon of modern PNG architecture.
+  - name: Coral reefs of the Bismarck Sea
+    description: The country's extensive reef systems and atolls, offering world-class diving and marine biodiversity.
+  - name: The Kokoda Track
+    description: The historic WWII jungle trail across the Owen Stanley Range, a major pilgrimage and trekking route.
+culturalTraits:
+  - "One of the world's most linguistically and culturally diverse nations, with over 800 languages and hundreds of distinct cultural groups"
+  - "Strong communal 'wantok' ties and reciprocal exchange obligations"
+  - "The bilum (string bag) and traditional weaving, dance and terracotta arts are held across the regions"
+  - "A large Christian majority layered over deep indigenous belief systems and customs"
+prideOf:
+  - "Unification in diversity ('Unity in diversity'), the national motto"
+  - "The spectacular natural heritage — highlands, rainforests and coral reefs"
+  - "Living traditions of song, dance and customary land tenure"
+animals:
+  popular:
+    - Bird of paradise (national symbol)
+    - Tree kangaroo
+    - Melanesian megapode
+  unique:
+    - Victoria crowned pigeon
+    - Green tree python
+industries:
+  - Agriculture (coffee, cocoa, copra, palm oil, vanilla)
+  - Mining and petroleum (gold, copper, oil and gas)
+  - Tourism and ecotourism (diving, trekking)
+  - Fisheries (tuna, prawns)
+sports:
+  - Rugby league (very popular)
+  - Cricket (growing, via India-PNG ties)
+  - Association football
+  - Traditional canoe racing and village games
+entertainment:
+  - season: allYear
+    items:
+      - "Traditional sing-sing (song and dance) festivals across the regions"
+  - season: summer
+    items:
+      - "National mask and dance festivals and beach events"
+  - season: winter
+    items:
+      - "Christmas and New Year celebrations in church and village communities"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Mumu (pit-cooked vegetables, meat and coconut cooked in bamboo)"
+      - "Kokoda (raw fish cured in citrus and coconut cream)"
+      - "Saksak and taro staple dishes"
+      - "The kau kau (sweet potato) and banana staples"
+  - season: allYear
+    items:
+      - "Sago and coconut treats served at feasts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional bilas (grass skirts, fibre skirts) and woven bilum bags at festivals and dances; everyday dress is modern Pacific island wear"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "The working week is Monday-Friday (some Saturday trading); Sunday is a rest day widely observed for church. Village and market life often follows seasonal and customary rhythms rather than a strict clock."
+sources: []

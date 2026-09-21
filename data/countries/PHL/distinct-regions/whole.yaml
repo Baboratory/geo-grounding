@@ -1,0 +1,92 @@
+code: WHOLE
+name:
+  eng: Philippines
+  local:
+    - languageCode: fil
+      value: Pilipinas
+# Generic, country-wide fallback content used by get_data_by_ip.py when a
+# visitor's ISO 3166-2 region isn't one of the curated regions. Content is
+# deliberately national rather than tied to one region.
+climates:
+  - koppenCode: Am
+    description: Tropical monsoon climate across much of the archipelago, with a wet southwest-monsoon season and a drier northeast-monsoon season.
+  - koppenCode: Af
+    description: Tropical rainforest climate in the far south and on eastern windward coasts.
+  - koppenCode: Cwa
+    description: Humid subtropical climate in the cooler northern highlands (e.g. Baguio City).
+landmarks:
+  - name: Rizal Park (Luneta)
+    description: Historic park in central Manila beside the old walled city, centered on the monument to national hero José Rizal.
+  - name: San Agustin Church
+    description: Historic 17th-century Augustinian church in the old Intramuros district of Manila, among the oldest churches in the country.
+  - name: Fort Santiago
+    description: Southern gate of the old Spanish walled city of Manila, where José Rizal was imprisoned before execution.
+  - name: The Banaue Rice Terraces
+    description: Spectacular hand-carved Ifugao rice terraces in the Cordillera region, one of the Philippines' most iconic landscapes.
+culturalTraits:
+  - "An archipelago of over 7,000 islands with a shared Austronesian heritage shaped by centuries of Spanish and American influence"
+  - "A bayanihan ('community spirit') culture of mutual help and warm hospitality"
+  - "Proud bilingualism: most Filipinos speak Filipino and English, with regional languages as auxiliary official languages"
+  - "Strong family ties, respect for elders and a predominantly Catholic faith with a significant Muslim minority in the south"
+prideOf:
+  - "Hospitality and the resilient, smiling national character"
+  - "World-champion boxing, and globally successful diaspora (OFW) workers"
+  - "A rich heritage spanning pre-colonial, Spanish, American and independent eras"
+animals:
+  popular:
+    - Carabao (domestic water buffalo)
+    - Philippine tarsier
+    - Monitor lizard (bayawak)
+  unique:
+    - Philippine eagle (Pithecophaga jefferyi) — one of the world's largest eagles
+    - Philippine crocodile (Crocodylus mindorensis)
+industries:
+  - Business-process outsourcing (BPO) and customer service
+  - Overseas Filipino worker (OFW) remittances
+  - Electronics and semiconductor assembly for export
+  - Agriculture (rice, coconut, abaca, banana, pineapple)
+  - Tourism and hospitality
+sports:
+  - Basketball
+  - Boxing (numerous world champions)
+  - Volleyball and football (association football)
+  - Gymnastics and taekwondo
+entertainment:
+  - season: allYear
+    items:
+      - "Karaoke and videoke culture"
+      - "Jeepney street-food culture and 'dirty ice cream' vendors"
+  - season: summer
+    items:
+      - "Santacruzan processions and fiestas in May"
+  - season: winter
+    items:
+      - "Simnbang Gabi (nine dawn Masses) and Christmas celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Adobo (chicken or pork stewed in vinegar, soy sauce and garlic)"
+      - "Sinigang (sour tamarind-based vegetable and fish soup)"
+      - "Lechon (roasted whole pig, festive)"
+      - "Pancit (pancit bam-i, stir-fried noodles)"
+  - season: allYear
+    items:
+      - "Halo-halo (shaved-ice dessert with beans, fruit and leche flan)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Barong Tagalog (formal embroidered shirt) for men and the terno/Maria Clara gown for women, worn at weddings and formal occasions"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "The standard working week runs Monday-Friday; Sunday is a common rest day. Public holidays (Independence Day, Rizal Day and religious feasts) close many businesses, and fiestas mark local festivals nationwide."
+sources: []

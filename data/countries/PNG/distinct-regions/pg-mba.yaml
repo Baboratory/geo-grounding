@@ -1,0 +1,78 @@
+code: PG-MBA
+name:
+  eng: Milne Bay Province
+  local:
+    - languageCode: tpi
+      value: Milne Be Provins
+climates:
+  - koppenCode: Af
+    description: Tropical rainforest climate across the easternmost islands and the Milne Bay coast, with a strong wet season.
+landmarks:
+  - name: Alotau
+    description: The provincial capital and seat of the famous Milne Bay (Battle of Milne Bay, 1942) region.
+  - name: The kula ring and ancient trading networks
+    description: The famed prehistoric kula ring (shell-currency) trade that connected the islands of Milne Bay.
+  - name: Great Barrier proper reefs and the Dandis holidays islets
+    description: Extensive coral reefs and popular dive and snorkelling sites off the province's islands.
+  - name: The Trobriand Islands
+    description: Remote coral atolls and islands, including Kiriwina of the Trobriand group, with a renowned dance culture.
+culturalTraits:
+  - "An island province of some 600+ islands with a deep-seafaring heritage and the historic kula ring shell-currency trade"
+  - "Known for the famous Trobriand and Bougainville-rainbow clamp-dancing cultures and cultural exchange"
+prideOf:
+  - "The kula ring and the great maritime trading history"
+  - "The world-class reefs and the resilient climate-vulnerable island communities"
+animals:
+  popular:
+    - Green and hawksbill turtles
+    - Dugong (protected)
+    - Sharks and rays of the reefs
+  unique:
+    - Victoria crowned pigeon
+industries:
+  - Fisheries and aquaculture (beche-de-mer, trochus, tuna)
+  - Copra and coconut oil production
+  - Tourism and dive tourism
+  - Small-scale agriculture (yam, taro, banana)
+sports:
+  - Canoeing and sailing
+  - Rugby league
+  - Association football
+  - Traditional canoe regattas
+entertainment:
+  - season: allYear
+    items:
+      - "Traditional dance and drumming festivals of the islands"
+  - season: summer
+    items:
+      - "Dive tourism and beach festival season (dry-ish months)"
+  - season: winter
+    items:
+      - "Christmas and New Year village celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kokoda (fresh fish in citrus and coconut cream)"
+      - "Yam and taro staple dishes"
+      - "Fish and coconut-milk curries"
+  - season: allYear
+    items:
+      - "Sago and cassava treats"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional fibre skirts and woven bilas at festivals; modern Pacific wear in daily life"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Monday-Friday working week centered on Alotau; Sunday is a rest day. Island livelihoods follow seasonal fishing and copra rhythms, and dive tourism peaks in the drier months."
+sources: []

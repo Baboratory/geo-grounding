@@ -1,0 +1,78 @@
+code: PG-EHG
+name:
+  eng: Eastern Highlands Province
+  local:
+    - languageCode: tpi
+      value: Isten Hailans Provins
+climates:
+  - koppenCode: Cfb
+    description: Cooler highland climate in the Eastern Highlands plateaus and valleys, with a strong wet season and mild temperatures.
+landmarks:
+  - name: Mount Wilhelm
+    description: PNG's highest peak (4,509 m), on the boundary with Chimbu, a major alpine trekking destination.
+  - name: Goroka
+    description: The provincial capital, famous for hosting the annual Goroka Cultural Show and mask/dance festival.
+  - name: The Highlands Highway and Coffee Country
+    description: The road corridor and coffee-growing highland landscape around Goroka and the Eastern Highlands valleys.
+  - name: The Kaindi and Gamahwa grasslands
+    description: Highland volcanic grass-and-tree savannas of the region.
+culturalTraits:
+  - "A highland province famous for its ceremonial mask culture, the bilum weave and the enormous Goroka Cultural Show"
+  - "A coffee and highland-agriculture economy built on traditional clan society"
+prideOf:
+  - "The Goroka Cultural Show and the region's mask and dance traditions"
+  - "Mount Wilhelm and the beautiful highland landscape"
+animals:
+  popular:
+    - Tree kangaroo
+    - Birds of paradise (protected)
+    - Cassowary (in lowland forest)
+  unique:
+    - New Guinea harpy eagle (rare)
+industries:
+  - Coffee and highland agriculture (sweet potato, cassava, vegetables)
+  - Livestock and poultry
+  - Tourism (Mount Wilhelm trekking, Goroka festival)
+  - Traditional weaving and bilum handicrafts
+sports:
+  - Highland village games (cane-swinging is a celebrated tradition)
+  - Rugby league
+  - Association football
+  - Trekking and mountaineering
+entertainment:
+  - season: allYear
+    items:
+      - "Traditional sing-sing and dance in highland villages"
+  - season: summer
+    items:
+      - "The Goroka Cultural Show (mid-year, largest in PNG)"
+  - season: winter
+    items:
+      - "Christmas and end-of-year celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Mumu (pit-cooked vegetables, taro and meat)"
+      - "Kau kau (sweet potato) and highland greens"
+      - "Fresh stream fish"
+  - season: allYear
+    items:
+      - "Bilum-wrapped traditional feasts and sago treats"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional fibre and woven dress, painted faces and feathers at festivals (notably Goroka); modern wear in daily life"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Monday-Friday working week; Sunday is a rest day for church and family. Coffee harvest and the Goroka festival (July) shape the annual rhythm."
+sources: []

@@ -1,0 +1,78 @@
+code: PG-NCD
+name:
+  eng: National Capital District (Port Moresby)
+  local:
+    - languageCode: tpi
+      value: Nesenal Kapitol Disrik
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna climate around Port Moresby, with a marked dry season from May to October and a wetter wet season November-April.
+landmarks:
+  - name: National Parliament House
+    description: The iconic tribal-mask-shaped Parliament building of Papua New Guinea, completed in 1984.
+  - name: National Museum and Art Gallery
+    description: The country's principal museum, housing cultural objects, art and WWII relics.
+  - name: Port Moresby Harbour and the Ela Beach Hotel area
+    description: The waterfront commercial heart of the capital.
+  - name: Motherwell Museum and the Australian (Bomana) War Cemetery
+    description: Historic sites honoring WWII and the wartime history of Papua.
+culturalTraits:
+  - "The political, business and diplomatic heart of the nation, home to the National Capital District"
+  - "A coastal city on the traditional Papuan (Motu-speaking area) where Hiri Motu was long the lingua franca, now overlaid with English and Tok Pisin"
+prideOf:
+  - "Being the seat of government and the nation's gateway city"
+  - "Its waterfront, markets and blending of rural-traditional and modern urban life"
+animals:
+  popular:
+    - Estuarine crocodile (in nearby river systems)
+    - Megapode scrubfowl
+    - Sea turtles on nearby shores
+  unique:
+    - Crowned pigeon (seen in the National Capital District parks)
+industries:
+  - Government and public administration
+  - Business services, banking and trade
+  - Port and shipping hub
+  - Tourism and hospitality
+sports:
+  - Rugby league (National Capital District clubs)
+  - Association football
+  - Cricket (growing following)
+  - Canoeing and water sports
+entertainment:
+  - season: allYear
+    items:
+      - "City markets and cultural shows at the Parliament and museum"
+  - season: summer
+    items:
+      - "Independence Day (16 September) festivities"
+  - season: winter
+    items:
+      - "Christmas church and community celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kokoda (raw fish in citrus and coconut cream)"
+      - "Mumu (pit-cooked vegetables and meat)"
+      - "Fresh seafood and market produce"
+  - season: allYear
+    items:
+      - "Kau kau (sweet potato) and sago treats"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern Pacific island wear for daily life; traditional fibre skirts and bilas at cultural festivals"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Monday-Friday working week with brisk business hours; Saturday is a half/holiday and Sunday is a rest day widely used for church. Markets are busiest on weekends."
+sources: []

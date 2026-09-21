@@ -29,6 +29,13 @@ dev = [
   "pytest",
 ]
 
+# Flat-layout source tree: no build backend is used to install this project,
+# but editable builds (e.g. CI's `pip install -e .[dev]`) need an explicit
+# empty package list or setuptools falls back to scanning for packages and
+# errors on the docs-not-a-package layout.
+[tool.setuptools]
+packages = []
+
 [tool.black]
 line-length = 100
 target-version = ["py311"]
@@ -50,4 +57,4 @@ disallow_untyped_defs = true
 
 [tool.codespell]
 skip = "*.json,.git"
-ignore-words-list = "pont,gard,socio-economic,connexion,handel,sme,ore,claus,dokument,tread,som,te,parlament,ine,toke,revered,hace,oficial,flor,oriente,ake,blong,fale,tre,informations,presidence,zar,vai,alloco,mye,takin,modee,seh,nam,toi,lamba,nwe,maka,caf,affaires,samori,caractere,bale,comercial,profesor,administrativo,responde,meu,mata,buda,fo,fro,leat,ons,fallow,mot,carmel,rouge,mor,boun,didi,alo,empress,mey,tha,vie,mian"
+ignore-words-list = "pont,gard,socio-economic,connexion,handel,sme,ore,claus,dokument,tread,som,te,parlament,ine,toke,revered,hace,oficial,flor,oriente,ake,blong,fale,tre,informations,presidence,zar,vai,alloco,mye,takin,modee,seh,nam,toi,lamba,nwe,maka,caf,affaires,samori,caractere,bale,comercial,profesor,administrativo,responde,meu,mata,buda,fo,fro,leat,ons,fallow,mot,carmel,rouge,mor,boun,didi,alo,empress,mey,tha,vie,mian,gude"

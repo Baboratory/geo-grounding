@@ -1,0 +1,74 @@
+code: PH-01
+name:
+  eng: Ilocos Region (Region I)
+  local:
+    - languageCode: fil
+      value: Rehiyong Ilocos
+climates:
+  - koppenCode: Am
+    description: Tropical monsoon climate on the Ilocos lowlands, with a pronounced wet season and a drier warm-dry period.
+landmarks:
+  - name: Vigan City Cathedral (St. Paul's)
+    description: Baroque Roman Catholic cathedral in Vigan, capital of Ilocos Sur, a UNESCO World Heritage Site.
+  - name: The Ilocos Sur heritage rice terraces
+    description: Ancient hand-built rice terraces in the Cordillera province of Ilocos Sur, a national agricultural heritage site.
+  - name: Baguio City churches
+    description: The hill-station capital of Ilocos (also known as the 'City of Pines'), famous for its cool climate and Catholic churches.
+culturalTraits:
+  - "Heartland of the Iloko (Ilocano) people and language, one of the constitutionally recognized regional languages"
+  - "Deep-rooted Roman Catholic faith with a strong fiesta and processional tradition, and the famous Baguio pine-clad hills"
+prideOf:
+  - "The Ilocano language and distinct regional identity"
+  - "The UNESCO-listed heritage of Vigan and the Banaue rice terraces"
+animals:
+  popular:
+    - Carabao (water buffalo) of the rice paddies
+    - Philippine dwarf (pygmy) hog-deer in lowland forest
+  unique:
+    - Philippine eagle (rare, in the northern cordilleras)
+industries:
+  - Rice and vegetable farming in the northern lowlands
+  - Coffee and strawberry production on the Baguio highlands
+  - Tourism focused on Vigan and the rice-terrace landscape
+  - Weaving and handicrafts
+sports:
+  - Basketball
+  - Volleyball
+  - Association football
+  - Hiking and mountaineering in the Cordillera
+entertainment:
+  - season: allYear
+    items:
+      - "Fiestas and religious processions honoring local patron saints"
+  - season: summer
+    items:
+      - "Santacruzan May processions"
+  - season: winter
+    items:
+      - "Simnbang Gabi (dawn Masses before Christmas) and cool-weather feasts"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pinakbet (vegetables stewed in bagoong shrimp paste)"
+      - "Adobo and sinigang as elsewhere in the country"
+  - season: winter
+    items:
+      - "Warm dishes around the Baguio highland market (strawberry-, coffee-based treats such as strawberry taho)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Barong Tagalog for men and the terno for women at formal and fiesta occasions"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Standard Monday-Friday working week; Sunday is a rest day. Village markets and fiestas pause for religious feasts, and the Baguio highland market is busiest at the cool season."
+sources: []

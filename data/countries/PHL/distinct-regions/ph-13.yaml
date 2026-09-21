@@ -1,0 +1,76 @@
+code: PH-13
+name:
+  eng: Caraga (Region XIII)
+  local:
+    - languageCode: fil
+      value: Rehiyon ng Caraga
+climates:
+  - koppenCode: Af
+    description: Tropical rainforest climate across the northeastern Mindanao provinces (Agusan and Surigao del Sur/Norte), one of the wettest regions of the Philippines.
+landmarks:
+  - name: Siargao Island (Surigao del Norte)
+    description: Renowned surf destination and the world-famous Cloud 9 break, ringed by lagoons and mangrove forests.
+  - name: Agusan Marsh Wildlife Sanctuary
+    description: A vast freshwater marsh and protected wetland in Agusan del Sur, home to diverse birdlife and a UNESCO Biosphere Reserve.
+  - name: Enchanted River (Surigao del Sur)
+    description: A strikingly clear, deep spring-fed river at Hinatuan, a popular tourist site.
+culturalTraits:
+  - "A region of diverse indigenous communities (Mandaya, Manobo, Mamanwa and others) alongside Bisaya settlers"
+  - "Grounded in mining, agribusiness and a strong surf-and-nature tourism culture"
+prideOf:
+  - "Siargao's renowned surf culture and natural marine beauty"
+  - "The rich indigenous and cultural heritage of Mindanao's northeast"
+animals:
+  popular:
+    - Philippine eagle (protected)
+    - Philippine crocodile
+    - Whaleshark and dolphins offshore
+  unique:
+    - Philippine eagle (rare)
+    - Tarsiers in lowland forests
+industries:
+  - Agriculture (rice, coconut, banana, abaca, cassava)
+  - Mining (nickel, chromite and gold in Surigao del Norte and del Sur)
+  - Tourism (Siargao surfing and beach tourism)
+  - Fisheries and aquaculture
+sports:
+  - Surfing (Cloud 9, Siargao)
+  - Basketball
+  - Volleyball
+  - Traditional island games and fishing-boat regattas
+entertainment:
+  - season: allYear
+    items:
+      - "Surf competitions and beach festivals"
+  - season: summer
+    items:
+      - "International Surfing Cup and island fiestas in Surigao"
+  - season: winter
+    items:
+      - "Simbang Gabi (dawn Masses) and Christmas celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kinilaw (ceviche), grilled and freshly caught seafood"
+      - "Corn and cassava staple foods of the indigenous communities"
+  - season: allYear
+    items:
+      - "Biko and native sweets"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Barong Tagalog (men) and terno (women) at formal occasions; indigenous woven textiles at community festivals"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Monday-Friday working week; Sunday is a rest day. Mining and agricultural work drive the weekday economy, and surf tourism peaks in the northeast monsoon season (Sep-Mar)."
+sources: []

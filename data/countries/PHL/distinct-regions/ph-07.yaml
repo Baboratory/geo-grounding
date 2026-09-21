@@ -1,0 +1,76 @@
+code: PH-07
+name:
+  eng: Central Visayas (Region VII)
+  local:
+    - languageCode: fil
+      value: Gitnang Kabisayaan
+climates:
+  - koppenCode: Am
+    description: Tropical monsoon climate across the central Visayan islands, with a wet southwest-monsoon season and a drier season.
+landmarks:
+  - name: Cebu City's Magellan's Cross
+    description: Historic wooden cross planted on Cebu in 1521, marking the arrival of the Magellan expedition and the start of Spanish colonial contact.
+  - name: Tarsier Sanctuary (Bohol)
+    description: Protected habitat of the Philippine tarsier, one of the world's smallest primates, native to Bohol.
+  - name: Chocolate Hills of Bohol
+    description: The iconic cluster of over a thousand grass-covered conical limestone hills on Bohol, a major tourist landmark.
+culturalTraits:
+  - "Heartland of the Cebuano (Bisaya) language, the most widely spoken native language in the country after Tagalog"
+  - "A trading and maritime culture centered on Cebu, the country's oldest Spanish settlement"
+prideOf:
+  - "Cebuano language and the pre-colonial/Magellan-era heritage of Cebu"
+  - "The Chocolate Hills and tarsiers of Bohol"
+animals:
+  popular:
+    - Philippine tarsier
+    - Philippine eagle (protected)
+    - Carabao (water buffalo)
+  unique:
+    - Philippine tarsier (Carlito syrichta) — endemic
+industries:
+  - Shipping and logistics (Cebu is a major port and transhipment hub)
+  - Business-process outsourcing and tourism
+  - Agriculture (rice, corn, coconut, sugar) and fishing
+  - Furniture and handicraft exports
+sports:
+  - Basketball
+  - Boxing
+  - Volleyball
+  - Sepak takraw and traditional street games
+entertainment:
+  - season: allYear
+    items:
+      - "Karaoke and festivals in towns across the islands"
+  - season: summer
+    items:
+      - "Sinulog grand floral and street dance in January in Cebu City"
+  - season: winter
+    items:
+      - "Christmas Simbang Gabi (dawn Masses) and fiestas"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Lechon Cebu (roast pig)"
+      - "Puso (hanging rice) and the soup-based 'Dinuguan' variants"
+      - "Bibingka and puto maya with ripe mango (holiday sweets)"
+  - season: summer
+    items:
+      - "Mango and tropical fruit platters"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Barong Tagalog (men) and terno (women) at formal and festive occasions"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Standard Monday-Friday working week; Sunday is a quiet rest day. Port and market activity in Cebu is brisk on weekdays, and festivals (notably Sinulog) pause normal business."
+sources: []
