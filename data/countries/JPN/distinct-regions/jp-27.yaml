@@ -1,0 +1,84 @@
+code: JP-27
+name:
+  eng: Osaka (prefecture)
+  local:
+    - languageCode: jpn
+      value: 大阪府 (おおさかふ)
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate with hot humid summers and mild winters, at the heart of the Kansai region."
+landmarks:
+  - name: Osaka Castle
+    description: "A landmark rebuilt 16th-century castle, central to Toyotomi Hideyoshi's unification of Japan."
+  - name: Dotonbori
+    description: "Osaka's neon-drenched canal-side entertainment district, famous for food and the Glico Man sign."
+  - name: Sumiyoshi Taisha
+    description: "One of Japan's oldest Shinto shrines, with distinctive architecture and a coral-sand causeway."
+culturalTraits:
+  - "The commercial and food capital of Kansai, famed for its informal, witty culture (Osaka-jin)"
+  - "Kuidaore (eat till you drop) food culture and a proud merchant tradition"
+  - "A more direct, humorous communication style than the reserved Kanto norm"
+prideOf:
+  - "Being Japan's kitchen — takoyaki, okonomiyaki and kushi-katsu street food"
+  - "A strong regional identity as the rival to Tokyo's formality"
+  - "Baseball (Hanshin Tigers) and comedy (manzai double-act tradition)"
+animals:
+  popular:
+    - "Osaka zoo and park wildlife"
+    - "Urban birds in the canal districts"
+  unique: []
+industries:
+  - "Manufacturing and heavy industry (Kansai industrial belt)"
+  - "Retail, commerce and wholesale (Kuromon market)"
+  - "Pharmaceuticals and chemicals"
+  - "Tourism"
+sports:
+  - "Baseball"
+  - "Football"
+  - "Sumo"
+entertainment:
+  - season: allYear
+    items:
+      - "Dotonbori night food and entertainment"
+      - "Universal Studios Japan in Konohana ward"
+      - "Comedy shows and manzai theatre"
+  - season: spring
+    items:
+      - "Cherry-blossom viewing along the Okawa river"
+  - season: summer
+    items:
+      - "Naniwa Yodogawa fireworks festival"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Takoyaki (octopus dumplings)"
+      - "Okonomiyaki (savoury pancake)"
+      - "Kushikatsu (deep-fried skewers)"
+      - "Oshizushi / battera (pressed mackerel sushi)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kimono for festivals and cherry-blossom picnics"
+      - "Casual streetwear and food-market attire"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday; Osaka's merchant culture is known for efficient, direct dealings."
+  lunchBreakTiming: "12:00-13:00; ramen and set meals (teishoku) are a staple."
+sources:
+  - id: osaka-guide-27
+    name: "Osaka Official Travel Guide"
+    publisher: "Osaka Convention & Tourism Bureau"
+    url: "https://osaka-info.jp/en/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, entertainment and cultural description for Osaka."

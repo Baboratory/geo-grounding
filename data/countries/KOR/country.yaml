@@ -1,0 +1,161 @@
+alpha3: KOR
+alpha2: KR
+name:
+  eng: South Korea (Republic of Korea)
+  local:
+    - languageCode: kor
+      value: 대한민국 (Daehan Minguk)
+flagEmoji: "🇰🇷"
+capital: Seoul
+isSovereign: true
+# Classified unitary-large: South Korea meets 2 of the 3 DESIGN.md criteria.
+# (1) the population (~51.7M in 2025) is far above the ~20-25M small-state
+# threshold; (2) there is a genuine, widely recognized cultural-historical
+# regional identity (the Seoul Capital Area, the Gyeongsang/Yeongnam southeast,
+# the Jeolla/Honam southwest, the Chungcheong region, Gangwon and Jeju), even
+# though the provinces/metropolitan cities are first-tier local authorities
+# with no residual sovereignty (so NOT federal). Curated regions follow real
+# ISO 3166-2 subdivisions (KR-11 Seoul, KR-41 Gyeonggi, KR-26 Busan, KR-29
+# Gwangju, KR-49 Jeju, KR-42 Gangwon); WHOLE is the national fallback. Korean is
+# the sole official language per the Framework Act on the Korean Language
+# (Article 14) and the Constitution.
+governanceType: unitary-large
+iso3166_2_prefix: KR
+hasSubdivisions: true
+languageUsage:
+  - languageCode: kor
+    domain: official
+    speakersShare: 1.0
+    sourceId: kr-constitution
+  - languageCode: kor
+    domain: locallySpoken
+    # Korean is the mother tongue of the overwhelming majority (over 95% of
+    # South Koreans); the small remainder are foreign residents and the
+    # Jeju-language community. A qualitative ~0.96 figure since the census
+    # does not publish a single "primary home language" share.
+    speakersShare: 0.96
+    sourceId: cia-kor
+  - languageCode: eng
+    domain: foreign
+    # English is widely taught and increasingly used in business and among the
+    # young; a moderate qualitative locally-spoken share with no single
+    # authoritative published fluency figure.
+    speakersShare: 0.3
+    sourceId: cia-kor
+ethnicGroups:
+  - group: Korean
+    percent: 95.1
+    sourceId: cia-kor
+  - group: Other (mainly foreign workers and residents; no official census ethnic breakdown)
+    percent: 4.9
+    sourceId: cia-kor
+timezones:
+  - name: Asia/Seoul
+    standardUtcOffset: "UTC+9"
+    observesDst: false
+currency:
+  code: KRW
+  symbol: "₩"
+  name: South Korean won
+legalConstraints:
+  - topic: "official language"
+    description: "Korean is the official language of the Republic of Korea. The Framework Act on the Korean Language (enacted 2005) establishes Korean as the national and official language and governs its use in public administration, education and the media."
+    sourceId: kr-falk
+  - topic: "consumer protection"
+    description: "The Framework Act on Consumers (Consumer Basic Act) sets out consumer rights and duties; the Korea Consumer Agency handles disputes, and the Fair Trade Commission enforces the Act on Fair Labeling and Advertising and the E-Commerce Transactions Act (e-commerce consumer protection, cooling-off periods)."
+    sourceId: kr-fairtrade
+  - topic: "data protection"
+    description: "The Personal Information Protection Act (PIPA) is Korea's comprehensive data-protection law, substantially amended in 2023 (in force 15 September 2023) to align with the GDPR (online-offline parity, cross-border transfer rules, expanded data-subject rights); it is enforced by the Personal Information Protection Commission (PIPC)."
+    sourceId: pipc-kor
+  - topic: "VAT"
+    description: "A value-added tax of 10% is levied on most goods and services under the Value-Added Tax Act; it is a single flat rate with no reduced rate."
+    sourceId: nts-kor-vat
+paymentCulture:
+  popularMethods:
+    - "Card payments dominate — credit and debit cards are used even for very small transactions"
+    - "Mobile/QR payments (Kakao Pay, Naver Pay, Toss) are near-universal"
+    - "Cash is accepted but increasingly uncommon in daily retail"
+    - "Bank transfers (account-to-account, often via mobile banking) are standard for larger payments"
+  tipping:
+    expected: false
+    typicalAmount: "None — tipping is not customary in South Korea and may be politely declined"
+    autoIncludedInBill: true
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite and hierarchy-aware. Honorifics and status-relative speech (jondaenmal vs. banmal) pervade; age and seniority govern address. Business attire is formal and professional."
+  greetingNorms: "A light bow with eye contact is standard; handshakes (often with two hands or a slight bow) are used in business. Address people by title plus surname or honorific."
+  meetingEtiquette: "Punctuality matters. Meetings open with formal introductions (exchanging business cards with both hands), may include group dining and drinking afterward (hoesik), and decisions are often made through seniority and close relationships."
+  topicsToAvoid:
+    - "Criticism of the nation or political sensitivity around North Korea"
+    - "Direct negative feedback in front of a group"
+    - "Personal questions about family, income or marital status with new acquaintances"
+  giftGivingNotes: "Gift-giving is customary in hospitality and business contexts; present with both hands. Tipping is not expected. Giving gifts in sets of four is unlucky."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: KR-11
+    file: distinct-regions/kr-11.yaml
+    adminUnitCodes: [KR-11]
+  - code: KR-41
+    file: distinct-regions/kr-41.yaml
+    adminUnitCodes: [KR-41]
+  - code: KR-26
+    file: distinct-regions/kr-26.yaml
+    adminUnitCodes: [KR-26]
+  - code: KR-29
+    file: distinct-regions/kr-29.yaml
+    adminUnitCodes: [KR-29]
+  - code: KR-49
+    file: distinct-regions/kr-49.yaml
+    adminUnitCodes: [KR-49]
+  - code: KR-42
+    file: distinct-regions/kr-42.yaml
+    adminUnitCodes: [KR-42]
+sources:
+  - id: kr-constitution
+    name: "Constitution of the Republic of Korea — official text"
+    publisher: "National Assembly of the Republic of Korea (via Constitutional Court / official English translation)"
+    url: "https://www.law.go.kr/eng/englaws/eng20190515_14553.do"
+    year: 1987
+    accessedDate: "2026-09-21"
+    note: "Confirms Hangul/Korean usage and the constitutional basis for the national language (Article framing)."
+  - id: kr-falk
+    name: "Framework Act on the Korean Language (enacted 2005)"
+    publisher: "Ministry of Culture, Sports and Tourism / National Institute of the Korean Language"
+    url: "https://www.law.go.kr/eng/englaws/englawsList.do"
+    year: 2005
+    accessedDate: "2026-09-21"
+    note: "Korean is the official and national language; governs its use in government, education and media."
+  - id: cia-kor
+    name: "CIA World Factbook — South Korea (people and society)"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/korea-south/"
+    accessedDate: "2026-09-21"
+    note: "Population, ethnic composition (Korean 95.1%), languages and general demographic context."
+  - id: kr-fairtrade
+    name: "Consumer protection framework — major acts"
+    publisher: "Korea Fair Trade Commission / Korea Consumer Agency"
+    url: "https://www.ftc.go.kr/eng/cms/main.do"
+    accessedDate: "2026-09-21"
+    note: "Framework Act on Consumers, E-Commerce Transactions Act cooling-off rights, Fair Labeling and Advertising Act."
+  - id: pipc-kor
+    name: "Amended Personal Information Protection Act (PIPA) — press release"
+    publisher: "Personal Information Protection Commission (PIPC), Republic of Korea"
+    url: "https://pipc.go.kr/eng/user/ltn/new/noticeDetail.do?bbsId=BBSMSTR_000000000001&nttId=2331"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "PIPA effective 15 September 2023: online-offline parity, cross-border transfer rules, data-subject rights."
+  - id: nts-kor-vat
+    name: "Value-Added Tax Act — VAT rate"
+    publisher: "National Tax Service, Republic of Korea"
+    url: "https://www.nts.go.kr/english/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Standard VAT rate of 10% under the Value-Added Tax Act."
+  - id: iso-kor
+    name: "ISO 639-3 entry: kor — Korean"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/kor"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code kor."

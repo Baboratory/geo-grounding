@@ -1,0 +1,86 @@
+code: JP-26
+name:
+  eng: Kyoto (prefecture)
+  local:
+    - languageCode: jpn
+      value: 京都府 (きょうとふ)
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate with hot humid summers (Kyoto is in a basin that intensifies the heat) and cold, mild winters."
+landmarks:
+  - name: Kinkaku-ji (Golden Pavilion)
+    description: "A Zen temple whose top two floors are covered in gold leaf, beside a mirror pond (UNESCO 1994)."
+    unescoWorldHeritage: true
+  - name: Kiyomizu-dera
+    description: "A hillside Buddhist temple with a famous wooden stage and city views (UNESCO 1994)."
+    unescoWorldHeritage: true
+  - name: Fushimi Inari-taisha
+    description: "A vast Shinto shrine famous for thousands of red torii gates snaking up Mount Inari."
+  - name: Gion District
+    description: "Kyoto's iconic geisha quarter, with preserved machiya townhouses and tea houses."
+culturalTraits:
+  - "Japan's ancient imperial capital and the heart of traditional Japanese culture"
+  - "Over a thousand Buddhist temples and Shinto shrines, gardens, tea ceremony and craft traditions"
+  - "A refined, formal artistic heritage: kimonos, tea ceremony, kaiseki cuisine and maiko/geisha"
+prideOf:
+  - "Seventeen UNESCO World Heritage sites and an incomparable historical legacy"
+  - "Being the birthplace of the tea ceremony, geisha culture and classic kaiseki dining"
+  - "Preserving traditional crafts: Kyo-yaki pottery, Nishijin weaving, Wagashi confectionery"
+animals:
+  popular:
+    - "Deer at nearby Arashiyama"
+    - "Carp in temple ponds"
+  unique: []
+industries:
+  - "Tourism and hospitality (a leading global cultural destination)"
+  - "Traditional crafts and textiles (Nishijin-ori)"
+  - "High-tech industry (Kyocera, Nintendo are headquartered in Kyoto)"
+  - "Sake brewing and confectionery"
+sports:
+  - "Baseball"
+  - "Football"
+  - "Martial arts (a storhub of kendo and swordsmanship schools)"
+entertainment:
+  - season: allYear
+    items:
+      - "Temple and shrine visits, tea ceremonies and garden strolling"
+      - "Gion geisha culture and traditional performances"
+  - season: spring
+    items:
+      - "Cherry-blossom viewing at Maruyama Park and along the Philosopher's Path"
+  - season: autumn
+    items:
+      - "Spectacular autumn foliage at Tofuku-ji and Arashiyama"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kaiseki ryori (multi-course haute cuisine)"
+      - "Yudofu (tofu hotpot) and shojin ryori (temple vegetarian)"
+      - "Kyoto-style obanzai home cooking"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kimono — widely worn by locals and visitors in the historic centre"
+      - "Maiko and geiko in full kimono regalia in Gion"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday; many temples, shrines and restaurants operate long daily hours for visitors."
+  lunchBreakTiming: "12:00-13:00; temple vegetarian set meals and soba are common."
+sources:
+  - id: kyoto-guide-26
+    name: "Kyoto City Official Travel Guide"
+    publisher: "Kyoto City / Kyoto Convention Bureau"
+    url: "https://kyoto.travel/en"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, culture and entertainment for Kyoto."

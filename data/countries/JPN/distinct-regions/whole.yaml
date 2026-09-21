@@ -1,0 +1,136 @@
+code: WHOLE
+name:
+  eng: Japan
+  local:
+    - languageCode: jpn
+      value: 日本 (Nihon/Nippon)
+# Generic country-wide fallback content for Japan (unitary-large with a curated
+# subset of prefectures). National-level coverage that is not specific to any
+# one prefecture or the user's detected subdivision.
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate on the Pacific coast (Tokyo, Osaka, much of Honshu and Kyushu), with hot humid summers and mild winters."
+  - koppenCode: Dfa
+    description: "Humid continental climate in northern Honshu (Tohoku) and Hokkaido's lowlands, with cold snowy winters."
+  - koppenCode: Dfb
+    description: "Warm-summer humid continental climate across much of Hokkaido."
+  - koppenCode: Cfb
+    description: "Oceanic subtropical highland and northern Pacific climate in some upland/temperate parts of central Honshu."
+landmarks:
+  - name: Mount Fuji
+    description: "Japan's highest peak (3,776m), an iconic symmetrical stratovolcano and UNESCO World Heritage Site (2013)."
+    unescoWorldHeritage: true
+  - name: Historic Monuments of Ancient Kyoto
+    description: "Seventeen historic sites across Kyoto and Uji, including temples, shrines and gardens (UNESCO 1994)."
+    unescoWorldHeritage: true
+  - name: Historic Villages of Shirakawa-go and Gokayama
+    description: "Gassho-zukuri farmhouses with steep thatched roofs in a mountainous region (UNESCO 1995)."
+    unescoWorldHeritage: true
+  - name: Itsukushima Shrine
+    description: "Famous 'floating' torii gate complex on Miyajima island in Hiroshima Bay (UNESCO 1996)."
+    unescoWorldHeritage: true
+  - name: Atomic Bomb Dome (Genbaku Dome)
+    description: "Hiroshima Peace Memorial, the preserved ruin at the hypocentre of the 1945 atomic bombing (UNESCO 1996)."
+    unescoWorldHeritage: true
+  - name: Himeji-jo (Himeji Castle)
+    description: "Japan's best-preserved feudal castle complex, the 'White Heron Castle' (UNESCO 1993)."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "An island civilisation with a tradition of refined etiquette, harmony (wa) and indirect communication"
+  - "A living mix of Shinto, Buddhist and seasonal festival culture alongside hyper-modern technology cities"
+  - "Famous global exports: anime and manga, cuisine (sushi, ramen, wagyu), craftsmanship and pop culture"
+prideOf:
+  - "A world-class technological and economic power with a deep cultural heritage"
+  - "Four distinct, well-defined seasons and a strong sense of natural beauty"
+  - "Craftsmanship, punctuality and an orderly, safe society"
+animals:
+  popular:
+    - "Japanese macaque (snow monkey)"
+    - "Japanese crane (tancho)"
+    - "Sika deer"
+    - "Red-crowned crane"
+  unique:
+    - "Japanese macaque bathing in hot springs in Nagano"
+    - "Ryukyu rabbit (endemic to Amami)"
+    - "Japanese giant salamander (largest amphibian, central Honshu/Shikoku)"
+industries:
+  - "Automotive manufacturing (Toyota, Honda, Nissan)"
+  - "Electronics and precision technology"
+  - "Robotics and automation"
+  - "Anime, manga and entertainment media"
+  - "Tourism and hospitality"
+  - "Finance and services (Tokyo is a global financial hub)"
+sports:
+  - "Baseball"
+  - "Sumo"
+  - "Football (soccer)"
+  - "Judo and other martial arts"
+  - "Skiing and snowboarding in the northern alps"
+entertainment:
+  - season: allYear
+    items:
+      - "Onsen (hot-spring) bathing and ryokan stays"
+      - "Festivals (matsuri), fireworks displays and seasonal markets"
+      - "Karaoke, arcades and themed cafes in the cities"
+  - season: spring
+    items:
+      - "Cherry-blossom (hanami) picnics"
+  - season: autumn
+    items:
+      - "Autumn-leaf (koyo) viewing in mountains and temple gardens"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sushi and sashimi"
+      - "Ramen (regional broth styles)"
+      - "Tempura"
+      - "Wagyu beef"
+      - "Kaiseki multi-course dining"
+  - season: summer
+    items:
+      - "Cold soba and kakigori shaved ice"
+  - season: winter
+    items:
+      - "Hotpot (nabe) and oden"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kimono and yukata for festivals, ceremonies and special occasions"
+      - "Business attire dominates daily corporate life"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00/09:30-17:30/18:00, Monday-Friday; many offices keep longer hours and overtime is historically common."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
+  notableShutdownPeriods:
+    - period: "Golden Week (late April-early May)"
+      description: "A cluster of national holidays; many businesses close for several days."
+    - period: "New Year (shogatsu, 1-3 January)"
+      description: "National holiday; most businesses close as families gather at home."
+    - period: "Obon (mid-August)"
+      description: "Buddhist festival honoring ancestors; many offices close or operate reduced hours."
+sources:
+  - id: unesco-whc-jpn
+    name: "Japan — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/jp"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Japan's UNESCO World Heritage properties and inscription years."
+
+# Sources for national-level religion and ethnicity are not supplied here:
+# like France, Japan's official statistics practice makes a clean percentage
+# impossible (see country.yaml legalConstraints). Japanese identity is
+# predominantly expressed through Shinto and Buddhist traditions that overlap
+# heavily rather than exclusive affiliation, so a religions[] field that must
+# sum meaningfully is omitted at country level.

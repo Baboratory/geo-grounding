@@ -1,0 +1,87 @@
+code: JP-47
+name:
+  eng: Okinawa (prefecture)
+  local:
+    - languageCode: jpn
+      value: 沖縄県 (おきなわけん)
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate across the main Okinawa islands, with hot humid weather year-round and a pronounced typhoon season (late summer/autumn)."
+landmarks:
+  - name: Shuri Castle
+    description: "The reconstructed royal palace of the Ryukyu Kingdom, a UNESCO World Heritage Site (2000, partially burned in 2019, under restoration)."
+    unescoWorldHeritage: true
+  - name: Churaumi Aquarium
+    description: "One of the world's largest aquariums, famed for its whale sharks and Kuroshio tank on Okinawa Island's Motobu coast."
+  - name: Kerama Islands
+    description: "A scenic archipelago southwest of Naha famed for crystal-clear water and snorkelling."
+culturalTraits:
+  - "The heart of the former Ryukyu Kingdom, with a distinct Okinawan language, cuisine and identity"
+  - "A unique blend of Japanese, Ryukyuan, Chinese and US influences"
+  - "A famously relaxed, long-lived culture with a strong spirit of community (yuimaru)"
+prideOf:
+  - "Being among the world's longevity hotspots ('Islands of the Immortals')"
+  - "A vibrant sanshin (three-stringed lute) music and dance heritage"
+  - "Blue seas, coral reefs and a subtropical paradise identity"
+animals:
+  popular:
+    - "Ryukyu fruit dove and Okinawa rail"
+    - "Sea turtles and humpback whales offshore"
+  unique:
+    - "Iriomote cat (endemic to Iriomote Island)"
+    - "Ryukyu rabbit (endemic to the Amami islands)"
+industries:
+  - "Tourism (beach and resort hospitality)"
+  - "US military bases and related services"
+  - "Agriculture (sugarcane, shikuwasa citrus, awamori rice-shochu distilling)"
+  - "Marine and underwater industries"
+sports:
+  - "Baseball"
+  - "Karate (Okinawan karate is the birthplace of the martial art)"
+  - "Swimming and diving"
+  - "Soccer (a strong local football culture)"
+entertainment:
+  - season: allYear
+    items:
+      - "Beach life, snorkelling and diving over coral reefs"
+      - "Sanshin music performances and Ryukyuan dance"
+      - "Naha night markets and Kokusai-dori shopping"
+  - season: summer
+    items:
+      - "Eisa drum festivals and the Naha Haari boat race"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Okinawan soba (thick wheat noodles in pork broth)"
+      - "Goya chanpuru (bitter melon stir-fry)"
+      - "Taco rice and American-influenced dishes"
+      - "Awamori (local distilled rice liquor)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Casual, lightweight resort wear"
+      - "Ryukyuan hanagasa hats and traditional kimonos at festivals"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 10]
+  - season: summer
+    months: [7, 8, 9]
+# Okinawa's climate is subtropical/tropical: the cooler, drier months run
+# roughly November-March, the rainy (tsuyu) season falls in May-June, and the
+# hot, humid typhoon season peaks July-September. A non-overlapping partition is
+# used here for computability of seasonal content.
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday; a relaxed island tempo prevails."
+  lunchBreakTiming: "12:00-13:00; Okinawan soba and set meals are a staple."
+sources:
+  - id: okinawa-guide-47
+    name: "Okinawa Official Travel Guide"
+    publisher: "Okinawa Convention & Visitors Bureau"
+    url: "https://www.visitokinawa.jp/en/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture, cuisine, climate and entertainment for Okinawa."

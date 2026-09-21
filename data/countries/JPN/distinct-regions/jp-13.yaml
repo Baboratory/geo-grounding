@@ -1,0 +1,89 @@
+code: JP-13
+name:
+  eng: Tokyo (metropolis)
+  local:
+    - languageCode: jpn
+      value: 東京都 (とうきょうと)
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate with hot humid summers and mild, relatively dry winters."
+landmarks:
+  - name: Senso-ji Temple
+    description: "Tokyo's oldest Buddhist temple, in Asakusa, reached via the famous Kaminarimon 'Thunder Gate'."
+  - name: Meiji Jingu Shrine
+    description: "A major Shinto shrine dedicated to Emperor Meiji, set in a forested park in central Tokyo."
+  - name: Tokyo Imperial Palace
+    description: "The official residence of the Emperor, on the site of the former Edo Castle."
+  - name: Shibuya Crossing
+    description: "One of the world's busiest pedestrian crossings, an icon of Tokyo's urban energy."
+culturalTraits:
+  - "Japan's capital and global financial, political and cultural centre"
+  - "A hyper-modern metropolis mixing towering skyscrapers with pockets of quiet shrine culture"
+  - "The epicentre of Japanese pop culture: anime, fashion, cuisine and media"
+prideOf:
+  - "Being the world's largest metropolitan economy and a global trendsetter"
+  - "On-time, dense and safe public transport"
+  - "A remarkably clean, orderly megacity despite its density"
+animals:
+  popular:
+    - "Tokyo bay birds and urban crows"
+    - "Squirrels in the palace and park areas"
+  unique: []
+industries:
+  - "Finance, banking and corporate headquarters"
+  - "Technology, media and entertainment"
+  - "Retail, fashion and luxury goods"
+  - "Tourism and hospitality"
+sports:
+  - "Baseball"
+  - "Sumo"
+  - "Football"
+  - "Judo"
+entertainment:
+  - season: allYear
+    items:
+      - "Akihabara electronics and anime culture"
+      - "Shibuya and Shinjuku nightlife, izakaya and karaoke"
+      - "TeamLab digital art and Shibuya Sky views"
+  - season: spring
+    items:
+      - "Cherry-blossom viewing along the Meguro River and at Chidorigafuchi"
+  - season: autumn
+    items:
+      - "Autumn leaves at Shinjuku Gyoen and Rikugien gardens"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sushi from Tsukiji/Sushi-Dai and Edomae-style counters"
+      - "Ramen (tsukemen and shoyu varieties)"
+      - "Monjayaki and okonomiyaki"
+  - season: winter
+    items:
+      - "Hotpot (oden and nabe) in winter markets"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Sharp business attire in the corporate districts"
+      - "Kimono for festivals such as Sanja Matsuri"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday, with a high share of long working hours and late trains (midnight) supporting the commute."
+  lunchBreakTiming: "12:00-13:00; many workers grab bento, ramen or a bowl of noodles."
+sources:
+  - id: tokyo-tourism-13
+    name: "Tokyo Official Travel Guide"
+    publisher: "Tokyo Convention & Visitors Bureau"
+    url: "https://www.gotokyo.org/en/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, entertainment, cuisine and cultural description for Tokyo."

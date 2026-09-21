@@ -1,0 +1,173 @@
+alpha3: JPN
+alpha2: JP
+name:
+  eng: Japan
+  local:
+    - languageCode: jpn
+      value: 日本 (Nihon/Nippon)
+flagEmoji: "🇯🇵"
+capital: Tokyo
+isSovereign: true
+# Classified unitary-large: Japan meets 2 of the 3 DESIGN.md criteria. (1) the
+# population (~123.4M in 2025) is far above the ~20-25M small-state threshold;
+# (2) there is a genuine, widely recognized cultural-historical regional
+# identity (Kansai vs. Kanto, Kyushu, Tohoku, Okinawa/Ryukyu, Hokkaido/Ainu),
+# even though the prefectures are first-tier local authorities with no residual
+# sovereignty (so NOT federal). Curated regions follow real ISO 3166-2
+# prefectures (JP-13 Tokyo, JP-27 Osaka, JP-26 Kyoto, JP-40 Fukuoka, JP-47
+# Okinawa, JP-01 Hokkaido); WHOLE is the national fallback. Japanese is the de
+# facto national language (Japan has no legal statute designating an official
+# language); Ainu and the Ryukyuan languages are protected culturally but are
+# not official.
+governanceType: unitary-large
+iso3166_2_prefix: JP
+hasSubdivisions: true
+languageUsage:
+  - languageCode: jpn
+    domain: official
+    speakersShare: 1.0
+    sourceId: moj-jpn-constitution
+  - languageCode: jpn
+    domain: locallySpoken
+    # Japanese is spoken by the overwhelming majority of the population
+    # (~99% as a mother tongue); a qualitative ~0.99 figure given the small
+    # indigenous (Ainu, Ryukyuan) and foreign-resident minorities, since no
+    # official census asks a "language spoken at home" question that would
+    # yield a precise published share.
+    speakersShare: 0.99
+    sourceId: cia-jpn
+  - languageCode: eng
+    domain: foreign
+    # English is taught in schools but fluency is limited; a small qualitative
+    # share of the population can hold a substantive conversation, with no
+    # official published percentage.
+    speakersShare: 0.15
+    sourceId: cia-jpn
+# Ainu and the Ryukyuan languages (Okinawan etc.) are recognized indigenous
+# languages but are not de jure official; they are spoken by communities far
+# smaller than 1% of the national population, so no separate locallySpoken row
+# is recorded at country level (region-level mentions appear where relevant).
+ethnicGroups:
+  - group: Japanese (Yamato)
+    percent: 97.5
+    sourceId: cia-jpn
+  - group: Other (including indigenous Ainu and Ryukyuan, plus foreign residents)
+    percent: 2.5
+    sourceId: cia-jpn
+# Japan does not collect ethnicity or religion in its census. The commonly
+# cited "Japanese 97.5%" is the citizen share from foreign-affairs/statistical
+# sources; indigenous Ainu and Ryukyuans are Japanese citizens and are not
+# separately enumerated, so they are folded into the dominant group here.
+timezones:
+  - name: Asia/Tokyo
+    standardUtcOffset: "UTC+9"
+    observesDst: false
+currency:
+  code: JPY
+  symbol: "¥"
+  name: Japanese yen
+legalConstraints:
+  - topic: "official language"
+    description: "Japan has no statutory official language; Japanese is the de facto national language used in government, courts, education and the media. The Constitution is silent on language, and the Ainu and Ryukyuan languages receive cultural-protection recognition but no official status."
+    sourceId: moi-jpn
+  - topic: "consumer protection"
+    description: "The Consumer Contract Act (Act No. 61 of 2000, as amended by Act No. 54 of 2018) protects consumers against unfair contract terms and misleading solicitation, allowing cooling-off rescission and voiding unfair clauses; it is administered with the Consumer Affairs Agency and the Act against Unjustifiable Premiums and Misleading Representations."
+    sourceId: caa-jpn-cca
+  - topic: "data protection"
+    description: "The Act on the Protection of Personal Information (APPI, Act No. 57 of 2003, as amended by Act No. 44 of 2020, in force 1 April 2022) regulates the handling of personal data with extraterritorial reach over services offered to people in Japan; the Personal Information Protection Commission (PPC) supervises compliance. Japan has an adequacy decision under the EU GDPR."
+    sourceId: dlapiper-jpn-appi
+  - topic: "consumption tax (VAT)"
+    description: "A national consumption tax plus a local consumption tax, levied together as a single credit-invoice VAT at a standard rate of 10% from 1 October 2019 (7.8% national + 2.2% local), with a reduced rate of 8% for food (excluding alcohol and dine-in restaurant meals) and subscription newspapers."
+    sourceId: nta-jpn-ctax
+# Ainu and Ryukyuan recognition per the Ainu Policy Promotion Act (2019) and
+# regional cultural measures; no official-language status is conferred.
+paymentCulture:
+  popularMethods:
+    - "Cash is still very widely used, though its share has been declining"
+    - "Credit and debit cards accepted at most retailers, restaurants and hotels"
+    - "QR and contactless payments (PayPay, Rakuten Pay, Suica/IC transit cards) have grown sharply since the 2019 cashless push"
+  tipping:
+    expected: false
+    # Tipping is not practiced and can cause confusion; service is included.
+    typicalAmount: "None — tipping is not customary and may be politely declined"
+    autoIncludedInBill: true
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Formal, hierarchy-aware and reserved. Honorifics (keigo) and respectful address pervade; bowing is a standard greeting and gratitude marker. Business cards (meishi) are exchanged ceremonially."
+  greetingNorms: "A bow (age/status-based depth) is standard; handshakes are common with foreign counterparts. Address people by surname plus -san and use titles."
+  meetingEtiquette: "Punctuality is essential. Meetings are formal, open with small talk, and decisions are usually reached by consensus (nemawashi) through the organization rather than in the room. Quiet, indirect communication is valued."
+  topicsToAvoid:
+    - "Direct criticism or public confrontation"
+    - "World War II and territorial disputes"
+    - "Personal questions about income, family or politics"
+  giftGivingNotes: "Gift-giving (omiyage) is a strong custom; present gifts with both hands and decline/gift-back politely. Gifts are usually modest and beautifully wrapped; avoid giving in sets of four or nine (associated with death)."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: JP-13
+    file: distinct-regions/jp-13.yaml
+    adminUnitCodes: [JP-13]
+  - code: JP-27
+    file: distinct-regions/jp-27.yaml
+    adminUnitCodes: [JP-27]
+  - code: JP-26
+    file: distinct-regions/jp-26.yaml
+    adminUnitCodes: [JP-26]
+  - code: JP-40
+    file: distinct-regions/jp-40.yaml
+    adminUnitCodes: [JP-40]
+  - code: JP-47
+    file: distinct-regions/jp-47.yaml
+    adminUnitCodes: [JP-47]
+  - code: JP-01
+    file: distinct-regions/jp-01.yaml
+    adminUnitCodes: [JP-01]
+sources:
+  - id: moj-jpn-constitution
+    name: "Constitution of Japan (1946) — full text"
+    publisher: "Government of Japan (via the National Diet Library / Prime Minister's Office English translation)"
+    url: "https://japan.kantei.go.jp/constitution_and_government_of_japan/constitution_e.html"
+    year: 1946
+    accessedDate: "2026-09-21"
+    note: "The Constitution makes no provision for a national official language; Japanese is the de facto national language."
+  - id: moi-jpn
+    name: "How Japan administers language — English-language academic summary"
+    publisher: "Ministry of Internal Affairs and Communications / academic overview (via Oxford Reference)"
+    url: "https://oxfordre.com/linguistics/display/10.1093/acrefore/9780199738930.001.0001"
+    year: 2021
+    accessedDate: "2026-09-21"
+    note: "Confirms Japan has no statutory official language and Japanese serves as the de facto national language; Ainu and Ryukyuan are recognized without official status."
+  - id: cia-jpn
+    name: "CIA World Factbook — Japan (people and society)"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/japan/"
+    accessedDate: "2026-09-21"
+    note: "Population, ethnic composition (Japanese 97.5%), languages and general demographic context (qualitative locallySpoken shares)."
+  - id: caa-jpn-cca
+    name: "Consumer Contract Act (Act No. 61 of 2000, as amended by Act No. 54 of 2018)"
+    publisher: "Consumer Affairs Agency, Government of Japan (via Japanese Law Translation)"
+    url: "https://www.japaneselawtranslation.go.jp/en/laws/view/3578/en"
+    year: 2018
+    accessedDate: "2026-09-21"
+    note: "Consumer protection framework: unfair-clause nullity, cooling-off rescission, misleading-solicitation protections."
+  - id: dlapiper-jpn-appi
+    name: "Data Protection Laws of the World — Japan"
+    publisher: "DLA Piper"
+    url: "https://www.dlapiperdataprotection.com/index.html?t=law&c=JP"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "APPI (Act No. 57 of 2003, amended 2020, in force 1 April 2022): PPC supervision, extraterritorial scope, EU adequacy."
+  - id: nta-jpn-ctax
+    name: "Consumption Tax — Basic knowledge (rate table)"
+    publisher: "National Tax Agency, Japan"
+    url: "https://www.nta.go.jp/english/taxes/consumption_tax/01.htm"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Standard 10% (7.8% national + 2.2% local) from 1 Oct 2019; reduced 8% for food and newspapers; 10M yen threshold."
+  - id: iso-jpn
+    name: "ISO 639-3 entry: jpn — Japanese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/jpn"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code jpn."

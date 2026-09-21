@@ -1,0 +1,90 @@
+code: KR-42
+name:
+  eng: Gangwon (special self-governing province)
+  local:
+    - languageCode: kor
+      value: 강원특별자치도 (Gangwon Teukbyeoljachido)
+climates:
+  - koppenCode: Dwa
+    description: "Humid continental climate across the mountainous province, with cold snowy winters and cool, wettish summers in the Taebaek mountains."
+  - koppenCode: Cwa
+    description: "Humid subtropical/monsoonal climate in the lower eastern coastal plain, moderated by the sea."
+landmarks:
+  - name: Seoraksan National Park
+    description: "A national park known for dramatic peaks, temple lakes and the Seoraksan ski resort."
+  - name: Pyeongchang and Yongpyong Ski Resorts
+    description: "Major winter-sports resorts; Pyeongchang hosted the 2018 Winter Olympics."
+  - name: Gangneung and the 2018 Olympics venues
+    description: "Coastal venues and the Alpensia and Gangneung ice venues from the 2018 Pyeongchang Winter Games."
+  - name: Woljeongsa and mountaintop temples
+    description: "Serene Buddhist temples set in the green mountain valleys of the province."
+culturalTraits:
+  - "South Korea's rugged, mountainous alpine province in the north-east"
+  - "The country's winter-sports heartland, home of the 2018 Pyeongchang Winter Olympics"
+  - "A nature-first identity of peaks, rivers, pine forests, hot springs and fresh air"
+prideOf:
+  - "Hosting the 2018 Pyeongchang Winter Olympics"
+  - "World-class skiing and snowboarding (Yongpyong, Alpensia, Seoraksan)"
+  - "Pristine mountain nature, clean rivers and traditional temple heritage"
+animals:
+  popular:
+    - "Korean water deer and wild boar"
+    - "Hawks and mountain birds"
+  unique:
+    - "Crested ibis (reintroduced population in the Gangneung wetlands)"
+    - "Long-tailed goral (mountain goat, a protected species)"
+industries:
+  - "Winter tourism and ski resorts"
+  - "Agriculture (potatoes, corn, medicinal herbs in the highlands)"
+  - "Timber, forestry and small-scale mining"
+  - "Sports tourism and the 2018 Olympic legacy venues"
+sports:
+  - "Skiing and snowboarding"
+  - "Ice hockey and figure skating"
+  - "Football and hiking"
+entertainment:
+  - season: winter
+    items:
+      - "Skiing and snowboarding at Yongpyong, Alpensia and Seoraksan"
+      - "Ice climbing and winter festivals"
+  - season: summer
+    items:
+      - "Mountain hiking, river rafting and temple stays in the highlands"
+  - season: allYear
+    items:
+      - "Hot springs (soakjil) and mountain temple visits"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Gangwon cottage cheese and highland vegetables"
+      - "Gamjajeon (potato pancakes) and makguksu (buckwheat noodles)"
+      - "Trout and mountain-stream fish dishes"
+traditionalClothing:
+  - season: winter
+    items:
+      - "Heavy cold-weather gear, down parkas and ski wear"
+  - season: allYear
+    items:
+      - "Outdoor and hiking layers"
+seasonCalendar:
+  - season: spring
+    months: [4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2, 3]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday; winter weather can affect mountain transport."
+  lunchBreakTiming: "12:00-13:00; makguksu and potato dishes are a staple."
+sources:
+  - id: gangwon-guide-42
+    name: "Gangwon Province tourism and 2018 Winter Olympics venues"
+    publisher: "Gangwon Tourism Organization (Gangwon Special Self-Governing Province)"
+    url: "https://gwto.or.kr/eng/index.do"
+    accessedDate: "2026-09-21"
+    note: "Landmarks (Seoraksan, ski resorts, 2018 Olympics), cuisine and winter-sports culture."

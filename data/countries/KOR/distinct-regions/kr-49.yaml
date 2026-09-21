@@ -1,0 +1,90 @@
+code: KR-49
+name:
+  eng: Jeju (special self-governing province)
+  local:
+    - languageCode: kor
+      value: 제주특별자치도 (Jeju Teukbyeoljachido)
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate on the island, with mild winters, warm summers and, on the southern slopes, Korea's only subtropical micro-climate."
+landmarks:
+  - name: Hallasan (Mount Halla)
+    description: "South Korea's highest peak (1,950m), the shield volcano at the island's centre (UNESCO 2007, part of Jeju Volcanic Island)."
+    unescoWorldHeritage: true
+  - name: Seongsan Ilchulbong (Sunrise Peak)
+    description: "A dramatic tuff-cone crater rising from the eastern coast, formed by a hydrovolcanic eruption (UNESCO 2007)."
+    unescoWorldHeritage: true
+  - name: Geomunoreum Lava Tube System
+    description: "The world's finest cave system of its kind, including the Manjanggul lava tube (UNESCO 2007)."
+    unescoWorldHeritage: true
+  - name: Jeju Olle Market and Dongmun Traditional Market
+    description: "Lively markets in Jeju City for black pork, citrus and local specialties."
+culturalTraits:
+  - "South Korea's largest island, a subtropical holiday destination known as the 'Island of Peace'"
+  - "A distinct local identity: the Jeju language, stone haenyeo (female divers), volcanic landscape and citrus"
+  - "Famed for its outstanding natural beauty, UNESCO Tri-World-Heritage status and laid-back island tempo"
+prideOf:
+  - "UNESCO triple crown: World Heritage (volcanic island), Biosphere Reserve and Global Geopark"
+  - "The haenyeo (sea women) free-diving tradition, a UNESCO intangible cultural heritage"
+  - "Black pork, Hallasan, and a pure, clean island lifestyle"
+animals:
+  popular:
+    - "Jeju horse (small native pony)"
+    - "Sea birds and coastal wildlife"
+  unique:
+    - "Jeju horse"
+    - "Endemic species of the Hallasan forest"
+industries:
+  - "Tourism and hospitality (resorts, golf, theme parks)"
+  - "Agriculture: citrus (jeju tangerines), hallabong, black pork"
+  - "Horse breeding and equestrian tourism"
+  - "Fisheries and haenyeo diving heritage"
+sports:
+  - "Golf (many championship courses)"
+  - "Diving and water sports"
+  - "Football"
+  - "Hiking (Olle trail around the island)"
+entertainment:
+  - season: allYear
+    items:
+      - "Beach resorts, waterfalls and volcanic-cone hikes"
+      - "Olle coastal trail walking and citrus-picking farms"
+  - season: summer
+    items:
+      - "Beach life and water sports at Jungmun and Hamdeok beaches"
+  - season: spring
+    items:
+      - "Jeju Camellia Festival and Hallasan spring walks"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Black pork barbecue (heukdwaeji)"
+      - "Jeju-boiled conch and seafood"
+      - "Hallabong and Jeju tangerines"
+      - "Galchi-gui (grilled hairtail fish)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light resort wear; waterproofs and layers in the changeable island weather"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday; a relaxed island tempo prevails."
+  lunchBreakTiming: "12:00-13:30; black pork and seafood are the dining highlights."
+sources:
+  - id: jeju-guide-49
+    name: "Jeju Tourism Organization official guide"
+    publisher: "Jeju Special Self-Governing Province"
+    url: "https://www.visitjeju.net/en/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks (Hallasan, Seongsan Ilchulbong, Geomunoreum), cuisine and island culture for Jeju."

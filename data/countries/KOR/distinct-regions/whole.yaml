@@ -1,0 +1,115 @@
+code: WHOLE
+name:
+  eng: South Korea (Republic of Korea)
+  local:
+    - languageCode: kor
+      value: 대한민국 (Daehan Minguk)
+# Generic country-wide fallback content for South Korea (unitary-large with a
+# curated subset of regions). National-level coverage that is not specific to
+# any one region or the user's detected subdivision.
+climates:
+  - koppenCode: Dwa
+    description: "Humid continental climate in the north, with hot summers and cold, dry winters."
+  - koppenCode: Cwa
+    description: "Humid subtropical climate across most of the south and the Seoul area, with hot humid summers and cold, relatively dry winters."
+  - koppenCode: Cfa
+    description: "Humid subtropical climate along the southern coast and on Jeju Island."
+landmarks:
+  - name: Gyeongju Historic Areas
+    description: "The former capital of the Silla kingdom, with temples, tombs and historic buildings (UNESCO 2000)."
+    unescoWorldHeritage: true
+  - name: Jeju Volcanic Island and Lava Tubes
+    description: "Hallasan volcano, Seongsan Ilchulbong and the Geomunoreum lava tubes (UNESCO 2007)."
+    unescoWorldHeritage: true
+  - name: Changdeokgung Palace Complex
+    description: "A Joseon-dynasty royal palace and its 'Secret Garden' in Seoul (UNESCO 1997)."
+    unescoWorldHeritage: true
+  - name: Seokguram Grotto and Bulguksa Temple
+    description: "A granite Buddha in a man-made cave above the Bulguksa temple in Gyeongju (UNESCO 1995)."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "A dynamic, world-leading economy built on technology, pop culture (K-pop, K-drama) and rapid urbanisation"
+  - "A deep Confucian-influenced heritage of respect, hierarchy and community"
+  - "Famous global exports: K-pop, Korean cinema, K-beauty, kimchi and hanbok-wearing tradition"
+prideOf:
+  - "A remarkable economic rise from post-war poverty to a high-tech global leader (the 'Miracle on the Han')"
+  - "Being a cultural superpower in music, film and cuisine"
+  - "Strong national resilience, Koreans rooted in a fast, connected, 24-hour society"
+animals:
+  popular:
+    - "Korean magpie (national bird)"
+    - "Korean tiger (symbolic; Siberian tiger in folklore)"
+    - "Sea birds along the coasts"
+  unique:
+    - "Jindo dog (a South Korean native spitz-type breed)"
+    - "Jeju horse (small native pony of Jeju Island)"
+industries:
+  - "Semiconductors and electronics (Samsung, SK Hynix, LG)"
+  - "Automotive and shipbuilding (Hyundai, Kia, HD Hyundai)"
+  - "Entertainment (K-pop, K-drama, gaming and esports)"
+  - "Beauty and cosmetics (K-beauty)"
+  - "Finance and technology services"
+sports:
+  - "Baseball"
+  - "Football (soccer)"
+  - "Taekwondo (the national martial art, Olympic sport)"
+  - "Esports and gaming"
+  - "Figure skating and winter sports"
+entertainment:
+  - season: allYear
+    items:
+      - "K-pop concerts, noraebang (karaoke) and PC-bang gaming"
+      - "Jimjilbang (sauna/spa) culture"
+      - "Midnight street food and 24-hour convenience stores"
+  - season: spring
+    items:
+      - "Cherry-blossom viewing (Seoul, Jinhae, Gyeongju)"
+  - season: autumn
+    items:
+      - "Autumn foliage in national parks and palace grounds"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kimchi (with every meal) and bibimbap"
+      - "Bulgogi and galbi (barbecue)"
+      - "Kimchi jjigae (stew) and tteokbokki"
+      - "Korean fried chicken and samgyeopsal (pork belly)"
+  - season: summer
+    items:
+      - "Naengmyeon (cold buckwheat noodles)"
+  - season: winter
+    items:
+      - "Suljongtang and hot soups in winter"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Hanbok for festivals, weddings and the Lunar New Year/Chuseok"
+      - "Smart professional attire dominating corporate life"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday, with long working hours and a strong after-hours social culture (hoesik)."
+  lunchBreakTiming: "12:00-13:00; kimchi jjigae and set meals are a staple."
+  notableShutdownPeriods:
+    - period: "Seollal (Lunar New Year, Jan/Feb)"
+      description: "National holiday; many businesses close as families gather."
+    - period: "Chuseok (harvest festival, Sep/Oct)"
+      description: "Major national holiday; most businesses close for several days of family visits."
+sources:
+  - id: unesco-whc-kor
+    name: "Republic of Korea — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/kr"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies South Korea's UNESCO World Heritage properties and inscription years."

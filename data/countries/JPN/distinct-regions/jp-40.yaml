@@ -1,0 +1,82 @@
+code: JP-40
+name:
+  eng: Fukuoka (prefecture)
+  local:
+    - languageCode: jpn
+      value: 福岡県 (ふくおかけん)
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate with hot humid summers and mild winters, on Kyushu's northern coast."
+landmarks:
+  - name: Dazaifu Tenmangu
+    description: "A major Shinto shrine dedicated to scholar-god Sugawara no Michizane, set in a plum-tree grove."
+  - name: Fukuoka Castle Ruins (Maizuru Park)
+    description: "Remains of a 17th-century castle overlooking the city and Hakata Bay."
+  - name: Hakata Old Town (Gion-dori)
+    description: "Historic merchant streets and the Kushida Shrine, home of the Hakata Gion Yamakasa festival."
+culturalTraits:
+  - "Kyushu's largest city and Japan's gateway to the Asian continent"
+  - "A lively, easy-going urban culture famous for yatai (street-food) stalls and tonkotsu ramen"
+  - "A strong local identity and fast-growing youthful, food-obsessed vibe"
+prideOf:
+  - "Hakata tonkotsu ramen and an unmatched yatai street-food scene"
+  - "Being Japan's closest major port to Korea and China"
+  - "The Hakata Gion Yamakasa festival and lively festivals"
+animals:
+  popular:
+    - "Urban birds in the parks"
+    - "Marine life off the Genkai Sea coast"
+  unique: []
+industries:
+  - "Port and logistics (a key hub for East Asian trade)"
+  - "Technology, startups and software (a rising tech city)"
+  - "Retail and food services"
+  - "Tourism"
+sports:
+  - "Baseball"
+  - "Football"
+  - "Sumo (historically strong Kyushu wrestling scene)"
+entertainment:
+  - season: allYear
+    items:
+      - "Nakasu and Tenjin nightlife and yatai street stalls"
+      - "Canal City Hakata shopping and it's-close, convenient city life"
+  - season: spring
+    items:
+      - "Plum blossoms at Dazaifu Tenmangu"
+  - season: summer
+    items:
+      - "Hakata Gion Yamakasa festival (early July)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Hakata tonkotsu (pork-broth) ramen"
+      - "Motsunabe (offal hotpot)"
+      - "Mentai-ko (spicy cod roe)"
+      - "Yatai street food along the Nakasu riverside"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Casual urban wear; yukata during summer festivals"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday; Fukuoka has a famously start-up friendly, energetic business culture."
+  lunchBreakTiming: "12:00-13:00; ramen and set lunches are popular."
+sources:
+  - id: fukuoka-guide-40
+    name: "Fukuoka City Official Travel Guide"
+    publisher: "Fukuoka Convention & Visitors Bureau"
+    url: "https://www.crossroad-fukuoka.jp/en/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, festivals and culture for Fukuoka."
