@@ -1,0 +1,127 @@
+code: WHOLE
+name:
+  eng: Egypt
+  local:
+    - languageCode: arb
+      value: مصر
+# Generic, country-wide fallback content — used by resolve_region() when a
+# visitor's specific EG-* subdivision isn't one of the curated regions
+# (EG-C Greater Cairo, EG-ALX Alexandria & Delta, EG-LX Upper Egypt, EG-BA
+# Red Sea & Sinai). Content here is deliberately national/symbolic.
+climates:
+  - koppenCode: BWh
+    description: Hot desert — the dominant climate across most of Egypt, with extremely hot, dry summers and mild winters and almost no rainfall inland.
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean climate along the narrow Mediterranean coast (Alexandria and the North Coast).
+landmarks:
+  - name: Great Pyramids of Giza
+    description: The last-surviving Wonder of the Ancient World, on the Giza plateau near Cairo.
+    unescoWorldHeritage: true
+  - name: Karnak and Luxor Temples
+    description: The colossal temple complexes at Luxor, capital of the New Kingdom.
+    unescoWorldHeritage: true
+  - name: Valley of the Kings
+    description: The rock-cut necropolis of the New Kingdom pharaohs near Luxor.
+    unescoWorldHeritage: true
+  - name: Abu Simbel
+    description: Monumental rock temples of Ramesses II deep in Nubia, worth a dedicated journey.
+    unescoWorldHeritage: true
+  - name: Egyptian Museum, Cairo
+    description: Home to the Tutankhamun treasure and the world's great collection of Pharaonic antiquities.
+culturalTraits:
+  - "5,000-year Pharaonic heritage — the Nile Valley is one of the world's great cradles of civilization"
+  - "Arabic-speaking, predominantly Muslim country with a significant, influential Coptic Christian minority"
+  - "The hub of Arab cinema, music and media ('Umm al-Dunya' — mother of the world)"
+  - "The Nile as the lifeline that concentrates nearly all population along a narrow green ribbon"
+prideOf:
+  - "The Pyramids and the ancient Egyptian civilization"
+  - "Egyptian hospitality, humor and resilience"
+  - "Being the political and cultural center of the Arab world"
+  - "The Nile and the country's long unbroken history"
+animals:
+  popular:
+    - "Camels (dromedaries) — the desert workhorse and enduring symbol"
+    - "Water buffalo (gamiussa) — central to Delta/Wadi agriculture"
+    - "Cats — beloved across Egypt since Pharaonic times"
+  unique:
+    - "Nile crocodiles (Aswan/Lake Nasser)"
+    - "Egyptian vulture and the sacred ibis (now rare, once sacred to the ancients)"
+    - "Red Sea coral reefs and reef fish — among the world's most biodiverse"
+industries:
+  - "Tourism — the Pyramids, Luxor, Aswan, and Red Sea resorts draw millions"
+  - "The Suez Canal and its Economic Zone — a major transit and trade artery"
+  - "Agriculture along the Nile (cotton, cereals, citrus, vegetables)"
+  - "Oil, gas and mining"
+  - "Remittances from Egyptians working abroad"
+  - "Textiles and manufacturing"
+sports:
+  - "Football — the national passion; Al Ahly and Zamalek are continental giants"
+  - "Squash — Egypt dominates the world rankings"
+  - "Weightlifting and handball"
+  - "Scuba diving (Red Sea)"
+religions:
+  # CIA World Factbook estimate (no official figures published): Egypt's 2014
+  # census deliberately published no religion data; ~90% Sunni Muslim / ~10%
+  # Christian (mostly Coptic Orthodox) is the standard, consistently cited estimate.
+  - name: Muslim (predominantly Sunni)
+    percent: 90.0
+    sourceId: cwf-religion-estimate
+  - name: Christian (majority Coptic Orthodox, incl. Armenian Apostolic, Catholic, Maronite, Protestant, Anglican)
+    percent: 10.0
+    sourceId: cwf-religion-estimate
+entertainment:
+  - season: allYear
+    items:
+      - "Football and the Egyptian Premier League"
+      - "Egyptian cinema and satellite TV — a continental broadcasting hub"
+      - "Café (ahwa) culture and social gatherings"
+      - "Nile activities and cruising"
+  - season: winter
+    items:
+      - "Nile cruises and temple visits — the peak heritage-tourism season (Oct-Apr)"
+      - "The Cairo International Film Festival"
+      - "Coptic Christmas (7 January) and open-air events in the mild season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Koshari — lentils, rice, pasta, chickpeas and fried onions with garlic-tomato sauce, the national street-food dish"
+      - "Ful medames and taamiya (falafel) — breakfast classics"
+      - "Molokhiya — stewed jute-leaf soup with rice and meat"
+      - "Mahshi — stuffed vegetables (vine leaves, peppers, zucchini)"
+      - "Fattah — festive rice/bread and meat with garlic-vinegar"
+      - "Kunafa and basbousa desserts, with strong sweetened coffee"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The gallabiya — the loose traditional robe worn by many men"
+      - "The hijab, worn by a large share of women; occasional niqab"
+      - "Modern Western dress as the urban norm"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Public and private offices ~9:00-17:00 Sunday-Thursday (Friday-Saturday weekend, introduced in 2013)."
+  lunchBreakTiming: "Midday break around 14:00 in the private sector; the main meal is often taken in early-to-mid afternoon."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Several days each (lunar calendar) when offices and most shops close or shorten hours."
+    - period: "Coptic Christmas and Easter"
+      description: "Coptic Christmas (7 January) and Easter are public holidays widely observed by Christians and across the country."
+  notes: "Friday is the main religious/social rest day. During Ramadan the workday shortens and business shifts toward the evening."
+sources:
+  - id: cwf-religion-estimate
+    name: "CIA World Factbook — Egypt (People and Society: Religions)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/egypt/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Religions estimate: Muslim (predominantly Sunni) ~90%, Christian (majority Coptic Orthodox) ~10%. Egypt's 2014 census published no religion data, so these are the standard estimate figures."

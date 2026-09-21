@@ -1,0 +1,133 @@
+code: LY-TR
+name:
+  eng: Tripolitania
+  local:
+    - languageCode: arb
+      value: طرابلس
+# Tripolitania — the western historic region centred on Tripoli, the capital and
+# largest city. It spans the north-western shabiyat listed in this country file's
+# adminUnitCodes (from Nalut in the far west through Tripoli and Misurata to Surt.
+# Historically one of the Ottoman vilayets and a province of the 1951 kingdom.
+# Home to the majority of Libya's population (~2/3 on the fertile Jefara coastal
+# plain) and the country's commercial, political and financial core.
+climates:
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean on the north-western coast (Tripoli, Zawiya, Misurata) — hot dry summers and mild, wetter winters.
+  - koppenCode: BSh
+    description: Hot semi-arid across the Jefara plain's southern fringe and inland areas toward the escarpments (Jabal Nafusah).
+  - koppenCode: BWh
+    description: Hot desert at the southern margin of the region and on the high Nafusah plateau's drier reaches.
+landmarks:
+  - name: Old City (Medina) of Tripoli
+    description: Historic walled medina with Ottoman-era mosques, hammams and souks, and landmarks like the Arch of Marcus Aurelius (2nd century AD).
+  - name: Leptis Magna
+    description: Outstanding Roman city near Khoms, birthplace of Septimius Severus; a UNESCO World Heritage Site (List in Danger since 2016).
+    unescoWorldHeritage: true
+  - name: Archaeological Site of Sabratha
+    description: Roman port city west of Tripoli with a famed theatre overlooking the Mediterranean; UNESCO World Heritage Site (List in Danger since 2016).
+    unescoWorldHeritage: true
+  - name: Jabal Nafusah (Nafusa Mountains) and Gharyan
+    description: A limestone escarpment south-west of Tripoli with dry-stone granary villages (e.g. Kabaw), and a heartland of the Amazigh (Berber) community.
+  - name: Zliten and Misurata mosques and seafront
+    description: Coastal cities east of Tripoli known for historic mosques (e.g. the 14th-century Zliten madrasah) and long beachfronts.
+culturalTraits:
+  - "Cosmopolitan, mercantile character centred on Tripoli — long a Mediterranean trade hub under Phoenicians, Romans, Ottomans and Italians"
+  - "Amazigh (Berber) presence in the Nafusa Mountains and Zuwara, with their own language, agrarian customs and identity"
+  - "Strong sense of being the country's economic and administrative centre"
+  - "Coffeehouse and souk culture, with a lively urban social scene"
+prideOf:
+  - "Leptis Magna — among the finest Roman archaeological sites in the world"
+  - "Tripoli's long Mediterranean trading and cultural history"
+  - "Golden-mile olive groves and the fertile Jefara agriculture"
+  - "The 2011 revolution, which began for many Tripolitanians in the streets and squares of their cities"
+animals:
+  popular:
+    - "Feral cats in the medinas and harbours"
+    - "Olive-grove and farmland birds"
+    - "Horses and camels on rural estates"
+  unique:
+    - "Coastal Mediterranean wildlife — loggerhead sea turtles along the beaches"
+    - "Barbary partridge in the Nafusah highlands"
+industries:
+  - "Oil and gas — much of Libya's hydrocarbons sector has historically been administered from Tripoli and refineries/Zaueiya"
+  - "Manufacturing and light industry in Tripoli and Misurata (steel works at Misrata)"
+  - "Construction and real estate — heavy post-2011 redevelopment in Tripoli"
+  - "Financial services — Tripoli is the banking and corporate hub"
+  - "Agriculture: olives, citrus, dates and vegetables on the Jefara plain"
+sports:
+  - "Football (Al-Ahli Tripoli, Al-Ittihad Tripoli — the country's two biggest clubs)"
+  - "Basketball and volleyball"
+  - "Swimming and water sports on the Tripolitanian coast"
+  - "Camel/horse racing in the Nafusah border areas"
+# religions intentionally omitted at this region level: the CIA statistic used for
+# Libya is country-wide only and does not break down by shabiyat/region; the
+# national figures (WHOLE file) apply equally here, and no regional-level religion
+# census is published. Islam (overwhelmingly Sunni, with an Ibadi-Berber minority
+# in the Nafusa area) dominates Tripolitania as it does the whole country.
+entertainment:
+  - season: allYear
+    items:
+      - "Souk and coffeehouse social life in Tripoli's old and new quarters"
+      - "Shopping and dining out — the most urban entertainment scene in Libya"
+  - season: summer
+    items:
+      - "Beaches and beachfront cafés along the Tripoli-Zawiya-Misurata coast"
+      - "Ramadan evening gatherings (iftar, dates, tea) in the warm months when it falls in summer"
+  - season: winter
+    items:
+      - "Milder weather makes the old medina, hammams and cultural buildings pleasant to visit"
+      - "Family gatherings and indoor hospitality in the cooler months"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Couscous and bazeen with lamb — Tripolitanian staples"
+      - "Grilled seafood and fish along the coast (the 'sultan' fish)"
+      - "Olive oil, olives and citrus from the Jefara and Zawiya orchards"
+  - season: summer
+    items:
+      - "Light seafood platters and salads; cold yoghurt drinks"
+      - "Watermelon and fresh coastal fruit"
+  - season: winter
+    items:
+      - "Hearty couscous dishes, stews and warm soups"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Gandoura and barracan robes; modest dress for women in urban Tripoli"
+  - season: summer
+    items:
+      - "Light cotton fabrics against the coastal heat"
+  - season: winter
+    items:
+      - "Woolen wraps/burnous for cooler days and nights"
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Trade and offices broadly Sun-Thu, roughly 08:00-16:00, with Tripoli the national business centre."
+  lunchBreakTiming: "Long afternoon breaks (2+ hours) common, with shops often re-opening in the evening when it is cooler."
+  notes: "Tripoli is the commercial and financial hub with the country's busiest port; Friday-Saturday weekend with a long customary mid-day break. Business often pauses around prayer times and Islamic holidays. Supply-chain and some banking friction has persisted through the post-2011 instability."
+sources:
+  - id: unesco-libya
+    name: "Libya's five World Heritage sites put on List of World Heritage in Danger"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/news/1523"
+    year: 2016
+    accessedDate: "2026-09-19"
+    note: "Leptis Magna and Sabratha (both in Tripolitania) on the List in Danger, supporting the unescoWorldHeritage flags and descriptions."
+  - id: regions-overview
+    name: "Libya — Provinces and historic regions (Tripolitania/Cyrenaica/Fezzan)"
+    publisher: "Encyclopaedia Britannica and Wikipedia 'Provinces of Libya'"
+    url: "https://www.britannica.com/place/Libya"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Historical-geographic description of Tripolitania as the north-west province centred on Tripoli, and the region's character, cities and cultural traits used in this file."

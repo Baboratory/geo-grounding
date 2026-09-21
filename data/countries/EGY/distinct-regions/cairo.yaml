@@ -1,0 +1,100 @@
+code: EG-C
+name:
+  eng: Greater Cairo
+  local:
+    - languageCode: arb
+      value: القاهرة الكبرى
+# Greater Cairo spans the Cairo (EG-C) and Giza (EG-GZ) governorates along with
+# adjacent urban districts — one continuous metropolitan region containing well
+# over 20 million people, and the political, economic and cultural heart of Egypt.
+climates:
+  - koppenCode: BWh
+    description: Hot desert (BWh) — very hot, dry summers and mild winters, with negligible rainfall; the Nile moderates riverfront districts compared with the surrounding desert.
+landmarks:
+  - name: Great Pyramids of Giza
+    description: The last surviving Wonder of the Ancient World, on the Giza plateau (Giza governorate).
+    unescoWorldHeritage: true
+  - name: Egyptian Museum, Tahrir
+    description: Asia-housed trove of ancient Egyptian antiquities, including the Tutankhamun collection.
+  - name: Khan el-Khalili
+    description: Historic bazaar hub of Islamic Cairo.
+  - name: Saladin Citadel & Mosque of Muhammad Ali
+    description: Medieval fortress and landmark mosque overlooking the city.
+  - name: Historic Cairo (Islamic Cairo)
+    description: Dense historic districts of mosques, madrasas and gates (UNESCO World Heritage, includes the Citadel and Khan el-Khalili).
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Cairo is the pulsing center of Egyptian/Arab film, music (Egyptian Arabic pop, shaabi) and satellite TV — the 'Mother of the World' (Umm al-Dunya)"
+  - "Café (ahwa) culture — gathering for tea/coffee, backgammon (tawla) and conversation"
+  - "Historic and contemporary Islamic identity layered over Pharaonic heritage"
+  - "A vast, dense, round-the-clock megacity of contradictions — historic cores beside new desert cities (New Cairo, Sheikh Zayed)"
+prideOf:
+  - "The Pyramids and 5,000 years of Pharaonic civilization"
+  - "Being the cultural capital of the Arab world — cinema, music and media"
+  - "Egyptian hospitality and warmth (karam)"
+  - "The resilience and humor of Cairenes ('Egyptian time', black-humored jokes)"
+animals:
+  popular:
+    - "Cats — ubiquitous across Cairo's streets and historic quarters"
+    - "Donkeys and horses (still used in older districts and around Giza)"
+    - "Nile fish and the Nile Monitor lizard along the riverbanks"
+  unique:
+    - "Egyptian fruit bat — native, roosts around the city and Nile"
+    - "Nubian ibex, present in the nearby Giza/desert fringe"
+industries:
+  - "Public administration, government and services"
+  - "Media, film and entertainment (Cairo is the Arab world's media hub)"
+  - "Tourism (Pyramids at Giza draw millions)"
+  - "Finance, banking and trade"
+  - "Construction and real estate, incl. the new administrative capital project east of Cairo"
+sports:
+  - "Football — Al Ahly and Zamalek, Egypt's two biggest clubs, both based in Cairo (the 'Cairo derby')"
+  - "Squash (Egyptians dominate the world rankings)"
+  - "Basketball and handball"
+  - "Weightlifting and boxing — strong tradition"
+# religions intentionally omitted at the Cairo level: the same national estimate
+# series (~90% Sunni Muslim / ~10% Christian) applies here, and is recorded at the
+# WHOLE (national) level instead rather than duplicated per region.
+entertainment:
+  - season: allYear
+    items:
+      - "Football matches at the Cairo derby (Al Ahly vs Zamalek)"
+      - "Nile dinner cruises with live music and entertainment"
+      - "Shopping at malls (City Stars, Cairo Festival City) and historic souks"
+      - "Film premieres and the annual Cairo International Film Festival (winter)"
+  - season: winter
+    items:
+      - "Outdoor culture/festival season — the mild weather favors open-air events (e.g. the Downtown Contemporary Arts Festival D-CAF)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Koshari — lentils, rice, pasta, chickpeas and fried onions with garlic-vinegar-tomato sauce, a Cairo street-food staple"
+      - "Ful medames — stewed fava beans, a national breakfast"
+      - "Tamiya (falafel) and taamiya sandwiches"
+      - "Hawawshi — spiced minced meat stuffed and baked in bread, a Cairene specialty"
+      - "Kunafa and basbousa desserts, with strong Turkish coffee"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern Western-style clothing is the urban everyday norm in Cairo"
+      - "Traditional gallabiya (loose robe) worn at home / by some men, esp. in older quarters"
+      - "Hijab worn by many women; occasional niqab"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Public and private offices commonly run ~9:00-17:00 (or 09:00-16:00 in the public sector), Sunday through Thursday."
+  lunchBreakTiming: "A midday break, commonly around 14:00 in the private sector (lunch often taken later, toward early evening in urban habits)."
+  notableShutdownPeriods:
+    - period: "Public holidays and religious feasts"
+      description: "Eid al-Fitr and Eid al-Adha (a few days each, lunar calendar), the Coptic Christmas (7 Jan) and Coptic Easter, plus the 6 October and 23 July national holidays — offices and many shops close or shorten hours."
+  notes: "Friday is the main religious/social rest day and much of the city slows; retail in central and tourist hubs often stays partially open. During Ramadan, working hours in the public sector are shortened and many businesses open later in the evening."

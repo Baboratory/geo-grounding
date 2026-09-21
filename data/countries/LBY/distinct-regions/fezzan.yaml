@@ -1,0 +1,133 @@
+code: LY-FZ
+name:
+  eng: Fezzan
+  local:
+    - languageCode: arb
+      value: فزان
+# Fezzan — the sparsely populated south-western historic region, the Saharan
+# interior centred on Sabha, Murzuq and Wadi ash-Shati. Historically an
+# independent Ottoman/British-administered territory (a province of the 1951
+# kingdom) and a major crossroads of trans-Saharan trade. Home to oasis
+# settlements, the Tuareg (Tamasheq-speaking) in the west and the Tubu in the
+# south, alongside Arab and Amazigh communities. Much of Libya's desert land area
+# lies here, but it holds only a small share (~5%) of the population.
+climates:
+  - koppenCode: BWh
+    description: Hot desert across nearly all of Fezzan — the intensely hot, arid Sahara with extreme summer heat, cool nights and minimal rainfall.
+  - koppenCode: BSh
+    description: Hot semi-arid fringes around oases and the northern margin (notably the southern Jufra/ash-Shati zone).
+landmarks:
+  - name: Rock-Art Sites of Tadrart Acacus
+    description: Famous prehistoric paintings and engravings in dramatic sandstone massifs in the far south-west; a UNESCO World Heritage Site (List in Danger since 2016).
+    unescoWorldHeritage: true
+  - name: Awbari (Ubari) Lakes
+    description: Striking hypersaline desert lakes among the dunes of the Idehan Ubari sand sea, near Awbari.
+  - name: Sabha
+    description: The largest city and administrative hub of the south, historically an Ottoman garrison and Saharan trading centre.
+  - name: Ghat and its fortified old town
+    description: Historic oasis town and fort near Libya's western border, a traditional Tuareg settlement on the trans-Saharan route.
+  - name: Murzuq and the old trade routes
+    description: Historic Saharan oasis capital on the caravan route to Lake Chad, ringed by dunes and old mud-brick architecture.
+culturalTraits:
+  - "Desert oasis culture — dates, palm groves, wells and caravanserai tradition"
+  - "Tuareg (Tamasheq-speaking, Tifinagh heritage) presence in the west and Tubu in the south, alongside Arab and Amazigh groups — an ethnically rich borderland"
+  - "Trans-Saharan trade and caravaneer heritage, linking Libya to Chad, Niger and Sudan"
+  - "Small, tight-knit, clan-based communities scattered across vast oases"
+prideOf:
+  - "The spectacular Tadrart Acacus rock art — a world-class prehistoric gallery"
+  - "The dramatic dune seas (Idehan Ubari) and oasis lakes"
+  - "Ancient trans-Saharan trade heritage and the austere beauty of the deep desert"
+  - "Traditional Tuareg and Tubu cultural identity and hospitality"
+animals:
+  popular:
+    - "Dromedary camels — central to oasis and trans-Saharan life"
+    - "Fennec foxes"
+    - "Dorcas gazelle"
+  unique:
+    - "Critically endangered addax antelope and Saharan dama/rhim gazelles in the remote uninhabited reaches"
+    - "Desert-adapted reptiles (Uromastyx spiny-tailed lizards) and scorpions"
+industries:
+  - "Dates and oasis agriculture (palm groves along wadis and around oases)"
+  - "Oil and gas activity in the southern basins (e.g. the Murzuq Basin)"
+  - "Tourism and archaeological/heritage potential (Tadrart Acacus), heavily constrained by insecurity"
+  - "Small-scale trade, caravan/traditional crafts and livestock herding"
+sports:
+  - "Camel racing — a highlight at oasis festivals"
+  - "Football at the oasis-town level (Sabha, Murzuq)"
+  - "Horse/traditional Tuareg contests"
+  - "Athletics and desert endurance events (folk and traditional)"
+# religions intentionally omitted at region level: the CIA national religion
+# statistic is the only sourced figure and is not broken down by region; Islam
+# (Sunni majority, with a notable Ibadi-Berber presence in the desert borderlands)
+# applies here as nationwide. No regional religion census is published.
+entertainment:
+  - season: allYear
+    items:
+      - "Oasis social life — tea in palm groves, local gatherings and stays in traditional 'gurdahi' palm-branch huts (in the south)"
+      - "Weekly open-air markets in Sabha and Murzuq"
+  - season: summer
+    items:
+      - "Summer is extremely hot; activity shifts to cooler evenings and air-conditioned spaces"
+      - "Ramadan observances when it falls in the hot months"
+  - season: winter
+    items:
+      - "The mild, pleasant season for desert travel, touring oases and visiting Tadrart Acacus"
+      - "Festivals and camel races held in cooler months"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Couscous and bazeen, with an emphasis on dates, millet/wheat and dried meat (in desert tradition)"
+      - "Fresh dates (many oasis varieties) and date-based sweets"
+      - "Berbere/lamb stews and 'rezz' (rice) dishes with Saharan spices"
+  - season: summer
+    items:
+      - "Light dishes, fresh dates and cool drinks to cope with the heat"
+  - season: winter
+    items:
+      - "Hearty stews and couscous in the cool season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Tuareg men's indigo tagelmust (face veil/headwrap) — iconic in the west"
+      - "Loose desert robes (gandoura) and wraps, often form-fitting against sand"
+  - season: summer
+    items:
+      - "Light, loose cotton and natural fabrics; the tagelmust protects from sun and sand"
+  - season: winter
+    items:
+      - "Woolen cloaks for cold desert nights"
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+# Fezzan is hyper-arid year-round, so its 'seasons' are thermal rather than wet:
+# an extreme hot summer (~June-September), a moderate transition, a cool winter
+# (Dec-Feb) with frosty nights, and a warming spring. This is the calendar of
+# comfort and activity for the oasis population rather than of rain.
+businessRhythm:
+  restDays:
+    - friday
+    - saturday
+  typicalWorkHours: "Offices roughly Sun-Thu; in the deep desert summer, work and travel shift to early morning and evening to avoid the midday heat."
+  lunchBreakTiming: "A long afternoon break is pronounced here, with activity resuming in the cooler evening and night."
+  notes: "Friday-Saturday weekend; Ramadan and Eid dictate much of the annual rhythm. Oasis life is closely tied to agriculture (date harvest) and to the limited tourist/archaeological season. Sabha, Murzuq and the Tuareg borderlands have periodically been the country's least stable areas logistically."
+sources:
+  - id: unesco-libya
+    name: "Libya's five World Heritage sites put on List of World Heritage in Danger"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/news/1523"
+    year: 2016
+    accessedDate: "2026-09-19"
+    note: "Tadrart Acacus rock-art site (in Fezzan) on the World Heritage in Danger list; supports the landmark description and flag."
+  - id: regions-overview
+    name: "Libya — Provinces and historic regions (Fezzan)"
+    publisher: "Encyclopaedia Britannica and Wikipedia 'Provinces of Libya'"
+    url: "https://www.britannica.com/place/Libya"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Historical-geographic description of Fezzan as the south-western Saharan province centred on Sabha, with its oasis, Tuareg/Tubu and trade heritage used in this file."

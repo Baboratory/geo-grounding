@@ -1,0 +1,177 @@
+alpha3: EGY
+alpha2: EG
+name:
+  eng: Egypt
+  local:
+    - languageCode: arb
+      value: جمهورية مصر العربية
+flagEmoji: "🇪🇬"
+capital: Cairo
+isSovereign: true
+# Classified unitary-large: Egypt meets all three unitary-large criteria. It is a
+# large state (~106M people, 2024 est. — the most populous Arab country), Arabic
+# is a single country-wide official language with no federal structure (the 27
+# governorates are appointed administrative units of a centralized state, not
+# autonomous federal entities), and it has a widely recognized cultural-historical
+# regional identity (the dense Nile Valley/Delta vs. the sparsely populated
+# deserts, and the historic Upper/Lower Egypt distinction). Hence real curated
+# EG-* ISO 3166-2 regions plus the WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: EG
+hasSubdivisions: true
+languageUsage:
+  # Arabic is the sole official language (Constitution of 2014, Article 2) —
+  # de jure official, so speakersShare is 1.0 (a legal-status flag, not usage).
+  # Actual everyday usage is the Egyptian Arabic (arz) locallySpoken row below.
+  - languageCode: arb
+    domain: official
+    speakersShare: 1.0
+    sourceId: cwf-languages
+  - languageCode: arz
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: arz-usage
+  - languageCode: cop
+    domain: locallySpoken
+    speakersShare: 0.005
+    sourceId: cop-usage
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.35
+    sourceId: eng-fra-estimate
+  - languageCode: fra
+    domain: foreign
+    speakersShare: 0.15
+    sourceId: eng-fra-estimate
+ethnicGroups:
+  # CIA World Factbook figure; note Egypt does not publish a detailed official
+  # ethnicity breakdown beyond this coarse national share.
+  - group: Egyptian
+    percent: 99.7
+    sourceId: cwf-ethnic
+  - group: Other (Nubian, Bedouin, Berber, Armenian, Greek, and other European)
+    percent: 0.3
+    sourceId: cwf-ethnic
+timezones:
+  - name: Africa/Cairo
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Last Friday of April to last Thursday of October (reintroduced in 2023 under Law No. 34 of 2023)."
+currency:
+  code: EGP
+  symbol: "ج.م"
+  name: Egyptian pound
+legalConstraints:
+  - topic: "official language"
+    description: "Arabic is the sole official language of Egypt, per Article 2 of the 2014 Constitution. Modern Standard Arabic (arb) is the official/written form; Egyptian Arabic (arz) is the everyday spoken language of the population."
+    sourceId: constitution
+  - topic: "religion and religious freedom"
+    description: "Islam is the religion of the state and the basis of legislation (2014 Constitution); freedom of belief and worship for Muslims, Christians (mostly Coptic Orthodox), and Jews is guaranteed. In practice religious identity is sensitive, and national religion statistics are estimates (Egypt's 2014 census does not publish religion figures; the commonly cited ~90% Sunni Muslim / ~10% Christian is an estimate based on the 1996 census and other studies)."
+    sourceId: cwf-religion-estimate
+  - topic: "weekend"
+    description: "The official Egyptian weekend is Friday and Saturday (moved from Thursday-Friday in 2013). Friday is the Muslim holy day; it is the main non-working day."
+    sourceId: eg-weekend
+  - topic: "data protection"
+    description: "The Data Protection Law No. 151 of 2020 (in force July 2020) is Egypt's comprehensive personal-data-protection law, with a dedicated Data Protection Center; it is the primary legal framework for processing personal data of Egyptians."
+    sourceId: dtm-law
+# Egypt is a predominantly cash economy, though digital payments (InstaPay,
+# mobile wallets, cards) are growing rapidly. No single authoritative, citable
+# official payment-share breakdown (e.g. a central-bank retail-payments split)
+# was confirmed during research, so paymentMethodShares is deliberately omitted
+# rather than guessed; qualitative payment culture is captured below instead.
+paymentCulture:
+  popularMethods:
+    - "Cash — still the everyday default across most of the economy"
+    - "InstaPay — the state-backed instant interbank transfer app, increasingly popular"
+    - "Bank cards (Visa/Mastercard, incl. Meeza the domestic card scheme)"
+    - "Mobile wallets (Vodafone Cash, Orange Money, Etisalat Wallet), which support peer-to-peer and bill payments"
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Respect for age and seniority is strong; use titles and honorifics (e.g. 'Ustaz' for sir, 'Madam'/'Hanim') until invited to first-name or familial terms. Since the late-2023 adoption of a new private-sector wage law, business and social manners have kept a formal-but-warm register."
+  greetingNorms: "'As-salamu alaykum' (peace be upon you) is the standard greeting, answered 'Wa alaykum as-salam'. Handshakes are common; close friends and family may exchange kisses on the cheek. A slightly softer/initiated-by-women handshake is expected when meeting women."
+  meetingEtiquette: "Business meetings often start with tea/coffee and social pleasantries before getting to the point; decisions can take time and are often made by the most senior person. Punctuality is appreciated but a degree of flexibility ('Egyptian time') is common in social, less so in formal business settings."
+  topicsToAvoid:
+    - "Religion and sectarian politics — sensitive, given that religious identity and the role of Islam in law are charged topics"
+    - "Criticizing the president, the military, or the security services"
+    - "Domestic politics and human-rights/human-security issues more generally"
+  giftGivingNotes: "When visiting an Egyptian home, bring a small gift (sweets, pastries, or flowers) and always offer it with the right hand. Avoid gifts that imply alcohol or pork for observant Muslims."
+distinct-regions:
+  - code: EG-C
+    file: distinct-regions/cairo.yaml
+    adminUnitCodes: [EG-C, EG-GZ]
+  - code: EG-ALX
+    file: distinct-regions/alexandria-delta.yaml
+    adminUnitCodes: [EG-ALX, EG-DK, EG-GH, EG-SHR, EG-KFS, EG-BH, EG-MNF]
+  - code: EG-LX
+    file: distinct-regions/upper-egypt.yaml
+    adminUnitCodes: [EG-LX, EG-ASN, EG-KN, EG-AST, EG-MN, EG-SHG, EG-BNS, EG-FYM]
+  - code: EG-BA
+    file: distinct-regions/red-sea-sinai.yaml
+    adminUnitCodes: [EG-BA, EG-JS, EG-SIN, EG-SUZ]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cwf-languages
+    name: "CIA World Factbook — Egypt (People and Society: Languages)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/egypt/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Arabic (official); English and French widely understood by educated classes. Basis for the official-domain arb 1.0 row."
+  - id: arz-usage
+    name: "Egyptian Arabic as the everyday spoken language"
+    publisher: "Composite estimate (Ethnologue / World Factbook)"
+    url: "https://www.ethnologue.com/language/arz/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Egyptian Arabic (arz) is the mother tongue and everyday language of the overwhelming majority of Egyptians; ~0.95 locallySpoken share is an ESTIMATE (Egypt publishes no official mother-tongue statistics)."
+  - id: cop-usage
+    name: "Coptic language in Egypt"
+    publisher: "Composite estimate (verified ISO 639-3 code)"
+    url: "https://iso639-3.sil.org/code/cop"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Coptic (cop) survives as the liturgical language of the Coptic Orthodox Church, not a general spoken tongue; the ~0.005 locallySpoken share is an ESTIMATE of the small population using it liturgically/actively."
+  - id: eng-fra-estimate
+    name: "English and French as foreign languages in Egypt"
+    publisher: "Composite estimate (CIA World Factbook)"
+    url: "https://www.cia.gov/the-world-factbook/countries/egypt/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "English and French are widely understood by the educated classes (CIA). The shares are ESTIMATES — English is the dominant foreign/business language (~0.35), French is a smaller legacy of colonial-era education (~0.15)."
+  - id: cwf-ethnic
+    name: "CIA World Factbook — Egypt (People and Society: Ethnic groups, 2006 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/egypt/"
+    year: 2006
+    accessedDate: "2026-09-19"
+    note: "Egyptian 99.7%, other 0.3% (2006 est.). Egypt publishes no detailed official ethnicity breakdown."
+  - id: constitution
+    name: "Constitution of the Arab Republic of Egypt (2014), Article 2"
+    publisher: "Constitute Project (comparative constitutions), text of the Egyptian Constitution"
+    url: "https://www.constituteproject.org/constitution/Egypt_2014"
+    year: 2014
+    accessedDate: "2026-09-19"
+    note: "'Islam is the religion of the state and Arabic is its official language' — legal basis for Arabic as the (sole) official language."
+  - id: cwf-religion-estimate
+    name: "CIA World Factbook — Egypt (People and Society: Religions)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/egypt/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Muslim (predominantly Sunni) ~90%, Christian (majority Coptic Orthodox) ~10% — noted as an estimate since official religion statistics are not published."
+  - id: eg-weekend
+    name: "Egypt weekend change to Friday-Saturday"
+    publisher: "Egyptian government / press reporting (composite)"
+    url: "https://en.wikipedia.org/wiki/Working_time_in_Egypt"
+    year: 2013
+    accessedDate: "2026-09-19"
+    note: "From 2013 Egypt adopted the Friday-Saturday weekend (previously Thursday-Friday); Friday is the main religious rest day."
+  - id: dtm-law
+    name: "Data Protection Law No. 151 of 2020"
+    publisher: "Egyptian government / Data Protection Center"
+    url: "https://dataprotection.egypt.gov.eg/"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "Egypt's comprehensive personal-data-protection law, establishing the legal framework for processing personal data of Egyptians."
