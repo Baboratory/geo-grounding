@@ -1,0 +1,116 @@
+code: PK-SD
+name:
+  eng: Sindh
+  local:
+    - languageCode: urd
+      value: سندھ
+    - languageCode: snd
+      value: سنڌ
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate in the arid interior and lower Indus valley, with very hot summers and low, monsoon-influenced rain."
+  - koppenCode: BSh
+    description: "Hot semi-arid steppe climate near the coast and around Karachi, hot and humid near the Arabian Sea."
+landmarks:
+  - name: Mohenjo-daro
+    description: "The great bronze-age city of the Indus Valley Civilisation, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Karachi coastline (Clifton and Hawkesbay)
+    description: "Pakistan's largest city fronting the Arabian Sea, with a famed shoreline."
+  - name: Makli Necropolis (Thatta)
+    description: "A vast UNESCO World Heritage burial site of tombs and monuments near the Indus delta."
+    unescoWorldHeritage: true
+  - name: Sindhi Sufi shrines (Sehwan)
+    description: "The shrine of the great Sufi poet Shah Abdul Latif Bhittai, a centre of Sindhi culture."
+culturalTraits:
+  - "The cradle of the ancient Indus Valley Civilisation and of the rich Sindhi language, literature and Sufi tradition"
+  - "Karachi, Pakistan's largest city and commercial capital, a melting pot of migrations"
+  - "Famed for Sindhi embroidery, ajrak textiles and a deep Sufi musical heritage"
+prideOf:
+  - "The Indus Civilisation and the living Sindhi cultural tradition"
+  - "Karachi's economic dynamism and diversity"
+  - "Sufi poetry, music and the hospitality of the Indus"
+animals:
+  popular:
+    - "Indus river dolphin"
+    - "Flamingo (in the coastal wetlands)"
+  unique:
+    - "Indus river dolphin (endemic to the lower Indus)"
+industries:
+  - "Ports, shipping and trade (Karachi is Pakistan's chief port)"
+  - "Finance and corporate headquarters (Karachi)"
+  - "Textiles and manufacturing"
+  - "Agriculture (cotton, rice, sugarcane along the Indus)"
+  - "Media and entertainment (the film/TV industry)"
+sports:
+  - "Cricket (National Stadium, Karachi)"
+  - "Field hockey"
+  - "Football (popular in Karachi)"
+  - "Kite surfing (growing on the coast)"
+entertainment:
+  - season: allYear
+    items:
+      - "Karachi's food, beach life and nightlife; the shrines and bazaar culture"
+      - "Sindhi Sufi music, cultural festivals and ajrak craft markets"
+  - season: winter
+    items:
+      - "The mild pleasant winter is the best season for the lower Indus and the coast"
+  - season: summer
+    items:
+      - "Monsoon rain and the coastal humidity; evenings by the sea"
+  - season: spring
+    items:
+      - "The Shandur/Eid spring festivals and Sindhi cultural days"
+  - season: autumn
+    items:
+      - "Autumn harvest-season travel and cooler weather"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sindhi biryani, Sindhi curry and the famous Halewa kutti (sweet wheat dish)"
+      - "Karachi street food: bun kebabs, chaat and seafood"
+      - "The national favourites of dal, rice and fish from the Indus"
+  - season: summer
+    items:
+      - "Mangoes, sattu drinks and cooling coastal meals"
+  - season: winter
+    items:
+      - "Hearty warm dishes and festive food"
+  - season: spring
+    items:
+      - "Spring festival sweets and fresh produce"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The Sindhi shalwar kameez with vivid embroidery and the block-printed ajrak shawl"
+  - season: summer
+    items:
+      - "Light breathable cotton for the heat and humidity"
+  - season: winter
+    items:
+      - "Ajrak shawls and warm layers for the cooler months"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4]
+  - season: summer
+    months: [5, 6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Karachi's business sector runs 09:00-17:30 Monday-Friday with a shorter Friday; port and industrial work often runs shifts."
+  lunchBreakTiming: "A lunch break around 13:00-14:00 is common."
+  notableShutdownPeriods:
+    - period: "Eid holidays"
+      description: "Both Eids bring multi-day closures."
+sources:
+  - id: sindh-tourism
+    name: "Sindh — tourism and culture"
+    publisher: "Culture, Tourism and Antiquities Department, Government of Sindh"
+    url: "https://antiquities.sindhculture.gov.pk/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Sindh."

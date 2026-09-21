@@ -1,0 +1,100 @@
+code: MX-JAL
+name:
+  eng: Jalisco
+  local:
+    - languageCode: spa
+      value: Jalisco
+climates:
+  - koppenCode: Cwa
+    description: "Subtropical highland climate around Guadalajara, mild with a pronounced dry season and a rainy summer."
+  - koppenCode: Aw
+    description: "Tropical savanna climate on the Pacific coast (Puerto Vallarta), warm year-round with a strong wet season."
+landmarks:
+  - name: Guadalajara's historic centre
+    description: "The colonial cathedral and plazas of Mexico's second city, with the Degollado Theatre."
+  - name: Puerto Vallarta
+    description: "The beautiful Pacific-coast resort town of the Riviera Nayarit, famed for beaches and the Malecón boardwalk."
+  - name: Tequila and the agave landscape
+    description: "The town of Tequila and its blue-agave fields, a UNESCO World Heritage Site of the agave landscape."
+    unescoWorldHeritage: true
+  - name: Lake Chapala
+    description: "Mexico's largest freshwater lake, a retirement and leisure destination."
+culturalTraits:
+  - "The birthplace of mariachi music, tequila and charrería — an icon of Mexican identity"
+  - "Guadalajara, a city of arts, culture and a proud Tapatío identity"
+  - "Pacific-coast beach and festival culture"
+prideOf:
+  - "Being the cradle of mariachi, tequila and the charro tradition"
+  - "Guadalajara's cultural and entrepreneurial vitality"
+  - "The beauty of the coast and Lake Chapala"
+animals:
+  popular:
+    - "Blue agave of the tequila highlands"
+  unique:
+    - "Boa constrictor in the coastal jungles"
+industries:
+  - "Agriculture (agave/tequila, fruit, corn)"
+  - "Manufacturing and technology (Guadalajara is a tech and electronics hub)"
+  - "Tourism (Puerto Vallarta)"
+  - "Handicrafts and culture"
+sports:
+  - "Football (Chivas de Guadalajara)"
+  - "Baseball"
+  - "Charrería"
+entertainment:
+  - season: allYear
+    items:
+      - "Mariachi music along Guadalajara's mariachi square"
+      - "Day of the Dead and the Festival Cultural de Mayo in Guadalajara"
+  - season: dry
+    items:
+      - "Coastal beach time in Puerto Vallarta during the dry sunny season"
+  - season: wet
+    items:
+      - "The green rainy season and agave-country tours"
+  - season: dry
+    items:
+      - "Punta Mita and coast holidays; Guadalajara festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tequila and the cuisine of Jalisco: birria, torta ahogada and carne en su jugo"
+      - "Coastal seafood in Puerto Vallarta"
+  - season: wet
+    items:
+      - "Agricultural-season produce and ceviche on the coast"
+  - season: dry
+    items:
+      - "Festive pozole and punch"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The charro suit (Jalisco's rodeo/festival dress) and the china poblana skirt for celebrations"
+  - season: dry
+    items:
+      - "Light cotton clothing"
+  - season: wet
+    items:
+      - "Rainwear in the summer wet season"
+  - season: dry
+    items:
+      - "Layers and a light jacket for cooler highland nights"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday with the traditional long lunch."
+  lunchBreakTiming: "A lunch break around 14:00-15:00 is common."
+sources:
+  - id: jalisco-turismo
+    name: "Jalisco — tourism"
+    publisher: "Secretaría de Turismo de Jalisco"
+    url: "https://www.jalisco.gob.mx/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Jalisco."

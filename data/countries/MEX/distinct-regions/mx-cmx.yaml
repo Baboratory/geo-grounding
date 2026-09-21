@@ -1,0 +1,103 @@
+code: MX-CMX
+name:
+  eng: Mexico City (Ciudad de México)
+  local:
+    - languageCode: spa
+      value: Ciudad de México
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland climate on the central plateau, mild year-round with a distinct dry season and a wetter summer."
+landmarks:
+  - name: Zócalo and the Metropolitan Cathedral
+    description: "The vast central square of Mexico City, flanked by the Cathedral and the National Palace."
+  - name: Templo Mayor
+    description: "The ruins of the Aztec Great Temple, excavated in the historic centre, a UNESCO World Heritage site complex."
+  - name: Palacio de Bellas Artes
+    description: "The ornate arts palace, home to murals by Diego Rivera and Mexico's great cultural stage."
+  - name: Chapultepec Castle
+    description: "The 19th-century hilltop castle now housing the National Museum of History."
+  - name: Xochimilco
+    description: "The ancient canal and floating-garden district, a UNESCO World Heritage Site of chinampa agriculture."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Mexico's capital and one of the largest cities on Earth, at the heart of national life"
+  - "A world cultural capital of museums, murals, food and the arts"
+  - "A layered city of Aztec, colonial and modern histories"
+prideOf:
+  - "Being the political, cultural and economic capital of Mexico"
+  - "World-class museums, gastronomy and artistic heritage"
+  - "Resilience and vibrancy despite its scale"
+animals:
+  popular:
+    - "Axolotl (in the Xochimilco canals)"
+  unique:
+    - "Axolotl, the emblematic Mexican salamander of Lake Xochimilco"
+industries:
+  - "Government and public administration"
+  - "Financial services and banking"
+  - "Media, culture and the arts"
+  - "Technology and professional services"
+  - "Tourism"
+sports:
+  - "Football (Estadio Azteca)"
+  - "Baseball"
+  - "Lucha libre"
+  - "Boxing"
+entertainment:
+  - season: allYear
+    items:
+      - "The muralists' museums (Bellas Artes), the National Museum of Anthropology and the Canal of the Cuemanco"
+      - "Live music, theatre, and the vibrant nightlife of Roma/Condesa"
+  - season: dry
+    items:
+      - "The pleasant dry season is ideal for outdoor sightseeing"
+  - season: wet
+    items:
+      - "Summer rains briefly cool the city; festivals continue indoors and out"
+  - season: dry
+    items:
+      - "Day of the Dead altars and the Christmas centre-of-town lights"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tacos al pastor and the city's famous taquerías"
+      - "Moles, enchiladas, tlacoyos and street corn (elote/esquites)"
+      - "Pozole and pan dulce with coffee"
+  - season: wet
+    items:
+      - "Warm soups and comforting dishes during the rainy season"
+  - season: dry
+    items:
+      - "Ponche (spiced warm fruit punch) at the Christmas Posadas"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern urban style; fashion-conscious and formal in business"
+  - season: dry
+    items:
+      - "Light layers for the mild highland climate"
+  - season: wet
+    items:
+      - "Rainwear for the summer afternoon downpours"
+  - season: dry
+    items:
+      - "A light jacket or coat — highland nights are cool"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday, with a long lunch; many in the city work later into the evening."
+  lunchBreakTiming: "A substantial lunch around 14:00-15:00 is traditional."
+sources:
+  - id: cdmx-turismo
+    name: "Ciudad de México — tourism"
+    publisher: "Secretaría de Turismo de la Ciudad de México"
+    url: "https://www.cdmxtravel.com/es/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Mexico City."

@@ -1,0 +1,108 @@
+code: PK-IS
+name:
+  eng: Islamabad Capital Territory
+  local:
+    - languageCode: urd
+      value: اسلام آباد
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical climate in the Potohar foothills, with hot summers, a monsoon season and cool dry winters."
+landmarks:
+  - name: Faisal Mosque
+    description: "The striking modern national mosque shaped like a desert tent, against the Margalla Hills."
+  - name: Pakistan Monument
+    description: "The petal-shaped national monument and museum celebrating Pakistani identity."
+  - name: Margalla Hills National Park
+    description: "The forested hills above the city, laced with hiking trails and viewpoints."
+  - name: Dam-e-Koh viewpoint
+    description: "The famous lakeside viewpoint over Rawalpindi-Islamabad, a favourite evening spot."
+culturalTraits:
+  - "Pakistan's purpose-built federal capital, a planned, leafy and modern city"
+  - "A political, diplomatic and administrative hub at the foothills of the Margallas"
+  - "Cleaner, calmer and more orderly than the historic cities, with a strong expatriate/diplomatic community"
+prideOf:
+  - "Being the national capital and seat of government"
+  - "A planned, green and safe urban environment"
+  - "The Faisal Mosque and the modern skyline against the hills"
+animals:
+  popular:
+    - "Rhesus macaque (in the Margalla Hills)"
+  unique:
+    - "The Margalla Hills leopard/predator fauna (panthers occasionally recorded)"
+industries:
+  - "Government and public administration"
+  - "Diplomacy and international organisations"
+  - "Local technology and services"
+  - "Education and research"
+sports:
+  - "Cricket"
+  - "Football"
+  - "Hiking and mountaineering (Margallas and nearby peaks)"
+  - "Field hockey"
+entertainment:
+  - season: allYear
+    items:
+      - "Evening walks in the Margalla Hills and by the lake"
+      - "The modern malls, cafés and the F-6/F-7 dining districts"
+  - season: spring
+    items:
+      - "The mild, blossoming spring is ideal for hill walks"
+  - season: summer
+    items:
+      - "Monsoon green hills and cooler evenings to the north"
+  - season: winter
+    items:
+      - "Crisp winter days, foggy mornings and the pleasant cool season"
+  - season: autumn
+    items:
+      - "Golden autumn in the hills"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Modern Pakistani and international dining in the capital's restaurants"
+      - "Classic favourites: karahi, kebabs and the national dishes"
+  - season: spring
+    items:
+      - "Seasonal greens and picnic food in the hills"
+  - season: winter
+    items:
+      - "Warm drinks and hearty winter dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Professional and modern urban dress; the shalwar kameez remains common"
+  - season: summer
+    items:
+      - "Light breathable clothing"
+  - season: winter
+    items:
+      - "Warm layers, jackets and shawls for the cool winter"
+  - season: spring
+    items:
+      - "Light seasonal wear"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4]
+  - season: summer
+    months: [5, 6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Government offices run 09:00-17:00 Monday-Friday, closing early on Friday for prayers (typically ~12:30 during the Friday congregation)."
+  lunchBreakTiming: "A lunch break around 13:00-14:00 is common."
+  notableShutdownPeriods:
+    - period: "Eid holidays"
+      description: "Both Eids bring multi-day closures for government and business."
+sources:
+  - id: islamabad-tourism
+    name: "Islamabad — tourism"
+    publisher: "Capital Development Authority (CDA), Islamabad"
+    url: "https://www.cda.gov.pk/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture and seasonal highlights for the Islamabad Capital Territory."

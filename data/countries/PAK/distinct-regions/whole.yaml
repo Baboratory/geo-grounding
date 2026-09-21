@@ -1,0 +1,138 @@
+code: WHOLE
+name:
+  eng: Pakistan
+  local:
+    - languageCode: urd
+      value: پاکستان (Pākistān)
+# Generic country-wide fallback content for Pakistan (federal with a curated
+# subset of provinces/territory). National-level coverage not specific to any
+# one province or the user's detected subdivision.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate across the arid interior and Balochistan, with very hot summers and low rainfall."
+  - koppenCode: BSh
+    description: "Hot semi-arid steppe climate across much of the Punjab plains and lower Indus valley, hot and dry with a seasonal monsoon."
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate in parts of the northern plains and foothills, hot summers and a wetter monsoon season."
+  - koppenCode: Cfb/Dfc
+    description: "Temperate-to-cold climates in the northern mountains (Karakoram, Hindukush), cooler with heavy winter snow at altitude."
+landmarks:
+  - name: Badshahi Mosque (Lahore)
+    description: "The 17th-century Mughal mosque in Lahore, one of the largest and most beautiful in the world."
+  - name: Minar-e-Pakistan (Lahore)
+    description: "The tall obelisk marking the site of the 1940 Pakistan Resolution, a national symbol."
+  - name: Faisal Mosque (Islamabad)
+    description: "The striking modern national mosque of Pakistan, set against the Margalla Hills."
+  - name: K2
+    description: "At 8,611m the world's second-highest peak, in the Karakoram of Gilgit-Baltistan."
+  - name: Mohenjo-daro
+    description: "The great ruined city of the Indus Valley Civilisation (c. 2500 BCE), a UNESCO World Heritage Site in Sindh."
+    unescoWorldHeritage: true
+  - name: Hunza Valley
+    description: "The storied mountain valley of the Karakoram, famed for its peaks, apricot orchards and people."
+culturalTraits:
+  - "A proud Islamic republic with a rich Persian, Mughal, Central Asian and South Asian heritage"
+  - "World-famous hospitality, poetry (Urdu ghazal), cuisine and handicrafts"
+  - "Deep regional and linguistic diversity alongside the unifying Urdu/Islamic identity"
+  - "Family, religion and community are central; cricket and chai bind the nation"
+prideOf:
+  - "A rich cultural and literary tradition and spectacular mountain landscapes"
+  - "The national passion for cricket and the cuisine of Lahore and Karachi"
+  - "Resilience, hospitality and faith"
+animals:
+  popular:
+    - "Markhor (the national animal)"
+    - "Snow leopard (in the northern high mountains)"
+  unique:
+    - "Markhor, a spiral-horned wild goat of the mountainous north"
+    - "Indus river dolphin (endemic, endangered freshwater dolphin)"
+industries:
+  - "Agriculture (wheat, rice, cotton — a major textile producer)"
+  - "Textiles and garments"
+  - "Manufacturing and construction"
+  - "Information technology and services (IT remittances and freelancing)"
+  - "Tourism (northern mountains)"
+sports:
+  - "Cricket (a national obsession)"
+  - "Field hockey (historically a strength)"
+  - "Squash (legendary Pakistani champions)"
+  - "Football (growing in popularity)"
+  - "Kite-flying and the winter polo of the north"
+entertainment:
+  - season: allYear
+    items:
+      - "Urdu cinema (Lollywood), music (qawwali, ghazal, folk) and cricket"
+      - "The bazaar and food-street culture of the cities"
+  - season: winter
+    items:
+      - "The pleasant winter months are ideal for travel to the plains and the north"
+  - season: summer
+    items:
+      - "The high northern valleys (Hunza, Skardu) are best in the warm months"
+  - season: spring
+    items:
+      - "The spring ('basant') kite-flying season and blossom in the north"
+  - season: autumn
+    items:
+      - "Cool autumn harvest season and travel weather"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Biryani, karahi, kebabs and dal chawal (lentils and rice)"
+      - "Naan, roti, the national chai and the sweet gulab jamun"
+      - "Street food: samosas, chaat and (in Lahore) the famous food streets"
+  - season: summer
+    items:
+      - "Cooling drinks and fruit (mangoes are a summer national treasure)"
+  - season: winter
+    items:
+      - "Hearty kebabs, haleem and warm-spiced dishes"
+  - season: spring
+    items:
+      - "Spring harvest greens and festive dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The shalwar kameez is the national dress for men and women; modest Islamic dress is the norm"
+      - "Kurta, waistcoat and traditional embroidery on formal occasions"
+  - season: summer
+    items:
+      - "Light, breathable cotton shalwar kameez in the heat"
+  - season: winter
+    items:
+      - "Warm shawls (pashmina) and layered clothing in the cooler months"
+  - season: spring
+    items:
+      - "Festive colours for Eid and spring celebrations"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4]
+  - season: summer
+    months: [5, 6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00/18:00 Monday-Friday, with many offices shortening Friday hours for congregational prayers; a short Friday-break rhythm is common."
+  lunchBreakTiming: "A lunch break around 13:00-14:00 is common; chai breaks are embedded in the working day."
+  notableShutdownPeriods:
+    - period: "Eid holidays (Eid al-Fitr and Eid al-Adha)"
+      description: "The two Eids bring nationwide closures for several days as families celebrate together."
+sources:
+  - id: ptdc-pakistan
+    name: "Pakistan Tourism Development Corporation"
+    publisher: "Pakistan Tourism Development Corporation (PTDC)"
+    url: "https://www.tourism.gov.pk/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, culture and seasonal highlights for the WHOLE region."
+  - id: unesco-whc-pk
+    name: "Pakistan — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/pk"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Pakistan's UNESCO World Heritage properties, including Mohenjo-daro, Lahore Fort and the Taxila ruins."

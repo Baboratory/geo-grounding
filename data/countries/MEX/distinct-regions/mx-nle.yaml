@@ -1,0 +1,99 @@
+code: MX-NLE
+name:
+  eng: Nuevo León
+  local:
+    - languageCode: spa
+      value: Nuevo León
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid steppe climate around Monterrey, hot and dry with mild winters and low rainfall."
+  - koppenCode: Cwa
+    description: "Subtropical highland climate in the Sierra Madre mountains of the state, cooler and wetter."
+landmarks:
+  - name: Cerro de la Silla
+    description: "The saddle-shaped mountain that is the symbol of Monterrey."
+  - name: Macroplaza and Barrio Antiguo
+    description: "Monterrey's great central plaza and the historic old-town district."
+  - name: Santa Lucía riverwalk
+    description: "A landscaped canal walkway connecting the Macroplaza to the Fundidora Park."
+  - name: Cumbres de Monterrey National Park
+    description: "The dramatic mountain scenery guarding the industrial city."
+culturalTraits:
+  - "Mexico's industrial and business powerhouse, centred on Monterrey"
+  - "A hard-working, entrepreneurial northern identity with a strong ranching heritage"
+  - "Famous for cabrito (roast kid) and its northern cuisine"
+prideOf:
+  - "An industrial and economic powerhouse of Mexico"
+  - "A proud, direct and industrious northern identity"
+  - "World-class infrastructure and its business leaders"
+animals:
+  popular:
+    - "White-tailed deer"
+    - "Collared peccary"
+  unique:
+    - "The Mexican black bear (Sierra Madre Oriental)"
+industries:
+  - "Steel, glass, cement and manufacturing"
+  - "Automotive and heavy industry"
+  - "Corporate headquarters and finance"
+  - "Brewing (Mexico's largest breweries are based here)"
+  - "Higher education and technology"
+sports:
+  - "Football (Rayados and Tigres, a fierce local derby)"
+  - "Baseball"
+  - "Basketball"
+  - "Boxing"
+entertainment:
+  - season: allYear
+    items:
+      - "Monterrey's dining, craft-beer and nightlife scene"
+      - "The barrancas / canyon trips and the mountain parks"
+  - season: dry
+    items:
+      - "The best season for outdoor activities in the dry, cooler months"
+  - season: wet
+    items:
+      - "Brief summer rains tame the heat"
+  - season: dry
+    items:
+      - "Football season in full swing and mild winter sightseeing"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Cabrito (roast kid), arrachera and the northern asado (barbecue)"
+      - "Machacado con huevo and flour tortillas"
+  - season: dry
+    items:
+      - "Light grilled meats in the sunny weather"
+  - season: dry
+    items:
+      - "Warm asado meats and festive northern dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern, pragmatic city style; cowboy (norteño) boots and hats in ranching culture"
+  - season: dry
+    items:
+      - "Light breathable clothing for the heat"
+  - season: dry
+    items:
+      - "Layers and a light jacket for cool desert nights"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday; Monterrey's corporate culture runs an efficient business day."
+  lunchBreakTiming: "A lunch break around 14:00-15:00 is traditional."
+sources:
+  - id: nle-turismo
+    name: "Nuevo León — tourism"
+    publisher: "Secretaría de Turismo de Nuevo León"
+    url: "https://www.nl.gob.mx/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Nuevo León."

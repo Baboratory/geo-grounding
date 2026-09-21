@@ -1,0 +1,112 @@
+code: PK-KP
+name:
+  eng: Khyber Pakhtunkhwa
+  local:
+    - languageCode: urd
+      value: خیبر پختونخوا
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate across much of the province's river valleys (Peshawar), hot summers and wetter monsoon season."
+  - koppenCode: Dfb
+    description: "Temperate-to-cold continental climate in the northern mountains (Swat, Chitral), cooler with snowy winters."
+landmarks:
+  - name: Bala Hissar Fort (Peshawar)
+    description: "The historic citadel overlooking the ancient frontier city of Peshawar."
+  - name: Swat Valley
+    description: "The 'Switzerland of Pakistan', a mountain valley of Buddhist ruins, orchards and snow peaks."
+  - name: Khyber Pass
+    description: "The famous mountain gateway connecting the subcontinent to Central Asia."
+  - name: Takht-i-Bahi
+    description: "A Kushan-era Buddhist monastery complex, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "A proud Pashtun province ('Khyber Pakhtunkhwa' — land of the Pashtuns), famed for hospitality and the code of Pakhtunwali"
+  - "The historic gateway of the Khyber Pass, a crossroads of trade and empires"
+  - "A rich Sufi tradition, poetry and beautiful mountain valleys (Swat, Chitral)"
+prideOf:
+  - "Pashtun culture, honour and hospitality"
+  - "The spectacular northern valleys and ancient Buddhist heritage"
+  - "Resilience and a strong warrior tradition"
+animals:
+  popular:
+    - "Snow leopard (in the northern peaks)"
+    - "Markhor"
+  unique:
+    - "Snow leopard of the Koh-i-Baba highlands"
+industries:
+  - "Agriculture (wheat, maize, orchards, honey)"
+  - "Marble and stone mining"
+  - "Tourism (Swat, Chitral and the valleys)"
+  - "Textiles and handicrafts"
+  - "Transit trade through the Khyber Pass"
+sports:
+  - "Cricket"
+  - "Wrestling"
+  - "Polo (the famous high-altitude game of Chitral and Shandur)"
+  - "Kick and traditional games"
+entertainment:
+  - season: allYear
+    items:
+      - "Sufi poetry recitation, Pashto music and the bazaars of Peshawar"
+      - "The hospitality and community life of the Pashtun valleys"
+  - season: summer
+    items:
+      - "The cool mountain valleys (Swat, Kalam, Chitral) are at their best"
+  - season: winter
+    items:
+      - "Snowy mountain scenery and winter polo at Shandur"
+  - season: spring
+    items:
+      - "The blossoming valleys and spring festivals"
+  - season: autumn
+    items:
+      - "Clear autumn days and harvest-season travel"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Chappali kabab (the signature Peshawar minced kebab), namak-mandi kebabs"
+      - "Karahi, naan and rice dishes; the bread 'landi' and mountain cuisine"
+  - season: summer
+    items:
+      - "Fresh mountain fruit (grapes, apricots)"
+  - season: winter
+    items:
+      - "Hearty kebabs and warm-spiced mountain food"
+  - season: spring
+    items:
+      - "Spring greens and festival dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The Pashtun shalwar kameez with distinctive wide trousers and waistcoat; the pakol hat (Chitral) and turban (Peshawar)"
+  - season: summer
+    items:
+      - "Light cotton wear"
+  - season: winter
+    items:
+      - "Warm valley wear — heavy shawls and layered mountain clothing"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4]
+  - season: summer
+    months: [5, 6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday with a shorter Friday for prayers; bazaars often extend into the evening."
+  lunchBreakTiming: "A lunch break around 13:00-14:00 is common."
+  notableShutdownPeriods:
+    - period: "Eid holidays"
+      description: "Both Eids bring multi-day closures."
+sources:
+  - id: kp-tourism
+    name: "Khyber Pakhtunkhwa — tourism"
+    publisher: "Culture & Tourism Authority, Government of Khyber Pakhtunkhwa"
+    url: "https://tourism.kp.gov.pk/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Khyber Pakhtunkhwa."
