@@ -1,0 +1,121 @@
+alpha3: DMA
+alpha2: DM
+name:
+  eng: Dominica
+  local:
+    - languageCode: eng
+      value: Dominica
+    - languageCode: acf
+      value: Dominik
+flagEmoji: "🇩🇲"
+capital: Roseau
+isSovereign: true
+# Classified unitary-small: a unitary republic with a population of ~71,293,
+# far below the unitary-large threshold. The six parishes and two wards are
+# functional administrative districts, not a culturally distinct regional
+# layer — consistent with how comparably-sized Caribbean sovereign states
+# (BRB, BHS) are classified. One synthetic WHOLE region. Note: Dominica is a
+# parliamentary republic; the President is Head of State and the Prime
+# Minister is Head of Government.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: dma-gov-profile
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 1.0
+    sourceId: dma-gov-profile
+  - languageCode: acf
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: dma-gov-profile
+# English is the sole official language (near-universally competent, so the
+# local-spoken share is effectively 1.0 — qualitative, not a hard census
+# proportion). Kweyol / Dominican Creole French (ISO 639-3 'acf', the same
+# Lesser Antillean French-based creole as Saint Lucian and Grenadian
+# Kweyol/Patois) is the widely spoken vernacular in everyday life. Its ~0.9
+# locally-spoken share is an ESTIMATE — the census does not collect language
+# data, so no precise figure exists.
+ethnicGroups:
+  # Government of Dominica (2011 census based).
+  - group: Black (African descent)
+    percent: 84.8
+    sourceId: dma-census-2011
+  - group: Mixed
+    percent: 8.7
+    sourceId: dma-census-2011
+  - group: Amerindian / Kalinago (Carib)
+    percent: 3.7
+    sourceId: dma-census-2011
+  - group: White / Caucasian
+    percent: 1.3
+    sourceId: dma-census-2011
+  - group: East Indian
+    percent: 0.3
+    sourceId: dma-census-2011
+  - group: Other / Not stated
+    percent: 1.2
+    sourceId: dma-census-2011
+timezones:
+  - name: America/Dominica
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+currency:
+  code: XCD
+  symbol: "$"
+  name: "Eastern Caribbean dollar (pegged US$1 = EC$2.70; pegged together with the other OECS members via the Eastern Caribbean Central Bank)"
+legalConstraints:
+  - topic: "data protection / personal data"
+    description: "The Data Protection Act, 2021 (No. 2 of 2021) regulates the collection, use, storage and disclosure of personal data: processing must be fair and lawful with a lawful basis (typically consent), data subjects have access/correction rights, and transfers of personal data outside Dominica are restricted in line with data-protection principles."
+    sourceId: dma-data-protection-act
+# Dominica is not an EU member, so no GDPR/EU consumer-directive constraints
+# apply; a VAT price-display rule was not confirmed to a primary source, so it
+# is deliberately omitted rather than guessed.
+paymentCulture:
+  popularMethods:
+    - "Cash — still widely used across the island, in EC dollars (XCD)"
+    - "Visa and Mastercard — accepted at hotels, restaurants, supermarkets and most mid/higher-end establishments"
+    - "Contactless and mobile wallets (Apple Pay, Google Pay) at most card terminals; Amex at hotels/larger establishments"
+    - "US dollars accepted for many tourist-facing transactions"
+  tipping:
+    expected: true
+    typicalAmount: "A ~10% service charge is commonly auto-added in sit-down restaurants; if none, tip ~10-15%"
+    autoIncludedInBill: true
+    note: "Most sit-down restaurants automatically add a ~10% service charge (check the bill); otherwise 10-15% is standard. An extra cash tip for exceptional service is appreciated; round up at casual spots; ~10% for taxis/guides. US dollars are commonly used for tips."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm and polite. Titles/surnames are used in business until a personal relationship develops, then first names quickly become normal. Dominicans value courtesy, friendliness and a relaxed, unhurried manner; directness is softened with politeness."
+  greetingNorms: "Warm and friendly — a firm handshake with eye contact in business; a nod, smile and 'good morning/afternoon' are expected etiquette when entering a shop, office or passing acquaintances. In Kweyol, 'Bonjou' ('good day') and 'Mesi' ('thank you') are everyday courtesies."
+  meetingEtiquette: "Punctuality is expected for formal business, though daily life runs on 'island time' so patience is valued. Communication is polite and often indirect; rapport and small talk precede the agenda; decisions are often relationship-driven."
+  topicsToAvoid:
+    - "The history of slavery and colonial-era legacies unless a Dominican raises them first"
+    - "Criticising local customs, or unfavourably comparing Dominica to another Caribbean island"
+  giftGivingNotes: "Not expected at a first business meeting. When invited to a Dominican home, a small gift — a bottle of local rum or wine, flowers, or a dessert — is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: dma-gov-profile
+    name: "About Dominica — Country Profile (Government of Dominica)"
+    publisher: "Government of Dominica (dominica.gov.dm)"
+    url: "https://dominica.gov.dm/about-dominica/country-profile"
+    accessedDate: "2026-09-18"
+    note: "States English is the official language and Kweyol is widely spoken as the vernacular in everyday life. Basis for languageUsage (official and locallySpoken); the acf ~0.9 share is an ESTIMATE."
+  - id: dma-census-2011
+    name: "2011 Population and Housing Census Report"
+    publisher: "Central Statistical Office of Dominica"
+    url: "http://www.dominica.gov.dm/cms/files/2011_census_report.pdf"
+    year: 2011
+    accessedDate: "2026-09-18"
+    note: "Census population of 71,293 and ethnic composition (Black 84.8%, Mixed 8.7%, Amerindian/Kalinago 3.7%, White/Caucasian 1.3%, East Indian 0.3%, other/not stated 1.2%). Supports the unitary-small classification."
+  - id: dma-data-protection-act
+    name: "Data Protection Act, 2021 (No. 2 of 2021)"
+    publisher: "Government of Dominica"
+    url: "https://www.gov.dm/ps/pdf-documents/acts/data-protection-act-no-2-of-2021"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "Regulates the collection, use, storage and disclosure of personal data; requires fair/lawful processing, grants data-subject rights, and restricts onward transfers. Basis of the data-protection legal constraint."

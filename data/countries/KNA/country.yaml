@@ -1,0 +1,135 @@
+alpha3: KNA
+alpha2: KN
+name:
+  eng: Saint Kitts and Nevis
+  local:
+    - languageCode: eng
+      value: Saint Kitts and Nevis
+flagEmoji: "🇰🇳"
+capital: Basseterre
+isSovereign: true
+# Classified unitary-small: a federal constitutional monarchy (a Commonwealth
+# realm of the two islands of Saint Kitts and Nevis) with a population of
+# ~51,000, far below the unitary-large threshold. Nevis does have an unusually
+# strong sub-national arrangement for so small a state — its own Nevis Island
+# Assembly, Premier and the Nevis Island Administration — which is constitutionally
+# federal in character. However, the split is purely ISLAND/GEOGRAPHIC: both
+# islands share the same Kittitian/Leeward Caribbean English Creole vernacular,
+# and there is no widely recognized cultural-regional language divide that would
+# meet the unitary-large bar (which requires recognized regional/minority
+# languages AND/OR a genuine cultural-regional identity, not an island split
+# alone). Consistent with how this dataset treats small island states, we
+# therefore use a single synthetic WHOLE region. The King of the United Kingdom
+# is Head of State, represented by a Governor-General; the Prime Minister is
+# Head of Government.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: kn-gov-overview
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 1.0
+    sourceId: kn-gov-overview
+  - languageCode: aig
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: iso639-aig
+# English is the sole official language (near-universally competent, so the
+# local-spoken share is effectively 1.0 — qualitative). Kittitian and Nevisian
+# Creole English (ISO 639-3 'aig', the Leeward Caribbean English Creole code
+# shared with Antigua and Barbuda — NOT 'kai', which is Karekare) is the
+# widely spoken everyday vernacular; its ~0.9 locally-spoken share is an
+# ESTIMATE, as no authoritative census figure is available.
+ethnicGroups:
+  # 2011 census based (latest detailed breakdown).
+  - group: African descent
+    percent: 92.5
+    sourceId: kn-census-2011
+  - group: Mixed
+    percent: 3.0
+    sourceId: kn-census-2011
+  - group: White
+    percent: 2.1
+    sourceId: kn-census-2011
+  - group: East Indian
+    percent: 1.5
+    sourceId: kn-census-2011
+  - group: Other / Not stated
+    percent: 0.9
+    sourceId: kn-census-2011
+timezones:
+  - name: America/St_Kitts
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+currency:
+  code: XCD
+  symbol: "$"
+  name: "Eastern Caribbean dollar (pegged US$1 = EC$2.70; issued by the Eastern Caribbean Central Bank)"
+legalConstraints:
+  - topic: "data protection / personal data"
+    description: "The Data Protection Act, 2018 (No. 37 of 2018) regulates the collection and processing of personal data: processing must be fair and lawful, data subjects have access/correction rights, and transfers of personal data are restricted in line with data-protection principles."
+    sourceId: kn-data-protection-act
+# Not an EU member, so no GDPR/EU consumer-directive constraints apply; a VAT
+# price-display rule was not confirmed to a primary source, so it is
+# deliberately omitted rather than guessed.
+paymentCulture:
+  popularMethods:
+    - "Cash — still widely used, in EC dollars (XCD)"
+    - "Visa and Mastercard — accepted at hotels, restaurants, supermarkets and most establishments"
+    - "Contactless and mobile wallets (Apple Pay, Google Pay) at most card terminals; Amex at hotels/larger establishments"
+    - "US dollars accepted for many tourist-facing transactions"
+  tipping:
+    expected: true
+    typicalAmount: "A ~10% service charge is commonly auto-added in sit-down restaurants; if none, tip ~10-15%"
+    autoIncludedInBill: true
+    note: "Most sit-down restaurants automatically add a ~10% service charge (check the bill); otherwise 10-15% is standard. Round up at casual spots; ~10% for taxis. US dollars are commonly used for tips."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm and polite. Titles/surnames are used in business until a personal relationship develops, then first names quickly become normal. Kittitians and Nevisians value courtesy, friendliness and a relaxed manner; directness is softened with politeness."
+  greetingNorms: "Warm and friendly — a firm handshake with eye contact in business; a nod, smile and 'good morning/afternoon' are expected etiquette when entering a shop, office or passing acquaintances."
+  meetingEtiquette: "Punctuality is expected for formal business, though daily life runs on 'island time' so patience is valued. Communication is polite and often indirect; rapport and small talk precede the agenda; decisions are often relationship-driven."
+  topicsToAvoid:
+    - "The history of slavery and colonial-era legacies unless a local raises them first"
+    - "Politicising the relationship between Saint Kitts and Nevis (especially Nevisian self-governance) in casual company"
+  giftGivingNotes: "Not expected at a first business meeting. When invited to a local home, a small gift — a bottle of local rum or wine, flowers, or a dessert — is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: kn-gov-overview
+    name: "About Saint Kitts and Nevis — Country Overview"
+    publisher: "Government of Saint Kitts and Nevis"
+    url: "https://www.gov.kn/about-saint-kitts-nevis/"
+    accessedDate: "2026-09-18"
+    note: "Confirms English as the official language and the country's status as a Commonwealth realm. Basis for languageUsage (official)."
+  - id: kn-census-2011
+    name: "Saint Kitts and Nevis Population and Housing Census (2011)"
+    publisher: "Department of Statistics, Saint Kitts and Nevis"
+    url: "https://www.stats.gov.kn/topics/demographic-social-statistics/population/"
+    year: 2011
+    accessedDate: "2026-09-18"
+    note: "Ethnic composition (African descent 92.5%, Mixed 3.0%, White 2.1%, East Indian 1.5%, other 0.9%). Supports the unitary-small classification."
+  - id: kn-census-2022
+    name: "Saint Kitts and Nevis Population and Housing Census (2021/2022)"
+    publisher: "Department of Statistics, Saint Kitts and Nevis"
+    url: "https://statistics.caricom.org/wp-content/uploads/2025/11/SKN-Census-Report-2021-2022.pdf"
+    year: 2022
+    accessedDate: "2026-09-18"
+    note: "Most recent census; total population ~51,000. Supports the unitary-small classification."
+  - id: iso639-aig
+    name: "ISO 639-3 — Antigua and Barbuda Creole English / Leeward Caribbean English Creole (aig)"
+    publisher: "SIL International (ISO 639-3)"
+    url: "https://iso639-3.sil.org/code/aig"
+    accessedDate: "2026-09-18"
+    note: "Confirms ISO 639-3 'aig' is the Leeward Caribbean English Creole code used for Kittitian/Nevisian Creole (and Antiguan/Barbudan). Confirms 'kai' is Karekare, NOT Kittitian. Basis for the locallySpoken language row; the ~0.9 share is an ESTIMATE."
+  - id: kn-data-protection-act
+    name: "Data Protection Act, 2018 (No. 37 of 2018)"
+    publisher: "Government of Saint Kitts and Nevis"
+    url: "https://www.parliament.kn/wp-content/uploads/2018/01/Data-Protection-Bill-2017.pdf"
+    year: 2018
+    accessedDate: "2026-09-18"
+    note: "Regulates the collection and processing of personal data; requires fair/lawful processing, grants data-subject rights, and restricts onward transfers. Basis of the data-protection legal constraint."

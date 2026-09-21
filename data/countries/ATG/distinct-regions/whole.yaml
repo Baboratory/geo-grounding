@@ -1,0 +1,166 @@
+code: WHOLE
+name:
+  eng: Antigua and Barbuda
+  local:
+    - languageCode: eng
+      value: Antigua and Barbuda
+# Generic country-wide fallback content for Antigua and Barbuda (unitary-small,
+# single synthetic whole region). Used via the 'whole-country-fallback' path in
+# usage_examples/python/get_data_by_ip.py.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) climate — hot year-round with a distinct drier season (roughly Dec-May) and a wetter, hurricane-prone season (roughly Jun-Nov)."
+  - koppenCode: Am
+    description: "Tropical monsoon climate on the wetter, higher-rainfall parts of Antigua's volcanic interior."
+landmarks:
+  - name: Nelson's Dockyard
+    description: "A historic Georgian naval dockyard at English Harbour — the only working Georgian-era dockyard in the world and a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Shirley Heights
+    description: "A restored hilltop fort and lookout above English Harbour, famed for its Sunday sunset parties and panoramic views."
+  - name: Barbuda
+    description: "Antigua's sister island to the north — a flat coral island famous for the Frigate Bird Sanctuary and the pink-hued beaches of Codrington Lagoon."
+  - name: Devil's Bridge
+    description: "A dramatic natural limestone arch on the Atlantic coast of Antigua's northeastern Indian Town Point."
+  - name: Half Moon Bay
+    description: "A tranquil crescent beach on the east coast of Antigua."
+  - name: Redonda
+    description: "A small uninhabited volcanic islet southwest of Antigua, a dependency of the country."
+culturalTraits:
+  - "Antigua Carnival (late July-early August) — the national festival culminating in the Carnival Monday and Tuesday parades"
+  - "Antiguan and Barbudan Creole English (aig) as the everyday vernacular alongside English"
+  - "Forty years of sailing tradition and the Antigua Sailing Week"
+  - "Wads, ducana and the island's celebratory cuisine"
+  - "A strong calypso, soca and steel-pan music tradition"
+prideOf:
+  - "Nelson's Dockyard's UNESCO World Heritage status"
+  - "Antigua Sailing Week — one of the world's leading regattas"
+  - "Being the birthplace of international cricket greats such as Viv Richards and Curtly Ambrose"
+  - "The natural beauty of Barbuda's pink beaches and the Frigate Bird Sanctuary"
+animals:
+  popular:
+    - "Magnificent frigatebirds — the world's largest breeding colony at Barbuda's Codrington Lagoon"
+    - "Green and hawksbill sea turtles — nesting on the islands' beaches"
+    - "Antiguan racer snake - Alsophis antiguae"
+    - "Monkeys and mongooses"
+  unique:
+    - "The Antiguan racer — once the world's rarest snake, now recovering on Great Bird Island"
+    - "The magnificent frigatebird colony of Barbuda, one of the largest in the world"
+industries:
+  - "Tourism — the dominant economic driver (a leading Caribbean resort destination)"
+  - "Financial services and offshore/international business"
+  - "Light manufacturing and services tied to tourism"
+  - "Agriculture and fisheries on a modest scale"
+sports:
+  - "Cricket — a national passion (Antigua has produced several West Indies greats)"
+  - "Football (soccer)"
+  - "Sailing and yachting — home of Antigua Sailing Week"
+  - "Track and field / athletics"
+  - "Netball and basketball"
+religions:
+  # 2011 census based (religion figures not consistently published per
+  # tradition; Anglican and Pentecostal are the two largest).
+  - name: Anglican
+    percent: 17.6
+    sourceId: atg-state-irf
+  - name: Seventh-day Adventist
+    percent: 12.4
+    sourceId: atg-state-irf
+  - name: Pentecostal
+    percent: 12.2
+    sourceId: atg-state-irf
+  - name: Roman Catholic
+    percent: 8.0
+    sourceId: atg-state-irf
+  - name: Methodist
+    percent: 5.7
+    sourceId: atg-state-irf
+  - name: Jehovah's Witness
+    percent: 2.3
+    sourceId: atg-state-irf
+  - name: Other Christian
+    percent: 12.0
+    sourceId: atg-state-irf
+  - name: No religion
+    percent: 4.4
+    sourceId: atg-state-irf
+  - name: Rastafarian
+    percent: 1.0
+    sourceId: atg-state-irf
+entertainment:
+  - season: allYear
+    items:
+      - "Beach life, sailing and water sports across the islands"
+      - "Cricket and football matches"
+      - "Market and cultural life in Saint John's"
+  - season: dry
+    items:
+      - "Christmas and New Year festivities (the drier, cooler months)"
+      - "Peak tourist 'season' (~December-April)"
+      - "Antigua Sailing Week (late April-early May)"
+  - season: wet
+    items:
+      - "Antigua Carnival (late July-early August) — the national festival"
+      - "National heroes and independence-season events (November)"
+      - "The height of the hurricane/wet season — some outdoor activities pause in heavier rain"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fungee and pepperpot — the national dish (cornmeal dumplings with a spicy meat and okra stew)"
+      - "Wads (seasoned saltfish balls) and ducana (a sweet coconut dumpling)"
+      - "Conch and fresh seafood"
+      - "Roasted breadfruit, plantains and provision (root crops)"
+      - "Rum punch and local rums"
+  - season: dry
+    items:
+      - "Christmas ham, black cake (fruit cake) and sorrel drink"
+      - "Sailing-Week seafood fare"
+  - season: wet
+    items:
+      - "Hearty one-pot and soup dishes during wetter spells"
+      - "Carnival-season street food and festival fare"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colourful cotton prints and light tropical wear"
+  - season: dry
+    items:
+      - "Festive/formal wear for Christmas and New Year"
+  - season: wet
+    items:
+      - "Carnival mas costumes (feathers, beads, sequins) during Antigua Carnival (late July-early August)"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically 08:00/08:30-16:00/16:30 weekdays; private businesses often 09:00-17:00; retail usually Mon-Sat with many closed (or shorter hours) Sunday."
+  lunchBreakTiming: "A standard midday break is common."
+  notableShutdownPeriods:
+    - period: "Antigua Carnival (late July-early August)"
+      description: "The national carnival — two official days plus build-up; activity adjusts heavily around the festival."
+    - period: "Antigua Sailing Week (late April-early May)"
+      description: "The flagship regatta; a busy tourist/event period."
+    - period: "Independence (1 November)"
+      description: "National public holiday marking independence from the United Kingdom (1981)."
+    - period: "Christmas and New Year"
+      description: "Reduced business around the Christmas/New Year holidays."
+  notes: "Tourism drives a pronounced high season in the drier months (December-May). Sunday is widely a rest day."
+sources:
+  - id: atg-state-irf
+    name: "Antigua and Barbuda — International Religious Freedom Report (2014, reproducing 2011 census religion figures)"
+    publisher: "U.S. Department of State"
+    url: "https://2009-2017.state.gov/j/drl/rls/irf/2014/westhemisphere/236786.htm"
+    year: 2014
+    accessedDate: "2026-09-18"
+    note: "Religious composition per the 2011 census as reproduced by the State Department report (Anglican 17.6%, SDA 12.4%, Pentecostal 12.2%, Roman Catholic 8.0%, Methodist 5.7%, Jehovah's Witness 2.3%, other Christian 12.0%, none 4.4%, Rastafarian 1.0%). The national statistics office did not publish an extractable religion table; this secondary source reproduces the official census figures and is flagged as such."
+  - id: atg-unesco-dockyard
+    name: "Antigua Naval Dockyard and Related Archaeological Sites — UNESCO World Heritage Centre (list entry 1499)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1499/"
+    year: 2016
+    accessedDate: "2026-09-18"
+    note: "Confirms Nelson's Dockyard (Antigua Naval Dockyard) was inscribed in 2016 — basis for the unescoWorldHeritage flag on that landmark."

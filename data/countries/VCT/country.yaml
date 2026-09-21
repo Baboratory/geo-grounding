@@ -1,0 +1,132 @@
+alpha3: VCT
+alpha2: VC
+name:
+  eng: Saint Vincent and the Grenadines
+  local:
+    - languageCode: eng
+      value: Saint Vincent and the Grenadines
+flagEmoji: "🇻🇨"
+capital: Kingstown
+isSovereign: true
+# Classified unitary-small: a parliamentary constitutional monarchy (a
+# Commonwealth realm) with a population of ~104,000-109,000, far below the
+# unitary-large threshold. The country spans the main island of Saint Vincent
+# plus the Grenadines chain, but that is a purely geographic/island split, not
+# a recognized cultural-historical regional identity with distinct regional
+# languages — consistent with how comparably-sized Caribbean sovereign states
+# (BRB, BHS) are classified. One synthetic WHOLE region. Note: the King of the
+# United Kingdom is Head of State, represented by a Governor-General; the
+# Prime Minister is Head of Government.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: vct-gov-overview
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 1.0
+    sourceId: vct-gov-overview
+  - languageCode: svc
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: iso639-svc
+# English is the sole official language (near-universally competent, so the
+# local-spoken share is effectively 1.0 — qualitative). Vincentian Creole
+# English (ISO 639-3 'svc') is the widely spoken everyday vernacular, used by
+# roughly nine-tenths of the population in informal settings (an ESTIMATE,
+# flagged — no precise census figure). No other notable minority language.
+ethnicGroups:
+  # 2012 census based (latest detailed ethnic breakdown).
+  - group: African descent
+    percent: 71.2
+    sourceId: vct-census-2012
+  - group: Mixed
+    percent: 23.0
+    sourceId: vct-census-2012
+  - group: Indigenous (Kalinago/Carib and Amerindian)
+    percent: 3.0
+    sourceId: vct-census-2012
+  - group: European
+    percent: 1.5
+    sourceId: vct-census-2012
+  - group: East Indian
+    percent: 1.1
+    sourceId: vct-census-2012
+  - group: Other / Not stated
+    percent: 0.2
+    sourceId: vct-census-2012
+timezones:
+  - name: America/St_Vincent
+    standardUtcOffset: "UTC-4"
+    observesDst: false
+currency:
+  code: XCD
+  symbol: "$"
+  name: "Eastern Caribbean dollar (pegged US$1 = EC$2.70; issued by the Eastern Caribbean Central Bank)"
+legalConstraints:
+  - topic: "data protection / personal data"
+    description: "The Data Protection Act, 2021 (No. 64 of 2021) regulates the processing of personal data: processing must be fair and lawful, data subjects have access/correction rights, and transfers of personal data outside Saint Vincent and the Grenadines are restricted in line with data-protection principles."
+    sourceId: vct-data-protection-act
+# Not an EU member, so no GDPR/EU consumer-directive constraints apply; a VAT
+# price-display rule was not confirmed to a primary source, so it is
+# deliberately omitted rather than guessed.
+paymentCulture:
+  popularMethods:
+    - "Cash — still widely used, in EC dollars (XCD)"
+    - "Visa and Mastercard — accepted at hotels, restaurants, supermarkets and most mid/higher-end establishments"
+    - "Contactless and mobile wallets (Apple Pay, Google Pay) at most card terminals; Amex at hotels/larger establishments"
+    - "US dollars accepted for many tourist-facing transactions"
+  tipping:
+    expected: true
+    typicalAmount: "A ~10% service charge is commonly auto-added in sit-down restaurants; if none, tip ~10-15%"
+    autoIncludedInBill: true
+    note: "Most sit-down restaurants automatically add a ~10% service charge (check the bill); otherwise 10-15% is standard. Round up at casual spots; ~10% for taxis/boat guides. US dollars are commonly used for tips."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm and polite. Titles/surnames are used in business until a personal relationship develops, then first names quickly become normal. Vincentians value courtesy, friendliness and a relaxed, unhurried manner; directness is softened with politeness."
+  greetingNorms: "Warm and friendly — a firm handshake with eye contact in business; a nod, smile and 'good morning/afternoon' are expected etiquette when entering a shop, office or passing acquaintances."
+  meetingEtiquette: "Punctuality is expected for formal business, though daily life runs on 'island time' so patience is valued. Communication is polite and often indirect; rapport and small talk precede the agenda; decisions are often relationship-driven."
+  topicsToAvoid:
+    - "The history of slavery and colonial-era legacies unless a Vincentian raises them first"
+    - "Unfavourably comparing Saint Vincent to another Caribbean island"
+  giftGivingNotes: "Not expected at a first business meeting. When invited to a Vincentian home, a small gift — a bottle of local rum or wine, flowers, or a dessert — is appreciated."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: vct-gov-overview
+    name: "About Saint Vincent and the Grenadines — Country Overview"
+    publisher: "Government of Saint Vincent and the Grenadines"
+    url: "https://www.gov.vc/index.php/about-saint-vincent"
+    accessedDate: "2026-09-18"
+    note: "Confirms English as the official language and the country's status as a Commonwealth realm. Basis for languageUsage (official)."
+  - id: vct-census-2012
+    name: "Saint Vincent and the Grenadines Population and Housing Census (2012)"
+    publisher: "Statistical Office of Saint Vincent and the Grenadines"
+    url: "https://stats.gov.vc/wp-content/uploads/2019/10/SVG-2012-Population-and-Housing-Census-Report.pdf"
+    year: 2012
+    accessedDate: "2026-09-18"
+    note: "Ethnic composition (African descent 71.2%, Mixed 23.0%, Indigenous 3.0%, European 1.5%, East Indian 1.1%, other 0.2%). Supports the unitary-small classification."
+  - id: vct-census-2023
+    name: "Saint Vincent and the Grenadines Population and Housing Census Report 2023"
+    publisher: "Statistical Office of Saint Vincent and the Grenadines"
+    url: "https://stats.gov.vc/wp-content/uploads/2026/03/St.-Vincent-and-the-Grenadines-Population-and-Housing-Census-Report-2023.pdf"
+    year: 2023
+    accessedDate: "2026-09-18"
+    note: "Most recent census; total population ~104,000. Supports the unitary-small classification."
+  - id: iso639-svc
+    name: "ISO 639-3 — Vincentian Creole English (svc)"
+    publisher: "SIL International (ISO 639-3)"
+    url: "https://iso639-3.sil.org/code/svc"
+    accessedDate: "2026-09-18"
+    note: "Confirms ISO 639-3 'svc' for Vincentian Creole English. The ~0.9 locally-spoken share is an ESTIMATE; no precise census figure is available."
+  - id: vct-data-protection-act
+    name: "Data Protection Act, 2021 (No. 64 of 2021)"
+    publisher: "Government of Saint Vincent and the Grenadines"
+    url: "https://www.gov.vc/images/pdf_documents/Data_Protection_Act_2021.pdf"
+    year: 2021
+    accessedDate: "2026-09-18"
+    note: "Regulates the processing of personal data; requires fair/lawful processing, grants data-subject rights, and restricts onward transfers. Basis of the data-protection legal constraint."

@@ -1,0 +1,178 @@
+code: WHOLE
+name:
+  eng: Dominica
+  local:
+    - languageCode: eng
+      value: Dominica
+    - languageCode: acf
+      value: Dominik
+# Generic country-wide fallback content for Dominica (unitary-small, single
+# synthetic whole region). Used via the 'whole-country-fallback' path in
+# usage_examples/python/get_data_by_ip.py.
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) climate — hot year-round with a distinct drier season (roughly Dec-May) and a wetter season (roughly Jun-Nov)."
+  - koppenCode: Am
+    description: "Tropical monsoon climate on the wetter, higher-rainfall windward and mountainous interior (the Morne Diablotin and Morne Trois Pitons uplands are among the wettest places in the Caribbean)."
+landmarks:
+  - name: Morne Trois Pitons National Park
+    description: "A rainforest-clad volcanic massif with the Boiling Lake, Trafalgar Falls and the Valley of Desolation — a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Boiling Lake
+    description: "One of the world's largest hot-water lakes, a bubbling geothermal pool in the Morne Trois Pitons National Park."
+  - name: Emerald Pool
+    description: "A serene swimming spot on the Middleham Falls trail in the rainforest interior."
+  - name: Trafalgar Falls
+    description: "Twin waterfalls in the central highlands beside the Trafalgar hot springs."
+  - name: Cabrits National Park
+    description: "A peninsula on the northwest coast holding the restored 18th-century Fort Shirley."
+  - name: Scotts Head
+    description: "A dramatic south-coast headland and PADI-listed dive site where the Caribbean Sea meets the Atlantic."
+  - name: Kalinago Territory
+    description: "The lands of the Indigenous Kalinago (Carib) people on the east coast, the last of their kind in the Eastern Caribbean."
+culturalTraits:
+  - "Carnival — held in February/March (the interval before Lent), with a mas band and calypso/soca tradition"
+  - "World Creole Music Festival (October) — the flagship celebration of Kweyol and Creole culture"
+  - "Kweyol / Dominican Creole French as the everyday vernacular alongside English"
+  - "Rum heritage and the 'Nature Isle' identity built on rainforest, rivers and volcanic scenery"
+  - "Indigenous Kalinago (Carib) cultural survival — the Kalinago Territory and its community museum"
+  - "Cricket as a national passion within West Indies cricket"
+prideOf:
+  - "Being the 'Nature Isle of the Caribbean' — lush rainforest, rushing rivers and unspoiled volcanic landscape"
+  - "Its UNESCO World Heritage rainforest and the Boiling Lake"
+  - "The World Creole Music Festival and the strength of Kweyol culture"
+  - "The resilience of the Kalinago people and their preserved territory"
+animals:
+  popular:
+    - "Sisserou (imperial amazon parrot, Amazona imperalis) — the national bird"
+    - "Jacquot (red-necked amazon parrot)"
+    - "Agouti (a large forest rodent)"
+    - "Wildfowl and herons along the island's rivers and wetlands"
+  unique:
+    - "Sisserou (imperial amazon) and Jacquot (red-necked amazon) — two endemic Amazon parrots found only in Dominica's rainforest"
+    - "Mountain chicken (Leptodactylus fallax) — the world's largest frog, a national delicacy now critically endangered"
+industries:
+  - "Tourism — the principal economic driver, built on the 'Nature Isle' brand"
+  - "Agriculture — bananas, citrus, root crops and cocoa"
+  - "Rum and the small but iconic heritage distilleries"
+  - "Offshore financial services and the international business sector"
+  - "Fisheries and aquaculture (including the sea moss / seaweed trade)"
+sports:
+  - "Cricket — a national passion within West Indies cricket"
+  - "Football (soccer)"
+  - "Netball and basketball"
+  - "Water sports — diving, snorkelling, kayaking and river tubing"
+  - "Hiking and eco-activities tied to the national parks"
+religions:
+  - name: Roman Catholic
+    percent: 52.8
+    sourceId: dma-census-2011
+  - name: No religion
+    percent: 9.3
+    sourceId: dma-census-2011
+  - name: Seventh-day Adventist
+    percent: 6.7
+    sourceId: dma-census-2011
+  - name: Pentecostal
+    percent: 6.1
+    sourceId: dma-census-2011
+  - name: Baptist
+    percent: 5.1
+    sourceId: dma-census-2011
+  - name: Christian Union Mission / Church
+    percent: 4.1
+    sourceId: dma-census-2011
+  - name: Methodist
+    percent: 2.6
+    sourceId: dma-census-2011
+  - name: Gospel Mission
+    percent: 2.0
+    sourceId: dma-census-2011
+  - name: Other Evangelical
+    percent: 1.5
+    sourceId: dma-census-2011
+  - name: Jehovah's Witness
+    percent: 1.3
+    sourceId: dma-census-2011
+  - name: Rastafarian
+    percent: 1.1
+    sourceId: dma-census-2011
+entertainment:
+  - season: allYear
+    items:
+      - "Beach life and the 'Nature Isle' outdoor scene — hiking, swimming in rivers and Emerald Pool, diving and kayaking"
+      - "Cricket and football matches"
+      - "Market and cultural life in Roseau"
+  - season: dry
+    items:
+      - "Christmas and New Year festivities (the drier, cooler months)"
+      - "Peak tourist 'season' (~December-April)"
+      - "Carnival (February/March, the pre-Lenten interval)"
+      - "Easter-period events and water festivals"
+  - season: wet
+    items:
+      - "World Creole Music Festival (late October)"
+      - "Independence celebrations (3 November) and the week of national events"
+      - "The height of the hurricane/wet season — some outdoor activities pause in heavier rain"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "The 'national dish' — crab and callaloo (dasheen leaves stewed with coconut milk, often with crab)"
+      - "Yeasted breadfruit, plantains and provision (root crops)"
+      - "Fresh fish and seafood — including the famed (now protection-minded) mountain chicken"
+      - "Rum punch and local rums; Kubuli lager"
+      - "Cocoa and local chocolate"
+  - season: dry
+    items:
+      - "Christmas ham, black cake (fruit cake) and sorrel drink"
+      - "Carnival-season street food"
+  - season: wet
+    items:
+      - "Hearty one-pot and soup dishes during wetter spells"
+      - "Festival-season fare around the World Creole Music Festival and Independence"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colourful madras and cotton prints"
+      - "Light, bright tropical resort wear"
+  - season: dry
+    items:
+      - "Festive/formal wear for Christmas and New Year"
+  - season: wet
+    items:
+      - "Carnival mas costumes (feathers, beads, sequins) during the pre-Lenten season"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically 08:00/08:30-16:00/16:30 weekdays; private businesses often 09:00-17:00; retail usually Mon-Sat with many closed (or shorter hours) Sunday."
+  lunchBreakTiming: "A standard midday break is common."
+  notableShutdownPeriods:
+    - period: "Carnival (pre-Lenten, usually February/March)"
+      description: "Two days of national celebration around Carnival Monday/Tuesday; activity adjusts heavily."
+    - period: "World Creole Music Festival (late October)"
+      description: "A multi-day national festival drawing visitors; business rhythms relax around the events."
+    - period: "Independence (3 November)"
+      description: "National public holiday marking independence from the United Kingdom (1978)."
+    - period: "Christmas and New Year"
+      description: "Reduced business around the Christmas/New Year holidays."
+  notes: "Tourism drives a pronounced high season in the drier months (December-May). Sunday is widely a rest day."
+sources:
+  - id: dma-census-2011
+    name: "2011 Population and Housing Census Report"
+    publisher: "Central Statistical Office of Dominica"
+    url: "http://www.dominica.gov.dm/cms/files/2011_census_report.pdf"
+    year: 2011
+    accessedDate: "2026-09-18"
+    note: "Religious composition (Roman Catholic 52.8%, no religion 9.3%, SDA 6.7%, Pentecostal 6.1%, Baptist 5.1%, Christian Union 4.1%, Methodist 2.6%, Gospel Mission 2.0%, other Evangelical 1.5%, Jehovah's Witness 1.3%, Rastafarian 1.1%). Flagged as 2011-census vintage."
+  - id: dma-unesco-trois-pitons
+    name: "Morne Trois Pitons National Park — UNESCO World Heritage Centre (list entry 814)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/814/"
+    year: 1997
+    accessedDate: "2026-09-18"
+    note: "Confirms Morne Trois Pitons National Park was inscribed in 1997 — basis for the unescoWorldHeritage flag on that landmark."
