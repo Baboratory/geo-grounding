@@ -1,0 +1,55 @@
+code: KZ-ALA
+name:
+  eng: Almaty and the South-East
+  local:
+    - languageCode: kaz
+      value: Алматы (Almaty)
+    - languageCode: rus
+      value: Алматы (Almaty)
+climates:
+  - koppenCode: Dfa
+    description: "Humid continental with a pronounced foothill influence: snowy cold winters and warm, dry summers, moderated by the nearby Tien Shan."
+landmarks:
+  - name: Almaty (formerly Alma-Ata)
+    description: "The country's former capital and largest city, set against the Zailiysky Alatau."
+  - name: Shymbulak ski resort
+    description: "One of Central Asia's best-known ski resorts in the mountains above Almaty."
+  - name: Medeu ice rink
+    description: "A high-altitude Olympic-speed skating rink."
+  - name: Kolsai Lakes & Charyn Canyon
+    description: "Stunning alpine lakes and a dramatic red-rock canyon in the south-east."
+  - name: Tamgaly rock carvings
+    description: "UNESCO World Heritage petroglyphs in the Tien Shan foothills."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Almaty is the cultural heartland and commercial capital — Kazakhstan's dynamic, green 'southern capital'"
+  - "The Kazakh-majority south, where Kazakh language and identity are strongest"
+  - "Apple-grown heritage (Almaty means 'father of apples'), mountain culture and skiing"
+prideOf:
+  - "Almaty as the historic and cultural capital"
+  - "The mountain setting and world-class skiing at Shymbulak"
+  - "The Kazakh revival and southern cosmopolitanism"
+animals:
+  popular:
+    - Snow leopard (Tien Shan)
+    - Tien Shan brown bear
+    - Ibex
+  unique:
+    - "The shy Tien Shan snow leopard"
+industries:
+  - Financial and corporate headquarters (the commercial centre)
+  - Trade, services and a large consumer market
+  - Tourism and recreation (mountains, skiing)
+  - Fruit and agriculture in the fertile foothills
+sports:
+  - Skiing and winter sports (Shymbulak)
+  - Football, basketball and ice hockey
+  - Boxing and martial arts
+sources:
+  - id: kaz-religion
+    name: "Religious composition of Kazakhstan (2021 census)"
+    publisher: "Bureau of National Statistics of the Republic of Kazakhstan"
+    url: "https://el.kz/en/693-of-kazakhstanis-profess-islam_95438"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "National religion figures applied as the region-level approximation for Almaty/south-east (no reliable region-level census split published)."

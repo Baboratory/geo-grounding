@@ -1,0 +1,59 @@
+code: UZ-SM
+name:
+  eng: Samarkand and Bukhara (the historic centre)
+  local:
+    - languageCode: uzb
+      value: Samarqand va Buxoro
+    - languageCode: taj
+      value: Самарқанд ва Бухоро (Samarqand va Buxoro)
+climates:
+  - koppenCode: BSk
+    description: "Steppe/continental: cold winters, warm-to-hot dry summers, low rainfall."
+landmarks:
+  - name: Registan Square, Samarkand
+    description: "The tiled ensemble of Ulugh Beg, Sher-Dor and Tilla-Kori madrasas."
+    unescoWorldHeritage: true
+  - name: Gur-e-Amir and Shah-i-Zinda, Samarkand
+    description: "Timur's mausoleum and the famed 'Street of Tombs'."
+    unescoWorldHeritage: true
+  - name: Historic Centre of Bukhara
+    description: "Lyab-i Hauz, the Ark, the Kalyan minaret and countless mosques and madrasas."
+    unescoWorldHeritage: true
+  - name: Samarkand Observatory (Ulugh Beg)
+    description: "Foundations of the 15th-century sextant that measured the sky."
+  - name: Shakhrisabz
+    description: "Amir Timur's birthplace with its great palace ruins."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "The glorious heart of the Silk Road — Samarkand and Bukhara are among the world's most storied cities"
+  - "A rich Persian-Tajik cultural substrate alongside Uzbek identity (many residents speak Tajik at home)"
+  - "Ancient craft and trade traditions that reach back two millennia"
+  - "The spiritual and scholarly heartlands of Uzbekistan"
+prideOf:
+  - "Samarkand and Bukhara as jewels of world heritage"
+  - "The Timurid architectural masterpieces"
+  - "The living bazaars, ceramics and culinary traditions of the old cities"
+animals:
+  popular:
+    - Golden eagle
+    - Bactrian camel
+    - Steppe fox
+  unique:
+    - "The Zeravshan valley's endemic birdlife"
+industries:
+  - Tourism to the Silk Road heritage sites
+  - Cotton, fruit and viticulture in the Zeravshan valley
+  - Silk and carpet weaving
+  - Gold mining in the nearby mountains
+sports:
+  - Football (soccer)
+  - Wrestling and kurash
+  - Buzkashi (traditional goat-riding) in the countryside
+sources:
+  - id: uzb-religion
+    name: "Religious composition of Uzbekistan (2023 Report on International Religious Freedom)"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/uzbekistan/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "National religion figures applied as the region-level approximation for the Samarkand-Bukhara region (no region-level census split published)."

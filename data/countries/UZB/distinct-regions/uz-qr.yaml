@@ -1,0 +1,55 @@
+code: UZ-QR
+name:
+  eng: Karakalpakstan (Republic of Karakalpakstan)
+  local:
+    - languageCode: kaa
+      value: Qaraqalpaqstan Respublikası
+    - languageCode: uzb
+      value: Qoraqalpog'iston Respublikasi
+climates:
+  - koppenCode: BWk
+    description: "Cold desert: extremely arid, with scorching summers and cold winters in the Amu Darya delta and on the Ustyurt plateau."
+landmarks:
+  - name: Nukus
+    description: "The capital of Karakalpakstan and home of the legendary Savitsky Art Museum."
+  - name: Savitsky Art Museum, Nukus
+    description: "A world-renowned collection of largely-banned Soviet avant-garde art."
+  - name: Aral Sea coast (Muynak)
+    description: "The haunting site of the dramatic retreat of the Aral Sea, with rusting ships in what is now desert."
+  - name: Mizdakhan and Gyaur-Kala
+    description: "Ancient necropolis and fortress ruins on the Silk Road."
+  - name: Ustyurt Plateau
+    description: "A vast, stark limestone desert shared with Kazakhstan and Turkmenistan."
+culturalTraits:
+  - "Karakalpak identity, language and the autonomous-republic status within Uzbekistan"
+  - "The tragic Aral Sea ecological story, which has reshaped the region's land and life"
+  - "Rich applied art — jewellery, carpets and the nomadic yurt tradition"
+  - "Dungan-lineage and other minority communities amid the desert"
+prideOf:
+  - "The Savitsky Museum and the resilient local identity"
+  - "Survival and adaptation in the face of the Aral disaster"
+  - "The stark beauty of the Ustyurt and the Amu Darya delta"
+animals:
+  popular:
+    - Bactrian camel
+    - Goitered gazelle
+    - Saiga antelope
+  unique:
+    - "The Aral Sea region's once-endemic fish and seal, now all but lost to the sea's retreat"
+industries:
+  - Cotton, rice and melon farming in the irrigated Amu Darya delta
+  - Fishing (declined sharply with the Aral's retreat) and fish farming
+  - Natural gas extraction
+  - Tourism, increasingly to Muynak and Nukus
+sports:
+  - Football (soccer)
+  - Wrestling and boxing
+  - Kurash (traditional wrestling)
+sources:
+  - id: uzb-religion
+    name: "Religious composition of Uzbekistan (2023 Report on International Religious Freedom)"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/uzbekistan/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "National religion figures applied as the region-level approximation for Karakalpakstan (predominantly Muslim; no region-level census split published)."

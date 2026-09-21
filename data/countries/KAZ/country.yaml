@@ -1,0 +1,154 @@
+alpha3: KAZ
+alpha2: KZ
+name:
+  eng: Kazakhstan
+  local:
+    - languageCode: kaz
+      value: Қазақстан Республикасы (Qazaqstan Respublikasy)
+    - languageCode: rus
+      value: Республика Казахстан (Respublika Kazakhstan)
+flagEmoji: "🇰🇿"
+capital: Astana
+isSovereign: true
+# Classified unitary-large: Kazakhstan is a unitary republic (not a federation)
+# organized into 17 regions (oblys) plus three cities of republican significance,
+# with a genuine regional divide — the heavily-Russified, industrial north and
+# central steppe vs. the Kazakh-majority, densely-settled south, and the
+# oil-and-gas Caspian west. Kazakh and Russian are co-official (each domain
+# 'official' at 1.0, legal status, never split). It gets real ISO 3166-2 region
+# files (a curated subset) alongside WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: KZ
+hasSubdivisions: true
+languageUsage:
+  - languageCode: kaz
+    domain: official
+    speakersShare: 1.0
+    sourceId: kaz-constitution
+  - languageCode: rus
+    domain: official
+    speakersShare: 1.0
+    sourceId: kaz-constitution
+  - languageCode: kaz
+    domain: locallySpoken
+    speakersShare: 0.801
+    sourceId: kaz-census-2021
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.837
+    sourceId: kaz-census-2021
+  - languageCode: uzb
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: kaz-census-2021
+  - languageCode: uig
+    domain: locallySpoken
+    speakersShare: 0.015
+    sourceId: kaz-census-2021
+# Both official rows are 1.0 (legal status). Real usage in locallySpoken per the
+# 2021 census: Kazakh 80.1% and Russian 83.7% of the population speak each (wide
+# bilingualism — figures exceed 100% combined by design). Uzbek/Uyghur shares are
+# ethnic proxies.
+ethnicGroups:
+  - group: Kazakhs
+    percent: 70.4
+    sourceId: kaz-census-2021
+  - group: Russians
+    percent: 15.5
+    sourceId: kaz-census-2021
+  - group: Uzbeks
+    percent: 3.0
+    sourceId: kaz-census-2021
+  - group: Ukrainians
+    percent: 2.2
+    sourceId: kaz-census-2021
+  - group: Uyghurs
+    percent: 1.5
+    sourceId: kaz-census-2021
+  - group: Germans
+    percent: 1.0
+    sourceId: kaz-census-2021
+  - group: Tatars
+    percent: 1.1
+    sourceId: kaz-census-2021
+  - group: Other (Azerbaijanis, Koreans, Turks, Dungans, etc.)
+    percent: 5.3
+    sourceId: kaz-census-2021
+timezones:
+  - name: Asia/Almaty
+    standardUtcOffset: "UTC+5"
+    observesDst: false
+    # Kazakhstan uses a single year-round UTC+5 timezone since March 2024
+    # (previously UTC+5/+6 with a trial of UTC+6 rolled back); no DST.
+  - name: Asia/Aqtau
+    standardUtcOffset: "UTC+5"
+    observesDst: false
+currency:
+  code: KZT
+  symbol: "₸"
+  name: Kazakhstani tenge
+legalConstraints:
+  - topic: "official languages"
+    description: "The Constitution (Art. 7) makes Kazakh the state language and grants Russian official status, used on an equal footing in state organizations and local bodies. State documents, public signage and product labelling are officially bilingual (Kazakh and Russian)."
+    sourceId: kaz-constitution
+  - topic: "EU membership status"
+    description: "Kazakhstan is NOT an EU/EEA member; EU directives (GDPR, PSD2, the 14-day EU withdrawal right) do not apply directly. Payments and data protection follow national law (National Bank of Kazakhstan regulations and the Law on Personal Data)."
+    sourceId: kaz-eu-status
+paymentCulture:
+  popularMethods:
+    - "Kaspi.kz — Kazakhstan's dominant fintech super-app (mobile payments, P2P, QR, e-commerce, BNPL); the most widely used payment rail by a wide margin"
+    - Debit/credit cards (Visa, Mastercard, and the domestic Kaspi Bank and Halyk Bank networks)
+    - QR-code mobile payments via Kaspi and Halyk
+    - Cash (tenge) — still used, especially outside the big cities
+    - Bank-to-bank transfers (Halyk, Kaspi, Freedom)
+  tipping:
+    expected: true
+    typicalAmount: "~5-10% for good service in restaurants; rounding up is common"
+    autoIncludedInBill: false
+    note: "Tipping is appreciated but not mandatory; ~5-10% is customary in sit-down restaurants and for service staff, though no service charge is automatically added. Kaspi.kz QR has made cashless tipping straightforward in cities."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Formal and hierarchical in state and corporate settings; use title + surname and the polite second-person address until invited to first names. In the south and among Kazakh-speakers, hospitality and status awareness matter more than in the Russified north."
+  greetingNorms: "A firm handshake with eye contact is standard. Among friends and in Kazakh traditional settings, a two-cheek kiss or a warm verbal greeting. Tea (shay/шай) hospitality is central to Kazakh social life."
+  meetingEtiquette: "Business is relationship-driven; expect hospitality and time for tea and personal conversation before the agenda. Decisions tend to be centralized at the top and can be slow. Punctuality is expected from foreign counterparts even when local schedules run flexible."
+  topicsToAvoid:
+    - "Ethnic or inter-community sensitivities and the north/south divide"
+    - "Dynastic or political succession politics"
+    - "Overly direct criticism of the leadership"
+  giftGivingNotes: "A small, modest gift is well received once a relationship develops; avoid giving an empty number of items — give in small numbers. Hospitality (food and tea) is the primary gesture of goodwill."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: KZ-ALA
+    file: distinct-regions/kz-ala.yaml
+    adminUnitCodes: [KZ-ALA]
+  - code: KZ-AST
+    file: distinct-regions/kz-ast.yaml
+    adminUnitCodes: [KZ-AST]
+  - code: KZ-ATY
+    file: distinct-regions/kz-aty.yaml
+    adminUnitCodes: [KZ-ATY, KZ-MAN]
+  - code: KZ-VOS
+    file: distinct-regions/kz-vos.yaml
+    adminUnitCodes: [KZ-VOS]
+sources:
+  - id: kaz-constitution
+    name: "Constitution of the Republic of Kazakhstan (1995, as amended), Article 7"
+    publisher: "Constitutional Council of the Republic of Kazakhstan / official legal portal"
+    url: "https://www.akorda.kz/en/official-documents/constitution"
+    year: 1995
+    accessedDate: "2026-09-19"
+    note: "The legal basis for Kazakh as the state language (Art. 7(1)) and Russian as an official language used on an equal footing (Art. 7(2)); both official-domain rows are 1.0."
+  - id: kaz-census-2021
+    name: "National Population Census 2021 — ethnic composition, religion and language proficiency"
+    publisher: "Bureau of National Statistics of the Agency for Strategic Planning and Reforms of the Republic of Kazakhstan"
+    url: "https://stat.gov.kz/en/national/2021"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "Ethnic shares (Kazakhs 70.4%, Russians 15.5%, Uzbeks 3.0%, Ukrainians 2.2%, Uyghurs 1.5%, Tatars 1.1%, Germans 1.0%) and the shares who speak Kazakh (80.1%) and Russian (83.7%). Used for the locallySpoken rows."
+  - id: kaz-eu-status
+    name: "Kazakhstan's international status"
+    publisher: "Composite; not an EU member state"
+    url: "https://www.consilium.europa.eu/"
+    accessedDate: "2026-09-19"
+    note: "Kazakhstan is not an EU member; EU directives do not apply directly. National law (National Bank of Kazakhstan for payments, Law on Personal Data) governs."

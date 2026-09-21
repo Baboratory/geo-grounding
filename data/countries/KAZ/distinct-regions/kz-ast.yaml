@@ -1,0 +1,54 @@
+code: KZ-AST
+name:
+  eng: Astana and the North-Central Steppe
+  local:
+    - languageCode: kaz
+      value: Астана (Astana)
+    - languageCode: rus
+      value: Астана (Astana)
+climates:
+  - koppenCode: Dfa
+    description: "Cold humid continental with a very dry, windy character: severely cold winters (among the coldest capitals on Earth) and warm summers."
+landmarks:
+  - name: Bayterek Tower
+    description: "The capital's famed observation tower and national symbol."
+  - name: Nur-Astana and Hazret Sultan mosques
+    description: "Two of Kazakhstan's most impressive modern mosques."
+  - name: Palace of Peace and Reconciliation (Pyramid)
+    description: "A striking glass pyramid designed by Norman Foster."
+  - name: Kokshetau lakes and Burabay (Borovskoye)
+    description: "Scenic lakes and hills the Kazakhs call 'Kazakh Switzerland'."
+  - name: Astana's modern skyline
+    description: "A showcase of bold new architecture, including the Khan Shatyr tent."
+culturalTraits:
+  - "Astana is the purpose-built new capital (since 1997), a symbol of the independent nation"
+  - "The industrial and grain heartland of northern Kazakhstan, historically more Russified"
+  - "A cold, frontier character on the steppe — hardy and fast-growing"
+prideOf:
+  - "Astana as a modern capital risen from the steppe"
+  - "The country's wheat-belt agriculture and heavy industry"
+  - "National development and the 'new Kazakhstan' vision"
+animals:
+  popular:
+    - Steppe eagle (national bird)
+    - Saiga antelope
+    - Steppe fox
+  unique:
+    - "The Kazakh steppes' saiga antelope"
+industries:
+  - Government, finance and the emergent new-capital economy
+  - Wheat and grain farming (the breadbasket of the north)
+  - Heavy and metallurgical industry
+  - Logistics along the China-Europe corridor
+sports:
+  - Football (soccer) and ice hockey
+  - Boxing, wrestling and judo
+  - Winter sports
+sources:
+  - id: kaz-religion
+    name: "Religious composition of Kazakhstan (2021 census)"
+    publisher: "Bureau of National Statistics of the Republic of Kazakhstan"
+    url: "https://el.kz/en/693-of-kazakhstanis-profess-islam_95438"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "National religion figures applied as the region-level approximation for the north-central steppe (the north has a larger Orthodox share than the national figure; no region-level census split published)."

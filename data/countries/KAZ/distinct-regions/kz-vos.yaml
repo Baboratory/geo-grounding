@@ -1,0 +1,54 @@
+code: KZ-VOS
+name:
+  eng: East Kazakhstan (Oskemen, Altai)
+  local:
+    - languageCode: kaz
+      value: Шығыс Қазақстан (Shyghys Qazaqstan)
+    - languageCode: rus
+      value: Восточный Казахстан (Vostochny Kazakhstan)
+climates:
+  - koppenCode: Dfb
+    description: "Humid continental with strong continental extremes: bitterly cold winters and warm summers, with alpine conditions in the Altai mountains."
+landmarks:
+  - name: Oskemen (Ust-Kamenogorsk)
+    description: "An industrial city at the meeting of the Irtysh and Ulba rivers, near the Altai."
+  - name: Altai Mountains
+    description: "The pristine, snow-capped Altai range shared with Russia, China and Mongolia."
+  - name: Lake Markakol and the Katon-Karagai National Park
+    description: "Alpine lake and protected wilderness in the Kazakh Altai."
+  - name: Irtysh River valley
+    description: "One of Asia's great rivers, flowing through the region."
+  - name: Rakhmanov Springs
+    description: "Hot sulfa-spring spa in the Altai foothills."
+culturalTraits:
+  - "A rugged mountain and mining frontier where East Kazakhstan meets the Altai"
+  - "Historically a diverse, industrial and mining region (a former centre of Soviet non-ferrous metallurgy)"
+  - "Close cultural and economic links across the Russia-Kazakhstan border"
+prideOf:
+  - "The pristine Altai wilderness and alpine lakes"
+  - "Mining and metallurgy heritage"
+  - "The dramatic meeting of steppe and mountain"
+animals:
+  popular:
+    - Snow leopard (Altai)
+    - Altai argali (mountain sheep)
+    - Maral (red deer)
+  unique:
+    - "The endangered Altai argali, one of the world's largest wild sheep"
+industries:
+  - Non-ferrous metallurgy and mining (zinc, lead, rare metals)
+  - Hydroelectric power on the Irtysh
+  - Forestry and agriculture
+  - Tourism to the Altai and Lake Markakol
+sports:
+  - Skiing, mountaineering and hiking in the Altai
+  - Boxing, wrestling and ice hockey
+  - Football
+sources:
+  - id: kaz-religion
+    name: "Religious composition of Kazakhstan (2021 census)"
+    publisher: "Bureau of National Statistics of the Republic of Kazakhstan"
+    url: "https://el.kz/en/693-of-kazakhstanis-profess-islam_95438"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "National religion figures applied as the region-level approximation for East Kazakhstan (has a larger Orthodox share than the national figure; no region-level census split published)."

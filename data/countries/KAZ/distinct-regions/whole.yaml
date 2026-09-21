@@ -1,0 +1,128 @@
+code: WHOLE
+name:
+  eng: Kazakhstan
+  local:
+    - languageCode: kaz
+      value: Қазақстан (Qazaqstan)
+    - languageCode: rus
+      value: Казахстан (Kazakhstan)
+# Generic country-wide fallback content — used by get_data_by_ip.py when a
+# visitor's specific ISO 3166-2 region isn't one of the curated files, via the
+# whole-country-fallback path. Carries the full country-level bilingual name.
+climates:
+  - koppenCode: Dfa
+    description: "Humid continental in the north and central steppe: cold, snowy winters and warm summers."
+  - koppenCode: BSk
+    description: "Cold semi-arid steppe across the vast central and southern plains."
+  - koppenCode: BWk
+    description: "Cold desert in the arid west and south (near the Caspian and Aral basins)."
+landmarks:
+  - name: Astana skyline (Bayterek Tower)
+    description: "The futuristic capital's iconic observation tower and symbol."
+  - name: Almaty and the Zailiysky Alatau
+    description: "Kazakhstan's largest city at the foot of the Tien Shan."
+  - name: Charyn Canyon
+    description: "A dramatic red-rock canyon in the south-east, sometimes called the 'Grand Canyon's little brother'."
+  - name: Lake Balkhash
+    description: "One of the world's largest lakes, partly freshwater and partly saline."
+  - name: Kolsai Lakes
+    description: "Pristine alpine lakes in the Tien Shan."
+  - name: Mausoleum of Khoja Ahmed Yasawi, Turkestan
+    description: "A Timurid-era UNESCO World Heritage site and spiritual heart of the steppe."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Deep nomadic and steppe heritage; the yurt (kiiz üi) and the great steppe epics"
+  - "Horse culture — horse riding, koumiss (kymyz), and the national game kokpar (goat polo)"
+  - "The Kazakh language and national identity, revived since independence (1991)"
+  - "Kazakh hospitality (qonaqjailyq) — guests are honoured with food and tea"
+  - "The dombra (two-string lute) and traditional music"
+prideOf:
+  - "Independence (1991) and the nation's swift emergence as Central Asia's economic leader"
+  - "Astana — a modern capital built on the steppe"
+  - "The country's vastness and natural beauty, from the Caspian to the Altai"
+  - "Famous sons — from poet Abai Qunanbaiuly to modern athletes"
+animals:
+  popular:
+    - Snow leopard (national symbol of the steppe and mountains)
+    - Steppe eagle (national bird)
+    - Saiga antelope (steppe)
+    - Przewalski's horse (reintroduced)
+    - Bactrian camel
+  unique:
+    - "The endangered saiga antelope"
+    - "Przewalski's horse recovery in the steppe"
+industries:
+  - Oil and gas — the giant Kashagan and Tengiz fields in the west
+  - Mining — uranium (world leader), rare earths, copper, zinc, coal
+  - Agriculture — wheat (a top world exporter) and livestock in the north
+  - Finance and technology — Almaty and Astana, with the fintech powerhouse Kaspi.kz
+  - Transport and logistics — the Trans-Caspian and China-Europe rail corridors
+sports:
+  - Boxing (Kazakhstan is an Olympic boxing power), wrestling and judo
+  - Football (soccer), ice hockey and basketball
+  - The traditional horse game kokpar (buzkashi)
+  - Weightlifting and cycling
+religions:
+  - name: Islam (Sunni, predominantly Hanafi)
+    percent: 69.3
+    sourceId: kaz-religion
+  - name: Christianity (mostly Russian Orthodox)
+    percent: 17.2
+    sourceId: kaz-religion
+  - name: No religion / undeclared
+    percent: 13.3
+    sourceId: kaz-religion
+# Other religions (Buddhism, Judaism) and atheists make up the small remainder.
+entertainment:
+  - season: summer
+    items:
+      - "Alpine lake and mountain resorts (Kolsai, Almaty region) and steppe festivals"
+      - "Horse games, Nauryz spring festival gatherings and open-air concerts"
+  - season: winter
+    items:
+      - "Skiing and winter sports at Shymbulak (near Almaty) and in the Tien Shan"
+      - "New Year celebrations and indoor cultural life in the big cities"
+  - season: allYear
+    items:
+      - "National-music and opera scenes; dombra recitals and the Abai legacy"
+      - "Tea (shai) culture and the modern café/restaurant scenes of Astana and Almaty"
+traditionalDishes:
+  - season: summer
+    items:
+      - "Fresh grilled meats (shashlik), koumiss (kymyz) and seasonal fruit"
+  - season: winter
+    items:
+      - "Beshbarmak (boiled meat over noodles), the national dish"
+      - "Kuurdak (roasted meat), shorpo (meat broth) and kazy (horse-meat sausage)"
+      - "Baursaki (fried dough) and chak-chak"
+  - season: allYear
+    items:
+      - "Beshbarmak, plov (palau), manti (dumplings) and lagman"
+      - "Koumiss, ayran and flatbread (nan)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The shaplane (quilted coat), the kalpak or dombyra-horned headgear, felt boots and ornamented belts — worn at festivals, holidays and celebrations"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Roughly 9:00am-6:00pm Monday-Friday, with a midday lunch break; public offices often open 9:00am-6:00pm."
+  notes: "Nauryz (21-23 March) and Independence Day (16 December) are national holidays. Ramadan and Kurban Ait (Eid al-Adha) shift annually and affect rhythm. Summer vacations slow the pace."
+sources:
+  - id: kaz-religion
+    name: "Religious composition of Kazakhstan (2021 census thematic compendium)"
+    publisher: "Bureau of National Statistics of the Republic of Kazakhstan, reported via el.kz"
+    url: "https://el.kz/en/693-of-kazakhstanis-profess-islam_95438"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "2021 census: Islam 69.3%, Christianity 17.2%, other religions ~0.2%, no religion ~2.3%, undeclared ~11%. Grouped as 'no religion / undeclared' at 13.3% here."

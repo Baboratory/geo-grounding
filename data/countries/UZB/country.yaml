@@ -1,0 +1,145 @@
+alpha3: UZB
+alpha2: UZ
+name:
+  eng: Uzbekistan
+  local:
+    - languageCode: uzb
+      value: Oʻzbekiston Respublikasi (Ўзбекистон Республикаси)
+flagEmoji: "🇺🇿"
+capital: Tashkent
+isSovereign: true
+# Classified unitary-large: Uzbekistan is a unitary republic that nevertheless
+# contains the autonomous Republic of Karakalpakstan (Qoraqalpog'iston), which
+# has Karakalpak as an additional official language alongside Uzbek and a real
+# cultural-geographic identity — the classic recognized-regional-language +
+# cultural-divide pattern (Bolivia/Norway-style, not the Fiji/Vanuatu trap). It
+# gets real ISO 3166-2 region files (a curated subset, incl. Karakalpakstan)
+# alongside WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: UZ
+hasSubdivisions: true
+languageUsage:
+  - languageCode: uzb
+    domain: official
+    speakersShare: 1.0
+    sourceId: uzb-constitution
+  - languageCode: uzb
+    domain: locallySpoken
+    speakersShare: 0.85
+    sourceId: uzb-census-2021
+  - languageCode: rus
+    domain: locallySpoken
+    speakersShare: 0.10
+    sourceId: uzb-russian-est
+  - languageCode: kaa
+    domain: locallySpoken
+    speakersShare: 0.022
+    sourceId: uzb-census-2021
+  - languageCode: taj
+    domain: locallySpoken
+    speakersShare: 0.048
+    sourceId: uzb-census-2021
+# Uzbek is the sole official language (official 1.0). Karakalpak is additionally
+# official within the autonomous Republic of Karakalpakstan — flagged in prose
+# here and in the Karakalpakstan region file rather than as a second national
+# official row. Real usage in locallySpoken: Uzbek ~85% (ethnic proxy), Russian
+# ~10% as a lingua franca (estimate), Karakalpak ~2.2% and Tajik ~4.8% (ethnic
+# proxies; Tajik is the majority in parts of Samarkand and Bukhara regions).
+ethnicGroups:
+  - group: Uzbeks
+    percent: 84.5
+    sourceId: uzb-census-2021
+  - group: Tajiks
+    percent: 4.8
+    sourceId: uzb-census-2021
+  - group: Kazakhs
+    percent: 2.4
+    sourceId: uzb-census-2021
+  - group: Karakalpaks
+    percent: 2.2
+    sourceId: uzb-census-2021
+  - group: Russians
+    percent: 2.1
+    sourceId: uzb-census-2021
+  - group: Other (Kyrgyz, Turkmen, Koreans, etc.)
+    percent: 4.0
+    sourceId: uzb-census-2021
+timezones:
+  - name: Asia/Tashkent
+    standardUtcOffset: "UTC+5"
+    observesDst: false
+currency:
+  code: UZS
+  symbol: "soʻm"
+  name: Uzbekistani soʻm (sum)
+legalConstraints:
+  - topic: "official language"
+    description: "The Constitution (Art. 4) and the Law 'On the State Language' establish Uzbek as the state/Official language. Russian is not official but is widely used in inter-ethnic communication, business and government practice; Karakalpak is additionally official within the Republic of Karakalpakstan. State signage and documents are in Latin-script Uzbek (a transition from Cyrillic has been under way)."
+    sourceId: uzb-constitution
+  - topic: "EU membership status"
+    description: "Uzbekistan is NOT an EU/EEA member; EU directives (GDPR, PSD2, the 14-day EU withdrawal right) do not apply directly. Payments and data protection follow national law (Central Bank of Uzbekistan regulations and the Law on Personal Data)."
+    sourceId: uzb-eu-status
+paymentCulture:
+  popularMethods:
+    - "Click — the leading national payment system (quoted by ~71% of respondents in a 2024 digital-habits survey) for P2P, bills and QR merchant payments"
+    - "Payme — a very popular mobile payment app and merchant gateway (~65%)"
+    - "Uzum — the fast-growing fintech/BNPL ecosystem (Uzum Nasiya) and marketplace"
+    - Debit/credit cards (UzCard and Humo national schemes, plus Visa/Mastercard)
+    - "Cash (soʻm) — still commonly used, especially in markets and outside Tashkent"
+  tipping:
+    expected: true
+    typicalAmount: "~5-10% in restaurants; rounding up at cafés and taxis"
+    autoIncludedInBill: false
+    note: "Tipping is voluntary and modest; in sit-down restaurants, leaving ~5-10% for good service is appreciated though not mandatory. QR and mobile payment apps (Click, Payme, Uzum) are now widespread in the cities."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite, warm and hierarchical. Use title + first name or surname and the respectful form of address until invited to first names; elders and officials are treated with deference. Hospitality is central."
+  greetingNorms: "A handshake, often with the right hand to the heart, is standard; close friends may embrace. Tea and food are offered to every guest — accepting is a sign of respect."
+  meetingEtiquette: "Business is heavily relationship-driven; expect prolonged hospitality, tea and small talk before the agenda. Decisions are centralized and can take time. Punctuality from guests is appreciated even if local schedules run flexible."
+  topicsToAvoid:
+    - "Regional and ethnic sensitivities, and the status of minority languages"
+    - "Sensitive political or religious topics"
+    - "Criticism of the leadership"
+  giftGivingNotes: "A modest gift is well received once a relationship forms; give with the right hand. Hospitality (plov, tea, fruit) is the main gesture of goodwill."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: UZ-TK
+    file: distinct-regions/uz-tk.yaml
+    adminUnitCodes: [UZ-TK]
+  - code: UZ-QR
+    file: distinct-regions/uz-qr.yaml
+    adminUnitCodes: [UZ-QR]
+  - code: UZ-FA
+    file: distinct-regions/uz-fa.yaml
+    adminUnitCodes: [UZ-FA, UZ-NG, UZ-AN]
+  - code: UZ-SM
+    file: distinct-regions/uz-sm.yaml
+    adminUnitCodes: [UZ-SM, UZ-BU]
+sources:
+  - id: uzb-constitution
+    name: "Constitution of the Republic of Uzbekistan (2023 edition), Article 4; Law 'On the State Language'"
+    publisher: "Oliy Majlis (Supreme Assembly) of the Republic of Uzbekistan"
+    url: "https://constitution.uz/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "The legal basis for Uzbek as the state language; and the official-status of Karakalpak within the Republic of Karakalpakstan. Both are flagged in the official/locallySpoken rows and prose."
+  - id: uzb-census-2021
+    name: "Permanent population by national and/or ethnic group (2021)"
+    publisher: "Statistics Agency under the President of the Republic of Uzbekistan"
+    url: "https://stat.uz/"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "Ethnic shares (Uzbeks 84.5%, Tajiks 4.8%, Kazakhs 2.4%, Karakalpaks 2.2%, Russians 2.1%) used for the locallySpoken rows."
+  - id: uzb-russian-est
+    name: "Russian as a lingua franca in Uzbekistan (estimate)"
+    publisher: "Secondary estimate; contextual"
+    url: "https://stat.uz/"
+    accessedDate: "2026-09-19"
+    note: "FLAGGED ESTIMATE: Russian retains a significant role in business, administration and urban life beyond the ~2% ethnic-Russian share; ~10% locallySpoken is an approximation."
+  - id: uzb-eu-status
+    name: "Uzbekistan's international status"
+    publisher: "Composite; not an EU member state"
+    url: "https://www.consilium.europa.eu/"
+    accessedDate: "2026-09-19"
+    note: "Uzbekistan is not an EU member; EU directives do not apply directly. National law (Central Bank of Uzbekistan for payments, Law on Personal Data) governs."

@@ -1,0 +1,54 @@
+code: KZ-ATY
+name:
+  eng: Caspian West (Atyrau, Mangystau)
+  local:
+    - languageCode: kaz
+      value: Атырау (Atyrau)
+    - languageCode: rus
+      value: Атырау (Atyrau)
+climates:
+  - koppenCode: BWk
+    description: "Cold desert/steppe: extremely arid, hot summers and cold winters in the Caspian lowland."
+landmarks:
+  - name: Atyrau — Europe's eastern gateway
+    description: "A city straddling the Ural River, the traditional Europe-Asia boundary."
+  - name: Kashagan and Tengiz oil fields
+    description: "Some of the world's largest and most complex offshore and onshore oil fields."
+  - name: Caspian Sea coast
+    description: "The world's largest enclosed inland body of water."
+  - name: Mangystau plateau (Mangghystau)
+    description: "A stark, desert plateau of canyons, underground mosques and steppe beauty."
+  - name: Beket-Ata underground mosque
+    description: "A revered Sufi pilgrimage site carved into the Mangystau cliffs."
+culturalTraits:
+  - "The oil-and-gas heartland of Kazakhstan, driving national wealth"
+  - "Traditional Kazakh desert culture, camels and the yurt on the Mangystau steppe"
+  - "A hard, frontier Caspian climate and a workforce drawn from across the country"
+prideOf:
+  - "Powering the nation through oil and gas"
+  - "The remote, austere beauty of the Mangystau plateau"
+  - "Caspian seafaring and western-Kazakh identity"
+animals:
+  popular:
+    - Bactrian camel
+    - Saiga antelope
+    - Caspian seal
+  unique:
+    - "The Caspian seal, endemic to the world's largest inland sea"
+industries:
+  - Oil and gas extraction and refining (Kashagan, Tengiz, CPC pipeline)
+  - Petrochemicals
+  - Fisheries on the Caspian
+  - Logistics and ports (Aktau, Atyrau)
+sports:
+  - Boxing and wrestling
+  - Football
+  - Traditional horse games
+sources:
+  - id: kaz-religion
+    name: "Religious composition of Kazakhstan (2021 census)"
+    publisher: "Bureau of National Statistics of the Republic of Kazakhstan"
+    url: "https://el.kz/en/693-of-kazakhstanis-profess-islam_95438"
+    year: 2021
+    accessedDate: "2026-09-19"
+    note: "National religion figures applied as the region-level approximation for the Caspian west (overwhelmingly Muslim; no region-level census split published)."
