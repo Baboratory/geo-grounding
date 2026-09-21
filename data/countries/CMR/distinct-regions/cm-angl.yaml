@@ -1,0 +1,81 @@
+code: CM-ANGL
+name:
+  eng: Anglophone North-West & South-West
+  local:
+    - languageCode: eng
+      value: Anglophone North-West and South-West
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon on the SW coast and Mt Cameroon foothills (very wet, high rainfall)."
+  - koppenCode: Cwb
+    description: "Cooler highland climate on the Bamenda grassfields plateau (North-West)."
+landmarks:
+  - name: Mount Cameroon
+    description: "West Africa's highest peak (4,095m), an active volcano straddling the SW coast and the grassfields."
+  - name: Lake Nyos
+    description: "Crater lake in the North-West whose 1986 limnic eruption remains a landmark of natural-hazard science."
+  - name: Limbe black-sand beaches
+    description: "Volcanic black-sand beaches at the foot of Mt Cameroon, near the SW coast."
+culturalTraits:
+  - "English/British institutional and legal (common law) legacy from the 1961 federation of British Cameroons"
+  - "Strong Presbyterian, Baptist and mainstream Protestant traditions"
+  - "*Fon* (chief) chieftaincy systems and masquerade (juju) traditions of the grassfields"
+  - "Cameroon Pidgin (Kamtok) as the everyday lingua franca"
+prideOf:
+  - "English-language education and a democratic, activist regional identity"
+  - "The natural grandeur of Mt Cameroon and the grassy highlands"
+animals:
+  popular:
+    - "Drill monkey"
+    - "Chimpanzee"
+    - "Red-bellied monkey"
+  unique:
+    - "Mt Cameroon endemics and rich forest birdlife (e.g. in Korup National Park)"
+industries:
+  - "Petroleum and natural gas (SW coast)"
+  - "Palm oil and timber"
+  - "Coffee and tea (North-West highlands)"
+  - "Bananas/plantains and tourism (Mt Cameroon)"
+  - "Fishing along the coast"
+sports:
+  - "Football"
+  - "Athletics / hill running (Mt Cameroon 'Race of Hope')"
+  - "Boxing"
+entertainment:
+  - season: allYear
+    items:
+      - "Football and the English-speaking 'Anglo' cultural scene"
+      - "Funeral wakes and community celebrations"
+  - season: dry
+    items:
+      - "The annual Mt Cameroon Race of Hope"
+      - "Highland hiking around Bamenda"
+  - season: wet
+    items:
+      - "Indoor communal and church events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Achu and yellow soup"
+      - "Eru (erru) with water fufu"
+      - "Ndolé with plantains"
+      - "Pepper soup"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Wool *toghu* gowns and capes (North-West prestige fabric)"
+      - "Bamboo hats and wrappers"
+  - season: wet
+    items:
+      - "Warm cardigans on the cool, rainy highlands (July)"
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-17:30 Mon-Fri; English-language documents and common-law contracts dominate."
+  lunchBreakTiming: "13:00-14:00."
+  notes: "The Anglophone crisis (since 2016) has disrupted commerce, schooling and travel in parts of the NW/SW, limiting activity in some rural zones. Cameroon Pidgin (Kamtok) is the everyday informal lingua franca."
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10]

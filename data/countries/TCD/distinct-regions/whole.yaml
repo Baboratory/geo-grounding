@@ -1,0 +1,121 @@
+code: WHOLE
+name:
+  eng: Chad
+  local:
+    - languageCode: fra
+      value: Tchad
+climates:
+  - koppenCode: BWh
+    description: "Hot desert in the far north (Tibesti, Borkou, Ennedi) where rainfall can be under one inch a year."
+  - koppenCode: BSh
+    description: "Hot semi-arid Sahel belt across the centre."
+  - koppenCode: Aw
+    description: "Tropical savanna in the south around Moundou and Sarh."
+landmarks:
+  - name: Emi Koussi
+    description: "The highest peak in Chad (3,415m), a shield volcano in the Tibesti Massif of the far north."
+  - name: Ennedi Plateau
+    description: "A sandstone massif of arches, gorges and ancient rock art, in the far north-east."
+  - name: Lake Chad
+    description: "A shallow transboundary lake shared with neighbours, vital for the country's fishing and pastoral lifeways."
+culturalTraits:
+  - "A land of stark contrast between the Islamic Sahel/Sahara north and the Christian/animist south"
+  - "More than 120 languages and some 200 ethnic groups, with Chadian Arabic as the lingua franca"
+  - "Sahelian camel-rearing, transhumance and sultanate traditions (Wadai, Kanem-Bornu, Baguirmi)"
+prideOf:
+  - "The ancient Sahelian kingdoms and sultanates (Wadai, Kanem-Bornu)"
+  - "Sara agricultural culture of the 'rich' south"
+  - "Survival and cultural resilience amid Saharan harshness"
+animals:
+  popular:
+    - "Cattle, sheep, goats and dromedary camels"
+    - "Gazelle and Sahel antelopes"
+    - "Hippopotamus and crocodile in the Chari and Logone"
+  unique:
+    - "Addax and Barbary sheep of the desert"
+    - "The herds of Zakouma National Park (elephants, lions, giraffes)"
+industries:
+  - "Oil (petroleum, from the Doba basin)"
+  - "Cotton (historically the main export)"
+  - "Cattle, gum arabic and dry-season livestock trade"
+  - "Artisanal gold and subsistence agriculture"
+  - "Lake Chad fishing"
+sports:
+  - "Football (association football)"
+  - "Traditional wrestling"
+  - "Basketball (growing)"
+religions:
+  - name: Muslim (Sunni, largely Sufi Tijaniya)
+    percent: 52.1
+    sourceId: cwf-religion
+  - name: Protestant
+    percent: 23.9
+    sourceId: cwf-religion
+  - name: Roman Catholic
+    percent: 20.0
+    sourceId: cwf-religion
+  - name: Animist / traditional
+    percent: 0.3
+    sourceId: cwf-religion
+  - name: Other Christian
+    percent: 0.2
+    sourceId: cwf-religion
+  - name: None / unspecified
+    percent: 3.5
+    sourceId: cwf-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Football and wrestling — national passions"
+      - "Community music, dance and storytelling"
+  - season: dry
+    items:
+      - "Dry-season festivals, wedding and Eid celebrations (Nov-May)"
+      - "Livestock fairs and nomad gatherings in the Sahel"
+  - season: wet
+    items:
+      - "Farming seasons and village life; fishing on the Logone"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Boule (millet or sorghum porridge-cakes)"
+      - "Dried and smoked fish"
+      - "Meat stews, peanuts and dates"
+      - "Millet beer in non-Muslim areas"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men's boubou/gandoura and turban or chechia"
+      - "Women's brightly-coloured wrappers (pagnes) and headscarves"
+  - season: dry
+    items:
+      - "Light cotton clothing in the hot dry season; warm wraps in the cool Dec-Feb nights"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices ~08:00-16:00 Mon-Fri; many pause for Friday midday prayers."
+  lunchBreakTiming: "13:00-15:00."
+  notableShutdownPeriods:
+    - period: "Friday midday"
+      description: "Friday communal prayers slow commerce in the Muslim-majority north and east."
+  notes: "Overwhelmingly cash-based; banking is weak and concentrated in N'Djamena. Mobile money (Airtel Money, Moov Money) is expanding. The cool dry season (Nov-Feb) is the most active for trade."
+sources:
+  - id: cwf-religion
+    name: "CIA World Factbook — Chad (People: religion, 2014-15 est.)"
+    publisher: "CIA World Factbook (archived via Theodora.com)"
+    url: "https://theodora.com/world_fact_book_2024/chad/chad_people.html"
+    year: 2015
+    accessedDate: "2026-09-19"
+    note: "Muslim 52.1%, Protestant 23.9%, Roman Catholic 20%, animist 0.3%, other Christian 0.2%, none 2.8%."
+  - id: climate-note
+    name: "Britannica — Chad: Land and Climate"
+    publisher: "Encyclopaedia Britannica"
+    url: "https://www.britannica.com/place/Chad/Climate"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Records the three climate bands (hot desert north, semi-arid Sahel, tropical savanna south) and the single May-Oct wet season."

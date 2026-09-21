@@ -1,0 +1,119 @@
+code: WHOLE
+name:
+  eng: Central African Republic
+  local:
+    - languageCode: fra
+      value: République centrafricaine
+    - languageCode: sag
+      value: Ködörösêse tî Bêafrîka
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna — hot, dry winters and mild-to-hot, wet summers."
+  - koppenCode: Af
+    description: "Equatorial/tropical rainforest climate in the far south-west, humid year-round with peak rains."
+landmarks:
+  - name: Dzanga-Sangha Special Reserve
+    description: "Internationally renowned rainforest reserve in the south-west, part of the Sangha Trinational World Heritage Site, famed for gorillas and forest elephants."
+  - name: Bangui and the Oubangui River
+    description: "The capital on the Oubangui, centred on the river and the Boganda Museum."
+  - name: Manovo-Gounda St Floris National Park
+    description: "A UNESCO World Heritage Site of vast savannas and wildlife near the northern border."
+culturalTraits:
+  - "Extraordinary ethnic-linguistic diversity (Gbaya, Banda, Mandjia, Sara, Mbaka, Mboum, BaAka/pygmy peoples)"
+  - "Sango as a unifying indigenous national lingua franca — one of few African states with an indigenous official language"
+  - "Strong musical heritage (notably Zokela and the sanza thumb piano)"
+  - "BaAka ('pygmy') forest and foraging traditions in the south-west"
+prideOf:
+  - "Sango as an indigenous official language"
+  - "The Oubangui River and the natural riches of the rainforest"
+  - "Vast wildlife heritage from rainforest to northern savannas"
+animals:
+  popular:
+    - "Forest elephant"
+    - "Western lowland gorilla"
+    - "Chimpanzee"
+    - "Bongo antelope"
+  unique:
+    - "Sitatunga and goliath tigerfish"
+    - "Northern savanna wildlife (lions, giraffes) at Manovo-Gounda"
+industries:
+  - "Diamonds and gold (artisanal)"
+  - "Timber/hardwoods from the rainforest"
+  - "Coffee and cotton"
+  - "Subsistence agriculture (cassava, plantains, peanuts)"
+sports:
+  - "Basketball (widely considered the most popular sport)"
+  - "Football (soccer)"
+  - "Boxing"
+religions:
+  - name: Christian (Roman Catholic ~34.6%, Protestant ~15.7%, other Christian ~22.9%)
+    percent: 73.2
+    sourceId: cwf-religion
+  - name: Other Christian / unspecified Christian
+    percent: 15.8
+    sourceId: cwf-religion
+  - name: Muslim
+    percent: 9.0
+    sourceId: cwf-religion
+  - name: Folk / traditional beliefs
+    percent: 1.0
+    sourceId: cwf-religion
+  - name: Unaffiliated / other
+    percent: 1.0
+    sourceId: cwf-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Community music, dance and storytelling"
+      - "Church and faith-based gatherings"
+  - season: dry
+    items:
+      - "Dry-season festivals, fishing and outdoor markets (Nov-Mar)"
+      - "Christmas and Easter celebrations"
+  - season: wet
+    items:
+      - "Indoor community activities and church life; outdoor movement limited by rain"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Gozo (cassava/manioc paste-balls — the national staple)"
+      - "Cassava-leaf stews and peanut sauces"
+      - "River fish and grilled chicken"
+      - "Plantains"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Colourful wax-print wrappers (pagnes): boubou for men, wrapper and headwrap for women"
+      - "Modern urban wear in Bangui"
+  - season: dry
+    items:
+      - "Light cotton clothing for the hot dry season"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Bangui-centric; formal offices, diplomatic and NGO activity 08:00-16:30 Mon-Fri; markets open early and close by midday heat."
+  lunchBreakTiming: "12:30-15:00."
+  notableShutdownPeriods:
+    - period: "Wet season"
+      description: "Heavy rains (Apr-Oct) deteriorate roads and slow commerce and movement."
+  notes: "The economy is heavily informal and cash-based; mobile money (Orange Money, Airtel Money) is expanding in urban centres. Activity peaks in the cool, dry season; conflict-related instability has constrained economic life."
+sources:
+  - id: cwf-religion
+    name: "CIA World Factbook — CAR (People: religion, 2020 est.)"
+    publisher: "CIA World Factbook (archived via Theodora.com)"
+    url: "https://theodora.com/world_fact_book_2024/central_african_republic/central_african_republic_people.html"
+    year: 2020
+    accessedDate: "2026-09-19"
+    note: "Christian ~89% overall (Roman Catholic ~34.6%, Protestant ~15.7%, other Christian ~22.9% plus unspecified), Muslim ~9%, folk ~1%, unaffiliated ~1%."
+  - id: unesco
+    name: "UNESCO World Heritage Centre — Sangha Trinational / CAR sites"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1380"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Sangha Trinational World Heritage Site (2012) includes the CAR's Dzanga-Sangha Special Reserve."

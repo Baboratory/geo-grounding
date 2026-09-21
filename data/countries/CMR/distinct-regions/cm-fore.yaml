@@ -1,0 +1,80 @@
+code: CM-FORE
+name:
+  eng: Coastal & Southern Rainforest Belt
+  local:
+    - languageCode: fra
+      value: Littoral, Sud et Est
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate with year-round high humidity (Douala estuary, East region dense forest)."
+  - koppenCode: Am
+    description: "Tropical monsoon near the Gulf of Guinea coast."
+landmarks:
+  - name: Douala and the Wouri estuary
+    description: "Cameroon's economic capital and main port, on the Wouri; the Douala port is central to Central African trade."
+  - name: Dja Faunal Reserve
+    description: "UNESCO World Heritage Site — one of Africa's largest protected rainforest reserves, rich in gorillas and elephants."
+  - name: Campo-Ma'an National Park
+    description: "Coastal rainforest park home to western lowland gorillas and forest elephants."
+culturalTraits:
+  - "Bantu coastal and forest peoples (Duala, Basaa, Beti-Pahuin/Fang, Maka)"
+  - "Coastal palm-oil and fishing economy centred on Douala"
+  - "BaAka ('pygmy') forest traditions in the southern forests"
+  - "Port-city urbanity and the birthplace of makossa music"
+prideOf:
+  - "Douala as the economic heart and main gateway of Cameroon and Central Africa"
+  - "The gorilla and forest-elephant country of the Dja and Campo-Ma'an"
+animals:
+  popular:
+    - "Western lowland gorilla"
+    - "Forest elephant"
+    - "Chimpanzee"
+  unique:
+    - "Bongo antelope and mandrill of the forest belt"
+    - "Dja's rich endemic and sacred forest fauna"
+industries:
+  - "Petroleum and gas (incl. the Kribi port and hydroelectric projects)"
+  - "Cocoa, palm oil and rubber"
+  - "Timber"
+  - "Fishing (coastal and riverine)"
+  - "Port logistics and manufacturing (Douala)"
+sports:
+  - "Football"
+  - "Canoe/river regattas (Douala)"
+entertainment:
+  - season: allYear
+    items:
+      - "Makossa music scene in Douala"
+  - season: dry
+    items:
+      - "Dja and Campo beach/eco-tourism"
+      - "Kribi beach life (Nov-Feb)"
+  - season: wet
+    items:
+      - "Indoor cultural and church events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ndolé"
+      - "Poulet DG (chicken with plantains)"
+      - "Bobolo (smoked fish with cassava paste)"
+      - "Seafood and pepper soup in Douala"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light cotton wrappers and woven loincloths for the heat and humidity"
+      - "Makossa-brand shirts in the port social scene"
+  - season: wet
+    items:
+      - "Rain caps and light rainwear for the long wet season"
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "08:00-18:00 Mon-Fri in Douala's port and trade; markets open early."
+  lunchBreakTiming: "12:30-14:30."
+  notes: "Douala is the de facto economic capital; port-driven logistics and trade plus mobile-money-led settlements dominate. Plantation labour is seasonally tied to the rains."
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10]

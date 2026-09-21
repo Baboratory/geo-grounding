@@ -1,0 +1,162 @@
+alpha3: CAF
+alpha2: CF
+name:
+  eng: Central African Republic
+  local:
+    - languageCode: fra
+      value: République centrafricaine
+    - languageCode: sag
+      value: Ködörösêse tî Bêafrîka
+flagEmoji: "🇨🇫"
+capital: Bangui
+isSovereign: true
+# Classified unitary-small: CAR (~5.7M, 2024 est.) is a small state with no
+# single dominant recognized regional-language-plus-cultural-divide strong
+# enough to justify curated sub-regions. Sango and French are co-official and the
+# prefectures are purely administrative; there is NO genuine widely-recognized
+# cultural-historical regional divide that warrants curated regions. Therefore a
+# SINGLE synthetic WHOLE region, in line with the project's correction rule for
+# small states (see Fiji/Vanuatu/Samoa/Tonga/Kiribati/Nauru/Tuvalu -> unitary-small).
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  # Sango and French are co-official (Constitutions of 2016 and 2023); official
+  # domain is a legal-status flag = 1.0.
+  - languageCode: sag
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2023
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2023
+  # Sango is the everyday national lingua franca (~90% locally spoken); local
+  # Niger-Congo languages serve specific communities. Shares are ESTIMATES.
+  - languageCode: sag
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: languages-estimate
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: languages-estimate
+  - languageCode: gba
+    domain: locallySpoken
+    speakersShare: 0.3
+    sourceId: languages-estimate
+# CAR is a rare case of an African country with an indigenous language (Sango)
+# as an official national language alongside French. Sango serves as the common
+# everyday tongue across ethnic groups; Gbaya and other Niger-Congo languages
+# (Banda, Mandjia, Sara, Mbaka) anchor their respective communities. Shares are
+# composite estimates.
+ethnicGroups:
+  # CIA World Factbook, 2003 est.
+  - group: Gbaya
+    percent: 33.0
+    sourceId: cwf-ethnic
+  - group: Banda
+    percent: 27.0
+    sourceId: cwf-ethnic
+  - group: Mandjia
+    percent: 13.0
+    sourceId: cwf-ethnic
+  - group: Sara
+    percent: 10.0
+    sourceId: cwf-ethnic
+  - group: Mboum
+    percent: 7.0
+    sourceId: cwf-ethnic
+  - group: M'baka
+    percent: 4.0
+    sourceId: cwf-ethnic
+  - group: Yakoma
+    percent: 4.0
+    sourceId: cwf-ethnic
+  - group: Other (incl. Baka/pygmy forest peoples)
+    percent: 2.0
+    sourceId: cwf-ethnic
+timezones:
+  - name: Africa/Bangui
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+currency:
+  code: XAF
+  symbol: FCFA
+  name: Central African CFA franc
+legalConstraints:
+  - topic: "official languages"
+    description: "Sango and French are the official languages of the Central African Republic (Constitutions of 2016 and 2023). Sango is the broad national lingua franca and one of the few official languages in Africa to be of indigenous origin."
+    sourceId: constitution-2023
+  - topic: "land tenure (customary)"
+    description: "In practice much land is held under customary tenure; formal deeds cover only a small share of territory, and legal recognition of customary rights remains a point of instability."
+    sourceId: land-note
+  - topic: "security / instability context"
+    description: "Since 2013 the country has experienced armed conflict and humanitarian crisis that constrain governance, commerce and movement across much of the territory; a new Constitution was adopted at referendum in 2023."
+    sourceId: state-dept-note
+paymentCulture:
+  popularMethods:
+    - "Cash — overwhelmingly dominant in a largely informal, low-banking-penetration economy"
+    - "Mobile money (Orange Money, Airtel Money) — growing in Bangui and larger towns"
+    - "Bank cards and transfers — limited, mainly in Bangui"
+  tipping:
+    expected: false
+    typicalAmount: "Not a codified norm; small gratuities appreciated for service in Bangui"
+    autoIncludedInBill: false
+    note: "Qualitative and customary. The economy is heavily cash-based; mobile money is expanding in urban centres."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Respectful and relationship-centred; elders are respected. French is used in formal/administrative settings while Sango is the everyday tongue."
+  greetingNorms: "An exchange of greetings is essential — usually in Sango, the common national lingua franca ('Bara mo')."
+  meetingEtiquette: "Meetings open with greetings and often prayer or pleasantries; relationships precede business; decisions are consultative."
+  topicsToAvoid:
+    - "The armed conflict and inter-communal tensions"
+    - "Sensitive national politics and the security situation"
+    - "Ethnic distinctions framed divisively"
+  giftGivingNotes: "Modest, respectful gifts are appreciated; communities value generosity."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cwf-people
+    name: "CIA World Factbook — Central African Republic (People, Economy, Religions)"
+    publisher: "CIA World Factbook (archived via Theodora.com)"
+    url: "https://theodora.com/world_fact_book_2024/central_african_republic/central_african_republic_people.html"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Population ~5,650,957 (2024 est.); Gbaya 33%, Banda 27% etc.; Sango and French official; religion ~89% Christian."
+  - id: constitution-2023
+    name: "Constitution of the Central African Republic 2023 (official languages)"
+    publisher: "Republic of Central Africa / ILO NATLEX"
+    url: "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/118285/CAF-118285.pdf"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Sango and French are the official languages; adopted by referendum 2023."
+  - id: languages-estimate
+    name: "Composite estimate — CAR language availability (Ethnologue, CIA, Britannica)"
+    publisher: "Composite estimate (CIA World Factbook, Ethnologue)"
+    url: "https://www.ethnologue.com/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Sango is the national lingua franca (~90% locally spoken); Gbaya and other Niger-Congo languages anchor communities; shares are composite estimates."
+  - id: cwf-ethnic
+    name: "CIA World Factbook — CAR ethnic groups (2003 est.)"
+    publisher: "CIA World Factbook (archived via Theodora.com)"
+    url: "https://theodora.com/world_fact_book_2024/central_african_republic/central_african_republic_people.html"
+    year: 2003
+    accessedDate: "2026-09-19"
+    note: "Gbaya 33%, Banda 27%, Mandjia 13%, Sara 10%, Mboum 7%, M'baka 4%, Yakoma 4%."
+  - id: state-dept-note
+    name: "U.S. State Department — CAR overview"
+    publisher: "U.S. Department of State"
+    url: "https://2021-2025.state.gov/countries/central-african-republic/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Context of conflict since 2013, humanitarian crisis, and the 2023 constitutional transition."
+  - id: land-note
+    name: "Land tenure and customary rights in the Central African Republic"
+    publisher: "Composite estimate (land tenure literature / FAO)"
+    url: "https://www.fao.org/gender-landrights-database/country-profiles/countrieslist/en/?country_iso3=CAF"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Places customary land tenure as the practical norm, with formal deeds covering a small share of territory, and legal insecurity a driver of instability."

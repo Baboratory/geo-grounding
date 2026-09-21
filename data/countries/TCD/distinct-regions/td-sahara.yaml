@@ -1,0 +1,78 @@
+code: TD-SAHARANNORTH
+name:
+  eng: Toubou / Gorane Far North (Borkou-Ennedi-Tibesti)
+  local:
+    - languageCode: fra
+      value: Nord saharien (Borkou-Ennedi-Tibesti)
+climates:
+  - koppenCode: BWh
+    description: "Hot desert (Sahara) with under one inch of rain a year; Faya-Largeau is one of the driest inhabited places on Earth."
+landmarks:
+  - name: Emi Koussi
+    description: "Chad's highest point (3,415m), a dormant shield volcano in the Tibesti Massif."
+  - name: Ennedi Plateau
+    description: "Sandstone massif famed for arches, gorges, gueltas (rock pools) and prehistoric rock art."
+  - name: Guelta d'Archei
+    description: "A storied desert water hole in the Ennedi, famous for its crocodile population."
+culturalTraits:
+  - "Nomadic, camel-herding Tubu/Teda (Daza) 'Gorane' — fiercely independent Saharan clans"
+  - "Deeply Islamized yet strongly egalitarian, with the historic Tubu diwan (council) tradition"
+  - "Trans-Saharan caravan connections between the Sahel and Libya"
+prideOf:
+  - "Extraordinary desert survival skills and Saharan mobility"
+  - "Emi Koussi and the Tibesti-Ennedi massifs"
+animals:
+  popular:
+    - "Dromedary camels"
+    - "Dorcas gazelle"
+    - "Fennec fox"
+  unique:
+    - "Addax and Barbary sheep (endangered Saharan antelope)"
+    - "The guelta crocodile of Ennedi"
+industries:
+  - "Trans-Saharan trade and caravan logistics"
+  - "Salt/natron extraction (Borkou)"
+  - "Subsistence herding and oasis agriculture, livestock markets at Faya"
+sports:
+  - "Camel racing"
+  - "Football (limited)"
+  - "Traditional wrestling at festivals"
+entertainment:
+  - season: dry
+    items:
+      - "Cooler dry-season (Nov-Mar) gatherings and festivals tied to camel fairs"
+      - "Desert travel and trade caravans"
+  - season: wet
+    items:
+      - "Rare rain events concentrate activity; oasis farming"
+  - season: allYear
+    items:
+      - "Pastoral and family life around wells"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Millet and sorghum porridge and flatbreads"
+      - "Camel milk and dried meat"
+      - "Dates and tea"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Flowing boubou/gandoura robe with a turban (tagelmust) against the desert sun"
+      - "Loose white cotton in the hottest months (Mar-Jun)"
+  - season: dry
+    items:
+      - "Heavier wraps for cool desert nights (Dec-Feb)"
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Work is concentrated in the cooler early morning and evening to avoid the midday desert heat; government offices start early (~07:00)."
+  lunchBreakTiming: "A long midday break during the hottest hours."
+  notableShutdownPeriods:
+    - period: "Hottest months"
+      description: "Activity drops sharply in the intense March-June heat; the cooler dry season (Nov-Feb) is the active period."
+  notes: "Work and trade are strongly tuned to the cooler dry season (Oct-Feb); midday desert heat halts most outdoor activity."
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]

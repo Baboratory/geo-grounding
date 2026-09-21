@@ -1,0 +1,207 @@
+alpha3: CMR
+alpha2: CM
+name:
+  eng: Cameroon
+  local:
+    - languageCode: fra
+      value: Cameroun
+    - languageCode: eng
+      value: Cameroon
+flagEmoji: "🇨🇲"
+capital: Yaoundé
+isSovereign: true
+# Classified unitary-large: Cameroon (~29M, 2024, World Bank) is a unitary
+# decentralized Republic (NOT federal) but has a genuine, widely-recognized
+# cultural-historical regional divide — the Anglophone North-West & South-West
+# (English common law, heir of the 1961 British Cameroons federation) vs the
+# Francophone civil-law rest — plus the Islamized Sahelian North vs the
+# Christian forest-coastal South, and a distinct West/Centre highland axis.
+# Curated regions: CM-ANGL (Anglophone NW/SW), CM-NORTH (Sahelian North),
+# CM-FORE (Coastal/Southern rainforest), CM-MID (West/Centre highlands) + WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: CM
+hasSubdivisions: true
+languageUsage:
+  # French and English are BOTH official with equal status (1996 Constitution
+  # Art 1(3)); official domain is a legal-status flag = 1.0.
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1996
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1996
+  # Locally-spoken shares are COMPOSITE ESTIMATES combining first-language and
+  # lingua-franca usage (no official language census since 1987); Cameroon Pidgin
+  # (wes) is the widest spoken informal lingua franca.
+  - languageCode: wes
+    domain: locallySpoken
+    speakersShare: 0.5
+    sourceId: ethnologue-estimate
+  - languageCode: fub
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: ethnologue-estimate
+  - languageCode: bbj
+    domain: locallySpoken
+    speakersShare: 0.07
+    sourceId: ethnologue-estimate
+  - languageCode: bas
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: ethnologue-estimate
+  - languageCode: ewo
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: ethnologue-estimate
+  - languageCode: dua
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: ethnologue-estimate
+  - languageCode: fmp
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: ethnologue-estimate
+  - languageCode: nwe
+    domain: locallySpoken
+    speakersShare: 0.005
+    sourceId: ethnologue-estimate
+  - languageCode: fan
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: ethnologue-estimate
+# Cameroon has ~250 ethnic-linguistic groups and 24 major African language
+# clusters. The shares above are curated estimates: Kamtok/Cameroon Pidgin is
+# the widest informal lingua franca (esp. Anglophone NW/SW and urban zones);
+# Adamawa Fulfulde anchors the Islamized North; Ghomálá'/Fe'fe'/Ngwe represent
+# the Bamileke cluster of the West; Ewondo/Duala/Basaa/Fang the Beti-Bantu
+# centre/coast/south.
+ethnicGroups:
+  # CIA World Factbook (mirrored via Relief Central), combined with MSU 'Africa
+  # in Miniature'; shares are estimates.
+  - group: Cameroon Highlanders (Bamileke, Bamoun, Tikar)
+    percent: 31.0
+    sourceId: cwf-ethnic
+  - group: Equatorial Bantu (Basa, Duala, Beti-Pahuin)
+    percent: 19.0
+    sourceId: cwf-ethnic
+  - group: Kirdi (non-Islamized peoples of the north)
+    percent: 11.0
+    sourceId: cwf-ethnic
+  - group: Fulani / Peul
+    percent: 10.0
+    sourceId: cwf-ethnic
+  - group: Northwestern Bantu
+    percent: 8.0
+    sourceId: cwf-ethnic
+  - group: Eastern Nigritic (Gbaya, Banda, Adamawa-Ubangi)
+    percent: 7.0
+    sourceId: cwf-ethnic
+  - group: Other African
+    percent: 13.0
+    sourceId: cwf-ethnic
+  - group: Non-African
+    percent: 1.0
+    sourceId: cwf-ethnic
+timezones:
+  - name: Africa/Douala
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+currency:
+  code: XAF
+  symbol: FCFA
+  name: Central African CFA franc
+legalConstraints:
+  - topic: "official languages"
+    description: "French and English are both official languages with equal status, and the State guarantees the promotion of bilingualism throughout the country (Constitution of Cameroon 1996, Art 1(3))."
+    sourceId: constitution-1996
+  - topic: "secular unitary state"
+    description: "Cameroon is a decentralized, unitary and 'one and indivisible', secular Republic (Constitution 1996, Art 1(2)); equality of all citizens is guaranteed."
+    sourceId: constitution-1996
+  - topic: "land tenure"
+    description: "The 1974 National Land Law (Ordinance 74-1/74-2, as amended 1977) classes untitled/customary land as 'national land'; a land certificate is the only proof of title and fewer than 20% of rural parcels are formally titled, leaving most land under customary tenure without security."
+    sourceId: land-law-1974
+  - topic: "forestry / customary forest rights"
+    description: "Law No 94/01 of 20 January 1994 (Forests, Wildlife and Fisheries) grants local communities only usufruct rights to forest products, weakening customary land/property recognition in forest zones."
+    sourceId: forestry-law-1994
+paymentCulture:
+  popularMethods:
+    - "Mobile money — MTN MoMo and Orange Money, dominant (>90% of mobile payments; widely used even in semi-urban areas)"
+    - "Cash — still king in rural/northern areas and street markets"
+    - "Bank cards (Visa/Mastercard, local CEMAC cards) — mainly in Douala, Yaoundé and Buea and top hotels/restaurants"
+    - "Bank transfer for formal transactions"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected; round up in taxis/markets; ~5-10% only in upscale city restaurants and hotels"
+    autoIncludedInBill: false
+    note: "Qualitative and customary. Mobile money is the defining feature of Cameroon's payment landscape — MTN MoMo and Orange Money serve as de facto accounts for the majority."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Hierarchical and relationship-first; courtesy titles (Monsieur/Madame, Dr., Chief) matter. A greeting is obligatory before any business."
+  greetingNorms: "Warm handshake is standard; 'Bonjour, ça va?' / francophone, 'How na you?' in Pidgin, 'Hello, how are you?' in Anglophone zones. In the North, an Islamic greeting (Assalamu alaikum) ahead of the day's affairs."
+  meetingEtiquette: "Meetings open with pleasantries and tea/coffee before the agenda; seniority speaks first and last; decisions are slow and consensus-driven; avoid direct confrontation with a superior."
+  topicsToAvoid:
+    - "The Anglophone (NW/SW) crisis and separatist conflict"
+    - "The Boko Haram insurgency in the Far North"
+    - "Direct criticism of the government or President Paul Biya"
+    - "Sensitive ethno-regional slights and juju references"
+  giftGivingNotes: "Not expected in business; modest gifts appreciated when visiting a home; in the North a handshake with the right hand and respect for elders matters."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: CM-ANGL
+    file: distinct-regions/cm-angl.yaml
+    adminUnitCodes: [CM-NW, CM-SW]
+  - code: CM-NORTH
+    file: distinct-regions/cm-north.yaml
+    adminUnitCodes: [CM-EN, CM-NO, CM-AD]
+  - code: CM-FORE
+    file: distinct-regions/cm-fore.yaml
+    adminUnitCodes: [CM-LT, CM-SU, CM-ES]
+  - code: CM-MID
+    file: distinct-regions/cm-mid.yaml
+    adminUnitCodes: [CM-OU, CM-CE]
+sources:
+  - id: world-bank
+    name: "World Bank — Cameroon overview and WDI population (29.1M, 2024)"
+    publisher: "World Bank"
+    url: "https://www.worldbank.org/en/country/cameroon"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Headline population ~29.1M (2024); also documents the Anglophone-crisis displacement context."
+  - id: constitution-1996
+    name: "Constitution of the Republic of Cameroon (Law No. 96-06, 18 January 1996)"
+    publisher: "Republic of Cameroon"
+    url: "https://www.prc.cm/en/multimedia/documents/6285-loi-n-96-06-du-18-01-1996-revision-constitution-1972-en"
+    year: 1996
+    accessedDate: "2026-09-19"
+    note: "Art 1(2) decentralized unitary secular State; Art 1(3) French and English co-official with equal status; Art 1(8) Yaoundé is the capital."
+  - id: cwf-ethnic
+    name: "CIA World Factbook — Cameroon (People: ethnic groups)"
+    publisher: "CIA World Factbook (archived via Theodora.com)"
+    url: "https://theodora.com/world_fact_book_2024/cameroon/cameroon_people.html"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Cameroon Highlanders 31%, Equatorial Bantu 19%, Kirdi 11%, Fulani 10%, Northwestern Bantu 8%, Eastern Nigritic 7%, other African 13%, non-African <1%."
+  - id: ethnologue-estimate
+    name: "Composite estimate — Cameroon language availability (Ethnologue / linguistic literature)"
+    publisher: "Composite estimate (Ethnologue, SIL)"
+    url: "https://www.ethnologue.com/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "No official language census since 1987; shares of locally-spoken languages (Pidgin/Kamtok, Fulfulde, Bamileke cluster, Beti-Bantu) are composite estimates."
+  - id: land-law-1974
+    name: "Cameroon National Land Law — Ordinances No. 74-1 and 74-2 of 6 July 1974 (as amended 1977)"
+    publisher: "Republic of Cameroon / MINDCAF"
+    url: "https://mindcaf.gov.cm/en/publications/376"
+    year: 1974
+    accessedDate: "2026-09-19"
+    note: "Classes untitled/customary land as 'national land'; land certificate is the only proof of title; <20% of land is titled."
+  - id: forestry-law-1994
+    name: "Law No 94/01 of 20 January 1994 — Forestry, Wildlife and Fisheries"
+    publisher: "Republic of Cameroon (via UNODC Sherloc/CLD legal database)"
+    url: "https://www.unodc.org/cld/document/cmr/1994/law_no._94-01_of_20_january_1994_to_lay_down_forestry_wildlife_and_fisheries_regulations_en.html"
+    year: 1994
+    accessedDate: "2026-09-19"
+    note: "Grants communities only usufruct of forest products, weakening customary land/property recognition in forest zones."

@@ -1,0 +1,218 @@
+alpha3: TCD
+alpha2: TD
+name:
+  eng: Chad
+  local:
+    - languageCode: fra
+      value: Tchad
+    - languageCode: arb
+      value: تشاد (Tshad)
+flagEmoji: "🇹🇩"
+capital: N'Djamena
+isSovereign: true
+# Classified unitary-large: Chad (~18.5M, 2023 est.) sits at the small/large
+# boundary but has a genuine, widely-recognized cultural-historical regional
+# divide — the Islamized Sahel/Saharan north and east (Arab, Fulani, Maba,
+# Kanembu, Zaghawa, Tubu/Gorane) vs the Christian/animist Sara-dominated south
+# — and officially recognized regional languages. The state is a unitary
+# Republic with decentralization (2023 Constitution), so NOT federal. Curated
+# regions: TD-SAHARANNORTH (Toubou/Gorane far north, Borkou-Ennedi-Tibesti),
+# TD-SAHEL (Muslim Sahel & east), TD-SOUTH (Sara Christian/animist south) + WHOLE.
+governanceType: unitary-large
+iso3166_2_prefix: TD
+hasSubdivisions: true
+languageUsage:
+  # French and Arabic are co-official (Constitution 2023, Art 10); official
+  # domain is a legal-status flag = 1.0.
+  - languageCode: fra
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2023
+  - languageCode: arb
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-2023
+  # Locally-spoken shares are COMPOSITE ESTIMATES. Chadian Arabic (shu) is the
+  # lingua franca of commerce; Sara (sre) dominates the south; the others anchor
+  # specific regions.
+  - languageCode: shu
+    domain: locallySpoken
+    speakersShare: 0.6
+    sourceId: languages-estimate
+  - languageCode: sre
+    domain: locallySpoken
+    speakersShare: 0.3
+    sourceId: languages-estimate
+  - languageCode: fuv
+    domain: locallySpoken
+    speakersShare: 0.08
+    sourceId: languages-estimate
+  - languageCode: kau
+    domain: locallySpoken
+    speakersShare: 0.06
+    sourceId: languages-estimate
+  - languageCode: mde
+    domain: locallySpoken
+    speakersShare: 0.04
+    sourceId: languages-estimate
+  - languageCode: zag
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: languages-estimate
+  - languageCode: dzg
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: languages-estimate
+  - languageCode: tuq
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: languages-estimate
+# Chad has more than 120 indigenous languages across some 200 ethnic groups.
+# Chadian Arabic (shu) is the widest-spoken lingua franca (~60% functional);
+# Sara (sre) or its dialects anchor the south; Nigerian Fulfulde (fuv) and the
+# Fulah cluster the pastoralists; Kanuri (kau) the Lake Chad northwest; Maba
+# (mde) the Ouaddaï/wadi; Zaghawa (zag) the far east; Dazaga (dzg) and Tedaga
+# (tuq) the Gorane (Tubu/Teda) of the BET region.
+ethnicGroups:
+  # CIA World Factbook, 2014-15 est.
+  - group: Sara (Ngambaye, Sara, Madjingaye, Mbaye)
+    percent: 30.5
+    sourceId: cwf-ethnic
+  - group: Kanembu / Bornu / Buduma
+    percent: 9.8
+    sourceId: cwf-ethnic
+  - group: Arab
+    percent: 9.7
+    sourceId: cwf-ethnic
+  - group: Wadai / Maba / Masalit / Mimi
+    percent: 7.0
+    sourceId: cwf-ethnic
+  - group: Gorane (Tubu, Teda, Daza)
+    percent: 5.8
+    sourceId: cwf-ethnic
+  - group: Masa / Musseye / Musgum
+    percent: 4.9
+    sourceId: cwf-ethnic
+  - group: Bulala / Medogo / Kuka
+    percent: 3.7
+    sourceId: cwf-ethnic
+  - group: Marba / Lele / Mesme
+    percent: 3.5
+    sourceId: cwf-ethnic
+  - group: Mundang
+    percent: 2.7
+    sourceId: cwf-ethnic
+  - group: Bidiyo / Migaama / Kenga / Dangleat
+    percent: 2.5
+    sourceId: cwf-ethnic
+  - group: Dadjo / Kibet / Muro
+    percent: 2.4
+    sourceId: cwf-ethnic
+  - group: Tupuri / Kera
+    percent: 2.0
+    sourceId: cwf-ethnic
+  - group: Fulani / Fulbe / Bodore
+    percent: 1.8
+    sourceId: cwf-ethnic
+  - group: Baguirmi / Barma
+    percent: 1.2
+    sourceId: cwf-ethnic
+  - group: Other (some 200 ethnic groups total)
+    percent: 12.5
+    sourceId: cwf-ethnic
+timezones:
+  - name: Africa/Ndjamena
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+currency:
+  code: XAF
+  symbol: FCFA
+  name: Central African CFA franc
+legalConstraints:
+  - topic: "official languages"
+    description: "French and Arabic are the co-official languages of Chad (Constitution of 2023, Art 10)."
+    sourceId: constitution-2023
+  - topic: "secular unitary state"
+    description: "Chad is a secular republic described as 'unitary with decentralization' (2023 Constitution); the State prohibits propaganda of an ethnic, tribal, regional or religious nature that undermines national unity or secularism."
+    sourceId: state-dept-irf
+  - topic: "Muslim personal-status influence"
+    description: "The government-recognized High Islamic Council (HCIA) has jurisdiction over some personal-status matters (marriage, divorce, property between spouses, parentage) for those who consent, alongside civil law; a unified family code has remained in draft."
+    sourceId: state-dept-irf
+  - topic: "religious-group registration"
+    description: "Religious groups (except indigenous) must register with the Ministry of the Interior; the State is secular but proscribes certain unsolicited proselytizing activity."
+    sourceId: state-dept-irf
+paymentCulture:
+  popularMethods:
+    - "Cash — overwhelmingly dominant, especially 'off the grid'; banking is weak and concentrated in N'Djamena"
+    - "Mobile money — Airtel Money and Moov Money (formerly Tigo Cash), growing rapidly, USSD-based"
+    - "Bank cards — limited, mainly in N'Djamena"
+  tipping:
+    expected: false
+    typicalAmount: "Not a codified norm; a small gratuity for service in hotels/restaurants is appreciated"
+    autoIncludedInBill: false
+    note: "Qualitative and customary. The economy is heavily cash-based; mobile money (Airtel Money, Moov Money) is expanding most quickly in N'Djamena and regional capitals."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Hierarchical and status-conscious; respect for elders and authority is central. French is reserved for formal/administrative settings while Chadian Arabic is the lingua franca."
+  greetingNorms: "Warm handshakes; in the Muslim north/east greetings open with 'As-salamu alaikum' and the right hand is used for handshakes and offers."
+  meetingEtiquette: "Relationships and pleasantries precede business; decisions are consultative and slow; in the north, pause for Friday midday prayers is respected."
+  topicsToAvoid:
+    - "Ethnic and regional tensions, and the historic north-south divide"
+    - "Sensitive religious classification and sectarian history"
+    - "Contentious politics of the armed transition"
+  giftGivingNotes: "In the north, use the right hand when offering or receiving; modest, respectful gifting is customary on visits."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: TD-SAHARANNORTH
+    file: distinct-regions/td-sahara.yaml
+    adminUnitCodes: [TD-BO, TD-EE, TD-EO, TD-TI]
+  - code: TD-SAHEL
+    file: distinct-regions/td-sahel.yaml
+    adminUnitCodes: [TD-OD, TD-SI, TD-WF, TD-BA, TD-KA, TD-BG, TD-CB, TD-HL]
+  - code: TD-SOUTH
+    file: distinct-regions/td-south.yaml
+    adminUnitCodes: [TD-LO, TD-LR, TD-MC, TD-MA, TD-TA, TD-ME, TD-MO]
+sources:
+  - id: cwf-people
+    name: "CIA World Factbook — Chad (People: population, ethnic groups, languages, religion)"
+    publisher: "CIA World Factbook (archived via Theodora.com)"
+    url: "https://theodora.com/world_fact_book_2024/chad/chad_people.html"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Population 18,523,165 (2023 est.); ethnic breakdown; French/Arabic official; religion ~52% Muslim, ~44% Christian."
+  - id: constitution-2023
+    name: "Constitution of the Republic of Chad 2023 (Art 10: official languages)"
+    publisher: "Republic of Chad / WHO CPCD"
+    url: "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/TCD_Chad_Constitution_2023.pdf"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "French and Arabic are the official languages; a secular, unitary state with decentralization."
+  - id: state-dept-irf
+    name: "U.S. State Department — 2023 Report on International Religious Freedom: Chad"
+    publisher: "U.S. Department of State"
+    url: "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/chad/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Documents the High Islamic Council's personal-status jurisdiction, religious registration, and the north/south religious geography."
+  - id: languages-estimate
+    name: "Composite estimate — Chad language availability (Ethnologue / CIA; more than 120 indigenous languages)"
+    publisher: "Composite estimate (CIA World Factbook, Ethnologue)"
+    url: "https://www.ethnologue.com/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Chadian Arabic is the lingua franca; Sara dominates the south; shares are composite estimates acknowledging >120 indigenous languages."
+  - id: cwf-ethnic
+    name: "CIA World Factbook — Chad ethnic groups (2014-15 est.)"
+    publisher: "CIA World Factbook (archived via Theodora.com)"
+    url: "https://theodora.com/world_fact_book_2024/chad/chad_people.html"
+    year: 2015
+    accessedDate: "2026-09-19"
+    note: "Sara 30.5%, Kanembu/Bornu/Buduma 9.8%, Arab 9.7%, Wadai/Maba/Masalit/Mimi 7%, Gorane 5.8%, and many more."
+  - id: timezone
+    name: "Timeanddate.com — N'Djamena time zone"
+    publisher: "Time and Date AS"
+    url: "https://www.timeanddate.com/time/zone/chad/ndjamena"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Africa/Ndjamena, UTC+1, no daylight saving (2020-2029 sequence unchanged)."

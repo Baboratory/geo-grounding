@@ -1,0 +1,80 @@
+code: TD-SOUTH
+name:
+  eng: Sara Christian/Animist South (Logone, Moyen-Chari, Mandoul, Tandjilé...)
+  local:
+    - languageCode: fra
+      value: Sud (Logone, Moyen-Chari, Mandoul, Tandjilé, Mayo-Kebbi)
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna; Moundou and Sarh receive roughly 800-1,200mm of rain, mostly May-October."
+landmarks:
+  - name: Chari and Logone rivers
+    description: "The great rivers draining the south that meet to form the Chari before reaching Lake Chad."
+  - name: Sarh
+    description: "Major city on the Chari basin, a centre of the south's agriculture."
+  - name: Moundou
+    description: "Cotton- and brewing-hub of the Logone, and Chad's second city."
+culturalTraits:
+  - "Sara agricultural clan societies — decentralized, patrilineal, historically with distinctive body-marking and scarification traditions"
+  - "Christian (Protestant and Catholic) plus animist/ancestral reverence"
+  - "Strong colonial-era 'Tchad utile' legacy and deep integration into the state"
+  - "Vibrant river-fishing and farming culture"
+prideOf:
+  - "The agricultural 'wealth' of the south and the Chari/Logone river lifeways"
+  - "Sara heritage and the fishing culture of the great rivers"
+animals:
+  popular:
+    - "Cattle, sheep and goats"
+    - "Hippopotamus and Nile crocodile in the rivers"
+    - "Savanna wildlife at the eastern margin (Zakouma: elephants, lions, giraffes)"
+  unique:
+    - "Rich freshwater fish of the Chari-Logone (incl. the goliath tigerfish)"
+industries:
+  - "Subsistence and market agriculture (millet, sorghum, rice, cotton historically)"
+  - "Fishing on the Chari and Logone"
+  - "Brewing and sugar"
+  - "Tourism (Zakouma National Park, to the east)"
+sports:
+  - "Football"
+  - "Traditional wrestling"
+  - "Basketball (growing)"
+entertainment:
+  - season: dry
+    items:
+      - "Post-harvest festivals and markets (Nov-May)"
+      - "Christmas and Easter celebrations in Christian villages"
+      - "Fishing festivals"
+  - season: wet
+    items:
+      - "Farming season busiest; village and church life"
+  - season: allYear
+    items:
+      - "Music, dance and storytelling"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Boule (millet/sorghum porridge), cassava and peanuts"
+      - "River fish and chicken/meat stews"
+      - "Millet beer"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Brightly-coloured wax wrappers (pagnes) and dresses for women"
+      - "Shirts and trousers for men"
+  - season: dry
+    items:
+      - "Light cotton in the hot dry season; warmer layers in the cool Dec-Feb nights"
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Markets open early and follow the farming calendar; most travel and trade follows the roads that the dry season makes passable."
+  lunchBreakTiming: "13:00-15:00."
+  notableShutdownPeriods:
+    - period: "Wet season"
+      description: "The rainy season (May-Oct) is dominated by farm work and roads deteriorate, slowing trade."
+  notes: "The farming calendar dominates; the cool dry season (Dec-Feb) is the busiest for markets and movement."
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
