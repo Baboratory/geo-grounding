@@ -1,0 +1,82 @@
+code: MY-01
+name:
+  eng: Johor
+  local:
+    - languageCode: msa
+      value: Johor
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate — hot and humid year-round with the heaviest rain in the northeast monsoon months (roughly November-January) and a drier spell mid-year."
+landmarks:
+  - name: Legoland Malaysia and the Iskandar development
+    description: "Southeast Asia's Legoland and the fast-growing Johor Bahru conurbation across from Singapore."
+  - name: Sultan Abu Bakar State Mosque
+    description: "Johor's grand Moorish-style state mosque overlooking the Straits of Johor."
+  - name: Johor Bahru's lively markets and food streets
+    description: "A cross-border food and shopping hub frequented by Singaporeans."
+  - name: Desaru coast and Kota Tinggi waterfalls
+    description: "Beaches and waterfalls on Johor's eastern coast."
+culturalTraits:
+  - "Malaysia's southern gateway, physically separated from Singapore only by the Strait of Johor"
+  - "A strong Malay and royal heritage (the Sultanate of Johor), home to one of Malaysia's most dynamic industrial zones"
+  - "Culturally a classic 'kampung' Malay state now transformed into a booming cross-border metropolis"
+prideOf:
+  - "Being Malaysia's growth engine facing Singapore, with the country's largest economic corridor (Iskandar Malaysia)"
+  - "Its royal family and the iconic Johor Bahru skyline"
+animals:
+  popular:
+    - "Long-tailed macaque"
+    - "Fireflies along the rivers"
+    - "Sea turtles on the east-coast beaches"
+  unique:
+    - "Johor's mangroves and the Panti forest shelter tigers and elephants (rarely seen near development)"
+industries:
+  - "Manufacturing, electronics and data centres (Iskandar Malaysia)"
+  - "Palm oil and agriculture"
+  - "Logistics and cross-border trade with Singapore"
+  - "Tourism — especially weekend visitors from Singapore"
+sports:
+  - "Football (Johor Darul Ta'zim is a dominant club)"
+  - "Badminton"
+  - "Individual water and motor sports"
+entertainment:
+  - season: allYear
+    items:
+      - "Legoland, theme parks and resorts in Johor Bahru"
+      - "Cross-border shopping and dining"
+      - "Desaru beach and eco-tours"
+  - season: wet
+    items:
+      - "Heavier monsoon rain (Nov-Jan) — indoor malls and food streets predominate"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Laksa Johor (spaghetti-style laksa with dried fish)"
+      - "Mee rebus and kacang pool (spiced bean stew)"
+      - "Satay and fresh seafood at the coast"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Baju kurung and baju melayu"
+      - "Modest modern and smart business attire"
+seasonCalendar:
+  - season: dry
+    months: [3, 4, 5, 6, 7, 8]
+  - season: wet
+    months: [1, 2, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Generally 09:00-18:00, with Johor's cross-border economy active six days a week."
+  lunchBreakTiming: "Lunch ~13:00."
+  notableShutdownPeriods:
+    - period: "Hari Raya and public holidays"
+      description: "Festival closures and cross-border travel peaks around major holidays."
+sources:
+  - id: johor-tourism
+    name: "Tourism Johor"
+    publisher: "Johor State Government / Tourism Malaysia"
+    url: "https://www.tourismjohor.my/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture and seasonal context for Johor."

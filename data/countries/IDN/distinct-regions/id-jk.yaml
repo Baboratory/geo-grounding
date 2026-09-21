@@ -1,0 +1,79 @@
+code: ID-JK
+name:
+  eng: Jakarta
+  local:
+    - languageCode: ind
+      value: Jakarta
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate with intense year-round heat and humidity and a monsoon-driven wet season (roughly November-March)."
+landmarks:
+  - name: National Monument (Monas)
+    description: "Jakarta's iconic 132m obelisk in Merdeka Square, the heart of the nation's capital."
+  - name: Old Town (Kota Tua)
+    description: "The colonial-era heart of Batavia, with Fatahillah Square and 17th-century Dutch buildings."
+  - name: Istiqlal Mosque and Jakarta Cathedral
+    description: "The largest mosque in Southeast Asia, facing the Cathedral across the street — a symbol of religious harmony."
+  - name: Ancol Dreamland and the Thousand Islands
+    description: "A seaside recreation park and the bay-island getaway of Kepulauan Seribu."
+culturalTraits:
+  - "Indonesia's capital and economic, political and cultural hub — a melting pot of every ethnicity"
+  - "Home to the Betawi, Jakarta's indigenous creole culture (gambang kromong music, ondel-ondel dolls)"
+  - "A fast, crowded, traffic-heavy megacity of ~11 million, emblem of Indonesia's rise"
+prideOf:
+  - "Being Indonesia's engine room and the most dynamic, cosmopolitan city in the archipelago"
+  - "Its street food, nightlife and creative scene"
+animals:
+  popular:
+    - "Monitor lizards (in the Old Town canals)"
+    - "Sea eagles around the Thousand Islands"
+  unique:
+    - "The Betawi ondel-ondel giant effigies are cultural, while the bay's mangroves shelter saltwater crocodiles"
+industries:
+  - "Financial services and banking"
+  - "Government and diplomacy (seat of the national government)"
+  - "Trade, technology, media and creative industries"
+  - "Professional services and start-ups"
+sports:
+  - "Football — supported passionately across the city"
+  - "Badminton"
+  - "Futsal"
+entertainment:
+  - season: allYear
+    items:
+      - "Jakarta's clubs, cafes and shopping malls"
+      - "Live dangdut and Indonesian pop concerts"
+      - "The Ancol beach resort and Thousand Islands day trips"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Nasi uduk (coconut rice), a Betawi specialty"
+      - "Soto Betawi (beef soup with coconut milk)"
+      - "Kerak telor (spicy coconut omelette)"
+      - "Gado-gado and sate"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Smart modern attire; batik for work and ceremony"
+      - "Kebaya for women on formal occasions"
+seasonCalendar:
+  - season: dry
+    months: [4, 5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [1, 2, 3, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Generally 08:00-17:00 Monday to Friday, with heavy commute traffic around start and end times."
+  lunchBreakTiming: "Lunch ~12:00-13:00; a prayer break (Friday ~11:30-13:30) for Muslim staff."
+  notableShutdownPeriods:
+    - period: "Idul Fitri and public holidays"
+      description: "The capital largely empties during mudik as residents travel home for Eid."
+sources:
+  - id: jakarta-tourism
+    name: "Official Jakarta Tourism (province portal)"
+    publisher: "DKI Jakarta Provincial Government / Wonderful Indonesia"
+    url: "https://jakarta-tourism.go.id/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture and seasonal context for Jakarta."

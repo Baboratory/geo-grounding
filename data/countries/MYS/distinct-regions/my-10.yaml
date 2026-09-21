@@ -1,0 +1,86 @@
+code: MY-10
+name:
+  eng: Selangor
+  local:
+    - languageCode: msa
+      value: Selangor
+climates:
+  - koppenCode: Af
+    description: "Tropical equatorial climate — hot and humid year-round with frequent afternoon thunderstorms."
+landmarks:
+  - name: Shah Alam Blue Mosque
+    description: "The grand Sultan Salahuddin Abdul Aziz Mosque, one of the largest mosques in Southeast Asia."
+  - name: Batu Caves
+    description: "The famous Hindu cave-temple and golden Murugan statue, on Selangor's borders with the federal territory."
+  - name: Kuala Selangor Fireflies
+    description: "Evening boat trips along the river to see the synchronous fireflies and the historic Bukit Melawati fort."
+  - name: Sepang International Circuit
+    description: "The premier Formula 1 and motorcycle circuit of Malaysia."
+  - name: National Zoo (Zoo Negara)
+    description: "Malaysia's main zoological park showing orangutans and other native fauna."
+culturalTraits:
+  - "Selangor is Malaysia's most populous and wealthiest state, surrounding Kuala Lumpur and Shah Alam"
+  - "A dynamic, industrial and cosmopolitan hub of manufacturing, hi-tech and urban Malay life"
+  - "A land of Malay village (kampung) heritage now fused with modern suburban cities (Petaling Jaya, Subang, Shah Alam)"
+prideOf:
+  - "Being Malaysia's economic powerhouse and industrial heartland"
+  - "A diverse, modern and outward-looking society"
+animals:
+  popular:
+    - "Fireflies (Kuala Selangor)"
+    - "Long-tailed macaque and silvered langur"
+  unique:
+    - "The Kuala Selangor firefly colonies are among the world's largest known synchronous swarms"
+industries:
+  - "Manufacturing — electronics, automobiles (PROTON), robotics and F&B"
+  - "Logistics, ports (Port Klang) and warehousing"
+  - "Technology hubs (Cyberjaya) and services"
+  - "Palm oil and agriculture in the outer districts"
+sports:
+  - "Football"
+  - "Badminton"
+  - "Motorsport (Sepang)"
+  - "Aquatics and athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Shopping malls across Petaling Jaya and Shah Alam"
+      - "Firefly river cruises at Kuala Selangor"
+      - "Malay cultural villages and seafood dining along the coast"
+  - season: wet
+    items:
+      - "Wet-season days are best spent at malls, museums and indoor attractions"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Laksa Selangor and Mee bandung Muar"
+      - "Satay, nasi lemak and ayam percik"
+      - "Fresh seafood at the coastal towns (Kuala Selangor, Bagan Lalang)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Baju kurung and baju melayu"
+      - "Modern modest and business attire"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8]
+  - season: wet
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Generally 08:30-17:30 weekdays; factories typically work shifts, retail open weekends."
+  lunchBreakTiming: "Lunch ~13:00."
+  notableShutdownPeriods:
+    - period: "Hari Raya Aidilfitri"
+      description: "Widespread closures and balik kampung travel around Eid."
+    - period: "Public holidays"
+      description: "Selangor's public holidays close government and many businesses."
+sources:
+  - id: selangor-tourism
+    name: "Selangor Tourism (Tourism Selangor)"
+    publisher: "Tourism Selangor"
+    url: "https://www.selangor.travel/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture and seasonal context for Selangor."

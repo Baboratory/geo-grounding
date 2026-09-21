@@ -1,0 +1,118 @@
+code: WHOLE
+name:
+  eng: Malaysia
+  local:
+    - languageCode: msa
+      value: Malaysia
+# Generic country-wide fallback content for Malaysia (federal, curated subset
+# of states). National-level coverage not specific to any one state.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate across most of Peninsular Malaysia and Borneo — hot, humid and wet year-round."
+  - koppenCode: Am
+    description: "Tropical monsoon climate in parts of the east coast and highland rainshadows, with a distinct heavy wet season."
+  - koppenCode: Cfb
+    description: "Cooler highland climate in the Cameron Highlands and mountain areas of Borneo (e.g. Mount Kinabalu)."
+landmarks:
+  - name: Petronas Twin Towers
+    description: "The iconic 452m twin towers in Kuala Lumpur, once the world's tallest building."
+  - name: George Town, Penang
+    description: "A UNESCO World Heritage Site famed for its multicultural colonial and Chinese shophouse heritage."
+    unescoWorldHeritage: true
+  - name: Mount Kinabalu
+    description: "Southeast Asia's highest peak (4,095m) in Sabah, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Langkawi
+    description: "An idyllic tropical archipelago of mangrove, beaches and the emblematic sky bridge, off Kedah."
+  - name: Cameron Highlands
+    description: "A cool hill-station region of tea plantations and strawberry farms in Pahang."
+  - name: Sipadan Island
+    description: "A world-class diving site off Sabah with spectacular reef drop-offs and marine life."
+culturalTraits:
+  - "A uniquely multicultural, multi-religious and multilingual federation — Malay, Chinese, Indian and indigenous Bornean cultures side by side"
+  - "Famous for its cuisine (nasi lemak, satay, laksa, roti canai) and the concept of 'makan' as a social glue"
+  - "A blend of Islamic, Hindu, Buddhist and Christian traditions across the peninsula and Borneo"
+  - "Modern, outward-looking and business-friendly, with a strong tradition of hospitality (hospitaliti)"
+prideOf:
+  - "Harmony and unity in diversity ('Muhibbah')"
+  - "World-renowned food culture"
+  - "Iconic landmarks (Twin Towers), tropical nature and the mega-diverse heritage of Borneo"
+animals:
+  popular:
+    - "Malayan tiger"
+    - "Malayan tapir"
+    - "Orangutan"
+    - "Proboscis monkey"
+    - "Asian elephant"
+    - "Hornbills"
+  unique:
+    - "Malayan tiger and Malayan tapir (endemic to the peninsula)"
+    - "Orangutan and proboscis monkey of Borneo"
+    - "The Rafflesia, the world's largest flower"
+industries:
+  - "Manufacturing — electronics, electricals (a leading exporter), petrochemicals, palm oil refining"
+  - "Palm oil and rubber production"
+  - "Oil, gas and energy (PETRONAS)"
+  - "Financial services, Islamic finance and trade (Strait of Malacca hub)"
+  - "Tourism and services"
+sports:
+  - "Football (soccer)"
+  - "Badminton — Malaysia's celebrated national sport (Lee Chong Wei legacy)"
+  - "Sepak takraw"
+  - "Motorsport (Sepang)"
+  - "Diving and eco-tourism activities"
+entertainment:
+  - season: allYear
+    items:
+      - "Malls, cinemas, food streets and night markets (pasar malam)"
+      - "Cultural festivals — Hari Raya, Chinese New Year, Deepavali, and Borneo's harvest festivals (Gawai, Kaamatan)"
+      - "Island, dive and eco-tourism"
+  - season: dry
+    items:
+      - "The drier season (roughly December-March on the west coast and east coast in season) is prime for island travel and diving"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Nasi lemak — fragrant coconut rice, the national dish"
+      - "Satay"
+      - "Laksa (Penang laksa and curry laksa)"
+      - "Roti canai and teh tarik (pulled tea)"
+      - "Rendang, nasi kandar, and the many 'mamak' meals"
+      - "Borneo's bamboo rice and grilled fish"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Baju Melayu and baju kurung — the national dress for men and women"
+      - "Batik and songket textiles"
+      - "Kebaya among the Chinese and Peranakan communities"
+      - "Modern modest and smart-casual business attire"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 6, 7, 8]
+  - season: wet
+    months: [4, 5, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Generally 08:30-17:30 Monday to Friday, with a Friday prayer break. Many retail businesses open Saturday and Sunday."
+  lunchBreakTiming: "Lunch around 13:00 is typical; 'makan' breaks are social."
+  notableShutdownPeriods:
+    - period: "Hari Raya Aidilfitri (Eid al-Fitr)"
+      description: "The country largely slows for the holiday and the whole week of travel ('balik kampung')."
+    - period: "Chinese New Year and Deepavali"
+      description: "Major public holidays each close many businesses for the festival."
+sources:
+  - id: unesco-whc-my
+    name: "Malaysia — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/my"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Malaysia's World Heritage properties (George Town, Kinabalu)."
+  - id: tourism-my
+    name: "Tourism Malaysia — official tourism portal"
+    publisher: "Tourism Malaysia (Ministry of Tourism, Arts and Culture)"
+    url: "https://www.malaysia.travel/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture and seasonal travel context."
