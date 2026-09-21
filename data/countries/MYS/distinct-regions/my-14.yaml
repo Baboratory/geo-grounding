@@ -1,0 +1,85 @@
+code: MY-14
+name:
+  eng: Kuala Lumpur (Federal Territory)
+  local:
+    - languageCode: msa
+      value: Kuala Lumpur
+climates:
+  - koppenCode: Af
+    description: "Tropical equatorial climate — hot and humid year-round with heavy rain most months and brief wetter spells."
+landmarks:
+  - name: Petronas Twin Towers
+    description: "The 452m twin towers, the city's iconic symbol and former world's tallest building."
+  - name: Merdeka Square and Sultan Abdul Samad Building
+    description: "The historic colonial heart of the capital, where Malayan independence was proclaimed in 1957."
+  - name: Batu Caves
+    description: "A sacred Hindu cave-temple complex with the colossal statue of Murugan, just north of the city."
+  - name: Thean Hou Temple and Jamek Mosque
+    description: "Landmarks of the city's multicultural Chinese and Malay heritage."
+culturalTraits:
+  - "Malaysia's capital and the economic, financial and government hub"
+  - "A truly multicultural melting pot — Malay, Chinese, Indian and international communities side by side"
+  - "Cosmopolitan, fast-paced and world-class — home to the KL Tower, shopping malls and a vibrant food scene"
+prideOf:
+  - "Being the cosmopolitan engine of Malaysia and Southeast Asia's financial centre"
+  - "The Petronas Towers and the city's dramatic skyline"
+  - "A food paradise from street stalls to Michelin restaurants"
+animals:
+  popular:
+    - "Long-tailed macaque (at Batu Caves and suburban parks)"
+    - "Planthoppers and monitor lizards in the city's green pockets"
+  unique:
+    - "The hornbill is the state bird of the wider peninsula, sometimes seen near the forest reserves"
+industries:
+  - "Financial services and banking (including Islamic finance)"
+  - "Corporate headquarters and professional services"
+  - "Technology, e-commerce and start-ups (MaGIC/KL innovation)"
+  - "Tourism, hospitality and retail"
+sports:
+  - "Football"
+  - "Badminton"
+  - "Futsal and basketball"
+  - "Motorsport (Sepang circuit nearby)"
+entertainment:
+  - season: allYear
+    items:
+      - "The Twin Towers' skybridge, Gardens of Light and Suria KLCC mall"
+      - "Kuala Lumpur's rooftop bars and nightlife (Changkat, TRX)"
+      - "Street food and food halls (Jalan Alor)"
+      - "Parks and the Masjid Negara precinct"
+  - season: wet
+    items:
+      - "Wet-season (roughly Nov-Dec, Apr) spells — plenty of indoor malls, museums and art galleries"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Nasi lemak and satay"
+      - "Roti canai and teh tarik at 'mamak' stalls"
+      - "Hokkien mee and KL-style curry laksa"
+      - "Bak kut teh (herbal pork rib soup)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Baju kurung/baju melayu and business attire"
+      - "Smart-casual and modest modern dress"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8]
+  - season: wet
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 08:30-17:30 Monday to Friday, with retail open weekends."
+  lunchBreakTiming: "Lunch ~13:00; 'makan' with colleagues is common."
+  notableShutdownPeriods:
+    - period: "Hari Raya and Chinese New Year"
+      description: "Many businesses and much of the federal public service close during the major festivals."
+sources:
+  - id: kl-tourism
+    name: "Visit KL — Kuala Lumpur official tourism"
+    publisher: "Kuala Lumpur City Hall (DBKL) / Tourism Malaysia"
+    url: "https://www.visitkl.gov.my/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture and seasonal context for Kuala Lumpur."

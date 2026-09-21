@@ -1,0 +1,101 @@
+code: MY-12
+name:
+  eng: Sabah
+  local:
+    - languageCode: msa
+      value: Sabah
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate — hot and humid year-round; the wet season varies, and the highlands around Kinabalu are cooler."
+landmarks:
+  - name: Mount Kinabalu
+    description: "At 4,095m, Southeast Asia's highest peak, a UNESCO World Heritage Site and the crown of Borneo."
+    unescoWorldHeritage: true
+  - name: Sipadan Island
+    description: "A world-renowned diving site with spectacular vertical drop-offs, turtles and sharks."
+  - name: Kinabatangan River
+    description: "Borneo's key wildlife river — orangutans, proboscis monkeys and pygmy elephants on its banks."
+  - name: Kota Kinabalu (KK) and the Mari-Mari Cultural Village
+    description: "Sabah's capital and the living museum of the state's Kadazan-Dusun, Murut, Bajau and Rungus peoples."
+  - name: Kundasang and the Kinabalu hinterland
+    description: "Cool highland valleys famous for their markets and the Kinabalu park hikes."
+culturalTraits:
+  - "'Land Below the Wind' — Sabah is a majestic Bornean state of rainforest, reefs and mountains"
+  - "Home to dozens of indigenous peoples — Kadazan-Dusun, Murut, Bajau, Rungus, Orang Sungai — celebrated each May at the Kaamatan harvest festival"
+  - "A melding of indigenous, Malay, Chinese and Filipino coastal communities around Kota Kinabalu"
+prideOf:
+  - "Mount Kinabalu and the surrounding heritage park"
+  - "The richest marine dive sites in Malaysia (Sipadan)"
+  - "Its proud, diverse indigenous culture and the annual Kaamatan festival"
+animals:
+  popular:
+    - "Orangutan"
+    - "Proboscis monkey"
+    - "Pygmy elephant"
+    - "Hornbill"
+  unique:
+    - "Pygmy elephants and orangutans of the Kinabatangan"
+    - "The Mount Kinabalu endemic orchids and Rafflesia"
+industries:
+  - "Oil, gas and palm oil"
+  - "Fisheries and aquaculture"
+  - "Tourism — diving (Sipadan), eco-tourism and mountain trekking"
+  - "Agriculture — cocoa, coffee, rubber and rice"
+sports:
+  - "Football"
+  - "Sepak takraw"
+  - "Diving and water sports"
+  - "Mountaineering (Kinabalu climbs)"
+entertainment:
+  - season: allYear
+    items:
+      - "Kinabalu park treks and the summit climb"
+      - "Sipadan and Mabul diving"
+      - "Kinabatangan wildlife cruises"
+      - "Kaamatan harvest festival celebrations (May)"
+  - season: dry
+    items:
+      - "The drier months (roughly February-April) are prime for diving and mountain climbing"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Hinava (Kadazan raw fish salad in lime)"
+      - "Nasi lemak with fish, and grilled seafood"
+      - "Tuaran mee and 'mee goreng' of KK"
+      - "Tapai (fermented rice) and bambangan/festive dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kadazan-Dusun black velvet dress with gold-thread motifs for festivals"
+      - "Batik and modern modest dress"
+      - "Beaded accessories for cultural events"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 4]
+  - season: wet
+    months: [1, 5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Generally 08:00-17:00 weekdays; some government offices close at 16:30 on Fridays."
+  lunchBreakTiming: "Lunch ~13:00."
+  notableShutdownPeriods:
+    - period: "Pesta Kaamatan (30-31 May)"
+      description: "The largest state festival — widespread celebration and closures as people return to their hometowns."
+    - period: "Christmas and Hari Raya"
+      description: "Major holiday closures."
+sources:
+  - id: sabah-tourism
+    name: "Sabah Tourism Board — official tourism"
+    publisher: "Sabah Tourism Board"
+    url: "https://www.sabahtourism.com/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture and seasonal context for Sabah."
+  - id: unesco-kinabalu
+    name: "Kinabalu Park — UNESCO World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1012/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Kinabalu Park as a World Heritage Site."

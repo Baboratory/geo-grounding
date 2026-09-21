@@ -1,0 +1,94 @@
+code: ID-SU
+name:
+  eng: North Sumatra
+  local:
+    - languageCode: ind
+      value: Sumatera Utara
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate in the coastal and lowland areas, hot and humid year-round with heavy rain most months."
+  - koppenCode: Cfb
+    description: "Cooler temperate highland climate at the elevation of Medan's hinterland and around Lake Toba."
+landmarks:
+  - name: Lake Toba and Samosir Island
+    description: "The world's largest volcanic lake, a caldera cradling Samosir Island — the spiritual home of the Batak people."
+  - name: Bukit Lawang (Gunung Leuser)
+    description: "A rainforest gateway to orangutan rehabilitation and trekking in Gunung Leuser National Park."
+  - name: Medan's Great Mosque and colonial heritage
+    description: "The Maimun Palace, Raya Mosque and art-deco buildings of North Sumatra's capital."
+  - name: Sipiso-piso Waterfall
+    description: "A 120m waterfall thundering into the Toba amphitheatre."
+culturalTraits:
+  - "The heartland of the Batak people — several closely related cultures (Toba, Karo, Simalungun, Mandailing)"
+  - "Famous for the ulos woven cloth, distinctive Batak architecture (jabu) and the gondang music tradition"
+  - "A multi-ethnic crossroads of Batak, Malay, Minangkabau (Aneuk Jamee), Chinese and Indian communities, especially in Medan"
+prideOf:
+  - "Being the cradle of Batak culture and the outer-island economic engine of Sumatra"
+  - "Lake Toba, one of the world's great natural wonders"
+  - "Its harmony of many ethnic and religious communities"
+animals:
+  popular:
+    - "Orangutan (Gunung Leuser)"
+    - "Sumatran tiger and elephant"
+    - "Hornbill"
+  unique:
+    - "Critically endangered Sumatran orangutan and tiger in the Gunung Leuser ecosystem"
+    - "Endemic Toba fish species in the lake"
+industries:
+  - "Palm oil and plantations"
+  - "Agriculture — rice, rubber, tobacco, coffee, spices (Medan is a trading hub)"
+  - "Fisheries and fish processing (Belawan port)"
+  - "Manufacturing, trade and services in the Medan conurbation"
+  - "Tourism around Lake Toba"
+sports:
+  - "Football"
+  - "Badminton"
+  - "Sepak takraw"
+entertainment:
+  - season: allYear
+    items:
+      - "Lake Toba boat trips and Samosir stays"
+      - "Batak gondang music and tortor dance performances"
+      - "Bukit Lawang jungle trekking and orangutan watching"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Saksang (spiced pork in blood sauce and coconut)"
+      - "Babi panggang (grilled pork) and arsik (fish in andaliman pepper sauce)"
+      - "Naniura (raw Batak 'sashimi' in lime and spices)"
+      - "Mie Gomak (spicy Batak noodles)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Ulos woven cloth, draped at ceremonies and celebrations"
+      - "Modern modest dress with traditional woven accents"
+seasonCalendar:
+  - season: dry
+    months: [2, 3, 4, 5, 6, 7, 8]
+  - season: wet
+    months: [9, 10, 11, 12, 1]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Generally 08:00-17:00 Monday to Friday; markets and many shops open Saturday."
+  lunchBreakTiming: "Lunch around 12:00-13:00."
+  notableShutdownPeriods:
+    - period: "Idul Fitri and Christmas"
+      description: "The province's mixed Muslim-Christian population means both Eid and Christmas see closures and travel."
+    - period: "Public holidays"
+      description: "National holidays close government and many businesses."
+sources:
+  - id: northsumatra-tourism
+    name: "Wonderful Indonesia — North Sumatra destination"
+    publisher: "Ministry of Tourism and Creative Economy, Indonesia"
+    url: "https://www.indonesia.travel/gb/en/destinations/sumatra"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture and seasonal context for North Sumatra."
+  - id: toba-batak
+    name: "Lake Toba and Batak cultural heritage (UNESCO-listed Toba Caldera)"
+    publisher: "UNESCO / Indonesian Tourism"
+    url: "https://whc.unesco.org/en/tentativelists/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Documents Lake Toba as a major geocultural landmark and Batak heartland."

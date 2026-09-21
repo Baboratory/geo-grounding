@@ -1,0 +1,93 @@
+code: ID-PA
+name:
+  eng: Papua
+  local:
+    - languageCode: ind
+      value: Papua
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate in the lowlands — hot, humid and wet year-round. The highlands (Tion) are cooler and wet with occasional frost at altitude."
+landmarks:
+  - name: Raja Ampat
+    description: "An archipelago of karst islands off the Sorong coast, the epicentre of global marine biodiversity."
+  - name: Lorentz National Park
+    description: "The largest protected area in Southeast Asia, spanning glacier to mangrove — a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Baliem Valley
+    description: "The highland home of the Dani people, with terraced gardens and the famous wooden 'mummy' villages of Wamena."
+  - name: Lake Sentani
+    description: "A large freshwater lake south of Jayapura, ringed by traditional villages."
+culturalTraits:
+  - "Home to hundreds of Papuan ethnic and language communities and vast linguistic diversity"
+  - "A land of strong indigenous identity, distinct from the rest of the country (Melanesian heritage)"
+  - "Special autonomy region since 2001/2022, with a unique cultural and geographic character"
+prideOf:
+  - "Unrivaled natural beauty — Raja Ampat reefs and the Lorentz monument"
+  - "Diverse indigenous cultures, from Asmat woodcarving to Dani highland life"
+  - "Being the frontier of Indonesia's largest region"
+animals:
+  popular:
+    - "Bird-of-paradise"
+    - "Tree kangaroo (endemic)"
+    - "Cassowary"
+    - "Green tree python"
+  unique:
+    - "Birds-of-paradise and the endemic rattus and marsupial fauna of the Papuan rainforest"
+    - "The world's richest coral reefs at Raja Ampat"
+industries:
+  - "Mining — Grasberg (one of the world's largest gold/copper mines) around Timika"
+  - "Forestry and agriculture (sago, oil palm, fisheries)"
+  - "Tourism — niche diving and nature travel (Raja Ampat)"
+  - "Traditional crafts (Asmat carving)"
+sports:
+  - "Football"
+  - "Sepak takraw"
+  - "Traditional canoe racing"
+entertainment:
+  - season: allYear
+    items:
+      - "Raja Ampat diving and liveaboard trips"
+      - "Dani and Asmat cultural festivals"
+      - "Highland trekking in the Baliem Valley"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Papeda — sago porridge, the signature Papuan staple"
+      - "Babi bakar (grilled pork, especially in Christian-majority areas)"
+      - "Baked sago, taro and sweet potato (ubijalar)"
+      - "Ikan bakar (grilled reef fish)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional bark cloth and woven fibre skirts/koteka for ceremonial wear among highland groups"
+      - "Modern, modest everyday clothing; festival bead-and-feather adornment"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8, 9, 10, 11]
+  - season: wet
+    months: [12, 1, 2, 3, 4, 5]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Generally 08:00-16:00/17:00 weekdays; government offices may close earlier (15:00) on Fridays."
+  lunchBreakTiming: "Lunch around 12:00-13:00."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year (Christian-majority region)"
+      description: "Major holiday period sees many closures."
+    - period: "Regional and national public holidays"
+      description: "Public holidays close government and many businesses."
+sources:
+  - id: papua-tourism
+    name: "Wonderful Indonesia — Papua destination"
+    publisher: "Ministry of Tourism and Creative Economy, Indonesia"
+    url: "https://www.indonesia.travel/gb/en/destinations/papua"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture and seasonal context for Papua."
+  - id: unesco-lorentz
+    name: "Lorentz National Park — UNESCO World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/955/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Lorentz National Park as a World Heritage Site."

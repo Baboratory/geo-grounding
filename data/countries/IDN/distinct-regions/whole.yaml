@@ -1,0 +1,122 @@
+code: WHOLE
+name:
+  eng: Indonesia
+  local:
+    - languageCode: ind
+      value: Indonesia
+# Generic country-wide fallback content for Indonesia (unitary-large with
+# curated provinces). National-level coverage not specific to any one province.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate across much of Sumatra, Kalimantan, Papua and the Maluku islands — hot, humid and wet year-round."
+  - koppenCode: Am
+    description: "Tropical monsoon climate in parts of Java, Sulawesi and the coastal lowlands, with a pronounced wet season."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry savanna climate across eastern Nusa Tenggara and much of the drier archipelago, with a distinct dry season."
+  - koppenCode: Cfb
+    description: "Temperate highland climate in the highlands of Java (e.g. Puncak), Sumatra and Papua, mild year-round."
+landmarks:
+  - name: Borobudur Temple
+    description: "The world's largest Buddhist temple (9th century) in Central Java, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Prambanan Temple
+    description: "A magnificent 9th-century Hindu temple compound in Central Java, also a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Komodo National Park
+    description: "Home to the Komodo dragon, Indonesia's flagship UNESCO site of volcanic islands and rich reefs."
+    unescoWorldHeritage: true
+  - name: Bali and the Island of the Gods
+    description: "A world-famous cultural and beach destination of Hindu temples, terraced rice paddies and surf."
+  - name: Lake Toba
+    description: "The world's largest volcanic lake, cradling Samosir Island in North Sumatra."
+  - name: Raja Ampat
+    description: "An archipelago off Papua famed for the richest marine biodiversity on Earth."
+culturalTraits:
+  - "The world's largest archipelagic nation — over 17,000 islands and more than 600 ethnic and language communities"
+  - "A proud culture of harmony (rukun), mutual aid (gotong royong) and warm hospitality (ramah tamah)"
+  - "The plural motto 'Bhinneka Tunggal Ika' — Unity in Diversity"
+  - "A global centre of batik, gamelan music, wayang shadow puppetry and a remarkable culinary heritage"
+prideOf:
+  - "Unity across extreme ethnic and linguistic diversity"
+  - "World-famous culture, cuisine and natural beauty (Bali, Borobudur, the reef triangle)"
+  - "The People's resilience, hospitality and the rise of a dynamic digital economy"
+animals:
+  popular:
+    - "Komodo dragon"
+    - "Orangutan"
+    - "Sumatran tiger"
+    - "Bali myna"
+    - "Javan rhinoceros"
+    - "Proboscis monkey"
+  unique:
+    - "Komodo dragon (the world's largest lizard, Komodo National Park)"
+    - "Orangutan and the endemic Sumatran/Bornean species"
+    - "Javan and Sumatran rhinoceros (extremely rare)"
+    - "Bird-of-paradise species of Papua"
+industries:
+  - "Agriculture — palm oil, rubber, coffee, cocoa, rice, spices"
+  - "Mining and energy — coal, nickel, tin, oil and gas, and the global nickel-battery supply chain"
+  - "Manufacturing — textiles, electronics assembly, automotive (motorcycles/cars), FMCG"
+  - "Digital economy — one of Southeast Asia's largest start-up and e-wallet ecosystems (GoTo, Grab, e-commerce)"
+  - "Tourism — Bali and the islands"
+sports:
+  - "Badminton — Indonesia's most celebrated sport (Olympic gold medals and Thomas Cup dominance)"
+  - "Football (soccer)"
+  - "Sepak takraw"
+  - "Esports"
+  - "Pencak silat (martial arts)"
+entertainment:
+  - season: allYear
+    items:
+      - "Traditional gamelan music, wayang kulit (shadow puppetry) and jaipong/samrah performances"
+      - "Dangdut and pop concerts, and Jakarta's nightlife"
+      - "Beach, dive and surf culture across Bali and the islands"
+  - season: dry
+    items:
+      - "The dry season (roughly April-October) is the prime window for diving, island hopping and visiting Komodo and Raja Ampat"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Nasi goreng — the national fried rice"
+      - "Sate (satay) — grilled skewers with peanut sauce"
+      - "Rendang — slow-cooked spiced beef, Minangkabau's gift to the world"
+      - "Gado-gado — boiled vegetables with peanut sauce"
+      - "Soto — aromatic soups"
+      - "Nasi uduk and tempeh/tofu staples"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Batik — the iconic wax-resist dyed cloth, worn for work, ceremony and celebration"
+      - "Kebaya — the traditional blouse worn by women, often with a sarong"
+      - "Songket and ikat woven textiles of Sumatra and the islands"
+      - "Modern smart-casual and modest business attire"
+seasonCalendar:
+  - season: dry
+    months: [4, 5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [1, 2, 3, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Generally 08:00-17:00 Monday to Friday (with Friday prayers ~11:30-13:30 for Muslim staff), many offices on the island work a six-day pattern with a short Saturday."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
+  notableShutdownPeriods:
+    - period: "Idul Fitri (Eid al-Fitr) — end of Ramadan"
+      description: "The country largely shuts down for up to a week; tens of millions travel home ('mudik')."
+    - period: "National holidays and Nyepi (Balinese Day of Silence)"
+      description: "Public holidays plus regional observances shut many businesses."
+sources:
+  - id: unesco-whc-id
+    name: "Indonesia — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/id"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Indonesia's UNESCO World Heritage properties (Borobudur, Prambanan, Komodo)."
+  - id: indonesia-tourism
+    name: "Wonderful Indonesia — official tourism portal"
+    publisher: "Ministry of Tourism and Creative Economy, Indonesia"
+    url: "https://www.indonesia.travel/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture and seasonal travel context (dry/wet seasons)."

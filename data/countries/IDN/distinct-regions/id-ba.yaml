@@ -1,0 +1,98 @@
+code: ID-BA
+name:
+  eng: Bali
+  local:
+    - languageCode: ind
+      value: Bali
+    - languageCode: ban
+      value: Bali
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry climate — distinct dry season (April-October) and a wetter monsoon season (November-March), more humid in the southern lowlands and cooler in the central highlands."
+landmarks:
+  - name: Uluwatu Temple
+    description: "A dramatic clifftop sea temple at the southern tip of the Bukit peninsula, famed for its Kecak fire dance."
+  - name: Tanah Lot
+    description: "A stunning Hindu sea temple perched on a rocky islet off the west coast."
+  - name: Besakih Temple
+    description: "The 'Mother Temple' on the slopes of Mount Agung, Bali's largest and holiest complex."
+  - name: Ubud and the rice terraces
+    description: "The island's cultural heart, with Tegallalang rice paddies, art galleries and yoga studios."
+  - name: Mount Batur
+    description: "An active volcano and crater lake in the northeast, a popular sunrise trek."
+culturalTraits:
+  - "A predominantly Hindu island (nearly all of Indonesian-Hindu Bali) with daily offerings, ceremonies and temple festivals"
+  - "A global resort destination and surf paradise, uniquely blending Balinese tradition with international tourism"
+  - "The birthplace of the 'Island of the Gods' hospitality, dance and the Nyepi Day of Silence"
+prideOf:
+  - "Hindu-Balinese culture — temples, dance, gamelan and the famous Kecak and Legong"
+  - "World-class beaches and surf (Kuta, Canggu, Uluwatu)"
+  - "Its rolling rice terraces and serene wellness/yoga scene"
+animals:
+  popular:
+    - "Long-tailed macaque (in the monkey forests)"
+    - "Javan/Long-tailed macaque and tree species of the central highlands"
+    - "Sea turtles on the coast"
+  unique:
+    - "The Bali myna, one of the world's rarest birds (reintroduced in the island's national park)"
+industries:
+  - "Tourism and hospitality — Bali is Indonesia's foremost tourist destination"
+  - "Craft industries — silver, woodcarving, batik and textiles (Ubud, Mas, Celuk)"
+  - "Wellness, yoga and digital-nomad services"
+  - "Agriculture — rice, coffee (kopi luwak), coconut and spices"
+sports:
+  - "Surfing"
+  - "Diving and snorkelling"
+  - "Football and traditional Balinese games"
+  - "Yoga and wellness retreats"
+entertainment:
+  - season: allYear
+    items:
+      - "Kecak and Legong dance performances"
+      - "Beach clubs, bars and Ubud's cafes and galleries"
+      - "Temple festivals and ceremonies (odalan)"
+  - season: dry
+    items:
+      - "The dry season (April-Oct) is prime for diving, surfing and island trips around Ubud"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Babi guling (Balinese roast pork)"
+      - "Nasi campur Bali and lawar (spiced minced meat with coconut)"
+      - "Bebek betutu (slow-cooked spiced duck)"
+      - "Sate lilit (minced satay on lemongrass)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Sarong and sash worn for temple visits (ceremonial dress)"
+      - "Batik and light, modest resort wear"
+      - "Traditional songket for ceremonies"
+seasonCalendar:
+  - season: dry
+    months: [4, 5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Tourism runs on visitor hours; many businesses open daily ~09:00-21:00. Offices generally 08:00-16:00 weekdays."
+  lunchBreakTiming: "Lunch around 13:00 is common in tourism businesses."
+  notableShutdownPeriods:
+    - period: "Nyepi — the Day of Silence (Balinese New Year)"
+      description: "The island shuts down entirely for 24 hours: no work, travel, lights or noise — including the airport and all tourism. Reopens the next day."
+    - period: "Idul Fitri and Galungan/Kuningan"
+      description: "Major ceremonies close many businesses for days."
+sources:
+  - id: bali-tourism
+    name: "Wonderful Indonesia — Bali destination"
+    publisher: "Ministry of Tourism and Creative Economy / Bali Tourism Board"
+    url: "https://www.indonesia.travel/gb/en/destinations/bali-nusa-tenggara/bali"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture and seasonal context for Bali."
+  - id: nyepi-info
+    name: "Nyepi — Balinese Day of Silence (official tourism guidance)"
+    publisher: "Indonesia Tourism (Ministry of Tourism and Creative Economy)"
+    url: "https://www.indonesia.travel/"
+    accessedDate: "2026-09-21"
+    note: "Documented shutdown of the whole island during Nyepi."

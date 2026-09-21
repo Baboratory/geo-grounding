@@ -1,0 +1,96 @@
+code: ID-YO
+name:
+  eng: Yogyakarta Special Region
+  local:
+    - languageCode: ind
+      value: Yogyakarta
+    - languageCode: jav
+      value: Ngayogyakarta
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate with warm weather year-round and a clearer wet season (roughly October-March)."
+landmarks:
+  - name: Borobudur Temple
+    description: "The world's largest Buddhist temple (9th century), a UNESCO World Heritage Site at the heart of the Javanese heartland."
+    unescoWorldHeritage: true
+  - name: Prambanan Temple
+    description: "A stunning 9th-century Hindu temple complex, a UNESCO World Heritage Site a short drive from the city."
+    unescoWorldHeritage: true
+  - name: Kraton (Sultan's Palace)
+    description: "The seat of the Yogyakarta Sultanate — the only province still governed by a sultan as its formal head."
+  - name: Malioboro Street
+    description: "Yogyakarta's famous shopping and cultural avenue, vivid with street food, crafts and art."
+  - name: Taman Sari (Water Castle)
+    description: "The ruins of the royal gardens and bathing complex of the sultanate."
+culturalTraits:
+  - "The cultural heart of Java — the living centre of Javanese arts, gamelan, wayang kulit and courtly etiquette"
+  - "A special region still headed by a Sultan (Hamengkubuwono), with a unique dual role as governor"
+  - "A renowned university city — SMD/UGM and dozens of colleges make it a hub of students and artists"
+prideOf:
+  - "Being Java's most vibrant guardian of traditional Javanese court culture"
+  - "Batik (Yogyakarta and nearby Solo are world batik centres)"
+  - "Borobudur and Prambanan on its doorstep"
+animals:
+  popular:
+    - "Javan langur"
+    - "Oriental pied hornbill"
+  unique:
+    - "Merapi's volcanic slopes shelter the endangered Javan leopard (rarely seen near the parks)"
+industries:
+  - "Education and universities"
+  - "Tourism and cultural/heritage crafts"
+  - "Batik, silverwork (Kota Gede) and handicrafts"
+  - "Small manufacturing and creative industries"
+sports:
+  - "Football"
+  - "Badminton"
+  - "Pencak silat"
+entertainment:
+  - season: allYear
+    items:
+      - "Wayang kulit (shadow puppet) performances"
+      - "Gamelan concerts and Javanese dance"
+      - "Malioboro shopping and cafe culture"
+  - season: wet
+    items:
+      - "Wet-season (Oct-Mar) is quieter for temples; bring rain gear but fewer crowds"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Gudeg — jackfruit stewed in coconut milk and palm sugar, Yogyakarta's signature dish"
+      - "Nasi kucing (mini rice parcels)"
+      - "Yogyakarta's thick hot chocolate and bakpia pastries"
+      - "Sate klatak and bakmi jawa"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Batik (Javanese court patterns) for work, ceremony and formal wear"
+      - "Kebaya for women; blangkon hat for men on formal occasions"
+seasonCalendar:
+  - season: dry
+    months: [4, 5, 6, 7, 8, 9]
+  - season: wet
+    months: [10, 11, 12, 1, 2, 3]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Generally 08:00-16:00/17:00 Monday to Friday with a shorter Saturday."
+  lunchBreakTiming: "Lunch around 12:00-13:00."
+  notableShutdownPeriods:
+    - period: "Idul Fitri and Sekaten festival"
+      description: "Business slows during the Eid holidays; the annual Sekaten/Maulaud festival in the months of the Islamic calendar brings big closures and festivities around the Kraton."
+sources:
+  - id: jogja-tourism
+    name: "Visit Jogja — Yogyakarta Official Tourism"
+    publisher: "Yogyakarta Special Region Tourism Office"
+    url: "https://visitingjogja.com/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture and seasonal context for Yogyakarta."
+  - id: unesco-whc-brp
+    name: "Borobudur and Prambanan — UNESCO World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/id"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Borobudur and Prambanan as World Heritage Sites."
