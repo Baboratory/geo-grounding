@@ -1,0 +1,94 @@
+code: AE-AZ
+name:
+  eng: Abu Dhabi
+  local:
+    - languageCode: ara
+      value: أبوظبي
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate with coastal humidity — long very hot summers, mild winters and scant rainfall.
+landmarks:
+  - name: Sheikh Zayed Grand Mosque
+  - name: Louvre Abu Dhabi (Saadiyat Island)
+  - name: Qasr Al Hosn (the historic fort)
+  - name: Yas Island (Ferrari World, Yas Marina Circuit, water park)
+  - name: The Corniche and the desert oases of Al Ain and Liwa
+culturalTraits:
+  - "The capital emirate and political seat of the federation — home of the presidency and federal institutions"
+  - "Largest emirate by area and holds the bulk of the UAE's oil wealth"
+  - "A dignified, culture-and-heritage-driven identity (Al Ain Oasis, the founding Al Nahyan story)"
+  - "A balance of tradition, greenery and ambitious modern development (Saadiyat cultural district)"
+prideOf:
+  - "The Sheikh Zayed Grand Mosque and the country's founding heritage"
+  - "Its leading role in the nation's oil wealth and federal leadership"
+  - "The Al Ain Oasis and the heritage of the Empty Quarter (Rub' al Khali)"
+  - "World-class cultural institutions (Louvre Abu Dhabi, Qasr Al Watan)"
+animals:
+  popular:
+    - Arabian camel
+    - Arabian oryx
+    - Sand gazelle
+    - Falcon
+  unique:
+    - Arabian lynx (caracal)
+    - Sand cat
+    - Marine turtles along the coast
+industries:
+  - Oil and gas extraction and refining (the emirate holds most UAE reserves)
+  - Sovereign investment (Mubadala, ADQ) and government
+  - Culture and tourism (museums, Yas Island, Formula One)
+  - Renewable energy (Masdar) and clean tech
+  - Aviation (Etihad Airways, Zayed International Airport)
+sports:
+  - Football (Al Ain, Al Wahda)
+  - Formula One (Yas Marina Circuit)
+  - Camel racing
+  - Water sports and sailing
+entertainment:
+  - season: winter
+    items:
+      - "Outdoor festivals, the Corniche and desert camping (pleasant winter climate)"
+      - "Yas Island attractions and the Abu Dhabi Grand Prix (Nov/Dec)"
+  - season: summer
+    items:
+      - "Indoor attractions, museums and air-conditioned leisure (Louvre, malls, water parks)"
+  - season: allYear
+    items:
+      - "National Day and cultural events at Al Ain and the Corniche"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Machboos and madrooba — the rice and wheat dishes of the Emirates"
+      - "Fresh Eastern dates from Al Ain and the Liwa oases"
+      - "Grilled fish and seafood from the Gulf"
+  - season: winter
+    items:
+      - "Warm traditional stews and luqaimat in the cool months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men: the white kandura and ghutra; women: the black abaya"
+  - season: winter
+    items:
+      - "Light jackets over the kandura/abaya in cooler weather"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Government and federal offices run Monday-Thursday plus Friday morning; private offices typically run 9:00am-6:00pm with a midday break. The standard weekend is Saturday-Sunday."
+  lunchBreakTiming: "A midday break around 1:00-2:00pm is common; Friday prayer creates a longer break."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Offices close for Eid; tourism and retail continue with special events."
+    - period: Ramadan
+      description: "Shortened working hours and a late-evening rhythm during the holy month."
+  notes: "As the capital, Abu Dhabi has a formal, government-heavy but increasingly international business culture. Friday midday remains important for prayer."

@@ -1,0 +1,90 @@
+code: SA-04
+name:
+  eng: Eastern Province
+  local:
+    - languageCode: ara
+      value: المنطقة الشرقية
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate — very hot and humid summers on the Gulf coast, with a distinctive coastal humidity; mild winters and scant rainfall.
+landmarks:
+  - name: Dammam and the Al Khobar waterfront on the Arabian Gulf
+  - name: King Fahd Causeway connecting Saudi Arabia to Bahrain
+  - name: Qatif and Al-Ahsa Oasis (one of the world's largest oases)
+    unescoWorldHeritage: true
+  - name: Dhahran and the Aramco heritage (the oil industry's birthplace in the Kingdom)
+culturalTraits:
+  - "The heart of the Saudi oil and gas industry — home of Saudi Aramco"
+  - "A Gulf-coast identity with strong maritime and trade links to the wider Gulf"
+  - "Al-Ahsa's famous oasis, dates and rich agricultural heritage"
+  - "A notably diverse province, hosting a large share of the expatriate workforce"
+prideOf:
+  - "Its central role in the world's energy economy (Aramco, the Jubail industrial complex)"
+  - "Al-Ahsa Oasis — UNESCO-listed greenery and heritage in the desert"
+  - "Flourishing communities and rapidly growing cities along the Gulf coast"
+  - "Rich Gulf pearl-diving and maritime history"
+animals:
+  popular:
+    - Arabian camel
+    - Sand gazelle
+  unique:
+    - Arabian oryx
+    - Gulf coral reef and marine species
+industries:
+  - Oil and gas extraction and refining (the world's largest reserves and facilities)
+  - Petrochemicals (Jubail Industrial City is among the world's largest)
+  - Ports, shipping and logistics (Dammam, Jubail)
+  - Construction and engineering
+  - Banking and financial services
+sports:
+  - Football (Al Ettifaq in Dammam, Al Fateh in Al Hofuf)
+  - Equestrian and camel racing
+  - Water sports in the Gulf
+entertainment:
+  - season: winter
+    items:
+      - "Outdoor festivals and events along the Dammam, Khobar and Dhahran coast (mild winter)"
+      - "Al-Ahsa festivals celebrating dates and heritage"
+  - season: summer
+    items:
+      - "Indoor entertainment and malls to escape the intense summer humidity"
+  - season: allYear
+    items:
+      - "Gulf-coast walks and the waterfront Corniches"
+      - "Heritage sites at Qatif and Al-Ahsa"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kabsa and mandi — with a distinctive coastal and Gulf twist"
+      - "Al-Ahsa's famous dates (Khalas variety) in endless varieties"
+      - "Fresh Gulf seafood — grilled fish and 'sayyadiah' (spiced fish and rice)"
+  - season: winter
+    items:
+      - "Warm seafood stews in the cooler months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The white thobe and ghutra for men; the abaya for women"
+  - season: summer
+    items:
+      - "Light, breathable fabrics suit the humid Gulf summers"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Corporate and office work typically runs Sunday-Thursday (roughly 8:00am-5:00pm); Aramco and large industrial operators run around the clock on shift schedules."
+  lunchBreakTiming: "A midday break around 12:00-1:00pm for prayer and lunch is standard."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Offices close for the Eid holidays; industrial operations often continue with reduced staffing."
+    - period: Ramadan
+      description: "Shortened working hours during Ramadan; shifts and business rhythm shift later into the evening."
+  notes: "Friday is the main rest day. The province has a strong industrial and corporate character, with a large international expatriate workforce."

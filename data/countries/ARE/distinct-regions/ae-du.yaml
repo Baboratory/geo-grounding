@@ -1,0 +1,99 @@
+code: AE-DU
+name:
+  eng: Dubai
+  local:
+    - languageCode: ara
+      value: دبي
+climates:
+  - koppenCode: BWh
+    description: Hot desert climate with strong coastal humidity along the Arabian Gulf — very hot, humid summers and mild winters.
+landmarks:
+  - name: Burj Khalifa, the world's tallest building
+  - name: Palm Jumeirah and Jumeirah Beach
+  - name: Dubai Mall and the Dubai Fountain
+  - name: Al Fahidi Historical District and the Dubai Creek
+  - name: Burj Al Arab and the Marina
+  - name: Dubai Desert Conservation Reserve dunes
+culturalTraits:
+  - "The commercial and tourism powerhouse of the UAE — a global trade, finance and aviation hub"
+  - "A famously ambitious, fast-moving 'building the future' culture"
+  - "Ultra-cosmopolitan, with residents from nearly every country"
+  - "A dynamic, deal-oriented entrepreneurial spirit"
+prideOf:
+  - "The world's tallest building (Burj Khalifa) and iconic skylines"
+  - "Its rise from a pearl-diving town to a global metropolis"
+  - "Landmark engineering — Palm Jumeirah, the Metro, world-class airports"
+  - "A thriving, open and safe tourism and business environment"
+animals:
+  popular:
+    - Arabian oryx
+    - Arabian camel
+    - Falcon
+  unique:
+    - Arabian sand cat
+    - Marine turtles along the coast
+industries:
+  - Logistics and aviation (DXB/DWC — one of the world's busiest airports; DP World ports)
+  - Trade and re-export
+  - Tourism, hospitality and retail
+  - Real estate and construction
+  - Financial services and free zones (DIFC)
+  - Technology and e-commerce
+sports:
+  - Football (Al Nasr, Shabab Al Ahli)
+  - Cricket (Dubai International Stadium)
+  - Formula One-adjacent and motor events
+  - Padel tennis and water sports
+  - Desert sports (dune bashing, quad biking)
+entertainment:
+  - season: winter
+    items:
+      - "Dubai Shopping Festival (Dec-Jan) and the Dubai Marathon"
+      - "Outdoor beach clubs, festivals and desert safaris (pleasant winter climate)"
+      - "Major concerts and international events"
+  - season: summer
+    items:
+      - "Air-conditioned indoor attractions — malls, water parks and indoor ski slopes"
+      - "Indoor entertainment venues across the city"
+  - season: allYear
+    items:
+      - "New Year fireworks at Burj Khalifa"
+      - "Dhow cruises and heritage evenings on the Creek"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Machboos, madrooba and Harees — the Emirati classics"
+      - "Fresh dates, Arabic coffee and luqaimat"
+      - "An unrivalled international dining scene reflecting the city's global population"
+  - season: winter
+    items:
+      - "Warm Emirati stews and festive dining during the cool months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Emiratis: the white kandura and ghutra for men, the black abaya for women"
+      - "Expatriates wear Western smart-casual; modest dress is expected in public"
+  - season: winter
+    items:
+      - "Light layers for the mild winter evenings"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "The official weekend is Saturday-Sunday; offices run roughly 9:00am-6:00pm (many companies compress to a 40-hour week). Friday midday remains significant for prayer."
+  lunchBreakTiming: "A midday break around 1:00-2:00pm is common; Friday prayer extends it in many workplaces."
+  notableShutdownPeriods:
+    - period: Eid al-Fitr and Eid al-Adha
+      description: "Offices close; retail and tourism surge with special events and sales."
+    - period: Ramadan
+      description: "Shortened working hours and a distinctly nocturnal rhythm during the holy month."
+  notes: "Dubai runs on a fast, internationally oriented calendar. For retail and tourism, the busy season is winter (roughly November to March); summer is quieter for outdoor events. Friday, though not a full rest day since the 2022 weekend change, remains religiously significant."
