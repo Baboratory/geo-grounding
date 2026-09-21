@@ -1,0 +1,98 @@
+code: NP-P7
+name:
+  eng: Sudurpashchim
+  local:
+    - languageCode: npi
+      value: सुदूरपश्चिम
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland in the western hills — mild summers, cold winters, monsoon rain Jun-Sep."
+  - koppenCode: Aw
+    description: "Tropical savanna in the southern Terai districts bordering India."
+landmarks:
+  - name: Khaptad National Park
+    description: "A biodiversity-rich protected area of subalpine forests and the sacred Khaptad Baba ashram."
+  - name: Saipal Himal
+    description: "The high western peak of Sudurpashchim, on the border with Nepal's far west."
+  - name: Dipayal and the Seti/Doti valleys
+    description: "Historic seat of the Doti kingdom and the province's administrative centre."
+culturalTraits:
+  - "The westernmost, culturally distinct hill culture — sometimes called the 'far west'"
+  - "Strong Kali/Dashami and Badimalikha Devi worship with local festivals"
+  - "Mix of hill (Khas) and Terai (Madhesi) traditions in the south"
+prideOf:
+  - "Khaptad's unspoilt high meadows and sacred sites"
+  - "The historic Doti (Dotyeli) culture and language"
+  - "A borderland identity straddling Nepal and India"
+animals:
+  popular:
+    - "Himalayan monal and pheasants of the western hills"
+    - "Leopard and Himalayan black bear"
+    - "Wild boar and deer in the lower forests"
+  unique:
+    - "The high-altitude birdlife and the sacred biodiversity of Khaptad National Park"
+industries:
+  - Agriculture and livestock
+  - Remittances (a heavily migrant-dependent province)
+  - Emerging trekking and eco-tourism around Khaptad
+sports:
+  - Volleyball
+  - Dandi Biyo
+  - Football
+  - Cricket in the Terai districts
+religions:
+  - name: Hinduism
+    percent: 95.0
+    sourceId: "npl-census-2011"
+  - name: Islam
+    percent: 3.0
+    sourceId: "npl-census-2011"
+entertainment:
+  - season: dry
+    items:
+      - "Trekking to Khaptad and the far-western highlands"
+      - "Pilgrimages to Badimalikha Devi and local shrines"
+  - season: wet
+    items:
+      - "Monsoon farming; rural tracks become difficult"
+  - season: allYear
+    items:
+      - "Folk festivals, Deuda song-dance and tight village community life"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Daal bhat and millet staples, gundruk and raksi"
+      - "Khasi (goat) and local river fish in the Terai"
+  - season: dry
+    items:
+      - "Festival feasts of mutton and rice"
+  - season: wet
+    items:
+      - "Warm chiya and seasonal vegetables"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Daura-suruwal and Dhaka-topi; the Dotyeli women's vest-style blouse at festivals"
+  - season: dry
+    items:
+      - "Warm wool layers for the highland winter"
+  - season: wet
+    items:
+      - "Rain gear for the monsoon"
+seasonCalendar:
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+businessRhythm:
+  restDays:
+    - saturday
+  typicalWorkHours: "Government and offices 10:00-17:00 (Sunday to Friday); rural markets follow weekly haat days."
+  notes: "Saturday is the main rest day. Sudurpashchim is predominantly rural and agriculture/remittance-driven; the festival calendar heavily shapes business, and the monsoon restricts travel in the hills."
+sources:
+  - id: npl-census-2011
+    name: "National Population and Housing Census 2011 (province-level religion)"
+    publisher: "Central Bureau of Statistics, Government of Nepal"
+    url: "https://censusnepal.cbs.gov.np"
+    year: 2011
+    note: "Province-level religion estimates for Sudurpashchim (indicative)."

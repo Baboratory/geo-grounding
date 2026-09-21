@@ -1,0 +1,109 @@
+code: NP-P1
+name:
+  eng: Koshi
+  local:
+    - languageCode: npi
+      value: कोशी
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland in the hills of eastern Nepal: warm, wet summers and cool, dry winters."
+  - koppenCode: ET
+    description: "Alpine tundra and ice on the high Khumbu Himalaya around Everest."
+landmarks:
+  - name: Sagarmatha (Mount Everest) National Park
+    description: "Protects Mount Everest (8,849 m) and the Khumbu/Sherpa high-Himalayan landscape."
+    unescoWorldHeritage: true
+  - name: Ilam tea gardens
+    description: "The 'queen of the hills' — rolling tea estates in east Nepal near the Indian border."
+  - name: Kanchenjunga region
+    description: "Glaciers and trails toward Nepal's second-highest peak (8,586 m) on the Sikkim border."
+culturalTraits:
+  - "Strong Sherpa and Rai/Limbu indigenous presence in the eastern hills"
+  - "The Khumbu (Sherpa) homeland — Sherpa mountaineering culture and Buddhist monasteries"
+  - "Hindu and Kirati religious coexistence in the eastern Terai and hills"
+prideOf:
+  - "Mount Everest and the Sherpa mountaineering heritage"
+  - "The famous Ilam tea"
+  - "Being a gateway (Biratnagar) for eastern Nepal trade"
+animals:
+  popular:
+    - "The Himalayan monal (danphe), Nepal's national bird"
+    - "Red panda in high forests"
+    - "Musk deer in alpine meadows"
+  unique:
+    - "The red panda and the snow leopard in the Kanchenjunga/Everest highlands"
+industries:
+  - Tourism and trekking (Everest region)
+  - Tea cultivation (Ilam) and cardamom
+  - Remittances from Nepali migrants
+  - Hydroelectric projects on the Kosi basin
+sports:
+  - Cricket and football
+  - Mountaineering and trekking
+  - Volleyball in hill villages
+religions:
+  - name: Hinduism
+    percent: 71.0
+    sourceId: "npl-census-2011"
+  - name: Buddhism
+    percent: 16.0
+    sourceId: "npl-census-2011"
+  - name: Kirat
+    percent: 8.0
+    sourceId: "npl-census-2011"
+entertainment:
+  - season: dry
+    items:
+      - "Trekking in the Everest and Kanchenjunga regions"
+      - "Visits to Sherpa monasteries in the Khumbu"
+  - season: wet
+    items:
+      - "Monsoon rains; tea-garden visits and indoor festivals"
+  - season: allYear
+    items:
+      - "Himalayan mountain festivals and cricket"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Daal bhat tarkari"
+      - "Momo"
+      - "Restaurant tea from Ilam and chiya"
+  - season: dry
+    items:
+      - "Grilled meats at Dashain"
+  - season: wet
+    items:
+      - "Fresh maize and millet dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Daura-suruwal and Dhaka-topi for men; gunyo cholo for women on festival days"
+      - "Sherpa bakhu (wollen robe) in the Khumbu highlands"
+  - season: dry
+    items:
+      - "Down jackets and trekking layers for high-altitude travel"
+  - season: wet
+    items:
+      - "Rainproof clothing during the monsoon"
+seasonCalendar:
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+businessRhythm:
+  restDays:
+    - saturday
+  typicalWorkHours: "Government and offices 10:00-17:00 Sunday to Friday; shops commonly open by 9:00-10:00 and close by 18:00-19:00."
+  notes: "Saturday is the main rest day. Trekking businesses (Everest/Kanchenjunga) run mainly in the dry season Oct-May. Dashain and Tihar are the major shutdown festival periods."
+sources:
+  - id: npl-census-2011
+    name: "National Population and Housing Census 2011 (province-level religion)"
+    publisher: "Central Bureau of Statistics, Government of Nepal"
+    url: "https://censusnepal.cbs.gov.np"
+    year: 2011
+    note: "Province-level religion estimates for Koshi; figures are indicative (marked composite)."
+  - id: npl-unesco
+    name: "UNESCO World Heritage List — Nepal"
+    publisher: "UNESCO"
+    url: "https://whc.unesco.org/en/statesparties/np"
+    note: "Sagarmatha National Park inscribed 1979."

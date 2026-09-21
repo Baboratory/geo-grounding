@@ -1,0 +1,201 @@
+alpha3: NPL
+alpha2: NP
+name:
+  eng: Nepal
+  local:
+    - languageCode: npi
+      value: नेपाल
+flagEmoji: "🇳🇵"
+capital: Kathmandu
+isSovereign: true
+governanceType: federal
+iso3166_2_prefix: NP
+hasSubdivisions: true
+# Language/ethnicity/religion figures are from the 2011 National Population and
+# Housing Census (Central Bureau of Statistics), the last census with a widely
+# published mother-tongue/ethnicity/religion breakdown used consistently here.
+languageUsage:
+  - languageCode: npi
+    domain: official
+    speakersShare: 1.0
+    sourceId: "npl-constitution-art7"
+  - languageCode: npi
+    domain: locallySpoken
+    speakersShare: 0.446
+    sourceId: "npl-census-2011"
+  - languageCode: mai
+    domain: locallySpoken
+    speakersShare: 0.117
+    sourceId: "npl-census-2011"
+  - languageCode: bho
+    domain: locallySpoken
+    speakersShare: 0.0598
+    sourceId: "npl-census-2011"
+  - languageCode: thr
+    domain: locallySpoken
+    speakersShare: 0.0577
+    sourceId: "npl-census-2011"
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.25
+    # FLAGGED ESTIMATE: no official English-proficiency census figure exists.
+    sourceId: "npl-eng-est"
+ethnicGroups:
+  - group: Chhetri
+    percent: 16.6
+    sourceId: "npl-census-2011"
+  - group: Bahun (Hill Brahman)
+    percent: 12.2
+    sourceId: "npl-census-2011"
+  - group: Magar
+    percent: 7.1
+    sourceId: "npl-census-2011"
+  - group: Tharu
+    percent: 6.6
+    sourceId: "npl-census-2011"
+  - group: Tamang
+    percent: 5.8
+    sourceId: "npl-census-2011"
+  - group: Newar
+    percent: 5.0
+    sourceId: "npl-census-2011"
+  - group: Kami (Hill Dalit)
+    percent: 4.8
+    sourceId: "npl-census-2011"
+  - group: Musalman (Muslim)
+    percent: 4.4
+    sourceId: "npl-census-2011"
+  - group: Yadav
+    percent: 4.0
+    sourceId: "npl-census-2011"
+  - group: Rai (all Rai sub-groups)
+    percent: 2.3
+    sourceId: "npl-census-2011"
+  - group: Other (incl. Gharti/Bhujel, Gurung, Limbu, Tamang-related, Sherpa, etc. — 126 groups total)
+    percent: 37.2
+    sourceId: "npl-census-2011"
+timezones:
+  - name: Asia/Kathmandu
+    standardUtcOffset: "UTC+5:45"
+    observesDst: false
+currency:
+  code: NPR
+  symbol: "Rs"
+  name: Nepalese rupee
+legalConstraints:
+  - topic: "VAT rate and price display"
+    description: "The standard Value Added Tax rate is 13% (Value Added Tax Act 2052/1996). Consumer prices are normally displayed in Nepalese rupees; VAT is applied on top at the standard 13% rate for most goods and services."
+    sourceId: "npl-vat"
+  - topic: "consumer protection"
+    description: "The Consumer Protection Act 2075 (2018) establishes consumer rights (safety, information, choice, fair price, redress) and enforcement by the Department of Consumer Protection and Trade Management within the Ministry of Industry, Commerce and Supplies; misleading advertising and unfair trade practices are penalized."
+    sourceId: "npl-consumer-act"
+  - topic: "data protection / privacy"
+    description: "The Right to Privacy Act 2075 (2018) protects personal information — collecting personal data requires the individual's consent, collected data may be used only for the disclosed purpose, and unauthorized disclosure is an offence. Nepal has NO GDPR-style omnibus data-protection law or dedicated data-protection authority; a draft Information Technology and Cyber Security Bill (2024) adding privacy provisions is yet to be enacted."
+    sourceId: "npl-privacy-act"
+  - topic: "official language"
+    description: "Nepali in the Devanagari script is the official language of Nepal (Constitution of Nepal 2015, Article 7(1)); under Article 7(2) a province may, by provincial law, additionally adopt one or more languages of the nation spoken by a majority as additional official languages."
+    sourceId: "npl-constitution-art7"
+paymentCulture:
+  popularMethods:
+    - "Cash — still dominant for everyday retail and the bazaar/market economy"
+    - "eSewa and Khalti — the two leading licensed mobile wallets (with IME Pay, PrabhuPay, Fonepay and others)"
+    - "QR-code payments under the national NEPALPAY QR scheme (Nepal Rastra Bank's NepalQR standard, operated by Nepal Clearing House Ltd.), increasingly used even by small street merchants"
+    - "Mobile banking and internet banking (connect IPS, instant bank fund transfer/IBFT) for larger sums and bills"
+    - "ATM cash withdrawal remains very common; many rural and small merchants remain cash-only"
+  tipping:
+    expected: false
+    typicalAmount: "Tipping is modest and not expected; rounding up or leaving ~10% for good service in tourist-oriented restaurants is appreciated; guides and porters on treks commonly receive a tip."
+    autoIncludedInBill: false
+    note: "Service charge is sometimes added in upscale tourist restaurants; otherwise tips are discretionary. In rural and local settings tipping is rare."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Uses respectful honorifics in Nepali: 'tapāī' (respectful 'you'), and titles like Dai (elder brother) / Didi (elder sister) as terms of respect even for non-relatives; Mr./Mrs. (Shree/Shreemati) and professional titles (Prof./Dr.) are used formally. Elders are addressed with clear respect."
+  greetingNorms: "The traditional greeting is 'namaste' (नमस्ते) with palms pressed together and a slight bow — still common and well received. Among the urban and younger population a handshake has become standard, sometimes with the free hand at the chest. 'Namaste' remains the safe, polite default."
+  meetingEtiquette: "Punctuality is appreciated but a degree of flexibility is common and normal; meetings often open with tea (chiya) and polite small talk before business. Relationships and personal trust matter greatly, and decisions often depend on seniority and consensus rather than being made on the spot. Business cards are exchanged; use the right hand for giving/receiving."
+  topicsToAvoid:
+    - "Caste and ethnic hierarchies — a legally abolished but still sensitive subject; avoid making assumptions or jokes about caste"
+    - "The 1996-2006 civil war (Maoist insurgency) and related political divisions, unless raised warmly by the other side"
+    - "Religion and politics: sectarian or party-political comments can be divisive"
+    - "Disparaging remarks about the Himalayas, Mount Everest, or national pride"
+  giftGivingNotes: "A small, modest gift is appreciated when invited to a home — fruit, sweets, or a souvenir from your country. Avoid leather goods when the recipient is a practicing Hindu; when buying flowers prefer marigold (sacred) and avoid lilies (used for death). Use both hands or the right hand when offering."
+distinct-regions:
+  - code: NP-P1
+    file: distinct-regions/np-p1.yaml
+    adminUnitCodes: [NP-P1]
+  - code: NP-P2
+    file: distinct-regions/np-p2.yaml
+    adminUnitCodes: [NP-P2]
+  - code: NP-P3
+    file: distinct-regions/np-p3.yaml
+    adminUnitCodes: [NP-P3]
+  - code: NP-P4
+    file: distinct-regions/np-p4.yaml
+    adminUnitCodes: [NP-P4]
+  - code: NP-P5
+    file: distinct-regions/np-p5.yaml
+    adminUnitCodes: [NP-P5]
+  - code: NP-P6
+    file: distinct-regions/np-p6.yaml
+    adminUnitCodes: [NP-P6]
+  - code: NP-P7
+    file: distinct-regions/np-p7.yaml
+    adminUnitCodes: [NP-P7]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: npl-constitution-art7
+    name: "Constitution of Nepal 2015, Articles 6-7 (Languages of the Nation / Official Language)"
+    publisher: "Law Commission of Nepal"
+    url: "http://www.lawcommission.gov.np"
+    year: 2015
+    note: "Article 7(1) Nepali in Devanagari script is the official language; Article 7(2) provinces may add official languages. Basis for npi official status."
+  - id: npl-census-2011
+    name: "National Population and Housing Census 2011 (caste/ethnicity, mother tongue, religion tables)"
+    publisher: "Central Bureau of Statistics, Government of Nepal"
+    url: "https://censusnepal.cbs.gov.np"
+    year: 2011
+    note: "Mother-tongue shares (Nepali 44.6%, Maithili 11.7%, Bhojpuri 5.98%, Tharu 5.77%), ethnic shares (Chhetri 16.6%, Bahun-Hill 12.2%, Magar 7.1%, Tharu 6.6%, Tamang 5.8%, Newar 5.0%, Kami 4.8%, Muslim 4.4%, Yadav 4.0%, Rai 2.3%) and religion (Hindu 81.3%, Buddhist 9.0%, Muslim 4.4%, Kirat 3.1%, Christian 1.4%)."
+  - id: npl-vat
+    name: "Value Added Tax Act 2052 (1996)"
+    publisher: "Inland Revenue Department / Law Commission of Nepal"
+    url: "https://ird.gov.np"
+    year: 1996
+    note: "13% standard VAT rate; registration threshold NPR 5 million (goods) / 2 million (services)."
+  - id: npl-consumer-act
+    name: "Consumer Protection Act 2075 (2018)"
+    publisher: "Law Commission of Nepal"
+    url: "http://www.lawcommission.gov.np"
+    year: 2018
+    note: "Consumer rights and trade-practice enforcement."
+  - id: npl-privacy-act
+    name: "Right to Privacy Act 2075 (2018); no GDPR-equivalent regime"
+    publisher: "Law Commission of Nepal / DLA Piper Data Protection Laws of the World"
+    url: "http://www.lawcommission.gov.np"
+    year: 2018
+    note: "Consent-based personal-information rules; no dedicated data-protection authority; draft IT & Cyber Security Bill 2024 pending."
+  - id: npl-nrb-payments
+    name: "Payment Systems Oversight Report; List of Licensed PSOs/PSPs"
+    publisher: "Nepal Rastra Bank (central bank)"
+    url: "https://www.nrb.org.np"
+    year: 2024
+    note: "Licensed wallets (eSewa, Khalti, IME Pay, PrabhuPay, Fonepay), NEPALPAY QR national scheme, connect IPS."
+  - id: npl-unesco
+    name: "UNESCO World Heritage List — Nepal"
+    publisher: "UNESCO"
+    url: "https://whc.unesco.org/en/statesparties/np"
+    note: "Sagarmatha NP (1979), Kathmandu Valley (1979), Chitwan NP (1984), Lumbini (1997)."
+  - id: npl-iso639
+    name: "ISO 639-3 Registration Authority code npi (Nepali)"
+    publisher: "SIL International"
+    url: "https://iso639-3.sil.org/code/npi"
+    note: "Confirms npi = Nepali (individual language), member of the Nepali macrolanguage."
+  - id: npl-iso3166
+    name: "ISO 3166-2:NP — province codes (NP-P1..NP-P7)"
+    publisher: "International Organization for Standardization (ISO)"
+    url: "https://www.iso.org/obp/ui/#iso:code:3166:NP"
+    note: "Koshi NP-P1, Madhesh NP-P2, Bagmati NP-P3, Gandaki NP-P4, Lumbini NP-P5, Karnali NP-P6, Sudurpashchim NP-P7."
+  - id: npl-eng-est
+    name: "English as a foreign language in Nepal — estimated"
+    publisher: "Composite estimate"
+    url: "https://censusnepal.cbs.gov.np"
+    note: "FLAGGED ESTIMATE: English is the leading foreign language in business, education and tourism; no official proficiency percentage exists — disclosed as an estimate."

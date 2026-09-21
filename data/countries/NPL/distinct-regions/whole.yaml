@@ -1,0 +1,168 @@
+code: WHOLE
+name:
+  eng: Nepal
+  local:
+    - languageCode: npi
+      value: नेपाल
+# Generic country-wide fallback content, used by usage_examples/python/get_data_by_ip.py
+# when a visitor's ISO 3166-2 province isn't one of the curated NP-P1..NP-P7 files.
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna in the southern Terai lowlands — hot, with a pronounced summer monsoon (Jun-Sep) and a dry season for the rest of the year."
+  - koppenCode: Cwb
+    description: "Subtropical highland / monsoon-influenced humid subtropical in the middle hills and Kathmandu Valley: mild winters, warm summers, heavy monsoon rain Jun-Sep."
+  - koppenCode: Cfb
+    description: "Temperate oceanic in the lower Himalayan foothills and inner valleys of the hills."
+  - koppenCode: ET
+    description: "Alpine tundra on the high Himalayan slopes and valleys above the treeline."
+  - koppenCode: EF
+    description: "Ice cap / perpetual frost on the highest Himalayan peaks above ~5,000 m, including the Everest massif."
+landmarks:
+  - name: Sagarmatha (Mount Everest) National Park
+    description: "Protects the world's highest peak (8,849 m) and the Khumbu/Sherpa landscape in eastern Nepal."
+    unescoWorldHeritage: true
+  - name: Kathmandu Valley
+    description: "Seven monument zones of Hindu and Buddhist religious, artistic and architectural heritage (Durbar Squares, Pashupatinath, Boudhanath, Swayambhunath, Changu Narayan)."
+    unescoWorldHeritage: true
+  - name: Chitwan National Park
+    description: "Subtropical inner-Terai lowland protecting one-horned rhinoceros and Bengal tiger."
+    unescoWorldHeritage: true
+  - name: Lumbini, the Birthplace of the Buddha
+    description: "The sacred garden marking where Siddhartha Gautama (the Buddha) was born, with the Maya Devi Temple and Ashoka pillar."
+    unescoWorldHeritage: true
+  - name: Annapurna massif and Pokhara valley
+    description: "World-class trekking peaks and the lakeside city of Pokhara beneath Machhapuchhre."
+  - name: Rara Lake
+    description: "Nepal's largest lake, in a high-mountain basin in Karnali province."
+culturalTraits:
+  - "Namaste greeting with palms together — the traditional sign of respect"
+  - "Strong family bonds and hospitality toward guests (atriya)"
+  - "Dashain and Tihar as the two great festival seasons uniting Nepalis across religions"
+  - "Nepali is a linguistic bridge across 120+ mother tongues; religious coexistence is constitutional (secular republic since 2008, formerly the world's only Hindu kingdom)"
+  - "Deep reverence for the Himalayas and for national symbols (flag, rhododendron flower, the danphe pheasant)"
+prideOf:
+  - "Mount Everest (Sagarmatha), the world's highest peak"
+  - "Being the birthplace of the Buddha (Lumbini)"
+  - "The Gurkha soldiering tradition and national flag"
+  - "Nepal's multi-ethnic, multi-religious unity and remarkable biodiversity (from Terai jungle to Himalayan ice)"
+  - "The national cricket team and Himalayan mountaineers"
+animals:
+  popular:
+    - The greater one-horned rhinoceros (Chitwan)
+    - Bengal tiger (Chitwan and Bardia)
+    - Red panda (high Himalayan forests)
+    - Himalayan monal / danphe (the national bird)
+    - Snow leopard (high alpine)
+  unique:
+    - "The greater one-horned rhinoceros and the Bengal tiger, in the Terai national parks"
+    - "The red panda, an icon of the high Himalaya"
+    - "The Himalayan monal (danphe), Nepal's national bird, and the spiny babbler (the only bird endemic to Nepal)"
+industries:
+  - Tourism and trekking (mountains, pilgrimage sites, adventure tourism)
+  - Agriculture (rice, maize, millet, tea, cardamom, and the medicinal herbs of the hills)
+  - Hydropower (major renewable-energy potential from Himalayan rivers)
+  - Remittances from the large Nepali diaspora (a major share of GDP)
+  - Construction and retail (remittance-funded)
+  - Handicrafts (pashmina/wool, textiles, metalwork, thankas)
+sports:
+  - Cricket (increasingly popular, national team competes internationally)
+  - Football (association football is the most-played sport)
+  - Volleyball (widespread in villages in the Terai and hills)
+  - Mountaineering and trekking ("Nepal = Himalaya")
+  - Dandi Biyo (a traditional stick-and-slot game) and Kabaddi
+religions:
+  - name: Hinduism
+    percent: 81.3
+    sourceId: "npl-census-2011"
+  - name: Buddhism
+    percent: 9.0
+    sourceId: "npl-census-2011"
+  - name: Islam
+    percent: 4.4
+    sourceId: "npl-census-2011"
+  - name: Kirat (Kiranti indigenous religion)
+    percent: 3.1
+    sourceId: "npl-census-2011"
+  - name: Christianity
+    percent: 1.4
+    sourceId: "npl-census-2011"
+  - name: Others (Prakriti/nature worship, Bon, Jain, Sikh, Baha'i)
+    percent: 0.8
+    sourceId: "npl-census-2011"
+entertainment:
+  - season: dry
+    items:
+      - "Trekking and mountaineering in the Himalaya, including Everest and Annapurna base camps"
+      - "Safari and wildlife tours in Chitwan and Bardia national parks"
+      - "Paragliding and lakeside leisure in Pokhara"
+  - season: wet
+    items:
+      - "Monsoon: farming season; travel and trekking slow down (rain, leeches, landslides)"
+      - "Indoor socializing and festivals (notably the Nag Panchami and Janai Purnima observances)"
+  - season: allYear
+    items:
+      - "Family festivals (Dashain, Tihar, Holi, Teej) — community-wide celebrations"
+      - "Nightlife and cafes in Kathmandu (Thamel) and Pokhara"
+      - "Museums, monasteries and temple complexes in the Kathmandu Valley"
+      - "The streets of the capital with local music, and increasingly cricket matches"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Daal bhat tarkari — lentils, rice and vegetable curry, the national staple eaten twice daily"
+      - "Momo — steamed (or fried) dumplings with a meat or vegetable filling, served with spicy chutney"
+      - "Gundruk — fermented leafy greens, a preserved winter staple"
+      - "Sel roti — a sweet ring-shaped rice-based snack, especially at festivals"
+      - "Chiya (Nepali milk tea) and chiura (beaten rice)"
+  - season: dry
+    items:
+      - "Khasi/mutton curry and grilled meats at festivals and feasts"
+      - "Sukuti (dried meat) and juju dhau (the 'king of yoghurts', from Bhaktapur)"
+  - season: wet
+    items:
+      - "Fresh seasonal vegetables, maize and millet dishes"
+      - "Warm chiya and pakoras with the monsoon rains"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Daura-suruwal and the L-Lapetta vest/coat for men; the gunyo cholo (blouse) and lungi for women on formal/festival occasions and in Terai communities"
+      - "The dhoti and kurta among Terai (Madhesi) men; lungi is common at home"
+      - "Pashmina/wool shawls, the Dhaka-topi (traditional Nepali cap) and Dhaka-pattern waistcoat as national symbols"
+      - "Kurta salwar and saree widely worn by women; Western dress common in cities"
+  - season: wet
+    items:
+      - "Waterproof coats and umbrellas; sunglasses rarely needed during the heavy monsoon"
+  - season: dry
+    items:
+      - "Warm layers and down jackets for high-altitude trekking; sun protection for the Terai"
+# Nepal's climate divides between the dry season (Oct-May) and the summer monsoon
+# (Jun-Sep); the months below partition the whole year accordingly.
+seasonCalendar:
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+businessRhythm:
+  restDays:
+    - saturday
+  typicalWorkHours: "Private businesses and shops commonly operate 10:00-17:00/18:00 (Sunday to Friday); state offices 10:00-17:00. Many shops open earlier and stay open into the evening."
+  lunchBreakTiming: "A midday break around 13:00-14:00 is common, especially for government and formal offices."
+  notableShutdownPeriods:
+    - period: "Dashain (Sep-Oct, ~two weeks)"
+      description: "The biggest festival of the year; businesses and government largely close for several days to a week and staff return to their home villages."
+    - period: "Tihar (Oct-Nov, ~five days)"
+      description: "Major festival of lights; many offices close or work reduced hours."
+    - period: "Holi / Fagu Purnima (Feb-Mar)"
+      description: "A nation-wide colour festival; business slows and many offices give the day off."
+  notes: "Historically Nepal's working week ran Sunday-Friday with Saturday as the only rest day (a week starting Sunday, unlike the Western Mon-Fri). Government offices have since moved to a five-day week with Saturday and sometimes Sunday off; the private sector commonly keeps Saturday as the main weekly rest day. Business is markedly reduced during Dashain and Tihar festival seasons, and trekking/construction sectors follow seasonal (dry/rainy) rhythms."
+sources:
+  - id: npl-census-2011
+    name: "National Population and Housing Census 2011 (religion, ethnicity, mother tongue)"
+    publisher: "Central Bureau of Statistics, Government of Nepal"
+    url: "https://censusnepal.cbs.gov.np"
+    year: 2011
+    note: "Religion shares (Hindu 81.3%, Buddhist 9.0%, Muslim 4.4%, Kirat 3.1%, Christian 1.4%, other 0.8%) and the ethnicity/mother-tongue context used across region files."
+  - id: npl-unesco
+    name: "UNESCO World Heritage List — Nepal"
+    publisher: "UNESCO"
+    url: "https://whc.unesco.org/en/statesparties/np"
+    note: "Four World Heritage sites: Sagarmatha NP (1979), Kathmandu Valley (1979), Chitwan NP (1984), Lumbini (1997)."
