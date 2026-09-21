@@ -1,0 +1,94 @@
+code: WHOLE
+name:
+  eng: Germany
+  local:
+    - languageCode: deu
+      value: Deutschland
+# This is the generic, country-wide fallback content — used by
+# usage_examples/python/get_data_by_ip.py when a visitor's specific ISO
+# 3166-2 subdivision isn't one of the curated regions (DE-BY, DE-BE, DE-SN).
+# Content is deliberately national/symbolic rather than tied to one state.
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate across most of Germany's lowlands and river valleys.
+  - koppenCode: Dfb
+    description: Humid continental climate in the southeast and other higher-elevation areas.
+landmarks:
+  - name: Brandenburg Gate
+    description: Neoclassical gate in Berlin, Germany's most recognizable national symbol.
+  - name: Neuschwanstein Castle
+    description: Fairy-tale castle in the Bavarian Alps and one of the most visited castles in Europe.
+  - name: Cologne Cathedral
+    description: Gothic masterpiece and UNESCO World Heritage site on the Rhine.
+  - name: The Rhine Valley
+    description: UNESCO-listed wine region with castles and terraced vineyards along the Middle Rhine.
+culturalTraits:
+  - A federal republic of sixteen states with deep regional identities (Bavarian, Saxon, Rhenish, Swabian and more)
+  - Strong engineering and manufacturing tradition ('Made in Germany')
+  - "A history shaped profoundly by the 20th century: two world wars, division and reunification"
+  - Widespread bilingual comfort with English and a strong environmental / recycling culture
+prideOf:
+  - "The 'Wirtschaftswunder' post-war economic miracle and world-leading engineering"
+  - "Its cultural heritage: from Bach, Beethoven and Goethe to modern techno and film"
+  - Successful reunification and the 1989 peaceful revolution
+animals:
+  popular:
+    - Red fox
+    - Roe deer and red deer
+    - Wild boar
+  unique:
+    - European pond turtle (rare)
+    - Alpine marmot (in the Alps)
+industries:
+  - Automobile manufacturing and engineering
+  - Machinery and precision manufacturing
+  - Chemicals and pharmaceuticals
+  - Information technology and software
+  - Renewable energy and environmental technology
+sports:
+  - Football (the Bundesliga is one of the world's strongest leagues)
+  - Formula One and motorsport
+  - Handball and basketball
+  - Winter sports in the Alps
+  - Cycling (Germany hosts major Grand Tour stages)
+entertainment:
+  - season: summer
+    items:
+      - Open-air festivals and the 'Fussball' (football) season
+      - "Berufsfestivals: street and music festivals across German cities"
+  - season: winter
+    items:
+      - Christmas markets (Weihnachtsmärkte) across the country
+      - Ski and winter-sports season in the Alps
+  - season: allYear
+    items:
+      - "Beer-garden culture, classical concerts and Germany's vibrant club scene"
+traditionalDishes:
+  - season: allYear
+    items:
+      - Bratwurst and sausages
+      - Sauerkraut
+      - Bread (Germany has one of the world's richest bread cultures)
+      - Schnitzel
+  - season: winter
+    items:
+      - Glühwein (mulled wine) served at Christmas markets
+      - Stollen and other Weihnachtsgebäck (Christmas pastries)
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional folk costumes (Tracht) vary by region — Lederhosen and Dirndl in Bavaria, Trachten elsewhere — worn mainly at festivals, folk events and weddings; everyday dress is modern"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday and public-holiday retail closure is the national default; the countries' (Bundesländer) opening-hours laws set detailed exceptions. Offices and most businesses run a standard Monday-Friday working week."
+sources: []

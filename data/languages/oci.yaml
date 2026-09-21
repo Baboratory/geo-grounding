@@ -1,0 +1,8 @@
+code: oci
+name:
+  eng: Occitan
+  local: Occitan
+commonPhrases:
+  hello: Bonjorn
+  thankYou: Mercés
+  goodbye: Adieu

@@ -1,0 +1,230 @@
+alpha3: DEU
+alpha2: DE
+name:
+  eng: Germany
+  local:
+    - languageCode: deu
+      value: Deutschland
+flagEmoji: "🇩🇪"
+capital: Berlin
+isSovereign: true
+# Classified federal: the Federal Republic of Germany is a federal parliamentary
+# republic of sixteen states (Länder), each with its own state parliament
+# (Landtag), constitution and substantial legislative autonomy, so subdivision
+# by state (real ISO 3166-2 codes) is mandatory. German is the state's standard
+# (de facto) official and administrative language; four autochthonous national
+# minorities (Danes, Frisians, Sorbs, Sinti and Roma) and their languages enjoy
+# special protection, and Low German is a recognized regional language under the
+# European Charter.
+governanceType: federal
+iso3166_2_prefix: DE
+hasSubdivisions: true
+languageUsage:
+  - languageCode: deu
+    domain: official
+    speakersShare: 1.0
+    sourceId: bmi-minority-languages
+  - languageCode: deu
+    domain: locallySpoken
+    speakersShare: 0.93
+    sourceId: bmi-minority-languages
+  - languageCode: fra
+    domain: foreign
+    speakersShare: 0.16
+    sourceId: eurobarometer-languages-2024
+  - languageCode: spa
+    domain: foreign
+    speakersShare: 0.08
+    sourceId: eurobarometer-languages-2024
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.65
+    sourceId: languages-of-germany-2023
+  - languageCode: dan
+    domain: locallySpoken
+    speakersShare: 0.0006
+    sourceId: bmi-minority-languages
+  - languageCode: frr
+    domain: locallySpoken
+    speakersShare: 0.0001
+    sourceId: bmi-minority-languages
+  - languageCode: hsb
+    domain: locallySpoken
+    speakersShare: 0.0002
+    sourceId: bmi-minority-languages
+  - languageCode: dsb
+    domain: locallySpoken
+    speakersShare: 0.0001
+    sourceId: bmi-minority-languages
+  - languageCode: nds
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: ldslow-german-2016
+# German is the standard official/administrative language of the federal state
+# (the Constitution itself does not name an official language; the status is
+# established by administrative practice and federal law as the language of the
+# courts, administration and education). German is also the first/de facto
+# language of roughly 90-95% of residents. The four recognized autochthonous
+# minority languages (Danish, North/Sater Frisian, Upper/Lower Sorbian and
+# Romani) and the regional language Low German are protected under the European
+# Charter for Regional or Minority Languages; their resident-speaker shares are
+# tiny (fractions of a percent) and are estimates — Germany collects no
+# ethnicity or mother-tongue census data, so exact figures do not exist. English
+# and French shares are Eurobarometer self-reported foreign-language skills; the
+# English figure follows the 2023 microcensus speaker count (~1.01M with English
+# as main immigrant language) plus widely-reported high second-language use.
+ethnicGroups:
+  # No ethnicity census exists in Germany (ethnic classification is a personal
+  # choice and legally unrecorded); the recognized national minorities (Danish,
+  # Frisian, Sorbian, Sinti and Roma) are estimates of a few thousand to tens of
+  # thousands each and are not reported as separate statistical groups here.
+  - group: German (no migrant background)
+    percent: 73.1
+    sourceId: destatis-microcensus-2023
+  - group: Immigrant background (whole or partial)
+    percent: 26.9
+    sourceId: destatis-microcensus-2023
+  - group: Community with migration background (Turkish descent, first/second generation)
+    percent: 2.8
+    sourceId: destatis-microcensus-2023
+timezones:
+  - name: Europe/Berlin
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer, not a pre-tax figure), in accordance with EU-wide rules."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide. In Germany, the statutory cooling-off period must be clearly communicated by the merchant."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data (names, emails, browsing/behavioral data, etc.) requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure ('right to be forgotten') — the EU-wide GDPR, directly applicable in Germany."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge — independent of and in addition to any commercial/manufacturer warranty."
+    sourceId: eu-directive-2019-771
+  - topic: "Sunday trading"
+    description: "Sunday and public-holiday shop closures are the statutory default nationwide (Ladenschlussgesetz); the individual states (Länder) set their own shop-opening laws within the federal framework, so Sunday exceptions vary by state."
+    sourceId: de-ladenschluss
+paymentMethodShares:
+  - method: cash (share of point-of-sale transactions)
+    percent: 51.0
+    sourceId: bundesbank-payments-2023
+  - method: card and other non-cash (share of point-of-sale transactions)
+    percent: 49.0
+    sourceId: bundesbank-payments-2023
+paymentCulture:
+  popularMethods:
+    - "Cash (bar) — still widely used and accepted, especially in smaller shops, bakeries, markets and restaurants, though card use keeps rising; Germans historically have a strong cash preference"
+    - "Girocard (EC-card) — the dominant domestic debit card, accepted at the large majority of German point-of-sale terminals"
+    - "Contactless card and mobile payments (Giropay, Apple Pay, Google Pay, PayPal online) — growing rapidly, led by younger urban shoppers"
+    - "Credit cards (Visa, Mastercard, American Express) — common but historically less universal than debit; increasingly accepted"
+  tipping:
+    expected: false
+    autoIncludedInBill: true
+    typicalAmount: "Service is included in the bill, but rounding up or leaving ~5-10% is customary for good service in restaurants and cafés. Say 'stimmt so' ('keep the change') to tell the server to keep the difference. Tipping in cash is preferred so it reaches staff directly."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Use the formal 'Sie' with strangers, older people and in most professional settings until invited to use 'du'. Titles and surnames are common in formal business contexts; first-name basis is reserved for colleagues, friends and younger settings."
+  greetingNorms: "A firm handshake with direct eye contact is standard in business and most formal encounters; close friends may greet with a brief hug on one side, and cheek-kissing is only for very close acquaintances or family. Punctuality is taken very seriously."
+  meetingEtiquette: "Punctuality is essential; being on time (or a few minutes early) signals respect. Meetings are structured, focused and direct; Germans value preparation, clear agendas and factual, well-reasoned arguments over small talk. Rank and titles matter somewhat, but decisions are made by consensus and thorough discussion."
+  topicsToAvoid:
+    - "Income, personal wealth and how much something cost"
+    - "Overly personal questions with people you have just met"
+  giftGivingNotes: "Not expected at a first business meeting. If invited to a German home, bring a small gift — flowers (odd numbers, not red roses, which imply romance), good-quality chocolates, or a bottle of wine. Gifts are typically opened immediately, and a tasteful, non-extravagant present is appreciated."
+distinct-regions:
+  - code: DE-BY
+    file: distinct-regions/by.yaml
+    adminUnitCodes: [DE-BY]
+  - code: DE-BE
+    file: distinct-regions/be.yaml
+    adminUnitCodes: [DE-BE]
+  - code: DE-SN
+    file: distinct-regions/sn.yaml
+    adminUnitCodes: [DE-SN]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: bmi-minority-languages
+    name: "National Minorities and Minority and Regional Languages in Germany"
+    publisher: "Federal Ministry of the Interior and Community (BMI)"
+    url: "https://www.deutschland.de/en/topic/politics/germany-europe/regional-and-minority-languages-in-germany"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "Basis for German being the state's standard official/administrative language, and for the recognition and territorial scope of the four autochthonous national minorities (Danish, Frisian, Sorbian, Sinti and Roma) and their languages plus Low German as a regional language. Resident-speaker shares are stated here as rough estimates, as Germany collects no mother-tongue or ethnicity census data."
+  - id: eurobarometer-languages-2024
+    name: "Special Eurobarometer: Europeans and their Languages (2024 wave)"
+    publisher: "European Commission (Eurobarometer)"
+    url: "https://europa.eu/eurobarometer/surveys/detail/2979"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Self-reported foreign-language ability in Germany: French ~16% and Spanish ~8%. The English figure is taken separately from the 2023 microcensus/language estimate given the country's very high English proficiency."
+  - id: languages-of-germany-2023
+    name: "Languages of Germany (2023 microcensus-derived speaker estimates)"
+    publisher: "Federal Statistical Office of Germany (Destatis), via languages of Germany overview"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Germany"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Roughly 65% of Germans can speak English (very high proficiency by international measures, and ~1.01M residents list English as their main spoken immigrant language in the 2023 microcensus). Figure is an estimate of foreign-language facility."
+  - id: ldslow-german-2016
+    name: "2016 survey of Low German competence"
+    publisher: "Institute for the German Language (IDS) and Institute for the Low German Language (INL)"
+    url: "https://ids-pub.bsz-bw.de/frontdoor/deliver/index/docId/7853/file/Adler_Beyer_Languages_and_language_policies_in_Germany_2018.pdf"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "~32% of respondents in Northern Germany report fairly good to very good active Low German competence; across the whole national population the active-speaker share is far smaller, estimated here at ~3% as a composite estimate."
+  - id: destatis-microcensus-2023
+    name: "Population by migration background, microcensus 2023"
+    publisher: "Statistisches Bundesamt (Federal Statistical Office of Germany)"
+    url: "https://www.destatis.de/EN/Themes/Society-Environment/Population/Migration-Integration/_node.html"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Microcensus 2023: ~26.9% of residents have an immigration background (self or at least one parent born abroad). The 'no migration background' remainder (~73.1%) is a derived figure; the Turkish-descent ~2.8% line reflects the largest single community-with-migration-background group and is indicative."
+  - id: bundesbank-payments-2023
+    name: "Study on payment behaviour in Germany 2023"
+    publisher: "Deutsche Bundesbank"
+    url: "https://www.bundesbank.de/en/tasks/payment-systems/studies/payment-behaviour"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Cash still accounts for roughly half of point-of-sale transactions (51%) with cards and other non-cash payment instruments making up the remainder (49%) — rounding of the Bundesbank's headline split."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of prices"
+    publisher: "European Union"
+    url: "https://eur-lex.europa.eu/eli/dir/1998/6/oj/eng"
+    year: 1998
+    accessedDate: "2026-09-20"
+    note: "EU-wide rule that consumer-facing prices are shown inclusive of VAT and other taxes."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights (distance/off-premises contracts)"
+    publisher: "European Union"
+    url: "https://eur-lex.europa.eu/eli/dir/2011/83/oj"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "EU-wide 14-day no-reason right of withdrawal for distance (online etc.) contracts."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Union"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "The EU-wide data-protection framework directly applicable in Germany."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 (on contracts for the sale of goods)"
+    publisher: "European Union"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "EU-wide minimum 2-year legal guarantee of conformity for consumer goods."
+  - id: de-ladenschluss
+    name: "Gesetz über den Ladenschluss (Shop Closing Act) and Länder opening-hours laws"
+    publisher: "Government of Germany / state governments"
+    url: "https://www.gesetze-im-internet.de/ladschlg/"
+    accessedDate: "2026-09-20"
+    note: "Federal and state legal framework under which Sunday and public-holiday retail closures are the default, with exemptions for certain goods, sectors and tourist areas set by each Land."

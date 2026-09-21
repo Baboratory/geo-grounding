@@ -1,0 +1,102 @@
+code: ES-CT
+name:
+  eng: Catalonia
+  local:
+    - languageCode: cat
+      value: Catalunya
+    - languageCode: spa
+      value: Cataluña
+climates:
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean climate along the coast.
+  - koppenCode: Cfb
+    description: Temperate oceanic climate in the inland plains of Lleida.
+  - koppenCode: ET
+    description: Alpine climate in the high Pyrenees.
+landmarks:
+  - name: Sagrada Família
+    description: Antoni Gaudí's unfinished basilica in Barcelona and a UNESCO World Heritage site.
+  - name: Park Güell
+    description: Gaudí's whimsical public park on a Barcelona hillside.
+  - name: Montserrat
+    description: Serrated mountain range and monastery north-west of Barcelona, a major pilgrimage site.
+  - name: Costa Brava
+    description: Rugged, scenic Mediterranean coastline north of Barcelona.
+culturalTraits:
+  - A strong sense of Catalan identity and pride, expressed in the language, culture and politics
+  - "The pairing of 'seny' (prudence) and 'rauxa' (passion) as a Catalan self-image"
+  - "Rich tradition of castells (human towers), a UNESCO intangible cultural heritage"
+prideOf:
+  - The Catalan language and its literary and cultural tradition (Sardana dance, castells)
+  - Barcelona as a world city of architecture, design and modernist heritage
+  - Catalonia's economic dynamism within Spain
+animals:
+  popular:
+    - The Pyrenean chamois
+  unique:
+    - The Iberian lynx (reintroduced in part of its historic range)
+industries:
+  - Tourism and hospitality
+  - Chemicals and pharmaceuticals
+  - Automobile manufacturing (SEAT)
+  - Fashion and design
+  - Biomedicine and research
+sports:
+  - Football (FC Barcelona)
+  - Basketball
+  - Motorcycle racing
+  - Water sports along the coast
+religions:
+  - name: Roman Catholic
+    percent: 61.9
+    sourceId: cis-catalonia-2021
+  - name: No religious affiliation
+    percent: 25.0
+    sourceId: cis-catalonia-2021
+  - name: Other / other religions
+    percent: 13.1
+    sourceId: cis-catalonia-2021
+entertainment:
+  - season: summer
+    items:
+      - "Sant Joan (St John's Eve) bonfires on 23 June"
+      - Beach season and open-air festivals on the Costa Brava
+  - season: allYear
+    items:
+      - Barcelona's architecture and museum scene (Museu Picasso, MACBA)
+      - "Castells: human-tower building competitions"
+  - season: spring
+    items:
+      - "Sant Jordi (St George's Day, 23 April): books and roses are exchanged across Catalonia"
+traditionalDishes:
+  - season: allYear
+    items:
+      - Pa amb tomàquet (bread with tomato)
+      - Calçots (grilled spring onions, in season)
+      - Escudella i carn d'olla (hearty Catalan stew)
+      - Crema catalana (caramelised cream dessert)
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The barretina (traditional woollen cap) and esclop (wooden clogs) appear in folklore; everyday dress is modern Spanish/European"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday opening in Catalonia follows the regional commerce framework; many small shops still close on Sunday, while a number of large stores open on designated Sundays. The working day often features the long midday break ('hora de comer') common across Spain."
+sources:
+  - id: cis-catalonia-2021
+    name: "Religious identification in Catalonia (CIS, 2021)"
+    publisher: "Centro de Investigaciones Sociológicas (CIS)"
+    url: "https://www.cis.es/"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Share of residents identifying as Roman Catholic (~62%), non-religious (~25%) and other (~13%), as reported in CIS survey work for Catalonia. Figures are rounded estimates."

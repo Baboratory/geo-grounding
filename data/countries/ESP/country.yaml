@@ -1,0 +1,190 @@
+alpha3: ESP
+alpha2: ES
+name:
+  eng: Spain
+  local:
+    - languageCode: spa
+      value: España
+flagEmoji: "🇪🇸"
+capital: Madrid
+isSovereign: true
+# Classified unitary-large: Spain is a parliamentary constitutional monarchy
+# organised as a highly decentralised unitary state of 17 autonomous communities.
+# It meets the unitary-large criteria via both its large population (~48M) and
+# its widely-recognised cultural-historical regional identities with
+# constitutionally recognised co-official languages (Catalan/Valencian,
+# Galician, Basque and Occitan/Aranese in their communities), so curated
+# sub-regions by autonomous community (real ISO 3166-2 codes) are appropriate.
+governanceType: unitary-large
+iso3166_2_prefix: ES
+hasSubdivisions: true
+languageUsage:
+  - languageCode: spa
+    domain: official
+    speakersShare: 1.0
+    sourceId: es-constitution-art3
+  - languageCode: spa
+    domain: locallySpoken
+    speakersShare: 0.989
+    sourceId: ine-languages-2016
+  - languageCode: cat
+    domain: locallySpoken
+    speakersShare: 0.175
+    sourceId: ine-languages-2016
+  - languageCode: glg
+    domain: locallySpoken
+    speakersShare: 0.062
+    sourceId: ine-languages-2016
+  - languageCode: eus
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: ine-languages-2016
+  - languageCode: oci
+    domain: locallySpoken
+    speakersShare: 0.0001
+    sourceId: ine-languages-2016
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.25
+    sourceId: ef-english-proficiency-2024
+# Castilian (Spanish) is the sole official language of the State under Article 3
+# of the 1978 Constitution. The other Spanish languages — Catalan/Valencian,
+# Galician, Basque and Occitan (Aranese) — are co-official in their respective
+# autonomous communities under their statutes of autonomy. LocallySpoken shares
+# follow the INE's 2016 ECE/POV language survey of the adult population: ~98.9%
+# speak Spanish as native or habitual first language, Catalan (incl. Valencian
+# as a variety) ~17.5% of the population can use it, Galician ~6.2%, Basque
+# ~3.0%; Aranese speakers in the Val d'Aran number roughly a few thousand
+# (~0.01-0.02%). English is a widely learned foreign language (~25% report some
+# ability; Spain historically ranks low-to-mid on proficiency indices).
+# ethnicGroups intentionally omitted — Spanish statistics do not record ethnic
+# categories (Spanish law treats all Spanish nationals as a single category; the
+# only legally collected breakdown is by nationality/migration background). See
+# the FRA/PYF precedent: missing data is marked by comment, not invented.
+timezones:
+  - name: Europe/Madrid
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday of March to last Sunday of October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer), in accordance with EU-wide rules."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data (names, emails, browsing/behavioral data, etc.) requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure ('right to be forgotten') — the EU-wide GDPR, directly applicable in Spain."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge — independent of and in addition to any commercial/manufacturer warranty."
+    sourceId: eu-directive-2019-771
+  - topic: "Sunday trading"
+    description: "Spanish retail opening hours are set by each autonomous community; in most regions shops may open on Sundays and public holidays for a limited number of 'festive opening days' (domingos y festivos de apertura) per year, with large shops often closed on some Sundays."
+    sourceId: es-retail-hours
+paymentMethodShares:
+  - method: card (share of point-of-sale transactions)
+    percent: 70.0
+    sourceId: banco-de-espana-payments-2023
+  - method: cash (share of point-of-sale transactions)
+    percent: 27.0
+    sourceId: banco-de-espana-payments-2023
+paymentCulture:
+  popularMethods:
+    - "Cash (efectivo) — still widely used in Spain, particularly for small purchases, though card penetration is high and rising"
+    - "Debit and credit cards (Visa, Mastercard, American Express) — dominant at supermarkets and larger merchants; contactless is standard"
+    - "Bizum — a hugely popular Spanish instant peer-to-peer bank transfer app, used for splitting bills and small payments"
+    - "Mobile wallets (Apple Pay, Google Pay) and online bank transfers for e-commerce"
+  tipping:
+    expected: false
+    autoIncludedInBill: true
+    typicalAmount: "Tipping is not expected; service is considered included in the bill. Leaving small change or rounding up in restaurants and cafés is appreciated but optional, and uncommon outside tourist areas. Tipping is never expected for taxis."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Use the formal 'usted' with strangers and in professional settings, switching to the informal 'tú' once a relationship is established, which often happens quickly. First names are used readily in business after an initial introduction."
+  greetingNorms: "A handshake is standard in business (a firm handshake, sometimes with a second hand on the forearm). Among friends and family, two cheek kisses ('dos besos') are the norm, and greetings are warm and animated. Punctuality is more relaxed than in Northern Europe."
+  meetingEtiquette: "Meetings often start a little late and are relationship-first: expect small talk before getting down to business. Spaniards value warm, personal rapport and may speak over one another in discussion, which is normal rather than rude. Business can extend into long lunches. Decisions may be made by senior people rather than in the meeting itself."
+  topicsToAvoid:
+    - "Politics, the monarchy and Catalan independence can be sensitive; approach with care"
+    - "Religion and personal finances with new acquaintances"
+  giftGivingNotes: "Not expected at a first business meeting. If invited to a Spanish home, bring flowers (not calla lilies or chrysanthemums, associated with funerals), good wine or chocolates, or a small gift for the children. Gifts are usually opened when received."
+distinct-regions:
+  - code: ES-CT
+    file: distinct-regions/ct.yaml
+    adminUnitCodes: [ES-CT]
+  - code: ES-PV
+    file: distinct-regions/pv.yaml
+    adminUnitCodes: [ES-PV]
+  - code: ES-GA
+    file: distinct-regions/ga.yaml
+    adminUnitCodes: [ES-GA]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: es-constitution-art3
+    name: "Constitución Española de 1978, Artículo 3"
+    publisher: "Boletín Oficial del Estado (BOE)"
+    url: "https://www.boe.es/legislacion/documentos/ConstitucionCASTELLANO.pdf"
+    year: 1978
+    accessedDate: "2026-09-20"
+    note: "Legal basis for Castilian (Spanish) being the official language of the State, and for the other Spanish languages (Catalan/Valencian, Galician, Basque, Occitan) being co-official in their respective autonomous communities under their statutes of autonomy."
+  - id: ine-languages-2016
+    name: "Encuesta sobre la participación de la población adulta en las actividades de aprendizaje (ECE/EAP) — language usage, 2016"
+    publisher: "Instituto Nacional de Estadística (INE)"
+    url: "https://ine.es/"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "Shares of the adult population able to speak/use each language: Spanish ~98.9%, Catalan (incl. Valencian as a variety) ~17.5%, Galician ~6.2%, Basque ~3.0%. Aranese figure is an estimate of roughly a few thousand speakers in the Val d'Aran."
+  - id: ef-english-proficiency-2024
+    name: "EF English Proficiency Index 2024 (Spain score)"
+    publisher: "EF Education First"
+    url: "https://www.ef.com/wwen/epi/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Spain's English proficiency is classified as 'moderate'; roughly a quarter of the population reports some ability to speak English as a foreign language. Figure is an estimate."
+  - id: banco-de-espana-payments-2023
+    name: "Study on payment behaviour in Spain 2023"
+    publisher: "Banco de España"
+    url: "https://www.bde.es/wbe/en/areas-actuacion/estabilidad-financiera/mercado-pagos/estudios-pago/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "Cards account for the majority of point-of-sale transactions (~70%), cash for roughly a quarter (~27%), with other instruments making up the remainder. Shares are rounded."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of prices"
+    publisher: "European Union"
+    url: "https://eur-lex.europa.eu/eli/dir/1998/6/oj/eng"
+    year: 1998
+    accessedDate: "2026-09-20"
+    note: "EU-wide rule that consumer-facing prices are shown inclusive of VAT and other taxes."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights (distance/off-premises contracts)"
+    publisher: "European Union"
+    url: "https://eur-lex.europa.eu/eli/dir/2011/83/oj"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "EU-wide 14-day no-reason right of withdrawal for distance (online etc.) contracts."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Union"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "The EU-wide data-protection framework directly applicable in Spain."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 (on contracts for the sale of goods)"
+    publisher: "European Union"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "EU-wide minimum 2-year legal guarantee of conformity for consumer goods."
+  - id: es-retail-hours
+    name: "Commercial opening-hours regulation by autonomous community"
+    publisher: "Ministry of Industry, Trade and Tourism (Spain); regional commerce laws"
+    url: "https://www.mintur.gob.es/"
+    accessedDate: "2026-09-20"
+    note: "Under the (national framework) commerce laws, each autonomous community sets its own Sunday and public-holiday opening schedule, generally permitting a number of 'domingos y festivos de apertura' per year with exemptions for tourist and small shops."
