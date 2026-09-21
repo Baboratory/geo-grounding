@@ -1,0 +1,100 @@
+code: MG-A
+name:
+  eng: Toamasina (East Coast)
+  local:
+    - languageCode: mlg
+      value: Toamasina
+    - languageCode: fra
+      value: Toamasina (Tamatave)
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate — the wettest region of Madagascar, receiving trade-wind rain year-round with a peak December-March."
+landmarks:
+  - name: Rainforests of the Atsinanana
+    description: "Eastern rainforest national parks (Andasibe-Mantadia, Ranomafana, Marojejy among them) protecting endemic ecosystems; UNESCO natural site 2007."
+    unescoWorldHeritage: true
+  - name: Andasibe-Mantadia National Park
+    description: "Prime spot to see the indri, Madagascar's largest lemur, and abundant chameleons."
+  - name: Canal des Pangalanes
+    description: "A chain of natural lakes and man-made channels running ~645 km along the east coast, a historic and scenic transport route."
+  - name: Toamasina (Tamatave)
+    description: "Madagascar's chief seaport and second-largest city, gateway for the island's trade."
+culturalTraits:
+  - "The ancestral homeland of the Betsimisaraka, the largest coastal ethnic group"
+  - "A lush, verdant region where vanilla, cloves and coffee grow"
+  - "Warm, open coastal culture with strong ties to piracy-era and trading history"
+prideOf:
+  - "The indri and the extraordinary eastern rainforest biodiversity"
+  - "The vanilla, lychee and spice trade of the coast"
+  - "The Canal des Pangalanes and the port of Toamasina"
+animals:
+  popular:
+    - "Indri (largest lemur)"
+    - "Ring-tailed lemurs and sifakas"
+    - "Chameleons and leaf-tailed geckos"
+    - "Fossa"
+  unique:
+    - "Indri (endemic to eastern Madagascar)"
+    - "Numerous endemic rainforest birds and herpetofauna (chameleons, day geckos)"
+industries:
+  - "Vanilla, cloves and lychee exports"
+  - "Seaport and shipping (Toamasina is the primary port)"
+  - "Coffee and cocoa"
+  - "Ecotourism (Andasibe-Mantadia, rainforest parks)"
+sports:
+  - "Football (soccer)"
+  - "Rugby"
+  - "Basketball"
+religions:
+  - name: Christianity (Catholic and Protestant)
+    percent: 40
+    sourceId: state-religion-mdg
+  - name: Indigenous/traditional beliefs
+    percent: 53
+    sourceId: state-religion-mdg
+  - name: Islam
+    percent: 7
+    sourceId: state-religion-mdg
+entertainment:
+  - season: allYear
+    items:
+      - "Rainforest trekking and lemur-watching"
+      - "Beach life along the east coast"
+      - "Live salegy music"
+  - season: dry
+    items:
+      - "Peak trekking season (May-October) and Madagascar's Festival in Nature"
+  - season: wet
+    items:
+      - "Lush green season; rainier periods suited to indoor community life"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Romazava and vary amin'anana"
+      - "Fresh seafood and grilled fish"
+      - "Ravitoto (pounded cassava leaves)"
+      - "Local vanilla-flavoured desserts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Lamba weave cloth"
+      - "Light tropical cotton clothing suited to the hot, humid climate"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Mon-Fri ~07:30-12:00 and 14:00-17:00; Saturday morning half-day; Sunday closed."
+  lunchBreakTiming: "Roughly 12:00-14:00."
+  notes: "Port and agro-export rhythms dominate; tropical storms (January-March) can disrupt operations."
+sources:
+  - id: state-religion-mdg
+    name: "Madagascar religion data (1993 census via US government sources)"
+    publisher: "U.S. government / ARDA"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/madagascar/"
+    year: 1993
+    accessedDate: "2026-09-21"
+    note: "East-coast religious composition approximated from national 1993 census shares."

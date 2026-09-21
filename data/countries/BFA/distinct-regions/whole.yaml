@@ -1,0 +1,141 @@
+code: WHOLE
+name:
+  eng: Burkina Faso
+  local:
+    - languageCode: fra
+      value: Burkina Faso
+# Generic country-wide fallback content for Burkina Faso (unitary-small, single
+# synthetic whole region). The Mossi heartland / west / Sahel-north ethnic-
+# geographic zones are folded here as the national character rather than
+# curated as separate regions.
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid Sahel steppe climate in the north, with a short rainy season."
+  - koppenCode: Aw
+    description: "Tropical savanna climate with a distinct wet season in the south."
+  - koppenCode: BWh
+    description: "Small hot-desert area in the far north bordering the Sahara."
+landmarks:
+  - name: Ruins of Loropéni
+    description: "Remains of a fortified medieval settlement in south-western Burkina Faso (Dano region)."
+    unescoWorldHeritage: true
+  - name: W-Arly-Pendjari Complex
+    description: "Large transboundary natural park complex shared with Benin and Niger, home to large mammals including elephants and the West African lion."
+    unescoWorldHeritage: true
+  - name: Ouagadougou
+    description: "Capital city: Grand Mosque, National Museum, Moro-Naba palace site, and host of the FESPACO film festival."
+  - name: Bobo-Dioulasso
+    description: "Second city and cultural heart of the west, with its Grand Mosque and historic town."
+  - name: Sindou Peaks
+    description: "Distinctive rock formations and cliffs in the western Cascades region, popular for climbing and views."
+  - name: Ancient Ferrous Metallurgy Sites of Burkina Faso
+    description: "A cluster of ancient iron-smelting sites attesting to a long metallurgical tradition."
+    unescoWorldHeritage: true
+  - name: Royal Court of Tiébélé
+    description: "Decorated traditional dwelling compound of the Kassena people."
+    unescoWorldHeritage: true
+# Loropéni (2009), the W-Arly-Pendjari complex (1996/2017), the ancient
+# iron-smelting sites (2019) and the Royal Court of Tiébélé (2024) are all
+# inscribed UNESCO World Heritage properties.
+culturalTraits:
+  - "The name 'Burkina Faso' means 'land of honest people' in Mooré"
+  - "Strong traditions of hospitality and communal solidarity"
+  - "Mask-carving, weaving (faso dan fani cloth) and Griot oral storytelling traditions"
+  - "A vibrant modern music scene from Amadou Balaké to contemporary hip-hop and afrobeat"
+prideOf:
+  - "The country's name and identity as the 'land of honest people'"
+  - "Hosting FESPACO, Africa's largest film festival"
+  - "The W-Arly-Pendjari natural heritage and its wildlife"
+  - "Hospitality and rich cultural festivals"
+animals:
+  popular:
+    - "African elephant"
+    - "Lion (West African lion population)"
+    - "Hippopotamus"
+    - "Antelope (roan, hartebeest, oryx)"
+  unique:
+    - "West African lion (critically endangered remnant population in W-Arly-Pendjari)"
+    - "Hippopotamus populations in the Pendjari wetlands"
+    - "Various endemic savanna antelope species of the Sudanian zone"
+industries:
+  - "Cotton (principal cash crop, the 'white gold')"
+  - "Gold mining (largest export earner; artisanal and industrial)"
+  - "Livestock (cattle, sheep, goats)"
+  - "Agriculture (sorghum, millet, maize, fonio)"
+  - "Services and the Sahel transport hub"
+sports:
+  - "Football (soccer) — the most popular sport"
+  - "Cycling — the Tour du Faso is a landmark annual race"
+  - "Traditional wrestling and combat sports"
+religions:
+  - name: Islam (Sunni Muslim)
+    percent: 63.8
+    sourceId: cia-factbook-bfa
+  - name: Roman Catholic
+    percent: 20.1
+    sourceId: cia-factbook-bfa
+  - name: Traditional/animist religions
+    percent: 9.0
+    sourceId: cia-factbook-bfa
+  - name: Protestant/Evangelical Christian
+    percent: 6.2
+    sourceId: cia-factbook-bfa
+  - name: Other
+    percent: 0.2
+    sourceId: cia-factbook-bfa
+  - name: No religion
+    percent: 0.7
+    sourceId: cia-factbook-bfa
+# Religion shares are CIA Factbook 2019 estimates: a Muslim majority (63.8%),
+# a sizeable Christian minority (Catholic 20.1% + Protestant 6.2%), and a
+# continuing traditional/animist presence (9%).
+entertainment:
+  - season: dry
+    items:
+      - "Tour du Faso cycling race (October-November)"
+      - "FESPACO film festival (every two years, in Ouagadougou)"
+      - "Eid al-Fitr and Eid al-Adha celebrations"
+  - season: wet
+    items:
+      - "Traditional dance and drumming festivals tied to the harvest"
+      - "Community gatherings during the rainy season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tô (sorghum or millet porridge, the staple, often served with okra or peanut sauce)"
+      - "Riz gras (fried rice with meat and vegetables)"
+      - "Poulet bicyclette (grilled free-range 'bicycle chicken')"
+      - "Brochettes (grilled meat skewers, a street-food staple)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Faso dan fani (hand-woven striped cotton cloth, made into shirts and dresses)"
+      - "Grand boubou (flowing men's robe worn for ceremonies)"
+      - "Women's wraparound pagnes (fabric) with headwear"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+# Dry/harmattan season roughly November-April (dusty, low humidity); wet/rainy
+# season roughly May-October (monsoon rains, greener).
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office hours roughly 07:30/08:00-12:30 and 14:00/15:00-17:00/17:30, Monday-Friday; Saturday is generally a half/working day for commerce."
+  lunchBreakTiming: "A long midday break (roughly 12:30-15:00) is customary."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Public holidays; offices and many shops close for the religious festivals."
+    - period: "Christmas (25 December)"
+      description: "Public holiday observed widely although the country is Muslim-majority."
+    - period: "Fête de la République (11 December)"
+      description: "National public holiday commemorating the Republic; most public offices and many businesses close."
+sources:
+  - id: cia-factbook-bfa
+    name: "The World Factbook: Burkina Faso — People and Society"
+    publisher: "U.S. Central Intelligence Agency (CIA World Factbook)"
+    url: "https://www.cia.gov/the-world-factbook/countries/burkina-faso/"
+    year: 2025
+    accessedDate: "2026-09-21"
+    note: "Source of religion shares (2019 est.) and climate zones referenced in the WHOLE region."
