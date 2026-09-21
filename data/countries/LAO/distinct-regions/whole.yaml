@@ -1,0 +1,152 @@
+code: WHOLE
+name:
+  eng: Laos
+  local:
+    - languageCode: lao
+      value: ລາວ
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate across most of the country, including the Vientiane plain and the Mekong lowlands: a hot rainy (wet) season and a cooler, drier season."
+  - koppenCode: Am
+    description: "Tropical monsoon climate in southern and monsoon-exposed areas, with heavier seasonal rainfall."
+  - koppenCode: Cwa
+    description: "Dry-winter humid subtropical (tropical highland) climate in the northern highlands, e.g. around Luang Prabang and the uplands of Phongsali."
+landmarks:
+  - name: "Town of Luang Prabang"
+    description: "UNESCO World Heritage Site (1995) — the historic royal capital of the Lan Xang kingdom, famed for its harmonious blend of Lao vernacular architecture and French colonial buildings around dozens of Buddhist temples."
+    unescoWorldHeritage: true
+  - name: "Vat Phou and Associated Ancient Settlements within the Champasak Cultural Landscape"
+    description: "UNESCO World Heritage Site (2001) — a pre-Angkorian Khmer Hindu temple complex on the banks of the Mekong in Champasak province."
+    unescoWorldHeritage: true
+  - name: "Megalithic Jar Sites in Xiengkhuang (Plain of Jars)"
+    description: "UNESCO World Heritage Site (2019) — thousands of prehistoric stone jars scattered across the Xieng Khouang Plateau, of mysterious Iron-Age origin."
+    unescoWorldHeritage: true
+  - name: "Pha That Luang"
+    description: "The great golden stupa of Vientiane and the country's most important national monument, a symbol of Lao Buddhist identity (appears on the national seal and currency)."
+    unescoWorldHeritage: false
+culturalTraits:
+  - "Theravada Buddhism intertwined with animist (phu/spirit) beliefs"
+  - "Collectivism and strong extended-family interdependence"
+  - "Respect for elders, seniority and the Buddhist clergy"
+  - "A relaxed, unhurried national ethos ('Bor pen nyang' — 'it is nothing')"
+  - "Indirect, harmonious and conflict-avoidant communication"
+  - "Merit-making (tam bun) as a central practice"
+  - "Unity-in-diversity across the Lao Loum / Lao Theung / Lao Soung ethnographic mosaic"
+prideOf:
+  - "The heritage of the ancient Kingdom of Lan Xang ('Land of a Million Elephants')"
+  - "UNESCO-listed Luang Prabang and Vat Phou"
+  - "Sticky-rice cuisine and larb"
+  - "Natural heritage: the Mekong River, Kuang Si and Khone Phapheng waterfalls, karst mountains"
+  - "The golden Pha That Luang and Buddhist culture"
+  - "Independence and peace since 1975 and the unity of ethnic diversity"
+animals:
+  popular:
+    - Asian elephants (a national symbol and tourism icon)
+    - Water buffalo
+    - White-cheeked gibbons
+    - Hornbills
+    - Sun bears
+  unique:
+    - Saola (a rare, endangered ox of the Annamite Range)
+    - Giant Mekong catfish
+    - Irrawaddy dolphin (Mekong population)
+    - Gaur and banteng
+    - Clouded leopard
+industries:
+  - Rice agriculture
+  - Coffee (Bolaven Plateau)
+  - Tourism
+  - Hydroelectric power generation and export (the 'Battery of Southeast Asia' — Nam Theun 2 and other Mekong dams)
+  - Mining (gold, copper, gypsum)
+  - Textiles, garments and silk handicrafts
+  - Forestry and wood products
+sports:
+  - Association football (the most popular sport)
+  - Weightlifting (Laos' focus Olympic discipline)
+  - Sepak takraw
+  - Muay Lao (traditional boxing)
+  - Athletics
+religions:
+  - name: "Buddhist (Theravada)"
+    percent: 64.7
+    sourceId: census2015
+  - name: "No religion / animist (folk)"
+    percent: 31.4
+    sourceId: statedept
+  - name: Christian
+    percent: 1.7
+    sourceId: statedept
+  - name: "Other (incl. small Muslim and Baha'i communities)"
+    percent: 2.1
+    sourceId: statedept
+entertainment:
+  - season: allYear
+    items:
+      - "Lao folk music and mor lam (kaen) performances"
+      - "Buddhist temple festivals (boun)"
+      - "Football and sepak takraw"
+      - "Night markets in Vientiane and Luang Prabang"
+      - "Karaoke and live music"
+      - "Coffee-house culture"
+  - season: dry
+    items:
+      - "Boun Pi Mai (Lao New Year) celebrations and water festivities"
+      - "Boat-racing festivals"
+      - "Temple merit-making festivals concentrated in the dry season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Larb (spicy minced-meat salad, the national dish)"
+      - "Khao niaw (sticky rice, the staple)"
+      - "Tam mak hung (green papaya salad)"
+      - "Khao piak sen (noodle soup)"
+      - "Grilled Mekong river fish"
+      - "Or lam (northern stew)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Sinh (pha sinh), the handwoven tubular skirt worn by women"
+      - "Pha khao ma, the checked cotton cloth worn by men for work and casual wear"
+  - season: dry
+    items:
+      - "Ornate ceremonial silk sinh with gold and silver thread borders, worn for Lao New Year and temple festivals"
+      - "Festival dress for Boun Pi Mai and temple boun"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  notes: "Government offices and banks observe Saturday and Sunday as rest days and commonly keep a long lunch (siesta) break around midday. Many private shops and markets open seven days, sometimes closing Sunday morning or on a weekly shop day. Business slows country-wide for Lao New Year (mid-April) and on national holidays such as National Day (2 December)."
+  typicalWorkHours: "Government: about 08:00-12:00 and 14:00-17:00. Private shops and markets often run roughly 08:00-21:00 continuously."
+  lunchBreakTiming: "About 12:00-14:00 (a siesta, especially in government offices)."
+  notableShutdownPeriods:
+    - period: "Lao New Year (Boun Pi Mai), 13-16 April"
+      description: "The largest closure of the year: offices, shops and markets close for several days of nation-wide water festivities and travel."
+    - period: "National holidays"
+      description: "Government and many businesses close on national holidays including National Day (2 December) and public temple-festival days."
+sources:
+  - id: census2015
+    name: "Results of the Population and Housing Census 2015 (English version)"
+    publisher: "Lao Statistics Bureau (via UNFPA Lao People's Democratic Republic)"
+    url: "https://lao.unfpa.org/en/publications/results-population-and-housing-census-2015-english-version"
+    year: 2015
+    accessedDate: "2026-09-20"
+    note: "The 2015 census records 64.7% Buddhist, the basis for the religious composition figures."
+  - id: statedept
+    name: "2016 Report on International Religious Freedom: Laos"
+    publisher: "US Department of State"
+    url: "https://2021-2025.state.gov/reports/2016-report-on-international-religious-freedom/laos/"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "Breaks religious composition into Buddhist 64.7%, no religion/animist 31.4%, Christian 1.7% and other 2.1%."
+  - id: unesco
+    name: "UNESCO World Heritage Centre — Lao People's Democratic Republic properties"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/la"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Luang Prabang (1995), Vat Phou and Champasak Cultural Landscape (2001), Plain of Jars (2019). Pha That Luang is a national monument but not a World Heritage site."

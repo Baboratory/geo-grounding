@@ -1,0 +1,167 @@
+alpha3: KHM
+alpha2: KH
+name:
+  eng: Cambodia
+  local:
+    - languageCode: khm
+      value: កម្ពុជា
+flagEmoji: "🇰🇭"
+capital: Phnom Penh
+isSovereign: true
+# Classified unitary-small: population ~17M (2019 census 15.55M) is under the threshold,
+# and although Cambodia has recognized indigenous minority languages (and Cham, small
+# Chinese and Vietnamese communities), they are national-level statuses, not the basis of
+# a widely-recognized cultural-historical regional identity divide. The province-level
+# admin units are not such a divide. So: a single country-wide WHOLE entry.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: khm
+    domain: official
+    speakersShare: 1.0
+    sourceId: const
+  - languageCode: khm
+    domain: locallySpoken
+    speakersShare: 0.958
+    sourceId: census-lang
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.06
+    sourceId: census-lang
+ethnicGroups:
+  - group: Khmer
+    percent: 97.0
+    sourceId: census-ethnic
+  - group: Cham
+    percent: 1.8
+    sourceId: census-ethnic
+  - group: "Other indigenous highland minorities (Punong, Tampuon, Jarai, Kreung, Kuoy, etc.)"
+    percent: 1.2
+    sourceId: census-ethnic
+timezones:
+  - name: Asia/Phnom_Penh
+    standardUtcOffset: "UTC+7"
+    observesDst: false
+currency:
+  code: KHR
+  symbol: "៛"
+  name: Cambodian riel
+legalConstraints:
+  - topic: "data protection"
+    description: "No standalone personal-data-protection law has been enacted. Electronic-commerce activity, including personal data, is governed by the Law on Electronic Commerce (2019): Article 32 establishes consent-based personal-information processing rules and Article 60 sets out offences. A dedicated Sub-Decree (No. 252/2021) covers personal-identification data. This matters for any agent handling Cambodian residents' personal data."
+    sourceId: ecomm
+  - topic: "price display and currency"
+    description: "Article 64 of the Law on Taxation (1997) applies a 10% Value-Added Tax in Cambodia. Sellers must display prices transparently; retail prices generally include VAT and are invoiced per the tax law. The riel (KHR) is the legal tender, though the US dollar circulates widely alongside it in practice."
+    sourceId: tax
+  - topic: "consumer rights"
+    description: "The Law on Consumer Protection (Royal Kram NS/RKM/1119/016, promulgated 2 November 2019) establishes consumer rights to information, transparent pricing and fair competition, and provides redress mechanisms for misleading practices in distance and in-person sales."
+    sourceId: cpl
+  - topic: "trading hours"
+    description: "The Labour Law (1997) sets the general working-hours framework: eight hours per day and forty-eight per week (Article 137), with a weekly rest day (Article 173). This underpins standard retail and office opening hours; Sunday is the main non-working day for government offices and much of the formal private sector."
+    sourceId: labour
+paymentCulture:
+  popularMethods:
+    - "Cash (riel for everyday amounts, US dollars widely accepted in parallel)"
+    - "Quick-response mobile payments (KHQR via Bakong instant payment system)"
+    - "Mobile wallets (Wing, ABA/Pi Pay, eMoney)"
+    - "Bank cards (credit/debit in cities and hotels)"
+    - "Bank transfers"
+  tipping:
+    expected: false
+    typicalAmount: "rounding up or small change in casual dining; fine restaurants often add a 10% service charge"
+    autoIncludedInBill: false
+    note: "Tipping is not customary on the whole. Many mid-to-upper-range restaurants add a 10% service charge and outlets add 10% VAT on top (Law on Taxation). Leaving small change or rounding up in casual settings is appreciated but not required."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite, indirect and hierarchy-aware. Age and social rank matter, and people use respectful titles (lok for men, lok srey for women). Smiling and a soft, non-confrontational tone are valued, even when discussing difficulties."
+  greetingNorms: "The traditional greeting is the sampeah — palms pressed together at the chest (raised higher for more respected persons) with a slight bow. The spoken greeting is 'Suosdey'. People often bow slightly to elders and monks."
+  meetingEtiquette: "Punctuality is expected though others' lateness is tolerated. Present and receive items with the right hand (or both hands). Seating follows rank. Avoid raising one's voice or direct confrontation; disagreement is usually expressed obliquely so the other party keeps face."
+  topicsToAvoid:
+    - "The monarchy and the King"
+    - "Criticism of Buddhism or its institutions"
+    - "The Khmer Rouge era and Pol Pot (unless a local raises it)"
+    - "Pointing feet at people or Buddha statues"
+    - "Touching another person's head"
+  giftGivingNotes: "Gifts are given and received with both hands or the right hand. Modest tokens such as fruit or sweets are appropriate; the gift is often not opened in front of the giver, and a return gift is often expected."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: const
+    name: "Constitution of the Kingdom of Cambodia (1993, as amended)"
+    publisher: "Kingdom of Cambodia"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/1787"
+    year: 1993
+    accessedDate: "2026-09-20"
+    note: "Article 5 establishes Khmer as the official and national language."
+  - id: census-pop
+    name: "General Population Census of Cambodia 2019 — Final Report"
+    publisher: "National Institute of Statistics, Ministry of Planning"
+    url: "https://www.nis.gov.kh/nis/Census2019/Final%20General%20Population%20Census%202019-English.pdf"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "Total population 15,552,211 (2019), the basis for the ~17M 2023 estimate and the unitary-small classification."
+  - id: census-lang
+    name: "General Population Census of Cambodia 2019 and reporting on mother tongues"
+    publisher: "National Institute of Statistics / Khmer Times"
+    url: "https://khmertimeskh.com/50807372/cambodian-population-increases-to-15-6-million/"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "About 95.8% of the population speak Khmer as their mother tongue; indigenous and foreign-language speakers total a small minority. The ~6% English foreign-language share is an estimate reflecting English's role as a second language in education and business."
+  - id: census-ethnic
+    name: "General Population Census of Cambodia 2019 — Ethnic Minorities thematic report"
+    publisher: "National Institute of Statistics, Ministry of Planning"
+    url: "https://www.nis.gov.kh/nis/Census2019/Ethnic%20Minorities.pdf"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "Ethnic minorities total 455,610 persons (~2.9%): Cham 275,217; indigenous highland groups (Punong, Tampuon, Jarai, Kreung, Kuoy and others) make up the remaining ~1.2%. Khmer ethnic majority is therefore ~97%."
+  - id: cpl
+    name: "Law on Consumer Protection, Royal Kram NS/RKM/1119/016 (2 November 2019)"
+    publisher: "Ministry of Commerce, Kingdom of Cambodia"
+    url: "https://www.ccfdg.gov.kh/en/pdf-view?filename=https://www.ccfdg.gov.kh/wp-content/uploads/2021/01/1-20191102_Law-on-Consumer-Protection.pdf"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "Establishes consumer rights to information, transparent pricing and fair competition; provides redress for misleading practices."
+  - id: tax
+    name: "Law on Taxation (1997), Article 64"
+    publisher: "Council for the Development of Cambodia (official text)"
+    url: "https://cdc.gov.kh/wp-content/uploads/2022/05/LAW-ON-TAXATION_970108-.pdf"
+    year: 1997
+    accessedDate: "2026-09-20"
+    note: "Applies a 10% Value-Added Tax; governs price display and invoicing obligations."
+  - id: ecomm
+    name: "Law on Electronic Commerce, Royal Kram NS/RKM/1119/017 (2 November 2019)"
+    publisher: "Ministry of Commerce, Kingdom of Cambodia"
+    url: "https://www.khmersme.gov.kh/wp-content/uploads/2022/06/Law-on-E-commerce-EN.pdf"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "Article 32 covers consent-based personal-information processing; Article 60 sets offences. No standalone personal-data-protection law exists yet."
+  - id: labour
+    name: "Labour Law, Royal Kram CS/RKM/0397/01 (13 March 1997)"
+    publisher: "Kingdom of Cambodia / ILO NATLEX"
+    url: "https://natlex.ilo.org/dyn/natlex2/r/natlex/fe/details?p3_isn=46560"
+    year: 1997
+    accessedDate: "2026-09-20"
+    note: "Article 137 sets eight-hour day / 48-hour week; Article 173 the weekly rest day. Underpins standard trading hours."
+  - id: irf
+    name: "2023 Report on International Religious Freedom: Cambodia"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/wp-content/uploads/2024/04/547499-CAMBODIA-2023-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Approximately 93% Buddhist (Theravada is the state religion per Constitution art. 43), ~2% Muslim (mostly Cham), ~1% Christian, remainder folk/animist among indigenous highland groups."
+  - id: unesco
+    name: "UNESCO World Heritage Centre — Cambodia properties"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/kh"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Angkor Archaeological Park (1992), Temple of Preah Vihear (2008), Temple Zone of Sambor Prei Kuk (2017), Koh Ker (2023)."
+  - id: pay
+    name: "National Bank of Cambodia — riel, Bakong system and KHQR (qualitative payment norms)"
+    publisher: "National Bank of Cambodia"
+    url: "https://www.nbc.org.kh/"
+    year: 2025
+    accessedDate: "2026-09-20"
+    note: "Cash (riel, with USD circulating in parallel) and KHQR quick-response mobile payments via the Bakong instant-payment rail dominate; mobile wallets (Wing, ABA/Pi Pay) and bank cards are common in cities."

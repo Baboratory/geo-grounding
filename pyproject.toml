@@ -50,4 +50,4 @@ disallow_untyped_defs = true
 
 [tool.codespell]
 skip = "*.json,.git"
-ignore-words-list = "pont,gard,socio-economic,connexion,handel,sme,ore,claus,dokument,tread,som,te,parlament,ine,toke,revered,hace,oficial,flor,oriente,ake,blong,fale,tre,informations,presidence,zar,vai,alloco,mye,takin,modee,seh,nam,toi,lamba,nwe,maka,caf,affaires,samori,caractere,bale,comercial,profesor,administrativo,responde,meu,mata,buda,fo,fro,leat,ons,fallow,mot,carmel"
+ignore-words-list = "pont,gard,socio-economic,connexion,handel,sme,ore,claus,dokument,tread,som,te,parlament,ine,toke,revered,hace,oficial,flor,oriente,ake,blong,fale,tre,informations,presidence,zar,vai,alloco,mye,takin,modee,seh,nam,toi,lamba,nwe,maka,caf,affaires,samori,caractere,bale,comercial,profesor,administrativo,responde,meu,mata,buda,fo,fro,leat,ons,fallow,mot,carmel,rouge,mor,boun"
