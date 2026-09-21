@@ -1,0 +1,127 @@
+code: WHOLE
+name:
+  eng: Botswana
+  local:
+    - languageCode: eng
+      value: Republic of Botswana
+    - languageCode: tsn
+      value: Lefatshe la Botswana
+# Generic country-wide fallback content for Botswana (unitary-small, single
+# synthetic whole region). Covers the Kgalagadi (Kalahari) sands of the
+# north/west, the hardveld of the south/east where the bulk of the population
+# lives, the Okavango Delta wetlands of the north, and the semi-arid Kgalagadi
+# desert of the west.
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (steppe) — the Kgalagadi (Kalahari) sands of the north/west: hot, low and highly seasonal rainfall, wet Nov-Mar."
+  - koppenCode: BWh
+    description: "Hot desert — the extreme Kgalagadi desert west along the Namib fringe."
+  - koppenCode: Cwa
+    description: "Humid subtropical — the south/east hardveld including Gaborone and the Okavango-adjacent north-east: warmer, wetter, with summer rains."
+landmarks:
+  - name: Okavango Delta
+    description: "One of the world's great inland water systems; UNESCO World Heritage site in the north."
+  - name: Chobe National Park
+    description: "Renowned for its large elephant herds along the Chobe River."
+  - name: Kgalagadi Transfrontier Park
+    description: "Stark Kalahari dunes and abundant wildlife on the border with South Africa."
+  - name: Gaborone and the Central Business District
+    description: "The capital's modern skyline on the Notwane River."
+  - name: Tsodilo Hills
+    description: "San rock-art site, often called the 'Louvre of the Kalahari'; UNESCO World Heritage."
+culturalTraits:
+  - "Setswana culture and language as the national unifier; 'botho' (respect) and community"
+  - "A stable democracy and long-post-independence peace under Seretse Khama"
+  - "The 'mokoro' dugout-canoe culture of the Okavango"
+  - "Kgalagadi desert resilience and the San heritage"
+  - "Debswana diamond-mining legacy co-owned with De Beers"
+prideOf:
+  - "Africa's longest continuous multi-party democracy"
+  - "Diamond wealth and prudent management of the Pula"
+  - "The Okavango Delta and world-class wildlife tourism"
+  - "Peace, stability and education"
+animals:
+  popular:
+    - "African elephant"
+    - "Lion"
+    - "Leopard"
+    - "Giraffe"
+    - "Kalahari meerkat"
+  unique:
+    - "Giant sable antelope (regionally)"
+    - "Kgalagadi sociable weaver and endemic Kalahari species"
+industries:
+  - "Diamond mining (Debswana)"
+  - "Tourism (Okavango, Chobe, Kgalagadi)"
+  - "Beef cattle and agriculture"
+  - "Copper/nickel processing (Tati/Norilsk JV) and emerging soda-ash"
+  - "Financial services and the Gaborone business district"
+sports:
+  - "Association football (soccer)"
+  - "Basketball"
+  - "Netball"
+  - "Athletics and boxing"
+religions:
+  - name: Christianity (predominantly independent/Protestant churches)
+    percent: 86.5
+    sourceId: statsbots-2022-phc
+  - name: No religion
+    percent: 7.1
+    sourceId: statsbots-2022-phc
+  - name: Traditional / indigenous faiths
+    percent: 4.6
+    sourceId: statsbots-2022-phc
+  - name: Other (incl. Islam, Hinduism, Baha'i)
+    percent: 1.8
+    sourceId: statsbots-2022-phc
+entertainment:
+  - season: allYear
+    items:
+      - "Football and netball matches"
+      - "Okavango mokoro and wildlife safaris (Chobe, Kgalagadi)"
+      - "Community and church gatherings"
+  - season: wet
+    items:
+      - "Summer-rains greenery and inland-water peaks in the Okavango (Nov-Mar)"
+  - season: dry
+    items:
+      - "Cooler dry-season (Apr-Oct) game-viewing and cultural festivals"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Seswaa (pounded cooked beef) — the national dish"
+      - "Pap/papaka (maize or sorghum porridge)"
+      - "Morogo (wild spinach/leaves) and melidhoomello (yam leaves)"
+      - "Wet and grilled meats (beef, goat) at communal occasions"
+      - "Kgalagadi citrus (Kgalagadi melon) in the desert west"
+  - season: wet
+    items:
+      - "Fresh vegetables and wild greens of the summer rains"
+  - season: dry
+    items:
+      - "Grilled/braaied meats and dried beef at dry-season gatherings"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern Western-style dress as day-to-day wear"
+      - "Setswana-style cotton wraps (for women) on cultural occasions"
+      - "San and Kgalagadi woven/bark textiles in the desert communities"
+seasonCalendar:
+  - season: dry
+    months: [4, 5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 07:30-16:30/17:00 Mon-Fri; retail often Mon-Sat with reduced Sunday trading."
+  lunchBreakTiming: "A midday break is common."
+  notes: "Cash remains dominant especially in rural areas; mobile money is growing fast in the south-east (Gaborone, Francistown)."
+sources:
+  - id: statsbots-2022-phc
+    name: "2022 Population and Housing Census (religion shares)"
+    publisher: "Statistics Botswana"
+    url: "https://statsbots.org.bw/STATSEVENTS/sites/default/files/2024-06/Population%20Distribution%202022%20PHC.pdf"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Religious affiliation: 86.5% Christian, 7.1% none, 4.6% traditional/indigenous, 1.8% other."

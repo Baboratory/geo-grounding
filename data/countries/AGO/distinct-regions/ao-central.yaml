@@ -1,0 +1,74 @@
+code: AO-CENTRAL
+name:
+  eng: Central Highlands (Ovimbundu)
+  local:
+    - languageCode: por
+      value: Altipianie Central
+climates:
+  - koppenCode: Cwb
+    description: "Subtropical highland — the central Bie-Huambo plateau (~1,500-2,000m): mild with cooler nights, misty mornings, wet Nov-Apr."
+landmarks:
+  - name: Tundavala Gap (Fenda da Tundavala)
+    description: "Dramatic escarpment viewpoint and cliff rift near Lubango."
+  - name: Huila plateau and coffee country
+    description: "Rolling highland landscape and agricultural heartland."
+  - name: Cangandala Reserve (Kangandala)
+    description: "Home of the endemic giant sable antelope."
+culturalTraits:
+  - "The Ovimbundu cultural heartland and the Umbundu language (largest Bantu group)"
+  - "Central Highlands coffee and agriculture"
+  - "Highland plateau identity distinct from the north coast and the south-east"
+prideOf:
+  - "The giant sable antelope, Angola's national emblem"
+  - "Highland scenery and the Tundavala escarpment"
+  - "Agricultural richness and the quiet highland way of life"
+animals:
+  popular:
+    - "Giant sable antelope (national symbol)"
+    - "Roan antelope"
+    - "Elephant"
+  unique:
+    - "Giant sable antelope (Hippotragus niger variant), endemic to the Kangandala reserve"
+industries:
+  - "Agriculture (coffee, maize, cassava, cattle)"
+  - "Beef and dairy"
+  - "Hydropower (Kwanza river dams: Lauca, Cambambe)"
+  - "Emerging mining very minor at this scale"
+sports:
+  - "Football (soccer)"
+  - "Athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Hill and plateau walks"
+      - "Market and community life"
+  - season: dry
+    items:
+      - "Dry-season agricultural festivals (May-Oct)"
+  - season: wet
+    items:
+      - "Lush green-season and misty mornings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Funje with beef or goat stew"
+      - "Calulu (dried-fish stew)"
+      - "Wet (pap/porridge) and greens"
+  - season: wet
+    items:
+      - "Seasonal greens with funge"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light cotton clothing; layers for cool highland evenings"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Farming and market hours; small-town commerce Mon-Sat."
+  lunchBreakTiming: "A midday break is common."
+  notes: "The highland plateau is cooler than the coast; evenings can be chilly year-round."

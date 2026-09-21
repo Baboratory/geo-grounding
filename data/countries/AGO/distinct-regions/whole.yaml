@@ -1,0 +1,135 @@
+code: WHOLE
+name:
+  eng: Angola
+  local:
+    - languageCode: por
+      value: República de Angola
+# Generic country-wide fallback content for Angola (unitary-large). Used via
+# the 'whole-country-fallback' path when a visitor's specific province isn't one
+# of the curated files (AO-NORTH, AO-CENTRAL, AO-SOUTH).
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — the northern & coastal lowlands including Luanda: warm year-round, hot rainy season Nov-Apr, dry May-Oct."
+  - koppenCode: Cwb
+    description: "Subtropical highland — the central Bie-Huambo plateau (~1,500-2,000m): mild, cooler nights, misty, wet Nov-Apr."
+  - koppenCode: BSh
+    description: "Hot semi-arid (steppe) — the south-west coast (Namibe) and south: arid, low rainfall, wet season Nov-Mar."
+  - koppenCode: BWh
+    description: "Hot desert — along the Namibe coast and south-western desert fringe."
+landmarks:
+  - name: M'banza-Kongo (Capital of the ancient Kingdom of Kongo)
+    description: "Ruins and historic centre of the former Kongo kingdom capital in Zaire province."
+    unescoWorldHeritage: true
+  - name: Kalandula Falls
+    description: "One of Africa's largest waterfalls on the Lucala river, Malanje province."
+  - name: Fortress of Santo Miguel / Luanda's historic centre (Baixa de Luanda)
+    description: "Historic colonial district and the 16th-century fortress overlooking Luanda Bay."
+  - name: Kissama (Quiçama) National Park
+    description: "Coastal reserve near Luanda, the most accessible for big-game (elephants, giraffes)."
+  - name: Tundavala Gap (Fenda da Tundavala)
+    description: "Dramatic escarpment viewpoint and cliff rift on the Huila plateau near Lubango."
+culturalTraits:
+  - "Portuguese cultural legacy - the language, Catholicism, and Lusophone identity"
+  - "The old Kingdom of Kongo and other pre-colonial Bantu kingdoms (Ndongo, Bailundo)"
+  - "Kuduro and semba music and dance, and the 'Diva multidão' culture of Luanda"
+  - "Oral tradition and respect for elders across Bantu cultures"
+  - "Long recovery from the 1975-2002 civil war and the petroleum boom reshaping Luanda"
+prideOf:
+  - "Peace since 2002 and national reconstruction"
+  - "Oil wealth and being one of Africa's largest petroleum producers"
+  - "Football (national team, 'Palancas Negras')"
+  - "The music (semba, kizomba, kuduro) now global"
+  - "Natural beauty - from Atlantic beaches to the central highlands"
+animals:
+  popular:
+    - "African elephant"
+    - "Lion"
+    - "Giant sable antelope (national symbol)"
+    - "Giraffe"
+    - "Leopard"
+  unique:
+    - "Giant sable antelope (Hippotragus niger variant) - endemic, the national emblem, only in the Kangandala reserve"
+industries:
+  - "Crude oil & natural gas (top export, Cabinda & offshore)"
+  - "Diamonds (Lunda provinces)"
+  - "Hydropower (Kwanza river dams: Lauca, Cambambe)"
+  - "Refining & petrochemicals"
+  - "Coffee, cassava, maize, agriculture"
+  - "Substantial informal sector (est. 40-50% of activity)"
+sports:
+  - "Football (soccer) - the national passion ('Palancas Negras')"
+  - "Basketball"
+  - "Handball, athletics, boxing"
+  - "Kuduro/urban dancing"
+religions:
+  - name: Roman Catholic
+    percent: 41.0
+    sourceId: us-irf-religion
+  - name: Protestant (incl. Assembleias de Deus, Baptist, etc.)
+    percent: 38.0
+    sourceId: us-irf-religion
+  - name: Other Christian
+    percent: 12.0
+    sourceId: us-irf-religion
+  - name: Indigenous / traditional belief systems
+    percent: 4.5
+    sourceId: us-irf-religion
+  - name: Other / none
+    percent: 4.5
+    sourceId: us-irf-religion
+entertainment:
+  - season: allYear
+    items:
+      - "Football matches and the Palancas Negras"
+      - "Semba, kizomba, kuduro music and dancing"
+      - "Kuduro street dance culture of Luanda"
+  - season: wet
+    items:
+      - "Indoor/cultural events, music concerts, and kizomba parties during the rainy season"
+  - season: dry
+    items:
+      - "Outdoor beach and flanerie along Luanda bay in the long dry season"
+      - "Festivals & cultural celebrations in the dry months"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Funje (funge) - the national staple: cassava/manioc porridge served with stew"
+      - "Muamba de galinha (chicken palm-oil stew)"
+      - "Calulu - dried fish stew cooked with vegetables and palm oil"
+      - "Pirão - corn-based fufu alternative"
+      - "Fresh seafood on the coast (peixe grelhado)"
+  - season: wet
+    items:
+      - "Warming palm-oil stews (muamba) at the start of the rainy season"
+      - "Seasonal vegetables with funge"
+  - season: dry
+    items:
+      - "Dried/smoked-fish dishes (calulu) typical of the dry season"
+      - "Outdoor grilled meat (espetada) gatherings"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Western/Portuguese-influenced modern dress as day-to-day wear"
+      - "Colourful wax-print (kitenge/capulana-style) cloth, occasionally as wraps for women on formal or cultural occasions"
+  - season: dry
+    items:
+      - "Light cotton clothing adapted to the dry south; festival dress during dry-season celebrations"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices roughly 08:00-16:30/17:00 Mon-Fri; retail often Mon-Sat."
+  lunchBreakTiming: "A midday break is common."
+  notes: "Cash remains dominant outside Luanda; Kwiku instant payments and mobile wallets (Unitel Money, Afrimoney) are the fastest-growing non-cash rails. FX is managed by the BNA."
+sources:
+  - id: us-irf-religion
+    name: "Angola - International Religious Freedom Report / Religious Demographics (2023)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/angola/"
+    year: 2023
+    accessedDate: "2026-09-19"
+    note: "Religious affiliation shares (Catholic ~41%, Protestant ~38%, other Christian ~12%, traditional ~4.5%, other/none ~4.5%)."

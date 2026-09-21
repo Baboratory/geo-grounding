@@ -1,0 +1,167 @@
+alpha3: BWA
+alpha2: BW
+name:
+  eng: Botswana
+  local:
+    - languageCode: eng
+      value: Republic of Botswana
+    - languageCode: tsn
+      value: Lefatshe la Botswana
+flagEmoji: "🇧🇼"
+capital: Gaborone
+isSovereign: true
+# Classified unitary-small: Botswana fails all 3 DESIGN.md unitary-large criteria.
+# (1) Population ~2.36M (2022 census) — an order of magnitude below the 20-25M
+# threshold; the country's large land area alone does not qualify it. (2) Setswana
+# and English are de facto national/official languages applied nationally; the
+# recognized minority languages (Kalanga, Herero, Kgalagadi, Mbukushu, Yeyi,
+# Subiya, Naro, San) are nationally recognized HERITAGE languages, NOT regionally
+# co-official territorial languages — per the Georgia precedent, recognized
+# minorities alone do not trigger unitary-large. (3) The Kgalagadi (Kalahari) /
+# Kgane (hardveld) split is a geographic/ecological descriptor, not a widely
+# recognized cultural-historical regional identity. 0 of 3 met -> single WHOLE.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: tsn
+    domain: official
+    speakersShare: 1.0
+    sourceId: statsbots-2001-lang
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: gov-bw-constitution
+  - languageCode: tsn
+    domain: locallySpoken
+    speakersShare: 0.77
+    sourceId: statsbots-2001-lang
+  - languageCode: kck
+    domain: locallySpoken
+    speakersShare: 0.11
+    sourceId: ethnologue-bw-languages
+  - languageCode: her
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: ethnologue-bw-languages
+  - languageCode: xkv
+    domain: locallySpoken
+    speakersShare: 0.005
+    sourceId: ethnologue-bw-languages
+  - languageCode: mhw
+    domain: locallySpoken
+    speakersShare: 0.004
+    sourceId: ethnologue-bw-languages
+  - languageCode: nmn
+    domain: locallySpoken
+    speakersShare: 0.002
+    sourceId: ethnologue-bw-languages
+# Setswana is the de facto national language and lingua franca (~77% first
+# language, understood by most); English is the de facto language of government,
+# law and education (the Constitution does not itself designate official
+# languages). Minority language speakersShares are ESTIMATES from Ethnologue
+# / census-derived figures — no clean official per-language proficiency census
+# exists. ISO 639-3 codes kck (Kalanga), her (Herero), xkv (Kgalagadi), mhw
+# (Mbukushu), nmn (!Xoo) verified active on iso639-3.sil.org.
+ethnicGroups:
+  # No primary government ethnic census exists; widely cited secondary estimate.
+  - group: Tswana (Batswana)
+    percent: 79.0
+    sourceId: cia-wfb-ethnic
+  - group: Kalanga (Ikalanga)
+    percent: 11.0
+    sourceId: cia-wfb-ethnic
+  - group: Basarwa (San / Khoisan)
+    percent: 3.0
+    sourceId: cia-wfb-ethnic
+  - group: Other (incl. Kgalagadi, European ancestry)
+    percent: 7.0
+    sourceId: cia-wfb-ethnic
+# Figures are estimates; STATISTICS BOTSWANA conducts no ethnicity census.
+timezones:
+  - name: Africa/Gaborone
+    standardUtcOffset: "UTC+2"
+    observesDst: false
+# Central Africa Time (CAT), UTC+2 year-round; Botswana has never observed DST.
+currency:
+  code: BWP
+  symbol: "P"
+  name: Pula
+# 'Pula' means 'rain' in Setswana; subdivided into 100 thebe. Issued by the Bank
+# of Botswana since 1976.
+legalConstraints:
+  - topic: "official languages"
+    description: "The Constitution does not designate official languages; Setswana functions as the de facto national language and English as the de facto language of government and law."
+    sourceId: gov-bw-constitution
+  - topic: "ethnicity/religion data collection"
+    description: "The government conducts no national census of ethnicity; religious affiliation was collected in the 2022 Population and Housing Census. Data-collection-sensitive figures (ethnic shares) rely on secondary estimates."
+    sourceId: statsbots-2022-phc
+  - topic: "diamond sector"
+    description: "Diamond mining is tightly regulated; a long-standing partnership with De Beers (Debswana, 50/50 JV) governs the major mines in Serowe and its counterparts, with the Government holding a large equity stake."
+    sourceId: bank-of-botswana-currency
+paymentCulture:
+  popularMethods:
+    - "Cash — still dominant, especially in rural and semi-rural areas"
+    - "Mobile money / mobile banking — growing quickly"
+    - "Debit and credit cards (concentrated in the urban south-east)"
+    - "Bank transfer"
+  tipping:
+    expected: false
+    typicalAmount: "Small gratuity (~10%) occasionally left in restaurants; hotel/porter tips at discretion"
+    autoIncludedInBill: false
+    note: "Tipping is not customary or expected in most transactions."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Reserved, polite and indirect; status, age and respect are acknowledged in address (e.g. 'Rra'/'Mma' for elders). English is widely used in business."
+  greetingNorms: "Greetings are important — Setswana 'Dumela' (hello), 'Kgotla'/'Tsogia' (thank you). A handshake is the standard greeting."
+  meetingEtiquette: "Consensus and communal courtesy are valued; direct confrontation is avoided. Punctuality is relaxed socially ('African time') but firm for business."
+  topicsToAvoid:
+    - "Direct personal criticism or confrontation"
+    - "Land/ethnic sensitivities in the Kgalagadi"
+  giftGivingNotes: "Modest gifts are fine and appreciated; generosity is valued in a communal society."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: statsbots-2001-lang
+    name: "2001 Population and Housing Census — main language / Setswana usage (secondary relay)"
+    publisher: "Statistics Botswana"
+    url: "https://statsbots.org.bw/"
+    year: 2001
+    accessedDate: "2026-09-19"
+    note: "Setswana as first/home language ~77%; basis for tsn locallySpoken share."
+  - id: statsbots-2022-phc
+    name: "2022 Population and Housing Census — Population Composition, Distribution, Structure and Density"
+    publisher: "Statistics Botswana"
+    url: "https://statsbots.org.bw/STATSEVENTS/sites/default/files/2024-06/Population%20Distribution%202022%20PHC.pdf"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "National population 2,359,609 (2022); religion shares."
+  - id: gov-bw-constitution
+    name: "Constitution of Botswana (official languages context)"
+    publisher: "Government of Botswana"
+    url: "https://www.gov.bw/"
+    year: 1966
+    accessedDate: "2026-09-19"
+    note: "The Constitution does not designate official languages; English is the de facto language of government/law and Setswana the de facto national language."
+  - id: ethnologue-bw-languages
+    name: "Ethnologue (SIL) — Botswana languages"
+    publisher: "Ethnologue (SIL)"
+    url: "https://www.ethnologue.com/country/BW"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Minority-language inventory (Kalanga kck, Herero her, Kgalagadi xkv, Mbukushu mhw, Yeyi yey, Subiya sbs, Naro nhr, San !Xoo nmn / Xegwi xeg) and speakersShare estimates."
+  - id: cia-wfb-ethnic
+    name: "US CIA World Factbook — Botswana (Ethnic groups)"
+    publisher: "US CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/botswana/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Tswana ~79%, Kalanga ~11%, Basarwa (San) ~3%, other ~7% — a secondary estimate since Statistics Botswana conducts no ethnicity census."
+  - id: bank-of-botswana-currency
+    name: "Bank of Botswana — Currency (Pula)"
+    publisher: "Bank of Botswana"
+    url: "https://www.bankofbotswana.bw/content/currency"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "The Pula (BWP, 100 thebe) is issued by the Bank of Botswana since 1976."

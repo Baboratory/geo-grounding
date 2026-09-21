@@ -1,0 +1,77 @@
+code: AO-NORTH
+name:
+  eng: Luanda & the North (Kimbundu/Kongo)
+  local:
+    - languageCode: por
+      value: Luanda e Norte
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — hot year-round with a long dry season May-Oct and a hot rainy season Nov-Apr."
+landmarks:
+  - name: Luanda's historic centre (Baixa de Luanda)
+    description: "Colonial-era district and the Fortress of Santo Miguel overlooking Luanda Bay."
+  - name: M'banza-Kongo
+    description: "UNESCO World Heritage capital of the former Kongo kingdom, in Zaire province."
+    unescoWorldHeritage: true
+  - name: Kissama (Quiçama) National Park
+    description: "Coastal reserve near Luanda for elephant and big-game viewing."
+  - name: Kalandula Falls
+    description: "Dramatic waterfall in Malanje province."
+culturalTraits:
+  - "The Kimbundu-speaking north coast and the Kongo heritage"
+  - "Luanda as the national political, business and cultural capital"
+  - "Portuguese colonial and Atlantic-trade legacy (Fortress of Santo Miguel)"
+  - "Semba/kizomba nightlife and kuduro street culture"
+prideOf:
+  - "Being the seat of power, oil wealth and the capital's energy"
+  - "The Kongo kingdom heritage; M'banza-Kongo is a UNESCO site"
+  - "Luanda's Atlantic beaches and bay"
+animals:
+  popular:
+    - "African elephant (Quiçama)"
+    - "Giraffe"
+    - "Coastal dolphins"
+industries:
+  - "Oil & gas (offshore and Cabinda)"
+  - "Government, finance and services (Luanda)"
+  - "Refining and petrochemicals"
+  - "Hydropower (Kwanza dams) and agriculture"
+sports:
+  - "Football (soccer)"
+  - "Basketball"
+  - "Handball"
+entertainment:
+  - season: allYear
+    items:
+      - "Luanda nightlife and kizomba/semba clubs"
+      - "Beach and bay promenades"
+  - season: dry
+    items:
+      - "Peak outdoor and beach season (May-Oct)"
+  - season: wet
+    items:
+      - "Rainy-season indoor concerts and cultural events"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Muamba de galinha (chicken palm-oil stew)"
+      - "Funje (cassava porridge)"
+      - "Fresh grilled seafood on the coast"
+  - season: dry
+    items:
+      - "Outdoor grilled-meat (espetada) gatherings"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern Western business and casual wear"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government/offices roughly 08:00-16:30 Mon-Fri; retail Mon-Sat."
+  lunchBreakTiming: "A midday break is common."
+  notes: "Luanda is the financial heart; Kwiku instant payments and mobile wallets are most concentrated here."
