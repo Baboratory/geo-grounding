@@ -1,0 +1,121 @@
+code: WHOLE
+name:
+  eng: Western Sahara
+  local:
+    - languageCode: ara
+      value: "الصحراء الغربية (Aṣ-Ṣaḥrāʾ al-Gharbiyya)"
+# Generic country-wide fallback content for Western Sahara (dependent-territory,
+# single synthetic whole region). A vast, near-uninhabited desert stretch of the
+# northwest African coast; content reflects the territory as a whole regardless
+# of the administered zone.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert — extremely arid, hot summers, mild winters, with a strong maritime influence on the long Atlantic coast (frequent coastal fog)."
+  - koppenCode: BSh
+    description: "Hot semi-arid in the far south around the Dakhla area and along the southern coast where a slight summer-monsoon influence reaches."
+landmarks:
+  - name: Laayoune (El Aaiún)
+    description: "The territory's largest city and administrative centre, on the bank of the (usually dry) Saguia el-Hamra river."
+  - name: Dakhla (Villa Cisneros)
+    description: "A coastal city on a long, thin peninsula jutting into the Atlantic, famous for its lagoon and world-class kitesurfing and windsurfing."
+  - name: The Moroccan berm
+    description: "The fortified sand wall built by Morocco between 1980-87 that marks the line separating the Morocco-administered west from the SADR-controlled east; a defining feature of the territory's political geography."
+  - name: Guelta Zemmur
+    description: "A rocky desert outpost and former fortified settlement in the interior, emblematic of the Sahrawi region."
+  - name: Dakhla National Park
+    description: "A coastal reserve around the Dakhla peninsula protecting desert and wetland habitats."
+culturalTraits:
+  - "A proud Sahrawi Bedouin heritage, built on camel pastoralism and the desert caravan world"
+  - "Hassaniya Arabic culture and oral poetry (as the Hassaniya tradition of the wider Sahara)"
+  - "The unresolved cause of self-determination is central to Sahrawi identity"
+  - "Islamic faith (Sunni, Maliki) as the social and cultural backdrop"
+prideOf:
+  - "The Sahara and its vast, untouched desert coast"
+  - "Sahrawi identity and the Hassaniya language and song"
+  - "The traditional way of life of the desert nomads (now largely urbanized)"
+animals:
+  popular:
+    - "Camels (still central to Sahrawi culture)"
+    - "Dorcas gazelle"
+    - "Wild ass and desert rodents of the Sahel fringe"
+  unique:
+    - "The critically endangered addax antelope (extremely rare in the deep desert)"
+    - "Migratory seabirds and the coastal birdlife of the Dakhla lagoon"
+industries:
+  - "Fishing — the rich Saharan coastal waters are the main economic activity (particularly around Dakhla and Laayoune)"
+  - "Phosphate mining — the Bucraa mine and its 100-km overland conveyor belt, a key source of revenue"
+  - "Small-scale agriculture in the oases and along the Saguia el-Hamra"
+  - "Tourism, focused on the coast (kitesurfing, windsurfing at Dakhla)"
+sports:
+  - "Football (soccer)"
+  - "Kitesurfing and windsurfing (world-class conditions at Dakhla)"
+  - "Traditional dromedary (camel) racing"
+  - "Sahrawi endurance and desert treks"
+religions:
+  - name: Sunni Islam (Maliki school)
+    percent: 99.0
+    sourceId: esh-religion
+  - name: Other (incl. small Christian expatriate community)
+    percent: 1.0
+    sourceId: esh-religion
+# Virtually the entire resident population is Sunni Muslim; the small remainder
+# are mainly foreign workers and their families. Figures are estimates.
+entertainment:
+  - season: allYear
+    items:
+      - "Beach and water sports along the coast (Dakhla, Laayoune)"
+      - "Traditional Sahrawi music and poetry nights"
+      - "Desert drives and dune excursions"
+  - season: dry
+    items:
+      - "Kitesurfing season on the Dakhla lagoon"
+      - "Coastal and desert touring"
+  - season: wet
+    items:
+      - "Cooler, foggy coastal days — indoor and café culture"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Méchoui (roasted meat, often camel or lamb)"
+      - "Couscous and semolina dishes"
+      - "Fresh fish and seafood grilled on the coast"
+      - "Mint tea (attaye), the social drink of the Sahara"
+  - season: dry
+    items:
+      - "Date-based sweets and desert staples"
+  - season: wet
+    items:
+      - "Hearty stews on the cooler, foggier coastal days"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The drop (or darra'a) — the flowing robe worn by men"
+      - "The melhafa — the colourful wrapper worn by women"
+seasonCalendar:
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+# Western Sahara is a desert with a dry/wet seasonal rhythm; the slight summer
+# monsoon influence reaches only the far south. Of note: the calendar here
+# reflects 'wet' as the slightly cooler, marginally rainier summer months.
+businessRhythm:
+  restDays:
+    - friday
+    - sunday
+  typicalWorkHours: "Mon-Thu 08:00-16:00 and a half day Friday; the weekend is Friday-Sunday, mirroring Morocco's formal work week."
+  lunchBreakTiming: "Typically 12:00-13:00/14:00."
+  notableShutdownPeriods:
+    - period: "Ramadan"
+      description: "Business slows and working hours shorten markedly during the Muslim fasting month."
+    - period: "Public holidays"
+      description: "Islamic holidays (Eid al-Fitr, Eid al-Adha) and Moroccan national holidays are observed in the administered zone."
+  notes: "Business practice mirrors Morocco's: greet with 'As-salamu alaykum', build trust slowly, and be mindful of the politically sensitive status of the territory in any commercial or consulting engagement."
+sources:
+  - id: esh-religion
+    name: "Religion in Western Sahara (Composite estimate)"
+    publisher: "Composite estimate"
+    url: "https://en.wikipedia.org/wiki/Demographics_of_Western_Sahara"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "~entirely Sunni Muslim; small expatriate minority."

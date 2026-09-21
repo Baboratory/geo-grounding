@@ -1,0 +1,133 @@
+code: WHOLE
+name:
+  eng: Mauritania
+  local:
+    - languageCode: ara
+      value: "موريتانيا (Mūrītāniyā)"
+# Generic country-wide fallback content for Mauritania (unitary-small, single
+# synthetic whole region). The desert Moor north and the sub-Saharan Senegal
+# River valley interweave rather than forming two clean curated blocks, so the
+# national character is folded into this single WHOLE entry.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert — the vast majority of the country; extreme heat, very little rainfall, with the maritime influence moderating the Atlantic coast."
+  - koppenCode: BSh
+    description: "Hot semi-arid (Sahel) — a southern band along the Senegal River valley with a short annual wet season (roughly Jun-Sep)."
+landmarks:
+  - name: Chinguetti (old town)
+    description: "An ancient Saharan caravan city and centre of Islamic learning (the 'City of Libraries'); a UNESCO World Heritage Site since 1996, with its famous ksar (fortified medina) and centuries-old manuscripts."
+    unescoWorldHeritage: true
+  - name: Banc d'Arguin National Park
+    description: "A vast coastal wetland and marine park between Nouakchott and Nouadhibou; one of the world's richest bird sanctuaries and a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Ouadane (old town)
+    description: "A UNESCO-listed medieval Saharan trading town, historically linked to the trans-Saharan gold and salt caravans, near the Richat Structure."
+    unescoWorldHeritage: true
+  - name: The Richat Structure (Guelb er Richat)
+    description: "A spectacular 40-km-wide circular geological feature in the Adrar, visible from space and long a sighting landmark for caravans and, it is thought, astronauts."
+  - name: Tichitt (old town)
+    description: "A UNESCO-listed cliff-top Saharan town near the Oualata oasis, a staging post of the medieval gold-salt-caravan routes."
+    unescoWorldHeritage: true
+  - name: Terjit and Ksar el Barka oasis
+    description: "Palm-fringed oasis towns in the Adrar and Tagant regions, part of the Saharan oasis cultural landscape."
+# Chinguetti, Ouadane, Tichitt and Oualata form the 'Ancient Ksour of Ouadane,
+# Chinguetti, Tichitt and Oualata' UNESCO serial World Heritage Site; Banc
+# d'Arguin is separately inscribed.
+culturalTraits:
+  - "A deep Saharan and Moorish cultural heritage — the 'land of a thousand poets and a thousand libraries'"
+  - "Hospitality to the guest, rooted in desert tradition (the Moorish code of honour toward travellers)"
+  - "A multiethnic mosaic: Arab-Berber Moors alongside black-African communities of the south"
+  - "Islamic scholarship and the written tradition of Chinguetti"
+  - "Nomadic pastoralism and the camel as a cultural icon of the desert world"
+prideOf:
+  - "Chinguetti and the Mauritanian manuscript and Islamic-scholarship tradition"
+  - "The Banc d'Arguin National Park and its extraordinary bird life"
+  - "The desert itself and the resilience of Moorish and nomadic culture"
+  - "National harmony between Arab-Berber and black-African communities"
+animals:
+  popular:
+    - "Camels (the dromedary, central to desert life)"
+    - "Dorcas gazelle and addax in the desert"
+    - "Dugongs (sea cows) in the Banc d'Arguin marine park"
+  unique:
+    - "Large flocks of migratory waders and seabirds that winter at Banc d'Arguin"
+    - "The Barbary sheep (aoudad) in rocky Adrar terrain"
+    - "Saharan cheetah (critically endangered, rare in the remote north)"
+industries:
+  - "Mining — iron ore (SNIM, at Zouérat/F'Derik) is the dominant export"
+  - "Fisheries — one of the world's richest fishing grounds, especially on the Banc d'Arguin coast"
+  - "Agriculture and livestock in the Senegal River valley (the 'Beyyedhou' southern zone)"
+  - "Oil and gas (offshore, developing) and gold (recent artisanal finds in the north)"
+  - "Tourism, focused on the desert and UNESCO sites"
+sports:
+  - "Football (soccer) — the most popular sport"
+  - "Athletics and the traditional Saharan sport of tchoua (camel racing)"
+  - "Wrestling and the Moorish martial tradition"
+  - "Basketball and handball (growing)"
+religions:
+  - name: Sunni Islam (Maliki school)
+    percent: 100.0
+    sourceId: mrt-religion
+# Islam is the state religion and virtually the entire population is Sunni
+# Muslim (Maliki madhhab); there is no significant religious minority recorded
+# in official sources.
+entertainment:
+  - season: allYear
+    items:
+      - "Desert excursions and oasis tourism in the Adrar and Tagant"
+      - "Fish and seafood — grilled fish and fresh catches in the coastal towns"
+      - "Music and storytelling, with the Moorish griot and the music of the hodh"
+  - season: dry
+    items:
+      - "Touring the UNESCO ksour (Chinguetti, Ouadane, Tichitt)"
+      - "Dune and desert treks"
+  - season: wet
+    items:
+      - "The short green season in the south, when pastures revive"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Thieboudienne-like fish-based dishes and grilled fish (on the coast)"
+      - "Méchoui (roasted lamb) and couscous"
+      - "Semolina and wheat dishes with dates"
+      - "Mint tea (attaye) — the social drink of the desert"
+  - season: dry
+    items:
+      - "Date-palm harvest dishes in the oases"
+  - season: wet
+    items:
+      - "Southern grain and dairy dishes from the Senegal valley"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The drop (or darra'a) — the flowing Moorish robe, worn by men"
+      - "The melhafa — the colourful wrapper worn by women"
+      - "The litham (face veil) traditionally used by desert nomads"
+seasonCalendar:
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+# Mauritania uses a dry/wet (Saharan/Sahel) season partition: the rains fall
+# roughly Jun-Sep in the Sahelian south; the rest of the country is dry
+# year-round.
+businessRhythm:
+  restDays:
+    - friday
+    - sunday
+  typicalWorkHours: "Public offices Mon-Thu 08:00-16:00 and a half day Friday (the weekend is Friday-Sunday for the formal week); private businesses often Mon-Sat."
+  lunchBreakTiming: "Typically 12:00-13:00/14:00."
+  notableShutdownPeriods:
+    - period: "Ramadan"
+      description: "Working hours shorten and the rhythm of business slows markedly during the Muslim fasting month."
+    - period: "Public holidays"
+      description: "Independence Day (28 Nov), Eid al-Fitr, Eid al-Adha, the Islamic New Year, and national day celebrations."
+  notes: "Desert and Islamic etiquette: greet with 'As-salamu alaykum', decline directness, and build personal trust before transacting. Friday is the day of communal prayer."
+sources:
+  - id: mrt-religion
+    name: "Religion in Mauritania"
+    publisher: "Composite estimate (CIA World Factbook / Federal Research Division public-domain text)"
+    url: "https://en.wikipedia.org/wiki/Islam_in_Mauritania"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Virtually the entire population is Sunni Muslim (Maliki); treated as ~100%."

@@ -1,0 +1,127 @@
+alpha3: ESH
+alpha2: EH
+name:
+  eng: Western Sahara
+  local:
+    - languageCode: ara
+      value: "الصحراء الغربية (Aṣ-Ṣaḥrāʾ al-Gharbiyya)"
+flagEmoji: "🇪🇭"
+capital: "Laayoune (El Aaiún) — administrative centre"
+isSovereign: false
+# Classified dependent-territory: Western Sahara is a non-self-governing
+# territory whose status is unresolved; ~80% is administered by Morocco (as its
+# 'Southern Provinces') and the rest is controlled by the Sahrawi Arab
+# Democratic Republic (SADR) / Polisario Front, which maintains a
+# government-in-exile. It is a sparse desert territory (~600k) with no federal
+# structure of its own. Per the governance rule for non-sovereign ISO 3166-1
+# entries it carries a single synthetic WHOLE region. The language picture is
+# divided: standard Arabic and Spanish are the officials proclaimed by the
+# SADR, while Moroccan Arabic (and, legally, Berber/Tamazight) dominate the
+# Morocco-administered majority; Hassaniya remains the native Sahrawi tongue.
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: ara
+    domain: official
+    speakersShare: 1.0
+    sourceId: esh-status
+  - languageCode: mey
+    domain: locallySpoken
+    speakersShare: 0.75
+    sourceId: esh-languages
+  - languageCode: ary
+    domain: locallySpoken
+    speakersShare: 0.40
+    sourceId: esh-languages
+  - languageCode: spa
+    domain: foreign
+    speakersShare: 0.20
+    sourceId: esh-languages
+  - languageCode: fra
+    domain: foreign
+    speakersShare: 0.20
+    sourceId: esh-languages
+# Modern Standard Arabic and Spanish are the officials used by the SADR/Polisario
+# administration (and Spanish the language of the refugee camps' written
+# tradition), while Arabic (with Tamazight as a co-official of Morocco) governs
+# the Morocco-administered majority. Hassaniya (mey) is the native tongue of the
+# Sahrawi (~75% locally spoken), Moroccan Arabic (ary) has spread with settlers
+# into the cities (~40%), and French and Spanish persist as learned
+# administrative/international languages. Local shares are Composite estimates.
+ethnicGroups:
+  - group: Sahrawi (Arab-Berber)
+    percent: 33.0
+    sourceId: esh-ethnic
+  - group: Moroccan settlers and other non-Sahrawi
+    percent: 67.0
+    sourceId: esh-ethnic
+# Composite estimate (based on the commonly cited figure that migrants/settlers
+# account for roughly two-thirds of residents since the post-1975 Green March
+# settlement wave). Exact figures are contested given the unresolved status.
+timezones:
+  - name: Africa/El_Aaiun
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+0"
+    dstPeriod: "Zones legally follow Morocco's clock: year-round UTC+1 with an annual reversion to UTC+0 during the month of Ramadan."
+currency:
+  code: MAD
+  symbol: "DH"
+  name: Moroccan dirham
+legalConstraints:
+  - topic: "disputed sovereignty"
+    description: "Western Sahara's legal status is unresolved: the UN classifies it as a non-self-governing territory awaiting decolonization. The Kingdom of Morocco administers about 80% (its 'Southern Provinces'), integrating it into Moroccan governance and law, while the Polisario Front administers the remainder east of the Moroccan-built berm and a government-in-exile (SADR) operates from Tindouf, Algeria. A binding referendum on final status has not been held."
+    sourceId: esh-status
+  - topic: "trade and business environment"
+    description: "In the Morocco-administered portion, Moroccan law, the dirham and Morocco's trade regime apply; the European Court of Justice and several states regard the trade agreements with Morocco as not extending to the territory's resources in the absence of Sahrawi consent, a point of active dispute. Business operating rules therefore track Morocco's legal framework on the ground."
+    sourceId: esh-status
+  - topic: "religion"
+    description: "Virtually the entire population is Sunni Muslim; Islam (Maliki school) is the legal and cultural norm in both administered zones, mirroring Morocco and the broader Maghreb."
+    sourceId: esh-ethnic
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: esh-status
+    name: "Western Sahara — status and governance dossier"
+    publisher: "Comprehensive summary (CIA World Factbook; UN; UNSO-verified country profiles)"
+    url: "https://worldfactbookarchive.org/analysis/dossier/EH"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Disputed sovereignty; ~80% Morocco-administered, SADR/Polisario the rest; no binding referendum held; Moroccan law and dirham apply in the administered zone."
+  - id: esh-languages
+    name: "Composite estimate — languages of Western Sahara"
+    publisher: "Composite estimate"
+    url: "https://en.wikipedia.org/wiki/Demographics_of_Western_Sahara"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Hassaniya ~75% native, Moroccan Arabic ~40% (with settler influx), Spanish and French as learned languages; no census has been held since 1974."
+  - id: esh-ethnic
+    name: "Composite estimate — demographics of Western Sahara"
+    publisher: "Composite estimate"
+    url: "https://en.wikipedia.org/wiki/Demographics_of_Western_Sahara"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Sahrawi vs settler/migrant population split (roughly one-third vs two-thirds); religious composition ~entirely Sunni Muslim."
+  - id: iso-ara
+    name: "ISO 639-3 entry: ara - Arabic (macrolanguage)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ara"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code ara (Arabic, Active, macrolanguage)."
+  - id: iso-mey
+    name: "ISO 639-3 entry: mey - Hassaniyya"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/mey"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code mey = Hassaniyya (Individual, Living)."
+  - id: iso-ary
+    name: "ISO 639-3 entry: ary - Moroccan Arabic"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ary"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code ary = Moroccan Arabic (Individual, Living)."
