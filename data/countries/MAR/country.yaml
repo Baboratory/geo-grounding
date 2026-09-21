@@ -1,0 +1,193 @@
+alpha3: MAR
+alpha2: MA
+name:
+  eng: Morocco
+  local:
+    - languageCode: ara
+      value: "المغرب (Al-Maghrib)"
+    - languageCode: zgh
+      value: "ⵍⵎⵖⵔⵉⴱ (Lmeɣrib)"
+flagEmoji: "🇲🇦"
+capital: Rabat
+isSovereign: true
+# Classified unitary-large: Morocco meets all three unitary-large criteria
+# beyond the population-size test. Population ~37.4M (2024 est.), well over
+# the ~20-25M threshold. Two official languages (Arabic and Standard
+# Moroccan Tamazight) are constitutionally recognized (2011, Art. 5) AND three
+# Amazigh languages hold genuine recognized minority status, and it has a
+# widely recognized cultural-historical regional identity split between the
+# Arab/Arabic-speaking Atlantic north and the Berber/Amazigh High Atlas, Rif
+# and pre-Saharan Sahara. So hasSubdivisions: true with curated ISO 3166-2
+# regions, plus the generic WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: MA
+hasSubdivisions: true
+languageUsage:
+  - languageCode: ara
+    domain: official
+    speakersShare: 1.0
+    sourceId: mar-constitution-art5
+  - languageCode: zgh
+    domain: official
+    speakersShare: 1.0
+    sourceId: mar-constitution-art5
+  # Darija, the Moroccan Arabic vernacular, is the de facto everyday language
+  # of most Moroccans though it has no official status (only MSA-standard
+  # Arabic is official). Share is a Composite estimate, consistent with HCP
+  # findings that Moroccan Arabic is the primary spoken tongue.
+  - languageCode: ary
+    domain: locallySpoken
+    speakersShare: 0.91
+    sourceId: mar-darija-estimate
+  - languageCode: shi
+    domain: locallySpoken
+    speakersShare: 0.14
+    sourceId: shi-speakers
+  - languageCode: tzm
+    domain: locallySpoken
+    speakersShare: 0.074
+    sourceId: tzm-speakers
+  # Tarifit (Rif) speakers: older Ethnologue figure ~1.5M (1991); ~4-5% of the
+  # current population. Composite estimate.
+  - languageCode: rif
+    domain: locallySpoken
+    speakersShare: 0.05
+    sourceId: rif-speakers
+  # French has no official status in Morocco but is a language of government,
+  # business and higher education (CIA); ~35.6% of the population were counted
+  # as francophone in the 2014 census; treated here as a widely learned second
+  # language rather than a native/official one.
+  - languageCode: fra
+    domain: foreign
+    speakersShare: 0.356
+    sourceId: mar-french-oif
+ethnicGroups:
+  # CIA World Factbook (2025 est.).
+  - group: Arab-Amazigh
+    percent: 99.0
+    sourceId: mar-ethnic-cia
+  - group: Other
+    percent: 1.0
+    sourceId: mar-ethnic-cia
+timezones:
+  # Morocco is on permanent UTC+1 year-round since October 2018. It does NOT
+  # observe conventional daylight saving time; the only clock change is an
+  # annual reversion to UTC+0 during the lunar month of Ramadan, which shifts
+  # on the Islamic calendar and is treated here as a religious observance, not
+  # as daylight saving time.
+  - name: Africa/Casablanca
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+currency:
+  code: MAD
+  symbol: "د.م."
+  name: Moroccan dirham
+legalConstraints:
+  - topic: "official languages"
+    description: "Arabic remains the official language of the state and Standard Moroccan Tamazight is co-official (Constitution of 2011, Article 5), with the state obliged to protect and develop both. In practice Modern Standard Arabic dominates formal writing, media and religion (diglossia), while Moroccan Arabic (Darija) is the daily spoken tongue and French is a prestige language of business and education without official status."
+    sourceId: mar-constitution-art5
+  - topic: "state religion"
+    description: "Islam is the state religion (Constitution, Article 3); the King holds the title 'Commander of the Faithful' (Amir al-Mu'minin). During Ramadan, many businesses shorten hours and eating/drinking/smoking in public during daylight is socially discouraged; the working-day restriction is 6 hours per day for Muslims during the month."
+    sourceId: mar-commerce-global
+paymentMethodShares:
+  - method: "cash (share of all consumer payments, 2026 projection)"
+    percent: 84.0
+    sourceId: mar-cash-project
+paymentCulture:
+  popularMethods:
+    - "Cash — still dominant, especially outside major cities; ~53% of adults are unbanked"
+    - "CMI (Centre Monétique Interbancaire) national card scheme + Visa/Mastercard branded cards"
+    - "Cash on delivery for e-commerce (still common, though declining)"
+    - "Mobile money / e-wallets (MarocPay, Cash Plus, Wafacash) — growing"
+  tipping:
+    expected: true
+    typicalAmount: "5-10% in upscale restaurants; rounding up in casual settings; small change for services"
+    autoIncludedInBill: false
+    note: "Tipping (bakshish) is customary and widely expected for service workers; in higher-end restaurants a 5-10% tip is usual though not legally automatic."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Gracious and hospitality-centred; titles and respect for hierarchy matter. In business, French is the primary working language and formality is high, blending Arab-Islamic tradition with French influence."
+  greetingNorms: "Handshake between men; cheek kisses between close acquaintances; women generally extend their hand first — if a devout counterpart does not offer a hand, a nod or hand-over-heart greeting is appropriate."
+  meetingEtiquette: "Relationships and trust come before business; meetings often begin with small talk and tea. Punctuality is loose and meetings can run long. Defer to senior/hierarchical figures. Avoid scheduling on Friday midday prayer time."
+  topicsToAvoid:
+    - "The Moroccan monarchy and the royal family"
+    - "Politics and Western Sahara / disputed territory"
+    - "Religion probing or assumptions"
+  giftGivingNotes: "A small, thoughtful gift on business visits is well received. Use the right hand for giving and receiving; avoid alcohol unless you are sure it is welcome."
+distinct-regions:
+  - code: MA-06
+    file: distinct-regions/casablanca-settat.yaml
+    adminUnitCodes: [MA-06]
+  - code: MA-01
+    file: distinct-regions/tanger-tetouan-al-hoceima.yaml
+    adminUnitCodes: [MA-01]
+  - code: MA-09
+    file: distinct-regions/souss-massa.yaml
+    adminUnitCodes: [MA-09]
+  - code: MA-08
+    file: distinct-regions/draa-tafilalet.yaml
+    adminUnitCodes: [MA-08]
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: mar-constitution-art5
+    name: "Constitution of the Kingdom of Morocco 2011, Article 5 (and Article 3)"
+    publisher: "Constitute Project (comparative constitutions) / official Moroccan constitution"
+    url: "https://constituteproject.org/constitution/Morocco_2011"
+    year: 2011
+    accessedDate: "2026-09-19"
+    note: "Legal basis for Arabic and Standard Moroccan Tamazight as joint official languages, and for Islam as the state religion; governs the official-domain 1.0 rows and the 'official languages' and 'state religion' legal constraints."
+  - id: mar-ethnic-cia
+    name: "CIA World Factbook — Morocco (People and Society: ethnic groups, 2025 est.)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/morocco/"
+    year: 2025
+    accessedDate: "2026-09-19"
+    note: "Ethnic composition: Arab-Amazigh 99%, other 1%. CIA describes the population as overwhelmingly of mixed Arab-Berber ancestry."
+  - id: mar-darija-estimate
+    name: "Composite estimate — Moroccan Arabic (Darija) as primary spoken language"
+    publisher: "Composite estimate"
+    url: "https://www.cia.gov/the-world-factbook/countries/morocco/"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Darija is widely cited as the de facto everyday language of the large majority of Moroccans (~90%+); HCP (High Commission for Planning) survey work supports Moroccan Arabic as the primary spoken tongue. The ~0.91 locallySpoken share is a composite estimate drawn from travel/business guides and linguistic surveys."
+  - id: shi-speakers
+    name: "Shilha (Tachelhit) language — speaker figures"
+    publisher: "Wikipedia 'Shilha language' (citing census/commune data)"
+    url: "https://en.wikipedia.org/wiki/Shilha_language"
+    year: 2014
+    accessedDate: "2026-09-19"
+    note: "Approx. 4.7M speakers or ~14% of Morocco's population; the most widely spoken Amazigh language. Basis for the shi locallySpoken share (0.14)."
+  - id: tzm-speakers
+    name: "Central Atlas Tamazight — speaker figures"
+    publisher: "Wikipedia 'Central Atlas Tamazight' (2024 figure)"
+    url: "https://en.wikipedia.org/wiki/Central_Atlas_Tamazight_language"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Approx. 2.7M native speakers or ~7.4% of Morocco's population. Basis for the tzm locallySpoken share (0.074)."
+  - id: rif-speakers
+    name: "Tarifit (Riffian) speakers — composite figure"
+    publisher: "Composite estimate (Ethnologue 1.5M in 1991; current-scale estimate)"
+    url: "https://www.ethnologue.com/language/rif/"
+    accessedDate: "2026-09-19"
+    note: "Tarifit is spoken in the Rif of northern Morocco; older Ethnologue figure ~1.5M (1991). ~0.05 locallySpoken share is a composite estimate against the current ~37M population."
+  - id: mar-french-oif
+    name: "Geographical distribution of French speakers — Morocco (2014 census)"
+    publisher: "Organisation internationale de la Francophonie (OIF), via Wikipedia summary table"
+    url: "https://en.wikipedia.org/wiki/Geographical_distribution_of_French_speakers"
+    year: 2014
+    accessedDate: "2026-09-19"
+    note: "Morocco: 13,456,845 francophones = 35.63% of the population (2014 census), the most recent OIF benchmark. Basis for the fra foreign-domain share (0.356)."
+  - id: mar-cash-project
+    name: "Morocco's central bank cuts electronic payment fees (2026)"
+    publisher: "The Condia (reporting Bank Al-Maghrib / GlobalData figures)"
+    url: "https://thecondia.com/morocco-cuts-card-payment-fees"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "GlobalData projection that ~84% of Moroccan consumer payments in 2026 are still made in cash, and ~53% of adults are unbanked. Basis for the cash paymentMethodShares percent."
+  - id: mar-commerce-global
+    name: "Morocco — Business Etiquette, Culture & Manners"
+    publisher: "Commisceo Global (international business culture guide)"
+    url: "https://commisceo-global.com/resources/country-guides/morocco-guide"
+    accessedDate: "2026-09-19"
+    note: "Qualitative basis for the state-religion legal constraint (Ramadan working hours, Friday prayer closure) and the communication-style and greeting norms."

@@ -1,0 +1,72 @@
+code: DZ-16
+name:
+  eng: Algiers and the Central Tell
+  local:
+    - languageCode: ara
+      value: الجزائر والوسط
+    - languageCode: fra
+      value: Alger et le Tell central
+climates:
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean climate with mild, rainy winters and long hot dry summers, moderated along the coast by the sea.
+landmarks:
+  - name: Casbah (Kasbah) of Algiers
+    description: The historic medina and citadel, a UNESCO World Heritage site.
+    unescoWorldHeritage: true
+  - name: Tipasa
+    description: Ancient Roman, Punic, and early Christian ruins on the Mediterranean coast, UNESCO World Heritage.
+    unescoWorldHeritage: true
+  - name: Notre-Dame d'Afrique
+    description: A Catholic basilica on a clifftop overlooking Algiers' bay, landmark of the capital's multireligious past.
+culturalTraits:
+  - Metropolitan, densely urbanized heart of the country around the capital
+  - Strong administrative, political, and business concentration
+  - Deep heritage of Andalusian music and Ottoman-era medina life
+prideOf:
+  - The Casbah and its centuries of history
+  - Being the country's political and economic hub
+  - The Mediterranean coastline of the capital
+animals:
+  popular:
+    - Barbary macaque (nearby Chréa/Chenoua forests)
+  unique:
+    - Kabyle nuthatch (endemic to mountainous Tell forests nearby)
+industries:
+  - Government and public administration
+  - Services and finance
+  - Light manufacturing
+  - Tourism (capital city attractions, coastal resorts)
+sports:
+  - Football (CR Belouizdad, USM Alger, and MC Alger in Algiers)
+  - Handball
+entertainment:
+  - season: allYear
+    items:
+      - Andalusian (sana'a) music evenings and ma'luf performances
+      - Historic tours of the Casbah
+      - Football derby culture in Algiers
+  - season: dry
+    items:
+      - Summer at the Sablettes and coastal beaches near the capital
+      - Pan-African and Mediterranean cultural festivals in Algiers summer months
+traditionalDishes:
+  - season: allYear
+    items:
+      - Couscous with lamb or chicken
+      - Brik (fried stuffed pastry)
+      - Sweet pastries (makroud, baklava, zlabia)
+  - season: wet
+    items:
+      - Chorba frik (warm grain-and-lamb soup) in winter and Ramadan
+      - Slow-cooked tagines
+traditionalClothing:
+  - season: allYear
+    items:
+      - Gandoura and burnous for men
+      - Karakou-style velvet embroidered gowns for women
+      - Melhfa (wrap garment) on ceremonial occasions
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]

@@ -1,0 +1,80 @@
+code: MA-09
+name:
+  eng: Souss-Massa
+  local:
+    - languageCode: ara
+      value: "سوس ماسة"
+    - languageCode: shi
+      value: "ⵙⵓⵙ ⵎⴰⵙⵙⴰ"
+climates:
+  - koppenCode: Csa
+    description: Mediterranean coastal climate around Agadir.
+  - koppenCode: BSk
+    description: Semi-arid steppe climate in the Souss plain and Anti-Atlas foothills.
+landmarks:
+  - name: Agadir
+    description: Morocco's chief beach resort and Atlantic port city, rebuilt after the 1960 earthquake.
+  - name: Taroudant
+    description: A walled (''Little Marrakesh'') pre-Saharan town.
+  - name: Souss-Massa National Park
+    description: Coastal park protecting the endangered northern bald ibis.
+  - name: Tafraoute
+    description: Granite mountain town in the Anti-Atlas amid the pink and ochre landscape.
+culturalTraits:
+  - One of the strongest Amazigh/Tachelhit (Shilha) heartlands
+  - Atlantic coast beach culture and year-round mild climate
+  - Anti-Atlas mountain and pre-Saharan communities
+prideOf:
+  - Tachelhit Amazigh language and culture (spoken by the majority)
+  - Agadir's sunny winter climate and beaches
+  - The northern bald ibis and Souss-Massa conservation area
+animals:
+  popular:
+    - Northern bald ibis (Souss-Massa is its last world stronghold)
+    - Argan-grove birdlife and reptiles
+  unique:
+    - Northern bald ibis (Critically Endangered)
+industries:
+  - Agribusiness and citrus/vegetable export from the Souss valley
+  - Argan oil production (the argan tree is nearly endemic to this region)
+  - Fishing (Agadir port) and tourism
+sports:
+  - Football
+  - Surfing (Taghazout and coastal breaks are a global surf draw)
+# religions intentionally omitted at region level: no official region-level
+# religion breakdown is published (see MAR WHOLE file for the national figure).
+entertainment:
+  - season: summer
+    items:
+      - Timitar Festival of Amazigh music (Agadir, July)
+      - Surf season and beach festivals along the coast
+  - season: winter
+    items:
+      - Amazigh New Year (Yennayer) celebrations
+      - International Salam Moroccan Festival (Agadir)
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tagine with meat and vegetables"
+      - "Argan-oil-accompanied bread (amlou is a Souss specialty)"
+      - "Fresh grilled fish and prawns on the coast"
+traditionalClothing:
+  - season: allYear
+    items:
+      - Djellaba
+      - Woven Amazigh shawls and Berber jewellery (distinctive Tachelhit silverwork)
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices roughly 9:00am-6:00pm weekday; agribusiness and fishing follow seasonal/rural rhythms."
+  lunchBreakTiming: "Longer midday break around 12:00-3:00pm is common, especially out of the coastal towns."
+  notes: "Souss-Massa's economy is strongly seasonal around agriculture (citrus/vegetables) and coastal tourism, both peaking at distinct times of year."

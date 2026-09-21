@@ -1,0 +1,89 @@
+code: MA-08
+name:
+  eng: Drâa-Tafilalet
+  local:
+    - languageCode: ara
+      value: "درعة - تافيلالت"
+    - languageCode: tzm
+      value: "ⴷⵔⴰ ⵜⴰⴼⵉⵍⴰⵍⵜ"
+climates:
+  - koppenCode: BSk
+    description: Cold semi-arid steppe climate on the High Atlas plateaus and along the rivers.
+  - koppenCode: BWh
+    description: Hot desert climate in the pre-Saharan Drâa valley and Tafilalet oases.
+  - koppenCode: Cfb
+    description: Cool mountain climate in the High Atlas heights (e.g. around Midelt/Tinghir gorges).
+landmarks:
+  - name: Todgha and Dades Gorges
+    description: Dramatic High Atlas canyon landscapes.
+  - name: Ouarzazate (gateway to the Sahara)
+    description: Desert film-making hub and ksour town.
+  - name: Aït Benhaddou
+    unescoWorldHeritage: true
+    description: Iconic fortified ksar, a famed film location.
+  - name: Tafilalet (Erfoud/Rissani) palm groves
+    description: The great Saharan oasis of date palms at Morocco's southeast edge.
+  - name: Merzouga / Erg Chebbi dunes
+    description: The emblematic Sahara dunes, topped by camel treks and desert camps.
+culturalTraits:
+  - Deep Amazigh (Central Atlas Tamazight) highland culture
+  - Pre-Saharan ksour (fortified villages) and oasis life along the Drâa and Ziz rivers
+  - The distinctive blend of Berber, Saharan and caravan-trade heritage
+prideOf:
+  - Aït Benhaddou and the film legacy of Ouarzazate
+  - The date-palm oases and the Sahara (Merzouga/Erg Chebbi)
+  - Preserving Amazigh language and highland traditions
+animals:
+  popular:
+    - Dromedary (camel) — caravan and tourism icon
+    - Barbary sheep (arrui) in the Atlas
+  unique:
+    - Northern bald ibis (occasional; mainly further west)
+industries:
+  - Date palm cultivation (Drâa and Tafilalet oases)
+  - Tourism and film production (Ouarzazate studios)
+  - Mining (manganese at Imini; fossils)
+  - Agriculture and rose cultivation (Rose Valley)
+sports:
+  - Camel trekking and desert tours
+  - Mountain hiking
+  - Football
+# religions intentionally omitted at region level: no official region-level
+# religion breakdown is published (see MAR WHOLE file for the national figure).
+entertainment:
+  - season: autumn
+    items:
+      - Date Festival of Erfoud (September-October)
+  - season: winter
+    items:
+      - Sahara desert camps and New Year (Yennayer) in the oases
+  - season: summer
+    items:
+      - High Atlas summer hiking and the Heatwave Festival (Ouarzazate area)
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Berber tagine (slow meat-and-vegetable stew)"
+      - "Couscous with dates and local honey"
+      - "Sahara-style lamb — mechoui"
+traditionalClothing:
+  - season: allYear
+    items:
+      - Djellaba and blue/Hassani-influenced desert robes (mulhafa/indigo dye tradition)
+      - Turban for desert men
+      - Berber woven shawls
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and shops broadly 9:00am-6:00pm in towns; oasis farming and tourism follow sunrise-to-sundown rhythms."
+  lunchBreakTiming: "Long midday break is standard, especially in the hot season."
+  notes: "Tourism in the dunes and gorges is strongly seasonal (peaking in spring and autumn to avoid the severe summer heat), and date harvest is centered on the early autumn."

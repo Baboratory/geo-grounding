@@ -1,0 +1,131 @@
+alpha3: TUN
+alpha2: TN
+name:
+  eng: Tunisia
+  local:
+    - languageCode: ara
+      value: "تونس (Tūnis)"
+flagEmoji: "🇹🇳"
+capital: Tunis
+isSovereign: true
+# Classified unitary-small: Tunisia does NOT clearly meet the unitary-large
+# criteria. Population ~12-12.5M (2024 est.), under the ~20-25M threshold.
+# Arabic is the sole official language (the constitution does not recognize a
+# co-official Berber/Amazigh language, though the 2022 text acknowledges the
+# country's Amazigh heritage); the small Amazigh-speaking minority is
+# concentrated in the far south (Matmata, Djerba) but has no officially
+# recognized regional-minority-language status strong enough to carve a
+# recognized cultural-historical regional divide, and the widely-accepted
+# cultural portrait is of a largely Arabized, unitary state. So a single
+# synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: ara
+    domain: official
+    speakersShare: 1.0
+    sourceId: cwf-tunisia
+  # Tunisian Arabic (aeb, "Tounsi") is the everyday vernacular of the vast
+  # majority, though Modern Standard Arabic is the official language taught
+  # and used in writing. Share is a Composite estimate.
+  - languageCode: aeb
+    domain: locallySpoken
+    speakersShare: 0.98
+    sourceId: tun-aeb-estimate
+  # French is widely used in business, education and administration though it
+  # has no official status; the Tunisian government (OIF 2022) put francophones
+  # at ~52% of the population, almost all as a second language.
+  - languageCode: fra
+    domain: foreign
+    speakersShare: 0.52
+    sourceId: tun-french-oif
+# Tamazight (Berber) is spoken by a small minority, concentrated in the south
+# (Matmata hills, Djerba); no single authoritative share and no official
+# co-status — intentionally omitted with sourcing rather than guessed.
+ethnicGroups:
+  # CIA World Factbook (2024 est.).
+  - group: Arab
+    percent: 98.0
+    sourceId: cwf-tunisia
+  - group: European
+    percent: 1.0
+    sourceId: cwf-tunisia
+  - group: Jewish and other
+    percent: 1.0
+    sourceId: cwf-tunisia
+timezones:
+  # Tunisia is on UTC+1 year-round and has not observed daylight saving time
+  # since it permanently suspended it in 2009 (the 2009 switch abolished the
+  # seasonal change, largely because of Ramadan scheduling).
+  - name: Africa/Tunis
+    standardUtcOffset: "UTC+1"
+    observesDst: false
+currency:
+  code: TND
+  symbol: "د.ت"
+  name: Tunisian dinar
+legalConstraints:
+  - topic: "official language"
+    description: "Arabic is the sole official language of the state (Tunisian Constitution; the 2022 text declares the country part of the Arab/Islamic world and does not make any other language official, though it acknowledges the Amazigh heritage). Standard Arabic is the language of official writing and education; Tunisian Arabic and French dominate everyday and business speech."
+    sourceId: tun-constitution
+  - topic: "religion and holidays"
+    description: "The 2022 constitution no longer names Islam the state religion but says the country is part of the Islamic world and that the state protects religion; the President must be Muslim. Islam (Sunni, largely Maliki) is practiced by ~99% of the population; Ramadan, Eid al-Fitr and Eid al-Adha are national holidays, with reduced working hours during Ramadan."
+    sourceId: cwf-tunisia
+# paymentMethodShares intentionally omitted: no official central-bank or
+# national payment-breakdown of the cash-vs-card split was found during
+# verification; cash's dominance is noted qualitatively in paymentCulture
+# below rather than asserted as a statistic.
+paymentCulture:
+  popularMethods:
+    - "Cash — still the dominant everyday payment method (qualitative; no official share found)"
+    - "Visa and Mastercard cards (debit/credit)"
+    - "Mobile wallets (Flouci, D17) — growing, especially among younger users"
+    - "Cash on delivery for e-commerce"
+  tipping:
+    expected: true
+    typicalAmount: "Rounding up or ~10% in restaurants; small change for service"
+    autoIncludedInBill: false
+    note: "Tipping (bakshish) is customary and appreciated for service workers; not legally automatic."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm, hospitality-centred and relationship-driven; respect for elders and hierarchy matters. French is a common business language alongside Arabic; using a greeting in Arabic is appreciated."
+  greetingNorms: "Handshake on meeting; close acquaintances kiss on the cheek; among devout counterparts the woman or senior person typically offers the hand first."
+  meetingEtiquette: "Build trust and personal rapport before business; meetings open with small talk and often mint tea. Punctuality is appreciated though a relaxed pace is common. Defer to senior figures; decisions can be slow."
+  topicsToAvoid:
+    - "Politics and the former/current regimes"
+    - "Religion probing"
+    - "Personal wealth or salary"
+  giftGivingNotes: "A small courtesy gift on a business visit is well received; give and receive with the right hand."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cwf-tunisia
+    name: "CIA World Factbook — Tunisia (People and Society)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/tunisia/"
+    year: 2024
+    accessedDate: "2026-09-19"
+    note: "Arabic as official language, French as a language of commerce (~currency of business), ethnic groups (Arab 98%, European 1%, Jewish/other 1%), religion (Muslim Sunni) ~99%, and the legal-religion facts."
+  - id: tun-aeb-estimate
+    name: "Composite estimate — Tunisian Arabic (Tounsi) as everyday vernacular"
+    publisher: "Composite estimate (Britannica / Languages of Tunisia)"
+    url: "https://www.britannica.com/place/Tunisia/Languages"
+    year: 2026
+    accessedDate: "2026-09-19"
+    note: "Tunisian Arabic is described as the native/everyday language of the overwhelming majority of Tunisians; the ~0.98 locallySpoken share is a composite estimate (Britannica notes the cultural Arabization was largely complete and only a tiny fraction in the south still speak Berber)."
+  - id: tun-french-oif
+    name: "Geographical distribution of French speakers — Tunisia (OIF 2022)"
+    publisher: "Organisation internationale de la Francophonie (OIF), via Wikipedia summary"
+    url: "https://en.wikipedia.org/wiki/Geographical_distribution_of_French_speakers"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Tunisian government figure to OIF: ~6.32M francophones = ~52% of the population (2022), almost all as a second language. Basis for the fra foreign-domain share (0.52)."
+  - id: tun-constitution
+    name: "Constitution of Tunisia (2014; amended 2022) — official language provisions"
+    publisher: "Constitute Project (comparative constitutions)"
+    url: "https://constituteproject.org/constitution/Tunisia_2014"
+    year: 2022
+    accessedDate: "2026-09-19"
+    note: "Legal basis for Arabic as the sole official language and the religion-related provisions; governs the official-domain 1.0 row and the 'official language' legal constraint."
