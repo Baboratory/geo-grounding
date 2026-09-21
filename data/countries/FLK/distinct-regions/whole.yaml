@@ -1,0 +1,90 @@
+code: WHOLE
+name:
+  eng: Falkland Islands
+  local:
+    - languageCode: eng
+      value: Falkland Islands
+climates:
+  - koppenCode: ET
+    description: Tundra/maritime subpolar climate, cool and windy year-round with frequent cloud and rainfall; summers are short and cool.
+landmarks:
+  - name: Christ Church Cathedral (Stanley)
+    description: The southernmost Anglican cathedral in the world, famously framed by whale-bone arches.
+  - name: Mount Pleasant and the Falklands' battle sites
+    description: RAF Mount Pleasant is the main base; the territory's historical sites from the 1982 conflict are a focus for visitors.
+  - name: West Falkland wilderness
+    description: Vast, largely unpopulated moorland and coastline home to abundant seabirds and wildlife.
+culturalTraits:
+  - A small, close-knit British-heritage island community
+  - A strong sheep-farming (wool) tradition historically central to island life
+  - Defence of remote-island sovereignty and a distinctly self-reliant culture
+prideOf:
+  - The islands' untamed wildlife and unspoilt environment
+  - A dignified and resilient community history through the 1982 conflict
+  - The southernmost cathedral and the islands' unique identity
+animals:
+  popular:
+    - Rockhopper and Gentoo penguins
+    - Southern sea lions
+    - Kelp goose
+  unique:
+    - Falkland steamer duck (non-flying endemic)
+    - Black-browed albatross (large breeding colonies)
+industries:
+  - Fishing (patagonian squid and finfish under licence)
+  - Tourism (cruise visits and wildlife-watching)
+  - Sheep farming (wool)
+  - Hydrocarbon exploration in surrounding waters
+sports:
+  - Football
+  - Rugby
+  - Fishing and sea-angling
+  - Golf
+# religions intentionally omitted: no census-grade official breakdown of
+# religious affiliation was confirmed during verification; a broad majority is
+# Christian (Anglican heritage) but no citable official percentages were found.
+entertainment:
+  - season: allYear
+    items:
+      - Community sports fixtures and fishing competitions in Stanley
+      - Cruise-ship season (mainly October-March) bringing a busy social calendar
+traditionalDishes:
+  - season: allYear
+    items:
+      - Squid and other locally caught seafood
+      - Lamb and mutton (reflecting the islands' sheep-farming heritage)
+      - Fish pie
+traditionalClothing:
+  - season: allYear
+    items:
+      - Warm, windproof outdoor clothing (fleece, waterproofs) suited to the cool maritime climate
+      - Knitted jumpers (fisherman/guernsey-style) from the sheep-farming tradition
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  lunchBreakTiming: "Businesses in Stanley typically observe a short midday break; many smaller shops keep informal hours, and opening is often seasonal around the cruise-ship calendar."
+  typicalWorkHours: "Monday-Friday around 8:30am-12:30pm and 1:00/1:30pm-5:00pm, with most offices and shops closed on weekends."
+  restDays:
+    - saturday
+    - sunday
+  notes: "The very small population and dependence on shipping and air links mean services can be irregular; many tourist-facing businesses operate mainly during the October-March cruise season."
+sources:
+  - id: fk-fig-whole
+    name: "Visit the Falkland Islands"
+    publisher: "Falkland Islands Tourist Board"
+    url: "https://www.falklandislands.com/"
+    accessedDate: "2026-09-20"
+    note: "Background on the islands' geography, wildlife, tourism and community for the whole-country entry."
+  - id: enwp-falklands
+    name: "Falkland Islands"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Falkland_Islands"
+    accessedDate: "2026-09-20"
+    note: "General overview of the islands' economy, society and geography used for the whole-country content."

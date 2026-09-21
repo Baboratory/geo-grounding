@@ -1,0 +1,104 @@
+code: WHOLE
+name:
+  eng: Turks and Caicos Islands
+  local:
+    - languageCode: eng
+      value: Turks and Caicos Islands
+climates:
+  - koppenCode: Aw
+    description: Tropical savanna climate -- warm year-round with two seasons, a wetter period (with hurricane risk) in summer and a drier season in winter.
+landmarks:
+  - name: Grace Bay Beach (Providenciales)
+    description: World-renowned stretch of white-sand beach on the Caicos Islands, a flagship diving and resort destination.
+  - name: Cockburn Town (Grand Turk)
+    description: The capital on Grand Turk, with historic Bermudian-style colonial buildings along its main street.
+  - name: Columbus Landfall National Park (Grand Turk)
+    description: Site commemorating the territory's links to early Spanish and Bermudian settlement.
+  - name: Salt Cay salt ponds
+    description: Historic 17th-century salt industry remains on Salt Cay, recalling the islands' early Bermudian salt trade.
+# No Turks and Caicos islands site is currently inscribed as a UNESCO World
+# Heritage Site (the historic town of Grand Turk has been on a tentative list
+# for study only).
+culturalTraits:
+  - A relaxed island culture blending British, Bermudian, Caribbean and local Lucayan-influenced traditions
+  - Community spirit rooted in small-island life across the low-population islands
+  - Strong ties to the sea through fishing and conch harvesting, which shape daily life
+  - A welcoming tourism economy with a local rhythm centred on family and church
+prideOf:
+  - Pristine white-sand beaches and world-class reef diving
+  - Conch (the conch is the national symbol and pride of island identity)
+  - A self-governing British Overseas Territory with stable tourism growth
+animals:
+  popular:
+    - Caribbean flamingos (notable populations, especially on South Caicos)
+    - Humpback whales (passing during migration)
+    - Green sea turtle
+  unique:
+    - Turks and Caicos rock iguana (Cyclura carinata), native
+    - Turk's cap cactus (Melocactus intortus), the territory's emblematic plant
+    - Queen conch (Strombus gigas), central to identity and fishing
+industries:
+  - Tourism and hospitality (major driver on Providenciales and Grand Turk)
+  - International financial services and offshore corporate services
+  - Fishing (conch and lobster)
+  - Small-scale construction and real-estate development
+sports:
+  - Snorkelling, scuba diving and freediving
+  - Sailing and watersports
+  - Cricket
+  - Association football (soccer) and basketball
+traditionalDishes:
+  - season: allYear
+    items:
+      - Conch fritters and cracked conch
+      - Conch chowder
+      - Grouper and other local reef fish
+      - Peas 'n' rice with seafood
+traditionalClothing:
+  - season: allYear
+    items:
+      - Light, informal island wear (shorts, t-shirts, sandals) suited to the tropical climate
+      - Resort and business-casual attire in the tourism and finance sectors
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9, 10, 11]
+businessRhythm:
+  lunchBreakTiming: "A short lunch break around noon to 1pm is typical, but most service and office businesses remain open through the midday hours."
+  typicalWorkHours: "Office and government hours generally run 8:30am-5:00pm Monday to Friday, with banks closing earlier (often by 3pm)."
+  restDays:
+    - saturday
+    - sunday
+  notes: "The economy is strongly tourism-driven on Providenciales, so hospitality businesses work through weekends and public holidays. The Atlantic hurricane season (roughly June to November) can disrupt activity, especially from August to October."
+sources:
+  - id: tca-climate
+    name: "Turks and Caicos Islands Climate"
+    publisher: "Wikipedia / general climate references"
+    url: "https://en.wikipedia.org/wiki/Turks_and_Caicos_Islands"
+    accessedDate: "2026-09-20"
+    note: "Basis for the tropical savanna (Aw) classification and the wet/dry tropical season pattern, including hurricane-season timing."
+  - id: tca-tourism
+    name: "Visit Turks and Caicos -- About the Islands"
+    publisher: "Turks and Caicos Islands Tourism Board"
+    url: "https://www.visittci.com/"
+    accessedDate: "2026-09-20"
+    note: "Sources for landmarks (Grace Bay Beach, Cockburn Town, Columbus Landfall National Park) and the tourism-driven economy."
+  - id: tca-unesco
+    name: "Turks and Caicos Islands -- World Heritage status"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/"
+    accessedDate: "2026-09-20"
+    note: "Confirms no Turks and Caicos site is currently inscribed as a UNESCO World Heritage Site, so none of the landmarks carry unescoWorldHeritage: true."
+  - id: tca-iguana
+    name: "Turks and Caicos Rock Iguana"
+    publisher: "Turks and Caicos National Trust / conservation references"
+    url: "https://www.tcnationaltrust.org/"
+    accessedDate: "2026-09-20"
+    note: "Supports the native Turks and Caicos rock iguana (Cyclura carinata) and the territorially emblematic Turk's cap cactus."
+  - id: tca-cuisine
+    name: "Conch and Turks and Caicos food culture"
+    publisher: "Turks and Caicos Islands Tourism Board"
+    url: "https://www.visittci.com/"
+    accessedDate: "2026-09-20"
+    note: "Sources for traditional conch-based dishes and local reef-fish cooking."

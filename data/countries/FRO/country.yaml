@@ -16,12 +16,17 @@ hasSubdivisions: false
 languageUsage:
   - languageCode: fao
     domain: official
+    speakersShare: 1.0
+    sourceId: home-rule-act-1948
+  # Faroese is the "principal language" per the Home Rule Act (Sec. 11);
+  # Danish is not co-official -- the Act only says Danish "may be used as
+  # well as Faroese in public affairs" and is taught from an early age. The
+  # high share below reflects near-universal Danish proficiency as a second
+  # language, not official status.
+  - languageCode: fao
+    domain: locallySpoken
     speakersShare: 0.98
     sourceId: home-rule-act-1948
-  # Faroese is the "principal language" per the Home Rule Act; Danish is the
-  # official second language, taught from an early age and used in official
-  # matters alongside Faroese. The high share below reflects near-universal
-  # Danish proficiency as a second language rather than first-language use.
   - languageCode: dan
     domain: locallySpoken
     speakersShare: 0.85
@@ -69,10 +74,10 @@ sources:
     publisher: "Faroe Islands (official tourism and culture portal, faroeislands.fo)"
     url: "https://www.faroeislands.fo/arts-culture/the-faroese-language/"
     accessedDate: "2026-09-20"
-    note: "Source for Faroese being the national and official language (spoken by roughly 75,000-80,000 worldwide), Danish as official second language taught in schools, and English widely spoken."
+    note: "Source for Faroese being the national and official language (spoken by roughly 75,000-80,000 worldwide), Danish taught in schools and usable in public affairs (not co-official), and English widely spoken. The page states these qualitatively; the 0.85 Danish and 0.4 English shares are ESTIMATES, not figures given on the page."
   - id: wikipedia-languages-faroe
     name: "Languages of the Faroe Islands"
     publisher: "Wikipedia"
     url: "https://en.wikipedia.org/wiki/Languages_of_the_Faroe_Islands"
     accessedDate: "2026-09-20"
-    note: "Confirms Faroese and Danish as the official languages and Danish's status as the official second language."
+    note: "Confirms Faroese as the sole official language and Danish's status as a widely-used, taught second language, not co-official."

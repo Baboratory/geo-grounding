@@ -16,11 +16,15 @@ hasSubdivisions: false
 languageUsage:
   - languageCode: kal
     domain: official
-    speakersShare: 0.9
+    speakersShare: 1.0
     sourceId: cia-factbook-greenland-languages
   # Greenlandic (Kalaallisut) has been the SOLE official language since the
   # 2009 Self-Government Act; Danish is a recognized working language but is
   # not co-official.
+  - languageCode: kal
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: cia-factbook-greenland-languages
   - languageCode: dan
     domain: locallySpoken
     speakersShare: 0.1
@@ -31,17 +35,17 @@ languageUsage:
     sourceId: cia-factbook-greenland-languages
 timezones:
   - name: America/Nuuk
-    standardUtcOffset: "UTC-3"
+    standardUtcOffset: "UTC-2"
     observesDst: true
-    dstUtcOffset: "UTC-2"
-    dstPeriod: "Last Sunday in March to last Sunday in October (Greenland applies the EU daylight-saving schedule)."
+    dstUtcOffset: "UTC-1"
+    dstPeriod: "Last Sunday in March to last Sunday in October (Greenland moved its standard time from UTC-3 to UTC-2 in March 2023, closing the gap with Europe; it now applies the EU daylight-saving schedule on top of that new standard time)."
   - name: America/Danmarkshavn
     standardUtcOffset: "UTC+0"
     observesDst: false
   - name: America/Scoresbysund
-    standardUtcOffset: "UTC-1"
+    standardUtcOffset: "UTC-2"
     observesDst: true
-    dstUtcOffset: "UTC+0"
+    dstUtcOffset: "UTC-1"
     dstPeriod: "Last Sunday in March to last Sunday in October (EU daylight-saving schedule)."
 currency:
   code: DKK

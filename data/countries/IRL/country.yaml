@@ -25,7 +25,7 @@ hasSubdivisions: false
 languageUsage:
   - languageCode: gle
     domain: official
-    speakersShare: 0.5
+    speakersShare: 1.0
     sourceId: irish-constitution-art8
   - languageCode: eng
     domain: official

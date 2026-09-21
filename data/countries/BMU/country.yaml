@@ -1,0 +1,97 @@
+alpha3: BMU
+alpha2: BM
+name:
+  eng: Bermuda
+  local:
+    - languageCode: eng
+      value: Bermuda
+flagEmoji: "🇧🇲"
+capital: Hamilton
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  # Bermuda has no legally recognised official language. English is the de
+  # facto official language (used in government, courts, schools and business)
+  # and is spoken by essentially the whole population, so it is recorded as the
+  # dominant locally-spoken language rather than as an official-language entry.
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 1.0
+    sourceId: bmu-language-estimate
+ethnicGroups:
+  - group: Black
+    percent: 52.3
+    sourceId: bmu-census-2016
+  - group: White
+    percent: 30.5
+    sourceId: bmu-census-2016
+  - group: Mixed
+    percent: 9.1
+    sourceId: bmu-census-2016
+  - group: Asian
+    percent: 4.1
+    sourceId: bmu-census-2016
+  - group: Other
+    percent: 4.0
+    sourceId: bmu-census-2016
+timezones:
+  - name: Atlantic/Bermuda
+    standardUtcOffset: "UTC-4"
+    observesDst: true
+    dstUtcOffset: "UTC-3"
+    dstPeriod: "Second Sunday of March to first Sunday of November, US-schedule"
+currency:
+  code: BMD
+  symbol: "$"
+  name: Bermudian dollar (pegged 1:1 with the US dollar, which also circulates)
+legalConstraints:
+  - topic: "separate tax system (no income tax, no VAT)"
+    description: "Bermuda has no general personal income tax, no capital gains tax, no sales tax and no VAT. Instead the government raises revenue mainly through payroll taxes paid by employers, customs/import duties and land taxes, supported by a 15% corporate income tax that took effect in 2025 for large multinational groups under the OECD global minimum-tax framework."
+    sourceId: bmu-tax-system
+  - topic: "traffic and drink-driving"
+    description: "Traffic drives on the left (UK-style). The legal blood alcohol concentration limit for drivers is 0.08%, in line with the territory's British-derived motoring laws."
+    sourceId: bmu-risk-practices
+  - topic: "legal drinking and smoking ages"
+    description: "The legal drinking and smoking age is 18, consistent with the territory's UK-derived law and licensing practice."
+    sourceId: bmu-risk-practices
+# communicationStyle omitted: no reliably sourced description of territory-wide
+# norms distinct from general Anglo-Bermudian culture was found during
+# verification.
+paymentCulture:
+  popularMethods:
+    - Debit and credit cards (Visa and Mastercard widely accepted in shops, hotels and restaurants)
+    - Cash (Bermudian dollar, pegged 1:1 with the US dollar)
+    - US dollar (accepted interchangeably at par throughout the islands)
+    - Contactless and mobile card payments (widely adopted)
+  # tipping intentionally omitted: no well-sourced, consistent figure for
+  # Bermudian tipping norms was found during verification.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: bmu-language-estimate
+    name: "Composite estimate of English as the de facto language"
+    publisher: "Composite estimate"
+    url: "https://en.wikipedia.org/wiki/Bermuda"
+    accessedDate: "2026-09-20"
+    note: "English is the de facto official and universal language of Bermuda -- used in government, court, school and business -- although no language is formally declared official in law."
+  - id: bmu-census-2016
+    name: "2016 Population and Housing Census"
+    publisher: "Bermuda Department of Statistics, Government of Bermuda"
+    url: "https://www.gov.bm/articles/2016-population-and-housing-census-report"
+    accessedDate: "2026-09-20"
+    note: "Source for the ethnic composition percentages (Black 52.3%, White 30.5%, Mixed 9.1%, Asian 4.1%, Other 4.0%) from the 2016 census."
+  - id: bmu-tax-system
+    name: "Taxation in Bermuda / Payroll Tax Act"
+    publisher: "Government of Bermuda, Office of the Tax Commissioner"
+    url: "https://www.gov.bm/payroll-tax"
+    accessedDate: "2026-09-20"
+    note: "Basis for the autonomous tax system: no personal income tax, capital gains tax, sales tax or VAT; revenue from payroll tax, customs/import duties and land tax; the 2025 15% corporate income tax for large multinational groups."
+  - id: bmu-risk-practices
+    name: "Local laws and practices in Bermuda"
+    publisher: "UK Foreign, Commonwealth & Development Office travel advice"
+    url: "https://www.gov.uk/foreign-travel-advice/bermuda"
+    accessedDate: "2026-09-20"
+    note: "Confirms left-hand driving, the 18 legal drinking/smoking age, and the drink-driving limit for Bermuda."

@@ -1,0 +1,111 @@
+code: WHOLE
+name:
+  eng: Bermuda
+  local:
+    - languageCode: eng
+      value: Bermuda
+climates:
+  - koppenCode: Cfb
+    description: Humid subtropical climate tempered by the warm Gulf Stream -- mild winters and warm, humid summers, with frequent tropical weather systems.
+# Note: some classifications describe Bermuda as Cfa (humid subtropical), but
+# its strong maritime moderation and lack of extreme heat place it closer to a
+# mid-latitude oceanic (Cfb) climate in the Köppen system; sources differ.
+landmarks:
+  - name: Royal Naval Dockyard
+    description: Historic 19th-century British naval base on Ireland Island, now a major cruise and heritage site.
+  - name: Gibbs Hill Lighthouse
+    description: Historic cast-iron lighthouse (built 1846) offering panoramic views over the island chain.
+  - name: Crystal Caves of Bermuda
+    description: Cave system with clear underground lakes and dramatic stalactites.
+  - name: Horseshoe Bay Beach
+    description: A celebrated pink-sand beach, the most famous of Bermuda's beaches.
+# Bermuda currently has no UNESCO World Heritage Sites; the historic Town of
+# St George was on a tentative list but was not inscribed.
+culturalTraits:
+  - A distinctly British-Atlantic culture with a strong maritime and naval heritage
+  - Warm, polite and understated social manner modelled on British etiquette
+  - A proud melting pot reflecting African, British, Caribbean and Atlantic roots
+  - The world's oldest English-speaking parliament outside Britain (seated 1620)
+prideOf:
+  - Being home to the oldest parliament in continuous use in the Americas
+  - The pink-sand beaches and crystal-clear reef waters
+  - Saving the cahow (Bermuda petrel), an endemic bird once thought extinct
+animals:
+  popular:
+    - Humpback whale (migrating past the islands each spring)
+    - Green sea turtle
+    - Longtail (white-tailed tropicbird)
+  unique:
+    - Cahow or Bermuda petrel (Pterodroma cahow), endemic
+    - Bermuda skink (Plestiodon longirostris), a rare endemic lizard
+    - Bermuda cedar (Juniperus bermudiana), a distinctive endemic tree
+industries:
+  - International (re)insurance and financial services
+  - Tourism
+  - Investment fund administration
+  - Corporate services and captive insurance
+sports:
+  - Cricket
+  - Golf (Bermuda has a high density of courses)
+  - Sailing and yachting
+  - Rugby and association football (soccer)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Fish chowder (with sherry pepper sauce)
+      - Hoppin' John (black-eyed peas and rice)
+      - Salted codfish and potatoes
+      - Cassava pie (Christmas traditional dish)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Casual island business and resort wear
+      - Bermuda shorts and knee socks (traditional men's business wear)
+      - Light cotton and linen clothing suited to the warm climate
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+businessRhythm:
+  lunchBreakTiming: "A shorter, roughly 30-60 minute lunch break around noon is typical in the financial district."
+  typicalWorkHours: "Financial-services office hours generally run 9:00am-5:00pm Monday to Friday."
+  restDays:
+    - saturday
+    - sunday
+  notes: "Most stores close by 5-6pm; banks and government offices typically close by 3-3:30pm. Businesses often close entirely for the two weeks around New Year and summer long weekends."
+sources:
+  - id: bmu-climate
+    name: "Bermuda Climate"
+    publisher: "Wikipedia / general climate references"
+    url: "https://en.wikipedia.org/wiki/Bermuda"
+    accessedDate: "2026-09-20"
+    note: "Basis for the humid-subtropical, Gulf Stream-moderated climate classification."
+  - id: bmu-dockyard
+    name: "Royal Naval Dockyard and Bermuda landmarks"
+    publisher: "Bermuda Tourism Authority / LookBermuda heritage guides"
+    url: "https://www.gotobermuda.com/"
+    accessedDate: "2026-09-20"
+    note: "Sources for major landmarks including the Royal Naval Dockyard, Gibbs Hill Lighthouse, Crystal Caves and pink-sand beaches."
+  - id: bmu-unesco
+    name: "Bermuda -- tentative World Heritage list"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/bm"
+    accessedDate: "2026-09-20"
+    note: "Confirms Bermuda has no inscribed World Heritage Sites (historic St George remains only on the tentative list)."
+  - id: bmu-cahow
+    name: "Cahow Recovery Program"
+    publisher: "Bermuda Department of Environment and Natural Resources"
+    url: "https://www.gov.bm/"
+    accessedDate: "2026-09-20"
+    note: "Supports the cahow (Bermuda petrel) as a nationally emblematic endemic bird."
+  - id: bmu-cuisine
+    name: "Bermudian Cuisine"
+    publisher: "Bermuda Tourism Authority / food references"
+    url: "https://www.gotobermuda.com/"
+    accessedDate: "2026-09-20"
+    note: "Sources for traditional dishes (fish chowder, hop-pin John, codfish and potatoes, cassava pie)."

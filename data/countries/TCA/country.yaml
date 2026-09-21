@@ -1,0 +1,108 @@
+alpha3: TCA
+alpha2: TC
+name:
+  eng: Turks and Caicos Islands
+  local:
+    - languageCode: eng
+      value: Turks and Caicos Islands
+flagEmoji: "🇹🇨"
+capital: Cockburn Town
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: tca-official-lang
+  # The territory also has a local English-based vernacular, Turks and Caicos
+  # Islands Creole, similar to Bahamian Creole. It has no standardised ISO 639-3
+  # code, so it is noted here but not given its own languageUsage entry.
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.9
+    sourceId: tca-language-estimate
+ethnicGroups:
+  - group: Black
+    percent: 87.6
+    sourceId: tca-cia-people
+  - group: White
+    percent: 7.9
+    sourceId: tca-cia-people
+  - group: Mixed
+    percent: 2.5
+    sourceId: tca-cia-people
+  - group: East Indian
+    percent: 1.3
+    sourceId: tca-cia-people
+  - group: Other
+    percent: 0.7
+    sourceId: tca-cia-people
+timezones:
+  - name: America/Grand_Turk
+    standardUtcOffset: "UTC-5"
+    observesDst: true
+    dstUtcOffset: "UTC-4"
+    dstPeriod: "Second Sunday of March to first Sunday of November, US-schedule"
+currency:
+  code: USD
+  symbol: "$"
+  name: US dollar (used directly as the territory's currency)
+legalConstraints:
+  - topic: "separate tax system (no income tax; import duties)"
+    description: "The Turks and Caicos Islands are a separate tax jurisdiction with no personal income tax, no corporate tax and no VAT. Government revenue comes mainly from customs/import duties, accommodation (tourism) tax, stamp duty on land transactions and work-permit fees."
+    sourceId: tca-tax-system
+  - topic: "traffic and drink-driving"
+    description: "Traffic drives on the left (UK-style). The legal blood alcohol concentration limit for drivers is 0.07%, under the territory's Road Traffic Ordinance."
+    sourceId: tca-drive-law
+  - topic: "legal drinking and smoking ages"
+    description: "The legal drinking and smoking age is 18, consistent with the territory's British-derived law and licensing practice."
+    sourceId: tca-fcd-travel
+paymentCulture:
+  popularMethods:
+    - Cash and cards in US dollars (USD is the territory's currency)
+    - Debit and credit cards (Visa and Mastercard widely accepted in hotels, resorts and restaurants)
+    - Mobile and contactless payments (increasingly common, especially in tourism hubs like Providenciales)
+  # tipping intentionally omitted: no well-sourced, consistent figure for local
+  # tipping norms was found during verification.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: tca-official-lang
+    name: "Turks and Caicos Islands: Languages"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/about/archives/2023/countries/turks-and-caicos-islands/"
+    accessedDate: "2026-09-20"
+    note: "English is listed as the official language; basis for the official languageUsage entry for eng."
+  - id: tca-language-estimate
+    name: "Composite estimate of English as the dominant language"
+    publisher: "Composite estimate"
+    url: "https://en.wikipedia.org/wiki/Turks_and_Caicos_Islands"
+    accessedDate: "2026-09-20"
+    note: "Rough estimate that the great majority of residents speak English as a primary or everyday language; notes the existence of Turks and Caicos Islands Creole (no ISO 639-3 code) alongside immigrant Haitian Creole and Spanish communities."
+  - id: tca-cia-people
+    name: "Turks and Caicos Islands -- People and Society"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/about/archives/2023/countries/turks-and-caicos-islands/"
+    accessedDate: "2026-09-20"
+    note: "Source for the 2006-estimate ethnic composition (Black 87.6%, White 7.9%, mixed 2.5%, East Indian 1.3%, other 0.7%)."
+  - id: tca-tax-system
+    name: "Revenue Streams / National Investment Policy"
+    publisher: "Turks and Caicos Islands Government"
+    url: "https://www.gov.tc/revenue/streams"
+    accessedDate: "2026-09-20"
+    note: "Basis for the no-income-tax, no-VAT regime and the reliance on import duties, accommodation tax, stamp duty and work-permit fees for revenue."
+  - id: tca-drive-law
+    name: "Driving in the Turks and Caicos Islands"
+    publisher: "UK Foreign, Commonwealth & Development Office travel advice / local Road Traffic Ordinance"
+    url: "https://www.gov.uk/foreign-travel-advice/turks-and-caicos-islands"
+    accessedDate: "2026-09-20"
+    note: "Confirms left-hand driving and the 0.07% drink-driving blood alcohol limit."
+  - id: tca-fcd-travel
+    name: "Local laws and customs in the Turks and Caicos Islands"
+    publisher: "UK Foreign, Commonwealth & Development Office travel advice"
+    url: "https://www.gov.uk/foreign-travel-advice/turks-and-caicos-islands"
+    accessedDate: "2026-09-20"
+    note: "Confirms the legal drinking and smoking age of 18."

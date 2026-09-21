@@ -121,6 +121,14 @@ def validate_all(root: Path = ROOT) -> int:
                     f"FAIL {path}: languageUsage references unknown languageCode '{code}' "
                     f"(no data/languages/{code}.yaml)"
                 )
+            if entry.get("domain") == "official" and entry.get("speakersShare") != 1.0:
+                error_count += 1
+                print(
+                    f"FAIL {path}: languageUsage entry for '{code}' has domain 'official' "
+                    f"but speakersShare {entry.get('speakersShare')!r} — official is a "
+                    f"legal-status flag and must always be 1.0 (see DESIGN.md); actual "
+                    f"usage belongs in a separate 'locallySpoken' entry for the same code"
+                )
 
     def check_source_ids(path: str, data: dict) -> int:
         errs = 0

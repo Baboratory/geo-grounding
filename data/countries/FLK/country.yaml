@@ -1,0 +1,73 @@
+alpha3: FLK
+alpha2: FK
+name:
+  eng: Falkland Islands
+  local:
+    - languageCode: eng
+      value: Falkland Islands
+flagEmoji: 🇫🇰
+capital: Stanley
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# English is the sole official language of the Falkland Islands. The territory
+# is modelled as a single whole-country entry; despite comprising two main
+# islands and many smaller ones, it has no curated sub-regions in this dataset.
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: fk-fig-language
+# The Falkland Islands observe Falkland Islands Standard Time (FKST), UTC-3,
+# year-round. DST was trialled in the past and then abolished: since September
+# 2010 the territory has permanently used UTC-3 with no seasonal clock shift.
+timezones:
+  - name: Atlantic/Stanley
+    standardUtcOffset: "UTC-3"
+    observesDst: false
+currency:
+  code: FKP
+  symbol: "£"
+  name: Falkland Island pound
+legalConstraints:
+  - topic: "driving and traffic"
+    description: "Driving is on the left, inherited from British practice. Seat belts are required."
+    sourceId: fk-fig-travel
+  - topic: "tax status as an OCT"
+    description: "As a British Overseas Territory, the Falkland Islands run their own fiscal regime, separate from UK income tax and VAT. There is no local personal income tax or VAT; government revenue comes mainly from customs duties, fishing licences, and hydrocarbon licensing in the surrounding waters (though the islands' characteristic abundance of wool makes agriculture historically important to the economy)."
+    sourceId: fk-fig-economy
+# population and ethnic breakdown intentionally omitted: no official census
+# figure with a stable citable URL was confirmed during verification (estimates
+# around 3,700-4,000; almost all residents of British descent and English-speaking)
+# — left out rather than approximated, pending a citable official source.
+paymentCulture:
+  popularMethods:
+    - Debit and credit cards (Visa and Mastercard accepted in Stanley and larger shops)
+    - Falkland Islands pounds and pound sterling (widely circulated cash)
+  # paymentMethodShares intentionally omitted: no official payment-adoption
+  # survey with percentages was found for the territory during verification.
+  # tipping: a modest discretionary gratuity is appreciated in restaurants and
+  # for tour guides; not a firm cultural rule, so left unquantified.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: fk-fig-language
+    name: "Official Language and People"
+    publisher: "Falkland Islands Government"
+    url: "https://www.falklands.gov.fk/our-people/people/"
+    accessedDate: "2026-09-20"
+    note: "Confirms English as the official language of the Falkland Islands and the population profile."
+  - id: fk-fig-travel
+    name: "Visiting the Falkland Islands"
+    publisher: "Falkland Islands Government / Falkland Islands Tourist Board"
+    url: "https://www.falklandislands.com/"
+    accessedDate: "2026-09-20"
+    note: "Practical travel guidance including left-hand driving and general customs."
+  - id: fk-fig-economy
+    name: "Economy of the Falkland Islands"
+    publisher: "Falkland Islands Government"
+    url: "https://www.falklands.gov.fk/our-economy/"
+    accessedDate: "2026-09-20"
+    note: "Overview of the territory's fiscal regime and economy (fishing, hydrocarbon licensing, agriculture/wool, tourism)."

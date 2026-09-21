@@ -1,0 +1,80 @@
+alpha3: SHN
+alpha2: SH
+name:
+  eng: Saint Helena, Ascension and Tristan da Cunha
+  local:
+    - languageCode: eng
+      value: Saint Helena, Ascension and Tristan da Cunha
+flagEmoji: 🇸🇭
+capital: Jamestown
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+# English is the sole official language of the whole territory (Constitution
+# Order 2009). Each island is three separately-administered parts of one
+# British Overseas Territory — Saint Helena, Ascension, and Tristan da Cunha —
+# but the territory is modelled as a single whole-country entry with no
+# curated sub-regions.
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: sh-constitution-2009
+# This territory spans a single timezone (UTC+0) for all three island groups;
+# there is no DST observed — the islands sit far from any large political
+# group that shifts clocks, and are close to the equator-ish South Atlantic.
+timezones:
+  - name: Atlantic/St_Helena
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+# The Saint Helena pound circulates on Saint Helena and Ascension at parity
+# with sterling; Tristan da Cunha uses the pound sterling (GBP) directly.
+currency:
+  code: SHP
+  symbol: "£"
+  name: Saint Helena pound
+legalConstraints:
+  - topic: "ethnicity/religion data collection"
+    description: "No comprehensive official census breakdown of ethnicity or religion is published for the combined territory. A July 2021 estimate (CIA World Factbook) puts the population at ~7,900 and describes a majority of African descent with English descent and Chinese descent minorities, but it is not a census-grade official statistic, so this dataset omits ethnicGroups and religions for SHN rather than publish an unofficial approximation."
+    sourceId: cia-factbook-shn
+  - topic: "driving and traffic"
+    description: "Driving is on the left, as in the wider United Kingdom."
+    sourceId: enwp-shn
+  - topic: "tax status as an OCT"
+    description: "As a British Overseas Territory, Saint Helena has its own fiscal regime separate from UK income tax and VAT. There is no general personal income tax on Saint Helena; the territory raises revenue mainly through customs/import duties, fishing licences and postage. Tax rules differ notably from the mainland UK."
+    sourceId: enwp-shn
+paymentCulture:
+  popularMethods:
+    - Debit card (supported at the Bank of Saint Helena's branch in Jamestown)
+    - Credit cards (increasingly accepted at hotels and larger retailers)
+    - Cash (pounds sterling and Saint Helena pounds; widely used on the islands)
+  # paymentMethodShares intentionally omitted: no official spending survey with
+  # payment-method percentages was found for this territory during verification.
+  # tipping: on Saint Helena, modest tipping for restaurant service and tour
+  # guides is appreciated but discretionary; not an established hard rule, so
+  # left unquantified.
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: sh-constitution-2009
+    name: "The St Helena, Ascension and Tristan da Cunha Constitution Order 2009"
+    publisher: "Legislation.gov.uk (UK Government)"
+    url: "https://www.legislation.gov.uk/uksi/2009/1751/contents"
+    year: 2009
+    accessedDate: "2026-09-20"
+    note: "Legal basis: establishes the British Overseas Territory of Saint Helena, Ascension and Tristan da Cunha and confirms English as the official language."
+  - id: cia-factbook-shn
+    name: "The World Factbook — Saint Helena, Ascension, and Tristan da Cunha"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/saint-helena-ascension-and-tristan-da-cunha/"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Population estimate (~7,900) and ethnic-composition description; used as context for why ethnicGroups/religions are omitted."
+  - id: enwp-shn
+    name: "Saint Helena, Ascension and Tristan da Cunha"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Saint_Helena,_Ascension_and_Tristan_da_Cunha"
+    accessedDate: "2026-09-20"
+    note: "Territory overview used for the timezone, currency arrangement (SHP on Saint Helena/Ascension, GBP on Tristan da Cunha) and left-hand driving."

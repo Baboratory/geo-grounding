@@ -18,6 +18,10 @@ hasSubdivisions: false
 languageUsage:
   - languageCode: eng
     domain: official
+    speakersShare: 1.0
+    sourceId: britannica-guernsey
+  - languageCode: eng
+    domain: locallySpoken
     speakersShare: 0.96
     sourceId: britannica-guernsey
   # Guernésiais (Guernsey Norman French, ISO nrf) is a recognised regional

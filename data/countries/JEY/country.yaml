@@ -18,6 +18,10 @@ hasSubdivisions: false
 languageUsage:
   - languageCode: eng
     domain: official
+    speakersShare: 1.0
+    sourceId: wikipedia-languages-of-jersey
+  - languageCode: eng
+    domain: locallySpoken
     speakersShare: 0.95
     sourceId: wikipedia-languages-of-jersey
   # English is now dominant; French has a historical role as the language of
@@ -26,10 +30,18 @@ languageUsage:
   # down from 5,720 in 1989.
   - languageCode: fra
     domain: official
+    speakersShare: 1.0
+    sourceId: wikipedia-languages-of-jersey
+  - languageCode: fra
+    domain: locallySpoken
     speakersShare: 0.15
     sourceId: wikipedia-languages-of-jersey
   - languageCode: nrf
     domain: official
+    speakersShare: 1.0
+    sourceId: wikipedia-languages-of-jersey
+  - languageCode: nrf
+    domain: locallySpoken
     speakersShare: 0.03
     sourceId: wikipedia-languages-of-jersey
   - languageCode: por

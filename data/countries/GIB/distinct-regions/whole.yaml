@@ -1,0 +1,102 @@
+code: WHOLE
+name:
+  eng: Gibraltar
+  local:
+    - languageCode: eng
+      value: Gibraltar
+climates:
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean climate -- mild, wet winters and hot, dry summers, moderated by the sea.
+landmarks:
+  - name: The Rock of Gibraltar
+    description: Prominent 426-metre limestone promontory rising at the southern end of the Iberian Peninsula, home to the nature reserve and Europe's only wild macaque population.
+  - name: Gorham's Cave Complex
+    description: UNESCO-listed cave site with evidence of Neanderthal and early human occupation spanning over 100,000 years.
+    unescoWorldHeritage: true
+  - name: Europa Point
+    description: Southernmost point of Gibraltar, where the Mediterranean meets the Atlantic, with a lighthouse and views across the Strait of Gibraltar to Morocco.
+  - name: Saint Michael's Cave
+    description: A large natural limestone cave used as a concert venue and historic shelter.
+culturalTraits:
+  - A merger of British and southern Spanish traditions, often described as more British than the UK in etiquette
+  - Gibraltarian identity shaped by dual British and Andalusian influence
+  - Strong civic pride and a distinctly local bilingual (English-Llanito) culture
+  - Mediterranean social rhythm combined with British institutional formality
+prideOf:
+  - The Rock and the UNESCO Gorham's Cave heritage
+  - Being home to Europe's only wild Barbary macaques
+  - A lasting British identity, reaffirmed in the 1967 and 2002 sovereignty referendums
+animals:
+  popular:
+    - Barbary macaque (Europe's only wild primate population)
+    - Seabirds such as gulls, shearwaters and cormorants along the Upper Rock
+    - Bottlenose dolphins in the Strait of Gibraltar
+  unique:
+    - Barbary macaque (Macaca sylvanus)
+    - Gibraltar Campion (Silene tomentosa), an extremely rare endemic cliff flower
+industries:
+  - Online gambling and e-gaming
+  - Financial services and fintech
+  - Tourism
+  - Bunkering and port services (fuels supplied to ships in the Strait)
+sports:
+  - Football (Gibraltar has its own national team and competes in UEFA)
+  - Cricket
+  - Rugby
+  - Watersports and sailing
+traditionalDishes:
+  - season: allYear
+    items:
+      - Calentita (chickpea-flour bake, the de facto national dish)
+      - Rosto (chicken and chorizo rice dish)
+      - Panissa (fried bread) with garlic sauce
+      - Fideos al horno (baked pasta casserole)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Modern European casual and business dress
+      - Traditional garments are not widely worn day-to-day in Gibraltar
+# Gibraltar's Mediterranean climate has a clear wet (winter) and dry (summer)
+# pattern, but the four-season convention fits the territory's mid-latitude,
+# northern-hemisphere position best and matches how locals describe the year.
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+businessRhythm:
+  lunchBreakTiming: "A short, roughly one-hour lunch break around 1pm-2pm is typical, but many businesses in the compact town centre stay open through the middle of the day."
+  typicalWorkHours: "Office hours generally run 9:00am-5:30pm Monday to Friday, reflecting UK-style working patterns."
+  restDays:
+    - saturday
+    - sunday
+  notes: "Most shops on Main Street close by late afternoon on Sundays. Bread and some small convenience shops stay open on public holidays, which are generally on UK-observed dates."
+sources:
+  - id: gib-climate
+    name: "Gibraltar Climate"
+    publisher: "Shaw, D. and colleagues via the BBC / general climate references"
+    url: "https://en.wikipedia.org/wiki/Gibraltar#Climate"
+    accessedDate: "2026-09-20"
+    note: "Basis for the Mediterranean (hot-summer, Csa) climate classification and the mild-wet-winter, hot-dry-summer pattern."
+  - id: gib-unesco-gorham
+    name: "Gorham's Cave Complex"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1500/"
+    accessedDate: "2026-09-20"
+    note: "Confirms Gorham's Cave Complex as a UNESCO World Heritage Site (inscribed 2016) and describes the Neanderthal occupation evidence."
+  - id: gib-macaques
+    name: "About the Barbary Macaques of the Upper Rock"
+    publisher: "Gibraltar Government, Tourist Board"
+    url: "https://www.gibraltar.gov.gi/"
+    accessedDate: "2026-09-20"
+    note: "Supports the Barbary macaques as Europe's only wild primate population, a point of local pride."
+  - id: gib-dishes
+    name: "Gibraltarian Food"
+    publisher: "Wikipedia / local Gibraltar food references"
+    url: "https://en.wikipedia.org/wiki/Gibraltar#Culture"
+    accessedDate: "2026-09-20"
+    note: "Sources for traditional dishes (calentita, rosto, panissa, fideos al horno) as part of Gibraltarian-Maltese-Andalusian cuisine."
