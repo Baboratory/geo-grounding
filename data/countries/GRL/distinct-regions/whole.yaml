@@ -1,0 +1,104 @@
+code: WHOLE
+name:
+  eng: Greenland
+  local:
+    - languageCode: kal
+      value: Kalaallit Nunaat
+    - languageCode: dan
+      value: Grønland
+climates:
+  - koppenCode: ET
+    description: Tundra climate along the coast, with cold summers and long winters; most of the population lives in this coastal zone.
+  - koppenCode: EF
+    description: Ice cap climate across the interior, where the Greenland ice sheet (covering roughly 80% of the island) persists year-round.
+landmarks:
+  - name: Ilulissat Icefjord
+    description: World-famous fjord filled with icebergs calving from the Sermeq Kujalleq glacier.
+    unescoWorldHeritage: true
+  - name: Eqip Sermia glacier
+    description: A fast-flowing glacier on the coast of Disko Bay, a popular cruise destination.
+  - name: Mount Gunnbjørn
+    description: The highest peak in the Arctic, a nunatak on the edge of the ice sheet in eastern Greenland.
+culturalTraits:
+  - Inuit drum and throat-song traditions and kayak heritage
+  - Dog sledding as a traditional Arctic mode of transport
+  - The concept of "quiet comfort" and informal, first-name social culture
+prideOf:
+  - The Greenland ice sheet and Arctic wilderness
+  - Inuit craft heritage (sealskin and qiviut garments, tupilak carvings)
+  - The revival and protection of the Greenlandic language
+animals:
+  popular:
+    - Polar bear
+    - Arctic fox
+    - Reindeer (caribou)
+  unique:
+    - Muskox
+    - Narwhal
+industries:
+  - Fishing and fish processing (shrimp and halibut)
+  - Mining
+  - Tourism and expedition cruising
+sports:
+  - Dog sledding
+  - Kayaking
+  - Skiing
+  - Football (Greenlandic club football)
+# religions intentionally omitted: no officially published, URL-citable
+# denomination breakdown for Greenland was found during verification (the
+# Church of Greenland is majority Lutheran but exact shares are not
+# officially tabulated), so none is asserted rather than approximated.
+entertainment:
+  - season: summer
+    items:
+      - Midnight-sun sailing and iceberg cruises around Disko Bay
+      - Ilulissat cultural festivals (music and kayaking)
+  - season: winter
+    items:
+      - Northern-lights (aurora borealis) viewing
+      - Dog-sled expeditions and the Arctic Nature Race
+traditionalDishes:
+  - season: allYear
+    items:
+      - Suaasat (a warming meat or fish soup, traditionally of seal but also made with reindeer or fish)
+      - Dried fish and whale skin and blubber (mattak and mikiaq)
+  - season: winter
+    items:
+      - Kiviak (small auk fermented whole in a sealskin, a traditional delicacy)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Amauti (the traditional women's anorak with a distinctive hood and a back pouch for carrying a child)
+      - Kamik (traditional sealskin boots)
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8]
+  - season: winter
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  lunchBreakTiming: "Shorter midday closure than in mainland Denmark; many businesses keep short or no lunch break in the summer season."
+  typicalWorkHours: "Office hours roughly 8:00am-4:00pm, with a lighter cadence in remote settlements."
+  restDays:
+    - saturday
+    - sunday
+  notes: "Seasonality dominates: summer daylight and tourism shape hours in Nuuk and coastal towns, while winter work is quieter outside the fishing industry."
+sources:
+  - id: unesco-ilulissat-icefjord
+    name: "Ilulissat Icefjord — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1149/"
+    accessedDate: "2026-09-20"
+    note: "Source for the Ilulissat Icefjord landmark, its calving glacier, and World Heritage status."
+  - id: cia-factbook-greenland
+    name: "CIA World Factbook — Greenland"
+    publisher: "Central Intelligence Agency, United States"
+    url: "https://www.cia.gov/the-world-factbook/countries/greenland"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Source for geography (ice sheet covering ~80% of the island), climate (arctic to subarctic), and general country context used across this file."
+  - id: visit-greenland-seasons
+    name: "Visit Greenland — When to travel"
+    publisher: "Visit Greenland (official tourism board)"
+    url: "https://visitgreenland.com"
+    accessedDate: "2026-09-20"
+    note: "Source for seasonal framing: midnight sun and the summer cruise season versus winter aurora and dog-sledding season."

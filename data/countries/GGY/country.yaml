@@ -1,0 +1,72 @@
+alpha3: GGY
+alpha2: GG
+name:
+  eng: Guernsey
+  local:
+    - languageCode: eng
+      value: Guernsey
+    - languageCode: fra
+      value: Guernesey
+    - languageCode: nrf
+      value: Guernési
+flagEmoji: "🇬🇬"
+capital: Saint Peter Port
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: eng
+    domain: official
+    speakersShare: 0.96
+    sourceId: britannica-guernsey
+  # Guernésiais (Guernsey Norman French, ISO nrf) is a recognised regional
+  # language but has only a tiny number of first-language speakers today;
+  # English is the working language of government and daily life.
+  - languageCode: nrf
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: wikipedia-guernsey
+  - languageCode: fra
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: wikipedia-guernsey
+timezones:
+  - name: Europe/Guernsey
+    standardUtcOffset: "UTC+0"
+    observesDst: true
+    dstUtcOffset: "UTC+1"
+    dstPeriod: "Last Sunday in March to last Sunday in October (Western European Time / Western European Summer Time, matching the UK)."
+currency:
+  code: GBP
+  symbol: "£"
+  name: Pound sterling (Guernsey pound at par)
+legalConstraints:
+  - topic: "Crown dependency forming the Bailiwick of Guernsey"
+    description: "Guernsey is the largest island of the Bailiwick of Guernsey, a British Crown dependency that is not part of the UK. Self-governing for local affairs, it has its own parliament (the States of Guernsey); the UK handles external relations and defence. Guernsey, Alderney and Sark each have their own institutions."
+    sourceId: britannica-guernsey
+paymentCulture:
+  popularMethods:
+    - Visa and Mastercard (accepted widely)
+    - Cash (Guernsey pound, interchangeable with sterling)
+  tipping:
+    expected: true
+    typicalAmount: "Optional 5-10% in restaurants"
+    autoIncludedInBill: false
+    note: "Modest tipping is common in hospitality, broadly in line with UK practice."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: britannica-guernsey
+    name: "Guernsey (island and bailiwick, Channel Islands)"
+    publisher: "Encyclopaedia Britannica"
+    url: "https://www.britannica.com/place/Guernsey-island-and-bailiwick-Channel-Islands-English-Channel"
+    accessedDate: "2026-09-20"
+    note: "Source for English as the official language, Guernésiais as a Norman-French variant spoken by a small number, the capital Saint Peter Port, and the Guernsey pound."
+  - id: wikipedia-guernsey
+    name: "Guernsey"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Guernsey"
+    accessedDate: "2026-09-20"
+    note: "Source for Guernésiais and English as the official/recognised languages, population, and the island's geography and status."

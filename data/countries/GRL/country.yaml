@@ -1,0 +1,96 @@
+alpha3: GRL
+alpha2: GL
+name:
+  eng: Greenland
+  local:
+    - languageCode: kal
+      value: Kalaallit Nunaat
+    - languageCode: dan
+      value: Grønland
+flagEmoji: "🇬🇱"
+capital: Nuuk
+isSovereign: false
+governanceType: dependent-territory
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: kal
+    domain: official
+    speakersShare: 0.9
+    sourceId: cia-factbook-greenland-languages
+  # Greenlandic (Kalaallisut) has been the SOLE official language since the
+  # 2009 Self-Government Act; Danish is a recognized working language but is
+  # not co-official.
+  - languageCode: dan
+    domain: locallySpoken
+    speakersShare: 0.1
+    sourceId: wikipedia-languages-of-greenland
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.3
+    sourceId: cia-factbook-greenland-languages
+timezones:
+  - name: America/Nuuk
+    standardUtcOffset: "UTC-3"
+    observesDst: true
+    dstUtcOffset: "UTC-2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (Greenland applies the EU daylight-saving schedule)."
+  - name: America/Danmarkshavn
+    standardUtcOffset: "UTC+0"
+    observesDst: false
+  - name: America/Scoresbysund
+    standardUtcOffset: "UTC-1"
+    observesDst: true
+    dstUtcOffset: "UTC+0"
+    dstPeriod: "Last Sunday in March to last Sunday in October (EU daylight-saving schedule)."
+currency:
+  code: DKK
+  symbol: "kr"
+  name: Danish krone
+legalConstraints:
+  - topic: "Self-rule within the Kingdom of Denmark"
+    description: "The 2009 Act on Greenland Self-Government confirms Greenland's status as an autonomous territory within the Kingdom of Denmark with extensive home rule (affairs of State such as foreign policy, defence, justice and monetary policy remain with Denmark). Greenlandic is designated the sole official language."
+    sourceId: greenland-self-government-2009
+# paymentMethodShares intentionally omitted: no official card-vs-cash split is
+# published for Greenland; cash and cards are both used but exact adoption is
+# not sourced. paymentCulture omitted for the same reason -- only anecdotal
+# descriptions were found, not solid enough for this dataset's sourcing bar.
+paymentCulture:
+  popularMethods:
+    - Visa and Mastercard (accepted in most shops and hotels in towns)
+    - Cash (withdrawals and payments in Danish kroner are routine; Greenlandic banknotes issued by Danmarks Nationalbank circulate)
+  tipping:
+    expected: false
+    typicalAmount: "Not customary"
+    autoIncludedInBill: false
+    note: "Tipping is rarely encountered."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: cia-factbook-greenland-languages
+    name: "CIA World Factbook — Greenland (languages)"
+    publisher: "Central Intelligence Agency, United States"
+    url: "https://www.cia.gov/the-world-factbook/countries/greenland"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Basis for the language usage estimates: Greenlandic (Kalaallisut) official, Danish and English widely spoken. Danish is the primary language of roughly 7-12% of residents."
+  - id: wikipedia-languages-of-greenland
+    name: "Languages of Greenland"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Greenland"
+    accessedDate: "2026-09-20"
+    note: "Documents Greenlandic (Kalaallisut) as sole official language since the 2009 Self-Government Act, Kalaallisut native speaker share (roughly 85-90% of ~56,800), and Danish's continued functional role in administration and higher education."
+  - id: greenland-self-government-2009
+    name: "Act on Greenland Self-Government (Selvstyreloven), in force 21 June 2009"
+    publisher: "Government of Greenland (Naalakkersuisut)"
+    url: "https://naalakkersuisut.gl"
+    year: 2009
+    accessedDate: "2026-09-20"
+    note: "Legal basis for Greenland's autonomous status and for Greenlandic (Kalaallisut) as the sole official language."
+  - id: unesco-ilulissat-icefjord
+    name: "Ilulissat Icefjord — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1149/"
+    accessedDate: "2026-09-20"
+    note: "Source for the Ilulissat Icefjord landmark and its UNESCO World Heritage status."

@@ -1,0 +1,98 @@
+code: WHOLE
+name:
+  eng: Jersey
+  local:
+    - languageCode: eng
+      value: Jersey
+    - languageCode: fra
+      value: Jersey
+    - languageCode: nrf
+      value: Jèrri
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate — mild winters, warm summers and reliable rainfall, moderated by the sea; among the sunniest spots in the British Isles.
+landmarks:
+  - name: Mont Orgueil Castle
+    description: A formidable medieval castle perched above the harbour of Gorey, guarding the east coast.
+  - name: Elizabeth Castle
+    description: A 16th-century castle on an intertidal islet in St Aubin's Bay, reached on foot at low tide.
+  - name: La Hougue Bie
+    description: One of Europe's largest and best-preserved passage graves, topped by a medieval chapel.
+culturalTraits:
+  - The Norman heritage and the Jèrriais language, kept alive in street signs and weekly newspaper columns
+  - End-of-war celebration culture tied to Liberation Day (9 May)
+  - A strong dairy and new-potato farming heritage
+prideOf:
+  - The Jersey cow, world-famous for its milk
+  - Jersey Royal potatoes
+  - The island's medieval castles and stone heritage
+animals:
+  popular:
+    - Grey seals around the Channel Islands
+    - Wild birds along the coast
+  unique:
+    - Jersey cow (the native dairy breed, world-famous for its milk)
+industries:
+  - Financial services
+  - Agriculture (dairy and Jersey Royal potatoes)
+  - Tourism
+sports:
+  - Football (soccer)
+  - Rugby union
+  - Cricket
+  - Golf
+# religions intentionally omitted: Jersey has a Christian-majority population
+# across several denominations, but no official, URL-citable denomination
+# breakdown is published, so none is asserted rather than approximated.
+entertainment:
+  - season: summer
+    items:
+      - Battle of Flowers (a parade of flower-decorated floats in August)
+      - Liberation Day events (9 May)
+  - season: winter
+    items:
+      - Indoor theatre and concerts in Saint Helier
+traditionalDishes:
+  - season: allYear
+    items:
+      - Jersey Royals (new potatoes, famously served with butter)
+      - Local shellfish and seafood
+  - season: winter
+    items:
+      - Hearty Norman-style cider and meat stews
+traditionalClothing:
+  - season: allYear
+    items:
+      - Smart-casual island dress
+      - Light knitwear suited to the mild maritime climate
+seasonCalendar:
+  - season: summer
+    months: [6, 7, 8]
+  - season: winter
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  lunchBreakTiming: "A modest lunch break is common; many offices keep shorter hours on Friday afternoons."
+  typicalWorkHours: "Weekday office hours roughly 9:00am-5:30pm."
+  restDays:
+    - saturday
+    - sunday
+  notes: "Financial-services culture is strong; Saint Helier is both the capital and the main commercial centre."
+sources:
+  - id: visit-jersey
+    name: "Visit Jersey — what's on"
+    publisher: "Visit Jersey (official tourism board)"
+    url: "https://www.jersey.com"
+    accessedDate: "2026-09-20"
+    note: "Source for the summer event season including the Battle of Flowers and Liberation Day."
+  - id: jersey-heritage
+    name: "Jersey Heritage — castles and monuments"
+    publisher: "Jersey Heritage"
+    url: "https://www.jerseyheritage.org"
+    accessedDate: "2026-09-20"
+    note: "Source for the island's castles (Mont Orgueil and Elizabeth Castle) and La Hougue Bie."
+  - id: wikipedia-jersey
+    name: "Jersey"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Jersey"
+    accessedDate: "2026-09-20"
+    note: "Source for geography, climate, the Jersey cow and Jersey Royal potatoes."
