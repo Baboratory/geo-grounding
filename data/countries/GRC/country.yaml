@@ -1,0 +1,147 @@
+alpha3: GRC
+alpha2: GR
+name:
+  eng: Greece
+  local:
+    - languageCode: ell
+      value: Ελλάδα
+flagEmoji: "🇬🇷"
+capital: Athens
+isSovereign: true
+# Classified unitary-small: Greece is a small state (~10.4M, 2025 ELSTAT estimate)
+# with a majority-homogeneous population speaking one official language (Greek).
+# Although Greek Orthodoxy is the de facto established religion and historical
+# regions exist (Macedonia, Peloponnese, Crete, the islands), there is no
+# officially recognized regional/minority language situation nor a genuine
+# cultural-historical regional divide across the whole state that meets the bar
+# for curated subdivision content. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: ell
+    domain: official
+    speakersShare: 1.0
+    sourceId: greek-constitution-art3
+  - languageCode: ell
+    domain: locallySpoken
+    speakersShare: 0.99
+    sourceId: elstat-languages
+# Greek is the sole official language and spoken by essentially the entire
+# population (~99%). Small recognized minority groups exist (Turkish in Thrace,
+# Romani, Slavic dialects in the north, Albanian/Arvanitika) but are not
+# official languages and are not large enough to model separately at country
+# scale beyond noting their presence in communicationStyle/topicsToAvoid.
+timezones:
+  - name: Europe/Athens
+    standardUtcOffset: "UTC+2"
+    observesDst: true
+    dstUtcOffset: "UTC+3"
+    dstPeriod: "Last Sunday in March to last Sunday in October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure — the EU-wide GDPR, directly applicable in Greece."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge."
+    sourceId: eu-directive-2019-771
+  - topic: "Sunday trading"
+    description: "Sunday is the default rest day for retail, with a number of legislated exceptions (tourist areas, certain seasons/locations, small shops and kiosks, food stores). The precise regime is set by national law with regional/local implementation."
+    sourceId: grk-sunday-trading
+paymentCulture:
+  popularMethods:
+    - Debit and credit cards (widely accepted after banking consolidation)
+    - Contactless cards and mobile wallets (Apple Pay, Google Pay)
+    - IRIS online payments (bank-to-bank / e-commerce rail)
+    - Cash (still commonly used, especially at small vendors)
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    typicalAmount: "Rounding up the bill or leaving ~5-10% for good service at restaurants is appreciated but optional; service is not automatically added to the bill in most cases."
+communicationStyle:
+  contextLevel: mixed
+  formalityNorms: "Friendly and relationship-oriented. Titles are used initially in formal business, but Greeks are quick to move to a first-name basis and direct personal warmth. Personal connections and rapport matter more than a formal hierarchy."
+  greetingNorms: "A handshake with eye contact is standard, often with a slight smile; among friends, a hug or kiss on both cheeks is common. 'Yia sou' / 'Yia sas' (hi/hello) is the everyday greeting."
+  meetingEtiquette: "Punctuality is appreciated but sessions often run 'on Greek time' (a degree of flexibility). Meetings tend to be conversational and relationship-focused; building personal trust is important before deep business discussion."
+  topicsToAvoid:
+    - "The 'Macedonia' name dispute and North Macedonia relations can be sensitive — be careful and informed when it comes up"
+    - "The 2008+ debt crisis and associated austerity — a sensitive memory"
+    - "Turkey/Greece and Cyprus tensions — politically charged"
+  giftGivingNotes: "A small gift when visiting someone's home (wine, sweets, flowers) is a warm gesture. Avoid an even number of flowers or white lilies (funeral associations); chrysanthemums are also considered funeral flowers."
+sources:
+  - id: greek-constitution-art3
+    name: "Constitution of Greece, Article 3 (and Article 1 of the Language Law, i.e. Law 4210/2013 amending Art. 1 of Law 3455/1906)"
+    publisher: "Government of Greece (Hellenic Parliament)"
+    url: "https://www.hellenicparliament.gr/UserFiles/f3c70a23-7696-49db-9148-f24dce6a27c8/001-156%20aggliko.pdf"
+    year: 1975
+    accessedDate: "2026-09-20"
+    note: "Legal basis for Greek being the official language of the state."
+  - id: elstat-languages
+    name: "Population and Housing Census — language/mother-tongue data (composite of ELSTAT releases)"
+    publisher: "Hellenic Statistical Authority (ELSTAT)"
+    url: "https://www.statistics.gr/en/statistics/-/publication/SAM03/-"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Greek is the mother tongue of essentially the whole population (~99%); Greece does not publish a full ethnic/mother-tongue breakdown in the manner of other census offices. Share is a composite estimate derived from the small recognized minority shares (Turkish in Thrace, Romani, Slavic-Macedonian dialects, Arvanitika/Albanian)."
+  - id: gr-elstat-religion
+    name: "2023 Report on International Religious Freedom: Greece (citing census and Church data)"
+    publisher: "U.S. Department of State — citing Greek census and Church statistics"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/greece/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "The large Greek Orthodox majority (~90%, per the 2011 census ~90% and earlier figures) and the Muslim minority (~2-3%, concentrated in Thrace); used for the religions figures in distinct-regions/whole.yaml. Greece does not collect religion in its modern census, so figures come from this secondary source."
+  - id: grk-eu-cash-irris
+    name: "Composite — Greek payment behaviour (Bank of Greece / ECB SPACE and market reporting)"
+    publisher: "Composite estimate (Bank of Greece / ECB SPACE survey)"
+    url: "https://www.bankofgreece.gr/"
+    year: 2024
+    accessedDate: "2026-09-20"
+    note: "Greece sees high card and mobile-wallet uptake, plus the domestic IRIS instant-payment rail; cash remains significant at small vendors. Qualitative, no specific percentage claim without an official split."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-20"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Greece as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Greece as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "The GDPR data-protection rules, directly applicable in Greece as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."
+  - id: grk-sunday-trading
+    name: "Greek Sunday-trading law (Law 4177/2013, PD 120/2015, and subsequent amendments)"
+    publisher: "Government of Greece (National Gazette)"
+    url: "https://www.e-nomothesia.gr/katarithmismos/emporiko/emporika-katasdemata.html"
+    year: 2013
+    accessedDate: "2026-09-20"
+    note: "The legal basis for the Sunday-trading regime: Sundays are the default closure day with a rotating set of legislated openings (tourist areas, a set number of Sundays per year by region, small/specialist shops, food stores, kiosks)."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml

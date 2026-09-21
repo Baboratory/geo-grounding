@@ -1,0 +1,130 @@
+code: WHOLE
+name:
+  eng: Slovakia
+  local:
+    - languageCode: slk
+      value: Slovensko
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic — mild summers and cold winters across the lowlands and valleys.
+  - koppenCode: Dfb
+    description: Humid continental in higher elevations (Carpathian uplands), with colder winters.
+  - koppenCode: ET
+    description: Alpine tundra climate at the highest peaks of the Tatra Mountains.
+landmarks:
+  - name: High Tatras (Vysoké Tatry)
+    description: The highest and most iconic mountain range on the Slovakia–Poland border, a hiking and skiing destination.
+  - name: Spiš Castle
+    description: One of the largest castle complexes in Central Europe, perched on a hill above Spišská Nová Ves.
+    unescoWorldHeritage: true
+  - name: Bratislava Castle & Old Town
+    description: The hilltop castle and medieval old town of the capital, overlooking the Danube and the borders with Austria and Hungary.
+  - name: Demänovská Cave of Liberty
+    description: A spectacular limestone cave system in the Low Tatras, among the country's many show caves.
+  - name: Vlkolínec
+    description: A perfectly preserved example of a traditional Carpathian wooden village, UNESCO-listed.
+    unescoWorldHeritage: true
+culturalTraits:
+  - Strong folk heritage — embroidery, folk dance, traditional wooden architecture, and distinct regional costumes
+  - Mountain culture and a love of hiking, skiing and the outdoors
+  - Rich brewing tradition and coffee-house culture
+  - Warm, hospitable, family-orientated character
+  - A proud, distinctive Slavic language and national identity shaped by a long Central European history
+prideOf:
+  - The Tatra Mountains as a national symbol
+  - A long history as a Slavic homeland and medieval Kingdom of Hungary heartland
+  - Its traditional folk arts and crafts
+  - Its successful hockey and winter-sports traditions
+animals:
+  popular:
+    - Brown bear (the Tatras and Carpathians host a significant population)
+    - Tatra chamois (rarapice — the chamois of the High Tatras, now protected)
+    - Lynx
+    - Golden eagle
+  unique:
+    - Tatra chamois (the only chamois subspecies native to the area)
+    - Fire salamander populations in forested uplands
+industries:
+  - Automotive manufacturing (a major pillar — plants in Bratislava, Žilina, Nitra, Trnava)
+  - Electronics and electrical engineering
+  - Machinery and steel production
+  - Agriculture (grains, potatoes, wine)
+  - Tourism (mountains, spa towns, the capital)
+sports:
+  - Ice hockey (the national passion — a world-level team)
+  - Football (soccer)
+  - Alpine skiing and winter sports
+  - Hiking and mountaineering
+  - Tennis
+religions:
+  - name: Roman Catholic
+    percent: 55.8
+    sourceId: slk-census-2021-religion
+  - name: Other Christian (Evangelical, Greek Catholic, Reformed)
+    percent: 10.9
+    sourceId: slk-census-2021-religion
+  - name: No religion
+    percent: 23.8
+    sourceId: slk-census-2021-religion
+  - name: Other / unspecified
+    percent: 9.5
+    sourceId: slk-census-2021-religion
+entertainment:
+  - season: allYear
+    items:
+      - Ice hockey and football matches
+      - Slovak folk festivals (e.g. the Detva folklore festival)
+      - Theatre, classical music and coffee-house culture in Bratislava and regional cities
+  - season: summer
+    items:
+      - Hiking and climbing in the Tatras
+      - Castles, UNESCO sites and spa towns
+      - Wine festivals and open-air concerts
+  - season: winter
+    items:
+      - Skiing and snowboarding in the Tatras
+      - Christmas markets
+      - Traditional Advent and folk Christmas customs
+traditionalDishes:
+  - season: allYear
+    items:
+      - Bryndzové halušky (the national dish — potato dumplings with sheep's-milk cheese and bacon)
+      - Kapustnica (the traditional sauerkraut soup, a Christmas staple)
+      - Pirohy / halušky variants
+      - Lokše (potato flatbreads)
+      - Slovak cheeses (bryndza, oštiepok)
+  - season: summer
+    items:
+      - Fresh grilled meats and fish
+      - Summer soups and vegetable dishes
+      - Seasonal fruit desserts
+  - season: winter
+    items:
+      - Kapustnica and hearty stews
+      - Christmas baking (e.g. pracliky, honey pastries)
+      - Mulled wine at winter markets
+traditionalClothing:
+  - season: allYear
+    items:
+      - Embroidered Slovak folk costume (distinct regional styles — e.g. the hand-embroidered blouses and wool skirts of the 'kroj'), worn at festivals and folk events
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday is the default closure day for retail; most shops are closed on Sundays (some exempt centres and stores may open). Standard business hours roughly 08:00/09:00-17:00/18:00; many shops close earlier on Saturdays. Ski resorts and mountain areas have their own extended seasonal rhythms."
+sources:
+  - id: slk-census-2021-religion
+    name: "2021 Population and Housing Census of Slovakia — religious affiliation"
+    publisher: "Statistical Office of the Slovak Republic (ŠÚ SR)"
+    url: "https://census.sk/"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Religious affiliation: Roman Catholic ~55.8%, Evangelical (Augsburg Confession) ~5.3%, Greek Catholic ~4%, Reformed ~1.6%, no religion ~23.8%, unspecified ~6.5%, other ~3%. Combined below as Roman Catholic, other Christian (10.9%), no religion, and other/unspecified (9.5%)."

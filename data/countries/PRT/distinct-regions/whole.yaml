@@ -1,0 +1,136 @@
+code: WHOLE
+name:
+  eng: Portugal
+  local:
+    - languageCode: por
+      value: Portugal
+climates:
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean — hot, dry summers and mild, wet winters across most of southern, central and coastal mainland Portugal.
+  - koppenCode: Csb
+    description: Warm-summer Mediterranean in northern upland and coastal areas (including the Vinho Verde region), with cooler summers and higher rainfall.
+  - koppenCode: Cfb
+    description: Temperate oceanic in parts of the north and on the Azores and Madeira islands.
+landmarks:
+  - name: Jerónimos Monastery & Belém Tower
+    description: The late-Gothic Manueline monastery and riverside watchtower in Lisbon, symbols of the Age of Discovery.
+    unescoWorldHeritage: true
+  - name: Óbidos Castle
+    description: A beautifully preserved medieval walled town and castle in central Portugal.
+  - name: Pena Palace (Sintra)
+    description: The romantic, colorful 19th-century palace perched above Sintra, a standout of the Sintra cultural landscape.
+    unescoWorldHeritage: true
+  - name: Porto Old Town & Ribeira
+    description: The historic riverside district of Porto and its port-wine cellars overlooking the Douro.
+    unescoWorldHeritage: true
+  - name: Douro Valley
+    description: The terraced wine-growing valley of the Douro river, home to port wine production.
+    unescoWorldHeritage: true
+  - name: Alfama & São Jorge Castle
+    description: Lisbon's oldest quarter and hilltop castle, home to fado houses and narrow medieval streets.
+culturalTraits:
+  - A deep maritime and exploratory heritage (the 'Discoveries' of the Age of Exploration)
+  - Fado — the melancholic traditional music of Lisbon, recognized globally
+  - Azulejos — distinctive blue-and-white glazed tile decoration on buildings
+  - A warm, saudade-inflected cultural character (saudade = a longing/melancholy sense of nostalgia)
+  - Strong regional pride (Alentejo, Algarve, Porto/North, and the island archipelagos)
+prideOf:
+  - Its pioneering role in world exploration and the global 'lusophone' community
+  - Fado, azulejos and the country's unique coastal identity
+  - Port wine and a celebrated culinary tradition (bacalhau, pastéis de nata)
+  - Football success and iconic players
+animals:
+  popular:
+    - Iberian lynx (rare, recovering in protected areas on the Iberian Peninsula)
+    - Monk seal (the Mediterranean monk seal historically present in Portuguese waters)
+    - Portuguese water dog (the breed, famous as the U.S. 'Bo' and 'Sunny')
+    - Black Iberian pig (for the prized presunto/porco preto)
+  unique:
+    - The Portuguese water dog (raça cachorro d'água)
+    - Madeiran wall lizard and endemic laurel-forest species of the islands
+industries:
+  - Tourism (beaches, cities, wine country, islands — a leading sector)
+  - Agriculture and food (olive oil, wine including port, cork — Portugal is the world's leading cork producer)
+  - Fisheries and seafood
+  - Renewable energy (wind and solar)
+  - Services and technology (a growing tech/hub scene, especially Lisbon)
+sports:
+  - Football (soccer — the national obsession)
+  - Futsal and roller hockey
+  - Surfing (coastal waves, e.g. Nazaré's giant waves)
+  - Athletics, cycling and sailing
+religions:
+  - name: Roman Catholic
+    percent: 80.2
+    sourceId: prt-census-2021-religion
+  - name: No religion
+    percent: 14.1
+    sourceId: prt-census-2021-religion
+  - name: Other Christian
+    percent: 4.6
+    sourceId: prt-census-2021-religion
+  - name: Other religion
+    percent: 1.1
+    sourceId: prt-census-2021-religion
+entertainment:
+  - season: allYear
+    items:
+      - Fado performances and traditional music (also fado de Lisboa vs. fado de Coimbra)
+      - Football matches
+      - Azulejo-and-architecture touring in cities and historic towns
+      - Festival of the sardine and local saints
+  - season: summer
+    items:
+      - Beach and coastal season (Algarve, Lisbon coast, islands)
+      - Popular 'Santos Populares' June festivals (Santo António in Lisbon, São João in Porto)
+      - Music and food festivals across the country
+  - season: winter
+    items:
+      - Christmas markets and nativity traditions
+      - Port-wine and regional-food celebrations
+      - New Year and Kings' Day customs ('Janeiras')
+traditionalDishes:
+  - season: allYear
+    items:
+      - Bacalhau (salted cod — famously '365 ways'; the national staple)
+      - Cozido à portuguesa (hearty meat-and-vegetable stew)
+      - Caldo verde (kale-and-potato soup)
+      - Pastéis de nata (custard tarts)
+      - Grilled sardines and seafood
+      - Bifana (pork sandwich)
+  - season: summer
+    items:
+      - Grilled sardines ('sardinha assada') during summer festivals
+      - Fresh seafood and grilled fish
+      - Summer fruit and picnics
+  - season: winter
+    items:
+      - Cozido and heartier stews
+      - Roast chestnuts ('castanhas assadas') in autumn/winter streets
+      - Christmas dishes (bacalhau, rabanadas — the Portuguese French-toast)
+traditionalClothing:
+  - season: allYear
+    items:
+      - Traditional Portuguese regional costume (e.g. the Minho 'traje' of the north, embroidered), worn at folk festivals
+      - Fado singers' traditional black shawl
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday is the default closure day for most retail and offices, though some larger stores in tourist and city-centre areas open on Sundays. The traditional afternoon lunch break is common in shops (often ~13:00-15:00), with stores staying open later into the evening. August is a significant holiday month, when much of the country winds down."
+sources:
+  - id: prt-census-2021-religion
+    name: "Censos 2021 — religious affiliation of the resident population"
+    publisher: "Instituto Nacional de Estatística (INE), Portugal"
+    url: "https://www.ine.pt/"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Religious affiliation: ~80.2% report Roman Catholic, ~14.1% no religion, ~4.6% other Christian, ~1.1% other religion. (A substantial share of those identifying as Catholic describe themselves as 'non-practising'.) Percentages rounded collectively to the categories above."

@@ -1,0 +1,134 @@
+code: WHOLE
+name:
+  eng: Greece
+  local:
+    - languageCode: ell
+      value: Ελλάδα
+climates:
+  - koppenCode: Csa
+    description: Hot-summer Mediterranean climate — hot, dry summers and mild, wet winters across most of mainland Greece and the islands, the dominant climate of the country.
+  - koppenCode: Cfb
+    description: Temperate oceanic influences in western and northern upland areas, with cooler, wetter conditions.
+  - koppenCode: BSk
+    description: Cold semi-arid climate in sheltered lowlands of the south (e.g. parts of the Cyclades and inland Thessaly), with low rainfall.
+landmarks:
+  - name: Acropolis of Athens
+    description: The ancient citadel atop a rocky hill in Athens, crowned by the Parthenon — the symbol of classical Greek civilization.
+    unescoWorldHeritage: true
+  - name: Delphi
+    description: The sanctuary of Apollo and home of the famous oracle, set against the slopes of Mount Parnassus.
+    unescoWorldHeritage: true
+  - name: Meteora
+    description: Dramatic rock pillars topped by centuries-old Eastern Orthodox monasteries near Kalambaka.
+    unescoWorldHeritage: true
+  - name: Santorini (Thira)
+    description: A volcanic island in the Cyclades famed for its whitewashed villages, blue-domed churches and the caldera of its drowned volcano.
+  - name: Mount Athos
+    description: The autonomous monastic peninsula and centre of Eastern Orthodox monasticism, with 20 historic monasteries.
+    unescoWorldHeritage: true
+  - name: Knossos
+    description: The great Bronze Age Minoan palace complex on Crete, centre of the earliest advanced European civilization.
+culturalTraits:
+  - Cradle of Western civilization — birthplace of democracy, philosophy, theatre, the Olympic Games and the scientific method
+  - Strong Eastern Orthodox Christian tradition, closely tied to national identity
+  - Philoxenia — the cultural value of hospitality to strangers and guests
+  - Deep Mediterranean food culture built around olive oil, seafood, herbs and shared meals
+  - Strong sense of family, community and regional identity
+prideOf:
+  - An ancient cultural and intellectual heritage still visible in daily life
+  - Its islands, coastline and Mediterranean way of life
+  - The resilience and warmth of its people through cycles of crisis
+  - "The joy of celebration, music and dance — 'Opa!' — and traditional folk dances (sirtaki, kalamatianos)"
+animals:
+  popular:
+    - Monk seal (the Mediterranean monk seal, Monachus monachus, found in Greek waters)
+    - Loggerhead sea turtle (Caretta caretta, nesting on Zakynthos and other beaches)
+    - Greek land tortoise (Testudo species)
+    - Goats and sheep (widespread in livestock farming)
+  unique:
+    - Kri-kri (the Cretan wild goat, Capra aegagrus cretica, endemic to Crete)
+    - Greek fir (Abies cephalonica, endemic tree of the Greek fir zone)
+industries:
+  - Tourism (a leading sector — beaches, islands, archaeology and Mediterranean climate)
+  - Shipping (Greece has one of the world's largest commercial fleets)
+  - Agriculture (olive oil, wine, citrus, tobacco, cotton)
+  - Food and beverage processing
+  - Services and finance (centred on Athens)
+sports:
+  - Football (soccer — the most popular spectator sport)
+  - Basketball (highly popular, with strong league and international success)
+  - Water polo and swimming
+  - Athletics, echoing the founding of the Olympic Games
+  - Sailing and rowing
+religions:
+  - name: Greek Orthodox
+    percent: 90.0
+    sourceId: gr-elstat-religion
+  - name: Muslim (mainly in Thrace)
+    percent: 2.5
+    sourceId: gr-elstat-religion
+  - name: Other / non-religious / undeclared
+    percent: 7.5
+    sourceId: gr-elstat-religion
+entertainment:
+  - season: allYear
+    items:
+      - Traditional music, bouzouki tavernas and folk dancing
+      - Football and basketball matches
+      - Cinema and theatre, especially in Athens and Thessaloniki
+      - Cafés ('kafeneio' culture) and seaside promenades
+  - season: summer
+    items:
+      - Island beach season and coastal tourism
+      - Outdoor film festivals and summer cultural events (e.g. Athens & Epidaurus Festival)
+      - Religious panigyria (village saint's-day festivals) across the islands and mainland
+  - season: winter
+    items:
+      - Christmas and Epiphany ('Ta Fota') celebrations and traditions
+      - Skiing in the mountain resorts (e.g. Parnassos)
+      - Carnival ('Apokries') season ahead of Lent, with traditional customs (e.g. the Patras Carnival)
+traditionalDishes:
+  - season: allYear
+    items:
+      - Moussaka (layered eggplant-and-mince bake with béchamel)
+      - Souvlaki and gyros
+      - Greek salad (horiatiki — tomato, cucumber, olives, feta)
+      - Dolmades (stuffed vine leaves)
+      - Tzatziki (yogurt, cucumber, garlic dip)
+      - Spanakopita (spinach-and-feta pie)
+  - season: summer
+    items:
+      - Fresh grilled seafood and octopus at seaside tavernas
+      - Fava and chickpea dishes
+      - Watermelon and summer fruit
+  - season: winter
+    items:
+      - Hearty stews and oven roasts (e.g. kleftiko, stifado)
+      - Baked chickpea stew (revithada) and winter bean soups
+      - Grilling cheeses and chestnut dishes
+traditionalClothing:
+  - season: allYear
+    items:
+      - The fustanella (the pleated white kilt worn by the Evzones ceremonial guards)
+      - Traditional island and mainland folk costume (embroidered vests, headscarves), worn at festivals and dances
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday is the default closure day for retail under national law (see country.yaml's Sunday-trading legalConstraints), with legislated exceptions. A traditional afternoon/evening lunch break (roughly 14:00-17:00) is common, especially for small shops in towns, which often stay open later in the evening."
+sources:
+  - id: gr-elstat-religion
+    name: "2023 Report on International Religious Freedom: Greece (citing census and Church data)"
+    publisher: "U.S. Department of State — citing Greek census and Church statistics"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/greece/"
+    year: 2023
+    accessedDate: "2026-09-20"
+    note: "The Greek Orthodox percentage (~90%, consistent with the 2011 census and Church estimates), the Muslim minority (~2-3%, concentrated in Thrace), and the remainder (other Christian denominations, other religions, non-religious, undeclared). Greece does not collect religion in its modern census, so figures are a composite reflecting the major census/Church figures rounded."

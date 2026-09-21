@@ -1,0 +1,135 @@
+alpha3: SVK
+alpha2: SK
+name:
+  eng: Slovakia
+  local:
+    - languageCode: slk
+      value: Slovensko
+flagEmoji: "🇸🇰"
+capital: Bratislava
+isSovereign: true
+# Classified unitary-small: Slovakia is a small state (~5.4M, 2024 census)
+# with a majority-Slovak population. Although there is a significant Hungarian
+# minority (~8%) mainly in the south and a recognized Romani minority, there is
+# no genuine, widely recognized cultural-historical regional division across
+# the whole state that meets the bar for curated subdivision content — the
+# historic lands (Slovakia has no current federal or culturally-autonomous
+# provinces; the 'self-governing regions' are administrative, not culturally
+# distinct regions). One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: slk
+    domain: official
+    speakersShare: 1.0
+    sourceId: slk-constitution-art6
+  - languageCode: slk
+    domain: locallySpoken
+    speakersShare: 0.818
+    sourceId: slk-languages-2021
+  - languageCode: hun
+    domain: locallySpoken
+    speakersShare: 0.085
+    sourceId: slk-languages-2021
+# Official row is 1.0 for Slovak (de jure sole official language per Art. 6 of
+# the Constitution). Real usage: Slovak ~81.8% mother tongue, Hungarian ~8.5%
+# (concentrated in the southern border region), Romani ~1.8%. Hun and slk are
+# the only reliably-modeled locallySpoken shares; the small Romani and other
+# minority shares are covered by the unspecified/other remainder.
+timezones:
+  - name: Europe/Bratislava
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (EU-wide schedule)."
+currency:
+  code: EUR
+  symbol: "€"
+  name: Euro
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure — the EU-wide GDPR, directly applicable in Slovakia."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge."
+    sourceId: eu-directive-2019-771
+paymentCulture:
+  popularMethods:
+    - Debit cards and contactless payments (very widely used)
+    - Mobile wallets and banking app payments
+    - Instant SEPA transfers
+    - Cash (still common at small vendors)
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    typicalAmount: "Leaving ~10% for good restaurant service is customary (often in cash); rounding up at cafés and taxis is common. Service is generally not automatically added."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Direct and warm. The formal 'Vy' (you) with the surname is standard in initial business dealings and with strangers; move to first names as a relationship develops. Polite but straightforward."
+  greetingNorms: "A handshake with eye contact is standard in business. 'Dobrý deň' (good day) formally, 'Ahoj'/'Čau' among friends. Cheek kisses are for close friends/family."
+  meetingEtiquette: "Punctuality is expected. Meetings tend to be reasonably structured and relationship-orientated; hospitality and personal rapport are valued. Decisions often involve discussion rather than rigid agendas."
+  topicsToAvoid:
+    - "Slovak-Hungarian relations and the Hungarian minority question (sensitive)"
+    - "Recent populist-party politics and corruption scandals can be divisive"
+    - "Personal income and finances early on"
+  giftGivingNotes: "A small gift (wine, chocolates, pastries, flowers) is welcome when invited to someone's home. Avoid an even number of flowers; give an odd number. Gifts are usually opened immediately."
+sources:
+  - id: slk-constitution-art6
+    name: "Constitution of the Slovak Republic (1992), Article 6"
+    publisher: "National Council of the Slovak Republic"
+    url: "https://www.nrsr.sk/web/Static/en-US/NRSR/Constitution%20of%20the%20Slovak%20Republic%202023.pdf"
+    year: 1992
+    accessedDate: "2026-09-20"
+    note: "Article 6 declares Slovak the official language of the Slovak Republic — the legal basis for the official row."
+  - id: slk-languages-2021
+    name: "2021 Population and Housing Census of Slovakia — mother tongue / nationality data"
+    publisher: "Statistical Office of the Slovak Republic (ŠÚ SR)"
+    url: "https://census.sk/"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Slovak (official) ~81.8% as mother tongue, Hungarian ~8.5%, Romani ~1.8%, with the remainder unspecified/other. Figures align with the 2021 census reporting."
+  - id: slk-census-2021-religion
+    name: "2021 Population and Housing Census of Slovakia — religious affiliation"
+    publisher: "Statistical Office of the Slovak Republic (ŠÚ SR)"
+    url: "https://census.sk/"
+    year: 2021
+    accessedDate: "2026-09-20"
+    note: "Religious affiliation used in distinct-regions/whole.yaml: Roman Catholic ~55.8%, Evangelical (Augsburg Confession) ~5.3%, Greek Catholic ~4%, Reformed ~1.6%, no religion ~23.8%, unspecified ~6.5%, other ~3%."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-20"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Slovakia as an EU member state."
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Slovakia as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "The GDPR data-protection rules, directly applicable in Slovakia as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml

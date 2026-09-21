@@ -1,0 +1,127 @@
+code: WHOLE
+name:
+  eng: Hungary
+  local:
+    - languageCode: hun
+      value: Magyarország
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic — mild, humid continental-influenced climate with warm summers and cold winters across most of the country.
+  - koppenCode: Cfa
+    description: Humid subtropical influence in the southern lowlands (e.g. the Southern Great Plain), with hotter summers.
+landmarks:
+  - name: Hungarian Parliament Building
+    description: The grand neo-Gothic parliament on the Danube in Budapest, one of the largest parliament buildings in the world.
+  - name: Buda Castle & Castle Hill
+    description: Historic royal palace and castle district overlooking the Danube, a UNESCO-listed ensemble.
+    unescoWorldHeritage: true
+  - name: Lake Balaton
+    description: Central Europe's largest lake, a popular summer holiday destination in western Hungary.
+  - name: Széchenyi Thermal Bath
+    description: One of Europe's largest spa complexes in Budapest's City Park, reflecting Hungary's famous thermal-bath culture.
+  - name: Esztergom Basilica
+    description: The largest church in Hungary and seat of the Hungarian Catholic primacy.
+culturalTraits:
+  - Proud of a distinctive non-Indo-European language and a rich literary/musical heritage (Liszt, Bartók, Kodály)
+  - Celebrated culinary traditions (paprika, goulash) and 'Hungarian coffee-house' culture
+  - Famous thermal-bath and spa tradition
+  - Strong folk heritage — embroidery, folk dance, and the distinct Transdanubian/Székely traditions
+  - Hospitality and hospitality's role in social life
+prideOf:
+  - Budapest — 'the Paris of the East' — and its architecture and river
+  - A long and distinctive national history and language
+  - The butcher's-craft cuisine (goulash, pörkölt) recognized well beyond its borders
+  - World-class sporting achievements (water polo, fencing, swimming)
+animals:
+  popular:
+    - Hungarian Grey cattle (recumbent breed of the Great Plain)
+    - Puli and Komondor (the corded-coat herding dog breeds)
+    - Mangalica pig (the woolly, lard-rich heritage breed)
+    - White stork (common in village landscapes)
+  unique:
+    - Hungarian Vizsla (pointing/retrieving dog of Hungarian origin)
+    - Puszta cultures around rare wildfowl of the Great Plain (e.g. great bustard populations)
+industries:
+  - Automotive manufacturing (a major sector, with large plants in Győr and Kecskemét)
+  - Electronics and electrical equipment
+  - Pharmaceuticals and chemicals
+  - Food processing and agriculture
+  - Tourism (Budapest and the thermal-bath/wellness sector)
+sports:
+  - Football (soccer)
+  - Water polo (historically a world power, multiple Olympic titles)
+  - Swimming
+  - Fencing
+  - Handball
+  - Formula One (Hungaroring near Budapest hosts an annual Grand Prix)
+religions:
+  - name: Roman Catholic
+    percent: 27.5
+    sourceId: hun-census-2022-ethnicity
+  - name: Other Christian (Calvinist, Lutheran, Greek Catholic, etc.)
+    percent: 15.0
+    sourceId: hun-census-2022-ethnicity
+  - name: No religion / no answer / other
+    percent: 57.5
+    sourceId: hun-census-2022-ethnicity
+entertainment:
+  - season: allYear
+    items:
+      - Thermal baths and spa culture
+      - Budapest's ruin bars, café culture and nightlife
+      - Classical music, opera and folk-dance performances
+      - Football and handball matches
+  - season: summer
+    items:
+      - Lake Balaton holiday season
+      - Sziget Festival (Budapest's large island music festival)
+      - Open-air concerts and festivals across the country
+  - season: winter
+    items:
+      - Christmas markets (e.g. Budapest's Vörösmarty Square market)
+      - Thermal-bath 'winter swimming' and spa wellness
+      - Carnival and folk traditions ahead of Lent
+traditionalDishes:
+  - season: allYear
+    items:
+      - Gulyás (goulash soup) and pörkölt (stew)
+      - Paprikás csirke (chicken paprikash) with nokedli
+      - Lángos (fried flatbread) — ubiquitous across fairs and markets
+      - Kürtőskalács (chimney cake) and dobos torte (layered sponge cake)
+      - Töltött káposzta (stuffed cabbage)
+  - season: summer
+    items:
+      - Fresh paprika and summer vegetable dishes
+      - Fruit soups and summer desserts
+      - Grilled meats and fish at lakeside and roadside spots (halászlé — fisherman's soup, along the Danube/Tisza)
+  - season: winter
+    items:
+      - Hearty stews and goulash as warming winter food
+      - Christmas baked goods (bejgli — poppy-seed and walnut rolls)
+      - Forralt bor (mulled wine) at winter markets
+traditionalClothing:
+  - season: allYear
+    items:
+      - Embroidered Hungarian folk costume (embroidered blouses, vests, aprons — distinct regions like Kalocsa, Matyó, and the Palóc styles), worn at festivals
+      - Modern dress for everyday; folk dress largely ceremonial today
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Sunday is the default closure day for most retail (a recent law restricts large-store Sunday opening), though convenience stores, petrol stations and pharmacies often remain open. Standard business hours roughly 08:00/09:00-16:00/17:00; shops commonly close earlier on Saturdays."
+sources:
+  - id: hun-census-2022-ethnicity
+    name: "2022 Hungarian Census — ethnicity and religion data"
+    publisher: "Hungarian Central Statistical Office (KSH)"
+    url: "https://www.ksh.hu/szoftverek-eng"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "Religion figures: Roman Catholic ~27.5%, other Christian ~15%, and the remainder a large 'no answer' (~40%) plus no religion (~16%). Percentages rounded/combined; the high 'no answer' share reflects that ~40% of respondents did not declare a religion."

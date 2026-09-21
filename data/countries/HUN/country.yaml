@@ -1,0 +1,139 @@
+alpha3: HUN
+alpha2: HU
+name:
+  eng: Hungary
+  local:
+    - languageCode: hun
+      value: Magyarország
+flagEmoji: "🇭🇺"
+capital: Budapest
+isSovereign: true
+# Classified unitary-small: Hungary is a small state (~9.6M, 2024 KSH estimate)
+# with a majority-homogeneous Hungarian-speaking population. Although Hungary
+# constitutionally recognizes 13 national minorities and their languages, these
+# are small (largest, Romani, ~2%) and there is no genuine, widely recognized
+# cultural-historical regional division across the whole state that merits
+# curated subdivision content — the historical regions loosely correspond to
+# geographic plains, not to current administrative/cultural divisions that meet
+# the bar. One synthetic WHOLE region.
+governanceType: unitary-small
+iso3166_2_prefix: null
+hasSubdivisions: false
+languageUsage:
+  - languageCode: hun
+    domain: official
+    speakersShare: 1.0
+    sourceId: hun-fundamental-law-h
+  - languageCode: hun
+    domain: locallySpoken
+    speakersShare: 0.988
+    sourceId: hun-census-2022-lang
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.253
+    sourceId: hun-census-2022-lang
+  - languageCode: deu
+    domain: foreign
+    speakersShare: 0.126
+    sourceId: hun-census-2022-lang
+# Official row is 1.0 for the de jure sole official language (legal status).
+# Real usage: Hungarian is the mother tongue of ~98.8% of the population. The
+# 13 recognized minority languages (Romani, German, and others) are recognized
+# under the Fundamental Law/Act CLXXIX but spoken by small shares; foreign
+# English (~25%) and German (~13%) are the most-learned second languages.
+timezones:
+  - name: Europe/Budapest
+    standardUtcOffset: "UTC+1"
+    observesDst: true
+    dstUtcOffset: "UTC+2"
+    dstPeriod: "Last Sunday in March to last Sunday in October (EU-wide schedule)."
+currency:
+  code: HUF
+  symbol: "Ft"
+  name: Hungarian forint
+legalConstraints:
+  - topic: "VAT price display"
+    description: "Consumer-facing prices must be shown VAT-inclusive (the final price to the consumer)."
+    sourceId: eu-directive-98-6-ec
+  - topic: "consumer withdrawal right"
+    description: "Consumers buying at a distance (online, etc.) have a 14-day no-reason withdrawal/return right, EU-wide."
+    sourceId: eu-directive-2011-83-eu
+  - topic: "data protection (GDPR)"
+    description: "Collecting or processing personal data requires a lawful basis such as consent, must be limited to a stated purpose, and grants individuals rights including access, correction, and erasure — the EU-wide GDPR, directly applicable in Hungary."
+    sourceId: eu-regulation-2016-679-gdpr
+  - topic: "consumer guarantee"
+    description: "Goods sold to consumers carry a minimum 2-year legal guarantee of conformity from delivery, during which a faulty item must be repaired, replaced, discounted, or refunded free of charge."
+    sourceId: eu-directive-2019-771
+paymentCulture:
+  popularMethods:
+    - Card payments (debit and credit, widely accepted including at small vendors)
+    - Contactless cards and mobile wallets (Apple Pay, Google Pay)
+    - Instant bank transfers (the domestic 'Azonnali Fizetés' real-time rail, built on the GIRO system)
+    - Mobile QR-based payment apps and bank apps
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    typicalAmount: "In restaurants ~10% is the customary tip for good service (often left in cash even when paying by card); rounding up for taxis and cafés is common. Service is not automatically added in most places."
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Fairly direct and structured. The formal 'ön' address with surname is used with strangers and in business; 'te' (familiar) comes with time and is normal among colleagues and friends. Titles like 'Úr' (Mr) and 'Asszony' (Ms) follow surnames."
+  greetingNorms: "A firm handshake with eye contact is standard in business. 'Szia' among friends, 'Jó napot kívánok' (good day) formally. Cheek-kissing is reserved for close friends/family."
+  meetingEtiquette: "Punctuality is expected for business meetings. Meetings are reasonably structured; Hungarians tend to be direct and can debate firmly but politely. Personal rapport and trust building matter."
+  topicsToAvoid:
+    - "The 1920 Treaty of Trianon and the fate of Hungarian minorities abroad — a sensitive, emotional historical subject"
+    - "Communist-era politics and divisive current party politics (early on)"
+    - "Personal income and finances"
+  giftGivingNotes: "A small gift (wine, chocolates, flowers, pastries) is welcome when invited to someone's home. Avoid an even number of flowers and red roses (romantic); give flowers in odd numbers. Gifts are usually opened on receipt."
+sources:
+  - id: hun-fundamental-law-h
+    name: "The Fundamental Law of Hungary (2011), Article H"
+    publisher: "National Assembly of Hungary, via njt.jog.gov.hu (National Legislation Database)"
+    url: "https://njt.jog.gov.hu/jogszabaly/en/2011-4301-02-00"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "Article H declares Hungarian the official language of the state — the legal basis for the official row."
+  - id: hun-census-2022-lang
+    name: "2022 Hungarian Census — mother tongue and language data, as reported in the CIA World Factbook"
+    publisher: "Hungarian Central Statistical Office (KSH) / CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/hungary/"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "Hungarian (official) 98.8% as mother tongue; foreign-language shares (English ~25.3%, German ~12.6%). Figures match the 2022 census reporting used in the Factbook."
+  - id: hun-census-2022-ethnicity
+    name: "2022 Hungarian Census — ethnicity and religion data"
+    publisher: "Hungarian Central Statistical Office (KSH)"
+    url: "https://www.ksh.hu/szoftverek-eng"
+    year: 2022
+    accessedDate: "2026-09-20"
+    note: "Ethnicity and religion figures used in distinct-regions/whole.yaml: Christianity ~42.5% (Catholic ~30%, other Christian ~12.5%), no religion/irreligion ~16%, large 'no answer' share (~40%)."
+  - id: eu-directive-98-6-ec
+    name: "Directive 98/6/EC on consumer protection in the indication of the prices of products offered to consumers"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31998L0006"
+    year: 1998
+    accessedDate: "2026-09-20"
+    note: "The EU-wide requirement that consumer prices be shown VAT-inclusive; applies in Hungary as an EU member state. (Hungary uses the forint, not the euro.)"
+  - id: eu-directive-2011-83-eu
+    name: "Directive 2011/83/EU on consumer rights"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32011L0083"
+    year: 2011
+    accessedDate: "2026-09-20"
+    note: "The EU-wide 14-day distance-sale withdrawal right, applicable in Hungary as an EU member state."
+  - id: eu-regulation-2016-679-gdpr
+    name: "Regulation (EU) 2016/679 (General Data Protection Regulation)"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+    year: 2016
+    accessedDate: "2026-09-20"
+    note: "The GDPR data-protection rules, directly applicable in Hungary as an EU member state."
+  - id: eu-directive-2019-771
+    name: "Directive (EU) 2019/771 on certain aspects concerning contracts for the sale of goods"
+    publisher: "European Parliament and Council (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/dir/2019/771/oj/eng"
+    year: 2019
+    accessedDate: "2026-09-20"
+    note: "The EU-wide minimum 2-year consumer guarantee on goods, in force since 1 January 2022."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
