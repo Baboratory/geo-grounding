@@ -1,0 +1,98 @@
+code: MX-YUC
+name:
+  eng: Yucatán
+  local:
+    - languageCode: spa
+      value: Yucatán
+    - languageCode: yua
+      value: Yuuk ak
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate with warm temperatures year-round, a distinct dry season and a wetter summer-autumn."
+landmarks:
+  - name: Chichén Itzá
+    description: "The great Maya city and El Castillo pyramid, a UNESCO World Heritage Site and New Seven Wonder."
+    unescoWorldHeritage: true
+  - name: Mérida's colonial centre
+    description: "The white-city capital of Yucatán, with a beautifully preserved historic district."
+  - name: Cenotes
+    description: "The natural limestone sinkholes and underground rivers peculiar to the Yucatán peninsula, ideal for swimming."
+  - name: Uxmal
+    description: "The classic Puuc-style Maya ruins, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "The heartland of Maya culture and language, with a proud Yucatec identity"
+  - "A colonial 'white city' (Mérida) of elegance and tradition"
+  - "Famous for its cenotes, Maya cuisine and festivals"
+prideOf:
+  - "The rich Maya heritage and living Maya language"
+  - "The beauty of Chichén Itzá and the peninsula's natural wonders"
+  - "A strong, distinct regional identity within Mexico"
+animals:
+  popular:
+    - "Flamingo (in the coastal lagoons)"
+    - "Coatimundi"
+  unique:
+    - "Yucatán black-throated bobwhite (endemic game bird)"
+industries:
+  - "Tourism (Chichén Itzá, Mérida and the coastal resorts)"
+  - "Agriculture (henequen/agave, citrus, cattle)"
+  - "Light manufacturing"
+sports:
+  - "Baseball"
+  - "Football"
+  - "Maya ball-and-trap games (traditional pelota)"
+entertainment:
+  - season: allYear
+    items:
+      - "Hacienda tours, cenote swimming and Maya-village visits"
+      - "Mérida's cultural calendar and Yucatec folk music"
+  - season: dry
+    items:
+      - "The best season for coastal birdwatching and exploring ruins"
+  - season: wet
+    items:
+      - "Summer rains refresh the lush southern landscape"
+  - season: dry
+    items:
+      - "Hanal Pixán (Day of the Dead) and the mild winter travel season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Cochinita pibil, papadzules and salbutes — Yucatec cuisine"
+      - "Fresh seafood and lime-infused dishes"
+  - season: dry
+    items:
+      - "Light refreshing fruit drinks (aguas frescas)"
+  - season: wet
+    items:
+      - "Comforting Yucatec stews in the rainy season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The white huipil (Maya embroidered dress) for celebrations; light casual wear daily"
+  - season: dry
+    items:
+      - "Very light breathable cotton and linen"
+  - season: wet
+    items:
+      - "Light rainwear for the tropical wet season"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday; tourism and service hours often extend through Saturday."
+  lunchBreakTiming: "A lunch break around 14:00-15:00 is customary."
+sources:
+  - id: yucatan-turismo
+    name: "Yucatán — tourism"
+    publisher: "Secretaría de Fomento Turístico de Yucatán"
+    url: "https://www.yucatan.travel/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, culture and seasonal highlights for Yucatán."

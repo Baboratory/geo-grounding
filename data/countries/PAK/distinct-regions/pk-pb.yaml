@@ -1,0 +1,116 @@
+code: PK-PB
+name:
+  eng: Punjab
+  local:
+    - languageCode: urd
+      value: پنجاب
+    - languageCode: pnb
+      value: پنجاب
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid steppe climate across the Punjab plains, with very hot summers, mild winters and a seasonal monsoon."
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate in the northern foothills and around the salt range, cooler with wetter years."
+landmarks:
+  - name: Badshahi Mosque (Lahore)
+    description: "The majestic 17th-century Mughal mosque in Lahore, among the largest and most ornate in the world."
+  - name: Lahore Fort and Shalimar Gardens
+    description: "The Mughal citadel and gardens of Lahore, both UNESCO World Heritage Sites."
+    unescoWorldHeritage: true
+  - name: Minar-e-Pakistan
+    description: "The tower in Lahore's Iqbal Park marking the 1940 Pakistan Resolution."
+  - name: Katas Raj temples
+    description: "An ancient complex of Hindu temples at a sacred pool in the Salt Range."
+culturalTraits:
+  - "Pakistan's most populous province and its cultural heartland ('the Land of Five Rivers')"
+  - "Lahore, the historic Mughal capital, famed for food, poetry and hospitality"
+  - "A proud Punjabi identity with a strong rural heritage"
+prideOf:
+  - "Lahore's food, arts and Mughal heritage"
+  - "Being the economic and cultural engine of Pakistan"
+  - "The warmth and hospitality of its people"
+animals:
+  popular:
+    - "Indus river dolphin (in Punjab's rivers)"
+  unique:
+    - "Markhor (in the Salt Range and northern hills)"
+industries:
+  - "Agriculture (wheat, rice, cotton — the breadbasket of Pakistan)"
+  - "Textiles and manufacturing"
+  - "Small industry and services (Faisalabad, Gujranwala)"
+  - "Higher education and administration (Lahore)"
+sports:
+  - "Cricket (Gaddafi Stadium, Lahore)"
+  - "Kabaddi"
+  - "Field hockey"
+  - "Football (growing)"
+entertainment:
+  - season: allYear
+    items:
+      - "Lahore's food streets (Gawalmandi, Anarkali) and Mughal monuments"
+      - "Punjabi music, bhangra, and the Sufi shrines"
+  - season: winter
+    items:
+      - "The pleasant winter is the best season for the plains and festival season"
+  - season: summer
+    items:
+      - "Mango season (a Punjabi treasure) in the heat"
+  - season: spring
+    items:
+      - "The basant spring kite-flying season (traditionally in Lahore)"
+  - season: autumn
+    items:
+      - "Cool harvest-season travel"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Butter chicken, nihari, haleem and the Lahore 'anda burger' street food"
+      - "Sarson ka saag, makki ki roti, and dal makhani"
+      - "Lassi and the famous Phajja/Lassi of Punjab"
+  - season: summer
+    items:
+      - "Mangoes and cooling lassi"
+  - season: winter
+    items:
+      - "Hearty nihari, haleem and warm-spiced food"
+  - season: spring
+    items:
+      - "Spring greens and festival dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The shalwar kameez in vibrant Punjabi colours; embroidered angrakha wear on festive occasions"
+  - season: summer
+    items:
+      - "Light breathable cotton"
+  - season: winter
+    items:
+      - "Warm shawls and layers for the cooler months"
+  - season: spring
+    items:
+      - "Bright festive dress for basant and Eid"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4]
+  - season: summer
+    months: [5, 6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:30 Monday-Friday with a shorter Friday for prayers; markets often stay open into the evening."
+  lunchBreakTiming: "A lunch break around 13:00-14:00 is common, often a hearty Punjabi meal."
+  notableShutdownPeriods:
+    - period: "Eid holidays"
+      description: "Both Eids bring multi-day closures across the province."
+sources:
+  - id: punjab-tourism
+    name: "Punjab — tourism"
+    publisher: "Tourism Development Corporation of Punjab"
+    url: "https://www.tdcp.gop.pk/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Punjab."

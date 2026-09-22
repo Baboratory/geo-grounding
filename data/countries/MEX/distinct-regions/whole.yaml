@@ -1,0 +1,134 @@
+code: WHOLE
+name:
+  eng: Mexico
+  local:
+    - languageCode: spa
+      value: México
+# Generic country-wide fallback content for Mexico (federal with a curated
+# subset of states). National-level coverage not specific to any one state or
+# the user's detected subdivision.
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid/steppe climate across the northern highlands (Chihuahuan desert country), hot and dry with cool winters."
+  - koppenCode: Cwa
+    description: "Subtropical highland climate on the central plateau (Mexico City area), with mild year-round temperatures and a distinct wet/dry season."
+  - koppenCode: Aw
+    description: "Tropical savanna climate along the coasts and Yucatán peninsula, warm year-round with a seasonal wet season."
+  - koppenCode: ET/BWh
+    description: "High-altitude cold and desert climates in the mountains and far northwest, from alpine cool to arid desert."
+landmarks:
+  - name: Chichén Itzá
+    description: "The great Maya city and the El Castillo pyramid in Yucatán, a UNESCO World Heritage Site and one of the New Seven Wonders of the World."
+    unescoWorldHeritage: true
+  - name: Teotihuacan
+    description: "The ancient 'City of the Gods' near Mexico City, with the Pyramid of the Sun and the Pyramid of the Moon, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Palenque
+    description: "The Maya ruins set in the Chiapas jungle, famed for the Temple of the Inscriptions, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Historic centre of Mexico City
+    description: "The Zócalo, the Metropolitan Cathedral and the Templo Mayor, a UNESCO World Heritage Site."
+  - name: Copper Canyon (Barrancas del Cobre)
+    description: "A spectacular system of canyons in Chihuahua, larger and deeper in places than the Grand Canyon, traversed by the El Chepe railway."
+culturalTraits:
+  - "A profound Indigenous heritage (Maya, Aztec/Nahuatl, Zapotec, Mixtec) fused with Spanish colonial and modern mestizo identity"
+  - "World-famous cuisine, music (mariachi), cinema (the Golden Age and modern auteurs) and art (the muralists, Frida Kahlo, Diego Rivera)"
+  - "Festive, family-centred and warm, with deep regional diversity (the Day of the Dead is the most iconic celebration)"
+  - "A warm, expressive communication style with strong respect for family, tradition and community"
+prideOf:
+  - "An ancient civilisation and a vibrant contemporary culture"
+  - "Cuisine (UNESCO Intangible Cultural Heritage) and biodiversity"
+  - "Independence and resilience, expressed in festivals and the arts"
+animals:
+  popular:
+    - "Mexican axolotl"
+    - "Jaguar (in the southern jungles)"
+    - "Golden eagle (the national bird, emblematic of Mexico's coat of arms)"
+  unique:
+    - "Axolotl (a Mexican salamander, native to Lake Xochimilco)"
+    - "Vaquita (the world's rarest marine mammal, endemic to the Gulf of California)"
+    - "Mexican free-tailed bat"
+industries:
+  - "Manufacturing and export assembly (maquiladora)"
+  - "Automotive and aerospace manufacturing"
+  - "Oil, gas and energy (Pemex)"
+  - "Agriculture (the source of maize, avocado, chilli, tequila/agave)"
+  - "Tourism (a leading world destination)"
+sports:
+  - "Football (soccer), the national passion"
+  - "Boxing"
+  - "Baseball (popular, especially in the north)"
+  - "Lucha libre (Mexican professional wrestling)"
+  - "Charrería (traditional rodeo)"
+entertainment:
+  - season: allYear
+    items:
+      - "Mariachi music, folk dance (ballet folklórico) and the vibrant arts scene"
+      - "Football matches and the social tradition of family gatherings"
+  - season: dry
+    items:
+      - "The best travel season across the highlands and arid north (cooler and drier)"
+  - season: wet
+    items:
+      - "The green rainy season in the south — jungle landscapes and festivals"
+  - season: dry
+    items:
+      - "Day of the Dead (November) celebrations and the Christmas season (Las Posadas)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tacos, enchiladas, tamales and tortillas"
+      - "Mole, chiles en nogada, and guacamole"
+      - "Tequila and mezcal, and aguas frescas"
+  - season: wet
+    items:
+      - "Ceviche and fresh coastal seafood (best in the wet-season warmth)"
+  - season: dry
+    items:
+      - "Posada warm drinks (ponche, champurrado) and seasonal sweets"
+  - season: dry
+    items:
+      - "Cuaresma (Lent) dishes such as capirotada"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The charro suit and china poblana dress for festival and formal occasions; modern dress daily"
+      - "Regional indigenous dress (huipil) in the south"
+  - season: dry
+    items:
+      - "Light breathable cotton for the highland and inland warmth"
+  - season: wet
+    items:
+      - "Light clothing and rainwear in the tropical wet season"
+  - season: dry
+    items:
+      - "Layers and a light jacket in the highlands (Mexico City nights are cool)"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday, with the traditional long lunch; the workday often runs later into the evening in Mexico City."
+  lunchBreakTiming: "A substantial lunch around 14:00-15:00 is traditional, followed by a return to work in the late afternoon."
+  notableShutdownPeriods:
+    - period: "December holidays (12 December-6 January)"
+      description: "The extended holiday season around Guadalupe Day, Christmas and Three Kings Day; many businesses reduce hours."
+sources:
+  - id: visit-mexico
+    name: "Visit Mexico — official tourism"
+    publisher: "Secretaría de Turismo (SECTUR), Government of Mexico"
+    url: "https://www.visitmexico.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, culture and seasonal highlights for the WHOLE region."
+  - id: unesco-whc-mx
+    name: "Mexico — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/mx"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Mexico's UNESCO World Heritage properties, including Chichén Itzá, Teotihuacan and Palenque."

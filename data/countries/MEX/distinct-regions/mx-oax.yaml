@@ -1,0 +1,101 @@
+code: MX-OAX
+name:
+  eng: Oaxaca
+  local:
+    - languageCode: spa
+      value: Oaxaca
+climates:
+  - koppenCode: Cwb
+    description: "Mild highland climate in the Oaxaca Valley and city, warm days and cool nights with a distinct dry and wet season."
+  - koppenCode: Aw
+    description: "Tropical savanna climate on the Pacific coast (Puerto Escondido, Huatulco), warm year-round with a strong wet season."
+landmarks:
+  - name: Monte Albán
+    description: "The ancient Zapotec hilltop city above the Oaxaca Valley, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Santo Domingo church and botanical garden
+    description: "The baroque 16th-century church and its adjoining gardens in the heart of Oaxaca city."
+  - name: Hierve el Agua
+    description: "The cliff-side petrified 'scalding water' waterfalls and natural pools in the Mixes highlands."
+  - name: Puerto Escondido
+    description: "The surf and beach town on the Pacific coast, famed for its waves and relaxed vibe."
+culturalTraits:
+  - "The most culturally and linguistically diverse state in Mexico, with 16 recognized indigenous peoples (Zapotec, Mixtec, etc.)"
+  - "A world-famous culinary capital of Mexico (the 'seven moles', mezcal, tlayudas)"
+  - "A living tradition of Indigenous arts, crafts and community life (Guelaguetza festival)"
+prideOf:
+  - "Extraordinary indigenous diversity and heritage"
+  - "Being Mexico's culinary capital"
+  - "The warmth of community festivals (Guelaguetza, Day of the Dead)"
+animals:
+  popular:
+    - "Ocellated turkey"
+    - "Spider monkey"
+  unique:
+    - "Oaxaca's endemic Cloud-forest fauna and the anole lizards"
+industries:
+  - "Mezcal and agave production"
+  - "Handicrafts (pottery, textiles, alebrijes)"
+  - "Agriculture (coffee, corn, tropical fruit)"
+  - "Tourism (Oaxaca city and the coast)"
+sports:
+  - "Football"
+  - "Basketball"
+  - "Traditional Indigenous ball and challenge games"
+entertainment:
+  - season: allYear
+    items:
+      - "The Guelaguetza (July) Indigenous dance festival"
+      - "Mezcal tastings, markets and colonial-center strolls in Oaxaca city"
+  - season: dry
+    items:
+      - "The dry cool season is ideal for archaeology and highland travel"
+  - season: wet
+    items:
+      - "The green coastal wet season and villages' harvest festivals"
+  - season: dry
+    items:
+      - "Day of the Dead (celebrated with particular fervour in Oaxaca) and Christmas"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "The 'seven moles', tlayudas, tasajo and Oaxacan cheese (quesillo)"
+      - "Mezcal and chocolate atole"
+  - season: dry
+    items:
+      - "Fresh coastal seafood and fruit in the sunny season"
+  - season: wet
+    items:
+      - "Warm mole dishes and spiced hot chocolate in the rains"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The brilliantly embroidered huipiles and trajes of the Zapotec and Mixtec peoples"
+  - season: dry
+    items:
+      - "Light cotton clothing"
+  - season: wet
+    items:
+      - "Light rainwear for the wet season"
+  - season: dry
+    items:
+      - "Layers and a light jacket for cool highland nights"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday, with the traditional long lunch and market-day rhythms."
+  lunchBreakTiming: "A substantial lunch around 14:00-15:00 is customary, especially food-focused Oaxaca."
+sources:
+  - id: oaxaca-turismo
+    name: "Oaxaca — tourism"
+    publisher: "Secretaría de Turismo de Oaxaca"
+    url: "https://www.oaxaca.travel/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine, culture and seasonal highlights for Oaxaca."

@@ -1,0 +1,152 @@
+alpha3: PAK
+alpha2: PK
+name:
+  eng: Pakistan
+  local:
+    - languageCode: urd
+      value: پاکستان (Pākistān)
+    - languageCode: eng
+      value: Pakistan
+flagEmoji: "🇵🇰"
+capital: Islamabad
+isSovereign: true
+# Classified federal: Pakistan is a federal parliamentary republic comprising
+# four provinces (Punjab, Sindh, Khyber Pakhtunkhwa, Balochistan), the
+# Islamabad Capital Territory, and the Pakistan-administered areas (Azad
+# Jammu & Kashmir and Gilgit-Baltistan), with provincial autonomy under the
+# Constitution (1973) as amended. Federations carry real ISO 3166-2
+# subdivisions: PK-PB Punjab, PK-SD Sindh, PK-KP Khyber Pakhtunkhwa,
+# PK-BA Balochistan, PK-IS Islamabad. Curated subset + WHOLE below. Urdu is
+# the national language and — with English — one of the two official
+# languages (Constitution Art. 251); both are flagged official at 1.0 (legal
+# status, not population share).
+governanceType: federal
+iso3166_2_prefix: PK
+hasSubdivisions: true
+languageUsage:
+  - languageCode: urd
+    domain: official
+    # Urdu is the national language and, with English, one of the two official
+    # languages under Article 251 of the 1973 Constitution. Flagged 1.0 as
+    # legal/administrative status (it is the mother tongue of only ~7-9%).
+    speakersShare: 1.0
+    sourceId: pak-art251
+  - languageCode: eng
+    domain: official
+    # English is the second official language (Constitution Art. 251), widely
+    # used in government, law, higher education and business. Flagged 1.0.
+    speakersShare: 1.0
+    sourceId: pak-art251
+  - languageCode: urd
+    domain: locallySpoken
+    # Urdu is the lingua franca understood by the vast majority (~93% of the
+    # population) either as a first or second language, though only ~7-9%
+    # speak it as a mother tongue. 2023 Census / language surveys.
+    speakersShare: 0.93
+    sourceId: pak-census
+  - languageCode: pnb
+    domain: locallySpoken
+    # Punjabi is the most widely spoken provincial language (~38-45% as a
+    # mother tongue, concentrated in Punjab province).
+    speakersShare: 0.44
+    sourceId: pak-census
+  - languageCode: snd
+    domain: locallySpoken
+    # Sindhi is the principal language of Sindh (~14% as a mother tongue).
+    speakersShare: 0.14
+    sourceId: pak-census
+# ethnicGroups intentionally omitted: Pakistan's Census does not collect a
+# single additively-exclusive 'ethnic composition' figure that sums cleanly;
+# estimates (Punjabi ~45%, Pashtun ~15%, Sindhi ~14%, Saraiki ~8%, Muhajir ~8%,
+# Baloch ~4%) overlap with language use and vary by source.
+timezones:
+  - name: Asia/Karachi
+    standardUtcOffset: "UTC+5"
+    observesDst: false
+currency:
+  code: PKR
+  symbol: "₨"
+  name: Pakistani rupee
+legalConstraints:
+  - topic: "official language"
+    description: "Article 251 of the Constitution (1973) declares Urdu the national language while providing that English remains the other official language for a transitional period that has continued indefinitely; provincial governments may adopt their own additional official languages. English dominates the superior judiciary, legislation and higher education."
+    sourceId: pak-art251
+  - topic: "consumer protection"
+    description: "Consumer protection in Pakistan is fragmented across provinces; the Khyber Pakhtunkhwa Consumer Protection Act (1997), Punjab (2017), Sindh (2014) and Balochistan laws establish consumer courts and protect against defective goods and deceptive practices, complementing the federal regulation of weights, standards and advertised claims."
+    sourceId: pak-consumer
+  - topic: "data protection"
+    description: "The Prevention of Electronic Crimes Act 2016 (PECA) and its 2025 amendments regulate online content, data and communications, and provide for data-protection and cybercrime enforcement. A dedicated federal Personal Data Protection Bill has been drafted in phases; PECA remains the operative e-privacy/cyber framework."
+    sourceId: pak-peca
+  - topic: "sales tax (VAT)"
+    description: "A federal and provincial sales tax is levied under a harmonized Federal-Provincial framework; the standard general sales tax (GST) rate is 17%, with reduced rates on some essentials, applied to most goods and services."
+    sourceId: fbr-sales-tax
+paymentCulture:
+  popularMethods:
+    - "Cash remains the most widely used payment method, especially outside major cities"
+    - "Mobile wallets (JazzCash, Easypaisa) are very popular for transfers and bill payments with low bank penetration"
+    - "Debit/credit cards (Visa, Mastercard) and Raast instant payments via bank apps are growing"
+  tipping:
+    expected: false
+    typicalAmount: "Tipping is not expected in most settings; small tips (5-10%) are appreciated in restaurants and for services but not obligatory"
+    autoIncludedInBill: false
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Respectful, hierarchical and courteous. Age, seniority and titles matter; elders and superiors are addressed with deference. Communication is often warm, indirect and relational, prioritising harmony, family and hospitality."
+  greetingNorms: "The Islamic greeting 'As-salamu alaykum' (peace be upon you) with a warm reply is standard; handshakes are common among men, with modesty and religious context observed in greetings between genders."
+  meetingEtiquette: "Punctuality is appreciated though business may run on flexible timing. Meetings build relationship and trust before business; hierarchy matters and decisions often rest with the senior person. Chai (tea) hospitality commonly opens meetings."
+  topicsToAvoid:
+    - "Sensitive religious, political and regional topics unless raised by the other party"
+    - "Direct criticism of a senior or blunt public disagreement"
+    - "The sensitive question of Kashmir's status and cross-border politics"
+  giftGivingNotes: "Gift-giving is appreciated on social and religious occasions (Eid, weddings); modest, respectful gifts are common. Alcohol and pork-related items are avoided out of Islamic observance."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: PK-PB
+    file: distinct-regions/pk-pb.yaml
+    adminUnitCodes: [PK-PB]
+  - code: PK-SD
+    file: distinct-regions/pk-sd.yaml
+    adminUnitCodes: [PK-SD]
+  - code: PK-KP
+    file: distinct-regions/pk-kp.yaml
+    adminUnitCodes: [PK-KP]
+  - code: PK-IS
+    file: distinct-regions/pk-is.yaml
+    adminUnitCodes: [PK-IS]
+sources:
+  - id: pak-art251
+    name: "Constitution of the Islamic Republic of Pakistan, 1973 — Article 251 (National language)"
+    publisher: "National Assembly of Pakistan"
+    url: "https://na.gov.pk/"
+    year: 1973
+    accessedDate: "2026-09-21"
+    note: "Declares Urdu the national language and keeps English as the other official language; provinces may adopt additional official languages."
+  - id: pak-census
+    name: "Pakistan 2023 Census — language and demographic data"
+    publisher: "Pakistan Bureau of Statistics"
+    url: "https://www.pbs.gov.pk/"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "Population ~241.5M (2023); language shares (Urdu lingua franca ~93%, Punjabi ~44%, Sindhi ~14%); the Census does not collect ethnicity."
+  - id: pak-consumer
+    name: "Provincial Consumer Protection Acts (KP 1997, Sindh 2014, Punjab 2017, Balochistan)"
+    publisher: "National Assembly of Pakistan (na.gov.pk; these four Acts were each passed by their own provincial assembly, not the National Assembly — no single primary source for all four was found)"
+    url: "https://na.gov.pk/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Provincial consumer-protection statutes establishing consumer courts and rights against defective goods and unfair practices."
+  - id: pak-peca
+    name: "Prevention of Electronic Crimes Act 2016 (PECA, as amended)"
+    publisher: "Government of Pakistan — Ministry of Information Technology and Telecommunication"
+    url: "https://moitt.gov.pk/"
+    year: 2016
+    accessedDate: "2026-09-21"
+    note: "Data protection, cybercrime and online-content enforcement; the operative e-privacy framework alongside a phased personal-data bill."
+  - id: fbr-sales-tax
+    name: "Sales Tax (Federal Board of Revenue)"
+    publisher: "Federal Board of Revenue, Government of Pakistan"
+    url: "https://www.fbr.gov.pk/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "General sales tax (GST) standard rate 17% under the harmonized federal-provincial framework."

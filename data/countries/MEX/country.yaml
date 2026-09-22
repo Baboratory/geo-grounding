@@ -1,0 +1,162 @@
+alpha3: MEX
+alpha2: MX
+name:
+  eng: Mexico
+  local:
+    - languageCode: spa
+      value: México
+flagEmoji: "🇲🇽"
+capital: Mexico City
+isSovereign: true
+# Classified federal: Mexico is a federal republic (the United Mexican States)
+# comprising 31 states and Mexico City (granted equal status as an autonomous
+# political entity by a 2016 constitutional amendment), each with its own
+# legislature, governor and constitution under the Political Constitution of
+# the United Mexican States (1917). Federations always carry real ISO 3166-2
+# subdivisions: MX-CMX, MX-JAL, MX-YUC, MX-OAX, MX-NLE etc. Curated subset +
+# WHOLE below. The Constitution does not declare a de jure official language,
+# but Spanish is the de facto national language spoken by ~94% of the
+# population; the Law on the Linguistic Rights of Indigenous Peoples (2003)
+# recognizes the country's indigenous languages as co-official national
+# languages in their communities (68 indigenous languages recognized).
+governanceType: federal
+iso3166_2_prefix: MX
+hasSubdivisions: true
+languageUsage:
+  - languageCode: spa
+    domain: official
+    # Spanish is the de facto national language, used for all official and
+    # legislative purposes; the Constitution does not declare it de jure
+    # official. Flagged 1.0 as the dominant legal/administrative language.
+    speakersShare: 1.0
+    sourceId: inegi-spa
+  - languageCode: spa
+    domain: locallySpoken
+    # Spanish is spoken by ~94% of the population; it is the world's largest
+    # Spanish-speaking country by population.
+    speakersShare: 0.94
+    sourceId: inegi-spa
+  - languageCode: eng
+    domain: foreign
+    # English is widely understood, especially in border states and tourist
+    # regions, with ~5% of the population reported as able to speak it.
+    speakersShare: 0.05
+    sourceId: inegi-eng
+# Indigenous languages (Nahuatl nhn, Yucatec Maya yua, Mixtec, Zapotec etc.):
+# the Law on Linguistic Rights recognizes 68 indigenous languages as official
+# nationally in their communities. The largest is Nahuatl (~1.6M speakers) and
+# only ~6% of the population speaks an indigenous language overall. These are
+# captured at region level where relevant rather than as national
+# official-domain rows, consistent with the group-narrowing guidance.
+timezones:
+  - name: America/Mexico_City
+    standardUtcOffset: "UTC-6"
+    observesDst: true
+    dstUtcOffset: "UTC-5"
+    dstPeriod: "First Sunday of April to last Sunday of October (central zone)."
+  - name: America/Tijuana
+    standardUtcOffset: "UTC-8"
+    observesDst: true
+    dstUtcOffset: "UTC-7"
+    dstPeriod: "Second Sunday of March to first Sunday of November in the northwest border zone (aligned with the US)."
+  - name: America/Merida
+    standardUtcOffset: "UTC-6"
+    observesDst: false
+currency:
+  code: MXN
+  symbol: "$"
+  name: Mexican peso
+legalConstraints:
+  - topic: "official language"
+    description: "The Political Constitution does not declare an official language, but Spanish is the de facto national language used for all official and legislative purposes. The General Law on the Linguistic Rights of Indigenous Peoples (2003) recognizes the country's indigenous languages as co-official national languages with validity in their own territories and communities."
+    sourceId: inali-linguistic
+  - topic: "consumer protection"
+    description: "The Ley Federal de Protección al Consumidor (Federal Consumer Protection Law, as amended) protects consumers against misleading advertising, unsafe products and unfair commercial practices; the Procuraduría Federal del Consumidor (PROFECO) enforces it and mediates consumer complaints."
+    sourceId: profeco
+  - topic: "data protection"
+    description: "The Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP, 2010; reformed 2025) is Mexico's private-sector personal-data law, requiring a privacy notice (aviso de privacidad), consent and ARCO rights; the INAI (Instituto Nacional de Transparencia) supervises private-sector compliance."
+    sourceId: inai-dataprot
+  - topic: "VAT (IVA)"
+    description: "A federal value-added tax (Impuesto al Valor Agregado, IVA) of 16% applies across most of Mexico (8% reduced rate in the northern border zone); a lower rate applies to essential goods and medicine, and some services are exempt. Border rates and exemptions follow the national tax law."
+    sourceId: sat-iva
+paymentCulture:
+  popularMethods:
+    - "Card payments are very common; debit and credit cards accepted widely"
+    - "Cash remains widely used, especially for smaller and informal purchases"
+    - "Mobile/QR payment platforms (CoDi, SPEI instant transfers) and wallets are growing"
+    - "WhatsApp is used for business messaging and some payments"
+  tipping:
+    expected: true
+    typicalAmount: "10-15% at sit-down restaurants; small tips for delivery, taxis and tour guides are common"
+    autoIncludedInBill: false
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm, polite and relationship-centred. Formality and courtesy (formal 'usted' address, titles) are valued, especially with elders, superiors and in professional settings; personal rapport and small talk precede business."
+  greetingNorms: "A handshake is standard; among friends and close acquaintances a hug (abrazo) or the single cheek-kiss is common. Address people by title and surname initially, moving to first names once on familiar terms."
+  meetingEtiquette: "Punctuality is expected for business, though social events may run Spanish-style on a more relaxed clock. Meetings are cordial and build relationships first; titles and hierarchy matter, and decisions typically rest with the senior figure present."
+  topicsToAvoid:
+    - "Direct or boastful self-promotion or open criticism of a senior"
+    - "Sensitive political, historical or border topics unless the other party raises them"
+    - "Personal financial details and overly invasive questions early in a relationship"
+  giftGivingNotes: "Gift-giving is appreciated on social and business occasions; modest, tasteful gifts are fine, and it is customary to bring wine, chocolates or flowers when invited to someone's home. Avoid purple or white flowers in some regional contexts (funereal associations)."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: MX-CMX
+    file: distinct-regions/mx-cmx.yaml
+    adminUnitCodes: [MX-CMX]
+  - code: MX-JAL
+    file: distinct-regions/mx-jal.yaml
+    adminUnitCodes: [MX-JAL]
+  - code: MX-YUC
+    file: distinct-regions/mx-yuc.yaml
+    adminUnitCodes: [MX-YUC]
+  - code: MX-OAX
+    file: distinct-regions/mx-oax.yaml
+    adminUnitCodes: [MX-OAX]
+  - code: MX-NLE
+    file: distinct-regions/mx-nle.yaml
+    adminUnitCodes: [MX-NLE]
+sources:
+  - id: inegi-spa
+    name: "Censo de Población y Vivienda 2020 — language data"
+    publisher: "Instituto Nacional de Estadística y Geografía (INEGI)"
+    url: "https://www.inegi.org.mx/"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Spanish as the de facto national language spoken by ~94%; population and language distribution. Spanish has no de jure constitutional official status."
+  - id: inegi-eng
+    name: "INEGI — English-language ability"
+    publisher: "Instituto Nacional de Estadística y Geografía (INEGI)"
+    url: "https://www.inegi.org.mx/"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "~5% of the population reports ability to speak English; highest along the US border and in tourist regions."
+  - id: inali-linguistic
+    name: "General Law on the Linguistic Rights of Indigenous Peoples (Diario Oficial, 2003)"
+    publisher: "Instituto Nacional de Lenguas Indígenas (INALI)"
+    url: "https://www.inali.gob.mx/"
+    year: 2003
+    accessedDate: "2026-09-21"
+    note: "Recognizes 68 indigenous languages as co-official national languages valid in their territories; Spanish is the dominant de facto national language."
+  - id: profeco
+    name: "Ley Federal de Protección al Consumidor"
+    publisher: "Procuraduría Federal del Consumidor (PROFECO)"
+    url: "https://www.gob.mx/profeco"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Federal consumer-protection law against misleading advertising, unsafe products and unfair practices; PROFECO enforces and mediates."
+  - id: inai-dataprot
+    name: "Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP)"
+    publisher: "INAI — Instituto Nacional de Transparencia"
+    url: "https://home.inai.org.mx/"
+    year: 2025
+    accessedDate: "2026-09-21"
+    note: "Private-sector data protection: aviso de privacidad, consent, ARCO rights; INAI supervises."
+  - id: sat-iva
+    name: "Impuesto al Valor Agregado (IVA)"
+    publisher: "Servicio de Administración Tributaria (SAT), Government of Mexico"
+    url: "https://www.sat.gob.mx/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Standard IVA 16% federal; 8% border zone; reduced/exempt rates for essential goods and some services."
