@@ -56,13 +56,13 @@ religions:
     percent: 71.0
     sourceId: prk-religion
   - name: Korean shamanism and Cheondoism (folk traditions)
-    percent: 16.0
+    percent: 16.3
     sourceId: prk-religion
   - name: Buddhism
     percent: 11.0
     sourceId: prk-religion
   - name: Christianity (Chondoist-compatible Christian communities and Protestant/Orthodox minorities)
-    percent: 2.0
+    percent: 1.7
     sourceId: prk-religion
 # Religion estimates are inherently uncertain for North Korea; figures follow
 # the Religious Characteristics of States Dataset (2015) as cited in the US

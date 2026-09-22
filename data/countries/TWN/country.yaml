@@ -5,6 +5,8 @@ name:
   local:
     - languageCode: cmn
       value: 臺灣 (Taiwan)
+    - languageCode: nan
+      value: Tâi-oân
 flagEmoji: "🇹🇼"
 capital: Taipei
 isSovereign: true
@@ -24,8 +26,11 @@ hasSubdivisions: true
 languageUsage:
   # Mandarin is the de facto standard and preeminent national language, spoken
   # and understood by a large majority of the population (L1 ~14M, L2 ~6.6M).
-  # The official-domain flag is set to 1.0 as a legal/status marker for the
-  # principal national language, per the National Languages Development Act.
+  # Taiwan has no statute naming a single official language (the Development
+  # of National Languages Act defines "national language" broadly rather than
+  # granting Mandarin specific official status); the official-domain flag is
+  # set to 1.0 as a de facto legal-status marker for the principal national
+  # language, the same convention used for Japan's Japanese.
   - languageCode: cmn
     domain: official
     speakersShare: 1.0
@@ -70,6 +75,11 @@ ethnicGroups:
   - group: Indigenous (Malayo-Polynesian / Formosan peoples)
     percent: 2.3
     sourceId: wfb-twn
+# Rows sum to 100.3, not 100.0: the CIA Factbook itself only gives precise
+# figures for Holo (~70%) and indigenous (2.3%), with Han Chinese overall at
+# ">95%" and no exact Hakka/Mainlander split published — the 14.0/14.0 rows
+# are independently-rounded composite estimates, not two halves of a single
+# authoritative breakdown, hence the small overshoot.
 timezones:
   - name: Asia/Taipei
     standardUtcOffset: "UTC+8"
@@ -139,7 +149,7 @@ sources:
     url: "https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=H0170143"
     year: 2019
     accessedDate: "2026-09-21"
-    note: "Defines 'national language' broadly (Art. 3) rather than naming specific languages, but is the legal basis commonly cited for national-language status of Mandarin, Hokkien, Hakka and the Formosan languages; used here as the basis for the official-domain flag on cmn and recognition of nan/hak/ami."
+    note: "Defines 'national language' broadly (Art. 3) rather than naming specific languages, and does not confer statutory official status on any single language; used here as the basis for recognition of nan/hak/ami as national languages. Mandarin's official-domain flag is a de facto status marker (as for Japanese in JPN), not a claim this Act makes it official."
   - id: wfb-twn
     name: "CIA World Factbook — Taiwan (languages, ethnic groups, population)"
     publisher: "Central Intelligence Agency (US)"
@@ -173,7 +183,7 @@ sources:
     publisher: "EF Education First"
     url: "https://www.ef.com/wwen/epi/"
     accessedDate: "2026-09-21"
-    note: "English proficiency context in Taiwan; share is a composite estimate."
+    note: "The EPI publishes a proficiency score/ranking, not a population share; the 0.30 foreign-speaker figure is a constructive estimate informed by (not directly reported in) this index, concentrated among younger/urban populations as the languageUsage comment notes."
   - id: iso-cmn
     name: "ISO 639-3 entry: cmn — Mandarin Chinese"
     publisher: "SIL International (ISO 639-3 Registration Authority)"

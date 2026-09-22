@@ -32,7 +32,7 @@ languageUsage:
     speakersShare: 0.99
     sourceId: census-2022
   # Sylheti — the regional speech variety of Sylhet Division (eastern
-  # Banglandesh), closely related to Bengali; a distinct Indo-Aryan language.
+  # Bangladesh), closely related to Bengali; a distinct Indo-Aryan language.
   - languageCode: syl
     domain: locallySpoken
     speakersShare: 0.06

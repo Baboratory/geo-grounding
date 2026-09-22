@@ -34,8 +34,9 @@ languageUsage:
   - languageCode: eng
     domain: foreign
     # English and Russian are taught as foreign languages in schools; spoken
-    # proficiency among the general public is low. Omitted as a statistical
-    # share; noted here as the main taught foreign language.
+    # proficiency among the general public is low. No official statistic
+    # exists; 0.05 is a constructive estimate, noted as the main taught
+    # foreign language.
     speakersShare: 0.05
     sourceId: prk-cia
 ethnicGroups:
@@ -123,7 +124,7 @@ sources:
     publisher: "CIA World Factbook"
     url: "https://www.cia.gov/the-world-factbook/countries/korea-north/"
     accessedDate: "2026-09-21"
-    note: "Racially homogeneous: racially homogeneous group, small Chinese minority; basis for ethnicGroups."
+    note: "The Factbook describes North Korea as racially homogeneous with a small Chinese minority but publishes no exact percentages; the 99.8/0.2 split here is a constructive estimate based on that description."
   - id: prk-bti
     name: "BTI Country Report — North Korea (2026)"
     publisher: "Bertelsmann Stiftung (BTI)"
