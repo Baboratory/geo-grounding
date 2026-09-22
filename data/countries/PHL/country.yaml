@@ -1,0 +1,258 @@
+alpha3: PHL
+alpha2: PH
+name:
+  eng: Philippines
+  local:
+    - languageCode: fil
+      value: Pilipinas
+    - languageCode: eng
+      value: Philippines
+flagEmoji: "🇵🇭"
+capital: Manila
+isSovereign: true
+# Classified unitary-large: the Philippines is a unitary presidential republic
+# with a population of ~110M (2020 census), far above the small-state threshold,
+# and a real, government-recognized cultural-historical regional divide: the
+# 1987 Constitution (Art. XIV, ss.6-7) declares Filipino the national language
+# and Filipino and English the official languages, while the major regional
+# languages (Cebuano, Ilocano, Hiligaynon, Kapampangan, Pangasinan, Bikol,
+# Waray) are "auxiliary official languages in their respective regions". Real
+# ISO 3166-2 region codes (PH-xx) are used; WHOLE is the national fallback.
+governanceType: unitary-large
+iso3166_2_prefix: PH
+hasSubdivisions: true
+languageUsage:
+  - languageCode: fil
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-phl-1987
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-phl-1987
+  - languageCode: fil
+    domain: locallySpoken
+    speakersShare: 0.399
+    sourceId: census-phl-2020-language
+  - languageCode: ceb
+    domain: locallySpoken
+    speakersShare: 0.16
+    sourceId: census-phl-2020-language
+  - languageCode: hil
+    domain: locallySpoken
+    speakersShare: 0.073
+    sourceId: census-phl-2020-language
+  - languageCode: ilo
+    domain: locallySpoken
+    speakersShare: 0.071
+    sourceId: census-phl-2020-language
+  - languageCode: bik
+    domain: locallySpoken
+    speakersShare: 0.039
+    sourceId: census-phl-2020-language
+  - languageCode: war
+    domain: locallySpoken
+    speakersShare: 0.026
+    sourceId: census-phl-2020-language
+  - languageCode: pam
+    domain: locallySpoken
+    speakersShare: 0.024
+    sourceId: census-phl-2020-language
+  - languageCode: pag
+    domain: locallySpoken
+    speakersShare: 0.013
+    sourceId: census-phl-2020-language
+# Filipino (based on Tagalog) is the national language and co-official with
+# English (1987 Constitution, Article XIV). The 2020 Census of Population and
+# Housing reports the language spoken at home per household: Tagalog ~39.9%,
+# Bisaya/Binisaya ~16.0% (grouped here under Cebuano), Hiligaynon 7.3%,
+# Ilocano 7.1%, Bikol 3.9%, Waray 2.6%, Kapampangan 2.4%, Pangasinan 1.3%.
+# These are household-language shares, expressed as a proxy for resident
+# speaker share; the country's major regional languages are constitutionally
+# recognized auxiliary official languages in their regions.
+ethnicGroups:
+  - group: Tagalog
+    percent: 26.0
+    sourceId: census-phl-2020-ethnic
+  - group: Bisaya/Binisaya (Visayan)
+    percent: 14.3
+    sourceId: census-phl-2020-ethnic
+  - group: Ilocano
+    percent: 8.0
+    sourceId: census-phl-2020-ethnic
+  - group: Cebuano
+    percent: 8.0
+    sourceId: census-phl-2020-ethnic
+  - group: Ilonggo (Hiligaynon)
+    percent: 7.9
+    sourceId: census-phl-2020-ethnic
+  - group: Bikol (Bicolano)
+    percent: 6.5
+    sourceId: census-phl-2020-ethnic
+  - group: Waray
+    percent: 3.8
+    sourceId: census-phl-2020-ethnic
+  - group: Kapampangan
+    percent: 3.0
+    sourceId: census-phl-2020-ethnic
+  - group: Maguindanao
+    percent: 1.9
+    sourceId: census-phl-2020-ethnic
+  - group: Pangasinan
+    percent: 1.9
+    sourceId: census-phl-2020-ethnic
+timezones:
+  - name: Asia/Manila
+    standardUtcOffset: "UTC+8"
+    observesDst: false
+currency:
+  code: PHP
+  symbol: "₱"
+  name: Philippine peso
+legalConstraints:
+  - topic: "value-added tax"
+    description: "A 12% value-added tax (VAT) applies to the sale, barter, exchange or lease of goods, properties and services in the Philippines (National Internal Revenue Code, ss.106, 108); exports are zero-rated and certain goods/services are exempt."
+    sourceId: nirc-phl
+  - topic: "consumer protection"
+    description: "The Consumer Act of the Philippines (RA 7394) protects consumers against hazards to health and safety, deceptive/unfair/unconscionable sales acts, and provides rights of redress and consumer representation in policy."
+    sourceId: consumer-act-phl
+  - topic: "data protection"
+    description: "The Data Privacy Act of 2012 (RA 10173) governs the collection, holding, processing and use of personal information, establishes lawful-processing criteria, grants data-subject rights, and created the National Privacy Commission to enforce it."
+    sourceId: data-privacy-phl
+paymentCulture:
+  popularMethods:
+    - "Cash remains very widely used for everyday retail transactions"
+    - "E-wallets and digital payment apps (GCash, Maya/PayMaya, ShopeePay) are now dominant for online and many in-store payments"
+    - "Debit and credit cards (Visa, Mastercard) and bank transfers (instaPay, PESONet) are common, especially in urban areas"
+    - "QR-code payments (via banks and e-wallets) are growing rapidly"
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    typicalAmount: "Tipping is not customary and not expected; a service charge is occasionally added in tourist-facing restaurants and hotels. Many Filipinos round up or leave a small amount for good service, but there is no obligation."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Use respectful honorifics ('po', 'opo') and titles; first names are used among friends but elders and superiors are addressed with deference. Seniority and authority are respected."
+  greetingNorms: "A warm smile with a light handshake or a slight bow; close friends and family may exchange a light hug or cheek touch. 'Kumusta ka?' (How are you?) is a common opener."
+  meetingEtiquette: "Relationships matter as much as the agenda; expect warm pleasantries before business. Decisions often involve consensus and respect for hierarchy; avoid confrontation and always save face for the other party."
+  topicsToAvoid:
+    - "Political figures and the Marcos–Duterte eras (highly polarizing)"
+    - "The Muslim-majority south in Mindanao and insurgent conflicts"
+    - "Personal income and family finances"
+  giftGivingNotes: "Gifts are appreciated at social visits (fruit, pastries, small items); give and receive with both hands or the right hand. Avoid giving an odd number of flowers or items in black/white wrappers."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: PH-00
+    file: distinct-regions/ph-00.yaml
+    adminUnitCodes: [PH-00]
+  - code: PH-01
+    file: distinct-regions/ph-01.yaml
+    adminUnitCodes: [PH-01]
+  - code: PH-07
+    file: distinct-regions/ph-07.yaml
+    adminUnitCodes: [PH-07]
+  - code: PH-08
+    file: distinct-regions/ph-08.yaml
+    adminUnitCodes: [PH-08]
+  - code: PH-13
+    file: distinct-regions/ph-13.yaml
+    adminUnitCodes: [PH-13]
+sources:
+  - id: constitution-phl-1987
+    name: "The 1987 Constitution of the Republic of the Philippines (Article XIV, ss.6-7)"
+    publisher: "Government of the Republic of the Philippines"
+    url: "https://lawphil.net/consti/cons1987.html"
+    year: 1987
+    accessedDate: "2026-09-21"
+    note: "Declares Filipino the national language (s.6) and Filipino and English the official languages, with the regional languages as auxiliary official languages in their respective regions (s.7)."
+  - id: census-phl-2020-language
+    name: "Tagalog is the Most Widely Spoken Language at Home (2020 Census of Population and Housing)"
+    publisher: "Philippine Statistics Authority"
+    url: "https://psa.gov.ph/node/1684041577"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Household-language shares from the 2020 CPH: Tagalog 39.9%, Bisaya/Binisaya 16.0%, Hiligaynon 7.3%, Ilocano 7.1%, Cebuano 6.5%, Bikol 3.9%, Waray 2.6%, Kapampangan 2.4%, Maguindanao 1.4%, Pangasinan 1.3%. Used as a proxy for resident speaker share."
+  - id: census-phl-2020-ethnic
+    name: "Ethnicity in the Philippines (2020 Census of Population and Housing)"
+    publisher: "Philippine Statistics Authority"
+    url: "https://psa.gov.ph/content/ethnicity-philippines-2020-census-population-and-housing"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Self-reported ethnicity shares: Tagalog 26.0%, Bisaya/Binisaya 14.3%, Ilocano 8.0%, Cebuano 8.0%, Ilonggo 7.9%, Bikol 6.5%, Waray 3.8%, Kapampangan 3.0%, Maguindanao and Pangasinan 1.9% each."
+  - id: nirc-phl
+    name: "National Internal Revenue Code (RA 8424, ss.106, 108) — value-added tax"
+    publisher: "Bureau of Internal Revenue, Government of the Philippines"
+    url: "https://bir.gov.ph/"
+    year: 1997
+    accessedDate: "2026-09-21"
+    note: "Standard VAT rate of 12% on sales of goods, properties and services; export sales zero-rated; threshold-based registration."
+  - id: consumer-act-phl
+    name: "The Consumer Act of the Philippines (Republic Act No. 7394)"
+    publisher: "Government of the Philippines (Department of Trade and Industry)"
+    url: "https://www.dti.gov.ph/"
+    year: 1992
+    accessedDate: "2026-09-21"
+    note: "Statutory consumer-protection framework covering product safety, deceptive/unfair sales practices, warranties, credit disclosure and redress."
+  - id: data-privacy-phl
+    name: "Data Privacy Act of 2012 (Republic Act No. 10173)"
+    publisher: "Government of the Philippines (National Privacy Commission)"
+    url: "https://privacy.gov.ph/data-privacy-act/"
+    year: 2012
+    accessedDate: "2026-09-21"
+    note: "The Philippines' comprehensive personal-data protection law; establishes lawful-processing criteria, data-subject rights and the National Privacy Commission."
+  - id: iso-fil
+    name: "ISO 639-3 entry: fil - Filipino"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/fil"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code fil = Filipino (Individual, Living)."
+  - id: iso-ceb
+    name: "ISO 639-3 entry: ceb - Cebuano"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ceb"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code ceb = Cebuano (Individual, Living)."
+  - id: iso-ilo
+    name: "ISO 639-3 entry: ilo - Iloko"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ilo"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code ilo = Iloko/Ilocano (Individual, Living)."
+  - id: iso-hil
+    name: "ISO 639-3 entry: hil - Hiligaynon"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/hil"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code hil = Hiligaynon (Individual, Living)."
+  - id: iso-bik
+    name: "ISO 639-3 entry: bik - Bikol"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/bik"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code bik = Bikol (macrolanguage, Living)."
+  - id: iso-war
+    name: "ISO 639-3 entry: war - Waray (Philippines)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/war"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code war = Waray (Philippines) (Individual, Living)."
+  - id: iso-pam
+    name: "ISO 639-3 entry: pam - Pampanga"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/pam"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code pam = Pampanga/Kapampangan (Individual, Living)."
+  - id: iso-pag
+    name: "ISO 639-3 entry: pag - Pangasinan"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/pag"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code pag = Pangasinan (Individual, Living)."

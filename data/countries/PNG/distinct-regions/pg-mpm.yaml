@@ -1,0 +1,78 @@
+code: PG-MPM
+name:
+  eng: Madang Province
+  local:
+    - languageCode: tpi
+      value: Madang Provins
+climates:
+  - koppenCode: Af
+    description: Tropical rainforest climate along Madang's north-coast lowlands and the islands of the Bismarck Sea, hot and humid with a strong wet season.
+landmarks:
+  - name: Madang town
+    description: Charming provincial capital known for its German colonial-era wharf (from the New Guinea Company), botanical garden and coastline.
+  - name: The Bioko and Eastern Waterfront islands
+    description: Tropical islets and reefs off Madang's coast, popular for diving and fishing.
+  - name: Madang's WWII relics and the coast
+    description: Reminders of the region's wartime history with an escape-free deep ocean trench running offshore.
+  - name: The North Coast Road and the Highlander mountain route
+    description: The scenic road linking Madang to the highlands, gateway to the localised mountain communities.
+culturalTraits:
+  - "A coastal province with a distinct German-colonial and maritime heritage on the Bismarck Sea"
+  - "Known for the Cali (liturgical) and canoe culture, and for Madang's welcoming, small-town feel"
+prideOf:
+  - "Madang's German wharf heritage and relaxed coastal way of life"
+  - "The spectacular offshore islands and dive reefs"
+animals:
+  popular:
+    - Green and hawksbill turtles
+    - Dugong (protected)
+    - Black and white flying fox fruit bats
+  unique:
+    - Cockatoo and birds of paradise (protected)
+industries:
+  - Fishing and tuna processing
+  - Copra and coconut oil
+  - Small-scale agriculture (taro, banana, cocoa)
+  - Tourism and diving
+sports:
+  - Rugby league
+  - Canoeing and sailing
+  - Association football
+  - Swimming and water sports
+entertainment:
+  - season: allYear
+    items:
+      - "Market culture and canoe events in Madang town"
+  - season: summer
+    items:
+      - "Beach and diving season in the drier months"
+  - season: winter
+    items:
+      - "Christmas and New Year waterfront celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fresh seafood and kokoda"
+      - "Taro and sweet potato staples"
+      - "Coconut milk curries"
+  - season: allYear
+    items:
+      - "Sago and tropical fruit desserts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern Pacific wear in daily life; traditional fibre skirts and bilas at cultural festivals"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Monday-Friday working week; Saturday is a market day in Madang town and Sunday a rest day. Fishing and copra drive the coastal economy year-round."
+sources: []

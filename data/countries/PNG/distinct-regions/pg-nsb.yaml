@@ -1,0 +1,78 @@
+code: PG-NSB
+name:
+  eng: Autonomous Region of Bougainville
+  local:
+    - languageCode: tpi
+      value: Outonomos Rejion bilong Bougainville
+climates:
+  - koppenCode: Af
+    description: Tropical rainforest climate across Bougainville and the neighbouring islands, hot and humid with a pronounced wet season.
+landmarks:
+  - name: Mount Balbi and Mount Bagana (Mount Cavendish)
+    description: Active volcanoes of central and north Bougainville, dominating the island's landscape.
+  - name: The Panguna copper mine site
+    description: The historic open-pit mine whose closure and controversy in the 1980s set in motion a long separatist movement, now central to Bougainville's modern identity.
+  - name: The coral reefs and diving of Buka and the north coast
+    description: World-class reef diving along Bougainville's coasts.
+  - name: Kieta, the historic capital
+    description: The old administrative centre of Bougainville on the island's central-east coast.
+culturalTraits:
+  - "An autonomous region with its own constitution pending a referendum on independence, set apart by a strong distinct identity from mainland Papua New Guinea"
+  - "Famous for its rich traditional 'wampas' music, shell money and deeply communal island culture"
+prideOf:
+  - "The strong, distinctive Bougainvillean identity and the drive for self-determination"
+  - "Its spectacular volcanic and reef natural heritage"
+animals:
+  popular:
+    - Victoria crowned pigeon
+    - Green tree python
+    - Sea turtles
+  unique:
+    - Bougainville crow (endemic)
+industries:
+  - Small-scale agriculture (cocoa, coconut, vanilla, inland food gardens)
+  - Fisheries and reef-based livelihoods
+  - Trading and handicrafts (shell money, weaving)
+  - Ecotourism and diving (in development)
+sports:
+  - Rugby league
+  - Canoeing and traditional canoe racing
+  - Association football
+  - Swimming and reef-based water sports
+entertainment:
+  - season: allYear
+    items:
+      - "Traditional sing-sing and 'wampas' drum/dance festivals"
+  - season: summer
+    items:
+      - "Beach and diving season events in the drier months"
+  - season: winter
+    items:
+      - "Christmas and New Year community celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kokoda and fresh seafood"
+      - "Taro, yam and sweet potato staples"
+      - "Vanilla and coconut desserts"
+  - season: allYear
+    items:
+      - "Coconut cream dishes and sago treats"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional fibre skirts and woven dress at festivals and dances; modern wear in daily life"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Monday-Friday working week; Sunday is a rest day. The region's economy is more localised and subsistence-based than the mainland, with a strong customary land-trust framework."
+sources: []

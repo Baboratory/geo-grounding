@@ -1,0 +1,190 @@
+alpha3: PNG
+alpha2: PG
+name:
+  eng: Papua New Guinea
+  local:
+    - languageCode: tpi
+      value: Papua Niugini
+    - languageCode: eng
+      value: Papua New Guinea
+    - languageCode: hmo
+      value: "Gau Hedinarai ai Papua-Matamata Guinea"
+flagEmoji: "🇵🇬"
+capital: Port Moresby
+isSovereign: true
+# Classified unitary-large: although Papua New Guinea's official population
+# estimate (~11.78M, 2021) sits around the small-state boundary, it meets the
+# DESIGN.md criteria for real subdivision on the other two legs decisively:
+# (1) an extraordinary, formally recognized cultural-linguistic divide — over
+# 800 living indigenous languages across 22 provinces, with Tok Pisin, English
+# and Hiri Motu recognized by the Constitution and PNG Sign Language added in
+# 2015; and (2) recognized region-level political identities (provincial
+# governments with elected governors, plus the Autonomous Region of
+# Bougainville with its own constitution and autonomy). Real ISO 3166-2
+# province codes (PG-xx) are used; WHOLE is the national fallback.
+governanceType: unitary-large
+iso3166_2_prefix: PG
+hasSubdivisions: true
+languageUsage:
+  - languageCode: tpi
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-png-1975
+  - languageCode: eng
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-png-1975
+  - languageCode: hmo
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-png-1975
+  - languageCode: tpi
+    domain: locallySpoken
+    speakersShare: 0.684
+    sourceId: census-png-2011
+  - languageCode: hmo
+    domain: locallySpoken
+    speakersShare: 0.01
+    sourceId: ethnologue-png
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: ethnologue-png
+# Papua New Guinea's Constitution (1975) recognizes Tok Pisin, English and Hiri
+# Motu as the country's official languages; Papua New Guinean Sign Language was
+# added as a fourth recognized language in 2015. Tok Pisin is the most widely
+# spoken, serving as the national lingua franca across many of the country's
+# 800+ indigenous languages. The 2011 census reported ~68% literacy in Tok
+# Pisin; Hiri Motu is mainly spoken in the Port Moresby / Papuan coastal area,
+# and English is used in government, education and commerce. The remaining
+# hundreds of indigenous languages are locally spoken in their provinces.
+ethnicGroups:
+  - group: Melanesian (Papuan and Austronesian-speaking peoples)
+    percent: 96.0
+    sourceId: dfat-png
+  - group: Micronesian and Polynesian (small island minorities)
+    percent: 3.0
+    sourceId: dfat-png
+  - group: Non-indigenous (expatriate citizens and residents)
+    percent: 1.0
+    sourceId: dfat-png
+timezones:
+  - name: Pacific/Port_Moresby
+    standardUtcOffset: "UTC+10"
+    observesDst: false
+currency:
+  code: PGK
+  symbol: "K"
+  name: Papua New Guinean kina
+legalConstraints:
+  - topic: "goods and services tax"
+    description: "A Goods and Services Tax (GST) of 10% applies to the sale of goods and services in Papua New Guinea and to imports, collected by the Internal Revenue Commission under the Goods and Services Tax Act."
+    sourceId: gst-png
+  - topic: "consumer protection and competition"
+    description: "The Independent Consumer and Competition Commission Act 2002 establishes the ICCC to promote competition and fair trading, regulate the prices of certain goods and services, and protect consumers' interests."
+    sourceId: iccc-act-png
+  - topic: "data protection"
+    description: "There is currently no comprehensive personal-data-protection statute; a National Data Governance and Data Protection Policy 2024 (DICT) and a draft Data Governance and Data Protection Bill (2026) have been published for consultation to establish a coherent national framework."
+    sourceId: dikph-png
+paymentCulture:
+  popularMethods:
+    - "Cash is very widely used, particularly in rural and informal markets (the informal sector is large)"
+    - "Mobile money and e-wallets (notably Bank South Pacific's bmobile and Digicel/MiCash-style services) are spreading in urban areas"
+    - "Bank transfers and cards are common in business and in Port Moresby"
+    - "The kina is the sole legal tender"
+  tipping:
+    expected: false
+    autoIncludedInBill: false
+    typicalAmount: "Tipping is not customary; service is generally included and gratuities are uncommon outside tourist-facing hotels in Port Moresby."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Respect for elders, chiefs and authority is central; use titles and clan/social standing with deference. Non-verbal cues and relationship-building matter more than directness."
+  greetingNorms: "A smile with a nod or light handshake is standard; in Tok Pisin, 'Gude?' (Hello) is a common opener. In many communities greeting includes exchange of pleasantries about clan and home."
+  meetingEtiquette: "Meetings open with relationship-building and community protocols; decisions are often consensus-based and involve clan/community consultation. Silence and patience are respected, and open confrontation is avoided."
+  topicsToAvoid:
+    - "Recent electoral violence and perceptions of government corruption (politically sensitive)"
+    - "Tensions around the Autonomous Region of Bougainville and historical conflicts"
+    - "Asking directly about a person's clan or sensitive tribal affiliations early in acquaintance"
+  giftGivingNotes: "Gifts and reciprocity (the 'wantok' system) matter; modest, useful gifts are appreciated, and gifting is part of maintaining relationships. Avoid extravagant gifts that create obligation."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: PG-NCD
+    file: distinct-regions/pg-ncd.yaml
+    adminUnitCodes: [PG-NCD]
+  - code: PG-MBA
+    file: distinct-regions/pg-mba.yaml
+    adminUnitCodes: [PG-MBA]
+  - code: PG-EHG
+    file: distinct-regions/pg-ehg.yaml
+    adminUnitCodes: [PG-EHG]
+  - code: PG-NSB
+    file: distinct-regions/pg-nsb.yaml
+    adminUnitCodes: [PG-NSB]
+  - code: PG-MPM
+    file: distinct-regions/pg-mpm.yaml
+    adminUnitCodes: [PG-MPM]
+sources:
+  - id: constitution-png-1975
+    name: "Constitution of the Independent State of Papua New Guinea (1975)"
+    publisher: "Independent State of Papua New Guinea"
+    url: "https://www.paclii.org/pg/legis/consol_act/cotisopng534/"
+    year: 1975
+    accessedDate: "2026-09-21"
+    note: "Recognizes Tok Pisin, English and Hiri Motu as official languages (preamble s.2(11) on literacy in Pisin/Hiri Motu/English, and ss.67-68 on citizenship language requirements); PNG Sign Language recognized in 2015."
+  - id: census-png-2011
+    name: "2011 National Population and Housing Census (language literacy)"
+    publisher: "National Statistical Office of Papua New Guinea"
+    url: "https://www.nso.gov.pg/"
+    year: 2011
+    accessedDate: "2026-09-21"
+    note: "~68% of the population aged 10+ reported literacy in Tok Pisin; overall literacy ~67.6%."
+  - id: ethnologue-png
+    name: "Ethnologue: Languages of Papua New Guinea"
+    publisher: "SIL International (Ethnologue)"
+    url: "https://www.ethnologue.com/country/PG/languages"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Speaker estimates for Tok Pisin (majority, lingua franca), Hiri Motu (~100,000 L2) and English (small L1 minority; used as second language in government/business)."
+  - id: dfat-png
+    name: "Papua New Guinea country brief"
+    publisher: "Australian Government, Department of Foreign Affairs and Trade"
+    url: "https://www.dfat.gov.au/geo/papua-new-guinea/papua-new-guinea-country-brief"
+    year: 2025
+    accessedDate: "2026-09-21"
+    note: "Population ~11.78M (2021); mostly Melanesian, divided into 22 provinces plus the Autonomous Region of Bougainville and the National Capital District; over 800 known languages."
+  - id: gst-png
+    name: "Goods & Services Tax (10%)"
+    publisher: "Internal Revenue Commission of Papua New Guinea"
+    url: "https://irc.gov.pg/tax-information/goods-services-tax"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "GST at 10% on goods and services sold or imported into PNG."
+  - id: iccc-act-png
+    name: "Independent Consumer and Competition Commission Act 2002"
+    publisher: "Independent State of Papua New Guinea"
+    url: "https://iccc.gov.pg/"
+    year: 2002
+    accessedDate: "2026-09-21"
+    note: "Establishes the ICCC to promote competition and fair trading, regulate prices and protect consumers."
+  - id: dikph-png
+    name: "National Data Governance and Data Protection Policy 2024 and draft Data Governance and Data Protection Bill 2026"
+    publisher: "Department of Information and Communications Technology, Government of Papua New Guinea"
+    url: "https://www.ict.gov.pg/ndgdpp"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "No comprehensive data-protection statute yet; policy and draft Bill published for consultation to establish a national framework."
+  - id: iso-tpi
+    name: "ISO 639-3 entry: tpi - Tok Pisin"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/tpi"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code tpi = Tok Pisin (Individual, Living)."
+  - id: iso-hmo
+    name: "ISO 639-3 entry: hmo - Hiri Motu"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/hmo"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code hmo = Hiri Motu (Individual, Living). Note the ISO 639-1 code is 'ho' but the 639-3 code is 'hmo'."

@@ -1,0 +1,78 @@
+code: PH-00
+name:
+  eng: National Capital Region (Metro Manila)
+  local:
+    - languageCode: fil
+      value: Pambansang Rehiyong Kabiser ng Kalakhang-Maynila
+climates:
+  - koppenCode: Am
+    description: Tropical monsoon climate with a marked wet season (June-November, the typhoon-prone southwest monsoon) and a drier warm season.
+landmarks:
+  - name: Rizal Park (Luneta)
+    description: Historic central Manila park beside the old walled city, centered on the monument to José Rizal.
+  - name: Fort Santiago
+    description: Gate of the old Spanish walled city of Manila (Intramuros) where José Rizal was imprisoned before his execution in 1896.
+  - name: San Agustin Church
+    description: Historic 17th-century Augustinian church in Intramuros, among the oldest churches in the Philippines.
+  - name: The old walled city of Intramuros
+    description: The Spanish colonial core of Manila (now largely replaced), site of San Agustin, Fort Santiago and the Rizal monument.
+culturalTraits:
+  - "The political, economic and cultural heart of the nation, home to about one-eighth of all Filipinos"
+  - "A mix of towering business towers, historic Spanish-era churches and densely packed residential areas"
+prideOf:
+  - "Being the seat of government and the nation's economic engine"
+  - "Its layered heritage from the Manila-Acapulco galleon era to the modern metropolis"
+animals:
+  popular:
+    - Domesticated cat and dog populations of the metropolis
+    - Monitor lizard (bayawak) in remnant green spaces
+  unique:
+    - Philippine eagle (rare, protected, displayed at the Manila zoo)
+industries:
+  - Government and public administration
+  - Business-process outsourcing (BPO) and call centers
+  - Banking, finance and corporate headquarters
+  - Tourism, hospitality and retail
+sports:
+  - Basketball
+  - Boxing
+  - Association football (Azkals national team)
+  - Volleyball
+entertainment:
+  - season: allYear
+    items:
+      - "Karaoke and videoke bars"
+      - "Shopping malls (SM Megamall, Glorietta) and street food"
+  - season: summer
+    items:
+      - "Santacruzan and fiestas in May"
+  - season: winter
+    items:
+      - "Simnbang Gabi (nine dawn Masses before Christmas)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Adobo (chicken or pork stewed in vinegar, soy and garlic)"
+      - "Sinigang (sour tamarind soup)"
+      - "Pancit bam-i (stir-fried noodles)"
+  - season: summer
+    items:
+      - "Halo-halo (shaved-ice dessert with beans, fruit and flan)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Barong Tagalog (formal embroidered shirt) for men and the terno for women at formal occasions"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  notes: "Metro Manila runs on a standard Monday-Friday working week with brisk business hours; Sunday is a quieter rest day. Fiestas and public holidays close many offices and shops."
+sources: []
