@@ -7,7 +7,7 @@ name:
 # Generic country-wide fallback content for Guatemala (unitary-large). Used via
 # the 'whole-country-fallback' path in usage_examples/python/get_data_by_ip.py
 # when a visitor's specific department (e.g. GT-QC El Quiché) isn't one of the
-# curated files (GT-GU Guatemala, GT-QZ Quetzaltenango, GT-PE Petén).
+# curated files (GT-01 Guatemala, GT-09 Quetzaltenango, GT-17 Petén).
 climates:
   - koppenCode: Aw
     description: "Tropical savanna/wet-dry in the lowlands and Pacific slope."

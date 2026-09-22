@@ -26,17 +26,34 @@ governanceType: unitary-large
 iso3166_2_prefix: CN
 hasSubdivisions: true
 regionCoverage:
-  # Count per ISO 3166-2 as of 2026-09. The uncurated units have NOT yet been
-  # tested against DESIGN.md's five coverage triggers -- this declaration records
-  # the gap so it is visible, not a finding that the gap is correct. Pending the
-  # coverage re-audit (see TODO.md).
+  # Partially assessed 2026-09-23 (coverage-floor pilot, TODO.md). Confirmed:
+  # CN-HK, CN-MO, CN-TW are covered by sibling country entries (HKG/MAC/TWN,
+  # see DESIGN.md's exception), not curatable or an open gap. The other 5
+  # official autonomous regions fire trigger 1: the Law on Regional Ethnic
+  # Autonomy gives autonomous areas the right to use the local minority
+  # language alongside Mandarin -- CN-NM (Mongolian), CN-XJ (Uyghur), CN-XZ
+  # (Tibetan), CN-GX (Zhuang) confirmed; CN-NX (Ningxia, Hui) is a weaker
+  # case since the Hui are Sinophone and Ningxia's divergence is really
+  # religious (Islam) rather than linguistic -- tentatively trigger 2, not
+  # independently confirmed as a plurality (China has no country-level
+  # religions[] here to compare against; needs checking before curating).
+  # Trigger 4 (time zone) structurally never fires for any CHN unit: China
+  # runs its entire territory on one legal time zone (Beijing Time, UTC+8,
+  # since 1949) despite spanning ~5 geographic zones -- confirmed, don't
+  # re-derive this per-province. Trigger 5 (climate) very likely fires
+  # beyond the autonomous regions: CN-HI (Hainan, tropical Aw) and CN-HL
+  # (Heilongjiang, subarctic Dwb/Dwc) are both outside every Koppen class
+  # the four curated regions cover; the other ~20 provinces/municipalities
+  # have not been individually checked.
   tier: first-level
   totalUnits: 34
   status: partial
-  gapReason: "4 of 34 first-level units curated. Which of the
-    remaining units fire a coverage trigger has not been assessed yet -- the
-    curated set predates the coverage floor and was chosen by size/capital,
-    not by divergence. Queued for the coverage re-audit."
+  gapReason: "4 of 34 curated (0 of the trigger-firing units). 4 autonomous
+    regions confirmed to fire trigger 1 and need curating (Inner Mongolia,
+    Xinjiang, Tibet, Guangxi); Ningxia is a weaker, unconfirmed trigger-2
+    case. Hainan and Heilongjiang are likely trigger-5 climate cases. ~20
+    other provinces/municipalities still need individual assessment. See
+    the comment above for what's confirmed vs. outstanding."
 languageUsage:
   - languageCode: zho
     domain: official

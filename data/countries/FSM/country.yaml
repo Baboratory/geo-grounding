@@ -14,7 +14,7 @@ isSovereign: true
 # Pohnpei and Kosrae), each with its own elected government, legislature and
 # state constitution, under the national Constitution and in free association
 # (Compact of Free Association) with the United States. Real ISO 3166-2
-# subdivisions (FM-YAP/FM-CHU/FM-PON/FM-KOS) plus the WHOLE fallback.
+# subdivisions (FM-YAP/FM-CHU/FM-PNI/FM-KSA) plus the WHOLE fallback.
 governanceType: federal
 iso3166_2_prefix: FM
 hasSubdivisions: true
@@ -159,15 +159,15 @@ distinct-regions:
   - code: FM-YAP
     file: distinct-regions/yap.yaml
     adminUnitCodes: [FM-YAP]
-  - code: FM-CHK
+  - code: FM-TRK
     file: distinct-regions/chuuk.yaml
-    adminUnitCodes: [FM-CHK]
-  - code: FM-PON
+    adminUnitCodes: [FM-TRK]
+  - code: FM-PNI
     file: distinct-regions/pohnpei.yaml
-    adminUnitCodes: [FM-PON]
-  - code: FM-KOS
+    adminUnitCodes: [FM-PNI]
+  - code: FM-KSA
     file: distinct-regions/kosrae.yaml
-    adminUnitCodes: [FM-KOS]
+    adminUnitCodes: [FM-KSA]
 sources:
   - id: fsm-constitution
     name: "Constitution of the Federated States of Micronesia"

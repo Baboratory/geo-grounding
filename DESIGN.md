@@ -86,6 +86,26 @@ is what produces a plausible-looking set that systematically misses exactly
 the places that diverge most (the capital is usually the *least* divergent
 unit in the country).
 
+**Exception: a unit already covered as its own country entry.** A handful
+of first-level ISO 3166-2 subdivisions are dependent territories that this
+dataset already gives a full, separate `data/countries/<ALPHA3>/` entry —
+per the "full ISO 3166-1 coverage, dependent territories included as their
+own entries" rule at the top of this file. `CHN`'s `CN-HK` and `CN-MO`
+(Hong Kong, Macao — already `HKG`, `MAC`) and `CN-TW` (Taiwan — already
+`TWN`); `FRA`'s twelve overseas collectivities (`FR-971`/`972`/`973`/`974`/
+`976`, `FR-BL`/`MF`/`NC`/`PF`/`PM`/`TF`/`WF` — already `GLP`/`MTQ`/`GUF`/
+`REU`/`MYT`/`BLM`/`MAF`/`NCL`/`PYF`/`SPM`/`ATF`/`WLF`); `USA`'s six outlying
+areas (`US-AS`/`GU`/`MP`/`PR`/`UM`/`VI` — already `ASM`/`GUM`/`MNP`/`PRI`/
+`UMI`/`VIR`). These do not get a *second* file as a region of their parent —
+that would duplicate, not add, content — and they are not an open gap in
+the parent's coverage either: they are covered, just as a sibling country
+entry rather than a `distinct-regions[]` file. `scripts/region_coverage.py`
+knows this list and reports them as covered, not missing; `regionCoverage.
+totalUnits` still counts them (it is the real ISO total), but `gapReason`
+should not name them as outstanding work. This is a closed, verified list,
+not a pattern to extend by guessing — a subdivision only belongs on it if
+a `data/countries/<ALPHA3>/` entry for it genuinely already exists.
+
 ### Coverage is declared, never implied
 
 Every country with `hasSubdivisions: true` carries a `regionCoverage` block

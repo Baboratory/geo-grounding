@@ -166,9 +166,9 @@ distinct-regions:
   - code: SS-JG
     file: distinct-regions/SS-JG.yaml
     adminUnitCodes: [SS-JG]
-  - code: SS-NB
-    file: distinct-regions/SS-NB.yaml
-    adminUnitCodes: [SS-NB]
+  - code: SS-BN
+    file: distinct-regions/SS-BN.yaml
+    adminUnitCodes: [SS-BN]
   - code: SS-UY
     file: distinct-regions/SS-UY.yaml
     adminUnitCodes: [SS-UY]

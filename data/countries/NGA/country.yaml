@@ -138,7 +138,7 @@ distinct-regions:
     file: distinct-regions/whole.yaml
   - code: NG-N
     file: distinct-regions/north.yaml
-    adminUnitCodes: [NG-BA, NG-BO, NG-JI, NG-KD, NG-KN, NG-KT, NG-KE, NG-NI, NG-SO, NG-YB, NG-ZF]
+    adminUnitCodes: [NG-BA, NG-BO, NG-JI, NG-KD, NG-KN, NG-KT, NG-KE, NG-NI, NG-SO, NG-YO, NG-ZA]
   - code: NG-SW
     file: distinct-regions/southwest.yaml
     adminUnitCodes: [NG-EK, NG-KW, NG-LA, NG-OG, NG-ON, NG-OS, NG-OY]

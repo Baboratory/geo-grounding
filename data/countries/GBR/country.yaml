@@ -9,28 +9,29 @@ flagEmoji: "🇬🇧"
 capital: London
 isSovereign: true
 # Classified unitary-large: population ~68M is far above the threshold, and the
-# devolved nations (England MANDATORY, Scotland, Wales, Northern Ireland) carry
-# a widely recognized cultural-historical regional identity with regional
-# languages (Welsh, Scottish Gaelic, Irish, Scots), so real ISO 3166-2 region
-# files are curated -- England, Scotland and Wales, three of the four home
-# nations (Northern Ireland is not yet curated and falls through to WHOLE) --
-# alongside the WHOLE fallback. The UK
-# is not a federal state (Westminster remains sovereign), hence unitary-large.
+# devolved nations (England, Scotland, Wales, Northern Ireland) carry a widely
+# recognized cultural-historical regional identity with regional languages
+# (Welsh, Scottish Gaelic, Irish, Scots), so real ISO 3166-2 region files are
+# curated for all four home nations, alongside the WHOLE fallback. The UK is
+# not a federal state (Westminster remains sovereign), hence unitary-large.
 governanceType: unitary-large
 iso3166_2_prefix: GB
 hasSubdivisions: true
 regionCoverage:
-  # Count per ISO 3166-2 as of 2026-09. The uncurated units have NOT yet been
-  # tested against DESIGN.md's five coverage triggers -- this declaration records
-  # the gap so it is visible, not a finding that the gap is correct. Pending the
-  # coverage re-audit (see TODO.md).
+  # Assessed 2026-09-23 as part of the coverage-floor pilot (TODO.md). All four
+  # first-level units are now curated: GB-NIR was the only gap, and it clears
+  # trigger 1 (Irish and Ulster Scots hold statutory recognition under the
+  # Identity and Language (Northern Ireland) Act 2022, a status the rest of the
+  # UK doesn't have) and trigger 3 (Northern Ireland is its own legal
+  # jurisdiction with its own courts and devolved criminal justice, distinct
+  # from England & Wales and from Scotland). Trigger 2 was checked and doesn't
+  # clearly fire: NI's plurality religion (Christian, ~80%) is nominally the
+  # same category as the rest of the UK's, even though the denominational mix
+  # and intensity differ sharply -- see the religions[] breakdown in
+  # gb-nir.yaml. Triggers 4/5 don't fire (same time zone, same Koppen class).
   tier: first-level
   totalUnits: 4
-  status: partial
-  gapReason: "3 of 4 first-level units curated. Which of the
-    remaining units fire a coverage trigger has not been assessed yet -- the
-    curated set predates the coverage floor and was chosen by size/capital,
-    not by divergence. Queued for the coverage re-audit."
+  status: complete
 languageUsage:
   - languageCode: eng
     domain: official
@@ -142,6 +143,9 @@ distinct-regions:
   - code: GB-WLS
     file: distinct-regions/gb-wls.yaml
     adminUnitCodes: [GB-WLS]
+  - code: GB-NIR
+    file: distinct-regions/gb-nir.yaml
+    adminUnitCodes: [GB-NIR]
 sources:
   - id: uk-de-facto-official
     name: "English as the de facto official language of the United Kingdom (UK Parliament explainer; no single statute designates it, but it is the language of Parliament, government and law)"

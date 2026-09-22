@@ -134,18 +134,18 @@ communicationStyle:
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml
-  - code: KZ-ALA
+  - code: KZ-75
     file: distinct-regions/kz-ala.yaml
-    adminUnitCodes: [KZ-ALA]
-  - code: KZ-AST
+    adminUnitCodes: [KZ-75]
+  - code: KZ-71
     file: distinct-regions/kz-ast.yaml
-    adminUnitCodes: [KZ-AST]
-  - code: KZ-ATY
+    adminUnitCodes: [KZ-71]
+  - code: KZ-23
     file: distinct-regions/kz-aty.yaml
-    adminUnitCodes: [KZ-ATY, KZ-MAN]
-  - code: KZ-VOS
+    adminUnitCodes: [KZ-23, KZ-47]
+  - code: KZ-63
     file: distinct-regions/kz-vos.yaml
-    adminUnitCodes: [KZ-VOS]
+    adminUnitCodes: [KZ-63]
 sources:
   - id: kaz-constitution
     name: "Constitution of the Republic of Kazakhstan (1995, as amended), Article 7"

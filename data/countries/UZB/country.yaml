@@ -125,9 +125,9 @@ distinct-regions:
   - code: UZ-FA
     file: distinct-regions/uz-fa.yaml
     adminUnitCodes: [UZ-FA, UZ-NG, UZ-AN]
-  - code: UZ-SM
+  - code: UZ-SA
     file: distinct-regions/uz-sm.yaml
-    adminUnitCodes: [UZ-SM, UZ-BU]
+    adminUnitCodes: [UZ-SA, UZ-BU]
 sources:
   - id: uzb-constitution
     name: "Constitution of the Republic of Uzbekistan (2023 edition), Article 4; Law 'On the State Language'"

@@ -1,0 +1,132 @@
+code: GB-NIR
+name:
+  eng: Northern Ireland
+  local:
+    - languageCode: gle
+      value: Tuaisceart Éireann
+    - languageCode: eng
+      value: Northern Ireland
+climates:
+  - koppenCode: Cfb
+    description: Temperate oceanic climate, mild and rainy year-round with cool summers, same broad zone as the rest of the UK.
+landmarks:
+  - name: Giant's Causeway
+    description: Around 40,000 interlocking basalt columns on the Antrim coast, formed by volcanic activity some 60 million years ago; Northern Ireland's first UNESCO World Heritage Site (inscribed 1986).
+    unescoWorldHeritage: true
+  - name: Titanic Belfast
+    description: A museum on the Belfast shipyard slipway where RMS Titanic was built and launched in 1911.
+  - name: The Dark Hedges
+    description: An avenue of gnarled beech trees near Armoy, planted in the 18th century, now a well-known filming location.
+  - name: Mourne Mountains
+    description: "A granite mountain range in County Down, the highest in Northern Ireland (Slieve Donard, 850m)."
+  - name: "Stormont (Parliament Buildings)"
+    description: Seat of the devolved Northern Ireland Assembly and Executive, on the Stormont Estate outside Belfast.
+culturalTraits:
+  - "Northern Ireland is a distinct legal jurisdiction within the UK, with its own courts, criminal justice system and devolved legislative Assembly, separate from both England & Wales and Scotland"
+  - "Irish and Ulster Scots hold statutory recognition under the Identity and Language (Northern Ireland) Act 2022, with an Irish Language Commissioner established in 2025 — a status distinct from the rest of the UK"
+  - "A post-conflict society shaped by the Troubles (c. 1968-1998) and the 1998 Good Friday/Belfast Agreement, with power-sharing government between unionist and nationalist traditions"
+  - "Gaelic games (Gaelic football, hurling) are widely followed alongside association football and rugby, unlike the rest of the UK"
+prideOf:
+  - "The peace process and power-sharing government, achieved after decades of conflict"
+  - "The Giant's Causeway and the Causeway Coast"
+  - "Titanic heritage and Belfast's shipbuilding and engineering legacy"
+  - "A strong literary and musical tradition (Seamus Heaney, C.S. Lewis, Van Morrison)"
+animals:
+  popular:
+    - Irish hare
+    - Red squirrel
+  unique:
+    - "Corncrake (rare breeding bird, most of its remaining UK range is on Rathlin Island)"
+    - "Basking shark (seasonal visitor off the north Antrim coast)"
+industries:
+  - "Aerospace manufacturing (Spirit AeroSystems/former Bombardier, Belfast — a major UK aerospace hub)"
+  - "Agri-food and dairy processing"
+  - "Financial technology and professional services (Belfast fintech cluster)"
+  - "Film and TV production (screen tourism, studio facilities around Belfast)"
+  - "Tourism (Causeway Coast, Titanic Quarter, Mourne Mountains)"
+sports:
+  - "Gaelic football and hurling (GAA)"
+  - "Association football (Irish League; Northern Ireland national team)"
+  - "Rugby union (Ulster Rugby)"
+  - "Boxing (a strong amateur and professional tradition)"
+entertainment:
+  - season: allYear
+    items:
+      - "Game of Thrones filming-location tourism (much of the series was shot in Northern Ireland)"
+      - "Belfast's live-music and festival scene"
+  - season: summer
+    items:
+      - "The Twelfth of July (Orangemen's Day) parades, a major unionist/loyalist cultural event"
+      - "Féile an Phobail, Belfast's community arts festival (August)"
+  - season: spring
+    items:
+      - "St Patrick's Day celebrations (17 March)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ulster fry (bacon, egg, sausage, soda bread, potato bread, black/white pudding)"
+      - "Champ (mashed potato with spring onion and butter)"
+      - "Yellowman (honeycomb toffee), traditionally sold at the Auld Lammas Fair"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Broadly shares British/Irish everyday dress; formal wear follows UK conventions"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+religions:
+  - name: Catholic
+    percent: 42.3
+    sourceId: nisra-census-2021-religion
+  - name: Presbyterian
+    percent: 16.6
+    sourceId: nisra-census-2021-religion
+  - name: Church of Ireland
+    percent: 11.5
+    sourceId: nisra-census-2021-religion
+  - name: Other Christian
+    percent: 9.3
+    sourceId: nisra-census-2021-religion
+  - name: Other religion
+    percent: 1.3
+    sourceId: nisra-census-2021-religion
+  - name: No religion
+    percent: 17.4
+    sourceId: nisra-census-2021-religion
+  - name: Not stated
+    percent: 1.5
+    sourceId: nisra-census-2021-religion
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Broadly the same as the rest of the UK, 9:00am-5:00pm; a somewhat more relaxed pace than London is often noted by visitors."
+  lunchBreakTiming: "A standard c. 1-hour lunch break is typical in offices."
+  notableShutdownPeriods:
+    - period: "The Twelfth of July fortnight"
+      description: "Many workplaces close or run reduced hours around the Twelfth of July holiday and the school-summer changeover."
+    - period: "Christmas/New Year"
+      description: "Public holidays on Christmas Day and Boxing Day, as in the rest of the UK."
+  notes: "Northern Ireland, like Scotland, has no statutory Sunday-trading-hours restriction of the kind that applies to large shops in England and Wales — large stores may open as they choose on Sundays (see the country-level 'Sunday trading' legalConstraints entry)."
+  sourceIds:
+    - uk-sunday-trading-act
+sources:
+  - id: nisra-census-2021-religion
+    name: "Census 2021 Main Statistics for Northern Ireland: Religion"
+    publisher: "Northern Ireland Statistics and Research Agency (NISRA)"
+    url: "https://www.nisra.gov.uk/publications/census-2021-main-statistics-religion-tables"
+    year: 2021
+    accessedDate: "2026-09-23"
+    note: "Religion (current, not religion-brought-up-in) shares for Northern Ireland: Catholic 42.3%, Presbyterian 16.6%, Church of Ireland 11.5%, Methodist and other Christian denominations combined into 'Other Christian' 9.3% (2.4% Methodist + 6.9% other Christian in NISRA's own breakdown), other religions 1.3%, no religion 17.4%, not stated 1.5%."
+  - id: uk-sunday-trading-act
+    name: "Sunday Trading Act 1994 (England & Wales rules); Northern Ireland self-determined"
+    publisher: "UK government (legislation.gov.uk)"
+    url: "https://www.legislation.gov.uk/ukpga/1994/20"
+    year: 1994
+    accessedDate: "2026-09-23"
+    note: "Confirms Northern Ireland is outside the England & Wales large-shop Sunday-hours restriction, same source already cited at country level for this fact."

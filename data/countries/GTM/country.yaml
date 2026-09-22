@@ -16,8 +16,8 @@ isSovereign: true
 # recognized cultural-historical regional identity — 41.7% Maya across 22
 # linguistic communities with strong department-level identity. The state is
 # constitutionally unitary (22 departments, 340 municipalities) so NOT federal.
-# Curated regions: Guatemala (GT-GU, capital), Quetzaltenango (GT-QZ, K'iche'/Mam
-# highlands), Petén (GT-PE, northern lowlands/Tikal) + the generic WHOLE fallback.
+# Curated regions: Guatemala (GT-01, capital), Quetzaltenango (GT-09, K'iche'/Mam
+# highlands), Petén (GT-17, northern lowlands/Tikal) + the generic WHOLE fallback.
 governanceType: unitary-large
 iso3166_2_prefix: "GT"
 hasSubdivisions: true
@@ -140,15 +140,15 @@ communicationStyle:
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml
-  - code: GT-GU
+  - code: GT-01
     file: distinct-regions/gt-gu.yaml
-    adminUnitCodes: [GT-GU]
-  - code: GT-QZ
+    adminUnitCodes: [GT-01]
+  - code: GT-09
     file: distinct-regions/gt-qz.yaml
-    adminUnitCodes: [GT-QZ]
-  - code: GT-PE
+    adminUnitCodes: [GT-09]
+  - code: GT-17
     file: distinct-regions/gt-pe.yaml
-    adminUnitCodes: [GT-PE]
+    adminUnitCodes: [GT-17]
 sources:
   - id: ine-censo-2018
     name: "XII Censo Nacional de Población y VII de Vivienda 2018 — Resultados (pueblo de pertenencia & comunidades lingüísticas)"
