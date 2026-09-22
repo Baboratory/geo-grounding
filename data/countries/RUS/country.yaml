@@ -39,11 +39,13 @@ regionCoverage:
   tier: first-level
   totalUnits: 83
   status: partial
-  gapReason: "4 of 83 curated (2 of the 21 republics that fire trigger 1,
-    plus the 2 largest cities). 19 more republics confirmed to fire
-    trigger 1 (constitutional right to a state language) and need
-    curating; ~58 non-republic units still need individual assessment.
-    See the comment above for what's confirmed vs. outstanding."
+  gapReason: "6 of 83 curated (4 of the 21 republics — Tatarstan, Sakha,
+    Kalmykia, North Ossetia — that fire trigger 1, two of which (Kalmykia,
+    North Ossetia) also fire trigger 2 on plurality religion, plus the 2
+    largest cities). 17 more republics confirmed to fire trigger 1
+    (constitutional right to a state language) and need curating; ~58
+    non-republic units still need individual assessment. See the comment
+    above for what's confirmed vs. outstanding."
 languageUsage:
   - languageCode: rus
     domain: official
@@ -167,6 +169,12 @@ distinct-regions:
   - code: RU-SPE
     file: distinct-regions/ru-spe.yaml
     adminUnitCodes: [RU-SPE]
+  - code: RU-KL
+    file: distinct-regions/ru-kl.yaml
+    adminUnitCodes: [RU-KL]
+  - code: RU-SE
+    file: distinct-regions/ru-se.yaml
+    adminUnitCodes: [RU-SE]
 sources:
   - id: rus-constitution-art68
     name: "Constitution of the Russian Federation, Article 68"
