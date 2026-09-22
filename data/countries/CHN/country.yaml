@@ -1,0 +1,136 @@
+alpha3: CHN
+alpha2: CN
+name:
+  eng: China
+  local:
+    - languageCode: zho
+      value: 中国 (Zhōngguó)
+flagEmoji: "🇨🇳"
+capital: Beijing
+isSovereign: true
+# Classified unitary-large: the People's Republic of China is a unitary
+# socialist republic whose 23 provinces, autonomous regions and
+# direct-administered municipalities are first-tier administrative units with
+# NO residual sovereignty (all authority flows from the central State Council
+# and the ruling Party-state; there is no federal division of powers). But the
+# population (~1.41-1.43 billion, 2020 census) is orders of magnitude above the
+# small-state threshold, and there is a genuine, widely recognized
+# cultural-historical regional and ethnic diversity (Cantonese/Yue and other
+# Sinitic regional identities, Tibet, Xinjiang/Uyghur, Inner Mongolia,
+# Guangxi/Zhuang). Curated regions are real ISO 3166-2 subdivisions: CN-BJ
+# Beijing, CN-SH Shanghai, CN-GD Guangdong, CN-SC Sichuan + WHOLE. Standard
+# Chinese (Putonghua) is the 'countrywide common spoken and written language'
+# per the Law on the Standard Spoken and Written Chinese Language (2000, amended
+# 2025); minority languages are constitutionally protected for use.
+governanceType: unitary-large
+iso3166_2_prefix: CN
+hasSubdivisions: true
+languageUsage:
+  - languageCode: zho
+    domain: official
+    # Standard Chinese (Putonghua, based on the Beijing dialect of Mandarin) is
+    # the national common language designated by the Law on the Standard Spoken
+    # and Written Chinese Language. Flagged 1.0 as legal/administrative status.
+    speakersShare: 1.0
+    sourceId: npc-language-law
+  - languageCode: cmn
+    domain: locallySpoken
+    # The 2020 census / linguistic surveys report Mandarin (Putonghua plus the
+    # broader Mandarin family) as spoken by ~80% of the population; the
+    # standardized common language reaches roughly 85% proficiency. Treated as
+    # a qualitative local-usage share; the exact figure varies by survey.
+    speakersShare: 0.80
+    sourceId: npc-language-law
+# zho and cmn are both in the pool: zho is the ISO 639-3 macrolanguage 'Chinese'
+# (used as the official-domain row consistent with other dataset entries), cmn
+# is 'Mandarin' the standardized dialect spoken most widely. Grouped under the
+# macrolanguage for official status per ISO 639 conventions.
+timezones:
+  - name: Asia/Shanghai
+    standardUtcOffset: "UTC+8"
+    observesDst: false
+  - name: Asia/Urumqi
+    standardUtcOffset: "UTC+6"
+    # Officially the whole PRC observes UTC+8 (Beijing Time), but Xinjiang
+    # commonly operates on unofficial UTC+6 local time.
+    observesDst: false
+currency:
+  code: CNY
+  symbol: "¥"
+  name: Chinese yuan (renminbi)
+legalConstraints:
+  - topic: "official language"
+    description: "The Law on the Standard Spoken and Written Chinese Language (2000, amended 2025) designates Standard Chinese (Putonghua) and standard written characters as the countrywide common language; all state organs, schools and public media use it. The Constitution also guarantees the ethnic minority groups' freedom to use and develop their own languages and scripts."
+    sourceId: npc-language-law
+  - topic: "consumer protection"
+    description: "The Law on the Protection of Consumer Rights and Interests (1993, revised 2013) protects consumers against fraud and substandard goods, establishes rights of complaint and compensation, and assigns enforcement to the State Administration for Market Regulation (SAMR), which also enforces advertising and price-law rules against deceptive marketing."
+    sourceId: samr-consumer
+  - topic: "data protection"
+    description: "The Personal Information Protection Law (PIPL, 2021) is China's comprehensive data-protection statute, imposing consent-based obligations on personal-information processors, cross-border transfer rules, and duties on 'important' personal data; the Cybersecurity Law (2017) and Data Security Law (2021) complete the framework, with the Cyberspace Administration of China (CAC) supervising."
+    sourceId: npc-pipl2021
+  - topic: "VAT"
+    description: "A value-added tax (VAT) with a standard 13% rate applies to most goods; services and many transfers use a 9% or 6% band, with the lowest 3% for small-scale taxpayers; imported essential goods and some services may be exempt. The rate structure is set under the Interim Regulations on VAT."
+    sourceId: stats-china-vat
+paymentCulture:
+  popularMethods:
+    - "QR-code mobile payments dominate — Alipay and WeChat Pay are accepted almost everywhere, from large retailers to street stalls"
+    - "Cash is legal but increasingly little-used, especially in cities"
+    - "UnionPay cards and bank apps support transfers and payments"
+  tipping:
+    expected: false
+    typicalAmount: "None — tipping is not customary or expected in China and is generally not practiced"
+    autoIncludedInBill: true
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Hierarchy-aware and indirect. Titles, seniority and respect ('face', mianzi) matter deeply; communication tends to be courteous, harmonious and non-confrontational, with meaning often implied rather than stated bluntly."
+  greetingNorms: "A handshake or a nod with a polite 'nǐ hǎo' (你好) is standard; business cards are exchanged with both hands, and people are usually addressed by title and surname (e.g. 'Manager Li')."
+  meetingEtiquette: "Punctuality is important. Meetings are formal, open with pleasantries and place emphasis on building relationships and trust (guanxi); the most senior person typically speaks last and decisions rest with authority. Indirect disagreement is the norm rather than open debate."
+  topicsToAvoid:
+    - "Directly criticising a senior or openly challenging authority in front of others"
+    - "Sensitive political and historical topics (Tibet, Xinjiang, Taiwan, Tiananmen)"
+    - "Gift-giving corruption (bribery) and boastful personal claims"
+  giftGivingNotes: "Gift-giving is significant for relationship-building (guanxi); modest, well-packaged gifts are appreciated. Avoid clocks, white flowers and items in sets of four (associated with death), and 'singing' numbers of money; refuse-gracefully-then-accept gift etiquette applies."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: CN-BJ
+    file: distinct-regions/cn-bj.yaml
+    adminUnitCodes: [CN-BJ]
+  - code: CN-SH
+    file: distinct-regions/cn-sh.yaml
+    adminUnitCodes: [CN-SH]
+  - code: CN-GD
+    file: distinct-regions/cn-gd.yaml
+    adminUnitCodes: [CN-GD]
+  - code: CN-SC
+    file: distinct-regions/cn-sc.yaml
+    adminUnitCodes: [CN-SC]
+sources:
+  - id: npc-language-law
+    name: "Law of the People's Republic of China on the Standard Spoken and Written Chinese Language (2000, amended 2025)"
+    publisher: "National People's Congress of the PRC (via Chinese government legal portals / PKU Law)"
+    url: "https://www.gov.cn/"
+    year: 2025
+    accessedDate: "2026-09-21"
+    note: "Designates Putonghua as the countrywide common spoken and written language; minority-language constitutional protection noted."
+  - id: samr-consumer
+    name: "Law on the Protection of Consumer Rights and Interests (1993, revised 2013)"
+    publisher: "State Administration for Market Regulation (SAMR), PRC"
+    url: "https://www.samr.gov.cn/"
+    year: 2013
+    accessedDate: "2026-09-21"
+    note: "Consumer-rights law with enforcement by SAMR against fraud, substandard goods and deceptive marketing."
+  - id: npc-pipl2021
+    name: "Personal Information Protection Law of the PRC (PIPL, 2021)"
+    publisher: "National People's Congress of the PRC (via Chinese government legal portals)"
+    url: "https://www.gov.cn/"
+    year: 2021
+    accessedDate: "2026-09-21"
+    note: "China's comprehensive personal-data law: consent, cross-border transfer rules, important-data duties; with Cybersecurity Law 2017 and Data Security Law 2021."
+  - id: stats-china-vat
+    name: "China VAT rates — value-added tax"
+    publisher: "State Taxation Administration, PRC (via official tax guidance)"
+    url: "https://www.chinatax.gov.cn/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Standard 13% VAT on goods; 9%/6% bands for services and some items; 3% for small-scale taxpayers."

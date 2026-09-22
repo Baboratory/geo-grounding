@@ -1,0 +1,110 @@
+code: CN-SC
+name:
+  eng: Sichuan Province
+  local:
+    - languageCode: zho
+      value: 四川省 (Sìchuān Shěng)
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate in the Sichuan Basin, with hot humid summers, mild winters and frequent cloudy/misty weather."
+  - koppenCode: Cwb
+    description: "Highland temperate climate in the mountains of western Sichuan, cooler and wetter."
+landmarks:
+  - name: Chengdu Research Base of Giant Panda Breeding
+    description: "The world-famous panda conservation and research centre, home to the beloved giant panda."
+  - name: Leshan Giant Buddha
+    description: "The colossal 71m stone Buddha carved into the cliff at Leshan, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Jiuzhaigou Valley
+    description: "A fairy-tale gorge of turquoise lakes and waterfalls, a UNESCO World Heritage Site and national park."
+    unescoWorldHeritage: true
+  - name: Mount Emei
+    description: "One of China's four sacred Buddhist mountains, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "The birthplace of Sichuan cuisine, famous worldwide for its numbing-and-spicy (mala) flavour"
+  - "A relaxed, tea-house culture and love of leisure (mahjong, hotpot)"
+  - "Home of the giant panda and a proud, hospitable Sichuanese identity"
+prideOf:
+  - "Sichuan cuisine and hotpot culture"
+  - "The giant panda and the province's spectacular natural parks"
+  - "A famously easy-going, fun-loving spirit"
+animals:
+  popular:
+    - "Giant panda"
+    - "Red panda"
+  unique:
+    - "Giant panda (Sichuan is the species' stronghold)"
+    - "Sichuan takin (a large mountain ungulate)"
+industries:
+  - "Agriculture (rice, tea, Sichuan peppercorn)"
+  - "Manufacturing and electronics (Chengdu's tech parks)"
+  - "Food and beverage (hotpot, fermented bean and chilli industries)"
+  - "Energy and hydropower"
+  - "Tourism (pandas, Jiuzhaigou)"
+sports:
+  - "Football (Chengdu)"
+  - "Table tennis"
+  - "Wushu and tai chi"
+  - "Mahjong (a beloved leisure pastime)"
+entertainment:
+  - season: allYear
+    items:
+      - "Tea houses and mahjong parlours are at the heart of Chengdu life"
+      - "Hotpot dining out and Sichuan opera (including face-changing)"
+  - season: spring
+    items:
+      - "Mild spring outings and blossom viewing"
+  - season: summer
+    items:
+      - "Mountain escapes to western Sichuan's cool highlands"
+  - season: autumn
+    items:
+      - "Jiuzhaigou's spectacular autumn colours"
+  - season: winter
+    items:
+      - "Hotpot at its most satisfying, and panda-viewing in the cool season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sichuan hotpot, mapo tofu, kung pao chicken and dan dan noodles"
+      - "The numbing heat of Sichuan peppercorn and chilli — 'mala' flavour"
+      - "Local teas and panda-themed pastries"
+  - season: winter
+    items:
+      - "Hotpot is at its peak in the cold months"
+  - season: summer
+    items:
+      - "Cooling cold noodles and summer refreshments"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Relaxed, casual urban clothing appropriate to a mild, misty climate"
+  - season: summer
+    items:
+      - "Light breathable clothing for the hot humid basin summers"
+  - season: winter
+    items:
+      - "Layers and a light jacket for the mild but damp winters"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Office and business hours run 09:00-18:00 Monday-Friday, with tea breaks and an unhurried pace; tech parks in Chengdu follow standard hours."
+  lunchBreakTiming: "A lunch break around 12:00 is typical, often a hearty meal given the cuisine-focused culture."
+sources:
+  - id: visit-sichuan
+    name: "Sichuan / Chengdu tourism"
+    publisher: "Sichuan Provincial Department of Culture and Tourism"
+    url: "https://www.sichuan.gov.cn/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Sichuan."

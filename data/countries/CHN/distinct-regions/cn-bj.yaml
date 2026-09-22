@@ -1,0 +1,105 @@
+code: CN-BJ
+name:
+  eng: Beijing Municipality
+  local:
+    - languageCode: zho
+      value: 北京市 (Běijīng Shì)
+climates:
+  - koppenCode: Dwa
+    description: "Monsoon-influenced humid continental climate, with hot humid summers, cold dry winters and crisp autumns."
+landmarks:
+  - name: Forbidden City
+    description: "The imperial palace complex of the Ming and Qing dynasties, the largest ancient palatial structure in the world and a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Tiananmen Square
+    description: "The vast central city square, fronting the National Museum and the Great Hall of the People."
+  - name: Temple of Heaven
+    description: "The exquisite Ming-dynasty sacrificial complex, a UNESCO World Heritage Site of circular halls."
+    unescoWorldHeritage: true
+  - name: Summer Palace
+    description: "The landscaped imperial garden on Kunming Lake, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Great Wall (Badaling/Mutianyu)
+    description: "The best-known sections of the Great Wall, an easy day trip from Beijing."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "The political, cultural and historical capital of China, seat of national government"
+  - "A city of imperial palaces, hutong lanes and world-class museums"
+  - "A global capital hosting major institutions and culture"
+prideOf:
+  - "Being the national capital and guardian of China's most iconic heritage"
+  - "The Forbidden City, Great Wall and the Olympic legacy (2008, 2022)"
+  - "A lively cultural and intellectual scene"
+animals:
+  popular:
+    - "Pekingese dog (historically a palace breed)"
+  unique:
+    - "Beijing's urban parks host the Chinese bulbul and magpies"
+industries:
+  - "Government and public administration"
+  - "Technology and innovation (Zhongguancun, 'China's Silicon Valley')"
+  - "Finance and corporate headquarters"
+  - "Media, education and research"
+  - "Tourism"
+sports:
+  - "Table tennis"
+  - "Basketball"
+  - "Skiing and winter sports (hosted the 2022 Winter Olympics in Zhangjiakou/Beijing)"
+  - "Traditional martial arts (tai chi)"
+entertainment:
+  - season: allYear
+    items:
+      - "The National Museum, Forbidden City and hutong walks"
+      - "Peking opera and the modern cultural scene"
+  - season: spring
+    items:
+      - "Cherry and apricot blossoms in the parks"
+  - season: autumn
+    items:
+      - "The famed golden autumn colours on the Great Wall and in the parks (Beijing's finest season)"
+  - season: winter
+    items:
+      - "Hutongs under snow and Chinese New Year in the capital"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Peking duck (the city's most famous dish)"
+      - "Jianbing (breakfast crepe), zhajiangmian (noodles) and hotpot"
+  - season: autumn
+    items:
+      - "Roast chestnuts and the season's hearty fare"
+  - season: winter
+    items:
+      - "Hotpot and dumplings for Chinese New Year"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern urban dress; light cultural wear on festivals"
+  - season: winter
+    items:
+      - "Heavy coats, scarves and warm layers for the cold dry winter"
+  - season: summer
+    items:
+      - "Light breathable clothing for the hot humid summer"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices run 09:00-18:00 Monday-Friday; the tech sector often follows longer '996' hours."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
+sources:
+  - id: visit-beijing
+    name: "Beijing — official tourism"
+    publisher: "Beijing Municipal Culture and Tourism Bureau"
+    url: "https://english.visitbeijing.com.cn/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Beijing."

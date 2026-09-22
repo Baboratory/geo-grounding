@@ -1,0 +1,95 @@
+code: IN-MH
+name:
+  eng: Maharashtra
+  local:
+    - languageCode: mar
+      value: महाराष्ट्र
+climates:
+  - koppenCode: Aw
+    description: "Tropical climate across the Deccan plateau and Mumbai coast, with a hot dry season and a strong southwest monsoon."
+  - koppenCode: BSh
+    description: "Hot semi-arid climate in the rainshadow districts of central and eastern Maharashtra."
+landmarks:
+  - name: Gateway of India
+    description: "The iconic arch monument on Mumbai's waterfront, built to commemorate King George V's 1911 visit."
+  - name: Ajanta and Ellora Caves
+    description: "Ancient Buddhist, Hindu and Jain rock-cut cave temples in Maharashtra, both UNESCO World Heritage Sites."
+    unescoWorldHeritage: true
+  - name: Elephanta Caves
+    description: "A UNESCO World Heritage Site of cave temples dedicated to Shiva on Elephanta Island in Mumbai harbour."
+    unescoWorldHeritage: true
+  - name: Marine Drive
+    description: "Mumbai's curving seaside boulevard, the 'Queen's Necklace', a favourite evening promenade."
+culturalTraits:
+  - "Home to Mumbai, India's financial capital and film (Bollywood) industry"
+  - "A dynamic commercial hub with a strong Marathi cultural identity"
+  - "A mix of historic forts, temples and modern urban energy"
+prideOf:
+  - "Mumbai's energy, finance and the film industry"
+  - "Maharashtra's literary, theatrical and culinary heritage (Marathi culture)"
+  - "The Ganesh Chaturthi festival, celebrated with great fervour in Mumbai"
+animals:
+  popular:
+    - "Bengal tiger (in the tiger reserves of central India)"
+  unique:
+    - "Indian gaur (the largest wild cattle species, in forest reserves)"
+industries:
+  - "Financial services and the Reserve Bank of India (Mumbai)"
+  - "Film and entertainment (Bollywood)"
+  - "Information technology and manufacturing"
+  - "Petrochemicals and ports"
+  - "Agriculture (cotton, sugarcane, grapes)"
+sports:
+  - "Cricket (Mumbai is the heartland of Indian cricket)"
+  - "Football (popular in Mumbai and Pune)"
+  - "Kabaddi and wrestling"
+entertainment:
+  - season: allYear
+    items:
+      - "Bollywood cinema, music and the arts"
+      - "Mumbai's nightlife, street food and Marine Drive promenades"
+  - season: dry
+    items:
+      - "Heritage and wine tours in the cooler dry months (including Nashik)"
+  - season: wet
+    items:
+      - "The monsoon transforms the green hill stations and waterfalls"
+  - season: winter
+    items:
+      - "Ganesh Chaturthi (August-September) and winter festival travel"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Vada pav (Mumbai's iconic street food), misal pav and pav bhaji"
+      - "Seafood and coastal fish curries"
+      - "Puran poli (sweet flatbread) and modak"
+  - season: wet
+    items:
+      - "Monsoon street snacks and hot chai in the rain"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The kashta (Mumbai-style saree drape) and Nauvari saree; light cotton wear in the heat"
+  - season: wet
+    items:
+      - "Rainproof clothing for the heavy monsoon"
+seasonCalendar:
+  - season: dry
+    months: [3, 4, 5, 6]
+  - season: wet
+    months: [7, 8, 9, 10, 11, 12]
+  - season: winter
+    months: [1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Mumbai's financial and corporate sector runs 09:30-18:00 Monday-Friday, with many working extended hours."
+  lunchBreakTiming: "A lunch break around 13:00-14:00 is common, often a tiffin delivery or local vada pav/meal."
+sources:
+  - id: maharashtra-tourism
+    name: "Maharashtra Tourism Development Corporation"
+    publisher: "Maharashtra Tourism Development Corporation (MTDC)"
+    url: "https://www.maharashtratourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Maharashtra."

@@ -1,0 +1,138 @@
+code: WHOLE
+name:
+  eng: India
+  local:
+    - languageCode: hin
+      value: भारत (Bhārat)
+    - languageCode: eng
+      value: India
+# Generic country-wide fallback content for India (federal with a curated
+# subset of states/union territories). National-level coverage not specific to
+# any one state or the user's detected subdivision.
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate across much of the peninsula and the central Deccan, with a hot dry season and a pronounced summer monsoon wet season."
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate across the northern plains (Gangetic belt), with hot summers, a strong wet monsoon and cool dry winters."
+  - koppenCode: BSh
+    description: "Hot semi-arid steppe climate in parts of the northwest and the Deccan rain shadow, hot and dry with erratic rain."
+  - koppenCode: Cwb
+    description: "Temperate highland climate in the Himalayan and hill regions, mild with distinct seasons."
+landmarks:
+  - name: Taj Mahal
+    description: "The iconic white-marble mausoleum in Agra, a UNESCO World Heritage Site and global symbol of Mughal architecture."
+    unescoWorldHeritage: true
+  - name: Red Fort (Delhi)
+    description: "The historic Mughal fort in Old Delhi, a UNESCO World Heritage Site and the site of annual Independence Day ceremonies."
+    unescoWorldHeritage: true
+  - name: Qutub Minar
+    description: "A 13th-century minaret complex in Delhi, the tallest brick minaret in the world and a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Jaipur's Amber Fort
+    description: "The majestic hilltop fort of the Amber Palace near Jaipur, a highlight of Rajasthan's heritage."
+  - name: Golden Temple (Amritsar)
+    description: "The holiest Sikh shrine, the Harmandir Sahib, whose gold-covered sanctum sits in a sacred pool in Punjab."
+culturalTraits:
+  - "A vast, diverse federal republic with 22 scheduled languages and hundreds of regional traditions"
+  - "Deep spiritual heritage — Hinduism, Islam, Sikhism, Buddhism, Jainism and more coexist"
+  - "A rich cinematic (Bollywood), culinary, textile and festival culture"
+  - "Strong family and community bonds, hospitality and reverence for tradition alongside a modern tech boom"
+prideOf:
+  - "An ancient civilisation and one of the world's largest, most diverse democracies"
+  - "World-class cricket, film and cuisine; the IT and space programme"
+  - "Festivals, textiles, spices and the warmth of Indian hospitality"
+animals:
+  popular:
+    - "Bengal tiger"
+    - "Indian elephant"
+    - "Peacock (national bird)"
+  unique:
+    - "Asiatic lion (last wild population in Gujarat's Gir Forest)"
+    - "One-horned rhinoceros (in Assam's Kaziranga)"
+    - "Ganges river dolphin"
+industries:
+  - "Information technology and software services (a global leader)"
+  - "Digital services and fintech (UPI payments)"
+  - "Agriculture (a world-leading producer of rice, wheat, cotton and spices)"
+  - "Textiles and garments"
+  - "Pharmaceuticals"
+  - "Tourism"
+sports:
+  - "Cricket (a national obsession)"
+  - "Field hockey"
+  - "Badminton"
+  - "Kabaddi and wrestling"
+  - "Football (soccer, growing fast)"
+entertainment:
+  - season: allYear
+    items:
+      - "Bollywood and regional cinema, music and dance"
+      - "Festivals: Diwali, Holi, Eid, Onam, Durga Puja and regional fairs"
+  - season: dry
+    items:
+      - "Wildlife safaris and heritage tours in the cooler dry months"
+  - season: wet
+    items:
+      - "Monsoon landscapes, rain-fed greenery and rainy-season festivals"
+  - season: winter
+    items:
+      - "Festival season and pleasant winter travel"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Curries, dals, rice and breads (naan, roti, paratha) varying by region"
+      - "Biryani, tandoori dishes, samosas and chai"
+      - "Sweets such as gulab jamun, jalebi and laddoo"
+  - season: dry
+    items:
+      - "Light meals and cooling drinks; street food at its most popular"
+  - season: wet
+    items:
+      - "Monsoon snacks: pakoras, roasted corn and spiced tea"
+  - season: winter
+    items:
+      - "Hearty dishes, winter vegetables (sarson ka saag) and gajar ka halwa"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The sari for women and kurta-pyjama in the north; western dress is common in cities"
+      - "Men often wear shirts and trousers; formal occasions feature traditional wear"
+  - season: dry
+    items:
+      - "Light, breathable cottons for the heat"
+  - season: wet
+    items:
+      - "Rainwear and quick-drying light clothes for the monsoon"
+  - season: winter
+    items:
+      - "Layers, shawls and light jackets in the cooler north"
+seasonCalendar:
+  - season: dry
+    months: [3, 4, 5, 6]
+  - season: wet
+    months: [7, 8, 9, 10, 11, 12]
+  - season: winter
+    months: [1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Generally 09:30-18:00 Monday-Saturday in many sectors, with a mix; most state and central offices run 09:00-17:30 Monday-Friday. Sunday is the common weekly rest."
+  lunchBreakTiming: "A midday lunch break around 13:00 is common, often a tiffin or meal delivered to the office."
+  notableShutdownPeriods:
+    - period: "Festival holidays (Diwali in October-November, and regional festivals)"
+      description: "Major festivals bring widespread closures; Diwali is the largest, with many businesses closing for several days."
+sources:
+  - id: incredible-india
+    name: "Incredible India — official tourism website"
+    publisher: "Ministry of Tourism, Government of India"
+    url: "https://www.incredibleindia.org/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, festivals, food, culture and seasonal highlights for the WHOLE region."
+  - id: unesco-whc-ind
+    name: "India — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/in"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies India's UNESCO World Heritage properties, including the Taj Mahal, Red Fort and Qutub Minar."

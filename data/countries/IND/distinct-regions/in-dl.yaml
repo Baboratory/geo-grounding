@@ -1,0 +1,104 @@
+code: IN-DL
+name:
+  eng: Delhi (National Capital Territory)
+  local:
+    - languageCode: hin
+      value: दिल्ली
+    - languageCode: urd
+      value: دہلی
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical climate on the northern plains, with very hot summers, a strong monsoon and cool, foggy winters."
+landmarks:
+  - name: Red Fort (Lal Qila)
+    description: "The historic Mughal fort in Old Delhi, a UNESCO World Heritage Site and site of Independence Day celebrations."
+    unescoWorldHeritage: true
+  - name: Qutub Minar
+    description: "The 13th-century victory minaret complex, the tallest brick minaret in the world and a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: India Gate
+    description: "The war memorial arch on Kartavya Path, an iconic symbol of Delhi."
+  - name: Humayun's Tomb
+    description: "The exquisite Mughal garden tomb, a UNESCO World Heritage Site and precursor of the Taj Mahal."
+    unescoWorldHeritage: true
+  - name: Akshardham Temple
+    description: "A grand modern Hindu temple complex, famed for its architecture and light-and-water show."
+culturalTraits:
+  - "India's capital and seat of national government, at the crossroads of Old Delhi's Mughal heritage and New Delhi's modern avenues"
+  - "A political, diplomatic and cultural powerhouse"
+  - "Famous for its monuments, markets (Chandni Chowk), cuisine and a strong Metro system"
+prideOf:
+  - "Being the national capital and the beating heart of Indian politics"
+  - "A layered history spanning the Delhi Sultanate, Mughals, colonial era and modern republic"
+  - "Iconic landmarks and its world-class Delhi Metro"
+animals:
+  popular:
+    - "Nilgai (blue bull)"
+  unique:
+    - "Saras / sarus crane (occasional wetland visitor)"
+industries:
+  - "Government and public administration"
+  - "Information technology and services"
+  - "Media, publishing and the arts"
+  - "Retail and commerce"
+  - "Education and research"
+sports:
+  - "Cricket"
+  - "Field hockey"
+  - "Football (growing)"
+entertainment:
+  - season: allYear
+    items:
+      - "Heritage monuments, museums and the National Gallery of Modern Art"
+      - "Dilli Haat crafts bazaars and the food streets of Old Delhi"
+  - season: dry
+    items:
+      - "Outdoor heritage walks in the pleasant cool dry months"
+  - season: wet
+    items:
+      - "The monsoon briefly greens the city and cools the heat"
+  - season: winter
+    items:
+      - "Winter festivals, folk performances and Republic Day (26 January) celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Chaat and street food: gol-gappa, aloo tikki and chole bhature"
+      - "Butter chicken and kebabs of Old Delhi (Mughlai cuisine)"
+      - "Paranthas (stuffed flatbreads) of Paranthe Wali Gali"
+  - season: winter
+    items:
+      - "Hot and hearty winter dishes and the famous Delhi winters' warm street food"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modest conventional dress; saris, salwar-kameez and kurta in everyday life"
+  - season: dry
+    items:
+      - "Light cottons for the intense summer heat"
+  - season: wet
+    items:
+      - "Rainwear for the monsoon"
+  - season: winter
+    items:
+      - "Warm layers, shawls and sweaters for the cool foggy winters"
+seasonCalendar:
+  - season: dry
+    months: [3, 4, 5, 6]
+  - season: wet
+    months: [7, 8, 9, 10, 11, 12]
+  - season: winter
+    months: [1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and corporate offices run 09:30-17:30 Monday-Friday; much of the city's commerce extends through Saturday."
+  lunchBreakTiming: "A lunch break around 13:00-14:00 is common."
+sources:
+  - id: delhi-tourism
+    name: "Delhi Tourism"
+    publisher: "Department of Tourism, Government of NCT of Delhi"
+    url: "https://delhitourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Delhi."

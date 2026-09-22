@@ -1,0 +1,101 @@
+code: CN-SH
+name:
+  eng: Shanghai Municipality
+  local:
+    - languageCode: zho
+      value: 上海市 (Shànghǎi Shì)
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate on the Yangtze delta, with hot humid summers, mild winters and distinct plum-rain (meiyu) season."
+landmarks:
+  - name: The Bund
+    description: "The waterfront promenade of colonial-era architecture facing the Pudong skyline across the Huangpu river."
+  - name: Oriental Pearl Tower and the Lujiazui skyline
+    description: "The iconic towers of Pudong, the symbol of Shanghai's modern rise."
+  - name: Yu Garden
+    description: "The classical Ming-dynasty garden and bazaar in the old city."
+  - name: Shanghai Museum
+    description: "One of China's finest museums of ancient Chinese art, on People's Square."
+  - name: Former French Concession
+    description: "Tree-lined streets of historic shikumen houses and cafés, the city's cultural heart."
+culturalTraits:
+  - "China's most modern and cosmopolitan city, a global financial and commercial hub"
+  - "A dynamic fusion of East and West, old shikumen lanes and cutting-edge skyscrapers"
+  - "A trendsetting culinary, fashion and arts scene"
+prideOf:
+  - "Being China's global financial capital (a leading world financial centre)"
+  - "A cosmopolitan, forward-looking identity"
+  - "The dazzling Pudong skyline and culinary innovation"
+animals:
+  popular:
+    - "Shanghai's parks are home to wild birds, egrets and butterflies"
+  unique:
+    - "The Chinese soft-shelled turtle and endemic wetland species of the delta"
+industries:
+  - "Finance, banking and stock exchange"
+  - "Trade and ports (Shanghai is the world's busiest container port)"
+  - "Technology, biotech and automotive (Tesla gigafactory)"
+  - "Fashion, luxury and consumer goods"
+  - "Tourism"
+sports:
+  - "Football (Shanghai Shenhua/Port)"
+  - "Basketball (Shanghai Sharks)"
+  - "Table tennis"
+  - "Formula 1 (Shanghai International Circuit)"
+entertainment:
+  - season: allYear
+    items:
+      - "The Bund night skyline, museums and the arts"
+      - "Contemporary art, design and café culture in the Former Concession"
+  - season: spring
+    items:
+      - "Mild spring walks along the river and in the gardens"
+  - season: autumn
+    items:
+      - "The best season for outdoor city life and dining"
+  - season: summer
+    items:
+      - "Evening river cruises and the night market scene"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Shanghainese cuisine: xiaolongbao (soup dumplings), shengjianbao (pan-fried buns), hairy crab (autumn) and sweet-and-sour dishes"
+      - "Japanese, French and international fine dining"
+  - season: autumn
+    items:
+      - "Hairy crab (dazhaxie) season, a Shanghai delicacy"
+  - season: winter
+    items:
+      - "Hearty Shanghainese braised and warming dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Fashion-forward urban style, one of Asia's fashion capitals"
+  - season: summer
+    items:
+      - "Light, breathable cotton and linen for the hot humid summer"
+  - season: winter
+    items:
+      - "Warm coats and layers for the damp, chilly winter"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "The financial and corporate sector runs 09:00-18:00 Monday-Friday; global markets mean early starts in finance."
+  lunchBreakTiming: "A lunch break around 11:30-13:00 is common, with a huge choice of dining options."
+sources:
+  - id: visit-shanghai
+    name: "Shanghai — official tourism"
+    publisher: "Shanghai Municipal Administration of Culture and Tourism"
+    url: "https://english.shanghai.gov.cn/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Shanghai."

@@ -1,0 +1,106 @@
+code: IN-WB
+name:
+  eng: West Bengal
+  local:
+    - languageCode: ben
+      value: পশ্চিমবঙ্গ
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate in the south (Kolkata), hot and humid with a strong summer monsoon."
+  - koppenCode: Cwb
+    description: "Temperate highland climate in the Himalayan north (Darjeeling), cool with distinct seasons."
+landmarks:
+  - name: Victoria Memorial (Kolkata)
+    description: "The grand white-marble museum memorialising the British Raj in the heart of Kolkata."
+  - name: Howrah Bridge
+    description: "The iconic cantilever bridge spanning the Hooghly river in Kolkata, a city symbol."
+  - name: Darjeeling Himalayan Railway
+    description: "The toy train through the tea country of the Himalayas, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Sundarbans
+    description: "The world's largest mangrove forest and a UNESCO World Heritage Site, home of the Royal Bengal tiger."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "The heartland of Bengali culture, literature and the arts (home of Rabindranath Tagore)"
+  - "Kolkata, 'the City of Joy', famed for its intellectual, literary and political heritage"
+  - "A proud Bengali-language and cultural identity; strong devotion to Durga Puja"
+prideOf:
+  - "Bengali literature, music and cinema"
+  - "The grandeur of Durga Puja, Kolkata's greatest festival"
+  - "The state's role in India's intellectual and independence history"
+animals:
+  popular:
+    - "Royal Bengal tiger (Sundarbans)"
+  unique:
+    - "Ganges river dolphin (in the Hooghly and Sundarbans waters)"
+industries:
+  - "Information technology and IT services (Kolkata's tech park)"
+  - "Manufacturing, engineering and jute"
+  - "Agriculture (rice, tea, vegetables)"
+  - "Film (Tollywood) and media"
+  - "Tourism"
+sports:
+  - "Cricket (Eden Gardens, Kolkata)"
+  - "Football (a football-mad city)"
+  - "Field hockey"
+entertainment:
+  - season: allYear
+    items:
+      - "Bengali cinema, literature and the arts; adda (long casual conversation) tradition"
+  - season: dry
+    items:
+      - "Heritage walks and hill-station travel in the moderate dry season"
+  - season: wet
+    items:
+      - "The monsoon turns the countryside lush and green"
+  - season: winter
+    items:
+      - "Durga Puja (Sept-Oct), Kali Puja, and the pleasant winter travel season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Bengali fish curry, rice and the sweets of Bengal (rasgulla, sandesh, mishti doi)"
+      - "Street food: kathi rolls, phuchka (puchka) and jhalmuri"
+      - "Hilsa (ilish) fish when in season"
+  - season: wet
+    items:
+      - "Monsoon comfort foods and hot spiced tea"
+  - season: winter
+    items:
+      - "Winter Puja festival sweets and hearty dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The Bengali saree (often with a distinctive red-bordered white style) and panjabi (kurta), especially at Durga Puja"
+  - season: dry
+    items:
+      - "Light cottons for the humid heat"
+  - season: wet
+    items:
+      - "Rainwear for the heavy monsoon"
+  - season: winter
+    items:
+      - "Warm shawls and light layers for the cool winters"
+seasonCalendar:
+  - season: dry
+    months: [3, 4, 5, 6]
+  - season: wet
+    months: [7, 8, 9, 10, 11, 12]
+  - season: winter
+    months: [1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Kolkata's offices run 09:30-18:00 Monday-Friday, with many shops and small businesses open through Saturday."
+  lunchBreakTiming: "A lunch break around 13:00-14:00 is common, with the traditional rice-fish lunch at home common for many."
+  notableShutdownPeriods:
+    - period: "Durga Puja (September-October)"
+      description: "Kolkata effectively shuts down for the five days of Durga Puja, with pandal-hopping the main activity."
+sources:
+  - id: wb-tourism
+    name: "West Bengal Tourism"
+    publisher: "Department of Tourism, Government of West Bengal"
+    url: "https://wbtourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for West Bengal."

@@ -1,0 +1,98 @@
+code: IN-GJ
+name:
+  eng: Gujarat
+  local:
+    - languageCode: guj
+      value: ગુજરાત
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid climate across much of Gujarat, very hot and dry with erratic monsoon rains."
+  - koppenCode: Aw
+    description: "Tropical savanna climate along the coastal Saurashtra region, hot with seasonal monsoon rain."
+landmarks:
+  - name: Gir Forest National Park
+    description: "The only place on Earth where the Asiatic lion lives in the wild."
+  - name: Statue of Unity
+    description: "The world's tallest statue (182m), honouring Sardar Vallabhbhai Patel, near the Narmada river."
+  - name: Sabarmati Ashram (Ahmedabad)
+    description: "Mahatma Gandhi's former residence and the base of the Salt March."
+  - name: Rani ki Vav (Patan)
+    description: "An exquisite stepwell, a UNESCO World Heritage Site of intricate carving."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "The land of Mahatma Gandhi and the Salt March — a cradle of India's independence movement"
+  - "A dynamic business state with a strong Gujarati entrepreneurial identity"
+  - "Known for its vegetarian cuisine, textiles and vibrant festivals (Navratri)"
+prideOf:
+  - "Gandhi's legacy and the state's role in India's freedom struggle"
+  - "A thriving entrepreneurial and industrial economy"
+  - "The Great Indian festival: Navratri, its nine nights of Garba dance"
+animals:
+  popular:
+    - "Asiatic lion (Gir)"
+  unique:
+    - "Indian wild ass (in the salt flats of the Rann of Kutch)"
+industries:
+  - "Petrochemicals, refining and chemicals"
+  - "Diamond cutting and jewellery (Surat)"
+  - "Textiles and garments"
+  - "Agriculture (groundnut, cotton, dairy — Amul)"
+  - "Automotive and manufacturing"
+sports:
+  - "Cricket (Narendra Modi Stadium, Ahmedabad — the world's largest)"
+  - "Field hockey"
+entertainment:
+  - season: allYear
+    items:
+      - "Devotional music, classical dance and the state's rich craft traditions"
+  - season: dry
+    items:
+      - "The Rann of Kutch White Desert festival (Nov-Feb) and heritage tours in moderate dry weather"
+  - season: wet
+    items:
+      - "Monsoon greenery across Saurashtra"
+  - season: winter
+    items:
+      - "Navratri (Sept-Oct) Garba nights and the winter travel season; kite festival in January"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Authentic vegetarian Gujarati thali and the sweet-savoury dhokla, thepla, khandvi"
+      - "Farsan (snacks) and buttermilk"
+      - "Undhiyu and jalebi-fafda combos"
+  - season: dry
+    items:
+      - "Cooling buttermilk dishes in the intense heat"
+  - season: winter
+    items:
+      - "Undhiyu (winter vegetable medley) and festivals of sweets"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The embroidered chaniya choli (festival) and day-to-day light cotton dress; kurtas and the pagh (turban)"
+  - season: dry
+    items:
+      - "Very light cottons for the searing summer heat"
+  - season: wet
+    items:
+      - "Rainwear for the short monsoon"
+seasonCalendar:
+  - season: dry
+    months: [3, 4, 5, 6]
+  - season: wet
+    months: [7, 8, 9, 10, 11, 12]
+  - season: winter
+    months: [1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business and industry run 09:30-18:00 Monday-Saturday in many sectors, with Sunday off for most."
+  lunchBreakTiming: "A lunch break around 13:00-14:00 is common, often a Gujarati thali meal."
+sources:
+  - id: gujarat-tourism
+    name: "Gujarat Tourism"
+    publisher: "Tourism Corporation of Gujarat"
+    url: "https://www.gujarattourism.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Gujarat."

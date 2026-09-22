@@ -1,0 +1,140 @@
+code: WHOLE
+name:
+  eng: China
+  local:
+    - languageCode: zho
+      value: 中国 (Zhōngguó)
+# Generic country-wide fallback content for China (unitary-large with a
+# curated subset of provinces/municipalities). National-level coverage not
+# specific to any one province or the user's detected subdivision.
+climates:
+  - koppenCode: Dwa
+    description: "Monsoon-influenced humid continental climate across the north and northeast (Beijing), with hot summers and cold, dry winters."
+  - koppenCode: Cfa
+    description: "Humid subtropical climate across the populous east and south (Shanghai, the Yangtze and Pearl deltas), hot humid summers and mild winters."
+  - koppenCode: BSk
+    description: "Cold semi-arid steppe climate in the northwest and parts of Xinjiang, with large temperature swings and low rain."
+  - koppenCode: Cwb
+    description: "Highland/subtropical highland climate on the Tibetan Plateau and in parts of the southwest, cooler year-round."
+landmarks:
+  - name: Great Wall of China
+    description: "The vast ancient fortification across northern China, a UNESCO World Heritage Site and national symbol."
+    unescoWorldHeritage: true
+  - name: Forbidden City (Beijing)
+    description: "The immense imperial palace complex of the Ming and Qing dynasties, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Terracotta Army (Xi'an)
+    description: "Thousands of life-size terracotta warriors guarding the tomb of Qin Shi Huang, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Zhangjiajie National Forest Park
+    description: "The towering sandstone pillars of Hunan that inspired the film Avatar's floating mountains, a UNESCO World Heritage Site (Wulingyuan)."
+    unescoWorldHeritage: true
+  - name: West Lake (Hangzhou)
+    description: "The famed classical garden lake of Hangzhou, a UNESCO World Heritage Site celebrated in Chinese painting and poetry."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "A civilisation of more than 5,000 years with a profound philosophical and aesthetic heritage (Confucianism, Daoism, Buddhism)"
+  - "Cuisine, calligraphy, tea culture, festivals and the distinctive cuisines of eight regional schools"
+  - "A modern superpower where rapid urbanisation and technology meet deep traditional values (family, face, harmony)"
+  - "A collective, family-centred society with great respect for elders and education"
+prideOf:
+  - "An ancient, continuous civilisation and a leading modern economy"
+  - "Iconic heritage: the Great Wall, the Terracotta Army, calligraphy and cuisine"
+  - "Space programme, high-speed rail and technological achievement"
+animals:
+  popular:
+    - "Giant panda"
+    - "Red-crowned crane"
+  unique:
+    - "Giant panda (endemic to the bamboo forests of Sichuan, Gansu and Shaanxi)"
+    - "Chinese alligator (critically endangered, lower Yangtze)"
+    - "Père David's deer (native to the wetlands of China)"
+industries:
+  - "Manufacturing and exports (the 'world's factory')"
+  - "Technology: Alibaba, Huawei, Tencent and the tech economy"
+  - "E-commerce and digital payments"
+  - "Agriculture (rice, wheat, tea)"
+  - "High-speed rail, infrastructure and energy"
+  - "Tourism"
+sports:
+  - "Table tennis (a national passion)"
+  - "Badminton"
+  - "Basketball and football (growing)"
+  - "Skiing and winter sports (hosted the 2022 Winter Olympics)"
+  - "Traditional martial arts (wushu, tai chi)"
+entertainment:
+  - season: allYear
+    items:
+      - "Festivals: Chinese New Year (Spring Festival), Dragon Boat Festival, Mid-Autumn Festival"
+      - "Karaoke, hotpot dining and the modern cultural scene"
+  - season: spring
+    items:
+      - "Cherry-blossom and plum-blossom viewing; spring outings"
+  - season: summer
+    items:
+      - "Mountain resorts and summer travel to escape the heat"
+  - season: autumn
+    items:
+      - "Mid-Autumn Festival mooncakes and the best, mildest travel season"
+  - season: winter
+    items:
+      - "Chinese New Year travel rush and ice festivals (Harbin's) and winter sports"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Eight regional cuisines: from Sichuan's spicy flavours to Cantonese dim sum"
+      - "Rice, noodles, dumplings (jiaozi) and stir-fries"
+      - "Peking duck, hotpot and tea"
+  - season: spring
+    items:
+      - "Fresh spring greens and seasonal festival foods"
+  - season: autumn
+    items:
+      - "Mooncakes for the Mid-Autumn Festival and autumn harvest dishes"
+  - season: winter
+    items:
+      - "Hotpot and hearty warming dishes for the cold season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern western-style dress dominates daily life; the qipao/cheongsam and tangzhuang are worn on festivals and formal occasions"
+  - season: winter
+    items:
+      - "Warm coats and layers in the cold north; lighter in the south"
+  - season: summer
+    items:
+      - "Light casual clothing in the hot, humid southern summer"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Generally 09:00-18:00 Monday-Friday, with '996' (9am-9pm, six days) common in some tech and manufacturing companies; many work Saturday."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical, often a canteen or delivery meal."
+  notableShutdownPeriods:
+    - period: "Chinese New Year (Spring Festival, January-February)"
+      description: "The largest annual holiday; businesses close for up to a week or more as the whole country travels home."
+    - period: "National Day Golden Week (1-7 October)"
+      description: "A week-long national holiday with widespread closures and peak domestic travel."
+sources:
+  - id: cnto
+    name: "China National Tourist Office / Visit China"
+    publisher: "China National Tourism Administration"
+    url: "https://www.cnto.org/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, festivals, food, culture and seasonal highlights for the WHOLE region."
+  - id: unesco-whc-cn
+    name: "China — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/cn"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies China's UNESCO World Heritage properties, including the Great Wall, Forbidden City, Terracotta Army and Wulingyuan."
