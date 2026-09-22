@@ -22,6 +22,18 @@ isSovereign: true
 governanceType: unitary-large
 iso3166_2_prefix: KR
 hasSubdivisions: true
+regionCoverage:
+  # Count per ISO 3166-2 as of 2026-09. The uncurated units have NOT yet been
+  # tested against DESIGN.md's five coverage triggers -- this declaration records
+  # the gap so it is visible, not a finding that the gap is correct. Pending the
+  # coverage re-audit (see TODO.md).
+  tier: first-level
+  totalUnits: 17
+  status: partial
+  gapReason: "6 of 17 first-level units curated. Which of the
+    remaining units fire a coverage trigger has not been assessed yet -- the
+    curated set predates the coverage floor and was chosen by size/capital,
+    not by divergence. Queued for the coverage re-audit."
 languageUsage:
   - languageCode: kor
     domain: official

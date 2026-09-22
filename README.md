@@ -81,6 +81,7 @@ data/
     <ISO639-3>.yaml       # name + basic phrases, once per language
 scripts/
   validate.py                         # checks every YAML file against the schemas + cross-file references
+  region_coverage.py                  # checks the opposite: which real subdivisions have NO file yet
 usage_examples/
   python/
     get_data_by_ip.py       # reference implementation: IP -> region + season/content selection
@@ -96,16 +97,17 @@ The short version — see [DESIGN.md](DESIGN.md) for the full rationale and edge
 
 - **Full ISO 3166-1 coverage (249 entries)**, dependent territories included as their own entries (e.g. `PYF` separate from `FRA`).
 - **`governanceType` drives region-splitting**: `federal`/`unitary-large` countries get real, curated distinct regions (ISO 3166-2 codes); `unitary-small`/`dependent-territory` get a single synthetic `WHOLE` region.
+- **Which subdivisions get curated is a test, not a quota** — a subdivision needs its own file when it diverges in language, plurality religion, its own law, time zone, or climate class, and doesn't when it doesn't ([the coverage floor](DESIGN.md#which-subdivisions-must-be-curated-the-coverage-floor)). Because a missing region file is otherwise invisible — nothing errors, `WHOLE` just answers instead — every subdivided country declares a `regionCoverage` block saying which subdivision tier it curates at and how much of that tier is actually covered.
 - **Every country always has a `WHOLE` fallback region**, even ones with curated distinct regions — so a consumer never needs "does this country have distinct regions?" branching logic, and an uncurated subdivision never gets silently mapped to the wrong curated one.
 - **IP→region resolution and season-calendar lookups never guess** — an unrecognized location or a missing season calendar raises a typed error (`UnknownLocationError`/`NoSeasonCalendarError`) rather than returning a plausible-looking wrong answer.
 - **Every statistical claim needs an authoritative `sourceId`**; a field left out for lack of one gets a YAML comment explaining why, so "no source exists" reads differently from "not curated yet."
 
 ## Example entries
 
-- `LTU` — a small sovereign country; no distinct regions curated. Lithuania has well-known historical/ethnographic regions, but the goal here is the opposite of cataloging heritage — a region only gets curated when it genuinely diverges *today* in something a consumer would act on, and this dataset would rather under-split than draw a distinction that doesn't actually change anything.
+- `LTU` — a small sovereign country; no distinct regions curated. Lithuania has well-known historical/ethnographic regions, but the goal here is the opposite of cataloging heritage — a region gets curated exactly when it diverges *today* in something a consumer would act on (its own official language, a different plurality religion, its own law on something modeled here, a different time zone, a different climate class — see [DESIGN.md](DESIGN.md#which-subdivisions-must-be-curated-the-coverage-floor)). Lithuania's regions diverge in none of the five, so none are curated. That test cuts both ways and is equally binding in both directions: splitting out a region that diverges in nothing is a defect, and omitting one that diverges is the same defect, not a lesser "coverage choice".
 - `PYF` — a dependent territory (of France); no distinct regions curated, but with its own flag/languages/time zones.
-- `FRA` — a large unitary country with real, present-day-distinct cultural regions (currently only 2 of ~18 distinct regions curated as an example: Brittany `FR-BRE`, Provence-Alpes-Côte d'Azur `FR-PAC`).
-- `CHE` — a federal country with 4 co-official national languages (German, French, Italian, Romansh — all `domain: official` at `1.0`, per this dataset's "official is a legal-status flag, not split across co-official languages" rule); currently 4 of 26 cantons curated (`CH-ZH`, `CH-GE`, `CH-TI`, `CH-GR`), covering all 4 language regions (`CH-GR`, Graubünden, is Switzerland's only trilingual canton and the Romansh one). Also the first example where `legalConstraints`/`paymentCulture` stay country-level while `businessRhythm` genuinely differs canton by canton — Switzerland regulates shop-opening hours at the cantonal, not federal, level, so each canton cites its own law (or, for `CH-GR`, its own municipality-by-municipality pattern) for a concretely different answer to "can this shop open on Sunday?".
+- `FRA` — a large unitary country with real, present-day-distinct cultural regions (currently 2 of ~18 curated: Brittany `FR-BRE`, Provence-Alpes-Côte d'Azur `FR-PAC`). **Deliberately incomplete** — built early, as a demonstration of region *structure*, before the coverage floor existed; its `regionCoverage` says `partial`. Copy its file layout, not its region count.
+- `CHE` — a federal country with 4 co-official national languages (German, French, Italian, Romansh — all `domain: official` at `1.0`, per this dataset's "official is a legal-status flag, not split across co-official languages" rule); currently 4 of 26 cantons curated (`CH-ZH`, `CH-GE`, `CH-TI`, `CH-GR`) — also **deliberately incomplete**, for the same reason as `FRA`, and covering all 4 language regions (`CH-GR`, Graubünden, is Switzerland's only trilingual canton and the Romansh one). Also the first example where `legalConstraints`/`paymentCulture` stay country-level while `businessRhythm` genuinely differs canton by canton — Switzerland regulates shop-opening hours at the cantonal, not federal, level, so each canton cites its own law (or, for `CH-GR`, its own municipality-by-municipality pattern) for a concretely different answer to "can this shop open on Sunday?".
 
 ## Data sources
 

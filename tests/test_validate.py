@@ -112,6 +112,13 @@ def build_valid_subdivided_root(tmp_path: Path) -> Path:
         governanceType="federal",
         hasSubdivisions=True,
         iso3166_2_prefix="ZZ",
+        regionCoverage={
+            "tier": "first-level",
+            "totalUnits": 4,
+            "status": "partial",
+            "gapReason": "Only ZZ-AA curated; the other three have their own official "
+            "language (trigger 1) and are queued.",
+        },
         **{
             "distinct-regions": [
                 {"code": "ZZ-AA", "file": "distinct-regions/aa.yaml", "adminUnitCodes": ["ZZ-AA"]},
@@ -457,3 +464,74 @@ def test_federal_iso3166_2_prefix_must_equal_alpha2(
     _write_yaml(country_path, data)
     assert run(root) != 0
     assert "implies iso3166_2_prefix='ZZ'" in capsys.readouterr().out
+
+
+# --- regionCoverage: the check aimed at data that isn't there ----------
+
+
+def _mutate_coverage(root: Path, **changes: Any) -> None:
+    """Apply changes to the fixture's regionCoverage; None deletes a key."""
+    country_path = root / "data/countries/ZZZ/country.yaml"
+    data = yaml.safe_load(country_path.read_text())
+    if changes.get("_drop"):
+        data.pop("regionCoverage", None)
+    else:
+        for key, value in changes.items():
+            if value is None:
+                data["regionCoverage"].pop(key, None)
+            else:
+                data["regionCoverage"][key] = value
+    _write_yaml(country_path, data)
+
+
+def test_subdivided_country_requires_region_coverage(
+    tmp_path: Path, capsys: pytest.CaptureFixture
+) -> None:
+    root = build_valid_subdivided_root(tmp_path)
+    _mutate_coverage(root, _drop=True)
+    assert run(root) != 0
+    assert "requires a regionCoverage block" in capsys.readouterr().out
+
+
+def test_unsubdivided_country_forbids_region_coverage(
+    tmp_path: Path, capsys: pytest.CaptureFixture
+) -> None:
+    country = _minimal_country(
+        regionCoverage={"tier": "first-level", "totalUnits": 3, "status": "complete"}
+    )
+    root = build_valid_root(tmp_path, country)
+    assert run(root) != 0
+    assert "hasSubdivisions=false" in capsys.readouterr().out
+
+
+def test_total_first_level_units_cannot_be_below_curated_count(
+    tmp_path: Path, capsys: pytest.CaptureFixture
+) -> None:
+    """Catches the specific mistake of filling in the curated count where
+    the country's real ISO 3166-2 count belongs -- which would defeat the
+    whole point of the field by making every country look complete."""
+    root = build_valid_subdivided_root(tmp_path)
+    country_path = root / "data/countries/ZZZ/country.yaml"
+    data = yaml.safe_load(country_path.read_text())
+    data["distinct-regions"].insert(
+        1, {"code": "ZZ-BB", "file": "distinct-regions/bb.yaml", "adminUnitCodes": ["ZZ-BB"]}
+    )
+    data["regionCoverage"]["totalUnits"] = 1  # two curated, "one" unit total
+    _write_yaml(country_path, data)
+    _write_yaml(root / "data/countries/ZZZ/distinct-regions/bb.yaml", _minimal_region("ZZ-BB"))
+    assert run(root) != 0
+    assert "is smaller than the 2 curated region(s)" in capsys.readouterr().out
+
+
+def test_partial_status_requires_gap_reason(tmp_path: Path, capsys: pytest.CaptureFixture) -> None:
+    root = build_valid_subdivided_root(tmp_path)
+    _mutate_coverage(root, gapReason=None)
+    assert run(root) != 0
+    assert "requires gapReason" in capsys.readouterr().out
+
+
+def test_complete_status_forbids_gap_reason(tmp_path: Path, capsys: pytest.CaptureFixture) -> None:
+    root = build_valid_subdivided_root(tmp_path)
+    _mutate_coverage(root, status="complete")  # gapReason still present
+    assert run(root) != 0
+    assert "must not carry a" in capsys.readouterr().out

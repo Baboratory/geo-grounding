@@ -72,6 +72,22 @@ Two more false-positive patterns worth knowing before you start:
   independent way (a plain search for the specific fact, a different
   fetch of the same page) before writing it up. Don't let one unreliable
   tool call become a false "confirmed" finding.
+- **A rule's wording is not evidence about the world — when applying a rule
+  depends on facts, check the facts first.** Most rules here ("curate a
+  region only when it genuinely diverges", "a country meets 2 of 3
+  criteria") are *conditional*: they resolve only once you know something
+  about the actual place. Quoting the rule and stopping feels like
+  reasoning and skips the step that does the work. This is not a
+  hypothetical failure: when `RUS`'s 4-of-85 coverage was first questioned,
+  the answer given was the rule's own phrasing ("this dataset would rather
+  under-split"), and it took a second challenge before anyone checked what
+  Russia's republics actually are — at which point the answer reversed
+  completely (22 republics with their own state languages, Kalmykia the
+  only Buddhist-plurality polity in Europe, North Ossetia the only
+  Christian-plurality republic in the North Caucasus, Sakha spanning three
+  time zones). The rule had not been misquoted; it simply could not be
+  applied without the facts. If your justification for a finding — or for
+  dismissing one — contains no fact you looked up, you have not finished.
 
 ## What to check
 
@@ -92,9 +108,8 @@ For each country/region file:
    just asserted? For `federal`, is there a genuine constitutional
    federation (real, separately-governed states/provinces), independent of
    population size (see `FSM`, a country of ~113k people that's correctly
-   `federal`)? Is the split into curated regions proportionate — enough to
-   reflect real, documented internal diversity, not so many that a small,
-   linguistically/culturally uniform country gets split for its own sake?
+   `federal`)? (Region *coverage* is checked separately, in 2a — don't
+   settle it here with an impression of "proportionate".)
    A recurring, legitimate way the "recognized minority/regional languages"
    leg gets satisfied without co-official status: a country-level law or
    body that names specific languages as "national languages", "recognized
@@ -107,6 +122,44 @@ For each country/region file:
    of the 3 criteria while still classified `unitary-large`/`federal`, check
    whether this pattern actually applies before treating it purely as a
    violation to downgrade — it may just be an under-argued but correct call.
+2a. **Region coverage — audit what is missing, not only what is present.**
+   This is the one check in this document that cannot be done by reading the
+   files, because its subject is the files that were never written. Every
+   other check starts from a value in front of you; this one starts from the
+   country's real subdivision list and works inward. Do it explicitly, in
+   this order:
+   1. Enumerate the country's first-level subdivisions from ISO 3166-2 —
+      the full list, independently of what the repo contains.
+   2. Compare that count against `regionCoverage.totalUnits`, at the tier
+      the block declares. A mismatch is `[data]`: the declaration itself is
+      wrong. Check the declared `tier` too — a country curated at
+      `second-level` should have a real reason (`UGA`'s districts vs. its
+      four broad statistical regions), not a mis-set field.
+   3. For each **uncurated** subdivision, test it against the five coverage
+      triggers in `DESIGN.md` (own official/recognized language, different
+      plurality religion, own law on something modeled here, different time
+      zone, different Köppen main class). Any uncurated subdivision that
+      fires a trigger is a `[data]` finding — name the subdivision and the
+      trigger it fires.
+   4. Check the reverse too: a curated subdivision that fires no trigger is
+      over-splitting, reported as `[hygiene]`.
+   5. Check `regionCoverage.status`/`gapReason` honestly describe the
+      result. `status: complete` on a country with a trigger-firing
+      uncurated subdivision is `[data]`; a `gapReason` that names the wrong
+      trigger, or a vague one ("more regions later"), is `[provenance]`.
+
+   **Do not report this as "coverage choice, not a rule breach."** That
+   phrasing appeared in essentially every audit written before this section
+   existed, and it is what let `RUS` sit at 4 of ~85 (22 republics with
+   their own state languages uncurated), `CHN` at 4 of 34 with none of its
+   five autonomous regions, and `GBR` without Northern Ireland, through
+   more than a hundred reviewed PRs. Since `DESIGN.md` now states a floor,
+   an uncurated diverging subdivision is a rule violation with a rule to
+   point at, and "the curated set is a subset by design" is not a defence
+   for omitting a unit the floor requires.
+
+   Do this check even when the country's data is otherwise flawless — a
+   clean file set says nothing about whether the right files exist.
 3. **`name.local` completeness** — does it include *at least* one entry per
    `domain: official` language at country level (and the full list again at
    `WHOLE`), and only the languages actually used/official in a specific

@@ -20,6 +20,19 @@ isSovereign: true
 governanceType: unitary-large
 iso3166_2_prefix: "NO"
 hasSubdivisions: true
+regionCoverage:
+  # Count is Norway's post-2024 county structure (Troms og Finnmark split back
+  # into Troms and Finnmark on 2024-01-01); pycountry's ISO snapshot still
+  # lists the merged 2020-2023 county, so scripts/region_coverage.py flags
+  # NO-56 -- the file is right and the tool is stale. Coverage triggers not
+  # yet assessed for the uncurated counties; pending the re-audit.
+  tier: first-level
+  totalUnits: 15
+  status: partial
+  gapReason: "3 of 15 first-level units curated. Which of the
+    remaining units fire a coverage trigger has not been assessed yet -- the
+    curated set predates the coverage floor and was chosen by size/capital,
+    not by divergence. Queued for the coverage re-audit."
 languageUsage:
   - languageCode: nob
     domain: official

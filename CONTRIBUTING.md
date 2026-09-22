@@ -57,10 +57,72 @@ extra structure, not what a first country should look like.
    country needs exactly one `code: WHOLE` entry, even ones with real
    regions (it's the fallback content when a visitor's specific subdivision
    isn't curated yet — see DESIGN.md's "IP geolocation mapping").
-4. If `hasSubdivisions: true`, add real ISO 3166-2 region files too, each
+4. If `hasSubdivisions: true`, work out which subdivisions need files using
+   the procedure below, then add a real ISO 3166-2 region file for each,
    referenced in `country.yaml`'s `distinct-regions[]` with matching
    `adminUnitCodes[]`.
-5. Run `python3 scripts/validate.py` and fix everything it flags.
+5. Fill in `regionCoverage` (see below) — required whenever
+   `hasSubdivisions: true`.
+6. Run `python3 scripts/validate.py` and fix everything it flags.
+
+### Choosing which subdivisions to curate
+
+**Start from the complete list of the country's first-level subdivisions.**
+Write it out — all 26 cantons, all 85 federal subjects, all 36 states and
+union territories. Then test each one against the five triggers in
+[DESIGN.md](DESIGN.md#which-subdivisions-must-be-curated-the-coverage-floor):
+a different official/recognized language, a different plurality religion,
+its own law on something this dataset models, a different time zone, or a
+different Köppen main class. Any subdivision that fires at least one trigger
+needs a file. Any that fires none does not — `WHOLE` covers it.
+
+**Do not start from a shortlist.** "The capital, the two biggest cities and
+the largest economies" feels like the important-regions list and is close to
+the opposite of it: capitals are typically the *least* divergent unit in a
+country, and the units that diverge most (an autonomous region with its own
+script, a republic with its own state language, an island in another time
+zone) rarely appear on an economic top-five. Every large country in this
+dataset was built this way before the rule existed, and every one of them
+came out with 3-6 regions regardless of whether it had 16 subdivisions or
+85 — the number was a habit, not a finding.
+
+**Don't stop at a comfortable number.** There is no target count. A country
+where eleven subdivisions each have their own official language needs
+eleven region files; a country where none do needs none. If the honest
+answer is more files than you can research in one PR, that is fine — curate
+what you can, and record the rest in `regionCoverage.gapReason` so the gap
+is visible instead of silent. An unfinished country that says it is
+unfinished is in much better shape than one that quietly looks complete.
+
+### `regionCoverage` — declaring what you did and didn't cover
+
+Required on every country file with `hasSubdivisions: true`:
+
+```yaml
+regionCoverage:
+  tier: first-level            # which ISO 3166-2 level you curated at
+  totalUnits: 26               # how many the country actually has at that tier
+  status: partial              # complete | partial
+  gapReason: "Four cantons curated, covering all four language regions.
+    The remaining 22 diverge on cantonal trading-hours law (trigger 3);
+    queued in TODO.md."
+```
+
+- `tier` — `first-level` for states/cantons/provinces, which is nearly
+  always right. Use `second-level` only when the meaningful unit genuinely
+  sits a level down (`UGA` curates districts, because Uganda's four
+  first-level entries are broad statistical regions).
+- `totalUnits` — the real count at that tier, from ISO 3166-2, not the
+  number you curated. `python3 scripts/region_coverage.py <ALPHA3>` prints
+  it; don't estimate it.
+- `status: complete` — every subdivision that fires a trigger has a file.
+  It does **not** mean every subdivision has one.
+- `status: partial` — requires `gapReason` naming which trigger is
+  unserved and, where useful, which units are affected.
+
+This field is the reason a coverage gap can be reviewed at all. Without it,
+a country curated at 4 of 85 and a country curated at 4 of 4 produce
+identical-looking files, both validate cleanly, and both read as finished.
 
 ## After you open a PR
 

@@ -14,6 +14,18 @@ hasSubdivisions: true
 # Language/ethnicity/religion figures are from the 2011 National Population and
 # Housing Census (Central Bureau of Statistics), the last census with a widely
 # published mother-tongue/ethnicity/religion breakdown used consistently here.
+regionCoverage:
+  # Count per ISO 3166-2 as of 2026-09. The uncurated units have NOT yet been
+  # tested against DESIGN.md's five coverage triggers -- this declaration records
+  # the gap so it is visible, not a finding that the gap is correct. Pending the
+  # coverage re-audit (see TODO.md).
+  tier: first-level
+  totalUnits: 7
+  status: partial
+  gapReason: "7 of 7 first-level units curated. Which of the
+    remaining units fire a coverage trigger has not been assessed yet -- the
+    curated set predates the coverage floor and was chosen by size/capital,
+    not by divergence. Queued for the coverage re-audit."
 languageUsage:
   - languageCode: npi
     domain: official

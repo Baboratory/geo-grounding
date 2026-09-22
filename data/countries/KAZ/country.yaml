@@ -20,6 +20,21 @@ isSovereign: true
 governanceType: unitary-large
 iso3166_2_prefix: KZ
 hasSubdivisions: true
+regionCoverage:
+  # Kazakhstan's 20 regions and cities of republican significance, per ISO 3166-2 as of 2026-09. NOTE: this file's
+  # adminUnitCodes are not current ISO codes, so IP lookup can't reach these
+  # region files at all -- see TODO.md's coverage re-audit, item 3.
+  # Count per ISO 3166-2 as of 2026-09. The uncurated units have NOT yet been
+  # tested against DESIGN.md's five coverage triggers -- this declaration records
+  # the gap so it is visible, not a finding that the gap is correct. Pending the
+  # coverage re-audit (see TODO.md).
+  tier: first-level
+  totalUnits: 20
+  status: partial
+  gapReason: "4 of 20 first-level units curated. Which of the
+    remaining units fire a coverage trigger has not been assessed yet -- the
+    curated set predates the coverage floor and was chosen by size/capital,
+    not by divergence. Queued for the coverage re-audit."
 languageUsage:
   - languageCode: kaz
     domain: official

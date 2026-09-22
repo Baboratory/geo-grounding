@@ -58,6 +58,33 @@
       "type": "boolean",
       "description": "true only for federal and unitary-large countries with real ISO 3166-2 regions. false means distinct-regions[] holds a single synthetic whole-country entry."
     },
+    "regionCoverage": {
+      "type": "object",
+      "required": ["tier", "totalUnits", "status"],
+      "additionalProperties": false,
+      "description": "How much of this country's real subdivision list is actually curated in distinct-regions[]. Required whenever hasSubdivisions is true (enforced by scripts/validate.py, not by JSON Schema alone), and forbidden when it is false. Exists because a missing region file is otherwise invisible: nothing errors, WHOLE quietly answers instead, and a country curated at 4 of 85 looks exactly like one curated at 4 of 4. See DESIGN.md's coverage floor for which subdivisions must be curated at all.",
+      "properties": {
+        "tier": {
+          "type": "string",
+          "enum": ["first-level", "second-level"],
+          "description": "Which ISO 3166-2 tier this country's regions are curated at. Usually 'first-level' (states, cantons, provinces). 'second-level' is for countries where the meaningful unit sits one level down — UGA curates districts (UG-102 Kampala) because Uganda's four first-level entries are broad statistical regions. Declaring the tier keeps the coverage count comparable to what's actually curated, and makes the choice of tier reviewable instead of implicit."
+        },
+        "totalUnits": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "How many subdivisions the country actually has at the declared tier, per ISO 3166-2 — the real count, not the number curated here. scripts/region_coverage.py prints both tiers; don't estimate it."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["complete", "partial"],
+          "description": "'complete' = every subdivision that fires a DESIGN.md coverage trigger has a region file (NOT that every subdivision has one). 'partial' = at least one trigger-firing subdivision is still uncurated, or the triggers haven't been assessed yet. Only an audit can confirm 'complete'; validate.py only checks this field is present and internally consistent."
+        },
+        "gapReason": {
+          "type": "string",
+          "description": "Required when status is 'partial': which coverage trigger is unserved and, where useful, which subdivisions are affected. Must not be present when status is 'complete'. A vague reason ('more regions later') is an audit finding — name the trigger."
+        }
+      }
+    },
     "languageUsage": {
       "type": "array",
       "description": "Flat (languageCode, domain, speakersShare) rows describing a country's language situation. One language can appear multiple times with different domains (e.g. an official language that is also widely locally spoken). Per-language display name / basic phrases live in data/languages/<code>.yaml, not here.",

@@ -40,6 +40,16 @@ cross-references:
 - every data/languages/<code>.yaml's internal 'code' field matches its own
   filename — the ISO 639-3 code is both the file's identifier and its
   content, and the two must agree.
+- every hasSubdivisions=true country declares regionCoverage, and that
+  block is internally consistent (totalUnits is at least the curated
+  count, at the ISO 3166-2 tier the block declares; status 'partial'
+  carries a gapReason, status 'complete' doesn't).
+  This is the one check aimed at data that *isn't* there: a
+  missing region file raises no error on its own, so without a declared
+  count a country curated at 4 of 85 is indistinguishable from one curated
+  at 4 of 4. Whether 'complete' is truthful can't be checked here — that's
+  the coverage audit's job (AUDITING.md 2a); scripts/region_coverage.py
+  prints the real ISO 3166-2 counts to check declarations against.
 
 Requires: pyyaml, jsonschema[format] (pip install pyyaml "jsonschema[format]"
 -- the [format] extra is what makes the schemas' declared "uri"/"date"
@@ -227,6 +237,56 @@ def validate_all(root: Path = ROOT) -> int:
                 f"FAIL {path}: governanceType '{governance_type}' implies "
                 f"iso3166_2_prefix={expected_prefix!r}, but it's {prefix!r}"
             )
+
+        coverage = data.get("regionCoverage")
+        if not has_subdivisions:
+            if coverage is not None:
+                error_count += 1
+                print(
+                    f"FAIL {path}: regionCoverage is set, but hasSubdivisions=false — "
+                    f"a country with only a synthetic WHOLE region has nothing to cover"
+                )
+        elif coverage is None:
+            error_count += 1
+            print(
+                f"FAIL {path}: hasSubdivisions=true requires a regionCoverage block "
+                f"(tier + totalUnits + status) — see DESIGN.md's coverage floor. "
+                f"Without it a missing region file is invisible: nothing errors and "
+                f"WHOLE silently answers instead"
+            )
+        else:
+            curated = len([e for e in data.get("distinct-regions", []) if e.get("code") != "WHOLE"])
+            total = coverage.get("totalUnits")
+            status = coverage.get("status")
+            gap_reason = coverage.get("gapReason")
+            if isinstance(total, int) and curated > total:
+                error_count += 1
+                print(
+                    f"FAIL {path}: regionCoverage.totalUnits={total} is smaller than the "
+                    f"{curated} curated region(s) in distinct-regions — totalUnits is the "
+                    f"country's real ISO 3166-2 count at the declared tier "
+                    f"({coverage.get('tier')}), not the curated one"
+                )
+            if status == "partial" and not gap_reason:
+                error_count += 1
+                print(
+                    f"FAIL {path}: regionCoverage.status='partial' requires gapReason "
+                    f"naming which coverage trigger is unserved (DESIGN.md)"
+                )
+            if status == "complete":
+                if gap_reason:
+                    error_count += 1
+                    print(
+                        f"FAIL {path}: regionCoverage.status='complete' must not carry a "
+                        f"gapReason — a described gap means the status is 'partial'"
+                    )
+                if isinstance(total, int) and curated < total:
+                    print(
+                        f"NOTE {path}: regionCoverage.status='complete' with {curated} of "
+                        f"{total} subdivisions curated — legal only if the other "
+                        f"{total - curated} fire none of DESIGN.md's coverage triggers. "
+                        f"validate.py can't verify that; an audit has to (AUDITING.md 2a)"
+                    )
 
     for path in sorted(glob.glob(str(root / "data/countries/*/country.yaml"))):
         with open(path) as f:

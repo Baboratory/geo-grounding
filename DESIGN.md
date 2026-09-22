@@ -41,6 +41,94 @@ This is a real invariant, not just a convention some countries happen to follow:
 
 **`iso3166_2_prefix`** — equal to `alpha2` when `hasSubdivisions: true` (because ISO 3166-2 subdivision codes are built from alpha-2, not alpha-3, e.g. `FR-BRE`, not `FRA-BRE`), otherwise `null`.
 
+### Which subdivisions must be curated (the coverage floor)
+
+"Curated subset, not a complete list" describes the *shape* of
+`distinct-regions[]`. It is **not** a licence to curate an arbitrary handful
+and call a country done. Which subdivisions get curated is decided by a
+test, not by a quota, and the test has a floor as well as a ceiling.
+
+**Floor — a first-level subdivision MUST be curated if any of these is true
+of it** (each one is a documented fact you can look up, not a judgment call):
+
+| # | Trigger | Why it forces a region file | Fields it lands in |
+|---|---|---|---|
+| 1 | It has an **official, co-official, or statutorily recognized regional language** the country as a whole does not have | An AI addressing this user has a different language available to it than the country default | `name.local`, `languageUsage`, `communicationStyle` |
+| 2 | Its **plurality religion differs from the country's** plurality religion | Different holidays, rest days, dress norms, food restrictions | `religions`, `businessRhythm`, `traditionalClothing`, `traditionalDishes` |
+| 3 | It **legislates in its own right** on something this dataset models (trading hours, consumer protection, sales tax rate, data protection, official language) | The legally correct answer differs from the national one | `businessRhythm.sourceIds`, and the country-level `legalConstraints` entry must say so |
+| 4 | It is in a **different time zone** from the country's primary zone | Scheduling, delivery windows, "open now" | `timezones` |
+| 5 | Its **Köppen main class differs** from the country's dominant class | Seasonal content is wrong otherwise — a `seasonCalendar` built for the capital misfires here | `climates`, `seasonCalendar`, all seasonal lists |
+
+A subdivision that triggers none of these does **not** need its own file —
+`WHOLE` genuinely covers it, and splitting it out is the over-splitting this
+dataset has always warned about (`LTU`'s ethnographic regions are the
+canonical example: real heritage, no present-day divergence in any of the
+five). That is the ceiling, and it is unchanged.
+
+**The two halves are equally binding.** Curating a non-diverging subdivision
+is a defect. Leaving out a diverging one is *also* a defect — of the same
+severity, not a lesser "coverage choice". Before this rule existed the
+guidance only pointed one way ("would rather under-split"), and the result
+was a dataset where every large country converged on 3-6 curated regions
+regardless of how many of its subdivisions actually diverged: `RUS` had 4 of
+~85 units while 22 republics each hold their own state language (trigger 1);
+`CHN` had 4 of 34 while curating none of its five autonomous regions —
+precisely the units that diverge in language, script, and religion; `GBR`
+had 3 of 4, the missing one being Northern Ireland, the only one with its
+own legal system (trigger 3). Those are not judgment calls that went the
+other way; they are the floor being absent.
+
+**Selection starts from the full list, never from a shortlist.** The
+procedure is: enumerate every first-level subdivision the country has →
+test each one against the five triggers → curate the ones that fire. It is
+not "pick the capital, the biggest city, and the largest economies," which
+is what produces a plausible-looking set that systematically misses exactly
+the places that diverge most (the capital is usually the *least* divergent
+unit in the country).
+
+### Coverage is declared, never implied
+
+Every country with `hasSubdivisions: true` carries a `regionCoverage` block
+stating which subdivision tier it is curated at, how many units exist at
+that tier, and — when not all of them are covered — which diverging units
+are still missing and why.
+
+```yaml
+regionCoverage:
+  tier: first-level          # first-level | second-level
+  totalUnits: 26
+  status: partial            # complete | partial
+  gapReason: "Curated the four cantons covering all four language regions;
+    the remaining 22 diverge on trading-hours law (trigger 3) and are
+    queued. Tracked in TODO.md."
+```
+
+`tier` records which ISO 3166-2 level the country is curated at. Almost
+always `first-level`; `second-level` is for countries where the meaningful
+unit sits one level down — `UGA` curates districts (`UG-102` Kampala)
+because Uganda's four first-level entries are broad statistical regions.
+Declaring it keeps the count comparable to what is actually curated, and
+turns the choice of tier into something a reviewer can see and question
+rather than something inferred from the codes.
+
+`status: complete` means every subdivision that fires a trigger has a file —
+not that every subdivision has one. `status: partial` requires `gapReason`
+naming which trigger is unserved.
+
+This exists because the failure it prevents is *silence*. A missing region
+produces no error, no empty field, no broken reference — `WHOLE` quietly
+answers instead, and the dataset looks finished. Validation, review, and
+audit all inspect what is present; none of them can see what was never
+written. A declared, validated count is the one thing that makes an absence
+visible to a mechanical check and to a reviewer scanning a diff.
+
+**A partial example is not a standard to copy.** `FRA` (2 of 18) and `CHE`
+(4 of 26) were built as shape demonstrations while the schema was still
+being designed, and `TODO.md` has always listed their depth as unfinished
+work. They are correct illustrations of *structure* and incorrect
+illustrations of *coverage*; their `regionCoverage` says so. Copy the file
+layout from them, never the region count.
+
 **`climates[]`** — a deliberately free-form list of Köppen codes with a description (`{koppenCode, description}`), not tied to specific months/seasons. That's enough for a general picture of the region (several climate zones can occur in one region, e.g. `FR-PAC` has both Mediterranean and Alpine climate). If a more precise link is needed in the future (e.g. "what's the climate in this specific month"), that will be a separate, stricter field — the current one is left as-is so it doesn't complicate the simple case.
 
 ## IP geolocation mapping (`adminUnitCodes`)

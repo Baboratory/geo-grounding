@@ -18,6 +18,9 @@ Issues = "https://github.com/baboratory/geo-grounding/issues"
 dev = [
   "pyyaml",
   "jsonschema[format]",
+  # scripts/region_coverage.py only -- validate.py deliberately stays on
+  # pyyaml + jsonschema so anyone can run it without an ISO database.
+  "pycountry",
   "black",
   "ruff",
   "mypy",
