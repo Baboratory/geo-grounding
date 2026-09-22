@@ -1,0 +1,82 @@
+code: CD-BC
+name:
+  eng: Kongo Central (Kongo-Central)
+  local:
+    - languageCode: fra
+      value: Kongo Central
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry climate near the Atlantic-influenced west — hot and humid with a pronounced dry season in the mid-year months."
+landmarks:
+  - name: Boma (first colonial-era capital)
+    description: "The historic town that served as the capital of the Congo Free State before Leopoldville, holding important colonial-era architecture."
+  - name: Matadi port
+    description: "The country's main deep-water Atlantic port at the mouth of the Congo, a key hub for DRC's import-export trade."
+  - name: Chutes de Luebo (near Matadi)
+    description: "Spectacular cataracts of the lower Congo river, a natural landmark of the region."
+  - name: Kimpeze — waterfalls of the Kongo Central
+    description: "Landscaped waterfall site, a popular retreat outside Matadi."
+culturalTraits:
+  - "The historic homeland of the Kongo people and the seat of the pre-colonial Kongo kingdom"
+  - "Kikongo (Kikongo ya leta) is the everyday lingua franca; kinship and community ties run deep"
+  - "A coastal, Atlantic-facing identity distinct from the rest of the country"
+prideOf:
+  - "Its role as the cradle of the Kongo kingdom and its royal and spiritual heritage"
+  - "The port and its centuries of Atlantic connections"
+animals:
+  popular:
+    - "Flamingos and waterfowl in the coastal wetlands"
+    - "Manatees reported in the lower Congo estuary"
+industries:
+  - "Port and logistics at Matadi — the country's principal maritime gateway"
+  - "Agriculture (cassava, bananas, plantains, groundnuts)"
+  - "Oil production in offshore fields near the coast"
+sports:
+  - "Football and basketball"
+  - "Water sports along the rivers and coast"
+religions:
+  - name: Christianity (Catholic, Protestant, Kimbanguist)
+    percent: 94.0
+    sourceId: wfb-cd
+  - name: Islam
+    percent: 2.0
+    sourceId: wfb-cd
+  - name: Other (indigenous beliefs, none)
+    percent: 4.0
+    sourceId: wfb-cd
+entertainment:
+  - season: allYear
+    items:
+      - "Kongo royal and community festivals, including the celebration of the Kongo legacy"
+      - "Church gatherings and choral music"
+      - "The river and coast bring fishing and leisure traditions"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Moambe (palm-nut sauce) dishes with fish or chicken"
+      - "Fufu and pondu (cassava leaves) accompanying most meals"
+      - "Fresh fish from the lower Congo and coast"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Western dress for everyday; wax-print and pagne fabrics at celebrations"
+      - "Traditional raffia and woven items at cultural events"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8]
+  - season: wet
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices roughly 08:00-16:30 Monday to Friday; Saturday morning trading is common in markets."
+  lunchBreakTiming: "A midday break; lunch is often brought from home or taken at a local restaurant."
+  notes: "Port activity follows international shipping schedules; Sunday remains primarily a rest day."
+sources:
+  - id: wfb-cd
+    name: "Congo, Democratic Republic of the — The World Factbook (religion)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/"
+    year: 2014
+    accessedDate: "2026-09-21"
+    note: "Religious composition estimate (2014): roughly 93-94% Christian, small Muslim and other minorities."

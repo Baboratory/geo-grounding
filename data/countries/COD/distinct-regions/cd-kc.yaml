@@ -1,0 +1,80 @@
+code: CD-KC
+name:
+  eng: Kasaï Central (Central Kasaï)
+  local:
+    - languageCode: fra
+      value: Kasaï Central
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry climate on the southern plateau — warm with a long rainy season and a distinct dry season in the mid-year."
+landmarks:
+  - name: Kananga (the diamond capital)
+    description: "The region's principal city, long known for alluvial diamond mining and trade."
+  - name: Kasaï river
+    description: "The great tributary of the Congo that gives the region its name, vital to fishing and transport."
+  - name: Chutes de la Lulonga / Kasaï waterfalls
+    description: "River cataracts along the Kasaï, part of the region's watery landscape."
+culturalTraits:
+  - "The heartland of Tshiluba (Luba-Kasai) speakers, one of the Congo's four national languages"
+  - "Rich traditions of mask carving, weaving and the Luba diaspora's cultural heritage"
+  - "The Luba (Bena-Kasai) people's communal, agricultural way of life"
+prideOf:
+  - "Tshiluba as a living national language and a proud Luba identity"
+  - "Its diamond legacy and the craftsmanship of local artisans"
+animals:
+  popular:
+    - "Antelopes and monkeys in the forest-gallery savanna"
+    - "Fish in the Kasaï river"
+industries:
+  - "Alluvial diamond mining and trade"
+  - "Agriculture (cassava, maize, groundnuts, oil palm)"
+  - "Fishing and river trade"
+sports:
+  - "Football and athletics"
+  - "Wrestling and traditional dance"
+religions:
+  - name: Christianity (Catholic, Protestant, Kimbanguist)
+    percent: 93.0
+    sourceId: wfb-cd
+  - name: Islam
+    percent: 2.0
+    sourceId: wfb-cd
+  - name: Other (indigenous beliefs, none)
+    percent: 5.0
+    sourceId: wfb-cd
+entertainment:
+  - season: allYear
+    items:
+      - "Mask festivals and cultural performances celebrating Luba heritage"
+      - "Church and community gatherings"
+      - "River markets and fishing traditions along the Kasaï"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Moambe and fish stews from the Kasaï river"
+      - "Fufu and chikwangue with saka-saka (cassava leaves)"
+      - "Groundnut sauces accompanying maize and cassava"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Western dress is everyday wear"
+      - "Wax-print and pagne fabrics at festivals and ceremonies"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8]
+  - season: wet
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and markets roughly 08:00-16:30 Monday to Friday; Saturday morning market trading is common."
+  lunchBreakTiming: "A midday break, often at home or a local restaurant."
+  notes: "Diamond trading has its own informal rhythm; much commerce happens in networks around Kananga and the river towns."
+sources:
+  - id: wfb-cd
+    name: "Congo, Democratic Republic of the — The World Factbook (religion)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/"
+    year: 2014
+    accessedDate: "2026-09-21"
+    note: "Religious composition estimate (2014): roughly 93% Christian, small Muslim and other minorities."

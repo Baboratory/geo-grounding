@@ -1,0 +1,84 @@
+code: AF-KAN
+name:
+  eng: Kandahar (Kandahar Province)
+  local:
+    - languageCode: pus
+      value: کندهار
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate in the south — extremely hot and dry summers, mild winters, very little rain."
+landmarks:
+  - name: Shrine of the Cloak of the Prophet Muhammad (Kherqa Sharif)
+    description: "One of the most sacred sites in Afghanistan, housing the relic around which Ahmad Shah Durrani built his authority in the 18th century."
+  - name: Mausoleum of Ahmad Shah Durrani
+    description: "The tomb of the founder of the Durrani Empire, whose rule laid the foundation of modern Afghanistan."
+  - name: Babur's Mosque (Lameh Jameh Mosque)
+    description: "The mosque built by Babur in 1521 after he established himself in Kandahar."
+  - name: Bala Qila / Old Kandahar ruins
+    description: "The ruins of the old city, which was relocated as the modern city grew southwards."
+culturalTraits:
+  - "The historic heartland of the Pashtuns and the spiritual/military birthplace of the Durrani state"
+  - "A deeply conservative, tribal society where Pakhtunwali (the Pashtun code of honour and hospitality) guides daily life"
+  - "The former Taliban stronghold and a centre of Islamic religious scholarship"
+prideOf:
+  - "Its role as the founding city of modern Afghanistan"
+  - "Kandahari pomegranates, grapes and its renowned carpets"
+  - "The strength and independence of its Pashtun tribal identity"
+animals:
+  popular:
+    - "Camel herds in the surrounding desert"
+    - "Karachi sheep and the renowned Kandahari fighting camels"
+industries:
+  - "Horticulture — pomegranates, grapes and almonds"
+  - "Carpet weaving (rare Kandahari designs)"
+  - "Cross-border transit trade towards the Spin Boldak/Chaman crossing with Pakistan"
+sports:
+  - "Buzkashi — the Pashtun horse sport is deeply rooted here"
+  - "Cricket and football"
+religions:
+  - name: Islam (Sunni)
+    percent: 98.0
+    sourceId: irf-afg
+  - name: Islam (Shia)
+    percent: 2.0
+    sourceId: irf-afg
+entertainment:
+  - season: allYear
+    items:
+      - "The bazaars of central Kandahar"
+      - "Tee and melon gardens on the Arghandab river"
+      - "Traditional Pashto poetry (landay) gatherings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kandahari palaw — a fuller, fruit-and-nut flavoured rice dish"
+      - "Bolani (stuffed flatbread) and nakhod (chickpea soup)"
+      - "Sweet Kandahari grapes, raisins and pomegranates"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Perahan tunban for men, with a turban or pakol cap"
+      - "The hijab, chador or burqa for women in public"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Shops and offices roughly 08:00-16:00 Sunday to Thursday; Friday is the weekly holiday."
+  lunchBreakTiming: "A midday break is common; the main meal is often at midday."
+  notes: "The climate is intensely hot in summer (often above 40°C), so business activity concentrates in the cooler mornings and evenings."
+sources:
+  - id: irf-afg
+    name: "2022 Report on International Religious Freedom: Afghanistan (religious composition estimates)"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/afghanistan/"
+    year: 2022
+    accessedDate: "2026-09-21"
+    note: "Religious composition: overwhelmingly Sunni Muslim."

@@ -1,0 +1,110 @@
+code: WHOLE
+name:
+  eng: Democratic Republic of the Congo
+  local:
+    - languageCode: fra
+      value: République démocratique du Congo
+# Generic country-wide fallback content for the DRC (unitary-large with a
+# curated subset of provinces). National-level coverage not specific to any one
+# region.
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate across the vast Congo Basin — hot and humid year-round with abundant rain."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) climate in the far north and south beyond the equatorial rainbelt, with pronounced dry seasons."
+  - koppenCode: Cwa
+    description: "Humid subtropical highland climate in the eastern highlands around the Great Lakes and Katanga."
+landmarks:
+  - name: Congo River
+    description: "The second-longest river in Africa, whose vast basin dominates the country and gives the DRC its name."
+  - name: Virunga National Park
+    description: "Africa's oldest national park and a UNESCO World Heritage Site, sheltering the world's only population of mountain gorillas."
+    unescoWorldHeritage: true
+  - name: Kahuzi-Biega National Park
+    description: "A UNESCO World Heritage Site in the eastern highlands protecting the eastern lowland gorilla and its montane forest."
+    unescoWorldHeritage: true
+  - name: Salonga National Park
+    description: "Africa's largest tropical rainforest reserve, a UNESCO World Heritage Site home to forest elephants and bonobos."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "A proudly independent, resilient society that rebuilt itself repeatedly through colonial rule and conflict"
+  - "Deeply hospitable with strong family, clan and community bonds"
+  - "A musical superpower — Congolese rumba and soukous have shaped African and world music"
+  - "Vibrant, expressive dress culture, from urban 'Sape' to colourful pagne fabrics"
+prideOf:
+  - "Its breathtaking natural wealth — the Congo Basin rainforest, the great river, and extraordinary biodiversity (gorillas, okapi, bonobos)"
+  - "Its mineral riches and the industries built around them"
+  - "Congolese music, art and the creative energy of its cities"
+animals:
+  popular:
+    - "Elephants, forest antelopes and buffalo"
+    - "Gorillas and chimpanzees in the forest parks"
+    - "Colorful birds and the fish of the great rivers"
+  unique:
+    - "Mountain gorilla (Gorilla beringei) — found only in the Virunga highlands"
+    - "Okapi (Okapia johnstoni) — the 'forest giraffe' endemic to the DRC's forests"
+    - "Bonobo (Pan paniscus) — the chimpanzee-relative found only in the Congo Basin"
+    - "African forest elephant (Loxodonta cyclotis)"
+industries:
+  - "Mining (cobalt, copper, coltan, diamonds, gold) — the world's leading cobalt source"
+  - "Agriculture and agro-industry (palm oil, coffee, cassava, rubber)"
+  - "Forestry and hydropower (the Inga dam scheme)"
+  - "A growing services, mobile-money and media economy centred on Kinshasa"
+sports:
+  - "Football — the national passion, with strong club and diaspora followings"
+  - "Basketball and athletics"
+  - "Cycling and the Le Tour du Congo"
+religions:
+  - name: Roman Catholic
+    percent: 29.9
+    sourceId: wfb-cd
+  - name: Protestant
+    percent: 26.7
+    sourceId: wfb-cd
+  - name: Other Christian (incl. Kimbanguist)
+    percent: 39.3
+    sourceId: wfb-cd
+  - name: Muslim
+    percent: 1.3
+    sourceId: wfb-cd
+  - name: Other (indigenous beliefs, none)
+    percent: 2.8
+    sourceId: wfb-cd
+entertainment:
+  - season: allYear
+    items:
+      - "Live Congolese music — rumba, soukous, ndombolo — in clubs and at weddings"
+      - "Football and church life, twin pillars of community"
+      - "Visits to the great national parks for wildlife"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Moambe (palm-nut chicken or fish) — the national dish"
+      - "Chikwangue and fufu (cassava staples) with saka-saka or pondu (cassava-leaf stew)"
+      - "Fish from the Congo, Kivu and Kasaï rivers"
+      - "Maboke (steamed fish in leaves) and kwanga (smoked cassava)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Western dress is everyday wear"
+      - "Vibrant wax-print and pagne (kitenge) fabrics at celebrations and in church"
+      - "Kinshasa's sapeurs epitomise high-fashion urban elegance"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8]
+  - season: wet
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices roughly 08:00-16:30 Monday to Friday; markets run daily and Saturday mornings; Sunday is primarily a rest and church day."
+  lunchBreakTiming: "A midday break around 12:00-14:00, often taken at home or a local maquis."
+  notes: "The economy is heavily cash-based with a large informal sector; business relationships and patience matter greatly, and schedules can run late."
+sources:
+  - id: wfb-cd
+    name: "Congo, Democratic Republic of the — The World Factbook (religion)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/"
+    year: 2014
+    accessedDate: "2026-09-21"
+    note: "Religious composition (2014 est): Roman Catholic 29.9%, Protestant 26.7%, other Christian incl. Kimbanguist ~39.3%, Muslim 1.3%, other/none ~2.8%."

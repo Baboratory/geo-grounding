@@ -1,0 +1,110 @@
+code: WHOLE
+name:
+  eng: Afghanistan
+  local:
+    - languageCode: prs
+      value: افغانستان
+    - languageCode: pus
+      value: افغانستان
+# Generic country-wide fallback content for Afghanistan (unitary-large with a
+# curated subset of provinces). National-level coverage not specific to any one
+# region.
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate across the arid south-west and lowland basins."
+  - koppenCode: BSh
+    description: "Hot semi-arid climate on the western and northern plains, considerably milder in the east."
+  - koppenCode: BSk
+    description: "Cold semi-arid climate over the central and northern highlands and around Kabul."
+  - koppenCode: ET
+    description: "Tundra climate in the high Pamir peaks, cold year-round."
+landmarks:
+  - name: Minaret of Jam
+    description: "The 62-metre 12th-century minaret in Ghor Province, a UNESCO World Heritage Site and one of the finest monuments of the medieval Islamic east."
+    unescoWorldHeritage: true
+  - name: Cultural Landscape and Archaeological Remains of the Bamiyan Valley
+    description: "The cliff-hewn Buddha niches and surrounding cultural landscape, a UNESCO World Heritage Site listed (and since destroyed in part) — the site is inscribed and remains on the List with a heavy preservation challenge."
+    unescoWorldHeritage: true
+  - name: Band-e Amir lakes
+    description: "A chain of six deep, brilliant blue lakes dammed by natural travertine walls in the Hindu Kush, in Bamyan Province — one of Afghanistan's most iconic natural sights."
+  - name: Hindu Kush mountain range
+    description: "The great mountain barrier running through the centre of Afghanistan, separating the northern steppes from the southern plains."
+culturalTraits:
+  - "A deeply hospitable, honour-bound society (Pakhtunwali among Pashtuns, and similar codes of hospitality and loyalty elsewhere)"
+  - "A proud multi-ethnic mosaic — Pashtun, Tajik, Hazara, Uzbek, Turkmen and dozens more"
+  - "Strong Islamic identity alongside resilient pre-Islamic cultural traditions (Nowruz, poetry, carpet weaving)"
+  - "Endurance and dignity in the face of four decades of conflict"
+prideOf:
+  - "Its ancient civilisations — from Bactria and Buddhism to the Timurid renaissance"
+  - "The hospitality guests receive, no matter how scarce resources are"
+  - "Afghan poetry, music and the world-famous Afghan carpet"
+animals:
+  popular:
+    - "Karachi sheep and the hardy Afghan horse"
+    - "Mastiffs and fighting camels in the south"
+    - "Markhor and ibex in the mountains"
+  unique:
+    - "Snow leopard in the high Pamir and Hindu Kush"
+    - "Saker falcon, prized in the region's falconry tradition"
+    - "Marco Polo sheep in the Pamir"
+industries:
+  - "Agriculture and horticulture (wheat, pomegranates, grapes, saffron, pistachios)"
+  - "Carpet and textile weaving"
+  - "Mining of the country's rich lapis lazuli, emerald and copper deposits"
+  - "Cross-border trade along the corridors to Pakistan, Iran and Central Asia"
+sports:
+  - "Buzkashi — the national horse sport, especially in the north"
+  - "Cricket and football, hugely popular among the youth"
+  - "Wrestling and traditional archery"
+religions:
+  - name: Islam (Sunni)
+    percent: 84.7
+    sourceId: cia-wfb
+  - name: Islam (Shia)
+    percent: 15.0
+    sourceId: cia-wfb
+  - name: Other (Hindu, Sikh, Christian, none)
+    percent: 0.3
+    sourceId: cia-wfb
+entertainment:
+  - season: allYear
+    items:
+      - "Tea houses and poetry gatherings (mushaira) across the country"
+      - "Folk music — rubab and dutar performances at weddings and festivals"
+      - "Holiday visits to gardens, shrines and family compounds"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kabuli palaw — the national rice dish with carrots, raisins and meat"
+      - "Mantu and ashak dumplings"
+      - "Bolani stuffed flatbread and shorba soup"
+      - "Naan bread baked in clay ovens, alongside every meal"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Perahan tunban (baggy shirt and trousers) for men, with a chapan coat in cold weather"
+      - "The hijab or chador is the common women's dress; the burqa is worn in more conservative areas"
+      - "Pakol cap or turban as common male headgear"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Public-sector and many private offices run Sunday to Thursday, roughly 08:00-16:00, with Friday as the weekly holiday and Thursday often a half-day."
+  lunchBreakTiming: "A midday break is customary; lunch is frequently the main meal."
+  notes: "Business and social life slow during Ramadan (working hours shortened). Friday is the weekend; most official work pauses on the two Eid holidays."
+sources:
+  - id: cia-wfb
+    name: "Afghanistan — The World Factbook (religion)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/afghanistan/"
+    year: 2009
+    accessedDate: "2026-09-21"
+    note: "Religious composition: Muslim 99.7% (Sunni ~84.7-89.7%, Shia 10-15%), other <0.3% (2009 estimate)."

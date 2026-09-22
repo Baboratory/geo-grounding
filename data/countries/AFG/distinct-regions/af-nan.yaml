@@ -1,0 +1,81 @@
+code: AF-NAN
+name:
+  eng: Nangarhar (Nangarhar Province)
+  local:
+    - languageCode: pus
+      value: ننګرهار
+climates:
+  - koppenCode: BSh
+    description: "Warm semi-arid climate in the eastern lowlands around Jalalabad — very mild winters and hot, dry summers."
+landmarks:
+  - name: Jalalabad's Amir Chaman gardens
+    description: "A historic shaded garden complex in Jalalabad, a summer retreat for rulers for centuries."
+  - name: Darul Aman / Achekzai archaeological sites
+    description: "Area archaeological sites reflecting centuries of settlement along the Kabul river."
+  - name: Spin Ghar (Safed Koh) range views
+    description: "The snow-capped 'White Mountain' range bordering Pakistan, a dramatic backdrop to the province."
+culturalTraits:
+  - "The eastern gateway on the historic Khyber route between Kabul and the Indian subcontinent"
+  - "A strongly Pashtun region of tribes and trading families along the border with Pakistan"
+  - "Known for its agricultural abundance in the mild Jalalabad climate"
+prideOf:
+  - "Jalalabad's warm, productive climate — often called Afghanistan's fruit garden"
+  - "Its place on the ancient trade routes linking Central Asia to South Asia"
+animals:
+  popular:
+    - "Milk buffaloes in the lowland valleys"
+    - "Peacocks and waterfowl along the Kabul river"
+industries:
+  - "Intensive horticulture (citrus, dates, sugarcane, pomegranates) in the Jalalabad oasis"
+  - "Border trade with Pakistan through Torkham"
+  - "Small-scale manufacturing and food processing"
+sports:
+  - "Cricket (popular given proximity to Pakistan)"
+  - "Wrestling and football"
+religions:
+  - name: Islam (Sunni)
+    percent: 99.0
+    sourceId: irf-afg
+  - name: Islam (Shia)
+    percent: 1.0
+    sourceId: irf-afg
+entertainment:
+  - season: allYear
+    items:
+      - "The gardens and warm-weather promenades of Jalalabad"
+      - "Picnics in the river valleys"
+      - "Loya Jirga and tribal cultural gatherings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kabuli palaw and seasonal fruit (citrus and dates)"
+      - "Shorba and bolani"
+      - "Sugarcane juice in season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Perahan tunban for men, commonly with a turban"
+      - "The hijab or chador for women"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Shops and offices roughly 08:00-16:00 Sunday to Thursday; Friday is the weekly holiday."
+  lunchBreakTiming: "A midday break is common."
+  notes: "Border traffic through Torkham creates a busy, trade-driven economy with both Afghan and Pakistani market rhythms."
+sources:
+  - id: irf-afg
+    name: "2022 Report on International Religious Freedom: Afghanistan (religious composition estimates)"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/afghanistan/"
+    year: 2022
+    accessedDate: "2026-09-21"
+    note: "Religious composition: overwhelmingly Sunni Muslim."

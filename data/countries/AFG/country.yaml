@@ -1,0 +1,187 @@
+alpha3: AFG
+alpha2: AF
+name:
+  eng: Afghanistan
+  local:
+    - languageCode: prs
+      value: افغانستان
+    - languageCode: pus
+      value: افغانستان
+flagEmoji: "🇦🇫"
+capital: Kabul
+isSovereign: true
+# Classified unitary-large: Afghanistan is a unitary state (2004 Constitution,
+# Article 1 declares it "independent, unitary and indivisible"), has a
+# population well above the ~20-25M small-state threshold (roughly 40-49M,
+# with no reliable census since 1979 so all figures are estimates), and has a
+# genuine, widely recognised cultural-historical regional mosaic — the Pashtun
+# south/east, the Tajik-and-Hazara centre and north, and the Turkic Uzbek/Turkmen
+# north — with several of these recognised as regional third-official languages
+# (Constitution Art. 16). That meets 2 of the 3 DESIGN.md unitary-large criteria.
+# Curated regions map to real ISO 3166-2 provinces: Kabul (AF-KAB), Herat
+# (AF-HER), Kandahar (AF-KAN), Balkh (AF-BAL) and Nangarhar (AF-NAN), plus the
+# generic WHOLE fallback.
+governanceType: unitary-large
+iso3166_2_prefix: AF
+hasSubdivisions: true
+languageUsage:
+  # 2004 Constitution, Art. 16: "Pashto and Dari are the official languages of
+  # the State." Both are de jure official -> legal-status flag = 1.0 each.
+  - languageCode: pus
+    domain: official
+    speakersShare: 1.0
+    sourceId: constit-2004
+  - languageCode: prs
+    domain: official
+    speakersShare: 1.0
+    sourceId: constit-2004
+  # Actual usage is far from the 1.0 official flag — recorded separately as
+  # locallySpoken estimates (there is no census since 1979; CIA World Factbook
+  # 2020 estimates: Dari lingua franca ~77% first-or-second, Pashto ~48%
+  # first language, Uzbek ~11%, Turkmen ~3%, Balochi ~2%).
+  - languageCode: prs
+    domain: locallySpoken
+    speakersShare: 0.77
+    sourceId: cia-wfb
+  - languageCode: pus
+    domain: locallySpoken
+    speakersShare: 0.48
+    sourceId: cia-wfb
+  - languageCode: uzb
+    domain: locallySpoken
+    speakersShare: 0.11
+    sourceId: cia-wfb
+  - languageCode: tuk
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: cia-wfb
+  - languageCode: bal
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: cia-wfb
+  # English and Urdu are the principal foreign languages (English ~6-8%,
+  # Urdu ~3-7% per World Factbook and academic surveys).
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.08
+    sourceId: cia-wfb
+ethnicGroups:
+  # CIA World Factbook 2020 estimates (no national census since 1979; all
+  # figures are widely-referenced estimates that vary by source).
+  - group: Pashtun
+    percent: 42
+    sourceId: cia-wfb
+  - group: Tajik
+    percent: 27
+    sourceId: cia-wfb
+  - group: Hazara
+    percent: 9
+    sourceId: cia-wfb
+  - group: Uzbek
+    percent: 9
+    sourceId: cia-wfb
+  - group: Aimak
+    percent: 4
+    sourceId: cia-wfb
+  - group: Turkmen
+    percent: 3
+    sourceId: cia-wfb
+  - group: Baloch
+    percent: 2
+    sourceId: cia-wfb
+  - group: Other (Pashayi, Nuristani, Arab, Brahui and other groups)
+    percent: 4
+    sourceId: cia-wfb
+# religions intentionally left in the WHOLE region file (percent figures with
+# source) rather than repeated here, per dataset convention of keeping
+# regional religious composition in the region files.
+timezones:
+  - name: Asia/Kabul
+    standardUtcOffset: "UTC+4:30"
+    observesDst: false
+currency:
+  code: AFN
+  symbol: "؋"
+  name: Afghan afghani
+legalConstraints:
+  - topic: "official languages"
+    description: "Article 16 of the 2004 Constitution designates Pashto and Dari as the two official languages of the State, and further provides that among the other languages (Uzbeki, Turkmani, Baluchi, Pashai, Nuristani, Pamiri and others), any language spoken by the majority in a given area may be used as a third official language in addition to Pashto and Dari in that area. Pashto and Dari are used in official documents and are the languages of state business."
+    sourceId: constit-2004
+  - topic: "business tax (no VAT)"
+    description: "Afghanistan has no value-added tax. Domestic commerce is taxed through the Business Receipts Tax under the Income Tax Law 1388 (2009): a 2% rate on general gross receipts (including imports), 5% on restaurants/hotels above a threshold, and 10% on telecom and airline services. In early 2025 the Islamic Emirate reduced the fixed business tax to 0.3% for qualifying small traders. Prices are generally quoted without any single uniform national sales tax, reflecting this layered regime."
+    sourceId: income-tax-2009
+  - topic: "data protection"
+    description: "Afghanistan has no comprehensive national data-protection or privacy law in force. The 2004 Constitution protects the right to privacy of personal correspondence and communications (Art. 24) but no dedicated GDPR-style statute or enforcement authority exists, leaving personal-data collection largely governed by sectoral and customary rules with minimal statutory safeguards."
+    sourceId: constit-2004
+  - topic: "consumer protection"
+    description: "Consumer protection rests on the Consumer Protection Law (1385/2006) and the Ministry of Industry and Commerce's consumer affairs role. In practice enforcement is weak, particularly outside Kabul, and post-2021 institutional capacity is limited."
+    sourceId: cp-law-2006
+paymentCulture:
+  popularMethods:
+    - "Cash (afghani and to a lesser extent US dollar) is the near-universal payment method; banking penetration is very low"
+    - "M-Paisa and other mobile-money wallets growing among the unbanked"
+  tipping:
+    expected: false
+    typicalAmount: "Nothing expected; small rounding-up is common in restaurants"
+    note: "Cash is king and there is no meaningful card/mobile POS infrastructure in most of the country; hawala networks handle much money movement."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Respect for elders and social rank is important; first names are rarely used in formal business until a relationship is established, and titles such as Dr. or Engineer are commonly used."
+  greetingNorms: "A warm greeting with salaam and a handshake (right hand); a light hand-on-heart gesture accompanies it. Between men, prolonged greetings asking after family and health are customary."
+  meetingEtiquette: "Business relationships matter more than speed; tea and small talk precede substantive discussion. Decisions often rest with the most senior figure present."
+  topicsToAvoid:
+    - "Politics and the security situation, which are sensitive"
+    - "Family and tribal affiliations until the relationship is trusted"
+  giftGivingNotes: "Small, respectful gifts are appreciated but are not expected; avoid anything with religious imagery that could be misread. Refuse politely if offered first as courtesy."
+distinct-regions:
+  - code: AF-KAB
+    file: distinct-regions/af-kab.yaml
+    adminUnitCodes:
+      - AF-KAB
+  - code: AF-HER
+    file: distinct-regions/af-her.yaml
+    adminUnitCodes:
+      - AF-HER
+  - code: AF-KAN
+    file: distinct-regions/af-kan.yaml
+    adminUnitCodes:
+      - AF-KAN
+  - code: AF-BAL
+    file: distinct-regions/af-bal.yaml
+    adminUnitCodes:
+      - AF-BAL
+  - code: AF-NAN
+    file: distinct-regions/af-nan.yaml
+    adminUnitCodes:
+      - AF-NAN
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+sources:
+  - id: constit-2004
+    name: "Constitution of the Islamic Republic of Afghanistan (2004)"
+    publisher: "WIPO Lex"
+    url: "https://www.wipo.int/wipolex/en/legislation/details/10739"
+    year: 2004
+    accessedDate: "2026-09-21"
+    note: "Official languages (Art. 16: Pashto and Dari; regional third-official languages), unitary state (Art. 1), privacy of communications (Art. 24), Da Afghanistan Bank as central bank (Art. 12)."
+  - id: cia-wfb
+    name: "Afghanistan — The World Factbook"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/afghanistan/"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Ethnic composition and language-usage estimates (Pashtun 42%, Tajik 27%, Hazara 9%, Uzbek 9%; Dari lingua franca ~77%, Pashto ~48%). No census since 1979, so these are estimates."
+  - id: income-tax-2009
+    name: "Income Tax Law 1388 (2009) — Business Receipts Tax provisions"
+    publisher: "Ministry of Finance, Islamic Emirate of Afghanistan"
+    url: "https://mof.gov.af/en"
+    year: 2009
+    accessedDate: "2026-09-21"
+    note: "Business Receipts Tax obligations (2% general, 5-10% for specific services); 2025 fixed-tax reduction to 0.3% per Islamic Emirate decree."
+  - id: cp-law-2006
+    name: "Consumer Protection Law (1385/2006)"
+    publisher: "Ministry of Industry and Commerce, Islamic Republic of Afghanistan (enacted 2006; the PR's original URL pointed at the Ministry of Finance's site instead)"
+    url: "https://moci.gov.af/"
+    year: 2006
+    accessedDate: "2026-09-21"
+    note: "Consumer protection framework and Ministry of Industry and Commerce enforcement role."

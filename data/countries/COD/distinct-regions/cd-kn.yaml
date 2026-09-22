@@ -1,0 +1,84 @@
+code: CD-KN
+name:
+  eng: Kinshasa (Ville-province de Kinshasa)
+  local:
+    - languageCode: fra
+      value: Kinshasa
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry (savanna) — hot and humid year-round with a long rainy season and a shorter dry season (roughly June to August)."
+landmarks:
+  - name: Boulevard du 30 Juin and the Palais du Peuple
+    description: "The ceremonial avenue and People's Palace at the heart of Kinshasa's civic and political life."
+  - name: Cathédrale Notre-Dame du Congo
+    description: "Kinshasa's principal Catholic cathedral, a landmark of the capital's religious life."
+  - name: Musée national de Kinshasa
+    description: "The national museum, home to an important collection of Congolese ethnographic and historical objects."
+  - name: Fleuve Congo and Kinshasa's port
+    description: "The mighty Congo River, African continent's second-longest river, which Kinshasa overlooks and whose port is a hub of the capital."
+culturalTraits:
+  - "The political, economic and cultural capital — a vast, sprawling city of over 15 million"
+  - "Vibrant music scene (Congolese rumba) that has shaped African popular culture"
+  - "Lingala is the everyday lingua franca; French is the language of administration and educated society"
+prideOf:
+  - "Being the beating heart of the world's largest Francophone city after Paris"
+  - "Congolese musicians, artists and the city's creative energy"
+animals:
+  popular:
+    - "Street dogs and the parrots common in the urban canopy"
+    - "Chimpanzees and other fauna in the forests just beyond the city"
+industries:
+  - "Government and administration"
+  - "Trade, logistics and the river-port economy"
+  - "Music, media, and a growing services and tech sector"
+sports:
+  - "Football — Kinshasa's clubs and the national side are passionately followed"
+  - "Basketball and athletics"
+  - "Dancing is a spectator sport in its own right"
+religions:
+  - name: Christianity (Catholic, Protestant, Kimbanguist)
+    percent: 93.0
+    sourceId: wfb-cd
+  - name: Islam
+    percent: 3.0
+    sourceId: wfb-cd
+  - name: Other (indigenous beliefs, none)
+    percent: 4.0
+    sourceId: wfb-cd
+entertainment:
+  - season: allYear
+    items:
+      - "Live music — rumba, soukous and ndombolo in the city's many clubs and bars"
+      - "The Matonge quarter's nightlife and street markets"
+      - "Football matches and church services, both central to community life"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Moambe (chicken or fish in palm-nut sauce)"
+      - "Chikwangue (fermented cassava) with fumbwa (wild spinach) or poisson sale"
+      - "Saka-saka (cassava-leaf stew) and pondu"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Western dress is everyday wear; smart suits for the business and government district"
+      - "Vibrant wax-print and pagne fabrics at markets and celebrations"
+      - "Kinshasa is a style capital — 'La Sape' (sapeurs) bring fashion-conscious dressing to a high art"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8]
+  - season: wet
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices roughly 08:00-16:30 Monday to Friday; many businesses open Saturday morning. Sunday is primarily a rest and church day."
+  lunchBreakTiming: "A midday break of roughly 12:00-14:00 with lunch often taken at home or a local maquis (street restaurant)."
+  notes: "Kinshasa is an intensely energetic, traffic-congested megacity; meetings can start late and relationships drive business far more than the clock."
+sources:
+  - id: wfb-cd
+    name: "Congo, Democratic Republic of the — The World Factbook (religion)"
+    publisher: "CIA World Factbook"
+    url: "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/"
+    year: 2014
+    accessedDate: "2026-09-21"
+    note: "Religious composition estimate (2014): roughly 93% Christian (Catholic/Protestant/other Christian/Kimbanguist), small Muslim and other minorities."

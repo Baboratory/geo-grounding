@@ -1,0 +1,87 @@
+code: AF-BAL
+name:
+  eng: Balkh (Balkh Province)
+  local:
+    - languageCode: prs
+      value: بلخ
+climates:
+  - koppenCode: BSk
+    description: "Cold semi-arid climate on the northern plains — hot summers, cold winters and low to moderate rainfall."
+landmarks:
+  - name: Blue Mosque (Shrine of Hazrat Ali, Mazar-i-Sharif)
+    description: "The dazzling turquoise-tiled shrine in Mazar-i-Sharif, one of the most sacred and beautiful pilgrimage sites in Afghanistan."
+  - name: Ancient city of Balkh (Bactria)
+    description: "The ruins of one of the world's oldest cities, the ancient capital of Bactria and legendary birthplace of Zoroaster."
+  - name: Green Mosque (Mazar-i-Sharif's other shrine complex)
+    description: "A secondary shrine complex adding to Mazar-i-Sharif's sacred geography."
+  - name: Qala-e Bost fort ruins (southern Balkh edge)
+    description: "Ancient fortress ruins near the Helmand river, associated with the region's historical frontier."
+culturalTraits:
+  - "The historic 'Mother of Cities' — ancient Bactria, a crossroads of the Silk Road and Persian, Greek, Buddhist and Islamic civilisations"
+  - "A majority ethnic Tajik and Uzbek region, culturally closer to the Turkic north and Central Asia"
+  - "Religious tolerance historically marks the region, with Sufi traditions and diverse communities"
+prideOf:
+  - "Its claim as the birthplace of Zoroastrianism and one of the world's oldest continuous civilisations"
+  - "The Blue Mosque and Mazar-i-Sharif as the region's spiritual beacon"
+  - "Its Silk Road commercial heritage"
+animals:
+  popular:
+    - "Karachi sheep and horses on the northern steppe"
+    - "Bactrian camels"
+industries:
+  - "Agriculture on the Amu Darya floodplain (wheat, cotton, melons, olives)"
+  - "Silk and carpet weaving"
+  - "Cross-border trade with Uzbekistan through the Hairatan crossing"
+sports:
+  - "Buzkashi and horse riding"
+  - "Football and cricket"
+religions:
+  - name: Islam (Sunni)
+    percent: 93.0
+    sourceId: irf-afg
+  - name: Islam (Shia)
+    percent: 6.0
+    sourceId: irf-afg
+  - name: Other (Hindu, Sikh, none)
+    percent: 1.0
+    sourceId: irf-afg
+entertainment:
+  - season: allYear
+    items:
+      - "Pilgrimage and reflection at the Blue Mosque"
+      - "The gardens of Mazar-i-Sharif"
+      - "Nowruz (Persian New Year) celebrations each spring"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Qabuli palaw and the northern Uzbek-style laghman noodles"
+      - "Mantu and shurwa soup"
+      - "Melon and grape desserts in season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Perahan tunban for men, often with a pakol or fur hat in the cold north"
+      - "The hijab or chador for women"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - friday
+  typicalWorkHours: "Offices and shops roughly 08:00-16:00 Sunday to Thursday; Friday is the weekly holiday."
+  lunchBreakTiming: "A midday break is common."
+  notes: "Nowruz in late March is an important festive period in this northern, Persian-influenced region."
+sources:
+  - id: irf-afg
+    name: "2022 Report on International Religious Freedom: Afghanistan (religious composition estimates)"
+    publisher: "U.S. Department of State"
+    url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/afghanistan/"
+    year: 2022
+    accessedDate: "2026-09-21"
+    note: "Religious composition: majority Sunni Muslim, small Shia and other minorities."
