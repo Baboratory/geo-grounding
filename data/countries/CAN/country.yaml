@@ -1,0 +1,177 @@
+alpha3: CAN
+alpha2: CA
+name:
+  eng: Canada
+  local:
+    - languageCode: eng
+      value: Canada
+    - languageCode: fra
+      value: Canada
+flagEmoji: "🇨🇦"
+capital: Ottawa
+isSovereign: true
+# Classified federal: Canada is a federal parliamentary constitutional
+# monarchy with ten provinces and three territories as first-order units,
+# each with substantial legislative autonomy under the Constitution Act, 1867
+# (ss.91-92 divide federal and provincial powers). Federations always carry
+# real ISO 3166-2 subdivisions: CA-ON Ontario, CA-QC Quebec, CA-BC British
+# Columbia, CA-AB Alberta, CA-SK Saskatchewan, CA-MB Manitoba, CA-NS Nova
+# Scotia, CA-NB New Brunswick, CA-NL Newfoundland and Labrador, CA-PE Prince
+# Edward Island, CA-YT Yukon, CA-NT Northwest Territories, CA-NU Nunavut.
+# Curated subset + WHOLE below. English and French are co-official at the
+# federal level (Constitution Act, 1867 s.133; Official Languages Act 1969,
+# modernized 2023); the two official-domain rows below are both 1.0 (legal
+# status, not population share).
+governanceType: federal
+iso3166_2_prefix: CA
+hasSubdivisions: true
+languageUsage:
+  - languageCode: eng
+    domain: official
+    # English and French are the official languages of Canada with equality of
+    # status (Official Languages Act). Both are flagged official at 1.0
+    # because 'official' is a legal-status flag, not a population share.
+    speakersShare: 1.0
+    sourceId: olc-act
+  - languageCode: fra
+    domain: official
+    # French shares official status with English federally; in Quebec it is
+    # the sole official language at the provincial level (Charter of the
+    # French Language / Bill 101).
+    speakersShare: 1.0
+    sourceId: olc-act
+  - languageCode: eng
+    domain: locallySpoken
+    # 2021 Census: English is the first official language spoken by ~75.5% of
+    # the population (first official language spoken, or FOLS).
+    speakersShare: 0.755
+    sourceId: statcan-2021
+  - languageCode: fra
+    domain: locallySpoken
+    # 2021 Census: French is the first official language spoken by ~21.4% of
+    # the population, concentrated in Quebec; another ~1.3% report both as
+    # first official languages.
+    speakersShare: 0.214
+    sourceId: statcan-2021
+# ethnicGroups intentionally omitted: Canada's Census collects 'visible
+# minority' status and Indigenous identity but no single additively-exclusive
+# 'ethnic group' share, so a summative ethnic composition would not reflect
+# an official table (respondents of European descent are grouped into the
+# non-visible-minority majority rather than separately enumerated).
+timezones:
+  - name: America/Toronto
+    standardUtcOffset: "UTC-5"
+    observesDst: true
+    dstUtcOffset: "UTC-4"
+    dstPeriod: "Second Sunday of March to first Sunday of November (Ontario, Quebec, most of the country)."
+  - name: America/Vancouver
+    standardUtcOffset: "UTC-8"
+    observesDst: true
+    dstUtcOffset: "UTC-7"
+    dstPeriod: "Second Sunday of March to first Sunday of November (British Columbia)."
+  - name: America/Edmonton
+    standardUtcOffset: "UTC-7"
+    observesDst: true
+    dstUtcOffset: "UTC-6"
+    dstPeriod: "Second Sunday of March to first Sunday of November (Alberta)."
+  - name: America/Winnipeg
+    standardUtcOffset: "UTC-6"
+    observesDst: true
+    dstUtcOffset: "UTC-5"
+    dstPeriod: "Second Sunday of March to first Sunday of November (Manitoba, Saskatchewan generally does not observe DST)."
+  - name: America/Iqaluit
+    standardUtcOffset: "UTC-5"
+    observesDst: true
+    dstUtcOffset: "UTC-4"
+    dstPeriod: "Second Sunday of March to first Sunday of November (Nunavut)."
+currency:
+  code: CAD
+  symbol: "$"
+  name: Canadian dollar
+legalConstraints:
+  - topic: "official language"
+    description: "English and French are the official languages of Canada with equality of status and use in all institutions of Parliament and the Government of Canada (Constitution Act, 1867 s.133; Official Languages Act 1969, modernized by Bill C-13 in 2023). Quebec designates French as its sole official provincial language under the Charter of the French Language."
+    sourceId: olc-act
+  - topic: "consumer protection"
+    description: "Consumer protection is a shared federal-provincial jurisdiction. Federally, the Competition Act and the Consumer Packaging and Labelling Act protect against misleading marketing and deceptive practices; provinces each have their own consumer-protection statutes (e.g. the Consumer Protection Act in Ontario and Quebec). The Competition Bureau enforces the federal regime."
+    sourceId: comp-bureau
+  - topic: "data protection"
+    description: "The Personal Information Protection and Electronic Documents Act (PIPEDA) governs how private-sector organizations collect, use, disclose and safeguard personal information in commercial activity, with the Office of the Privacy Commissioner overseeing and 'substantially similar' provincial privacy laws (Quebec's Act respecting the protection of personal information in the private sector) applying in some provinces."
+    sourceId: opc-pipeda
+  - topic: "GST/HST (VAT)"
+    description: "A federal Goods and Services Tax (GST) of 5% applies to most goods and services. In provinces that harmonize, the harmonized sales tax (HST) combines the 5% federal GST with the provincial sales tax (13% in Ontario, 15% in the Atlantic provinces); other provinces (e.g. Alberta) only the 5% GST; most provinces add a separate provincial sales tax (PST/QST)."
+    sourceId: cra-gst
+paymentCulture:
+  popularMethods:
+    - "Card payments dominate; debit (Interac) and credit cards are accepted almost everywhere"
+    - "Contactless and mobile payments (Apple Pay, Google Pay, tap-to-pay) are widespread"
+    - "Interac e-Transfer is the standard way Canadians send money person-to-person through banking apps"
+    - "Cash remains accepted but its use is declining"
+  tipping:
+    expected: true
+    typicalAmount: "15-20% is the standard at sit-down restaurants; tips for delivery, taxis and personal services (haircuts, tours) are common"
+    autoIncludedInBill: false
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Relaxed, polite and egalitarian. Canadians commonly mix a courteous, consensus-oriented tone with informality in daily interaction; first names are used quickly. Respect for personal space and a reputation-conscious politeness ('sorry') shapes much interaction."
+  greetingNorms: "A handshake or a friendly, informal greeting with first-name address; in Quebec, a handshake or a light double-cheek kiss (la bise) among acquaintances in francophone settings."
+  meetingEtiquette: "Punctuality is expected. Meetings are generally collaborative and consensus-oriented, polite and to the point; hierarchy exists but decisions are often reached through discussion. English and French speakers work across both official languages in federal settings."
+  topicsToAvoid:
+    - "Overly aggressive or confrontational debate; a measured, polite tone is preferred"
+    - "Sensitive comparisons with the United States"
+    - "Issues around Indigenous-settler relations and Quebec sovereignty, handled respectfully (opinions vary widely)"
+  giftGivingNotes: "Gift-giving is casual and not highly ritualised; bringing wine, chocolates or a small host gift when invited to someone's home is appreciated, and it is common to reciprocate hospitality."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: CA-ON
+    file: distinct-regions/ca-on.yaml
+    adminUnitCodes: [CA-ON]
+  - code: CA-QC
+    file: distinct-regions/ca-qc.yaml
+    adminUnitCodes: [CA-QC]
+  - code: CA-BC
+    file: distinct-regions/ca-bc.yaml
+    adminUnitCodes: [CA-BC]
+  - code: CA-AB
+    file: distinct-regions/ca-ab.yaml
+    adminUnitCodes: [CA-AB]
+  - code: CA-NU
+    file: distinct-regions/ca-nu.yaml
+    adminUnitCodes: [CA-NU]
+sources:
+  - id: olc-act
+    name: "Official Languages Act (R.S.C., 1985, c. 31; modernized 2023)"
+    publisher: "Government of Canada — Justice Laws website"
+    url: "https://laws-lois.justice.gc.ca/eng/acts/o-3.01/"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "Establishes English and French as Canada's official languages with equality of status; modernized by Bill C-13 in 2023."
+  - id: statcan-2021
+    name: "2021 Census — language statistics of Canada"
+    publisher: "Statistics Canada"
+    url: "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/98-200-X/2021013/98-200-X2021013-eng.cfm"
+    year: 2021
+    accessedDate: "2026-09-21"
+    note: "First official language spoken: English ~75.5%, French ~21.4%, both ~1.3%, neither ~1.8%. English-French bilingualism rate 18.0%."
+  - id: comp-bureau
+    name: "Competition Bureau — consumer protection"
+    publisher: "Competition Bureau, Government of Canada"
+    url: "https://www.competitionbureau.gc.ca/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Federally enforced Competition Act and Consumer Packaging and Labelling Act against deceptive marketing; provincial statutes cover much of consumer protection."
+  - id: opc-pipeda
+    name: "PIPEDA — Personal Information Protection and Electronic Documents Act"
+    publisher: "Office of the Privacy Commissioner of Canada (OPC)"
+    url: "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/02_05_d_15/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "PIPEDA governs private-sector handling of personal information; OPC supervises; 'substantially similar' provincial laws apply in some provinces."
+  - id: cra-gst
+    name: "GST/HST — Goods and Services Tax / Harmonized Sales Tax"
+    publisher: "Canada Revenue Agency (CRA)"
+    url: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst.html"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Federal GST 5%; harmonized HST 13% (Ontario) / 15% (Atlantic provinces); separate provincial sales taxes elsewhere."

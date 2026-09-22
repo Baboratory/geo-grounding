@@ -1,0 +1,99 @@
+code: AU-WA
+name:
+  eng: Western Australia
+  local:
+    - languageCode: eng
+      value: Western Australia
+climates:
+  - koppenCode: Csa
+    description: "Mediterranean climate in the southwest corner (Perth), with hot dry summers and mild wet winters."
+  - koppenCode: BWh
+    description: "Hot desert climate across the vast interior and the Pilbara/Kimberley, extremely hot and arid."
+  - koppenCode: Aw
+    description: "Tropical savanna climate in the far-north Kimberley, with a distinct wet and dry season."
+landmarks:
+  - name: Rottnest Island
+    description: "A car-free island off Perth famous for its serene beaches and the quokka, a small endemic marsupial."
+  - name: The Pinnacles Desert
+    description: "Thousands of limestone spires rising from the sand in Nambung National Park."
+  - name: Kimberley and Ningaloo Reef
+    description: "Remote outback gorges and one of the largest fringing coral reefs (Ningaloo), a UNESCO World Heritage Site, on the northwest coast."
+    unescoWorldHeritage: true
+  - name: Cable Beach
+    description: "A 22km stretch of white sand in Broome in the Kimberley, famous for its sunset camel rides."
+culturalTraits:
+  - "Australia's largest state by area, with most of its people in the sunny southwest corner around Perth"
+  - "A resource-rich frontier economy (iron ore, gold, LNG) with a strong outdoor culture"
+  - "Laid-back, warm and proudly independent ('the West')"
+prideOf:
+  - "Vast, spectacular and largely unspoiled landscapes"
+  - "The resources boom and economic strength"
+  - "Sunny, beach-oriented city living in Perth"
+animals:
+  popular:
+    - "Quokka (small wallaby, endemic to Rottnest Island)"
+    - "Humpback whale"
+  unique:
+    - "Numbat (a striped, termite-eating marsupial emblem of Western Australia)"
+industries:
+  - "Mining and resources (iron ore from the Pilbara, gold, LNG)"
+  - "Oil and gas"
+  - "Agriculture (wheat, wool, wine from Margaret River)"
+  - "Tourism"
+sports:
+  - "Australian rules football (AFL — West Coast Eagles, Fremantle Dockers)"
+  - "Cricket"
+  - "Surfing"
+  - "Basketball (Perth Wildcats)"
+entertainment:
+  - season: allYear
+    items:
+      - "Beach life and the Swan River recreation around Perth"
+      - "Wine tasting and coastal drives in the Margaret River region"
+  - season: summer
+    items:
+      - "Long sunny days at the beach, sunset drinks and outdoor dining"
+  - season: winter
+    items:
+      - "Whale-watching and lush green landscapes in the southwest"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fresh seafood: rock lobster (crayfish), barramundi and oysters"
+      - "Margaret River wine and premium beef"
+  - season: summer
+    items:
+      - "Barbecued seafood on the beach"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Casual, light clothing suited to a warm, sunny climate"
+  - season: summer
+    items:
+      - "Beachwear, hats and sunscreen essentials"
+  - season: winter
+    items:
+      - "Layers and a jacket for the mild, wet southwestern winter"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday; Perth is a major mining and resources corporate centre."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
+sources:
+  - id: visit-wa
+    name: "Western Australia — official tourism site"
+    publisher: "Tourism Western Australia"
+    url: "https://www.westernaustralia.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks (Rottnest, Pinnacles, Kimberley, Cable Beach), food, culture and seasonal highlights for Western Australia."

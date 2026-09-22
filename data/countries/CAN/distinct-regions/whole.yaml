@@ -1,0 +1,142 @@
+code: WHOLE
+name:
+  eng: Canada
+  local:
+    - languageCode: eng
+      value: Canada
+    - languageCode: fra
+      value: Canada
+# Generic country-wide fallback content for Canada (federal with a curated
+# subset of provinces/territories). National-level coverage not specific to
+# any one province or the user's detected subdivision.
+climates:
+  - koppenCode: Dfb
+    description: "Warm-summer humid continental climate across southern Canada (the populous zone: southern Ontario, Quebec, the Prairies), with warm summers and cold, snowy winters."
+  - koppenCode: Dfc
+    description: "Subarctic climate across the northern reaches, with short mild summers and very long, cold winters."
+  - koppenCode: ET
+    description: "Tundra climate in the far north (Arctic territories), with brief cool summers and permafrost."
+  - koppenCode: Cfb
+    description: "Temperate oceanic climate along the Pacific coast (British Columbia), mild and rainy year-round."
+landmarks:
+  - name: Niagara Falls
+    description: "The world-famous set of waterfalls straddling the Ontario-New York border, a dramatic natural spectacle."
+  - name: Banff National Park
+    description: "Canada's first national park, in the Rocky Mountains of Alberta — glacial lakes, peaks and wildlife, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: CN Tower
+    description: "The icon of Toronto, a 553m communications tower with a glass-floor skywalk."
+  - name: Old Quebec (Vieux-Québec)
+    description: "A UNESCO World Heritage Site walled city, the historic heart of Quebec."
+    unescoWorldHeritage: true
+  - name: Northern Lights (Aurora Borealis)
+    description: "Visible across the northern territories (Yukon, NWT, Nunavut and northern provinces), a signature Arctic experience."
+culturalTraits:
+  - "A vast, multicultural federation spanning two official languages and the largest coastline/forest cover in the world"
+  - "Famous politeness, tolerance and a strong belief in public services and the social safety net"
+  - "Distinct regional identities: French-speaking Quebec, the Prairies, the Maritimes, the West Coast and the North"
+  - "A deep-rooted Indigenous heritage alongside waves of immigration from every continent"
+prideOf:
+  - "A welcoming, multicultural society and a stable, peaceful democracy"
+  - "Natural beauty: the Rockies, lakes, forests and the Arctic"
+  - "Hockey and winter sports; the health-care system and social programs"
+animals:
+  popular:
+    - "Beaver (a national symbol)"
+    - "Moose"
+    - "Canada goose"
+  unique:
+    - "Polar bear (found along the Arctic coasts and Hudson Bay)"
+    - "Caribou/reindeer in the northern forests and tundra"
+    - "Beluga whale (in Arctic and St. Lawrence waters)"
+industries:
+  - "Energy and natural resources (oil, natural gas, mining, forestry)"
+  - "Financial services (Toronto is a major global centre)"
+  - "Manufacturing and technology"
+  - "Agriculture (wheat on the Prairies, canola, dairy)"
+  - "Tourism"
+sports:
+  - "Ice hockey (the national winter sport and passion)"
+  - "Lacrosse (the summer sport, of Indigenous origin)"
+  - "Canadian football"
+  - "Curling"
+  - "Skiing and snowboarding"
+  - "Basketball (invented by a Canadian, James Naismith)"
+entertainment:
+  - season: allYear
+    items:
+      - "Local festivals, professional sports, and Canada's thriving film and music scenes"
+      - "The great outdoors — canoeing, hiking and camping in the warmer months"
+  - season: winter
+    items:
+      - "Skating on outdoor rinks (including the Rideau Canal in Ottawa) and pond hockey"
+      - "Skiing and snowboarding in the Rockies and Eastern Townships"
+  - season: summer
+    items:
+      - "Canada Day (1 July) celebrations and street festivals"
+      - "Canoeing, cottage weekends and lake swimming"
+  - season: autumn
+    items:
+      - "Spectacular fall colours ('leaf peeping') across Ontario and Quebec"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Poutine (fries topped with cheese curds and gravy), especially in Quebec"
+      - "Butter tarts and Nanaimo bars"
+      - "Maple syrup and maple-based treats"
+      - "Atlantic seafood: lobster, scallops and salmon"
+  - season: winter
+    items:
+      - "Hearty comfort food: tourtière (meat pie), stews and hot beverages"
+  - season: summer
+    items:
+      - "Backyard and cottage barbecues, smoked meats (Montreal) and fresh berries"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Casual, practical dress; layered clothing suited to a variable climate"
+  - season: winter
+    items:
+      - "Heavy coats, toques, mittens and boots are essential across most of the country"
+  - season: summer
+    items:
+      - "Light casual clothing; warmer and shorter in southern regions"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday; Toronto's financial district and the major corporate centres run a standard business day."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical, often a quick sandwich, salad or (in Quebec) a café meal."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year (24 December-1 January)"
+      description: "The main holiday period; many businesses close or operate reduced hours."
+sources:
+  - id: canada-tourism
+    name: "Destination Canada — official tourism website"
+    publisher: "Destination Canada (Government of Canada)"
+    url: "https://www.destinationcanada.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, national parks, food, culture and seasonal highlights for the WHOLE region."
+  - id: unesco-whc-can
+    name: "Canada — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/ca"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Canada's UNESCO World Heritage properties, including the Rocky Mountain parks (Banff/Jasper) and Old Quebec."
+
+# Religions and ethnicity are not enumerated at country level: the Census
+# reports religion (2021: ~63% Christian, ~34% no religion, remainder
+# Muslim/Hindu/Sikh/Buddhist/Jewish/other) but no single additively-exclusive
+# 'ethnic group' share, so a clean religions[]/ethnicGroups[] sum would not
+# reflect an official table.

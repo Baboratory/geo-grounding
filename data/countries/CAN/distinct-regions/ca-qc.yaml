@@ -1,0 +1,105 @@
+code: CA-QC
+name:
+  eng: Quebec
+  local:
+    - languageCode: fra
+      value: Québec
+climates:
+  - koppenCode: Dfb
+    description: "Humid continental climate across southern Quebec (Montreal, Quebec City), with warm, humid summers and cold, snowy winters."
+  - koppenCode: Dfc
+    description: "Subarctic climate in northern Quebec, with very long, cold winters and short summers."
+landmarks:
+  - name: Old Quebec (Vieux-Québec)
+    description: "A UNESCO World Heritage Site walled city, crowned by the Château Frontenac hotel."
+    unescoWorldHeritage: true
+  - name: Notre-Dame Basilica (Montreal)
+    description: "The spectacular Gothic Revival basilica in Old Montreal, famous for its interior."
+  - name: Mont-Tremblant
+    description: "A major ski resort in the Laurentian mountains north of Montreal, a year-round outdoors destination."
+  - name: Old Montreal (Vieux-Montréal)
+    description: "The historic downtown district of cobblestone streets, cafés and markets."
+culturalTraits:
+  - "Canada's French-speaking nation within a federation, with a distinct language, legal system (civil law) and cultural identity"
+  - "Famous for its food culture, festivals, and a proud artistic and literary tradition"
+  - "A deep historic identity centred on the French language and its protection (Charter of the French Language)"
+prideOf:
+  - "The French language and a distinct North American francophone culture"
+  - "World-class gastronomy, festivals and the arts"
+  - "Hockey (Montreal Canadiens, 'la Sainte-Flanelle')"
+animals:
+  popular:
+    - "Snowshoe hare"
+    - "White-tailed deer"
+  unique:
+    - "The northern gannet colony at Percé Rock (Gaspé)"
+industries:
+  - "Aerospace (Montreal's aerospace cluster) and aircraft manufacturing"
+  - "Technology and artificial intelligence (Montreal is a leading AI hub)"
+  - "Hydroelectricity and natural resources"
+  - "Film, media and the arts"
+  - "Tourism"
+sports:
+  - "Ice hockey (Montreal Canadiens)"
+  - "Canadian football (Montreal Alouettes)"
+  - "Skiing and snowboarding"
+  - "Soccer"
+entertainment:
+  - season: allYear
+    items:
+      - "Montreal's café culture, festivals and the Old Montreal dining scene"
+  - season: summer
+    items:
+      - "The Montreal International Jazz Festival and Just for Laughs comedy festival"
+      - "Fête nationale (Saint-Jean-Baptiste Day, 24 June) celebrations"
+  - season: winter
+    items:
+      - "Winter carnival in Quebec City (Carnaval de Québec) and maple-based treats (tire d'érable)"
+      - "Skiing in the Laurentians and Eastern Townships"
+  - season: autumn
+    items:
+      - "Fall colours in the Eastern Townships and sugarbush (cabane à sucre) season in early spring"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Poutine (Quebec's iconic dish: fries, cheese curds and gravy)"
+      - "Tourtière (meat pie), smoked meat, bagels and maple syrup"
+  - season: winter
+    items:
+      - "Tire d'érable (maple taffy pulled on snow) and hearty winter stews"
+  - season: summer
+    items:
+      - "Fresh local produce, poutine festivals, and craft-beer and food-truck culture"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Chic but practical urban style, mixing French fashion sensibility with cold-weather wear"
+  - season: winter
+    items:
+      - "Heavy coats, toques, scarves and boots for the cold, snowy season"
+  - season: summer
+    items:
+      - "Light, stylish casual clothing"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday; many businesses operate in French as the working language per the Charter of the French Language."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical; mealtimes and the café culture are central to the working day."
+sources:
+  - id: quebec-tourism
+    name: "Bonjour Québec — official tourism site"
+    publisher: "Tourisme Québec (Ministère du Tourisme, Gouvernement du Québec)"
+    url: "https://www.quebecoriginal.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Quebec."

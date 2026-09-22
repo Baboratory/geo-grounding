@@ -1,0 +1,98 @@
+code: CA-NU
+name:
+  eng: Nunavut
+  local:
+    - languageCode: eng
+      value: Nunavut
+climates:
+  - koppenCode: ET
+    description: "Tundra climate across most of Nunavut, with long, very cold winters and brief cool summers, permafrost and little precipitation."
+  - koppenCode: EF
+    description: "Ice-cap climate on the far-northern High Arctic islands (e.g. Ellesmere Island), permanently frozen."
+landmarks:
+  - name: Iqaluit (capital)
+    description: "Nunavut's capital on Baffin Island, the territory's political and administrative hub."
+  - name: Auyuittuq National Park
+    description: "A stunning Arctic park on Baffin Island of fjords, glaciers and the Akshayuk Pass trekking corridor."
+  - name: Arctic wildlife (polar bears, narwhal)
+    description: "Nunavut's Arctic waters and sea ice host polar bears, narwhal and walrus."
+  - name: Northern Lights (Aurora Borealis)
+    description: "Spectacular aurora displays across the territory's dark Arctic nights."
+culturalTraits:
+  - "Canada's newest territory (created 1999) and its most north, with an overwhelmingly Inuit population"
+  - "Deep Indigenous sovereignty, governed under the Nunavut land-claim agreement with Inuit self-governance"
+  - "A living connection to hunting, the land and the sea through the year's rhythms (Inuktitut language rights are protected)"
+prideOf:
+  - "A self-governing Inuit homeland and the resilience of Arctic life"
+  - "The Inuit language (Inuktitut), culture and art (celebrated Inuit sculpture and printmaking)"
+  - "The spectacular Arctic environment"
+animals:
+  popular:
+    - "Polar bear"
+    - "Narwhal"
+  unique:
+    - "Arctic (genus) — endemic to the far north: muskox, Arctic char, and the narwhal's 'tusk'"
+industries:
+  - "Public administration and services (government is the largest employer)"
+  - "Mining and mineral exploration"
+  - "Hunting, fishing and the traditional economy"
+  - "Tourism (wildlife, Arctic expeditions and aurora viewing)"
+sports:
+  - "Hockey"
+  - "Dog-sledding (traditional)"
+  - "Inuit games (kicking and jumping contests)"
+  - "Fishing (Arctic char)"
+entertainment:
+  - season: allYear
+    items:
+      - "Celebrations of Inuit art, throat-singing and community feasts"
+  - season: winter
+    items:
+      - "Aurora viewing and dog-sledding across the frozen landscape"
+  - season: summer
+    items:
+      - "The midnight sun and wildlife viewing (whales, walrus, birds)"
+  - season: spring
+    items:
+      - "Inuit spring camp: hunting and travel on the melting sea ice"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Country food: caribou, muskox, Arctic char, seal and narwhal muktuk"
+      - "Modern Arctic cooking blending traditional ingredients with café-style fare"
+  - season: winter
+    items:
+      - "Broth, stewed country meat and bannock"
+  - season: summer
+    items:
+      - "Freshly harvested Arctic char and berries"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Traditional parkas (including the celebrated Amauti parka design) and modern windproof Arctic wear"
+  - season: winter
+    items:
+      - "The warmest layered winter gear available, essential in the High Arctic"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2, 3, 4]
+  - season: spring
+    months: [5, 6]
+  - season: summer
+    months: [7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Public-sector and service roles typically run 09:00-17:00 (often 08:30-16:30 in the territory); many operations are seasonal, tied to sea-ice and hunting calendars."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical; community meals (country-food feasts) are a valued social tradition."
+sources:
+  - id: nunavut-tourism
+    name: "Nunavut — official tourism"
+    publisher: "Government of Nunavut / Destination Nunavut partners"
+    url: "https://www.destinationnunavut.ca/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture, country food and seasonal highlights for Nunavut."

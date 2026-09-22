@@ -1,0 +1,106 @@
+code: CA-ON
+name:
+  eng: Ontario
+  local:
+    - languageCode: eng
+      value: Ontario
+climates:
+  - koppenCode: Dfb
+    description: "Humid continental climate across southern Ontario, with warm, sometimes humid summers and cold, snowy winters."
+  - koppenCode: Dfc
+    description: "Subarctic climate in northern Ontario, with short summers and long, very cold winters."
+landmarks:
+  - name: Niagara Falls
+    description: "The famous waterfall complex on the Niagara River at the Ontario-New York border, a top Canadian attraction."
+  - name: CN Tower
+    description: "Toronto's 553m icon with a glass-floor observation deck overlooking the city and Lake Ontario."
+  - name: Parliament Hill (Ottawa)
+    description: "The seat of the Government of Canada, its Gothic-revival buildings on the Ottawa River."
+  - name: Algonquin Provincial Park
+    description: "A vast protected landscape of lakes, forests and canoe country in central Ontario."
+culturalTraits:
+  - "Canada's most populous province, its economic engine centred on the Greater Toronto Area"
+  - "A deeply multicultural society (Toronto is one of the most diverse cities on Earth)"
+  - "Strong draws of both urban dynamism and vast northern wilderness"
+prideOf:
+  - "A leading economy, world-class universities and a multicultural identity"
+  - "The Great Lakes and cottage-country lifestyle"
+  - "Hockey and iconic sporting rivalries (Toronto Maple Leafs, Raptors)"
+animals:
+  popular:
+    - "Maple-syrup country: the sugar maple"
+    - "White-tailed deer"
+  unique:
+    - "Algonquin wolf (a distinct wolf lineage in the park and central Ontario)"
+industries:
+  - "Financial services and corporate headquarters (Toronto)"
+  - "Technology and innovation (Toronto-Waterloo corridor)"
+  - "Automotive manufacturing"
+  - "Agriculture (southern Ontario farmland)"
+  - "Tourism (Niagara, Ottawa, Toronto)"
+sports:
+  - "Ice hockey (Toronto Maple Leafs)"
+  - "Basketball (Toronto Raptors)"
+  - "Canadian football"
+  - "Baseball (Toronto Blue Jays)"
+  - "Soccer"
+entertainment:
+  - season: allYear
+    items:
+      - "Toronto's arts scene, museums (ROM, AGO) and diverse restaurant districts"
+      - "Ottawa's parliamentary and cultural attractions"
+  - season: winter
+    items:
+      - "Skating on the Rideau Canal (the world's largest skating rink) in Ottawa"
+      - "Skiing in the Laurentian and Muskoka winter country"
+  - season: summer
+    items:
+      - "Cottage season on the lakes; festivals across Toronto and Ottawa"
+  - season: autumn
+    items:
+      - "Spectacular fall colours in Algonquin Park and the Kawarthas"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Poutine and smoked meats available across the province's diverse food scene"
+      - "Fresh maple syrup products"
+      - "Butter tarts (a beloved Ontario dessert)"
+  - season: summer
+    items:
+      - "Cottage and campground cooking, Niagara wine-country tasting and fresh sweet corn"
+  - season: winter
+    items:
+      - "Hearty stews, tourtière and hot comfort foods"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Smart-casual city style in Toronto; practical outdoor wear elsewhere"
+  - season: winter
+    items:
+      - "Warm coats, boots, toques and mittens for the cold, snowy season"
+  - season: summer
+    items:
+      - "Light casual clothing"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday; Toronto's financial district (Bay Street) drives the standard business day."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
+sources:
+  - id: ontario-tourism
+    name: "Ontario — official tourism site"
+    publisher: "Ontario Ministry of Heritage, Sport, Tourism and Culture / Destination Ontario"
+    url: "https://www.ontariotravel.net/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Ontario."

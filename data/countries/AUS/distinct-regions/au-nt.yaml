@@ -1,0 +1,88 @@
+code: AU-NT
+name:
+  eng: Northern Territory
+  local:
+    - languageCode: eng
+      value: Northern Territory
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate across the central 'red centre' (Alice Springs region), with very hot days and cool nights."
+  - koppenCode: Aw
+    description: "Tropical savanna climate in the 'Top End' around Darwin, with a hot wet season (November-April) and a dry season (May-October)."
+landmarks:
+  - name: Uluru (Ayers Rock)
+    description: "The vast sandstone monolith in the red centre, sacred to the Anangu people and iconic to the world."
+  - name: Kata Tjuta (the Olgas)
+    description: "A striking group of domed rock formations near Uluru in Uluru-Kata Tjuta National Park."
+  - name: Kakadu National Park
+    description: "A UNESCO World Heritage Site of wetlands, escarpment and ancient Aboriginal rock art."
+    unescoWorldHeritage: true
+  - name: Nitmiluk (Katherine) Gorge
+    description: "A dramatic series of sandstone gorges cut by the Katherine River."
+culturalTraits:
+  - "The heart of Australia with a strong and proud Aboriginal heritage (a large share of the population is Indigenous)"
+  - "A frontier, outdoors culture built around the red centre and the tropical Top End"
+  - "Wide open spaces, small remote communities and a strong sense of place"
+prideOf:
+  - "Uluru and the sacred landscapes of the centre"
+  - "Aboriginal cultural continuity, one of the oldest living cultures on Earth"
+  - "The vastness and beauty of the outback"
+animals:
+  popular:
+    - "Red kangaroo"
+    - "Wedge-tailed eagle"
+  unique:
+    - "Thorny devil (a spiny desert lizard)"
+    - "Saltwater crocodile (in the Top End wetlands and rivers)"
+industries:
+  - "Mining (gold, manganese, bauxite, gas)"
+  - "Tourism (Uluru, Kakadu, outback travel)"
+  - "Defence and government services (Darwin)"
+  - "Pastoral agriculture (cattle)"
+sports:
+  - "Australian rules football (popular across the NT)"
+  - "Cricket"
+  - "Fishing and boating"
+entertainment:
+  - season: dry
+    items:
+      - "Travel to Uluru, Kata Tjuta and Kakadu — the dry season (May-October) is the main tourist window"
+      - "Outback festivals, rodeos and the Darwin dry-season calendar"
+  - season: wet
+    items:
+      - "Kakadu's dramatic waterfalls and lush green landscape at their peak (November-April)"
+      - "Indoor and market culture in Darwin during the humid wet"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Barramundi, a famous tropical fish"
+      - "Bush tucker (native foods) incorporated into modern outback dining"
+  - season: dry
+    items:
+      - "Outback campfire cooking and barbecue under the stars"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Practical, sun-protective clothing; lightweight in the hot climate"
+  - season: wet
+    items:
+      - "Light layers, rain gear and insect repellent for the humid wet season"
+seasonCalendar:
+  - season: dry
+    months: [5, 6, 7, 8, 9, 10]
+  - season: wet
+    months: [11, 12, 1, 2, 3, 4]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday, with many public and mining-sector roles operating on site rosters."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
+sources:
+  - id: nt-tourism
+    name: "Northern Territory — official travel site"
+    publisher: "Tourism NT / Northern Territory Government"
+    url: "https://northernterritory.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks (Uluru, Kata Tjuta, Kakadu, Nitmiluk), outback culture and seasonal highlights for the Northern Territory."

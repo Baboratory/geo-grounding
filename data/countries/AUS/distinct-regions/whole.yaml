@@ -1,0 +1,149 @@
+code: WHOLE
+name:
+  eng: Australia
+  local:
+    - languageCode: eng
+      value: Australia
+# Generic country-wide fallback content for Australia (federal with a curated
+# subset of states/territories). National-level coverage not specific to any
+# one state or the user's detected subdivision.
+climates:
+  - koppenCode: Cfb
+    description: "Temperate oceanic climate across the southeastern seaboard (Sydney, Melbourne, Tasmania) with mild, wetter conditions and no extreme heat or cold."
+  - koppenCode: Cwa
+    description: "Humid subtropical climate in coastal Queensland and northern NSW, with hot humid summers and mild dry winters."
+  - koppenCode: BWh
+    description: "Hot desert climate across much of the arid interior (the Outback), with very hot summers, low rainfall and large diurnal temperature swings."
+  - koppenCode: BSh
+    description: "Semi-arid steppe climate around the desert margins and parts of the interior."
+  - koppenCode: Aw
+    description: "Tropical savanna climate across the far north (Top End, Cape York), with a distinct wet and dry season."
+landmarks:
+  - name: Great Barrier Reef
+    description: "The world's largest coral reef system, off the Queensland coast — a UNESCO World Heritage Site supporting extraordinary marine biodiversity."
+    unescoWorldHeritage: true
+  - name: Uluru (Ayers Rock)
+    description: "A vast sandstone monolith in the Northern Territory's red centre, sacred to the Anangu people and an icon of Australia."
+  - name: Sydney Opera House
+    description: "The famous sail-roofed performing-arts centre on Sydney Harbour, a UNESCO World Heritage Site and global symbol of Australia."
+    unescoWorldHeritage: true
+  - name: Kakadu National Park
+    description: "A vast protected landscape in the Northern Territory combining wetlands, escarpment and rock art, listed as a UNESCO World Heritage Site for both natural and cultural values."
+    unescoWorldHeritage: true
+  - name: Great Barrier Reef Marine Park (reef system)
+    description: "Protected marine area that includes more than 2,900 individual reefs and 900 islands along the Queensland coast."
+  - name: Twelve Apostles and the Great Ocean Road
+    description: "Dramatic limestone sea stacks along the Victorian coastline, reached via the scenic Great Ocean Road."
+culturalTraits:
+  - "A relaxed, egalitarian and outdoor-loving culture built on a diverse migrant history"
+  - "A deep Indigenous heritage spanning tens of thousands of years, alongside modern multicultural cities"
+  - "A strong sporting culture (cricket, Australian-rules football, rugby, swimming, surfing)"
+  - "Famously direct, informal and good-humoured communication (the 'mateship' ethos)"
+prideOf:
+  - "A world-class quality of life, stable democracy and a strong social safety net"
+  - "The natural environment: beaches, the reef, the bush and vast landscapes"
+  - "Sporting achievement and the 'fair go' egalitarian spirit"
+animals:
+  popular:
+    - "Kangaroo"
+    - "Koala"
+    - "Emu"
+  unique:
+    - "Platypus (one of only two egg-laying mammals, endemic to eastern Australia)"
+    - "Echidna (the other monotreme, found across Australia)"
+    - "Tasmanian devil (carnivorous marsupial, endemic to Tasmania)"
+industries:
+  - "Mining and resources (iron ore, coal, gold, LNG)"
+  - "Agriculture and agribusiness (wheat, beef, wool, wine)"
+  - "Education (a major destination for international students)"
+  - "Tourism"
+  - "Financial and professional services"
+  - "Technology and innovation"
+sports:
+  - "Cricket"
+  - "Australian rules football (AFL)"
+  - "Rugby league and rugby union"
+  - "Swimming and surfing"
+  - "Tennis"
+  - "Netball"
+entertainment:
+  - season: allYear
+    items:
+      - "Beach culture: surfing, swimming and coastal barbecues"
+      - "Sporting matches and the pub culture of Friday-night catch-ups"
+      - "Music festivals (Splendour in the Grass, Falls Festival) and outdoor cinema"
+  - season: summer
+    items:
+      - "The Boxing Day Test match and summer cricket series"
+      - "The Australian Open (Grand Slam tennis) in Melbourne each January"
+  - season: winter
+    items:
+      - "Skiing and snowboarding in the Victorian and New South Wales alpine resorts"
+  - season: spring
+    items:
+      - "Spring racing carnival (including the Melbourne Cup in early November)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "The 'barbie' (barbecue): snags (sausages), steaks, burgers and lamb"
+      - "Meat pies, sausage rolls and the Vegemite on toast breakfast staple"
+      - "Seafood: fresh prawns, oysters, fish and chips"
+      - "Lamingtons (sponge cakes coated in chocolate and coconut)"
+  - season: summer
+    items:
+      - "Pavlova with fresh summer fruit"
+      - "Cold salads and seafood for Christmas lunch in the Southern summer"
+  - season: winter
+    items:
+      - "Hearty roasts and slow-cooked stews"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Relaxed, casual dress is the norm; smart-casual in the cities"
+      - "Practical outdoor wear (hats, sunscreen-friendly clothing) given strong sun"
+  - season: summer
+    items:
+      - "Singlets, boardshorts, thongs (flip-flops) at the beach"
+  - season: winter
+    items:
+      - "Layers, jackets and beanies in the cooler south"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday, with a strong casual culture; flexible and hybrid arrangements are increasingly common."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical; many grab a quick sandwich, salad or a café meal."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year (late December to early January)"
+      description: "The main summer holiday period; many businesses close or operate reduced hours as a large share of the population takes annual leave."
+sources:
+  - id: australia-com
+    name: "Australia.com — official tourism website"
+    publisher: "Tourism Australia"
+    url: "https://www.australia.com/en"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, national parks, food, culture and seasonal highlights for the WHOLE region."
+  - id: unesco-whc-aus
+    name: "Australia — Properties inscribed on the World Heritage List"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/statesparties/au"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Australia's UNESCO World Heritage properties, including the Great Barrier Reef, Sydney Opera House and Kakadu National Park."
+
+# Religions and ethnicity are not enumerated at country level: the Australian
+# Census reports religion (2021: ~44% Christian, ~39% no religion, remainder
+# Muslim/Hindu/Buddhist/other) and ancestry granularly, but there is no single
+# official 'ethnic group' share that a religions[]/ethnicGroups[] summing
+# cleanly would represent, so the fields are omitted with national figures
+# described instead in the country.yaml notes.

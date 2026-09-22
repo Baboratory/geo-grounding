@@ -1,0 +1,105 @@
+code: AU-NSW
+name:
+  eng: New South Wales
+  local:
+    - languageCode: eng
+      value: New South Wales
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate along the coast (Sydney to the northern rivers), with warm, sometimes hot summers and mild winters."
+  - koppenCode: Cfb
+    description: "Oceanic temperate climate in the higher southern tablelands and coastal south, milder and wetter."
+landmarks:
+  - name: Sydney Opera House
+    description: "The world-famous sail-roofed performing-arts centre on Sydney Harbour, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Sydney Harbour Bridge
+    description: "The iconic steel arch bridge spanning Sydney Harbour, nicknamed the 'Coathanger', which can be climbed."
+  - name: Blue Mountains National Park
+    description: "A UNESCO World Heritage Site of dramatic sandstone cliffs, eucalyptus forests and the Three Sisters formation west of Sydney."
+    unescoWorldHeritage: true
+  - name: Bondi Beach
+    description: "Sydney's most famous surf beach, a symbol of Australian beach culture."
+culturalTraits:
+  - "Australia's most populous state and economic powerhouse, centred on Sydney"
+  - "A coastal, cosmopolitan culture anchored by a vast harbour and famous beaches"
+  - "A strong arts, dining and multicultural scene"
+prideOf:
+  - "The harbour city lifestyle and natural beauty"
+  - "Landmark icons and the state's economic dynamism"
+  - "Beach and surf culture"
+animals:
+  popular:
+    - "Eastern grey kangaroo"
+    - "Kookaburra"
+  unique:
+    - "Blue Mountains tree frog"
+industries:
+  - "Financial services and corporate headquarters (Sydney)"
+  - "Technology, media and creative industries"
+  - "Ports, logistics and trade"
+  - "Tourism and hospitality"
+  - "Agriculture (the state is a major producer of grains, wool and dairy)"
+sports:
+  - "Rugby league (NRL is centred in Sydney)"
+  - "Cricket"
+  - "Australian rules football (AFL, growing in Sydney)"
+  - "Surfing"
+  - "Tennis"
+entertainment:
+  - season: allYear
+    items:
+      - "Coastal walks (the Bondi to Coogee coastal trail) and harbour ferry trips"
+      - "Live music, theatre and the Vivid Sydney light festival"
+  - season: summer
+    items:
+      - "Surfing, beach days and outdoor harbourside events"
+      - "New Year's Eve fireworks over Sydney Harbour"
+  - season: winter
+    items:
+      - "Whale-watching off the south coast and ski trips to the Snowy Mountains"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fresh Sydney seafood (oysters, prawns, fish and chips)"
+      - "Meat pies and sausage rolls at the footy"
+      - "The Modern-Australian café breakfast (flat white coffee, smashed avocado)"
+  - season: summer
+    items:
+      - "Barbecued seafood and salads"
+  - season: winter
+    items:
+      - "Hearty pub roasts in the southern highlands"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Relaxed coastal style; smart-casual for business in the CBD"
+  - season: summer
+    items:
+      - "Light cottons, linen, swimwear and thongs (flip-flops)"
+  - season: winter
+    items:
+      - "Layers and jackets for cooler southern winters"
+seasonCalendar:
+  - season: summer
+    months: [12, 1, 2]
+  - season: autumn
+    months: [3, 4, 5]
+  - season: winter
+    months: [6, 7, 8]
+  - season: spring
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00 Monday-Friday; Sydney's CBD and North Sydney finance/tech districts run a standard business day."
+  lunchBreakTiming: "A lunch break around 12:30-13:30 is typical, often a quick café sandwich or salad."
+sources:
+  - id: visit-nsw
+    name: "Visit NSW — official tourism site"
+    publisher: "New South Wales Government / Destination NSW"
+    url: "https://www.visitnsw.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for New South Wales."
