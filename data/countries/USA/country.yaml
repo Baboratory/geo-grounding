@@ -1,0 +1,185 @@
+alpha3: USA
+alpha2: US
+name:
+  eng: United States
+  local:
+    - languageCode: eng
+      value: United States
+flagEmoji: "🇺🇸"
+capital: Washington, D.C.
+isSovereign: true
+# Classified federal: the United States is a federal constitutional republic of
+# 50 states, one federal district (Washington, D.C.) and several territories,
+# with strong state autonomy (reserved powers under the Tenth Amendment of the
+# Constitution). Federations always carry real ISO 3166-2 subdivisions:
+# US-CA, US-TX, US-NY, US-FL, US-WA, US-IL etc. Curated subset + WHOLE below.
+# English became the official language of the US federal government via
+# Executive Order 14224 (1 March 2025) -- the first federal official-language
+# designation (no earlier Act of Congress or constitutional amendment had
+# done so); English is also the mother tongue of ~82% and spoken 'well or
+# very well' by ~96%. 32 of 50 states separately have laws designating
+# English (and in a few cases another language) as official. The outlying
+# territories (PR, GU, AS, VI, MP, UM) are separate ISO 3166-1 entries, not
+# part of this file.
+governanceType: federal
+iso3166_2_prefix: US
+hasSubdivisions: true
+languageUsage:
+  - languageCode: eng
+    domain: official
+    # English was designated the official language of the US federal
+    # government by Executive Order 14224 (1 March 2025); the official-domain
+    # flag is a legal-status marker, not a population measurement. 32 states
+    # separately legislate English as official.
+    speakersShare: 1.0
+    sourceId: eo14224
+  - languageCode: eng
+    domain: locallySpoken
+    # ~96% of the population reports speaking English 'well' or 'very well'
+    # (mother tongue of ~82% per Census/ACS 2023).
+    speakersShare: 0.96
+    sourceId: census-english
+  - languageCode: spa
+    domain: locallySpoken
+    # Spanish is by far the most spoken non-English language at home: the
+    # 2023 ACS records ~13-14% of the population (Spanish was spoken at home
+    # by ~44.9M people, i.e. ~14% of those 5+). Captured as the leading
+    # locally-spoken language, concentrated in the Southwest and urban centers.
+    speakersShare: 0.14
+    sourceId: census-spanish
+# ethnicGroups intentionally omitted: the US Census collects ancestry and
+# race/ethnicity (2020: White alone ~61.6%, Hispanic/Latino of any race
+# ~18.7%, Black or African American ~12.4%, Asian ~6.0%, Indigenous ~1.1%)
+# through separate, non-additive categories that respondents self-identify,
+# so a clean summand 'ethnic composition' would misrepresent the official
+# multi-racial framing.
+timezones:
+  - name: America/New_York
+    standardUtcOffset: "UTC-5"
+    observesDst: true
+    dstUtcOffset: "UTC-4"
+    dstPeriod: "Second Sunday of March to first Sunday of November (Eastern Time)."
+  - name: America/Chicago
+    standardUtcOffset: "UTC-6"
+    observesDst: true
+    dstUtcOffset: "UTC-5"
+    dstPeriod: "Second Sunday of March to first Sunday of November (Central Time)."
+  - name: America/Denver
+    standardUtcOffset: "UTC-7"
+    observesDst: true
+    dstUtcOffset: "UTC-6"
+    dstPeriod: "Second Sunday of March to first Sunday of November (Mountain Time)."
+  - name: America/Los_Angeles
+    standardUtcOffset: "UTC-8"
+    observesDst: true
+    dstUtcOffset: "UTC-7"
+    dstPeriod: "Second Sunday of March to first Sunday of November (Pacific Time)."
+  - name: America/Anchorage
+    standardUtcOffset: "UTC-9"
+    observesDst: true
+    dstUtcOffset: "UTC-8"
+    dstPeriod: "Second Sunday of March to first Sunday of November (Alaska Time)."
+  - name: Pacific/Honolulu
+    standardUtcOffset: "UTC-10"
+    observesDst: false
+currency:
+  code: USD
+  symbol: "$"
+  name: United States dollar
+legalConstraints:
+  - topic: "official language"
+    description: "Executive Order 14224 (1 March 2025) designated English the official language of the US federal government, the first such federal designation (no prior Act of Congress or constitutional amendment had done so); it also revoked a Clinton-era order (EO 13166) that had required federal agencies to provide language-assistance services to limited-English speakers, leaving that now discretionary. 32 states and all five inhabited territories separately have laws designating English (in a few cases alongside another language such as Hawaiian) as official."
+    sourceId: eo14224
+  - topic: "consumer protection"
+    description: "The Federal Trade Commission (FTC) enforces federal consumer-protection law against unfair or deceptive acts and practices (FTC Act s.5), and the Consumer Product Safety Commission regulates product safety; states add their own consumer-protection statutes (e.g. 'little FTC acts' and lemon laws)."
+    sourceId: ftc
+  - topic: "data protection"
+    description: "The US has no single comprehensive federal privacy law; sectoral laws apply (HIPAA for health, GLBA for financial, COPPA for children online) and the FTC polices deceptive privacy practices. Several states have enacted comprehensive consumer-privacy laws, led by the California Consumer Privacy Act (CCPA/CPRA, effective 2020/2023)."
+    sourceId: ftc-privacy
+  - topic: "sales tax"
+    description: "There is no federal sales tax; most states levy a state and local sales tax on goods (and increasingly some services), with rates and exemptions varying by state (e.g. ~6-9% typical combined). Exports to most out-of-state destinations may be taxed on the seller's location following the 2018 Wayfair ruling."
+    sourceId: census-sales
+paymentCulture:
+  popularMethods:
+    - "Credit and debit cards dominate; contactless (tap-to-pay) and mobile wallets (Apple Pay, Google Pay) are widely accepted"
+    - "Cash remains accepted nearly everywhere, though card-only checkouts are growing"
+    - "Venmo, Zelle, PayPal and Cash App are the standard person-to-person transfer methods"
+    - "Peer-to-peer QR and bank-app transfers are common"
+  tipping:
+    expected: true
+    typicalAmount: "15-20% (often 18-25%) at sit-down restaurants is standard; tips for delivery, bartenders, taxis, and personal services (haircuts, tours, hotels) are expected"
+    autoIncludedInBill: false
+communicationStyle:
+  contextLevel: low-context
+  formalityNorms: "Direct, friendly and egalitarian. Americans tend to be informal and personable, using first names quickly and expecting a straightforward, candid communication style; efficiency and a positive, can-do tone are valued."
+  greetingNorms: "A firm handshake or a friendly wave/'hello'; 'How are you?' is a common courteous opening. In personal and many professional settings, first-name address is standard."
+  meetingEtiquette: "Punctuality is expected. Meetings are typically direct, agenda-driven and action-oriented, encouraging open participation across levels; decisions are often reached collaboratively and set by clear next steps."
+  topicsToAvoid:
+    - "Overly personal financial details and intrusive questions early in a relationship"
+    - "Sensitive political, religious and identity topics unless the other party raises them"
+    - "Bluntly categorizing or stereotyping people by background"
+  giftGivingNotes: "Gift-giving is casual; a small, thoughtful gift (wine, flowers, chocolates) is appreciated when visiting someone's home or as a token of thanks. Corporate gifts are common but modest, given anti-bribery rules in business contexts."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: US-CA
+    file: distinct-regions/us-ca.yaml
+    adminUnitCodes: [US-CA]
+  - code: US-TX
+    file: distinct-regions/us-tx.yaml
+    adminUnitCodes: [US-TX]
+  - code: US-NY
+    file: distinct-regions/us-ny.yaml
+    adminUnitCodes: [US-NY]
+  - code: US-FL
+    file: distinct-regions/us-fl.yaml
+    adminUnitCodes: [US-FL]
+  - code: US-WA
+    file: distinct-regions/us-wa.yaml
+    adminUnitCodes: [US-WA]
+  - code: US-IL
+    file: distinct-regions/us-il.yaml
+    adminUnitCodes: [US-IL]
+sources:
+  - id: census-english
+    name: "United States Census Bureau — language spoken at home / ACS"
+    publisher: "U.S. Census Bureau"
+    url: "https://www.census.gov/"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "English mother tongue ~82%, spoken well/very well ~96%; Spanish most spoken non-English language; basis for the locallySpoken shares."
+  - id: eo14224
+    name: "Executive Order 14224 — Designating English as the Official Language of The United States"
+    publisher: "The White House"
+    url: "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-designates-english-as-the-official-language-of-the-united-states/"
+    year: 2025
+    accessedDate: "2026-09-22"
+    note: "Signed 1 March 2025; designates English the official language of the US federal government and revokes EO 13166's language-assistance mandate for federal agencies."
+  - id: census-spanish
+    name: "2023 American Community Survey — language use"
+    publisher: "U.S. Census Bureau / Migration Policy Institute profiles"
+    url: "https://www.migrationpolicy.org/data/state-profiles/state/language/US"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "Spanish spoken at home by ~44.9M people (~14% of those aged 5+), the leading non-English language."
+  - id: ftc
+    name: "Federal Trade Commission — consumer protection"
+    publisher: "Federal Trade Commission (US)"
+    url: "https://www.ftc.gov/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "FTC Act s.5 bans unfair/deceptive practices; CPSC regulates product safety; state consumer statutes complement."
+  - id: ftc-privacy
+    name: "US data privacy overview"
+    publisher: "Federal Trade Commission (US)"
+    url: "https://www.ftc.gov/business-guidance/privacy-security"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "No single federal privacy law; sectoral statutes (HIPAA, GLBA, COPPA) + FTC enforcement; state laws led by CCPA/CPRA."
+  - id: census-sales
+    name: "U.S. Census Bureau — state and local government finance (sales tax)"
+    publisher: "U.S. Census Bureau"
+    url: "https://www.census.gov/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "No federal sales tax; state/local sales tax varies by state and locality (typical combined ~6-9%)."

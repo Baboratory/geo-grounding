@@ -1,0 +1,117 @@
+code: US-CA
+name:
+  eng: California
+  local:
+    - languageCode: eng
+      value: California
+climates:
+  - koppenCode: Csa
+    description: "Mediterranean climate along the coast (Los Angeles, San Francisco, San Diego), with mild wet winters and warm dry summers."
+  - koppenCode: BWh
+    description: "Hot desert climate in the southeast (Mojave), very hot dry summers."
+  - koppenCode: Cfb
+    description: "Cool oceanic climate in parts of the coastal north, foggy and mild."
+landmarks:
+  - name: Golden Gate Bridge
+    description: "The iconic art-deco suspension bridge spanning the entrance to San Francisco Bay."
+  - name: Yosemite National Park
+    description: "The granite cliffs, waterfalls and giant sequoias of the Sierra Nevada, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Hollywood and Griffith Park
+    description: "The historic centre of global cinema in Los Angeles, with the Hollywood sign above."
+  - name: Death Valley National Park
+    description: "The hottest, driest and lowest national park in the US, in the Mojave Desert."
+  - name: Disneyland (Anaheim)
+    description: "The original Disney theme park opened in 1955, a landmark of American pop culture."
+culturalTraits:
+  - "The most populous US state and the world's fifth-largest economy, a trendsetter in tech, culture and lifestyle"
+  - "A beacon of the gold rush, Hollywood, Silicon Valley and the hippie/innovation spirit"
+  - "A hugely diverse, immigrant-rich society with a strong Pacific/Hispanic character"
+prideOf:
+  - "Innovation (Silicon Valley) and the global cultural pull of Hollywood"
+  - "Spectacular and diverse landscapes: coast, redwoods, deserts and mountains"
+  - "A pioneering, open and progressive identity"
+animals:
+  popular:
+    - "California sea lion"
+    - "Grizzly bear (on the state flag though locally extirpated)"
+  unique:
+    - "California condor (critically endangered, reintroduced to the coast)"
+    - "Channel Islands fox (endemic)"
+industries:
+  - "Technology and software (Silicon Valley, Silicon Beach)"
+  - "Entertainment (Hollywood) and media"
+  - "Agriculture (leading US grower of many fruits, nuts and vegetables)"
+  - "Finance, biotech and aerospace"
+  - "Tourism"
+sports:
+  - "Basketball (Lakers, Clippers, Warriors)"
+  - "American football (Rams, 49ers, Chargers)"
+  - "Baseball (Dodgers, Giants)"
+  - "Surfing and beach sports"
+  - "Soccer (LAFC, LA Galaxy)"
+entertainment:
+  - season: allYear
+    items:
+      - "Beach culture along the entire coast, year-round in the south"
+      - "Theme parks (Disneyland, Universal) and the Hollywood scene"
+  - season: summer
+    items:
+      - "National-park travel (Yosemite) and coastal getaways"
+  - season: winter
+    items:
+      - "Skiing in the Sierra and Tahoe, and mild southern winters"
+  - season: spring
+    items:
+      - "Wildflower season in the deserts and wine country"
+  - season: autumn
+    items:
+      - "Wine harvest in Napa/Sonoma and coastal fog-season cuisine"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Mexican-Californian fusion and the burrito/taco culture"
+      - "Farm-to-table produce, avocado toast (California-born) and fresh seafood"
+      - "The In-N-Out burger, sushi and celebrity-chef dining"
+  - season: summer
+    items:
+      - "Farmers' market fruit (stone fruit, berries) and fresh salads"
+  - season: autumn
+    items:
+      - "Wine-country harvest meals"
+  - season: winter
+    items:
+      - "Hearty comfort food during the coastal drizzle season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Relaxed, casual and creative dress; 'California casual' is a style of its own"
+  - season: summer
+    items:
+      - "Light shorts, tees, sandals and beachwear"
+  - season: winter
+    items:
+      - "Light layers for the mild, partly rainy winter; heavier in the mountains"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Technology and professional sectors run 09:00-17:00/18:00 Monday-Friday, with flexible and remote-heavy arrangements common."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical; food trucks, cafés and health-oriented options abound."
+sources:
+  - id: visit-california
+    name: "Visit California — official tourism"
+    publisher: "Visit California"
+    url: "https://www.visitcalifornia.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for California."

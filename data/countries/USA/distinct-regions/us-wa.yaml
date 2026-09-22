@@ -1,0 +1,112 @@
+code: US-WA
+name:
+  eng: Washington
+  local:
+    - languageCode: eng
+      value: Washington
+climates:
+  - koppenCode: Cfb
+    description: "Maritime/temperate climate west of the Cascades (Seattle), mild, cloudy and rainy, with cool summers."
+  - koppenCode: BSk
+    description: "Semi-arid steppe climate east of the Cascades, with hot summers, cold winters and low rain."
+landmarks:
+  - name: Space Needle and Seattle Center
+    description: "The 1962 World's Fair tower, Seattle's skyline icon."
+  - name: Pike Place Market
+    description: "Seattle's historic public market and the original Starbucks, famous for its fish-tossing vendors."
+  - name: Olympic National Park
+    description: "The rainforests, mountains and coast of the Olympic Peninsula, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Mount Rainier
+    description: "The towering snow-capped stratovolcano of the Cascades, the state's most iconic peak."
+  - name: Mount St. Helens
+    description: "The volcano that erupted in 1980, now a national volcanic monument."
+culturalTraits:
+  - "The Pacific Northwest's technology and coffee capital (Seattle is home to Amazon and Microsoft)"
+  - "A green, outdoorsy, progressive culture set among mountains, forests and water"
+  - "Known for coffee shops, grunge music and the great outdoors"
+prideOf:
+  - "Tech innovation, coffee culture and the laid-back Seattle vibe"
+  - "The unmatched natural beauty of the Pacific Northwest"
+  - "A sustainability- and outdoors-focused way of life"
+animals:
+  popular:
+    - "Orca (killer whale, in Puget Sound)"
+    - "Bald eagle"
+  unique:
+    - "Salmon runs of the Pacific Northwest rivers"
+    - "The Olympic marmot (endemic to Olympic National Park)"
+industries:
+  - "Technology (Amazon, Microsoft, the 'Cloud' economy)"
+  - "Aerospace (Boeing)"
+  - "Coffee and food"
+  - "Agriculture (Apples in the east — Washington is the top US apple state)"
+  - "Maritime and logistics"
+sports:
+  - "American football (Seahawks)"
+  - "Basketball (Seattle Storm; NBA's Sonics awaiting return)"
+  - "Baseball (Mariners)"
+  - "Soccer (Seattle Sounders)"
+  - "Skiing and hiking"
+entertainment:
+  - season: allYear
+    items:
+      - "Coffee-culture cafes, craft beer, and the music scene (grunge birthplace)"
+      - "Outdoor recreation: hiking, kayaking and the islands"
+  - season: summer
+    items:
+      - "The sparkling dry-ish summer is ideal for the mountains, Sound and festivals"
+  - season: winter
+    items:
+      - "Skiing at Snoqualmie/Crystal and the wet coastal season"
+  - season: spring
+    items:
+      - "Cherry blossom in the city and waterfall-season trails"
+  - season: autumn
+    items:
+      - "Autumn colours and apple harvest in the east"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Coffee culture (a standard in everyday life) and fresh seafood"
+      - "Salmon (grilled, smoked), Dungeness crab and oysters from the Sound"
+      - "The Seattle-style bagel and the food-truck scene"
+  - season: summer
+    items:
+      - "Fresh berries, farmers' markets and Pacific seafood"
+  - season: winter
+    items:
+      - "Hearty soups, chowders and warm comfort food for the rainy season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Layered, weather-ready casual wear; the signature puffer jacket and hiking boots"
+  - season: summer
+    items:
+      - "Light casual layers (it stays coolish even in summer)"
+  - season: winter
+    items:
+      - "Warm layers and waterproof outerwear for the rain"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Tech and office sectors run 09:00-17:00/18:00 Monday-Friday, often with flexible and remote arrangements."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical, often a coffee-studded, casual grab."
+sources:
+  - id: stateofwashington
+    name: "Washington State — tourism"
+    publisher: "Washington State Tourism (State of Washington)"
+    url: "https://www.experiencewa.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Washington."

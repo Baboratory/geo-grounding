@@ -1,0 +1,110 @@
+code: US-NY
+name:
+  eng: New York
+  local:
+    - languageCode: eng
+      value: New York
+climates:
+  - koppenCode: Dfa
+    description: "Hot-summer humid continental climate, with warm humid summers and cold, snowy winters (the state is colder inland)."
+  - koppenCode: Cfa
+    description: "Humid subtropical warmth in and around New York City, milder winters on the coast."
+landmarks:
+  - name: Statue of Liberty
+    description: "The iconic symbol of freedom on Liberty Island in New York Harbor, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Times Square and midtown Manhattan
+    description: "The neon crossroads of the world, the heart of Broadway and New York's skyline."
+  - name: Central Park
+    description: "The great landscaped urban park of Manhattan, designed by Frederick Law Olmsted."
+  - name: Empire State Building
+    description: "The famous art-deco skyscraper with an iconic observation deck over the city."
+  - name: Niagara Falls (NY side)
+    description: "The spectacular waterfall complex at the New York-Ontario border."
+culturalTraits:
+  - "New York City, the 'city that never sleeps' and a global capital of finance, media, arts and culture"
+  - "A famously diverse, fast-paced, ambitious and outspoken city-state identity"
+  - "The broader state offers the Adirondacks, the Finger Lakes and historic upstate towns"
+prideOf:
+  - "Being a world capital of finance (Wall Street), media and culture"
+  - "Broadway, the museums and the energy of the city"
+  - "Diversity and resilience (a gateway for immigrants)"
+animals:
+  popular:
+    - "Peregrine falcon (nesting on skyscrapers)"
+    - "White-tailed deer (upstate)"
+  unique:
+    - "Adirondack moose population"
+industries:
+  - "Finance, banking and markets (Wall Street)"
+  - "Media, publishing and entertainment"
+  - "Technology and professional services"
+  - "Fashion and design"
+  - "Tourism and hospitality"
+sports:
+  - "American football (Giants, Jets, Bills)"
+  - "Baseball (Yankees, Mets)"
+  - "Basketball (Knicks, Nets)"
+  - "Ice hockey (Rangers, Islanders, Sabres)"
+entertainment:
+  - season: allYear
+    items:
+      - "Broadway theatre, museums (the Met, MoMA) and world-class dining"
+      - "The parks, the Brooklyn Bridge and neighbourhood culture"
+  - season: spring
+    items:
+      - "Cherry blossom in Central Park and warm-weather city energy"
+  - season: summer
+    items:
+      - "Outdoor festivals, free concerts in the parks and rooftop life"
+  - season: autumn
+    items:
+      - "Upstate fall colours and the city's vibrant autumn calendar"
+  - season: winter
+    items:
+      - "The Rockefeller Center tree, holiday lights and skating rinks"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "A slice of New York-style pizza and the classic bagel with lox"
+      - "Pastrami on rye, hot dogs from street carts and the deli tradition"
+      - "Halal street food and the city's unmatched international dining"
+  - season: summer
+    items:
+      - "Ice cream and summer street-cart food"
+  - season: winter
+    items:
+      - "Warm comfort foods and holiday classics"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Fashion-forward 'New York chic' — smart, layered and often all-black"
+  - season: summer
+    items:
+      - "Light clothing for the humid heat"
+  - season: winter
+    items:
+      - "Heavy coats, scarves, hats and boots for the snowy winter"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Wall Street and offices run 09:00-17:00/18:00 Monday-Friday; the city's pace is famously fast and long."
+  lunchBreakTiming: "A quick lunch around 12:00-13:00 is typical, often a sandwich, salad or food-truck grab."
+sources:
+  - id: iloveny
+    name: "I Love NY — official tourism"
+    publisher: "Empire State Development / New York State"
+    url: "https://www.iloveny.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for New York."

@@ -1,0 +1,111 @@
+code: US-TX
+name:
+  eng: Texas
+  local:
+    - languageCode: eng
+      value: Texas
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate across most of the state (Houston, Dallas), with hot humid summers and mild winters."
+  - koppenCode: BSh
+    description: "Hot semi-arid steppe climate in the west (El Paso, the Panhandle), hot and dry."
+  - koppenCode: Aw
+    description: "Tropical savanna warmth along the Gulf coast and the Rio Grande valley."
+landmarks:
+  - name: The Alamo (San Antonio)
+    description: "The 1836 battle site and mission, the 'shrine of Texas liberty'."
+  - name: Space Center Houston
+    description: "NASA's official visitor center, home to mission control and astronaut exhibits."
+  - name: Big Bend National Park
+    description: "The vast Chihuahuan Desert national park on the Rio Grande, a UNESCO Biosphere Reserve."
+  - name: Texas State Capitol (Austin)
+    description: "The grand pink-granite capitol of the 'Lone Star State'."
+  - name: River Walk (San Antonio)
+    description: "The picturesque canal-lined walkway through downtown San Antonio, lined with restaurants."
+culturalTraits:
+  - "A fiercely proud independent 'Lone Star' identity with a strong cowboy/Western heritage"
+  - "World-famous barbecue, Tex-Mex cuisine and country music"
+  - "A booming economy and state pride in big everything (and college football)"
+prideOf:
+  - "Its distinctive Texan identity and legendary history"
+  - "Barbecue, Tex-Mex and the cowboy/cattle-ranch culture"
+  - "Economic dynamism and college football"
+animals:
+  popular:
+    - "Longhorn cattle (the state symbol)"
+    - "Armadillo"
+  unique:
+    - "Texas longhorn cattle, descendant of the Spanish cattle heritage"
+    - "Karankawa/coastal wildlife of the Gulf marshes"
+industries:
+  - "Energy: oil, gas and petrochemicals"
+  - "Technology (Austin, 'Silicon Hills')"
+  - "Aerospace (NASA Houston, SpaceX Boca Chica)"
+  - "Agriculture and ranching (cattle)"
+  - "Finance and healthcare"
+sports:
+  - "American football (Cowboys, Texans; Texas is college-football crazy)"
+  - "Basketball (Mavericks, Spurs, Rockets)"
+  - "Baseball (Rangers, Astros)"
+  - "Rodeo"
+entertainment:
+  - season: allYear
+    items:
+      - "Barbecue culture, live country music and the honky-tonk scene (Austin is 'Live Music Capital')"
+      - "The State Fair of Texas and rodeos"
+  - season: summer
+    items:
+      - "Gulf-coast beach days and water parks to beat the heat"
+  - season: spring
+    items:
+      - "The famous Texas wildflower (bluebonnet) season"
+  - season: autumn
+    items:
+      - "College football season and the State Fair"
+  - season: winter
+    items:
+      - "Mild winter travel and holiday events in the cities"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Texas barbecue (brisket), Tex-Mex (fajitas, enchiladas, queso) and chili"
+      - "Chicken-fried steak, kolaches and the breakfast taco"
+  - season: summer
+    items:
+      - "Cold drinks, fresh Gulf seafood and Tex-Mex in the heat"
+  - season: winter
+    items:
+      - "Hearty barbecue platters and chili"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Casual, practical dress with a proudly western nod (jeans, cowboy boots and hats)"
+  - season: summer
+    items:
+      - "Very light clothing for the intense heat, which is extreme in the west"
+  - season: winter
+    items:
+      - "Layers and jackets; occasional winter cold snaps"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Generally 09:00-17:00/18:00 Monday-Friday; energy and construction often run shifts."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical, often barbecue or Tex-Mex."
+sources:
+  - id: travel-texas
+    name: "Travel Texas — official tourism"
+    publisher: "Office of the Governor, Economic Development and Tourism, State of Texas"
+    url: "https://www.traveltexas.com/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Landmarks, food, culture and seasonal highlights for Texas."
