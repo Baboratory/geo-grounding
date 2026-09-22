@@ -162,7 +162,26 @@ For each country/region file:
    any landmark, animal or dish you don't already know to be real, a single
    web search for the name plus the region it's attributed to is normally
    enough to confirm or refute it — do this for at least a sample per file,
-   not zero.
+   not zero. Two more confirmed patterns, from a 2026-09 batch (PR80-86):
+   - **Category errors inside `animals[]`**: something that isn't an animal
+     at all, filed there anyway — a tree (the sugar maple, in a Canada PR),
+     a plant (blue agave, in a Mexico PR), a mass noun ("the region's mines
+     attract a busy, mobile workforce", in a DRC PR), or an Indigenous
+     people (the Karankawa, in a Texas PR) named as if it were wildlife.
+     Also watch for a garbled multi-animal entry masquerading as one species
+     (a Canada PR's "Arctic (genus) — muskox, Arctic char, and the
+     narwhal's 'tusk'" collapsed three real animals under one non-existent
+     taxon). These read as `[data]` findings, same as a misplaced landmark.
+   - **Stale content after an administrative boundary change**: a curated
+     region file can describe territory that was correct when written but
+     no longer matches its own ISO 3166-2 code after a province is split or
+     redrawn — an Indonesia PR's `ID-PA` (Papua) file described Raja Ampat,
+     the Baliem Valley/Wamena, the Grasberg mine and Asmat culture, all of
+     which moved to four newly-created neighboring provinces in a July 2022
+     split, leaving almost none of the file's content inside actual current
+     `ID-PA` territory. If a region's borders have changed recently, check
+     the file's content against the *current* boundary, not just whether
+     each fact was ever true somewhere nearby.
 8. **Plain language, not schema jargon** (`CONTRIBUTING.md` rule 4) — do
    `note`/comment fields read naturally to someone who's never seen this
    schema, or do they lean on internal vocabulary (`locallySpoken`,

@@ -203,6 +203,22 @@ here too, just without the enforcement backstop:
 - Same standard for `animals`, `traditionalDishes` and the rest: a species,
   dish or custom you name should be one you can point to a real source
   for, even though the field itself carries no `sourceId`.
+- **Only put actual animals in `animals[]`.** Past PRs have filed a tree
+  (the sugar maple), a plant (blue agave), a mass noun ("the region's mines
+  attract a busy, mobile workforce"), and an Indigenous people (the
+  Karankawa) under `animals` — all wrong, however true the underlying fact
+  is elsewhere. If it isn't a species, it belongs under `industries`,
+  `culturalTraits`, or wherever else actually fits. Also don't collapse
+  several real animals into one garbled entry under a fake taxon name (a
+  past PR wrote "Arctic (genus)" to cover muskox, Arctic char and narwhal
+  at once) — give each one its own real entry.
+- **If a region's administrative boundaries changed recently, write to the
+  current boundary, not the old one.** A past PR filed Raja Ampat, the
+  Baliem Valley, the Grasberg mine and Asmat culture all under `ID-PA`
+  (Indonesia's Papua province) — true before Papua was split into five
+  provinces in July 2022, false after. Check what a region's ISO 3166-2
+  code covers *today* before writing content for it, especially for
+  provinces you know have been reorganized recently.
 - If you're not sure something belongs in a specific curated region rather
   than the country generically, put it in the `WHOLE` file instead of
   guessing a region for it.
