@@ -1,0 +1,93 @@
+code: MY-07
+name:
+  eng: Penang
+  local:
+    - languageCode: msa
+      value: Pulau Pinang
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate with warm temperatures year-round and wetter spells during the southwest and northeast monsoons."
+landmarks:
+  - name: George Town
+    description: "The historic capital, a UNESCO World Heritage Site of Chinese shophouses, forts and temples."
+    unescoWorldHeritage: true
+  - name: Penang Hill
+    description: "A hill station with a funicular railway and sweeping views over the island and strait."
+  - name: Kek Lok Si Temple
+    description: "Southeast Asia's largest Buddhist temple complex, with the towering Kuan Yin statue."
+  - name: Fort Cornwallis and the Clan Jetties
+    description: "The colonial-era fort and the waterfront Chinese clan villages of George Town."
+culturalTraits:
+  - "Penang is Malaysia's most culturally layered state — the world-famous 'Pearl of the Orient'"
+  - "A historic Straits settlement with deep Chinese (Hokkien), Peranakan (Straits-born Chinese), Malay, Indian and Eurasian communities"
+  - "Renowned as Malaysia's culinary capital — street food is the cultural pride of the island"
+prideOf:
+  - "George Town's UNESCO-status heritage and living multicultural street life"
+  - "Being Malaysia's unrivalled food destination"
+  - "Its long, cosmopolitan trading heritage dating to the British Straits Settlements"
+animals:
+  popular:
+    - "Long-tailed macaque (Penang Hill)"
+    - "Monitor lizards and butterflies"
+  unique:
+    - "The island's mangroves and the hill forest host hornbills and the endemic-looking wildlife of the northern peninsula"
+industries:
+  - "Electronics and manufacturing — the Bayan Lepas Free Industrial Zone is a global tech hub"
+  - "Tourism and hospitality"
+  - "Health and medical tourism"
+  - "Craft and food industries"
+sports:
+  - "Football and futsal"
+  - "Badminton"
+  - "Road and hill running (Penang Bridge run, Penang Hill climb)"
+  - "Dragon-boat racing"
+entertainment:
+  - season: allYear
+    items:
+      - "George Town's street art, museums and heritage walks"
+      - "The famous hawker food scene (Assam laksa, char kway teow, cendol)"
+      - "Batu Ferringhi beach and night markets"
+  - season: wet
+    items:
+      - "Wet spells (roughly Apr-May, Sep-Nov) — heritage museums, galleries and cafes predominate"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Asam laksa (Penang's signature sour fish noodle soup)"
+      - "Char kway teow"
+      - "Nasi kandar"
+      - "Cendol and chendol desserts"
+      - "Hokkien prawn mee"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Baju kurung and modern casual"
+      - "Peranakan kebaya and beaded slippers for festivals (Nyonya heritage)"
+seasonCalendar:
+  - season: dry
+    months: [12, 1, 2, 3, 6, 7, 8]
+  - season: wet
+    months: [4, 5, 9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Generally 09:00-18:00 weekdays; retail and food streets run late."
+  lunchBreakTiming: "Lunch ~13:00; food halls open throughout the day."
+  notableShutdownPeriods:
+    - period: "Public holidays and festival seasons"
+      description: "Chinese New Year (a major Penang festival) and Hari Raya see widespread closures, and the annual bridge run closes the span one day."
+sources:
+  - id: penang-tourism
+    name: "Penang Global Tourism / Visit Penang"
+    publisher: "Penang State Government"
+    url: "https://www.penang.gov.my/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, cuisine and seasonal context for Penang."
+  - id: unesco-georgetown
+    name: "George Town (Penang) — UNESCO World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1223/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies George Town as a World Heritage Site."

@@ -1,0 +1,200 @@
+alpha3: MYS
+alpha2: MY
+name:
+  eng: Malaysia
+  local:
+    - languageCode: msa
+      value: Malaysia
+flagEmoji: "🇲🇾"
+capital: Kuala Lumpur
+isSovereign: true
+# Classified federal: Malaysia is a constitutional federation of 13 states and
+# three federal territories under Article 1 of the Federal Constitution. The
+# states (Johor, Kedah, Kelantan, Melaka, Negeri Sembilan, Pahang, Penang,
+# Perak, Perlis, Sabah, Sarawak, Selangor, Terengganu) hold legislative powers
+# on matters not reserved to the Federation; nine states retain hereditary
+# rulers. Federal governanceType therefore mandates curated regions by real ISO
+# 3166-2 states/territories: Kuala Lumpur (MY-14), Selangor (MY-10), Johor
+# (MY-01), Penang (MY-07), Sarawak (MY-13), Sabah (MY-12) + WHOLE as fallback.
+governanceType: federal
+iso3166_2_prefix: MY
+hasSubdivisions: true
+languageUsage:
+  # Malay (Bahasa Melayu) is the official and national language under Article
+  # 152 of the Federal Constitution and the National Language Act 1967 —
+  # official-domain flag = 1.0.
+  - languageCode: msa
+    domain: official
+    speakersShare: 1.0
+    sourceId: rfc-const
+  # Malay is spoken by nearly the whole population as a first or second
+  # language (as the national vernacular and lingua franca).
+  - languageCode: msa
+    domain: locallySpoken
+    speakersShare: 0.80
+    sourceId: dosm-2024
+  # English is widely used in business, courts, education, media and among the
+  # urban population — a de facto working language.
+  - languageCode: eng
+    domain: locallySpoken
+    speakersShare: 0.60
+    sourceId: dosm-2024
+  # Mandarin (Chinese) and Tamil are spoken by the large Chinese and Indian
+  # communities; other Chinese dialects (Cantonese, Hokkien) are also common.
+  - languageCode: zho
+    domain: locallySpoken
+    speakersShare: 0.20
+    sourceId: dosm-2024
+  - languageCode: tam
+    domain: locallySpoken
+    speakersShare: 0.06
+    sourceId: dosm-2024
+  # Indigenous Bornean languages in Sabah and Sarawak (Iban is the most widely
+  # spoken native language of Sarawak).
+  - languageCode: iba
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: dosm-2024
+  - languageCode: dtp
+    domain: locallySpoken
+    speakersShare: 0.02
+    sourceId: dosm-2024
+ethnicGroups:
+  # Department of Statistics Malaysia (DOSM), Current Population Estimates 2024
+  # — citizens by ethnicity (shares of the ~30.7M citizen population).
+  - group: Bumiputera (Malays and indigenous peoples, incl. Sabah/Sarawak natives)
+    percent: 70.4
+    sourceId: dosm-2024
+  - group: Chinese
+    percent: 22.4
+    sourceId: dosm-2024
+  - group: Indian
+    percent: 6.5
+    sourceId: dosm-2024
+  - group: Other
+    percent: 0.7
+    sourceId: dosm-2024
+timezones:
+  - name: Asia/Kuala_Lumpur
+    standardUtcOffset: "UTC+8"
+    observesDst: false
+  - name: Asia/Kuching
+    standardUtcOffset: "UTC+8"
+    observesDst: false
+currency:
+  code: MYR
+  symbol: "RM"
+  name: Malaysian ringgit
+legalConstraints:
+  - topic: "official language"
+    description: "Article 152 of the Federal Constitution and the National Language Act 1967 establish Malay (Bahasa Melayu) as the national and official language, while permitting the use of other languages (English, Mandarin, Tamil, indigenous languages) in various domains."
+    sourceId: rfc-const
+  - topic: "data protection"
+    description: "Personal Data Protection Act 2010 (Act 709) as amended by the Personal Data Protection (Amendment) Act 2024 — which took effect in phased stages from 1 January 2025 — regulates personal data processing, adds biometric-data protection, breach-notification duties, data-portability rights, and raises maximum penalties to RM1 million and/or 3 years' imprisonment."
+    sourceId: pdpa-2024
+  - topic: "service tax and sales tax (SST) price display"
+    description: "Malaysia uses Sales and Service Tax (SST): the service tax rose from 6% to 8% on 1 March 2024 (with food & beverage, parking, logistics and telecommunications services still at 6%); a 10% sales tax applies to taxable manufactured goods. Prices displayed are generally inclusive of taxes."
+    sourceId: mysst
+  - topic: "consumer protection"
+    description: "Consumer protection is governed by the Consumer Protection Act 1999 and the Competition Act 2010 (via the Malaysia Competition Commission), covering goods quality, safe products, truthful advertising and remedies for defective products."
+    sourceId: cpa-1999
+paymentCulture:
+  popularMethods:
+    - "DuitNow and instant bank transfers — ubiquitous for person-to-person and business payments"
+    - "E-wallets — Touch 'n Go eWallet, GrabPay, Boost and ShopeePay widely used in stores and online"
+    - "Bank cards (Visa/Mastercard/MyDebit) — MyDebit debit is very common in retail"
+    - "Cash — still used, though declining in urban areas"
+    - "QR payments (DuitNow QR, standardised under PayNet)"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected; most restaurants add a 10% service charge. Small tips for hotel porters and guides are appreciated."
+    autoIncludedInBill: true
+    note: "Qualitative and customary. Cashless QR and e-wallet payments are the norm in urban retail."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Polite, warm and relationship-driven; titles matter (Encik, Dato'/Datuk for conferred honorifics). Modesty and face-saving are important. The multi-ethnic society blends Malay, Chinese and Indian etiquette."
+  greetingNorms: "A light handshake with the right hand; among Muslims a handshake with the opposite sex is often avoided (a nod or hand-to-heart). 'Apa khabar?' (how are you) opens exchanges."
+  meetingEtiquette: "Meetings open with small talk and refreshment; punctuality is expected but a little flexibility is tolerated. Decisions are consultative, and direct confrontation or harsh criticism is avoided."
+  topicsToAvoid:
+    - "Religion, race and royalty — the 3R's are highly sensitive and legally restricted"
+    - "Politics and criticism of the Malay rulers"
+    - "Openly criticising a host or senior colleague"
+  giftGivingNotes: "Not required in business. Raya (Eid) and Chinese New Year greetings or modest gifts during festivals build goodwill; use the right hand when giving."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: MY-14
+    file: distinct-regions/my-14.yaml
+    adminUnitCodes: [MY-14]
+  - code: MY-10
+    file: distinct-regions/my-10.yaml
+    adminUnitCodes: [MY-10]
+  - code: MY-01
+    file: distinct-regions/my-01.yaml
+    adminUnitCodes: [MY-01]
+  - code: MY-07
+    file: distinct-regions/my-07.yaml
+    adminUnitCodes: [MY-07]
+  - code: MY-13
+    file: distinct-regions/my-13.yaml
+    adminUnitCodes: [MY-13]
+  - code: MY-12
+    file: distinct-regions/my-12.yaml
+    adminUnitCodes: [MY-12]
+sources:
+  - id: rfc-const
+    name: "Federal Constitution of Malaysia (Reprint 2020) — Article 1 (states/territories), Article 152 (national language)"
+    publisher: "Attorney General's Chambers, Malaysia / Law of Malaysia"
+    url: "https://lom.agc.gov.my/ilims/upload/portal/akta/LOM/EN/Federal%20Constitution%20(Reprint%202020).pdf"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Federation of 13 states and 3 federal territories; Malay as national/official language."
+  - id: dosm-2024
+    name: "Current Population Estimates, Malaysia 2024 — Department of Statistics Malaysia (DOSM)"
+    publisher: "Department of Statistics Malaysia (DOSM)"
+    url: "https://www.dosm.gov.my/"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Total population ~34.1M; citizen ethnicity shares (Bumiputera 70.4%, Chinese 22.4%, Indian 6.5%). Language speakersShare rows are composite estimates derived from ethnicity and language-use patterns."
+  - id: pdpa-2024
+    name: "Personal Data Protection Act 2010 (Act 709) as amended by the Personal Data Protection (Amendment) Act 2024"
+    publisher: "Personal Data Protection Department / Commissioner of Personal Data Protection (Malaysia)"
+    url: "https://www.pdp.gov.my/ppdpv1/en/akta/personal-data-protection-amendment-act-2024/"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Personal-data-protection framework, amendment act in phased effect from Jan 2025; biometric data, breach notification, portability, RM1M penalties."
+  - id: mysst
+    name: "MySST — Sales and Service Tax (Royal Malaysian Customs Department)"
+    publisher: "Royal Malaysian Customs Department"
+    url: "https://mysst.customs.gov.my/registering-business/"
+    year: 2024
+    accessedDate: "2026-09-21"
+    note: "Service tax 8% from 1 Mar 2024 (6% for F&B, parking, logistics, telecom); sales tax 10% on taxable goods."
+  - id: cpa-1999
+    name: "Consumer Protection Act 1999 and Competition Act 2010 (Malaysia)"
+    publisher: "Ministry of Domestic Trade and Cost of Living (KPDN) / MyCC"
+    url: "https://www.kpdn.gov.my/"
+    year: 1999
+    accessedDate: "2026-09-21"
+    note: "Consumer rights and competition framework in Malaysia."
+  - id: iso-iba
+    name: "ISO 639-3 entry: iba — Iban"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/iba"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code iba (Iban, Sarawak)."
+  - id: iso-dtp
+    name: "ISO 639-3 entry: dtp — Kadazan Dusun"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/dtp"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code dtp (Kadazan Dusun, Sabah)."
+  - id: iso-zho
+    name: "ISO 639-3 entry: zho — Chinese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/zho"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code zho."

@@ -1,0 +1,293 @@
+alpha3: IDN
+alpha2: ID
+name:
+  eng: Indonesia
+  local:
+    - languageCode: ind
+      value: Indonesia
+flagEmoji: "🇮🇩"
+capital: Jakarta
+isSovereign: true
+# Classified unitary-large: Indonesia's population (~270-281M) is far above the
+# small-state threshold; its 1945 Constitution art. 32 explicitly recognises and
+# protects the country's many regional languages (javanese, Sundanese, Balinese,
+# etc.) as part of the national cultural heritage; and it has genuinely,
+# widely-recognised cultural-historical regional identities (Java, Bali, Aceh,
+# Papua, the Batak and Bugis homelands, etc.). It is a unitary republic (38
+# provinces under the 1945 Constitution, with special autonomy for Aceh, Papua
+# and Yogyakarta, but no residual sovereignty held by any unit) so NOT federal.
+# Curated regions follow real ISO 3166-2 provinces: Jakarta (ID-JK, the capital),
+# Yogyakarta (ID-YO, Javanese culture), Bali (ID-BA), Papua (ID-PA, Papuan
+# languages), North Sumatra (ID-SU, Batak) + WHOLE as national fallback.
+governanceType: unitary-large
+iso3166_2_prefix: ID
+hasSubdivisions: true
+languageUsage:
+  # Indonesian (Bahasa Indonesia) is the sole official and national language
+  # under Article 36 of the 1945 Constitution — official-domain flag = 1.0.
+  - languageCode: ind
+    domain: official
+    speakersShare: 1.0
+    sourceId: constitution-1945
+  # Indonesian is spoken fluently by the overwhelming majority as a first or
+  # second language (~94-97% across recent estimates).
+  - languageCode: ind
+    domain: locallySpoken
+    speakersShare: 0.95
+    sourceId: bps-2020longform
+  # Major regional languages, share as home/first language (composite estimates
+  # derived from the 2010 census ethnicity data — Indonesia's census records
+  # ethnicity, and language-in-family usage is captured imperfectly).
+  - languageCode: jav
+    domain: locallySpoken
+    speakersShare: 0.40
+    sourceId: bps-2020longform
+  - languageCode: sun
+    domain: locallySpoken
+    speakersShare: 0.15
+    sourceId: bps-2020longform
+  - languageCode: mad
+    domain: locallySpoken
+    speakersShare: 0.03
+    sourceId: bps-2020longform
+  - languageCode: min
+    domain: locallySpoken
+    speakersShare: 0.027
+    sourceId: bps-2020longform
+  - languageCode: bug
+    domain: locallySpoken
+    speakersShare: 0.027
+    sourceId: bps-2020longform
+  - languageCode: ban
+    domain: locallySpoken
+    speakersShare: 0.017
+    sourceId: bps-2020longform
+  - languageCode: bjn
+    domain: locallySpoken
+    speakersShare: 0.017
+    sourceId: bps-2020longform
+  - languageCode: ace
+    domain: locallySpoken
+    speakersShare: 0.014
+    sourceId: bps-2020longform
+  # English is widely studied as a foreign language in schools and business.
+  - languageCode: eng
+    domain: foreign
+    speakersShare: 0.05
+    sourceId: cia-id
+ethnicGroups:
+  # 2010 Population Census (BPS) largest ethnic groups; figures approximate and
+  # do not sum to 100 because of the large 'Other' residual.
+  - group: Javanese
+    percent: 40.1
+    sourceId: bps-census2010
+  - group: Sundanese
+    percent: 15.5
+    sourceId: bps-census2010
+  - group: Malay
+    percent: 3.7
+    sourceId: bps-census2010
+  - group: Batak
+    percent: 3.6
+    sourceId: bps-census2010
+  - group: Madurese
+    percent: 3.0
+    sourceId: bps-census2010
+  - group: Betawi
+    percent: 2.9
+    sourceId: bps-census2010
+  - group: Minangkabau
+    percent: 2.7
+    sourceId: bps-census2010
+  - group: Buginese
+    percent: 2.7
+    sourceId: bps-census2010
+  - group: Bantenese
+    percent: 2.0
+    sourceId: bps-census2010
+  - group: Banjarese
+    percent: 1.7
+    sourceId: bps-census2010
+  - group: Balinese
+    percent: 1.7
+    sourceId: bps-census2010
+  - group: Acehnese
+    percent: 1.4
+    sourceId: bps-census2010
+  - group: Dayak
+    percent: 1.4
+    sourceId: bps-census2010
+  - group: Sasak
+    percent: 1.3
+    sourceId: bps-census2010
+  - group: Chinese
+    percent: 1.2
+    sourceId: bps-census2010
+  - group: Other (including Papuans, Moluccans, South Sulawesi and East Nusa Tenggara groups, and foreigners)
+    percent: 15.1
+    sourceId: bps-census2010
+timezones:
+  - name: Asia/Jakarta
+    standardUtcOffset: "UTC+7"
+    observesDst: false
+  - name: Asia/Makassar
+    standardUtcOffset: "UTC+8"
+    observesDst: false
+  - name: Asia/Jayapura
+    standardUtcOffset: "UTC+9"
+    observesDst: false
+currency:
+  code: IDR
+  symbol: "Rp"
+  name: Indonesian rupiah
+legalConstraints:
+  - topic: "official language"
+    description: "Article 36 of the 1945 Constitution declares Bahasa Indonesia (Indonesian) the official/national language. Article 32 requires the state to respect and maintain regional languages (bahasa daerah) as part of the national cultural heritage."
+    sourceId: constitution-1945
+  - topic: "data protection"
+    description: "Law No. 27 of 2022 on Personal Data Protection (UU PDP) — a GDPR-aligned framework — was enacted 17 October 2022 with a two-year transition, fully enforceable from October 2024. It regulates consent, data-subject rights, breach notification and cross-border transfer, supervised by a dedicated data-protection authority."
+    sourceId: pdp-law-2022
+  - topic: "value added tax (VAT) price display"
+    description: "Value Added Tax (PPN) has a statutory headline rate of 12% from 1 January 2025, but for most goods it is computed as 12% of an 11/12 base, giving an effective standard rate of 11%; a genuine 12% applies to certain luxury goods. Prices in shops are generally displayed VAT-inclusive."
+    sourceId: ppn-2025
+  - topic: "consumer protection"
+    description: "Consumer protection rests on Law No. 8 of 1999 (UUPK), establishing consumer rights to safety, accurate information and compensation for defective goods/services, plus sectoral regulators such as Bank Indonesia and OJK for financial consumers."
+    sourceId: uupk-1999
+paymentCulture:
+  popularMethods:
+    - "QRIS (national QR payment standard) accepted at almost every merchant, from street stalls to malls"
+    - "E-wallets — GoPay, OVO, DANA, ShopeePay and LinkAja dominate urban cashless payments"
+    - "Cash — still widely used, especially outside Java and for small informal purchases"
+    - "Bank cards (Visa/Mastercard/JCB) in larger retailers, hotels and online"
+    - "Bank transfers (including virtual-account transfers) for formal commerce and salary"
+  tipping:
+    expected: false
+    typicalAmount: "Not expected; service charge is usually already added (5-10%) at restaurants. A small tip for guides, drivers and hotel staff is appreciated."
+    autoIncludedInBill: true
+    note: "Qualitative and customary. QRIS and e-wallets mean even tiny payments are typically cashless in cities."
+communicationStyle:
+  contextLevel: high-context
+  formalityNorms: "Warm, polite and indirect. Titles matter — use Pak (Mr) / Bu (Mrs) plus the given name. Vanity is avoided and harmony (rukun) is valued."
+  greetingNorms: "A smile and a light handshake or a nod with palms together; 'how are you' (apa kabar) is a standard opener. Let the older/more senior person be greeted and offered a seat first."
+  meetingEtiquette: "Meetings begin with small talk and refreshments; decisions are consultative and may take time. Avoid confrontation; deliver criticism tactfully and via relationship."
+  topicsToAvoid:
+    - "Religion and ethnicity, especially direct comments on Papua and Aceh"
+    - "Politics, the 1965 events and sensitive historical issues"
+    - "Directly criticising a host or senior person"
+  giftGivingNotes: "Not required in business. When visiting a home, a modest gift or sweets is warmly received; use the right hand when giving/ receiving."
+distinct-regions:
+  - code: WHOLE
+    file: distinct-regions/whole.yaml
+  - code: ID-JK
+    file: distinct-regions/id-jk.yaml
+    adminUnitCodes: [ID-JK]
+  - code: ID-YO
+    file: distinct-regions/id-yo.yaml
+    adminUnitCodes: [ID-YO]
+  - code: ID-BA
+    file: distinct-regions/id-ba.yaml
+    adminUnitCodes: [ID-BA]
+  - code: ID-PA
+    file: distinct-regions/id-pa.yaml
+    adminUnitCodes: [ID-PA]
+  - code: ID-SU
+    file: distinct-regions/id-su.yaml
+    adminUnitCodes: [ID-SU]
+sources:
+  - id: constitution-1945
+    name: "The 1945 Constitution of the Republic of Indonesia — Chapter XV (flag, language), Articles 32 and 36"
+    publisher: "Government of the Republic of Indonesia"
+    url: "https://jdih.mkri.id/"
+    year: 1945
+    accessedDate: "2026-09-21"
+    note: "Indonesian as official/national language; protection of regional languages."
+  - id: bps-census2010
+    name: "2010 Population Census — ethnic composition (Badan Pusat Statistik)"
+    publisher: "Badan Pusat Statistik (BPS), Indonesia"
+    url: "https://www.bps.go.id/"
+    year: 2010
+    accessedDate: "2026-09-21"
+    note: "EthnicGroups percentages."
+  - id: bps-2020longform
+    name: "Profile of Ethnic Groups and Regional Language Diversity — 2020 Population Census Long Form (BPS/UNFPA)"
+    publisher: "Badan Pusat Statistik (BPS) Indonesia / UNFPA"
+    url: "https://indonesia.unfpa.org/en/publications/profile-ethnic-groups-and-regional-language-diversity-2020-population-census-long-form"
+    year: 2020
+    accessedDate: "2026-09-21"
+    note: "Language usage; ~694 regional languages diversity; Indonesian fluency; declining regional-language use among youth. speakersShare rows are composite estimates derived from census ethnicity."
+  - id: cia-id
+    name: "CIA World Factbook — Indonesia"
+    publisher: "Central Intelligence Agency (US)"
+    url: "https://www.cia.gov/the-world-factbook/countries/indonesia/"
+    accessedDate: "2026-09-21"
+    note: "General demographic and language context; ~281M estimated population."
+  - id: pdp-law-2022
+    name: "Law No. 27 of 2022 on Personal Data Protection (UU PDP)"
+    publisher: "Republic of Indonesia"
+    url: "https://www.dlapiperdataprotection.com/?t=law&c=ID"
+    year: 2022
+    accessedDate: "2026-09-21"
+    note: "Personal-data-protection framework; fully enforceable October 2024."
+  - id: ppn-2025
+    name: "Indonesia VAT (PPN) guide — 12% statutory rate from 1 Jan 2025, 11% effective standard (Deloitte tax@hand)"
+    publisher: "Deloitte United States / Deloitte Tohmatsu"
+    url: "https://www.taxathand.com/article/38308/Indonesia/2025/VAT-rate-increased-to-12-as-from-1-January-2025"
+    year: 2025
+    accessedDate: "2026-09-21"
+    note: "Standard VAT 11% (12% statutory computed on an 11/12 base); 12% only for certain luxury goods."
+  - id: uupk-1999
+    name: "Law No. 8 of 1999 on Consumer Protection (Undang-Undang Perlindungan Konsumen, UUPK)"
+    publisher: "ASEAN Consumer (hosting an English translation; the PR's original ojk.go.id link is Indonesia's Financial Services Authority, unrelated to this general consumer-protection law)"
+    url: "https://www.aseanconsumer.org/file/pdf_file/04%20Law-No.-8-Concerning-Consumer-Protection.pdf"
+    year: 1999
+    accessedDate: "2026-09-22"
+    note: "Consumer rights framework in Indonesia."
+  - id: iso-sun
+    name: "ISO 639-3 entry: sun — Sundanese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/sun"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code sun."
+  - id: iso-min
+    name: "ISO 639-3 entry: min — Minangkabau"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/min"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code min."
+  - id: iso-mad
+    name: "ISO 639-3 entry: mad — Madurese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/mad"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code mad."
+  - id: iso-ban
+    name: "ISO 639-3 entry: ban — Balinese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ban"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code ban."
+  - id: iso-bug
+    name: "ISO 639-3 entry: bug — Buginese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/bug"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code bug."
+  - id: iso-ace
+    name: "ISO 639-3 entry: ace — Acehnese"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ace"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code ace."
+  - id: iso-bjn
+    name: "ISO 639-3 entry: bjn — Banjar"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/bjn"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies ISO 639-3 code bjn."

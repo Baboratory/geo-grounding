@@ -1,0 +1,104 @@
+code: MY-13
+name:
+  eng: Sarawak
+  local:
+    - languageCode: msa
+      value: Sarawak
+    - languageCode: iba
+      value: Sarawak
+climates:
+  - koppenCode: Af
+    description: "Tropical rainforest climate — hot, humid and very wet year-round with heavy rain throughout the year and no true dry season."
+landmarks:
+  - name: Kuching Waterfront
+    description: "The scenic riverside promenade of Sarawak's capital, lined with heritage buildings."
+  - name: Bako National Park
+    description: "Sarawak's oldest national park — proboscis monkeys, pitcher plants and dramatic sea stacks."
+  - name: Gunung Mulu National Park
+    description: "A UNESCO World Heritage Site of colossal limestone caves and the world's largest cave chamber."
+    unescoWorldHeritage: true
+  - name: Sarawak Cultural Village
+    description: "A living museum presenting the longhouses and craft traditions of Sarawak's many Dayak peoples."
+  - name: Semenggoh Orangutan Centre
+    description: "A rehabilitation centre near Kuching where semi-wild orangutans are fed and observed."
+culturalTraits:
+  - "The 'Land of the Hornbills' — a vast, forested state on Borneo, home to more than 40 Dayak and other indigenous peoples (Iban, Bidayuh, Orang Ulu, Melanau)"
+  - "Deep indigenous longhouse culture, sago and matrilineal traditions blended with a cosmopolitan Malay and Chinese urban society"
+  - "Famous for the Gawai Dayak harvest festival and a distinct Bornean identity within the Malaysian federation"
+prideOf:
+  - "Its mega-diverse rainforests, from Mulu's caves to the orangutans"
+  - "The rich, proud heritage of its many Dayak peoples and longhouse culture"
+  - "Being one of the largest and most resource-rich states in Malaysia"
+animals:
+  popular:
+    - "Proboscis monkey"
+    - "Orangutan"
+    - "Hornbill"
+    - "Sun bear"
+  unique:
+    - "Semenggoh's semi-wild orangutans and Mulu's world-record cave system"
+    - "The Bornean pygmy elephant (rarely seen in the deep interior)"
+industries:
+  - "Oil, gas and LNG — Sarawak is one of Malaysia's energy powerhouses"
+  - "Timber and forestry"
+  - "Palm oil and agro-industry"
+  - "Eco-tourism (Mulu, Bako, Semenggoh)"
+  - "Hydroelectric power (Bakun and Murum dams)"
+sports:
+  - "Football"
+  - "Sepak takraw"
+  - "Rafting and jungle adventure sports"
+  - "Traditional Dayak games"
+entertainment:
+  - season: allYear
+    items:
+      - "Mulu caving and canopy walking"
+      - "Longhouse stays and Dayak cultural performances"
+      - "Kuching's riverside life, museums and markets"
+  - season: wet
+    items:
+      - "Rain is common year-round; plan cave and river activities around the shorter dry gaps (often June-August)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kolo mee (noodle dish)"
+      - "Sarawak laksa"
+      - "Midin (fern) and paku belacan stir-fries"
+      - "Manok pansoh (bamboo-cooked chicken)"
+      - "Sago staples and tuak (rice wine)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Batik of Sarawak patterns and modern modest dress"
+      - "Pua kumbu woven textiles for ceremonies and festivals"
+      - "Traditional Dayak headdress and beadwork at cultural events"
+seasonCalendar:
+  - season: dry
+    months: [6, 7, 8]
+  - season: wet
+    months: [1, 2, 3, 4, 5, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+    - saturday
+  typicalWorkHours: "Generally 08:00-17:00 weekdays; government offices often close 15:00 on Fridays for prayers."
+  lunchBreakTiming: "Lunch ~13:00."
+  notableShutdownPeriods:
+    - period: "Gawai Dayak (1-2 June)"
+      description: "The biggest festival of the year — widespread closures as Dayaks return home to celebrate the harvest."
+    - period: "Christmas and Hari Raya"
+      description: "Major holiday closures through the festive season."
+sources:
+  - id: sarawak-tourism
+    name: "Tourism Sarawak / Sarawak Tourism Board"
+    publisher: "Sarawak Tourism Board"
+    url: "https://sarawaktourism.com/"
+    accessedDate: "2026-09-21"
+    note: "Landmarks, culture and seasonal context for Sarawak."
+  - id: unesco-mulu
+    name: "Gunung Mulu National Park — UNESCO World Heritage"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1013/"
+    year: 2026
+    accessedDate: "2026-09-21"
+    note: "Verifies Gunung Mulu as a World Heritage Site."
