@@ -13,7 +13,7 @@ landmarks:
   - name: Guadalajara's historic centre
     description: "The colonial cathedral and plazas of Mexico's second city, with the Degollado Theatre."
   - name: Puerto Vallarta
-    description: "The beautiful Pacific-coast resort town of the Riviera Nayarit, famed for beaches and the Malecón boardwalk."
+    description: "The beautiful Pacific-coast resort town of Jalisco, famed for beaches and the Malecón boardwalk."
   - name: Tequila and the agave landscape
     description: "The town of Tequila and its blue-agave fields, a UNESCO World Heritage Site of the agave landscape."
     unescoWorldHeritage: true
@@ -29,7 +29,7 @@ prideOf:
   - "The beauty of the coast and Lake Chapala"
 animals:
   popular:
-    - "Blue agave of the tequila highlands"
+    - "White-tailed deer (in the highlands and countryside)"
   unique:
     - "Boa constrictor in the coastal jungles"
 industries:

@@ -28,15 +28,15 @@ prideOf:
   - "Hockey and iconic sporting rivalries (Toronto Maple Leafs, Raptors)"
 animals:
   popular:
-    - "Maple-syrup country: the sugar maple"
     - "White-tailed deer"
+    - "Common loon (Ontario's official bird)"
   unique:
     - "Algonquin wolf (a distinct wolf lineage in the park and central Ontario)"
 industries:
   - "Financial services and corporate headquarters (Toronto)"
   - "Technology and innovation (Toronto-Waterloo corridor)"
   - "Automotive manufacturing"
-  - "Agriculture (southern Ontario farmland)"
+  - "Agriculture (southern Ontario farmland, including maple syrup production)"
   - "Tourism (Niagara, Ottawa, Toronto)"
 sports:
   - "Ice hockey (Toronto Maple Leafs)"
@@ -52,7 +52,7 @@ entertainment:
   - season: winter
     items:
       - "Skating on the Rideau Canal (the world's largest skating rink) in Ottawa"
-      - "Skiing in the Laurentian and Muskoka winter country"
+      - "Skiing in the Muskoka winter country"
   - season: summer
     items:
       - "Cottage season on the lakes; festivals across Toronto and Ottawa"

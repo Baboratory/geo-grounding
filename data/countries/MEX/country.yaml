@@ -39,9 +39,11 @@ languageUsage:
   - languageCode: eng
     domain: foreign
     # English is widely understood, especially in border states and tourist
-    # regions, with ~5% of the population reported as able to speak it.
+    # regions. A commonly cited estimate (IMCO, based on 2015 data) puts
+    # the share of the population able to speak English at ~5%; INEGI's own
+    # census does not measure English ability, only indigenous-language use.
     speakersShare: 0.05
-    sourceId: inegi-eng
+    sourceId: imco-eng
 # Indigenous languages (Nahuatl nhn, Yucatec Maya yua, Mixtec, Zapotec etc.):
 # the Law on Linguistic Rights recognizes 68 indigenous languages as official
 # nationally in their communities. The largest is Nahuatl (~1.6M speakers) and
@@ -51,9 +53,7 @@ languageUsage:
 timezones:
   - name: America/Mexico_City
     standardUtcOffset: "UTC-6"
-    observesDst: true
-    dstUtcOffset: "UTC-5"
-    dstPeriod: "First Sunday of April to last Sunday of October (central zone)."
+    observesDst: false
   - name: America/Tijuana
     standardUtcOffset: "UTC-8"
     observesDst: true
@@ -74,8 +74,8 @@ legalConstraints:
     description: "The Ley Federal de Protección al Consumidor (Federal Consumer Protection Law, as amended) protects consumers against misleading advertising, unsafe products and unfair commercial practices; the Procuraduría Federal del Consumidor (PROFECO) enforces it and mediates consumer complaints."
     sourceId: profeco
   - topic: "data protection"
-    description: "The Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP, 2010; reformed 2025) is Mexico's private-sector personal-data law, requiring a privacy notice (aviso de privacidad), consent and ARCO rights; the INAI (Instituto Nacional de Transparencia) supervises private-sector compliance."
-    sourceId: inai-dataprot
+    description: "A new Federal Law on the Protection of Personal Data Held by Private Parties took effect on 21 March 2025, replacing the 2010 LFPDPPP and still requiring a privacy notice (aviso de privacidad), consent and ARCO rights. The 2024 constitutional reform abolished the autonomous transparency/data-protection regulator INAI, which ceased to exist in 2025; oversight of private-sector compliance passed to the Secretaría de Anticorrupción y Buen Gobierno."
+    sourceId: mex-dataprot-2025
   - topic: "VAT (IVA)"
     description: "A federal value-added tax (Impuesto al Valor Agregado, IVA) of 16% applies across most of Mexico (8% reduced rate in the northern border zone); a lower rate applies to essential goods and medicine, and some services are exempt. Border rates and exemptions follow the national tax law."
     sourceId: sat-iva
@@ -125,13 +125,13 @@ sources:
     year: 2020
     accessedDate: "2026-09-21"
     note: "Spanish as the de facto national language spoken by ~94%; population and language distribution. Spanish has no de jure constitutional official status."
-  - id: inegi-eng
-    name: "INEGI — English-language ability"
-    publisher: "Instituto Nacional de Estadística y Geografía (INEGI)"
-    url: "https://www.inegi.org.mx/"
-    year: 2020
+  - id: imco-eng
+    name: "IMCO — estimate of English-speaking population in Mexico"
+    publisher: "Instituto Mexicano para la Competitividad (IMCO)"
+    url: "https://imco.org.mx/"
+    year: 2015
     accessedDate: "2026-09-21"
-    note: "~5% of the population reports ability to speak English; highest along the US border and in tourist regions."
+    note: "A widely cited disclosed estimate (based on 2015 data) that ~5% of Mexico's population is able to speak English, highest along the US border and in tourist regions. INEGI's census does not measure English ability (it measures indigenous-language speaking), so it is not used as the source for this figure."
   - id: inali-linguistic
     name: "General Law on the Linguistic Rights of Indigenous Peoples (Diario Oficial, 2003)"
     publisher: "Instituto Nacional de Lenguas Indígenas (INALI)"
@@ -146,13 +146,13 @@ sources:
     year: 2026
     accessedDate: "2026-09-21"
     note: "Federal consumer-protection law against misleading advertising, unsafe products and unfair practices; PROFECO enforces and mediates."
-  - id: inai-dataprot
-    name: "Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP)"
-    publisher: "INAI — Instituto Nacional de Transparencia"
-    url: "https://home.inai.org.mx/"
+  - id: mex-dataprot-2025
+    name: "Ley Federal de Protección de Datos Personales en Posesión de los Sujetos Obligados/Particulares (post-INAI regime, in force 21 March 2025)"
+    publisher: "Secretaría Anticorrupción y Buen Gobierno, Government of Mexico"
+    url: "https://www.gob.mx/buengobierno"
     year: 2025
     accessedDate: "2026-09-21"
-    note: "Private-sector data protection: aviso de privacidad, consent, ARCO rights; INAI supervises."
+    note: "The 2024 constitutional reform dissolved INAI; new federal data-protection laws (privacy notice, consent, ARCO rights) took effect 21 March 2025, with private-sector oversight now under the Secretaría de Anticorrupción y Buen Gobierno."
   - id: sat-iva
     name: "Impuesto al Valor Agregado (IVA)"
     publisher: "Servicio de Administración Tributaria (SAT), Government of Mexico"

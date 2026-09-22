@@ -81,4 +81,4 @@ sources:
     url: "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/"
     year: 2014
     accessedDate: "2026-09-21"
-    note: "Religious composition estimate (2014): roughly 93% Christian (Catholic/Protestant/other Christian/Kimbanguist), small Muslim and other minorities."
+    note: "This source only reports the DRC's national religious composition; no province-level breakdown for Kinshasa was found, so the figures here reflect the national pattern (2014 estimate: roughly 93% Christian (Catholic/Protestant/other Christian/Kimbanguist), small Muslim and other minorities) rather than a Kinshasa-specific survey."

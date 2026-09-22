@@ -14,7 +14,7 @@ isSovereign: true
 # Kinshasa plus 25 provinces), is far above the ~20-25M small-state threshold
 # (~100M, among the world's largest francophone populations), and has a genuine,
 # widely recognised cultural-historical regional divide between its major
-# ethno-linguistic zones (the Kongo west, the Lingala-speaking federal capital
+# ethno-linguistic zones (the Kongo west, the Lingala-speaking national capital
 # region, the Swahili-speaking east, and the Tshiluba-speaking Kasaï). That
 # meets 2 of the 3 DESIGN.md unitary-large criteria. Curated regions map to real
 # ISO 3166-2 provinces: Kinshasa (CD-KN), Kongo Central (CD-BC), Haut-Katanga
@@ -163,7 +163,7 @@ sources:
     note: "Personal-data protection provisions and the data-protection authority (APD)."
   - id: consumer-code
     name: "La protection des consommateurs en droit congolais : constats et suggestions"
-    publisher: "Légavox (legal commentary blog; the PR's original 'Loi n°11/010' citation and its dgcc.cd URL, which does not resolve, could not be verified)"
+    publisher: "Légavox (legal commentary blog)"
     url: "https://www.legavox.fr/blog/daniel-kijaja/protection-consommateurs-droit-congolais-constats-33409.htm"
     accessedDate: "2026-09-22"
-    note: "States plainly that the DRC has no law dedicated to consumer protection, only scattered colonial-era texts, and that a comprehensive bill was only submitted to parliament in 2023."
+    note: "States plainly that the DRC has no law dedicated to consumer protection, only scattered colonial-era texts, and that a comprehensive bill was only submitted to parliament in 2023. An earlier draft of this entry cited a 'Consumer Protection Law n°11/010 of 27 July 2011' with a dgcc.cd URL; that citation does not resolve and the law could not be verified to exist, so it was replaced with this source."

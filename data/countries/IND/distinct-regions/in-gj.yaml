@@ -47,13 +47,14 @@ entertainment:
       - "Devotional music, classical dance and the state's rich craft traditions"
   - season: dry
     items:
-      - "The Rann of Kutch White Desert festival (Nov-Feb) and heritage tours in moderate dry weather"
+      - "Heritage tours in the moderate dry season"
   - season: wet
     items:
       - "Monsoon greenery across Saurashtra"
+      - "Navratri (Sept-Oct) Garba nights, one of India's greatest festivals"
   - season: winter
     items:
-      - "Navratri (Sept-Oct) Garba nights and the winter travel season; kite festival in January"
+      - "The Rann of Kutch White Desert festival (Nov-Feb) and the winter travel season; kite festival in January"
 traditionalDishes:
   - season: allYear
     items:

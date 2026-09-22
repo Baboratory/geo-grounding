@@ -12,8 +12,8 @@ landmarks:
     description: "The region's principal city, long known for alluvial diamond mining and trade."
   - name: Kasaï river
     description: "The great tributary of the Congo that gives the region its name, vital to fishing and transport."
-  - name: Chutes de la Lulonga / Kasaï waterfalls
-    description: "River cataracts along the Kasaï, part of the region's watery landscape."
+  - name: Chutes de Katende (Mbombo Falls)
+    description: "Waterfalls on the Lulua river south of Kananga, a scenic natural landmark and the site of a hydroelectric project serving the province."
 culturalTraits:
   - "The heartland of Tshiluba (Luba-Kasai) speakers, one of the Congo's four national languages"
   - "Rich traditions of mask carving, weaving and the Luba diaspora's cultural heritage"
@@ -77,4 +77,4 @@ sources:
     url: "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/"
     year: 2014
     accessedDate: "2026-09-21"
-    note: "Religious composition estimate (2014): roughly 93% Christian, small Muslim and other minorities."
+    note: "This source only reports the DRC's national religious composition; no province-level breakdown for Kasaï Central was found, so the figures here reflect the national pattern (2014 estimate: roughly 93% Christian, small Muslim and other minorities) rather than a Kasaï Central-specific survey."

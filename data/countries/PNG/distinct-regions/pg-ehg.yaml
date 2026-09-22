@@ -8,8 +8,8 @@ climates:
   - koppenCode: Cfb
     description: Cooler highland climate in the Eastern Highlands plateaus and valleys, with a strong wet season and mild temperatures.
 landmarks:
-  - name: Mount Wilhelm
-    description: PNG's highest peak (4,509 m), on the boundary with Chimbu, a major alpine trekking destination.
+  - name: Asaro Valley
+    description: Highland valley near Goroka, home of the Asaro "mudmen," whose clay masks and body paint are an iconic highlands cultural tradition.
   - name: Goroka
     description: The provincial capital, famous for hosting the annual Goroka Cultural Show and mask/dance festival.
   - name: The Highlands Highway and Coffee Country
@@ -21,7 +21,7 @@ culturalTraits:
   - "A coffee and highland-agriculture economy built on traditional clan society"
 prideOf:
   - "The Goroka Cultural Show and the region's mask and dance traditions"
-  - "Mount Wilhelm and the beautiful highland landscape"
+  - "The Asaro mudmen tradition and the beautiful highland landscape"
 animals:
   popular:
     - Tree kangaroo
@@ -32,10 +32,10 @@ animals:
 industries:
   - Coffee and highland agriculture (sweet potato, cassava, vegetables)
   - Livestock and poultry
-  - Tourism (Mount Wilhelm trekking, Goroka festival)
+  - Tourism (Asaro Valley cultural visits, Goroka festival)
   - Traditional weaving and bilum handicrafts
 sports:
-  - Highland village games (cane-swinging is a celebrated tradition)
+  - Highland village games (traditional wrestling and spear-throwing contests)
   - Rugby league
   - Association football
   - Trekking and mountaineering

@@ -4,6 +4,8 @@ name:
   local:
     - languageCode: eng
       value: Nunavut
+    - languageCode: iku
+      value: "ᓄᓇᕗᑦ"
 climates:
   - koppenCode: ET
     description: "Tundra climate across most of Nunavut, with long, very cold winters and brief cool summers, permafrost and little precipitation."
@@ -29,9 +31,10 @@ prideOf:
 animals:
   popular:
     - "Polar bear"
-    - "Narwhal"
+    - "Narwhal (notable for the male's long spiral tusk)"
   unique:
-    - "Arctic (genus) — endemic to the far north: muskox, Arctic char, and the narwhal's 'tusk'"
+    - "Muskox (a shaggy Arctic-adapted herbivore found across the territory)"
+    - "Arctic char (a cold-water fish native to Nunavut's lakes and coastal waters)"
 industries:
   - "Public administration and services (government is the largest employer)"
   - "Mining and mineral exploration"

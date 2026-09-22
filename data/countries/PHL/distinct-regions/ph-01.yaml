@@ -9,17 +9,17 @@ climates:
     description: Tropical monsoon climate on the Ilocos lowlands, with a pronounced wet season and a drier warm-dry period.
 landmarks:
   - name: Vigan City Cathedral (St. Paul's)
-    description: Baroque Roman Catholic cathedral in Vigan, capital of Ilocos Sur, a UNESCO World Heritage Site.
-  - name: The Ilocos Sur heritage rice terraces
-    description: Ancient hand-built rice terraces in the Cordillera province of Ilocos Sur, a national agricultural heritage site.
-  - name: Baguio City churches
-    description: The hill-station capital of Ilocos (also known as the 'City of Pines'), famous for its cool climate and Catholic churches.
+    description: Baroque Roman Catholic cathedral in Vigan, capital of Ilocos Sur, part of the Historic City of Vigan UNESCO World Heritage Site.
+  - name: Paoay Church (San Agustin Church)
+    description: Baroque Roman Catholic church in Paoay, Ilocos Norte, inscribed as part of the "Baroque Churches of the Philippines" UNESCO World Heritage Site.
+  - name: Bangui Windmills
+    description: Rows of wind turbines along the Ilocos Norte coastline near Bangui, one of the region's most recognizable modern landmarks.
 culturalTraits:
   - "Heartland of the Iloko (Ilocano) people and language, one of the constitutionally recognized regional languages"
-  - "Deep-rooted Roman Catholic faith with a strong fiesta and processional tradition, and the famous Baguio pine-clad hills"
+  - "Deep-rooted Roman Catholic faith with a strong fiesta and processional tradition, and the region's iconic Bangui windmills and coastal dunes"
 prideOf:
   - "The Ilocano language and distinct regional identity"
-  - "The UNESCO-listed heritage of Vigan and the Banaue rice terraces"
+  - "The UNESCO-listed heritage of Vigan and the Baroque churches of Ilocos (Paoay)"
 animals:
   popular:
     - Carabao (water buffalo) of the rice paddies
@@ -28,7 +28,7 @@ animals:
     - Philippine eagle (rare, in the northern cordilleras)
 industries:
   - Rice and vegetable farming in the northern lowlands
-  - Coffee and strawberry production on the Baguio highlands
+  - Tobacco, garlic and vinegar production across the Ilocos lowlands
   - Tourism focused on Vigan and the rice-terrace landscape
   - Weaving and handicrafts
 sports:
@@ -45,7 +45,7 @@ entertainment:
       - "Santacruzan May processions"
   - season: winter
     items:
-      - "Simnbang Gabi (dawn Masses before Christmas) and cool-weather feasts"
+      - "Simbang Gabi (dawn Masses before Christmas) and cool-weather feasts"
 traditionalDishes:
   - season: allYear
     items:
@@ -53,7 +53,7 @@ traditionalDishes:
       - "Adobo and sinigang as elsewhere in the country"
   - season: winter
     items:
-      - "Warm dishes around the Baguio highland market (strawberry-, coffee-based treats such as strawberry taho)"
+      - "Warm dinengdeng and pinapaitan-style soups during the cool season"
 traditionalClothing:
   - season: allYear
     items:
@@ -70,5 +70,5 @@ seasonCalendar:
 businessRhythm:
   restDays:
     - sunday
-  notes: "Standard Monday-Friday working week; Sunday is a rest day. Village markets and fiestas pause for religious feasts, and the Baguio highland market is busiest at the cool season."
+  notes: "Standard Monday-Friday working week; Sunday is a rest day. Village markets and fiestas pause for religious feasts, and vinegar and tobacco markets are busiest after harvest."
 sources: []

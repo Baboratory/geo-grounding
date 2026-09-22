@@ -53,9 +53,10 @@ entertainment:
   - season: wet
     items:
       - "The monsoon turns the countryside lush and green"
+      - "Durga Puja (Sept-Oct) and Kali Puja (Oct-Nov), Bengal's greatest festivals"
   - season: winter
     items:
-      - "Durga Puja (Sept-Oct), Kali Puja, and the pleasant winter travel season"
+      - "The pleasant winter travel season"
 traditionalDishes:
   - season: allYear
     items:

@@ -9,7 +9,7 @@ climates:
     description: "Tropical highland climate in the eastern rift zone — warm days, cooler nights at altitude, with marked wet and drier seasons."
 landmarks:
   - name: Goma and the Lake Kivu shoreline
-    description: "The region's principal city on the shores of Lake Kivu, one of Africa's great Great Lakes, with dramatic views of the Nyiragongo volcano."
+    description: "The region's principal city on the shores of Lake Kivu, one of Africa's Great Lakes, with dramatic views of the Nyiragongo volcano."
   - name: Virunga National Park
     description: "Africa's oldest national park, a UNESCO World Heritage Site and home to mountain gorillas, the Ruwenzori massif and active volcanoes — also one of the world's most conflict-affected protected areas."
     unescoWorldHeritage: true
@@ -83,4 +83,4 @@ sources:
     url: "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/"
     year: 2014
     accessedDate: "2026-09-21"
-    note: "Religious composition estimate (2014): roughly 93% Christian, small Muslim and other minorities."
+    note: "This source only reports the DRC's national religious composition; no province-level breakdown for Nord-Kivu was found, so the figures here reflect the national pattern (2014 estimate: roughly 93% Christian, small Muslim and other minorities) rather than a Nord-Kivu-specific survey."

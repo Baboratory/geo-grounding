@@ -20,8 +20,8 @@ landmarks:
   - name: Makli Necropolis (Thatta)
     description: "A vast UNESCO World Heritage burial site of tombs and monuments near the Indus delta."
     unescoWorldHeritage: true
-  - name: Sindhi Sufi shrines (Sehwan)
-    description: "The shrine of the great Sufi poet Shah Abdul Latif Bhittai, a centre of Sindhi culture."
+  - name: Shrine of Lal Shahbaz Qalandar (Sehwan)
+    description: "The shrine of the 13th-century Sufi saint Lal Shahbaz Qalandar in Sehwan Sharif, one of Pakistan's most important Sufi pilgrimage sites and a centre of Sindhi culture."
 culturalTraits:
   - "The cradle of the ancient Indus Valley Civilisation and of the rich Sindhi language, literature and Sufi tradition"
   - "Karachi, Pakistan's largest city and commercial capital, a melting pot of migrations"
@@ -32,7 +32,6 @@ prideOf:
   - "Sufi poetry, music and the hospitality of the Indus"
 animals:
   popular:
-    - "Indus river dolphin"
     - "Flamingo (in the coastal wetlands)"
   unique:
     - "Indus river dolphin (endemic to the lower Indus)"
@@ -60,7 +59,7 @@ entertainment:
       - "Monsoon rain and the coastal humidity; evenings by the sea"
   - season: spring
     items:
-      - "The Shandur/Eid spring festivals and Sindhi cultural days"
+      - "Sindhi cultural days and Eid spring festivals"
   - season: autumn
     items:
       - "Autumn harvest-season travel and cooler weather"

@@ -30,7 +30,7 @@ animals:
     - "Long-tailed macaque (Penang Hill)"
     - "Monitor lizards and butterflies"
   unique:
-    - "The island's mangroves and the hill forest host hornbills and the endemic-looking wildlife of the northern peninsula"
+    - "The island's mangroves and hill forest host hornbills and other native wildlife of the northern peninsula"
 industries:
   - "Electronics and manufacturing — the Bayan Lepas Free Industrial Zone is a global tech hub"
   - "Tourism and hospitality"
@@ -56,7 +56,7 @@ traditionalDishes:
       - "Asam laksa (Penang's signature sour fish noodle soup)"
       - "Char kway teow"
       - "Nasi kandar"
-      - "Cendol and chendol desserts"
+      - "Cendol (also spelled chendol) dessert"
       - "Hokkien prawn mee"
 traditionalClothing:
   - season: allYear

@@ -49,9 +49,11 @@ languageUsage:
   - languageCode: eng
     domain: locallySpoken
     # English is the associate official language and widely used in business,
-    # education, the professions and the higher courts, but the number fluent
-    # is modest (commonly cited ~10-12% of the population). No official
-    # single figure; treated as an ESTIMATE.
+    # education, the professions and the higher courts. The 2011 Census's
+    # bilingualism/trilingualism table (not the mother-tongue table) records
+    # about 10.6% of the population reporting English as a second or third
+    # language (roughly 129 million people) -- self-reported usage, not a
+    # certified fluency test, but a real published figure this row is based on.
     speakersShare: 0.10
     sourceId: census-2011
 # ethnicGroups intentionally omitted: India does not enumerate a single
@@ -78,7 +80,7 @@ legalConstraints:
     description: "The Digital Personal Data Protection Act 2023 (DPDP Act) is India's first comprehensive personal-data law; it obliges 'data fiduciaries' to obtain notice-and-consent before processing 'digital personal data' of a 'data principal', with the Data Protection Board supervising. Implementation rules were being phased in through 2024-25. (The earlier IT Act and its rules governed data before the DPDP Act's framework.)"
     sourceId: gol-dpdp2023
   - topic: "GST (VAT)"
-    description: "A unified Goods and Services Tax (GST, introduced 1 July 2017 under the Constitution (101st Amendment) Act) replaced most central and state indirect taxes. It applies in graduated slabs — 5%, 12%, 18% and the standard 28% — plus a 0.25% on rough diamonds and 3% on gold; essential goods are exempt or in the lowest slabs. The 18% band covers most services and many consumer goods."
+    description: "A unified Goods and Services Tax (GST, introduced 1 July 2017 under the Constitution (101st Amendment) Act) replaced most central and state indirect taxes. It applies in graduated slabs — 5%, 12%, 18% and the top 28% slab — plus a 0.25% on rough diamonds and 3% on gold; essential goods are exempt or in the lowest slabs. The 18% band covers most services and many consumer goods."
     sourceId: cbic-gst
 paymentCulture:
   popularMethods:
@@ -142,7 +144,7 @@ sources:
     url: "https://censusindia.gov.in/"
     year: 2011
     accessedDate: "2026-09-21"
-    note: "Language-at-home shares (Hindi plurality ~43.6%) and religion distribution; English fluency has no official census figure (treated as an ESTIMATE)."
+    note: "Language-at-home shares (Hindi plurality ~43.6%) and religion distribution, from the mother-tongue tables; the Census's separate bilingualism/trilingualism table (C-16 series) records ~10.6% of the population reporting English as a second or third language, the basis for the English locallySpoken row (self-reported usage, not a certified fluency test)."
   - id: gol-cpa2019
     name: "Consumer Protection Act, 2019"
     publisher: "Government of India — Ministry of Consumer Affairs, Food and Public Distribution"

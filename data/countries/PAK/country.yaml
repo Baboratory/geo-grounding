@@ -41,14 +41,18 @@ languageUsage:
     domain: locallySpoken
     # Urdu is the lingua franca understood by the vast majority (~93% of the
     # population) either as a first or second language, though only ~7-9%
-    # speak it as a mother tongue. 2023 Census / language surveys.
+    # speak it as a mother tongue. The 2023 Census itself only measures
+    # mother tongue, not overall comprehension; the ~93% figure is a
+    # disclosed estimate consistent with Ethnologue's total (first- and
+    # second-language) Urdu user count for Pakistan.
     speakersShare: 0.93
-    sourceId: pak-census
+    sourceId: urd-lingua-franca-est
   - languageCode: pnb
     domain: locallySpoken
-    # Punjabi is the most widely spoken provincial language (~38-45% as a
-    # mother tongue, concentrated in Punjab province).
-    speakersShare: 0.44
+    # Punjabi is the most widely spoken provincial language (37.0% as a
+    # mother tongue per the 2023 Census, down from ~44% in the 2017 Census;
+    # concentrated in Punjab province).
+    speakersShare: 0.37
     sourceId: pak-census
   - languageCode: snd
     domain: locallySpoken
@@ -78,7 +82,7 @@ legalConstraints:
     description: "The Prevention of Electronic Crimes Act 2016 (PECA) and its 2025 amendments regulate online content, data and communications, and provide for data-protection and cybercrime enforcement. A dedicated federal Personal Data Protection Bill has been drafted in phases; PECA remains the operative e-privacy/cyber framework."
     sourceId: pak-peca
   - topic: "sales tax (VAT)"
-    description: "A federal and provincial sales tax is levied under a harmonized Federal-Provincial framework; the standard general sales tax (GST) rate is 17%, with reduced rates on some essentials, applied to most goods and services."
+    description: "A federal and provincial sales tax is levied under a harmonized Federal-Provincial framework; the standard general sales tax (GST) rate is 18% (raised from 17% effective 14 February 2023), with reduced rates on some essentials, applied to most goods and services."
     sourceId: fbr-sales-tax
 paymentCulture:
   popularMethods:
@@ -122,13 +126,20 @@ sources:
     year: 1973
     accessedDate: "2026-09-21"
     note: "Declares Urdu the national language and keeps English as the other official language; provinces may adopt additional official languages."
+  - id: urd-lingua-franca-est
+    name: "Ethnologue — Urdu (Pakistan) total speaker count"
+    publisher: "Ethnologue"
+    url: "https://www.ethnologue.com/language/urd/"
+    year: 2023
+    accessedDate: "2026-09-21"
+    note: "Disclosed estimate: Ethnologue reports roughly 232 million total (first- and second-language) Urdu users, consistent with the widely cited claim that Urdu is understood by ~93% of Pakistan's population as a lingua franca; no single national survey measures lingua-franca comprehension directly, and the 2023 Census only measures mother tongue."
   - id: pak-census
     name: "Pakistan 2023 Census — language and demographic data"
     publisher: "Pakistan Bureau of Statistics"
     url: "https://www.pbs.gov.pk/"
     year: 2023
     accessedDate: "2026-09-21"
-    note: "Population ~241.5M (2023); language shares (Urdu lingua franca ~93%, Punjabi ~44%, Sindhi ~14%); the Census does not collect ethnicity."
+    note: "Population ~241.5M (2023); mother-tongue language shares (Punjabi 37.0%, Sindhi 14%); the Census does not collect ethnicity or a lingua-franca comprehension figure."
   - id: pak-consumer
     name: "Provincial Consumer Protection Acts (KP 1997, Sindh 2014, Punjab 2017, Balochistan)"
     publisher: "National Assembly of Pakistan (na.gov.pk; these four Acts were each passed by their own provincial assembly, not the National Assembly — no single primary source for all four was found)"
@@ -149,4 +160,4 @@ sources:
     url: "https://www.fbr.gov.pk/"
     year: 2026
     accessedDate: "2026-09-21"
-    note: "General sales tax (GST) standard rate 17% under the harmonized federal-provincial framework."
+    note: "General sales tax (GST) standard rate 18% under the harmonized federal-provincial framework, raised from 17% by the Finance (Supplementary) Act 2023, effective 14 February 2023."

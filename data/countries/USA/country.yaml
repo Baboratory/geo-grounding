@@ -97,7 +97,7 @@ legalConstraints:
     description: "The US has no single comprehensive federal privacy law; sectoral laws apply (HIPAA for health, GLBA for financial, COPPA for children online) and the FTC polices deceptive privacy practices. Several states have enacted comprehensive consumer-privacy laws, led by the California Consumer Privacy Act (CCPA/CPRA, effective 2020/2023)."
     sourceId: ftc-privacy
   - topic: "sales tax"
-    description: "There is no federal sales tax; most states levy a state and local sales tax on goods (and increasingly some services), with rates and exemptions varying by state (e.g. ~6-9% typical combined). Exports to most out-of-state destinations may be taxed on the seller's location following the 2018 Wayfair ruling."
+    description: "There is no federal sales tax; most states levy a state and local sales tax on goods (and increasingly some services), with rates and exemptions varying by state (e.g. ~6-9% typical combined). Following the 2018 Wayfair ruling, most states require out-of-state sellers with economic nexus to collect the destination state's sales tax."
     sourceId: census-sales
 paymentCulture:
   popularMethods:
@@ -144,10 +144,10 @@ sources:
   - id: census-english
     name: "United States Census Bureau — language spoken at home / ACS"
     publisher: "U.S. Census Bureau"
-    url: "https://www.census.gov/"
+    url: "https://data.census.gov/table/ACSDT1Y2023.B16001"
     year: 2023
     accessedDate: "2026-09-21"
-    note: "English mother tongue ~82%, spoken well/very well ~96%; Spanish most spoken non-English language; basis for the locallySpoken shares."
+    note: "ACS table B16001 (Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over): English mother tongue ~82%, spoken well/very well ~96%; Spanish most spoken non-English language; basis for the locallySpoken shares."
   - id: eo14224
     name: "Executive Order 14224 — Designating English as the Official Language of The United States"
     publisher: "The White House"
@@ -165,7 +165,7 @@ sources:
   - id: ftc
     name: "Federal Trade Commission — consumer protection"
     publisher: "Federal Trade Commission (US)"
-    url: "https://www.ftc.gov/"
+    url: "https://www.ftc.gov/mission/consumer-protection"
     year: 2026
     accessedDate: "2026-09-21"
     note: "FTC Act s.5 bans unfair/deceptive practices; CPSC regulates product safety; state consumer statutes complement."
@@ -179,7 +179,7 @@ sources:
   - id: census-sales
     name: "U.S. Census Bureau — state and local government finance (sales tax)"
     publisher: "U.S. Census Bureau"
-    url: "https://www.census.gov/"
+    url: "https://www.census.gov/topics/public-sector/taxes.html"
     year: 2026
     accessedDate: "2026-09-21"
     note: "No federal sales tax; state/local sales tax varies by state and locality (typical combined ~6-9%)."

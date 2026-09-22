@@ -10,8 +10,8 @@ climates:
   - koppenCode: Am
     description: "Tropical monsoon climate with warm weather year-round and a clearer wet season (roughly October-March)."
 landmarks:
-  - name: Borobudur Temple
-    description: "The world's largest Buddhist temple (9th century), a UNESCO World Heritage Site at the heart of the Javanese heartland."
+  - name: Borobudur Temple (day trip)
+    description: "The world's largest Buddhist temple (9th century) and a UNESCO World Heritage Site, about 40km northwest in neighbouring Magelang Regency, Central Java — the classic day trip from Yogyakarta."
     unescoWorldHeritage: true
   - name: Prambanan Temple
     description: "A stunning 9th-century Hindu temple complex, a UNESCO World Heritage Site a short drive from the city."
@@ -25,7 +25,7 @@ landmarks:
 culturalTraits:
   - "The cultural heart of Java — the living centre of Javanese arts, gamelan, wayang kulit and courtly etiquette"
   - "A special region still headed by a Sultan (Hamengkubuwono), with a unique dual role as governor"
-  - "A renowned university city — SMD/UGM and dozens of colleges make it a hub of students and artists"
+  - "A renowned university city — Universitas Gadjah Mada (UGM) and dozens of colleges make it a hub of students and artists"
 prideOf:
   - "Being Java's most vibrant guardian of traditional Javanese court culture"
   - "Batik (Yogyakarta and nearby Solo are world batik centres)"

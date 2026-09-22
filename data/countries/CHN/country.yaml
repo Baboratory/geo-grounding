@@ -35,12 +35,11 @@ languageUsage:
     sourceId: npc-language-law
   - languageCode: cmn
     domain: locallySpoken
-    # The 2020 census / linguistic surveys report Mandarin (Putonghua plus the
-    # broader Mandarin family) as spoken by ~80% of the population; the
-    # standardized common language reaches roughly 85% proficiency. Treated as
-    # a qualitative local-usage share; the exact figure varies by survey.
+    # The Ministry of Education reported that about 80.72% of the population
+    # could speak Putonghua (Mandarin) as of 2020, up from about 53% in 2000 --
+    # this survey figure, not the language law, is the basis for this share.
     speakersShare: 0.80
-    sourceId: npc-language-law
+    sourceId: moe-putonghua-2021
 # zho and cmn are both in the pool: zho is the ISO 639-3 macrolanguage 'Chinese'
 # (used as the official-domain row consistent with other dataset entries), cmn
 # is 'Mandarin' the standardized dialect spoken most widely. Grouped under the
@@ -113,6 +112,13 @@ sources:
     year: 2025
     accessedDate: "2026-09-21"
     note: "Designates Putonghua as the countrywide common spoken and written language; minority-language constitutional protection noted."
+  - id: moe-putonghua-2021
+    name: "Ministry of Education press conference on the status of Chinese language use"
+    publisher: "Ministry of Education of the People's Republic of China"
+    url: "http://en.moe.gov.cn/news/press_releases/202106/t20210616_538404.html"
+    year: 2021
+    accessedDate: "2026-09-22"
+    note: "MOE official Zhou Wei reported that about 80.72% of China's population could speak Putonghua as of 2020, up 27.66 percentage points from 2000 -- the basis for the cmn locallySpoken usage share."
   - id: samr-consumer
     name: "Law on the Protection of Consumer Rights and Interests (1993, revised 2013)"
     publisher: "State Administration for Market Regulation (SAMR), PRC"

@@ -36,7 +36,7 @@ languageUsage:
     sourceId: census-phl-2020-language
   - languageCode: ceb
     domain: locallySpoken
-    speakersShare: 0.16
+    speakersShare: 0.225
     sourceId: census-phl-2020-language
   - languageCode: hil
     domain: locallySpoken
@@ -65,8 +65,12 @@ languageUsage:
 # Filipino (based on Tagalog) is the national language and co-official with
 # English (1987 Constitution, Article XIV). The 2020 Census of Population and
 # Housing reports the language spoken at home per household: Tagalog ~39.9%,
-# Bisaya/Binisaya ~16.0% (grouped here under Cebuano), Hiligaynon 7.3%,
-# Ilocano 7.1%, Bikol 3.9%, Waray 2.6%, Kapampangan 2.4%, Pangasinan 1.3%.
+# Bisaya/Binisaya ~16.0%, Hiligaynon 7.3%, Ilocano 7.1%, Bikol 3.9%, Waray
+# 2.6%, Kapampangan 2.4%, Pangasinan 1.3%. The PSA lists Bisaya/Binisaya and
+# Cebuano (~6.5%) as two separate household-language rows; because Cebuano
+# speakers very commonly self-report their language as "Binisaya" rather than
+# "Cebuano," the ceb locallySpoken share below combines both rows
+# (16.0% + 6.5% = 22.5%) as a single disclosed estimate of Cebuano speakers.
 # These are household-language shares, expressed as a proxy for resident
 # speaker share; the country's major regional languages are constitutionally
 # recognized auxiliary official languages in their regions.
@@ -171,7 +175,7 @@ sources:
     url: "https://psa.gov.ph/node/1684041577"
     year: 2020
     accessedDate: "2026-09-21"
-    note: "Household-language shares from the 2020 CPH: Tagalog 39.9%, Bisaya/Binisaya 16.0%, Hiligaynon 7.3%, Ilocano 7.1%, Cebuano 6.5%, Bikol 3.9%, Waray 2.6%, Kapampangan 2.4%, Maguindanao 1.4%, Pangasinan 1.3%. Used as a proxy for resident speaker share."
+    note: "Household-language shares from the 2020 CPH: Tagalog 39.9%, Bisaya/Binisaya 16.0%, Hiligaynon 7.3%, Ilocano 7.1%, Cebuano 6.5%, Bikol 3.9%, Waray 2.6%, Kapampangan 2.4%, Maguindanao 1.4%, Pangasinan 1.3%. Used as a proxy for resident speaker share. Bisaya/Binisaya and Cebuano are reported as two separate rows by the PSA; this dataset's ceb locallySpoken share (0.225) combines both (16.0% + 6.5%), disclosed here, since Cebuano speakers commonly self-report as 'Binisaya'."
   - id: census-phl-2020-ethnic
     name: "Ethnicity in the Philippines (2020 Census of Population and Housing)"
     publisher: "Philippine Statistics Authority"

@@ -6,60 +6,58 @@ name:
       value: Papua
 climates:
   - koppenCode: Af
-    description: "Tropical rainforest climate in the lowlands — hot, humid and wet year-round. The highlands (Tion) are cooler and wet with occasional frost at altitude."
+    description: "Tropical rainforest climate along the north coast and islands (Jayapura, Biak, Yapen) — hot, humid and wet year-round. The Cyclops Mountains behind Jayapura are cooler at altitude."
 landmarks:
-  - name: Raja Ampat
-    description: "An archipelago of karst islands off the Sorong coast, the epicentre of global marine biodiversity."
-  - name: Lorentz National Park
-    description: "The largest protected area in Southeast Asia, spanning glacier to mangrove — a UNESCO World Heritage Site."
-    unescoWorldHeritage: true
-  - name: Baliem Valley
-    description: "The highland home of the Dani people, with terraced gardens and the famous wooden 'mummy' villages of Wamena."
   - name: Lake Sentani
-    description: "A large freshwater lake south of Jayapura, ringed by traditional villages."
+    description: "A large freshwater lake south of Jayapura, ringed by traditional stilt villages and the source of papeda, the region's signature dish."
+  - name: Teluk Youtefa (Youtefa Bay)
+    description: "A scenic bay and mangrove park in Jayapura city, crossed by the Youtefa (Holtekamp) Bridge toward the Skouw border with Papua New Guinea."
+  - name: Goa Jepang (Japanese Cave), Biak
+    description: "A WWII-era limestone cave system on Biak Island that sheltered Japanese forces during the 1944 Battle of Biak."
+  - name: Biak and Yapen Islands
+    description: "Coral-fringed islands in Cenderawasih Bay off the north coast, known for beaches, birdwatching and diving."
 culturalTraits:
-  - "Home to hundreds of Papuan ethnic and language communities and vast linguistic diversity"
+  - "Home to the Sentani, Biak and Yapen peoples, among many other Papuan ethnic and language communities"
   - "A land of strong indigenous identity, distinct from the rest of the country (Melanesian heritage)"
-  - "Special autonomy region since 2001/2022, with a unique cultural and geographic character"
+  - "Special autonomy region since 2001, reorganized in 2022 into a smaller Papua province alongside four new sister provinces (Highland, Central, South and Southwest Papua) carved from the former, larger Papua province"
 prideOf:
-  - "Unrivaled natural beauty — Raja Ampat reefs and the Lorentz monument"
-  - "Diverse indigenous cultures, from Asmat woodcarving to Dani highland life"
-  - "Being the frontier of Indonesia's largest region"
+  - "Lake Sentani's stilt-village lake culture and its annual Sentani Lake Festival"
+  - "Biak's WWII history and Cenderawasih Bay's reefs and birdlife"
+  - "Being the historic heart of Indonesia's Papua region, home to the provincial capital Jayapura"
 animals:
   popular:
     - "Bird-of-paradise"
-    - "Tree kangaroo (endemic)"
     - "Cassowary"
     - "Green tree python"
   unique:
     - "Birds-of-paradise and the endemic rattus and marsupial fauna of the Papuan rainforest"
-    - "The world's richest coral reefs at Raja Ampat"
+    - "Coral reefs and migratory wildlife off Biak and Yapen in Cenderawasih Bay"
 industries:
-  - "Mining — Grasberg (one of the world's largest gold/copper mines) around Timika"
-  - "Forestry and agriculture (sago, oil palm, fisheries)"
-  - "Tourism — niche diving and nature travel (Raja Ampat)"
-  - "Traditional crafts (Asmat carving)"
+  - "Fisheries and marine resources (Cenderawasih Bay)"
+  - "Forestry and agriculture (sago, oil palm)"
+  - "Government and services — Jayapura is the provincial capital"
+  - "Tourism — diving around Biak/Yapen and WWII heritage travel"
 sports:
   - "Football"
   - "Sepak takraw"
-  - "Traditional canoe racing"
+  - "Traditional canoe racing (Lake Sentani)"
 entertainment:
   - season: allYear
     items:
-      - "Raja Ampat diving and liveaboard trips"
-      - "Dani and Asmat cultural festivals"
-      - "Highland trekking in the Baliem Valley"
+      - "Lake Sentani boat trips and the annual Sentani Lake Festival"
+      - "Biak diving and WWII history tours (Goa Jepang)"
+      - "Jayapura's Teluk Youtefa waterfront"
 traditionalDishes:
   - season: allYear
     items:
-      - "Papeda — sago porridge, the signature Papuan staple"
+      - "Papeda — sago porridge, the signature dish associated with the Sentani lake area"
       - "Babi bakar (grilled pork, especially in Christian-majority areas)"
       - "Baked sago, taro and sweet potato (ubijalar)"
-      - "Ikan bakar (grilled reef fish)"
+      - "Ikan bakar (grilled lake and reef fish)"
 traditionalClothing:
   - season: allYear
     items:
-      - "Traditional bark cloth and woven fibre skirts/koteka for ceremonial wear among highland groups"
+      - "Traditional bark cloth and woven fibre adornment for ceremonial wear"
       - "Modern, modest everyday clothing; festival bead-and-feather adornment"
 seasonCalendar:
   - season: dry
@@ -83,11 +81,4 @@ sources:
     publisher: "Ministry of Tourism and Creative Economy, Indonesia"
     url: "https://www.indonesia.travel/gb/en/destinations/papua"
     accessedDate: "2026-09-21"
-    note: "Landmarks, culture and seasonal context for Papua."
-  - id: unesco-lorentz
-    name: "Lorentz National Park — UNESCO World Heritage"
-    publisher: "UNESCO World Heritage Centre"
-    url: "https://whc.unesco.org/en/list/955/"
-    year: 2026
-    accessedDate: "2026-09-21"
-    note: "Verifies Lorentz National Park as a World Heritage Site."
+    note: "Landmarks, culture and seasonal context for the current, post-2022 Papua province (Jayapura, Biak, Yapen and surrounding regencies)."

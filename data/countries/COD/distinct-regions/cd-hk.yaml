@@ -1,6 +1,6 @@
 code: CD-HK
 name:
-  eng: Haut-Katanga (Lualaba/Haut-Katanga region)
+  eng: Haut-Katanga
   local:
     - languageCode: fra
       value: Haut-Katanga
@@ -26,10 +26,10 @@ prideOf:
 animals:
   popular:
     - "Antelopes and elephants in the surrounding miombo woodlands"
-    - "The region's famed mines attract a busy, mobile workforce"
+    - "Leopards, zebras and roan antelope in the surrounding miombo woodland"
 industries:
   - "Mining and mineral processing (copper and cobalt — the world's largest cobalt source for batteries)"
-  - "Energy (the Inga dam projects supply the grid)"
+  - "Energy — the mines draw grid power imported from the Inga dams on the Congo river (over 1,000 miles away in Kongo Central) via the long-distance Inga-Kolwezi (formerly Inga-Shaba) HVDC transmission line"
   - "Agriculture and trade in the mining towns"
 sports:
   - "Football and athletics"
@@ -53,7 +53,7 @@ entertainment:
 traditionalDishes:
   - season: allYear
     items:
-      - "Moambe and nkui pastes (fish or meat stews)"
+      - "Moambe (palm-nut sauce) with fish or meat, served with bukari — the smooth maize-meal staple distinctive to Katanga"
       - "Fufu and chikwangue with saka-saka"
       - "Fish from the Lufira and Congo tributaries"
 traditionalClothing:
@@ -79,4 +79,4 @@ sources:
     url: "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/"
     year: 2014
     accessedDate: "2026-09-21"
-    note: "Religious composition estimate (2014): roughly 93% Christian, small Muslim and other minorities."
+    note: "This source only reports the DRC's national religious composition; no province-level breakdown for Haut-Katanga was found, so the figures here reflect the national pattern (2014 estimate: roughly 93% Christian, small Muslim and other minorities) rather than a Haut-Katanga-specific survey."

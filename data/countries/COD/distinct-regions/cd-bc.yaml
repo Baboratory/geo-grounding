@@ -12,10 +12,10 @@ landmarks:
     description: "The historic town that served as the capital of the Congo Free State before Leopoldville, holding important colonial-era architecture."
   - name: Matadi port
     description: "The country's main deep-water Atlantic port at the mouth of the Congo, a key hub for DRC's import-export trade."
-  - name: Chutes de Luebo (near Matadi)
-    description: "Spectacular cataracts of the lower Congo river, a natural landmark of the region."
-  - name: Kimpeze — waterfalls of the Kongo Central
-    description: "Landscaped waterfall site, a popular retreat outside Matadi."
+  - name: Yellala Falls (part of the Livingstone Falls)
+    description: "The lowest and best-known of the Livingstone Falls cataracts on the Congo river, just upstream from Matadi, a natural landmark of the region."
+  - name: Vampa Falls, Kimpese
+    description: "A waterfall and natural swimming pool near the town of Kimpese, a popular local retreat along the Kinshasa-Matadi road."
 culturalTraits:
   - "The historic homeland of the Kongo people and the seat of the pre-colonial Kongo kingdom"
   - "Kikongo (Kikongo ya leta) is the everyday lingua franca; kinship and community ties run deep"
@@ -79,4 +79,4 @@ sources:
     url: "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/"
     year: 2014
     accessedDate: "2026-09-21"
-    note: "Religious composition estimate (2014): roughly 93-94% Christian, small Muslim and other minorities."
+    note: "This source only reports the DRC's national religious composition; no province-level breakdown for Kongo Central was found, so the figures here reflect the national pattern (2014 estimate: roughly 93-94% Christian, small Muslim and other minorities) rather than a Kongo Central-specific survey."

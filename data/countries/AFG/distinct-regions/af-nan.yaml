@@ -10,8 +10,8 @@ climates:
 landmarks:
   - name: Jalalabad's Amir Chaman gardens
     description: "A historic shaded garden complex in Jalalabad, a summer retreat for rulers for centuries."
-  - name: Darul Aman / Achekzai archaeological sites
-    description: "Area archaeological sites reflecting centuries of settlement along the Kabul river."
+  - name: Hadda archaeological site
+    description: "The ruins of a major Greco-Buddhist monastic centre south of Jalalabad, once home to hundreds of stupas and thousands of Gandharan-style sculptures."
   - name: Spin Ghar (Safed Koh) range views
     description: "The snow-capped 'White Mountain' range bordering Pakistan, a dramatic backdrop to the province."
 culturalTraits:
@@ -78,4 +78,4 @@ sources:
     url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/afghanistan/"
     year: 2022
     accessedDate: "2026-09-21"
-    note: "Religious composition: overwhelmingly Sunni Muslim."
+    note: "This source only reports Afghanistan's national religious composition; no province-level breakdown for Nangarhar was found, so the figures here reflect the national pattern rather than a Nangarhar-specific survey."

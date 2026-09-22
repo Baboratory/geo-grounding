@@ -20,7 +20,7 @@ climates:
     description: "Tropical savanna climate across the far north (Top End, Cape York), with a distinct wet and dry season."
 landmarks:
   - name: Great Barrier Reef
-    description: "The world's largest coral reef system, off the Queensland coast — a UNESCO World Heritage Site supporting extraordinary marine biodiversity."
+    description: "The world's largest coral reef system, off the Queensland coast — a UNESCO World Heritage Site and protected marine park spanning more than 2,900 individual reefs and 900 islands, supporting extraordinary marine biodiversity."
     unescoWorldHeritage: true
   - name: Uluru (Ayers Rock)
     description: "A vast sandstone monolith in the Northern Territory's red centre, sacred to the Anangu people and an icon of Australia."
@@ -30,8 +30,6 @@ landmarks:
   - name: Kakadu National Park
     description: "A vast protected landscape in the Northern Territory combining wetlands, escarpment and rock art, listed as a UNESCO World Heritage Site for both natural and cultural values."
     unescoWorldHeritage: true
-  - name: Great Barrier Reef Marine Park (reef system)
-    description: "Protected marine area that includes more than 2,900 individual reefs and 900 islands along the Queensland coast."
   - name: Twelve Apostles and the Great Ocean Road
     description: "Dramatic limestone sea stacks along the Victorian coastline, reached via the scenic Great Ocean Road."
 culturalTraits:

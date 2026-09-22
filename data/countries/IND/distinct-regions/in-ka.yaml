@@ -21,7 +21,7 @@ landmarks:
     description: "A Tudor-style palace and the famous botanical gardens in Bengaluru."
 culturalTraits:
   - "Home to Bengaluru, India's 'Silicon Valley' and IT capital"
-  - "A rich Kannada cultural, literary and classical-dance (Bharatanatyam) heritage"
+  - "A rich Kannada cultural, literary and dance-drama (Yakshagana) heritage"
   - "A mix of historic Vijayanagara and Hoysala temples and modern tech-driven cities"
 prideOf:
   - "Bengaluru's technology and startup economy"
@@ -53,9 +53,10 @@ entertainment:
   - season: wet
     items:
       - "The Western Ghats turn lush and green through the monsoon (best for nature)"
+      - "The Mysore Dasara celebrations (September-October), Karnataka's grandest festival"
   - season: winter
     items:
-      - "Winter festivals and the Mysore Dasara celebrations"
+      - "Winter cultural festivals and the pleasant travel season"
 traditionalDishes:
   - season: allYear
     items:

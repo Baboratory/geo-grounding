@@ -14,8 +14,8 @@ landmarks:
     description: "The ruins of one of the world's oldest cities, the ancient capital of Bactria and legendary birthplace of Zoroaster."
   - name: Green Mosque (Mazar-i-Sharif's other shrine complex)
     description: "A secondary shrine complex adding to Mazar-i-Sharif's sacred geography."
-  - name: Qala-e Bost fort ruins (southern Balkh edge)
-    description: "Ancient fortress ruins near the Helmand river, associated with the region's historical frontier."
+  - name: Noh Gunbad Mosque (Masjid-i Haji Piyada)
+    description: "The ruined Nine Domes Mosque near Balkh city, believed to be the oldest surviving Islamic-era building in Afghanistan, dating to the early Abbasid period."
 culturalTraits:
   - "The historic 'Mother of Cities' — ancient Bactria, a crossroads of the Silk Road and Persian, Greek, Buddhist and Islamic civilisations"
   - "A majority ethnic Tajik and Uzbek region, culturally closer to the Turkic north and Central Asia"
@@ -26,7 +26,7 @@ prideOf:
   - "Its Silk Road commercial heritage"
 animals:
   popular:
-    - "Karachi sheep and horses on the northern steppe"
+    - "Karakul sheep and horses on the northern steppe"
     - "Bactrian camels"
 industries:
   - "Agriculture on the Amu Darya floodplain (wheat, cotton, melons, olives)"
@@ -84,4 +84,4 @@ sources:
     url: "https://www.state.gov/reports/2022-report-on-international-religious-freedom/afghanistan/"
     year: 2022
     accessedDate: "2026-09-21"
-    note: "Religious composition: majority Sunni Muslim, small Shia and other minorities."
+    note: "This source only reports Afghanistan's national religious composition; no province-level breakdown for Balkh was found, so the figures here reflect the national pattern rather than a Balkh-specific survey."

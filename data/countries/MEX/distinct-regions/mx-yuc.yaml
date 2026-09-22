@@ -33,7 +33,7 @@ animals:
     - "Flamingo (in the coastal lagoons)"
     - "Coatimundi"
   unique:
-    - "Yucatán black-throated bobwhite (endemic game bird)"
+    - "Yucatán black-throated bobwhite (near-endemic game bird of the Yucatán Peninsula region)"
 industries:
   - "Tourism (Chichén Itzá, Mérida and the coastal resorts)"
   - "Agriculture (henequen/agave, citrus, cattle)"
@@ -41,7 +41,7 @@ industries:
 sports:
   - "Baseball"
   - "Football"
-  - "Maya ball-and-trap games (traditional pelota)"
+  - "Pok-ta-pok, the traditional Maya ballgame (pitz)"
 entertainment:
   - season: allYear
     items:

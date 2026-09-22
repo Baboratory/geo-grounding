@@ -180,8 +180,8 @@ sources:
     note: "Business Receipts Tax obligations (2% general, 5-10% for specific services); 2025 fixed-tax reduction to 0.3% per Islamic Emirate decree."
   - id: cp-law-2006
     name: "Consumer Protection Law (1385/2006)"
-    publisher: "Ministry of Industry and Commerce, Islamic Republic of Afghanistan (enacted 2006; the PR's original URL pointed at the Ministry of Finance's site instead)"
+    publisher: "Ministry of Industry and Commerce, Islamic Republic of Afghanistan"
     url: "https://moci.gov.af/"
     year: 2006
     accessedDate: "2026-09-21"
-    note: "Consumer protection framework and Ministry of Industry and Commerce enforcement role."
+    note: "Consumer protection framework and Ministry of Industry and Commerce enforcement role. The law was enacted in 2006; an earlier draft of this entry had cited the Ministry of Finance's URL by mistake, corrected here to the Ministry of Industry and Commerce's own site."

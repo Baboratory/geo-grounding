@@ -18,7 +18,7 @@ landmarks:
   - name: Congo River
     description: "The second-longest river in Africa, whose vast basin dominates the country and gives the DRC its name."
   - name: Virunga National Park
-    description: "Africa's oldest national park and a UNESCO World Heritage Site, sheltering the world's only population of mountain gorillas."
+    description: "Africa's oldest national park and a UNESCO World Heritage Site, home to part of the mountain gorilla population shared across the DRC, Rwanda and Uganda's Virunga Massif — one of only two places on Earth mountain gorillas survive, alongside Uganda's Bwindi Impenetrable National Park."
     unescoWorldHeritage: true
   - name: Kahuzi-Biega National Park
     description: "A UNESCO World Heritage Site in the eastern highlands protecting the eastern lowland gorilla and its montane forest."
@@ -41,7 +41,7 @@ animals:
     - "Gorillas and chimpanzees in the forest parks"
     - "Colorful birds and the fish of the great rivers"
   unique:
-    - "Mountain gorilla (Gorilla beringei) — found only in the Virunga highlands"
+    - "Mountain gorilla (Gorilla beringei) — found in the DRC's Virunga highlands, part of a population shared across only two places worldwide (the Virunga Massif and Uganda's Bwindi Impenetrable National Park)"
     - "Okapi (Okapia johnstoni) — the 'forest giraffe' endemic to the DRC's forests"
     - "Bonobo (Pan paniscus) — the chimpanzee-relative found only in the Congo Basin"
     - "African forest elephant (Loxodonta cyclotis)"

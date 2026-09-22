@@ -31,7 +31,6 @@ prideOf:
   - "A famously easy-going, fun-loving spirit"
 animals:
   popular:
-    - "Giant panda"
     - "Red panda"
   unique:
     - "Giant panda (Sichuan is the species' stronghold)"
@@ -46,7 +45,6 @@ sports:
   - "Football (Chengdu)"
   - "Table tennis"
   - "Wushu and tai chi"
-  - "Mahjong (a beloved leisure pastime)"
 entertainment:
   - season: allYear
     items:
