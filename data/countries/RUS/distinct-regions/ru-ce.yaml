@@ -1,0 +1,122 @@
+code: RU-CE
+name:
+  eng: Chechen Republic
+  local:
+    - languageCode: che
+      value: Нохчийн Республика
+    - languageCode: rus
+      value: Чеченская Республика
+climates:
+  - koppenCode: Dfb
+    description: "Humid continental (warm summer) — the lowlands around Grozny: cold snowy winters, warm summers (July highs ~27 C), moderate precipitation."
+  - koppenCode: Dfc
+    description: "Subarctic / boreal in the high Caucasus mountains (toward Tebulosmta, 4,493 m): long cold winters, short cool summers."
+landmarks:
+  - name: Grozny
+    description: "Capital and largest city of the Chechen Republic, rebuilt after the 1994-2009 wars."
+  - name: Akhmad Kadyrov Mosque (The Heart of Chechnya)
+    description: "The main mosque of Chechnya, completed in 2008 in Grozny; among the largest mosques in Europe."
+  - name: Argun Gorge
+    description: "A deep gorge of the Argun river in the high Caucasus of Chechnya."
+  - name: Lake Kezenoy-Am
+    description: "A high mountain lake in eastern Chechnya, among the largest and deepest in the North Caucasus."
+  - name: Mount Tebulosmta
+    description: "The highest peak of the Chechen Republic and the Eastern Caucasus (4,493 m), on the Georgian border."
+culturalTraits:
+  - "Teip / clan / tukkhum identity — Chechen society is organised into some 130 teips grouped into tukkhums; teip duty and honour are central"
+  - "Sufi Islam (Qadiri and Naqshbandi tariqas) — Chechens are predominantly Sunni; Shafi'i (and Hanafi) jurisprudence prevails"
+  - "Nokhchii self-identity — Chechens call themselves Nokhchiy, an ethnonym rooted in the Nakh ancestry of the Caucasus"
+  - "Nokhchalla — the traditional Chechen code of honour and customary law (adat), emphasising morality, generosity and egalitarianism"
+prideOf:
+  - "Independence and resilience — long resistance to foreign rule from the 18th-19th century Caucasian wars to the modern era"
+  - "Clan honour and hospitality (guest protection)"
+  - "A martial and wrestling tradition — freestyle wrestling is a celebrated national sport with many champions"
+animals:
+  popular:
+    - "East Caucasian (Dagestan) tur"
+    - "Steppe fox"
+  unique:
+    - "Caucasian (Persian) leopard (Panthera pardus tulliana) — rare, historically ranging the Republic's mountains"
+    - "East Caucasian tur (Capra caucasica cylindricornis) — endemic mountain goat of the Eastern Caucasus highlands"
+industries:
+  - "Oil production and Grozny refining — historically a major oil centre"
+  - "Agriculture — wheat, barley, horticulture, and livestock herding (sheep and cattle)"
+sports:
+  - "Freestyle wrestling — Chechnya's signature sport, with many Olympic and world champions"
+  - "Martial arts — traditional Chechen/Nakh wrestling, boxing and MMA"
+religions:
+  - name: Sunni Islam
+    percent: 95.0
+    sourceId: chechnya-religion-poll
+# Sunni Islam is the overwhelming plurality: roughly 95% per a 2010 Grozny poll,
+# and the 2012 Arena survey lists Chechnya among the republics with an Islamic
+# absolute majority. Chechens were ~96.4% of the population in the 2021 census.
+entertainment:
+  - season: allYear
+    items:
+      - "Nokhcho folk music and dance (the phandar string instrument)"
+      - "Eid al-Fitr (Uraza Bayram) and Eid al-Adha (Kurban Bayram) festivities"
+  - season: summer
+    items:
+      - "Mountain excursions to Kezenoy-Am and the Argun gorge"
+  - season: winter
+    items:
+      - "Indoor and family gatherings during the cold months"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Zhizhik-galnash — dough dumplings boiled with meat (lamb, chicken, beef) in broth, served with garlic sauce"
+      - "Chepalgash — flatbread filled with cottage cheese and wild garlic"
+      - "Hingalsh — stuffed pies with cheese, potato, greens or pumpkin"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern dress, with traditional forms worn at weddings and festivals"
+  - season: winter
+    items:
+      - "Warm layered winter wear"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:00-18:00 Mon-Fri (Moscow time, UTC+3) with a ~1-hour lunch break; a relaxed, hospitality-driven pace."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "Ramadan (lunar)"
+      description: "Daylight fasting and altered office/meal rhythms; Eid al-Fitr (Uraza Bayram) is a major holiday affecting business schedules."
+    - period: "Republic Day of Chechnya (22 August)"
+      description: "Regional public holiday, institutions close."
+    - period: "Kurban Bayram (Eid al-Adha, lunar)"
+      description: "Islamic holiday honoured as a regional non-working day."
+  sourceIds:
+    - chechnya-republic-day
+sources:
+  - id: chechnya-religion-poll
+    name: "Religion in Chechnya (2010 Grozny poll; 2012 Arena survey context)"
+    publisher: "Composite estimate / survey reporting"
+    url: "https://en.wikipedia.org/wiki/Chechnya"
+    year: 2010
+    accessedDate: "2026-09-23"
+    note: "Sunni Islam is practiced by roughly 95% of those polled in Grozny (2010); the 2012 Arena survey lists Chechnya among Russian subjects with an Islamic absolute majority. Approximate plural-direction figure, flagged as an estimate."
+  - id: chechnya-republic-day
+    name: "Republic Day of the Chechen Republic"
+    publisher: "Republic of Chechnya (holiday practice)"
+    url: "https://en.wikipedia.org/wiki/Chechnya"
+    year: 2026
+    accessedDate: "2026-09-23"
+    note: "Republic Day is celebrated around 22 August as a regional public holiday, used in businessRhythm.notableShutdownPeriods."
+  - id: iso-che
+    name: "ISO 639-3 entry: che — Chechen"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/che"
+    year: 2026
+    accessedDate: "2026-09-23"
+    note: "Verifies che = Chechen, Individual, Living, Cyrillic. Basis for the name.local che entry and Chechen's co-official status in the republic."

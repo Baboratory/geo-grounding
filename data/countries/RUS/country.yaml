@@ -21,11 +21,14 @@ regionCoverage:
   # all 21 of Russia's ISO-recognized republics fire trigger 1 -- Article
   # 68(2) of the Constitution gives every republic "the right to establish
   # their own state languages", and each republic's own charter names one
-  # (Tatarstan/Tatar, Sakha/Sakha, Chechnya/Chechen, etc.); two are further
+  # (Tatarstan/Tatar, Sakha/Sakha, Chechnya/Chechen, etc.); four are further
   # confirmed to fire trigger 2 as well (Kalmykia is the only Buddhist-
   # plurality polity in Europe; North Ossetia-Alania is the only Christian-
-  # plurality republic in the Muslim-majority North Caucasus). Two of the 21
-  # (Tatarstan RU-TA, Sakha RU-SA) are already curated. The remaining ~58
+  # plurality republic in the Muslim-majority North Caucasus; Chechnya and
+  # Dagestan have overwhelming Sunni-Muslim pluralities, Dagestan also
+  # firing trigger 5 on its coastal-to-alpine climate range). Six of the 21
+  # (Tatarstan, Sakha, Kalmykia, North Ossetia, Chechnya, Dagestan) are
+  # already curated. The remaining ~58
   # units (oblasts, krais, federal cities, autonomous okrugs) have NOT been
   # individually assessed -- Russia's size means several likely fire trigger
   # 5 on climate alone (Sakha's subarctic extreme vs. Krasnodar's humid
@@ -39,13 +42,15 @@ regionCoverage:
   tier: first-level
   totalUnits: 83
   status: partial
-  gapReason: "6 of 83 curated (4 of the 21 republics — Tatarstan, Sakha,
-    Kalmykia, North Ossetia — that fire trigger 1, two of which (Kalmykia,
-    North Ossetia) also fire trigger 2 on plurality religion, plus the 2
-    largest cities). 17 more republics confirmed to fire trigger 1
-    (constitutional right to a state language) and need curating; ~58
-    non-republic units still need individual assessment. See the comment
-    above for what's confirmed vs. outstanding."
+  gapReason: "8 of 83 curated (6 of the 21 republics — Tatarstan, Sakha,
+    Kalmykia, North Ossetia, Chechnya, Dagestan — that fire trigger 1,
+    four of which also fire trigger 2 on plurality religion (Kalmykia,
+    North Ossetia, Chechnya; Dagestan's Sunni plurality plus trigger 5
+    climate range), plus the 2 largest cities. 15 more republics
+    confirmed to fire trigger 1 (constitutional right to a state
+    language) and need curating; ~58 non-republic units still need
+    individual assessment. See the comment above for what's confirmed
+    vs. outstanding."
 languageUsage:
   - languageCode: rus
     domain: official
@@ -175,6 +180,12 @@ distinct-regions:
   - code: RU-SE
     file: distinct-regions/ru-se.yaml
     adminUnitCodes: [RU-SE]
+  - code: RU-CE
+    file: distinct-regions/ru-ce.yaml
+    adminUnitCodes: [RU-CE]
+  - code: RU-DA
+    file: distinct-regions/ru-da.yaml
+    adminUnitCodes: [RU-DA]
 sources:
   - id: rus-constitution-art68
     name: "Constitution of the Russian Federation, Article 68"
