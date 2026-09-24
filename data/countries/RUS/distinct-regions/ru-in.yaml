@@ -1,0 +1,142 @@
+code: RU-IN
+name:
+  eng: Republic of Ingushetia
+  local:
+    - languageCode: inh
+      value: ГӀалгӏай Республика
+    - languageCode: rus
+      value: Республика Ингушетия
+# A small, mountainous Nakh people's republic on the northern slopes of the
+# Greater Caucasus, sharing a land border with Georgia. Its constitution names
+# Ingush (inh) as co-official with Russian; Article 68(2) of the federal
+# Constitution gives the republic the right to its own state language.
+climates:
+  - koppenCode: Dfb
+    description: "Humid continental — warm summers and cold winters in the foothill belt and river valleys where the bulk of the population lives."
+  - koppenCode: Dfc
+    description: "Subarctic / cold highland variants in the higher Caucasus ranges toward the Georgian border."
+landmarks:
+  - name: Magas
+    description: "The capital since 2000 — a small newly built city near the old Ingush political heartland, intended as the republic's administrative seat."
+  - name: Nazran
+    description: "The largest city and former de facto capital, the republic's main economic and transport hub."
+  - name: Tower of the Complex of the Ioal-Aul (Erzi and Duzhar fortress towers)
+    description: "Ingushetia's famous medieval stone battle- and residential-towers (vouvs) in the mountainous Dzheirakh and Sunzha districts — a candidate-listed cultural landscape."
+  - name: Tkhaba-Yerdy Temple
+    description: "An early-medieval Christian temple in the Assa river gorge, one of the oldest church buildings in the Caucasus, set amid the mountain towers."
+  - name: Dzheirakh-Assa reserve and gorge
+    description: "The mountainous heart of Ingushetia, with its stone towers, gorges and the Angukht pass into the Caucasus."
+entertainment:
+  - season: summer
+    items:
+      - "Trekking and tower-village tours in the Dzheirakh and Assa gorges"
+      - "Summer folk festivals of Ingush music, dance and wrestling"
+  - season: winter
+    items:
+      - "New Year holiday season"
+  - season: spring
+    items:
+      - "Eid al-Fitr (Uraza Bayram) observances in this Sunni-Muslim republic"
+  - season: autumn
+    items:
+      - "Regional cultural events and late-season highland walks"
+culturalTraits:
+  - "An overwhelmingly ethnic-Ingush republic (96%+ of the population) with a strong Nakh ethnic identity"
+  - "Ingush is co-official with Russian and the everyday language of the majority"
+  - "Sunni Islam (Shafi'i school) as the near-universal faith, with deep familial/clan (teip) traditions"
+  - "The famous Ingush stone towers and the code of hospitality (nakh) and honour"
+  - "Ingush folk dance and the 'lezginka' traditions of the North Caucasus"
+prideOf:
+  - "The mountain stone-tower fortresses of Dzheirakh"
+  - "Being one of the most ethnically homogeneous republics of Russia"
+  - "Ingush language, dance and epic tradition"
+  - "Resilience and survival through repeated deportations and returns (1944, 1957)"
+animals:
+  popular:
+    - "Caucasian tur (mountain goat)"
+    - "Chamois"
+    - "Brown bear"
+  unique:
+    - "Caucasian (Persian) leopard — a rare highland predator of the Greater Caucasus"
+industries:
+  - "Agriculture — grain, horticulture and livestock in the valleys"
+  - "Construction and cement production"
+  - "Food processing and local textiles"
+  - "Wine-making in the lower valley (a longstanding local tradition)"
+sports:
+  - "Freestyle and Greco-Roman wrestling — a strong North-Caucasus school"
+  - "Mountaineering and trekking"
+  - "Football"
+  - "Sambo and boxing"
+religions:
+  - name: Sunni Islam (Shafi'i)
+    percent: 95.0
+    sourceId: composite-estimate
+# Plurality confirmed: Ingushetia is overwhelmingly Sunni Muslim. The 2012
+# Arena (Sreda) survey did not poll Ingushetia (like Chechnya it was excluded
+# from the regional sample), but every available source describes an
+# overwhelming Muslim majority — the Reddit-compiled Arena map notes Ingushetia
+# and Chechnya have 'always been over 90% Muslim in all polling conducted'. The
+# 95% figure is a conservative Composite estimate consistent with the ethnic
+# Ingush share (~96.4% of the 2021 census) and with the adjacent Chechnya data.
+# Curated on trigger 1 (Ingush state language) and trigger 2 (Muslim plurality
+# vs. the country's Orthodox plurality).
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Zhyzhig-galnash — the signature Ingush and Chechen dish of boiled meat with dumplings, garlic and broth"
+      - "Khinkal (mountain khinkal) — dough pieces served with meat and broth in the Caucasus style"
+      - "Kuur (Ingush flatbread) and various chudu-style stuffed flatbreads"
+      - "Ayran and dairy fare from cow and sheep milk"
+  - season: winter
+    items:
+      - "Hearty mutton soups and stews for the cold mountain winter"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern dress; traditional Circassian-style coat, papakha hat and felt burka at festivals"
+  - season: winter
+    items:
+      - "Warm layered mountain winter wear"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:00-18:00 Mon-Fri (Moscow time, UTC+3)."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "New Year and Orthodox Christmas holidays — near-total shutdown, as across Russia."
+    - period: "Uraza Bayram (Eid al-Fitr) and Kurban Bayram (Eid al-Adha), lunar"
+      description: "Islamic holidays observed as non-working days in this Muslim-majority republic."
+  notes: "Sunday is the standard rest day. The republic observes Russian federal holidays plus its own (Republic Day, 4 June, and the Muslim holidays)."
+sources:
+  - id: composite-estimate
+    name: "Composite estimate (no regional religious census in Ingushetia)"
+    publisher: "Composite estimate"
+    url: "https://sreda.org/en/opros/arena-reliz"
+    year: 2012
+    accessedDate: "2026-09-24"
+    note: "Ingushetia was not included in the 2012 Arena regional sample; the ~95% Sunni-Muslim estimate conservatively matches the ethnic Ingush share (96.4% of the 2021 census) and the adjacent Chechnya plurality. Basis for the single Islam row and the trigger-2 finding."
+  - id: iso-inh
+    name: "ISO 639-3 entry: inh — Ingush"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/inh"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies inh = Ingush, Individual, Living (Nakh/Caucasian). Basis for the name.local inh entry and Ingush's co-official status."
+  - id: census-2021
+    name: "2021 All-Russian Population Census — ethnic composition of Ingushetia"
+    publisher: "Rosstat (Federal State Statistics Service)"
+    url: "https://rosstat.gov.ru/vpn/2020"
+    year: 2021
+    accessedDate: "2026-09-24"
+    note: "Ingush 96.4% of the republic's 527,220 (2021); supports the ethnic-majority basis of the composite religion estimate."

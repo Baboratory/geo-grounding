@@ -17,15 +17,20 @@ governanceType: federal
 iso3166_2_prefix: RU
 hasSubdivisions: true
 regionCoverage:
-  # Partially assessed 2026-09-23 (coverage-floor pilot, TODO.md). Confirmed:
+  # Partially assessed 2026-09-24 (coverage-floor pilot, see issue #87). Confirmed:
   # all 21 of Russia's ISO-recognized republics fire trigger 1 -- Article
   # 68(2) of the Constitution gives every republic "the right to establish
   # their own state languages", and each republic's own charter names one
-  # (Tatarstan/Tatar, Sakha/Sakha, Chechnya/Chechen, etc.); two are further
-  # confirmed to fire trigger 2 as well (Kalmykia is the only Buddhist-
-  # plurality polity in Europe; North Ossetia-Alania is the only Christian-
-  # plurality republic in the Muslim-majority North Caucasus). Two of the 21
-  # (Tatarstan RU-TA, Sakha RU-SA) are already curated. The remaining ~58
+  # (Tatarstan/Tatar, Sakha/Sakha, Chechnya/Chechen, Tuva/Tuvan, Chuvashia/
+  # Chuvash, Ingushetia/Ingush, etc.); several are further confirmed to fire
+  # trigger 2 (differing plurality religion: Kalmykia Buddhist, Tuva Buddhist,
+  # North Ossetia Christian-plurality in a Muslim region, and the North
+  # Caucasus Muslim-plurality republics). 16 of the 21 republics are curated
+  # (Tatarstan RU-TA, Sakha RU-SA, Kalmykia RU-KL, North Ossetia RU-SE,
+  # Chechnya RU-CE, Dagestan RU-DA, Bashkortostan RU-BA, Buryatia RU-BU,
+  # Kabardino-Balkaria RU-KB, Karachay-Cherkessia RU-KC, Adygea RU-AD, Altai
+  # RU-AL, Tuva RU-TY, Khakassia RU-KK, Ingushetia RU-IN, Chuvashia RU-CU)
+  # plus the two largest cities. The remaining ~58
   # units (oblasts, krais, federal cities, autonomous okrugs) have NOT been
   # individually assessed -- Russia's size means several likely fire trigger
   # 5 on climate alone (Sakha's subarctic extreme vs. Krasnodar's humid
@@ -39,8 +44,8 @@ regionCoverage:
   tier: first-level
   totalUnits: 83
   status: partial
-  gapReason: "4 of 83 curated (2 of the 21 republics that fire trigger 1,
-    plus the 2 largest cities). 19 more republics confirmed to fire
+  gapReason: "18 of 83 curated (16 of the 21 republics that fire trigger 1,
+    plus the 2 largest cities). 5 more republics confirmed to fire
     trigger 1 (constitutional right to a state language) and need
     curating; ~58 non-republic units still need individual assessment.
     See the comment above for what's confirmed vs. outstanding."
@@ -167,6 +172,12 @@ distinct-regions:
   - code: RU-SPE
     file: distinct-regions/ru-spe.yaml
     adminUnitCodes: [RU-SPE]
+  - code: RU-IN
+    file: distinct-regions/ru-in.yaml
+    adminUnitCodes: [RU-IN]
+  - code: RU-CU
+    file: distinct-regions/ru-cu.yaml
+    adminUnitCodes: [RU-CU]
 sources:
   - id: rus-constitution-art68
     name: "Constitution of the Russian Federation, Article 68"
@@ -224,3 +235,4 @@ sources:
     year: 2023
     accessedDate: "2026-09-20"
     note: "Share of retail payments at the point of sale by method: bank cards ~68%, cash ~13%, SBP/mobile ~15%, other ~4%. Approximate national figures from central-bank payment statistics."
+
