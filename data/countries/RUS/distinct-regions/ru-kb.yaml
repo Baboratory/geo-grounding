@@ -1,0 +1,160 @@
+code: RU-KB
+name:
+  eng: Kabardino-Balkar Republic
+  local:
+    - languageCode: kbd
+      value: Къэбэрдей-Балъкъэр Республикэ
+    - languageCode: krc
+      value: Къабарты-Малкъар Республика
+    - languageCode: rus
+      value: Кабардино-Балкарская Республика
+# A single republic of two titular peoples: the Kabardians (Circassians, of
+# the wider Adyghe family) and the Balkars (a Turkic people of the high
+# valleys). Both Kabardian (kbd) and Karachay-Balkar (krc) are state
+# languages co-official with Russian.
+climates:
+  - koppenCode: Dfb
+    description: "Humid continental — warm summers with long, cold and snowy winters across the plains and piedmont of the north."
+  - koppenCode: Dfc
+    description: "Subarctic / alpine zone high in the Caucasus, on and around Mount Elbrus and the Baksan and Cherek high valleys."
+landmarks:
+  - name: Mount Elbrus
+    description: "At 5,642 m the highest mountain in Europe and in Russia, a dormant stratovolcano on the border with Karachay-Cherkessia, with 22 glaciers feeding the Baksan, Malka and Kuban rivers."
+  - name: Nalchik
+    description: "Capital city set amid parks and foothill gardens at the edge of the Caucasus."
+  - name: Prielbrusye (Elbrus) ski resort
+    description: "Russia's most-developed alpine ski and mountaineering area, with gondola lifts from Azau towards the Elbrus peaks."
+  - name: Mount Cheget
+    description: "Ski and viewpoint mountain above the Baksan valley facing Mount Elbrus, within Prielbrusye National Park."
+  - name: Baksan Gorge
+    description: "The main river valley and gateway from Nalchik and Tyrnyauz up to Elbrus, lined with hot springs and alpine resorts."
+  - name: Blue Lakes (Tserikkel)
+    description: "Karst lakes including Tserikkel, one of the deepest in the Caucasus, a popular day-trip near Nalchik."
+  - name: Lake Tambukan
+    description: "Saline mud lake in the northeast used for therapeutic peloid (mud) treatments at local sanatoria."
+  - name: Prielbrusye National Park
+    description: "Federal national park protecting the alpine ecosystems around Elbrus, the last refuge of the local Caucasus leopard."
+culturalTraits:
+  - "A single republic of two titular peoples: the Kabardians (Circassians) and the Balkars (a Turkic people of the high valleys)"
+  - "Kabardian and Balkar are both state languages, co-official with Russian"
+  - "Islam, especially the Hanafi Sunni school, binds much of Kabardian and Balkar identity"
+  - "The Nart epic, shared across the Caucasus, is a cornerstone of Circassian (Kabardian) oral culture"
+  - "Adyghe Khabze — Circassian customary law built on hospitality, courtesy and respect — still shapes social conduct"
+  - "A mountaineering and equestrian culture rooted in the Caucasus highlands (Balkars were historic mountain guides)"
+prideOf:
+  - "Mount Elbrus, the highest peak in Europe, and the Caucasus mountains"
+  - "Kabardian Circassian heritage — the Nart saga and the Adyghe language"
+  - "Balkar Turkic heritage and its distinctive song and mountaineering traditions"
+  - "National cuisine — khychiny pastries, shashlik and dairy foods shared between both peoples"
+  - "Hospitality enshrined in Adyghe Khabze customary law"
+animals:
+  popular:
+    - "Caucasian tur (mountain goat)"
+    - "Mouflon (wild sheep)"
+    - "Brown bear"
+  unique:
+    - "Caucasian (Persian) leopard — the flagship predator of the Elbrus region and Prielbrusye National Park"
+industries:
+  - "Food processing and beverage production centred on Nalchik"
+  - "Tourism and mountaineering at Elbrus, Cheget and the Prielbrusye ski area"
+  - "Agriculture — grain, orchards and vineyards on the plains, livestock in the foothills"
+  - "Light industry, timber and construction materials"
+  - "Minority mining in the mountains (historically tungsten-molybdenum at Tyrnyauz)"
+sports:
+  - "Wrestling and judo (Kabardian wrestler Beslan Mudranov won Russia's first gold at the Rio 2016 Olympics)"
+  - "Mountaineering and alpine skiing"
+  - "Football (PFC Spartak Nalchik)"
+religions:
+  - name: Sunni Islam
+    percent: 70.8
+    sourceId: arena-2012
+  - name: Russian Orthodox Christianity
+    percent: 11.6
+    sourceId: arena-2012
+  - name: Other Christian
+    percent: 3.8
+    sourceId: arena-2012
+  - name: Adyghe (Kabardian) folk religion
+    percent: 1.8
+    sourceId: arena-2012
+  - name: No religion / other
+    percent: 12.0
+    sourceId: arena-2012
+# Plurality confirmed: the 2012 Arena (Sreda) survey puts Sunni Islam at
+# ~70.8% of the population, with Russian Orthodoxy the largest minority.
+entertainment:
+  - season: summer
+    items:
+      - "Mount Elbrus climbing expeditions and Caucasus high-mountain hiking"
+      - "Baksan and Chegem gorges, the Cherek canyon and the Blue Lakes"
+      - "Festivals of Kabardian and Balkar music and dance"
+  - season: winter
+    items:
+      - "Skiing and snowboarding at Prielbrusye (Elbrus) and Mount Cheget"
+      - "Winter climbing and the New Year holiday season"
+  - season: spring
+    items:
+      - "Eid al-Fitr (Uraza Bayram) celebrations and spring fairs"
+  - season: autumn
+    items:
+      - "Day of the Republic (1 September) festivities in Nalchik"
+      - "Late-season mountain hikes before the first snow"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Khychiny — thin stuffed flatbreads (potato, cheese or meat), the signature Kabardian pastry"
+      - "Shashlik — grilled skewered meat"
+      - "Jedz — Kabardian grain / porridge dish"
+      - "Lakum — fried dough cakes, a festival speciality"
+      - "Khalva — a sweet seed/butter confection"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern European dress; traditional Circassian forms (tiered cherkeska coat, burka cloak, embroidered dress) appear at weddings and folk festivals"
+  - season: winter
+    items:
+      - "Warm layered winter wear suited to the mountain cold"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:00-18:00 Mon-Fri (Moscow time, UTC+3)."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "New Year and Orthodox Christmas holidays — near-total shutdown, as across Russia."
+    - period: "Day of the Republic of Kabardino-Balkaria (1 September)"
+      description: "Marks the republic's establishment; the main regional public holiday, celebrated in Nalchik."
+    - period: "Uraza Bayram (Eid al-Fitr) and Kurban Bayram (Eid al-Adha), lunar"
+      description: "As a Muslim-majority republic these are observed public holidays; many Muslim businesses observe fasting hours during Ramadan."
+  notes: "Sunday is the standard rest day. The republic observes Russian federal holidays plus its own (Day of the Republic and the Muslim holidays), reflecting its Muslim-majority character."
+sources:
+  - id: arena-2012
+    name: "ARENA Atlas: Religion in the federal subjects of Russia (Sreda / Public Opinion Foundation survey)"
+    publisher: "Sreda (non-profit research service)"
+    url: "https://sreda.org/en/opros/arena-reliz"
+    year: 2012
+    accessedDate: "2026-09-24"
+    note: "Sunni Islam plurality in Kabardino-Balkaria ~70.8%; Russian Orthodox ~11.6% the largest minority; ~1.8% Adyghe folk religion. Basis for the religions rows."
+  - id: iso-kbd
+    name: "ISO 639-3 entry: kbd — Kabardian"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/kbd"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies kbd = Kabardian, Individual, Living. Basis for the name.local kbd entry."
+  - id: iso-krc
+    name: "ISO 639-3 entry: krc — Karachay-Balkar"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/krc"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies krc = Karachay-Balkar, Individual, Living. Basis for the name.local krc entry."
