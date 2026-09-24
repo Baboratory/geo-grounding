@@ -48,12 +48,15 @@ regionCoverage:
   tier: first-level
   totalUnits: 34
   status: partial
-  gapReason: "4 of 34 curated (0 of the trigger-firing units). 4 autonomous
-    regions confirmed to fire trigger 1 and need curating (Inner Mongolia,
-    Xinjiang, Tibet, Guangxi); Ningxia is a weaker, unconfirmed trigger-2
-    case. Hainan and Heilongjiang are likely trigger-5 climate cases. ~20
-    other provinces/municipalities still need individual assessment. See
-    the comment above for what's confirmed vs. outstanding."
+  gapReason: "6 of 34 curated (2 of the trigger-firing units). 4 autonomous
+    regions are confirmed to fire trigger 1 (co-official titular minority
+    language under the Law on Regional Ethnic Autonomy): Inner Mongolia
+    (Mongolian), Xinjiang (Uyghur), Tibet (Tibetan), Guangxi (Zhuang).
+    Tibet and Guangxi are curated here; Inner Mongolia and Xinjiang are
+    authored and pending in PR #97. Ningxia is a weaker, unconfirmed
+    trigger-2 case. Hainan and Heilongjiang are likely trigger-5 (climate)
+    cases. ~20 other provinces/municipalities still need individual
+    assessment. See the comment above for what's confirmed vs. outstanding."
 languageUsage:
   - languageCode: zho
     domain: official
@@ -133,6 +136,12 @@ distinct-regions:
   - code: CN-SC
     file: distinct-regions/cn-sc.yaml
     adminUnitCodes: [CN-SC]
+  - code: CN-XZ
+    file: distinct-regions/cn-xz.yaml
+    adminUnitCodes: [CN-XZ]
+  - code: CN-GX
+    file: distinct-regions/cn-gx.yaml
+    adminUnitCodes: [CN-GX]
 sources:
   - id: npc-language-law
     name: "Law of the People's Republic of China on the Standard Spoken and Written Chinese Language (2000, amended 2025)"
