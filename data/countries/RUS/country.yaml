@@ -17,30 +17,31 @@ governanceType: federal
 iso3166_2_prefix: RU
 hasSubdivisions: true
 regionCoverage:
-  # Partially assessed 2026-09-23 (coverage-floor pilot, TODO.md). Confirmed:
-  # all 21 of Russia's ISO-recognized republics fire trigger 1 -- Article
-  # 68(2) of the Constitution gives every republic "the right to establish
-  # their own state languages", and each republic's own charter names one
-  # (Tatarstan/Tatar, Sakha/Sakha, Chechnya/Chechen, etc.); two are further
-  # confirmed to fire trigger 2 as well (Kalmykia is the only Buddhist-
-  # plurality polity in Europe; North Ossetia-Alania is the only Christian-
-  # plurality republic in the Muslim-majority North Caucasus). Two of the 21
-  # (Tatarstan RU-TA, Sakha RU-SA) are already curated. The remaining ~58
-  # units (oblasts, krais, federal cities, autonomous okrugs) have NOT been
-  # individually assessed -- Russia's size means several likely fire trigger
-  # 5 on climate alone (Sakha's subarctic extreme vs. Krasnodar's humid
-  # subtropical are both already outside what WHOLE can represent), and
-  # trigger 4 on time zone (Russia spans 11), but this needs per-unit
-  # checking, not assumed. NOTE (domestic-vs-ISO count): Russia's own
-  # administrative count is 22 republics, the extra being the "Republic of
-  # Crimea" -- annexed in 2014, not recognized by the UN or by ISO 3166, and
-  # not part of this dataset's count for the same reason Crimea isn't
-  # otherwise treated as Russian territory here.
+  # Partially assessed 2026-09-24 (coverage-floor pilot, TODO; see issue #87).
+  # Confirmed: all 21 of Russia's ISO-recognized republics fire trigger 1 --
+  # Article 68(2) of the Constitution gives every republic "the right to
+  # establish their own state languages", and each republic's own charter
+  # names one (Tatarstan/Tatar, Sakha/Sakha, Chechnya/Chechen, etc.); several
+  # also fire trigger 2 (differing plurality religion) and/or trigger 5
+  # (climate). 12 of the 21 republics are curated (Tatarstan RU-TA, Sakha
+  # RU-SA, Kalmykia RU-KL, North Ossetia RU-SE, Chechnya RU-CE, Dagestan
+  # RU-DA, Bashkortostan RU-BA, Buryatia RU-BU, Kabardino-Balkaria RU-KB,
+  # Karachay-Cherkessia RU-KC, Adygea RU-AD, Altai RU-AL), plus the two
+  # largest cities. The remaining ~58 units (oblasts, krais, federal cities,
+  # autonomous okrugs) have NOT been individually assessed -- Russia's size
+  # means several likely fire trigger 5 on climate alone (Sakha's subarctic
+  # extreme vs. Krasnodar's humid subtropical are both already outside what
+  # WHOLE can represent), and trigger 4 on time zone (Russia spans 11), but
+  # this needs per-unit checking, not assumed. NOTE (domestic-vs-ISO count):
+  # Russia's own administrative count is 22 republics, the extra being the
+  # "Republic of Crimea" -- annexed in 2014, not recognized by the UN or by
+  # ISO 3166, and not part of this dataset's count for the same reason Crimea
+  # isn't otherwise treated as Russian territory here.
   tier: first-level
   totalUnits: 83
   status: partial
-  gapReason: "4 of 83 curated (2 of the 21 republics that fire trigger 1,
-    plus the 2 largest cities). 19 more republics confirmed to fire
+  gapReason: "14 of 83 curated (12 of the 21 republics that fire trigger 1,
+    plus the 2 largest cities). 9 more republics confirmed to fire
     trigger 1 (constitutional right to a state language) and need
     curating; ~58 non-republic units still need individual assessment.
     See the comment above for what's confirmed vs. outstanding."
@@ -167,6 +168,12 @@ distinct-regions:
   - code: RU-SPE
     file: distinct-regions/ru-spe.yaml
     adminUnitCodes: [RU-SPE]
+  - code: RU-AD
+    file: distinct-regions/ru-ad.yaml
+    adminUnitCodes: [RU-AD]
+  - code: RU-AL
+    file: distinct-regions/ru-al.yaml
+    adminUnitCodes: [RU-AL]
 sources:
   - id: rus-constitution-art68
     name: "Constitution of the Russian Federation, Article 68"
