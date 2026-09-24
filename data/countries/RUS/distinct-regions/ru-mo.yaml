@@ -1,0 +1,155 @@
+code: RU-MO
+name:
+  eng: Republic of Mordovia
+  local:
+    - languageCode: mdf
+      value: Мордовия Республикась
+    - languageCode: myv
+      value: Мордовия Республикась
+    - languageCode: rus
+      value: Республика Мордовия
+climates:
+  - koppenCode: Dfb
+    description: "Warm-summer humid continental, the dominant class — a moderate continental climate with warm summers and cold snowy winters on the East European Plain."
+landmarks:
+  - name: Saransk
+    description: "Capital of the republic; one of Russia's host cities of the 2018 FIFA World Cup, with the Mordovia Arena at its heart."
+  - name: Mordovia Arena
+    description: "The 45,000-seat football stadium built in Saransk for the 2018 FIFA World Cup; a reference point of the city's modern skyline."
+  - name: St. Theodore Ushakov Memorial Cathedral
+    description: "A large Orthodox cathedral in central Saransk, named after the Russian naval commander and saint Admiral Fyodor Ushakov."
+  - name: M. E. Evsevyev National Museum
+    description: "The principal regional museum of Mordovia (Revival of Mordovian Regional Studies), with ethnographic collections on the Moksha and Erzya peoples."
+  - name: The Sura River
+    description: "The republic straddles the middle course of the Sura and its tributary the Moksha in the Volga basin."
+  - name: Mordovia TV and radio tower
+    description: "A tall lattice transmission tower in Saransk, among the tallest freestanding structures built in Russia, a distinctive city landmark."
+culturalTraits:
+  - "The Mordvins are two closely related Finno-Ugric peoples — the Moksha and the Erzya — whose languages (Moksha mdf, Erzya myv) are both co-official with Russian."
+  - "Mordovia was one of only two republics that did not proclaim sovereignty during the late-Soviet 'parade of sovereignties'."
+  - "The republic has a strong Orthodox identity with many monasteries, alongside preserved indigenous traditions; Saransk hosted the 2018 FIFA World Cup."
+  - "Mordovia is a major Russian agricultural and meat-producing region, repeatedly among Russia's top poultry and pork producers."
+prideOf:
+  - "Moksha and Erzya heritage and the survival of two co-official Finno-Ugric languages."
+  - "Hosting the 2018 FIFA World Cup at the Mordovia Arena."
+  - "The Ushakov cathedral and monastic tradition."
+  - "The republic's leading role in Russian agriculture."
+animals:
+  popular:
+    - Brown bear
+    - Moose (European elk)
+    - European beaver
+    - Wild boar
+  unique:
+    - "Black grouse (in the forest-meadow landscapes of the republic)"
+    - "Rivers' zander (pike-perch) in the Sura and Moksha"
+industries:
+  - "Agriculture — grain, sugar beet, dairy and one of Russia's largest poultry and pork sectors"
+  - "Food processing"
+  - "Fiber-optics and electronics cluster in Saransk"
+  - "Cement (Mordovcement) and building materials"
+  - "Light engineering"
+sports:
+  - "Football (Mordovia Arena, built for the 2018 FIFA World Cup)"
+  - "Sambo and freestyle wrestling"
+  - "Athletics / long-distance running"
+  - "Ice hockey"
+religions:
+  - name: Russian Orthodox Christianity
+    percent: 68.6
+    sourceId: arena2012
+  - name: Spiritual but not religious
+    percent: 9.7
+    sourceId: arena2012
+  - name: Atheism / irreligion
+    percent: 7.2
+    sourceId: arena2012
+  - name: Other and undeclared
+    percent: 6.6
+    sourceId: arena2012
+  - name: Islam
+    percent: 2.4
+    sourceId: arena2012
+  - name: Old Believers
+    percent: 0.6
+    sourceId: arena2012
+entertainment:
+  - season: allYear
+    items:
+      - "Museums and theatres of Saransk (M. E. Evsevyev National Museum, Mordovian national puppet theatre)"
+      - "Visits to the Ushakov cathedral and monasteries"
+  - season: summer
+    items:
+      - "Football matches and events at the Mordovia Arena"
+      - "Republic Day and city-day (Saransk) celebrations"
+      - "River recreation on the Sura and Moksha"
+  - season: winter
+    items:
+      - "Winter festivals and indoor sports"
+  - season: spring
+    items:
+      - "Easter celebrations and spring fairs"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Moksha and Erzya dumplings and pies filled with meat, potato or cabbage"
+      - "Mushroom and berry dishes"
+      - "Kvas and berry drinks"
+  - season: winter
+    items:
+      - "Hearty meat broths and baked pies"
+  - season: summer
+    items:
+      - "Fresh vegetables, berries and river fish"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern Russian everyday dress"
+  - season: winter
+    items:
+      - "Warm layered winter wear"
+  - season: spring
+    items:
+      - "Mordovian traditional costume (embroidered panar shirt, beaded adornments) worn at weddings, folklore and festival events"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "09:00-18:00 Mon-Fri (Moscow time, UTC+3); a ~1-hour lunch break around 13:00-14:00 is standard."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "Extended federal New Year and Orthodox Christmas holidays — near-total shutdown."
+    - period: "Republic Day of Mordovia"
+      description: "Regional non-working holiday marking the republic's foundation."
+  notes: "Orthodox plurality, matching Russia at large — coverage trigger 2 does not fire here."
+sources:
+  - id: iso-mdf
+    name: "ISO 639-3 entry: mdf — Moksha"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/mdf"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies mdf = Moksha, Individual, Living. Basis for the name.local mdf entry."
+  - id: iso-myv
+    name: "ISO 639-3 entry: myv — Erzya"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/myv"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies myv = Erzya, Individual, Living. Basis for the name.local myv entry."
+  - id: arena2012
+    name: "ARENA Atlas: Religion in the federal subjects of Russia (2012 survey by the Sreda research service with the Public Opinion Foundation)"
+    publisher: "Sreda (non-profit research service), with the Public Opinion Foundation"
+    url: "https://sreda.org/en/opros/arena-reliz"
+    year: 2012
+    accessedDate: "2026-09-24"
+    note: "2012 survey religious-affiliation shares for Mordovia (as tabulated in the ARENA Atlas): Russian Orthodoxy 68.6%, spiritual-but-not-religious 9.7%, atheism/irreligion 7.2%, other-and-undeclared 6.6%, Islam 2.4%, Old Believers 0.6%. Basis for the religions rows; plurality is Orthodox."
