@@ -1,0 +1,109 @@
+code: CN-XJ
+name:
+  eng: Xinjiang Uyghur Autonomous Region
+  local:
+    - languageCode: uig
+      value: شىنجاڭ ئۇيغۇر ئاپتونوم رايونى (Shinjang Uyghur Aptonom Rayoni)
+    - languageCode: zho
+      value: 新疆维吾尔自治区 (Xīnjiāng Wéiwú'ěr Zìzhìqū)
+climates:
+  - koppenCode: BWk
+    description: "Cold desert climate (BWk) over the Turpan Depression — the hottest and lowest place in China, at about 154 m below sea level with annual precipitation near the lowest in the country; much of the surrounding Junggar and Tarim basins is cold semi-arid (BSk), and the Tianshan/Altai highlands are subarctic or tundra (Dfc/ET). The desert and steppe classes are outside every Köppen class the four previously curated CHN regions cover."
+landmarks:
+  - name: Heavenly Lake (Tianchi)
+    description: "A glacial alpine lake at about 1,900-2,000 m in the Tianshan mountains, a short drive southeast of Urumqi, framed by the snow-capped Bogda Peak (4,545 m)."
+  - name: Id Kah Mosque (Kashgar)
+    description: "The largest mosque in China by worshippers, dating from the 15th century (built around 1442) on Kashgar's central square; a landmark of the Silk Road city's Central Asian character."
+  - name: Jiaohe Ancient City
+    description: "Ruins of a 2,000-year-old city carved from a loess mesa at the confluence of two rivers near Turpan; a component of the UNESCO World Heritage 'Silk Roads: the Routes Network of Chang'an-Tianshan Corridor' (2014)."
+    unescoWorldHeritage: true
+  - name: Karez (underground irrigation system), Turpan
+    description: "A 2,000-year-old qanat-style network of hand-dug underground channels carrying snowmelt from the Tianshan to irrigate the Turpan oasis; historically numbering over a thousand channels, it sustained oasis life in the desert."
+  - name: Taklamakan Desert
+    description: "The vast sand desert of the Tarim Basin and one of the largest sandy deserts in the world, bordering the Silk Road oases of southern Xinjiang."
+  - name: Kashgar Old Town
+    description: "The historic walled quarter of Kashgar, a 2,000-year-old Silk Road trading city of labyrinthine adobe streets, teahouses and artisan workshops at the foot of the Pamirs."
+culturalTraits:
+  - "China's largest (by area) autonomous region, named in 1955 for its Uyghur population; Uyghur is a co-official language alongside Mandarin under the Law on Regional Ethnic Autonomy — the coverage-floor trigger for this file."
+  - "A historic Silk Road crossroads where the Chang'an-Tianshan corridor passed through the oasis cities (Kashgar, Turpan, Hotan), linking China with Central Asia."
+  - "Home to several Turkic Muslim peoples — Uyghur, Kazakh, Kyrgyz (Kirgiz), Uzbek and Tajik (Pamiris) — alongside a large Han population; Islam is the religion of the Uyghur and other Turkic communities."
+  - "A rich Central Asian musical/heritage tradition, including the Uyghur Muqam, inscribed on UNESCO's Intangible Cultural Heritage list (2008), and the traditional Meshrep gatherings."
+prideOf:
+  - "The Uyghur Muqam and Xinjiang's Central Asian musical and poetic tradition"
+  - "The Silk Road cities of Kashgar and Turpan and the Karez irrigation engineering"
+  - "The dramatic landscapes of the Tianshan, the Taklamakan desert and the Turpan Depression"
+  - "Famed regional produce — Hami melons, Turpan seedless grapes and Korla pears"
+animals:
+  popular:
+    - Bactrian camel
+    - Goitered gazelle
+  unique:
+    - "Snow leopard (Tianshan, Altai, Kunlun and Pamir ranges)"
+    - "Marco Polo sheep / argali (high mountain herds)"
+    - "Wild Bactrian camel (Lop Nur desert reserve)"
+industries:
+  - "Petroleum and natural gas — Xinjiang holds China's largest oil, gas and coal reserves, with the Karamay field developed since 1955 and onshore production in the Tarim, Junggar and Turpan-Hami basins"
+  - "Cotton and irrigated agriculture — a leading national cotton base plus famous fruit (Hami melon, Turpan seedless grapes, Korla pears, Ili apples)"
+  - "Mining — coal, non-ferrous metals and the nephrite (Hetian) jade of the Kunlun riverbeds"
+  - "Textiles, carpet weaving and handicrafts"
+  - "Renewable energy — a fast-growing wind, solar and hydropower sector, plus tourism"
+sports:
+  - "Equestrian sports and horse culture"
+  - "Wrestling (including the Central Asian style kurash)"
+  - "Camel racing"
+  - "Dawazi (traditional tightrope walking) and archery"
+entertainment:
+  - season: allYear
+    items:
+      - "Silk Road tourism through Kashgar's Old Town and Turpan's ruins, and live Uyghur Muqam performances"
+  - season: summer
+    items:
+      - "The Turpan grape harvest and the Corban (Qurban, Eid al-Adha) festival, a three-day public holiday for Xinjiang's ethnic groups, marked with feasting and communal dance"
+  - season: spring
+    items:
+      - "Nawruz (Nowruz), the spring New Year celebrated by Xinjiang's Central Asian peoples in March"
+  - season: winter
+    items:
+      - "Chinese New Year and the quieter cold-season travel window"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Laghman (hand-pulled noodles)"
+      - "Polo (lamb pilaf) and samsa (baked lamb pastries)"
+      - "Nan (flatbread) and lamb kebabs; dapanji ('big plate chicken', invented in Xinjiang in the 1980s and served with wide noodles)"
+  - season: summer
+    items:
+      - "Hami melons, Turpan seedless grapes and dried fruits and raisins"
+  - season: winter
+    items:
+      - "Hearty lamb stews and noodle soups for the cold northern winter"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The doppa (square embroidered skull-cap) and the chapan (long quilted coat) of Uyghur dress"
+  - season: winter
+    items:
+      - "Warm quilted and fur-lined coats for the bitter basin winters"
+  - season: summer
+    items:
+      - "Light cottons and embroidered dresses against the desert heat"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices run 09:00-18:00 Monday-Friday, as across China; Karamay and Urumqi follow the national pattern."
+  lunchBreakTiming: "A lunch break around 13:00-14:00 is common."
+  notableShutdownPeriods:
+    - period: "Corban (Qurban) Festival — Eid al-Adha"
+      description: "A three-day official public holiday in Xinjiang celebrated by the Uyghur, Kazakh, Kyrgyz, Uzbek, Tajik and Hui Muslim communities, marked by prayers, sacrifice and feasting."
+    - period: "Chinese New Year"
+      description: "The Chinese New Year week is closed nationwide, and widely observed in Xinjiang."
+  notes: "Sunday is the standard rest day under China's national work week. In Muslim-majority communities, Friday is the day of congregational Jumu'ah prayers at the mosques (e.g. Id Kah in Kashgar)."
