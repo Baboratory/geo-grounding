@@ -1,0 +1,160 @@
+code: RU-KR
+name:
+  eng: Republic of Karelia
+  local:
+    - languageCode: fin
+      value: Karjalan tasavalta
+    - languageCode: krl
+      value: Karjalan tazavaldu
+    - languageCode: vep
+      value: Karjalan tazovaldkund
+    - languageCode: rus
+      value: Республика Карелия
+climates:
+  - koppenCode: Dfb
+    description: "Warm-summer humid continental, the dominant class — a cool, lake-dotted boreal ('taiga') climate tempered by the Atlantic with long snowy winters."
+landmarks:
+  - name: Kizhi Pogost
+    description: "A historic ensemble on Kizhi Island in Lake Onega, famous for the 22-domed wooden Transfiguration Church; a UNESCO World Heritage Site since 1990."
+    unescoWorldHeritage: true
+  - name: Valaam Monastery
+    description: "A celebrated Orthodox monastery complex on Valaam Island in Lake Ladoga, founded in the 14th century; a major pilgrimage and tourist destination."
+  - name: Ruskeala Mountain Park
+    description: "A scenic flooded marble canyon near Sortavala, a former quarry turned into one of northern Karelia's most-visited natural landmarks."
+  - name: Kivach Waterfall
+    description: "One of Russia's best-known waterfalls, on the Suna river within the Kivach Nature Reserve."
+  - name: Petrozavodsk
+    description: "Capital of Karelia on the shores of Lake Onega; its city embankment is lined with sculptures from the Onega embankment open-air collection."
+  - name: Lake Onega Petroglyphs
+    description: "Hundreds of Neolithic rock carvings on the eastern shore of Lake Onega, inscribed on the UNESCO World Heritage list in 2021."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "Karelian, Veps and Finnish are officially recognised regional languages alongside Russian, a legacy of Karelia's position between Finland and Russia."
+  - "Karelia is the 'land of lakes' — tens of thousands of lakes including Ladoga and Onega, Europe's two largest, lie partly within the republic."
+  - "The region was the heartland of the rune (Kalevala) song tradition; Elias Lönnrot collected much of the Finnish national epic among the Karelian and White Sea singers."
+  - "Karelia's dense wooden-architecture and lake heritage (Kizhi), and its White Sea shoreline, anchor a strong cultural identity."
+  - "Like the rest of inland northern Russia the republic is Orthodox-majority; no alternate religious plurality exists (coverage trigger 2 does not fire)."
+prideOf:
+  - "Kizhi and the UNESCO-listed wooden Transfiguration Church."
+  - "The Kalevala and Karelian rune-singing heritage."
+  - "A 'land of a thousand lakes' with unspoiled taiga and the White Sea coast."
+  - "Valaam and Kivach — monastic and natural icons of the north."
+animals:
+  popular:
+    - Brown bear
+    - Moose (European elk)
+    - Forest reindeer
+    - Lynx
+  unique:
+    - "Wolverine (a taiga specialist found across Karelia's forests)"
+    - "White-tailed eagle (nesting around Ladoga, Onega and the White Sea coast)"
+    - "The Onega and Ladoga whitefish and salmon runs"
+industries:
+  - "Timber and pulp-and-paper production (Segezha, Kondopoga)"
+  - "Iron-ore mining and pelletising (Kostomuksha — Karelsky Okatysh)"
+  - "Granite and dimensional stone quarrying, including the famed Karelian granite used in St Petersburg's embankments"
+  - "White Sea fisheries and aquaculture"
+  - "Tourism (Kizhi, Valaam, Ruskeala, Ladoga and Onega sailing)"
+sports:
+  - "Ice hockey"
+  - "Cross-country skiing"
+  - "Orienteering and long-distance running"
+  - "Sailing and rowing on the lakes"
+religions: []
+entertainment:
+  - season: allYear
+    items:
+      - "Petrozavodsk's museums (National Museum of the Republic of Karelia, Onega embankment sculpture trail)"
+      - "Eco-tourism in the taiga and around the White Sea"
+  - season: summer
+    items:
+      - "Kizhi folk and wooden-architecture festival (held on the island through the season)"
+      - "Republic of Karelia Day (8 June)"
+      - "Sailing regatta season on Onega and Ladoga"
+  - season: winter
+    items:
+      - "Cross-country skiing and winter sports across the lake country"
+      - "Day trips to Ruskeala's frozen marble canyon"
+  - season: spring
+    items:
+      - "Birdwatching for migratory waterfowl on the lakes and White Sea"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kalitki (Karelian pasties) — small rye pastries with potato, rice or cottage-cheese filling"
+      - "Ukha — clear fish soup made from lake fish"
+      - "Salted, dried and smoked fish (whitefish, salmon)"
+      - "Cloudberry (moroshka) and lingonberry preserves"
+  - season: winter
+    items:
+      - "Karelian fish soups and stews"
+      - "Berry bakes and pastries for the holidays"
+  - season: summer
+    items:
+      - "Fresh-caught lake fish and seasonal wild berries"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern Russian everyday dress (and Finnish-influenced practical outdoor wear)"
+  - season: winter
+    items:
+      - "Warm layered and fur-lined winter wear"
+  - season: spring
+    items:
+      - "Karelian traditional costume (embroidered shirts, sarafan-style dress) at folklore and festival events"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "09:00-18:00 Mon-Fri (Moscow time, UTC+3); a ~1-hour lunch break around 13:00-14:00 is standard."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "Extended federal New Year and Orthodox Christmas holidays — near-total shutdown."
+    - period: "Republic of Karelia Day (8 June)"
+      description: "Regional non-working holiday marking the creation of the Karelian labour commune (officially 1999)."
+  notes: "Tourism peaks in the brief summer (June-August) around Kizhi, Valaam and Ruskeala."
+sources:
+  - id: iso-krl
+    name: "ISO 639-3 entry: krl — Karelian"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/krl"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies krl = Karelian, Individual, Living. Basis for the name.local krl entry."
+  - id: iso-vep
+    name: "ISO 639-3 entry: vep — Veps"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/vep"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies vep = Veps, Individual, Living. Basis for the name.local vep entry."
+  - id: iso-fin
+    name: "ISO 639-3 entry: fin — Finnish"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/fin"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies fin = Finnish, Individual, Living. Basis for the name.local fin entry."
+  - id: unesco-kizhi
+    name: "UNESCO World Heritage: Kizhi Pogost"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/544/"
+    year: 1990
+    accessedDate: "2026-09-24"
+    note: "Documents inscription of the Kizhi Pogost ensemble, including the Transfiguration Church, as a UNESCO World Heritage Site in 1990."
+  - id: unesco-onega-petroglyphs
+    name: "UNESCO World Heritage: Petroglyphs of Lake Onega and the White Sea"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1654/"
+    year: 2021
+    accessedDate: "2026-09-24"
+    note: "Documents inscription of the Onega petroglyphs (eastern shore of Lake Onega, within Karelia) as a UNESCO World Heritage Site in 2021."

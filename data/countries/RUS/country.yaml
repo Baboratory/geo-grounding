@@ -39,11 +39,14 @@ regionCoverage:
   tier: first-level
   totalUnits: 83
   status: partial
-  gapReason: "4 of 83 curated (2 of the 21 republics that fire trigger 1,
-    plus the 2 largest cities). 19 more republics confirmed to fire
-    trigger 1 (constitutional right to a state language) and need
-    curating; ~58 non-republic units still need individual assessment.
-    See the comment above for what's confirmed vs. outstanding."
+  gapReason: "6 of 83 curated (4 previously — Tatarstan, Sakha and the two
+    largest cities — plus Komi and Karelia added here, both firing trigger 1
+    on their constitutional state languages). A further 15 trigger-1
+    republics are authored and pending in PRs #88-#94 and companion PRs
+    (incl. Mari El, Mordovia and Udmurtia); once merged, all 21 of Russia's
+    republics will be curated. The remaining ~58 non-republic units still
+    need individual assessment. Udmurtia also fires trigger 4 (Samara time,
+    UTC+4, one hour ahead of Moscow)."
 languageUsage:
   - languageCode: rus
     domain: official
@@ -167,6 +170,12 @@ distinct-regions:
   - code: RU-SPE
     file: distinct-regions/ru-spe.yaml
     adminUnitCodes: [RU-SPE]
+  - code: RU-KO
+    file: distinct-regions/ru-ko.yaml
+    adminUnitCodes: [RU-KO]
+  - code: RU-KR
+    file: distinct-regions/ru-kr.yaml
+    adminUnitCodes: [RU-KR]
 sources:
   - id: rus-constitution-art68
     name: "Constitution of the Russian Federation, Article 68"
