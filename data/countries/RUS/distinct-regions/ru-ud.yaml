@@ -1,0 +1,130 @@
+code: RU-UD
+name:
+  eng: Udmurt Republic
+  local:
+    - languageCode: udm
+      value: Удмурт Элькун
+    - languageCode: rus
+      value: Удмуртская Республика
+climates:
+  - koppenCode: Dfb
+    description: "Warm-summer humid continental, the dominant class — a moderate continental climate with warm summers and long cold snowy winters in the Kama-Vyatka interfluve."
+landmarks:
+  - name: Izhevsk
+    description: "Capital of the republic, founded as an armaments town in 1760; today an industrial and cultural centre on the Izhevsk Pond."
+  - name: Kalashnikov Concern
+    description: "The historic Izhevsk arms plant — birthplace of Mikhail Kalashnikov and the AK rifle family — now a manufacturer and museum of small arms, the 'Vostok' brand included."
+  - name: Museum of the Kalashnikov
+    description: "The Izhevsk museum dedicated to Mikhail Kalashnikov and the history of Soviet and Russian firearms."
+  - name: Idnakar hillfort
+    description: "A major medieval Finno-Ugric fortified settlement near Glazov, an important archaeological site of the Udmurt lands (9th-13th centuries)."
+  - name: Votkinsk — Tchaikovsky birthplace
+    description: "The town of Votkinsk, where the composer Pyotr Ilyich Tchaikovsky was born in 1840; his family estate is now the Tchaikovsky Memorial House-Museum."
+  - name: Ludorvai open-air museum
+    description: "An architectural and ethnographic museum of Udmurt village life, with traditional timber buildings and workshops, near Izhevsk."
+culturalTraits:
+  - "The Udmurts are a Finno-Ugric (Permic) people; Udmurt is a co-official state language of the republic alongside Russian."
+  - "Udmurtia is the homeland of the Kalashnikov rifle — the Izhevsk arms industry has defined its industrial identity for over two centuries."
+  - "The republic sits in the Kama-Vyatka interfluve, a rolling, forested agricultural region of the Volga basin."
+  - "Votkinsk in the south is the birthplace of Pyotr Ilyich Tchaikovsky, one of Russia's most celebrated composers."
+  - "Unlike Moscow's UTC+3 zone, Udmurtia runs on Samara time (UTC+4) — its own legal time zone, so coverage trigger 4 (time zone) fires here."
+  - "Like the rest of inland Russia the republic is Orthodox-majority, with a small revived Udmurt traditional-religion minority; coverage trigger 2 does not fire."
+prideOf:
+  - "The Kalashnikov and Izhevsk arms heritage."
+  - "Tchaikovsky — born in Votkinsk."
+  - "Udmurt Finno-Ugric language and culture, and the Idnakar archaeological heritage."
+  - "The republic's machine-building and agricultural strength."
+animals:
+  popular:
+    - Brown bear
+    - Moose (European elk)
+    - Eurasian lynx
+    - Wild boar
+  unique:
+    - "Pine marten of the Kama-Vyatka forests"
+    - "Capercaillie (western capercaillie) in the mixed conifer woodland"
+industries:
+  - "Arms and machine building (Izhevsk — Kalashnikov Concern, Izhevsk Mechanical Plant)"
+  - "Oil production (the republic's hydrocarbon fields, including large jointly-operated deposits)"
+  - "Agriculture — grain, potatoes and food processing"
+  - "Timber and woodworking"
+  - "Small-arms and defence-adjacent engineering, and civilian goods"
+sports:
+  - "Biathlon and shooting sports (a natural extension of the arms tradition)"
+  - "Ice hockey"
+  - "Association football (Izhevsk-based clubs)"
+  - "Cross-country skiing"
+religions: []
+entertainment:
+  - season: allYear
+    items:
+      - "Izhevsk museums (Museum of the Kalashnikov, the Udmurt Republican Museum)"
+      - "The Ludorvai open-air museum of traditional Udmurt life"
+  - season: summer
+    items:
+      - "City Day of Izhevsk and Udmurt Republic Day (4 November, on the founding anniversary), with summer river and lake recreation around Izhevsk"
+      - "Folk festivals and amateur sports in the Kama-Vyatka countryside"
+  - season: winter
+    items:
+      - "Biathlon and cross-country skiing, and winter sports facilities around Izhevsk"
+  - season: spring
+    items:
+      - "Votkinsk's Tchaikovsky festival (held at the composer's house-museum near his birthday)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Perepechi (перепечи) — small Udmurt savoury tarts with a meat, mushroom or vegetable filling bonded with egg"
+      - "Pelmeni — dumplings that take their name from the Udmurt/Permian tradition ('pӧl'n'an' literally 'bread ear')"
+      - "Udmurt honey and forest-berry drinks"
+      - "Kvas and fermented drinks"
+  - season: winter
+    items:
+      - "Hearty meat broths and baked pies"
+  - season: summer
+    items:
+      - "Fresh berries, mushrooms and vegetables from the countryside"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern Russian everyday dress"
+  - season: winter
+    items:
+      - "Warm layered winter wear"
+  - season: spring
+    items:
+      - "Udmurt traditional costume (embroidered linen shirt, woven belts and beads) worn at folk festivals and ceremonies"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "09:00-18:00 Mon-Fri (Samara time, UTC+4 — one hour ahead of Moscow); a ~1-hour lunch break around 13:00-14:00 is standard."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "Extended federal New Year and Orthodox Christmas holidays — near-total shutdown."
+    - period: "4 November"
+      description: "National Unity Day — which also coincides with the founding anniversary of Udmurt autonomy (4 November 1920)."
+  notes: "Udmurtia is one of the European-Russia regions on Samara time (UTC+4), so business opening/closing times run one hour ahead of Moscow-based schedules."
+sources:
+  - id: iso-udm
+    name: "ISO 639-3 entry: udm — Udmurt"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/udm"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies udm = Udmurt, Individual, Living. Basis for the name.local udm entry."
+  - id: enwiki-udmurtia
+    name: "Udmurtia (Wikipedia) — republic factsheet"
+    publisher: "Wikipedia (flag secondary; corroborated by the republic's own materials)"
+    url: "https://en.wikipedia.org/wiki/Udmurtia"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Secondary source for the republic's establishment date (4 Nov 1920), the UTC+4/Samara time zone assignment, and Tchaikovsky's Votkinsk birthplace."

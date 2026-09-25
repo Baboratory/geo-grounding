@@ -1,0 +1,146 @@
+code: RU-ME
+name:
+  eng: Mari El Republic
+  local:
+    - languageCode: mhr
+      value: Марий Эл Республик
+    - languageCode: mrj
+      value: Марий Эл Республик
+    - languageCode: rus
+      value: Республика Марий Эл
+climates:
+  - koppenCode: Dfb
+    description: "Warm-summer humid continental, the dominant class — moderate continental climate with warm summers and cold snowy winters on the eastern East European Plain."
+landmarks:
+  - name: Yoshkar-Ola
+    description: "Capital of the republic, rebuilt since the 2000s with a distinctive ensemble of coloured 'European-style' towers, arches and embankments along the Malaya Kokshaga river."
+  - name: Mari Chodra National Park
+    description: "A protected lowland national park in the south of the republic, combining pine forests, lakes and springs, popular for eco-tourism."
+  - name: Sheremetev Castle
+    description: "A large neo-Gothic baronial estate of the Sheremetev family at Yurino, on the Volga, one of the largest such estates in the region."
+  - name: The Volga River
+    description: "The republic lies astride the middle Volga; Summer on the Volga shapes much of its landscape, commerce and recreation."
+  - name: National Museum of the Republic of Mari El
+    description: "The principal ethnographic and history museum of the republic (T. Yevsevyev), holding collections on Mari culture and the region's history."
+culturalTraits:
+  - "The Mari are a Finno-Ugric people; Mari has two literary standards — Eastern/Meadow (mhr) and Western/Hill (mrj) — both co-official with Russian."
+  - "The Mari native (ethnic) religion, with prayer groves and rituals, is one of the largest surviving indigenous religion traditions in Europe."
+  - "Mari El is a lowland republic on the middle Volga, its western part dominated by the swampy Mari Depression."
+  - "The republic's name means 'Mari land' (Mari + el 'land'), reflecting the indigenous Mari self-designation."
+prideOf:
+  - "The Mari native religion and its sacred groves — 'Europe's last pagans'."
+  - "The Finno-Ugric Mari language and culture."
+  - "The Sheremetev castle and Volga heritage."
+  - "Mari Chodra's unspoiled pine forests and lakes."
+animals:
+  popular:
+    - Brown bear
+    - Moose (European elk)
+    - European beaver
+    - Eurasian otter
+  unique:
+    - "Black stork (a rare floodplain breeder on the Volga side of the republic)"
+    - "Capercaillie (western capercaillie) in the conifer forests"
+industries:
+  - "Agriculture — grain, potatoes and vegetables on the Volga plain"
+  - "Food processing"
+  - "Timber and woodworking"
+  - "Machine building and light manufacturing (Yoshkar-Ola)"
+  - "Tourism (volga resorts, eco-tourism, Sheremetev castle)"
+sports:
+  - "Sambo and freestyle wrestling (a strong regional tradition)"
+  - "Association football"
+  - "Volleyball"
+  - "Tennis"
+religions:
+  - name: Russian Orthodox Christianity
+    percent: 47.8
+    sourceId: arena2012
+  - name: Mari native (ethnic) religion
+    percent: 6.0
+    sourceId: arena2012
+  - name: Islam
+    percent: 6.0
+    sourceId: arena2012
+entertainment:
+  - season: allYear
+    items:
+      - "Museums and theatres of Yoshkar-Ola (National Museum, Mari national theatre)"
+      - "Eco- and lake tours in Mari Chodra"
+  - season: summer
+    items:
+      - "Volga river cruises and beach recreation"
+      - "Sheremetev-castle (Yurino) and ethnographic events"
+      - "Mari prayer-grove ceremonies and folk festivals in rural districts"
+  - season: winter
+    items:
+      - "Skiing and winter forest walks"
+      - "Winter fairs"
+  - season: spring
+    items:
+      - "Easter and spring folk celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Podkogol (подкоголь) — Mari dough pockets with meat filling"
+      - "Mari porridge (a thick cereal dish, sometimes with mushrooms)"
+      - "Mushroom and forest-herb dishes of the taiga edge"
+      - "Kvas and berry drinks"
+  - season: winter
+    items:
+      - "Hearty meat broths and dumplings"
+  - season: summer
+    items:
+      - "Fresh vegetables, berries and Volga fish"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern Russian everyday dress"
+  - season: winter
+    items:
+      - "Warm layered winter wear"
+  - season: spring
+    items:
+      - "Mari traditional costume (embroidered shirts and belts) worn at prayer-grove ceremonies, weddings and festivals"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "09:00-18:00 Mon-Fri (Moscow time, UTC+3); a ~1-hour lunch break around 13:00-14:00 is standard."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "Extended federal New Year and Orthodox Christmas holidays — near-total shutdown."
+    - period: "Republic Day of Mari El"
+      description: "Regional non-working holiday marking the republic's foundation."
+  notes: "Orthodox plurality (like Russia at large) with a significant Mari native-religion minority — coverage trigger 2 does not fire here."
+sources:
+  - id: iso-mhr
+    name: "ISO 639-3 entry: mhr — Eastern Mari"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/mhr"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies mhr = Eastern Mari (the Meadow/Eastern literary standard), Individual, Living, a member of the macrolanguage chm 'Mari (Russia)'. Basis for the name.local mhr entry."
+  - id: iso-mrj
+    name: "ISO 639-3 entry: mrj — Western Mari (listing in the SIL 'Mari (Russia)' macrolanguage table)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/mhr"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Confirms mrj = Western Mari (the Hill/Western literary standard) as the second individual language of the chm macrolanguage, as listed on SIL's Eastern-Mari page. Basis for the name.local mrj entry."
+  - id: arena2012
+    name: "ARENA Atlas: Religion in the federal subjects of Russia (2012 survey by the Sreda research service with the Public Opinion Foundation)"
+    publisher: "Sreda (non-profit research service), with the Public Opinion Foundation"
+    url: "https://sreda.org/en/opros/arena-reliz"
+    year: 2012
+    accessedDate: "2026-09-24"
+    note: "2012 survey religious-affiliation shares for Mari El: Russian Orthodoxy 47.8%, Mari native religion reported 6-15% (taken as 6.0%), Islam ~6%. Basis for the religions rows."

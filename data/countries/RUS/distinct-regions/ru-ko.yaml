@@ -1,0 +1,138 @@
+code: RU-KO
+name:
+  eng: Komi Republic
+  local:
+    - languageCode: kpv
+      value: Коми Республика
+    - languageCode: rus
+      value: Республика Коми
+climates:
+  - koppenCode: Dfc
+    description: "Subarctic / cold taiga, dominant across most of the republic — long, severe winters, short cool summers, permafrost in the far north."
+  - koppenCode: Dfb
+    description: "Warm-summer humid continental — the south of the republic around the Vychegda valley."
+landmarks:
+  - name: Virgin Komi Forests
+    description: "The largest remaining virgin forest tract in Europe, spanning the Pechora and Mezen basins; inscribed as a UNESCO World Heritage Site in 1995."
+    unescoWorldHeritage: true
+  - name: Yugyd Va National Park
+    description: "The largest national park in European Russia ('Bright Water'), lying across the Polar and Northern Urals in the north-east of the republic; core of the Virgin Komi Forests World Heritage property."
+    unescoWorldHeritage: true
+  - name: Manpupuner rock formations
+    description: "Seven weathered stone pillars ('the 7 Strong Men') on a high plateau of the Northern Urals in the Pechora basin, voted one of the Seven Wonders of Russia."
+  - name: Syktyvkar
+    description: "Capital of the republic on the Sysola near its confluence with the Vychegda; the cultural and administrative heart of the Komi."
+  - name: Ust-Vym
+    description: "Historic village at the Vychegda confluence where St Stephen of Perm (14th century) first spread Christianity among the Komi and founded the Perm diocese in 1383."
+  - name: Vorkuta
+    description: "Arctic coal-mining city beyond the Arctic Circle on the Vorkuta river, one of Russia's northernmost cities and centre of the Vorkuta-Pechora coal basin."
+culturalTraits:
+  - "The Komi are a Finno-Ugric people; Komi (the Zyrian literary standard) is a co-official state language of the republic alongside Russian under its Constitution."
+  - "Komi is the second-largest federal subject of European Russia by area, a vast, sparsely settled taiga republic."
+  - "The Virgin Komi Forests constitute Europe's last large tract of intact virgin boreal forest, part of the UNESCO World Heritage list since 1995."
+  - "A strong Old Believer (Russian Old-Rite) community has persisted on the Mezen and in Ust-Tsilemsky district since the 17th-century schism."
+  - "In the extreme north (the Izhemsky area) Komi-Izhemtsy combine taiga farming with reindeer herding and fishing — a distinctive subculture of the Komi."
+  - "Like the rest of inland northern Russia, the republic is Orthodox-majority; no alternate religious plurality exists (coverage trigger 2 does not fire)."
+prideOf:
+  - "The Virgin Komi Forests, Europe's last great wild taiga, and the UNESCO listing."
+  - "The Manpupuner pillars, one of the 'Seven Wonders of Russia'."
+  - "The survival of the Komi language and Finno-Ugric culture."
+  - "Arctic endurance and the heritage of cities like Vorkuta built above the coal seam."
+animals:
+  popular:
+    - Reindeer (herded in the north)
+    - Moose (European elk)
+    - Brown bear
+    - Red fox
+  unique:
+    - "Wolverine (a taiga specialist of the Virgin Komi Forests)"
+    - "Capercaillie (western capercaillie, the boreal forest grouse)"
+    - "Inconnu / nelma (a large whitefish of the Pechora and its tributaries)"
+industries:
+  - "Oil and gas production (Ukhta, Usinsk and the Pechora basin fields)"
+  - "Coal mining (Vorkuta and the Pechora coal basin)"
+  - "Timber, woodworking and pulp-and-paper production (Syktyvkar, Ezhva)"
+  - "Bauxite mining in the Timan range, the republic's aluminium-ore base"
+  - "Electric power generation"
+sports:
+  - "Bandy (Russian hockey) — a federation founded in 2015 and a long local following"
+  - "Cross-country skiing"
+  - "Ice hockey"
+  - "Association football"
+religions: []
+entertainment:
+  - season: allYear
+    items:
+      - "Museums and cultural centres of Syktyvkar (National Museum, Komi drama theatre)"
+      - "Eco- and expedition tourism to the Virgin Komi Forests and Urals foothills"
+  - season: summer
+    items:
+      - "Komi Republic Day celebrations (22 August)"
+      - "River cruises and fishing on the Vychegda and Pechora"
+      - "Ethnographic festivals in rural districts"
+  - season: winter
+    items:
+      - "Skiing, snowboarding and winter forest walks"
+      - "Vorkuta and northern-lights tourism in the far north"
+  - season: spring
+    items:
+      - "Birdwatching for returning forest birds in the taiga"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Shanga (шаньга) — an open rye pie topped with potato, cottage cheese or berry"
+      - "Pelmeni (local Permic-style dumplings) with broth"
+      - "Salted and smoked whitefish (nelma, omul) from the northern rivers"
+      - "Komi mushroom dishes — taiga mushroom picking and pickling"
+  - season: winter
+    items:
+      - "Heartier meat and reindeer stews in the northern districts"
+      - "Cloudberry (moroshka) desserts and preserves"
+  - season: summer
+    items:
+      - "Berries from the taiga — lingonberry, bilberry and cloudberry"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern Russian everyday dress"
+  - season: winter
+    items:
+      - "Warm layered and fur-lined winter wear; in the far north, malitsa-style reindeer-fur garments"
+  - season: spring
+    items:
+      - "Traditional Komi woven costume (rubakha shirt and patterned belts) worn at festivals and folklore events"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "09:00-18:00 Mon-Fri (Moscow time, UTC+3); a ~1-hour lunch break around 13:00-14:00 is standard."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "Extended federal New Year and Orthodox Christmas holidays — near-total shutdown."
+    - period: "Komi Republic Day (22 August)"
+      description: "Regional non-working holiday marking the republic's formation."
+  notes: "Across the far north the rhythm slows in the deepest winter months; Vorkuta and the industrial north run on similar office hours to the south."
+sources:
+  - id: iso-kpv
+    name: "ISO 639-3 entry: kpv — Komi-Zyrian"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/kpv"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies kpv = Komi-Zyrian, Individual, Living, a member of the macrolanguage 'kom' (Komi). Basis for the name.local kpv entry."
+  - id: unesco-virgin-komi-forests
+    name: "UNESCO World Heritage: Virgin Komi Forests"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/719/"
+    year: 1995
+    accessedDate: "2026-09-24"
+    note: "Documents inscription of the Virgin Komi Forests, including Yugyd Va National Park, as a UNESCO World Heritage Site in 1995."

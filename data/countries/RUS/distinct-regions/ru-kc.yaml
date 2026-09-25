@@ -1,0 +1,198 @@
+code: RU-KC
+name:
+  eng: Karachay-Cherkess Republic
+  local:
+    - languageCode: krc
+      value: Къарачай-Черкес Республика
+    - languageCode: kbd
+      value: Къэрэшей-Шэрджэс Республикэ
+    - languageCode: rus
+      value: Карачаево-Черкесская Республика
+# A two-titular-nation republic joining the Turkic Karachay and the Adyghe /
+# Circassian (Cherkess) peoples. Its constitution names four regional co-official
+# languages alongside Russian: Karachay-Balkar (krc), Cherkess/Kabardian
+# (kbd), Abaza (abq) and Nogai (nog).
+climates:
+  - koppenCode: Dfb
+    description: "Warm-summer humid continental — dominant across the lowlands, foothills and mid valleys (Cherkessk and the Zelenchuk/Kuban valleys)."
+  - koppenCode: Dfc
+    description: "Subarctic continental cold-summer variants in the high Caucasus — the alpine/sub-alpine belts of the Dombay, Arkhyz and Teberda valleys."
+  - koppenCode: ET
+    description: "Glacial nival / tundra at the summits — permafrost and glacier climate on the Greater Caucasus crest toward Mount Elbrus."
+landmarks:
+  - name: Cherkessk
+    description: "Capital city founded 1825 as the stanitsa Batalpashinskaya; renamed 1939, the republic's largest city on the Zelenchuk/Kuban plain."
+  - name: Mount Elbrus region
+    description: "Europe's highest summit (5,642 m) rises on the republic's eastern border (shared with Kabardino-Balkaria); panoramic views from the Bermamyt Plateau."
+  - name: Dombay ski and trekking resort
+    description: "The republic's flagship resort in the Teberda valley: cable cars to ~3,168 m, skiing in winter, treks and alpine huts in summer, with the Teberda reserve adjacent."
+  - name: Arkhyz
+    description: "An alpine resort village and ski valley in the Bolshoy Zelenchuk valley, set amid the Sofia-range lakes and waterfalls."
+  - name: Teberda National Park / Biosphere Reserve
+    description: "A UNESCO Man & Biosphere reserve (1997) on the northern slopes of the Greater Caucasus, hosting tur, chamois, leopard and reintroduced wisent."
+  - name: Nizhnearkhyz archaeological site and Special Astrophysical Observatory
+    description: "Ruins of the medieval capital of Alania with three early-medieval churches, near Zelenchukskaya where the SAO RAS runs the BTA-6 telescope (one of the world's largest)."
+culturalTraits:
+  - "Dual titular identity — the republic unites the Turkic Karachay and the Cherkess/Circassian (Adyghe) people"
+  - "Sunni Islam as the binding faith of both titular peoples (Hanafi madhhab), Islamised from the 17th century under Ottoman and Crimean influence, with historic Sufi (tariqa) currents"
+  - "Adyghe Khabze — the Circassian customary code of honour, hospitality and etiquette"
+  - "Karachay pastoral identity — transhumant sheep and goat herding between alpine summer pastures and winter valleys, with clan (tukhum) organisation and equestrian culture"
+  - "Mountaineering and alpine culture at the foot of Elbrus; Dombay and Arkhyz are historic bases of the Russian and Soviet climbing school"
+  - "Memory of Soviet-era deportations and rehabilitation — the Karachay were deported in 1943-44 and returned in 1957 (Day of Revival, 3 May)"
+  - "National dress and crafts: the papakha sheepskin hat, burka felt cloak and Circassian coat"
+prideOf:
+  - "Mount Elbrus — Europe's highest summit"
+  - "Dombay and Arkhyz, the premier mountain tourist and ski resorts of the North Caucasus"
+  - "The Special Astrophysical Observatory at Zelenchukskaya, with the BTA-6 telescope"
+  - "The Nizhnearkhyz site — the medieval capital of Alania with some of the oldest church architecture in Russia"
+  - "The dual Karachay-Circassian heritage and the constitutional recognition of five co-official languages"
+  - "A living mountain folk tradition: khychin and shashlik hospitality, the Nart epic and Adyghe etiquette"
+animals:
+  popular:
+    - "West Caucasian tur (mountain goat)"
+    - "Chamois"
+    - "Mouflon (wild sheep)"
+    - "Brown bear"
+  unique:
+    - "West Caucasian tur (Capra caucasica) — IUCN Endangered, present in the Teberda reserve"
+    - "Caucasian (Persian) leopard — a rare highland predator of the Greater Caucasus"
+    - "Reintroduced Caucasian wisent (European bison) at the Teberda reserve"
+industries:
+  - "Tourism and mountain resorts (Dombay, Arkhyz, Teberda)"
+  - "Hydroelectric power — the Zelenchuk pumped-storage plant and small HPPs"
+  - "Agriculture and livestock — sheep and cattle with transhumant highland grazing; grain and horticulture in the Kuban/Zelenchuk valleys"
+  - "Mining and minerals — copper/tungsten ore processing, gypsum, cement, and ornamental stone (incl. selenite)"
+sports:
+  - "Freestyle and Greco-Roman wrestling — a strong North-Caucasus wrestling school"
+  - "Mountaineering / alpinism — a historic and current base of Russian mountaineering"
+  - "Skiing and snowboarding at Dombay and Arkhyz; rafting and paragliding in season"
+religions:
+  - name: Sunni Islam (Hanafi, with Sufi tariqa traditions)
+    percent: 64.0
+    sourceId: arena-2012
+  - name: Russian Orthodox Christianity
+    percent: 13.2
+    sourceId: arena-2012
+  - name: Circassian / Karachay native ('pagan') tradition
+    percent: 2.0
+    sourceId: arena-2012
+  - name: Spiritual but not religious
+    percent: 10.0
+    sourceId: arena-2012
+  - name: Atheism / irreligion
+    percent: 3.0
+    sourceId: arena-2012
+  - name: Other Christian
+    percent: 1.8
+    sourceId: arena-2012
+  - name: Other / undeclared
+    percent: 6.0
+    sourceId: arena-2012
+# Plurality confirmed: the 2012 Arena (Sreda) survey puts Islam at ~64% (clear
+# majority), roughly matching the combined Karachay + Cherkess + Abazin +
+# Nogai ethnic share. Orthodox Christianity is a minority centred on the
+# ethnic Russian population.
+entertainment:
+  - season: summer
+    items:
+      - "Dombay and Arkhyz trekking, alpine huts and waterfalls (Shumka, Alibek, Sofia)"
+      - "Mount Elbrus and Bermamyt Plateau excursions"
+      - "Karachay and Circassian folk festivals, dance and the Nart epic"
+  - season: winter
+    items:
+      - "Skiing and snowboarding at Dombay and Arkhyz"
+      - "New Year holiday season"
+  - season: spring
+    items:
+      - "Eid al-Fitr (Uraza Bayram) celebrations and spring fairs"
+  - season: autumn
+    items:
+      - "Republic Day and Day of Revival of the Karachay People (3 May) observances"
+      - "Late-season highland walks"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Khychiny — thin stuffed flatbreads, the signature pastry of the North Caucasus"
+      - "Shashlik — grilled skewered meat, with lamb and mountain trout at resorts"
+      - "Lakum — fried dough cakes, a festival speciality"
+      - "Haliva — toasted millet/four-honey holiday sweet"
+      - "Jedz (dzed) — the Circassian chicken-with-garlic-walnut-sauce dish"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern European dress; traditional forms (papakha hat, burka felt cloak, Circassian coat) at festivals"
+  - season: winter
+    items:
+      - "Warm layered mountain winter wear"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:00-18:00 Mon-Fri (Moscow time, UTC+3)."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "New Year and Orthodox Christmas holidays — near-total shutdown, as across Russia."
+    - period: "Day of Revival of the Karachay People (3 May)"
+      description: "Anniversary of the 1957 return from Central-Asian exile; a major regional observance."
+    - period: "Uraza Bayram (Eid al-Fitr) and Kurban Bayram (Eid al-Adha), lunar"
+      description: "Islamic holidays observed as non-working days in this Muslim-majority republic."
+  notes: "Sunday is the standard rest day. The republic observes Russian federal holidays plus its own (Day of Revival, Republic Day and the Muslim holidays)."
+sources:
+  - id: arena-2012
+    name: "ARENA Atlas: Religion in the federal subjects of Russia (Sreda / Public Opinion Foundation survey)"
+    publisher: "Sreda (non-profit research service)"
+    url: "https://sreda.org/en/opros/arena-reliz"
+    year: 2012
+    accessedDate: "2026-09-24"
+    note: "Islam plurality in Karachay-Cherkessia ~64%, Russian Orthodoxy 13.2%, Circassian/Karachay native tradition ~2%, spiritual-but-not-religious 10%, irreligion 3%, other. Basis for the religions rows and the trigger-2 finding."
+  - id: iso-krc
+    name: "ISO 639-3 entry: krc — Karachay-Balkar"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/krc"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies krc = Karachay-Balkar, Individual, Living. Basis for the name.local krc entry and Karachay's co-official status."
+  - id: iso-kbd
+    name: "ISO 639-3 entry: kbd — Kabardian (Cherkess)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/kbd"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies kbd = Kabardian, used for the Cherkess/Circassian co-official language of the republic."
+  - id: iso-abq
+    name: "ISO 639-3 entry: abq — Abaza"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/abq"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies abq = Abaza, one of the republic's co-official languages (~8% Abazins)."
+  - id: iso-nog
+    name: "ISO 639-3 entry: nog — Nogai"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/nog"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies nog = Nogai, the fourth regional co-official language (~3.7% Nogais)."
+  - id: unesco-mab-teberda
+    name: "Teberda Biosphere Reserve"
+    publisher: "UNESCO Man and the Biosphere Programme"
+    url: "https://www.unesco.org/en/mab/teberda"
+    year: 1997
+    accessedDate: "2026-09-24"
+    note: "Nomination 1997; 112,606 ha; West Caucasian goat, chamois, leopard, reintroduced wisent; over 100 glaciers."
+  - id: newdosh-revival
+    name: "Karachay-Cherkessia celebrated the Day of Revival of the Karachay People"
+    publisher: "NewDosh media (regional news)"
+    url: "https://newdosh.media/en/news/v-karacaevo-cerkesii-otmetili-den-vozrozdenia-karacaevskogo-naroda"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Confirms the 3 May Day of Revival of the Karachay People (1957 return from exile), used in businessRhythm.notableShutdownPeriods."

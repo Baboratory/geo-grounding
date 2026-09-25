@@ -1,0 +1,180 @@
+code: RU-AL
+name:
+  eng: Altai Republic
+  local:
+    - languageCode: alt
+      value: Алтай Республика
+    - languageCode: rus
+      value: Республика Алтай
+climates:
+  - koppenCode: Dfb
+    description: "Humid continental — warm short summers and long, cold winters in the lower river valleys around Gorno-Altaysk."
+  - koppenCode: Dfc
+    description: "Subarctic / taiga climate across most of the high ranges and the northern mountains, with long severe winters and brief cool summers."
+  - koppenCode: BSk
+    description: "Cold semi-arid steppe in the southeast, notably the Chuya steppe and the border area towards Mongolia."
+landmarks:
+  - name: Mount Belukha
+    description: "At 4,506 m the highest peak of the Altai mountains and of Siberia, a sacred site and part of the Golden Mountains of Altai UNESCO World Heritage property."
+    unescoWorldHeritage: true
+  - name: Golden Mountains of Altai (World Heritage)
+    description: "A UNESCO natural World Heritage property (inscribed 1998) covering the Altai and Katun reserves, Lake Teletskoye and adjoining high-wilderness zones of the Altai Republic."
+    unescoWorldHeritage: true
+  - name: Lake Teletskoye
+    description: "The deepest lake of Siberia (up to ~325 m), set in a forested valley within the Altai Reserve, part of the Golden Mountains World Heritage property."
+    unescoWorldHeritage: true
+  - name: Ukok Plateau
+    description: "A remote high plateau (c. 2,200-2,500 m) on the borders with China, Mongolia and Kazakhstan, famed for the 'Altai Princess' — a Pazyryk-era mummy from a frozen burial kurgan discovered in 1993; located within the Golden Mountains World Heritage area."
+  - name: Chuya Tract (Chuysky Trakt)
+    description: "The historic highway running south from Biysk through Gorno-Altaysk and along the Chuya valley toward Mongolia, a famed scenic route through the mountains."
+  - name: Akkem Lakes and Belukha foothills
+    description: "Glacial lakes below the northern wall of Mount Belukha, the main base for climbing expeditions."
+  - name: Gorno-Altaysk
+    description: "Capital and largest town of the republic, set in the northern highlands."
+culturalTraits:
+  - "A republic of the Altaians (Altaian and related Turkic peoples), who are roughly a third of the population alongside ethnic Russians"
+  - "Altai is a co-official state language with Russian; literary Altai is based on the Southern Altai dialect"
+  - "Shamanic/Tengrist and Burkhanist native-faith traditions remain a real and distinctive part of Altai identity — a notable ~13% hold native or ethnic religious views, an unusual share for Russia"
+  - "A deep nomadic pastoral heritage — yaks, horses, herding and mountain transhumance still shape the countryside"
+  - "Kai throat-singing, the khomuz (jaw harp) and home-spun felt craft are hallmarks of Altai culture"
+prideOf:
+  - "Mount Belukha and the wild Altai highlands, regarded in local belief as a sacred 'centre of the universe'"
+  - "The UNESCO-recognized Golden Mountains wilderness"
+  - "Native Altai language and the revival of shamanic/Burkhanist heritage"
+  - "Altaian epic poetry, throat-singing and the pastoral way of life"
+animals:
+  popular:
+    - "Siberian ibex"
+    - "Golden eagle"
+    - "Marmot"
+    - "Brown bear"
+  unique:
+    - "Snow leopard (irbis) — flagship predator of the Altai highlands"
+    - "Altai argali (mountain sheep, Ovis ammon ammon)"
+    - "Altai pika"
+industries:
+  - "Tourism and ecotourism — Mount Belukha, Lake Teletskoye and the Chuya valley"
+  - "Livestock herding and pastoral farming (cattle, sheep, horses, yaks)"
+  - "Agriculture and food processing in the river valleys"
+  - "Timber and forest products"
+  - "Small-scale mining (gold, marble) and construction materials"
+sports:
+  - "Wrestling (both freestyle and Altai national forms)"
+  - "Horse racing and equestrian sports"
+  - "Mountaineering and alpine trekking"
+  - "Football"
+religions:
+  - name: Russian Orthodox Christianity
+    percent: 27.6
+    sourceId: arena-2012
+  - name: Native faiths — Tengrism, Burkhanism, Rodnovery
+    percent: 13.0
+    sourceId: arena-2012
+  - name: Islam (Sunni, chiefly among Kazakhs)
+    percent: 6.2
+    sourceId: arena-2012
+  - name: Other Christian
+    percent: 3.0
+    sourceId: arena-2012
+  - name: Hinduism-derived (incl. Krishnaite) movements
+    percent: 2.0
+    sourceId: arena-2012
+  - name: Old Believers
+    percent: 1.2
+    sourceId: arena-2012
+  - name: Protestantism
+    percent: 1.0
+    sourceId: arena-2012
+  - name: Spiritual but not religious
+    percent: 24.6
+    sourceId: arena-2012
+  - name: Atheism / irreligion
+    percent: 14.4
+    sourceId: arena-2012
+  - name: Other / undeclared
+    percent: 7.4
+    sourceId: arena-2012
+# Plurality confirmed honest: the 2012 Arena (Sreda) survey puts Russian
+# Orthodoxy at 27.6% — the largest single identification — with a substantial
+# spiritual-but-not-religious group (24.6%) and a notable native-faith body
+# (13.0%). There is NO Buddhist plurality in Altai; Buddhism has had historical
+# influence but the survey shows no present-day Buddhist plurality. Triggers
+# used: trigger 1 (Altai state language) and trigger 5 (BSk Chuya steppe differs
+# from the country's dominant Dfb/Dfc classes).
+entertainment:
+  - season: summer
+    items:
+      - "Trekking and camping in the Altai highlands — Mount Belukha and Lake Teletskoye"
+      - "The Kamik (El Oyin-style) throat-singing and folklore festival"
+  - season: winter
+    items:
+      - "Skiing and winter sports; the area near Manzherok has small ski facilities"
+      - "New Year holiday season"
+  - season: spring
+    items:
+      - "Spring herding festival and traditional Altai New Year celebrations"
+  - season: autumn
+    items:
+      - "El Oyin international Altai festival (held in even-numbered years, late summer/autumn)"
+      - "Late-season mountain walks and horse treks before the snows"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Momy / boorso — fried dough pastries, a staple with tea"
+      - "Dairy fare from cow, mare and yak milk — including kurut (dried sour-milk balls) and aragy (milk-based drink)"
+      - "Lamb shashlik and meat cooked on hot stones"
+      - "Pine nuts from Siberian stone pine, gathered in the taiga"
+  - season: winter
+    items:
+      - "Hearty mutton and noodle soups as warming winter fare"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern dress; traditional felt, sheepskin and leather garments appear at festivals and ceremonies"
+  - season: winter
+    items:
+      - "Sheepskin coats, felt boots and fur hats suited to the severe Altai winter"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:00-18:00 Mon-Fri (Omsk time, UTC+6)."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "New Year and Orthodox Christmas holidays — near-total shutdown, as across Russia."
+    - period: "Day of the Altai Republic (3 July)"
+      description: "Marks the republic's establishment; the main regional public holiday, celebrated in Gorno-Altaysk."
+    - period: "El Oyin festival year (late summer/autumn)"
+      description: "A major international Altaian festival that draws business and leisure closures in Gorno-Altaysk and the Chuya valley."
+  notes: "Sunday is the standard rest day. The republic observes Russian federal holidays plus its own (Day of the Altai Republic); note the UTC+6 time zone (Omsk time), one hour ahead of Moscow."
+sources:
+  - id: arena-2012
+    name: "ARENA Atlas: Religion in the federal subjects of Russia (Sreda / Public Opinion Foundation survey)"
+    publisher: "Sreda (non-profit research service)"
+    url: "https://sreda.org/en/opros/arena-reliz"
+    year: 2012
+    accessedDate: "2026-09-24"
+    note: "Russian Orthodoxy plurality in the Altai Republic 27.6%; native faiths (Tengrism/Burkhanism/Rodnovery) 13.0%; Islam 6.2%; other Christian 3.0%; Hinduism-derived 2.0%; Old Believers 1.2%; Protestant 1.0%; spiritual-but-not-religious 24.6%; atheist 14.4%; other/undeclared 7.4%. Basis for the religions rows."
+  - id: iso-alt
+    name: "ISO 639-3 entry: alt — Southern Altai"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/alt"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies alt = Southern Altai, Individual, Living; the basis of literary Altai. Basis for the name.local alt entry."
+  - id: whc-golden-mountains
+    name: "Golden Mountains of Altai — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/768/"
+    year: 1998
+    accessedDate: "2026-09-24"
+    note: "Confirms the Golden Mountains of Altai World Heritage property covers the Altai Reserve, Katun Reserve, Lake Teletskoye, Belukha and the Ukok plateau; basis for the Belukha/Teletskoye/Ukok landmarks."

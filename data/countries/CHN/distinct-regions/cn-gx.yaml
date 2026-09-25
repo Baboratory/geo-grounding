@@ -1,0 +1,110 @@
+code: CN-GX
+name:
+  eng: Guangxi Zhuang Autonomous Region
+  local:
+    - languageCode: zha
+      value: Gvangjsih Bouxcuengh Swcigih
+    - languageCode: zho
+      value: 广西壮族自治区 (Guǎngxī Zhuàngzú Zìzhìqū)
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical monsoon climate with hot, rainy summers and mild winters, broadly the same class (Cfa) as the neighbouring curated Guangdong region — so Guangxi fires the coverage floor on trigger 1 only, not on climate."
+landmarks:
+  - name: Li River and Guilin karst
+    description: "The celebrated 80 km karst landscape of the Li River between Guilin and Yangshuo — limestone 'tower-karst' pinnacles rising out of river plains, part of the South China Karst area recognised by UNESCO and famously depicted on the ¥20 banknote."
+    unescoWorldHeritage: true
+  - name: Reed Flute Cave (Ludi Yan)
+    description: "A karst cavern in Guilin with illuminated stalactite and stalagmite galleries long open to visitors (its name honours the flute reeds found near the entrance)."
+  - name: Elephant Trunk Hill
+    description: "Guilin's most recognisable landmark — a karst peak whose arch is shaped like an elephant drinking from the Li River; designated a UNESCO Global Geopark area."
+  - name: Longji (Dragon's Backbone) Rice Terraces
+    description: "Centuries-old terraced rice paddies carved into the hillsides near Longsheng by Zhuang and Yao farmers, presenting the 'dragon-scale' landscape of a UNESCO-listed geopark; best seen flooded in spring and at the autumn harvest."
+  - name: Yangshuo countryside
+    description: "The small town and rural karst landscape below Guilin, a base for cycling, bamboo-rafting on the Yulong River and Zhuang/Yao village visits."
+culturalTraits:
+  - "China's Zhuang autonomous region, created in 1958; Zhuang is a co-official language alongside Mandarin under the Law on Regional Ethnic Autonomy — the coverage-floor trigger for this file."
+  - "A Han-majority region (about 62% Han, 31% Zhuang, with Yao, Miao and other groups, 2020 census) that is nonetheless home to China's largest ethnic minority and the world's largest Zhuang population."
+  - "Strong Zhuang and Yao cultural identity — Zhuang women's embroidered dress and silverwork, the Zhuang 'Mo' (ancestral/animist) tradition alongside Buddhism and Taoism, and Yao communities in the karst highlands."
+  - "The karst 'tower' landscape, the rice-terrace farming of the Zhuang and Yao, and a subtropical southern-China identity distinct from the northern and eastern provinces."
+prideOf:
+  - "The Guilin-Li River karst, one of China's most painted and photographed landscapes"
+  - "The cultural wealth of the Zhuang people, China's largest minority"
+  - "The Longji rice terraces and rural Yangshuo countryside"
+  - "Rich coastal and freshwater produce along the Gulf of Tonkin (Beibu Gulf)"
+animals:
+  popular:
+    - Water buffalo (draft animal in the paddy fields)
+    - Gibbons (eastern black-crested and Cao-Vit/Tonkin gibbons of the karst forests)
+  unique:
+    - "White-headed langur (endemic to the Chongzuo limestone-karst forests)"
+    - "Indo-Pacific humpback dolphin (Beibu Gulf coast)"
+    - "Chinese pangolin (karst and forest woodlands)"
+industries:
+  - "Tourism — Guilin and the Li River are a cornerstone of the regional economy"
+  - "Agriculture — rice, sugarcane (Guangxi is among China's top sugarcane producers), tea and subtropical fruit (oranges, kumquats)"
+  - "Mining and smelting — coal, iron and major tin, tungsten, manganese and antimony production"
+  - "Timber and forest products, plus pearl farming (the famed 'Hepu southern pearls')"
+  - "Fishing and aquaculture in the Gulf of Tonkin (Beibu Gulf), one of the world's richest fishing grounds"
+sports:
+  - "Association football and basketball"
+  - "Wushu and traditional martial arts"
+  - "Dragon-boat racing (on the rivers, especially at the Dragon Boat Festival)"
+  - "Rural sports and Zhuang/Yao folk athletic games at festivals"
+entertainment:
+  - season: allYear
+    items:
+      - "Li River cruises, Yangshuo cycling and karst-cave tours (Reed Flute Cave, Seven Star Park)"
+  - season: summer
+    items:
+      - "The Li River's peak season, the Dragon Boat Festival races, and Zhuang/Yao summer festivals"
+  - season: spring
+    items:
+      - "Spring planting at the Longji rice terraces (flooded paddies mirror the sky in May-June)"
+  - season: autumn
+    items:
+      - "The golden rice-harvest season at Longji and clear-weather karst photography"
+  - season: winter
+    items:
+      - "Mild lowland winter and Chinese New Year celebrations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Guilin rice noodles (mifen), a regional breakfast staple"
+      - "Beer fish (simmered in local beer) and stuffed Li River snails"
+      - "Lipu taro-stuffed pork and osmanthus-flavoured rice dumplings"
+  - season: summer
+    items:
+      - "Fresh tropical fruit and cold noodle dishes in the lingering heat"
+  - season: winter
+    items:
+      - "Hearty pork and taro dishes and warm snacks for the short cool season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern urban dress; Zhuang and Yao women's embroidered blouses, pleated skirts and silver jewellery worn on festival days"
+  - season: summer
+    items:
+      - "Light, breathable cotton and sandals for the hot humid summer"
+  - season: winter
+    items:
+      - "Light jackets and wraps for the brief mild winter"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices run 09:00-18:00 Monday-Friday, as across China; Nanning and Guilin follow the national pattern."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
+  notableShutdownPeriods:
+    - period: "Chinese New Year"
+      description: "The national Chinese New Year week is closed across the region."
+    - period: "Dragon Boat Festival"
+      description: "Widely observed in the south with boat races and the broth-and-rice-dumpling (zongzi) traditions."
+  notes: "Sunday is the standard rest day. The region observes national Chinese public holidays."

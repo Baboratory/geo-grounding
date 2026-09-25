@@ -1,0 +1,161 @@
+code: RU-SE
+name:
+  eng: Republic of North Ossetia-Alania
+  local:
+    - languageCode: oss
+      value: Республикæ Цæгат Ирыстон — Алани
+    - languageCode: rus
+      value: Республика Северная Осетия — Алания
+climates:
+  - koppenCode: Dfb
+    description: "Humid continental (warm summer) — the foothill lowlands incl. Vladikavkaz: cold snowy winters, warm summers, moderate year-round precipitation."
+  - koppenCode: Dfc
+    description: "Alpine/subarctic highland — the Greater Caucasus crest reaches c. 5,000m, with alpine meadows, glaciers and year-round cool highlands."
+landmarks:
+  - name: Vladikavkaz
+    description: "The capital, founded as a fortress in 1784 on the Terek; home of the Mukhtarov mosque and St George (Alan) Cathedral."
+  - name: Daryal Gorge
+    description: "The historic pass through the Caucasus wall on the Georgian Military Road."
+  - name: Mount Kazbek
+    description: "A sacred 5,033m stratovolcano on the Georgian border, an ice pyramid central to Ossetian lore."
+  - name: Rekom sanctuary
+    description: "A sacred wooden sanctuary in Tsey (Tsæy) Gorge, one of the three great Ossetian sanctuaries and tied to the Nart epic (its legend links it to God's tears at the death of the hero Batraz)."
+  - name: Tsey Gorge / ski resort
+    description: "An alpine resort and sanctuary valley, with the Tsey glacier and Mt Uilpata (4,646m)."
+culturalTraits:
+  - "The Ossetian Nart epic — a heroic saga closely held by Ossetians as their core literary myth"
+  - "Orthodox Christianity fused with ancestral Ossetian religious practice (Christian names plus folk sanctuaries like Rekom)"
+  - "Alan / Scythian identity — the republic added 'Alania' to its name in 1994; Ossetians are an Eastern-Iranian (Ossetic) island among the Turkic and Nakh-Daghestani peoples of the Caucasus"
+  - "Vladikavkaz as a cultural hub of the Caucasus"
+  - "The Ossetian table rite: three pies on a round table, the shoulder blade for honoured guests, and a threefold toast"
+  - "A strong wrestling culture — the 'Ossetian school' of freestyle wrestling produces a disproportionate number of champions"
+prideOf:
+  - "The Nart epic"
+  - "Alan-Scythian ancestry and the Ossetian (Iranic) language"
+  - "Ossetian freestyle wrestling champions"
+  - "The three-pies table and the Ossetian guest rite"
+  - "Mountaineering heritage (Mt Kazbek) and FC Alania Vladikavkaz, the first non-Moscow club to win the Russian title (1995)"
+animals:
+  popular:
+    - "East Caucasian (Severtsov's) tur"
+    - "Caucasian chamois"
+    - "Brown bear"
+    - "Caucasian black grouse"
+  unique:
+    - "East Caucasian tur (Capra caucasica cylindricornis) — flagship of Alania National Park"
+    - "Bearded vulture / lammergeier (Gypaetus barbatus)"
+    - "Caucasian leopard (rare, being reintroduced to remote gorges)"
+industries:
+  - "Non-ferrous metallurgy (zinc, lead, cadmium) — JSC Electrozinc in Vladikavkaz"
+  - "Mining — Sadon polymetallic (lead-zinc) ores, dolomite and construction materials"
+  - "Hydroelectric power — 8 HPPs on mountain rivers"
+  - "Food processing and agro-industry — grain, corn-starch, canning, dairy, bottled mineral water"
+  - "Machine-building and textiles (Vladikavkaz)"
+sports:
+  - "Freestyle wrestling (the 'Ossetian school') — many Olympic and world champions"
+  - "Football — FC Alania Vladikavkaz, 1995 Russian champions"
+  - "Skiing and snowboarding at Tsey ski resort"
+  - "Mountaineering and trekking (Kazbek, Daryal, Tsey)"
+  - "Horse riding and traditional equestrian games"
+religions:
+  - name: Orthodox Christianity (Russian Orthodox Church + independent Orthodox)
+    percent: 51.0
+    sourceId: sreda-arena-2012
+  - name: Ossetian ethnic / traditional religion (folk 'Uatsdin' revival)
+    percent: 29.0
+    sourceId: sreda-arena-2012
+  - name: Islam (Sunni minority)
+    percent: 15.0
+    sourceId: jamestown-2009
+  - name: Other Christian and nonreligious / unaffiliated
+    percent: 5.0
+    sourceId: sreda-arena-2012
+# Plurality confirmed: the 2012 Arena (Sreda) survey puts Orthodox (ROC 49% +
+# independent 2%) at ~51%, the country's largest share (29%) following the
+# Ossetian ethnic/traditional religion, and a Muslim minority. North Ossetia is
+# the only Orthodox-plurality republic in the Muslim-majority North Caucasus
+# (the Islam figure is an older expert estimate, flagged accordingly).
+entertainment:
+  - season: winter
+    items:
+      - "Skiing and snowboarding at Tsey ski resort"
+      - "Glacier and alpine winter treks"
+  - season: summer
+    items:
+      - "Mountaineering, hiking and glacial treks in the Caucasus"
+      - "Mineral and thermal water resorts (e.g. Karmadon)"
+  - season: spring
+    items:
+      - "Ossetian folk festivals and the revival of spring table rites"
+  - season: autumn
+    items:
+      - "Nart-epic themed festivals and the Ossetian-pie festival around Republic Day"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Ossetian pies (ualibah cheese, kartofjin potato-and-cheese, tsaharajin beet-leaves, fydjin meat) — the national dish, served hot as three pies on the round table"
+      - "Ossetian beer (bon help / bægæny) — a traditional barley and honey-millet beer served at feasts"
+      - "Chess snacks and braided Ossetian cheese"
+  - season: summer
+    items:
+      - "Lamb and beef shashlik (shashlyk) and mountain meat dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern dress broadly shared with the rest of Russia"
+  - season: winter
+    items:
+      - "Warm layering for snowy winters"
+  - season: summer
+    items:
+      - "Light mountain and valley wear"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:00-18:00 Mon-Fri (Moscow time, UTC+3), with a ~1-hour lunch break."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "Jan 1-8"
+      description: "New Year and Orthodox Christmas holidays — near-total shutdown, as across Russia."
+    - period: "Republic Day / City Day of Vladikavkaz (~23-24 September)"
+      description: "Celebrates the republic's sovereignty and the city's founding, with an Ossetian-pie festival."
+  sourceIds:
+    - opalania-republicday
+sources:
+  - id: sreda-arena-2012
+    name: "ARENA Atlas: Religion in the federal subjects of Russia (Sreda / Areopag survey)"
+    publisher: "Sreda (non-profit research service), figures relayed by regional reporting"
+    url: "https://sreda.org/en/opros/arena-reliz"
+    year: 2012
+    accessedDate: "2026-09-22"
+    note: "Per-region figures for North Ossetia: ROC-Orthodox ~49% plus independent Orthodox ~2% (~51% Orthodox), and the country's largest share (29%) following the Ossetian ethnic/traditional religion; other Christian/nonreligious remainder ~5%. Basis for the Orthodox-plurality classification and most religions rows."
+  - id: jamestown-2009
+    name: "The Changing Landscape of Islam in North Ossetia (North Caucasus Weekly)"
+    publisher: "The Jamestown Foundation"
+    url: "https://jamestown.org/the-changing-landscape-of-islam-in-north-ossetia"
+    year: 2009
+    accessedDate: "2026-09-22"
+    note: "Expert estimate that roughly 15% of the republic's population is Muslim (a minority estimate, flagged as such). North Ossetia is the only North-Caucasus republic where Islam is not the plurality."
+  - id: opalania-republicday
+    name: "Day of the City and Day of the Republic of North Ossetia-Alania"
+    publisher: "Public Chamber of the Republic of North Ossetia-Alania"
+    url: "https://opalania.ru/2023/09/24/vladikavkaz239/"
+    year: 2023
+    accessedDate: "2026-09-22"
+    note: "Confirms the late-September Republic Day / City Day of Vladikavkaz observance used in businessRhythm.notableShutdownPeriods."
+  - id: iso-oss
+    name: "ISO 639-3 entry: oss — Ossetian (Iron Ossetic)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/oss"
+    year: 2026
+    accessedDate: "2026-09-22"
+    note: "Verifies oss = Ossetian (Iron Ossetic), Individual, Living, Cyrillic. Basis for the name.local oss entry and Ossetian's co-official status in the republic."

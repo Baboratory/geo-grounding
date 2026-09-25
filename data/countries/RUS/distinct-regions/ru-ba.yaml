@@ -1,0 +1,130 @@
+code: RU-BA
+name:
+  eng: Republic of Bashkortostan
+  local:
+    - languageCode: bak
+      value: Башҡортостан Республикаһы
+    - languageCode: rus
+      value: Республика Башкортостан
+climates:
+  - koppenCode: Dfb
+    description: "Humid continental — long cold snowy winters, warm summers, with submontane variation across the Ural foothills."
+landmarks:
+  - name: Ufa
+    description: "Capital city on the Belaya River and a major oil-refining and cultural centre."
+  - name: Salavat Yulaev Monument
+    description: "Equestrian monument in Ufa to the Bashkir national hero, poet and leader of the 1773-75 uprising."
+  - name: Iremel Mountain
+    description: "The republic's highest peak, in the Southern Urals."
+  - name: Yangan-Tau mountain
+    description: "A naturally heated 'burning mountain' over a natural gas fire."
+  - name: Shulgan-Tash (Kapova) Cave
+    description: "Paleolithic cave art site, on the UNESCO Tentative List."
+  - name: Bashkir State Circus
+    description: "Landmark circus building in Ufa."
+culturalTraits:
+  - "A Turkic Muslim republic in European Russia, rooted in Bashkir steppe and Ural heritage"
+  - "Strong nomadic horsemen heritage of the Bashkir people"
+  - "A distinct Bashkir (Turkic) identity with its own state language co-official with Russian"
+  - "Renowned for Bashkir honey and traditional crafts"
+prideOf:
+  - "Ufa as a major oil-refining and industrial capital"
+  - "Bashkir language, literature and the national poet Salavat Yulaev"
+  - "The Bashkir horse-breeding tradition"
+  - "Shulgan-Tash cave art as an ancient cultural treasure"
+animals:
+  popular:
+    - "Bashkir horse breed"
+    - "Brown bear"
+  unique:
+    - "Saker falcon (a steppe raptor of the region)"
+industries:
+  - "Oil and gas — Ufa is one of Russia's major oil-refining centres"
+  - "Petrochemicals and heavy industry"
+  - "Agriculture — grain, livestock and dairy farming"
+  - "Mining and extraction in the Ural belt"
+sports:
+  - "Kuresh (Bashkir/Turkic belt wrestling)"
+  - "Equestrian sports and horse racing"
+  - "Football (FC Ufa)"
+  - "Hockey"
+religions:
+  - name: Sunni Islam
+    percent: 54.0
+    sourceId: arena-2012
+  - name: Orthodox Christianity
+    percent: 30.0
+    sourceId: arena-2012
+  - name: No religion / other
+    percent: 16.0
+    sourceId: arena-2012
+# Plurality confirmed: the 2012 Arena (Sreda) survey put Muslims in
+# Bashkortostan at ~54% of the population, with Russian Orthodox Christians the
+# largest minority. Islam figures are the plurality-direction share, not a
+# precise census (Russia collects no religion question).
+entertainment:
+  - season: summer
+    items:
+      - "Iremel and Ural mountain hiking and nature tours"
+      - "Shulgan-Tash cave excursions"
+      - "Bashkir national festivals (e.g. the Salavat Yulaev festival of arts)"
+  - season: winter
+    items:
+      - "Winter sports and the New Year holiday season"
+  - season: spring
+    items:
+      - "Eid al-Fitr (Uraza Bayram) celebrations and spring fairs"
+  - season: autumn
+    items:
+      - "Day of the Republic (11 October) festivities in Ufa"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kystyby — filled folded flatbread with mashed potato or millet"
+      - "Bishbarmak — boiled meat with noodles, a nomadic staple"
+      - "Chak-chak — fried-dough pastry in honey, a festive speciality"
+      - "Kazy — horse-meat sausage"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern dress, with traditional Bashkir forms (the kalfak headdress, embroidered dress) at festivals and weddings"
+  - season: winter
+    items:
+      - "Warm layered winter wear"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:00-18:00 Mon-Fri (Moscow time, UTC+3); Ufa's economy is driven by oil refining, petrochemicals and heavy industry."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "New Year and Orthodox Christmas holidays — near-total shutdown, as across Russia."
+    - period: "Day of the Republic (11 October)"
+      description: "Marks the republic's declaration of sovereignty; an official public holiday in Bashkortostan."
+    - period: "Uraza Bayram (Eid al-Fitr) and Kurban Bayram (Eid al-Adha), lunar"
+      description: "As a Muslim-plurality republic these are official public holidays; many Muslim businesses observe fasting hours during Ramadan."
+  notes: "Sunday is the standard rest day. The republic observes Russian federal holidays plus its own (Day of the Republic and the Muslim holidays)."
+sources:
+  - id: arena-2012
+    name: "ARENA Atlas: Religion in the federal subjects of Russia (Sreda / Areopag survey)"
+    publisher: "Sreda (non-profit research service)"
+    url: "https://sreda.org/en/opros/arena-reliz"
+    year: 2012
+    accessedDate: "2026-09-24"
+    note: "Sunni Islam plurality in Bashkortostan ~54%; Russian Orthodox the largest minority. Figures are plurality shares from the 2012 survey, approximate, used for the religions rows."
+  - id: iso-bak
+    name: "ISO 639-3 entry: bak — Bashkir"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/bak"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies bak = Bashkir, Individual, Living, Cyrillic. Basis for the name.local bak entry."
