@@ -1,0 +1,108 @@
+code: CN-NM
+name:
+  eng: Inner Mongolia Autonomous Region
+  local:
+    - languageCode: mvf
+      value: ᠥᠪᠦᠷ ᠮᠣᠩᠭᠣᠯ (Öbür Monggol)
+    - languageCode: zho
+      value: 内蒙古自治区 (Nèi Měnggǔ Zìzhìqū)
+climates:
+  - koppenCode: BSk
+    description: "Cold semi-arid steppe climate across the core of the region — long, severe winters and warm, dry summers with most rain falling in July-August; the Gobi fringe in the west is drier (BWk) and the far northeast around Hulunbuir/Great Khingan is subarctic (Dwc). This is outside every Köppen class the four previously curated CHN regions cover."
+landmarks:
+  - name: Site of Xanadu (Shangdu)
+    description: "Kublai Khan's summer capital of the Yuan dynasty, a walled city on the Shandian River in Zhenglan Banner (Xilingol); a UNESCO World Heritage Site and the subject of Coleridge's famous fragment 'Kubla Khan'."
+    unescoWorldHeritage: true
+  - name: Mausoleum of Genghis Khan
+    description: "A major shrine (cenotaph — the Khan's real grave was kept secret) on the Gandeli grassland of Ejin Horo Banner, Ordos; the centre of living Genghis Khan worship in Mongolian shamanic tradition and a key national tourist site."
+  - name: Hulunbuir Grassland
+    description: "China's most abundant and best-known steppe grassland, in the far northeast around Hulunbuir, famed for its herds, yurts and open landscapes along the Morigele and Ergun rivers."
+  - name: Badain Jaran Desert
+    description: "A vast dune-and-salt-lake desert on the Alxa Plateau in western Inner Mongolia, among the world's tallest sand-dune fields, set against the northern Gobi."
+  - name: Wudangzhao Monastery
+    description: "A large Tibetan Buddhist monastery near Baotou, the best-preserved example of monastic architecture in Inner Mongolia and a centre of Mongolian Gelug-pa Buddhism."
+culturalTraits:
+  - "China's largest autonomous region, created in 1947; Mongolian (written in the traditional script) is a co-official language alongside Mandarin under the Law on Regional Ethnic Autonomy — the coverage-floor trigger for this file."
+  - "A Han-majority territory (about 78.7% Han, 17.7% Mongol per the 2020 census) yet home to the world's largest Mongol population — more Mongols than in independent Mongolia."
+  - "Mongolian traditional culture is strong: the vertical-script, the Naadam 'three games of men', long songs and Genghis Khan worship rooted in Mongolian shamanism, with Tibetan Buddhism as the Mongol tradition's main faith."
+  - "Distinct from the rest of China in its steppe pastoralism, yurt (ger) dwelling culture and the political-administrative legacy of the Mongol-era leagues and banners."
+prideOf:
+  - "The heritage of Genghis Khan and the Mongol Empire, centred on the Mausoleum near Ordos"
+  - "The vast steppe grasslands of Hulunbuir and the desert landscapes of the Gobi and Badain Jaran"
+  - "An unbroken tradition of Mongolian language (traditional script), Naadam and equestrian culture"
+  - "Immense mineral wealth — the Bayan Obo rare-earth deposit and the Ordos coalfield"
+animals:
+  popular:
+    - Mongolian horse
+    - Bactrian camel
+    - Mongolian gazelle
+  unique:
+    - "Pallas's cat (steppe and desert fringes)"
+    - "Mongolian marmot (steppe colonies)"
+industries:
+  - "Livestock herding on China's largest grasslands, plus a major dairy sector"
+  - "Coal mining — the Ordos region holds roughly one-sixth of China's proven coal reserves"
+  - "Rare earths and steel — the Bayan Obo mine about 150 km north of Baotou is the world's largest rare-earth deposit, making Baotou 'the rare-earth capital of the world'"
+  - "Agriculture — wheat, maize and the irrigated Hetao plain along the Yellow River"
+  - "Tourism (grasslands, Naadam, the Gobi/Badain Jaran desert)"
+sports:
+  - "Mongolian wrestling (bokh)"
+  - "Horse racing (long cross-country events)"
+  - "Archery"
+  - "Equestrian sports and horse culture generally"
+entertainment:
+  - season: summer
+    items:
+      - "Naadam, the traditional 'three games of men' festival (wrestling, horse racing, archery), held across the region in July-August, most famously in Hohhot and the banner capitals"
+      - "Grassland tourism and horse-riding on the Hulunbuir and Huitengxile steppes"
+  - season: spring
+    items:
+      - "Tsagaan Sar (Mongolian Lunar New Year) and, close behind, Chinese New Year family gatherings"
+  - season: autumn
+    items:
+      - "Golden steppe colours and Badain Jaran desert photography (the peak autumn travel window)"
+  - season: winter
+    items:
+      - "Harsh-steppe winter scenery; ice and cold-season festivals in Hohhot"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Buuz (steamed mutton-filled dumplings)"
+      - "Khuushuur (deep-fried meat pastries, a Naadam staple)"
+      - "Aaruul (dried milk curds) and suutei tsai (salty milk tea)"
+  - season: summer
+    items:
+      - "Airag (fermented mare's milk), drunk through the summer"
+  - season: winter
+    items:
+      - "Roast whole lamb and warm meat hotpots for the steppe winter"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The deel, the traditional Mongolian tunic buttoned at the shoulder with a sash — commonly blue or embroidered on festival days"
+  - season: winter
+    items:
+      - "Sheepskin-lined deels, felt boots and fur hats for the severe steppe winter"
+  - season: summer
+    items:
+      - "Lighter cotton deels and wide-brimmed hats for the sunny dry summer"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices run 09:00-18:00 Monday-Friday, as across China; Hohhot and Ulanqab follow the national pattern."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
+  notableShutdownPeriods:
+    - period: "Naadam (mid-July)"
+      description: "An official local holiday in Inner Mongolia marking the end of the summer Naadam festival."
+    - period: "Chinese New Year and Tsagaan Sar"
+      description: "The Chinese New Year week is closed nationwide; the region also marks the Mongolian Lunar New Year (Tsagaan Sar)."
+  notes: "Sunday is the standard rest day. The region observes national Chinese public holidays plus Inner Mongolian holidays (e.g. Naadam)."

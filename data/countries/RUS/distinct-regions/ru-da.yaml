@@ -1,0 +1,184 @@
+code: RU-DA
+name:
+  eng: Republic of Dagestan
+  local:
+    - languageCode: ava
+      value: Дагъистан Республика
+    - languageCode: dar
+      value: Дагъистан Республика
+    - languageCode: rus
+      value: Республика Дагестан
+# Dagestan has no single titular language: the republic's Constitution names
+# Russian plus 'the languages of the peoples of Dagestan' as co-official (~13
+# alongside Russian). Avar (ava) is the largest ethnic language (~30.5% of the
+# population) and Dargwa (dar) the second (~16.6%); both render the republic
+# name the same way in Cyrillic. Known as 'the Mountain of Languages'.
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical on the Caspian coast (Makhachkala ~13.1 C annual average, ~528 mm/yr): warm humid summers, mild winters."
+  - koppenCode: BSk
+    description: "Cold semi-arid in the lowland/steppe zone (Terek littoral and interior plain): dry hot summers, cool dry winters."
+  - koppenCode: Dfc
+    description: "Subarctic / alpine in the high Greater Caucasus range (Bazarduzu, 4,466 m): long severe winters, short cool summers, heavy snow."
+landmarks:
+  - name: Makhachkala
+    description: "Capital city and main Caspian seaport, at the foot of the Greater Caucasus; founded 1857 as Port-Petrovsk."
+  - name: Naryn-Kala fortress and old city of Derbent
+    description: "UNESCO World Heritage site (inscribed 2003) — a massive Sassanid-era citadel and fortification system on the Caspian shore."
+    unescoWorldHeritage: true
+  - name: Derbent
+    description: "One of Russia's oldest cities (founded 438 CE), an ancient gateway between steppe and mountain, famed for the Naryn-Kala citadel."
+  - name: Sulak Canyon
+    description: "A steep-sided canyon carved by the Sulak River in central Dagestan, often claimed the deepest canyon in Europe (up to ~1,920 m deep)."
+  - name: Mount Bazarduzu
+    description: "At 4,466 m the highest peak of Dagestan, on the ridge bordering Azerbaijan."
+  - name: Gunib plateau
+    description: "A high, cliff-ringed natural fortress in central Dagestan; site of Imam Shamil's final surrender in August 1859, ending the Caucasian War."
+culturalTraits:
+  - "Extremely multilingual mosaic — 'the Mountain of Languages': dozens of distinct languages and dialects within a small territory, with no single titular majority"
+  - "Rich Avar, Dargin, Lezgin, Kumyk and Lak heritage, each with its own oral and written literary tradition"
+  - "Strong Naqshbandi Sufi (tariqa) tradition, historically spread by shaykhs who married high doctrine with local custom"
+  - "Mountain auls — dramatic stone villages built on crags and ridges"
+  - "Reputed hospitality culture and guest-right traditions"
+  - "Caucasus folk crafts: carpet weaving (e.g. Derbent), Kubachi metalwork, pottery"
+prideOf:
+  - "Derbent and its ancient Naryn-Kala fortress — one of the world's oldest continuously inhabited urban sites"
+  - "A hugely successful freestyle-wrestling and sambo tradition produced from a small population"
+  - "The enduring mountain auls and the survival of dozens of native languages"
+  - "The memory of resistance to imperial conquest, above all Imam Shamil's mountain campaign from Gunib"
+  - "Spectacular natural landscapes — Sulak Canyon, Mount Bazarduzu, alpine valleys"
+animals:
+  popular:
+    - "East Caucasian (Dagestan) tur (endemic mountain goat)"
+    - "Mouflon / Armenian mouflon (wild mountain sheep)"
+    - "Bezoar goat"
+  unique:
+    - "Caucasian (Persian) leopard (Panthera pardus saxicolor) — critically endangered, with a resident relic population in the mountains"
+    - "Griffon and black (cinereous) vultures — Sulak Canyon hosts one of the largest nesting colonies in Russia"
+industries:
+  - "Port of Makhachkala — the republic's main Caspian seaport and transshipment hub"
+  - "Caspian oil and gas extraction and refining"
+  - "Agriculture: viticulture and winemaking (Derbent wines), horticulture, grain, livestock"
+  - "Caspian fishing and fish canning"
+  - "Mechanical engineering and metalworking (Makhachkala, Izberbash, Kizlyar)"
+  - "Hydroelectric power on the Sulak and Samur rivers"
+sports:
+  - "Freestyle wrestling — a disproportionate share of Olympic and world champions for its size"
+  - "Sambo — many world champions"
+  - "Judo and MMA / combat sports"
+religions:
+  - name: Sunni Muslim (predominantly Shafi'i; strong Sufi Naqshbandi tradition)
+    percent: 90.0
+    sourceId: hrw-2015-religion
+  - name: Shia Muslim (mostly ethnic Azerbaijani, southern Dagestan)
+    percent: 2.5
+    sourceId: hrw-2015-religion
+  - name: Christian (Eastern Orthodox and others; small Mountain-Jewish community)
+    percent: 6.0
+    sourceId: composite-estimate
+  - name: No religion / other
+    percent: 1.5
+    sourceId: composite-estimate
+# Plurality confirmed: over 90% of the population is Muslim (Sunni plurality;
+# ~97% of Muslims Sunni per HRW). Religion-observation is an estimate — the
+# Russian census collects no religion question. Sufism is deeply entwined with
+# Dagestani identity.
+entertainment:
+  - season: allYear
+    items:
+      - "Freestyle wrestling and sambo tournaments"
+      - "Folk dance (Lezginka) and song at weddings and festivals"
+  - season: summer
+    items:
+      - "Caspian beach resorts (Derbent coast, Makhachkala, Kaspiysk)"
+      - "Mountain trekking and climbing (Bazarduzu, alpine valleys)"
+      - "Sulak Canyon boat cruises and viewpoints"
+      - "Eco-tourism to mountain auls (Gunib plateau)"
+  - season: winter
+    items:
+      - "Indoor and family hospitality gatherings in the cold months"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Khinkal — the signature Dagestani dish: boiled lamb or beef with cooked dough pieces and broth, each ethnic group with its own dough shape and sauce"
+      - "Kaurma (kurma) — lamb stew, meat fried with onions, tomatoes and spices"
+      - "Dagestani pies / chudu — stuffed thin flatbreads (meat, cheese, greens, or sweet pumpkin)"
+      - "Kurze — crescent-shaped meat dumplings"
+  - season: summer
+    items:
+      - "Festive plov (pilaf) and mountain-herb dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern everyday dress; traditional forms (papakha sheepskin hat, chokha, Avar/Dargin women's silver-adorned dress) appear at weddings, festivals and in mountain villages"
+  - season: winter
+    items:
+      - "Warm layered mountain and lowland wear"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - saturday
+    - sunday
+  typicalWorkHours: "Broadly the Russian / North-Caucasus standard, roughly 09:00-18:00 Mon-Fri with a lunch break; a slower, more hospitality-driven pace."
+  lunchBreakTiming: "A ~1-hour lunch break is typical; a Friday midday break for Juma (Friday) prayer is common in many workplaces."
+  notableShutdownPeriods:
+    - period: "Kurban Bayram (Eid al-Adha, lunar)"
+      description: "State-recognized Islamic holiday; offices and many businesses close or run short hours."
+    - period: "Uraza Bayram (Eid al-Fitr, end of Ramadan, lunar)"
+      description: "Celebration marking the end of Ramadan fasting; businesses widely close."
+    - period: "Republic Day of Dagestan"
+      description: "Annual republican public holiday and official day off."
+  notes: "Dagestan observes standard Russian federal holidays plus its own Islamic religious holidays, which shift with the Islamic lunar calendar."
+  sourceIds:
+    - dagestan-holidays
+sources:
+  - id: hrw-2015-religion
+    name: "Human Rights Watch World Report 2015 — Russia (Dagestan religion), relayed via ecoi.net"
+    publisher: "Human Rights Watch"
+    url: "https://ecoi.net/en/document/305566"
+    year: 2015
+    accessedDate: "2026-09-23"
+    note: "Over 90% of the population is Muslim, of whom roughly 97% Sunni and ~3% Shia; Sufism deeply entwined with Dagestani identity. Basis for the religions rows."
+  - id: composite-estimate
+    name: "Composite estimate (no authoritative religion census in Dagestan)"
+    publisher: "Composite estimate"
+    url: "https://ecoi.net/en/document/305566"
+    year: 2023
+    accessedDate: "2026-09-23"
+    note: "Christian and no-religion shares are complement estimates to the Muslim majority (the Russian census collects no religion question). Figures are approximate."
+  - id: dagestan-constitution
+    name: "Constitution of the Republic of Dagestan, Article 5 (state languages)"
+    publisher: "Constitution of the Republic of Dagestan"
+    url: "https://constitutii.wordpress.com/wp-content/uploads/2013/04/daghestan.pdf"
+    year: 2003
+    accessedDate: "2026-09-23"
+    note: "Article 5 makes Russian plus 'the languages of the peoples of Dagestan' the republic's state languages — legal basis for the multi-co-official language regime and trigger 1."
+  - id: dagestan-holidays
+    name: "Dagestan public-holiday practice (Kurban Bayram / Uraza Bayram as republican non-working days)"
+    publisher: "Composite estimate / republican holiday practice"
+    url: "https://en.wikipedia.org/wiki/Dagestan"
+    year: 2026
+    accessedDate: "2026-09-23"
+    note: "Islamic holidays are widely observed non-working days in Muslim-majority North Caucasus republics; dates shift with the Islamic lunar calendar. Used in businessRhythm.notableShutdownPeriods."
+  - id: iso-ava
+    name: "ISO 639-3 entry: ava — Avar"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ava"
+    year: 2026
+    accessedDate: "2026-09-23"
+    note: "Verifies ava = Avar, used in name.local."
+  - id: iso-dar
+    name: "ISO 639-3 entry: dar — Dargwa"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/dar"
+    year: 2026
+    accessedDate: "2026-09-23"
+    note: "Verifies dar = Dargwa, used in name.local."

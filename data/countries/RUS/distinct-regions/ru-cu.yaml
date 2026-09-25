@@ -1,0 +1,140 @@
+code: RU-CU
+name:
+  eng: Chuvash Republic (Chuvashia)
+  local:
+    - languageCode: chv
+      value: Чӑваш Республики
+    - languageCode: rus
+      value: Чувашская Республика
+# A Volga-region republic of the Chuvash, a Turkic people of the Bolgar
+# tradition, on the middle Volga. Its constitution names Chuvash (chv) as
+# co-official with Russian; Article 68(2) of the federal Constitution gives the
+# republic the right to its own state language.
+climates:
+  - koppenCode: Dfb
+    description: "Humid continental — warm summers and cold, snowy winters across the whole republic."
+entertainment:
+  - season: summer
+    items:
+      - "The Sabantuy summer festival (a shared Volga-Turkic celebration) and Chuvash Akatuy observances"
+      - "Volga river excursions and summer folk festivals"
+  - season: winter
+    items:
+      - "New Year holiday season and Cheboksary's winter festivities"
+  - season: spring
+    items:
+      - "Chuvash spring sowing and herding rites"
+  - season: autumn
+    items:
+      - "Cultural events and the republic's harvest festivals"
+culturalTraits:
+  - "The Volga's only Bolgar-Turkic people — the Chuvash speak a Turkic language quite distinct from Tatar"
+  - "Chuvash is co-official with Russian and widely the language of ethnic-Chuvash life"
+  - "Predominantly Russian Orthodox with a revived native Vattisen Jaly ethnic-faith movement"
+  - "Strong rural identity: embroidery, hop-growing, brewing and folk song"
+  - "Cheboksary as a mid-sized Volga industrial and cultural capital"
+prideOf:
+  - "The Chuvash language — the living heir of the medieval Bolgar Turkic tongue"
+  - "Chuvash folk embroidery and the rich oral tradition"
+  - "Cheboksary, the 'city of a thousand bells' on the Volga"
+  - "The republic's breweries and hop-growing heritage"
+animals:
+  popular:
+    - "European beaver (Volga riversides)"
+    - "White-tailed eagle"
+    - "Brown hare"
+  unique:
+    - "Chuvashia's Volga-Kama wood grouse"
+industries:
+  - "Electrical and industrial equipment manufacturing (notably transformers)"
+  - "Machine engineering and tractor building (Cheboksary plant)"
+  - "Agriculture — grain, hops, dairy and livestock"
+  - "Food processing and brewing"
+sports:
+  - "Freestyle wrestling"
+  - "Football"
+  - "Ice hockey"
+  - "Rowing and water sports on the Volga"
+religions:
+  - name: Russian Orthodox Christianity
+    percent: 64.7
+    sourceId: arena-2012
+  - name: Other Orthodox
+    percent: 4.2
+    sourceId: arena-2012
+  - name: Other Christian
+    percent: 2.7
+    sourceId: arena-2012
+  - name: Islam (Sunni, chiefly among local Tatars)
+    percent: 3.5
+    sourceId: arena-2012
+  - name: Vattisen Jaly (Chuvash native faith) / Rodnovery
+    percent: 1.2
+    sourceId: arena-2012
+  - name: Spiritual but not religious
+    percent: 14.2
+    sourceId: arena-2012
+  - name: Atheism / irreligion
+    percent: 7.7
+    sourceId: arena-2012
+  - name: Other / undeclared
+    percent: 1.8
+    sourceId: arena-2012
+# Plurality finding (2012 Arena/Sreda survey): Russian Orthodoxy is the clear
+# plurality at 64.7% (other Orthodox 4.2%, other Christian 2.7% — together a
+# large Christian majority), matching the country's Orthodox-leaning profile.
+# So trigger 2 (differing plurality religion) does NOT fire for Chuvashia; it is
+# curated on trigger 1 (Chuvash state language) and trigger 3 (linguistic and
+# cultural self-governance under the Law on Languages of the Chuvash Republic).
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Khupan — circular pies filled with potatoes or meat with an open centre"
+      - "Chak-chak — fried dough with honey, a Volga-Turkic sweet"
+      - "Sharttan — sausage made from lamb and grain, a Chuvash speciality"
+      - "Ayran and dairy fare; hop-flavoured local brews"
+  - season: winter
+    items:
+      - "Hearty meat and grain soups for the cold winter"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern dress; traditional embroidered Chuvash dress and headwear at festivals"
+  - season: winter
+    items:
+      - "Warm layered winter dress"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:00-18:00 Mon-Fri (Moscow time, UTC+3)."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "New Year and Orthodox Christmas holidays — near-total shutdown, as across Russia."
+    - period: "Day of the Chuvash Republic (24 June)"
+      description: "The republic's main regional public holiday, marked in Cheboksary."
+  notes: "Sunday is the standard rest day. The republic observes Russian federal holidays plus its own (Day of the Chuvash Republic, 24 June)."
+sources:
+  - id: arena-2012
+    name: "ARENA Atlas: Religion in the federal subjects of Russia (Sreda / Public Opinion Foundation survey)"
+    publisher: "Sreda (non-profit research service)"
+    url: "https://sreda.org/en/opros/arena-reliz"
+    year: 2012
+    accessedDate: "2026-09-24"
+    note: "Russian Orthodoxy plurality in Chuvashia 64.7%; other Orthodox 4.2%; other Christian 2.7%; Islam 3.5%; Vattisen Jaly/native faith 1.2%; spiritual-but-not-religious 14.2%; atheist 7.7%; other 1.8%. Basis for the religions rows; the Orthodox plurality matches the country's profile so trigger 2 does not fire."
+  - id: iso-chv
+    name: "ISO 639-3 entry: chv — Chuvash"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/chv"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies chv = Chuvash, Individual, Living (Turkic, Bolgar branch). Basis for the name.local chv entry and Chuvash's co-official status."

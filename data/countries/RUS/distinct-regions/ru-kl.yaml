@@ -1,0 +1,167 @@
+code: RU-KL
+name:
+  eng: Republic of Kalmykia
+  local:
+    - languageCode: xal
+      value: Хальмг Таңһч
+    - languageCode: rus
+      value: Республика Калмыкия
+climates:
+  - koppenCode: BSk
+    description: "Cold semi-arid (steppe), dominant — the Eurasian steppe: hot dry summers, cold winters, low precipitation and frequent droughts."
+  - koppenCode: Dfa
+    description: "Warm-summer humid continental — the north of the republic."
+  - koppenCode: Dfb
+    description: "Warm-summer continental — the interior."
+landmarks:
+  - name: Elista
+    description: "Capital of Kalmykia on the Eurasian steppe."
+  - name: Golden Abode of Buddha Shakyamuni
+    description: "The largest Buddhist temple in Europe (opened in Elista, 2005); the centre of Kalmyk Gelug Buddhism."
+  - name: Temple of the Great Victory (memorial stupa)
+    description: "A memorial stupa in Elista marking the Kalmyk Buddhist revival."
+  - name: City Chess (Chess City)
+    description: "A chess-themed village built to host the 1998 FIDE Chess Olympiad, under President Kirsan Ilyumzhinov."
+  - name: Chyornye Zemli (Black Lands) State Nature Reserve
+    description: "A protected steppe reserve that shelters the saiga antelope."
+  - name: Lagan (port)
+    description: "Kalmykia's only Caspian Sea port, on the Volga-delta coast."
+culturalTraits:
+  - "The only Buddhist-majority polity on the European continent (Vajrayana/Tibetan Buddhism, Gelug and Kagyu lines)"
+  - "The Kalmyks are the only Mongolic-speaking people native to Europe, descendants of the Oirat-Mongol migrants of the 1600s"
+  - "Tsagan Sar ('White Month') — the Buddhist lunar new year celebrated each spring"
+  - "Zul — the Kalmyk new year, a declared national holiday"
+  - "The national heroic epic 'Djangar'"
+  - "A resilience identity forged by the 1943-57 mass deportation to Siberia and Central Asia"
+prideOf:
+  - "Being Europe's Buddhist heartland — the only Buddhist-plurality region in Europe"
+  - "Buddhist temples and monastic revival, including the largest temple in Europe"
+  - "Chess culture and the former FIDE president Kirsan Ilyumzhinov"
+  - "Saiga antelope conservation in the Black Lands reserve"
+  - "The 'Djangar' epic and Oirat-Mongol heritage"
+animals:
+  popular:
+    - Saiga antelope
+    - Bactrian camel
+    - Steppe eagle
+    - Demoiselle crane
+  unique:
+    - "Saiga antelope (Saiga tatarica) — flagship species of the Black Lands reserve"
+    - "Domestic Kalmyk cattle breed (native steppe beef cattle)"
+    - "Kalmykian fat-tailed sheep"
+industries:
+  - "Cattle and sheep raising (the Kalmyk beef breed is a regional hallmark)"
+  - "Agriculture: grains, sunflower, mustard, fodder crops"
+  - "Fishing and aquaculture around the Caspian and the Volga delta"
+  - "Caspian maritime logistics via the Lagan seaport — an emerging federal logistics hub"
+  - "Oil and gas exploration (Caspian basin)"
+  - "Tourism (Buddhist heritage, steppe nature)"
+sports:
+  - "Kalmyk archery (traditional Mongolian-style archery)"
+  - "Kalmyk folk wrestling (bökh, Mongolian-style belt wrestling)"
+  - "Horse racing"
+  - "Chess (strong regional tradition; hosted the 1998 FIDE Chess Olympiad)"
+religions:
+  - name: Tibetan Buddhism (Vajrayana)
+    percent: 47.6
+    sourceId: arena2012
+  - name: Russian Orthodox Christianity
+    percent: 18.0
+    sourceId: arena2012
+  - name: Islam
+    percent: 4.8
+    sourceId: arena2012
+  - name: Tengrism / Kalmyk shamanism
+    percent: 3.0
+    sourceId: arena2012
+  - name: Unaffiliated / other Christian
+    percent: 1.8
+    sourceId: arena2012
+  - name: Hinduism / other
+    percent: 0.4
+    sourceId: arena2012
+  - name: Spiritual but not religious
+    percent: 8.2
+    sourceId: arena2012
+  - name: Atheist / no answer / other
+    percent: 16.2
+    sourceId: arena2012
+# Plurality religion confirmed: Buddhism at 47.6% is the single largest group,
+# making Kalmykia the only Buddhist-plurality polity in Europe (2012 Arena /
+# Areopag survey). Kalmyks were 62.5% of the population in the 2021 census.
+entertainment:
+  - season: spring
+    items:
+      - "Tsagan Sar celebrations — visiting relatives, feasts, horse races"
+      - "Steppe tulip sightings and the Tulip Festival"
+  - season: summer
+    items:
+      - "Chess tournaments"
+      - "Lotus Festival events"
+      - "Steppe and wildlife eco-tours to the Black Lands"
+  - season: autumn
+    items:
+      - "Saiga and steppe wildlife visits"
+      - "Folk-music and Djangar epic performances"
+  - season: winter
+    items:
+      - "Zul (Kalmyk New Year) and Buddhist temple observances"
+      - "Indoor khurul (monastery) ceremonies"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Bortsok — fried dough served at Tsagan Sar and feasts"
+      - "Jomba — Kalmyk milk tea (tea with milk, butter, salt, nutmeg)"
+      - "Makhan shyurn — meat soup/broth"
+      - "Dotur — offal soup with handmade pasta"
+  - season: winter
+    items:
+      - "Warming stews and bortsok at winter holiday gatherings"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern Russian everyday dress"
+  - season: winter
+    items:
+      - "Warm layered winter wear"
+  - season: spring
+    items:
+      - "Kalmyk traditional dress (deel-style robe) worn at Tsagan Sar, Zul, weddings and folk festivals"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "09:00-18:00 Mon-Fri (Moscow time, UTC+3); offices often close 13:00-14:00 for lunch."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "Extended federal New Year and Orthodox Christmas holidays — near-total shutdown."
+    - period: "Republic Day of Kalmykia (5 July)"
+      description: "Regional non-working holiday."
+    - period: "Zul (Kalmyk New Year, December)"
+      description: "Declared regional non-working day (e.g. 14 December 2025)."
+    - period: "Tsagan Sar (Buddhist lunar new year)"
+      description: "Regional Buddhist-lunar non-working days."
+sources:
+  - id: arena2012
+    name: "ARENA Atlas: Religion in the federal subjects of Russia (Sreda / Areopag survey)"
+    publisher: "Sreda (non-profit research service)"
+    url: "https://sreda.org/en/opros/arena-reliz"
+    year: 2012
+    accessedDate: "2026-09-22"
+    note: "Religious affiliation shares for Kalmykia: Buddhism 47.6%, Russian Orthodoxy 18.0%, Islam 4.8%, Tengrism 3.0%, other Christian 1.8%, Hindu/other 0.4%, spiritual-but-not-religious 8.2%, atheist/no-answer 16.2%. Basis for the religions rows and the Buddhist-plurality classification."
+  - id: iso-xal
+    name: "ISO 639-3 entry: xal — Kalmyk Oirat"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/xal"
+    year: 2026
+    accessedDate: "2026-09-22"
+    note: "Verifies xal = Kalmyk Oirat, Individual, Living. Basis for the name.local xal entry."

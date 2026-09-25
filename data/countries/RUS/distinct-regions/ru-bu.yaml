@@ -1,0 +1,168 @@
+code: RU-BU
+name:
+  eng: Republic of Buryatia
+  local:
+    - languageCode: bua
+      value: Буряад Республика
+    - languageCode: rus
+      value: Республика Бурятия
+# Buryat is co-official with Russian per the republic constitution (Art. 67),
+# written in Cyrillic since 1939 with historical use of the Classical Mongolian
+# script. ISO 639-3 'bua' is a macrolanguage (individual: bxr Russia Buriat).
+climates:
+  - koppenCode: Dfc
+    description: "Subarctic continental — severe winters, short cool summers, no dry season; dominant across northern and highland Buryatia, with Lake Baikal moderating the shoreline."
+  - koppenCode: Dwc
+    description: "Subarctic continental (dry/cold winter) — drier inland basins and the Tunkinskaya Valley west of Lake Baikal."
+  - koppenCode: BSk
+    description: "Cold semi-arid steppe around Ulan-Ude — a sheltered steppe basin on the Selenga, drier and sunnier than the taiga north."
+landmarks:
+  - name: Ulan-Ude
+    description: "Capital founded 1666 as a Cossack fort; Trans-Siberian / Trans-Mongolian junction, famous for its 7.7 m Lenin head."
+  - name: Ivolginsky Datsan
+    description: "The great Buddhist monastery of Russia (opened 1945), seat of the Pandito Khambo Lama and home of the incorrupt body of the 12th Khambo Lama Etigelov; ~25 km from Ulan-Ude."
+  - name: Lake Baikal
+    description: "UNESCO World Heritage lake and the world's deepest; Buryatia holds two-thirds of its water area, and the Baikal seal (nerpa) is endemic to it."
+    unescoWorldHeritage: true
+  - name: Kyakhta
+    description: "Historic border town founded 1727 at the Treaty of Kyakhta — the chief Russo-Chinese trade post at Mongolia's northern border for two centuries."
+  - name: Tunkinskaya Valley / Tunkinsky National Park
+    description: "A rift valley between Lake Baikal and Lake Khovsgol, with the Arshan carbonate mineral springs and spa, in a Dwc subarctic setting."
+  - name: Mount Barkhan
+    description: "A venerated sacred Buryat mountain of the Khamar-Daban, traditionally a place of worship with obo cairns."
+  - name: Ushkanyi (Ushkan) Islands
+    description: "Islands in Lake Baikal that form the main rookery of the endemic Baikal seal (nerpa)."
+culturalTraits:
+  - "Buryat Mongol-Buddhist identity — Buryats are a Mongolic people whose national identity is bound to Tibetan-Buddhist (Gelug) Buddhism since the 16th-17th century"
+  - "Shamanism practised alongside Buddhism — 'Yellow shamanism' (Buddhist-influenced) and 'Black shamanism' (shamanic-only)"
+  - "The tsam sacred masked ritual dance performed by datsan lamas"
+  - "Mongolian script heritage — Buryats historically wrote in the vertical Classical Mongolian script"
+  - "Lake Baikal is sacred to the Buryats, home of the spirit Burkhan, with shore rituals and obos (sacrificial cairns)"
+  - "Sagalgan / White Month (lunar New Year) and the yekhor circle dance mark Buryat Mongol pastoral identity"
+  - "The Buryat national epic 'Geser' and a large Russian Old Believer (Semeyskie) settled culture on the Baikal shore"
+# NOTE on trigger 2: the issue flagged Buryatia as a likely Buddhist-plurality
+# republic. Verified against the 2012 Arena (Sreda) survey, that is NOT the
+# case: Russian Orthodoxy is the plurality identified confession (27.4%),
+# 'spiritual but not religious' 25%, Tibetan Buddhism 19.8%. Buryatia is the
+# cultural 'Buddhist heartland' (Ivolginsky Datsan) and Buddhism is the historic
+# faith of the Buryat minority (~32%), but it is not the plurality religion, so
+# trigger 2 does not fire. Triggers 1 (Buryat state language) and 5 (subarctic/
+# steppe climate range) do.
+prideOf:
+  - "Being the Buddhist heartland of the Russian Federation — the Ivolginsky Datsan"
+  - "Lake Baikal, the world's deepest and oldest lake"
+  - "Buryat Mongol steppe heritage, Sagalgan hospitality and the yekhor dance"
+  - "The 'three games of men' (wrestling, archery, horse-racing) and the Sur-Kharban festival"
+  - "The Buryat epic 'Geser' and the survival of Buryat language and script traditions"
+  - "The Trans-Siberian / Trans-Mongolian rail junction at Ulan-Ude"
+animals:
+  popular:
+    - "Baikal seal / nerpa"
+    - "Barguzin sable"
+    - "Siberian ibex (mountain goat)"
+    - "Baikal omul (endemic fish)"
+  unique:
+    - "Baikal seal (Pusa sibirica) — the world's only exclusively freshwater pinniped, endemic to Lake Baikal"
+    - "Barguzin sable (Martes zibellina princeps) — the prized fur-bearer of the taiga"
+    - "Baikal omul (Coregonus migratorius) — endemic pelagic fish of Lake Baikal"
+industries:
+  - "Ulan-Ude Locomotive and Carriage Repair Plant and the Ulan-Ude Aviation Plant (Mi-8/17 helicopters)"
+  - "Mining — brown and hard coal, tungsten, gold, fluorspar, graphite, nephrite"
+  - "Agriculture and livestock — cattle, sheep, horses and pastoral herding; grain, potato and dairy"
+  - "Fisheries on Lake Baikal (omul) and forestry"
+  - "Tourism around Lake Baikal and the Arshan hot-spring spas"
+sports:
+  - "The 'three games of men' (wrestling, archery, horse-racing); the Buryat form is Sur-Kharban"
+  - "Buryat/Mongolian wrestling (bukhe) — the national sport"
+  - "Mongolian-style archery"
+  - "Horse-racing, traditional Buryat cross-country races"
+  - "Winter ice-hockey and hiking/mountaineering in the Sayan and Khamar-Daban"
+religions:
+  - name: Russian Orthodox Church
+    percent: 27.4
+    sourceId: arena-2012
+  - name: Spiritual but not religious (unaffiliated)
+    percent: 25.0
+    sourceId: arena-2012
+  - name: Tibetan Buddhism (Gelug)
+    percent: 19.8
+    sourceId: arena-2012
+  - name: Atheism / irreligion
+    percent: 13.4
+    sourceId: arena-2012
+  - name: Folk religion — Buryat shamanism / Tengrism
+    percent: 1.8
+    sourceId: arena-2012
+  - name: Other Christian and other / no answer
+    percent: 12.6
+    sourceId: arena-2012
+entertainment:
+  - season: summer
+    items:
+      - "Baikal tourism — cruises, beaches, hiking, and the Sur-Kharban national festival"
+      - "Tunkinsky / Arshan hot-spring spas and mountaineering"
+  - season: winter
+    items:
+      - "Baikal ice-walking, 'ice cities' and the annual ice festival"
+  - season: spring
+    items:
+      - "Sagalgan (White Month) festivities — datsan services, yekhor dances, gift-giving"
+  - season: autumn
+    items:
+      - "Tsam masked dances and datsan open days at the Ivolginsky monastery"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Buuzy (pozy) — steamed meat dumplings, the quintessential Buryat dish"
+      - "Baikal omul — salted, smoked or dried"
+      - "Salamat (fried-flour porridge) and white dishes for Sagalgan"
+      - "Sutey tsai — salty milk tea"
+  - season: winter
+    items:
+      - "Boiled lamb and mutton dishes at Sagalgan feasts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern dress, with traditional Buryat Mongol forms (deel-style robes, fur hats) at festivals and ceremonies"
+  - season: winter
+    items:
+      - "Warm fur and layered winter wear for the severe subarctic cold"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:00-18:00 Mon-Fri (Irkutsk time, UTC+8); a slower, hospitality-driven pace."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "Jan 1-8"
+      description: "New Year and Orthodox Christmas holidays — near-total shutdown."
+    - period: "Sagalgan (Buryat New Year / White Month, ~late Jan-Feb)"
+      description: "The first day of the lunar New Year is a declared non-working day in the republic."
+    - period: "Republic Day (~30 May)"
+      description: "Commemorates the founding of the Buryat-Mongol ASSR in 1923."
+    - period: "Sur-Kharban festival (early July)"
+      description: "The summer national festival of the three manly games."
+  notes: "Sagalgan in late January/February sees strong retail/hospitality and family travel; the summer (June-Aug) is the peak tourism season."
+sources:
+  - id: arena-2012
+    name: "ARENA Atlas: Religion in the federal subjects of Russia (Sreda / Areopag survey)"
+    publisher: "Sreda (non-profit research service)"
+    url: "https://sreda.org/en/arena"
+    year: 2012
+    accessedDate: "2026-09-24"
+    note: "Buryatia religion shares: Russian Orthodoxy 27.4%, spiritual-but-not-religious 25%, Tibetan Buddhism 19.8%, atheism 13.4%, folk/shamanism-Tengrism 1.8%, other Christian/other-no-answer remainder. Documents that Buddhism is NOT the plurality religion (trigger 2 negative finding)."
+  - id: iso-bua
+    name: "ISO 639-3 entry: bua — Buriat (macrolanguage)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/bua"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies bua = Buriat, an Active Living macrolanguage (individual languages bxr, bxm, bxu). Basis for the name.local bua entry and Buryat's co-official status."

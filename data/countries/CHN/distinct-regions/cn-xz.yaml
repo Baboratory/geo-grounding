@@ -1,0 +1,112 @@
+code: CN-XZ
+name:
+  eng: Tibet Autonomous Region
+  local:
+    - languageCode: bod
+      value: བོད་རང་སྐྱོང་ལྗོངས (Bod)
+    - languageCode: zho
+      value: 西藏自治区 (Xīzàng Zìzhìqū)
+climates:
+  - koppenCode: Dwb
+    description: "High-altitude subarctic highland climate — Lhasa sits at about 3,650 m with cold, dry winters and a warm but brief monsoon summer; the interior plateau above the river valleys is alpine tundra (ET) and the far west is cold desert (BWk). The severe cold-dry highland classes are outside every Köppen class the four previously curated CHN regions cover."
+landmarks:
+  - name: Potala Palace
+    description: "The immense former winter palace of the Dalai Lamas on Red Mountain in Lhasa, at about 3,700 m; the seat of political and religious administration in traditional Tibet and the symbolic heart of Tibetan Buddhism. Inscribed as a UNESCO World Heritage Site in 1994."
+    unescoWorldHeritage: true
+  - name: Jokhang Temple
+    description: "Regarded as the holiest temple in Tibet, in the centre of old Lhasa near the Barkhor circumambulation circuit; added to the UNESCO 'Historic Ensemble of the Potala Palace' property in 2000."
+    unescoWorldHeritage: true
+  - name: Norbulingka Summer Palace
+    description: "The former summer residence of the Dalai Lamas on the western edge of Lhasa, a Tibetan garden palace complex added to the UNESCO World Heritage property in 2001."
+    unescoWorldHeritage: true
+  - name: Yamdrok Lake
+    description: "A vast turquoise highland lake on the plateau south of Lhasa, lying at over 4,400 m and ringed by snow peaks — one of Tibet's most celebrated natural sights."
+  - name: Mount Everest (Tibetan side)
+    description: "The world's highest mountain lies on the Tibet-Nepal border; its northern (Tibetan) face and base camp on the Rongbuk Glacier offer the classic high-altitude route and views."
+culturalTraits:
+  - "China's least-populated and highest province-level region, created as the Tibet Autonomous Region in 1965; Tibetan is a co-official language alongside Mandarin under the Law on Regional Ethnic Autonomy — the coverage-floor trigger for this file."
+  - "An overwhelmingly Tibetan territory: about 86% of the population is ethnic Tibetan (2020 census), and Tibetans predominantly follow Tibetan Buddhism, alongside the indigenous Bön tradition and small Muslim (Hui) and Christian communities — a religious profile with no parallel in the rest of eastern China."
+  - "The historic homeland of Tibetan Buddhism, home of the Dalai Lamas and of pilgrimage sites like Lhasa, the Jokhang and the highland monasteries."
+  - "Distinct highland culture — the Tibetan language and script, Losar (Tibetan New Year), monastic festivals (e.g. the Drupka ritual-basket dances), and the lamaist art and architecture that define the plateau."
+prideOf:
+  - "The Potala Palace, Jokhang and the living tradition of Tibetan Buddhism"
+  - "The majestic highland landscape — the world's highest plateau, Everest's north face, Yamdrok Lake"
+  - "Tibetan language, literature and festivals (Losar, Monlam Chenmo)"
+  - "A distinct pastoral and monastic heritage shaped by the highest inhabited terrain on Earth"
+animals:
+  popular:
+    - Domestic yak (the defining highland livestock)
+    - Tibetan sheep and goats (source of Tibetan cashmere)
+  unique:
+    - "Snow leopard (plateau and mountain rangelands)"
+    - "Tibetan antelope / chiru (high steppe herds)"
+    - "Wild yak and Tibetan wild ass (kiang)"
+industries:
+  - "Tourism — Lhasa and the plateau draw millions of domestic visitors yearly to the Potala, monasteries and highland scenery"
+  - "Pastoral livestock raising (yak, sheep, goats) and the wool/carpet and cashmere trades"
+  - "Agriculture — highland barley, wheat and, in the lower river valleys, other grains"
+  - "Mining (chromite, copper, zinc, salt) and hydropower generation"
+  - "Traditional crafts (Tibetan carpets, both-pattern weaving, metalwork and religious art)"
+sports:
+  - "Tibetan wrestling"
+  - "Horse racing and equestrian games (e.g. at summer festivals)"
+  - "Kyudo-style traditional archery"
+  - "Mountain trekking and high-altitude mountaineering"
+entertainment:
+  - season: allYear
+    items:
+      - "Pilgrimage and tourism to Lhasa (Potala, Jokhang, Barkhor), the Ganden and Sera monasteries, and highland lakes"
+  - season: summer
+    items:
+      - "Summer festivals such as the Sera Monastery cham dances and Losar-adjacent celebrations; highland trekking and lake tours (Yamdrok)"
+  - season: spring
+    items:
+      - "Losar, the Tibetan New Year, celebrated with family gatherings, offerings and (depending on the lunar date, often Feb-Mar) monastic rituals"
+  - season: autumn
+    items:
+      - "Clear-sky autumn hiking and the golden season at highland monasteries"
+  - season: winter
+    items:
+      - "The quiet winter pilgrimage season and Buddhist practice at Lhasa's temples"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tsampa (roasted highland-barley flour), the staple food"
+      - "Momo (steamed filled dumplings) and thukpa (noodle soup)"
+      - "Yak butter tea and Tibetan cheese, yogurt and dried yak meat"
+  - season: summer
+    items:
+      - "Chang (barley beer) and fresh dairy at the summer festivals"
+  - season: winter
+    items:
+      - "Hearty barley-and-meat gruels and soups for the cold highland winter"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "The chuba, the traditional Tibetan wrap coat with a high collar and long sleeves, tied at the waist; bright festival attire with appliqué and silverwork"
+  - season: winter
+    items:
+      - "Heavily padded and sheepskin-lined chubas against the bitter plateau winter"
+  - season: summer
+    items:
+      - "Lighter cotton and muslin chubas in the monsoon warmth"
+seasonCalendar:
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices run 09:00-18:00 Monday-Friday, as across China; Lhasa follows the national pattern, with many workers on Beijing time despite the region's geographic longitude."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
+  notableShutdownPeriods:
+    - period: "Losar (Tibetan New Year, Feb-Mar)"
+      description: "A major Tibetan holiday widely observed in the region with family gatherings and temple ceremonies."
+    - period: "Chinese New Year"
+      description: "The national Chinese New Year week is also closed in Tibet."
+  notes: "Sunday is the standard rest day. Tibet runs on Beijing time (UTC+8) like the whole of China, so the working day is scheduled to the national clock rather than the local sun."
