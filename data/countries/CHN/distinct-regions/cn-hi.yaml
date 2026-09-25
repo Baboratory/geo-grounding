@@ -1,0 +1,127 @@
+code: CN-HI
+name:
+  eng: Hainan Province
+  local:
+    - languageCode: zho
+      value: 海南省 (Hǎinán Shěng)
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate (dry winter) across most of the island province, with a hot, humid wet monsoon from roughly May to October and a pronounced cooler dry season in the winter months (the driest month has under 60 mm of rain). Hainan is China's only fully tropical province — its main class (A) falls outside every Köppen class the four previously curated CHN regions cover (Cfa/Cwa/Cwb/Dwa), which is the coverage-floor trigger for this file."
+landmarks:
+  - name: Guanyin of Nanshan
+    description: "The towering 108 m white three-faced statue of the Bodhisattva of Mercy, Guan Yin (Goddess of the Southern Seas), standing on a man-made islet off Sanya in the Nanshan Buddhist Cultural Zone — the tallest Guan Yin statue in the world."
+  - name: Tianya Haijiao (Edge of the Sky and Sea)
+    description: "Hainan's celebrated rocky shoreline west of Sanya, famed as a romantic 'end of the earth' with the Sun-and-Moon Rocks and inscribed clifftop boulders, once depicted on the Chinese two-yuan note."
+  - name: Wuzhi (Five Finger) Mountain
+    description: "The mist-covered mountain range at the island's centre and, at 1,840 m, the highest point of Hainan — a popular scenic trek named for its five distinctive peaks."
+  - name: Wenchang Satellite Launch Center
+    description: "China's fourth and most modern spaceport, on the northeastern coast at Wenchang, used for heavy-lift launches of Long March 5 rockets and the country's lunar and space-station missions; a major point of local pride."
+  - name: Boao Forum for Asia
+    description: "The coastal town of Bo'ao on the eastern shore hosts an annual high-level forum of political and business leaders from Asian economies, one of the most important conferences held in China."
+  - name: Yalong Bay and Wuzhizhou Island
+    description: "Sanya's most famous white-sand bay lined with resorts, and the offshore coconut-palm island of Wuzhizhou just to the north — the heart of Hainan's tropical beach tourism."
+culturalTraits:
+  - "China's only fully tropical province and its 'Hawaii' — the island is best known for beaches, an official tourism-mainstay policy, and, since 2020, the island-wide Hainan Free Trade Port (independent customs from 2025)."
+  - "An ethnically Han-majority province (about 82.6% Han) that is also home to the Li (Hlai) people, a Kra-Dai-speaking group (~15.8%) concentrated in the central and south-central mountains, with their own languages, stilt-house villages and an animist-leaning tradition."
+  - "A distinctive Hainanese (Min-dialect) identity within Guangdong's old southern sphere — the province only separated from Guangdong in 1988."
+  - "A laid-back island outlook built on the sea and the tropics: fresh seafood, coconut groves, and a markedly cleaner island air than the industrialised mainland."
+prideOf:
+  - "China's tropical island — its beaches, resorts and tourism-centred 'Hawaii of China' reputation"
+  - "The 108 m Guanyin of Nanshan and the romantic Tianya Haijiao coastline"
+  - "The world's newest major launch site at Wenchang and local aerospace ambitions"
+  - "The Li (Hlai) people's mountain culture and the island's tropical agriculture (coconut, areca nut, tropical fruit and rubber)"
+animals:
+  popular:
+    - Water buffalo (draft animals in the coastal rice paddies)
+    - Wild boar
+    - Coconut crabs and other seaboard crabs
+  unique:
+    - "Hainan black-crested gibbon (one of the rarest primates on Earth, surviving in the south-central montane forests)"
+    - "Hainan Island hare (an endemic subspecies of the coucals-hare group found only on the island)"
+    - "South China green turtle (green sea turtles nest on the island's remote sandy beaches)"
+industries:
+  - "Tourism — the island's declared mainstay industry, centred on Sanya, beach resorts and duty-free shopping"
+  - "Free-trade-port and services economy under the Hainan Free Trade Port plan"
+  - "Tropical agriculture — coconut, areca nut (most of China's supply), rubber, tea, coffee, cashews and sugarcane"
+  - "Fisheries and aquaculture — offshore fishing and major shrimp and tilapia farming"
+  - "Aerospace at the Wenchang Satellite Launch Center and its associated space tourism"
+sports:
+  - "Sailing, windsurfing, surfing and other beach-and-sea sports"
+  - "Swimming and beach volleyball at the island resorts"
+  - "Dragon-boat racing, especially around the Dragon Boat Festival"
+  - "Basketball and table tennis, popular nationwide"
+entertainment:
+  - season: allYear
+    items:
+      - "Beach time, tropical island touring, and the Nanshan and Tianya Haijiao coastal sights"
+      - "Haikou's Qilou old-town night market and island-wide seafood restaurants"
+  - season: wet
+    items:
+      - "Harbourside cafés and indoor shopping during the heavy monsoon rains (May-October)"
+      - "Coconut-milk desserts like qingbuliang to beat the tropical heat"
+  - season: dry
+    items:
+      - "The prime beach and outdoor season — diving, snorkelling and island hopping in the clear winter sun (roughly November-April)"
+      - "Chinese New Year travel and holiday crowds on the island"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Wenchang chicken — the island's signature poached free-range chicken, ancestor of the Hainanese chicken rice popular across Southeast Asia, served with a ginger-scallion dip"
+      - "Coconut chicken hotpot, simmered in sweet young-coconut water"
+      - "Hainan rice noodles (hainan fen) with pork-and-seafood broth, peanuts and herbs; and the sour Lingshui suanfen"
+  - season: wet
+    items:
+      - "Qingbuliang, the cooling iced coconut-milk dessert packed with beans, taro, jelly and fruit"
+  - season: dry
+    items:
+      - "Grilled and steamed seafood on the coast in the winter season, and Dongshan lamb"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light, loose cotton and linen clothing for the year-round tropical warmth"
+  - season: wet
+    items:
+      - "Breathable quick-dry wear and rain gear for the wet monsoon"
+  - season: dry
+    items:
+      - "Light beachwear, sandals and sun protection for the sunny dry winter season; Li (Hlai) embroidered festival dress in the mountain villages"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and government run 09:00-18:00 Monday-Friday as across China, though the tourism economy keeps resorts, duty-free malls and restaurants open well into the evening, especially in Sanya."
+  lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
+  notes: "Sunday is the standard rest day and the region observes the national Chinese public holidays. Tourism seasonality follows the dry/wet split — peak visitor traffic and New Year crowds come in the dry winter months."
+sources:
+  - id: hainan-gov
+    name: "Hainan Provincial Government English portal"
+    publisher: "Government of Hainan Province"
+    url: "https://en.hainan.gov.cn/"
+    year: 2026
+    accessedDate: "2026-09-25"
+    note: "Official overview of the province's administration, free-trade-port plans and tourism policy."
+  - id: nanshan-guanyin
+    name: "Nanshan Temple (Sanya) — Guanyin of Nanshan statue"
+    publisher: "Wikipedia (secondary source; statue facts cross-checked against press coverage)"
+    url: "https://en.wikipedia.org/wiki/Nanshan_Temple_(Sanya)"
+    year: 2026
+    accessedDate: "2026-09-25"
+    note: "The 108 m white three-faced Guan Yin statue at Nanshan, Sanya — the world's tallest Guan Yin statue. Secondary source for a landmark description, not a statistic."
+  - id: hainan-climate
+    name: "Hainan climate data (Köppen Aw dominant)"
+    publisher: "climate-data.org (secondary climate reference)"
+    url: "https://en.climate-data.org/asia/china/hainan-868/"
+    year: 2026
+    accessedDate: "2026-09-25"
+    note: "Classifies most of Hainan as tropical savanna (Aw) with minor Monsoon (Am) and humid subtropical (Cfa) pockets; used for the climate description and season calendar."
+  - id: hainan-cuisine
+    name: "Hainan cuisine — regional dishes"
+    publisher: "Wikipedia (secondary source for dish descriptions)"
+    url: "https://en.wikipedia.org/wiki/Hainan_cuisine"
+    year: 2026
+    accessedDate: "2026-09-25"
+    note: "Descriptions of Wenchang chicken, coconut chicken hotpot, hainan fen rice noodles, Dongshan lamb and qingbuliang. Secondary source for culinary descriptions only."

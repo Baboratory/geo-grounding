@@ -40,20 +40,27 @@ regionCoverage:
   # Trigger 4 (time zone) structurally never fires for any CHN unit: China
   # runs its entire territory on one legal time zone (Beijing Time, UTC+8,
   # since 1949) despite spanning ~5 geographic zones -- confirmed, don't
-  # re-derive this per-province. Trigger 5 (climate) very likely fires
-  # beyond the autonomous regions: CN-HI (Hainan, tropical Aw) and CN-HL
-  # (Heilongjiang, subarctic Dwb/Dwc) are both outside every Koppen class
-  # the four curated regions cover; the other ~20 provinces/municipalities
+  # re-derive this per-province. Trigger 5 (climate) fires for CN-HI (Hainan):
+  # it is China's only fully tropical province (Koppen Aw, main class A),
+  # outside every class (Cfa/Cwa/Cwb/Dwa) the other curated regions cover --
+  # cn-hi.yaml added. CN-HL (Heilongjiang) does NOT fire trigger 5: its humid
+  # continental/subarctic (Dwa/Dwb/Dwc) is the same main class (D) as the
+  # already-curated Beijing (CN-BJ, Dwa), so it stays covered by WHOLE -- see
+  # issue #87 comment for the documented negative finding. CN-NX (Ningxia)
+  # also fires no trigger (negative finding posted; see issue #87).
+  # CN-NM/CN-XJ/CN-XZ/CN-GX autonomous regions fire trigger 1 and are being
+  # added in separate PRs (#97/#98). The remaining ~16 provinces/municipalities
   # have not been individually checked.
   tier: first-level
   totalUnits: 34
   status: partial
-  gapReason: "4 of 34 curated (0 of the trigger-firing units). 4 autonomous
-    regions confirmed to fire trigger 1 and need curating (Inner Mongolia,
-    Xinjiang, Tibet, Guangxi); Ningxia is a weaker, unconfirmed trigger-2
-    case. Hainan and Heilongjiang are likely trigger-5 climate cases. ~20
-    other provinces/municipalities still need individual assessment. See
-    the comment above for what's confirmed vs. outstanding."
+  gapReason: "5 of 34 curated. 4 autonomous regions fire trigger 1 and are
+    already in open PRs (Inner Mongolia, Xinjiang, Tibet, Guangxi). CN-HI
+    Hainan fires trigger 5 (tropical Aw vs the C/D of the other curated
+    regions, added here). CN-HL Heilongjiang and CN-NX Ningxia documented as
+    firing no trigger (negative findings on issue #87). CN-HK/CN-MO/CN-TW are
+    covered by sibling country entries. ~16 other provinces/municipalities
+    still need individual assessment."
 languageUsage:
   - languageCode: zho
     domain: official
@@ -133,6 +140,9 @@ distinct-regions:
   - code: CN-SC
     file: distinct-regions/cn-sc.yaml
     adminUnitCodes: [CN-SC]
+  - code: CN-HI
+    file: distinct-regions/cn-hi.yaml
+    adminUnitCodes: [CN-HI]
 sources:
   - id: npc-language-law
     name: "Law of the People's Republic of China on the Standard Spoken and Written Chinese Language (2000, amended 2025)"
