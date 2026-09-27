@@ -1,0 +1,166 @@
+code: RU-TY
+name:
+  eng: Tuva Republic (Republic of Tyva)
+  local:
+    - languageCode: tyv
+      value: Тыва Республика
+    - languageCode: rus
+      value: Республика Тыва
+# A Turkic republic at the geographical centre of Asia, in southern Siberia on
+# the Mongolian border. Its constitution names Tuvan (Tyvan, tyv) as a
+# co-official state language alongside Russian, and Article 68(2) of the federal
+# Constitution gives the republic the right to its own state language.
+climates:
+  - koppenCode: Dfc
+    description: "Subarctic / taiga continental — the dominant climate across the high tayga and mountains, with long, severe winters and brief cool summers."
+  - koppenCode: Dfb
+    description: "Humid continental variants in the lower river valleys (around Kyzyl and the Yenisei/Ulug-Khem basin) with slightly warmer summers."
+  - koppenCode: BSk
+    description: "Cold semi-arid steppe in the drier intermontane basins of the central and southern Tuvan hollow, notably toward the Ubsunur basin on the Mongolian border."
+landmarks:
+  - name: Kyzyl — 'Centre of Asia'
+    description: "The capital, where an obelisk by the Yenisei marks the geographical centre of Asia; the city sits at the junction of the (Great and Little) Yenisei rivers."
+  - name: Ubsunur Hollow (Uvs Nuur basin)
+    description: "A UNESCO World Heritage transboundary biosphere reserve shared with Mongolia, embracing the arid Ubsunur lake basin and its rim of steppe, desert, steppe-tundra and taiga zones."
+    unescoWorldHeritage: true
+  - name: Tsechenling (Tsechen Lin Buddhist Monastery), Kyzyl
+    description: "The republic's principal Tibetan-Buddhist (Gelug) monastery, a centre of the revived Tuvan Buddhism."
+  - name: Mongun-Tayga
+    description: "At 3,970 m the republic's highest summit, a sacred glacier-clad peak on the southern border."
+  - name: Sayan Mountains
+    description: "The vast range on the republic's northern edge, with the Yenisei carving deep gorges between Tuva and the Krasnoyarsk tayga."
+entertainment:
+  - season: summer
+    items:
+      - "The 'Heart of Asia' festival of national cultures and the ecological film festival 'The Living Path of Dersu'"
+      - "Yurt-border summer herding celebrations and the Naadym festival"
+  - season: winter
+    items:
+      - "New Year holiday season"
+  - season: spring
+    items:
+      - "Shagaa — the Tuvan (Buddhist) lunar New Year observed by Zhamba-lama adoration and white-dairy offerings"
+  - season: autumn
+    items:
+      - "Khuresh wrestling and folk-music gatherings at regional festivals"
+culturalTraits:
+  - "A Turkic, historically nomadic yurt-dwelling culture with a distinctive throat-singing (khoomei/khoomij) tradition"
+  - "Tuvan is co-official with Russian and widely the first language of the Tuvan majority"
+  - "Tibetan Buddhism fused with Tengrist/shamanic animism — one of the few Buddhist-plurality politics in Russia"
+  - "Deep horse-and-herding pastoral heritage across steppe and tayga"
+  - "Celebrated khoomei throat singing, khomuz jaw-harp playing and stone-carving craft"
+prideOf:
+  - "Being the geographical centre of Asia"
+  - "Khoomei throat singing and Tuvan folk music, world-renowned"
+  - "Mongun-Tayga and the wild Sayan scenery"
+  - "Mountaineer and statesman Sergey Kuzhugetovich Shoigu"
+animals:
+  popular:
+    - "Siberian ibex"
+    - "Argali (mountain sheep)"
+    - "Snow leopard"
+    - "Caspian/Altai marmot"
+  unique:
+    - "Snow leopard — flagship highland predator of the Tuvan mountains"
+    - "Reindeer (raised in the northern Tozhu tayga by the Tuvans of the Toju)"
+industries:
+  - "Livestock herding — sheep, goats, cattle and horses, with reindeer in the northern Tozhu tayga"
+  - "Mining — coal (the large Elegest deposit), cobalt, gold and construction minerals"
+  - "Agriculture — grain, dairy and fodder in the river valleys"
+  - "Timber and forest products from the tayga"
+sports:
+  - "Khuresh — Tuvan national wrestling"
+  - "Horse racing and equestrian sports"
+  - "Football"
+  - "Freestyle wrestling and sambo"
+religions:
+  - name: Tibetan Buddhism
+    percent: 61.8
+    sourceId: arena-2012
+  - name: Tengriism / Tuvan shamanism
+    percent: 8.0
+    sourceId: arena-2012
+  - name: Spiritual but not religious
+    percent: 7.6
+    sourceId: arena-2012
+  - name: Atheism / irreligion
+    percent: 11.8
+    sourceId: arena-2012
+  - name: Russian Orthodox Christianity
+    percent: 0.8
+    sourceId: arena-2012
+  - name: Other Christian
+    percent: 1.4
+    sourceId: arena-2012
+  - name: Protestantism
+    percent: 1.4
+    sourceId: arena-2012
+  - name: Other / undeclared
+    percent: 7.2
+    sourceId: arena-2012
+# Plurality confirmed (2012 Arena/Sreda survey): Tibetan Buddhism at 61.8% —
+# a real Buddhist plurality, making Tuva one of only two Buddhist-plurality
+# polities in Russia (with Kalmykia). Tengrism/shamanism 8%, spiritual-but-not-
+# religious 7.6%, atheist 11.8%, Orthodox 0.8%, other Christian 1.4%, Protestant
+# 1.4%, other/undeclared 7.2%. Triggers used: trigger 1 (Tuvan state language),
+# trigger 2 (Buddhist plurality vs. the country's Orthodox plurality) and
+# trigger 5 (Dfc/BSk climate range).
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Buuza — steam-cooked mutton or beef dumplings, the everyday Tuvan staple"
+      - "Bortsuk — fried dough cakes"
+      - "Dalgan — roasted-ground-barley flour, eaten with milk tea and dried sour-milk"
+      - "Boiled mutton with broths prepared from freshly slaughtered animals"
+  - season: winter
+    items:
+      - "Warming mutton soups and stews for the severe Siberian winter"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern dress; traditional felt, sheepskin and embroidered garments at festivals"
+  - season: winter
+    items:
+      - "Fur and sheepskin coats, tall felt boots and fur hats suited to the severe Tuvan winter"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:00-18:00 Mon-Fri (Krasnoyarsk time, UTC+7)."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "New Year and Orthodox Christmas holidays — near-total shutdown, as across Russia."
+    - period: "Shagaa (Tuvan lunar New Year, late winter)"
+      description: "The main Tuvan festival; a major regional observance with customs across the republic."
+  notes: "Sunday is the standard rest day. The republic observes Russian federal holidays plus its own Tuvan celebrations (chiefly Shagaa). Note the UTC+7 time zone (Krasnoyarsk time, MSK+4)."
+sources:
+  - id: arena-2012
+    name: "ARENA Atlas: Religion in the federal subjects of Russia (Sreda / Public Opinion Foundation survey)"
+    publisher: "Sreda (non-profit research service)"
+    url: "https://sreda.org/en/opros/arena-reliz"
+    year: 2012
+    accessedDate: "2026-09-24"
+    note: "Buddhist plurality in Tuva 61.8%; Tengrism/shamanism 8%; spiritual-but-not-religious 7.6%; atheist 11.8%; Russian Orthodoxy 0.8%; other Christian 1.4%; Protestant 1.4%; other/undeclared 7.2%. Basis for the religions rows and the trigger-2 finding."
+  - id: iso-tyv
+    name: "ISO 639-3 entry: tyv — Tuvinian (Tuvan)"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/tyv"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies tyv = Tuvinian, Individual, Living. Basis for the name.local tyv entry and Tuvan's co-official status."
+  - id: whc-ubsunur
+    name: "Uvs Nuur Basin — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/769/"
+    year: 2003
+    accessedDate: "2026-09-24"
+    note: "Confirms the Uvs Nuur (Ubsunur) Basin transboundary World Heritage property shared between Mongolia and Tuva, Russia; basis for the Ubsunur Hollow landmark."

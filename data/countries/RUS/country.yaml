@@ -24,9 +24,9 @@ regionCoverage:
   # (Tatarstan/Tatar, Sakha/Sakha, Chechnya/Chechen, etc.); two are further
   # confirmed to fire trigger 2 as well (Kalmykia is the only Buddhist-
   # plurality polity in Europe; North Ossetia-Alania is the only Christian-
-  # plurality republic in the Muslim-majority North Caucasus). Two of the 21
-  # (Tatarstan RU-TA, Sakha RU-SA) are already curated. The remaining ~58
-  # units (oblasts, krais, federal cities, autonomous okrugs) have NOT been
+  # plurality republic in the Muslim-majority North Caucasus). All 21
+  # republics are now curated across this batch and earlier PRs. The
+  # remaining ~60 units (oblasts, krais, federal cities, autonomous okrugs) have NOT been
   # individually assessed -- Russia's size means several likely fire trigger
   # 5 on climate alone (Sakha's subarctic extreme vs. Krasnodar's humid
   # subtropical are both already outside what WHOLE can represent), and
@@ -39,11 +39,15 @@ regionCoverage:
   tier: first-level
   totalUnits: 83
   status: partial
-  gapReason: "4 of 83 curated (2 of the 21 republics that fire trigger 1,
-    plus the 2 largest cities). 19 more republics confirmed to fire
-    trigger 1 (constitutional right to a state language) and need
-    curating; ~58 non-republic units still need individual assessment.
-    See the comment above for what's confirmed vs. outstanding."
+  gapReason: "23 of 83 curated — all 21 of the 21 republics, every one
+    firing trigger 1 on its constitutional state language under Art. 68(2)
+    RF (this batch curates the final 19; Tatarstan and Sakha were already
+    on main), plus the two federal cities of Moscow and St Petersburg.
+    The remaining ~60 non-republic units (oblasts, krais, autonomous
+    okrugs) are not yet individually assessed; several likely fire trigger
+    4 (time zone — Russia spans 11) or trigger 5 (climate, e.g. Sakha's
+    subarctic vs. Krasnodar's humid subtropical) and are queued for
+    per-unit checking."
 languageUsage:
   - languageCode: rus
     domain: official
@@ -167,6 +171,63 @@ distinct-regions:
   - code: RU-SPE
     file: distinct-regions/ru-spe.yaml
     adminUnitCodes: [RU-SPE]
+  - code: RU-AD
+    file: distinct-regions/ru-ad.yaml
+    adminUnitCodes: [RU-AD]
+  - code: RU-AL
+    file: distinct-regions/ru-al.yaml
+    adminUnitCodes: [RU-AL]
+  - code: RU-BA
+    file: distinct-regions/ru-ba.yaml
+    adminUnitCodes: [RU-BA]
+  - code: RU-BU
+    file: distinct-regions/ru-bu.yaml
+    adminUnitCodes: [RU-BU]
+  - code: RU-CE
+    file: distinct-regions/ru-ce.yaml
+    adminUnitCodes: [RU-CE]
+  - code: RU-CU
+    file: distinct-regions/ru-cu.yaml
+    adminUnitCodes: [RU-CU]
+  - code: RU-DA
+    file: distinct-regions/ru-da.yaml
+    adminUnitCodes: [RU-DA]
+  - code: RU-IN
+    file: distinct-regions/ru-in.yaml
+    adminUnitCodes: [RU-IN]
+  - code: RU-KB
+    file: distinct-regions/ru-kb.yaml
+    adminUnitCodes: [RU-KB]
+  - code: RU-KC
+    file: distinct-regions/ru-kc.yaml
+    adminUnitCodes: [RU-KC]
+  - code: RU-KK
+    file: distinct-regions/ru-kk.yaml
+    adminUnitCodes: [RU-KK]
+  - code: RU-KL
+    file: distinct-regions/ru-kl.yaml
+    adminUnitCodes: [RU-KL]
+  - code: RU-KO
+    file: distinct-regions/ru-ko.yaml
+    adminUnitCodes: [RU-KO]
+  - code: RU-KR
+    file: distinct-regions/ru-kr.yaml
+    adminUnitCodes: [RU-KR]
+  - code: RU-SE
+    file: distinct-regions/ru-se.yaml
+    adminUnitCodes: [RU-SE]
+  - code: RU-TY
+    file: distinct-regions/ru-ty.yaml
+    adminUnitCodes: [RU-TY]
+  - code: RU-ME
+    file: distinct-regions/ru-me.yaml
+    adminUnitCodes: [RU-ME]
+  - code: RU-MO
+    file: distinct-regions/ru-mo.yaml
+    adminUnitCodes: [RU-MO]
+  - code: RU-UD
+    file: distinct-regions/ru-ud.yaml
+    adminUnitCodes: [RU-UD]
 sources:
   - id: rus-constitution-art68
     name: "Constitution of the Russian Federation, Article 68"

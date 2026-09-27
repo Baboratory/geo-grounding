@@ -1,0 +1,172 @@
+code: RU-AD
+name:
+  eng: Republic of Adygea
+  local:
+    - languageCode: ady
+      value: Адыгэ Республик
+    - languageCode: rus
+      value: Республика Адыгея
+climates:
+  - koppenCode: Dfb
+    description: "Humid continental — warm summers and long, cold and snowy winters across the northern plains and the Kuban-Krasnodar lowlands."
+  - koppenCode: Cfa
+    description: "Humid subtropical along the southern foothills of the Caucasus, the mild end of the republic's climate range."
+  - koppenCode: Dfc
+    description: "Subalpine / alpine zone high on the Lago-Naki plateau and the Fisht-Oshten massif."
+landmarks:
+  - name: Lago-Naki plateau
+    description: "A high karst plateau (c. 1,600–2,200 m) of subalpine and alpine meadows, sinkholes and caves on the northern slope of the Greater Caucasus, part of the Western Caucasus UNESCO World Heritage property."
+  - name: Mount Fisht
+    description: "At 2,867 m the highest peak of the Fisht-Oshten massif in Adygea, with glaciers feeding the Belaya (Skhaguashe) river headwaters."
+  - name: Mount Oshten
+    description: "A 2,804 m peak adjacent to Fisht on the Lago-Naki highland."
+  - name: Western Caucasus (World Heritage)
+    description: "A UNESCO World Heritage natural site (inscribed 1999) spanning the Caucasus State Nature Biosphere Reserve across Adygea, Krasnodar Krai and Karachay-Cherkessia — one of Europe's last large undisturbed mountain wildernesses."
+    unescoWorldHeritage: true
+  - name: Rufabgo Waterfalls
+    description: "A series of waterfalls on the Rufabgo river in a boxwood-and-beech gorge north of the Lago-Naki plateau."
+  - name: Khadzhokh Gorge (Kamennomostsky)
+    description: "A deep limestone canyon of the Belaya river at the village of Kamennomostsky, a gateway to the plateau."
+  - name: Maykop
+    description: "Capital city at the edge of the Caucasus foothills, home to roughly a third of the republic's population."
+  - name: Caucasian State Nature Biosphere Reserve
+    description: "Russian Federal reserve (est. 1924; c. 280,000 ha), the largest mountain-forest reserve in Europe, making up much of the Western Caucasus World Heritage area."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "An ethnic republic representing the Adyghe (Circassian) people, who are about a quarter of the population; ethnic Russians are the majority"
+  - "Adyghe is a co-official state language with Russian, one of the North-West Caucasian languages with no close relatives outside the family"
+  - "Islam has been the traditional faith of the Circassians since the 16th-19th centuries, while the population as a whole is, by the 2012 Arena survey, Orthodox-plurality — so the Muslim community (about a quarter) sits within a majority-Christian republic"
+  - "Adyghe Khabze (Xабзэ) — a customary code of hospitality, courtesy, mutual aid and respect — still shapes everyday social conduct"
+  - "A strong equestrian and mountaineering culture rooted in the Caucasus, together with a renowned tradition of gold- and silver-filigree craft"
+prideOf:
+  - "The Lago-Naki highland and the Western Caucasus wilderness"
+  - "Circassian (Adyghe) heritage — language, the Nart epic and the Adyghe Khabze code"
+  - "Maykop, and the republic's reputation as one of the most ethnically harmonious parts of the North Caucasus"
+  - "National cuisine, above all the world-famous Adyghe cheese"
+animals:
+  popular:
+    - "Caucasian tur (Mountain goat / wild goat of the West Caucasus)"
+    - "Chamois"
+    - "Brown bear"
+    - "Bearded vulture (lammergeier)"
+  unique:
+    - "Caucasian (Persian) leopard — flagship predator of the Caucasus reserve"
+    - "Caucasian black grouse (endemic to the West Caucasus highlands)"
+industries:
+  - "Tourism and ecotourism — the Lago-Naki plateau, Fisht and the Caucasus reserve"
+  - "Food processing, including the dairy industry that makes Adyghe cheese"
+  - "Agriculture — grain, vegetables, orchards and livestock on the fertile Kuban plains"
+  - "Timber and wood processing in the mountain districts"
+  - "Small hydropower and light manufacturing around Maykop"
+sports:
+  - "Wrestling and judo (a strong national tradition across the North Caucasus)"
+  - "Mountaineering and alpine hiking (Fisht and the Lago-Naki plateau)"
+  - "Football"
+religions:
+  - name: Russian Orthodox Christianity
+    percent: 35.4
+    sourceId: arena-2012
+  - name: Islam (Sunni)
+    percent: 23.6
+    sourceId: arena-2012
+  - name: Other Orthodox
+    percent: 1.4
+    sourceId: arena-2012
+  - name: Other Christian
+    percent: 3.8
+    sourceId: arena-2012
+  - name: Spiritual but not religious
+    percent: 19.8
+    sourceId: arena-2012
+  - name: Atheism / irreligion
+    percent: 8.2
+    sourceId: arena-2012
+  - name: Other / undeclared
+    percent: 7.8
+    sourceId: arena-2012
+# Plurality confirmed honest: the 2012 Arena (Sreda) survey puts Russian
+# Orthodoxy at 35.4% — the republic's plurality, not Islam. The Adyghe/Circassian
+# community is traditionally Muslim and Islam reaches ~23.6% overall, but it is
+# a large minority, not a plurality. Triggers used: trigger 1 (Adyghe state
+# language) and trigger 5 (Cfa subtropical foothills vs. the country's dominant
+# Dfb/Dfc classes).
+entertainment:
+  - season: summer
+    items:
+      - "Trekking and camping on the Lago-Naki plateau and Mount Fisht"
+      - "Rufabgo waterfalls and Khadzhokh gorge walking routes"
+      - "Maykop's summer festival and folklore events"
+  - season: winter
+    items:
+      - "Winter alpine skiing and snowshoeing on the Lago-Naki plateau"
+      - "New Year holiday markets in Maykop"
+  - season: spring
+    items:
+      - "Eid al-Fitr (Uraza Bayram) celebrations and spring fairs"
+      - "Early-season hiking as the mountain snows retreat"
+  - season: autumn
+    items:
+      - "Day of the Republic of Adygea (5 October) festivities"
+      - "Late-season mountain walking before the snow returns"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Adyghe cheese (adygeiski syr) — a fresh soft white cheese, the republic's signature product"
+      - "Shashlik — grilled skewered meat"
+      - "Circassian (Adyghe) chicken in a sour-cream sauce"
+      - "Ashlamyk — boiled dumplings"
+      - "Zyko-rythe — Adyghe breads and pastries served with tea"
+  - season: winter
+    items:
+      - "Hearty mountain stews and cheese-laden baked pastries as warming winter fare"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Modern European dress; the traditional Circassian cherkeska (long coat), burka cloak and embroidered dress appear at weddings and folk festivals"
+  - season: winter
+    items:
+      - "Warm layered winter wear suited to the mountain cold"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:00-18:00 Mon-Fri (Moscow time, UTC+3)."
+  lunchBreakTiming: "A ~1-hour lunch break around 13:00-14:00 is typical."
+  notableShutdownPeriods:
+    - period: "early January (1-8)"
+      description: "New Year and Orthodox Christmas holidays — near-total shutdown, as across Russia."
+    - period: "Day of the Republic of Adygea (5 October)"
+      description: "Marks the republic's establishment; the main regional public holiday, celebrated in Maykop."
+    - period: "Uraza Bayram (Eid al-Fitr) and Kurban Bayram (Eid al-Adha), lunar"
+      description: "Observed public holidays for the substantial Muslim community; many Muslim businesses observe fasting hours during Ramadan."
+  notes: "Sunday is the standard rest day. The republic observes Russian federal holidays plus its own (Day of the Republic and the Muslim holidays), reflecting its mixed Christian-Muslim character."
+sources:
+  - id: arena-2012
+    name: "ARENA Atlas: Religion in the federal subjects of Russia (Sreda / Public Opinion Foundation survey)"
+    publisher: "Sreda (non-profit research service)"
+    url: "https://sreda.org/en/opros/arena-reliz"
+    year: 2012
+    accessedDate: "2026-09-24"
+    note: "Russian Orthodox plurality in Adygea 35.4%; Islam 23.6%; other Orthodox 1.4%; other Christian 3.8%; spiritual-but-not-religious 19.8%; atheist 8.2%; other/undeclared 7.8%. Basis for the religions rows."
+  - id: iso-ady
+    name: "ISO 639-3 entry: ady — Adyghe"
+    publisher: "SIL International (ISO 639-3 Registration Authority)"
+    url: "https://iso639-3.sil.org/code/ady"
+    year: 2026
+    accessedDate: "2026-09-24"
+    note: "Verifies ady = Adyghe, Individual, Living. Basis for the name.local ady entry."
+  - id: whc-western-caucasus
+    name: "Western Caucasus — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/900/"
+    year: 1999
+    accessedDate: "2026-09-24"
+    note: "Confirms the Western Caucasus World Heritage property spans the Republic of Adygea, Krasnodar Krai and Karachay-Cherkessia, centred on the Caucasus State Nature Biosphere Reserve; basis for the Fisht/Lago-Naki and biosphere-reserve landmarks."
