@@ -102,7 +102,7 @@ businessRhythm:
   lunchBreakTiming: "A lunch break around 12:00-13:00 is typical."
   notableShutdownPeriods:
     - period: "Naadam (mid-July)"
-      description: "An official local holiday in Inner Mongolia marking the end of the summer Naadam festival."
+      description: "A major Mongolian cultural festival marking the summer 'three games of men'; observance and any local holiday/shutdown timing varies by banner and league rather than being a confirmed region-wide statutory public holiday (unlike Xinjiang's region-wide, statutory three-day Corban holiday)."
     - period: "Chinese New Year and Tsagaan Sar"
       description: "The Chinese New Year week is closed nationwide; the region also marks the Mongolian Lunar New Year (Tsagaan Sar)."
   notes: "Sunday is the standard rest day. The region observes national Chinese public holidays plus Inner Mongolian holidays (e.g. Naadam)."

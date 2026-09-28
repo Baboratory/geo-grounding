@@ -93,8 +93,11 @@ legalConstraints:
     description: "Under the Consumer Rights Act 2015, goods must be as described, of satisfactory quality and fit for purpose; consumers have a 30-day right to reject faulty goods, and a right to repair or replacement thereafter (up to 6 years in England/Wales/NI, 5 in Scotland)."
     sourceId: uk-cra-2015
   - topic: "Sunday trading"
-    description: "In England and Wales, large shops (over 3,000 sq ft) may open for a maximum of 6 consecutive hours on Sunday (usually 10:00am-4:00pm). In Scotland, Northern Ireland wholly self-determine and Sunday opening restrictions are generally not imposed; the rules differ by nation."
+    description: "In England and Wales, large shops (over 3,000 sq ft) may open for a maximum of 6 consecutive hours on Sunday (usually 10:00am-4:00pm). Scotland has no statutory restriction on Sunday opening hours. Northern Ireland has its own, separate statutory restriction, stricter than England & Wales — see the 'Sunday trading (Northern Ireland)' entry below."
     sourceId: uk-sunday-trading-act
+  - topic: "Sunday trading (Northern Ireland)"
+    description: "Under the Shops (Sunday Trading &c.) (Northern Ireland) Order 1997, large shops (floor area over 280 sqm) may open for a maximum of 5 hours on Sunday, between 1:00pm and 6:00pm, unless the shop is in a council area designated a holiday resort (which permits extended hours on up to 18 Sundays a year). This is a separate, stricter regime than the England & Wales 6-hour rule, and unlike Scotland's lack of any statutory restriction."
+    sourceId: ni-sunday-trading-order-1997
 paymentMethodShares:
   - method: "debit card (all payments, by number of transactions)"
     percent: 53.0
@@ -211,12 +214,19 @@ sources:
     accessedDate: "2026-09-20"
     note: "The legal basis for goods quality/description/fitness standards, the 30-day short-term right to reject, and longer repair/replacement remedies."
   - id: uk-sunday-trading-act
-    name: "Sunday Trading Act 1994 (England & Wales rules); SCOT/NIR self-determined"
+    name: "Sunday Trading Act 1994 (England & Wales rules)"
     publisher: "UK government (legislation.gov.uk)"
     url: "https://www.legislation.gov.uk/ukpga/1994/20"
     year: 1994
     accessedDate: "2026-09-20"
-    note: "The basis for the 6-hour Sunday opening limit on large shops in England and Wales; not applicable to Scotland/Northern Ireland where no such restriction exists."
+    note: "The basis for the 6-hour Sunday opening limit on large shops in England and Wales. Does not apply to Scotland (which has no equivalent statutory restriction) or to Northern Ireland (which has its own separate restriction under the 1997 Order — see ni-sunday-trading-order-1997)."
+  - id: ni-sunday-trading-order-1997
+    name: "The Shops (Sunday Trading &c.) (Northern Ireland) Order 1997 (S.I. 1997/2779), Article 5"
+    publisher: "UK government (legislation.gov.uk)"
+    url: "https://www.legislation.gov.uk/nisi/1997/2779/article/5"
+    year: 1997
+    accessedDate: "2026-09-28"
+    note: "Article 5 restricts large shops (floor area over 280 sqm) to opening between 1pm and 6pm (5 hours) on Sundays in Northern Ireland, unless the shop is in a council area designated a holiday resort. Corroborated by a 2025 Belfast City Council Sunday-trading consultation page describing the same 1pm-6pm limit as currently in force."
   - id: uk-finance-pmr-2024
     name: "UK Payment Markets 2025"
     publisher: "UK Finance"

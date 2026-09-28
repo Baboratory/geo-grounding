@@ -3,7 +3,7 @@ name:
   eng: Republic of Dagestan
   local:
     - languageCode: ava
-      value: Дагъистан Республика
+      value: Дагъистан Жумгьурият
     - languageCode: dar
       value: Дагъистан Республика
     - languageCode: rus
@@ -11,8 +11,10 @@ name:
 # Dagestan has no single titular language: the republic's Constitution names
 # Russian plus 'the languages of the peoples of Dagestan' as co-official (~13
 # alongside Russian). Avar (ava) is the largest ethnic language (~30.5% of the
-# population) and Dargwa (dar) the second (~16.6%); both render the republic
-# name the same way in Cyrillic. Known as 'the Mountain of Languages'.
+# population) and Dargwa (dar) the second (~16.6%); they render the republic
+# name differently in Cyrillic (Avar uses its own word for 'republic',
+# Жумгьурият/zhumhuriyat, while Dargwa uses the Russian loanword республика).
+# Known as 'the Mountain of Languages'.
 climates:
   - koppenCode: Cfa
     description: "Humid subtropical on the Caspian coast (Makhachkala ~13.1 C annual average, ~528 mm/yr): warm humid summers, mild winters."
@@ -53,7 +55,7 @@ animals:
     - "Mouflon / Armenian mouflon (wild mountain sheep)"
     - "Bezoar goat"
   unique:
-    - "Caucasian (Persian) leopard (Panthera pardus saxicolor) — critically endangered, with a resident relic population in the mountains"
+    - "Caucasian (Persian) leopard (Panthera pardus saxicolor) — IUCN Endangered, with a resident relic population in the mountains"
     - "Griffon and black (cinereous) vultures — Sulak Canyon hosts one of the largest nesting colonies in Russia"
 industries:
   - "Port of Makhachkala — the republic's main Caspian seaport and transshipment hub"
@@ -148,12 +150,12 @@ sources:
     accessedDate: "2026-09-23"
     note: "Over 90% of the population is Muslim, of whom roughly 97% Sunni and ~3% Shia; Sufism deeply entwined with Dagestani identity. Basis for the religions rows."
   - id: composite-estimate
-    name: "Composite estimate (no authoritative religion census in Dagestan)"
-    publisher: "Composite estimate"
+    name: "Human Rights Watch, 'Invisible War: Russia's Abusive Response to the Dagestan Insurgency' (2015), relayed via ecoi.net — used as basis for a complement estimate"
+    publisher: "Human Rights Watch"
     url: "https://ecoi.net/en/document/305566"
     year: 2023
     accessedDate: "2026-09-23"
-    note: "Christian and no-religion shares are complement estimates to the Muslim majority (the Russian census collects no religion question). Figures are approximate."
+    note: "Christian and no-religion shares are complement estimates to the ~92.5% Muslim majority reported by the cited HRW document (the Russian census collects no religion question). Figures are approximate."
   - id: dagestan-constitution
     name: "Constitution of the Republic of Dagestan, Article 5 (state languages)"
     publisher: "Constitution of the Republic of Dagestan"

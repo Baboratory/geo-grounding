@@ -48,9 +48,9 @@ regionCoverage:
   # already-curated Beijing (CN-BJ, Dwa), so it stays covered by WHOLE -- see
   # issue #87 comment for the documented negative finding. CN-NX (Ningxia)
   # also fires no trigger (negative finding posted; see issue #87).
-  # CN-NM/CN-XJ/CN-XZ/CN-GX autonomous regions fire trigger 1 and are being
-  # added in separate PRs (#97/#98). The remaining ~16 provinces/municipalities
-  # have not been individually checked.
+  # CN-NM/CN-XJ/CN-XZ/CN-GX autonomous regions fire trigger 1 and have all
+  # been added (see #97/#98, merged in c07e391). The remaining ~20
+  # provinces/municipalities have not been individually checked.
   tier: first-level
   totalUnits: 34
   status: partial
@@ -64,8 +64,9 @@ regionCoverage:
     findings on issue #87): Heilongjiang shares Dwa/Dwb/Dwc main class D
     with Beijing; Ningxia's Hui divergence is confessional, not a regional
     language or a religion plurality. CN-HK/CN-MO/CN-TW are covered by
-    sibling country entries. ~16 other provinces/municipalities still
-    need individual assessment."
+    sibling country entries. That accounts for 14 of the 34 units (9
+    curated + 3 sibling-covered + 2 negative findings); ~20 other
+    provinces/municipalities still need individual assessment."
 languageUsage:
   - languageCode: zho
     domain: official

@@ -36,7 +36,7 @@ animals:
     - Irish hare
     - Red squirrel
   unique:
-    - "Corncrake (rare breeding bird, most of its remaining UK range is on Rathlin Island)"
+    - "Corncrake (rare breeding bird; Rathlin Island is the only place in Northern Ireland where it's confirmed breeding)"
     - "Basking shark (seasonal visitor off the north Antrim coast)"
 industries:
   - "Aerospace manufacturing (Spirit AeroSystems/former Bombardier, Belfast — a major UK aerospace hub)"
@@ -112,8 +112,9 @@ businessRhythm:
       description: "Many workplaces close or run reduced hours around the Twelfth of July holiday and the school-summer changeover."
     - period: "Christmas/New Year"
       description: "Public holidays on Christmas Day and Boxing Day, as in the rest of the UK."
-  notes: "Northern Ireland, like Scotland, has no statutory Sunday-trading-hours restriction of the kind that applies to large shops in England and Wales — large stores may open as they choose on Sundays (see the country-level 'Sunday trading' legalConstraints entry)."
+  notes: "Northern Ireland has its own statutory Sunday-trading restriction, separate from and stricter than the England & Wales rule: under the Shops (Sunday Trading &c.) (Northern Ireland) Order 1997, large shops (floor area over 280 sqm) may open for a maximum of 5 hours on Sundays, between 1:00pm and 6:00pm (unless designated a holiday resort). This differs from Scotland, which has no statutory Sunday-trading restriction at all (see the country-level 'Sunday trading' legalConstraints entries)."
   sourceIds:
+    - ni-sunday-trading-order-1997
     - uk-sunday-trading-act
 sources:
   - id: nisra-census-2021-religion
@@ -123,10 +124,17 @@ sources:
     year: 2021
     accessedDate: "2026-09-23"
     note: "Religion (current, not religion-brought-up-in) shares for Northern Ireland: Catholic 42.3%, Presbyterian 16.6%, Church of Ireland 11.5%, Methodist and other Christian denominations combined into 'Other Christian' 9.3% (2.4% Methodist + 6.9% other Christian in NISRA's own breakdown), other religions 1.3%, no religion 17.4%, not stated 1.5%."
+  - id: ni-sunday-trading-order-1997
+    name: "The Shops (Sunday Trading &c.) (Northern Ireland) Order 1997 (S.I. 1997/2779), Article 5"
+    publisher: "UK government (legislation.gov.uk)"
+    url: "https://www.legislation.gov.uk/nisi/1997/2779/article/5"
+    year: 1997
+    accessedDate: "2026-09-28"
+    note: "Article 5 restricts large shops (floor area over 280 sqm) to opening between 1pm and 6pm (5 hours) on Sundays in Northern Ireland, unless the shop is in a council area designated a holiday resort. Corroborated by a 2025 Belfast City Council Sunday-trading consultation page describing the same 1pm-6pm limit as currently in force."
   - id: uk-sunday-trading-act
-    name: "Sunday Trading Act 1994 (England & Wales rules); Northern Ireland self-determined"
+    name: "Sunday Trading Act 1994 (England & Wales rules)"
     publisher: "UK government (legislation.gov.uk)"
     url: "https://www.legislation.gov.uk/ukpga/1994/20"
     year: 1994
     accessedDate: "2026-09-23"
-    note: "Confirms Northern Ireland is outside the England & Wales large-shop Sunday-hours restriction, same source already cited at country level for this fact."
+    note: "Establishes the 6-hour Sunday opening limit for large shops in England & Wales, cited here only for comparison with Northern Ireland's separate, stricter 5-hour rule (see ni-sunday-trading-order-1997). Does not apply to Northern Ireland or Scotland."

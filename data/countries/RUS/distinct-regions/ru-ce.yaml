@@ -92,8 +92,8 @@ businessRhythm:
   notableShutdownPeriods:
     - period: "Ramadan (lunar)"
       description: "Daylight fasting and altered office/meal rhythms; Eid al-Fitr (Uraza Bayram) is a major holiday affecting business schedules."
-    - period: "Republic Day of Chechnya (22 August)"
-      description: "Regional public holiday, institutions close."
+    - period: "Day of the Chechen Republic (6 September)"
+      description: "The republic's main state holiday, established by decree of First President Akhmad Kadyrov in 2002 (marked as a Day of Civic Accord and Unity); regional public holiday, institutions close."
     - period: "Kurban Bayram (Eid al-Adha, lunar)"
       description: "Islamic holiday honoured as a regional non-working day."
   sourceIds:
@@ -107,12 +107,12 @@ sources:
     accessedDate: "2026-09-23"
     note: "Sunni Islam is practiced by roughly 95% of those polled in Grozny (2010); the 2012 Arena survey lists Chechnya among Russian subjects with an Islamic absolute majority. Approximate plural-direction figure, flagged as an estimate."
   - id: chechnya-republic-day
-    name: "Republic Day of the Chechen Republic"
-    publisher: "Composite estimate / regional holiday practice"
-    url: "https://en.wikipedia.org/wiki/Chechnya"
+    name: "Day of the Chechen Republic (6 September)"
+    publisher: "Grozny-Inform (Chechen Republic regional news agency)"
+    url: "https://www.grozny-inform.ru/news/society/164173/"
     year: 2026
-    accessedDate: "2026-09-23"
-    note: "Republic Day is celebrated around 22 August as a regional public holiday, used in businessRhythm.notableShutdownPeriods."
+    accessedDate: "2026-09-28"
+    note: "The Day of the Chechen Republic is marked on 6 September, a state holiday established by decree of First President Akhmad Kadyrov in 2002; used in businessRhythm.notableShutdownPeriods. (22 August is unrelated — it is Russia's federal State Flag Day, established 1994.)"
   - id: iso-che
     name: "ISO 639-3 entry: che — Chechen"
     publisher: "SIL International (ISO 639-3 Registration Authority)"

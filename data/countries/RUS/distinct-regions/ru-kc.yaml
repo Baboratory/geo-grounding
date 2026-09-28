@@ -6,6 +6,10 @@ name:
       value: Къарачай-Черкес Республика
     - languageCode: kbd
       value: Къэрэшей-Шэрджэс Республикэ
+    - languageCode: abq
+      value: Къарча-Черкес Республика
+    - languageCode: nog
+      value: Карашай-Шеркеш Республикасы
     - languageCode: rus
       value: Карачаево-Черкесская Республика
 # A two-titular-nation republic joining the Turkic Karachay and the Adyghe /
@@ -115,7 +119,7 @@ traditionalDishes:
       - "Khychiny — thin stuffed flatbreads, the signature pastry of the North Caucasus"
       - "Shashlik — grilled skewered meat, with lamb and mountain trout at resorts"
       - "Lakum — fried dough cakes, a festival speciality"
-      - "Haliva — toasted millet/four-honey holiday sweet"
+      - "Haliva — toasted millet-or-wheat-flour and honey holiday sweet"
       - "Jedz (dzed) — the Circassian chicken-with-garlic-walnut-sauce dish"
 traditionalClothing:
   - season: allYear

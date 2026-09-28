@@ -14,8 +14,10 @@ landmarks:
     description: "Capital city on the Belaya River and a major oil-refining and cultural centre."
   - name: Salavat Yulaev Monument
     description: "Equestrian monument in Ufa to the Bashkir national hero, poet and leader of the 1773-75 uprising."
+  - name: Mount Yamantau
+    description: "The republic's and the Southern Urals' highest peak, at 1,640 m, within the South Ural Nature Reserve."
   - name: Iremel Mountain
-    description: "The republic's highest peak, in the Southern Urals."
+    description: "A major sacred peak in the Southern Urals (Bolshoy Iremel, ~1,582 m) — the range's second-highest and a popular pilgrimage and hiking destination."
   - name: Yangan-Tau mountain
     description: "A naturally heated 'burning mountain' — hot gas and steam (up to ~150C at the surface) vent from the ground due to an exothermic oxidation of bituminous shale inside the mountain, not a burning gas deposit."
   - name: Shulgan-Tash (Kapova) Cave
