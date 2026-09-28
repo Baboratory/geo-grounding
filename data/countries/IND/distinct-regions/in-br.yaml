@@ -1,0 +1,132 @@
+code: IN-BR
+name:
+  eng: Bihar
+  local:
+    - languageCode: hin
+      value: बिहार
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate across the Gangetic plain, with very hot dry summers, a heavy southwest monsoon and cool dry winters."
+landmarks:
+  - name: Mahabodhi Temple (Bodh Gaya)
+    description: "The UNESCO World Heritage temple marking the site where the Buddha attained enlightenment under the Bodhi tree."
+    unescoWorldHeritage: true
+  - name: Nalanda (ruins)
+    description: "The UNESCO-listed remains of ancient Nalanda Mahavihara, one of the world's first great residential universities."
+    unescoWorldHeritage: true
+  - name: Golghar (Patna)
+    description: "The distinctive 18th-century beehive-shaped granary built by the British in Patna."
+  - name: Patna Sahib Gurudwara
+    description: "Patna's revered Sikh shrine, birthplace of Guru Gobind Singh."
+  - name: Takht Sri Patna Sahib
+    description: "One of the five Takhts (temporal seats) of Sikhism, at the birthplace of the tenth Guru."
+culturalTraits:
+  - "The ancient heartland of Magadha — seat of the Maurya and Gupta empires, of Buddha's enlightenment at Bodh Gaya and of the Mahavira (Jain) tradition"
+  - "A Hindi-speaking, deeply agrarian plain with the official language Hindi and Urdu as a second official language"
+  - "Known for its festival culture (Chhath Puja, the sun-god festival) and a strong literary tradition in Hindi, Maithili, Bhojpuri and Magahi"
+prideOf:
+  - "Bodh Gaya and the Buddhist heritage"
+  - "The great universities of ancient Nalanda and Vikramashila"
+  - "Chhath Puja and Bihar's festival traditions"
+animals:
+  popular:
+    - "Ganges river dolphin (national aquatic animal)"
+    - "Bengal tiger (Valmiki National Park)"
+    - "Indian bison"
+  unique:
+    - "Gharial (Gandak river, near Valmiki)"
+    - "Sloth bear"
+    - "Sambar and chital in the plains forests"
+industries:
+  - "Agriculture (rice, wheat, maize, pulses, sugarcane — a leading vegetable and fruit producer)"
+  - "Handloom and handicrafts (Madhubani painting, Sikki craft, Bhagalpur silk)"
+  - "Food processing and sugar"
+  - "Educational and governmental services"
+  - "Tourism (Bodh Gaya, Nalanda, Patna)"
+sports:
+  - "Cricket"
+  - "Field hockey"
+  - "Kabaddi"
+  - "Wrestling (kushti, a strong tradition)"
+entertainment:
+  - season: allYear
+    items:
+      - "Pilgrimage to Bodh Gaya and Patna; Bhojpuri cinema and music"
+  - season: winter
+    items:
+      - "The prime pilgrimage/tourist season for Bodh Gaya (Nov-Mar) and pleasant Chhath-related travel"
+  - season: wet
+    items:
+      - "The monsoon floodplain farming rhythm; temples and museums visited in the rainy season"
+  - season: summer
+    items:
+      - "Hot-season temple festivals; the Buddhist circuit is quieter in the heat"
+  - season: dry
+    items:
+      - "Post-monsoon harvest and the run-up to Chhath (Oct/Nov)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sattu-based dishes (sattu ka paratha, sattu sharbat) and litti-chokha, the signature wheat-and-gram balls with mashed vegetable"
+      - "Khichdi, dal-puri, and the sweets khaja and thekua"
+      - "Fish curry in the Gangetic districts"
+  - season: winter
+    items:
+      - "Warm khichdi, sattu and gur (jaggery) preparations in the cold months"
+  - season: summer
+    items:
+      - "Cooling sattu sharbat and watermelon in the intense heat"
+  - season: wet
+    items:
+      - "Monsoon snacks and steamed rice dishes"
+  - season: dry
+    items:
+      - "Chhath offerings (thekua, rice-based prasad) and post-harvest fare"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the saree and men the dhoti-kurta; farmers in light cotton dhotis"
+  - season: summer
+    items:
+      - "Light cotton wear for the intense heat and dust"
+  - season: wet
+    items:
+      - "Quick-dry cottons and rainwear for the monsoon"
+  - season: winter
+    items:
+      - "Wool shawls and quilted jackets against the cold, foggy winters"
+  - season: dry
+    items:
+      - "Festive dress for Chhath and post-harvest celebrations"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 10:00-17:30 Monday-Friday; agriculture dominates with a seasonal sowing/harvest rhythm."
+  lunchBreakTiming: "A midday lunch break around 13:00-14:00 is common, often rice or roti with dal."
+  notableShutdownPeriods:
+    - period: "Chhath Puja (October/November)"
+      description: "Bihar's most important festival brings several days of closures as families gather at rivers and water bodies."
+sources:
+  - id: bihar-official-language-act
+    name: "The Bihar Official Language Act, 1950 (as amended)"
+    publisher: "Government of Bihar (Legislative Assembly)"
+    url: "https://biharvidhansabha.gov.in/"
+    year: 1950
+    accessedDate: "2026-09-28"
+    note: "Prescribes Hindi as the official language of Bihar, with Urdu having statutory second-official status — the basis for Bihar's coverage trigger 1 (own official regional language beyond the Union default)."
+  - id: bihar-tourism
+    name: "Bihar Tourism"
+    publisher: "Department of Tourism, Government of Bihar"
+    url: "https://bihartourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Bodh Gaya, Nalanda, Patna, Golghar), cuisine, festivals and seasonal highlights for Bihar."

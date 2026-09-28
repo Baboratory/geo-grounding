@@ -1,0 +1,157 @@
+code: IN-MZ
+name:
+  eng: Mizoram
+  local:
+    - languageCode: lus
+      value: Mizoram
+climates:
+  - koppenCode: Cwb
+    description: "Temperate highland monsoon climate across the Mizoram highlands, with a very heavy southwest monsoon and a cool dry winter."
+  - koppenCode: Am
+    description: "Tropical monsoon conditions in the deep river valleys, warm and humid with intense seasonal rain."
+landmarks:
+  - name: Durtlang Hills (Aizawl)
+    description: "The high ridge overlooking the capital Aizawl, with panoramic views over the valleys."
+  - name: Chalfilh / river valleys
+    description: "The dramatic steep valleys and streams of the Mizo highlands, ideal for trekking."
+  - name: Vantawng Falls
+    description: "Mizoram's highest waterfall (750 feet), in the Chhimtuipui river valley."
+  - name: Phawngpui (Blue Mountain)
+    description: "The state's highest peak, a revered viewpoint on the Myanmar border."
+  - name: Tanhril / Aizawl
+    description: "Mizoram's hillside capital, founded on the ridge, with its distinctive church-and-community culture."
+culturalTraits:
+  - "A predominantly Christian Mizo society (one of India's only Christian-majority states), with a strong church-centred community life and a distinct sense of Mizo identity"
+  - "Mizo is the official language; the state is famous for its high literacy and a frontier culture shaped by the 'Reformation' missionary heritage"
+  - "A matrilineal-linked, close-knit hill culture of the Mizo and related Kuki-Chin peoples"
+prideOf:
+  - "A Christian-majority society and its strong literacy and education record"
+  - "Mizo language and music, and the distinctive church and chapel culture of every village"
+  - "Phawngpui and the pristine highland landscape on the Southeast Asian frontier"
+animals:
+  popular:
+    - "Asiatic black bear"
+    - "Serow (goat-antelope of the highlands)"
+    - "Hoolock gibbon"
+  unique:
+    - "Mrs Hume's pheasant (the state bird)"
+    - "Capped langur"
+    - "Takin/mithun (wild cattle of the hills)"
+industries:
+  - "Agriculture (shifting Jhum cultivation; rice, maize, and the state's famed pineapple)"
+  - "Forestry and bamboo products"
+  - "Handloom and handicrafts (Puanchei textiles, bamboo craft)"
+  - "Horticulture (citrus, ginger, turmeric)"
+  - "Tourism (Aizawl, Phawngpui, waterfalls)"
+sports:
+  - "Football"
+  - "Volleyball"
+  - "Cricket"
+  - "Archery (traditional Mizo skill)"
+entertainment:
+  - season: allYear
+    items:
+      - "Church and community life, Mizo music, and the Chapel/Cem (=Village) festivals"
+  - season: winter
+    items:
+      - "The clear cool season for Phawngpui and the highland viewpoints"
+  - season: wet
+    items:
+      - "The heavy monsoon fills waterfalls (Vantawng) and brings lush greenscape"
+  - season: summer
+    items:
+      - "Chapchar Kut (spring festival) celebrates the new sowing with dance and song"
+  - season: dry
+    items:
+      - "The drier months favour trekking and the village circuit"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "The staple of rice with a range of strongly flavoured dishes"
+      - "Bai (a bamboo-shoot and leaf vegetable mash) and sawhchiar (pickled bamboo shoots)"
+      - "Vawksa (roast/fried pork), chhangban and dried-rice preparations"
+  - season: wet
+    items:
+      - "Steamed rice and warm bamboo-shoot dishes in the rainy months"
+  - season: winter
+    items:
+      - "Hearty meat and rice meals in the cool season"
+  - season: summer
+    items:
+      - "Fresh spring vegetables and festival food at Chapchar Kut"
+  - season: dry
+    items:
+      - "Harvest-season rice and village feasts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the distinctive striped puan (traditional wrap) and men the informal wrap; church members often dress smartly in western and silk wear"
+      - "The puanchei textile is the iconic Mizo weaving"
+  - season: winter
+    items:
+      - "Wool wraps and shawls against the cool highland nights"
+  - season: wet
+    items:
+      - "Rainproofs for the very heavy monsoon"
+  - season: summer
+    items:
+      - "Light cotton wear in the warm valleys"
+  - season: dry
+    items:
+      - "Festive puan dress for the post-monsoon celebrations"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+religions:
+  - name: Christianity
+    percent: 87.16
+    sourceId: census-2011-religion
+  - name: Hinduism
+    percent: 2.75
+    sourceId: census-2011-religion
+  - name: Islam
+    percent: 1.35
+    sourceId: census-2011-religion
+  - name: Buddhism
+    percent: 8.08
+    sourceId: census-2011-religion
+  - name: Other
+    percent: 0.66
+    sourceId: census-2011-religion
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:30-17:00 Monday-Friday; Sunday is a day of rest and church attendance widely honoured."
+  lunchBreakTiming: "A midday lunch break around 13:00 is standard."
+  notableShutdownPeriods:
+    - period: "Chapchar Kut (spring) and Christmas"
+      description: "The spring festival and Christmas (widely celebrated in this Christian state) bring closures and community gatherings."
+  notes: "Mizoram is Christian-majority (87.2%, 2011 Census) versus India's Hindu plurality — the basis for Mizoram's coverage trigger 2 (different plurality religion); it also fires trigger 1 via Mizo as official language."
+sources:
+  - id: mizoram-language-act
+    name: "The Mizoram Official Language Act, 1999"
+    publisher: "Government of Mizoram"
+    url: "https://mizoram.gov.in/"
+    year: 1999
+    accessedDate: "2026-09-28"
+    note: "Declares Mizo the official language of the state — the basis for Mizoram's coverage trigger 1 (own official regional language)."
+  - id: census-2011-religion
+    name: "Census of India 2011 — Religion data (state-wise)"
+    publisher: "Office of the Registrar General & Census Commissioner, India"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-28"
+    note: "Mizoram's 2011 religious composition: Christianity 87.16%, Buddhism 8.08%, Hinduism 2.75%, Islam 1.35%, others/not-stated ~0.66%. Christian plurality differs from India's Hindu plurality — Mizoram's trigger-2 basis."
+  - id: mizoram-tourism
+    name: "Mizoram Tourism"
+    publisher: "Department of Tourism, Government of Mizoram"
+    url: "https://mizoramtourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Aizawl, Phawngpui, Vantawng), culture, cuisine and seasonal highlights for Mizoram."

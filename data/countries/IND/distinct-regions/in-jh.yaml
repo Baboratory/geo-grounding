@@ -1,0 +1,134 @@
+code: IN-JH
+name:
+  eng: Jharkhand
+  local:
+    - languageCode: hin
+      value: झारखंड
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate over the Chota Nagpur plateau, with hot summers, a strong southwest monsoon and cool dry winters."
+  - koppenCode: Aw
+    description: "Tropical savanna pockets in the eastern lowlands, somewhat warmer than the plateau."
+landmarks:
+  - name: Baidyanath Dham (Deoghar)
+    description: "One of the twelve jyotirlingas and a major Shiva pilgrimage town."
+  - name: Netarhat
+    description: "A hill station of the Chota Nagpur plateau, famed for its sunrises over the forests."
+  - name: Betla National Park
+    description: "A forested wildlife sanctuary of tiger, elephant and the first Indian national park in the region."
+  - name: Hundru and Dassam Falls
+    description: "Spectacular waterfalls on the Subarnarekha and Koel rivers near Ranchi."
+  - name: Ranchi Hill and Tagore Hill
+    description: "Hilltop viewpoints and heritage sites overlooking the state capital."
+culturalTraits:
+  - "The tribal heartland of India — home of the Santal, Oraon, Munda, Ho and Kharia peoples and of their distinct festivals, music and crafts"
+  - "Hindi is the official language; Santali (and other tribal languages) are additional/second-official languages under the Eighth Schedule"
+  - "A rich mineral-wealth industrial state (the 'Ruhr of India') channelled into steel and mining around Jamshedpur and Dhanbad"
+prideOf:
+  - "A proud tribal heritage and the artwork (Sohrai, Jadupatua) of its indigenous communities"
+  - "Baidyanath Dham and the sacred Sarhul/Phagu/Poush tribal festivals"
+  - "The industrial heritage of Jamshedpur (Tata Steel) and Dhanbad coalfields"
+animals:
+  popular:
+    - "Bengal tiger"
+    - "Asian elephant"
+    - "Indian bison (gaur)"
+  unique:
+    - "Jerdon's courser (critically endangered, in the region)"
+    - "Indian giant squirrel (Malabar giant squirrel range)"
+    - "Blackbuck and sambar in the plateau reserves"
+industries:
+  - "Mining (coal, iron ore — Dhanbad, Bokaro) and steel (Jamshedpur/Tata Steel)"
+  - "Agriculture (rice, pulses, and the region's horticulture)"
+  - "Forest produce, lac and silk (tasar)"
+  - "Handicrafts and tribal crafts"
+  - "Tourism (Baidyanath Dham, Netarhat, Betla)"
+sports:
+  - "Cricket"
+  - "Field hockey"
+  - "Kabaddi"
+  - "Football"
+  - "Archery (a traditional tribal sport)"
+entertainment:
+  - season: allYear
+    items:
+      - "Tribal festivals — Sarhul (spring), Phagu, Pous — and traditional Santal music and dance"
+      - "Pilgrimage at Baidyanath Dham"
+  - season: winter
+    items:
+      - "The pleasant cool season for Netarhat, Betla and the temple circuit"
+  - season: wet
+    items:
+      - "The monsoon brings the dramatic waterfalls (Hundru, Dassam) to full flow"
+  - season: summer
+    items:
+      - "Hot-season temple festivals; the plateau's hill resorts offer some cooler air"
+  - season: dry
+    items:
+      - "The dry post-monsoon harvest season and related tribal fairs"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Rugda (mushroom) curry, handia (fermented rice beer) traditions, and dhuska (rice-flour pancake)"
+      - "Litti-chokha (also common, shared with Bihar) and malpua"
+      - "Thekua and chura-dahi in harvest season"
+  - season: wet
+    items:
+      - "Steamed rice and forest-dish liver/leaf preparations in the rainy season"
+  - season: winter
+    items:
+      - "Gur-jaggery sweets and warm dal-bhat in the cool months"
+  - season: summer
+    items:
+      - "Cooling buttermilk and mahua-based refreshments in the heat"
+  - season: dry
+    items:
+      - "Harvest-season rice dishes and tribal feasts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the saree or tribal panchi (wrapped skirt) and men the dhoti-kurta; Santhal dress includes the traditional strip"
+  - season: summer
+    items:
+      - "Light cotton wear against the heat"
+  - season: wet
+    items:
+      - "Rainwear and quick-dry cottons for the monsoon"
+  - season: winter
+    items:
+      - "Wool shawls and wraps for the cool plateau evenings"
+  - season: dry
+    items:
+      - "Festive tribal wear for the post-harvest celebrations"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 10:00-17:30 Monday-Friday; industrial shift-work is common in Jamshedpur/Dhanbad."
+  lunchBreakTiming: "A midday lunch break around 13:00 is standard, often a full rice-and-dal meal."
+  notableShutdownPeriods:
+    - period: "Sohrai/tribal harvest festivals (post-monsoon)"
+      description: "The main tribal harvest festivals bring localised closures in the autumn."
+sources:
+  - id: jharkhand-official-language
+    name: "The Jharkhand Official Language (Amendment) Act and the additional-official status of tribal languages"
+    publisher: "Government of Jharkhand / Eighth Schedule of the Constitution"
+    url: "https://jharkhand.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Hindi is the official language; Santali and other tribal languages (including Sadri/Nagpuri, Khortha, Kurmali, and Munda languages) hold second-official/additional recognition — the basis for Jharkhand's coverage trigger 1 (own official regional languages beyond Hindi/English)."
+  - id: jharkhand-tourism
+    name: "Jharkhand Tourism"
+    publisher: "Department of Tourism, Government of Jharkhand"
+    url: "https://jharkhandtourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Baidyanath Dham, Netarhat, Betla, waterfalls), tribal culture, cuisine and seasonal highlights for Jharkhand."

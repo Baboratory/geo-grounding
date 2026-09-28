@@ -1,0 +1,133 @@
+code: IN-TS
+name:
+  eng: Telangana
+  local:
+    - languageCode: tel
+      value: తెలంగాణ
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate over the Deccan plateau, hot year-round with a heavy southwest monsoon and a mild dry winter."
+  - koppenCode: BSh
+    description: "Hot semi-arid pockets in the western districts, with low and erratic rainfall."
+landmarks:
+  - name: Charminar (Hyderabad)
+    description: "The iconic four-minaret monument at the heart of old Hyderabad, symbol of the city."
+  - name: Golconda Fort
+    description: "The great citadel of the Qutb Shahi sultans, famed for its acoustic marvels and diamond trade."
+  - name: Qutb Shahi Tombs
+    description: "The imperial necropolis of the Golconda dynasty on the outskirts of Hyderabad."
+  - name: Ramoji Film City
+    description: "One of the world's largest film studio complexes, on the eastern edge of Hyderabad."
+  - name: Hussain Sagar Lake
+    description: "The artificial lake bisecting Hyderabad, dominated by the monolith of the Buddha statue."
+culturalTraits:
+  - "Forged in 2014 from the northern part of Andhra Pradesh, with a distinct Telangana identity, dialect of Telugu and a shared Hyderabadi (Deccani) heritage"
+  - "Telugu is the official language with Urdu recognised as a second official; Hyderabad blends a cosmopolitan IT hub with a Mughal/Qutb Shahi old-city legacy"
+  - "A land of stark Deccan landscape, a distinct 'Hyderabadi' cuisine and India's leading information-technology city after Bengaluru"
+prideOf:
+  - "Hyderabad's Nizam-era heritage (Charminar, Golconda) and the old-city culture"
+  - "Hyderabadi cuisine — biryani, kebabs, and the Deccani delicacies"
+  - "The IT boom of Hyderabad (HITEC City, T-Hub)"
+animals:
+  popular:
+    - "Bengal tiger"
+    - "Indian bison (gaur)"
+    - "Leopard"
+  unique:
+    - "Pangolin (in the forests of the Nallamala)"
+    - "Chital and barebacked quail"
+    - "The endangered Gyps vultures of the Deccan"
+industries:
+  - "Information technology and ITES (Hyderabad — HITEC City, T-Hub start-ups)"
+  - "Pharmaceuticals and biotech (a leading Indian cluster, 'Genome Valley')"
+  - "Film (Tollywood/Telugu cinema) in Hyderabad's studios"
+  - "Agriculture (rice, cotton, chillies) and the fish-farming economy"
+  - "Tourism (Charminar, Golconda, Ramoji)"
+sports:
+  - "Cricket"
+  - "Kho-kho and kabaddi"
+  - "Field hockey"
+  - "Football (Hyderabad's ISL club)"
+entertainment:
+  - season: allYear
+    items:
+      - "Telugu cinema, Deccani Urdu poetry (Ganga-Jamuni culture) and the old-city food-and-heritage circuit"
+  - season: winter
+    items:
+      - "The pleasant cool season for Golconda, the old city and South-India heritage tours"
+  - season: wet
+    items:
+      - "The monsoon refreshes the Deccan; lakes (Hussain Sagar) and parks at their fullest"
+  - season: summer
+    items:
+      - "Hot-season festivals and the Nizam-era palaces; museums are favoured in the heat"
+  - season: dry
+    items:
+      - "The dry post-monsoon season for wildlife and the Deccan landscape"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Hyderabadi biryani, haleem (particularly during Ramadan), kebabs and the absorbent roti/paya"
+      - "Stir-fries with a unique Telangana use of chillies and the signature 'Gongura' style preparations"
+      - "The city's Irani cafés (Irani chai, Osmania biscuits)"
+  - season: winter
+    items:
+      - "Warm biryani and nihari-style dishes in the cool season"
+  - season: summer
+    items:
+      - "Cooling lassi and Irani cold drinks against the Deccan heat"
+  - season: wet
+    items:
+      - "Monsoon snacks — pakoras and Irani chai"
+  - season: dry
+    items:
+      - "Festival-season biryanis and the Ramadan haleem around the old city"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the saree or salwar-kameez; the Hyderabadi city dress for men is the pyjama-kurta (Sherwani for occasions)"
+      - "Traditional Deccani jewellery (Heera/Temple) is worn at weddings"
+  - season: summer
+    items:
+      - "Light breathable cottons for the intense heat"
+  - season: wet
+    items:
+      - "Quick-dry cottons and rainwear for the monsoon"
+  - season: winter
+    items:
+      - "Thin shawls and sweaters for the cool Deccan nights"
+  - season: dry
+    items:
+      - "Festive dress for the celebratory post-monsoon season"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and the IT sector typically run 09:30-18:00 Monday-Friday; Hyderabad's software parks follow standard Indian IT hours."
+  lunchBreakTiming: "A lunch break around 13:00-14:00 is common."
+  notableShutdownPeriods:
+    - period: "Ramadan and Eid (when these fall)"
+      description: "Hyderabad's large Muslim population makes Ramadan a pronounced season, with late-night haleem stalls and adjusted hours in the old city."
+sources:
+  - id: telangana-language-act
+    name: "The Telangana Official Language Act, 1966 (adapted 2016) — Telugu official, Urdu recognised"
+    publisher: "Government of Telangana (Law Department)"
+    url: "https://law.telangana.gov.in/"
+    year: 1966
+    accessedDate: "2026-09-28"
+    note: "Keeps Telugu as the official language of Telangana (with Urdu's recognition carried through the AP/Telangana split per the 1966 Act as adapted 2016) — the basis for Telangana's coverage trigger 1 (own official regional language)."
+  - id: telangana-tourism
+    name: "Telangana Tourism"
+    publisher: "Department of Tourism, Government of Telangana"
+    url: "https://telanganatourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Charminar, Golconda, Qutb Shahi tombs, Ramoji), cuisine, culture and seasonal highlights for Telangana."

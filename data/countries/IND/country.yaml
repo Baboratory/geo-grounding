@@ -77,12 +77,12 @@ regionCoverage:
   totalUnits: 36
   status: partial
 
-  gapReason: "11 of 36 curated (PR-1: AS/OD/TR/UP; PR-2: AP/GA/KL/PB/SK).
-    ~14 confirmed trigger-firing units remain — 12 trigger-1 (BR/JH/MN/MZ/
-    TS/UK/JK/LA/PY/CH + LD/DH weaker), 2 religion-only (ML/NL Christian),
-    2 climate-only (HP/AR) — plus AN flagged for a second look. 4 units
-    (CG/HR/MP/RJ) checked negative. Progress tracked in issue #101; PR-3+
-    continue the batch."
+
+  gapReason: "16 of 36 curated (PR-1: AS/OD/TR/UP; PR-2: AP/GA/KL/PB/SK;
+    PR-3: BR/JH/MN/MZ/TS). Remaining confirmed: 7 trigger-1 (UK/JK/LA/PY/CH +
+    LD/DH weaker), 2 religion-only (ML/NL Christian), 2 climate-only (HP/AR) —
+    plus AN flagged for a second look. 4 units (CG/HR/MP/RJ) checked negative.
+    Progress tracked in issue #101; PR-4 continues the batch."
 
 languageUsage:
   - languageCode: hin
@@ -183,6 +183,7 @@ distinct-regions:
     file: distinct-regions/in-wb.yaml
     adminUnitCodes: [IN-WB]
 
+
   - code: IN-AS
     file: distinct-regions/in-as.yaml
     adminUnitCodes: [IN-AS]
@@ -211,6 +212,23 @@ distinct-regions:
   - code: IN-SK
     file: distinct-regions/in-sk.yaml
     adminUnitCodes: [IN-SK]
+
+
+  - code: IN-BR
+    file: distinct-regions/in-br.yaml
+    adminUnitCodes: [IN-BR]
+  - code: IN-JH
+    file: distinct-regions/in-jh.yaml
+    adminUnitCodes: [IN-JH]
+  - code: IN-MN
+    file: distinct-regions/in-mn.yaml
+    adminUnitCodes: [IN-MN]
+  - code: IN-MZ
+    file: distinct-regions/in-mz.yaml
+    adminUnitCodes: [IN-MZ]
+  - code: IN-TS
+    file: distinct-regions/in-ts.yaml
+    adminUnitCodes: [IN-TS]
 
 sources:
   - id: gol-art343
@@ -255,3 +273,4 @@ sources:
     year: 2026
     accessedDate: "2026-09-21"
     note: "Unified GST in slabs 5/12/18/28%; the 18% band covers most services and many consumer goods."
+
