@@ -78,8 +78,9 @@ regionCoverage:
   status: partial
 
 
-  gapReason: "26 of 36 curated (PR-1: AS/OD/TR/UP; PR-2: AP/GA/KL/PB/SK;
-    PR-3: BR/JH/MN/MZ/TS; PR-4: UK/JK/LA/PY/CH/ML/NL/HP/AR/LD). Remaining:
+  gapReason: "30 of 36 curated (6 pre-existing: DL/GJ/KA/MH/TN/WB; plus
+    PR-1: AS/OD/TR/UP; PR-2: AP/GA/KL/PB/SK; PR-3: BR/JH/MN/MZ/TS; PR-4:
+    UK/JK/LA/PY/CH/ML/NL/HP/AR/LD). Remaining:
     DH (Dadra & Nagar Haveli and Daman & Diu) — trigger-1 only if an own
     official-language designation is established; AN — flagged for a second
     look (Nicobarese Christian minority unresolved). 4 units (CG/HR/MP/RJ)
