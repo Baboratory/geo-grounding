@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Validate all data/**/*.yaml files against schema/*.schema.json, plus
 cross-references:
-- languageUsage[].languageCode against data/languages/*.yaml
+- languageUsage[].languageCode and name.local[].languageCode (both country
+  and region files) against data/languages/*.yaml
 - every sourceId (ethnicGroups, languageUsage, religions, legalConstraints,
   paymentMethodShares, businessRhythm.notableShutdownPeriods,
   businessRhythm.sourceIds) against that same file's own sources[].id —
@@ -138,6 +139,26 @@ def validate_all(root: Path = ROOT) -> int:
                     f"but speakersShare {entry.get('speakersShare')!r} — official is a "
                     f"legal-status flag and must always be 1.0 (see DESIGN.md); actual "
                     f"usage belongs in a separate 'locallySpoken' entry for the same code"
+                )
+        for entry in data.get("name", {}).get("local", []):
+            code = entry["languageCode"]
+            if code not in known_language_codes:
+                error_count += 1
+                print(
+                    f"FAIL {path}: name.local references unknown languageCode '{code}' "
+                    f"(no data/languages/{code}.yaml)"
+                )
+
+    for path in sorted(glob.glob(str(root / "data/countries/*/distinct-regions/*.yaml"))):
+        with open(path) as f:
+            data = yaml.safe_load(f)
+        for entry in (data or {}).get("name", {}).get("local", []):
+            code = entry["languageCode"]
+            if code not in known_language_codes:
+                error_count += 1
+                print(
+                    f"FAIL {path}: name.local references unknown languageCode '{code}' "
+                    f"(no data/languages/{code}.yaml)"
                 )
 
     def check_source_ids(path: str, data: dict) -> int:
