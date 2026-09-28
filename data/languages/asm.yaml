@@ -1,0 +1,8 @@
+code: asm
+name:
+  eng: Assamese
+  local: অসমীয়া
+commonPhrases:
+  hello: "নমস্কাৰ"
+  thankYou: "ধন্যবাদ"
+  goodbye: "বিদায়"

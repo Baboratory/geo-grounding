@@ -76,12 +76,12 @@ regionCoverage:
   tier: first-level
   totalUnits: 36
   status: partial
-  gapReason: "6 of 36 curated. ~20 of the remaining 30 units are confirmed
-    or likely trigger-firing (see the comment above for the full breakdown
-    by trigger and unit) -- by far the largest confirmed gap found in the
-    coverage re-audit so far. 4 units (CG/HR/MP/RJ) checked negative; AN
-    checked negative but not exhaustively. Queued for curation (see TODO.md
-    and the GitHub issue tracking this batch)."
+  gapReason: "10 of 36 curated (PR-1 added IN-AS, IN-OD, IN-TR, IN-UP).
+    ~19 of the remaining 26 units are confirmed or likely trigger-firing
+    (see the comment above for the full breakdown by trigger and unit) --
+    by far the largest confirmed gap found in the coverage re-audit so far.
+    4 units (CG/HR/MP/RJ) checked negative; AN checked negative but not
+    exhaustively. Progress tracked in issue #101; PR-2+ continue the batch."
 languageUsage:
   - languageCode: hin
     domain: official
@@ -180,6 +180,18 @@ distinct-regions:
   - code: IN-WB
     file: distinct-regions/in-wb.yaml
     adminUnitCodes: [IN-WB]
+  - code: IN-AS
+    file: distinct-regions/in-as.yaml
+    adminUnitCodes: [IN-AS]
+  - code: IN-OD
+    file: distinct-regions/in-od.yaml
+    adminUnitCodes: [IN-OD]
+  - code: IN-TR
+    file: distinct-regions/in-tr.yaml
+    adminUnitCodes: [IN-TR]
+  - code: IN-UP
+    file: distinct-regions/in-up.yaml
+    adminUnitCodes: [IN-UP]
 sources:
   - id: gol-art343
     name: "Constitution of India — Part XVII, Article 343 (Official Language of the Union)"

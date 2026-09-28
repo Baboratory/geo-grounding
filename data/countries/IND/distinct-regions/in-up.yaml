@@ -1,0 +1,138 @@
+code: IN-UP
+name:
+  eng: Uttar Pradesh
+  local:
+    - languageCode: hin
+      value: उत्तर प्रदेश
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate across the Gangetic plain, with very hot dry summers, a strong southwest monsoon and cool foggy winters."
+  - koppenCode: BSh
+    description: "Hot semi-arid pockets in the west (bundelkhand fringe) with low and erratic rainfall."
+landmarks:
+  - name: Taj Mahal (Agra)
+    description: "The marble mausoleum built by Shah Jahan for Mumtaz Mahal, the most iconic UNESCO World Heritage Site in India."
+    unescoWorldHeritage: true
+  - name: Agra Fort
+    description: "The great Mughal red-sandstone fortress on the Yamuna, a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Fatehpur Sikri
+    description: "Akbar's 16th-century imperial capital, a well-preserved UNESCO-listed Mughal city north of Agra."
+    unescoWorldHeritage: true
+  - name: Kashi Vishwanath Temple (Varanasi)
+    description: "The holiest Shiva temple, on the ghats of the Ganges in Varanasi, one of Hinduism's holiest cities."
+  - name: Ram Janmabhoomi / Ayodhya
+    description: "The city held as the birthplace of Lord Rama, site of the grand Ram Mandir (consecrated 2024)."
+culturalTraits:
+  - "The heartland of Hindi and of the Gangetic plain, home of the Ramayana's Ayodhya and the sacred ghats of Varanasi"
+  - "A rich Awadhi and Mughal cultural legacy — Lucknow's refinement, palaces and kebabs, plus the ancient Buddhist sites of Sarnath and Kushinagar"
+  - "A vast, populous state whose cities (Agra, Varanasi, Lucknow, Allahabad/Prayagraj) anchor Indian history"
+prideOf:
+  - "The Taj Mahal and the imperial heritage of Agra"
+  - "The sacred city of Varanasi and the Kumbh Mela at Prayagraj"
+  - "Ayodhya and the Ramayana tradition; the culinary refinement of Lucknow"
+animals:
+  popular:
+    - "Bengal tiger"
+    - "Asian elephant"
+    - "Ganges river dolphin (national aquatic animal, in the Ganga)"
+  unique:
+    - "Swamp deer (Dudhwa National Park)"
+    - "One-horned rhinoceros (reintroduced to Dudhwa)"
+    - "Gharial (rare crocodilian of the Ganga tributaries)"
+industries:
+  - "Agriculture (rice, wheat, sugarcane — a leading sugar producer)"
+  - "Textiles and leather (Kanpur, Agra footwear)"
+  - "Handicrafts (Moradabad brassware, Varanasi silk, Firozabad bangles)"
+  - "IT and services in the Noida/Lucknow corridors"
+  - "Tourism (Agra, Varanasi, Lucknow, Prayagraj)"
+sports:
+  - "Cricket (a national powerhouse)"
+  - "Field hockey"
+  - "Kabaddi"
+  - "Wrestling (kushti, a strong tradition)"
+  - "Football (growing)"
+entertainment:
+  - season: allYear
+    items:
+      - "The temple-and-ghat culture of Varanasi and the Mughal heritage of Agra"
+      - "Lucknow's refined Awadhi culture, poetry (mushaira) and music"
+  - season: winter
+    items:
+      - "The prime tourist season — Mughal monuments and the Kumbh Mela at Prayagraj (held in winter cycles)"
+  - season: wet
+    items:
+      - "Monsoon ceremonies on the Ganga ghats; Ganga aarti evenings year-round"
+  - season: summer
+    items:
+      - "Summer temple festivals; Ram navami and Moharram processions in the hot season"
+  - season: dry
+    items:
+      - "Great Indian Car rally / heritage and wildlife-watching in the drier months"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Awadhi cuisine — kebabs, biryani, korma and the Lucknowi spread"
+      - "Samosas, chaat (pani puri, aloo tikki) and kachori"
+      - "Sweets like petha (Agra), balushahi, jalebi and rabri"
+  - season: winter
+    items:
+      - "Sarson ka saag and makki ki roti, gajar ka halwa and warm lassi in the cold months"
+  - season: summer
+    items:
+      - "Cooling drinks — lassi, thandai (Varanasi) and fresh fruit; light meals in the heat"
+  - season: wet
+    items:
+      - "Monsoon street food — pakoras, bhutta (roasted corn) — and spiced tea"
+  - season: dry
+    items:
+      - "Festival sweets around Diwali and the dry post-monsoon season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the saree or salwar-kameez; men the kurta-pyjama, often with the bedgown-style Lucknowi kurta (chikankari)"
+      - "Varanasi silk sarees (Banarasi) for weddings and festivals"
+  - season: summer
+    items:
+      - "Light cotton kurta and cotton sarees for the intense heat"
+  - season: wet
+    items:
+      - "Quick-dry cottons and rainwear for the monsoon"
+  - season: winter
+    items:
+      - "Wool shawls, sweaters and quilted jackets against the cold, foggy winters"
+  - season: dry
+    items:
+      - "Festive party dress in the post-monsoon celebration season"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and shops typically operate 10:00-17:30 Monday-Friday with Saturday working in many private sectors; Lucknow/Noida commercial activity follows standard India working hours."
+  lunchBreakTiming: "A midday lunch break around 13:00-14:00, often a full meal of flatbreads and dal."
+  notableShutdownPeriods:
+    - period: "Kumbh Mela at Prayagraj"
+      description: "During Kumbh Mela cycles, the festival city draws huge crowds and local businesses adapt around pilgrimage dates."
+sources:
+  - id: up-language-act
+    name: "The Uttar Pradesh Official Language Act, 1951 (as amended)"
+    publisher: "Government of Uttar Pradesh"
+    url: "https://uplegisassembly.gov.in/"
+    year: 1951
+    accessedDate: "2026-09-28"
+    note: "Prescribes Hindi as the official language of the state (and Urdu for judicial/official purposes in 1989), the basis for Uttar Pradesh's coverage trigger 1 (own official regional language distinct from the Union default)."
+  - id: up-tourism
+    name: "Uttar Pradesh Tourism"
+    publisher: "Department of Tourism, Government of Uttar Pradesh"
+    url: "https://uptourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Agra, Varanasi, Ayodhya, Lucknow), culture, cuisine and seasonal highlights for Uttar Pradesh."

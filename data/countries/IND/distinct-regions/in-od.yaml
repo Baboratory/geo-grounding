@@ -1,0 +1,127 @@
+code: IN-OD
+name:
+  eng: Odisha
+  local:
+    - languageCode: ory
+      value: ଓଡ଼ିଶା
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate over the coastal plain, hot year-round with a heavy southwest monsoon; the highlands inland are somewhat cooler."
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate in the northern and hilly parts of the state."
+landmarks:
+  - name: Sun Temple, Konark
+    description: "The 13th-century Kalinga-style temple to the sun god Surya, sculpted as a colossal stone chariot; a UNESCO World Heritage Site."
+    unescoWorldHeritage: true
+  - name: Jagannath Temple (Puri)
+    description: "One of India's holiest Hindu temples, home of the Deity trio Jagannath, Balabhadra and Subhadra and of the annual Rath Yatra."
+  - name: Lingaraja Temple (Bhubaneswar)
+    description: "The great 11th-century temple of the Kalinga school dominating the capital's skyline."
+  - name: Chilika Lake
+    description: "Asia's largest brackish lagoon, a Ramsar wetland famed for its Irrawaddy dolphins and migratory birds."
+  - name: Dhauli (Kalinga War site)
+    description: "The hill near Bhubaneswar where Emperor Ashoka renounced violence after the Kalinga War, site of the rock edicts and peace stupa."
+culturalTraits:
+  - "A proud Odia-speaking identity with a Kalinga heritage and the Jagannath religious culture radiating from Puri"
+  - "Renowned for classical Odissi dance, Pattachitra painting and tribal (Santal, Kandha) craft traditions"
+  - "A strong coastal and fishing culture along the Bay of Bengal"
+prideOf:
+  - "The Jagannath Rath Yatra at Puri and the Sun Temple of Konark"
+  - "Odissi dance and the sculptural Kalinga architectural legacy"
+  - "Chilika Lake and the state's celebrated temple towns"
+animals:
+  popular:
+    - "Bengal tiger"
+    - "Asian elephant"
+    - "Irrawaddy dolphin (Chilika)"
+  unique:
+    - "Olive ridley sea turtle (mass nesting at Gahirmatha)"
+    - "Blackbuck (Balukhand-Baliapal)"
+    - "Sambar and gaur in the Similipal forests"
+industries:
+  - "Mining (iron ore, coal, bauxite) and downstream steel and aluminium"
+  - "Agriculture (rice, pulses, fish)"
+  - "Handloom and handicrafts (Ikat sarees, Pattachitra, silver filigree)"
+  - "Tourism (Puri, Konark, Chilika, Similipal)"
+sports:
+  - "Cricket"
+  - "Field hockey"
+  - "Kabaddi"
+  - "Traditional wrestling (a strong akhada tradition)"
+entertainment:
+  - season: allYear
+    items:
+      - "Odissi dance and Pattachitra storytelling"
+      - "Temple towns: Puri, Bhubaneswar and Konark marriage-tour circuits"
+  - season: winter
+    items:
+      - "The pleasant season for beach and temple travel, and the Konark Dance Festival (Dec)"
+  - season: wet
+    items:
+      - "Temples and museums in the monsoon; coastal rains refresh the landscape"
+  - season: summer
+    items:
+      - "The Rath Yatra at Puri (June/July in the hot-to-monsoon transition)"
+  - season: dry
+    items:
+      - "Chilika bird-watching and wildlife parks in the drier months"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pakhaḷa (fermented rice) and chena poda (roasted cottage-cheese sweet)"
+      - "Rasagola and chhena sweets from the coastal districts"
+      - "Fish curry and dālma (mixed-vegetable lentil stew)"
+  - season: winter
+    items:
+      - "Sweet warm preparations and pithas (rice cakes) made from the winter harvest"
+  - season: wet
+    items:
+      - "Pakhala and light steamed dishes in the humid monsoon"
+  - season: summer
+    items:
+      - "Cooling buttermilk (takra) and fresh fruit in the heat"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the saree (Ikat and Sambalpuri-style) and men the dhoti-kurta; Odissi dancers wear the traditional Kalinga silk"
+  - season: dry
+    items:
+      - "Light breathable cottons for the heat"
+  - season: wet
+    items:
+      - "Rainwear and quick-dry clothes for the monsoon"
+  - season: winter
+    items:
+      - "Thin shawls in the cool coastal mornings"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 10:00-17:00/17:30 Monday-Friday; government offices follow the state's working-hours pattern. Rourkela/Bhubaneswar industrial belts operate shifts."
+  lunchBreakTiming: "A midday lunch break around 13:00 is common, often a full rice-and-dal meal."
+  notableShutdownPeriods:
+    - period: "Rath Yatra (June/July)"
+      description: "Puri's Rath Yatra and the temple-festival season bring localised closures; the Jagannath ceremonies dominate the coastal calendar."
+sources:
+  - id: odisha-official-language
+    name: "The Orissa Official Language Act, 1954 (as amended)"
+    publisher: "Government of Odisha"
+    url: "https://www.odisha.gov.in/"
+    year: 1954
+    accessedDate: "2026-09-28"
+    note: "Prescribes Odia as the official language of the state, the basis for Odisha's coverage trigger 1 (own official regional language)."
+  - id: odisha-tourism
+    name: "Odisha Tourism"
+    publisher: "Department of Tourism, Government of Odisha"
+    url: "https://odishatourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Konark, Puri, Bhubaneswar, Chilika), culture, cuisine and seasonal highlights for Odisha."
