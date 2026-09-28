@@ -68,23 +68,20 @@ regionCoverage:
   # Checked and NOT found to fire (negative findings, lower confidence than
   # CHN's -- worth a second look before treating as final): CG, HR, MP, RJ
   # (all Hindi-only official language, no distinct climate class, no
-  # confirmed differing religious plurality found). AN (Andaman & Nicobar)
-  # also checked negative -- no distinct official language, Aw/Am climate
-  # already covered by TN/MH -- but its religious composition (a real
-  # Nicobarese Christian minority) wasn't fully run down; flagged rather
-  # than asserted.
+  # confirmed differing religious plurality found). DH (Dadra & Nagar
+  # Haveli and Daman & Diu): official languages Hindi + Gujarati -- no
+  # designation exclusive to the UT (Gujarati is Gujarat's majority lang,
+  # Marathi is Maharashtra's, Hindi is national), religion ~92% Hindu (no
+  # differing plurality), Aw/tropical already covered -- fires no trigger.
+  # AN (Andaman & Nicobar): Hindu plurality ~69% leaves religion aligned
+  # with India's Hindu plurality (the Nicobarese Christian community ~21% is
+  # a minority, not a plurality), no own official language, Aw/Am climate
+  # already covered by TN/MH -- fires no trigger. Remaining units CG, HR, MP,
+  # RJ, DH, AN all checked negative, so every trigger-firing subdivision is
+  # covered and coverage for IND at first-level is complete.
   tier: first-level
   totalUnits: 36
-  status: partial
-
-
-  gapReason: "30 of 36 curated (6 pre-existing: DL/GJ/KA/MH/TN/WB; plus
-    PR-1: AS/OD/TR/UP; PR-2: AP/GA/KL/PB/SK; PR-3: BR/JH/MN/MZ/TS; PR-4:
-    UK/JK/LA/PY/CH/ML/NL/HP/AR/LD). Remaining:
-    DH (Dadra & Nagar Haveli and Daman & Diu) — trigger-1 only if an own
-    official-language designation is established; AN — flagged for a second
-    look (Nicobarese Christian minority unresolved). 4 units (CG/HR/MP/RJ)
-    checked negative. Progress tracked in issue #101."
+  status: complete
 
 languageUsage:
   - languageCode: hin
