@@ -26,17 +26,62 @@ governanceType: federal
 iso3166_2_prefix: IN
 hasSubdivisions: true
 regionCoverage:
-  # Count per ISO 3166-2 as of 2026-09. The uncurated units have NOT yet been
-  # tested against DESIGN.md's five coverage triggers -- this declaration records
-  # the gap so it is visible, not a finding that the gap is correct. Pending the
-  # coverage re-audit (see TODO.md).
+  # Assessed 2026-09-28 (coverage-floor re-audit, TODO.md). India is the most
+  # trigger-dense country checked so far: of the 30 uncurated first-level
+  # units, ~20 fire at least one trigger. Findings:
+  #
+  # Trigger 1 (own official language, via Constitution Art. 345 -- states may
+  # legislate their own official language(s) beyond/instead of Hindi) --
+  # CONFIRMED for: AP (Telugu), AS (Assamese), BR (Urdu as 2nd official), GA
+  # (Konkani), JH (Santali + other 2nd official tribal languages), KL
+  # (Malayalam), MN (Manipuri/Meitei), MZ (Mizo), OD (Odia), PB (Punjabi), SK
+  # (Nepali/Bhutia/Lepcha/Limbu), TS (Telugu+Urdu), TR (Bengali+Kokborok), UP
+  # (Urdu as 2nd official), UK (Sanskrit as 2nd official -- nationally
+  # unique), JK (Kashmiri/Dogri/Urdu, 2020 Official Languages Act), LA
+  # (Ladakhi/Purgi/Tibetan), PY (French -- nationally unique colonial-era
+  # status, plus Tamil/Malayalam/Telugu across its exclaves), CH (Punjabi,
+  # shared with Punjab). LD (Malayalam) and DH (Gujarati/Marathi/Konkani) are
+  # weaker trigger-1 cases -- the languages are official but also the
+  # majority language of an already-curated or adjacent state; note but
+  # verify before curating on this basis alone.
+  #
+  # Trigger 2 (plurality religion differs from India's Hindu plurality,
+  # ~79.8%) -- CONFIRMED: ML Christian ~70%, NL Christian ~88-90%, MZ
+  # Christian ~87% (also fires trigger 1), PB Sikh ~54-58% (also trigger 1),
+  # JK Muslim ~68% (also trigger 1), LD Muslim ~96.6% (the strongest single
+  # finding in this batch -- highest Muslim share of any Indian state/UT).
+  # ML and NL matter most here: English is their sole official language,
+  # same as the country's co-official default, so they do NOT clear trigger
+  # 1 -- religion is what puts them on the list at all.
+  #
+  # Trigger 5 (Koppen main class differs from the curated set's A/B/C) --
+  # the six curated regions cover Aw/Am/BSh/Cwa/Cwb only; D and E are
+  # entirely unrepresented. CONFIRMED for AR (Dfc), SK (Dfc, also trigger 1),
+  # UK (ET at altitude, also trigger 1), HP (Dfc in Lahaul-Spiti and similar
+  # high districts, despite Cwb lower down -- HP does NOT fire trigger 1,
+  # Hindi is its sole official language, so climate is the only reason it's
+  # on this list). LA likely also fires this (high-altitude cold
+  # desert/tundra) but already qualifies via trigger 1. RJ's Thar desert
+  # (BWh) does NOT fire trigger 5 -- it shares main class B with GJ's
+  # already-curated BSh; DESIGN.md's trigger is explicitly main-class-only.
+  #
+  # Checked and NOT found to fire (negative findings, lower confidence than
+  # CHN's -- worth a second look before treating as final): CG, HR, MP, RJ
+  # (all Hindi-only official language, no distinct climate class, no
+  # confirmed differing religious plurality found). AN (Andaman & Nicobar)
+  # also checked negative -- no distinct official language, Aw/Am climate
+  # already covered by TN/MH -- but its religious composition (a real
+  # Nicobarese Christian minority) wasn't fully run down; flagged rather
+  # than asserted.
   tier: first-level
   totalUnits: 36
   status: partial
-  gapReason: "6 of 36 first-level units curated. Which of the
-    remaining units fire a coverage trigger has not been assessed yet -- the
-    curated set predates the coverage floor and was chosen by size/capital,
-    not by divergence. Queued for the coverage re-audit."
+  gapReason: "6 of 36 curated. ~20 of the remaining 30 units are confirmed
+    or likely trigger-firing (see the comment above for the full breakdown
+    by trigger and unit) -- by far the largest confirmed gap found in the
+    coverage re-audit so far. 4 units (CG/HR/MP/RJ) checked negative; AN
+    checked negative but not exhaustively. Queued for curation (see TODO.md
+    and the GitHub issue tracking this batch)."
 languageUsage:
   - languageCode: hin
     domain: official
