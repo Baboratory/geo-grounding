@@ -76,12 +76,14 @@ regionCoverage:
   tier: first-level
   totalUnits: 36
   status: partial
-  gapReason: "10 of 36 curated (PR-1 added IN-AS, IN-OD, IN-TR, IN-UP).
-    ~19 of the remaining 26 units are confirmed or likely trigger-firing
-    (see the comment above for the full breakdown by trigger and unit) --
-    by far the largest confirmed gap found in the coverage re-audit so far.
-    4 units (CG/HR/MP/RJ) checked negative; AN checked negative but not
-    exhaustively. Progress tracked in issue #101; PR-2+ continue the batch."
+
+  gapReason: "11 of 36 curated (PR-1: AS/OD/TR/UP; PR-2: AP/GA/KL/PB/SK).
+    ~14 confirmed trigger-firing units remain — 12 trigger-1 (BR/JH/MN/MZ/
+    TS/UK/JK/LA/PY/CH + LD/DH weaker), 2 religion-only (ML/NL Christian),
+    2 climate-only (HP/AR) — plus AN flagged for a second look. 4 units
+    (CG/HR/MP/RJ) checked negative. Progress tracked in issue #101; PR-3+
+    continue the batch."
+
 languageUsage:
   - languageCode: hin
     domain: official
@@ -180,6 +182,7 @@ distinct-regions:
   - code: IN-WB
     file: distinct-regions/in-wb.yaml
     adminUnitCodes: [IN-WB]
+
   - code: IN-AS
     file: distinct-regions/in-as.yaml
     adminUnitCodes: [IN-AS]
@@ -192,6 +195,23 @@ distinct-regions:
   - code: IN-UP
     file: distinct-regions/in-up.yaml
     adminUnitCodes: [IN-UP]
+
+  - code: IN-AP
+    file: distinct-regions/in-ap.yaml
+    adminUnitCodes: [IN-AP]
+  - code: IN-GA
+    file: distinct-regions/in-ga.yaml
+    adminUnitCodes: [IN-GA]
+  - code: IN-KL
+    file: distinct-regions/in-kl.yaml
+    adminUnitCodes: [IN-KL]
+  - code: IN-PB
+    file: distinct-regions/in-pb.yaml
+    adminUnitCodes: [IN-PB]
+  - code: IN-SK
+    file: distinct-regions/in-sk.yaml
+    adminUnitCodes: [IN-SK]
+
 sources:
   - id: gol-art343
     name: "Constitution of India — Part XVII, Article 343 (Official Language of the Union)"

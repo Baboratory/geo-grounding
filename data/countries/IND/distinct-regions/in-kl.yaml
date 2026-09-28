@@ -1,0 +1,138 @@
+code: IN-KL
+name:
+  eng: Kerala
+  local:
+    - languageCode: mal
+      value: കേരളം
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate along the Malabar coast, with intense southwest-monsoon rain (June-September) and a warm humid year."
+  - koppenCode: Aw
+    description: "Tropical savanna pattern in the eastern lowland rain shadow, somewhat drier than the coast."
+  - koppenCode: Cwb
+    description: "Temperate highland climate in the Western Ghats hill stations (Munnar way above 1500m), mild and misty."
+landmarks:
+  - name: Backwaters of Alleppey and Kumarakom
+    description: "The famous network of palm-fringed lagoons and canals traversed by houseboats (kettuvallam)."
+  - name: Periyar National Park (Thekkady)
+    description: "A wildlife sanctuary around Periyar Lake in the Western Ghats, home of elephants and tigers."
+  - name: Padmanabhaswamy Temple (Thiruvananthapuram)
+    description: "The grand Dravidian temple of Vishnu, among India's richest and a landmark of Kerala."
+  - name: Munnar
+    description: "A classic hill station of rolling tea plantations set amid the Western Ghats."
+  - name: Fort Kochi
+    description: "The historic coastal quarter of Kochi, with its Chinese fishing nets, Dutch and Portuguese heritage."
+  - name: Athirappilly Falls
+    description: "The spectacular 'Niagara of India' waterfall in the Chalakudy river of the Western Ghats."
+culturalTraits:
+  - "A land of tropical backwaters, coconut groves and monsoon greenery with the highest literacy rate of any Indian state"
+  - "A Dravidian Malayalam-speaking culture famous for Kathakali and Mohiniyattam classical dance, Theyyam ritual theatre and the world's tallest snake-boat races (vallam kali)"
+  - "A strong Ayurvedic tradition, a history of seafaring trade (spices, pepper) and a plural religious mix (Hindu, Muslim, Christian)"
+prideOf:
+  - "The backwaters and the houseboat culture"
+  - "Malayalam literature, Kathakali and the festival of Onam"
+  - "Kerala's human-development record, literacy and healthcare"
+animals:
+  popular:
+    - "Asian elephant"
+    - "Bengal tiger (Periyar)"
+    - "Indian peafowl"
+  unique:
+    - "Lion-tailed macaque (endangered, Western Ghats)"
+    - "Nilgiri tahr (Munnar's Eravikulam National Park)"
+    - "Malabar giant squirrel"
+    - "Great hornbill"
+industries:
+  - "Tourism (backwaters, beaches, hill stations, Ayurveda)"
+  - "Remittance-driven services and IT (Kochi, Thiruvananthapuram tech parks)"
+  - "Agriculture (coconut, spices — pepper, cardamom, ginger; rubber, tea, coffee)"
+  - "Fisheries and seafood processing"
+  - "Handloom, coir and handicrafts"
+sports:
+  - "Football (Kerala Blasters and a huge football following)"
+  - "Cricket"
+  - "Traditional games: snake-boat racing (vallam kali) and kalaripayattu martial arts"
+  - "Athletics"
+entertainment:
+  - season: allYear
+    items:
+      - "Houseboat cruises on the backwaters, Kerala Ayurveda, Kathakali shows and temple festivals"
+  - season: wet
+    items:
+      - "The spectacular southwest monsoon (Jun-Sept), when Kerala is at its greenest; hill-station mists and waterfall season"
+  - season: winter
+    items:
+      - "The peak tourist season (Dec-Feb) of clear skies, beach and backwater travel"
+  - season: summer
+    items:
+      - "The Onam festival (Aug/Sep) falls in the wet-season transition; summer is quieter for the coast"
+  - season: dry
+    items:
+      - "The dry post-monsoon months are ideal for Thekkady wildlife and hill stations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "The Onam sadya — a vegetarian feast served on a banana leaf with dozens of items"
+      - "Appam with stew, puttu and kadala, and Kerala-style fish curry (meen curry)"
+      - "Achappam, payasam and banana chips; the Toddy-table tradition along the backwaters"
+  - season: wet
+    items:
+      - "Warm fish curries and steaming puttu-egg in the rainy season"
+  - season: winter
+    items:
+      - "Festive sadya and sweets for the winter travel season"
+  - season: summer
+    items:
+      - "Cooling coconut-based preparations and fresh fruit in the heat"
+  - season: dry
+    items:
+      - "The backwater toddy-shop spreads in the drier months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the kasavu (white-and-gold zari) saree; men the mundu (sarong-style wrap)"
+      - "Kathakali and Mohiniyattam dancers wear elaborate traditional costumes"
+  - season: wet
+    items:
+      - "Rainwear and umbrellas are essential in the monsoon"
+  - season: winter
+    items:
+      - "Light clothing suffices; a thin shawl in the hill stations"
+  - season: summer
+    items:
+      - "Light cotton mundu and sarees against the humidity"
+  - season: dry
+    items:
+      - "Casual light wear for the tourist season"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:30-17:30 Monday-Friday; the tourism and hospitality sector works weekends, and many shops observe a midday break."
+  lunchBreakTiming: "A lunch break around 13:00 is standard, often a full Kerala meal on a banana leaf."
+  notableShutdownPeriods:
+    - period: "Onam (August/September)"
+      description: "The state's biggest festival brings closures, family reunions (sadya feasts) and the snake-boat races."
+sources:
+  - id: kerala-language-act
+    name: "The Kerala Official Language Act, 1969"
+    publisher: "Government of Kerala (Legislature)"
+    url: "https://kerala.gov.in/"
+    year: 1969
+    accessedDate: "2026-09-28"
+    note: "Declares Malayalam the official language of the state, the basis for Kerala's coverage trigger 1 (own official regional language)."
+  - id: kerala-tourism
+    name: "Kerala Tourism — God's Own Country"
+    publisher: "Department of Tourism, Government of Kerala"
+    url: "https://www.keralatourism.org/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (backwaters, Periyar, Munnar, Fort Kochi, Athirappilly), cuisine, festivals and seasonal highlights for Kerala."

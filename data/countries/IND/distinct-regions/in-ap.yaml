@@ -1,0 +1,132 @@
+code: IN-AP
+name:
+  eng: Andhra Pradesh
+  local:
+    - languageCode: tel
+      value: ఆంధ్ర ప్రదేశ్
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate across the coastal plains and Deccan plateau, very hot in summer with a strong southwest and northeast monsoon."
+  - koppenCode: BSh
+    description: "Hot semi-arid pockets in the western Rayalaseema and parts of the interior, with low and erratic rainfall."
+landmarks:
+  - name: Sri Venkateswara Temple (Tirupati)
+    description: "One of India's richest and most visited Hindu temples, crowning the Tirumala hills."
+  - name: Visakhapatnam (Vizag)
+    description: "Port city and naval headquarters on the Bay of Bengal, ringed by hills and beaches (Rushikonda, Ramakrishna Beach)."
+  - name: Borra Caves
+    description: "Stalactite-and-stalagmite limestone caves in the Ananthagiri hills of the Eastern Ghats."
+  - name: Amaravati (Buddhist heritage)
+    description: "Ancient Maha Stupa site on the Krishna, a major centre of early Buddhist art and the state's planned new capital region."
+  - name: Araku Valley
+    description: "A hill station above Vizag in the Eastern Ghats, known for coffee plantations and tribal culture."
+culturalTraits:
+  - "The homeland of Telugu, one of India's classical languages with a rich literary and Kuchipudi dance tradition"
+  - "Famed for spicy Andhra cuisine, the Tirupati pilgrimage and the coastal/agricultural culture of the Krishna-Godavari deltas"
+  - "A strong IT, shipbuilding and aquaculture economy around Visakhapatnam and the coastal belt"
+prideOf:
+  - "The Telugu language and its classical literature"
+  - "Tirupati and the Tirumala temple"
+  - "Visakhapatnam and the coast; Kuchipudi dance"
+animals:
+  popular:
+    - "Bengal tiger"
+    - "Indian bison (gaur)"
+    - "Sambar"
+  unique:
+    - "Olive ridley sea turtle (nesting on the Nellore coast)"
+    - "Blackbuck (Rollapadu)"
+    - "Jerdon's courser (critically endangered, Sri Lankanalleswara Reserve)"
+industries:
+  - "Information technology (Visakhapatnam and Vijayawada clusters)"
+  - "Shipbuilding and ports (Visakhapatnam)"
+  - "Aquaculture and seafood (a leading shrimp-exporter)"
+  - "Agriculture (rice, cotton, chillies, groundnut)"
+  - "Tourism (Tirupati, Vizag, Araku)"
+sports:
+  - "Cricket"
+  - "Kho-kho and kabaddi"
+  - "Field hockey"
+  - "Volleyball"
+entertainment:
+  - season: allYear
+    items:
+      - "Telugu cinema (Tollywood) from the Hyderabad/Vijayawada studio belt and Kuchipudi performances"
+  - season: dry
+    items:
+      - "Beach and pilgrimage travel in the drier months (coastal Vizag, Tirupati)"
+  - season: wet
+    items:
+      - "The southwest-monsoon green coastal landscape and the Godavari Pushkaram festival years"
+  - season: winter
+    items:
+      - "The pleasant winter season for Araku, temples and coastal tourism"
+  - season: summer
+    items:
+      - "The hot season, with summer temple festivals in the cooler hill stations"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fiery Andhra cuisine — gongura pachadi, avakaya (mango pickle) and spicy pulihora"
+      - "Pesarattu (green-gram dosa) with ginger chutney, and payasam sweets"
+      - "Chicken and mutton fry curries (kodi vepudu)"
+  - season: dry
+    items:
+      - "Cooling buttermilk, gongura and fresh mangoes in the heat"
+  - season: wet
+    items:
+      - "Steamed rice, pappu (dal) and fish curry in the monsoon season"
+  - season: winter
+    items:
+      - "Festival sweets and pongal around the coastal festivities"
+  - season: summer
+    items:
+      - "Light spicy starters and fruit during the hot months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the saree (Gadwal, Uppada silk) and men the dhoti-kurta or pancha"
+  - season: dry
+    items:
+      - "Light breathable cottons for the intense heat"
+  - season: wet
+    items:
+      - "Rainwear and quick-dry clothing for the monsoon"
+  - season: winter
+    items:
+      - "Thin shawls in the cooler coastal mornings"
+  - season: summer
+    items:
+      - "Light cottons and hand-fans in the hot season"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 10:00-17:30 Monday-Friday; Visakhapatnam's industrial and IT sectors operate standard Indian shifts with weekend rest."
+  lunchBreakTiming: "A midday lunch break around 13:00 is common, often a full rice-and-pappu meal."
+  notableShutdownPeriods:
+    - period: "Sankranti/Pongal (January)"
+      description: "The major harvest festival brings several days of closures and travel as families return home."
+sources:
+  - id: ap-language-act-1966
+    name: "The Andhra Pradesh Official Language Act, 1966 (Act 9 of 1966)"
+    publisher: "Government of Andhra Pradesh (via PRS Legislative Research)"
+    url: "https://prsindia.org/files/bills_acts/acts_states/andhra-pradesh/1966/1966AP9.pdf"
+    year: 1966
+    accessedDate: "2026-09-28"
+    note: "Declares Telugu the official language of the state (and Urdu as a second official language in notified districts per the Act), the basis for Andhra Pradesh's coverage trigger 1 (own official regional language)."
+  - id: ap-tourism
+    name: "Andhra Pradesh Tourism"
+    publisher: "Department of Tourism, Government of Andhra Pradesh"
+    url: "https://tourism.ap.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Tirupati, Vizag, Borra Caves, Amaravati, Araku), cuisine and seasonal highlights for Andhra Pradesh."

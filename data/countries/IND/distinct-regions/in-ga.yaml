@@ -1,0 +1,135 @@
+code: IN-GA
+name:
+  eng: Goa
+  local:
+    - languageCode: gom
+      value: गोंय
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate on the Konkan coast, with a very hot wet southwest monsoon (June-September) and a warm drier season the rest of the year."
+  - koppenCode: Aw
+    description: "Tropical savanna conditions in the interior, slightly drier than the coastal strip."
+landmarks:
+  - name: Basilica of Bom Jesus (Old Goa)
+    description: "A UNESCO World Heritage Church enshrining the mortal remains of St Francis Xavier, a masterpiece of baroque Indo-Portuguese architecture."
+    unescoWorldHeritage: true
+  - name: Se Cathedral (Old Goa)
+    description: "One of the largest churches in Asia, centrepiece of the Portuguese-era ecclesial city of Old Goa."
+  - name: Fort Aguada
+    description: "A 17th-century Portuguese sea fort guarding the Mandovi estuary, offering views over the Arabian Sea."
+  - name: Dudhsagar Falls
+    description: "A dramatic four-tiered waterfall in the Bhagwan Mahavir Wildlife Sanctuary (seasonal, roaring in the monsoon)."
+  - name: Calangute / Baga / Palolem beaches
+    description: "Goa's famed stretches of sand along the Arabian Sea coast."
+culturalTraits:
+  - "A distinct Indo-Portuguese heritage from 451 years of Portuguese rule (1510-1961), with its own Goan Catholic identity alongside the Hindu majority"
+  - "Konkani (in Devanagari script) is the state's official language, unique in India for its Latin-script heritage"
+  - "Famous for its beach-and-nightlife tourism, Carnival, and the feni (cashew/coconut) spirit"
+prideOf:
+  - "The Basilica of Bom Jesus and the Old Goa churches"
+  - "Konkani language and Indo-Portuguese cultural fusion"
+  - "The beaches, Carnival and a relaxed coastal way of life"
+animals:
+  popular:
+    - "Bengal tiger"
+    - "Indian leopard"
+    - "Gaur (Indian bison)"
+  unique:
+    - "Honey badger (Goa's forests)"
+    - "Olive ridley turtle (coastal nesting)"
+    - "Copperhead and the Malabar pit viper in the Western Ghats foothills"
+industries:
+  - "Tourism (the dominant industry — beaches, heritage, nightlife)"
+  - "Shipbuilding and offshore services (Mormugao port)"
+  - "Mining (iron-ore, historically important; resumed in part)"
+  - "Fisheries and seafood processing"
+  - "Pharmaceuticals (considered a pharma hub of India)"
+sports:
+  - "Football (Goa's most popular sport, with a strong club culture)"
+  - "Cricket"
+  - "Water sports and beach activities"
+  - "Field hockey"
+entertainment:
+  - season: allYear
+    items:
+      - "Beach resorts, nightlife, water sports and heritage churches year-round"
+      - "Goan food festivals and the famed seafood shacks"
+  - season: winter
+    items:
+      - "The peak tourist season — Carnaval (before Lent, usually February) and beach parties"
+  - season: wet
+    items:
+      - "The monsoon (June-Sept) turns waterfalls like Dudhsagar full; quiet beach season and lush greenery"
+  - season: summer
+    items:
+      - "Low-season on the coast; cooler hill retreats and temple festivals inland"
+  - season: dry
+    items:
+      - "Sunny dry-season beach travel and the run-up to Carnival"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Vindaloo, xacuti and sorpotel — Goan curries with vinegar and red chillies"
+      - "Fish curry rice (xitt codi) and prawn balchão"
+      - "Bebinca (multi-layered coconut pudding) and the cashew spirit feni"
+  - season: wet
+    items:
+      - "Warm fish curries and local toddy/feni in the rainy season"
+  - season: winter
+    items:
+      - "Festive Christmas and New Year feasts, including the traditional pork sorpotel"
+  - season: summer
+    items:
+      - "Light coastal meals and fresh seafood in the hot season"
+  - season: dry
+    items:
+      - "Beach-shack seafood and chilled drinks in the peak dry-tourist season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light cotton wear and beach attire dominate; the traditional from-woman's kaapad (saree-style) and Hindu dhoti remain for ceremonies"
+      - "Western dress is very common in the cosmopolitan coastal towns"
+  - season: winter
+    items:
+      - "Light wraps for cooler evenings"
+  - season: wet
+    items:
+      - "Rainwear for the monsoon downpours"
+  - season: dry
+    items:
+      - "Cool summer clothing during the dry tourist season"
+  - season: summer
+    items:
+      - "Light breathable cottons against the coastal humidity"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Business and offices typically run 10:00-18:00 Monday-Friday; the tourism and hospitality sector works through weekends."
+  lunchBreakTiming: "A midday lunch break around 13:00-14:00 is common, often a full fish-curry-rice meal."
+  notableShutdownPeriods:
+    - period: "Carnaval (pre-Lent, usually February)"
+      description: "Goa's biggest carnival brings lively street processions and parties; while many businesses join in, tourism peaks."
+sources:
+  - id: goa-official-language-act
+    name: "The Goa, Daman and Diu Official Language Act, 1987"
+    publisher: "Government of Goa (Legislative Assembly)"
+    url: "https://www.goa.gov.in/"
+    year: 1987
+    accessedDate: "2026-09-28"
+    note: "Declares Konkani (in Devanagari script) the sole official language of Goa, the basis for Goa's coverage trigger 1 (own official regional language)."
+  - id: goa-tourism
+    name: "Incredible Goa — Goa Tourism"
+    publisher: "Department of Tourism, Government of Goa"
+    url: "https://incrediblegoa.org/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Old Goa churches, Fort Aguada, beaches, Dudhsagar) and seasonal highlights for Goa."
