@@ -1,0 +1,135 @@
+code: IN-HP
+name:
+  eng: Himachal Pradesh
+  local:
+    - languageCode: hin
+      value: हिमाचल प्रदेश
+climates:
+  - koppenCode: Cwb
+    description: "Temperate highland climate in the middle Himalayas (Shimla, Dharamshala, Manali lower slopes), mild summers with a monsoon and cold winters."
+  - koppenCode: Dfc
+    description: "Subarctic/cold climate in the high districts (Lahaul and Spiti, upper Kangra, Pangi), with long snowy winters — a Koppen main class (D) absent from the rest of the curated India set."
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate in the lowland valleys (Una, Bilaspur), hot in summer."
+landmarks:
+  - name: Shimla (the colonial capital)
+    description: "The historic hill station and former summer capital of the British Raj, with the Mall Road and the Kalka-Shimla toy railway (UNESCO)."
+  - name: Dharamshala and McLeod Ganj
+    description: "The seat of the Tibetan government-in-exile and of His Holiness the Dalai Lama, at the foot of the Dhauladhar range."
+  - name: Manali and Rohtang Pass
+    description: "The resort town and its high Himalayan pass, a gateway to Lahaul and Spiti."
+  - name: Kullu Valley
+    description: "The 'Valley of Gods', famed for the Kullu Dussehra festival and apple orchards."
+  - name: Spiti Valley
+    description: "The stark cold-desert high valley of Buddhist monasteries (Key, Tabo, Dhankar)."
+culturalTraits:
+  - "A Himalayan state of steep valleys and high passes, blending Hindu hill towns with the Buddhist culture of Lahaul, Spiti and Kinnaur"
+  - "Hindi is the sole official language; the state does not fire a language trigger, but its high-altitude cold climate sets the high districts apart"
+  - "A land of apple orchards, hill-station tourism, and the Dham (festival feast) of the Kangra-Kullu valleys"
+prideOf:
+  - "Shimla and the hill-station heritage"
+  - "Dharamshala and the Tibetan presence"
+  - "Apple orchards, the Kullu Dussehra and Spiti's monasteries"
+animals:
+  popular:
+    - "Himalayan black bear"
+    - "Snow leopard (high reaches)"
+    - "Himalayan tahr"
+  unique:
+    - "Himalayan monal (state bird)"
+    - "Musk deer"
+    - "Western tragopan (endangered pheasant)"
+industries:
+  - "Tourism (Shimla, Manali, Dharamshala, Spiti — hill-station and adventure tourism)"
+  - "Agriculture (apples, stone fruits, and the state's horticulture)"
+  - "Forestry and handicrafts"
+  - "Hydropower (many run-of-river projects)"
+sports:
+  - "Cricket"
+  - "Field hockey"
+  - "Skiing (Solang/Narkanda) and winter sports"
+  - "Trekking and mountaineering"
+entertainment:
+  - season: allYear
+    items:
+      - "Hill-station walks, the Kalka-Shimla toy train, and Buddhist festivals in Lahaul/Spiti"
+  - season: winter
+    items:
+      - "Snow at Shimla, Manali and the high passes; skiing (Solang) and the Spiti monasteries reachable in the clear-cold months"
+  - season: summer
+    items:
+      - "The classic hill-station season (May-June) — Shimla and Manali at their best before the monsoon"
+  - season: wet
+    items:
+      - "The monsoon (Jul-Sep) brings rain and mists; lower-valley visits"
+  - season: autumn
+    items:
+      - "The clear post-monsoon season for Spiti, Kinnaur and the high trekking routes (Sep-Nov)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "The Dham — the traditional festive platter of the Kangra-Kullu region (chana dal, rice, sambhar with local spices)"
+      - "Siddu (steamed stuffed wheat bread) and saag (leaf greens)"
+      - "Kullu apple cider/ras and local dairy (the kala namak)"
+  - season: winter
+    items:
+      - "Hearty siddu, saag and warm stews against the cold"
+  - season: summer
+    items:
+      - "Light hill food and fresh orchard fruit"
+  - season: autumn
+    items:
+      - "Harvest-season apple and festival Dham"
+  - season: wet
+    items:
+      - "Steaming siddu and warm local dishes in the monsoon"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the saree or salwar-kameez (the hill pahari dress); men the kurta-pajama or the traditional hill dhoti"
+      - "Wool is essential year-round in the high villages"
+  - season: winter
+    items:
+      - "Heavy wool coats, shawls and caps against the cold Himalayan winters"
+  - season: summer
+    items:
+      - "Light layers in the valleys, mild wool in the high towns"
+  - season: autumn
+    items:
+      - "Warm layers for the clear-trekking season"
+  - season: wet
+    items:
+      - "Waterproofs for the monsoon"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 10:00-17:30 Monday-Friday; Shimla follows standard state hours."
+  lunchBreakTiming: "A midday lunch break around 13:00 is common."
+  notableShutdownPeriods:
+    - period: "Winter road closures on the high passes (Rohtang, high Spiti routes)"
+      description: "Heavy snow closes Rohtang and the highest passes in winter, isolating high valleys like Spiti and Lahaul."
+  notes: "Himachal Pradesh appears on the India coverage list via trigger 5: its high districts (Lahaul-Spiti, upper Kangra, Pangi) carry a cold Dfc Koppen main class (D) absent from the rest of the curated set. Its official language is Hindi (the same as the Union's primary), so it does not fire trigger 1."
+sources:
+  - id: hp-tourism
+    name: "Himachal Pradesh Tourism"
+    publisher: "Department of Tourism and Civil Aviation, Government of Himachal Pradesh"
+    url: "https://himachaltourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Shimla, Dharamshala, Manali/Rohtang, Kullu, Spiti), hill-station culture, cuisine and seasonal highlights. Supports the Dfc cold-climate (high-valley) content for the climate trigger."
+  - id: himachal-bhaskar-climate
+    name: "Himachal climate zones — the high districts of Lahaul and Spiti as cold (Dfc) high-altitude desert"
+    publisher: "Government of Himachal Pradesh (state climate/landscape documentation)"
+    url: "https://himachal.nic.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Documents the subarctic/cold climate (Dfc) of the high districts (Spiti, Lahaul, upper reaches), the basis for Himachal's coverage trigger 5 (Koppen main class D differing from the curated A/B/C mainland)."

@@ -1,0 +1,137 @@
+code: IN-AR
+name:
+  eng: Arunachal Pradesh
+  local:
+    - languageCode: eng
+      value: Arunachal Pradesh
+climates:
+  - koppenCode: Cwb
+    description: "Temperate highland climate in the middle ranges, with a heavy monsoonal rainfall and a cool dry winter."
+  - koppenCode: Dfc
+    description: "Subarctic/cold climate in the high eastern Himalaya (Tawang and the higher reaches), with long cold snowy winters — a Koppen main class (D) largely absent from the rest of the curated India set."
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate in the lowland river valleys (Pasighat, the plains), hot and wet."
+landmarks:
+  - name: Tawang Monastery
+    description: "One of the largest Buddhist monasteries in India, home of the Gelugpa order, at over 3000m."
+  - name: Ziro Valley
+    description: "The scenic Apatani plateau valley, famed for its wet-rice terraces and the Ziro Festival of Music."
+  - name: Bhalukpong and the rivers
+    description: "The Siang (Brahmaputra) gorges and rafting river country of the foothills."
+  - name: Itanagar heritage
+    description: "The state capital's tribal cultures and the nearby ancient Ita Fort ruins."
+  - name: Namdapha National Park
+    description: "India's largest protected area in the eastern Himalaya, rich in rare species (snow leopard, hoolock gibbon, the Namdapha flying squirrel)."
+culturalTraits:
+  - "A state of extraordinary tribal diversity — home to dozens of Tibetan-Buddhist (Monpa, Sherdukpen) and animist/tribal (Apatani, Adi, Nishi) communities in the far eastern Himalaya"
+  - "English is the sole official language (its constitutionally notified status), while the many tribal languages and Tibetan ties shape daily life"
+  - "'The land of the dawn-lit mountains' ('Arunachal') on India's northeast frontier with Tibet, China and Myanmar"
+prideOf:
+  - "Tawang Monastery and the Tibetan Buddhist heritage"
+  - "The enormous tribal diversity and the Ziro Festival of Music"
+  - "Namdapha and the pristine eastern-Himalayan wilderness"
+animals:
+  popular:
+    - "Snow leopard (high reaches)"
+    - "Asian elephant (foothills)"
+    - "Hoolock gibbon"
+  unique:
+    - "Namdapha flying squirrel (found only here)"
+    - "Takin (the state animal)"
+    - "Blyth's tragopan (rare pheasant)"
+    - "White-winged wood duck"
+industries:
+  - "Agriculture (wet rice, maize, and the kiwis/oranges of the foothill valleys)"
+  - "Tourism (Tawang, Ziro, Bhalukpong rafting)"
+  - "Forestry and bamboo products (large timber and bamboo resources)"
+  - "Handicrafts (Apatani cane work, Monpa weaving)"
+sports:
+  - "Football (a strong following in the northeast)"
+  - "Cricket"
+  - "Archery (a traditional skill)"
+  - "Rafting and adventure sports"
+  - "Volleyball"
+entertainment:
+  - season: allYear
+    items:
+      - "Tribal festivals (Ziro Apatani, the Monpa Losar) and the Ziro Festival of Music (September)"
+  - season: winter
+    items:
+      - "The clear cool season for Tawang, the monasteries and the high passes"
+  - season: summer
+    items:
+      - "Pre-monsoon spring festivals and lower-valley visits"
+  - season: wet
+    items:
+      - "The heavy monsoon fills the gorges and makes the forest lush; rivers high for rafting"
+  - season: autumn
+    items:
+      - "The Ziro Festival of Music (Sep) and post-monsoon travel"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Traditional meat- and rice-based dishes of the tribes (the Apatani rice with fish, smoked meats)"
+      - "Bamboo-shoot and fermented-soy preparations (sa-ut, the Adi style)"
+      - "Local millet/rice beer, and the ubiquitous thukpa/momos of the Tibetan-influenced west"
+  - season: winter
+    items:
+      - "Hearty smoked-meat and thukpa dishes against the cold"
+  - season: summer
+    items:
+      - "Fresh mountain produce and light rice dishes"
+  - season: autumn
+    items:
+      - "Harvest-season rice and festival feasts (Ziro)"
+  - season: wet
+    items:
+      - "Steaming rice-and-bamboo-shoot meals in the monsoon"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Each tribe has its own dress: the Apatani women's woven skirts, the Adi/Nishi wraps, and the Monpa/Shepdukpen Tibetan-style gon-chas"
+      - "Wool is essential in the high western (Tawang) villages"
+  - season: winter
+    items:
+      - "Heavy wool gon-chan and wraps against the high cold"
+  - season: summer
+    items:
+      - "Light cotton layers in the valleys"
+  - season: autumn
+    items:
+      - "Layered festival dress (Ziro)"
+  - season: wet
+    items:
+      - "Waterproofs for the heavy monsoon"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:30-17:00 Monday-Friday; Itanagar follows standard state hours."
+  lunchBreakTiming: "A midday lunch break around 13:00 is common, often a rice-and-meal dish."
+  notableShutdownPeriods:
+    - period: "Monsoon landslides on highland roads"
+      description: "Heavy monsoon rains periodically close highland roads (e.g. to Tawang), slowing travel and supply."
+  notes: "Arunachal Pradesh appears on the India coverage list via trigger 5: its high eastern-Himalaya reaches (Tawang and above) carry a cold Dfc Koppen main class (D) absent from the rest of the curated set. Its official language is English (constitutionally notified, same family as the Union's co-official), so it does not cleanly fire trigger 1."
+sources:
+  - id: arunachal-tourism
+    name: "Arunachal Pradesh Tourism"
+    publisher: "Department of Tourism, Government of Arunachal Pradesh"
+    url: "https://arunachaltourism.com/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Tawang, Ziro, Bhalukpong, Namdapha), tribal culture, cuisine and seasonal highlights. Supports the high-altitude cold (Dfc) content for the climate trigger."
+  - id: arunachal-climate
+    name: "Arunachal Pradesh climate — high eastern-Himalaya cold zones"
+    publisher: "Government of Arunachal Pradesh"
+    url: "https://arunachalpradesh.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Documents the subarctic/cold climate of the high western Himalaya (Tawang), the basis for Arunachal's coverage trigger 5 (Koppen main class D differing from the curated A/B/C mainland)."

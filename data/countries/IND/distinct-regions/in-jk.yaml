@@ -1,0 +1,153 @@
+code: IN-JK
+name:
+  eng: Jammu and Kashmir
+  local:
+    - languageCode: urd
+      value: جموں و کشمیر
+climates:
+  - koppenCode: Cfa
+    description: "Humid subtropical climate in the Jammu plains, with hot summers and cool winters."
+  - koppenCode: Cfb
+    description: "Temperate oceanic climate in the Kashmir valley (Srinagar), with mild summers and cold, snowy winters."
+  - koppenCode: Dfb
+    description: "Cold (humid continental) climate in the higher reaches of the Pir Panjal and higher Kashmir valleys, with long snowy winters."
+landmarks:
+  - name: Dal Lake and the Shikara ride (Srinagar)
+    description: "The iconic lake of Srinagar, ringed by the Zabarwan hills and houseboats, traversed by shikara gondolas."
+  - name: Shalimar and Nishat Gardens
+    description: "The celebrated Mughal terraced gardens overlooking Dal Lake."
+  - name: Vaishno Devi Shrine (Katra)
+    description: "One of India's most visited Hindu pilgrim shrines, high in the Trikuta hills of Jammu."
+  - name: Martand (Sun Temple) ruins near Anantnag
+    description: "The great 8th-century Sun Temple ruins of the Kashmir valley, an architectural landmark."
+  - name: Gulmarg
+    description: "The meadow-and-ski resort of the Pir Panjal, a famous hill station with a gondola."
+culturalTraits:
+  - "A distinct Himalayan Muslim-majority region (Kashmir valley) alongside a Hindu-majority Jammu province, with its own Kashmiri, Dogri and Urdu languages"
+  - "Reorganised in 2019 from a former special-status state into the union territories of Jammu & Kashmir and Ladakh (J&K Reorganisation Act, 2019)"
+  - "A rich Kashmiri culture of shawl-making, Sufi music, saffron, and the distinct Kashmiri Pandit and Dogra heritages"
+prideOf:
+  - "The beauty of Dal Lake, the Mughal gardens and the Kashmir valley"
+  - "Kashmiri handicrafts — Pashmina shawls, papier-mâché, carpets — and the saffron of Pampore"
+  - "Vaishno Devi and the fusion of Hindu pilgrimage with Kashmir's culture"
+animals:
+  popular:
+    - "Himalayan brown bear"
+    - "Snow leopard"
+    - "Kashmir stag (hangul, the state animal)"
+  unique:
+    - "Kashmir musk deer"
+    - "Himalayan monal (state bird)"
+    - "Kashmir serow (highland goat-antelope)"
+industries:
+  - "Agriculture and horticulture (apples, saffron, walnuts — Pampore saffron is world-famous)"
+  - "Handicrafts (Pashmina shawls, carpets, papier-mâché)"
+  - "Tourism (Srinagar, Gulmarg, Dal Lake, Vaishno Devi)"
+  - "Fruit processing and the shawl/wool trade"
+sports:
+  - "Cricket"
+  - "Football"
+  - "Skiing (Gulmarg)"
+  - "Polo (played in some northern areas)"
+  - "Kabaddi"
+entertainment:
+  - season: allYear
+    items:
+      - "Sufi music, Kashmiri shawl and craft bazaars, and the Dal Lake houseboat culture"
+  - season: winter
+    items:
+      - "Snowfall at Gulmarg and Srinagar; skiing at Gulmarg and the Gulmarg gondola"
+  - season: summer
+    items:
+      - "The classic Kashmir summer — the shikara, gardens and hill resorts at their best"
+  - season: wet
+    items:
+      - "Monsoon rain tends to be lighter in the valley; springs and the Mughal gardens refresh"
+  - season: autumn
+    items:
+      - "The festival season (Dussehra/Diwali) in Jammu and the golden chinar-leaf season in the valley"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Wazwan — the grand Kashmiri multi-course feast (roghan josh, yakhni, goshtaba)"
+      - "Kashmiri pulao with saffron and dry fruits, and the vegetarian Gustaba/Warea on meatless days"
+      - "Kashmiri kahwa (saffron-green tea)"
+  - season: winter
+    items:
+      - "Hearty wazwan meats and kahwa against the cold"
+  - season: summer
+    items:
+      - "Light summer dishes and fresh orchard fruit"
+  - season: autumn
+    items:
+      - "Harvest-season apple and walnut preparations; festival food in Jammu"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Kashmiri pheran — the traditional long woolen robe worn by both men and women over warm clothes"
+      - "Jammu women wear the saree or salwar-kameez; Kashmiris the pheran with a dupatta/chadar"
+  - season: winter
+    items:
+      - "The heavy wool pheran, shawls and warm headwear against the snowy cold"
+  - season: summer
+    items:
+      - "Light layers; the pheran is worn open in warmer weather"
+  - season: autumn
+    items:
+      - "The draped pheran and festival dress in the golden months"
+  - season: wet
+    items:
+      - "Rainproofs and warm layers for the wet spells"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+religions:
+  - name: Islam
+    percent: 68.3
+    sourceId: census-2011-religion
+  - name: Hinduism
+    percent: 28.4
+    sourceId: census-2011-religion
+  - name: Sikhism
+    percent: 1.9
+    sourceId: census-2011-religion
+  - name: Other / not stated
+    percent: 1.4
+    sourceId: census-2011-religion
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 10:00-17:30 Monday-Friday; Srinagar follows standard Indian hours with a slightly relaxed rhythm."
+  lunchBreakTiming: "A midday lunch break around 13:00-14:00 is common."
+  notableShutdownPeriods:
+    - period: "Winter snows affecting high-altitude routes"
+      description: "Heavy winter snow can close high passes and slow transport (e.g. to Gulmarg and the higher valleys)."
+  notes: "Jammu & Kashmir is Muslim-majority (Islam ~68.3%, 2011 Census) versus India's Hindu plurality — the basis for trigger 2. It also fires trigger 1 via its 2020 Official Languages Act (Kashmiri, Dogri, Urdu)."
+sources:
+  - id: jk-official-languages-act-2020
+    name: "The Jammu and Kashmir Official Languages Act, 2020"
+    publisher: "Government of Jammu & Kashmir"
+    url: "https://jkgad.nic.in/"
+    year: 2020
+    accessedDate: "2026-09-28"
+    note: "Recognises Kashmiri, Dogri and Urdu as additional official languages of the union territory — the basis for Jammu & Kashmir's coverage trigger 1."
+  - id: census-2011-religion
+    name: "Census of India 2011 — Religion data (state-wise, erstwhile J&K)"
+    publisher: "Office of the Registrar General & Census Commissioner, India"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-28"
+    note: "Erstwhile J&K 2011 religious composition: Islam ~68.3%, Hinduism ~28.4%, Sikhism ~1.9%, others ~1.4%. Muslim plurality differs from India's Hindu plurality — Jammu & Kashmir's trigger-2 basis."
+  - id: jk-tourism
+    name: "Jammu & Kashmir Tourism"
+    publisher: "Department of Tourism, Government of Jammu & Kashmir"
+    url: "https://jktourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Dal Lake, gardens, Vaishno Devi, Gulmarg), cuisine, festivals and seasonal highlights."

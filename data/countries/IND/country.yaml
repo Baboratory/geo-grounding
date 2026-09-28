@@ -78,11 +78,12 @@ regionCoverage:
   status: partial
 
 
-  gapReason: "16 of 36 curated (PR-1: AS/OD/TR/UP; PR-2: AP/GA/KL/PB/SK;
-    PR-3: BR/JH/MN/MZ/TS). Remaining confirmed: 7 trigger-1 (UK/JK/LA/PY/CH +
-    LD/DH weaker), 2 religion-only (ML/NL Christian), 2 climate-only (HP/AR) —
-    plus AN flagged for a second look. 4 units (CG/HR/MP/RJ) checked negative.
-    Progress tracked in issue #101; PR-4 continues the batch."
+  gapReason: "26 of 36 curated (PR-1: AS/OD/TR/UP; PR-2: AP/GA/KL/PB/SK;
+    PR-3: BR/JH/MN/MZ/TS; PR-4: UK/JK/LA/PY/CH/ML/NL/HP/AR/LD). Remaining:
+    DH (Dadra & Nagar Haveli and Daman & Diu) — trigger-1 only if an own
+    official-language designation is established; AN — flagged for a second
+    look (Nicobarese Christian minority unresolved). 4 units (CG/HR/MP/RJ)
+    checked negative. Progress tracked in issue #101."
 
 languageUsage:
   - languageCode: hin
@@ -229,6 +230,36 @@ distinct-regions:
   - code: IN-TS
     file: distinct-regions/in-ts.yaml
     adminUnitCodes: [IN-TS]
+  - code: IN-UK
+    file: distinct-regions/in-uk.yaml
+    adminUnitCodes: [IN-UK]
+  - code: IN-JK
+    file: distinct-regions/in-jk.yaml
+    adminUnitCodes: [IN-JK]
+  - code: IN-LA
+    file: distinct-regions/in-la.yaml
+    adminUnitCodes: [IN-LA]
+  - code: IN-PY
+    file: distinct-regions/in-py.yaml
+    adminUnitCodes: [IN-PY]
+  - code: IN-CH
+    file: distinct-regions/in-ch.yaml
+    adminUnitCodes: [IN-CH]
+  - code: IN-ML
+    file: distinct-regions/in-ml.yaml
+    adminUnitCodes: [IN-ML]
+  - code: IN-NL
+    file: distinct-regions/in-nl.yaml
+    adminUnitCodes: [IN-NL]
+  - code: IN-HP
+    file: distinct-regions/in-hp.yaml
+    adminUnitCodes: [IN-HP]
+  - code: IN-AR
+    file: distinct-regions/in-ar.yaml
+    adminUnitCodes: [IN-AR]
+  - code: IN-LD
+    file: distinct-regions/in-ld.yaml
+    adminUnitCodes: [IN-LD]
 
 sources:
   - id: gol-art343
@@ -273,4 +304,5 @@ sources:
     year: 2026
     accessedDate: "2026-09-21"
     note: "Unified GST in slabs 5/12/18/28%; the 18% band covers most services and many consumer goods."
+
 
