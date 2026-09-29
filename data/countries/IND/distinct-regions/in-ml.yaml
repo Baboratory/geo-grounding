@@ -1,0 +1,155 @@
+code: IN-ML
+name:
+  eng: Meghalaya
+  local:
+    - languageCode: eng
+      value: Meghalaya
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate on the southern slopes, among the wettest places on Earth (Mawsynram and Cherrapunji receive some of the highest rainfall)."
+  - koppenCode: Cwb
+    description: "Temperate highland climate in the Khasi and Garo hills, mild with a very heavy monsoon."
+landmarks:
+  - name: Living Root Bridges (Khasi hills)
+    description: "The famous living root bridges of the Khasi hills, grown from tree roots across rivers."
+  - name: Cherrapunji (Sohra) and Mawsynram
+    description: "Two of the wettest inhabited places on Earth, famed for their rains and waterfalls."
+  - name: Nohkalikai Falls
+    description: "India's tallest plunge waterfall, south of Cherrapunji."
+  - name: Shillong Peak
+    description: "The viewpoint above Shillong with panoramas over the Khasi hills."
+  - name: Mawlynnong
+    description: "The village called 'Asia's cleanest', in the Khasi hills."
+culturalTraits:
+  - "A predominantly Christian state of the Khasi, Garo and Jaintia peoples — one of India's three Christian-majority states — with its own matrilineal tradition"
+  - "English is the sole official language (the same as the Union's co-official), while Khasi, Garo and related languages are widely spoken"
+  - "A land of living root bridges, tribal festivals and one of the world's wettest climates"
+prideOf:
+  - "The living root bridges and the beauty of the Khasi hills"
+  - "A Christian-majority, matrilineal society and its lively tribal culture"
+  - "Cherrapunji and Mawsynram's record rains"
+animals:
+  popular:
+    - "Asiatic black bear"
+    - "Capped langur"
+    - "Asian elephant"
+  unique:
+    - "Hoolock gibbon (in the western Garo hills at Nokrek)"
+    - "Clouded leopard (Meghalaya's state animal, in the Khasi and Garo hill forests)"
+    - "Pig-tailed macaque"
+industries:
+  - "Agriculture (the Khasi/Meghalaya betel-nut, orange, and broom-grass; shifting Jhum farming)"
+  - "Coal and limestone mining (controversial in the hills)"
+  - "Tourism (Cherrapunji, root bridges, Shillong)"
+  - "Bamboo and cane craft"
+sports:
+  - "Football"
+  - "Archery (a traditional sport)"
+  - "Cricket"
+  - "Volleyball"
+entertainment:
+  - season: allYear
+    items:
+      - "Khasi and Garo festivals (Nongkrem, Wangala), living root-bridge treks and church community life"
+  - season: winter
+    items:
+      - "The clearer, cooler season for root bridges and Shillong viewpoints"
+  - season: wet
+    items:
+      - "The monsoon brings Mawsynram and Cherrapunji to their record rainfall and the waterfalls to full flow"
+  - season: summer
+    items:
+      - "The spring festival season and lighter visits before the peak rain"
+  - season: dry
+    items:
+      - "The drier months favour the village circuit and the south-facing viewpoints"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Jadoh (the signature Khasi dish of rice cooked with pork) and doh-nei-iong (spicy pork)"
+      - "Tungtap (fermented fish chutney) and the fermented para-rice dishes of the hills"
+      - "Local rice beer and putharo (rice cakes)"
+  - season: wet
+    items:
+      - "Steaming rice-and-meat dishes and warm local tea in the rainy season"
+  - season: winter
+    items:
+      - "Hearty jadoh and smoked-meat preparations in the cool season"
+  - season: summer
+    items:
+      - "Fresh mountain produce and lighter dishes before the peak rain"
+  - season: dry
+    items:
+      - "Harvest-season rice and village feasts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Khasi women wear the traditional jainsem (a wrap-skirt) with an ornament, and Garo women the dokmanda; men the khasi kilt-like dhoti"
+      - "Church and formal wear often follows western dress"
+  - season: winter
+    items:
+      - "Wool shawls and wraps against the cool hill evenings"
+  - season: wet
+    items:
+      - "Rainproofs are essential in the heavy monsoon"
+  - season: summer
+    items:
+      - "Light cotton wear in the valleys"
+  - season: dry
+    items:
+      - "Festive tribal dress for the dry-season celebrations"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+religions:
+  - name: Christianity
+    percent: 74.59
+    sourceId: census-2011-religion
+  - name: Hinduism
+    percent: 11.53
+    sourceId: census-2011-religion
+  - name: Other religions and persuasions
+    percent: 8.71
+    sourceId: census-2011-religion
+  - name: Islam
+    percent: 4.4
+    sourceId: census-2011-religion
+  - name: Buddhism
+    percent: 0.33
+    sourceId: census-2011-religion
+  - name: Sikhism / Jainism
+    percent: 0.12
+    sourceId: census-2011-religion
+  - name: Not stated
+    percent: 0.32
+    sourceId: census-2011-religion
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:30-17:00 Monday-Friday; Sunday is a day of rest and church attendance widely honoured."
+  lunchBreakTiming: "A midday lunch break around 13:00 is standard, often a Jhum-harvest rice-and-meat meal."
+  notableShutdownPeriods:
+    - period: "Christmas and Nongkrem/Wangala festivals"
+      description: "Christmas and the major tribal harvest festivals bring closures and community gatherings."
+  notes: "Meghalaya is Christian-majority (74.6%, 2011 Census) versus India's Hindu plurality — the basis for Meghalaya's coverage trigger 2 (different plurality religion). Its official language is English, the same as the Union's co-official, so it does not fire trigger 1."
+sources:
+  - id: census-2011-religion
+    name: "Census of India 2011 — Religion data (state-wise)"
+    publisher: "Office of the Registrar General & Census Commissioner, India"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-28"
+    note: "Meghalaya's 2011 religious composition (censusindia.gov.in C-01 table): Christianity 74.59%, Hinduism 11.53%, other religions and persuasions 8.71%, Islam 4.40%, Buddhism 0.33%, Sikhism+Jainism 0.12%, not stated 0.32%. Christian plurality differs from India's Hindu plurality — Meghalaya's trigger-2 basis."
+  - id: meghalaya-tourism
+    name: "Meghalaya Tourism"
+    publisher: "Department of Tourism, Government of Meghalaya"
+    url: "https://meghalaytourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (root bridges, Cherrapunji, Nohkalikai, Shillong), culture, cuisine and seasonal highlights."

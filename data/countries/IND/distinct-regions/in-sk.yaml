@@ -1,0 +1,139 @@
+code: IN-SK
+name:
+  eng: Sikkim
+  local:
+    - languageCode: nep
+      value: सिक्किम
+climates:
+  - koppenCode: Cwb
+    description: "Temperate highland climate in the lower valleys, mild with marked seasons."
+  - koppenCode: Dfc
+    description: "Subarctic/cold climate at the highest altitudes toward Kanchenjunga — beyond the tree line, with long very cold winters — a Koppen main class (D) absent from the rest of the curated India set."
+  - koppenCode: ET
+    description: "Tundra conditions on the very highest Himalayan crests, where snow persists year-round."
+landmarks:
+  - name: Kanchenjunga
+    description: "The world's third-highest mountain (8586m), on Sikkim's western border with Nepal, sacred and endlessly photographed."
+  - name: Tsomgo (Tsangu) Lake
+    description: "A glacial lake at ~3800m on the road to Nathu La, frozen in winter and ringed by snow peaks."
+  - name: Rumtek Monastery
+    description: "The seat of the Karma Kagyu school of Tibetan Buddhism, near Gangtok."
+  - name: Pemayangtse Monastery
+    description: "One of Sikkim's oldest and most important Buddhist monasteries, overlooking the Kanchenjunga range."
+  - name: Nathu La Pass
+    description: "A high Himalayan pass on the India-China border, historically a Silk-Route trading post."
+  - name: Gurudongmar Lake
+    description: "A high-altitude sacred lake (over 5000m) in North Sikkim, one of the highest in the world."
+culturalTraits:
+  - "A Himalayan kingdom-turned-state on the border with Tibet, where Nepali, Bhutia (Sikkimese), Lepcha and Limbu are all official languages (Sikkim Official Languages Act 1977 + amendments)"
+  - "One of the few largely Tibetan-Buddhist regions of India, with a strong Vajrayana Buddhist monastic (gompa) culture alongside Hindu Nepali communities"
+  - "A unique culture of high-altitude farming (cardamom, potatoes), Himalayan tourism and cross-border trade"
+prideOf:
+  - "Kanchenjunga and the pristine Himalayan landscape"
+  - "The Buddhist heritage of its monasteries and the snow peaks"
+  - "Nathu La trade reopening (opened 2006) and the state's ecological conservation"
+animals:
+  popular:
+    - "Red panda (Sikkim's state animal)"
+    - "Snow leopard"
+    - "Himalayan black bear"
+  unique:
+    - "Blood pheasant (state bird of Sikkim)"
+    - "Himalayan monal"
+    - "Kiang (wild ass, in the high plateau stretches)"
+    - "Goral and serow (highland goat-antelopes)"
+industries:
+  - "Tourism (trekking, monasteries, Kanchenjunga, high passes)"
+  - "Agriculture (large-cardamom — Sikkim is a world producer — rice, potatoes, oranges)"
+  - "Sikkim's organic-farming programme (unofficially India's first fully organic state)"
+  - "Handloom, handicrafts and small-scale industry"
+  - "Cross-border trade via Nathu La (easing since 2006)"
+sports:
+  - "Football (a popular spectator sport)"
+  - "Cricket"
+  - "Himalayan trekking, mountaineering and adventure sports"
+  - "Traditional Buddhist and festive games"
+entertainment:
+  - season: allYear
+    items:
+      - "Buddhist monastic festivals (mask dances, cham), and the Pang Lhabsol festival honouring Kanchenjunga"
+      - "Gangtok's hill-town life and monastery visits"
+  - season: winter
+    items:
+      - "Snowfall at Gangtok and the higher passes; Tsomgo Lake frozen and pristine"
+  - season: summer
+    items:
+      - "Trekking into the high valleys (before the heaviest monsoon) and the summer temples"
+  - season: wet
+    items:
+      - "The monsoon brings cloud-forest greenery and rain to the south; lowland visits"
+  - season: autumn
+    items:
+      - "The legendary clear autumn season (Oct-Nov) with the best Kanchenjunga views and Pang Lhabsol"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Momos (dumplings) and thukpa (noodle soup) — the Himalayan staples"
+      - "Phagshapa (pork with radish and chillies) and gundruk (fermented greens)"
+      - "Butter tea and local high-altitude cheeses"
+  - season: winter
+    items:
+      - "Hearty soups, thukpa and warm dishes against the cold"
+  - season: summer
+    items:
+      - "Fresh yak dairy and light Nepali dal-bhat in the trekking season"
+  - season: autumn
+    items:
+      - "Festival feasts during Pang Lhabsol and the clear autumn harvest"
+  - season: wet
+    items:
+      - "Steaming momos and warm soups in the rainy season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Nepali men wear the daura-suruwal and women the gunyu-cholo (traditional Nepali dress); Lepcha and Bhutia people wear their own tunics and layered wraps"
+      - "Monks wear the maroon-and-yellow robes (chö-gö) of Vajrayana Buddhism"
+  - season: winter
+    items:
+      - "Heavy wool wraps, hats and gloves against the freezing high-altitude winters"
+  - season: summer
+    items:
+      - "Light layers for the trekking valleys"
+  - season: autumn
+    items:
+      - "Warm layers and festival dress for the clear autumn season"
+  - season: wet
+    items:
+      - "Waterproofs and sturdy boots for the monsoon trails"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:30-17:00 Monday-Friday; tourism and trekking services work around the weather windows."
+  lunchBreakTiming: "A midday lunch break around 13:00 is common, often a Dal-bhat or thukpa."
+  notableShutdownPeriods:
+    - period: "Winter road closures / heavy snow"
+      description: "High passes (including Nathu La and north-Sikkim routes) close or restrict travel in the heavy-snow winter months."
+sources:
+  - id: sikkim-official-languages-act-1977
+    name: "The Sikkim Official Languages Act, 1977 (Act 5 of 1977, as amended 1981/1990/2022)"
+    publisher: "Government of Sikkim (Law & Parliamentary Affairs)"
+    url: "https://www.sikkim.gov.in/uploads/Gazette/1977_THE_SIKKIM_OFFICIAL_LANGUAGES_ACT_20221029.pdf"
+    year: 1977
+    accessedDate: "2026-09-28"
+    note: "Adopts Nepali, Bhutia and Lepcha (later Limbu, and subsequently others including Newari/Rai/Gurung/Sherpa/Tamang) as the languages for official purposes — the basis for Sikkim's coverage trigger 1 (own official regional languages beyond Hindi/English)."
+  - id: sikkim-tourism
+    name: "Sikkim Tourism"
+    publisher: "Department of Tourism and Civil Aviation, Government of Sikkim"
+    url: "https://sikkimtourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Kanchenjunga viewpoints, monasteries, high-altitude lakes, Nathu La), cuisine and seasonal highlights for Sikkim."

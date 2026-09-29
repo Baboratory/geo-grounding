@@ -1,0 +1,141 @@
+code: IN-UK
+name:
+  eng: Uttarakhand
+  local:
+    - languageCode: hin
+      value: उत्तराखंड
+    - languageCode: san
+      value: उत्तराखण्डराज्यम्
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate in the lower foothills and valleys, with hot summers and a wet monsoon."
+  - koppenCode: Cwb
+    description: "Temperate highland climate in the middle Himalayan valleys (Dehradun, Nainital, Mussoorie), mild with distinct seasons."
+  - koppenCode: Dfc
+    description: "Subarctic/cold climate in the high Garhwal and Kumaon reaches, with long snowy winters; a Koppen main class (D) absent from the rest of the curated India set."
+  - koppenCode: ET
+    description: "Tundra/glacier conditions on the very highest peaks (Nanda Devi, Badrinath shrines) where snow persists year-round."
+landmarks:
+  - name: Char Dham (Badrinath, Kedarnath, Yamunotri, Gangotri)
+    description: "The four sacred Himalayan shrines of Uttarakhand, among the holiest sites of Hinduism."
+  - name: Rishikesh and Haridwar
+    description: "Rishikesh, the yoga capital of the world on the Ganges, and Haridwar's Har Ki Pauri ghats."
+  - name: Nainital
+    description: "The lake-town hill station of the Kumaon hills, a classic summer retreat of the Raj era."
+  - name: Jim Corbett National Park
+    description: "India's oldest national park, the tiger land of the Terai foothills."
+  - name: Valley of Flowers
+    description: "A UNESCO World Heritage alpine meadow of wildflowers in the Garhwal Himalaya."
+    unescoWorldHeritage: true
+culturalTraits:
+  - "The land of the Char Dham pilgrimages and the source of the Ganges, deeply linked to Hindu spiritual geography"
+  - "Hindi is the official language, with Sanskrit adopted as the second official language — a nationally unique status"
+  - "A Himalayan culture of the Garhwal and Kumaon peoples, with yoga-heritage Rishikesh and a strong hill-station tourism tradition"
+prideOf:
+  - "The Char Dham shrines and the sacred rivers"
+  - "Jim Corbett and the Himalayan wilderness"
+  - "Nainital and the hill-station heritage; the state's Sanskrit co-official status"
+animals:
+  popular:
+    - "Bengal tiger (Jim Corbett)"
+    - "Asiatic elephant"
+    - "Himalayan black bear"
+  unique:
+    - "Snow leopard (high Himalaya)"
+    - "Himalayan musk deer (upper Garhwal)"
+    - "Mountain goat bharal (blue sheep)"
+    - "Himalayan monal (the state bird, in high-altitude coniferous and rhododendron forests)"
+industries:
+  - "Tourism and pilgrimage (Char Dham, yoga at Rishikesh)"
+  - "Agriculture (basmati rice — Dehradun, apples, tea)"
+  - "Forestry and medicinal plants (Gharwal herbs)"
+  - "Hydropower and hydroelectric projects"
+  - "Education and administrative services (Dehradun)"
+sports:
+  - "Cricket"
+  - "Field hockey"
+  - "Trekking, mountaineering and white-water rafting"
+  - "Rugby (growing in the state)"
+entertainment:
+  - season: allYear
+    items:
+      - "Char Dham pilgrimages and Hindu festivals; yoga and meditation at Rishikesh"
+  - season: winter
+    items:
+      - "Snow and skiing at Auli; warm trekking to lower temples; the highest Char Dham shrines close due to snow"
+  - season: summer
+    items:
+      - "The hill-station season (Nainital, Mussoorie, Ranikhet) and the opening of the high-altitude shrines"
+  - season: wet
+    items:
+      - "The monsoon brings green valleys and rushing rivers; lower-region visits"
+  - season: autumn
+    items:
+      - "The clear post-monsoon season for trekking and the Kedarnath/Badrinath circuit"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kafuli (spinach/leaf gravy), chainsoo (gram-flour curry), and jhangora (barn-millet)"
+      - "Bhat ki dal (soaked black soy), aloo ke gutke, and Rishikesh's sattvik vegetarian food"
+      - "Bal Mithai and singori (milk sweets)"
+  - season: winter
+    items:
+      - "Hearty chainsoo, bhatt and warm jhangora dishes against the cold"
+  - season: summer
+    items:
+      - "Light local salads and fruit (apples) in the hill-station season"
+  - season: autumn
+    items:
+      - "Harvest-season dishes and festival sweets (including buransh/rhododendron juice in spring)"
+  - season: wet
+    items:
+      - "Steaming local thali in the rainy months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the saree or salwar-kameez; men the kurta-pajama or dhoti, with wool shawls in the hills"
+      - "Hillmen often wear the traditional wool cap and shawl of Garhwal/Kumaon"
+  - season: winter
+    items:
+      - "Heavy wool coats, jackets and wool caps against the cold Himalayan winters"
+  - season: summer
+    items:
+      - "Light cotton in the valleys, mild layers in the hill stations"
+  - season: wet
+    items:
+      - "Rainwear and waterproofs for the monsoon"
+  - season: autumn
+    items:
+      - "Warm trekking layers for the clear high season"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 10:00-17:30 Monday-Friday; Dehradun follows standard state hours."
+  lunchBreakTiming: "A midday lunch break around 13:00 is common."
+  notableShutdownPeriods:
+    - period: "Winter closure of the high-altitude Char Dham shrines"
+      description: "The high Himalayan shrines (Kedarnath, Badrinath, Gangotri, Yamunotri) close for the winter snows, typically mid-November to April."
+sources:
+  - id: uttarakhand-language-act
+    name: "The Uttarakhand Official Language Act, 2010 (Hindi; Sanskrit as second official)"
+    publisher: "Government of Uttarakhand"
+    url: "https://uk.gov.in/"
+    year: 2010
+    accessedDate: "2026-09-28"
+    note: "Adopts Hindi as the official language of Uttarakhand and Sanskrit as the second official language — the basis for Uttarakhand's coverage trigger 1 (own official regional language, with a nationally unique Sanskrit status)."
+  - id: uttarakhand-tourism
+    name: "Uttarakhand Tourism"
+    publisher: "Department of Tourism, Government of Uttarakhand"
+    url: "https://uttarakhandtourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Char Dham, Rishikesh, Nainital, Corbett, Valley of Flowers), cuisine, pilgrimages and seasonal highlights for Uttarakhand."

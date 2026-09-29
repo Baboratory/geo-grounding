@@ -1,0 +1,138 @@
+code: IN-PY
+name:
+  eng: Puducherry
+  local:
+    - languageCode: tam
+      value: புதுச்சேரி
+    - languageCode: fra
+      value: Pondichéry
+    - languageCode: mal
+      value: പുതുച്ചേരി
+    - languageCode: tel
+      value: పుదుచ్చేరి
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate on the Coromandel coast, hot year-round with rains from the northeast monsoon in late autumn/winter."
+  - koppenCode: Am
+    description: "Tropical monsoon pockets on the coast, humid with intense seasonal rain."
+landmarks:
+  - name: Promenade Beach (Rock Beach)
+    description: "The sea-facing boulevard of Puducherry, with the statue of Gandhi and the old colonial esplanade."
+  - name: Sri Aurobindo Ashram and Matrimandir
+    description: "The spiritual community founded by Sri Aurobindo and the Mother; the golden Matrimandir is the Auroville icon."
+  - name: French Quarter (White Town)
+    description: "The restored colonial quarter of bougainvillea houses, cafés and the governors' building along the sea."
+  - name: Manakula Vinayagar Temple
+    description: "The venerated Ganesha temple in the centre of the old town."
+  - name: Auroville
+    description: "Sri Aurobindo's international township, with the Matrimandir at its heart."
+culturalTraits:
+  - "A small union territory of four non-contiguous enclaves (Puducherry, Karaikal, Yanam and Mahe): Puducherry, Karaikal and Yanam face the Bay of Bengal (Puducherry and Karaikal on the Coromandel Coast, Yanam near the Godavari delta), while Mahe faces the Arabian Sea on the Malabar Coast — a former French colony until 1954"
+  - "French retains a unique status, making it the only Indian territory where French is an official language, used alongside Tamil, Malayalam and Telugu across its enclaves"
+  - "A singular Franco-Indian culture — Tamil heritage, French colonial architecture, Aurobindo spiritualism and a café-and-croissant seaside life"
+prideOf:
+  - "The French Quarter and its unique Franco-Tamil seaside culture"
+  - "Auroville and the spiritual heritage of Sri Aurobindo"
+  - "The blend that fascinates visitors — Tamil kovil, French villa and the beach promenade"
+animals:
+  popular:
+    - "Indian palm squirrel"
+    - "Peafowl"
+    - "Sambar (forest reserves)"
+  unique:
+    - "Olive ridley turtle (coastal nesting)"
+    - "Reef fish of the Coromandel coast"
+industries:
+  - "Tourism (French Quarter, Auroville, beaches)"
+  - "Software and IT services"
+  - "Fisheries and seafood"
+  - "Agriculture (rice, sugarcane, coconut in the enclaves)"
+  - "Small-scale manufacturing and craft"
+sports:
+  - "Cricket"
+  - "Kabaddi"
+  - "Football"
+  - "Kho-kho"
+  - "Water sports at Promenade/Serenity beaches"
+entertainment:
+  - season: allYear
+    items:
+      - "The French Quarter café-and-walk culture, Auroville and the ashram; Tamil temple festivals"
+  - season: winter
+    items:
+      - "The pleasant peak season for the promenade, beaches and Auroville"
+  - season: wet
+    items:
+      - "The northeast-monsoon rains of late autumn/winter refresh the coast"
+  - season: summer
+    items:
+      - "Hot-season beach visits and evening temple aartis"
+  - season: dry
+    items:
+      - "The dry pre-monsoon months for coastal and Auroville tours"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "South Indian staple — dosa, idli, sambar — alongside the French bakeries (baguettes, croissants)"
+      - "Puducherry's famous seafood, the Tamil non-vegetarian thali, and pastries"
+  - season: wet
+    items:
+      - "Steaming rice-and-fish meals in the northeast-monsoon season"
+  - season: winter
+    items:
+      - "Cool-season café culture and festive sweets"
+  - season: summer
+    items:
+      - "Light coastal meals and cooling drinks in the heat"
+  - season: dry
+    items:
+      - "Seaside seafood and lassi in the dry months"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the South Indian saree and men the dhoti-kurta or western dress; cosmopolitan beachwear is common in the tourist zone"
+  - season: winter
+    items:
+      - "Light summer clothing year-round; a thin layer on cool evenings"
+  - season: wet
+    items:
+      - "Rainproofs for the monsoon showers"
+  - season: summer
+    items:
+      - "Light breathable cottons against the coast heat"
+  - season: dry
+    items:
+      - "casual beach wear in the dry season"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:30-17:30 Monday-Friday; the tourism and café sector works weekends."
+  lunchBreakTiming: "A midday lunch break around 13:00-14:00 is standard."
+  notableShutdownPeriods:
+    - period: "Pongal and the Auroville/ashram festival days"
+      description: "Tamil Pongal (January) and ashram observance days bring closures."
+  notes: "Puducherry is a union territory of four non-contiguous enclaves (Puducherry, Karaikal, Yanam, Mahe) spread over two coastlines — Puducherry, Karaikal and Yanam on the Bay of Bengal, Mahe on the Arabian Sea. It is unique in India for French retaining official-language status (colonial-era, 1954), alongside Tamil, Malayalam, Telugu and Hindi across its enclaves — the basis for this region's coverage trigger 1."
+sources:
+  - id: puducherry-language
+    name: "Puducherry official languages — French and Tamil/Malayalam/Telugu across the enclaves"
+    publisher: "Administration of Union Territory of Puducherry"
+    url: "https://py.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "French retains official status in Puducherry (unique in India), with Tamil, Malayalam and Telugu official across its enclaves — the basis for trigger 1."
+  - id: puducherry-tourism
+    name: "Puducherry Tourism"
+    publisher: "Department of Tourism, Government of Puducherry"
+    url: "https://puducherrytourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (French Quarter, Promenade, Auroville/Matrimandir, Manakula Vinayagar), cuisine and seasonal highlights."

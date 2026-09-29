@@ -1,0 +1,162 @@
+code: IN-LA
+name:
+  eng: Ladakh
+  local:
+    - languageCode: lbj
+      value: ལ་དྭགས (La dwags)
+climates:
+  - koppenCode: BWk
+    description: "Cold desert climate — one of the highest and driest inhabited places on Earth, with very low rainfall and extreme temperature ranges."
+  - koppenCode: ET
+    description: "Tundra conditions at the highest altitudes and on the high passes of the Karakoram fringe, cold year-round with permanent snowfields."
+landmarks:
+  - name: Leh Palace
+    description: "The great 17th-century nine-storey royal palace overlooking the old town of Leh."
+  - name: Pangong Tso
+    description: "The iconic trans-Himalayan alkaline lake stretching into Tibet, famed for its changing blue colours."
+  - name: Thiksey and Hemis monasteries
+    description: "Two great Tibetan Buddhist gompas — Hemis is the largest in Ladakh, seat of the Drukpa lineage."
+  - name: Khardung La
+    description: "One of the world's highest motorable mountain passes (over 5000m) on the road to the Nubra valley."
+  - name: Shanti Stupa (Leh)
+    description: "The white-gold Buddhist stupa above Leh, built in tribute to peace after the 1971 war."
+culturalTraits:
+  - "A high, cold-desert Himalayan land of rich Tibetan Buddhist (Vajrayana) monastic culture, the Ladakhi language and a distinctive Indo-Tibetan heritage"
+  - "Became a union territory in 2019 (split from Jammu & Kashmir); Ladakhi, Purgi and Tibetan are used across the region"
+  - "A land of monasteries, stupas and high passes where people practise a hardy agro-pastoral life from Leh, Kargil and the high valleys"
+prideOf:
+  - "The monasteries (Hemis, Thiksey) and the Hemis festival"
+  - "Pangong Tso and the stark beauty of the cold desert"
+  - "Ladakh's unique high-altitude culture, polo tradition and its welcoming of trekkers and pilgrims"
+animals:
+  popular:
+    - "Snow leopard"
+    - "Kiang (Tibetan wild ass)"
+    - "Marmot"
+  unique:
+    - "Black-necked crane (migratory, at the high lakes)"
+    - "Bharal (blue sheep) of the high screes"
+    - "Nubra ponies (the indigenous high-altitude horse)"
+industries:
+  - "Tourism (monasteries, high passes, Pangong Tso, trekking)"
+  - "Agro-pastoralism (barley, apricots, and yak/pony herding)"
+  - "The Indian Army's logistics and supply economy in Leh and Kargil"
+  - "Handicrafts (Ladakhi textiles and the Pashmina trade)"
+sports:
+  - "Polo (a traditional Ladakhi game, played in Leh)"
+  - "Football and winter sports at the high-altitude stadiums"
+  - "Trekking and mountaineering"
+  - "Nubra pony races and equestrian events"
+entertainment:
+  - season: allYear
+    items:
+      - "Monastic festivals (cham mask dances) at Hemis, Thiksey and other gompas"
+  - season: winter
+    items:
+      - "Ladakh is at its most remote and coldest; the winter 'Ladakh festival' showcases the region's traditions (travel is limited)"
+  - season: summer
+    items:
+      - "The short peak tourist season (Jun-Sept) — monasteries, Pangong Tso and the high passes at their best"
+  - season: autumn
+    items:
+      - "The clear, cool season before the high passes close to travel"
+  - season: spring
+    items:
+      - "The apricot-blossom and early-greening season as the snows retreat"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Momos (dumplings), thukpa (noodle soup) and tsampa (roasted barley)"
+      - "Yak butter tea and chhang (fermented barley beer)"
+      - "Khambir (the Ladakhi flatbread) and dried apricots"
+  - season: winter
+    items:
+      - "Warm barley dishes, yak butter tea and preserved foods against the extreme cold"
+  - season: summer
+    items:
+      - "Fresh chhang, yak dairy and vegetable dishes in the short warm season"
+  - season: autumn
+    items:
+      - "Harvest-season barley and apricot preparations"
+  - season: spring
+    items:
+      - "Early greens and fresh dairy of the thawing season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Ladakhi traditional dress: the gon-chan (long woolen coat) and the traditional women's headdress; monks wear Tibetan-style robes"
+  - season: winter
+    items:
+      - "Heavy wool gon-chan, fur-lined coats and warm caps against extreme cold"
+  - season: summer
+    items:
+      - "Lighter layers and sun protection in the intense high-altitude sun"
+  - season: autumn
+    items:
+      - "Warm layers for the cooling season"
+  - season: spring
+    items:
+      - "Layered wool as the temperature fluctuates"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+religions:
+  # Ladakh union territory has no single clean plurality: the 2011 Census
+  # figures below are for the whole territory, but they mask a sharp
+  # district-level split -- Leh district is about two-thirds Buddhist while
+  # Kargil district is more than three-quarters Muslim. Reported here as the
+  # only sourced, whole-territory figures available; anyone reading a single
+  # "Muslim plurality" line out of context would get a misleading picture of
+  # either district on its own.
+  - name: Islam
+    percent: 46.4
+    sourceId: census-2011-religion
+  - name: Buddhism
+    percent: 39.7
+    sourceId: census-2011-religion
+  - name: Hinduism
+    percent: 12.1
+    sourceId: census-2011-religion
+  - name: Sikhism
+    percent: 0.8
+    sourceId: census-2011-religion
+  - name: Christianity
+    percent: 0.5
+    sourceId: census-2011-religion
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 10:00-17:00 Monday-Friday; the tourism season (summer) drives extended hours in Leh while winters are quiet."
+  lunchBreakTiming: "A midday lunch break around 13:00 is common, often thukpa or a Ladakhi rice/meat meal."
+  notableShutdownPeriods:
+    - period: "Winter closure of the high passes"
+      description: "Zojila and other high passes close for snow in winter, cutting road access to the rest of India and slowing all travel."
+  notes: "Ladakh has no single clean religious plurality: the 2011 Census puts the union territory as a whole at 46.4% Muslim and 39.7% Buddhist, but this splits sharply by district -- Leh district is about two-thirds Buddhist while Kargil district is more than three-quarters Muslim. This differs from India's national Hindu plurality either way, but should not be read as one uniform culture across the territory."
+sources:
+  - id: census-2011-religion
+    name: "Census of India 2011 — Religion data (erstwhile Ladakh district, Leh and Kargil)"
+    publisher: "Office of the Registrar General & Census Commissioner, India"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-29"
+    note: "Ladakh union territory's 2011 religious composition (Leh + Kargil districts combined): Islam 46.4%, Buddhism 39.7%, Hinduism 12.1%, Sikhism 0.8%, Christianity 0.5%. Leh district alone is about 66% Buddhist and Kargil district alone is about 77% Muslim -- the combined figures differ from India's national Hindu plurality but obscure this district-level split."
+  - id: ladakh-language
+    name: "Ladakhi, Purgi and Tibetan usage in Ladakh (J&K Reorganisation Act, 2019)"
+    publisher: "Government of India / Government of Ladakh"
+    url: "https://ladakh.nic.in/"
+    year: 2019
+    accessedDate: "2026-09-28"
+    note: "Ladakhi, Purgi and Tibetan are used across the union territory — the basis for Ladakh's coverage trigger 1 (own regional/official languages beyond Hindi/English)."
+  - id: ladakh-tourism
+    name: "Ladakh Tourism (J&K/UT Ladakh)"
+    publisher: "Department of Tourism, Administration of Union Territory of Ladakh"
+    url: "https://ladakhtourism.com/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Leh Palace, Pangong Tso, monasteries, Khardung La), culture, festivals and seasonal highlights."

@@ -1,0 +1,158 @@
+code: IN-PB
+name:
+  eng: Punjab
+  local:
+    - languageCode: pan
+      value: ਪੰਜਾਬ
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid steppe climate in the western plains, very hot and dry with low rainfall."
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon pockets in the east, with a strong summer monsoon and cold foggy winters."
+landmarks:
+  - name: Golden Temple (Amritsar)
+    description: "The Harmandir Sahib, the holiest shrine of Sikhism, its gilded sanctum set in an ornately framed sacred pool."
+  - name: Jallianwala Bagh (Amritsar)
+    description: "The memorial garden to the 1919 massacre, a turning point in India's independence movement."
+  - name: Wagah-Attari Border
+    description: "The ceremonial India-Pakistan border crossing near Amritsar, famed for its daily beating-the-retreat parade."
+  - name: Qila Mubarak (Patiala)
+    description: "The historic royal fort of the Patiala rulers, seat of the erstwhile Phulkian dynasty."
+  - name: Akal Takht (Amritsar)
+    description: "The Sikhs' supreme temporal authority, facing the Golden Temple across the sacred complex."
+culturalTraits:
+  - "The heartland of Sikhism and Punjabi — the birthplace of the faith and of a distinctive bhangra, Punjabi kavita (poetry) and literary culture"
+  - "A green-revolution agricultural state — the 'granary of India' of wheat and rice — with a strong rural, martial (the Sikh soldier tradition of the Indian Army) identity"
+  - "Punjabi (Gurmukhi script) is the official language; also Indo-Pakistan's shared cross-border language and the eleventh most-spoken in the world"
+prideOf:
+  - "The Golden Temple and the Sikh faith"
+  - "Punjabi language and bhangra culture"
+  - "The green-revolution agriculture that feeds India"
+animals:
+  popular:
+    - "Blackbuck"
+    - "Nilgai (blue bull)"
+    - "Indian greyhound"
+  unique:
+    - "Indus river dolphin (a small, critically endangered population in the Beas River, the only place it is found in India outside the main Indus system)"
+    - "Indian hare"
+    - "Sarus crane (winter migrant to Punjab's wetlands)"
+industries:
+  - "Agriculture (wheat, rice, cotton — the 'granary of India')"
+  - "Textiles and hosiery (Ludhiana — a major industrial city)"
+  - "Light engineering and automotive parts (Ludhiana, Jalandhar)"
+  - "Bicycle and sports-goods manufacturing (Ludhiana)"
+  - "Handloom, handicrafts and tourism (Amritsar, Patiala)"
+sports:
+  - "Cricket"
+  - "Kabaddi (a hugely popular traditional sport)"
+  - "Field hockey (Punjab has produced legendary players)"
+  - "Wrestling (Pehlwani/Circle style, a strong rural tradition)"
+entertainment:
+  - season: allYear
+    items:
+      - "Bhangra and Giddha dance, Punjabi music and the devotional kirtan of the Golden Temple"
+      - "The Wagah-border ceremony draws crowds almost daily"
+  - season: winter
+    items:
+      - "The pleasant winter season — 'teej' and the Sikh fairs at Anandpur Sahib and Amritsar; the daily beating-retreat is best seen at dusk"
+  - season: wet
+    items:
+      - "Monsoon agriculture greening the plains; rain-fed crops (khariḍ) in the wet season"
+  - season: summer
+    items:
+      - "Baisakhi (April), the Sikh New Year/harvest festival, with processions and bhangra at Anandpur Sahib"
+  - season: dry
+    items:
+      - "Post-monsoon harvest of the kharif crop and the lohri sugarcane-festival season approaching"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Sarson da saag and makki di roti, the iconic winter green dish"
+      - "Tandoori chicken, butter chicken, paneer and naan"
+      - "Amritsari kulcha, lassi, and the festive gur (jaggery) sweets"
+  - season: winter
+    items:
+      - "Sarson da saag, makki di roti and gajar ka halwa; warm lassi"
+  - season: summer
+    items:
+      - "Cooling lassi and kulfi against the heat"
+  - season: wet
+    items:
+      - "Monsoon snacks — pakoras and spiced tea"
+  - season: dry
+    items:
+      - "Harvest-season meals after the kharif threshing"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Woman: the salwar-kameez with a dupatta; man: the kurta-pyjama, often with a turban (pagri/dastar) worn by Sikh men as part of their faith"
+      - "Patiala salwar — a loose, pleated traditional trouser"
+  - season: winter
+    items:
+      - "Wool shawls, sweaters and quilted jackets against the cold foggy winters"
+  - season: summer
+    items:
+      - "Light cotton salwar-kameez and kurta against the heat"
+  - season: wet
+    items:
+      - "Quick-dry cottons and rainwear for the monsoon"
+  - season: dry
+    items:
+      - "Festive wear for the post-harvest celebrations"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+religions:
+  - name: Sikhism
+    percent: 57.69
+    sourceId: census-2011-religion
+  - name: Hinduism
+    percent: 38.49
+    sourceId: census-2011-religion
+  - name: Islam
+    percent: 1.93
+    sourceId: census-2011-religion
+  - name: Christianity
+    percent: 1.26
+    sourceId: census-2011-religion
+  - name: Other
+    percent: 0.63
+    sourceId: census-2011-religion
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 10:00-17:30 Monday-Friday; agricultural work follows a seasonal rhythm of sowing and harvest."
+  lunchBreakTiming: "A midday lunch break around 13:00-14:00 is common."
+  notableShutdownPeriods:
+    - period: "Baisakhi and harvest seasons (April, and autumn kharif harvest)"
+      description: "Harvest festivals (Baisakhi in April, Lohri in January) bring closures and celebrations in this agricultural state."
+  notes: "Punjab is Sikh-plurality (57.7% Sikh vs ~38.5% Hindu, 2011 Census) — the only Indian state where the plurality religion is not Hindu. This differs from India's national Hindu plurality and is the basis for Punjab's coverage trigger 2."
+sources:
+  - id: punjab-language-act
+    name: "The Punjab Official Language Act, 1967"
+    publisher: "Government of Punjab (Legislative Assembly)"
+    url: "https://punjab.gov.in/"
+    year: 1967
+    accessedDate: "2026-09-28"
+    note: "Declares Punjabi (in Gurmukhi script) the official language of the state, the basis for Punjab's coverage trigger 1 (own official regional language)."
+  - id: census-2011-religion
+    name: "Census of India 2011 — Religion data (state-wise table)"
+    publisher: "Office of the Registrar General & Census Commissioner, India"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-28"
+    note: "Punjab's 2011 religious composition: Sikhism 57.69%, Hinduism 38.49%, Islam 1.93%, Christianity 1.26%, others/not-stated 0.63%. Sikh plurality (Sikh majority) differs from the national Hindu plurality — Punjab's trigger-2 basis."
+  - id: punjab-tourism
+    name: "Punjab Tourism"
+    publisher: "Department of Tourism, Government of Punjab"
+    url: "https://punjabtourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Golden Temple, Jallianwala Bagh, Wagah, Patiala), cuisine and seasonal highlights for Punjab."

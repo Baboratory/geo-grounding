@@ -1,0 +1,134 @@
+code: IN-MN
+name:
+  eng: Manipur
+  local:
+    - languageCode: mni
+      value: ꯃꯅꯤꯄꯨꯔ
+climates:
+  - koppenCode: Cwb
+    description: "Temperate highland monsoon climate in the Imphal valley, mild with a heavy southwest monsoon and a cool dry winter."
+  - koppenCode: Am
+    description: "Tropical monsoon conditions in the eastern hill districts, with very heavy rain."
+landmarks:
+  - name: Kangla Fort (Imphal)
+    description: "The ancient royal citadel of the Meitei kings on the banks of the Imphal river, a national monument."
+  - name: Shree Govindajee Temple (Imphal)
+    description: "The largest Vaishnavite temple in the northeast, built in the 19th century by Maharaja Nara Singh."
+  - name: Loktak Lake
+    description: "India's largest freshwater lake and a Ramsar wetland, famed for its floating phumdi islands and the rare brow-antlered deer."
+  - name: INA War Memorial (Moirang)
+    description: "The historic site where Subhas Chandra Bose's Indian National Army unfurled the tricolour in 1944."
+  - name: Keibul Lamjao National Park
+    description: "The world's only floating national park, on Loktak Lake, home of the endangered sangai (brow-antlered deer)."
+culturalTraits:
+  - "The home of the Meitei people and the Manipuri (Meitei) language — unique in India for its own classical dances (Manipuri/Ras Lila), script (Meetei Mayek) and martial-arts tradition (Thang-Ta/Huyen Langlon)"
+  - "A fascinating blend of an Eastern Vaishnavite tradition with an indigenous Meitei pre-Hindu inheritance"
+  - "Kept its own style of governance and culture for centuries — the only northeastern state with a historical classical performing-arts school"
+prideOf:
+  - "Manipuri dance and the Meitei culture, script and martial arts"
+  - "Loktak Lake and the sangai (brow-antlered deer)"
+  - "The historic INA connection and Kangla's royal heritage"
+animals:
+  popular:
+    - "Asian elephant"
+    - "Sambhar"
+    - "Leopard"
+  unique:
+    - "Sangai (Eld's/brow-antlered deer, endemic to Keibul Lamjao)"
+    - "Hoolock gibbon (eastern hills)"
+    - "Mrs Hume's pheasant"
+industries:
+  - "Agriculture (rice — the valley's staple — plus pulses and vegetables)"
+  - "Handloom and handicrafts (the famous Phanek traditional textile, shawls)"
+  - "Fisheries and aquaculture (Loktak)"
+  - "Bamboo and forest products"
+  - "Tourism (Loktak, Imphal, heritage sites)"
+sports:
+  - "Football (while hockey-boarded archery and polo have ancient roots; Imphal is sometimes called the birthplace of polo)"
+  - "Cricket"
+  - "Thang-Ta (traditional Meitei martial art)"
+  - "Mukna (traditional wrestling)"
+  - "Field hockey"
+entertainment:
+  - season: allYear
+    items:
+      - "Manipuri/Ras Lila dance performances, Lai Haraoba festival and the shrine festivals of the valley"
+  - season: winter
+    items:
+      - "The clear, pleasant cool season for Loktak, the floating park and Imphal's heritage"
+  - season: wet
+    items:
+      - "The southwest monsoon turns the valley lush; Loktak expands with the rains"
+  - season: summer
+    items:
+      - "The Manji festival/orchard blossom season and hot-season temple fairs"
+  - season: dry
+    items:
+      - "The dry post-monsoon season for bird-watching at Loktak"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Eromba (fermented fish and vegetable mash) and singju (a vegetable salad)"
+      - "Kangsoi (mixed-vegetable curry) and champhut (roasted meat)"
+      - "Fern, mushroom (uyungthambal) and local rice dishes"
+  - season: wet
+    items:
+      - "Warm eromba and steamed rice during the monsoon"
+  - season: winter
+    items:
+      - "Hearty meat and rice preparations in the cool season"
+  - season: summer
+    items:
+      - "Light drinks and seasonal vegetables in the heat"
+  - season: dry
+    items:
+      - "Harvest-season rice meals and festival fare"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the phanek (traditional wrap-around) with a chadar and the rihap; men the dhoti-kurta"
+      - "Manipuri dancers wear the traditional phanek and ghaluk/khongjen for Ras Lila"
+  - season: winter
+    items:
+      - "Wool shawls and wraps against the cool valley nights"
+  - season: wet
+    items:
+      - "Rainwear and quick-dry cottons for the monsoon"
+  - season: summer
+    items:
+      - "Light cotton wear in the humid season"
+  - season: dry
+    items:
+      - "Festive phanek and traditional dress for the dry-season festivals"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:30-17:00 Monday-Friday; the Imphal valley's business follows a standard Indian rhythm."
+  lunchBreakTiming: "A midday lunch break around 13:00 is standard."
+  notableShutdownPeriods:
+    - period: "Lai Haraoba and the yu-Ningthouja spring festivals"
+      description: "The traditional Meitei festivals bring localised closures and celebrations."
+sources:
+  - id: manipur-language-act
+    name: "The Manipur Official Language Act, 1979 (Manipur (Meitei) as official language)"
+    publisher: "Government of Manipur"
+    url: "https://manipur.gov.in/"
+    year: 1979
+    accessedDate: "2026-09-28"
+    note: "Declares Manipuri (Meitei, in the Meetei Mayek script) the official language of the state — the basis for Manipur's coverage trigger 1 (own official regional language)."
+  - id: manipur-tourism
+    name: "Manipur Tourism"
+    publisher: "Department of Tourism, Government of Manipur"
+    url: "https://manipartourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Kangla, Govindajee, Loktak, Keibul Lamjao, INA), culture, cuisine and seasonal highlights for Manipur."

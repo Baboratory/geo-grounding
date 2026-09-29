@@ -1,0 +1,153 @@
+code: IN-LD
+name:
+  eng: Lakshadweep
+  local:
+    - languageCode: mal
+      value: ലക്ഷദ്വീപ്
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate of coral islands, warm and humid year-round with a strong southwest monsoon and a mild dry northeast-monsoon season."
+landmarks:
+  - name: Bangaram Island
+    description: "The famed uninhabited coral island with pristine white-sand beaches and a laid-back resort."
+  - name: Agatti Island
+    description: "The coral atoll with Lakshadweep's only airport and its clear lagoon."
+  - name: Kavaratti Island (the capital)
+    description: "The administrative capital of the union territory, with its mosque, beaches and lagoon."
+  - name: Minicoy Island
+    description: "The southernmost and largest island, of Maldivian cultural-linguistic affinity, famed for its lighthouse and tuna fishing."
+  - name: Pitti Bird Island
+    description: "A protected reef islet rich in seabird nesting."
+culturalTraits:
+  - "An archipelago of 36 coral islands off the Kerala coast, the smallest union territory of India and the only one that is overwhelmingly Muslim"
+  - "Malayalam and the island's own Mahi (Mahl/Divehi) dialect on Minicoy are spoken; Malayalam is the principal official language"
+  - "A coconut-and-tuna, Islamic island culture with strong Kerala elements, one of India's most restricted but most beautiful tourist destinations"
+prideOf:
+  - "Pristine coral lagoons and beaches"
+  - "Its overwhelmingly Muslim island identity (96.6%, the highest share of any Indian unit)"
+  - "The tuna-fishing and coir economy and the unspoiled coral environment"
+animals:
+  popular:
+    - "Green sea turtle"
+    - "Hawksbill turtle"
+    - "Spinner dolphin (resident in the lagoon channels, e.g. Kadmat)"
+  unique:
+    - "Lakshadweep's coral-reef fish species"
+    - "Frigatebird and noddy seabirds (Pitti)"
+industries:
+  - "Tourism (coral islands, diving, snorkelling — restricted-entry)"
+  - "Fisheries (tuna — the backbone economy) and seafood processing"
+  - "Coconut and coir production"
+  - "Coconut-raft (one of the few coir-raft makers in India)"
+sports:
+  - "Football"
+  - "Cricket"
+  - "Kabaddi"
+  - "Water sports — diving, snorkelling, and the traditional sailing (odam/canoe)"
+entertainment:
+  - season: allYear
+    items:
+      - "Island-hopping, diving and snorkelling in the lagoons; Islamic festivals (Eid) with a Kerala-style festive culture"
+  - season: winter
+    items:
+      - "The prime calm-season window (Nov-Feb) for diving and island visits"
+  - season: wet
+    items:
+      - "The southwest monsoon (Jun-Sep) largely closes tourism on the islands"
+  - season: summer
+    items:
+      - "Pre-monsoon island travel and the Eid/Valmiki festive period"
+  - season: dry
+    items:
+      - "The calm northeast-monsoon dry season best for the lagoon and beaches"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuna in every form — mas (tuna curry, tuna balls/kababs) and the toasted fish"
+      - "Coconut-based island curries and the Kerala rice-and-fish thali"
+      - "Cactus-fruit and coconut sweets"
+  - season: wet
+    items:
+      - "Warming tuna curries with rice in the monsoon months"
+  - season: winter
+    items:
+      - "Festive dishes for the calm tourist season"
+  - season: summer
+    items:
+      - "Light fish meals and fresh coconut in the heat"
+  - season: dry
+    items:
+      - "Seafood feasts in the calm dry season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Islanders wear light cotton uvans (the tunic-like robe for men) and the Kerala-style saree/mundu for women"
+      - "Conservative, modest dress reflects the island's Islamic culture"
+  - season: wet
+    items:
+      - "Rainproofs for the monsoon swells"
+  - season: winter
+    items:
+      - "Light layers for the calm season's evenings"
+  - season: summer
+    items:
+      - "Light breathable cottons in the humidity"
+  - season: dry
+    items:
+      - "Festive island wear"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+religions:
+  - name: Islam
+    percent: 96.58
+    sourceId: census-2011-religion
+  - name: Hinduism
+    percent: 2.77
+    sourceId: census-2011-religion
+  - name: Christianity
+    percent: 0.49
+    sourceId: census-2011-religion
+  - name: Sikhism / Buddhism / Jainism
+    percent: 0.05
+    sourceId: census-2011-religion
+  - name: Not stated / other
+    percent: 0.11
+    sourceId: census-2011-religion
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:30-17:00 on the islands; fishing and coir follow a seasonal rhythm."
+  lunchBreakTiming: "A midday meal around 13:00 is common, often tuna and rice."
+  notableShutdownPeriods:
+    - period: "Monsoon season (June-September)"
+      description: "Rough seas largely suspend inter-island sea travel and tourism during the southwest monsoon."
+  notes: "Lakshadweep is the only Indian union territory that is overwhelmingly Muslim — 96.58% (2011 Census) versus India's Hindu plurality — the basis for its coverage trigger 2 (the strongest single-figure religion case in the India batch). Malayalam is the principal official language (its trigger-1 basis is weaker since Malayalam is also Kerala's language, so it is curated here on trigger 2's strength)."
+sources:
+  - id: census-2011-religion
+    name: "Census of India 2011 — Religion data (Lakshadweep)"
+    publisher: "Office of the Registrar General & Census Commissioner, India"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-28"
+    note: "Lakshadweep's 2011 religious composition: Islam 96.58%, Hinduism 2.77%, Christianity 0.49%, Sikh+Buddhist+Jain ~0.05%, not stated/other ~0.11%. Muslim plurality differs fundamentally from India's Hindu plurality — Lakshadweep's trigger-2 basis."
+  - id: ld-language
+    name: "Lakshadweep Administration — languages (Malayalam, Mahi/Divehi on Minicoy)"
+    publisher: "Administration of Union Territory of Lakshadweep"
+    url: "https://lakshadweep.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Malayalam is the principal official language of the territory, with the Mahi/Divehi dialect spoken on Minicoy — context for the region's language usage."
+  - id: ld-tourism
+    name: "Lakshadweep Tourism"
+    publisher: "Department of Tourism, Administration of Union Territory of Lakshadweep"
+    url: "https://samyak.co.in/lakshadweep-tourism/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Bangaram, Agatti, Kavaratti, Minicoy, Pitti), island cuisine and seasonal highlights."

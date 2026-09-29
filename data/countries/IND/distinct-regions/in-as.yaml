@@ -1,0 +1,121 @@
+code: IN-AS
+name:
+  eng: Assam
+  local:
+    - languageCode: asm
+      value: অসম
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate over the Brahmaputra valley, with hot wet summers, a heavy southwest monsoon and cool dry winters."
+landmarks:
+  - name: Kaziranga National Park
+    description: "A UNESCO World Heritage Site and the world's principal habitat of the one-horned rhinoceros, on the banks of the Brahmaputra."
+    unescoWorldHeritage: true
+  - name: Kamakhya Temple (Guwahati)
+    description: "One of the holiest Shakti temples of India, crowning the Nilachal hill in Guwahati."
+  - name: Majuli
+    description: "The large river island in the Brahmaputra, centre of Assamese Vaishnavite sattra (monastery) culture."
+  - name: Manas National Park
+    description: "A UNESCO World Heritage Site of grassland and forest on the Bhutan border, famous for golden langur and pygmy hog."
+    unescoWorldHeritage: true
+  - name: Sivasagar (temple district)
+    description: "Heart of the Ahom kingdom, with Rang Ghar pavilion, Talatal Ghar and the Shivadol temple tanks."
+culturalTraits:
+  - "The land of the Brahmaputra and the Ahom heritage — a distinctive Assamese language, literature and Bihu festival culture"
+  - "Famed for silk weaving (muga, pat, eri) and the state's Assamese Muslim and indigenous (Bodo, Mishing, Karbi) communities"
+  - "A proud tea-growing identity — Assam is the world's largest tea-producing region"
+prideOf:
+  - "Kaziranga and the one-horned rhinoceros"
+  - "Assam tea, silk and the River Brahmaputra"
+  - "The Bihu festivals and a rich tradition of Vaishnavite sattra culture"
+animals:
+  popular:
+    - "One-horned rhinoceros"
+    - "Asian elephant"
+    - "Tiger"
+  unique:
+    - "Pygmy hog (world's rarest wild pig, Manas)"
+    - "Golden langur"
+    - "White-winged wood duck (deo hah)"
+industries:
+  - "Tea production (world-leading)"
+  - "Silk (muga, pat, eri) and handloom textiles"
+  - "Oil and natural gas (Digboi and Assam basin)"
+  - "Agriculture (rice, jute)"
+  - "Tourism (Kaziranga, Majuli, Manas)"
+sports:
+  - "Cricket"
+  - "Football"
+  - "Moh-Juj (the traditional Assamese buffalo fight, held during Magh Bihu)"
+entertainment:
+  - season: allYear
+    items:
+      - "Assamese cinema and Bihu-music performances"
+      - "Sattra (Vaishnavite monastery) dance and drama traditions — mahapurushiya bhakti culture"
+  - season: winter
+    items:
+      - "Kaziranga's elephant safaris and tiger-country wildlife viewing (Nov-Apr)"
+  - season: wet
+    items:
+      - "The monsoon floods turn villages to riverscapes; a season of paddy-planting (Bihu Kati)"
+  - season: summer
+    items:
+      - "Rongali Bihu (mid-April), the spring harvest festival of dance and song"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Masor tenga (sour fish curry) and khar (alkaline ash curry)"
+      - "Pitha (rice cakes, e.g. til and narikol pitha)"
+      - "Doi (curd) and jahpani, plus the ceremonial pork and rice of festive meals"
+  - season: wet
+    items:
+      - "Steamed rice and fresh-water fish from the flooded paddy fields"
+  - season: winter
+    items:
+      - "Xaak-bhaaja (stir-fried greens) and sesame-jaggery sweets in the cool season"
+  - season: summer
+    items:
+      - "Pitha and doi prepared for the Rongali Bihu feast"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the mekhela-chador, the Assamese two-piece wrap; men the dhoti-kurta (suria) and gamosa"
+      - "Muga silk sarees for festivals and weddings"
+  - season: winter
+    items:
+      - "Wool shawls and thicker silk wraps in the cool months"
+  - season: wet
+    items:
+      - "Light quick-dry cottons and umbrellas for the monsoon"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: autumn
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:30/10:00-17:30 Monday-Friday with half days on Saturdays in many public offices; tea-garden estates follow early-shift rhythms."
+  lunchBreakTiming: "A midday lunch break around 13:00 is standard."
+  notableShutdownPeriods:
+    - period: "Rongali Bihu (mid-April)"
+      description: "The main Bihu festival brings several days of closures and holiday as families celebrate the Assamese New Year."
+sources:
+  - id: assam-language-act-1960
+    name: "The Assam Official Language Act, 1960"
+    publisher: "Government of Assam (Legislative Department)"
+    url: "https://www.indiacode.nic.in/bitstream/123456789/19560/1/the_assam_official_language_act.pdf"
+    year: 1960
+    accessedDate: "2026-09-28"
+    note: "Establishes Assamese as the official language of the state for official purposes, the basis for Assam's coverage trigger 1 (own official regional language)."
+  - id: assam-tourism
+    name: "Assam Tourism — Department of Tourism"
+    publisher: "Government of Assam"
+    url: "https://assamtourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Kaziranga, Kamakhya, Majuli, Sivasagar), culture, festivals and seasonal highlights for Assam."

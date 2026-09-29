@@ -1,0 +1,151 @@
+code: IN-NL
+name:
+  eng: Nagaland
+  local:
+    - languageCode: eng
+      value: Nagaland
+climates:
+  - koppenCode: Cwb
+    description: "Temperate highland climate across the Naga hills, with a heavy southwest monsoon and a cool dry winter."
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon conditions in the lower valleys and the Dimapur plain, warmer and wetter."
+landmarks:
+  - name: Kohima War Cemetery
+    description: "The Commonwealth war cemetery honouring the defenders of the Battle of Kohima (1944), a turning point in WWII's Burma campaign."
+  - name: Hornbill Festival (Kisama)
+    description: "Nagaland's famous annual festival of Naga tribes, music, food and tradition, held 1-10 December at Kisama."
+  - name: Dzükou Valley
+    description: "The flower-filled valley on the border with Manipur, a renowned trekking destination."
+  - name: Kachari Ruins (Dimapur)
+    description: "The ancient brick ruins and gates of Dimapur's abandoned fortress."
+  - name: Japfü Peak
+    description: "One of Nagaland's highest peaks, sacred in Naga tradition and rich in rhododendrons."
+culturalTraits:
+  - "A largely Christian Naga state (one of India's three Christian-majority states), home of the many Naga tribes and their distinctive languages, dress and festivals"
+  - "English is the sole official language (same as the Union's co-official); more than a dozen Naga languages are spoken"
+  - "A frontier culture of head-taking-turned-peaceful tribal societies, renowned for festivals, wrestling, and the Hornbill Festival"
+prideOf:
+  - "The Hornbill Festival and the diversity of Naga tribal culture"
+  - "The Battle of Kohima heritage at the War Cemetery"
+  - "Dzükou Valley and the Naga hills' natural beauty"
+animals:
+  popular:
+    - "Asiatic black bear"
+    - "Sambhar"
+    - "Wild boar"
+  unique:
+    - "Blyth's tragopan (the state bird)"
+    - "Capped langur"
+    - "Hoolock gibbon (western districts)"
+    - "Serow (goat-antelope of the high forests)"
+industries:
+  - "Agriculture (shifting Jhum farming; rice, maize, and the state's bamboos)"
+  - "Forestry and bamboo products"
+  - "Tourism (the Hornbill Festival, Kohima, Dzükou)"
+  - "Handloom and handicrafts (Naga shawls, bamboo craft)"
+sports:
+  - "Football"
+  - "Wrestling and indigenous Naga sports"
+  - "Archery"
+  - "Volleyball"
+  - "Cricket"
+entertainment:
+  - season: allYear
+    items:
+      - "Naga tribal festivals and the year-round football and wrestling culture"
+  - season: winter
+    items:
+      - "The Hornbill Festival (Kisama, December), the apex of the Naga cultural calendar"
+  - season: summer
+    items:
+      - "Spring festivals and the pre-monsoon window for Dzükou and the hills"
+  - season: wet
+    items:
+      - "The heavy monsoon fills the Naga hills with greenery; villages keep their festival rhythms"
+  - season: dry
+    items:
+      - "The clear dry season for the Kohima memorial and tribal circuit"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Smoked and dried meats (axone/akhuni-fermented soy), and bamboo-shoot dishes"
+      - "Sticky rice and the Naga practice of eating with fiery bhoot-jolokia chillies"
+      - "Rice beer (zutho) and local pork-based feasts"
+  - season: wet
+    items:
+      - "Steamed rice with smoked-meat and bamboo-shoot curries in the rainy months"
+  - season: winter
+    items:
+      - "Hearty meats and rice beer at the festival season (Hornbill, Dec)"
+  - season: summer
+    items:
+      - "Light spring produce and fresh vegetables"
+  - season: dry
+    items:
+      - "Harvest-season rice meals and tribal feasts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Naga men and women wear their tribe's distinctive woven shawls and wraps (the Angami, Ao, etc.), often with the traditional dhoti"
+      - "The famous Naga shawls carry intricate motifs celebrating courage and identity"
+  - season: winter
+    items:
+      - "Wool shawls and the traditional heavy wraps against the cool hill nights"
+  - season: wet
+    items:
+      - "Rainproofs for the heavy monsoon"
+  - season: summer
+    items:
+      - "Light cotton wear during the day"
+  - season: dry
+    items:
+      - "Festive tribal dress for the Hornbill Festival season"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+religions:
+  - name: Christianity
+    percent: 87.93
+    sourceId: census-2011-religion
+  - name: Hinduism
+    percent: 8.75
+    sourceId: census-2011-religion
+  - name: Islam
+    percent: 2.47
+    sourceId: census-2011-religion
+  - name: Other religions and persuasions
+    percent: 0.62
+    sourceId: census-2011-religion
+  - name: Buddhism / Sikhism / Jainism
+    percent: 0.26
+    sourceId: census-2011-religion
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 09:30-17:00 Monday-Friday; Sunday is widely observed as a day of rest and church attendance."
+  lunchBreakTiming: "A midday lunch break around 13:00 is standard."
+  notableShutdownPeriods:
+    - period: "Hornbill Festival (December) and Christmas"
+      description: "The Hornbill Festival and Christmas bring closures and large community gatherings."
+  notes: "Nagaland is overwhelmingly Christian (87.9%, 2011 Census) versus India's Hindu plurality — the basis for Nagaland's coverage trigger 2 (different plurality religion). Its official language is English, same as the Union's co-official, so it does not fire trigger 1."
+sources:
+  - id: census-2011-religion
+    name: "Census of India 2011 — Religion data (state-wise)"
+    publisher: "Office of the Registrar General & Census Commissioner, India"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-28"
+    note: "Nagaland's 2011 religious composition (censusindia.gov.in C-01 table): Christianity 87.93%, Hinduism 8.75%, Islam 2.47%, other religions and persuasions 0.62%, Buddhism+Sikhism+Jainism ~0.23%. Christian plurality differs from India's Hindu plurality — Nagaland's trigger-2 basis."
+  - id: nagaland-tourism
+    name: "Nagaland Tourism"
+    publisher: "Department of Tourism, Government of Nagaland"
+    url: "https://tourism.nagaland.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Kohima War Cemetery, Hornbill Festival, Dzükou, Kachari Ruins), culture, cuisine and seasonal highlights."

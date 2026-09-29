@@ -1,0 +1,120 @@
+code: IN-TR
+name:
+  eng: Tripura
+  local:
+    - languageCode: ben
+      value: ত্রিপুরা
+    - languageCode: trp
+      value: Twipra
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate with a hot wet southwest monsoon and a marked dry cool season, moderated by the surrounding hills."
+  - koppenCode: Am
+    description: "Tropical monsoon pockets in the eastern hill ranges with heavy seasonal rain."
+landmarks:
+  - name: Ujjayanta Palace (Agartala)
+    description: "The grand royal palace of the Tripura kingdom (built 1901), now the Tripura State Museum."
+  - name: Neermahal Water Palace
+    description: "Rudrasagar lake's palace built by Maharaja Bir Bikram in the 1930s, set mid-lake like a floating palace."
+  - name: Tripura Sundari Temple (Udaipur)
+    description: "One of the 51 Shakti peethas, the state's holiest temple at Udaipur."
+  - name: Unakoti
+    description: "A hillside of ancient rock-cut carvings and bas-reliefs of deities, a major archaeological heritage site."
+  - name: Pilak
+    description: "An archaeological site at the foot of the Tripura hills with 8th-12th century Hindu and Buddhist sculptures and carved panels."
+culturalTraits:
+  - "A small northeastern state of the Tripuri (Kokborok-speaking) people alongside a Bengali-majority population — the only state where ancient Tripuri and Bengali cultures meet on the Bangladesh border"
+  - "Produced by the old Tripura (Twipra) kingdom; tribal communities (Tripuri, Reang, Jamatia, Halam) keep their own dress, dance and festivals"
+  - "Known for bamboo and cane craft, and the Kharchi, Garia and Pous Sankranti festivals"
+prideOf:
+  - "Neermahal water palace and the Tripura royal heritage"
+  - "Unakoti's ancient rock carvings"
+  - "The state's peaceful coexistence of Bengali and Tripuri tribal cultures"
+animals:
+  popular:
+    - "Asian elephant"
+    - "Leopard"
+  unique:
+    - "Phayre's leaf monkey (endangered, Tripura's forests)"
+    - "Hoolock gibbon"
+    - "Barking deer"
+industries:
+  - "Rubber and tea plantations"
+  - "Handloom and bamboo/cane handicrafts"
+  - "Agriculture (rice, jute, pineapples)"
+  - "Tourism (Neermahal, Ujjayanta, Unakoti)"
+sports:
+  - "Cricket"
+  - "Football"
+  - "Volleyball"
+  - "Tribal sports and traditional games"
+entertainment:
+  - season: allYear
+    items:
+      - "Kharchi and Pous Sankranti tribal festivals, and Lezai dances of the Tripuri community"
+  - season: winter
+    items:
+      - "The pleasant cool season for visiting Neermahal, Ujjayanta and the hill towns"
+  - season: wet
+    items:
+      - "Monsoon greenery in the eastern hills; Neermahal seen against the rain-swollen Rudrasagar lake"
+  - season: summer
+    items:
+      - "Garia Puja (April) of the tribal community in the hot season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Rice with fish (mach), and the tribal dish muiya (bamboo-shoot chutney)"
+      - "Wahan mosdeng (pork preparation) and chorchori vegetable dishes"
+      - "Sweets like payesh and pitha (rice cakes)"
+  - season: wet
+    items:
+      - "Steamed rice and bamboo-shoot dishes in the humid monsoon"
+  - season: winter
+    items:
+      - "Til (sesame) sweets and warm pitha in the cool season"
+  - season: summer
+    items:
+      - "Light rice preparations and fresh fruit during the heat"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Bengali-style sarees; tribal Tripuri women wear their distinctive striped riha-risa wrap and men the traditional dhuti"
+  - season: winter
+    items:
+      - "Wool shawls and wraps in the cool months"
+  - season: wet
+    items:
+      - "Rainwear and quick-dry cottons for the monsoon"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: winter
+    months: [12, 1, 2]
+  - season: dry
+    months: [10, 11]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 10:00-17:00 Monday-Friday; Agartala follows the standard northeastern state working rhythm."
+  lunchBreakTiming: "A midday lunch break around 13:00 is standard, often a full rice-and-fish meal."
+  notableShutdownPeriods:
+    - period: "Kharchi Puja and Durga Puja (October)"
+      description: "The big annual festivals bring multi-day closures and holiday."
+sources:
+  - id: tripura-language-act-1979
+    name: "Languages of Tripura (secondary summary of the Tripura Official Language (Amendment) Act, 1979)"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Languages_of_Tripura"
+    year: 1979
+    accessedDate: "2026-09-28"
+    note: "Secondary source (the primary Act text was not fetched) summarizing that Kokborok became a co-official language of the state in 1979 alongside Bengali and English — the basis for Tripura's coverage trigger 1 (own official regional language beyond Hindi/English)."
+  - id: tripura-tourism
+    name: "Tripura Tourism"
+    publisher: "Department of Tourism, Government of Tripura"
+    url: "https://tripuratourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-28"
+    note: "Landmarks (Ujjayanta, Neermahal, Unakoti, Pilak), cuisine, festivals and seasonal highlights for Tripura."
