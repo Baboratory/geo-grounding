@@ -19,17 +19,80 @@ governanceType: unitary-large
 iso3166_2_prefix: TR
 hasSubdivisions: true
 regionCoverage:
-  # Count per ISO 3166-2 as of 2026-09. The uncurated units have NOT yet been
-  # tested against DESIGN.md's five coverage triggers -- this declaration records
-  # the gap so it is visible, not a finding that the gap is correct. Pending the
-  # coverage re-audit (see TODO.md).
+  # Assessed 2026-09-29 (coverage-floor re-audit, TODO.md). Turkey is
+  # structurally different from every country assessed so far (RUS/CHN/IND):
+  # it is a genuinely centralized unitary state, and three of the five
+  # triggers are confirmed to fire NEVER, for the whole country, not just
+  # for individual provinces -- worth recording explicitly so this doesn't
+  # get re-derived per province:
+  #
+  # Trigger 1 (own official/statutorily-recognized language) -- NEVER FIRES.
+  # Constitution Art. 3 makes Turkish the sole official language nationwide;
+  # Art. 42.9 explicitly prohibits teaching any other language to Turkish
+  # citizens. No province, including the Kurdish-majority southeast
+  # (Diyarbakır, Şırnak, Hakkari, Van, Mardin, Muş, Bitlis, Bingöl, Ağrı,
+  # Batman, Siirt), has any statutory linguistic recognition -- confirmed:
+  # Turkish law treats recognizing Kurdish as unconstitutional, and a 2024
+  # Kurdish-recognition push (part of an ongoing peace process) remains a
+  # demand, not an enacted law, as of this assessment. This is a real,
+  # confirmed negative for the country's largest minority-language
+  # population, not an oversight -- don't curate any province on a Kurdish-
+  # language basis without a real change in the law.
+  #
+  # Trigger 3 (own law on something this dataset models) -- NEVER FIRES.
+  # Turkey's 81 provinces are headed by governors appointed by the central
+  # government (via the Interior Ministry), not elected legislatures; no
+  # province passes its own law on trading hours, consumer protection, tax,
+  # or data protection. Confirmed via multiple sources on Turkey's unitary
+  # administrative structure.
+  #
+  # Trigger 4 (different time zone) -- NEVER FIRES. Turkey has used a single
+  # national time zone (Europe/Istanbul, UTC+3, no DST since 2016) since a
+  # 2016 reform; already reflected in this file's timezones[].
+  #
+  # Trigger 2 (plurality religion differs from Turkey's ~99% nominal Muslim/
+  # majority Sunni composition) -- CONFIRMED for 2 provinces: TR-62 Tunceli
+  # (the only Alevi-majority province in Turkey -- Alevism is a distinct
+  # heterodox tradition, not Sunni), TR-31 Hatay (Arab Alawite/Nusayri
+  # population "nearly half" the province, concentrated in Arsuz/Defne/
+  # Samandağ where Alawites are a local majority -- a religiously and
+  # ethnically distinct community from mainstream Sunni Turkey, plus a
+  # genuinely unique history as the former Sanjak of Alexandretta/Hatay
+  # State, under French Mandate Syria until 1939). Checked and rejected:
+  # Mardin's historic Syriac Christian community (Tur Abdin) is real but has
+  # declined to ~30,000 nationally and no longer constitutes any plurality
+  # in modern Mardin province, which is today majority Sunni Kurdish/Arab --
+  # a heritage story, not a current demographic divergence; do not curate
+  # Mardin on this basis. Other provinces with a real but unconfirmed-as-
+  # majority Alevi minority (Sivas, Malatya, Çorum, Erzincan, Amasya) were
+  # not individually verified -- flagged, not asserted.
+  #
+  # Trigger 5 (Koppen main class differs from the curated set's C/D) -- the
+  # four curated provinces cover Csa (Istanbul/Izmir/Gaziantep) and Dsb
+  # (Ankara) only; main class B (semi-arid) is confirmed unrepresented and
+  # covers most of the Central Anatolia Region. CONFIRMED for TR-42 Konya
+  # (Turkey's largest province by area, the archetypal Central Anatolian
+  # steppe, BSk) and TR-38 Kayseri (BSk, confirmed independently). The
+  # Central Anatolia Region's other 7 provinces (Sivas, Yozgat, Nevşehir,
+  # Kırşehir, Kırıkkale, Aksaray, Niğde) very likely also fire this trigger
+  # but were not individually confirmed -- flagged for follow-up, not
+  # asserted as confirmed. Eastern Anatolia's cold/continental climate
+  # (Erzurum-Kars Plateau) does NOT independently fire this trigger --
+  # confirmed Dfb/Dsb, the same main class D that Ankara already covers.
+  # A genuine high-altitude E (alpine/tundra) zone likely exists around
+  # Mount Ararat (Ağrı) but whether it's Ağrı province's dominant class was
+  # not checked.
   tier: first-level
   totalUnits: 81
   status: partial
-  gapReason: "4 of 81 first-level units curated. Which of the
-    remaining units fire a coverage trigger has not been assessed yet -- the
-    curated set predates the coverage floor and was chosen by size/capital,
-    not by divergence. Queued for the coverage re-audit."
+  gapReason: "4 of 81 curated. 4 more confirmed trigger-firing (Tunceli and
+    Hatay on religion, Konya and Kayseri on climate) and queued for
+    curation. 7 more Central Anatolian provinces likely also fire the
+    climate trigger but need individual confirmation before curating. The
+    other ~70 provinces, including the entire Kurdish-majority southeast,
+    were checked against trigger 1 (language) and found negative for a
+    confirmed structural reason (no province has statutory linguistic
+    recognition) rather than individually -- see the comment above."
 languageUsage:
   - languageCode: tur
     domain: official
