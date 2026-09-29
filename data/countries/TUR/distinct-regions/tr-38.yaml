@@ -1,0 +1,95 @@
+code: TR-38
+name:
+  eng: Kayseri Province (Central Anatolia)
+  local:
+    - languageCode: tur
+      value: Kayseri
+climates:
+  - koppenCode: BSk
+    description: "Cold semi-arid climate at high elevation (city at ~1,050 m, Erciyes massif to the south): hot, dry summers with cool nights, cold and snowy winters, and rain concentrated in spring and autumn."
+landmarks:
+  - name: "Erciyes Mountain (Erciyes Dağı)"
+    description: "A great volcanic stratovolcano rising to 3,917 m directly south of the city; a dramatic peak of the Anatolian plateau and the site of a major year-round ski resort on its slopes. Not a UNESCO World Heritage Site."
+    unescoWorldHeritage: false
+  - name: "Kayseri Castle (Kayseri Kalesi)"
+    description: "The restored Byzantine, Seljuk and Ottoman fortress at the heart of the city, site of archaeological finds and a symbol of Kayseri's long history."
+    unescoWorldHeritage: false
+  - name: "Kültepe (Kanesh / Kārum Kaneš)"
+    description: "The archaeological mound of ancient Kanesh some 20 km northeast of the city -- centre of a 19th-century BC Old Assyrian merchant colony whose cuneiform archives transformed our knowledge of Anatolian trade; on UNESCO's Tentative World Heritage List."
+    unescoWorldHeritage: false
+culturalTraits:
+  - "A proud commercial and industrial powerhouse of Central Anatolia with a strong merchant and entrepreneurial culture"
+  - "Distinctive culinary fame as the home of pastırma (cured pastrami) and sucuk (spiced sausage)"
+  - "Deep roots in the Great Seljuk era -- the city preserves Seljuk and Danishmend-era mosques, medreses and hans"
+  - "Devout, disciplined and industrious Anatolian-Seljuk social conservatism"
+  - "A tradition of high-altitude hardiness tied to the nearby Erciyes massif and cold, dry winters"
+prideOf:
+  - "Pastırma and sucuk -- Kayseri's world-famous cured-meat specialties"
+  - "Erciyes, a towering volcano and one of Turkey's premier ski destinations"
+  - "Seljuk heritage and the ancient trade city of Kanesh (Kültepe)"
+  - "A home-grown industrial and businesses success story"
+animals:
+  popular:
+    - "Anatolian shepherd / Kangal dog (kept on the steppe and at mountain farms)"
+    - "Central Anatolian sheep breeds"
+    - "Angora goat"
+  unique:
+    - "Kültepe's Old Assyrian cattle-herding legacy (archaeological)"
+industries:
+  - "Furniture manufacturing -- Kayseri is one of Turkey's largest furniture-production clusters"
+  - "Food processing and the pastırma/sucuk meat industry"
+  - "Textiles and ready-made garments"
+  - "Machinery and metal fabrication"
+  - "Construction materials and packaging"
+  - "Tourism and recreation around Erciyes ski resort"
+sports:
+  - "Skiing and snowboarding at Erciyes"
+  - "Football (Kayserispor)"
+  - "Mountaineering on Erciyes"
+  # Religion is not a coverage trigger for Kayseri (it is curated on climate,
+  # trigger 5). Kayseri is overwhelmingly Sunni Muslim, matching the national
+  # picture with no statutory religious distinction; no reliable province-level
+  # religious breakdown exists (Turkey's official census last asked religion in
+  # 1965), so religions[] is deliberately omitted rather than guessed.
+entertainment:
+  - season: summer
+    items:
+      - "Erciyes year-round cable-car, hiking and highland trails"
+      - "Tea gardens and the parks of Kayseri's old town"
+      - "Market and food traditions (sucuk-pastırma streets)"
+  - season: winter
+    items:
+      - "Skiing and snowboarding at Erciyes ski resort"
+      - "Snowy-stately winters around the Seljuk monuments"
+  - season: allYear
+    items:
+      - "Kayseri Castle and the archaeological heritage sites"
+      - "Cafés and the pastırma-bazaar food culture"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays: []
+  notes: "Follows the national Turkish pattern: Monday-Friday working week with Sunday as the weekly rest; Friday is a normal working day. Industrial zones and the pastırma/sucuk trade push a six-day rhythm; the Erciyes ski season (winter) is the main tourist peak. Government offices run 08:30-17:30."
+  typicalWorkHours: "09:00-18:00 Mon-Fri (government 08:30-17:30)."
+sources:
+  - id: tur-kayseri-koppen
+    name: "Kayseri climate: cold semi-arid (Köppen BSk)"
+    publisher: "Composite climate reference (topographic-map / Köppen-Geiger)"
+    url: "https://en-gb.topographic-map.com/map-gfzdn/Kayseri/"
+    year: 2026
+    accessedDate: "2026-09-29"
+    note: "Köppen BSk cold semi-arid classification for Kayseri at high elevation; supports the climates[] entry and this province's climate (trigger 5) rationale."
+  - id: tur-kayseri-heritage
+    name: "Kültepe (Kanesh) and Kayseri's historical heritage"
+    publisher: "UNESCO World Heritage Centre tentative list and archaeological references"
+    url: "https://whc.unesco.org/en/tentativelists/5149/"
+    year: 2025
+    accessedDate: "2026-09-29"
+    note: "Supports the Kültepe/Kanesh landmark (Old Assyrian trade colony, on Turkey's Tentative World Heritage List -- hence unescoWorldHeritage:false) and Kayseri's Seljuk-era heritage."

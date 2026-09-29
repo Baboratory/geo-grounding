@@ -85,10 +85,11 @@ regionCoverage:
   tier: first-level
   totalUnits: 81
   status: partial
-  gapReason: "4 of 81 curated. 4 more confirmed trigger-firing (Tunceli and
-    Hatay on religion, Konya and Kayseri on climate) and queued for
-    curation. 7 more Central Anatolian provinces likely also fire the
-    climate trigger but need individual confirmation before curating. The
+  gapReason: "8 of 81 curated (issue #106 delivered the four confirmed
+    trigger-firing units: Tunceli and Hatay on religion, Konya and Kayseri on
+    climate). 7 more Central Anatolian provinces likely also fire the climate
+    trigger (Sivas, Yozgat, Nevşehir, Kırşehir, Kırıkkale, Aksaray, Niğde) but
+    need individual confirmation before curating -- queued follow-up. The
     other ~70 provinces, including the entire Kurdish-majority southeast,
     were checked against trigger 1 (language) and found negative for a
     confirmed structural reason (no province has statutory linguistic
@@ -209,6 +210,18 @@ distinct-regions:
   - code: TR-27
     file: distinct-regions/tr-27.yaml
     adminUnitCodes: [TR-27]
+  - code: TR-31
+    file: distinct-regions/tr-31.yaml
+    adminUnitCodes: [TR-31]
+  - code: TR-38
+    file: distinct-regions/tr-38.yaml
+    adminUnitCodes: [TR-38]
+  - code: TR-42
+    file: distinct-regions/tr-42.yaml
+    adminUnitCodes: [TR-42]
+  - code: TR-62
+    file: distinct-regions/tr-62.yaml
+    adminUnitCodes: [TR-62]
 sources:
   - id: tur-constitution-art3
     name: "Constitution of the Republic of Turkey (1982), Article 3"

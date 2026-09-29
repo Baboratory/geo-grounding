@@ -1,0 +1,167 @@
+code: TR-62
+name:
+  eng: Tunceli Province (historically the Dersim region)
+  local:
+    - languageCode: tur
+      value: Tunceli
+    - languageCode: zza
+      value: Dêsim
+    - languageCode: kmr
+      value: Dêrsim
+climates:
+  - koppenCode: Dsb
+    description: "Dry-warm-summer continental highland climate: cold, snowy winters and cool, dry summers shaped by the Munzur Mountains; winter temperatures frequently drop far below freezing while summer days are warm but relatively dry. Higher Munzur slopes are subalpine/alpine."
+landmarks:
+  - name: "Munzur Valley National Park (Munzur Vadisi Milli Parkı)"
+    description: "Established 1971, the largest and most biodiverse national park in Turkey (420 km²), running along the Munzur Valley to the Munzur Mountains; 1,518 recorded plant species and bears, ibex, wolves and trout. Widely regarded as the heartland of Alevism and held sacred by the region's Alevi population."
+    unescoWorldHeritage: false
+  - name: "Munzur Mountains (Munzur Dağları)"
+    description: "High mountain range forming the northern wall of the province, rising to about 3,300 m, cut by the Munzur and Mercan river valleys; source area of the Munzur River."
+    unescoWorldHeritage: false
+  - name: "Munzur River (Munzur Suyu)"
+    description: "The province's principal river, flowing south from the Munzur highlands through the national park and past the capital Tunceli; noted for the rare red-spotted trout in its waters."
+    unescoWorldHeritage: false
+  - name: "Munzur (Ovacık) Springs (Munzur Gözeleri)"
+    description: "Sacred karstic springs near Ovacık at the foot of the Munzur Mountains, where some 40 spring-eyes burst from the rock to form the Munzur Suyu; a key recreation spot and a sacred site for local Alevis."
+    unescoWorldHeritage: false
+  - name: "Pertek Castle (Pertek Kalesi)"
+    description: "Byzantine-Seljuk citadel now standing on an island in the Keban reservoir on the province's southeastern edge; a dramatic landmark of the historical Dersim region."
+    unescoWorldHeritage: false
+  - name: "Karagöl Lake"
+    description: "One of the largest natural lakes in Tunceli province, set in the high Munzur plateau country."
+    unescoWorldHeritage: false
+culturalTraits:
+  - "The only province of Turkey with an Alevi religious majority; Alevism here is a distinct heterodox Islamic tradition, clearly distinct from mainstream Sunni Islam"
+  - "Strong regional identity centred on the historical region of Dersim, of which Tunceli province is the core (the province was renamed from Dersim to Tunceli in 1935)"
+  - "Predominantly Kurdish-speaking population: Zazaki (Dimli) and Kurmanji Kurdish are the community languages, with Zaza the mother tongue of most Alevis in the Munzur area"
+  - "Alevi religious practice centred on the cem (communal ritual gathering), the ocak/dedelik lineage tradition of dede spiritual leaders, and the cemevi rather than the Sunni mosque; reverence for nature and for Munzur as a sacred place"
+  - "Deep collective memory of the 1937-38 Dersim rebellion and its violent suppression, a formative trauma in which thousands of Alevi Zazas died and many were internally displaced"
+  - "Long local history of autonomy and resistance to central state authority"
+prideOf:
+  - "Being the only Alevi-majority province in Turkey, and the heartland of Alevism"
+  - "The Munzur Valley — rivers, springs and mountains held as sacred"
+  - "Dersim's distinct Zaza-Kurmanji Alevi cultural identity, language and memory of resistance"
+  - "Strong secularism and a heritage of nature reverence"
+animals:
+  popular:
+    - "Brown bear (Ursus arctos)"
+    - "Bezoar ibex / Anatolian wild goat (Capra aegagrus)"
+    - "Grey wolf (Canis lupus)"
+    - "Wild boar (Sus scrofa)"
+    - "Red fox (Vulpes vulpes)"
+  unique:
+    - "Bezoar ibex — a flagship game species of the Munzur Valley"
+    - "Woolly dormouse (Dryomys laniger) — a rare resident of the Munzur Valley"
+    - "Chamois and Eurasian lynx among the mountain large-mammal fauna"
+    - "Munzur red-spotted trout"
+industries:
+  - "Agriculture and crop farming in the valley floors"
+  - "Livestock and mountain pasture (yayla) animal husbandry"
+  - "Beekeeping and honey production (apiculture grown markedly in Ovacık)"
+  - "Small-scale local trade and services"
+  - "Nature and eco-tourism around the Munzur Valley"
+sports:
+  - "Traditional wrestling (associated with Alevi and rural Anatolian festival culture)"
+  - "Football (association football, Turkey's national sport)"
+religions:
+  - name: "Alevi Muslim"
+    percent: 90.0
+    sourceId: irb-canada-alevi-estimate
+  - name: "Sunni Muslim"
+    percent: 10.0
+    sourceId: irb-canada-alevi-estimate
+entertainment:
+  - season: summer
+    items:
+      - "Visiting Munzur Gözeleri (Ovacık springs) and riverside recreation in the Munzur Valley"
+      - "Hiking, camping and nature/photography tourism in Munzur Valley National Park"
+      - "Picnics along the Munzur River and in the green valleys"
+  - season: winter
+    items:
+      - "Indoor social gatherings around the hearth; long evenings in villages"
+      - "Alevi cem gatherings and dede-led religious/community evenings"
+      - "Warm fireside-centred village hospitality during heavy snowfall"
+  - season: allYear
+    items:
+      - "Alevi religious and cultural gatherings (cem, cemevi association life)"
+      - "Regional culture and nature festivals (e.g. Munzur-related festivals)"
+      - "Saz/bağlama and deyiş (Alevi sacred-song) music traditions"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kavut — roasted-wheat-flour porridge, often sweetened with honey and enriched with butter, a signature Dersim dish"
+      - "Keşkek (local gorgodabur) — slow-cooked cracked-wheat stew"
+      - "Tutmaç çorbası (tıtmacabur) — traditional noodle/dough soup"
+      - "Ayran çorbası (tanabur) — yogurt-based soup"
+      - "Tandır bread / lavaş and sac bread — flatbreads baked in the village clay tandoor or on the iron sac"
+      - "Zerefet and other flour-based village dishes of Dersim cooking"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays: []
+  notes: "Follows the national Turkish pattern with Saturday-Sunday as the weekly rest; public offices and shops run roughly 08:30-17:30 weekdays. While most of Turkey marks Sunni Ramadan and the two bayrams, many Tunceli Alevis follow a distinct ritual calendar (notably the Muharrem mourning observance in place of the Sunni Ramadan fast), so Eid/Muharrem closures follow the national legal holiday calendar. The province is small and rural, so activity slows markedly in the deep-snow winter months."
+  typicalWorkHours: "08:30-17:30 Mon-Fri."
+sources:
+  - id: tunceli-province-wikipedia
+    name: "Tunceli Province (formerly Dersim Province) — Wikipedia"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Tunceli_Province"
+    year: 2025
+    accessedDate: "2026-09-29"
+    note: "Province renamed from Dersim in 1935; Kurdish/Zaza majority; only province in Turkey with an Alevi majority; Munzur Valley National Park and Karagöl Lake."
+  - id: munzur-np-wikipedia
+    name: "Munzur Valley National Park — Wikipedia"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Munzur_Valley_National_Park"
+    year: 2025
+    accessedDate: "2026-09-29"
+    note: "Established 1971; largest and most biodiverse national park in Turkey (420 km²); continental climate with extreme cold winters; 1,518 plant species; fauna includes woolly dormouse, wolf, brown bear, wildcat; Alevi inhabitants revere nature."
+  - id: kurdish-alevism-wikipedia
+    name: "Kurdish Alevism — Wikipedia"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Kurdish_Alevism"
+    year: 2025
+    accessedDate: "2026-09-29"
+    note: "Tunceli is the only (Kurdish) Alevi-majority province; eastern Anatolian Alevi populations ~69.7% speak Zaza as mother tongue and ~20.2% Kurmanji."
+  - id: dersim-rebellion-wikipedia
+    name: "Dersim rebellion — Wikipedia"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Dersim_rebellion"
+    year: 2025
+    accessedDate: "2026-09-29"
+    note: "1937-38 Alevi Kurdish (Zaza) uprising suppressed by Turkish military operations; thousands of Alevi Zazas died."
+  - id: irb-canada-alevi-estimate
+    name: "IRB of Canada — Alevis in Turkey (Tunceli)"
+    publisher: "Immigration and Refugee Board of Canada"
+    url: "https://www.irb-cisr.gc.ca/en/country-information/rir/Pages/index.aspx?doc=458505"
+    year: 2020
+    accessedDate: "2026-09-29"
+    note: "Cites Australian DFAT 2020: Tunceli 'is the centre of the Alevi faith' with about 95% Alevi; estimates elsewhere range 80-90%. The 90% Alevi / 10% Sunni figures are disclosed estimates (Turkey's census does not collect religion)."
+  - id: weatherandclimate-tunceli
+    name: "Tunceli climate zone, monthly averages"
+    publisher: "Weather and Climate"
+    url: "https://weatherandclimate.com/turkey/tunceli"
+    year: 2025
+    accessedDate: "2026-09-29"
+    note: "Classifies Tunceli as humid-continental dry-warm-summer (Dsb), elevation ~958 m; supports the Dsb Köppen code."
+  - id: tunceli-gov-ovacik
+    name: "T.C. Tunceli Valiliği — Ovacık district"
+    publisher: "T.C. Tunceli Valiliği"
+    url: "http://tunceli.gov.tr/ovacik"
+    year: 2025
+    accessedDate: "2026-09-29"
+    note: "Ovacık mountain district in Munzur Valley National Park; economy mainly agriculture and animal husbandry; apiculture grown; red-spotted trout a noted product."
+  - id: houshamadyan-dersim-cuisine
+    name: "Houshamadyan — Dersim Sanjak: Kitchen"
+    publisher: "Houshamadyan"
+    url: "https://www.houshamadyan.org/tur/haritalar/mamuret-uel-aziz-vilayeti/dersim-sancagi/yerel-oezellikler/muftak2.html"
+    year: 2024
+    accessedDate: "2026-09-29"
+    note: "Dersim kitchen: tandır/sac-baked bread, ayran soup (tanabur), keşkek (gorgodabur), tutmaç soup; corroborates dishes; kavut is community-cited as a signature Dersim dish."

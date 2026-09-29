@@ -1,0 +1,133 @@
+code: TR-31
+name:
+  eng: Hatay Province (Mediterranean, Antakya)
+  local:
+    - languageCode: tur
+      value: Hatay
+    - languageCode: arb
+      value: هاتاي
+climates:
+  - koppenCode: Csa
+    description: "Hot-summer Mediterranean climate: long, hot and dry summers and mild, wet winters; moderated by the sea and the Amik Plain and Antakya valley microclimate."
+landmarks:
+  - name: "Church of Saint Peter (St. Pierre Kilisesi)"
+    description: "The world's earliest-known purpose-built Christian church, a cave church carved into Mount Stauris northeast of Antakya, associated with the apostle Peter's ministry in Antioch. Listed on UNESCO's Tentative World Heritage List."
+    unescoWorldHeritage: false
+  - name: "Vespasianus Titus Tunnel (Çevlik, Samandağ)"
+    description: "A monumental Roman-era water-diversion tunnel cut through a mountain at Çevlik to spare Seleucia Pieria from flood and silt; one of antiquity's great engineering feats. Listed on UNESCO's Tentative World Heritage List."
+    unescoWorldHeritage: false
+  - name: "Antakya Archaeological Museum"
+    description: "One of the world's great archaeology museums and home to the largest collection of Roman mosaics anywhere, from the ancient metropolis of Antioch."
+    unescoWorldHeritage: false
+  - name: "Harbiye (ancient Daphne)"
+    description: "Waterfall-gardens and springs of the ancient pleasure resort of Daphne, famed in Greco-Roman antiquity, on the slopes above Antakya."
+    unescoWorldHeritage: false
+culturalTraits:
+  - "A historic civilisational crossroads where Alawite Arab, Sunni, Christian (Syriac Orthodox/Catholic, Maronite, Antiochian Greek, Armenian) and Jewish communities have coexisted for centuries"
+  - "The legacy of the Sanjak of Alexandretta / Hatay State (1938-39), part of French-Mandate Syria before joining Turkey"
+  - "Arabic is still widely spoken at home -- one of the few provinces where Arabic survives as a daily vernacular"
+  - "A proud, distinctive food culture regarded as among Turkey's finest, blending Arab, Armenian and Turkish traditions"
+  - "Deep-rooted Alawite (Nusayri) religious and cultural identity, concentrated in the coastal Samandağ and Defne districts"
+prideOf:
+  - "Antakya's mosaic heritage and role as one of Christianity's earliest centres (Antioch)"
+  - "Hatay's celebrated cuisine, from künefe to zahter"
+  - "The unique Alawite-Arab communal identity preserved from the old Hatay State"
+  - "Over a thousand years of religious coexistence and cultural mixing"
+animals:
+  popular:
+    - "Mediterranean monk seal (off the Samandağ coast, rare)"
+    - "Green sea turtle (nesting beaches of Samandağ)"
+    - "Loggerhead sea turtle"
+  unique:
+    - "Samandağ-Chatt-ul-Haq sea turtle nesting beaches"
+industries:
+  - "Agriculture: citrus, olives and olive oil, and cotton from the Amik Plain"
+  - "Food processing and the famous Antakya cuisine/confectionery (künefe) trade"
+  - "Horticulture and greenhouse farming in the coastal belt"
+  - "Tourism (Antakya heritage, Harbiye, Samandağ beaches)"
+  - "Border trade with Syria and the port/logistics corridor"
+sports:
+  - "Football (Hatayspor)"
+  - "Conservative local culture; sea and beach recreation along the Samandağ coast"
+religions:
+  # Turkey publishes no official religious census (last census asked religion in
+  # 1965); the following are disclosed estimates. Reporters and analysts
+  # consistently put the Alawite (Arab Nusayri) share of Hatay's population at
+  # roughly half, with the remainder majority Sunni and Christian and other
+  # minorities present. Alawites are a local majority in the Arsuz, Defne and
+  # Samandağ coastal districts.
+  - name: "Alawite (Arab Nusayri) Muslim"
+    percent: 48.0
+    sourceId: tur-hatay-alawite
+  - name: "Sunni Muslim"
+    percent: 45.0
+    sourceId: tur-hatay-alawite
+  - name: "Christian and other minorities (Syriac, Armenian, Maronite, Greek, Jewish)"
+    percent: 7.0
+    sourceId: tur-hatay-alawite
+entertainment:
+  - season: summer
+    items:
+      - "Sea and beach life along the Samandağ and Arsuz coast"
+      - "Harbiye waterfalls and the cool Amik Plain gardens"
+      - "Evening meze and künefe culture in Antakya"
+  - season: winter
+    items:
+      - "Mild coastal weather; olive-harvest season and zahter gathering"
+      - "Visiting Antakya's mosques, churches and museums"
+  - season: allYear
+    items:
+      - "Antakya Archaeological Museum and its Roman mosaics"
+      - "Bazaar (long) shopping and the famous Hatay food streets"
+      - "Religious coexistence -- mosques, churches and the old Alawite shrines"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Künefe (Antakya's signature cheese and shredded-phyllo sweet)"
+      - "Biberli ekmek (spiced flatbread)"
+      - "Zahter (wild-thyme salad/topping)"
+      - "Hummus and meze"
+      - "Lahmacun and Antakya tavası"
+  - season: summer
+    items:
+      - "Gaziantep-style fresh fruit and cold meze"
+      - "Ayran and cold olive-oil dishes"
+  - season: winter
+    items:
+      - "Hearty Arab-influenced stews and kebabs"
+      - "Warm zahter and fried egg breakfast dishes"
+seasonCalendar:
+  - season: winter
+    months: [12, 1, 2]
+  - season: spring
+    months: [3, 4, 5]
+  - season: summer
+    months: [6, 7, 8]
+  - season: autumn
+    months: [9, 10, 11]
+businessRhythm:
+  restDays: []
+  notes: "Follows the national Turkish pattern: Monday-Friday working week with Sunday as the weekly rest; Friday is a normal working day. Fruit, citrus and olive harvests and greenhouse horticulture drive a pronounced seasonal tempo on top of the base rhythm. Government offices run 08:30-17:30."
+  typicalWorkHours: "09:00-18:00 Mon-Fri (government 08:30-17:30)."
+sources:
+  - id: tur-hatay-alawite
+    name: "Hatay -- Alawite share roughly half the province (disclosed estimate)"
+    publisher: "Composite estimate (PBS Religion & Ethics Newsweekly; The World / PRX)"
+    url: "https://www.pbs.org/wnet/religionandethics/2013/01/04/january-4-2013-alawite-anxiety-in-turkey/14343/"
+    year: 2013
+    accessedDate: "2026-09-29"
+    note: "Alawite (Nusayri) share of Hatay's population put at roughly half by reporting ('perhaps fifty percent'); remainder majority Sunni with Christian and other minorities. Turkey has no official religious census since 1965 -- disclosed estimate; the historical French 1936 count of the Sanjak also recorded Alawites as the largest single group (~28% of 220,000)."
+  - id: tur-hatay-profile
+    name: "Hatay Province -- history, demographics and culture"
+    publisher: "Wikipedia (secondary)"
+    url: "https://en.wikipedia.org/wiki/Hatay_Province"
+    year: 2026
+    accessedDate: "2026-09-29"
+    note: "Supports the Sanjak of Alexandretta/Hatay State history, Arabic as a spoken vernacular, Alawite concentration in Samandağ/Defne/Arsuz, the religious coexistence narrative and Vakıflı, Turkey's last rural Armenian village."
+  - id: tur-hatay-unesco
+    name: "UNESCO World Heritage Centre: Turkey tentative list (St. Pierre Church; Vespasianus Titus Tunnel)"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/tentativelists/5613/"
+    year: 2025
+    accessedDate: "2026-09-29"
+    note: "Confirms St. Pierre Church and the Titus Tunnel are on Turkey's Tentative World Heritage List (not yet inscribed on the World Heritage List) -- hence unescoWorldHeritage:false on those landmarks."
