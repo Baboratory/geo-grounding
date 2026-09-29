@@ -6,65 +6,94 @@ name:
       value: Kayseri
 climates:
   - koppenCode: BSk
-    description: "Cold semi-arid climate at high elevation (city at ~1,050 m, Erciyes massif to the south): hot, dry summers with cool nights, cold and snowy winters, and rain concentrated in spring and autumn."
+    description: "Cold semi-arid / cold steppe on the Central Anatolian plateau at the base of Mount Erciyes: very cold, snowy winters (Dec-Feb), hot dry summers (Jun-Aug), large diurnal temperature swings and annual rainfall below the semi-arid threshold (~400 mm). Fires trigger 5 — main class B, unrepresented by the curated set."
 landmarks:
-  - name: "Erciyes Mountain (Erciyes Dağı)"
-    description: "A great volcanic stratovolcano rising to 3,917 m directly south of the city; a dramatic peak of the Anatolian plateau and the site of a major year-round ski resort on its slopes. Not a UNESCO World Heritage Site."
+  - name: "Mount Erciyes (Erciyes Dağı)"
+    description: "A dormant stratovolcano rising to 3,917 m, the highest summit in Central Anatolia and the city's dominant backdrop (~25-30 km south of Kayseri). Hosts the Erciyes Ski Resort, one of Turkey's largest, with lifts reaching above 3,000 m."
     unescoWorldHeritage: false
   - name: "Kayseri Castle (Kayseri Kalesi)"
-    description: "The restored Byzantine, Seljuk and Ottoman fortress at the heart of the city, site of archaeological finds and a symbol of Kayseri's long history."
+    description: "Ancient inner-and-outer walled citadel in the city centre, attested from Roman times (3rd century AD) and repeatedly repaired by the Byzantine, Danishmendid, Seljuk, Karamanid and Ottoman rulers; the inner fort with its 18 towers survives intact."
     unescoWorldHeritage: false
-  - name: "Kültepe (Kanesh / Kārum Kaneš)"
-    description: "The archaeological mound of ancient Kanesh some 20 km northeast of the city -- centre of a 19th-century BC Old Assyrian merchant colony whose cuneiform archives transformed our knowledge of Anatolian trade; on UNESCO's Tentative World Heritage List."
+  - name: "Hunat Hatun Complex"
+    description: "13th-century Seljuk complex of mosque, medrese, hamam and türbe, built in 1237 by Mahperi Hunat Hatun, wife of Seljuk Sultan Alaeddin Keykubat I; the medrese long served as Kayseri's museum."
+    unescoWorldHeritage: false
+  - name: "Gevher Nesibe Medical Complex (Seljuk medical school)"
+    description: "Seljuk-era hospital and medical school founded in 1206 by Gıyaseddin Keyhüsrev I in memory of his sister Gevher Nesibe Sultan — one of Anatolia's earliest centres of medicine; now home to the Museum of Seljuk Civilization."
+    unescoWorldHeritage: false
+  - name: "Kayseri Ulu Cami (Grand Mosque)"
+    description: "Large mosque near the castle, among the oldest examples in Anatolia of the Seljuk Ulu Cami (columned longitudinal) tradition, with a minaret added during the 1206 repair; the Islamic-era minaret is Kayseri's oldest."
+    unescoWorldHeritage: false
+  - name: "Kayseri Archaeology Museum (Kayseri Arkeoloji Müzesi)"
+    description: "Regional archaeological museum displaying finds from Kültepe/Kanesh and the broader Kayseri region's long history."
     unescoWorldHeritage: false
 culturalTraits:
-  - "A proud commercial and industrial powerhouse of Central Anatolia with a strong merchant and entrepreneurial culture"
-  - "Distinctive culinary fame as the home of pastırma (cured pastrami) and sucuk (spiced sausage)"
-  - "Deep roots in the Great Seljuk era -- the city preserves Seljuk and Danishmend-era mosques, medreses and hans"
-  - "Devout, disciplined and industrious Anatolian-Seljuk social conservatism"
-  - "A tradition of high-altitude hardiness tied to the nearby Erciyes massif and cold, dry winters"
+  - "Major Seljuk city: Kayseri flourished under the Sultanate of Rum, leaving a dense legacy of Seljuk medreses, mosques, caravanserais and hospitals"
+  - "Anatolian steppe culture rooted in the cold semi-arid Central Anatolian plateau, with a hearty grain- and meat-based table"
+  - "Winter-sports and mountaineering identity centred on Mount Erciyes and its ski resort"
+  - "Conservative, devout and famously hard-working local identity; Kayseri's industrialists are archetypal 'Anatolian tigers'"
+  - "Deep civic pride in craft and trade — pastırma/sucuk production, furniture and textiles"
 prideOf:
-  - "Pastırma and sucuk -- Kayseri's world-famous cured-meat specialties"
-  - "Erciyes, a towering volcano and one of Turkey's premier ski destinations"
-  - "Seljuk heritage and the ancient trade city of Kanesh (Kültepe)"
-  - "A home-grown industrial and businesses success story"
+  - "Mount Erciyes and the Erciyes Ski Resort, one of Turkey's largest"
+  - "The Seljuk heritage of Kayseri — medreses, the Gevher Nesibe medical school and Hunat Hatun Complex"
+  - "Kayseri as the home of pastırma, sucuk and Kayseri mantısı"
+  - "Being a leading Anatolian industrial and manufacturing powerhouse ('furniture capital of Türkiye')"
 animals:
   popular:
-    - "Anatolian shepherd / Kangal dog (kept on the steppe and at mountain farms)"
-    - "Central Anatolian sheep breeds"
-    - "Angora goat"
+    - "Anatolian wolf (kurt)"
+    - "Wild goat / ibex (dağ keçisi) on the Erciyes slopes"
+    - "Golden eagle (kaya kartalı)"
+    - "Wild horses (yılkı) of the Erciyes highlands"
   unique:
-    - "Kültepe's Old Assyrian cattle-herding legacy (archaeological)"
+    - "Erciyes wild goat (dağ keçisi) populations"
+    - "Yılkı (feral horse) herds of Mount Erciyes"
+    - "Endemic Erciyes flora such as Astragalus argaeus"
 industries:
-  - "Furniture manufacturing -- Kayseri is one of Turkey's largest furniture-production clusters"
-  - "Food processing and the pastırma/sucuk meat industry"
-  - "Textiles and ready-made garments"
-  - "Machinery and metal fabrication"
-  - "Construction materials and packaging"
-  - "Tourism and recreation around Erciyes ski resort"
+  - "Furniture manufacturing — Kayseri is described as the 'furniture capital of Türkiye'"
+  - "Textiles and knitted upholstery fabric"
+  - "Food processing: pastırma and sucuk cured-meat production"
+  - "Agriculture on the plateau (wheat, sugar beet)"
+  - "Winter and alpine tourism (Erciyes Ski Resort)"
+  - "Machinery, metalworking and general manufacturing ('Anatolian tiger' economy)"
 sports:
-  - "Skiing and snowboarding at Erciyes"
-  - "Football (Kayserispor)"
-  - "Mountaineering on Erciyes"
-  # Religion is not a coverage trigger for Kayseri (it is curated on climate,
-  # trigger 5). Kayseri is overwhelmingly Sunni Muslim, matching the national
-  # picture with no statutory religious distinction; no reliable province-level
-  # religious breakdown exists (Turkey's official census last asked religion in
-  # 1965), so religions[] is deliberately omitted rather than guessed.
+  - "Football (Kayserispor, founded 1966)"
+  - "Skiing and snowboarding at Erciyes Ski Resort"
+  - "Mountaineering and trekking on Mount Erciyes"
+religions:
+  - name: "Sunni Muslim"
+    percent: 98.0
+    sourceId: tur-uscirf
 entertainment:
-  - season: summer
-    items:
-      - "Erciyes year-round cable-car, hiking and highland trails"
-      - "Tea gardens and the parks of Kayseri's old town"
-      - "Market and food traditions (sucuk-pastırma streets)"
   - season: winter
     items:
-      - "Skiing and snowboarding at Erciyes ski resort"
-      - "Snowy-stately winters around the Seljuk monuments"
+      - "Skiing and snowboarding at Erciyes Ski Resort and night-skiing"
+      - "Winter hikes and snow views on Mount Erciyes"
+      - "Heated hammam (Turkish bath) culture"
+  - season: summer
+    items:
+      - "Trekking, climbing and mountain-biking on Mount Erciyes"
+      - "Day trips and picnicking on the Anatolian plateau and in city parks"
+      - "Outdoor tea gardens"
   - season: allYear
     items:
-      - "Kayseri Castle and the archaeological heritage sites"
-      - "Cafés and the pastırma-bazaar food culture"
+      - "Café and tea-garden culture"
+      - "Museum of Seljuk Civilization and the Archaeology Museum"
+      - "Browsing the historic covered bazaar (Kapalıçarşı)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Kayseri mantısı — the famed tiny hand-formed Kayseri dumplings served with garlicky yogurt and butter sauce"
+      - "Pastırma — air-cured, çemen-coated dried beef, Kayseri's signature product"
+      - "Sucuk — spiced cured beef sausage"
+      - "Yağlama — layered rolled dough with a minced-meat filling"
+  - season: summer
+    items:
+      - "Cıvıklı — a Kayseri pide speciality of the Develi district"
+      - "Grilled meat with ayran and fresh plateau produce"
+  - season: winter
+    items:
+      - "Kete, erişte and kuskus — hearty wheat-based staples"
+      - "Borani (yogurt-topped vegetable stew)"
+      - "Pastırma with kuru fasulye (stewed beans)"
 seasonCalendar:
   - season: winter
     months: [12, 1, 2]
@@ -76,20 +105,48 @@ seasonCalendar:
     months: [9, 10, 11]
 businessRhythm:
   restDays: []
-  notes: "Follows the national Turkish pattern: Monday-Friday working week with Sunday as the weekly rest; Friday is a normal working day. Industrial zones and the pastırma/sucuk trade push a six-day rhythm; the Erciyes ski season (winter) is the main tourist peak. Government offices run 08:30-17:30."
-  typicalWorkHours: "09:00-18:00 Mon-Fri (government 08:30-17:30)."
+  notes: "National rhythm identical to the rest of Türkiye: work Monday-Friday, Friday is a normal working day and the weekly rest is Sunday; Turkish national holidays (Republic Day Oct 29, Ramadan and Eid, Kurban Bayramı) shift schedules. The Erciyes winter-sports season (roughly December-April) puts local tourism and hospitality businesses into high gear, while the hot dry summer slows midday outdoor work. Kayseri is overwhelmingly Sunni Muslim, same as the national default — this file exists on climate grounds (trigger 5), not religion."
+  typicalWorkHours: "08:30-17:30 Mon-Fri (government); 09:00-18:00 (private/industry)."
 sources:
-  - id: tur-kayseri-koppen
-    name: "Kayseri climate: cold semi-arid (Köppen BSk)"
-    publisher: "Composite climate reference (topographic-map / Köppen-Geiger)"
-    url: "https://en-gb.topographic-map.com/map-gfzdn/Kayseri/"
-    year: 2026
+  - id: tur-uscirf
+    name: "USCIRF 2023 Annual Report: Turkey"
+    publisher: "U.S. Commission on International Religious Freedom"
+    url: "https://uscirf.gov/sites/default/files/2023-05/Turkey.pdf"
+    year: 2023
     accessedDate: "2026-09-29"
-    note: "Köppen BSk cold semi-arid classification for Kayseri at high elevation; supports the climates[] entry and this province's climate (trigger 5) rationale."
-  - id: tur-kayseri-heritage
-    name: "Kültepe (Kanesh) and Kayseri's historical heritage"
-    publisher: "UNESCO World Heritage Centre tentative list and archaeological references"
-    url: "https://whc.unesco.org/en/tentativelists/5149/"
-    year: 2025
+    note: "National figures (no provincial breakdown): ~99% Muslim, majority Hanafi Sunni. Kayseri shows no religion divergence from the country default (this file exists on climate, trigger 5). Share is a disclosed estimate."
+  - id: tur-kayseri-gov-kale
+    name: "Kayseri Kalesi (Kayseri Castle)"
+    publisher: "Kayseri Provincial Governorship (Kayseri Valiliği)"
+    url: "https://www.kayseri.gov.tr/kayseri-kalesi"
+    year: 2024
     accessedDate: "2026-09-29"
-    note: "Supports the Kültepe/Kanesh landmark (Old Assyrian trade colony, on Turkey's Tentative World Heritage List -- hence unescoWorldHeritage:false) and Kayseri's Seljuk-era heritage."
+    note: "Official account of Kayseri Castle: attested from Roman coins of Gordianus III (3rd c. AD); inner and outer walls with 18 towers."
+  - id: tur-kayseri-gov-hunat
+    name: "Hunat Hatun Medresesi"
+    publisher: "Kayseri Provincial Governorship (Kayseri Valiliği)"
+    url: "https://www.kayseri.gov.tr/hunat-hatun-medresesi"
+    year: 2024
+    accessedDate: "2026-09-29"
+    note: "Official account of the Hunat Hatun Complex, built 1237 by Mahperi Hunat Hatun; the medrese served as the city's museum."
+  - id: tur-kayseri-cuisine
+    name: "Kayseri Mutfağı (Kayseri Cuisine)"
+    publisher: "T.C. Ministry of Culture and Tourism, Kayseri Provincial Directorate"
+    url: "https://kayseri.ktb.gov.tr/TR-55146/kayseri-mutfagi.html"
+    year: 2024
+    accessedDate: "2026-09-29"
+    note: "Official provincial gastronomy page: pastırma, sucuk and mantı are products identified with Kayseri."
+  - id: tur-tuik
+    name: "Address Based Population Registration System, 2024 (ADNKS)"
+    publisher: "Turkish Statistical Institute (TÜİK)"
+    url: "https://www.tuik.gov.tr"
+    year: 2024
+    accessedDate: "2026-09-29"
+    note: "Kayseri province population 1,452,458 as of 31 December 2024. Context only."
+  - id: wikipedia-erciyes
+    name: "Mount Erciyes — Wikipedia"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Mount_Erciyes"
+    year: 2024
+    accessedDate: "2026-09-29"
+    note: "Dormant stratovolcano, 3,917 m, highest summit in Central Anatolia; Erciyes Ski Resort."

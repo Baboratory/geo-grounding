@@ -6,57 +6,78 @@ name:
       value: Konya
 climates:
   - koppenCode: BSk
-    description: "Cold semi-arid steppe climate of the Central Anatolian plain: hot, dry summers and cold, snowy winters with large diurnal temperature swings and low, strongly seasonal rainfall -- the archetypal Anatolian steppe."
+    description: "Cold semi-arid steppe climate on the Central Anatolian plain: hot, dry summers, cold, snowy winters, large diurnal temperature swings and low, strongly seasonal rainfall (~300-325 mm/yr) — the archetypal Anatolian steppe. Fires trigger 5: main class B is unrepresented in the curated set."
 landmarks:
   - name: "Mevlana Museum"
-    description: "The turquoise-domed mausoleum and lodge of the mystic poet Mevlana Celaleddin Rumi (Jalal ad-Din), founder of the Mevlevi Sufi order of the Whirling Dervishes; Turkey's most visited museum and a pilgrimage centre. (The Mevlevi 'Sema' is UNESCO Intangible Cultural Heritage; the museum itself is not a World Heritage Site.)"
+    description: "The turquoise-domed mausoleum and lodge of the Sufi mystic poet Mevlana Celaleddin Rumi, founder of the Mevlevi order of the Whirling Dervishes; Turkey's most-visited museum and a major pilgrimage centre. (The Mevlevi Sema is on UNESCO's Intangible Cultural Heritage list; the museum is not a World Heritage Site.)"
     unescoWorldHeritage: false
-  - name: "Çatalhöyük"
+  - name: Çatalhöyük
     description: "An extraordinary Neolithic proto-city of densely packed mud-brick houses entered through the roof, occupied c. 7100-5700 BCE on the Konya Plain; a UNESCO World Heritage Site (inscribed 2012) and among the most intensively studied early urban settlements on Earth."
     unescoWorldHeritage: true
+  - name: "Alaeddin Mosque"
+    description: "The largest surviving Seljuk mosque in Konya, built on Alaeddin Hill (the old citadel mound) in stages from the mid-12th to mid-13th centuries; it served as the 'mosque of the throne' for the Seljuk Sultans of Rum and houses their dynastic mausoleum."
+    unescoWorldHeritage: false
+  - name: "Selimiye Mosque (Konya)"
+    description: "A 16th-century Ottoman mosque (commissioned 1558 by Selim II) in the Classical Ottoman style, standing next to the Mevlana Museum in the city centre; a double-minaret domed mosque resembling the Fatih Mosque in Istanbul."
+    unescoWorldHeritage: false
   - name: "Karatay Madrasa (Karatay Medresesi)"
-    description: "A 13th-century Seljuk madrasa in Konya now housing a celebrated museum of Seljuk tile and ceramic artwork."
+    description: "A 13th-century Seljuk madrasa in Konya, commissioned in 1251, now housing a celebrated museum of Seljuk and Ottoman tile work; its stones were quarried in Sille."
+    unescoWorldHeritage: false
+  - name: "Sille (historic village)"
+    description: "A historic village on Konya's western outskirts, one of the last Greek-Orthodox villages of central Anatolia before the 1923 population exchange; known for its rock-cut churches, caves and Ottoman-era houses."
+    unescoWorldHeritage: false
+  - name: "Konya Plain"
+    description: "Turkey's vast, mostly treeless breadbasket — a flat, fertile, irrigated steppe plain on the southern edge of the Anatolian Plateau that produces a large share of the country's wheat and sugar beet and is home to Çatalhöyük."
+    unescoWorldHeritage: false
+  - name: "Lake Tuz (Tuz Gölü)"
+    description: "Turkey's second-largest lake and one of the largest hypersaline lakes in the world, lying at the junction of Konya, Aksaray and Ankara provinces; in summer it dries into a brilliant white salt pan supplying a large share of Turkey's salt."
     unescoWorldHeritage: false
 culturalTraits:
-  - "Turkey's deepest well of Seljuk heritage -- Konya was the capital of the Anatolian Seljuk Sultanate in the 12th-13th centuries"
+  - "Turkey's deepest well of Seljuk heritage — Konya was the capital of the Anatolian Seljuk Sultanate in the 12th-13th centuries"
   - "A devoutly conservative, Sufi- and pilgrimage-centred city, home and burial place of Mevlana Rumi"
   - "Known for whirling-dervish (Mevlevi) culture and the annual Rumi Commemoration Week (December)"
   - "Fierce regional pride in its flat, fertile steppe and agrarian bounty"
   - "Formal, hospitable and traditional Central Anatolian social culture"
 prideOf:
-  - "Mevlana Rumi and the Mevlevi Order -- 'come, come, whoever you are'"
+  - "Mevlana Rumi and the Mevlevi Order — 'come, come, whoever you are'"
   - "Being the wellspring of Seljuk architecture and the capital of the Anatolian Seljuks"
   - "Çatalhöyük and the deep Neolithic roots of the Konya Plain"
   - "Being Turkey's breadbasket and largest province by area"
 animals:
   popular:
     - "Central Anatolian Merino sheep"
-    - "Anatolian shepherd / Kangal dog (kept in the steppe)"
+    - "Anatolian shepherd / Kangal dog (kept by steppe herders)"
     - "Angora goat"
   unique:
-    - "Çatalhöyük-era domesticated cattle lineage (archaeological heritage)"
+    - "Çatalhöyük-era domesticated-cattle lineage (archaeological heritage)"
 industries:
-  - "Agriculture and agri-food on the vast Konya Plain (wheat, sugar beet, legumes) -- Turkey's principal grain-producing province"
-  - "Carpet and kilim handicrafts (Konya carpet-making tradition)"
+  - "Agriculture and agri-food on the vast Konya Plain (wheat, sugar beet, legumes) — Turkey's largest grain-producing and largest farming-area province, often called the national breadbasket"
+  - "Sugar production (Konya is Turkey's leading sugar-beet and sugar producer)"
   - "Food processing and refrigerated supply chains"
+  - "Carpet and kilim handicrafts (long Konya carpet-weaving tradition)"
   - "Machinery, agricultural equipment and manufacturing"
-  - "Defence and aerospace (a major Turkish Aerospace plant; wind-tunnel and aviation heritage)"
-  - "Cultural/religious tourism (Mevlana pilgrimage, Çatalhöyük)"
+  - "Defence and aerospace (a major Turkish Aerospace plant)"
+  - "Cultural and religious tourism (Mevlana pilgrimage, Çatalhöyük)"
 sports:
-  - "Football (Konyaspor)"
-  - "Basketball"
+  - "Football (Konyaspor, Süper Lig)"
+  - Basketball
   - "Wrestling and traditional Central Anatolian strength sports"
-  # Religion is not a coverage trigger for Konya (it is curated on climate,
-  # trigger 5). Konya is overwhelmingly Sunni Muslim with no shape-shifting
-  # statutory distinction from the national picture; no reliable province-level
-  # religious breakdown exists and Turkey's official census last asked religion
-  # in 1965, so religions[] is deliberately omitted rather than guessed.
+religions:
+  - name: "Sunni Muslim"
+    percent: 95.0
+    sourceId: tur-uscirf
+  - name: "Alevi Muslim"
+    percent: 3.0
+    sourceId: tur-uscirf
+  - name: "Christian and other minorities"
+    percent: 0.5
+    sourceId: tur-uscirf
 entertainment:
   - season: summer
     items:
       - "Whirling-dervish Sema performances and Mevlevi cultural evenings"
       - "Parks and tea gardens on the Konya steppe"
-      - "Day trips to Çatalhöyük and the plain's historic caravanserais"
+      - "Day trips to Çatalhöyük and the plain's historic Seljuk caravanserais"
   - season: winter
     items:
       - "Quiet, indoor-friendly winters around the Seljuk monuments"
@@ -69,15 +90,15 @@ entertainment:
 traditionalDishes:
   - season: allYear
     items:
-      - "Etli ekmek (Konya's long, thin minced-meat flatbread)"
+      - "Etli ekmek — Konya's long, thin minced-meat flatbread, geographically-indicated since 2017"
       - "Fırın kebabı (oven lamb kebab)"
       - "Tandır kebabı"
-      - "Mevlana şekeri (Rumi-themed sweets)"
-      - "Bamya çorbası (okra soup)"
+      - "Bamya çorbası (okra soup, a hallmark of Konya wedding menus)"
+      - "Mevlana şekeri (Rumi-themed rose-water sweets)"
   - season: summer
     items:
       - "Cold meze and ayran"
-      - "Fresh fruits and lemons from the plain"
+      - "Fresh fruits and vegetables from the plain"
   - season: winter
     items:
       - "Hearty bean and grain stews"
@@ -93,20 +114,34 @@ seasonCalendar:
     months: [9, 10, 11]
 businessRhythm:
   restDays: []
-  notes: "Follows the national Turkish pattern: Monday-Friday working week with Sunday as the weekly rest; Friday is a normal working day. Agriculture and the large industrial zones set the tempo -- busy harvest times on the steppe and a strong pilgrimage-driven tourism calendar around Mevlana (peak December). Government offices run 08:30-17:30."
+  notes: "Follows the national Turkish pattern: Monday-Friday working week with Sunday as the weekly rest; Friday is a normal working day. Agriculture and the large sugar/food-industrial zones set the tempo — busy at harvest times and around sugar processing season. Religious holidays (Ramadan and Eid) and the annual Mevlana pilgrimage/dervish season (peak December) shape the cultural calendar. Konya is overwhelmingly Sunni Muslim, same as the national default — this file exists on climate grounds (trigger 5), not religion."
   typicalWorkHours: "09:00-18:00 Mon-Fri (government 08:30-17:30)."
 sources:
-  - id: tur-konya-koppen
-    name: "Konya climate: cold semi-arid (Köppen BSk), 1991-2020 normals"
-    publisher: "Composite climate report (StatsClimat / ERA5-Köppen-Geiger)"
-    url: "https://statsclimat.com/Asia/Turkiye/report_Konya"
+  - id: tur-uscirf
+    name: "USCIRF 2023 Annual Report: Turkey"
+    publisher: "U.S. Commission on International Religious Freedom"
+    url: "https://uscirf.gov/sites/default/files/2023-05/Turkey.pdf"
+    year: 2023
+    accessedDate: "2026-09-29"
+    note: "National figures (Turkey publishes no provincial breakdown): government claims ~99% Muslim, majority Hanafi Sunni, Alevi the largest minority. Shares are disclosed estimates; Konya shows no religion divergence from the country default."
+  - id: wikipedia-catalhoyuk
+    name: "Çatalhöyük — Wikipedia"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/%C3%87atalh%C3%B6y%C3%BCk"
     year: 2024
     accessedDate: "2026-09-29"
-    note: "Köppen BSk cold semi-arid classification for Konya; supports the climates[] entry and this province's climate (trigger 5) rationale."
-  - id: tur-konya-heritage
-    name: "Konya: Mevlana Museum, Seljuk heritage and Çatalhöyük"
-    publisher: "Cultural heritage and travel references (UNESCO World Heritage Centre; travel guides)"
-    url: "https://culturalheritageonline.com/magazine/unesco-world-heritage-sites-near-konya"
-    year: 2026
+    note: "Neolithic proto-city on the Konya Plain, c. 7100-5700 BCE, UNESCO World Heritage Site (2012); among the most studied early urban settlements."
+  - id: wikipedia-konya
+    name: "Konya — Wikipedia"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Konya"
+    year: 2024
     accessedDate: "2026-09-29"
-    note: "Supports landmarks: Mevlana Museum (Rumi's tomb, Sema as UNESCO Intangible Heritage), Karatay Madrasa, and Çatalhöyük as a UNESCO World Heritage Site (2012); also Konya's Seljuk capital history and Rumi Commemoration Week."
+    note: "Capital of the Anatolian Seljuk Sultanate; Mevlana Museum; Konya Plain breadbasket; largest province by area."
+  - id: weatherandclimate-konya
+    name: "Konya climate zone, monthly averages"
+    publisher: "Weather and Climate"
+    url: "https://weatherandclimate.com/turkey/konya"
+    year: 2025
+    accessedDate: "2026-09-29"
+    note: "Classifies Konya as cold semi-arid (BSk), annual precipitation ~300-325 mm; supports the BSk Köppen code."
