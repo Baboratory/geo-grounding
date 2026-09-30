@@ -120,7 +120,7 @@ businessRhythm:
   notableShutdownPeriods:
     - period: "Pongal and the Auroville/ashram festival days"
       description: "Tamil Pongal (January) and ashram observance days bring closures."
-  notes: "Puducherry is a union territory of four non-contiguous enclaves (Puducherry, Karaikal, Yanam, Mahe) spread over two coastlines — Puducherry, Karaikal and Yanam on the Bay of Bengal, Mahe on the Arabian Sea. It is unique in India for French retaining official-language status (colonial-era, 1954), alongside Tamil, Malayalam, Telugu and Hindi across its enclaves — the basis for this region's coverage trigger 1."
+  notes: "Puducherry is a union territory of four non-contiguous enclaves (Puducherry, Karaikal, Yanam, Mahe) spread over two coastlines — Puducherry, Karaikal and Yanam on the Bay of Bengal, Mahe on the Arabian Sea. It is unique in India for French retaining official-language status (colonial-era, 1954), alongside Tamil, Malayalam, Telugu and English across its enclaves (the Pondicherry Official Languages Act, 1965) — the basis for this region's coverage trigger 1."
 sources:
   - id: puducherry-language
     name: "Puducherry official languages — French and Tamil/Malayalam/Telugu across the enclaves"

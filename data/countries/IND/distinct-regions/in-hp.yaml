@@ -4,6 +4,8 @@ name:
   local:
     - languageCode: hin
       value: हिमाचल प्रदेश
+    - languageCode: san
+      value: हिमाचलप्रदेशराज्यम्
 climates:
   - koppenCode: Cwb
     description: "Temperate highland climate in the middle Himalayas (Shimla, Dharamshala, Manali lower slopes), mild summers with a monsoon and cold winters."
@@ -24,7 +26,7 @@ landmarks:
     description: "The stark cold-desert high valley of Buddhist monasteries (Key, Tabo, Dhankar)."
 culturalTraits:
   - "A Himalayan state of steep valleys and high passes, blending Hindu hill towns with the Buddhist culture of Lahaul, Spiti and Kinnaur"
-  - "Hindi is the primary official language, with Sanskrit made a second official language in 2019 (Himachal Pradesh Official Language (Amendment) Act, 2019) — a classical/national language rather than a distinct regional vernacular, so the state still does not cleanly fire a language trigger; its high-altitude cold climate sets the high districts apart instead"
+  - "Hindi is the official language, with Sanskrit adopted as the second official language in 2019 (Himachal Pradesh Official Language (Amendment) Act, 2019) — the same status Uttarakhand adopted in 2010, and Himachal Pradesh's own coverage trigger 1; its high-altitude cold climate independently sets the high districts apart too"
   - "A land of apple orchards, hill-station tourism, and the Dham (festival feast) of the Kangra-Kullu valleys"
 prideOf:
   - "Shimla and the hill-station heritage"
@@ -70,7 +72,7 @@ traditionalDishes:
     items:
       - "The Dham — the traditional festive platter of the Kangra-Kullu region (chana dal, rice, sambhar with local spices)"
       - "Siddu (steamed stuffed wheat bread) and saag (leaf greens)"
-      - "Kullu apple cider/ras and local dairy (the kala namak)"
+      - "Kullu apple cider/ras and local dairy"
   - season: winter
     items:
       - "Hearty siddu, saag and warm stews against the cold"
@@ -117,7 +119,7 @@ businessRhythm:
   notableShutdownPeriods:
     - period: "Winter road closures on the high passes (Rohtang, high Spiti routes)"
       description: "Heavy snow closes Rohtang and the highest passes in winter, isolating high valleys like Spiti and Lahaul."
-  notes: "Himachal Pradesh appears on the India coverage list via trigger 5: its high districts (Lahaul-Spiti, upper Kangra, Pangi) carry a cold Dfc Koppen main class (D) absent from the rest of the curated set. Hindi is its primary official language (the same as the Union's primary); Sanskrit was added as a second official language in 2019, but as a classical/national language rather than a distinct regional vernacular it does not cleanly fire trigger 1."
+  notes: "Himachal Pradesh appears on the India coverage list via two independent triggers: trigger 1 (Sanskrit adopted as the state's second official language in 2019, the same status Uttarakhand adopted in 2010) and trigger 5 (its high districts -- Lahaul-Spiti, upper Kangra, Pangi -- carry a cold Dfc Koppen main class (D) absent from the rest of the curated set)."
 sources:
   - id: hp-tourism
     name: "Himachal Pradesh Tourism"

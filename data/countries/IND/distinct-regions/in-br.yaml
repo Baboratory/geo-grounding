@@ -18,10 +18,8 @@ landmarks:
     unescoWorldHeritage: true
   - name: Golghar (Patna)
     description: "The distinctive 18th-century beehive-shaped granary built by the British in Patna."
-  - name: Patna Sahib Gurudwara
-    description: "Patna's revered Sikh shrine, birthplace of Guru Gobind Singh."
   - name: Takht Sri Patna Sahib
-    description: "One of the five Takhts (temporal seats) of Sikhism, at the birthplace of the tenth Guru."
+    description: "One of the five Takhts (temporal seats) of Sikhism, Patna's revered Gurudwara at the birthplace of Guru Gobind Singh, the tenth Guru."
 culturalTraits:
   - "The ancient heartland of Magadha — seat of the Maurya and Gupta empires, of Buddha's enlightenment at Bodh Gaya and of the Mahavira (Jain) tradition"
   - "A Hindi-speaking, deeply agrarian plain with the official language Hindi and Urdu as a second official language"

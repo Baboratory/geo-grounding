@@ -19,10 +19,10 @@ landmarks:
   - name: Khardung La
     description: "One of the world's highest motorable mountain passes (over 5000m) on the road to the Nubra valley."
   - name: Shanti Stupa (Leh)
-    description: "The white-gold Buddhist stupa above Leh, built in tribute to peace after the 1971 war."
+    description: "The white-domed Peace Pagoda above Leh, built in 1991 by Japanese and Ladakhi Buddhists to mark 2500 years of Buddhism."
 culturalTraits:
   - "A high, cold-desert Himalayan land of rich Tibetan Buddhist (Vajrayana) monastic culture, the Ladakhi language and a distinctive Indo-Tibetan heritage"
-  - "Became a union territory in 2019 (split from Jammu & Kashmir); Ladakhi, Purgi and Tibetan are used across the region"
+  - "Became a union territory in 2019 (split from Jammu & Kashmir); the 2025 Ladakh Official Languages Regulation recognizes English, Hindi, Urdu, Bhoti and Purgi as official languages"
   - "A land of monasteries, stupas and high passes where people practise a hardy agro-pastoral life from Leh, Kargil and the high valleys"
 prideOf:
   - "The monasteries (Hemis, Thiksey) and the Hemis festival"
@@ -145,14 +145,14 @@ sources:
     url: "https://censusindia.gov.in/"
     year: 2011
     accessedDate: "2026-09-29"
-    note: "Ladakh union territory's 2011 religious composition (Leh + Kargil districts combined): Islam 46.4%, Buddhism 39.7%, Hinduism 12.1%, Sikhism 0.8%, Christianity 0.5%. Leh district alone is about 66% Buddhist and Kargil district alone is about 77% Muslim -- the combined figures differ from India's national Hindu plurality but obscure this district-level split."
+    note: "Ladakh union territory's 2011 religious composition (Leh + Kargil districts combined): Islam 46.4%, Buddhism 39.7%, Hinduism 12.1%, Sikhism 0.8%, Christianity 0.5% (sums to 99.5%, a rounding gap in the underlying published figures, not a missing category). Leh district alone is about 66% Buddhist and Kargil district alone is about 77% Muslim -- the combined figures differ from India's national Hindu plurality but obscure this district-level split."
   - id: ladakh-language
-    name: "Ladakhi, Purgi and Tibetan usage in Ladakh (J&K Reorganisation Act, 2019)"
-    publisher: "Government of India / Government of Ladakh"
-    url: "https://ladakh.nic.in/"
-    year: 2019
-    accessedDate: "2026-09-28"
-    note: "Ladakhi, Purgi and Tibetan are used across the union territory — the basis for Ladakh's coverage trigger 1 (own regional/official languages beyond Hindi/English)."
+    name: "Ladakh Official Languages Regulation, 2025"
+    publisher: "Ministry of Law and Justice, Government of India (e-Gazette)"
+    url: "https://egazette.gov.in/WriteReadData/2025/263538.pdf"
+    year: 2025
+    accessedDate: "2026-09-30"
+    note: "Promulgated 2 June 2025 under Article 240 of the Constitution, read with s.58(2) of the J&K Reorganisation Act 2019: recognizes English, Hindi, Urdu, Bhoti and Purgi as official languages of the union territory — the basis for Ladakh's coverage trigger 1. (Corrected 2026-09-30 per audit finding 7 in audits/pr105.md: the 2019 Reorganisation Act itself did not designate any official languages, only enabled this 2025 Regulation to do so; 'Tibetan' in the original note should have read 'Bhoti', the Regulation's own term.)"
   - id: ladakh-tourism
     name: "Ladakh Tourism (J&K/UT Ladakh)"
     publisher: "Department of Tourism, Administration of Union Territory of Ladakh"

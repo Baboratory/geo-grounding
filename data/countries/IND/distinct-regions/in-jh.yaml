@@ -24,7 +24,7 @@ landmarks:
     description: "Hilltop viewpoints and heritage sites overlooking the state capital."
 culturalTraits:
   - "The tribal heartland of India — home of the Santal, Oraon, Munda, Ho and Kharia peoples and of their distinct festivals, music and crafts"
-  - "Hindi is the official language; Santali (and other tribal languages) are additional/second-official languages under the Eighth Schedule"
+  - "Hindi is the official language; Santali (and other tribal languages) hold additional/second-official status by state legislation under Constitution Art. 345"
   - "A rich mineral-wealth industrial state (the 'Ruhr of India') channelled into steel and mining around Jamshedpur and Dhanbad"
 prideOf:
   - "A proud tribal heritage and the artwork (Sohrai, Jadupatua) of its indigenous communities"
@@ -122,7 +122,7 @@ businessRhythm:
 sources:
   - id: jharkhand-official-language
     name: "The Jharkhand Official Language (Amendment) Act and the additional-official status of tribal languages"
-    publisher: "Government of Jharkhand / Eighth Schedule of the Constitution"
+    publisher: "Government of Jharkhand"
     url: "https://jharkhand.gov.in/"
     year: 2026
     accessedDate: "2026-09-28"
