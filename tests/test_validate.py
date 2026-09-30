@@ -535,3 +535,29 @@ def test_complete_status_forbids_gap_reason(tmp_path: Path, capsys: pytest.Captu
     _mutate_coverage(root, status="complete")  # gapReason still present
     assert run(root) != 0
     assert "must not carry a" in capsys.readouterr().out
+
+
+def test_federal_complete_requires_every_unit(
+    tmp_path: Path, capsys: pytest.CaptureFixture
+) -> None:
+    """A federal country needs one region file per first-level unit, so it
+    cannot declare 'complete' with 1 of 4 units curated -- unlike a
+    unitary-large country, where that is legal if the rest fire no trigger."""
+    root = build_valid_subdivided_root(tmp_path)  # federal, 1 of 4 units
+    _mutate_coverage(root, status="complete", gapReason=None)
+    assert run(root) != 0
+    assert "federal country declares" in capsys.readouterr().out
+
+
+def test_unitary_large_complete_with_uncurated_units_is_only_a_note(
+    tmp_path: Path, capsys: pytest.CaptureFixture
+) -> None:
+    root = build_valid_subdivided_root(tmp_path)
+    country_path = root / "data/countries/ZZZ/country.yaml"
+    data = yaml.safe_load(country_path.read_text())
+    data["governanceType"] = "unitary-large"
+    data["regionCoverage"]["status"] = "complete"
+    data["regionCoverage"].pop("gapReason")
+    _write_yaml(country_path, data)
+    assert run(root) == 0
+    assert "NOTE" in capsys.readouterr().out

@@ -28,8 +28,8 @@ Dependent territories (French Polynesia `PYF`, Puerto Rico `PRI`, Greenland `GRL
 **Region-splitting rule (the `governanceType` field):**
 | governanceType | Regions | Example |
 |---|---|---|
-| `federal` | Mandatory, by state/land/province (real ISO 3166-2) | US, Germany, Switzerland, Canada, Brazil, India, Australia |
-| `unitary-large` | Cultural regions (real ISO 3166-2) | France, Italy, Poland, Spain, Japan, China, UK, Ukraine |
+| `federal` | **Every** first-level unit — each state/land/province/republic/territory gets its own region file (real ISO 3166-2). No selection, no grouping. | US, Germany, Switzerland, Canada, Brazil, India, Australia |
+| `unitary-large` | Cultural regions (real ISO 3166-2), selected by the coverage triggers below | France, Italy, Poland, Spain, Japan, China, UK, Ukraine |
 | `unitary-small` | None — a single synthetic region | Lithuania, Estonia, Georgia, Uruguay |
 | `dependent-territory` | None — a single synthetic region | all 54 non-sovereign ISO 3166-1 entries (no exceptions) |
 
@@ -37,19 +37,55 @@ A country is classified "unitary-large" when it meets at least 2 of 3 criteria: 
 
 This is a real invariant, not just a convention some countries happen to follow: `federal`/`unitary-large` always means `hasSubdivisions: true` and `iso3166_2_prefix` equal to `alpha2`; `unitary-small`/`dependent-territory` always means `hasSubdivisions: false` and `iso3166_2_prefix: null`. `scripts/validate.py` checks all four fields agree with each other on every country file.
 
-**Every country always has a `distinct-regions[]` array with exactly one `code: WHOLE` entry** — even countries with real, curated regions (e.g. `FRA` has `FR-BRE`, `FR-PAC` **and** `WHOLE`). The `WHOLE` file holds generic, national/symbolic-level content (not tied to a specific region) and is used as the fallback when the admin unit found by IP geolocation isn't one of the curated ones (e.g. a visitor from Île-de-France, before an `FR-IDF` file exists) — so the site always has something to show, instead of misassigning the visitor to an arbitrary curated region. This way every region-level field (climate, landmarks, cuisine, sports, religion, clothing, entertainment) is always read from the same path — the consumer (the site) never needs separate logic for "does this country have regions or not." The name `distinct-regions` (rather than just `regions`) deliberately emphasizes that this is **not** a complete list of the country's administrative units, only the curated, documented ones — e.g. `FRA` currently has 2 of ~18 real French regions filled in (plus `WHOLE`).
+**Every country always has a `distinct-regions[]` array with exactly one `code: WHOLE` entry** — even countries with real, curated regions (e.g. `FRA` has `FR-BRE`, `FR-PAC` **and** `WHOLE`). The `WHOLE` file holds generic, national/symbolic-level content (not tied to a specific region) and is used as the fallback when the admin unit found by IP geolocation isn't one of the curated ones (e.g. a visitor from Île-de-France, before an `FR-IDF` file exists) — so the site always has something to show, instead of misassigning the visitor to an arbitrary curated region. This way every region-level field (climate, landmarks, cuisine, sports, religion, clothing, entertainment) is always read from the same path — the consumer (the site) never needs separate logic for "does this country have regions or not." For a `federal` country, `WHOLE` is a fallback for data that isn't finished yet, not a substitute for a state: the target is one file per federal unit, and a visitor from a real state should never be answered with "you're from the country" once that state's file exists. For a `unitary-large` country the list is genuinely selective — only the regions that diverge (see below) — e.g. `FRA` currently has 2 of ~18 real French regions filled in (plus `WHOLE`).
 
 **`iso3166_2_prefix`** — equal to `alpha2` when `hasSubdivisions: true` (because ISO 3166-2 subdivision codes are built from alpha-2, not alpha-3, e.g. `FR-BRE`, not `FRA-BRE`), otherwise `null`.
 
 ### Which subdivisions must be curated (the coverage floor)
 
-"Curated subset, not a complete list" describes the *shape* of
-`distinct-regions[]`. It is **not** a licence to curate an arbitrary handful
-and call a country done. Which subdivisions get curated is decided by a
-test, not by a quota, and the test has a floor as well as a ceiling.
+The rule depends on `governanceType`, and the two cases are different in
+kind, not in degree.
 
-**Floor — a first-level subdivision MUST be curated if any of these is true
-of it** (each one is a documented fact you can look up, not a judgment call):
+**`federal` — every first-level unit, no exceptions, no test.** A federal
+state, province, land, canton, republic, union territory or federal
+district is legally its own entity: it has its own legislature or
+administration, its own laws on things this dataset models (trading hours,
+sales tax, holidays, official language), and — the reason this project
+exists — its people identify with it. Someone from Kerala says they are
+from Kerala; someone from Texas, from Texas; someone from Tatarstan, from
+Tatarstan. An AI that answers them with the national `WHOLE` file is telling
+them "you're not from your state, you're from the country", which is
+exactly the failure this dataset is meant to prevent. So:
+
+- Every first-level ISO 3166-2 unit of a federal country gets its **own**
+  `distinct-regions[]` entry and region file. One unit, one file.
+- No selection test applies. Do not ask whether a state "diverges enough";
+  being a federal unit is the divergence.
+- No grouping. A file that covers several states through a multi-code
+  `adminUnitCodes[]` list (e.g. `NGA`'s `NG-N` covering eleven northern
+  states) is a coverage gap for each of those states, not coverage.
+- The only exception is the sibling-entry case below (a unit that already
+  has its own separate country entry, like `US-PR` → `PRI`).
+
+This is stated this bluntly because an earlier version of this section
+applied the trigger test below to federal countries too, and it produced
+exactly the wrong behavior: Indian union territories and Russian oblasts
+were judged "non-diverging" and left out, and a union territory that had
+been curated (`IN-CH`, Chandigarh) was removed again during an audit because
+"it fires no trigger". That was wrong twice over — the unit is a federal
+unit, and a federal unit legislates in its own right, so even the old
+trigger 3 should have fired for it. If you find yourself reasoning about
+whether a federal unit "needs" a file, stop: it does.
+
+**`unitary-large` — selected by divergence.** A unitary country's regions
+are administrative subdivisions of one legal system, and many of them do not
+differ in anything a consumer would act on. For these, which regions get
+curated is decided by a test, not by a quota, and the test has a floor as
+well as a ceiling.
+
+**Floor (unitary-large only) — a first-level subdivision MUST be curated if
+any of these is true of it** (each one is a documented fact you can look
+up, not a judgment call):
 
 | # | Trigger | Why it forces a region file | Fields it lands in |
 |---|---|---|---|
@@ -59,32 +95,28 @@ of it** (each one is a documented fact you can look up, not a judgment call):
 | 4 | It is in a **different time zone** from the country's primary zone | Scheduling, delivery windows, "open now" | `timezones` |
 | 5 | Its **Köppen main class differs** from the country's dominant class | Seasonal content is wrong otherwise — a `seasonCalendar` built for the capital misfires here | `climates`, `seasonCalendar`, all seasonal lists |
 
-A subdivision that triggers none of these does **not** need its own file —
-`WHOLE` genuinely covers it, and splitting it out is the over-splitting this
-dataset has always warned about (`LTU`'s ethnographic regions are the
-canonical example: real heritage, no present-day divergence in any of the
-five). That is the ceiling, and it is unchanged.
+For a unitary-large country, a subdivision that triggers none of these does
+**not** need its own file — `WHOLE` genuinely covers it. That is the
+ceiling. (It never applies to a federal unit — see above.)
 
-**The two halves are equally binding.** Curating a non-diverging subdivision
-is a defect. Leaving out a diverging one is *also* a defect — of the same
-severity, not a lesser "coverage choice". Before this rule existed the
-guidance only pointed one way ("would rather under-split"), and the result
-was a dataset where every large country converged on 3-6 curated regions
-regardless of how many of its subdivisions actually diverged: `RUS` had 4 of
-~85 units while 22 republics each hold their own state language (trigger 1);
-`CHN` had 4 of 34 while curating none of its five autonomous regions —
-precisely the units that diverge in language, script, and religion; `GBR`
-had 3 of 4, the missing one being Northern Ireland, the only one with its
-own legal system (trigger 3). Those are not judgment calls that went the
-other way; they are the floor being absent.
+**The two halves are equally binding.** For a unitary-large country,
+curating a non-diverging subdivision is a defect, and leaving out a
+diverging one is *also* a defect of the same severity. Before any floor
+existed the guidance only pointed one way ("would rather under-split"), and
+every large country converged on 3-6 curated regions regardless of how many
+of its subdivisions actually diverged: `CHN` had 4 of 34 while curating none
+of its five autonomous regions — precisely the units that diverge in
+language, script, and religion; `GBR` had 3 of 4, the missing one being
+Northern Ireland, the only one with its own legal system (trigger 3). (For
+federal countries the same era left `RUS` at 4 of 83 and `IND` at 6 of 36 —
+which the federal rule above now makes impossible to repeat.)
 
-**Selection starts from the full list, never from a shortlist.** The
-procedure is: enumerate every first-level subdivision the country has →
-test each one against the five triggers → curate the ones that fire. It is
-not "pick the capital, the biggest city, and the largest economies," which
-is what produces a plausible-looking set that systematically misses exactly
-the places that diverge most (the capital is usually the *least* divergent
-unit in the country).
+**Selection starts from the full list, never from a shortlist.** For a
+unitary-large country the procedure is: enumerate every first-level
+subdivision → test each one against the five triggers → curate the ones
+that fire. It is not "pick the capital, the biggest city, and the largest
+economies," which produces a plausible-looking set that systematically
+misses exactly the places that diverge most.
 
 **Exception: a unit already covered as its own country entry.** A handful
 of first-level ISO 3166-2 subdivisions are dependent territories that this
@@ -110,17 +142,17 @@ a `data/countries/<ALPHA3>/` entry for it genuinely already exists.
 
 Every country with `hasSubdivisions: true` carries a `regionCoverage` block
 stating which subdivision tier it is curated at, how many units exist at
-that tier, and — when not all of them are covered — which diverging units
-are still missing and why.
+that tier, and — when not all required units are covered — which are still
+missing.
 
 ```yaml
 regionCoverage:
   tier: first-level          # first-level | second-level
   totalUnits: 26
   status: partial            # complete | partial
-  gapReason: "Curated the four cantons covering all four language regions;
-    the remaining 22 diverge on trading-hours law (trigger 3) and are
-    queued. Tracked in TODO.md."
+  gapReason: "4 of 26 cantons curated (CH-ZH, CH-GE, CH-TI, CH-GR). CHE is
+    federal, so all 26 are required; the other 22 are queued. Tracked in
+    TODO.md."
 ```
 
 `tier` records which ISO 3166-2 level the country is curated at. Almost
@@ -131,9 +163,17 @@ Declaring it keeps the count comparable to what is actually curated, and
 turns the choice of tier into something a reviewer can see and question
 rather than something inferred from the codes.
 
-`status: complete` means every subdivision that fires a trigger has a file —
-not that every subdivision has one. `status: partial` requires `gapReason`
-naming which trigger is unserved.
+What `status: complete` means depends on `governanceType`:
+
+- **federal** — every first-level unit has its own `distinct-regions[]`
+  entry (sibling-entry units excepted). `scripts/validate.py` enforces this
+  mechanically: a federal country cannot declare `complete` while its entry
+  count plus its sibling-covered units falls short of `totalUnits`.
+- **unitary-large** — every subdivision that fires a trigger has a file (not
+  that every subdivision has one). Only an audit can confirm this.
+
+`status: partial` requires a `gapReason` — for a federal country, how many
+units are still missing; for a unitary-large one, which trigger is unserved.
 
 This exists because the failure it prevents is *silence*. A missing region
 produces no error, no empty field, no broken reference — `WHOLE` quietly
@@ -143,11 +183,11 @@ written. A declared, validated count is the one thing that makes an absence
 visible to a mechanical check and to a reviewer scanning a diff.
 
 **A partial example is not a standard to copy.** `FRA` (2 of 18) and `CHE`
-(4 of 26) were built as shape demonstrations while the schema was still
-being designed, and `TODO.md` has always listed their depth as unfinished
-work. They are correct illustrations of *structure* and incorrect
-illustrations of *coverage*; their `regionCoverage` says so. Copy the file
-layout from them, never the region count.
+(4 of 26 — and CHE is federal, so all 26 are required) were built as shape
+demonstrations while the schema was still being designed. They are correct
+illustrations of *structure* and incorrect illustrations of *coverage*;
+their `regionCoverage` says so. Copy the file layout from them, never the
+region count.
 
 **`climates[]`** — a deliberately free-form list of Köppen codes with a description (`{koppenCode, description}`), not tied to specific months/seasons. That's enough for a general picture of the region (several climate zones can occur in one region, e.g. `FR-PAC` has both Mediterranean and Alpine climate). If a more precise link is needed in the future (e.g. "what's the climate in this specific month"), that will be a separate, stricter field — the current one is left as-is so it doesn't complicate the simple case.
 

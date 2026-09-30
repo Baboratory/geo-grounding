@@ -73,9 +73,9 @@ Two more false-positive patterns worth knowing before you start:
   fetch of the same page) before writing it up. Don't let one unreliable
   tool call become a false "confirmed" finding.
 - **A rule's wording is not evidence about the world — when applying a rule
-  depends on facts, check the facts first.** Most rules here ("curate a
-  region only when it genuinely diverges", "a country meets 2 of 3
-  criteria") are *conditional*: they resolve only once you know something
+  depends on facts, check the facts first.** Many rules here ("curate a
+  unitary-large region only when it genuinely diverges", "a country meets 2
+  of 3 criteria") are *conditional*: they resolve only once you know something
   about the actual place. Quoting the rule and stopping feels like
   reasoning and skips the step that does the work. This is not a
   hypothetical failure: when `RUS`'s 4-of-85 coverage was first questioned,
@@ -135,18 +135,37 @@ For each country/region file:
       wrong. Check the declared `tier` too — a country curated at
       `second-level` should have a real reason (`UGA`'s districts vs. its
       four broad statistical regions), not a mis-set field.
-   3. For each **uncurated** subdivision, test it against the five coverage
-      triggers in `DESIGN.md` (own official/recognized language, different
-      plurality religion, own law on something modeled here, different time
-      zone, different Köppen main class). Any uncurated subdivision that
-      fires a trigger is a `[data]` finding — name the subdivision and the
-      trigger it fires.
-   4. Check the reverse too: a curated subdivision that fires no trigger is
-      over-splitting, reported as `[hygiene]`.
+   3. **Check `governanceType` before anything else — the rule is different.**
+      - **federal:** every first-level unit must have its own region file
+        (only DESIGN.md's sibling-entry units excepted). Every uncurated
+        unit is a gap — list them; there is nothing to test. A file that
+        groups several units under one entry (multi-code `adminUnitCodes`)
+        covers none of them individually — report it. **Never** recommend
+        removing a federal unit's file, and never test a federal unit
+        against the triggers to decide whether it "needs" one: it does.
+      - **unitary-large:** for each **uncurated** subdivision, test it
+        against the five coverage triggers in `DESIGN.md` (own
+        official/recognized language, different plurality religion, own law
+        on something modeled here, different time zone, different Köppen
+        main class). Any uncurated subdivision that fires a trigger is a
+        `[data]` finding — name the subdivision and the trigger it fires.
+   4. Check the reverse too — **unitary-large only**: a curated subdivision
+      that fires no trigger is over-splitting, reported as `[hygiene]`. This
+      check does not exist for federal countries.
    5. Check `regionCoverage.status`/`gapReason` honestly describe the
-      result. `status: complete` on a country with a trigger-firing
-      uncurated subdivision is `[data]`; a `gapReason` that names the wrong
-      trigger, or a vague one ("more regions later"), is `[provenance]`.
+      result. `status: complete` on a federal country missing any unit, or
+      on a unitary-large country with a trigger-firing uncurated
+      subdivision, is `[data]`; a vague `gapReason` ("more regions later")
+      is `[provenance]`.
+
+   **Worked example of getting this wrong, from this dataset's own
+   history.** An audit of the India batch reported the union territory
+   Chandigarh (`IN-CH`) as "fires no trigger — de-curate", and the file was
+   removed. India is federal: Chandigarh is a first-level federal unit and
+   needed its file regardless of any trigger. The finding was applying the
+   unitary-large test to a federal country. The file was restored. If a
+   finding would remove a federal unit's region, it is wrong by
+   construction.
 
    **Do not report this as "coverage choice, not a rule breach."** That
    phrasing appeared in essentially every audit written before this section
@@ -154,9 +173,9 @@ For each country/region file:
    their own state languages uncurated), `CHN` at 4 of 34 with none of its
    five autonomous regions, and `GBR` without Northern Ireland, through
    more than a hundred reviewed PRs. Since `DESIGN.md` now states a floor,
-   an uncurated diverging subdivision is a rule violation with a rule to
-   point at, and "the curated set is a subset by design" is not a defence
-   for omitting a unit the floor requires.
+   an uncurated federal unit — or an uncurated diverging unitary-large
+   subdivision — is a rule violation with a rule to point at, and "the
+   curated set is a subset by design" is not a defence.
 
    Do this check even when the country's data is otherwise flawless — a
    clean file set says nothing about whether the right files exist.

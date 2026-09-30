@@ -22,17 +22,16 @@ governanceType: federal
 iso3166_2_prefix: "VE"
 hasSubdivisions: true
 regionCoverage:
-  # Count per ISO 3166-2 as of 2026-09. The uncurated units have NOT yet been
-  # tested against DESIGN.md's five coverage triggers -- this declaration records
-  # the gap so it is visible, not a finding that the gap is correct. Pending the
-  # coverage re-audit (see TODO.md).
+  # Updated 2026-09-30: this country is federal, so every first-level unit
+  # (state/province/territory) needs its own region file -- no selection,
+  # no grouping (DESIGN.md's coverage floor).
   tier: first-level
   totalUnits: 25
   status: partial
-  gapReason: "5 of 25 first-level units curated. Which of the
-    remaining units fire a coverage trigger has not been assessed yet -- the
-    curated set predates the coverage floor and was chosen by size/capital,
-    not by divergence. Queued for the coverage re-audit."
+  gapReason: "1 of 25 first-level units have their own region file; 24 still needed
+    -- VEN is federal, so every unit is required. Grouped entries VE-A,
+    VE-L, VE-P, VE-F each cover several units under one file and must be
+    split into one file per unit. Queued in TODO.md."
 languageUsage:
   - languageCode: spa
     domain: official

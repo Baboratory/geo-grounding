@@ -47,7 +47,7 @@
     "governanceType": {
       "type": "string",
       "enum": ["federal", "unitary-large", "unitary-small", "dependent-territory"],
-      "description": "Drives the region-splitting rule: federal and unitary-large countries have real ISO 3166-2 subdivisions in distinct-regions[]; unitary-small and dependent-territory countries have exactly one synthetic whole-country region."
+      "description": "Drives the region-splitting rule: a federal country gets one distinct-regions[] entry for EVERY first-level ISO 3166-2 unit (each state/province/republic/territory is its own legal entity and people identify with it); a unitary-large country gets the regions that fire a DESIGN.md coverage trigger; unitary-small and dependent-territory countries have exactly one synthetic whole-country region."
     },
     "iso3166_2_prefix": {
       "type": ["string", "null"],
@@ -77,11 +77,11 @@
         "status": {
           "type": "string",
           "enum": ["complete", "partial"],
-          "description": "'complete' = every subdivision that fires a DESIGN.md coverage trigger has a region file (NOT that every subdivision has one). 'partial' = at least one trigger-firing subdivision is still uncurated, or the triggers haven't been assessed yet. Only an audit can confirm 'complete'; validate.py only checks this field is present and internally consistent."
+          "description": "Federal country: 'complete' = every first-level unit has its own distinct-regions[] entry (DESIGN.md sibling-entry units excepted) -- validate.py rejects 'complete' otherwise. Unitary-large country: 'complete' = every subdivision that fires a DESIGN.md coverage trigger has a region file (not every subdivision); only an audit can confirm this. 'partial' = anything short of that."
         },
         "gapReason": {
           "type": "string",
-          "description": "Required when status is 'partial': which coverage trigger is unserved and, where useful, which subdivisions are affected. Must not be present when status is 'complete'. A vague reason ('more regions later') is an audit finding — name the trigger."
+          "description": "Required when status is 'partial'. Federal: how many units are still missing. Unitary-large: which coverage trigger is unserved and which subdivisions are affected. Must not be present when status is 'complete'. A vague reason ('more regions later') is an audit finding."
         }
       }
     },
@@ -243,7 +243,7 @@
     "distinct-regions": {
       "type": "array",
       "minItems": 1,
-      "description": "References to files under distinct-regions/. Not an exhaustive list of the country's administrative subdivisions — only the ones curated in this dataset (e.g. FRA currently documents 2 of its ~18 regions). Every country's list contains exactly one entry with code 'WHOLE' (checked by scripts/validate.py, not JSON Schema alone) — for hasSubdivisions=false countries it is the only entry; for hasSubdivisions=true countries it sits alongside the real ISO 3166-2 entries as the generic country-wide fallback content used when a visitor's specific subdivision isn't curated (see usage_examples/python/get_data_by_ip.py).",
+      "description": "References to files under distinct-regions/. For a federal country the target is every first-level unit, one entry each (see regionCoverage for how far along it is); for a unitary-large country it is the diverging regions only (e.g. FRA currently documents 2 of its ~18 regions). Every country's list contains exactly one entry with code 'WHOLE' (checked by scripts/validate.py, not JSON Schema alone) — for hasSubdivisions=false countries it is the only entry; for hasSubdivisions=true countries it sits alongside the real ISO 3166-2 entries as the generic country-wide fallback content used when a visitor's specific subdivision isn't curated (see usage_examples/python/get_data_by_ip.py).",
       "items": {
         "type": "object",
         "required": ["code", "file"],

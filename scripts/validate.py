@@ -73,6 +73,37 @@ ROOT = Path(__file__).resolve().parent.parent
 # than erroring. Install with `jsonschema[format]`, not bare `jsonschema`.
 FORMAT_CHECKER = FormatChecker()
 
+# First-level units that are dependent territories this dataset already gives
+# their own separate data/countries/<ALPHA3>/ entry (DESIGN.md's sibling-entry
+# exception). They never get a second file as a region of the parent, and
+# they count as covered. Closed, verified list -- scripts/region_coverage.py
+# imports it and checks every sibling directory still exists.
+SIBLING_COUNTRY_ENTRIES: dict[str, dict[str, str]] = {
+    "CHN": {"CN-HK": "HKG", "CN-MO": "MAC", "CN-TW": "TWN"},
+    "FRA": {
+        "FR-971": "GLP",
+        "FR-972": "MTQ",
+        "FR-973": "GUF",
+        "FR-974": "REU",
+        "FR-976": "MYT",
+        "FR-BL": "BLM",
+        "FR-MF": "MAF",
+        "FR-NC": "NCL",
+        "FR-PF": "PYF",
+        "FR-PM": "SPM",
+        "FR-TF": "ATF",
+        "FR-WF": "WLF",
+    },
+    "USA": {
+        "US-AS": "ASM",
+        "US-GU": "GUM",
+        "US-MP": "MNP",
+        "US-PR": "PRI",
+        "US-UM": "UMI",
+        "US-VI": "VIR",
+    },
+}
+
 
 def load_schema(name: str, root: Path = ROOT) -> dict:
     with open(root / "schema" / name) as f:
@@ -292,7 +323,7 @@ def validate_all(root: Path = ROOT) -> int:
                 error_count += 1
                 print(
                     f"FAIL {path}: regionCoverage.status='partial' requires gapReason "
-                    f"naming which coverage trigger is unserved (DESIGN.md)"
+                    f"saying what is still missing (DESIGN.md's coverage floor)"
                 )
             if status == "complete":
                 if gap_reason:
@@ -301,12 +332,31 @@ def validate_all(root: Path = ROOT) -> int:
                         f"FAIL {path}: regionCoverage.status='complete' must not carry a "
                         f"gapReason — a described gap means the status is 'partial'"
                     )
-                if isinstance(total, int) and curated < total:
+                if governance_type == "federal" and isinstance(total, int):
+                    siblings = len(SIBLING_COUNTRY_ENTRIES.get(data.get("alpha3", ""), {}))
+                    grouped = [
+                        e.get("code")
+                        for e in data.get("distinct-regions", [])
+                        if e.get("code") != "WHOLE" and len(e.get("adminUnitCodes") or []) > 1
+                    ]
+                    grouped_note = ("; grouped entries: " + ", ".join(grouped)) if grouped else ""
+                    if curated + siblings < total or grouped:
+                        error_count += 1
+                        print(
+                            f"FAIL {path}: federal country declares regionCoverage.status="
+                            f"'complete' with {curated} of {total} first-level units having "
+                            f"their own region file ({siblings} covered by sibling country "
+                            f"entries){grouped_note}"
+                            f" — a federal country needs one file per state/province/"
+                            f"territory (DESIGN.md's coverage floor), so this is 'partial'"
+                        )
+                elif isinstance(total, int) and curated < total:
                     print(
                         f"NOTE {path}: regionCoverage.status='complete' with {curated} of "
-                        f"{total} subdivisions curated — legal only if the other "
-                        f"{total - curated} fire none of DESIGN.md's coverage triggers. "
-                        f"validate.py can't verify that; an audit has to (AUDITING.md 2a)"
+                        f"{total} subdivisions curated — legal for a unitary-large country "
+                        f"only if the other {total - curated} fire none of DESIGN.md's "
+                        f"coverage triggers. validate.py can't verify that; an audit has to "
+                        f"(AUDITING.md 2a)"
                     )
 
     for path in sorted(glob.glob(str(root / "data/countries/*/country.yaml"))):

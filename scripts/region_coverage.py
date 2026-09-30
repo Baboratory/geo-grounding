@@ -8,13 +8,14 @@ four out of four -- the absent files raise nothing, because WHOLE answers in
 their place. So this reads the real ISO 3166-2 first-level subdivision list
 and prints it next to what the repo actually contains.
 
-It is a reporting tool, not a gate: whether an uncurated subdivision *should*
-have been curated depends on DESIGN.md's five coverage triggers (own
-official/recognized language, different plurality religion, own law on
-something modeled here, different time zone, different Koppen class), and
-those need a human or an audit to assess. What this gives you is the list to
-assess, and the numbers to check each country's declared
-regionCoverage.totalUnits against.
+For a federal country every uncovered unit listed here is a gap -- each
+state/province/territory needs its own file (DESIGN.md's coverage floor).
+For a unitary-large country an uncovered unit is only a gap if it fires one
+of DESIGN.md's five coverage triggers (own official/recognized language,
+different plurality religion, own law on something modeled here, different
+time zone, different Koppen class), which needs a human or an audit to
+assess. Either way, this gives you the list and the numbers to check each
+country's declared regionCoverage.totalUnits against.
 
 Requires: pyyaml, pycountry (pip install -e ".[dev]"). Deliberately not
 imported by validate.py, which stays on pyyaml + jsonschema only so that
@@ -38,42 +39,11 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 
-# A first-level subdivision that is a dependent territory this dataset
-# already gives its own separate data/countries/<ALPHA3>/ entry -- per
-# DESIGN.md's "full ISO 3166-1 coverage, dependent territories included as
-# their own entries" rule. These can never be curated a second time as a
-# region of the parent (that would duplicate, not add, content), and they
-# are not an open gap either: they are covered, just by a sibling country
-# entry rather than a distinct-regions[] file. See DESIGN.md's coverage
-# floor for the full explanation. This is a closed, verified list, not a
-# pattern to extend by guessing -- checked against the real directory at
-# runtime below, so a stale or wrong entry here fails loudly rather than
-# silently miscounting.
-SIBLING_COUNTRY_ENTRIES: dict[str, dict[str, str]] = {
-    "CHN": {"CN-HK": "HKG", "CN-MO": "MAC", "CN-TW": "TWN"},
-    "FRA": {
-        "FR-971": "GLP",
-        "FR-972": "MTQ",
-        "FR-973": "GUF",
-        "FR-974": "REU",
-        "FR-976": "MYT",
-        "FR-BL": "BLM",
-        "FR-MF": "MAF",
-        "FR-NC": "NCL",
-        "FR-PF": "PYF",
-        "FR-PM": "SPM",
-        "FR-TF": "ATF",
-        "FR-WF": "WLF",
-    },
-    "USA": {
-        "US-AS": "ASM",
-        "US-GU": "GUM",
-        "US-MP": "MNP",
-        "US-PR": "PRI",
-        "US-UM": "UMI",
-        "US-VI": "VIR",
-    },
-}
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+# Single source of truth for DESIGN.md's sibling-entry exception, shared with
+# validate.py's federal-coverage check. Checked against the real directory at
+# runtime below, so a stale entry fails loudly rather than silently miscounting.
+from validate import SIBLING_COUNTRY_ENTRIES  # noqa: E402
 
 
 def verify_sibling_entries() -> None:
@@ -214,8 +184,8 @@ def main() -> int:
         f"{total_gap} not covered."
     )
     print(
-        "Coverage is not a target to maximize -- see DESIGN.md's five triggers "
-        "for which of those units actually need a file."
+        "Federal countries need every unit; unitary-large ones only the units "
+        "that fire a DESIGN.md coverage trigger."
     )
     return 0
 

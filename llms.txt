@@ -2,7 +2,7 @@
 
 > GeoGrounding is a structured geographic and cultural context layer for AI-powered applications — machine-readable context about a user's location (linguistic, cultural, commercial environment) that an AI can use to adapt a digital experience, not a general-purpose knowledge base or geographic database. Every statistic is tied to an authoritative source, every intentional data gap is documented rather than guessed.
 
-Data lives under `data/` as YAML validated against JSON Schema in `schema/`. Coverage is currently partial (4 of 249 ISO 3166-1 entries curated as reference implementations).
+Data lives under `data/` as YAML validated against JSON Schema in `schema/`. All 249 ISO 3166-1 entries have a country file. Region coverage is still in progress: a federal country needs one region file per state/province/territory, a unitary-large one only its diverging regions (see DESIGN.md's coverage floor); each country's `regionCoverage` block says how far along it is.
 
 ## Core
 

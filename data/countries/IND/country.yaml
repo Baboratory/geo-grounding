@@ -26,87 +26,25 @@ governanceType: federal
 iso3166_2_prefix: IN
 hasSubdivisions: true
 regionCoverage:
-  # Assessed 2026-09-28, curated 2026-09-29, corrected 2026-09-30 (audit
-  # PR105.md found the original assessment wrongly included CH -- see
-  # below). India is the most trigger-dense country checked so far: of the
-  # 30 originally-uncurated first-level units, 23 fire at least one trigger
-  # and are now curated; 7 checked negative. Findings:
-  #
-  # Trigger 1 (own official language, via Constitution Art. 345 -- states may
-  # legislate their own official language(s) beyond/instead of Hindi) --
-  # CONFIRMED for: AP (Telugu), AS (Assamese), BR (Urdu as 2nd official), GA
-  # (Konkani), JH (Santali + other 2nd official tribal languages), KL
-  # (Malayalam), MN (Manipuri/Meitei), MZ (Mizo), OD (Odia), PB (Punjabi), SK
-  # (Nepali/Bhutia/Lepcha/Limbu), TS (Telugu+Urdu), TR (Bengali+Kokborok), UP
-  # (Urdu as 2nd official), UK (Sanskrit as 2nd official since 2010 --
-  # nationally the first state to do so), HP (Sanskrit as 2nd official since
-  # 2019, per the HP Official Language (Amendment) Bill -- structurally the
-  # same fact as UK's, just five years later; the original assessment missed
-  # this and wrongly listed HP as trigger-5-only, corrected 2026-09-29 during
-  # PR review), JK (Kashmiri/Dogri/Urdu, 2025 Official Languages Regulation
-  # -- the original citation named the 2019 Reorganisation Act, which did
-  # not itself designate languages; corrected 2026-09-30 per audit finding
-  # 7 in PR105.md), LA (Ladakhi/Bhoti/Purgi, same 2025 Regulation), PY
-  # (French -- nationally unique colonial-era status, plus Tamil/Malayalam/
-  # Telugu across its exclaves; the 1965 Act's fourth language is English,
-  # not Hindi -- corrected 2026-09-30 per audit finding 11). CH was
-  # originally listed here on a Punjabi trigger-1 claim that does not
-  # survive verification -- see the negative-findings note below; this was
-  # an error in the original assessment (this file, commit b3743cd), not
-  # something the PR introduced, corrected 2026-09-30 per PR105.md finding
-  # 1. DH (Dadra & Nagar Haveli and Daman & Diu) was considered as a
-  # weaker trigger-1 case (Gujarati/Marathi/Konkani, each the majority
-  # language of an adjacent already-curated state, not a designation
-  # exclusive to the UT) and correctly NOT curated on that basis -- see
-  # the negative-findings note below.
-  #
-  # Trigger 2 (plurality religion differs from India's Hindu plurality,
-  # ~79.8%) -- CONFIRMED: ML Christian ~70%, NL Christian ~88-90%, MZ
-  # Christian ~87% (also fires trigger 1), PB Sikh ~54-58% (also trigger 1),
-  # JK Muslim ~68% (also trigger 1), LD Muslim ~96.6% (the strongest single
-  # finding in this batch -- highest Muslim share of any Indian state/UT).
-  # ML and NL matter most here: English is their sole official language,
-  # same as the country's co-official default, so they do NOT clear trigger
-  # 1 -- religion is what puts them on the list at all.
-  #
-  # Trigger 5 (Koppen main class differs from the curated set's A/B/C) --
-  # the six curated regions cover Aw/Am/BSh/Cwa/Cwb only; D and E are
-  # entirely unrepresented. CONFIRMED for AR (Dfc), SK (Dfc, also trigger 1),
-  # UK (ET at altitude, also trigger 1), HP (Dfc in Lahaul-Spiti and similar
-  # high districts, despite Cwb lower down -- HP also fires trigger 1, see
-  # above; climate is a second, independent reason it's on this list, not
-  # the only one). LA likely also fires this (high-altitude cold
-  # desert/tundra) but already qualifies via trigger 1. RJ's Thar desert
-  # (BWh) does NOT fire trigger 5 -- it shares main class B with GJ's
-  # already-curated BSh; DESIGN.md's trigger is explicitly main-class-only.
-  #
-  # Checked and NOT found to fire (negative findings, lower confidence than
-  # CHN's -- worth a second look before treating as final): CG, HR, MP, RJ
-  # (all Hindi-only official language, no distinct climate class, no
-  # confirmed differing religious plurality found). DH (Dadra & Nagar
-  # Haveli and Daman & Diu): official languages Hindi + Gujarati -- no
-  # designation exclusive to the UT (Gujarati is Gujarat's majority lang,
-  # Marathi is Maharashtra's, Hindi is national), religion ~92% Hindu (no
-  # differing plurality), Aw/tropical already covered -- fires no trigger.
-  # AN (Andaman & Nicobar): Hindu plurality ~69% leaves religion aligned
-  # with India's Hindu plurality (the Nicobarese Christian community ~21% is
-  # a minority, not a plurality), no own official language, Aw/Am climate
-  # already covered by TN/MH -- fires no trigger. CH (Chandigarh): added
-  # 2026-09-30 to this list, removed from distinct-regions[] -- the
-  # original trigger-1 claim (Punjabi "shared with Punjab") does not
-  # survive verification: English is Chandigarh's sole official language
-  # (confirmed twice -- Wikipedia's infobox citing rajbhasha.gov.in and the
-  # UT administration; ALS Global), Punjabi holds only "scheduled language"
-  # status, not official. Religion (80.78% Hindu per 2011 Census) matches
-  # India's national plurality almost exactly; Chandigarh's climate is the
-  # same Cwa the already-curated Delhi covers; no own law (no legislative
-  # assembly, administered directly). Fires no trigger -- correctly
-  # de-curated, per PR105.md finding 1. Remaining units CG, HR, MP, RJ, DH,
-  # AN, CH all checked negative, so every trigger-firing subdivision is
-  # covered and coverage for IND at first-level is complete.
+  # India is federal: every one of its 36 first-level units (28 states + 8
+  # union territories) needs its own region file -- no selection test
+  # (DESIGN.md's coverage floor). An earlier version of this block applied
+  # the unitary-large trigger test here, curated 29 units, declared the
+  # other 7 "negative findings" and removed Chandigarh on that basis
+  # (2026-09-30); that was the wrong rule for a federal country and has been
+  # reversed -- Chandigarh's file is restored. Facts gathered during that
+  # assessment still stand and live in the region files themselves (each
+  # state's official language(s), Meghalaya/Nagaland's Christian and
+  # Lakshadweep's Muslim majorities, the Himalayan D/E climates, Ladakh's
+  # 2025 Official Languages Regulation, Puducherry's French).
   tier: first-level
   totalUnits: 36
-  status: complete
+  status: partial
+  gapReason: "30 of 36 first-level units have their own region file; 6
+    still needed -- IN-AN (Andaman & Nicobar), IN-CG (Chhattisgarh), IN-DH
+    (Dadra & Nagar Haveli and Daman & Diu), IN-HR (Haryana), IN-MP (Madhya
+    Pradesh), IN-RJ (Rajasthan). India is federal, so every unit is
+    required. Queued in TODO.md."
 
 languageUsage:
   - languageCode: hin
@@ -265,6 +203,9 @@ distinct-regions:
   - code: IN-PY
     file: distinct-regions/in-py.yaml
     adminUnitCodes: [IN-PY]
+  - code: IN-CH
+    file: distinct-regions/in-ch.yaml
+    adminUnitCodes: [IN-CH]
   - code: IN-ML
     file: distinct-regions/in-ml.yaml
     adminUnitCodes: [IN-ML]
