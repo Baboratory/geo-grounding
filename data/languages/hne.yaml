@@ -1,0 +1,9 @@
+code: hne
+name:
+  eng: Chhattisgarhi
+  local: छत्तीसगढ़ी
+# Chhattisgarhi (ISO 639-3 'hne') is an Eastern-Hindi Central Indo-Aryan language
+# and the dominant vernacular of Chhattisgarh; the Chhattisgarh Official Language
+# (Amendment) Act 2007 made it a co-official state language alongside Hindi.
+# No verified common-phrase set was available, so commonPhrases is omitted to avoid
+# unverified phrases.

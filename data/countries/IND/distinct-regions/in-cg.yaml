@@ -1,0 +1,142 @@
+code: IN-CG
+name:
+  eng: Chhattisgarh
+  local:
+    - languageCode: hin
+      value: छत्तीसगढ़
+    - languageCode: hne
+      value: छत्तीसगढ़ी
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate on the Chhattisgarh plain (Raipur, Bilaspur, Durg), with hot summers, a southwest monsoon and mild winters."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry savanna climate in the southern Bastar highlands, with a pronounced monsoon and cooler nights."
+landmarks:
+  - name: Chitrakote Falls
+    description: "India's widest waterfall, on the Indravati River near Jagdalpur in Bastar — often called the 'Niagara of India'."
+  - name: Bhoramdeo Temple (Kawardha)
+    description: "A 11th-century Nagara-style Shiva temple complex, the 'Khajuraho of Chhattisgarh', set amid forest hills."
+  - name: Sirpur archaeological group
+    description: "The group of ancient Buddhist and Hindu temples (including the Lakshmana Temple) at the 7th-century capital Sirpur on the Mahanadi."
+  - name: Danteshwari Temple (Dantewada)
+    description: "The shakti-peetha temple of Goddess Danteshwari, the presiding deity of the Bastar region and its royal tradition."
+  - name: Barnawapara Wildlife Sanctuary
+    description: "A heronry and wildlife reserve in the Raipur–Balodabazar plain, housing wild buffalo, and a key wetland for waterbirds."
+culturalTraits:
+  - "The 'rice bowl of central India' — a vast plain of paddy fields bounded by the Bastar plateau and north Indian forests"
+  - "A strong tribal heritage — the Gond, Halba and Karma traditions of Bastar, with its unique Bastar Dussehra festival"
+  - "Hindi and Chhattisgarhi are co-official state languages (Chhattisgarhi added by the 2007 amendment), alongside a rich folk-craft and dance tradition"
+prideOf:
+  - "Chitrakote Falls and the Bastar highlands"
+  - "The ancient site of Sirpur and the Bhoramdeo temple"
+  - "Tribal Bastar's Dussehra and its hand-woven and bell-metal crafts"
+animals:
+  popular:
+    - "Bengal tiger (Bastar, Achanakmar and Barnawapara reserves)"
+    - "Indian wild buffalo (state animal, Ulwe/Indravati country)"
+    - "Leopard"
+  unique:
+    - "Common hill myna (state bird), a talkative resident of the forests"
+    - "Night heron and other wetland birds at Barnawapara"
+    - "Gaur (Indian bison) in the eastern highlands"
+industries:
+  - "Agriculture (rice — a leading producer; wheat, pulses, oilseeds)"
+  - "Steel and power (Bhilai Steel Plant, Korba thermal and aluminium industry)"
+  - "Mining (coal, iron ore, limestone, diamonds at the Panna-like kimberlite country)"
+  - "Forestry and tribal handicrafts (Bastar bell metal, Dhokra, handloom)"
+  - "Tourism (Chitrakote, Sirpur, the Bastar tribal circuit)"
+sports:
+  - "Cricket"
+  - "Field hockey"
+  - "Kabaddi"
+  - "Tribal games and folk wrestling (akhada tradition)"
+entertainment:
+  - season: allYear
+    items:
+      - "The temple-and-archaeology circuit (Bhoramdeo, Sirpur) and the tribal culture of Bastar"
+  - season: summer
+    items:
+      - "Pre-monsoon tribal fairs and the start of the Bastar festival season"
+  - season: wet
+    items:
+      - "The monsoon season when Chitrakote Falls runs at full force and the rice fields turn green"
+  - season: dry
+    items:
+      - "The Bastar Dussehra and the best wildlife-viewing months (post-monsoon)"
+  - season: winter
+    items:
+      - "The pleasant winter months for heritage visits and wildlife safaris"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Chhattisgarh's rice-based staples — fara/phara (steamed rice dumplings) and aamat (lentil-turmeric curry)"
+      - "Chila (rice-flour pancakes) with spicy chutney"
+      - "Bafauri and muthia (steamed lentil-and-vegetable dumplings)"
+  - season: winter
+    items:
+      - "Hearty millet and rice preparations and warm winter relishes"
+  - season: summer
+    items:
+      - "Cooling buttermilk and lassi alongside light rice meals"
+  - season: wet
+    items:
+      - "Steaming fara and fried snacks for the monsoon"
+  - season: dry
+    items:
+      - "Festival sweets and the tribal-style meat and rice dishes of Bastar"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the saree (often the local cotton weaves) and salwar-kameez; men the kurta and dhoti"
+      - "Kosa-silk sarees from the region are prized for festivals and weddings"
+  - season: summer
+    items:
+      - "Light cotton garments for the intense heat of the plain"
+  - season: wet
+    items:
+      - "Quick-dry cottons and rainwear for the monsoon"
+  - season: winter
+    items:
+      - "Light wool shawls and warm layers for the mild-to-cool winters"
+  - season: dry
+    items:
+      - "Festive dress for the post-monsoon celebration season"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and shops typically operate 10:00-17:30 Monday-Friday (and often Saturday mornings); Raipur commercial life follows standard Indian working hours."
+  lunchBreakTiming: "A midday lunch break around 13:00-14:00, commonly a rice-based meal with dal."
+  notableShutdownPeriods:
+    - period: "Bastar Dussehra (Jagdalpur)"
+      description: "The 75-day Bastar Dussehra festival in Jagdalpur draws large regional crowds and shapes local commerce around the celebration."
+sources:
+  - id: cg-language-act
+    name: "The Chhattisgarh Official Language (Amendment) Act, 2007 — adoption of Chhattisgarhi alongside Hindi"
+    publisher: "Government of Chhattisgarh"
+    url: "https://www.indiacode.nic.in/"
+    year: 2007
+    accessedDate: "2026-09-30"
+    note: "Basis for Chhattisgarhi's co-official status in the state (name.local and characteristic-language content); Hindi remains the first official language under the 1957 Act."
+  - id: cg-tourism
+    name: "Chhattisgarh Tourism — Chitrakote, Sirpur, Bhoramdeo and the Bastar circuit"
+    publisher: "Chhattisgarh Tourism Board, Government of Chhattisgarh"
+    url: "https://www.cgtourism.choice.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-30"
+    note: "Landmarks (Chitrakote Falls, Sirpur, Bhoramdeo, Danteshwari, Barnawapara), tribal culture, cuisine and seasonal highlights for Chhattisgarh."
+  - id: census-2011-cg
+    name: "Census of India 2011 — religion table (Chhattisgarh)"
+    publisher: "Registrar General and Census Commissioner of India, Ministry of Home Affairs"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-30"
+    note: "2011 Census religion distribution for Chhattisgarh: Hindu ~93.25%, Muslim ~2.02%, Christian ~1.92%, others <1% each — a strong Hindu plurality like the national figure."

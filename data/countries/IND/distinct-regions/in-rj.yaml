@@ -1,0 +1,148 @@
+code: IN-RJ
+name:
+  eng: Rajasthan
+  local:
+    - languageCode: hin
+      value: राजस्थान
+climates:
+  - koppenCode: BWh
+    description: "Hot desert climate in the western Thar (Jaisalmer, Barmer, Bikaner), with very low rainfall, extreme day heat and cool desert nights."
+  - koppenCode: BSh
+    description: "Hot semi-arid (steppe) climate over the rest of the state (Jaipur, Jodhpur, Udaipur), with hot dry summers and a short erratic monsoon — a dry main class (B) that sets the whole state apart from the humid Indian interior."
+landmarks:
+  - name: Hill Forts of Rajasthan
+    description: "The serial UNESCO site of six Rajput hill forts — Chittorgarh, Kumbhalgarh, Ranthambore, Amber, Gagron and Jaisalmer — 8th-18th century seats of Rajput power."
+    unescoWorldHeritage: true
+  - name: Jantar Mantar, Jaipur
+    description: "The 18th-century astronomical observatory of Sawai Jai Singh II, the largest of its kind, UNESCO-listed for its monumental masonry instruments."
+    unescoWorldHeritage: true
+  - name: Jaipur City (the Pink City)
+    description: "The walled 18th-century planned capital of Jaipur, UNESCO-listed for its terracotta-pink architecture and grid-plan design."
+    unescoWorldHeritage: true
+  - name: Keoladeo National Park (Bharatpur)
+    description: "A world-famous wetland and UNESCO site that hosts hundreds of waterbird species including the Siberian crane (wintering)."
+    unescoWorldHeritage: true
+  - name: Hawa Mahal and City Palace, Jaipur
+    description: "The five-storey 'Palace of Winds' with its honeycombed facade, and the linked Rajput royal palace of the Jaipur rulers."
+  - name: Thar Desert and Jaisalmer
+    description: "The golden 'Land of the Kings' — the desert fort-city of Jaisalmer and the great sand dunes of the Thar."
+culturalTraits:
+  - "The desert state of Rajput kings — a land of forts, palaces, camels and the Thar desert, with a vivid folk culture of music, dance and block-printing"
+  - "Hindi with Rajasthani dialects (Marwari, Mewari, Dhundhari) widely spoken; the state's arts include Ghoomar and Kalbeliya dance and miniature painting"
+  - "A strong martial Rajput heritage — the dying-brave legends of Chittorgarh and the warrior clans that shaped northern India"
+prideOf:
+  - "The Rajput forts of Chittorgarh, Kumbhalgarh and Jaisalmer"
+  - "The planned city of Jaipur and its observatory and palaces"
+  - "The folk music, dance and textile arts of the desert"
+animals:
+  popular:
+    - "Camel (the Thar's traditional transport and the state animal-bearing role of the kharai)"
+    - "Chinkara (Indian gazelle, the state animal)"
+    - "Blackbuck (Tal Chhapar sanctuary)"
+  unique:
+    - "Great Indian bustard (the state bird, critically endangered, on the Thar plains)"
+    - "Desert fox and desert cat (western Thar)"
+    - "Siberian crane (wintering at Keoladeo)"
+industries:
+  - "Tourism (the heritage forts, palaces and desert circuit)"
+  - "Textiles and handicrafts (block-printed and bandhani textiles, blue pottery, marble and stone carving)"
+  - "Mining (marble at Makrana, sandstone, zinc/lead, and lignite)"
+  - "Agriculture (mustard, bajra, cotton in the semi-arid belt; irrigation along the Chambal and Indira Gandhi Canal)"
+  - "Gemstone cutting and jewellery (Jaipur's famous trade)"
+sports:
+  - "Cricket"
+  - "Polo (a long Rajput equestrian tradition, and the state's distinctive sport)"
+  - "Kabaddi and traditional wrestling (kushti)"
+  - "Camel racing (Pushkar fair)"
+  - "Desert and heritage sports at the Pushkar and Jaipur festivals"
+entertainment:
+  - season: allYear
+    items:
+      - "The forts, palaces and folk performances of the royal cities — Jaipur, Udaipur, Jodhpur, Jaisalmer"
+  - season: summer
+    items:
+      - "The extreme desert heat limits daytime activity; festivals and fairs are mostly held in cooler months"
+  - season: wet
+    items:
+      - "The short monsoon brings a rare green flush to the desert and fills the seasonal lakes (Udaipur's lakes)"
+  - season: dry
+    items:
+      - "The post-monsoon dry season hosts Pushkar Fair and the Desert Festival (Jaisalmer) — camel and folk-culture celebrations"
+  - season: winter
+    items:
+      - "The cool, dry winter is the prime season for the forts, palaces and desert safaris"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Dal baati churma — the signature Rajasthani platter of wheat dumplings with spiced lentil dal and sweet churma"
+      - "Gatte ki sabzi and laal maas (the fiery red-meat curry of the Mewar country)"
+      - "Ker sangri (the desert's dried-fruit and bean staple) and bajra rotis"
+  - season: winter
+    items:
+      - "Hearty, ghee-rich dal baati and warm curries in the cool months"
+  - season: summer
+    items:
+      - "Cooling buttermilk (chaas), lassi and water-based sweets against the desert heat"
+  - season: wet
+    items:
+      - "Hot snacks and spiced tea in the brief monsoon"
+  - season: dry
+    items:
+      - "Festival sweets (ghevar, malpua, mawa kachori) around Diwali and the post-monsoon fairs"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the bright ghagra-choli with the odhni (veil); men the dhoti and kurta with the distinctive Rajasthani turban (pagri/safa)"
+      - "Bandhani and leheriya tie-dyed textiles, mirror-work and block-printed fabrics are region-signature"
+  - season: summer
+    items:
+      - "Light, loose cotton garments suited to the desert heat"
+  - season: wet
+    items:
+      - "Rainwear over light cottons in the brief monsoon"
+  - season: winter
+    items:
+      - "Wool shawls and warm wraps for the cool desert nights and winters"
+  - season: dry
+    items:
+      - "Festive ghagra-odhni and turbans for the post-monsoon and winter fairs"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and shops typically run 10:00-18:00 Monday-Saturday; in the summer heat many establishments operate with an early-close or mid-day break."
+  lunchBreakTiming: "A midday lunch break around 13:00-14:00, commonly roti-dal with a curry."
+  notableShutdownPeriods:
+    - period: "Pushkar Camel Fair (Pushkar)"
+      description: "The annual November fair at Pushkar halts routine trade in the town and its surroundings for the festival week."
+  notes: "Rajasthan's distinctive hot desert/semi-arid climate (Köppen BWh/BSh) gives the whole state a main climate class different from India's humid tropical interior, reflected in the seasonal desert-fair content above."
+sources:
+  - id: rj-tourism
+    name: "Rajasthan Tourism — forts, palaces, desert and festivals (Jaipur, Jaisalmer, Pushkar)"
+    publisher: "Rajasthan Tourism, Government of Rajasthan"
+    url: "https://www.tourism.rajasthan.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-30"
+    note: "Landmarks (Hill Forts, Jantar Mantar, Jaipur City, Keoladeo, Hawa Mahal, Thar), folk culture, cuisine, festivals and seasonal highlights for Rajasthan."
+  - id: census-2011-rj
+    name: "Census of India 2011 — religion table (Rajasthan)"
+    publisher: "Registrar General and Census Commissioner of India, Ministry of Home Affairs"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-30"
+    note: "2011 Census religion distribution for Rajasthan: Hindu ~88.5%, Muslim ~9.1%, Jain and Sikh minorities — a Hindu plurality like the national figure, with a meaningful Muslim minority."
+  - id: rj-language-act
+    name: "Rajasthan Official Language Act, 1956"
+    publisher: "Government of Rajasthan"
+    url: "https://rajassembly.nic.in/"
+    year: 1956
+    accessedDate: "2026-09-30"
+    note: "Hindi is the official language of the state; Rajasthani dialects (Marwari, Mewari, Dhundhari) are widely spoken but not statutorily official — basis for the state's Hindi-character coverage."

@@ -1,0 +1,141 @@
+code: IN-HR
+name:
+  eng: Haryana
+  local:
+    - languageCode: hin
+      value: हरियाणा
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (steppe) climate over much of the state, with very hot, dry summers, low and erratic rainfall and cold, foggy winters — the driest northern grain-belt state."
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate in the eastern districts (Gurugram, Faridabad, Yamunanagar fringe), slightly less arid than the west."
+landmarks:
+  - name: Kurukshetra (Brahma Sarovar)
+    description: "The sacred pilgrimage town where the Mahabharata war and the Bhagavad Gita's discourse to Arjuna are set, with its giant sacred tank."
+  - name: Jyotisar
+    description: "Credited as the site where Krishna revealed the Bhagavad Gita on the battlefield of Kurukshetra."
+  - name: Sultanpur National Park (Sultanpur Bird Sanctuary)
+    description: "A Ramsar-listed wetland and major migratory-waterbird sanctuary near Gurugram."
+  - name: Pinjore Gardens (Yadavindra Gardens)
+    description: "A 17th-century terraced Mughal garden in the Shivalik foothills at Pinjore, with fountains and pavilions."
+  - name: Surajkund
+    description: "The ancient 10th-century sun-temple tank south of Delhi, host of the annual Surajkund International Crafts Mela."
+culturalTraits:
+  - "The grain belt of northern India — wheat and rice fields, dairy farming and the villages that shaped the Green Revolution"
+  - "Part of the National Capital Region, pairing historic Kurukshetra with the modern IT downtown of Gurugram (Gurgaon)"
+  - "A strong wrestling (kushti) and kabaddi tradition — Haryana has produced a disproportionate share of India's Olympic and international wrestlers"
+prideOf:
+  - "Kurukshetra and the Mahabharata heritage"
+  - "Sultanpur's birdlife and the region's agriculture"
+  - "Its world-class wrestlers (the Phogat family and others) and sporting success"
+animals:
+  popular:
+    - "Neelgai (blue bull)"
+    - "Blackbuck (state animal)"
+    - "Common leopard (Aravalli fringe)"
+  unique:
+    - "Indian grey hornbill (state bird)"
+    - "Black-breasted weaver and other wetland birds at Sultanpur"
+    - "Desert fox in the western arid districts"
+industries:
+  - "Agriculture (wheat, rice, sugarcane — a leading producer; the National Capital Region's food basket)"
+  - "Automotive manufacturing (Maruti Suzuki at Gurugram/Manesar)"
+  - "IT and business services in Gurugram's corporate districts"
+  - "Textiles, footwear and handicrafts"
+  - "Dairy and animal husbandry"
+sports:
+  - "Wrestling (kushti) — the state's signature sport and an Olympic medal factory"
+  - "Kabaddi"
+  - "Cricket (Haryana cricket, with internationals from the region)"
+  - "Field hockey"
+  - "Boxing and athletics (a growing sporting base)"
+entertainment:
+  - season: allYear
+    items:
+      - "Kurukshetra's pilgrimage and the Gita Jayanti celebrations; the craft melas of Surajkund and Pinjore"
+  - season: summer
+    items:
+      - "The intensely hot summer months limit outdoor activity to mornings and evenings"
+  - season: wet
+    items:
+      - "The short southwest-monsoon wet season (Jul-Sep) when the grain belt turns green"
+  - season: dry
+    items:
+      - "Post-monsoon harvest celebrations and wildlife-watching at Sultanpur"
+  - season: winter
+    items:
+      - "The pleasant, foggy winter — prime season for the Surajkund and heritage fairs and birdwatching"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Haryanvi thali — bajra/gehu rotis, dal, kadhi and buttermilk (chaas)"
+      - "Sarson ka saag and makki ki roti, a classic winter dish across the state"
+      - "Meat dishes from the region's rajasthani-influenced villages (churma and khichdi)"
+  - season: winter
+    items:
+      - "Sarson ka saag with makki ki roti, gajar ka halwa and warm jaggery treats"
+  - season: summer
+    items:
+      - "Cooling chaas (buttermilk) and lassi against the fierce summer heat"
+  - season: wet
+    items:
+      - "Hearty khichdi and ghee-rich foods in the monsoon"
+  - season: dry
+    items:
+      - "Harvest-season sweets and festive food around Diwali and Lohri"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the saree or salwar-kameez (the haryanvi ghagari in rural areas); men the kurta-pyjama and, in villages, the dhoti or pyjama with turban"
+  - season: summer
+    items:
+      - "Light cotton garments for the extreme heat"
+  - season: wet
+    items:
+      - "Quick-dry cottons and rainwear for the monsoon"
+  - season: winter
+    items:
+      - "Wool shawls, sweaters and quilted jackets for the cold, foggy winters"
+  - season: dry
+    items:
+      - "Festive dress for the post-monsoon and winter celebration seasons"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and shops typically run 10:00-18:00 Monday-Saturday with Sunday rest; Gurugram corporate districts follow standard Indian working hours."
+  lunchBreakTiming: "A midday lunch break around 13:00-14:00, often roti-dal-vegetables with buttermilk."
+  notableShutdownPeriods:
+    - period: "Surajkund International Crafts Mela"
+      description: "Each February the crafts mela at Surajkund draws huge crowds and slows routine Gurugram-area business traffic around the fair."
+  notes: "Haryana's tourism and culture are closely tied to its National Capital Region location, with Gurugram's tech industry and Kurukshetra's pilgrimage drawing the largest visitor flows."
+sources:
+  - id: hr-tourism
+    name: "Haryana Tourism — Kurukshetra, Sultanpur, Pinjore and Surajkund"
+    publisher: "Haryana Tourism Corporation, Government of Haryana"
+    url: "https://haryanatourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-30"
+    note: "Landmarks (Kurukshetra, Jyotisar, Sultanpur, Pinjore, Surajkund), culture, cuisine and seasonal highlights for Haryana."
+  - id: census-2011-hr
+    name: "Census of India 2011 — religion table (Haryana)"
+    publisher: "Registrar General and Census Commissioner of India, Ministry of Home Affairs"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-30"
+    note: "2011 Census religion distribution for Haryana: Hindu ~87.5%, Muslim ~7.0%, Sikh ~4.9%, Christian ~0.2% — a Hindu plurality like the national figure."
+  - id: hr-language-act
+    name: "Haryana Official Language Act, 1969"
+    publisher: "Government of Haryana"
+    url: "https://haryanagovt.nic.in/"
+    year: 1969
+    accessedDate: "2026-09-30"
+    note: "Hindi is the sole official language of Haryana per the 1969 Act; the state is part of the Hindi belt and its regional culture is shared with the surrounding Hindi-speaking states."

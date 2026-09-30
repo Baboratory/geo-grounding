@@ -1,0 +1,145 @@
+code: IN-MP
+name:
+  eng: Madhya Pradesh
+  local:
+    - languageCode: hin
+      value: मध्य प्रदेश
+climates:
+  - koppenCode: Cwa
+    description: "Humid subtropical monsoon climate over most of the state (Bhopal, Indore, Gwalior, Jabalpur), with very hot dry summers, a southwest monsoon and cool dry winters."
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry savanna climate in the southern districts bordering the Satpura ranges."
+landmarks:
+  - name: Khajuraho Group of Monuments
+    description: "The celebrated 10th-11th century Chandela temples, UNESCO-listed for their extraordinary sculptural art, including the erotic reliefs."
+    unescoWorldHeritage: true
+  - name: Buddhist Monuments at Sanchi
+    description: "The great stupa complex (begun under Ashoka in the 3rd century BCE), the best-preserved early Buddhist site in the world."
+    unescoWorldHeritage: true
+  - name: Rock Shelters of Bhimbetka
+    description: "Over 750 rock shelters in the Vindhya hills with some of the oldest known rock paintings, dating to the Mesolithic and later."
+    unescoWorldHeritage: true
+  - name: Bandhavgarh National Park
+    description: "One of India's most tiger-dense reserves, set in a former maharaja's hunting ground around the Bandhavgarh fort."
+  - name: Gwalior Fort
+    description: "The massive hilltop fort that has guarded Gwalior for centuries, with the Man Mandir palace and the Teli ka Mandir temple."
+  - name: Buddhist-era Orchha and the Satpura reserves
+    description: "The Rajput fortress-palace town of Orchha on the Betwa, and the central Indian tiger country of Kanha and Satpura."
+culturalTraits:
+  - "The 'heart of India' — a vast central plateau of forests, rivers (Narmada, Betwa) and tiger country"
+  - "Hindi is the sole official language; the state is famed for its UNESCO-listed archaeology (Khajuraho, Sanchi, Bhimbetka) and its national parks"
+  - "A rich Malwa and Bundelkhand cultural legacy of palaces, classical music and the arts (the Indore and Gwalior musical traditions)"
+prideOf:
+  - "The temples of Khajuraho and the stupa of Sanchi"
+  - "Barasingha deer and the tiger reserves of Bandhavgarh and Kanha"
+  - "The classical music and royal heritage of Gwalior and Indore"
+animals:
+  popular:
+    - "Bengal tiger (Bandhavgarh, Kanha, Pench, Satpura)"
+    - "Indian leopard"
+    - "Barasingha (swamp deer — Kanha's flagship species)"
+  unique:
+    - "Malabar/central Indian gaur (Indian bison)"
+    - "Wild dog (dhole) in Kanha and Satpura"
+    - "Hornbill species in the Satpura forests"
+industries:
+  - "Agriculture (wheat, soybean — a leading producer, gram, pulses)"
+  - "Textiles and handicrafts (Chanderi and Maheshwari sarees)"
+  - "Engineering and manufacturing (OEM plants around Pithampur/Indore)"
+  - "Mining (diamonds at Panna, limestone, bauxite)"
+  - "Tourism (the UNESCO heritage circuit and tiger parks)"
+sports:
+  - "Cricket"
+  - "Field hockey"
+  - "Kabaddi"
+  - "Rowing and water sports (Upper Lake Bhopal)"
+  - "Forest-tourism and wildlife safaris"
+entertainment:
+  - season: allYear
+    items:
+      - "The heritage circuit — Khajuraho, Sanchi, Bhimbetka and the palaces of Gwalior and Orchha"
+  - season: summer
+    items:
+      - "The intense pre-monsoon heat largely limits daytime sightseeing; tiger safaris run at dawn"
+  - season: wet
+    items:
+      - "The monsoon (Jul-Sep) greens the tiger parks; some jungle lodges close, but the landscape is at its most lush"
+  - season: dry
+    items:
+      - "The post-monsoon dry season is the peak wildlife-viewing window in the reserves"
+  - season: winter
+    items:
+      - "The cool, dry winter — the prime season for the heritage sites and wildlife parks"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Poha jalebi (Indore's breakfast) and dal bafla — Madhya Pradesh's signature platter"
+      - "Bhopali cuisine — seekh kebabs, nahari and the courtly Mughlai food of Bhopal"
+      - "Sabudana khichdi and bhutte ka kees (Indore's corn dish)"
+  - season: winter
+    items:
+      - "Dal bafla eaten warm with ghee in the cold months"
+  - season: summer
+    items:
+      - "Cooling lassi, jalebi and fresh fruit against the heat"
+  - season: wet
+    items:
+      - "Hot pakoras and monsoon street snacks with spiced tea"
+  - season: dry
+    items:
+      - "Festival sweets (ghevar, malpua) around the post-monsoon celebrations"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the saree or salwar-kameez — Chanderi and Maheshwari silk-cotton sarees are regional heirlooms; men wear the kurta-pyjama"
+  - season: summer
+    items:
+      - "Light cotton garments and Chanderi weaves in the intense heat"
+  - season: wet
+    items:
+      - "Quick-dry cottons and rainwear for the monsoon"
+  - season: winter
+    items:
+      - "Wool shawls and sweaters for the cool, dry winters"
+  - season: dry
+    items:
+      - "Festive dress for the post-monsoon celebration season"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and shops typically run 10:00-18:00 Monday-Saturday (or 10:00-17:30 in government offices); Bhopal/Indore follow standard Indian hours."
+  lunchBreakTiming: "A midday lunch break around 13:00-14:00, commonly roti-dal with vegetables."
+  notableShutdownPeriods:
+    - period: "Tiger-park and town festival cycles"
+      description: "Some wildlife lodges close during the heaviest monsoon months, and major festival dates (Diwali, Dussehra) shape local commerce."
+sources:
+  - id: mp-language-act
+    name: "The Madhya Pradesh Official Language Act, 1957"
+    publisher: "Government of Madhya Pradesh"
+    url: "https://www.indiacode.nic.in/"
+    year: 1957
+    accessedDate: "2026-09-30"
+    note: "Hindi in the Devanagari script is the official language of the state for all official purposes — the basis for Madhya Pradesh's Hindi-character coverage."
+  - id: mp-tourism
+    name: "Madhya Pradesh Tourism — Khajuraho, Sanchi, Bhimbetka, Bandhavgarh"
+    publisher: "Madhya Pradesh Tourism Board, Government of Madhya Pradesh"
+    url: "https://www.mptourism.com/"
+    year: 2026
+    accessedDate: "2026-09-30"
+    note: "Landmarks (UNESCO heritage sites + tiger parks), culture, cuisine and seasonal highlights for Madhya Pradesh."
+  - id: census-2011-mp
+    name: "Census of India 2011 — religion table (Madhya Pradesh)"
+    publisher: "Registrar General and Census Commissioner of India, Ministry of Home Affairs"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-30"
+    note: "2011 Census religion distribution for Madhya Pradesh: Hindu ~90.9%, Muslim ~6.6%, others ~2.5% — a strong Hindu plurality like the national figure."

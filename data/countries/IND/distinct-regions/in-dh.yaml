@@ -1,0 +1,136 @@
+code: IN-DH
+name:
+  eng: Dadra and Nagar Haveli and Daman and Diu
+  local:
+    - languageCode: guj
+      value: દાદરા અને નગર હવેલી અને દમણ અને દીવ
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-and-dry savanna climate along the west-coastal districts, with a hot dry season, a southwest monsoon and a mild, drier post-monsoon season."
+landmarks:
+  - name: Diu Fort
+    description: "The 16th-century Portuguese sea fort on Diu island, built after 1535, guarding the coast with its ramparts and canons."
+  - name: Fortaleza de Daman (Moti Daman)
+    description: "The Portuguese walled citadel of Daman, with its ramparts and the Chapel of Our Lady of the Rosary."
+  - name: St. Paul's Church, Diu
+    description: "The 17th-century Portuguese baroque church in Diu town, a key monument of the region's colonial heritage."
+  - name: Naida Caves and Jampore Beach
+    description: "The natural rock-cut caves near Diu town and the quiet seafront beach that draws weekenders."
+  - name: Silvassa's tribal and riverside sites
+    description: "Silvassa, the capital on the right bank of the Daman Ganga, with its tribal (Varli) cultural sites and the Dudhni river resort."
+culturalTraits:
+  - "Small west-coastal territories with a strong Portuguese colonial heritage — Daman and Diu were Portuguese enclaves until 1961, leaving forts, churches and a Catholic minority"
+  - "Gujarati and Hindi are the official languages; the territory is culturally Gujarati but with its own Indo-Portuguese character"
+  - "The two non-contiguous parts — the inland Dadra and Nagar Haveli region and the two coastal enclaves of Daman and Diu — form one union territory since 2020"
+prideOf:
+  - "The Portuguese forts and churches of Daman and Diu"
+  - "The quiet beaches and coastal life of Diu"
+  - "Silvassa's riverside setting and tribal heritage"
+animals:
+  popular:
+    - "Coastal fish and shellfish"
+    - "Milch cattle and goats (rural economy)"
+    - "Waterbirds around the coastal and riverside wetlands"
+  unique:
+    - "Marine and reef life along the Arabian Sea coast"
+    - "Wetland and wader birds around Diu's seasonal pools and sanctuaries"
+industries:
+  - "Tourism (the Portuguese-heritage forts, beaches and coastal resorts)"
+  - "Marine fisheries and seafood processing"
+  - "Manufacturing and industrial estates (Silvassa — textiles, plastics, consumer goods)"
+  - "Agriculture (paddy, horticulture, coconut, cashew and spices)"
+sports:
+  - "Cricket"
+  - "Football (Daman and Diu have a strong footballing tradition)"
+  - "Water sports (jet-skiing and boating at the beaches)"
+  - "Kabaddi"
+entertainment:
+  - season: allYear
+    items:
+      - "The forts, churches and heritage of Diu, and the beach-and-river resorts around Daman and Silvassa"
+  - season: summer
+    items:
+      - "The hot pre-monsoon season, with the beaches busiest at the coast"
+  - season: wet
+    items:
+      - "The southwest monsoon (Jun-Sep) brings heavy rain; coastal activity slows"
+  - season: dry
+    items:
+      - "The post-monsoon dry season — the best months for beach and heritage visits"
+  - season: winter
+    items:
+      - "The pleasant, dry winter is the prime visitor season for Diu's fort, church and beach circuit"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "West-coast seafood — fish curries, prawns and the region's coastal staples"
+      - "Gujarati-style thalis and dhokla from the Daman-Valsad cultural belt"
+      - "Influences of Indo-Portuguese cooking in Daman and Diu (vinegary curries)"
+  - season: winter
+    items:
+      - "Hearty seafood curries in the cooler months"
+  - season: summer
+    items:
+      - "Cooling buttermilk and light meals against the coastal heat"
+  - season: wet
+    items:
+      - "Hot snacks with monsoon tea"
+  - season: dry
+    items:
+      - "Festival sweets and the celebratory post-monsoon meals"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women typically wear the saree or salwar-kameez; men the kurta and trousers, with local cotton weaves common"
+  - season: summer
+    items:
+      - "Light cottons suited to the warm, humid coast"
+  - season: wet
+    items:
+      - "Quick-dry cottons and rainwear for the monsoon"
+  - season: winter
+    items:
+      - "Light wraparounds and warm layers for the mild coastal winters"
+  - season: dry
+    items:
+      - "Festive dress for the post-monsoon and coastal festival seasons"
+seasonCalendar:
+  - season: summer
+    months: [3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+  - season: dry
+    months: [10, 11]
+  - season: winter
+    months: [12, 1, 2]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and shops typically run 10:00-18:00 Monday-Saturday (Diu and Daman towns; Silvassa's industrial estates follow standard factory hours)."
+  lunchBreakTiming: "A midday lunch break around 13:00-14:00, commonly a rice or seafood meal."
+  notableShutdownPeriods:
+    - period: "Feriagad/Garba festival season"
+      description: "The coastal festival season and major Gujarati fairs (Navratri) bring crowds and shape local trade."
+  notes: "Dadra and Nagar Haveli and Daman and Diu is a single union territory formed in January 2020 by merging the two former territories; the distinct-region file follows the current ISO 3166-2 code IN-DH."
+sources:
+  - id: dh-admin
+    name: "Dadra and Nagar Haveli and Daman and Diu — official administration (foreigners/UT info)"
+    publisher: "Administration of Dadra and Nagar Haveli and Daman and Diu, Government of India"
+    url: "https://dnhdd.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-30"
+    note: "Union-territory structure (2020 merger), official languages (Gujarati, Hindi) and administrative character of the UT."
+  - id: dh-tourism
+    name: "Daman and Diu tourism — forts, churches and beaches"
+    publisher: "Department of Tourism, Administration of Dadra and Nagar Haveli and Daman and Diu"
+    url: "https://daman.nic.in/"
+    year: 2026
+    accessedDate: "2026-09-30"
+    note: "Landmarks (Diu Fort, Moti Daman, St. Paul's Church, Naida Caves, Jampore Beach), cuisine, seasonal highlights and the Portuguese heritage of the territory."
+  - id: census-2011-dh
+    name: "Census of India 2011 — religion table (Daman & Diu)"
+    publisher: "Registrar General and Census Commissioner of India, Ministry of Home Affairs"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-30"
+    note: "2011 Census religion distribution: Daman & Diu Hindu ~90.5%, Muslim ~7.9%, Christian ~1.2% (a Hindu plurality); Dadra & Nagar Haveli is overwhelmingly Hindu (~95%) — together a strong Hindu plurality like the national figure, with a small Catholic presence reflecting the Portuguese heritage."

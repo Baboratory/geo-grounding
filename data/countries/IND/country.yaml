@@ -27,7 +27,7 @@ iso3166_2_prefix: IN
 hasSubdivisions: true
 regionCoverage:
   # India is federal: every one of its 36 first-level units (28 states + 8
-  # union territories) needs its own region file -- no selection test
+  # union territories) has its own region file -- no selection test
   # (DESIGN.md's coverage floor). An earlier version of this block applied
   # the unitary-large trigger test here, curated 29 units, declared the
   # other 7 "negative findings" and removed Chandigarh on that basis
@@ -39,12 +39,7 @@ regionCoverage:
   # 2025 Official Languages Regulation, Puducherry's French).
   tier: first-level
   totalUnits: 36
-  status: partial
-  gapReason: "30 of 36 first-level units have their own region file; 6
-    still needed -- IN-AN (Andaman & Nicobar), IN-CG (Chhattisgarh), IN-DH
-    (Dadra & Nagar Haveli and Daman & Diu), IN-HR (Haryana), IN-MP (Madhya
-    Pradesh), IN-RJ (Rajasthan). India is federal, so every unit is
-    required. Queued in TODO.md."
+  status: complete
 
 languageUsage:
   - languageCode: hin
@@ -221,6 +216,24 @@ distinct-regions:
   - code: IN-LD
     file: distinct-regions/in-ld.yaml
     adminUnitCodes: [IN-LD]
+  - code: IN-AN
+    file: distinct-regions/in-an.yaml
+    adminUnitCodes: [IN-AN]
+  - code: IN-CG
+    file: distinct-regions/in-cg.yaml
+    adminUnitCodes: [IN-CG]
+  - code: IN-DH
+    file: distinct-regions/in-dh.yaml
+    adminUnitCodes: [IN-DH]
+  - code: IN-HR
+    file: distinct-regions/in-hr.yaml
+    adminUnitCodes: [IN-HR]
+  - code: IN-MP
+    file: distinct-regions/in-mp.yaml
+    adminUnitCodes: [IN-MP]
+  - code: IN-RJ
+    file: distinct-regions/in-rj.yaml
+    adminUnitCodes: [IN-RJ]
 
 sources:
   - id: gol-art343
