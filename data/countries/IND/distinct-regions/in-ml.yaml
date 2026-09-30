@@ -149,7 +149,7 @@ sources:
   - id: meghalaya-tourism
     name: "Meghalaya Tourism"
     publisher: "Department of Tourism, Government of Meghalaya"
-    url: "https://meghalaytourism.gov.in/"
+    url: "http://megtourism.gov.in/"
     year: 2026
     accessedDate: "2026-09-28"
     note: "Landmarks (root bridges, Cherrapunji, Nohkalikai, Shillong), culture, cuisine and seasonal highlights."

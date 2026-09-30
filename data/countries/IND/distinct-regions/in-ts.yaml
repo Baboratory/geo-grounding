@@ -4,6 +4,8 @@ name:
   local:
     - languageCode: tel
       value: తెలంగాణ
+    - languageCode: urd
+      value: تلنگانہ
 climates:
   - koppenCode: Aw
     description: "Tropical savanna climate over the Deccan plateau, hot year-round with a heavy southwest monsoon and a mild dry winter."
