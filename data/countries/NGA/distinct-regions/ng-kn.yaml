@@ -1,0 +1,114 @@
+code: NG-KN
+name:
+  eng: Kano
+  local:
+    - languageCode: hau
+      value: Kano
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (Sahel steppe) climate typical of the far north — one wet season roughly June-September, a long, hot dry season with the dusty harmattan the rest of the year, and high daytime heat."
+landmarks:
+  - name: Ancient Kano City Walls and Gates
+    description: "The great medieval earthen fortification wall and gates that ringed the old Hausa city, a symbol of Kano's centuries as a trans-Saharan trading capital."
+  - name: Dala Hill
+    description: "The rocky hill at the heart of old Kano where the city's history is said to have begun, with views over the ancient settlement."
+  - name: Gidan Makama Museum
+    description: "The restored 15th-century palace of a Kano court official, now the state museum of Hausa history and culture."
+  - name: Emir's Palace, Kano
+    description: "The seat of the Emir of Kano and the city's landmark of emirate authority and Islamic scholarship."
+  - name: Kofar Mata dye pits
+    description: "The 500-year-old indigo dye pits of old Kano, among Africa's oldest surviving dyeing workshops."
+  - name: Kurmi Market
+    description: "The sprawling historic market of Kano, once a terminus of the trans-Saharan caravan trade and still a great trading bazaar."
+culturalTraits:
+  - "The Hausa heartland — Kano is the most populous state and the cultural and commercial centre of the Muslim far north"
+  - "A centuries-old emirate city and trans-Saharan trading hub with a deep tradition of Islamic scholarship and dyeing/leather craft"
+  - "Overwhelmingly Muslim society where the traditional emirate and the Durbar horse festivals are central to civic identity"
+prideOf:
+  - "Hausa language and culture and the enduring emirate"
+  - "Ancient Kano walls, the Kurmi market and the famous indigo dyeing and leather trades"
+  - "The Kano Durbar horse festival at Eid"
+animals:
+  popular:
+    - "Zebu cattle, goats and sheep of the northern pastoral economy"
+    - "Donkeys and horses used for transport and the Durbar"
+  unique:
+    - "Patas monkey and Sahelian antelope in the state's northern reserves"
+    - "West African giraffe and ostrich in protected northern areas"
+industries:
+  - "Leather tanning and processing (Kano's historic world-famous trade)"
+  - "Textiles and indigo dyeing"
+  - "Agriculture (groundnuts, millet, sorghum, cotton) and livestock"
+  - "Trade and commerce (Kurmi market and the wider northern trading network)"
+  - "Manufacturing and agro-processing in the state's industrial estates"
+sports:
+  - "Football"
+  - "Traditional wrestling (kokawa)"
+  - "Boxing"
+  - "Horse racing and the Durbar"
+religions:
+  # Kano is one of the overwhelmingly Muslim northern states. Nigeria has not asked a
+  # religion question in its census since 1963, so this split is a survey estimate.
+  - name: Muslim
+    percent: 97.0
+    sourceId: uscirf-kano
+  - name: Christian
+    percent: 3.0
+    sourceId: uscirf-kano
+entertainment:
+  - season: dry
+    items:
+      - "The Kano Durbar — the great mounted horse procession and festival held at Eid al-Fitr and Eid al-Kabir"
+      - "Eid celebrations, cultural festivals and Emirate ceremonies in the cooler, drier months"
+  - season: wet
+    items:
+      - "Harvest-time community gatherings and Hausa music and bardic performances"
+  - season: allYear
+    items:
+      - "The historic dye pits, Kurmi market and the palaces and museums of old Kano"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo shinkafa (soft rice dumpling) and tuwon masara (corn version) eaten with a rich soup"
+      - "Miyan taushe (pumpkin/leaf soup) and miyan kuka (baobab-leaf soup)"
+      - "Groundnut soup with meat or fowl"
+      - "Suya (spiced grilled skewered meat), kilishi (dried spiced meat) and dambu nama"
+      - "Fura da nono (millet dumplings in fermented milk)"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the flowing babban riga gown with an embroidered cap (hula) and sometimes a turban; women wear wrappers, blouses and the hijab common in the Muslim north"
+  - season: dry
+    items:
+      - "Festive white or richly embroidered gowns and turbans for the Eid Durbar and celebrations"
+seasonCalendar:
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets trade daily but with a Friday midday break for congregational prayers."
+  lunchBreakTiming: "A midday break around 13:00-14:00, often with prayer; on Fridays the midday prayer break is longer."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Kabir"
+      description: "Major Islamic holidays — most businesses close for the festivities and the Durbar."
+  notes: "Kano is one of twelve northern states to have adopted a Sharia penal code (in November 2001); alcohol is restricted and Friday midday prayer is widely observed, with many businesses closing early on Friday. Observations resolve to Kano's dry/wet climate, not a four-season year."
+  sourceIds:
+    - uscirf-kano
+sources:
+  - id: kano-state-gov
+    name: "Kano State Government — about Kano"
+    publisher: "Kano State Government"
+    url: "https://kanostate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-01"
+    note: "Official backdrop for Kano as the most populous northern state, its Hausa character, capital (Kano city), and landmarks including the emirate, walls, dye pits and Kurmi market."
+  - id: uscirf-kano
+    name: "USCIRF — Religious Freedom in Kano State, Nigeria (policy update)"
+    publisher: "US Commission on International Religious Freedom (USCIRF)"
+    url: "https://uscirf.gov/sites/default/files/2022-09/2022%20Violence%20in%20Nigeria%20Policy%20Update.pdf"
+    year: 2022
+    accessedDate: "2026-10-01"
+    note: "Describes Kano as overwhelmingly Muslim with a small Christian minority (survey estimate — Nigeria's census has not collected religion since 1963) and documents Kano's status as a Sharia-governing state and the religious-freedom concerns there; basis for the religion split and the Sharia note."
