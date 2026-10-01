@@ -1,0 +1,114 @@
+code: NG-OY
+name:
+  eng: Oyo
+  local:
+    - languageCode: yor
+      value: Ọ̀yọ́
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate of the Yorubaland interior — a wet season roughly April-October and a drier, harmattan-influenced season roughly November-March, with a double wet peak around June and September."
+landmarks:
+  - name: Ibadan
+    description: "One of Africa's largest indigenous cities and the state capital — a vast, bustling Yoruba metropolis that is the seat of old Yorubaland's largest urban settlement."
+  - name: Cocoa House, Ibadan
+    description: "Completed in 1965 as Nigeria's first skyscraper, the landmark of Ibadan built with proceeds from the region's cocoa trade."
+  - name: University of Ibadan
+    description: "Nigeria's oldest university, with its distinctive colonial-architecture campus and the adjacent zoological and botanical gardens."
+  - name: Alaafin's Palace, Oyo
+    description: "The historic palace of the Alaafin in the town of Oyo, centre of the great Oyo Empire that dominated the region from the 15th to the 19th century."
+  - name: Old Oyo National Park
+    description: "A protected savanna reserve in the north of the state preserving the ruins and environs of the old Oyo Empire capital."
+  - name: Bower's Tower
+    description: "The 19th-century lookout tower on Oke Are, Ibadan, offering panoramic views over the city."
+culturalTraits:
+  - "The heartland of the Yoruba people and seat of the historic Oyo Empire, whose Alaafin once ruled over much of what is now south-west Nigeria"
+  - "A great agricultural and commercial region whose capital, Ibadan, is one of the largest indigenous cities in Africa"
+  - "Rich in Yoruba festivals, drumming and the adire indigo-dye craft for which the region is famous"
+prideOf:
+  - "The heritage of the Oyo Empire and its Alaafin dynastic line"
+  - "Ibadan — the giant Yoruba metropolis"
+  - "Cocoa, agriculture and the adire dyeing tradition"
+animals:
+  popular:
+    - "Sheep, goats and poultry of the rural economy"
+    - "Cattle in the northern savanna part of the state"
+  unique:
+    - "African elephants, roan antelope and baboons in Old Oyo National Park"
+    - "Forest duiker and other gallery-forest species"
+industries:
+  - "Agriculture (cocoa, cassava, yam, maize, tobacco) — a leading crop-producing state"
+  - "Commerce and trading (Ibadan's vast markets)"
+  - "Education and services (the many universities and colleges around Ibadan)"
+  - "Traditional crafts (adire indigo dyeing, weaving, pottery)"
+sports:
+  - "Football"
+  - "Basketball"
+  - "Athletics"
+  - "Traditional Yoruba wrestling and local festivals with dance competitions"
+religions:
+  # Oyo is a mixed Yoruba state, broadly balanced between Christianity and Islam with a
+  # visible traditional-religion presence; this is a survey estimate, not a census figure
+  # (Nigeria has not collected religion in its census since 1963).
+  - name: Christian
+    percent: 50.0
+    sourceId: usstate-irf-oyo
+  - name: Muslim
+    percent: 45.0
+    sourceId: usstate-irf-oyo
+  - name: Traditional
+    percent: 5.0
+    sourceId: usstate-irf-oyo
+entertainment:
+  - season: allYear
+    items:
+      - "Yoruba festivals, drumming, theatre and the arts throughout the year"
+      - "Ibadan's nightlife, music scene and the city's galleries and markets"
+  - season: dry
+    items:
+      - "Outdoor festivals, celebrations and weddings in the drier, cooler months (Nov-Mar)"
+  - season: wet
+    items:
+      - "The rainy months favour indoor cultural events and the many places of worship"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Amala (yam flour) with ewedu and gbegiri — the signature Yoruba meal of the region"
+      - "Pounded yam with efo riro and egusi"
+      - "Jollof and fried rice, moin moin, akara and suya"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Yoruba dress — men's agbada gown and fila cap; women's iro (wrapper), buba (blouse) and gele headwrap"
+      - "Adire indigo-dyed cloth, which Ibadan and Oyo are famous for wearing and producing"
+  - season: dry
+    items:
+      - "Festive lace, agbada and gele for Christmas, Eid and the dry-season celebration season"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 08:00-17:00 Monday-Friday; the region's vast traditional markets trade daily including Saturdays."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Business in Ibadan and across the state slows over the Christmas-New Year week."
+  notes: "As a largely Yoruba and agricultural state, weekly market days and the farming calendar shape much of the business rhythm in the rural areas."
+sources:
+  - id: oyo-state
+    name: "Oyo State Government — about the state"
+    publisher: "Oyo State Government"
+    url: "https://oyostate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-01"
+    note: "Official backdrop for Oyo as a Yoruba heartland seat of the Oyo Empire, its capital Ibadan, and landmarks including the Alaafin's Palace and Old Oyo National Park."
+  - id: usstate-irf-oyo
+    name: "International Religious Freedom Report — Nigeria (Oyo)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/report/custom/c02a814b6c"
+    year: 2019
+    accessedDate: "2026-10-01"
+    note: "Oyo is a mixed south-west state broadly balanced between Christianity and Islam with a traditional-religion presence; the split is a survey estimate since Nigeria's census has not collected religion since 1963."
