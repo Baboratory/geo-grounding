@@ -14,21 +14,20 @@ landmarks:
     description: "Known as the 'city of eternal spring', Bolivia's third-largest city in a fertile valley."
   - name: Cristo de la Concordia
     description: "One of the world's tallest statues of Christ, overlooking the city on Cerro San Pedro."
-  - name: Valle Alto / Torotoro National Park
-    description: "Dramatic canyon with dinosaur footprints and cave systems (Torotoro)."
+  - name: Tunari National Park
+    description: "The mountain park rising above Cochabamba city to Cerro Tunari, the highest peak of the department."
 culturalTraits:
   - "Quechua highland-valley heritage at the meeting of Andes and lowlands"
   - "Famed for its cuisine — the gastronomic heart of Bolivia (silpancho, chicharrón, pampaku)"
   - "Vibrant market and cholita culture; a friendly, family-oriented society"
 prideOf:
   - "The 'eternal spring' climate and being the country's culinary capital"
-  - "Cristo de la Concordia and the Torotoro dinosaur site"
+  - "Cristo de la Concordia, one of the largest Christ statues in the world"
   - "A bridge between Andean and eastern lowland Bolivia"
 animals:
   popular:
     - "Andean condor"
     - "Vicuña and vizcacha in the high valleys"
-    - "Puma (in Torotoro's wilder reaches)"
 traditionalDishes:
   - season: allYear
     items:

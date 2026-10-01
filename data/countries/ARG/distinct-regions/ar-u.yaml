@@ -20,8 +20,8 @@ landmarks:
     description: "Coastal whale-watching gateway and diving center of the gulf."
   - name: Gaiman
     description: "The heart of the Welsh (y Wladfa) community; famous for its Welsh tea houses."
-  - name: Parque Paleontológico Valle de los Molles
-    description: "Dinosaur fossil site of the Cretaceous."
+  - name: Parque Paleontológico Bryn Gwyn
+    description: "Open-air fossil park near Gaiman, run by the Museo Paleontológico Egidio Feruglio, walking through some 40 million years of Patagonian strata."
 culturalTraits:
   - "The Patagonia region where the Welsh (Y Wladfa) settled in the 19th century and where Patagonian Welsh is still spoken"
   - "Mapuche and Tehuelche indigenous heritage"
@@ -39,7 +39,7 @@ animals:
     - "Guanaco across the steppe"
     - "Southern sea lion"
   unique:
-    - "The endemic Chubutian lizard and other Patagonian steppe endemics"
+    - "Liolaemus lizards, including species endemic to Chubut such as Liolaemus attenboroughi"
 industries:
   - "Oil and natural gas (Comodoro Rivadavia basin and offshore blocks)"
   - "Fishing and aquaculture along the coast"

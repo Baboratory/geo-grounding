@@ -24,7 +24,7 @@ landmarks:
     description: "The ancient 10th-century sun-temple tank south of Delhi, host of the annual Surajkund International Crafts Mela."
 culturalTraits:
   - "The grain belt of northern India — wheat and rice fields, dairy farming and the villages that shaped the Green Revolution"
-  - "Hindi is the official language and Punjabi the second official language (notified 2010); Haryanvi is the everyday speech of the villages"
+  - "Hindi is the official language and Punjabi the second official language (added by a 2004 amendment, brought into use in 2010); Haryanvi is the everyday speech of the villages"
   - "Part of the National Capital Region, pairing historic Kurukshetra with the modern IT downtown of Gurugram (Gurgaon)"
   - "A strong wrestling (kushti) and kabaddi tradition — Haryana has produced a disproportionate share of India's Olympic and international wrestlers"
 prideOf:
@@ -39,7 +39,7 @@ animals:
   unique:
     - "Black francolin (kala teetar, the state bird)"
     - "Black-breasted weaver and other wetland birds at Sultanpur"
-    - "Desert fox in the western arid districts"
+    - "Indian fox (Vulpes bengalensis) in the open scrub of the south and west"
 industries:
   - "Agriculture (wheat, rice, sugarcane — a leading producer; the National Capital Region's food basket)"
   - "Automotive manufacturing (Maruti Suzuki at Gurugram/Manesar)"
@@ -136,12 +136,12 @@ sources:
     accessedDate: "2026-09-30"
     note: "2011 Census religion distribution for Haryana: Hindu ~87.5%, Muslim ~7.0%, Sikh ~4.9%, Christian ~0.2% — a Hindu plurality like the national figure."
   - id: hr-language-act
-    name: "Haryana Official Language Act, 1969"
-    publisher: "Government of Haryana"
-    url: "https://haryanagovt.nic.in/"
-    year: 1969
+    name: "Haryana Official Language Act, 1969 (as amended by Haryana Act 30 of 2004)"
+    publisher: "Government of Haryana (text via Indian Kanoon)"
+    url: "https://indiankanoon.org/doc/162112918/"
+    year: 2004
     accessedDate: "2026-09-30"
-    note: "Hindi is the official language of Haryana under the 1969 Act; Punjabi was added as second language by the 2010 notification (see tribune-2010-punjabi)."
+    note: "Hindi is the official language of Haryana under the 1969 Act; Section 3 as amended in 2004 lets the State Government notify Punjabi (Gurmukhi script) as the second official language; the 28 January 2010 notification brought it into use (see tribune-2010-punjabi)."
   - id: tribune-2010-punjabi
     name: "Punjabi Haryana's second language"
     publisher: "The Tribune (Chandigarh)"

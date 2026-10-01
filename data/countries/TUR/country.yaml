@@ -69,37 +69,37 @@ regionCoverage:
   # province in Turkey (field estimates: Malatya ~20-30%, Corum ~19%, Sivas
   # ~15-20% Alevi). No religion trigger.
   #
-  # Trigger 5 (Koppen main class differs from the curated set's C/D) -- the
-  # first four curated provinces cover Csa (Istanbul/Izmir/Gaziantep) and
-  # Dsb (Ankara) only; main class B (semi-arid) was unrepresented.
-  # CONFIRMED for TR-42 Konya (the Konya Plain is the archetypal Central
-  # Anatolian steppe, BSk, ~300-325 mm/yr). TR-38 Kayseri is CURATED BUT
-  # CONTESTED: its file uses BSk (weatherandclimate.com), while Wikipedia's
-  # Kayseri climate section gives Dsa -- the city sits on the B/D boundary.
-  # The rest of the plateau is the same borderline story. PR #107 reported
-  # Aksaray, Kirikkale, Kirsehir, Nevsehir, Nigde, Sivas and Yozgat as
-  # "dominant Dsb" from climate-data.org pages, but those pages classify
-  # towns, not a province-dominant class, and Wikipedia gives Aksaray BSk.
-  # So these 7 are UNRESOLVED, not negative: the trigger needs one test
-  # applied to Konya, Kayseri and all 7 alike (share of province area in
-  # class B on a gridded map, e.g. Beck et al. 2023, 1 km Koppen-Geiger).
-  # Until then Kayseri stays (its content is accurate either way) and none
-  # of the 7 is curated or ruled out. Eastern Anatolia (Erzurum-Kars
-  # Plateau) does NOT fire: Dfb/Dsb, main class D, same as Ankara. Agri:
-  # class E exists only on Mount Ararat's summit cone (5,137 m); the
-  # province is mainly D -- does not fire.
+  # Trigger 5 (Koppen main class differs from the curated set's C/D) --
+  # decided by one gridded test (round-7 audit, 2026-10-01, reproduced
+  # independently): share of each province's area per Koppen main class on
+  # Beck et al. 2023, 1 km, 1991-2020 (source beck2023-koppen), GADM 4.1
+  # boundaries, cos-latitude area weights. [1961-1990 in brackets.]
+  #   Konya      B 47.9 [43.8]  C 28.1  D 24.0  -> FIRES (curated, TR-42)
+  #   Aksaray    B 77.6 [73.3]  C  1.9  D 20.5  -> FIRES (not yet curated)
+  #   Nevsehir   B 40.1 [22.7]  C  5.2  D 54.7  -> UNCLEAR (D-led, B rising)
+  #   Kayseri    B 19.3 [ 9.0]  C  0.1  D 80.5  -> does not fire
+  #   Kirikkale  B 23.5  C 47.3 (Csa, covered)  D 29.2  -> does not fire
+  #   Kirsehir   B 23.8  C 21.0  D 55.2  -> does not fire
+  #   Nigde      B 11.7  C  8.5  D 79.8  -> does not fire
+  #   Yozgat     B  8.9  C 17.0  D 74.2  -> does not fire
+  #   Sivas      B  0.6  C  0.8  D 98.6  -> does not fire
+  # Kayseri was curated in PR #107 on a city-point BSk label; the province
+  # is mainly D, so its region file was removed (v0.2.11) -- unitary-large
+  # rules, no trigger, no file. Point labels (Wikipedia, climate-data.org,
+  # weatherandclimate.com) classify a city, not a province: do not use
+  # them for this trigger. Eastern Anatolia (Erzurum-Kars Plateau) does
+  # NOT fire: Dfb/Dsb, main class D, same as Ankara. Agri: class E exists
+  # only on Mount Ararat's summit cone (5,137 m) -- does not fire.
   tier: first-level
   totalUnits: 81
   status: partial
-  gapReason: "8 of 81 curated: Tunceli and Hatay (religion), Konya
-    (climate) and Kayseri (climate, contested -- see comment). Unresolved:
-    whether 7 more Central Anatolian provinces (Aksaray, Kirikkale,
-    Kirsehir, Nevsehir, Nigde, Sivas, Yozgat) are mainly Koppen class B;
-    needs one gridded-map test across the plateau. The other ~70
-    provinces, including the Kurdish-majority southeast, were ruled out on
-    trigger 1 for a structural reason (no province has statutory
-    linguistic recognition) rather than individually -- see the comment
-    above."
+  gapReason: "7 of 81 curated: Istanbul, Izmir, Ankara, Gaziantep, Tunceli
+    and Hatay (religion) and Konya (climate). Aksaray fires the climate
+    trigger (78% of its area is Koppen class B) and is not yet curated.
+    Nevsehir is borderline (B 40%, D 55%) and left open. The other ~70
+    provinces were ruled out on trigger 1 for a structural reason (no
+    province has statutory linguistic recognition) rather than
+    individually -- see the comment above."
 languageUsage:
   - languageCode: tur
     domain: official
@@ -219,9 +219,6 @@ distinct-regions:
   - code: TR-31
     file: distinct-regions/tr-31.yaml
     adminUnitCodes: [TR-31]
-  - code: TR-38
-    file: distinct-regions/tr-38.yaml
-    adminUnitCodes: [TR-38]
   - code: TR-42
     file: distinct-regions/tr-42.yaml
     adminUnitCodes: [TR-42]
@@ -229,6 +226,13 @@ distinct-regions:
     file: distinct-regions/tr-62.yaml
     adminUnitCodes: [TR-62]
 sources:
+  - id: beck2023-koppen
+    name: "High-resolution (1 km) Koppen-Geiger maps for 1901-2099 based on constrained CMIP6 projections"
+    publisher: "Beck et al., Scientific Data 10, 724 (2023)"
+    url: "https://doi.org/10.6084/m9.figshare.21789074"
+    year: 2023
+    accessedDate: "2026-10-01"
+    note: "1991-2020 observation-based layer; per-province main-class area shares for the Central Anatolian trigger-5 test (see regionCoverage comment)."
   - id: tur-constitution-art3
     name: "Constitution of the Republic of Turkey (1982), Article 3"
     publisher: "Grand National Assembly of Turkey / Constitutional Court"

@@ -11,8 +11,8 @@ climates:
     description: Alpine/continental climate in the Alps in the region's northeast.
 landmarks:
   - name: Calanques National Park
-  - name: Pont du Gard (Roman aqueduct)
-    unescoWorldHeritage: true
+  - name: Gorges du Verdon
+    unescoWorldHeritage: false
   - name: Palais des Papes, Avignon
     unescoWorldHeritage: true
 culturalTraits:

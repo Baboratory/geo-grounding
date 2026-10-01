@@ -69,7 +69,7 @@ entertainment:
 traditionalDishes:
   - season: allYear
     items:
-      - "Chhattisgarh's rice-based staples — fara/phara (steamed rice dumplings) and aamat (lentil-turmeric curry)"
+      - "Chhattisgarh's rice-based staples — fara/phara (steamed rice dumplings) and aamat (the sour mixed-vegetable curry of Bastar)"
       - "Chila (rice-flour pancakes) with spicy chutney"
       - "Bafauri and muthia (steamed lentil-and-vegetable dumplings)"
   - season: winter
@@ -121,8 +121,8 @@ businessRhythm:
 sources:
   - id: cg-language-act
     name: "The Chhattisgarh Official Language (Amendment) Act, 2007 — adoption of Chhattisgarhi alongside Hindi"
-    publisher: "Government of Chhattisgarh"
-    url: "https://www.indiacode.nic.in/"
+    publisher: "Government of Chhattisgarh (text via PRS Legislative Research)"
+    url: "https://prsindia.org/files/bills_acts/acts_states/chhattisgarh/2008/2008CG14.pdf"
     year: 2007
     accessedDate: "2026-09-30"
     note: "Basis for Chhattisgarhi's co-official status in the state (name.local and characteristic-language content); Hindi remains the first official language under the 1957 Act."

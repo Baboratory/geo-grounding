@@ -67,10 +67,10 @@ entertainment:
       - "The short monsoon brings a rare green flush to the desert and fills the seasonal lakes (Udaipur's lakes)"
   - season: dry
     items:
-      - "The post-monsoon dry season hosts Pushkar Fair and the Desert Festival (Jaisalmer) — camel and folk-culture celebrations"
+      - "The post-monsoon dry season hosts the Pushkar camel fair (Kartik, Oct-Nov) — camel trading and folk-culture celebrations"
   - season: winter
     items:
-      - "The cool, dry winter is the prime season for the forts, palaces and desert safaris"
+      - "The cool, dry winter is the prime season for the forts, palaces and desert safaris, and hosts the Jaisalmer Desert Festival (Maru Mahotsav, Jan-Feb)"
 traditionalDishes:
   - season: allYear
     items:
@@ -142,7 +142,7 @@ sources:
   - id: rj-language-act
     name: "Rajasthan Official Language Act, 1956"
     publisher: "Government of Rajasthan"
-    url: "https://rajassembly.nic.in/"
+    url: "https://indiankanoon.org/doc/95899317/"
     year: 1956
     accessedDate: "2026-09-30"
     note: "Hindi is the official language of the state; Rajasthani dialects (Marwari, Mewari, Dhundhari) are widely spoken but not statutorily official — basis for the state's Hindi-character coverage."

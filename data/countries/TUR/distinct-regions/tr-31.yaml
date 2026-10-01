@@ -58,7 +58,7 @@ industries:
   - "Tourism: Mediterranean coast (Arsuz, Samandağ), Antakya's old city, archaeology and gastronomy tourism"
   - "Industry and logistics: İskenderun hosts Turkey's largest iron-and-steel plant and a major seaport"
 sports:
-  - "Football (Hatayspor, the province's flagship club — in the Süper Lig 2020-2025, relegated to the TFF 1. Lig in 2025; it has played in İskenderun since the 2023 earthquakes)"
+  - "Football (Hatayspor, the province's flagship club — in the Süper Lig 2020-2025; after the 2023 earthquakes it withdrew mid-season, played home games in Mersin, then moved to İskenderun; relegated to the TFF 1. Lig in 2025)"
 religions:
   - name: "Arab Alawite (Nusayri) Muslim"
     percent: 45.0
@@ -68,6 +68,9 @@ religions:
     sourceId: investinhatay-demography
   - name: "Christian (Antiochian Greek Orthodox, Armenian, Syriac, Maronite and Catholic)"
     percent: 3.0
+    sourceId: investinhatay-demography
+  - name: "Other / undeclared"
+    percent: 7.0
     sourceId: investinhatay-demography
 entertainment:
   - season: dry
@@ -115,12 +118,12 @@ sources:
     accessedDate: "2026-10-01"
     note: "Damage to Antakya's historic fabric in the February 2023 earthquakes, including the Habib-i Neccar Mosque."
   - id: hurriyet-hatay-museum
-    name: "Mosaic that survived earthquakes on display in Hatay museum"
+    name: "Damaged artifacts moved to safe museums"
     publisher: "Hürriyet Daily News"
-    url: "https://www.hurriyetdailynews.com/mosaic-that-survived-earthquakes-on-display-in-hatay-museum-222421"
-    year: 2024
+    url: "https://www.hurriyetdailynews.com/damaged-artifacts-moved-to-safe-museums-181035"
+    year: 2023
     accessedDate: "2026-10-01"
-    note: "Hatay Archaeology Museum's mosaic collection survived the 2023 earthquakes."
+    note: "21 Feb 2023: 'No damage occurred to the mosaics in the Hatay Archaeology Museum'; the building was damaged and closed for repair."
   - id: wikipedia-hatayspor
     name: "Hatayspor — Wikipedia"
     publisher: "Wikipedia"
@@ -141,7 +144,7 @@ sources:
     url: "https://www.investinhatay.com/hatay-at-a-glance/geographical-location"
     year: 2024
     accessedDate: "2026-09-29"
-    note: "Confirms Mediterranean climate and the Alawi/Christian minority composition. Religion percentages not published by any official source — Sunni ~45% and Christian ~3% are disclosed estimates framed against the Alawite 'near-half' share."
+    note: "Confirms Mediterranean climate and the Alawi/Christian minority composition. Religion percentages not published by any official source — Sunni ~45% and Christian ~3% are disclosed estimates framed against the Alawite 'near-half' share; the 7% 'other / undeclared' row is the arithmetic remainder, not a published figure."
   - id: pbs-alawite
     name: "Alawite Anxiety in Turkey"
     publisher: "PBS (WNET New York)"
@@ -160,14 +163,14 @@ sources:
     name: "St. Pierre Church — UNESCO Tentative List 5613"
     publisher: "UNESCO World Heritage Centre"
     url: "https://whc.unesco.org/en/tentativelists/5613"
-    year: 2000
+    year: 2011
     accessedDate: "2026-09-29"
     note: "The cave church of Antakya is on Turkey's Tentative List, presented as one of the oldest churches associated with St Peter."
   - id: unesco-titus-tunnel
     name: "Vespasianus Titus Tunnel — UNESCO Tentative List 5903"
     publisher: "UNESCO World Heritage Centre"
     url: "https://whc.unesco.org/en/tentativelists/5903/"
-    year: 2006
+    year: 2014
     accessedDate: "2026-09-29"
     note: "Roman-period water tunnel near Samandağ (ancient Seleucia Pieria), on Turkey's Tentative List."
   - id: hataygov-harbiye
