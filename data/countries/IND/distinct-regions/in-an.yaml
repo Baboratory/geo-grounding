@@ -1,0 +1,118 @@
+code: IN-AN
+name:
+  eng: Andaman and Nicobar Islands
+  local:
+    - languageCode: hin
+      value: अंडमान और निकोबार द्वीप समूह
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate with heavy rainfall from both the southwest and northeast monsoons (roughly May-December), high year-round humidity and warmth, and a relatively drier window around February-April."
+landmarks:
+  - name: Cellular Jail (Sri Vijaya Puram)
+    description: "The colonial prison built by the British in 1906 for political prisoners at Port Blair (renamed Sri Vijaya Puram in 2024), now a poignant National Memorial and museum."
+  - name: Radhanagar Beach (Swaraj Dweep)
+    description: "The celebrated beach of white sand and turquoise water on Swaraj Dweep (Havelock), repeatedly ranked among Asia's best."
+  - name: Ross Island
+    description: "The ruins of the 19th-century British colonial capital, now overrun by rainforest with the old Government House in decay."
+  - name: Barren Island
+    description: "India's only active volcano, lying east of the main Andaman chain and viewed from the sea."
+  - name: Mahatma Gandhi Marine National Park (Wandoor)
+    description: "A protected coral-reef and marine sanctuary off Wandoor, famed for snorkelling among the reef fish and corals."
+  - name: Chidiya Tapu
+    description: "The southern tip of South Andaman, a bird-singing area and one of the best sunset viewpoints on the islands."
+culturalTraits:
+  - "A far-flung tropical island chain at the junction of the Bay of Bengal and Andaman Sea, known for its rainforests, reefs and beaches"
+  - "Settler communities of Bengali, Tamil, Telugu and Hindi speakers alongside the indigenous Andamanese and Nicobarese peoples, with a distinctive island blend"
+  - "A history as a British penal colony (the Cellular Jail) and, today, a peaceful nature-tourism and naval frontier territory"
+prideOf:
+  - "The Cellular Jail National Memorial and the freedom-struggle history it honours"
+  - "Radhanagar and the reefs — some of India's finest beach and snorkelling destinations"
+  - "The unspoiled rainforests and endemic island wildlife"
+animals:
+  popular:
+    - "Crab-eating macaque"
+    - "Andaman wild pig (an endemic subspecies)"
+    - "Dugong (sea cow) in the shallow seagrass beds"
+  unique:
+    - "Andaman masked palm civet (Paguma larvata tytlerii, an endemic subspecies)"
+    - "Nicobar pigeon (the iridescent island pigeon that is the closest living relative of the extinct dodo)"
+    - "Saltwater crocodile (Crocodylus porosus, in the mangrove creeks)"
+industries:
+  - "Tourism (beach, snorkelling and heritage tourism across Port Blair, Swaraj Dweep, Ross and the marine parks)"
+  - "Marine fisheries and seafood"
+  - "Agriculture (coconut, areca nut, spices such as clove and nutmeg)"
+  - "Forestry and the naval/coast-guard presence"
+sports:
+  - "Cricket"
+  - "Football"
+  - "Water sports (snorkelling, scuba diving, boat excursions)"
+  - "Kabaddi"
+entertainment:
+  - season: allYear
+    items:
+      - "The beach, reef and heritage circuit — Cellular Jail, Radhanagar, Ross Island and the marine parks"
+  - season: dry
+    items:
+      - "The relatively drier window (roughly Feb-Apr) is the best season for beach and snorkelling trips"
+  - season: wet
+    items:
+      - "The long monsoon (roughly May-Dec) brings heavy rain and rougher seas; island exploration is more restricted"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Seafood fresh from the Bay of Bengal — fish curries, coconut-based preparations and grilled island catch"
+      - "South Indian-style meals and the Bengali-influenced fish and rice dishes of the settler communities"
+      - "Coconut and spice (clove, nutmeg) accents grown on the islands"
+  - season: dry
+    items:
+      - "Light seafood meals and fresh island fruit in the drier season"
+  - season: wet
+    items:
+      - "Hearty curries and spiced tea against the monsoon rain"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light cotton garments and casual tropical wear suit the humid island climate"
+      - "Settler communities wear the saree or salwar-kameez; the indigenous tribes have their own distinct dress"
+  - season: wet
+    items:
+      - "Quick-dry cottons and rainwear for the long monsoon"
+  - season: dry
+    items:
+      - "Light cottons and beachwear for the drier, sunnier season"
+seasonCalendar:
+  - season: dry
+    months: [1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10, 11, 12]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and shops in Sri Vijaya Puram (Port Blair) typically run 09:30-17:30 Monday-Friday (and often Saturday morning); tourism and water-sport operators follow ferry and daylight schedules."
+  lunchBreakTiming: "A midday lunch break around 13:00-14:00, commonly a fish-and-rice meal."
+  notableShutdownPeriods:
+    - period: "Southwest-monsoon ferry disruptions"
+      description: "Heavy seas in the main monsoon months can disrupt inter-island ferry schedules, slowing island tourism and commerce."
+  notes: "Andaman and Nicobar's tropical climate and remote island geography set it apart within India; the region file uses a dry/wet season split (the drier window roughly Feb-Apr) rather than a temperate four-season calendar."
+sources:
+  - id: an-tourism
+    name: "Andaman and Nicobar Tourism — Cellular Jail, Radhanagar, Ross Island, Barren Island"
+    publisher: "Department of Tourism, Andaman and Nicobar Administration"
+    url: "https://andamantourism.gov.in/"
+    year: 2026
+    accessedDate: "2026-09-30"
+    note: "Landmarks (Cellular Jail, Radhanagar, Ross Island, Barren Island, Mahatma Gandhi Marine National Park, Chidiya Tapu), beaches, water sports and seasonal (monsoon/dry) highlights for the islands."
+  - id: forest-an-endemic
+    name: "Andaman and Nicobar Forests — island mammals"
+    publisher: "Department of Environment and Forests, Andaman and Nicobar Administration"
+    url: "https://forest.and.nic.in/"
+    year: 2026
+    accessedDate: "2026-09-30"
+    note: "Endemic island wildlife (Andaman wild pig, Andaman masked palm civet, crab-eating macaque, Nicobar pigeon, dugong, saltwater crocodile) for the region's animals section."
+  - id: census-2011-an
+    name: "Census of India 2011 — religion table (Andaman and Nicobar Islands)"
+    publisher: "Registrar General and Census Commissioner of India, Ministry of Home Affairs"
+    url: "https://censusindia.gov.in/"
+    year: 2011
+    accessedDate: "2026-09-30"
+    note: "2011 Census religion distribution: Hindu ~69.5%, Christian ~21.3%, Muslim ~8.5%, Sikh ~0.3% — a Hindu plurality across the UT, but Christians are ~71% of the Nicobar district (the largely Christian indigenous Nicobarese), reflecting the islands' distinct settler and tribal make-up."

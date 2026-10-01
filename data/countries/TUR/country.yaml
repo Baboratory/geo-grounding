@@ -63,36 +63,43 @@ regionCoverage:
   # declined to ~30,000 nationally and no longer constitutes any plurality
   # in modern Mardin province, which is today majority Sunni Kurdish/Arab --
   # a heritage story, not a current demographic divergence; do not curate
-  # Mardin on this basis. Other provinces with a real but unconfirmed-as-
-  # majority Alevi minority (Sivas, Malatya, Çorum, Erzincan, Amasya) were
-  # not individually verified -- flagged, not asserted.
+  # Mardin on this basis. The five other provinces with a notable Alevi
+  # minority (Sivas, Malatya, Çorum, Erzincan, Amasya) were individually
+  # verified as NOT plurality Alevi -- Tunceli is the only Alevi-majority
+  # province in Turkey (field estimates: Malatya ~20-30%, Corum ~19%, Sivas
+  # ~15-20% Alevi). No religion trigger.
   #
   # Trigger 5 (Koppen main class differs from the curated set's C/D) -- the
-  # four curated provinces cover Csa (Istanbul/Izmir/Gaziantep) and Dsb
-  # (Ankara) only; main class B (semi-arid) is confirmed unrepresented and
-  # covers most of the Central Anatolia Region. CONFIRMED for TR-42 Konya
-  # (Turkey's largest province by area, the archetypal Central Anatolian
-  # steppe, BSk) and TR-38 Kayseri (BSk, confirmed independently). The
-  # Central Anatolia Region's other 7 provinces (Sivas, Yozgat, Nevşehir,
-  # Kırşehir, Kırıkkale, Aksaray, Niğde) very likely also fire this trigger
-  # but were not individually confirmed -- flagged for follow-up, not
-  # asserted as confirmed. Eastern Anatolia's cold/continental climate
-  # (Erzurum-Kars Plateau) does NOT independently fire this trigger --
-  # confirmed Dfb/Dsb, the same main class D that Ankara already covers.
-  # A genuine high-altitude E (alpine/tundra) zone likely exists around
-  # Mount Ararat (Ağrı) but whether it's Ağrı province's dominant class was
-  # not checked.
+  # first four curated provinces cover Csa (Istanbul/Izmir/Gaziantep) and
+  # Dsb (Ankara) only; main class B (semi-arid) was unrepresented.
+  # CONFIRMED for TR-42 Konya (the Konya Plain is the archetypal Central
+  # Anatolian steppe, BSk, ~300-325 mm/yr). TR-38 Kayseri is CURATED BUT
+  # CONTESTED: its file uses BSk (weatherandclimate.com), while Wikipedia's
+  # Kayseri climate section gives Dsa -- the city sits on the B/D boundary.
+  # The rest of the plateau is the same borderline story. PR #107 reported
+  # Aksaray, Kirikkale, Kirsehir, Nevsehir, Nigde, Sivas and Yozgat as
+  # "dominant Dsb" from climate-data.org pages, but those pages classify
+  # towns, not a province-dominant class, and Wikipedia gives Aksaray BSk.
+  # So these 7 are UNRESOLVED, not negative: the trigger needs one test
+  # applied to Konya, Kayseri and all 7 alike (share of province area in
+  # class B on a gridded map, e.g. Beck et al. 2023, 1 km Koppen-Geiger).
+  # Until then Kayseri stays (its content is accurate either way) and none
+  # of the 7 is curated or ruled out. Eastern Anatolia (Erzurum-Kars
+  # Plateau) does NOT fire: Dfb/Dsb, main class D, same as Ankara. Agri:
+  # class E exists only on Mount Ararat's summit cone (5,137 m); the
+  # province is mainly D -- does not fire.
   tier: first-level
   totalUnits: 81
   status: partial
-  gapReason: "4 of 81 curated. 4 more confirmed trigger-firing (Tunceli and
-    Hatay on religion, Konya and Kayseri on climate) and queued for
-    curation. 7 more Central Anatolian provinces likely also fire the
-    climate trigger but need individual confirmation before curating. The
-    other ~70 provinces, including the entire Kurdish-majority southeast,
-    were checked against trigger 1 (language) and found negative for a
-    confirmed structural reason (no province has statutory linguistic
-    recognition) rather than individually -- see the comment above."
+  gapReason: "8 of 81 curated: Tunceli and Hatay (religion), Konya
+    (climate) and Kayseri (climate, contested -- see comment). Unresolved:
+    whether 7 more Central Anatolian provinces (Aksaray, Kirikkale,
+    Kirsehir, Nevsehir, Nigde, Sivas, Yozgat) are mainly Koppen class B;
+    needs one gridded-map test across the plateau. The other ~70
+    provinces, including the Kurdish-majority southeast, were ruled out on
+    trigger 1 for a structural reason (no province has statutory
+    linguistic recognition) rather than individually -- see the comment
+    above."
 languageUsage:
   - languageCode: tur
     domain: official
@@ -209,6 +216,18 @@ distinct-regions:
   - code: TR-27
     file: distinct-regions/tr-27.yaml
     adminUnitCodes: [TR-27]
+  - code: TR-31
+    file: distinct-regions/tr-31.yaml
+    adminUnitCodes: [TR-31]
+  - code: TR-38
+    file: distinct-regions/tr-38.yaml
+    adminUnitCodes: [TR-38]
+  - code: TR-42
+    file: distinct-regions/tr-42.yaml
+    adminUnitCodes: [TR-42]
+  - code: TR-62
+    file: distinct-regions/tr-62.yaml
+    adminUnitCodes: [TR-62]
 sources:
   - id: tur-constitution-art3
     name: "Constitution of the Republic of Turkey (1982), Article 3"

@@ -1,0 +1,235 @@
+code: TR-31
+name:
+  eng: Hatay
+  local:
+    - languageCode: tur
+      value: Hatay
+climates:
+  - koppenCode: Csa
+    description: "Hot-summer Mediterranean — the dominant climate of Hatay's coast and Amik Plain (Antakya): very hot, long, dry summers and cool, rainy, mild winters."
+  - koppenCode: Csb
+    description: "Warm-summer Mediterranean, the cooler high-altitude variant in the Nur (Amanos) Mountains that run north-south through the province."
+landmarks:
+  - name: "Antakya (ancient Antioch)"
+    description: "Provincial seat and the ancient city of Antioch-on-the-Orontes, for centuries a major Hellenistic, Roman and early-Christian metropolis. The name 'Christian' was first used for the followers of Jesus here (Acts 11:26)."
+    unescoWorldHeritage: false
+  - name: "Church of St Peter (Saint Pierre Kilisesi), Antakya"
+    description: "One of the oldest churches in the world — a natural cave (grotto) church cut into Mount Staurin where the early Christians of Antioch gathered under St Peter. On Turkey's Tentative List for UNESCO World Heritage status."
+    unescoWorldHeritage: false
+  - name: "Harbiye (Daphne) Waterfalls"
+    description: "A cascade and springs about 6-8 km south of Antakya in the district of Defne, set in the valley of ancient Daphne, the legendary suburban pleasure-garden of Roman Antioch famed for its springs and laurel groves."
+    unescoWorldHeritage: false
+  - name: "Hatay Archaeology Museum (Hatay Arkeoloji Müzesi), Antakya"
+    description: "Antakya's archaeological museum, internationally known for its large and exquisite collection of Roman and Byzantine floor mosaics excavated from ancient Antioch, Daphne and Seleucia Pieria. The building was damaged in the February 2023 earthquakes but the mosaics survived intact."
+    unescoWorldHeritage: false
+  - name: "Mount Habib-i Neccar"
+    description: "The hill rising behind Antakya (the ancient Mount Silpius), whose terraces carry the Habib-i Neccar Mosque and the shrines of Habib al-Najjar ('the beloved carpenter'); a place of pilgrimage shared by Muslims and Christians. The mosque, among the oldest in Anatolia, was largely destroyed in the February 2023 earthquakes."
+    unescoWorldHeritage: false
+  - name: "Vespasianus / Titus Tunnel (Çevlik), Samandağ"
+    description: "An ancient water-tunnel cut through solid rock in the 1st-2nd centuries AD to divert the torrent threatening Seleucia Pieria, the port of Antioch. On Turkey's Tentative List for UNESCO World Heritage status."
+    unescoWorldHeritage: false
+  - name: "Orontes River (Asi Nehri)"
+    description: "The river that gave ancient Antioch its epithet 'on the Orontes'; it rises in Lebanon's Bekaa Valley, crosses Syria, runs through Hatay and empties into the Mediterranean in a delta at Samandağ."
+    unescoWorldHeritage: false
+culturalTraits:
+  - "A large, locally distinctive Arab Alawite (Nusayri) community — a heterodox Shia tradition distinct from both mainstream Sunni Islam and Turkish Alevism — that forms a local majority in the southern coastal districts of Samandağ, Defne and Arsuz and is often described as making up 'nearly half' of the province's population"
+  - "The 6 February 2023 Kahramanmaraş earthquakes devastated Antakya, destroying much of its old city and historic buildings; reconstruction shapes the province today"
+  - "A genuinely unique political history as the Sanjak of Alexandretta under the French Mandate of Syria, then the short-lived Hatay State (1938-39), annexed to Turkey by the 1939 referendum — the only part of the post-Ottoman Levant to join Turkey from the Mandate"
+  - "A diverse Arab (Alawite, Sunni and Christian) and Turkish population living side by side; Arabic is still widely spoken alongside Turkish"
+  - "Antioch's ancient Christian heritage — the city where, according to Acts 11, the followers of Jesus were first called 'Christians', with one of the oldest church traditions and the cave Church of St Peter"
+  - "A culinary crossroads of Turkish and Arab cuisine — famed as a UNESCO City of Gastronomy (2017) with over 600 signature dishes"
+  - "Arabic-influenced religious and seasonal customs, including the Arab Alawite celebration of the Rumi New Year on 14 January"
+prideOf:
+  - "Hatay's multi-faith coexistence — Alawites, Sunnis, Antiochian Orthodox and other Christians — often celebrated as the 'city of siblings' (kardeşler şehri)"
+  - "Being the former Sanjak of Alexandretta / Hatay State, whose 1939 union with Turkey is remembered as 'the return to the homeland'"
+  - "Recognition as a UNESCO City of Gastronomy (2017) with a deeply rooted culinary tradition"
+  - "The ancient heritage of Antioch, one of the earliest centers of Christianity and a great classical metropolis"
+animals:
+  popular:
+    - "Wild boar (Sus scrofa), common in the Nur/Amanos mountains, Amik Plain and reed beds"
+    - "Sea turtles on the Samandağ coast — loggerhead (Caretta caretta) and green (Chelonia mydas) turtles nest on its beaches each summer"
+    - "Migratory waterfowl and raptors along the Anatolian-Levantine flyway feeding in Hatay's wetlands"
+  unique:
+    - "Green sea turtle (Chelonia mydas) — Samandağ beach is one of the most important green-turtle nesting beaches in the Mediterranean"
+    - "Nile/African softshell turtle (Trionyx triunguis), a Vulnerable species in the Orontes river delta at Samandağ"
+industries:
+  - "Agriculture: citrus and olives are major crops — Hatay (notably Dörtyol) is among the leading Turkish provinces for orange/citrus and olive production"
+  - "Trade via the Syria border: the Reyhanlı-Cilvegözü crossing is a key Turkey-Syria land gateway for commerce, trucks and, since 2011, humanitarian and refugee movement"
+  - "Tourism: Mediterranean coast (Arsuz, Samandağ), Antakya's old city, archaeology and gastronomy tourism"
+  - "Industry and logistics: İskenderun hosts Turkey's largest iron-and-steel plant and a major seaport"
+sports:
+  - "Football (Hatayspor, the province's flagship club — in the Süper Lig 2020-2025, relegated to the TFF 1. Lig in 2025; it has played in İskenderun since the 2023 earthquakes)"
+religions:
+  - name: "Arab Alawite (Nusayri) Muslim"
+    percent: 45.0
+    sourceId: pbs-alawite
+  - name: "Sunni Muslim"
+    percent: 45.0
+    sourceId: investinhatay-demography
+  - name: "Christian (Antiochian Greek Orthodox, Armenian, Syriac, Maronite and Catholic)"
+    percent: 3.0
+    sourceId: investinhatay-demography
+entertainment:
+  - season: dry
+    items:
+      - "Beaches and swimming/sea-turtle season on the Samandağ and Arsuz coasts"
+      - "Harbiye (Daphne) waterfalls and open-air cafés in the hills behind Antakya"
+      - "Summer festivals and outdoor dining in Antakya's old town"
+  - season: wet
+    items:
+      - "Hatay Archaeology Museum and the covered Long Bazaar (Uzun Çarşı) of Antakya"
+      - "Coffeehouse culture and hammam (traditional bath)"
+      - "Künefe salons — sociable dessert-houses serving Antakya künefe hot"
+  - season: allYear
+    items:
+      - "Gastronomy tourism across Hatay's Turkish-Arab fusion cuisine"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Antakya künefe — the signature dessert, fried shredded kadayıf with unsalted cheese and syrup, bearing a geographical-indication registration"
+      - "Hatay kaytaz böreği — a traditional minced-meat pastry (registered as an EU geographical indication)"
+      - "Hummus — Antakya is famous for its hummus (chickpea purée with tahini, lemon, spices)"
+      - "Lahmacun — thin spiced minced-meat flatbread, baked in stone ovens"
+      - "Zahter salatası — Hatay thyme salad of wild thyme (zahter) with onion, tomato, olive oil and pomegranate molasses"
+      - "Kuşbaşı tava / Belen tava — spiced diced-lamb baked in a tray, a Hatay specialty"
+      - "Oruk (içli köfte) — the local stuffed bulgur köfte, and surke, a spicy sun-dried cheese"
+  - season: dry
+    items:
+      - "Fresh summer mezze and cold salads dressed with Hatay olive oil and pomegranate molasses"
+      - "Citrus from the Dörtyol orchards — oranges and lemons"
+seasonCalendar:
+  - season: wet
+    months: [11, 12, 1, 2, 3]
+  - season: dry
+    months: [4, 5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays: []
+  notes: "Follows Turkey's national calendar — nationwide public holidays and Ramadan/Bayram observance apply as everywhere (national legal rules sit in the country file). Observance is widespread among Hatay's Sunni and Alawite populations, and in Antakya restaurant/café hours shift for iftar/sahur during Ramadan. Locally, citrus and olive harvest in autumn-winter and the Reyhanlı-Cilvegözü border gate are major seasonal drivers."
+  typicalWorkHours: "09:00-18:00 Mon-Fri."
+sources:
+  - id: dailysabah-quake-heritage
+    name: "Türkiye's rich southeast heritage severely damaged after quakes"
+    publisher: "Daily Sabah"
+    url: "https://www.dailysabah.com/turkey/turkiyes-rich-southeast-heritage-severely-damaged-after-quakes/news"
+    year: 2023
+    accessedDate: "2026-10-01"
+    note: "Damage to Antakya's historic fabric in the February 2023 earthquakes, including the Habib-i Neccar Mosque."
+  - id: hurriyet-hatay-museum
+    name: "Mosaic that survived earthquakes on display in Hatay museum"
+    publisher: "Hürriyet Daily News"
+    url: "https://www.hurriyetdailynews.com/mosaic-that-survived-earthquakes-on-display-in-hatay-museum-222421"
+    year: 2024
+    accessedDate: "2026-10-01"
+    note: "Hatay Archaeology Museum's mosaic collection survived the 2023 earthquakes."
+  - id: wikipedia-hatayspor
+    name: "Hatayspor — Wikipedia"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Hatayspor"
+    year: 2026
+    accessedDate: "2026-10-01"
+    note: "Süper Lig 2020-2025, relegated after 2024-25; home games in İskenderun since the 2023 earthquakes damaged Antakya."
+  - id: hatay-gov-census
+    name: "T.C. Hatay Valiliği — Nüfus ve Dağılımı"
+    publisher: "T.C. Hatay Valiliği"
+    url: "https://www.hatay.gov.tr/nufus-ve-dagilimi"
+    year: 2023
+    accessedDate: "2026-09-29"
+    note: "Official 31 December 2023 population: 1,544,640. Turkey's census records place of registration, not religion."
+  - id: investinhatay-demography
+    name: "Hatay Investment Support Office — Demography"
+    publisher: "Hatay Investment Support Office"
+    url: "https://www.investinhatay.com/hatay-at-a-glance/geographical-location"
+    year: 2024
+    accessedDate: "2026-09-29"
+    note: "Confirms Mediterranean climate and the Alawi/Christian minority composition. Religion percentages not published by any official source — Sunni ~45% and Christian ~3% are disclosed estimates framed against the Alawite 'near-half' share."
+  - id: pbs-alawite
+    name: "Alawite Anxiety in Turkey"
+    publisher: "PBS (WNET New York)"
+    url: "https://www.pbs.org/wnet/religionandethics/2013/01/04/january-4-2013-alawite-anxiety-in-turkey/14343/"
+    year: 2013
+    accessedDate: "2026-09-29"
+    note: "Reports 'perhaps fifty percent of Hatay's residents are Alawite'. Published estimates range one-third to one-half; 45% used as a representative 'nearly half' midpoint; disclosed estimate (no official religious census)."
+  - id: wikipedia-hatay-history
+    name: "Hatay Province — History"
+    publisher: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/Hatay_Province"
+    year: 2026
+    accessedDate: "2026-09-29"
+    note: "Sanjak of Alexandretta under the French Mandate; Hatay State 1938-39; 1939 referendum and union with Turkey."
+  - id: unesco-st-peter
+    name: "St. Pierre Church — UNESCO Tentative List 5613"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/tentativelists/5613"
+    year: 2000
+    accessedDate: "2026-09-29"
+    note: "The cave church of Antakya is on Turkey's Tentative List, presented as one of the oldest churches associated with St Peter."
+  - id: unesco-titus-tunnel
+    name: "Vespasianus Titus Tunnel — UNESCO Tentative List 5903"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/tentativelists/5903/"
+    year: 2006
+    accessedDate: "2026-09-29"
+    note: "Roman-period water tunnel near Samandağ (ancient Seleucia Pieria), on Turkey's Tentative List."
+  - id: hataygov-harbiye
+    name: "Harbiye (Daphne) Şelalesi"
+    publisher: "T.C. Hatay Valiliği"
+    url: "http://www.hatay.gov.tr/harbiye-daphne-selalesi"
+    year: 2024
+    accessedDate: "2026-09-29"
+    note: "Official page confirming the Harbiye waterfalls, about 6 km from Antakya in the valley of ancient Daphne."
+  - id: muze-hatay
+    name: "Hatay Müzesi, Antakya"
+    publisher: "T.C. Kültür ve Turizm Bakanlığı"
+    url: "https://muze.gov.tr/Language/Index/EN?SectionId=HTY01"
+    year: 2026
+    accessedDate: "2026-09-29"
+    note: "Official museum page; internationally known for Roman/Byzantine mosaics from ancient Antioch."
+  - id: eurlex-kaytaz
+    name: "Registration application: 'Hatay Kaytaz Böreği' (Traditional Speciality)"
+    publisher: "Publications Office of the European Union (EUR-Lex)"
+    url: "https://eur-lex.europa.eu/eli/C/2025/3672/oj"
+    year: 2025
+    accessedDate: "2026-09-29"
+    note: "Confirms kaytaz böreği as a Hatay traditional pastry, traditionally prepared for the Arab Alawite Rumi New Year on 14 January."
+  - id: daily-sabah-kunefe
+    name: "Türkiye's Antakya künefe named world's best dessert"
+    publisher: "Daily Sabah"
+    url: "https://www.dailysabah.com/life/food/turkiyes-antakya-kunefe-named-worlds-best-dessert"
+    year: 2025
+    accessedDate: "2026-09-29"
+    note: "Confirms Antakya künefe as the signature Hatay dessert and Hatay's UNESCO City of Gastronomy listing."
+  - id: tarim-citrus
+    name: "Agricultural Products Markets Report — Orange, July 2025"
+    publisher: "Republic of Turkey Ministry of Agriculture and Forestry (TEPGE)"
+    url: "https://arastirma.tarimorman.gov.tr/tepge/"
+    year: 2025
+    accessedDate: "2026-09-29"
+    note: "Identifies Hatay among the leading orange-producing provinces — basis for the 'major citrus producer' industry claim."
+  - id: hatay-border-cluster
+    name: "Türkiye — Border Crossing of Reyhanlı (Cilvegözü)"
+    publisher: "UN World Food Programme Logistics Cluster"
+    url: "https://lca.logcluster.org/turkiye-231-border-crossing-reyhanli"
+    year: 2024
+    accessedDate: "2026-09-29"
+    note: "Confirms the Reyhanlı (Cilvegözü) crossing as a major Turkey-Syria land gateway."
+  - id: seaturtle-samandag
+    name: "New nesting areas of sea turtles in the north-eastern Mediterranean (Samandağ Beach)"
+    publisher: "Journal of Environmental Biology"
+    url: "http://jeb.co.in/journal_issues/200607_jul06/paper_13.pdf"
+    year: 2006
+    accessedDate: "2026-09-29"
+    note: "Peer-reviewed study documenting green and loggerhead turtle nesting on the ~14 km Samandağ beach."
+  - id: plos-softshell
+    name: "Stable isotope evidence of anthropocene disruption in African softshell turtle foraging"
+    publisher: "PLOS ONE"
+    url: "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0339589"
+    year: 2024
+    accessedDate: "2026-09-29"
+    note: "Confirms the presence of the Nile/African softshell turtle (Trionyx triunguis, IUCN Vulnerable) in the Samandağ area of Hatay."
+  - id: unesco-gastronomy
+    name: "Hatay: 'City of Gastronomy'"
+    publisher: "Daily Sabah"
+    url: "https://www.dailysabah.com/food/2017/11/14/hatay-city-of-gastronomy-offers-dishes-galore"
+    year: 2017
+    accessedDate: "2026-09-29"
+    note: "Hatay joined the UNESCO Creative Cities Network as a City of Gastronomy in 2017, 'with more than 600 unique dishes'."
