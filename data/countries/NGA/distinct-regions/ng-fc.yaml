@@ -1,0 +1,110 @@
+code: NG-FC
+name:
+  eng: Federal Capital Territory (Abuja)
+  local:
+    - languageCode: eng
+      value: Abuja
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate in the hill country of central Nigeria — a wet monsoon season roughly April-October and a drier harmattan-influenced season roughly November-March, moderated by the territory's elevation (about 300-800 m)."
+landmarks:
+  - name: Aso Rock
+    description: "The 400 m granite monolith that towers over the federal capital and gives its name to the seat of government (the State House complex sits at its foot)."
+  - name: National Assembly (Three Arms Zone)
+    description: "The Federal Capital Territory's central legislative complex housing the Senate and House of Representatives, symbol of Nigeria's federal government."
+  - name: Zuma Rock
+    description: "The giant monolithic outcrop on the Kaduna road just outside the capital, a landmark of the territory's edge."
+  - name: Abuja National Mosque and National Christian Centre
+    description: "The twin national places of worship on either side of Independence Avenue, symbols of the federal capital's multi-faith character."
+  - name: Millennium Park
+    description: "Abuja's principal green park on the banks of the Jabi river, a popular leisure space in the planned capital."
+  - name: Jabi Lake
+    description: "A constructed lake in the city offering recreation, promenades and an urban waterfront."
+culturalTraits:
+  - "A purpose-built federal capital (federal territory, not a state) inaugurated in 1991 as a new, centrally located seat for Nigeria's government"
+  - "Cosmopolitan and planned, deliberately chosen as an ethnically and religiously neutral meeting point for the whole country"
+  - "Home to the federal institutions, diplomatic missions and the Three Arms Zone of government"
+prideOf:
+  - "Aso Rock and the modern planned capital"
+  - "Belonging to Nigeria's federal centre, where the whole country is represented"
+  - "The city's order, green boulevards and symbolic national buildings"
+animals:
+  popular:
+    - "Monkeys in the hills and outskirts of the territory"
+    - "Domestic goats and poultry"
+  unique:
+    - "Warthog, duiker and other savanna mammals in the surrounding bush and Gurara area"
+    - "Birdlife around Jabi Lake and the territory's reservoirs"
+industries:
+  - "National government and public administration (the capital's defining role)"
+  - "Diplomacy, international organisations and NGOs"
+  - "Services, real estate, construction and a growing hospitality/tourism sector"
+  - "Retail and commerce in the central business district"
+sports:
+  - "Football"
+  - "Basketball"
+  - "Athletics"
+religions:
+  # The FCT is a mixed Middle-Belt capital, roughly evenly split; this is a survey estimate,
+  # not a census figure (Nigeria's census has not asked a religion question since 1963).
+  - name: Christian
+    percent: 51.0
+    sourceId: usstate-irf-fct
+  - name: Muslim
+    percent: 46.0
+    sourceId: usstate-irf-fct
+  - name: Other (traditional & none)
+    percent: 3.0
+    sourceId: usstate-irf-fct
+entertainment:
+  - season: allYear
+    items:
+      - "The National Mosque, National Christian Centre, Millennium Park and Jabi Lake promenade"
+      - "Cultural events and performances at the Cultural Centre and the city's theatres and malls"
+  - season: dry
+    items:
+      - "Outdoor concerts, Eid and Christmas events and city leisure in the cooler, drier months (Nov-Mar)"
+  - season: wet
+    items:
+      - "The rains favour indoor venues, shopping malls and restaurant culture between April and October"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "A pan-Nigerian capital table — jollof rice, pounded yam with egusi, tuwo shinkafa, akara, suya and grilled fish"
+      - "Moin moin and ofada-style pepper sauce enjoyed across the city's restaurants"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "A mix of regional dress in the capital — Yoruba agbada, northern babban riga with caps, and colourful ankara and lace for festive occasions"
+  - season: dry
+    items:
+      - "Festive outfits for Christmas, Eid and New Year celebrations in the dry months"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Federal civil service and offices typically run 08:00-16:00 Monday-Friday; as a government city, the working week closely follows the national civil-service calendar."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Christmas, Eid and public holidays"
+      description: "Federal public holidays (Christmas, New Year, Eid) pause most official business in the capital."
+  notes: "As a federal territory rather than a state, Abuja's rhythm is set by the national government; many civil servants travel out of the capital for the Christmas-New Year break and major Eid holidays."
+sources:
+  - id: fct-mda
+    name: "Federal Capital Territory Administration — about the FCT"
+    publisher: "Federal Capital Territory Administration (FCTA)"
+    url: "https://fcta.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-01"
+    note: "Official confirmation that Abuja is a federal territory (not a state) and the purpose-built federal capital inaugurated in 1991; backdrop for the territory's landmarks and government-city character."
+  - id: usstate-irf-fct
+    name: "International Religious Freedom Report — Nigeria (FCT Abuja)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/report/custom/c02a814b6c"
+    year: 2019
+    accessedDate: "2026-10-01"
+    note: "The FCT is a mixed Middle-Belt capital with Christians and Muslims in broadly balanced numbers; split shown here is a survey estimate since Nigeria's census has not collected religion since 1963."
