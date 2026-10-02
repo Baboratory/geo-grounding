@@ -1,0 +1,108 @@
+code: NG-DE
+name:
+  eng: Delta
+  local:
+    - languageCode: eng
+      value: Delta
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate on the Niger Delta lowlands — very heavy rainfall through a long wet season, high humidity, and a shorter drier stretch around the turn of the year, shaped by the rivers and mangrove creeks."
+landmarks:
+  - name: Asaba
+    description: "The capital of Delta State, a rapidly growing city on the western bank of the Niger river."
+  - name: Warri
+    description: "The state's main commercial and oil hub, a fast, multi-ethnic port and refinery city of the Niger Delta."
+  - name: Niger river and delta creeks
+    description: "The great river and its distributaries define Delta state's geography and the water-based life of its communities."
+  - name: Historic Itsekiri and riverine trading towns
+    description: "Old kingdoms and trading ports along the delta waterways, centres of the region's commerce and culture."
+culturalTraits:
+  - "A Niger Delta energy state, home to the Urhobo, Ijaw, Itsekiri and Anioma/Igbo peoples among many"
+  - "Riverine, oil-rich and culturally vibrant — a crossroads of the south-south's ethnic and linguistic variety"
+  - "Deeply tied to the creeks, the Niger and the fishing and trading life of the delta"
+prideOf:
+  - "Its oil wealth and the Niger Delta's energy role"
+  - "The riverine heritage and festivals of the Urhobo, Itsekiri and Ijaw peoples"
+  - "The buzzing commercial energy of Warri and Asaba"
+animals:
+  popular:
+    - "Catfish and other riverine fish of the creeks"
+    - "Domestic goats and poultry"
+  unique:
+    - "West African manatee and Nile crocodiles in the delta waterways"
+    - "Wetland birds and mangrove wildlife"
+industries:
+  - "Oil and gas (Delta is a major oil-producing state with refineries and terminals)"
+  - "Petrochemicals and energy services"
+  - "Fishing and aquaculture"
+  - "Trade and river transport along the Niger"
+sports:
+  - "Football"
+  - "Basketball"
+  - "Boat racing and riverine sports"
+religions:
+  # Delta is a predominantly Christian south-south state. Nigeria's census has not asked a
+  # religion question since 1963, so this split is a survey estimate.
+  - name: Christian
+    percent: 92.0
+    sourceId: usstate-irf-delta
+  - name: Muslim
+    percent: 4.0
+    sourceId: usstate-irf-delta
+  - name: Other (traditional & none)
+    percent: 4.0
+    sourceId: usstate-irf-delta
+entertainment:
+  - season: allYear
+    items:
+      - "Niger Delta festivals, masquerade and dance cultures of the Urhobo, Itsekiri and Ijaw peoples"
+      - "Nightlife and music in Warri and the state's towns"
+  - season: dry
+    items:
+      - "Festivals, outings and celebrations in the drier months around the turn of the year"
+  - season: wet
+    items:
+      - "The heavy rains favour indoor venues and community events between roughly March and October"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Banga soup (palm-fruit soup) with starch or rice — the delta staple"
+      - "Pepper soup and catfish pepper soup"
+      - "Starch with rich soups, grilled fish and the roasted fish of the river markets"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Vibrant delta dress — wrappers, lace and colourful festive attire of the Urhobo and Itsekiri peoples"
+      - "Beads and traditional regalia at festivals and weddings"
+  - season: dry
+    items:
+      - "Festive outfits for Christmas, New Year and the dry-season festival period"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and oil-sector firms typically run 08:00-17:00 Monday-Friday; river markets trade daily."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Business slows for the Christmas-New Year week, a peak homecoming period for the delta."
+  notes: "As in the wider Niger Delta, the oil-industry calendar and waterway access shape much of the state's economic rhythm."
+sources:
+  - id: delta-state
+    name: "Delta State Government — about the state"
+    publisher: "Delta State Government"
+    url: "https://deltastate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-01"
+    note: "Official backdrop for Delta as a Niger Delta oil state, its capital Asaba, and the state's riverine geography and peoples."
+  - id: usstate-irf-delta
+    name: "International Religious Freedom Report — Nigeria (Delta)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-01"
+    note: "Delta is a predominantly Christian south-south state; the split is a survey estimate since Nigeria's census has not collected religion since 1963. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."

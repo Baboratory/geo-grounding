@@ -1,0 +1,108 @@
+code: NG-BO
+name:
+  eng: Borno
+  local:
+    - languageCode: kau
+      value: Borno
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (Sahel steppe) climate at the edge of the Sahara — a short wet season roughly June-September and a long, very dry season with the dusty harmattan the rest of the year, extremely hot in the dry months."
+landmarks:
+  - name: Lake Chad
+    description: "The vast, shallow endorheic lake on the state's northeastern rim — a historic crossroads and vital wetland, the heart of the region's ancient Kanem-Bornu heritage."
+  - name: Maiduguri
+    description: "The state capital and largest city of Nigeria's North-East, a major trading, university and military centre."
+  - name: The Shehu of Borno's Palace & Sanda Kyarimi Park, Maiduguri
+    description: "The seat of the Shehu (title of the Borno monarch), a symbol of the centuries-old Kanuri/Borno monarchy, and the adjoining Sanda Kyarimi park and museum area."
+  - name: Mandara Mountains
+    description: "The rugged massif along the Borno-Cameroon border, home to hill-dwelling peoples and abrupt peaks of volcanic origin."
+  - name: Kanem-Bornu Empire heartland
+    description: "The ancient empire that dominated the Lake Chad basin, with its origins around the lake and its historic capitals — a civilisational anchor of the region since the 8th century."
+culturalTraits:
+  - "The historic heartland of the Kanuri people and the once-mighty Kanem-Bornu Empire, centred on the Lake Chad basin"
+  - "A profoundly Islamic society with a centuries-old tradition of Islamic scholarship and the enduring monarchy of the Shehu of Borno"
+  - "A state on the edge of the Sahara, shaped by severe drought, desertification and, since the 2010s, the Boko Haram insurgency"
+prideOf:
+  - "The Kanuri heritage and the ancient Kanem-Bornu Empire"
+  - "The Shehu of Borno and the region's Islamic scholarship"
+  - "Lake Chad and the resilience of its peoples"
+animals:
+  popular:
+    - "Cattle, goats, camels and donkeys of the Sahelian pastoral economy"
+  unique:
+    - "Fish of Lake Chad and the region's wetland birdlife"
+    - "Sahelian antelope and other dryland fauna of the northern reserves"
+industries:
+  - "Agriculture (millet, sorghum, maize, beans, groundnuts) and fishing at Lake Chad"
+  - "Livestock and camel herding"
+  - "Trade and commerce around Maiduguri"
+  - "Services and administration in the state capital"
+sports:
+  - "Football"
+  - "Traditional wrestling"
+  - "Canoe and fishing-related sports at Lake Chad"
+religions:
+  # Borno is overwhelmingly Muslim, the ancient centre of Islam in the Lake Chad basin.
+  # Nigeria has not asked a religion question in its census since 1963, so this split is a
+  # survey estimate.
+  - name: Muslim
+    percent: 97.0
+    sourceId: usstate-irf-borno
+  - name: Christian
+    percent: 3.0
+    sourceId: usstate-irf-borno
+entertainment:
+  - season: dry
+    items:
+      - "Eid celebrations and traditional Kanuri festivals in the cooler, drier months"
+  - season: wet
+    items:
+      - "Seasonal fishing and farming cycles and community gatherings around the lake and rivers"
+  - season: allYear
+    items:
+      - "The monuments of the Kanuri monarchy and the trade and culture of Maiduguri"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo shinkafa and tuwon masara with rich soups (miyan kuka, miyan taushe)"
+      - "Suya, kilishi and dambu nama"
+      - "Fura da nono and groundnut soup"
+      - "Fresh and dried fish from Lake Chad"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the flowing babban riga gown with an embroidered cap (hula) and often a turban; women wear wrappers, blouses and the hijab common in the Muslim north"
+  - season: dry
+    items:
+      - "Festive white or richly embroidered gowns and turbans for Eid and major celebrations"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets trade daily but with a Friday midday break for congregational prayers."
+  lunchBreakTiming: "A midday break around 13:00-14:00, often with prayer; on Fridays the midday prayer break is longer."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Kabir"
+      description: "Major Islamic holidays — most businesses close for the festivities."
+  notes: "Borno is one of twelve northern states to have adopted a Sharia penal code (in 2001); alcohol is restricted and Friday midday prayer is widely observed. The state has also faced severe disruption from the Boko Haram insurgency since the 2010s."
+  sourceIds:
+    - usstate-irf-borno
+sources:
+  - id: borno-state
+    name: "Borno State Government — about the state"
+    publisher: "Borno State Government"
+    url: "https://bornostate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Borno as a North-East state, its capital Maiduguri, the Kanuri people and the Lake Chad basin context."
+  - id: usstate-irf-borno
+    name: "International Religious Freedom Report — Nigeria (Borno)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "Borno is an overwhelmingly Muslim state (survey estimate — Nigeria's census has not collected religion since 1963) and is one of the twelve states that adopted a Sharia penal code. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."

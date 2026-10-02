@@ -1,0 +1,108 @@
+code: NG-BA
+name:
+  eng: Bauchi
+  local:
+    - languageCode: hau
+      value: Bauchi
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (Sahel steppe) climate of the North-East — a short wet season roughly May-September and a long, hot dry season with the dusty harmattan the rest of the year, with warm nights and high daytime heat."
+landmarks:
+  - name: Yankari National Park
+    description: "Nigeria's flagship wildlife reserve — open savanna hosting elephants, buffalo, lions, hippos, baboons and antelope, and the site of the Wikki Warm Springs, a natural spring-fed bathing pool."
+  - name: Wikki Warm Springs
+    description: "A large, clear spring-fed pool in Yankari National Park that stays warm year-round, long a relaxational bathing spot."
+  - name: Bauchi city
+    description: "The state capital, a historic town founded around an early 19th-century emirate and known for its hill and its Grand Central Mosque."
+  - name: Bauchi Emirate and the Emir's Palace
+    description: "The traditional emirate seat and palace of the Emir of Bauchi, a centre of Hausa-Fulani authority."
+  - name: The Duguri Hill settlements
+    description: "The scenic hills and hill-dwelling communities of the south of the state (Alkaleri/Bauchi LGAs), including the Duguri people's homeland."
+culturalTraits:
+  - "A predominantly Muslim Hausa-Fulani state of the North-East, with a substantial plateau/hill-dwelling population of many smaller ethnic groups (Duguri, and others) in the south"
+  - "A rural, semi-arid state whose identity centres on its farmlands, its Fulani pastoral heritage and the great wildlife reserve of Yankari"
+  - "An emirate society where the traditional Hausa-Fulani culture and Islamic scholarship shape civic life"
+prideOf:
+  - "Yankari National Park and the Wikki Warm Springs"
+  - "The Bauchi Emirate and Hausa-Fulani heritage"
+  - "The hills and hill-dwelling communities of the south, including the Duguri"
+animals:
+  popular:
+    - "Zebu cattle, goats and sheep of the pastoral economy"
+    - "Donkeys and horses for transport"
+  unique:
+    - "African elephant, lion, buffalo and hippopotamus (Yankari National Park)"
+    - "Baboon and numerous antelope species of the Yankari savanna"
+industries:
+  - "Agriculture (millet, sorghum, maize, groundnuts, cotton) and livestock"
+  - "Tourism (Yankari National Park, the country's premier wildlife destination -- though banditry in the surrounding area has reduced visitor numbers in recent years)"
+  - "Mining (tin and other minerals in the Jos-adjacent areas)"
+  - "Trade and commerce in Bauchi city"
+sports:
+  - "Football"
+  - "Traditional wrestling (kokawa)"
+  - "Horse riding and the Durbar"
+religions:
+  # Bauchi is one of the overwhelmingly Muslim northern states. Nigeria has not asked a
+  # religion question in its census since 1963, so this split is a survey estimate.
+  - name: Muslim
+    percent: 90.0
+    sourceId: usstate-irf-bauchi
+  - name: Christian
+    percent: 10.0
+    sourceId: usstate-irf-bauchi
+entertainment:
+  - season: dry
+    items:
+      - "The Bauchi Durbar and Eid celebrations in the cooler, drier months"
+      - "The Yankari safari season, with game-viewing at its best in the dry-season water holes"
+  - season: wet
+    items:
+      - "Harvest-time community gatherings and Hausa music and bardic performances"
+  - season: allYear
+    items:
+      - "The historic markets, the Emir's Palace and the wildlife of Yankari year-round"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo shinkafa and tuwon masara with rich soups (miyan kuka, miyan taushe)"
+      - "Suya and kilishi (dried spiced meat) and dambu nama"
+      - "Fura da nono (millet dumplings in fermented milk) and groundnut soup"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the flowing babban riga gown with an embroidered cap (hula); women wear wrappers, blouses and the hijab common in the Muslim north"
+  - season: dry
+    items:
+      - "Festive white or richly embroidered gowns and turbans for the Eid Durbar and celebrations"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets trade daily but with a Friday midday break for congregational prayers."
+  lunchBreakTiming: "A midday break around 13:00-14:00, often with prayer; on Fridays the midday prayer break is longer."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Kabir"
+      description: "Major Islamic holidays — most businesses close for the festivities and the Durbar."
+  notes: "Bauchi is one of twelve northern states to have adopted a Sharia penal code (in 2001); alcohol is restricted and Friday midday prayer is widely observed, with many businesses closing early on Friday."
+  sourceIds:
+    - usstate-irf-bauchi
+sources:
+  - id: bauchi-state
+    name: "Bauchi State Government — about the state"
+    publisher: "Bauchi State Government"
+    url: "https://bauchistate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Bauchi as a North-East state, its capital Bauchi city, and its emirate and rural character."
+  - id: usstate-irf-bauchi
+    name: "International Religious Freedom Report — Nigeria (Bauchi)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "Bauchi is an overwhelmingly Muslim state with a small Christian minority (survey estimate — Nigeria's census has not collected religion since 1963) and is one of the twelve states that adopted a Sharia penal code. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."

@@ -1,0 +1,123 @@
+code: NG-KW
+name:
+  eng: Kwara
+  local:
+    - languageCode: yor
+      value: Ìpínlẹ̀ Kwara
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate in Nigeria's Middle Belt transition zone — a wet season roughly April-October and a markedly drier, harmattan-dusty dry season roughly November-March, with a landscape of wooded savanna graded between the forest south and the plains of the north."
+landmarks:
+  - name: Ilorin
+    description: "The state capital, an ancient Yoruba-founded city that became a Fulani emirate and a historic centre of Islamic scholarship and trade at the meeting of northern and southern Nigeria."
+  - name: Esie Museum
+    description: "Home of the famous Esie soapstone figures — hundreds of prehistoric stone statuettes, the oldest known collection of its kind in Nigeria, in a town north of Ilorin."
+  - name: Ilorin Emir's Palace and Central Mosque
+    description: "The seat of the Ilorin Emirate and the city's grand central mosque, symbols of the emirate's Fulani-Islamic heritage."
+  - name: Sobi Hill
+    description: "A granite hill overlooking Ilorin, traditionally a place of refuge and now a landmark viewpoints over the city."
+  - name: University of Ilorin
+    description: "One of Nigeria's most prestigious federal universities, known as the 'Better by Far' university, in the heart of the city."
+  - name: The Niger river and the Patigi and Kaiama country
+    description: "Kwara's northern riverine districts on the great Niger, historically a land of the Bokobaru/Baruba-related and Nupe peoples."
+culturalTraits:
+  - "A Yoruba-majority state that is part of Nigeria's North-Central (Middle Belt), shaped by the Fulani-Islamic Ilorin Emirate and home to Baruba, Nupe and other peoples"
+  - "A historic junction between the Islamized north and the forest south, with Ilorin long a centre of trade, learning and the arts"
+  - "A state of craft traditions from pottery and weaving to the modern commerce of its capital"
+prideOf:
+  - "Ilorin — the ancient emirate capital and a historic meeting-point of north and south Nigeria"
+  - "The Esie stone figures and the state's rich archaeological heritage"
+  - "The peace and religious tolerance that make Kwara 'the State of Harmony'"
+animals:
+  popular:
+    - "Cattle, goats, sheep and poultry of the savanna economy"
+    - "Fish of the Niger and its tributaries"
+  unique:
+    - "Savanna and riverine wildlife along the Niger floodplain"
+    - "A range of woodland and savanna fauna across the state's forests and plains"
+industries:
+  - "Agriculture (rice, yam, cassava, sorghum, maize, shea, cotton, cocoa in the south, and livestock)"
+  - "Commerce and trade (Ilorin's markets and its position on the north-south corridor)"
+  - "Education and services (the University of Ilorin and other institutions)"
+  - "Crafts and pottery (Ilorin's celebrated traditional pottery) and light manufacturing"
+sports:
+  - "Football (Ilorin's Kwara United are a top-flight Nigerian club)"
+  - "Baseball (Ilorin hosts one of West Africa's few standard baseball fields)"
+  - "Athletics and handball"
+  - "Traditional wrestling and savanna festival sports"
+religions:
+  # Kwara is predominantly Muslim, centred on the Fulani-Islamic Ilorin Emirate, with a
+  # sizable Christian minority in the largely Yoruba south; this is a survey estimate,
+  # not a census figure (Nigeria has not collected religion in its census since 1963).
+  - name: Muslim
+    percent: 62.0
+    sourceId: usstate-irf-kwara
+  - name: Christian
+    percent: 35.0
+    sourceId: usstate-irf-kwara
+  - name: Traditional
+    percent: 3.0
+    sourceId: usstate-irf-kwara
+entertainment:
+  - season: allYear
+    items:
+      - "Islamic festivals, drumming and the cultural events of Ilorin and the savanna towns"
+      - "Eid celebrations and the Friday Jumu'ah rhythm of the emirate capital"
+  - season: dry
+    items:
+      - "Outdoor festivals, weddings and celebrations in the drier, cooler months (Nov-Mar)"
+  - season: wet
+    items:
+      - "The rainy months favour indoor cultural events, craft workshops and religious gatherings"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo (sorghum or rice fufu) with spicy soups — a savanna-Middle Belt staple shared with the Muslim north"
+      - "Iyan (pounded yam) and amala with egusi and other Yoruba soups in the southern areas"
+      - "Suya (spiced grilled meat), gbegiri and ewedu, and the sweets and fried snacks of Ramadan and festivals"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men's flowing gowns of the north — the agbada and the Hausa-Fulani riga with cap; women's iro (wrapper), buba and hijab/headcovering"
+      - "Aso-oke and woven cloth, and ceremonial northern dress at festivals and the emirate's court occasions"
+  - season: dry
+    items:
+      - "Festive northern fine cloth and traditional dress for Eid, Christmas and the dry-season celebration season"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 08:00-17:00 Monday-Friday; markets trade daily, with a Friday midday lull for Jumu'ah prayers observed across much of the state."
+  lunchBreakTiming: "A midday break around 13:00-14:00; on Fridays many close early for congregational prayers."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Adha"
+      description: "Business in the predominantly Muslim state slows for the two great Islamic festivals."
+    - period: "Christmas and New Year"
+      description: "Observed by the Christian minority communities, with some closure."
+  notes: "Kwara's strong Islamic heritage shapes its rhythm — a Friday midday prayer break and the two Eids are widely observed — while the harmattan dry season and the savanna farming calendar shape the rural cycle."
+sources:
+  - id: kwara-state
+    name: "Kwara State Government — about the state"
+    publisher: "Kwara State Government"
+    url: "https://kwarastate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Kwara as a North-Central state, its capital Ilorin, and the state's geography, peoples and 'State of Harmony' identity."
+  - id: unesco-esie
+    name: "Esie Museum and the Esie stone figures"
+    publisher: "National Commission for Museums and Monuments of Nigeria"
+    url: "https://www.museum.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Basis for the Esie Museum landmark — the celebrated prehistoric soapstone figures, the oldest known collection of their kind in Nigeria."
+  - id: usstate-irf-kwara
+    name: "International Religious Freedom Report — Nigeria (Kwara)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "Kwara is predominantly Muslim around the Fulani-Islamic Ilorin Emirate, with a sizable Christian minority in the south; the split is a survey estimate since Nigeria's census has not collected religion since 1963. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."

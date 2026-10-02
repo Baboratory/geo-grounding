@@ -1,0 +1,114 @@
+code: NG-RI
+name:
+  eng: Rivers
+  local:
+    - languageCode: eng
+      value: Rivers
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate on the low-lying Niger Delta coast — very heavy rainfall through a long wet season (roughly March-October), high humidity, and a shorter drier span around the turn of the year, moderated by the sea and extensive mangrove creeks."
+landmarks:
+  - name: Port Harcourt ('the Garden City')
+    description: "The river-port capital of Rivers State and Nigeria's main oil and maritime centre, famed for its planned, tree-lined layout."
+  - name: Isaac Boro Park, Port Harcourt
+    description: "A central recreation park named after Major Isaac Adaka Boro, the Niger Delta activist and one-time leader."
+  - name: Port Harcourt Tourist Beach
+    description: "A popular leisure beach where the city meets the water, a favourite weekend retreat."
+  - name: Bonny Island and the Bonny LNG terminal
+    description: "The historic trading island at the river mouth, today the site of one of the world's largest liquefied-natural-gas plants."
+  - name: Niger Delta mangroves and creeks
+    description: "The vast tidal mangrove forest and interconnecting creeks that define the delta's riverine geography and way of life."
+  - name: Opobo and the palm-oil trading ports
+    description: "The historic 19th-century trading ports on the delta, centres of the old palm-oil commerce of the Niger Delta."
+culturalTraits:
+  - "The Niger Delta oil-and-gas heartland — the state that anchors Nigeria's petroleum economy"
+  - "A riverine culture of the Ijaw, Ikwerre, Kalabari and Ogoni peoples, living on creeks, islands and mangrove shorelines"
+  - "Port Harcourt, the radically commercial 'Garden City', blending delta water-culture with oil-boom modernity"
+prideOf:
+  - "Port Harcourt and the energy wealth of the Niger Delta"
+  - "The riverine heritage, canoe culture and festivals of the delta peoples"
+  - "The mangroves and fishing grounds of the creeks"
+animals:
+  popular:
+    - "Fish and shellfish of the delta's creeks and fishing villages"
+    - "Domestic goats and poultry"
+  unique:
+    - "West African manatee in the delta waterways"
+    - "Nile crocodiles and wetland birds in the mangroves"
+    - "Mona monkey and forest species in the remaining swamp forests"
+industries:
+  - "Oil and gas (the state hosts Nigeria's first refinery at Port Harcourt and the Bonny LNG plant)"
+  - "Petrochemicals and energy-related services"
+  - "Fishing and aquaculture along the creeks"
+  - "Maritime, river transport and port activity"
+sports:
+  - "Football"
+  - "Basketball"
+  - "Boat racing and other riverine sports"
+religions:
+  # Rivers is one of the predominantly Christian south-south states. Nigeria's census has
+  # not asked a religion question since 1963, so this split is a survey estimate.
+  - name: Christian
+    percent: 90.0
+    sourceId: usstate-irf-rivers
+  - name: Muslim
+    percent: 5.0
+    sourceId: usstate-irf-rivers
+  - name: Other (traditional & none)
+    percent: 5.0
+    sourceId: usstate-irf-rivers
+entertainment:
+  - season: allYear
+    items:
+      - "Nightlife and music (including the afrobeats and highlife scenes) around Port Harcourt"
+      - "Canoe regattas and riverine festivals of the delta communities"
+  - season: dry
+    items:
+      - "Beach and boat outings and big celebrations in the drier months around the turn of the year"
+  - season: wet
+    items:
+      - "The heavy rains favour indoor venues, restaurants and covered events between March and October"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Banga soup — the palm-fruit soup that is the signature dish of the Niger Delta, eaten with starch or rice"
+      - "Pepper soup and catfish pepper soup with fish from the creeks"
+      - "Starch (from cassava) with rich delta soups, grilled fish and seafood"
+      - "Pounded yam and the roasted fish of the river markets"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Riverine traditional dress — wrappers, lace and colourful couture for festivals and weddings"
+      - "Modern delta fashion around Port Harcourt blends Western dress with indigenous cloth and beads"
+  - season: dry
+    items:
+      - "Festive outfits for Christmas, New Year and the traditional festivals of the dry months"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and oil-sector firms typically run 08:00-17:00 Monday-Friday; the river markets trade daily."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Much of Port Harcourt's business shuts for the Christmas-New Year week, a peak homecoming period for the state."
+  notes: "The oil and gas calendar and the fishing/waterway economy shape much of the state's rhythm; access to many communities is by water through the creeks."
+sources:
+  - id: rivers-state
+    name: "Rivers State Government — about the state"
+    publisher: "Rivers State Government"
+    url: "https://riversstate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-01"
+    note: "Official backdrop for Rivers as Nigeria's oil-and-gas Niger Delta state, its capital Port Harcourt, and landmarks including the oil and maritime facilities and delta geography."
+  - id: usstate-irf-rivers
+    name: "International Religious Freedom Report — Nigeria (Rivers)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-01"
+    note: "Rivers is one of the predominantly Christian south-south states; the split is a survey estimate since Nigeria's census has not collected religion since 1963. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."

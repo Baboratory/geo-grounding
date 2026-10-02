@@ -1,0 +1,120 @@
+code: NG-NA
+name:
+  eng: Nasarawa
+  local:
+    - languageCode: eng
+      value: Nasarawa
+    - languageCode: hau
+      value: Nasarawa
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-dry (savanna) climate in the Middle Belt — a rainy season roughly April-October and a drier, harmattan-influenced season roughly November-March."
+landmarks:
+  - name: Farin Ruwa Waterfall
+    description: "One of Nigeria's highest and most spectacular waterfalls, on the south-western edge of the Jos Plateau within the state."
+  - name: Keana Salt Settlement
+    description: "The historic Salt Village of Keana, where salt has been traded and processed for centuries — a window into the pre-colonial salt economy."
+  - name: Ara Rock
+    description: "The dramatic granite outcrop at Ara town (Akwanga LGA), one of the Jos-Plateau-fringe rock formations that mark the state's southern hill country."
+  - name: Lafia
+    description: "The state capital, an important town of the eastern lowlands."
+culturalTraits:
+  - "A Middle Belt state created in 1996 from Plateau and home to a great diversity of peoples — Eggon, Alago, Tiv, Hausa and Fulani among many others"
+  - "The 'Home of Solid Minerals' — a land of salt, and a rich agropastoral culture"
+  - "A religiously mixed state where Islam and Christianity are both strong and indigenous religions have declined"
+prideOf:
+  - "Farin Ruwa waterfall and the state's natural scenery"
+  - "Being the 'Home of Solid Minerals'"
+  - "The cultural diversity of its many peoples"
+animals:
+  popular:
+    - "Cattle, goats and sheep of the pastoral and agropastoral economy"
+    - "Poultry and fish of the farm economy"
+  unique:
+    - "Savanna and forest-edge fauna of the Jos Plateau margins"
+    - "Birdlife around the waterfalls and reserves"
+industries:
+  - "Agriculture (yam, rice, cassava, maize, sesame) and livestock"
+  - "Mining of solid minerals (barite, salt, and other deposits — 'Home of Solid Minerals')"
+  - "Agro-processing and trade around Lafia and the Karu-Abuja corridor"
+  - "Salt production at Keana"
+sports:
+  - "Football"
+  - "Athletics"
+  - "Traditional wrestling"
+  - "Festival dance competitions"
+religions:
+  # Nasarawa is a religiously mixed Middle Belt state with large Christian and Muslim
+  # populations. This split is a survey estimate, not a census figure (Nigeria has not
+  # collected religion since 1963).
+  - name: Christian
+    percent: 55.0
+    sourceId: usstate-irf
+  - name: Muslim
+    percent: 40.0
+    sourceId: usstate-irf
+  - name: Traditional
+    percent: 5.0
+    sourceId: usstate-irf
+entertainment:
+  - season: allYear
+    items:
+      - "The traditional music, masquerades and festivals of the Eggon, Alago, Tiv and other peoples"
+  - season: dry
+    items:
+      - "New-yam and harvest festivals and dry-season cultural celebrations"
+  - season: wet
+    items:
+      - "Waterfall and highland excursions (Farin Ruwa) favoured in the rainy season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo (yam or maize) and pounded yam with melon (egusi) and vegetable soups"
+      - "Rice, beans, roasted yam and grilled foods"
+      - "The agropastoral staples of the Middle Belt"
+  - season: dry
+    items:
+      - "Harvest-season festive dishes and roasted staples"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear wrappers, blouses and head-ties; men wear the wrapper or flowing gowns"
+  - season: dry
+    items:
+      - "Festive attire for the new-yam and dry-season celebrations"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; farming and markets follow daily and weekly market-day rhythms."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "New-yam and harvest festivals"
+      description: "Community harvest festivals across the state slow routine farm trade in the harvest season."
+  notes: "As a mixed Muslim-Christian Middle Belt state, the business week blends Friday-midday-prayer observance (esp. among Hausa/Fulani communities) with Sunday observance, around the agro-commercial hub of Lafia and the Karu-Abuja corridor."
+sources:
+  - id: wikipedia-na
+    name: "Nasarawa State — Wikipedia"
+    publisher: "Wikipedia (Wikimedia Foundation)"
+    url: "https://en.wikipedia.org/wiki/Nasarawa_State"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Backdrop for Nasarawa as a 1996 Middle Belt state formed from Plateau, its capital Lafia, its many peoples (Eggon, Alago, Tiv, Hausa, Fulani), tropical savanna climate and religion mix."
+  - id: nasarawa-state-gov
+    name: "Nasarawa State Government — official website"
+    publisher: "Nasarawa State Government"
+    url: "https://nasarawastate.gov.ng"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for the state's identity as the 'Home of Solid Minerals' and its capital Lafia."
+  - id: usstate-irf
+    name: "2023 Report on International Religious Freedom: Nigeria"
+    publisher: "US Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "State-level religious composition is a survey estimate since the census has not collected religion since 1963; Nasarawa is a mixed Middle Belt state. Used for the religion split. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."

@@ -1,0 +1,113 @@
+code: NG-ON
+name:
+  eng: Ondo
+  local:
+    - languageCode: yor
+      value: Ìpínlẹ̀ Ondó
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-dry climate — a long, heavy wet season roughly April-October and a drier, harmattan-influenced dry season roughly November-March, with hot, humid conditions all year and rainforest vegetation over much of the state."
+  - koppenCode: Am
+    description: "Tropical monsoon climate on the wetter coastal fringe bordering the Bight of Benin, where rainfall is heavy year-round with only a brief, mild dry spell (the coastal 'August break')."
+landmarks:
+  - name: Idanre Hill
+    description: "A towering granite inselberg above the town of Idanre, with 682 steps to the summit at its famous Owa's Palace and the ancient sunken settlement — a site on Nigeria's UNESCO World Heritage tentative list."
+  - name: Owo Museum of Antiquities
+    description: "A museum in Owo housing remarkable archaeological terracotta and ivory objects of the old Owo Kingdom, which flourished between the artistic centres of Ife and Benin."
+  - name: Akure
+    description: "The state capital and largest city, capital of the ancient Akure Kingdom, with the Deji's palace at its historic centre."
+  - name: The Osse River and Ondo's rainforest interior
+    description: "The Osse (Ovia) River and the forested landscape of the state's interior, home to rich tropical wildlife."
+  - name: Igbo Olodumare (Oke-Igbo)
+    description: "The legendary 'Forest of the Almighty', a sacred wood made famous by the Yoruba novelist D.O. Fagunwa."
+culturalTraits:
+  - "Nigeria's leading cocoa-producing state, with Akure, Owo and Ondo as historic Yoruba kingdoms and administrative towns"
+  - "A largely Christian southern state with a strong heritage of Yoruba festivals and palace culture"
+  - "Home to the Deji of Akure, the Olowo of Owo and a land famed for its rainforest, cocoa and karst hills"
+prideOf:
+  - "Being Nigeria's foremost cocoa producer"
+  - "The Idanre hillscape and the Owo museum of Yoruba antiquities"
+  - "The royal heritage of the Akure, Owo and Ondo kingdoms and the region's rich festivals"
+animals:
+  popular:
+    - "Goats, sheep and poultry of the rural and smallholder economy"
+    - "Fish of the coast and rivers"
+  unique:
+    - "African manatee and other aquatic wildlife of the coastal lagoons"
+    - "Monkeys, duikers and other rainforest and riverine species in the Osse river park and forest reserves"
+industries:
+  - "Cocoa and agriculture (Ondo is Nigeria's chief cocoa producer; also oil palm, rubber, yam, cassava, cotton and tobacco)"
+  - "Fishing and coastal/river trading"
+  - "Timber and rainforest products"
+  - "Commerce and public administration around Akure"
+sports:
+  - "Football"
+  - "Basketball"
+  - "Athletics"
+  - "Traditional Yoruba wrestling and festival dance competitions"
+religions:
+  # Ondo is a predominantly Christian southern Yoruba state; this is a survey estimate,
+  # not a census figure (Nigeria has not collected religion in its census since 1963).
+  - name: Christian
+    percent: 75.0
+    sourceId: usstate-irf-ondo
+  - name: Muslim
+    percent: 20.0
+    sourceId: usstate-irf-ondo
+  - name: Traditional
+    percent: 5.0
+    sourceId: usstate-irf-ondo
+entertainment:
+  - season: allYear
+    items:
+      - "Yoruba festivals, drumming and palace culture throughout the year"
+      - "The museums, galleries and markets of Akure and Owo"
+  - season: dry
+    items:
+      - "Outdoor festivals, celebrations and weddings in the drier, cooler months (Nov-Mar), including the Igogo festival of Owo"
+  - season: wet
+    items:
+      - "The heavy rains favour indoor cultural events and the state's many churches"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Iyan (pounded yam) with egusi and efo riro — the regional staple"
+      - "Cocoa- and palm-rich local fare, moin moin, akara and jollof rice"
+      - "Yam-based dishes and the smoked fish of the coast"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Yoruba dress — men's agbada gown and fila cap; women's iro (wrapper), buba (blouse) and gele headwrap"
+      - "Colourful ankara and ceremonial beaded regalia at festivals and palaces"
+  - season: dry
+    items:
+      - "Festive lace, agbada and gele for Christmas and the dry-season celebration season"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices typically run 08:00-17:00 Monday-Friday; markets and farm-gate trading follow the daily and weekly rhythms of the cocoa and produce economy."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Business in the largely Christian state slows over the Christmas-New Year week."
+  notes: "As one of Nigeria's most agrarian and increasingly state-administered regions, the cocoa-harvest and farming calendar, weekly market days and the rhythm of the state capital Akure shape much of the business cycle."
+sources:
+  - id: ondo-state
+    name: "Ondo State Government — official website (the Sunshine State)"
+    publisher: "Ondo State Government"
+    url: "https://ondostate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Ondo as Nigeria's chief cocoa-producing state, its capital Akure, and landmarks and heritage including Idanre Hill, the Owo Museum and the Osse river parklands."
+  - id: usstate-irf-ondo
+    name: "International Religious Freedom Report — Nigeria (Ondo)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "Ondo is a predominantly Christian southern state; the split is a survey estimate since Nigeria's census has not collected religion since 1963. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."

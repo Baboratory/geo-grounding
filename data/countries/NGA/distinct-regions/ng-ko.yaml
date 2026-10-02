@@ -1,0 +1,120 @@
+code: NG-KO
+name:
+  eng: Kogi
+  local:
+    - languageCode: eng
+      value: Kogi
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-dry (savanna) climate in the confluence rain-shadow of the Niger-Benue basin — a rainy season roughly April-October and a markedly drier, harmattan-dusted season roughly November-March."
+landmarks:
+  - name: Confluence of the Niger and Benue rivers, Lokoja
+    description: "The famous point at Lokoja where the Niger and Benue rivers meet — the state's signature landmark and the reason Kogi is called the Confluence State."
+  - name: Mount Patti, Lokoja
+    description: "The landmark hill above Lokoja where the modern border town looks across the confluence; steeped in colonial history."
+  - name: Lord Lugard's House, Lokoja
+    description: "The historic house in Lokoja associated with Frederick Lugard, the colonial administrator and first Governor-General of the amalgamated Nigeria."
+  - name: Lokoja, the first capital of Nigeria
+    description: "The town that served as a colonial capital and where the name 'Nigeria' is traditionally said to have been coined — now the state capital of Kogi."
+  - name: Ajaokuta Steel Complex
+    description: "Nigeria's colossal iron-and-steel project on the Niger at Ajaokuta, a landmark of the state's industrial ambition."
+culturalTraits:
+  - "The 'Confluence State' of the Igala, Ebira and Yoruba (Okun) peoples, where the Niger meets the Benue — a true crossroads of Nigeria"
+  - "A historically vital junction where the name 'Nigeria' was coined at Lokoja and where colonial and pre-colonial kingdoms (Igala, Nupe) met"
+  - "A religiously and ethnically mixed state, at the meeting of the Muslim north and the largely Christian south of the Middle Belt"
+prideOf:
+  - "The Niger-Benue confluence at Lokoja and being the first federal capital"
+  - "The Igala, Ebira and Okun peoples and their kingdoms"
+  - "The Ajaokuta steel project and the state's mineral wealth"
+animals:
+  popular:
+    - "Cattle, goats and sheep of the pastoral economy"
+    - "Fish of the Niger and Benue rivers"
+  unique:
+    - "Savanna and gallery-forest wildlife along the two great rivers"
+    - "Riverine birdlife at the confluence"
+industries:
+  - "Agriculture (yam, cassava, maize, rice, coffee, cashew, groundnuts, oil palm)"
+  - "Mining (coal, iron ore — feeding Ajaokuta — limestone, and other minerals)"
+  - "Iron and steel (Ajaokuta Steel Complex) and cement (Obajana)"
+  - "Livestock and river fishing"
+sports:
+  - "Football"
+  - "Athletics"
+  - "Traditional wrestling"
+  - "Festival dance competitions"
+religions:
+  # Kogi is a genuinely mixed state at the Muslim/Christian frontier of the Middle Belt,
+  # with a notable minority of traditional-religion adherents. This split is a survey
+  # estimate, not a census figure (Nigeria has not collected religion since 1963).
+  - name: Muslim
+    percent: 45.0
+    sourceId: usstate-irf
+  - name: Christian
+    percent: 42.0
+    sourceId: usstate-irf
+  - name: Traditional
+    percent: 13.0
+    sourceId: usstate-irf
+entertainment:
+  - season: allYear
+    items:
+      - "Igala, Ebira and Okun music, masquerades and the vibrant festival cultures of the state"
+  - season: dry
+    items:
+      - "New-yam and harvest festivals, cultural dances and festive gatherings in the drier months"
+  - season: wet
+    items:
+      - "Riverside life and fishing culture along the Niger and Benue in the rainy season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pounded yam and amala with melon (egusi) soups and okro soup"
+      - "Rice, beans and the yam-based staples of the confluence"
+      - "Roasted yam and river fish dishes"
+  - season: dry
+    items:
+      - "Festive yam dishes and community feasts around the new-yam season"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear wrappers, blouses and head-ties; men wear the wrapper or flowing gowns of the Middle Belt"
+  - season: dry
+    items:
+      - "Festive attire for yam festivals and the dry-season celebrations"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets and river trade follow daily and weekly rhythms."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "New-yam and harvest festivals"
+      description: "Community harvest festivals across the state slow routine trade in the harvest season."
+  notes: "As a mixed Muslim-Christian Middle Belt state, the business week blends Friday-midday-prayer observance among Muslim communities with Sunday observance among Christians, around the confluence hub of Lokoja and the steel town of Ajaokuta."
+sources:
+  - id: wikipedia-ko
+    name: "Kogi State — Wikipedia"
+    publisher: "Wikipedia (Wikimedia Foundation)"
+    url: "https://en.wikipedia.org/wiki/Kogi_State"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Backdrop for Kogi as the Igala/Ebira/Okun 'Confluence State' created in 1991, the Niger-Benue confluence at Lokoja, the first-capital and Lugard history, Mount Patti, Ajaokuta steel and its mixed religion."
+  - id: kogi-state-gov
+    name: "Kogi State Government — official website"
+    publisher: "Kogi State Government"
+    url: "https://kogistate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for the state's identity as the Confluence State, its peoples and economy."
+  - id: usstate-irf
+    name: "2023 Report on International Religious Freedom: Nigeria"
+    publisher: "US Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "State-level religious composition is a survey estimate since the census has not collected religion since 1963; Kogi is a mixed Middle Belt state. Used for the religion split. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."

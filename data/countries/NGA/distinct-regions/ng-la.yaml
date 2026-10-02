@@ -1,0 +1,129 @@
+code: NG-LA
+name:
+  eng: Lagos
+  local:
+    - languageCode: yor
+      value: Èkó
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate along the low-lying Atlantic coast and lagoon — a long, heavy wet season roughly May-October and a drier span roughly November-April, with hot, humid conditions all year and an 'August break' of lighter rain mid-monsoon."
+landmarks:
+  - name: National Museum, Lagos
+    description: "The central museum of Nigerian archaeology, art and ethnography on Onikan, housing the famous terracotta heads from Nok and bronzes from Benin."
+  - name: National Theatre, Iganmu
+    description: "The iconic 1970s saucer-shaped performing-arts centre on the Lagos mainland, a symbol of the city's cultural life."
+  - name: Tafawa Balewa Square
+    description: "The historic colonial-era parade ground on Lagos Island, site of Nigeria's 1960 independence celebrations and today a festival and political rallying space."
+  - name: Freedom Park, Lagos Island
+    description: "A former colonial prison repurposed as a memorial and open-air cultural park hosting music, theatre and art events."
+  - name: Lekki Conservation Centre
+    description: "A 78-hectare nature reserve with boardwalks through swamp forest, home to monkeys and a canopy walkway above the trees."
+  - name: Eyo masquerade festival
+    description: "The White-horsed masquerade festival of Lagos Island (Adamu Orisha), a centuries-old Yoruba cultural procession held to mark the passing of a notable Lagosian."
+culturalTraits:
+  - "Nigeria's commercial megacity — an Atlantic port and lagoon city that is the country's economic and cultural engine, Yoruba-majority with a pan-Nigerian mix of every ethnicity"
+  - "The home of Nollywood and Afrobeats, and now the hub of the country's tech and media industries"
+  - "A fast, aspirational city shaped by its lagoon geography and barrier islands, where hustle and 'Lagosian' resilience are a point of pride"
+prideOf:
+  - "Being Nigeria's biggest city and business capital"
+  - "Nollywood film, Afrobeats music and a global cultural export scene"
+  - "The entrepreneurial energy of the city and its tech hub around Yaba"
+animals:
+  popular:
+    - "Monkeys and peacocks around the Lekki Conservation Centre"
+    - "Domestic goats and poultry across the city's markets and localities"
+  unique:
+    - "West African manatee in the protected lagoon waters"
+    - "Dwarf crocodiles at the Lekki conservation wetland"
+    - "Mangrove and swamp-forest fauna along the coastal lagoons"
+industries:
+  - "Port and logistics (Lekki Deep Sea Port and the Lagos port complex — Nigeria's chief seaport gateway)"
+  - "Banking, finance and corporate services (Lagos is Nigeria's financial capital)"
+  - "Film (Nollywood) and media production"
+  - "Technology and startups (the Yaba 'Silicon Lagoon' cluster)"
+  - "Trade, commerce and manufacturing along the city's industrial belt"
+sports:
+  - "Football"
+  - "Basketball"
+  - "Boxing"
+  - "Athletics"
+religions:
+  # US State Dept International Religious Freedom reporting describes Christians and Muslims
+  # resident in Lagos in approximately equal numbers; on a population this size the split
+  # is a survey estimate, not a census figure (Nigeria has not run a religion question in
+  # its census since 1963).
+  - name: Christian
+    percent: 51.0
+    sourceId: usstate-irf-lagos
+  - name: Muslim
+    percent: 47.0
+    sourceId: usstate-irf-lagos
+  - name: Other (traditional & none)
+    percent: 2.0
+    sourceId: usstate-irf-lagos
+entertainment:
+  - season: allYear
+    items:
+      - "Nightlife, live Afrobeats and highlife shows across the city's clubs and concert venues"
+      - "Beach and lagoon leisure — Tarkwa Bay, Eleko and Elegushi beaches, and boat trips on the Lagos Lagoon"
+      - "Art, culture and food at Freedom Park, the National Theatre and the Nike Art Gallery"
+  - season: dry
+    items:
+      - "The Lagos Carnival and New Year celebrations in the drier, cooler months (Dec-Feb)"
+      - "Outdoor concerts, festivals and beach events that peak in the dry season"
+      - "Eyo masquerade processions and cultural festivals on Lagos Island held during the dry months"
+  - season: wet
+    items:
+      - "The heavy rains favour indoor culture — cinema, Nollywood premieres, indoor concerts and restaurants"
+      - "The rainy season floods mean outdoor events are scaled back between May and October"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Jollof rice — the signature party rice of Lagos and Nigeria"
+      - "Moin moin (steamed bean pudding) and akara (bean fritters)"
+      - "Efo riro — the peppery Yoruba vegetable soup usually eaten with amala or pounded yam"
+      - "Ofada rice with ayamase (ofada pepper sauce) — a Lagos- and Yorubaland-favoured combination"
+      - "Grilled fish and suya (spiced grilled meat) along the coast"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear the Yoruba iro (wrapper) and buba (blouse) with the gele headwrap; men the agbada gown or dashiki"
+      - "Adire (indigo resist-dyed cloth) and colourful ankara prints are everyday and festive wear"
+  - season: dry
+    items:
+      - "Festive lace and agbada outfits, gele and beads for Christmas, weddings and the Lagos Carnival in the dry months"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and banks typically run 08:00-17:00 Monday-Friday with a short lunch break; heavy Lagos traffic makes commuting a major daily factor."
+  lunchBreakTiming: "A mid-afternoon break roughly 13:00-14:00, often with a quick lunch, with informal markets staffing all day."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Business in the city slows sharply over the Christmas-New Year holiday week, with many firms closing between Christmas and the first week of January."
+  notes: "Lagos is a relentlessly busy commercial port city; Friday afternoons often wind down early for prayers and weekend travel, and the heavy wet season (May-Oct) can disrupt transport in low-lying areas."
+sources:
+  - id: lagos-gov
+    name: "Lagos State Government — about the state and its districts"
+    publisher: "Lagos State Government"
+    url: "https://lagosstate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-01"
+    note: "Official backdrop for Lagos as Nigeria's commercial/port capital, its Yoruba-majority character, capital (Ikeja) and landmarks including the National Theatre, Freedom Park and Lekki Conservation Centre."
+  - id: usstate-irf-lagos
+    name: "International Religious Freedom Report — Nigeria (Lagos)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-01"
+    note: "Reports Christians and Muslims resident in Lagos in approximately equal numbers; the state-level religion split is a survey estimate since Nigeria's census has not asked a religion question since 1963. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."
+  - id: climate-lagos
+    name: "Lagos climate — tropical savanna (Köppen Aw) and wet/dry seasons"
+    publisher: "en.climate-data.org"
+    url: "https://en.climate-data.org/africa/nigeria/lagos-304/"
+    accessedDate: "2026-10-01"
+    note: "Köppen Aw classification for Lagos and the wet (about May-Oct) vs dry (about Nov-Apr) season split used in this file's seasonCalendar."

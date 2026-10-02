@@ -1,0 +1,112 @@
+code: NG-KD
+name:
+  eng: Kaduna
+  local:
+    - languageCode: eng
+      value: Kaduna
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate of the central Jos-adjacent plateau fringe — a wet season roughly May-September and a long dry season with the dusty harmattan from about October to April."
+landmarks:
+  - name: Kaduna city
+    description: "The state capital, founded in 1913 as a British colonial railway headquarters and long one of the north's major administrative, military and textile cities."
+  - name: Kaduna National Museum
+    description: "The central museum of the north, housing archaeology (including early Nok and terracotta material) and ethnographic collections."
+  - name: Arewa House, Kaduna
+    description: "A historic colonial-era mansion in Kaduna, a cultural centre and former residence associated with the region's northern leadership."
+  - name: Lugard Hall
+    description: "The iconic legislative assembly building of Kaduna, a landmark of the state's civic life."
+  - name: Zaria and Ahmadu Bello University
+    description: "The historic city of Zaria, home to Ahmadu Bello University, one of Nigeria's leading universities in the north."
+culturalTraits:
+  - "A religiously and ethnically mixed North-West state that forms a cultural bridge toward the Middle Belt — the meeting point of the Hausa/Fulani Muslim north and the numerous ethnic groups of southern Kaduna (Gbagyi, Atyap and others)"
+  - "A historic railway, textile and military/education hub of the north"
+  - "Roughly evenly divided between Muslim and Christian communities, with the religious geography shifting from north to south"
+prideOf:
+  - "Kaduna city and its importance in the north's administration and education"
+  - "Zaria and Ahmadu Bello University"
+  - "Being the cultural bridge between Nigeria's north and south"
+animals:
+  popular:
+    - "Cattle, sheep, goats and donkeys of the northern pastoral economy"
+    - "Domestic poultry"
+  unique:
+    - "Baboons, patas monkeys and various antelope in the state's savanna reserves"
+    - "Birdlife of the woodland and hills of southern Kaduna"
+industries:
+  - "Agriculture (sorghum, maize, cotton, groundnuts) and livestock"
+  - "Textiles and manufacturing (Kaduna's historic textile and army/industrial base)"
+  - "Education and military institutions (Ahmadu Bello University, the Nigerian Defence Academy)"
+  - "Trade and commerce in the state's cities"
+sports:
+  - "Football"
+  - "Traditional wrestling and boxing"
+  - "Athletics"
+religions:
+  # Kaduna is a genuinely mixed Middle-Belt-adjacent state, roughly evenly divided between
+  # Islam (dominant in the north) and Christianity (dominant in the south). This is a survey
+  # estimate, not a census figure — Nigeria has not collected religion since 1963 — and the
+  # state is too mixed to assign a clear countywide plurality. Kaduna is one of the twelve
+  # states with a Sharia penal code, adopted in a modified dual system (applying only in
+  # Muslim-majority areas / to Muslims) after the deadly Feb/May 2000 Kaduna Sharia riots;
+  # the compromise system took effect in November 2000.
+  - name: Muslim
+    percent: 50.0
+    sourceId: usstate-irf-kaduna
+  - name: Christian
+    percent: 48.0
+    sourceId: usstate-irf-kaduna
+  - name: Other (traditional & none)
+    percent: 2.0
+    sourceId: usstate-irf-kaduna
+entertainment:
+  - season: allYear
+    items:
+      - "Cultural festivals and markets in the cities; the historic sites and museums of Kaduna and Zaria"
+  - season: dry
+    items:
+      - "Eid Durbar and Christian festivities, and dry-season outdoor events (Oct-Apr)"
+  - season: wet
+    items:
+      - "The rains favour indoor events and community gatherings between May and September"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Northern staples — tuwo shinkafa and tuwon masara with rich soups (miyan taushe, miyan kuka), suya and kilishi"
+      - "Alongside southern/Middle-Belt dishes such as pounded yam and egusi in the mixed south of the state"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Northern dress — babban riga, kaftan and embroidered caps in the Muslim north; agbada and wrappers among southern communities"
+  - season: dry
+    items:
+      - "Festive outfits for Eid and Christmas in the dry months"
+seasonCalendar:
+  - season: dry
+    months: [10, 11, 12, 1, 2, 3, 4, 5]
+  - season: wet
+    months: [6, 7, 8, 9]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets trade daily, with a Friday midday break observed across much of the Muslim north."
+  lunchBreakTiming: "A midday break around 13:00-14:00; Friday prayers lengthen the midday break in the north of the state."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr, Eid al-Kabir and Christmas"
+      description: "Both the Islamic and Christian holiday seasons see business closures across different parts of the mixed state."
+  notes: "Kaduna's religiously mixed character means both Friday (north) and Sunday (south) rhythms coexist; inter-community relations are a sensitive, frequently discussed issue."
+sources:
+  - id: kaduna-state
+    name: "Kaduna State Government — about the state"
+    publisher: "Kaduna State Government"
+    url: "https://kdsg.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-01"
+    note: "Official backdrop for Kaduna as a North-West state, its capital Kaduna city, Zaria and the state's religiously mixed character."
+  - id: usstate-irf-kaduna
+    name: "International Religious Freedom Report — Nigeria (Kaduna)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-01"
+    note: "Kaduna is documented as a religiously mixed Middle-Belt state, roughly evenly divided with Muslims predominant in the north and Christians in the south; the split is a survey estimate since Nigeria's census has not collected religion since 1963. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."

@@ -1,0 +1,130 @@
+code: NG-EN
+name:
+  eng: Enugu
+  local:
+    - languageCode: ibo
+      value: Enugwu
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate on the upland of the Udi escarpment — a heavy wet season roughly April-October and a drier, harmattan-tinged season roughly November-March, with cooler highland evenings than the lowlands."
+landmarks:
+  - name: "Enugu Coal Mines (Onyeama and Okpara)"
+    description: "The historic colieries that made Enugu the 'Coal City' — Nigeria's only colliery, opened from 1915 at Udi and later Iva Valley and Onyeama; the mines fuelled the Nigerian railways and were pivotal to the colonial economy."
+  - name: "Udi Hills and Miliken Hill"
+    description: "The scenic sandstone hills that give Enugu its name (Enugwu, 'hilltop'), where coal was discovered in 1909; Miliken Hill offers sweeping views over the city."
+  - name: "Awhum Waterfall"
+    description: "A striking waterfall beside the Awhum monastery, over 30 metres high, with a cave behind the fall — a natural attraction and pilgrimage site."
+  - name: "National Museum of Unity, Enugu"
+    description: "The state's national museum, managed by the National Commission for Museums and Monuments, preserving a glimpse of local history and culture."
+  - name: "Nike Lake Resort"
+    description: "The largest lake in the Enugu area, with a resort offering boating, nature walks and a weekend escape on the city's outskirts."
+culturalTraits:
+  - "Igbo state named for its hills — 'Enugwu' means 'hilltop' — built around the former Eastern Region capital and the coal industry"
+  - "The 'Coal City' heritage looms large in local identity — miners, railways and the 1949 Iva Valley labour history"
+  - "A university and intellectual centre (University of Nigeria, Nsukka is in the state) with a strong Igbo literary and art tradition"
+  - "A deeply Christian society, like the rest of the south-east"
+prideOf:
+  - "The coal-mining history and the 'Coal City' identity"
+  - "Being the hilltop garden capital of the south-east and former Eastern Region capital"
+  - "The Nsukka art school and the state's academic tradition"
+animals:
+  popular:
+    - "Domestic goats, poultry and dogs in towns and villages"
+    - "Olive baboon and crested porcupine in the hills and forest patches"
+    - "Grey duikers and red river hog in the wooded countryside"
+  unique:
+    - "Sclater's guenon — an endangered monkey of south-east Nigeria's forests"
+industries:
+  - "Coal mining and the abandoned-mine heritage economy (historic Onyeama and Okpara collieries)"
+  - "Cement and quarrying (limestone and mineral resources in the state)"
+  - "Agriculture — yam, cassava, rice and food crops on the plateau"
+  - "Trade, education and services around Enugu city"
+sports:
+  - "Football"
+  - "Basketball"
+  - "Traditional wrestling"
+  - "Athletics"
+religions:
+  # Nigeria has run no census religion question since 1963, so the south-east
+  # split is a survey estimate. The US State Dept IRF report describes the
+  # Igbo-dominant South East and South states as majority Christian
+  # (Catholic, Anglican and Methodist), with a small traditional-religion
+  # (Omenala) and tiny Muslim minority.
+  - name: Christian
+    percent: 95.0
+    sourceId: usstate-irf
+  - name: Traditional (Omenala/other & none)
+    percent: 4.0
+    sourceId: usstate-irf
+  - name: Muslim
+    percent: 1.0
+    sourceId: usstate-irf
+entertainment:
+  - season: allYear
+    items:
+      - "Igbo masquerade and masked-festival culture (Mmanwu) across Enugu's towns"
+      - "Church musical life, choirs and gospel events"
+      - "Nollywood and the region's film-and-entertainment scene"
+  - season: dry
+    items:
+      - "End-of-year and Christmas celebrations in the drier, cooler months (Nov-Mar)"
+      - "Hiking the Udi hills and weekend trips in the pleasant dry season"
+  - season: wet
+    items:
+      - "The New Yam festival (Iri Ji, Aug-Sep) — the great wet-season harvest celebration"
+      - "The waterfalls and lakes are at their fullest in the rains"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pounded yam with ofe egusi or ofe ogbono soup"
+      - "Ofe nsala (peppery white soup) with fresh fish"
+      - "Abacha ('African salad') with ugba and fish"
+      - "Akara (bean fritters) and moi moi"
+  - season: dry
+    items:
+      - "Festive jollof rice, pepper soups and roast meats for Christmas and weddings"
+  - season: wet
+    items:
+      - "New Yam dishes — pounded new yam with fresh, rainy-season soups"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the isiagu (lion-head patterned) top with a wrapper and often the red Igbo chieftaincy cap (okpu); women the wrapper and blouse with an ichafu headwrap"
+      - "Colourful ankara and George wrappers are everyday and festive wear"
+  - season: dry
+    items:
+      - "Festive lace, coral beads and ceremonial wrappers for Christmas, weddings and festivals in the dry months"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and banks typically run 08:00-17:00 Monday-Friday; markets trade long hours six days a week."
+  lunchBreakTiming: "A mid-afternoon break roughly 13:00-14:00, often with a quick meal."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Business across the largely Christian state slows sharply over the Christmas-New Year week, when many firms close as people travel home for the holidays."
+  notes: "Sunday is the main rest day, with widespread church attendance. Since August 2021 a weekly Monday \"sit-at-home\" called by separatist groups has intermittently shut markets, schools and offices across the South East; compliance has eased since a February 2026 cancellation announcement but remains uneven."
+sources:
+  - id: usstate-irf
+    name: "International Religious Freedom Report — Nigeria (South East / Igbo states)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "Describes the Igbo-dominant South East and South states as majority Christian (Catholic, Anglican, Methodist) with small traditional-religion and Muslim minorities; used as the survey-estimate basis for the state's religion split, since Nigeria's census has not asked a religion question since 1963. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."
+  - id: coal-history
+    name: "The History of Coal in Nigeria — Enugu's Udi, Iva Valley and Onyeama mines"
+    publisher: "Nigeria Energy Future"
+    url: "https://www.nigeriaenergyfuture.org/coal/9-coal/13-the-history-of-coal-in-nigeria"
+    accessedDate: "2026-10-02"
+    note: "Documents the discovery of coal at Udi in 1909 and the establishment of the Udi, Iva Valley and Onyeama mines that made Enugu the 'Coal City'."
+  - id: enugu-tourism
+    name: "Enugu and its enthralling tourism, culture trappings"
+    publisher: "BusinessDay Nigeria"
+    url: "https://businessday.ng/travel/article/enugu-and-its-enthralling-tourism-culture-trappings/"
+    accessedDate: "2026-10-02"
+    note: "Background on Enugu's coal-mine relics, Nike Lake, Awhum Waterfall, Udi hills and museum as the state's leading attractions."

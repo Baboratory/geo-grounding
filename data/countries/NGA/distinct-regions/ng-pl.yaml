@@ -1,0 +1,127 @@
+code: NG-PL
+name:
+  eng: Plateau
+  local:
+    - languageCode: eng
+      value: Plateau
+    - languageCode: hau
+      value: Jos Filato
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-dry (savanna) climate, present across the state but notably moderated on the high Jos Plateau itself (elevation roughly 1,200-1,800 m), which runs markedly cooler than lowland Nigeria -- a rainy season roughly April-October and a cool, dry, harmattan-influenced rest of the year."
+landmarks:
+  - name: Shere Hills
+    description: "The highest peaks on the Jos Plateau, rising to about 1,829 m — dramatic granite scenery and a favourite hiking ground."
+  - name: Assop Falls
+    description: "A scenic waterfall on a tributary of the Kaduna river, one of the state's best-known natural attractions."
+  - name: Riyom Rock Formations
+    description: "The striking natural rock pinnacles and balancing-rock formations at Riyom, a much-photographed symbol of the plateau landscape."
+  - name: Jos
+    description: "The state capital on the cool plateau, a city built on tin-mining wealth and famed for its pleasant climate."
+  - name: Jos Museum (National Museum, Jos)
+    description: "Nigeria's first national museum, holding celebrated antiquities including the famous Nok terracotta sculptures discovered in the region."
+culturalTraits:
+  - "The 'Home of Peace and Tourism' — a cool, scenic highland state of rolling grasslands and bare-granite hills"
+  - "The tin-mining heartland whose early-20th-century mining boom built Jos and drew workers from across Nigeria"
+  - "A mosaic of peoples — Berom, Ngas, Tarok, Mwaghavul and many others — in a religiously mixed state set amid a largely Muslim region"
+prideOf:
+  - "The cool highland climate and the scenic Shere Hills, Assop Falls and Riyom Rocks"
+  - "The tin-mining heritage of the Jos Plateau"
+  - "The cultural and religious diversity of its peoples"
+animals:
+  popular:
+    - "Cattle, goats and sheep of the highland pastoral economy"
+    - "Poultry and fish of the plateau farms"
+  unique:
+    - "Highland-grassland and forest fauna of the Jos Plateau"
+    - "Birdlife of the plateau's hills and waterfalls"
+industries:
+  - "Mining (historic tin and columbite mining on the Jos Plateau)"
+  - "Agriculture (highland potatoes, yams, maize, millet, Irish potatoes, fruit) and livestock"
+  - "Tourism (the cool hills, falls and rock formations — the 'Home of Peace and Tourism')"
+  - "Education and services (Jos is a major university and administrative centre)"
+sports:
+  - "Football"
+  - "Athletics"
+  - "Traditional wrestling"
+  - "Festival dance and cultural competitions"
+religions:
+  # Plateau is a religiously mixed state — a largely Christian highland area set in a
+  # predominantly Muslim north. This split is a survey estimate, not a census figure
+  # (Nigeria has not collected religion since 1963).
+  - name: Christian
+    percent: 55.0
+    sourceId: usstate-irf
+  - name: Muslim
+    percent: 40.0
+    sourceId: usstate-irf
+  - name: Traditional
+    percent: 5.0
+    sourceId: usstate-irf
+entertainment:
+  - season: allYear
+    items:
+      - "The many ethnic festivals, dances and masquerades of the Berom, Ngas, Tarok and other plateau peoples"
+      - "Jos's museum, universities and cultural life"
+  - season: dry
+    items:
+      - "The cool dry season is the prime time for visiting the Shere Hills, Assop Falls and Riyom Rocks"
+      - "New-yam and harvest festivals and dry-season celebrations"
+  - season: wet
+    items:
+      - "The green wet season brings lush grasslands and dramatic skies across the plateau"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo and pounded yam with melon (egusi) and vegetable soups"
+      - "Highland potatoes, yams, rice and the agropastoral staples of the plateau"
+      - "Roasted yam and grilled foods"
+  - season: dry
+    items:
+      - "Harvest-season festive dishes and roasted staples"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear wrappers, blouses and head-ties; men wear the wrapper or flowing gowns"
+  - season: dry
+    items:
+      - "Festive attire for new-yam and the dry-season celebrations"
+  - season: wet
+    items:
+      - "Warm wraps and light layers for the cool rainy-season evenings on the plateau"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets and mining-trade follow daily and weekly rhythms."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Business slows over the Christmas-New Year week among the largely Christian plateau communities."
+  notes: "As a mixed Christian/Muslim highland state in a largely Muslim north, the business week blends Sunday observance (especially among the Berom/Ngas/Tarok Christian majority) with Friday-midday-prayer observance among Muslim communities, around the administrative and university hub of Jos."
+sources:
+  - id: wikipedia-pl
+    name: "Plateau State — Wikipedia"
+    publisher: "Wikipedia (Wikimedia Foundation)"
+    url: "https://en.wikipedia.org/wiki/Plateau_State"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Backdrop for Plateau as the cool highland 'Home of Peace and Tourism' created in 1976, its capital Jos, the Shere Hills, Jos Plateau tin-mining history, its near-temperate climate and religious mix."
+  - id: plateau-state-gov
+    name: "Plateau State Government — official website"
+    publisher: "Plateau State Government"
+    url: "https://plateaustate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for the state's identity as the Home of Peace and Tourism, its capital Jos and focus on agriculture, mining, tourism and tech."
+  - id: usstate-irf
+    name: "2023 Report on International Religious Freedom: Nigeria"
+    publisher: "US Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "State-level religious composition is a survey estimate since the census has not collected religion since 1963; Plateau is a religiously mixed state in the Middle Belt/north. Used for the religion split. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."

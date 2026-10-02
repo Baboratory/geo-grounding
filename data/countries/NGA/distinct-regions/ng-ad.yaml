@@ -1,0 +1,112 @@
+code: NG-AD
+name:
+  eng: Adamawa
+  local:
+    - languageCode: fuv
+      value: Adamaawa
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (Sahel steppe) climate of the North-East — a short wet season roughly May-October and a long, hot dry season with the dusty harmattan the rest of the year, though the high Mambilla Plateau is markedly cooler than the surrounding lowlands."
+landmarks:
+  - name: Sukur Cultural Landscape
+    description: "A UNESCO World Heritage Site in the Mandara Mountains — a terraced highland cultural landscape of drystone walls, an ancient summit palace and the sacred Hidi cult centre, famed for its iron smelting. The site was damaged in a September 2014 Boko Haram attack on Madagali LGA, which destroyed several visitor buildings; restoration work has followed."
+    unescoWorldHeritage: true
+  - name: Gashaka-Gumti National Park
+    description: "Nigeria's largest national park, straddling the Adamawa-Taraba border on the Mambilla Plateau — montane forest and savanna that hosts chimpanzees, elephants, lions and rare montane birds."
+  - name: Mambilla Plateau
+    description: "One of Nigeria's few genuinely temperate highlands — a high rolling grassland plateau (over 1,500 m) with mild conditions, cattle grazing and some of the country's most dramatic mountain scenery."
+  - name: Mandara Mountains
+    description: "The volcanic massif along the Adamawa-Cameroon border, home to hill-dwelling communities and the terraced cultural landscapes of the region."
+  - name: Yola
+    description: "The state capital, a city on the Benue river that grew around a 19th-century Fulani emirate seat; the twin town of Jimeta is the commercial and transport hub."
+culturalTraits:
+  - "A North-East state dominated by Fulani (Fulbe) culture — a heartland of the Sokoto-adjacent Adamawa Emirate — alongside many highland peoples such as the Gbaya, Kilba, Bachama and Marghi"
+  - "Overwhelmingly Muslim among the Fulani and Hausa peoples, with significant Christian communities among the highland and southern groups — a genuinely mixed state"
+  - "A rural, pastoral and agrarian state with a strong transhumant cattle-herding tradition centered on the Mambilla highlands"
+prideOf:
+  - "The UNESCO-listed Sukur Cultural Landscape and the Mandara Mountains"
+  - "The temperate Mambilla Plateau and the vast Gashaka-Gumti National Park"
+  - "Fulani heritage and the Adamawa Emirate"
+animals:
+  popular:
+    - "Zebu cattle of the Fulani pastoral economy"
+    - "Goats, sheep and donkeys of the rural economy"
+  unique:
+    - "Chimpanzee (Gashaka-Gumti National Park, a key refuge)"
+    - "Chimpanzee, buffalo and duiker of Gashaka-Gumti (elephant and lion were once present but are now reported locally extinct in the park)"
+    - "Montane and forest birdlife of the Mambilla Plateau"
+industries:
+  - "Agriculture (groundnuts, maize, sorghum, rice, cotton) and livestock raising"
+  - "Cattle rearing and trade on the Mambilla Plateau"
+  - "Tourism (Gashaka-Gumti, Mambilla, Sukur)"
+  - "Commerce and services around Yola/Jimeta"
+sports:
+  - "Football"
+  - "Traditional wrestling"
+  - "Horse riding and Durbar-style equestrian events"
+religions:
+  # Adamawa is a genuinely mixed North-East state — Muslim among the Fulani/Hausa and
+  # Christian among highland and southern groups. This is a survey estimate, not a census
+  # figure (Nigeria has not collected religion in its census since 1963).
+  - name: Muslim
+    percent: 55.0
+    sourceId: usstate-irf-adamawa
+  - name: Christian
+    percent: 45.0
+    sourceId: usstate-irf-adamawa
+entertainment:
+  - season: allYear
+    items:
+      - "The Sukur terraced landscape, the Mambilla Plateau and Yola's markets"
+  - season: dry
+    items:
+      - "Eid celebrations, Emirate ceremonies and dry-season festivals in the cooler Harmattan months (Nov-Mar)"
+      - "Outdoor cultural events and weddings in the dry season"
+  - season: wet
+    items:
+      - "Rainy-season community gatherings and the lush green season on the Mambilla Plateau"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo shinkafa and tuwon masara with rich soups (miyan kuka, miyan taushe) — Northern staples"
+      - "Suya, kilishi (dried spiced meat) and dambu nama"
+      - "Fura da nono (millet dumplings in fermented milk) and groundnut soup"
+  - season: wet
+    items:
+      - "Fresh farm produce and leafy green soups from the highlands during the rains"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the flowing babban riga gown with an embroidered cap (hula); women wear wrappers, blouses and the hijab common in the Muslim north"
+  - season: dry
+    items:
+      - "Festive white or richly embroidered gowns and turbans for Eid and celebrations in the dry season"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets trade daily with a Friday midday break for congregational prayers."
+  lunchBreakTiming: "A midday break around 13:00-14:00, often with prayer; longer on Fridays."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Kabir"
+      description: "Major Islamic holidays when most businesses close for the festivities."
+  notes: "Adamawa is a mixed Muslim-Christian state at the entry to the Muslim far north; it is not among the twelve states that adopted a Sharia penal code. Friday midday prayer is widely observed in the Muslim-majority districts."
+sources:
+  - id: adamawa-state
+    name: "Adamawa State Government — about the state"
+    publisher: "Adamawa State Government"
+    url: "https://www.adamawastate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Adamawa as a North-East state, its capital Yola, the Fulani/Adamawa Emirate character and the Mambilla highlands."
+  - id: usstate-irf-adamawa
+    name: "International Religious Freedom Report — Nigeria (Adamawa)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "Adamawa's mixed Muslim-Christian population split is a survey estimate since Nigeria's census has not collected religion since 1963; the state is not among the twelve Sharia-adopting states. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."

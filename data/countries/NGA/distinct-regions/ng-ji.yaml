@@ -1,0 +1,106 @@
+code: NG-JI
+name:
+  eng: Jigawa
+  local:
+    - languageCode: hau
+      value: Jigawa
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (Sahel steppe) climate of the North-West — a short wet season roughly June-September and a long, very hot dry season with the dusty harmattan the rest of the year."
+landmarks:
+  - name: Hadejia-Nguru Wetlands
+    description: "A vast seasonal floodplain wetland (Ramsar-listed) at the convergence of the Hadejia and Jama'are rivers — a vital refuge for migrating waterbirds and a centre of floodplain farming and fishing."
+  - name: Dutse
+    description: "The state capital, set among rocky outcrops known as the Dutse rock formations."
+  - name: Gumel and Hadejia
+    description: "Historic emirate towns of the state — Gumel with its emirate palace, and Hadejia with its own long-standing emirate tradition."
+  - name: Kazaure Emirate
+    description: "One of Jigawa's five historic emirate seats (alongside Hadejia, Gumel, Ringim and Dutse), with its own emir and palace."
+culturalTraits:
+  - "An overwhelmingly Muslim Hausa-Fulani agrarian state carved out of Kano State in 1991"
+  - "A land of riverside and floodplain farming — rice and wheat among its principal crops — in one of Nigeria's most rural states"
+  - "An emirate society with strong Islamic identity and localised Hausa cultural traditions"
+prideOf:
+  - "The Hadejia-Nguru wetlands and the state's rich floodplain agriculture"
+  - "The ancient emirate towns of Hadejia and Gumel"
+  - "Being one of Nigeria's leading agrarian and rice-producing states"
+animals:
+  popular:
+    - "Zebu cattle, goats and sheep of the pastoral economy"
+    - "Donkeys used for rural transport"
+  unique:
+    - "Migratory waterbirds and wetland fauna of the Hadejia-Nguru floodplain"
+    - "Hippopotamus and wetland species in the seasonal rivers"
+industries:
+  - "Agriculture (rice, wheat, millet, sorghum, groundnuts, cotton) — a leading food-producing state"
+  - "Livestock and dairy"
+  - "Fishing in the Hadejia-Nguru wetlands"
+  - "Agro-processing and rural trade"
+sports:
+  - "Football"
+  - "Traditional wrestling (kokawa)"
+  - "Horse riding and the Durbar"
+religions:
+  # Jigawa is one of the overwhelmingly Muslim northern states. Nigeria has not asked a
+  # religion question in its census since 1963, so this split is a survey estimate.
+  - name: Muslim
+    percent: 98.0
+    sourceId: usstate-irf-jigawa
+  - name: Christian
+    percent: 2.0
+    sourceId: usstate-irf-jigawa
+entertainment:
+  - season: dry
+    items:
+      - "Eid celebrations in Dutse, Hadejia and Gumel and the festive Durbar in the drier months"
+  - season: wet
+    items:
+      - "Floodplain fishing and farming cycles and community gatherings in the wetlands"
+  - season: allYear
+    items:
+      - "The historic emirate towns and the wetlands' birdlife year-round"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo shinkafa and tuwon masara with rich soups (miyan kuka, miyan taushe)"
+      - "Suya and kilishi (dried spiced meat)"
+      - "Fura da nono and groundnut soup"
+      - "Fresh fish from the Hadejia-Nguru wetlands"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the flowing babban riga gown with an embroidered cap (hula); women wear wrappers, blouses and the hijab common in the Muslim north"
+  - season: dry
+    items:
+      - "Festive white or richly embroidered gowns and turbans for Eid and celebrations"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets trade daily but with a Friday midday break for congregational prayers."
+  lunchBreakTiming: "A midday break around 13:00-14:00, often with prayer; on Fridays the midday prayer break is longer."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Kabir"
+      description: "Major Islamic holidays — most businesses close for the festivities."
+  notes: "Jigawa is one of twelve northern states to have adopted a Sharia penal code (in 2000); alcohol is restricted and Friday midday prayer is widely observed."
+  sourceIds:
+    - usstate-irf-jigawa
+sources:
+  - id: jigawa-state
+    name: "Jigawa State Government — about the state"
+    publisher: "Jigawa State Government"
+    url: "https://jigawastate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Jigawa as a North-West agrarian state carved from Kano in 1991, its capital Dutse, and its large-scale rice and wheat farming."
+  - id: usstate-irf-jigawa
+    name: "International Religious Freedom Report — Nigeria (Jigawa)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "Jigawa is an overwhelmingly Muslim state (survey estimate — Nigeria's census has not collected religion since 1963) and is one of the twelve states that adopted a Sharia penal code. The cited report gives only a national estimate (~50% Muslim / 48% Christian, Pew) plus qualitative zone-level description, not a state-specific percentage table; the figure above is accordingly an approximate, cross-referenced estimate rather than one read directly off this source."
