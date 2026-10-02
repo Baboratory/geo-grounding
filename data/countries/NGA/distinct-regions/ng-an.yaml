@@ -1,0 +1,139 @@
+code: NG-AN
+name:
+  eng: Anambra
+  local:
+    - languageCode: ibo
+      value: Anambra
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate — a single heavy wet season roughly April-October and a drier, harmattan-tinged season roughly November-March, hot and humid year-round."
+landmarks:
+  - name: "Onitsha Main Market"
+    description: "Africa's largest market by size and volume, sited on the eastern bank of the River Niger at Onitsha, the state's commercial capital and a wholesale-distributive power of West Africa."
+  - name: "Onitsha Niger Bridge"
+    description: "The landmark bridge carrying the old Lagos-Enugu road across the Niger at Onitsha — a defining symbol of the city and one of the best-known crossings in Nigeria."
+  - name: "Ogbunike Caves"
+    description: "A spectacular series of cave chambers and tunnels set in a forested gorge at Ogbunike, Oyi — a sacred site of the Igbo founded on the 2007 UNESCO World Heritage tentative list."
+    unescoWorldHeritage: true
+  - name: "Nnewi — 'the Japan of Africa'"
+    description: "An indigenous manufacturing miracle and the state's second city: home to Innoson, Cutix and many other firms built on the Igbo apprenticeship system, and to Africa's largest automotive spare-parts cluster."
+  - name: "Awka — capital"
+    description: "The state capital and an ancient town of famous blacksmiths, whose ironworking craft was renowned across Igboland."
+culturalTraits:
+  - "The commercial engine-room of Igboland — distributive trade, markets and entrepreneurship set the tone"
+  - "The Igbo apprenticeship system (Igba boi) at its heart — the mentor-mentee model behind Nnewi's manufacturing boom"
+  - "Heartland of Igbo literary and intellectual culture — Chinua Achebe's Ogidi is here"
+  - "A deeply Christian society (Catholic, Anglican and independent churches), the faith of the vast majority"
+prideOf:
+  - "Onitsha Main Market and the state's place as West Africa's commercial crossroads"
+  - "Nnewi's home-grown manufacturing miracle and pioneering 'Made in Nigeria' industry"
+  - "Igbo language, proverbs and literature — the world of Chinua Achebe"
+animals:
+  popular:
+    - "Domestic goats, poultry and dogs in towns and villages"
+    - "Olive baboon and crested porcupine in forest patches"
+    - "Grey duikers and red river hog in the wooded countryside"
+  unique:
+    - "Sclater's guenon — an endangered monkey of south-east Nigeria's forests"
+    - "Preuss's guenon on the rainforest fringe"
+industries:
+  - "Distributive trade and the Onitsha/Obosi market complex"
+  - "Indigenous manufacturing — the Nnewi automotive and industrial cluster"
+  - "Plastics processing (the Onitsha/Osakwe industrial cluster)"
+  - "Agriculture — yam, cassava, rice along the river plains, and palm produce"
+sports:
+  - "Football"
+  - "Basketball"
+  - "Traditional wrestling"
+  - "Athletics"
+religions:
+  # Nigeria has run no census religion question since 1963, so the south-east
+  # split is a survey estimate. The US State Dept IRF report describes the
+  # Igbo-dominant South East and South states as majority Christian
+  # (Catholic, Anglican and Methodist), with a small traditional-religion
+  # (Omenala) and tiny Muslim minority.
+  - name: Christian
+    percent: 95.0
+    sourceId: usstate-irf
+  - name: Traditional (Omenala/other & none)
+    percent: 4.0
+    sourceId: usstate-irf
+  - name: Muslim
+    percent: 1.0
+    sourceId: usstate-irf
+entertainment:
+  - season: allYear
+    items:
+      - "Igbo masquerade and masked-festival culture (Mmanwu) across the state"
+      - "Church musical life, choirs and gospel events"
+      - "Nollywood and the region's film-and-entertainment scene"
+  - season: dry
+    items:
+      - "End-of-year and Christmas celebrations in the drier, cooler months (Dec-Feb)"
+      - "The grand New Yam and community festivals of the dry season"
+  - season: wet
+    items:
+      - "The New Yam festival (Iri Ji, Aug-Sep) — the great wet-season harvest celebration"
+      - "River-based and farming-cycle ceremonies along the Niger"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pounded yam with ofe egusi or ofe ogbono soup"
+      - "Ofe nsala (peppery white soup) with fresh fish and ugba"
+      - "Abacha ('African salad') served with ugba and fish"
+      - "Akara (bean fritters) and moi moi"
+  - season: dry
+    items:
+      - "Festive jollof rice, pepper soups and roast meats for Christmas, weddings and New Yam celebrations"
+  - season: wet
+    items:
+      - "New Yam dishes — pounded new yam with fresh, rainy-season soups"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the isiagu (lion-head patterned) top with a wrapper and often the red Igbo chieftaincy cap (okpu); women the wrapper and blouse with an ichafu headwrap"
+      - "Colourful ankara and George wrappers are everyday and festive wear"
+  - season: dry
+    items:
+      - "Festive lace, coral beads and ceremonial wrappers for Christmas, weddings and festivals in the dry months"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and banks typically run 08:00-17:00 Monday-Friday; Onitsha's markets trade long hours six days a week and are famously busy."
+  lunchBreakTiming: "A mid-afternoon break roughly 13:00-14:00, often with a quick meal."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Business across the largely Christian state slows sharply over the Christmas-New Year week, when many firms close and Onitsha's markets see a final festive trading rush."
+  notes: "Sunday is the main rest day, with widespread church attendance; the Onitsha market economy runs on a four-day Igbo market-week rhythm."
+sources:
+  - id: usstate-irf
+    name: "International Religious Freedom Report — Nigeria (South East / Igbo states)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/report/custom/c02a814b6c"
+    year: 2021
+    accessedDate: "2026-10-02"
+    note: "Describes the Igbo-dominant South East and South states as majority Christian (Catholic, Anglican, Methodist) with small traditional-religion and Muslim minorities; used as the survey-estimate basis for the state's religion split, since Nigeria's census has not asked a religion question since 1963."
+  - id: unesco-ogbunike
+    name: "Ogbunike Caves — UNESCO tentative list"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/tentativelists/5174/"
+    accessedDate: "2026-10-02"
+    note: "Confirms the Ogbunike Caves (Anambra State) are on Nigeria's UNESCO World Heritage tentative list."
+  - id: nipc-clusters
+    name: "NIPC Sectoral Investment Brief — Available Industrial Clusters"
+    publisher: "Nigerian Investment Promotion Commission (NIPC)"
+    url: "https://nipc.gov.ng/assets/publications/nipc-sector-investment-brief-available-industrial-clusters/nipc-sector-investment-brief-available-industrial-clusters.pdf"
+    year: 2015
+    accessedDate: "2026-10-02"
+    note: "Documents Nnewi as the automotive manufacturing hub ('Japan of Africa') and Onitsha as the plastics cluster, backing the state's industrial profile."
+  - id: nnewi-portal
+    name: "Nnewi Official City Portal"
+    publisher: "Nnewi City"
+    url: "https://nnewi.info"
+    accessedDate: "2026-10-02"
+    note: "Background on Nnewi as Africa's indigenous-manufacturing success story and its role in the Igbo apprenticeship system and motor-parts trade."

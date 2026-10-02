@@ -1,0 +1,132 @@
+code: NG-AB
+name:
+  eng: Abia
+  local:
+    - languageCode: ibo
+      value: Abia
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate over the low-lying south-east — a single heavy wet season roughly April-October and a dry season roughly November-March (with harmattan haze), hot and humid year-round."
+landmarks:
+  - name: "Arochukwu Long Juju Shrine (Ibin Ukpabi)"
+    description: "An ancient cave-temple oracle complex at Arochukwu — the pre-colonial supreme judicial oracle of eastern Nigeria, around which the Aro Confederacy built its influence. Submitted to Nigeria's UNESCO World Heritage tentative list in 2007."
+    unescoWorldHeritage: true
+  - name: National War Museum, Umuahia
+    description: "Nigeria's only war museum, set on the site of the Voice of Biafra bunker at Ebite Amafor. It preserves relics of pre-colonial warfare and the Biafra-Nigerian Civil War (1967-70), including Biafran tanks and armoured vehicles."
+  - name: "Ariaria International Market, Aba"
+    description: "Huge trading and manufacturing hub in Aba, the commercial heart of the state, famous above all for its indigenous shoe, leather-goods and garment cluster — a major engine of the 'Made in Aba' economy."
+  - name: "Azumini Blue River"
+    description: "A clear, blue-water river at Azumini in the forested south of the state, a popular leisure and picnic spot with boat rides."
+  - name: "Umuahia — capital city"
+    description: "The state capital, a blend of administrative town and Igbo cultural centre, and the last capital of the secessionist Republic of Biafra during the civil war."
+culturalTraits:
+  - "Igbo state in the south-east heartland (Ngwa, Ohafia, Arochukwu and other Igbo subgroups) — the agricultural and trading country of the Igbo lowlands"
+  - "A formidable entrepreneurial and manufacturing culture — Aba's shoemakers, tanners and garment makers built one of Africa's largest indigenous industrial clusters ('Made in Aba')"
+  - "Deep masquerade, chi and ancestral traditions, remembered in the Arochukwu oracle heritage and the region's festival life"
+  - "A proudly church-going society (Anglican, Catholic and independent churches dominate), with indigenous practice woven in"
+prideOf:
+  - "'Made in Aba' — the home-grown shoemaking and manufacturing ingenuity"
+  - "The Arochukwu oracle heritage and the warrior tradition of Ohafia"
+  - "Umuahia's place in Nigerian history and the resilience of the Igbo people"
+animals:
+  popular:
+    - "Domestic goats, poultry and dogs across towns and farmsteads"
+    - "Olive baboon and crested porcupine in the remaining forest patches"
+    - "Grey duikers and red river hog in the southern forest fringe"
+  unique:
+    - "Sclater's guenon — an endangered monkey found in the forests of south-east Nigeria"
+    - "Preuss's guenon on the rainforest fringe"
+industries:
+  - "Shoe, leather and garment manufacturing (the Aba/Ariaria 'Made in Aba' cluster)"
+  - "Trade and wholesale commerce (Aba and its markets)"
+  - "Agriculture — oil palm, yam, cassava, maize and food crops"
+  - "Textiles and small-scale industry across the state"
+sports:
+  - "Football"
+  - "Basketball"
+  - "Traditional wrestling"
+  - "Athletics"
+religions:
+  # Nigeria has run no census religion question since 1963, so the south-east
+  # split is a survey estimate. The US State Dept IRF report describes the
+  # Igbo-dominant South East and South states as majority Christian
+  # (Catholic, Anglican and Methodist), with a small traditional-religion
+  # (Omenala) and tiny Muslim minority.
+  - name: Christian
+    percent: 95.0
+    sourceId: usstate-irf
+  - name: Traditional (Omenala/other & none)
+    percent: 4.0
+    sourceId: usstate-irf
+  - name: Muslim
+    percent: 1.0
+    sourceId: usstate-irf
+entertainment:
+  - season: allYear
+    items:
+      - "Igbo masquerade and masked-festival culture (Mmanwu) across Abia's towns"
+      - "Church musical life, choirs and gospel events"
+      - "Nollywood and the region's vibrant film-and-entertainment scene"
+  - season: dry
+    items:
+      - "End-of-year and Christmas celebrations in the drier, cooler months (Dec-Feb)"
+      - "Weddings and community festivals with music and dance in the dry season"
+  - season: wet
+    items:
+      - "The New Yam festival (Iri Ji, Aug-Sep) — the great harvest celebration of the wet season"
+      - "Shrine and community ceremonies in the farming calendar"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pounded yam with ofe egusi or ofe ogbono soup"
+      - "Ofe nsala (peppery white soup) with ugba and meats"
+      - "Abacha (nkwobi-style 'African salad') served with ugba and fish"
+      - "Akara (bean fritters) and moi moi"
+  - season: dry
+    items:
+      - "Festive jollof rice, rich pepper soups and roast meats for Christmas and weddings"
+  - season: wet
+    items:
+      - "New Yam festival dishes — pounded new yam with fresh soups"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the isiagu (lion-head patterned) top with a wrapper and often the red Igbo chieftaincy cap (okpu); women the wrapper and blouse with an ichafu headwrap"
+      - "Colourful ankara and George wrappers are everyday and festive wear"
+  - season: dry
+    items:
+      - "Festive lace, coral beads and ceremonial wrappers for Christmas, weddings and festivals in the dry months"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and banks typically run 08:00-17:00 Monday-Friday; Aba's markets trade long hours six days a week."
+  lunchBreakTiming: "A mid-afternoon break roughly 13:00-14:00, often with a quick meal."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Business across the largely Christian state slows sharply over the Christmas-New Year week, with many firms closing from Christmas to early January."
+  notes: "Sunday is the main rest day, with widespread church attendance; the heavy wet season (Apr-Oct) can disrupt rural roads and markets in low-lying areas."
+sources:
+  - id: usstate-irf
+    name: "International Religious Freedom Report — Nigeria (South East / Igbo states)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/report/custom/c02a814b6c"
+    year: 2021
+    accessedDate: "2026-10-02"
+    note: "Describes the Igbo-dominant South East and South states as majority Christian (Catholic, Anglican, Methodist) with small traditional-religion and Muslim minorities; used as the survey-estimate basis for the state's religion split, since Nigeria's census has not asked a religion question since 1963."
+  - id: abia-gov
+    name: "Abia State Government — State Profile: Places of Interest"
+    publisher: "Abia State Government"
+    url: "http://abiastate.gov.ng/state-profile/places-of-interest"
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for the Arochukwu Long Juju shrine complex and the state's heritage sites."
+  - id: unesco-arochukwu
+    name: "Arochukwu Long Juju Slave Route (Cave Temple Complex) — UNESCO tentative list"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/tentativelists/5170"
+    accessedDate: "2026-10-02"
+    note: "Confirms the Arochukwu Long Juju (Ibin Ukpabi) cave-temple oracle is on Nigeria's UNESCO World Heritage tentative list (submitted 2007)."

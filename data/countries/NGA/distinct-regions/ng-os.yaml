@@ -1,0 +1,125 @@
+code: NG-OS
+name:
+  eng: Osun
+  local:
+    - languageCode: yor
+      value: Ìpínlẹ̀ Ọ̀ṣun
+climates:
+  - koppenCode: Aw
+    description: "Tropical savanna climate in the Yoruba hinterland — a wet season roughly April-October and a drier, harmattan-influenced dry season roughly November-March, with warm temperatures and high humidity through much of the year."
+landmarks:
+  - name: Osun-Osogbo Sacred Grove
+    description: "A UNESCO World Heritage site on the edge of Osogbo — a dense surviving tract of primary high forest threaded by the Osun river, dotted with shrines and 20th-century artworks in honour of the goddess Osun and the Yoruba pantheon."
+    unescoWorldHeritage: true
+  - name: Ile-Ife and the Ooni's Palace
+    description: "The sacred cradle-city of the Yoruba people and the centre of the ancient Ife kingdom, the traditional source of Yoruba kingship and the famous Ife bronze and terracotta art."
+  - name: Obafemi Awolowo University, Ile-Ife
+    description: "One of Nigeria's most prestigious universities, set on a striking modernist campus in the ancient town of Ile-Ife."
+  - name: Ilesha (Ilesa)
+    description: "An ancient Ijesha kingdom-capital of the eastern Yoruba country, seat of the Owa Obokun, with a rich chieftaincy history."
+  - name: Erin-Ijesha waterfalls (Olumirin)
+    description: "A celebrated seven-tier waterfall in the hilly north-east of the state, a favourite natural retreat of the region."
+  - name: Osogbo town
+    description: "The state capital, a lively Yoruba town known for its markets, arts community and the world-famous Osun festival."
+culturalTraits:
+  - "The spiritual heartland of the Yoruba people — home to Ile-Ife, the cradle of Yoruba civilization and kingship, and to the Osun-Osogbo sacred grove"
+  - "A land of ancient Yoruba kingdoms (Ife, Ijesha, Oyo, Ibolo, Igbomina) and a rich festival life"
+  - "A scholarly and artistic state, with Obafemi Awolowo University and a celebrated community of modern Yoruba artists"
+prideOf:
+  - "Ile-Ife, the sacred cradle of the Yoruba people"
+  - "The Osun-Osogbo Sacred Grove and the annual Osun festival"
+  - "Yoruba art, kingship and the scholarly prestige of Obafemi Awolowo University"
+animals:
+  popular:
+    - "Goats, sheep and poultry of the rural economy"
+    - "Fish of the Osun and other rivers"
+  unique:
+    - "Forest fauna of the sacred groves and remaining high forest, including monkeys"
+    - "A rich diversity of medicinal and endemic plant species in the Osun grove"
+industries:
+  - "Agriculture (cocoa, yam, cassava, maize, oil palm and kolanut)"
+  - "Commerce and trading (Osogbo and Ilesha's busy markets)"
+  - "Education and services (the universities at Ile-Ife and around the state)"
+  - "Tourism and cultural heritage (the Osun festival and the sacred grove)"
+sports:
+  - "Football"
+  - "Basketball"
+  - "Athletics"
+  - "Traditional Yoruba wrestling and festival dance competitions"
+religions:
+  # Osun is a mixed Yoruba state broadly balanced between Christianity and Islam, with a
+  # strong traditional-religion heritage at its sacred sites; this is a survey estimate,
+  # not a census figure (Nigeria has not collected religion in its census since 1963).
+  - name: Christian
+    percent: 52.0
+    sourceId: usstate-irf-osun
+  - name: Muslim
+    percent: 43.0
+    sourceId: usstate-irf-osun
+  - name: Traditional
+    percent: 5.0
+    sourceId: usstate-irf-osun
+entertainment:
+  - season: allYear
+    items:
+      - "Yoruba festivals, drumming, theatre and traditional arts throughout the year"
+      - "Osogbo's vibrant artist community, galleries and markets"
+  - season: wet
+    items:
+      - "The annual Osun-Osogbo festival, a great processional pilgrimage to the sacred grove held over twelve days in July-August"
+      - "The rainy months also favour indoor cultural events and the region's many places of worship"
+  - season: dry
+    items:
+      - "Outdoor festivals, celebrations and weddings in the drier, cooler months (Nov-Mar)"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Amala (yam flour) with ewedu and gbegiri — the staple Yoruba meal of the region"
+      - "Iyan (pounded yam) with vegetable soups, and efo riro"
+      - "Moin moin, akara, jollof rice and suya"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Yoruba dress — men's agbada gown and fila cap; women's iro (wrapper), buba (blouse) and gele headwrap"
+      - "Colourful ankara and adire cloth, and ceremonial beaded regalia at festivals and palaces"
+  - season: dry
+    items:
+      - "Festive lace, agbada and gele for Christmas, Eid and the dry-season celebration season"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Offices and schools typically run 08:00-17:00 Monday-Friday; the state's busy markets trade daily including Saturdays."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Osun-Osogbo festival week"
+      description: "Routine activity in Osogbo partly makes way for the great annual Osun festival pilgrimage and celebrations in late July-early August."
+    - period: "Christmas and New Year"
+      description: "Business slows over the Christmas-New Year week."
+  notes: "As a largely agrarian Yoruba heartland, weekly market days and the farming calendar shape much of the business rhythm, and the annual Osun festival draws both pilgrims and visitors to the capital."
+sources:
+  - id: osun-state
+    name: "Osun State Government — about the state"
+    publisher: "Osun State Government"
+    url: "https://www.osunstate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Osun as the Yoruba heartland state, its capital Osogbo, the ancient kingdom of Ile-Ife, and the state's rivers, forests and festivals."
+  - id: unesco-osun-grove
+    name: "Osun-Osogbo Sacred Grove — UNESCO World Heritage Centre"
+    publisher: "UNESCO World Heritage Centre"
+    url: "https://whc.unesco.org/en/list/1118/"
+    year: 2005
+    accessedDate: "2026-10-02"
+    note: "Basis for the Osun-Osogbo Sacred Grove UNESCO flag and description of the grove, its shrines, the Osun river and the annual twelve-day festival in July-August."
+  - id: usstate-irf-osun
+    name: "International Religious Freedom Report — Nigeria (Osun)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/report/custom/c02a814b6c"
+    year: 2019
+    accessedDate: "2026-10-02"
+    note: "Osun is a mixed south-west state broadly balanced between Christianity and Islam with a traditional-religion heritage; the split is a survey estimate since Nigeria's census has not collected religion since 1963."
