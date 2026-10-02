@@ -1,0 +1,110 @@
+code: NG-SO
+name:
+  eng: Sokoto
+  local:
+    - languageCode: hau
+      value: Sakkwato
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (Sahel steppe) climate of the far north-west, close to the Sahara — a short wet season roughly May-September and a long, very hot dry season with the dry harmattan the rest of the year."
+landmarks:
+  - name: Sultan's Palace, Sokoto
+    description: "The residence of the Sultan of Sokoto, the spiritual and traditional leader of Nigeria's Muslims — the enduring seat of authority descended from the Sokoto Caliphate."
+  - name: Sokoto city
+    description: "The state capital, historically the 'Seat of the Caliphate' — the centre of the Sokoto Caliphate founded in 1804 by Usman dan Fodio and one of Nigeria's oldest Islamic cities."
+  - name: The Sokoto Caliphate heritage
+    description: "The 19th-century Islamic state founded by the jihad of Usman dan Fodio (1804), the largest and most influential pre-colonial polity in the region."
+  - name: Tomb of Usman dan Fodio
+    description: "The revered grave of the founder of the Sokoto Caliphate and reformer, a site of pilgrimage and historical significance."
+  - name: Gidan Rufai and the Sokoto museum
+    description: "Historic buildings of the caliphate era and a museum housing collections of the region's Islamic and Hausa heritage."
+culturalTraits:
+  - "The historic 'Seat of the Caliphate' — the heart of the Sokoto Caliphate founded by Usman dan Fodio in 1804, whose authority survives in the Sultan of Sokoto"
+  - "An overwhelmingly Muslim city and state with a deep and scholarly Islamic tradition"
+  - "A centre of Sokoto's Hausa-Fulani culture and the spiritual focal point of Nigeria's Muslim community"
+prideOf:
+  - "Being the Seat of the Caliphate and home of the Sultan of Sokoto"
+  - "The legacy of Usman dan Fodio and the Sokoto Caliphate"
+  - "The city's centuries of Islamic scholarship and Hausa-Fulani culture"
+animals:
+  popular:
+    - "Zebu cattle, goats, sheep and camels of the Sahelian pastoral economy"
+    - "Donkeys and horses for transport"
+  unique:
+    - "Sahelian antelope and other dryland fauna"
+    - "Desert-edge birdlife in the semi-arid north"
+industries:
+  - "Agriculture (millet, sorghum, maize, rice, groundnuts, wheat on irrigated land) and livestock"
+  - "Leather, hides and traditional crafts"
+  - "Islamic scholarship, learning and pilgrimage-related activity"
+  - "Trade and commerce in Sokoto city"
+sports:
+  - "Football"
+  - "Traditional wrestling (kokawa)"
+  - "Horse racing and the Durbar"
+religions:
+  # Sokoto is the overwhelmingly Muslim heartland of Nigeria's Islamic north, the seat of the
+  # Sultan. Nigeria has not asked a religion question in its census since 1963, so this split
+  # is a survey estimate.
+  - name: Muslim
+    percent: 98.5
+    sourceId: usstate-irf-sokoto
+  - name: Christian
+    percent: 1.5
+    sourceId: usstate-irf-sokoto
+entertainment:
+  - season: dry
+    items:
+      - "The Sokoto Durbar and large Eid celebrations in the cooler, drier months"
+      - "Annual Islamic festivals and the Maulud (Mawlid) processions honouring the Sultanate's traditions"
+  - season: wet
+    items:
+      - "Harvest-time community gatherings and Hausa music and bardic performances"
+  - season: allYear
+    items:
+      - "The Sultan's Palace area, the caliphate-era buildings and Sokoto's markets year-round"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo shinkafa and tuwon masara with rich soups (miyan kuka, miyan taushe)"
+      - "Suya and kilishi (dried spiced meat)"
+      - "Fura da nono and groundnut soup"
+      - "Rice and wheat dishes from the irrigated farmlands"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the flowing babban riga gown with an embroidered cap (hula) and often a turban; women wear wrappers, blouses and the hijab common in the Muslim north"
+  - season: dry
+    items:
+      - "Festive white or richly embroidered gowns and turbans for the Eid Durbar and celebrations"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets trade daily but with a Friday midday break for congregational prayers."
+  lunchBreakTiming: "A midday break around 13:00-14:00, often with prayer; on Fridays the midday prayer break is longer."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Kabir"
+      description: "Major Islamic holidays — most businesses close for the festivities and the Durbar."
+  notes: "Sokoto is one of twelve northern states to have adopted a Sharia penal code (in 2000); alcohol is restricted and Friday midday prayer is widely observed, especially given the city's role as the spiritual heart of Nigeria's Muslims."
+  sourceIds:
+    - usstate-irf-sokoto
+sources:
+  - id: sokoto-state
+    name: "Sokoto State Government — about the state"
+    publisher: "Sokoto State Government"
+    url: "https://sokotostate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Sokoto as the Seat of the Caliphate, its capital Sokoto, the Sultan of Sokoto and the legacy of Usman dan Fodio."
+  - id: usstate-irf-sokoto
+    name: "International Religious Freedom Report — Nigeria (Sokoto)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/report/custom/c02a814b6c"
+    year: 2019
+    accessedDate: "2026-10-02"
+    note: "Sokoto is an overwhelmingly Muslim state (survey estimate — Nigeria's census has not collected religion since 1963) and is one of the twelve states that adopted a Sharia penal code."

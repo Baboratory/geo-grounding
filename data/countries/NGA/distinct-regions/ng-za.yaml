@@ -1,0 +1,108 @@
+code: NG-ZA
+name:
+  eng: Zamfara
+  local:
+    - languageCode: hau
+      value: Zamfara
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (Sahel steppe) climate of the far north-west — a short wet season roughly June-September and a long, very hot dry season with the dusty harmattan the rest of the year."
+landmarks:
+  - name: Gusau
+    description: "The state capital, the largest city and principal market and trading centre of the state."
+  - name: The Zamfara gold-belt hills
+    description: "The mineralised greenstone-belt hills of the state (notably around Anka, Gummi and Talata Mafara), the centre of Nigeria's artisanal gold-mining boom."
+  - name: Shinkafi
+    description: "A historic town in the north of the state, a notable centre of trade and traditional emirate life."
+  - name: Kiyawa and the agrarian heartland
+    description: "The farmlands of the south, producing the cotton, groundnuts and grains central to the state's agrarian economy."
+  - name: The ancient Zamfara kingdom heritage
+    description: "The pre-Sokoto history of the Zamfara region as a distinct Hausa kingdom, reflected in its traditional emirates."
+culturalTraits:
+  - "An overwhelmingly Muslim Hausa-Fulani state of the far north-west, and the first Nigerian state to adopt a Sharia penal code (1999)"
+  - "A rural, agrarian state of cotton, groundnuts and livestock, now a focus of artisanal gold mining"
+  - "A land of traditional Hausa emirates (Gusau, Anka, Gummi and others) with a strong Islamic identity"
+prideOf:
+  - "Being the first state to adopt Sharia law (1999)"
+  - "The state's gold-mining boom and mineral wealth"
+  - "The cotton and groundnut farming heritage and traditional emirates"
+animals:
+  popular:
+    - "Zebu cattle, goats and sheep of the pastoral economy"
+    - "Donkeys and horses for transport"
+  unique:
+    - "Sahelian antelope and other dryland fauna of the northern reserves"
+    - "Desert-edge birdlife in the semi-arid north"
+industries:
+  - "Agriculture (cotton, groundnuts, millet, sorghum, maize) and livestock"
+  - "Gold mining (artisanal and small-scale, across the mineralised belt)"
+  - "Groundnut and cotton processing"
+  - "Trade and commerce in Gusau"
+sports:
+  - "Football"
+  - "Traditional wrestling (kokawa)"
+  - "Horse riding and the Durbar"
+religions:
+  # Zamfara is the overwhelmingly Muslim state that pioneered Sharia law in Nigeria, and was
+  # the first to adopt it in 1999. Nigeria has not asked a religion question in its census
+  # since 1963, so this split is a survey estimate.
+  - name: Muslim
+    percent: 98.5
+    sourceId: usstate-irf-zamfara
+  - name: Christian
+    percent: 1.5
+    sourceId: usstate-irf-zamfara
+entertainment:
+  - season: dry
+    items:
+      - "The Zamfara Durbar and Eid celebrations in the cooler, drier months"
+  - season: wet
+    items:
+      - "Harvest-time community gatherings and Hausa music and bardic performances"
+  - season: allYear
+    items:
+      - "The markets of Gusau and the traditional emirate towns year-round"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo shinkafa and tuwon masara with rich soups (miyan kuka, miyan taushe)"
+      - "Suya and kilishi (dried spiced meat)"
+      - "Fura da nono and groundnut soup"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the flowing babban riga gown with an embroidered cap (hula); women wear wrappers, blouses and the hijab common in the Muslim north"
+  - season: dry
+    items:
+      - "Festive white or richly embroidered gowns and turbans for Eid and celebrations"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets trade daily but with a Friday midday break for congregational prayers."
+  lunchBreakTiming: "A midday break around 13:00-14:00, often with prayer; on Fridays the midday prayer break is longer."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Kabir"
+      description: "Major Islamic holidays — most businesses close for the festivities."
+  notes: "Zamfara was the first Nigerian state to adopt a Sharia penal code (October 1999); alcohol is restricted and Friday midday prayer is widely observed. Artisanal gold mining has brought a significant inflow of informal activity in the mineral belt."
+  sourceIds:
+    - usstate-irf-zamfara
+sources:
+  - id: zamfara-state
+    name: "Zamfara State Government — about the state"
+    publisher: "Zamfara State Government"
+    url: "https://zamfarastate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Zamfara as a far-northwest Hausa-Fulani state, its capital Gusau, and its agrarian and mining economy."
+  - id: usstate-irf-zamfara
+    name: "International Religious Freedom Report — Nigeria (Zamfara)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/report/custom/c02a814b6c"
+    year: 2019
+    accessedDate: "2026-10-02"
+    note: "Zamfara is an overwhelmingly Muslim state, the first to adopt a Sharia penal code (1999) (survey estimate — Nigeria's census has not collected religion since 1963)."

@@ -1,0 +1,126 @@
+code: NG-NI
+name:
+  eng: Niger
+  local:
+    - languageCode: eng
+      value: Niger
+    - languageCode: nup
+      value: Niger
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (steppe) climate over the northern savanna of the state, with a single, relatively short rainy season and a long hot dry season with the dusty harmattan."
+  - koppenCode: Aw
+    description: "Tropical wet-dry (savanna) climate in the south of the state and along the Niger valley — a rainy season roughly May-October and a drier harmattan season the rest of the year."
+landmarks:
+  - name: Gurara Falls
+    description: "The celebrated waterfall on the Gurara River, one of Nigeria's best-known scenic waterfalls, in the Gurara local government area."
+  - name: Kainji Lake
+    description: "The great artificial lake on the Niger formed by the Kainji Dam — a major hydroelectric reservoir and fishing ground."
+  - name: Kainji National Park
+    description: "Nigeria's largest national park, covering the lake and the Borgu and Zugurma Game Reserves, home to elephants, antelope and abundant birdlife."
+  - name: Minna
+    description: "The state capital, the 'Power State's' administrative and commercial centre."
+  - name: Bida
+    description: "The historic emirate town and cultural heart of the Nupe people, famed for its brassware and glass bead craft."
+culturalTraits:
+  - "The 'Power State' — Nigeria's largest state by area, straddling the Niger and home to Kainji and other great hydroelectric dams"
+  - "The cultural homeland of the Nupe people, with the historic Nupe Kingdom and its emirate at Bida, alongside Hausa and Gwari peoples"
+  - "An overwhelmingly Muslim northern state with a strong emirate tradition"
+prideOf:
+  - "Being Nigeria's largest state and the 'Power State' of its hydroelectricity"
+  - "Kainji Lake and National Park and the Gurara Falls"
+  - "The Nupe heritage of Bida and its brassware and glass crafts"
+animals:
+  popular:
+    - "Hippopotamus and Nile crocodiles of Kainji Lake"
+    - "Cattle, goats and sheep of the pastoral economy"
+  unique:
+    - "African elephants, antelope and baboons of Kainji National Park"
+    - "The diverse savanna birdlife of the park and lake"
+industries:
+  - "Hydroelectricity and water resources (Kainji, Jebba and Shiroro dams — the 'Power State')"
+  - "Agriculture (shea, groundnuts, rice, maize, sorghum) and livestock"
+  - "Fishing on Kainji Lake"
+  - "Crafts (Bida brassware and glass beads) and trade (Minna, Bida, Suleja)"
+sports:
+  - "Football"
+  - "Athletics"
+  - "Traditional wrestling"
+  - "Emirate Durbar horse festivals"
+religions:
+  # Niger is one of Nigeria's predominantly Muslim northern states. This split is a
+  # survey estimate, not a census figure (Nigeria has not collected religion since 1963).
+  - name: Muslim
+    percent: 88.0
+    sourceId: usstate-irf
+  - name: Christian
+    percent: 10.0
+    sourceId: usstate-irf
+  - name: Traditional
+    percent: 2.0
+    sourceId: usstate-irf
+entertainment:
+  - season: dry
+    items:
+      - "Emirate Durbar horse processions and Eid celebrations in the cooler, drier months"
+      - "Nupe cultural festivals and craft fairs at Bida"
+  - season: wet
+    items:
+      - "Harvest-time community gatherings and Nupe and Hausa music and bardic performances"
+  - season: allYear
+    items:
+      - "The lake, park and Gurara Falls as year-round eco-tourism draws"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo shinkafa and tuwon masara with rich soups"
+      - "Groundnut soup, fura da nono and the dried-meat delicacies of the north"
+      - "Fish from Kainji Lake"
+  - season: dry
+    items:
+      - "Festive dishes for Eid and the dry-season celebrations"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the flowing babban riga gown with an embroidered cap and sometimes turban; women wear wrappers, blouses and the hijab common in the Muslim north"
+  - season: dry
+    items:
+      - "Festive white or richly embroidered gowns and turbans for Eid and the Durbar"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets trade daily with a Friday midday break for congregational prayers."
+  lunchBreakTiming: "A midday break around 13:00-14:00, often with prayer; on Fridays the midday prayer break is longer."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Kabir"
+      description: "Major Islamic holidays — most businesses close for the festivities and the Durbar."
+  notes: "Niger is one of twelve northern states to have adopted a Sharia legal framework (from 2000-01); alcohol is restricted and Friday midday prayer is widely observed, with many businesses closing early on Friday. Observations resolve to Niger's tropical/semi-arid dry-wet climate, not a four-season year."
+  sourceIds:
+    - usstate-irf
+sources:
+  - id: wikipedia-ni
+    name: "Niger State — Wikipedia"
+    publisher: "Wikipedia (Wikimedia Foundation)"
+    url: "https://en.wikipedia.org/wiki/Niger_State"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Backdrop for Niger as Nigeria's largest state by area created in 1976, its capital Minna, Kainji Lake and National Park, Gurara Falls, the Nupe/Hausa/Gwari peoples and its hydroelectric 'Power State' identity."
+  - id: niger-state-gov
+    name: "Niger State Government — official website (the Power State)"
+    publisher: "Niger State Government"
+    url: "https://nigerstate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for the state's identity as the Power State, its capital Minna and agricultural/mineral resources."
+  - id: usstate-irf
+    name: "2023 Report on International Religious Freedom: Nigeria"
+    publisher: "US Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "State-level religious composition is a survey estimate since the census has not collected religion since 1963; Niger is documented as predominantly Muslim and as a Sharia-governing state. Used for the religion split and the Sharia/alcohol note."

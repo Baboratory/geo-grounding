@@ -1,0 +1,128 @@
+code: NG-CR
+name:
+  eng: Cross River
+  local:
+    - languageCode: eng
+      value: Cross River
+    - languageCode: efi
+      value: Cross River
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate along the Cross River estuary and coastal south — very high, near-year-round rainfall around Calabar with a short, less-rainy belt, warm and humid through most of the year."
+  - koppenCode: Cfb
+    description: "The cool highland micro-climate of the Obudu Plateau in the north-east, whose altitude brings markedly lower temperatures than the coast."
+landmarks:
+  - name: Obudu Cattle Ranch (Obudu Mountain Resort)
+    description: "The historic mountain resort and cattle ranch on the Obudu Plateau, famed for its cool climate, rolling hills and the cable-car run to the summit."
+  - name: Cross River National Park
+    description: "One of Nigeria's premier protected areas, covering lowland and montane rainforest with gorillas, chimpanzees, drill monkeys and forest elephants."
+  - name: Calabar Carnival
+    description: "Africa's largest street carnival, a spectacular Christmas-period parade held in the historic capital Calabar."
+  - name: Ikom Monoliths
+    description: "The mysterious prehistoric carved standing stones of the Ikom area, of unknown age and meaning."
+  - name: Mary Slessor's Tomb, Calabar
+    description: "The grave of the famed Scottish missionary and anti-infanticide campaigner in Calabar."
+  - name: Agbokim Waterfalls
+    description: "A scenic seven-chute waterfall in the rainforest of the eastern interior."
+culturalTraits:
+  - "The Efik homeland and historic capital Calabar, seat of the once-mighty Akwa Akpa (Old Calabar) city-state and of a deep missionary and trade history"
+  - "A proudly Christian, festival-loving state across the Efik, Ekoi, Yakurr, Bekwarra and many other peoples"
+  - "The 'People's Paradise' — a coastal and forest state famed for its wildlife, waterfalls and the Calabar Carnival"
+prideOf:
+  - "The Calabar Carnival and the historic city of Calabar"
+  - "The rainforests, wildlife and the Obudu Mountain Resort"
+  - "The Efik people and the region's missionary and trading heritage"
+animals:
+  popular:
+    - "Drill monkeys (endemic to the region) and monkeys of the forest reserves"
+    - "Giant African land snails and colourful forest birds"
+  unique:
+    - "Cross River gorilla (one of the rarest great apes in the world) — Cross River National Park and Afi Mountain"
+    - "Nigeria-Cameroon chimpanzee and African forest elephant"
+    - "Preuss's red colobus, tree pangolin and the grey-necked rockfowl"
+industries:
+  - "Agriculture (cocoyam, rubber, oil palm, yam, cocoa, cashews, plantain) and fishing"
+  - "Tourism (Calabar Carnival, Obudu resort, national parks, Tinapa resort)"
+  - "Timber and forest products"
+  - "Commerce and the historic port of Calabar"
+sports:
+  - "Football"
+  - "Athletics"
+  - "Basketball"
+  - "Carnival and dance competitions"
+religions:
+  # Cross River is a predominantly Christian state. This split is a survey estimate,
+  # not a census figure (Nigeria has not collected religion since 1963).
+  - name: Christian
+    percent: 80.0
+    sourceId: usstate-irf
+  - name: Muslim
+    percent: 15.0
+    sourceId: usstate-irf
+  - name: Traditional
+    percent: 5.0
+    sourceId: usstate-irf
+entertainment:
+  - season: allYear
+    items:
+      - "Traditional Efik and forest-people music, dance and the rich festival culture"
+  - season: dry
+    items:
+      - "The spectacular Calabar Carnival and Christmas-season celebrations (Dec) — Africa's largest street carnival"
+      - "The Obanliku New Yam Festival and other dry-season festivals"
+  - season: wet
+    items:
+      - "Waterfall and rainforest eco-tourism (Agbokim, Kwa Falls) favoured in the rainy months"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Afang soup and edikang ikong, the famous Efik vegetable and melon soups"
+      - "Native rice, pounded yam and the seafood of the Cross River estuary"
+      - "Ekwang (steamed plantain/cocoyam pudding) and roasted fish"
+  - season: dry
+    items:
+      - "Festive Efik dishes and seafood feasts for the Calabar Carnival and Christmas"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear colourful wrappers, head-ties and beads; men wear wrappers with elaborately tailored shirts"
+      - "The Efik ceremonial attire used at weddings and traditional ceremonies"
+  - season: dry
+    items:
+      - "Festive regalia for the Calabar Carnival and Christmas celebrations"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets and trading around Calabar follow daily and weekly rhythms."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Christmas and the Calabar Carnival season"
+      description: "Business slows and the city turns to celebration during the Carnival and Christmas period in December."
+  notes: "As a largely Christian coastal and forest state, the church week, the festive Carnival period and the farming/fishing calendar shape the business cycle, with Calabar's port and administrative life at the centre."
+sources:
+  - id: wikipedia-cr
+    name: "Cross River State — Wikipedia"
+    publisher: "Wikipedia (Wikimedia Foundation)"
+    url: "https://en.wikipedia.org/wiki/Cross_River_State"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Backdrop for Cross River as the Efik South-South state created in 1967 and renamed in 1976, its capital Calabar, the tropical climate, Obudu resort, Cross River National Park, Ikom Monoliths, Calabar Carnival and rainforest wildlife."
+  - id: crossriver-state-gov
+    name: "Cross River State Government — official website"
+    publisher: "Cross River State Government"
+    url: "https://crossriverstate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for the state's government, capital Calabar and tourism identity (the People's Paradise)."
+  - id: usstate-irf
+    name: "2023 Report on International Religious Freedom: Nigeria"
+    publisher: "US Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "State-level religious composition is a survey estimate since the census has not collected religion since 1963; Cross River is documented as predominantly Christian. Used for the religion split."

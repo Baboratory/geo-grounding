@@ -1,0 +1,122 @@
+code: NG-BY
+name:
+  eng: Bayelsa
+  local:
+    - languageCode: ijc
+      value: Bayelsa
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate of the Niger Delta — heavy rainfall almost year-round with two wet peaks, high humidity throughout, and mangrove creeks and rivers threading the low-lying coastal plain."
+  - koppenCode: Af
+    description: "A humid tropical rainforest character along the Atlantic coast and the denuded Niger delta, with no marked dry season and among the wettest climates in Nigeria."
+landmarks:
+  - name: Niger Delta mangrove creeks
+    description: "The vast, winding network of brackish mangrove creeks and rivers that defines Bayelsa's delta landscape, a notorious maze of waterways and oilfields."
+  - name: Oloibiri oil well site
+    description: "The site in Oloibiri in present-day Bayelsa where oil was first struck in commercial quantities in Nigeria in 1956, the birthplace of the country's petroleum economy."
+  - name: Yenagoa
+    description: "The state capital, a riverine city on the Ekole creek, the administrative and commercial hub of the Niger Delta."
+  - name: Isaac Boro Park, Yenagoa
+    description: "A park and monument in the capital honouring Major Isaac Adaka Boro, the Ijaw martyr of the 1966 'twelve-day revolution' and a symbol of Niger Delta struggle."
+  - name: Ox-bow Lake and Sabagreia
+    description: "A scenic ox-bow lake and the relaxed riverine village of Sabagreia, showcasing the delta's fishing life and creeks."
+culturalTraits:
+  - "The ancestral homeland of the Ijaw people in the Niger Delta, created in 1996 from the old Rivers State, with a strong riverine, fishing and canoe culture"
+  - "A coastal mangrove world whose identity is bound to the sea, the creeks and the struggle over the delta's oil wealth"
+  - "Vivid Ijaw festivals, masquerades, canoe and water-based rites, and a proud maritime history of warriors and traders"
+prideOf:
+  - "Being the homeland of the Ijaw people and the heart of the Niger Delta"
+  - "Oloibiri, where Nigeria's oil story began in 1956"
+  - "The resilience of the delta communities and their famous festivals"
+animals:
+  popular:
+    - "Fish and shellfish of the creeks, rivers and Atlantic shore"
+    - "River and swamp species of the Niger Delta"
+  unique:
+    - "West African manatee of the delta rivers"
+    - "Nile crocodile and other swamp reptiles of the mangroves"
+    - "Manatee and marine-life conservation around the delta estuaries"
+industries:
+  - "Oil and gas (Bayelsa sits at the centre of the Niger Delta's petroleum production)"
+  - "Fishing and aquaculture"
+  - "Agriculture (cassava, plantain, palm oil) in the riverine hinterland"
+  - "Small-scale trade along the creeks and in Yenagoa"
+sports:
+  - "Football"
+  - "Canoe and water-based sports and regattas"
+  - "Traditional wrestling"
+  - "Boat racing and aquatic festivals of the delta"
+religions:
+  # Bayelsa is a predominantly Christian coastal state. This split is a survey estimate,
+  # not a census figure (Nigeria has not collected religion in its census since 1963).
+  - name: Christian
+    percent: 95.0
+    sourceId: usstate-irf
+  - name: Muslim
+    percent: 3.0
+    sourceId: usstate-irf
+  - name: Traditional
+    percent: 2.0
+    sourceId: usstate-irf
+entertainment:
+  - season: allYear
+    items:
+      - "Ijaw festivals, masquerades and the drum-and-dance culture of the delta creeks"
+  - season: dry
+    items:
+      - "The short harmattan-influenced dry spell (roughly Nov-Feb) brings the big water festivals, boat regattas and the Bayelsa State Festival of the Ijaw (held in recent years in the dry season)"
+  - season: wet
+    items:
+      - "Riverine life, fishing expeditions and community gatherings on the creeks"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Fresh fish, prawns and crayfish cooked with palm oil in rich pepper soups (a signature of the delta and of Ijaw cooking)"
+      - "Starch-style staple from cassava (kpokpo gari / starch) eaten with fish soups"
+      - "Plantain, yam and cocoyam dishes and baked/roasted seafood"
+  - season: dry
+    items:
+      - "Festive seafood and pepper-soup spreads at Ijaw festivals and celebrations"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Light, loose clothing suited to the hot, humid climate — wrappers and native attires of cotton, with distinctive Ijaw beadwork and coral on festive occasions"
+  - season: dry
+    items:
+      - "Festive wrappers, coral beadwork and ceremonial dress for the dry-season festivals"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2]
+  - season: wet
+    months: [3, 4, 5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; the riverine fishing and trading economy follows tide and market rhythms rather than a fixed clock."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Business in the predominantly Christian state slows over the Christmas-New Year week."
+  notes: "Bayelsa's economy is anchored by the offshore and onshore oil industry (with the security situation of the Niger Delta affecting operations) and by fishing and riverine markets; movement in much of the state is by water, so tides and creeks shape the rhythm of life."
+sources:
+  - id: bayelsa-state-gov
+    name: "Bayelsa State Government — about the state"
+    publisher: "Bayelsa State Government"
+    url: "https://bayelsa.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Bayelsa as the Ijaw homeland of the Niger Delta created in 1996 from old Rivers State, its capital Yenagoa, its riverine climate and oil-and-fishing economy."
+  - id: wikipedia-by
+    name: "Bayelsa State — Wikipedia"
+    publisher: "Wikipedia (Wikimedia Foundation)"
+    url: "https://en.wikipedia.org/wiki/Bayelsa_State"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Background on the state's creation in 1996, the Ijaw people, capital Yenagoa, the Niger Delta creeks, Oloibiri's role as the site of Nigeria's first commercial oil in 1956, and the state's climate and festivals."
+  - id: usstate-irf
+    name: "2023 Report on International Religious Freedom: Nigeria"
+    publisher: "US Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "Bayelsa is documented as a predominantly Christian coastal/Oil-state — the religion split is a survey estimate since Nigeria's census has not collected religion since 1963."

@@ -1,0 +1,108 @@
+code: NG-TA
+name:
+  eng: Taraba
+  local:
+    - languageCode: fuv
+      value: Taraba
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (Sahel steppe) climate generally, though the state spans a range — a wet season roughly April-October and a dry season the rest of the year, with the high Mambilla Plateau staying markedly cooler and wetter than the lowland valleys."
+landmarks:
+  - name: Gashaka-Gumti National Park
+    description: "Nigeria's largest national park, shared with Adamawa over the Mambilla massif — montane forests, savanna, waterfalls and a refuge for chimpanzees and numerous other species."
+  - name: Mambilla Plateau
+    description: "The high, temperate grassland plateau (over 1,500 m) in the southeast — one of Nigeria's coolest inhabited areas, known for its cattle, tea farming and waterfalls."
+  - name: Jalingo
+    description: "The state capital, a growing administrative and market town in the centre of the state."
+  - name: The Gashaka (Kwano) area and the Chappal Waddi peak
+    description: "The site of Chappal Waddi, the highest peak in Nigeria (about 2,419 m), within Gashaka-Gumti National Park."
+  - name: Mambilla tea estates
+    description: "The highland tea plantations, cultivated around Gembu and nearby towns, a distinctive feature of the temperate plateau."
+culturalTraits:
+  - "One of Nigeria's most ethnically diverse states — home to the Fulani, Mambilla, Kuteb, Jukun, Chamba, Mumuye, Wurkum and many other peoples"
+  - "A religiously mixed state, with Christians and Muslims each forming large communities across the North-East"
+  - "A rural, agrarian, hilly state with a strong livestock-keeping and highland-culture character along the Mambilla Plateau"
+prideOf:
+  - "The natural heritage of Gashaka-Gumti National Park and the Mambilla Plateau"
+  - "Nigeria's highest peak, Chappal Waddi"
+  - "The state's remarkable ethnic and cultural diversity"
+animals:
+  popular:
+    - "Zebu cattle of the Mambilla highland pastoral economy"
+    - "Goats, sheep and poultry of the rural economy"
+  unique:
+    - "Chimpanzee and other montane primates (Gashaka-Gumti National Park)"
+    - "Forest elephants, buffalo and lions of Gashaka-Gumti"
+    - "Montane and forest birdlife of the Mambilla Plateau"
+industries:
+  - "Agriculture (maize, rice, yam, sorghum, groundnuts, tea, cocoa in parts) and livestock"
+  - "Tea cultivation on the Mambilla Plateau"
+  - "Cattle rearing and trade"
+  - "Tourism (Gashaka-Gumti and the highlands)"
+  - "Commerce and services around Jalingo"
+sports:
+  - "Football"
+  - "Traditional wrestling"
+  - "Horse riding"
+religions:
+  # Taraba is a genuinely mixed North-East state — large Christian and Muslim communities
+  # coexist, with the south and highlands predominantly Christian. This is a survey estimate,
+  # not a census figure (Nigeria has not collected religion in its census since 1963).
+  - name: Muslim
+    percent: 50.0
+    sourceId: usstate-irf-taraba
+  - name: Christian
+    percent: 50.0
+    sourceId: usstate-irf-taraba
+entertainment:
+  - season: allYear
+    items:
+      - "The festivals of Taraba's many ethnic groups and the scenic highlands of Mambilla"
+  - season: dry
+    items:
+      - "Dry-season festivals, harvest celebrations and holidays across the state's diverse communities"
+  - season: wet
+    items:
+      - "The green season on the Mambilla Plateau and community gatherings in the rains"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Northern staples — tuwo shinkafa and tuwon masara with rich soups — alongside southern/Middle-Belt dishes such as pounded yam and egusi in the Christian south"
+      - "Suya, kilishi and roasted meat"
+      - "Fura da nono and local rice dishes"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Northern dress (babban riga, kaftan and embroidered caps) among Muslim communities, alongside the lavish ceremonial dress of the many highland peoples"
+  - season: dry
+    items:
+      - "Festive outfits for Eid and Christmas in the dry months"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets trade daily, often slowing for Friday midday prayer in the Muslim-majority districts."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr, Eid al-Kabir and Christmas"
+      description: "Both the Islamic and Christian holiday seasons see business closures across the mixed state."
+  notes: "Taraba's ethnic and religious diversity means both Friday (Muslim) and Sunday (Christian) rhythms coexist. It is not among the twelve states that adopted a Sharia penal code; instead the state blends Islamic and Christian customary practices."
+sources:
+  - id: taraba-state
+    name: "Taraba State Government — about the state"
+    publisher: "Taraba State Government"
+    url: "https://tarabastate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Taraba as an ethnically diverse North-East state, its capital Jalingo, and the Mambilla Plateau and Gashaka-Gumti National Park."
+  - id: usstate-irf-taraba
+    name: "International Religious Freedom Report — Nigeria (Taraba)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/report/custom/c02a814b6c"
+    year: 2019
+    accessedDate: "2026-10-02"
+    note: "Taraba's roughly evenly mixed Muslim-Christian population is a survey estimate since Nigeria's census has not collected religion since 1963; it is not among the twelve Sharia-adopting states."

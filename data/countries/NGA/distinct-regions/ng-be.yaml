@@ -1,0 +1,120 @@
+code: NG-BE
+name:
+  eng: Benue
+  local:
+    - languageCode: eng
+      value: Benue
+    - languageCode: tiv
+      value: I Tiv
+climates:
+  - koppenCode: Aw
+    description: "Tropical wet-dry (savanna) climate in the Benue trough of the Middle Belt — a rainy season roughly April-October and a drier, harmattan-influenced season roughly November-March, with warm temperatures and a markedly seasonal two-season year."
+landmarks:
+  - name: River Benue
+    description: "The second-longest river in Nigeria (the state's namesake, 'Benue' from the Tiv for river/lake of the hippopotamus), a dominant feature flowing through the state's floodplain."
+  - name: Benue State University, Makurdi
+    description: "The state's principal higher-education institution in the capital Makurdi, an educational landmark of the Middle Belt."
+  - name: Ikyogen and Mkar hills
+    description: "Scenic hills and ranges (Ikyogen, Mkar, Ushongo, Harga) of the Benue countryside that anchor the state's natural landscape."
+  - name: Becheve Nature Reserve, Obudu border hills
+    description: "The cool, forested hill country along the south-eastern border with the Obudu/Cameroon massif, with fast-flowing streams and a mild micro-climate."
+culturalTraits:
+  - "The 'Food Basket of the Nation' — a fertile, overwhelmingly agrarian Middle Belt state whose agriculture feeds much of Nigeria"
+  - "The cultural heartland of the Tiv people (and of the Idoma and Igede), with a strong egalitarian, kinship-based society"
+  - "A land of yam, festivals and the Tiv's famed makossa-influenced dance and music culture"
+prideOf:
+  - "Being Nigeria's 'Food Basket of the Nation' and a top producer of yam, rice and soybeans"
+  - "The Tiv, Idoma and Igede peoples and their festival traditions"
+  - "The hospitality and farming life of the Middle Belt"
+animals:
+  popular:
+    - "Cattle, goats and sheep of the rural economy"
+    - "Fish of the River Benue and its tributaries"
+  unique:
+    - "Forest- and savanna-edge fauna of the southern forests and the Obudu border hills"
+    - "Birdlife along the Benue floodplain"
+industries:
+  - "Agriculture (yam, rice, maize, cassava, soybeans — over 70% of Nigeria's soybean output — sesame and groundnuts)"
+  - "Livestock and fishing around the Benue river system"
+  - "Mining of limestone and other minerals (baryte, gypsum, salt-loving minerals)"
+  - "Education and services around Makurdi, Gboko and Otukpo"
+sports:
+  - "Football"
+  - "Athletics"
+  - "Traditional wrestling"
+  - "Festival dance competitions"
+religions:
+  # Benue is a largely Christian but religiously mixed Middle Belt state. This split is
+  # a survey estimate, not a census figure (Nigeria has not collected religion since 1963).
+  - name: Christian
+    percent: 70.0
+    sourceId: usstate-irf
+  - name: Muslim
+    percent: 25.0
+    sourceId: usstate-irf
+  - name: Traditional
+    percent: 5.0
+    sourceId: usstate-irf
+entertainment:
+  - season: allYear
+    items:
+      - "Tiv and Idoma music, dance and the vibrant festival culture of the Middle Belt"
+  - season: dry
+    items:
+      - "The great yam harvest festivals and community gatherings in the drier months"
+      - "Annual yam festivals of the Tiv towns (e.g. Kwagh-hir storytelling and dance performances)"
+  - season: wet
+    items:
+      - "Farming-season community life and riverside activity along the Benue"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Pounded yam (iyan) and tuwo with rich melon (egusi) or vegetable soups"
+      - "Yam, rice, beans and pounded-cocoyam staples of the region"
+      - "Milk and dairy-linked Tiv dishes and roasted yam"
+  - season: dry
+    items:
+      - "Yam-based festive dishes at the great harvest festivals"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the wrapper and embroidered shirts of the Middle Belt; women wear wrappers, blouses and head-ties"
+  - season: dry
+    items:
+      - "Festive attire for the yam festivals and dry-season celebrations"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; farming and markets follow daily and weekly market-day rhythms."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Yam harvest festivals"
+      description: "Communal harvest and festival celebrations across Tiv and Idoma areas slow routine farming trade in the harvest season."
+  notes: "As Nigeria's 'Food Basket of the Nation', the agricultural calendar — planting at the onset of the wet season and the great yam harvest in the dry season — dominates the state's rhythmic life, with Makurdi, Gboko and Otukpo as the commercial and administrative anchor towns."
+sources:
+  - id: wikipedia-be
+    name: "Benue State — Wikipedia"
+    publisher: "Wikipedia (Wikimedia Foundation)"
+    url: "https://en.wikipedia.org/wiki/Benue_State"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Backdrop for Benue as the Tiv/Idoma/Igede 'Food Basket of the Nation' created in 1976, its capital Makurdi, the River Benue, tropical savanna climate, agriculture and hills."
+  - id: benue-state-gov
+    name: "Benue State Government — official website"
+    publisher: "Benue State Government"
+    url: "https://benuestate.gov.ng/about"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official confirmation of Benue as the 'Food Basket of the Nation' (formed 1976), its Tiv-Idoma-Igede peoples and the River Benue; backdrop for landmarks, culture and industries."
+  - id: usstate-irf
+    name: "2023 Report on International Religious Freedom: Nigeria"
+    publisher: "US Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "Middle Belt state-level religious composition is a survey estimate since the census has not collected religion since 1963; Benue is documented as predominantly Christian with a Muslim minority. Used for the religion split."

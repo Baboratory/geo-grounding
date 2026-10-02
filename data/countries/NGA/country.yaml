@@ -18,16 +18,11 @@ governanceType: federal
 iso3166_2_prefix: "NG"
 hasSubdivisions: true
 regionCoverage:
-  # Updated 2026-09-30: this country is federal, so every first-level unit
-  # (state/province/territory) needs its own region file -- no selection,
-  # no grouping (DESIGN.md's coverage floor).
+  # 2026-10-02: all 37 first-level units (36 states + FCT) now have their own region
+  # file. Federal country -- every unit required, no selection, no grouping.
   tier: first-level
   totalUnits: 37
-  status: partial
-  gapReason: "0 of 37 first-level units have their own region file; 37 still needed
-    -- NGA is federal, so every unit is required. Grouped entries NG-N,
-    NG-SW, NG-SE, NG-SS each cover several units under one file and must
-    be split into one file per unit. Queued in TODO.md."
+  status: complete
 languageUsage:
   - languageCode: eng
     domain: official
@@ -135,18 +130,117 @@ communicationStyle:
 distinct-regions:
   - code: WHOLE
     file: distinct-regions/whole.yaml
-  - code: NG-N
-    file: distinct-regions/north.yaml
-    adminUnitCodes: [NG-BA, NG-BO, NG-JI, NG-KD, NG-KN, NG-KT, NG-KE, NG-NI, NG-SO, NG-YO, NG-ZA]
-  - code: NG-SW
-    file: distinct-regions/southwest.yaml
-    adminUnitCodes: [NG-EK, NG-KW, NG-LA, NG-OG, NG-ON, NG-OS, NG-OY]
-  - code: NG-SE
-    file: distinct-regions/southeast.yaml
-    adminUnitCodes: [NG-AB, NG-AN, NG-EB, NG-ED, NG-EN, NG-IM, NG-PL]
-  - code: NG-SS
-    file: distinct-regions/southsouth.yaml
-    adminUnitCodes: [NG-AK, NG-BE, NG-BY, NG-CR, NG-DE, NG-RI]
+  - code: NG-AB
+    file: distinct-regions/ng-ab.yaml
+    adminUnitCodes: [NG-AB]
+  - code: NG-AD
+    file: distinct-regions/ng-ad.yaml
+    adminUnitCodes: [NG-AD]
+  - code: NG-AK
+    file: distinct-regions/ng-ak.yaml
+    adminUnitCodes: [NG-AK]
+  - code: NG-AN
+    file: distinct-regions/ng-an.yaml
+    adminUnitCodes: [NG-AN]
+  - code: NG-BA
+    file: distinct-regions/ng-ba.yaml
+    adminUnitCodes: [NG-BA]
+  - code: NG-BE
+    file: distinct-regions/ng-be.yaml
+    adminUnitCodes: [NG-BE]
+  - code: NG-BO
+    file: distinct-regions/ng-bo.yaml
+    adminUnitCodes: [NG-BO]
+  - code: NG-BY
+    file: distinct-regions/ng-by.yaml
+    adminUnitCodes: [NG-BY]
+  - code: NG-CR
+    file: distinct-regions/ng-cr.yaml
+    adminUnitCodes: [NG-CR]
+  - code: NG-DE
+    file: distinct-regions/ng-de.yaml
+    adminUnitCodes: [NG-DE]
+  - code: NG-EB
+    file: distinct-regions/ng-eb.yaml
+    adminUnitCodes: [NG-EB]
+  - code: NG-ED
+    file: distinct-regions/ng-ed.yaml
+    adminUnitCodes: [NG-ED]
+  - code: NG-EK
+    file: distinct-regions/ng-ek.yaml
+    adminUnitCodes: [NG-EK]
+  - code: NG-EN
+    file: distinct-regions/ng-en.yaml
+    adminUnitCodes: [NG-EN]
+  - code: NG-FC
+    file: distinct-regions/ng-fc.yaml
+    adminUnitCodes: [NG-FC]
+  - code: NG-GO
+    file: distinct-regions/ng-go.yaml
+    adminUnitCodes: [NG-GO]
+  - code: NG-IM
+    file: distinct-regions/ng-im.yaml
+    adminUnitCodes: [NG-IM]
+  - code: NG-JI
+    file: distinct-regions/ng-ji.yaml
+    adminUnitCodes: [NG-JI]
+  - code: NG-KD
+    file: distinct-regions/ng-kd.yaml
+    adminUnitCodes: [NG-KD]
+  - code: NG-KE
+    file: distinct-regions/ng-ke.yaml
+    adminUnitCodes: [NG-KE]
+  - code: NG-KN
+    file: distinct-regions/ng-kn.yaml
+    adminUnitCodes: [NG-KN]
+  - code: NG-KO
+    file: distinct-regions/ng-ko.yaml
+    adminUnitCodes: [NG-KO]
+  - code: NG-KT
+    file: distinct-regions/ng-kt.yaml
+    adminUnitCodes: [NG-KT]
+  - code: NG-KW
+    file: distinct-regions/ng-kw.yaml
+    adminUnitCodes: [NG-KW]
+  - code: NG-LA
+    file: distinct-regions/ng-la.yaml
+    adminUnitCodes: [NG-LA]
+  - code: NG-NA
+    file: distinct-regions/ng-na.yaml
+    adminUnitCodes: [NG-NA]
+  - code: NG-NI
+    file: distinct-regions/ng-ni.yaml
+    adminUnitCodes: [NG-NI]
+  - code: NG-OG
+    file: distinct-regions/ng-og.yaml
+    adminUnitCodes: [NG-OG]
+  - code: NG-ON
+    file: distinct-regions/ng-on.yaml
+    adminUnitCodes: [NG-ON]
+  - code: NG-OS
+    file: distinct-regions/ng-os.yaml
+    adminUnitCodes: [NG-OS]
+  - code: NG-OY
+    file: distinct-regions/ng-oy.yaml
+    adminUnitCodes: [NG-OY]
+  - code: NG-PL
+    file: distinct-regions/ng-pl.yaml
+    adminUnitCodes: [NG-PL]
+  - code: NG-RI
+    file: distinct-regions/ng-ri.yaml
+    adminUnitCodes: [NG-RI]
+  - code: NG-SO
+    file: distinct-regions/ng-so.yaml
+    adminUnitCodes: [NG-SO]
+  - code: NG-TA
+    file: distinct-regions/ng-ta.yaml
+    adminUnitCodes: [NG-TA]
+  - code: NG-YO
+    file: distinct-regions/ng-yo.yaml
+    adminUnitCodes: [NG-YO]
+  - code: NG-ZA
+    file: distinct-regions/ng-za.yaml
+    adminUnitCodes: [NG-ZA]
 sources:
   - id: nga-const1999-sec55
     name: "Constitution of the Federal Republic of Nigeria 1999 - Section 55 (Languages of the National Assembly)"

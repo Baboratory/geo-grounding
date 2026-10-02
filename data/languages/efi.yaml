@@ -1,0 +1,8 @@
+code: efi
+name:
+  eng: Efik
+  local: Efik
+# Efik (ISO 639-3 'efi') is the language of the Efik people and of the historic city
+# of Calabar (Cross River State, South-South Nigeria), where it serves as a lingua
+# franca of the Cross River basin. No verified common-phrase set was available at
+# authoring time; omitted rather than risking unverified text.

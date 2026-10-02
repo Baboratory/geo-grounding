@@ -1,0 +1,108 @@
+code: NG-GO
+name:
+  eng: Gombe
+  local:
+    - languageCode: hau
+      value: Gombe
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (Sahel steppe) climate of the North-East — a short wet season roughly May-September and a long, hot dry season with the dusty harmattan the rest of the year, with high daytime heat."
+landmarks:
+  - name: Gombe State University
+    description: "The state's flagship public university in Gombe city, a centre of higher education in the North-East."
+  - name: Dadin Kowa Dam
+    description: "A major dam and reservoir on the Gongola river providing irrigation, water supply and fish farming for the state."
+  - name: Tula highlands
+    description: "The elevated, scenic highlands of Tula in the south of the state, known for their cooler conditions, rock formations and remote farming villages."
+  - name: Gombe city
+    description: "The state capital, a growing administrative and commercial centre on the road corridor from the North-East."
+  - name: Emir of Gombe's Palace
+    description: "The traditional seat of the Emir of Gombe, a symbol of the state's Hausa-Fulani emirate heritage."
+culturalTraits:
+  - "A predominantly Muslim Hausa-Fulani state created out of Bauchi State in 1996"
+  - "An emirate society with a strong rural, agrarian character and pastoral Fulani traditions"
+  - "A North-East state with a growing modern educational and administrative profile centered on Gombe city"
+prideOf:
+  - "The Gombe Emirate and Hausa-Fulani heritage"
+  - "Gombe State University and the state's growing institutions"
+  - "The Tula highlands and the Dadin Kowa reservoir"
+animals:
+  popular:
+    - "Zebu cattle, goats and sheep of the pastoral economy"
+    - "Donkeys and horses for transport"
+  unique:
+    - "Hippopotamus and crocodile at the Dadin Kowa reservoir and the Gongola river"
+    - "Savanna antelope and birdlife of the state's woodlands"
+industries:
+  - "Agriculture (maize, sorghum, millet, groundnuts, cotton) and livestock"
+  - "Fishing and fish farming at the Dadin Kowa reservoir"
+  - "Trade and commerce in Gombe city"
+  - "Services and administration"
+sports:
+  - "Football"
+  - "Traditional wrestling (kokawa)"
+  - "Horse riding and the Durbar"
+religions:
+  # Gombe is one of the overwhelmingly Muslim northern states. Nigeria has not asked a
+  # religion question in its census since 1963, so this split is a survey estimate.
+  - name: Muslim
+    percent: 95.0
+    sourceId: usstate-irf-gombe
+  - name: Christian
+    percent: 5.0
+    sourceId: usstate-irf-gombe
+entertainment:
+  - season: dry
+    items:
+      - "The Gombe Durbar and Eid celebrations in the cooler, drier months"
+  - season: wet
+    items:
+      - "Harvest-time community gatherings and Hausa music and bardic performances"
+  - season: allYear
+    items:
+      - "The Emir's Palace, the state's markets and the Tula highlands year-round"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo shinkafa and tuwon masara with rich soups (miyan kuka, miyan taushe)"
+      - "Suya, kilishi and dambu nama"
+      - "Fura da nono and groundnut soup"
+      - "Fresh fish from the Dadin Kowa reservoir"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the flowing babban riga gown with an embroidered cap (hula); women wear wrappers, blouses and the hijab common in the Muslim north"
+  - season: dry
+    items:
+      - "Festive white or richly embroidered gowns and turbans for Eid and celebrations"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets trade daily but with a Friday midday break for congregational prayers."
+  lunchBreakTiming: "A midday break around 13:00-14:00, often with prayer; on Fridays the midday prayer break is longer."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Kabir"
+      description: "Major Islamic holidays — most businesses close for the festivities and the Durbar."
+  notes: "Gombe is one of twelve northern states to have adopted a Sharia penal code (in 2001); alcohol is restricted and Friday midday prayer is widely observed."
+  sourceIds:
+    - usstate-irf-gombe
+sources:
+  - id: gombe-state
+    name: "Gombe State Government — about the state"
+    publisher: "Gombe State Government"
+    url: "https://gombestate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Gombe as a North-East state created from Bauchi in 1996, its capital Gombe, and the Dadin Kowa dam and Tula highlands."
+  - id: usstate-irf-gombe
+    name: "International Religious Freedom Report — Nigeria (Gombe)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/report/custom/c02a814b6c"
+    year: 2019
+    accessedDate: "2026-10-02"
+    note: "Gombe is an overwhelmingly Muslim state (survey estimate — Nigeria's census has not collected religion since 1963) and is one of the twelve states that adopted a Sharia penal code."

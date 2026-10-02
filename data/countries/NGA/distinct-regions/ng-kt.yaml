@@ -1,0 +1,109 @@
+code: NG-KT
+name:
+  eng: Katsina
+  local:
+    - languageCode: hau
+      value: Katsina
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (Sahel steppe) climate of the far north-west — a short wet season roughly June-September and a long, very hot dry season with the dusty harmattan the rest of the year, near the southern edge of the Sahara."
+landmarks:
+  - name: Gobarau Minaret
+    description: "The iconic fifteenth-century mud-brick minaret of the old Katsina city — among the earliest and grandest examples of Sahelian Islamic architecture, a symbol of Katsina's historic scholarship."
+  - name: Ancient Katsina city
+    description: "One of the oldest and most storied Hausa cities, a major centre of trans-Saharan trade and Islamic learning for centuries before colonial rule."
+  - name: Katsina Emir's Palace
+    description: "The traditional seat of the Emir of Katsina, a landmark of the ancient emirate and Hausa authority."
+  - name: Kusugu Well (Daura)
+    description: "The legendary well at Daura, central to the founding myth of the Hausa states (the tale of Bayajidda), located in Katsina State."
+  - name: The Katsina State Mosque and the city's old quarters
+    description: "The great central mosque and the winding historic quarters of the city that anchor its Islamic identity."
+culturalTraits:
+  - "One of the oldest Hausa city-states — a historic seat of Islamic scholarship and trans-Saharan trade in the far north"
+  - "A profoundly Islamic society, census-religion withheld but overwhelmingly Muslim, with Quranic and Islamic schooling a centuries-old tradition"
+  - "The birthplace state of Nigerian presidents Umaru Musa Yar'Adua and Muhammadu Buhari"
+prideOf:
+  - "The ancient city of Katsina and the Gobarau Minaret"
+  - "A long tradition of Islamic scholarship and the emirate"
+  - "Being the state of presidents Yar'Adua and Buhari"
+animals:
+  popular:
+    - "Zebu cattle, goats, sheep and camels of the Sahelian pastoral economy"
+    - "Donkeys and horses for transport"
+  unique:
+    - "Sahelian antelope and other dryland fauna of the northern reserves"
+    - "Desert-edge birdlife in the semi-arid north"
+industries:
+  - "Agriculture (millet, sorghum, maize, groundnuts, cotton, sesame) and livestock"
+  - "Groundnut and cotton processing"
+  - "Hides, skins and leather work"
+  - "Trade and commerce in Katsina city"
+sports:
+  - "Football"
+  - "Traditional wrestling (kokawa)"
+  - "Horse racing and the Durbar"
+religions:
+  # Katsina is one of the overwhelmingly Muslim northern states, an ancient centre of
+  # Islamic scholarship. Nigeria has not asked a religion question in its census since
+  # 1963, so this split is a survey estimate.
+  - name: Muslim
+    percent: 98.5
+    sourceId: usstate-irf-katsina
+  - name: Christian
+    percent: 1.5
+    sourceId: usstate-irf-katsina
+entertainment:
+  - season: dry
+    items:
+      - "The Katsina Durbar and Eid celebrations in the cooler, drier months"
+      - "Daura's cultural festivals connected with the Hausa origin legends"
+  - season: wet
+    items:
+      - "Harvest-time community gatherings and Hausa music and bardic performances"
+  - season: allYear
+    items:
+      - "The Gobarau Minaret, the Emir's Palace and the historic quarters of Katsina city year-round"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo shinkafa and tuwon masara with rich soups (miyan kuka, miyan taushe)"
+      - "Suya and kilishi (dried spiced meat)"
+      - "Fura da nono and groundnut soup"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the flowing babban riga gown with an embroidered cap (hula) and often a turban; women wear wrappers, blouses and the hijab common in the Muslim north"
+  - season: dry
+    items:
+      - "Festive white or richly embroidered gowns and turbans for the Eid Durbar and celebrations"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets trade daily but with a Friday midday break for congregational prayers."
+  lunchBreakTiming: "A midday break around 13:00-14:00, often with prayer; on Fridays the midday prayer break is longer."
+  notableShutdownPeriods:
+    - period: "Eid al-Fitr and Eid al-Kabir"
+      description: "Major Islamic holidays — most businesses close for the festivities and the Durbar."
+  notes: "Katsina is one of twelve northern states to have adopted a Sharia penal code (in 2000); alcohol is restricted and Friday midday prayer is widely observed."
+  sourceIds:
+    - usstate-irf-katsina
+sources:
+  - id: katsina-state
+    name: "Katsina State Government — about the state"
+    publisher: "Katsina State Government"
+    url: "https://katsinastate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Katsina as a far-northwest state, the ancient city and its emirate, and its Islamic and scholarship traditions."
+  - id: usstate-irf-katsina
+    name: "International Religious Freedom Report — Nigeria (Katsina)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/report/custom/c02a814b6c"
+    year: 2019
+    accessedDate: "2026-10-02"
+    note: "Katsina is an overwhelmingly Muslim state (survey estimate — Nigeria's census has not collected religion since 1963) and is one of the twelve states that adopted a Sharia penal code."

@@ -1,0 +1,122 @@
+code: NG-AK
+name:
+  eng: Akwa Ibom
+  local:
+    - languageCode: eng
+      value: Akwa Ibom
+    - languageCode: ibb
+      value: Akwa Ibom
+climates:
+  - koppenCode: Am
+    description: "Tropical monsoon climate along the Atlantic coast — warm and humid all year with heavy rainfall (a short, relatively dry belt roughly Nov-Apr in the far south and an extended wet season the rest of the year), mangrove and transition forests near the coast."
+landmarks:
+  - name: Ibeno Beach
+    description: "One of the longest sand beaches in West Africa, stretching along the Atlantic coast of the far south — a celebrated coastal leisure site."
+  - name: Godswill Akpabio International Stadium, Uyo
+    description: "The state's large modern stadium in Uyo, used for football and major national events."
+  - name: Stubb Creek Forest Reserve
+    description: "A threatened coastal rainforest reserve in the south-east holding declining populations of crocodile, putty-nosed monkey, red-capped mangabey and Sclater's guenon."
+  - name: Ekpo masquerade festivals
+    description: "The vibrant Ekpo (leopard-society) masquerade ceremonies of the Ibibio and Annang peoples, central to the region's festival life."
+culturalTraits:
+  - "The heartland of the closely related Ibibio, Annang and Oron peoples, in the coastal South-South zone — a genuinely multi-ethnic state rather than a single-language one"
+  - "An overwhelmingly Christian state whose church culture, gospel music and pastors are nationally prominent ('The Land of Promise')"
+  - "Ekpo and Ekong masquerade traditions, elaborate traditional weddings and the Annang and Ibibio festivals"
+prideOf:
+  - "Being Nigeria's top crude-oil and natural-gas producing state"
+  - "Ibeno Beach and the Atlantic coastline"
+  - "The region's deep Christian and church culture"
+animals:
+  popular:
+    - "Fish and shellfish of the coastal waters and creeks"
+    - "Goats and poultry of the smallholder economy"
+  unique:
+    - "Red-capped mangabey and Sclater's guenon (Stubb Creek Forest Reserve)"
+    - "Putty-nosed monkey and crocodiles of the coastal reserves"
+    - "Offshore cetaceans, including dolphins, in the Bight of Bonny"
+industries:
+  - "Crude oil and natural gas (Akwa Ibom produces the most oil of any Nigerian state)"
+  - "Agriculture (cocoyam, yam, plantain, cassava) and fishing"
+  - "Heliciculture (snail farming) and aquaculture"
+  - "Commerce and services around the capital Uyo"
+sports:
+  - "Football"
+  - "Athletics"
+  - "Wrestling (traditional)"
+  - "Basketball"
+religions:
+  # Akwa Ibom is one of Nigeria's most overwhelmingly Christian states. This split is a
+  # survey estimate, not a census figure (Nigeria has not collected religion since 1963).
+  - name: Christian
+    percent: 85.0
+    sourceId: usstate-irf
+  - name: Muslim
+    percent: 10.0
+    sourceId: usstate-irf
+  - name: Traditional
+    percent: 5.0
+    sourceId: usstate-irf
+entertainment:
+  - season: allYear
+    items:
+      - "Gospel music, church festivals and the region's famous church culture"
+      - "Ekpo and Ekong masquerade performances and traditional ceremonies"
+  - season: dry
+    items:
+      - "Coastal leisure at Ibeno Beach and festive events in the drier months"
+  - season: wet
+    items:
+      - "Creek fishing and riverside culture during the rainy season"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Atama soup (palm-nut soup seasoned with atama leaves) and afang soup"
+      - "Ekpang nkukwo (pounded cocoyam wrapped in leaves) with fish or meat"
+      - "Iwang (fried cassava snack), roasted fish and seafood of the coast"
+  - season: dry
+    items:
+      - "Harvest-season yam and plantain dishes and festive feasts"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Women wear colourful wrappers (ukod), head-ties and beads; men wear wrappers or embroidered shirts"
+      - "Distinctive Akwa Ibom traditional wrappers and ceremonial attire at weddings"
+  - season: dry
+    items:
+      - "Festive regalia for Christmas, weddings and Ekpo festival celebrations in the drier months"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3]
+  - season: wet
+    months: [4, 5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets and coastal trade follow daily and weekly rhythms."
+  lunchBreakTiming: "A midday break around 13:00-14:00."
+  notableShutdownPeriods:
+    - period: "Christmas and New Year"
+      description: "Business in this predominantly Christian state slows over the Christmas-New Year week."
+  notes: "As an overwhelmingly Christian oil-and-agriculture coastal state, the weekly church rhythm (Sunday observance) and the fishing and farming calendar shape much of the business cycle, with Uyo's administrative and commercial life at its centre. Observations resolve to Akwa Ibom's tropical dry/wet climate, not a four-season year."
+sources:
+  - id: wikipedia-ak
+    name: "Akwa Ibom State — Wikipedia"
+    publisher: "Wikipedia (Wikimedia Foundation)"
+    url: "https://en.wikipedia.org/wiki/Akwa_Ibom_State"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Backdrop for Akwa Ibom as an Ibibio/Annang/Oron coastal South-South state split from Cross River in 1987, its capital Uyo, tropical monsoon climate, oil-and-gas economy, Stubb Creek Reserve and Ibeno Beach."
+  - id: ak-state-gov
+    name: "Akwa Ibom State Government — official website"
+    publisher: "Akwa Ibom State Government"
+    url: "https://akwaibomstate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official confirmation of the state's identity and its standing as a leading oil producer; backdrop for landmarks and industries."
+  - id: usstate-irf
+    name: "2023 Report on International Religious Freedom: Nigeria"
+    publisher: "US Department of State, Bureau of Democracy, Human Rights, and Labor"
+    url: "https://www.state.gov/reports/2023-report-on-international-religious-freedom/nigeria/"
+    year: 2023
+    accessedDate: "2026-10-02"
+    note: "Nigerian state-level religious composition is a survey estimate since the census has not collected religion since 1963; Akwa Ibom is documented as overwhelmingly Christian. Used for the religion split."

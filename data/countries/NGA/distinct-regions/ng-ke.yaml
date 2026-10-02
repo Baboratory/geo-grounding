@@ -1,0 +1,111 @@
+code: NG-KE
+name:
+  eng: Kebbi
+  local:
+    - languageCode: hau
+      value: Kebbi
+climates:
+  - koppenCode: BSh
+    description: "Hot semi-arid (Sahel steppe) climate of the far north-west along the Niger river — a short wet season roughly May-September and a long, hot, very dry season with the dusty harmattan the rest of the year."
+landmarks:
+  - name: Argungu Fishing Festival
+    description: "The world-famous annual fishing festival on the Matan Fada (Kwaido) river at Argungu — a great communal spectacle where fishermen compete to catch the largest fish, one of Nigeria's biggest cultural events."
+  - name: Birnin Kebbi
+    description: "The state capital, an old trading and administrative town on the banks of the Sokoto (Kebbi) river."
+  - name: The Sokoto (Kebbi) River
+    description: "The seasonal river that waters the state's vast floodplain rice fields and hosts the Argungu festival's fishing competition."
+  - name: Kanta Museum, Argungu
+    description: "A museum housed in the former palace of the historic Kebbi kingdom's ruler, Muhammadu Kanta, displaying arts of the region."
+  - name: Yauri and the lakeside settlements
+    description: "The riverine towns of the south along the Niger, known for their fishing and farming communities."
+culturalTraits:
+  - "An overwhelmingly Muslim, Hausa-speaking state of the far north-west, heavily shaped by its floodplain along the Sokoto/Niger rivers"
+  - "The historic Kebbi kingdom's heritage and a strong traditional emirate culture"
+  - "One of Nigeria's leading rice-growing states — the 'rice bowl of the north' — with a notable fishing culture along its rivers"
+prideOf:
+  - "The Argungu Fishing Festival"
+  - "Being the rice bowl of the north"
+  - "The heritage of the historic Kebbi kingdom"
+animals:
+  popular:
+    - "Zebu cattle, goats and sheep of the pastoral economy"
+    - "Donkeys and horses for transport"
+  unique:
+    - "Large river fish such as Nile perch and catfish in the Sokoto/Niger system"
+    - "Hippopotamus and aquatic birds of the riverine wetlands"
+industries:
+  - "Agriculture (rice, millet, sorghum, wheat, groundnuts) — a leading rice producer"
+  - "Fishing"
+  - "Livestock and dairy"
+  - "Agro-processing and riverine trade"
+sports:
+  - "Football"
+  - "Traditional wrestling (kokawa)"
+  - "Swimming and fishing competitions (the Argungu festival)"
+religions:
+  # Kebbi is one of the overwhelmingly Muslim northern states. Nigeria has not asked a
+  # religion question in its census since 1963, so this split is a survey estimate.
+  - name: Muslim
+    percent: 97.0
+    sourceId: usstate-irf-kebbi
+  - name: Christian
+    percent: 3.0
+    sourceId: usstate-irf-kebbi
+entertainment:
+  - season: dry
+    items:
+      - "The Argungu Fishing Festival, held in the dry season (usually early in the year) — a huge communal carnival and competition"
+      - "Eid celebrations and traditional durbar festivals in the cooler, drier months"
+  - season: wet
+    items:
+      - "Farming and riverine fishing cycles and community gatherings along the rivers"
+  - season: allYear
+    items:
+      - "The riverine towns and markets and the heritage of the Kebbi kingdom year-round"
+traditionalDishes:
+  - season: allYear
+    items:
+      - "Tuwo shinkafa and tuwon masara with rich soups (miyan kuka, miyan taushe)"
+      - "Suya and kilishi (dried spiced meat)"
+      - "Fura da nono and groundnut soup"
+      - "Fresh river fish — a regional speciality of the Kebbi floodplain"
+traditionalClothing:
+  - season: allYear
+    items:
+      - "Men wear the flowing babban riga gown with an embroidered cap (hula); women wear wrappers, blouses and the hijab common in the Muslim north"
+  - season: dry
+    items:
+      - "Festive white or richly embroidered gowns and turbans for Eid and the Argungu festival"
+seasonCalendar:
+  - season: dry
+    months: [11, 12, 1, 2, 3, 4]
+  - season: wet
+    months: [5, 6, 7, 8, 9, 10]
+businessRhythm:
+  restDays:
+    - sunday
+  typicalWorkHours: "Government and offices typically run 08:00-17:00 Monday-Friday; markets trade daily but with a Friday midday break for congregational prayers."
+  lunchBreakTiming: "A midday break around 13:00-14:00, often with prayer; on Fridays the midday prayer break is longer."
+  notableShutdownPeriods:
+    - period: "Argungu Fishing Festival"
+      description: "Held annually (usually early in the year) at Argungu, the festival draws huge crowds and largely halts routine business in the town for its duration."
+    - period: "Eid al-Fitr and Eid al-Kabir"
+      description: "Major Islamic holidays when most businesses close for the festivities."
+  notes: "Kebbi is one of twelve northern states to have adopted a Sharia penal code (in 2000); alcohol is restricted and Friday midday prayer is widely observed."
+  sourceIds:
+    - usstate-irf-kebbi
+sources:
+  - id: kebbi-state
+    name: "Kebbi State Government — about the state"
+    publisher: "Kebbi State Government"
+    url: "https://kebbistate.gov.ng/"
+    year: 2026
+    accessedDate: "2026-10-02"
+    note: "Official backdrop for Kebbi as a far-northwest riverine state, its capital Birnin Kebbi, and its floodplain agriculture and rice production."
+  - id: usstate-irf-kebbi
+    name: "International Religious Freedom Report — Nigeria (Kebbi)"
+    publisher: "US Department of State"
+    url: "https://www.state.gov/report/custom/c02a814b6c"
+    year: 2019
+    accessedDate: "2026-10-02"
+    note: "Kebbi is an overwhelmingly Muslim state (survey estimate — Nigeria's census has not collected religion since 1963) and is one of the twelve states that adopted a Sharia penal code."
