@@ -27,8 +27,7 @@ animals:
   popular:
     - "Asian elephants — the north is the centre of elephant tourism and sanctuaries"
     - "Gibbons and hornbills in the montane forests"
-  unique:
-    - "The crested argus pheasant in remnant forests"
+  unique: []
 industries:
   - "Tourism and wellness (spas, meditation retreats, coffee farms)"
   - "Crafts and handicrafts (silver, lacquerware, textiles)"

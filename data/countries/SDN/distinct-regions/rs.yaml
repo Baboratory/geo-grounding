@@ -33,7 +33,7 @@ landmarks:
   - name: Tokar
     description: "The port of the fertile Tokar Delta, a cotton-growing coastal plain of the Beja lands."
 culturalTraits:
-  - "The Beja people — one of the most ancient populations of the region, largely pastoral camel- and goat-herders of the eastern hills, known for their independence and distinctive dress (the 'fibro' headwrap)"
+  - "The Beja people — one of the most ancient populations of the region, largely pastoral camel- and goat-herders of the eastern hills, known for their independence and distinctive dress"
   - "A maritime and Red Sea trade tradition linked across to Arabia, from Suakin's long commercial and pilgrimage history"
   - "The rain-fed agricultural plateaus of Kassala and Gedaref feeding much of northern Sudan"
   - "A hard desert-edge pastoralism alongside a growing port-and-gold economy"
@@ -74,7 +74,6 @@ traditionalDishes:
 traditionalClothing:
   - season: allYear
     items:
-      - "The Beja 'fibro' — the distinctive white cotton headwrap of the eastern men"
       - "Loose desert robes and the women's thobe"
 businessRhythm:
   restDays:

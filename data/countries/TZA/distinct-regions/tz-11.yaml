@@ -12,10 +12,6 @@ landmarks:
     description: "The official capital of Tanzania since 1973, seat of the National Assembly and government ministries relocated from Dar es Salaam."
   - name: National Assembly (Parliament) building
     description: "The seat of Tanzania's parliament, opened in 1996 as the centrepiece of the city's status as national capital."
-  - name: The Waga Waga escarpment
-    description: "Scenic reddish-coloured cliffs and viewpoints overlooking the surrounding plateau."
-  - name: Makutse cave country
-    description: "Rocky limestone terrain renowned among climbers and hikers in the Dodoma region."
 culturalTraits:
   - "Tanzania's official capital, located in the dry central region of the country"
   - "A city of government, presidential ceremonies and national institutions"

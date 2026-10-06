@@ -17,9 +17,6 @@ landmarks:
   - name: Old Bridge of Mostar
     description: "16th-century Ottoman bridge over the Neretva, rebuilt after the 1990s war."
     unescoWorldHeritage: true
-  - name: Mehmed Paša Sokolović Bridge in Višegrad
-    description: "Ottoman-era bridge over the Drina, a Unesco-listed engineering landmark."
-    unescoWorldHeritage: true
 culturalTraits:
   - Distinct café (kafić) culture
   - Strong Muslim (Bosniak), Catholic (Croat) and Orthodox (Serb) heritages

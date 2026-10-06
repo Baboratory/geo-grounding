@@ -5,8 +5,7 @@ name:
     - languageCode: som
       value: Soomaaliland
 # Somaliland — the former British Somaliland protectorate that declared
-# independence in 1991 and governs itself as the self-declared, internationally
-# unrecognised Republic of Somaliland (capital Hargeisa), and is the one part of
+# independence in 1991 and governs itself as the self-declared Republic of Somaliland, recognised by Israel since 26 December 2025 (capital Hargeisa), and is the one part of
 # Somalia that has remained broadly stable and peaceful since. This curated
 # region groups the five ISO 3166-2 regions it administers: Awdal (SO-AW),
 # Woqooyi Galbeed/Maroodi Jeex (SO-WO), Togdheer (SO-TO), Sanaag (SO-SA) and
@@ -48,7 +47,6 @@ animals:
     - "Dromedary camels — the prized animal of Somaliland's pastoral culture"
     - "Sheep and goats (Somaliland is one of the region's largest livestock exporters)"
   unique:
-    - "Wild Barbary sheep / aoudad in the Golis and highland ranges"
     - "Klippspringer and cliff-dwelling antelope of the coastal ranges"
     - "Somali wild ass and Beira antelope in the arid interior"
     - "Sea turtles and dugongs in the Gulf of Aden waters"

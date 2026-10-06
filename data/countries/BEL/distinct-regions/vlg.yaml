@@ -16,8 +16,6 @@ landmarks:
     unescoWorldHeritage: true
   - name: Ghent
     description: A historic city of canals, the Gravensteen castle and a rich cloth-trade past, framed by the St Bavo's Cathedral altarpiece (the Ghent Altarpiece).
-  - name: Atomium (at the Flemish-Brussels border area)
-    description: The iconic 1958 World's Fair monument, one of Belgium's most recognisable landmarks.
   - name: The Beaches of the Belgian Coast
     description: Sandy North Sea beaches and seaside resorts (Ostend, Knokke-Heist, De Panne) backed by a traditional tram line along the coast.
 culturalTraits:
@@ -100,7 +98,7 @@ traditionalDishes:
 traditionalClothing:
   - season: allYear
     items:
-      - "Folk and historical dress worn at pageants and processions (e.g. the Festival of the Sacrament of the Holy Miracle in Bruges, and historical guild costumes)"
+      - "Folk and historical dress worn at pageants and processions (e.g. the Procession of the Holy Blood in Bruges, and historical guild costumes)"
 seasonCalendar:
   - season: spring
     months: [3, 4, 5]

@@ -26,8 +26,7 @@ animals:
   popular:
     - "Sea turtles"
     - "Blue whale (seasonal)"
-  unique:
-    - "Koneswaram's cultural significance"
+  unique: []
 industries:
   - "Fisheries and seafood"
   - "Tourism (beaches, surfing at Arugam Bay)"

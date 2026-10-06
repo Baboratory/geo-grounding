@@ -14,6 +14,7 @@ landmarks:
     description: "Cameroon's economic capital and main port, on the Wouri; the Douala port is central to Central African trade."
   - name: Dja Faunal Reserve
     description: "UNESCO World Heritage Site — one of Africa's largest protected rainforest reserves, rich in gorillas and elephants."
+    unescoWorldHeritage: true
   - name: Campo-Ma'an National Park
     description: "Coastal rainforest park home to western lowland gorillas and forest elephants."
 culturalTraits:
@@ -57,7 +58,7 @@ traditionalDishes:
     items:
       - "Ndolé"
       - "Poulet DG (chicken with plantains)"
-      - "Bobolo (smoked fish with cassava paste)"
+      - "Bobolo (fermented cassava paste steamed in leaves, served with chicken or Gnetum)"
       - "Seafood and pepper soup in Douala"
 traditionalClothing:
   - season: allYear

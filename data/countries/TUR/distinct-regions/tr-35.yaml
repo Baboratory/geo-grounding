@@ -37,7 +37,6 @@ animals:
     - Seagulls and shorebirds
     - Dogs in the coastal districts
   unique:
-    - "Aegean (marble) trout"
     - "Sand lizard (Aegean coastal species)"
 industries:
   - "Port and maritime trade (İzmir port)"
@@ -59,9 +58,6 @@ religions:
   - name: "Alevi Muslim"
     percent: 6.0
     sourceId: tur-uscirf
-  - name: "Christian (Greek Orthodox heritage) and Jewish (Sephardic) communities"
-    percent: 3.0
-    sourceId: tur-unesco
 entertainment:
   - season: summer
     items:
@@ -111,10 +107,3 @@ sources:
     year: 2023
     accessedDate: "2026-09-20"
     note: "Religious-affiliation estimates for İzmir province (Sunni ~90%, Alevi ~6%). Estimates only."
-  - id: tur-unesco
-    name: "UNESCO World Heritage List: Türkiye"
-    publisher: "UNESCO World Heritage Centre"
-    url: "https://whc.unesco.org/en/list/"
-    year: 2025
-    accessedDate: "2026-09-20"
-    note: "Ephesus (2015); also the reference for the historic Greek Orthodox and Sephardic Jewish communities of İzmir."

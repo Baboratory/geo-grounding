@@ -15,7 +15,7 @@ landmarks:
     description: The last surviving Wonder of the Ancient World, on the Giza plateau (Giza governorate).
     unescoWorldHeritage: true
   - name: Egyptian Museum, Tahrir
-    description: Asia-housed trove of ancient Egyptian antiquities, including the Tutankhamun collection.
+    description: Cairo-housed trove of ancient Egyptian antiquities (the Tutankhamun collection moved to the Grand Egyptian Museum, Giza, in 2025).
   - name: Khan el-Khalili
     description: Historic bazaar hub of Islamic Cairo.
   - name: Saladin Citadel & Mosque of Muhammad Ali
@@ -40,7 +40,6 @@ animals:
     - "Nile fish and the Nile Monitor lizard along the riverbanks"
   unique:
     - "Egyptian fruit bat — native, roosts around the city and Nile"
-    - "Nubian ibex, present in the nearby Giza/desert fringe"
 industries:
   - "Public administration, government and services"
   - "Media, film and entertainment (Cairo is the Arab world's media hub)"

@@ -15,6 +15,7 @@ landmarks:
     unescoWorldHeritage: true
   - name: Lençóis Maranhenses
     description: "White sand dunes dotted with seasonal freshwater lagoons."
+    unescoWorldHeritage: true
   - name: Fernando de Noronha
     description: "The pristine Atlantic archipelago, a UNESCO World Heritage Site and diving paradise."
     unescoWorldHeritage: true
@@ -33,7 +34,7 @@ animals:
     - "Capybara and manatees along the coast"
     - "Coatis and monkeys in the Atlantic Forest (Mata Atlântica)"
   unique:
-    - "The blue-winged macaw (arara-azul) and the Brazilian dwarf brocket deer of the semi-arid"
+    - "The blue-winged macaw (maracanã, Primolius maracana) and the gray brocket deer (veado-catingueiro) of the semi-arid"
 industries:
   - "Tourism — Salvador, beach resorts and the colonial coast"
   - "Agriculture — sugar, cocoa (the 'Chocolate Coast'), tropical fruit"

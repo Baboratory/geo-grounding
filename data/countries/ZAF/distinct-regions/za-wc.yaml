@@ -27,8 +27,7 @@ animals:
   popular:
     - "Cape fur seal"
     - "African penguin"
-  unique:
-    - "Fynbos endemic flora (Protea)"
+  unique: []
 industries:
   - "Wine and agriculture"
   - "Tourism"

@@ -29,7 +29,6 @@ animals:
     - Fennec fox
   unique:
     - Dorcas gazelle
-    - Addax (critically endangered, far north)
     - Barbary sheep
 industries:
   - Pastoral herding (camels, goats, sheep) and caravan trade
@@ -39,11 +38,11 @@ industries:
 sports:
   - Football
   - Camel racing
-  - Traditional Tuareg wrestling and sword dance (takemba)
+  - Traditional Tuareg wrestling
 entertainment:
   - season: allYear
     items:
-      - Takemba sword dances and Tuareg music (dark edecheg, tiwizi)
+      - Takamba music and dance (Tuareg and Songhai) and Tuareg music (dark edecheg, tiwizi)
       - Camel-race and festival gatherings
       - Tent and oasis gatherings and camel-racing festivals
       - Metalcraft and silverwork (Tuareg cross) displays

@@ -34,7 +34,6 @@ animals:
     - Dromedary camel
     - Fennec fox
   unique:
-    - Addax (critically endangered Saharan antelope)
     - Saharan cheetah
 industries:
   - Hydrocarbons (natural gas and oil fields, especially around Hassi R'Mel / Ouargla)
@@ -56,7 +55,7 @@ traditionalDishes:
   - season: allYear
     items:
       - Dates and date-based dishes (the oasis staple)
-      - Tadouira and taguella (Berber desert breads baked in sand/embers)
+      - Taguella (Tuareg desert bread baked in sand/embers)
       - Couscous and meat (goat/camel) tagines
   - season: summer
     items:

@@ -33,7 +33,6 @@ prideOf:
   - "Modern, planned architecture and a strong university life"
 animals:
   popular:
-    - Ankara cat
     - "Angora goat (Ankara keçisi)"
     - Kangal dog (Anatolian shepherd)
   unique:
@@ -47,7 +46,7 @@ industries:
   - "Agriculture (wheat, sugar beet) in the province"
   - Construction and trade
 sports:
-  - "Football (Ankaragücü, Gençlerbirliği)"
+  - "Football (Gençlerbirliği in the Süper Lig in 2025–26; Ankaragücü relegated from the TFF First League in 2024–25)"
   - Basketball
   - Volleyball
   - Ice skating/hockey (BelPa ice rink)
@@ -91,7 +90,6 @@ traditionalDishes:
       - "Ayran and fresh fruits from the plateau"
   - season: winter
     items:
-      - "Ankara kazı (roast goose)"
       - Hearty bean and soupy stews
 seasonCalendar:
   - season: winter

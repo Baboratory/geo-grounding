@@ -33,8 +33,7 @@ prideOf:
 animals:
   popular:
     - The Pyrenean chamois
-  unique:
-    - The Iberian lynx (reintroduced in part of its historic range)
+  unique: []
 industries:
   - Tourism and hospitality
   - Chemicals and pharmaceuticals

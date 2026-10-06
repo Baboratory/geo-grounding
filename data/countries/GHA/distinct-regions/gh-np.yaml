@@ -10,12 +10,6 @@ climates:
 landmarks:
   - name: Tamale
     description: "Regional capital and largest city in northern Ghana; a rapidly growing trading and university hub."
-  - name: Mole National Park
-    description: "Ghana's largest national park, famed for large elephant populations and endangered West African lions."
-  - name: Larabanga Mosque
-    description: "One of the oldest mosques in West Africa, an iconic Sudanese-style mud structure."
-  - name: Gambaga Escarpment
-    description: "Striking sandstone escarpment running along the northern edge of the region."
   - name: Yendi
     description: "Traditional capital of the Dagbon kingdom, seat of the Ya-Na."
   - name: Tamale Central (Lamakara) Market
@@ -27,8 +21,6 @@ culturalTraits:
   - "Northern hospitality, storytelling, and the distinctive 'Dagomba strain' of drumming (the 'lunga' talking drum)"
 prideOf:
   - "The Dagbon kingdom and its chiefly heritage"
-  - "Mole National Park and its elephants"
-  - "The Larabanga Mosque and Islamic heritage"
   - "Clay-pot and smock craftsmanship"
   - "Tamale's emergence as one of Africa's fastest-growing cities"
 animals:

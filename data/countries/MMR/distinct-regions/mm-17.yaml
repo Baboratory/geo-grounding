@@ -24,8 +24,7 @@ animals:
   popular:
     - "Asian elephant"
     - "Hornbill"
-  unique:
-    - "Inle Lake's floating island villages"
+  unique: []
 industries:
   - "Tourism (Inle Lake, highland trekking)"
   - "Agriculture (tea, rice, vegetables)"

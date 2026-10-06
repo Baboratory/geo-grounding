@@ -10,8 +10,6 @@ climates:
   - koppenCode: Aw
     description: "Tropical savanna influence in the low-lying lake basin, with a distinct wet season."
 landmarks:
-  - name: Ruma National Park
-    description: "A grassy savanna national park in the Lambwe Valley, home to the endangered roan antelope and sitatunga."
   - name: Kisumu and the Port of Kisumu
     description: "Kenya's principal Lake Victoria port, with a historic railway terminus and ferries across the lake."
   - name: Ndere Island National Reserve
@@ -49,11 +47,8 @@ entertainment:
   - season: allYear
     items:
       - "Lakeside dining and sunset boat rides on Lake Victoria"
-      - "Live Luo 'omungu' performances and traditional dances"
+      - "Live Luo nyatiti, orutu and benga performances"
       - "Weekend markets and Maasai-market style stalls"
-  - season: wet
-    items:
-      - "The wet-season green of Ruma park and bird watching"
 traditionalDishes:
   - season: allYear
     items:

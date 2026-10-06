@@ -12,8 +12,8 @@ landmarks:
     description: "Mali's second city, the country's southern breadbasket and a historic cotton and commerce hub near the borders with Burkina Faso and Côte d'Ivoire."
   - name: Tata of Sikasso
     description: "The 19th-century earthen defensive ramparts (tata) built by the Kénédougou kingdom, the longest surviving such fortification in West Africa."
-  - name: Farako and the Cascades of Banfora area
-    description: "Waterfalls and hills in the border region shared with Côte d'Ivoire."
+  - name: Farako falls (about 20 km from Sikasso city)
+    description: "Waterfalls in the Sikasso region of southern Mali, near Sikasso city."
 culturalTraits:
   - "Senufo and Supyiré heartland; the Poro initiation society and Senufo sculptural art are world-renowned"
   - "Last bastion of resistance against the Samori empire in the 19th century (Sikasso's tata)"
@@ -28,8 +28,6 @@ animals:
     - "Baboon"
     - "Roan antelope"
   unique:
-    - "Bongo antelope"
-    - "Green mamba"
     - "Western chimpanzee"
 industries:
   - "Agriculture — cotton (Mali's leading producer), maize, sorghum, rice, mangoes, cashews and shea butter"

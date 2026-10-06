@@ -11,7 +11,7 @@ climates:
     description: "Humid subtropical/monsoonal climate in the lower eastern coastal plain, moderated by the sea."
 landmarks:
   - name: Seoraksan National Park
-    description: "A national park known for dramatic peaks, temple lakes and the Seoraksan ski resort."
+    description: "A national park known for dramatic peaks and temple lakes."
   - name: Pyeongchang and Yongpyong Ski Resorts
     description: "Major winter-sports resorts; Pyeongchang hosted the 2018 Winter Olympics."
   - name: Gangneung and the 2018 Olympics venues
@@ -24,14 +24,13 @@ culturalTraits:
   - "A nature-first identity of peaks, rivers, pine forests, hot springs and fresh air"
 prideOf:
   - "Hosting the 2018 Pyeongchang Winter Olympics"
-  - "World-class skiing and snowboarding (Yongpyong, Alpensia, Seoraksan)"
+  - "World-class skiing and snowboarding (Yongpyong, Alpensia, High1)"
   - "Pristine mountain nature, clean rivers and traditional temple heritage"
 animals:
   popular:
     - "Korean water deer and wild boar"
     - "Hawks and mountain birds"
   unique:
-    - "Crested ibis (reintroduced population in the Gangneung wetlands)"
     - "Long-tailed goral (mountain goat, a protected species)"
 industries:
   - "Winter tourism and ski resorts"
@@ -45,7 +44,7 @@ sports:
 entertainment:
   - season: winter
     items:
-      - "Skiing and snowboarding at Yongpyong, Alpensia and Seoraksan"
+      - "Skiing and snowboarding at Yongpyong, Alpensia and High1"
       - "Ice climbing and winter festivals"
   - season: summer
     items:

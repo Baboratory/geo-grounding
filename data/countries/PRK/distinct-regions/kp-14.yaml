@@ -1,6 +1,6 @@
 code: KP-14
 name:
-  eng: Nampo (South Pyongan–area Special City)
+  eng: Nampo (Special City)
   local:
     - languageCode: kor
       value: 남포특별시 (Namp'o T'ŭkpyŏlshi)
@@ -8,7 +8,7 @@ climates:
   - koppenCode: Dwa
     description: "Humid continental (hot-summer) — cold, dry winters and warm, humid summers, moderated near the Taedong estuary on the Yellow Sea coast."
 landmarks:
-  - name: West Sea Barrage (Nampho Dam)
+  - name: West Sea Barrage (Nampo Dam)
     description: "An eight-kilometre sea dam across the Taedong River estuary, a celebrated national-engineering landmark near Nampo."
   - name: Nampo port
     description: "A major Yellow Sea port serving Pyongyang and the west coast, an important centre for shipping and fisheries."
@@ -21,7 +21,6 @@ prideOf:
 animals:
   popular:
     - "Migratory waterfowl in the Taedong estuary and coastal marshes"
-    - "Fishery species and shellfish in the port waters"
   unique:
     - "Intertidal and estuarine species of the Yellow Sea coastline"
 industries:

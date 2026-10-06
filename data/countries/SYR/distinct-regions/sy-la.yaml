@@ -9,11 +9,10 @@ climates:
     description: Mediterranean climate on the coast — warm, dry summers and mild, rainy winters, with higher rainfall on the nearby Jebel Aqra and coastal mountains.
 landmarks:
   - name: The seafront and harbour of Latakia, Syria's principal port
-  - name: The medieval fort of Salah Ed-Din (Qal'at Salah El-Din)
+  - name: The medieval fort of Salah Ed-Din (Qal'at Salah El-Din; one tower destroyed in the February 2023 earthquake)
     unescoWorldHeritage: true
   - name: The ancient ruins of Ras Shamra (Ugarit) nearby
   - name: The Alawite-mountain villages and pine forests of the hinterland
-  - name: The Orontes river lands and the coastal plain
 culturalTraits:
   - "The 'gateway to the sea' of Syria — its main Mediterranean port and coastal city"
   - "A relaxed, maritime and agricultural way of life on the fertile coastal plain"
@@ -29,7 +28,6 @@ animals:
     - Goat
     - Domestic sheep
   unique:
-    - Persian leopard (in the mountains)
     - Mediterranean monk seal (occasionally in coastal waters, rare)
 industries:
   - Port, shipping and logistics

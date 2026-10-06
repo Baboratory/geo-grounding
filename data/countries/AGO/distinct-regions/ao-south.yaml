@@ -14,6 +14,8 @@ landmarks:
     description: "Stark, iconic Atlantic desert with the ancient Welwitschia plant."
   - name: Tundavala Gap (Fenda da Tundavala)
     description: "Dramatic canyon on the Serra da Leba escarpment near Lubango, Huíla province, with a 2,200m rim overlooking the plain toward Moçâmedes."
+  - name: Huíla plateau
+    description: "Highland plateau around Lubango in Huíla province."
   - name: Lunda plateau diamond fields
     description: "Historic diamond-mining regions of the east."
   - name: South Kunene wildlife corridor
@@ -33,8 +35,7 @@ animals:
     - "Lion"
     - "Springbok and gemsbok"
     - "Desert-adapted species"
-  unique:
-    - "Welwitschia mirabilis - an ancient, near-endemic desert plant of the Namib"
+  unique: []
 industries:
   - "Livestock (cattle, goats) and dryland farming"
   - "Fishing and fish processing (Namibe coast)"

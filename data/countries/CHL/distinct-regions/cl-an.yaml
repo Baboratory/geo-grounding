@@ -16,9 +16,6 @@ landmarks:
     description: "One of the world's largest open-pit copper mines (near Calama)."
   - name: El Tatio Geysers
     description: "A high-altitude geyser field at over 4,300 m."
-  - name: Humberstone and Santa Laura Saltpeter Works
-    description: "UNESCO-listed ghost towns of the nitrate (salitre) boom era."
-    unescoWorldHeritage: true
 culturalTraits:
   - "The mining and desert heart of Chile — copper, lithium and the legacy of the nitrate era"
   - "Atacameño (Lickanantay) indigenous heritage around San Pedro"
@@ -28,7 +25,6 @@ prideOf:
   - "Being the world's copper and lithium powerhouse"
   - "The surreal landscapes of the Atacama Desert"
   - "Hosting the European Southern Observatory (Paranal) and ALMA"
-  - "The UNESCO-listed nitrate-era pampas towns"
 animals:
   popular:
     - "Andean flamingo on the salt flats"

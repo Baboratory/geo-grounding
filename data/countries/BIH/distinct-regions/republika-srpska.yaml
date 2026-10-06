@@ -14,6 +14,9 @@ landmarks:
     description: "Mountain parks in the Dinaric Alps, sites of major Second World War battles and memorials."
   - name: Andrićgrad (Višegrad)
     description: "Recreated ethno-town inspired by the writer Ivo Andrić, near the Drina bridge."
+  - name: Mehmed Paša Sokolović Bridge in Višegrad
+    description: "Ottoman-era bridge over the Drina, a Unesco-listed engineering landmark."
+    unescoWorldHeritage: true
 culturalTraits:
   - Orthodox Christian cultural heritage
   - Rich folk music and kolo dance tradition
@@ -25,7 +28,7 @@ animals:
     - Brown bear
     - Chamois
   unique:
-    - Dinaric Balkan lynx
+    - Eurasian (Dinaric) lynx
 industries:
   - Timber and forestry
   - Food processing

@@ -8,6 +8,8 @@ climates:
   - koppenCode: Am
     description: "Tropical monsoon climate near Lake Victoria, warm and humid with a marked wet season."
 landmarks:
+  - name: Basilica of the Uganda Martyrs, Namugongo
+    description: "Roman Catholic minor basilica (decreed 1993) at Namugongo, Kira Municipality, Wakiso District; shrine of the 1886 Uganda Martyrs."
   - name: Entebbe Botanical Gardens
     description: "Historic lakeside gardens (1901) famed for their collection of tropical plants."
   - name: Uganda Wildlife Conservation Education Centre (Entebbe Zoo)

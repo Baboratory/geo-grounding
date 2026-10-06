@@ -12,6 +12,7 @@ landmarks:
     description: "Near Manaus the dark Rio Negro meets the sandy Amazon, running side by side for miles."
   - name: The Teatro Amazonas in Manaus
     description: "The opulent 19th-century opera house of the rubber-boom capital."
+    unescoWorldHeritage: true
   - name: Anavilhanas Archipelago
     description: "One of the world's largest river archipelagos, in the Rio Negro."
   - name: Indigenous territories and river communities
@@ -29,7 +30,7 @@ animals:
     - "Jaguar, giant river otter, tapir, anaconda"
     - "Toucans, macaws, poison-dart frogs"
   unique:
-    - "The electric eel and the pirarucu — the world's largest freshwater fish"
+    - "The electric eel and the pirarucu — one of the world's largest freshwater fish (the largest in South America)"
 industries:
   - "The Manaus Free Trade Zone (electronics, motorbikes) — the region's industrial pole"
   - "Mining and forestry (with environmental constraints)"

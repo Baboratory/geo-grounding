@@ -9,7 +9,7 @@ climates:
     description: Hot desert climate along the Red Sea coast and in the inland Hijaz valleys — very hot summers, mild winters, low rainfall.
 landmarks:
   - name: Masjid al-Haram (the Grand Mosque) and the Kaaba, Makkah
-    unescoWorldHeritage: true
+    unescoWorldHeritage: false
   - name: The Abraj Al Bait (Makkah Royal Clock Tower)
   - name: Jabal al-Nour and the Hira cave (where the Quran is held to have been revealed)
   - name: Jeddah Historic District (Al-Balad)
@@ -31,7 +31,7 @@ animals:
     - Sand gazelle
   unique:
     - Red Sea coral reef species
-    - Arabian leopard (in the nearby Hijaz hills)
+    - Arabian leopard (critically endangered; possibly extinct in Saudi Arabia, last recorded 2002)
 industries:
   - Religious tourism and the Hajj and Umrah services economy
   - Port and logistics (Jeddah Islamic Port, one of the region's largest)
@@ -58,7 +58,7 @@ entertainment:
 traditionalDishes:
   - season: allYear
     items:
-      - "Sailaniyah, mandi and kabsa — the rice-and-meat dishes of the Hejaz"
+      - "Saleeg (salig), mandi and kabsa — the rice-and-meat dishes of the Hejaz"
       - "Jeddah is famed for its Hijazi sweets and 'mofatahat'"
       - "Dates, Arabic coffee and the traditional 'hibiscus' (karkadeh) drink"
   - season: winter

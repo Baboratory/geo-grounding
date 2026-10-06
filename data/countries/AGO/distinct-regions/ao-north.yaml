@@ -17,6 +17,8 @@ landmarks:
     description: "Coastal reserve near Luanda for elephant and big-game viewing."
   - name: Kalandula Falls
     description: "Dramatic waterfall in Malanje province."
+  - name: Cangandala National Park (Kangandala)
+    description: "Protected range of the giant sable antelope, south of Malanje city."
 culturalTraits:
   - "The Kimbundu-speaking north coast and the Kongo heritage"
   - "Luanda as the national political, business and cultural capital"
@@ -31,6 +33,8 @@ animals:
     - "African elephant (Quiçama)"
     - "Giraffe"
     - "Coastal dolphins"
+  unique:
+    - "Giant sable antelope (Hippotragus niger variani), confined to the Cangandala and Luando reserves in Malanje province"
 industries:
   - "Oil & gas (offshore and Cabinda)"
   - "Government, finance and services (Luanda)"

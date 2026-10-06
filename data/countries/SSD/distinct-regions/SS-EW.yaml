@@ -30,8 +30,7 @@ animals:
     - "Forest birds (many species)"
     - "Antelope and small mammals of the woodland savanna"
     - "Monkeys"
-  unique:
-    - "Mahogany and other tropical hardwoods (a climate-biodiversity asset of the region)"
+  unique: []
 industries:
   - "Agriculture — coffee, cassava, maize, groundnuts, sesame, pineapples"
   - "Timber / hardwood production (teak, mahogany)"

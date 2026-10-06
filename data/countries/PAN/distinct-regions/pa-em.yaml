@@ -13,17 +13,17 @@ landmarks:
   - name: Darién rainforest
     description: "The roadless, extraordinarily biodiverse tropical forest at the Colombia frontier — the 'Darién Gap'."
   - name: Emberá-Wounaan Comarca
-    description: "Self-governing indigenous territory (est. 1983) of the Emberá and Woun Meu peoples along the Chucunaque and Sambú rivers."
+    description: "Self-governing indigenous territory (est. 1983) of the Emberá and Wounaan peoples along the Chucunaque and Sambú rivers."
   - name: Darién National Park
     description: "A vast world heritage rainforest spanning the Panama-Colombia border."
     unescoWorldHeritage: true
 culturalTraits:
-  - "Emberá and Woun Meu river-forest cultures"
+  - "Emberá and Wounaan river-forest cultures"
   - "Dugout-canoe travel, thatched riverine villages and traditional body/basket art"
   - "Strong communal riverine livelihoods and respect for the forest"
 prideOf:
   - "Darién's pristine, world-heritage wilderness"
-  - "Emberá and Woun Meu cultural resilience and their collective territory"
+  - "Emberá and Wounaan cultural resilience and their collective territory"
 animals:
   popular:
     - "Jaguar, puma and other big cats of Darién"
@@ -45,4 +45,4 @@ businessRhythm:
   restDays:
     - sunday
   typicalWorkHours: "Riverine and village-based life; travel is by dugout or small aircraft, and activity follows the river and farming cycle."
-  notes: "The Darién and the Emberá-Wounaan Comarca are remote and forest-dependent; community and customary governance shape life. Access is limited — respect for territorial authority, the environment and Emberá/Woun Meu self-determination is essential."
+  notes: "The Darién and the Emberá-Wounaan Comarca are remote and forest-dependent; community and customary governance shape life. Access is limited — respect for territorial authority, the environment and Emberá/Wounaan self-determination is essential."

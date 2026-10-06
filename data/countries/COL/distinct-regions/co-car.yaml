@@ -25,8 +25,7 @@ animals:
   popular:
     - Flamingos (Guajira)
     - Howler monkeys
-  unique:
-    - Pink river dolphins (occasional)
+  unique: []
 industries:
   - Tourism
   - Port commerce (Cartagena, Barranquilla, Santa Marta)

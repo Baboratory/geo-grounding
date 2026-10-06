@@ -11,7 +11,7 @@ landmarks:
   - name: Zeugma Mosaic Museum
     description: "One of the world's largest and finest mosaic museums, home to the famed 'Gypsy Girl' (Çingene Kızı) and Roman floor mosaics."
     unescoWorldHeritage: false
-  - name: "Gaziantep Castle (Gaziantep Kalesi)"
+  - name: "Gaziantep Castle (Gaziantep Kalesi; eastern and southern bastions collapsed in the February 2023 earthquake; restoration began September 2023)"
     description: "A hilltop fortress symbolizing the city and the heroic 'Gazi' (veteran) defense in the War of Independence."
     unescoWorldHeritage: false
   - name: "Bakırcılar Çarşısı (Coppersmiths Bazaar)"
@@ -38,7 +38,6 @@ animals:
     - Pigeons (raised for racing, a local tradition)
   unique:
     - "Antep (Anatolian) honeybee"
-    - "Çağlayan gazelle (local wildlife)"
 industries:
   - "Pistachio (Antep fıstığı) and food processing"
   - "Baklava and confectionery production (PDO Antep baklavası)"

@@ -10,8 +10,6 @@ climates:
 landmarks:
   - name: Chongjin
     description: "A major northeastern port and industrial city on the East Sea (Sea of Japan) coast, among the country's three largest cities."
-  - name: Rajin-Sonbong economic zone (shared southern edge)
-    description: "The broader Rason special economic zone country's first SEZ, at the border with China and Russia (see KP-13)."
 culturalTraits:
   - "A northeastern industrial and mining axis bordering China and Russia"
   - "Strong maritime and steel/chemical character centred on Chongjin"

@@ -30,8 +30,7 @@ animals:
   popular:
     - "Formosan rock macaque"
     - "White egrets (abundant in urban wetlands)"
-  unique:
-    - "Formosan rock macaque — found in the forested hills at the city's edge"
+  unique: []
 industries:
   - "Port and logistics (Kaohsiung is Taiwan's largest container port)"
   - "Steel, petrochemicals and heavy industry"

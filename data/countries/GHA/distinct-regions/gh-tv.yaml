@@ -18,15 +18,13 @@ landmarks:
     description: "Ghana's highest point, near Hohoe, with panoramic views."
   - name: Fort Prinzenstein, Keta
     description: "Historic Danish fort on the Keta Lagoon, a trans-Atlantic slave-trade site."
-  - name: Kyabobo National Park
-    description: "Highland forest and savanna reserve on the Togolese border, home to elephants and duikers."
 culturalTraits:
   - "Heartland of the Ewe people and the Ewe language"
   - "Historical legacy of the former German Togoland / British Togoland trust territory, joined to Ghana by the 1956 plebiscite"
   - "Rich Ewe drumming and dance (e.g. the 'agbadza'), weaving and the Agbozume kente market"
   - "Festive culture — the Hogbetsotso festival of the Anlo people commemorates the Ewe exodus from Notsie (in modern Togo)"
 prideOf:
-  - "Lake Volta and the Akosombo hydroelectric dam"
+  - "Lake Volta and the Akosombo hydroelectric dam (dam in Eastern Region, at the lake's southern outlet)"
   - "Wli Falls and Mount Afadjato, Ghana's highest peak"
   - "Ewe cultural heritage, drumming and the Hogbetsotso festival"
   - "The region's distinctive history as a former trust territory"
@@ -38,7 +36,7 @@ animals:
     - "West African manatee (rare, Volta system)"
   unique:
     - "Sea turtles nesting on the Keta coast"
-    - "Audouin's/endemic coastal birdlife at Keta Lagoon Ramsar site"
+    - "Coastal birdlife at Keta Lagoon Ramsar site"
     - "Grey duiker"
 industries:
   - "Agriculture (maize, cassava, yams and vegetables)"
@@ -64,7 +62,7 @@ entertainment:
   - season: wet
     items:
       - "Indoor weaving and craft activities"
-      - "Mountain-side retreats and rainforest birdwatching (Afadjato, Kyabobo)"
+      - "Mountain-side retreats and rainforest birdwatching (Afadjato)"
 traditionalDishes:
   - season: allYear
     items:

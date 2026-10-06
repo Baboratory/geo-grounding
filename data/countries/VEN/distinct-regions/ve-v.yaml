@@ -9,7 +9,7 @@ climates:
     description: Hot tropical climate dominated by Lake Maracaibo, with a marked dry season and frequent spectacular lightning storms over the lake (Catatumbo).
 landmarks:
   - name: Lake Maracaibo and the Catatumbo lightning (Relámpago del Catatumbo)
-  - name: Palacio de las Águilas, Maracaibo
+  - name: Palacio de los Cóndores (Government Palace), Maracaibo
   - name: Puente General Rafael Urdaneta (bridge over the lake)
   - name: Guajira peninsula
 culturalTraits:
@@ -24,8 +24,7 @@ animals:
   popular:
     - Flamingos (Guajira)
     - Howler monkeys
-  unique:
-    - Catatumbo lightning / Lake Maracaibo ecosystem species
+  unique: []
 industries:
   - Oil and gas (the Maracaibo basin is Venezuela's historic oil heartland)
   - Petrochemicals (Paraguaná refining complex nearby)

@@ -16,7 +16,6 @@ landmarks:
     description: The mountain range that rises directly behind Innsbruck, reached by the Hungerburgbahn cable car amid the 'Alpine metropolis'.
   - name: Schloss Ambras
     description: A Renaissance hilltop castle above Innsbruck, home of the Habsburg archduke Ferdinand II's collections.
-    unescoWorldHeritage: true
   - name: Kitzbühel (the Hahnenkamm)
     description: The legendary resort whose Streif is one of the world's most demanding downhill ski races, part of the Hahnenkamm Races.
   - name: Stubai and Zillertal glaciers
@@ -38,7 +37,7 @@ animals:
     - "Marmots and golden eagles above the valleys"
     - "Cattle and traditional Tyrolean grey cattle in the summer 'Alm' pastures"
   unique:
-    - "The Tyrolean grey cattle (Grauvieh), an Alpine breed, and the cave-dwelling Alpine newt"
+    - "The Tyrolean grey cattle (Grauvieh), an Alpine breed, and the Alpine newt of the mountain ponds"
 industries:
   - "Tourism and winter sports (the backbone of the Tyrolean economy, year-round but Alpine-season heavy)"
   - "Machinery and precision engineering (e.g. around Innsbruck and Schwaz)"

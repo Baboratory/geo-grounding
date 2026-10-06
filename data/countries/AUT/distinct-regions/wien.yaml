@@ -17,7 +17,7 @@ landmarks:
   - name: Vienna State Opera (Wiener Staatsoper)
     description: One of the world's leading opera houses on the Ringstrasse, home of the famous Vienna Philharmonic's New Year's Concert.
   - name: Museumsquartier and the Secession
-    description: Vienna's art quarters, from the historic Museumsquartier to the art-nouveau Secession building (the 'Beethoven Frieze' and Klimt's 'Beethoven Frieze' adjoin it).
+    description: Vienna's art quarters, from the historic Museumsquartier to the art-nouveau Secession building (home of Klimt's 'Beethoven Frieze').
   - name: The Viennese Coffeehouses and the Danube
     description: The café culture recognised by UNESCO, and the Danube island and riverside leisure areas of the city.
 culturalTraits:
@@ -34,7 +34,7 @@ prideOf:
 animals:
   popular:
     - "Urban red foxes and hedgehogs in the parks and gardens"
-    - "Grey squirrels and diverse songbirds in the Stadtpark and at the Danube"
+    - "Diverse songbirds in the Stadtpark and at the Danube"
     - "The famous Lipizzaner horses of the Spanish Riding School (housed in the Hofburg)"
   unique:
     - "The Lipizzaner: the world-renowned classical dressage lineage of the Spanish Riding School"

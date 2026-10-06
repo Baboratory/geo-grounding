@@ -36,10 +36,8 @@ animals:
   popular:
     - "Dromedary camels (the heart of the pastoral economy)"
     - "Somali cattle (zebu), goats, and sheep"
-    - "Grévy's zebra and Somali wild ass in the arid lowlands"
     - "Greater kudu and other antelope"
-  unique:
-    - "Somali wild ass (Equus africanus somaliensis) and Grévy's zebra are iconic arid-zone species here"
+  unique: []
 industries:
   - "Livestock and animal husbandry — the region is Ethiopia's largest livestock producer (camels, cattle, sheep, goats)"
   - "Cross-border livestock and goods trade with Somalia and Djibouti (incl. export via Berbera and Djibouti ports)"

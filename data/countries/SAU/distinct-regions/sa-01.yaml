@@ -12,7 +12,7 @@ landmarks:
     unescoWorldHeritage: true
   - name: Kingdom Centre Tower and the Riyadh skyline
   - name: Masmak Fortress (historic Riyadh)
-  - name: Al Faisaliyah and Rakah malls and the National Museum of Saudi Arabia
+  - name: Al Faisaliyah mall and the National Museum of Saudi Arabia
   - name: Edge of the World (Jebel Fihrayn)
 culturalTraits:
   - "The political and administrative heart of the Kingdom — seat of government and the royal family"
@@ -62,7 +62,7 @@ traditionalDishes:
       - "Dates and Arabic coffee"
   - season: winter
     items:
-      - "Warm Najdi stews (jasheed) in the cooler months"
+      - "Warm Najdi stews (jareesh) in the cooler months"
 traditionalClothing:
   - season: allYear
     items:

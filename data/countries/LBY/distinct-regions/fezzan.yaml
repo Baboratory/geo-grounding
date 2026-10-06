@@ -44,7 +44,6 @@ animals:
     - "Fennec foxes"
     - "Dorcas gazelle"
   unique:
-    - "Critically endangered addax antelope and Saharan dama/rhim gazelles in the remote uninhabited reaches"
     - "Desert-adapted reptiles (Uromastyx spiny-tailed lizards) and scorpions"
 industries:
   - "Dates and oasis agriculture (palm groves along wadis and around oases)"
@@ -78,7 +77,7 @@ traditionalDishes:
     items:
       - "Couscous and bazeen, with an emphasis on dates, millet/wheat and dried meat (in desert tradition)"
       - "Fresh dates (many oasis varieties) and date-based sweets"
-      - "Berbere/lamb stews and 'rezz' (rice) dishes with Saharan spices"
+      - "Lamb stews with Saharan spices and 'rezz' (rice) dishes"
   - season: summer
     items:
       - "Light dishes, fresh dates and cool drinks to cope with the heat"

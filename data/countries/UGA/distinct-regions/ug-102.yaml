@@ -13,10 +13,8 @@ landmarks:
   - name: Kasubi Tombs
     description: "A UNESCO World Heritage Site — the burial grounds of the Buganda kings, with traditional Ganda architecture."
     unescoWorldHeritage: true
-  - name: Uganda Martyrs Cathedral (Namugongo)
-    description: "A site of pilgrimage honouring the 1886 Uganda Martyrs."
   - name: Bahá'í House of Worship
-    description: "One of only seven Bahá'í temples in the world, set on Kikaya Hill."
+    description: "One of eight continental Bahá'í Houses of Worship in the world, set on Kikaya Hill."
   - name: Uganda Museum
     description: "The oldest museum in East Africa, presenting Uganda's ethnography, culture and natural history."
   - name: Lake Victoria (Speke Resort and Ggaba beach)

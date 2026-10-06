@@ -10,7 +10,6 @@ climates:
 landmarks:
   - name: The Umayyad Mosque (the Great Mosque of Damascus)
   - name: The Old City of Damascus (Straight Street, the Souk al-Hamidiyya)
-  - name: Sayyidah Zaynab shrine and the surrounding old quarter
   - name: The Palmyra caravan route gate and the ancient city walls
   - name: The National Museum of Damascus
 culturalTraits:
@@ -27,8 +26,7 @@ animals:
   popular:
     - Goat
     - Domestic sheep
-  unique:
-    - Persian leopard (in the vanishing mountain surroundings)
+  unique: []
 industries:
   - Government and public administration
   - Trade, retail and the craft industries of the old city

@@ -34,9 +34,7 @@ animals:
   popular:
     - "Rufous hornero in parks and streets"
     - "Pigeons and parrots in green spaces"
-    - "Coatis occasionally around the Botanical Garden"
-  unique:
-    - "The woolly red-furred coati of nearby ecosystems"
+  unique: []
 industries:
   - "Finance, services and the national government"
   - "Technology and startup hub ('Argentina's Silicon Valley' around Palermo/San Telmo)"

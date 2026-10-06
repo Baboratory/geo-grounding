@@ -16,8 +16,6 @@ landmarks:
     description: "Historic Swahili and Omani-influenced quarters with coral-stone buildings, balconies and arched doorways."
   - name: Mombasa Marine National Park
     description: "A protected coral reef park off Mombasa for snorkelling and diving."
-  - name: Gedi Ruins
-    description: "Ancient Swahili city ruins just inland, remnants of a great medieval East African trading town."
 culturalTraits:
   - "Kenya's second city and principal seaport on the Indian Ocean"
   - "A historic Swahili, Arab and Asian trading crossroads with a distinctive coast cuisine and dialect"
@@ -38,7 +36,7 @@ industries:
   - "Port and shipping — Mombasa is East Africa's busiest port"
   - "Tourism and beach resorts"
   - "Fishing and seafood processing"
-  - "Refining and logistics (Korea/India/Alba refineries and coastal industry)"
+  - "Storage and logistics (KPRL refinery complex, shut 2013 and now an oil storage depot; Mombasa port)"
 sports:
   - "Football"
   - "Athletics"

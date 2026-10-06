@@ -11,7 +11,7 @@ landmarks:
   - name: Comarca self-governance
     description: "The country's most populous comarca (est. 1997), governed by its own congress with customary Ngäbe-Buglé authority."
   - name: High-elevation cloud forest
-    description: "Mist-shrouded mountains around the Chiriquí border, home to rich biodiversity and the rose-crowned 'Royal' Quetzal country."
+    description: "Mist-shrouded mountains around the Chiriquí border, home to rich biodiversity and the resplendent quetzal country."
 culturalTraits:
   - "Ngäbe and Buglé indigenous culture — the largest indigenous population in Panama (~64% of indigenous people are Ngäbe)"
   - "Strong community and subsistence agriculture; traditional dress (the 'näwä' women's skirt and collar)"
@@ -21,7 +21,7 @@ prideOf:
   - "Their highland homeland and collective land rights in the comarca"
 animals:
   popular:
-    - "Harpy eagle and quetzals in the montane forest"
+    - "Quetzals in the montane forest; harpy eagle in the lowland forest"
     - "Agouti, paca (tepezcuintle), and howler monkeys"
 traditionalDishes:
   - season: allYear

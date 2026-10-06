@@ -8,11 +8,11 @@ climates:
   - koppenCode: BWh
     description: Hot desert climate near the Persian Gulf — among the hottest places on Earth in summer, mild winters, very low rainfall.
 landmarks:
-  - name: The mouth of the Tigris and the Shanshan palaces along the Shatt al-Arab
+  - name: The mouth of the Tigris and the Shanasheel balcony-houses along the Shatt al-Arab
   - name: Basra's old city and its historic canals and houses
-  - name: The Urdu/Sindbad legend — the city of Sinbad the Sailor
+  - name: The Sindbad legend — the city of Sinbad the Sailor
   - name: Basra National Museum
-  - name: The Grand Mosque of Basra (the city that took its name from the surrounding marsh country)
+  - name: The Grand Mosque of Basra
 culturalTraits:
   - "The gateway of Iraq to the Gulf — the country's principal seaport and oil-export terminal"
   - "A proud maritime and trading heritage along the Shatt al-Arab waterway"
@@ -29,7 +29,6 @@ animals:
     - Water buffalo (in the surrounding marshes)
     - Goat
   unique:
-    - Mesopotamian spinner dolphin (in the Gulf waters offshore)
     - Marsh wildlife during the wetland season
 industries:
   - Oil extraction and export (the southern oil fields and the port terminals)

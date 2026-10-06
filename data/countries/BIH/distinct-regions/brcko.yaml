@@ -14,8 +14,8 @@ climates:
 landmarks:
   - name: Brčko city
     description: "The district's administrative centre and main port on the Sava river."
-  - name: Gondola across the Sava
-    description: "Footbridge/gondola connection over the Sava river between Brčko and Croatia."
+  - name: Brčko-Gunja bridge over the Sava
+    description: "Steel bridge over the Sava between Brčko and Gunja, a border crossing to Croatia."
 culturalTraits:
   - Self-governing neutral district with Bosniak, Serb and Croat populations
   - Riverside and market-town character
@@ -59,7 +59,6 @@ traditionalDishes:
   - season: allYear
     items:
       - Ćevapi
-      - Fleška (river fish dishes)
   - season: winter
     items:
       - Hot stews and grilled meze

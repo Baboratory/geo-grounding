@@ -24,8 +24,7 @@ animals:
   popular:
     - Andean condor
     - Spectacled bear
-  unique:
-    - Páramo flora (frailejones) and Andean fauna
+  unique: []
 industries:
   - Coffee and agriculture
   - Tourism (Mérida cable car, paramo)

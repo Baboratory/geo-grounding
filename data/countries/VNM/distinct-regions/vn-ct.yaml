@@ -27,9 +27,7 @@ animals:
   popular:
     - "Herons, egrets and storks at the sanctuaries"
     - "Water buffalo and Mekong Delta fish species"
-  unique:
-    - "The Irrawaddy dolphin (rare, in the Mekong's lower reaches)"
-    - "Mekong giant catfish"
+  unique: []
 industries:
   - "Agriculture — rice, fruit, and aquaculture (the delta is Vietnam's breadbasket)"
   - "River trade and logistics"

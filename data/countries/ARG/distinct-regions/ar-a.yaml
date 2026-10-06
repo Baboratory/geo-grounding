@@ -12,7 +12,7 @@ climates:
   - koppenCode: ET
     description: "Tundra in the high Puna/Andes at altitude."
 landmarks:
-  - name: Salta de la Plaza (Catedral and Cabildo)
+  - name: Plaza 9 de Julio (Catedral and Cabildo)
     description: "The colonial heart of Salta, an Andean city known as 'Salta la Linda'."
   - name: Tren a las Nubes
     description: "The famed 'Train to the Clouds' railway climbing into the high Andes."
@@ -28,7 +28,7 @@ culturalTraits:
   - "'Salta la Linda' pride and the Andean folk music (carnavalito, zamba) of the region"
   - "High-altitude (Puna) living and its distinctive festivals"
 prideOf:
-  - "The Tren a las Nubes and the high-Altinplano landscapes"
+  - "The Tren a las Nubes and the high-Altiplano landscapes"
   - "Torrontés wine of the Calchaquí Valleys"
   - "The Salinas Grandes salt flat"
   - "Andean indigenous and colonial heritage"

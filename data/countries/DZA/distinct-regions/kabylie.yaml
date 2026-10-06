@@ -16,11 +16,13 @@ landmarks:
     description: High mountain massif of the Kabylie region, with peaks over 2,300 m and snow in winter.
   - name: Gouraya National Park
     description: Coastal mountain park near Béjaïa overlooking the Mediterranean.
-  - name: Casbah of Béjaïa (Cape Carbon)
+  - name: Casbah of Béjaïa (old city)
     description: Historic citadel overlooking the bay of Béjaïa, antiquity-era port city.
+  - name: Cape Carbon lighthouse (1906)
+    description: Lighthouse built in 1906 on Cap Carbon, a headland west of Béjaïa.
 culturalTraits:
   - Strongest stronghold of Berber (Amazigh) language, identity, and culture in Algeria
-  - Oral Kabyle poetry, song (chanteuses and achawi), and village assemblies (tajma'at/thadjmaath)
+  - Oral Kabyle poetry, song (chanteuses), and village assemblies (tajma'at/thadjmaath)
   - Olive cultivation central to economy and cuisine; the region is dotted with olive groves
 prideOf:
   - The Berber language and Kabyle identity
@@ -29,9 +31,9 @@ prideOf:
 animals:
   popular:
     - Barbary macaque
-    - Alpine/owltle birds such as the Barbary partridge
+    - Upland game birds such as the Barbary partridge
   unique:
-    - Kabyle nuthatch (endemic bird of the Djurdjura forests)
+    - Kabyle nuthatch (endemic bird of the Babor forests of Petite Kabylie)
 industries:
   - Olive oil production
   - Small-scale artisanal crafts (jewellery, pottery, weaving)

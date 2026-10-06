@@ -21,9 +21,6 @@ landmarks:
     unescoWorldHeritage: true
   - name: Samarkand Observatory (Ulugh Beg)
     description: "Foundations of the 15th-century sextant that measured the sky."
-  - name: Shakhrisabz
-    description: "Amir Timur's birthplace with its great palace ruins."
-    unescoWorldHeritage: true
 culturalTraits:
   - "The glorious heart of the Silk Road — Samarkand and Bukhara are among the world's most storied cities"
   - "A rich Persian-Tajik cultural substrate alongside Uzbek identity (many residents speak Tajik at home)"

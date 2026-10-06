@@ -9,15 +9,15 @@ climates:
     description: "Humid subtropical, similar to Taipei with hot humid summers and mild damp winters; the east-coast districts (Ruifang) are rainier."
 landmarks:
   - name: Jiufen Old Street
-    description: "A mountain-hillside old town famous for its teahouses, lanterns and sea views — inspiration for the town in the film Spirited Away."
+    description: "A mountain-hillside old town famous for its teahouses, lanterns and sea views — often compared to the town in the film Spirited Away."
   - name: Shifen Waterfall and Pingxi Lanterns
     description: "A scenic waterfall and the famous sky-lantern release site at Pingxi, along the old railway."
   - name: Yehliu Geopark
     description: "Dramatic coastal rock formations, including the iconic 'Queen's Head' sea stack."
-  - name: Keelung (Jiufen/Ruifang historic gold-mining town)
-    description: "Historic gold-mining and port areas of the northeast coast."
+  - name: Jinguashi and Jiufen (historic gold-mining towns, Ruifang District)
+    description: "Historic gold-mining towns in Ruifang District, New Taipei City."
   - name: Fulong Beach
-    description: "Taiwan's most popular northern beach resort, at the northern tip of the island."
+    description: "Taiwan's most popular northern beach resort, at Gongliao on the northeast coast."
 culturalTraits:
   - "Taiwan's most populous special municipality, encircling the capital Taipei"
   - "A diverse mix of urban districts, industrial zones and scenic northeast-coast towns"
@@ -30,8 +30,7 @@ animals:
   popular:
     - "Formosan rock macaque"
     - "Sea birds along the north-coast cliffs"
-  unique:
-    - "Yehliu's coastal rock formations host endemic coastal flora and seabirds"
+  unique: []
 industries:
   - "Manufacturing and logistics (industrial districts surrounding Taipei)"
   - "Port activities (Keelung) and fisheries"

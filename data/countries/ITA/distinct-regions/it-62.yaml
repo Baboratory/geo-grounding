@@ -64,11 +64,11 @@ traditionalDishes:
   - season: winter
     items:
       - Pasta all'amatriciana (hearty winter dish, from Amatrice)
-      - Brodetto / Roman-Jewish artichokes (carciofi alla giudia) in season
+      - Roman-Jewish artichokes (carciofi alla giudia) in season
 traditionalClothing:
   - season: allYear
     items:
-      - Mainly contemporary dress; a special Roman-Jewish gastronomic and cultural festival identity rather than a distinct costume
+      - Mainly contemporary dress
 seasonCalendar:
   - season: spring
     months: [3, 4, 5]

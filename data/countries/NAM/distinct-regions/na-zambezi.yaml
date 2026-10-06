@@ -17,8 +17,6 @@ landmarks:
     description: "The main town of the Zambezi region on the Zambezi River."
   - name: The Zambezi River & floodplains
     description: "Riverine wetlands and floodplain farming fed by the Zambezi."
-  - name: The Okavango panhandle fringe
-    description: "Riverine wetlands where the delta system begins."
 culturalTraits:
   - "Silozi-speaking riverine identity tied to the Zambezi basin"
   - "Floodplain subsistence farming (maize, millet) and fishing"
@@ -31,7 +29,7 @@ prideOf:
 animals:
   popular:
     - "Hippopotamus (Zambezi)"
-    - "African elephant (Mudumu/Mamili reserves)"
+    - "African elephant (Mudumu/Nkasa Rupara national parks)"
     - "African buffalo"
   unique:
     - "Riverine wetland birdlife and crocodile populations"

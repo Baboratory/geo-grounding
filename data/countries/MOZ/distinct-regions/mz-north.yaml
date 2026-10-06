@@ -11,7 +11,7 @@ climates:
   - koppenCode: Aw
     description: "Tropical wet-and-dry (savanna) — hot year-round with a rainy season Nov-Apr and a cooler dry season May-Oct."
   - koppenCode: Am
-    description: "Tropical monsoon — along the humid northeast littoral (Nampula/Quelimane coast)."
+    description: "Tropical monsoon — along the humid northeast littoral (Nampula coast)."
 landmarks:
   - name: Island of Mozambique (Ilha de Moçambique)
     description: "UNESCO World Heritage fortified Swahili-Portuguese colonial settlement that gave the country its name."

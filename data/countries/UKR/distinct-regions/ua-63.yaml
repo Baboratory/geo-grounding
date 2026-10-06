@@ -11,7 +11,7 @@ landmarks:
   - name: Kharkiv Freedom Square (one of Europe's largest squares) and Derzhprom building
   - name: Annunciation Cathedral (Błahovishchenskyi)
   - name: Kharkiv's engineering and historic centre
-  - name: Gorky Park
+  - name: Central Park (formerly Gorky Park)
   - name: Shevchenko Garden and the Taras Shevchenko monument
 culturalTraits:
   - "Ukraine's second-largest city and a historic industrial, scientific and educational capital"
@@ -25,7 +25,7 @@ prideOf:
   - "Resilience through repeated wartime bombardment of the city"
 animals:
   popular:
-    - Hedges and park birds (great tit, starling)
+    - Park birds (great tit, starling)
     - Red fox (outskirts)
   unique:
     - Steppe undergrowth fauna on the urban fringe
@@ -42,7 +42,7 @@ sports:
 entertainment:
   - season: summer
     items:
-      - "Gorky Park summer rides and open-air concerts"
+      - "Central Park (formerly Gorky Park) summer rides and open-air concerts"
       - "Freedom Square city-centre events"
   - season: winter
     items:

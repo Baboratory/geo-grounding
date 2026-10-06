@@ -13,7 +13,7 @@ landmarks:
   - name: Chittagong Hill Tracts (Rangamati, Bandarban, Khagrachhari)
     description: "A mountainous, ethnically diverse region of indigenous communities, lakes and waterfalls, including the scenic Kaptai Lake."
   - name: Saint Martin's Island
-    description: "Bangladesh's only coral island, at the far south, ringed by clear water and beaches."
+    description: "Bangladesh's only coral island, at the far south, ringed by clear water and beaches. Visits are limited to November-January, capped at 2,000 a day, with QR-coded online tickets; day trips only in November; closed February-October."
   - name: Chattogram Port and the Mezban festival tradition
     description: "Bangladesh's principal seaport and the region's distinctive bull-mutton feast (mezban) tradition."
   - name: Foy's Lake and the city of Chattogram
@@ -28,7 +28,7 @@ prideOf:
   - "A resilient, entrepreneurial and welcoming regional identity"
 animals:
   popular:
-    - "Bengal tiger (Sundarbans-adjacent coastal area / historically)"
+    - "Bengal tiger (historically in the Hill Tracts forests; extinct there today)"
     - "Asian elephant (Hill Tracts)"
     - "Irrawaddy dolphin"
   unique:
