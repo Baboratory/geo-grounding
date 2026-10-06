@@ -142,6 +142,12 @@ identical-looking files, both validate cleanly, and both read as finished.
 
 ## After you open a PR
 
+A reviewer reads every PR, checks its facts against sources and checks the
+format against the rules here. Expect one of three outcomes: a request for
+changes (review comments on the PR; push fixes to the same branch), an
+acceptance, or an acceptance with corrections the reviewer makes afterwards
+(the closing comment lists them, so you can avoid them next time).
+
 If your change gets accepted, expect your PR to end up **closed, not
 merged** — the maintainers apply it and the closing comment references the
 commit that actually incorporated it. That's the normal outcome here, not
@@ -300,6 +306,44 @@ here too, just without the enforcement backstop:
 - If you're not sure something belongs in a specific curated region rather
   than the country generically, put it in the `WHOLE` file instead of
   guessing a region for it.
+
+### Mistakes reviews keep finding
+
+Reviewers add to this list whenever the same mistake shows up in more than
+one PR. Read it before you open one.
+
+- **"Endemic" and "found here" are claims about a range, not a name.**
+  Check where the species actually lives today. Examples: Preuss's guenon
+  (Cross River State only) copied into five other Nigerian states; the
+  Micronesian megapode listed for Pohnpei (it lives on Palau and the
+  Marianas); Siberian cranes at Keoladeo (none since 2002); West African
+  giraffe in Kano (extinct in Nigeria since 1998).
+- **A source used for a per-state or per-province number must break the
+  number down by state or province.** A national report cited for 35
+  different state religion splits supported none of them. If no source has
+  the subdivision figure, say it is an estimate and why, or leave it out.
+- **Check that the source says what you cite it for, and that the URL
+  opens.** Generated or "custom report" URLs, homepages and hosts that don't
+  resolve have all been caught. The same URL cited for two different sets of
+  numbers is a sign one of them is wrong.
+- **Language codes:** look the code up, don't guess it. `kan` is Kannada,
+  not Kanuri (`kau`); `kal` is Greenlandic, not Kalabari. A `name.local`
+  value must be the place's name in that language, not the language's name
+  (Chhattisgarhi for "Chhattisgarh" is छत्तीसगढ़, not छत्तीसगढ़ी).
+- **A negative claim needs a source too.** "X is not official here" or
+  "this lead does not hold" was wrong more than once (Haryana's Punjabi
+  status). Cite what disproves a claim, the same as what proves one.
+- **Check current events.** Renamed cities (Port Blair is Sri Vijaya
+  Puram), earthquake or war damage (Antakya 2023, Aleppo 2023), relegated or
+  dissolved clubs, closed or collapsed landmarks, festivals that moved.
+- **Don't fill a gap with something plausible.** Invented places ("Amir
+  Chaman" gardens, "Gidan Rufai", "Nagsagga Rock Formation") are worse than
+  a shorter list. If you can't source an entry, leave it out.
+- **Federal countries get one region file per first-level unit,** never a
+  group of several states in one file (DESIGN.md's coverage floor).
+- **YAML details that break validation:** an emptied list must be written
+  `[]`, not left as a bare key; a double quote inside a double-quoted
+  string must be escaped or replaced with a single quote.
 
 ## Naming conventions
 
